@@ -1,1 +1,109 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0lFUkMyMH0gZnJvbSAiLi4vLi4vdG9rZW4vRVJDMjAvSUVSQzIwLnNvbCI7CmltcG9ydCB7RVJDNDYyNn0gZnJvbSAiLi4vLi4vdG9rZW4vRVJDMjAvZXh0ZW5zaW9ucy9FUkM0NjI2LnNvbCI7CmltcG9ydCB7U2FmZUVSQzIwfSBmcm9tICIuLi8uLi90b2tlbi9FUkMyMC91dGlscy9TYWZlRVJDMjAuc29sIjsKaW1wb3J0IHtNYXRofSBmcm9tICIuLi8uLi91dGlscy9tYXRoL01hdGguc29sIjsKCi8vLyBAZGV2IEVSQy00NjI2IHZhdWx0IHdpdGggZW50cnkvZXhpdCBmZWVzIGV4cHJlc3NlZCBpbiBodHRwczovL2VuLndpa2lwZWRpYS5vcmcvd2lraS9CYXNpc19wb2ludFtiYXNpcyBwb2ludCAoYnApXS4KLy8vCi8vLyBOT1RFOiBUaGUgY29udHJhY3QgY2hhcmdlcyBmZWVzIGluIHRlcm1zIG9mIGFzc2V0cywgbm90IHNoYXJlcy4gVGhpcyBtZWFucyB0aGF0IHRoZSBmZWVzIGFyZSBjYWxjdWxhdGVkIGJhc2VkIG9uIHRoZQovLy8gYW1vdW50IG9mIGFzc2V0cyB0aGF0IGFyZSBiZWluZyBkZXBvc2l0ZWQgb3Igd2l0aGRyYXduLCBhbmQgbm90IGJhc2VkIG9uIHRoZSBhbW91bnQgb2Ygc2hhcmVzIHRoYXQgYXJlIGJlaW5nIG1pbnRlZCBvcgovLy8gcmVkZWVtZWQuIFRoaXMgaXMgYW4gb3BpbmlvbmF0ZWQgZGVzaWduIGRlY2lzaW9uIHRoYXQgc2hvdWxkIGJlIHRha2VuIGludG8gYWNjb3VudCB3aGVuIGludGVncmF0aW5nIHRoaXMgY29udHJhY3QuCi8vLwovLy8gV0FSTklORzogVGhpcyBjb250cmFjdCBoYXMgbm90IGJlZW4gYXVkaXRlZCBhbmQgc2hvdWxkbid0IGJlIGNvbnNpZGVyZWQgcHJvZHVjdGlvbiByZWFkeS4gQ29uc2lkZXIgdXNpbmcgaXQgd2l0aCBjYXV0aW9uLgphYnN0cmFjdCBjb250cmFjdCBFUkM0NjI2RmVlcyBpcyBFUkM0NjI2IHsKICAgIHVzaW5nIE1hdGggZm9yIHVpbnQyNTY7CgogICAgdWludDI1NiBwcml2YXRlIGNvbnN0YW50IF9CQVNJU19QT0lOVF9TQ0FMRSA9IDFlNDsKCiAgICAvLyA9PT0gT3ZlcnJpZGVzID09PQoKICAgIC8vLyBAZGV2IFByZXZpZXcgdGFraW5nIGFuIGVudHJ5IGZlZSBvbiBkZXBvc2l0LiBTZWUge0lFUkM0NjI2LXByZXZpZXdEZXBvc2l0fS4KICAgIGZ1bmN0aW9uIHByZXZpZXdEZXBvc2l0KHVpbnQyNTYgYXNzZXRzKSBwdWJsaWMgdmlldyB2aXJ0dWFsIG92ZXJyaWRlIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICB1aW50MjU2IGZlZSA9IF9mZWVPblRvdGFsKGFzc2V0cywgX2VudHJ5RmVlQmFzaXNQb2ludHMoKSk7CiAgICAgICAgcmV0dXJuIHN1cGVyLnByZXZpZXdEZXBvc2l0KGFzc2V0cyAtIGZlZSk7CiAgICB9CgogICAgLy8vIEBkZXYgUHJldmlldyBhZGRpbmcgYW4gZW50cnkgZmVlIG9uIG1pbnQuIFNlZSB7SUVSQzQ2MjYtcHJldmlld01pbnR9LgogICAgZnVuY3Rpb24gcHJldmlld01pbnQodWludDI1NiBzaGFyZXMpIHB1YmxpYyB2aWV3IHZpcnR1YWwgb3ZlcnJpZGUgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHVpbnQyNTYgYXNzZXRzID0gc3VwZXIucHJldmlld01pbnQoc2hhcmVzKTsKICAgICAgICByZXR1cm4gYXNzZXRzICsgX2ZlZU9uUmF3KGFzc2V0cywgX2VudHJ5RmVlQmFzaXNQb2ludHMoKSk7CiAgICB9CgogICAgLy8vIEBkZXYgUHJldmlldyBhZGRpbmcgYW4gZXhpdCBmZWUgb24gd2l0aGRyYXcuIFNlZSB7SUVSQzQ2MjYtcHJldmlld1dpdGhkcmF3fS4KICAgIGZ1bmN0aW9uIHByZXZpZXdXaXRoZHJhdyh1aW50MjU2IGFzc2V0cykgcHVibGljIHZpZXcgdmlydHVhbCBvdmVycmlkZSByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgdWludDI1NiBmZWUgPSBfZmVlT25SYXcoYXNzZXRzLCBfZXhpdEZlZUJhc2lzUG9pbnRzKCkpOwogICAgICAgIHJldHVybiBzdXBlci5wcmV2aWV3V2l0aGRyYXcoYXNzZXRzICsgZmVlKTsKICAgIH0KCiAgICAvLy8gQGRldiBQcmV2aWV3IHRha2luZyBhbiBleGl0IGZlZSBvbiByZWRlZW0uIFNlZSB7SUVSQzQ2MjYtcHJldmlld1JlZGVlbX0uCiAgICBmdW5jdGlvbiBwcmV2aWV3UmVkZWVtKHVpbnQyNTYgc2hhcmVzKSBwdWJsaWMgdmlldyB2aXJ0dWFsIG92ZXJyaWRlIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICB1aW50MjU2IGFzc2V0cyA9IHN1cGVyLnByZXZpZXdSZWRlZW0oc2hhcmVzKTsKICAgICAgICByZXR1cm4gYXNzZXRzIC0gX2ZlZU9uVG90YWwoYXNzZXRzLCBfZXhpdEZlZUJhc2lzUG9pbnRzKCkpOwogICAgfQoKICAgIC8vLyBAZGV2IFNlbmQgZW50cnkgZmVlIHRvIHtfZW50cnlGZWVSZWNpcGllbnR9LiBTZWUge0lFUkM0NjI2LV9kZXBvc2l0fS4KICAgIGZ1bmN0aW9uIF9kZXBvc2l0KGFkZHJlc3MgY2FsbGVyLCBhZGRyZXNzIHJlY2VpdmVyLCB1aW50MjU2IGFzc2V0cywgdWludDI1NiBzaGFyZXMpIGludGVybmFsIHZpcnR1YWwgb3ZlcnJpZGUgewogICAgICAgIHVpbnQyNTYgZmVlID0gX2ZlZU9uVG90YWwoYXNzZXRzLCBfZW50cnlGZWVCYXNpc1BvaW50cygpKTsKICAgICAgICBhZGRyZXNzIHJlY2lwaWVudCA9IF9lbnRyeUZlZVJlY2lwaWVudCgpOwoKICAgICAgICBzdXBlci5fZGVwb3NpdChjYWxsZXIsIHJlY2VpdmVyLCBhc3NldHMsIHNoYXJlcyk7CgogICAgICAgIGlmIChmZWUgPiAwICYmIHJlY2lwaWVudCAhPSBhZGRyZXNzKHRoaXMpKSB7CiAgICAgICAgICAgIFNhZmVFUkMyMC5zYWZlVHJhbnNmZXIoSUVSQzIwKGFzc2V0KCkpLCByZWNpcGllbnQsIGZlZSk7CiAgICAgICAgfQogICAgfQoKICAgIC8vLyBAZGV2IFNlbmQgZXhpdCBmZWUgdG8ge19leGl0RmVlUmVjaXBpZW50fS4gU2VlIHtJRVJDNDYyNi1fZGVwb3NpdH0uCiAgICBmdW5jdGlvbiBfd2l0aGRyYXcoCiAgICAgICAgYWRkcmVzcyBjYWxsZXIsCiAgICAgICAgYWRkcmVzcyByZWNlaXZlciwKICAgICAgICBhZGRyZXNzIG93bmVyLAogICAgICAgIHVpbnQyNTYgYXNzZXRzLAogICAgICAgIHVpbnQyNTYgc2hhcmVzCiAgICApIGludGVybmFsIHZpcnR1YWwgb3ZlcnJpZGUgewogICAgICAgIHVpbnQyNTYgZmVlID0gX2ZlZU9uUmF3KGFzc2V0cywgX2V4aXRGZWVCYXNpc1BvaW50cygpKTsKICAgICAgICBhZGRyZXNzIHJlY2lwaWVudCA9IF9leGl0RmVlUmVjaXBpZW50KCk7CgogICAgICAgIHN1cGVyLl93aXRoZHJhdyhjYWxsZXIsIHJlY2VpdmVyLCBvd25lciwgYXNzZXRzLCBzaGFyZXMpOwoKICAgICAgICBpZiAoZmVlID4gMCAmJiByZWNpcGllbnQgIT0gYWRkcmVzcyh0aGlzKSkgewogICAgICAgICAgICBTYWZlRVJDMjAuc2FmZVRyYW5zZmVyKElFUkMyMChhc3NldCgpKSwgcmVjaXBpZW50LCBmZWUpOwogICAgICAgIH0KICAgIH0KCiAgICAvLyA9PT0gRmVlIGNvbmZpZ3VyYXRpb24gPT09CgogICAgZnVuY3Rpb24gX2VudHJ5RmVlQmFzaXNQb2ludHMoKSBpbnRlcm5hbCB2aWV3IHZpcnR1YWwgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHJldHVybiAwOyAvLyByZXBsYWNlIHdpdGggZS5nLiAxMDAgZm9yIDElCiAgICB9CgogICAgZnVuY3Rpb24gX2V4aXRGZWVCYXNpc1BvaW50cygpIGludGVybmFsIHZpZXcgdmlydHVhbCByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgcmV0dXJuIDA7IC8vIHJlcGxhY2Ugd2l0aCBlLmcuIDEwMCBmb3IgMSUKICAgIH0KCiAgICBmdW5jdGlvbiBfZW50cnlGZWVSZWNpcGllbnQoKSBpbnRlcm5hbCB2aWV3IHZpcnR1YWwgcmV0dXJucyAoYWRkcmVzcykgewogICAgICAgIHJldHVybiBhZGRyZXNzKDApOyAvLyByZXBsYWNlIHdpdGggZS5nLiBhIHRyZWFzdXJ5IGFkZHJlc3MKICAgIH0KCiAgICBmdW5jdGlvbiBfZXhpdEZlZVJlY2lwaWVudCgpIGludGVybmFsIHZpZXcgdmlydHVhbCByZXR1cm5zIChhZGRyZXNzKSB7CiAgICAgICAgcmV0dXJuIGFkZHJlc3MoMCk7IC8vIHJlcGxhY2Ugd2l0aCBlLmcuIGEgdHJlYXN1cnkgYWRkcmVzcwogICAgfQoKICAgIC8vID09PSBGZWUgb3BlcmF0aW9ucyA9PT0KCiAgICAvLy8gQGRldiBDYWxjdWxhdGVzIHRoZSBmZWVzIHRoYXQgc2hvdWxkIGJlIGFkZGVkIHRvIGFuIGFtb3VudCBgYXNzZXRzYCB0aGF0IGRvZXMgbm90IGFscmVhZHkgaW5jbHVkZSBmZWVzLgogICAgLy8vIFVzZWQgaW4ge0lFUkM0NjI2LW1pbnR9IGFuZCB7SUVSQzQ2MjYtd2l0aGRyYXd9IG9wZXJhdGlvbnMuCiAgICBmdW5jdGlvbiBfZmVlT25SYXcodWludDI1NiBhc3NldHMsIHVpbnQyNTYgZmVlQmFzaXNQb2ludHMpIHByaXZhdGUgcHVyZSByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgcmV0dXJuIGFzc2V0cy5tdWxEaXYoZmVlQmFzaXNQb2ludHMsIF9CQVNJU19QT0lOVF9TQ0FMRSwgTWF0aC5Sb3VuZGluZy5DZWlsKTsKICAgIH0KCiAgICAvLy8gQGRldiBDYWxjdWxhdGVzIHRoZSBmZWUgcGFydCBvZiBhbiBhbW91bnQgYGFzc2V0c2AgdGhhdCBhbHJlYWR5IGluY2x1ZGVzIGZlZXMuCiAgICAvLy8gVXNlZCBpbiB7SUVSQzQ2MjYtZGVwb3NpdH0gYW5kIHtJRVJDNDYyNi1yZWRlZW19IG9wZXJhdGlvbnMuCiAgICBmdW5jdGlvbiBfZmVlT25Ub3RhbCh1aW50MjU2IGFzc2V0cywgdWludDI1NiBmZWVCYXNpc1BvaW50cykgcHJpdmF0ZSBwdXJlIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXR1cm4gYXNzZXRzLm11bERpdihmZWVCYXNpc1BvaW50cywgZmVlQmFzaXNQb2ludHMgKyBfQkFTSVNfUE9JTlRfU0NBTEUsIE1hdGguUm91bmRpbmcuQ2VpbCk7CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {IERC20} from "../../token/ERC20/IERC20.sol";
+import {ERC4626} from "../../token/ERC20/extensions/ERC4626.sol";
+import {SafeERC20} from "../../token/ERC20/utils/SafeERC20.sol";
+import {Math} from "../../utils/math/Math.sol";
+
+/// @dev ERC-4626 vault with entry/exit fees expressed in https://en.wikipedia.org/wiki/Basis_point[basis point (bp)].
+///
+/// NOTE: The contract charges fees in terms of assets, not shares. This means that the fees are calculated based on the
+/// amount of assets that are being deposited or withdrawn, and not based on the amount of shares that are being minted or
+/// redeemed. This is an opinionated design decision that should be taken into account when integrating this contract.
+///
+/// WARNING: This contract has not been audited and shouldn't be considered production ready. Consider using it with caution.
+abstract contract ERC4626Fees is ERC4626 {
+    using Math for uint256;
+
+    uint256 private constant _BASIS_POINT_SCALE = 1e4;
+
+    // === Overrides ===
+
+    /// @dev Preview taking an entry fee on deposit. See {IERC4626-previewDeposit}.
+    function previewDeposit(uint256 assets) public view virtual override returns (uint256) {
+        uint256 fee = _feeOnTotal(assets, _entryFeeBasisPoints());
+        return super.previewDeposit(assets - fee);
+    }
+
+    /// @dev Preview adding an entry fee on mint. See {IERC4626-previewMint}.
+    function previewMint(uint256 shares) public view virtual override returns (uint256) {
+        uint256 assets = super.previewMint(shares);
+        return assets + _feeOnRaw(assets, _entryFeeBasisPoints());
+    }
+
+    /// @dev Preview adding an exit fee on withdraw. See {IERC4626-previewWithdraw}.
+    function previewWithdraw(uint256 assets) public view virtual override returns (uint256) {
+        uint256 fee = _feeOnRaw(assets, _exitFeeBasisPoints());
+        return super.previewWithdraw(assets + fee);
+    }
+
+    /// @dev Preview taking an exit fee on redeem. See {IERC4626-previewRedeem}.
+    function previewRedeem(uint256 shares) public view virtual override returns (uint256) {
+        uint256 assets = super.previewRedeem(shares);
+        return assets - _feeOnTotal(assets, _exitFeeBasisPoints());
+    }
+
+    /// @dev Send entry fee to {_entryFeeRecipient}. See {IERC4626-_deposit}.
+    function _deposit(address caller, address receiver, uint256 assets, uint256 shares) internal virtual override {
+        uint256 fee = _feeOnTotal(assets, _entryFeeBasisPoints());
+        address recipient = _entryFeeRecipient();
+
+        super._deposit(caller, receiver, assets, shares);
+
+        if (fee > 0 && recipient != address(this)) {
+            SafeERC20.safeTransfer(IERC20(asset()), recipient, fee);
+        }
+    }
+
+    /// @dev Send exit fee to {_exitFeeRecipient}. See {IERC4626-_deposit}.
+    function _withdraw(
+        address caller,
+        address receiver,
+        address owner,
+        uint256 assets,
+        uint256 shares
+    ) internal virtual override {
+        uint256 fee = _feeOnRaw(assets, _exitFeeBasisPoints());
+        address recipient = _exitFeeRecipient();
+
+        super._withdraw(caller, receiver, owner, assets, shares);
+
+        if (fee > 0 && recipient != address(this)) {
+            SafeERC20.safeTransfer(IERC20(asset()), recipient, fee);
+        }
+    }
+
+    // === Fee configuration ===
+
+    function _entryFeeBasisPoints() internal view virtual returns (uint256) {
+        return 0; // replace with e.g. 100 for 1%
+    }
+
+    function _exitFeeBasisPoints() internal view virtual returns (uint256) {
+        return 0; // replace with e.g. 100 for 1%
+    }
+
+    function _entryFeeRecipient() internal view virtual returns (address) {
+        return address(0); // replace with e.g. a treasury address
+    }
+
+    function _exitFeeRecipient() internal view virtual returns (address) {
+        return address(0); // replace with e.g. a treasury address
+    }
+
+    // === Fee operations ===
+
+    /// @dev Calculates the fees that should be added to an amount `assets` that does not already include fees.
+    /// Used in {IERC4626-mint} and {IERC4626-withdraw} operations.
+    function _feeOnRaw(uint256 assets, uint256 feeBasisPoints) private pure returns (uint256) {
+        return assets.mulDiv(feeBasisPoints, _BASIS_POINT_SCALE, Math.Rounding.Ceil);
+    }
+
+    /// @dev Calculates the fee part of an amount `assets` that already includes fees.
+    /// Used in {IERC4626-deposit} and {IERC4626-redeem} operations.
+    function _feeOnTotal(uint256 assets, uint256 feeBasisPoints) private pure returns (uint256) {
+        return assets.mulDiv(feeBasisPoints, feeBasisPoints + _BASIS_POINT_SCALE, Math.Rounding.Ceil);
+    }
+}
