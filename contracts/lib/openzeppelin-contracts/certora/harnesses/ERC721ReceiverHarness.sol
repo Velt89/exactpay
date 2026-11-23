@@ -1,1 +1,11 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQgIi4uL3BhdGNoZWQvaW50ZXJmYWNlcy9JRVJDNzIxUmVjZWl2ZXIuc29sIjsKCmNvbnRyYWN0IEVSQzcyMVJlY2VpdmVySGFybmVzcyBpcyBJRVJDNzIxUmVjZWl2ZXIgewogICAgZnVuY3Rpb24gb25FUkM3MjFSZWNlaXZlZChhZGRyZXNzLCBhZGRyZXNzLCB1aW50MjU2LCBieXRlcyBjYWxsZGF0YSkgZXh0ZXJuYWwgcHVyZSByZXR1cm5zIChieXRlczQpIHsKICAgICAgICByZXR1cm4gdGhpcy5vbkVSQzcyMVJlY2VpdmVkLnNlbGVjdG9yOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import "../patched/interfaces/IERC721Receiver.sol";
+
+contract ERC721ReceiverHarness is IERC721Receiver {
+    function onERC721Received(address, address, uint256, bytes calldata) external pure returns (bytes4) {
+        return this.onERC721Received.selector;
+    }
+}
