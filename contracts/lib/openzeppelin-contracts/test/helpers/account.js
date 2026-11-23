@@ -1,1 +1,14 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBpbXBlcnNvbmF0ZUFjY291bnQsIHNldEJhbGFuY2UgfSA9IHJlcXVpcmUoJ0Bub21pY2ZvdW5kYXRpb24vaGFyZGhhdC1uZXR3b3JrLWhlbHBlcnMnKTsKCi8vIEhhcmRoYXQgZGVmYXVsdCBiYWxhbmNlCmNvbnN0IERFRkFVTFRfQkFMQU5DRSA9IDEwMDAwbiAqIGV0aGVycy5XZWlQZXJFdGhlcjsKCmNvbnN0IGltcGVyc29uYXRlID0gKGFjY291bnQsIGJhbGFuY2UgPSBERUZBVUxUX0JBTEFOQ0UpID0+CiAgaW1wZXJzb25hdGVBY2NvdW50KGFjY291bnQpCiAgICAudGhlbigoKSA9PiBzZXRCYWxhbmNlKGFjY291bnQsIGJhbGFuY2UpKQogICAgLnRoZW4oKCkgPT4gZXRoZXJzLmdldFNpZ25lcihhY2NvdW50KSk7Cgptb2R1bGUuZXhwb3J0cyA9IHsKICBpbXBlcnNvbmF0ZSwKfTsK
+const { ethers } = require('hardhat');
+const { impersonateAccount, setBalance } = require('@nomicfoundation/hardhat-network-helpers');
+
+// Hardhat default balance
+const DEFAULT_BALANCE = 10000n * ethers.WeiPerEther;
+
+const impersonate = (account, balance = DEFAULT_BALANCE) =>
+  impersonateAccount(account)
+    .then(() => setBalance(account, balance))
+    .then(() => ethers.getSigner(account));
+
+module.exports = {
+  impersonate,
+};
