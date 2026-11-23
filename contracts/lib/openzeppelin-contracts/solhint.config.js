@@ -1,1 +1,26 @@
-Y29uc3QgY3VzdG9tUnVsZXMgPSByZXF1aXJlKCcuL3NjcmlwdHMvc29saGludC1jdXN0b20nKTsKCmNvbnN0IHJ1bGVzID0gWwogICdhdm9pZC10eC1vcmlnaW4nLAogICdjb25zdC1uYW1lLXNuYWtlY2FzZScsCiAgJ2NvbnRyYWN0LW5hbWUtY2FtZWxjYXNlJywKICAnZXZlbnQtbmFtZS1jYW1lbGNhc2UnLAogICdleHBsaWNpdC10eXBlcycsCiAgJ2Z1bmMtbmFtZS1taXhlZGNhc2UnLAogICdmdW5jLXBhcmFtLW5hbWUtbWl4ZWRjYXNlJywKICAnaW1wb3J0cy1vbi10b3AnLAogICdtb2RpZmllci1uYW1lLW1peGVkY2FzZScsCiAgJ25vLWNvbnNvbGUnLAogICduby1nbG9iYWwtaW1wb3J0JywKICAnbm8tdW51c2VkLXZhcnMnLAogICdxdW90ZXMnLAogICd1c2UtZm9yYmlkZGVuLW5hbWUnLAogICd2YXItbmFtZS1taXhlZGNhc2UnLAogICd2aXNpYmlsaXR5LW1vZGlmaWVyLW9yZGVyJywKICAuLi5jdXN0b21SdWxlcy5tYXAociA9PiBgb3BlbnplcHBlbGluLyR7ci5ydWxlSWR9YCksCl07Cgptb2R1bGUuZXhwb3J0cyA9IHsKICBwbHVnaW5zOiBbJ29wZW56ZXBwZWxpbiddLAogIHJ1bGVzOiBPYmplY3QuZnJvbUVudHJpZXMocnVsZXMubWFwKHIgPT4gW3IsICdlcnJvciddKSksCn07Cg==
+const customRules = require('./scripts/solhint-custom');
+
+const rules = [
+  'avoid-tx-origin',
+  'const-name-snakecase',
+  'contract-name-camelcase',
+  'event-name-camelcase',
+  'explicit-types',
+  'func-name-mixedcase',
+  'func-param-name-mixedcase',
+  'imports-on-top',
+  'modifier-name-mixedcase',
+  'no-console',
+  'no-global-import',
+  'no-unused-vars',
+  'quotes',
+  'use-forbidden-name',
+  'var-name-mixedcase',
+  'visibility-modifier-order',
+  ...customRules.map(r => `openzeppelin/${r.ruleId}`),
+];
+
+module.exports = {
+  plugins: ['openzeppelin'],
+  rules: Object.fromEntries(rules.map(r => [r, 'error'])),
+};
