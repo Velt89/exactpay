@@ -1,1 +1,138 @@
-Y29uc3QgZm9ybWF0ID0gcmVxdWlyZSgnLi4vZm9ybWF0LWxpbmVzJyk7CmNvbnN0IHsgY2FwaXRhbGl6ZSB9ID0gcmVxdWlyZSgnLi4vLi4vaGVscGVycycpOwpjb25zdCB7IE9QVFMgfSA9IHJlcXVpcmUoJy4vQ2hlY2twb2ludHMub3B0cy5qcycpOwoKLy8gVEVNUExBVEUKY29uc3QgaGVhZGVyID0gYFwKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge1Rlc3R9IGZyb20gImZvcmdlLXN0ZC9UZXN0LnNvbCI7CmltcG9ydCB7U2FmZUNhc3R9IGZyb20gIkBvcGVuemVwcGVsaW4vY29udHJhY3RzL3V0aWxzL21hdGgvU2FmZUNhc3Quc29sIjsKaW1wb3J0IHtDaGVja3BvaW50c30gZnJvbSAiQG9wZW56ZXBwZWxpbi9jb250cmFjdHMvdXRpbHMvc3RydWN0cy9DaGVja3BvaW50cy5zb2wiOwpgOwoKLyogZXNsaW50LWRpc2FibGUgbWF4LWxlbiAqLwpjb25zdCB0ZW1wbGF0ZSA9IG9wdHMgPT4gYFwKdXNpbmcgQ2hlY2twb2ludHMgZm9yIENoZWNrcG9pbnRzLiR7b3B0cy5oaXN0b3J5VHlwZU5hbWV9OwoKLy8gTWF4aW11bSBnYXAgYmV0d2VlbiBrZXlzIHVzZWQgZHVyaW5nIHRoZSBmdXp6aW5nIHRlc3RzOiB0aGUgXGBfcHJlcGFyZUtleXNcYCBmdW5jdGlvbiB3aXRoIG1ha2Ugc3VyZSB0aGF0Ci8vIGtleSNuKzEgaXMgaW4gdGhlIFtrZXkjbiwga2V5I24gKyBfS0VZX01BWF9HQVBdIHJhbmdlLgp1aW50OCBpbnRlcm5hbCBjb25zdGFudCBfS0VZX01BWF9HQVAgPSA2NDsKCkNoZWNrcG9pbnRzLiR7b3B0cy5oaXN0b3J5VHlwZU5hbWV9IGludGVybmFsIF9ja3B0czsKCi8vIGhlbHBlcnMKZnVuY3Rpb24gX2JvdW5kJHtjYXBpdGFsaXplKG9wdHMua2V5VHlwZU5hbWUpfSgke29wdHMua2V5VHlwZU5hbWV9IHgsICR7b3B0cy5rZXlUeXBlTmFtZX0gbWluLCAkewogIG9wdHMua2V5VHlwZU5hbWUKfSBtYXgpIGludGVybmFsIHB1cmUgcmV0dXJucyAoJHtvcHRzLmtleVR5cGVOYW1lfSkgewogICAgcmV0dXJuIFNhZmVDYXN0LnRvJHtjYXBpdGFsaXplKG9wdHMua2V5VHlwZU5hbWUpfShib3VuZCh1aW50MjU2KHgpLCB1aW50MjU2KG1pbiksIHVpbnQyNTYobWF4KSkpOwp9CgpmdW5jdGlvbiBfcHJlcGFyZUtleXMoJHtvcHRzLmtleVR5cGVOYW1lfVtdIG1lbW9yeSBrZXlzLCAke29wdHMua2V5VHlwZU5hbWV9IG1heFNwcmVhZCkgaW50ZXJuYWwgcHVyZSB7CiAgICAke29wdHMua2V5VHlwZU5hbWV9IGxhc3RLZXkgPSAwOwogICAgZm9yICh1aW50MjU2IGkgPSAwOyBpIDwga2V5cy5sZW5ndGg7ICsraSkgewogICAgICAgICR7b3B0cy5rZXlUeXBlTmFtZX0ga2V5ID0gX2JvdW5kJHtjYXBpdGFsaXplKG9wdHMua2V5VHlwZU5hbWUpfShrZXlzW2ldLCBsYXN0S2V5LCBsYXN0S2V5ICsgbWF4U3ByZWFkKTsKICAgICAgICBrZXlzW2ldID0ga2V5OwogICAgICAgIGxhc3RLZXkgPSBrZXk7CiAgICB9Cn0KCmZ1bmN0aW9uIF9hc3NlcnRMYXRlc3RDaGVja3BvaW50KGJvb2wgZXhpc3QsICR7b3B0cy5rZXlUeXBlTmFtZX0ga2V5LCAke29wdHMudmFsdWVUeXBlTmFtZX0gdmFsdWUpIGludGVybmFsIHsKICAgIChib29sIF9leGlzdCwgJHtvcHRzLmtleVR5cGVOYW1lfSBfa2V5LCAke29wdHMudmFsdWVUeXBlTmFtZX0gX3ZhbHVlKSA9IF9ja3B0cy5sYXRlc3RDaGVja3BvaW50KCk7CiAgICBhc3NlcnRFcShfZXhpc3QsIGV4aXN0KTsKICAgIGFzc2VydEVxKF9rZXksIGtleSk7CiAgICBhc3NlcnRFcShfdmFsdWUsIHZhbHVlKTsKfQoKLy8gdGVzdHMKZnVuY3Rpb24gdGVzdFB1c2goJHtvcHRzLmtleVR5cGVOYW1lfVtdIG1lbW9yeSBrZXlzLCAke29wdHMudmFsdWVUeXBlTmFtZX1bXSBtZW1vcnkgdmFsdWVzLCAkewogIG9wdHMua2V5VHlwZU5hbWUKfSBwYXN0S2V5KSBwdWJsaWMgewogICAgdm0uYXNzdW1lKHZhbHVlcy5sZW5ndGggPiAwICYmIHZhbHVlcy5sZW5ndGggPD0ga2V5cy5sZW5ndGgpOwogICAgX3ByZXBhcmVLZXlzKGtleXMsIF9LRVlfTUFYX0dBUCk7CgogICAgLy8gaW5pdGlhbCBzdGF0ZQogICAgYXNzZXJ0RXEoX2NrcHRzLmxlbmd0aCgpLCAwKTsKICAgIGFzc2VydEVxKF9ja3B0cy5sYXRlc3QoKSwgMCk7CiAgICBfYXNzZXJ0TGF0ZXN0Q2hlY2twb2ludChmYWxzZSwgMCwgMCk7CgogICAgdWludDI1NiBkdXBsaWNhdGVzID0gMDsKICAgIGZvciAodWludDI1NiBpID0gMDsgaSA8IGtleXMubGVuZ3RoOyArK2kpIHsKICAgICAgICAke29wdHMua2V5VHlwZU5hbWV9IGtleSA9IGtleXNbaV07CiAgICAgICAgJHtvcHRzLnZhbHVlVHlwZU5hbWV9IHZhbHVlID0gdmFsdWVzW2kgJSB2YWx1ZXMubGVuZ3RoXTsKICAgICAgICBpZiAoaSA+IDAgJiYga2V5ID09IGtleXNbaSAtIDFdKSArK2R1cGxpY2F0ZXM7CgogICAgICAgIC8vIHB1c2gKICAgICAgICBfY2twdHMucHVzaChrZXksIHZhbHVlKTsKCiAgICAgICAgLy8gY2hlY2sgbGVuZ3RoICYgbGF0ZXN0CiAgICAgICAgYXNzZXJ0RXEoX2NrcHRzLmxlbmd0aCgpLCBpICsgMSAtIGR1cGxpY2F0ZXMpOwogICAgICAgIGFzc2VydEVxKF9ja3B0cy5sYXRlc3QoKSwgdmFsdWUpOwogICAgICAgIF9hc3NlcnRMYXRlc3RDaGVja3BvaW50KHRydWUsIGtleSwgdmFsdWUpOwogICAgfQoKICAgIGlmIChrZXlzLmxlbmd0aCA+IDApIHsKICAgICAgICAke29wdHMua2V5VHlwZU5hbWV9IGxhc3RLZXkgPSBrZXlzW2tleXMubGVuZ3RoIC0gMV07CiAgICAgICAgaWYgKGxhc3RLZXkgPiAwKSB7CiAgICAgICAgICAgIHBhc3RLZXkgPSBfYm91bmQke2NhcGl0YWxpemUob3B0cy5rZXlUeXBlTmFtZSl9KHBhc3RLZXksIDAsIGxhc3RLZXkgLSAxKTsKCiAgICAgICAgICAgIHZtLmV4cGVjdFJldmVydCgpOwogICAgICAgICAgICB0aGlzLnB1c2gocGFzdEtleSwgdmFsdWVzW2tleXMubGVuZ3RoICUgdmFsdWVzLmxlbmd0aF0pOwogICAgICAgIH0KICAgIH0KfQoKLy8gdXNlZCB0byB0ZXN0IHJldmVydHMKZnVuY3Rpb24gcHVzaCgke29wdHMua2V5VHlwZU5hbWV9IGtleSwgJHtvcHRzLnZhbHVlVHlwZU5hbWV9IHZhbHVlKSBleHRlcm5hbCB7CiAgICBfY2twdHMucHVzaChrZXksIHZhbHVlKTsKfQoKZnVuY3Rpb24gdGVzdExvb2t1cCgke29wdHMua2V5VHlwZU5hbWV9W10gbWVtb3J5IGtleXMsICR7b3B0cy52YWx1ZVR5cGVOYW1lfVtdIG1lbW9yeSB2YWx1ZXMsICR7CiAgb3B0cy5rZXlUeXBlTmFtZQp9IGxvb2t1cCkgcHVibGljIHsKICAgIHZtLmFzc3VtZSh2YWx1ZXMubGVuZ3RoID4gMCAmJiB2YWx1ZXMubGVuZ3RoIDw9IGtleXMubGVuZ3RoKTsKICAgIF9wcmVwYXJlS2V5cyhrZXlzLCBfS0VZX01BWF9HQVApOwoKICAgICR7b3B0cy5rZXlUeXBlTmFtZX0gbGFzdEtleSA9IGtleXMubGVuZ3RoID09IDAgPyAwIDoga2V5c1trZXlzLmxlbmd0aCAtIDFdOwogICAgbG9va3VwID0gX2JvdW5kJHtjYXBpdGFsaXplKG9wdHMua2V5VHlwZU5hbWUpfShsb29rdXAsIDAsIGxhc3RLZXkgKyBfS0VZX01BWF9HQVApOwoKICAgICR7b3B0cy52YWx1ZVR5cGVOYW1lfSB1cHBlciA9IDA7CiAgICAke29wdHMudmFsdWVUeXBlTmFtZX0gbG93ZXIgPSAwOwogICAgJHtvcHRzLmtleVR5cGVOYW1lfSBsb3dlcktleSA9IHR5cGUoJHtvcHRzLmtleVR5cGVOYW1lfSkubWF4OwogICAgZm9yICh1aW50MjU2IGkgPSAwOyBpIDwga2V5cy5sZW5ndGg7ICsraSkgewogICAgICAgICR7b3B0cy5rZXlUeXBlTmFtZX0ga2V5ID0ga2V5c1tpXTsKICAgICAgICAke29wdHMudmFsdWVUeXBlTmFtZX0gdmFsdWUgPSB2YWx1ZXNbaSAlIHZhbHVlcy5sZW5ndGhdOwoKICAgICAgICAvLyBwdXNoCiAgICAgICAgX2NrcHRzLnB1c2goa2V5LCB2YWx1ZSk7CgogICAgICAgIC8vIHRyYWNrIGV4cGVjdGVkIHJlc3VsdCBvZiBsb29rdXBzCiAgICAgICAgaWYgKGtleSA8PSBsb29rdXApIHsKICAgICAgICAgICAgdXBwZXIgPSB2YWx1ZTsKICAgICAgICB9CiAgICAgICAgLy8gZmluZCB0aGUgZmlyc3Qga2V5IHRoYXQgaXMgbm90IHNtYWxsZXIgdGhhbiB0aGUgbG9va3VwIGtleQogICAgICAgIGlmIChrZXkgPj0gbG9va3VwICYmIChpID09IDAgfHwga2V5c1tpIC0gMV0gPCBsb29rdXApKSB7CiAgICAgICAgICAgIGxvd2VyS2V5ID0ga2V5OwogICAgICAgIH0KICAgICAgICBpZiAoa2V5ID09IGxvd2VyS2V5KSB7CiAgICAgICAgICAgIGxvd2VyID0gdmFsdWU7CiAgICAgICAgfQogICAgfQoKICAgIC8vIGNoZWNrIGxvb2t1cAogICAgYXNzZXJ0RXEoX2NrcHRzLmxvd2VyTG9va3VwKGxvb2t1cCksIGxvd2VyKTsKICAgIGFzc2VydEVxKF9ja3B0cy51cHBlckxvb2t1cChsb29rdXApLCB1cHBlcik7CiAgICBhc3NlcnRFcShfY2twdHMudXBwZXJMb29rdXBSZWNlbnQobG9va3VwKSwgdXBwZXIpOwp9CmA7CgovLyBHRU5FUkFURQptb2R1bGUuZXhwb3J0cyA9IGZvcm1hdCgKICBoZWFkZXIsCiAgLi4uT1BUUy5mbGF0TWFwKG9wdHMgPT4gWwogICAgYGNvbnRyYWN0IENoZWNrcG9pbnRzJHtvcHRzLmhpc3RvcnlUeXBlTmFtZX1UZXN0IGlzIFRlc3Qge2AsCiAgICBbdGVtcGxhdGUob3B0cykudHJpbUVuZCgpXSwKICAgICd9JywKICAgICcnLAogIF0pLAopOwo=
+const format = require('../format-lines');
+const { capitalize } = require('../../helpers');
+const { OPTS } = require('./Checkpoints.opts.js');
+
+// TEMPLATE
+const header = `\
+pragma solidity ^0.8.20;
+
+import {Test} from "forge-std/Test.sol";
+import {SafeCast} from "@openzeppelin/contracts/utils/math/SafeCast.sol";
+import {Checkpoints} from "@openzeppelin/contracts/utils/structs/Checkpoints.sol";
+`;
+
+/* eslint-disable max-len */
+const template = opts => `\
+using Checkpoints for Checkpoints.${opts.historyTypeName};
+
+// Maximum gap between keys used during the fuzzing tests: the \`_prepareKeys\` function with make sure that
+// key#n+1 is in the [key#n, key#n + _KEY_MAX_GAP] range.
+uint8 internal constant _KEY_MAX_GAP = 64;
+
+Checkpoints.${opts.historyTypeName} internal _ckpts;
+
+// helpers
+function _bound${capitalize(opts.keyTypeName)}(${opts.keyTypeName} x, ${opts.keyTypeName} min, ${
+  opts.keyTypeName
+} max) internal pure returns (${opts.keyTypeName}) {
+    return SafeCast.to${capitalize(opts.keyTypeName)}(bound(uint256(x), uint256(min), uint256(max)));
+}
+
+function _prepareKeys(${opts.keyTypeName}[] memory keys, ${opts.keyTypeName} maxSpread) internal pure {
+    ${opts.keyTypeName} lastKey = 0;
+    for (uint256 i = 0; i < keys.length; ++i) {
+        ${opts.keyTypeName} key = _bound${capitalize(opts.keyTypeName)}(keys[i], lastKey, lastKey + maxSpread);
+        keys[i] = key;
+        lastKey = key;
+    }
+}
+
+function _assertLatestCheckpoint(bool exist, ${opts.keyTypeName} key, ${opts.valueTypeName} value) internal {
+    (bool _exist, ${opts.keyTypeName} _key, ${opts.valueTypeName} _value) = _ckpts.latestCheckpoint();
+    assertEq(_exist, exist);
+    assertEq(_key, key);
+    assertEq(_value, value);
+}
+
+// tests
+function testPush(${opts.keyTypeName}[] memory keys, ${opts.valueTypeName}[] memory values, ${
+  opts.keyTypeName
+} pastKey) public {
+    vm.assume(values.length > 0 && values.length <= keys.length);
+    _prepareKeys(keys, _KEY_MAX_GAP);
+
+    // initial state
+    assertEq(_ckpts.length(), 0);
+    assertEq(_ckpts.latest(), 0);
+    _assertLatestCheckpoint(false, 0, 0);
+
+    uint256 duplicates = 0;
+    for (uint256 i = 0; i < keys.length; ++i) {
+        ${opts.keyTypeName} key = keys[i];
+        ${opts.valueTypeName} value = values[i % values.length];
+        if (i > 0 && key == keys[i - 1]) ++duplicates;
+
+        // push
+        _ckpts.push(key, value);
+
+        // check length & latest
+        assertEq(_ckpts.length(), i + 1 - duplicates);
+        assertEq(_ckpts.latest(), value);
+        _assertLatestCheckpoint(true, key, value);
+    }
+
+    if (keys.length > 0) {
+        ${opts.keyTypeName} lastKey = keys[keys.length - 1];
+        if (lastKey > 0) {
+            pastKey = _bound${capitalize(opts.keyTypeName)}(pastKey, 0, lastKey - 1);
+
+            vm.expectRevert();
+            this.push(pastKey, values[keys.length % values.length]);
+        }
+    }
+}
+
+// used to test reverts
+function push(${opts.keyTypeName} key, ${opts.valueTypeName} value) external {
+    _ckpts.push(key, value);
+}
+
+function testLookup(${opts.keyTypeName}[] memory keys, ${opts.valueTypeName}[] memory values, ${
+  opts.keyTypeName
+} lookup) public {
+    vm.assume(values.length > 0 && values.length <= keys.length);
+    _prepareKeys(keys, _KEY_MAX_GAP);
+
+    ${opts.keyTypeName} lastKey = keys.length == 0 ? 0 : keys[keys.length - 1];
+    lookup = _bound${capitalize(opts.keyTypeName)}(lookup, 0, lastKey + _KEY_MAX_GAP);
+
+    ${opts.valueTypeName} upper = 0;
+    ${opts.valueTypeName} lower = 0;
+    ${opts.keyTypeName} lowerKey = type(${opts.keyTypeName}).max;
+    for (uint256 i = 0; i < keys.length; ++i) {
+        ${opts.keyTypeName} key = keys[i];
+        ${opts.valueTypeName} value = values[i % values.length];
+
+        // push
+        _ckpts.push(key, value);
+
+        // track expected result of lookups
+        if (key <= lookup) {
+            upper = value;
+        }
+        // find the first key that is not smaller than the lookup key
+        if (key >= lookup && (i == 0 || keys[i - 1] < lookup)) {
+            lowerKey = key;
+        }
+        if (key == lowerKey) {
+            lower = value;
+        }
+    }
+
+    // check lookup
+    assertEq(_ckpts.lowerLookup(lookup), lower);
+    assertEq(_ckpts.upperLookup(lookup), upper);
+    assertEq(_ckpts.upperLookupRecent(lookup), upper);
+}
+`;
+
+// GENERATE
+module.exports = format(
+  header,
+  ...OPTS.flatMap(opts => [
+    `contract Checkpoints${opts.historyTypeName}Test is Test {`,
+    [template(opts).trimEnd()],
+    '}',
+    '',
+  ]),
+);
