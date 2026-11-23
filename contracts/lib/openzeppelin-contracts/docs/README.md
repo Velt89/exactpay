@@ -1,1 +1,16 @@
-RG9jdW1lbnRhdGlvbiBpcyBob3N0ZWQgYXQgaHR0cHM6Ly9kb2NzLm9wZW56ZXBwZWxpbi5jb20vY29udHJhY3RzLgoKQWxsIG9mIHRoZSBjb250ZW50IGZvciB0aGUgc2l0ZSBpcyBpbiB0aGlzIHJlcG9zaXRvcnkuIFRoZSBndWlkZXMgYXJlIGluIHRoZQpbZG9jc10oL2RvY3MpIGRpcmVjdG9yeSwgYW5kIHRoZSBBUEkgUmVmZXJlbmNlIGlzIGV4dHJhY3RlZCBmcm9tIGNvbW1lbnRzIGluCnRoZSBzb3VyY2UgY29kZS4gSWYgeW91IHdhbnQgdG8gaGVscCBpbXByb3ZlIHRoZSBjb250ZW50LCB0aGlzIGlzIHRoZQpyZXBvc2l0b3J5IHlvdSBzaG91bGQgYmUgY29udHJpYnV0aW5nIHRvLgoKW2Bzb2xpZGl0eS1kb2NnZW5gXShodHRwczovL2dpdGh1Yi5jb20vT3BlblplcHBlbGluL3NvbGlkaXR5LWRvY2dlbikgaXMgdGhlCnByb2dyYW0gdGhhdCBleHRyYWN0cyB0aGUgQVBJIFJlZmVyZW5jZSBmcm9tIHNvdXJjZSBjb2RlLgoKVGhlIFtgZG9jcy5vcGVuemVwcGVsaW4uY29tYF0oaHR0cHM6Ly9naXRodWIuY29tL09wZW5aZXBwZWxpbi9kb2NzLm9wZW56ZXBwZWxpbi5jb20pCnJlcG9zaXRvcnkgaG9zdHMgdGhlIGNvbmZpZ3VyYXRpb24gZm9yIHRoZSBlbnRpcmUgc2l0ZSwgd2hpY2ggaW5jbHVkZXMKZG9jdW1lbnRhdGlvbiBmb3IgYWxsIG9mIHRoZSBPcGVuWmVwcGVsaW4gcHJvamVjdHMuCgpUbyBydW4gdGhlIGRvY3MgbG9jYWxseSB5b3Ugc2hvdWxkIHJ1biBgbnBtIHJ1biBkb2NzOndhdGNoYCBvbiB0aGlzCnJlcG9zaXRvcnkuCg==
+Documentation is hosted at https://docs.openzeppelin.com/contracts.
+
+All of the content for the site is in this repository. The guides are in the
+[docs](/docs) directory, and the API Reference is extracted from comments in
+the source code. If you want to help improve the content, this is the
+repository you should be contributing to.
+
+[`solidity-docgen`](https://github.com/OpenZeppelin/solidity-docgen) is the
+program that extracts the API Reference from source code.
+
+The [`docs.openzeppelin.com`](https://github.com/OpenZeppelin/docs.openzeppelin.com)
+repository hosts the configuration for the entire site, which includes
+documentation for all of the OpenZeppelin projects.
+
+To run the docs locally you should run `npm run docs:watch` on this
+repository.
