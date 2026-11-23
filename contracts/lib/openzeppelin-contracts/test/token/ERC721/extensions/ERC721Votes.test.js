@@ -1,1 +1,194 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSwgbWluZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKY29uc3QgdGltZSA9IHJlcXVpcmUoJy4uLy4uLy4uL2hlbHBlcnMvdGltZScpOwoKY29uc3QgeyBzaG91bGRCZWhhdmVMaWtlVm90ZXMgfSA9IHJlcXVpcmUoJy4uLy4uLy4uL2dvdmVybmFuY2UvdXRpbHMvVm90ZXMuYmVoYXZpb3InKTsKCmNvbnN0IFRPS0VOUyA9IFsKICB7IFRva2VuOiAnJEVSQzcyMVZvdGVzJywgbW9kZTogJ2Jsb2NrbnVtYmVyJyB9LAogIC8vIG5vIHRpbWVzdGFtcCBtb2RlIGZvciBFUkM3MjFWb3RlcyB5ZXQKXTsKCmNvbnN0IG5hbWUgPSAnTXkgVm90ZSc7CmNvbnN0IHN5bWJvbCA9ICdNVEtOJzsKY29uc3QgdmVyc2lvbiA9ICcxJzsKY29uc3QgdG9rZW5zID0gW2V0aGVycy5wYXJzZUV0aGVyKCcxMDAwMDAwMCcpLCAxMG4sIDIwbiwgMzBuXTsKCmRlc2NyaWJlKCdFUkM3MjFWb3RlcycsIGZ1bmN0aW9uICgpIHsKICBmb3IgKGNvbnN0IHsgVG9rZW4sIG1vZGUgfSBvZiBUT0tFTlMpIHsKICAgIGNvbnN0IGZpeHR1cmUgPSBhc3luYyAoKSA9PiB7CiAgICAgIC8vIGFjY291bnRzIGlzIHJlcXVpcmVkIGJ5IHNob3VsZEJlaGF2ZUxpa2VWb3RlcwogICAgICBjb25zdCBhY2NvdW50cyA9IGF3YWl0IGV0aGVycy5nZXRTaWduZXJzKCk7CiAgICAgIGNvbnN0IFtob2xkZXIsIHJlY2lwaWVudCwgb3RoZXIxLCBvdGhlcjJdID0gYWNjb3VudHM7CgogICAgICBjb25zdCB0b2tlbiA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdChUb2tlbiwgW25hbWUsIHN5bWJvbCwgbmFtZSwgdmVyc2lvbl0pOwoKICAgICAgcmV0dXJuIHsgYWNjb3VudHMsIGhvbGRlciwgcmVjaXBpZW50LCBvdGhlcjEsIG90aGVyMiwgdG9rZW4gfTsKICAgIH07CgogICAgZGVzY3JpYmUoYHZvdGUgd2l0aCAke21vZGV9YCwgZnVuY3Rpb24gKCkgewogICAgICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBPYmplY3QuYXNzaWduKHRoaXMsIGF3YWl0IGxvYWRGaXh0dXJlKGZpeHR1cmUpKTsKICAgICAgICB0aGlzLnZvdGVzID0gdGhpcy50b2tlbjsKICAgICAgfSk7CgogICAgICAvLyBpbmNsdWRlcyBFUkM2MzcyIGJlaGF2aW9yIGNoZWNrCiAgICAgIHNob3VsZEJlaGF2ZUxpa2VWb3Rlcyh0b2tlbnMsIHsgbW9kZSwgZnVuZ2libGU6IGZhbHNlIH0pOwoKICAgICAgZGVzY3JpYmUoJ2JhbGFuY2VPZicsIGZ1bmN0aW9uICgpIHsKICAgICAgICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGF3YWl0IHRoaXMudm90ZXMuJF9taW50KHRoaXMuaG9sZGVyLCB0b2tlbnNbMF0pOwogICAgICAgICAgYXdhaXQgdGhpcy52b3Rlcy4kX21pbnQodGhpcy5ob2xkZXIsIHRva2Vuc1sxXSk7CiAgICAgICAgICBhd2FpdCB0aGlzLnZvdGVzLiRfbWludCh0aGlzLmhvbGRlciwgdG9rZW5zWzJdKTsKICAgICAgICAgIGF3YWl0IHRoaXMudm90ZXMuJF9taW50KHRoaXMuaG9sZGVyLCB0b2tlbnNbM10pOwogICAgICAgIH0pOwoKICAgICAgICBpdCgnZ3JhbnRzIHRvIGluaXRpYWwgYWNjb3VudCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnZvdGVzLmJhbGFuY2VPZih0aGlzLmhvbGRlcikpLnRvLmVxdWFsKDRuKTsKICAgICAgICB9KTsKICAgICAgfSk7CgogICAgICBkZXNjcmliZSgndHJhbnNmZXJzJywgZnVuY3Rpb24gKCkgewogICAgICAgIGJlZm9yZUVhY2goYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgYXdhaXQgdGhpcy52b3Rlcy4kX21pbnQodGhpcy5ob2xkZXIsIHRva2Vuc1swXSk7CiAgICAgICAgfSk7CgogICAgICAgIGl0KCdubyBkZWxlZ2F0aW9uJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMudm90ZXMuY29ubmVjdCh0aGlzLmhvbGRlcikudHJhbnNmZXJGcm9tKHRoaXMuaG9sZGVyLCB0aGlzLnJlY2lwaWVudCwgdG9rZW5zWzBdKSkKICAgICAgICAgICAgLnRvLmVtaXQodGhpcy50b2tlbiwgJ1RyYW5zZmVyJykKICAgICAgICAgICAgLndpdGhBcmdzKHRoaXMuaG9sZGVyLCB0aGlzLnJlY2lwaWVudCwgdG9rZW5zWzBdKQogICAgICAgICAgICAudG8ubm90LmVtaXQodGhpcy50b2tlbiwgJ0RlbGVnYXRlVm90ZXNDaGFuZ2VkJyk7CgogICAgICAgICAgdGhpcy5ob2xkZXJWb3RlcyA9IDBuOwogICAgICAgICAgdGhpcy5yZWNpcGllbnRWb3RlcyA9IDBuOwogICAgICAgIH0pOwoKICAgICAgICBpdCgnc2VuZGVyIGRlbGVnYXRpb24nLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICBhd2FpdCB0aGlzLnZvdGVzLmNvbm5lY3QodGhpcy5ob2xkZXIpLmRlbGVnYXRlKHRoaXMuaG9sZGVyKTsKCiAgICAgICAgICBjb25zdCB0eCA9IGF3YWl0IHRoaXMudm90ZXMuY29ubmVjdCh0aGlzLmhvbGRlcikudHJhbnNmZXJGcm9tKHRoaXMuaG9sZGVyLCB0aGlzLnJlY2lwaWVudCwgdG9rZW5zWzBdKTsKICAgICAgICAgIGF3YWl0IGV4cGVjdCh0eCkKICAgICAgICAgICAgLnRvLmVtaXQodGhpcy50b2tlbiwgJ1RyYW5zZmVyJykKICAgICAgICAgICAgLndpdGhBcmdzKHRoaXMuaG9sZGVyLCB0aGlzLnJlY2lwaWVudCwgdG9rZW5zWzBdKQogICAgICAgICAgICAudG8uZW1pdCh0aGlzLnRva2VuLCAnRGVsZWdhdGVWb3Rlc0NoYW5nZWQnKQogICAgICAgICAgICAud2l0aEFyZ3ModGhpcy5ob2xkZXIsIDFuLCAwbik7CgogICAgICAgICAgY29uc3QgeyBsb2dzIH0gPSBhd2FpdCB0eC53YWl0KCk7CiAgICAgICAgICBjb25zdCB7IGluZGV4IH0gPSBsb2dzLmZpbmQoZXZlbnQgPT4gZXZlbnQuZnJhZ21lbnQubmFtZSA9PSAnRGVsZWdhdGVWb3Rlc0NoYW5nZWQnKTsKICAgICAgICAgIGZvciAoY29uc3QgZXZlbnQgb2YgbG9ncy5maWx0ZXIoZXZlbnQgPT4gZXZlbnQuZnJhZ21lbnQubmFtZSA9PSAnVHJhbnNmZXInKSkgewogICAgICAgICAgICBleHBlY3QoZXZlbnQuaW5kZXgpLnRvLmx0KGluZGV4KTsKICAgICAgICAgIH0KCiAgICAgICAgICB0aGlzLmhvbGRlclZvdGVzID0gMG47CiAgICAgICAgICB0aGlzLnJlY2lwaWVudFZvdGVzID0gMG47CiAgICAgICAgfSk7CgogICAgICAgIGl0KCdyZWNlaXZlciBkZWxlZ2F0aW9uJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgYXdhaXQgdGhpcy52b3Rlcy5jb25uZWN0KHRoaXMucmVjaXBpZW50KS5kZWxlZ2F0ZSh0aGlzLnJlY2lwaWVudCk7CgogICAgICAgICAgY29uc3QgdHggPSBhd2FpdCB0aGlzLnZvdGVzLmNvbm5lY3QodGhpcy5ob2xkZXIpLnRyYW5zZmVyRnJvbSh0aGlzLmhvbGRlciwgdGhpcy5yZWNpcGllbnQsIHRva2Vuc1swXSk7CiAgICAgICAgICBhd2FpdCBleHBlY3QodHgpCiAgICAgICAgICAgIC50by5lbWl0KHRoaXMudG9rZW4sICdUcmFuc2ZlcicpCiAgICAgICAgICAgIC53aXRoQXJncyh0aGlzLmhvbGRlciwgdGhpcy5yZWNpcGllbnQsIHRva2Vuc1swXSkKICAgICAgICAgICAgLnRvLmVtaXQodGhpcy50b2tlbiwgJ0RlbGVnYXRlVm90ZXNDaGFuZ2VkJykKICAgICAgICAgICAgLndpdGhBcmdzKHRoaXMucmVjaXBpZW50LCAwbiwgMW4pOwoKICAgICAgICAgIGNvbnN0IHsgbG9ncyB9ID0gYXdhaXQgdHgud2FpdCgpOwogICAgICAgICAgY29uc3QgeyBpbmRleCB9ID0gbG9ncy5maW5kKGV2ZW50ID0+IGV2ZW50LmZyYWdtZW50Lm5hbWUgPT0gJ0RlbGVnYXRlVm90ZXNDaGFuZ2VkJyk7CiAgICAgICAgICBmb3IgKGNvbnN0IGV2ZW50IG9mIGxvZ3MuZmlsdGVyKGV2ZW50ID0+IGV2ZW50LmZyYWdtZW50Lm5hbWUgPT0gJ1RyYW5zZmVyJykpIHsKICAgICAgICAgICAgZXhwZWN0KGV2ZW50LmluZGV4KS50by5sdChpbmRleCk7CiAgICAgICAgICB9CgogICAgICAgICAgdGhpcy5ob2xkZXJWb3RlcyA9IDBuOwogICAgICAgICAgdGhpcy5yZWNpcGllbnRWb3RlcyA9IDFuOwogICAgICAgIH0pOwoKICAgICAgICBpdCgnZnVsbCBkZWxlZ2F0aW9uJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgYXdhaXQgdGhpcy52b3Rlcy5jb25uZWN0KHRoaXMuaG9sZGVyKS5kZWxlZ2F0ZSh0aGlzLmhvbGRlcik7CiAgICAgICAgICBhd2FpdCB0aGlzLnZvdGVzLmNvbm5lY3QodGhpcy5yZWNpcGllbnQpLmRlbGVnYXRlKHRoaXMucmVjaXBpZW50KTsKCiAgICAgICAgICBjb25zdCB0eCA9IGF3YWl0IHRoaXMudm90ZXMuY29ubmVjdCh0aGlzLmhvbGRlcikudHJhbnNmZXJGcm9tKHRoaXMuaG9sZGVyLCB0aGlzLnJlY2lwaWVudCwgdG9rZW5zWzBdKTsKICAgICAgICAgIGF3YWl0IGV4cGVjdCh0eCkKICAgICAgICAgICAgLnRvLmVtaXQodGhpcy50b2tlbiwgJ1RyYW5zZmVyJykKICAgICAgICAgICAgLndpdGhBcmdzKHRoaXMuaG9sZGVyLCB0aGlzLnJlY2lwaWVudCwgdG9rZW5zWzBdKQogICAgICAgICAgICAudG8uZW1pdCh0aGlzLnRva2VuLCAnRGVsZWdhdGVWb3Rlc0NoYW5nZWQnKQogICAgICAgICAgICAud2l0aEFyZ3ModGhpcy5ob2xkZXIsIDFuLCAwbikKICAgICAgICAgICAgLnRvLmVtaXQodGhpcy50b2tlbiwgJ0RlbGVnYXRlVm90ZXNDaGFuZ2VkJykKICAgICAgICAgICAgLndpdGhBcmdzKHRoaXMucmVjaXBpZW50LCAwbiwgMW4pOwoKICAgICAgICAgIGNvbnN0IHsgbG9ncyB9ID0gYXdhaXQgdHgud2FpdCgpOwogICAgICAgICAgY29uc3QgeyBpbmRleCB9ID0gbG9ncy5maW5kKGV2ZW50ID0+IGV2ZW50LmZyYWdtZW50Lm5hbWUgPT0gJ0RlbGVnYXRlVm90ZXNDaGFuZ2VkJyk7CiAgICAgICAgICBmb3IgKGNvbnN0IGV2ZW50IG9mIGxvZ3MuZmlsdGVyKGV2ZW50ID0+IGV2ZW50LmZyYWdtZW50Lm5hbWUgPT0gJ1RyYW5zZmVyJykpIHsKICAgICAgICAgICAgZXhwZWN0KGV2ZW50LmluZGV4KS50by5sdChpbmRleCk7CiAgICAgICAgICB9CgogICAgICAgICAgdGhpcy5ob2xkZXJWb3RlcyA9IDA7CiAgICAgICAgICB0aGlzLnJlY2lwaWVudFZvdGVzID0gMW47CiAgICAgICAgfSk7CgogICAgICAgIGl0KCdyZXR1cm5zIHRoZSBzYW1lIHRvdGFsIHN1cHBseSBvbiB0cmFuc2ZlcnMnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICBhd2FpdCB0aGlzLnZvdGVzLmNvbm5lY3QodGhpcy5ob2xkZXIpLmRlbGVnYXRlKHRoaXMuaG9sZGVyKTsKCiAgICAgICAgICBjb25zdCB0eCA9IGF3YWl0IHRoaXMudm90ZXMuY29ubmVjdCh0aGlzLmhvbGRlcikudHJhbnNmZXJGcm9tKHRoaXMuaG9sZGVyLCB0aGlzLnJlY2lwaWVudCwgdG9rZW5zWzBdKTsKICAgICAgICAgIGNvbnN0IHRpbWVwb2ludCA9IGF3YWl0IHRpbWUuY2xvY2tGcm9tUmVjZWlwdFttb2RlXSh0eCk7CgogICAgICAgICAgYXdhaXQgbWluZSgyKTsKCiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy52b3Rlcy5nZXRQYXN0VG90YWxTdXBwbHkodGltZXBvaW50IC0gMW4pKS50by5lcXVhbCgxbik7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy52b3Rlcy5nZXRQYXN0VG90YWxTdXBwbHkodGltZXBvaW50ICsgMW4pKS50by5lcXVhbCgxbik7CgogICAgICAgICAgdGhpcy5ob2xkZXJWb3RlcyA9IDBuOwogICAgICAgICAgdGhpcy5yZWNpcGllbnRWb3RlcyA9IDBuOwogICAgICAgIH0pOwoKICAgICAgICBpdCgnZ2VuZXJhbGx5IHJldHVybnMgdGhlIHZvdGluZyBiYWxhbmNlIGF0IHRoZSBhcHByb3ByaWF0ZSBjaGVja3BvaW50JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgYXdhaXQgdGhpcy52b3Rlcy4kX21pbnQodGhpcy5ob2xkZXIsIHRva2Vuc1sxXSk7CiAgICAgICAgICBhd2FpdCB0aGlzLnZvdGVzLiRfbWludCh0aGlzLmhvbGRlciwgdG9rZW5zWzJdKTsKICAgICAgICAgIGF3YWl0IHRoaXMudm90ZXMuJF9taW50KHRoaXMuaG9sZGVyLCB0b2tlbnNbM10pOwoKICAgICAgICAgIGNvbnN0IHRvdGFsID0gYXdhaXQgdGhpcy52b3Rlcy5iYWxhbmNlT2YodGhpcy5ob2xkZXIpOwoKICAgICAgICAgIGNvbnN0IHQxID0gYXdhaXQgdGhpcy52b3Rlcy5jb25uZWN0KHRoaXMuaG9sZGVyKS5kZWxlZ2F0ZSh0aGlzLm90aGVyMSk7CiAgICAgICAgICBhd2FpdCBtaW5lKDIpOwogICAgICAgICAgY29uc3QgdDIgPSBhd2FpdCB0aGlzLnZvdGVzLmNvbm5lY3QodGhpcy5ob2xkZXIpLnRyYW5zZmVyRnJvbSh0aGlzLmhvbGRlciwgdGhpcy5vdGhlcjIsIHRva2Vuc1swXSk7CiAgICAgICAgICBhd2FpdCBtaW5lKDIpOwogICAgICAgICAgY29uc3QgdDMgPSBhd2FpdCB0aGlzLnZvdGVzLmNvbm5lY3QodGhpcy5ob2xkZXIpLnRyYW5zZmVyRnJvbSh0aGlzLmhvbGRlciwgdGhpcy5vdGhlcjIsIHRva2Vuc1syXSk7CiAgICAgICAgICBhd2FpdCBtaW5lKDIpOwogICAgICAgICAgY29uc3QgdDQgPSBhd2FpdCB0aGlzLnZvdGVzLmNvbm5lY3QodGhpcy5vdGhlcjIpLnRyYW5zZmVyRnJvbSh0aGlzLm90aGVyMiwgdGhpcy5ob2xkZXIsIHRva2Vuc1syXSk7CiAgICAgICAgICBhd2FpdCBtaW5lKDIpOwoKICAgICAgICAgIHQxLnRpbWVwb2ludCA9IGF3YWl0IHRpbWUuY2xvY2tGcm9tUmVjZWlwdFttb2RlXSh0MSk7CiAgICAgICAgICB0Mi50aW1lcG9pbnQgPSBhd2FpdCB0aW1lLmNsb2NrRnJvbVJlY2VpcHRbbW9kZV0odDIpOwogICAgICAgICAgdDMudGltZXBvaW50ID0gYXdhaXQgdGltZS5jbG9ja0Zyb21SZWNlaXB0W21vZGVdKHQzKTsKICAgICAgICAgIHQ0LnRpbWVwb2ludCA9IGF3YWl0IHRpbWUuY2xvY2tGcm9tUmVjZWlwdFttb2RlXSh0NCk7CgogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudm90ZXMuZ2V0UGFzdFZvdGVzKHRoaXMub3RoZXIxLCB0MS50aW1lcG9pbnQgLSAxbikpLnRvLmVxdWFsKDBuKTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnZvdGVzLmdldFBhc3RWb3Rlcyh0aGlzLm90aGVyMSwgdDEudGltZXBvaW50KSkudG8uZXF1YWwodG90YWwpOwogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudm90ZXMuZ2V0UGFzdFZvdGVzKHRoaXMub3RoZXIxLCB0MS50aW1lcG9pbnQgKyAxbikpLnRvLmVxdWFsKHRvdGFsKTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnZvdGVzLmdldFBhc3RWb3Rlcyh0aGlzLm90aGVyMSwgdDIudGltZXBvaW50KSkudG8uZXF1YWwoM24pOwogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudm90ZXMuZ2V0UGFzdFZvdGVzKHRoaXMub3RoZXIxLCB0Mi50aW1lcG9pbnQgKyAxbikpLnRvLmVxdWFsKDNuKTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnZvdGVzLmdldFBhc3RWb3Rlcyh0aGlzLm90aGVyMSwgdDMudGltZXBvaW50KSkudG8uZXF1YWwoMm4pOwogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudm90ZXMuZ2V0UGFzdFZvdGVzKHRoaXMub3RoZXIxLCB0My50aW1lcG9pbnQgKyAxbikpLnRvLmVxdWFsKDJuKTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnZvdGVzLmdldFBhc3RWb3Rlcyh0aGlzLm90aGVyMSwgdDQudGltZXBvaW50KSkudG8uZXF1YWwoJzMnKTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnZvdGVzLmdldFBhc3RWb3Rlcyh0aGlzLm90aGVyMSwgdDQudGltZXBvaW50ICsgMW4pKS50by5lcXVhbCgzbik7CgogICAgICAgICAgdGhpcy5ob2xkZXJWb3RlcyA9IDBuOwogICAgICAgICAgdGhpcy5yZWNpcGllbnRWb3RlcyA9IDBuOwogICAgICAgIH0pOwoKICAgICAgICBhZnRlckVhY2goYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudm90ZXMuZ2V0Vm90ZXModGhpcy5ob2xkZXIpKS50by5lcXVhbCh0aGlzLmhvbGRlclZvdGVzKTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnZvdGVzLmdldFZvdGVzKHRoaXMucmVjaXBpZW50KSkudG8uZXF1YWwodGhpcy5yZWNpcGllbnRWb3Rlcyk7CgogICAgICAgICAgLy8gbmVlZCB0byBhZHZhbmNlIDIgYmxvY2tzIHRvIHNlZSB0aGUgZWZmZWN0IG9mIGEgdHJhbnNmZXIgb24gImdldFBhc3RWb3RlcyIKICAgICAgICAgIGNvbnN0IHRpbWVwb2ludCA9IGF3YWl0IHRpbWUuY2xvY2tbbW9kZV0oKTsKICAgICAgICAgIGF3YWl0IG1pbmUoKTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnZvdGVzLmdldFBhc3RWb3Rlcyh0aGlzLmhvbGRlciwgdGltZXBvaW50KSkudG8uZXF1YWwodGhpcy5ob2xkZXJWb3Rlcyk7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy52b3Rlcy5nZXRQYXN0Vm90ZXModGhpcy5yZWNpcGllbnQsIHRpbWVwb2ludCkpLnRvLmVxdWFsKHRoaXMucmVjaXBpZW50Vm90ZXMpOwogICAgICAgIH0pOwogICAgICB9KTsKICAgIH0pOwogIH0KfSk7Cg==
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture, mine } = require('@nomicfoundation/hardhat-network-helpers');
+
+const time = require('../../../helpers/time');
+
+const { shouldBehaveLikeVotes } = require('../../../governance/utils/Votes.behavior');
+
+const TOKENS = [
+  { Token: '$ERC721Votes', mode: 'blocknumber' },
+  // no timestamp mode for ERC721Votes yet
+];
+
+const name = 'My Vote';
+const symbol = 'MTKN';
+const version = '1';
+const tokens = [ethers.parseEther('10000000'), 10n, 20n, 30n];
+
+describe('ERC721Votes', function () {
+  for (const { Token, mode } of TOKENS) {
+    const fixture = async () => {
+      // accounts is required by shouldBehaveLikeVotes
+      const accounts = await ethers.getSigners();
+      const [holder, recipient, other1, other2] = accounts;
+
+      const token = await ethers.deployContract(Token, [name, symbol, name, version]);
+
+      return { accounts, holder, recipient, other1, other2, token };
+    };
+
+    describe(`vote with ${mode}`, function () {
+      beforeEach(async function () {
+        Object.assign(this, await loadFixture(fixture));
+        this.votes = this.token;
+      });
+
+      // includes ERC6372 behavior check
+      shouldBehaveLikeVotes(tokens, { mode, fungible: false });
+
+      describe('balanceOf', function () {
+        beforeEach(async function () {
+          await this.votes.$_mint(this.holder, tokens[0]);
+          await this.votes.$_mint(this.holder, tokens[1]);
+          await this.votes.$_mint(this.holder, tokens[2]);
+          await this.votes.$_mint(this.holder, tokens[3]);
+        });
+
+        it('grants to initial account', async function () {
+          expect(await this.votes.balanceOf(this.holder)).to.equal(4n);
+        });
+      });
+
+      describe('transfers', function () {
+        beforeEach(async function () {
+          await this.votes.$_mint(this.holder, tokens[0]);
+        });
+
+        it('no delegation', async function () {
+          await expect(this.votes.connect(this.holder).transferFrom(this.holder, this.recipient, tokens[0]))
+            .to.emit(this.token, 'Transfer')
+            .withArgs(this.holder, this.recipient, tokens[0])
+            .to.not.emit(this.token, 'DelegateVotesChanged');
+
+          this.holderVotes = 0n;
+          this.recipientVotes = 0n;
+        });
+
+        it('sender delegation', async function () {
+          await this.votes.connect(this.holder).delegate(this.holder);
+
+          const tx = await this.votes.connect(this.holder).transferFrom(this.holder, this.recipient, tokens[0]);
+          await expect(tx)
+            .to.emit(this.token, 'Transfer')
+            .withArgs(this.holder, this.recipient, tokens[0])
+            .to.emit(this.token, 'DelegateVotesChanged')
+            .withArgs(this.holder, 1n, 0n);
+
+          const { logs } = await tx.wait();
+          const { index } = logs.find(event => event.fragment.name == 'DelegateVotesChanged');
+          for (const event of logs.filter(event => event.fragment.name == 'Transfer')) {
+            expect(event.index).to.lt(index);
+          }
+
+          this.holderVotes = 0n;
+          this.recipientVotes = 0n;
+        });
+
+        it('receiver delegation', async function () {
+          await this.votes.connect(this.recipient).delegate(this.recipient);
+
+          const tx = await this.votes.connect(this.holder).transferFrom(this.holder, this.recipient, tokens[0]);
+          await expect(tx)
+            .to.emit(this.token, 'Transfer')
+            .withArgs(this.holder, this.recipient, tokens[0])
+            .to.emit(this.token, 'DelegateVotesChanged')
+            .withArgs(this.recipient, 0n, 1n);
+
+          const { logs } = await tx.wait();
+          const { index } = logs.find(event => event.fragment.name == 'DelegateVotesChanged');
+          for (const event of logs.filter(event => event.fragment.name == 'Transfer')) {
+            expect(event.index).to.lt(index);
+          }
+
+          this.holderVotes = 0n;
+          this.recipientVotes = 1n;
+        });
+
+        it('full delegation', async function () {
+          await this.votes.connect(this.holder).delegate(this.holder);
+          await this.votes.connect(this.recipient).delegate(this.recipient);
+
+          const tx = await this.votes.connect(this.holder).transferFrom(this.holder, this.recipient, tokens[0]);
+          await expect(tx)
+            .to.emit(this.token, 'Transfer')
+            .withArgs(this.holder, this.recipient, tokens[0])
+            .to.emit(this.token, 'DelegateVotesChanged')
+            .withArgs(this.holder, 1n, 0n)
+            .to.emit(this.token, 'DelegateVotesChanged')
+            .withArgs(this.recipient, 0n, 1n);
+
+          const { logs } = await tx.wait();
+          const { index } = logs.find(event => event.fragment.name == 'DelegateVotesChanged');
+          for (const event of logs.filter(event => event.fragment.name == 'Transfer')) {
+            expect(event.index).to.lt(index);
+          }
+
+          this.holderVotes = 0;
+          this.recipientVotes = 1n;
+        });
+
+        it('returns the same total supply on transfers', async function () {
+          await this.votes.connect(this.holder).delegate(this.holder);
+
+          const tx = await this.votes.connect(this.holder).transferFrom(this.holder, this.recipient, tokens[0]);
+          const timepoint = await time.clockFromReceipt[mode](tx);
+
+          await mine(2);
+
+          expect(await this.votes.getPastTotalSupply(timepoint - 1n)).to.equal(1n);
+          expect(await this.votes.getPastTotalSupply(timepoint + 1n)).to.equal(1n);
+
+          this.holderVotes = 0n;
+          this.recipientVotes = 0n;
+        });
+
+        it('generally returns the voting balance at the appropriate checkpoint', async function () {
+          await this.votes.$_mint(this.holder, tokens[1]);
+          await this.votes.$_mint(this.holder, tokens[2]);
+          await this.votes.$_mint(this.holder, tokens[3]);
+
+          const total = await this.votes.balanceOf(this.holder);
+
+          const t1 = await this.votes.connect(this.holder).delegate(this.other1);
+          await mine(2);
+          const t2 = await this.votes.connect(this.holder).transferFrom(this.holder, this.other2, tokens[0]);
+          await mine(2);
+          const t3 = await this.votes.connect(this.holder).transferFrom(this.holder, this.other2, tokens[2]);
+          await mine(2);
+          const t4 = await this.votes.connect(this.other2).transferFrom(this.other2, this.holder, tokens[2]);
+          await mine(2);
+
+          t1.timepoint = await time.clockFromReceipt[mode](t1);
+          t2.timepoint = await time.clockFromReceipt[mode](t2);
+          t3.timepoint = await time.clockFromReceipt[mode](t3);
+          t4.timepoint = await time.clockFromReceipt[mode](t4);
+
+          expect(await this.votes.getPastVotes(this.other1, t1.timepoint - 1n)).to.equal(0n);
+          expect(await this.votes.getPastVotes(this.other1, t1.timepoint)).to.equal(total);
+          expect(await this.votes.getPastVotes(this.other1, t1.timepoint + 1n)).to.equal(total);
+          expect(await this.votes.getPastVotes(this.other1, t2.timepoint)).to.equal(3n);
+          expect(await this.votes.getPastVotes(this.other1, t2.timepoint + 1n)).to.equal(3n);
+          expect(await this.votes.getPastVotes(this.other1, t3.timepoint)).to.equal(2n);
+          expect(await this.votes.getPastVotes(this.other1, t3.timepoint + 1n)).to.equal(2n);
+          expect(await this.votes.getPastVotes(this.other1, t4.timepoint)).to.equal('3');
+          expect(await this.votes.getPastVotes(this.other1, t4.timepoint + 1n)).to.equal(3n);
+
+          this.holderVotes = 0n;
+          this.recipientVotes = 0n;
+        });
+
+        afterEach(async function () {
+          expect(await this.votes.getVotes(this.holder)).to.equal(this.holderVotes);
+          expect(await this.votes.getVotes(this.recipient)).to.equal(this.recipientVotes);
+
+          // need to advance 2 blocks to see the effect of a transfer on "getPastVotes"
+          const timepoint = await time.clock[mode]();
+          await mine();
+          expect(await this.votes.getPastVotes(this.holder, timepoint)).to.equal(this.holderVotes);
+          expect(await this.votes.getPastVotes(this.recipient, timepoint)).to.equal(this.recipientVotes);
+        });
+      });
+    });
+  }
+});
