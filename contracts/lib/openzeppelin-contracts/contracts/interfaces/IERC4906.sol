@@ -1,1 +1,20 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAoaW50ZXJmYWNlcy9JRVJDNDkwNi5zb2wpCgpwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7SUVSQzE2NX0gZnJvbSAiLi9JRVJDMTY1LnNvbCI7CmltcG9ydCB7SUVSQzcyMX0gZnJvbSAiLi9JRVJDNzIxLnNvbCI7CgovLy8gQHRpdGxlIEVSQy03MjEgTWV0YWRhdGEgVXBkYXRlIEV4dGVuc2lvbgppbnRlcmZhY2UgSUVSQzQ5MDYgaXMgSUVSQzE2NSwgSUVSQzcyMSB7CiAgICAvLy8gQGRldiBUaGlzIGV2ZW50IGVtaXRzIHdoZW4gdGhlIG1ldGFkYXRhIG9mIGEgdG9rZW4gaXMgY2hhbmdlZC4KICAgIC8vLyBTbyB0aGF0IHRoZSB0aGlyZC1wYXJ0eSBwbGF0Zm9ybXMgc3VjaCBhcyBORlQgbWFya2V0IGNvdWxkCiAgICAvLy8gdGltZWx5IHVwZGF0ZSB0aGUgaW1hZ2VzIGFuZCByZWxhdGVkIGF0dHJpYnV0ZXMgb2YgdGhlIE5GVC4KICAgIGV2ZW50IE1ldGFkYXRhVXBkYXRlKHVpbnQyNTYgX3Rva2VuSWQpOwoKICAgIC8vLyBAZGV2IFRoaXMgZXZlbnQgZW1pdHMgd2hlbiB0aGUgbWV0YWRhdGEgb2YgYSByYW5nZSBvZiB0b2tlbnMgaXMgY2hhbmdlZC4KICAgIC8vLyBTbyB0aGF0IHRoZSB0aGlyZC1wYXJ0eSBwbGF0Zm9ybXMgc3VjaCBhcyBORlQgbWFya2V0IGNvdWxkCiAgICAvLy8gdGltZWx5IHVwZGF0ZSB0aGUgaW1hZ2VzIGFuZCByZWxhdGVkIGF0dHJpYnV0ZXMgb2YgdGhlIE5GVHMuCiAgICBldmVudCBCYXRjaE1ldGFkYXRhVXBkYXRlKHVpbnQyNTYgX2Zyb21Ub2tlbklkLCB1aW50MjU2IF90b1Rva2VuSWQpOwp9Cg==
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (interfaces/IERC4906.sol)
+
+pragma solidity ^0.8.20;
+
+import {IERC165} from "./IERC165.sol";
+import {IERC721} from "./IERC721.sol";
+
+/// @title ERC-721 Metadata Update Extension
+interface IERC4906 is IERC165, IERC721 {
+    /// @dev This event emits when the metadata of a token is changed.
+    /// So that the third-party platforms such as NFT market could
+    /// timely update the images and related attributes of the NFT.
+    event MetadataUpdate(uint256 _tokenId);
+
+    /// @dev This event emits when the metadata of a range of tokens is changed.
+    /// So that the third-party platforms such as NFT market could
+    /// timely update the images and related attributes of the NFTs.
+    event BatchMetadataUpdate(uint256 _fromTokenId, uint256 _toTokenId);
+}
