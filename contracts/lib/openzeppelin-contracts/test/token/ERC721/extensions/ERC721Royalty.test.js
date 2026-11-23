@@ -1,1 +1,57 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKY29uc3QgeyBzaG91bGRCZWhhdmVMaWtlRVJDMjk4MSB9ID0gcmVxdWlyZSgnLi4vLi4vY29tbW9uL0VSQzI5ODEuYmVoYXZpb3InKTsKCmNvbnN0IG5hbWUgPSAnTm9uIEZ1bmdpYmxlIFRva2VuJzsKY29uc3Qgc3ltYm9sID0gJ05GVCc7Cgpjb25zdCB0b2tlbklkMSA9IDFuOwpjb25zdCB0b2tlbklkMiA9IDJuOwpjb25zdCByb3lhbHR5ID0gMjAwbjsKY29uc3Qgc2FsZVByaWNlID0gMTAwMG47Cgphc3luYyBmdW5jdGlvbiBmaXh0dXJlKCkgewogIGNvbnN0IFthY2NvdW50MSwgYWNjb3VudDIsIHJlY2lwaWVudF0gPSBhd2FpdCBldGhlcnMuZ2V0U2lnbmVycygpOwoKICBjb25zdCB0b2tlbiA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnJEVSQzcyMVJveWFsdHknLCBbbmFtZSwgc3ltYm9sXSk7CiAgYXdhaXQgdG9rZW4uJF9taW50KGFjY291bnQxLCB0b2tlbklkMSk7CiAgYXdhaXQgdG9rZW4uJF9taW50KGFjY291bnQxLCB0b2tlbklkMik7CgogIHJldHVybiB7IGFjY291bnQxLCBhY2NvdW50MiwgcmVjaXBpZW50LCB0b2tlbiB9Owp9CgpkZXNjcmliZSgnRVJDNzIxUm95YWx0eScsIGZ1bmN0aW9uICgpIHsKICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgIE9iamVjdC5hc3NpZ24oCiAgICAgIHRoaXMsCiAgICAgIGF3YWl0IGxvYWRGaXh0dXJlKGZpeHR1cmUpLAogICAgICB7IHRva2VuSWQxLCB0b2tlbklkMiwgcm95YWx0eSwgc2FsZVByaWNlIH0sIC8vIHNldCBmb3IgYmVoYXZpb3IgdGVzdHMKICAgICk7CiAgfSk7CgogIGRlc2NyaWJlKCd0b2tlbiBzcGVjaWZpYyBmdW5jdGlvbnMnLCBmdW5jdGlvbiAoKSB7CiAgICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgdGhpcy50b2tlbi4kX3NldFRva2VuUm95YWx0eSh0b2tlbklkMSwgdGhpcy5yZWNpcGllbnQsIHJveWFsdHkpOwogICAgfSk7CgogICAgaXQoJ3JveWFsdHkgaW5mb3JtYXRpb24gYXJlIGtlcHQgZHVyaW5nIGJ1cm4gYW5kIHJlLW1pbnQnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IHRoaXMudG9rZW4uJF9idXJuKHRva2VuSWQxKTsKCiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnRva2VuLnJveWFsdHlJbmZvKHRva2VuSWQxLCBzYWxlUHJpY2UpKS50by5kZWVwLmVxdWFsKFsKICAgICAgICB0aGlzLnJlY2lwaWVudC5hZGRyZXNzLAogICAgICAgIChzYWxlUHJpY2UgKiByb3lhbHR5KSAvIDEwMDAwbiwKICAgICAgXSk7CgogICAgICBhd2FpdCB0aGlzLnRva2VuLiRfbWludCh0aGlzLmFjY291bnQyLCB0b2tlbklkMSk7CgogICAgICBleHBlY3QoYXdhaXQgdGhpcy50b2tlbi5yb3lhbHR5SW5mbyh0b2tlbklkMSwgc2FsZVByaWNlKSkudG8uZGVlcC5lcXVhbChbCiAgICAgICAgdGhpcy5yZWNpcGllbnQuYWRkcmVzcywKICAgICAgICAoc2FsZVByaWNlICogcm95YWx0eSkgLyAxMDAwMG4sCiAgICAgIF0pOwogICAgfSk7CiAgfSk7CgogIHNob3VsZEJlaGF2ZUxpa2VFUkMyOTgxKCk7Cn0pOwo=
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+const { shouldBehaveLikeERC2981 } = require('../../common/ERC2981.behavior');
+
+const name = 'Non Fungible Token';
+const symbol = 'NFT';
+
+const tokenId1 = 1n;
+const tokenId2 = 2n;
+const royalty = 200n;
+const salePrice = 1000n;
+
+async function fixture() {
+  const [account1, account2, recipient] = await ethers.getSigners();
+
+  const token = await ethers.deployContract('$ERC721Royalty', [name, symbol]);
+  await token.$_mint(account1, tokenId1);
+  await token.$_mint(account1, tokenId2);
+
+  return { account1, account2, recipient, token };
+}
+
+describe('ERC721Royalty', function () {
+  beforeEach(async function () {
+    Object.assign(
+      this,
+      await loadFixture(fixture),
+      { tokenId1, tokenId2, royalty, salePrice }, // set for behavior tests
+    );
+  });
+
+  describe('token specific functions', function () {
+    beforeEach(async function () {
+      await this.token.$_setTokenRoyalty(tokenId1, this.recipient, royalty);
+    });
+
+    it('royalty information are kept during burn and re-mint', async function () {
+      await this.token.$_burn(tokenId1);
+
+      expect(await this.token.royaltyInfo(tokenId1, salePrice)).to.deep.equal([
+        this.recipient.address,
+        (salePrice * royalty) / 10000n,
+      ]);
+
+      await this.token.$_mint(this.account2, tokenId1);
+
+      expect(await this.token.royaltyInfo(tokenId1, salePrice)).to.deep.equal([
+        this.recipient.address,
+        (salePrice * royalty) / 10000n,
+      ]);
+    });
+  });
+
+  shouldBehaveLikeERC2981();
+});
