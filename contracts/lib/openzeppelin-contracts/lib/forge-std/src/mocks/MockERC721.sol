@@ -1,1 +1,221 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgPj0wLjYuMiA8MC45LjA7CgovLy8gQG5vdGljZSBUaGlzIGlzIGEgbW9jayBjb250cmFjdCBvZiB0aGUgRVJDNzIxIHN0YW5kYXJkIGZvciB0ZXN0aW5nIHB1cnBvc2VzIG9ubHksIGl0IFNIT1VMRCBOT1QgYmUgdXNlZCBpbiBwcm9kdWN0aW9uLgovLy8gQGRldiBGb3JrZWQgZnJvbTogaHR0cHM6Ly9naXRodWIuY29tL3RyYW5zbWlzc2lvbnMxMS9zb2xtYXRlL2Jsb2IvMDM4NGRiYWFhNGZjYjU3MTU3MzhhOTI1NGE3YzBhNGNiNjJjZjQ1OC9zcmMvdG9rZW5zL0VSQzcyMS5zb2wKY29udHJhY3QgTW9ja0VSQzcyMSB7CiAgICAvKi8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEVWRU5UUwogICAgLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8qLwoKICAgIGV2ZW50IFRyYW5zZmVyKGFkZHJlc3MgaW5kZXhlZCBmcm9tLCBhZGRyZXNzIGluZGV4ZWQgdG8sIHVpbnQyNTYgaW5kZXhlZCBpZCk7CgogICAgZXZlbnQgQXBwcm92YWwoYWRkcmVzcyBpbmRleGVkIG93bmVyLCBhZGRyZXNzIGluZGV4ZWQgc3BlbmRlciwgdWludDI1NiBpbmRleGVkIGlkKTsKCiAgICBldmVudCBBcHByb3ZhbEZvckFsbChhZGRyZXNzIGluZGV4ZWQgb3duZXIsIGFkZHJlc3MgaW5kZXhlZCBvcGVyYXRvciwgYm9vbCBhcHByb3ZlZCk7CgogICAgLyovLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLwogICAgICAgICAgICAgICAgICAgICAgICAgTUVUQURBVEEgU1RPUkFHRS9MT0dJQwogICAgLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8qLwoKICAgIHN0cmluZyBwdWJsaWMgbmFtZTsKCiAgICBzdHJpbmcgcHVibGljIHN5bWJvbDsKCiAgICBmdW5jdGlvbiB0b2tlblVSSSh1aW50MjU2IGlkKSBwdWJsaWMgdmlldyB2aXJ0dWFsIHJldHVybnMgKHN0cmluZyBtZW1vcnkpIHt9CgogICAgLyovLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLwogICAgICAgICAgICAgICAgICAgICAgRVJDNzIxIEJBTEFOQ0UvT1dORVIgU1RPUkFHRQogICAgLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8qLwoKICAgIG1hcHBpbmcodWludDI1NiA9PiBhZGRyZXNzKSBpbnRlcm5hbCBfb3duZXJPZjsKCiAgICBtYXBwaW5nKGFkZHJlc3MgPT4gdWludDI1NikgaW50ZXJuYWwgX2JhbGFuY2VPZjsKCiAgICBmdW5jdGlvbiBvd25lck9mKHVpbnQyNTYgaWQpIHB1YmxpYyB2aWV3IHZpcnR1YWwgcmV0dXJucyAoYWRkcmVzcyBvd25lcikgewogICAgICAgIHJlcXVpcmUoKG93bmVyID0gX293bmVyT2ZbaWRdKSAhPSBhZGRyZXNzKDApLCAiTk9UX01JTlRFRCIpOwogICAgfQoKICAgIGZ1bmN0aW9uIGJhbGFuY2VPZihhZGRyZXNzIG93bmVyKSBwdWJsaWMgdmlldyB2aXJ0dWFsIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXF1aXJlKG93bmVyICE9IGFkZHJlc3MoMCksICJaRVJPX0FERFJFU1MiKTsKCiAgICAgICAgcmV0dXJuIF9iYWxhbmNlT2Zbb3duZXJdOwogICAgfQoKICAgIC8qLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8KICAgICAgICAgICAgICAgICAgICAgICAgIEVSQzcyMSBBUFBST1ZBTCBTVE9SQUdFCiAgICAvLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLyovCgogICAgbWFwcGluZyh1aW50MjU2ID0+IGFkZHJlc3MpIHB1YmxpYyBnZXRBcHByb3ZlZDsKCiAgICBtYXBwaW5nKGFkZHJlc3MgPT4gbWFwcGluZyhhZGRyZXNzID0+IGJvb2wpKSBwdWJsaWMgaXNBcHByb3ZlZEZvckFsbDsKCiAgICAvKi8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBJTklUSUFMSVpFCiAgICAvLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLyovCgogICAgLy8vIEBkZXYgQSBib29sIHRvIHRyYWNrIHdoZXRoZXIgdGhlIGNvbnRyYWN0IGhhcyBiZWVuIGluaXRpYWxpemVkLgogICAgYm9vbCBwcml2YXRlIGluaXRpYWxpemVkOwoKICAgIC8vLyBAZGV2IFRvIGhpZGUgY29uc3RydWN0b3Igd2FybmluZ3MgYWNyb3NzIHNvbGMgdmVyc2lvbnMgZHVlIHRvIGRpZmZlcmVudCBjb25zdHJ1Y3RvciB2aXNpYmlsaXR5IHJlcXVpcmVtZW50cyBhbmQKICAgIC8vLyBzeW50YXhlcywgd2UgYWRkIGFuIGluaXRpYWxpemF0aW9uIGZ1bmN0aW9uIHRoYXQgY2FuIGJlIGNhbGxlZCBvbmx5IG9uY2UuCiAgICBmdW5jdGlvbiBpbml0aWFsaXplKHN0cmluZyBtZW1vcnkgX25hbWUsIHN0cmluZyBtZW1vcnkgX3N5bWJvbCkgcHVibGljIHsKICAgICAgICByZXF1aXJlKCFpbml0aWFsaXplZCwgIkFMUkVBRFlfSU5JVElBTElaRUQiKTsKCiAgICAgICAgbmFtZSA9IF9uYW1lOwogICAgICAgIHN5bWJvbCA9IF9zeW1ib2w7CgogICAgICAgIGluaXRpYWxpemVkID0gdHJ1ZTsKICAgIH0KCiAgICAvKi8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEVSQzcyMSBMT0dJQwogICAgLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8qLwoKICAgIGZ1bmN0aW9uIGFwcHJvdmUoYWRkcmVzcyBzcGVuZGVyLCB1aW50MjU2IGlkKSBwdWJsaWMgdmlydHVhbCB7CiAgICAgICAgYWRkcmVzcyBvd25lciA9IF9vd25lck9mW2lkXTsKCiAgICAgICAgcmVxdWlyZShtc2cuc2VuZGVyID09IG93bmVyIHx8IGlzQXBwcm92ZWRGb3JBbGxbb3duZXJdW21zZy5zZW5kZXJdLCAiTk9UX0FVVEhPUklaRUQiKTsKCiAgICAgICAgZ2V0QXBwcm92ZWRbaWRdID0gc3BlbmRlcjsKCiAgICAgICAgZW1pdCBBcHByb3ZhbChvd25lciwgc3BlbmRlciwgaWQpOwogICAgfQoKICAgIGZ1bmN0aW9uIHNldEFwcHJvdmFsRm9yQWxsKGFkZHJlc3Mgb3BlcmF0b3IsIGJvb2wgYXBwcm92ZWQpIHB1YmxpYyB2aXJ0dWFsIHsKICAgICAgICBpc0FwcHJvdmVkRm9yQWxsW21zZy5zZW5kZXJdW29wZXJhdG9yXSA9IGFwcHJvdmVkOwoKICAgICAgICBlbWl0IEFwcHJvdmFsRm9yQWxsKG1zZy5zZW5kZXIsIG9wZXJhdG9yLCBhcHByb3ZlZCk7CiAgICB9CgogICAgZnVuY3Rpb24gdHJhbnNmZXJGcm9tKGFkZHJlc3MgZnJvbSwgYWRkcmVzcyB0bywgdWludDI1NiBpZCkgcHVibGljIHZpcnR1YWwgewogICAgICAgIHJlcXVpcmUoZnJvbSA9PSBfb3duZXJPZltpZF0sICJXUk9OR19GUk9NIik7CgogICAgICAgIHJlcXVpcmUodG8gIT0gYWRkcmVzcygwKSwgIklOVkFMSURfUkVDSVBJRU5UIik7CgogICAgICAgIHJlcXVpcmUoCiAgICAgICAgICAgIG1zZy5zZW5kZXIgPT0gZnJvbSB8fCBpc0FwcHJvdmVkRm9yQWxsW2Zyb21dW21zZy5zZW5kZXJdIHx8IG1zZy5zZW5kZXIgPT0gZ2V0QXBwcm92ZWRbaWRdLCAiTk9UX0FVVEhPUklaRUQiCiAgICAgICAgKTsKCiAgICAgICAgLy8gVW5kZXJmbG93IG9mIHRoZSBzZW5kZXIncyBiYWxhbmNlIGlzIGltcG9zc2libGUgYmVjYXVzZSB3ZSBjaGVjayBmb3IKICAgICAgICAvLyBvd25lcnNoaXAgYWJvdmUgYW5kIHRoZSByZWNpcGllbnQncyBiYWxhbmNlIGNhbid0IHJlYWxpc3RpY2FsbHkgb3ZlcmZsb3cuCiAgICAgICAgX2JhbGFuY2VPZltmcm9tXS0tOwoKICAgICAgICBfYmFsYW5jZU9mW3RvXSsrOwoKICAgICAgICBfb3duZXJPZltpZF0gPSB0bzsKCiAgICAgICAgZGVsZXRlIGdldEFwcHJvdmVkW2lkXTsKCiAgICAgICAgZW1pdCBUcmFuc2Zlcihmcm9tLCB0bywgaWQpOwogICAgfQoKICAgIGZ1bmN0aW9uIHNhZmVUcmFuc2ZlckZyb20oYWRkcmVzcyBmcm9tLCBhZGRyZXNzIHRvLCB1aW50MjU2IGlkKSBwdWJsaWMgdmlydHVhbCB7CiAgICAgICAgdHJhbnNmZXJGcm9tKGZyb20sIHRvLCBpZCk7CgogICAgICAgIHJlcXVpcmUoCiAgICAgICAgICAgICFfaXNDb250cmFjdCh0bykKICAgICAgICAgICAgICAgIHx8IElFUkM3MjFUb2tlblJlY2VpdmVyKHRvKS5vbkVSQzcyMVJlY2VpdmVkKG1zZy5zZW5kZXIsIGZyb20sIGlkLCAiIikKICAgICAgICAgICAgICAgICAgICA9PSBJRVJDNzIxVG9rZW5SZWNlaXZlci5vbkVSQzcyMVJlY2VpdmVkLnNlbGVjdG9yLAogICAgICAgICAgICAiVU5TQUZFX1JFQ0lQSUVOVCIKICAgICAgICApOwogICAgfQoKICAgIGZ1bmN0aW9uIHNhZmVUcmFuc2ZlckZyb20oYWRkcmVzcyBmcm9tLCBhZGRyZXNzIHRvLCB1aW50MjU2IGlkLCBieXRlcyBtZW1vcnkgZGF0YSkgcHVibGljIHZpcnR1YWwgewogICAgICAgIHRyYW5zZmVyRnJvbShmcm9tLCB0bywgaWQpOwoKICAgICAgICByZXF1aXJlKAogICAgICAgICAgICAhX2lzQ29udHJhY3QodG8pCiAgICAgICAgICAgICAgICB8fCBJRVJDNzIxVG9rZW5SZWNlaXZlcih0bykub25FUkM3MjFSZWNlaXZlZChtc2cuc2VuZGVyLCBmcm9tLCBpZCwgZGF0YSkKICAgICAgICAgICAgICAgICAgICA9PSBJRVJDNzIxVG9rZW5SZWNlaXZlci5vbkVSQzcyMVJlY2VpdmVkLnNlbGVjdG9yLAogICAgICAgICAgICAiVU5TQUZFX1JFQ0lQSUVOVCIKICAgICAgICApOwogICAgfQoKICAgIC8qLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgRVJDMTY1IExPR0lDCiAgICAvLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLyovCgogICAgZnVuY3Rpb24gc3VwcG9ydHNJbnRlcmZhY2UoYnl0ZXM0IGludGVyZmFjZUlkKSBwdWJsaWMgcHVyZSB2aXJ0dWFsIHJldHVybnMgKGJvb2wpIHsKICAgICAgICByZXR1cm4gaW50ZXJmYWNlSWQgPT0gMHgwMWZmYzlhNyAvLyBFUkMxNjUgSW50ZXJmYWNlIElEIGZvciBFUkMxNjUKICAgICAgICAgICAgfHwgaW50ZXJmYWNlSWQgPT0gMHg4MGFjNThjZCAvLyBFUkMxNjUgSW50ZXJmYWNlIElEIGZvciBFUkM3MjEKICAgICAgICAgICAgfHwgaW50ZXJmYWNlSWQgPT0gMHg1YjVlMTM5ZjsgLy8gRVJDMTY1IEludGVyZmFjZSBJRCBmb3IgRVJDNzIxTWV0YWRhdGEKICAgIH0KCiAgICAvKi8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vCiAgICAgICAgICAgICAgICAgICAgICAgIElOVEVSTkFMIE1JTlQvQlVSTiBMT0dJQwogICAgLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8qLwoKICAgIGZ1bmN0aW9uIF9taW50KGFkZHJlc3MgdG8sIHVpbnQyNTYgaWQpIGludGVybmFsIHZpcnR1YWwgewogICAgICAgIHJlcXVpcmUodG8gIT0gYWRkcmVzcygwKSwgIklOVkFMSURfUkVDSVBJRU5UIik7CgogICAgICAgIHJlcXVpcmUoX293bmVyT2ZbaWRdID09IGFkZHJlc3MoMCksICJBTFJFQURZX01JTlRFRCIpOwoKICAgICAgICAvLyBDb3VudGVyIG92ZXJmbG93IGlzIGluY3JlZGlibHkgdW5yZWFsaXN0aWMuCgogICAgICAgIF9iYWxhbmNlT2ZbdG9dKys7CgogICAgICAgIF9vd25lck9mW2lkXSA9IHRvOwoKICAgICAgICBlbWl0IFRyYW5zZmVyKGFkZHJlc3MoMCksIHRvLCBpZCk7CiAgICB9CgogICAgZnVuY3Rpb24gX2J1cm4odWludDI1NiBpZCkgaW50ZXJuYWwgdmlydHVhbCB7CiAgICAgICAgYWRkcmVzcyBvd25lciA9IF9vd25lck9mW2lkXTsKCiAgICAgICAgcmVxdWlyZShvd25lciAhPSBhZGRyZXNzKDApLCAiTk9UX01JTlRFRCIpOwoKICAgICAgICBfYmFsYW5jZU9mW293bmVyXS0tOwoKICAgICAgICBkZWxldGUgX293bmVyT2ZbaWRdOwoKICAgICAgICBkZWxldGUgZ2V0QXBwcm92ZWRbaWRdOwoKICAgICAgICBlbWl0IFRyYW5zZmVyKG93bmVyLCBhZGRyZXNzKDApLCBpZCk7CiAgICB9CgogICAgLyovLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLwogICAgICAgICAgICAgICAgICAgICAgICBJTlRFUk5BTCBTQUZFIE1JTlQgTE9HSUMKICAgIC8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vKi8KCiAgICBmdW5jdGlvbiBfc2FmZU1pbnQoYWRkcmVzcyB0bywgdWludDI1NiBpZCkgaW50ZXJuYWwgdmlydHVhbCB7CiAgICAgICAgX21pbnQodG8sIGlkKTsKCiAgICAgICAgcmVxdWlyZSgKICAgICAgICAgICAgIV9pc0NvbnRyYWN0KHRvKQogICAgICAgICAgICAgICAgfHwgSUVSQzcyMVRva2VuUmVjZWl2ZXIodG8pLm9uRVJDNzIxUmVjZWl2ZWQobXNnLnNlbmRlciwgYWRkcmVzcygwKSwgaWQsICIiKQogICAgICAgICAgICAgICAgICAgID09IElFUkM3MjFUb2tlblJlY2VpdmVyLm9uRVJDNzIxUmVjZWl2ZWQuc2VsZWN0b3IsCiAgICAgICAgICAgICJVTlNBRkVfUkVDSVBJRU5UIgogICAgICAgICk7CiAgICB9CgogICAgZnVuY3Rpb24gX3NhZmVNaW50KGFkZHJlc3MgdG8sIHVpbnQyNTYgaWQsIGJ5dGVzIG1lbW9yeSBkYXRhKSBpbnRlcm5hbCB2aXJ0dWFsIHsKICAgICAgICBfbWludCh0bywgaWQpOwoKICAgICAgICByZXF1aXJlKAogICAgICAgICAgICAhX2lzQ29udHJhY3QodG8pCiAgICAgICAgICAgICAgICB8fCBJRVJDNzIxVG9rZW5SZWNlaXZlcih0bykub25FUkM3MjFSZWNlaXZlZChtc2cuc2VuZGVyLCBhZGRyZXNzKDApLCBpZCwgZGF0YSkKICAgICAgICAgICAgICAgICAgICA9PSBJRVJDNzIxVG9rZW5SZWNlaXZlci5vbkVSQzcyMVJlY2VpdmVkLnNlbGVjdG9yLAogICAgICAgICAgICAiVU5TQUZFX1JFQ0lQSUVOVCIKICAgICAgICApOwogICAgfQoKICAgIC8qLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBIRUxQRVJTCiAgICAvLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLyovCgogICAgZnVuY3Rpb24gX2lzQ29udHJhY3QoYWRkcmVzcyBfYWRkcikgcHJpdmF0ZSB2aWV3IHJldHVybnMgKGJvb2wpIHsKICAgICAgICB1aW50MjU2IGNvZGVMZW5ndGg7CgogICAgICAgIC8vIEFzc2VtYmx5IHJlcXVpcmVkIGZvciB2ZXJzaW9ucyA8IDAuOC4wIHRvIGNoZWNrIGV4dGNvZGVzaXplLgogICAgICAgIGFzc2VtYmx5IHsKICAgICAgICAgICAgY29kZUxlbmd0aCA6PSBleHRjb2Rlc2l6ZShfYWRkcikKICAgICAgICB9CgogICAgICAgIHJldHVybiBjb2RlTGVuZ3RoID4gMDsKICAgIH0KfQoKaW50ZXJmYWNlIElFUkM3MjFUb2tlblJlY2VpdmVyIHsKICAgIGZ1bmN0aW9uIG9uRVJDNzIxUmVjZWl2ZWQoYWRkcmVzcywgYWRkcmVzcywgdWludDI1NiwgYnl0ZXMgY2FsbGRhdGEpIGV4dGVybmFsIHJldHVybnMgKGJ5dGVzNCk7Cn0K
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.6.2 <0.9.0;
+
+/// @notice This is a mock contract of the ERC721 standard for testing purposes only, it SHOULD NOT be used in production.
+/// @dev Forked from: https://github.com/transmissions11/solmate/blob/0384dbaaa4fcb5715738a9254a7c0a4cb62cf458/src/tokens/ERC721.sol
+contract MockERC721 {
+    /*//////////////////////////////////////////////////////////////
+                                 EVENTS
+    //////////////////////////////////////////////////////////////*/
+
+    event Transfer(address indexed from, address indexed to, uint256 indexed id);
+
+    event Approval(address indexed owner, address indexed spender, uint256 indexed id);
+
+    event ApprovalForAll(address indexed owner, address indexed operator, bool approved);
+
+    /*//////////////////////////////////////////////////////////////
+                         METADATA STORAGE/LOGIC
+    //////////////////////////////////////////////////////////////*/
+
+    string public name;
+
+    string public symbol;
+
+    function tokenURI(uint256 id) public view virtual returns (string memory) {}
+
+    /*//////////////////////////////////////////////////////////////
+                      ERC721 BALANCE/OWNER STORAGE
+    //////////////////////////////////////////////////////////////*/
+
+    mapping(uint256 => address) internal _ownerOf;
+
+    mapping(address => uint256) internal _balanceOf;
+
+    function ownerOf(uint256 id) public view virtual returns (address owner) {
+        require((owner = _ownerOf[id]) != address(0), "NOT_MINTED");
+    }
+
+    function balanceOf(address owner) public view virtual returns (uint256) {
+        require(owner != address(0), "ZERO_ADDRESS");
+
+        return _balanceOf[owner];
+    }
+
+    /*//////////////////////////////////////////////////////////////
+                         ERC721 APPROVAL STORAGE
+    //////////////////////////////////////////////////////////////*/
+
+    mapping(uint256 => address) public getApproved;
+
+    mapping(address => mapping(address => bool)) public isApprovedForAll;
+
+    /*//////////////////////////////////////////////////////////////
+                               INITIALIZE
+    //////////////////////////////////////////////////////////////*/
+
+    /// @dev A bool to track whether the contract has been initialized.
+    bool private initialized;
+
+    /// @dev To hide constructor warnings across solc versions due to different constructor visibility requirements and
+    /// syntaxes, we add an initialization function that can be called only once.
+    function initialize(string memory _name, string memory _symbol) public {
+        require(!initialized, "ALREADY_INITIALIZED");
+
+        name = _name;
+        symbol = _symbol;
+
+        initialized = true;
+    }
+
+    /*//////////////////////////////////////////////////////////////
+                              ERC721 LOGIC
+    //////////////////////////////////////////////////////////////*/
+
+    function approve(address spender, uint256 id) public virtual {
+        address owner = _ownerOf[id];
+
+        require(msg.sender == owner || isApprovedForAll[owner][msg.sender], "NOT_AUTHORIZED");
+
+        getApproved[id] = spender;
+
+        emit Approval(owner, spender, id);
+    }
+
+    function setApprovalForAll(address operator, bool approved) public virtual {
+        isApprovedForAll[msg.sender][operator] = approved;
+
+        emit ApprovalForAll(msg.sender, operator, approved);
+    }
+
+    function transferFrom(address from, address to, uint256 id) public virtual {
+        require(from == _ownerOf[id], "WRONG_FROM");
+
+        require(to != address(0), "INVALID_RECIPIENT");
+
+        require(
+            msg.sender == from || isApprovedForAll[from][msg.sender] || msg.sender == getApproved[id], "NOT_AUTHORIZED"
+        );
+
+        // Underflow of the sender's balance is impossible because we check for
+        // ownership above and the recipient's balance can't realistically overflow.
+        _balanceOf[from]--;
+
+        _balanceOf[to]++;
+
+        _ownerOf[id] = to;
+
+        delete getApproved[id];
+
+        emit Transfer(from, to, id);
+    }
+
+    function safeTransferFrom(address from, address to, uint256 id) public virtual {
+        transferFrom(from, to, id);
+
+        require(
+            !_isContract(to)
+                || IERC721TokenReceiver(to).onERC721Received(msg.sender, from, id, "")
+                    == IERC721TokenReceiver.onERC721Received.selector,
+            "UNSAFE_RECIPIENT"
+        );
+    }
+
+    function safeTransferFrom(address from, address to, uint256 id, bytes memory data) public virtual {
+        transferFrom(from, to, id);
+
+        require(
+            !_isContract(to)
+                || IERC721TokenReceiver(to).onERC721Received(msg.sender, from, id, data)
+                    == IERC721TokenReceiver.onERC721Received.selector,
+            "UNSAFE_RECIPIENT"
+        );
+    }
+
+    /*//////////////////////////////////////////////////////////////
+                              ERC165 LOGIC
+    //////////////////////////////////////////////////////////////*/
+
+    function supportsInterface(bytes4 interfaceId) public pure virtual returns (bool) {
+        return interfaceId == 0x01ffc9a7 // ERC165 Interface ID for ERC165
+            || interfaceId == 0x80ac58cd // ERC165 Interface ID for ERC721
+            || interfaceId == 0x5b5e139f; // ERC165 Interface ID for ERC721Metadata
+    }
+
+    /*//////////////////////////////////////////////////////////////
+                        INTERNAL MINT/BURN LOGIC
+    //////////////////////////////////////////////////////////////*/
+
+    function _mint(address to, uint256 id) internal virtual {
+        require(to != address(0), "INVALID_RECIPIENT");
+
+        require(_ownerOf[id] == address(0), "ALREADY_MINTED");
+
+        // Counter overflow is incredibly unrealistic.
+
+        _balanceOf[to]++;
+
+        _ownerOf[id] = to;
+
+        emit Transfer(address(0), to, id);
+    }
+
+    function _burn(uint256 id) internal virtual {
+        address owner = _ownerOf[id];
+
+        require(owner != address(0), "NOT_MINTED");
+
+        _balanceOf[owner]--;
+
+        delete _ownerOf[id];
+
+        delete getApproved[id];
+
+        emit Transfer(owner, address(0), id);
+    }
+
+    /*//////////////////////////////////////////////////////////////
+                        INTERNAL SAFE MINT LOGIC
+    //////////////////////////////////////////////////////////////*/
+
+    function _safeMint(address to, uint256 id) internal virtual {
+        _mint(to, id);
+
+        require(
+            !_isContract(to)
+                || IERC721TokenReceiver(to).onERC721Received(msg.sender, address(0), id, "")
+                    == IERC721TokenReceiver.onERC721Received.selector,
+            "UNSAFE_RECIPIENT"
+        );
+    }
+
+    function _safeMint(address to, uint256 id, bytes memory data) internal virtual {
+        _mint(to, id);
+
+        require(
+            !_isContract(to)
+                || IERC721TokenReceiver(to).onERC721Received(msg.sender, address(0), id, data)
+                    == IERC721TokenReceiver.onERC721Received.selector,
+            "UNSAFE_RECIPIENT"
+        );
+    }
+
+    /*//////////////////////////////////////////////////////////////
+                                HELPERS
+    //////////////////////////////////////////////////////////////*/
+
+    function _isContract(address _addr) private view returns (bool) {
+        uint256 codeLength;
+
+        // Assembly required for versions < 0.8.0 to check extcodesize.
+        assembly {
+            codeLength := extcodesize(_addr)
+        }
+
+        return codeLength > 0;
+    }
+}
+
+interface IERC721TokenReceiver {
+    function onERC721Received(address, address, uint256, bytes calldata) external returns (bytes4);
+}
