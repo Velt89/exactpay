@@ -1,1 +1,50 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodXRpbHMvY3J5cHRvZ3JhcGh5L1NpZ25hdHVyZUNoZWNrZXIuc29sKQoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0VDRFNBfSBmcm9tICIuL0VDRFNBLnNvbCI7CmltcG9ydCB7SUVSQzEyNzF9IGZyb20gIi4uLy4uL2ludGVyZmFjZXMvSUVSQzEyNzEuc29sIjsKCi8qKgogKiBAZGV2IFNpZ25hdHVyZSB2ZXJpZmljYXRpb24gaGVscGVyIHRoYXQgY2FuIGJlIHVzZWQgaW5zdGVhZCBvZiBgRUNEU0EucmVjb3ZlcmAgdG8gc2VhbWxlc3NseSBzdXBwb3J0IGJvdGggRUNEU0EKICogc2lnbmF0dXJlcyBmcm9tIGV4dGVybmFsbHkgb3duZWQgYWNjb3VudHMgKEVPQXMpIGFzIHdlbGwgYXMgRVJDLTEyNzEgc2lnbmF0dXJlcyBmcm9tIHNtYXJ0IGNvbnRyYWN0IHdhbGxldHMgbGlrZQogKiBBcmdlbnQgYW5kIFNhZmUgV2FsbGV0IChwcmV2aW91c2x5IEdub3NpcyBTYWZlKS4KICovCmxpYnJhcnkgU2lnbmF0dXJlQ2hlY2tlciB7CiAgICAvKioKICAgICAqIEBkZXYgQ2hlY2tzIGlmIGEgc2lnbmF0dXJlIGlzIHZhbGlkIGZvciBhIGdpdmVuIHNpZ25lciBhbmQgZGF0YSBoYXNoLiBJZiB0aGUgc2lnbmVyIGlzIGEgc21hcnQgY29udHJhY3QsIHRoZQogICAgICogc2lnbmF0dXJlIGlzIHZhbGlkYXRlZCBhZ2FpbnN0IHRoYXQgc21hcnQgY29udHJhY3QgdXNpbmcgRVJDLTEyNzEsIG90aGVyd2lzZSBpdCdzIHZhbGlkYXRlZCB1c2luZyBgRUNEU0EucmVjb3ZlcmAuCiAgICAgKgogICAgICogTk9URTogVW5saWtlIEVDRFNBIHNpZ25hdHVyZXMsIGNvbnRyYWN0IHNpZ25hdHVyZXMgYXJlIHJldm9jYWJsZSwgYW5kIHRoZSBvdXRjb21lIG9mIHRoaXMgZnVuY3Rpb24gY2FuIHRodXMKICAgICAqIGNoYW5nZSB0aHJvdWdoIHRpbWUuIEl0IGNvdWxkIHJldHVybiB0cnVlIGF0IGJsb2NrIE4gYW5kIGZhbHNlIGF0IGJsb2NrIE4rMSAob3IgdGhlIG9wcG9zaXRlKS4KICAgICAqLwogICAgZnVuY3Rpb24gaXNWYWxpZFNpZ25hdHVyZU5vdyhhZGRyZXNzIHNpZ25lciwgYnl0ZXMzMiBoYXNoLCBieXRlcyBtZW1vcnkgc2lnbmF0dXJlKSBpbnRlcm5hbCB2aWV3IHJldHVybnMgKGJvb2wpIHsKICAgICAgICBpZiAoc2lnbmVyLmNvZGUubGVuZ3RoID09IDApIHsKICAgICAgICAgICAgKGFkZHJlc3MgcmVjb3ZlcmVkLCBFQ0RTQS5SZWNvdmVyRXJyb3IgZXJyLCApID0gRUNEU0EudHJ5UmVjb3ZlcihoYXNoLCBzaWduYXR1cmUpOwogICAgICAgICAgICByZXR1cm4gZXJyID09IEVDRFNBLlJlY292ZXJFcnJvci5Ob0Vycm9yICYmIHJlY292ZXJlZCA9PSBzaWduZXI7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgcmV0dXJuIGlzVmFsaWRFUkMxMjcxU2lnbmF0dXJlTm93KHNpZ25lciwgaGFzaCwgc2lnbmF0dXJlKTsKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IENoZWNrcyBpZiBhIHNpZ25hdHVyZSBpcyB2YWxpZCBmb3IgYSBnaXZlbiBzaWduZXIgYW5kIGRhdGEgaGFzaC4gVGhlIHNpZ25hdHVyZSBpcyB2YWxpZGF0ZWQKICAgICAqIGFnYWluc3QgdGhlIHNpZ25lciBzbWFydCBjb250cmFjdCB1c2luZyBFUkMtMTI3MS4KICAgICAqCiAgICAgKiBOT1RFOiBVbmxpa2UgRUNEU0Egc2lnbmF0dXJlcywgY29udHJhY3Qgc2lnbmF0dXJlcyBhcmUgcmV2b2NhYmxlLCBhbmQgdGhlIG91dGNvbWUgb2YgdGhpcyBmdW5jdGlvbiBjYW4gdGh1cwogICAgICogY2hhbmdlIHRocm91Z2ggdGltZS4gSXQgY291bGQgcmV0dXJuIHRydWUgYXQgYmxvY2sgTiBhbmQgZmFsc2UgYXQgYmxvY2sgTisxIChvciB0aGUgb3Bwb3NpdGUpLgogICAgICovCiAgICBmdW5jdGlvbiBpc1ZhbGlkRVJDMTI3MVNpZ25hdHVyZU5vdygKICAgICAgICBhZGRyZXNzIHNpZ25lciwKICAgICAgICBieXRlczMyIGhhc2gsCiAgICAgICAgYnl0ZXMgbWVtb3J5IHNpZ25hdHVyZQogICAgKSBpbnRlcm5hbCB2aWV3IHJldHVybnMgKGJvb2wpIHsKICAgICAgICAoYm9vbCBzdWNjZXNzLCBieXRlcyBtZW1vcnkgcmVzdWx0KSA9IHNpZ25lci5zdGF0aWNjYWxsKAogICAgICAgICAgICBhYmkuZW5jb2RlQ2FsbChJRVJDMTI3MS5pc1ZhbGlkU2lnbmF0dXJlLCAoaGFzaCwgc2lnbmF0dXJlKSkKICAgICAgICApOwogICAgICAgIHJldHVybiAoc3VjY2VzcyAmJgogICAgICAgICAgICByZXN1bHQubGVuZ3RoID49IDMyICYmCiAgICAgICAgICAgIGFiaS5kZWNvZGUocmVzdWx0LCAoYnl0ZXMzMikpID09IGJ5dGVzMzIoSUVSQzEyNzEuaXNWYWxpZFNpZ25hdHVyZS5zZWxlY3RvcikpOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (utils/cryptography/SignatureChecker.sol)
+
+pragma solidity ^0.8.20;
+
+import {ECDSA} from "./ECDSA.sol";
+import {IERC1271} from "../../interfaces/IERC1271.sol";
+
+/**
+ * @dev Signature verification helper that can be used instead of `ECDSA.recover` to seamlessly support both ECDSA
+ * signatures from externally owned accounts (EOAs) as well as ERC-1271 signatures from smart contract wallets like
+ * Argent and Safe Wallet (previously Gnosis Safe).
+ */
+library SignatureChecker {
+    /**
+     * @dev Checks if a signature is valid for a given signer and data hash. If the signer is a smart contract, the
+     * signature is validated against that smart contract using ERC-1271, otherwise it's validated using `ECDSA.recover`.
+     *
+     * NOTE: Unlike ECDSA signatures, contract signatures are revocable, and the outcome of this function can thus
+     * change through time. It could return true at block N and false at block N+1 (or the opposite).
+     */
+    function isValidSignatureNow(address signer, bytes32 hash, bytes memory signature) internal view returns (bool) {
+        if (signer.code.length == 0) {
+            (address recovered, ECDSA.RecoverError err, ) = ECDSA.tryRecover(hash, signature);
+            return err == ECDSA.RecoverError.NoError && recovered == signer;
+        } else {
+            return isValidERC1271SignatureNow(signer, hash, signature);
+        }
+    }
+
+    /**
+     * @dev Checks if a signature is valid for a given signer and data hash. The signature is validated
+     * against the signer smart contract using ERC-1271.
+     *
+     * NOTE: Unlike ECDSA signatures, contract signatures are revocable, and the outcome of this function can thus
+     * change through time. It could return true at block N and false at block N+1 (or the opposite).
+     */
+    function isValidERC1271SignatureNow(
+        address signer,
+        bytes32 hash,
+        bytes memory signature
+    ) internal view returns (bool) {
+        (bool success, bytes memory result) = signer.staticcall(
+            abi.encodeCall(IERC1271.isValidSignature, (hash, signature))
+        );
+        return (success &&
+            result.length >= 32 &&
+            abi.decode(result, (bytes32)) == bytes32(IERC1271.isValidSignature.selector));
+    }
+}
