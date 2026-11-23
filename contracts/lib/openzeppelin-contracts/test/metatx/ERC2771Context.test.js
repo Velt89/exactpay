@@ -1,1 +1,133 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKY29uc3QgeyBpbXBlcnNvbmF0ZSB9ID0gcmVxdWlyZSgnLi4vaGVscGVycy9hY2NvdW50Jyk7CmNvbnN0IHsgZ2V0RG9tYWluLCBGb3J3YXJkUmVxdWVzdCB9ID0gcmVxdWlyZSgnLi4vaGVscGVycy9laXA3MTInKTsKY29uc3QgeyBNQVhfVUlOVDQ4IH0gPSByZXF1aXJlKCcuLi9oZWxwZXJzL2NvbnN0YW50cycpOwoKY29uc3QgeyBzaG91bGRCZWhhdmVMaWtlUmVndWxhckNvbnRleHQgfSA9IHJlcXVpcmUoJy4uL3V0aWxzL0NvbnRleHQuYmVoYXZpb3InKTsKCmFzeW5jIGZ1bmN0aW9uIGZpeHR1cmUoKSB7CiAgY29uc3QgW3NlbmRlciwgb3RoZXJdID0gYXdhaXQgZXRoZXJzLmdldFNpZ25lcnMoKTsKCiAgY29uc3QgZm9yd2FyZGVyID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCdFUkMyNzcxRm9yd2FyZGVyJywgW10pOwogIGNvbnN0IGZvcndhcmRlckFzU2lnbmVyID0gYXdhaXQgaW1wZXJzb25hdGUoZm9yd2FyZGVyLnRhcmdldCk7CiAgY29uc3QgY29udGV4dCA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnRVJDMjc3MUNvbnRleHRNb2NrJywgW2ZvcndhcmRlcl0pOwogIGNvbnN0IGRvbWFpbiA9IGF3YWl0IGdldERvbWFpbihmb3J3YXJkZXIpOwogIGNvbnN0IHR5cGVzID0geyBGb3J3YXJkUmVxdWVzdCB9OwoKICByZXR1cm4geyBzZW5kZXIsIG90aGVyLCBmb3J3YXJkZXIsIGZvcndhcmRlckFzU2lnbmVyLCBjb250ZXh0LCBkb21haW4sIHR5cGVzIH07Cn0KCmRlc2NyaWJlKCdFUkMyNzcxQ29udGV4dCcsIGZ1bmN0aW9uICgpIHsKICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgIE9iamVjdC5hc3NpZ24odGhpcywgYXdhaXQgbG9hZEZpeHR1cmUoZml4dHVyZSkpOwogIH0pOwoKICBpdCgncmVjb2duaXplIHRydXN0ZWQgZm9yd2FyZGVyJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgZXhwZWN0KGF3YWl0IHRoaXMuY29udGV4dC5pc1RydXN0ZWRGb3J3YXJkZXIodGhpcy5mb3J3YXJkZXIpKS50by5iZS50cnVlOwogIH0pOwoKICBpdCgncmV0dXJucyB0aGUgdHJ1c3RlZCBmb3J3YXJkZXInLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICBleHBlY3QoYXdhaXQgdGhpcy5jb250ZXh0LnRydXN0ZWRGb3J3YXJkZXIoKSkudG8uZXF1YWwodGhpcy5mb3J3YXJkZXIpOwogIH0pOwoKICBkZXNjcmliZSgnd2hlbiBjYWxsZWQgZGlyZWN0bHknLCBmdW5jdGlvbiAoKSB7CiAgICBzaG91bGRCZWhhdmVMaWtlUmVndWxhckNvbnRleHQoKTsKICB9KTsKCiAgZGVzY3JpYmUoJ3doZW4gcmVjZWl2aW5nIGEgcmVsYXllZCBjYWxsJywgZnVuY3Rpb24gKCkgewogICAgZGVzY3JpYmUoJ21zZ1NlbmRlcicsIGZ1bmN0aW9uICgpIHsKICAgICAgaXQoJ3JldHVybnMgdGhlIHJlbGF5ZWQgdHJhbnNhY3Rpb24gb3JpZ2luYWwgc2VuZGVyJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGNvbnN0IG5vbmNlID0gYXdhaXQgdGhpcy5mb3J3YXJkZXIubm9uY2VzKHRoaXMuc2VuZGVyKTsKICAgICAgICBjb25zdCBkYXRhID0gdGhpcy5jb250ZXh0LmludGVyZmFjZS5lbmNvZGVGdW5jdGlvbkRhdGEoJ21zZ1NlbmRlcicpOwoKICAgICAgICBjb25zdCByZXEgPSB7CiAgICAgICAgICBmcm9tOiBhd2FpdCB0aGlzLnNlbmRlci5nZXRBZGRyZXNzKCksCiAgICAgICAgICB0bzogYXdhaXQgdGhpcy5jb250ZXh0LmdldEFkZHJlc3MoKSwKICAgICAgICAgIHZhbHVlOiAwbiwKICAgICAgICAgIGRhdGEsCiAgICAgICAgICBnYXM6IDEwMDAwMG4sCiAgICAgICAgICBub25jZSwKICAgICAgICAgIGRlYWRsaW5lOiBNQVhfVUlOVDQ4LAogICAgICAgIH07CgogICAgICAgIHJlcS5zaWduYXR1cmUgPSBhd2FpdCB0aGlzLnNlbmRlci5zaWduVHlwZWREYXRhKHRoaXMuZG9tYWluLCB0aGlzLnR5cGVzLCByZXEpOwoKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5mb3J3YXJkZXIudmVyaWZ5KHJlcSkpLnRvLmJlLnRydWU7CgogICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLmZvcndhcmRlci5leGVjdXRlKHJlcSkpLnRvLmVtaXQodGhpcy5jb250ZXh0LCAnU2VuZGVyJykud2l0aEFyZ3ModGhpcy5zZW5kZXIpOwogICAgICB9KTsKCiAgICAgIGl0KCdyZXR1cm5zIHRoZSBvcmlnaW5hbCBzZW5kZXIgd2hlbiBjYWxsZGF0YSBsZW5ndGggaXMgbGVzcyB0aGFuIDIwIGJ5dGVzIChhZGRyZXNzIGxlbmd0aCknLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgLy8gVGhlIGZvcndhcmRlciBkb2Vzbid0IHByb2R1Y2UgY2FsbHMgd2l0aCBjYWxsZGF0YSBsZW5ndGggbGVzcyB0aGFuIDIwIGJ5dGVzIHNvIGB0aGlzLmZvcndhcmRlckFzU2lnbmVyYCBpcyB1c2VkIGluc3RlYWQuCiAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMuY29udGV4dC5jb25uZWN0KHRoaXMuZm9yd2FyZGVyQXNTaWduZXIpLm1zZ1NlbmRlcigpKQogICAgICAgICAgLnRvLmVtaXQodGhpcy5jb250ZXh0LCAnU2VuZGVyJykKICAgICAgICAgIC53aXRoQXJncyh0aGlzLmZvcndhcmRlcik7CiAgICAgIH0pOwogICAgfSk7CgogICAgZGVzY3JpYmUoJ21zZ0RhdGEnLCBmdW5jdGlvbiAoKSB7CiAgICAgIGl0KCdyZXR1cm5zIHRoZSByZWxheWVkIHRyYW5zYWN0aW9uIG9yaWdpbmFsIGRhdGEnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgY29uc3QgYXJncyA9IFs0Mm4sICdPcGVuWmVwcGVsaW4nXTsKCiAgICAgICAgY29uc3Qgbm9uY2UgPSBhd2FpdCB0aGlzLmZvcndhcmRlci5ub25jZXModGhpcy5zZW5kZXIpOwogICAgICAgIGNvbnN0IGRhdGEgPSB0aGlzLmNvbnRleHQuaW50ZXJmYWNlLmVuY29kZUZ1bmN0aW9uRGF0YSgnbXNnRGF0YScsIGFyZ3MpOwoKICAgICAgICBjb25zdCByZXEgPSB7CiAgICAgICAgICBmcm9tOiBhd2FpdCB0aGlzLnNlbmRlci5nZXRBZGRyZXNzKCksCiAgICAgICAgICB0bzogYXdhaXQgdGhpcy5jb250ZXh0LmdldEFkZHJlc3MoKSwKICAgICAgICAgIHZhbHVlOiAwbiwKICAgICAgICAgIGRhdGEsCiAgICAgICAgICBnYXM6IDEwMDAwMG4sCiAgICAgICAgICBub25jZSwKICAgICAgICAgIGRlYWRsaW5lOiBNQVhfVUlOVDQ4LAogICAgICAgIH07CgogICAgICAgIHJlcS5zaWduYXR1cmUgPSB0aGlzLnNlbmRlci5zaWduVHlwZWREYXRhKHRoaXMuZG9tYWluLCB0aGlzLnR5cGVzLCByZXEpOwoKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5mb3J3YXJkZXIudmVyaWZ5KHJlcSkpLnRvLmJlLnRydWU7CgogICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLmZvcndhcmRlci5leGVjdXRlKHJlcSkpCiAgICAgICAgICAudG8uZW1pdCh0aGlzLmNvbnRleHQsICdEYXRhJykKICAgICAgICAgIC53aXRoQXJncyhkYXRhLCAuLi5hcmdzKTsKICAgICAgfSk7CiAgICB9KTsKCiAgICBpdCgncmV0dXJucyB0aGUgZnVsbCBvcmlnaW5hbCBkYXRhIHdoZW4gY2FsbGRhdGEgbGVuZ3RoIGlzIGxlc3MgdGhhbiAyMCBieXRlcyAoYWRkcmVzcyBsZW5ndGgpJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCBkYXRhID0gdGhpcy5jb250ZXh0LmludGVyZmFjZS5lbmNvZGVGdW5jdGlvbkRhdGEoJ21zZ0RhdGFTaG9ydCcpOwoKICAgICAgLy8gVGhlIGZvcndhcmRlciBkb2Vzbid0IHByb2R1Y2UgY2FsbHMgd2l0aCBjYWxsZGF0YSBsZW5ndGggbGVzcyB0aGFuIDIwIGJ5dGVzIHNvIGB0aGlzLmZvcndhcmRlckFzU2lnbmVyYCBpcyB1c2VkIGluc3RlYWQuCiAgICAgIGF3YWl0IGV4cGVjdChhd2FpdCB0aGlzLmNvbnRleHQuY29ubmVjdCh0aGlzLmZvcndhcmRlckFzU2lnbmVyKS5tc2dEYXRhU2hvcnQoKSkKICAgICAgICAudG8uZW1pdCh0aGlzLmNvbnRleHQsICdEYXRhU2hvcnQnKQogICAgICAgIC53aXRoQXJncyhkYXRhKTsKICAgIH0pOwogIH0pOwoKICBpdCgnbXVsdGljYWxsIHBvaXNvbiBhdHRhY2snLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICBjb25zdCBub25jZSA9IGF3YWl0IHRoaXMuZm9yd2FyZGVyLm5vbmNlcyh0aGlzLnNlbmRlcik7CiAgICBjb25zdCBkYXRhID0gdGhpcy5jb250ZXh0LmludGVyZmFjZS5lbmNvZGVGdW5jdGlvbkRhdGEoJ211bHRpY2FsbCcsIFsKICAgICAgWwogICAgICAgIC8vIHBvaXNvbm5lZCBjYWxsIHRvICdtc2dTZW5kZXIoKScKICAgICAgICBldGhlcnMuY29uY2F0KFt0aGlzLmNvbnRleHQuaW50ZXJmYWNlLmVuY29kZUZ1bmN0aW9uRGF0YSgnbXNnU2VuZGVyJyksIHRoaXMub3RoZXIuYWRkcmVzc10pLAogICAgICBdLAogICAgXSk7CgogICAgY29uc3QgcmVxID0gewogICAgICBmcm9tOiBhd2FpdCB0aGlzLnNlbmRlci5nZXRBZGRyZXNzKCksCiAgICAgIHRvOiBhd2FpdCB0aGlzLmNvbnRleHQuZ2V0QWRkcmVzcygpLAogICAgICB2YWx1ZTogMG4sCiAgICAgIGRhdGEsCiAgICAgIGdhczogMTAwMDAwbiwKICAgICAgbm9uY2UsCiAgICAgIGRlYWRsaW5lOiBNQVhfVUlOVDQ4LAogICAgfTsKCiAgICByZXEuc2lnbmF0dXJlID0gYXdhaXQgdGhpcy5zZW5kZXIuc2lnblR5cGVkRGF0YSh0aGlzLmRvbWFpbiwgdGhpcy50eXBlcywgcmVxKTsKCiAgICBleHBlY3QoYXdhaXQgdGhpcy5mb3J3YXJkZXIudmVyaWZ5KHJlcSkpLnRvLmJlLnRydWU7CgogICAgYXdhaXQgZXhwZWN0KHRoaXMuZm9yd2FyZGVyLmV4ZWN1dGUocmVxKSkudG8uZW1pdCh0aGlzLmNvbnRleHQsICdTZW5kZXInKS53aXRoQXJncyh0aGlzLnNlbmRlcik7CiAgfSk7Cn0pOwo=
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+const { impersonate } = require('../helpers/account');
+const { getDomain, ForwardRequest } = require('../helpers/eip712');
+const { MAX_UINT48 } = require('../helpers/constants');
+
+const { shouldBehaveLikeRegularContext } = require('../utils/Context.behavior');
+
+async function fixture() {
+  const [sender, other] = await ethers.getSigners();
+
+  const forwarder = await ethers.deployContract('ERC2771Forwarder', []);
+  const forwarderAsSigner = await impersonate(forwarder.target);
+  const context = await ethers.deployContract('ERC2771ContextMock', [forwarder]);
+  const domain = await getDomain(forwarder);
+  const types = { ForwardRequest };
+
+  return { sender, other, forwarder, forwarderAsSigner, context, domain, types };
+}
+
+describe('ERC2771Context', function () {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  it('recognize trusted forwarder', async function () {
+    expect(await this.context.isTrustedForwarder(this.forwarder)).to.be.true;
+  });
+
+  it('returns the trusted forwarder', async function () {
+    expect(await this.context.trustedForwarder()).to.equal(this.forwarder);
+  });
+
+  describe('when called directly', function () {
+    shouldBehaveLikeRegularContext();
+  });
+
+  describe('when receiving a relayed call', function () {
+    describe('msgSender', function () {
+      it('returns the relayed transaction original sender', async function () {
+        const nonce = await this.forwarder.nonces(this.sender);
+        const data = this.context.interface.encodeFunctionData('msgSender');
+
+        const req = {
+          from: await this.sender.getAddress(),
+          to: await this.context.getAddress(),
+          value: 0n,
+          data,
+          gas: 100000n,
+          nonce,
+          deadline: MAX_UINT48,
+        };
+
+        req.signature = await this.sender.signTypedData(this.domain, this.types, req);
+
+        expect(await this.forwarder.verify(req)).to.be.true;
+
+        await expect(this.forwarder.execute(req)).to.emit(this.context, 'Sender').withArgs(this.sender);
+      });
+
+      it('returns the original sender when calldata length is less than 20 bytes (address length)', async function () {
+        // The forwarder doesn't produce calls with calldata length less than 20 bytes so `this.forwarderAsSigner` is used instead.
+        await expect(this.context.connect(this.forwarderAsSigner).msgSender())
+          .to.emit(this.context, 'Sender')
+          .withArgs(this.forwarder);
+      });
+    });
+
+    describe('msgData', function () {
+      it('returns the relayed transaction original data', async function () {
+        const args = [42n, 'OpenZeppelin'];
+
+        const nonce = await this.forwarder.nonces(this.sender);
+        const data = this.context.interface.encodeFunctionData('msgData', args);
+
+        const req = {
+          from: await this.sender.getAddress(),
+          to: await this.context.getAddress(),
+          value: 0n,
+          data,
+          gas: 100000n,
+          nonce,
+          deadline: MAX_UINT48,
+        };
+
+        req.signature = this.sender.signTypedData(this.domain, this.types, req);
+
+        expect(await this.forwarder.verify(req)).to.be.true;
+
+        await expect(this.forwarder.execute(req))
+          .to.emit(this.context, 'Data')
+          .withArgs(data, ...args);
+      });
+    });
+
+    it('returns the full original data when calldata length is less than 20 bytes (address length)', async function () {
+      const data = this.context.interface.encodeFunctionData('msgDataShort');
+
+      // The forwarder doesn't produce calls with calldata length less than 20 bytes so `this.forwarderAsSigner` is used instead.
+      await expect(await this.context.connect(this.forwarderAsSigner).msgDataShort())
+        .to.emit(this.context, 'DataShort')
+        .withArgs(data);
+    });
+  });
+
+  it('multicall poison attack', async function () {
+    const nonce = await this.forwarder.nonces(this.sender);
+    const data = this.context.interface.encodeFunctionData('multicall', [
+      [
+        // poisonned call to 'msgSender()'
+        ethers.concat([this.context.interface.encodeFunctionData('msgSender'), this.other.address]),
+      ],
+    ]);
+
+    const req = {
+      from: await this.sender.getAddress(),
+      to: await this.context.getAddress(),
+      value: 0n,
+      data,
+      gas: 100000n,
+      nonce,
+      deadline: MAX_UINT48,
+    };
+
+    req.signature = await this.sender.signTypedData(this.domain, this.types, req);
+
+    expect(await this.forwarder.verify(req)).to.be.true;
+
+    await expect(this.forwarder.execute(req)).to.emit(this.context, 'Sender').withArgs(this.sender);
+  });
+});
