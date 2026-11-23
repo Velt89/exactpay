@@ -1,1 +1,19 @@
-PSBEcmFmdHMKCkFsbCBkcmFmdCBjb250cmFjdHMgd2VyZSBlaXRoZXIgbW92ZWQgaW50byBhIGRpZmZlcmVudCBkaXJlY3Rvcnkgb3IgcmVtb3ZlZCBmcm9tIHRoZSBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIGxpYnJhcnkgb24gdGhlIGh0dHBzOi8vZm9ydW0ub3BlbnplcHBlbGluLmNvbS90L29wZW56ZXBwZWxpbi1jb250cmFjdHMtdjMtMC1iZXRhLXJlbGVhc2UvMjI1Nlt2My4wLjAgcmVsZWFzZV0uCgoqIGBFUkMyME1pZ3JhdG9yYDogcmVtb3ZlZC4KKiB4cmVmOmFwaTp0b2tlbi9FUkMyMC5hZG9jI0VSQzIwU25hcHNob3RbYEVSQzIwU25hcHNob3RgXTogbW92ZWQgdG8gYHRva2VuL0VSQzIwYC4KKiBgRVJDMjBEZXRhaWxlZGAgYW5kIGBFUkMxMDQ2YDogcmVtb3ZlZC4KKiBgVG9rZW5WZXN0aW5nYDogcmVtb3ZlZC4gUGVuZGluZyBhIHJlcGxhY2VtZW50IHRoYXQgaXMgYmVpbmcgZGlzY3Vzc2VkIGluIGh0dHBzOi8vZ2l0aHViLmNvbS9PcGVuWmVwcGVsaW4vb3BlbnplcHBlbGluLWNvbnRyYWN0cy9pc3N1ZXMvMTIxNFtgIzEyMTRgXS4KKiB4cmVmOmFwaTp1dGlscy5hZG9jI0NvdW50ZXJzW2BDb3VudGVyc2BdOiBtb3ZlZCB0byB4cmVmOmFwaTp1dGlscy5hZG9jW2B1dGlsc2BdLgoqIHhyZWY6YXBpOnV0aWxzLmFkb2MjU3RyaW5nc1tgU3RyaW5nc2BdOiBtb3ZlZCB0byB4cmVmOmFwaTp1dGlscy5hZG9jW2B1dGlsc2BdLgoqIHhyZWY6YXBpOnV0aWxzLmFkb2MjU2lnbmVkU2FmZU1hdGhbYFNpZ25lZFNhZmVNYXRoYF06IG1vdmVkIHRvIHhyZWY6YXBpOnV0aWxzLmFkb2NbYHV0aWxzYF0uCgpSZW1vdmVkIGNvbnRyYWN0cyBhcmUgc3RpbGwgYXZhaWxhYmxlIG9uIHRoZSB2Mi41IHJlbGVhc2Ugb2YgT3BlblplcHBlbGluIENvbnRyYWN0cywgd2hpY2ggeW91IGNhbiBpbnN0YWxsIGJ5IHJ1bm5pbmc6CgpgYGBjb25zb2xlCiQgbnBtIGluc3RhbGwgQG9wZW56ZXBwZWxpbi9jb250cmFjdHNAdjIuNQpgYGAKClJlZmVyIHRvIHRoZSB4cmVmOjIueEBjb250cmFjdHM6YXBpOmRyYWZ0cy5hZG9jW3YyLnggZG9jdW1lbnRhdGlvbl0gd2hlbiB3b3JraW5nIHdpdGggdGhlbS4K
+= Drafts
+
+All draft contracts were either moved into a different directory or removed from the OpenZeppelin Contracts library on the https://forum.openzeppelin.com/t/openzeppelin-contracts-v3-0-beta-release/2256[v3.0.0 release].
+
+* `ERC20Migrator`: removed.
+* xref:api:token/ERC20.adoc#ERC20Snapshot[`ERC20Snapshot`]: moved to `token/ERC20`.
+* `ERC20Detailed` and `ERC1046`: removed.
+* `TokenVesting`: removed. Pending a replacement that is being discussed in https://github.com/OpenZeppelin/openzeppelin-contracts/issues/1214[`#1214`].
+* xref:api:utils.adoc#Counters[`Counters`]: moved to xref:api:utils.adoc[`utils`].
+* xref:api:utils.adoc#Strings[`Strings`]: moved to xref:api:utils.adoc[`utils`].
+* xref:api:utils.adoc#SignedSafeMath[`SignedSafeMath`]: moved to xref:api:utils.adoc[`utils`].
+
+Removed contracts are still available on the v2.5 release of OpenZeppelin Contracts, which you can install by running:
+
+```console
+$ npm install @openzeppelin/contracts@v2.5
+```
+
+Refer to the xref:2.x@contracts:api:drafts.adoc[v2.x documentation] when working with them.
