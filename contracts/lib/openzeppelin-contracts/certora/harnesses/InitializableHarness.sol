@@ -1,1 +1,23 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7SW5pdGlhbGl6YWJsZX0gZnJvbSAiLi4vcGF0Y2hlZC9wcm94eS91dGlscy9Jbml0aWFsaXphYmxlLnNvbCI7Cgpjb250cmFjdCBJbml0aWFsaXphYmxlSGFybmVzcyBpcyBJbml0aWFsaXphYmxlIHsKICAgIGZ1bmN0aW9uIGluaXRpYWxpemUoKSAgICAgICAgICAgcHVibGljIGluaXRpYWxpemVyICAgICAge30KICAgIGZ1bmN0aW9uIHJlaW5pdGlhbGl6ZSh1aW50NjQgbikgcHVibGljIHJlaW5pdGlhbGl6ZXIobikge30KICAgIGZ1bmN0aW9uIGRpc2FibGUoKSAgICAgICAgICAgICAgcHVibGljIHsgX2Rpc2FibGVJbml0aWFsaXplcnMoKTsgfQoKICAgIGZ1bmN0aW9uIG5lc3RlZF9pbml0X2luaXQoKSAgICAgICAgICAgICAgICAgICAgICAgcHVibGljIGluaXRpYWxpemVyICAgICAgeyBpbml0aWFsaXplKCk7ICAgIH0KICAgIGZ1bmN0aW9uIG5lc3RlZF9pbml0X3JlaW5pdCh1aW50NjQgbSkgICAgICAgICAgICAgcHVibGljIGluaXRpYWxpemVyICAgICAgeyByZWluaXRpYWxpemUobSk7IH0KICAgIGZ1bmN0aW9uIG5lc3RlZF9yZWluaXRfaW5pdCh1aW50NjQgbikgICAgICAgICAgICAgcHVibGljIHJlaW5pdGlhbGl6ZXIobikgeyBpbml0aWFsaXplKCk7ICAgIH0KICAgIGZ1bmN0aW9uIG5lc3RlZF9yZWluaXRfcmVpbml0KHVpbnQ2NCBuLCB1aW50NjQgbSkgcHVibGljIHJlaW5pdGlhbGl6ZXIobikgeyByZWluaXRpYWxpemUobSk7IH0KCiAgICBmdW5jdGlvbiB2ZXJzaW9uKCkgcHVibGljIHZpZXcgcmV0dXJucyAodWludDY0KSB7CiAgICAgICAgcmV0dXJuIF9nZXRJbml0aWFsaXplZFZlcnNpb24oKTsKICAgIH0KCiAgICBmdW5jdGlvbiBpbml0aWFsaXppbmcoKSBwdWJsaWMgdmlldyByZXR1cm5zIChib29sKSB7CiAgICAgICAgcmV0dXJuIF9pc0luaXRpYWxpemluZygpOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+import {Initializable} from "../patched/proxy/utils/Initializable.sol";
+
+contract InitializableHarness is Initializable {
+    function initialize()           public initializer      {}
+    function reinitialize(uint64 n) public reinitializer(n) {}
+    function disable()              public { _disableInitializers(); }
+
+    function nested_init_init()                       public initializer      { initialize();    }
+    function nested_init_reinit(uint64 m)             public initializer      { reinitialize(m); }
+    function nested_reinit_init(uint64 n)             public reinitializer(n) { initialize();    }
+    function nested_reinit_reinit(uint64 n, uint64 m) public reinitializer(n) { reinitialize(m); }
+
+    function version() public view returns (uint64) {
+        return _getInitializedVersion();
+    }
+
+    function initializing() public view returns (bool) {
+        return _isInitializing();
+    }
+}
