@@ -1,1 +1,162 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKY29uc3QgeyBnZXRBZGRyZXNzSW5TbG90LCBzZXRTbG90LCBJbXBsZW1lbnRhdGlvblNsb3QsIEFkbWluU2xvdCwgQmVhY29uU2xvdCB9ID0gcmVxdWlyZSgnLi4vLi4vaGVscGVycy9zdG9yYWdlJyk7Cgphc3luYyBmdW5jdGlvbiBmaXh0dXJlKCkgewogIGNvbnN0IFssIGFkbWluLCBhbm90aGVyQWNjb3VudF0gPSBhd2FpdCBldGhlcnMuZ2V0U2lnbmVycygpOwoKICBjb25zdCB1dGlscyA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnJEVSQzE5NjdVdGlscycpOwogIGNvbnN0IHYxID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCdEdW1teUltcGxlbWVudGF0aW9uJyk7CiAgY29uc3QgdjIgPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJ0NhbGxSZWNlaXZlck1vY2snKTsKCiAgcmV0dXJuIHsgYWRtaW4sIGFub3RoZXJBY2NvdW50LCB1dGlscywgdjEsIHYyIH07Cn0KCmRlc2NyaWJlKCdFUkMxOTY3VXRpbHMnLCBmdW5jdGlvbiAoKSB7CiAgYmVmb3JlRWFjaCgnc2V0dXAnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICBPYmplY3QuYXNzaWduKHRoaXMsIGF3YWl0IGxvYWRGaXh0dXJlKGZpeHR1cmUpKTsKICB9KTsKCiAgZGVzY3JpYmUoJ0lNUExFTUVOVEFUSU9OX1NMT1QnLCBmdW5jdGlvbiAoKSB7CiAgICBiZWZvcmVFYWNoKCdzZXQgdjEgaW1wbGVtZW50YXRpb24nLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IHNldFNsb3QodGhpcy51dGlscywgSW1wbGVtZW50YXRpb25TbG90LCB0aGlzLnYxKTsKICAgIH0pOwoKICAgIGRlc2NyaWJlKCdnZXRJbXBsZW1lbnRhdGlvbicsIGZ1bmN0aW9uICgpIHsKICAgICAgaXQoJ3JldHVybnMgY3VycmVudCBpbXBsZW1lbnRhdGlvbiBhbmQgbWF0Y2hlcyBpbXBsZW1lbnRhdGlvbiBzbG90IHZhbHVlJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnV0aWxzLiRnZXRJbXBsZW1lbnRhdGlvbigpKS50by5lcXVhbCh0aGlzLnYxKTsKICAgICAgICBleHBlY3QoYXdhaXQgZ2V0QWRkcmVzc0luU2xvdCh0aGlzLnV0aWxzLCBJbXBsZW1lbnRhdGlvblNsb3QpKS50by5lcXVhbCh0aGlzLnYxKTsKICAgICAgfSk7CiAgICB9KTsKCiAgICBkZXNjcmliZSgndXBncmFkZVRvQW5kQ2FsbCcsIGZ1bmN0aW9uICgpIHsKICAgICAgaXQoJ3NldHMgaW1wbGVtZW50YXRpb24gaW4gc3RvcmFnZSBhbmQgZW1pdHMgZXZlbnQnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgY29uc3QgbmV3SW1wbGVtZW50YXRpb24gPSB0aGlzLnYyOwogICAgICAgIGNvbnN0IHR4ID0gYXdhaXQgdGhpcy51dGlscy4kdXBncmFkZVRvQW5kQ2FsbChuZXdJbXBsZW1lbnRhdGlvbiwgJzB4Jyk7CgogICAgICAgIGV4cGVjdChhd2FpdCBnZXRBZGRyZXNzSW5TbG90KHRoaXMudXRpbHMsIEltcGxlbWVudGF0aW9uU2xvdCkpLnRvLmVxdWFsKG5ld0ltcGxlbWVudGF0aW9uKTsKICAgICAgICBhd2FpdCBleHBlY3QodHgpLnRvLmVtaXQodGhpcy51dGlscywgJ1VwZ3JhZGVkJykud2l0aEFyZ3MobmV3SW1wbGVtZW50YXRpb24pOwogICAgICB9KTsKCiAgICAgIGl0KCdyZXZlcnRzIHdoZW4gaW1wbGVtZW50YXRpb24gZG9lcyBub3QgY29udGFpbiBjb2RlJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLnV0aWxzLiR1cGdyYWRlVG9BbmRDYWxsKHRoaXMuYW5vdGhlckFjY291bnQsICcweCcpKQogICAgICAgICAgLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMudXRpbHMsICdFUkMxOTY3SW52YWxpZEltcGxlbWVudGF0aW9uJykKICAgICAgICAgIC53aXRoQXJncyh0aGlzLmFub3RoZXJBY2NvdW50KTsKICAgICAgfSk7CgogICAgICBkZXNjcmliZSgnd2hlbiBkYXRhIGlzIGVtcHR5JywgZnVuY3Rpb24gKCkgewogICAgICAgIGl0KCdyZXZlcnRzIHdoZW4gdmFsdWUgaXMgc2VudCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLnV0aWxzLiR1cGdyYWRlVG9BbmRDYWxsKHRoaXMudjIsICcweCcsIHsgdmFsdWU6IDEgfSkpLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKAogICAgICAgICAgICB0aGlzLnV0aWxzLAogICAgICAgICAgICAnRVJDMTk2N05vblBheWFibGUnLAogICAgICAgICAgKTsKICAgICAgICB9KTsKICAgICAgfSk7CgogICAgICBkZXNjcmliZSgnd2hlbiBkYXRhIGlzIG5vdCBlbXB0eScsIGZ1bmN0aW9uICgpIHsKICAgICAgICBpdCgnZGVsZWdhdGVzIGEgY2FsbCB0byB0aGUgbmV3IGltcGxlbWVudGF0aW9uJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgY29uc3QgaW5pdGlhbGl6ZURhdGEgPSB0aGlzLnYyLmludGVyZmFjZS5lbmNvZGVGdW5jdGlvbkRhdGEoJ21vY2tGdW5jdGlvbicpOwogICAgICAgICAgY29uc3QgdHggPSBhd2FpdCB0aGlzLnV0aWxzLiR1cGdyYWRlVG9BbmRDYWxsKHRoaXMudjIsIGluaXRpYWxpemVEYXRhKTsKICAgICAgICAgIGF3YWl0IGV4cGVjdCh0eCkudG8uZW1pdChhd2FpdCBldGhlcnMuZ2V0Q29udHJhY3RBdCgnQ2FsbFJlY2VpdmVyTW9jaycsIHRoaXMudXRpbHMpLCAnTW9ja0Z1bmN0aW9uQ2FsbGVkJyk7CiAgICAgICAgfSk7CiAgICAgIH0pOwogICAgfSk7CiAgfSk7CgogIGRlc2NyaWJlKCdBRE1JTl9TTE9UJywgZnVuY3Rpb24gKCkgewogICAgYmVmb3JlRWFjaCgnc2V0IGFkbWluJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCBzZXRTbG90KHRoaXMudXRpbHMsIEFkbWluU2xvdCwgdGhpcy5hZG1pbik7CiAgICB9KTsKCiAgICBkZXNjcmliZSgnZ2V0QWRtaW4nLCBmdW5jdGlvbiAoKSB7CiAgICAgIGl0KCdyZXR1cm5zIGN1cnJlbnQgYWRtaW4gYW5kIG1hdGNoZXMgYWRtaW4gc2xvdCB2YWx1ZScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy51dGlscy4kZ2V0QWRtaW4oKSkudG8uZXF1YWwodGhpcy5hZG1pbik7CiAgICAgICAgZXhwZWN0KGF3YWl0IGdldEFkZHJlc3NJblNsb3QodGhpcy51dGlscywgQWRtaW5TbG90KSkudG8uZXF1YWwodGhpcy5hZG1pbik7CiAgICAgIH0pOwogICAgfSk7CgogICAgZGVzY3JpYmUoJ2NoYW5nZUFkbWluJywgZnVuY3Rpb24gKCkgewogICAgICBpdCgnc2V0cyBhZG1pbiBpbiBzdG9yYWdlIGFuZCBlbWl0cyBldmVudCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBjb25zdCBuZXdBZG1pbiA9IHRoaXMuYW5vdGhlckFjY291bnQ7CiAgICAgICAgY29uc3QgdHggPSBhd2FpdCB0aGlzLnV0aWxzLiRjaGFuZ2VBZG1pbihuZXdBZG1pbik7CgogICAgICAgIGV4cGVjdChhd2FpdCBnZXRBZGRyZXNzSW5TbG90KHRoaXMudXRpbHMsIEFkbWluU2xvdCkpLnRvLmVxdWFsKG5ld0FkbWluKTsKICAgICAgICBhd2FpdCBleHBlY3QodHgpLnRvLmVtaXQodGhpcy51dGlscywgJ0FkbWluQ2hhbmdlZCcpLndpdGhBcmdzKHRoaXMuYWRtaW4sIG5ld0FkbWluKTsKICAgICAgfSk7CgogICAgICBpdCgncmV2ZXJ0cyB3aGVuIHNldHRpbmcgdGhlIGFkZHJlc3MgemVybyBhcyBhZG1pbicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBhd2FpdCBleHBlY3QodGhpcy51dGlscy4kY2hhbmdlQWRtaW4oZXRoZXJzLlplcm9BZGRyZXNzKSkKICAgICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLnV0aWxzLCAnRVJDMTk2N0ludmFsaWRBZG1pbicpCiAgICAgICAgICAud2l0aEFyZ3MoZXRoZXJzLlplcm9BZGRyZXNzKTsKICAgICAgfSk7CiAgICB9KTsKICB9KTsKCiAgZGVzY3JpYmUoJ0JFQUNPTl9TTE9UJywgZnVuY3Rpb24gKCkgewogICAgYmVmb3JlRWFjaCgnc2V0IGJlYWNvbicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgdGhpcy5iZWFjb24gPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJ1VwZ3JhZGVhYmxlQmVhY29uTW9jaycsIFt0aGlzLnYxXSk7CiAgICAgIGF3YWl0IHNldFNsb3QodGhpcy51dGlscywgQmVhY29uU2xvdCwgdGhpcy5iZWFjb24pOwogICAgfSk7CgogICAgZGVzY3JpYmUoJ2dldEJlYWNvbicsIGZ1bmN0aW9uICgpIHsKICAgICAgaXQoJ3JldHVybnMgY3VycmVudCBiZWFjb24gYW5kIG1hdGNoZXMgYmVhY29uIHNsb3QgdmFsdWUnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudXRpbHMuJGdldEJlYWNvbigpKS50by5lcXVhbCh0aGlzLmJlYWNvbik7CiAgICAgICAgZXhwZWN0KGF3YWl0IGdldEFkZHJlc3NJblNsb3QodGhpcy51dGlscywgQmVhY29uU2xvdCkpLnRvLmVxdWFsKHRoaXMuYmVhY29uKTsKICAgICAgfSk7CiAgICB9KTsKCiAgICBkZXNjcmliZSgndXBncmFkZUJlYWNvblRvQW5kQ2FsbCcsIGZ1bmN0aW9uICgpIHsKICAgICAgaXQoJ3NldHMgYmVhY29uIGluIHN0b3JhZ2UgYW5kIGVtaXRzIGV2ZW50JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGNvbnN0IG5ld0JlYWNvbiA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnVXBncmFkZWFibGVCZWFjb25Nb2NrJywgW3RoaXMudjJdKTsKICAgICAgICBjb25zdCB0eCA9IGF3YWl0IHRoaXMudXRpbHMuJHVwZ3JhZGVCZWFjb25Ub0FuZENhbGwobmV3QmVhY29uLCAnMHgnKTsKCiAgICAgICAgZXhwZWN0KGF3YWl0IGdldEFkZHJlc3NJblNsb3QodGhpcy51dGlscywgQmVhY29uU2xvdCkpLnRvLmVxdWFsKG5ld0JlYWNvbik7CiAgICAgICAgYXdhaXQgZXhwZWN0KHR4KS50by5lbWl0KHRoaXMudXRpbHMsICdCZWFjb25VcGdyYWRlZCcpLndpdGhBcmdzKG5ld0JlYWNvbik7CiAgICAgIH0pOwoKICAgICAgaXQoJ3JldmVydHMgd2hlbiBiZWFjb24gZG9lcyBub3QgY29udGFpbiBjb2RlJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLnV0aWxzLiR1cGdyYWRlQmVhY29uVG9BbmRDYWxsKHRoaXMuYW5vdGhlckFjY291bnQsICcweCcpKQogICAgICAgICAgLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMudXRpbHMsICdFUkMxOTY3SW52YWxpZEJlYWNvbicpCiAgICAgICAgICAud2l0aEFyZ3ModGhpcy5hbm90aGVyQWNjb3VudCk7CiAgICAgIH0pOwoKICAgICAgaXQoInJldmVydHMgd2hlbiBiZWFjb24ncyBpbXBsZW1lbnRhdGlvbiBkb2VzIG5vdCBjb250YWluIGNvZGUiLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgY29uc3QgbmV3QmVhY29uID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCdVcGdyYWRlYWJsZUJlYWNvbk1vY2snLCBbdGhpcy5hbm90aGVyQWNjb3VudF0pOwoKICAgICAgICBhd2FpdCBleHBlY3QodGhpcy51dGlscy4kdXBncmFkZUJlYWNvblRvQW5kQ2FsbChuZXdCZWFjb24sICcweCcpKQogICAgICAgICAgLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMudXRpbHMsICdFUkMxOTY3SW52YWxpZEltcGxlbWVudGF0aW9uJykKICAgICAgICAgIC53aXRoQXJncyh0aGlzLmFub3RoZXJBY2NvdW50KTsKICAgICAgfSk7CgogICAgICBkZXNjcmliZSgnd2hlbiBkYXRhIGlzIGVtcHR5JywgZnVuY3Rpb24gKCkgewogICAgICAgIGl0KCdyZXZlcnRzIHdoZW4gdmFsdWUgaXMgc2VudCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGNvbnN0IG5ld0JlYWNvbiA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnVXBncmFkZWFibGVCZWFjb25Nb2NrJywgW3RoaXMudjJdKTsKICAgICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLnV0aWxzLiR1cGdyYWRlQmVhY29uVG9BbmRDYWxsKG5ld0JlYWNvbiwgJzB4JywgeyB2YWx1ZTogMSB9KSkudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IoCiAgICAgICAgICAgIHRoaXMudXRpbHMsCiAgICAgICAgICAgICdFUkMxOTY3Tm9uUGF5YWJsZScsCiAgICAgICAgICApOwogICAgICAgIH0pOwogICAgICB9KTsKCiAgICAgIGRlc2NyaWJlKCd3aGVuIGRhdGEgaXMgbm90IGVtcHR5JywgZnVuY3Rpb24gKCkgewogICAgICAgIGl0KCdkZWxlZ2F0ZXMgYSBjYWxsIHRvIHRoZSBuZXcgaW1wbGVtZW50YXRpb24nLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICBjb25zdCBpbml0aWFsaXplRGF0YSA9IHRoaXMudjIuaW50ZXJmYWNlLmVuY29kZUZ1bmN0aW9uRGF0YSgnbW9ja0Z1bmN0aW9uJyk7CiAgICAgICAgICBjb25zdCBuZXdCZWFjb24gPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJ1VwZ3JhZGVhYmxlQmVhY29uTW9jaycsIFt0aGlzLnYyXSk7CiAgICAgICAgICBjb25zdCB0eCA9IGF3YWl0IHRoaXMudXRpbHMuJHVwZ3JhZGVCZWFjb25Ub0FuZENhbGwobmV3QmVhY29uLCBpbml0aWFsaXplRGF0YSk7CiAgICAgICAgICBhd2FpdCBleHBlY3QodHgpLnRvLmVtaXQoYXdhaXQgZXRoZXJzLmdldENvbnRyYWN0QXQoJ0NhbGxSZWNlaXZlck1vY2snLCB0aGlzLnV0aWxzKSwgJ01vY2tGdW5jdGlvbkNhbGxlZCcpOwogICAgICAgIH0pOwogICAgICB9KTsKCiAgICAgIGRlc2NyaWJlKCdyZWVudHJhbnQgYmVhY29uIGltcGxlbWVudGF0aW9uKCkgY2FsbCcsIGZ1bmN0aW9uICgpIHsKICAgICAgICBpdCgnc2VlcyB0aGUgbmV3IGJlYWNvbiBpbXBsZW1lbnRhdGlvbicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGNvbnN0IG5ld0JlYWNvbiA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnVXBncmFkZWFibGVCZWFjb25SZWVudHJhbnRNb2NrJyk7CiAgICAgICAgICBhd2FpdCBleHBlY3QodGhpcy51dGlscy4kdXBncmFkZUJlYWNvblRvQW5kQ2FsbChuZXdCZWFjb24sICcweCcpKQogICAgICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IobmV3QmVhY29uLCAnQmVhY29uUHJveHlCZWFjb25TbG90QWRkcmVzcycpCiAgICAgICAgICAgIC53aXRoQXJncyhuZXdCZWFjb24pOwogICAgICAgIH0pOwogICAgICB9KTsKICAgIH0pOwogIH0pOwp9KTsK
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+const { getAddressInSlot, setSlot, ImplementationSlot, AdminSlot, BeaconSlot } = require('../../helpers/storage');
+
+async function fixture() {
+  const [, admin, anotherAccount] = await ethers.getSigners();
+
+  const utils = await ethers.deployContract('$ERC1967Utils');
+  const v1 = await ethers.deployContract('DummyImplementation');
+  const v2 = await ethers.deployContract('CallReceiverMock');
+
+  return { admin, anotherAccount, utils, v1, v2 };
+}
+
+describe('ERC1967Utils', function () {
+  beforeEach('setup', async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  describe('IMPLEMENTATION_SLOT', function () {
+    beforeEach('set v1 implementation', async function () {
+      await setSlot(this.utils, ImplementationSlot, this.v1);
+    });
+
+    describe('getImplementation', function () {
+      it('returns current implementation and matches implementation slot value', async function () {
+        expect(await this.utils.$getImplementation()).to.equal(this.v1);
+        expect(await getAddressInSlot(this.utils, ImplementationSlot)).to.equal(this.v1);
+      });
+    });
+
+    describe('upgradeToAndCall', function () {
+      it('sets implementation in storage and emits event', async function () {
+        const newImplementation = this.v2;
+        const tx = await this.utils.$upgradeToAndCall(newImplementation, '0x');
+
+        expect(await getAddressInSlot(this.utils, ImplementationSlot)).to.equal(newImplementation);
+        await expect(tx).to.emit(this.utils, 'Upgraded').withArgs(newImplementation);
+      });
+
+      it('reverts when implementation does not contain code', async function () {
+        await expect(this.utils.$upgradeToAndCall(this.anotherAccount, '0x'))
+          .to.be.revertedWithCustomError(this.utils, 'ERC1967InvalidImplementation')
+          .withArgs(this.anotherAccount);
+      });
+
+      describe('when data is empty', function () {
+        it('reverts when value is sent', async function () {
+          await expect(this.utils.$upgradeToAndCall(this.v2, '0x', { value: 1 })).to.be.revertedWithCustomError(
+            this.utils,
+            'ERC1967NonPayable',
+          );
+        });
+      });
+
+      describe('when data is not empty', function () {
+        it('delegates a call to the new implementation', async function () {
+          const initializeData = this.v2.interface.encodeFunctionData('mockFunction');
+          const tx = await this.utils.$upgradeToAndCall(this.v2, initializeData);
+          await expect(tx).to.emit(await ethers.getContractAt('CallReceiverMock', this.utils), 'MockFunctionCalled');
+        });
+      });
+    });
+  });
+
+  describe('ADMIN_SLOT', function () {
+    beforeEach('set admin', async function () {
+      await setSlot(this.utils, AdminSlot, this.admin);
+    });
+
+    describe('getAdmin', function () {
+      it('returns current admin and matches admin slot value', async function () {
+        expect(await this.utils.$getAdmin()).to.equal(this.admin);
+        expect(await getAddressInSlot(this.utils, AdminSlot)).to.equal(this.admin);
+      });
+    });
+
+    describe('changeAdmin', function () {
+      it('sets admin in storage and emits event', async function () {
+        const newAdmin = this.anotherAccount;
+        const tx = await this.utils.$changeAdmin(newAdmin);
+
+        expect(await getAddressInSlot(this.utils, AdminSlot)).to.equal(newAdmin);
+        await expect(tx).to.emit(this.utils, 'AdminChanged').withArgs(this.admin, newAdmin);
+      });
+
+      it('reverts when setting the address zero as admin', async function () {
+        await expect(this.utils.$changeAdmin(ethers.ZeroAddress))
+          .to.be.revertedWithCustomError(this.utils, 'ERC1967InvalidAdmin')
+          .withArgs(ethers.ZeroAddress);
+      });
+    });
+  });
+
+  describe('BEACON_SLOT', function () {
+    beforeEach('set beacon', async function () {
+      this.beacon = await ethers.deployContract('UpgradeableBeaconMock', [this.v1]);
+      await setSlot(this.utils, BeaconSlot, this.beacon);
+    });
+
+    describe('getBeacon', function () {
+      it('returns current beacon and matches beacon slot value', async function () {
+        expect(await this.utils.$getBeacon()).to.equal(this.beacon);
+        expect(await getAddressInSlot(this.utils, BeaconSlot)).to.equal(this.beacon);
+      });
+    });
+
+    describe('upgradeBeaconToAndCall', function () {
+      it('sets beacon in storage and emits event', async function () {
+        const newBeacon = await ethers.deployContract('UpgradeableBeaconMock', [this.v2]);
+        const tx = await this.utils.$upgradeBeaconToAndCall(newBeacon, '0x');
+
+        expect(await getAddressInSlot(this.utils, BeaconSlot)).to.equal(newBeacon);
+        await expect(tx).to.emit(this.utils, 'BeaconUpgraded').withArgs(newBeacon);
+      });
+
+      it('reverts when beacon does not contain code', async function () {
+        await expect(this.utils.$upgradeBeaconToAndCall(this.anotherAccount, '0x'))
+          .to.be.revertedWithCustomError(this.utils, 'ERC1967InvalidBeacon')
+          .withArgs(this.anotherAccount);
+      });
+
+      it("reverts when beacon's implementation does not contain code", async function () {
+        const newBeacon = await ethers.deployContract('UpgradeableBeaconMock', [this.anotherAccount]);
+
+        await expect(this.utils.$upgradeBeaconToAndCall(newBeacon, '0x'))
+          .to.be.revertedWithCustomError(this.utils, 'ERC1967InvalidImplementation')
+          .withArgs(this.anotherAccount);
+      });
+
+      describe('when data is empty', function () {
+        it('reverts when value is sent', async function () {
+          const newBeacon = await ethers.deployContract('UpgradeableBeaconMock', [this.v2]);
+          await expect(this.utils.$upgradeBeaconToAndCall(newBeacon, '0x', { value: 1 })).to.be.revertedWithCustomError(
+            this.utils,
+            'ERC1967NonPayable',
+          );
+        });
+      });
+
+      describe('when data is not empty', function () {
+        it('delegates a call to the new implementation', async function () {
+          const initializeData = this.v2.interface.encodeFunctionData('mockFunction');
+          const newBeacon = await ethers.deployContract('UpgradeableBeaconMock', [this.v2]);
+          const tx = await this.utils.$upgradeBeaconToAndCall(newBeacon, initializeData);
+          await expect(tx).to.emit(await ethers.getContractAt('CallReceiverMock', this.utils), 'MockFunctionCalled');
+        });
+      });
+
+      describe('reentrant beacon implementation() call', function () {
+        it('sees the new beacon implementation', async function () {
+          const newBeacon = await ethers.deployContract('UpgradeableBeaconReentrantMock');
+          await expect(this.utils.$upgradeBeaconToAndCall(newBeacon, '0x'))
+            .to.be.revertedWithCustomError(newBeacon, 'BeaconProxyBeaconSlotAddress')
+            .withArgs(newBeacon);
+        });
+      });
+    });
+  });
+});
