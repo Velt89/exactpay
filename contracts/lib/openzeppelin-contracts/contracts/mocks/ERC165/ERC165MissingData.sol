@@ -1,1 +1,7 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7Cgpjb250cmFjdCBFUkMxNjVNaXNzaW5nRGF0YSB7CiAgICBmdW5jdGlvbiBzdXBwb3J0c0ludGVyZmFjZShieXRlczQgaW50ZXJmYWNlSWQpIHB1YmxpYyB2aWV3IHt9IC8vIG1pc3NpbmcgcmV0dXJuCn0K
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+contract ERC165MissingData {
+    function supportsInterface(bytes4 interfaceId) public view {} // missing return
+}
