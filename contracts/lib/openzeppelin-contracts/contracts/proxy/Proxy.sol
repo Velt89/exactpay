@@ -1,1 +1,69 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMC4wKSAocHJveHkvUHJveHkuc29sKQoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgovKioKICogQGRldiBUaGlzIGFic3RyYWN0IGNvbnRyYWN0IHByb3ZpZGVzIGEgZmFsbGJhY2sgZnVuY3Rpb24gdGhhdCBkZWxlZ2F0ZXMgYWxsIGNhbGxzIHRvIGFub3RoZXIgY29udHJhY3QgdXNpbmcgdGhlIEVWTQogKiBpbnN0cnVjdGlvbiBgZGVsZWdhdGVjYWxsYC4gV2UgcmVmZXIgdG8gdGhlIHNlY29uZCBjb250cmFjdCBhcyB0aGUgX2ltcGxlbWVudGF0aW9uXyBiZWhpbmQgdGhlIHByb3h5LCBhbmQgaXQgaGFzIHRvCiAqIGJlIHNwZWNpZmllZCBieSBvdmVycmlkaW5nIHRoZSB2aXJ0dWFsIHtfaW1wbGVtZW50YXRpb259IGZ1bmN0aW9uLgogKgogKiBBZGRpdGlvbmFsbHksIGRlbGVnYXRpb24gdG8gdGhlIGltcGxlbWVudGF0aW9uIGNhbiBiZSB0cmlnZ2VyZWQgbWFudWFsbHkgdGhyb3VnaCB0aGUge19mYWxsYmFja30gZnVuY3Rpb24sIG9yIHRvIGEKICogZGlmZmVyZW50IGNvbnRyYWN0IHRocm91Z2ggdGhlIHtfZGVsZWdhdGV9IGZ1bmN0aW9uLgogKgogKiBUaGUgc3VjY2VzcyBhbmQgcmV0dXJuIGRhdGEgb2YgdGhlIGRlbGVnYXRlZCBjYWxsIHdpbGwgYmUgcmV0dXJuZWQgYmFjayB0byB0aGUgY2FsbGVyIG9mIHRoZSBwcm94eS4KICovCmFic3RyYWN0IGNvbnRyYWN0IFByb3h5IHsKICAgIC8qKgogICAgICogQGRldiBEZWxlZ2F0ZXMgdGhlIGN1cnJlbnQgY2FsbCB0byBgaW1wbGVtZW50YXRpb25gLgogICAgICoKICAgICAqIFRoaXMgZnVuY3Rpb24gZG9lcyBub3QgcmV0dXJuIHRvIGl0cyBpbnRlcm5hbCBjYWxsIHNpdGUsIGl0IHdpbGwgcmV0dXJuIGRpcmVjdGx5IHRvIHRoZSBleHRlcm5hbCBjYWxsZXIuCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9kZWxlZ2F0ZShhZGRyZXNzIGltcGxlbWVudGF0aW9uKSBpbnRlcm5hbCB2aXJ0dWFsIHsKICAgICAgICBhc3NlbWJseSB7CiAgICAgICAgICAgIC8vIENvcHkgbXNnLmRhdGEuIFdlIHRha2UgZnVsbCBjb250cm9sIG9mIG1lbW9yeSBpbiB0aGlzIGlubGluZSBhc3NlbWJseQogICAgICAgICAgICAvLyBibG9jayBiZWNhdXNlIGl0IHdpbGwgbm90IHJldHVybiB0byBTb2xpZGl0eSBjb2RlLiBXZSBvdmVyd3JpdGUgdGhlCiAgICAgICAgICAgIC8vIFNvbGlkaXR5IHNjcmF0Y2ggcGFkIGF0IG1lbW9yeSBwb3NpdGlvbiAwLgogICAgICAgICAgICBjYWxsZGF0YWNvcHkoMCwgMCwgY2FsbGRhdGFzaXplKCkpCgogICAgICAgICAgICAvLyBDYWxsIHRoZSBpbXBsZW1lbnRhdGlvbi4KICAgICAgICAgICAgLy8gb3V0IGFuZCBvdXRzaXplIGFyZSAwIGJlY2F1c2Ugd2UgZG9uJ3Qga25vdyB0aGUgc2l6ZSB5ZXQuCiAgICAgICAgICAgIGxldCByZXN1bHQgOj0gZGVsZWdhdGVjYWxsKGdhcygpLCBpbXBsZW1lbnRhdGlvbiwgMCwgY2FsbGRhdGFzaXplKCksIDAsIDApCgogICAgICAgICAgICAvLyBDb3B5IHRoZSByZXR1cm5lZCBkYXRhLgogICAgICAgICAgICByZXR1cm5kYXRhY29weSgwLCAwLCByZXR1cm5kYXRhc2l6ZSgpKQoKICAgICAgICAgICAgc3dpdGNoIHJlc3VsdAogICAgICAgICAgICAvLyBkZWxlZ2F0ZWNhbGwgcmV0dXJucyAwIG9uIGVycm9yLgogICAgICAgICAgICBjYXNlIDAgewogICAgICAgICAgICAgICAgcmV2ZXJ0KDAsIHJldHVybmRhdGFzaXplKCkpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZGVmYXVsdCB7CiAgICAgICAgICAgICAgICByZXR1cm4oMCwgcmV0dXJuZGF0YXNpemUoKSkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgVGhpcyBpcyBhIHZpcnR1YWwgZnVuY3Rpb24gdGhhdCBzaG91bGQgYmUgb3ZlcnJpZGRlbiBzbyBpdCByZXR1cm5zIHRoZSBhZGRyZXNzIHRvIHdoaWNoIHRoZSBmYWxsYmFjawogICAgICogZnVuY3Rpb24gYW5kIHtfZmFsbGJhY2t9IHNob3VsZCBkZWxlZ2F0ZS4KICAgICAqLwogICAgZnVuY3Rpb24gX2ltcGxlbWVudGF0aW9uKCkgaW50ZXJuYWwgdmlldyB2aXJ0dWFsIHJldHVybnMgKGFkZHJlc3MpOwoKICAgIC8qKgogICAgICogQGRldiBEZWxlZ2F0ZXMgdGhlIGN1cnJlbnQgY2FsbCB0byB0aGUgYWRkcmVzcyByZXR1cm5lZCBieSBgX2ltcGxlbWVudGF0aW9uKClgLgogICAgICoKICAgICAqIFRoaXMgZnVuY3Rpb24gZG9lcyBub3QgcmV0dXJuIHRvIGl0cyBpbnRlcm5hbCBjYWxsIHNpdGUsIGl0IHdpbGwgcmV0dXJuIGRpcmVjdGx5IHRvIHRoZSBleHRlcm5hbCBjYWxsZXIuCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9mYWxsYmFjaygpIGludGVybmFsIHZpcnR1YWwgewogICAgICAgIF9kZWxlZ2F0ZShfaW1wbGVtZW50YXRpb24oKSk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IEZhbGxiYWNrIGZ1bmN0aW9uIHRoYXQgZGVsZWdhdGVzIGNhbGxzIHRvIHRoZSBhZGRyZXNzIHJldHVybmVkIGJ5IGBfaW1wbGVtZW50YXRpb24oKWAuIFdpbGwgcnVuIGlmIG5vIG90aGVyCiAgICAgKiBmdW5jdGlvbiBpbiB0aGUgY29udHJhY3QgbWF0Y2hlcyB0aGUgY2FsbCBkYXRhLgogICAgICovCiAgICBmYWxsYmFjaygpIGV4dGVybmFsIHBheWFibGUgdmlydHVhbCB7CiAgICAgICAgX2ZhbGxiYWNrKCk7CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.0.0) (proxy/Proxy.sol)
+
+pragma solidity ^0.8.20;
+
+/**
+ * @dev This abstract contract provides a fallback function that delegates all calls to another contract using the EVM
+ * instruction `delegatecall`. We refer to the second contract as the _implementation_ behind the proxy, and it has to
+ * be specified by overriding the virtual {_implementation} function.
+ *
+ * Additionally, delegation to the implementation can be triggered manually through the {_fallback} function, or to a
+ * different contract through the {_delegate} function.
+ *
+ * The success and return data of the delegated call will be returned back to the caller of the proxy.
+ */
+abstract contract Proxy {
+    /**
+     * @dev Delegates the current call to `implementation`.
+     *
+     * This function does not return to its internal call site, it will return directly to the external caller.
+     */
+    function _delegate(address implementation) internal virtual {
+        assembly {
+            // Copy msg.data. We take full control of memory in this inline assembly
+            // block because it will not return to Solidity code. We overwrite the
+            // Solidity scratch pad at memory position 0.
+            calldatacopy(0, 0, calldatasize())
+
+            // Call the implementation.
+            // out and outsize are 0 because we don't know the size yet.
+            let result := delegatecall(gas(), implementation, 0, calldatasize(), 0, 0)
+
+            // Copy the returned data.
+            returndatacopy(0, 0, returndatasize())
+
+            switch result
+            // delegatecall returns 0 on error.
+            case 0 {
+                revert(0, returndatasize())
+            }
+            default {
+                return(0, returndatasize())
+            }
+        }
+    }
+
+    /**
+     * @dev This is a virtual function that should be overridden so it returns the address to which the fallback
+     * function and {_fallback} should delegate.
+     */
+    function _implementation() internal view virtual returns (address);
+
+    /**
+     * @dev Delegates the current call to the address returned by `_implementation()`.
+     *
+     * This function does not return to its internal call site, it will return directly to the external caller.
+     */
+    function _fallback() internal virtual {
+        _delegate(_implementation());
+    }
+
+    /**
+     * @dev Fallback function that delegates calls to the address returned by `_implementation()`. Will run if no other
+     * function in the contract matches the call data.
+     */
+    fallback() external payable virtual {
+        _fallback();
+    }
+}
