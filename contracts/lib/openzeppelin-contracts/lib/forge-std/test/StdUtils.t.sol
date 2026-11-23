@@ -1,1 +1,342 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgPj0wLjcuMCA8MC45LjA7CgppbXBvcnQgIi4uL3NyYy9UZXN0LnNvbCI7Cgpjb250cmFjdCBTdGRVdGlsc01vY2sgaXMgU3RkVXRpbHMgewogICAgLy8gV2UgZGVwbG95IGEgbW9jayB2ZXJzaW9uIHNvIHdlIGNhbiBwcm9wZXJseSB0ZXN0IGV4cGVjdGVkIHJldmVydHMuCiAgICBmdW5jdGlvbiBleHBvc2VkX2dldFRva2VuQmFsYW5jZXMoYWRkcmVzcyB0b2tlbiwgYWRkcmVzc1tdIG1lbW9yeSBhZGRyZXNzZXMpCiAgICAgICAgZXh0ZXJuYWwKICAgICAgICByZXR1cm5zICh1aW50MjU2W10gbWVtb3J5IGJhbGFuY2VzKQogICAgewogICAgICAgIHJldHVybiBnZXRUb2tlbkJhbGFuY2VzKHRva2VuLCBhZGRyZXNzZXMpOwogICAgfQoKICAgIGZ1bmN0aW9uIGV4cG9zZWRfYm91bmQoaW50MjU2IG51bSwgaW50MjU2IG1pbiwgaW50MjU2IG1heCkgZXh0ZXJuYWwgcHVyZSByZXR1cm5zIChpbnQyNTYpIHsKICAgICAgICByZXR1cm4gYm91bmQobnVtLCBtaW4sIG1heCk7CiAgICB9CgogICAgZnVuY3Rpb24gZXhwb3NlZF9ib3VuZCh1aW50MjU2IG51bSwgdWludDI1NiBtaW4sIHVpbnQyNTYgbWF4KSBleHRlcm5hbCBwdXJlIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXR1cm4gYm91bmQobnVtLCBtaW4sIG1heCk7CiAgICB9CgogICAgZnVuY3Rpb24gZXhwb3NlZF9ieXRlc1RvVWludChieXRlcyBtZW1vcnkgYikgZXh0ZXJuYWwgcHVyZSByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgcmV0dXJuIGJ5dGVzVG9VaW50KGIpOwogICAgfQp9Cgpjb250cmFjdCBTdGRVdGlsc1Rlc3QgaXMgVGVzdCB7CiAgICAvKi8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBCT1VORCBVSU5UCiAgICAvLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLyovCgogICAgZnVuY3Rpb24gdGVzdF9Cb3VuZCgpIHB1YmxpYyB7CiAgICAgICAgYXNzZXJ0RXEoYm91bmQodWludDI1Nig1KSwgMCwgNCksIDApOwogICAgICAgIGFzc2VydEVxKGJvdW5kKHVpbnQyNTYoMCksIDY5LCA2OSksIDY5KTsKICAgICAgICBhc3NlcnRFcShib3VuZCh1aW50MjU2KDApLCA2OCwgNjkpLCA2OCk7CiAgICAgICAgYXNzZXJ0RXEoYm91bmQodWludDI1NigxMCksIDE1MCwgMTkwKSwgMTc0KTsKICAgICAgICBhc3NlcnRFcShib3VuZCh1aW50MjU2KDMwMCksIDI4MDAsIDMyMDApLCAzMTA3KTsKICAgICAgICBhc3NlcnRFcShib3VuZCh1aW50MjU2KDk5OTkpLCAxMzM3LCA2NjY2KSwgNDY2OSk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9Cb3VuZF9XaXRoaW5SYW5nZSgpIHB1YmxpYyB7CiAgICAgICAgYXNzZXJ0RXEoYm91bmQodWludDI1Nig1MSksIDUwLCAxNTApLCA1MSk7CiAgICAgICAgYXNzZXJ0RXEoYm91bmQodWludDI1Nig1MSksIDUwLCAxNTApLCBib3VuZChib3VuZCh1aW50MjU2KDUxKSwgNTAsIDE1MCksIDUwLCAxNTApKTsKICAgICAgICBhc3NlcnRFcShib3VuZCh1aW50MjU2KDE0OSksIDUwLCAxNTApLCAxNDkpOwogICAgICAgIGFzc2VydEVxKGJvdW5kKHVpbnQyNTYoMTQ5KSwgNTAsIDE1MCksIGJvdW5kKGJvdW5kKHVpbnQyNTYoMTQ5KSwgNTAsIDE1MCksIDUwLCAxNTApKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X0JvdW5kX0VkZ2VDb3ZlcmFnZSgpIHB1YmxpYyB7CiAgICAgICAgYXNzZXJ0RXEoYm91bmQodWludDI1NigwKSwgNTAsIDE1MCksIDUwKTsKICAgICAgICBhc3NlcnRFcShib3VuZCh1aW50MjU2KDEpLCA1MCwgMTUwKSwgNTEpOwogICAgICAgIGFzc2VydEVxKGJvdW5kKHVpbnQyNTYoMiksIDUwLCAxNTApLCA1Mik7CiAgICAgICAgYXNzZXJ0RXEoYm91bmQodWludDI1NigzKSwgNTAsIDE1MCksIDUzKTsKICAgICAgICBhc3NlcnRFcShib3VuZCh0eXBlKHVpbnQyNTYpLm1heCwgNTAsIDE1MCksIDE1MCk7CiAgICAgICAgYXNzZXJ0RXEoYm91bmQodHlwZSh1aW50MjU2KS5tYXggLSAxLCA1MCwgMTUwKSwgMTQ5KTsKICAgICAgICBhc3NlcnRFcShib3VuZCh0eXBlKHVpbnQyNTYpLm1heCAtIDIsIDUwLCAxNTApLCAxNDgpOwogICAgICAgIGFzc2VydEVxKGJvdW5kKHR5cGUodWludDI1NikubWF4IC0gMywgNTAsIDE1MCksIDE0Nyk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9Cb3VuZF9EaXN0cmlidXRpb25Jc0V2ZW4odWludDI1NiBtaW4sIHVpbnQyNTYgc2l6ZSkgcHVibGljIHsKICAgICAgICBzaXplID0gc2l6ZSAlIDEwMCArIDE7CiAgICAgICAgbWluID0gYm91bmQobWluLCBVSU5UMjU2X01BWCAvIDIsIFVJTlQyNTZfTUFYIC8gMiArIHNpemUpOwogICAgICAgIHVpbnQyNTYgbWF4ID0gbWluICsgc2l6ZSAtIDE7CiAgICAgICAgdWludDI1NiByZXN1bHQ7CgogICAgICAgIGZvciAodWludDI1NiBpID0gMTsgaSA8PSBzaXplICogNDsgKytpKSB7CiAgICAgICAgICAgIC8vIHggPiBtYXgKICAgICAgICAgICAgcmVzdWx0ID0gYm91bmQobWF4ICsgaSwgbWluLCBtYXgpOwogICAgICAgICAgICBhc3NlcnRFcShyZXN1bHQsIG1pbiArIChpIC0gMSkgJSBzaXplKTsKICAgICAgICAgICAgLy8geCA8IG1pbgogICAgICAgICAgICByZXN1bHQgPSBib3VuZChtaW4gLSBpLCBtaW4sIG1heCk7CiAgICAgICAgICAgIGFzc2VydEVxKHJlc3VsdCwgbWF4IC0gKGkgLSAxKSAlIHNpemUpOwogICAgICAgIH0KICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X0JvdW5kKHVpbnQyNTYgbnVtLCB1aW50MjU2IG1pbiwgdWludDI1NiBtYXgpIHB1YmxpYyB7CiAgICAgICAgaWYgKG1pbiA+IG1heCkgKG1pbiwgbWF4KSA9IChtYXgsIG1pbik7CgogICAgICAgIHVpbnQyNTYgcmVzdWx0ID0gYm91bmQobnVtLCBtaW4sIG1heCk7CgogICAgICAgIGFzc2VydEdlKHJlc3VsdCwgbWluKTsKICAgICAgICBhc3NlcnRMZShyZXN1bHQsIG1heCk7CiAgICAgICAgYXNzZXJ0RXEocmVzdWx0LCBib3VuZChyZXN1bHQsIG1pbiwgbWF4KSk7CiAgICAgICAgaWYgKG51bSA+PSBtaW4gJiYgbnVtIDw9IG1heCkgYXNzZXJ0RXEocmVzdWx0LCBudW0pOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfQm91bmRVaW50MjU2TWF4KCkgcHVibGljIHsKICAgICAgICBhc3NlcnRFcShib3VuZCgwLCB0eXBlKHVpbnQyNTYpLm1heCAtIDEsIHR5cGUodWludDI1NikubWF4KSwgdHlwZSh1aW50MjU2KS5tYXggLSAxKTsKICAgICAgICBhc3NlcnRFcShib3VuZCgxLCB0eXBlKHVpbnQyNTYpLm1heCAtIDEsIHR5cGUodWludDI1NikubWF4KSwgdHlwZSh1aW50MjU2KS5tYXgpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfQ2Fubm90Qm91bmRNYXhMZXNzVGhhbk1pbigpIHB1YmxpYyB7CiAgICAgICAgLy8gV2UgZGVwbG95IGEgbW9jayB2ZXJzaW9uIHNvIHdlIGNhbiBwcm9wZXJseSB0ZXN0IHRoZSByZXZlcnQuCiAgICAgICAgU3RkVXRpbHNNb2NrIHN0ZFV0aWxzID0gbmV3IFN0ZFV0aWxzTW9jaygpOwoKICAgICAgICB2bS5leHBlY3RSZXZlcnQoYnl0ZXMoIlN0ZFV0aWxzIGJvdW5kKHVpbnQyNTYsdWludDI1Nix1aW50MjU2KTogTWF4IGlzIGxlc3MgdGhhbiBtaW4uIikpOwogICAgICAgIHN0ZFV0aWxzLmV4cG9zZWRfYm91bmQodWludDI1Nig1KSwgMTAwLCAxMCk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9DYW5ub3RCb3VuZE1heExlc3NUaGFuTWluKHVpbnQyNTYgbnVtLCB1aW50MjU2IG1pbiwgdWludDI1NiBtYXgpIHB1YmxpYyB7CiAgICAgICAgLy8gV2UgZGVwbG95IGEgbW9jayB2ZXJzaW9uIHNvIHdlIGNhbiBwcm9wZXJseSB0ZXN0IHRoZSByZXZlcnQuCiAgICAgICAgU3RkVXRpbHNNb2NrIHN0ZFV0aWxzID0gbmV3IFN0ZFV0aWxzTW9jaygpOwoKICAgICAgICB2bS5hc3N1bWUobWluID4gbWF4KTsKICAgICAgICB2bS5leHBlY3RSZXZlcnQoYnl0ZXMoIlN0ZFV0aWxzIGJvdW5kKHVpbnQyNTYsdWludDI1Nix1aW50MjU2KTogTWF4IGlzIGxlc3MgdGhhbiBtaW4uIikpOwogICAgICAgIHN0ZFV0aWxzLmV4cG9zZWRfYm91bmQobnVtLCBtaW4sIG1heCk7CiAgICB9CgogICAgLyovLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQk9VTkQgSU5UCiAgICAvLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLyovCgogICAgZnVuY3Rpb24gdGVzdF9Cb3VuZEludCgpIHB1YmxpYyB7CiAgICAgICAgYXNzZXJ0RXEoYm91bmQoLTMsIDAsIDQpLCAyKTsKICAgICAgICBhc3NlcnRFcShib3VuZCgwLCAtNjksIC02OSksIC02OSk7CiAgICAgICAgYXNzZXJ0RXEoYm91bmQoMCwgLTY5LCAtNjgpLCAtNjgpOwogICAgICAgIGFzc2VydEVxKGJvdW5kKC0xMCwgMTUwLCAxOTApLCAxNTQpOwogICAgICAgIGFzc2VydEVxKGJvdW5kKC0zMDAsIDI4MDAsIDMyMDApLCAyOTA4KTsKICAgICAgICBhc3NlcnRFcShib3VuZCg5OTk5LCAtMTMzNywgNjY2NiksIDE5OTUpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfQm91bmRJbnRfV2l0aGluUmFuZ2UoKSBwdWJsaWMgewogICAgICAgIGFzc2VydEVxKGJvdW5kKDUxLCAtNTAsIDE1MCksIDUxKTsKICAgICAgICBhc3NlcnRFcShib3VuZCg1MSwgLTUwLCAxNTApLCBib3VuZChib3VuZCg1MSwgLTUwLCAxNTApLCAtNTAsIDE1MCkpOwogICAgICAgIGFzc2VydEVxKGJvdW5kKDE0OSwgLTUwLCAxNTApLCAxNDkpOwogICAgICAgIGFzc2VydEVxKGJvdW5kKDE0OSwgLTUwLCAxNTApLCBib3VuZChib3VuZCgxNDksIC01MCwgMTUwKSwgLTUwLCAxNTApKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X0JvdW5kSW50X0VkZ2VDb3ZlcmFnZSgpIHB1YmxpYyB7CiAgICAgICAgYXNzZXJ0RXEoYm91bmQodHlwZShpbnQyNTYpLm1pbiwgLTUwLCAxNTApLCAtNTApOwogICAgICAgIGFzc2VydEVxKGJvdW5kKHR5cGUoaW50MjU2KS5taW4gKyAxLCAtNTAsIDE1MCksIC00OSk7CiAgICAgICAgYXNzZXJ0RXEoYm91bmQodHlwZShpbnQyNTYpLm1pbiArIDIsIC01MCwgMTUwKSwgLTQ4KTsKICAgICAgICBhc3NlcnRFcShib3VuZCh0eXBlKGludDI1NikubWluICsgMywgLTUwLCAxNTApLCAtNDcpOwogICAgICAgIGFzc2VydEVxKGJvdW5kKHR5cGUoaW50MjU2KS5taW4sIDEwLCAxNTApLCAxMCk7CiAgICAgICAgYXNzZXJ0RXEoYm91bmQodHlwZShpbnQyNTYpLm1pbiArIDEsIDEwLCAxNTApLCAxMSk7CiAgICAgICAgYXNzZXJ0RXEoYm91bmQodHlwZShpbnQyNTYpLm1pbiArIDIsIDEwLCAxNTApLCAxMik7CiAgICAgICAgYXNzZXJ0RXEoYm91bmQodHlwZShpbnQyNTYpLm1pbiArIDMsIDEwLCAxNTApLCAxMyk7CgogICAgICAgIGFzc2VydEVxKGJvdW5kKHR5cGUoaW50MjU2KS5tYXgsIC01MCwgMTUwKSwgMTUwKTsKICAgICAgICBhc3NlcnRFcShib3VuZCh0eXBlKGludDI1NikubWF4IC0gMSwgLTUwLCAxNTApLCAxNDkpOwogICAgICAgIGFzc2VydEVxKGJvdW5kKHR5cGUoaW50MjU2KS5tYXggLSAyLCAtNTAsIDE1MCksIDE0OCk7CiAgICAgICAgYXNzZXJ0RXEoYm91bmQodHlwZShpbnQyNTYpLm1heCAtIDMsIC01MCwgMTUwKSwgMTQ3KTsKICAgICAgICBhc3NlcnRFcShib3VuZCh0eXBlKGludDI1NikubWF4LCAtNTAsIC0xMCksIC0xMCk7CiAgICAgICAgYXNzZXJ0RXEoYm91bmQodHlwZShpbnQyNTYpLm1heCAtIDEsIC01MCwgLTEwKSwgLTExKTsKICAgICAgICBhc3NlcnRFcShib3VuZCh0eXBlKGludDI1NikubWF4IC0gMiwgLTUwLCAtMTApLCAtMTIpOwogICAgICAgIGFzc2VydEVxKGJvdW5kKHR5cGUoaW50MjU2KS5tYXggLSAzLCAtNTAsIC0xMCksIC0xMyk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9Cb3VuZEludF9EaXN0cmlidXRpb25Jc0V2ZW4oaW50MjU2IG1pbiwgdWludDI1NiBzaXplKSBwdWJsaWMgewogICAgICAgIHNpemUgPSBzaXplICUgMTAwICsgMTsKICAgICAgICBtaW4gPSBib3VuZChtaW4sIC1pbnQyNTYoc2l6ZSAvIDIpLCBpbnQyNTYoc2l6ZSAtIHNpemUgLyAyKSk7CiAgICAgICAgaW50MjU2IG1heCA9IG1pbiArIGludDI1NihzaXplKSAtIDE7CiAgICAgICAgaW50MjU2IHJlc3VsdDsKCiAgICAgICAgZm9yICh1aW50MjU2IGkgPSAxOyBpIDw9IHNpemUgKiA0OyArK2kpIHsKICAgICAgICAgICAgLy8geCA+IG1heAogICAgICAgICAgICByZXN1bHQgPSBib3VuZChtYXggKyBpbnQyNTYoaSksIG1pbiwgbWF4KTsKICAgICAgICAgICAgYXNzZXJ0RXEocmVzdWx0LCBtaW4gKyBpbnQyNTYoKGkgLSAxKSAlIHNpemUpKTsKICAgICAgICAgICAgLy8geCA8IG1pbgogICAgICAgICAgICByZXN1bHQgPSBib3VuZChtaW4gLSBpbnQyNTYoaSksIG1pbiwgbWF4KTsKICAgICAgICAgICAgYXNzZXJ0RXEocmVzdWx0LCBtYXggLSBpbnQyNTYoKGkgLSAxKSAlIHNpemUpKTsKICAgICAgICB9CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9Cb3VuZEludChpbnQyNTYgbnVtLCBpbnQyNTYgbWluLCBpbnQyNTYgbWF4KSBwdWJsaWMgewogICAgICAgIGlmIChtaW4gPiBtYXgpIChtaW4sIG1heCkgPSAobWF4LCBtaW4pOwoKICAgICAgICBpbnQyNTYgcmVzdWx0ID0gYm91bmQobnVtLCBtaW4sIG1heCk7CgogICAgICAgIGFzc2VydEdlKHJlc3VsdCwgbWluKTsKICAgICAgICBhc3NlcnRMZShyZXN1bHQsIG1heCk7CiAgICAgICAgYXNzZXJ0RXEocmVzdWx0LCBib3VuZChyZXN1bHQsIG1pbiwgbWF4KSk7CiAgICAgICAgaWYgKG51bSA+PSBtaW4gJiYgbnVtIDw9IG1heCkgYXNzZXJ0RXEocmVzdWx0LCBudW0pOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfQm91bmRJbnRJbnQyNTZNYXgoKSBwdWJsaWMgewogICAgICAgIGFzc2VydEVxKGJvdW5kKDAsIHR5cGUoaW50MjU2KS5tYXggLSAxLCB0eXBlKGludDI1NikubWF4KSwgdHlwZShpbnQyNTYpLm1heCAtIDEpOwogICAgICAgIGFzc2VydEVxKGJvdW5kKDEsIHR5cGUoaW50MjU2KS5tYXggLSAxLCB0eXBlKGludDI1NikubWF4KSwgdHlwZShpbnQyNTYpLm1heCk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9Cb3VuZEludEludDI1Nk1pbigpIHB1YmxpYyB7CiAgICAgICAgYXNzZXJ0RXEoYm91bmQoMCwgdHlwZShpbnQyNTYpLm1pbiwgdHlwZShpbnQyNTYpLm1pbiArIDEpLCB0eXBlKGludDI1NikubWluKTsKICAgICAgICBhc3NlcnRFcShib3VuZCgxLCB0eXBlKGludDI1NikubWluLCB0eXBlKGludDI1NikubWluICsgMSksIHR5cGUoaW50MjU2KS5taW4gKyAxKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X0Nhbm5vdEJvdW5kSW50TWF4TGVzc1RoYW5NaW4oKSBwdWJsaWMgewogICAgICAgIC8vIFdlIGRlcGxveSBhIG1vY2sgdmVyc2lvbiBzbyB3ZSBjYW4gcHJvcGVybHkgdGVzdCB0aGUgcmV2ZXJ0LgogICAgICAgIFN0ZFV0aWxzTW9jayBzdGRVdGlscyA9IG5ldyBTdGRVdGlsc01vY2soKTsKCiAgICAgICAgdm0uZXhwZWN0UmV2ZXJ0KGJ5dGVzKCJTdGRVdGlscyBib3VuZChpbnQyNTYsaW50MjU2LGludDI1Nik6IE1heCBpcyBsZXNzIHRoYW4gbWluLiIpKTsKICAgICAgICBzdGRVdGlscy5leHBvc2VkX2JvdW5kKC01LCAxMDAsIDEwKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X0Nhbm5vdEJvdW5kSW50TWF4TGVzc1RoYW5NaW4oaW50MjU2IG51bSwgaW50MjU2IG1pbiwgaW50MjU2IG1heCkgcHVibGljIHsKICAgICAgICAvLyBXZSBkZXBsb3kgYSBtb2NrIHZlcnNpb24gc28gd2UgY2FuIHByb3Blcmx5IHRlc3QgdGhlIHJldmVydC4KICAgICAgICBTdGRVdGlsc01vY2sgc3RkVXRpbHMgPSBuZXcgU3RkVXRpbHNNb2NrKCk7CgogICAgICAgIHZtLmFzc3VtZShtaW4gPiBtYXgpOwogICAgICAgIHZtLmV4cGVjdFJldmVydChieXRlcygiU3RkVXRpbHMgYm91bmQoaW50MjU2LGludDI1NixpbnQyNTYpOiBNYXggaXMgbGVzcyB0aGFuIG1pbi4iKSk7CiAgICAgICAgc3RkVXRpbHMuZXhwb3NlZF9ib3VuZChudW0sIG1pbiwgbWF4KTsKICAgIH0KCiAgICAvKi8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQk9VTkQgUFJJVkFURSBLRVkKICAgIC8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vKi8KCiAgICBmdW5jdGlvbiB0ZXN0X0JvdW5kUHJpdmF0ZUtleSgpIHB1YmxpYyB7CiAgICAgICAgYXNzZXJ0RXEoYm91bmRQcml2YXRlS2V5KDApLCAxKTsKICAgICAgICBhc3NlcnRFcShib3VuZFByaXZhdGVLZXkoMSksIDEpOwogICAgICAgIGFzc2VydEVxKGJvdW5kUHJpdmF0ZUtleSgzMDApLCAzMDApOwogICAgICAgIGFzc2VydEVxKGJvdW5kUHJpdmF0ZUtleSg5OTk5KSwgOTk5OSk7CiAgICAgICAgYXNzZXJ0RXEoYm91bmRQcml2YXRlS2V5KFNFQ1AyNTZLMV9PUkRFUiAtIDEpLCBTRUNQMjU2SzFfT1JERVIgLSAxKTsKICAgICAgICBhc3NlcnRFcShib3VuZFByaXZhdGVLZXkoU0VDUDI1NksxX09SREVSKSwgMSk7CiAgICAgICAgYXNzZXJ0RXEoYm91bmRQcml2YXRlS2V5KFNFQ1AyNTZLMV9PUkRFUiArIDEpLCAyKTsKICAgICAgICBhc3NlcnRFcShib3VuZFByaXZhdGVLZXkoVUlOVDI1Nl9NQVgpLCBVSU5UMjU2X01BWCAmIFNFQ1AyNTZLMV9PUkRFUiAtIDEpOyAvLyB4JnkgaXMgZXF1aXZhbGVudCB0byB4LXgleQogICAgfQoKICAgIC8qLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBCWVRFUyBUTyBVSU5UCiAgICAvLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLyovCgogICAgZnVuY3Rpb24gdGVzdF9CeXRlc1RvVWludCgpIGV4dGVybmFsIHsKICAgICAgICBieXRlcyBtZW1vcnkgbWF4VWludCA9IGhleCJmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmIjsKICAgICAgICBieXRlcyBtZW1vcnkgdHdvID0gaGV4IjAyIjsKICAgICAgICBieXRlcyBtZW1vcnkgbWlsbGlvbkV0aGVyID0gaGV4ImQzYzIxYmNlY2NlZGExMDAwMDAwIjsKCiAgICAgICAgYXNzZXJ0RXEoYnl0ZXNUb1VpbnQobWF4VWludCksIHR5cGUodWludDI1NikubWF4KTsKICAgICAgICBhc3NlcnRFcShieXRlc1RvVWludCh0d28pLCAyKTsKICAgICAgICBhc3NlcnRFcShieXRlc1RvVWludChtaWxsaW9uRXRoZXIpLCAxXzAwMF8wMDAgZXRoZXIpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfQ2Fubm90Q29udmVydEdUMzJCeXRlcygpIGV4dGVybmFsIHsKICAgICAgICAvLyBXZSBkZXBsb3kgYSBtb2NrIHZlcnNpb24gc28gd2UgY2FuIHByb3Blcmx5IHRlc3QgdGhlIHJldmVydC4KICAgICAgICBTdGRVdGlsc01vY2sgc3RkVXRpbHMgPSBuZXcgU3RkVXRpbHNNb2NrKCk7CgogICAgICAgIGJ5dGVzIG1lbW9yeSB0aGlydHkzQnl0ZXMgPSBoZXgiZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmIjsKICAgICAgICB2bS5leHBlY3RSZXZlcnQoIlN0ZFV0aWxzIGJ5dGVzVG9VaW50KGJ5dGVzKTogQnl0ZXMgbGVuZ3RoIGV4Y2VlZHMgMzIuIik7CiAgICAgICAgc3RkVXRpbHMuZXhwb3NlZF9ieXRlc1RvVWludCh0aGlydHkzQnl0ZXMpOwogICAgfQoKICAgIC8qLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIENPTVBVVEUgQ1JFQVRFIEFERFJFU1MKICAgIC8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vKi8KCiAgICBmdW5jdGlvbiB0ZXN0X0NvbXB1dGVDcmVhdGVBZGRyZXNzKCkgZXh0ZXJuYWwgewogICAgICAgIGFkZHJlc3MgZGVwbG95ZXIgPSAweDZDOUZDNjRBNTNjMWI3MUZCM2Y5QWY2NGQxYWUzQTQ5MzFBNWY0RTk7CiAgICAgICAgdWludDI1NiBub25jZSA9IDE0OwogICAgICAgIGFkZHJlc3MgY3JlYXRlQWRkcmVzcyA9IGNvbXB1dGVDcmVhdGVBZGRyZXNzKGRlcGxveWVyLCBub25jZSk7CiAgICAgICAgYXNzZXJ0RXEoY3JlYXRlQWRkcmVzcywgMHg2OGIzNDY1ODMzZmI3MkE3MGVjREY0ODVFMGU0QzdiRDg2NjVGYzQ1KTsKICAgIH0KCiAgICAvKi8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIENPTVBVVEUgQ1JFQVRFMiBBRERSRVNTCiAgICAvLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLyovCgogICAgZnVuY3Rpb24gdGVzdF9Db21wdXRlQ3JlYXRlMkFkZHJlc3MoKSBleHRlcm5hbCB7CiAgICAgICAgYnl0ZXMzMiBzYWx0ID0gYnl0ZXMzMih1aW50MjU2KDMxNDE1KSk7CiAgICAgICAgYnl0ZXMzMiBpbml0Y29kZUhhc2ggPSBrZWNjYWsyNTYoYWJpLmVuY29kZSgweDYwODApKTsKICAgICAgICBhZGRyZXNzIGRlcGxveWVyID0gMHg2QzlGQzY0QTUzYzFiNzFGQjNmOUFmNjRkMWFlM0E0OTMxQTVmNEU5OwogICAgICAgIGFkZHJlc3MgY3JlYXRlMkFkZHJlc3MgPSBjb21wdXRlQ3JlYXRlMkFkZHJlc3Moc2FsdCwgaW5pdGNvZGVIYXNoLCBkZXBsb3llcik7CiAgICAgICAgYXNzZXJ0RXEoY3JlYXRlMkFkZHJlc3MsIDB4QjE0N2E1ZDI1NzQ4ZmRhMTRiNDYzRUIwNEIxMTEwMjdDMjkwZjRkMyk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9Db21wdXRlQ3JlYXRlMkFkZHJlc3NXaXRoRGVmYXVsdERlcGxveWVyKCkgZXh0ZXJuYWwgewogICAgICAgIGJ5dGVzMzIgc2FsdCA9IDB4YzI5MGM2NzBmZGU1NGU1ZWY2ODZmOTEzMmNiYzg3MTFlNzZhOThmMDMzM2E0MzhhOTJkYWE0NDJjNzE0MDNjMDsKICAgICAgICBieXRlczMyIGluaXRjb2RlSGFzaCA9IGhhc2hJbml0Q29kZShoZXgiNjA4MCIsICIiKTsKICAgICAgICBhc3NlcnRFcShpbml0Y29kZUhhc2gsIDB4MWE1NzhiN2E0YjBiNTc1NWRiNmQxMjFiNDExOGQ0YmM2OGZlMTcwZGNhODQwYzU5YmM5MjJmMTQxNzVhNzZiMCk7CiAgICAgICAgYWRkcmVzcyBjcmVhdGUyQWRkcmVzcyA9IGNvbXB1dGVDcmVhdGUyQWRkcmVzcyhzYWx0LCBpbml0Y29kZUhhc2gpOwogICAgICAgIGFzc2VydEVxKGNyZWF0ZTJBZGRyZXNzLCAweGMwZmZFZTIxOThhMDYyMzVhQWJGZmZlNURiMENhY0YxNzE3ZjVBYzYpOwogICAgfQp9Cgpjb250cmFjdCBTdGRVdGlsc0ZvcmtUZXN0IGlzIFRlc3QgewogICAgLyovLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgR0VUIFRPS0VOIEJBTEFOQ0VTCiAgICAvLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLyovCgogICAgYWRkcmVzcyBpbnRlcm5hbCBTSElCID0gMHg5NWFENjFiMGExNTBkNzkyMTlkQ0Y2NEUxRTZDYzAxZjBCNjRDNGNFOwogICAgYWRkcmVzcyBpbnRlcm5hbCBTSElCX0hPTERFUl8wID0gMHg4NTVGNTk4MWU4MzFEODNlNkE0YjRFQkZDQWRBYTY4RDkyMzMzMTcwOwogICAgYWRkcmVzcyBpbnRlcm5hbCBTSElCX0hPTERFUl8xID0gMHg4RjUwOUE5MGMyZTQ3Nzc5Y0E0MDhGZTAwZDdBNzJlMzU5MjI5QWRBOwogICAgYWRkcmVzcyBpbnRlcm5hbCBTSElCX0hPTERFUl8yID0gMHgwZTNiYmMwRDA0ZkY2MjIxMUY3MWYzZTRDNDVkODJhZDc2MjI0Mzg1OwoKICAgIGFkZHJlc3MgaW50ZXJuYWwgVVNEQyA9IDB4QTBiODY5OTFjNjIxOGIzNmMxZDE5RDRhMmU5RWIwY0UzNjA2ZUI0ODsKICAgIGFkZHJlc3MgaW50ZXJuYWwgVVNEQ19IT0xERVJfMCA9IDB4RGE5Q0U5NDRhMzdkMjE4YzMzMDJGNkI4MmEwOTQ4NDRDNkVDRWIxNzsKICAgIGFkZHJlc3MgaW50ZXJuYWwgVVNEQ19IT0xERVJfMSA9IDB4M2U2N0Y0NzIxRTZkMWM0MWEwMTVmNjQ1ZUZhMzdCRWQ4NTRmY2Y1MjsKCiAgICBmdW5jdGlvbiBzZXRVcCgpIHB1YmxpYyB7CiAgICAgICAgLy8gQWxsIHRlc3RzIG9mIHRoZSBgZ2V0VG9rZW5CYWxhbmNlc2AgbWV0aG9kIGFyZSBmb3JrIHRlc3RzIHVzaW5nIGxpdmUgY29udHJhY3RzLgogICAgICAgIHZtLmNyZWF0ZVNlbGVjdEZvcmsoe3VybE9yQWxpYXM6ICJtYWlubmV0IiwgYmxvY2tOdW1iZXI6IDE2XzQyOF85MDB9KTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X0Nhbm5vdEdldFRva2VuQmFsYW5jZXNfTm9uVG9rZW5Db250cmFjdCgpIGV4dGVybmFsIHsKICAgICAgICAvLyBXZSBkZXBsb3kgYSBtb2NrIHZlcnNpb24gc28gd2UgY2FuIHByb3Blcmx5IHRlc3QgdGhlIHJldmVydC4KICAgICAgICBTdGRVdGlsc01vY2sgc3RkVXRpbHMgPSBuZXcgU3RkVXRpbHNNb2NrKCk7CgogICAgICAgIC8vIFRoZSBVbmlzd2FwVjJGYWN0b3J5IGNvbnRyYWN0IGhhcyBuZWl0aGVyIGEgYGJhbGFuY2VPZmAgZnVuY3Rpb24gbm9yIGEgZmFsbGJhY2sgZnVuY3Rpb24sCiAgICAgICAgLy8gc28gdGhlIGBiYWxhbmNlT2ZgIGNhbGwgc2hvdWxkIHJldmVydC4KICAgICAgICBhZGRyZXNzIHRva2VuID0gYWRkcmVzcygweDVDNjliRWU3MDFlZjgxNGEyQjZhM0VERDRCMTY1MkNCOWNjNWFBNmYpOwogICAgICAgIGFkZHJlc3NbXSBtZW1vcnkgYWRkcmVzc2VzID0gbmV3IGFkZHJlc3NbXSgxKTsKICAgICAgICBhZGRyZXNzZXNbMF0gPSBVU0RDX0hPTERFUl8wOwoKICAgICAgICB2bS5leHBlY3RSZXZlcnQoIk11bHRpY2FsbDM6IGNhbGwgZmFpbGVkIik7CiAgICAgICAgc3RkVXRpbHMuZXhwb3NlZF9nZXRUb2tlbkJhbGFuY2VzKHRva2VuLCBhZGRyZXNzZXMpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfQ2Fubm90R2V0VG9rZW5CYWxhbmNlc19FT0EoKSBleHRlcm5hbCB7CiAgICAgICAgLy8gV2UgZGVwbG95IGEgbW9jayB2ZXJzaW9uIHNvIHdlIGNhbiBwcm9wZXJseSB0ZXN0IHRoZSByZXZlcnQuCiAgICAgICAgU3RkVXRpbHNNb2NrIHN0ZFV0aWxzID0gbmV3IFN0ZFV0aWxzTW9jaygpOwoKICAgICAgICBhZGRyZXNzIGVvYSA9IHZtLmFkZHIoe3ByaXZhdGVLZXk6IDF9KTsKICAgICAgICBhZGRyZXNzW10gbWVtb3J5IGFkZHJlc3NlcyA9IG5ldyBhZGRyZXNzW10oMSk7CiAgICAgICAgYWRkcmVzc2VzWzBdID0gVVNEQ19IT0xERVJfMDsKICAgICAgICB2bS5leHBlY3RSZXZlcnQoIlN0ZFV0aWxzIGdldFRva2VuQmFsYW5jZXMoYWRkcmVzcyxhZGRyZXNzW10pOiBUb2tlbiBhZGRyZXNzIGlzIG5vdCBhIGNvbnRyYWN0LiIpOwogICAgICAgIHN0ZFV0aWxzLmV4cG9zZWRfZ2V0VG9rZW5CYWxhbmNlcyhlb2EsIGFkZHJlc3Nlcyk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9HZXRUb2tlbkJhbGFuY2VzX0VtcHR5KCkgZXh0ZXJuYWwgewogICAgICAgIGFkZHJlc3NbXSBtZW1vcnkgYWRkcmVzc2VzID0gbmV3IGFkZHJlc3NbXSgwKTsKICAgICAgICB1aW50MjU2W10gbWVtb3J5IGJhbGFuY2VzID0gZ2V0VG9rZW5CYWxhbmNlcyhVU0RDLCBhZGRyZXNzZXMpOwogICAgICAgIGFzc2VydEVxKGJhbGFuY2VzLmxlbmd0aCwgMCk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9HZXRUb2tlbkJhbGFuY2VzX1VTREMoKSBleHRlcm5hbCB7CiAgICAgICAgYWRkcmVzc1tdIG1lbW9yeSBhZGRyZXNzZXMgPSBuZXcgYWRkcmVzc1tdKDIpOwogICAgICAgIGFkZHJlc3Nlc1swXSA9IFVTRENfSE9MREVSXzA7CiAgICAgICAgYWRkcmVzc2VzWzFdID0gVVNEQ19IT0xERVJfMTsKICAgICAgICB1aW50MjU2W10gbWVtb3J5IGJhbGFuY2VzID0gZ2V0VG9rZW5CYWxhbmNlcyhVU0RDLCBhZGRyZXNzZXMpOwogICAgICAgIGFzc2VydEVxKGJhbGFuY2VzWzBdLCAxNTlfMDAwXzAwMF8wMDBfMDAwKTsKICAgICAgICBhc3NlcnRFcShiYWxhbmNlc1sxXSwgMTMxXzM1MF8wMDBfMDAwXzAwMCk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9HZXRUb2tlbkJhbGFuY2VzX1NISUIoKSBleHRlcm5hbCB7CiAgICAgICAgYWRkcmVzc1tdIG1lbW9yeSBhZGRyZXNzZXMgPSBuZXcgYWRkcmVzc1tdKDMpOwogICAgICAgIGFkZHJlc3Nlc1swXSA9IFNISUJfSE9MREVSXzA7CiAgICAgICAgYWRkcmVzc2VzWzFdID0gU0hJQl9IT0xERVJfMTsKICAgICAgICBhZGRyZXNzZXNbMl0gPSBTSElCX0hPTERFUl8yOwogICAgICAgIHVpbnQyNTZbXSBtZW1vcnkgYmFsYW5jZXMgPSBnZXRUb2tlbkJhbGFuY2VzKFNISUIsIGFkZHJlc3Nlcyk7CiAgICAgICAgYXNzZXJ0RXEoYmFsYW5jZXNbMF0sIDNfMzIzXzI1Nl8yODVfNDg0LjQyZTE4KTsKICAgICAgICBhc3NlcnRFcShiYWxhbmNlc1sxXSwgMV8yNzFfNzAyXzc3MV8xNDkuOTk5OTk5MjhlMTgpOwogICAgICAgIGFzc2VydEVxKGJhbGFuY2VzWzJdLCA2MDZfMzU3XzEwNl8yNDdlMTgpOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.7.0 <0.9.0;
+
+import "../src/Test.sol";
+
+contract StdUtilsMock is StdUtils {
+    // We deploy a mock version so we can properly test expected reverts.
+    function exposed_getTokenBalances(address token, address[] memory addresses)
+        external
+        returns (uint256[] memory balances)
+    {
+        return getTokenBalances(token, addresses);
+    }
+
+    function exposed_bound(int256 num, int256 min, int256 max) external pure returns (int256) {
+        return bound(num, min, max);
+    }
+
+    function exposed_bound(uint256 num, uint256 min, uint256 max) external pure returns (uint256) {
+        return bound(num, min, max);
+    }
+
+    function exposed_bytesToUint(bytes memory b) external pure returns (uint256) {
+        return bytesToUint(b);
+    }
+}
+
+contract StdUtilsTest is Test {
+    /*//////////////////////////////////////////////////////////////////////////
+                                     BOUND UINT
+    //////////////////////////////////////////////////////////////////////////*/
+
+    function test_Bound() public {
+        assertEq(bound(uint256(5), 0, 4), 0);
+        assertEq(bound(uint256(0), 69, 69), 69);
+        assertEq(bound(uint256(0), 68, 69), 68);
+        assertEq(bound(uint256(10), 150, 190), 174);
+        assertEq(bound(uint256(300), 2800, 3200), 3107);
+        assertEq(bound(uint256(9999), 1337, 6666), 4669);
+    }
+
+    function test_Bound_WithinRange() public {
+        assertEq(bound(uint256(51), 50, 150), 51);
+        assertEq(bound(uint256(51), 50, 150), bound(bound(uint256(51), 50, 150), 50, 150));
+        assertEq(bound(uint256(149), 50, 150), 149);
+        assertEq(bound(uint256(149), 50, 150), bound(bound(uint256(149), 50, 150), 50, 150));
+    }
+
+    function test_Bound_EdgeCoverage() public {
+        assertEq(bound(uint256(0), 50, 150), 50);
+        assertEq(bound(uint256(1), 50, 150), 51);
+        assertEq(bound(uint256(2), 50, 150), 52);
+        assertEq(bound(uint256(3), 50, 150), 53);
+        assertEq(bound(type(uint256).max, 50, 150), 150);
+        assertEq(bound(type(uint256).max - 1, 50, 150), 149);
+        assertEq(bound(type(uint256).max - 2, 50, 150), 148);
+        assertEq(bound(type(uint256).max - 3, 50, 150), 147);
+    }
+
+    function test_Bound_DistributionIsEven(uint256 min, uint256 size) public {
+        size = size % 100 + 1;
+        min = bound(min, UINT256_MAX / 2, UINT256_MAX / 2 + size);
+        uint256 max = min + size - 1;
+        uint256 result;
+
+        for (uint256 i = 1; i <= size * 4; ++i) {
+            // x > max
+            result = bound(max + i, min, max);
+            assertEq(result, min + (i - 1) % size);
+            // x < min
+            result = bound(min - i, min, max);
+            assertEq(result, max - (i - 1) % size);
+        }
+    }
+
+    function test_Bound(uint256 num, uint256 min, uint256 max) public {
+        if (min > max) (min, max) = (max, min);
+
+        uint256 result = bound(num, min, max);
+
+        assertGe(result, min);
+        assertLe(result, max);
+        assertEq(result, bound(result, min, max));
+        if (num >= min && num <= max) assertEq(result, num);
+    }
+
+    function test_BoundUint256Max() public {
+        assertEq(bound(0, type(uint256).max - 1, type(uint256).max), type(uint256).max - 1);
+        assertEq(bound(1, type(uint256).max - 1, type(uint256).max), type(uint256).max);
+    }
+
+    function test_CannotBoundMaxLessThanMin() public {
+        // We deploy a mock version so we can properly test the revert.
+        StdUtilsMock stdUtils = new StdUtilsMock();
+
+        vm.expectRevert(bytes("StdUtils bound(uint256,uint256,uint256): Max is less than min."));
+        stdUtils.exposed_bound(uint256(5), 100, 10);
+    }
+
+    function test_CannotBoundMaxLessThanMin(uint256 num, uint256 min, uint256 max) public {
+        // We deploy a mock version so we can properly test the revert.
+        StdUtilsMock stdUtils = new StdUtilsMock();
+
+        vm.assume(min > max);
+        vm.expectRevert(bytes("StdUtils bound(uint256,uint256,uint256): Max is less than min."));
+        stdUtils.exposed_bound(num, min, max);
+    }
+
+    /*//////////////////////////////////////////////////////////////////////////
+                                     BOUND INT
+    //////////////////////////////////////////////////////////////////////////*/
+
+    function test_BoundInt() public {
+        assertEq(bound(-3, 0, 4), 2);
+        assertEq(bound(0, -69, -69), -69);
+        assertEq(bound(0, -69, -68), -68);
+        assertEq(bound(-10, 150, 190), 154);
+        assertEq(bound(-300, 2800, 3200), 2908);
+        assertEq(bound(9999, -1337, 6666), 1995);
+    }
+
+    function test_BoundInt_WithinRange() public {
+        assertEq(bound(51, -50, 150), 51);
+        assertEq(bound(51, -50, 150), bound(bound(51, -50, 150), -50, 150));
+        assertEq(bound(149, -50, 150), 149);
+        assertEq(bound(149, -50, 150), bound(bound(149, -50, 150), -50, 150));
+    }
+
+    function test_BoundInt_EdgeCoverage() public {
+        assertEq(bound(type(int256).min, -50, 150), -50);
+        assertEq(bound(type(int256).min + 1, -50, 150), -49);
+        assertEq(bound(type(int256).min + 2, -50, 150), -48);
+        assertEq(bound(type(int256).min + 3, -50, 150), -47);
+        assertEq(bound(type(int256).min, 10, 150), 10);
+        assertEq(bound(type(int256).min + 1, 10, 150), 11);
+        assertEq(bound(type(int256).min + 2, 10, 150), 12);
+        assertEq(bound(type(int256).min + 3, 10, 150), 13);
+
+        assertEq(bound(type(int256).max, -50, 150), 150);
+        assertEq(bound(type(int256).max - 1, -50, 150), 149);
+        assertEq(bound(type(int256).max - 2, -50, 150), 148);
+        assertEq(bound(type(int256).max - 3, -50, 150), 147);
+        assertEq(bound(type(int256).max, -50, -10), -10);
+        assertEq(bound(type(int256).max - 1, -50, -10), -11);
+        assertEq(bound(type(int256).max - 2, -50, -10), -12);
+        assertEq(bound(type(int256).max - 3, -50, -10), -13);
+    }
+
+    function test_BoundInt_DistributionIsEven(int256 min, uint256 size) public {
+        size = size % 100 + 1;
+        min = bound(min, -int256(size / 2), int256(size - size / 2));
+        int256 max = min + int256(size) - 1;
+        int256 result;
+
+        for (uint256 i = 1; i <= size * 4; ++i) {
+            // x > max
+            result = bound(max + int256(i), min, max);
+            assertEq(result, min + int256((i - 1) % size));
+            // x < min
+            result = bound(min - int256(i), min, max);
+            assertEq(result, max - int256((i - 1) % size));
+        }
+    }
+
+    function test_BoundInt(int256 num, int256 min, int256 max) public {
+        if (min > max) (min, max) = (max, min);
+
+        int256 result = bound(num, min, max);
+
+        assertGe(result, min);
+        assertLe(result, max);
+        assertEq(result, bound(result, min, max));
+        if (num >= min && num <= max) assertEq(result, num);
+    }
+
+    function test_BoundIntInt256Max() public {
+        assertEq(bound(0, type(int256).max - 1, type(int256).max), type(int256).max - 1);
+        assertEq(bound(1, type(int256).max - 1, type(int256).max), type(int256).max);
+    }
+
+    function test_BoundIntInt256Min() public {
+        assertEq(bound(0, type(int256).min, type(int256).min + 1), type(int256).min);
+        assertEq(bound(1, type(int256).min, type(int256).min + 1), type(int256).min + 1);
+    }
+
+    function test_CannotBoundIntMaxLessThanMin() public {
+        // We deploy a mock version so we can properly test the revert.
+        StdUtilsMock stdUtils = new StdUtilsMock();
+
+        vm.expectRevert(bytes("StdUtils bound(int256,int256,int256): Max is less than min."));
+        stdUtils.exposed_bound(-5, 100, 10);
+    }
+
+    function test_CannotBoundIntMaxLessThanMin(int256 num, int256 min, int256 max) public {
+        // We deploy a mock version so we can properly test the revert.
+        StdUtilsMock stdUtils = new StdUtilsMock();
+
+        vm.assume(min > max);
+        vm.expectRevert(bytes("StdUtils bound(int256,int256,int256): Max is less than min."));
+        stdUtils.exposed_bound(num, min, max);
+    }
+
+    /*//////////////////////////////////////////////////////////////////////////
+                                BOUND PRIVATE KEY
+    //////////////////////////////////////////////////////////////////////////*/
+
+    function test_BoundPrivateKey() public {
+        assertEq(boundPrivateKey(0), 1);
+        assertEq(boundPrivateKey(1), 1);
+        assertEq(boundPrivateKey(300), 300);
+        assertEq(boundPrivateKey(9999), 9999);
+        assertEq(boundPrivateKey(SECP256K1_ORDER - 1), SECP256K1_ORDER - 1);
+        assertEq(boundPrivateKey(SECP256K1_ORDER), 1);
+        assertEq(boundPrivateKey(SECP256K1_ORDER + 1), 2);
+        assertEq(boundPrivateKey(UINT256_MAX), UINT256_MAX & SECP256K1_ORDER - 1); // x&y is equivalent to x-x%y
+    }
+
+    /*//////////////////////////////////////////////////////////////////////////
+                                   BYTES TO UINT
+    //////////////////////////////////////////////////////////////////////////*/
+
+    function test_BytesToUint() external {
+        bytes memory maxUint = hex"ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff";
+        bytes memory two = hex"02";
+        bytes memory millionEther = hex"d3c21bcecceda1000000";
+
+        assertEq(bytesToUint(maxUint), type(uint256).max);
+        assertEq(bytesToUint(two), 2);
+        assertEq(bytesToUint(millionEther), 1_000_000 ether);
+    }
+
+    function test_CannotConvertGT32Bytes() external {
+        // We deploy a mock version so we can properly test the revert.
+        StdUtilsMock stdUtils = new StdUtilsMock();
+
+        bytes memory thirty3Bytes = hex"ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff";
+        vm.expectRevert("StdUtils bytesToUint(bytes): Bytes length exceeds 32.");
+        stdUtils.exposed_bytesToUint(thirty3Bytes);
+    }
+
+    /*//////////////////////////////////////////////////////////////////////////
+                               COMPUTE CREATE ADDRESS
+    //////////////////////////////////////////////////////////////////////////*/
+
+    function test_ComputeCreateAddress() external {
+        address deployer = 0x6C9FC64A53c1b71FB3f9Af64d1ae3A4931A5f4E9;
+        uint256 nonce = 14;
+        address createAddress = computeCreateAddress(deployer, nonce);
+        assertEq(createAddress, 0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45);
+    }
+
+    /*//////////////////////////////////////////////////////////////////////////
+                              COMPUTE CREATE2 ADDRESS
+    //////////////////////////////////////////////////////////////////////////*/
+
+    function test_ComputeCreate2Address() external {
+        bytes32 salt = bytes32(uint256(31415));
+        bytes32 initcodeHash = keccak256(abi.encode(0x6080));
+        address deployer = 0x6C9FC64A53c1b71FB3f9Af64d1ae3A4931A5f4E9;
+        address create2Address = computeCreate2Address(salt, initcodeHash, deployer);
+        assertEq(create2Address, 0xB147a5d25748fda14b463EB04B111027C290f4d3);
+    }
+
+    function test_ComputeCreate2AddressWithDefaultDeployer() external {
+        bytes32 salt = 0xc290c670fde54e5ef686f9132cbc8711e76a98f0333a438a92daa442c71403c0;
+        bytes32 initcodeHash = hashInitCode(hex"6080", "");
+        assertEq(initcodeHash, 0x1a578b7a4b0b5755db6d121b4118d4bc68fe170dca840c59bc922f14175a76b0);
+        address create2Address = computeCreate2Address(salt, initcodeHash);
+        assertEq(create2Address, 0xc0ffEe2198a06235aAbFffe5Db0CacF1717f5Ac6);
+    }
+}
+
+contract StdUtilsForkTest is Test {
+    /*//////////////////////////////////////////////////////////////////////////
+                                  GET TOKEN BALANCES
+    //////////////////////////////////////////////////////////////////////////*/
+
+    address internal SHIB = 0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE;
+    address internal SHIB_HOLDER_0 = 0x855F5981e831D83e6A4b4EBFCAdAa68D92333170;
+    address internal SHIB_HOLDER_1 = 0x8F509A90c2e47779cA408Fe00d7A72e359229AdA;
+    address internal SHIB_HOLDER_2 = 0x0e3bbc0D04fF62211F71f3e4C45d82ad76224385;
+
+    address internal USDC = 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48;
+    address internal USDC_HOLDER_0 = 0xDa9CE944a37d218c3302F6B82a094844C6ECEb17;
+    address internal USDC_HOLDER_1 = 0x3e67F4721E6d1c41a015f645eFa37BEd854fcf52;
+
+    function setUp() public {
+        // All tests of the `getTokenBalances` method are fork tests using live contracts.
+        vm.createSelectFork({urlOrAlias: "mainnet", blockNumber: 16_428_900});
+    }
+
+    function test_CannotGetTokenBalances_NonTokenContract() external {
+        // We deploy a mock version so we can properly test the revert.
+        StdUtilsMock stdUtils = new StdUtilsMock();
+
+        // The UniswapV2Factory contract has neither a `balanceOf` function nor a fallback function,
+        // so the `balanceOf` call should revert.
+        address token = address(0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f);
+        address[] memory addresses = new address[](1);
+        addresses[0] = USDC_HOLDER_0;
+
+        vm.expectRevert("Multicall3: call failed");
+        stdUtils.exposed_getTokenBalances(token, addresses);
+    }
+
+    function test_CannotGetTokenBalances_EOA() external {
+        // We deploy a mock version so we can properly test the revert.
+        StdUtilsMock stdUtils = new StdUtilsMock();
+
+        address eoa = vm.addr({privateKey: 1});
+        address[] memory addresses = new address[](1);
+        addresses[0] = USDC_HOLDER_0;
+        vm.expectRevert("StdUtils getTokenBalances(address,address[]): Token address is not a contract.");
+        stdUtils.exposed_getTokenBalances(eoa, addresses);
+    }
+
+    function test_GetTokenBalances_Empty() external {
+        address[] memory addresses = new address[](0);
+        uint256[] memory balances = getTokenBalances(USDC, addresses);
+        assertEq(balances.length, 0);
+    }
+
+    function test_GetTokenBalances_USDC() external {
+        address[] memory addresses = new address[](2);
+        addresses[0] = USDC_HOLDER_0;
+        addresses[1] = USDC_HOLDER_1;
+        uint256[] memory balances = getTokenBalances(USDC, addresses);
+        assertEq(balances[0], 159_000_000_000_000);
+        assertEq(balances[1], 131_350_000_000_000);
+    }
+
+    function test_GetTokenBalances_SHIB() external {
+        address[] memory addresses = new address[](3);
+        addresses[0] = SHIB_HOLDER_0;
+        addresses[1] = SHIB_HOLDER_1;
+        addresses[2] = SHIB_HOLDER_2;
+        uint256[] memory balances = getTokenBalances(SHIB, addresses);
+        assertEq(balances[0], 3_323_256_285_484.42e18);
+        assertEq(balances[1], 1_271_702_771_149.99999928e18);
+        assertEq(balances[2], 606_357_106_247e18);
+    }
+}
