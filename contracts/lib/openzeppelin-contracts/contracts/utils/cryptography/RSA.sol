@@ -1,1 +1,154 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodXRpbHMvY3J5cHRvZ3JhcGh5L1JTQS5zb2wpCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKaW1wb3J0IHtNYXRofSBmcm9tICIuLi9tYXRoL01hdGguc29sIjsKCi8qKgogKiBAZGV2IFJTQSBQS0NTIzEgdjEuNSBzaWduYXR1cmUgdmVyaWZpY2F0aW9uIGltcGxlbWVudGF0aW9uIGFjY29yZGluZyB0byBodHRwczovL2RhdGF0cmFja2VyLmlldGYub3JnL2RvYy9odG1sL3JmYzgwMTdbUkZDODAxN10uCiAqCiAqIFRoaXMgbGlicmFyeSBzdXBwb3J0cyBQS0NTIzEgdjEuNSBwYWRkaW5nIHRvIGF2b2lkIG1hbGxlYWJpbGl0eSB2aWEgY2hvc2VuIHBsYWludGV4dCBhdHRhY2tzIGluIHByYWN0aWNhbCBpbXBsZW1lbnRhdGlvbnMuCiAqIFRoZSBwYWRkaW5nIGZvbGxvd3MgdGhlIEVNU0EtUEtDUzEtdjFfNS1FTkNPREUgZW5jb2RpbmcgZGVmaW5pdGlvbiBhcyBwZXIgc2VjdGlvbiA5LjIgb2YgdGhlIFJGQy4gVGhpcyBwYWRkaW5nIG1ha2VzCiAqIFJTQSBzZW1hbnRpY2FsbHkgc2VjdXJlIGZvciBzaWduaW5nIG1lc3NhZ2VzLgogKgogKiBJbnNwaXJlZCBieSBodHRwczovL2dpdGh1Yi5jb20vYWRyaWEwL1NvbFJzYVZlcmlmeS9ibG9iLzc5YzYxODJjYWJiOTEwMmVhNjlkNGEyZTk5NjgxNjA5MWQ1ZjFjZDFbQWRyacOgIE1hc3NhbmV0J3Mgd29ya10gKEdOVSBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIHYzLjApLgogKgogKiBfQXZhaWxhYmxlIHNpbmNlIHY1LjEuXwogKi8KbGlicmFyeSBSU0EgewogICAgLyoqCiAgICAgKiBAZGV2IFNhbWUgYXMge3BrY3MxU2hhMjU2fSBidXQgdXNpbmcgU0hBMjU2IHRvIGNhbGN1bGF0ZSB0aGUgZGlnZXN0IG9mIGBkYXRhYC4KICAgICAqLwogICAgZnVuY3Rpb24gcGtjczFTaGEyNTYoCiAgICAgICAgYnl0ZXMgbWVtb3J5IGRhdGEsCiAgICAgICAgYnl0ZXMgbWVtb3J5IHMsCiAgICAgICAgYnl0ZXMgbWVtb3J5IGUsCiAgICAgICAgYnl0ZXMgbWVtb3J5IG4KICAgICkgaW50ZXJuYWwgdmlldyByZXR1cm5zIChib29sKSB7CiAgICAgICAgcmV0dXJuIHBrY3MxU2hhMjU2KHNoYTI1NihkYXRhKSwgcywgZSwgbik7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFZlcmlmaWVzIGEgUEtDU3YxLjUgc2lnbmF0dXJlIGdpdmVuIGEgZGlnZXN0IGFjY29yZGluZyB0byB0aGUgdmVyaWZpY2F0aW9uCiAgICAgKiBtZXRob2QgZGVzY3JpYmVkIGluIGh0dHBzOi8vZGF0YXRyYWNrZXIuaWV0Zi5vcmcvZG9jL2h0bWwvcmZjODAxNyNzZWN0aW9uLTguMi4yW3NlY3Rpb24gOC4yLjIgb2YgUkZDODAxN10gd2l0aAogICAgICogc3VwcG9ydCBmb3IgZXhwbGljaXQgb3IgaW1wbGljaXQgTlVMTCBwYXJhbWV0ZXJzIGluIHRoZSBEaWdlc3RJbmZvIChubyBvdGhlciBvcHRpb25hbCBwYXJhbWV0ZXJzIGFyZSBzdXBwb3J0ZWQpLgogICAgICoKICAgICAqIElNUE9SVEFOVDogRm9yIHNlY3VyaXR5IHJlYXNvbiwgdGhpcyBmdW5jdGlvbiByZXF1aXJlcyB0aGUgc2lnbmF0dXJlIGFuZCBtb2R1bHVzIHRvIGhhdmUgYSBsZW5ndGggb2YgYXQgbGVhc3QKICAgICAqIDIwNDggYml0cy4gSWYgeW91IHVzZSBhIHNtYWxsZXIga2V5LCBjb25zaWRlciByZXBsYWNpbmcgaXQgd2l0aCBhIGxhcmdlciwgbW9yZSBzZWN1cmUsIG9uZS4KICAgICAqCiAgICAgKiBXQVJOSU5HOiBUaGlzIHZlcmlmaWNhdGlvbiBhbGdvcml0aG0gZG9lc24ndCBwcmV2ZW50IHJlcGxheWFiaWxpdHkuIElmIGNhbGxlZCBtdWx0aXBsZSB0aW1lcyB3aXRoIHRoZSBzYW1lCiAgICAgKiBkaWdlc3QsIHB1YmxpYyBrZXkgYW5kICh2YWxpZCBzaWduYXR1cmUpLCBpdCB3aWxsIHJldHVybiB0cnVlIGV2ZXJ5IHRpbWUuIENvbnNpZGVyIGluY2x1ZGluZyBhbiBvbmNoYWluIG5vbmNlCiAgICAgKiBvciB1bmlxdWUgaWRlbnRpZmllciBpbiB0aGUgbWVzc2FnZSB0byBwcmV2ZW50IHJlcGxheSBhdHRhY2tzLgogICAgICoKICAgICAqIFdBUk5JTkc6IFRoaXMgdmVyaWZpY2F0aW9uIGFsZ29yaXRobSBzdXBwb3J0cyBhbnkgZXhwb25lbnQuIE5JU1QgcmVjb21tZW5kcyB1c2luZyBgNjU1MzdgIChvciBoaWdoZXIpLgogICAgICogVGhhdCBpcyB0aGUgZGVmYXVsdCB2YWx1ZSBtYW55IGxpYnJhcmllcyB1c2UsIHN1Y2ggYXMgT3BlblNTTC4gRGV2ZWxvcGVycyBtYXkgY2hvb3NlIHRvIHJlamVjdCBwdWJsaWMga2V5cwogICAgICogdXNpbmcgYSBsb3cgZXhwb25lbnQgb3V0IG9mIHNlY3VyaXR5IGNvbmNlcm5zLgogICAgICoKICAgICAqIEBwYXJhbSBkaWdlc3QgdGhlIGRpZ2VzdCB0byB2ZXJpZnkKICAgICAqIEBwYXJhbSBzIGlzIGEgYnVmZmVyIGNvbnRhaW5pbmcgdGhlIHNpZ25hdHVyZQogICAgICogQHBhcmFtIGUgaXMgdGhlIGV4cG9uZW50IG9mIHRoZSBwdWJsaWMga2V5CiAgICAgKiBAcGFyYW0gbiBpcyB0aGUgbW9kdWx1cyBvZiB0aGUgcHVibGljIGtleQogICAgICovCiAgICBmdW5jdGlvbiBwa2NzMVNoYTI1NihieXRlczMyIGRpZ2VzdCwgYnl0ZXMgbWVtb3J5IHMsIGJ5dGVzIG1lbW9yeSBlLCBieXRlcyBtZW1vcnkgbikgaW50ZXJuYWwgdmlldyByZXR1cm5zIChib29sKSB7CiAgICAgICAgdW5jaGVja2VkIHsKICAgICAgICAgICAgLy8gY2FjaGUgYW5kIGNoZWNrIGxlbmd0aAogICAgICAgICAgICB1aW50MjU2IGxlbmd0aCA9IG4ubGVuZ3RoOwogICAgICAgICAgICBpZiAoCiAgICAgICAgICAgICAgICBsZW5ndGggPCAweDEwMCB8fCAvLyBFbmZvcmNlIDIwNDggYml0cyBtaW5pbXVtCiAgICAgICAgICAgICAgICBsZW5ndGggIT0gcy5sZW5ndGggLy8gc2lnbmF0dXJlIG11c3QgaGF2ZSB0aGUgc2FtZSBsZW5ndGggYXMgdGhlIGZpbml0ZSBmaWVsZAogICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgIHJldHVybiBmYWxzZTsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgLy8gVmVyaWZ5IHRoYXQgcyA8IG4gdG8gZW5zdXJlIHRoZXJlJ3Mgb25seSBvbmUgdmFsaWQgc2lnbmF0dXJlIGZvciBhIGdpdmVuIG1lc3NhZ2UKICAgICAgICAgICAgZm9yICh1aW50MjU2IGkgPSAwOyBpIDwgbGVuZ3RoOyBpICs9IDB4MjApIHsKICAgICAgICAgICAgICAgIHVpbnQyNTYgcCA9IE1hdGgubWluKGksIGxlbmd0aCAtIDB4MjApOwogICAgICAgICAgICAgICAgYnl0ZXMzMiBzcCA9IF91bnNhZmVSZWFkQnl0ZXMzMihzLCBwKTsKICAgICAgICAgICAgICAgIGJ5dGVzMzIgbnAgPSBfdW5zYWZlUmVhZEJ5dGVzMzIobiwgcCk7CiAgICAgICAgICAgICAgICBpZiAoc3AgPCBucCkgewogICAgICAgICAgICAgICAgICAgIC8vIHMgPCBuIGluIHRoZSB1cHBlciBiaXRzIChldmVyeXRoaW5nIGJlZm9yZSBpcyBlcXVhbCkg4oaSIHMgPCBuIGdsb2JhbGx5OiBvawogICAgICAgICAgICAgICAgICAgIGJyZWFrOwogICAgICAgICAgICAgICAgfSBlbHNlIGlmIChzcCA+IG5wIHx8IHAgPT0gbGVuZ3RoIC0gMHgyMCkgewogICAgICAgICAgICAgICAgICAgIC8vIHMgPiBuIGluIHRoZSB1cHBlciBiaXRzIChldmVyeXRoaW5nIGJlZm9yZSBpcyBlcXVhbCkg4oaSIHMgPiBuIGdsb2JhbGx5OiBmYWlsCiAgICAgICAgICAgICAgICAgICAgLy8gb3IKICAgICAgICAgICAgICAgICAgICAvLyBzID0gbiBhbmQgd2UgYXJlIGxvb2tpbmcgYXQgdGhlIGxvd2VyIGJpdHMg4oaSIHMgPSBuIGdsb2JhbGx5OiBmYWlsCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICAvLyBSU0FWUDEgaHR0cHM6Ly9kYXRhdHJhY2tlci5pZXRmLm9yZy9kb2MvaHRtbC9yZmM4MDE3I3NlY3Rpb24tNS4yLjIKICAgICAgICAgICAgLy8gVGhlIHByZXZpb3VzIGNoZWNrIGd1YXJhbnRlZXMgdGhhdCBuID4gMC4gVGhlcmVmb3JlIG1vZEV4cCBjYW5ub3QgcmV2ZXJ0LgogICAgICAgICAgICBieXRlcyBtZW1vcnkgYnVmZmVyID0gTWF0aC5tb2RFeHAocywgZSwgbik7CgogICAgICAgICAgICAvLyBDaGVjayB0aGF0IGJ1ZmZlciBpcyB3ZWxsIGVuY29kZWQ6CiAgICAgICAgICAgIC8vIGJ1ZmZlciA6Oj0gMHgwMCB8IDB4MDEgfCBQUyB8IDB4MDAgfCBEaWdlc3RJbmZvCiAgICAgICAgICAgIC8vCiAgICAgICAgICAgIC8vIFdpdGgKICAgICAgICAgICAgLy8gLSBQUyBpcyBwYWRkaW5nIGZpbGxlZCB3aXRoIDB4RkYKICAgICAgICAgICAgLy8gLSBEaWdlc3RJbmZvIDo6PSBTRVFVRU5DRSB7CiAgICAgICAgICAgIC8vICAgIGRpZ2VzdEFsZ29yaXRobSBBbGdvcml0aG1JZGVudGlmaWVyLAogICAgICAgICAgICAvLyAgICAgIFtvcHRpb25hbCBhbGdvcml0aG0gcGFyYW1ldGVyc10gLS0gbm90IGN1cnJlbnRseSBzdXBwb3J0ZWQKICAgICAgICAgICAgLy8gICAgZGlnZXN0IE9DVEVUIFNUUklORwogICAgICAgICAgICAvLyB9CgogICAgICAgICAgICAvLyBHZXQgQWxnb3JpdGhtSWRlbnRpZmllciBmcm9tIHRoZSBEaWdlc3RJbmZvLCBhbmQgc2V0IHRoZSBjb25maWcgYWNjb3JkaW5nbHkKICAgICAgICAgICAgLy8gLSBwYXJhbXM6IGluY2x1ZGVzIDAwICsgZmlyc3QgcGFydCBvZiBEaWdlc3RJbmZvCiAgICAgICAgICAgIC8vIC0gbWFzazogZmlsdGVyIHRvIGNoZWNrIHRoZSBwYXJhbXMKICAgICAgICAgICAgLy8gLSBvZmZzZXQ6IGxlbmd0aCBvZiB0aGUgc3VmZml4IChpbmNsdWRpbmcgZGlnZXN0KQogICAgICAgICAgICBieXRlczMyIHBhcmFtczsgLy8gMHgwMCB8IERpZ2VzdEluZm8KICAgICAgICAgICAgYnl0ZXMzMiBtYXNrOwogICAgICAgICAgICB1aW50MjU2IG9mZnNldDsKCiAgICAgICAgICAgIC8vIERpZ2VzdCBpcyBleHBlY3RlZCBhdCB0aGUgZW5kIG9mIHRoZSBidWZmZXIuIFRoZXJlZm9yZSBpZiBOVUxMIHBhcmFtIGlzIHByZXNlbnQsCiAgICAgICAgICAgIC8vIGl0IHNob3VsZCBiZSBhdCAzMiAoZGlnZXN0KSArIDIgYnl0ZXMgZnJvbSB0aGUgZW5kLiBUbyB0aG9zZSAzNCBieXRlcywgd2UgYWRkIHRoZQogICAgICAgICAgICAvLyBPSUQgKDkgYnl0ZXMpIGFuZCBpdHMgbGVuZ3RoICgyIGJ5dGVzKSB0byBnZXQgdGhlIHBvc2l0aW9uIG9mIHRoZSBEaWdlc3RJbmZvIHNlcXVlbmNlLAogICAgICAgICAgICAvLyB3aGljaCBpcyBleHBlY3RlZCB0byBoYXZlIGEgbGVuZ3RoIG9mIDB4MzEgd2hlbiB0aGUgTlVMTCBwYXJhbSBpcyBwcmVzZW50IG9yIDB4MmYgaWYgbm90LgogICAgICAgICAgICBpZiAoYnl0ZXMxKF91bnNhZmVSZWFkQnl0ZXMzMihidWZmZXIsIGxlbmd0aCAtIDB4MzIpKSA9PSAweDMxKSB7CiAgICAgICAgICAgICAgICBvZmZzZXQgPSAweDM0OwogICAgICAgICAgICAgICAgLy8gMDAgKDEgYnl0ZSkgfCBTRVFVRU5DRSBsZW5ndGggKDB4MzEpID0gMzAzMSAoMiBieXRlcykgfCBTRVFVRU5DRSBsZW5ndGggKDB4MGQpID0gMzAwZCAoMiBieXRlcykgfCBPQkpFQ1RfSURFTlRJRklFUiBsZW5ndGggKDB4MDkpID0gMDYwOSAoMiBieXRlcykKICAgICAgICAgICAgICAgIC8vIFNIQTI1NiBPSUQgPSA2MDg2NDgwMTY1MDMwNDAyMDEgKDkgYnl0ZXMpIHwgTlVMTCA9IDA1MDAgKDIgYnl0ZXMpIChleHBsaWNpdCkgfCBPQ1RFVF9TVFJJTkcgbGVuZ3RoICgweDIwKSA9IDA0MjAgKDIgYnl0ZXMpCiAgICAgICAgICAgICAgICBwYXJhbXMgPSAweDAwMzAzMTMwMGQwNjA5NjA4NjQ4MDE2NTAzMDQwMjAxMDUwMDA0MjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA7CiAgICAgICAgICAgICAgICBtYXNrID0gMHhmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwOyAvLyAoMjAgYnl0ZXMpCiAgICAgICAgICAgIH0gZWxzZSBpZiAoYnl0ZXMxKF91bnNhZmVSZWFkQnl0ZXMzMihidWZmZXIsIGxlbmd0aCAtIDB4MzApKSA9PSAweDJGKSB7CiAgICAgICAgICAgICAgICBvZmZzZXQgPSAweDMyOwogICAgICAgICAgICAgICAgLy8gMDAgKDEgYnl0ZSkgfCBTRVFVRU5DRSBsZW5ndGggKDB4MmYpID0gMzAyZiAoMiBieXRlcykgfCBTRVFVRU5DRSBsZW5ndGggKDB4MGIpID0gMzAwYiAoMiBieXRlcykgfCBPQkpFQ1RfSURFTlRJRklFUiBsZW5ndGggKDB4MDkpID0gMDYwOSAoMiBieXRlcykKICAgICAgICAgICAgICAgIC8vIFNIQTI1NiBPSUQgPSA2MDg2NDgwMTY1MDMwNDAyMDEgKDkgYnl0ZXMpIHwgTlVMTCA9IDxpbXBsaWNpdD4gfCBPQ1RFVF9TVFJJTkcgbGVuZ3RoICgweDIwKSA9IDA0MjAgKDIgYnl0ZXMpCiAgICAgICAgICAgICAgICBwYXJhbXMgPSAweDAwMzAyZjMwMGIwNjA5NjA4NjQ4MDE2NTAzMDQwMjAxMDQyMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA7CiAgICAgICAgICAgICAgICBtYXNrID0gMHhmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmYwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwOyAvLyAoMTggYnl0ZXMpCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAvLyB1bmtub3duCiAgICAgICAgICAgICAgICByZXR1cm4gZmFsc2U7CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC8vIExlbmd0aCBpcyBhdCBsZWFzdCAweDEwMCBhbmQgb2Zmc2V0IGlzIGF0IG1vc3QgMHgzNCwgc28gdGhpcyBpcyBzYWZlLiBUaGVyZSBpcyBhbHdheXMgc29tZSBwYWRkaW5nLgogICAgICAgICAgICB1aW50MjU2IHBhZGRpbmdFbmQgPSBsZW5ndGggLSBvZmZzZXQ7CgogICAgICAgICAgICAvLyBUaGUgcGFkZGluZyBoYXMgdmFyaWFibGUgKGFyYml0cmFyeSkgbGVuZ3RoLCBzbyB3ZSBjaGVjayBpdCBieXRlIHBlciBieXRlIGluIGEgbG9vcC4KICAgICAgICAgICAgLy8gVGhpcyBpcyByZXF1aXJlZCB0byBlbnN1cmUgbm9uLW1hbGxlYWJpbGl0eS4gTm90IGNoZWNraW5nIHdvdWxkIGFsbG93IGFuIGF0dGFja2VyIHRvCiAgICAgICAgICAgIC8vIHVzZSB0aGUgcGFkZGluZyB0byBtYW5pcHVsYXRlIHRoZSBtZXNzYWdlIGluIG9yZGVyIHRvIGNyZWF0ZSBhIHZhbGlkIHNpZ25hdHVyZSBvdXQgb2YKICAgICAgICAgICAgLy8gbXVsdGlwbGUgdmFsaWQgc2lnbmF0dXJlcy4KICAgICAgICAgICAgZm9yICh1aW50MjU2IGkgPSAyOyBpIDwgcGFkZGluZ0VuZDsgKytpKSB7CiAgICAgICAgICAgICAgICBpZiAoYnl0ZXMxKF91bnNhZmVSZWFkQnl0ZXMzMihidWZmZXIsIGkpKSAhPSAweEZGKSB7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICAvLyBBbGwgdGhlIG90aGVyIHBhcmFtZXRlcnMgYXJlIHNtYWxsIGVub3VnaCB0byBmaXQgaW4gYSBieXRlczMyLCBzbyB3ZSBjYW4gY2hlY2sgdGhlbSBkaXJlY3RseS4KICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgICAgICAgICBieXRlczIoMHgwMDAxKSA9PSBieXRlczIoX3Vuc2FmZVJlYWRCeXRlczMyKGJ1ZmZlciwgMHgwMCkpICYmIC8vIDAwIHwgMDEKICAgICAgICAgICAgICAgIC8vIFBTIHdhcyBjaGVja2VkIGluIHRoZSBsb29wCiAgICAgICAgICAgICAgICBwYXJhbXMgPT0gX3Vuc2FmZVJlYWRCeXRlczMyKGJ1ZmZlciwgcGFkZGluZ0VuZCkgJiBtYXNrICYmIC8vIERpZ2VzdEluZm8KICAgICAgICAgICAgICAgIC8vIE9wdGlvbmFsIHBhcmFtZXRlcnMgYXJlIG5vdCBjaGVja2VkCiAgICAgICAgICAgICAgICBkaWdlc3QgPT0gX3Vuc2FmZVJlYWRCeXRlczMyKGJ1ZmZlciwgbGVuZ3RoIC0gMHgyMCk7IC8vIERpZ2VzdAogICAgICAgIH0KICAgIH0KCiAgICAvLy8gQGRldiBSZWFkcyBhIGJ5dGVzMzIgZnJvbSBhIGJ5dGVzIGFycmF5IHdpdGhvdXQgYm91bmRzIGNoZWNraW5nLgogICAgZnVuY3Rpb24gX3Vuc2FmZVJlYWRCeXRlczMyKGJ5dGVzIG1lbW9yeSBhcnJheSwgdWludDI1NiBvZmZzZXQpIHByaXZhdGUgcHVyZSByZXR1cm5zIChieXRlczMyIHJlc3VsdCkgewogICAgICAgIC8vIE1lbW9yeSBzYWZlbmVzcyBpcyBndWFyYW50ZWVkIGFzIGxvbmcgYXMgdGhlIHByb3ZpZGVkIGBhcnJheWAgaXMgYSBTb2xpZGl0eS1hbGxvY2F0ZWQgYnl0ZXMgYXJyYXkKICAgICAgICAvLyBhbmQgYG9mZnNldGAgaXMgd2l0aGluIGJvdW5kcy4gVGhpcyBpcyB0aGUgY2FzZSBmb3IgYWxsIGNhbGxzIHRvIHRoaXMgcHJpdmF0ZSBmdW5jdGlvbiBmcm9tIHtwa2NzMVNoYTI1Nn0uCiAgICAgICAgYXNzZW1ibHkgKCJtZW1vcnktc2FmZSIpIHsKICAgICAgICAgICAgcmVzdWx0IDo9IG1sb2FkKGFkZChhZGQoYXJyYXksIDB4MjApLCBvZmZzZXQpKQogICAgICAgIH0KICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (utils/cryptography/RSA.sol)
+pragma solidity ^0.8.20;
+
+import {Math} from "../math/Math.sol";
+
+/**
+ * @dev RSA PKCS#1 v1.5 signature verification implementation according to https://datatracker.ietf.org/doc/html/rfc8017[RFC8017].
+ *
+ * This library supports PKCS#1 v1.5 padding to avoid malleability via chosen plaintext attacks in practical implementations.
+ * The padding follows the EMSA-PKCS1-v1_5-ENCODE encoding definition as per section 9.2 of the RFC. This padding makes
+ * RSA semantically secure for signing messages.
+ *
+ * Inspired by https://github.com/adria0/SolRsaVerify/blob/79c6182cabb9102ea69d4a2e996816091d5f1cd1[Adrià Massanet's work] (GNU General Public License v3.0).
+ *
+ * _Available since v5.1._
+ */
+library RSA {
+    /**
+     * @dev Same as {pkcs1Sha256} but using SHA256 to calculate the digest of `data`.
+     */
+    function pkcs1Sha256(
+        bytes memory data,
+        bytes memory s,
+        bytes memory e,
+        bytes memory n
+    ) internal view returns (bool) {
+        return pkcs1Sha256(sha256(data), s, e, n);
+    }
+
+    /**
+     * @dev Verifies a PKCSv1.5 signature given a digest according to the verification
+     * method described in https://datatracker.ietf.org/doc/html/rfc8017#section-8.2.2[section 8.2.2 of RFC8017] with
+     * support for explicit or implicit NULL parameters in the DigestInfo (no other optional parameters are supported).
+     *
+     * IMPORTANT: For security reason, this function requires the signature and modulus to have a length of at least
+     * 2048 bits. If you use a smaller key, consider replacing it with a larger, more secure, one.
+     *
+     * WARNING: This verification algorithm doesn't prevent replayability. If called multiple times with the same
+     * digest, public key and (valid signature), it will return true every time. Consider including an onchain nonce
+     * or unique identifier in the message to prevent replay attacks.
+     *
+     * WARNING: This verification algorithm supports any exponent. NIST recommends using `65537` (or higher).
+     * That is the default value many libraries use, such as OpenSSL. Developers may choose to reject public keys
+     * using a low exponent out of security concerns.
+     *
+     * @param digest the digest to verify
+     * @param s is a buffer containing the signature
+     * @param e is the exponent of the public key
+     * @param n is the modulus of the public key
+     */
+    function pkcs1Sha256(bytes32 digest, bytes memory s, bytes memory e, bytes memory n) internal view returns (bool) {
+        unchecked {
+            // cache and check length
+            uint256 length = n.length;
+            if (
+                length < 0x100 || // Enforce 2048 bits minimum
+                length != s.length // signature must have the same length as the finite field
+            ) {
+                return false;
+            }
+
+            // Verify that s < n to ensure there's only one valid signature for a given message
+            for (uint256 i = 0; i < length; i += 0x20) {
+                uint256 p = Math.min(i, length - 0x20);
+                bytes32 sp = _unsafeReadBytes32(s, p);
+                bytes32 np = _unsafeReadBytes32(n, p);
+                if (sp < np) {
+                    // s < n in the upper bits (everything before is equal) → s < n globally: ok
+                    break;
+                } else if (sp > np || p == length - 0x20) {
+                    // s > n in the upper bits (everything before is equal) → s > n globally: fail
+                    // or
+                    // s = n and we are looking at the lower bits → s = n globally: fail
+                    return false;
+                }
+            }
+
+            // RSAVP1 https://datatracker.ietf.org/doc/html/rfc8017#section-5.2.2
+            // The previous check guarantees that n > 0. Therefore modExp cannot revert.
+            bytes memory buffer = Math.modExp(s, e, n);
+
+            // Check that buffer is well encoded:
+            // buffer ::= 0x00 | 0x01 | PS | 0x00 | DigestInfo
+            //
+            // With
+            // - PS is padding filled with 0xFF
+            // - DigestInfo ::= SEQUENCE {
+            //    digestAlgorithm AlgorithmIdentifier,
+            //      [optional algorithm parameters] -- not currently supported
+            //    digest OCTET STRING
+            // }
+
+            // Get AlgorithmIdentifier from the DigestInfo, and set the config accordingly
+            // - params: includes 00 + first part of DigestInfo
+            // - mask: filter to check the params
+            // - offset: length of the suffix (including digest)
+            bytes32 params; // 0x00 | DigestInfo
+            bytes32 mask;
+            uint256 offset;
+
+            // Digest is expected at the end of the buffer. Therefore if NULL param is present,
+            // it should be at 32 (digest) + 2 bytes from the end. To those 34 bytes, we add the
+            // OID (9 bytes) and its length (2 bytes) to get the position of the DigestInfo sequence,
+            // which is expected to have a length of 0x31 when the NULL param is present or 0x2f if not.
+            if (bytes1(_unsafeReadBytes32(buffer, length - 0x32)) == 0x31) {
+                offset = 0x34;
+                // 00 (1 byte) | SEQUENCE length (0x31) = 3031 (2 bytes) | SEQUENCE length (0x0d) = 300d (2 bytes) | OBJECT_IDENTIFIER length (0x09) = 0609 (2 bytes)
+                // SHA256 OID = 608648016503040201 (9 bytes) | NULL = 0500 (2 bytes) (explicit) | OCTET_STRING length (0x20) = 0420 (2 bytes)
+                params = 0x003031300d060960864801650304020105000420000000000000000000000000;
+                mask = 0xffffffffffffffffffffffffffffffffffffffff000000000000000000000000; // (20 bytes)
+            } else if (bytes1(_unsafeReadBytes32(buffer, length - 0x30)) == 0x2F) {
+                offset = 0x32;
+                // 00 (1 byte) | SEQUENCE length (0x2f) = 302f (2 bytes) | SEQUENCE length (0x0b) = 300b (2 bytes) | OBJECT_IDENTIFIER length (0x09) = 0609 (2 bytes)
+                // SHA256 OID = 608648016503040201 (9 bytes) | NULL = <implicit> | OCTET_STRING length (0x20) = 0420 (2 bytes)
+                params = 0x00302f300b060960864801650304020104200000000000000000000000000000;
+                mask = 0xffffffffffffffffffffffffffffffffffff0000000000000000000000000000; // (18 bytes)
+            } else {
+                // unknown
+                return false;
+            }
+
+            // Length is at least 0x100 and offset is at most 0x34, so this is safe. There is always some padding.
+            uint256 paddingEnd = length - offset;
+
+            // The padding has variable (arbitrary) length, so we check it byte per byte in a loop.
+            // This is required to ensure non-malleability. Not checking would allow an attacker to
+            // use the padding to manipulate the message in order to create a valid signature out of
+            // multiple valid signatures.
+            for (uint256 i = 2; i < paddingEnd; ++i) {
+                if (bytes1(_unsafeReadBytes32(buffer, i)) != 0xFF) {
+                    return false;
+                }
+            }
+
+            // All the other parameters are small enough to fit in a bytes32, so we can check them directly.
+            return
+                bytes2(0x0001) == bytes2(_unsafeReadBytes32(buffer, 0x00)) && // 00 | 01
+                // PS was checked in the loop
+                params == _unsafeReadBytes32(buffer, paddingEnd) & mask && // DigestInfo
+                // Optional parameters are not checked
+                digest == _unsafeReadBytes32(buffer, length - 0x20); // Digest
+        }
+    }
+
+    /// @dev Reads a bytes32 from a bytes array without bounds checking.
+    function _unsafeReadBytes32(bytes memory array, uint256 offset) private pure returns (bytes32 result) {
+        // Memory safeness is guaranteed as long as the provided `array` is a Solidity-allocated bytes array
+        // and `offset` is within bounds. This is the case for all calls to this private function from {pkcs1Sha256}.
+        assembly ("memory-safe") {
+            result := mload(add(add(array, 0x20), offset))
+        }
+    }
+}
