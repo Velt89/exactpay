@@ -1,1 +1,21 @@
-Ly8gY29udHJhY3RzL0dhbWVJdGVtcy5zb2wKLy8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7RVJDMTE1NX0gZnJvbSAiLi4vLi4vLi4vLi4vdG9rZW4vRVJDMTE1NS9FUkMxMTU1LnNvbCI7Cgpjb250cmFjdCBHYW1lSXRlbXMgaXMgRVJDMTE1NSB7CiAgICB1aW50MjU2IHB1YmxpYyBjb25zdGFudCBHT0xEID0gMDsKICAgIHVpbnQyNTYgcHVibGljIGNvbnN0YW50IFNJTFZFUiA9IDE7CiAgICB1aW50MjU2IHB1YmxpYyBjb25zdGFudCBUSE9SU19IQU1NRVIgPSAyOwogICAgdWludDI1NiBwdWJsaWMgY29uc3RhbnQgU1dPUkQgPSAzOwogICAgdWludDI1NiBwdWJsaWMgY29uc3RhbnQgU0hJRUxEID0gNDsKCiAgICBjb25zdHJ1Y3RvcigpIEVSQzExNTUoImh0dHBzOi8vZ2FtZS5leGFtcGxlL2FwaS9pdGVtL3tpZH0uanNvbiIpIHsKICAgICAgICBfbWludChtc2cuc2VuZGVyLCBHT0xELCAxMCAqKiAxOCwgIiIpOwogICAgICAgIF9taW50KG1zZy5zZW5kZXIsIFNJTFZFUiwgMTAgKiogMjcsICIiKTsKICAgICAgICBfbWludChtc2cuc2VuZGVyLCBUSE9SU19IQU1NRVIsIDEsICIiKTsKICAgICAgICBfbWludChtc2cuc2VuZGVyLCBTV09SRCwgMTAgKiogOSwgIiIpOwogICAgICAgIF9taW50KG1zZy5zZW5kZXIsIFNISUVMRCwgMTAgKiogOSwgIiIpOwogICAgfQp9Cg==
+// contracts/GameItems.sol
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+import {ERC1155} from "../../../../token/ERC1155/ERC1155.sol";
+
+contract GameItems is ERC1155 {
+    uint256 public constant GOLD = 0;
+    uint256 public constant SILVER = 1;
+    uint256 public constant THORS_HAMMER = 2;
+    uint256 public constant SWORD = 3;
+    uint256 public constant SHIELD = 4;
+
+    constructor() ERC1155("https://game.example/api/item/{id}.json") {
+        _mint(msg.sender, GOLD, 10 ** 18, "");
+        _mint(msg.sender, SILVER, 10 ** 27, "");
+        _mint(msg.sender, THORS_HAMMER, 1, "");
+        _mint(msg.sender, SWORD, 10 ** 9, "");
+        _mint(msg.sender, SHIELD, 10 ** 9, "");
+    }
+}
