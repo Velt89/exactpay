@@ -1,1 +1,14 @@
-YWxsOjsgZGFwcCBidWlsZAoKdGVzdDoKCS1kYXBwIC0tdXNlIHNvbGM6MC40LjIzIGJ1aWxkCgktZGFwcCAtLXVzZSBzb2xjOjAuNC4yNiBidWlsZAoJLWRhcHAgLS11c2Ugc29sYzowLjUuMTcgYnVpbGQKCS1kYXBwIC0tdXNlIHNvbGM6MC42LjEyIGJ1aWxkCgktZGFwcCAtLXVzZSBzb2xjOjAuNy41ICBidWlsZAoKZGVtbzoKCURBUFBfU1JDPWRlbW8gZGFwcCAtLXVzZSBzb2xjOjAuNy41IGJ1aWxkCgktaGV2bSBkYXBwLXRlc3QgLS12ZXJib3NlIDMKCi5QSE9OWTogdGVzdCBkZW1vCg==
+all:; dapp build
+
+test:
+	-dapp --use solc:0.4.23 build
+	-dapp --use solc:0.4.26 build
+	-dapp --use solc:0.5.17 build
+	-dapp --use solc:0.6.12 build
+	-dapp --use solc:0.7.5  build
+
+demo:
+	DAPP_SRC=demo dapp --use solc:0.7.5 build
+	-hevm dapp-test --verbose 3
+
+.PHONY: test demo
