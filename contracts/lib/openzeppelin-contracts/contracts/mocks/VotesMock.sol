@@ -1,1 +1,42 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge1ZvdGVzfSBmcm9tICIuLi9nb3Zlcm5hbmNlL3V0aWxzL1ZvdGVzLnNvbCI7CgphYnN0cmFjdCBjb250cmFjdCBWb3Rlc01vY2sgaXMgVm90ZXMgewogICAgbWFwcGluZyhhZGRyZXNzIHZvdGVyID0+IHVpbnQyNTYpIHByaXZhdGUgX3ZvdGluZ1VuaXRzOwoKICAgIGZ1bmN0aW9uIGdldFRvdGFsU3VwcGx5KCkgcHVibGljIHZpZXcgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHJldHVybiBfZ2V0VG90YWxTdXBwbHkoKTsKICAgIH0KCiAgICBmdW5jdGlvbiBkZWxlZ2F0ZShhZGRyZXNzIGFjY291bnQsIGFkZHJlc3MgbmV3RGVsZWdhdGlvbikgcHVibGljIHsKICAgICAgICByZXR1cm4gX2RlbGVnYXRlKGFjY291bnQsIG5ld0RlbGVnYXRpb24pOwogICAgfQoKICAgIGZ1bmN0aW9uIF9nZXRWb3RpbmdVbml0cyhhZGRyZXNzIGFjY291bnQpIGludGVybmFsIHZpZXcgb3ZlcnJpZGUgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHJldHVybiBfdm90aW5nVW5pdHNbYWNjb3VudF07CiAgICB9CgogICAgZnVuY3Rpb24gX21pbnQoYWRkcmVzcyBhY2NvdW50LCB1aW50MjU2IHZvdGVzKSBpbnRlcm5hbCB7CiAgICAgICAgX3ZvdGluZ1VuaXRzW2FjY291bnRdICs9IHZvdGVzOwogICAgICAgIF90cmFuc2ZlclZvdGluZ1VuaXRzKGFkZHJlc3MoMCksIGFjY291bnQsIHZvdGVzKTsKICAgIH0KCiAgICBmdW5jdGlvbiBfYnVybihhZGRyZXNzIGFjY291bnQsIHVpbnQyNTYgdm90ZXMpIGludGVybmFsIHsKICAgICAgICBfdm90aW5nVW5pdHNbYWNjb3VudF0gKz0gdm90ZXM7CiAgICAgICAgX3RyYW5zZmVyVm90aW5nVW5pdHMoYWNjb3VudCwgYWRkcmVzcygwKSwgdm90ZXMpOwogICAgfQp9CgphYnN0cmFjdCBjb250cmFjdCBWb3Rlc1RpbWVzdGFtcE1vY2sgaXMgVm90ZXNNb2NrIHsKICAgIGZ1bmN0aW9uIGNsb2NrKCkgcHVibGljIHZpZXcgb3ZlcnJpZGUgcmV0dXJucyAodWludDQ4KSB7CiAgICAgICAgcmV0dXJuIHVpbnQ0OChibG9jay50aW1lc3RhbXApOwogICAgfQoKICAgIC8vIHNvbGhpbnQtZGlzYWJsZS1uZXh0LWxpbmUgZnVuYy1uYW1lLW1peGVkY2FzZQogICAgZnVuY3Rpb24gQ0xPQ0tfTU9ERSgpIHB1YmxpYyB2aWV3IHZpcnR1YWwgb3ZlcnJpZGUgcmV0dXJucyAoc3RyaW5nIG1lbW9yeSkgewogICAgICAgIHJldHVybiAibW9kZT10aW1lc3RhbXAiOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {Votes} from "../governance/utils/Votes.sol";
+
+abstract contract VotesMock is Votes {
+    mapping(address voter => uint256) private _votingUnits;
+
+    function getTotalSupply() public view returns (uint256) {
+        return _getTotalSupply();
+    }
+
+    function delegate(address account, address newDelegation) public {
+        return _delegate(account, newDelegation);
+    }
+
+    function _getVotingUnits(address account) internal view override returns (uint256) {
+        return _votingUnits[account];
+    }
+
+    function _mint(address account, uint256 votes) internal {
+        _votingUnits[account] += votes;
+        _transferVotingUnits(address(0), account, votes);
+    }
+
+    function _burn(address account, uint256 votes) internal {
+        _votingUnits[account] += votes;
+        _transferVotingUnits(account, address(0), votes);
+    }
+}
+
+abstract contract VotesTimestampMock is VotesMock {
+    function clock() public view override returns (uint48) {
+        return uint48(block.timestamp);
+    }
+
+    // solhint-disable-next-line func-name-mixedcase
+    function CLOCK_MODE() public view virtual override returns (string memory) {
+        return "mode=timestamp";
+    }
+}
