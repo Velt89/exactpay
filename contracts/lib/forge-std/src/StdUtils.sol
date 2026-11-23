@@ -1,1 +1,209 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgPj0wLjYuMiA8MC45LjA7CgpwcmFnbWEgZXhwZXJpbWVudGFsIEFCSUVuY29kZXJWMjsKCmltcG9ydCB7SU11bHRpY2FsbDN9IGZyb20gIi4vaW50ZXJmYWNlcy9JTXVsdGljYWxsMy5zb2wiOwppbXBvcnQge1ZtU2FmZX0gZnJvbSAiLi9WbS5zb2wiOwoKYWJzdHJhY3QgY29udHJhY3QgU3RkVXRpbHMgewogICAgLyovLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQ09OU1RBTlRTCiAgICAvLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLyovCgogICAgSU11bHRpY2FsbDMgcHJpdmF0ZSBjb25zdGFudCBtdWx0aWNhbGwgPSBJTXVsdGljYWxsMygweGNBMTFiZGUwNTk3N2IzNjMxMTY3MDI4ODYyYkUyYTE3Mzk3NkNBMTEpOwogICAgVm1TYWZlIHByaXZhdGUgY29uc3RhbnQgdm0gPSBWbVNhZmUoYWRkcmVzcyh1aW50MTYwKHVpbnQyNTYoa2VjY2FrMjU2KCJoZXZtIGNoZWF0IGNvZGUiKSkpKSk7CiAgICBhZGRyZXNzIHByaXZhdGUgY29uc3RhbnQgQ09OU09MRTJfQUREUkVTUyA9IDB4MDAwMDAwMDAwMDAwMDAwMDAwNjM2RjZlNzM2RjZjNjUyZTZjNmY2NzsKICAgIHVpbnQyNTYgcHJpdmF0ZSBjb25zdGFudCBJTlQyNTZfTUlOX0FCUyA9CiAgICAgICAgNTc4OTYwNDQ2MTg2NTgwOTc3MTE3ODU0OTI1MDQzNDM5NTM5MjY2MzQ5OTIzMzI4MjAyODIwMTk3Mjg3OTIwMDM5NTY1NjQ4MTk5Njg7CiAgICB1aW50MjU2IHByaXZhdGUgY29uc3RhbnQgU0VDUDI1NksxX09SREVSID0KICAgICAgICAxMTU3OTIwODkyMzczMTYxOTU0MjM1NzA5ODUwMDg2ODc5MDc4NTI4Mzc1NjQyNzkwNzQ5MDQzODI2MDUxNjMxNDE1MTgxNjE0OTQzMzc7CiAgICB1aW50MjU2IHByaXZhdGUgY29uc3RhbnQgVUlOVDI1Nl9NQVggPQogICAgICAgIDExNTc5MjA4OTIzNzMxNjE5NTQyMzU3MDk4NTAwODY4NzkwNzg1MzI2OTk4NDY2NTY0MDU2NDAzOTQ1NzU4NDAwNzkxMzEyOTYzOTkzNTsKCiAgICAvLyBVc2VkIGJ5IGRlZmF1bHQgd2hlbiBkZXBsb3lpbmcgd2l0aCBjcmVhdGUyLCBodHRwczovL2dpdGh1Yi5jb20vQXJhY2huaWQvZGV0ZXJtaW5pc3RpYy1kZXBsb3ltZW50LXByb3h5LgogICAgYWRkcmVzcyBwcml2YXRlIGNvbnN0YW50IENSRUFURTJfRkFDVE9SWSA9IDB4NGU1OWI0NDg0N2IzNzk1Nzg1ODg5MjBjQTc4RmJGMjZjMEI0OTU2QzsKCiAgICAvKi8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIElOVEVSTkFMIEZVTkNUSU9OUwogICAgLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8qLwoKICAgIGZ1bmN0aW9uIF9ib3VuZCh1aW50MjU2IHgsIHVpbnQyNTYgbWluLCB1aW50MjU2IG1heCkgaW50ZXJuYWwgcHVyZSB2aXJ0dWFsIHJldHVybnMgKHVpbnQyNTYgcmVzdWx0KSB7CiAgICAgICAgcmVxdWlyZShtaW4gPD0gbWF4LCAiU3RkVXRpbHMgYm91bmQodWludDI1Nix1aW50MjU2LHVpbnQyNTYpOiBNYXggaXMgbGVzcyB0aGFuIG1pbi4iKTsKICAgICAgICAvLyBJZiB4IGlzIGJldHdlZW4gbWluIGFuZCBtYXgsIHJldHVybiB4IGRpcmVjdGx5LiBUaGlzIGlzIHRvIGVuc3VyZSB0aGF0IGRpY3Rpb25hcnkgdmFsdWVzCiAgICAgICAgLy8gZG8gbm90IGdldCBzaGlmdGVkIGlmIHRoZSBtaW4gaXMgbm9uemVyby4gTW9yZSBpbmZvOiBodHRwczovL2dpdGh1Yi5jb20vZm91bmRyeS1ycy9mb3JnZS1zdGQvaXNzdWVzLzE4OAogICAgICAgIGlmICh4ID49IG1pbiAmJiB4IDw9IG1heCkgcmV0dXJuIHg7CgogICAgICAgIHVpbnQyNTYgc2l6ZSA9IG1heCAtIG1pbiArIDE7CgogICAgICAgIC8vIElmIHRoZSB2YWx1ZSBpcyAwLCAxLCAyLCAzLCB3cmFwIHRoYXQgdG8gbWluLCBtaW4rMSwgbWluKzIsIG1pbiszLiBTaW1pbGFybHkgZm9yIHRoZSBVSU5UMjU2X01BWCBzaWRlLgogICAgICAgIC8vIFRoaXMgaGVscHMgZW5zdXJlIGNvdmVyYWdlIG9mIHRoZSBtaW4vbWF4IHZhbHVlcy4KICAgICAgICBpZiAoeCA8PSAzICYmIHNpemUgPiB4KSByZXR1cm4gbWluICsgeDsKICAgICAgICBpZiAoeCA+PSBVSU5UMjU2X01BWCAtIDMgJiYgc2l6ZSA+IFVJTlQyNTZfTUFYIC0geCkgcmV0dXJuIG1heCAtIChVSU5UMjU2X01BWCAtIHgpOwoKICAgICAgICAvLyBPdGhlcndpc2UsIHdyYXAgeCBpbnRvIHRoZSByYW5nZSBbbWluLCBtYXhdLCBpLmUuIHRoZSByYW5nZSBpcyBpbmNsdXNpdmUuCiAgICAgICAgaWYgKHggPiBtYXgpIHsKICAgICAgICAgICAgdWludDI1NiBkaWZmID0geCAtIG1heDsKICAgICAgICAgICAgdWludDI1NiByZW0gPSBkaWZmICUgc2l6ZTsKICAgICAgICAgICAgaWYgKHJlbSA9PSAwKSByZXR1cm4gbWF4OwogICAgICAgICAgICByZXN1bHQgPSBtaW4gKyByZW0gLSAxOwogICAgICAgIH0gZWxzZSBpZiAoeCA8IG1pbikgewogICAgICAgICAgICB1aW50MjU2IGRpZmYgPSBtaW4gLSB4OwogICAgICAgICAgICB1aW50MjU2IHJlbSA9IGRpZmYgJSBzaXplOwogICAgICAgICAgICBpZiAocmVtID09IDApIHJldHVybiBtaW47CiAgICAgICAgICAgIHJlc3VsdCA9IG1heCAtIHJlbSArIDE7CiAgICAgICAgfQogICAgfQoKICAgIGZ1bmN0aW9uIGJvdW5kKHVpbnQyNTYgeCwgdWludDI1NiBtaW4sIHVpbnQyNTYgbWF4KSBpbnRlcm5hbCBwdXJlIHZpcnR1YWwgcmV0dXJucyAodWludDI1NiByZXN1bHQpIHsKICAgICAgICByZXN1bHQgPSBfYm91bmQoeCwgbWluLCBtYXgpOwogICAgICAgIGNvbnNvbGUyX2xvZ19TdGRVdGlscygiQm91bmQgcmVzdWx0IiwgcmVzdWx0KTsKICAgIH0KCiAgICBmdW5jdGlvbiBfYm91bmQoaW50MjU2IHgsIGludDI1NiBtaW4sIGludDI1NiBtYXgpIGludGVybmFsIHB1cmUgdmlydHVhbCByZXR1cm5zIChpbnQyNTYgcmVzdWx0KSB7CiAgICAgICAgcmVxdWlyZShtaW4gPD0gbWF4LCAiU3RkVXRpbHMgYm91bmQoaW50MjU2LGludDI1NixpbnQyNTYpOiBNYXggaXMgbGVzcyB0aGFuIG1pbi4iKTsKCiAgICAgICAgLy8gU2hpZnRpbmcgYWxsIGludDI1NiB2YWx1ZXMgdG8gdWludDI1NiB0byB1c2UgX2JvdW5kIGZ1bmN0aW9uLiBUaGUgcmFuZ2Ugb2YgdHdvIHR5cGVzIGFyZToKICAgICAgICAvLyBpbnQyNTYgOiAtKDIqKjI1NSkgfiAoMioqMjU1IC0gMSkKICAgICAgICAvLyB1aW50MjU2OiAgICAgMCAgICAgfiAoMioqMjU2IC0gMSkKICAgICAgICAvLyBTbywgYWRkIDIqKjI1NSwgSU5UMjU2X01JTl9BQlMgdG8gdGhlIGludGVnZXIgdmFsdWVzLgogICAgICAgIC8vCiAgICAgICAgLy8gSWYgdGhlIGdpdmVuIGludGVnZXIgdmFsdWUgaXMgLTIqKjI1NSwgd2UgY2Fubm90IHVzZSBgLXVpbnQyNTYoLXgpYCBiZWNhdXNlIG9mIHRoZSBvdmVyZmxvdy4KICAgICAgICAvLyBTbywgdXNlIGB+dWludDI1Nih4KSArIDFgIGluc3RlYWQuCiAgICAgICAgdWludDI1NiBfeCA9IHggPCAwID8gKElOVDI1Nl9NSU5fQUJTIC0gfnVpbnQyNTYoeCkgLSAxKSA6ICh1aW50MjU2KHgpICsgSU5UMjU2X01JTl9BQlMpOwogICAgICAgIHVpbnQyNTYgX21pbiA9IG1pbiA8IDAgPyAoSU5UMjU2X01JTl9BQlMgLSB+dWludDI1NihtaW4pIC0gMSkgOiAodWludDI1NihtaW4pICsgSU5UMjU2X01JTl9BQlMpOwogICAgICAgIHVpbnQyNTYgX21heCA9IG1heCA8IDAgPyAoSU5UMjU2X01JTl9BQlMgLSB+dWludDI1NihtYXgpIC0gMSkgOiAodWludDI1NihtYXgpICsgSU5UMjU2X01JTl9BQlMpOwoKICAgICAgICB1aW50MjU2IHkgPSBfYm91bmQoX3gsIF9taW4sIF9tYXgpOwoKICAgICAgICAvLyBUbyBtb3ZlIGl0IGJhY2sgdG8gaW50MjU2IHZhbHVlLCBzdWJ0cmFjdCBJTlQyNTZfTUlOX0FCUyBhdCBoZXJlLgogICAgICAgIHJlc3VsdCA9IHkgPCBJTlQyNTZfTUlOX0FCUyA/IGludDI1Nih+KElOVDI1Nl9NSU5fQUJTIC0geSkgKyAxKSA6IGludDI1Nih5IC0gSU5UMjU2X01JTl9BQlMpOwogICAgfQoKICAgIGZ1bmN0aW9uIGJvdW5kKGludDI1NiB4LCBpbnQyNTYgbWluLCBpbnQyNTYgbWF4KSBpbnRlcm5hbCBwdXJlIHZpcnR1YWwgcmV0dXJucyAoaW50MjU2IHJlc3VsdCkgewogICAgICAgIHJlc3VsdCA9IF9ib3VuZCh4LCBtaW4sIG1heCk7CiAgICAgICAgY29uc29sZTJfbG9nX1N0ZFV0aWxzKCJCb3VuZCByZXN1bHQiLCB2bS50b1N0cmluZyhyZXN1bHQpKTsKICAgIH0KCiAgICBmdW5jdGlvbiBib3VuZFByaXZhdGVLZXkodWludDI1NiBwcml2YXRlS2V5KSBpbnRlcm5hbCBwdXJlIHZpcnR1YWwgcmV0dXJucyAodWludDI1NiByZXN1bHQpIHsKICAgICAgICByZXN1bHQgPSBfYm91bmQocHJpdmF0ZUtleSwgMSwgU0VDUDI1NksxX09SREVSIC0gMSk7CiAgICB9CgogICAgZnVuY3Rpb24gYnl0ZXNUb1VpbnQoYnl0ZXMgbWVtb3J5IGIpIGludGVybmFsIHB1cmUgdmlydHVhbCByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgcmVxdWlyZShiLmxlbmd0aCA8PSAzMiwgIlN0ZFV0aWxzIGJ5dGVzVG9VaW50KGJ5dGVzKTogQnl0ZXMgbGVuZ3RoIGV4Y2VlZHMgMzIuIik7CiAgICAgICAgcmV0dXJuIGFiaS5kZWNvZGUoYWJpLmVuY29kZVBhY2tlZChuZXcgYnl0ZXMoMzIgLSBiLmxlbmd0aCksIGIpLCAodWludDI1NikpOwogICAgfQoKICAgIC8vLyBAZGV2IENvbXB1dGUgdGhlIGFkZHJlc3MgYSBjb250cmFjdCB3aWxsIGJlIGRlcGxveWVkIGF0IGZvciBhIGdpdmVuIGRlcGxveWVyIGFkZHJlc3MgYW5kIG5vbmNlCiAgICAvLy8gQG5vdGljZSBhZGFwdGVkIGZyb20gU29sbWF0ZSBpbXBsZW1lbnRhdGlvbiAoaHR0cHM6Ly9naXRodWIuY29tL1JhcmktQ2FwaXRhbC9zb2xtYXRlL2Jsb2IvbWFpbi9zcmMvdXRpbHMvTGliUkxQLnNvbCkKICAgIGZ1bmN0aW9uIGNvbXB1dGVDcmVhdGVBZGRyZXNzKGFkZHJlc3MgZGVwbG95ZXIsIHVpbnQyNTYgbm9uY2UpIGludGVybmFsIHB1cmUgdmlydHVhbCByZXR1cm5zIChhZGRyZXNzKSB7CiAgICAgICAgY29uc29sZTJfbG9nX1N0ZFV0aWxzKCJjb21wdXRlQ3JlYXRlQWRkcmVzcyBpcyBkZXByZWNhdGVkLiBQbGVhc2UgdXNlIHZtLmNvbXB1dGVDcmVhdGVBZGRyZXNzIGluc3RlYWQuIik7CiAgICAgICAgcmV0dXJuIHZtLmNvbXB1dGVDcmVhdGVBZGRyZXNzKGRlcGxveWVyLCBub25jZSk7CiAgICB9CgogICAgZnVuY3Rpb24gY29tcHV0ZUNyZWF0ZTJBZGRyZXNzKGJ5dGVzMzIgc2FsdCwgYnl0ZXMzMiBpbml0Y29kZUhhc2gsIGFkZHJlc3MgZGVwbG95ZXIpCiAgICAgICAgaW50ZXJuYWwKICAgICAgICBwdXJlCiAgICAgICAgdmlydHVhbAogICAgICAgIHJldHVybnMgKGFkZHJlc3MpCiAgICB7CiAgICAgICAgY29uc29sZTJfbG9nX1N0ZFV0aWxzKCJjb21wdXRlQ3JlYXRlMkFkZHJlc3MgaXMgZGVwcmVjYXRlZC4gUGxlYXNlIHVzZSB2bS5jb21wdXRlQ3JlYXRlMkFkZHJlc3MgaW5zdGVhZC4iKTsKICAgICAgICByZXR1cm4gdm0uY29tcHV0ZUNyZWF0ZTJBZGRyZXNzKHNhbHQsIGluaXRjb2RlSGFzaCwgZGVwbG95ZXIpOwogICAgfQoKICAgIC8vLyBAZGV2IHJldHVybnMgdGhlIGFkZHJlc3Mgb2YgYSBjb250cmFjdCBjcmVhdGVkIHdpdGggQ1JFQVRFMiB1c2luZyB0aGUgZGVmYXVsdCBDUkVBVEUyIGRlcGxveWVyCiAgICBmdW5jdGlvbiBjb21wdXRlQ3JlYXRlMkFkZHJlc3MoYnl0ZXMzMiBzYWx0LCBieXRlczMyIGluaXRDb2RlSGFzaCkgaW50ZXJuYWwgcHVyZSByZXR1cm5zIChhZGRyZXNzKSB7CiAgICAgICAgY29uc29sZTJfbG9nX1N0ZFV0aWxzKCJjb21wdXRlQ3JlYXRlMkFkZHJlc3MgaXMgZGVwcmVjYXRlZC4gUGxlYXNlIHVzZSB2bS5jb21wdXRlQ3JlYXRlMkFkZHJlc3MgaW5zdGVhZC4iKTsKICAgICAgICByZXR1cm4gdm0uY29tcHV0ZUNyZWF0ZTJBZGRyZXNzKHNhbHQsIGluaXRDb2RlSGFzaCk7CiAgICB9CgogICAgLy8vIEBkZXYgcmV0dXJucyB0aGUgaGFzaCBvZiB0aGUgaW5pdCBjb2RlIChjcmVhdGlvbiBjb2RlICsgbm8gYXJncykgdXNlZCBpbiBDUkVBVEUyIHdpdGggbm8gY29uc3RydWN0b3IgYXJndW1lbnRzCiAgICAvLy8gQHBhcmFtIGNyZWF0aW9uQ29kZSB0aGUgY3JlYXRpb24gY29kZSBvZiBhIGNvbnRyYWN0IEMsIGFzIHJldHVybmVkIGJ5IHR5cGUoQykuY3JlYXRpb25Db2RlCiAgICBmdW5jdGlvbiBoYXNoSW5pdENvZGUoYnl0ZXMgbWVtb3J5IGNyZWF0aW9uQ29kZSkgaW50ZXJuYWwgcHVyZSByZXR1cm5zIChieXRlczMyKSB7CiAgICAgICAgcmV0dXJuIGhhc2hJbml0Q29kZShjcmVhdGlvbkNvZGUsICIiKTsKICAgIH0KCiAgICAvLy8gQGRldiByZXR1cm5zIHRoZSBoYXNoIG9mIHRoZSBpbml0IGNvZGUgKGNyZWF0aW9uIGNvZGUgKyBBQkktZW5jb2RlZCBhcmdzKSB1c2VkIGluIENSRUFURTIKICAgIC8vLyBAcGFyYW0gY3JlYXRpb25Db2RlIHRoZSBjcmVhdGlvbiBjb2RlIG9mIGEgY29udHJhY3QgQywgYXMgcmV0dXJuZWQgYnkgdHlwZShDKS5jcmVhdGlvbkNvZGUKICAgIC8vLyBAcGFyYW0gYXJncyB0aGUgQUJJLWVuY29kZWQgYXJndW1lbnRzIHRvIHRoZSBjb25zdHJ1Y3RvciBvZiBDCiAgICBmdW5jdGlvbiBoYXNoSW5pdENvZGUoYnl0ZXMgbWVtb3J5IGNyZWF0aW9uQ29kZSwgYnl0ZXMgbWVtb3J5IGFyZ3MpIGludGVybmFsIHB1cmUgcmV0dXJucyAoYnl0ZXMzMikgewogICAgICAgIHJldHVybiBrZWNjYWsyNTYoYWJpLmVuY29kZVBhY2tlZChjcmVhdGlvbkNvZGUsIGFyZ3MpKTsKICAgIH0KCiAgICAvLyBQZXJmb3JtcyBhIHNpbmdsZSBjYWxsIHdpdGggTXVsdGljYWxsMyB0byBxdWVyeSB0aGUgRVJDLTIwIHRva2VuIGJhbGFuY2VzIG9mIHRoZSBnaXZlbiBhZGRyZXNzZXMuCiAgICBmdW5jdGlvbiBnZXRUb2tlbkJhbGFuY2VzKGFkZHJlc3MgdG9rZW4sIGFkZHJlc3NbXSBtZW1vcnkgYWRkcmVzc2VzKQogICAgICAgIGludGVybmFsCiAgICAgICAgdmlydHVhbAogICAgICAgIHJldHVybnMgKHVpbnQyNTZbXSBtZW1vcnkgYmFsYW5jZXMpCiAgICB7CiAgICAgICAgdWludDI1NiB0b2tlbkNvZGVTaXplOwogICAgICAgIGFzc2VtYmx5IHsKICAgICAgICAgICAgdG9rZW5Db2RlU2l6ZSA6PSBleHRjb2Rlc2l6ZSh0b2tlbikKICAgICAgICB9CiAgICAgICAgcmVxdWlyZSh0b2tlbkNvZGVTaXplID4gMCwgIlN0ZFV0aWxzIGdldFRva2VuQmFsYW5jZXMoYWRkcmVzcyxhZGRyZXNzW10pOiBUb2tlbiBhZGRyZXNzIGlzIG5vdCBhIGNvbnRyYWN0LiIpOwoKICAgICAgICAvLyBBQkkgZW5jb2RlIHRoZSBhZ2dyZWdhdGUgY2FsbCB0byBNdWx0aWNhbGwzLgogICAgICAgIHVpbnQyNTYgbGVuZ3RoID0gYWRkcmVzc2VzLmxlbmd0aDsKICAgICAgICBJTXVsdGljYWxsMy5DYWxsW10gbWVtb3J5IGNhbGxzID0gbmV3IElNdWx0aWNhbGwzLkNhbGxbXShsZW5ndGgpOwogICAgICAgIGZvciAodWludDI1NiBpID0gMDsgaSA8IGxlbmd0aDsgKytpKSB7CiAgICAgICAgICAgIC8vIDB4NzBhMDgyMzEgPSBieXRlczQoImJhbGFuY2VPZihhZGRyZXNzKSIpKQogICAgICAgICAgICBjYWxsc1tpXSA9IElNdWx0aWNhbGwzLkNhbGwoe3RhcmdldDogdG9rZW4sIGNhbGxEYXRhOiBhYmkuZW5jb2RlV2l0aFNlbGVjdG9yKDB4NzBhMDgyMzEsIChhZGRyZXNzZXNbaV0pKX0pOwogICAgICAgIH0KCiAgICAgICAgLy8gTWFrZSB0aGUgYWdncmVnYXRlIGNhbGwuCiAgICAgICAgKCwgYnl0ZXNbXSBtZW1vcnkgcmV0dXJuRGF0YSkgPSBtdWx0aWNhbGwuYWdncmVnYXRlKGNhbGxzKTsKCiAgICAgICAgLy8gQUJJIGRlY29kZSB0aGUgcmV0dXJuIGRhdGEgYW5kIHJldHVybiB0aGUgYmFsYW5jZXMuCiAgICAgICAgYmFsYW5jZXMgPSBuZXcgdWludDI1NltdKGxlbmd0aCk7CiAgICAgICAgZm9yICh1aW50MjU2IGkgPSAwOyBpIDwgbGVuZ3RoOyArK2kpIHsKICAgICAgICAgICAgYmFsYW5jZXNbaV0gPSBhYmkuZGVjb2RlKHJldHVybkRhdGFbaV0sICh1aW50MjU2KSk7CiAgICAgICAgfQogICAgfQoKICAgIC8qLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgUFJJVkFURSBGVU5DVElPTlMKICAgIC8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vKi8KCiAgICBmdW5jdGlvbiBhZGRyZXNzRnJvbUxhc3QyMEJ5dGVzKGJ5dGVzMzIgYnl0ZXNWYWx1ZSkgcHJpdmF0ZSBwdXJlIHJldHVybnMgKGFkZHJlc3MpIHsKICAgICAgICByZXR1cm4gYWRkcmVzcyh1aW50MTYwKHVpbnQyNTYoYnl0ZXNWYWx1ZSkpKTsKICAgIH0KCiAgICAvLyBUaGlzIHNlY3Rpb24gaXMgdXNlZCB0byBwcmV2ZW50IHRoZSBjb21waWxhdGlvbiBvZiBjb25zb2xlLCB3aGljaCBzaG9ydGVucyB0aGUgY29tcGlsYXRpb24gdGltZSB3aGVuIGNvbnNvbGUgaXMKICAgIC8vIG5vdCB1c2VkIGVsc2V3aGVyZS4gV2UgYWxzbyB0cmljayB0aGUgY29tcGlsZXIgaW50byBsZXR0aW5nIHVzIG1ha2UgdGhlIGNvbnNvbGUgbG9nIG1ldGhvZHMgYXMgYHB1cmVgIHRvIGF2b2lkCiAgICAvLyBhbnkgYnJlYWtpbmcgY2hhbmdlcyB0byBmdW5jdGlvbiBzaWduYXR1cmVzLgogICAgZnVuY3Rpb24gX2Nhc3RMb2dQYXlsb2FkVmlld1RvUHVyZShmdW5jdGlvbihieXRlcyBtZW1vcnkpIGludGVybmFsIHZpZXcgZm5JbikKICAgICAgICBpbnRlcm5hbAogICAgICAgIHB1cmUKICAgICAgICByZXR1cm5zIChmdW5jdGlvbihieXRlcyBtZW1vcnkpIGludGVybmFsIHB1cmUgZm5PdXQpCiAgICB7CiAgICAgICAgYXNzZW1ibHkgewogICAgICAgICAgICBmbk91dCA6PSBmbkluCiAgICAgICAgfQogICAgfQoKICAgIGZ1bmN0aW9uIF9zZW5kTG9nUGF5bG9hZChieXRlcyBtZW1vcnkgcGF5bG9hZCkgaW50ZXJuYWwgcHVyZSB7CiAgICAgICAgX2Nhc3RMb2dQYXlsb2FkVmlld1RvUHVyZShfc2VuZExvZ1BheWxvYWRWaWV3KShwYXlsb2FkKTsKICAgIH0KCiAgICBmdW5jdGlvbiBfc2VuZExvZ1BheWxvYWRWaWV3KGJ5dGVzIG1lbW9yeSBwYXlsb2FkKSBwcml2YXRlIHZpZXcgewogICAgICAgIHVpbnQyNTYgcGF5bG9hZExlbmd0aCA9IHBheWxvYWQubGVuZ3RoOwogICAgICAgIGFkZHJlc3MgY29uc29sZUFkZHJlc3MgPSBDT05TT0xFMl9BRERSRVNTOwogICAgICAgIC8vLyBAc29saWRpdHkgbWVtb3J5LXNhZmUtYXNzZW1ibHkKICAgICAgICBhc3NlbWJseSB7CiAgICAgICAgICAgIGxldCBwYXlsb2FkU3RhcnQgOj0gYWRkKHBheWxvYWQsIDMyKQogICAgICAgICAgICBsZXQgciA6PSBzdGF0aWNjYWxsKGdhcygpLCBjb25zb2xlQWRkcmVzcywgcGF5bG9hZFN0YXJ0LCBwYXlsb2FkTGVuZ3RoLCAwLCAwKQogICAgICAgIH0KICAgIH0KCiAgICBmdW5jdGlvbiBjb25zb2xlMl9sb2dfU3RkVXRpbHMoc3RyaW5nIG1lbW9yeSBwMCkgcHJpdmF0ZSBwdXJlIHsKICAgICAgICBfc2VuZExvZ1BheWxvYWQoYWJpLmVuY29kZVdpdGhTaWduYXR1cmUoImxvZyhzdHJpbmcpIiwgcDApKTsKICAgIH0KCiAgICBmdW5jdGlvbiBjb25zb2xlMl9sb2dfU3RkVXRpbHMoc3RyaW5nIG1lbW9yeSBwMCwgdWludDI1NiBwMSkgcHJpdmF0ZSBwdXJlIHsKICAgICAgICBfc2VuZExvZ1BheWxvYWQoYWJpLmVuY29kZVdpdGhTaWduYXR1cmUoImxvZyhzdHJpbmcsdWludDI1NikiLCBwMCwgcDEpKTsKICAgIH0KCiAgICBmdW5jdGlvbiBjb25zb2xlMl9sb2dfU3RkVXRpbHMoc3RyaW5nIG1lbW9yeSBwMCwgc3RyaW5nIG1lbW9yeSBwMSkgcHJpdmF0ZSBwdXJlIHsKICAgICAgICBfc2VuZExvZ1BheWxvYWQoYWJpLmVuY29kZVdpdGhTaWduYXR1cmUoImxvZyhzdHJpbmcsc3RyaW5nKSIsIHAwLCBwMSkpOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.6.2 <0.9.0;
+
+pragma experimental ABIEncoderV2;
+
+import {IMulticall3} from "./interfaces/IMulticall3.sol";
+import {VmSafe} from "./Vm.sol";
+
+abstract contract StdUtils {
+    /*//////////////////////////////////////////////////////////////////////////
+                                     CONSTANTS
+    //////////////////////////////////////////////////////////////////////////*/
+
+    IMulticall3 private constant multicall = IMulticall3(0xcA11bde05977b3631167028862bE2a173976CA11);
+    VmSafe private constant vm = VmSafe(address(uint160(uint256(keccak256("hevm cheat code")))));
+    address private constant CONSOLE2_ADDRESS = 0x000000000000000000636F6e736F6c652e6c6f67;
+    uint256 private constant INT256_MIN_ABS =
+        57896044618658097711785492504343953926634992332820282019728792003956564819968;
+    uint256 private constant SECP256K1_ORDER =
+        115792089237316195423570985008687907852837564279074904382605163141518161494337;
+    uint256 private constant UINT256_MAX =
+        115792089237316195423570985008687907853269984665640564039457584007913129639935;
+
+    // Used by default when deploying with create2, https://github.com/Arachnid/deterministic-deployment-proxy.
+    address private constant CREATE2_FACTORY = 0x4e59b44847b379578588920cA78FbF26c0B4956C;
+
+    /*//////////////////////////////////////////////////////////////////////////
+                                 INTERNAL FUNCTIONS
+    //////////////////////////////////////////////////////////////////////////*/
+
+    function _bound(uint256 x, uint256 min, uint256 max) internal pure virtual returns (uint256 result) {
+        require(min <= max, "StdUtils bound(uint256,uint256,uint256): Max is less than min.");
+        // If x is between min and max, return x directly. This is to ensure that dictionary values
+        // do not get shifted if the min is nonzero. More info: https://github.com/foundry-rs/forge-std/issues/188
+        if (x >= min && x <= max) return x;
+
+        uint256 size = max - min + 1;
+
+        // If the value is 0, 1, 2, 3, wrap that to min, min+1, min+2, min+3. Similarly for the UINT256_MAX side.
+        // This helps ensure coverage of the min/max values.
+        if (x <= 3 && size > x) return min + x;
+        if (x >= UINT256_MAX - 3 && size > UINT256_MAX - x) return max - (UINT256_MAX - x);
+
+        // Otherwise, wrap x into the range [min, max], i.e. the range is inclusive.
+        if (x > max) {
+            uint256 diff = x - max;
+            uint256 rem = diff % size;
+            if (rem == 0) return max;
+            result = min + rem - 1;
+        } else if (x < min) {
+            uint256 diff = min - x;
+            uint256 rem = diff % size;
+            if (rem == 0) return min;
+            result = max - rem + 1;
+        }
+    }
+
+    function bound(uint256 x, uint256 min, uint256 max) internal pure virtual returns (uint256 result) {
+        result = _bound(x, min, max);
+        console2_log_StdUtils("Bound result", result);
+    }
+
+    function _bound(int256 x, int256 min, int256 max) internal pure virtual returns (int256 result) {
+        require(min <= max, "StdUtils bound(int256,int256,int256): Max is less than min.");
+
+        // Shifting all int256 values to uint256 to use _bound function. The range of two types are:
+        // int256 : -(2**255) ~ (2**255 - 1)
+        // uint256:     0     ~ (2**256 - 1)
+        // So, add 2**255, INT256_MIN_ABS to the integer values.
+        //
+        // If the given integer value is -2**255, we cannot use `-uint256(-x)` because of the overflow.
+        // So, use `~uint256(x) + 1` instead.
+        uint256 _x = x < 0 ? (INT256_MIN_ABS - ~uint256(x) - 1) : (uint256(x) + INT256_MIN_ABS);
+        uint256 _min = min < 0 ? (INT256_MIN_ABS - ~uint256(min) - 1) : (uint256(min) + INT256_MIN_ABS);
+        uint256 _max = max < 0 ? (INT256_MIN_ABS - ~uint256(max) - 1) : (uint256(max) + INT256_MIN_ABS);
+
+        uint256 y = _bound(_x, _min, _max);
+
+        // To move it back to int256 value, subtract INT256_MIN_ABS at here.
+        result = y < INT256_MIN_ABS ? int256(~(INT256_MIN_ABS - y) + 1) : int256(y - INT256_MIN_ABS);
+    }
+
+    function bound(int256 x, int256 min, int256 max) internal pure virtual returns (int256 result) {
+        result = _bound(x, min, max);
+        console2_log_StdUtils("Bound result", vm.toString(result));
+    }
+
+    function boundPrivateKey(uint256 privateKey) internal pure virtual returns (uint256 result) {
+        result = _bound(privateKey, 1, SECP256K1_ORDER - 1);
+    }
+
+    function bytesToUint(bytes memory b) internal pure virtual returns (uint256) {
+        require(b.length <= 32, "StdUtils bytesToUint(bytes): Bytes length exceeds 32.");
+        return abi.decode(abi.encodePacked(new bytes(32 - b.length), b), (uint256));
+    }
+
+    /// @dev Compute the address a contract will be deployed at for a given deployer address and nonce
+    /// @notice adapted from Solmate implementation (https://github.com/Rari-Capital/solmate/blob/main/src/utils/LibRLP.sol)
+    function computeCreateAddress(address deployer, uint256 nonce) internal pure virtual returns (address) {
+        console2_log_StdUtils("computeCreateAddress is deprecated. Please use vm.computeCreateAddress instead.");
+        return vm.computeCreateAddress(deployer, nonce);
+    }
+
+    function computeCreate2Address(bytes32 salt, bytes32 initcodeHash, address deployer)
+        internal
+        pure
+        virtual
+        returns (address)
+    {
+        console2_log_StdUtils("computeCreate2Address is deprecated. Please use vm.computeCreate2Address instead.");
+        return vm.computeCreate2Address(salt, initcodeHash, deployer);
+    }
+
+    /// @dev returns the address of a contract created with CREATE2 using the default CREATE2 deployer
+    function computeCreate2Address(bytes32 salt, bytes32 initCodeHash) internal pure returns (address) {
+        console2_log_StdUtils("computeCreate2Address is deprecated. Please use vm.computeCreate2Address instead.");
+        return vm.computeCreate2Address(salt, initCodeHash);
+    }
+
+    /// @dev returns the hash of the init code (creation code + no args) used in CREATE2 with no constructor arguments
+    /// @param creationCode the creation code of a contract C, as returned by type(C).creationCode
+    function hashInitCode(bytes memory creationCode) internal pure returns (bytes32) {
+        return hashInitCode(creationCode, "");
+    }
+
+    /// @dev returns the hash of the init code (creation code + ABI-encoded args) used in CREATE2
+    /// @param creationCode the creation code of a contract C, as returned by type(C).creationCode
+    /// @param args the ABI-encoded arguments to the constructor of C
+    function hashInitCode(bytes memory creationCode, bytes memory args) internal pure returns (bytes32) {
+        return keccak256(abi.encodePacked(creationCode, args));
+    }
+
+    // Performs a single call with Multicall3 to query the ERC-20 token balances of the given addresses.
+    function getTokenBalances(address token, address[] memory addresses)
+        internal
+        virtual
+        returns (uint256[] memory balances)
+    {
+        uint256 tokenCodeSize;
+        assembly {
+            tokenCodeSize := extcodesize(token)
+        }
+        require(tokenCodeSize > 0, "StdUtils getTokenBalances(address,address[]): Token address is not a contract.");
+
+        // ABI encode the aggregate call to Multicall3.
+        uint256 length = addresses.length;
+        IMulticall3.Call[] memory calls = new IMulticall3.Call[](length);
+        for (uint256 i = 0; i < length; ++i) {
+            // 0x70a08231 = bytes4("balanceOf(address)"))
+            calls[i] = IMulticall3.Call({target: token, callData: abi.encodeWithSelector(0x70a08231, (addresses[i]))});
+        }
+
+        // Make the aggregate call.
+        (, bytes[] memory returnData) = multicall.aggregate(calls);
+
+        // ABI decode the return data and return the balances.
+        balances = new uint256[](length);
+        for (uint256 i = 0; i < length; ++i) {
+            balances[i] = abi.decode(returnData[i], (uint256));
+        }
+    }
+
+    /*//////////////////////////////////////////////////////////////////////////
+                                 PRIVATE FUNCTIONS
+    //////////////////////////////////////////////////////////////////////////*/
+
+    function addressFromLast20Bytes(bytes32 bytesValue) private pure returns (address) {
+        return address(uint160(uint256(bytesValue)));
+    }
+
+    // This section is used to prevent the compilation of console, which shortens the compilation time when console is
+    // not used elsewhere. We also trick the compiler into letting us make the console log methods as `pure` to avoid
+    // any breaking changes to function signatures.
+    function _castLogPayloadViewToPure(function(bytes memory) internal view fnIn)
+        internal
+        pure
+        returns (function(bytes memory) internal pure fnOut)
+    {
+        assembly {
+            fnOut := fnIn
+        }
+    }
+
+    function _sendLogPayload(bytes memory payload) internal pure {
+        _castLogPayloadViewToPure(_sendLogPayloadView)(payload);
+    }
+
+    function _sendLogPayloadView(bytes memory payload) private view {
+        uint256 payloadLength = payload.length;
+        address consoleAddress = CONSOLE2_ADDRESS;
+        /// @solidity memory-safe-assembly
+        assembly {
+            let payloadStart := add(payload, 32)
+            let r := staticcall(gas(), consoleAddress, payloadStart, payloadLength, 0, 0)
+        }
+    }
+
+    function console2_log_StdUtils(string memory p0) private pure {
+        _sendLogPayload(abi.encodeWithSignature("log(string)", p0));
+    }
+
+    function console2_log_StdUtils(string memory p0, uint256 p1) private pure {
+        _sendLogPayload(abi.encodeWithSignature("log(string,uint256)", p0, p1));
+    }
+
+    function console2_log_StdUtils(string memory p0, string memory p1) private pure {
+        _sendLogPayload(abi.encodeWithSignature("log(string,string)", p0, p1));
+    }
+}
