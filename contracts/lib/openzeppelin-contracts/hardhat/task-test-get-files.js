@@ -1,1 +1,25 @@
-Y29uc3QgeyBpbnRlcm5hbFRhc2sgfSA9IHJlcXVpcmUoJ2hhcmRoYXQvY29uZmlnJyk7CmNvbnN0IHsgVEFTS19URVNUX0dFVF9URVNUX0ZJTEVTIH0gPSByZXF1aXJlKCdoYXJkaGF0L2J1aWx0aW4tdGFza3MvdGFzay1uYW1lcycpOwoKLy8gTW9kaWZpZXMgYGhhcmRoYXQgdGVzdGAgdG8gc2tpcCB0aGUgcHJveHkgdGVzdHMgYWZ0ZXIgcHJveGllcyBhcmUgcmVtb3ZlZCBieSB0aGUgdHJhbnNwaWxlciBmb3IgdXBncmFkZWFiaWxpdHkuCgppbnRlcm5hbFRhc2soVEFTS19URVNUX0dFVF9URVNUX0ZJTEVTKS5zZXRBY3Rpb24oYXN5bmMgKGFyZ3MsIGhyZSwgcnVuU3VwZXIpID0+IHsKICBjb25zdCBwYXRoID0gcmVxdWlyZSgncGF0aCcpOwogIGNvbnN0IHsgcHJvbWlzZXM6IGZzIH0gPSByZXF1aXJlKCdmcycpOwoKICBjb25zdCBoYXNQcm94aWVzID0gYXdhaXQgZnMKICAgIC5hY2Nlc3MocGF0aC5qb2luKGhyZS5jb25maWcucGF0aHMuc291cmNlcywgJ3Byb3h5L1Byb3h5LnNvbCcpKQogICAgLnRoZW4oKCkgPT4gdHJ1ZSkKICAgIC5jYXRjaCgoKSA9PiBmYWxzZSk7CgogIGNvbnN0IGlnbm9yZWRJZlByb3h5ID0gWwogICAgJ3Byb3h5L2JlYWNvbi9CZWFjb25Qcm94eS50ZXN0LmpzJywKICAgICdwcm94eS9iZWFjb24vVXBncmFkZWFibGVCZWFjb24udGVzdC5qcycsCiAgICAncHJveHkvRVJDMTk2Ny9FUkMxOTY3UHJveHkudGVzdC5qcycsCiAgICAncHJveHkvdHJhbnNwYXJlbnQvUHJveHlBZG1pbi50ZXN0LmpzJywKICAgICdwcm94eS90cmFuc3BhcmVudC9UcmFuc3BhcmVudFVwZ3JhZGVhYmxlUHJveHkudGVzdC5qcycsCiAgICAncHJveHkvdXRpbHMvVVVQU1VwZ3JhZGVhYmxlLnRlc3QuanMnLAogIF0ubWFwKHAgPT4gcGF0aC5qb2luKGhyZS5jb25maWcucGF0aHMudGVzdHMsIHApKTsKCiAgcmV0dXJuIChhd2FpdCBydW5TdXBlcihhcmdzKSkuZmlsdGVyKGZpbGUgPT4gaGFzUHJveGllcyB8fCAhaWdub3JlZElmUHJveHkuaW5jbHVkZXMoZmlsZSkpOwp9KTsK
+const { internalTask } = require('hardhat/config');
+const { TASK_TEST_GET_TEST_FILES } = require('hardhat/builtin-tasks/task-names');
+
+// Modifies `hardhat test` to skip the proxy tests after proxies are removed by the transpiler for upgradeability.
+
+internalTask(TASK_TEST_GET_TEST_FILES).setAction(async (args, hre, runSuper) => {
+  const path = require('path');
+  const { promises: fs } = require('fs');
+
+  const hasProxies = await fs
+    .access(path.join(hre.config.paths.sources, 'proxy/Proxy.sol'))
+    .then(() => true)
+    .catch(() => false);
+
+  const ignoredIfProxy = [
+    'proxy/beacon/BeaconProxy.test.js',
+    'proxy/beacon/UpgradeableBeacon.test.js',
+    'proxy/ERC1967/ERC1967Proxy.test.js',
+    'proxy/transparent/ProxyAdmin.test.js',
+    'proxy/transparent/TransparentUpgradeableProxy.test.js',
+    'proxy/utils/UUPSUpgradeable.test.js',
+  ].map(p => path.join(hre.config.paths.tests, p));
+
+  return (await runSuper(args)).filter(file => hasProxies || !ignoredIfProxy.includes(file));
+});
