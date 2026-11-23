@@ -1,1 +1,152 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKCmNvbnN0IHsgc2hvdWxkU3VwcG9ydEludGVyZmFjZXMgfSA9IHJlcXVpcmUoJy4uLy4uL3V0aWxzL2ludHJvc3BlY3Rpb24vU3VwcG9ydHNJbnRlcmZhY2UuYmVoYXZpb3InKTsKCmZ1bmN0aW9uIHNob3VsZEJlaGF2ZUxpa2VFUkMyOTgxKCkgewogIGNvbnN0IHJveWFsdHlGcmFjdGlvbiA9IDEwbjsKCiAgc2hvdWxkU3VwcG9ydEludGVyZmFjZXMoWydFUkMyOTgxJ10pOwoKICBkZXNjcmliZSgnZGVmYXVsdCByb3lhbHR5JywgZnVuY3Rpb24gKCkgewogICAgYmVmb3JlRWFjaChhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IHRoaXMudG9rZW4uJF9zZXREZWZhdWx0Um95YWx0eSh0aGlzLmFjY291bnQxLCByb3lhbHR5RnJhY3Rpb24pOwogICAgfSk7CgogICAgaXQoJ2NoZWNrcyByb3lhbHR5IGlzIHNldCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudG9rZW4ucm95YWx0eUluZm8odGhpcy50b2tlbklkMSwgdGhpcy5zYWxlUHJpY2UpKS50by5kZWVwLmVxdWFsKFsKICAgICAgICB0aGlzLmFjY291bnQxLmFkZHJlc3MsCiAgICAgICAgKHRoaXMuc2FsZVByaWNlICogcm95YWx0eUZyYWN0aW9uKSAvIDEwXzAwMG4sCiAgICAgIF0pOwogICAgfSk7CgogICAgaXQoJ3VwZGF0ZXMgcm95YWx0eSBhbW91bnQnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGNvbnN0IG5ld0ZyYWN0aW9uID0gMjVuOwoKICAgICAgYXdhaXQgdGhpcy50b2tlbi4kX3NldERlZmF1bHRSb3lhbHR5KHRoaXMuYWNjb3VudDEsIG5ld0ZyYWN0aW9uKTsKCiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnRva2VuLnJveWFsdHlJbmZvKHRoaXMudG9rZW5JZDEsIHRoaXMuc2FsZVByaWNlKSkudG8uZGVlcC5lcXVhbChbCiAgICAgICAgdGhpcy5hY2NvdW50MS5hZGRyZXNzLAogICAgICAgICh0aGlzLnNhbGVQcmljZSAqIG5ld0ZyYWN0aW9uKSAvIDEwXzAwMG4sCiAgICAgIF0pOwogICAgfSk7CgogICAgaXQoJ2hvbGRzIHNhbWUgcm95YWx0eSB2YWx1ZSBmb3IgZGlmZmVyZW50IHRva2VucycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgY29uc3QgbmV3RnJhY3Rpb24gPSAyMG47CgogICAgICBhd2FpdCB0aGlzLnRva2VuLiRfc2V0RGVmYXVsdFJveWFsdHkodGhpcy5hY2NvdW50MSwgbmV3RnJhY3Rpb24pOwoKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudG9rZW4ucm95YWx0eUluZm8odGhpcy50b2tlbklkMSwgdGhpcy5zYWxlUHJpY2UpKS50by5kZWVwLmVxdWFsKAogICAgICAgIGF3YWl0IHRoaXMudG9rZW4ucm95YWx0eUluZm8odGhpcy50b2tlbklkMiwgdGhpcy5zYWxlUHJpY2UpLAogICAgICApOwogICAgfSk7CgogICAgaXQoJ1JlbW92ZSByb3lhbHR5IGluZm9ybWF0aW9uJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCBuZXdWYWx1ZSA9IDBuOwogICAgICBhd2FpdCB0aGlzLnRva2VuLiRfZGVsZXRlRGVmYXVsdFJveWFsdHkoKTsKCiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnRva2VuLnJveWFsdHlJbmZvKHRoaXMudG9rZW5JZDEsIHRoaXMuc2FsZVByaWNlKSkudG8uZGVlcC5lcXVhbChbZXRoZXJzLlplcm9BZGRyZXNzLCBuZXdWYWx1ZV0pOwoKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudG9rZW4ucm95YWx0eUluZm8odGhpcy50b2tlbklkMiwgdGhpcy5zYWxlUHJpY2UpKS50by5kZWVwLmVxdWFsKFtldGhlcnMuWmVyb0FkZHJlc3MsIG5ld1ZhbHVlXSk7CiAgICB9KTsKCiAgICBpdCgncmV2ZXJ0cyBpZiBpbnZhbGlkIHBhcmFtZXRlcnMnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGNvbnN0IHJveWFsdHlEZW5vbWluYXRvciA9IGF3YWl0IHRoaXMudG9rZW4uJF9mZWVEZW5vbWluYXRvcigpOwoKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMudG9rZW4uJF9zZXREZWZhdWx0Um95YWx0eShldGhlcnMuWmVyb0FkZHJlc3MsIHJveWFsdHlGcmFjdGlvbikpCiAgICAgICAgLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMudG9rZW4sICdFUkMyOTgxSW52YWxpZERlZmF1bHRSb3lhbHR5UmVjZWl2ZXInKQogICAgICAgIC53aXRoQXJncyhldGhlcnMuWmVyb0FkZHJlc3MpOwoKICAgICAgY29uc3QgYW5vdGhlclJveWFsdHlGcmFjdGlvbiA9IDExMDAwbjsKCiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLnRva2VuLiRfc2V0RGVmYXVsdFJveWFsdHkodGhpcy5hY2NvdW50MSwgYW5vdGhlclJveWFsdHlGcmFjdGlvbikpCiAgICAgICAgLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMudG9rZW4sICdFUkMyOTgxSW52YWxpZERlZmF1bHRSb3lhbHR5JykKICAgICAgICAud2l0aEFyZ3MoYW5vdGhlclJveWFsdHlGcmFjdGlvbiwgcm95YWx0eURlbm9taW5hdG9yKTsKICAgIH0pOwogIH0pOwoKICBkZXNjcmliZSgndG9rZW4gYmFzZWQgcm95YWx0eScsIGZ1bmN0aW9uICgpIHsKICAgIGJlZm9yZUVhY2goYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCB0aGlzLnRva2VuLiRfc2V0VG9rZW5Sb3lhbHR5KHRoaXMudG9rZW5JZDEsIHRoaXMuYWNjb3VudDEsIHJveWFsdHlGcmFjdGlvbik7CiAgICB9KTsKCiAgICBpdCgndXBkYXRlcyByb3lhbHR5IGFtb3VudCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgY29uc3QgbmV3RnJhY3Rpb24gPSAyNW47CgogICAgICBleHBlY3QoYXdhaXQgdGhpcy50b2tlbi5yb3lhbHR5SW5mbyh0aGlzLnRva2VuSWQxLCB0aGlzLnNhbGVQcmljZSkpLnRvLmRlZXAuZXF1YWwoWwogICAgICAgIHRoaXMuYWNjb3VudDEuYWRkcmVzcywKICAgICAgICAodGhpcy5zYWxlUHJpY2UgKiByb3lhbHR5RnJhY3Rpb24pIC8gMTBfMDAwbiwKICAgICAgXSk7CgogICAgICBhd2FpdCB0aGlzLnRva2VuLiRfc2V0VG9rZW5Sb3lhbHR5KHRoaXMudG9rZW5JZDEsIHRoaXMuYWNjb3VudDEsIG5ld0ZyYWN0aW9uKTsKCiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnRva2VuLnJveWFsdHlJbmZvKHRoaXMudG9rZW5JZDEsIHRoaXMuc2FsZVByaWNlKSkudG8uZGVlcC5lcXVhbChbCiAgICAgICAgdGhpcy5hY2NvdW50MS5hZGRyZXNzLAogICAgICAgICh0aGlzLnNhbGVQcmljZSAqIG5ld0ZyYWN0aW9uKSAvIDEwXzAwMG4sCiAgICAgIF0pOwogICAgfSk7CgogICAgaXQoJ2hvbGRzIGRpZmZlcmVudCB2YWx1ZXMgZm9yIGRpZmZlcmVudCB0b2tlbnMnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGNvbnN0IG5ld0ZyYWN0aW9uID0gMjBuOwoKICAgICAgYXdhaXQgdGhpcy50b2tlbi4kX3NldFRva2VuUm95YWx0eSh0aGlzLnRva2VuSWQyLCB0aGlzLmFjY291bnQxLCBuZXdGcmFjdGlvbik7CgogICAgICBleHBlY3QoYXdhaXQgdGhpcy50b2tlbi5yb3lhbHR5SW5mbyh0aGlzLnRva2VuSWQxLCB0aGlzLnNhbGVQcmljZSkpLnRvLm5vdC5kZWVwLmVxdWFsKAogICAgICAgIGF3YWl0IHRoaXMudG9rZW4ucm95YWx0eUluZm8odGhpcy50b2tlbklkMiwgdGhpcy5zYWxlUHJpY2UpLAogICAgICApOwogICAgfSk7CgogICAgaXQoJ3JldmVydHMgaWYgaW52YWxpZCBwYXJhbWV0ZXJzJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCByb3lhbHR5RGVub21pbmF0b3IgPSBhd2FpdCB0aGlzLnRva2VuLiRfZmVlRGVub21pbmF0b3IoKTsKCiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLnRva2VuLiRfc2V0VG9rZW5Sb3lhbHR5KHRoaXMudG9rZW5JZDEsIGV0aGVycy5aZXJvQWRkcmVzcywgcm95YWx0eUZyYWN0aW9uKSkKICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy50b2tlbiwgJ0VSQzI5ODFJbnZhbGlkVG9rZW5Sb3lhbHR5UmVjZWl2ZXInKQogICAgICAgIC53aXRoQXJncyh0aGlzLnRva2VuSWQxLCBldGhlcnMuWmVyb0FkZHJlc3MpOwoKICAgICAgY29uc3QgYW5vdGhlclJveWFsdHlGcmFjdGlvbiA9IDExMDAwbjsKCiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLnRva2VuLiRfc2V0VG9rZW5Sb3lhbHR5KHRoaXMudG9rZW5JZDEsIHRoaXMuYWNjb3VudDEsIGFub3RoZXJSb3lhbHR5RnJhY3Rpb24pKQogICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLnRva2VuLCAnRVJDMjk4MUludmFsaWRUb2tlblJveWFsdHknKQogICAgICAgIC53aXRoQXJncyh0aGlzLnRva2VuSWQxLCBhbm90aGVyUm95YWx0eUZyYWN0aW9uLCByb3lhbHR5RGVub21pbmF0b3IpOwogICAgfSk7CgogICAgaXQoJ2NhbiByZXNldCB0b2tlbiBhZnRlciBzZXR0aW5nIHJveWFsdHknLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGNvbnN0IG5ld0ZyYWN0aW9uID0gMzBuOwoKICAgICAgYXdhaXQgdGhpcy50b2tlbi4kX3NldFRva2VuUm95YWx0eSh0aGlzLnRva2VuSWQxLCB0aGlzLmFjY291bnQyLCBuZXdGcmFjdGlvbik7CgogICAgICAvLyBUb2tlbnMgbXVzdCBoYXZlIG93biBpbmZvcm1hdGlvbgogICAgICBleHBlY3QoYXdhaXQgdGhpcy50b2tlbi5yb3lhbHR5SW5mbyh0aGlzLnRva2VuSWQxLCB0aGlzLnNhbGVQcmljZSkpLnRvLmRlZXAuZXF1YWwoWwogICAgICAgIHRoaXMuYWNjb3VudDIuYWRkcmVzcywKICAgICAgICAodGhpcy5zYWxlUHJpY2UgKiBuZXdGcmFjdGlvbikgLyAxMF8wMDBuLAogICAgICBdKTsKCiAgICAgIGF3YWl0IHRoaXMudG9rZW4uJF9zZXRUb2tlblJveWFsdHkodGhpcy50b2tlbklkMiwgdGhpcy5hY2NvdW50MSwgMG4pOwoKICAgICAgLy8gVG9rZW4gbXVzdCBub3Qgc2hhcmUgZGVmYXVsdCBpbmZvcm1hdGlvbgogICAgICBleHBlY3QoYXdhaXQgdGhpcy50b2tlbi5yb3lhbHR5SW5mbyh0aGlzLnRva2VuSWQyLCB0aGlzLnNhbGVQcmljZSkpLnRvLmRlZXAuZXF1YWwoW3RoaXMuYWNjb3VudDEuYWRkcmVzcywgMG5dKTsKICAgIH0pOwoKICAgIGl0KCdjYW4gaG9sZCBkZWZhdWx0IGFuZCB0b2tlbiByb3lhbHR5IGluZm9ybWF0aW9uJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCBuZXdGcmFjdGlvbiA9IDMwbjsKCiAgICAgIGF3YWl0IHRoaXMudG9rZW4uJF9zZXRUb2tlblJveWFsdHkodGhpcy50b2tlbklkMiwgdGhpcy5hY2NvdW50MiwgbmV3RnJhY3Rpb24pOwoKICAgICAgLy8gVG9rZW5zIG11c3Qgbm90IGhhdmUgc2FtZSB2YWx1ZXMKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudG9rZW4ucm95YWx0eUluZm8odGhpcy50b2tlbklkMSwgdGhpcy5zYWxlUHJpY2UpKS50by5ub3QuZGVlcC5lcXVhbChbCiAgICAgICAgdGhpcy5hY2NvdW50Mi5hZGRyZXNzLAogICAgICAgICh0aGlzLnNhbGVQcmljZSAqIG5ld0ZyYWN0aW9uKSAvIDEwXzAwMG4sCiAgICAgIF0pOwoKICAgICAgLy8gVXBkYXRlZCB0b2tlbiBtdXN0IGhhdmUgbmV3IHZhbHVlcwogICAgICBleHBlY3QoYXdhaXQgdGhpcy50b2tlbi5yb3lhbHR5SW5mbyh0aGlzLnRva2VuSWQyLCB0aGlzLnNhbGVQcmljZSkpLnRvLmRlZXAuZXF1YWwoWwogICAgICAgIHRoaXMuYWNjb3VudDIuYWRkcmVzcywKICAgICAgICAodGhpcy5zYWxlUHJpY2UgKiBuZXdGcmFjdGlvbikgLyAxMF8wMDBuLAogICAgICBdKTsKICAgIH0pOwogIH0pOwp9Cgptb2R1bGUuZXhwb3J0cyA9IHsKICBzaG91bGRCZWhhdmVMaWtlRVJDMjk4MSwKfTsK
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+
+const { shouldSupportInterfaces } = require('../../utils/introspection/SupportsInterface.behavior');
+
+function shouldBehaveLikeERC2981() {
+  const royaltyFraction = 10n;
+
+  shouldSupportInterfaces(['ERC2981']);
+
+  describe('default royalty', function () {
+    beforeEach(async function () {
+      await this.token.$_setDefaultRoyalty(this.account1, royaltyFraction);
+    });
+
+    it('checks royalty is set', async function () {
+      expect(await this.token.royaltyInfo(this.tokenId1, this.salePrice)).to.deep.equal([
+        this.account1.address,
+        (this.salePrice * royaltyFraction) / 10_000n,
+      ]);
+    });
+
+    it('updates royalty amount', async function () {
+      const newFraction = 25n;
+
+      await this.token.$_setDefaultRoyalty(this.account1, newFraction);
+
+      expect(await this.token.royaltyInfo(this.tokenId1, this.salePrice)).to.deep.equal([
+        this.account1.address,
+        (this.salePrice * newFraction) / 10_000n,
+      ]);
+    });
+
+    it('holds same royalty value for different tokens', async function () {
+      const newFraction = 20n;
+
+      await this.token.$_setDefaultRoyalty(this.account1, newFraction);
+
+      expect(await this.token.royaltyInfo(this.tokenId1, this.salePrice)).to.deep.equal(
+        await this.token.royaltyInfo(this.tokenId2, this.salePrice),
+      );
+    });
+
+    it('Remove royalty information', async function () {
+      const newValue = 0n;
+      await this.token.$_deleteDefaultRoyalty();
+
+      expect(await this.token.royaltyInfo(this.tokenId1, this.salePrice)).to.deep.equal([ethers.ZeroAddress, newValue]);
+
+      expect(await this.token.royaltyInfo(this.tokenId2, this.salePrice)).to.deep.equal([ethers.ZeroAddress, newValue]);
+    });
+
+    it('reverts if invalid parameters', async function () {
+      const royaltyDenominator = await this.token.$_feeDenominator();
+
+      await expect(this.token.$_setDefaultRoyalty(ethers.ZeroAddress, royaltyFraction))
+        .to.be.revertedWithCustomError(this.token, 'ERC2981InvalidDefaultRoyaltyReceiver')
+        .withArgs(ethers.ZeroAddress);
+
+      const anotherRoyaltyFraction = 11000n;
+
+      await expect(this.token.$_setDefaultRoyalty(this.account1, anotherRoyaltyFraction))
+        .to.be.revertedWithCustomError(this.token, 'ERC2981InvalidDefaultRoyalty')
+        .withArgs(anotherRoyaltyFraction, royaltyDenominator);
+    });
+  });
+
+  describe('token based royalty', function () {
+    beforeEach(async function () {
+      await this.token.$_setTokenRoyalty(this.tokenId1, this.account1, royaltyFraction);
+    });
+
+    it('updates royalty amount', async function () {
+      const newFraction = 25n;
+
+      expect(await this.token.royaltyInfo(this.tokenId1, this.salePrice)).to.deep.equal([
+        this.account1.address,
+        (this.salePrice * royaltyFraction) / 10_000n,
+      ]);
+
+      await this.token.$_setTokenRoyalty(this.tokenId1, this.account1, newFraction);
+
+      expect(await this.token.royaltyInfo(this.tokenId1, this.salePrice)).to.deep.equal([
+        this.account1.address,
+        (this.salePrice * newFraction) / 10_000n,
+      ]);
+    });
+
+    it('holds different values for different tokens', async function () {
+      const newFraction = 20n;
+
+      await this.token.$_setTokenRoyalty(this.tokenId2, this.account1, newFraction);
+
+      expect(await this.token.royaltyInfo(this.tokenId1, this.salePrice)).to.not.deep.equal(
+        await this.token.royaltyInfo(this.tokenId2, this.salePrice),
+      );
+    });
+
+    it('reverts if invalid parameters', async function () {
+      const royaltyDenominator = await this.token.$_feeDenominator();
+
+      await expect(this.token.$_setTokenRoyalty(this.tokenId1, ethers.ZeroAddress, royaltyFraction))
+        .to.be.revertedWithCustomError(this.token, 'ERC2981InvalidTokenRoyaltyReceiver')
+        .withArgs(this.tokenId1, ethers.ZeroAddress);
+
+      const anotherRoyaltyFraction = 11000n;
+
+      await expect(this.token.$_setTokenRoyalty(this.tokenId1, this.account1, anotherRoyaltyFraction))
+        .to.be.revertedWithCustomError(this.token, 'ERC2981InvalidTokenRoyalty')
+        .withArgs(this.tokenId1, anotherRoyaltyFraction, royaltyDenominator);
+    });
+
+    it('can reset token after setting royalty', async function () {
+      const newFraction = 30n;
+
+      await this.token.$_setTokenRoyalty(this.tokenId1, this.account2, newFraction);
+
+      // Tokens must have own information
+      expect(await this.token.royaltyInfo(this.tokenId1, this.salePrice)).to.deep.equal([
+        this.account2.address,
+        (this.salePrice * newFraction) / 10_000n,
+      ]);
+
+      await this.token.$_setTokenRoyalty(this.tokenId2, this.account1, 0n);
+
+      // Token must not share default information
+      expect(await this.token.royaltyInfo(this.tokenId2, this.salePrice)).to.deep.equal([this.account1.address, 0n]);
+    });
+
+    it('can hold default and token royalty information', async function () {
+      const newFraction = 30n;
+
+      await this.token.$_setTokenRoyalty(this.tokenId2, this.account2, newFraction);
+
+      // Tokens must not have same values
+      expect(await this.token.royaltyInfo(this.tokenId1, this.salePrice)).to.not.deep.equal([
+        this.account2.address,
+        (this.salePrice * newFraction) / 10_000n,
+      ]);
+
+      // Updated token must have new values
+      expect(await this.token.royaltyInfo(this.tokenId2, this.salePrice)).to.deep.equal([
+        this.account2.address,
+        (this.salePrice * newFraction) / 10_000n,
+      ]);
+    });
+  });
+}
+
+module.exports = {
+  shouldBehaveLikeERC2981,
+};
