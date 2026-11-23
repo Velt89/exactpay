@@ -1,1 +1,34 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7Cgpjb250cmFjdCBDb25zdHJ1Y3Rvck1vY2sgewogICAgYm9vbCBmb287CgogICAgZW51bSBSZXZlcnRUeXBlIHsKICAgICAgICBOb25lLAogICAgICAgIFJldmVydFdpdGhvdXRNZXNzYWdlLAogICAgICAgIFJldmVydFdpdGhNZXNzYWdlLAogICAgICAgIFJldmVydFdpdGhDdXN0b21FcnJvciwKICAgICAgICBQYW5pYwogICAgfQoKICAgIGVycm9yIEN1c3RvbUVycm9yKCk7CgogICAgY29uc3RydWN0b3IoUmV2ZXJ0VHlwZSBlcnJvcikgewogICAgICAgIC8vIEFmdGVyIHRyYW5zcGlsYXRpb24gdG8gdXBncmFkZWFibGUgY29udHJhY3QsIHRoZSBjb25zdHJ1Y3RvciB3aWxsIGJlY29tZSBhbiBpbml0aWFsaXplcgogICAgICAgIC8vIFRvIHNpbGVuY2UgdGhlIGAuLi4gY2FuIGJlIHJlc3RyaWN0ZWQgdG8gdmlld2Agd2FybmluZywgd2Ugd3JpdGUgdG8gc3RhdGUKICAgICAgICBmb28gPSB0cnVlOwoKICAgICAgICBpZiAoZXJyb3IgPT0gUmV2ZXJ0VHlwZS5SZXZlcnRXaXRob3V0TWVzc2FnZSkgewogICAgICAgICAgICByZXZlcnQoKTsKICAgICAgICB9IGVsc2UgaWYgKGVycm9yID09IFJldmVydFR5cGUuUmV2ZXJ0V2l0aE1lc3NhZ2UpIHsKICAgICAgICAgICAgcmV2ZXJ0KCJDb25zdHJ1Y3Rvck1vY2s6IHJldmVydGluZyIpOwogICAgICAgIH0gZWxzZSBpZiAoZXJyb3IgPT0gUmV2ZXJ0VHlwZS5SZXZlcnRXaXRoQ3VzdG9tRXJyb3IpIHsKICAgICAgICAgICAgcmV2ZXJ0IEN1c3RvbUVycm9yKCk7CiAgICAgICAgfSBlbHNlIGlmIChlcnJvciA9PSBSZXZlcnRUeXBlLlBhbmljKSB7CiAgICAgICAgICAgIHVpbnQyNTYgYSA9IHVpbnQyNTYoMCkgLyB1aW50MjU2KDApOwogICAgICAgICAgICBhOwogICAgICAgIH0KICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+contract ConstructorMock {
+    bool foo;
+
+    enum RevertType {
+        None,
+        RevertWithoutMessage,
+        RevertWithMessage,
+        RevertWithCustomError,
+        Panic
+    }
+
+    error CustomError();
+
+    constructor(RevertType error) {
+        // After transpilation to upgradeable contract, the constructor will become an initializer
+        // To silence the `... can be restricted to view` warning, we write to state
+        foo = true;
+
+        if (error == RevertType.RevertWithoutMessage) {
+            revert();
+        } else if (error == RevertType.RevertWithMessage) {
+            revert("ConstructorMock: reverting");
+        } else if (error == RevertType.RevertWithCustomError) {
+            revert CustomError();
+        } else if (error == RevertType.Panic) {
+            uint256 a = uint256(0) / uint256(0);
+            a;
+        }
+    }
+}
