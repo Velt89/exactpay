@@ -1,1 +1,90 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodG9rZW4vRVJDMjAvZXh0ZW5zaW9ucy9JRVJDMjBQZXJtaXQuc29sKQoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgovKioKICogQGRldiBJbnRlcmZhY2Ugb2YgdGhlIEVSQy0yMCBQZXJtaXQgZXh0ZW5zaW9uIGFsbG93aW5nIGFwcHJvdmFscyB0byBiZSBtYWRlIHZpYSBzaWduYXR1cmVzLCBhcyBkZWZpbmVkIGluCiAqIGh0dHBzOi8vZWlwcy5ldGhlcmV1bS5vcmcvRUlQUy9laXAtMjYxMltFUkMtMjYxMl0uCiAqCiAqIEFkZHMgdGhlIHtwZXJtaXR9IG1ldGhvZCwgd2hpY2ggY2FuIGJlIHVzZWQgdG8gY2hhbmdlIGFuIGFjY291bnQncyBFUkMtMjAgYWxsb3dhbmNlIChzZWUge0lFUkMyMC1hbGxvd2FuY2V9KSBieQogKiBwcmVzZW50aW5nIGEgbWVzc2FnZSBzaWduZWQgYnkgdGhlIGFjY291bnQuIEJ5IG5vdCByZWx5aW5nIG9uIHtJRVJDMjAtYXBwcm92ZX0sIHRoZSB0b2tlbiBob2xkZXIgYWNjb3VudCBkb2Vzbid0CiAqIG5lZWQgdG8gc2VuZCBhIHRyYW5zYWN0aW9uLCBhbmQgdGh1cyBpcyBub3QgcmVxdWlyZWQgdG8gaG9sZCBFdGhlciBhdCBhbGwuCiAqCiAqID09PT0gU2VjdXJpdHkgQ29uc2lkZXJhdGlvbnMKICoKICogVGhlcmUgYXJlIHR3byBpbXBvcnRhbnQgY29uc2lkZXJhdGlvbnMgY29uY2VybmluZyB0aGUgdXNlIG9mIGBwZXJtaXRgLiBUaGUgZmlyc3QgaXMgdGhhdCBhIHZhbGlkIHBlcm1pdCBzaWduYXR1cmUKICogZXhwcmVzc2VzIGFuIGFsbG93YW5jZSwgYW5kIGl0IHNob3VsZCBub3QgYmUgYXNzdW1lZCB0byBjb252ZXkgYWRkaXRpb25hbCBtZWFuaW5nLiBJbiBwYXJ0aWN1bGFyLCBpdCBzaG91bGQgbm90IGJlCiAqIGNvbnNpZGVyZWQgYXMgYW4gaW50ZW50aW9uIHRvIHNwZW5kIHRoZSBhbGxvd2FuY2UgaW4gYW55IHNwZWNpZmljIHdheS4gVGhlIHNlY29uZCBpcyB0aGF0IGJlY2F1c2UgcGVybWl0cyBoYXZlCiAqIGJ1aWx0LWluIHJlcGxheSBwcm90ZWN0aW9uIGFuZCBjYW4gYmUgc3VibWl0dGVkIGJ5IGFueW9uZSwgdGhleSBjYW4gYmUgZnJvbnRydW4uIEEgcHJvdG9jb2wgdGhhdCB1c2VzIHBlcm1pdHMgc2hvdWxkCiAqIHRha2UgdGhpcyBpbnRvIGNvbnNpZGVyYXRpb24gYW5kIGFsbG93IGEgYHBlcm1pdGAgY2FsbCB0byBmYWlsLiBDb21iaW5pbmcgdGhlc2UgdHdvIGFzcGVjdHMsIGEgcGF0dGVybiB0aGF0IG1heSBiZQogKiBnZW5lcmFsbHkgcmVjb21tZW5kZWQgaXM6CiAqCiAqIGBgYHNvbGlkaXR5CiAqIGZ1bmN0aW9uIGRvVGhpbmdXaXRoUGVybWl0KC4uLiwgdWludDI1NiB2YWx1ZSwgdWludDI1NiBkZWFkbGluZSwgdWludDggdiwgYnl0ZXMzMiByLCBieXRlczMyIHMpIHB1YmxpYyB7CiAqICAgICB0cnkgdG9rZW4ucGVybWl0KG1zZy5zZW5kZXIsIGFkZHJlc3ModGhpcyksIHZhbHVlLCBkZWFkbGluZSwgdiwgciwgcykge30gY2F0Y2gge30KICogICAgIGRvVGhpbmcoLi4uLCB2YWx1ZSk7CiAqIH0KICoKICogZnVuY3Rpb24gZG9UaGluZyguLi4sIHVpbnQyNTYgdmFsdWUpIHB1YmxpYyB7CiAqICAgICB0b2tlbi5zYWZlVHJhbnNmZXJGcm9tKG1zZy5zZW5kZXIsIGFkZHJlc3ModGhpcyksIHZhbHVlKTsKICogICAgIC4uLgogKiB9CiAqIGBgYAogKgogKiBPYnNlcnZlIHRoYXQ6IDEpIGBtc2cuc2VuZGVyYCBpcyB1c2VkIGFzIHRoZSBvd25lciwgbGVhdmluZyBubyBhbWJpZ3VpdHkgYXMgdG8gdGhlIHNpZ25lciBpbnRlbnQsIGFuZCAyKSB0aGUgdXNlIG9mCiAqIGB0cnkvY2F0Y2hgIGFsbG93cyB0aGUgcGVybWl0IHRvIGZhaWwgYW5kIG1ha2VzIHRoZSBjb2RlIHRvbGVyYW50IHRvIGZyb250cnVubmluZy4gKFNlZSBhbHNvCiAqIHtTYWZlRVJDMjAtc2FmZVRyYW5zZmVyRnJvbX0pLgogKgogKiBBZGRpdGlvbmFsbHksIG5vdGUgdGhhdCBzbWFydCBjb250cmFjdCB3YWxsZXRzIChzdWNoIGFzIEFyZ2VudCBvciBTYWZlKSBhcmUgbm90IGFibGUgdG8gcHJvZHVjZSBwZXJtaXQgc2lnbmF0dXJlcywgc28KICogY29udHJhY3RzIHNob3VsZCBoYXZlIGVudHJ5IHBvaW50cyB0aGF0IGRvbid0IHJlbHkgb24gcGVybWl0LgogKi8KaW50ZXJmYWNlIElFUkMyMFBlcm1pdCB7CiAgICAvKioKICAgICAqIEBkZXYgU2V0cyBgdmFsdWVgIGFzIHRoZSBhbGxvd2FuY2Ugb2YgYHNwZW5kZXJgIG92ZXIgYGBvd25lcmBgJ3MgdG9rZW5zLAogICAgICogZ2l2ZW4gYGBvd25lcmBgJ3Mgc2lnbmVkIGFwcHJvdmFsLgogICAgICoKICAgICAqIElNUE9SVEFOVDogVGhlIHNhbWUgaXNzdWVzIHtJRVJDMjAtYXBwcm92ZX0gaGFzIHJlbGF0ZWQgdG8gdHJhbnNhY3Rpb24KICAgICAqIG9yZGVyaW5nIGFsc28gYXBwbHkgaGVyZS4KICAgICAqCiAgICAgKiBFbWl0cyBhbiB7QXBwcm92YWx9IGV2ZW50LgogICAgICoKICAgICAqIFJlcXVpcmVtZW50czoKICAgICAqCiAgICAgKiAtIGBzcGVuZGVyYCBjYW5ub3QgYmUgdGhlIHplcm8gYWRkcmVzcy4KICAgICAqIC0gYGRlYWRsaW5lYCBtdXN0IGJlIGEgdGltZXN0YW1wIGluIHRoZSBmdXR1cmUuCiAgICAgKiAtIGB2YCwgYHJgIGFuZCBgc2AgbXVzdCBiZSBhIHZhbGlkIGBzZWNwMjU2azFgIHNpZ25hdHVyZSBmcm9tIGBvd25lcmAKICAgICAqIG92ZXIgdGhlIEVJUDcxMi1mb3JtYXR0ZWQgZnVuY3Rpb24gYXJndW1lbnRzLgogICAgICogLSB0aGUgc2lnbmF0dXJlIG11c3QgdXNlIGBgb3duZXJgYCdzIGN1cnJlbnQgbm9uY2UgKHNlZSB7bm9uY2VzfSkuCiAgICAgKgogICAgICogRm9yIG1vcmUgaW5mb3JtYXRpb24gb24gdGhlIHNpZ25hdHVyZSBmb3JtYXQsIHNlZSB0aGUKICAgICAqIGh0dHBzOi8vZWlwcy5ldGhlcmV1bS5vcmcvRUlQUy9laXAtMjYxMiNzcGVjaWZpY2F0aW9uW3JlbGV2YW50IEVJUAogICAgICogc2VjdGlvbl0uCiAgICAgKgogICAgICogQ0FVVElPTjogU2VlIFNlY3VyaXR5IENvbnNpZGVyYXRpb25zIGFib3ZlLgogICAgICovCiAgICBmdW5jdGlvbiBwZXJtaXQoCiAgICAgICAgYWRkcmVzcyBvd25lciwKICAgICAgICBhZGRyZXNzIHNwZW5kZXIsCiAgICAgICAgdWludDI1NiB2YWx1ZSwKICAgICAgICB1aW50MjU2IGRlYWRsaW5lLAogICAgICAgIHVpbnQ4IHYsCiAgICAgICAgYnl0ZXMzMiByLAogICAgICAgIGJ5dGVzMzIgcwogICAgKSBleHRlcm5hbDsKCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyB0aGUgY3VycmVudCBub25jZSBmb3IgYG93bmVyYC4gVGhpcyB2YWx1ZSBtdXN0IGJlCiAgICAgKiBpbmNsdWRlZCB3aGVuZXZlciBhIHNpZ25hdHVyZSBpcyBnZW5lcmF0ZWQgZm9yIHtwZXJtaXR9LgogICAgICoKICAgICAqIEV2ZXJ5IHN1Y2Nlc3NmdWwgY2FsbCB0byB7cGVybWl0fSBpbmNyZWFzZXMgYGBvd25lcmBgJ3Mgbm9uY2UgYnkgb25lLiBUaGlzCiAgICAgKiBwcmV2ZW50cyBhIHNpZ25hdHVyZSBmcm9tIGJlaW5nIHVzZWQgbXVsdGlwbGUgdGltZXMuCiAgICAgKi8KICAgIGZ1bmN0aW9uIG5vbmNlcyhhZGRyZXNzIG93bmVyKSBleHRlcm5hbCB2aWV3IHJldHVybnMgKHVpbnQyNTYpOwoKICAgIC8qKgogICAgICogQGRldiBSZXR1cm5zIHRoZSBkb21haW4gc2VwYXJhdG9yIHVzZWQgaW4gdGhlIGVuY29kaW5nIG9mIHRoZSBzaWduYXR1cmUgZm9yIHtwZXJtaXR9LCBhcyBkZWZpbmVkIGJ5IHtFSVA3MTJ9LgogICAgICovCiAgICAvLyBzb2xoaW50LWRpc2FibGUtbmV4dC1saW5lIGZ1bmMtbmFtZS1taXhlZGNhc2UKICAgIGZ1bmN0aW9uIERPTUFJTl9TRVBBUkFUT1IoKSBleHRlcm5hbCB2aWV3IHJldHVybnMgKGJ5dGVzMzIpOwp9Cg==
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (token/ERC20/extensions/IERC20Permit.sol)
+
+pragma solidity ^0.8.20;
+
+/**
+ * @dev Interface of the ERC-20 Permit extension allowing approvals to be made via signatures, as defined in
+ * https://eips.ethereum.org/EIPS/eip-2612[ERC-2612].
+ *
+ * Adds the {permit} method, which can be used to change an account's ERC-20 allowance (see {IERC20-allowance}) by
+ * presenting a message signed by the account. By not relying on {IERC20-approve}, the token holder account doesn't
+ * need to send a transaction, and thus is not required to hold Ether at all.
+ *
+ * ==== Security Considerations
+ *
+ * There are two important considerations concerning the use of `permit`. The first is that a valid permit signature
+ * expresses an allowance, and it should not be assumed to convey additional meaning. In particular, it should not be
+ * considered as an intention to spend the allowance in any specific way. The second is that because permits have
+ * built-in replay protection and can be submitted by anyone, they can be frontrun. A protocol that uses permits should
+ * take this into consideration and allow a `permit` call to fail. Combining these two aspects, a pattern that may be
+ * generally recommended is:
+ *
+ * ```solidity
+ * function doThingWithPermit(..., uint256 value, uint256 deadline, uint8 v, bytes32 r, bytes32 s) public {
+ *     try token.permit(msg.sender, address(this), value, deadline, v, r, s) {} catch {}
+ *     doThing(..., value);
+ * }
+ *
+ * function doThing(..., uint256 value) public {
+ *     token.safeTransferFrom(msg.sender, address(this), value);
+ *     ...
+ * }
+ * ```
+ *
+ * Observe that: 1) `msg.sender` is used as the owner, leaving no ambiguity as to the signer intent, and 2) the use of
+ * `try/catch` allows the permit to fail and makes the code tolerant to frontrunning. (See also
+ * {SafeERC20-safeTransferFrom}).
+ *
+ * Additionally, note that smart contract wallets (such as Argent or Safe) are not able to produce permit signatures, so
+ * contracts should have entry points that don't rely on permit.
+ */
+interface IERC20Permit {
+    /**
+     * @dev Sets `value` as the allowance of `spender` over ``owner``'s tokens,
+     * given ``owner``'s signed approval.
+     *
+     * IMPORTANT: The same issues {IERC20-approve} has related to transaction
+     * ordering also apply here.
+     *
+     * Emits an {Approval} event.
+     *
+     * Requirements:
+     *
+     * - `spender` cannot be the zero address.
+     * - `deadline` must be a timestamp in the future.
+     * - `v`, `r` and `s` must be a valid `secp256k1` signature from `owner`
+     * over the EIP712-formatted function arguments.
+     * - the signature must use ``owner``'s current nonce (see {nonces}).
+     *
+     * For more information on the signature format, see the
+     * https://eips.ethereum.org/EIPS/eip-2612#specification[relevant EIP
+     * section].
+     *
+     * CAUTION: See Security Considerations above.
+     */
+    function permit(
+        address owner,
+        address spender,
+        uint256 value,
+        uint256 deadline,
+        uint8 v,
+        bytes32 r,
+        bytes32 s
+    ) external;
+
+    /**
+     * @dev Returns the current nonce for `owner`. This value must be
+     * included whenever a signature is generated for {permit}.
+     *
+     * Every successful call to {permit} increases ``owner``'s nonce by one. This
+     * prevents a signature from being used multiple times.
+     */
+    function nonces(address owner) external view returns (uint256);
+
+    /**
+     * @dev Returns the domain separator used in the encoding of the signature for {permit}, as defined by {EIP712}.
+     */
+    // solhint-disable-next-line func-name-mixedcase
+    function DOMAIN_SEPARATOR() external view returns (bytes32);
+}
