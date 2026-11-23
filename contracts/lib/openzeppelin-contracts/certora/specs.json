@@ -1,1 +1,110 @@
-WwogIHsKICAgICJzcGVjIjogIlBhdXNhYmxlIiwKICAgICJjb250cmFjdCI6ICJQYXVzYWJsZUhhcm5lc3MiLAogICAgImZpbGVzIjogWyJjZXJ0b3JhL2hhcm5lc3Nlcy9QYXVzYWJsZUhhcm5lc3Muc29sIl0KICB9LAogIHsKICAgICJzcGVjIjogIkFjY2Vzc0NvbnRyb2wiLAogICAgImNvbnRyYWN0IjogIkFjY2Vzc0NvbnRyb2xIYXJuZXNzIiwKICAgICJmaWxlcyI6IFsiY2VydG9yYS9oYXJuZXNzZXMvQWNjZXNzQ29udHJvbEhhcm5lc3Muc29sIl0KICB9LAogIHsKICAgICJzcGVjIjogIkFjY2Vzc0NvbnRyb2xEZWZhdWx0QWRtaW5SdWxlcyIsCiAgICAiY29udHJhY3QiOiAiQWNjZXNzQ29udHJvbERlZmF1bHRBZG1pblJ1bGVzSGFybmVzcyIsCiAgICAiZmlsZXMiOiBbImNlcnRvcmEvaGFybmVzc2VzL0FjY2Vzc0NvbnRyb2xEZWZhdWx0QWRtaW5SdWxlc0hhcm5lc3Muc29sIl0KICB9LAogIHsKICAgICJzcGVjIjogIkFjY2Vzc01hbmFnZXIiLAogICAgImNvbnRyYWN0IjogIkFjY2Vzc01hbmFnZXJIYXJuZXNzIiwKICAgICJmaWxlcyI6IFsiY2VydG9yYS9oYXJuZXNzZXMvQWNjZXNzTWFuYWdlckhhcm5lc3Muc29sIl0sCiAgICAib3B0aW9ucyI6IFsiLS1vcHRpbWlzdGljX2hhc2hpbmciLCAiLS1vcHRpbWlzdGljX2xvb3AiXQogIH0sCiAgewogICAgInNwZWMiOiAiQWNjZXNzTWFuYWdlZCIsCiAgICAiY29udHJhY3QiOiAiQWNjZXNzTWFuYWdlZEhhcm5lc3MiLAogICAgImZpbGVzIjogWwogICAgICAiY2VydG9yYS9oYXJuZXNzZXMvQWNjZXNzTWFuYWdlZEhhcm5lc3Muc29sIiwKICAgICAgImNlcnRvcmEvaGFybmVzc2VzL0FjY2Vzc01hbmFnZXJIYXJuZXNzLnNvbCIKICAgIF0sCiAgICAib3B0aW9ucyI6IFsKICAgICAgIi0tb3B0aW1pc3RpY19oYXNoaW5nIiwKICAgICAgIi0tb3B0aW1pc3RpY19sb29wIiwKICAgICAgIi0tbGluayBBY2Nlc3NNYW5hZ2VkSGFybmVzczpfYXV0aG9yaXR5PUFjY2Vzc01hbmFnZXJIYXJuZXNzIgogICAgXQogIH0sCiAgewogICAgInNwZWMiOiAiRG91YmxlRW5kZWRRdWV1ZSIsCiAgICAiY29udHJhY3QiOiAiRG91YmxlRW5kZWRRdWV1ZUhhcm5lc3MiLAogICAgImZpbGVzIjogWyJjZXJ0b3JhL2hhcm5lc3Nlcy9Eb3VibGVFbmRlZFF1ZXVlSGFybmVzcy5zb2wiXQogIH0sCiAgewogICAgInNwZWMiOiAiT3duYWJsZSIsCiAgICAiY29udHJhY3QiOiAiT3duYWJsZUhhcm5lc3MiLAogICAgImZpbGVzIjogWyJjZXJ0b3JhL2hhcm5lc3Nlcy9Pd25hYmxlSGFybmVzcy5zb2wiXQogIH0sCiAgewogICAgInNwZWMiOiAiT3duYWJsZTJTdGVwIiwKICAgICJjb250cmFjdCI6ICJPd25hYmxlMlN0ZXBIYXJuZXNzIiwKICAgICJmaWxlcyI6IFsiY2VydG9yYS9oYXJuZXNzZXMvT3duYWJsZTJTdGVwSGFybmVzcy5zb2wiXQogIH0sCiAgewogICAgInNwZWMiOiAiRVJDMjAiLAogICAgImNvbnRyYWN0IjogIkVSQzIwUGVybWl0SGFybmVzcyIsCiAgICAiZmlsZXMiOiBbImNlcnRvcmEvaGFybmVzc2VzL0VSQzIwUGVybWl0SGFybmVzcy5zb2wiXSwKICAgICJvcHRpb25zIjogWyItLW9wdGltaXN0aWNfbG9vcCJdCiAgfSwKICB7CiAgICAic3BlYyI6ICJFUkMyMEZsYXNoTWludCIsCiAgICAiY29udHJhY3QiOiAiRVJDMjBGbGFzaE1pbnRIYXJuZXNzIiwKICAgICJmaWxlcyI6IFsKICAgICAgImNlcnRvcmEvaGFybmVzc2VzL0VSQzIwRmxhc2hNaW50SGFybmVzcy5zb2wiLAogICAgICAiY2VydG9yYS9oYXJuZXNzZXMvRVJDMzE1NkZsYXNoQm9ycm93ZXJIYXJuZXNzLnNvbCIKICAgIF0sCiAgICAib3B0aW9ucyI6IFsiLS1vcHRpbWlzdGljX2xvb3AiXQogIH0sCiAgewogICAgInNwZWMiOiAiRVJDMjBXcmFwcGVyIiwKICAgICJjb250cmFjdCI6ICJFUkMyMFdyYXBwZXJIYXJuZXNzIiwKICAgICJmaWxlcyI6IFsKICAgICAgImNlcnRvcmEvaGFybmVzc2VzL0VSQzIwUGVybWl0SGFybmVzcy5zb2wiLAogICAgICAiY2VydG9yYS9oYXJuZXNzZXMvRVJDMjBXcmFwcGVySGFybmVzcy5zb2wiCiAgICBdLAogICAgIm9wdGlvbnMiOiBbCiAgICAgICItLWxpbmsgRVJDMjBXcmFwcGVySGFybmVzczpfdW5kZXJseWluZz1FUkMyMFBlcm1pdEhhcm5lc3MiLAogICAgICAiLS1vcHRpbWlzdGljX2xvb3AiCiAgICBdCiAgfSwKICB7CiAgICAic3BlYyI6ICJFUkM3MjEiLAogICAgImNvbnRyYWN0IjogIkVSQzcyMUhhcm5lc3MiLAogICAgImZpbGVzIjogWyJjZXJ0b3JhL2hhcm5lc3Nlcy9FUkM3MjFIYXJuZXNzLnNvbCIsICJjZXJ0b3JhL2hhcm5lc3Nlcy9FUkM3MjFSZWNlaXZlckhhcm5lc3Muc29sIl0sCiAgICAib3B0aW9ucyI6IFsiLS1vcHRpbWlzdGljX2xvb3AiXQogIH0sCiAgewogICAgInNwZWMiOiAiSW5pdGlhbGl6YWJsZSIsCiAgICAiY29udHJhY3QiOiAiSW5pdGlhbGl6YWJsZUhhcm5lc3MiLAogICAgImZpbGVzIjogWyJjZXJ0b3JhL2hhcm5lc3Nlcy9Jbml0aWFsaXphYmxlSGFybmVzcy5zb2wiXQogIH0sCiAgewogICAgInNwZWMiOiAiRW51bWVyYWJsZVNldCIsCiAgICAiY29udHJhY3QiOiAiRW51bWVyYWJsZVNldEhhcm5lc3MiLAogICAgImZpbGVzIjogWyJjZXJ0b3JhL2hhcm5lc3Nlcy9FbnVtZXJhYmxlU2V0SGFybmVzcy5zb2wiXQogIH0sCiAgewogICAgInNwZWMiOiAiRW51bWVyYWJsZU1hcCIsCiAgICAiY29udHJhY3QiOiAiRW51bWVyYWJsZU1hcEhhcm5lc3MiLAogICAgImZpbGVzIjogWyJjZXJ0b3JhL2hhcm5lc3Nlcy9FbnVtZXJhYmxlTWFwSGFybmVzcy5zb2wiXQogIH0sCiAgewogICAgInNwZWMiOiAiVGltZWxvY2tDb250cm9sbGVyIiwKICAgICJjb250cmFjdCI6ICJUaW1lbG9ja0NvbnRyb2xsZXJIYXJuZXNzIiwKICAgICJmaWxlcyI6IFsiY2VydG9yYS9oYXJuZXNzZXMvVGltZWxvY2tDb250cm9sbGVySGFybmVzcy5zb2wiXSwKICAgICJvcHRpb25zIjogWyItLW9wdGltaXN0aWNfaGFzaGluZyIsICItLW9wdGltaXN0aWNfbG9vcCJdCiAgfSwKICB7CiAgICAic3BlYyI6ICJOb25jZXMiLAogICAgImNvbnRyYWN0IjogIk5vbmNlc0hhcm5lc3MiLAogICAgImZpbGVzIjogWyJjZXJ0b3JhL2hhcm5lc3Nlcy9Ob25jZXNIYXJuZXNzLnNvbCJdCiAgfQpdCg==
+[
+  {
+    "spec": "Pausable",
+    "contract": "PausableHarness",
+    "files": ["certora/harnesses/PausableHarness.sol"]
+  },
+  {
+    "spec": "AccessControl",
+    "contract": "AccessControlHarness",
+    "files": ["certora/harnesses/AccessControlHarness.sol"]
+  },
+  {
+    "spec": "AccessControlDefaultAdminRules",
+    "contract": "AccessControlDefaultAdminRulesHarness",
+    "files": ["certora/harnesses/AccessControlDefaultAdminRulesHarness.sol"]
+  },
+  {
+    "spec": "AccessManager",
+    "contract": "AccessManagerHarness",
+    "files": ["certora/harnesses/AccessManagerHarness.sol"],
+    "options": ["--optimistic_hashing", "--optimistic_loop"]
+  },
+  {
+    "spec": "AccessManaged",
+    "contract": "AccessManagedHarness",
+    "files": [
+      "certora/harnesses/AccessManagedHarness.sol",
+      "certora/harnesses/AccessManagerHarness.sol"
+    ],
+    "options": [
+      "--optimistic_hashing",
+      "--optimistic_loop",
+      "--link AccessManagedHarness:_authority=AccessManagerHarness"
+    ]
+  },
+  {
+    "spec": "DoubleEndedQueue",
+    "contract": "DoubleEndedQueueHarness",
+    "files": ["certora/harnesses/DoubleEndedQueueHarness.sol"]
+  },
+  {
+    "spec": "Ownable",
+    "contract": "OwnableHarness",
+    "files": ["certora/harnesses/OwnableHarness.sol"]
+  },
+  {
+    "spec": "Ownable2Step",
+    "contract": "Ownable2StepHarness",
+    "files": ["certora/harnesses/Ownable2StepHarness.sol"]
+  },
+  {
+    "spec": "ERC20",
+    "contract": "ERC20PermitHarness",
+    "files": ["certora/harnesses/ERC20PermitHarness.sol"],
+    "options": ["--optimistic_loop"]
+  },
+  {
+    "spec": "ERC20FlashMint",
+    "contract": "ERC20FlashMintHarness",
+    "files": [
+      "certora/harnesses/ERC20FlashMintHarness.sol",
+      "certora/harnesses/ERC3156FlashBorrowerHarness.sol"
+    ],
+    "options": ["--optimistic_loop"]
+  },
+  {
+    "spec": "ERC20Wrapper",
+    "contract": "ERC20WrapperHarness",
+    "files": [
+      "certora/harnesses/ERC20PermitHarness.sol",
+      "certora/harnesses/ERC20WrapperHarness.sol"
+    ],
+    "options": [
+      "--link ERC20WrapperHarness:_underlying=ERC20PermitHarness",
+      "--optimistic_loop"
+    ]
+  },
+  {
+    "spec": "ERC721",
+    "contract": "ERC721Harness",
+    "files": ["certora/harnesses/ERC721Harness.sol", "certora/harnesses/ERC721ReceiverHarness.sol"],
+    "options": ["--optimistic_loop"]
+  },
+  {
+    "spec": "Initializable",
+    "contract": "InitializableHarness",
+    "files": ["certora/harnesses/InitializableHarness.sol"]
+  },
+  {
+    "spec": "EnumerableSet",
+    "contract": "EnumerableSetHarness",
+    "files": ["certora/harnesses/EnumerableSetHarness.sol"]
+  },
+  {
+    "spec": "EnumerableMap",
+    "contract": "EnumerableMapHarness",
+    "files": ["certora/harnesses/EnumerableMapHarness.sol"]
+  },
+  {
+    "spec": "TimelockController",
+    "contract": "TimelockControllerHarness",
+    "files": ["certora/harnesses/TimelockControllerHarness.sol"],
+    "options": ["--optimistic_hashing", "--optimistic_loop"]
+  },
+  {
+    "spec": "Nonces",
+    "contract": "NoncesHarness",
+    "files": ["certora/harnesses/NoncesHarness.sol"]
+  }
+]
