@@ -1,1 +1,10 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgPj0wLjYuMiA8MC45LjA7CgpwcmFnbWEgZXhwZXJpbWVudGFsIEFCSUVuY29kZXJWMjsKCmltcG9ydCAiLi4vLi4vc3JjL1Rlc3Quc29sIjsKCi8vIFRoZSBwdXJwb3NlIG9mIHRoaXMgY29udHJhY3QgaXMgdG8gYmVuY2htYXJrIGNvbXBpbGF0aW9uIHRpbWUgdG8gYXZvaWQgYWNjaWRlbnRhbGx5IGludHJvZHVjaW5nCi8vIGEgY2hhbmdlIHRoYXQgcmVzdWx0cyBpbiB2ZXJ5IGxvbmcgY29tcGlsYXRpb24gdGltZXMgd2l0aCB2aWEtaXIuIFNlZSBodHRwczovL2dpdGh1Yi5jb20vZm91bmRyeS1ycy9mb3JnZS1zdGQvaXNzdWVzLzIwNwpjb250cmFjdCBDb21waWxhdGlvblRlc3RCYXNlIGlzIFRlc3RCYXNlIHt9Cg==
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.6.2 <0.9.0;
+
+pragma experimental ABIEncoderV2;
+
+import "../../src/Test.sol";
+
+// The purpose of this contract is to benchmark compilation time to avoid accidentally introducing
+// a change that results in very long compilation times with via-ir. See https://github.com/foundry-rs/forge-std/issues/207
+contract CompilationTestBase is TestBase {}
