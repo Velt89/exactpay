@@ -1,1 +1,65 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0VSQzE5NjdVdGlsc30gZnJvbSAiLi4vcHJveHkvRVJDMTk2Ny9FUkMxOTY3VXRpbHMuc29sIjsKaW1wb3J0IHtTdG9yYWdlU2xvdH0gZnJvbSAiLi4vdXRpbHMvU3RvcmFnZVNsb3Quc29sIjsKCmFic3RyYWN0IGNvbnRyYWN0IEltcGwgewogICAgZnVuY3Rpb24gdmVyc2lvbigpIHB1YmxpYyBwdXJlIHZpcnR1YWwgcmV0dXJucyAoc3RyaW5nIG1lbW9yeSk7Cn0KCmNvbnRyYWN0IER1bW15SW1wbGVtZW50YXRpb24gewogICAgdWludDI1NiBwdWJsaWMgdmFsdWU7CiAgICBzdHJpbmcgcHVibGljIHRleHQ7CiAgICB1aW50MjU2W10gcHVibGljIHZhbHVlczsKCiAgICBmdW5jdGlvbiBpbml0aWFsaXplTm9uUGF5YWJsZSgpIHB1YmxpYyB7CiAgICAgICAgdmFsdWUgPSAxMDsKICAgIH0KCiAgICBmdW5jdGlvbiBpbml0aWFsaXplUGF5YWJsZSgpIHB1YmxpYyBwYXlhYmxlIHsKICAgICAgICB2YWx1ZSA9IDEwMDsKICAgIH0KCiAgICBmdW5jdGlvbiBpbml0aWFsaXplTm9uUGF5YWJsZVdpdGhWYWx1ZSh1aW50MjU2IF92YWx1ZSkgcHVibGljIHsKICAgICAgICB2YWx1ZSA9IF92YWx1ZTsKICAgIH0KCiAgICBmdW5jdGlvbiBpbml0aWFsaXplUGF5YWJsZVdpdGhWYWx1ZSh1aW50MjU2IF92YWx1ZSkgcHVibGljIHBheWFibGUgewogICAgICAgIHZhbHVlID0gX3ZhbHVlOwogICAgfQoKICAgIGZ1bmN0aW9uIGluaXRpYWxpemUodWludDI1NiBfdmFsdWUsIHN0cmluZyBtZW1vcnkgX3RleHQsIHVpbnQyNTZbXSBtZW1vcnkgX3ZhbHVlcykgcHVibGljIHsKICAgICAgICB2YWx1ZSA9IF92YWx1ZTsKICAgICAgICB0ZXh0ID0gX3RleHQ7CiAgICAgICAgdmFsdWVzID0gX3ZhbHVlczsKICAgIH0KCiAgICBmdW5jdGlvbiBnZXQoKSBwdWJsaWMgcHVyZSByZXR1cm5zIChib29sKSB7CiAgICAgICAgcmV0dXJuIHRydWU7CiAgICB9CgogICAgZnVuY3Rpb24gdmVyc2lvbigpIHB1YmxpYyBwdXJlIHZpcnR1YWwgcmV0dXJucyAoc3RyaW5nIG1lbW9yeSkgewogICAgICAgIHJldHVybiAiVjEiOwogICAgfQoKICAgIGZ1bmN0aW9uIHJldmVydHMoKSBwdWJsaWMgcHVyZSB7CiAgICAgICAgcmVxdWlyZShmYWxzZSwgIkR1bW15SW1wbGVtZW50YXRpb24gcmV2ZXJ0ZWQiKTsKICAgIH0KCiAgICAvLyBVc2UgZm9yIGZvcmNpbmcgYW4gdW5zYWZlIFRyYW5zcGFyZW50VXBncmFkZWFibGVQcm94eSBhZG1pbiBvdmVycmlkZQogICAgZnVuY3Rpb24gdW5zYWZlT3ZlcnJpZGVBZG1pbihhZGRyZXNzIG5ld0FkbWluKSBwdWJsaWMgewogICAgICAgIFN0b3JhZ2VTbG90LmdldEFkZHJlc3NTbG90KEVSQzE5NjdVdGlscy5BRE1JTl9TTE9UKS52YWx1ZSA9IG5ld0FkbWluOwogICAgfQp9Cgpjb250cmFjdCBEdW1teUltcGxlbWVudGF0aW9uVjIgaXMgRHVtbXlJbXBsZW1lbnRhdGlvbiB7CiAgICBmdW5jdGlvbiBtaWdyYXRlKHVpbnQyNTYgbmV3VmFsKSBwdWJsaWMgcGF5YWJsZSB7CiAgICAgICAgdmFsdWUgPSBuZXdWYWw7CiAgICB9CgogICAgZnVuY3Rpb24gdmVyc2lvbigpIHB1YmxpYyBwdXJlIG92ZXJyaWRlIHJldHVybnMgKHN0cmluZyBtZW1vcnkpIHsKICAgICAgICByZXR1cm4gIlYyIjsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {ERC1967Utils} from "../proxy/ERC1967/ERC1967Utils.sol";
+import {StorageSlot} from "../utils/StorageSlot.sol";
+
+abstract contract Impl {
+    function version() public pure virtual returns (string memory);
+}
+
+contract DummyImplementation {
+    uint256 public value;
+    string public text;
+    uint256[] public values;
+
+    function initializeNonPayable() public {
+        value = 10;
+    }
+
+    function initializePayable() public payable {
+        value = 100;
+    }
+
+    function initializeNonPayableWithValue(uint256 _value) public {
+        value = _value;
+    }
+
+    function initializePayableWithValue(uint256 _value) public payable {
+        value = _value;
+    }
+
+    function initialize(uint256 _value, string memory _text, uint256[] memory _values) public {
+        value = _value;
+        text = _text;
+        values = _values;
+    }
+
+    function get() public pure returns (bool) {
+        return true;
+    }
+
+    function version() public pure virtual returns (string memory) {
+        return "V1";
+    }
+
+    function reverts() public pure {
+        require(false, "DummyImplementation reverted");
+    }
+
+    // Use for forcing an unsafe TransparentUpgradeableProxy admin override
+    function unsafeOverrideAdmin(address newAdmin) public {
+        StorageSlot.getAddressSlot(ERC1967Utils.ADMIN_SLOT).value = newAdmin;
+    }
+}
+
+contract DummyImplementationV2 is DummyImplementation {
+    function migrate(uint256 newVal) public payable {
+        value = newVal;
+    }
+
+    function version() public pure override returns (string memory) {
+        return "V2";
+    }
+}
