@@ -1,1 +1,190 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwpjb25zdCB7IFBBTklDX0NPREVTIH0gPSByZXF1aXJlKCdAbm9taWNmb3VuZGF0aW9uL2hhcmRoYXQtY2hhaS1tYXRjaGVycy9wYW5pYycpOwoKY29uc3QgeyBSZXZlcnRUeXBlIH0gPSByZXF1aXJlKCcuLi9oZWxwZXJzL2VudW1zJyk7Cgphc3luYyBmdW5jdGlvbiBmaXh0dXJlKCkgewogIGNvbnN0IFtkZXBsb3llciwgb3RoZXJdID0gYXdhaXQgZXRoZXJzLmdldFNpZ25lcnMoKTsKCiAgY29uc3QgZmFjdG9yeSA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnJENyZWF0ZTInKTsKCiAgLy8gQnl0ZWNvZGUgZm9yIGRlcGxveWluZyBhIGNvbnRyYWN0IHRoYXQgaW5jbHVkZXMgYSBjb25zdHJ1Y3Rvci4KICAvLyBXZSB1c2UgYSB2ZXN0aW5nIHdhbGxldCwgd2l0aCAzIGNvbnN0cnVjdG9yIGFyZ3VtZW50cy4KICBjb25zdCBjb25zdHJ1Y3RvckJ5dGVDb2RlID0gYXdhaXQgZXRoZXJzCiAgICAuZ2V0Q29udHJhY3RGYWN0b3J5KCdWZXN0aW5nV2FsbGV0JykKICAgIC50aGVuKCh7IGJ5dGVjb2RlLCBpbnRlcmZhY2UgfSkgPT4gZXRoZXJzLmNvbmNhdChbYnl0ZWNvZGUsIGludGVyZmFjZS5lbmNvZGVEZXBsb3koW290aGVyLmFkZHJlc3MsIDBuLCAwbl0pXSkpOwoKICAvLyBCeXRlY29kZSBmb3IgZGVwbG95aW5nIGEgY29udHJhY3QgdGhhdCBoYXMgbm8gY29uc3RydWN0b3IgbG9nLgogIC8vIEhlcmUgd2UgdXNlIHRoZSBDcmVhdGUyIGhlbHBlciBmYWN0b3J5LgogIGNvbnN0IGNvbnN0cnVjdG9yTGVzc0J5dGVjb2RlID0gYXdhaXQgZXRoZXJzCiAgICAuZ2V0Q29udHJhY3RGYWN0b3J5KCckQ3JlYXRlMicpCiAgICAudGhlbigoeyBieXRlY29kZSwgaW50ZXJmYWNlIH0pID0+IGV0aGVycy5jb25jYXQoW2J5dGVjb2RlLCBpbnRlcmZhY2UuZW5jb2RlRGVwbG95KFtdKV0pKTsKCiAgY29uc3QgbW9ja0ZhY3RvcnkgPSBhd2FpdCBldGhlcnMuZ2V0Q29udHJhY3RGYWN0b3J5KCdDb25zdHJ1Y3Rvck1vY2snKTsKCiAgcmV0dXJuIHsgZGVwbG95ZXIsIG90aGVyLCBmYWN0b3J5LCBjb25zdHJ1Y3RvckJ5dGVDb2RlLCBjb25zdHJ1Y3Rvckxlc3NCeXRlY29kZSwgbW9ja0ZhY3RvcnkgfTsKfQoKZGVzY3JpYmUoJ0NyZWF0ZTInLCBmdW5jdGlvbiAoKSB7CiAgY29uc3Qgc2FsdCA9ICdzYWx0IG1lc3NhZ2UnOwogIGNvbnN0IHNhbHRIZXggPSBldGhlcnMuaWQoc2FsdCk7CgogIGJlZm9yZUVhY2goYXN5bmMgZnVuY3Rpb24gKCkgewogICAgT2JqZWN0LmFzc2lnbih0aGlzLCBhd2FpdCBsb2FkRml4dHVyZShmaXh0dXJlKSk7CiAgfSk7CgogIGRlc2NyaWJlKCdjb21wdXRlQWRkcmVzcycsIGZ1bmN0aW9uICgpIHsKICAgIGl0KCdjb21wdXRlcyB0aGUgY29ycmVjdCBjb250cmFjdCBhZGRyZXNzJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCBvbkNoYWluQ29tcHV0ZWQgPSBhd2FpdCB0aGlzLmZhY3RvcnkuJGNvbXB1dGVBZGRyZXNzKHNhbHRIZXgsIGV0aGVycy5rZWNjYWsyNTYodGhpcy5jb25zdHJ1Y3RvckJ5dGVDb2RlKSk7CiAgICAgIGNvbnN0IG9mZkNoYWluQ29tcHV0ZWQgPSBldGhlcnMuZ2V0Q3JlYXRlMkFkZHJlc3MoCiAgICAgICAgdGhpcy5mYWN0b3J5LnRhcmdldCwKICAgICAgICBzYWx0SGV4LAogICAgICAgIGV0aGVycy5rZWNjYWsyNTYodGhpcy5jb25zdHJ1Y3RvckJ5dGVDb2RlKSwKICAgICAgKTsKICAgICAgZXhwZWN0KG9uQ2hhaW5Db21wdXRlZCkudG8uZXF1YWwob2ZmQ2hhaW5Db21wdXRlZCk7CiAgICB9KTsKCiAgICBpdCgnY29tcHV0ZXMgdGhlIGNvcnJlY3QgY29udHJhY3QgYWRkcmVzcyB3aXRoIGRlcGxveWVyJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCBvbkNoYWluQ29tcHV0ZWQgPSBhd2FpdCB0aGlzLmZhY3RvcnkuJGNvbXB1dGVBZGRyZXNzKAogICAgICAgIHNhbHRIZXgsCiAgICAgICAgZXRoZXJzLmtlY2NhazI1Nih0aGlzLmNvbnN0cnVjdG9yQnl0ZUNvZGUpLAogICAgICAgIGV0aGVycy5UeXBlZC5hZGRyZXNzKHRoaXMuZGVwbG95ZXIpLAogICAgICApOwogICAgICBjb25zdCBvZmZDaGFpbkNvbXB1dGVkID0gZXRoZXJzLmdldENyZWF0ZTJBZGRyZXNzKAogICAgICAgIHRoaXMuZGVwbG95ZXIuYWRkcmVzcywKICAgICAgICBzYWx0SGV4LAogICAgICAgIGV0aGVycy5rZWNjYWsyNTYodGhpcy5jb25zdHJ1Y3RvckJ5dGVDb2RlKSwKICAgICAgKTsKICAgICAgZXhwZWN0KG9uQ2hhaW5Db21wdXRlZCkudG8uZXF1YWwob2ZmQ2hhaW5Db21wdXRlZCk7CiAgICB9KTsKICB9KTsKCiAgZGVzY3JpYmUoJ2RlcGxveScsIGZ1bmN0aW9uICgpIHsKICAgIGl0KCdkZXBsb3lzIGEgY29udHJhY3Qgd2l0aG91dCBjb25zdHJ1Y3RvcicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgY29uc3Qgb2ZmQ2hhaW5Db21wdXRlZCA9IGV0aGVycy5nZXRDcmVhdGUyQWRkcmVzcygKICAgICAgICB0aGlzLmZhY3RvcnkudGFyZ2V0LAogICAgICAgIHNhbHRIZXgsCiAgICAgICAgZXRoZXJzLmtlY2NhazI1Nih0aGlzLmNvbnN0cnVjdG9yTGVzc0J5dGVjb2RlKSwKICAgICAgKTsKCiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLmZhY3RvcnkuJGRlcGxveSgwbiwgc2FsdEhleCwgdGhpcy5jb25zdHJ1Y3Rvckxlc3NCeXRlY29kZSkpCiAgICAgICAgLnRvLmVtaXQodGhpcy5mYWN0b3J5LCAncmV0dXJuJGRlcGxveScpCiAgICAgICAgLndpdGhBcmdzKG9mZkNoYWluQ29tcHV0ZWQpOwoKICAgICAgZXhwZWN0KHRoaXMuY29uc3RydWN0b3JMZXNzQnl0ZWNvZGUpLnRvLmluY2x1ZGUoKGF3YWl0IGV0aGVycy5wcm92aWRlci5nZXRDb2RlKG9mZkNoYWluQ29tcHV0ZWQpKS5zbGljZSgyKSk7CiAgICB9KTsKCiAgICBpdCgnZGVwbG95cyBhIGNvbnRyYWN0IHdpdGggY29uc3RydWN0b3IgYXJndW1lbnRzJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCBvZmZDaGFpbkNvbXB1dGVkID0gZXRoZXJzLmdldENyZWF0ZTJBZGRyZXNzKAogICAgICAgIHRoaXMuZmFjdG9yeS50YXJnZXQsCiAgICAgICAgc2FsdEhleCwKICAgICAgICBldGhlcnMua2VjY2FrMjU2KHRoaXMuY29uc3RydWN0b3JCeXRlQ29kZSksCiAgICAgICk7CgogICAgICBhd2FpdCBleHBlY3QodGhpcy5mYWN0b3J5LiRkZXBsb3koMG4sIHNhbHRIZXgsIHRoaXMuY29uc3RydWN0b3JCeXRlQ29kZSkpCiAgICAgICAgLnRvLmVtaXQodGhpcy5mYWN0b3J5LCAncmV0dXJuJGRlcGxveScpCiAgICAgICAgLndpdGhBcmdzKG9mZkNoYWluQ29tcHV0ZWQpOwoKICAgICAgY29uc3QgaW5zdGFuY2UgPSBhd2FpdCBldGhlcnMuZ2V0Q29udHJhY3RBdCgnVmVzdGluZ1dhbGxldCcsIG9mZkNoYWluQ29tcHV0ZWQpOwoKICAgICAgZXhwZWN0KGF3YWl0IGluc3RhbmNlLm93bmVyKCkpLnRvLmVxdWFsKHRoaXMub3RoZXIpOwogICAgfSk7CgogICAgaXQoJ2RlcGxveXMgYSBjb250cmFjdCB3aXRoIGZ1bmRzIGRlcG9zaXRlZCBpbiB0aGUgZmFjdG9yeScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgY29uc3QgdmFsdWUgPSAxMG47CgogICAgICBhd2FpdCB0aGlzLmRlcGxveWVyLnNlbmRUcmFuc2FjdGlvbih7IHRvOiB0aGlzLmZhY3RvcnksIHZhbHVlIH0pOwoKICAgICAgY29uc3Qgb2ZmQ2hhaW5Db21wdXRlZCA9IGV0aGVycy5nZXRDcmVhdGUyQWRkcmVzcygKICAgICAgICB0aGlzLmZhY3RvcnkudGFyZ2V0LAogICAgICAgIHNhbHRIZXgsCiAgICAgICAgZXRoZXJzLmtlY2NhazI1Nih0aGlzLmNvbnN0cnVjdG9yQnl0ZUNvZGUpLAogICAgICApOwoKICAgICAgZXhwZWN0KGF3YWl0IGV0aGVycy5wcm92aWRlci5nZXRCYWxhbmNlKHRoaXMuZmFjdG9yeSkpLnRvLmVxdWFsKHZhbHVlKTsKICAgICAgZXhwZWN0KGF3YWl0IGV0aGVycy5wcm92aWRlci5nZXRCYWxhbmNlKG9mZkNoYWluQ29tcHV0ZWQpKS50by5lcXVhbCgwbik7CgogICAgICBhd2FpdCBleHBlY3QodGhpcy5mYWN0b3J5LiRkZXBsb3kodmFsdWUsIHNhbHRIZXgsIHRoaXMuY29uc3RydWN0b3JCeXRlQ29kZSkpCiAgICAgICAgLnRvLmVtaXQodGhpcy5mYWN0b3J5LCAncmV0dXJuJGRlcGxveScpCiAgICAgICAgLndpdGhBcmdzKG9mZkNoYWluQ29tcHV0ZWQpOwoKICAgICAgZXhwZWN0KGF3YWl0IGV0aGVycy5wcm92aWRlci5nZXRCYWxhbmNlKHRoaXMuZmFjdG9yeSkpLnRvLmVxdWFsKDBuKTsKICAgICAgZXhwZWN0KGF3YWl0IGV0aGVycy5wcm92aWRlci5nZXRCYWxhbmNlKG9mZkNoYWluQ29tcHV0ZWQpKS50by5lcXVhbCh2YWx1ZSk7CiAgICB9KTsKCiAgICBpdCgnZmFpbHMgZGVwbG95aW5nIGEgY29udHJhY3QgaW4gYW4gZXhpc3RlbnQgYWRkcmVzcycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMuZmFjdG9yeS4kZGVwbG95KDBuLCBzYWx0SGV4LCB0aGlzLmNvbnN0cnVjdG9yQnl0ZUNvZGUpKS50by5lbWl0KHRoaXMuZmFjdG9yeSwgJ3JldHVybiRkZXBsb3knKTsKCiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLmZhY3RvcnkuJGRlcGxveSgwbiwgc2FsdEhleCwgdGhpcy5jb25zdHJ1Y3RvckJ5dGVDb2RlKSkudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IoCiAgICAgICAgdGhpcy5mYWN0b3J5LAogICAgICAgICdGYWlsZWREZXBsb3ltZW50JywKICAgICAgKTsKICAgIH0pOwoKICAgIGl0KCdmYWlscyBkZXBsb3lpbmcgYSBjb250cmFjdCBpZiB0aGUgYnl0ZWNvZGUgbGVuZ3RoIGlzIHplcm8nLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLmZhY3RvcnkuJGRlcGxveSgwbiwgc2FsdEhleCwgJzB4JykpLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKAogICAgICAgIHRoaXMuZmFjdG9yeSwKICAgICAgICAnQ3JlYXRlMkVtcHR5Qnl0ZWNvZGUnLAogICAgICApOwogICAgfSk7CgogICAgaXQoJ2ZhaWxzIGRlcGxveWluZyBhIGNvbnRyYWN0IGlmIGZhY3RvcnkgY29udHJhY3QgZG9lcyBub3QgaGF2ZSBzdWZmaWNpZW50IGJhbGFuY2UnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLmZhY3RvcnkuJGRlcGxveSgxbiwgc2FsdEhleCwgdGhpcy5jb25zdHJ1Y3RvckJ5dGVDb2RlKSkKICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy5mYWN0b3J5LCAnSW5zdWZmaWNpZW50QmFsYW5jZScpCiAgICAgICAgLndpdGhBcmdzKDBuLCAxbik7CiAgICB9KTsKCiAgICBkZXNjcmliZSgncmV2ZXJ0cyBlcnJvciB0aHJvd24gZHVyaW5nIGNvbnRyYWN0IGNyZWF0aW9uJywgZnVuY3Rpb24gKCkgewogICAgICBpdCgnYnViYmxlcyB1cCB3aXRob3V0IG1lc3NhZ2UnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgYXdhaXQgZXhwZWN0KAogICAgICAgICAgdGhpcy5mYWN0b3J5LiRkZXBsb3koCiAgICAgICAgICAgIDBuLAogICAgICAgICAgICBzYWx0SGV4LAogICAgICAgICAgICBldGhlcnMuY29uY2F0KFsKICAgICAgICAgICAgICB0aGlzLm1vY2tGYWN0b3J5LmJ5dGVjb2RlLAogICAgICAgICAgICAgIHRoaXMubW9ja0ZhY3RvcnkuaW50ZXJmYWNlLmVuY29kZURlcGxveShbUmV2ZXJ0VHlwZS5SZXZlcnRXaXRob3V0TWVzc2FnZV0pLAogICAgICAgICAgICBdKSwKICAgICAgICAgICksCiAgICAgICAgKS50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLmZhY3RvcnksICdGYWlsZWREZXBsb3ltZW50Jyk7CiAgICAgIH0pOwoKICAgICAgaXQoJ2J1YmJsZXMgdXAgbWVzc2FnZScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBhd2FpdCBleHBlY3QoCiAgICAgICAgICB0aGlzLmZhY3RvcnkuJGRlcGxveSgKICAgICAgICAgICAgMG4sCiAgICAgICAgICAgIHNhbHRIZXgsCiAgICAgICAgICAgIGV0aGVycy5jb25jYXQoWwogICAgICAgICAgICAgIHRoaXMubW9ja0ZhY3RvcnkuYnl0ZWNvZGUsCiAgICAgICAgICAgICAgdGhpcy5tb2NrRmFjdG9yeS5pbnRlcmZhY2UuZW5jb2RlRGVwbG95KFtSZXZlcnRUeXBlLlJldmVydFdpdGhNZXNzYWdlXSksCiAgICAgICAgICAgIF0pLAogICAgICAgICAgKSwKICAgICAgICApLnRvLmJlLnJldmVydGVkV2l0aCgnQ29uc3RydWN0b3JNb2NrOiByZXZlcnRpbmcnKTsKICAgICAgfSk7CgogICAgICBpdCgnYnViYmxlcyB1cCBjdXN0b20gZXJyb3InLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgYXdhaXQgZXhwZWN0KAogICAgICAgICAgdGhpcy5mYWN0b3J5LiRkZXBsb3koCiAgICAgICAgICAgIDBuLAogICAgICAgICAgICBzYWx0SGV4LAogICAgICAgICAgICBldGhlcnMuY29uY2F0KFsKICAgICAgICAgICAgICB0aGlzLm1vY2tGYWN0b3J5LmJ5dGVjb2RlLAogICAgICAgICAgICAgIHRoaXMubW9ja0ZhY3RvcnkuaW50ZXJmYWNlLmVuY29kZURlcGxveShbUmV2ZXJ0VHlwZS5SZXZlcnRXaXRoQ3VzdG9tRXJyb3JdKSwKICAgICAgICAgICAgXSksCiAgICAgICAgICApLAogICAgICAgICkudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IoeyBpbnRlcmZhY2U6IHRoaXMubW9ja0ZhY3RvcnkuaW50ZXJmYWNlIH0sICdDdXN0b21FcnJvcicpOwogICAgICB9KTsKCiAgICAgIGl0KCdidWJibGVzIHVwIHBhbmljJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGF3YWl0IGV4cGVjdCgKICAgICAgICAgIHRoaXMuZmFjdG9yeS4kZGVwbG95KAogICAgICAgICAgICAwbiwKICAgICAgICAgICAgc2FsdEhleCwKICAgICAgICAgICAgZXRoZXJzLmNvbmNhdChbdGhpcy5tb2NrRmFjdG9yeS5ieXRlY29kZSwgdGhpcy5tb2NrRmFjdG9yeS5pbnRlcmZhY2UuZW5jb2RlRGVwbG95KFtSZXZlcnRUeXBlLlBhbmljXSldKSwKICAgICAgICAgICksCiAgICAgICAgKS50by5iZS5yZXZlcnRlZFdpdGhQYW5pYyhQQU5JQ19DT0RFUy5ESVZJU0lPTl9CWV9aRVJPKTsKICAgICAgfSk7CiAgICB9KTsKICB9KTsKfSk7Cg==
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+const { PANIC_CODES } = require('@nomicfoundation/hardhat-chai-matchers/panic');
+
+const { RevertType } = require('../helpers/enums');
+
+async function fixture() {
+  const [deployer, other] = await ethers.getSigners();
+
+  const factory = await ethers.deployContract('$Create2');
+
+  // Bytecode for deploying a contract that includes a constructor.
+  // We use a vesting wallet, with 3 constructor arguments.
+  const constructorByteCode = await ethers
+    .getContractFactory('VestingWallet')
+    .then(({ bytecode, interface }) => ethers.concat([bytecode, interface.encodeDeploy([other.address, 0n, 0n])]));
+
+  // Bytecode for deploying a contract that has no constructor log.
+  // Here we use the Create2 helper factory.
+  const constructorLessBytecode = await ethers
+    .getContractFactory('$Create2')
+    .then(({ bytecode, interface }) => ethers.concat([bytecode, interface.encodeDeploy([])]));
+
+  const mockFactory = await ethers.getContractFactory('ConstructorMock');
+
+  return { deployer, other, factory, constructorByteCode, constructorLessBytecode, mockFactory };
+}
+
+describe('Create2', function () {
+  const salt = 'salt message';
+  const saltHex = ethers.id(salt);
+
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  describe('computeAddress', function () {
+    it('computes the correct contract address', async function () {
+      const onChainComputed = await this.factory.$computeAddress(saltHex, ethers.keccak256(this.constructorByteCode));
+      const offChainComputed = ethers.getCreate2Address(
+        this.factory.target,
+        saltHex,
+        ethers.keccak256(this.constructorByteCode),
+      );
+      expect(onChainComputed).to.equal(offChainComputed);
+    });
+
+    it('computes the correct contract address with deployer', async function () {
+      const onChainComputed = await this.factory.$computeAddress(
+        saltHex,
+        ethers.keccak256(this.constructorByteCode),
+        ethers.Typed.address(this.deployer),
+      );
+      const offChainComputed = ethers.getCreate2Address(
+        this.deployer.address,
+        saltHex,
+        ethers.keccak256(this.constructorByteCode),
+      );
+      expect(onChainComputed).to.equal(offChainComputed);
+    });
+  });
+
+  describe('deploy', function () {
+    it('deploys a contract without constructor', async function () {
+      const offChainComputed = ethers.getCreate2Address(
+        this.factory.target,
+        saltHex,
+        ethers.keccak256(this.constructorLessBytecode),
+      );
+
+      await expect(this.factory.$deploy(0n, saltHex, this.constructorLessBytecode))
+        .to.emit(this.factory, 'return$deploy')
+        .withArgs(offChainComputed);
+
+      expect(this.constructorLessBytecode).to.include((await ethers.provider.getCode(offChainComputed)).slice(2));
+    });
+
+    it('deploys a contract with constructor arguments', async function () {
+      const offChainComputed = ethers.getCreate2Address(
+        this.factory.target,
+        saltHex,
+        ethers.keccak256(this.constructorByteCode),
+      );
+
+      await expect(this.factory.$deploy(0n, saltHex, this.constructorByteCode))
+        .to.emit(this.factory, 'return$deploy')
+        .withArgs(offChainComputed);
+
+      const instance = await ethers.getContractAt('VestingWallet', offChainComputed);
+
+      expect(await instance.owner()).to.equal(this.other);
+    });
+
+    it('deploys a contract with funds deposited in the factory', async function () {
+      const value = 10n;
+
+      await this.deployer.sendTransaction({ to: this.factory, value });
+
+      const offChainComputed = ethers.getCreate2Address(
+        this.factory.target,
+        saltHex,
+        ethers.keccak256(this.constructorByteCode),
+      );
+
+      expect(await ethers.provider.getBalance(this.factory)).to.equal(value);
+      expect(await ethers.provider.getBalance(offChainComputed)).to.equal(0n);
+
+      await expect(this.factory.$deploy(value, saltHex, this.constructorByteCode))
+        .to.emit(this.factory, 'return$deploy')
+        .withArgs(offChainComputed);
+
+      expect(await ethers.provider.getBalance(this.factory)).to.equal(0n);
+      expect(await ethers.provider.getBalance(offChainComputed)).to.equal(value);
+    });
+
+    it('fails deploying a contract in an existent address', async function () {
+      await expect(this.factory.$deploy(0n, saltHex, this.constructorByteCode)).to.emit(this.factory, 'return$deploy');
+
+      await expect(this.factory.$deploy(0n, saltHex, this.constructorByteCode)).to.be.revertedWithCustomError(
+        this.factory,
+        'FailedDeployment',
+      );
+    });
+
+    it('fails deploying a contract if the bytecode length is zero', async function () {
+      await expect(this.factory.$deploy(0n, saltHex, '0x')).to.be.revertedWithCustomError(
+        this.factory,
+        'Create2EmptyBytecode',
+      );
+    });
+
+    it('fails deploying a contract if factory contract does not have sufficient balance', async function () {
+      await expect(this.factory.$deploy(1n, saltHex, this.constructorByteCode))
+        .to.be.revertedWithCustomError(this.factory, 'InsufficientBalance')
+        .withArgs(0n, 1n);
+    });
+
+    describe('reverts error thrown during contract creation', function () {
+      it('bubbles up without message', async function () {
+        await expect(
+          this.factory.$deploy(
+            0n,
+            saltHex,
+            ethers.concat([
+              this.mockFactory.bytecode,
+              this.mockFactory.interface.encodeDeploy([RevertType.RevertWithoutMessage]),
+            ]),
+          ),
+        ).to.be.revertedWithCustomError(this.factory, 'FailedDeployment');
+      });
+
+      it('bubbles up message', async function () {
+        await expect(
+          this.factory.$deploy(
+            0n,
+            saltHex,
+            ethers.concat([
+              this.mockFactory.bytecode,
+              this.mockFactory.interface.encodeDeploy([RevertType.RevertWithMessage]),
+            ]),
+          ),
+        ).to.be.revertedWith('ConstructorMock: reverting');
+      });
+
+      it('bubbles up custom error', async function () {
+        await expect(
+          this.factory.$deploy(
+            0n,
+            saltHex,
+            ethers.concat([
+              this.mockFactory.bytecode,
+              this.mockFactory.interface.encodeDeploy([RevertType.RevertWithCustomError]),
+            ]),
+          ),
+        ).to.be.revertedWithCustomError({ interface: this.mockFactory.interface }, 'CustomError');
+      });
+
+      it('bubbles up panic', async function () {
+        await expect(
+          this.factory.$deploy(
+            0n,
+            saltHex,
+            ethers.concat([this.mockFactory.bytecode, this.mockFactory.interface.encodeDeploy([RevertType.Panic])]),
+          ),
+        ).to.be.revertedWithPanic(PANIC_CODES.DIVISION_BY_ZERO);
+      });
+    });
+  });
+});
