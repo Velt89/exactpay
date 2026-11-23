@@ -1,1 +1,311 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge1Rlc3QsIHN0ZEVycm9yfSBmcm9tICJmb3JnZS1zdGQvVGVzdC5zb2wiOwoKaW1wb3J0IHtNYXRofSBmcm9tICJAb3BlbnplcHBlbGluL2NvbnRyYWN0cy91dGlscy9tYXRoL01hdGguc29sIjsKCmNvbnRyYWN0IE1hdGhUZXN0IGlzIFRlc3QgewogICAgZnVuY3Rpb24gdGVzdFN5bWJvbGljVGVybmFyeShib29sIGYsIHVpbnQyNTYgYSwgdWludDI1NiBiKSBwdWJsaWMgewogICAgICAgIGFzc2VydEVxKE1hdGgudGVybmFyeShmLCBhLCBiKSwgZiA/IGEgOiBiKTsKICAgIH0KCiAgICAvLyBNSU4gJiBNQVgKICAgIGZ1bmN0aW9uIHRlc3RTeW1ib2xpY01pbk1heCh1aW50MjU2IGEsIHVpbnQyNTYgYikgcHVibGljIHsKICAgICAgICBhc3NlcnRFcShNYXRoLm1pbihhLCBiKSwgYSA8IGIgPyBhIDogYik7CiAgICAgICAgYXNzZXJ0RXEoTWF0aC5tYXgoYSwgYiksIGEgPiBiID8gYSA6IGIpOwogICAgfQoKICAgIC8vIENFSUxESVYKICAgIGZ1bmN0aW9uIHRlc3RDZWlsRGl2KHVpbnQyNTYgYSwgdWludDI1NiBiKSBwdWJsaWMgewogICAgICAgIHZtLmFzc3VtZShiID4gMCk7CgogICAgICAgIHVpbnQyNTYgcmVzdWx0ID0gTWF0aC5jZWlsRGl2KGEsIGIpOwoKICAgICAgICBpZiAocmVzdWx0ID09IDApIHsKICAgICAgICAgICAgYXNzZXJ0RXEoYSwgMCk7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgdWludDI1NiBleHBlY3QgPSBhIC8gYjsKICAgICAgICAgICAgaWYgKGV4cGVjdCAqIGIgPCBhKSB7CiAgICAgICAgICAgICAgICBleHBlY3QgKz0gMTsKICAgICAgICAgICAgfQogICAgICAgICAgICBhc3NlcnRFcShyZXN1bHQsIGV4cGVjdCk7CiAgICAgICAgfQogICAgfQoKICAgIC8vIFNRUlQKICAgIGZ1bmN0aW9uIHRlc3RTcXJ0KHVpbnQyNTYgaW5wdXQsIHVpbnQ4IHIpIHB1YmxpYyB7CiAgICAgICAgTWF0aC5Sb3VuZGluZyByb3VuZGluZyA9IF9hc1JvdW5kaW5nKHIpOwoKICAgICAgICB1aW50MjU2IHJlc3VsdCA9IE1hdGguc3FydChpbnB1dCwgcm91bmRpbmcpOwoKICAgICAgICAvLyBzcXVhcmUgb2YgcmVzdWx0IGlzIGJpZ2dlciB0aGFuIGlucHV0CiAgICAgICAgaWYgKF9zcXVhcmVCaWdnZXIocmVzdWx0LCBpbnB1dCkpIHsKICAgICAgICAgICAgYXNzZXJ0VHJ1ZShNYXRoLnVuc2lnbmVkUm91bmRzVXAocm91bmRpbmcpKTsKICAgICAgICAgICAgYXNzZXJ0VHJ1ZShfc3F1YXJlU21hbGxlcihyZXN1bHQgLSAxLCBpbnB1dCkpOwogICAgICAgIH0KICAgICAgICAvLyBzcXVhcmUgb2YgcmVzdWx0IGlzIHNtYWxsZXIgdGhhbiBpbnB1dAogICAgICAgIGVsc2UgaWYgKF9zcXVhcmVTbWFsbGVyKHJlc3VsdCwgaW5wdXQpKSB7CiAgICAgICAgICAgIGFzc2VydEZhbHNlKE1hdGgudW5zaWduZWRSb3VuZHNVcChyb3VuZGluZykpOwogICAgICAgICAgICBhc3NlcnRUcnVlKF9zcXVhcmVCaWdnZXIocmVzdWx0ICsgMSwgaW5wdXQpKTsKICAgICAgICB9CiAgICAgICAgLy8gaW5wdXQgaXMgcGVyZmVjdCBzcXVhcmUKICAgICAgICBlbHNlIHsKICAgICAgICAgICAgYXNzZXJ0RXEocmVzdWx0ICogcmVzdWx0LCBpbnB1dCk7CiAgICAgICAgfQogICAgfQoKICAgIGZ1bmN0aW9uIF9zcXVhcmVCaWdnZXIodWludDI1NiB2YWx1ZSwgdWludDI1NiByZWYpIHByaXZhdGUgcHVyZSByZXR1cm5zIChib29sKSB7CiAgICAgICAgKGJvb2wgbm9PdmVyZmxvdywgdWludDI1NiBzcXVhcmUpID0gTWF0aC50cnlNdWwodmFsdWUsIHZhbHVlKTsKICAgICAgICByZXR1cm4gIW5vT3ZlcmZsb3cgfHwgc3F1YXJlID4gcmVmOwogICAgfQoKICAgIGZ1bmN0aW9uIF9zcXVhcmVTbWFsbGVyKHVpbnQyNTYgdmFsdWUsIHVpbnQyNTYgcmVmKSBwcml2YXRlIHB1cmUgcmV0dXJucyAoYm9vbCkgewogICAgICAgIHJldHVybiB2YWx1ZSAqIHZhbHVlIDwgcmVmOwogICAgfQoKICAgIC8vIElOVgogICAgZnVuY3Rpb24gdGVzdEludk1vZCh1aW50MjU2IHZhbHVlLCB1aW50MjU2IHApIHB1YmxpYyB7CiAgICAgICAgX3Rlc3RJbnZNb2QodmFsdWUsIHAsIHRydWUpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RJbnZNb2QyKHVpbnQyNTYgc2VlZCkgcHVibGljIHsKICAgICAgICB1aW50MjU2IHAgPSAyOyAvLyBwcmltZQogICAgICAgIF90ZXN0SW52TW9kKGJvdW5kKHNlZWQsIDEsIHAgLSAxKSwgcCwgZmFsc2UpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RJbnZNb2QxNyh1aW50MjU2IHNlZWQpIHB1YmxpYyB7CiAgICAgICAgdWludDI1NiBwID0gMTc7IC8vIHByaW1lCiAgICAgICAgX3Rlc3RJbnZNb2QoYm91bmQoc2VlZCwgMSwgcCAtIDEpLCBwLCBmYWxzZSk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdEludk1vZDY1NTM3KHVpbnQyNTYgc2VlZCkgcHVibGljIHsKICAgICAgICB1aW50MjU2IHAgPSA2NTUzNzsgLy8gcHJpbWUKICAgICAgICBfdGVzdEludk1vZChib3VuZChzZWVkLCAxLCBwIC0gMSksIHAsIGZhbHNlKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0SW52TW9kUDI1Nih1aW50MjU2IHNlZWQpIHB1YmxpYyB7CiAgICAgICAgdWludDI1NiBwID0gMHhmZmZmZmZmZjAwMDAwMDAxMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmOyAvLyBwcmltZQogICAgICAgIF90ZXN0SW52TW9kKGJvdW5kKHNlZWQsIDEsIHAgLSAxKSwgcCwgZmFsc2UpOwogICAgfQoKICAgIGZ1bmN0aW9uIF90ZXN0SW52TW9kKHVpbnQyNTYgdmFsdWUsIHVpbnQyNTYgcCwgYm9vbCBhbGxvd1plcm8pIHByaXZhdGUgewogICAgICAgIHVpbnQyNTYgaW52ZXJzZSA9IE1hdGguaW52TW9kKHZhbHVlLCBwKTsKICAgICAgICBpZiAoaW52ZXJzZSAhPSAwKSB7CiAgICAgICAgICAgIGFzc2VydEVxKG11bG1vZCh2YWx1ZSwgaW52ZXJzZSwgcCksIDEpOwogICAgICAgICAgICBhc3NlcnRMdChpbnZlcnNlLCBwKTsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBhc3NlcnRUcnVlKGFsbG93WmVybyk7CiAgICAgICAgfQogICAgfQoKICAgIC8vIExPRzIKICAgIGZ1bmN0aW9uIHRlc3RMb2cyKHVpbnQyNTYgaW5wdXQsIHVpbnQ4IHIpIHB1YmxpYyB7CiAgICAgICAgTWF0aC5Sb3VuZGluZyByb3VuZGluZyA9IF9hc1JvdW5kaW5nKHIpOwoKICAgICAgICB1aW50MjU2IHJlc3VsdCA9IE1hdGgubG9nMihpbnB1dCwgcm91bmRpbmcpOwoKICAgICAgICBpZiAoaW5wdXQgPT0gMCkgewogICAgICAgICAgICBhc3NlcnRFcShyZXN1bHQsIDApOwogICAgICAgIH0gZWxzZSBpZiAoX3Bvd2VyT2YyQmlnZ2VyKHJlc3VsdCwgaW5wdXQpKSB7CiAgICAgICAgICAgIGFzc2VydFRydWUoTWF0aC51bnNpZ25lZFJvdW5kc1VwKHJvdW5kaW5nKSk7CiAgICAgICAgICAgIGFzc2VydFRydWUoX3Bvd2VyT2YyU21hbGxlcihyZXN1bHQgLSAxLCBpbnB1dCkpOwogICAgICAgIH0gZWxzZSBpZiAoX3Bvd2VyT2YyU21hbGxlcihyZXN1bHQsIGlucHV0KSkgewogICAgICAgICAgICBhc3NlcnRGYWxzZShNYXRoLnVuc2lnbmVkUm91bmRzVXAocm91bmRpbmcpKTsKICAgICAgICAgICAgYXNzZXJ0VHJ1ZShfcG93ZXJPZjJCaWdnZXIocmVzdWx0ICsgMSwgaW5wdXQpKTsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBhc3NlcnRFcSgyICoqIHJlc3VsdCwgaW5wdXQpOwogICAgICAgIH0KICAgIH0KCiAgICBmdW5jdGlvbiBfcG93ZXJPZjJCaWdnZXIodWludDI1NiB2YWx1ZSwgdWludDI1NiByZWYpIHByaXZhdGUgcHVyZSByZXR1cm5zIChib29sKSB7CiAgICAgICAgcmV0dXJuIHZhbHVlID49IDI1NiB8fCAyICoqIHZhbHVlID4gcmVmOyAvLyAyKioyNTYgb3ZlcmZsb3dzIHVpbnQyNTYKICAgIH0KCiAgICBmdW5jdGlvbiBfcG93ZXJPZjJTbWFsbGVyKHVpbnQyNTYgdmFsdWUsIHVpbnQyNTYgcmVmKSBwcml2YXRlIHB1cmUgcmV0dXJucyAoYm9vbCkgewogICAgICAgIHJldHVybiAyICoqIHZhbHVlIDwgcmVmOwogICAgfQoKICAgIC8vIExPRzEwCiAgICBmdW5jdGlvbiB0ZXN0TG9nMTAodWludDI1NiBpbnB1dCwgdWludDggcikgcHVibGljIHsKICAgICAgICBNYXRoLlJvdW5kaW5nIHJvdW5kaW5nID0gX2FzUm91bmRpbmcocik7CgogICAgICAgIHVpbnQyNTYgcmVzdWx0ID0gTWF0aC5sb2cxMChpbnB1dCwgcm91bmRpbmcpOwoKICAgICAgICBpZiAoaW5wdXQgPT0gMCkgewogICAgICAgICAgICBhc3NlcnRFcShyZXN1bHQsIDApOwogICAgICAgIH0gZWxzZSBpZiAoX3Bvd2VyT2YxMEJpZ2dlcihyZXN1bHQsIGlucHV0KSkgewogICAgICAgICAgICBhc3NlcnRUcnVlKE1hdGgudW5zaWduZWRSb3VuZHNVcChyb3VuZGluZykpOwogICAgICAgICAgICBhc3NlcnRUcnVlKF9wb3dlck9mMTBTbWFsbGVyKHJlc3VsdCAtIDEsIGlucHV0KSk7CiAgICAgICAgfSBlbHNlIGlmIChfcG93ZXJPZjEwU21hbGxlcihyZXN1bHQsIGlucHV0KSkgewogICAgICAgICAgICBhc3NlcnRGYWxzZShNYXRoLnVuc2lnbmVkUm91bmRzVXAocm91bmRpbmcpKTsKICAgICAgICAgICAgYXNzZXJ0VHJ1ZShfcG93ZXJPZjEwQmlnZ2VyKHJlc3VsdCArIDEsIGlucHV0KSk7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgYXNzZXJ0RXEoMTAgKiogcmVzdWx0LCBpbnB1dCk7CiAgICAgICAgfQogICAgfQoKICAgIGZ1bmN0aW9uIF9wb3dlck9mMTBCaWdnZXIodWludDI1NiB2YWx1ZSwgdWludDI1NiByZWYpIHByaXZhdGUgcHVyZSByZXR1cm5zIChib29sKSB7CiAgICAgICAgcmV0dXJuIHZhbHVlID49IDc4IHx8IDEwICoqIHZhbHVlID4gcmVmOyAvLyAxMCoqNzggb3ZlcmZsb3dzIHVpbnQyNTYKICAgIH0KCiAgICBmdW5jdGlvbiBfcG93ZXJPZjEwU21hbGxlcih1aW50MjU2IHZhbHVlLCB1aW50MjU2IHJlZikgcHJpdmF0ZSBwdXJlIHJldHVybnMgKGJvb2wpIHsKICAgICAgICByZXR1cm4gMTAgKiogdmFsdWUgPCByZWY7CiAgICB9CgogICAgLy8gTE9HMjU2CiAgICBmdW5jdGlvbiB0ZXN0TG9nMjU2KHVpbnQyNTYgaW5wdXQsIHVpbnQ4IHIpIHB1YmxpYyB7CiAgICAgICAgTWF0aC5Sb3VuZGluZyByb3VuZGluZyA9IF9hc1JvdW5kaW5nKHIpOwoKICAgICAgICB1aW50MjU2IHJlc3VsdCA9IE1hdGgubG9nMjU2KGlucHV0LCByb3VuZGluZyk7CgogICAgICAgIGlmIChpbnB1dCA9PSAwKSB7CiAgICAgICAgICAgIGFzc2VydEVxKHJlc3VsdCwgMCk7CiAgICAgICAgfSBlbHNlIGlmIChfcG93ZXJPZjI1NkJpZ2dlcihyZXN1bHQsIGlucHV0KSkgewogICAgICAgICAgICBhc3NlcnRUcnVlKE1hdGgudW5zaWduZWRSb3VuZHNVcChyb3VuZGluZykpOwogICAgICAgICAgICBhc3NlcnRUcnVlKF9wb3dlck9mMjU2U21hbGxlcihyZXN1bHQgLSAxLCBpbnB1dCkpOwogICAgICAgIH0gZWxzZSBpZiAoX3Bvd2VyT2YyNTZTbWFsbGVyKHJlc3VsdCwgaW5wdXQpKSB7CiAgICAgICAgICAgIGFzc2VydEZhbHNlKE1hdGgudW5zaWduZWRSb3VuZHNVcChyb3VuZGluZykpOwogICAgICAgICAgICBhc3NlcnRUcnVlKF9wb3dlck9mMjU2QmlnZ2VyKHJlc3VsdCArIDEsIGlucHV0KSk7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgYXNzZXJ0RXEoMjU2ICoqIHJlc3VsdCwgaW5wdXQpOwogICAgICAgIH0KICAgIH0KCiAgICBmdW5jdGlvbiBfcG93ZXJPZjI1NkJpZ2dlcih1aW50MjU2IHZhbHVlLCB1aW50MjU2IHJlZikgcHJpdmF0ZSBwdXJlIHJldHVybnMgKGJvb2wpIHsKICAgICAgICByZXR1cm4gdmFsdWUgPj0gMzIgfHwgMjU2ICoqIHZhbHVlID4gcmVmOyAvLyAyNTYqKjMyIG92ZXJmbG93cyB1aW50MjU2CiAgICB9CgogICAgZnVuY3Rpb24gX3Bvd2VyT2YyNTZTbWFsbGVyKHVpbnQyNTYgdmFsdWUsIHVpbnQyNTYgcmVmKSBwcml2YXRlIHB1cmUgcmV0dXJucyAoYm9vbCkgewogICAgICAgIHJldHVybiAyNTYgKiogdmFsdWUgPCByZWY7CiAgICB9CgogICAgLy8gTVVMRElWCiAgICBmdW5jdGlvbiB0ZXN0TXVsRGl2KHVpbnQyNTYgeCwgdWludDI1NiB5LCB1aW50MjU2IGQpIHB1YmxpYyB7CiAgICAgICAgLy8gRnVsbCBwcmVjaXNpb24gZm9yIHggKiB5CiAgICAgICAgKHVpbnQyNTYgeHlIaSwgdWludDI1NiB4eUxvKSA9IF9tdWxIaWdoTG93KHgsIHkpOwoKICAgICAgICAvLyBBc3N1bWUgcmVzdWx0IHdvbid0IG92ZXJmbG93IChzZWUge3Rlc3RNdWxEaXZEb21haW59KQogICAgICAgIC8vIFRoaXMgYWxzbyBjaGVja3MgdGhhdCBgZGAgaXMgcG9zaXRpdmUKICAgICAgICB2bS5hc3N1bWUoeHlIaSA8IGQpOwoKICAgICAgICAvLyBQZXJmb3JtIG11bGRpdgogICAgICAgIHVpbnQyNTYgcSA9IE1hdGgubXVsRGl2KHgsIHksIGQpOwoKICAgICAgICAvLyBGdWxsIHByZWNpc2lvbiBmb3IgcSAqIGQKICAgICAgICAodWludDI1NiBxZEhpLCB1aW50MjU2IHFkTG8pID0gX211bEhpZ2hMb3cocSwgZCk7CiAgICAgICAgLy8gQWRkIHJlbWFpbmRlciBvZiB4ICogeSAvIGQgKGNvbXB1dGVkIGFzIHJlbSA9ICh4ICogeSAlIGQpKQogICAgICAgICh1aW50MjU2IHFkUmVtTG8sIHVpbnQyNTYgYykgPSBfYWRkQ2FycnkocWRMbywgbXVsbW9kKHgsIHksIGQpKTsKICAgICAgICB1aW50MjU2IHFkUmVtSGkgPSBxZEhpICsgYzsKCiAgICAgICAgLy8gRnVsbCBwcmVjaXNpb24gY2hlY2sgdGhhdCB4ICogeSA9IHEgKiBkICsgcmVtCiAgICAgICAgYXNzZXJ0RXEoeHlIaSwgcWRSZW1IaSk7CiAgICAgICAgYXNzZXJ0RXEoeHlMbywgcWRSZW1Mbyk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdE11bERpdkRvbWFpbih1aW50MjU2IHgsIHVpbnQyNTYgeSwgdWludDI1NiBkKSBwdWJsaWMgewogICAgICAgICh1aW50MjU2IHh5SGksICkgPSBfbXVsSGlnaExvdyh4LCB5KTsKCiAgICAgICAgLy8gVmlvbGF0ZSB7dGVzdE11bERpdn0gYXNzdW1wdGlvbiAoY292ZXJzIGQgaXMgMCBhbmQgcmVzdWx0IG92ZXJmbG93KQogICAgICAgIHZtLmFzc3VtZSh4eUhpID49IGQpOwoKICAgICAgICAvLyB3ZSBhcmUgb3V0c2lkZSB0aGUgc2NvcGUgb2Yge3Rlc3RNdWxEaXZ9LCB3ZSBleHBlY3QgbXVsZGl2IHRvIHJldmVydAogICAgICAgIHZtLmV4cGVjdFJldmVydChkID09IDAgPyBzdGRFcnJvci5kaXZpc2lvbkVycm9yIDogc3RkRXJyb3IuYXJpdGhtZXRpY0Vycm9yKTsKICAgICAgICBNYXRoLm11bERpdih4LCB5LCBkKTsKICAgIH0KCiAgICAvLyBNT0QgRVhQCiAgICBmdW5jdGlvbiB0ZXN0TW9kRXhwKHVpbnQyNTYgYiwgdWludDI1NiBlLCB1aW50MjU2IG0pIHB1YmxpYyB7CiAgICAgICAgaWYgKG0gPT0gMCkgewogICAgICAgICAgICB2bS5leHBlY3RSZXZlcnQoc3RkRXJyb3IuZGl2aXNpb25FcnJvcik7CiAgICAgICAgfQogICAgICAgIHVpbnQyNTYgcmVzdWx0ID0gTWF0aC5tb2RFeHAoYiwgZSwgbSk7CiAgICAgICAgYXNzZXJ0THQocmVzdWx0LCBtKTsKICAgICAgICBhc3NlcnRFcShyZXN1bHQsIF9uYXRpdmVNb2RFeHAoYiwgZSwgbSkpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RUcnlNb2RFeHAodWludDI1NiBiLCB1aW50MjU2IGUsIHVpbnQyNTYgbSkgcHVibGljIHsKICAgICAgICAoYm9vbCBzdWNjZXNzLCB1aW50MjU2IHJlc3VsdCkgPSBNYXRoLnRyeU1vZEV4cChiLCBlLCBtKTsKICAgICAgICBhc3NlcnRFcShzdWNjZXNzLCBtICE9IDApOwogICAgICAgIGlmIChzdWNjZXNzKSB7CiAgICAgICAgICAgIGFzc2VydEx0KHJlc3VsdCwgbSk7CiAgICAgICAgICAgIGFzc2VydEVxKHJlc3VsdCwgX25hdGl2ZU1vZEV4cChiLCBlLCBtKSk7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgYXNzZXJ0RXEocmVzdWx0LCAwKTsKICAgICAgICB9CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdE1vZEV4cE1lbW9yeSh1aW50MjU2IGIsIHVpbnQyNTYgZSwgdWludDI1NiBtKSBwdWJsaWMgewogICAgICAgIGlmIChtID09IDApIHsKICAgICAgICAgICAgdm0uZXhwZWN0UmV2ZXJ0KHN0ZEVycm9yLmRpdmlzaW9uRXJyb3IpOwogICAgICAgIH0KICAgICAgICBieXRlcyBtZW1vcnkgcmVzdWx0ID0gTWF0aC5tb2RFeHAoYWJpLmVuY29kZVBhY2tlZChiKSwgYWJpLmVuY29kZVBhY2tlZChlKSwgYWJpLmVuY29kZVBhY2tlZChtKSk7CiAgICAgICAgYXNzZXJ0RXEocmVzdWx0Lmxlbmd0aCwgMHgyMCk7CiAgICAgICAgdWludDI1NiByZXMgPSBhYmkuZGVjb2RlKHJlc3VsdCwgKHVpbnQyNTYpKTsKICAgICAgICBhc3NlcnRMdChyZXMsIG0pOwogICAgICAgIGFzc2VydEVxKHJlcywgX25hdGl2ZU1vZEV4cChiLCBlLCBtKSk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdFRyeU1vZEV4cE1lbW9yeSh1aW50MjU2IGIsIHVpbnQyNTYgZSwgdWludDI1NiBtKSBwdWJsaWMgewogICAgICAgIChib29sIHN1Y2Nlc3MsIGJ5dGVzIG1lbW9yeSByZXN1bHQpID0gTWF0aC50cnlNb2RFeHAoCiAgICAgICAgICAgIGFiaS5lbmNvZGVQYWNrZWQoYiksCiAgICAgICAgICAgIGFiaS5lbmNvZGVQYWNrZWQoZSksCiAgICAgICAgICAgIGFiaS5lbmNvZGVQYWNrZWQobSkKICAgICAgICApOwogICAgICAgIGlmIChzdWNjZXNzKSB7CiAgICAgICAgICAgIGFzc2VydEVxKHJlc3VsdC5sZW5ndGgsIDB4MjApOyAvLyBtIGlzIGEgdWludDI1Niwgc28gYWJpLmVuY29kZVBhY2tlZChtKS5sZW5ndGggaXMgMHgyMAogICAgICAgICAgICB1aW50MjU2IHJlcyA9IGFiaS5kZWNvZGUocmVzdWx0LCAodWludDI1NikpOwogICAgICAgICAgICBhc3NlcnRMdChyZXMsIG0pOwogICAgICAgICAgICBhc3NlcnRFcShyZXMsIF9uYXRpdmVNb2RFeHAoYiwgZSwgbSkpOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIGFzc2VydEVxKHJlc3VsdC5sZW5ndGgsIDApOwogICAgICAgIH0KICAgIH0KCiAgICBmdW5jdGlvbiBfbmF0aXZlTW9kRXhwKHVpbnQyNTYgYiwgdWludDI1NiBlLCB1aW50MjU2IG0pIHByaXZhdGUgcHVyZSByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgaWYgKG0gPT0gMSkgcmV0dXJuIDA7CiAgICAgICAgdWludDI1NiByID0gMTsKICAgICAgICB3aGlsZSAoZSA+IDApIHsKICAgICAgICAgICAgaWYgKGUgJSAyID4gMCkgewogICAgICAgICAgICAgICAgciA9IG11bG1vZChyLCBiLCBtKTsKICAgICAgICAgICAgfQogICAgICAgICAgICBiID0gbXVsbW9kKGIsIGIsIG0pOwogICAgICAgICAgICBlID4+PSAxOwogICAgICAgIH0KICAgICAgICByZXR1cm4gcjsKICAgIH0KCiAgICAvLyBIZWxwZXJzCiAgICBmdW5jdGlvbiBfYXNSb3VuZGluZyh1aW50OCByKSBwcml2YXRlIHB1cmUgcmV0dXJucyAoTWF0aC5Sb3VuZGluZykgewogICAgICAgIHZtLmFzc3VtZShyIDwgdWludDgodHlwZShNYXRoLlJvdW5kaW5nKS5tYXgpKTsKICAgICAgICByZXR1cm4gTWF0aC5Sb3VuZGluZyhyKTsKICAgIH0KCiAgICBmdW5jdGlvbiBfbXVsSGlnaExvdyh1aW50MjU2IHgsIHVpbnQyNTYgeSkgcHJpdmF0ZSBwdXJlIHJldHVybnMgKHVpbnQyNTYgaGlnaCwgdWludDI1NiBsb3cpIHsKICAgICAgICAodWludDI1NiB4MCwgdWludDI1NiB4MSkgPSAoeCAmIHR5cGUodWludDEyOCkubWF4LCB4ID4+IDEyOCk7CiAgICAgICAgKHVpbnQyNTYgeTAsIHVpbnQyNTYgeTEpID0gKHkgJiB0eXBlKHVpbnQxMjgpLm1heCwgeSA+PiAxMjgpOwoKICAgICAgICAvLyBLYXJhdHN1YmEgYWxnb3JpdGhtCiAgICAgICAgLy8gaHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvS2FyYXRzdWJhX2FsZ29yaXRobQogICAgICAgIHVpbnQyNTYgejIgPSB4MSAqIHkxOwogICAgICAgIHVpbnQyNTYgejFhID0geDEgKiB5MDsKICAgICAgICB1aW50MjU2IHoxYiA9IHgwICogeTE7CiAgICAgICAgdWludDI1NiB6MCA9IHgwICogeTA7CgogICAgICAgIHVpbnQyNTYgY2FycnkgPSAoKHoxYSAmIHR5cGUodWludDEyOCkubWF4KSArICh6MWIgJiB0eXBlKHVpbnQxMjgpLm1heCkgKyAoejAgPj4gMTI4KSkgPj4gMTI4OwoKICAgICAgICBoaWdoID0gejIgKyAoejFhID4+IDEyOCkgKyAoejFiID4+IDEyOCkgKyBjYXJyeTsKCiAgICAgICAgdW5jaGVja2VkIHsKICAgICAgICAgICAgbG93ID0geCAqIHk7CiAgICAgICAgfQogICAgfQoKICAgIGZ1bmN0aW9uIF9hZGRDYXJyeSh1aW50MjU2IHgsIHVpbnQyNTYgeSkgcHJpdmF0ZSBwdXJlIHJldHVybnMgKHVpbnQyNTYgcmVzLCB1aW50MjU2IGNhcnJ5KSB7CiAgICAgICAgdW5jaGVja2VkIHsKICAgICAgICAgICAgcmVzID0geCArIHk7CiAgICAgICAgfQogICAgICAgIGNhcnJ5ID0gcmVzIDwgeCA/IDEgOiAwOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {Test, stdError} from "forge-std/Test.sol";
+
+import {Math} from "@openzeppelin/contracts/utils/math/Math.sol";
+
+contract MathTest is Test {
+    function testSymbolicTernary(bool f, uint256 a, uint256 b) public {
+        assertEq(Math.ternary(f, a, b), f ? a : b);
+    }
+
+    // MIN & MAX
+    function testSymbolicMinMax(uint256 a, uint256 b) public {
+        assertEq(Math.min(a, b), a < b ? a : b);
+        assertEq(Math.max(a, b), a > b ? a : b);
+    }
+
+    // CEILDIV
+    function testCeilDiv(uint256 a, uint256 b) public {
+        vm.assume(b > 0);
+
+        uint256 result = Math.ceilDiv(a, b);
+
+        if (result == 0) {
+            assertEq(a, 0);
+        } else {
+            uint256 expect = a / b;
+            if (expect * b < a) {
+                expect += 1;
+            }
+            assertEq(result, expect);
+        }
+    }
+
+    // SQRT
+    function testSqrt(uint256 input, uint8 r) public {
+        Math.Rounding rounding = _asRounding(r);
+
+        uint256 result = Math.sqrt(input, rounding);
+
+        // square of result is bigger than input
+        if (_squareBigger(result, input)) {
+            assertTrue(Math.unsignedRoundsUp(rounding));
+            assertTrue(_squareSmaller(result - 1, input));
+        }
+        // square of result is smaller than input
+        else if (_squareSmaller(result, input)) {
+            assertFalse(Math.unsignedRoundsUp(rounding));
+            assertTrue(_squareBigger(result + 1, input));
+        }
+        // input is perfect square
+        else {
+            assertEq(result * result, input);
+        }
+    }
+
+    function _squareBigger(uint256 value, uint256 ref) private pure returns (bool) {
+        (bool noOverflow, uint256 square) = Math.tryMul(value, value);
+        return !noOverflow || square > ref;
+    }
+
+    function _squareSmaller(uint256 value, uint256 ref) private pure returns (bool) {
+        return value * value < ref;
+    }
+
+    // INV
+    function testInvMod(uint256 value, uint256 p) public {
+        _testInvMod(value, p, true);
+    }
+
+    function testInvMod2(uint256 seed) public {
+        uint256 p = 2; // prime
+        _testInvMod(bound(seed, 1, p - 1), p, false);
+    }
+
+    function testInvMod17(uint256 seed) public {
+        uint256 p = 17; // prime
+        _testInvMod(bound(seed, 1, p - 1), p, false);
+    }
+
+    function testInvMod65537(uint256 seed) public {
+        uint256 p = 65537; // prime
+        _testInvMod(bound(seed, 1, p - 1), p, false);
+    }
+
+    function testInvModP256(uint256 seed) public {
+        uint256 p = 0xffffffff00000001000000000000000000000000ffffffffffffffffffffffff; // prime
+        _testInvMod(bound(seed, 1, p - 1), p, false);
+    }
+
+    function _testInvMod(uint256 value, uint256 p, bool allowZero) private {
+        uint256 inverse = Math.invMod(value, p);
+        if (inverse != 0) {
+            assertEq(mulmod(value, inverse, p), 1);
+            assertLt(inverse, p);
+        } else {
+            assertTrue(allowZero);
+        }
+    }
+
+    // LOG2
+    function testLog2(uint256 input, uint8 r) public {
+        Math.Rounding rounding = _asRounding(r);
+
+        uint256 result = Math.log2(input, rounding);
+
+        if (input == 0) {
+            assertEq(result, 0);
+        } else if (_powerOf2Bigger(result, input)) {
+            assertTrue(Math.unsignedRoundsUp(rounding));
+            assertTrue(_powerOf2Smaller(result - 1, input));
+        } else if (_powerOf2Smaller(result, input)) {
+            assertFalse(Math.unsignedRoundsUp(rounding));
+            assertTrue(_powerOf2Bigger(result + 1, input));
+        } else {
+            assertEq(2 ** result, input);
+        }
+    }
+
+    function _powerOf2Bigger(uint256 value, uint256 ref) private pure returns (bool) {
+        return value >= 256 || 2 ** value > ref; // 2**256 overflows uint256
+    }
+
+    function _powerOf2Smaller(uint256 value, uint256 ref) private pure returns (bool) {
+        return 2 ** value < ref;
+    }
+
+    // LOG10
+    function testLog10(uint256 input, uint8 r) public {
+        Math.Rounding rounding = _asRounding(r);
+
+        uint256 result = Math.log10(input, rounding);
+
+        if (input == 0) {
+            assertEq(result, 0);
+        } else if (_powerOf10Bigger(result, input)) {
+            assertTrue(Math.unsignedRoundsUp(rounding));
+            assertTrue(_powerOf10Smaller(result - 1, input));
+        } else if (_powerOf10Smaller(result, input)) {
+            assertFalse(Math.unsignedRoundsUp(rounding));
+            assertTrue(_powerOf10Bigger(result + 1, input));
+        } else {
+            assertEq(10 ** result, input);
+        }
+    }
+
+    function _powerOf10Bigger(uint256 value, uint256 ref) private pure returns (bool) {
+        return value >= 78 || 10 ** value > ref; // 10**78 overflows uint256
+    }
+
+    function _powerOf10Smaller(uint256 value, uint256 ref) private pure returns (bool) {
+        return 10 ** value < ref;
+    }
+
+    // LOG256
+    function testLog256(uint256 input, uint8 r) public {
+        Math.Rounding rounding = _asRounding(r);
+
+        uint256 result = Math.log256(input, rounding);
+
+        if (input == 0) {
+            assertEq(result, 0);
+        } else if (_powerOf256Bigger(result, input)) {
+            assertTrue(Math.unsignedRoundsUp(rounding));
+            assertTrue(_powerOf256Smaller(result - 1, input));
+        } else if (_powerOf256Smaller(result, input)) {
+            assertFalse(Math.unsignedRoundsUp(rounding));
+            assertTrue(_powerOf256Bigger(result + 1, input));
+        } else {
+            assertEq(256 ** result, input);
+        }
+    }
+
+    function _powerOf256Bigger(uint256 value, uint256 ref) private pure returns (bool) {
+        return value >= 32 || 256 ** value > ref; // 256**32 overflows uint256
+    }
+
+    function _powerOf256Smaller(uint256 value, uint256 ref) private pure returns (bool) {
+        return 256 ** value < ref;
+    }
+
+    // MULDIV
+    function testMulDiv(uint256 x, uint256 y, uint256 d) public {
+        // Full precision for x * y
+        (uint256 xyHi, uint256 xyLo) = _mulHighLow(x, y);
+
+        // Assume result won't overflow (see {testMulDivDomain})
+        // This also checks that `d` is positive
+        vm.assume(xyHi < d);
+
+        // Perform muldiv
+        uint256 q = Math.mulDiv(x, y, d);
+
+        // Full precision for q * d
+        (uint256 qdHi, uint256 qdLo) = _mulHighLow(q, d);
+        // Add remainder of x * y / d (computed as rem = (x * y % d))
+        (uint256 qdRemLo, uint256 c) = _addCarry(qdLo, mulmod(x, y, d));
+        uint256 qdRemHi = qdHi + c;
+
+        // Full precision check that x * y = q * d + rem
+        assertEq(xyHi, qdRemHi);
+        assertEq(xyLo, qdRemLo);
+    }
+
+    function testMulDivDomain(uint256 x, uint256 y, uint256 d) public {
+        (uint256 xyHi, ) = _mulHighLow(x, y);
+
+        // Violate {testMulDiv} assumption (covers d is 0 and result overflow)
+        vm.assume(xyHi >= d);
+
+        // we are outside the scope of {testMulDiv}, we expect muldiv to revert
+        vm.expectRevert(d == 0 ? stdError.divisionError : stdError.arithmeticError);
+        Math.mulDiv(x, y, d);
+    }
+
+    // MOD EXP
+    function testModExp(uint256 b, uint256 e, uint256 m) public {
+        if (m == 0) {
+            vm.expectRevert(stdError.divisionError);
+        }
+        uint256 result = Math.modExp(b, e, m);
+        assertLt(result, m);
+        assertEq(result, _nativeModExp(b, e, m));
+    }
+
+    function testTryModExp(uint256 b, uint256 e, uint256 m) public {
+        (bool success, uint256 result) = Math.tryModExp(b, e, m);
+        assertEq(success, m != 0);
+        if (success) {
+            assertLt(result, m);
+            assertEq(result, _nativeModExp(b, e, m));
+        } else {
+            assertEq(result, 0);
+        }
+    }
+
+    function testModExpMemory(uint256 b, uint256 e, uint256 m) public {
+        if (m == 0) {
+            vm.expectRevert(stdError.divisionError);
+        }
+        bytes memory result = Math.modExp(abi.encodePacked(b), abi.encodePacked(e), abi.encodePacked(m));
+        assertEq(result.length, 0x20);
+        uint256 res = abi.decode(result, (uint256));
+        assertLt(res, m);
+        assertEq(res, _nativeModExp(b, e, m));
+    }
+
+    function testTryModExpMemory(uint256 b, uint256 e, uint256 m) public {
+        (bool success, bytes memory result) = Math.tryModExp(
+            abi.encodePacked(b),
+            abi.encodePacked(e),
+            abi.encodePacked(m)
+        );
+        if (success) {
+            assertEq(result.length, 0x20); // m is a uint256, so abi.encodePacked(m).length is 0x20
+            uint256 res = abi.decode(result, (uint256));
+            assertLt(res, m);
+            assertEq(res, _nativeModExp(b, e, m));
+        } else {
+            assertEq(result.length, 0);
+        }
+    }
+
+    function _nativeModExp(uint256 b, uint256 e, uint256 m) private pure returns (uint256) {
+        if (m == 1) return 0;
+        uint256 r = 1;
+        while (e > 0) {
+            if (e % 2 > 0) {
+                r = mulmod(r, b, m);
+            }
+            b = mulmod(b, b, m);
+            e >>= 1;
+        }
+        return r;
+    }
+
+    // Helpers
+    function _asRounding(uint8 r) private pure returns (Math.Rounding) {
+        vm.assume(r < uint8(type(Math.Rounding).max));
+        return Math.Rounding(r);
+    }
+
+    function _mulHighLow(uint256 x, uint256 y) private pure returns (uint256 high, uint256 low) {
+        (uint256 x0, uint256 x1) = (x & type(uint128).max, x >> 128);
+        (uint256 y0, uint256 y1) = (y & type(uint128).max, y >> 128);
+
+        // Karatsuba algorithm
+        // https://en.wikipedia.org/wiki/Karatsuba_algorithm
+        uint256 z2 = x1 * y1;
+        uint256 z1a = x1 * y0;
+        uint256 z1b = x0 * y1;
+        uint256 z0 = x0 * y0;
+
+        uint256 carry = ((z1a & type(uint128).max) + (z1b & type(uint128).max) + (z0 >> 128)) >> 128;
+
+        high = z2 + (z1a >> 128) + (z1b >> 128) + carry;
+
+        unchecked {
+            low = x * y;
+        }
+    }
+
+    function _addCarry(uint256 x, uint256 y) private pure returns (uint256 res, uint256 carry) {
+        unchecked {
+            res = x + y;
+        }
+        carry = res < x ? 1 : 0;
+    }
+}
