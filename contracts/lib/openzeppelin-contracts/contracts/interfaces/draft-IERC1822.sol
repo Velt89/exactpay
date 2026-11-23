@@ -1,1 +1,20 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAoaW50ZXJmYWNlcy9kcmFmdC1JRVJDMTgyMi5zb2wpCgpwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCi8qKgogKiBAZGV2IEVSQy0xODIyOiBVbml2ZXJzYWwgVXBncmFkZWFibGUgUHJveHkgU3RhbmRhcmQgKFVVUFMpIGRvY3VtZW50cyBhIG1ldGhvZCBmb3IgdXBncmFkZWFiaWxpdHkgdGhyb3VnaCBhIHNpbXBsaWZpZWQKICogcHJveHkgd2hvc2UgdXBncmFkZXMgYXJlIGZ1bGx5IGNvbnRyb2xsZWQgYnkgdGhlIGN1cnJlbnQgaW1wbGVtZW50YXRpb24uCiAqLwppbnRlcmZhY2UgSUVSQzE4MjJQcm94aWFibGUgewogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIHN0b3JhZ2Ugc2xvdCB0aGF0IHRoZSBwcm94aWFibGUgY29udHJhY3QgYXNzdW1lcyBpcyBiZWluZyB1c2VkIHRvIHN0b3JlIHRoZSBpbXBsZW1lbnRhdGlvbgogICAgICogYWRkcmVzcy4KICAgICAqCiAgICAgKiBJTVBPUlRBTlQ6IEEgcHJveHkgcG9pbnRpbmcgYXQgYSBwcm94aWFibGUgY29udHJhY3Qgc2hvdWxkIG5vdCBiZSBjb25zaWRlcmVkIHByb3hpYWJsZSBpdHNlbGYsIGJlY2F1c2UgdGhpcyByaXNrcwogICAgICogYnJpY2tpbmcgYSBwcm94eSB0aGF0IHVwZ3JhZGVzIHRvIGl0LCBieSBkZWxlZ2F0aW5nIHRvIGl0c2VsZiB1bnRpbCBvdXQgb2YgZ2FzLiBUaHVzIGl0IGlzIGNyaXRpY2FsIHRoYXQgdGhpcwogICAgICogZnVuY3Rpb24gcmV2ZXJ0IGlmIGludm9rZWQgdGhyb3VnaCBhIHByb3h5LgogICAgICovCiAgICBmdW5jdGlvbiBwcm94aWFibGVVVUlEKCkgZXh0ZXJuYWwgdmlldyByZXR1cm5zIChieXRlczMyKTsKfQo=
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (interfaces/draft-IERC1822.sol)
+
+pragma solidity ^0.8.20;
+
+/**
+ * @dev ERC-1822: Universal Upgradeable Proxy Standard (UUPS) documents a method for upgradeability through a simplified
+ * proxy whose upgrades are fully controlled by the current implementation.
+ */
+interface IERC1822Proxiable {
+    /**
+     * @dev Returns the storage slot that the proxiable contract assumes is being used to store the implementation
+     * address.
+     *
+     * IMPORTANT: A proxy pointing at a proxiable contract should not be considered proxiable itself, because this risks
+     * bricking a proxy that upgrades to it, by delegating to itself until out of gas. Thus it is critical that this
+     * function revert if invoked through a proxy.
+     */
+    function proxiableUUID() external view returns (bytes32);
+}
