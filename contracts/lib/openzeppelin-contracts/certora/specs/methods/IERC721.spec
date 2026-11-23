@@ -1,1 +1,17 @@
-bWV0aG9kcyB7CiAgICAvLyBJRVJDNzIxCiAgICBmdW5jdGlvbiBiYWxhbmNlT2YoYWRkcmVzcykgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBleHRlcm5hbCByZXR1cm5zICh1aW50MjU2KSBlbnZmcmVlOwogICAgZnVuY3Rpb24gb3duZXJPZih1aW50MjU2KSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZXh0ZXJuYWwgcmV0dXJucyAoYWRkcmVzcykgZW52ZnJlZTsKICAgIGZ1bmN0aW9uIGdldEFwcHJvdmVkKHVpbnQyNTYpICAgICAgICAgICAgICAgICAgICAgICAgICAgIGV4dGVybmFsIHJldHVybnMgKGFkZHJlc3MpIGVudmZyZWU7CiAgICBmdW5jdGlvbiBpc0FwcHJvdmVkRm9yQWxsKGFkZHJlc3MsYWRkcmVzcykgICAgICAgICAgICAgICBleHRlcm5hbCByZXR1cm5zIChib29sKSAgICBlbnZmcmVlOwogICAgZnVuY3Rpb24gc2FmZVRyYW5zZmVyRnJvbShhZGRyZXNzLGFkZHJlc3MsdWludDI1NixieXRlcykgZXh0ZXJuYWw7CiAgICBmdW5jdGlvbiBzYWZlVHJhbnNmZXJGcm9tKGFkZHJlc3MsYWRkcmVzcyx1aW50MjU2KSAgICAgICBleHRlcm5hbDsKICAgIGZ1bmN0aW9uIHRyYW5zZmVyRnJvbShhZGRyZXNzLGFkZHJlc3MsdWludDI1NikgICAgICAgICAgIGV4dGVybmFsOwogICAgZnVuY3Rpb24gYXBwcm92ZShhZGRyZXNzLHVpbnQyNTYpICAgICAgICAgICAgICAgICAgICAgICAgZXh0ZXJuYWw7CiAgICBmdW5jdGlvbiBzZXRBcHByb3ZhbEZvckFsbChhZGRyZXNzLGJvb2wpICAgICAgICAgICAgICAgICBleHRlcm5hbDsKCiAgICAvLyBJRVJDNzIxTWV0YWRhdGEKICAgIGZ1bmN0aW9uIG5hbWUoKSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGV4dGVybmFsIHJldHVybnMgKHN0cmluZyk7CiAgICBmdW5jdGlvbiBzeW1ib2woKSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBleHRlcm5hbCByZXR1cm5zIChzdHJpbmcpOwogICAgZnVuY3Rpb24gdG9rZW5VUkkodWludDI1NikgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZXh0ZXJuYWwgcmV0dXJucyAoc3RyaW5nKTsKfQo=
+methods {
+    // IERC721
+    function balanceOf(address)                              external returns (uint256) envfree;
+    function ownerOf(uint256)                                external returns (address) envfree;
+    function getApproved(uint256)                            external returns (address) envfree;
+    function isApprovedForAll(address,address)               external returns (bool)    envfree;
+    function safeTransferFrom(address,address,uint256,bytes) external;
+    function safeTransferFrom(address,address,uint256)       external;
+    function transferFrom(address,address,uint256)           external;
+    function approve(address,uint256)                        external;
+    function setApprovalForAll(address,bool)                 external;
+
+    // IERC721Metadata
+    function name()                                          external returns (string);
+    function symbol()                                        external returns (string);
+    function tokenURI(uint256)                               external returns (string);
+}
