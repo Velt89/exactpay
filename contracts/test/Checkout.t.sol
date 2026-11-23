@@ -1,1 +1,152 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgXjAuOC4yNDsKCmltcG9ydCB7VGVzdH0gZnJvbSAiZm9yZ2Utc3RkL1Rlc3Quc29sIjsKaW1wb3J0IHtJRVJDMjB9IGZyb20gIkBvcGVuemVwcGVsaW4vY29udHJhY3RzL3Rva2VuL0VSQzIwL0lFUkMyMC5zb2wiOwppbXBvcnQge0NoZWNrb3V0fSBmcm9tICIuLi9zcmMvQ2hlY2tvdXQuc29sIjsKaW1wb3J0IHtNb2NrVVNEOH0gZnJvbSAiLi4vc3JjL21vY2tzL01vY2tVU0Q4LnNvbCI7CmltcG9ydCB7U2lnbmluZ30gZnJvbSAiLi9TaWduaW5nLnNvbCI7Cgpjb250cmFjdCBDaGVja291dFRlc3QgaXMgVGVzdCB7CiAgICBNb2NrVVNEOCB0b2tlbjsKICAgIENoZWNrb3V0IGNoZWNrb3V0OwogICAgYWRkcmVzcyBtZXJjaGFudCA9IG1ha2VBZGRyKCJtZXJjaGFudCIpOwogICAgYWRkcmVzcyBidXllcjsKICAgIHVpbnQyNTYgYnV5ZXJLZXk7CiAgICBhZGRyZXNzIHJlbGF5ZXIgPSBtYWtlQWRkcigicmVsYXllciIpOwoKICAgIGJ5dGVzMzIgY29uc3RhbnQgT1JERVIgPSBrZWNjYWsyNTYoIm9yZGVyLTEiKTsKICAgIHVpbnQyNTYgY29uc3RhbnQgUFJJQ0UgPSA1ZTY7IC8vIDUgdFVTRDgKCiAgICBmdW5jdGlvbiBzZXRVcCgpIHB1YmxpYyB7CiAgICAgICAgKGJ1eWVyLCBidXllcktleSkgPSBtYWtlQWRkckFuZEtleSgiYnV5ZXIiKTsKICAgICAgICB0b2tlbiA9IG5ldyBNb2NrVVNEOCgpOwogICAgICAgIGNoZWNrb3V0ID0gbmV3IENoZWNrb3V0KElFUkMyMChhZGRyZXNzKHRva2VuKSksIG1lcmNoYW50KTsKICAgICAgICB0b2tlbi5taW50KGJ1eWVyLCAxMDBlNik7CiAgICB9CgogICAgLy8gLS0tLS0tLS0tLSBwYXkgKGFwcHJvdmUgKyBjYWxsKSAtLS0tLS0tLS0tCgogICAgZnVuY3Rpb24gdGVzdF9wYXlfbW92ZXNGdW5kc0FuZFJlY29yZHMoKSBwdWJsaWMgewogICAgICAgIHZtLnN0YXJ0UHJhbmsoYnV5ZXIpOwogICAgICAgIHRva2VuLmFwcHJvdmUoYWRkcmVzcyhjaGVja291dCksIFBSSUNFKTsKICAgICAgICB2bS5leHBlY3RFbWl0KHRydWUsIHRydWUsIGZhbHNlLCB0cnVlLCBhZGRyZXNzKGNoZWNrb3V0KSk7CiAgICAgICAgZW1pdCBDaGVja291dC5QYWlkKE9SREVSLCBidXllciwgUFJJQ0UpOwogICAgICAgIGNoZWNrb3V0LnBheShPUkRFUiwgUFJJQ0UpOwogICAgICAgIHZtLnN0b3BQcmFuaygpOwoKICAgICAgICBhc3NlcnRFcSh0b2tlbi5iYWxhbmNlT2YobWVyY2hhbnQpLCBQUklDRSk7CiAgICAgICAgYXNzZXJ0RXEodG9rZW4uYmFsYW5jZU9mKGFkZHJlc3MoY2hlY2tvdXQpKSwgMCk7CiAgICAgICAgYXNzZXJ0VHJ1ZShjaGVja291dC5pc1BhaWQoT1JERVIpKTsKICAgICAgICBDaGVja291dC5QYXltZW50IG1lbW9yeSBwID0gY2hlY2tvdXQucGF5bWVudE9mKE9SREVSKTsKICAgICAgICBhc3NlcnRFcShwLnBheWVyLCBidXllcik7CiAgICAgICAgYXNzZXJ0RXEocC5hbW91bnQsIFBSSUNFKTsKICAgICAgICBhc3NlcnRFcShwLnBhaWRBdCwgYmxvY2sudGltZXN0YW1wKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X3BheV9yZXZlcnRzT25TZWNvbmRQYXltZW50KCkgcHVibGljIHsKICAgICAgICB2bS5zdGFydFByYW5rKGJ1eWVyKTsKICAgICAgICB0b2tlbi5hcHByb3ZlKGFkZHJlc3MoY2hlY2tvdXQpLCAyICogUFJJQ0UpOwogICAgICAgIGNoZWNrb3V0LnBheShPUkRFUiwgUFJJQ0UpOwogICAgICAgIHZtLmV4cGVjdFJldmVydChhYmkuZW5jb2RlV2l0aFNlbGVjdG9yKENoZWNrb3V0LkFscmVhZHlQYWlkLnNlbGVjdG9yLCBPUkRFUikpOwogICAgICAgIGNoZWNrb3V0LnBheShPUkRFUiwgUFJJQ0UpOwogICAgICAgIHZtLnN0b3BQcmFuaygpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfcGF5X3JldmVydHNPblplcm9BbW91bnQoKSBwdWJsaWMgewogICAgICAgIHZtLnByYW5rKGJ1eWVyKTsKICAgICAgICB2bS5leHBlY3RSZXZlcnQoQ2hlY2tvdXQuWmVyb0Ftb3VudC5zZWxlY3Rvcik7CiAgICAgICAgY2hlY2tvdXQucGF5KE9SREVSLCAwKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X3BheV9yZXZlcnRzV2l0aG91dEFwcHJvdmFsKCkgcHVibGljIHsKICAgICAgICB2bS5wcmFuayhidXllcik7CiAgICAgICAgdm0uZXhwZWN0UmV2ZXJ0KCk7CiAgICAgICAgY2hlY2tvdXQucGF5KE9SREVSLCBQUklDRSk7CiAgICAgICAgYXNzZXJ0RmFsc2UoY2hlY2tvdXQuaXNQYWlkKE9SREVSKSk7CiAgICB9CgogICAgLy8gLS0tLS0tLS0tLSBwYXlXaXRoQXV0aG9yaXphdGlvbiAoRUlQLTMwMDksIGdhc2xlc3MgZm9yIHRoZSBidXllcikgLS0tLS0tLS0tLQoKICAgIGZ1bmN0aW9uIF9zaWduKGJ5dGVzMzIgb3JkZXJJZCwgdWludDI1NiB2YWx1ZSwgdWludDI1NiB2YWxpZEJlZm9yZSkKICAgICAgICBpbnRlcm5hbAogICAgICAgIHZpZXcKICAgICAgICByZXR1cm5zICh1aW50OCB2LCBieXRlczMyIHIsIGJ5dGVzMzIgcykKICAgIHsKICAgICAgICBTaWduaW5nLkF1dGggbWVtb3J5IGEgPSBTaWduaW5nLkF1dGgoewogICAgICAgICAgICBmcm9tOiBidXllciwKICAgICAgICAgICAgdG86IGFkZHJlc3MoY2hlY2tvdXQpLAogICAgICAgICAgICB2YWx1ZTogdmFsdWUsCiAgICAgICAgICAgIHZhbGlkQWZ0ZXI6IDAsCiAgICAgICAgICAgIHZhbGlkQmVmb3JlOiB2YWxpZEJlZm9yZSwKICAgICAgICAgICAgbm9uY2U6IGNoZWNrb3V0LmF1dGhvcml6YXRpb25Ob25jZShvcmRlcklkKQogICAgICAgIH0pOwogICAgICAgIHJldHVybiBTaWduaW5nLnNpZ25SZWNlaXZlKHZtLCBidXllcktleSwgdG9rZW4uRE9NQUlOX1NFUEFSQVRPUigpLCBhKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X3BheVdpdGhBdXRob3JpemF0aW9uX3JlbGF5ZXJTdWJtaXRzKCkgcHVibGljIHsKICAgICAgICB1aW50MjU2IGRlYWRsaW5lID0gYmxvY2sudGltZXN0YW1wICsgMSBob3VyczsKICAgICAgICAodWludDggdiwgYnl0ZXMzMiByLCBieXRlczMyIHMpID0gX3NpZ24oT1JERVIsIFBSSUNFLCBkZWFkbGluZSk7CgogICAgICAgIHZtLnByYW5rKHJlbGF5ZXIpOyAvLyB0aGUgYnV5ZXIgbmV2ZXIgc2VuZHMgYSB0cmFuc2FjdGlvbgogICAgICAgIGNoZWNrb3V0LnBheVdpdGhBdXRob3JpemF0aW9uKE9SREVSLCBidXllciwgUFJJQ0UsIDAsIGRlYWRsaW5lLCB2LCByLCBzKTsKCiAgICAgICAgYXNzZXJ0RXEodG9rZW4uYmFsYW5jZU9mKG1lcmNoYW50KSwgUFJJQ0UpOwogICAgICAgIGFzc2VydEVxKHRva2VuLmJhbGFuY2VPZihidXllciksIDk1ZTYpOwogICAgICAgIGFzc2VydEVxKGNoZWNrb3V0LnBheW1lbnRPZihPUkRFUikucGF5ZXIsIGJ1eWVyKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X3BheVdpdGhBdXRob3JpemF0aW9uX3NpZ25hdHVyZUlzQm91bmRUb09yZGVyKCkgcHVibGljIHsKICAgICAgICB1aW50MjU2IGRlYWRsaW5lID0gYmxvY2sudGltZXN0YW1wICsgMSBob3VyczsKICAgICAgICAodWludDggdiwgYnl0ZXMzMiByLCBieXRlczMyIHMpID0gX3NpZ24oT1JERVIsIFBSSUNFLCBkZWFkbGluZSk7CgogICAgICAgIC8vIFNhbWUgc2lnbmF0dXJlLCBkaWZmZXJlbnQgb3JkZXIgaWQ6IHRoZSBub25jZSBubyBsb25nZXIgbWF0Y2hlcywgc28gaXQgZmFpbHMuCiAgICAgICAgdm0ucHJhbmsocmVsYXllcik7CiAgICAgICAgdm0uZXhwZWN0UmV2ZXJ0KE1vY2tVU0Q4LkludmFsaWRTaWduYXR1cmUuc2VsZWN0b3IpOwogICAgICAgIGNoZWNrb3V0LnBheVdpdGhBdXRob3JpemF0aW9uKGtlY2NhazI1Nigib3JkZXItMiIpLCBidXllciwgUFJJQ0UsIDAsIGRlYWRsaW5lLCB2LCByLCBzKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X3BheVdpdGhBdXRob3JpemF0aW9uX2Nhbm5vdENoYW5nZUFtb3VudCgpIHB1YmxpYyB7CiAgICAgICAgdWludDI1NiBkZWFkbGluZSA9IGJsb2NrLnRpbWVzdGFtcCArIDEgaG91cnM7CiAgICAgICAgKHVpbnQ4IHYsIGJ5dGVzMzIgciwgYnl0ZXMzMiBzKSA9IF9zaWduKE9SREVSLCBQUklDRSwgZGVhZGxpbmUpOwoKICAgICAgICB2bS5wcmFuayhyZWxheWVyKTsKICAgICAgICB2bS5leHBlY3RSZXZlcnQoTW9ja1VTRDguSW52YWxpZFNpZ25hdHVyZS5zZWxlY3Rvcik7CiAgICAgICAgY2hlY2tvdXQucGF5V2l0aEF1dGhvcml6YXRpb24oT1JERVIsIGJ1eWVyLCBQUklDRSArIDEsIDAsIGRlYWRsaW5lLCB2LCByLCBzKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X3BheVdpdGhBdXRob3JpemF0aW9uX2V4cGlyZWQoKSBwdWJsaWMgewogICAgICAgIHVpbnQyNTYgZGVhZGxpbmUgPSBibG9jay50aW1lc3RhbXAgKyAxIGhvdXJzOwogICAgICAgICh1aW50OCB2LCBieXRlczMyIHIsIGJ5dGVzMzIgcykgPSBfc2lnbihPUkRFUiwgUFJJQ0UsIGRlYWRsaW5lKTsKICAgICAgICB2bS53YXJwKGRlYWRsaW5lKTsKCiAgICAgICAgdm0uZXhwZWN0UmV2ZXJ0KE1vY2tVU0Q4LkF1dGhvcml6YXRpb25FeHBpcmVkLnNlbGVjdG9yKTsKICAgICAgICBjaGVja291dC5wYXlXaXRoQXV0aG9yaXphdGlvbihPUkRFUiwgYnV5ZXIsIFBSSUNFLCAwLCBkZWFkbGluZSwgdiwgciwgcyk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9wYXlXaXRoQXV0aG9yaXphdGlvbl9ub1JlcGxheSgpIHB1YmxpYyB7CiAgICAgICAgdWludDI1NiBkZWFkbGluZSA9IGJsb2NrLnRpbWVzdGFtcCArIDEgaG91cnM7CiAgICAgICAgKHVpbnQ4IHYsIGJ5dGVzMzIgciwgYnl0ZXMzMiBzKSA9IF9zaWduKE9SREVSLCBQUklDRSwgZGVhZGxpbmUpOwogICAgICAgIGNoZWNrb3V0LnBheVdpdGhBdXRob3JpemF0aW9uKE9SREVSLCBidXllciwgUFJJQ0UsIDAsIGRlYWRsaW5lLCB2LCByLCBzKTsKCiAgICAgICAgdm0uZXhwZWN0UmV2ZXJ0KGFiaS5lbmNvZGVXaXRoU2VsZWN0b3IoQ2hlY2tvdXQuQWxyZWFkeVBhaWQuc2VsZWN0b3IsIE9SREVSKSk7CiAgICAgICAgY2hlY2tvdXQucGF5V2l0aEF1dGhvcml6YXRpb24oT1JERVIsIGJ1eWVyLCBQUklDRSwgMCwgZGVhZGxpbmUsIHYsIHIsIHMpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfY29uc3RydWN0b3JfcmVqZWN0c1plcm9BZGRyZXNzKCkgcHVibGljIHsKICAgICAgICB2bS5leHBlY3RSZXZlcnQoQ2hlY2tvdXQuWmVyb0FkZHJlc3Muc2VsZWN0b3IpOwogICAgICAgIG5ldyBDaGVja291dChJRVJDMjAoYWRkcmVzcygwKSksIG1lcmNoYW50KTsKICAgICAgICB2bS5leHBlY3RSZXZlcnQoQ2hlY2tvdXQuWmVyb0FkZHJlc3Muc2VsZWN0b3IpOwogICAgICAgIG5ldyBDaGVja291dChJRVJDMjAoYWRkcmVzcyh0b2tlbikpLCBhZGRyZXNzKDApKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0RnV6el9wYXkoYnl0ZXMzMiBvcmRlcklkLCB1aW50MjU2IGFtb3VudCkgcHVibGljIHsKICAgICAgICBhbW91bnQgPSBib3VuZChhbW91bnQsIDEsIDEwMGU2KTsKICAgICAgICB2bS5zdGFydFByYW5rKGJ1eWVyKTsKICAgICAgICB0b2tlbi5hcHByb3ZlKGFkZHJlc3MoY2hlY2tvdXQpLCBhbW91bnQpOwogICAgICAgIGNoZWNrb3V0LnBheShvcmRlcklkLCBhbW91bnQpOwogICAgICAgIHZtLnN0b3BQcmFuaygpOwogICAgICAgIGFzc2VydEVxKHRva2VuLmJhbGFuY2VPZihtZXJjaGFudCksIGFtb3VudCk7CiAgICAgICAgYXNzZXJ0RXEoY2hlY2tvdXQucGF5bWVudE9mKG9yZGVySWQpLmFtb3VudCwgYW1vdW50KTsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.24;
+
+import {Test} from "forge-std/Test.sol";
+import {IERC20} from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import {Checkout} from "../src/Checkout.sol";
+import {MockUSD8} from "../src/mocks/MockUSD8.sol";
+import {Signing} from "./Signing.sol";
+
+contract CheckoutTest is Test {
+    MockUSD8 token;
+    Checkout checkout;
+    address merchant = makeAddr("merchant");
+    address buyer;
+    uint256 buyerKey;
+    address relayer = makeAddr("relayer");
+
+    bytes32 constant ORDER = keccak256("order-1");
+    uint256 constant PRICE = 5e6; // 5 tUSD8
+
+    function setUp() public {
+        (buyer, buyerKey) = makeAddrAndKey("buyer");
+        token = new MockUSD8();
+        checkout = new Checkout(IERC20(address(token)), merchant);
+        token.mint(buyer, 100e6);
+    }
+
+    // ---------- pay (approve + call) ----------
+
+    function test_pay_movesFundsAndRecords() public {
+        vm.startPrank(buyer);
+        token.approve(address(checkout), PRICE);
+        vm.expectEmit(true, true, false, true, address(checkout));
+        emit Checkout.Paid(ORDER, buyer, PRICE);
+        checkout.pay(ORDER, PRICE);
+        vm.stopPrank();
+
+        assertEq(token.balanceOf(merchant), PRICE);
+        assertEq(token.balanceOf(address(checkout)), 0);
+        assertTrue(checkout.isPaid(ORDER));
+        Checkout.Payment memory p = checkout.paymentOf(ORDER);
+        assertEq(p.payer, buyer);
+        assertEq(p.amount, PRICE);
+        assertEq(p.paidAt, block.timestamp);
+    }
+
+    function test_pay_revertsOnSecondPayment() public {
+        vm.startPrank(buyer);
+        token.approve(address(checkout), 2 * PRICE);
+        checkout.pay(ORDER, PRICE);
+        vm.expectRevert(abi.encodeWithSelector(Checkout.AlreadyPaid.selector, ORDER));
+        checkout.pay(ORDER, PRICE);
+        vm.stopPrank();
+    }
+
+    function test_pay_revertsOnZeroAmount() public {
+        vm.prank(buyer);
+        vm.expectRevert(Checkout.ZeroAmount.selector);
+        checkout.pay(ORDER, 0);
+    }
+
+    function test_pay_revertsWithoutApproval() public {
+        vm.prank(buyer);
+        vm.expectRevert();
+        checkout.pay(ORDER, PRICE);
+        assertFalse(checkout.isPaid(ORDER));
+    }
+
+    // ---------- payWithAuthorization (EIP-3009, gasless for the buyer) ----------
+
+    function _sign(bytes32 orderId, uint256 value, uint256 validBefore)
+        internal
+        view
+        returns (uint8 v, bytes32 r, bytes32 s)
+    {
+        Signing.Auth memory a = Signing.Auth({
+            from: buyer,
+            to: address(checkout),
+            value: value,
+            validAfter: 0,
+            validBefore: validBefore,
+            nonce: checkout.authorizationNonce(orderId)
+        });
+        return Signing.signReceive(vm, buyerKey, token.DOMAIN_SEPARATOR(), a);
+    }
+
+    function test_payWithAuthorization_relayerSubmits() public {
+        uint256 deadline = block.timestamp + 1 hours;
+        (uint8 v, bytes32 r, bytes32 s) = _sign(ORDER, PRICE, deadline);
+
+        vm.prank(relayer); // the buyer never sends a transaction
+        checkout.payWithAuthorization(ORDER, buyer, PRICE, 0, deadline, v, r, s);
+
+        assertEq(token.balanceOf(merchant), PRICE);
+        assertEq(token.balanceOf(buyer), 95e6);
+        assertEq(checkout.paymentOf(ORDER).payer, buyer);
+    }
+
+    function test_payWithAuthorization_signatureIsBoundToOrder() public {
+        uint256 deadline = block.timestamp + 1 hours;
+        (uint8 v, bytes32 r, bytes32 s) = _sign(ORDER, PRICE, deadline);
+
+        // Same signature, different order id: the nonce no longer matches, so it fails.
+        vm.prank(relayer);
+        vm.expectRevert(MockUSD8.InvalidSignature.selector);
+        checkout.payWithAuthorization(keccak256("order-2"), buyer, PRICE, 0, deadline, v, r, s);
+    }
+
+    function test_payWithAuthorization_cannotChangeAmount() public {
+        uint256 deadline = block.timestamp + 1 hours;
+        (uint8 v, bytes32 r, bytes32 s) = _sign(ORDER, PRICE, deadline);
+
+        vm.prank(relayer);
+        vm.expectRevert(MockUSD8.InvalidSignature.selector);
+        checkout.payWithAuthorization(ORDER, buyer, PRICE + 1, 0, deadline, v, r, s);
+    }
+
+    function test_payWithAuthorization_expired() public {
+        uint256 deadline = block.timestamp + 1 hours;
+        (uint8 v, bytes32 r, bytes32 s) = _sign(ORDER, PRICE, deadline);
+        vm.warp(deadline);
+
+        vm.expectRevert(MockUSD8.AuthorizationExpired.selector);
+        checkout.payWithAuthorization(ORDER, buyer, PRICE, 0, deadline, v, r, s);
+    }
+
+    function test_payWithAuthorization_noReplay() public {
+        uint256 deadline = block.timestamp + 1 hours;
+        (uint8 v, bytes32 r, bytes32 s) = _sign(ORDER, PRICE, deadline);
+        checkout.payWithAuthorization(ORDER, buyer, PRICE, 0, deadline, v, r, s);
+
+        vm.expectRevert(abi.encodeWithSelector(Checkout.AlreadyPaid.selector, ORDER));
+        checkout.payWithAuthorization(ORDER, buyer, PRICE, 0, deadline, v, r, s);
+    }
+
+    function test_constructor_rejectsZeroAddress() public {
+        vm.expectRevert(Checkout.ZeroAddress.selector);
+        new Checkout(IERC20(address(0)), merchant);
+        vm.expectRevert(Checkout.ZeroAddress.selector);
+        new Checkout(IERC20(address(token)), address(0));
+    }
+
+    function testFuzz_pay(bytes32 orderId, uint256 amount) public {
+        amount = bound(amount, 1, 100e6);
+        vm.startPrank(buyer);
+        token.approve(address(checkout), amount);
+        checkout.pay(orderId, amount);
+        vm.stopPrank();
+        assertEq(token.balanceOf(merchant), amount);
+        assertEq(checkout.paymentOf(orderId).amount, amount);
+    }
+}
