@@ -1,1 +1,32 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7RVJDMjB9IGZyb20gIi4uLy4uLy4uL3Rva2VuL0VSQzIwL0VSQzIwLnNvbCI7CmltcG9ydCB7RVJDMjBQZXJtaXR9IGZyb20gIi4uLy4uLy4uL3Rva2VuL0VSQzIwL2V4dGVuc2lvbnMvRVJDMjBQZXJtaXQuc29sIjsKaW1wb3J0IHtFUkMyMFZvdGVzfSBmcm9tICIuLi8uLi8uLi90b2tlbi9FUkMyMC9leHRlbnNpb25zL0VSQzIwVm90ZXMuc29sIjsKaW1wb3J0IHtOb25jZXN9IGZyb20gIi4uLy4uLy4uL3V0aWxzL05vbmNlcy5zb2wiOwoKY29udHJhY3QgTXlUb2tlblRpbWVzdGFtcEJhc2VkIGlzIEVSQzIwLCBFUkMyMFBlcm1pdCwgRVJDMjBWb3RlcyB7CiAgICBjb25zdHJ1Y3RvcigpIEVSQzIwKCJNeVRva2VuVGltZXN0YW1wQmFzZWQiLCAiTVRLIikgRVJDMjBQZXJtaXQoIk15VG9rZW5UaW1lc3RhbXBCYXNlZCIpIHt9CgogICAgLy8gT3ZlcnJpZGVzIElFUkM2MzcyIGZ1bmN0aW9ucyB0byBtYWtlIHRoZSB0b2tlbiAmIGdvdmVybm9yIHRpbWVzdGFtcC1iYXNlZAoKICAgIGZ1bmN0aW9uIGNsb2NrKCkgcHVibGljIHZpZXcgb3ZlcnJpZGUgcmV0dXJucyAodWludDQ4KSB7CiAgICAgICAgcmV0dXJuIHVpbnQ0OChibG9jay50aW1lc3RhbXApOwogICAgfQoKICAgIC8vIHNvbGhpbnQtZGlzYWJsZS1uZXh0LWxpbmUgZnVuYy1uYW1lLW1peGVkY2FzZQogICAgZnVuY3Rpb24gQ0xPQ0tfTU9ERSgpIHB1YmxpYyBwdXJlIG92ZXJyaWRlIHJldHVybnMgKHN0cmluZyBtZW1vcnkpIHsKICAgICAgICByZXR1cm4gIm1vZGU9dGltZXN0YW1wIjsKICAgIH0KCiAgICAvLyBUaGUgZnVuY3Rpb25zIGJlbG93IGFyZSBvdmVycmlkZXMgcmVxdWlyZWQgYnkgU29saWRpdHkuCgogICAgZnVuY3Rpb24gX3VwZGF0ZShhZGRyZXNzIGZyb20sIGFkZHJlc3MgdG8sIHVpbnQyNTYgYW1vdW50KSBpbnRlcm5hbCBvdmVycmlkZShFUkMyMCwgRVJDMjBWb3RlcykgewogICAgICAgIHN1cGVyLl91cGRhdGUoZnJvbSwgdG8sIGFtb3VudCk7CiAgICB9CgogICAgZnVuY3Rpb24gbm9uY2VzKGFkZHJlc3Mgb3duZXIpIHB1YmxpYyB2aWV3IHZpcnR1YWwgb3ZlcnJpZGUoRVJDMjBQZXJtaXQsIE5vbmNlcykgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHJldHVybiBzdXBlci5ub25jZXMob3duZXIpOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+import {ERC20} from "../../../token/ERC20/ERC20.sol";
+import {ERC20Permit} from "../../../token/ERC20/extensions/ERC20Permit.sol";
+import {ERC20Votes} from "../../../token/ERC20/extensions/ERC20Votes.sol";
+import {Nonces} from "../../../utils/Nonces.sol";
+
+contract MyTokenTimestampBased is ERC20, ERC20Permit, ERC20Votes {
+    constructor() ERC20("MyTokenTimestampBased", "MTK") ERC20Permit("MyTokenTimestampBased") {}
+
+    // Overrides IERC6372 functions to make the token & governor timestamp-based
+
+    function clock() public view override returns (uint48) {
+        return uint48(block.timestamp);
+    }
+
+    // solhint-disable-next-line func-name-mixedcase
+    function CLOCK_MODE() public pure override returns (string memory) {
+        return "mode=timestamp";
+    }
+
+    // The functions below are overrides required by Solidity.
+
+    function _update(address from, address to, uint256 amount) internal override(ERC20, ERC20Votes) {
+        super._update(from, to, amount);
+    }
+
+    function nonces(address owner) public view virtual override(ERC20Permit, Nonces) returns (uint256) {
+        return super.nonces(owner);
+    }
+}
