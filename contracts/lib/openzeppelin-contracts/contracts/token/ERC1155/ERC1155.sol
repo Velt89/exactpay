@@ -1,1 +1,401 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodG9rZW4vRVJDMTE1NS9FUkMxMTU1LnNvbCkKCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKaW1wb3J0IHtJRVJDMTE1NX0gZnJvbSAiLi9JRVJDMTE1NS5zb2wiOwppbXBvcnQge0lFUkMxMTU1TWV0YWRhdGFVUkl9IGZyb20gIi4vZXh0ZW5zaW9ucy9JRVJDMTE1NU1ldGFkYXRhVVJJLnNvbCI7CmltcG9ydCB7RVJDMTE1NVV0aWxzfSBmcm9tICIuL3V0aWxzL0VSQzExNTVVdGlscy5zb2wiOwppbXBvcnQge0NvbnRleHR9IGZyb20gIi4uLy4uL3V0aWxzL0NvbnRleHQuc29sIjsKaW1wb3J0IHtJRVJDMTY1LCBFUkMxNjV9IGZyb20gIi4uLy4uL3V0aWxzL2ludHJvc3BlY3Rpb24vRVJDMTY1LnNvbCI7CmltcG9ydCB7QXJyYXlzfSBmcm9tICIuLi8uLi91dGlscy9BcnJheXMuc29sIjsKaW1wb3J0IHtJRVJDMTE1NUVycm9yc30gZnJvbSAiLi4vLi4vaW50ZXJmYWNlcy9kcmFmdC1JRVJDNjA5My5zb2wiOwoKLyoqCiAqIEBkZXYgSW1wbGVtZW50YXRpb24gb2YgdGhlIGJhc2ljIHN0YW5kYXJkIG11bHRpLXRva2VuLgogKiBTZWUgaHR0cHM6Ly9laXBzLmV0aGVyZXVtLm9yZy9FSVBTL2VpcC0xMTU1CiAqIE9yaWdpbmFsbHkgYmFzZWQgb24gY29kZSBieSBFbmppbjogaHR0cHM6Ly9naXRodWIuY29tL2VuamluL2VyYy0xMTU1CiAqLwphYnN0cmFjdCBjb250cmFjdCBFUkMxMTU1IGlzIENvbnRleHQsIEVSQzE2NSwgSUVSQzExNTUsIElFUkMxMTU1TWV0YWRhdGFVUkksIElFUkMxMTU1RXJyb3JzIHsKICAgIHVzaW5nIEFycmF5cyBmb3IgdWludDI1NltdOwogICAgdXNpbmcgQXJyYXlzIGZvciBhZGRyZXNzW107CgogICAgbWFwcGluZyh1aW50MjU2IGlkID0+IG1hcHBpbmcoYWRkcmVzcyBhY2NvdW50ID0+IHVpbnQyNTYpKSBwcml2YXRlIF9iYWxhbmNlczsKCiAgICBtYXBwaW5nKGFkZHJlc3MgYWNjb3VudCA9PiBtYXBwaW5nKGFkZHJlc3Mgb3BlcmF0b3IgPT4gYm9vbCkpIHByaXZhdGUgX29wZXJhdG9yQXBwcm92YWxzOwoKICAgIC8vIFVzZWQgYXMgdGhlIFVSSSBmb3IgYWxsIHRva2VuIHR5cGVzIGJ5IHJlbHlpbmcgb24gSUQgc3Vic3RpdHV0aW9uLCBlLmcuIGh0dHBzOi8vdG9rZW4tY2RuLWRvbWFpbi97aWR9Lmpzb24KICAgIHN0cmluZyBwcml2YXRlIF91cmk7CgogICAgLyoqCiAgICAgKiBAZGV2IFNlZSB7X3NldFVSSX0uCiAgICAgKi8KICAgIGNvbnN0cnVjdG9yKHN0cmluZyBtZW1vcnkgdXJpXykgewogICAgICAgIF9zZXRVUkkodXJpXyk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFNlZSB7SUVSQzE2NS1zdXBwb3J0c0ludGVyZmFjZX0uCiAgICAgKi8KICAgIGZ1bmN0aW9uIHN1cHBvcnRzSW50ZXJmYWNlKGJ5dGVzNCBpbnRlcmZhY2VJZCkgcHVibGljIHZpZXcgdmlydHVhbCBvdmVycmlkZShFUkMxNjUsIElFUkMxNjUpIHJldHVybnMgKGJvb2wpIHsKICAgICAgICByZXR1cm4KICAgICAgICAgICAgaW50ZXJmYWNlSWQgPT0gdHlwZShJRVJDMTE1NSkuaW50ZXJmYWNlSWQgfHwKICAgICAgICAgICAgaW50ZXJmYWNlSWQgPT0gdHlwZShJRVJDMTE1NU1ldGFkYXRhVVJJKS5pbnRlcmZhY2VJZCB8fAogICAgICAgICAgICBzdXBlci5zdXBwb3J0c0ludGVyZmFjZShpbnRlcmZhY2VJZCk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFNlZSB7SUVSQzExNTVNZXRhZGF0YVVSSS11cml9LgogICAgICoKICAgICAqIFRoaXMgaW1wbGVtZW50YXRpb24gcmV0dXJucyB0aGUgc2FtZSBVUkkgZm9yICphbGwqIHRva2VuIHR5cGVzLiBJdCByZWxpZXMKICAgICAqIG9uIHRoZSB0b2tlbiB0eXBlIElEIHN1YnN0aXR1dGlvbiBtZWNoYW5pc20KICAgICAqIGh0dHBzOi8vZWlwcy5ldGhlcmV1bS5vcmcvRUlQUy9laXAtMTE1NSNtZXRhZGF0YVtkZWZpbmVkIGluIHRoZSBFUkNdLgogICAgICoKICAgICAqIENsaWVudHMgY2FsbGluZyB0aGlzIGZ1bmN0aW9uIG11c3QgcmVwbGFjZSB0aGUgYFx7aWRcfWAgc3Vic3RyaW5nIHdpdGggdGhlCiAgICAgKiBhY3R1YWwgdG9rZW4gdHlwZSBJRC4KICAgICAqLwogICAgZnVuY3Rpb24gdXJpKHVpbnQyNTYgLyogaWQgKi8pIHB1YmxpYyB2aWV3IHZpcnR1YWwgcmV0dXJucyAoc3RyaW5nIG1lbW9yeSkgewogICAgICAgIHJldHVybiBfdXJpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBTZWUge0lFUkMxMTU1LWJhbGFuY2VPZn0uCiAgICAgKi8KICAgIGZ1bmN0aW9uIGJhbGFuY2VPZihhZGRyZXNzIGFjY291bnQsIHVpbnQyNTYgaWQpIHB1YmxpYyB2aWV3IHZpcnR1YWwgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHJldHVybiBfYmFsYW5jZXNbaWRdW2FjY291bnRdOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBTZWUge0lFUkMxMTU1LWJhbGFuY2VPZkJhdGNofS4KICAgICAqCiAgICAgKiBSZXF1aXJlbWVudHM6CiAgICAgKgogICAgICogLSBgYWNjb3VudHNgIGFuZCBgaWRzYCBtdXN0IGhhdmUgdGhlIHNhbWUgbGVuZ3RoLgogICAgICovCiAgICBmdW5jdGlvbiBiYWxhbmNlT2ZCYXRjaCgKICAgICAgICBhZGRyZXNzW10gbWVtb3J5IGFjY291bnRzLAogICAgICAgIHVpbnQyNTZbXSBtZW1vcnkgaWRzCiAgICApIHB1YmxpYyB2aWV3IHZpcnR1YWwgcmV0dXJucyAodWludDI1NltdIG1lbW9yeSkgewogICAgICAgIGlmIChhY2NvdW50cy5sZW5ndGggIT0gaWRzLmxlbmd0aCkgewogICAgICAgICAgICByZXZlcnQgRVJDMTE1NUludmFsaWRBcnJheUxlbmd0aChpZHMubGVuZ3RoLCBhY2NvdW50cy5sZW5ndGgpOwogICAgICAgIH0KCiAgICAgICAgdWludDI1NltdIG1lbW9yeSBiYXRjaEJhbGFuY2VzID0gbmV3IHVpbnQyNTZbXShhY2NvdW50cy5sZW5ndGgpOwoKICAgICAgICBmb3IgKHVpbnQyNTYgaSA9IDA7IGkgPCBhY2NvdW50cy5sZW5ndGg7ICsraSkgewogICAgICAgICAgICBiYXRjaEJhbGFuY2VzW2ldID0gYmFsYW5jZU9mKGFjY291bnRzLnVuc2FmZU1lbW9yeUFjY2VzcyhpKSwgaWRzLnVuc2FmZU1lbW9yeUFjY2VzcyhpKSk7CiAgICAgICAgfQoKICAgICAgICByZXR1cm4gYmF0Y2hCYWxhbmNlczsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgU2VlIHtJRVJDMTE1NS1zZXRBcHByb3ZhbEZvckFsbH0uCiAgICAgKi8KICAgIGZ1bmN0aW9uIHNldEFwcHJvdmFsRm9yQWxsKGFkZHJlc3Mgb3BlcmF0b3IsIGJvb2wgYXBwcm92ZWQpIHB1YmxpYyB2aXJ0dWFsIHsKICAgICAgICBfc2V0QXBwcm92YWxGb3JBbGwoX21zZ1NlbmRlcigpLCBvcGVyYXRvciwgYXBwcm92ZWQpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBTZWUge0lFUkMxMTU1LWlzQXBwcm92ZWRGb3JBbGx9LgogICAgICovCiAgICBmdW5jdGlvbiBpc0FwcHJvdmVkRm9yQWxsKGFkZHJlc3MgYWNjb3VudCwgYWRkcmVzcyBvcGVyYXRvcikgcHVibGljIHZpZXcgdmlydHVhbCByZXR1cm5zIChib29sKSB7CiAgICAgICAgcmV0dXJuIF9vcGVyYXRvckFwcHJvdmFsc1thY2NvdW50XVtvcGVyYXRvcl07CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFNlZSB7SUVSQzExNTUtc2FmZVRyYW5zZmVyRnJvbX0uCiAgICAgKi8KICAgIGZ1bmN0aW9uIHNhZmVUcmFuc2ZlckZyb20oYWRkcmVzcyBmcm9tLCBhZGRyZXNzIHRvLCB1aW50MjU2IGlkLCB1aW50MjU2IHZhbHVlLCBieXRlcyBtZW1vcnkgZGF0YSkgcHVibGljIHZpcnR1YWwgewogICAgICAgIGFkZHJlc3Mgc2VuZGVyID0gX21zZ1NlbmRlcigpOwogICAgICAgIGlmIChmcm9tICE9IHNlbmRlciAmJiAhaXNBcHByb3ZlZEZvckFsbChmcm9tLCBzZW5kZXIpKSB7CiAgICAgICAgICAgIHJldmVydCBFUkMxMTU1TWlzc2luZ0FwcHJvdmFsRm9yQWxsKHNlbmRlciwgZnJvbSk7CiAgICAgICAgfQogICAgICAgIF9zYWZlVHJhbnNmZXJGcm9tKGZyb20sIHRvLCBpZCwgdmFsdWUsIGRhdGEpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBTZWUge0lFUkMxMTU1LXNhZmVCYXRjaFRyYW5zZmVyRnJvbX0uCiAgICAgKi8KICAgIGZ1bmN0aW9uIHNhZmVCYXRjaFRyYW5zZmVyRnJvbSgKICAgICAgICBhZGRyZXNzIGZyb20sCiAgICAgICAgYWRkcmVzcyB0bywKICAgICAgICB1aW50MjU2W10gbWVtb3J5IGlkcywKICAgICAgICB1aW50MjU2W10gbWVtb3J5IHZhbHVlcywKICAgICAgICBieXRlcyBtZW1vcnkgZGF0YQogICAgKSBwdWJsaWMgdmlydHVhbCB7CiAgICAgICAgYWRkcmVzcyBzZW5kZXIgPSBfbXNnU2VuZGVyKCk7CiAgICAgICAgaWYgKGZyb20gIT0gc2VuZGVyICYmICFpc0FwcHJvdmVkRm9yQWxsKGZyb20sIHNlbmRlcikpIHsKICAgICAgICAgICAgcmV2ZXJ0IEVSQzExNTVNaXNzaW5nQXBwcm92YWxGb3JBbGwoc2VuZGVyLCBmcm9tKTsKICAgICAgICB9CiAgICAgICAgX3NhZmVCYXRjaFRyYW5zZmVyRnJvbShmcm9tLCB0bywgaWRzLCB2YWx1ZXMsIGRhdGEpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBUcmFuc2ZlcnMgYSBgdmFsdWVgIGFtb3VudCBvZiB0b2tlbnMgb2YgdHlwZSBgaWRgIGZyb20gYGZyb21gIHRvIGB0b2AuIFdpbGwgbWludCAob3IgYnVybikgaWYgYGZyb21gCiAgICAgKiAob3IgYHRvYCkgaXMgdGhlIHplcm8gYWRkcmVzcy4KICAgICAqCiAgICAgKiBFbWl0cyBhIHtUcmFuc2ZlclNpbmdsZX0gZXZlbnQgaWYgdGhlIGFycmF5cyBjb250YWluIG9uZSBlbGVtZW50LCBhbmQge1RyYW5zZmVyQmF0Y2h9IG90aGVyd2lzZS4KICAgICAqCiAgICAgKiBSZXF1aXJlbWVudHM6CiAgICAgKgogICAgICogLSBJZiBgdG9gIHJlZmVycyB0byBhIHNtYXJ0IGNvbnRyYWN0LCBpdCBtdXN0IGltcGxlbWVudCBlaXRoZXIge0lFUkMxMTU1UmVjZWl2ZXItb25FUkMxMTU1UmVjZWl2ZWR9CiAgICAgKiAgIG9yIHtJRVJDMTE1NVJlY2VpdmVyLW9uRVJDMTE1NUJhdGNoUmVjZWl2ZWR9IGFuZCByZXR1cm4gdGhlIGFjY2VwdGFuY2UgbWFnaWMgdmFsdWUuCiAgICAgKiAtIGBpZHNgIGFuZCBgdmFsdWVzYCBtdXN0IGhhdmUgdGhlIHNhbWUgbGVuZ3RoLgogICAgICoKICAgICAqIE5PVEU6IFRoZSBFUkMtMTE1NSBhY2NlcHRhbmNlIGNoZWNrIGlzIG5vdCBwZXJmb3JtZWQgaW4gdGhpcyBmdW5jdGlvbi4gU2VlIHtfdXBkYXRlV2l0aEFjY2VwdGFuY2VDaGVja30gaW5zdGVhZC4KICAgICAqLwogICAgZnVuY3Rpb24gX3VwZGF0ZShhZGRyZXNzIGZyb20sIGFkZHJlc3MgdG8sIHVpbnQyNTZbXSBtZW1vcnkgaWRzLCB1aW50MjU2W10gbWVtb3J5IHZhbHVlcykgaW50ZXJuYWwgdmlydHVhbCB7CiAgICAgICAgaWYgKGlkcy5sZW5ndGggIT0gdmFsdWVzLmxlbmd0aCkgewogICAgICAgICAgICByZXZlcnQgRVJDMTE1NUludmFsaWRBcnJheUxlbmd0aChpZHMubGVuZ3RoLCB2YWx1ZXMubGVuZ3RoKTsKICAgICAgICB9CgogICAgICAgIGFkZHJlc3Mgb3BlcmF0b3IgPSBfbXNnU2VuZGVyKCk7CgogICAgICAgIGZvciAodWludDI1NiBpID0gMDsgaSA8IGlkcy5sZW5ndGg7ICsraSkgewogICAgICAgICAgICB1aW50MjU2IGlkID0gaWRzLnVuc2FmZU1lbW9yeUFjY2VzcyhpKTsKICAgICAgICAgICAgdWludDI1NiB2YWx1ZSA9IHZhbHVlcy51bnNhZmVNZW1vcnlBY2Nlc3MoaSk7CgogICAgICAgICAgICBpZiAoZnJvbSAhPSBhZGRyZXNzKDApKSB7CiAgICAgICAgICAgICAgICB1aW50MjU2IGZyb21CYWxhbmNlID0gX2JhbGFuY2VzW2lkXVtmcm9tXTsKICAgICAgICAgICAgICAgIGlmIChmcm9tQmFsYW5jZSA8IHZhbHVlKSB7CiAgICAgICAgICAgICAgICAgICAgcmV2ZXJ0IEVSQzExNTVJbnN1ZmZpY2llbnRCYWxhbmNlKGZyb20sIGZyb21CYWxhbmNlLCB2YWx1ZSwgaWQpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgdW5jaGVja2VkIHsKICAgICAgICAgICAgICAgICAgICAvLyBPdmVyZmxvdyBub3QgcG9zc2libGU6IHZhbHVlIDw9IGZyb21CYWxhbmNlCiAgICAgICAgICAgICAgICAgICAgX2JhbGFuY2VzW2lkXVtmcm9tXSA9IGZyb21CYWxhbmNlIC0gdmFsdWU7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGlmICh0byAhPSBhZGRyZXNzKDApKSB7CiAgICAgICAgICAgICAgICBfYmFsYW5jZXNbaWRdW3RvXSArPSB2YWx1ZTsKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgaWYgKGlkcy5sZW5ndGggPT0gMSkgewogICAgICAgICAgICB1aW50MjU2IGlkID0gaWRzLnVuc2FmZU1lbW9yeUFjY2VzcygwKTsKICAgICAgICAgICAgdWludDI1NiB2YWx1ZSA9IHZhbHVlcy51bnNhZmVNZW1vcnlBY2Nlc3MoMCk7CiAgICAgICAgICAgIGVtaXQgVHJhbnNmZXJTaW5nbGUob3BlcmF0b3IsIGZyb20sIHRvLCBpZCwgdmFsdWUpOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIGVtaXQgVHJhbnNmZXJCYXRjaChvcGVyYXRvciwgZnJvbSwgdG8sIGlkcywgdmFsdWVzKTsKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFZlcnNpb24gb2Yge191cGRhdGV9IHRoYXQgcGVyZm9ybXMgdGhlIHRva2VuIGFjY2VwdGFuY2UgY2hlY2sgYnkgY2FsbGluZwogICAgICoge0lFUkMxMTU1UmVjZWl2ZXItb25FUkMxMTU1UmVjZWl2ZWR9IG9yIHtJRVJDMTE1NVJlY2VpdmVyLW9uRVJDMTE1NUJhdGNoUmVjZWl2ZWR9IG9uIHRoZSByZWNlaXZlciBhZGRyZXNzIGlmIGl0CiAgICAgKiBjb250YWlucyBjb2RlIChlZy4gaXMgYSBzbWFydCBjb250cmFjdCBhdCB0aGUgbW9tZW50IG9mIGV4ZWN1dGlvbikuCiAgICAgKgogICAgICogSU1QT1JUQU5UOiBPdmVycmlkaW5nIHRoaXMgZnVuY3Rpb24gaXMgZGlzY291cmFnZWQgYmVjYXVzZSBpdCBwb3NlcyBhIHJlZW50cmFuY3kgcmlzayBmcm9tIHRoZSByZWNlaXZlci4gU28gYW55CiAgICAgKiB1cGRhdGUgdG8gdGhlIGNvbnRyYWN0IHN0YXRlIGFmdGVyIHRoaXMgZnVuY3Rpb24gd291bGQgYnJlYWsgdGhlIGNoZWNrLWVmZmVjdC1pbnRlcmFjdGlvbiBwYXR0ZXJuLiBDb25zaWRlcgogICAgICogb3ZlcnJpZGluZyB7X3VwZGF0ZX0gaW5zdGVhZC4KICAgICAqLwogICAgZnVuY3Rpb24gX3VwZGF0ZVdpdGhBY2NlcHRhbmNlQ2hlY2soCiAgICAgICAgYWRkcmVzcyBmcm9tLAogICAgICAgIGFkZHJlc3MgdG8sCiAgICAgICAgdWludDI1NltdIG1lbW9yeSBpZHMsCiAgICAgICAgdWludDI1NltdIG1lbW9yeSB2YWx1ZXMsCiAgICAgICAgYnl0ZXMgbWVtb3J5IGRhdGEKICAgICkgaW50ZXJuYWwgdmlydHVhbCB7CiAgICAgICAgX3VwZGF0ZShmcm9tLCB0bywgaWRzLCB2YWx1ZXMpOwogICAgICAgIGlmICh0byAhPSBhZGRyZXNzKDApKSB7CiAgICAgICAgICAgIGFkZHJlc3Mgb3BlcmF0b3IgPSBfbXNnU2VuZGVyKCk7CiAgICAgICAgICAgIGlmIChpZHMubGVuZ3RoID09IDEpIHsKICAgICAgICAgICAgICAgIHVpbnQyNTYgaWQgPSBpZHMudW5zYWZlTWVtb3J5QWNjZXNzKDApOwogICAgICAgICAgICAgICAgdWludDI1NiB2YWx1ZSA9IHZhbHVlcy51bnNhZmVNZW1vcnlBY2Nlc3MoMCk7CiAgICAgICAgICAgICAgICBFUkMxMTU1VXRpbHMuY2hlY2tPbkVSQzExNTVSZWNlaXZlZChvcGVyYXRvciwgZnJvbSwgdG8sIGlkLCB2YWx1ZSwgZGF0YSk7CiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBFUkMxMTU1VXRpbHMuY2hlY2tPbkVSQzExNTVCYXRjaFJlY2VpdmVkKG9wZXJhdG9yLCBmcm9tLCB0bywgaWRzLCB2YWx1ZXMsIGRhdGEpOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICogQGRldiBUcmFuc2ZlcnMgYSBgdmFsdWVgIHRva2VucyBvZiB0b2tlbiB0eXBlIGBpZGAgZnJvbSBgZnJvbWAgdG8gYHRvYC4KICAgICAqCiAgICAgKiBFbWl0cyBhIHtUcmFuc2ZlclNpbmdsZX0gZXZlbnQuCiAgICAgKgogICAgICogUmVxdWlyZW1lbnRzOgogICAgICoKICAgICAqIC0gYHRvYCBjYW5ub3QgYmUgdGhlIHplcm8gYWRkcmVzcy4KICAgICAqIC0gYGZyb21gIG11c3QgaGF2ZSBhIGJhbGFuY2Ugb2YgdG9rZW5zIG9mIHR5cGUgYGlkYCBvZiBhdCBsZWFzdCBgdmFsdWVgIGFtb3VudC4KICAgICAqIC0gSWYgYHRvYCByZWZlcnMgdG8gYSBzbWFydCBjb250cmFjdCwgaXQgbXVzdCBpbXBsZW1lbnQge0lFUkMxMTU1UmVjZWl2ZXItb25FUkMxMTU1UmVjZWl2ZWR9IGFuZCByZXR1cm4gdGhlCiAgICAgKiBhY2NlcHRhbmNlIG1hZ2ljIHZhbHVlLgogICAgICovCiAgICBmdW5jdGlvbiBfc2FmZVRyYW5zZmVyRnJvbShhZGRyZXNzIGZyb20sIGFkZHJlc3MgdG8sIHVpbnQyNTYgaWQsIHVpbnQyNTYgdmFsdWUsIGJ5dGVzIG1lbW9yeSBkYXRhKSBpbnRlcm5hbCB7CiAgICAgICAgaWYgKHRvID09IGFkZHJlc3MoMCkpIHsKICAgICAgICAgICAgcmV2ZXJ0IEVSQzExNTVJbnZhbGlkUmVjZWl2ZXIoYWRkcmVzcygwKSk7CiAgICAgICAgfQogICAgICAgIGlmIChmcm9tID09IGFkZHJlc3MoMCkpIHsKICAgICAgICAgICAgcmV2ZXJ0IEVSQzExNTVJbnZhbGlkU2VuZGVyKGFkZHJlc3MoMCkpOwogICAgICAgIH0KICAgICAgICAodWludDI1NltdIG1lbW9yeSBpZHMsIHVpbnQyNTZbXSBtZW1vcnkgdmFsdWVzKSA9IF9hc1NpbmdsZXRvbkFycmF5cyhpZCwgdmFsdWUpOwogICAgICAgIF91cGRhdGVXaXRoQWNjZXB0YW5jZUNoZWNrKGZyb20sIHRvLCBpZHMsIHZhbHVlcywgZGF0YSk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IHhyZWY6Uk9PVDplcmMxMTU1LmFkb2MjYmF0Y2gtb3BlcmF0aW9uc1tCYXRjaGVkXSB2ZXJzaW9uIG9mIHtfc2FmZVRyYW5zZmVyRnJvbX0uCiAgICAgKgogICAgICogRW1pdHMgYSB7VHJhbnNmZXJCYXRjaH0gZXZlbnQuCiAgICAgKgogICAgICogUmVxdWlyZW1lbnRzOgogICAgICoKICAgICAqIC0gSWYgYHRvYCByZWZlcnMgdG8gYSBzbWFydCBjb250cmFjdCwgaXQgbXVzdCBpbXBsZW1lbnQge0lFUkMxMTU1UmVjZWl2ZXItb25FUkMxMTU1QmF0Y2hSZWNlaXZlZH0gYW5kIHJldHVybiB0aGUKICAgICAqIGFjY2VwdGFuY2UgbWFnaWMgdmFsdWUuCiAgICAgKiAtIGBpZHNgIGFuZCBgdmFsdWVzYCBtdXN0IGhhdmUgdGhlIHNhbWUgbGVuZ3RoLgogICAgICovCiAgICBmdW5jdGlvbiBfc2FmZUJhdGNoVHJhbnNmZXJGcm9tKAogICAgICAgIGFkZHJlc3MgZnJvbSwKICAgICAgICBhZGRyZXNzIHRvLAogICAgICAgIHVpbnQyNTZbXSBtZW1vcnkgaWRzLAogICAgICAgIHVpbnQyNTZbXSBtZW1vcnkgdmFsdWVzLAogICAgICAgIGJ5dGVzIG1lbW9yeSBkYXRhCiAgICApIGludGVybmFsIHsKICAgICAgICBpZiAodG8gPT0gYWRkcmVzcygwKSkgewogICAgICAgICAgICByZXZlcnQgRVJDMTE1NUludmFsaWRSZWNlaXZlcihhZGRyZXNzKDApKTsKICAgICAgICB9CiAgICAgICAgaWYgKGZyb20gPT0gYWRkcmVzcygwKSkgewogICAgICAgICAgICByZXZlcnQgRVJDMTE1NUludmFsaWRTZW5kZXIoYWRkcmVzcygwKSk7CiAgICAgICAgfQogICAgICAgIF91cGRhdGVXaXRoQWNjZXB0YW5jZUNoZWNrKGZyb20sIHRvLCBpZHMsIHZhbHVlcywgZGF0YSk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFNldHMgYSBuZXcgVVJJIGZvciBhbGwgdG9rZW4gdHlwZXMsIGJ5IHJlbHlpbmcgb24gdGhlIHRva2VuIHR5cGUgSUQKICAgICAqIHN1YnN0aXR1dGlvbiBtZWNoYW5pc20KICAgICAqIGh0dHBzOi8vZWlwcy5ldGhlcmV1bS5vcmcvRUlQUy9laXAtMTE1NSNtZXRhZGF0YVtkZWZpbmVkIGluIHRoZSBFUkNdLgogICAgICoKICAgICAqIEJ5IHRoaXMgbWVjaGFuaXNtLCBhbnkgb2NjdXJyZW5jZSBvZiB0aGUgYFx7aWRcfWAgc3Vic3RyaW5nIGluIGVpdGhlciB0aGUKICAgICAqIFVSSSBvciBhbnkgb2YgdGhlIHZhbHVlcyBpbiB0aGUgSlNPTiBmaWxlIGF0IHNhaWQgVVJJIHdpbGwgYmUgcmVwbGFjZWQgYnkKICAgICAqIGNsaWVudHMgd2l0aCB0aGUgdG9rZW4gdHlwZSBJRC4KICAgICAqCiAgICAgKiBGb3IgZXhhbXBsZSwgdGhlIGBodHRwczovL3Rva2VuLWNkbi1kb21haW4vXHtpZFx9Lmpzb25gIFVSSSB3b3VsZCBiZQogICAgICogaW50ZXJwcmV0ZWQgYnkgY2xpZW50cyBhcwogICAgICogYGh0dHBzOi8vdG9rZW4tY2RuLWRvbWFpbi8wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDRjY2UwLmpzb25gCiAgICAgKiBmb3IgdG9rZW4gdHlwZSBJRCAweDRjY2UwLgogICAgICoKICAgICAqIFNlZSB7dXJpfS4KICAgICAqCiAgICAgKiBCZWNhdXNlIHRoZXNlIFVSSXMgY2Fubm90IGJlIG1lYW5pbmdmdWxseSByZXByZXNlbnRlZCBieSB0aGUge1VSSX0gZXZlbnQsCiAgICAgKiB0aGlzIGZ1bmN0aW9uIGVtaXRzIG5vIGV2ZW50cy4KICAgICAqLwogICAgZnVuY3Rpb24gX3NldFVSSShzdHJpbmcgbWVtb3J5IG5ld3VyaSkgaW50ZXJuYWwgdmlydHVhbCB7CiAgICAgICAgX3VyaSA9IG5ld3VyaTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgQ3JlYXRlcyBhIGB2YWx1ZWAgYW1vdW50IG9mIHRva2VucyBvZiB0eXBlIGBpZGAsIGFuZCBhc3NpZ25zIHRoZW0gdG8gYHRvYC4KICAgICAqCiAgICAgKiBFbWl0cyBhIHtUcmFuc2ZlclNpbmdsZX0gZXZlbnQuCiAgICAgKgogICAgICogUmVxdWlyZW1lbnRzOgogICAgICoKICAgICAqIC0gYHRvYCBjYW5ub3QgYmUgdGhlIHplcm8gYWRkcmVzcy4KICAgICAqIC0gSWYgYHRvYCByZWZlcnMgdG8gYSBzbWFydCBjb250cmFjdCwgaXQgbXVzdCBpbXBsZW1lbnQge0lFUkMxMTU1UmVjZWl2ZXItb25FUkMxMTU1UmVjZWl2ZWR9IGFuZCByZXR1cm4gdGhlCiAgICAgKiBhY2NlcHRhbmNlIG1hZ2ljIHZhbHVlLgogICAgICovCiAgICBmdW5jdGlvbiBfbWludChhZGRyZXNzIHRvLCB1aW50MjU2IGlkLCB1aW50MjU2IHZhbHVlLCBieXRlcyBtZW1vcnkgZGF0YSkgaW50ZXJuYWwgewogICAgICAgIGlmICh0byA9PSBhZGRyZXNzKDApKSB7CiAgICAgICAgICAgIHJldmVydCBFUkMxMTU1SW52YWxpZFJlY2VpdmVyKGFkZHJlc3MoMCkpOwogICAgICAgIH0KICAgICAgICAodWludDI1NltdIG1lbW9yeSBpZHMsIHVpbnQyNTZbXSBtZW1vcnkgdmFsdWVzKSA9IF9hc1NpbmdsZXRvbkFycmF5cyhpZCwgdmFsdWUpOwogICAgICAgIF91cGRhdGVXaXRoQWNjZXB0YW5jZUNoZWNrKGFkZHJlc3MoMCksIHRvLCBpZHMsIHZhbHVlcywgZGF0YSk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IHhyZWY6Uk9PVDplcmMxMTU1LmFkb2MjYmF0Y2gtb3BlcmF0aW9uc1tCYXRjaGVkXSB2ZXJzaW9uIG9mIHtfbWludH0uCiAgICAgKgogICAgICogRW1pdHMgYSB7VHJhbnNmZXJCYXRjaH0gZXZlbnQuCiAgICAgKgogICAgICogUmVxdWlyZW1lbnRzOgogICAgICoKICAgICAqIC0gYGlkc2AgYW5kIGB2YWx1ZXNgIG11c3QgaGF2ZSB0aGUgc2FtZSBsZW5ndGguCiAgICAgKiAtIGB0b2AgY2Fubm90IGJlIHRoZSB6ZXJvIGFkZHJlc3MuCiAgICAgKiAtIElmIGB0b2AgcmVmZXJzIHRvIGEgc21hcnQgY29udHJhY3QsIGl0IG11c3QgaW1wbGVtZW50IHtJRVJDMTE1NVJlY2VpdmVyLW9uRVJDMTE1NUJhdGNoUmVjZWl2ZWR9IGFuZCByZXR1cm4gdGhlCiAgICAgKiBhY2NlcHRhbmNlIG1hZ2ljIHZhbHVlLgogICAgICovCiAgICBmdW5jdGlvbiBfbWludEJhdGNoKGFkZHJlc3MgdG8sIHVpbnQyNTZbXSBtZW1vcnkgaWRzLCB1aW50MjU2W10gbWVtb3J5IHZhbHVlcywgYnl0ZXMgbWVtb3J5IGRhdGEpIGludGVybmFsIHsKICAgICAgICBpZiAodG8gPT0gYWRkcmVzcygwKSkgewogICAgICAgICAgICByZXZlcnQgRVJDMTE1NUludmFsaWRSZWNlaXZlcihhZGRyZXNzKDApKTsKICAgICAgICB9CiAgICAgICAgX3VwZGF0ZVdpdGhBY2NlcHRhbmNlQ2hlY2soYWRkcmVzcygwKSwgdG8sIGlkcywgdmFsdWVzLCBkYXRhKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgRGVzdHJveXMgYSBgdmFsdWVgIGFtb3VudCBvZiB0b2tlbnMgb2YgdHlwZSBgaWRgIGZyb20gYGZyb21gCiAgICAgKgogICAgICogRW1pdHMgYSB7VHJhbnNmZXJTaW5nbGV9IGV2ZW50LgogICAgICoKICAgICAqIFJlcXVpcmVtZW50czoKICAgICAqCiAgICAgKiAtIGBmcm9tYCBjYW5ub3QgYmUgdGhlIHplcm8gYWRkcmVzcy4KICAgICAqIC0gYGZyb21gIG11c3QgaGF2ZSBhdCBsZWFzdCBgdmFsdWVgIGFtb3VudCBvZiB0b2tlbnMgb2YgdHlwZSBgaWRgLgogICAgICovCiAgICBmdW5jdGlvbiBfYnVybihhZGRyZXNzIGZyb20sIHVpbnQyNTYgaWQsIHVpbnQyNTYgdmFsdWUpIGludGVybmFsIHsKICAgICAgICBpZiAoZnJvbSA9PSBhZGRyZXNzKDApKSB7CiAgICAgICAgICAgIHJldmVydCBFUkMxMTU1SW52YWxpZFNlbmRlcihhZGRyZXNzKDApKTsKICAgICAgICB9CiAgICAgICAgKHVpbnQyNTZbXSBtZW1vcnkgaWRzLCB1aW50MjU2W10gbWVtb3J5IHZhbHVlcykgPSBfYXNTaW5nbGV0b25BcnJheXMoaWQsIHZhbHVlKTsKICAgICAgICBfdXBkYXRlV2l0aEFjY2VwdGFuY2VDaGVjayhmcm9tLCBhZGRyZXNzKDApLCBpZHMsIHZhbHVlcywgIiIpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiB4cmVmOlJPT1Q6ZXJjMTE1NS5hZG9jI2JhdGNoLW9wZXJhdGlvbnNbQmF0Y2hlZF0gdmVyc2lvbiBvZiB7X2J1cm59LgogICAgICoKICAgICAqIEVtaXRzIGEge1RyYW5zZmVyQmF0Y2h9IGV2ZW50LgogICAgICoKICAgICAqIFJlcXVpcmVtZW50czoKICAgICAqCiAgICAgKiAtIGBmcm9tYCBjYW5ub3QgYmUgdGhlIHplcm8gYWRkcmVzcy4KICAgICAqIC0gYGZyb21gIG11c3QgaGF2ZSBhdCBsZWFzdCBgdmFsdWVgIGFtb3VudCBvZiB0b2tlbnMgb2YgdHlwZSBgaWRgLgogICAgICogLSBgaWRzYCBhbmQgYHZhbHVlc2AgbXVzdCBoYXZlIHRoZSBzYW1lIGxlbmd0aC4KICAgICAqLwogICAgZnVuY3Rpb24gX2J1cm5CYXRjaChhZGRyZXNzIGZyb20sIHVpbnQyNTZbXSBtZW1vcnkgaWRzLCB1aW50MjU2W10gbWVtb3J5IHZhbHVlcykgaW50ZXJuYWwgewogICAgICAgIGlmIChmcm9tID09IGFkZHJlc3MoMCkpIHsKICAgICAgICAgICAgcmV2ZXJ0IEVSQzExNTVJbnZhbGlkU2VuZGVyKGFkZHJlc3MoMCkpOwogICAgICAgIH0KICAgICAgICBfdXBkYXRlV2l0aEFjY2VwdGFuY2VDaGVjayhmcm9tLCBhZGRyZXNzKDApLCBpZHMsIHZhbHVlcywgIiIpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBBcHByb3ZlIGBvcGVyYXRvcmAgdG8gb3BlcmF0ZSBvbiBhbGwgb2YgYG93bmVyYCB0b2tlbnMKICAgICAqCiAgICAgKiBFbWl0cyBhbiB7QXBwcm92YWxGb3JBbGx9IGV2ZW50LgogICAgICoKICAgICAqIFJlcXVpcmVtZW50czoKICAgICAqCiAgICAgKiAtIGBvcGVyYXRvcmAgY2Fubm90IGJlIHRoZSB6ZXJvIGFkZHJlc3MuCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9zZXRBcHByb3ZhbEZvckFsbChhZGRyZXNzIG93bmVyLCBhZGRyZXNzIG9wZXJhdG9yLCBib29sIGFwcHJvdmVkKSBpbnRlcm5hbCB2aXJ0dWFsIHsKICAgICAgICBpZiAob3BlcmF0b3IgPT0gYWRkcmVzcygwKSkgewogICAgICAgICAgICByZXZlcnQgRVJDMTE1NUludmFsaWRPcGVyYXRvcihhZGRyZXNzKDApKTsKICAgICAgICB9CiAgICAgICAgX29wZXJhdG9yQXBwcm92YWxzW293bmVyXVtvcGVyYXRvcl0gPSBhcHByb3ZlZDsKICAgICAgICBlbWl0IEFwcHJvdmFsRm9yQWxsKG93bmVyLCBvcGVyYXRvciwgYXBwcm92ZWQpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBDcmVhdGVzIGFuIGFycmF5IGluIG1lbW9yeSB3aXRoIG9ubHkgb25lIHZhbHVlIGZvciBlYWNoIG9mIHRoZSBlbGVtZW50cyBwcm92aWRlZC4KICAgICAqLwogICAgZnVuY3Rpb24gX2FzU2luZ2xldG9uQXJyYXlzKAogICAgICAgIHVpbnQyNTYgZWxlbWVudDEsCiAgICAgICAgdWludDI1NiBlbGVtZW50MgogICAgKSBwcml2YXRlIHB1cmUgcmV0dXJucyAodWludDI1NltdIG1lbW9yeSBhcnJheTEsIHVpbnQyNTZbXSBtZW1vcnkgYXJyYXkyKSB7CiAgICAgICAgYXNzZW1ibHkgKCJtZW1vcnktc2FmZSIpIHsKICAgICAgICAgICAgLy8gTG9hZCB0aGUgZnJlZSBtZW1vcnkgcG9pbnRlcgogICAgICAgICAgICBhcnJheTEgOj0gbWxvYWQoMHg0MCkKICAgICAgICAgICAgLy8gU2V0IGFycmF5IGxlbmd0aCB0byAxCiAgICAgICAgICAgIG1zdG9yZShhcnJheTEsIDEpCiAgICAgICAgICAgIC8vIFN0b3JlIHRoZSBzaW5nbGUgZWxlbWVudCBhdCB0aGUgbmV4dCB3b3JkIGFmdGVyIHRoZSBsZW5ndGggKHdoZXJlIGNvbnRlbnQgc3RhcnRzKQogICAgICAgICAgICBtc3RvcmUoYWRkKGFycmF5MSwgMHgyMCksIGVsZW1lbnQxKQoKICAgICAgICAgICAgLy8gUmVwZWF0IGZvciBuZXh0IGFycmF5IGxvY2F0aW5nIGl0IHJpZ2h0IGFmdGVyIHRoZSBmaXJzdCBhcnJheQogICAgICAgICAgICBhcnJheTIgOj0gYWRkKGFycmF5MSwgMHg0MCkKICAgICAgICAgICAgbXN0b3JlKGFycmF5MiwgMSkKICAgICAgICAgICAgbXN0b3JlKGFkZChhcnJheTIsIDB4MjApLCBlbGVtZW50MikKCiAgICAgICAgICAgIC8vIFVwZGF0ZSB0aGUgZnJlZSBtZW1vcnkgcG9pbnRlciBieSBwb2ludGluZyBhZnRlciB0aGUgc2Vjb25kIGFycmF5CiAgICAgICAgICAgIG1zdG9yZSgweDQwLCBhZGQoYXJyYXkyLCAweDQwKSkKICAgICAgICB9CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (token/ERC1155/ERC1155.sol)
+
+pragma solidity ^0.8.20;
+
+import {IERC1155} from "./IERC1155.sol";
+import {IERC1155MetadataURI} from "./extensions/IERC1155MetadataURI.sol";
+import {ERC1155Utils} from "./utils/ERC1155Utils.sol";
+import {Context} from "../../utils/Context.sol";
+import {IERC165, ERC165} from "../../utils/introspection/ERC165.sol";
+import {Arrays} from "../../utils/Arrays.sol";
+import {IERC1155Errors} from "../../interfaces/draft-IERC6093.sol";
+
+/**
+ * @dev Implementation of the basic standard multi-token.
+ * See https://eips.ethereum.org/EIPS/eip-1155
+ * Originally based on code by Enjin: https://github.com/enjin/erc-1155
+ */
+abstract contract ERC1155 is Context, ERC165, IERC1155, IERC1155MetadataURI, IERC1155Errors {
+    using Arrays for uint256[];
+    using Arrays for address[];
+
+    mapping(uint256 id => mapping(address account => uint256)) private _balances;
+
+    mapping(address account => mapping(address operator => bool)) private _operatorApprovals;
+
+    // Used as the URI for all token types by relying on ID substitution, e.g. https://token-cdn-domain/{id}.json
+    string private _uri;
+
+    /**
+     * @dev See {_setURI}.
+     */
+    constructor(string memory uri_) {
+        _setURI(uri_);
+    }
+
+    /**
+     * @dev See {IERC165-supportsInterface}.
+     */
+    function supportsInterface(bytes4 interfaceId) public view virtual override(ERC165, IERC165) returns (bool) {
+        return
+            interfaceId == type(IERC1155).interfaceId ||
+            interfaceId == type(IERC1155MetadataURI).interfaceId ||
+            super.supportsInterface(interfaceId);
+    }
+
+    /**
+     * @dev See {IERC1155MetadataURI-uri}.
+     *
+     * This implementation returns the same URI for *all* token types. It relies
+     * on the token type ID substitution mechanism
+     * https://eips.ethereum.org/EIPS/eip-1155#metadata[defined in the ERC].
+     *
+     * Clients calling this function must replace the `\{id\}` substring with the
+     * actual token type ID.
+     */
+    function uri(uint256 /* id */) public view virtual returns (string memory) {
+        return _uri;
+    }
+
+    /**
+     * @dev See {IERC1155-balanceOf}.
+     */
+    function balanceOf(address account, uint256 id) public view virtual returns (uint256) {
+        return _balances[id][account];
+    }
+
+    /**
+     * @dev See {IERC1155-balanceOfBatch}.
+     *
+     * Requirements:
+     *
+     * - `accounts` and `ids` must have the same length.
+     */
+    function balanceOfBatch(
+        address[] memory accounts,
+        uint256[] memory ids
+    ) public view virtual returns (uint256[] memory) {
+        if (accounts.length != ids.length) {
+            revert ERC1155InvalidArrayLength(ids.length, accounts.length);
+        }
+
+        uint256[] memory batchBalances = new uint256[](accounts.length);
+
+        for (uint256 i = 0; i < accounts.length; ++i) {
+            batchBalances[i] = balanceOf(accounts.unsafeMemoryAccess(i), ids.unsafeMemoryAccess(i));
+        }
+
+        return batchBalances;
+    }
+
+    /**
+     * @dev See {IERC1155-setApprovalForAll}.
+     */
+    function setApprovalForAll(address operator, bool approved) public virtual {
+        _setApprovalForAll(_msgSender(), operator, approved);
+    }
+
+    /**
+     * @dev See {IERC1155-isApprovedForAll}.
+     */
+    function isApprovedForAll(address account, address operator) public view virtual returns (bool) {
+        return _operatorApprovals[account][operator];
+    }
+
+    /**
+     * @dev See {IERC1155-safeTransferFrom}.
+     */
+    function safeTransferFrom(address from, address to, uint256 id, uint256 value, bytes memory data) public virtual {
+        address sender = _msgSender();
+        if (from != sender && !isApprovedForAll(from, sender)) {
+            revert ERC1155MissingApprovalForAll(sender, from);
+        }
+        _safeTransferFrom(from, to, id, value, data);
+    }
+
+    /**
+     * @dev See {IERC1155-safeBatchTransferFrom}.
+     */
+    function safeBatchTransferFrom(
+        address from,
+        address to,
+        uint256[] memory ids,
+        uint256[] memory values,
+        bytes memory data
+    ) public virtual {
+        address sender = _msgSender();
+        if (from != sender && !isApprovedForAll(from, sender)) {
+            revert ERC1155MissingApprovalForAll(sender, from);
+        }
+        _safeBatchTransferFrom(from, to, ids, values, data);
+    }
+
+    /**
+     * @dev Transfers a `value` amount of tokens of type `id` from `from` to `to`. Will mint (or burn) if `from`
+     * (or `to`) is the zero address.
+     *
+     * Emits a {TransferSingle} event if the arrays contain one element, and {TransferBatch} otherwise.
+     *
+     * Requirements:
+     *
+     * - If `to` refers to a smart contract, it must implement either {IERC1155Receiver-onERC1155Received}
+     *   or {IERC1155Receiver-onERC1155BatchReceived} and return the acceptance magic value.
+     * - `ids` and `values` must have the same length.
+     *
+     * NOTE: The ERC-1155 acceptance check is not performed in this function. See {_updateWithAcceptanceCheck} instead.
+     */
+    function _update(address from, address to, uint256[] memory ids, uint256[] memory values) internal virtual {
+        if (ids.length != values.length) {
+            revert ERC1155InvalidArrayLength(ids.length, values.length);
+        }
+
+        address operator = _msgSender();
+
+        for (uint256 i = 0; i < ids.length; ++i) {
+            uint256 id = ids.unsafeMemoryAccess(i);
+            uint256 value = values.unsafeMemoryAccess(i);
+
+            if (from != address(0)) {
+                uint256 fromBalance = _balances[id][from];
+                if (fromBalance < value) {
+                    revert ERC1155InsufficientBalance(from, fromBalance, value, id);
+                }
+                unchecked {
+                    // Overflow not possible: value <= fromBalance
+                    _balances[id][from] = fromBalance - value;
+                }
+            }
+
+            if (to != address(0)) {
+                _balances[id][to] += value;
+            }
+        }
+
+        if (ids.length == 1) {
+            uint256 id = ids.unsafeMemoryAccess(0);
+            uint256 value = values.unsafeMemoryAccess(0);
+            emit TransferSingle(operator, from, to, id, value);
+        } else {
+            emit TransferBatch(operator, from, to, ids, values);
+        }
+    }
+
+    /**
+     * @dev Version of {_update} that performs the token acceptance check by calling
+     * {IERC1155Receiver-onERC1155Received} or {IERC1155Receiver-onERC1155BatchReceived} on the receiver address if it
+     * contains code (eg. is a smart contract at the moment of execution).
+     *
+     * IMPORTANT: Overriding this function is discouraged because it poses a reentrancy risk from the receiver. So any
+     * update to the contract state after this function would break the check-effect-interaction pattern. Consider
+     * overriding {_update} instead.
+     */
+    function _updateWithAcceptanceCheck(
+        address from,
+        address to,
+        uint256[] memory ids,
+        uint256[] memory values,
+        bytes memory data
+    ) internal virtual {
+        _update(from, to, ids, values);
+        if (to != address(0)) {
+            address operator = _msgSender();
+            if (ids.length == 1) {
+                uint256 id = ids.unsafeMemoryAccess(0);
+                uint256 value = values.unsafeMemoryAccess(0);
+                ERC1155Utils.checkOnERC1155Received(operator, from, to, id, value, data);
+            } else {
+                ERC1155Utils.checkOnERC1155BatchReceived(operator, from, to, ids, values, data);
+            }
+        }
+    }
+
+    /**
+     * @dev Transfers a `value` tokens of token type `id` from `from` to `to`.
+     *
+     * Emits a {TransferSingle} event.
+     *
+     * Requirements:
+     *
+     * - `to` cannot be the zero address.
+     * - `from` must have a balance of tokens of type `id` of at least `value` amount.
+     * - If `to` refers to a smart contract, it must implement {IERC1155Receiver-onERC1155Received} and return the
+     * acceptance magic value.
+     */
+    function _safeTransferFrom(address from, address to, uint256 id, uint256 value, bytes memory data) internal {
+        if (to == address(0)) {
+            revert ERC1155InvalidReceiver(address(0));
+        }
+        if (from == address(0)) {
+            revert ERC1155InvalidSender(address(0));
+        }
+        (uint256[] memory ids, uint256[] memory values) = _asSingletonArrays(id, value);
+        _updateWithAcceptanceCheck(from, to, ids, values, data);
+    }
+
+    /**
+     * @dev xref:ROOT:erc1155.adoc#batch-operations[Batched] version of {_safeTransferFrom}.
+     *
+     * Emits a {TransferBatch} event.
+     *
+     * Requirements:
+     *
+     * - If `to` refers to a smart contract, it must implement {IERC1155Receiver-onERC1155BatchReceived} and return the
+     * acceptance magic value.
+     * - `ids` and `values` must have the same length.
+     */
+    function _safeBatchTransferFrom(
+        address from,
+        address to,
+        uint256[] memory ids,
+        uint256[] memory values,
+        bytes memory data
+    ) internal {
+        if (to == address(0)) {
+            revert ERC1155InvalidReceiver(address(0));
+        }
+        if (from == address(0)) {
+            revert ERC1155InvalidSender(address(0));
+        }
+        _updateWithAcceptanceCheck(from, to, ids, values, data);
+    }
+
+    /**
+     * @dev Sets a new URI for all token types, by relying on the token type ID
+     * substitution mechanism
+     * https://eips.ethereum.org/EIPS/eip-1155#metadata[defined in the ERC].
+     *
+     * By this mechanism, any occurrence of the `\{id\}` substring in either the
+     * URI or any of the values in the JSON file at said URI will be replaced by
+     * clients with the token type ID.
+     *
+     * For example, the `https://token-cdn-domain/\{id\}.json` URI would be
+     * interpreted by clients as
+     * `https://token-cdn-domain/000000000000000000000000000000000000000000000000000000000004cce0.json`
+     * for token type ID 0x4cce0.
+     *
+     * See {uri}.
+     *
+     * Because these URIs cannot be meaningfully represented by the {URI} event,
+     * this function emits no events.
+     */
+    function _setURI(string memory newuri) internal virtual {
+        _uri = newuri;
+    }
+
+    /**
+     * @dev Creates a `value` amount of tokens of type `id`, and assigns them to `to`.
+     *
+     * Emits a {TransferSingle} event.
+     *
+     * Requirements:
+     *
+     * - `to` cannot be the zero address.
+     * - If `to` refers to a smart contract, it must implement {IERC1155Receiver-onERC1155Received} and return the
+     * acceptance magic value.
+     */
+    function _mint(address to, uint256 id, uint256 value, bytes memory data) internal {
+        if (to == address(0)) {
+            revert ERC1155InvalidReceiver(address(0));
+        }
+        (uint256[] memory ids, uint256[] memory values) = _asSingletonArrays(id, value);
+        _updateWithAcceptanceCheck(address(0), to, ids, values, data);
+    }
+
+    /**
+     * @dev xref:ROOT:erc1155.adoc#batch-operations[Batched] version of {_mint}.
+     *
+     * Emits a {TransferBatch} event.
+     *
+     * Requirements:
+     *
+     * - `ids` and `values` must have the same length.
+     * - `to` cannot be the zero address.
+     * - If `to` refers to a smart contract, it must implement {IERC1155Receiver-onERC1155BatchReceived} and return the
+     * acceptance magic value.
+     */
+    function _mintBatch(address to, uint256[] memory ids, uint256[] memory values, bytes memory data) internal {
+        if (to == address(0)) {
+            revert ERC1155InvalidReceiver(address(0));
+        }
+        _updateWithAcceptanceCheck(address(0), to, ids, values, data);
+    }
+
+    /**
+     * @dev Destroys a `value` amount of tokens of type `id` from `from`
+     *
+     * Emits a {TransferSingle} event.
+     *
+     * Requirements:
+     *
+     * - `from` cannot be the zero address.
+     * - `from` must have at least `value` amount of tokens of type `id`.
+     */
+    function _burn(address from, uint256 id, uint256 value) internal {
+        if (from == address(0)) {
+            revert ERC1155InvalidSender(address(0));
+        }
+        (uint256[] memory ids, uint256[] memory values) = _asSingletonArrays(id, value);
+        _updateWithAcceptanceCheck(from, address(0), ids, values, "");
+    }
+
+    /**
+     * @dev xref:ROOT:erc1155.adoc#batch-operations[Batched] version of {_burn}.
+     *
+     * Emits a {TransferBatch} event.
+     *
+     * Requirements:
+     *
+     * - `from` cannot be the zero address.
+     * - `from` must have at least `value` amount of tokens of type `id`.
+     * - `ids` and `values` must have the same length.
+     */
+    function _burnBatch(address from, uint256[] memory ids, uint256[] memory values) internal {
+        if (from == address(0)) {
+            revert ERC1155InvalidSender(address(0));
+        }
+        _updateWithAcceptanceCheck(from, address(0), ids, values, "");
+    }
+
+    /**
+     * @dev Approve `operator` to operate on all of `owner` tokens
+     *
+     * Emits an {ApprovalForAll} event.
+     *
+     * Requirements:
+     *
+     * - `operator` cannot be the zero address.
+     */
+    function _setApprovalForAll(address owner, address operator, bool approved) internal virtual {
+        if (operator == address(0)) {
+            revert ERC1155InvalidOperator(address(0));
+        }
+        _operatorApprovals[owner][operator] = approved;
+        emit ApprovalForAll(owner, operator, approved);
+    }
+
+    /**
+     * @dev Creates an array in memory with only one value for each of the elements provided.
+     */
+    function _asSingletonArrays(
+        uint256 element1,
+        uint256 element2
+    ) private pure returns (uint256[] memory array1, uint256[] memory array2) {
+        assembly ("memory-safe") {
+            // Load the free memory pointer
+            array1 := mload(0x40)
+            // Set array length to 1
+            mstore(array1, 1)
+            // Store the single element at the next word after the length (where content starts)
+            mstore(add(array1, 0x20), element1)
+
+            // Repeat for next array locating it right after the first array
+            array2 := add(array1, 0x40)
+            mstore(array2, 1)
+            mstore(add(array2, 0x20), element2)
+
+            // Update the free memory pointer by pointing after the second array
+            mstore(0x40, add(array2, 0x40))
+        }
+    }
+}
