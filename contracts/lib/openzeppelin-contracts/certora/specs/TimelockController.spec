@@ -1,1 +1,274 @@
-aW1wb3J0ICJoZWxwZXJzL2hlbHBlcnMuc3BlYyI7CmltcG9ydCAibWV0aG9kcy9JQWNjZXNzQ29udHJvbC5zcGVjIjsKCm1ldGhvZHMgewogICAgZnVuY3Rpb24gUFJPUE9TRVJfUk9MRSgpICAgICAgICAgICAgIGV4dGVybmFsIHJldHVybnMgKGJ5dGVzMzIpIGVudmZyZWU7CiAgICBmdW5jdGlvbiBFWEVDVVRPUl9ST0xFKCkgICAgICAgICAgICAgZXh0ZXJuYWwgcmV0dXJucyAoYnl0ZXMzMikgZW52ZnJlZTsKICAgIGZ1bmN0aW9uIENBTkNFTExFUl9ST0xFKCkgICAgICAgICAgICBleHRlcm5hbCByZXR1cm5zIChieXRlczMyKSBlbnZmcmVlOwogICAgZnVuY3Rpb24gaXNPcGVyYXRpb24oYnl0ZXMzMikgICAgICAgIGV4dGVybmFsIHJldHVybnMgKGJvb2wpOwogICAgZnVuY3Rpb24gaXNPcGVyYXRpb25QZW5kaW5nKGJ5dGVzMzIpIGV4dGVybmFsIHJldHVybnMgKGJvb2wpOwogICAgZnVuY3Rpb24gaXNPcGVyYXRpb25SZWFkeShieXRlczMyKSAgIGV4dGVybmFsIHJldHVybnMgKGJvb2wpOwogICAgZnVuY3Rpb24gaXNPcGVyYXRpb25Eb25lKGJ5dGVzMzIpICAgIGV4dGVybmFsIHJldHVybnMgKGJvb2wpOwogICAgZnVuY3Rpb24gZ2V0VGltZXN0YW1wKGJ5dGVzMzIpICAgICAgIGV4dGVybmFsIHJldHVybnMgKHVpbnQyNTYpIGVudmZyZWU7CiAgICBmdW5jdGlvbiBnZXRNaW5EZWxheSgpICAgICAgICAgICAgICAgZXh0ZXJuYWwgcmV0dXJucyAodWludDI1NikgZW52ZnJlZTsKCiAgICBmdW5jdGlvbiBoYXNoT3BlcmF0aW9uKGFkZHJlc3MsIHVpbnQyNTYsIGJ5dGVzLCBieXRlczMyLCBieXRlczMyKSAgICAgICAgICAgIGV4dGVybmFsIHJldHVybnMoYnl0ZXMzMikgZW52ZnJlZTsKICAgIGZ1bmN0aW9uIGhhc2hPcGVyYXRpb25CYXRjaChhZGRyZXNzW10sIHVpbnQyNTZbXSwgYnl0ZXNbXSwgYnl0ZXMzMiwgYnl0ZXMzMikgZXh0ZXJuYWwgcmV0dXJucyhieXRlczMyKSBlbnZmcmVlOwoKICAgIGZ1bmN0aW9uIHNjaGVkdWxlKGFkZHJlc3MsIHVpbnQyNTYsIGJ5dGVzLCBieXRlczMyLCBieXRlczMyLCB1aW50MjU2KSBleHRlcm5hbDsKICAgIGZ1bmN0aW9uIHNjaGVkdWxlQmF0Y2goYWRkcmVzc1tdLCB1aW50MjU2W10sIGJ5dGVzW10sIGJ5dGVzMzIsIGJ5dGVzMzIsIHVpbnQyNTYpIGV4dGVybmFsOwogICAgZnVuY3Rpb24gZXhlY3V0ZShhZGRyZXNzLCB1aW50MjU2LCBieXRlcywgYnl0ZXMzMiwgYnl0ZXMzMikgZXh0ZXJuYWw7CiAgICBmdW5jdGlvbiBleGVjdXRlQmF0Y2goYWRkcmVzc1tdLCB1aW50MjU2W10sIGJ5dGVzW10sIGJ5dGVzMzIsIGJ5dGVzMzIpIGV4dGVybmFsOwogICAgZnVuY3Rpb24gY2FuY2VsKGJ5dGVzMzIpIGV4dGVybmFsOwoKICAgIGZ1bmN0aW9uIHVwZGF0ZURlbGF5KHVpbnQyNTYpIGV4dGVybmFsOwp9CgovKgrilIzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJAK4pSCIEhlbHBlcnMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg4pSCCuKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmAoqLwovLyBVbmlmb3JtbHkgaGFuZGxlIHNjaGVkdWxpbmcgb2YgYmF0Y2hlZCBhbmQgbm9uLWJhdGNoZWQgb3BlcmF0aW9ucy4KZnVuY3Rpb24gaGVscGVyU2NoZWR1bGVXaXRoUmV2ZXJ0KGVudiBlLCBtZXRob2QgZiwgYnl0ZXMzMiBpZCwgdWludDI1NiBkZWxheSkgewogICAgaWYgKGYuc2VsZWN0b3IgPT0gc2lnOnNjaGVkdWxlKGFkZHJlc3MsIHVpbnQyNTYsIGJ5dGVzLCBieXRlczMyLCBieXRlczMyLCB1aW50MjU2KS5zZWxlY3RvcikgewogICAgICAgIGFkZHJlc3MgdGFyZ2V0OyB1aW50MjU2IHZhbHVlOyBieXRlcyBkYXRhOyBieXRlczMyIHByZWRlY2Vzc29yOyBieXRlczMyIHNhbHQ7CiAgICAgICAgcmVxdWlyZSBoYXNoT3BlcmF0aW9uKHRhcmdldCwgdmFsdWUsIGRhdGEsIHByZWRlY2Vzc29yLCBzYWx0KSA9PSBpZDsgLy8gQ29ycmVsYXRpb24KICAgICAgICBzY2hlZHVsZUB3aXRocmV2ZXJ0KGUsIHRhcmdldCwgdmFsdWUsIGRhdGEsIHByZWRlY2Vzc29yLCBzYWx0LCBkZWxheSk7CiAgICB9IGVsc2UgaWYgKGYuc2VsZWN0b3IgPT0gc2lnOnNjaGVkdWxlQmF0Y2goYWRkcmVzc1tdLCB1aW50MjU2W10sIGJ5dGVzW10sIGJ5dGVzMzIsIGJ5dGVzMzIsIHVpbnQyNTYpLnNlbGVjdG9yKSB7CiAgICAgICAgYWRkcmVzc1tdIHRhcmdldHM7IHVpbnQyNTZbXSB2YWx1ZXM7IGJ5dGVzW10gcGF5bG9hZHM7IGJ5dGVzMzIgcHJlZGVjZXNzb3I7IGJ5dGVzMzIgc2FsdDsKICAgICAgICByZXF1aXJlIGhhc2hPcGVyYXRpb25CYXRjaCh0YXJnZXRzLCB2YWx1ZXMsIHBheWxvYWRzLCBwcmVkZWNlc3Nvciwgc2FsdCkgPT0gaWQ7IC8vIENvcnJlbGF0aW9uCiAgICAgICAgc2NoZWR1bGVCYXRjaEB3aXRocmV2ZXJ0KGUsIHRhcmdldHMsIHZhbHVlcywgcGF5bG9hZHMsIHByZWRlY2Vzc29yLCBzYWx0LCBkZWxheSk7CiAgICB9IGVsc2UgewogICAgICAgIGNhbGxkYXRhYXJnIGFyZ3M7CiAgICAgICAgZkB3aXRocmV2ZXJ0KGUsIGFyZ3MpOwogICAgfQp9CgovLyBVbmlmb3JtbHkgaGFuZGxlIGV4ZWN1dGlvbiBvZiBiYXRjaGVkIGFuZCBub24tYmF0Y2hlZCBvcGVyYXRpb25zLgpmdW5jdGlvbiBoZWxwZXJFeGVjdXRlV2l0aFJldmVydChlbnYgZSwgbWV0aG9kIGYsIGJ5dGVzMzIgaWQsIGJ5dGVzMzIgcHJlZGVjZXNzb3IpIHsKICAgIGlmIChmLnNlbGVjdG9yID09IHNpZzpleGVjdXRlKGFkZHJlc3MsIHVpbnQyNTYsIGJ5dGVzLCBieXRlczMyLCBieXRlczMyKS5zZWxlY3RvcikgewogICAgICAgIGFkZHJlc3MgdGFyZ2V0OyB1aW50MjU2IHZhbHVlOyBieXRlcyBkYXRhOyBieXRlczMyIHNhbHQ7CiAgICAgICAgcmVxdWlyZSBoYXNoT3BlcmF0aW9uKHRhcmdldCwgdmFsdWUsIGRhdGEsIHByZWRlY2Vzc29yLCBzYWx0KSA9PSBpZDsgLy8gQ29ycmVsYXRpb24KICAgICAgICBleGVjdXRlQHdpdGhyZXZlcnQoZSwgdGFyZ2V0LCB2YWx1ZSwgZGF0YSwgcHJlZGVjZXNzb3IsIHNhbHQpOwogICAgfSBlbHNlIGlmIChmLnNlbGVjdG9yID09IHNpZzpleGVjdXRlQmF0Y2goYWRkcmVzc1tdLCB1aW50MjU2W10sIGJ5dGVzW10sIGJ5dGVzMzIsIGJ5dGVzMzIpLnNlbGVjdG9yKSB7CiAgICAgICAgYWRkcmVzc1tdIHRhcmdldHM7IHVpbnQyNTZbXSB2YWx1ZXM7IGJ5dGVzW10gcGF5bG9hZHM7IGJ5dGVzMzIgc2FsdDsKICAgICAgICByZXF1aXJlIGhhc2hPcGVyYXRpb25CYXRjaCh0YXJnZXRzLCB2YWx1ZXMsIHBheWxvYWRzLCBwcmVkZWNlc3Nvciwgc2FsdCkgPT0gaWQ7IC8vIENvcnJlbGF0aW9uCiAgICAgICAgZXhlY3V0ZUJhdGNoQHdpdGhyZXZlcnQoZSwgdGFyZ2V0cywgdmFsdWVzLCBwYXlsb2FkcywgcHJlZGVjZXNzb3IsIHNhbHQpOwogICAgfSBlbHNlIHsKICAgICAgICBjYWxsZGF0YWFyZyBhcmdzOwogICAgICAgIGZAd2l0aHJldmVydChlLCBhcmdzKTsKICAgIH0KfQoKLyoK4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQCuKUgiBEZWZpbml0aW9ucyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIOKUggrilJTilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJgKKi8KZGVmaW5pdGlvbiBET05FX1RJTUVTVEFNUCgpICAgICAgcmV0dXJucyB1aW50MjU2ID0gMTsKZGVmaW5pdGlvbiBVTlNFVCgpICAgICAgICAgICAgICAgcmV0dXJucyB1aW50OCAgID0gMHgxOwpkZWZpbml0aW9uIFBFTkRJTkcoKSAgICAgICAgICAgICByZXR1cm5zIHVpbnQ4ICAgPSAweDI7CmRlZmluaXRpb24gRE9ORSgpICAgICAgICAgICAgICAgIHJldHVybnMgdWludDggICA9IDB4NDsKCmRlZmluaXRpb24gaXNVbnNldChlbnYgZSwgYnl0ZXMzMiBpZCkgICByZXR1cm5zIGJvb2wgID0gIWlzT3BlcmF0aW9uKGUsIGlkKTsKZGVmaW5pdGlvbiBpc1BlbmRpbmcoZW52IGUsIGJ5dGVzMzIgaWQpIHJldHVybnMgYm9vbCAgPSBpc09wZXJhdGlvblBlbmRpbmcoZSwgaWQpOwpkZWZpbml0aW9uIGlzRG9uZShlbnYgZSwgYnl0ZXMzMiBpZCkgICAgcmV0dXJucyBib29sICA9IGlzT3BlcmF0aW9uRG9uZShlLCBpZCk7CmRlZmluaXRpb24gc3RhdGUoZW52IGUsIGJ5dGVzMzIgaWQpICAgICByZXR1cm5zIHVpbnQ4ID0gKGlzVW5zZXQoZSwgaWQpID8gVU5TRVQoKSA6IDApIHwgKGlzUGVuZGluZyhlLCBpZCkgPyBQRU5ESU5HKCkgOiAwKSB8IChpc0RvbmUoZSwgaWQpID8gRE9ORSgpIDogMCk7CgovKgrilIzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJAK4pSCIEludmFyaWFudHM6IGNvbnNpc3RlbmN5IG9mIGFjY2Vzc29ycyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg4pSCCuKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmAoqLwppbnZhcmlhbnQgaXNPcGVyYXRpb25DaGVjayhlbnYgZSwgYnl0ZXMzMiBpZCkKICAgIGlzT3BlcmF0aW9uKGUsIGlkKSA8PT4gZ2V0VGltZXN0YW1wKGlkKSA+IDAKICAgIGZpbHRlcmVkIHsgZiAtPiAhZi5pc1ZpZXcgfQoKaW52YXJpYW50IGlzT3BlcmF0aW9uUGVuZGluZ0NoZWNrKGVudiBlLCBieXRlczMyIGlkKQogICAgaXNPcGVyYXRpb25QZW5kaW5nKGUsIGlkKSA8PT4gZ2V0VGltZXN0YW1wKGlkKSA+IERPTkVfVElNRVNUQU1QKCkKICAgIGZpbHRlcmVkIHsgZiAtPiAhZi5pc1ZpZXcgfQoKaW52YXJpYW50IGlzT3BlcmF0aW9uRG9uZUNoZWNrKGVudiBlLCBieXRlczMyIGlkKQogICAgaXNPcGVyYXRpb25Eb25lKGUsIGlkKSA8PT4gZ2V0VGltZXN0YW1wKGlkKSA9PSBET05FX1RJTUVTVEFNUCgpCiAgICBmaWx0ZXJlZCB7IGYgLT4gIWYuaXNWaWV3IH0KCmludmFyaWFudCBpc09wZXJhdGlvblJlYWR5Q2hlY2soZW52IGUsIGJ5dGVzMzIgaWQpCiAgICBpc09wZXJhdGlvblJlYWR5KGUsIGlkKSA8PT4gKGlzT3BlcmF0aW9uUGVuZGluZyhlLCBpZCkgJiYgZ2V0VGltZXN0YW1wKGlkKSA8PSBlLmJsb2NrLnRpbWVzdGFtcCkKICAgIGZpbHRlcmVkIHsgZiAtPiAhZi5pc1ZpZXcgfQoKLyoK4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQCuKUgiBJbnZhcmlhbnQ6IGEgcHJvcG9zYWwgaWQgaXMgZWl0aGVyIHVuc2V0LCBwZW5kaW5nIG9yIGRvbmUgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIOKUggrilJTilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJgKKi8KaW52YXJpYW50IHN0YXRlQ29uc2lzdGVuY3koYnl0ZXMzMiBpZCwgZW52IGUpCiAgICAvLyBDaGVjayBzdGF0ZXMgYXJlIG11dHVhbGx5IGV4Y2x1c2l2ZQogICAgKGlzVW5zZXQoZSwgaWQpICAgPD0+ICghaXNQZW5kaW5nKGUsIGlkKSAmJiAhaXNEb25lKGUsIGlkKSAgICkpICYmCiAgICAoaXNQZW5kaW5nKGUsIGlkKSA8PT4gKCFpc1Vuc2V0KGUsIGlkKSAgICYmICFpc0RvbmUoZSwgaWQpICAgKSkgJiYKICAgIChpc0RvbmUoZSwgaWQpICAgIDw9PiAoIWlzVW5zZXQoZSwgaWQpICAgJiYgIWlzUGVuZGluZyhlLCBpZCkpKSAmJgogICAgLy8gQ2hlY2sgdGhhdCB0aGUgc3RhdGUgaGVscGVyIGJlaGF2ZXMgYXMgZXhwZWN0ZWQ6CiAgICAoaXNVbnNldChlLCBpZCkgICA8PT4gc3RhdGUoZSwgaWQpID09IFVOU0VUKCkgICAgICAgICAgICAgICkgJiYKICAgIChpc1BlbmRpbmcoZSwgaWQpIDw9PiBzdGF0ZShlLCBpZCkgPT0gUEVORElORygpICAgICAgICAgICAgKSAmJgogICAgKGlzRG9uZShlLCBpZCkgICAgPD0+IHN0YXRlKGUsIGlkKSA9PSBET05FKCkgICAgICAgICAgICAgICApICYmCiAgICAvLyBDaGVjayBzdWJzdGF0ZQogICAgaXNPcGVyYXRpb25SZWFkeShlLCBpZCkgPT4gaXNQZW5kaW5nKGUsIGlkKQogICAgZmlsdGVyZWQgeyBmIC0+ICFmLmlzVmlldyB9CgovKgrilIzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJAK4pSCIFJ1bGU6IHN0YXRlIHRyYW5zaXRpb24gcnVsZXMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg4pSCCuKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmAoqLwpydWxlIHN0YXRlVHJhbnNpdGlvbihieXRlczMyIGlkLCBlbnYgZSwgbWV0aG9kIGYsIGNhbGxkYXRhYXJnIGFyZ3MpIHsKICAgIHJlcXVpcmUgZS5ibG9jay50aW1lc3RhbXAgPiAxOyAvLyBTYW5pdHkKCiAgICB1aW50OCBzdGF0ZUJlZm9yZSA9IHN0YXRlKGUsIGlkKTsKICAgIGYoZSwgYXJncyk7CiAgICB1aW50OCBzdGF0ZUFmdGVyID0gc3RhdGUoZSwgaWQpOwoKICAgIC8vIENhbm5vdCBqdW1wIGZyb20gVU5TRVQgdG8gRE9ORQogICAgYXNzZXJ0IHN0YXRlQmVmb3JlID09IFVOU0VUKCkgPT4gc3RhdGVBZnRlciAhPSBET05FKCk7CgogICAgLy8gVU5TRVQg4oaSIFBFTkRJTkc6IHNjaGVkdWxlIG9yIHNjaGVkdWxlQmF0Y2gKICAgIGFzc2VydCBzdGF0ZUJlZm9yZSA9PSBVTlNFVCgpICYmIHN0YXRlQWZ0ZXIgPT0gUEVORElORygpID0+ICgKICAgICAgICBmLnNlbGVjdG9yID09IHNpZzpzY2hlZHVsZShhZGRyZXNzLCB1aW50MjU2LCBieXRlcywgYnl0ZXMzMiwgYnl0ZXMzMiwgdWludDI1Nikuc2VsZWN0b3IgfHwKICAgICAgICBmLnNlbGVjdG9yID09IHNpZzpzY2hlZHVsZUJhdGNoKGFkZHJlc3NbXSwgdWludDI1NltdLCBieXRlc1tdLCBieXRlczMyLCBieXRlczMyLCB1aW50MjU2KS5zZWxlY3RvcgogICAgKTsKCiAgICAvLyBQRU5ESU5HIOKGkiBVTlNFVDogY2FuY2VsCiAgICBhc3NlcnQgc3RhdGVCZWZvcmUgPT0gUEVORElORygpICYmIHN0YXRlQWZ0ZXIgPT0gVU5TRVQoKSA9PiAoCiAgICAgICAgZi5zZWxlY3RvciA9PSBzaWc6Y2FuY2VsKGJ5dGVzMzIpLnNlbGVjdG9yCiAgICApOwoKICAgIC8vIFBFTkRJTkcg4oaSIERPTkU6IGV4ZWN1dGUgb3IgZXhlY3V0ZUJhdGNoCiAgICBhc3NlcnQgc3RhdGVCZWZvcmUgPT0gUEVORElORygpICYmIHN0YXRlQWZ0ZXIgPT0gRE9ORSgpID0+ICgKICAgICAgICBmLnNlbGVjdG9yID09IHNpZzpleGVjdXRlKGFkZHJlc3MsIHVpbnQyNTYsIGJ5dGVzLCBieXRlczMyLCBieXRlczMyKS5zZWxlY3RvciB8fAogICAgICAgIGYuc2VsZWN0b3IgPT0gc2lnOmV4ZWN1dGVCYXRjaChhZGRyZXNzW10sIHVpbnQyNTZbXSwgYnl0ZXNbXSwgYnl0ZXMzMiwgYnl0ZXMzMikuc2VsZWN0b3IKICAgICk7CgogICAgLy8gRE9ORSBpcyBmaW5hbAogICAgYXNzZXJ0IHN0YXRlQmVmb3JlID09IERPTkUoKSA9PiBzdGF0ZUFmdGVyID09IERPTkUoKTsKfQoKLyoK4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQCuKUgiBSdWxlOiBtaW5pbXVtIGRlbGF5IGNhbiBvbmx5IGJlIHVwZGF0ZWQgdGhyb3VnaCBhIHRpbWVsb2NrIGV4ZWN1dGlvbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIOKUggrilJTilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJgKKi8KcnVsZSBtaW5EZWxheU9ubHlDaGFuZ2UoZW52IGUpIHsKICAgIHVpbnQyNTYgZGVsYXlCZWZvcmUgPSBnZXRNaW5EZWxheSgpOwoKICAgIG1ldGhvZCBmOyBjYWxsZGF0YWFyZyBhcmdzOwogICAgZihlLCBhcmdzKTsKCiAgICBhc3NlcnQgZGVsYXlCZWZvcmUgIT0gZ2V0TWluRGVsYXkoKSA9PiAoZS5tc2cuc2VuZGVyID09IGN1cnJlbnRDb250cmFjdCAmJiBmLnNlbGVjdG9yID09IHNpZzp1cGRhdGVEZWxheSh1aW50MjU2KS5zZWxlY3RvciksICJVbmF1dGhvcml6ZWQgZGVsYXkgdXBkYXRlIjsKfQoKLyoK4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQCuKUgiBSdWxlOiBzY2hlZHVsZSBsaXZlbmVzcyBhbmQgZWZmZWN0cyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg4pSCCuKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmAoqLwpydWxlIHNjaGVkdWxlKGVudiBlLCBtZXRob2QgZiwgYnl0ZXMzMiBpZCwgdWludDI1NiBkZWxheSkgZmlsdGVyZWQgeyBmIC0+CiAgICBmLnNlbGVjdG9yID09IHNpZzpzY2hlZHVsZShhZGRyZXNzLCB1aW50MjU2LCBieXRlcywgYnl0ZXMzMiwgYnl0ZXMzMiwgdWludDI1Nikuc2VsZWN0b3IgfHwKICAgIGYuc2VsZWN0b3IgPT0gc2lnOnNjaGVkdWxlQmF0Y2goYWRkcmVzc1tdLCB1aW50MjU2W10sIGJ5dGVzW10sIGJ5dGVzMzIsIGJ5dGVzMzIsIHVpbnQyNTYpLnNlbGVjdG9yCn0gewogICAgcmVxdWlyZSBub25wYXlhYmxlKGUpOwoKICAgIC8vIEJhc2ljIHRpbWVzdGFtcCBhc3N1bXB0aW9ucwogICAgcmVxdWlyZSBlLmJsb2NrLnRpbWVzdGFtcCA+IDE7CiAgICByZXF1aXJlIGUuYmxvY2sudGltZXN0YW1wICsgZGVsYXkgPCBtYXhfdWludDI1NjsKICAgIHJlcXVpcmUgZS5ibG9jay50aW1lc3RhbXAgKyBnZXRNaW5EZWxheSgpIDwgbWF4X3VpbnQyNTY7CgogICAgYnl0ZXMzMiBvdGhlcklkOyB1aW50MjU2IG90aGVyVGltZXN0YW1wID0gZ2V0VGltZXN0YW1wKG90aGVySWQpOwoKICAgIHVpbnQ4IHN0YXRlQmVmb3JlICAgICAgID0gc3RhdGUoZSwgaWQpOwogICAgYm9vbCAgaXNEZWxheVN1ZmZpY2llbnQgPSBkZWxheSA+PSBnZXRNaW5EZWxheSgpOwogICAgYm9vbCAgaXNQcm9wb3NlckJlZm9yZSAgPSBoYXNSb2xlKFBST1BPU0VSX1JPTEUoKSwgZS5tc2cuc2VuZGVyKTsKCiAgICBoZWxwZXJTY2hlZHVsZVdpdGhSZXZlcnQoZSwgZiwgaWQsIGRlbGF5KTsKICAgIGJvb2wgc3VjY2VzcyA9ICFsYXN0UmV2ZXJ0ZWQ7CgogICAgLy8gbGl2ZW5lc3MKICAgIGFzc2VydCBzdWNjZXNzIDw9PiAoCiAgICAgICAgc3RhdGVCZWZvcmUgPT0gVU5TRVQoKSAmJgogICAgICAgIGlzRGVsYXlTdWZmaWNpZW50ICYmCiAgICAgICAgaXNQcm9wb3NlckJlZm9yZQogICAgKTsKCiAgICAvLyBlZmZlY3QKICAgIGFzc2VydCBzdWNjZXNzID0+IHN0YXRlKGUsIGlkKSA9PSBQRU5ESU5HKCksICJTdGF0ZSB0cmFuc2l0aW9uIHZpb2xhdGlvbiI7CiAgICBhc3NlcnQgc3VjY2VzcyA9PiBnZXRUaW1lc3RhbXAoaWQpID09IHJlcXVpcmVfdWludDI1NihlLmJsb2NrLnRpbWVzdGFtcCArIGRlbGF5KSwgIlByb3Bvc2FsIHRpbWVzdGFtcCBub3QgY29ycmVjdGx5IHNldCI7CgogICAgLy8gbm8gc2lkZSBlZmZlY3QKICAgIGFzc2VydCBvdGhlclRpbWVzdGFtcCAhPSBnZXRUaW1lc3RhbXAob3RoZXJJZCkgPT4gaWQgPT0gb3RoZXJJZCwgIk90aGVyIHByb3Bvc2FsIGFmZmVjdGVkIjsKfQoKLyoK4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQCuKUgiBSdWxlOiBleGVjdXRlIGxpdmVuZXNzIGFuZCBlZmZlY3RzICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg4pSCCuKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmAoqLwpydWxlIGV4ZWN1dGUoZW52IGUsIG1ldGhvZCBmLCBieXRlczMyIGlkLCBieXRlczMyIHByZWRlY2Vzc29yKSBmaWx0ZXJlZCB7IGYgLT4KICAgIGYuc2VsZWN0b3IgPT0gc2lnOmV4ZWN1dGUoYWRkcmVzcywgdWludDI1NiwgYnl0ZXMsIGJ5dGVzMzIsIGJ5dGVzMzIpLnNlbGVjdG9yIHx8CiAgICBmLnNlbGVjdG9yID09IHNpZzpleGVjdXRlQmF0Y2goYWRkcmVzc1tdLCB1aW50MjU2W10sIGJ5dGVzW10sIGJ5dGVzMzIsIGJ5dGVzMzIpLnNlbGVjdG9yCn0gewogICAgYnl0ZXMzMiBvdGhlcklkOyB1aW50MjU2IG90aGVyVGltZXN0YW1wID0gZ2V0VGltZXN0YW1wKG90aGVySWQpOwoKICAgIHVpbnQ4IHN0YXRlQmVmb3JlICAgICAgICAgICAgPSBzdGF0ZShlLCBpZCk7CiAgICBib29sICBpc09wZXJhdGlvblJlYWR5QmVmb3JlID0gaXNPcGVyYXRpb25SZWFkeShlLCBpZCk7CiAgICBib29sICBpc0V4ZWN1dG9yT3JPcGVuICAgICAgID0gaGFzUm9sZShFWEVDVVRPUl9ST0xFKCksIGUubXNnLnNlbmRlcikgfHwgaGFzUm9sZShFWEVDVVRPUl9ST0xFKCksIDApOwogICAgYm9vbCAgcHJlZGVjZXNzb3JEZXBlbmRlbmN5ICA9IHByZWRlY2Vzc29yID09IHRvX2J5dGVzMzIoMCkgfHwgaXNEb25lKGUsIHByZWRlY2Vzc29yKTsKCiAgICBoZWxwZXJFeGVjdXRlV2l0aFJldmVydChlLCBmLCBpZCwgcHJlZGVjZXNzb3IpOwogICAgYm9vbCBzdWNjZXNzID0gIWxhc3RSZXZlcnRlZDsKCiAgICAvLyBUaGUgdW5kZXJseWluZyB0cmFuc2FjdGlvbiBjYW4gcmV2ZXJ0LCBhbmQgdGhhdCB3b3VsZCBjYXVzZSB0aGUgZXhlY3V0aW9uIHRvIHJldmVydC4gV2UgY2FuIGNoZWNrIHRoYXQgYWxsIG5vbgogICAgLy8gcmV2ZXJ0aW5nIGNhbGxzIG1lZXQgdGhlIHJlcXVpcmVtZW50cyBpbiB0ZXJtcyBvZiBwcm9wb3NhbCByZWFkaW5lc3MsIGFjY2VzcyBjb250cm9sIGFuZCBwcmVkZWNlc3NvciBkZXBlbmRlbmN5LgogICAgLy8gV2UgY2FuJ3QgaG93ZXZlciBndWFyYW50ZWUgdGhhdCB0aGVzZSByZXF1aXJlbWVudHMgYmVpbmcgbWVldCBlbnN1cmUgbGl2ZW5lc3Mgb2YgdGhlIHByb3Bvc2FsLCBiZWNhdXNlIHRoZQogICAgLy8gcHJvcG9zYWwgY2FuIHJldmVydCBmb3IgcmVhc29ucyBiZXlvbmQgb3VyIGNvbnRyb2wuCgogICAgLy8gbGl2ZW5lc3MsIHNob3VsZCBiZSBgPD0+YCBidXQgY2FuIG9ubHkgY2hlY2sgYD0+YCAoc2VlIGNvbW1lbnQgYWJvdmUpCiAgICBhc3NlcnQgc3VjY2VzcyA9PiAoCiAgICAgICAgc3RhdGVCZWZvcmUgPT0gUEVORElORygpICYmCiAgICAgICAgaXNPcGVyYXRpb25SZWFkeUJlZm9yZSAmJgogICAgICAgIHByZWRlY2Vzc29yRGVwZW5kZW5jeSAmJgogICAgICAgIGlzRXhlY3V0b3JPck9wZW4KICAgICk7CgogICAgLy8gZWZmZWN0CiAgICBhc3NlcnQgc3VjY2VzcyA9PiBzdGF0ZShlLCBpZCkgPT0gRE9ORSgpLCAiU3RhdGUgdHJhbnNpdGlvbiB2aW9sYXRpb24iOwoKICAgIC8vIG5vIHNpZGUgZWZmZWN0CiAgICBhc3NlcnQgb3RoZXJUaW1lc3RhbXAgIT0gZ2V0VGltZXN0YW1wKG90aGVySWQpID0+IGlkID09IG90aGVySWQsICJPdGhlciBwcm9wb3NhbCBhZmZlY3RlZCI7Cn0KCi8qCuKUjOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUkArilIIgUnVsZTogY2FuY2VsIGxpdmVuZXNzIGFuZCBlZmZlY3RzICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIOKUggrilJTilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJgKKi8KcnVsZSBjYW5jZWwoZW52IGUsIGJ5dGVzMzIgaWQpIHsKICAgIHJlcXVpcmUgbm9ucGF5YWJsZShlKTsKCiAgICBieXRlczMyIG90aGVySWQ7IHVpbnQyNTYgb3RoZXJUaW1lc3RhbXAgPSBnZXRUaW1lc3RhbXAob3RoZXJJZCk7CgogICAgdWludDggc3RhdGVCZWZvcmUgPSBzdGF0ZShlLCBpZCk7CiAgICBib29sICBpc0NhbmNlbGxlciA9IGhhc1JvbGUoQ0FOQ0VMTEVSX1JPTEUoKSwgZS5tc2cuc2VuZGVyKTsKCiAgICBjYW5jZWxAd2l0aHJldmVydChlLCBpZCk7CiAgICBib29sIHN1Y2Nlc3MgPSAhbGFzdFJldmVydGVkOwoKICAgIC8vIGxpdmVuZXNzCiAgICBhc3NlcnQgc3VjY2VzcyA8PT4gKAogICAgICAgIHN0YXRlQmVmb3JlID09IFBFTkRJTkcoKSAmJgogICAgICAgIGlzQ2FuY2VsbGVyCiAgICApOwoKICAgIC8vIGVmZmVjdAogICAgYXNzZXJ0IHN1Y2Nlc3MgPT4gc3RhdGUoZSwgaWQpID09IFVOU0VUKCksICJTdGF0ZSB0cmFuc2l0aW9uIHZpb2xhdGlvbiI7CgogICAgLy8gbm8gc2lkZSBlZmZlY3QKICAgIGFzc2VydCBvdGhlclRpbWVzdGFtcCAhPSBnZXRUaW1lc3RhbXAob3RoZXJJZCkgPT4gaWQgPT0gb3RoZXJJZCwgIk90aGVyIHByb3Bvc2FsIGFmZmVjdGVkIjsKfQo=
+import "helpers/helpers.spec";
+import "methods/IAccessControl.spec";
+
+methods {
+    function PROPOSER_ROLE()             external returns (bytes32) envfree;
+    function EXECUTOR_ROLE()             external returns (bytes32) envfree;
+    function CANCELLER_ROLE()            external returns (bytes32) envfree;
+    function isOperation(bytes32)        external returns (bool);
+    function isOperationPending(bytes32) external returns (bool);
+    function isOperationReady(bytes32)   external returns (bool);
+    function isOperationDone(bytes32)    external returns (bool);
+    function getTimestamp(bytes32)       external returns (uint256) envfree;
+    function getMinDelay()               external returns (uint256) envfree;
+
+    function hashOperation(address, uint256, bytes, bytes32, bytes32)            external returns(bytes32) envfree;
+    function hashOperationBatch(address[], uint256[], bytes[], bytes32, bytes32) external returns(bytes32) envfree;
+
+    function schedule(address, uint256, bytes, bytes32, bytes32, uint256) external;
+    function scheduleBatch(address[], uint256[], bytes[], bytes32, bytes32, uint256) external;
+    function execute(address, uint256, bytes, bytes32, bytes32) external;
+    function executeBatch(address[], uint256[], bytes[], bytes32, bytes32) external;
+    function cancel(bytes32) external;
+
+    function updateDelay(uint256) external;
+}
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Helpers                                                                                                             │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+// Uniformly handle scheduling of batched and non-batched operations.
+function helperScheduleWithRevert(env e, method f, bytes32 id, uint256 delay) {
+    if (f.selector == sig:schedule(address, uint256, bytes, bytes32, bytes32, uint256).selector) {
+        address target; uint256 value; bytes data; bytes32 predecessor; bytes32 salt;
+        require hashOperation(target, value, data, predecessor, salt) == id; // Correlation
+        schedule@withrevert(e, target, value, data, predecessor, salt, delay);
+    } else if (f.selector == sig:scheduleBatch(address[], uint256[], bytes[], bytes32, bytes32, uint256).selector) {
+        address[] targets; uint256[] values; bytes[] payloads; bytes32 predecessor; bytes32 salt;
+        require hashOperationBatch(targets, values, payloads, predecessor, salt) == id; // Correlation
+        scheduleBatch@withrevert(e, targets, values, payloads, predecessor, salt, delay);
+    } else {
+        calldataarg args;
+        f@withrevert(e, args);
+    }
+}
+
+// Uniformly handle execution of batched and non-batched operations.
+function helperExecuteWithRevert(env e, method f, bytes32 id, bytes32 predecessor) {
+    if (f.selector == sig:execute(address, uint256, bytes, bytes32, bytes32).selector) {
+        address target; uint256 value; bytes data; bytes32 salt;
+        require hashOperation(target, value, data, predecessor, salt) == id; // Correlation
+        execute@withrevert(e, target, value, data, predecessor, salt);
+    } else if (f.selector == sig:executeBatch(address[], uint256[], bytes[], bytes32, bytes32).selector) {
+        address[] targets; uint256[] values; bytes[] payloads; bytes32 salt;
+        require hashOperationBatch(targets, values, payloads, predecessor, salt) == id; // Correlation
+        executeBatch@withrevert(e, targets, values, payloads, predecessor, salt);
+    } else {
+        calldataarg args;
+        f@withrevert(e, args);
+    }
+}
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Definitions                                                                                                         │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+definition DONE_TIMESTAMP()      returns uint256 = 1;
+definition UNSET()               returns uint8   = 0x1;
+definition PENDING()             returns uint8   = 0x2;
+definition DONE()                returns uint8   = 0x4;
+
+definition isUnset(env e, bytes32 id)   returns bool  = !isOperation(e, id);
+definition isPending(env e, bytes32 id) returns bool  = isOperationPending(e, id);
+definition isDone(env e, bytes32 id)    returns bool  = isOperationDone(e, id);
+definition state(env e, bytes32 id)     returns uint8 = (isUnset(e, id) ? UNSET() : 0) | (isPending(e, id) ? PENDING() : 0) | (isDone(e, id) ? DONE() : 0);
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Invariants: consistency of accessors                                                                                │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+invariant isOperationCheck(env e, bytes32 id)
+    isOperation(e, id) <=> getTimestamp(id) > 0
+    filtered { f -> !f.isView }
+
+invariant isOperationPendingCheck(env e, bytes32 id)
+    isOperationPending(e, id) <=> getTimestamp(id) > DONE_TIMESTAMP()
+    filtered { f -> !f.isView }
+
+invariant isOperationDoneCheck(env e, bytes32 id)
+    isOperationDone(e, id) <=> getTimestamp(id) == DONE_TIMESTAMP()
+    filtered { f -> !f.isView }
+
+invariant isOperationReadyCheck(env e, bytes32 id)
+    isOperationReady(e, id) <=> (isOperationPending(e, id) && getTimestamp(id) <= e.block.timestamp)
+    filtered { f -> !f.isView }
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Invariant: a proposal id is either unset, pending or done                                                           │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+invariant stateConsistency(bytes32 id, env e)
+    // Check states are mutually exclusive
+    (isUnset(e, id)   <=> (!isPending(e, id) && !isDone(e, id)   )) &&
+    (isPending(e, id) <=> (!isUnset(e, id)   && !isDone(e, id)   )) &&
+    (isDone(e, id)    <=> (!isUnset(e, id)   && !isPending(e, id))) &&
+    // Check that the state helper behaves as expected:
+    (isUnset(e, id)   <=> state(e, id) == UNSET()              ) &&
+    (isPending(e, id) <=> state(e, id) == PENDING()            ) &&
+    (isDone(e, id)    <=> state(e, id) == DONE()               ) &&
+    // Check substate
+    isOperationReady(e, id) => isPending(e, id)
+    filtered { f -> !f.isView }
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Rule: state transition rules                                                                                        │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+rule stateTransition(bytes32 id, env e, method f, calldataarg args) {
+    require e.block.timestamp > 1; // Sanity
+
+    uint8 stateBefore = state(e, id);
+    f(e, args);
+    uint8 stateAfter = state(e, id);
+
+    // Cannot jump from UNSET to DONE
+    assert stateBefore == UNSET() => stateAfter != DONE();
+
+    // UNSET → PENDING: schedule or scheduleBatch
+    assert stateBefore == UNSET() && stateAfter == PENDING() => (
+        f.selector == sig:schedule(address, uint256, bytes, bytes32, bytes32, uint256).selector ||
+        f.selector == sig:scheduleBatch(address[], uint256[], bytes[], bytes32, bytes32, uint256).selector
+    );
+
+    // PENDING → UNSET: cancel
+    assert stateBefore == PENDING() && stateAfter == UNSET() => (
+        f.selector == sig:cancel(bytes32).selector
+    );
+
+    // PENDING → DONE: execute or executeBatch
+    assert stateBefore == PENDING() && stateAfter == DONE() => (
+        f.selector == sig:execute(address, uint256, bytes, bytes32, bytes32).selector ||
+        f.selector == sig:executeBatch(address[], uint256[], bytes[], bytes32, bytes32).selector
+    );
+
+    // DONE is final
+    assert stateBefore == DONE() => stateAfter == DONE();
+}
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Rule: minimum delay can only be updated through a timelock execution                                                │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+rule minDelayOnlyChange(env e) {
+    uint256 delayBefore = getMinDelay();
+
+    method f; calldataarg args;
+    f(e, args);
+
+    assert delayBefore != getMinDelay() => (e.msg.sender == currentContract && f.selector == sig:updateDelay(uint256).selector), "Unauthorized delay update";
+}
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Rule: schedule liveness and effects                                                                                │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+rule schedule(env e, method f, bytes32 id, uint256 delay) filtered { f ->
+    f.selector == sig:schedule(address, uint256, bytes, bytes32, bytes32, uint256).selector ||
+    f.selector == sig:scheduleBatch(address[], uint256[], bytes[], bytes32, bytes32, uint256).selector
+} {
+    require nonpayable(e);
+
+    // Basic timestamp assumptions
+    require e.block.timestamp > 1;
+    require e.block.timestamp + delay < max_uint256;
+    require e.block.timestamp + getMinDelay() < max_uint256;
+
+    bytes32 otherId; uint256 otherTimestamp = getTimestamp(otherId);
+
+    uint8 stateBefore       = state(e, id);
+    bool  isDelaySufficient = delay >= getMinDelay();
+    bool  isProposerBefore  = hasRole(PROPOSER_ROLE(), e.msg.sender);
+
+    helperScheduleWithRevert(e, f, id, delay);
+    bool success = !lastReverted;
+
+    // liveness
+    assert success <=> (
+        stateBefore == UNSET() &&
+        isDelaySufficient &&
+        isProposerBefore
+    );
+
+    // effect
+    assert success => state(e, id) == PENDING(), "State transition violation";
+    assert success => getTimestamp(id) == require_uint256(e.block.timestamp + delay), "Proposal timestamp not correctly set";
+
+    // no side effect
+    assert otherTimestamp != getTimestamp(otherId) => id == otherId, "Other proposal affected";
+}
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Rule: execute liveness and effects                                                                                 │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+rule execute(env e, method f, bytes32 id, bytes32 predecessor) filtered { f ->
+    f.selector == sig:execute(address, uint256, bytes, bytes32, bytes32).selector ||
+    f.selector == sig:executeBatch(address[], uint256[], bytes[], bytes32, bytes32).selector
+} {
+    bytes32 otherId; uint256 otherTimestamp = getTimestamp(otherId);
+
+    uint8 stateBefore            = state(e, id);
+    bool  isOperationReadyBefore = isOperationReady(e, id);
+    bool  isExecutorOrOpen       = hasRole(EXECUTOR_ROLE(), e.msg.sender) || hasRole(EXECUTOR_ROLE(), 0);
+    bool  predecessorDependency  = predecessor == to_bytes32(0) || isDone(e, predecessor);
+
+    helperExecuteWithRevert(e, f, id, predecessor);
+    bool success = !lastReverted;
+
+    // The underlying transaction can revert, and that would cause the execution to revert. We can check that all non
+    // reverting calls meet the requirements in terms of proposal readiness, access control and predecessor dependency.
+    // We can't however guarantee that these requirements being meet ensure liveness of the proposal, because the
+    // proposal can revert for reasons beyond our control.
+
+    // liveness, should be `<=>` but can only check `=>` (see comment above)
+    assert success => (
+        stateBefore == PENDING() &&
+        isOperationReadyBefore &&
+        predecessorDependency &&
+        isExecutorOrOpen
+    );
+
+    // effect
+    assert success => state(e, id) == DONE(), "State transition violation";
+
+    // no side effect
+    assert otherTimestamp != getTimestamp(otherId) => id == otherId, "Other proposal affected";
+}
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Rule: cancel liveness and effects                                                                                  │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+rule cancel(env e, bytes32 id) {
+    require nonpayable(e);
+
+    bytes32 otherId; uint256 otherTimestamp = getTimestamp(otherId);
+
+    uint8 stateBefore = state(e, id);
+    bool  isCanceller = hasRole(CANCELLER_ROLE(), e.msg.sender);
+
+    cancel@withrevert(e, id);
+    bool success = !lastReverted;
+
+    // liveness
+    assert success <=> (
+        stateBefore == PENDING() &&
+        isCanceller
+    );
+
+    // effect
+    assert success => state(e, id) == UNSET(), "State transition violation";
+
+    // no side effect
+    assert otherTimestamp != getTimestamp(otherId) => id == otherId, "Other proposal affected";
+}
