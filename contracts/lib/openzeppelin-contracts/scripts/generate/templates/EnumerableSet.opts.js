@@ -1,1 +1,12 @@
-Y29uc3QgeyBjYXBpdGFsaXplIH0gPSByZXF1aXJlKCcuLi8uLi9oZWxwZXJzJyk7Cgpjb25zdCBtYXBUeXBlID0gc3RyID0+IChzdHIgPT0gJ3VpbnQyNTYnID8gJ1VpbnQnIDogY2FwaXRhbGl6ZShzdHIpKTsKCmNvbnN0IGZvcm1hdFR5cGUgPSB0eXBlID0+ICh7CiAgbmFtZTogYCR7bWFwVHlwZSh0eXBlKX1TZXRgLAogIHR5cGUsCn0pOwoKY29uc3QgVFlQRVMgPSBbJ2J5dGVzMzInLCAnYWRkcmVzcycsICd1aW50MjU2J10ubWFwKGZvcm1hdFR5cGUpOwoKbW9kdWxlLmV4cG9ydHMgPSB7IFRZUEVTLCBmb3JtYXRUeXBlIH07Cg==
+const { capitalize } = require('../../helpers');
+
+const mapType = str => (str == 'uint256' ? 'Uint' : capitalize(str));
+
+const formatType = type => ({
+  name: `${mapType(type)}Set`,
+  type,
+});
+
+const TYPES = ['bytes32', 'address', 'uint256'].map(formatType);
+
+module.exports = { TYPES, formatType };
