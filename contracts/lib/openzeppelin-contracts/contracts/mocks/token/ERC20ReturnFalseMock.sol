@@ -1,1 +1,19 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0VSQzIwfSBmcm9tICIuLi8uLi90b2tlbi9FUkMyMC9FUkMyMC5zb2wiOwoKYWJzdHJhY3QgY29udHJhY3QgRVJDMjBSZXR1cm5GYWxzZU1vY2sgaXMgRVJDMjAgewogICAgZnVuY3Rpb24gdHJhbnNmZXIoYWRkcmVzcywgdWludDI1NikgcHVibGljIHB1cmUgb3ZlcnJpZGUgcmV0dXJucyAoYm9vbCkgewogICAgICAgIHJldHVybiBmYWxzZTsKICAgIH0KCiAgICBmdW5jdGlvbiB0cmFuc2ZlckZyb20oYWRkcmVzcywgYWRkcmVzcywgdWludDI1NikgcHVibGljIHB1cmUgb3ZlcnJpZGUgcmV0dXJucyAoYm9vbCkgewogICAgICAgIHJldHVybiBmYWxzZTsKICAgIH0KCiAgICBmdW5jdGlvbiBhcHByb3ZlKGFkZHJlc3MsIHVpbnQyNTYpIHB1YmxpYyBwdXJlIG92ZXJyaWRlIHJldHVybnMgKGJvb2wpIHsKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {ERC20} from "../../token/ERC20/ERC20.sol";
+
+abstract contract ERC20ReturnFalseMock is ERC20 {
+    function transfer(address, uint256) public pure override returns (bool) {
+        return false;
+    }
+
+    function transferFrom(address, address, uint256) public pure override returns (bool) {
+        return false;
+    }
+
+    function approve(address, uint256) public pure override returns (bool) {
+        return false;
+    }
+}
