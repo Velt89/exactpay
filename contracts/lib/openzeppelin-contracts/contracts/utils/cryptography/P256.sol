@@ -1,1 +1,370 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodXRpbHMvY3J5cHRvZ3JhcGh5L1AyNTYuc29sKQpwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7TWF0aH0gZnJvbSAiLi4vbWF0aC9NYXRoLnNvbCI7CmltcG9ydCB7RXJyb3JzfSBmcm9tICIuLi9FcnJvcnMuc29sIjsKCi8qKgogKiBAZGV2IEltcGxlbWVudGF0aW9uIG9mIHNlY3AyNTZyMSB2ZXJpZmljYXRpb24gYW5kIHJlY292ZXJ5IGZ1bmN0aW9ucy4KICoKICogVGhlIHNlY3AyNTZyMSBjdXJ2ZSAoYWxzbyBrbm93biBhcyBQMjU2KSBpcyBhIE5JU1Qgc3RhbmRhcmQgY3VydmUgd2l0aCB3aWRlIHN1cHBvcnQgaW4gbW9kZXJuIGRldmljZXMKICogYW5kIGNyeXB0b2dyYXBoaWMgc3RhbmRhcmRzLiBTb21lIG5vdGFibGUgZXhhbXBsZXMgaW5jbHVkZSBBcHBsZSdzIFNlY3VyZSBFbmNsYXZlIGFuZCBBbmRyb2lkJ3MgS2V5c3RvcmUKICogYXMgd2VsbCBhcyBhdXRoZW50aWNhdGlvbiBwcm90b2NvbHMgbGlrZSBGSURPMi4KICoKICogQmFzZWQgb24gdGhlIG9yaWdpbmFsIGh0dHBzOi8vZ2l0aHViLmNvbS9pdHNvYnZpb3VzdGVjaC9hYS1wYXNza2V5cy13YWxsZXQvYmxvYi9kM2Q0MjNmMjhhNGQ4ZGZjYjIwM2M3ZmEwYzQ3ZjQyNTkyYTczNzhlL3NyYy9TZWNwMjU2cjEuc29sW2ltcGxlbWVudGF0aW9uIG9mIGl0c29idmlvdXN0ZWNoXSAoR05VIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgdjMuMCkuCiAqIEhlYXZpbHkgaW5zcGlyZWQgaW4gaHR0cHM6Ly9naXRodWIuY29tL21heHJvYm90L2VsbGlwdGljLXNvbGlkaXR5L2Jsb2IvYzRiYjFiNmU4YWU4OTUzNGQ4ZGIzYTZiM2E2YjUyMjE5MTAwNTIwZi9jb250cmFjdHMvU2VjcDI1NnIxLnNvbFttYXhyb2JvdF0gYW5kCiAqIGh0dHBzOi8vZ2l0aHViLmNvbS90ZHJlcnVwL2VsbGlwdGljLWN1cnZlLXNvbGlkaXR5L2Jsb2IvNTlhOWMyNTk1N2Q0ZDE5MGVmZjUzYjY2MTA3MzFkODFhMDc3YTE1ZS9jb250cmFjdHMvY3VydmVzL0VsbGlwdGljQ3VydmUuc29sW3RkcmVydXBdIGltcGxlbWVudGF0aW9ucy4KICoKICogX0F2YWlsYWJsZSBzaW5jZSB2NS4xLl8KICovCmxpYnJhcnkgUDI1NiB7CiAgICBzdHJ1Y3QgSlBvaW50IHsKICAgICAgICB1aW50MjU2IHg7CiAgICAgICAgdWludDI1NiB5OwogICAgICAgIHVpbnQyNTYgejsKICAgIH0KCiAgICAvLy8gQGRldiBHZW5lcmF0b3IgKHggY29tcG9uZW50KQogICAgdWludDI1NiBpbnRlcm5hbCBjb25zdGFudCBHWCA9IDB4NkIxN0QxRjJFMTJDNDI0N0Y4QkNFNkU1NjNBNDQwRjI3NzAzN0Q4MTJERUIzM0EwRjRBMTM5NDVEODk4QzI5NjsKICAgIC8vLyBAZGV2IEdlbmVyYXRvciAoeSBjb21wb25lbnQpCiAgICB1aW50MjU2IGludGVybmFsIGNvbnN0YW50IEdZID0gMHg0RkUzNDJFMkZFMUE3RjlCOEVFN0VCNEE3QzBGOUUxNjJCQ0UzMzU3NkIzMTVFQ0VDQkI2NDA2ODM3QkY1MUY1OwogICAgLy8vIEBkZXYgUCAoc2l6ZSBvZiB0aGUgZmllbGQpCiAgICB1aW50MjU2IGludGVybmFsIGNvbnN0YW50IFAgPSAweEZGRkZGRkZGMDAwMDAwMDEwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDBGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkY7CiAgICAvLy8gQGRldiBOIChvcmRlciBvZiBHKQogICAgdWludDI1NiBpbnRlcm5hbCBjb25zdGFudCBOID0gMHhGRkZGRkZGRjAwMDAwMDAwRkZGRkZGRkZGRkZGRkZGRkJDRTZGQUFEQTcxNzlFODRGM0I5Q0FDMkZDNjMyNTUxOwogICAgLy8vIEBkZXYgQSBwYXJhbWV0ZXIgb2YgdGhlIHdlaWVyc3RyYXNzIGVxdWF0aW9uCiAgICB1aW50MjU2IGludGVybmFsIGNvbnN0YW50IEEgPSAweEZGRkZGRkZGMDAwMDAwMDEwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDBGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkM7CiAgICAvLy8gQGRldiBCIHBhcmFtZXRlciBvZiB0aGUgd2VpZXJzdHJhc3MgZXF1YXRpb24KICAgIHVpbnQyNTYgaW50ZXJuYWwgY29uc3RhbnQgQiA9IDB4NUFDNjM1RDhBQTNBOTNFN0IzRUJCRDU1NzY5ODg2QkM2NTFEMDZCMENDNTNCMEY2M0JDRTNDM0UyN0QyNjA0QjsKCiAgICAvLy8gQGRldiAoUCArIDEpIC8gNC4gVXNlZnVsIHRvIGNvbXB1dGUgc3FydAogICAgdWludDI1NiBwcml2YXRlIGNvbnN0YW50IFAxRElWNCA9IDB4M2ZmZmZmZmZjMDAwMDAwMDQwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDQwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDsKCiAgICAvLy8gQGRldiBOLzIgZm9yIGV4Y2x1ZGluZyBoaWdoZXIgb3JkZXIgYHNgIHZhbHVlcwogICAgdWludDI1NiBwcml2YXRlIGNvbnN0YW50IEhBTEZfTiA9IDB4N2ZmZmZmZmY4MDAwMDAwMDdmZmZmZmZmZmZmZmZmZmZkZTczN2Q1NmQzOGJjZjQyNzlkY2U1NjE3ZTMxOTJhODsKCiAgICAvKioKICAgICAqIEBkZXYgVmVyaWZpZXMgYSBzZWNwMjU2cjEgc2lnbmF0dXJlIHVzaW5nIHRoZSBSSVAtNzIxMiBwcmVjb21waWxlIGFuZCBmYWxscyBiYWNrIHRvIHRoZSBTb2xpZGl0eSBpbXBsZW1lbnRhdGlvbgogICAgICogaWYgdGhlIHByZWNvbXBpbGUgaXMgbm90IGF2YWlsYWJsZS4gVGhpcyB2ZXJzaW9uIHNob3VsZCB3b3JrIG9uIGFsbCBjaGFpbnMsIGJ1dCByZXF1aXJlcyB0aGUgZGVwbG95bWVudCBvZiBtb3JlCiAgICAgKiBieXRlY29kZS4KICAgICAqCiAgICAgKiBAcGFyYW0gaCAtIGhhc2hlZCBtZXNzYWdlCiAgICAgKiBAcGFyYW0gciAtIHNpZ25hdHVyZSBoYWxmIFIKICAgICAqIEBwYXJhbSBzIC0gc2lnbmF0dXJlIGhhbGYgUwogICAgICogQHBhcmFtIHF4IC0gcHVibGljIGtleSBjb29yZGluYXRlIFgKICAgICAqIEBwYXJhbSBxeSAtIHB1YmxpYyBrZXkgY29vcmRpbmF0ZSBZCiAgICAgKgogICAgICogSU1QT1JUQU5UOiBUaGlzIGZ1bmN0aW9uIGRpc2FsbG93cyBzaWduYXR1cmVzIHdoZXJlIHRoZSBgc2AgdmFsdWUgaXMgYWJvdmUgYE4vMmAgdG8gcHJldmVudCBtYWxsZWFiaWxpdHkuCiAgICAgKiBUbyBmbGlwIHRoZSBgc2AgdmFsdWUsIGNvbXB1dGUgYHMgPSBOIC0gc2AuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHZlcmlmeShieXRlczMyIGgsIGJ5dGVzMzIgciwgYnl0ZXMzMiBzLCBieXRlczMyIHF4LCBieXRlczMyIHF5KSBpbnRlcm5hbCB2aWV3IHJldHVybnMgKGJvb2wpIHsKICAgICAgICAoYm9vbCB2YWxpZCwgYm9vbCBzdXBwb3J0ZWQpID0gX3RyeVZlcmlmeU5hdGl2ZShoLCByLCBzLCBxeCwgcXkpOwogICAgICAgIHJldHVybiBzdXBwb3J0ZWQgPyB2YWxpZCA6IHZlcmlmeVNvbGlkaXR5KGgsIHIsIHMsIHF4LCBxeSk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFNhbWUgYXMge3ZlcmlmeX0sIGJ1dCBpdCB3aWxsIHJldmVydCBpZiB0aGUgcmVxdWlyZWQgcHJlY29tcGlsZSBpcyBub3QgYXZhaWxhYmxlLgogICAgICoKICAgICAqIE1ha2Ugc3VyZSBhbnkgbG9naWMgKGNvZGUgb3IgcHJlY29tcGlsZSkgZGVwbG95ZWQgYXQgdGhhdCBhZGRyZXNzIGlzIHRoZSBleHBlY3RlZCBvbmUsCiAgICAgKiBvdGhlcndpc2UgdGhlIHJldHVybmVkIHZhbHVlIG1heSBiZSBtaXNpbnRlcnByZXRlZCBhcyBhIHBvc2l0aXZlIGJvb2xlYW4uCiAgICAgKi8KICAgIGZ1bmN0aW9uIHZlcmlmeU5hdGl2ZShieXRlczMyIGgsIGJ5dGVzMzIgciwgYnl0ZXMzMiBzLCBieXRlczMyIHF4LCBieXRlczMyIHF5KSBpbnRlcm5hbCB2aWV3IHJldHVybnMgKGJvb2wpIHsKICAgICAgICAoYm9vbCB2YWxpZCwgYm9vbCBzdXBwb3J0ZWQpID0gX3RyeVZlcmlmeU5hdGl2ZShoLCByLCBzLCBxeCwgcXkpOwogICAgICAgIGlmIChzdXBwb3J0ZWQpIHsKICAgICAgICAgICAgcmV0dXJuIHZhbGlkOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHJldmVydCBFcnJvcnMuTWlzc2luZ1ByZWNvbXBpbGUoYWRkcmVzcygweDEwMCkpOwogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgU2FtZSBhcyB7dmVyaWZ5fSwgYnV0IGl0IHdpbGwgcmV0dXJuIGZhbHNlIGlmIHRoZSByZXF1aXJlZCBwcmVjb21waWxlIGlzIG5vdCBhdmFpbGFibGUuCiAgICAgKi8KICAgIGZ1bmN0aW9uIF90cnlWZXJpZnlOYXRpdmUoCiAgICAgICAgYnl0ZXMzMiBoLAogICAgICAgIGJ5dGVzMzIgciwKICAgICAgICBieXRlczMyIHMsCiAgICAgICAgYnl0ZXMzMiBxeCwKICAgICAgICBieXRlczMyIHF5CiAgICApIHByaXZhdGUgdmlldyByZXR1cm5zIChib29sIHZhbGlkLCBib29sIHN1cHBvcnRlZCkgewogICAgICAgIGlmICghX2lzUHJvcGVyU2lnbmF0dXJlKHIsIHMpIHx8ICFpc1ZhbGlkUHVibGljS2V5KHF4LCBxeSkpIHsKICAgICAgICAgICAgcmV0dXJuIChmYWxzZSwgdHJ1ZSk7IC8vIHNpZ25hdHVyZSBpcyBpbnZhbGlkLCBhbmQgaXRzIG5vdCBiZWNhdXNlIHRoZSBwcmVjb21waWxlIGlzIG1pc3NpbmcKICAgICAgICB9CgogICAgICAgIChib29sIHN1Y2Nlc3MsIGJ5dGVzIG1lbW9yeSByZXR1cm5kYXRhKSA9IGFkZHJlc3MoMHgxMDApLnN0YXRpY2NhbGwoYWJpLmVuY29kZShoLCByLCBzLCBxeCwgcXkpKTsKICAgICAgICByZXR1cm4gKHN1Y2Nlc3MgJiYgcmV0dXJuZGF0YS5sZW5ndGggPT0gMHgyMCkgPyAoYWJpLmRlY29kZShyZXR1cm5kYXRhLCAoYm9vbCkpLCB0cnVlKSA6IChmYWxzZSwgZmFsc2UpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBTYW1lIGFzIHt2ZXJpZnl9LCBidXQgb25seSB0aGUgU29saWRpdHkgaW1wbGVtZW50YXRpb24gaXMgdXNlZC4KICAgICAqLwogICAgZnVuY3Rpb24gdmVyaWZ5U29saWRpdHkoYnl0ZXMzMiBoLCBieXRlczMyIHIsIGJ5dGVzMzIgcywgYnl0ZXMzMiBxeCwgYnl0ZXMzMiBxeSkgaW50ZXJuYWwgdmlldyByZXR1cm5zIChib29sKSB7CiAgICAgICAgaWYgKCFfaXNQcm9wZXJTaWduYXR1cmUociwgcykgfHwgIWlzVmFsaWRQdWJsaWNLZXkocXgsIHF5KSkgewogICAgICAgICAgICByZXR1cm4gZmFsc2U7CiAgICAgICAgfQoKICAgICAgICBKUG9pbnRbMTZdIG1lbW9yeSBwb2ludHMgPSBfcHJlQ29tcHV0ZUphY29iaWFuUG9pbnRzKHVpbnQyNTYocXgpLCB1aW50MjU2KHF5KSk7CiAgICAgICAgdWludDI1NiB3ID0gTWF0aC5pbnZNb2RQcmltZSh1aW50MjU2KHMpLCBOKTsKICAgICAgICB1aW50MjU2IHUxID0gbXVsbW9kKHVpbnQyNTYoaCksIHcsIE4pOwogICAgICAgIHVpbnQyNTYgdTIgPSBtdWxtb2QodWludDI1NihyKSwgdywgTik7CiAgICAgICAgKHVpbnQyNTYgeCwgKSA9IF9qTXVsdFNoYW1pcihwb2ludHMsIHUxLCB1Mik7CiAgICAgICAgcmV0dXJuICgoeCAlIE4pID09IHVpbnQyNTYocikpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBQdWJsaWMga2V5IHJlY292ZXJ5CiAgICAgKgogICAgICogQHBhcmFtIGggLSBoYXNoZWQgbWVzc2FnZQogICAgICogQHBhcmFtIHYgLSBzaWduYXR1cmUgcmVjb3ZlcnkgcGFyYW0KICAgICAqIEBwYXJhbSByIC0gc2lnbmF0dXJlIGhhbGYgUgogICAgICogQHBhcmFtIHMgLSBzaWduYXR1cmUgaGFsZiBTCiAgICAgKgogICAgICogSU1QT1JUQU5UOiBUaGlzIGZ1bmN0aW9uIGRpc2FsbG93cyBzaWduYXR1cmVzIHdoZXJlIHRoZSBgc2AgdmFsdWUgaXMgYWJvdmUgYE4vMmAgdG8gcHJldmVudCBtYWxsZWFiaWxpdHkuCiAgICAgKiBUbyBmbGlwIHRoZSBgc2AgdmFsdWUsIGNvbXB1dGUgYHMgPSBOIC0gc2AgYW5kIGB2ID0gMSAtIHZgIGlmIChgdiA9IDAgfCAxYCkuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHJlY292ZXJ5KGJ5dGVzMzIgaCwgdWludDggdiwgYnl0ZXMzMiByLCBieXRlczMyIHMpIGludGVybmFsIHZpZXcgcmV0dXJucyAoYnl0ZXMzMiB4LCBieXRlczMyIHkpIHsKICAgICAgICBpZiAoIV9pc1Byb3BlclNpZ25hdHVyZShyLCBzKSB8fCB2ID4gMSkgewogICAgICAgICAgICByZXR1cm4gKDAsIDApOwogICAgICAgIH0KCiAgICAgICAgdWludDI1NiBwID0gUDsgLy8gY2FjaGUgUCBvbiB0aGUgc3RhY2sKICAgICAgICB1aW50MjU2IHJ4ID0gdWludDI1NihyKTsKICAgICAgICB1aW50MjU2IHJ5MiA9IGFkZG1vZChtdWxtb2QoYWRkbW9kKG11bG1vZChyeCwgcngsIHApLCBBLCBwKSwgcngsIHApLCBCLCBwKTsgLy8gd2VpZXJzdHJhc3MgZXF1YXRpb24gecKyID0geMKzICsgYS54ICsgYgogICAgICAgIHVpbnQyNTYgcnkgPSBNYXRoLm1vZEV4cChyeTIsIFAxRElWNCwgcCk7IC8vIFRoaXMgZm9ybXVsYSBmb3Igc3FydCB3b3JrIGJlY2F1c2UgUCDiiaEgMyAobW9kIDQpCiAgICAgICAgaWYgKG11bG1vZChyeSwgcnksIHApICE9IHJ5MikgcmV0dXJuICgwLCAwKTsgLy8gU2FuaXR5IGNoZWNrCiAgICAgICAgaWYgKHJ5ICUgMiAhPSB2KSByeSA9IHAgLSByeTsKCiAgICAgICAgSlBvaW50WzE2XSBtZW1vcnkgcG9pbnRzID0gX3ByZUNvbXB1dGVKYWNvYmlhblBvaW50cyhyeCwgcnkpOwogICAgICAgIHVpbnQyNTYgdyA9IE1hdGguaW52TW9kUHJpbWUodWludDI1NihyKSwgTik7CiAgICAgICAgdWludDI1NiB1MSA9IG11bG1vZChOIC0gKHVpbnQyNTYoaCkgJSBOKSwgdywgTik7CiAgICAgICAgdWludDI1NiB1MiA9IG11bG1vZCh1aW50MjU2KHMpLCB3LCBOKTsKICAgICAgICAodWludDI1NiB4VSwgdWludDI1NiB5VSkgPSBfak11bHRTaGFtaXIocG9pbnRzLCB1MSwgdTIpOwogICAgICAgIHJldHVybiAoYnl0ZXMzMih4VSksIGJ5dGVzMzIoeVUpKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgQ2hlY2tzIGlmICh4LCB5KSBhcmUgdmFsaWQgY29vcmRpbmF0ZXMgb2YgYSBwb2ludCBvbiB0aGUgY3VydmUuCiAgICAgKiBJbiBwYXJ0aWN1bGFyIHRoaXMgZnVuY3Rpb24gY2hlY2tzIHRoYXQgeCA8IFAgYW5kIHkgPCBQLgogICAgICovCiAgICBmdW5jdGlvbiBpc1ZhbGlkUHVibGljS2V5KGJ5dGVzMzIgeCwgYnl0ZXMzMiB5KSBpbnRlcm5hbCBwdXJlIHJldHVybnMgKGJvb2wgcmVzdWx0KSB7CiAgICAgICAgYXNzZW1ibHkgKCJtZW1vcnktc2FmZSIpIHsKICAgICAgICAgICAgbGV0IHAgOj0gUAogICAgICAgICAgICBsZXQgbGhzIDo9IG11bG1vZCh5LCB5LCBwKSAvLyB5XjIKICAgICAgICAgICAgbGV0IHJocyA6PSBhZGRtb2QobXVsbW9kKGFkZG1vZChtdWxtb2QoeCwgeCwgcCksIEEsIHApLCB4LCBwKSwgQiwgcCkgLy8gKCh4XjIgKyBhKSAqIHgpICsgYiA9IHheMyArIGF4ICsgYgogICAgICAgICAgICByZXN1bHQgOj0gYW5kKGFuZChsdCh4LCBwKSwgbHQoeSwgcCkpLCBlcShsaHMsIHJocykpIC8vIFNob3VsZCBjb25mb3JtIHdpdGggdGhlIFdlaWVyc3RyYXNzIGVxdWF0aW9uCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICogQGRldiBDaGVja3MgaWYgKHIsIHMpIGlzIGEgcHJvcGVyIHNpZ25hdHVyZS4KICAgICAqIEluIHBhcnRpY3VsYXIsIHRoaXMgY2hlY2tzIHRoYXQgYHNgIGlzIGluIHRoZSAibG93ZXItcmFuZ2UiLCBtYWtpbmcgdGhlIHNpZ25hdHVyZSBub24tbWFsbGVhYmxlLgogICAgICovCiAgICBmdW5jdGlvbiBfaXNQcm9wZXJTaWduYXR1cmUoYnl0ZXMzMiByLCBieXRlczMyIHMpIHByaXZhdGUgcHVyZSByZXR1cm5zIChib29sKSB7CiAgICAgICAgcmV0dXJuIHVpbnQyNTYocikgPiAwICYmIHVpbnQyNTYocikgPCBOICYmIHVpbnQyNTYocykgPiAwICYmIHVpbnQyNTYocykgPD0gSEFMRl9OOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBSZWR1Y2UgZnJvbSBqYWNvYmlhbiB0byBhZmZpbmUgY29vcmRpbmF0ZXMKICAgICAqIEBwYXJhbSBqeCAtIGphY29iaWFuIGNvb3JkaW5hdGUgeAogICAgICogQHBhcmFtIGp5IC0gamFjb2JpYW4gY29vcmRpbmF0ZSB5CiAgICAgKiBAcGFyYW0ganogLSBqYWNvYmlhbiBjb29yZGluYXRlIHoKICAgICAqIEByZXR1cm4gYXggLSBhZmZpbmUgY29vcmRpbmF0ZSB4CiAgICAgKiBAcmV0dXJuIGF5IC0gYWZmaW5lIGNvb3JkaW5hdGUgeQogICAgICovCiAgICBmdW5jdGlvbiBfYWZmaW5lRnJvbUphY29iaWFuKHVpbnQyNTYgangsIHVpbnQyNTYganksIHVpbnQyNTYganopIHByaXZhdGUgdmlldyByZXR1cm5zICh1aW50MjU2IGF4LCB1aW50MjU2IGF5KSB7CiAgICAgICAgaWYgKGp6ID09IDApIHJldHVybiAoMCwgMCk7CiAgICAgICAgdWludDI1NiBwID0gUDsgLy8gY2FjaGUgUCBvbiB0aGUgc3RhY2sKICAgICAgICB1aW50MjU2IHppbnYgPSBNYXRoLmludk1vZFByaW1lKGp6LCBwKTsKICAgICAgICBhc3NlbWJseSAoIm1lbW9yeS1zYWZlIikgewogICAgICAgICAgICBsZXQgenppbnYgOj0gbXVsbW9kKHppbnYsIHppbnYsIHApCiAgICAgICAgICAgIGF4IDo9IG11bG1vZChqeCwgenppbnYsIHApCiAgICAgICAgICAgIGF5IDo9IG11bG1vZChqeSwgbXVsbW9kKHp6aW52LCB6aW52LCBwKSwgcCkKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFBvaW50IGFkZGl0aW9uIG9uIHRoZSBqYWNvYmlhbiBjb29yZGluYXRlcwogICAgICogUmVmZXJlbmNlOiBodHRwczovL3d3dy5oeXBlcmVsbGlwdGljLm9yZy9FRkQvZzFwL2F1dG8tc2hvcnR3LWphY29iaWFuLmh0bWwjYWRkaXRpb24tYWRkLTE5OTgtY21vLTIKICAgICAqCiAgICAgKiBOb3RlIHRoYXQ6CiAgICAgKgogICAgICogLSBgYWRkaXRpb24tYWRkLTE5OTgtY21vLTJgIGRvZXNuJ3Qgc3VwcG9ydCBpZGVudGljYWwgaW5wdXQgcG9pbnRzLiBUaGlzIHZlcnNpb24gaXMgbW9kaWZpZWQgdG8gdXNlCiAgICAgKiB0aGUgYGhgIGFuZCBgcmAgdmFsdWVzIGNvbXB1dGVkIGJ5IGBhZGRpdGlvbi1hZGQtMTk5OC1jbW8tMmAgdG8gZGV0ZWN0IGlkZW50aWNhbCBpbnB1dHMsIGFuZCBmYWxsYmFjayB0bwogICAgICogYGRvdWJsaW5nLWRibC0xOTk4LWNtby0yYCBpZiBuZWVkZWQuCiAgICAgKiAtIGlmIG9uZSBvZiB0aGUgcG9pbnRzIGlzIGF0IGluZmluaXR5IChpLmUuIGB6PTBgKSwgdGhlIHJlc3VsdCBpcyB1bmRlZmluZWQuCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9qQWRkKAogICAgICAgIEpQb2ludCBtZW1vcnkgcDEsCiAgICAgICAgdWludDI1NiB4MiwKICAgICAgICB1aW50MjU2IHkyLAogICAgICAgIHVpbnQyNTYgejIKICAgICkgcHJpdmF0ZSBwdXJlIHJldHVybnMgKHVpbnQyNTYgcngsIHVpbnQyNTYgcnksIHVpbnQyNTYgcnopIHsKICAgICAgICBhc3NlbWJseSAoIm1lbW9yeS1zYWZlIikgewogICAgICAgICAgICBsZXQgcCA6PSBQCiAgICAgICAgICAgIGxldCB6MSA6PSBtbG9hZChhZGQocDEsIDB4NDApKQogICAgICAgICAgICBsZXQgenoxIDo9IG11bG1vZCh6MSwgejEsIHApIC8vIHp6MSA9IHoxwrIKICAgICAgICAgICAgbGV0IHMxIDo9IG11bG1vZChtbG9hZChhZGQocDEsIDB4MjApKSwgbXVsbW9kKG11bG1vZCh6MiwgejIsIHApLCB6MiwgcCksIHApIC8vIHMxID0geTEqejLCswogICAgICAgICAgICBsZXQgciA6PSBhZGRtb2QobXVsbW9kKHkyLCBtdWxtb2QoenoxLCB6MSwgcCksIHApLCBzdWIocCwgczEpLCBwKSAvLyByID0gczItczEgPSB5Mip6McKzLXMxID0geTIqejHCsy15MSp6MsKzCiAgICAgICAgICAgIGxldCB1MSA6PSBtdWxtb2QobWxvYWQocDEpLCBtdWxtb2QoejIsIHoyLCBwKSwgcCkgLy8gdTEgPSB4MSp6MsKyCiAgICAgICAgICAgIGxldCBoIDo9IGFkZG1vZChtdWxtb2QoeDIsIHp6MSwgcCksIHN1YihwLCB1MSksIHApIC8vIGggPSB1Mi11MSA9IHgyKnoxwrItdTEgPSB4Mip6McKyLXgxKnoywrIKCiAgICAgICAgICAgIC8vIGRldGVjdCBlZGdlIGNhc2VzIHdoZXJlIGlucHV0cyBhcmUgaWRlbnRpY2FsCiAgICAgICAgICAgIHN3aXRjaCBhbmQoaXN6ZXJvKHIpLCBpc3plcm8oaCkpCiAgICAgICAgICAgIC8vIGNhc2UgMDogcG9pbnRzIGFyZSBkaWZmZXJlbnQKICAgICAgICAgICAgY2FzZSAwIHsKICAgICAgICAgICAgICAgIGxldCBoaCA6PSBtdWxtb2QoaCwgaCwgcCkgLy8gaMKyCgogICAgICAgICAgICAgICAgLy8geCcgPSBywrItaMKzLTIqdTEqaMKyCiAgICAgICAgICAgICAgICByeCA6PSBhZGRtb2QoCiAgICAgICAgICAgICAgICAgICAgYWRkbW9kKG11bG1vZChyLCByLCBwKSwgc3ViKHAsIG11bG1vZChoLCBoaCwgcCkpLCBwKSwKICAgICAgICAgICAgICAgICAgICBzdWIocCwgbXVsbW9kKDIsIG11bG1vZCh1MSwgaGgsIHApLCBwKSksCiAgICAgICAgICAgICAgICAgICAgcAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgLy8geScgPSByKih1MSpowrIteCcpLXMxKmjCswogICAgICAgICAgICAgICAgcnkgOj0gYWRkbW9kKAogICAgICAgICAgICAgICAgICAgIG11bG1vZChyLCBhZGRtb2QobXVsbW9kKHUxLCBoaCwgcCksIHN1YihwLCByeCksIHApLCBwKSwKICAgICAgICAgICAgICAgICAgICBzdWIocCwgbXVsbW9kKHMxLCBtdWxtb2QoaCwgaGgsIHApLCBwKSksCiAgICAgICAgICAgICAgICAgICAgcAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgLy8geicgPSBoKnoxKnoyCiAgICAgICAgICAgICAgICByeiA6PSBtdWxtb2QoaCwgbXVsbW9kKHoxLCB6MiwgcCksIHApCiAgICAgICAgICAgIH0KICAgICAgICAgICAgLy8gY2FzZSAxOiBwb2ludHMgYXJlIGVxdWFsCiAgICAgICAgICAgIGNhc2UgMSB7CiAgICAgICAgICAgICAgICBsZXQgeCA6PSB4MgogICAgICAgICAgICAgICAgbGV0IHkgOj0geTIKICAgICAgICAgICAgICAgIGxldCB6IDo9IHoyCiAgICAgICAgICAgICAgICBsZXQgeXkgOj0gbXVsbW9kKHksIHksIHApCiAgICAgICAgICAgICAgICBsZXQgenogOj0gbXVsbW9kKHosIHosIHApCiAgICAgICAgICAgICAgICBsZXQgbSA6PSBhZGRtb2QobXVsbW9kKDMsIG11bG1vZCh4LCB4LCBwKSwgcCksIG11bG1vZChBLCBtdWxtb2QoenosIHp6LCBwKSwgcCksIHApIC8vIG0gPSAzKnjCsithKnrigbQKICAgICAgICAgICAgICAgIGxldCBzIDo9IG11bG1vZCg0LCBtdWxtb2QoeCwgeXksIHApLCBwKSAvLyBzID0gNCp4KnnCsgoKICAgICAgICAgICAgICAgIC8vIHgnID0gdCA9IG3Csi0yKnMKICAgICAgICAgICAgICAgIHJ4IDo9IGFkZG1vZChtdWxtb2QobSwgbSwgcCksIHN1YihwLCBtdWxtb2QoMiwgcywgcCkpLCBwKQoKICAgICAgICAgICAgICAgIC8vIHknID0gbSoocy10KS04KnnigbQgPSBtKihzLXgnKS04KnnigbQKICAgICAgICAgICAgICAgIC8vIGN1dCB0aGUgY29tcHV0YXRpb24gdG8gYXZvaWQgc3RhY2sgdG9vIGRlZXAKICAgICAgICAgICAgICAgIGxldCByeXRtcDEgOj0gc3ViKHAsIG11bG1vZCg4LCBtdWxtb2QoeXksIHl5LCBwKSwgcCkpIC8vIC04KnnigbQKICAgICAgICAgICAgICAgIGxldCByeXRtcDIgOj0gYWRkbW9kKHMsIHN1YihwLCByeCksIHApIC8vIHMteCcKICAgICAgICAgICAgICAgIHJ5IDo9IGFkZG1vZChtdWxtb2QobSwgcnl0bXAyLCBwKSwgcnl0bXAxLCBwKSAvLyBtKihzLXgnKS04KnnigbQKCiAgICAgICAgICAgICAgICAvLyB6JyA9IDIqeSp6CiAgICAgICAgICAgICAgICByeiA6PSBtdWxtb2QoMiwgbXVsbW9kKHksIHosIHApLCBwKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICogQGRldiBQb2ludCBkb3VibGluZyBvbiB0aGUgamFjb2JpYW4gY29vcmRpbmF0ZXMKICAgICAqIFJlZmVyZW5jZTogaHR0cHM6Ly93d3cuaHlwZXJlbGxpcHRpYy5vcmcvRUZEL2cxcC9hdXRvLXNob3J0dy1qYWNvYmlhbi5odG1sI2RvdWJsaW5nLWRibC0xOTk4LWNtby0yCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9qRG91YmxlKHVpbnQyNTYgeCwgdWludDI1NiB5LCB1aW50MjU2IHopIHByaXZhdGUgcHVyZSByZXR1cm5zICh1aW50MjU2IHJ4LCB1aW50MjU2IHJ5LCB1aW50MjU2IHJ6KSB7CiAgICAgICAgYXNzZW1ibHkgKCJtZW1vcnktc2FmZSIpIHsKICAgICAgICAgICAgbGV0IHAgOj0gUAogICAgICAgICAgICBsZXQgeXkgOj0gbXVsbW9kKHksIHksIHApCiAgICAgICAgICAgIGxldCB6eiA6PSBtdWxtb2QoeiwgeiwgcCkKICAgICAgICAgICAgbGV0IG0gOj0gYWRkbW9kKG11bG1vZCgzLCBtdWxtb2QoeCwgeCwgcCksIHApLCBtdWxtb2QoQSwgbXVsbW9kKHp6LCB6eiwgcCksIHApLCBwKSAvLyBtID0gMyp4wrIrYSp64oG0CiAgICAgICAgICAgIGxldCBzIDo9IG11bG1vZCg0LCBtdWxtb2QoeCwgeXksIHApLCBwKSAvLyBzID0gNCp4KnnCsgoKICAgICAgICAgICAgLy8geCcgPSB0ID0gbcKyLTIqcwogICAgICAgICAgICByeCA6PSBhZGRtb2QobXVsbW9kKG0sIG0sIHApLCBzdWIocCwgbXVsbW9kKDIsIHMsIHApKSwgcCkKICAgICAgICAgICAgLy8geScgPSBtKihzLXQpLTgqeeKBtCA9IG0qKHMteCcpLTgqeeKBtAogICAgICAgICAgICByeSA6PSBhZGRtb2QobXVsbW9kKG0sIGFkZG1vZChzLCBzdWIocCwgcngpLCBwKSwgcCksIHN1YihwLCBtdWxtb2QoOCwgbXVsbW9kKHl5LCB5eSwgcCksIHApKSwgcCkKICAgICAgICAgICAgLy8geicgPSAyKnkqegogICAgICAgICAgICByeiA6PSBtdWxtb2QoMiwgbXVsbW9kKHksIHosIHApLCBwKQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgQ29tcHV0ZSBHwrd1MSArIFDCt3UyIHVzaW5nIHRoZSBwcmVjb21wdXRlZCBwb2ludHMgZm9yIEcgYW5kIFAgKHNlZSB7X3ByZUNvbXB1dGVKYWNvYmlhblBvaW50c30pLgogICAgICoKICAgICAqIFVzZXMgU3RyYXVzcyBTaGFtaXIgdHJpY2sgZm9yIEVDIG11bHRpcGxpY2F0aW9uCiAgICAgKiBodHRwczovL3N0YWNrb3ZlcmZsb3cuY29tL3F1ZXN0aW9ucy81MDk5MzQ3MS9lYy1zY2FsYXItbXVsdGlwbGljYXRpb24td2l0aC1zdHJhdXNzLXNoYW1pci1tZXRob2QKICAgICAqCiAgICAgKiBXZSBvcHRpbWl6ZSB0aGlzIGZvciAyIGJpdHMgYXQgYSB0aW1lIHJhdGhlciB0aGFuIGEgc2luZ2xlIGJpdC4gVGhlIGluZGl2aWR1YWwgcG9pbnRzIGZvciBhIHNpbmdsZSBwYXNzIGFyZQogICAgICogcHJlY29tcHV0ZWQuIE92ZXJhbGwgdGhpcyByZWR1Y2VzIHRoZSBudW1iZXIgb2YgYWRkaXRpb25zIHdoaWxlIGtlZXBpbmcgdGhlIHNhbWUgbnVtYmVyIG9mCiAgICAgKiBkb3VibGluZ3MKICAgICAqLwogICAgZnVuY3Rpb24gX2pNdWx0U2hhbWlyKAogICAgICAgIEpQb2ludFsxNl0gbWVtb3J5IHBvaW50cywKICAgICAgICB1aW50MjU2IHUxLAogICAgICAgIHVpbnQyNTYgdTIKICAgICkgcHJpdmF0ZSB2aWV3IHJldHVybnMgKHVpbnQyNTYgcngsIHVpbnQyNTYgcnkpIHsKICAgICAgICB1aW50MjU2IHggPSAwOwogICAgICAgIHVpbnQyNTYgeSA9IDA7CiAgICAgICAgdWludDI1NiB6ID0gMDsKICAgICAgICB1bmNoZWNrZWQgewogICAgICAgICAgICBmb3IgKHVpbnQyNTYgaSA9IDA7IGkgPCAxMjg7ICsraSkgewogICAgICAgICAgICAgICAgaWYgKHogPiAwKSB7CiAgICAgICAgICAgICAgICAgICAgKHgsIHksIHopID0gX2pEb3VibGUoeCwgeSwgeik7CiAgICAgICAgICAgICAgICAgICAgKHgsIHksIHopID0gX2pEb3VibGUoeCwgeSwgeik7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAvLyBSZWFkIDIgYml0cyBvZiB1MSwgYW5kIDIgYml0cyBvZiB1Mi4gQ29tYmluaW5nIHRoZSB0d28gZ2l2ZXMgdGhlIGxvb2t1cCBpbmRleCBpbiB0aGUgdGFibGUuCiAgICAgICAgICAgICAgICB1aW50MjU2IHBvcyA9ICgodTEgPj4gMjUyKSAmIDB4YykgfCAoKHUyID4+IDI1NCkgJiAweDMpOwogICAgICAgICAgICAgICAgLy8gUG9pbnRzIHRoYXQgaGF2ZSB6ID0gMCBhcmUgcG9pbnRzIGF0IGluZmluaXR5LiBUaGV5IGFyZSB0aGUgYWRkaXRpdmUgMCBvZiB0aGUgZ3JvdXAKICAgICAgICAgICAgICAgIC8vIC0gaWYgdGhlIGxvb2t1cCBwb2ludCBpcyBhIDAsIHdlIGNhbiBza2lwIGl0CiAgICAgICAgICAgICAgICAvLyAtIG90aGVyd2lzZToKICAgICAgICAgICAgICAgIC8vICAgLSBpZiB0aGUgY3VycmVudCBwb2ludCAoeCwgeSwgeikgaXMgMCwgd2UgdXNlIHRoZSBsb29rdXAgcG9pbnQgYXMgb3VyIG5ldyB2YWx1ZSAoMCtQPVApCiAgICAgICAgICAgICAgICAvLyAgIC0gaWYgdGhlIGN1cnJlbnQgcG9pbnQgKHgsIHksIHopIGlzIG5vdCAwLCBib3RoIHBvaW50cyBhcmUgdmFsaWQgYW5kIHdlIGNhbiB1c2UgYF9qQWRkYAogICAgICAgICAgICAgICAgaWYgKHBvaW50c1twb3NdLnogIT0gMCkgewogICAgICAgICAgICAgICAgICAgIGlmICh6ID09IDApIHsKICAgICAgICAgICAgICAgICAgICAgICAgKHgsIHksIHopID0gKHBvaW50c1twb3NdLngsIHBvaW50c1twb3NdLnksIHBvaW50c1twb3NdLnopOwogICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgICh4LCB5LCB6KSA9IF9qQWRkKHBvaW50c1twb3NdLCB4LCB5LCB6KTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB1MSA8PD0gMjsKICAgICAgICAgICAgICAgIHUyIDw8PSAyOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIHJldHVybiBfYWZmaW5lRnJvbUphY29iaWFuKHgsIHksIHopOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBQcmVjb21wdXRlIGEgbWF0cmljZSBvZiB1c2VmdWwgamFjb2JpYW4gcG9pbnRzIGFzc29jaWF0ZWQgd2l0aCBhIGdpdmVuIFAuIFRoaXMgY2FuIGJlIHNlZW4gYXMgYSA0eDQgbWF0cml4CiAgICAgKiB0aGF0IGNvbnRhaW5zIGNvbWJpbmF0aW9uIG9mIFAgYW5kIEcgKGdlbmVyYXRvcikgdXAgdG8gMyB0aW1lcyBlYWNoLiBTZWUgdGhlIHRhYmxlIGJlbG93OgogICAgICoKICAgICAqIOKUjOKUgOKUgOKUgOKUgOKUrOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUkAogICAgICog4pSCICBpIOKUgiAgMCAgICAxICAgICAyICAgICAzIOKUggogICAgICog4pSc4pSA4pSA4pSA4pSA4pS84pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSkCiAgICAgKiDilIIgIDAg4pSCICAwICAgIHAgICAgMnAgICAgM3Ag4pSCCiAgICAgKiDilIIgIDQg4pSCICBnICBnK3AgIGcrMnAgIGcrM3Ag4pSCCiAgICAgKiDilIIgIDgg4pSCIDJnIDJnK3AgMmcrMnAgMmcrM3Ag4pSCCiAgICAgKiDilIIgMTIg4pSCIDNnIDNnK3AgM2crMnAgM2crM3Ag4pSCCiAgICAgKiDilJTilIDilIDilIDilIDilLTilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJgKICAgICAqCiAgICAgKiBOb3RlIHRoYXQgYF9qQWRkYCAoYW5kIHRodXMgYF9qQWRkUG9pbnRgKSBkb2VzIG5vdCBoYW5kbGUgdGhlIGNhc2Ugd2hlcmUgb25lIG9mIHRoZSBpbnB1dHMgaXMgYSBwb2ludCBhdAogICAgICogaW5maW5pdHkgKHogPSAwKS4gSG93ZXZlciwgd2Uga25vdyB0aGF0IHNpbmNlIGBOIOKJoSAxIG1vZCAyYCBhbmQgYE4g4omhIDEgbW9kIDNgLCB0aGVyZSBpcyBubyBwb2ludCBQIHN1Y2ggdGhhdAogICAgICogMlAgPSAwIG9yIDNQID0gMC4gVGhpcyBndWFyYW50ZWVzIHRoYXQgZywgMmcsIDNnLCBwLCAycCwgM3AgYXJlIGFsbCBub24temVybywgYW5kIHRoYXQgYWxsIGBfakFkZFBvaW50YCBjYWxscwogICAgICogaGF2ZSB2YWxpZCBpbnB1dHMuCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9wcmVDb21wdXRlSmFjb2JpYW5Qb2ludHModWludDI1NiBweCwgdWludDI1NiBweSkgcHJpdmF0ZSBwdXJlIHJldHVybnMgKEpQb2ludFsxNl0gbWVtb3J5IHBvaW50cykgewogICAgICAgIHBvaW50c1sweDAwXSA9IEpQb2ludCgwLCAwLCAwKTsgLy8gMCwwCiAgICAgICAgcG9pbnRzWzB4MDFdID0gSlBvaW50KHB4LCBweSwgMSk7IC8vIDEsMCAocCkKICAgICAgICBwb2ludHNbMHgwNF0gPSBKUG9pbnQoR1gsIEdZLCAxKTsgLy8gMCwxIChnKQogICAgICAgIHBvaW50c1sweDAyXSA9IF9qRG91YmxlUG9pbnQocG9pbnRzWzB4MDFdKTsgLy8gMiwwICgycCkKICAgICAgICBwb2ludHNbMHgwOF0gPSBfakRvdWJsZVBvaW50KHBvaW50c1sweDA0XSk7IC8vIDAsMiAoMmcpCiAgICAgICAgcG9pbnRzWzB4MDNdID0gX2pBZGRQb2ludChwb2ludHNbMHgwMV0sIHBvaW50c1sweDAyXSk7IC8vIDMsMCAocCsycCA9IDNwKQogICAgICAgIHBvaW50c1sweDA1XSA9IF9qQWRkUG9pbnQocG9pbnRzWzB4MDFdLCBwb2ludHNbMHgwNF0pOyAvLyAxLDEgKHArZykKICAgICAgICBwb2ludHNbMHgwNl0gPSBfakFkZFBvaW50KHBvaW50c1sweDAyXSwgcG9pbnRzWzB4MDRdKTsgLy8gMiwxICgycCtnKQogICAgICAgIHBvaW50c1sweDA3XSA9IF9qQWRkUG9pbnQocG9pbnRzWzB4MDNdLCBwb2ludHNbMHgwNF0pOyAvLyAzLDEgKDNwK2cpCiAgICAgICAgcG9pbnRzWzB4MDldID0gX2pBZGRQb2ludChwb2ludHNbMHgwMV0sIHBvaW50c1sweDA4XSk7IC8vIDEsMiAocCsyZykKICAgICAgICBwb2ludHNbMHgwYV0gPSBfakFkZFBvaW50KHBvaW50c1sweDAyXSwgcG9pbnRzWzB4MDhdKTsgLy8gMiwyICgycCsyZykKICAgICAgICBwb2ludHNbMHgwYl0gPSBfakFkZFBvaW50KHBvaW50c1sweDAzXSwgcG9pbnRzWzB4MDhdKTsgLy8gMywyICgzcCsyZykKICAgICAgICBwb2ludHNbMHgwY10gPSBfakFkZFBvaW50KHBvaW50c1sweDA0XSwgcG9pbnRzWzB4MDhdKTsgLy8gMCwzIChnKzJnID0gM2cpCiAgICAgICAgcG9pbnRzWzB4MGRdID0gX2pBZGRQb2ludChwb2ludHNbMHgwMV0sIHBvaW50c1sweDBjXSk7IC8vIDEsMyAocCszZykKICAgICAgICBwb2ludHNbMHgwZV0gPSBfakFkZFBvaW50KHBvaW50c1sweDAyXSwgcG9pbnRzWzB4MGNdKTsgLy8gMiwzICgycCszZykKICAgICAgICBwb2ludHNbMHgwZl0gPSBfakFkZFBvaW50KHBvaW50c1sweDAzXSwgcG9pbnRzWzB4MGNdKTsgLy8gMywzICgzcCszZykKICAgIH0KCiAgICBmdW5jdGlvbiBfakFkZFBvaW50KEpQb2ludCBtZW1vcnkgcDEsIEpQb2ludCBtZW1vcnkgcDIpIHByaXZhdGUgcHVyZSByZXR1cm5zIChKUG9pbnQgbWVtb3J5KSB7CiAgICAgICAgKHVpbnQyNTYgeCwgdWludDI1NiB5LCB1aW50MjU2IHopID0gX2pBZGQocDEsIHAyLngsIHAyLnksIHAyLnopOwogICAgICAgIHJldHVybiBKUG9pbnQoeCwgeSwgeik7CiAgICB9CgogICAgZnVuY3Rpb24gX2pEb3VibGVQb2ludChKUG9pbnQgbWVtb3J5IHApIHByaXZhdGUgcHVyZSByZXR1cm5zIChKUG9pbnQgbWVtb3J5KSB7CiAgICAgICAgKHVpbnQyNTYgeCwgdWludDI1NiB5LCB1aW50MjU2IHopID0gX2pEb3VibGUocC54LCBwLnksIHAueik7CiAgICAgICAgcmV0dXJuIEpQb2ludCh4LCB5LCB6KTsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (utils/cryptography/P256.sol)
+pragma solidity ^0.8.20;
+
+import {Math} from "../math/Math.sol";
+import {Errors} from "../Errors.sol";
+
+/**
+ * @dev Implementation of secp256r1 verification and recovery functions.
+ *
+ * The secp256r1 curve (also known as P256) is a NIST standard curve with wide support in modern devices
+ * and cryptographic standards. Some notable examples include Apple's Secure Enclave and Android's Keystore
+ * as well as authentication protocols like FIDO2.
+ *
+ * Based on the original https://github.com/itsobvioustech/aa-passkeys-wallet/blob/d3d423f28a4d8dfcb203c7fa0c47f42592a7378e/src/Secp256r1.sol[implementation of itsobvioustech] (GNU General Public License v3.0).
+ * Heavily inspired in https://github.com/maxrobot/elliptic-solidity/blob/c4bb1b6e8ae89534d8db3a6b3a6b52219100520f/contracts/Secp256r1.sol[maxrobot] and
+ * https://github.com/tdrerup/elliptic-curve-solidity/blob/59a9c25957d4d190eff53b6610731d81a077a15e/contracts/curves/EllipticCurve.sol[tdrerup] implementations.
+ *
+ * _Available since v5.1._
+ */
+library P256 {
+    struct JPoint {
+        uint256 x;
+        uint256 y;
+        uint256 z;
+    }
+
+    /// @dev Generator (x component)
+    uint256 internal constant GX = 0x6B17D1F2E12C4247F8BCE6E563A440F277037D812DEB33A0F4A13945D898C296;
+    /// @dev Generator (y component)
+    uint256 internal constant GY = 0x4FE342E2FE1A7F9B8EE7EB4A7C0F9E162BCE33576B315ECECBB6406837BF51F5;
+    /// @dev P (size of the field)
+    uint256 internal constant P = 0xFFFFFFFF00000001000000000000000000000000FFFFFFFFFFFFFFFFFFFFFFFF;
+    /// @dev N (order of G)
+    uint256 internal constant N = 0xFFFFFFFF00000000FFFFFFFFFFFFFFFFBCE6FAADA7179E84F3B9CAC2FC632551;
+    /// @dev A parameter of the weierstrass equation
+    uint256 internal constant A = 0xFFFFFFFF00000001000000000000000000000000FFFFFFFFFFFFFFFFFFFFFFFC;
+    /// @dev B parameter of the weierstrass equation
+    uint256 internal constant B = 0x5AC635D8AA3A93E7B3EBBD55769886BC651D06B0CC53B0F63BCE3C3E27D2604B;
+
+    /// @dev (P + 1) / 4. Useful to compute sqrt
+    uint256 private constant P1DIV4 = 0x3fffffffc0000000400000000000000000000000400000000000000000000000;
+
+    /// @dev N/2 for excluding higher order `s` values
+    uint256 private constant HALF_N = 0x7fffffff800000007fffffffffffffffde737d56d38bcf4279dce5617e3192a8;
+
+    /**
+     * @dev Verifies a secp256r1 signature using the RIP-7212 precompile and falls back to the Solidity implementation
+     * if the precompile is not available. This version should work on all chains, but requires the deployment of more
+     * bytecode.
+     *
+     * @param h - hashed message
+     * @param r - signature half R
+     * @param s - signature half S
+     * @param qx - public key coordinate X
+     * @param qy - public key coordinate Y
+     *
+     * IMPORTANT: This function disallows signatures where the `s` value is above `N/2` to prevent malleability.
+     * To flip the `s` value, compute `s = N - s`.
+     */
+    function verify(bytes32 h, bytes32 r, bytes32 s, bytes32 qx, bytes32 qy) internal view returns (bool) {
+        (bool valid, bool supported) = _tryVerifyNative(h, r, s, qx, qy);
+        return supported ? valid : verifySolidity(h, r, s, qx, qy);
+    }
+
+    /**
+     * @dev Same as {verify}, but it will revert if the required precompile is not available.
+     *
+     * Make sure any logic (code or precompile) deployed at that address is the expected one,
+     * otherwise the returned value may be misinterpreted as a positive boolean.
+     */
+    function verifyNative(bytes32 h, bytes32 r, bytes32 s, bytes32 qx, bytes32 qy) internal view returns (bool) {
+        (bool valid, bool supported) = _tryVerifyNative(h, r, s, qx, qy);
+        if (supported) {
+            return valid;
+        } else {
+            revert Errors.MissingPrecompile(address(0x100));
+        }
+    }
+
+    /**
+     * @dev Same as {verify}, but it will return false if the required precompile is not available.
+     */
+    function _tryVerifyNative(
+        bytes32 h,
+        bytes32 r,
+        bytes32 s,
+        bytes32 qx,
+        bytes32 qy
+    ) private view returns (bool valid, bool supported) {
+        if (!_isProperSignature(r, s) || !isValidPublicKey(qx, qy)) {
+            return (false, true); // signature is invalid, and its not because the precompile is missing
+        }
+
+        (bool success, bytes memory returndata) = address(0x100).staticcall(abi.encode(h, r, s, qx, qy));
+        return (success && returndata.length == 0x20) ? (abi.decode(returndata, (bool)), true) : (false, false);
+    }
+
+    /**
+     * @dev Same as {verify}, but only the Solidity implementation is used.
+     */
+    function verifySolidity(bytes32 h, bytes32 r, bytes32 s, bytes32 qx, bytes32 qy) internal view returns (bool) {
+        if (!_isProperSignature(r, s) || !isValidPublicKey(qx, qy)) {
+            return false;
+        }
+
+        JPoint[16] memory points = _preComputeJacobianPoints(uint256(qx), uint256(qy));
+        uint256 w = Math.invModPrime(uint256(s), N);
+        uint256 u1 = mulmod(uint256(h), w, N);
+        uint256 u2 = mulmod(uint256(r), w, N);
+        (uint256 x, ) = _jMultShamir(points, u1, u2);
+        return ((x % N) == uint256(r));
+    }
+
+    /**
+     * @dev Public key recovery
+     *
+     * @param h - hashed message
+     * @param v - signature recovery param
+     * @param r - signature half R
+     * @param s - signature half S
+     *
+     * IMPORTANT: This function disallows signatures where the `s` value is above `N/2` to prevent malleability.
+     * To flip the `s` value, compute `s = N - s` and `v = 1 - v` if (`v = 0 | 1`).
+     */
+    function recovery(bytes32 h, uint8 v, bytes32 r, bytes32 s) internal view returns (bytes32 x, bytes32 y) {
+        if (!_isProperSignature(r, s) || v > 1) {
+            return (0, 0);
+        }
+
+        uint256 p = P; // cache P on the stack
+        uint256 rx = uint256(r);
+        uint256 ry2 = addmod(mulmod(addmod(mulmod(rx, rx, p), A, p), rx, p), B, p); // weierstrass equation y² = x³ + a.x + b
+        uint256 ry = Math.modExp(ry2, P1DIV4, p); // This formula for sqrt work because P ≡ 3 (mod 4)
+        if (mulmod(ry, ry, p) != ry2) return (0, 0); // Sanity check
+        if (ry % 2 != v) ry = p - ry;
+
+        JPoint[16] memory points = _preComputeJacobianPoints(rx, ry);
+        uint256 w = Math.invModPrime(uint256(r), N);
+        uint256 u1 = mulmod(N - (uint256(h) % N), w, N);
+        uint256 u2 = mulmod(uint256(s), w, N);
+        (uint256 xU, uint256 yU) = _jMultShamir(points, u1, u2);
+        return (bytes32(xU), bytes32(yU));
+    }
+
+    /**
+     * @dev Checks if (x, y) are valid coordinates of a point on the curve.
+     * In particular this function checks that x < P and y < P.
+     */
+    function isValidPublicKey(bytes32 x, bytes32 y) internal pure returns (bool result) {
+        assembly ("memory-safe") {
+            let p := P
+            let lhs := mulmod(y, y, p) // y^2
+            let rhs := addmod(mulmod(addmod(mulmod(x, x, p), A, p), x, p), B, p) // ((x^2 + a) * x) + b = x^3 + ax + b
+            result := and(and(lt(x, p), lt(y, p)), eq(lhs, rhs)) // Should conform with the Weierstrass equation
+        }
+    }
+
+    /**
+     * @dev Checks if (r, s) is a proper signature.
+     * In particular, this checks that `s` is in the "lower-range", making the signature non-malleable.
+     */
+    function _isProperSignature(bytes32 r, bytes32 s) private pure returns (bool) {
+        return uint256(r) > 0 && uint256(r) < N && uint256(s) > 0 && uint256(s) <= HALF_N;
+    }
+
+    /**
+     * @dev Reduce from jacobian to affine coordinates
+     * @param jx - jacobian coordinate x
+     * @param jy - jacobian coordinate y
+     * @param jz - jacobian coordinate z
+     * @return ax - affine coordinate x
+     * @return ay - affine coordinate y
+     */
+    function _affineFromJacobian(uint256 jx, uint256 jy, uint256 jz) private view returns (uint256 ax, uint256 ay) {
+        if (jz == 0) return (0, 0);
+        uint256 p = P; // cache P on the stack
+        uint256 zinv = Math.invModPrime(jz, p);
+        assembly ("memory-safe") {
+            let zzinv := mulmod(zinv, zinv, p)
+            ax := mulmod(jx, zzinv, p)
+            ay := mulmod(jy, mulmod(zzinv, zinv, p), p)
+        }
+    }
+
+    /**
+     * @dev Point addition on the jacobian coordinates
+     * Reference: https://www.hyperelliptic.org/EFD/g1p/auto-shortw-jacobian.html#addition-add-1998-cmo-2
+     *
+     * Note that:
+     *
+     * - `addition-add-1998-cmo-2` doesn't support identical input points. This version is modified to use
+     * the `h` and `r` values computed by `addition-add-1998-cmo-2` to detect identical inputs, and fallback to
+     * `doubling-dbl-1998-cmo-2` if needed.
+     * - if one of the points is at infinity (i.e. `z=0`), the result is undefined.
+     */
+    function _jAdd(
+        JPoint memory p1,
+        uint256 x2,
+        uint256 y2,
+        uint256 z2
+    ) private pure returns (uint256 rx, uint256 ry, uint256 rz) {
+        assembly ("memory-safe") {
+            let p := P
+            let z1 := mload(add(p1, 0x40))
+            let zz1 := mulmod(z1, z1, p) // zz1 = z1²
+            let s1 := mulmod(mload(add(p1, 0x20)), mulmod(mulmod(z2, z2, p), z2, p), p) // s1 = y1*z2³
+            let r := addmod(mulmod(y2, mulmod(zz1, z1, p), p), sub(p, s1), p) // r = s2-s1 = y2*z1³-s1 = y2*z1³-y1*z2³
+            let u1 := mulmod(mload(p1), mulmod(z2, z2, p), p) // u1 = x1*z2²
+            let h := addmod(mulmod(x2, zz1, p), sub(p, u1), p) // h = u2-u1 = x2*z1²-u1 = x2*z1²-x1*z2²
+
+            // detect edge cases where inputs are identical
+            switch and(iszero(r), iszero(h))
+            // case 0: points are different
+            case 0 {
+                let hh := mulmod(h, h, p) // h²
+
+                // x' = r²-h³-2*u1*h²
+                rx := addmod(
+                    addmod(mulmod(r, r, p), sub(p, mulmod(h, hh, p)), p),
+                    sub(p, mulmod(2, mulmod(u1, hh, p), p)),
+                    p
+                )
+                // y' = r*(u1*h²-x')-s1*h³
+                ry := addmod(
+                    mulmod(r, addmod(mulmod(u1, hh, p), sub(p, rx), p), p),
+                    sub(p, mulmod(s1, mulmod(h, hh, p), p)),
+                    p
+                )
+                // z' = h*z1*z2
+                rz := mulmod(h, mulmod(z1, z2, p), p)
+            }
+            // case 1: points are equal
+            case 1 {
+                let x := x2
+                let y := y2
+                let z := z2
+                let yy := mulmod(y, y, p)
+                let zz := mulmod(z, z, p)
+                let m := addmod(mulmod(3, mulmod(x, x, p), p), mulmod(A, mulmod(zz, zz, p), p), p) // m = 3*x²+a*z⁴
+                let s := mulmod(4, mulmod(x, yy, p), p) // s = 4*x*y²
+
+                // x' = t = m²-2*s
+                rx := addmod(mulmod(m, m, p), sub(p, mulmod(2, s, p)), p)
+
+                // y' = m*(s-t)-8*y⁴ = m*(s-x')-8*y⁴
+                // cut the computation to avoid stack too deep
+                let rytmp1 := sub(p, mulmod(8, mulmod(yy, yy, p), p)) // -8*y⁴
+                let rytmp2 := addmod(s, sub(p, rx), p) // s-x'
+                ry := addmod(mulmod(m, rytmp2, p), rytmp1, p) // m*(s-x')-8*y⁴
+
+                // z' = 2*y*z
+                rz := mulmod(2, mulmod(y, z, p), p)
+            }
+        }
+    }
+
+    /**
+     * @dev Point doubling on the jacobian coordinates
+     * Reference: https://www.hyperelliptic.org/EFD/g1p/auto-shortw-jacobian.html#doubling-dbl-1998-cmo-2
+     */
+    function _jDouble(uint256 x, uint256 y, uint256 z) private pure returns (uint256 rx, uint256 ry, uint256 rz) {
+        assembly ("memory-safe") {
+            let p := P
+            let yy := mulmod(y, y, p)
+            let zz := mulmod(z, z, p)
+            let m := addmod(mulmod(3, mulmod(x, x, p), p), mulmod(A, mulmod(zz, zz, p), p), p) // m = 3*x²+a*z⁴
+            let s := mulmod(4, mulmod(x, yy, p), p) // s = 4*x*y²
+
+            // x' = t = m²-2*s
+            rx := addmod(mulmod(m, m, p), sub(p, mulmod(2, s, p)), p)
+            // y' = m*(s-t)-8*y⁴ = m*(s-x')-8*y⁴
+            ry := addmod(mulmod(m, addmod(s, sub(p, rx), p), p), sub(p, mulmod(8, mulmod(yy, yy, p), p)), p)
+            // z' = 2*y*z
+            rz := mulmod(2, mulmod(y, z, p), p)
+        }
+    }
+
+    /**
+     * @dev Compute G·u1 + P·u2 using the precomputed points for G and P (see {_preComputeJacobianPoints}).
+     *
+     * Uses Strauss Shamir trick for EC multiplication
+     * https://stackoverflow.com/questions/50993471/ec-scalar-multiplication-with-strauss-shamir-method
+     *
+     * We optimize this for 2 bits at a time rather than a single bit. The individual points for a single pass are
+     * precomputed. Overall this reduces the number of additions while keeping the same number of
+     * doublings
+     */
+    function _jMultShamir(
+        JPoint[16] memory points,
+        uint256 u1,
+        uint256 u2
+    ) private view returns (uint256 rx, uint256 ry) {
+        uint256 x = 0;
+        uint256 y = 0;
+        uint256 z = 0;
+        unchecked {
+            for (uint256 i = 0; i < 128; ++i) {
+                if (z > 0) {
+                    (x, y, z) = _jDouble(x, y, z);
+                    (x, y, z) = _jDouble(x, y, z);
+                }
+                // Read 2 bits of u1, and 2 bits of u2. Combining the two gives the lookup index in the table.
+                uint256 pos = ((u1 >> 252) & 0xc) | ((u2 >> 254) & 0x3);
+                // Points that have z = 0 are points at infinity. They are the additive 0 of the group
+                // - if the lookup point is a 0, we can skip it
+                // - otherwise:
+                //   - if the current point (x, y, z) is 0, we use the lookup point as our new value (0+P=P)
+                //   - if the current point (x, y, z) is not 0, both points are valid and we can use `_jAdd`
+                if (points[pos].z != 0) {
+                    if (z == 0) {
+                        (x, y, z) = (points[pos].x, points[pos].y, points[pos].z);
+                    } else {
+                        (x, y, z) = _jAdd(points[pos], x, y, z);
+                    }
+                }
+                u1 <<= 2;
+                u2 <<= 2;
+            }
+        }
+        return _affineFromJacobian(x, y, z);
+    }
+
+    /**
+     * @dev Precompute a matrice of useful jacobian points associated with a given P. This can be seen as a 4x4 matrix
+     * that contains combination of P and G (generator) up to 3 times each. See the table below:
+     *
+     * ┌────┬─────────────────────┐
+     * │  i │  0    1     2     3 │
+     * ├────┼─────────────────────┤
+     * │  0 │  0    p    2p    3p │
+     * │  4 │  g  g+p  g+2p  g+3p │
+     * │  8 │ 2g 2g+p 2g+2p 2g+3p │
+     * │ 12 │ 3g 3g+p 3g+2p 3g+3p │
+     * └────┴─────────────────────┘
+     *
+     * Note that `_jAdd` (and thus `_jAddPoint`) does not handle the case where one of the inputs is a point at
+     * infinity (z = 0). However, we know that since `N ≡ 1 mod 2` and `N ≡ 1 mod 3`, there is no point P such that
+     * 2P = 0 or 3P = 0. This guarantees that g, 2g, 3g, p, 2p, 3p are all non-zero, and that all `_jAddPoint` calls
+     * have valid inputs.
+     */
+    function _preComputeJacobianPoints(uint256 px, uint256 py) private pure returns (JPoint[16] memory points) {
+        points[0x00] = JPoint(0, 0, 0); // 0,0
+        points[0x01] = JPoint(px, py, 1); // 1,0 (p)
+        points[0x04] = JPoint(GX, GY, 1); // 0,1 (g)
+        points[0x02] = _jDoublePoint(points[0x01]); // 2,0 (2p)
+        points[0x08] = _jDoublePoint(points[0x04]); // 0,2 (2g)
+        points[0x03] = _jAddPoint(points[0x01], points[0x02]); // 3,0 (p+2p = 3p)
+        points[0x05] = _jAddPoint(points[0x01], points[0x04]); // 1,1 (p+g)
+        points[0x06] = _jAddPoint(points[0x02], points[0x04]); // 2,1 (2p+g)
+        points[0x07] = _jAddPoint(points[0x03], points[0x04]); // 3,1 (3p+g)
+        points[0x09] = _jAddPoint(points[0x01], points[0x08]); // 1,2 (p+2g)
+        points[0x0a] = _jAddPoint(points[0x02], points[0x08]); // 2,2 (2p+2g)
+        points[0x0b] = _jAddPoint(points[0x03], points[0x08]); // 3,2 (3p+2g)
+        points[0x0c] = _jAddPoint(points[0x04], points[0x08]); // 0,3 (g+2g = 3g)
+        points[0x0d] = _jAddPoint(points[0x01], points[0x0c]); // 1,3 (p+3g)
+        points[0x0e] = _jAddPoint(points[0x02], points[0x0c]); // 2,3 (2p+3g)
+        points[0x0f] = _jAddPoint(points[0x03], points[0x0c]); // 3,3 (3p+3g)
+    }
+
+    function _jAddPoint(JPoint memory p1, JPoint memory p2) private pure returns (JPoint memory) {
+        (uint256 x, uint256 y, uint256 z) = _jAdd(p1, p2.x, p2.y, p2.z);
+        return JPoint(x, y, z);
+    }
+
+    function _jDoublePoint(JPoint memory p) private pure returns (JPoint memory) {
+        (uint256 x, uint256 y, uint256 z) = _jDouble(p.x, p.y, p.z);
+        return JPoint(x, y, z);
+    }
+}
