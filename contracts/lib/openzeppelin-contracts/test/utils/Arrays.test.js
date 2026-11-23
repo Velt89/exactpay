@@ -1,1 +1,223 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKY29uc3QgeyBnZW5lcmF0b3JzIH0gPSByZXF1aXJlKCcuLi9oZWxwZXJzL3JhbmRvbScpOwpjb25zdCB7IGNhcGl0YWxpemUgfSA9IHJlcXVpcmUoJy4uLy4uL3NjcmlwdHMvaGVscGVycycpOwpjb25zdCB7IFRZUEVTIH0gPSByZXF1aXJlKCcuLi8uLi9zY3JpcHRzL2dlbmVyYXRlL3RlbXBsYXRlcy9BcnJheXMub3B0cycpOwoKLy8gU2VlIGh0dHBzOi8vZW4uY3BwcmVmZXJlbmNlLmNvbS93L2NwcC9hbGdvcml0aG0vbG93ZXJfYm91bmQKY29uc3QgbG93ZXJCb3VuZCA9IChhcnJheSwgdmFsdWUpID0+IHsKICBjb25zdCBpID0gYXJyYXkuZmluZEluZGV4KGVsZW1lbnQgPT4gdmFsdWUgPD0gZWxlbWVudCk7CiAgcmV0dXJuIGkgPT0gLTEgPyBhcnJheS5sZW5ndGggOiBpOwp9OwoKLy8gU2VlIGh0dHBzOi8vZW4uY3BwcmVmZXJlbmNlLmNvbS93L2NwcC9hbGdvcml0aG0vdXBwZXJfYm91bmQKY29uc3QgdXBwZXJCb3VuZCA9IChhcnJheSwgdmFsdWUpID0+IHsKICBjb25zdCBpID0gYXJyYXkuZmluZEluZGV4KGVsZW1lbnQgPT4gdmFsdWUgPCBlbGVtZW50KTsKICByZXR1cm4gaSA9PSAtMSA/IGFycmF5Lmxlbmd0aCA6IGk7Cn07Cgpjb25zdCBiaWdpbnRTaWduID0geCA9PiAoeCA+IDBuID8gMSA6IHggPCAwbiA/IC0xIDogMCk7CmNvbnN0IGNvbXBhcmF0b3IgPSAoYSwgYikgPT4gYmlnaW50U2lnbihldGhlcnMudG9CaWdJbnQoYSkgLSBldGhlcnMudG9CaWdJbnQoYikpOwpjb25zdCBoYXNEdXBsaWNhdGVzID0gYXJyYXkgPT4gYXJyYXkuc29tZSgodiwgaSkgPT4gYXJyYXkuaW5kZXhPZih2KSAhPSBpKTsKCmRlc2NyaWJlKCdBcnJheXMnLCBmdW5jdGlvbiAoKSB7CiAgY29uc3QgZml4dHVyZSA9IGFzeW5jICgpID0+IHsKICAgIHJldHVybiB7IG1vY2s6IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnJEFycmF5cycpIH07CiAgfTsKCiAgYmVmb3JlRWFjaChhc3luYyBmdW5jdGlvbiAoKSB7CiAgICBPYmplY3QuYXNzaWduKHRoaXMsIGF3YWl0IGxvYWRGaXh0dXJlKGZpeHR1cmUpKTsKICB9KTsKCiAgZGVzY3JpYmUoJ3NlYXJjaCcsIGZ1bmN0aW9uICgpIHsKICAgIGZvciAoY29uc3QgW3RpdGxlLCB7IGFycmF5LCB0ZXN0cyB9XSBvZiBPYmplY3QuZW50cmllcyh7CiAgICAgICdFdmVuIG51bWJlciBvZiBlbGVtZW50cyc6IHsKICAgICAgICBhcnJheTogWzExbiwgMTJuLCAxM24sIDE0biwgMTVuLCAxNm4sIDE3biwgMThuLCAxOW4sIDIwbl0sCiAgICAgICAgdGVzdHM6IHsKICAgICAgICAgICdiYXNpYyBjYXNlJzogMTZuLAogICAgICAgICAgJ2ZpcnN0IGVsZW1lbnQnOiAxMW4sCiAgICAgICAgICAnbGFzdCBlbGVtZW50JzogMjBuLAogICAgICAgICAgJ3NlYXJjaGVkIHZhbHVlIGlzIG92ZXIgdGhlIHVwcGVyIGJvdW5kYXJ5JzogMzJuLAogICAgICAgICAgJ3NlYXJjaGVkIHZhbHVlIGlzIHVuZGVyIHRoZSBsb3dlciBib3VuZGFyeSc6IDJuLAogICAgICAgIH0sCiAgICAgIH0sCiAgICAgICdPZGQgbnVtYmVyIG9mIGVsZW1lbnRzJzogewogICAgICAgIGFycmF5OiBbMTFuLCAxMm4sIDEzbiwgMTRuLCAxNW4sIDE2biwgMTduLCAxOG4sIDE5biwgMjBuLCAyMW5dLAogICAgICAgIHRlc3RzOiB7CiAgICAgICAgICAnYmFzaWMgY2FzZSc6IDE2biwKICAgICAgICAgICdmaXJzdCBlbGVtZW50JzogMTFuLAogICAgICAgICAgJ2xhc3QgZWxlbWVudCc6IDIxbiwKICAgICAgICAgICdzZWFyY2hlZCB2YWx1ZSBpcyBvdmVyIHRoZSB1cHBlciBib3VuZGFyeSc6IDMybiwKICAgICAgICAgICdzZWFyY2hlZCB2YWx1ZSBpcyB1bmRlciB0aGUgbG93ZXIgYm91bmRhcnknOiAybiwKICAgICAgICB9LAogICAgICB9LAogICAgICAnQXJyYXkgd2l0aCBnYXAnOiB7CiAgICAgICAgYXJyYXk6IFsxMW4sIDEybiwgMTNuLCAxNG4sIDE1biwgMjBuLCAyMW4sIDIybiwgMjNuLCAyNG5dLAogICAgICAgIHRlc3RzOiB7CiAgICAgICAgICAnc2VhcmNoIHZhbHVlIGluIGdhcCc6IDE3biwKICAgICAgICB9LAogICAgICB9LAogICAgICAnQXJyYXkgd2l0aCBkdXBsaWNhdGVkIGVsZW1lbnRzJzogewogICAgICAgIGFycmF5OiBbMG4sIDEwbiwgMTBuLCAxMG4sIDEwbiwgMTBuLCAxMG4sIDEwbiwgMjBuXSwKICAgICAgICB0ZXN0czogewogICAgICAgICAgJ3NlYXJjaCB2YWx1ZSBpcyBkdXBsaWNhdGVkJzogMTBuLAogICAgICAgIH0sCiAgICAgIH0sCiAgICAgICdBcnJheSB3aXRoIGR1cGxpY2F0ZWQgZmlyc3QgZWxlbWVudCc6IHsKICAgICAgICBhcnJheTogWzEwbiwgMTBuLCAxMG4sIDEwbiwgMTBuLCAxMG4sIDEwbiwgMjBuXSwKICAgICAgICB0ZXN0czogewogICAgICAgICAgJ3NlYXJjaCB2YWx1ZSBpcyBkdXBsaWNhdGVkIGZpcnN0IGVsZW1lbnQnOiAxMG4sCiAgICAgICAgfSwKICAgICAgfSwKICAgICAgJ0FycmF5IHdpdGggZHVwbGljYXRlZCBsYXN0IGVsZW1lbnQnOiB7CiAgICAgICAgYXJyYXk6IFswbiwgMTBuLCAxMG4sIDEwbiwgMTBuLCAxMG4sIDEwbiwgMTBuXSwKICAgICAgICB0ZXN0czogewogICAgICAgICAgJ3NlYXJjaCB2YWx1ZSBpcyBkdXBsaWNhdGVkIGxhc3QgZWxlbWVudCc6IDEwbiwKICAgICAgICB9LAogICAgICB9LAogICAgICAnRW1wdHkgYXJyYXknOiB7CiAgICAgICAgYXJyYXk6IFtdLAogICAgICAgIHRlc3RzOiB7CiAgICAgICAgICAnYWx3YXlzIHJldHVybnMgMCBmb3IgZW1wdHkgYXJyYXknOiAxMG4sCiAgICAgICAgfSwKICAgICAgfSwKICAgIH0pKSB7CiAgICAgIGRlc2NyaWJlKHRpdGxlLCBmdW5jdGlvbiAoKSB7CiAgICAgICAgY29uc3QgZml4dHVyZSA9IGFzeW5jICgpID0+IHsKICAgICAgICAgIHJldHVybiB7IGluc3RhbmNlOiBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJ1VpbnQyNTZBcnJheXNNb2NrJywgW2FycmF5XSkgfTsKICAgICAgICB9OwoKICAgICAgICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIE9iamVjdC5hc3NpZ24odGhpcywgYXdhaXQgbG9hZEZpeHR1cmUoZml4dHVyZSkpOwogICAgICAgIH0pOwoKICAgICAgICBmb3IgKGNvbnN0IFtuYW1lLCBpbnB1dF0gb2YgT2JqZWN0LmVudHJpZXModGVzdHMpKSB7CiAgICAgICAgICBkZXNjcmliZShuYW1lLCBmdW5jdGlvbiAoKSB7CiAgICAgICAgICAgIGl0KCdbZGVwcmVjYXRlZF0gZmluZFVwcGVyQm91bmQnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICAgICAgLy8gZmluZFVwcGVyQm91bmQgZG9lcyBub3Qgc3VwcG9ydCBkdXBsaWNhdGVkCiAgICAgICAgICAgICAgaWYgKGhhc0R1cGxpY2F0ZXMoYXJyYXkpKSB7CiAgICAgICAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5pbnN0YW5jZS5maW5kVXBwZXJCb3VuZChpbnB1dCkpLnRvLmVxdWFsKHVwcGVyQm91bmQoYXJyYXksIGlucHV0KSAtIDEpOwogICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5pbnN0YW5jZS5maW5kVXBwZXJCb3VuZChpbnB1dCkpLnRvLmVxdWFsKGxvd2VyQm91bmQoYXJyYXksIGlucHV0KSk7CiAgICAgICAgICAgICAgfQogICAgICAgICAgICB9KTsKCiAgICAgICAgICAgIGl0KCdsb3dlckJvdW5kJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLmluc3RhbmNlLmxvd2VyQm91bmQoaW5wdXQpKS50by5lcXVhbChsb3dlckJvdW5kKGFycmF5LCBpbnB1dCkpOwogICAgICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLmluc3RhbmNlLmxvd2VyQm91bmRNZW1vcnkoYXJyYXksIGlucHV0KSkudG8uZXF1YWwobG93ZXJCb3VuZChhcnJheSwgaW5wdXQpKTsKICAgICAgICAgICAgfSk7CgogICAgICAgICAgICBpdCgndXBwZXJCb3VuZCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5pbnN0YW5jZS51cHBlckJvdW5kKGlucHV0KSkudG8uZXF1YWwodXBwZXJCb3VuZChhcnJheSwgaW5wdXQpKTsKICAgICAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5pbnN0YW5jZS51cHBlckJvdW5kTWVtb3J5KGFycmF5LCBpbnB1dCkpLnRvLmVxdWFsKHVwcGVyQm91bmQoYXJyYXksIGlucHV0KSk7CiAgICAgICAgICAgIH0pOwogICAgICAgICAgfSk7CiAgICAgICAgfQogICAgICB9KTsKICAgIH0KICB9KTsKCiAgZm9yIChjb25zdCB0eXBlIG9mIFRZUEVTKSB7CiAgICBjb25zdCBlbGVtZW50cyA9IEFycmF5LmZyb20oeyBsZW5ndGg6IDEwIH0sIGdlbmVyYXRvcnNbdHlwZV0pOwoKICAgIGRlc2NyaWJlKHR5cGUsIGZ1bmN0aW9uICgpIHsKICAgICAgY29uc3QgZml4dHVyZSA9IGFzeW5jICgpID0+IHsKICAgICAgICByZXR1cm4geyBpbnN0YW5jZTogYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KGAke2NhcGl0YWxpemUodHlwZSl9QXJyYXlzTW9ja2AsIFtlbGVtZW50c10pIH07CiAgICAgIH07CgogICAgICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBPYmplY3QuYXNzaWduKHRoaXMsIGF3YWl0IGxvYWRGaXh0dXJlKGZpeHR1cmUpKTsKICAgICAgfSk7CgogICAgICBkZXNjcmliZSgnc29ydCcsIGZ1bmN0aW9uICgpIHsKICAgICAgICBmb3IgKGNvbnN0IGxlbmd0aCBvZiBbMCwgMSwgMiwgOCwgMzIsIDEyOF0pIHsKICAgICAgICAgIGRlc2NyaWJlKGAke3R5cGV9W10gb2YgbGVuZ3RoICR7bGVuZ3RofWAsIGZ1bmN0aW9uICgpIHsKICAgICAgICAgICAgYmVmb3JlRWFjaChhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICAgICAgdGhpcy5hcnJheSA9IEFycmF5LmZyb20oeyBsZW5ndGggfSwgZ2VuZXJhdG9yc1t0eXBlXSk7CiAgICAgICAgICAgIH0pOwoKICAgICAgICAgICAgYWZ0ZXJFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgICAgICBjb25zdCBleHBlY3RlZCA9IEFycmF5LmZyb20odGhpcy5hcnJheSkuc29ydChjb21wYXJhdG9yKTsKICAgICAgICAgICAgICBjb25zdCByZXZlcnNlZCA9IEFycmF5LmZyb20oZXhwZWN0ZWQpLnJldmVyc2UoKTsKICAgICAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5pbnN0YW5jZS5zb3J0KHRoaXMuYXJyYXkpKS50by5kZWVwLmVxdWFsKGV4cGVjdGVkKTsKICAgICAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5pbnN0YW5jZS5zb3J0UmV2ZXJzZSh0aGlzLmFycmF5KSkudG8uZGVlcC5lcXVhbChyZXZlcnNlZCk7CiAgICAgICAgICAgIH0pOwoKICAgICAgICAgICAgaXQoJ3NvcnQgYXJyYXknLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICAgICAgLy8gbm90aGluZyB0byBkbyBoZXJlLCBiZWZvcmVFYWNoIGFuZCBhZnRlckVhY2ggYWxyZWFkeSB0YWtlIGNhcmUgb2YgZXZlcnl0aGluZy4KICAgICAgICAgICAgfSk7CgogICAgICAgICAgICBpZiAobGVuZ3RoID4gMSkgewogICAgICAgICAgICAgIGl0KCdzb3J0IGFycmF5IGZvciBpZGVudGljYWwgZWxlbWVudHMnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICAgICAgICAvLyBkdXBsaWNhdGUgdGhlIGZpcnN0IHZhbHVlIHRvIGFsbCBlbGVtZW50cwogICAgICAgICAgICAgICAgdGhpcy5hcnJheS5maWxsKHRoaXMuYXJyYXkuYXQoMCkpOwogICAgICAgICAgICAgIH0pOwoKICAgICAgICAgICAgICBpdCgnc29ydCBhbHJlYWR5IHNvcnRlZCBhcnJheScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgICAgICAgIC8vIHByZS1zb3J0IHRoZSBlbGVtZW50cwogICAgICAgICAgICAgICAgdGhpcy5hcnJheS5zb3J0KGNvbXBhcmF0b3IpOwogICAgICAgICAgICAgIH0pOwoKICAgICAgICAgICAgICBpdCgnc29ydCByZXZlcnNlZCBhcnJheScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgICAgICAgIC8vIHByZS1zb3J0IGluIHJldmVyc2Ugb3JkZXIKICAgICAgICAgICAgICAgIHRoaXMuYXJyYXkuc29ydChjb21wYXJhdG9yKS5yZXZlcnNlKCk7CiAgICAgICAgICAgICAgfSk7CgogICAgICAgICAgICAgIGl0KCdzb3J0IGFsbW9zdCBzb3J0ZWQgYXJyYXknLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICAgICAgICAvLyBwcmUtc29ydCArIHJvdGF0ZSAobW92ZSB0aGUgbGFzdCBlbGVtZW50IHRvIHRoZSBmcm9udCkgZm9yIGFuIGFsbW9zdCBzb3J0ZWQgZWZmZWN0CiAgICAgICAgICAgICAgICB0aGlzLmFycmF5LnNvcnQoY29tcGFyYXRvcik7CiAgICAgICAgICAgICAgICB0aGlzLmFycmF5LnVuc2hpZnQodGhpcy5hcnJheS5wb3AoKSk7CiAgICAgICAgICAgICAgfSk7CiAgICAgICAgICAgIH0KICAgICAgICAgIH0pOwogICAgICAgIH0KICAgICAgfSk7CgogICAgICBkZXNjcmliZSgndW5zYWZlQWNjZXNzJywgZnVuY3Rpb24gKCkgewogICAgICAgIGRlc2NyaWJlKCdzdG9yYWdlJywgZnVuY3Rpb24gKCkgewogICAgICAgICAgZm9yIChjb25zdCBpIGluIGVsZW1lbnRzKSB7CiAgICAgICAgICAgIGl0KGB1bnNhZmVBY2Nlc3Mgd2l0aGluIGJvdW5kcyAjJHtpfWAsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5pbnN0YW5jZS51bnNhZmVBY2Nlc3MoaSkpLnRvLmVxdWFsKGVsZW1lbnRzW2ldKTsKICAgICAgICAgICAgfSk7CiAgICAgICAgICB9CgogICAgICAgICAgaXQoJ3Vuc2FmZUFjY2VzcyBvdXRzaWRlIGJvdW5kcycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMuaW5zdGFuY2UudW5zYWZlQWNjZXNzKGVsZW1lbnRzLmxlbmd0aCkpLnRvLm5vdC5iZS5yZWplY3RlZDsKICAgICAgICAgIH0pOwoKICAgICAgICAgIGl0KCd1bnNhZmVTZXRMZW5ndGggY2hhbmdlcyB0aGUgbGVuZ3RoIG9yIHRoZSBhcnJheScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgICAgY29uc3QgbmV3TGVuZ3RoID0gZ2VuZXJhdG9ycy51aW50MjU2KCk7CgogICAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5pbnN0YW5jZS5sZW5ndGgoKSkudG8uZXF1YWwoZWxlbWVudHMubGVuZ3RoKTsKICAgICAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMuaW5zdGFuY2UudW5zYWZlU2V0TGVuZ3RoKG5ld0xlbmd0aCkpLnRvLm5vdC5iZS5yZWplY3RlZDsKICAgICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMuaW5zdGFuY2UubGVuZ3RoKCkpLnRvLmVxdWFsKG5ld0xlbmd0aCk7CiAgICAgICAgICB9KTsKICAgICAgICB9KTsKCiAgICAgICAgZGVzY3JpYmUoJ21lbW9yeScsIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGNvbnN0IGZyYWdtZW50ID0gYCR1bnNhZmVNZW1vcnlBY2Nlc3MoJHt0eXBlfVtdIGFyciwgdWludDI1NiBwb3MpYDsKCiAgICAgICAgICBmb3IgKGNvbnN0IGkgaW4gZWxlbWVudHMpIHsKICAgICAgICAgICAgaXQoYHVuc2FmZU1lbW9yeUFjY2VzcyB3aXRoaW4gYm91bmRzICMke2l9YCwgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2tbZnJhZ21lbnRdKGVsZW1lbnRzLCBpKSkudG8uZXF1YWwoZWxlbWVudHNbaV0pOwogICAgICAgICAgICB9KTsKICAgICAgICAgIH0KCiAgICAgICAgICBpdCgndW5zYWZlTWVtb3J5QWNjZXNzIG91dHNpZGUgYm91bmRzJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgICBhd2FpdCBleHBlY3QodGhpcy5tb2NrW2ZyYWdtZW50XShlbGVtZW50cywgZWxlbWVudHMubGVuZ3RoKSkudG8ubm90LmJlLnJlamVjdGVkOwogICAgICAgICAgfSk7CgogICAgICAgICAgaXQoJ3Vuc2FmZU1lbW9yeUFjY2VzcyBsb29wIGFyb3VuZCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgICAgZm9yIChsZXQgaSA9IDI1MW47IGkgPCAyNTZuOyArK2kpIHsKICAgICAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrW2ZyYWdtZW50XShlbGVtZW50cywgMm4gKiogaSAtIDFuKSkudG8uZXF1YWwoQmlnSW50KGVsZW1lbnRzLmxlbmd0aCkpOwogICAgICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2tbZnJhZ21lbnRdKGVsZW1lbnRzLCAybiAqKiBpICsgMG4pKS50by5lcXVhbChlbGVtZW50c1swXSk7CiAgICAgICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9ja1tmcmFnbWVudF0oZWxlbWVudHMsIDJuICoqIGkgKyAxbikpLnRvLmVxdWFsKGVsZW1lbnRzWzFdKTsKICAgICAgICAgICAgfQogICAgICAgICAgfSk7CiAgICAgICAgfSk7CiAgICAgIH0pOwogICAgfSk7CiAgfQp9KTsK
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+const { generators } = require('../helpers/random');
+const { capitalize } = require('../../scripts/helpers');
+const { TYPES } = require('../../scripts/generate/templates/Arrays.opts');
+
+// See https://en.cppreference.com/w/cpp/algorithm/lower_bound
+const lowerBound = (array, value) => {
+  const i = array.findIndex(element => value <= element);
+  return i == -1 ? array.length : i;
+};
+
+// See https://en.cppreference.com/w/cpp/algorithm/upper_bound
+const upperBound = (array, value) => {
+  const i = array.findIndex(element => value < element);
+  return i == -1 ? array.length : i;
+};
+
+const bigintSign = x => (x > 0n ? 1 : x < 0n ? -1 : 0);
+const comparator = (a, b) => bigintSign(ethers.toBigInt(a) - ethers.toBigInt(b));
+const hasDuplicates = array => array.some((v, i) => array.indexOf(v) != i);
+
+describe('Arrays', function () {
+  const fixture = async () => {
+    return { mock: await ethers.deployContract('$Arrays') };
+  };
+
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  describe('search', function () {
+    for (const [title, { array, tests }] of Object.entries({
+      'Even number of elements': {
+        array: [11n, 12n, 13n, 14n, 15n, 16n, 17n, 18n, 19n, 20n],
+        tests: {
+          'basic case': 16n,
+          'first element': 11n,
+          'last element': 20n,
+          'searched value is over the upper boundary': 32n,
+          'searched value is under the lower boundary': 2n,
+        },
+      },
+      'Odd number of elements': {
+        array: [11n, 12n, 13n, 14n, 15n, 16n, 17n, 18n, 19n, 20n, 21n],
+        tests: {
+          'basic case': 16n,
+          'first element': 11n,
+          'last element': 21n,
+          'searched value is over the upper boundary': 32n,
+          'searched value is under the lower boundary': 2n,
+        },
+      },
+      'Array with gap': {
+        array: [11n, 12n, 13n, 14n, 15n, 20n, 21n, 22n, 23n, 24n],
+        tests: {
+          'search value in gap': 17n,
+        },
+      },
+      'Array with duplicated elements': {
+        array: [0n, 10n, 10n, 10n, 10n, 10n, 10n, 10n, 20n],
+        tests: {
+          'search value is duplicated': 10n,
+        },
+      },
+      'Array with duplicated first element': {
+        array: [10n, 10n, 10n, 10n, 10n, 10n, 10n, 20n],
+        tests: {
+          'search value is duplicated first element': 10n,
+        },
+      },
+      'Array with duplicated last element': {
+        array: [0n, 10n, 10n, 10n, 10n, 10n, 10n, 10n],
+        tests: {
+          'search value is duplicated last element': 10n,
+        },
+      },
+      'Empty array': {
+        array: [],
+        tests: {
+          'always returns 0 for empty array': 10n,
+        },
+      },
+    })) {
+      describe(title, function () {
+        const fixture = async () => {
+          return { instance: await ethers.deployContract('Uint256ArraysMock', [array]) };
+        };
+
+        beforeEach(async function () {
+          Object.assign(this, await loadFixture(fixture));
+        });
+
+        for (const [name, input] of Object.entries(tests)) {
+          describe(name, function () {
+            it('[deprecated] findUpperBound', async function () {
+              // findUpperBound does not support duplicated
+              if (hasDuplicates(array)) {
+                expect(await this.instance.findUpperBound(input)).to.equal(upperBound(array, input) - 1);
+              } else {
+                expect(await this.instance.findUpperBound(input)).to.equal(lowerBound(array, input));
+              }
+            });
+
+            it('lowerBound', async function () {
+              expect(await this.instance.lowerBound(input)).to.equal(lowerBound(array, input));
+              expect(await this.instance.lowerBoundMemory(array, input)).to.equal(lowerBound(array, input));
+            });
+
+            it('upperBound', async function () {
+              expect(await this.instance.upperBound(input)).to.equal(upperBound(array, input));
+              expect(await this.instance.upperBoundMemory(array, input)).to.equal(upperBound(array, input));
+            });
+          });
+        }
+      });
+    }
+  });
+
+  for (const type of TYPES) {
+    const elements = Array.from({ length: 10 }, generators[type]);
+
+    describe(type, function () {
+      const fixture = async () => {
+        return { instance: await ethers.deployContract(`${capitalize(type)}ArraysMock`, [elements]) };
+      };
+
+      beforeEach(async function () {
+        Object.assign(this, await loadFixture(fixture));
+      });
+
+      describe('sort', function () {
+        for (const length of [0, 1, 2, 8, 32, 128]) {
+          describe(`${type}[] of length ${length}`, function () {
+            beforeEach(async function () {
+              this.array = Array.from({ length }, generators[type]);
+            });
+
+            afterEach(async function () {
+              const expected = Array.from(this.array).sort(comparator);
+              const reversed = Array.from(expected).reverse();
+              expect(await this.instance.sort(this.array)).to.deep.equal(expected);
+              expect(await this.instance.sortReverse(this.array)).to.deep.equal(reversed);
+            });
+
+            it('sort array', async function () {
+              // nothing to do here, beforeEach and afterEach already take care of everything.
+            });
+
+            if (length > 1) {
+              it('sort array for identical elements', async function () {
+                // duplicate the first value to all elements
+                this.array.fill(this.array.at(0));
+              });
+
+              it('sort already sorted array', async function () {
+                // pre-sort the elements
+                this.array.sort(comparator);
+              });
+
+              it('sort reversed array', async function () {
+                // pre-sort in reverse order
+                this.array.sort(comparator).reverse();
+              });
+
+              it('sort almost sorted array', async function () {
+                // pre-sort + rotate (move the last element to the front) for an almost sorted effect
+                this.array.sort(comparator);
+                this.array.unshift(this.array.pop());
+              });
+            }
+          });
+        }
+      });
+
+      describe('unsafeAccess', function () {
+        describe('storage', function () {
+          for (const i in elements) {
+            it(`unsafeAccess within bounds #${i}`, async function () {
+              expect(await this.instance.unsafeAccess(i)).to.equal(elements[i]);
+            });
+          }
+
+          it('unsafeAccess outside bounds', async function () {
+            await expect(this.instance.unsafeAccess(elements.length)).to.not.be.rejected;
+          });
+
+          it('unsafeSetLength changes the length or the array', async function () {
+            const newLength = generators.uint256();
+
+            expect(await this.instance.length()).to.equal(elements.length);
+            await expect(this.instance.unsafeSetLength(newLength)).to.not.be.rejected;
+            expect(await this.instance.length()).to.equal(newLength);
+          });
+        });
+
+        describe('memory', function () {
+          const fragment = `$unsafeMemoryAccess(${type}[] arr, uint256 pos)`;
+
+          for (const i in elements) {
+            it(`unsafeMemoryAccess within bounds #${i}`, async function () {
+              expect(await this.mock[fragment](elements, i)).to.equal(elements[i]);
+            });
+          }
+
+          it('unsafeMemoryAccess outside bounds', async function () {
+            await expect(this.mock[fragment](elements, elements.length)).to.not.be.rejected;
+          });
+
+          it('unsafeMemoryAccess loop around', async function () {
+            for (let i = 251n; i < 256n; ++i) {
+              expect(await this.mock[fragment](elements, 2n ** i - 1n)).to.equal(BigInt(elements.length));
+              expect(await this.mock[fragment](elements, 2n ** i + 0n)).to.equal(elements[0]);
+              expect(await this.mock[fragment](elements, 2n ** i + 1n)).to.equal(elements[1]);
+            }
+          });
+        });
+      });
+    });
+  }
+});
