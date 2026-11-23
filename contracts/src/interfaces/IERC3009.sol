@@ -1,1 +1,18 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgXjAuOC4yNDsKCi8vLyBAbm90aWNlIEVJUC0zMDA5IChVU0RDLXN0eWxlKSBzaWduZWQgdHJhbnNmZXJzLiB0VVNEOCBvbiBBZXZ1bSBpbXBsZW1lbnRzIHRoaXMuCi8vLyAgICAgICAgIFNhbWUgaW50ZXJmYWNlIGFzIHRoZSBvbmUgaW5saW5lZCBpbiB0aGUgc3RhcnRlciBraXQncyBDaGVja291dC5zb2wuCmludGVyZmFjZSBJRVJDMzAwOSB7CiAgICBmdW5jdGlvbiByZWNlaXZlV2l0aEF1dGhvcml6YXRpb24oCiAgICAgICAgYWRkcmVzcyBmcm9tLAogICAgICAgIGFkZHJlc3MgdG8sCiAgICAgICAgdWludDI1NiB2YWx1ZSwKICAgICAgICB1aW50MjU2IHZhbGlkQWZ0ZXIsCiAgICAgICAgdWludDI1NiB2YWxpZEJlZm9yZSwKICAgICAgICBieXRlczMyIG5vbmNlLAogICAgICAgIHVpbnQ4IHYsCiAgICAgICAgYnl0ZXMzMiByLAogICAgICAgIGJ5dGVzMzIgcwogICAgKSBleHRlcm5hbDsKfQo=
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.24;
+
+/// @notice EIP-3009 (USDC-style) signed transfers. tUSD8 on Aevum implements this.
+///         Same interface as the one inlined in the starter kit's Checkout.sol.
+interface IERC3009 {
+    function receiveWithAuthorization(
+        address from,
+        address to,
+        uint256 value,
+        uint256 validAfter,
+        uint256 validBefore,
+        bytes32 nonce,
+        uint8 v,
+        bytes32 r,
+        bytes32 s
+    ) external;
+}
