@@ -1,1 +1,18 @@
-IyEvdXNyL2Jpbi9lbnYgYmFzaAoKc2V0IC1ldW8gcGlwZWZhaWwKCmV4cG9ydCBDT1ZFUkFHRT10cnVlCmV4cG9ydCBGT1VORFJZX0ZVWlpfUlVOUz0xMAoKIyBIYXJkaGF0IGNvdmVyYWdlCmhhcmRoYXQgY292ZXJhZ2UKCmlmIFsgIiR7Q0k6LSJmYWxzZSJ9IiA9PSAidHJ1ZSIgXTsgdGhlbgogICMgRm91bmRyeSBjb3ZlcmFnZQogIGZvcmdlIGNvdmVyYWdlIC0tcmVwb3J0IGxjb3YgLS1pci1taW5pbXVtCiAgIyBSZW1vdmUgemVybyBoaXRzCiAgc2VkIC1pICcvLDAvZCcgbGNvdi5pbmZvCmZpCgojIFJlcG9ydHMgYXJlIHRoZW4gdXBsb2FkZWQgdG8gQ29kZWNvdiBhdXRvbWF0aWNhbGx5IGJ5IHdvcmtmbG93LCBhbmQgbWVyZ2VkLgo=
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+export COVERAGE=true
+export FOUNDRY_FUZZ_RUNS=10
+
+# Hardhat coverage
+hardhat coverage
+
+if [ "${CI:-"false"}" == "true" ]; then
+  # Foundry coverage
+  forge coverage --report lcov --ir-minimum
+  # Remove zero hits
+  sed -i '/,0/d' lcov.info
+fi
+
+# Reports are then uploaded to Codecov automatically by workflow, and merged.
