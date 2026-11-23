@@ -1,1 +1,146 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKY29uc3QgeyBWQUxVRV9TSVpFUyB9ID0gcmVxdWlyZSgnLi4vLi4vLi4vc2NyaXB0cy9nZW5lcmF0ZS90ZW1wbGF0ZXMvQ2hlY2twb2ludHMub3B0cycpOwoKZGVzY3JpYmUoJ0NoZWNrcG9pbnRzJywgZnVuY3Rpb24gKCkgewogIGZvciAoY29uc3QgbGVuZ3RoIG9mIFZBTFVFX1NJWkVTKSB7CiAgICBkZXNjcmliZShgVHJhY2Uke2xlbmd0aH1gLCBmdW5jdGlvbiAoKSB7CiAgICAgIGNvbnN0IGZpeHR1cmUgPSBhc3luYyAoKSA9PiB7CiAgICAgICAgY29uc3QgbW9jayA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnJENoZWNrcG9pbnRzJyk7CiAgICAgICAgY29uc3QgbWV0aG9kcyA9IHsKICAgICAgICAgIGF0OiAoLi4uYXJncykgPT4gbW9jay5nZXRGdW5jdGlvbihgJGF0X0NoZWNrcG9pbnRzX1RyYWNlJHtsZW5ndGh9YCkoMCwgLi4uYXJncyksCiAgICAgICAgICBsYXRlc3Q6ICguLi5hcmdzKSA9PiBtb2NrLmdldEZ1bmN0aW9uKGAkbGF0ZXN0X0NoZWNrcG9pbnRzX1RyYWNlJHtsZW5ndGh9YCkoMCwgLi4uYXJncyksCiAgICAgICAgICBsYXRlc3RDaGVja3BvaW50OiAoLi4uYXJncykgPT4gbW9jay5nZXRGdW5jdGlvbihgJGxhdGVzdENoZWNrcG9pbnRfQ2hlY2twb2ludHNfVHJhY2Uke2xlbmd0aH1gKSgwLCAuLi5hcmdzKSwKICAgICAgICAgIGxlbmd0aDogKC4uLmFyZ3MpID0+IG1vY2suZ2V0RnVuY3Rpb24oYCRsZW5ndGhfQ2hlY2twb2ludHNfVHJhY2Uke2xlbmd0aH1gKSgwLCAuLi5hcmdzKSwKICAgICAgICAgIHB1c2g6ICguLi5hcmdzKSA9PiBtb2NrLmdldEZ1bmN0aW9uKGAkcHVzaCh1aW50MjU2LHVpbnQkezI1NiAtIGxlbmd0aH0sdWludCR7bGVuZ3RofSlgKSgwLCAuLi5hcmdzKSwKICAgICAgICAgIGxvd2VyTG9va3VwOiAoLi4uYXJncykgPT4gbW9jay5nZXRGdW5jdGlvbihgJGxvd2VyTG9va3VwKHVpbnQyNTYsdWludCR7MjU2IC0gbGVuZ3RofSlgKSgwLCAuLi5hcmdzKSwKICAgICAgICAgIHVwcGVyTG9va3VwOiAoLi4uYXJncykgPT4gbW9jay5nZXRGdW5jdGlvbihgJHVwcGVyTG9va3VwKHVpbnQyNTYsdWludCR7MjU2IC0gbGVuZ3RofSlgKSgwLCAuLi5hcmdzKSwKICAgICAgICAgIHVwcGVyTG9va3VwUmVjZW50OiAoLi4uYXJncykgPT4KICAgICAgICAgICAgbW9jay5nZXRGdW5jdGlvbihgJHVwcGVyTG9va3VwUmVjZW50KHVpbnQyNTYsdWludCR7MjU2IC0gbGVuZ3RofSlgKSgwLCAuLi5hcmdzKSwKICAgICAgICB9OwoKICAgICAgICByZXR1cm4geyBtb2NrLCBtZXRob2RzIH07CiAgICAgIH07CgogICAgICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBPYmplY3QuYXNzaWduKHRoaXMsIGF3YWl0IGxvYWRGaXh0dXJlKGZpeHR1cmUpKTsKICAgICAgfSk7CgogICAgICBkZXNjcmliZSgnd2l0aG91dCBjaGVja3BvaW50cycsIGZ1bmN0aW9uICgpIHsKICAgICAgICBpdCgnYXQgemVybyByZXZlcnRzJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgLy8gUmV2ZXJ0cyB3aXRoIGFycmF5IG91dCBvZiBib3VuZCBhY2Nlc3MsIHdoaWNoIGlzIHVuc3BlY2lmaWVkCiAgICAgICAgICBhd2FpdCBleHBlY3QodGhpcy5tZXRob2RzLmF0KDApKS50by5iZS5yZXZlcnRlZDsKICAgICAgICB9KTsKCiAgICAgICAgaXQoJ3JldHVybnMgemVybyBhcyBsYXRlc3QgdmFsdWUnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tZXRob2RzLmxhdGVzdCgpKS50by5lcXVhbCgwbik7CgogICAgICAgICAgY29uc3QgY2twdCA9IGF3YWl0IHRoaXMubWV0aG9kcy5sYXRlc3RDaGVja3BvaW50KCk7CiAgICAgICAgICBleHBlY3QoY2twdFswXSkudG8uYmUuZmFsc2U7CiAgICAgICAgICBleHBlY3QoY2twdFsxXSkudG8uZXF1YWwoMG4pOwogICAgICAgICAgZXhwZWN0KGNrcHRbMl0pLnRvLmVxdWFsKDBuKTsKICAgICAgICB9KTsKCiAgICAgICAgaXQoJ2xvb2t1cCByZXR1cm5zIDAnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tZXRob2RzLmxvd2VyTG9va3VwKDApKS50by5lcXVhbCgwbik7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tZXRob2RzLnVwcGVyTG9va3VwKDApKS50by5lcXVhbCgwbik7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tZXRob2RzLnVwcGVyTG9va3VwUmVjZW50KDApKS50by5lcXVhbCgwbik7CiAgICAgICAgfSk7CiAgICAgIH0pOwoKICAgICAgZGVzY3JpYmUoJ3dpdGggY2hlY2twb2ludHMnLCBmdW5jdGlvbiAoKSB7CiAgICAgICAgYmVmb3JlRWFjaCgncHVzaGluZyBjaGVja3BvaW50cycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIHRoaXMuY2hlY2twb2ludHMgPSBbCiAgICAgICAgICAgIHsga2V5OiAybiwgdmFsdWU6IDE3biB9LAogICAgICAgICAgICB7IGtleTogM24sIHZhbHVlOiA0Mm4gfSwKICAgICAgICAgICAgeyBrZXk6IDVuLCB2YWx1ZTogMTAxbiB9LAogICAgICAgICAgICB7IGtleTogN24sIHZhbHVlOiAyM24gfSwKICAgICAgICAgICAgeyBrZXk6IDExbiwgdmFsdWU6IDk5biB9LAogICAgICAgICAgXTsKICAgICAgICAgIGZvciAoY29uc3QgeyBrZXksIHZhbHVlIH0gb2YgdGhpcy5jaGVja3BvaW50cykgewogICAgICAgICAgICBhd2FpdCB0aGlzLm1ldGhvZHMucHVzaChrZXksIHZhbHVlKTsKICAgICAgICAgIH0KICAgICAgICB9KTsKCiAgICAgICAgaXQoJ2F0IGtleXMnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICBmb3IgKGNvbnN0IFtpbmRleCwgeyBrZXksIHZhbHVlIH1dIG9mIHRoaXMuY2hlY2twb2ludHMuZW50cmllcygpKSB7CiAgICAgICAgICAgIGNvbnN0IGF0ID0gYXdhaXQgdGhpcy5tZXRob2RzLmF0KGluZGV4KTsKICAgICAgICAgICAgZXhwZWN0KGF0Ll92YWx1ZSkudG8uZXF1YWwodmFsdWUpOwogICAgICAgICAgICBleHBlY3QoYXQuX2tleSkudG8uZXF1YWwoa2V5KTsKICAgICAgICAgIH0KICAgICAgICB9KTsKCiAgICAgICAgaXQoJ2xlbmd0aCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1ldGhvZHMubGVuZ3RoKCkpLnRvLmVxdWFsKHRoaXMuY2hlY2twb2ludHMubGVuZ3RoKTsKICAgICAgICB9KTsKCiAgICAgICAgaXQoJ3JldHVybnMgbGF0ZXN0IHZhbHVlJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgY29uc3QgbGF0ZXN0ID0gdGhpcy5jaGVja3BvaW50cy5hdCgtMSk7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tZXRob2RzLmxhdGVzdCgpKS50by5lcXVhbChsYXRlc3QudmFsdWUpOwogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubWV0aG9kcy5sYXRlc3RDaGVja3BvaW50KCkpLnRvLmRlZXAuZXF1YWwoW3RydWUsIGxhdGVzdC5rZXksIGxhdGVzdC52YWx1ZV0pOwogICAgICAgIH0pOwoKICAgICAgICBpdCgnY2Fubm90IHB1c2ggdmFsdWVzIGluIHRoZSBwYXN0JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMubWV0aG9kcy5wdXNoKHRoaXMuY2hlY2twb2ludHMuYXQoLTEpLmtleSAtIDFuLCAwbikpLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKAogICAgICAgICAgICB0aGlzLm1vY2ssCiAgICAgICAgICAgICdDaGVja3BvaW50VW5vcmRlcmVkSW5zZXJ0aW9uJywKICAgICAgICAgICk7CiAgICAgICAgfSk7CgogICAgICAgIGl0KCdjYW4gdXBkYXRlIGxhc3QgdmFsdWUnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICBjb25zdCBuZXdWYWx1ZSA9IDQybjsKCiAgICAgICAgICAvLyBjaGVjayBsZW5ndGggYmVmb3JlIHRoZSB1cGRhdGUKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1ldGhvZHMubGVuZ3RoKCkpLnRvLmVxdWFsKHRoaXMuY2hlY2twb2ludHMubGVuZ3RoKTsKCiAgICAgICAgICAvLyB1cGRhdGUgbGFzdCBrZXkKICAgICAgICAgIGF3YWl0IHRoaXMubWV0aG9kcy5wdXNoKHRoaXMuY2hlY2twb2ludHMuYXQoLTEpLmtleSwgbmV3VmFsdWUpOwogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubWV0aG9kcy5sYXRlc3QoKSkudG8uZXF1YWwobmV3VmFsdWUpOwoKICAgICAgICAgIC8vIGNoZWNrIHRoYXQgbGVuZ3RoIGRpZCBub3QgY2hhbmdlCiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tZXRob2RzLmxlbmd0aCgpKS50by5lcXVhbCh0aGlzLmNoZWNrcG9pbnRzLmxlbmd0aCk7CiAgICAgICAgfSk7CgogICAgICAgIGl0KCdsb3dlciBsb29rdXAnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICBmb3IgKGxldCBpID0gMDsgaSA8IDE0OyArK2kpIHsKICAgICAgICAgICAgY29uc3QgdmFsdWUgPSB0aGlzLmNoZWNrcG9pbnRzLmZpbmQoeCA9PiBpIDw9IHgua2V5KT8udmFsdWUgfHwgMG47CgogICAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tZXRob2RzLmxvd2VyTG9va3VwKGkpKS50by5lcXVhbCh2YWx1ZSk7CiAgICAgICAgICB9CiAgICAgICAgfSk7CgogICAgICAgIGl0KCd1cHBlciBsb29rdXAgJiB1cHBlckxvb2t1cFJlY2VudCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGZvciAobGV0IGkgPSAwOyBpIDwgMTQ7ICsraSkgewogICAgICAgICAgICBjb25zdCB2YWx1ZSA9IHRoaXMuY2hlY2twb2ludHMuZmluZExhc3QoeCA9PiBpID49IHgua2V5KT8udmFsdWUgfHwgMG47CgogICAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tZXRob2RzLnVwcGVyTG9va3VwKGkpKS50by5lcXVhbCh2YWx1ZSk7CiAgICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1ldGhvZHMudXBwZXJMb29rdXBSZWNlbnQoaSkpLnRvLmVxdWFsKHZhbHVlKTsKICAgICAgICAgIH0KICAgICAgICB9KTsKCiAgICAgICAgaXQoJ3VwcGVyTG9va3VwUmVjZW50IHdpdGggbW9yZSB0aGFuIDUgY2hlY2twb2ludHMnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICBjb25zdCBtb3JlQ2hlY2twb2ludHMgPSBbCiAgICAgICAgICAgIHsga2V5OiAxMm4sIHZhbHVlOiAyMm4gfSwKICAgICAgICAgICAgeyBrZXk6IDEzbiwgdmFsdWU6IDEzMW4gfSwKICAgICAgICAgICAgeyBrZXk6IDE3biwgdmFsdWU6IDQ1biB9LAogICAgICAgICAgICB7IGtleTogMTluLCB2YWx1ZTogMzE0NTJuIH0sCiAgICAgICAgICAgIHsga2V5OiAyMW4sIHZhbHVlOiAwbiB9LAogICAgICAgICAgXTsKICAgICAgICAgIGNvbnN0IGFsbENoZWNrcG9pbnRzID0gW10uY29uY2F0KHRoaXMuY2hlY2twb2ludHMsIG1vcmVDaGVja3BvaW50cyk7CgogICAgICAgICAgZm9yIChjb25zdCB7IGtleSwgdmFsdWUgfSBvZiBtb3JlQ2hlY2twb2ludHMpIHsKICAgICAgICAgICAgYXdhaXQgdGhpcy5tZXRob2RzLnB1c2goa2V5LCB2YWx1ZSk7CiAgICAgICAgICB9CgogICAgICAgICAgZm9yIChsZXQgaSA9IDA7IGkgPCAyNTsgKytpKSB7CiAgICAgICAgICAgIGNvbnN0IHZhbHVlID0gYWxsQ2hlY2twb2ludHMuZmluZExhc3QoeCA9PiBpID49IHgua2V5KT8udmFsdWUgfHwgMG47CiAgICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1ldGhvZHMudXBwZXJMb29rdXAoaSkpLnRvLmVxdWFsKHZhbHVlKTsKICAgICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubWV0aG9kcy51cHBlckxvb2t1cFJlY2VudChpKSkudG8uZXF1YWwodmFsdWUpOwogICAgICAgICAgfQogICAgICAgIH0pOwogICAgICB9KTsKICAgIH0pOwogIH0KfSk7Cg==
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+const { VALUE_SIZES } = require('../../../scripts/generate/templates/Checkpoints.opts');
+
+describe('Checkpoints', function () {
+  for (const length of VALUE_SIZES) {
+    describe(`Trace${length}`, function () {
+      const fixture = async () => {
+        const mock = await ethers.deployContract('$Checkpoints');
+        const methods = {
+          at: (...args) => mock.getFunction(`$at_Checkpoints_Trace${length}`)(0, ...args),
+          latest: (...args) => mock.getFunction(`$latest_Checkpoints_Trace${length}`)(0, ...args),
+          latestCheckpoint: (...args) => mock.getFunction(`$latestCheckpoint_Checkpoints_Trace${length}`)(0, ...args),
+          length: (...args) => mock.getFunction(`$length_Checkpoints_Trace${length}`)(0, ...args),
+          push: (...args) => mock.getFunction(`$push(uint256,uint${256 - length},uint${length})`)(0, ...args),
+          lowerLookup: (...args) => mock.getFunction(`$lowerLookup(uint256,uint${256 - length})`)(0, ...args),
+          upperLookup: (...args) => mock.getFunction(`$upperLookup(uint256,uint${256 - length})`)(0, ...args),
+          upperLookupRecent: (...args) =>
+            mock.getFunction(`$upperLookupRecent(uint256,uint${256 - length})`)(0, ...args),
+        };
+
+        return { mock, methods };
+      };
+
+      beforeEach(async function () {
+        Object.assign(this, await loadFixture(fixture));
+      });
+
+      describe('without checkpoints', function () {
+        it('at zero reverts', async function () {
+          // Reverts with array out of bound access, which is unspecified
+          await expect(this.methods.at(0)).to.be.reverted;
+        });
+
+        it('returns zero as latest value', async function () {
+          expect(await this.methods.latest()).to.equal(0n);
+
+          const ckpt = await this.methods.latestCheckpoint();
+          expect(ckpt[0]).to.be.false;
+          expect(ckpt[1]).to.equal(0n);
+          expect(ckpt[2]).to.equal(0n);
+        });
+
+        it('lookup returns 0', async function () {
+          expect(await this.methods.lowerLookup(0)).to.equal(0n);
+          expect(await this.methods.upperLookup(0)).to.equal(0n);
+          expect(await this.methods.upperLookupRecent(0)).to.equal(0n);
+        });
+      });
+
+      describe('with checkpoints', function () {
+        beforeEach('pushing checkpoints', async function () {
+          this.checkpoints = [
+            { key: 2n, value: 17n },
+            { key: 3n, value: 42n },
+            { key: 5n, value: 101n },
+            { key: 7n, value: 23n },
+            { key: 11n, value: 99n },
+          ];
+          for (const { key, value } of this.checkpoints) {
+            await this.methods.push(key, value);
+          }
+        });
+
+        it('at keys', async function () {
+          for (const [index, { key, value }] of this.checkpoints.entries()) {
+            const at = await this.methods.at(index);
+            expect(at._value).to.equal(value);
+            expect(at._key).to.equal(key);
+          }
+        });
+
+        it('length', async function () {
+          expect(await this.methods.length()).to.equal(this.checkpoints.length);
+        });
+
+        it('returns latest value', async function () {
+          const latest = this.checkpoints.at(-1);
+          expect(await this.methods.latest()).to.equal(latest.value);
+          expect(await this.methods.latestCheckpoint()).to.deep.equal([true, latest.key, latest.value]);
+        });
+
+        it('cannot push values in the past', async function () {
+          await expect(this.methods.push(this.checkpoints.at(-1).key - 1n, 0n)).to.be.revertedWithCustomError(
+            this.mock,
+            'CheckpointUnorderedInsertion',
+          );
+        });
+
+        it('can update last value', async function () {
+          const newValue = 42n;
+
+          // check length before the update
+          expect(await this.methods.length()).to.equal(this.checkpoints.length);
+
+          // update last key
+          await this.methods.push(this.checkpoints.at(-1).key, newValue);
+          expect(await this.methods.latest()).to.equal(newValue);
+
+          // check that length did not change
+          expect(await this.methods.length()).to.equal(this.checkpoints.length);
+        });
+
+        it('lower lookup', async function () {
+          for (let i = 0; i < 14; ++i) {
+            const value = this.checkpoints.find(x => i <= x.key)?.value || 0n;
+
+            expect(await this.methods.lowerLookup(i)).to.equal(value);
+          }
+        });
+
+        it('upper lookup & upperLookupRecent', async function () {
+          for (let i = 0; i < 14; ++i) {
+            const value = this.checkpoints.findLast(x => i >= x.key)?.value || 0n;
+
+            expect(await this.methods.upperLookup(i)).to.equal(value);
+            expect(await this.methods.upperLookupRecent(i)).to.equal(value);
+          }
+        });
+
+        it('upperLookupRecent with more than 5 checkpoints', async function () {
+          const moreCheckpoints = [
+            { key: 12n, value: 22n },
+            { key: 13n, value: 131n },
+            { key: 17n, value: 45n },
+            { key: 19n, value: 31452n },
+            { key: 21n, value: 0n },
+          ];
+          const allCheckpoints = [].concat(this.checkpoints, moreCheckpoints);
+
+          for (const { key, value } of moreCheckpoints) {
+            await this.methods.push(key, value);
+          }
+
+          for (let i = 0; i < 25; ++i) {
+            const value = allCheckpoints.findLast(x => i >= x.key)?.value || 0n;
+            expect(await this.methods.upperLookup(i)).to.equal(value);
+            expect(await this.methods.upperLookupRecent(i)).to.equal(value);
+          }
+        });
+      });
+    });
+  }
+});
