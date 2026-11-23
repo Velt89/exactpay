@@ -1,1 +1,43 @@
-IyBTZWN1cml0eSBQb2xpY3kKClNlY3VyaXR5IHZ1bG5lcmFiaWxpdGllcyBzaG91bGQgYmUgZGlzY2xvc2VkIHRvIHRoZSBwcm9qZWN0IG1haW50YWluZXJzIHRocm91Z2ggW0ltbXVuZWZpXSwgb3IgYWx0ZXJuYXRpdmVseSBieSBlbWFpbCB0byBzZWN1cml0eUBvcGVuemVwcGVsaW4uY29tLgoKW0ltbXVuZWZpXTogaHR0cHM6Ly9pbW11bmVmaS5jb20vYm91bnR5L29wZW56ZXBwZWxpbgoKIyMgQnVnIEJvdW50eQoKUmVzcG9uc2libGUgZGlzY2xvc3VyZSBvZiBzZWN1cml0eSB2dWxuZXJhYmlsaXRpZXMgaXMgcmV3YXJkZWQgdGhyb3VnaCBhIGJ1ZyBib3VudHkgcHJvZ3JhbSBvbiBbSW1tdW5lZmldLgoKVGhlcmUgaXMgYSBib251cyByZXdhcmQgZm9yIGlzc3VlcyBpbnRyb2R1Y2VkIGluIHJlbGVhc2UgY2FuZGlkYXRlcyB0aGF0IGFyZSByZXBvcnRlZCBiZWZvcmUgbWFraW5nIGl0IGludG8gYSBzdGFibGUgcmVsZWFzZS4gTGVhcm4gbW9yZSBhYm91dCByZWxlYXNlIGNhbmRpZGF0ZXMgYXQgW2BSRUxFQVNJTkcubWRgXSguL1JFTEVBU0lORy5tZCkuCgojIyBTZWN1cml0eSBQYXRjaGVzCgpTZWN1cml0eSB2dWxuZXJhYmlsaXRpZXMgd2lsbCBiZSBwYXRjaGVkIGFzIHNvb24gYXMgcmVzcG9uc2libHkgcG9zc2libGUsIGFuZCBwdWJsaXNoZWQgYXMgYW4gYWR2aXNvcnkgb24gdGhpcyByZXBvc2l0b3J5IChzZWUgW2Fkdmlzb3JpZXNdKSBhbmQgb24gdGhlIGFmZmVjdGVkIG5wbSBwYWNrYWdlcy4KClthZHZpc29yaWVzXTogaHR0cHM6Ly9naXRodWIuY29tL09wZW5aZXBwZWxpbi9vcGVuemVwcGVsaW4tY29udHJhY3RzL3NlY3VyaXR5L2Fkdmlzb3JpZXMKClByb2plY3RzIHRoYXQgYnVpbGQgb24gT3BlblplcHBlbGluIENvbnRyYWN0cyBhcmUgZW5jb3VyYWdlZCB0byBjbGVhcmx5IHN0YXRlLCBpbiB0aGVpciBzb3VyY2UgY29kZSBhbmQgd2Vic2l0ZXMsIGhvdyB0byBiZSBjb250YWN0ZWQgYWJvdXQgc2VjdXJpdHkgaXNzdWVzIGluIHRoZSBldmVudCB0aGF0IGEgZGlyZWN0IG5vdGlmaWNhdGlvbiBpcyBjb25zaWRlcmVkIG5lY2Vzc2FyeS4gV2UgcmVjb21tZW5kIGluY2x1ZGluZyBpdCBpbiB0aGUgTmF0U3BlYyBmb3IgdGhlIGNvbnRyYWN0IGFzIGAvLy8gQGN1c3RvbTpzZWN1cml0eS1jb250YWN0IHNlY3VyaXR5QGV4YW1wbGUuY29tYC4KCkFkZGl0aW9uYWxseSwgd2UgcmVjb21tZW5kIGluc3RhbGxpbmcgdGhlIGxpYnJhcnkgdGhyb3VnaCBucG0gYW5kIHNldHRpbmcgdXAgdnVsbmVyYWJpbGl0eSBhbGVydHMgc3VjaCBhcyBbRGVwZW5kYWJvdF0uCgpbRGVwZW5kYWJvdF06IGh0dHBzOi8vZG9jcy5naXRodWIuY29tL2VuL2NvZGUtc2VjdXJpdHkvc3VwcGx5LWNoYWluLXNlY3VyaXR5L3VuZGVyc3RhbmRpbmcteW91ci1zb2Z0d2FyZS1zdXBwbHktY2hhaW4vYWJvdXQtc3VwcGx5LWNoYWluLXNlY3VyaXR5I3doYXQtaXMtZGVwZW5kYWJvdAoKIyMjIFN1cHBvcnRlZCBWZXJzaW9ucwoKU2VjdXJpdHkgcGF0Y2hlcyB3aWxsIGJlIHJlbGVhc2VkIGZvciB0aGUgbGF0ZXN0IG1pbm9yIG9mIGEgZ2l2ZW4gbWFqb3IgcmVsZWFzZS4gRm9yIGV4YW1wbGUsIGlmIGFuIGlzc3VlIGlzIGZvdW5kIGluIHZlcnNpb25zID49NC42LjAgYW5kIHRoZSBsYXRlc3QgaXMgNC44LjAsIHRoZSBwYXRjaCB3aWxsIGJlIHJlbGVhc2VkIG9ubHkgaW4gdmVyc2lvbiA0LjguMS4KCk9ubHkgY3JpdGljYWwgc2V2ZXJpdHkgYnVnIGZpeGVzIHdpbGwgYmUgYmFja3BvcnRlZCB0byBwYXN0IG1ham9yIHJlbGVhc2VzLgoKfCBWZXJzaW9uIHwgQ3JpdGljYWwgc2VjdXJpdHkgZml4ZXMgfCBPdGhlciBzZWN1cml0eSBmaXhlcyB8CnwgLS0tLS0tLSB8IC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIHwgLS0tLS0tLS0tLS0tLS0tLS0tLS0gfAp8IDUueCAgICAgfCA6d2hpdGVfY2hlY2tfbWFyazogICAgICB8IDp3aGl0ZV9jaGVja19tYXJrOiAgIHwKfCA0LjkgICAgIHwgOndoaXRlX2NoZWNrX21hcms6ICAgICAgfCA6eDogICAgICAgICAgICAgICAgICB8CnwgMy40ICAgICB8IDp3aGl0ZV9jaGVja19tYXJrOiAgICAgIHwgOng6ICAgICAgICAgICAgICAgICAgfAp8IDIuNSAgICAgfCA6eDogICAgICAgICAgICAgICAgICAgICB8IDp4OiAgICAgICAgICAgICAgICAgIHwKfCA8IDIuMCAgIHwgOng6ICAgICAgICAgICAgICAgICAgICAgfCA6eDogICAgICAgICAgICAgICAgICB8CgpOb3RlIGFzIHdlbGwgdGhhdCB0aGUgU29saWRpdHkgbGFuZ3VhZ2UgaXRzZWxmIG9ubHkgZ3VhcmFudGVlcyBzZWN1cml0eSB1cGRhdGVzIGZvciB0aGUgbGF0ZXN0IHJlbGVhc2UuCgojIyBMZWdhbAoKU21hcnQgY29udHJhY3RzIGFyZSBhIG5hc2NlbnQgdGVjaG5vbG9neSBhbmQgY2FycnkgYSBoaWdoIGxldmVsIG9mIHRlY2huaWNhbCByaXNrIGFuZCB1bmNlcnRhaW50eS4gT3BlblplcHBlbGluIENvbnRyYWN0cyBpcyBtYWRlIGF2YWlsYWJsZSB1bmRlciB0aGUgTUlUIExpY2Vuc2UsIHdoaWNoIGRpc2NsYWltcyBhbGwgd2FycmFudGllcyBpbiByZWxhdGlvbiB0byB0aGUgcHJvamVjdCBhbmQgd2hpY2ggbGltaXRzIHRoZSBsaWFiaWxpdHkgb2YgdGhvc2UgdGhhdCBjb250cmlidXRlIGFuZCBtYWludGFpbiB0aGUgcHJvamVjdCwgaW5jbHVkaW5nIE9wZW5aZXBwZWxpbi4gWW91ciB1c2Ugb2YgdGhlIHByb2plY3QgaXMgYWxzbyBnb3Zlcm5lZCBieSB0aGUgdGVybXMgZm91bmQgYXQgd3d3Lm9wZW56ZXBwZWxpbi5jb20vdG9zICh0aGUgIlRlcm1zIikuIEFzIHNldCBvdXQgaW4gdGhlIFRlcm1zLCB5b3UgYXJlIHNvbGVseSByZXNwb25zaWJsZSBmb3IgYW55IHVzZSBvZiBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIGFuZCB5b3UgYXNzdW1lIGFsbCByaXNrcyBhc3NvY2lhdGVkIHdpdGggYW55IHN1Y2ggdXNlLiBUaGlzIFNlY3VyaXR5IFBvbGljeSBpbiBubyB3YXkgZXZpZGVuY2VzIG9yIHJlcHJlc2VudHMgYW4gb24tZ29pbmcgZHV0eSBieSBhbnkgY29udHJpYnV0b3IsIGluY2x1ZGluZyBPcGVuWmVwcGVsaW4sIHRvIGNvcnJlY3QgYW55IGZsYXdzIG9yIGFsZXJ0IHlvdSB0byBhbGwgb3IgYW55IG9mIHRoZSBwb3RlbnRpYWwgcmlza3Mgb2YgdXRpbGl6aW5nIHRoZSBwcm9qZWN0Lgo=
+# Security Policy
+
+Security vulnerabilities should be disclosed to the project maintainers through [Immunefi], or alternatively by email to security@openzeppelin.com.
+
+[Immunefi]: https://immunefi.com/bounty/openzeppelin
+
+## Bug Bounty
+
+Responsible disclosure of security vulnerabilities is rewarded through a bug bounty program on [Immunefi].
+
+There is a bonus reward for issues introduced in release candidates that are reported before making it into a stable release. Learn more about release candidates at [`RELEASING.md`](./RELEASING.md).
+
+## Security Patches
+
+Security vulnerabilities will be patched as soon as responsibly possible, and published as an advisory on this repository (see [advisories]) and on the affected npm packages.
+
+[advisories]: https://github.com/OpenZeppelin/openzeppelin-contracts/security/advisories
+
+Projects that build on OpenZeppelin Contracts are encouraged to clearly state, in their source code and websites, how to be contacted about security issues in the event that a direct notification is considered necessary. We recommend including it in the NatSpec for the contract as `/// @custom:security-contact security@example.com`.
+
+Additionally, we recommend installing the library through npm and setting up vulnerability alerts such as [Dependabot].
+
+[Dependabot]: https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-supply-chain-security#what-is-dependabot
+
+### Supported Versions
+
+Security patches will be released for the latest minor of a given major release. For example, if an issue is found in versions >=4.6.0 and the latest is 4.8.0, the patch will be released only in version 4.8.1.
+
+Only critical severity bug fixes will be backported to past major releases.
+
+| Version | Critical security fixes | Other security fixes |
+| ------- | ----------------------- | -------------------- |
+| 5.x     | :white_check_mark:      | :white_check_mark:   |
+| 4.9     | :white_check_mark:      | :x:                  |
+| 3.4     | :white_check_mark:      | :x:                  |
+| 2.5     | :x:                     | :x:                  |
+| < 2.0   | :x:                     | :x:                  |
+
+Note as well that the Solidity language itself only guarantees security updates for the latest release.
+
+## Legal
+
+Smart contracts are a nascent technology and carry a high level of technical risk and uncertainty. OpenZeppelin Contracts is made available under the MIT License, which disclaims all warranties in relation to the project and which limits the liability of those that contribute and maintain the project, including OpenZeppelin. Your use of the project is also governed by the terms found at www.openzeppelin.com/tos (the "Terms"). As set out in the Terms, you are solely responsible for any use of OpenZeppelin Contracts and you assume all risks associated with any such use. This Security Policy in no way evidences or represents an on-going duty by any contributor, including OpenZeppelin, to correct any flaws or alert you to all or any of the potential risks of utilizing the project.
