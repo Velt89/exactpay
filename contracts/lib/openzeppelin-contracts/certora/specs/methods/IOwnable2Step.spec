@@ -1,1 +1,7 @@
-bWV0aG9kcyB7CiAgICBmdW5jdGlvbiBvd25lcigpIGV4dGVybmFsIHJldHVybnMgKGFkZHJlc3MpIGVudmZyZWU7CiAgICBmdW5jdGlvbiBwZW5kaW5nT3duZXIoKSBleHRlcm5hbCByZXR1cm5zIChhZGRyZXNzKSBlbnZmcmVlOwogICAgZnVuY3Rpb24gdHJhbnNmZXJPd25lcnNoaXAoYWRkcmVzcykgZXh0ZXJuYWw7CiAgICBmdW5jdGlvbiBhY2NlcHRPd25lcnNoaXAoKSBleHRlcm5hbDsKICAgIGZ1bmN0aW9uIHJlbm91bmNlT3duZXJzaGlwKCkgZXh0ZXJuYWw7Cn0K
+methods {
+    function owner() external returns (address) envfree;
+    function pendingOwner() external returns (address) envfree;
+    function transferOwnership(address) external;
+    function acceptOwnership() external;
+    function renounceOwnership() external;
+}
