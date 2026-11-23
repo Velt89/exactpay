@@ -1,1 +1,18 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0lFUkMxNjV9IGZyb20gIi4uLy4uL3V0aWxzL2ludHJvc3BlY3Rpb24vSUVSQzE2NS5zb2wiOwoKY29udHJhY3QgRVJDMTY1UmV0dXJuQm9tYk1vY2sgaXMgSUVSQzE2NSB7CiAgICBmdW5jdGlvbiBzdXBwb3J0c0ludGVyZmFjZShieXRlczQgaW50ZXJmYWNlSWQpIHB1YmxpYyBwdXJlIG92ZXJyaWRlIHJldHVybnMgKGJvb2wpIHsKICAgICAgICBpZiAoaW50ZXJmYWNlSWQgPT0gdHlwZShJRVJDMTY1KS5pbnRlcmZhY2VJZCkgewogICAgICAgICAgICBhc3NlbWJseSB7CiAgICAgICAgICAgICAgICBtc3RvcmUoMCwgMSkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBhc3NlbWJseSB7CiAgICAgICAgICAgIHJldHVybigwLCAxMDE1MDApCiAgICAgICAgfQogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {IERC165} from "../../utils/introspection/IERC165.sol";
+
+contract ERC165ReturnBombMock is IERC165 {
+    function supportsInterface(bytes4 interfaceId) public pure override returns (bool) {
+        if (interfaceId == type(IERC165).interfaceId) {
+            assembly {
+                mstore(0, 1)
+            }
+        }
+        assembly {
+            return(0, 101500)
+        }
+    }
+}
