@@ -1,1 +1,167 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAoZ292ZXJuYW5jZS9leHRlbnNpb25zL0dvdmVybm9yVGltZWxvY2tDb21wb3VuZC5zb2wpCgpwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7SUdvdmVybm9yLCBHb3Zlcm5vcn0gZnJvbSAiLi4vR292ZXJub3Iuc29sIjsKaW1wb3J0IHtJQ29tcG91bmRUaW1lbG9ja30gZnJvbSAiLi4vLi4vdmVuZG9yL2NvbXBvdW5kL0lDb21wb3VuZFRpbWVsb2NrLnNvbCI7CmltcG9ydCB7QWRkcmVzc30gZnJvbSAiLi4vLi4vdXRpbHMvQWRkcmVzcy5zb2wiOwppbXBvcnQge1NhZmVDYXN0fSBmcm9tICIuLi8uLi91dGlscy9tYXRoL1NhZmVDYXN0LnNvbCI7CgovKioKICogQGRldiBFeHRlbnNpb24gb2Yge0dvdmVybm9yfSB0aGF0IGJpbmRzIHRoZSBleGVjdXRpb24gcHJvY2VzcyB0byBhIENvbXBvdW5kIFRpbWVsb2NrLiBUaGlzIGFkZHMgYSBkZWxheSwgZW5mb3JjZWQgYnkKICogdGhlIGV4dGVybmFsIHRpbWVsb2NrIHRvIGFsbCBzdWNjZXNzZnVsIHByb3Bvc2FsIChpbiBhZGRpdGlvbiB0byB0aGUgdm90aW5nIGR1cmF0aW9uKS4gVGhlIHtHb3Zlcm5vcn0gbmVlZHMgdG8gYmUKICogdGhlIGFkbWluIG9mIHRoZSB0aW1lbG9jayBmb3IgYW55IG9wZXJhdGlvbiB0byBiZSBwZXJmb3JtZWQuIEEgcHVibGljLCB1bnJlc3RyaWN0ZWQsCiAqIHtHb3Zlcm5vclRpbWVsb2NrQ29tcG91bmQtX19hY2NlcHRBZG1pbn0gaXMgYXZhaWxhYmxlIHRvIGFjY2VwdCBvd25lcnNoaXAgb2YgdGhlIHRpbWVsb2NrLgogKgogKiBVc2luZyB0aGlzIG1vZGVsIG1lYW5zIHRoZSBwcm9wb3NhbCB3aWxsIGJlIG9wZXJhdGVkIGJ5IHRoZSB7VGltZWxvY2tDb250cm9sbGVyfSBhbmQgbm90IGJ5IHRoZSB7R292ZXJub3J9LiBUaHVzLAogKiB0aGUgYXNzZXRzIGFuZCBwZXJtaXNzaW9ucyBtdXN0IGJlIGF0dGFjaGVkIHRvIHRoZSB7VGltZWxvY2tDb250cm9sbGVyfS4gQW55IGFzc2V0IHNlbnQgdG8gdGhlIHtHb3Zlcm5vcn0gd2lsbCBiZQogKiBpbmFjY2Vzc2libGUgZnJvbSBhIHByb3Bvc2FsLCB1bmxlc3MgZXhlY3V0ZWQgdmlhIHtHb3Zlcm5vci1yZWxheX0uCiAqLwphYnN0cmFjdCBjb250cmFjdCBHb3Zlcm5vclRpbWVsb2NrQ29tcG91bmQgaXMgR292ZXJub3IgewogICAgSUNvbXBvdW5kVGltZWxvY2sgcHJpdmF0ZSBfdGltZWxvY2s7CgogICAgLyoqCiAgICAgKiBAZGV2IEVtaXR0ZWQgd2hlbiB0aGUgdGltZWxvY2sgY29udHJvbGxlciB1c2VkIGZvciBwcm9wb3NhbCBleGVjdXRpb24gaXMgbW9kaWZpZWQuCiAgICAgKi8KICAgIGV2ZW50IFRpbWVsb2NrQ2hhbmdlKGFkZHJlc3Mgb2xkVGltZWxvY2ssIGFkZHJlc3MgbmV3VGltZWxvY2spOwoKICAgIC8qKgogICAgICogQGRldiBTZXQgdGhlIHRpbWVsb2NrLgogICAgICovCiAgICBjb25zdHJ1Y3RvcihJQ29tcG91bmRUaW1lbG9jayB0aW1lbG9ja0FkZHJlc3MpIHsKICAgICAgICBfdXBkYXRlVGltZWxvY2sodGltZWxvY2tBZGRyZXNzKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgT3ZlcnJpZGRlbiB2ZXJzaW9uIG9mIHRoZSB7R292ZXJub3Itc3RhdGV9IGZ1bmN0aW9uIHdpdGggYWRkZWQgc3VwcG9ydCBmb3IgdGhlIGBFeHBpcmVkYCBzdGF0ZS4KICAgICAqLwogICAgZnVuY3Rpb24gc3RhdGUodWludDI1NiBwcm9wb3NhbElkKSBwdWJsaWMgdmlldyB2aXJ0dWFsIG92ZXJyaWRlIHJldHVybnMgKFByb3Bvc2FsU3RhdGUpIHsKICAgICAgICBQcm9wb3NhbFN0YXRlIGN1cnJlbnRTdGF0ZSA9IHN1cGVyLnN0YXRlKHByb3Bvc2FsSWQpOwoKICAgICAgICByZXR1cm4KICAgICAgICAgICAgKGN1cnJlbnRTdGF0ZSA9PSBQcm9wb3NhbFN0YXRlLlF1ZXVlZCAmJgogICAgICAgICAgICAgICAgYmxvY2sudGltZXN0YW1wID49IHByb3Bvc2FsRXRhKHByb3Bvc2FsSWQpICsgX3RpbWVsb2NrLkdSQUNFX1BFUklPRCgpKQogICAgICAgICAgICAgICAgPyBQcm9wb3NhbFN0YXRlLkV4cGlyZWQKICAgICAgICAgICAgICAgIDogY3VycmVudFN0YXRlOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBQdWJsaWMgYWNjZXNzb3IgdG8gY2hlY2sgdGhlIGFkZHJlc3Mgb2YgdGhlIHRpbWVsb2NrCiAgICAgKi8KICAgIGZ1bmN0aW9uIHRpbWVsb2NrKCkgcHVibGljIHZpZXcgdmlydHVhbCByZXR1cm5zIChhZGRyZXNzKSB7CiAgICAgICAgcmV0dXJuIGFkZHJlc3MoX3RpbWVsb2NrKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgU2VlIHtJR292ZXJub3ItcHJvcG9zYWxOZWVkc1F1ZXVpbmd9LgogICAgICovCiAgICBmdW5jdGlvbiBwcm9wb3NhbE5lZWRzUXVldWluZyh1aW50MjU2KSBwdWJsaWMgdmlldyB2aXJ0dWFsIG92ZXJyaWRlIHJldHVybnMgKGJvb2wpIHsKICAgICAgICByZXR1cm4gdHJ1ZTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgRnVuY3Rpb24gdG8gcXVldWUgYSBwcm9wb3NhbCB0byB0aGUgdGltZWxvY2suCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9xdWV1ZU9wZXJhdGlvbnMoCiAgICAgICAgdWludDI1NiBwcm9wb3NhbElkLAogICAgICAgIGFkZHJlc3NbXSBtZW1vcnkgdGFyZ2V0cywKICAgICAgICB1aW50MjU2W10gbWVtb3J5IHZhbHVlcywKICAgICAgICBieXRlc1tdIG1lbW9yeSBjYWxsZGF0YXMsCiAgICAgICAgYnl0ZXMzMiAvKmRlc2NyaXB0aW9uSGFzaCovCiAgICApIGludGVybmFsIHZpcnR1YWwgb3ZlcnJpZGUgcmV0dXJucyAodWludDQ4KSB7CiAgICAgICAgdWludDQ4IGV0YVNlY29uZHMgPSBTYWZlQ2FzdC50b1VpbnQ0OChibG9jay50aW1lc3RhbXAgKyBfdGltZWxvY2suZGVsYXkoKSk7CgogICAgICAgIGZvciAodWludDI1NiBpID0gMDsgaSA8IHRhcmdldHMubGVuZ3RoOyArK2kpIHsKICAgICAgICAgICAgaWYgKAogICAgICAgICAgICAgICAgX3RpbWVsb2NrLnF1ZXVlZFRyYW5zYWN0aW9ucyhrZWNjYWsyNTYoYWJpLmVuY29kZSh0YXJnZXRzW2ldLCB2YWx1ZXNbaV0sICIiLCBjYWxsZGF0YXNbaV0sIGV0YVNlY29uZHMpKSkKICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICByZXZlcnQgR292ZXJub3JBbHJlYWR5UXVldWVkUHJvcG9zYWwocHJvcG9zYWxJZCk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgX3RpbWVsb2NrLnF1ZXVlVHJhbnNhY3Rpb24odGFyZ2V0c1tpXSwgdmFsdWVzW2ldLCAiIiwgY2FsbGRhdGFzW2ldLCBldGFTZWNvbmRzKTsKICAgICAgICB9CgogICAgICAgIHJldHVybiBldGFTZWNvbmRzOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBPdmVycmlkZGVuIHZlcnNpb24gb2YgdGhlIHtHb3Zlcm5vci1fZXhlY3V0ZU9wZXJhdGlvbnN9IGZ1bmN0aW9uIHRoYXQgcnVuIHRoZSBhbHJlYWR5IHF1ZXVlZCBwcm9wb3NhbAogICAgICogdGhyb3VnaCB0aGUgdGltZWxvY2suCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9leGVjdXRlT3BlcmF0aW9ucygKICAgICAgICB1aW50MjU2IHByb3Bvc2FsSWQsCiAgICAgICAgYWRkcmVzc1tdIG1lbW9yeSB0YXJnZXRzLAogICAgICAgIHVpbnQyNTZbXSBtZW1vcnkgdmFsdWVzLAogICAgICAgIGJ5dGVzW10gbWVtb3J5IGNhbGxkYXRhcywKICAgICAgICBieXRlczMyIC8qZGVzY3JpcHRpb25IYXNoKi8KICAgICkgaW50ZXJuYWwgdmlydHVhbCBvdmVycmlkZSB7CiAgICAgICAgdWludDI1NiBldGFTZWNvbmRzID0gcHJvcG9zYWxFdGEocHJvcG9zYWxJZCk7CiAgICAgICAgaWYgKGV0YVNlY29uZHMgPT0gMCkgewogICAgICAgICAgICByZXZlcnQgR292ZXJub3JOb3RRdWV1ZWRQcm9wb3NhbChwcm9wb3NhbElkKTsKICAgICAgICB9CiAgICAgICAgQWRkcmVzcy5zZW5kVmFsdWUocGF5YWJsZShfdGltZWxvY2spLCBtc2cudmFsdWUpOwogICAgICAgIGZvciAodWludDI1NiBpID0gMDsgaSA8IHRhcmdldHMubGVuZ3RoOyArK2kpIHsKICAgICAgICAgICAgX3RpbWVsb2NrLmV4ZWN1dGVUcmFuc2FjdGlvbih0YXJnZXRzW2ldLCB2YWx1ZXNbaV0sICIiLCBjYWxsZGF0YXNbaV0sIGV0YVNlY29uZHMpOwogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgT3ZlcnJpZGRlbiB2ZXJzaW9uIG9mIHRoZSB7R292ZXJub3ItX2NhbmNlbH0gZnVuY3Rpb24gdG8gY2FuY2VsIHRoZSB0aW1lbG9ja2VkIHByb3Bvc2FsIGlmIGl0IGhhcyBhbHJlYWR5CiAgICAgKiBiZWVuIHF1ZXVlZC4KICAgICAqLwogICAgZnVuY3Rpb24gX2NhbmNlbCgKICAgICAgICBhZGRyZXNzW10gbWVtb3J5IHRhcmdldHMsCiAgICAgICAgdWludDI1NltdIG1lbW9yeSB2YWx1ZXMsCiAgICAgICAgYnl0ZXNbXSBtZW1vcnkgY2FsbGRhdGFzLAogICAgICAgIGJ5dGVzMzIgZGVzY3JpcHRpb25IYXNoCiAgICApIGludGVybmFsIHZpcnR1YWwgb3ZlcnJpZGUgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHVpbnQyNTYgcHJvcG9zYWxJZCA9IHN1cGVyLl9jYW5jZWwodGFyZ2V0cywgdmFsdWVzLCBjYWxsZGF0YXMsIGRlc2NyaXB0aW9uSGFzaCk7CgogICAgICAgIHVpbnQyNTYgZXRhU2Vjb25kcyA9IHByb3Bvc2FsRXRhKHByb3Bvc2FsSWQpOwogICAgICAgIGlmIChldGFTZWNvbmRzID4gMCkgewogICAgICAgICAgICAvLyBkbyBleHRlcm5hbCBjYWxsIGxhdGVyCiAgICAgICAgICAgIGZvciAodWludDI1NiBpID0gMDsgaSA8IHRhcmdldHMubGVuZ3RoOyArK2kpIHsKICAgICAgICAgICAgICAgIF90aW1lbG9jay5jYW5jZWxUcmFuc2FjdGlvbih0YXJnZXRzW2ldLCB2YWx1ZXNbaV0sICIiLCBjYWxsZGF0YXNbaV0sIGV0YVNlY29uZHMpOwogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICByZXR1cm4gcHJvcG9zYWxJZDsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgQWRkcmVzcyB0aHJvdWdoIHdoaWNoIHRoZSBnb3Zlcm5vciBleGVjdXRlcyBhY3Rpb24uIEluIHRoaXMgY2FzZSwgdGhlIHRpbWVsb2NrLgogICAgICovCiAgICBmdW5jdGlvbiBfZXhlY3V0b3IoKSBpbnRlcm5hbCB2aWV3IHZpcnR1YWwgb3ZlcnJpZGUgcmV0dXJucyAoYWRkcmVzcykgewogICAgICAgIHJldHVybiBhZGRyZXNzKF90aW1lbG9jayk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IEFjY2VwdCBhZG1pbiByaWdodCBvdmVyIHRoZSB0aW1lbG9jay4KICAgICAqLwogICAgLy8gc29saGludC1kaXNhYmxlLW5leHQtbGluZSBwcml2YXRlLXZhcnMtbGVhZGluZy11bmRlcnNjb3JlCiAgICBmdW5jdGlvbiBfX2FjY2VwdEFkbWluKCkgcHVibGljIHsKICAgICAgICBfdGltZWxvY2suYWNjZXB0QWRtaW4oKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUHVibGljIGVuZHBvaW50IHRvIHVwZGF0ZSB0aGUgdW5kZXJseWluZyB0aW1lbG9jayBpbnN0YW5jZS4gUmVzdHJpY3RlZCB0byB0aGUgdGltZWxvY2sgaXRzZWxmLCBzbyB1cGRhdGVzCiAgICAgKiBtdXN0IGJlIHByb3Bvc2VkLCBzY2hlZHVsZWQsIGFuZCBleGVjdXRlZCB0aHJvdWdoIGdvdmVybmFuY2UgcHJvcG9zYWxzLgogICAgICoKICAgICAqIEZvciBzZWN1cml0eSByZWFzb25zLCB0aGUgdGltZWxvY2sgbXVzdCBiZSBoYW5kZWQgb3ZlciB0byBhbm90aGVyIGFkbWluIGJlZm9yZSBzZXR0aW5nIHVwIGEgbmV3IG9uZS4gVGhlIHR3bwogICAgICogb3BlcmF0aW9ucyAoaGFuZCBvdmVyIHRoZSB0aW1lbG9jaykgYW5kIGRvIHRoZSB1cGRhdGUgY2FuIGJlIGJhdGNoZWQgaW4gYSBzaW5nbGUgcHJvcG9zYWwuCiAgICAgKgogICAgICogTm90ZSB0aGF0IGlmIHRoZSB0aW1lbG9jayBhZG1pbiBoYXMgYmVlbiBoYW5kZWQgb3ZlciBpbiBhIHByZXZpb3VzIG9wZXJhdGlvbiwgd2UgcmVmdXNlIHVwZGF0ZXMgbWFkZSB0aHJvdWdoIHRoZQogICAgICogdGltZWxvY2sgaWYgYWRtaW4gb2YgdGhlIHRpbWVsb2NrIGhhcyBhbHJlYWR5IGJlZW4gYWNjZXB0ZWQgYW5kIHRoZSBvcGVyYXRpb24gaXMgZXhlY3V0ZWQgb3V0c2lkZSB0aGUgc2NvcGUgb2YKICAgICAqIGdvdmVybmFuY2UuCgogICAgICogQ0FVVElPTjogSXQgaXMgbm90IHJlY29tbWVuZGVkIHRvIGNoYW5nZSB0aGUgdGltZWxvY2sgd2hpbGUgdGhlcmUgYXJlIG90aGVyIHF1ZXVlZCBnb3Zlcm5hbmNlIHByb3Bvc2Fscy4KICAgICAqLwogICAgZnVuY3Rpb24gdXBkYXRlVGltZWxvY2soSUNvbXBvdW5kVGltZWxvY2sgbmV3VGltZWxvY2spIGV4dGVybmFsIHZpcnR1YWwgb25seUdvdmVybmFuY2UgewogICAgICAgIF91cGRhdGVUaW1lbG9jayhuZXdUaW1lbG9jayk7CiAgICB9CgogICAgZnVuY3Rpb24gX3VwZGF0ZVRpbWVsb2NrKElDb21wb3VuZFRpbWVsb2NrIG5ld1RpbWVsb2NrKSBwcml2YXRlIHsKICAgICAgICBlbWl0IFRpbWVsb2NrQ2hhbmdlKGFkZHJlc3MoX3RpbWVsb2NrKSwgYWRkcmVzcyhuZXdUaW1lbG9jaykpOwogICAgICAgIF90aW1lbG9jayA9IG5ld1RpbWVsb2NrOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (governance/extensions/GovernorTimelockCompound.sol)
+
+pragma solidity ^0.8.20;
+
+import {IGovernor, Governor} from "../Governor.sol";
+import {ICompoundTimelock} from "../../vendor/compound/ICompoundTimelock.sol";
+import {Address} from "../../utils/Address.sol";
+import {SafeCast} from "../../utils/math/SafeCast.sol";
+
+/**
+ * @dev Extension of {Governor} that binds the execution process to a Compound Timelock. This adds a delay, enforced by
+ * the external timelock to all successful proposal (in addition to the voting duration). The {Governor} needs to be
+ * the admin of the timelock for any operation to be performed. A public, unrestricted,
+ * {GovernorTimelockCompound-__acceptAdmin} is available to accept ownership of the timelock.
+ *
+ * Using this model means the proposal will be operated by the {TimelockController} and not by the {Governor}. Thus,
+ * the assets and permissions must be attached to the {TimelockController}. Any asset sent to the {Governor} will be
+ * inaccessible from a proposal, unless executed via {Governor-relay}.
+ */
+abstract contract GovernorTimelockCompound is Governor {
+    ICompoundTimelock private _timelock;
+
+    /**
+     * @dev Emitted when the timelock controller used for proposal execution is modified.
+     */
+    event TimelockChange(address oldTimelock, address newTimelock);
+
+    /**
+     * @dev Set the timelock.
+     */
+    constructor(ICompoundTimelock timelockAddress) {
+        _updateTimelock(timelockAddress);
+    }
+
+    /**
+     * @dev Overridden version of the {Governor-state} function with added support for the `Expired` state.
+     */
+    function state(uint256 proposalId) public view virtual override returns (ProposalState) {
+        ProposalState currentState = super.state(proposalId);
+
+        return
+            (currentState == ProposalState.Queued &&
+                block.timestamp >= proposalEta(proposalId) + _timelock.GRACE_PERIOD())
+                ? ProposalState.Expired
+                : currentState;
+    }
+
+    /**
+     * @dev Public accessor to check the address of the timelock
+     */
+    function timelock() public view virtual returns (address) {
+        return address(_timelock);
+    }
+
+    /**
+     * @dev See {IGovernor-proposalNeedsQueuing}.
+     */
+    function proposalNeedsQueuing(uint256) public view virtual override returns (bool) {
+        return true;
+    }
+
+    /**
+     * @dev Function to queue a proposal to the timelock.
+     */
+    function _queueOperations(
+        uint256 proposalId,
+        address[] memory targets,
+        uint256[] memory values,
+        bytes[] memory calldatas,
+        bytes32 /*descriptionHash*/
+    ) internal virtual override returns (uint48) {
+        uint48 etaSeconds = SafeCast.toUint48(block.timestamp + _timelock.delay());
+
+        for (uint256 i = 0; i < targets.length; ++i) {
+            if (
+                _timelock.queuedTransactions(keccak256(abi.encode(targets[i], values[i], "", calldatas[i], etaSeconds)))
+            ) {
+                revert GovernorAlreadyQueuedProposal(proposalId);
+            }
+            _timelock.queueTransaction(targets[i], values[i], "", calldatas[i], etaSeconds);
+        }
+
+        return etaSeconds;
+    }
+
+    /**
+     * @dev Overridden version of the {Governor-_executeOperations} function that run the already queued proposal
+     * through the timelock.
+     */
+    function _executeOperations(
+        uint256 proposalId,
+        address[] memory targets,
+        uint256[] memory values,
+        bytes[] memory calldatas,
+        bytes32 /*descriptionHash*/
+    ) internal virtual override {
+        uint256 etaSeconds = proposalEta(proposalId);
+        if (etaSeconds == 0) {
+            revert GovernorNotQueuedProposal(proposalId);
+        }
+        Address.sendValue(payable(_timelock), msg.value);
+        for (uint256 i = 0; i < targets.length; ++i) {
+            _timelock.executeTransaction(targets[i], values[i], "", calldatas[i], etaSeconds);
+        }
+    }
+
+    /**
+     * @dev Overridden version of the {Governor-_cancel} function to cancel the timelocked proposal if it has already
+     * been queued.
+     */
+    function _cancel(
+        address[] memory targets,
+        uint256[] memory values,
+        bytes[] memory calldatas,
+        bytes32 descriptionHash
+    ) internal virtual override returns (uint256) {
+        uint256 proposalId = super._cancel(targets, values, calldatas, descriptionHash);
+
+        uint256 etaSeconds = proposalEta(proposalId);
+        if (etaSeconds > 0) {
+            // do external call later
+            for (uint256 i = 0; i < targets.length; ++i) {
+                _timelock.cancelTransaction(targets[i], values[i], "", calldatas[i], etaSeconds);
+            }
+        }
+
+        return proposalId;
+    }
+
+    /**
+     * @dev Address through which the governor executes action. In this case, the timelock.
+     */
+    function _executor() internal view virtual override returns (address) {
+        return address(_timelock);
+    }
+
+    /**
+     * @dev Accept admin right over the timelock.
+     */
+    // solhint-disable-next-line private-vars-leading-underscore
+    function __acceptAdmin() public {
+        _timelock.acceptAdmin();
+    }
+
+    /**
+     * @dev Public endpoint to update the underlying timelock instance. Restricted to the timelock itself, so updates
+     * must be proposed, scheduled, and executed through governance proposals.
+     *
+     * For security reasons, the timelock must be handed over to another admin before setting up a new one. The two
+     * operations (hand over the timelock) and do the update can be batched in a single proposal.
+     *
+     * Note that if the timelock admin has been handed over in a previous operation, we refuse updates made through the
+     * timelock if admin of the timelock has already been accepted and the operation is executed outside the scope of
+     * governance.
+
+     * CAUTION: It is not recommended to change the timelock while there are other queued governance proposals.
+     */
+    function updateTimelock(ICompoundTimelock newTimelock) external virtual onlyGovernance {
+        _updateTimelock(newTimelock);
+    }
+
+    function _updateTimelock(ICompoundTimelock newTimelock) private {
+        emit TimelockChange(address(_timelock), address(newTimelock));
+        _timelock = newTimelock;
+    }
+}
