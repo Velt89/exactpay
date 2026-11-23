@@ -1,1 +1,4 @@
-eyBzb2xpZGl0eVBhY2thZ2UsIGRhcHBzeXMgfTogc29saWRpdHlQYWNrYWdlIHsKICBuYW1lID0gImRzLXRlc3QiOwogIHNyYyA9IC4vc3JjOwp9Cg==
+{ solidityPackage, dappsys }: solidityPackage {
+  name = "ds-test";
+  src = ./src;
+}
