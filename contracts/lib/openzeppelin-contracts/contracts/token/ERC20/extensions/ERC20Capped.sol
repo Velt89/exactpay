@@ -1,1 +1,56 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMC4wKSAodG9rZW4vRVJDMjAvZXh0ZW5zaW9ucy9FUkMyMENhcHBlZC5zb2wpCgpwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7RVJDMjB9IGZyb20gIi4uL0VSQzIwLnNvbCI7CgovKioKICogQGRldiBFeHRlbnNpb24gb2Yge0VSQzIwfSB0aGF0IGFkZHMgYSBjYXAgdG8gdGhlIHN1cHBseSBvZiB0b2tlbnMuCiAqLwphYnN0cmFjdCBjb250cmFjdCBFUkMyMENhcHBlZCBpcyBFUkMyMCB7CiAgICB1aW50MjU2IHByaXZhdGUgaW1tdXRhYmxlIF9jYXA7CgogICAgLyoqCiAgICAgKiBAZGV2IFRvdGFsIHN1cHBseSBjYXAgaGFzIGJlZW4gZXhjZWVkZWQuCiAgICAgKi8KICAgIGVycm9yIEVSQzIwRXhjZWVkZWRDYXAodWludDI1NiBpbmNyZWFzZWRTdXBwbHksIHVpbnQyNTYgY2FwKTsKCiAgICAvKioKICAgICAqIEBkZXYgVGhlIHN1cHBsaWVkIGNhcCBpcyBub3QgYSB2YWxpZCBjYXAuCiAgICAgKi8KICAgIGVycm9yIEVSQzIwSW52YWxpZENhcCh1aW50MjU2IGNhcCk7CgogICAgLyoqCiAgICAgKiBAZGV2IFNldHMgdGhlIHZhbHVlIG9mIHRoZSBgY2FwYC4gVGhpcyB2YWx1ZSBpcyBpbW11dGFibGUsIGl0IGNhbiBvbmx5IGJlCiAgICAgKiBzZXQgb25jZSBkdXJpbmcgY29uc3RydWN0aW9uLgogICAgICovCiAgICBjb25zdHJ1Y3Rvcih1aW50MjU2IGNhcF8pIHsKICAgICAgICBpZiAoY2FwXyA9PSAwKSB7CiAgICAgICAgICAgIHJldmVydCBFUkMyMEludmFsaWRDYXAoMCk7CiAgICAgICAgfQogICAgICAgIF9jYXAgPSBjYXBfOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBSZXR1cm5zIHRoZSBjYXAgb24gdGhlIHRva2VuJ3MgdG90YWwgc3VwcGx5LgogICAgICovCiAgICBmdW5jdGlvbiBjYXAoKSBwdWJsaWMgdmlldyB2aXJ0dWFsIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXR1cm4gX2NhcDsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgU2VlIHtFUkMyMC1fdXBkYXRlfS4KICAgICAqLwogICAgZnVuY3Rpb24gX3VwZGF0ZShhZGRyZXNzIGZyb20sIGFkZHJlc3MgdG8sIHVpbnQyNTYgdmFsdWUpIGludGVybmFsIHZpcnR1YWwgb3ZlcnJpZGUgewogICAgICAgIHN1cGVyLl91cGRhdGUoZnJvbSwgdG8sIHZhbHVlKTsKCiAgICAgICAgaWYgKGZyb20gPT0gYWRkcmVzcygwKSkgewogICAgICAgICAgICB1aW50MjU2IG1heFN1cHBseSA9IGNhcCgpOwogICAgICAgICAgICB1aW50MjU2IHN1cHBseSA9IHRvdGFsU3VwcGx5KCk7CiAgICAgICAgICAgIGlmIChzdXBwbHkgPiBtYXhTdXBwbHkpIHsKICAgICAgICAgICAgICAgIHJldmVydCBFUkMyMEV4Y2VlZGVkQ2FwKHN1cHBseSwgbWF4U3VwcGx5KTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.0.0) (token/ERC20/extensions/ERC20Capped.sol)
+
+pragma solidity ^0.8.20;
+
+import {ERC20} from "../ERC20.sol";
+
+/**
+ * @dev Extension of {ERC20} that adds a cap to the supply of tokens.
+ */
+abstract contract ERC20Capped is ERC20 {
+    uint256 private immutable _cap;
+
+    /**
+     * @dev Total supply cap has been exceeded.
+     */
+    error ERC20ExceededCap(uint256 increasedSupply, uint256 cap);
+
+    /**
+     * @dev The supplied cap is not a valid cap.
+     */
+    error ERC20InvalidCap(uint256 cap);
+
+    /**
+     * @dev Sets the value of the `cap`. This value is immutable, it can only be
+     * set once during construction.
+     */
+    constructor(uint256 cap_) {
+        if (cap_ == 0) {
+            revert ERC20InvalidCap(0);
+        }
+        _cap = cap_;
+    }
+
+    /**
+     * @dev Returns the cap on the token's total supply.
+     */
+    function cap() public view virtual returns (uint256) {
+        return _cap;
+    }
+
+    /**
+     * @dev See {ERC20-_update}.
+     */
+    function _update(address from, address to, uint256 value) internal virtual override {
+        super._update(from, to, value);
+
+        if (from == address(0)) {
+            uint256 maxSupply = cap();
+            uint256 supply = totalSupply();
+            if (supply > maxSupply) {
+                revert ERC20ExceededCap(supply, maxSupply);
+            }
+        }
+    }
+}
