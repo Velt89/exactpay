@@ -1,1 +1,28 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7SUVSQzIwLCBFUkMyMH0gZnJvbSAiLi4vLi4vLi4vdG9rZW4vRVJDMjAvRVJDMjAuc29sIjsKaW1wb3J0IHtFUkMyMFBlcm1pdH0gZnJvbSAiLi4vLi4vLi4vdG9rZW4vRVJDMjAvZXh0ZW5zaW9ucy9FUkMyMFBlcm1pdC5zb2wiOwppbXBvcnQge0VSQzIwVm90ZXN9IGZyb20gIi4uLy4uLy4uL3Rva2VuL0VSQzIwL2V4dGVuc2lvbnMvRVJDMjBWb3Rlcy5zb2wiOwppbXBvcnQge0VSQzIwV3JhcHBlcn0gZnJvbSAiLi4vLi4vLi4vdG9rZW4vRVJDMjAvZXh0ZW5zaW9ucy9FUkMyMFdyYXBwZXIuc29sIjsKaW1wb3J0IHtOb25jZXN9IGZyb20gIi4uLy4uLy4uL3V0aWxzL05vbmNlcy5zb2wiOwoKY29udHJhY3QgTXlUb2tlbldyYXBwZWQgaXMgRVJDMjAsIEVSQzIwUGVybWl0LCBFUkMyMFZvdGVzLCBFUkMyMFdyYXBwZXIgewogICAgY29uc3RydWN0b3IoCiAgICAgICAgSUVSQzIwIHdyYXBwZWRUb2tlbgogICAgKSBFUkMyMCgiTXlUb2tlbldyYXBwZWQiLCAiTVRLIikgRVJDMjBQZXJtaXQoIk15VG9rZW5XcmFwcGVkIikgRVJDMjBXcmFwcGVyKHdyYXBwZWRUb2tlbikge30KCiAgICAvLyBUaGUgZnVuY3Rpb25zIGJlbG93IGFyZSBvdmVycmlkZXMgcmVxdWlyZWQgYnkgU29saWRpdHkuCgogICAgZnVuY3Rpb24gZGVjaW1hbHMoKSBwdWJsaWMgdmlldyBvdmVycmlkZShFUkMyMCwgRVJDMjBXcmFwcGVyKSByZXR1cm5zICh1aW50OCkgewogICAgICAgIHJldHVybiBzdXBlci5kZWNpbWFscygpOwogICAgfQoKICAgIGZ1bmN0aW9uIF91cGRhdGUoYWRkcmVzcyBmcm9tLCBhZGRyZXNzIHRvLCB1aW50MjU2IGFtb3VudCkgaW50ZXJuYWwgb3ZlcnJpZGUoRVJDMjAsIEVSQzIwVm90ZXMpIHsKICAgICAgICBzdXBlci5fdXBkYXRlKGZyb20sIHRvLCBhbW91bnQpOwogICAgfQoKICAgIGZ1bmN0aW9uIG5vbmNlcyhhZGRyZXNzIG93bmVyKSBwdWJsaWMgdmlldyB2aXJ0dWFsIG92ZXJyaWRlKEVSQzIwUGVybWl0LCBOb25jZXMpIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXR1cm4gc3VwZXIubm9uY2VzKG93bmVyKTsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+import {IERC20, ERC20} from "../../../token/ERC20/ERC20.sol";
+import {ERC20Permit} from "../../../token/ERC20/extensions/ERC20Permit.sol";
+import {ERC20Votes} from "../../../token/ERC20/extensions/ERC20Votes.sol";
+import {ERC20Wrapper} from "../../../token/ERC20/extensions/ERC20Wrapper.sol";
+import {Nonces} from "../../../utils/Nonces.sol";
+
+contract MyTokenWrapped is ERC20, ERC20Permit, ERC20Votes, ERC20Wrapper {
+    constructor(
+        IERC20 wrappedToken
+    ) ERC20("MyTokenWrapped", "MTK") ERC20Permit("MyTokenWrapped") ERC20Wrapper(wrappedToken) {}
+
+    // The functions below are overrides required by Solidity.
+
+    function decimals() public view override(ERC20, ERC20Wrapper) returns (uint8) {
+        return super.decimals();
+    }
+
+    function _update(address from, address to, uint256 amount) internal override(ERC20, ERC20Votes) {
+        super._update(from, to, amount);
+    }
+
+    function nonces(address owner) public view virtual override(ERC20Permit, Nonces) returns (uint256) {
+        return super.nonces(owner);
+    }
+}
