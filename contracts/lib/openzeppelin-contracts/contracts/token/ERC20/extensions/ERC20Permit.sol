@@ -1,1 +1,83 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodG9rZW4vRVJDMjAvZXh0ZW5zaW9ucy9FUkMyMFBlcm1pdC5zb2wpCgpwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7SUVSQzIwUGVybWl0fSBmcm9tICIuL0lFUkMyMFBlcm1pdC5zb2wiOwppbXBvcnQge0VSQzIwfSBmcm9tICIuLi9FUkMyMC5zb2wiOwppbXBvcnQge0VDRFNBfSBmcm9tICIuLi8uLi8uLi91dGlscy9jcnlwdG9ncmFwaHkvRUNEU0Euc29sIjsKaW1wb3J0IHtFSVA3MTJ9IGZyb20gIi4uLy4uLy4uL3V0aWxzL2NyeXB0b2dyYXBoeS9FSVA3MTIuc29sIjsKaW1wb3J0IHtOb25jZXN9IGZyb20gIi4uLy4uLy4uL3V0aWxzL05vbmNlcy5zb2wiOwoKLyoqCiAqIEBkZXYgSW1wbGVtZW50YXRpb24gb2YgdGhlIEVSQy0yMCBQZXJtaXQgZXh0ZW5zaW9uIGFsbG93aW5nIGFwcHJvdmFscyB0byBiZSBtYWRlIHZpYSBzaWduYXR1cmVzLCBhcyBkZWZpbmVkIGluCiAqIGh0dHBzOi8vZWlwcy5ldGhlcmV1bS5vcmcvRUlQUy9laXAtMjYxMltFUkMtMjYxMl0uCiAqCiAqIEFkZHMgdGhlIHtwZXJtaXR9IG1ldGhvZCwgd2hpY2ggY2FuIGJlIHVzZWQgdG8gY2hhbmdlIGFuIGFjY291bnQncyBFUkMtMjAgYWxsb3dhbmNlIChzZWUge0lFUkMyMC1hbGxvd2FuY2V9KSBieQogKiBwcmVzZW50aW5nIGEgbWVzc2FnZSBzaWduZWQgYnkgdGhlIGFjY291bnQuIEJ5IG5vdCByZWx5aW5nIG9uIGB7SUVSQzIwLWFwcHJvdmV9YCwgdGhlIHRva2VuIGhvbGRlciBhY2NvdW50IGRvZXNuJ3QKICogbmVlZCB0byBzZW5kIGEgdHJhbnNhY3Rpb24sIGFuZCB0aHVzIGlzIG5vdCByZXF1aXJlZCB0byBob2xkIEV0aGVyIGF0IGFsbC4KICovCmFic3RyYWN0IGNvbnRyYWN0IEVSQzIwUGVybWl0IGlzIEVSQzIwLCBJRVJDMjBQZXJtaXQsIEVJUDcxMiwgTm9uY2VzIHsKICAgIGJ5dGVzMzIgcHJpdmF0ZSBjb25zdGFudCBQRVJNSVRfVFlQRUhBU0ggPQogICAgICAgIGtlY2NhazI1NigiUGVybWl0KGFkZHJlc3Mgb3duZXIsYWRkcmVzcyBzcGVuZGVyLHVpbnQyNTYgdmFsdWUsdWludDI1NiBub25jZSx1aW50MjU2IGRlYWRsaW5lKSIpOwoKICAgIC8qKgogICAgICogQGRldiBQZXJtaXQgZGVhZGxpbmUgaGFzIGV4cGlyZWQuCiAgICAgKi8KICAgIGVycm9yIEVSQzI2MTJFeHBpcmVkU2lnbmF0dXJlKHVpbnQyNTYgZGVhZGxpbmUpOwoKICAgIC8qKgogICAgICogQGRldiBNaXNtYXRjaGVkIHNpZ25hdHVyZS4KICAgICAqLwogICAgZXJyb3IgRVJDMjYxMkludmFsaWRTaWduZXIoYWRkcmVzcyBzaWduZXIsIGFkZHJlc3Mgb3duZXIpOwoKICAgIC8qKgogICAgICogQGRldiBJbml0aWFsaXplcyB0aGUge0VJUDcxMn0gZG9tYWluIHNlcGFyYXRvciB1c2luZyB0aGUgYG5hbWVgIHBhcmFtZXRlciwgYW5kIHNldHRpbmcgYHZlcnNpb25gIHRvIGAiMSJgLgogICAgICoKICAgICAqIEl0J3MgYSBnb29kIGlkZWEgdG8gdXNlIHRoZSBzYW1lIGBuYW1lYCB0aGF0IGlzIGRlZmluZWQgYXMgdGhlIEVSQy0yMCB0b2tlbiBuYW1lLgogICAgICovCiAgICBjb25zdHJ1Y3RvcihzdHJpbmcgbWVtb3J5IG5hbWUpIEVJUDcxMihuYW1lLCAiMSIpIHt9CgogICAgLyoqCiAgICAgKiBAaW5oZXJpdGRvYyBJRVJDMjBQZXJtaXQKICAgICAqLwogICAgZnVuY3Rpb24gcGVybWl0KAogICAgICAgIGFkZHJlc3Mgb3duZXIsCiAgICAgICAgYWRkcmVzcyBzcGVuZGVyLAogICAgICAgIHVpbnQyNTYgdmFsdWUsCiAgICAgICAgdWludDI1NiBkZWFkbGluZSwKICAgICAgICB1aW50OCB2LAogICAgICAgIGJ5dGVzMzIgciwKICAgICAgICBieXRlczMyIHMKICAgICkgcHVibGljIHZpcnR1YWwgewogICAgICAgIGlmIChibG9jay50aW1lc3RhbXAgPiBkZWFkbGluZSkgewogICAgICAgICAgICByZXZlcnQgRVJDMjYxMkV4cGlyZWRTaWduYXR1cmUoZGVhZGxpbmUpOwogICAgICAgIH0KCiAgICAgICAgYnl0ZXMzMiBzdHJ1Y3RIYXNoID0ga2VjY2FrMjU2KGFiaS5lbmNvZGUoUEVSTUlUX1RZUEVIQVNILCBvd25lciwgc3BlbmRlciwgdmFsdWUsIF91c2VOb25jZShvd25lciksIGRlYWRsaW5lKSk7CgogICAgICAgIGJ5dGVzMzIgaGFzaCA9IF9oYXNoVHlwZWREYXRhVjQoc3RydWN0SGFzaCk7CgogICAgICAgIGFkZHJlc3Mgc2lnbmVyID0gRUNEU0EucmVjb3ZlcihoYXNoLCB2LCByLCBzKTsKICAgICAgICBpZiAoc2lnbmVyICE9IG93bmVyKSB7CiAgICAgICAgICAgIHJldmVydCBFUkMyNjEySW52YWxpZFNpZ25lcihzaWduZXIsIG93bmVyKTsKICAgICAgICB9CgogICAgICAgIF9hcHByb3ZlKG93bmVyLCBzcGVuZGVyLCB2YWx1ZSk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAaW5oZXJpdGRvYyBJRVJDMjBQZXJtaXQKICAgICAqLwogICAgZnVuY3Rpb24gbm9uY2VzKGFkZHJlc3Mgb3duZXIpIHB1YmxpYyB2aWV3IHZpcnR1YWwgb3ZlcnJpZGUoSUVSQzIwUGVybWl0LCBOb25jZXMpIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXR1cm4gc3VwZXIubm9uY2VzKG93bmVyKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBpbmhlcml0ZG9jIElFUkMyMFBlcm1pdAogICAgICovCiAgICAvLyBzb2xoaW50LWRpc2FibGUtbmV4dC1saW5lIGZ1bmMtbmFtZS1taXhlZGNhc2UKICAgIGZ1bmN0aW9uIERPTUFJTl9TRVBBUkFUT1IoKSBleHRlcm5hbCB2aWV3IHZpcnR1YWwgcmV0dXJucyAoYnl0ZXMzMikgewogICAgICAgIHJldHVybiBfZG9tYWluU2VwYXJhdG9yVjQoKTsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (token/ERC20/extensions/ERC20Permit.sol)
+
+pragma solidity ^0.8.20;
+
+import {IERC20Permit} from "./IERC20Permit.sol";
+import {ERC20} from "../ERC20.sol";
+import {ECDSA} from "../../../utils/cryptography/ECDSA.sol";
+import {EIP712} from "../../../utils/cryptography/EIP712.sol";
+import {Nonces} from "../../../utils/Nonces.sol";
+
+/**
+ * @dev Implementation of the ERC-20 Permit extension allowing approvals to be made via signatures, as defined in
+ * https://eips.ethereum.org/EIPS/eip-2612[ERC-2612].
+ *
+ * Adds the {permit} method, which can be used to change an account's ERC-20 allowance (see {IERC20-allowance}) by
+ * presenting a message signed by the account. By not relying on `{IERC20-approve}`, the token holder account doesn't
+ * need to send a transaction, and thus is not required to hold Ether at all.
+ */
+abstract contract ERC20Permit is ERC20, IERC20Permit, EIP712, Nonces {
+    bytes32 private constant PERMIT_TYPEHASH =
+        keccak256("Permit(address owner,address spender,uint256 value,uint256 nonce,uint256 deadline)");
+
+    /**
+     * @dev Permit deadline has expired.
+     */
+    error ERC2612ExpiredSignature(uint256 deadline);
+
+    /**
+     * @dev Mismatched signature.
+     */
+    error ERC2612InvalidSigner(address signer, address owner);
+
+    /**
+     * @dev Initializes the {EIP712} domain separator using the `name` parameter, and setting `version` to `"1"`.
+     *
+     * It's a good idea to use the same `name` that is defined as the ERC-20 token name.
+     */
+    constructor(string memory name) EIP712(name, "1") {}
+
+    /**
+     * @inheritdoc IERC20Permit
+     */
+    function permit(
+        address owner,
+        address spender,
+        uint256 value,
+        uint256 deadline,
+        uint8 v,
+        bytes32 r,
+        bytes32 s
+    ) public virtual {
+        if (block.timestamp > deadline) {
+            revert ERC2612ExpiredSignature(deadline);
+        }
+
+        bytes32 structHash = keccak256(abi.encode(PERMIT_TYPEHASH, owner, spender, value, _useNonce(owner), deadline));
+
+        bytes32 hash = _hashTypedDataV4(structHash);
+
+        address signer = ECDSA.recover(hash, v, r, s);
+        if (signer != owner) {
+            revert ERC2612InvalidSigner(signer, owner);
+        }
+
+        _approve(owner, spender, value);
+    }
+
+    /**
+     * @inheritdoc IERC20Permit
+     */
+    function nonces(address owner) public view virtual override(IERC20Permit, Nonces) returns (uint256) {
+        return super.nonces(owner);
+    }
+
+    /**
+     * @inheritdoc IERC20Permit
+     */
+    // solhint-disable-next-line func-name-mixedcase
+    function DOMAIN_SEPARATOR() external view virtual returns (bytes32) {
+        return _domainSeparatorV4();
+    }
+}
