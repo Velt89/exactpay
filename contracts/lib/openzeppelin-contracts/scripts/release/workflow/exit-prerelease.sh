@@ -1,1 +1,8 @@
-IyEvdXNyL2Jpbi9lbnYgYmFzaAoKc2V0IC1ldW8gcGlwZWZhaWwKCm5weCBjaGFuZ2VzZXQgcHJlIGV4aXQgcmMKZ2l0IGFkZCAuCmdpdCBjb21taXQgLW0gIkV4aXQgcmVsZWFzZSBjYW5kaWRhdGUiCmdpdCBwdXNoIG9yaWdpbgo=
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+npx changeset pre exit rc
+git add .
+git commit -m "Exit release candidate"
+git push origin
