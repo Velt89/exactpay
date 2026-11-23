@@ -1,1 +1,8 @@
-bWV0aG9kcyB7CiAgICBmdW5jdGlvbiBERUZBVUxUX0FETUlOX1JPTEUoKSBleHRlcm5hbCByZXR1cm5zIChieXRlczMyKSBlbnZmcmVlOwogICAgZnVuY3Rpb24gaGFzUm9sZShieXRlczMyLCBhZGRyZXNzKSBleHRlcm5hbCByZXR1cm5zKGJvb2wpIGVudmZyZWU7CiAgICBmdW5jdGlvbiBnZXRSb2xlQWRtaW4oYnl0ZXMzMikgZXh0ZXJuYWwgcmV0dXJucyhieXRlczMyKSBlbnZmcmVlOwogICAgZnVuY3Rpb24gZ3JhbnRSb2xlKGJ5dGVzMzIsIGFkZHJlc3MpIGV4dGVybmFsOwogICAgZnVuY3Rpb24gcmV2b2tlUm9sZShieXRlczMyLCBhZGRyZXNzKSBleHRlcm5hbDsKICAgIGZ1bmN0aW9uIHJlbm91bmNlUm9sZShieXRlczMyLCBhZGRyZXNzKSBleHRlcm5hbDsKfQo=
+methods {
+    function DEFAULT_ADMIN_ROLE() external returns (bytes32) envfree;
+    function hasRole(bytes32, address) external returns(bool) envfree;
+    function getRoleAdmin(bytes32) external returns(bytes32) envfree;
+    function grantRole(bytes32, address) external;
+    function revokeRole(bytes32, address) external;
+    function renounceRole(bytes32, address) external;
+}
