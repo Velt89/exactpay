@@ -1,1 +1,176 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodG9rZW4vRVJDNzIxL2V4dGVuc2lvbnMvRVJDNzIxQ29uc2VjdXRpdmUuc29sKQoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0VSQzcyMX0gZnJvbSAiLi4vRVJDNzIxLnNvbCI7CmltcG9ydCB7SUVSQzIzMDl9IGZyb20gIi4uLy4uLy4uL2ludGVyZmFjZXMvSUVSQzIzMDkuc29sIjsKaW1wb3J0IHtCaXRNYXBzfSBmcm9tICIuLi8uLi8uLi91dGlscy9zdHJ1Y3RzL0JpdE1hcHMuc29sIjsKaW1wb3J0IHtDaGVja3BvaW50c30gZnJvbSAiLi4vLi4vLi4vdXRpbHMvc3RydWN0cy9DaGVja3BvaW50cy5zb2wiOwoKLyoqCiAqIEBkZXYgSW1wbGVtZW50YXRpb24gb2YgdGhlIEVSQy0yMzA5ICJDb25zZWN1dGl2ZSBUcmFuc2ZlciBFeHRlbnNpb24iIGFzIGRlZmluZWQgaW4KICogaHR0cHM6Ly9laXBzLmV0aGVyZXVtLm9yZy9FSVBTL2VpcC0yMzA5W0VSQy0yMzA5XS4KICoKICogVGhpcyBleHRlbnNpb24gYWxsb3dzIHRoZSBtaW50aW5nIG9mIGxhcmdlIGJhdGNoZXMgb2YgdG9rZW5zLCBkdXJpbmcgY29udHJhY3QgY29uc3RydWN0aW9uIG9ubHkuIEZvciB1cGdyYWRlYWJsZQogKiBjb250cmFjdHMgdGhpcyBpbXBsaWVzIHRoYXQgYmF0Y2ggbWludGluZyBpcyBvbmx5IGF2YWlsYWJsZSBkdXJpbmcgcHJveHkgZGVwbG95bWVudCwgYW5kIG5vdCBpbiBzdWJzZXF1ZW50IHVwZ3JhZGVzLgogKiBUaGVzZSBiYXRjaGVzIGFyZSBsaW1pdGVkIHRvIDUwMDAgdG9rZW5zIGF0IGEgdGltZSBieSBkZWZhdWx0IHRvIGFjY29tbW9kYXRlIG9mZi1jaGFpbiBpbmRleGVycy4KICoKICogVXNpbmcgdGhpcyBleHRlbnNpb24gcmVtb3ZlcyB0aGUgYWJpbGl0eSB0byBtaW50IHNpbmdsZSB0b2tlbnMgZHVyaW5nIGNvbnRyYWN0IGNvbnN0cnVjdGlvbi4gVGhpcyBhYmlsaXR5IGlzCiAqIHJlZ2FpbmVkIGFmdGVyIGNvbnN0cnVjdGlvbi4gRHVyaW5nIGNvbnN0cnVjdGlvbiwgb25seSBiYXRjaCBtaW50aW5nIGlzIGFsbG93ZWQuCiAqCiAqIElNUE9SVEFOVDogVGhpcyBleHRlbnNpb24gZG9lcyBub3QgY2FsbCB0aGUge191cGRhdGV9IGZ1bmN0aW9uIGZvciB0b2tlbnMgbWludGVkIGluIGJhdGNoLiBBbnkgbG9naWMgYWRkZWQgdG8gdGhpcwogKiBmdW5jdGlvbiB0aHJvdWdoIG92ZXJyaWRlcyB3aWxsIG5vdCBiZSB0cmlnZ2VyZWQgd2hlbiB0b2tlbiBhcmUgbWludGVkIGluIGJhdGNoLiBZb3UgbWF5IHdhbnQgdG8gYWxzbyBvdmVycmlkZQogKiB7X2luY3JlYXNlQmFsYW5jZX0gb3Ige19taW50Q29uc2VjdXRpdmV9IHRvIGFjY291bnQgZm9yIHRoZXNlIG1pbnRzLgogKgogKiBJTVBPUlRBTlQ6IFdoZW4gb3ZlcnJpZGluZyB7X21pbnRDb25zZWN1dGl2ZX0sIGJlIGNhcmVmdWwgYWJvdXQgY2FsbCBvcmRlcmluZy4ge293bmVyT2Z9IG1heSByZXR1cm4gaW52YWxpZAogKiB2YWx1ZXMgZHVyaW5nIHRoZSB7X21pbnRDb25zZWN1dGl2ZX0gZXhlY3V0aW9uIGlmIHRoZSBzdXBlciBjYWxsIGlzIG5vdCBjYWxsZWQgZmlyc3QuIFRvIGJlIHNhZmUsIGV4ZWN1dGUgdGhlCiAqIHN1cGVyIGNhbGwgYmVmb3JlIHlvdXIgY3VzdG9tIGxvZ2ljLgogKi8KYWJzdHJhY3QgY29udHJhY3QgRVJDNzIxQ29uc2VjdXRpdmUgaXMgSUVSQzIzMDksIEVSQzcyMSB7CiAgICB1c2luZyBCaXRNYXBzIGZvciBCaXRNYXBzLkJpdE1hcDsKICAgIHVzaW5nIENoZWNrcG9pbnRzIGZvciBDaGVja3BvaW50cy5UcmFjZTE2MDsKCiAgICBDaGVja3BvaW50cy5UcmFjZTE2MCBwcml2YXRlIF9zZXF1ZW50aWFsT3duZXJzaGlwOwogICAgQml0TWFwcy5CaXRNYXAgcHJpdmF0ZSBfc2VxdWVudGlhbEJ1cm47CgogICAgLyoqCiAgICAgKiBAZGV2IEJhdGNoIG1pbnQgaXMgcmVzdHJpY3RlZCB0byB0aGUgY29uc3RydWN0b3IuCiAgICAgKiBBbnkgYmF0Y2ggbWludCBub3QgZW1pdHRpbmcgdGhlIHtJRVJDNzIxLVRyYW5zZmVyfSBldmVudCBvdXRzaWRlIG9mIHRoZSBjb25zdHJ1Y3RvcgogICAgICogaXMgbm9uIEVSQy03MjEgY29tcGxpYW50LgogICAgICovCiAgICBlcnJvciBFUkM3MjFGb3JiaWRkZW5CYXRjaE1pbnQoKTsKCiAgICAvKioKICAgICAqIEBkZXYgRXhjZWVkcyB0aGUgbWF4IGFtb3VudCBvZiBtaW50cyBwZXIgYmF0Y2guCiAgICAgKi8KICAgIGVycm9yIEVSQzcyMUV4Y2VlZGVkTWF4QmF0Y2hNaW50KHVpbnQyNTYgYmF0Y2hTaXplLCB1aW50MjU2IG1heEJhdGNoKTsKCiAgICAvKioKICAgICAqIEBkZXYgSW5kaXZpZHVhbCBtaW50aW5nIGlzIG5vdCBhbGxvd2VkLgogICAgICovCiAgICBlcnJvciBFUkM3MjFGb3JiaWRkZW5NaW50KCk7CgogICAgLyoqCiAgICAgKiBAZGV2IEJhdGNoIGJ1cm4gaXMgbm90IHN1cHBvcnRlZC4KICAgICAqLwogICAgZXJyb3IgRVJDNzIxRm9yYmlkZGVuQmF0Y2hCdXJuKCk7CgogICAgLyoqCiAgICAgKiBAZGV2IE1heGltdW0gc2l6ZSBvZiBhIGJhdGNoIG9mIGNvbnNlY3V0aXZlIHRva2Vucy4gVGhpcyBpcyBkZXNpZ25lZCB0byBsaW1pdCBzdHJlc3Mgb24gb2ZmLWNoYWluIGluZGV4aW5nCiAgICAgKiBzZXJ2aWNlcyB0aGF0IGhhdmUgdG8gcmVjb3JkIG9uZSBlbnRyeSBwZXIgdG9rZW4sIGFuZCBoYXZlIHByb3RlY3Rpb25zIGFnYWluc3QgInVucmVhc29uYWJseSBsYXJnZSIgYmF0Y2hlcyBvZgogICAgICogdG9rZW5zLgogICAgICoKICAgICAqIE5PVEU6IE92ZXJyaWRpbmcgdGhlIGRlZmF1bHQgdmFsdWUgb2YgNTAwMCB3aWxsIG5vdCBjYXVzZSBvbi1jaGFpbiBpc3N1ZXMsIGJ1dCBtYXkgcmVzdWx0IGluIHRoZSBhc3NldCBub3QgYmVpbmcKICAgICAqIGNvcnJlY3RseSBzdXBwb3J0ZWQgYnkgb2ZmLWNoYWluIGluZGV4aW5nIHNlcnZpY2VzIChpbmNsdWRpbmcgbWFya2V0cGxhY2VzKS4KICAgICAqLwogICAgZnVuY3Rpb24gX21heEJhdGNoU2l6ZSgpIGludGVybmFsIHZpZXcgdmlydHVhbCByZXR1cm5zICh1aW50OTYpIHsKICAgICAgICByZXR1cm4gNTAwMDsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgU2VlIHtFUkM3MjEtX293bmVyT2Z9LiBPdmVycmlkZSB0aGF0IGNoZWNrcyB0aGUgc2VxdWVudGlhbCBvd25lcnNoaXAgc3RydWN0dXJlIGZvciB0b2tlbnMgdGhhdCBoYXZlCiAgICAgKiBiZWVuIG1pbnRlZCBhcyBwYXJ0IG9mIGEgYmF0Y2gsIGFuZCBub3QgeWV0IHRyYW5zZmVycmVkLgogICAgICovCiAgICBmdW5jdGlvbiBfb3duZXJPZih1aW50MjU2IHRva2VuSWQpIGludGVybmFsIHZpZXcgdmlydHVhbCBvdmVycmlkZSByZXR1cm5zIChhZGRyZXNzKSB7CiAgICAgICAgYWRkcmVzcyBvd25lciA9IHN1cGVyLl9vd25lck9mKHRva2VuSWQpOwoKICAgICAgICAvLyBJZiB0b2tlbiBpcyBvd25lZCBieSB0aGUgY29yZSwgb3IgYmV5b25kIGNvbnNlY3V0aXZlIHJhbmdlLCByZXR1cm4gYmFzZSB2YWx1ZQogICAgICAgIGlmIChvd25lciAhPSBhZGRyZXNzKDApIHx8IHRva2VuSWQgPiB0eXBlKHVpbnQ5NikubWF4IHx8IHRva2VuSWQgPCBfZmlyc3RDb25zZWN1dGl2ZUlkKCkpIHsKICAgICAgICAgICAgcmV0dXJuIG93bmVyOwogICAgICAgIH0KCiAgICAgICAgLy8gT3RoZXJ3aXNlLCBjaGVjayB0aGUgdG9rZW4gd2FzIG5vdCBidXJuZWQsIGFuZCBmZXRjaCBvd25lcnNoaXAgZnJvbSB0aGUgYW5jaG9ycwogICAgICAgIC8vIE5vdGU6IG5vIG5lZWQgZm9yIHNhZmUgY2FzdCwgd2Uga25vdyB0aGF0IHRva2VuSWQgPD0gdHlwZSh1aW50OTYpLm1heAogICAgICAgIHJldHVybiBfc2VxdWVudGlhbEJ1cm4uZ2V0KHRva2VuSWQpID8gYWRkcmVzcygwKSA6IGFkZHJlc3MoX3NlcXVlbnRpYWxPd25lcnNoaXAubG93ZXJMb29rdXAodWludDk2KHRva2VuSWQpKSk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IE1pbnQgYSBiYXRjaCBvZiB0b2tlbnMgb2YgbGVuZ3RoIGBiYXRjaFNpemVgIGZvciBgdG9gLiBSZXR1cm5zIHRoZSB0b2tlbiBpZCBvZiB0aGUgZmlyc3QgdG9rZW4gbWludGVkIGluIHRoZQogICAgICogYmF0Y2g7IGlmIGBiYXRjaFNpemVgIGlzIDAsIHJldHVybnMgdGhlIG51bWJlciBvZiBjb25zZWN1dGl2ZSBpZHMgbWludGVkIHNvIGZhci4KICAgICAqCiAgICAgKiBSZXF1aXJlbWVudHM6CiAgICAgKgogICAgICogLSBgYmF0Y2hTaXplYCBtdXN0IG5vdCBiZSBncmVhdGVyIHRoYW4ge19tYXhCYXRjaFNpemV9LgogICAgICogLSBUaGUgZnVuY3Rpb24gaXMgY2FsbGVkIGluIHRoZSBjb25zdHJ1Y3RvciBvZiB0aGUgY29udHJhY3QgKGRpcmVjdGx5IG9yIGluZGlyZWN0bHkpLgogICAgICoKICAgICAqIENBVVRJT046IERvZXMgbm90IGVtaXQgYSBgVHJhbnNmZXJgIGV2ZW50LiBUaGlzIGlzIEVSQy03MjEgY29tcGxpYW50IGFzIGxvbmcgYXMgaXQgaXMgZG9uZSBpbnNpZGUgb2YgdGhlCiAgICAgKiBjb25zdHJ1Y3Rvciwgd2hpY2ggaXMgZW5mb3JjZWQgYnkgdGhpcyBmdW5jdGlvbi4KICAgICAqCiAgICAgKiBDQVVUSU9OOiBEb2VzIG5vdCBpbnZva2UgYG9uRVJDNzIxUmVjZWl2ZWRgIG9uIHRoZSByZWNlaXZlci4KICAgICAqCiAgICAgKiBFbWl0cyBhIHtJRVJDMjMwOS1Db25zZWN1dGl2ZVRyYW5zZmVyfSBldmVudC4KICAgICAqLwogICAgZnVuY3Rpb24gX21pbnRDb25zZWN1dGl2ZShhZGRyZXNzIHRvLCB1aW50OTYgYmF0Y2hTaXplKSBpbnRlcm5hbCB2aXJ0dWFsIHJldHVybnMgKHVpbnQ5NikgewogICAgICAgIHVpbnQ5NiBuZXh0ID0gX25leHRDb25zZWN1dGl2ZUlkKCk7CgogICAgICAgIC8vIG1pbnRpbmcgYSBiYXRjaCBvZiBzaXplIDAgaXMgYSBuby1vcAogICAgICAgIGlmIChiYXRjaFNpemUgPiAwKSB7CiAgICAgICAgICAgIGlmIChhZGRyZXNzKHRoaXMpLmNvZGUubGVuZ3RoID4gMCkgewogICAgICAgICAgICAgICAgcmV2ZXJ0IEVSQzcyMUZvcmJpZGRlbkJhdGNoTWludCgpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGlmICh0byA9PSBhZGRyZXNzKDApKSB7CiAgICAgICAgICAgICAgICByZXZlcnQgRVJDNzIxSW52YWxpZFJlY2VpdmVyKGFkZHJlc3MoMCkpOwogICAgICAgICAgICB9CgogICAgICAgICAgICB1aW50MjU2IG1heEJhdGNoU2l6ZSA9IF9tYXhCYXRjaFNpemUoKTsKICAgICAgICAgICAgaWYgKGJhdGNoU2l6ZSA+IG1heEJhdGNoU2l6ZSkgewogICAgICAgICAgICAgICAgcmV2ZXJ0IEVSQzcyMUV4Y2VlZGVkTWF4QmF0Y2hNaW50KGJhdGNoU2l6ZSwgbWF4QmF0Y2hTaXplKTsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgLy8gcHVzaCBhbiBvd25lcnNoaXAgY2hlY2twb2ludCAmIGVtaXQgZXZlbnQKICAgICAgICAgICAgdWludDk2IGxhc3QgPSBuZXh0ICsgYmF0Y2hTaXplIC0gMTsKICAgICAgICAgICAgX3NlcXVlbnRpYWxPd25lcnNoaXAucHVzaChsYXN0LCB1aW50MTYwKHRvKSk7CgogICAgICAgICAgICAvLyBUaGUgaW52YXJpYW50IHJlcXVpcmVkIGJ5IHRoaXMgZnVuY3Rpb24gaXMgcHJlc2VydmVkIGJlY2F1c2UgdGhlIG5ldyBzZXF1ZW50aWFsT3duZXJzaGlwIGNoZWNrcG9pbnQKICAgICAgICAgICAgLy8gaXMgYXR0cmlidXRpbmcgb3duZXJzaGlwIG9mIGBiYXRjaFNpemVgIG5ldyB0b2tlbnMgdG8gYWNjb3VudCBgdG9gLgogICAgICAgICAgICBfaW5jcmVhc2VCYWxhbmNlKHRvLCBiYXRjaFNpemUpOwoKICAgICAgICAgICAgZW1pdCBDb25zZWN1dGl2ZVRyYW5zZmVyKG5leHQsIGxhc3QsIGFkZHJlc3MoMCksIHRvKTsKICAgICAgICB9CgogICAgICAgIHJldHVybiBuZXh0OwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBTZWUge0VSQzcyMS1fdXBkYXRlfS4gT3ZlcnJpZGUgdmVyc2lvbiB0aGF0IHJlc3RyaWN0cyBub3JtYWwgbWludGluZyB0byBhZnRlciBjb25zdHJ1Y3Rpb24uCiAgICAgKgogICAgICogV0FSTklORzogVXNpbmcge0VSQzcyMUNvbnNlY3V0aXZlfSBwcmV2ZW50cyBtaW50aW5nIGR1cmluZyBjb25zdHJ1Y3Rpb24gaW4gZmF2b3Igb2Yge19taW50Q29uc2VjdXRpdmV9LgogICAgICogQWZ0ZXIgY29uc3RydWN0aW9uLCB7X21pbnRDb25zZWN1dGl2ZX0gaXMgbm8gbG9uZ2VyIGF2YWlsYWJsZSBhbmQgbWludGluZyB0aHJvdWdoIHtfdXBkYXRlfSBiZWNvbWVzIGF2YWlsYWJsZS4KICAgICAqLwogICAgZnVuY3Rpb24gX3VwZGF0ZShhZGRyZXNzIHRvLCB1aW50MjU2IHRva2VuSWQsIGFkZHJlc3MgYXV0aCkgaW50ZXJuYWwgdmlydHVhbCBvdmVycmlkZSByZXR1cm5zIChhZGRyZXNzKSB7CiAgICAgICAgYWRkcmVzcyBwcmV2aW91c093bmVyID0gc3VwZXIuX3VwZGF0ZSh0bywgdG9rZW5JZCwgYXV0aCk7CgogICAgICAgIC8vIG9ubHkgbWludCBhZnRlciBjb25zdHJ1Y3Rpb24KICAgICAgICBpZiAocHJldmlvdXNPd25lciA9PSBhZGRyZXNzKDApICYmIGFkZHJlc3ModGhpcykuY29kZS5sZW5ndGggPT0gMCkgewogICAgICAgICAgICByZXZlcnQgRVJDNzIxRm9yYmlkZGVuTWludCgpOwogICAgICAgIH0KCiAgICAgICAgLy8gcmVjb3JkIGJ1cm4KICAgICAgICBpZiAoCiAgICAgICAgICAgIHRvID09IGFkZHJlc3MoMCkgJiYgLy8gaWYgd2UgYnVybgogICAgICAgICAgICB0b2tlbklkIDwgX25leHRDb25zZWN1dGl2ZUlkKCkgJiYgLy8gYW5kIHRoZSB0b2tlbklkIHdhcyBtaW50ZWQgaW4gYSBiYXRjaAogICAgICAgICAgICAhX3NlcXVlbnRpYWxCdXJuLmdldCh0b2tlbklkKSAvLyBhbmQgdGhlIHRva2VuIHdhcyBuZXZlciBtYXJrZWQgYXMgYnVybnQKICAgICAgICApIHsKICAgICAgICAgICAgX3NlcXVlbnRpYWxCdXJuLnNldCh0b2tlbklkKTsKICAgICAgICB9CgogICAgICAgIHJldHVybiBwcmV2aW91c093bmVyOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBVc2VkIHRvIG9mZnNldCB0aGUgZmlyc3QgdG9rZW4gaWQgaW4ge19uZXh0Q29uc2VjdXRpdmVJZH0KICAgICAqLwogICAgZnVuY3Rpb24gX2ZpcnN0Q29uc2VjdXRpdmVJZCgpIGludGVybmFsIHZpZXcgdmlydHVhbCByZXR1cm5zICh1aW50OTYpIHsKICAgICAgICByZXR1cm4gMDsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyB0aGUgbmV4dCB0b2tlbklkIHRvIG1pbnQgdXNpbmcge19taW50Q29uc2VjdXRpdmV9LiBJdCB3aWxsIHJldHVybiB7X2ZpcnN0Q29uc2VjdXRpdmVJZH0KICAgICAqIGlmIG5vIGNvbnNlY3V0aXZlIHRva2VuSWQgaGFzIGJlZW4gbWludGVkIGJlZm9yZS4KICAgICAqLwogICAgZnVuY3Rpb24gX25leHRDb25zZWN1dGl2ZUlkKCkgcHJpdmF0ZSB2aWV3IHJldHVybnMgKHVpbnQ5NikgewogICAgICAgIChib29sIGV4aXN0cywgdWludDk2IGxhdGVzdElkLCApID0gX3NlcXVlbnRpYWxPd25lcnNoaXAubGF0ZXN0Q2hlY2twb2ludCgpOwogICAgICAgIHJldHVybiBleGlzdHMgPyBsYXRlc3RJZCArIDEgOiBfZmlyc3RDb25zZWN1dGl2ZUlkKCk7CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (token/ERC721/extensions/ERC721Consecutive.sol)
+
+pragma solidity ^0.8.20;
+
+import {ERC721} from "../ERC721.sol";
+import {IERC2309} from "../../../interfaces/IERC2309.sol";
+import {BitMaps} from "../../../utils/structs/BitMaps.sol";
+import {Checkpoints} from "../../../utils/structs/Checkpoints.sol";
+
+/**
+ * @dev Implementation of the ERC-2309 "Consecutive Transfer Extension" as defined in
+ * https://eips.ethereum.org/EIPS/eip-2309[ERC-2309].
+ *
+ * This extension allows the minting of large batches of tokens, during contract construction only. For upgradeable
+ * contracts this implies that batch minting is only available during proxy deployment, and not in subsequent upgrades.
+ * These batches are limited to 5000 tokens at a time by default to accommodate off-chain indexers.
+ *
+ * Using this extension removes the ability to mint single tokens during contract construction. This ability is
+ * regained after construction. During construction, only batch minting is allowed.
+ *
+ * IMPORTANT: This extension does not call the {_update} function for tokens minted in batch. Any logic added to this
+ * function through overrides will not be triggered when token are minted in batch. You may want to also override
+ * {_increaseBalance} or {_mintConsecutive} to account for these mints.
+ *
+ * IMPORTANT: When overriding {_mintConsecutive}, be careful about call ordering. {ownerOf} may return invalid
+ * values during the {_mintConsecutive} execution if the super call is not called first. To be safe, execute the
+ * super call before your custom logic.
+ */
+abstract contract ERC721Consecutive is IERC2309, ERC721 {
+    using BitMaps for BitMaps.BitMap;
+    using Checkpoints for Checkpoints.Trace160;
+
+    Checkpoints.Trace160 private _sequentialOwnership;
+    BitMaps.BitMap private _sequentialBurn;
+
+    /**
+     * @dev Batch mint is restricted to the constructor.
+     * Any batch mint not emitting the {IERC721-Transfer} event outside of the constructor
+     * is non ERC-721 compliant.
+     */
+    error ERC721ForbiddenBatchMint();
+
+    /**
+     * @dev Exceeds the max amount of mints per batch.
+     */
+    error ERC721ExceededMaxBatchMint(uint256 batchSize, uint256 maxBatch);
+
+    /**
+     * @dev Individual minting is not allowed.
+     */
+    error ERC721ForbiddenMint();
+
+    /**
+     * @dev Batch burn is not supported.
+     */
+    error ERC721ForbiddenBatchBurn();
+
+    /**
+     * @dev Maximum size of a batch of consecutive tokens. This is designed to limit stress on off-chain indexing
+     * services that have to record one entry per token, and have protections against "unreasonably large" batches of
+     * tokens.
+     *
+     * NOTE: Overriding the default value of 5000 will not cause on-chain issues, but may result in the asset not being
+     * correctly supported by off-chain indexing services (including marketplaces).
+     */
+    function _maxBatchSize() internal view virtual returns (uint96) {
+        return 5000;
+    }
+
+    /**
+     * @dev See {ERC721-_ownerOf}. Override that checks the sequential ownership structure for tokens that have
+     * been minted as part of a batch, and not yet transferred.
+     */
+    function _ownerOf(uint256 tokenId) internal view virtual override returns (address) {
+        address owner = super._ownerOf(tokenId);
+
+        // If token is owned by the core, or beyond consecutive range, return base value
+        if (owner != address(0) || tokenId > type(uint96).max || tokenId < _firstConsecutiveId()) {
+            return owner;
+        }
+
+        // Otherwise, check the token was not burned, and fetch ownership from the anchors
+        // Note: no need for safe cast, we know that tokenId <= type(uint96).max
+        return _sequentialBurn.get(tokenId) ? address(0) : address(_sequentialOwnership.lowerLookup(uint96(tokenId)));
+    }
+
+    /**
+     * @dev Mint a batch of tokens of length `batchSize` for `to`. Returns the token id of the first token minted in the
+     * batch; if `batchSize` is 0, returns the number of consecutive ids minted so far.
+     *
+     * Requirements:
+     *
+     * - `batchSize` must not be greater than {_maxBatchSize}.
+     * - The function is called in the constructor of the contract (directly or indirectly).
+     *
+     * CAUTION: Does not emit a `Transfer` event. This is ERC-721 compliant as long as it is done inside of the
+     * constructor, which is enforced by this function.
+     *
+     * CAUTION: Does not invoke `onERC721Received` on the receiver.
+     *
+     * Emits a {IERC2309-ConsecutiveTransfer} event.
+     */
+    function _mintConsecutive(address to, uint96 batchSize) internal virtual returns (uint96) {
+        uint96 next = _nextConsecutiveId();
+
+        // minting a batch of size 0 is a no-op
+        if (batchSize > 0) {
+            if (address(this).code.length > 0) {
+                revert ERC721ForbiddenBatchMint();
+            }
+            if (to == address(0)) {
+                revert ERC721InvalidReceiver(address(0));
+            }
+
+            uint256 maxBatchSize = _maxBatchSize();
+            if (batchSize > maxBatchSize) {
+                revert ERC721ExceededMaxBatchMint(batchSize, maxBatchSize);
+            }
+
+            // push an ownership checkpoint & emit event
+            uint96 last = next + batchSize - 1;
+            _sequentialOwnership.push(last, uint160(to));
+
+            // The invariant required by this function is preserved because the new sequentialOwnership checkpoint
+            // is attributing ownership of `batchSize` new tokens to account `to`.
+            _increaseBalance(to, batchSize);
+
+            emit ConsecutiveTransfer(next, last, address(0), to);
+        }
+
+        return next;
+    }
+
+    /**
+     * @dev See {ERC721-_update}. Override version that restricts normal minting to after construction.
+     *
+     * WARNING: Using {ERC721Consecutive} prevents minting during construction in favor of {_mintConsecutive}.
+     * After construction, {_mintConsecutive} is no longer available and minting through {_update} becomes available.
+     */
+    function _update(address to, uint256 tokenId, address auth) internal virtual override returns (address) {
+        address previousOwner = super._update(to, tokenId, auth);
+
+        // only mint after construction
+        if (previousOwner == address(0) && address(this).code.length == 0) {
+            revert ERC721ForbiddenMint();
+        }
+
+        // record burn
+        if (
+            to == address(0) && // if we burn
+            tokenId < _nextConsecutiveId() && // and the tokenId was minted in a batch
+            !_sequentialBurn.get(tokenId) // and the token was never marked as burnt
+        ) {
+            _sequentialBurn.set(tokenId);
+        }
+
+        return previousOwner;
+    }
+
+    /**
+     * @dev Used to offset the first token id in {_nextConsecutiveId}
+     */
+    function _firstConsecutiveId() internal view virtual returns (uint96) {
+        return 0;
+    }
+
+    /**
+     * @dev Returns the next tokenId to mint using {_mintConsecutive}. It will return {_firstConsecutiveId}
+     * if no consecutive tokenId has been minted before.
+     */
+    function _nextConsecutiveId() private view returns (uint96) {
+        (bool exists, uint96 latestId, ) = _sequentialOwnership.latestCheckpoint();
+        return exists ? latestId + 1 : _firstConsecutiveId();
+    }
+}
