@@ -1,1 +1,417 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IEdQTC0zLjAtb3ItbGF0ZXIKcHJhZ21hIHNvbGlkaXR5ID49MC41LjA7CgppbXBvcnQge0RTVGVzdH0gZnJvbSAiLi90ZXN0LnNvbCI7Cgpjb250cmFjdCBEZW1vVGVzdCBpcyBEU1Rlc3QgewoKICAgIC8vIC0tLSBhc3NlcnRUcnVlIC0tLQoKICAgIGZ1bmN0aW9uIHRlc3RBc3NlcnRUcnVlKCkgcHVibGljIHsKICAgICAgICBhc3NlcnRUcnVlKHRydWUsICJtc2ciKTsKICAgICAgICBhc3NlcnRUcnVlKHRydWUpOwogICAgfQogICAgZnVuY3Rpb24gdGVzdEZhaWxBc3NlcnRUcnVlKCkgcHVibGljIHsKICAgICAgICBhc3NlcnRUcnVlKGZhbHNlKTsKICAgIH0KICAgIGZ1bmN0aW9uIHRlc3RGYWlsQXNzZXJ0VHJ1ZVdpdGhNc2coKSBwdWJsaWMgewogICAgICAgIGFzc2VydFRydWUoZmFsc2UsICJtc2ciKTsKICAgIH0KCiAgICAvLyAtLS0gYXNzZXJ0RXEgKEFkZHIpIC0tLQoKICAgIGZ1bmN0aW9uIHRlc3RBc3NlcnRFcUFkZHIoKSBwdWJsaWMgewogICAgICAgIGFzc2VydEVxKGFkZHJlc3MoMHgwKSwgYWRkcmVzcygweDApLCAibXNnIik7CiAgICAgICAgYXNzZXJ0RXEoYWRkcmVzcygweDApLCBhZGRyZXNzKDB4MCkpOwogICAgfQogICAgZnVuY3Rpb24gdGVzdEZhaWxBc3NlcnRFcUFkZHIoKSBwdWJsaWMgewogICAgICAgIGFzc2VydEVxKGFkZHJlc3MoMHgwKSwgYWRkcmVzcygweDEpKTsKICAgIH0KICAgIGZ1bmN0aW9uIHRlc3RGYWlsQXNzZXJ0RXFBZGRyV2l0aE1zZygpIHB1YmxpYyB7CiAgICAgICAgYXNzZXJ0RXEoYWRkcmVzcygweDApLCBhZGRyZXNzKDB4MSksICJtc2ciKTsKICAgIH0KCiAgICAvLyAtLS0gYXNzZXJ0RXEgKEJ5dGVzMzIpIC0tLQoKICAgIGZ1bmN0aW9uIHRlc3RBc3NlcnRFcUJ5dGVzMzIoKSBwdWJsaWMgewogICAgICAgIGFzc2VydEVxKGJ5dGVzMzIoImhpIiksIGJ5dGVzMzIoImhpIiksICJtc2ciKTsKICAgICAgICBhc3NlcnRFcShieXRlczMyKCJoaSIpLCBieXRlczMyKCJoaSIpKTsKICAgIH0KICAgIGZ1bmN0aW9uIHRlc3RGYWlsQXNzZXJ0RXFCeXRlczMyKCkgcHVibGljIHsKICAgICAgICBhc3NlcnRFcShieXRlczMyKCJoaSIpLCBieXRlczMyKCJobyIpKTsKICAgIH0KICAgIGZ1bmN0aW9uIHRlc3RGYWlsQXNzZXJ0RXFCeXRlczMyV2l0aE1zZygpIHB1YmxpYyB7CiAgICAgICAgYXNzZXJ0RXEoYnl0ZXMzMigiaGkiKSwgYnl0ZXMzMigiaG8iKSwgIm1zZyIpOwogICAgfQoKICAgIC8vIC0tLSBhc3NlcnRFcSAoSW50KSAtLS0KCiAgICBmdW5jdGlvbiB0ZXN0QXNzZXJ0RXFJbnQoKSBwdWJsaWMgewogICAgICAgIGFzc2VydEVxKC0xLCAtMSwgIm1zZyIpOwogICAgICAgIGFzc2VydEVxKC0xLCAtMSk7CiAgICB9CiAgICBmdW5jdGlvbiB0ZXN0RmFpbEFzc2VydEVxSW50KCkgcHVibGljIHsKICAgICAgICBhc3NlcnRFcSgtMSwgLTIpOwogICAgfQogICAgZnVuY3Rpb24gdGVzdEZhaWxBc3NlcnRFcUludFdpdGhNc2coKSBwdWJsaWMgewogICAgICAgIGFzc2VydEVxKC0xLCAtMiwgIm1zZyIpOwogICAgfQoKICAgIC8vIC0tLSBhc3NlcnRFcSAoVUludCkgLS0tCgogICAgZnVuY3Rpb24gdGVzdEFzc2VydEVxVUludCgpIHB1YmxpYyB7CiAgICAgICAgYXNzZXJ0RXEodWludCgxKSwgdWludCgxKSwgIm1zZyIpOwogICAgICAgIGFzc2VydEVxKHVpbnQoMSksIHVpbnQoMSkpOwogICAgfQogICAgZnVuY3Rpb24gdGVzdEZhaWxBc3NlcnRFcVVJbnQoKSBwdWJsaWMgewogICAgICAgIGFzc2VydEVxKHVpbnQoMSksIHVpbnQoMikpOwogICAgfQogICAgZnVuY3Rpb24gdGVzdEZhaWxBc3NlcnRFcVVJbnRXaXRoTXNnKCkgcHVibGljIHsKICAgICAgICBhc3NlcnRFcSh1aW50KDEpLCB1aW50KDIpLCAibXNnIik7CiAgICB9CgogICAgLy8gLS0tIGFzc2VydEVxRGVjaW1hbCAoSW50KSAtLS0KCiAgICBmdW5jdGlvbiB0ZXN0QXNzZXJ0RXFEZWNpbWFsSW50KCkgcHVibGljIHsKICAgICAgICBhc3NlcnRFcURlY2ltYWwoLTEsIC0xLCAxOCwgIm1zZyIpOwogICAgICAgIGFzc2VydEVxRGVjaW1hbCgtMSwgLTEsIDE4KTsKICAgIH0KICAgIGZ1bmN0aW9uIHRlc3RGYWlsQXNzZXJ0RXFEZWNpbWFsSW50KCkgcHVibGljIHsKICAgICAgICBhc3NlcnRFcURlY2ltYWwoLTEsIC0yLCAxOCk7CiAgICB9CiAgICBmdW5jdGlvbiB0ZXN0RmFpbEFzc2VydEVxRGVjaW1hbEludFdpdGhNc2coKSBwdWJsaWMgewogICAgICAgIGFzc2VydEVxRGVjaW1hbCgtMSwgLTIsIDE4LCAibXNnIik7CiAgICB9CgogICAgLy8gLS0tIGFzc2VydEVxRGVjaW1hbCAoVUludCkgLS0tCgogICAgZnVuY3Rpb24gdGVzdEFzc2VydEVxRGVjaW1hbFVJbnQoKSBwdWJsaWMgewogICAgICAgIGFzc2VydEVxRGVjaW1hbCh1aW50KDEpLCB1aW50KDEpLCAxOCwgIm1zZyIpOwogICAgICAgIGFzc2VydEVxRGVjaW1hbCh1aW50KDEpLCB1aW50KDEpLCAxOCk7CiAgICB9CiAgICBmdW5jdGlvbiB0ZXN0RmFpbEFzc2VydEVxRGVjaW1hbFVJbnQoKSBwdWJsaWMgewogICAgICAgIGFzc2VydEVxRGVjaW1hbCh1aW50KDEpLCB1aW50KDIpLCAxOCk7CiAgICB9CiAgICBmdW5jdGlvbiB0ZXN0RmFpbEFzc2VydEVxRGVjaW1hbFVJbnRXaXRoTXNnKCkgcHVibGljIHsKICAgICAgICBhc3NlcnRFcURlY2ltYWwodWludCgxKSwgdWludCgyKSwgMTgsICJtc2ciKTsKICAgIH0KCiAgICAvLyAtLS0gYXNzZXJ0Tm90RXEgKEFkZHIpIC0tLQoKICAgIGZ1bmN0aW9uIHRlc3RBc3NlcnROb3RFcUFkZHIoKSBwdWJsaWMgewogICAgICAgIGFzc2VydE5vdEVxKGFkZHJlc3MoMHgwKSwgYWRkcmVzcygweDEpLCAibXNnIik7CiAgICAgICAgYXNzZXJ0Tm90RXEoYWRkcmVzcygweDApLCBhZGRyZXNzKDB4MSkpOwogICAgfQogICAgZnVuY3Rpb24gdGVzdEZhaWxBc3NlcnROb3RFcUFkZHIoKSBwdWJsaWMgewogICAgICAgIGFzc2VydE5vdEVxKGFkZHJlc3MoMHgwKSwgYWRkcmVzcygweDApKTsKICAgIH0KICAgIGZ1bmN0aW9uIHRlc3RGYWlsQXNzZXJ0Tm90RXFBZGRyV2l0aE1zZygpIHB1YmxpYyB7CiAgICAgICAgYXNzZXJ0Tm90RXEoYWRkcmVzcygweDApLCBhZGRyZXNzKDB4MCksICJtc2ciKTsKICAgIH0KCiAgICAvLyAtLS0gYXNzZXJ0Tm90RXEgKEJ5dGVzMzIpIC0tLQoKICAgIGZ1bmN0aW9uIHRlc3RBc3NlcnROb3RFcUJ5dGVzMzIoKSBwdWJsaWMgewogICAgICAgIGFzc2VydE5vdEVxKGJ5dGVzMzIoImhpIiksIGJ5dGVzMzIoImhvIiksICJtc2ciKTsKICAgICAgICBhc3NlcnROb3RFcShieXRlczMyKCJoaSIpLCBieXRlczMyKCJobyIpKTsKICAgIH0KICAgIGZ1bmN0aW9uIHRlc3RGYWlsQXNzZXJ0Tm90RXFCeXRlczMyKCkgcHVibGljIHsKICAgICAgICBhc3NlcnROb3RFcShieXRlczMyKCJoaSIpLCBieXRlczMyKCJoaSIpKTsKICAgIH0KICAgIGZ1bmN0aW9uIHRlc3RGYWlsQXNzZXJ0Tm90RXFCeXRlczMyV2l0aE1zZygpIHB1YmxpYyB7CiAgICAgICAgYXNzZXJ0Tm90RXEoYnl0ZXMzMigiaGkiKSwgYnl0ZXMzMigiaGkiKSwgIm1zZyIpOwogICAgfQoKICAgIC8vIC0tLSBhc3NlcnROb3RFcSAoSW50KSAtLS0KCiAgICBmdW5jdGlvbiB0ZXN0QXNzZXJ0Tm90RXFJbnQoKSBwdWJsaWMgewogICAgICAgIGFzc2VydE5vdEVxKC0xLCAtMiwgIm1zZyIpOwogICAgICAgIGFzc2VydE5vdEVxKC0xLCAtMik7CiAgICB9CiAgICBmdW5jdGlvbiB0ZXN0RmFpbEFzc2VydE5vdEVxSW50KCkgcHVibGljIHsKICAgICAgICBhc3NlcnROb3RFcSgtMSwgLTEpOwogICAgfQogICAgZnVuY3Rpb24gdGVzdEZhaWxBc3NlcnROb3RFcUludFdpdGhNc2coKSBwdWJsaWMgewogICAgICAgIGFzc2VydE5vdEVxKC0xLCAtMSwgIm1zZyIpOwogICAgfQoKICAgIC8vIC0tLSBhc3NlcnROb3RFcSAoVUludCkgLS0tCgogICAgZnVuY3Rpb24gdGVzdEFzc2VydE5vdEVxVUludCgpIHB1YmxpYyB7CiAgICAgICAgYXNzZXJ0Tm90RXEodWludCgxKSwgdWludCgyKSwgIm1zZyIpOwogICAgICAgIGFzc2VydE5vdEVxKHVpbnQoMSksIHVpbnQoMikpOwogICAgfQogICAgZnVuY3Rpb24gdGVzdEZhaWxBc3NlcnROb3RFcVVJbnQoKSBwdWJsaWMgewogICAgICAgIGFzc2VydE5vdEVxKHVpbnQoMSksIHVpbnQoMSkpOwogICAgfQogICAgZnVuY3Rpb24gdGVzdEZhaWxBc3NlcnROb3RFcVVJbnRXaXRoTXNnKCkgcHVibGljIHsKICAgICAgICBhc3NlcnROb3RFcSh1aW50KDEpLCB1aW50KDEpLCAibXNnIik7CiAgICB9CgogICAgLy8gLS0tIGFzc2VydE5vdEVxRGVjaW1hbCAoSW50KSAtLS0KCiAgICBmdW5jdGlvbiB0ZXN0QXNzZXJ0Tm90RXFEZWNpbWFsSW50KCkgcHVibGljIHsKICAgICAgICBhc3NlcnROb3RFcURlY2ltYWwoLTEsIC0yLCAxOCwgIm1zZyIpOwogICAgICAgIGFzc2VydE5vdEVxRGVjaW1hbCgtMSwgLTIsIDE4KTsKICAgIH0KICAgIGZ1bmN0aW9uIHRlc3RGYWlsQXNzZXJ0Tm90RXFEZWNpbWFsSW50KCkgcHVibGljIHsKICAgICAgICBhc3NlcnROb3RFcURlY2ltYWwoLTEsIC0xLCAxOCk7CiAgICB9CiAgICBmdW5jdGlvbiB0ZXN0RmFpbEFzc2VydE5vdEVxRGVjaW1hbEludFdpdGhNc2coKSBwdWJsaWMgewogICAgICAgIGFzc2VydE5vdEVxRGVjaW1hbCgtMSwgLTEsIDE4LCAibXNnIik7CiAgICB9CgogICAgLy8gLS0tIGFzc2VydE5vdEVxRGVjaW1hbCAoVUludCkgLS0tCgogICAgZnVuY3Rpb24gdGVzdEFzc2VydE5vdEVxRGVjaW1hbFVJbnQoKSBwdWJsaWMgewogICAgICAgIGFzc2VydE5vdEVxRGVjaW1hbCh1aW50KDEpLCB1aW50KDIpLCAxOCwgIm1zZyIpOwogICAgICAgIGFzc2VydE5vdEVxRGVjaW1hbCh1aW50KDEpLCB1aW50KDIpLCAxOCk7CiAgICB9CiAgICBmdW5jdGlvbiB0ZXN0RmFpbEFzc2VydE5vdEVxRGVjaW1hbFVJbnQoKSBwdWJsaWMgewogICAgICAgIGFzc2VydE5vdEVxRGVjaW1hbCh1aW50KDEpLCB1aW50KDEpLCAxOCk7CiAgICB9CiAgICBmdW5jdGlvbiB0ZXN0RmFpbEFzc2VydE5vdEVxRGVjaW1hbFVJbnRXaXRoTXNnKCkgcHVibGljIHsKICAgICAgICBhc3NlcnROb3RFcURlY2ltYWwodWludCgxKSwgdWludCgxKSwgMTgsICJtc2ciKTsKICAgIH0KCiAgICAvLyAtLS0gYXNzZXJ0R3QgKFVJbnQpIC0tLQoKICAgIGZ1bmN0aW9uIHRlc3RBc3NlcnRHdFVJbnQoKSBwdWJsaWMgewogICAgICAgIGFzc2VydEd0KHVpbnQoMiksIHVpbnQoMSksICJtc2ciKTsKICAgICAgICBhc3NlcnRHdCh1aW50KDMpLCB1aW50KDIpKTsKICAgIH0KICAgIGZ1bmN0aW9uIHRlc3RGYWlsQXNzZXJ0R3RVSW50KCkgcHVibGljIHsKICAgICAgICBhc3NlcnRHdCh1aW50KDEpLCB1aW50KDIpKTsKICAgIH0KICAgIGZ1bmN0aW9uIHRlc3RGYWlsQXNzZXJ0R3RVSW50V2l0aE1zZygpIHB1YmxpYyB7CiAgICAgICAgYXNzZXJ0R3QodWludCgxKSwgdWludCgyKSwgIm1zZyIpOwogICAgfQoKICAgIC8vIC0tLSBhc3NlcnRHdCAoSW50KSAtLS0KCiAgICBmdW5jdGlvbiB0ZXN0QXNzZXJ0R3RJbnQoKSBwdWJsaWMgewogICAgICAgIGFzc2VydEd0KC0xLCAtMiwgIm1zZyIpOwogICAgICAgIGFzc2VydEd0KC0xLCAtMyk7CiAgICB9CiAgICBmdW5jdGlvbiB0ZXN0RmFpbEFzc2VydEd0SW50KCkgcHVibGljIHsKICAgICAgICBhc3NlcnRHdCgtMiwgLTEpOwogICAgfQogICAgZnVuY3Rpb24gdGVzdEZhaWxBc3NlcnRHdEludFdpdGhNc2coKSBwdWJsaWMgewogICAgICAgIGFzc2VydEd0KC0yLCAtMSwgIm1zZyIpOwogICAgfQoKICAgIC8vIC0tLSBhc3NlcnRHdERlY2ltYWwgKFVJbnQpIC0tLQoKICAgIGZ1bmN0aW9uIHRlc3RBc3NlcnRHdERlY2ltYWxVSW50KCkgcHVibGljIHsKICAgICAgICBhc3NlcnRHdERlY2ltYWwodWludCgyKSwgdWludCgxKSwgMTgsICJtc2ciKTsKICAgICAgICBhc3NlcnRHdERlY2ltYWwodWludCgzKSwgdWludCgyKSwgMTgpOwogICAgfQogICAgZnVuY3Rpb24gdGVzdEZhaWxBc3NlcnRHdERlY2ltYWxVSW50KCkgcHVibGljIHsKICAgICAgICBhc3NlcnRHdERlY2ltYWwodWludCgxKSwgdWludCgyKSwgMTgpOwogICAgfQogICAgZnVuY3Rpb24gdGVzdEZhaWxBc3NlcnRHdERlY2ltYWxVSW50V2l0aE1zZygpIHB1YmxpYyB7CiAgICAgICAgYXNzZXJ0R3REZWNpbWFsKHVpbnQoMSksIHVpbnQoMiksIDE4LCAibXNnIik7CiAgICB9CgogICAgLy8gLS0tIGFzc2VydEd0RGVjaW1hbCAoSW50KSAtLS0KCiAgICBmdW5jdGlvbiB0ZXN0QXNzZXJ0R3REZWNpbWFsSW50KCkgcHVibGljIHsKICAgICAgICBhc3NlcnRHdERlY2ltYWwoLTEsIC0yLCAxOCwgIm1zZyIpOwogICAgICAgIGFzc2VydEd0RGVjaW1hbCgtMSwgLTMsIDE4KTsKICAgIH0KICAgIGZ1bmN0aW9uIHRlc3RGYWlsQXNzZXJ0R3REZWNpbWFsSW50KCkgcHVibGljIHsKICAgICAgICBhc3NlcnRHdERlY2ltYWwoLTIsIC0xLCAxOCk7CiAgICB9CiAgICBmdW5jdGlvbiB0ZXN0RmFpbEFzc2VydEd0RGVjaW1hbEludFdpdGhNc2coKSBwdWJsaWMgewogICAgICAgIGFzc2VydEd0RGVjaW1hbCgtMiwgLTEsIDE4LCAibXNnIik7CiAgICB9CgogICAgLy8gLS0tIGFzc2VydEdlIChVSW50KSAtLS0KCiAgICBmdW5jdGlvbiB0ZXN0QXNzZXJ0R2VVSW50KCkgcHVibGljIHsKICAgICAgICBhc3NlcnRHZSh1aW50KDIpLCB1aW50KDEpLCAibXNnIik7CiAgICAgICAgYXNzZXJ0R2UodWludCgyKSwgdWludCgyKSk7CiAgICB9CiAgICBmdW5jdGlvbiB0ZXN0RmFpbEFzc2VydEdlVUludCgpIHB1YmxpYyB7CiAgICAgICAgYXNzZXJ0R2UodWludCgxKSwgdWludCgyKSk7CiAgICB9CiAgICBmdW5jdGlvbiB0ZXN0RmFpbEFzc2VydEdlVUludFdpdGhNc2coKSBwdWJsaWMgewogICAgICAgIGFzc2VydEdlKHVpbnQoMSksIHVpbnQoMiksICJtc2ciKTsKICAgIH0KCiAgICAvLyAtLS0gYXNzZXJ0R2UgKEludCkgLS0tCgogICAgZnVuY3Rpb24gdGVzdEFzc2VydEdlSW50KCkgcHVibGljIHsKICAgICAgICBhc3NlcnRHZSgtMSwgLTIsICJtc2ciKTsKICAgICAgICBhc3NlcnRHZSgtMSwgLTEpOwogICAgfQogICAgZnVuY3Rpb24gdGVzdEZhaWxBc3NlcnRHZUludCgpIHB1YmxpYyB7CiAgICAgICAgYXNzZXJ0R2UoLTIsIC0xKTsKICAgIH0KICAgIGZ1bmN0aW9uIHRlc3RGYWlsQXNzZXJ0R2VJbnRXaXRoTXNnKCkgcHVibGljIHsKICAgICAgICBhc3NlcnRHZSgtMiwgLTEsICJtc2ciKTsKICAgIH0KCiAgICAvLyAtLS0gYXNzZXJ0R2VEZWNpbWFsIChVSW50KSAtLS0KCiAgICBmdW5jdGlvbiB0ZXN0QXNzZXJ0R2VEZWNpbWFsVUludCgpIHB1YmxpYyB7CiAgICAgICAgYXNzZXJ0R2VEZWNpbWFsKHVpbnQoMiksIHVpbnQoMSksIDE4LCAibXNnIik7CiAgICAgICAgYXNzZXJ0R2VEZWNpbWFsKHVpbnQoMiksIHVpbnQoMiksIDE4KTsKICAgIH0KICAgIGZ1bmN0aW9uIHRlc3RGYWlsQXNzZXJ0R2VEZWNpbWFsVUludCgpIHB1YmxpYyB7CiAgICAgICAgYXNzZXJ0R2VEZWNpbWFsKHVpbnQoMSksIHVpbnQoMiksIDE4KTsKICAgIH0KICAgIGZ1bmN0aW9uIHRlc3RGYWlsQXNzZXJ0R2VEZWNpbWFsVUludFdpdGhNc2coKSBwdWJsaWMgewogICAgICAgIGFzc2VydEdlRGVjaW1hbCh1aW50KDEpLCB1aW50KDIpLCAxOCwgIm1zZyIpOwogICAgfQoKICAgIC8vIC0tLSBhc3NlcnRHZURlY2ltYWwgKEludCkgLS0tCgogICAgZnVuY3Rpb24gdGVzdEFzc2VydEdlRGVjaW1hbEludCgpIHB1YmxpYyB7CiAgICAgICAgYXNzZXJ0R2VEZWNpbWFsKC0xLCAtMiwgMTgsICJtc2ciKTsKICAgICAgICBhc3NlcnRHZURlY2ltYWwoLTEsIC0yLCAxOCk7CiAgICB9CiAgICBmdW5jdGlvbiB0ZXN0RmFpbEFzc2VydEdlRGVjaW1hbEludCgpIHB1YmxpYyB7CiAgICAgICAgYXNzZXJ0R2VEZWNpbWFsKC0yLCAtMSwgMTgpOwogICAgfQogICAgZnVuY3Rpb24gdGVzdEZhaWxBc3NlcnRHZURlY2ltYWxJbnRXaXRoTXNnKCkgcHVibGljIHsKICAgICAgICBhc3NlcnRHZURlY2ltYWwoLTIsIC0xLCAxOCwgIm1zZyIpOwogICAgfQoKICAgIC8vIC0tLSBhc3NlcnRMdCAoVUludCkgLS0tCgogICAgZnVuY3Rpb24gdGVzdEFzc2VydEx0VUludCgpIHB1YmxpYyB7CiAgICAgICAgYXNzZXJ0THQodWludCgxKSwgdWludCgyKSwgIm1zZyIpOwogICAgICAgIGFzc2VydEx0KHVpbnQoMSksIHVpbnQoMykpOwogICAgfQogICAgZnVuY3Rpb24gdGVzdEZhaWxBc3NlcnRMdFVJbnQoKSBwdWJsaWMgewogICAgICAgIGFzc2VydEx0KHVpbnQoMiksIHVpbnQoMikpOwogICAgfQogICAgZnVuY3Rpb24gdGVzdEZhaWxBc3NlcnRMdFVJbnRXaXRoTXNnKCkgcHVibGljIHsKICAgICAgICBhc3NlcnRMdCh1aW50KDMpLCB1aW50KDIpLCAibXNnIik7CiAgICB9CgogICAgLy8gLS0tIGFzc2VydEx0IChJbnQpIC0tLQoKICAgIGZ1bmN0aW9uIHRlc3RBc3NlcnRMdEludCgpIHB1YmxpYyB7CiAgICAgICAgYXNzZXJ0THQoLTIsIC0xLCAibXNnIik7CiAgICAgICAgYXNzZXJ0THQoLTEsIDApOwogICAgfQogICAgZnVuY3Rpb24gdGVzdEZhaWxBc3NlcnRMdEludCgpIHB1YmxpYyB7CiAgICAgICAgYXNzZXJ0THQoLTEsIC0yKTsKICAgIH0KICAgIGZ1bmN0aW9uIHRlc3RGYWlsQXNzZXJ0THRJbnRXaXRoTXNnKCkgcHVibGljIHsKICAgICAgICBhc3NlcnRMdCgtMSwgLTEsICJtc2ciKTsKICAgIH0KCiAgICAvLyAtLS0gYXNzZXJ0THREZWNpbWFsIChVSW50KSAtLS0KCiAgICBmdW5jdGlvbiB0ZXN0QXNzZXJ0THREZWNpbWFsVUludCgpIHB1YmxpYyB7CiAgICAgICAgYXNzZXJ0THREZWNpbWFsKHVpbnQoMSksIHVpbnQoMiksIDE4LCAibXNnIik7CiAgICAgICAgYXNzZXJ0THREZWNpbWFsKHVpbnQoMiksIHVpbnQoMyksIDE4KTsKICAgIH0KICAgIGZ1bmN0aW9uIHRlc3RGYWlsQXNzZXJ0THREZWNpbWFsVUludCgpIHB1YmxpYyB7CiAgICAgICAgYXNzZXJ0THREZWNpbWFsKHVpbnQoMSksIHVpbnQoMSksIDE4KTsKICAgIH0KICAgIGZ1bmN0aW9uIHRlc3RGYWlsQXNzZXJ0THREZWNpbWFsVUludFdpdGhNc2coKSBwdWJsaWMgewogICAgICAgIGFzc2VydEx0RGVjaW1hbCh1aW50KDIpLCB1aW50KDEpLCAxOCwgIm1zZyIpOwogICAgfQoKICAgIC8vIC0tLSBhc3NlcnRMdERlY2ltYWwgKEludCkgLS0tCgogICAgZnVuY3Rpb24gdGVzdEFzc2VydEx0RGVjaW1hbEludCgpIHB1YmxpYyB7CiAgICAgICAgYXNzZXJ0THREZWNpbWFsKC0yLCAtMSwgMTgsICJtc2ciKTsKICAgICAgICBhc3NlcnRMdERlY2ltYWwoLTIsIC0xLCAxOCk7CiAgICB9CiAgICBmdW5jdGlvbiB0ZXN0RmFpbEFzc2VydEx0RGVjaW1hbEludCgpIHB1YmxpYyB7CiAgICAgICAgYXNzZXJ0THREZWNpbWFsKC0yLCAtMiwgMTgpOwogICAgfQogICAgZnVuY3Rpb24gdGVzdEZhaWxBc3NlcnRMdERlY2ltYWxJbnRXaXRoTXNnKCkgcHVibGljIHsKICAgICAgICBhc3NlcnRMdERlY2ltYWwoLTEsIC0yLCAxOCwgIm1zZyIpOwogICAgfQoKICAgIC8vIC0tLSBhc3NlcnRMZSAoVUludCkgLS0tCgogICAgZnVuY3Rpb24gdGVzdEFzc2VydExlVUludCgpIHB1YmxpYyB7CiAgICAgICAgYXNzZXJ0TGUodWludCgxKSwgdWludCgyKSwgIm1zZyIpOwogICAgICAgIGFzc2VydExlKHVpbnQoMSksIHVpbnQoMSkpOwogICAgfQogICAgZnVuY3Rpb24gdGVzdEZhaWxBc3NlcnRMZVVJbnQoKSBwdWJsaWMgewogICAgICAgIGFzc2VydExlKHVpbnQoNCksIHVpbnQoMikpOwogICAgfQogICAgZnVuY3Rpb24gdGVzdEZhaWxBc3NlcnRMZVVJbnRXaXRoTXNnKCkgcHVibGljIHsKICAgICAgICBhc3NlcnRMZSh1aW50KDMpLCB1aW50KDIpLCAibXNnIik7CiAgICB9CgogICAgLy8gLS0tIGFzc2VydExlIChJbnQpIC0tLQoKICAgIGZ1bmN0aW9uIHRlc3RBc3NlcnRMZUludCgpIHB1YmxpYyB7CiAgICAgICAgYXNzZXJ0TGUoLTIsIC0xLCAibXNnIik7CiAgICAgICAgYXNzZXJ0TGUoLTEsIC0xKTsKICAgIH0KICAgIGZ1bmN0aW9uIHRlc3RGYWlsQXNzZXJ0TGVJbnQoKSBwdWJsaWMgewogICAgICAgIGFzc2VydExlKC0xLCAtMik7CiAgICB9CiAgICBmdW5jdGlvbiB0ZXN0RmFpbEFzc2VydExlSW50V2l0aE1zZygpIHB1YmxpYyB7CiAgICAgICAgYXNzZXJ0TGUoLTEsIC0zLCAibXNnIik7CiAgICB9CgogICAgLy8gLS0tIGFzc2VydExlRGVjaW1hbCAoVUludCkgLS0tCgogICAgZnVuY3Rpb24gdGVzdEFzc2VydExlRGVjaW1hbFVJbnQoKSBwdWJsaWMgewogICAgICAgIGFzc2VydExlRGVjaW1hbCh1aW50KDEpLCB1aW50KDIpLCAxOCwgIm1zZyIpOwogICAgICAgIGFzc2VydExlRGVjaW1hbCh1aW50KDIpLCB1aW50KDIpLCAxOCk7CiAgICB9CiAgICBmdW5jdGlvbiB0ZXN0RmFpbEFzc2VydExlRGVjaW1hbFVJbnQoKSBwdWJsaWMgewogICAgICAgIGFzc2VydExlRGVjaW1hbCh1aW50KDEpLCB1aW50KDApLCAxOCk7CiAgICB9CiAgICBmdW5jdGlvbiB0ZXN0RmFpbEFzc2VydExlRGVjaW1hbFVJbnRXaXRoTXNnKCkgcHVibGljIHsKICAgICAgICBhc3NlcnRMZURlY2ltYWwodWludCgxKSwgdWludCgwKSwgMTgsICJtc2ciKTsKICAgIH0KCiAgICAvLyAtLS0gYXNzZXJ0TGVEZWNpbWFsIChJbnQpIC0tLQoKICAgIGZ1bmN0aW9uIHRlc3RBc3NlcnRMZURlY2ltYWxJbnQoKSBwdWJsaWMgewogICAgICAgIGFzc2VydExlRGVjaW1hbCgtMiwgLTEsIDE4LCAibXNnIik7CiAgICAgICAgYXNzZXJ0TGVEZWNpbWFsKC0yLCAtMiwgMTgpOwogICAgfQogICAgZnVuY3Rpb24gdGVzdEZhaWxBc3NlcnRMZURlY2ltYWxJbnQoKSBwdWJsaWMgewogICAgICAgIGFzc2VydExlRGVjaW1hbCgtMiwgLTMsIDE4KTsKICAgIH0KICAgIGZ1bmN0aW9uIHRlc3RGYWlsQXNzZXJ0TGVEZWNpbWFsSW50V2l0aE1zZygpIHB1YmxpYyB7CiAgICAgICAgYXNzZXJ0TGVEZWNpbWFsKC0xLCAtMiwgMTgsICJtc2ciKTsKICAgIH0KCiAgICAvLyAtLS0gYXNzZXJ0Tm90RXEgKFN0cmluZykgLS0tCgogICAgZnVuY3Rpb24gdGVzdEFzc2VydE5vdEVxU3RyaW5nKCkgcHVibGljIHsKICAgICAgICBhc3NlcnROb3RFcShuZXcgc3RyaW5nKDEpLCBuZXcgc3RyaW5nKDIpLCAibXNnIik7CiAgICAgICAgYXNzZXJ0Tm90RXEobmV3IHN0cmluZygxKSwgbmV3IHN0cmluZygyKSk7CiAgICB9CiAgICBmdW5jdGlvbiB0ZXN0RmFpbEFzc2VydE5vdEVxU3RyaW5nKCkgcHVibGljIHsKICAgICAgICBhc3NlcnROb3RFcShuZXcgc3RyaW5nKDEpLCBuZXcgc3RyaW5nKDEpKTsKICAgIH0KICAgIGZ1bmN0aW9uIHRlc3RGYWlsQXNzZXJ0Tm90RXFTdHJpbmdXaXRoTXNnKCkgcHVibGljIHsKICAgICAgICBhc3NlcnROb3RFcShuZXcgc3RyaW5nKDEpLCBuZXcgc3RyaW5nKDEpLCAibXNnIik7CiAgICB9CgogICAgLy8gLS0tIGFzc2VydE5vdEVxMCAoQnl0ZXMpIC0tLQoKICAgIGZ1bmN0aW9uIHRlc3RBc3NlcnROb3RFcTBCeXRlcygpIHB1YmxpYyB7CiAgICAgICAgYXNzZXJ0Tm90RXEwKGJ5dGVzKCJoaSIpLCBieXRlcygiaG8iKSwgIm1zZyIpOwogICAgICAgIGFzc2VydE5vdEVxMChieXRlcygiaGkiKSwgYnl0ZXMoImhvIikpOwogICAgfQogICAgZnVuY3Rpb24gdGVzdEZhaWxBc3NlcnROb3RFcTBCeXRlcygpIHB1YmxpYyB7CiAgICAgICAgYXNzZXJ0Tm90RXEwKGJ5dGVzKCJoaSIpLCBieXRlcygiaGkiKSk7CiAgICB9CiAgICBmdW5jdGlvbiB0ZXN0RmFpbEFzc2VydE5vdEVxMEJ5dGVzV2l0aE1zZygpIHB1YmxpYyB7CiAgICAgICAgYXNzZXJ0Tm90RXEwKGJ5dGVzKCJoaSIpLCBieXRlcygiaGkiKSwgIm1zZyIpOwogICAgfQoKICAgIC8vIC0tLSBmYWlsIG92ZXJyaWRlIC0tLQoKICAgIC8vIGVuc3VyZSB0aGF0IGZhaWwgY2FuIGJlIG92ZXJyaWRkZW4KICAgIGZ1bmN0aW9uIGZhaWwoKSBpbnRlcm5hbCBvdmVycmlkZSB7CiAgICAgICAgc3VwZXIuZmFpbCgpOwogICAgfQp9Cg==
+// SPDX-License-Identifier: GPL-3.0-or-later
+pragma solidity >=0.5.0;
+
+import {DSTest} from "./test.sol";
+
+contract DemoTest is DSTest {
+
+    // --- assertTrue ---
+
+    function testAssertTrue() public {
+        assertTrue(true, "msg");
+        assertTrue(true);
+    }
+    function testFailAssertTrue() public {
+        assertTrue(false);
+    }
+    function testFailAssertTrueWithMsg() public {
+        assertTrue(false, "msg");
+    }
+
+    // --- assertEq (Addr) ---
+
+    function testAssertEqAddr() public {
+        assertEq(address(0x0), address(0x0), "msg");
+        assertEq(address(0x0), address(0x0));
+    }
+    function testFailAssertEqAddr() public {
+        assertEq(address(0x0), address(0x1));
+    }
+    function testFailAssertEqAddrWithMsg() public {
+        assertEq(address(0x0), address(0x1), "msg");
+    }
+
+    // --- assertEq (Bytes32) ---
+
+    function testAssertEqBytes32() public {
+        assertEq(bytes32("hi"), bytes32("hi"), "msg");
+        assertEq(bytes32("hi"), bytes32("hi"));
+    }
+    function testFailAssertEqBytes32() public {
+        assertEq(bytes32("hi"), bytes32("ho"));
+    }
+    function testFailAssertEqBytes32WithMsg() public {
+        assertEq(bytes32("hi"), bytes32("ho"), "msg");
+    }
+
+    // --- assertEq (Int) ---
+
+    function testAssertEqInt() public {
+        assertEq(-1, -1, "msg");
+        assertEq(-1, -1);
+    }
+    function testFailAssertEqInt() public {
+        assertEq(-1, -2);
+    }
+    function testFailAssertEqIntWithMsg() public {
+        assertEq(-1, -2, "msg");
+    }
+
+    // --- assertEq (UInt) ---
+
+    function testAssertEqUInt() public {
+        assertEq(uint(1), uint(1), "msg");
+        assertEq(uint(1), uint(1));
+    }
+    function testFailAssertEqUInt() public {
+        assertEq(uint(1), uint(2));
+    }
+    function testFailAssertEqUIntWithMsg() public {
+        assertEq(uint(1), uint(2), "msg");
+    }
+
+    // --- assertEqDecimal (Int) ---
+
+    function testAssertEqDecimalInt() public {
+        assertEqDecimal(-1, -1, 18, "msg");
+        assertEqDecimal(-1, -1, 18);
+    }
+    function testFailAssertEqDecimalInt() public {
+        assertEqDecimal(-1, -2, 18);
+    }
+    function testFailAssertEqDecimalIntWithMsg() public {
+        assertEqDecimal(-1, -2, 18, "msg");
+    }
+
+    // --- assertEqDecimal (UInt) ---
+
+    function testAssertEqDecimalUInt() public {
+        assertEqDecimal(uint(1), uint(1), 18, "msg");
+        assertEqDecimal(uint(1), uint(1), 18);
+    }
+    function testFailAssertEqDecimalUInt() public {
+        assertEqDecimal(uint(1), uint(2), 18);
+    }
+    function testFailAssertEqDecimalUIntWithMsg() public {
+        assertEqDecimal(uint(1), uint(2), 18, "msg");
+    }
+
+    // --- assertNotEq (Addr) ---
+
+    function testAssertNotEqAddr() public {
+        assertNotEq(address(0x0), address(0x1), "msg");
+        assertNotEq(address(0x0), address(0x1));
+    }
+    function testFailAssertNotEqAddr() public {
+        assertNotEq(address(0x0), address(0x0));
+    }
+    function testFailAssertNotEqAddrWithMsg() public {
+        assertNotEq(address(0x0), address(0x0), "msg");
+    }
+
+    // --- assertNotEq (Bytes32) ---
+
+    function testAssertNotEqBytes32() public {
+        assertNotEq(bytes32("hi"), bytes32("ho"), "msg");
+        assertNotEq(bytes32("hi"), bytes32("ho"));
+    }
+    function testFailAssertNotEqBytes32() public {
+        assertNotEq(bytes32("hi"), bytes32("hi"));
+    }
+    function testFailAssertNotEqBytes32WithMsg() public {
+        assertNotEq(bytes32("hi"), bytes32("hi"), "msg");
+    }
+
+    // --- assertNotEq (Int) ---
+
+    function testAssertNotEqInt() public {
+        assertNotEq(-1, -2, "msg");
+        assertNotEq(-1, -2);
+    }
+    function testFailAssertNotEqInt() public {
+        assertNotEq(-1, -1);
+    }
+    function testFailAssertNotEqIntWithMsg() public {
+        assertNotEq(-1, -1, "msg");
+    }
+
+    // --- assertNotEq (UInt) ---
+
+    function testAssertNotEqUInt() public {
+        assertNotEq(uint(1), uint(2), "msg");
+        assertNotEq(uint(1), uint(2));
+    }
+    function testFailAssertNotEqUInt() public {
+        assertNotEq(uint(1), uint(1));
+    }
+    function testFailAssertNotEqUIntWithMsg() public {
+        assertNotEq(uint(1), uint(1), "msg");
+    }
+
+    // --- assertNotEqDecimal (Int) ---
+
+    function testAssertNotEqDecimalInt() public {
+        assertNotEqDecimal(-1, -2, 18, "msg");
+        assertNotEqDecimal(-1, -2, 18);
+    }
+    function testFailAssertNotEqDecimalInt() public {
+        assertNotEqDecimal(-1, -1, 18);
+    }
+    function testFailAssertNotEqDecimalIntWithMsg() public {
+        assertNotEqDecimal(-1, -1, 18, "msg");
+    }
+
+    // --- assertNotEqDecimal (UInt) ---
+
+    function testAssertNotEqDecimalUInt() public {
+        assertNotEqDecimal(uint(1), uint(2), 18, "msg");
+        assertNotEqDecimal(uint(1), uint(2), 18);
+    }
+    function testFailAssertNotEqDecimalUInt() public {
+        assertNotEqDecimal(uint(1), uint(1), 18);
+    }
+    function testFailAssertNotEqDecimalUIntWithMsg() public {
+        assertNotEqDecimal(uint(1), uint(1), 18, "msg");
+    }
+
+    // --- assertGt (UInt) ---
+
+    function testAssertGtUInt() public {
+        assertGt(uint(2), uint(1), "msg");
+        assertGt(uint(3), uint(2));
+    }
+    function testFailAssertGtUInt() public {
+        assertGt(uint(1), uint(2));
+    }
+    function testFailAssertGtUIntWithMsg() public {
+        assertGt(uint(1), uint(2), "msg");
+    }
+
+    // --- assertGt (Int) ---
+
+    function testAssertGtInt() public {
+        assertGt(-1, -2, "msg");
+        assertGt(-1, -3);
+    }
+    function testFailAssertGtInt() public {
+        assertGt(-2, -1);
+    }
+    function testFailAssertGtIntWithMsg() public {
+        assertGt(-2, -1, "msg");
+    }
+
+    // --- assertGtDecimal (UInt) ---
+
+    function testAssertGtDecimalUInt() public {
+        assertGtDecimal(uint(2), uint(1), 18, "msg");
+        assertGtDecimal(uint(3), uint(2), 18);
+    }
+    function testFailAssertGtDecimalUInt() public {
+        assertGtDecimal(uint(1), uint(2), 18);
+    }
+    function testFailAssertGtDecimalUIntWithMsg() public {
+        assertGtDecimal(uint(1), uint(2), 18, "msg");
+    }
+
+    // --- assertGtDecimal (Int) ---
+
+    function testAssertGtDecimalInt() public {
+        assertGtDecimal(-1, -2, 18, "msg");
+        assertGtDecimal(-1, -3, 18);
+    }
+    function testFailAssertGtDecimalInt() public {
+        assertGtDecimal(-2, -1, 18);
+    }
+    function testFailAssertGtDecimalIntWithMsg() public {
+        assertGtDecimal(-2, -1, 18, "msg");
+    }
+
+    // --- assertGe (UInt) ---
+
+    function testAssertGeUInt() public {
+        assertGe(uint(2), uint(1), "msg");
+        assertGe(uint(2), uint(2));
+    }
+    function testFailAssertGeUInt() public {
+        assertGe(uint(1), uint(2));
+    }
+    function testFailAssertGeUIntWithMsg() public {
+        assertGe(uint(1), uint(2), "msg");
+    }
+
+    // --- assertGe (Int) ---
+
+    function testAssertGeInt() public {
+        assertGe(-1, -2, "msg");
+        assertGe(-1, -1);
+    }
+    function testFailAssertGeInt() public {
+        assertGe(-2, -1);
+    }
+    function testFailAssertGeIntWithMsg() public {
+        assertGe(-2, -1, "msg");
+    }
+
+    // --- assertGeDecimal (UInt) ---
+
+    function testAssertGeDecimalUInt() public {
+        assertGeDecimal(uint(2), uint(1), 18, "msg");
+        assertGeDecimal(uint(2), uint(2), 18);
+    }
+    function testFailAssertGeDecimalUInt() public {
+        assertGeDecimal(uint(1), uint(2), 18);
+    }
+    function testFailAssertGeDecimalUIntWithMsg() public {
+        assertGeDecimal(uint(1), uint(2), 18, "msg");
+    }
+
+    // --- assertGeDecimal (Int) ---
+
+    function testAssertGeDecimalInt() public {
+        assertGeDecimal(-1, -2, 18, "msg");
+        assertGeDecimal(-1, -2, 18);
+    }
+    function testFailAssertGeDecimalInt() public {
+        assertGeDecimal(-2, -1, 18);
+    }
+    function testFailAssertGeDecimalIntWithMsg() public {
+        assertGeDecimal(-2, -1, 18, "msg");
+    }
+
+    // --- assertLt (UInt) ---
+
+    function testAssertLtUInt() public {
+        assertLt(uint(1), uint(2), "msg");
+        assertLt(uint(1), uint(3));
+    }
+    function testFailAssertLtUInt() public {
+        assertLt(uint(2), uint(2));
+    }
+    function testFailAssertLtUIntWithMsg() public {
+        assertLt(uint(3), uint(2), "msg");
+    }
+
+    // --- assertLt (Int) ---
+
+    function testAssertLtInt() public {
+        assertLt(-2, -1, "msg");
+        assertLt(-1, 0);
+    }
+    function testFailAssertLtInt() public {
+        assertLt(-1, -2);
+    }
+    function testFailAssertLtIntWithMsg() public {
+        assertLt(-1, -1, "msg");
+    }
+
+    // --- assertLtDecimal (UInt) ---
+
+    function testAssertLtDecimalUInt() public {
+        assertLtDecimal(uint(1), uint(2), 18, "msg");
+        assertLtDecimal(uint(2), uint(3), 18);
+    }
+    function testFailAssertLtDecimalUInt() public {
+        assertLtDecimal(uint(1), uint(1), 18);
+    }
+    function testFailAssertLtDecimalUIntWithMsg() public {
+        assertLtDecimal(uint(2), uint(1), 18, "msg");
+    }
+
+    // --- assertLtDecimal (Int) ---
+
+    function testAssertLtDecimalInt() public {
+        assertLtDecimal(-2, -1, 18, "msg");
+        assertLtDecimal(-2, -1, 18);
+    }
+    function testFailAssertLtDecimalInt() public {
+        assertLtDecimal(-2, -2, 18);
+    }
+    function testFailAssertLtDecimalIntWithMsg() public {
+        assertLtDecimal(-1, -2, 18, "msg");
+    }
+
+    // --- assertLe (UInt) ---
+
+    function testAssertLeUInt() public {
+        assertLe(uint(1), uint(2), "msg");
+        assertLe(uint(1), uint(1));
+    }
+    function testFailAssertLeUInt() public {
+        assertLe(uint(4), uint(2));
+    }
+    function testFailAssertLeUIntWithMsg() public {
+        assertLe(uint(3), uint(2), "msg");
+    }
+
+    // --- assertLe (Int) ---
+
+    function testAssertLeInt() public {
+        assertLe(-2, -1, "msg");
+        assertLe(-1, -1);
+    }
+    function testFailAssertLeInt() public {
+        assertLe(-1, -2);
+    }
+    function testFailAssertLeIntWithMsg() public {
+        assertLe(-1, -3, "msg");
+    }
+
+    // --- assertLeDecimal (UInt) ---
+
+    function testAssertLeDecimalUInt() public {
+        assertLeDecimal(uint(1), uint(2), 18, "msg");
+        assertLeDecimal(uint(2), uint(2), 18);
+    }
+    function testFailAssertLeDecimalUInt() public {
+        assertLeDecimal(uint(1), uint(0), 18);
+    }
+    function testFailAssertLeDecimalUIntWithMsg() public {
+        assertLeDecimal(uint(1), uint(0), 18, "msg");
+    }
+
+    // --- assertLeDecimal (Int) ---
+
+    function testAssertLeDecimalInt() public {
+        assertLeDecimal(-2, -1, 18, "msg");
+        assertLeDecimal(-2, -2, 18);
+    }
+    function testFailAssertLeDecimalInt() public {
+        assertLeDecimal(-2, -3, 18);
+    }
+    function testFailAssertLeDecimalIntWithMsg() public {
+        assertLeDecimal(-1, -2, 18, "msg");
+    }
+
+    // --- assertNotEq (String) ---
+
+    function testAssertNotEqString() public {
+        assertNotEq(new string(1), new string(2), "msg");
+        assertNotEq(new string(1), new string(2));
+    }
+    function testFailAssertNotEqString() public {
+        assertNotEq(new string(1), new string(1));
+    }
+    function testFailAssertNotEqStringWithMsg() public {
+        assertNotEq(new string(1), new string(1), "msg");
+    }
+
+    // --- assertNotEq0 (Bytes) ---
+
+    function testAssertNotEq0Bytes() public {
+        assertNotEq0(bytes("hi"), bytes("ho"), "msg");
+        assertNotEq0(bytes("hi"), bytes("ho"));
+    }
+    function testFailAssertNotEq0Bytes() public {
+        assertNotEq0(bytes("hi"), bytes("hi"));
+    }
+    function testFailAssertNotEq0BytesWithMsg() public {
+        assertNotEq0(bytes("hi"), bytes("hi"), "msg");
+    }
+
+    // --- fail override ---
+
+    // ensure that fail can be overridden
+    function fail() internal override {
+        super.fail();
+    }
+}
