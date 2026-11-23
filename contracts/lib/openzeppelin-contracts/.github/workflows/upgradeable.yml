@@ -1,1 +1,34 @@
-bmFtZTogdHJhbnNwaWxlIHVwZ3JhZGVhYmxlCgpvbjoKICBwdXNoOgogICAgYnJhbmNoZXM6CiAgICAgIC0gbWFzdGVyCiAgICAgIC0gcmVsZWFzZS12KgoKam9iczoKICB0cmFuc3BpbGU6CiAgICBlbnZpcm9ubWVudDogcHVzaC11cGdyYWRlYWJsZQogICAgcnVucy1vbjogdWJ1bnR1LWxhdGVzdAogICAgc3RlcHM6CiAgICAgIC0gdXNlczogYWN0aW9ucy9jaGVja291dEB2NAogICAgICAgIHdpdGg6CiAgICAgICAgICByZXBvc2l0b3J5OiBPcGVuWmVwcGVsaW4vb3BlbnplcHBlbGluLWNvbnRyYWN0cy11cGdyYWRlYWJsZQogICAgICAgICAgZmV0Y2gtZGVwdGg6IDAKICAgICAgICAgIHRva2VuOiAke3sgc2VjcmV0cy5HSF9UT0tFTl9VUEdSQURFQUJMRSB9fQogICAgICAtIG5hbWU6IEZldGNoIGN1cnJlbnQgbm9uLXVwZ3JhZGVhYmxlIGJyYW5jaAogICAgICAgIHJ1bjogfAogICAgICAgICAgZ2l0IGZldGNoICIkUkVNT1RFIiBtYXN0ZXIgIyBGZXRjaCBkZWZhdWx0IGJyYW5jaCBmaXJzdCBmb3IgcGF0Y2ggdG8gYXBwbHkgY2xlYW5seQogICAgICAgICAgZ2l0IGZldGNoICIkUkVNT1RFIiAiJFJFRiIKICAgICAgICAgIGdpdCBjaGVja291dCBGRVRDSF9IRUFECiAgICAgICAgZW52OgogICAgICAgICAgUkVGOiAke3sgZ2l0aHViLnJlZiB9fQogICAgICAgICAgUkVNT1RFOiBodHRwczovL2dpdGh1Yi5jb20vJHt7IGdpdGh1Yi5yZXBvc2l0b3J5IH19LmdpdAogICAgICAtIG5hbWU6IFNldCB1cCBlbnZpcm9ubWVudAogICAgICAgIHVzZXM6IC4vLmdpdGh1Yi9hY3Rpb25zL3NldHVwCiAgICAgIC0gcnVuOiBiYXNoIHNjcmlwdHMvZ2l0LXVzZXItY29uZmlnLnNoCiAgICAgIC0gbmFtZTogVHJhbnNwaWxlIHRvIHVwZ3JhZGVhYmxlCiAgICAgICAgcnVuOiBiYXNoIHNjcmlwdHMvdXBncmFkZWFibGUvdHJhbnNwaWxlLW9udG8uc2ggJHt7IGdpdGh1Yi5yZWZfbmFtZSB9fSBvcmlnaW4vJHt7IGdpdGh1Yi5yZWZfbmFtZSB9fQogICAgICAgIGVudjoKICAgICAgICAgIFNVQk1PRFVMRV9SRU1PVEU6IGh0dHBzOi8vZ2l0aHViLmNvbS8ke3sgZ2l0aHViLnJlcG9zaXRvcnkgfX0uZ2l0CiAgICAgIC0gcnVuOiBnaXQgcHVzaCBvcmlnaW4gJHt7IGdpdGh1Yi5yZWZfbmFtZSB9fQo=
+name: transpile upgradeable
+
+on:
+  push:
+    branches:
+      - master
+      - release-v*
+
+jobs:
+  transpile:
+    environment: push-upgradeable
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: OpenZeppelin/openzeppelin-contracts-upgradeable
+          fetch-depth: 0
+          token: ${{ secrets.GH_TOKEN_UPGRADEABLE }}
+      - name: Fetch current non-upgradeable branch
+        run: |
+          git fetch "$REMOTE" master # Fetch default branch first for patch to apply cleanly
+          git fetch "$REMOTE" "$REF"
+          git checkout FETCH_HEAD
+        env:
+          REF: ${{ github.ref }}
+          REMOTE: https://github.com/${{ github.repository }}.git
+      - name: Set up environment
+        uses: ./.github/actions/setup
+      - run: bash scripts/git-user-config.sh
+      - name: Transpile to upgradeable
+        run: bash scripts/upgradeable/transpile-onto.sh ${{ github.ref_name }} origin/${{ github.ref_name }}
+        env:
+          SUBMODULE_REMOTE: https://github.com/${{ github.repository }}.git
+      - run: git push origin ${{ github.ref_name }}
