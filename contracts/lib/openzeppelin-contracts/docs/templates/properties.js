@@ -1,1 +1,72 @@
-Y29uc3QgeyBpc05vZGVUeXBlLCBmaW5kQWxsIH0gPSByZXF1aXJlKCdzb2xpZGl0eS1hc3QvdXRpbHMnKTsKY29uc3QgeyBzbHVnIH0gPSByZXF1aXJlKCcuL2hlbHBlcnMnKTsKCm1vZHVsZS5leHBvcnRzLmFuY2hvciA9IGZ1bmN0aW9uIGFuY2hvcih7IGl0ZW0sIGNvbnRyYWN0IH0pIHsKICBsZXQgcmVzID0gJyc7CiAgaWYgKGNvbnRyYWN0KSB7CiAgICByZXMgKz0gY29udHJhY3QubmFtZSArICctJzsKICB9CiAgcmVzICs9IGl0ZW0ubmFtZTsKICBpZiAoJ3BhcmFtZXRlcnMnIGluIGl0ZW0pIHsKICAgIGNvbnN0IHNpZ25hdHVyZSA9IGl0ZW0ucGFyYW1ldGVycy5wYXJhbWV0ZXJzLm1hcCh2ID0+IHYudHlwZU5hbWUudHlwZURlc2NyaXB0aW9ucy50eXBlU3RyaW5nKS5qb2luKCcsJyk7CiAgICByZXMgKz0gc2x1ZygnKCcgKyBzaWduYXR1cmUgKyAnKScpOwogIH0KICBpZiAoaXNOb2RlVHlwZSgnVmFyaWFibGVEZWNsYXJhdGlvbicsIGl0ZW0pKSB7CiAgICByZXMgKz0gJy0nICsgc2x1ZyhpdGVtLnR5cGVOYW1lLnR5cGVEZXNjcmlwdGlvbnMudHlwZVN0cmluZyk7CiAgfQogIHJldHVybiByZXM7Cn07Cgptb2R1bGUuZXhwb3J0cy5pbmhlcml0YW5jZSA9IGZ1bmN0aW9uICh7IGl0ZW0sIGJ1aWxkIH0pIHsKICBpZiAoIWlzTm9kZVR5cGUoJ0NvbnRyYWN0RGVmaW5pdGlvbicsIGl0ZW0pKSB7CiAgICB0aHJvdyBuZXcgRXJyb3IoJ3VzZWQgaW5oZXJpdGVkLWl0ZW1zIG9uIG5vbi1jb250cmFjdCcpOwogIH0KCiAgcmV0dXJuIGl0ZW0ubGluZWFyaXplZEJhc2VDb250cmFjdHMKICAgIC5tYXAoaWQgPT4gYnVpbGQuZGVyZWYoJ0NvbnRyYWN0RGVmaW5pdGlvbicsIGlkKSkKICAgIC5maWx0ZXIoKGMsIGkpID0+IGMubmFtZSAhPT0gJ0NvbnRleHQnIHx8IGkgPT09IDApOwp9OwoKbW9kdWxlLmV4cG9ydHNbJ2hhcy1mdW5jdGlvbnMnXSA9IGZ1bmN0aW9uICh7IGl0ZW0gfSkgewogIHJldHVybiBpdGVtLmluaGVyaXRhbmNlLnNvbWUoYyA9PiBjLmZ1bmN0aW9ucy5sZW5ndGggPiAwKTsKfTsKCm1vZHVsZS5leHBvcnRzWydoYXMtZXZlbnRzJ10gPSBmdW5jdGlvbiAoeyBpdGVtIH0pIHsKICByZXR1cm4gaXRlbS5pbmhlcml0YW5jZS5zb21lKGMgPT4gYy5ldmVudHMubGVuZ3RoID4gMCk7Cn07Cgptb2R1bGUuZXhwb3J0c1snaGFzLWVycm9ycyddID0gZnVuY3Rpb24gKHsgaXRlbSB9KSB7CiAgcmV0dXJuIGl0ZW0uaW5oZXJpdGFuY2Uuc29tZShjID0+IGMuZXJyb3JzLmxlbmd0aCA+IDApOwp9OwoKbW9kdWxlLmV4cG9ydHNbJ2ludGVybmFsLXZhcmlhYmxlcyddID0gZnVuY3Rpb24gKHsgaXRlbSB9KSB7CiAgcmV0dXJuIGl0ZW0udmFyaWFibGVzLmZpbHRlcigoeyB2aXNpYmlsaXR5IH0pID0+IHZpc2liaWxpdHkgPT09ICdpbnRlcm5hbCcpOwp9OwoKbW9kdWxlLmV4cG9ydHNbJ2hhcy1pbnRlcm5hbC12YXJpYWJsZXMnXSA9IGZ1bmN0aW9uICh7IGl0ZW0gfSkgewogIHJldHVybiBtb2R1bGUuZXhwb3J0c1snaW50ZXJuYWwtdmFyaWFibGVzJ10oeyBpdGVtIH0pLmxlbmd0aCA+IDA7Cn07Cgptb2R1bGUuZXhwb3J0cy5mdW5jdGlvbnMgPSBmdW5jdGlvbiAoeyBpdGVtIH0pIHsKICByZXR1cm4gWwogICAgLi4uWy4uLmZpbmRBbGwoJ0Z1bmN0aW9uRGVmaW5pdGlvbicsIGl0ZW0pXS5maWx0ZXIoZiA9PiBmLnZpc2liaWxpdHkgIT09ICdwcml2YXRlJyksCiAgICAuLi5bLi4uZmluZEFsbCgnVmFyaWFibGVEZWNsYXJhdGlvbicsIGl0ZW0pXS5maWx0ZXIoZiA9PiBmLnZpc2liaWxpdHkgPT09ICdwdWJsaWMnKSwKICBdOwp9OwoKbW9kdWxlLmV4cG9ydHMucmV0dXJuczIgPSBmdW5jdGlvbiAoeyBpdGVtIH0pIHsKICBpZiAoaXNOb2RlVHlwZSgnVmFyaWFibGVEZWNsYXJhdGlvbicsIGl0ZW0pKSB7CiAgICByZXR1cm4gW3sgdHlwZTogaXRlbS50eXBlRGVzY3JpcHRpb25zLnR5cGVTdHJpbmcgfV07CiAgfSBlbHNlIHsKICAgIHJldHVybiBpdGVtLnJldHVybnM7CiAgfQp9OwoKbW9kdWxlLmV4cG9ydHNbJ2luaGVyaXRlZC1mdW5jdGlvbnMnXSA9IGZ1bmN0aW9uICh7IGl0ZW0gfSkgewogIGNvbnN0IHsgaW5oZXJpdGFuY2UgfSA9IGl0ZW07CiAgY29uc3QgYmFzZUZ1bmN0aW9ucyA9IG5ldyBTZXQoaW5oZXJpdGFuY2UuZmxhdE1hcChjID0+IGMuZnVuY3Rpb25zLmZsYXRNYXAoZiA9PiBmLmJhc2VGdW5jdGlvbnMgPz8gW10pKSk7CiAgcmV0dXJuIGluaGVyaXRhbmNlLm1hcCgoY29udHJhY3QsIGkpID0+ICh7CiAgICBjb250cmFjdCwKICAgIGZ1bmN0aW9uczogY29udHJhY3QuZnVuY3Rpb25zLmZpbHRlcihmID0+ICFiYXNlRnVuY3Rpb25zLmhhcyhmLmlkKSAmJiAoZi5uYW1lICE9PSAnY29uc3RydWN0b3InIHx8IGkgPT09IDApKSwKICB9KSk7Cn07Cg==
+const { isNodeType, findAll } = require('solidity-ast/utils');
+const { slug } = require('./helpers');
+
+module.exports.anchor = function anchor({ item, contract }) {
+  let res = '';
+  if (contract) {
+    res += contract.name + '-';
+  }
+  res += item.name;
+  if ('parameters' in item) {
+    const signature = item.parameters.parameters.map(v => v.typeName.typeDescriptions.typeString).join(',');
+    res += slug('(' + signature + ')');
+  }
+  if (isNodeType('VariableDeclaration', item)) {
+    res += '-' + slug(item.typeName.typeDescriptions.typeString);
+  }
+  return res;
+};
+
+module.exports.inheritance = function ({ item, build }) {
+  if (!isNodeType('ContractDefinition', item)) {
+    throw new Error('used inherited-items on non-contract');
+  }
+
+  return item.linearizedBaseContracts
+    .map(id => build.deref('ContractDefinition', id))
+    .filter((c, i) => c.name !== 'Context' || i === 0);
+};
+
+module.exports['has-functions'] = function ({ item }) {
+  return item.inheritance.some(c => c.functions.length > 0);
+};
+
+module.exports['has-events'] = function ({ item }) {
+  return item.inheritance.some(c => c.events.length > 0);
+};
+
+module.exports['has-errors'] = function ({ item }) {
+  return item.inheritance.some(c => c.errors.length > 0);
+};
+
+module.exports['internal-variables'] = function ({ item }) {
+  return item.variables.filter(({ visibility }) => visibility === 'internal');
+};
+
+module.exports['has-internal-variables'] = function ({ item }) {
+  return module.exports['internal-variables']({ item }).length > 0;
+};
+
+module.exports.functions = function ({ item }) {
+  return [
+    ...[...findAll('FunctionDefinition', item)].filter(f => f.visibility !== 'private'),
+    ...[...findAll('VariableDeclaration', item)].filter(f => f.visibility === 'public'),
+  ];
+};
+
+module.exports.returns2 = function ({ item }) {
+  if (isNodeType('VariableDeclaration', item)) {
+    return [{ type: item.typeDescriptions.typeString }];
+  } else {
+    return item.returns;
+  }
+};
+
+module.exports['inherited-functions'] = function ({ item }) {
+  const { inheritance } = item;
+  const baseFunctions = new Set(inheritance.flatMap(c => c.functions.flatMap(f => f.baseFunctions ?? [])));
+  return inheritance.map((contract, i) => ({
+    contract,
+    functions: contract.functions.filter(f => !baseFunctions.has(f.id) && (f.name !== 'constructor' || i === 0)),
+  }));
+};
