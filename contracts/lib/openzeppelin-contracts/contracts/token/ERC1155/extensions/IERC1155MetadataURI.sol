@@ -1,1 +1,20 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodG9rZW4vRVJDMTE1NS9leHRlbnNpb25zL0lFUkMxMTU1TWV0YWRhdGFVUkkuc29sKQoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0lFUkMxMTU1fSBmcm9tICIuLi9JRVJDMTE1NS5zb2wiOwoKLyoqCiAqIEBkZXYgSW50ZXJmYWNlIG9mIHRoZSBvcHRpb25hbCBFUkMxMTU1TWV0YWRhdGFFeHRlbnNpb24gaW50ZXJmYWNlLCBhcyBkZWZpbmVkCiAqIGluIHRoZSBodHRwczovL2VpcHMuZXRoZXJldW0ub3JnL0VJUFMvZWlwLTExNTUjbWV0YWRhdGEtZXh0ZW5zaW9uc1tFUkNdLgogKi8KaW50ZXJmYWNlIElFUkMxMTU1TWV0YWRhdGFVUkkgaXMgSUVSQzExNTUgewogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIFVSSSBmb3IgdG9rZW4gdHlwZSBgaWRgLgogICAgICoKICAgICAqIElmIHRoZSBgXHtpZFx9YCBzdWJzdHJpbmcgaXMgcHJlc2VudCBpbiB0aGUgVVJJLCBpdCBtdXN0IGJlIHJlcGxhY2VkIGJ5CiAgICAgKiBjbGllbnRzIHdpdGggdGhlIGFjdHVhbCB0b2tlbiB0eXBlIElELgogICAgICovCiAgICBmdW5jdGlvbiB1cmkodWludDI1NiBpZCkgZXh0ZXJuYWwgdmlldyByZXR1cm5zIChzdHJpbmcgbWVtb3J5KTsKfQo=
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (token/ERC1155/extensions/IERC1155MetadataURI.sol)
+
+pragma solidity ^0.8.20;
+
+import {IERC1155} from "../IERC1155.sol";
+
+/**
+ * @dev Interface of the optional ERC1155MetadataExtension interface, as defined
+ * in the https://eips.ethereum.org/EIPS/eip-1155#metadata-extensions[ERC].
+ */
+interface IERC1155MetadataURI is IERC1155 {
+    /**
+     * @dev Returns the URI for token type `id`.
+     *
+     * If the `\{id\}` substring is present in the URI, it must be replaced by
+     * clients with the actual token type ID.
+     */
+    function uri(uint256 id) external view returns (string memory);
+}
