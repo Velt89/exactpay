@@ -1,1 +1,23 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0VSQzIwTXVsdGljYWxsTW9ja30gZnJvbSAiLi90b2tlbi9FUkMyME11bHRpY2FsbE1vY2suc29sIjsKCmNvbnRyYWN0IE11bHRpY2FsbEhlbHBlciB7CiAgICBmdW5jdGlvbiBjaGVja1JldHVyblZhbHVlcygKICAgICAgICBFUkMyME11bHRpY2FsbE1vY2sgbXVsdGljYWxsVG9rZW4sCiAgICAgICAgYWRkcmVzc1tdIGNhbGxkYXRhIHJlY2lwaWVudHMsCiAgICAgICAgdWludDI1NltdIGNhbGxkYXRhIGFtb3VudHMKICAgICkgZXh0ZXJuYWwgewogICAgICAgIGJ5dGVzW10gbWVtb3J5IGNhbGxzID0gbmV3IGJ5dGVzW10ocmVjaXBpZW50cy5sZW5ndGgpOwogICAgICAgIGZvciAodWludDI1NiBpID0gMDsgaSA8IHJlY2lwaWVudHMubGVuZ3RoOyBpKyspIHsKICAgICAgICAgICAgY2FsbHNbaV0gPSBhYmkuZW5jb2RlQ2FsbChtdWx0aWNhbGxUb2tlbi50cmFuc2ZlciwgKHJlY2lwaWVudHNbaV0sIGFtb3VudHNbaV0pKTsKICAgICAgICB9CgogICAgICAgIGJ5dGVzW10gbWVtb3J5IHJlc3VsdHMgPSBtdWx0aWNhbGxUb2tlbi5tdWx0aWNhbGwoY2FsbHMpOwogICAgICAgIGZvciAodWludDI1NiBpID0gMDsgaSA8IHJlc3VsdHMubGVuZ3RoOyBpKyspIHsKICAgICAgICAgICAgcmVxdWlyZShhYmkuZGVjb2RlKHJlc3VsdHNbaV0sIChib29sKSkpOwogICAgICAgIH0KICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {ERC20MulticallMock} from "./token/ERC20MulticallMock.sol";
+
+contract MulticallHelper {
+    function checkReturnValues(
+        ERC20MulticallMock multicallToken,
+        address[] calldata recipients,
+        uint256[] calldata amounts
+    ) external {
+        bytes[] memory calls = new bytes[](recipients.length);
+        for (uint256 i = 0; i < recipients.length; i++) {
+            calls[i] = abi.encodeCall(multicallToken.transfer, (recipients[i], amounts[i]));
+        }
+
+        bytes[] memory results = multicallToken.multicall(calls);
+        for (uint256 i = 0; i < results.length; i++) {
+            require(abi.decode(results[i], (bool)));
+        }
+    }
+}
