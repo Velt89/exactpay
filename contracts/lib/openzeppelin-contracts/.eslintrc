@@ -1,1 +1,20 @@
-ewogICJyb290IjogdHJ1ZSwKICAiZXh0ZW5kcyIgOiBbCiAgICAiZXNsaW50OnJlY29tbWVuZGVkIiwKICAgICJwcmV0dGllciIsCiAgXSwKICAiZW52IjogewogICAgImVzMjAyMiI6IHRydWUsCiAgICAiYnJvd3NlciI6IHRydWUsCiAgICAibm9kZSI6IHRydWUsCiAgICAibW9jaGEiOiB0cnVlLAogIH0sCiAgImdsb2JhbHMiIDogewogICAgImFydGlmYWN0cyI6ICJyZWFkb25seSIsCiAgICAiY29udHJhY3QiOiAicmVhZG9ubHkiLAogICAgIndlYjMiOiAicmVhZG9ubHkiLAogICAgImV4dGVuZEVudmlyb25tZW50IjogInJlYWRvbmx5IiwKICAgICJleHBlY3QiOiAicmVhZG9ubHkiLAogIH0KfQo=
+{
+  "root": true,
+  "extends" : [
+    "eslint:recommended",
+    "prettier",
+  ],
+  "env": {
+    "es2022": true,
+    "browser": true,
+    "node": true,
+    "mocha": true,
+  },
+  "globals" : {
+    "artifacts": "readonly",
+    "contract": "readonly",
+    "web3": "readonly",
+    "extendEnvironment": "readonly",
+    "expect": "readonly",
+  }
+}
