@@ -1,1 +1,135 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodG9rZW4vRVJDNzIxL0lFUkM3MjEuc29sKQoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0lFUkMxNjV9IGZyb20gIi4uLy4uL3V0aWxzL2ludHJvc3BlY3Rpb24vSUVSQzE2NS5zb2wiOwoKLyoqCiAqIEBkZXYgUmVxdWlyZWQgaW50ZXJmYWNlIG9mIGFuIEVSQy03MjEgY29tcGxpYW50IGNvbnRyYWN0LgogKi8KaW50ZXJmYWNlIElFUkM3MjEgaXMgSUVSQzE2NSB7CiAgICAvKioKICAgICAqIEBkZXYgRW1pdHRlZCB3aGVuIGB0b2tlbklkYCB0b2tlbiBpcyB0cmFuc2ZlcnJlZCBmcm9tIGBmcm9tYCB0byBgdG9gLgogICAgICovCiAgICBldmVudCBUcmFuc2ZlcihhZGRyZXNzIGluZGV4ZWQgZnJvbSwgYWRkcmVzcyBpbmRleGVkIHRvLCB1aW50MjU2IGluZGV4ZWQgdG9rZW5JZCk7CgogICAgLyoqCiAgICAgKiBAZGV2IEVtaXR0ZWQgd2hlbiBgb3duZXJgIGVuYWJsZXMgYGFwcHJvdmVkYCB0byBtYW5hZ2UgdGhlIGB0b2tlbklkYCB0b2tlbi4KICAgICAqLwogICAgZXZlbnQgQXBwcm92YWwoYWRkcmVzcyBpbmRleGVkIG93bmVyLCBhZGRyZXNzIGluZGV4ZWQgYXBwcm92ZWQsIHVpbnQyNTYgaW5kZXhlZCB0b2tlbklkKTsKCiAgICAvKioKICAgICAqIEBkZXYgRW1pdHRlZCB3aGVuIGBvd25lcmAgZW5hYmxlcyBvciBkaXNhYmxlcyAoYGFwcHJvdmVkYCkgYG9wZXJhdG9yYCB0byBtYW5hZ2UgYWxsIG9mIGl0cyBhc3NldHMuCiAgICAgKi8KICAgIGV2ZW50IEFwcHJvdmFsRm9yQWxsKGFkZHJlc3MgaW5kZXhlZCBvd25lciwgYWRkcmVzcyBpbmRleGVkIG9wZXJhdG9yLCBib29sIGFwcHJvdmVkKTsKCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyB0aGUgbnVtYmVyIG9mIHRva2VucyBpbiBgYG93bmVyYGAncyBhY2NvdW50LgogICAgICovCiAgICBmdW5jdGlvbiBiYWxhbmNlT2YoYWRkcmVzcyBvd25lcikgZXh0ZXJuYWwgdmlldyByZXR1cm5zICh1aW50MjU2IGJhbGFuY2UpOwoKICAgIC8qKgogICAgICogQGRldiBSZXR1cm5zIHRoZSBvd25lciBvZiB0aGUgYHRva2VuSWRgIHRva2VuLgogICAgICoKICAgICAqIFJlcXVpcmVtZW50czoKICAgICAqCiAgICAgKiAtIGB0b2tlbklkYCBtdXN0IGV4aXN0LgogICAgICovCiAgICBmdW5jdGlvbiBvd25lck9mKHVpbnQyNTYgdG9rZW5JZCkgZXh0ZXJuYWwgdmlldyByZXR1cm5zIChhZGRyZXNzIG93bmVyKTsKCiAgICAvKioKICAgICAqIEBkZXYgU2FmZWx5IHRyYW5zZmVycyBgdG9rZW5JZGAgdG9rZW4gZnJvbSBgZnJvbWAgdG8gYHRvYC4KICAgICAqCiAgICAgKiBSZXF1aXJlbWVudHM6CiAgICAgKgogICAgICogLSBgZnJvbWAgY2Fubm90IGJlIHRoZSB6ZXJvIGFkZHJlc3MuCiAgICAgKiAtIGB0b2AgY2Fubm90IGJlIHRoZSB6ZXJvIGFkZHJlc3MuCiAgICAgKiAtIGB0b2tlbklkYCB0b2tlbiBtdXN0IGV4aXN0IGFuZCBiZSBvd25lZCBieSBgZnJvbWAuCiAgICAgKiAtIElmIHRoZSBjYWxsZXIgaXMgbm90IGBmcm9tYCwgaXQgbXVzdCBiZSBhcHByb3ZlZCB0byBtb3ZlIHRoaXMgdG9rZW4gYnkgZWl0aGVyIHthcHByb3ZlfSBvciB7c2V0QXBwcm92YWxGb3JBbGx9LgogICAgICogLSBJZiBgdG9gIHJlZmVycyB0byBhIHNtYXJ0IGNvbnRyYWN0LCBpdCBtdXN0IGltcGxlbWVudCB7SUVSQzcyMVJlY2VpdmVyLW9uRVJDNzIxUmVjZWl2ZWR9LCB3aGljaCBpcyBjYWxsZWQgdXBvbgogICAgICogICBhIHNhZmUgdHJhbnNmZXIuCiAgICAgKgogICAgICogRW1pdHMgYSB7VHJhbnNmZXJ9IGV2ZW50LgogICAgICovCiAgICBmdW5jdGlvbiBzYWZlVHJhbnNmZXJGcm9tKGFkZHJlc3MgZnJvbSwgYWRkcmVzcyB0bywgdWludDI1NiB0b2tlbklkLCBieXRlcyBjYWxsZGF0YSBkYXRhKSBleHRlcm5hbDsKCiAgICAvKioKICAgICAqIEBkZXYgU2FmZWx5IHRyYW5zZmVycyBgdG9rZW5JZGAgdG9rZW4gZnJvbSBgZnJvbWAgdG8gYHRvYCwgY2hlY2tpbmcgZmlyc3QgdGhhdCBjb250cmFjdCByZWNpcGllbnRzCiAgICAgKiBhcmUgYXdhcmUgb2YgdGhlIEVSQy03MjEgcHJvdG9jb2wgdG8gcHJldmVudCB0b2tlbnMgZnJvbSBiZWluZyBmb3JldmVyIGxvY2tlZC4KICAgICAqCiAgICAgKiBSZXF1aXJlbWVudHM6CiAgICAgKgogICAgICogLSBgZnJvbWAgY2Fubm90IGJlIHRoZSB6ZXJvIGFkZHJlc3MuCiAgICAgKiAtIGB0b2AgY2Fubm90IGJlIHRoZSB6ZXJvIGFkZHJlc3MuCiAgICAgKiAtIGB0b2tlbklkYCB0b2tlbiBtdXN0IGV4aXN0IGFuZCBiZSBvd25lZCBieSBgZnJvbWAuCiAgICAgKiAtIElmIHRoZSBjYWxsZXIgaXMgbm90IGBmcm9tYCwgaXQgbXVzdCBoYXZlIGJlZW4gYWxsb3dlZCB0byBtb3ZlIHRoaXMgdG9rZW4gYnkgZWl0aGVyIHthcHByb3ZlfSBvcgogICAgICogICB7c2V0QXBwcm92YWxGb3JBbGx9LgogICAgICogLSBJZiBgdG9gIHJlZmVycyB0byBhIHNtYXJ0IGNvbnRyYWN0LCBpdCBtdXN0IGltcGxlbWVudCB7SUVSQzcyMVJlY2VpdmVyLW9uRVJDNzIxUmVjZWl2ZWR9LCB3aGljaCBpcyBjYWxsZWQgdXBvbgogICAgICogICBhIHNhZmUgdHJhbnNmZXIuCiAgICAgKgogICAgICogRW1pdHMgYSB7VHJhbnNmZXJ9IGV2ZW50LgogICAgICovCiAgICBmdW5jdGlvbiBzYWZlVHJhbnNmZXJGcm9tKGFkZHJlc3MgZnJvbSwgYWRkcmVzcyB0bywgdWludDI1NiB0b2tlbklkKSBleHRlcm5hbDsKCiAgICAvKioKICAgICAqIEBkZXYgVHJhbnNmZXJzIGB0b2tlbklkYCB0b2tlbiBmcm9tIGBmcm9tYCB0byBgdG9gLgogICAgICoKICAgICAqIFdBUk5JTkc6IE5vdGUgdGhhdCB0aGUgY2FsbGVyIGlzIHJlc3BvbnNpYmxlIHRvIGNvbmZpcm0gdGhhdCB0aGUgcmVjaXBpZW50IGlzIGNhcGFibGUgb2YgcmVjZWl2aW5nIEVSQy03MjEKICAgICAqIG9yIGVsc2UgdGhleSBtYXkgYmUgcGVybWFuZW50bHkgbG9zdC4gVXNhZ2Ugb2Yge3NhZmVUcmFuc2ZlckZyb219IHByZXZlbnRzIGxvc3MsIHRob3VnaCB0aGUgY2FsbGVyIG11c3QKICAgICAqIHVuZGVyc3RhbmQgdGhpcyBhZGRzIGFuIGV4dGVybmFsIGNhbGwgd2hpY2ggcG90ZW50aWFsbHkgY3JlYXRlcyBhIHJlZW50cmFuY3kgdnVsbmVyYWJpbGl0eS4KICAgICAqCiAgICAgKiBSZXF1aXJlbWVudHM6CiAgICAgKgogICAgICogLSBgZnJvbWAgY2Fubm90IGJlIHRoZSB6ZXJvIGFkZHJlc3MuCiAgICAgKiAtIGB0b2AgY2Fubm90IGJlIHRoZSB6ZXJvIGFkZHJlc3MuCiAgICAgKiAtIGB0b2tlbklkYCB0b2tlbiBtdXN0IGJlIG93bmVkIGJ5IGBmcm9tYC4KICAgICAqIC0gSWYgdGhlIGNhbGxlciBpcyBub3QgYGZyb21gLCBpdCBtdXN0IGJlIGFwcHJvdmVkIHRvIG1vdmUgdGhpcyB0b2tlbiBieSBlaXRoZXIge2FwcHJvdmV9IG9yIHtzZXRBcHByb3ZhbEZvckFsbH0uCiAgICAgKgogICAgICogRW1pdHMgYSB7VHJhbnNmZXJ9IGV2ZW50LgogICAgICovCiAgICBmdW5jdGlvbiB0cmFuc2ZlckZyb20oYWRkcmVzcyBmcm9tLCBhZGRyZXNzIHRvLCB1aW50MjU2IHRva2VuSWQpIGV4dGVybmFsOwoKICAgIC8qKgogICAgICogQGRldiBHaXZlcyBwZXJtaXNzaW9uIHRvIGB0b2AgdG8gdHJhbnNmZXIgYHRva2VuSWRgIHRva2VuIHRvIGFub3RoZXIgYWNjb3VudC4KICAgICAqIFRoZSBhcHByb3ZhbCBpcyBjbGVhcmVkIHdoZW4gdGhlIHRva2VuIGlzIHRyYW5zZmVycmVkLgogICAgICoKICAgICAqIE9ubHkgYSBzaW5nbGUgYWNjb3VudCBjYW4gYmUgYXBwcm92ZWQgYXQgYSB0aW1lLCBzbyBhcHByb3ZpbmcgdGhlIHplcm8gYWRkcmVzcyBjbGVhcnMgcHJldmlvdXMgYXBwcm92YWxzLgogICAgICoKICAgICAqIFJlcXVpcmVtZW50czoKICAgICAqCiAgICAgKiAtIFRoZSBjYWxsZXIgbXVzdCBvd24gdGhlIHRva2VuIG9yIGJlIGFuIGFwcHJvdmVkIG9wZXJhdG9yLgogICAgICogLSBgdG9rZW5JZGAgbXVzdCBleGlzdC4KICAgICAqCiAgICAgKiBFbWl0cyBhbiB7QXBwcm92YWx9IGV2ZW50LgogICAgICovCiAgICBmdW5jdGlvbiBhcHByb3ZlKGFkZHJlc3MgdG8sIHVpbnQyNTYgdG9rZW5JZCkgZXh0ZXJuYWw7CgogICAgLyoqCiAgICAgKiBAZGV2IEFwcHJvdmUgb3IgcmVtb3ZlIGBvcGVyYXRvcmAgYXMgYW4gb3BlcmF0b3IgZm9yIHRoZSBjYWxsZXIuCiAgICAgKiBPcGVyYXRvcnMgY2FuIGNhbGwge3RyYW5zZmVyRnJvbX0gb3Ige3NhZmVUcmFuc2ZlckZyb219IGZvciBhbnkgdG9rZW4gb3duZWQgYnkgdGhlIGNhbGxlci4KICAgICAqCiAgICAgKiBSZXF1aXJlbWVudHM6CiAgICAgKgogICAgICogLSBUaGUgYG9wZXJhdG9yYCBjYW5ub3QgYmUgdGhlIGFkZHJlc3MgemVyby4KICAgICAqCiAgICAgKiBFbWl0cyBhbiB7QXBwcm92YWxGb3JBbGx9IGV2ZW50LgogICAgICovCiAgICBmdW5jdGlvbiBzZXRBcHByb3ZhbEZvckFsbChhZGRyZXNzIG9wZXJhdG9yLCBib29sIGFwcHJvdmVkKSBleHRlcm5hbDsKCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyB0aGUgYWNjb3VudCBhcHByb3ZlZCBmb3IgYHRva2VuSWRgIHRva2VuLgogICAgICoKICAgICAqIFJlcXVpcmVtZW50czoKICAgICAqCiAgICAgKiAtIGB0b2tlbklkYCBtdXN0IGV4aXN0LgogICAgICovCiAgICBmdW5jdGlvbiBnZXRBcHByb3ZlZCh1aW50MjU2IHRva2VuSWQpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAoYWRkcmVzcyBvcGVyYXRvcik7CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgaWYgdGhlIGBvcGVyYXRvcmAgaXMgYWxsb3dlZCB0byBtYW5hZ2UgYWxsIG9mIHRoZSBhc3NldHMgb2YgYG93bmVyYC4KICAgICAqCiAgICAgKiBTZWUge3NldEFwcHJvdmFsRm9yQWxsfQogICAgICovCiAgICBmdW5jdGlvbiBpc0FwcHJvdmVkRm9yQWxsKGFkZHJlc3Mgb3duZXIsIGFkZHJlc3Mgb3BlcmF0b3IpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAoYm9vbCk7Cn0K
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (token/ERC721/IERC721.sol)
+
+pragma solidity ^0.8.20;
+
+import {IERC165} from "../../utils/introspection/IERC165.sol";
+
+/**
+ * @dev Required interface of an ERC-721 compliant contract.
+ */
+interface IERC721 is IERC165 {
+    /**
+     * @dev Emitted when `tokenId` token is transferred from `from` to `to`.
+     */
+    event Transfer(address indexed from, address indexed to, uint256 indexed tokenId);
+
+    /**
+     * @dev Emitted when `owner` enables `approved` to manage the `tokenId` token.
+     */
+    event Approval(address indexed owner, address indexed approved, uint256 indexed tokenId);
+
+    /**
+     * @dev Emitted when `owner` enables or disables (`approved`) `operator` to manage all of its assets.
+     */
+    event ApprovalForAll(address indexed owner, address indexed operator, bool approved);
+
+    /**
+     * @dev Returns the number of tokens in ``owner``'s account.
+     */
+    function balanceOf(address owner) external view returns (uint256 balance);
+
+    /**
+     * @dev Returns the owner of the `tokenId` token.
+     *
+     * Requirements:
+     *
+     * - `tokenId` must exist.
+     */
+    function ownerOf(uint256 tokenId) external view returns (address owner);
+
+    /**
+     * @dev Safely transfers `tokenId` token from `from` to `to`.
+     *
+     * Requirements:
+     *
+     * - `from` cannot be the zero address.
+     * - `to` cannot be the zero address.
+     * - `tokenId` token must exist and be owned by `from`.
+     * - If the caller is not `from`, it must be approved to move this token by either {approve} or {setApprovalForAll}.
+     * - If `to` refers to a smart contract, it must implement {IERC721Receiver-onERC721Received}, which is called upon
+     *   a safe transfer.
+     *
+     * Emits a {Transfer} event.
+     */
+    function safeTransferFrom(address from, address to, uint256 tokenId, bytes calldata data) external;
+
+    /**
+     * @dev Safely transfers `tokenId` token from `from` to `to`, checking first that contract recipients
+     * are aware of the ERC-721 protocol to prevent tokens from being forever locked.
+     *
+     * Requirements:
+     *
+     * - `from` cannot be the zero address.
+     * - `to` cannot be the zero address.
+     * - `tokenId` token must exist and be owned by `from`.
+     * - If the caller is not `from`, it must have been allowed to move this token by either {approve} or
+     *   {setApprovalForAll}.
+     * - If `to` refers to a smart contract, it must implement {IERC721Receiver-onERC721Received}, which is called upon
+     *   a safe transfer.
+     *
+     * Emits a {Transfer} event.
+     */
+    function safeTransferFrom(address from, address to, uint256 tokenId) external;
+
+    /**
+     * @dev Transfers `tokenId` token from `from` to `to`.
+     *
+     * WARNING: Note that the caller is responsible to confirm that the recipient is capable of receiving ERC-721
+     * or else they may be permanently lost. Usage of {safeTransferFrom} prevents loss, though the caller must
+     * understand this adds an external call which potentially creates a reentrancy vulnerability.
+     *
+     * Requirements:
+     *
+     * - `from` cannot be the zero address.
+     * - `to` cannot be the zero address.
+     * - `tokenId` token must be owned by `from`.
+     * - If the caller is not `from`, it must be approved to move this token by either {approve} or {setApprovalForAll}.
+     *
+     * Emits a {Transfer} event.
+     */
+    function transferFrom(address from, address to, uint256 tokenId) external;
+
+    /**
+     * @dev Gives permission to `to` to transfer `tokenId` token to another account.
+     * The approval is cleared when the token is transferred.
+     *
+     * Only a single account can be approved at a time, so approving the zero address clears previous approvals.
+     *
+     * Requirements:
+     *
+     * - The caller must own the token or be an approved operator.
+     * - `tokenId` must exist.
+     *
+     * Emits an {Approval} event.
+     */
+    function approve(address to, uint256 tokenId) external;
+
+    /**
+     * @dev Approve or remove `operator` as an operator for the caller.
+     * Operators can call {transferFrom} or {safeTransferFrom} for any token owned by the caller.
+     *
+     * Requirements:
+     *
+     * - The `operator` cannot be the address zero.
+     *
+     * Emits an {ApprovalForAll} event.
+     */
+    function setApprovalForAll(address operator, bool approved) external;
+
+    /**
+     * @dev Returns the account approved for `tokenId` token.
+     *
+     * Requirements:
+     *
+     * - `tokenId` must exist.
+     */
+    function getApproved(uint256 tokenId) external view returns (address operator);
+
+    /**
+     * @dev Returns if the `operator` is allowed to manage all of the assets of `owner`.
+     *
+     * See {setApprovalForAll}
+     */
+    function isApprovedForAll(address owner, address operator) external view returns (bool);
+}
