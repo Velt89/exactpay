@@ -1,1 +1,61 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKY29uc3QgVEVTVF9NRVNTQUdFID0gZXRoZXJzLmlkKCdPcGVuWmVwcGVsaW4nKTsKY29uc3QgVEVTVF9NRVNTQUdFX0hBU0ggPSBldGhlcnMuaGFzaE1lc3NhZ2UoVEVTVF9NRVNTQUdFKTsKCmNvbnN0IFdST05HX01FU1NBR0UgPSBldGhlcnMuaWQoJ05vcGUnKTsKY29uc3QgV1JPTkdfTUVTU0FHRV9IQVNIID0gZXRoZXJzLmhhc2hNZXNzYWdlKFdST05HX01FU1NBR0UpOwoKYXN5bmMgZnVuY3Rpb24gZml4dHVyZSgpIHsKICBjb25zdCBbc2lnbmVyLCBvdGhlcl0gPSBhd2FpdCBldGhlcnMuZ2V0U2lnbmVycygpOwogIGNvbnN0IG1vY2sgPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJyRTaWduYXR1cmVDaGVja2VyJyk7CiAgY29uc3Qgd2FsbGV0ID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCdFUkMxMjcxV2FsbGV0TW9jaycsIFtzaWduZXJdKTsKICBjb25zdCBtYWxpY2lvdXMgPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJ0VSQzEyNzFNYWxpY2lvdXNNb2NrJyk7CiAgY29uc3Qgc2lnbmF0dXJlID0gYXdhaXQgc2lnbmVyLnNpZ25NZXNzYWdlKFRFU1RfTUVTU0FHRSk7CgogIHJldHVybiB7IHNpZ25lciwgb3RoZXIsIG1vY2ssIHdhbGxldCwgbWFsaWNpb3VzLCBzaWduYXR1cmUgfTsKfQoKZGVzY3JpYmUoJ1NpZ25hdHVyZUNoZWNrZXIgKEVSQzEyNzEpJywgZnVuY3Rpb24gKCkgewogIGJlZm9yZSgnZGVwbG95aW5nJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgT2JqZWN0LmFzc2lnbih0aGlzLCBhd2FpdCBsb2FkRml4dHVyZShmaXh0dXJlKSk7CiAgfSk7CgogIGRlc2NyaWJlKCdFT0EgYWNjb3VudCcsIGZ1bmN0aW9uICgpIHsKICAgIGl0KCd3aXRoIG1hdGNoaW5nIHNpZ25lciBhbmQgc2lnbmF0dXJlJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRpc1ZhbGlkU2lnbmF0dXJlTm93KHRoaXMuc2lnbmVyLCBURVNUX01FU1NBR0VfSEFTSCwgdGhpcy5zaWduYXR1cmUpKS50by5iZS50cnVlOwogICAgfSk7CgogICAgaXQoJ3dpdGggaW52YWxpZCBzaWduZXInLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGlzVmFsaWRTaWduYXR1cmVOb3codGhpcy5vdGhlciwgVEVTVF9NRVNTQUdFX0hBU0gsIHRoaXMuc2lnbmF0dXJlKSkudG8uYmUuZmFsc2U7CiAgICB9KTsKCiAgICBpdCgnd2l0aCBpbnZhbGlkIHNpZ25hdHVyZScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kaXNWYWxpZFNpZ25hdHVyZU5vdyh0aGlzLnNpZ25lciwgV1JPTkdfTUVTU0FHRV9IQVNILCB0aGlzLnNpZ25hdHVyZSkpLnRvLmJlLmZhbHNlOwogICAgfSk7CiAgfSk7CgogIGRlc2NyaWJlKCdFUkMxMjcxIHdhbGxldCcsIGZ1bmN0aW9uICgpIHsKICAgIGZvciAoY29uc3QgZm4gb2YgWydpc1ZhbGlkRVJDMTI3MVNpZ25hdHVyZU5vdycsICdpc1ZhbGlkU2lnbmF0dXJlTm93J10pIHsKICAgICAgZGVzY3JpYmUoZm4sIGZ1bmN0aW9uICgpIHsKICAgICAgICBpdCgnd2l0aCBtYXRjaGluZyBzaWduZXIgYW5kIHNpZ25hdHVyZScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suZ2V0RnVuY3Rpb24oYCQke2ZufWApKHRoaXMud2FsbGV0LCBURVNUX01FU1NBR0VfSEFTSCwgdGhpcy5zaWduYXR1cmUpKS50by5iZS50cnVlOwogICAgICAgIH0pOwoKICAgICAgICBpdCgnd2l0aCBpbnZhbGlkIHNpZ25lcicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suZ2V0RnVuY3Rpb24oYCQke2ZufWApKHRoaXMubW9jaywgVEVTVF9NRVNTQUdFX0hBU0gsIHRoaXMuc2lnbmF0dXJlKSkudG8uYmUuZmFsc2U7CiAgICAgICAgfSk7CgogICAgICAgIGl0KCd3aXRoIGludmFsaWQgc2lnbmF0dXJlJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay5nZXRGdW5jdGlvbihgJCR7Zm59YCkodGhpcy53YWxsZXQsIFdST05HX01FU1NBR0VfSEFTSCwgdGhpcy5zaWduYXR1cmUpKS50by5iZS5mYWxzZTsKICAgICAgICB9KTsKCiAgICAgICAgaXQoJ3dpdGggbWFsaWNpb3VzIHdhbGxldCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suZ2V0RnVuY3Rpb24oYCQke2ZufWApKHRoaXMubWFsaWNpb3VzLCBURVNUX01FU1NBR0VfSEFTSCwgdGhpcy5zaWduYXR1cmUpKS50by5iZS5mYWxzZTsKICAgICAgICB9KTsKICAgICAgfSk7CiAgICB9CiAgfSk7Cn0pOwo=
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+const TEST_MESSAGE = ethers.id('OpenZeppelin');
+const TEST_MESSAGE_HASH = ethers.hashMessage(TEST_MESSAGE);
+
+const WRONG_MESSAGE = ethers.id('Nope');
+const WRONG_MESSAGE_HASH = ethers.hashMessage(WRONG_MESSAGE);
+
+async function fixture() {
+  const [signer, other] = await ethers.getSigners();
+  const mock = await ethers.deployContract('$SignatureChecker');
+  const wallet = await ethers.deployContract('ERC1271WalletMock', [signer]);
+  const malicious = await ethers.deployContract('ERC1271MaliciousMock');
+  const signature = await signer.signMessage(TEST_MESSAGE);
+
+  return { signer, other, mock, wallet, malicious, signature };
+}
+
+describe('SignatureChecker (ERC1271)', function () {
+  before('deploying', async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  describe('EOA account', function () {
+    it('with matching signer and signature', async function () {
+      expect(await this.mock.$isValidSignatureNow(this.signer, TEST_MESSAGE_HASH, this.signature)).to.be.true;
+    });
+
+    it('with invalid signer', async function () {
+      expect(await this.mock.$isValidSignatureNow(this.other, TEST_MESSAGE_HASH, this.signature)).to.be.false;
+    });
+
+    it('with invalid signature', async function () {
+      expect(await this.mock.$isValidSignatureNow(this.signer, WRONG_MESSAGE_HASH, this.signature)).to.be.false;
+    });
+  });
+
+  describe('ERC1271 wallet', function () {
+    for (const fn of ['isValidERC1271SignatureNow', 'isValidSignatureNow']) {
+      describe(fn, function () {
+        it('with matching signer and signature', async function () {
+          expect(await this.mock.getFunction(`$${fn}`)(this.wallet, TEST_MESSAGE_HASH, this.signature)).to.be.true;
+        });
+
+        it('with invalid signer', async function () {
+          expect(await this.mock.getFunction(`$${fn}`)(this.mock, TEST_MESSAGE_HASH, this.signature)).to.be.false;
+        });
+
+        it('with invalid signature', async function () {
+          expect(await this.mock.getFunction(`$${fn}`)(this.wallet, WRONG_MESSAGE_HASH, this.signature)).to.be.false;
+        });
+
+        it('with malicious wallet', async function () {
+          expect(await this.mock.getFunction(`$${fn}`)(this.malicious, TEST_MESSAGE_HASH, this.signature)).to.be.false;
+        });
+      });
+    }
+  });
+});
