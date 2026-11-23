@@ -1,1 +1,199 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodG9rZW4vRVJDMjAvdXRpbHMvU2FmZUVSQzIwLnNvbCkKCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKaW1wb3J0IHtJRVJDMjB9IGZyb20gIi4uL0lFUkMyMC5zb2wiOwppbXBvcnQge0lFUkMxMzYzfSBmcm9tICIuLi8uLi8uLi9pbnRlcmZhY2VzL0lFUkMxMzYzLnNvbCI7CmltcG9ydCB7QWRkcmVzc30gZnJvbSAiLi4vLi4vLi4vdXRpbHMvQWRkcmVzcy5zb2wiOwoKLyoqCiAqIEB0aXRsZSBTYWZlRVJDMjAKICogQGRldiBXcmFwcGVycyBhcm91bmQgRVJDLTIwIG9wZXJhdGlvbnMgdGhhdCB0aHJvdyBvbiBmYWlsdXJlICh3aGVuIHRoZSB0b2tlbgogKiBjb250cmFjdCByZXR1cm5zIGZhbHNlKS4gVG9rZW5zIHRoYXQgcmV0dXJuIG5vIHZhbHVlIChhbmQgaW5zdGVhZCByZXZlcnQgb3IKICogdGhyb3cgb24gZmFpbHVyZSkgYXJlIGFsc28gc3VwcG9ydGVkLCBub24tcmV2ZXJ0aW5nIGNhbGxzIGFyZSBhc3N1bWVkIHRvIGJlCiAqIHN1Y2Nlc3NmdWwuCiAqIFRvIHVzZSB0aGlzIGxpYnJhcnkgeW91IGNhbiBhZGQgYSBgdXNpbmcgU2FmZUVSQzIwIGZvciBJRVJDMjA7YCBzdGF0ZW1lbnQgdG8geW91ciBjb250cmFjdCwKICogd2hpY2ggYWxsb3dzIHlvdSB0byBjYWxsIHRoZSBzYWZlIG9wZXJhdGlvbnMgYXMgYHRva2VuLnNhZmVUcmFuc2ZlciguLi4pYCwgZXRjLgogKi8KbGlicmFyeSBTYWZlRVJDMjAgewogICAgLyoqCiAgICAgKiBAZGV2IEFuIG9wZXJhdGlvbiB3aXRoIGFuIEVSQy0yMCB0b2tlbiBmYWlsZWQuCiAgICAgKi8KICAgIGVycm9yIFNhZmVFUkMyMEZhaWxlZE9wZXJhdGlvbihhZGRyZXNzIHRva2VuKTsKCiAgICAvKioKICAgICAqIEBkZXYgSW5kaWNhdGVzIGEgZmFpbGVkIGBkZWNyZWFzZUFsbG93YW5jZWAgcmVxdWVzdC4KICAgICAqLwogICAgZXJyb3IgU2FmZUVSQzIwRmFpbGVkRGVjcmVhc2VBbGxvd2FuY2UoYWRkcmVzcyBzcGVuZGVyLCB1aW50MjU2IGN1cnJlbnRBbGxvd2FuY2UsIHVpbnQyNTYgcmVxdWVzdGVkRGVjcmVhc2UpOwoKICAgIC8qKgogICAgICogQGRldiBUcmFuc2ZlciBgdmFsdWVgIGFtb3VudCBvZiBgdG9rZW5gIGZyb20gdGhlIGNhbGxpbmcgY29udHJhY3QgdG8gYHRvYC4gSWYgYHRva2VuYCByZXR1cm5zIG5vIHZhbHVlLAogICAgICogbm9uLXJldmVydGluZyBjYWxscyBhcmUgYXNzdW1lZCB0byBiZSBzdWNjZXNzZnVsLgogICAgICovCiAgICBmdW5jdGlvbiBzYWZlVHJhbnNmZXIoSUVSQzIwIHRva2VuLCBhZGRyZXNzIHRvLCB1aW50MjU2IHZhbHVlKSBpbnRlcm5hbCB7CiAgICAgICAgX2NhbGxPcHRpb25hbFJldHVybih0b2tlbiwgYWJpLmVuY29kZUNhbGwodG9rZW4udHJhbnNmZXIsICh0bywgdmFsdWUpKSk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFRyYW5zZmVyIGB2YWx1ZWAgYW1vdW50IG9mIGB0b2tlbmAgZnJvbSBgZnJvbWAgdG8gYHRvYCwgc3BlbmRpbmcgdGhlIGFwcHJvdmFsIGdpdmVuIGJ5IGBmcm9tYCB0byB0aGUKICAgICAqIGNhbGxpbmcgY29udHJhY3QuIElmIGB0b2tlbmAgcmV0dXJucyBubyB2YWx1ZSwgbm9uLXJldmVydGluZyBjYWxscyBhcmUgYXNzdW1lZCB0byBiZSBzdWNjZXNzZnVsLgogICAgICovCiAgICBmdW5jdGlvbiBzYWZlVHJhbnNmZXJGcm9tKElFUkMyMCB0b2tlbiwgYWRkcmVzcyBmcm9tLCBhZGRyZXNzIHRvLCB1aW50MjU2IHZhbHVlKSBpbnRlcm5hbCB7CiAgICAgICAgX2NhbGxPcHRpb25hbFJldHVybih0b2tlbiwgYWJpLmVuY29kZUNhbGwodG9rZW4udHJhbnNmZXJGcm9tLCAoZnJvbSwgdG8sIHZhbHVlKSkpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBJbmNyZWFzZSB0aGUgY2FsbGluZyBjb250cmFjdCdzIGFsbG93YW5jZSB0b3dhcmQgYHNwZW5kZXJgIGJ5IGB2YWx1ZWAuIElmIGB0b2tlbmAgcmV0dXJucyBubyB2YWx1ZSwKICAgICAqIG5vbi1yZXZlcnRpbmcgY2FsbHMgYXJlIGFzc3VtZWQgdG8gYmUgc3VjY2Vzc2Z1bC4KICAgICAqCiAgICAgKiBJTVBPUlRBTlQ6IElmIHRoZSB0b2tlbiBpbXBsZW1lbnRzIEVSQy03Njc0IChFUkMtMjAgd2l0aCB0ZW1wb3JhcnkgYWxsb3dhbmNlKSwgYW5kIGlmIHRoZSAiY2xpZW50IgogICAgICogc21hcnQgY29udHJhY3QgdXNlcyBFUkMtNzY3NCB0byBzZXQgdGVtcG9yYXJ5IGFsbG93YW5jZXMsIHRoZW4gdGhlICJjbGllbnQiIHNtYXJ0IGNvbnRyYWN0IHNob3VsZCBhdm9pZCB1c2luZwogICAgICogdGhpcyBmdW5jdGlvbi4gUGVyZm9ybWluZyBhIHtzYWZlSW5jcmVhc2VBbGxvd2FuY2V9IG9yIHtzYWZlRGVjcmVhc2VBbGxvd2FuY2V9IG9wZXJhdGlvbiBvbiBhIHRva2VuIGNvbnRyYWN0CiAgICAgKiB0aGF0IGhhcyBhIG5vbi16ZXJvIHRlbXBvcmFyeSBhbGxvd2FuY2UgKGZvciB0aGF0IHBhcnRpY3VsYXIgb3duZXItc3BlbmRlcikgd2lsbCByZXN1bHQgaW4gdW5leHBlY3RlZCBiZWhhdmlvci4KICAgICAqLwogICAgZnVuY3Rpb24gc2FmZUluY3JlYXNlQWxsb3dhbmNlKElFUkMyMCB0b2tlbiwgYWRkcmVzcyBzcGVuZGVyLCB1aW50MjU2IHZhbHVlKSBpbnRlcm5hbCB7CiAgICAgICAgdWludDI1NiBvbGRBbGxvd2FuY2UgPSB0b2tlbi5hbGxvd2FuY2UoYWRkcmVzcyh0aGlzKSwgc3BlbmRlcik7CiAgICAgICAgZm9yY2VBcHByb3ZlKHRva2VuLCBzcGVuZGVyLCBvbGRBbGxvd2FuY2UgKyB2YWx1ZSk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IERlY3JlYXNlIHRoZSBjYWxsaW5nIGNvbnRyYWN0J3MgYWxsb3dhbmNlIHRvd2FyZCBgc3BlbmRlcmAgYnkgYHJlcXVlc3RlZERlY3JlYXNlYC4gSWYgYHRva2VuYCByZXR1cm5zIG5vCiAgICAgKiB2YWx1ZSwgbm9uLXJldmVydGluZyBjYWxscyBhcmUgYXNzdW1lZCB0byBiZSBzdWNjZXNzZnVsLgogICAgICoKICAgICAqIElNUE9SVEFOVDogSWYgdGhlIHRva2VuIGltcGxlbWVudHMgRVJDLTc2NzQgKEVSQy0yMCB3aXRoIHRlbXBvcmFyeSBhbGxvd2FuY2UpLCBhbmQgaWYgdGhlICJjbGllbnQiCiAgICAgKiBzbWFydCBjb250cmFjdCB1c2VzIEVSQy03Njc0IHRvIHNldCB0ZW1wb3JhcnkgYWxsb3dhbmNlcywgdGhlbiB0aGUgImNsaWVudCIgc21hcnQgY29udHJhY3Qgc2hvdWxkIGF2b2lkIHVzaW5nCiAgICAgKiB0aGlzIGZ1bmN0aW9uLiBQZXJmb3JtaW5nIGEge3NhZmVJbmNyZWFzZUFsbG93YW5jZX0gb3Ige3NhZmVEZWNyZWFzZUFsbG93YW5jZX0gb3BlcmF0aW9uIG9uIGEgdG9rZW4gY29udHJhY3QKICAgICAqIHRoYXQgaGFzIGEgbm9uLXplcm8gdGVtcG9yYXJ5IGFsbG93YW5jZSAoZm9yIHRoYXQgcGFydGljdWxhciBvd25lci1zcGVuZGVyKSB3aWxsIHJlc3VsdCBpbiB1bmV4cGVjdGVkIGJlaGF2aW9yLgogICAgICovCiAgICBmdW5jdGlvbiBzYWZlRGVjcmVhc2VBbGxvd2FuY2UoSUVSQzIwIHRva2VuLCBhZGRyZXNzIHNwZW5kZXIsIHVpbnQyNTYgcmVxdWVzdGVkRGVjcmVhc2UpIGludGVybmFsIHsKICAgICAgICB1bmNoZWNrZWQgewogICAgICAgICAgICB1aW50MjU2IGN1cnJlbnRBbGxvd2FuY2UgPSB0b2tlbi5hbGxvd2FuY2UoYWRkcmVzcyh0aGlzKSwgc3BlbmRlcik7CiAgICAgICAgICAgIGlmIChjdXJyZW50QWxsb3dhbmNlIDwgcmVxdWVzdGVkRGVjcmVhc2UpIHsKICAgICAgICAgICAgICAgIHJldmVydCBTYWZlRVJDMjBGYWlsZWREZWNyZWFzZUFsbG93YW5jZShzcGVuZGVyLCBjdXJyZW50QWxsb3dhbmNlLCByZXF1ZXN0ZWREZWNyZWFzZSk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgZm9yY2VBcHByb3ZlKHRva2VuLCBzcGVuZGVyLCBjdXJyZW50QWxsb3dhbmNlIC0gcmVxdWVzdGVkRGVjcmVhc2UpOwogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgU2V0IHRoZSBjYWxsaW5nIGNvbnRyYWN0J3MgYWxsb3dhbmNlIHRvd2FyZCBgc3BlbmRlcmAgdG8gYHZhbHVlYC4gSWYgYHRva2VuYCByZXR1cm5zIG5vIHZhbHVlLAogICAgICogbm9uLXJldmVydGluZyBjYWxscyBhcmUgYXNzdW1lZCB0byBiZSBzdWNjZXNzZnVsLiBNZWFudCB0byBiZSB1c2VkIHdpdGggdG9rZW5zIHRoYXQgcmVxdWlyZSB0aGUgYXBwcm92YWwKICAgICAqIHRvIGJlIHNldCB0byB6ZXJvIGJlZm9yZSBzZXR0aW5nIGl0IHRvIGEgbm9uLXplcm8gdmFsdWUsIHN1Y2ggYXMgVVNEVC4KICAgICAqCiAgICAgKiBOT1RFOiBJZiB0aGUgdG9rZW4gaW1wbGVtZW50cyBFUkMtNzY3NCwgdGhpcyBmdW5jdGlvbiB3aWxsIG5vdCBtb2RpZnkgYW55IHRlbXBvcmFyeSBhbGxvd2FuY2UuIFRoaXMgZnVuY3Rpb24KICAgICAqIG9ubHkgc2V0cyB0aGUgInN0YW5kYXJkIiBhbGxvd2FuY2UuIEFueSB0ZW1wb3JhcnkgYWxsb3dhbmNlIHdpbGwgcmVtYWluIGFjdGl2ZSwgaW4gYWRkaXRpb24gdG8gdGhlIHZhbHVlIGJlaW5nCiAgICAgKiBzZXQgaGVyZS4KICAgICAqLwogICAgZnVuY3Rpb24gZm9yY2VBcHByb3ZlKElFUkMyMCB0b2tlbiwgYWRkcmVzcyBzcGVuZGVyLCB1aW50MjU2IHZhbHVlKSBpbnRlcm5hbCB7CiAgICAgICAgYnl0ZXMgbWVtb3J5IGFwcHJvdmFsQ2FsbCA9IGFiaS5lbmNvZGVDYWxsKHRva2VuLmFwcHJvdmUsIChzcGVuZGVyLCB2YWx1ZSkpOwoKICAgICAgICBpZiAoIV9jYWxsT3B0aW9uYWxSZXR1cm5Cb29sKHRva2VuLCBhcHByb3ZhbENhbGwpKSB7CiAgICAgICAgICAgIF9jYWxsT3B0aW9uYWxSZXR1cm4odG9rZW4sIGFiaS5lbmNvZGVDYWxsKHRva2VuLmFwcHJvdmUsIChzcGVuZGVyLCAwKSkpOwogICAgICAgICAgICBfY2FsbE9wdGlvbmFsUmV0dXJuKHRva2VuLCBhcHByb3ZhbENhbGwpOwogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUGVyZm9ybXMgYW4ge0VSQzEzNjN9IHRyYW5zZmVyQW5kQ2FsbCwgd2l0aCBhIGZhbGxiYWNrIHRvIHRoZSBzaW1wbGUge0VSQzIwfSB0cmFuc2ZlciBpZiB0aGUgdGFyZ2V0IGhhcyBubwogICAgICogY29kZS4gVGhpcyBjYW4gYmUgdXNlZCB0byBpbXBsZW1lbnQgYW4ge0VSQzcyMX0tbGlrZSBzYWZlIHRyYW5zZmVyIHRoYXQgcmVseSBvbiB7RVJDMTM2M30gY2hlY2tzIHdoZW4KICAgICAqIHRhcmdldGluZyBjb250cmFjdHMuCiAgICAgKgogICAgICogUmV2ZXJ0cyBpZiB0aGUgcmV0dXJuZWQgdmFsdWUgaXMgb3RoZXIgdGhhbiBgdHJ1ZWAuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHRyYW5zZmVyQW5kQ2FsbFJlbGF4ZWQoSUVSQzEzNjMgdG9rZW4sIGFkZHJlc3MgdG8sIHVpbnQyNTYgdmFsdWUsIGJ5dGVzIG1lbW9yeSBkYXRhKSBpbnRlcm5hbCB7CiAgICAgICAgaWYgKHRvLmNvZGUubGVuZ3RoID09IDApIHsKICAgICAgICAgICAgc2FmZVRyYW5zZmVyKHRva2VuLCB0bywgdmFsdWUpOwogICAgICAgIH0gZWxzZSBpZiAoIXRva2VuLnRyYW5zZmVyQW5kQ2FsbCh0bywgdmFsdWUsIGRhdGEpKSB7CiAgICAgICAgICAgIHJldmVydCBTYWZlRVJDMjBGYWlsZWRPcGVyYXRpb24oYWRkcmVzcyh0b2tlbikpOwogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUGVyZm9ybXMgYW4ge0VSQzEzNjN9IHRyYW5zZmVyRnJvbUFuZENhbGwsIHdpdGggYSBmYWxsYmFjayB0byB0aGUgc2ltcGxlIHtFUkMyMH0gdHJhbnNmZXJGcm9tIGlmIHRoZSB0YXJnZXQKICAgICAqIGhhcyBubyBjb2RlLiBUaGlzIGNhbiBiZSB1c2VkIHRvIGltcGxlbWVudCBhbiB7RVJDNzIxfS1saWtlIHNhZmUgdHJhbnNmZXIgdGhhdCByZWx5IG9uIHtFUkMxMzYzfSBjaGVja3Mgd2hlbgogICAgICogdGFyZ2V0aW5nIGNvbnRyYWN0cy4KICAgICAqCiAgICAgKiBSZXZlcnRzIGlmIHRoZSByZXR1cm5lZCB2YWx1ZSBpcyBvdGhlciB0aGFuIGB0cnVlYC4KICAgICAqLwogICAgZnVuY3Rpb24gdHJhbnNmZXJGcm9tQW5kQ2FsbFJlbGF4ZWQoCiAgICAgICAgSUVSQzEzNjMgdG9rZW4sCiAgICAgICAgYWRkcmVzcyBmcm9tLAogICAgICAgIGFkZHJlc3MgdG8sCiAgICAgICAgdWludDI1NiB2YWx1ZSwKICAgICAgICBieXRlcyBtZW1vcnkgZGF0YQogICAgKSBpbnRlcm5hbCB7CiAgICAgICAgaWYgKHRvLmNvZGUubGVuZ3RoID09IDApIHsKICAgICAgICAgICAgc2FmZVRyYW5zZmVyRnJvbSh0b2tlbiwgZnJvbSwgdG8sIHZhbHVlKTsKICAgICAgICB9IGVsc2UgaWYgKCF0b2tlbi50cmFuc2ZlckZyb21BbmRDYWxsKGZyb20sIHRvLCB2YWx1ZSwgZGF0YSkpIHsKICAgICAgICAgICAgcmV2ZXJ0IFNhZmVFUkMyMEZhaWxlZE9wZXJhdGlvbihhZGRyZXNzKHRva2VuKSk7CiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICogQGRldiBQZXJmb3JtcyBhbiB7RVJDMTM2M30gYXBwcm92ZUFuZENhbGwsIHdpdGggYSBmYWxsYmFjayB0byB0aGUgc2ltcGxlIHtFUkMyMH0gYXBwcm92ZSBpZiB0aGUgdGFyZ2V0IGhhcyBubwogICAgICogY29kZS4gVGhpcyBjYW4gYmUgdXNlZCB0byBpbXBsZW1lbnQgYW4ge0VSQzcyMX0tbGlrZSBzYWZlIHRyYW5zZmVyIHRoYXQgcmVseSBvbiB7RVJDMTM2M30gY2hlY2tzIHdoZW4KICAgICAqIHRhcmdldGluZyBjb250cmFjdHMuCiAgICAgKgogICAgICogTk9URTogV2hlbiB0aGUgcmVjaXBpZW50IGFkZHJlc3MgKGB0b2ApIGhhcyBubyBjb2RlIChpLmUuIGlzIGFuIEVPQSksIHRoaXMgZnVuY3Rpb24gYmVoYXZlcyBhcyB7Zm9yY2VBcHByb3ZlfS4KICAgICAqIE9wcG9zZWRseSwgd2hlbiB0aGUgcmVjaXBpZW50IGFkZHJlc3MgKGB0b2ApIGhhcyBjb2RlLCB0aGlzIGZ1bmN0aW9uIG9ubHkgYXR0ZW1wdHMgdG8gY2FsbCB7RVJDMTM2My1hcHByb3ZlQW5kQ2FsbH0KICAgICAqIG9uY2Ugd2l0aG91dCByZXRyeWluZywgYW5kIHJlbGllcyBvbiB0aGUgcmV0dXJuZWQgdmFsdWUgdG8gYmUgdHJ1ZS4KICAgICAqCiAgICAgKiBSZXZlcnRzIGlmIHRoZSByZXR1cm5lZCB2YWx1ZSBpcyBvdGhlciB0aGFuIGB0cnVlYC4KICAgICAqLwogICAgZnVuY3Rpb24gYXBwcm92ZUFuZENhbGxSZWxheGVkKElFUkMxMzYzIHRva2VuLCBhZGRyZXNzIHRvLCB1aW50MjU2IHZhbHVlLCBieXRlcyBtZW1vcnkgZGF0YSkgaW50ZXJuYWwgewogICAgICAgIGlmICh0by5jb2RlLmxlbmd0aCA9PSAwKSB7CiAgICAgICAgICAgIGZvcmNlQXBwcm92ZSh0b2tlbiwgdG8sIHZhbHVlKTsKICAgICAgICB9IGVsc2UgaWYgKCF0b2tlbi5hcHByb3ZlQW5kQ2FsbCh0bywgdmFsdWUsIGRhdGEpKSB7CiAgICAgICAgICAgIHJldmVydCBTYWZlRVJDMjBGYWlsZWRPcGVyYXRpb24oYWRkcmVzcyh0b2tlbikpOwogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgSW1pdGF0ZXMgYSBTb2xpZGl0eSBoaWdoLWxldmVsIGNhbGwgKGkuZS4gYSByZWd1bGFyIGZ1bmN0aW9uIGNhbGwgdG8gYSBjb250cmFjdCksIHJlbGF4aW5nIHRoZSByZXF1aXJlbWVudAogICAgICogb24gdGhlIHJldHVybiB2YWx1ZTogdGhlIHJldHVybiB2YWx1ZSBpcyBvcHRpb25hbCAoYnV0IGlmIGRhdGEgaXMgcmV0dXJuZWQsIGl0IG11c3Qgbm90IGJlIGZhbHNlKS4KICAgICAqIEBwYXJhbSB0b2tlbiBUaGUgdG9rZW4gdGFyZ2V0ZWQgYnkgdGhlIGNhbGwuCiAgICAgKiBAcGFyYW0gZGF0YSBUaGUgY2FsbCBkYXRhIChlbmNvZGVkIHVzaW5nIGFiaS5lbmNvZGUgb3Igb25lIG9mIGl0cyB2YXJpYW50cykuCiAgICAgKgogICAgICogVGhpcyBpcyBhIHZhcmlhbnQgb2Yge19jYWxsT3B0aW9uYWxSZXR1cm5Cb29sfSB0aGF0IHJldmVydHMgaWYgY2FsbCBmYWlscyB0byBtZWV0IHRoZSByZXF1aXJlbWVudHMuCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9jYWxsT3B0aW9uYWxSZXR1cm4oSUVSQzIwIHRva2VuLCBieXRlcyBtZW1vcnkgZGF0YSkgcHJpdmF0ZSB7CiAgICAgICAgdWludDI1NiByZXR1cm5TaXplOwogICAgICAgIHVpbnQyNTYgcmV0dXJuVmFsdWU7CiAgICAgICAgYXNzZW1ibHkgKCJtZW1vcnktc2FmZSIpIHsKICAgICAgICAgICAgbGV0IHN1Y2Nlc3MgOj0gY2FsbChnYXMoKSwgdG9rZW4sIDAsIGFkZChkYXRhLCAweDIwKSwgbWxvYWQoZGF0YSksIDAsIDB4MjApCiAgICAgICAgICAgIC8vIGJ1YmJsZSBlcnJvcnMKICAgICAgICAgICAgaWYgaXN6ZXJvKHN1Y2Nlc3MpIHsKICAgICAgICAgICAgICAgIGxldCBwdHIgOj0gbWxvYWQoMHg0MCkKICAgICAgICAgICAgICAgIHJldHVybmRhdGFjb3B5KHB0ciwgMCwgcmV0dXJuZGF0YXNpemUoKSkKICAgICAgICAgICAgICAgIHJldmVydChwdHIsIHJldHVybmRhdGFzaXplKCkpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuU2l6ZSA6PSByZXR1cm5kYXRhc2l6ZSgpCiAgICAgICAgICAgIHJldHVyblZhbHVlIDo9IG1sb2FkKDApCiAgICAgICAgfQoKICAgICAgICBpZiAocmV0dXJuU2l6ZSA9PSAwID8gYWRkcmVzcyh0b2tlbikuY29kZS5sZW5ndGggPT0gMCA6IHJldHVyblZhbHVlICE9IDEpIHsKICAgICAgICAgICAgcmV2ZXJ0IFNhZmVFUkMyMEZhaWxlZE9wZXJhdGlvbihhZGRyZXNzKHRva2VuKSk7CiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICogQGRldiBJbWl0YXRlcyBhIFNvbGlkaXR5IGhpZ2gtbGV2ZWwgY2FsbCAoaS5lLiBhIHJlZ3VsYXIgZnVuY3Rpb24gY2FsbCB0byBhIGNvbnRyYWN0KSwgcmVsYXhpbmcgdGhlIHJlcXVpcmVtZW50CiAgICAgKiBvbiB0aGUgcmV0dXJuIHZhbHVlOiB0aGUgcmV0dXJuIHZhbHVlIGlzIG9wdGlvbmFsIChidXQgaWYgZGF0YSBpcyByZXR1cm5lZCwgaXQgbXVzdCBub3QgYmUgZmFsc2UpLgogICAgICogQHBhcmFtIHRva2VuIFRoZSB0b2tlbiB0YXJnZXRlZCBieSB0aGUgY2FsbC4KICAgICAqIEBwYXJhbSBkYXRhIFRoZSBjYWxsIGRhdGEgKGVuY29kZWQgdXNpbmcgYWJpLmVuY29kZSBvciBvbmUgb2YgaXRzIHZhcmlhbnRzKS4KICAgICAqCiAgICAgKiBUaGlzIGlzIGEgdmFyaWFudCBvZiB7X2NhbGxPcHRpb25hbFJldHVybn0gdGhhdCBzaWxlbnRseSBjYXRjaGVzIGFsbCByZXZlcnRzIGFuZCByZXR1cm5zIGEgYm9vbCBpbnN0ZWFkLgogICAgICovCiAgICBmdW5jdGlvbiBfY2FsbE9wdGlvbmFsUmV0dXJuQm9vbChJRVJDMjAgdG9rZW4sIGJ5dGVzIG1lbW9yeSBkYXRhKSBwcml2YXRlIHJldHVybnMgKGJvb2wpIHsKICAgICAgICBib29sIHN1Y2Nlc3M7CiAgICAgICAgdWludDI1NiByZXR1cm5TaXplOwogICAgICAgIHVpbnQyNTYgcmV0dXJuVmFsdWU7CiAgICAgICAgYXNzZW1ibHkgKCJtZW1vcnktc2FmZSIpIHsKICAgICAgICAgICAgc3VjY2VzcyA6PSBjYWxsKGdhcygpLCB0b2tlbiwgMCwgYWRkKGRhdGEsIDB4MjApLCBtbG9hZChkYXRhKSwgMCwgMHgyMCkKICAgICAgICAgICAgcmV0dXJuU2l6ZSA6PSByZXR1cm5kYXRhc2l6ZSgpCiAgICAgICAgICAgIHJldHVyblZhbHVlIDo9IG1sb2FkKDApCiAgICAgICAgfQogICAgICAgIHJldHVybiBzdWNjZXNzICYmIChyZXR1cm5TaXplID09IDAgPyBhZGRyZXNzKHRva2VuKS5jb2RlLmxlbmd0aCA+IDAgOiByZXR1cm5WYWx1ZSA9PSAxKTsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (token/ERC20/utils/SafeERC20.sol)
+
+pragma solidity ^0.8.20;
+
+import {IERC20} from "../IERC20.sol";
+import {IERC1363} from "../../../interfaces/IERC1363.sol";
+import {Address} from "../../../utils/Address.sol";
+
+/**
+ * @title SafeERC20
+ * @dev Wrappers around ERC-20 operations that throw on failure (when the token
+ * contract returns false). Tokens that return no value (and instead revert or
+ * throw on failure) are also supported, non-reverting calls are assumed to be
+ * successful.
+ * To use this library you can add a `using SafeERC20 for IERC20;` statement to your contract,
+ * which allows you to call the safe operations as `token.safeTransfer(...)`, etc.
+ */
+library SafeERC20 {
+    /**
+     * @dev An operation with an ERC-20 token failed.
+     */
+    error SafeERC20FailedOperation(address token);
+
+    /**
+     * @dev Indicates a failed `decreaseAllowance` request.
+     */
+    error SafeERC20FailedDecreaseAllowance(address spender, uint256 currentAllowance, uint256 requestedDecrease);
+
+    /**
+     * @dev Transfer `value` amount of `token` from the calling contract to `to`. If `token` returns no value,
+     * non-reverting calls are assumed to be successful.
+     */
+    function safeTransfer(IERC20 token, address to, uint256 value) internal {
+        _callOptionalReturn(token, abi.encodeCall(token.transfer, (to, value)));
+    }
+
+    /**
+     * @dev Transfer `value` amount of `token` from `from` to `to`, spending the approval given by `from` to the
+     * calling contract. If `token` returns no value, non-reverting calls are assumed to be successful.
+     */
+    function safeTransferFrom(IERC20 token, address from, address to, uint256 value) internal {
+        _callOptionalReturn(token, abi.encodeCall(token.transferFrom, (from, to, value)));
+    }
+
+    /**
+     * @dev Increase the calling contract's allowance toward `spender` by `value`. If `token` returns no value,
+     * non-reverting calls are assumed to be successful.
+     *
+     * IMPORTANT: If the token implements ERC-7674 (ERC-20 with temporary allowance), and if the "client"
+     * smart contract uses ERC-7674 to set temporary allowances, then the "client" smart contract should avoid using
+     * this function. Performing a {safeIncreaseAllowance} or {safeDecreaseAllowance} operation on a token contract
+     * that has a non-zero temporary allowance (for that particular owner-spender) will result in unexpected behavior.
+     */
+    function safeIncreaseAllowance(IERC20 token, address spender, uint256 value) internal {
+        uint256 oldAllowance = token.allowance(address(this), spender);
+        forceApprove(token, spender, oldAllowance + value);
+    }
+
+    /**
+     * @dev Decrease the calling contract's allowance toward `spender` by `requestedDecrease`. If `token` returns no
+     * value, non-reverting calls are assumed to be successful.
+     *
+     * IMPORTANT: If the token implements ERC-7674 (ERC-20 with temporary allowance), and if the "client"
+     * smart contract uses ERC-7674 to set temporary allowances, then the "client" smart contract should avoid using
+     * this function. Performing a {safeIncreaseAllowance} or {safeDecreaseAllowance} operation on a token contract
+     * that has a non-zero temporary allowance (for that particular owner-spender) will result in unexpected behavior.
+     */
+    function safeDecreaseAllowance(IERC20 token, address spender, uint256 requestedDecrease) internal {
+        unchecked {
+            uint256 currentAllowance = token.allowance(address(this), spender);
+            if (currentAllowance < requestedDecrease) {
+                revert SafeERC20FailedDecreaseAllowance(spender, currentAllowance, requestedDecrease);
+            }
+            forceApprove(token, spender, currentAllowance - requestedDecrease);
+        }
+    }
+
+    /**
+     * @dev Set the calling contract's allowance toward `spender` to `value`. If `token` returns no value,
+     * non-reverting calls are assumed to be successful. Meant to be used with tokens that require the approval
+     * to be set to zero before setting it to a non-zero value, such as USDT.
+     *
+     * NOTE: If the token implements ERC-7674, this function will not modify any temporary allowance. This function
+     * only sets the "standard" allowance. Any temporary allowance will remain active, in addition to the value being
+     * set here.
+     */
+    function forceApprove(IERC20 token, address spender, uint256 value) internal {
+        bytes memory approvalCall = abi.encodeCall(token.approve, (spender, value));
+
+        if (!_callOptionalReturnBool(token, approvalCall)) {
+            _callOptionalReturn(token, abi.encodeCall(token.approve, (spender, 0)));
+            _callOptionalReturn(token, approvalCall);
+        }
+    }
+
+    /**
+     * @dev Performs an {ERC1363} transferAndCall, with a fallback to the simple {ERC20} transfer if the target has no
+     * code. This can be used to implement an {ERC721}-like safe transfer that rely on {ERC1363} checks when
+     * targeting contracts.
+     *
+     * Reverts if the returned value is other than `true`.
+     */
+    function transferAndCallRelaxed(IERC1363 token, address to, uint256 value, bytes memory data) internal {
+        if (to.code.length == 0) {
+            safeTransfer(token, to, value);
+        } else if (!token.transferAndCall(to, value, data)) {
+            revert SafeERC20FailedOperation(address(token));
+        }
+    }
+
+    /**
+     * @dev Performs an {ERC1363} transferFromAndCall, with a fallback to the simple {ERC20} transferFrom if the target
+     * has no code. This can be used to implement an {ERC721}-like safe transfer that rely on {ERC1363} checks when
+     * targeting contracts.
+     *
+     * Reverts if the returned value is other than `true`.
+     */
+    function transferFromAndCallRelaxed(
+        IERC1363 token,
+        address from,
+        address to,
+        uint256 value,
+        bytes memory data
+    ) internal {
+        if (to.code.length == 0) {
+            safeTransferFrom(token, from, to, value);
+        } else if (!token.transferFromAndCall(from, to, value, data)) {
+            revert SafeERC20FailedOperation(address(token));
+        }
+    }
+
+    /**
+     * @dev Performs an {ERC1363} approveAndCall, with a fallback to the simple {ERC20} approve if the target has no
+     * code. This can be used to implement an {ERC721}-like safe transfer that rely on {ERC1363} checks when
+     * targeting contracts.
+     *
+     * NOTE: When the recipient address (`to`) has no code (i.e. is an EOA), this function behaves as {forceApprove}.
+     * Opposedly, when the recipient address (`to`) has code, this function only attempts to call {ERC1363-approveAndCall}
+     * once without retrying, and relies on the returned value to be true.
+     *
+     * Reverts if the returned value is other than `true`.
+     */
+    function approveAndCallRelaxed(IERC1363 token, address to, uint256 value, bytes memory data) internal {
+        if (to.code.length == 0) {
+            forceApprove(token, to, value);
+        } else if (!token.approveAndCall(to, value, data)) {
+            revert SafeERC20FailedOperation(address(token));
+        }
+    }
+
+    /**
+     * @dev Imitates a Solidity high-level call (i.e. a regular function call to a contract), relaxing the requirement
+     * on the return value: the return value is optional (but if data is returned, it must not be false).
+     * @param token The token targeted by the call.
+     * @param data The call data (encoded using abi.encode or one of its variants).
+     *
+     * This is a variant of {_callOptionalReturnBool} that reverts if call fails to meet the requirements.
+     */
+    function _callOptionalReturn(IERC20 token, bytes memory data) private {
+        uint256 returnSize;
+        uint256 returnValue;
+        assembly ("memory-safe") {
+            let success := call(gas(), token, 0, add(data, 0x20), mload(data), 0, 0x20)
+            // bubble errors
+            if iszero(success) {
+                let ptr := mload(0x40)
+                returndatacopy(ptr, 0, returndatasize())
+                revert(ptr, returndatasize())
+            }
+            returnSize := returndatasize()
+            returnValue := mload(0)
+        }
+
+        if (returnSize == 0 ? address(token).code.length == 0 : returnValue != 1) {
+            revert SafeERC20FailedOperation(address(token));
+        }
+    }
+
+    /**
+     * @dev Imitates a Solidity high-level call (i.e. a regular function call to a contract), relaxing the requirement
+     * on the return value: the return value is optional (but if data is returned, it must not be false).
+     * @param token The token targeted by the call.
+     * @param data The call data (encoded using abi.encode or one of its variants).
+     *
+     * This is a variant of {_callOptionalReturn} that silently catches all reverts and returns a bool instead.
+     */
+    function _callOptionalReturnBool(IERC20 token, bytes memory data) private returns (bool) {
+        bool success;
+        uint256 returnSize;
+        uint256 returnValue;
+        assembly ("memory-safe") {
+            success := call(gas(), token, 0, add(data, 0x20), mload(data), 0, 0x20)
+            returnSize := returndatasize()
+            returnValue := mload(0)
+        }
+        return success && (returnSize == 0 ? address(token).code.length > 0 : returnValue == 1);
+    }
+}
