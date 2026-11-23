@@ -1,1 +1,109 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge1Rlc3R9IGZyb20gImZvcmdlLXN0ZC9UZXN0LnNvbCI7CmltcG9ydCB7U3ltVGVzdH0gZnJvbSAiaGFsbW9zLWNoZWF0Y29kZXMvU3ltVGVzdC5zb2wiOwoKaW1wb3J0IHtTaG9ydFN0cmluZ3MsIFNob3J0U3RyaW5nfSBmcm9tICJAb3BlbnplcHBlbGluL2NvbnRyYWN0cy91dGlscy9TaG9ydFN0cmluZ3Muc29sIjsKCmNvbnRyYWN0IFNob3J0U3RyaW5nc1Rlc3QgaXMgVGVzdCwgU3ltVGVzdCB7CiAgICBzdHJpbmcgX2ZhbGxiYWNrOwoKICAgIGZ1bmN0aW9uIHRlc3RSb3VuZHRyaXBTaG9ydChzdHJpbmcgbWVtb3J5IGlucHV0KSBleHRlcm5hbCB7CiAgICAgICAgdm0uYXNzdW1lKF9pc1Nob3J0KGlucHV0KSk7CiAgICAgICAgX2Fzc2VydFJvdW5kdHJpcFNob3J0KGlucHV0KTsKICAgIH0KCiAgICBmdW5jdGlvbiBzeW1ib2xpY1JvdW5kdHJpcFNob3J0KCkgZXh0ZXJuYWwgewogICAgICAgIHN0cmluZyBtZW1vcnkgaW5wdXQgPSBzdm0uY3JlYXRlU3RyaW5nKDMxLCAiUm91bmR0cmlwU2hvcnRJbnB1dCIpOwogICAgICAgIF9hc3NlcnRSb3VuZHRyaXBTaG9ydChpbnB1dCk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdFJvdW5kdHJpcFdpdGhGYWxsYmFjayhzdHJpbmcgbWVtb3J5IGlucHV0LCBzdHJpbmcgbWVtb3J5IGZhbGxiYWNrSW5pdGlhbCkgZXh0ZXJuYWwgewogICAgICAgIF9hc3NlcnRSb3VuZHRyaXBXaXRoRmFsbGJhY2soaW5wdXQsIGZhbGxiYWNrSW5pdGlhbCk7CiAgICB9CgogICAgZnVuY3Rpb24gc3ltYm9saWNSb3VuZHRyaXBXaXRoRmFsbGJhY2tMb25nKCkgZXh0ZXJuYWwgewogICAgICAgIHN0cmluZyBtZW1vcnkgaW5wdXQgPSBzdm0uY3JlYXRlU3RyaW5nKDI1NiwgIlJvdW5kdHJpcFdpdGhGYWxsYmFja0lucHV0Iik7CiAgICAgICAgc3RyaW5nIG1lbW9yeSBmYWxsYmFja0luaXRpYWwgPSBzdm0uY3JlYXRlU3RyaW5nKDI1NiwgIlJvdW5kdHJpcFdpdGhGYWxsYmFja0ZhbGxiYWNrSW5pdGlhbCIpOwogICAgICAgIF9hc3NlcnRSb3VuZHRyaXBXaXRoRmFsbGJhY2soaW5wdXQsIGZhbGxiYWNrSW5pdGlhbCk7CiAgICB9CgogICAgZnVuY3Rpb24gc3ltYm9saWNSb3VuZHRyaXBXaXRoRmFsbGJhY2tTaG9ydCgpIGV4dGVybmFsIHsKICAgICAgICBzdHJpbmcgbWVtb3J5IGlucHV0ID0gc3ZtLmNyZWF0ZVN0cmluZygzMSwgIlJvdW5kdHJpcFdpdGhGYWxsYmFja0lucHV0Iik7CiAgICAgICAgc3RyaW5nIG1lbW9yeSBmYWxsYmFja0luaXRpYWwgPSBzdm0uY3JlYXRlU3RyaW5nKDMxLCAiUm91bmR0cmlwV2l0aEZhbGxiYWNrRmFsbGJhY2tJbml0aWFsIik7CiAgICAgICAgX2Fzc2VydFJvdW5kdHJpcFdpdGhGYWxsYmFjayhpbnB1dCwgZmFsbGJhY2tJbml0aWFsKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0UmV2ZXJ0TG9uZyhzdHJpbmcgbWVtb3J5IGlucHV0KSBleHRlcm5hbCB7CiAgICAgICAgdm0uYXNzdW1lKCFfaXNTaG9ydChpbnB1dCkpOwogICAgICAgIF9hc3NlcnRSZXZlcnRMb25nKGlucHV0KTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0TGVuZ3RoU2hvcnQoc3RyaW5nIG1lbW9yeSBpbnB1dCkgZXh0ZXJuYWwgewogICAgICAgIHZtLmFzc3VtZShfaXNTaG9ydChpbnB1dCkpOwogICAgICAgIF9hc3NlcnRMZW5ndGhTaG9ydChpbnB1dCk7CiAgICB9CgogICAgZnVuY3Rpb24gc3ltYm9saWNMZW5ndGhTaG9ydCgpIGV4dGVybmFsIHsKICAgICAgICBzdHJpbmcgbWVtb3J5IGlucHV0ID0gc3ZtLmNyZWF0ZVN0cmluZygzMSwgIkxlbmd0aFNob3J0SW5wdXQiKTsKICAgICAgICBfYXNzZXJ0TGVuZ3RoU2hvcnQoaW5wdXQpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RMZW5ndGhXaXRoRmFsbGJhY2soc3RyaW5nIG1lbW9yeSBpbnB1dCwgc3RyaW5nIG1lbW9yeSBmYWxsYmFja0luaXRpYWwpIGV4dGVybmFsIHsKICAgICAgICBfZmFsbGJhY2sgPSBmYWxsYmFja0luaXRpYWw7CiAgICAgICAgX2Fzc2VydExlbmd0aFdpdGhGYWxsYmFjayhpbnB1dCk7CiAgICB9CgogICAgZnVuY3Rpb24gc3ltYm9saWNMZW5ndGhXaXRoRmFsbGJhY2soKSBleHRlcm5hbCB7CiAgICAgICAgdWludDI1NiBsZW5ndGggPSAyNTY7CiAgICAgICAgc3RyaW5nIG1lbW9yeSBpbnB1dCA9IHN2bS5jcmVhdGVTdHJpbmcobGVuZ3RoLCAiTGVuZ3RoV2l0aEZhbGxiYWNrSW5wdXQiKTsKICAgICAgICBzdHJpbmcgbWVtb3J5IGZhbGxiYWNrSW5pdGlhbCA9IHN2bS5jcmVhdGVTdHJpbmcobGVuZ3RoLCAiTGVuZ3RoV2l0aEZhbGxiYWNrRmFsbGJhY2tJbml0aWFsIik7CiAgICAgICAgX2ZhbGxiYWNrID0gZmFsbGJhY2tJbml0aWFsOwogICAgICAgIF9hc3NlcnRMZW5ndGhXaXRoRmFsbGJhY2soaW5wdXQpOwogICAgfQoKICAgIC8vLyBBc3NlcnRpb25zCgogICAgZnVuY3Rpb24gX2Fzc2VydFJvdW5kdHJpcFNob3J0KHN0cmluZyBtZW1vcnkgaW5wdXQpIGludGVybmFsIHsKICAgICAgICBTaG9ydFN0cmluZyBzaG9ydCA9IFNob3J0U3RyaW5ncy50b1Nob3J0U3RyaW5nKGlucHV0KTsKICAgICAgICBzdHJpbmcgbWVtb3J5IG91dHB1dCA9IFNob3J0U3RyaW5ncy50b1N0cmluZyhzaG9ydCk7CiAgICAgICAgYXNzZXJ0RXEoaW5wdXQsIG91dHB1dCk7CiAgICB9CgogICAgZnVuY3Rpb24gX2Fzc2VydFJvdW5kdHJpcFdpdGhGYWxsYmFjayhzdHJpbmcgbWVtb3J5IGlucHV0LCBzdHJpbmcgbWVtb3J5IGZhbGxiYWNrSW5pdGlhbCkgaW50ZXJuYWwgewogICAgICAgIF9mYWxsYmFjayA9IGZhbGxiYWNrSW5pdGlhbDsgLy8gTWFrZSBzdXJlIHRoYXQgdGhlIGluaXRpYWwgdmFsdWUgaGFzIG5vIGVmZmVjdAogICAgICAgIFNob3J0U3RyaW5nIHNob3J0ID0gU2hvcnRTdHJpbmdzLnRvU2hvcnRTdHJpbmdXaXRoRmFsbGJhY2soaW5wdXQsIF9mYWxsYmFjayk7CiAgICAgICAgc3RyaW5nIG1lbW9yeSBvdXRwdXQgPSBTaG9ydFN0cmluZ3MudG9TdHJpbmdXaXRoRmFsbGJhY2soc2hvcnQsIF9mYWxsYmFjayk7CiAgICAgICAgYXNzZXJ0RXEoaW5wdXQsIG91dHB1dCk7CiAgICB9CgogICAgZnVuY3Rpb24gX2Fzc2VydFJldmVydExvbmcoc3RyaW5nIG1lbW9yeSBpbnB1dCkgaW50ZXJuYWwgewogICAgICAgIHZtLmV4cGVjdFJldmVydChhYmkuZW5jb2RlV2l0aFNlbGVjdG9yKFNob3J0U3RyaW5ncy5TdHJpbmdUb29Mb25nLnNlbGVjdG9yLCBpbnB1dCkpOwogICAgICAgIHRoaXMudG9TaG9ydFN0cmluZyhpbnB1dCk7CiAgICB9CgogICAgZnVuY3Rpb24gX2Fzc2VydExlbmd0aFNob3J0KHN0cmluZyBtZW1vcnkgaW5wdXQpIGludGVybmFsIHsKICAgICAgICBTaG9ydFN0cmluZyBzaG9ydCA9IFNob3J0U3RyaW5ncy50b1Nob3J0U3RyaW5nKGlucHV0KTsKICAgICAgICB1aW50MjU2IHNob3J0TGVuZ3RoID0gU2hvcnRTdHJpbmdzLmJ5dGVMZW5ndGgoc2hvcnQpOwogICAgICAgIHVpbnQyNTYgaW5wdXRMZW5ndGggPSBieXRlcyhpbnB1dCkubGVuZ3RoOwogICAgICAgIGFzc2VydEVxKGlucHV0TGVuZ3RoLCBzaG9ydExlbmd0aCk7CiAgICB9CgogICAgZnVuY3Rpb24gX2Fzc2VydExlbmd0aFdpdGhGYWxsYmFjayhzdHJpbmcgbWVtb3J5IGlucHV0KSBpbnRlcm5hbCB7CiAgICAgICAgdWludDI1NiBpbnB1dExlbmd0aCA9IGJ5dGVzKGlucHV0KS5sZW5ndGg7CiAgICAgICAgU2hvcnRTdHJpbmcgc2hvcnQgPSBTaG9ydFN0cmluZ3MudG9TaG9ydFN0cmluZ1dpdGhGYWxsYmFjayhpbnB1dCwgX2ZhbGxiYWNrKTsKICAgICAgICB1aW50MjU2IHNob3J0TGVuZ3RoID0gU2hvcnRTdHJpbmdzLmJ5dGVMZW5ndGhXaXRoRmFsbGJhY2soc2hvcnQsIF9mYWxsYmFjayk7CiAgICAgICAgYXNzZXJ0RXEoaW5wdXRMZW5ndGgsIHNob3J0TGVuZ3RoKTsKICAgIH0KCiAgICAvLy8gSGVscGVycwogICAgZnVuY3Rpb24gdG9TaG9ydFN0cmluZyhzdHJpbmcgbWVtb3J5IGlucHV0KSBleHRlcm5hbCBwdXJlIHJldHVybnMgKFNob3J0U3RyaW5nKSB7CiAgICAgICAgcmV0dXJuIFNob3J0U3RyaW5ncy50b1Nob3J0U3RyaW5nKGlucHV0KTsKICAgIH0KCiAgICBmdW5jdGlvbiBfaXNTaG9ydChzdHJpbmcgbWVtb3J5IGlucHV0KSBpbnRlcm5hbCBwdXJlIHJldHVybnMgKGJvb2wpIHsKICAgICAgICByZXR1cm4gYnl0ZXMoaW5wdXQpLmxlbmd0aCA8IDMyOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {Test} from "forge-std/Test.sol";
+import {SymTest} from "halmos-cheatcodes/SymTest.sol";
+
+import {ShortStrings, ShortString} from "@openzeppelin/contracts/utils/ShortStrings.sol";
+
+contract ShortStringsTest is Test, SymTest {
+    string _fallback;
+
+    function testRoundtripShort(string memory input) external {
+        vm.assume(_isShort(input));
+        _assertRoundtripShort(input);
+    }
+
+    function symbolicRoundtripShort() external {
+        string memory input = svm.createString(31, "RoundtripShortInput");
+        _assertRoundtripShort(input);
+    }
+
+    function testRoundtripWithFallback(string memory input, string memory fallbackInitial) external {
+        _assertRoundtripWithFallback(input, fallbackInitial);
+    }
+
+    function symbolicRoundtripWithFallbackLong() external {
+        string memory input = svm.createString(256, "RoundtripWithFallbackInput");
+        string memory fallbackInitial = svm.createString(256, "RoundtripWithFallbackFallbackInitial");
+        _assertRoundtripWithFallback(input, fallbackInitial);
+    }
+
+    function symbolicRoundtripWithFallbackShort() external {
+        string memory input = svm.createString(31, "RoundtripWithFallbackInput");
+        string memory fallbackInitial = svm.createString(31, "RoundtripWithFallbackFallbackInitial");
+        _assertRoundtripWithFallback(input, fallbackInitial);
+    }
+
+    function testRevertLong(string memory input) external {
+        vm.assume(!_isShort(input));
+        _assertRevertLong(input);
+    }
+
+    function testLengthShort(string memory input) external {
+        vm.assume(_isShort(input));
+        _assertLengthShort(input);
+    }
+
+    function symbolicLengthShort() external {
+        string memory input = svm.createString(31, "LengthShortInput");
+        _assertLengthShort(input);
+    }
+
+    function testLengthWithFallback(string memory input, string memory fallbackInitial) external {
+        _fallback = fallbackInitial;
+        _assertLengthWithFallback(input);
+    }
+
+    function symbolicLengthWithFallback() external {
+        uint256 length = 256;
+        string memory input = svm.createString(length, "LengthWithFallbackInput");
+        string memory fallbackInitial = svm.createString(length, "LengthWithFallbackFallbackInitial");
+        _fallback = fallbackInitial;
+        _assertLengthWithFallback(input);
+    }
+
+    /// Assertions
+
+    function _assertRoundtripShort(string memory input) internal {
+        ShortString short = ShortStrings.toShortString(input);
+        string memory output = ShortStrings.toString(short);
+        assertEq(input, output);
+    }
+
+    function _assertRoundtripWithFallback(string memory input, string memory fallbackInitial) internal {
+        _fallback = fallbackInitial; // Make sure that the initial value has no effect
+        ShortString short = ShortStrings.toShortStringWithFallback(input, _fallback);
+        string memory output = ShortStrings.toStringWithFallback(short, _fallback);
+        assertEq(input, output);
+    }
+
+    function _assertRevertLong(string memory input) internal {
+        vm.expectRevert(abi.encodeWithSelector(ShortStrings.StringTooLong.selector, input));
+        this.toShortString(input);
+    }
+
+    function _assertLengthShort(string memory input) internal {
+        ShortString short = ShortStrings.toShortString(input);
+        uint256 shortLength = ShortStrings.byteLength(short);
+        uint256 inputLength = bytes(input).length;
+        assertEq(inputLength, shortLength);
+    }
+
+    function _assertLengthWithFallback(string memory input) internal {
+        uint256 inputLength = bytes(input).length;
+        ShortString short = ShortStrings.toShortStringWithFallback(input, _fallback);
+        uint256 shortLength = ShortStrings.byteLengthWithFallback(short, _fallback);
+        assertEq(inputLength, shortLength);
+    }
+
+    /// Helpers
+    function toShortString(string memory input) external pure returns (ShortString) {
+        return ShortStrings.toShortString(input);
+    }
+
+    function _isShort(string memory input) internal pure returns (bool) {
+        return bytes(input).length < 32;
+    }
+}
