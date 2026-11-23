@@ -1,1 +1,38 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7SUVSQzIwfSBmcm9tICIuLi8uLi90b2tlbi9FUkMyMC9JRVJDMjAuc29sIjsKaW1wb3J0IHtJRVJDMjBNZXRhZGF0YX0gZnJvbSAiLi4vLi4vdG9rZW4vRVJDMjAvZXh0ZW5zaW9ucy9JRVJDMjBNZXRhZGF0YS5zb2wiOwoKY29udHJhY3QgRVJDMjBHZXR0ZXJIZWxwZXIgewogICAgZXZlbnQgRVJDMjBUb3RhbFN1cHBseShJRVJDMjAgdG9rZW4sIHVpbnQyNTYgdG90YWxTdXBwbHkpOwogICAgZXZlbnQgRVJDMjBCYWxhbmNlT2YoSUVSQzIwIHRva2VuLCBhZGRyZXNzIGFjY291bnQsIHVpbnQyNTYgYmFsYW5jZU9mKTsKICAgIGV2ZW50IEVSQzIwQWxsb3dhbmNlKElFUkMyMCB0b2tlbiwgYWRkcmVzcyBvd25lciwgYWRkcmVzcyBzcGVuZGVyLCB1aW50MjU2IGFsbG93YW5jZSk7CiAgICBldmVudCBFUkMyME5hbWUoSUVSQzIwTWV0YWRhdGEgdG9rZW4sIHN0cmluZyBuYW1lKTsKICAgIGV2ZW50IEVSQzIwU3ltYm9sKElFUkMyME1ldGFkYXRhIHRva2VuLCBzdHJpbmcgc3ltYm9sKTsKICAgIGV2ZW50IEVSQzIwRGVjaW1hbHMoSUVSQzIwTWV0YWRhdGEgdG9rZW4sIHVpbnQ4IGRlY2ltYWxzKTsKCiAgICBmdW5jdGlvbiB0b3RhbFN1cHBseShJRVJDMjAgdG9rZW4pIGV4dGVybmFsIHsKICAgICAgICBlbWl0IEVSQzIwVG90YWxTdXBwbHkodG9rZW4sIHRva2VuLnRvdGFsU3VwcGx5KCkpOwogICAgfQoKICAgIGZ1bmN0aW9uIGJhbGFuY2VPZihJRVJDMjAgdG9rZW4sIGFkZHJlc3MgYWNjb3VudCkgZXh0ZXJuYWwgewogICAgICAgIGVtaXQgRVJDMjBCYWxhbmNlT2YodG9rZW4sIGFjY291bnQsIHRva2VuLmJhbGFuY2VPZihhY2NvdW50KSk7CiAgICB9CgogICAgZnVuY3Rpb24gYWxsb3dhbmNlKElFUkMyMCB0b2tlbiwgYWRkcmVzcyBvd25lciwgYWRkcmVzcyBzcGVuZGVyKSBleHRlcm5hbCB7CiAgICAgICAgZW1pdCBFUkMyMEFsbG93YW5jZSh0b2tlbiwgb3duZXIsIHNwZW5kZXIsIHRva2VuLmFsbG93YW5jZShvd25lciwgc3BlbmRlcikpOwogICAgfQoKICAgIGZ1bmN0aW9uIG5hbWUoSUVSQzIwTWV0YWRhdGEgdG9rZW4pIGV4dGVybmFsIHsKICAgICAgICBlbWl0IEVSQzIwTmFtZSh0b2tlbiwgdG9rZW4ubmFtZSgpKTsKICAgIH0KCiAgICBmdW5jdGlvbiBzeW1ib2woSUVSQzIwTWV0YWRhdGEgdG9rZW4pIGV4dGVybmFsIHsKICAgICAgICBlbWl0IEVSQzIwU3ltYm9sKHRva2VuLCB0b2tlbi5zeW1ib2woKSk7CiAgICB9CgogICAgZnVuY3Rpb24gZGVjaW1hbHMoSUVSQzIwTWV0YWRhdGEgdG9rZW4pIGV4dGVybmFsIHsKICAgICAgICBlbWl0IEVSQzIwRGVjaW1hbHModG9rZW4sIHRva2VuLmRlY2ltYWxzKCkpOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+import {IERC20} from "../../token/ERC20/IERC20.sol";
+import {IERC20Metadata} from "../../token/ERC20/extensions/IERC20Metadata.sol";
+
+contract ERC20GetterHelper {
+    event ERC20TotalSupply(IERC20 token, uint256 totalSupply);
+    event ERC20BalanceOf(IERC20 token, address account, uint256 balanceOf);
+    event ERC20Allowance(IERC20 token, address owner, address spender, uint256 allowance);
+    event ERC20Name(IERC20Metadata token, string name);
+    event ERC20Symbol(IERC20Metadata token, string symbol);
+    event ERC20Decimals(IERC20Metadata token, uint8 decimals);
+
+    function totalSupply(IERC20 token) external {
+        emit ERC20TotalSupply(token, token.totalSupply());
+    }
+
+    function balanceOf(IERC20 token, address account) external {
+        emit ERC20BalanceOf(token, account, token.balanceOf(account));
+    }
+
+    function allowance(IERC20 token, address owner, address spender) external {
+        emit ERC20Allowance(token, owner, spender, token.allowance(owner, spender));
+    }
+
+    function name(IERC20Metadata token) external {
+        emit ERC20Name(token, token.name());
+    }
+
+    function symbol(IERC20Metadata token) external {
+        emit ERC20Symbol(token, token.symbol());
+    }
+
+    function decimals(IERC20Metadata token) external {
+        emit ERC20Decimals(token, token.decimals());
+    }
+}
