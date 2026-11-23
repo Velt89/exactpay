@@ -1,1 +1,17 @@
-PSBNZXRhIFRyYW5zYWN0aW9ucwoKWy5yZWFkbWUtbm90aWNlXQpOT1RFOiBUaGlzIGRvY3VtZW50IGlzIGJldHRlciB2aWV3ZWQgYXQgaHR0cHM6Ly9kb2NzLm9wZW56ZXBwZWxpbi5jb20vY29udHJhY3RzL2FwaS9tZXRhdHgKClRoaXMgZGlyZWN0b3J5IGluY2x1ZGVzIGNvbnRyYWN0cyBmb3IgYWRkaW5nIG1ldGEtdHJhbnNhY3Rpb24gY2FwYWJpbGl0aWVzIChpLmUuIGFic3RyYWN0aW5nIHRoZSBleGVjdXRpb24gY29udGV4dCBmcm9tIHRoZSB0cmFuc2FjdGlvbiBvcmlnaW4pIGZvbGxvd2luZyB0aGUgaHR0cHM6Ly9laXBzLmV0aGVyZXVtLm9yZy9FSVBTL2VpcC0yNzcxW0VSQy0yNzcxIHNwZWNpZmljYXRpb25dLgoKLSB7RVJDMjc3MUNvbnRleHR9OiBQcm92aWRlcyBhIG1lY2hhbmlzbSB0byBvdmVycmlkZSB0aGUgc2VuZGVyIGFuZCBjYWxsZGF0YSBvZiB0aGUgZXhlY3V0aW9uIGNvbnRleHQgKGBtc2cuc2VuZGVyYCBhbmQgYG1zZy5kYXRhYCkgd2l0aCBhIGN1c3RvbSB2YWx1ZSBzcGVjaWZpZWQgYnkgYSB0cnVzdGVkIGZvcndhcmRlci4KLSB7RVJDMjc3MUZvcndhcmRlcn06IEEgcHJvZHVjdGlvbi1yZWFkeSBmb3J3YXJkZXIgdGhhdCByZWxheXMgb3BlcmF0aW9uIHJlcXVlc3RzIHNpZ25lZCBvZmYtY2hhaW4gYnkgYW4gRU9BLgoKPT0gQ29yZQoKe3tFUkMyNzcxQ29udGV4dH19Cgo9PSBVdGlscwoKe3tFUkMyNzcxRm9yd2FyZGVyfX0K
+= Meta Transactions
+
+[.readme-notice]
+NOTE: This document is better viewed at https://docs.openzeppelin.com/contracts/api/metatx
+
+This directory includes contracts for adding meta-transaction capabilities (i.e. abstracting the execution context from the transaction origin) following the https://eips.ethereum.org/EIPS/eip-2771[ERC-2771 specification].
+
+- {ERC2771Context}: Provides a mechanism to override the sender and calldata of the execution context (`msg.sender` and `msg.data`) with a custom value specified by a trusted forwarder.
+- {ERC2771Forwarder}: A production-ready forwarder that relays operation requests signed off-chain by an EOA.
+
+== Core
+
+{{ERC2771Context}}
+
+== Utils
+
+{{ERC2771Forwarder}}
