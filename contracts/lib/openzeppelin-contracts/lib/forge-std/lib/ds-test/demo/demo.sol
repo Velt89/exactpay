@@ -1,1 +1,222 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IEdQTC0zLjAtb3ItbGF0ZXIKcHJhZ21hIHNvbGlkaXR5ID49MC41LjA7CgppbXBvcnQgIi4uL3NyYy90ZXN0LnNvbCI7Cgpjb250cmFjdCBEZW1vVGVzdCBpcyBEU1Rlc3QgewogICAgZnVuY3Rpb24gdGVzdF90aGlzKCkgcHVibGljIHB1cmUgewogICAgICAgIHJlcXVpcmUodHJ1ZSk7CiAgICB9CiAgICBmdW5jdGlvbiB0ZXN0X2xvZ3MoKSBwdWJsaWMgewogICAgICAgIGVtaXQgbG9nKCItLSBsb2coc3RyaW5nKSIpOwogICAgICAgIGVtaXQgbG9nKCJhIHN0cmluZyIpOwoKICAgICAgICBlbWl0IGxvZygiLS0gbG9nX25hbWVkX3VpbnQoc3RyaW5nLCB1aW50KSIpOwogICAgICAgIGVtaXQgbG9nX25hbWVkX3VpbnQoInVpbnQiLCA1MTIpOwoKICAgICAgICBlbWl0IGxvZygiLS0gbG9nX25hbWVkX2ludChzdHJpbmcsIGludCkiKTsKICAgICAgICBlbWl0IGxvZ19uYW1lZF9pbnQoImludCIsIC01MTIpOwoKICAgICAgICBlbWl0IGxvZygiLS0gbG9nX25hbWVkX2FkZHJlc3Moc3RyaW5nLCBhZGRyZXNzKSIpOwogICAgICAgIGVtaXQgbG9nX25hbWVkX2FkZHJlc3MoImFkZHJlc3MiLCBhZGRyZXNzKHRoaXMpKTsKCiAgICAgICAgZW1pdCBsb2coIi0tIGxvZ19uYW1lZF9ieXRlczMyKHN0cmluZywgYnl0ZXMzMikiKTsKICAgICAgICBlbWl0IGxvZ19uYW1lZF9ieXRlczMyKCJieXRlczMyIiwgImEgc3RyaW5nIik7CgogICAgICAgIGVtaXQgbG9nKCItLSBsb2dfbmFtZWRfYnl0ZXMoc3RyaW5nLCBieXRlcykiKTsKICAgICAgICBlbWl0IGxvZ19uYW1lZF9ieXRlcygiYnl0ZXMiLCBoZXgiY2FmZWZlIik7CgogICAgICAgIGVtaXQgbG9nKCItLSBsb2dfbmFtZWRfc3RyaW5nKHN0cmluZywgc3RyaW5nKSIpOwogICAgICAgIGVtaXQgbG9nX25hbWVkX3N0cmluZygic3RyaW5nIiwgImEgc3RyaW5nIik7CgogICAgICAgIGVtaXQgbG9nKCItLSBsb2dfbmFtZWRfZGVjaW1hbF91aW50KHN0cmluZywgdWludCwgdWludCkiKTsKICAgICAgICBlbWl0IGxvZ19uYW1lZF9kZWNpbWFsX3VpbnQoImRlY2ltYWwgdWludCIsIDEuMGUxOCwgMTgpOwoKICAgICAgICBlbWl0IGxvZygiLS0gbG9nX25hbWVkX2RlY2ltYWxfaW50KHN0cmluZywgaW50LCB1aW50KSIpOwogICAgICAgIGVtaXQgbG9nX25hbWVkX2RlY2ltYWxfaW50KCJkZWNpbWFsIGludCIsIC0xLjBlMTgsIDE4KTsKICAgIH0KICAgIGV2ZW50IGxvZ19vbGRfbmFtZWRfdWludChieXRlczMyLHVpbnQpOwogICAgZnVuY3Rpb24gdGVzdF9vbGRfbG9ncygpIHB1YmxpYyB7CiAgICAgICAgZW1pdCBsb2dfb2xkX25hbWVkX3VpbnQoImtleSIsIDUwMCk7CiAgICAgICAgZW1pdCBsb2dfbmFtZWRfYnl0ZXMzMigiYmtleSIsICJ2YWwiKTsKICAgIH0KICAgIGZ1bmN0aW9uIHRlc3RfdHJhY2UoKSBwdWJsaWMgdmlldyB7CiAgICAgICAgdGhpcy5lY2hvKCJzdHJpbmcgMSIsICJzdHJpbmcgMiIpOwogICAgfQogICAgZnVuY3Rpb24gdGVzdF9tdWx0aWxpbmUoKSBwdWJsaWMgewogICAgICAgIGVtaXQgbG9nKCJhIG11bHRpbGluZVxcbnN0cmluZyIpOwogICAgICAgIGVtaXQgbG9nKCJhIG11bHRpbGluZSBzdHJpbmciKTsKICAgICAgICBlbWl0IGxvZ19ieXRlcygiYSBzdHJpbmciKTsKICAgICAgICBlbWl0IGxvZ19ieXRlcygiYSBtdWx0aWxpbmVcbnN0cmluZyIpOwogICAgICAgIGVtaXQgbG9nX2J5dGVzKCJhIG11bHRpbGluZVxcbnN0cmluZyIpOwogICAgICAgIGVtaXQgbG9ncyhoZXgiMDAwMCIpOwogICAgICAgIGVtaXQgbG9nX25hbWVkX2J5dGVzKCIweDAwMDAiLCBoZXgiMDAwMCIpOwogICAgICAgIGVtaXQgbG9ncyhoZXgiZmYiKTsKICAgIH0KICAgIGZ1bmN0aW9uIGVjaG8oc3RyaW5nIG1lbW9yeSBzMSwgc3RyaW5nIG1lbW9yeSBzMikgcHVibGljIHB1cmUKICAgICAgICByZXR1cm5zIChzdHJpbmcgbWVtb3J5LCBzdHJpbmcgbWVtb3J5KQogICAgewogICAgICAgIHJldHVybiAoczEsIHMyKTsKICAgIH0KCiAgICBmdW5jdGlvbiBwcm92ZV90aGlzKHVpbnQgeCkgcHVibGljIHsKICAgICAgICBlbWl0IGxvZ19uYW1lZF91aW50KCJzeW0geCIsIHgpOwogICAgICAgIGFzc2VydEd0KHggKyAxLCAwKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X2xvZ24oKSBwdWJsaWMgewogICAgICAgIGFzc2VtYmx5IHsKICAgICAgICAgICAgbG9nMCgweDAxLCAweDAyKQogICAgICAgICAgICBsb2cxKDB4MDEsIDB4MDIsIDB4MDMpCiAgICAgICAgICAgIGxvZzIoMHgwMSwgMHgwMiwgMHgwMywgMHgwNCkKICAgICAgICAgICAgbG9nMygweDAxLCAweDAyLCAweDAzLCAweDA0LCAweDA1KQogICAgICAgIH0KICAgIH0KCiAgICBldmVudCBNeUV2ZW50KHVpbnQsIHVpbnQgaW5kZXhlZCwgdWludCwgdWludCBpbmRleGVkKTsKICAgIGZ1bmN0aW9uIHRlc3RfZXZlbnRzKCkgcHVibGljIHsKICAgICAgICBlbWl0IE15RXZlbnQoMSwgMiwgMywgNCk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9hc3NlcnRzKCkgcHVibGljIHsKICAgICAgICBzdHJpbmcgbWVtb3J5IGVyciA9ICJ0aGlzIHRlc3QgaGFzIGZhaWxlZCEiOwogICAgICAgIGVtaXQgbG9nKCIjIyBhc3NlcnRUcnVlKGJvb2wpXG4iKTsKICAgICAgICBhc3NlcnRUcnVlKGZhbHNlKTsKICAgICAgICBlbWl0IGxvZygiXG4iKTsKICAgICAgICBhc3NlcnRUcnVlKGZhbHNlLCBlcnIpOwoKICAgICAgICBlbWl0IGxvZygiXG4jIyBhc3NlcnRFcShhZGRyZXNzLGFkZHJlc3MpXG4iKTsKICAgICAgICBhc3NlcnRFcShhZGRyZXNzKHRoaXMpLCBtc2cuc2VuZGVyKTsKICAgICAgICBlbWl0IGxvZygiXG4iKTsKICAgICAgICBhc3NlcnRFcShhZGRyZXNzKHRoaXMpLCBtc2cuc2VuZGVyLCBlcnIpOwoKICAgICAgICBlbWl0IGxvZygiXG4jIyBhc3NlcnRFcTMyKGJ5dGVzMzIsYnl0ZXMzMilcbiIpOwogICAgICAgIGFzc2VydEVxMzIoImJ5dGVzIDEiLCAiYnl0ZXMgMiIpOwogICAgICAgIGVtaXQgbG9nKCJcbiIpOwogICAgICAgIGFzc2VydEVxMzIoImJ5dGVzIDEiLCAiYnl0ZXMgMiIsIGVycik7CgogICAgICAgIGVtaXQgbG9nKCJcbiMjIGFzc2VydEVxKGJ5dGVzMzIsYnl0ZXMzMilcbiIpOwogICAgICAgIGFzc2VydEVxMzIoImJ5dGVzIDEiLCAiYnl0ZXMgMiIpOwogICAgICAgIGVtaXQgbG9nKCJcbiIpOwogICAgICAgIGFzc2VydEVxMzIoImJ5dGVzIDEiLCAiYnl0ZXMgMiIsIGVycik7CgogICAgICAgIGVtaXQgbG9nKCJcbiMjIGFzc2VydEVxKHVpbnQsdWludClcbiIpOwogICAgICAgIGFzc2VydEVxKHVpbnQoMCksIDEpOwogICAgICAgIGVtaXQgbG9nKCJcbiIpOwogICAgICAgIGFzc2VydEVxKHVpbnQoMCksIDEsIGVycik7CgogICAgICAgIGVtaXQgbG9nKCJcbiMjIGFzc2VydEVxKGludCxpbnQpXG4iKTsKICAgICAgICBhc3NlcnRFcSgtMSwgLTIpOwogICAgICAgIGVtaXQgbG9nKCJcbiIpOwogICAgICAgIGFzc2VydEVxKC0xLCAtMiwgZXJyKTsKCiAgICAgICAgZW1pdCBsb2coIlxuIyMgYXNzZXJ0RXFEZWNpbWFsKGludCxpbnQsdWludClcbiIpOwogICAgICAgIGFzc2VydEVxRGVjaW1hbCgtMS4wZTE4LCAtMS4xZTE4LCAxOCk7CiAgICAgICAgZW1pdCBsb2coIlxuIik7CiAgICAgICAgYXNzZXJ0RXFEZWNpbWFsKC0xLjBlMTgsIC0xLjFlMTgsIDE4LCBlcnIpOwoKICAgICAgICBlbWl0IGxvZygiXG4jIyBhc3NlcnRFcURlY2ltYWwodWludCx1aW50LHVpbnQpXG4iKTsKICAgICAgICBhc3NlcnRFcURlY2ltYWwodWludCgxLjBlMTgpLCAxLjFlMTgsIDE4KTsKICAgICAgICBlbWl0IGxvZygiXG4iKTsKICAgICAgICBhc3NlcnRFcURlY2ltYWwodWludCgxLjBlMTgpLCAxLjFlMTgsIDE4LCBlcnIpOwoKICAgICAgICBlbWl0IGxvZygiXG4jIyBhc3NlcnRHdCh1aW50LHVpbnQpXG4iKTsKICAgICAgICBhc3NlcnRHdCh1aW50KDApLCAwKTsKICAgICAgICBlbWl0IGxvZygiXG4iKTsKICAgICAgICBhc3NlcnRHdCh1aW50KDApLCAwLCBlcnIpOwoKICAgICAgICBlbWl0IGxvZygiXG4jIyBhc3NlcnRHdChpbnQsaW50KVxuIik7CiAgICAgICAgYXNzZXJ0R3QoLTEsIC0xKTsKICAgICAgICBlbWl0IGxvZygiXG4iKTsKICAgICAgICBhc3NlcnRHdCgtMSwgLTEsIGVycik7CgogICAgICAgIGVtaXQgbG9nKCJcbiMjIGFzc2VydEd0RGVjaW1hbChpbnQsaW50LHVpbnQpXG4iKTsKICAgICAgICBhc3NlcnRHdERlY2ltYWwoLTIuMGUxOCwgLTEuMWUxOCwgMTgpOwogICAgICAgIGVtaXQgbG9nKCJcbiIpOwogICAgICAgIGFzc2VydEd0RGVjaW1hbCgtMi4wZTE4LCAtMS4xZTE4LCAxOCwgZXJyKTsKCiAgICAgICAgZW1pdCBsb2coIlxuIyMgYXNzZXJ0R3REZWNpbWFsKHVpbnQsdWludCx1aW50KVxuIik7CiAgICAgICAgYXNzZXJ0R3REZWNpbWFsKHVpbnQoMS4wZTE4KSwgMS4xZTE4LCAxOCk7CiAgICAgICAgZW1pdCBsb2coIlxuIik7CiAgICAgICAgYXNzZXJ0R3REZWNpbWFsKHVpbnQoMS4wZTE4KSwgMS4xZTE4LCAxOCwgZXJyKTsKCiAgICAgICAgZW1pdCBsb2coIlxuIyMgYXNzZXJ0R2UodWludCx1aW50KVxuIik7CiAgICAgICAgYXNzZXJ0R2UodWludCgwKSwgMSk7CiAgICAgICAgZW1pdCBsb2coIlxuIik7CiAgICAgICAgYXNzZXJ0R2UodWludCgwKSwgMSwgZXJyKTsKCiAgICAgICAgZW1pdCBsb2coIlxuIyMgYXNzZXJ0R2UoaW50LGludClcbiIpOwogICAgICAgIGFzc2VydEdlKC0xLCAwKTsKICAgICAgICBlbWl0IGxvZygiXG4iKTsKICAgICAgICBhc3NlcnRHZSgtMSwgMCwgZXJyKTsKCiAgICAgICAgZW1pdCBsb2coIlxuIyMgYXNzZXJ0R2VEZWNpbWFsKGludCxpbnQsdWludClcbiIpOwogICAgICAgIGFzc2VydEdlRGVjaW1hbCgtMi4wZTE4LCAtMS4xZTE4LCAxOCk7CiAgICAgICAgZW1pdCBsb2coIlxuIik7CiAgICAgICAgYXNzZXJ0R2VEZWNpbWFsKC0yLjBlMTgsIC0xLjFlMTgsIDE4LCBlcnIpOwoKICAgICAgICBlbWl0IGxvZygiXG4jIyBhc3NlcnRHZURlY2ltYWwodWludCx1aW50LHVpbnQpXG4iKTsKICAgICAgICBhc3NlcnRHZURlY2ltYWwodWludCgxLjBlMTgpLCAxLjFlMTgsIDE4KTsKICAgICAgICBlbWl0IGxvZygiXG4iKTsKICAgICAgICBhc3NlcnRHZURlY2ltYWwodWludCgxLjBlMTgpLCAxLjFlMTgsIDE4LCBlcnIpOwoKICAgICAgICBlbWl0IGxvZygiXG4jIyBhc3NlcnRMdCh1aW50LHVpbnQpXG4iKTsKICAgICAgICBhc3NlcnRMdCh1aW50KDApLCAwKTsKICAgICAgICBlbWl0IGxvZygiXG4iKTsKICAgICAgICBhc3NlcnRMdCh1aW50KDApLCAwLCBlcnIpOwoKICAgICAgICBlbWl0IGxvZygiXG4jIyBhc3NlcnRMdChpbnQsaW50KVxuIik7CiAgICAgICAgYXNzZXJ0THQoLTEsIC0xKTsKICAgICAgICBlbWl0IGxvZygiXG4iKTsKICAgICAgICBhc3NlcnRMdCgtMSwgLTEsIGVycik7CgogICAgICAgIGVtaXQgbG9nKCJcbiMjIGFzc2VydEx0RGVjaW1hbChpbnQsaW50LHVpbnQpXG4iKTsKICAgICAgICBhc3NlcnRMdERlY2ltYWwoLTEuMGUxOCwgLTEuMWUxOCwgMTgpOwogICAgICAgIGVtaXQgbG9nKCJcbiIpOwogICAgICAgIGFzc2VydEx0RGVjaW1hbCgtMS4wZTE4LCAtMS4xZTE4LCAxOCwgZXJyKTsKCiAgICAgICAgZW1pdCBsb2coIlxuIyMgYXNzZXJ0THREZWNpbWFsKHVpbnQsdWludCx1aW50KVxuIik7CiAgICAgICAgYXNzZXJ0THREZWNpbWFsKHVpbnQoMi4wZTE4KSwgMS4xZTE4LCAxOCk7CiAgICAgICAgZW1pdCBsb2coIlxuIik7CiAgICAgICAgYXNzZXJ0THREZWNpbWFsKHVpbnQoMi4wZTE4KSwgMS4xZTE4LCAxOCwgZXJyKTsKCiAgICAgICAgZW1pdCBsb2coIlxuIyMgYXNzZXJ0TGUodWludCx1aW50KVxuIik7CiAgICAgICAgYXNzZXJ0TGUodWludCgxKSwgMCk7CiAgICAgICAgZW1pdCBsb2coIlxuIik7CiAgICAgICAgYXNzZXJ0TGUodWludCgxKSwgMCwgZXJyKTsKCiAgICAgICAgZW1pdCBsb2coIlxuIyMgYXNzZXJ0TGUoaW50LGludClcbiIpOwogICAgICAgIGFzc2VydExlKDAsIC0xKTsKICAgICAgICBlbWl0IGxvZygiXG4iKTsKICAgICAgICBhc3NlcnRMZSgwLCAtMSwgZXJyKTsKCiAgICAgICAgZW1pdCBsb2coIlxuIyMgYXNzZXJ0TGVEZWNpbWFsKGludCxpbnQsdWludClcbiIpOwogICAgICAgIGFzc2VydExlRGVjaW1hbCgtMS4wZTE4LCAtMS4xZTE4LCAxOCk7CiAgICAgICAgZW1pdCBsb2coIlxuIik7CiAgICAgICAgYXNzZXJ0TGVEZWNpbWFsKC0xLjBlMTgsIC0xLjFlMTgsIDE4LCBlcnIpOwoKICAgICAgICBlbWl0IGxvZygiXG4jIyBhc3NlcnRMZURlY2ltYWwodWludCx1aW50LHVpbnQpXG4iKTsKICAgICAgICBhc3NlcnRMZURlY2ltYWwodWludCgyLjBlMTgpLCAxLjFlMTgsIDE4KTsKICAgICAgICBlbWl0IGxvZygiXG4iKTsKICAgICAgICBhc3NlcnRMZURlY2ltYWwodWludCgyLjBlMTgpLCAxLjFlMTgsIDE4LCBlcnIpOwoKICAgICAgICBlbWl0IGxvZygiXG4jIyBhc3NlcnRFcShzdHJpbmcsc3RyaW5nKVxuIik7CiAgICAgICAgc3RyaW5nIG1lbW9yeSBzMSA9ICJzdHJpbmcgMSI7CiAgICAgICAgc3RyaW5nIG1lbW9yeSBzMiA9ICJzdHJpbmcgMiI7CiAgICAgICAgYXNzZXJ0RXEoczEsIHMyKTsKICAgICAgICBlbWl0IGxvZygiXG4iKTsKICAgICAgICBhc3NlcnRFcShzMSwgczIsIGVycik7CgogICAgICAgIGVtaXQgbG9nKCJcbiMjIGFzc2VydEVxMChieXRlcyxieXRlcylcbiIpOwogICAgICAgIGFzc2VydEVxMChoZXgiYWJjZGVmMDEiLCBoZXgiYWJjZGVmMDIiKTsKICAgICAgICBlbWl0IGxvZygiXG4iKTsKICAgICAgICBhc3NlcnRFcTAoaGV4ImFiY2RlZjAxIiwgaGV4ImFiY2RlZjAyIiwgZXJyKTsKICAgIH0KfQoKY29udHJhY3QgRGVtb1Rlc3RXaXRoU2V0VXAgewogICAgZnVuY3Rpb24gc2V0VXAoKSBwdWJsaWMgewogICAgfQogICAgZnVuY3Rpb24gdGVzdF9wYXNzKCkgcHVibGljIHB1cmUgewogICAgfQp9Cg==
+// SPDX-License-Identifier: GPL-3.0-or-later
+pragma solidity >=0.5.0;
+
+import "../src/test.sol";
+
+contract DemoTest is DSTest {
+    function test_this() public pure {
+        require(true);
+    }
+    function test_logs() public {
+        emit log("-- log(string)");
+        emit log("a string");
+
+        emit log("-- log_named_uint(string, uint)");
+        emit log_named_uint("uint", 512);
+
+        emit log("-- log_named_int(string, int)");
+        emit log_named_int("int", -512);
+
+        emit log("-- log_named_address(string, address)");
+        emit log_named_address("address", address(this));
+
+        emit log("-- log_named_bytes32(string, bytes32)");
+        emit log_named_bytes32("bytes32", "a string");
+
+        emit log("-- log_named_bytes(string, bytes)");
+        emit log_named_bytes("bytes", hex"cafefe");
+
+        emit log("-- log_named_string(string, string)");
+        emit log_named_string("string", "a string");
+
+        emit log("-- log_named_decimal_uint(string, uint, uint)");
+        emit log_named_decimal_uint("decimal uint", 1.0e18, 18);
+
+        emit log("-- log_named_decimal_int(string, int, uint)");
+        emit log_named_decimal_int("decimal int", -1.0e18, 18);
+    }
+    event log_old_named_uint(bytes32,uint);
+    function test_old_logs() public {
+        emit log_old_named_uint("key", 500);
+        emit log_named_bytes32("bkey", "val");
+    }
+    function test_trace() public view {
+        this.echo("string 1", "string 2");
+    }
+    function test_multiline() public {
+        emit log("a multiline\\nstring");
+        emit log("a multiline string");
+        emit log_bytes("a string");
+        emit log_bytes("a multiline\nstring");
+        emit log_bytes("a multiline\\nstring");
+        emit logs(hex"0000");
+        emit log_named_bytes("0x0000", hex"0000");
+        emit logs(hex"ff");
+    }
+    function echo(string memory s1, string memory s2) public pure
+        returns (string memory, string memory)
+    {
+        return (s1, s2);
+    }
+
+    function prove_this(uint x) public {
+        emit log_named_uint("sym x", x);
+        assertGt(x + 1, 0);
+    }
+
+    function test_logn() public {
+        assembly {
+            log0(0x01, 0x02)
+            log1(0x01, 0x02, 0x03)
+            log2(0x01, 0x02, 0x03, 0x04)
+            log3(0x01, 0x02, 0x03, 0x04, 0x05)
+        }
+    }
+
+    event MyEvent(uint, uint indexed, uint, uint indexed);
+    function test_events() public {
+        emit MyEvent(1, 2, 3, 4);
+    }
+
+    function test_asserts() public {
+        string memory err = "this test has failed!";
+        emit log("## assertTrue(bool)\n");
+        assertTrue(false);
+        emit log("\n");
+        assertTrue(false, err);
+
+        emit log("\n## assertEq(address,address)\n");
+        assertEq(address(this), msg.sender);
+        emit log("\n");
+        assertEq(address(this), msg.sender, err);
+
+        emit log("\n## assertEq32(bytes32,bytes32)\n");
+        assertEq32("bytes 1", "bytes 2");
+        emit log("\n");
+        assertEq32("bytes 1", "bytes 2", err);
+
+        emit log("\n## assertEq(bytes32,bytes32)\n");
+        assertEq32("bytes 1", "bytes 2");
+        emit log("\n");
+        assertEq32("bytes 1", "bytes 2", err);
+
+        emit log("\n## assertEq(uint,uint)\n");
+        assertEq(uint(0), 1);
+        emit log("\n");
+        assertEq(uint(0), 1, err);
+
+        emit log("\n## assertEq(int,int)\n");
+        assertEq(-1, -2);
+        emit log("\n");
+        assertEq(-1, -2, err);
+
+        emit log("\n## assertEqDecimal(int,int,uint)\n");
+        assertEqDecimal(-1.0e18, -1.1e18, 18);
+        emit log("\n");
+        assertEqDecimal(-1.0e18, -1.1e18, 18, err);
+
+        emit log("\n## assertEqDecimal(uint,uint,uint)\n");
+        assertEqDecimal(uint(1.0e18), 1.1e18, 18);
+        emit log("\n");
+        assertEqDecimal(uint(1.0e18), 1.1e18, 18, err);
+
+        emit log("\n## assertGt(uint,uint)\n");
+        assertGt(uint(0), 0);
+        emit log("\n");
+        assertGt(uint(0), 0, err);
+
+        emit log("\n## assertGt(int,int)\n");
+        assertGt(-1, -1);
+        emit log("\n");
+        assertGt(-1, -1, err);
+
+        emit log("\n## assertGtDecimal(int,int,uint)\n");
+        assertGtDecimal(-2.0e18, -1.1e18, 18);
+        emit log("\n");
+        assertGtDecimal(-2.0e18, -1.1e18, 18, err);
+
+        emit log("\n## assertGtDecimal(uint,uint,uint)\n");
+        assertGtDecimal(uint(1.0e18), 1.1e18, 18);
+        emit log("\n");
+        assertGtDecimal(uint(1.0e18), 1.1e18, 18, err);
+
+        emit log("\n## assertGe(uint,uint)\n");
+        assertGe(uint(0), 1);
+        emit log("\n");
+        assertGe(uint(0), 1, err);
+
+        emit log("\n## assertGe(int,int)\n");
+        assertGe(-1, 0);
+        emit log("\n");
+        assertGe(-1, 0, err);
+
+        emit log("\n## assertGeDecimal(int,int,uint)\n");
+        assertGeDecimal(-2.0e18, -1.1e18, 18);
+        emit log("\n");
+        assertGeDecimal(-2.0e18, -1.1e18, 18, err);
+
+        emit log("\n## assertGeDecimal(uint,uint,uint)\n");
+        assertGeDecimal(uint(1.0e18), 1.1e18, 18);
+        emit log("\n");
+        assertGeDecimal(uint(1.0e18), 1.1e18, 18, err);
+
+        emit log("\n## assertLt(uint,uint)\n");
+        assertLt(uint(0), 0);
+        emit log("\n");
+        assertLt(uint(0), 0, err);
+
+        emit log("\n## assertLt(int,int)\n");
+        assertLt(-1, -1);
+        emit log("\n");
+        assertLt(-1, -1, err);
+
+        emit log("\n## assertLtDecimal(int,int,uint)\n");
+        assertLtDecimal(-1.0e18, -1.1e18, 18);
+        emit log("\n");
+        assertLtDecimal(-1.0e18, -1.1e18, 18, err);
+
+        emit log("\n## assertLtDecimal(uint,uint,uint)\n");
+        assertLtDecimal(uint(2.0e18), 1.1e18, 18);
+        emit log("\n");
+        assertLtDecimal(uint(2.0e18), 1.1e18, 18, err);
+
+        emit log("\n## assertLe(uint,uint)\n");
+        assertLe(uint(1), 0);
+        emit log("\n");
+        assertLe(uint(1), 0, err);
+
+        emit log("\n## assertLe(int,int)\n");
+        assertLe(0, -1);
+        emit log("\n");
+        assertLe(0, -1, err);
+
+        emit log("\n## assertLeDecimal(int,int,uint)\n");
+        assertLeDecimal(-1.0e18, -1.1e18, 18);
+        emit log("\n");
+        assertLeDecimal(-1.0e18, -1.1e18, 18, err);
+
+        emit log("\n## assertLeDecimal(uint,uint,uint)\n");
+        assertLeDecimal(uint(2.0e18), 1.1e18, 18);
+        emit log("\n");
+        assertLeDecimal(uint(2.0e18), 1.1e18, 18, err);
+
+        emit log("\n## assertEq(string,string)\n");
+        string memory s1 = "string 1";
+        string memory s2 = "string 2";
+        assertEq(s1, s2);
+        emit log("\n");
+        assertEq(s1, s2, err);
+
+        emit log("\n## assertEq0(bytes,bytes)\n");
+        assertEq0(hex"abcdef01", hex"abcdef02");
+        emit log("\n");
+        assertEq0(hex"abcdef01", hex"abcdef02", err);
+    }
+}
+
+contract DemoTestWithSetUp {
+    function setUp() public {
+    }
+    function test_pass() public pure {
+    }
+}
