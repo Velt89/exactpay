@@ -1,1 +1,69 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0lBY2Nlc3NNYW5hZ2VkfSBmcm9tICIuLi9hY2Nlc3MvbWFuYWdlci9JQWNjZXNzTWFuYWdlZC5zb2wiOwppbXBvcnQge0lBdXRob3JpdHl9IGZyb20gIi4uL2FjY2Vzcy9tYW5hZ2VyL0lBdXRob3JpdHkuc29sIjsKCmNvbnRyYWN0IE5vdEF1dGhvcml0eU1vY2sgaXMgSUF1dGhvcml0eSB7CiAgICBmdW5jdGlvbiBjYW5DYWxsKGFkZHJlc3MgLyogY2FsbGVyICovLCBhZGRyZXNzIC8qIHRhcmdldCAqLywgYnl0ZXM0IC8qIHNlbGVjdG9yICovKSBleHRlcm5hbCBwdXJlIHJldHVybnMgKGJvb2wpIHsKICAgICAgICByZXZlcnQoIkF1dGhvcml0eU5vRGVsYXlNb2NrOiBub3QgaW1wbGVtZW50ZWQiKTsKICAgIH0KfQoKY29udHJhY3QgQXV0aG9yaXR5Tm9EZWxheU1vY2sgaXMgSUF1dGhvcml0eSB7CiAgICBib29sIF9pbW1lZGlhdGU7CgogICAgZnVuY3Rpb24gY2FuQ2FsbCgKICAgICAgICBhZGRyZXNzIC8qIGNhbGxlciAqLywKICAgICAgICBhZGRyZXNzIC8qIHRhcmdldCAqLywKICAgICAgICBieXRlczQgLyogc2VsZWN0b3IgKi8KICAgICkgZXh0ZXJuYWwgdmlldyByZXR1cm5zIChib29sIGltbWVkaWF0ZSkgewogICAgICAgIHJldHVybiBfaW1tZWRpYXRlOwogICAgfQoKICAgIGZ1bmN0aW9uIF9zZXRJbW1lZGlhdGUoYm9vbCBpbW1lZGlhdGUpIGV4dGVybmFsIHsKICAgICAgICBfaW1tZWRpYXRlID0gaW1tZWRpYXRlOwogICAgfQp9Cgpjb250cmFjdCBBdXRob3JpdHlEZWxheU1vY2sgewogICAgYm9vbCBfaW1tZWRpYXRlOwogICAgdWludDMyIF9kZWxheTsKCiAgICBmdW5jdGlvbiBjYW5DYWxsKAogICAgICAgIGFkZHJlc3MgLyogY2FsbGVyICovLAogICAgICAgIGFkZHJlc3MgLyogdGFyZ2V0ICovLAogICAgICAgIGJ5dGVzNCAvKiBzZWxlY3RvciAqLwogICAgKSBleHRlcm5hbCB2aWV3IHJldHVybnMgKGJvb2wgaW1tZWRpYXRlLCB1aW50MzIgZGVsYXkpIHsKICAgICAgICByZXR1cm4gKF9pbW1lZGlhdGUsIF9kZWxheSk7CiAgICB9CgogICAgZnVuY3Rpb24gX3NldEltbWVkaWF0ZShib29sIGltbWVkaWF0ZSkgZXh0ZXJuYWwgewogICAgICAgIF9pbW1lZGlhdGUgPSBpbW1lZGlhdGU7CiAgICB9CgogICAgZnVuY3Rpb24gX3NldERlbGF5KHVpbnQzMiBkZWxheSkgZXh0ZXJuYWwgewogICAgICAgIF9kZWxheSA9IGRlbGF5OwogICAgfQp9Cgpjb250cmFjdCBBdXRob3JpdHlOb1Jlc3BvbnNlIHsKICAgIGZ1bmN0aW9uIGNhbkNhbGwoYWRkcmVzcyAvKiBjYWxsZXIgKi8sIGFkZHJlc3MgLyogdGFyZ2V0ICovLCBieXRlczQgLyogc2VsZWN0b3IgKi8pIGV4dGVybmFsIHZpZXcge30KfQoKY29udHJhY3QgQXV0aG9yaXR5T2JzZXJ2ZUlzQ29uc3VtaW5nIHsKICAgIGV2ZW50IENvbnN1bWVTY2hlZHVsZWRPcENhbGxlZChhZGRyZXNzIGNhbGxlciwgYnl0ZXMgZGF0YSwgYnl0ZXM0IGlzQ29uc3VtaW5nKTsKCiAgICBmdW5jdGlvbiBjYW5DYWxsKAogICAgICAgIGFkZHJlc3MgLyogY2FsbGVyICovLAogICAgICAgIGFkZHJlc3MgLyogdGFyZ2V0ICovLAogICAgICAgIGJ5dGVzNCAvKiBzZWxlY3RvciAqLwogICAgKSBleHRlcm5hbCBwdXJlIHJldHVybnMgKGJvb2wgaW1tZWRpYXRlLCB1aW50MzIgZGVsYXkpIHsKICAgICAgICByZXR1cm4gKGZhbHNlLCAxKTsKICAgIH0KCiAgICBmdW5jdGlvbiBjb25zdW1lU2NoZWR1bGVkT3AoYWRkcmVzcyBjYWxsZXIsIGJ5dGVzIG1lbW9yeSBkYXRhKSBwdWJsaWMgewogICAgICAgIGVtaXQgQ29uc3VtZVNjaGVkdWxlZE9wQ2FsbGVkKGNhbGxlciwgZGF0YSwgSUFjY2Vzc01hbmFnZWQobXNnLnNlbmRlcikuaXNDb25zdW1pbmdTY2hlZHVsZWRPcCgpKTsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {IAccessManaged} from "../access/manager/IAccessManaged.sol";
+import {IAuthority} from "../access/manager/IAuthority.sol";
+
+contract NotAuthorityMock is IAuthority {
+    function canCall(address /* caller */, address /* target */, bytes4 /* selector */) external pure returns (bool) {
+        revert("AuthorityNoDelayMock: not implemented");
+    }
+}
+
+contract AuthorityNoDelayMock is IAuthority {
+    bool _immediate;
+
+    function canCall(
+        address /* caller */,
+        address /* target */,
+        bytes4 /* selector */
+    ) external view returns (bool immediate) {
+        return _immediate;
+    }
+
+    function _setImmediate(bool immediate) external {
+        _immediate = immediate;
+    }
+}
+
+contract AuthorityDelayMock {
+    bool _immediate;
+    uint32 _delay;
+
+    function canCall(
+        address /* caller */,
+        address /* target */,
+        bytes4 /* selector */
+    ) external view returns (bool immediate, uint32 delay) {
+        return (_immediate, _delay);
+    }
+
+    function _setImmediate(bool immediate) external {
+        _immediate = immediate;
+    }
+
+    function _setDelay(uint32 delay) external {
+        _delay = delay;
+    }
+}
+
+contract AuthorityNoResponse {
+    function canCall(address /* caller */, address /* target */, bytes4 /* selector */) external view {}
+}
+
+contract AuthorityObserveIsConsuming {
+    event ConsumeScheduledOpCalled(address caller, bytes data, bytes4 isConsuming);
+
+    function canCall(
+        address /* caller */,
+        address /* target */,
+        bytes4 /* selector */
+    ) external pure returns (bool immediate, uint32 delay) {
+        return (false, 1);
+    }
+
+    function consumeScheduledOp(address caller, bytes memory data) public {
+        emit ConsumeScheduledOpCalled(caller, data, IAccessManaged(msg.sender).isConsumingScheduledOp());
+    }
+}
