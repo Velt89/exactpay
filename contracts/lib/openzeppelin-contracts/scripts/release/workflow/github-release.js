@@ -1,1 +1,48 @@
-Y29uc3QgeyByZWFkRmlsZVN5bmMgfSA9IHJlcXVpcmUoJ2ZzJyk7CmNvbnN0IHsgam9pbiB9ID0gcmVxdWlyZSgncGF0aCcpOwpjb25zdCB7IHZlcnNpb24gfSA9IHJlcXVpcmUoam9pbihfX2Rpcm5hbWUsICcuLi8uLi8uLi9wYWNrYWdlLmpzb24nKSk7Cgptb2R1bGUuZXhwb3J0cyA9IGFzeW5jICh7IGdpdGh1YiwgY29udGV4dCB9KSA9PiB7CiAgY29uc3QgY2hhbmdlbG9nID0gcmVhZEZpbGVTeW5jKCdDSEFOR0VMT0cubWQnLCAndXRmOCcpOwoKICBhd2FpdCBnaXRodWIucmVzdC5yZXBvcy5jcmVhdGVSZWxlYXNlKHsKICAgIG93bmVyOiBjb250ZXh0LnJlcG8ub3duZXIsCiAgICByZXBvOiBjb250ZXh0LnJlcG8ucmVwbywKICAgIHRhZ19uYW1lOiBgdiR7dmVyc2lvbn1gLAogICAgdGFyZ2V0X2NvbW1pdGlzaDogZ2l0aHViLnJlZl9uYW1lLAogICAgYm9keTogZXh0cmFjdFNlY3Rpb24oY2hhbmdlbG9nLCB2ZXJzaW9uKSwKICAgIHByZXJlbGVhc2U6IHByb2Nlc3MuZW52LlBSRVJFTEVBU0UgPT09ICd0cnVlJywKICB9KTsKfTsKCi8vIEZyb20gaHR0cHM6Ly9naXRodWIuY29tL2ZyYW5naW8vZXh0cmFjdC1jaGFuZ2Vsb2cvYmxvYi9tYXN0ZXIvc3JjL3V0aWxzL3dvcmQtcmVnZXhwLnRzCmZ1bmN0aW9uIG1ha2VXb3JkUmVnRXhwKHdvcmQpIHsKICBjb25zdCBzdGFydCA9IHdvcmQubGVuZ3RoID4gMCAmJiAvXGIvLnRlc3Qod29yZFswXSkgPyAnXFxiJyA6ICcnOwogIGNvbnN0IGVuZCA9IHdvcmQubGVuZ3RoID4gMCAmJiAvXGIvLnRlc3Qod29yZFt3b3JkLmxlbmd0aCAtIDFdKSA/ICdcXGInIDogJyc7CiAgcmV0dXJuIG5ldyBSZWdFeHAoc3RhcnQgKyBbLi4ud29yZF0ubWFwKGMgPT4gKC9bYS16MC05XS9pLnRlc3QoYykgPyBjIDogJ1xcJyArIGMpKS5qb2luKCcnKSArIGVuZCk7Cn0KCi8vIEZyb20gaHR0cHM6Ly9naXRodWIuY29tL2ZyYW5naW8vZXh0cmFjdC1jaGFuZ2Vsb2cvYmxvYi9tYXN0ZXIvc3JjL2NvcmUudHMKZnVuY3Rpb24gZXh0cmFjdFNlY3Rpb24oZG9jdW1lbnQsIHdhbnRlZEhlYWRpbmcpIHsKICAvLyBBVFggSGVhZGluZ3MgYXMgZGVmaW5lZCBpbiBHaXRIdWIgRmxhdm9yZWQgTWFya2Rvd24gKGh0dHBzOi8vZ2l0aHViLmdpdGh1Yi5jb20vZ2ZtLyNhdHgtaGVhZGluZ3MpCiAgY29uc3QgaGVhZGluZyA9IC9eIHswLDN9KD88bGVhZD4jezEsNn0pKD86IFsgXHRcdlxmXSooPzx0ZXh0Pi4qPylbIFx0XHZcZl0qKT8oPzpbXG5ccl0rfCQpL2dtOwoKICBjb25zdCB3YW50ZWRIZWFkaW5nUmUgPSBtYWtlV29yZFJlZ0V4cCh3YW50ZWRIZWFkaW5nKTsKCiAgbGV0IHN0YXJ0LCBlbmQ7CgogIGZvciAoY29uc3QgbSBvZiBkb2N1bWVudC5tYXRjaEFsbChoZWFkaW5nKSkgewogICAgaWYgKCFzdGFydCkgewogICAgICBpZiAobS5ncm91cHMudGV4dC5zZWFyY2god2FudGVkSGVhZGluZ1JlKSA9PT0gMCkgewogICAgICAgIHN0YXJ0ID0gbTsKICAgICAgfQogICAgfSBlbHNlIGlmIChtLmdyb3Vwcy5sZWFkLmxlbmd0aCA8PSBzdGFydC5ncm91cHMubGVhZC5sZW5ndGgpIHsKICAgICAgZW5kID0gbTsKICAgICAgYnJlYWs7CiAgICB9CiAgfQoKICBpZiAoc3RhcnQpIHsKICAgIHJldHVybiBkb2N1bWVudC5zbGljZShzdGFydC5pbmRleCArIHN0YXJ0WzBdLmxlbmd0aCwgZW5kPy5pbmRleCk7CiAgfQp9Cg==
+const { readFileSync } = require('fs');
+const { join } = require('path');
+const { version } = require(join(__dirname, '../../../package.json'));
+
+module.exports = async ({ github, context }) => {
+  const changelog = readFileSync('CHANGELOG.md', 'utf8');
+
+  await github.rest.repos.createRelease({
+    owner: context.repo.owner,
+    repo: context.repo.repo,
+    tag_name: `v${version}`,
+    target_commitish: github.ref_name,
+    body: extractSection(changelog, version),
+    prerelease: process.env.PRERELEASE === 'true',
+  });
+};
+
+// From https://github.com/frangio/extract-changelog/blob/master/src/utils/word-regexp.ts
+function makeWordRegExp(word) {
+  const start = word.length > 0 && /\b/.test(word[0]) ? '\\b' : '';
+  const end = word.length > 0 && /\b/.test(word[word.length - 1]) ? '\\b' : '';
+  return new RegExp(start + [...word].map(c => (/[a-z0-9]/i.test(c) ? c : '\\' + c)).join('') + end);
+}
+
+// From https://github.com/frangio/extract-changelog/blob/master/src/core.ts
+function extractSection(document, wantedHeading) {
+  // ATX Headings as defined in GitHub Flavored Markdown (https://github.github.com/gfm/#atx-headings)
+  const heading = /^ {0,3}(?<lead>#{1,6})(?: [ \t\v\f]*(?<text>.*?)[ \t\v\f]*)?(?:[\n\r]+|$)/gm;
+
+  const wantedHeadingRe = makeWordRegExp(wantedHeading);
+
+  let start, end;
+
+  for (const m of document.matchAll(heading)) {
+    if (!start) {
+      if (m.groups.text.search(wantedHeadingRe) === 0) {
+        start = m;
+      }
+    } else if (m.groups.lead.length <= start.groups.lead.length) {
+      end = m;
+      break;
+    }
+  }
+
+  if (start) {
+    return document.slice(start.index + start[0].length, end?.index);
+  }
+}
