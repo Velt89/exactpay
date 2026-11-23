@@ -1,1 +1,46 @@
-Y29uc3QgeyB2ZXJzaW9uIH0gPSByZXF1aXJlKCcuLi8uLi9wYWNrYWdlLmpzb24nKTsKCm1vZHVsZS5leHBvcnRzWydvei12ZXJzaW9uJ10gPSAoKSA9PiB2ZXJzaW9uOwoKbW9kdWxlLmV4cG9ydHNbJ3JlYWRtZS1wYXRoJ10gPSBvcHRzID0+IHsKICByZXR1cm4gJ2NvbnRyYWN0cy8nICsgb3B0cy5kYXRhLnJvb3QuaWQucmVwbGFjZSgvXC5hZG9jJC8sICcnKSArICcvUkVBRE1FLmFkb2MnOwp9OwoKbW9kdWxlLmV4cG9ydHMubmFtZXMgPSBwYXJhbXMgPT4gcGFyYW1zPy5tYXAocCA9PiBwLm5hbWUpLmpvaW4oJywgJyk7Cgptb2R1bGUuZXhwb3J0c1sndHlwZWQtcGFyYW1zJ10gPSBwYXJhbXMgPT4gewogIHJldHVybiBwYXJhbXM/Lm1hcChwID0+IGAke3AudHlwZX0ke3AuaW5kZXhlZCA/ICcgaW5kZXhlZCcgOiAnJ30ke3AubmFtZSA/ICcgJyArIHAubmFtZSA6ICcnfWApLmpvaW4oJywgJyk7Cn07Cgpjb25zdCBzbHVnID0gKG1vZHVsZS5leHBvcnRzLnNsdWcgPSBzdHIgPT4gewogIGlmIChzdHIgPT09IHVuZGVmaW5lZCkgewogICAgdGhyb3cgbmV3IEVycm9yKCdNaXNzaW5nIGFyZ3VtZW50Jyk7CiAgfQogIHJldHVybiBzdHIucmVwbGFjZSgvXFcvZywgJy0nKTsKfSk7Cgpjb25zdCBsaW5rc0NhY2hlID0gbmV3IFdlYWtNYXAoKTsKCmZ1bmN0aW9uIGdldEFsbExpbmtzKGl0ZW1zKSB7CiAgaWYgKGxpbmtzQ2FjaGUuaGFzKGl0ZW1zKSkgewogICAgcmV0dXJuIGxpbmtzQ2FjaGUuZ2V0KGl0ZW1zKTsKICB9CiAgY29uc3QgcmVzID0ge307CiAgbGlua3NDYWNoZS5zZXQoaXRlbXMsIHJlcyk7CiAgZm9yIChjb25zdCBpdGVtIG9mIGl0ZW1zKSB7CiAgICByZXNbYHhyZWYtJHtpdGVtLmFuY2hvcn1gXSA9IGB4cmVmOiR7aXRlbS5fX2l0ZW1fY29udGV4dC5wYWdlfSMke2l0ZW0uYW5jaG9yfWA7CiAgICByZXNbc2x1ZyhpdGVtLmZ1bGxOYW1lKV0gPSBgcGFzczpub3JtYWxbeHJlZjoke2l0ZW0uX19pdGVtX2NvbnRleHQucGFnZX0jJHtpdGVtLmFuY2hvcn1bXGAke2l0ZW0uZnVsbE5hbWV9XGBdXWA7CiAgfQogIHJldHVybiByZXM7Cn0KCm1vZHVsZS5leHBvcnRzWyd3aXRoLXByZWx1ZGUnXSA9IG9wdHMgPT4gewogIGNvbnN0IGxpbmtzID0gZ2V0QWxsTGlua3Mob3B0cy5kYXRhLnNpdGUuaXRlbXMpOwogIGNvbnN0IGNvbnRlbnRzID0gb3B0cy5mbigpOwogIGNvbnN0IG5lZWRlZExpbmtzID0gY29udGVudHMKICAgIC5tYXRjaCgvXHtbLS5fYS16MC05XStcfS9naSkKICAgIC5tYXAobSA9PiBtLnJlcGxhY2UoL15ceyguKylcfSQvLCAnJDEnKSkKICAgIC5maWx0ZXIoayA9PiBrIGluIGxpbmtzKTsKICBjb25zdCBwcmVsdWRlID0gbmVlZGVkTGlua3MubWFwKGsgPT4gYDoke2t9OiAke2xpbmtzW2tdfWApLmpvaW4oJ1xuJyk7CiAgcmV0dXJuIHByZWx1ZGUgKyAnXG4nICsgY29udGVudHM7Cn07Cg==
+const { version } = require('../../package.json');
+
+module.exports['oz-version'] = () => version;
+
+module.exports['readme-path'] = opts => {
+  return 'contracts/' + opts.data.root.id.replace(/\.adoc$/, '') + '/README.adoc';
+};
+
+module.exports.names = params => params?.map(p => p.name).join(', ');
+
+module.exports['typed-params'] = params => {
+  return params?.map(p => `${p.type}${p.indexed ? ' indexed' : ''}${p.name ? ' ' + p.name : ''}`).join(', ');
+};
+
+const slug = (module.exports.slug = str => {
+  if (str === undefined) {
+    throw new Error('Missing argument');
+  }
+  return str.replace(/\W/g, '-');
+});
+
+const linksCache = new WeakMap();
+
+function getAllLinks(items) {
+  if (linksCache.has(items)) {
+    return linksCache.get(items);
+  }
+  const res = {};
+  linksCache.set(items, res);
+  for (const item of items) {
+    res[`xref-${item.anchor}`] = `xref:${item.__item_context.page}#${item.anchor}`;
+    res[slug(item.fullName)] = `pass:normal[xref:${item.__item_context.page}#${item.anchor}[\`${item.fullName}\`]]`;
+  }
+  return res;
+}
+
+module.exports['with-prelude'] = opts => {
+  const links = getAllLinks(opts.data.site.items);
+  const contents = opts.fn();
+  const neededLinks = contents
+    .match(/\{[-._a-z0-9]+\}/gi)
+    .map(m => m.replace(/^\{(.+)\}$/, '$1'))
+    .filter(k => k in links);
+  const prelude = neededLinks.map(k => `:${k}: ${links[k]}`).join('\n');
+  return prelude + '\n' + contents;
+};
