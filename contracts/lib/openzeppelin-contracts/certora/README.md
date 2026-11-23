@@ -1,1 +1,60 @@
-IyBSdW5uaW5nIHRoZSBjZXJ0b3JhIHZlcmlmaWNhdGlvbiB0b29sCgpUaGVzZSBpbnN0cnVjdGlvbnMgZGV0YWlsIHRoZSBwcm9jZXNzIGZvciBydW5uaW5nIENlcnRvcmEgVmVyaWZpY2F0aW9uIFRvb2wgb24gT3BlblplcHBlbGluIENvbnRyYWN0cy4KCkRvY3VtZW50YXRpb24gZm9yIENWVCBhbmQgdGhlIHNwZWNpZmljYXRpb24gbGFuZ3VhZ2UgYXJlIGF2YWlsYWJsZSBbaGVyZV0oaHR0cHM6Ly9jZXJ0b3JhLmF0bGFzc2lhbi5uZXQvd2lraS9zcGFjZXMvQ1BEL292ZXJ2aWV3KS4KCiMjIFByZXJlcXVpc2l0ZXMKCkZvbGxvdyB0aGUgW0NlcnRvcmEgaW5zdGFsbGF0aW9uIGd1aWRlXShodHRwczovL2RvY3MuY2VydG9yYS5jb20vZW4vbGF0ZXN0L2RvY3MvdXNlci1ndWlkZS9nZXR0aW5nLXN0YXJ0ZWQvaW5zdGFsbC5odG1sKSBpbiBvcmRlciB0byBnZXQgdGhlIENlcnRvcmEgUHJvdmVyIFBhY2thZ2UgYW5kIHRoZSBgc29sY2AgZXhlY3V0YWJsZSBmb2xkZXIgaW4geW91ciBwYXRoLgoKPiAqKk5vdGUqKgo+IEFuIEFQSSBLZXkgaXMgcmVxdWlyZWQgZm9yIGxvY2FsIHRlc3RpbmcuIEFsdGhvdWdoIHRoZSBwcm92ZXIgd2lsbCBydW4gb24gYSBHaXRodWIgQWN0aW9ucycgQ0kgZW52aXJvbm1lbnQgb24gc2VsZWN0ZWQgUHVsbCBSZXF1ZXN0cy4KCiMjIFJ1bm5pbmcgdGhlIHZlcmlmaWNhdGlvbgoKVGhlIENlcnRvcmEgVmVyaWZpY2F0aW9uIFRvb2wgcHJvdmVzIHNwZWNzIGZvciBjb250cmFjdHMsIHdoaWNoIGFyZSBkZWZpbmVkIGJ5IHRoZSBgLi9zcGVjcy5qc29uYCBmaWxlIGFsb25nIHdpdGggdGhlaXIgcHJlLWNvbmZpZ3VyZWQgb3B0aW9ucy4KClRoZSB2ZXJpZmljYXRpb24gc2NyaXB0IGAuL3J1bi5qc2AgaXMgdXNlZCB0byBzdWJtaXQgdmVyaWZpY2F0aW9uIGpvYnMgdG8gdGhlIENlcnRvcmEgVmVyaWZpY2F0aW9uIHNlcnZpY2UuCgpZb3UgY2FuIHJ1biBpdCBmcm9tIHRoZSByb290IG9mIHRoZSByZXBvc2l0b3J5IHdpdGggdGhlIGZvbGxvd2luZyBjb21tYW5kOgoKYGBgYmFzaApub2RlIGNlcnRvcmEvcnVuLmpzIFtbQ09OVFJBQ1RfTkFNRTpdU1BFQ19OQU1FXSBbT1BUSU9OUy4uLl0KYGBgCgpXaGVyZToKCi0gYENPTlRSQUNUX05BTUVgIG1hdGNoZXMgdGhlIGBjb250cmFjdGAga2V5IGluIHRoZSBgLi9zcGVjLmpzb25gIGZpbGUgYW5kIG1heSBiZSBlbXB0eS4gSXQgd2lsbCBydW4gYWxsIG1hdGNoaW5nIGNvbnRyYWN0cyBpZiBub3QgcHJvdmlkZWQuCi0gYFNQRUNfTkFNRWAgcmVmZXJzIHRvIGEgYHNwZWNgIGtleSBmcm9tIHRoZSBgLi9zcGVjcy5qc29uYCBmaWxlLiBJdCB3aWxsIHJ1biBldmVyeSBzcGVjIGlmIG5vdCBwcm92aWRlZC4KLSBgT1BUSU9OU2AgZXh0ZW5kIHRoZSBbQ2VydG9yYSBQcm92ZXIgQ0xJIG9wdGlvbnNdKGh0dHBzOi8vZG9jcy5jZXJ0b3JhLmNvbS9lbi9sYXRlc3QvZG9jcy9wcm92ZXIvY2xpL29wdGlvbnMuaHRtbCNjZXJ0b3JhLXByb3Zlci1jbGktb3B0aW9ucykgYW5kIHdpbGwgcmVzcGVjdCB0aGUgcHJlY29uZmlndXJlZCBvcHRpb25zIGluIHRoZSBgc3BlY3MuanNvbmAgZmlsZS4KCj4gKipOb3RlKioKPiBBIHNpbmdsZSBzcGVjIG1heSBiZSBjb25maWd1cmVkIHRvIHJ1biBmb3IgbXVsdGlwbGUgY29udHJhY3RzLCB3aGVyZWFzIGEgc2luZ2xlIGNvbnRyYWN0IG1heSBydW4gbXVsdGlwbGUgc3BlY3MuCgpFeGFtcGxlIHVzYWdlOgoKYGBgYmFzaApub2RlIGNlcnRvcmEvcnVuLmpzIEFjY2Vzc0NvbnRyb2wgIyBSdW4gdGhlIEFjY2Vzc0NvbnRyb2wgc3BlYyBhZ2FpbnN0IGV2ZXJ5IGNvbnRyYWN0IGltcGxlbWVudGluZyBpdApgYGAKCiMjIEFkYXB0aW5nIHRvIGNoYW5nZXMgaW4gdGhlIGNvbnRyYWN0cwoKU29tZSBvZiBvdXIgcnVsZXMgcmVxdWlyZSB0aGUgY29kZSB0byBiZSBzaW1wbGlmaWVkIGluIHZhcmlvdXMgd2F5cy4gT3VyIHByaW1hcnkgdG9vbCBmb3IgcGVyZm9ybWluZyB0aGVzZSBzaW1wbGlmaWNhdGlvbnMgaXMgdG8gcnVuIHZlcmlmaWNhdGlvbiBvbiBhIGNvbnRyYWN0IHRoYXQgZXh0ZW5kcyB0aGUgb3JpZ2luYWwgY29udHJhY3RzIGFuZCBvdmVycmlkZXMgc29tZSBvZiB0aGUgbWV0aG9kcy4gVGhlc2UgImhhcm5lc3MiIGNvbnRyYWN0cyBjYW4gYmUgZm91bmQgaW4gdGhlIGBjZXJ0b3JhL2hhcm5lc3NgIGRpcmVjdG9yeS4KClRoaXMgcGF0dGVybiBkb2VzIHJlcXVpcmUgc29tZSBtb2RpZmljYXRpb25zIHRvIHRoZSBvcmlnaW5hbCBjb2RlOiBzb21lIG1ldGhvZHMgbmVlZCB0byBiZSBtYWRlIHZpcnR1YWwgb3IgcHVibGljLCBmb3IgZXhhbXBsZS4gVGhlc2UgY2hhbmdlcyBhcmUgaGFuZGxlZCBieSBhcHBseWluZyBhIHBhdGNoCnRvIHRoZSBjb2RlIGJlZm9yZSB2ZXJpZmljYXRpb24gYnkgcnVubmluZzoKCmBgYGJhc2gKbWFrZSAtQyBjZXJ0b3JhIGFwcGx5CmBgYAoKQmVmb3JlIHJ1bm5pbmcgdGhlIGBjZXJ0b3JhL3J1bi5qc2Agc2NyaXB0LCBpdCdzIHJlcXVpcmVkIHRvIGFwcGx5IHRoZSBjb3JyZXNwb25kaW5nIHBhdGNoZXMgdG8gdGhlIGBjb250cmFjdHNgIGRpcmVjdG9yeSwgcGxhY2luZyB0aGUgb3V0cHV0IGluIHRoZSBgY2VydG9yYS9wYXRjaGVkYCBkaXJlY3RvcnkuIFRoZW4sIHRoZSBjb250cmFjdHMgYXJlIHZlcmlmaWVkIGJ5IHJ1bm5pbmcgdGhlIHZlcmlmaWNhdGlvbiBmb3IgdGhlIGBjZXJ0b3JhL3BhdGNoZWRgIGRpcmVjdG9yeS4KCklmIHRoZSBvcmlnaW5hbCBjb250cmFjdHMgY2hhbmdlLCBpdCBpcyBwb3NzaWJsZSB0byBjcmVhdGUgYSBjb25mbGljdCB3aXRoIHRoZSBwYXRjaC4gSW4gdGhpcyBjYXNlLCB0aGUgdmVyaWZ5IHNjcmlwdHMgd2lsbCByZXBvcnQgYW4gZXJyb3IgbWVzc2FnZSBhbmQgb3V0cHV0IHJlamVjdGVkIGNoYW5nZXMgaW4gdGhlIGBwYXRjaGVkYCBkaXJlY3RvcnkuIEFmdGVyIG1lcmdpbmcgdGhlIGNoYW5nZXMsIHJ1biBgbWFrZSByZWNvcmRgIGluIHRoZSBgY2VydG9yYWAgZGlyZWN0b3J5OyB0aGlzIHdpbGwgcmVnZW5lcmF0ZSB0aGUgcGF0Y2ggZmlsZSwgd2hpY2ggY2FuIHRoZW4gYmUgY2hlY2tlZCBpbnRvIGdpdC4KCkZvciBtb3JlIGluZm9ybWF0aW9uIGFib3V0IHRoZSBgbWFrZWAgc2NyaXB0cyBhdmFpbGFibGUsIHJ1bjoKCmBgYGJhc2gKbWFrZSAtQyBjZXJ0b3JhIGhlbHAKYGBgCg==
+# Running the certora verification tool
+
+These instructions detail the process for running Certora Verification Tool on OpenZeppelin Contracts.
+
+Documentation for CVT and the specification language are available [here](https://certora.atlassian.net/wiki/spaces/CPD/overview).
+
+## Prerequisites
+
+Follow the [Certora installation guide](https://docs.certora.com/en/latest/docs/user-guide/getting-started/install.html) in order to get the Certora Prover Package and the `solc` executable folder in your path.
+
+> **Note**
+> An API Key is required for local testing. Although the prover will run on a Github Actions' CI environment on selected Pull Requests.
+
+## Running the verification
+
+The Certora Verification Tool proves specs for contracts, which are defined by the `./specs.json` file along with their pre-configured options.
+
+The verification script `./run.js` is used to submit verification jobs to the Certora Verification service.
+
+You can run it from the root of the repository with the following command:
+
+```bash
+node certora/run.js [[CONTRACT_NAME:]SPEC_NAME] [OPTIONS...]
+```
+
+Where:
+
+- `CONTRACT_NAME` matches the `contract` key in the `./spec.json` file and may be empty. It will run all matching contracts if not provided.
+- `SPEC_NAME` refers to a `spec` key from the `./specs.json` file. It will run every spec if not provided.
+- `OPTIONS` extend the [Certora Prover CLI options](https://docs.certora.com/en/latest/docs/prover/cli/options.html#certora-prover-cli-options) and will respect the preconfigured options in the `specs.json` file.
+
+> **Note**
+> A single spec may be configured to run for multiple contracts, whereas a single contract may run multiple specs.
+
+Example usage:
+
+```bash
+node certora/run.js AccessControl # Run the AccessControl spec against every contract implementing it
+```
+
+## Adapting to changes in the contracts
+
+Some of our rules require the code to be simplified in various ways. Our primary tool for performing these simplifications is to run verification on a contract that extends the original contracts and overrides some of the methods. These "harness" contracts can be found in the `certora/harness` directory.
+
+This pattern does require some modifications to the original code: some methods need to be made virtual or public, for example. These changes are handled by applying a patch
+to the code before verification by running:
+
+```bash
+make -C certora apply
+```
+
+Before running the `certora/run.js` script, it's required to apply the corresponding patches to the `contracts` directory, placing the output in the `certora/patched` directory. Then, the contracts are verified by running the verification for the `certora/patched` directory.
+
+If the original contracts change, it is possible to create a conflict with the patch. In this case, the verify scripts will report an error message and output rejected changes in the `patched` directory. After merging the changes, run `make record` in the `certora` directory; this will regenerate the patch file, which can then be checked into git.
+
+For more information about the `make` scripts available, run:
+
+```bash
+make -C certora help
+```
