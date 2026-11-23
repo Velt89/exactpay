@@ -1,1 +1,81 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKY29uc3QgbmFtZSA9ICdOb24gRnVuZ2libGUgVG9rZW4nOwpjb25zdCBzeW1ib2wgPSAnTkZUJzsKY29uc3QgdG9rZW5JZCA9IDFuOwpjb25zdCBvdGhlclRva2VuSWQgPSAybjsKY29uc3QgZGF0YSA9IGV0aGVycy5UeXBlZC5ieXRlcygnMHg0MicpOwoKYXN5bmMgZnVuY3Rpb24gZml4dHVyZSgpIHsKICBjb25zdCBbb3duZXIsIHJlY2VpdmVyLCBvcGVyYXRvcl0gPSBhd2FpdCBldGhlcnMuZ2V0U2lnbmVycygpOwogIGNvbnN0IHRva2VuID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCckRVJDNzIxUGF1c2FibGUnLCBbbmFtZSwgc3ltYm9sXSk7CiAgcmV0dXJuIHsgb3duZXIsIHJlY2VpdmVyLCBvcGVyYXRvciwgdG9rZW4gfTsKfQoKZGVzY3JpYmUoJ0VSQzcyMVBhdXNhYmxlJywgZnVuY3Rpb24gKCkgewogIGJlZm9yZUVhY2goYXN5bmMgZnVuY3Rpb24gKCkgewogICAgT2JqZWN0LmFzc2lnbih0aGlzLCBhd2FpdCBsb2FkRml4dHVyZShmaXh0dXJlKSk7CiAgfSk7CgogIGRlc2NyaWJlKCd3aGVuIHRva2VuIGlzIHBhdXNlZCcsIGZ1bmN0aW9uICgpIHsKICAgIGJlZm9yZUVhY2goYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCB0aGlzLnRva2VuLiRfbWludCh0aGlzLm93bmVyLCB0b2tlbklkKTsKICAgICAgYXdhaXQgdGhpcy50b2tlbi4kX3BhdXNlKCk7CiAgICB9KTsKCiAgICBpdCgncmV2ZXJ0cyB3aGVuIHRyeWluZyB0byB0cmFuc2ZlckZyb20nLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IGV4cGVjdCgKICAgICAgICB0aGlzLnRva2VuLmNvbm5lY3QodGhpcy5vd25lcikudHJhbnNmZXJGcm9tKHRoaXMub3duZXIsIHRoaXMucmVjZWl2ZXIsIHRva2VuSWQpLAogICAgICApLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMudG9rZW4sICdFbmZvcmNlZFBhdXNlJyk7CiAgICB9KTsKCiAgICBpdCgncmV2ZXJ0cyB3aGVuIHRyeWluZyB0byBzYWZlVHJhbnNmZXJGcm9tJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCBleHBlY3QoCiAgICAgICAgdGhpcy50b2tlbi5jb25uZWN0KHRoaXMub3duZXIpLnNhZmVUcmFuc2ZlckZyb20odGhpcy5vd25lciwgdGhpcy5yZWNlaXZlciwgdG9rZW5JZCksCiAgICAgICkudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy50b2tlbiwgJ0VuZm9yY2VkUGF1c2UnKTsKICAgIH0pOwoKICAgIGl0KCdyZXZlcnRzIHdoZW4gdHJ5aW5nIHRvIHNhZmVUcmFuc2ZlckZyb20gd2l0aCBkYXRhJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCBleHBlY3QoCiAgICAgICAgdGhpcy50b2tlbi5jb25uZWN0KHRoaXMub3duZXIpLnNhZmVUcmFuc2ZlckZyb20odGhpcy5vd25lciwgdGhpcy5yZWNlaXZlciwgdG9rZW5JZCwgZGF0YSksCiAgICAgICkudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy50b2tlbiwgJ0VuZm9yY2VkUGF1c2UnKTsKICAgIH0pOwoKICAgIGl0KCdyZXZlcnRzIHdoZW4gdHJ5aW5nIHRvIG1pbnQnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLnRva2VuLiRfbWludCh0aGlzLnJlY2VpdmVyLCBvdGhlclRva2VuSWQpKS50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcigKICAgICAgICB0aGlzLnRva2VuLAogICAgICAgICdFbmZvcmNlZFBhdXNlJywKICAgICAgKTsKICAgIH0pOwoKICAgIGl0KCdyZXZlcnRzIHdoZW4gdHJ5aW5nIHRvIGJ1cm4nLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLnRva2VuLiRfYnVybih0b2tlbklkKSkudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy50b2tlbiwgJ0VuZm9yY2VkUGF1c2UnKTsKICAgIH0pOwoKICAgIGRlc2NyaWJlKCdnZXRBcHByb3ZlZCcsIGZ1bmN0aW9uICgpIHsKICAgICAgaXQoJ3JldHVybnMgYXBwcm92ZWQgYWRkcmVzcycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy50b2tlbi5nZXRBcHByb3ZlZCh0b2tlbklkKSkudG8uZXF1YWwoZXRoZXJzLlplcm9BZGRyZXNzKTsKICAgICAgfSk7CiAgICB9KTsKCiAgICBkZXNjcmliZSgnYmFsYW5jZU9mJywgZnVuY3Rpb24gKCkgewogICAgICBpdCgncmV0dXJucyB0aGUgYW1vdW50IG9mIHRva2VucyBvd25lZCBieSB0aGUgZ2l2ZW4gYWRkcmVzcycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy50b2tlbi5iYWxhbmNlT2YodGhpcy5vd25lcikpLnRvLmVxdWFsKDFuKTsKICAgICAgfSk7CiAgICB9KTsKCiAgICBkZXNjcmliZSgnb3duZXJPZicsIGZ1bmN0aW9uICgpIHsKICAgICAgaXQoJ3JldHVybnMgdGhlIGFtb3VudCBvZiB0b2tlbnMgb3duZWQgYnkgdGhlIGdpdmVuIGFkZHJlc3MnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudG9rZW4ub3duZXJPZih0b2tlbklkKSkudG8uZXF1YWwodGhpcy5vd25lcik7CiAgICAgIH0pOwogICAgfSk7CgogICAgZGVzY3JpYmUoJ2lzQXBwcm92ZWRGb3JBbGwnLCBmdW5jdGlvbiAoKSB7CiAgICAgIGl0KCdyZXR1cm5zIHRoZSBhcHByb3ZhbCBvZiB0aGUgb3BlcmF0b3InLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudG9rZW4uaXNBcHByb3ZlZEZvckFsbCh0aGlzLm93bmVyLCB0aGlzLm9wZXJhdG9yKSkudG8uYmUuZmFsc2U7CiAgICAgIH0pOwogICAgfSk7CiAgfSk7Cn0pOwo=
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+const name = 'Non Fungible Token';
+const symbol = 'NFT';
+const tokenId = 1n;
+const otherTokenId = 2n;
+const data = ethers.Typed.bytes('0x42');
+
+async function fixture() {
+  const [owner, receiver, operator] = await ethers.getSigners();
+  const token = await ethers.deployContract('$ERC721Pausable', [name, symbol]);
+  return { owner, receiver, operator, token };
+}
+
+describe('ERC721Pausable', function () {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  describe('when token is paused', function () {
+    beforeEach(async function () {
+      await this.token.$_mint(this.owner, tokenId);
+      await this.token.$_pause();
+    });
+
+    it('reverts when trying to transferFrom', async function () {
+      await expect(
+        this.token.connect(this.owner).transferFrom(this.owner, this.receiver, tokenId),
+      ).to.be.revertedWithCustomError(this.token, 'EnforcedPause');
+    });
+
+    it('reverts when trying to safeTransferFrom', async function () {
+      await expect(
+        this.token.connect(this.owner).safeTransferFrom(this.owner, this.receiver, tokenId),
+      ).to.be.revertedWithCustomError(this.token, 'EnforcedPause');
+    });
+
+    it('reverts when trying to safeTransferFrom with data', async function () {
+      await expect(
+        this.token.connect(this.owner).safeTransferFrom(this.owner, this.receiver, tokenId, data),
+      ).to.be.revertedWithCustomError(this.token, 'EnforcedPause');
+    });
+
+    it('reverts when trying to mint', async function () {
+      await expect(this.token.$_mint(this.receiver, otherTokenId)).to.be.revertedWithCustomError(
+        this.token,
+        'EnforcedPause',
+      );
+    });
+
+    it('reverts when trying to burn', async function () {
+      await expect(this.token.$_burn(tokenId)).to.be.revertedWithCustomError(this.token, 'EnforcedPause');
+    });
+
+    describe('getApproved', function () {
+      it('returns approved address', async function () {
+        expect(await this.token.getApproved(tokenId)).to.equal(ethers.ZeroAddress);
+      });
+    });
+
+    describe('balanceOf', function () {
+      it('returns the amount of tokens owned by the given address', async function () {
+        expect(await this.token.balanceOf(this.owner)).to.equal(1n);
+      });
+    });
+
+    describe('ownerOf', function () {
+      it('returns the amount of tokens owned by the given address', async function () {
+        expect(await this.token.ownerOf(tokenId)).to.equal(this.owner);
+      });
+    });
+
+    describe('isApprovedForAll', function () {
+      it('returns the approval of the operator', async function () {
+        expect(await this.token.isApprovedForAll(this.owner, this.operator)).to.be.false;
+      });
+    });
+  });
+});
