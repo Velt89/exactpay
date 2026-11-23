@@ -1,1 +1,92 @@
-aW1wb3J0ICJoZWxwZXJzL2hlbHBlcnMuc3BlYyI7CgptZXRob2RzIHsKICAgIGZ1bmN0aW9uIG5vbmNlcyhhZGRyZXNzKSBleHRlcm5hbCByZXR1cm5zICh1aW50MjU2KSBlbnZmcmVlOwogICAgZnVuY3Rpb24gdXNlTm9uY2UoYWRkcmVzcykgZXh0ZXJuYWwgcmV0dXJucyAodWludDI1NikgZW52ZnJlZTsKICAgIGZ1bmN0aW9uIHVzZUNoZWNrZWROb25jZShhZGRyZXNzLHVpbnQyNTYpIGV4dGVybmFsIGVudmZyZWU7Cn0KCi8qCuKUjOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUkArilIIgSGVscGVycyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICDilIIK4pSU4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSYCiovCmZ1bmN0aW9uIG5vbmNlU2FuaXR5KGFkZHJlc3MgYWNjb3VudCkgcmV0dXJucyBib29sIHsKICAgIHJldHVybiBub25jZXMoYWNjb3VudCkgPCBtYXhfdWludDI1NjsKfQoKLyoK4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQCuKUgiBGdW5jdGlvbiBjb3JyZWN0bmVzczogdXNlTm9uY2UgdXNlcyBub25jZSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIOKUggrilJTilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJgKKi8KcnVsZSB1c2VOb25jZShhZGRyZXNzIGFjY291bnQpIHsKICAgIHJlcXVpcmUgbm9uY2VTYW5pdHkoYWNjb3VudCk7CgogICAgYWRkcmVzcyBvdGhlcjsKCiAgICBtYXRoaW50IG5vbmNlQmVmb3JlID0gbm9uY2VzKGFjY291bnQpOwogICAgbWF0aGludCBvdGhlck5vbmNlQmVmb3JlID0gbm9uY2VzKG90aGVyKTsKCiAgICBtYXRoaW50IG5vbmNlVXNlZCA9IHVzZU5vbmNlQHdpdGhyZXZlcnQoYWNjb3VudCk7CiAgICBib29sIHN1Y2Nlc3MgPSAhbGFzdFJldmVydGVkOwoKICAgIG1hdGhpbnQgbm9uY2VBZnRlciA9IG5vbmNlcyhhY2NvdW50KTsKICAgIG1hdGhpbnQgb3RoZXJOb25jZUFmdGVyID0gbm9uY2VzKG90aGVyKTsKCiAgICAvLyBsaXZlbmVzcwogICAgYXNzZXJ0IHN1Y2Nlc3MsICJkb2Vzbid0IHJldmVydCI7CgogICAgLy8gZWZmZWN0CiAgICBhc3NlcnQgbm9uY2VBZnRlciA9PSBub25jZUJlZm9yZSArIDEgJiYgbm9uY2VCZWZvcmUgPT0gbm9uY2VVc2VkLCAibm9uY2UgaXMgdXNlZCI7CgogICAgLy8gbm8gc2lkZSBlZmZlY3QKICAgIGFzc2VydCBvdGhlck5vbmNlQmVmb3JlICE9IG90aGVyTm9uY2VBZnRlciA9PiBvdGhlciA9PSBhY2NvdW50LCAibm8gb3RoZXIgbm9uY2UgaXMgdXNlZCI7Cn0KCi8qCuKUjOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUkArilIIgRnVuY3Rpb24gY29ycmVjdG5lc3M6IHVzZUNoZWNrZWROb25jZSB1c2VzIG9ubHkgdGhlIGN1cnJlbnQgbm9uY2UgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICDilIIK4pSU4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSYCiovCnJ1bGUgdXNlQ2hlY2tlZE5vbmNlKGFkZHJlc3MgYWNjb3VudCwgdWludDI1NiBjdXJyZW50Tm9uY2UpIHsKICAgIHJlcXVpcmUgbm9uY2VTYW5pdHkoYWNjb3VudCk7CgogICAgYWRkcmVzcyBvdGhlcjsKCiAgICBtYXRoaW50IG5vbmNlQmVmb3JlID0gbm9uY2VzKGFjY291bnQpOwogICAgbWF0aGludCBvdGhlck5vbmNlQmVmb3JlID0gbm9uY2VzKG90aGVyKTsKCiAgICB1c2VDaGVja2VkTm9uY2VAd2l0aHJldmVydChhY2NvdW50LCBjdXJyZW50Tm9uY2UpOwogICAgYm9vbCBzdWNjZXNzID0gIWxhc3RSZXZlcnRlZDsKCiAgICBtYXRoaW50IG5vbmNlQWZ0ZXIgPSBub25jZXMoYWNjb3VudCk7CiAgICBtYXRoaW50IG90aGVyTm9uY2VBZnRlciA9IG5vbmNlcyhvdGhlcik7CgogICAgLy8gbGl2ZW5lc3MKICAgIGFzc2VydCBzdWNjZXNzIDw9PiB0b19tYXRoaW50KGN1cnJlbnROb25jZSkgPT0gbm9uY2VCZWZvcmUsICJ3b3JrcyBpZmYgY3VycmVudCBub25jZSBpcyBjb3JyZWN0IjsKCiAgICAvLyBlZmZlY3QKICAgIGFzc2VydCBzdWNjZXNzID0+IG5vbmNlQWZ0ZXIgPT0gbm9uY2VCZWZvcmUgKyAxLCAibm9uY2UgaXMgdXNlZCI7CgogICAgLy8gbm8gc2lkZSBlZmZlY3QKICAgIGFzc2VydCBvdGhlck5vbmNlQmVmb3JlICE9IG90aGVyTm9uY2VBZnRlciA9PiBvdGhlciA9PSBhY2NvdW50LCAibm8gb3RoZXIgbm9uY2UgaXMgdXNlZCI7Cn0KCi8qCuKUjOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUkArilIIgUnVsZTogbm9uY2Ugb25seSBpbmNyZW1lbnRzICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICDilIIK4pSU4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSYCiovCnJ1bGUgbm9uY2VPbmx5SW5jcmVtZW50cyhhZGRyZXNzIGFjY291bnQpIHsKICAgIHJlcXVpcmUgbm9uY2VTYW5pdHkoYWNjb3VudCk7CgogICAgbWF0aGludCBub25jZUJlZm9yZSA9IG5vbmNlcyhhY2NvdW50KTsKCiAgICBlbnYgZTsgbWV0aG9kIGY7IGNhbGxkYXRhYXJnIGFyZ3M7CiAgICBmKGUsIGFyZ3MpOwoKICAgIG1hdGhpbnQgbm9uY2VBZnRlciA9IG5vbmNlcyhhY2NvdW50KTsKCiAgICBhc3NlcnQgbm9uY2VBZnRlciA9PSBub25jZUJlZm9yZSB8fCBub25jZUFmdGVyID09IG5vbmNlQmVmb3JlICsgMSwgIm5vbmNlIG9ubHkgaW5jcmVtZW50cyI7Cn0K
+import "helpers/helpers.spec";
+
+methods {
+    function nonces(address) external returns (uint256) envfree;
+    function useNonce(address) external returns (uint256) envfree;
+    function useCheckedNonce(address,uint256) external envfree;
+}
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Helpers                                                                                                             │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+function nonceSanity(address account) returns bool {
+    return nonces(account) < max_uint256;
+}
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Function correctness: useNonce uses nonce                                                                           │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+rule useNonce(address account) {
+    require nonceSanity(account);
+
+    address other;
+
+    mathint nonceBefore = nonces(account);
+    mathint otherNonceBefore = nonces(other);
+
+    mathint nonceUsed = useNonce@withrevert(account);
+    bool success = !lastReverted;
+
+    mathint nonceAfter = nonces(account);
+    mathint otherNonceAfter = nonces(other);
+
+    // liveness
+    assert success, "doesn't revert";
+
+    // effect
+    assert nonceAfter == nonceBefore + 1 && nonceBefore == nonceUsed, "nonce is used";
+
+    // no side effect
+    assert otherNonceBefore != otherNonceAfter => other == account, "no other nonce is used";
+}
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Function correctness: useCheckedNonce uses only the current nonce                                                   │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+rule useCheckedNonce(address account, uint256 currentNonce) {
+    require nonceSanity(account);
+
+    address other;
+
+    mathint nonceBefore = nonces(account);
+    mathint otherNonceBefore = nonces(other);
+
+    useCheckedNonce@withrevert(account, currentNonce);
+    bool success = !lastReverted;
+
+    mathint nonceAfter = nonces(account);
+    mathint otherNonceAfter = nonces(other);
+
+    // liveness
+    assert success <=> to_mathint(currentNonce) == nonceBefore, "works iff current nonce is correct";
+
+    // effect
+    assert success => nonceAfter == nonceBefore + 1, "nonce is used";
+
+    // no side effect
+    assert otherNonceBefore != otherNonceAfter => other == account, "no other nonce is used";
+}
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Rule: nonce only increments                                                                                         │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+rule nonceOnlyIncrements(address account) {
+    require nonceSanity(account);
+
+    mathint nonceBefore = nonces(account);
+
+    env e; method f; calldataarg args;
+    f(e, args);
+
+    mathint nonceAfter = nonces(account);
+
+    assert nonceAfter == nonceBefore || nonceAfter == nonceBefore + 1, "nonce only increments";
+}
