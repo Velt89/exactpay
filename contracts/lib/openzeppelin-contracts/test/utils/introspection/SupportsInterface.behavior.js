@@ -1,1 +1,145 @@
-Y29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBpbnRlcmZhY2VJZCB9ID0gcmVxdWlyZSgnLi4vLi4vaGVscGVycy9tZXRob2RzJyk7CmNvbnN0IHsgbWFwVmFsdWVzIH0gPSByZXF1aXJlKCcuLi8uLi9oZWxwZXJzL2l0ZXJhdGUnKTsKCmNvbnN0IElOVkFMSURfSUQgPSAnMHhmZmZmZmZmZic7CmNvbnN0IFNJR05BVFVSRVMgPSB7CiAgRVJDMTY1OiBbJ3N1cHBvcnRzSW50ZXJmYWNlKGJ5dGVzNCknXSwKICBFUkM3MjE6IFsKICAgICdiYWxhbmNlT2YoYWRkcmVzcyknLAogICAgJ293bmVyT2YodWludDI1NiknLAogICAgJ2FwcHJvdmUoYWRkcmVzcyx1aW50MjU2KScsCiAgICAnZ2V0QXBwcm92ZWQodWludDI1NiknLAogICAgJ3NldEFwcHJvdmFsRm9yQWxsKGFkZHJlc3MsYm9vbCknLAogICAgJ2lzQXBwcm92ZWRGb3JBbGwoYWRkcmVzcyxhZGRyZXNzKScsCiAgICAndHJhbnNmZXJGcm9tKGFkZHJlc3MsYWRkcmVzcyx1aW50MjU2KScsCiAgICAnc2FmZVRyYW5zZmVyRnJvbShhZGRyZXNzLGFkZHJlc3MsdWludDI1NiknLAogICAgJ3NhZmVUcmFuc2ZlckZyb20oYWRkcmVzcyxhZGRyZXNzLHVpbnQyNTYsYnl0ZXMpJywKICBdLAogIEVSQzcyMUVudW1lcmFibGU6IFsndG90YWxTdXBwbHkoKScsICd0b2tlbk9mT3duZXJCeUluZGV4KGFkZHJlc3MsdWludDI1NiknLCAndG9rZW5CeUluZGV4KHVpbnQyNTYpJ10sCiAgRVJDNzIxTWV0YWRhdGE6IFsnbmFtZSgpJywgJ3N5bWJvbCgpJywgJ3Rva2VuVVJJKHVpbnQyNTYpJ10sCiAgRVJDMTE1NTogWwogICAgJ2JhbGFuY2VPZihhZGRyZXNzLHVpbnQyNTYpJywKICAgICdiYWxhbmNlT2ZCYXRjaChhZGRyZXNzW10sdWludDI1NltdKScsCiAgICAnc2V0QXBwcm92YWxGb3JBbGwoYWRkcmVzcyxib29sKScsCiAgICAnaXNBcHByb3ZlZEZvckFsbChhZGRyZXNzLGFkZHJlc3MpJywKICAgICdzYWZlVHJhbnNmZXJGcm9tKGFkZHJlc3MsYWRkcmVzcyx1aW50MjU2LHVpbnQyNTYsYnl0ZXMpJywKICAgICdzYWZlQmF0Y2hUcmFuc2ZlckZyb20oYWRkcmVzcyxhZGRyZXNzLHVpbnQyNTZbXSx1aW50MjU2W10sYnl0ZXMpJywKICBdLAogIEVSQzExNTVNZXRhZGF0YVVSSTogWyd1cmkodWludDI1NiknXSwKICBFUkMxMTU1UmVjZWl2ZXI6IFsKICAgICdvbkVSQzExNTVSZWNlaXZlZChhZGRyZXNzLGFkZHJlc3MsdWludDI1Nix1aW50MjU2LGJ5dGVzKScsCiAgICAnb25FUkMxMTU1QmF0Y2hSZWNlaXZlZChhZGRyZXNzLGFkZHJlc3MsdWludDI1NltdLHVpbnQyNTZbXSxieXRlcyknLAogIF0sCiAgRVJDMTM2MzogWwogICAgJ3RyYW5zZmVyQW5kQ2FsbChhZGRyZXNzLHVpbnQyNTYpJywKICAgICd0cmFuc2ZlckFuZENhbGwoYWRkcmVzcyx1aW50MjU2LGJ5dGVzKScsCiAgICAndHJhbnNmZXJGcm9tQW5kQ2FsbChhZGRyZXNzLGFkZHJlc3MsdWludDI1NiknLAogICAgJ3RyYW5zZmVyRnJvbUFuZENhbGwoYWRkcmVzcyxhZGRyZXNzLHVpbnQyNTYsYnl0ZXMpJywKICAgICdhcHByb3ZlQW5kQ2FsbChhZGRyZXNzLHVpbnQyNTYpJywKICAgICdhcHByb3ZlQW5kQ2FsbChhZGRyZXNzLHVpbnQyNTYsYnl0ZXMpJywKICBdLAogIEFjY2Vzc0NvbnRyb2w6IFsKICAgICdoYXNSb2xlKGJ5dGVzMzIsYWRkcmVzcyknLAogICAgJ2dldFJvbGVBZG1pbihieXRlczMyKScsCiAgICAnZ3JhbnRSb2xlKGJ5dGVzMzIsYWRkcmVzcyknLAogICAgJ3Jldm9rZVJvbGUoYnl0ZXMzMixhZGRyZXNzKScsCiAgICAncmVub3VuY2VSb2xlKGJ5dGVzMzIsYWRkcmVzcyknLAogIF0sCiAgQWNjZXNzQ29udHJvbEVudW1lcmFibGU6IFsnZ2V0Um9sZU1lbWJlcihieXRlczMyLHVpbnQyNTYpJywgJ2dldFJvbGVNZW1iZXJDb3VudChieXRlczMyKSddLAogIEFjY2Vzc0NvbnRyb2xEZWZhdWx0QWRtaW5SdWxlczogWwogICAgJ2RlZmF1bHRBZG1pbkRlbGF5KCknLAogICAgJ3BlbmRpbmdEZWZhdWx0QWRtaW5EZWxheSgpJywKICAgICdkZWZhdWx0QWRtaW4oKScsCiAgICAncGVuZGluZ0RlZmF1bHRBZG1pbigpJywKICAgICdkZWZhdWx0QWRtaW5EZWxheUluY3JlYXNlV2FpdCgpJywKICAgICdjaGFuZ2VEZWZhdWx0QWRtaW5EZWxheSh1aW50NDgpJywKICAgICdyb2xsYmFja0RlZmF1bHRBZG1pbkRlbGF5KCknLAogICAgJ2JlZ2luRGVmYXVsdEFkbWluVHJhbnNmZXIoYWRkcmVzcyknLAogICAgJ2FjY2VwdERlZmF1bHRBZG1pblRyYW5zZmVyKCknLAogICAgJ2NhbmNlbERlZmF1bHRBZG1pblRyYW5zZmVyKCknLAogIF0sCiAgR292ZXJub3I6IFsKICAgICduYW1lKCknLAogICAgJ3ZlcnNpb24oKScsCiAgICAnQ09VTlRJTkdfTU9ERSgpJywKICAgICdoYXNoUHJvcG9zYWwoYWRkcmVzc1tdLHVpbnQyNTZbXSxieXRlc1tdLGJ5dGVzMzIpJywKICAgICdzdGF0ZSh1aW50MjU2KScsCiAgICAncHJvcG9zYWxUaHJlc2hvbGQoKScsCiAgICAncHJvcG9zYWxTbmFwc2hvdCh1aW50MjU2KScsCiAgICAncHJvcG9zYWxEZWFkbGluZSh1aW50MjU2KScsCiAgICAncHJvcG9zYWxQcm9wb3Nlcih1aW50MjU2KScsCiAgICAncHJvcG9zYWxFdGEodWludDI1NiknLAogICAgJ3Byb3Bvc2FsTmVlZHNRdWV1aW5nKHVpbnQyNTYpJywKICAgICd2b3RpbmdEZWxheSgpJywKICAgICd2b3RpbmdQZXJpb2QoKScsCiAgICAncXVvcnVtKHVpbnQyNTYpJywKICAgICdnZXRWb3RlcyhhZGRyZXNzLHVpbnQyNTYpJywKICAgICdnZXRWb3Rlc1dpdGhQYXJhbXMoYWRkcmVzcyx1aW50MjU2LGJ5dGVzKScsCiAgICAnaGFzVm90ZWQodWludDI1NixhZGRyZXNzKScsCiAgICAncHJvcG9zZShhZGRyZXNzW10sdWludDI1NltdLGJ5dGVzW10sc3RyaW5nKScsCiAgICAncXVldWUoYWRkcmVzc1tdLHVpbnQyNTZbXSxieXRlc1tdLGJ5dGVzMzIpJywKICAgICdleGVjdXRlKGFkZHJlc3NbXSx1aW50MjU2W10sYnl0ZXNbXSxieXRlczMyKScsCiAgICAnY2FuY2VsKGFkZHJlc3NbXSx1aW50MjU2W10sYnl0ZXNbXSxieXRlczMyKScsCiAgICAnY2FzdFZvdGUodWludDI1Nix1aW50OCknLAogICAgJ2Nhc3RWb3RlV2l0aFJlYXNvbih1aW50MjU2LHVpbnQ4LHN0cmluZyknLAogICAgJ2Nhc3RWb3RlV2l0aFJlYXNvbkFuZFBhcmFtcyh1aW50MjU2LHVpbnQ4LHN0cmluZyxieXRlcyknLAogICAgJ2Nhc3RWb3RlQnlTaWcodWludDI1Nix1aW50OCxhZGRyZXNzLGJ5dGVzKScsCiAgICAnY2FzdFZvdGVXaXRoUmVhc29uQW5kUGFyYW1zQnlTaWcodWludDI1Nix1aW50OCxhZGRyZXNzLHN0cmluZyxieXRlcyxieXRlcyknLAogIF0sCiAgRVJDMjk4MTogWydyb3lhbHR5SW5mbyh1aW50MjU2LHVpbnQyNTYpJ10sCn07Cgpjb25zdCBJTlRFUkZBQ0VfSURTID0gbWFwVmFsdWVzKFNJR05BVFVSRVMsIGludGVyZmFjZUlkKTsKCmZ1bmN0aW9uIHNob3VsZFN1cHBvcnRJbnRlcmZhY2VzKGludGVyZmFjZXMgPSBbXSkgewogIGludGVyZmFjZXMudW5zaGlmdCgnRVJDMTY1Jyk7CgogIGRlc2NyaWJlKCdFUkMxNjUnLCBmdW5jdGlvbiAoKSB7CiAgICBiZWZvcmVFYWNoKGZ1bmN0aW9uICgpIHsKICAgICAgdGhpcy5jb250cmFjdFVuZGVyVGVzdCA9IHRoaXMubW9jayB8fCB0aGlzLnRva2VuOwogICAgfSk7CgogICAgZGVzY3JpYmUoJ3doZW4gdGhlIGludGVyZmFjZUlkIGlzIHN1cHBvcnRlZCcsIGZ1bmN0aW9uICgpIHsKICAgICAgaXQoJ3VzZXMgbGVzcyB0aGFuIDMwayBnYXMnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgZm9yIChjb25zdCBrIG9mIGludGVyZmFjZXMpIHsKICAgICAgICAgIGNvbnN0IGludGVyZmFjZSA9IElOVEVSRkFDRV9JRFNba10gPz8gazsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLmNvbnRyYWN0VW5kZXJUZXN0LnN1cHBvcnRzSW50ZXJmYWNlLmVzdGltYXRlR2FzKGludGVyZmFjZSkpLnRvLmx0ZSgzMF8wMDBuKTsKICAgICAgICB9CiAgICAgIH0pOwoKICAgICAgaXQoJ3JldHVybnMgdHJ1ZScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBmb3IgKGNvbnN0IGsgb2YgaW50ZXJmYWNlcykgewogICAgICAgICAgY29uc3QgaW50ZXJmYWNlSWQgPSBJTlRFUkZBQ0VfSURTW2tdID8/IGs7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5jb250cmFjdFVuZGVyVGVzdC5zdXBwb3J0c0ludGVyZmFjZShpbnRlcmZhY2VJZCksIGBkb2VzIG5vdCBzdXBwb3J0ICR7a31gKS50by5iZS50cnVlOwogICAgICAgIH0KICAgICAgfSk7CiAgICB9KTsKCiAgICBkZXNjcmliZSgnd2hlbiB0aGUgaW50ZXJmYWNlSWQgaXMgbm90IHN1cHBvcnRlZCcsIGZ1bmN0aW9uICgpIHsKICAgICAgaXQoJ3VzZXMgbGVzcyB0aGFuIDMwaycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5jb250cmFjdFVuZGVyVGVzdC5zdXBwb3J0c0ludGVyZmFjZS5lc3RpbWF0ZUdhcyhJTlZBTElEX0lEKSkudG8ubHRlKDMwXzAwMG4pOwogICAgICB9KTsKCiAgICAgIGl0KCdyZXR1cm5zIGZhbHNlJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLmNvbnRyYWN0VW5kZXJUZXN0LnN1cHBvcnRzSW50ZXJmYWNlKElOVkFMSURfSUQpLCBgc3VwcG9ydHMgJHtJTlZBTElEX0lEfWApLnRvLmJlLmZhbHNlOwogICAgICB9KTsKICAgIH0pOwoKICAgIGl0KCdhbGwgaW50ZXJmYWNlIGZ1bmN0aW9ucyBhcmUgaW4gQUJJJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBmb3IgKGNvbnN0IGsgb2YgaW50ZXJmYWNlcykgewogICAgICAgIC8vIHNraXAgaW50ZXJmYWNlcyBmb3Igd2hpY2ggd2UgZG9uJ3QgaGF2ZSBhIGZ1bmN0aW9uIGxpc3QKICAgICAgICBpZiAoU0lHTkFUVVJFU1trXSA9PT0gdW5kZWZpbmVkKSBjb250aW51ZTsKCiAgICAgICAgLy8gQ2hlY2sgdGhlIHByZXNlbmNlIG9mIGVhY2ggZnVuY3Rpb24gaW4gdGhlIGNvbnRyYWN0J3MgaW50ZXJmYWNlCiAgICAgICAgZm9yIChjb25zdCBmblNpZyBvZiBTSUdOQVRVUkVTW2tdKSB7CiAgICAgICAgICBleHBlY3QodGhpcy5jb250cmFjdFVuZGVyVGVzdC5pbnRlcmZhY2UuaGFzRnVuY3Rpb24oZm5TaWcpLCBgZGlkIG5vdCBmaW5kICR7Zm5TaWd9YCkudG8uYmUudHJ1ZTsKICAgICAgICB9CiAgICAgIH0KICAgIH0pOwogIH0pOwp9Cgptb2R1bGUuZXhwb3J0cyA9IHsKICBzaG91bGRTdXBwb3J0SW50ZXJmYWNlcywKfTsK
+const { expect } = require('chai');
+const { interfaceId } = require('../../helpers/methods');
+const { mapValues } = require('../../helpers/iterate');
+
+const INVALID_ID = '0xffffffff';
+const SIGNATURES = {
+  ERC165: ['supportsInterface(bytes4)'],
+  ERC721: [
+    'balanceOf(address)',
+    'ownerOf(uint256)',
+    'approve(address,uint256)',
+    'getApproved(uint256)',
+    'setApprovalForAll(address,bool)',
+    'isApprovedForAll(address,address)',
+    'transferFrom(address,address,uint256)',
+    'safeTransferFrom(address,address,uint256)',
+    'safeTransferFrom(address,address,uint256,bytes)',
+  ],
+  ERC721Enumerable: ['totalSupply()', 'tokenOfOwnerByIndex(address,uint256)', 'tokenByIndex(uint256)'],
+  ERC721Metadata: ['name()', 'symbol()', 'tokenURI(uint256)'],
+  ERC1155: [
+    'balanceOf(address,uint256)',
+    'balanceOfBatch(address[],uint256[])',
+    'setApprovalForAll(address,bool)',
+    'isApprovedForAll(address,address)',
+    'safeTransferFrom(address,address,uint256,uint256,bytes)',
+    'safeBatchTransferFrom(address,address,uint256[],uint256[],bytes)',
+  ],
+  ERC1155MetadataURI: ['uri(uint256)'],
+  ERC1155Receiver: [
+    'onERC1155Received(address,address,uint256,uint256,bytes)',
+    'onERC1155BatchReceived(address,address,uint256[],uint256[],bytes)',
+  ],
+  ERC1363: [
+    'transferAndCall(address,uint256)',
+    'transferAndCall(address,uint256,bytes)',
+    'transferFromAndCall(address,address,uint256)',
+    'transferFromAndCall(address,address,uint256,bytes)',
+    'approveAndCall(address,uint256)',
+    'approveAndCall(address,uint256,bytes)',
+  ],
+  AccessControl: [
+    'hasRole(bytes32,address)',
+    'getRoleAdmin(bytes32)',
+    'grantRole(bytes32,address)',
+    'revokeRole(bytes32,address)',
+    'renounceRole(bytes32,address)',
+  ],
+  AccessControlEnumerable: ['getRoleMember(bytes32,uint256)', 'getRoleMemberCount(bytes32)'],
+  AccessControlDefaultAdminRules: [
+    'defaultAdminDelay()',
+    'pendingDefaultAdminDelay()',
+    'defaultAdmin()',
+    'pendingDefaultAdmin()',
+    'defaultAdminDelayIncreaseWait()',
+    'changeDefaultAdminDelay(uint48)',
+    'rollbackDefaultAdminDelay()',
+    'beginDefaultAdminTransfer(address)',
+    'acceptDefaultAdminTransfer()',
+    'cancelDefaultAdminTransfer()',
+  ],
+  Governor: [
+    'name()',
+    'version()',
+    'COUNTING_MODE()',
+    'hashProposal(address[],uint256[],bytes[],bytes32)',
+    'state(uint256)',
+    'proposalThreshold()',
+    'proposalSnapshot(uint256)',
+    'proposalDeadline(uint256)',
+    'proposalProposer(uint256)',
+    'proposalEta(uint256)',
+    'proposalNeedsQueuing(uint256)',
+    'votingDelay()',
+    'votingPeriod()',
+    'quorum(uint256)',
+    'getVotes(address,uint256)',
+    'getVotesWithParams(address,uint256,bytes)',
+    'hasVoted(uint256,address)',
+    'propose(address[],uint256[],bytes[],string)',
+    'queue(address[],uint256[],bytes[],bytes32)',
+    'execute(address[],uint256[],bytes[],bytes32)',
+    'cancel(address[],uint256[],bytes[],bytes32)',
+    'castVote(uint256,uint8)',
+    'castVoteWithReason(uint256,uint8,string)',
+    'castVoteWithReasonAndParams(uint256,uint8,string,bytes)',
+    'castVoteBySig(uint256,uint8,address,bytes)',
+    'castVoteWithReasonAndParamsBySig(uint256,uint8,address,string,bytes,bytes)',
+  ],
+  ERC2981: ['royaltyInfo(uint256,uint256)'],
+};
+
+const INTERFACE_IDS = mapValues(SIGNATURES, interfaceId);
+
+function shouldSupportInterfaces(interfaces = []) {
+  interfaces.unshift('ERC165');
+
+  describe('ERC165', function () {
+    beforeEach(function () {
+      this.contractUnderTest = this.mock || this.token;
+    });
+
+    describe('when the interfaceId is supported', function () {
+      it('uses less than 30k gas', async function () {
+        for (const k of interfaces) {
+          const interface = INTERFACE_IDS[k] ?? k;
+          expect(await this.contractUnderTest.supportsInterface.estimateGas(interface)).to.lte(30_000n);
+        }
+      });
+
+      it('returns true', async function () {
+        for (const k of interfaces) {
+          const interfaceId = INTERFACE_IDS[k] ?? k;
+          expect(await this.contractUnderTest.supportsInterface(interfaceId), `does not support ${k}`).to.be.true;
+        }
+      });
+    });
+
+    describe('when the interfaceId is not supported', function () {
+      it('uses less than 30k', async function () {
+        expect(await this.contractUnderTest.supportsInterface.estimateGas(INVALID_ID)).to.lte(30_000n);
+      });
+
+      it('returns false', async function () {
+        expect(await this.contractUnderTest.supportsInterface(INVALID_ID), `supports ${INVALID_ID}`).to.be.false;
+      });
+    });
+
+    it('all interface functions are in ABI', async function () {
+      for (const k of interfaces) {
+        // skip interfaces for which we don't have a function list
+        if (SIGNATURES[k] === undefined) continue;
+
+        // Check the presence of each function in the contract's interface
+        for (const fnSig of SIGNATURES[k]) {
+          expect(this.contractUnderTest.interface.hasFunction(fnSig), `did not find ${fnSig}`).to.be.true;
+        }
+      }
+    });
+  });
+}
+
+module.exports = {
+  shouldSupportInterfaces,
+};
