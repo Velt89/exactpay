@@ -1,1 +1,28 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodG9rZW4vRVJDNzIxL0lFUkM3MjFSZWNlaXZlci5zb2wpCgpwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCi8qKgogKiBAdGl0bGUgRVJDLTcyMSB0b2tlbiByZWNlaXZlciBpbnRlcmZhY2UKICogQGRldiBJbnRlcmZhY2UgZm9yIGFueSBjb250cmFjdCB0aGF0IHdhbnRzIHRvIHN1cHBvcnQgc2FmZVRyYW5zZmVycwogKiBmcm9tIEVSQy03MjEgYXNzZXQgY29udHJhY3RzLgogKi8KaW50ZXJmYWNlIElFUkM3MjFSZWNlaXZlciB7CiAgICAvKioKICAgICAqIEBkZXYgV2hlbmV2ZXIgYW4ge0lFUkM3MjF9IGB0b2tlbklkYCB0b2tlbiBpcyB0cmFuc2ZlcnJlZCB0byB0aGlzIGNvbnRyYWN0IHZpYSB7SUVSQzcyMS1zYWZlVHJhbnNmZXJGcm9tfQogICAgICogYnkgYG9wZXJhdG9yYCBmcm9tIGBmcm9tYCwgdGhpcyBmdW5jdGlvbiBpcyBjYWxsZWQuCiAgICAgKgogICAgICogSXQgbXVzdCByZXR1cm4gaXRzIFNvbGlkaXR5IHNlbGVjdG9yIHRvIGNvbmZpcm0gdGhlIHRva2VuIHRyYW5zZmVyLgogICAgICogSWYgYW55IG90aGVyIHZhbHVlIGlzIHJldHVybmVkIG9yIHRoZSBpbnRlcmZhY2UgaXMgbm90IGltcGxlbWVudGVkIGJ5IHRoZSByZWNpcGllbnQsIHRoZSB0cmFuc2ZlciB3aWxsIGJlCiAgICAgKiByZXZlcnRlZC4KICAgICAqCiAgICAgKiBUaGUgc2VsZWN0b3IgY2FuIGJlIG9idGFpbmVkIGluIFNvbGlkaXR5IHdpdGggYElFUkM3MjFSZWNlaXZlci5vbkVSQzcyMVJlY2VpdmVkLnNlbGVjdG9yYC4KICAgICAqLwogICAgZnVuY3Rpb24gb25FUkM3MjFSZWNlaXZlZCgKICAgICAgICBhZGRyZXNzIG9wZXJhdG9yLAogICAgICAgIGFkZHJlc3MgZnJvbSwKICAgICAgICB1aW50MjU2IHRva2VuSWQsCiAgICAgICAgYnl0ZXMgY2FsbGRhdGEgZGF0YQogICAgKSBleHRlcm5hbCByZXR1cm5zIChieXRlczQpOwp9Cg==
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (token/ERC721/IERC721Receiver.sol)
+
+pragma solidity ^0.8.20;
+
+/**
+ * @title ERC-721 token receiver interface
+ * @dev Interface for any contract that wants to support safeTransfers
+ * from ERC-721 asset contracts.
+ */
+interface IERC721Receiver {
+    /**
+     * @dev Whenever an {IERC721} `tokenId` token is transferred to this contract via {IERC721-safeTransferFrom}
+     * by `operator` from `from`, this function is called.
+     *
+     * It must return its Solidity selector to confirm the token transfer.
+     * If any other value is returned or the interface is not implemented by the recipient, the transfer will be
+     * reverted.
+     *
+     * The selector can be obtained in Solidity with `IERC721Receiver.onERC721Received.selector`.
+     */
+    function onERC721Received(
+        address operator,
+        address from,
+        uint256 tokenId,
+        bytes calldata data
+    ) external returns (bytes4);
+}
