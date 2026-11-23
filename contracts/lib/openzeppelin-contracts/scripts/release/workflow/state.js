@@ -1,1 +1,112 @@
-Y29uc3QgeyByZWFkUHJlU3RhdGUgfSA9IHJlcXVpcmUoJ0BjaGFuZ2VzZXRzL3ByZScpOwpjb25zdCB7IGRlZmF1bHQ6IHJlYWRDaGFuZ2VzZXRzIH0gPSByZXF1aXJlKCdAY2hhbmdlc2V0cy9yZWFkJyk7CmNvbnN0IHsgam9pbiB9ID0gcmVxdWlyZSgncGF0aCcpOwpjb25zdCB7IGZldGNoIH0gPSByZXF1aXJlKCd1bmRpY2knKTsKY29uc3QgeyB2ZXJzaW9uLCBuYW1lOiBwYWNrYWdlTmFtZSB9ID0gcmVxdWlyZShqb2luKF9fZGlybmFtZSwgJy4uLy4uLy4uL2NvbnRyYWN0cy9wYWNrYWdlLmpzb24nKSk7Cgptb2R1bGUuZXhwb3J0cyA9IGFzeW5jICh7IGdpdGh1YiwgY29udGV4dCwgY29yZSB9KSA9PiB7CiAgY29uc3Qgc3RhdGUgPSBhd2FpdCBnZXRTdGF0ZSh7IGdpdGh1YiwgY29udGV4dCwgY29yZSB9KTsKCiAgZnVuY3Rpb24gc2V0T3V0cHV0KGtleSwgdmFsdWUpIHsKICAgIGNvcmUuaW5mbyhgU3RhdGUgJHtrZXl9ID0gJHt2YWx1ZX1gKTsKICAgIGNvcmUuc2V0T3V0cHV0KGtleSwgdmFsdWUpOwogIH0KCiAgLy8gSm9icyB0byB0cmlnZ2VyCiAgc2V0T3V0cHV0KCdzdGFydCcsIHNob3VsZFJ1blN0YXJ0KHN0YXRlKSk7CiAgc2V0T3V0cHV0KCdwcm9tb3RlJywgc2hvdWxkUnVuUHJvbW90ZShzdGF0ZSkpOwogIHNldE91dHB1dCgnY2hhbmdlc2V0cycsIHNob3VsZFJ1bkNoYW5nZXNldHMoc3RhdGUpKTsKICBzZXRPdXRwdXQoJ3B1Ymxpc2gnLCBzaG91bGRSdW5QdWJsaXNoKHN0YXRlKSk7CiAgc2V0T3V0cHV0KCdtZXJnZScsIHNob3VsZFJ1bk1lcmdlKHN0YXRlKSk7CgogIC8vIEdsb2JhbCBWYXJpYWJsZXMKICBzZXRPdXRwdXQoJ2lzX3ByZXJlbGVhc2UnLCBzdGF0ZS5wcmVyZWxlYXNlKTsKfTsKCmZ1bmN0aW9uIHNob3VsZFJ1blN0YXJ0KHsgaXNNYXN0ZXIsIGlzV29ya2Zsb3dEaXNwYXRjaCwgYm90UnVuIH0pIHsKICByZXR1cm4gaXNNYXN0ZXIgJiYgaXNXb3JrZmxvd0Rpc3BhdGNoICYmICFib3RSdW47Cn0KCmZ1bmN0aW9uIHNob3VsZFJ1blByb21vdGUoeyBpc1JlbGVhc2VCcmFuY2gsIGlzV29ya2Zsb3dEaXNwYXRjaCwgYm90UnVuIH0pIHsKICByZXR1cm4gaXNSZWxlYXNlQnJhbmNoICYmIGlzV29ya2Zsb3dEaXNwYXRjaCAmJiAhYm90UnVuOwp9CgpmdW5jdGlvbiBzaG91bGRSdW5DaGFuZ2VzZXRzKHsgaXNSZWxlYXNlQnJhbmNoLCBpc1B1c2gsIGlzV29ya2Zsb3dEaXNwYXRjaCwgYm90UnVuIH0pIHsKICByZXR1cm4gKGlzUmVsZWFzZUJyYW5jaCAmJiBpc1B1c2gpIHx8IChpc1JlbGVhc2VCcmFuY2ggJiYgaXNXb3JrZmxvd0Rpc3BhdGNoICYmIGJvdFJ1bik7Cn0KCmZ1bmN0aW9uIHNob3VsZFJ1blB1Ymxpc2goeyBpc1JlbGVhc2VCcmFuY2gsIGlzUHVzaCwgaGFzUGVuZGluZ0NoYW5nZXNldHMsIGlzUHVibGlzaGVkT25OcG0gfSkgewogIHJldHVybiBpc1JlbGVhc2VCcmFuY2ggJiYgaXNQdXNoICYmICFoYXNQZW5kaW5nQ2hhbmdlc2V0cyAmJiAhaXNQdWJsaXNoZWRPbk5wbTsKfQoKZnVuY3Rpb24gc2hvdWxkUnVuTWVyZ2UoewogIGlzUmVsZWFzZUJyYW5jaCwKICBpc1B1c2gsCiAgcHJlcmVsZWFzZSwKICBpc0N1cnJlbnRGaW5hbFZlcnNpb24sCiAgaGFzUGVuZGluZ0NoYW5nZXNldHMsCiAgcHJCYWNrRXhpc3RzLAp9KSB7CiAgcmV0dXJuIGlzUmVsZWFzZUJyYW5jaCAmJiBpc1B1c2ggJiYgIXByZXJlbGVhc2UgJiYgaXNDdXJyZW50RmluYWxWZXJzaW9uICYmICFoYXNQZW5kaW5nQ2hhbmdlc2V0cyAmJiAhcHJCYWNrRXhpc3RzOwp9Cgphc3luYyBmdW5jdGlvbiBnZXRTdGF0ZSh7IGdpdGh1YiwgY29udGV4dCwgY29yZSB9KSB7CiAgLy8gVmFyaWFibGVzIG5vdCBpbiB0aGUgY29udGV4dAogIGNvbnN0IHJlZk5hbWUgPSBwcm9jZXNzLmVudi5HSVRIVUJfUkVGX05BTUU7CiAgY29uc3QgYm90UnVuID0gcHJvY2Vzcy5lbnYuVFJJR0dFUklOR19BQ1RPUiA9PT0gJ2dpdGh1Yi1hY3Rpb25zW2JvdF0nOwoKICBjb25zdCB7IGNoYW5nZXNldHMsIHByZVN0YXRlIH0gPSBhd2FpdCByZWFkQ2hhbmdlc2V0U3RhdGUoKTsKCiAgLy8gU3RhdGljIHZhcnMKICBjb25zdCBzdGF0ZSA9IHsKICAgIHJlZk5hbWUsCiAgICBoYXNQZW5kaW5nQ2hhbmdlc2V0czogY2hhbmdlc2V0cy5sZW5ndGggPiAwLAogICAgcHJlcmVsZWFzZTogcHJlU3RhdGU/Lm1vZGUgPT09ICdwcmUnLAogICAgaXNNYXN0ZXI6IHJlZk5hbWUgPT09ICdtYXN0ZXInLAogICAgaXNSZWxlYXNlQnJhbmNoOiByZWZOYW1lLnN0YXJ0c1dpdGgoJ3JlbGVhc2UtdicpLAogICAgaXNXb3JrZmxvd0Rpc3BhdGNoOiBjb250ZXh0LmV2ZW50TmFtZSA9PT0gJ3dvcmtmbG93X2Rpc3BhdGNoJywKICAgIGlzUHVzaDogY29udGV4dC5ldmVudE5hbWUgPT09ICdwdXNoJywKICAgIGlzQ3VycmVudEZpbmFsVmVyc2lvbjogIXZlcnNpb24uaW5jbHVkZXMoJy1yYy4nKSwKICAgIGJvdFJ1biwKICB9OwoKICAvLyBBc3luYyB2YXJzCiAgY29uc3QgeyBkYXRhOiBwcnMgfSA9IGF3YWl0IGdpdGh1Yi5yZXN0LnB1bGxzLmxpc3QoewogICAgb3duZXI6IGNvbnRleHQucmVwby5vd25lciwKICAgIHJlcG86IGNvbnRleHQucmVwby5yZXBvLAogICAgaGVhZDogYCR7Y29udGV4dC5yZXBvLm93bmVyfTptZXJnZS8ke3N0YXRlLnJlZk5hbWV9YCwKICAgIGJhc2U6ICdtYXN0ZXInLAogICAgc3RhdGU6ICdvcGVuJywKICB9KTsKCiAgc3RhdGUucHJCYWNrRXhpc3RzID0gcHJzLmxlbmd0aCAhPT0gMDsKCiAgc3RhdGUuaXNQdWJsaXNoZWRPbk5wbSA9IGF3YWl0IGlzUHVibGlzaGVkT25OcG0ocGFja2FnZU5hbWUsIHZlcnNpb24pOwoKICAvLyBMb2cgZXZlcnkgc3RhdGUgdmFsdWUgaW4gZGVidWcgbW9kZQogIGlmIChjb3JlLmlzRGVidWcoKSkgZm9yIChjb25zdCBba2V5LCB2YWx1ZV0gb2YgT2JqZWN0LmVudHJpZXMoc3RhdGUpKSBjb3JlLmRlYnVnKGAke2tleX06ICR7dmFsdWV9YCk7CgogIHJldHVybiBzdGF0ZTsKfQoKLy8gRnJvbSBodHRwczovL2dpdGh1Yi5jb20vY2hhbmdlc2V0cy9hY3Rpb24vYmxvYi92MS40LjEvc3JjL3JlYWRDaGFuZ2VzZXRTdGF0ZS50cwphc3luYyBmdW5jdGlvbiByZWFkQ2hhbmdlc2V0U3RhdGUoY3dkID0gcHJvY2Vzcy5jd2QoKSkgewogIGNvbnN0IHByZVN0YXRlID0gYXdhaXQgcmVhZFByZVN0YXRlKGN3ZCk7CiAgY29uc3QgaXNJblByZU1vZGUgPSBwcmVTdGF0ZSAhPT0gdW5kZWZpbmVkICYmIHByZVN0YXRlLm1vZGUgPT09ICdwcmUnOwoKICBsZXQgY2hhbmdlc2V0cyA9IGF3YWl0IHJlYWRDaGFuZ2VzZXRzKGN3ZCk7CgogIGlmIChpc0luUHJlTW9kZSkgewogICAgY2hhbmdlc2V0cyA9IGNoYW5nZXNldHMuZmlsdGVyKHggPT4gIXByZVN0YXRlLmNoYW5nZXNldHMuaW5jbHVkZXMoeC5pZCkpOwogIH0KCiAgcmV0dXJuIHsKICAgIHByZVN0YXRlOiBpc0luUHJlTW9kZSA/IHByZVN0YXRlIDogdW5kZWZpbmVkLAogICAgY2hhbmdlc2V0cywKICB9Owp9Cgphc3luYyBmdW5jdGlvbiBpc1B1Ymxpc2hlZE9uTnBtKHBhY2thZ2UsIHZlcnNpb24pIHsKICBjb25zdCByZXMgPSBhd2FpdCBmZXRjaChgaHR0cHM6Ly9yZWdpc3RyeS5ucG1qcy5jb20vJHtwYWNrYWdlfS8ke3ZlcnNpb259YCk7CiAgcmV0dXJuIHJlcy5vazsKfQo=
+const { readPreState } = require('@changesets/pre');
+const { default: readChangesets } = require('@changesets/read');
+const { join } = require('path');
+const { fetch } = require('undici');
+const { version, name: packageName } = require(join(__dirname, '../../../contracts/package.json'));
+
+module.exports = async ({ github, context, core }) => {
+  const state = await getState({ github, context, core });
+
+  function setOutput(key, value) {
+    core.info(`State ${key} = ${value}`);
+    core.setOutput(key, value);
+  }
+
+  // Jobs to trigger
+  setOutput('start', shouldRunStart(state));
+  setOutput('promote', shouldRunPromote(state));
+  setOutput('changesets', shouldRunChangesets(state));
+  setOutput('publish', shouldRunPublish(state));
+  setOutput('merge', shouldRunMerge(state));
+
+  // Global Variables
+  setOutput('is_prerelease', state.prerelease);
+};
+
+function shouldRunStart({ isMaster, isWorkflowDispatch, botRun }) {
+  return isMaster && isWorkflowDispatch && !botRun;
+}
+
+function shouldRunPromote({ isReleaseBranch, isWorkflowDispatch, botRun }) {
+  return isReleaseBranch && isWorkflowDispatch && !botRun;
+}
+
+function shouldRunChangesets({ isReleaseBranch, isPush, isWorkflowDispatch, botRun }) {
+  return (isReleaseBranch && isPush) || (isReleaseBranch && isWorkflowDispatch && botRun);
+}
+
+function shouldRunPublish({ isReleaseBranch, isPush, hasPendingChangesets, isPublishedOnNpm }) {
+  return isReleaseBranch && isPush && !hasPendingChangesets && !isPublishedOnNpm;
+}
+
+function shouldRunMerge({
+  isReleaseBranch,
+  isPush,
+  prerelease,
+  isCurrentFinalVersion,
+  hasPendingChangesets,
+  prBackExists,
+}) {
+  return isReleaseBranch && isPush && !prerelease && isCurrentFinalVersion && !hasPendingChangesets && !prBackExists;
+}
+
+async function getState({ github, context, core }) {
+  // Variables not in the context
+  const refName = process.env.GITHUB_REF_NAME;
+  const botRun = process.env.TRIGGERING_ACTOR === 'github-actions[bot]';
+
+  const { changesets, preState } = await readChangesetState();
+
+  // Static vars
+  const state = {
+    refName,
+    hasPendingChangesets: changesets.length > 0,
+    prerelease: preState?.mode === 'pre',
+    isMaster: refName === 'master',
+    isReleaseBranch: refName.startsWith('release-v'),
+    isWorkflowDispatch: context.eventName === 'workflow_dispatch',
+    isPush: context.eventName === 'push',
+    isCurrentFinalVersion: !version.includes('-rc.'),
+    botRun,
+  };
+
+  // Async vars
+  const { data: prs } = await github.rest.pulls.list({
+    owner: context.repo.owner,
+    repo: context.repo.repo,
+    head: `${context.repo.owner}:merge/${state.refName}`,
+    base: 'master',
+    state: 'open',
+  });
+
+  state.prBackExists = prs.length !== 0;
+
+  state.isPublishedOnNpm = await isPublishedOnNpm(packageName, version);
+
+  // Log every state value in debug mode
+  if (core.isDebug()) for (const [key, value] of Object.entries(state)) core.debug(`${key}: ${value}`);
+
+  return state;
+}
+
+// From https://github.com/changesets/action/blob/v1.4.1/src/readChangesetState.ts
+async function readChangesetState(cwd = process.cwd()) {
+  const preState = await readPreState(cwd);
+  const isInPreMode = preState !== undefined && preState.mode === 'pre';
+
+  let changesets = await readChangesets(cwd);
+
+  if (isInPreMode) {
+    changesets = changesets.filter(x => !preState.changesets.includes(x.id));
+  }
+
+  return {
+    preState: isInPreMode ? preState : undefined,
+    changesets,
+  };
+}
+
+async function isPublishedOnNpm(package, version) {
+  const res = await fetch(`https://registry.npmjs.com/${package}/${version}`);
+  return res.ok;
+}
