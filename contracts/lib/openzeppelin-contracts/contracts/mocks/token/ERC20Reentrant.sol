@@ -1,1 +1,39 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7RVJDMjB9IGZyb20gIi4uLy4uL3Rva2VuL0VSQzIwL0VSQzIwLnNvbCI7CmltcG9ydCB7QWRkcmVzc30gZnJvbSAiLi4vLi4vdXRpbHMvQWRkcmVzcy5zb2wiOwoKY29udHJhY3QgRVJDMjBSZWVudHJhbnQgaXMgRVJDMjAoIlRFU1QiLCAiVFNUIikgewogICAgZW51bSBUeXBlIHsKICAgICAgICBObywKICAgICAgICBCZWZvcmUsCiAgICAgICAgQWZ0ZXIKICAgIH0KCiAgICBUeXBlIHByaXZhdGUgX3JlZW50ZXJUeXBlOwogICAgYWRkcmVzcyBwcml2YXRlIF9yZWVudGVyVGFyZ2V0OwogICAgYnl0ZXMgcHJpdmF0ZSBfcmVlbnRlckRhdGE7CgogICAgZnVuY3Rpb24gc2NoZWR1bGVSZWVudGVyKFR5cGUgd2hlbiwgYWRkcmVzcyB0YXJnZXQsIGJ5dGVzIGNhbGxkYXRhIGRhdGEpIGV4dGVybmFsIHsKICAgICAgICBfcmVlbnRlclR5cGUgPSB3aGVuOwogICAgICAgIF9yZWVudGVyVGFyZ2V0ID0gdGFyZ2V0OwogICAgICAgIF9yZWVudGVyRGF0YSA9IGRhdGE7CiAgICB9CgogICAgZnVuY3Rpb24gZnVuY3Rpb25DYWxsKGFkZHJlc3MgdGFyZ2V0LCBieXRlcyBtZW1vcnkgZGF0YSkgcHVibGljIHJldHVybnMgKGJ5dGVzIG1lbW9yeSkgewogICAgICAgIHJldHVybiBBZGRyZXNzLmZ1bmN0aW9uQ2FsbCh0YXJnZXQsIGRhdGEpOwogICAgfQoKICAgIGZ1bmN0aW9uIF91cGRhdGUoYWRkcmVzcyBmcm9tLCBhZGRyZXNzIHRvLCB1aW50MjU2IGFtb3VudCkgaW50ZXJuYWwgb3ZlcnJpZGUgewogICAgICAgIGlmIChfcmVlbnRlclR5cGUgPT0gVHlwZS5CZWZvcmUpIHsKICAgICAgICAgICAgX3JlZW50ZXJUeXBlID0gVHlwZS5ObzsKICAgICAgICAgICAgZnVuY3Rpb25DYWxsKF9yZWVudGVyVGFyZ2V0LCBfcmVlbnRlckRhdGEpOwogICAgICAgIH0KICAgICAgICBzdXBlci5fdXBkYXRlKGZyb20sIHRvLCBhbW91bnQpOwogICAgICAgIGlmIChfcmVlbnRlclR5cGUgPT0gVHlwZS5BZnRlcikgewogICAgICAgICAgICBfcmVlbnRlclR5cGUgPSBUeXBlLk5vOwogICAgICAgICAgICBmdW5jdGlvbkNhbGwoX3JlZW50ZXJUYXJnZXQsIF9yZWVudGVyRGF0YSk7CiAgICAgICAgfQogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+import {ERC20} from "../../token/ERC20/ERC20.sol";
+import {Address} from "../../utils/Address.sol";
+
+contract ERC20Reentrant is ERC20("TEST", "TST") {
+    enum Type {
+        No,
+        Before,
+        After
+    }
+
+    Type private _reenterType;
+    address private _reenterTarget;
+    bytes private _reenterData;
+
+    function scheduleReenter(Type when, address target, bytes calldata data) external {
+        _reenterType = when;
+        _reenterTarget = target;
+        _reenterData = data;
+    }
+
+    function functionCall(address target, bytes memory data) public returns (bytes memory) {
+        return Address.functionCall(target, data);
+    }
+
+    function _update(address from, address to, uint256 amount) internal override {
+        if (_reenterType == Type.Before) {
+            _reenterType = Type.No;
+            functionCall(_reenterTarget, _reenterData);
+        }
+        super._update(from, to, amount);
+        if (_reenterType == Type.After) {
+            _reenterType = Type.No;
+            functionCall(_reenterTarget, _reenterData);
+        }
+    }
+}
