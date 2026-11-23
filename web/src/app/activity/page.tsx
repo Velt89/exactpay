@@ -1,1 +1,157 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgZ2V0TG9nc0NodW5rZWQsIGludm9pY2VQYXlBYmksIHR4VXJsIH0gZnJvbSAiQGFldnVtLWtpdC9hZXZ1bSI7CmltcG9ydCB7IHVzZVF1ZXJ5IH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXF1ZXJ5IjsKaW1wb3J0IExpbmsgZnJvbSAibmV4dC9saW5rIjsKaW1wb3J0IHsgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IGZvcm1hdFVuaXRzLCBnZXRBYmlJdGVtLCB0eXBlIFB1YmxpY0NsaWVudCB9IGZyb20gInZpZW0iOwppbXBvcnQgeyB1c2VBY2NvdW50LCB1c2VQdWJsaWNDbGllbnQgfSBmcm9tICJ3YWdtaSI7CmltcG9ydCB7IHVzZVRva2VuIH0gZnJvbSAiQC9jb21wb25lbnRzL3VzZVRva2VuIjsKaW1wb3J0IHsgdXNlTmV0d29yayB9IGZyb20gIkAvbGliL25ldHdvcmsiOwppbXBvcnQgeyBvcmRlckxhYmVsLCBzaG9ydCB9IGZyb20gIkAvbGliL29yZGVyIjsKCmNvbnN0IFdJTkRPV1MgPSBbCiAgeyBibG9ja3M6IDFfMDAwbiwgbGFiZWw6ICJMYXN0IDFrIGJsb2NrcyIgfSwKICB7IGJsb2NrczogNV8wMDBuLCBsYWJlbDogIkxhc3QgNWsgYmxvY2tzIiB9LAogIHsgYmxvY2tzOiAyMF8wMDBuLCBsYWJlbDogIkxhc3QgMjBrIGJsb2NrcyIgfSwKXTsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEFjdGl2aXR5UGFnZSgpIHsKICBjb25zdCB7IG5ldCB9ID0gdXNlTmV0d29yaygpOwogIGNvbnN0IGFwcENoYWluID0gbmV0LmNoYWluOwogIGNvbnN0IGludm9pY2VQYXlBZGRyZXNzID0gbmV0Lmludm9pY2VQYXk7CiAgY29uc3QgZGVwbG95QmxvY2sgPSBuZXQuZGVwbG95QmxvY2s7CiAgY29uc3QgaGFzRXhwbG9yZXIgPSBuZXQuaGFzRXhwbG9yZXI7CiAgY29uc3QgY2xpZW50ID0gdXNlUHVibGljQ2xpZW50KHsgY2hhaW5JZDogYXBwQ2hhaW4uaWQgfSkgYXMgUHVibGljQ2xpZW50IHwgdW5kZWZpbmVkOwogIGNvbnN0IHsgYWRkcmVzcyB9ID0gdXNlQWNjb3VudCgpOwogIGNvbnN0IHRva2VuID0gdXNlVG9rZW4oKTsKICBjb25zdCBbd2luZG93U2l6ZSwgc2V0V2luZG93U2l6ZV0gPSB1c2VTdGF0ZSg1XzAwMG4pOwogIGNvbnN0IFtvbmx5TWluZSwgc2V0T25seU1pbmVdID0gdXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IFtwcm9ncmVzcywgc2V0UHJvZ3Jlc3NdID0gdXNlU3RhdGUoMCk7CgogIGNvbnN0IGxvZ3MgPSB1c2VRdWVyeSh7CiAgICBxdWVyeUtleTogWyJwYWlkLWxvZ3MiLCBhcHBDaGFpbi5pZCwgaW52b2ljZVBheUFkZHJlc3MsIHdpbmRvd1NpemUudG9TdHJpbmcoKSwgb25seU1pbmUgPyBhZGRyZXNzIDogbnVsbF0sCiAgICBlbmFibGVkOiBCb29sZWFuKGNsaWVudCAmJiBpbnZvaWNlUGF5QWRkcmVzcyksCiAgICBxdWVyeUZuOiBhc3luYyAoKSA9PiB7CiAgICAgIGNvbnN0IGhlYWQgPSBhd2FpdCBjbGllbnQhLmdldEJsb2NrTnVtYmVyKCk7CiAgICAgIGxldCBmcm9tID0gaGVhZCA+IHdpbmRvd1NpemUgPyBoZWFkIC0gd2luZG93U2l6ZSArIDFuIDogMG47CiAgICAgIGlmIChkZXBsb3lCbG9jayAhPT0gdW5kZWZpbmVkICYmIGRlcGxveUJsb2NrID4gZnJvbSkgZnJvbSA9IGRlcGxveUJsb2NrOwogICAgICBzZXRQcm9ncmVzcygwKTsKICAgICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgZ2V0TG9nc0NodW5rZWQoY2xpZW50ISwgewogICAgICAgIGFkZHJlc3M6IGludm9pY2VQYXlBZGRyZXNzISwKICAgICAgICBldmVudDogZ2V0QWJpSXRlbSh7IGFiaTogaW52b2ljZVBheUFiaSwgbmFtZTogIlBhaWQiIH0pLAogICAgICAgIGFyZ3M6IG9ubHlNaW5lICYmIGFkZHJlc3MgPyB7IHBheWVyOiBhZGRyZXNzIH0gOiB1bmRlZmluZWQsCiAgICAgICAgZnJvbUJsb2NrOiBmcm9tLAogICAgICAgIHRvQmxvY2s6IGhlYWQsCiAgICAgICAgb25Qcm9ncmVzczogKGRvbmUsIHRvdGFsKSA9PiBzZXRQcm9ncmVzcyh0b3RhbCA/IE51bWJlcigoZG9uZSAqIDEwMG4pIC8gdG90YWwpIDogMTAwKSwKICAgICAgfSk7CiAgICAgIHJldHVybiB7IGZyb20sIGhlYWQsIGl0ZW1zOiBbLi4ucmVzdWx0XS5yZXZlcnNlKCkgfTsKICAgIH0sCiAgfSk7CgogIGNvbnN0IHRvdGFsID0gbG9ncy5kYXRhPy5pdGVtcy5yZWR1Y2UoKHN1bSwgbCkgPT4gc3VtICsgKGwuYXJncy5hbW91bnQgPz8gMG4pLCAwbikgPz8gMG47CgogIHJldHVybiAoCiAgICA8bWFpbiBjbGFzc05hbWU9InNoZWxsIj4KICAgICAgPGRpdiBjbGFzc05hbWU9InBhZ2UtaGVhZCI+CiAgICAgICAgPGRpdj4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0iZXllYnJvdyI+RXhhY3RQYXkgwrcgcmVhZGluZyBldmVudHM8L3A+CiAgICAgICAgICA8aDE+UGF5bWVudCBhY3Rpdml0eTwvaDE+CiAgICAgICAgICA8cCBjbGFzc05hbWU9ImxlZGUiPgogICAgICAgICAgICBFdmVyeSA8Y29kZT5QYWlkPC9jb2RlPiBldmVudCBmcm9tIHlvdXIgSW52b2ljZVBheS4gQWV2dW0gc2VydmVzIGF0IG1vc3QgMSwwMDAgYmxvY2tzIHBlciA8Y29kZT5ldGhfZ2V0TG9nczwvY29kZT4gY2FsbCwgc28gdGhlIGtpdAogICAgICAgICAgICByZWFkcyBpbiBjaHVua3MuCiAgICAgICAgICA8L3A+CiAgICAgICAgPC9kaXY+CiAgICAgICAge2xvZ3MuZGF0YSAmJiAoCiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic2NvcmUiPgogICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InNjb3JlLW51bSI+e2xvZ3MuZGF0YS5pdGVtcy5sZW5ndGh9PC9zcGFuPgogICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZpbmUiPgogICAgICAgICAgICAgIHBheW1lbnRzIMK3IHtmb3JtYXRVbml0cyh0b3RhbCwgdG9rZW4uZGVjaW1hbHMpfSB7dG9rZW4uc3ltYm9sfQogICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICApfQogICAgICA8L2Rpdj4KCiAgICAgIHshaW52b2ljZVBheUFkZHJlc3MgPyAoCiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImNhcmQgZW1wdHkiPgogICAgICAgICAgTm8gSW52b2ljZVBheSBjb25maWd1cmVkIGZvciB7bmV0LmxhYmVsfS4gU2V0IDxjb2RlPk5FWFRfUFVCTElDX0lOVk9JQ0VQQVlfe25ldC5rZXkudG9VcHBlckNhc2UoKX08L2NvZGU+IGluIDxjb2RlPndlYi8uZW52LmxvY2FsPC9jb2RlPi4KICAgICAgICA8L2Rpdj4KICAgICAgKSA6ICgKICAgICAgICA8c2VjdGlvbiBjbGFzc05hbWU9ImNhcmQgZmx1c2giPgogICAgICAgICAgPGRpdiBzdHlsZT17eyBkaXNwbGF5OiAiZmxleCIsIGZsZXhXcmFwOiAid3JhcCIsIGdhcDogMTAsIGFsaWduSXRlbXM6ICJjZW50ZXIiLCBwYWRkaW5nOiAiMTZweCAyMHB4IiwgYm9yZGVyQm90dG9tOiAiMXB4IHNvbGlkIHZhcigtLWxpbmUpIiB9fT4KICAgICAgICAgICAge1dJTkRPV1MubWFwKCh3KSA9PiAoCiAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAga2V5PXt3LmxhYmVsfQogICAgICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICAgICAgY2xhc3NOYW1lPXtgYnRuIHNtYWxsICR7d2luZG93U2l6ZSA9PT0gdy5ibG9ja3MgPyAiIiA6ICJzZWNvbmRhcnkifWB9CiAgICAgICAgICAgICAgICBhcmlhLXByZXNzZWQ9e3dpbmRvd1NpemUgPT09IHcuYmxvY2tzfQogICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gc2V0V2luZG93U2l6ZSh3LmJsb2Nrcyl9CiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAge3cubGFiZWx9CiAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICkpfQogICAgICAgICAgICA8bGFiZWwgc3R5bGU9e3sgZGlzcGxheTogImlubGluZS1mbGV4IiwgZ2FwOiA4LCBhbGlnbkl0ZW1zOiAiY2VudGVyIiwgbWFyZ2luTGVmdDogImF1dG8iLCBmb250U2l6ZTogMTQsIGNvbG9yOiAidmFyKC0tdGV4dC1tdXRlZCkiIH19PgogICAgICAgICAgICAgIDxpbnB1dCB0eXBlPSJjaGVja2JveCIgY2hlY2tlZD17b25seU1pbmV9IGRpc2FibGVkPXshYWRkcmVzc30gb25DaGFuZ2U9eyhlKSA9PiBzZXRPbmx5TWluZShlLnRhcmdldC5jaGVja2VkKX0gLz4KICAgICAgICAgICAgICBPbmx5IG15IHBheW1lbnRzCiAgICAgICAgICAgIDwvbGFiZWw+CiAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICB7bG9ncy5pc0ZldGNoaW5nICYmICgKICAgICAgICAgICAgPGRpdiBzdHlsZT17eyBwYWRkaW5nOiAiMTZweCAyMHB4IiB9fSBhcmlhLWxpdmU9InBvbGl0ZSI+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InByb2dyZXNzIiByb2xlPSJwcm9ncmVzc2JhciIgYXJpYS12YWx1ZW5vdz17cHJvZ3Jlc3N9IGFyaWEtdmFsdWVtaW49ezB9IGFyaWEtdmFsdWVtYXg9ezEwMH0+CiAgICAgICAgICAgICAgICA8c3BhbiBzdHlsZT17eyB3aWR0aDogYCR7cHJvZ3Jlc3N9JWAgfX0gLz4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9ImZpbmUiIHN0eWxlPXt7IG1hcmdpblRvcDogOCB9fT4KICAgICAgICAgICAgICAgIFNjYW5uaW5nIHt3aW5kb3dTaXplLnRvTG9jYWxlU3RyaW5nKCJlbi1VUyIpfSBibG9ja3MsIDEsMDAwIGF0IGEgdGltZeKApiB7cHJvZ3Jlc3N9JQogICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICApfQoKICAgICAgICAgIHtsb2dzLmVycm9yICYmIDxwIGNsYXNzTmFtZT0iZW1wdHkiPkNvdWxkbiZhcG9zO3QgcmVhZCBldmVudHM6IHsobG9ncy5lcnJvciBhcyBFcnJvcikubWVzc2FnZX08L3A+fQoKICAgICAgICAgIHtsb2dzLmRhdGEgJiYgbG9ncy5kYXRhLml0ZW1zLmxlbmd0aCA9PT0gMCAmJiAhbG9ncy5pc0ZldGNoaW5nICYmICgKICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJlbXB0eSI+CiAgICAgICAgICAgICAgTm8gcGF5bWVudHMgaW4gYmxvY2tzIHtsb2dzLmRhdGEuZnJvbS50b1N0cmluZygpfeKAk3tsb2dzLmRhdGEuaGVhZC50b1N0cmluZygpfS4gPExpbmsgaHJlZj0iL2ludm9pY2VzIj5DcmVhdGUgYW4gaW52b2ljZTwvTGluaz4uCiAgICAgICAgICAgIDwvcD4KICAgICAgICAgICl9CgogICAgICAgICAge2xvZ3MuZGF0YSAmJiBsb2dzLmRhdGEuaXRlbXMubGVuZ3RoID4gMCAmJiAoCiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0YWJsZS13cmFwIj4KICAgICAgICAgICAgICA8dGFibGUgY2xhc3NOYW1lPSJkYXRhIj4KICAgICAgICAgICAgICAgIDx0aGVhZD4KICAgICAgICAgICAgICAgICAgPHRyPgogICAgICAgICAgICAgICAgICAgIDx0aD5JbnZvaWNlPC90aD4KICAgICAgICAgICAgICAgICAgICA8dGg+UGF5ZXI8L3RoPgogICAgICAgICAgICAgICAgICAgIDx0aCBjbGFzc05hbWU9InJpZ2h0Ij5BbW91bnQ8L3RoPgogICAgICAgICAgICAgICAgICAgIDx0aCBjbGFzc05hbWU9InJpZ2h0Ij5CbG9jazwvdGg+CiAgICAgICAgICAgICAgICAgICAgPHRoPkxpbmtzPC90aD4KICAgICAgICAgICAgICAgICAgPC90cj4KICAgICAgICAgICAgICAgIDwvdGhlYWQ+CiAgICAgICAgICAgICAgICA8dGJvZHk+CiAgICAgICAgICAgICAgICAgIHtsb2dzLmRhdGEuaXRlbXMubWFwKChsKSA9PiAoCiAgICAgICAgICAgICAgICAgICAgPHRyIGtleT17YCR7bC50cmFuc2FjdGlvbkhhc2h9LSR7bC5sb2dJbmRleH1gfT4KICAgICAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9Im1vbm8iPntsLmFyZ3MuaW52b2ljZUlkID8gb3JkZXJMYWJlbChsLmFyZ3MuaW52b2ljZUlkKSA6ICLigJQifTwvdGQ+CiAgICAgICAgICAgICAgICAgICAgICA8dGQgY2xhc3NOYW1lPSJtb25vIj57c2hvcnQobC5hcmdzLnBheWVyID8/ICIiKX08L3RkPgogICAgICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzTmFtZT0icmlnaHQgbnVtIj4KICAgICAgICAgICAgICAgICAgICAgICAge2Zvcm1hdFVuaXRzKGwuYXJncy5hbW91bnQgPz8gMG4sIHRva2VuLmRlY2ltYWxzKX0ge3Rva2VuLnN5bWJvbH0KICAgICAgICAgICAgICAgICAgICAgIDwvdGQ+CiAgICAgICAgICAgICAgICAgICAgICA8dGQgY2xhc3NOYW1lPSJyaWdodCBudW0iPntsLmJsb2NrTnVtYmVyPy50b1N0cmluZygpfTwvdGQ+CiAgICAgICAgICAgICAgICAgICAgICA8dGQgc3R5bGU9e3sgZGlzcGxheTogImZsZXgiLCBnYXA6IDE0IH19PgogICAgICAgICAgICAgICAgICAgICAgICA8TGluayBocmVmPXtgL3JlY2VpcHRzLyR7bC5hcmdzLmludm9pY2VJZH0/dHg9JHtsLnRyYW5zYWN0aW9uSGFzaH0mY2hhaW49JHthcHBDaGFpbi5pZH1gfT5SZWNlaXB0PC9MaW5rPgogICAgICAgICAgICAgICAgICAgICAgICB7aGFzRXhwbG9yZXIgJiYgbC50cmFuc2FjdGlvbkhhc2ggJiYgKAogICAgICAgICAgICAgICAgICAgICAgICAgIDxhIGhyZWY9e3R4VXJsKGwudHJhbnNhY3Rpb25IYXNoKX0gdGFyZ2V0PSJfYmxhbmsiIHJlbD0ibm9yZWZlcnJlciI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBUeAogICAgICAgICAgICAgICAgICAgICAgICAgIDwvYT4KICAgICAgICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgICAgICAgIDwvdGQ+CiAgICAgICAgICAgICAgICAgICAgPC90cj4KICAgICAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgICAgICA8L3Rib2R5PgogICAgICAgICAgICAgIDwvdGFibGU+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgKX0KICAgICAgICA8L3NlY3Rpb24+CiAgICAgICl9CiAgICA8L21haW4+CiAgKTsKfQo=
+"use client";
+
+import { getLogsChunked, invoicePayAbi, txUrl } from "@aevum-kit/aevum";
+import { useQuery } from "@tanstack/react-query";
+import Link from "next/link";
+import { useState } from "react";
+import { formatUnits, getAbiItem, type PublicClient } from "viem";
+import { useAccount, usePublicClient } from "wagmi";
+import { useToken } from "@/components/useToken";
+import { useNetwork } from "@/lib/network";
+import { orderLabel, short } from "@/lib/order";
+
+const WINDOWS = [
+  { blocks: 1_000n, label: "Last 1k blocks" },
+  { blocks: 5_000n, label: "Last 5k blocks" },
+  { blocks: 20_000n, label: "Last 20k blocks" },
+];
+
+export default function ActivityPage() {
+  const { net } = useNetwork();
+  const appChain = net.chain;
+  const invoicePayAddress = net.invoicePay;
+  const deployBlock = net.deployBlock;
+  const hasExplorer = net.hasExplorer;
+  const client = usePublicClient({ chainId: appChain.id }) as PublicClient | undefined;
+  const { address } = useAccount();
+  const token = useToken();
+  const [windowSize, setWindowSize] = useState(5_000n);
+  const [onlyMine, setOnlyMine] = useState(false);
+  const [progress, setProgress] = useState(0);
+
+  const logs = useQuery({
+    queryKey: ["paid-logs", appChain.id, invoicePayAddress, windowSize.toString(), onlyMine ? address : null],
+    enabled: Boolean(client && invoicePayAddress),
+    queryFn: async () => {
+      const head = await client!.getBlockNumber();
+      let from = head > windowSize ? head - windowSize + 1n : 0n;
+      if (deployBlock !== undefined && deployBlock > from) from = deployBlock;
+      setProgress(0);
+      const result = await getLogsChunked(client!, {
+        address: invoicePayAddress!,
+        event: getAbiItem({ abi: invoicePayAbi, name: "Paid" }),
+        args: onlyMine && address ? { payer: address } : undefined,
+        fromBlock: from,
+        toBlock: head,
+        onProgress: (done, total) => setProgress(total ? Number((done * 100n) / total) : 100),
+      });
+      return { from, head, items: [...result].reverse() };
+    },
+  });
+
+  const total = logs.data?.items.reduce((sum, l) => sum + (l.args.amount ?? 0n), 0n) ?? 0n;
+
+  return (
+    <main className="shell">
+      <div className="page-head">
+        <div>
+          <p className="eyebrow">ExactPay · reading events</p>
+          <h1>Payment activity</h1>
+          <p className="lede">
+            Every <code>Paid</code> event from your InvoicePay. Aevum serves at most 1,000 blocks per <code>eth_getLogs</code> call, so the kit
+            reads in chunks.
+          </p>
+        </div>
+        {logs.data && (
+          <div className="score">
+            <span className="score-num">{logs.data.items.length}</span>
+            <span className="fine">
+              payments · {formatUnits(total, token.decimals)} {token.symbol}
+            </span>
+          </div>
+        )}
+      </div>
+
+      {!invoicePayAddress ? (
+        <div className="card empty">
+          No InvoicePay configured for {net.label}. Set <code>NEXT_PUBLIC_INVOICEPAY_{net.key.toUpperCase()}</code> in <code>web/.env.local</code>.
+        </div>
+      ) : (
+        <section className="card flush">
+          <div style={{ display: "flex", flexWrap: "wrap", gap: 10, alignItems: "center", padding: "16px 20px", borderBottom: "1px solid var(--line)" }}>
+            {WINDOWS.map((w) => (
+              <button
+                key={w.label}
+                type="button"
+                className={`btn small ${windowSize === w.blocks ? "" : "secondary"}`}
+                aria-pressed={windowSize === w.blocks}
+                onClick={() => setWindowSize(w.blocks)}
+              >
+                {w.label}
+              </button>
+            ))}
+            <label style={{ display: "inline-flex", gap: 8, alignItems: "center", marginLeft: "auto", fontSize: 14, color: "var(--text-muted)" }}>
+              <input type="checkbox" checked={onlyMine} disabled={!address} onChange={(e) => setOnlyMine(e.target.checked)} />
+              Only my payments
+            </label>
+          </div>
+
+          {logs.isFetching && (
+            <div style={{ padding: "16px 20px" }} aria-live="polite">
+              <div className="progress" role="progressbar" aria-valuenow={progress} aria-valuemin={0} aria-valuemax={100}>
+                <span style={{ width: `${progress}%` }} />
+              </div>
+              <p className="fine" style={{ marginTop: 8 }}>
+                Scanning {windowSize.toLocaleString("en-US")} blocks, 1,000 at a time… {progress}%
+              </p>
+            </div>
+          )}
+
+          {logs.error && <p className="empty">Couldn&apos;t read events: {(logs.error as Error).message}</p>}
+
+          {logs.data && logs.data.items.length === 0 && !logs.isFetching && (
+            <p className="empty">
+              No payments in blocks {logs.data.from.toString()}–{logs.data.head.toString()}. <Link href="/invoices">Create an invoice</Link>.
+            </p>
+          )}
+
+          {logs.data && logs.data.items.length > 0 && (
+            <div className="table-wrap">
+              <table className="data">
+                <thead>
+                  <tr>
+                    <th>Invoice</th>
+                    <th>Payer</th>
+                    <th className="right">Amount</th>
+                    <th className="right">Block</th>
+                    <th>Links</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {logs.data.items.map((l) => (
+                    <tr key={`${l.transactionHash}-${l.logIndex}`}>
+                      <td className="mono">{l.args.invoiceId ? orderLabel(l.args.invoiceId) : "—"}</td>
+                      <td className="mono">{short(l.args.payer ?? "")}</td>
+                      <td className="right num">
+                        {formatUnits(l.args.amount ?? 0n, token.decimals)} {token.symbol}
+                      </td>
+                      <td className="right num">{l.blockNumber?.toString()}</td>
+                      <td style={{ display: "flex", gap: 14 }}>
+                        <Link href={`/receipts/${l.args.invoiceId}?tx=${l.transactionHash}&chain=${appChain.id}`}>Receipt</Link>
+                        {hasExplorer && l.transactionHash && (
+                          <a href={txUrl(l.transactionHash)} target="_blank" rel="noreferrer">
+                            Tx
+                          </a>
+                        )}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
+        </section>
+      )}
+    </main>
+  );
+}
