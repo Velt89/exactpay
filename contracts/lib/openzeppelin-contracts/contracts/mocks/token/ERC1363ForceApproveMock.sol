@@ -1,1 +1,14 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0lFUkMyMH0gZnJvbSAiLi4vLi4vaW50ZXJmYWNlcy9JRVJDMjAuc29sIjsKaW1wb3J0IHtFUkMyMCwgRVJDMTM2M30gZnJvbSAiLi4vLi4vdG9rZW4vRVJDMjAvZXh0ZW5zaW9ucy9FUkMxMzYzLnNvbCI7CgovLyBjb250cmFjdCB0aGF0IHJlcGxpY2F0ZSBVU0RUIGFwcHJvdmFsIGJlaGF2aW9yIGluIGFwcHJvdmVBbmRDYWxsCmFic3RyYWN0IGNvbnRyYWN0IEVSQzEzNjNGb3JjZUFwcHJvdmVNb2NrIGlzIEVSQzEzNjMgewogICAgZnVuY3Rpb24gYXBwcm92ZUFuZENhbGwoYWRkcmVzcyBzcGVuZGVyLCB1aW50MjU2IGFtb3VudCwgYnl0ZXMgbWVtb3J5IGRhdGEpIHB1YmxpYyB2aXJ0dWFsIG92ZXJyaWRlIHJldHVybnMgKGJvb2wpIHsKICAgICAgICByZXF1aXJlKGFtb3VudCA9PSAwIHx8IGFsbG93YW5jZShtc2cuc2VuZGVyLCBzcGVuZGVyKSA9PSAwLCAiVVNEVCBhcHByb3ZhbCBmYWlsdXJlIik7CiAgICAgICAgcmV0dXJuIHN1cGVyLmFwcHJvdmVBbmRDYWxsKHNwZW5kZXIsIGFtb3VudCwgZGF0YSk7CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {IERC20} from "../../interfaces/IERC20.sol";
+import {ERC20, ERC1363} from "../../token/ERC20/extensions/ERC1363.sol";
+
+// contract that replicate USDT approval behavior in approveAndCall
+abstract contract ERC1363ForceApproveMock is ERC1363 {
+    function approveAndCall(address spender, uint256 amount, bytes memory data) public virtual override returns (bool) {
+        require(amount == 0 || allowance(msg.sender, spender) == 0, "USDT approval failure");
+        return super.approveAndCall(spender, amount, data);
+    }
+}
