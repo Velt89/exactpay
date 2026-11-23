@@ -1,1 +1,15 @@
-IyEvdXNyL2Jpbi9lbnYgbm9kZQoKLy8gU3luY2hyb25pemVzIHRoZSB2ZXJzaW9uIGluIGNvbnRyYWN0cy9wYWNrYWdlLmpzb24gd2l0aCB0aGUgb25lIGluIHBhY2thZ2UuanNvbi4KLy8gVGhpcyBpcyBydW4gYXV0b21hdGljYWxseSB3aGVuIG5wbSB2ZXJzaW9uIGlzIHJ1bi4KCmNvbnN0IGZzID0gcmVxdWlyZSgnZnMnKTsKCnNldFZlcnNpb24oJ3BhY2thZ2UuanNvbicsICdjb250cmFjdHMvcGFja2FnZS5qc29uJyk7CgpmdW5jdGlvbiBzZXRWZXJzaW9uKGZyb20sIHRvKSB7CiAgY29uc3QgZnJvbUpzb24gPSBKU09OLnBhcnNlKGZzLnJlYWRGaWxlU3luYyhmcm9tKSk7CiAgY29uc3QgdG9Kc29uID0gSlNPTi5wYXJzZShmcy5yZWFkRmlsZVN5bmModG8pKTsKICB0b0pzb24udmVyc2lvbiA9IGZyb21Kc29uLnZlcnNpb247CiAgZnMud3JpdGVGaWxlU3luYyh0bywgSlNPTi5zdHJpbmdpZnkodG9Kc29uLCBudWxsLCAyKSArICdcbicpOwp9Cg==
+#!/usr/bin/env node
+
+// Synchronizes the version in contracts/package.json with the one in package.json.
+// This is run automatically when npm version is run.
+
+const fs = require('fs');
+
+setVersion('package.json', 'contracts/package.json');
+
+function setVersion(from, to) {
+  const fromJson = JSON.parse(fs.readFileSync(from));
+  const toJson = JSON.parse(fs.readFileSync(to));
+  toJson.version = fromJson.version;
+  fs.writeFileSync(to, JSON.stringify(toJson, null, 2) + '\n');
+}
