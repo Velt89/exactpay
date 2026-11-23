@@ -1,1 +1,45 @@
-IyEvdXNyL2Jpbi9lbnYgbm9kZQoKLy8gVGhpcyBzY3JpcHQgcmVtb3ZlcyB0aGUgYnVpbGQgYXJ0aWZhY3RzIG9mIGlnbm9yZWQgY29udHJhY3RzLgoKY29uc3QgZnMgPSByZXF1aXJlKCdmcycpOwpjb25zdCBwYXRoID0gcmVxdWlyZSgncGF0aCcpOwpjb25zdCBtYXRjaCA9IHJlcXVpcmUoJ21pY3JvbWF0Y2gnKTsKCmZ1bmN0aW9uIHJlYWRKU09OKHBhdGgpIHsKICByZXR1cm4gSlNPTi5wYXJzZShmcy5yZWFkRmlsZVN5bmMocGF0aCkpOwp9Cgpjb25zdCBwa2dGaWxlcyA9IHJlYWRKU09OKCdwYWNrYWdlLmpzb24nKS5maWxlczsKCi8vIEdldCBvbmx5IG5lZ2F0ZWQgcGF0dGVybnMuCmNvbnN0IGlnbm9yZVBhdHRlcm5zID0gcGtnRmlsZXMKICAuZmlsdGVyKHBhdCA9PiBwYXQuc3RhcnRzV2l0aCgnIScpKQogIC8vIFJlbW92ZSB0aGUgbmVnYXRpb24gcGFydC4gTWFrZXMgbWljcm9tYXRjaCB1c2FnZSBtb3JlIGludHVpdGl2ZS4KICAubWFwKHBhdCA9PiBwYXQuc2xpY2UoMSkpOwoKY29uc3QgaWdub3JlUGF0dGVybnNTdWJ0cmVlcyA9IGlnbm9yZVBhdHRlcm5zCiAgLy8gQWRkICoqLyogdG8gaWdub3JlIGFsbCBmaWxlcyBjb250YWluZWQgaW4gdGhlIGRpcmVjdG9yaWVzLgogIC5jb25jYXQoaWdub3JlUGF0dGVybnMubWFwKHBhdCA9PiBwYXRoLmpvaW4ocGF0LCAnKiovKicpKSkKICAubWFwKHAgPT4gcC5yZXBsYWNlKC9eXC8vLCAnJykpOwoKY29uc3QgYXJ0aWZhY3RzRGlyID0gJ2NvbnRyYWN0cy9idWlsZC9jb250cmFjdHMnOwpjb25zdCBidWlsZGluZm8gPSAnYXJ0aWZhY3RzL2J1aWxkLWluZm8nOwpjb25zdCBmaWxlbmFtZXMgPSBmcy5yZWFkZGlyU3luYyhidWlsZGluZm8pOwoKbGV0IG4gPSAwOwoKZm9yIChjb25zdCBmaWxlbmFtZSBvZiBmaWxlbmFtZXMpIHsKICBjb25zdCBzb2xjT3V0cHV0ID0gcmVhZEpTT04ocGF0aC5qb2luKGJ1aWxkaW5mbywgZmlsZW5hbWUpKS5vdXRwdXQ7CiAgZm9yIChjb25zdCBzb3VyY2VQYXRoIGluIHNvbGNPdXRwdXQuY29udHJhY3RzKSB7CiAgICBjb25zdCBpZ25vcmUgPSBtYXRjaC5hbnkoc291cmNlUGF0aCwgaWdub3JlUGF0dGVybnNTdWJ0cmVlcyk7CiAgICBpZiAoaWdub3JlKSB7CiAgICAgIGZvciAoY29uc3QgY29udHJhY3QgaW4gc29sY091dHB1dC5jb250cmFjdHNbc291cmNlUGF0aF0pIHsKICAgICAgICBmcy51bmxpbmtTeW5jKHBhdGguam9pbihhcnRpZmFjdHNEaXIsIGNvbnRyYWN0ICsgJy5qc29uJykpOwogICAgICAgIG4gKz0gMTsKICAgICAgfQogICAgfQogIH0KfQoKY29uc29sZS5lcnJvcihgUmVtb3ZlZCAke259IG1vY2sgYXJ0aWZhY3RzYCk7Cg==
+#!/usr/bin/env node
+
+// This script removes the build artifacts of ignored contracts.
+
+const fs = require('fs');
+const path = require('path');
+const match = require('micromatch');
+
+function readJSON(path) {
+  return JSON.parse(fs.readFileSync(path));
+}
+
+const pkgFiles = readJSON('package.json').files;
+
+// Get only negated patterns.
+const ignorePatterns = pkgFiles
+  .filter(pat => pat.startsWith('!'))
+  // Remove the negation part. Makes micromatch usage more intuitive.
+  .map(pat => pat.slice(1));
+
+const ignorePatternsSubtrees = ignorePatterns
+  // Add **/* to ignore all files contained in the directories.
+  .concat(ignorePatterns.map(pat => path.join(pat, '**/*')))
+  .map(p => p.replace(/^\//, ''));
+
+const artifactsDir = 'contracts/build/contracts';
+const buildinfo = 'artifacts/build-info';
+const filenames = fs.readdirSync(buildinfo);
+
+let n = 0;
+
+for (const filename of filenames) {
+  const solcOutput = readJSON(path.join(buildinfo, filename)).output;
+  for (const sourcePath in solcOutput.contracts) {
+    const ignore = match.any(sourcePath, ignorePatternsSubtrees);
+    if (ignore) {
+      for (const contract in solcOutput.contracts[sourcePath]) {
+        fs.unlinkSync(path.join(artifactsDir, contract + '.json'));
+        n += 1;
+      }
+    }
+  }
+}
+
+console.error(`Removed ${n} mock artifacts`);
