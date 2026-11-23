@@ -1,1 +1,27 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodXRpbHMvaW50cm9zcGVjdGlvbi9FUkMxNjUuc29sKQoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0lFUkMxNjV9IGZyb20gIi4vSUVSQzE2NS5zb2wiOwoKLyoqCiAqIEBkZXYgSW1wbGVtZW50YXRpb24gb2YgdGhlIHtJRVJDMTY1fSBpbnRlcmZhY2UuCiAqCiAqIENvbnRyYWN0cyB0aGF0IHdhbnQgdG8gaW1wbGVtZW50IEVSQy0xNjUgc2hvdWxkIGluaGVyaXQgZnJvbSB0aGlzIGNvbnRyYWN0IGFuZCBvdmVycmlkZSB7c3VwcG9ydHNJbnRlcmZhY2V9IHRvIGNoZWNrCiAqIGZvciB0aGUgYWRkaXRpb25hbCBpbnRlcmZhY2UgaWQgdGhhdCB3aWxsIGJlIHN1cHBvcnRlZC4gRm9yIGV4YW1wbGU6CiAqCiAqIGBgYHNvbGlkaXR5CiAqIGZ1bmN0aW9uIHN1cHBvcnRzSW50ZXJmYWNlKGJ5dGVzNCBpbnRlcmZhY2VJZCkgcHVibGljIHZpZXcgdmlydHVhbCBvdmVycmlkZSByZXR1cm5zIChib29sKSB7CiAqICAgICByZXR1cm4gaW50ZXJmYWNlSWQgPT0gdHlwZShNeUludGVyZmFjZSkuaW50ZXJmYWNlSWQgfHwgc3VwZXIuc3VwcG9ydHNJbnRlcmZhY2UoaW50ZXJmYWNlSWQpOwogKiB9CiAqIGBgYAogKi8KYWJzdHJhY3QgY29udHJhY3QgRVJDMTY1IGlzIElFUkMxNjUgewogICAgLyoqCiAgICAgKiBAZGV2IFNlZSB7SUVSQzE2NS1zdXBwb3J0c0ludGVyZmFjZX0uCiAgICAgKi8KICAgIGZ1bmN0aW9uIHN1cHBvcnRzSW50ZXJmYWNlKGJ5dGVzNCBpbnRlcmZhY2VJZCkgcHVibGljIHZpZXcgdmlydHVhbCByZXR1cm5zIChib29sKSB7CiAgICAgICAgcmV0dXJuIGludGVyZmFjZUlkID09IHR5cGUoSUVSQzE2NSkuaW50ZXJmYWNlSWQ7CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (utils/introspection/ERC165.sol)
+
+pragma solidity ^0.8.20;
+
+import {IERC165} from "./IERC165.sol";
+
+/**
+ * @dev Implementation of the {IERC165} interface.
+ *
+ * Contracts that want to implement ERC-165 should inherit from this contract and override {supportsInterface} to check
+ * for the additional interface id that will be supported. For example:
+ *
+ * ```solidity
+ * function supportsInterface(bytes4 interfaceId) public view virtual override returns (bool) {
+ *     return interfaceId == type(MyInterface).interfaceId || super.supportsInterface(interfaceId);
+ * }
+ * ```
+ */
+abstract contract ERC165 is IERC165 {
+    /**
+     * @dev See {IERC165-supportsInterface}.
+     */
+    function supportsInterface(bytes4 interfaceId) public view virtual returns (bool) {
+        return interfaceId == type(IERC165).interfaceId;
+    }
+}
