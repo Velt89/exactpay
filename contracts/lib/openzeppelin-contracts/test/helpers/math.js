@@ -1,1 +1,33 @@
-Ly8gQXJyYXkgb2YgbnVtYmVyIG9yIGJpZ2ludApjb25zdCBtYXggPSAoLi4udmFsdWVzKSA9PiB2YWx1ZXMuc2xpY2UoMSkucmVkdWNlKCh4LCB5KSA9PiAoeCA+IHkgPyB4IDogeSksIHZhbHVlcy5hdCgwKSk7CmNvbnN0IG1pbiA9ICguLi52YWx1ZXMpID0+IHZhbHVlcy5zbGljZSgxKS5yZWR1Y2UoKHgsIHkpID0+ICh4IDwgeSA/IHggOiB5KSwgdmFsdWVzLmF0KDApKTsKY29uc3Qgc3VtID0gKC4uLnZhbHVlcykgPT4gdmFsdWVzLnNsaWNlKDEpLnJlZHVjZSgoeCwgeSkgPT4geCArIHksIHZhbHVlcy5hdCgwKSk7CgovLyBDb21wdXRlcyBtb2RleHAgd2l0aG91dCBCaWdJbnQgb3ZlcmZsb3cgZm9yIGxhcmdlIG51bWJlcnMKZnVuY3Rpb24gbW9kRXhwKGIsIGUsIG0pIHsKICBsZXQgcmVzdWx0ID0gMW47CgogIC8vIElmIGUgaXMgYSBwb3dlciBvZiB0d28sIG1vZGV4cCBjYW4gYmUgY2FsY3VsYXRlZCBhczoKICAvLyBmb3IgKGxldCByZXN1bHQgPSBiLCBpID0gMDsgaSA8IGxvZzIoZSk7IGkrKykgcmVzdWx0ID0gbW9kZXhwKHJlc3VsdCwgMiwgbSkKICAvLwogIC8vIEdpdmVuIGFueSBuYXR1cmFsIG51bWJlciBjYW4gYmUgd3JpdHRlbiBpbiB0ZXJtcyBvZiBwb3dlcnMgb2YgMiAoaS5lLiBiaW5hcnkpCiAgLy8gdGhlbiBtb2RleHAgY2FuIGJlIGNhbGN1bGF0ZWQgZm9yIGFueSBlLCBieSBtdWx0aXBseWluZyBiKippIGZvciBhbGwgaSB3aGVyZQogIC8vIGJpbmFyeShlKVtpXSBpcyAxIChpLmUuIGEgcG93ZXIgb2YgdHdvKS4KICBmb3IgKGxldCBiYXNlID0gYiAlIG07IGUgPiAwbjsgYmFzZSA9IGJhc2UgKiogMm4gJSBtKSB7CiAgICAvLyBMZWFzdCBzaWduaWZpY2FudCBiaXQgaXMgMQogICAgaWYgKGUgJSAybiA9PSAxbikgewogICAgICByZXN1bHQgPSAocmVzdWx0ICogYmFzZSkgJSBtOwogICAgfQoKICAgIGUgLz0gMm47IC8vIEJpbmFyeSBwb3AKICB9CgogIHJldHVybiByZXN1bHQ7Cn0KCm1vZHVsZS5leHBvcnRzID0gewogIG1pbiwKICBtYXgsCiAgc3VtLAogIG1vZEV4cCwKfTsK
+// Array of number or bigint
+const max = (...values) => values.slice(1).reduce((x, y) => (x > y ? x : y), values.at(0));
+const min = (...values) => values.slice(1).reduce((x, y) => (x < y ? x : y), values.at(0));
+const sum = (...values) => values.slice(1).reduce((x, y) => x + y, values.at(0));
+
+// Computes modexp without BigInt overflow for large numbers
+function modExp(b, e, m) {
+  let result = 1n;
+
+  // If e is a power of two, modexp can be calculated as:
+  // for (let result = b, i = 0; i < log2(e); i++) result = modexp(result, 2, m)
+  //
+  // Given any natural number can be written in terms of powers of 2 (i.e. binary)
+  // then modexp can be calculated for any e, by multiplying b**i for all i where
+  // binary(e)[i] is 1 (i.e. a power of two).
+  for (let base = b % m; e > 0n; base = base ** 2n % m) {
+    // Least significant bit is 1
+    if (e % 2n == 1n) {
+      result = (result * base) % m;
+    }
+
+    e /= 2n; // Binary pop
+  }
+
+  return result;
+}
+
+module.exports = {
+  min,
+  max,
+  sum,
+  modExp,
+};
