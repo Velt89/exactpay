@@ -1,1 +1,105 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKY29uc3QgbmFtZSA9ICdNeSBUb2tlbic7CmNvbnN0IHN5bWJvbCA9ICdNVEtOJzsKY29uc3QgaW5pdGlhbEJhbGFuY2UgPSAxMDAwbjsKCmFzeW5jIGZ1bmN0aW9uIGZpeHR1cmUoKSB7CiAgY29uc3QgW293bmVyLCBidXJuZXJdID0gYXdhaXQgZXRoZXJzLmdldFNpZ25lcnMoKTsKCiAgY29uc3QgdG9rZW4gPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJyRFUkMyMEJ1cm5hYmxlJywgW25hbWUsIHN5bWJvbF0sIG93bmVyKTsKICBhd2FpdCB0b2tlbi4kX21pbnQob3duZXIsIGluaXRpYWxCYWxhbmNlKTsKCiAgcmV0dXJuIHsgb3duZXIsIGJ1cm5lciwgdG9rZW4sIGluaXRpYWxCYWxhbmNlIH07Cn0KCmRlc2NyaWJlKCdFUkMyMEJ1cm5hYmxlJywgZnVuY3Rpb24gKCkgewogIGJlZm9yZUVhY2goYXN5bmMgZnVuY3Rpb24gKCkgewogICAgT2JqZWN0LmFzc2lnbih0aGlzLCBhd2FpdCBsb2FkRml4dHVyZShmaXh0dXJlKSk7CiAgfSk7CgogIGRlc2NyaWJlKCdidXJuJywgZnVuY3Rpb24gKCkgewogICAgaXQoJ3JldmVydHMgaWYgbm90IGVub3VnaCBiYWxhbmNlJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCB2YWx1ZSA9IHRoaXMuaW5pdGlhbEJhbGFuY2UgKyAxbjsKCiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLnRva2VuLmNvbm5lY3QodGhpcy5vd25lcikuYnVybih2YWx1ZSkpCiAgICAgICAgLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMudG9rZW4sICdFUkMyMEluc3VmZmljaWVudEJhbGFuY2UnKQogICAgICAgIC53aXRoQXJncyh0aGlzLm93bmVyLCB0aGlzLmluaXRpYWxCYWxhbmNlLCB2YWx1ZSk7CiAgICB9KTsKCiAgICBkZXNjcmliZSgnb24gc3VjY2VzcycsIGZ1bmN0aW9uICgpIHsKICAgICAgZm9yIChjb25zdCB7IHRpdGxlLCB2YWx1ZSB9IG9mIFsKICAgICAgICB7IHRpdGxlOiAnZm9yIGEgemVybyB2YWx1ZScsIHZhbHVlOiAwbiB9LAogICAgICAgIHsgdGl0bGU6ICdmb3IgYSBub24temVybyB2YWx1ZScsIHZhbHVlOiAxMDBuIH0sCiAgICAgIF0pIHsKICAgICAgICBkZXNjcmliZSh0aXRsZSwgZnVuY3Rpb24gKCkgewogICAgICAgICAgYmVmb3JlRWFjaChhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICAgIHRoaXMudHggPSBhd2FpdCB0aGlzLnRva2VuLmNvbm5lY3QodGhpcy5vd25lcikuYnVybih2YWx1ZSk7CiAgICAgICAgICB9KTsKCiAgICAgICAgICBpdCgnYnVybnMgdGhlIHJlcXVlc3RlZCB2YWx1ZScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMudHgpLnRvLmNoYW5nZVRva2VuQmFsYW5jZSh0aGlzLnRva2VuLCB0aGlzLm93bmVyLCAtdmFsdWUpOwogICAgICAgICAgfSk7CgogICAgICAgICAgaXQoJ2VtaXRzIGEgdHJhbnNmZXIgZXZlbnQnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLnR4KS50by5lbWl0KHRoaXMudG9rZW4sICdUcmFuc2ZlcicpLndpdGhBcmdzKHRoaXMub3duZXIsIGV0aGVycy5aZXJvQWRkcmVzcywgdmFsdWUpOwogICAgICAgICAgfSk7CiAgICAgICAgfSk7CiAgICAgIH0KICAgIH0pOwogIH0pOwoKICBkZXNjcmliZSgnYnVybkZyb20nLCBmdW5jdGlvbiAoKSB7CiAgICBkZXNjcmliZSgncmV2ZXJ0cycsIGZ1bmN0aW9uICgpIHsKICAgICAgaXQoJ2lmIG5vdCBlbm91Z2ggYmFsYW5jZScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBjb25zdCB2YWx1ZSA9IHRoaXMuaW5pdGlhbEJhbGFuY2UgKyAxbjsKCiAgICAgICAgYXdhaXQgdGhpcy50b2tlbi5jb25uZWN0KHRoaXMub3duZXIpLmFwcHJvdmUodGhpcy5idXJuZXIsIHZhbHVlKTsKCiAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMudG9rZW4uY29ubmVjdCh0aGlzLmJ1cm5lcikuYnVybkZyb20odGhpcy5vd25lciwgdmFsdWUpKQogICAgICAgICAgLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMudG9rZW4sICdFUkMyMEluc3VmZmljaWVudEJhbGFuY2UnKQogICAgICAgICAgLndpdGhBcmdzKHRoaXMub3duZXIsIHRoaXMuaW5pdGlhbEJhbGFuY2UsIHZhbHVlKTsKICAgICAgfSk7CgogICAgICBpdCgnaWYgbm90IGVub3VnaCBhbGxvd2FuY2UnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgY29uc3QgYWxsb3dhbmNlID0gMTAwbjsKCiAgICAgICAgYXdhaXQgdGhpcy50b2tlbi5jb25uZWN0KHRoaXMub3duZXIpLmFwcHJvdmUodGhpcy5idXJuZXIsIGFsbG93YW5jZSk7CgogICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLnRva2VuLmNvbm5lY3QodGhpcy5idXJuZXIpLmJ1cm5Gcm9tKHRoaXMub3duZXIsIGFsbG93YW5jZSArIDFuKSkKICAgICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLnRva2VuLCAnRVJDMjBJbnN1ZmZpY2llbnRBbGxvd2FuY2UnKQogICAgICAgICAgLndpdGhBcmdzKHRoaXMuYnVybmVyLCBhbGxvd2FuY2UsIGFsbG93YW5jZSArIDFuKTsKICAgICAgfSk7CiAgICB9KTsKCiAgICBkZXNjcmliZSgnb24gc3VjY2VzcycsIGZ1bmN0aW9uICgpIHsKICAgICAgZm9yIChjb25zdCB7IHRpdGxlLCB2YWx1ZSB9IG9mIFsKICAgICAgICB7IHRpdGxlOiAnZm9yIGEgemVybyB2YWx1ZScsIHZhbHVlOiAwbiB9LAogICAgICAgIHsgdGl0bGU6ICdmb3IgYSBub24temVybyB2YWx1ZScsIHZhbHVlOiAxMDBuIH0sCiAgICAgIF0pIHsKICAgICAgICBkZXNjcmliZSh0aXRsZSwgZnVuY3Rpb24gKCkgewogICAgICAgICAgY29uc3Qgb3JpZ2luYWxBbGxvd2FuY2UgPSB2YWx1ZSAqIDNuOwoKICAgICAgICAgIGJlZm9yZUVhY2goYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgICBhd2FpdCB0aGlzLnRva2VuLmNvbm5lY3QodGhpcy5vd25lcikuYXBwcm92ZSh0aGlzLmJ1cm5lciwgb3JpZ2luYWxBbGxvd2FuY2UpOwogICAgICAgICAgICB0aGlzLnR4ID0gYXdhaXQgdGhpcy50b2tlbi5jb25uZWN0KHRoaXMuYnVybmVyKS5idXJuRnJvbSh0aGlzLm93bmVyLCB2YWx1ZSk7CiAgICAgICAgICB9KTsKCiAgICAgICAgICBpdCgnYnVybnMgdGhlIHJlcXVlc3RlZCB2YWx1ZScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMudHgpLnRvLmNoYW5nZVRva2VuQmFsYW5jZSh0aGlzLnRva2VuLCB0aGlzLm93bmVyLCAtdmFsdWUpOwogICAgICAgICAgfSk7CgogICAgICAgICAgaXQoJ2RlY3JlbWVudHMgYWxsb3dhbmNlJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy50b2tlbi5hbGxvd2FuY2UodGhpcy5vd25lciwgdGhpcy5idXJuZXIpKS50by5lcXVhbChvcmlnaW5hbEFsbG93YW5jZSAtIHZhbHVlKTsKICAgICAgICAgIH0pOwoKICAgICAgICAgIGl0KCdlbWl0cyBhIHRyYW5zZmVyIGV2ZW50JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgICBhd2FpdCBleHBlY3QodGhpcy50eCkudG8uZW1pdCh0aGlzLnRva2VuLCAnVHJhbnNmZXInKS53aXRoQXJncyh0aGlzLm93bmVyLCBldGhlcnMuWmVyb0FkZHJlc3MsIHZhbHVlKTsKICAgICAgICAgIH0pOwogICAgICAgIH0pOwogICAgICB9CiAgICB9KTsKICB9KTsKfSk7Cg==
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+const name = 'My Token';
+const symbol = 'MTKN';
+const initialBalance = 1000n;
+
+async function fixture() {
+  const [owner, burner] = await ethers.getSigners();
+
+  const token = await ethers.deployContract('$ERC20Burnable', [name, symbol], owner);
+  await token.$_mint(owner, initialBalance);
+
+  return { owner, burner, token, initialBalance };
+}
+
+describe('ERC20Burnable', function () {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  describe('burn', function () {
+    it('reverts if not enough balance', async function () {
+      const value = this.initialBalance + 1n;
+
+      await expect(this.token.connect(this.owner).burn(value))
+        .to.be.revertedWithCustomError(this.token, 'ERC20InsufficientBalance')
+        .withArgs(this.owner, this.initialBalance, value);
+    });
+
+    describe('on success', function () {
+      for (const { title, value } of [
+        { title: 'for a zero value', value: 0n },
+        { title: 'for a non-zero value', value: 100n },
+      ]) {
+        describe(title, function () {
+          beforeEach(async function () {
+            this.tx = await this.token.connect(this.owner).burn(value);
+          });
+
+          it('burns the requested value', async function () {
+            await expect(this.tx).to.changeTokenBalance(this.token, this.owner, -value);
+          });
+
+          it('emits a transfer event', async function () {
+            await expect(this.tx).to.emit(this.token, 'Transfer').withArgs(this.owner, ethers.ZeroAddress, value);
+          });
+        });
+      }
+    });
+  });
+
+  describe('burnFrom', function () {
+    describe('reverts', function () {
+      it('if not enough balance', async function () {
+        const value = this.initialBalance + 1n;
+
+        await this.token.connect(this.owner).approve(this.burner, value);
+
+        await expect(this.token.connect(this.burner).burnFrom(this.owner, value))
+          .to.be.revertedWithCustomError(this.token, 'ERC20InsufficientBalance')
+          .withArgs(this.owner, this.initialBalance, value);
+      });
+
+      it('if not enough allowance', async function () {
+        const allowance = 100n;
+
+        await this.token.connect(this.owner).approve(this.burner, allowance);
+
+        await expect(this.token.connect(this.burner).burnFrom(this.owner, allowance + 1n))
+          .to.be.revertedWithCustomError(this.token, 'ERC20InsufficientAllowance')
+          .withArgs(this.burner, allowance, allowance + 1n);
+      });
+    });
+
+    describe('on success', function () {
+      for (const { title, value } of [
+        { title: 'for a zero value', value: 0n },
+        { title: 'for a non-zero value', value: 100n },
+      ]) {
+        describe(title, function () {
+          const originalAllowance = value * 3n;
+
+          beforeEach(async function () {
+            await this.token.connect(this.owner).approve(this.burner, originalAllowance);
+            this.tx = await this.token.connect(this.burner).burnFrom(this.owner, value);
+          });
+
+          it('burns the requested value', async function () {
+            await expect(this.tx).to.changeTokenBalance(this.token, this.owner, -value);
+          });
+
+          it('decrements allowance', async function () {
+            expect(await this.token.allowance(this.owner, this.burner)).to.equal(originalAllowance - value);
+          });
+
+          it('emits a transfer event', async function () {
+            await expect(this.tx).to.emit(this.token, 'Transfer').withArgs(this.owner, ethers.ZeroAddress, value);
+          });
+        });
+      }
+    });
+  });
+});
