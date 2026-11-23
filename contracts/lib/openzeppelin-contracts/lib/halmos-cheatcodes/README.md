@@ -1,1 +1,97 @@
-IyBIYWxtb3MgQ2hlYXQgQ29kZXMKCkhhbG1vcyBjaGVhdGNvZGVzIGFyZSBhYnN0cmFjdCBmdW5jdGlvbnMgZGVzaWduZWQgdG8gZmFjaWxpdGF0ZSB3cml0aW5nIHN5bWJvbGljIHRlc3RzLCBzdWNoIGFzIHRoZSBjcmVhdGlvbiBvZiBuZXcgc3ltYm9saWMgdmFsdWVzIGF0IHJ1bnRpbWUuIFdoaWxlIHRoZXNlIGNoZWF0Y29kZXMgYXJlIGN1cnJlbnRseSBleGNsdXNpdmUgdG8gW0hhbG1vc11baGFsbW9zXSwgdGhleSBhcmUgbm90IGxpbWl0ZWQgdG8gaXQgYW5kIGNvdWxkIHBvdGVudGlhbGx5IGJlIHN1cHBvcnRlZCBieSBvdGhlciBzeW1ib2xpYyB0ZXN0aW5nIHRvb2xzIGluIHRoZSBmdXR1cmUuCgpQbGVhc2UgcmVmZXIgdG8gW3RoZSBsaXN0IG9mIGN1cnJlbnRseSBhdmFpbGFibGUgY2hlYXRjb2Rlc11bbGlzdF0uIE1vcmUgY2hlYXRjb2RlcyB3aWxsIGJlIGFkZGVkIGluIHRoZSBmdXR1cmUuCgpKb2luIHRoZSBbSGFsbW9zIFRlbGVncmFtIEdyb3VwXVtjaGF0XSBmb3IgYW55IGlucXVpcmllcyBvciBmdXJ0aGVyIGRpc2N1c3Npb25zLgoKW2hhbG1vc106IDxodHRwczovL2dpdGh1Yi5jb20vYTE2ei9oYWxtb3M+CltsaXN0XTogPHNyYy9TVk0uc29sPgpbY2hhdF06IDxodHRwczovL3QubWUvKzRVaHpIZHVhaTNNelptVXg+CgojIyBJbnN0YWxsYXRpb24KClRvIGluc3RhbGwgdXNpbmcgRm91bmRyeToKYGBgCmZvcmdlIGluc3RhbGwgYTE2ei9oYWxtb3MtY2hlYXRjb2RlcwpgYGAKQWx0ZXJuYXRpdmVseSwgeW91IGNhbiBkaXJlY3RseSBhZGQgaXQgYXMgYSBzdWJtb2R1bGU6CmBgYApnaXQgc3VibW9kdWxlIGFkZCBodHRwczovL2dpdGh1Yi5jb20vYTE2ei9oYWxtb3MtY2hlYXRjb2RlcwpgYGAKCiMjIEV4YW1wbGUgdXNhZ2UKCkJlbG93IGlzIGFuIGV4YW1wbGUgb2YgYSBzeW1ib2xpYyB0ZXN0IHRoYXQgY2hlY2tzIGZvciBwb3RlbnRpYWwgdW5hdXRob3JpemVkIGFjY2VzcyB0byBvdGhlcnMnIHRva2Vucy4gVGhlIGFwcHJvYWNoIGludm9sdmVzIHNldHRpbmcgdXAgYW4gaW5pdGlhbCBzeW1ib2xpYyBzdGF0ZSBvZiB0aGUgdG9rZW4gY29udHJhY3QsIGV4ZWN1dGluZyBhbiBhcmJpdHJhcnkgZnVuY3Rpb24gY2FsbCB0byB0aGUgdG9rZW4gY29udHJhY3QsIGFuZCBjaGVja2luZyBpZiB0aGVyZSBpcyBhbiBleGVjdXRpb24gcGF0aCB0aGF0IGluY3JlYXNlcyB0aGUgY2FsbGVyJ3MgYmFsYW5jZSBhbmQvb3IgZGVjcmVhc2VzIHRoZSBiYWxhbmNlIG9mIG90aGVycy4gVGhpcyBleGFtcGxlIGlsbHVzdHJhdGVzIGhvdyB0byB1dGlsaXplIGNoZWF0Y29kZXMgdG8gc2V0IHVwIGluaXRpYWwgc3ltYm9saWMgc3RhdGVzIGFuZCBleGVjdXRlIGFyYml0cmFyeSBmdW5jdGlvbiBjYWxscy4KCmBgYHNvbGlkaXR5Ci8vIGltcG9ydCBIYWxtb3MgY2hlYXRjb2RlcwppbXBvcnQge1N5bVRlc3R9IGZyb20gImhhbG1vcy1jaGVhdGNvZGVzL1N5bVRlc3Quc29sIjsKCmltcG9ydCB7VGVzdH0gZnJvbSAiZm9yZ2Utc3RkL1Rlc3Quc29sIjsKCmltcG9ydCB7VG9rZW59IGZyb20gIi9wYXRoL3RvL1Rva2VuLnNvbCI7Cgpjb250cmFjdCBUb2tlblRlc3QgaXMgU3ltVGVzdCwgVGVzdCB7CiAgICBUb2tlbiB0b2tlbjsKCiAgICBmdW5jdGlvbiBzZXRVcCgpIHB1YmxpYyB7CiAgICAgICAgdG9rZW4gPSBuZXcgVG9rZW4oKTsKCiAgICAgICAgLy8gc2V0IHRoZSBiYWxhbmNlcyBvZiB0aHJlZSBhcmJpdHJhcnkgYWNjb3VudHMgdG8gYXJiaXRyYXJ5IHN5bWJvbGljIHZhbHVlcwogICAgICAgIGZvciAodWludDI1NiBpID0gMDsgaSA8IDM7IGkrKykgewogICAgICAgICAgICBhZGRyZXNzIHJlY2VpdmVyID0gc3ZtLmNyZWF0ZUFkZHJlc3MoJ3JlY2VpdmVyJyk7IC8vIGNyZWF0ZSBhIG5ldyBzeW1ib2xpYyBhZGRyZXNzCiAgICAgICAgICAgIHVpbnQyNTYgYW1vdW50ID0gc3ZtLmNyZWF0ZVVpbnQyNTYoJ2Ftb3VudCcpOyAvLyBjcmVhdGUgYSBuZXcgc3ltYm9saWMgdWludDI1NiB2YWx1ZQogICAgICAgICAgICB0b2tlbi50cmFuc2ZlcihyZWNlaXZlciwgYW1vdW50KTsKICAgICAgICB9CiAgICB9CgogICAgZnVuY3Rpb24gY2hlY2tCYWxhbmNlVXBkYXRlKCkgcHVibGljIHsKICAgICAgICAvLyBjb25zaWRlciB0d28gYXJiaXRyYXJ5IGRpc3RpbmN0IGFjY291bnRzCiAgICAgICAgYWRkcmVzcyBjYWxsZXIgPSBzdm0uY3JlYXRlQWRkcmVzcygnY2FsbGVyJyk7IC8vIGNyZWF0ZSBhIHN5bWJvbGljIGFkZHJlc3MKICAgICAgICBhZGRyZXNzIG90aGVycyA9IHN2bS5jcmVhdGVBZGRyZXNzKCdvdGhlcnMnKTsgLy8gY3JlYXRlIGFub3RoZXIgc3ltYm9saWMgYWRkcmVzcwogICAgICAgIHZtLmFzc3VtZShvdGhlcnMgIT0gY2FsbGVyKTsgLy8gYXNzdW1lIHRoZSB0d28gYWRkcmVzc2VzIGFyZSBkaWZmZXJlbnQKCiAgICAgICAgLy8gcmVjb3JkIHRoZWlyIGN1cnJlbnQgYmFsYW5jZXMKICAgICAgICB1aW50MjU2IG9sZEJhbGFuY2VDYWxsZXIgPSB0b2tlbi5iYWxhbmNlT2YoY2FsbGVyKTsKICAgICAgICB1aW50MjU2IG9sZEJhbGFuY2VPdGhlcnMgPSB0b2tlbi5iYWxhbmNlT2Yob3RoZXJzKTsKCiAgICAgICAgLy8gZXhlY3V0ZSBhbiBhcmJpdHJhcnkgZnVuY3Rpb24gY2FsbCB0byB0aGUgdG9rZW4gZnJvbSB0aGUgY2FsbGVyCiAgICAgICAgdm0ucHJhbmsoY2FsbGVyKTsKICAgICAgICB1aW50MjU2IGRhdGFTaXplID0gMTAwOyAvLyB0aGUgbWF4IGNhbGxkYXRhIHNpemUgZm9yIHRoZSBwdWJsaWMgZnVuY3Rpb25zIGluIHRoZSB0b2tlbgogICAgICAgIGJ5dGVzIG1lbW9yeSBkYXRhID0gc3ZtLmNyZWF0ZUJ5dGVzKGRhdGFTaXplLCAnZGF0YScpOyAvLyBjcmVhdGUgYSBzeW1ib2xpYyBjYWxsZGF0YQogICAgICAgIGFkZHJlc3ModG9rZW4pLmNhbGwoZGF0YSk7CgogICAgICAgIC8vIGVuc3VyZSB0aGF0IHRoZSBjYWxsZXIgY2Fubm90IHNwZW5kIG90aGVycycgdG9rZW5zCiAgICAgICAgYXNzZXJ0KHRva2VuLmJhbGFuY2VPZihjYWxsZXIpIDw9IG9sZEJhbGFuY2VDYWxsZXIpOyAvLyBjYW5ub3QgaW5jcmVhc2UgdGhlaXIgb3duIGJhbGFuY2UKICAgICAgICBhc3NlcnQodG9rZW4uYmFsYW5jZU9mKG90aGVycykgPj0gb2xkQmFsYW5jZU90aGVycyk7IC8vIGNhbm5vdCBkZWNyZWFzZSBvdGhlcnMnIGJhbGFuY2UKICAgIH0KfQpgYGAKCldoZW4gcnVubmluZyB0aGUgYWJvdmUgdGVzdCBhZ2FpbnN0IHRoZSBmb2xsb3dpbmcgYnVnZ3kgdG9rZW4gY29udHJhY3QsIEhhbG1vcyB3aWxsIHByb3ZpZGUgYSBjb3VudGVyZXhhbXBsZSB0aGF0IG1heSBiZSBvdmVybG9va2VkIGR1cmluZyBtYW51YWwgcmV2aWV3cy4KCmBgYHNvbGlkaXR5Ci8vLyBAbm90aWNlIFRoaXMgaXMgYSBidWdneSB0b2tlbiBjb250cmFjdC4gRE8gTk9UIHVzZSBpdCBpbiBwcm9kdWN0aW9uLgpjb250cmFjdCBUb2tlbiB7CiAgICBtYXBwaW5nKGFkZHJlc3MgPT4gdWludCkgcHVibGljIGJhbGFuY2VPZjsKCiAgICBjb25zdHJ1Y3RvcigpIHB1YmxpYyB7CiAgICAgICAgYmFsYW5jZU9mW21zZy5zZW5kZXJdID0gMWUyNzsKICAgIH0KCiAgICBmdW5jdGlvbiB0cmFuc2ZlcihhZGRyZXNzIHRvLCB1aW50IGFtb3VudCkgcHVibGljIHsKICAgICAgICBfdHJhbnNmZXIobXNnLnNlbmRlciwgdG8sIGFtb3VudCk7CiAgICB9CgogICAgZnVuY3Rpb24gX3RyYW5zZmVyKGFkZHJlc3MgZnJvbSwgYWRkcmVzcyB0bywgdWludCBhbW91bnQpIHB1YmxpYyB7CiAgICAgICAgYmFsYW5jZU9mW2Zyb21dIC09IGFtb3VudDsKICAgICAgICBiYWxhbmNlT2ZbdG9dICs9IGFtb3VudDsKICAgIH0KfQpgYGAKCiMjIERpc2NsYWltZXIKCl9UaGVzZSBzbWFydCBjb250cmFjdHMgYW5kIGNvZGUgYXJlIGJlaW5nIHByb3ZpZGVkIGFzIGlzLiBObyBndWFyYW50ZWUsIHJlcHJlc2VudGF0aW9uIG9yIHdhcnJhbnR5IGlzIGJlaW5nIG1hZGUsIGV4cHJlc3Mgb3IgaW1wbGllZCwgYXMgdG8gdGhlIHNhZmV0eSBvciBjb3JyZWN0bmVzcyBvZiB0aGUgdXNlciBpbnRlcmZhY2Ugb3IgdGhlIHNtYXJ0IGNvbnRyYWN0cyBhbmQgY29kZS4gVGhleSBoYXZlIG5vdCBiZWVuIGF1ZGl0ZWQgYW5kIGFzIHN1Y2ggdGhlcmUgY2FuIGJlIG5vIGFzc3VyYW5jZSB0aGV5IHdpbGwgd29yayBhcyBpbnRlbmRlZCwgYW5kIHVzZXJzIG1heSBleHBlcmllbmNlIGRlbGF5cywgZmFpbHVyZXMsIGVycm9ycywgb21pc3Npb25zIG9yIGxvc3Mgb2YgdHJhbnNtaXR0ZWQgaW5mb3JtYXRpb24uIFRIRSBTTUFSVCBDT05UUkFDVFMgQU5EIENPREUgQ09OVEFJTkVEIEhFUkVJTiBBUkUgRlVSTklTSEVEIEFTIElTLCBXSEVSRSBJUywgV0lUSCBBTEwgRkFVTFRTIEFORCBXSVRIT1VUIFdBUlJBTlRZIE9GIEFOWSBLSU5ELCBFWFBSRVNTIE9SIElNUExJRUQsIElOQ0xVRElORyBBTlkgV0FSUkFOVFkgT0YgTUVSQ0hBTlRBQklMSVRZLCBOT04tSU5GUklOR0VNRU5UIE9SIEZJVE5FU1MgRk9SIEFOWSBQQVJUSUNVTEFSIFBVUlBPU0UuIEZ1cnRoZXIsIHVzZSBvZiBhbnkgb2YgdGhlc2Ugc21hcnQgY29udHJhY3RzIGFuZCBjb2RlIG1heSBiZSByZXN0cmljdGVkIG9yIHByb2hpYml0ZWQgdW5kZXIgYXBwbGljYWJsZSBsYXcsIGluY2x1ZGluZyBzZWN1cml0aWVzIGxhd3MsIGFuZCBpdCBpcyB0aGVyZWZvcmUgc3Ryb25nbHkgYWR2aXNlZCBmb3IgeW91IHRvIGNvbnRhY3QgYSByZXB1dGFibGUgYXR0b3JuZXkgaW4gYW55IGp1cmlzZGljdGlvbiB3aGVyZSB0aGVzZSBzbWFydCBjb250cmFjdHMgYW5kIGNvZGUgbWF5IGJlIGFjY2Vzc2libGUgZm9yIGFueSBxdWVzdGlvbnMgb3IgY29uY2VybnMgd2l0aCByZXNwZWN0IHRoZXJldG8uIEZ1cnRoZXIsIG5vIGluZm9ybWF0aW9uIHByb3ZpZGVkIGluIHRoaXMgcmVwbyBzaG91bGQgYmUgY29uc3RydWVkIGFzIGludmVzdG1lbnQgYWR2aWNlIG9yIGxlZ2FsIGFkdmljZSBmb3IgYW55IHBhcnRpY3VsYXIgZmFjdHMgb3IgY2lyY3Vtc3RhbmNlcywgYW5kIGlzIG5vdCBtZWFudCB0byByZXBsYWNlIGNvbXBldGVudCBjb3Vuc2VsLiBhMTZ6IGlzIG5vdCBsaWFibGUgZm9yIGFueSB1c2Ugb2YgdGhlIGZvcmVnb2luZywgYW5kIHVzZXJzIHNob3VsZCBwcm9jZWVkIHdpdGggY2F1dGlvbiBhbmQgdXNlIGF0IHRoZWlyIG93biByaXNrLiBTZWUgYTE2ei5jb20vZGlzY2xvc3VyZXMgZm9yIG1vcmUgaW5mby5fCg==
+# Halmos Cheat Codes
+
+Halmos cheatcodes are abstract functions designed to facilitate writing symbolic tests, such as the creation of new symbolic values at runtime. While these cheatcodes are currently exclusive to [Halmos][halmos], they are not limited to it and could potentially be supported by other symbolic testing tools in the future.
+
+Please refer to [the list of currently available cheatcodes][list]. More cheatcodes will be added in the future.
+
+Join the [Halmos Telegram Group][chat] for any inquiries or further discussions.
+
+[halmos]: <https://github.com/a16z/halmos>
+[list]: <src/SVM.sol>
+[chat]: <https://t.me/+4UhzHduai3MzZmUx>
+
+## Installation
+
+To install using Foundry:
+```
+forge install a16z/halmos-cheatcodes
+```
+Alternatively, you can directly add it as a submodule:
+```
+git submodule add https://github.com/a16z/halmos-cheatcodes
+```
+
+## Example usage
+
+Below is an example of a symbolic test that checks for potential unauthorized access to others' tokens. The approach involves setting up an initial symbolic state of the token contract, executing an arbitrary function call to the token contract, and checking if there is an execution path that increases the caller's balance and/or decreases the balance of others. This example illustrates how to utilize cheatcodes to set up initial symbolic states and execute arbitrary function calls.
+
+```solidity
+// import Halmos cheatcodes
+import {SymTest} from "halmos-cheatcodes/SymTest.sol";
+
+import {Test} from "forge-std/Test.sol";
+
+import {Token} from "/path/to/Token.sol";
+
+contract TokenTest is SymTest, Test {
+    Token token;
+
+    function setUp() public {
+        token = new Token();
+
+        // set the balances of three arbitrary accounts to arbitrary symbolic values
+        for (uint256 i = 0; i < 3; i++) {
+            address receiver = svm.createAddress('receiver'); // create a new symbolic address
+            uint256 amount = svm.createUint256('amount'); // create a new symbolic uint256 value
+            token.transfer(receiver, amount);
+        }
+    }
+
+    function checkBalanceUpdate() public {
+        // consider two arbitrary distinct accounts
+        address caller = svm.createAddress('caller'); // create a symbolic address
+        address others = svm.createAddress('others'); // create another symbolic address
+        vm.assume(others != caller); // assume the two addresses are different
+
+        // record their current balances
+        uint256 oldBalanceCaller = token.balanceOf(caller);
+        uint256 oldBalanceOthers = token.balanceOf(others);
+
+        // execute an arbitrary function call to the token from the caller
+        vm.prank(caller);
+        uint256 dataSize = 100; // the max calldata size for the public functions in the token
+        bytes memory data = svm.createBytes(dataSize, 'data'); // create a symbolic calldata
+        address(token).call(data);
+
+        // ensure that the caller cannot spend others' tokens
+        assert(token.balanceOf(caller) <= oldBalanceCaller); // cannot increase their own balance
+        assert(token.balanceOf(others) >= oldBalanceOthers); // cannot decrease others' balance
+    }
+}
+```
+
+When running the above test against the following buggy token contract, Halmos will provide a counterexample that may be overlooked during manual reviews.
+
+```solidity
+/// @notice This is a buggy token contract. DO NOT use it in production.
+contract Token {
+    mapping(address => uint) public balanceOf;
+
+    constructor() public {
+        balanceOf[msg.sender] = 1e27;
+    }
+
+    function transfer(address to, uint amount) public {
+        _transfer(msg.sender, to, amount);
+    }
+
+    function _transfer(address from, address to, uint amount) public {
+        balanceOf[from] -= amount;
+        balanceOf[to] += amount;
+    }
+}
+```
+
+## Disclaimer
+
+_These smart contracts and code are being provided as is. No guarantee, representation or warranty is being made, express or implied, as to the safety or correctness of the user interface or the smart contracts and code. They have not been audited and as such there can be no assurance they will work as intended, and users may experience delays, failures, errors, omissions or loss of transmitted information. THE SMART CONTRACTS AND CODE CONTAINED HEREIN ARE FURNISHED AS IS, WHERE IS, WITH ALL FAULTS AND WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING ANY WARRANTY OF MERCHANTABILITY, NON-INFRINGEMENT OR FITNESS FOR ANY PARTICULAR PURPOSE. Further, use of any of these smart contracts and code may be restricted or prohibited under applicable law, including securities laws, and it is therefore strongly advised for you to contact a reputable attorney in any jurisdiction where these smart contracts and code may be accessible for any questions or concerns with respect thereto. Further, no information provided in this repo should be construed as investment advice or legal advice for any particular facts or circumstances, and is not meant to replace competent counsel. a16z is not liable for any use of the foregoing, and users should proceed with caution and use at their own risk. See a16z.com/disclosures for more info._
