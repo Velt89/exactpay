@@ -1,1 +1,20 @@
-IyEvdXNyL2Jpbi9lbnYgYmFzaAoKc2V0IC1ldW8gcGlwZWZhaWwKCkNIRUNLU1VNUz0iJFJVTk5FUl9URU1QL2NoZWNrc3Vtcy50eHQiCgojIEV4dHJhY3QgdGFyYmFsbCBjb250ZW50IGludG8gYSB0bXAgZGlyZWN0b3J5CnRhciB4ZiAiJFRBUkJBTEwiIC1DICIkUlVOTkVSX1RFTVAiCgojIE1vdmUgdG8gZXh0cmFjdGVkIGRpcmVjdG9yeQpjZCAiJFJVTk5FUl9URU1QL3BhY2thZ2UiCgojIENoZWNrc3VtIGFsbCBTb2xpZGl0eSBmaWxlcwpmaW5kIC4gLXR5cGUgZiAtbmFtZSAiKi5zb2wiIHwgeGFyZ3Mgc2hhc3VtID4gIiRDSEVDS1NVTVMiCgojIEJhY2sgdG8gZGlyZWN0b3J5IHdpdGggZ2l0IGNvbnRlbnRzCmNkICIkR0lUSFVCX1dPUktTUEFDRS9jb250cmFjdHMiCgojIENoZWNrIGFnYWluc3QgdGFyYmFsbCBjb250ZW50cwpzaGFzdW0gLWMgIiRDSEVDS1NVTVMiCg==
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+CHECKSUMS="$RUNNER_TEMP/checksums.txt"
+
+# Extract tarball content into a tmp directory
+tar xf "$TARBALL" -C "$RUNNER_TEMP"
+
+# Move to extracted directory
+cd "$RUNNER_TEMP/package"
+
+# Checksum all Solidity files
+find . -type f -name "*.sol" | xargs shasum > "$CHECKSUMS"
+
+# Back to directory with git contents
+cd "$GITHUB_WORKSPACE/contracts"
+
+# Check against tarball contents
+shasum -c "$CHECKSUMS"
