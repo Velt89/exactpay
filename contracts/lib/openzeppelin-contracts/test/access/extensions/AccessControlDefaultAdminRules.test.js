@@ -1,1 +1,32 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKY29uc3QgdGltZSA9IHJlcXVpcmUoJy4uLy4uL2hlbHBlcnMvdGltZScpOwoKY29uc3QgewogIHNob3VsZEJlaGF2ZUxpa2VBY2Nlc3NDb250cm9sLAogIHNob3VsZEJlaGF2ZUxpa2VBY2Nlc3NDb250cm9sRGVmYXVsdEFkbWluUnVsZXMsCn0gPSByZXF1aXJlKCcuLi9BY2Nlc3NDb250cm9sLmJlaGF2aW9yJyk7Cgphc3luYyBmdW5jdGlvbiBmaXh0dXJlKCkgewogIGNvbnN0IGRlbGF5ID0gdGltZS5kdXJhdGlvbi5ob3VycygxMCk7CiAgY29uc3QgW2RlZmF1bHRBZG1pbiwgLi4uYWNjb3VudHNdID0gYXdhaXQgZXRoZXJzLmdldFNpZ25lcnMoKTsKICBjb25zdCBtb2NrID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCckQWNjZXNzQ29udHJvbERlZmF1bHRBZG1pblJ1bGVzJywgW2RlbGF5LCBkZWZhdWx0QWRtaW5dKTsKICByZXR1cm4geyBtb2NrLCBkZWZhdWx0QWRtaW4sIGRlbGF5LCBhY2NvdW50cyB9Owp9CgpkZXNjcmliZSgnQWNjZXNzQ29udHJvbERlZmF1bHRBZG1pblJ1bGVzJywgZnVuY3Rpb24gKCkgewogIGJlZm9yZUVhY2goYXN5bmMgZnVuY3Rpb24gKCkgewogICAgT2JqZWN0LmFzc2lnbih0aGlzLCBhd2FpdCBsb2FkRml4dHVyZShmaXh0dXJlKSk7CiAgfSk7CgogIGl0KCdpbml0aWFsIGFkbWluIG5vdCB6ZXJvJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgYXdhaXQgZXhwZWN0KGV0aGVycy5kZXBsb3lDb250cmFjdCgnJEFjY2Vzc0NvbnRyb2xEZWZhdWx0QWRtaW5SdWxlcycsIFt0aGlzLmRlbGF5LCBldGhlcnMuWmVyb0FkZHJlc3NdKSkKICAgICAgLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMubW9jaywgJ0FjY2Vzc0NvbnRyb2xJbnZhbGlkRGVmYXVsdEFkbWluJykKICAgICAgLndpdGhBcmdzKGV0aGVycy5aZXJvQWRkcmVzcyk7CiAgfSk7CgogIHNob3VsZEJlaGF2ZUxpa2VBY2Nlc3NDb250cm9sKCk7CiAgc2hvdWxkQmVoYXZlTGlrZUFjY2Vzc0NvbnRyb2xEZWZhdWx0QWRtaW5SdWxlcygpOwp9KTsK
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+const time = require('../../helpers/time');
+
+const {
+  shouldBehaveLikeAccessControl,
+  shouldBehaveLikeAccessControlDefaultAdminRules,
+} = require('../AccessControl.behavior');
+
+async function fixture() {
+  const delay = time.duration.hours(10);
+  const [defaultAdmin, ...accounts] = await ethers.getSigners();
+  const mock = await ethers.deployContract('$AccessControlDefaultAdminRules', [delay, defaultAdmin]);
+  return { mock, defaultAdmin, delay, accounts };
+}
+
+describe('AccessControlDefaultAdminRules', function () {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  it('initial admin not zero', async function () {
+    await expect(ethers.deployContract('$AccessControlDefaultAdminRules', [this.delay, ethers.ZeroAddress]))
+      .to.be.revertedWithCustomError(this.mock, 'AccessControlInvalidDefaultAdmin')
+      .withArgs(ethers.ZeroAddress);
+  });
+
+  shouldBehaveLikeAccessControl();
+  shouldBehaveLikeAccessControlDefaultAdminRules();
+});
