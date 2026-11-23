@@ -1,1 +1,119 @@
-Y29uc3QgZm9ybWF0ID0gcmVxdWlyZSgnLi4vZm9ybWF0LWxpbmVzJyk7CmNvbnN0IHNhbml0aXplID0gcmVxdWlyZSgnLi4vaGVscGVycy9zYW5pdGl6ZScpOwpjb25zdCB7IFRZUEVTIH0gPSByZXF1aXJlKCcuL1Nsb3Qub3B0cycpOwoKY29uc3QgaGVhZGVyID0gYFwKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgovKioKICogQGRldiBMaWJyYXJ5IGZvciBjb21wdXRpbmcgc3RvcmFnZSAoYW5kIHRyYW5zaWVudCBzdG9yYWdlKSBsb2NhdGlvbnMgZnJvbSBuYW1lc3BhY2VzIGFuZCBkZXJpdmluZyBzbG90cwogKiBjb3JyZXNwb25kaW5nIHRvIHN0YW5kYXJkIHBhdHRlcm5zLiBUaGUgZGVyaXZhdGlvbiBtZXRob2QgZm9yIGFycmF5IGFuZCBtYXBwaW5nIG1hdGNoZXMgdGhlIHN0b3JhZ2UgbGF5b3V0IHVzZWQgYnkKICogdGhlIHNvbGlkaXR5IGxhbmd1YWdlIC8gY29tcGlsZXIuCiAqCiAqIFNlZSBodHRwczovL2RvY3Muc29saWRpdHlsYW5nLm9yZy9lbi92MC44LjIwL2ludGVybmFscy9sYXlvdXRfaW5fc3RvcmFnZS5odG1sI21hcHBpbmdzLWFuZC1keW5hbWljLWFycmF5c1tTb2xpZGl0eSBkb2NzIGZvciBtYXBwaW5ncyBhbmQgZHluYW1pYyBhcnJheXMuXS4KICoKICogRXhhbXBsZSB1c2FnZToKICogXGBcYFxgc29saWRpdHkKICogY29udHJhY3QgRXhhbXBsZSB7CiAqICAgICAvLyBBZGQgdGhlIGxpYnJhcnkgbWV0aG9kcwogKiAgICAgdXNpbmcgU3RvcmFnZVNsb3QgZm9yIGJ5dGVzMzI7CiAqICAgICB1c2luZyBTbG90RGVyaXZhdGlvbiBmb3IgYnl0ZXMzMjsKICoKICogICAgIC8vIERlY2xhcmUgYSBuYW1lc3BhY2UKICogICAgIHN0cmluZyBwcml2YXRlIGNvbnN0YW50IF9OQU1FU1BBQ0UgPSAiPG5hbWVzcGFjZT4iIC8vIGVnLiBPcGVuWmVwcGVsaW4uU2xvdAogKgogKiAgICAgZnVuY3Rpb24gc2V0VmFsdWVJbk5hbWVzcGFjZSh1aW50MjU2IGtleSwgYWRkcmVzcyBuZXdWYWx1ZSkgaW50ZXJuYWwgewogKiAgICAgICAgIF9OQU1FU1BBQ0UuZXJjNzIwMVNsb3QoKS5kZXJpdmVNYXBwaW5nKGtleSkuZ2V0QWRkcmVzc1Nsb3QoKS52YWx1ZSA9IG5ld1ZhbHVlOwogKiAgICAgfQogKgogKiAgICAgZnVuY3Rpb24gZ2V0VmFsdWVJbk5hbWVzcGFjZSh1aW50MjU2IGtleSkgaW50ZXJuYWwgdmlldyByZXR1cm5zIChhZGRyZXNzKSB7CiAqICAgICAgICAgcmV0dXJuIF9OQU1FU1BBQ0UuZXJjNzIwMVNsb3QoKS5kZXJpdmVNYXBwaW5nKGtleSkuZ2V0QWRkcmVzc1Nsb3QoKS52YWx1ZTsKICogICAgIH0KICogfQogKiBcYFxgXGAKICoKICogVElQOiBDb25zaWRlciB1c2luZyB0aGlzIGxpYnJhcnkgYWxvbmcgd2l0aCB7U3RvcmFnZVNsb3R9LgogKgogKiBOT1RFOiBUaGlzIGxpYnJhcnkgcHJvdmlkZXMgYSB3YXkgdG8gbWFuaXB1bGF0ZSBzdG9yYWdlIGxvY2F0aW9ucyBpbiBhIG5vbi1zdGFuZGFyZCB3YXkuIFRvb2xpbmcgZm9yIGNoZWNraW5nCiAqIHVwZ3JhZGUgc2FmZXR5IHdpbGwgaWdub3JlIHRoZSBzbG90cyBhY2Nlc3NlZCB0aHJvdWdoIHRoaXMgbGlicmFyeS4KICoKICogX0F2YWlsYWJsZSBzaW5jZSB2NS4xLl8KICovCmA7Cgpjb25zdCBuYW1lc3BhY2UgPSBgXAovKioKICogQGRldiBEZXJpdmUgYW4gRVJDLTcyMDEgc2xvdCBmcm9tIGEgc3RyaW5nIChuYW1lc3BhY2UpLgogKi8KZnVuY3Rpb24gZXJjNzIwMVNsb3Qoc3RyaW5nIG1lbW9yeSBuYW1lc3BhY2UpIGludGVybmFsIHB1cmUgcmV0dXJucyAoYnl0ZXMzMiBzbG90KSB7CiAgICBhc3NlbWJseSAoIm1lbW9yeS1zYWZlIikgewogICAgICAgIG1zdG9yZSgweDAwLCBzdWIoa2VjY2FrMjU2KGFkZChuYW1lc3BhY2UsIDB4MjApLCBtbG9hZChuYW1lc3BhY2UpKSwgMSkpCiAgICAgICAgc2xvdCA6PSBhbmQoa2VjY2FrMjU2KDB4MDAsIDB4MjApLCBub3QoMHhmZikpCiAgICB9Cn0KYDsKCmNvbnN0IGFycmF5ID0gYFwKLyoqCiAqIEBkZXYgQWRkIGFuIG9mZnNldCB0byBhIHNsb3QgdG8gZ2V0IHRoZSBuLXRoIGVsZW1lbnQgb2YgYSBzdHJ1Y3R1cmUgb3IgYW4gYXJyYXkuCiAqLwpmdW5jdGlvbiBvZmZzZXQoYnl0ZXMzMiBzbG90LCB1aW50MjU2IHBvcykgaW50ZXJuYWwgcHVyZSByZXR1cm5zIChieXRlczMyIHJlc3VsdCkgewogICAgdW5jaGVja2VkIHsKICAgICAgICByZXR1cm4gYnl0ZXMzMih1aW50MjU2KHNsb3QpICsgcG9zKTsKICAgIH0KfQoKLyoqCiAqIEBkZXYgRGVyaXZlIHRoZSBsb2NhdGlvbiBvZiB0aGUgZmlyc3QgZWxlbWVudCBpbiBhbiBhcnJheSBmcm9tIHRoZSBzbG90IHdoZXJlIHRoZSBsZW5ndGggaXMgc3RvcmVkLgogKi8KZnVuY3Rpb24gZGVyaXZlQXJyYXkoYnl0ZXMzMiBzbG90KSBpbnRlcm5hbCBwdXJlIHJldHVybnMgKGJ5dGVzMzIgcmVzdWx0KSB7CiAgICBhc3NlbWJseSAoIm1lbW9yeS1zYWZlIikgewogICAgICAgIG1zdG9yZSgweDAwLCBzbG90KQogICAgICAgIHJlc3VsdCA6PSBrZWNjYWsyNTYoMHgwMCwgMHgyMCkKICAgIH0KfQpgOwoKY29uc3QgbWFwcGluZyA9ICh7IHR5cGUgfSkgPT4gYFwKLyoqCiAqIEBkZXYgRGVyaXZlIHRoZSBsb2NhdGlvbiBvZiBhIG1hcHBpbmcgZWxlbWVudCBmcm9tIHRoZSBrZXkuCiAqLwpmdW5jdGlvbiBkZXJpdmVNYXBwaW5nKGJ5dGVzMzIgc2xvdCwgJHt0eXBlfSBrZXkpIGludGVybmFsIHB1cmUgcmV0dXJucyAoYnl0ZXMzMiByZXN1bHQpIHsKICAgIGFzc2VtYmx5ICgibWVtb3J5LXNhZmUiKSB7CiAgICAgICAgbXN0b3JlKDB4MDAsICR7KHNhbml0aXplW3R5cGVdID8/ICh4ID0+IHgpKSgna2V5Jyl9KQogICAgICAgIG1zdG9yZSgweDIwLCBzbG90KQogICAgICAgIHJlc3VsdCA6PSBrZWNjYWsyNTYoMHgwMCwgMHg0MCkKICAgIH0KfQpgOwoKY29uc3QgbWFwcGluZzIgPSAoeyB0eXBlIH0pID0+IGBcCi8qKgogKiBAZGV2IERlcml2ZSB0aGUgbG9jYXRpb24gb2YgYSBtYXBwaW5nIGVsZW1lbnQgZnJvbSB0aGUga2V5LgogKi8KZnVuY3Rpb24gZGVyaXZlTWFwcGluZyhieXRlczMyIHNsb3QsICR7dHlwZX0gbWVtb3J5IGtleSkgaW50ZXJuYWwgcHVyZSByZXR1cm5zIChieXRlczMyIHJlc3VsdCkgewogICAgYXNzZW1ibHkgKCJtZW1vcnktc2FmZSIpIHsKICAgICAgICBsZXQgbGVuZ3RoIDo9IG1sb2FkKGtleSkKICAgICAgICBsZXQgYmVnaW4gOj0gYWRkKGtleSwgMHgyMCkKICAgICAgICBsZXQgZW5kIDo9IGFkZChiZWdpbiwgbGVuZ3RoKQogICAgICAgIGxldCBjYWNoZSA6PSBtbG9hZChlbmQpCiAgICAgICAgbXN0b3JlKGVuZCwgc2xvdCkKICAgICAgICByZXN1bHQgOj0ga2VjY2FrMjU2KGJlZ2luLCBhZGQobGVuZ3RoLCAweDIwKSkKICAgICAgICBtc3RvcmUoZW5kLCBjYWNoZSkKICAgIH0KfQpgOwoKLy8gR0VORVJBVEUKbW9kdWxlLmV4cG9ydHMgPSBmb3JtYXQoCiAgaGVhZGVyLnRyaW1FbmQoKSwKICAnbGlicmFyeSBTbG90RGVyaXZhdGlvbiB7JywKICBmb3JtYXQoCiAgICBbXS5jb25jYXQoCiAgICAgIG5hbWVzcGFjZSwKICAgICAgYXJyYXksCiAgICAgIFRZUEVTLm1hcCh0eXBlID0+ICh0eXBlLmlzVmFsdWVUeXBlID8gbWFwcGluZyh0eXBlKSA6IG1hcHBpbmcyKHR5cGUpKSksCiAgICApLAogICkudHJpbUVuZCgpLAogICd9JywKKTsK
+const format = require('../format-lines');
+const sanitize = require('../helpers/sanitize');
+const { TYPES } = require('./Slot.opts');
+
+const header = `\
+pragma solidity ^0.8.20;
+
+/**
+ * @dev Library for computing storage (and transient storage) locations from namespaces and deriving slots
+ * corresponding to standard patterns. The derivation method for array and mapping matches the storage layout used by
+ * the solidity language / compiler.
+ *
+ * See https://docs.soliditylang.org/en/v0.8.20/internals/layout_in_storage.html#mappings-and-dynamic-arrays[Solidity docs for mappings and dynamic arrays.].
+ *
+ * Example usage:
+ * \`\`\`solidity
+ * contract Example {
+ *     // Add the library methods
+ *     using StorageSlot for bytes32;
+ *     using SlotDerivation for bytes32;
+ *
+ *     // Declare a namespace
+ *     string private constant _NAMESPACE = "<namespace>" // eg. OpenZeppelin.Slot
+ *
+ *     function setValueInNamespace(uint256 key, address newValue) internal {
+ *         _NAMESPACE.erc7201Slot().deriveMapping(key).getAddressSlot().value = newValue;
+ *     }
+ *
+ *     function getValueInNamespace(uint256 key) internal view returns (address) {
+ *         return _NAMESPACE.erc7201Slot().deriveMapping(key).getAddressSlot().value;
+ *     }
+ * }
+ * \`\`\`
+ *
+ * TIP: Consider using this library along with {StorageSlot}.
+ *
+ * NOTE: This library provides a way to manipulate storage locations in a non-standard way. Tooling for checking
+ * upgrade safety will ignore the slots accessed through this library.
+ *
+ * _Available since v5.1._
+ */
+`;
+
+const namespace = `\
+/**
+ * @dev Derive an ERC-7201 slot from a string (namespace).
+ */
+function erc7201Slot(string memory namespace) internal pure returns (bytes32 slot) {
+    assembly ("memory-safe") {
+        mstore(0x00, sub(keccak256(add(namespace, 0x20), mload(namespace)), 1))
+        slot := and(keccak256(0x00, 0x20), not(0xff))
+    }
+}
+`;
+
+const array = `\
+/**
+ * @dev Add an offset to a slot to get the n-th element of a structure or an array.
+ */
+function offset(bytes32 slot, uint256 pos) internal pure returns (bytes32 result) {
+    unchecked {
+        return bytes32(uint256(slot) + pos);
+    }
+}
+
+/**
+ * @dev Derive the location of the first element in an array from the slot where the length is stored.
+ */
+function deriveArray(bytes32 slot) internal pure returns (bytes32 result) {
+    assembly ("memory-safe") {
+        mstore(0x00, slot)
+        result := keccak256(0x00, 0x20)
+    }
+}
+`;
+
+const mapping = ({ type }) => `\
+/**
+ * @dev Derive the location of a mapping element from the key.
+ */
+function deriveMapping(bytes32 slot, ${type} key) internal pure returns (bytes32 result) {
+    assembly ("memory-safe") {
+        mstore(0x00, ${(sanitize[type] ?? (x => x))('key')})
+        mstore(0x20, slot)
+        result := keccak256(0x00, 0x40)
+    }
+}
+`;
+
+const mapping2 = ({ type }) => `\
+/**
+ * @dev Derive the location of a mapping element from the key.
+ */
+function deriveMapping(bytes32 slot, ${type} memory key) internal pure returns (bytes32 result) {
+    assembly ("memory-safe") {
+        let length := mload(key)
+        let begin := add(key, 0x20)
+        let end := add(begin, length)
+        let cache := mload(end)
+        mstore(end, slot)
+        result := keccak256(begin, add(length, 0x20))
+        mstore(end, cache)
+    }
+}
+`;
+
+// GENERATE
+module.exports = format(
+  header.trimEnd(),
+  'library SlotDerivation {',
+  format(
+    [].concat(
+      namespace,
+      array,
+      TYPES.map(type => (type.isValueType ? mapping(type) : mapping2(type))),
+    ),
+  ).trimEnd(),
+  '}',
+);
