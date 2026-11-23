@@ -1,1 +1,144 @@
-PSBVdGlsaXRpZXMKClsucmVhZG1lLW5vdGljZV0KTk9URTogVGhpcyBkb2N1bWVudCBpcyBiZXR0ZXIgdmlld2VkIGF0IGh0dHBzOi8vZG9jcy5vcGVuemVwcGVsaW4uY29tL2NvbnRyYWN0cy9hcGkvdXRpbHMKCk1pc2NlbGxhbmVvdXMgY29udHJhY3RzIGFuZCBsaWJyYXJpZXMgY29udGFpbmluZyB1dGlsaXR5IGZ1bmN0aW9ucyB5b3UgY2FuIHVzZSB0byBpbXByb3ZlIHNlY3VyaXR5LCB3b3JrIHdpdGggbmV3IGRhdGEgdHlwZXMsIG9yIHNhZmVseSB1c2UgbG93LWxldmVsIHByaW1pdGl2ZXMuCgogKiB7TWF0aH0sIHtTaWduZWRNYXRofTogSW1wbGVtZW50YXRpb24gb2YgdmFyaW91cyBhcml0aG1ldGljIGZ1bmN0aW9ucy4KICoge1NhZmVDYXN0fTogQ2hlY2tlZCBkb3duY2FzdGluZyBmdW5jdGlvbnMgdG8gYXZvaWQgc2lsZW50IHRydW5jYXRpb24uCiAqIHtFQ0RTQX0sIHtNZXNzYWdlSGFzaFV0aWxzfTogTGlicmFyaWVzIGZvciBpbnRlcmFjdGluZyB3aXRoIEVDRFNBIHNpZ25hdHVyZXMuCiAqIHtQMjU2fTogTGlicmFyeSBmb3IgdmVyaWZ5aW5nIGFuZCByZWNvdmVyaW5nIHB1YmxpYyBrZXlzIGZyb20gc2VjcDI1NnIxIHNpZ25hdHVyZXMuCiAqIHtSU0F9OiBMaWJyYXJ5IHdpdGggUlNBIFBLQ1MjMSB2MS41IHNpZ25hdHVyZSB2ZXJpZmljYXRpb24gdXRpbGl0aWVzLgogKiB7U2lnbmF0dXJlQ2hlY2tlcn06IEEgbGlicmFyeSBoZWxwZXIgdG8gc3VwcG9ydCByZWd1bGFyIEVDRFNBIGZyb20gRU9BcyBhcyB3ZWxsIGFzIEVSQy0xMjcxIHNpZ25hdHVyZXMgZm9yIHNtYXJ0IGNvbnRyYWN0cy4KICoge0hhc2hlc306IENvbW1vbmx5IHVzZWQgaGFzaCBmdW5jdGlvbnMuCiAqIHtNZXJrbGVQcm9vZn06IEZ1bmN0aW9ucyBmb3IgdmVyaWZ5aW5nIGh0dHBzOi8vZW4ud2lraXBlZGlhLm9yZy93aWtpL01lcmtsZV90cmVlW01lcmtsZSBUcmVlXSBwcm9vZnMuCiAqIHtFSVA3MTJ9OiBDb250cmFjdCB3aXRoIGZ1bmN0aW9ucyB0byBhbGxvdyBwcm9jZXNzaW5nIHNpZ25lZCB0eXBlZCBzdHJ1Y3R1cmUgZGF0YSBhY2NvcmRpbmcgdG8gaHR0cHM6Ly9laXBzLmV0aGVyZXVtLm9yZy9FSVBTL2VpcC03MTJbRUlQLTcxMl0uCiAqIHtSZWVudHJhbmN5R3VhcmR9OiBBIG1vZGlmaWVyIHRoYXQgY2FuIHByZXZlbnQgcmVlbnRyYW5jeSBkdXJpbmcgY2VydGFpbiBmdW5jdGlvbnMuCiAqIHtSZWVudHJhbmN5R3VhcmRUcmFuc2llbnR9OiBWYXJpYW50IG9mIHtSZWVudHJhbmN5R3VhcmR9IHRoYXQgdXNlcyB0cmFuc2llbnQgc3RvcmFnZSAoaHR0cHM6Ly9laXBzLmV0aGVyZXVtLm9yZy9FSVBTL2VpcC0xMTUzW0VJUC0xMTUzXSkuCiAqIHtQYXVzYWJsZX06IEEgY29tbW9uIGVtZXJnZW5jeSByZXNwb25zZSBtZWNoYW5pc20gdGhhdCBjYW4gcGF1c2UgZnVuY3Rpb25hbGl0eSB3aGlsZSBhIHJlbWVkaWF0aW9uIGlzIHBlbmRpbmcuCiAqIHtOb25jZXN9OiBVdGlsaXR5IGZvciB0cmFja2luZyBhbmQgdmVyaWZ5aW5nIGFkZHJlc3Mgbm9uY2VzIHRoYXQgb25seSBpbmNyZW1lbnQuCiAqIHtFUkMxNjV9LCB7RVJDMTY1Q2hlY2tlcn06IFV0aWxpdGllcyBmb3IgaW5zcGVjdGluZyBpbnRlcmZhY2VzIHN1cHBvcnRlZCBieSBjb250cmFjdHMuCiAqIHtCaXRNYXBzfTogQSBzaW1wbGUgbGlicmFyeSB0byBtYW5hZ2UgYm9vbGVhbiB2YWx1ZSBtYXBwZWQgdG8gYSBudW1lcmljYWwgaW5kZXggaW4gYW4gZWZmaWNpZW50IHdheS4KICoge0VudW1lcmFibGVNYXB9OiBBIHR5cGUgbGlrZSBTb2xpZGl0eSdzIGh0dHBzOi8vc29saWRpdHkucmVhZHRoZWRvY3MuaW8vZW4vbGF0ZXN0L3R5cGVzLmh0bWwjbWFwcGluZy10eXBlc1tgbWFwcGluZ2BdLCBidXQgd2l0aCBrZXktdmFsdWUgX2VudW1lcmF0aW9uXzogdGhpcyB3aWxsIGxldCB5b3Uga25vdyBob3cgbWFueSBlbnRyaWVzIGEgbWFwcGluZyBoYXMsIGFuZCBpdGVyYXRlIG92ZXIgdGhlbSAod2hpY2ggaXMgbm90IHBvc3NpYmxlIHdpdGggYG1hcHBpbmdgKS4KICoge0VudW1lcmFibGVTZXR9OiBMaWtlIHtFbnVtZXJhYmxlTWFwfSwgYnV0IGZvciBodHRwczovL2VuLndpa2lwZWRpYS5vcmcvd2lraS9TZXRfKGFic3RyYWN0X2RhdGFfdHlwZSlbc2V0c10uIENhbiBiZSB1c2VkIHRvIHN0b3JlIHByaXZpbGVnZWQgYWNjb3VudHMsIGlzc3VlZCBJRHMsIGV0Yy4KICoge0RvdWJsZUVuZGVkUXVldWV9OiBBbiBpbXBsZW1lbnRhdGlvbiBvZiBhIGh0dHBzOi8vZW4ud2lraXBlZGlhLm9yZy93aWtpL0RvdWJsZS1lbmRlZF9xdWV1ZVtkb3VibGUgZW5kZWQgcXVldWVdIHdob3NlIHZhbHVlcyBjYW4gYmUgcmVtb3ZlZCBhZGRlZCBvciByZW1vdmUgZnJvbSBib3RoIHNpZGVzLiBVc2VmdWwgZm9yIEZJRk8gYW5kIExJRk8gc3RydWN0dXJlcy4KICoge0NpcmN1bGFyQnVmZmVyfTogQSBkYXRhIHN0cnVjdHVyZSB0byBzdG9yZSB0aGUgbGFzdCBOIHZhbHVlcyBwdXNoZWQgdG8gaXQuCiAqIHtDaGVja3BvaW50c306IEEgZGF0YSBzdHJ1Y3R1cmUgdG8gc3RvcmUgdmFsdWVzIG1hcHBlZCB0byBhIHN0cmljdGx5IGluY3JlYXNpbmcga2V5LiBDYW4gYmUgdXNlZCBmb3Igc3RvcmluZyBhbmQgYWNjZXNzaW5nIHZhbHVlcyBvdmVyIHRpbWUuCiAqIHtIZWFwfTogQSBsaWJyYXJ5IHRoYXQgaW1wbGVtZW50cyBhIGh0dHBzOi8vZW4ud2lraXBlZGlhLm9yZy93aWtpL0JpbmFyeV9oZWFwW2JpbmFyeSBoZWFwXSBpbiBzdG9yYWdlLgogKiB7TWVya2xlVHJlZX06IEEgbGlicmFyeSB3aXRoIGh0dHBzOi8vd2lraXBlZGlhLm9yZy93aWtpL01lcmtsZV9UcmVlW01lcmtsZSBUcmVlXSBkYXRhIHN0cnVjdHVyZXMgYW5kIGhlbHBlciBmdW5jdGlvbnMuCiAqIHtDcmVhdGUyfTogV3JhcHBlciBhcm91bmQgdGhlIGh0dHBzOi8vYmxvZy5vcGVuemVwcGVsaW4uY29tL2dldHRpbmctdGhlLW1vc3Qtb3V0LW9mLWNyZWF0ZTIvW2BDUkVBVEUyYCBFVk0gb3Bjb2RlXSBmb3Igc2FmZSB1c2Ugd2l0aG91dCBoYXZpbmcgdG8gZGVhbCB3aXRoIGxvdy1sZXZlbCBhc3NlbWJseS4KICoge0FkZHJlc3N9OiBDb2xsZWN0aW9uIG9mIGZ1bmN0aW9ucyBmb3Igb3ZlcmxvYWRpbmcgU29saWRpdHkncyBodHRwczovL2RvY3Muc29saWRpdHlsYW5nLm9yZy9lbi9sYXRlc3QvdHlwZXMuaHRtbCNhZGRyZXNzW2BhZGRyZXNzYF0gdHlwZS4KICoge0FycmF5c306IENvbGxlY3Rpb24gb2YgZnVuY3Rpb25zIHRoYXQgb3BlcmF0ZSBvbiBodHRwczovL2RvY3Muc29saWRpdHlsYW5nLm9yZy9lbi9sYXRlc3QvdHlwZXMuaHRtbCNhcnJheXNbYGFycmF5c2BdLgogKiB7QmFzZTY0fTogT24tY2hhaW4gYmFzZTY0IGFuZCBiYXNlNjRVUkwgZW5jb2RpbmcgYWNjb3JkaW5nIHRvIGh0dHBzOi8vZGF0YXRyYWNrZXIuaWV0Zi5vcmcvZG9jL2h0bWwvcmZjNDY0OFtSRkMtNDY0OF0uCiAqIHtTdHJpbmdzfTogQ29tbW9uIG9wZXJhdGlvbnMgZm9yIHN0cmluZ3MgZm9ybWF0dGluZy4KICoge1Nob3J0U3RyaW5nfTogTGlicmFyeSB0byBlbmNvZGUgKGFuZCBkZWNvZGUpIHNob3J0IHN0cmluZ3MgaW50byAob3IgZnJvbSkgYSBzaW5nbGUgYnl0ZXMzMiBzbG90IGZvciBvcHRpbWl6aW5nIGNvc3RzLiBTaG9ydCBzdHJpbmdzIGFyZSBsaW1pdGVkIHRvIDMxIGNoYXJhY3RlcnMuCiAqIHtTbG90RGVyaXZhdGlvbn06IE1ldGhvZHMgZm9yIGRlcml2aW5nIHN0b3JhZ2Ugc2xvdCBmcm9tIEVSQy03MjAxIG5hbWVzcGFjZXMgYXMgd2VsbCBhcyBmcm9tIGNvbnN0cnVjdGlvbnMgc3VjaCBhcyBtYXBwaW5nIGFuZCBhcnJheXMuCiAqIHtTdG9yYWdlU2xvdH06IE1ldGhvZHMgZm9yIGFjY2Vzc2luZyBzcGVjaWZpYyBzdG9yYWdlIHNsb3RzIGZvcm1hdHRlZCBhcyBjb21tb24gcHJpbWl0aXZlIHR5cGVzLiAKICoge1RyYW5zaWVudFNsb3R9OiBQcmltaXRpdmVzIGZvciByZWFkaW5nIGZyb20gYW5kIHdyaXRpbmcgdG8gdHJhbnNpZW50IHN0b3JhZ2UgKG9ubHkgdmFsdWUgdHlwZXMgYXJlIGN1cnJlbnRseSBzdXBwb3J0ZWQpLgogKiB7TXVsdGljYWxsfTogQWJzdHJhY3QgY29udHJhY3Qgd2l0aCBhIHV0aWxpdHkgdG8gYWxsb3cgYmF0Y2hpbmcgdG9nZXRoZXIgbXVsdGlwbGUgY2FsbHMgaW4gYSBzaW5nbGUgdHJhbnNhY3Rpb24uIFVzZWZ1bCBmb3IgYWxsb3dpbmcgRU9BcyB0byBwZXJmb3JtIG11bHRpcGxlIG9wZXJhdGlvbnMgYXQgb25jZS4KICoge0NvbnRleHR9OiBBIHV0aWxpdHkgZm9yIGFic3RyYWN0aW5nIHRoZSBzZW5kZXIgYW5kIGNhbGxkYXRhIGluIHRoZSBjdXJyZW50IGV4ZWN1dGlvbiBjb250ZXh0LgogKiB7UGFja2luZ306IEEgbGlicmFyeSBmb3IgcGFja2luZyBhbmQgdW5wYWNraW5nIG11bHRpcGxlIHZhbHVlcyBpbnRvIGJ5dGVzMzIKICoge1BhbmljfTogQSBsaWJyYXJ5IHRvIHJldmVydCB3aXRoIGh0dHBzOi8vZG9jcy5zb2xpZGl0eWxhbmcub3JnL2VuL3YwLjguMjAvY29udHJvbC1zdHJ1Y3R1cmVzLmh0bWwjcGFuaWMtdmlhLWFzc2VydC1hbmQtZXJyb3ItdmlhLXJlcXVpcmVbU29saWRpdHkgcGFuaWMgY29kZXNdLgogKiB7Q29tcGFyYXRvcnN9OiBBIGxpYnJhcnkgdGhhdCBjb250YWlucyBjb21wYXJhdG9yIGZ1bmN0aW9ucyB0byB1c2Ugd2l0aCB3aXRoIHRoZSB7SGVhcH0gbGlicmFyeS4KCltOT1RFXQo9PT09CkJlY2F1c2UgU29saWRpdHkgZG9lcyBub3Qgc3VwcG9ydCBnZW5lcmljIHR5cGVzLCB7RW51bWVyYWJsZU1hcH0gYW5kIHtFbnVtZXJhYmxlU2V0fSBhcmUgc3BlY2lhbGl6ZWQgdG8gYSBsaW1pdGVkIG51bWJlciBvZiBrZXktdmFsdWUgdHlwZXMuCj09PT0KCj09IE1hdGgKCnt7TWF0aH19Cgp7e1NpZ25lZE1hdGh9fQoKe3tTYWZlQ2FzdH19Cgo9PSBDcnlwdG9ncmFwaHkKCnt7RUNEU0F9fQoKe3tQMjU2fX0KCnt7UlNBfX0KCnt7RUlQNzEyfX0KCnt7TWVzc2FnZUhhc2hVdGlsc319Cgp7e1NpZ25hdHVyZUNoZWNrZXJ9fQoKe3tIYXNoZXN9fQoKe3tNZXJrbGVQcm9vZn19Cgo9PSBTZWN1cml0eQoKe3tSZWVudHJhbmN5R3VhcmR9fQoKe3tSZWVudHJhbmN5R3VhcmRUcmFuc2llbnR9fQoKe3tQYXVzYWJsZX19Cgp7e05vbmNlc319Cgo9PSBJbnRyb3NwZWN0aW9uCgpUaGlzIHNldCBvZiBpbnRlcmZhY2VzIGFuZCBjb250cmFjdHMgZGVhbCB3aXRoIGh0dHBzOi8vZW4ud2lraXBlZGlhLm9yZy93aWtpL1R5cGVfaW50cm9zcGVjdGlvblt0eXBlIGludHJvc3BlY3Rpb25dIG9mIGNvbnRyYWN0cywgdGhhdCBpcywgZXhhbWluaW5nIHdoaWNoIGZ1bmN0aW9ucyBjYW4gYmUgY2FsbGVkIG9uIHRoZW0uIFRoaXMgaXMgdXN1YWxseSByZWZlcnJlZCB0byBhcyBhIGNvbnRyYWN0J3MgX2ludGVyZmFjZV8uCgpFdGhlcmV1bSBjb250cmFjdHMgaGF2ZSBubyBuYXRpdmUgY29uY2VwdCBvZiBhbiBpbnRlcmZhY2UsIHNvIGFwcGxpY2F0aW9ucyBtdXN0IHVzdWFsbHkgc2ltcGx5IHRydXN0IHRoZXkgYXJlIG5vdCBtYWtpbmcgYW4gaW5jb3JyZWN0IGNhbGwuIEZvciB0cnVzdGVkIHNldHVwcyB0aGlzIGlzIGEgbm9uLWlzc3VlLCBidXQgb2Z0ZW4gdW5rbm93biBhbmQgdW50cnVzdGVkIHRoaXJkLXBhcnR5IGFkZHJlc3NlcyBuZWVkIHRvIGJlIGludGVyYWN0ZWQgd2l0aC4gVGhlcmUgbWF5IGV2ZW4gbm90IGJlIGFueSBkaXJlY3QgY2FsbHMgdG8gdGhlbSEgKGUuZy4gRVJDLTIwIHRva2VucyBtYXkgYmUgc2VudCB0byBhIGNvbnRyYWN0IHRoYXQgbGFja3MgYSB3YXkgdG8gdHJhbnNmZXIgdGhlbSBvdXQgb2YgaXQsIGxvY2tpbmcgdGhlbSBmb3JldmVyKS4gSW4gdGhlc2UgY2FzZXMsIGEgY29udHJhY3QgX2RlY2xhcmluZ18gaXRzIGludGVyZmFjZSBjYW4gYmUgdmVyeSBoZWxwZnVsIGluIHByZXZlbnRpbmcgZXJyb3JzLgoKe3tJRVJDMTY1fX0KCnt7RVJDMTY1fX0KCnt7RVJDMTY1Q2hlY2tlcn19Cgo9PSBEYXRhIFN0cnVjdHVyZXMKCnt7Qml0TWFwc319Cgp7e0VudW1lcmFibGVNYXB9fQoKe3tFbnVtZXJhYmxlU2V0fX0KCnt7RG91YmxlRW5kZWRRdWV1ZX19Cgp7e0NpcmN1bGFyQnVmZmVyfX0KCnt7Q2hlY2twb2ludHN9fQoKe3tIZWFwfX0KCnt7TWVya2xlVHJlZX19Cgo9PSBMaWJyYXJpZXMKCnt7Q3JlYXRlMn19Cgp7e0FkZHJlc3N9fQoKe3tBcnJheXN9fQoKe3tCYXNlNjR9fQoKe3tTdHJpbmdzfX0KCnt7U2hvcnRTdHJpbmdzfX0KCnt7U2xvdERlcml2YXRpb259fQoKe3tTdG9yYWdlU2xvdH19Cgp7e1RyYW5zaWVudFNsb3R9fQoKe3tNdWx0aWNhbGx9fQoKe3tDb250ZXh0fX0KCnt7UGFja2luZ319Cgp7e1BhbmljfX0KCnt7Q29tcGFyYXRvcnN9fQo=
+= Utilities
+
+[.readme-notice]
+NOTE: This document is better viewed at https://docs.openzeppelin.com/contracts/api/utils
+
+Miscellaneous contracts and libraries containing utility functions you can use to improve security, work with new data types, or safely use low-level primitives.
+
+ * {Math}, {SignedMath}: Implementation of various arithmetic functions.
+ * {SafeCast}: Checked downcasting functions to avoid silent truncation.
+ * {ECDSA}, {MessageHashUtils}: Libraries for interacting with ECDSA signatures.
+ * {P256}: Library for verifying and recovering public keys from secp256r1 signatures.
+ * {RSA}: Library with RSA PKCS#1 v1.5 signature verification utilities.
+ * {SignatureChecker}: A library helper to support regular ECDSA from EOAs as well as ERC-1271 signatures for smart contracts.
+ * {Hashes}: Commonly used hash functions.
+ * {MerkleProof}: Functions for verifying https://en.wikipedia.org/wiki/Merkle_tree[Merkle Tree] proofs.
+ * {EIP712}: Contract with functions to allow processing signed typed structure data according to https://eips.ethereum.org/EIPS/eip-712[EIP-712].
+ * {ReentrancyGuard}: A modifier that can prevent reentrancy during certain functions.
+ * {ReentrancyGuardTransient}: Variant of {ReentrancyGuard} that uses transient storage (https://eips.ethereum.org/EIPS/eip-1153[EIP-1153]).
+ * {Pausable}: A common emergency response mechanism that can pause functionality while a remediation is pending.
+ * {Nonces}: Utility for tracking and verifying address nonces that only increment.
+ * {ERC165}, {ERC165Checker}: Utilities for inspecting interfaces supported by contracts.
+ * {BitMaps}: A simple library to manage boolean value mapped to a numerical index in an efficient way.
+ * {EnumerableMap}: A type like Solidity's https://solidity.readthedocs.io/en/latest/types.html#mapping-types[`mapping`], but with key-value _enumeration_: this will let you know how many entries a mapping has, and iterate over them (which is not possible with `mapping`).
+ * {EnumerableSet}: Like {EnumerableMap}, but for https://en.wikipedia.org/wiki/Set_(abstract_data_type)[sets]. Can be used to store privileged accounts, issued IDs, etc.
+ * {DoubleEndedQueue}: An implementation of a https://en.wikipedia.org/wiki/Double-ended_queue[double ended queue] whose values can be removed added or remove from both sides. Useful for FIFO and LIFO structures.
+ * {CircularBuffer}: A data structure to store the last N values pushed to it.
+ * {Checkpoints}: A data structure to store values mapped to a strictly increasing key. Can be used for storing and accessing values over time.
+ * {Heap}: A library that implements a https://en.wikipedia.org/wiki/Binary_heap[binary heap] in storage.
+ * {MerkleTree}: A library with https://wikipedia.org/wiki/Merkle_Tree[Merkle Tree] data structures and helper functions.
+ * {Create2}: Wrapper around the https://blog.openzeppelin.com/getting-the-most-out-of-create2/[`CREATE2` EVM opcode] for safe use without having to deal with low-level assembly.
+ * {Address}: Collection of functions for overloading Solidity's https://docs.soliditylang.org/en/latest/types.html#address[`address`] type.
+ * {Arrays}: Collection of functions that operate on https://docs.soliditylang.org/en/latest/types.html#arrays[`arrays`].
+ * {Base64}: On-chain base64 and base64URL encoding according to https://datatracker.ietf.org/doc/html/rfc4648[RFC-4648].
+ * {Strings}: Common operations for strings formatting.
+ * {ShortString}: Library to encode (and decode) short strings into (or from) a single bytes32 slot for optimizing costs. Short strings are limited to 31 characters.
+ * {SlotDerivation}: Methods for deriving storage slot from ERC-7201 namespaces as well as from constructions such as mapping and arrays.
+ * {StorageSlot}: Methods for accessing specific storage slots formatted as common primitive types. 
+ * {TransientSlot}: Primitives for reading from and writing to transient storage (only value types are currently supported).
+ * {Multicall}: Abstract contract with a utility to allow batching together multiple calls in a single transaction. Useful for allowing EOAs to perform multiple operations at once.
+ * {Context}: A utility for abstracting the sender and calldata in the current execution context.
+ * {Packing}: A library for packing and unpacking multiple values into bytes32
+ * {Panic}: A library to revert with https://docs.soliditylang.org/en/v0.8.20/control-structures.html#panic-via-assert-and-error-via-require[Solidity panic codes].
+ * {Comparators}: A library that contains comparator functions to use with with the {Heap} library.
+
+[NOTE]
+====
+Because Solidity does not support generic types, {EnumerableMap} and {EnumerableSet} are specialized to a limited number of key-value types.
+====
+
+== Math
+
+{{Math}}
+
+{{SignedMath}}
+
+{{SafeCast}}
+
+== Cryptography
+
+{{ECDSA}}
+
+{{P256}}
+
+{{RSA}}
+
+{{EIP712}}
+
+{{MessageHashUtils}}
+
+{{SignatureChecker}}
+
+{{Hashes}}
+
+{{MerkleProof}}
+
+== Security
+
+{{ReentrancyGuard}}
+
+{{ReentrancyGuardTransient}}
+
+{{Pausable}}
+
+{{Nonces}}
+
+== Introspection
+
+This set of interfaces and contracts deal with https://en.wikipedia.org/wiki/Type_introspection[type introspection] of contracts, that is, examining which functions can be called on them. This is usually referred to as a contract's _interface_.
+
+Ethereum contracts have no native concept of an interface, so applications must usually simply trust they are not making an incorrect call. For trusted setups this is a non-issue, but often unknown and untrusted third-party addresses need to be interacted with. There may even not be any direct calls to them! (e.g. ERC-20 tokens may be sent to a contract that lacks a way to transfer them out of it, locking them forever). In these cases, a contract _declaring_ its interface can be very helpful in preventing errors.
+
+{{IERC165}}
+
+{{ERC165}}
+
+{{ERC165Checker}}
+
+== Data Structures
+
+{{BitMaps}}
+
+{{EnumerableMap}}
+
+{{EnumerableSet}}
+
+{{DoubleEndedQueue}}
+
+{{CircularBuffer}}
+
+{{Checkpoints}}
+
+{{Heap}}
+
+{{MerkleTree}}
+
+== Libraries
+
+{{Create2}}
+
+{{Address}}
+
+{{Arrays}}
+
+{{Base64}}
+
+{{Strings}}
+
+{{ShortStrings}}
+
+{{SlotDerivation}}
+
+{{StorageSlot}}
+
+{{TransientSlot}}
+
+{{Multicall}}
+
+{{Context}}
+
+{{Packing}}
+
+{{Panic}}
+
+{{Comparators}}
