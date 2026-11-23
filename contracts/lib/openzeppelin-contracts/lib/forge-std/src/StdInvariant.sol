@@ -1,1 +1,107 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgPj0wLjYuMiA8MC45LjA7CgpwcmFnbWEgZXhwZXJpbWVudGFsIEFCSUVuY29kZXJWMjsKCmFic3RyYWN0IGNvbnRyYWN0IFN0ZEludmFyaWFudCB7CiAgICBzdHJ1Y3QgRnV6elNlbGVjdG9yIHsKICAgICAgICBhZGRyZXNzIGFkZHI7CiAgICAgICAgYnl0ZXM0W10gc2VsZWN0b3JzOwogICAgfQoKICAgIHN0cnVjdCBGdXp6SW50ZXJmYWNlIHsKICAgICAgICBhZGRyZXNzIGFkZHI7CiAgICAgICAgc3RyaW5nW10gYXJ0aWZhY3RzOwogICAgfQoKICAgIGFkZHJlc3NbXSBwcml2YXRlIF9leGNsdWRlZENvbnRyYWN0czsKICAgIGFkZHJlc3NbXSBwcml2YXRlIF9leGNsdWRlZFNlbmRlcnM7CiAgICBhZGRyZXNzW10gcHJpdmF0ZSBfdGFyZ2V0ZWRDb250cmFjdHM7CiAgICBhZGRyZXNzW10gcHJpdmF0ZSBfdGFyZ2V0ZWRTZW5kZXJzOwoKICAgIHN0cmluZ1tdIHByaXZhdGUgX2V4Y2x1ZGVkQXJ0aWZhY3RzOwogICAgc3RyaW5nW10gcHJpdmF0ZSBfdGFyZ2V0ZWRBcnRpZmFjdHM7CgogICAgRnV6elNlbGVjdG9yW10gcHJpdmF0ZSBfdGFyZ2V0ZWRBcnRpZmFjdFNlbGVjdG9yczsKICAgIEZ1enpTZWxlY3RvcltdIHByaXZhdGUgX3RhcmdldGVkU2VsZWN0b3JzOwoKICAgIEZ1enpJbnRlcmZhY2VbXSBwcml2YXRlIF90YXJnZXRlZEludGVyZmFjZXM7CgogICAgLy8gRnVuY3Rpb25zIGZvciB1c2VyczoKICAgIC8vIFRoZXNlIGFyZSBpbnRlbmRlZCB0byBiZSBjYWxsZWQgaW4gdGVzdHMuCgogICAgZnVuY3Rpb24gZXhjbHVkZUNvbnRyYWN0KGFkZHJlc3MgbmV3RXhjbHVkZWRDb250cmFjdF8pIGludGVybmFsIHsKICAgICAgICBfZXhjbHVkZWRDb250cmFjdHMucHVzaChuZXdFeGNsdWRlZENvbnRyYWN0Xyk7CiAgICB9CgogICAgZnVuY3Rpb24gZXhjbHVkZVNlbmRlcihhZGRyZXNzIG5ld0V4Y2x1ZGVkU2VuZGVyXykgaW50ZXJuYWwgewogICAgICAgIF9leGNsdWRlZFNlbmRlcnMucHVzaChuZXdFeGNsdWRlZFNlbmRlcl8pOwogICAgfQoKICAgIGZ1bmN0aW9uIGV4Y2x1ZGVBcnRpZmFjdChzdHJpbmcgbWVtb3J5IG5ld0V4Y2x1ZGVkQXJ0aWZhY3RfKSBpbnRlcm5hbCB7CiAgICAgICAgX2V4Y2x1ZGVkQXJ0aWZhY3RzLnB1c2gobmV3RXhjbHVkZWRBcnRpZmFjdF8pOwogICAgfQoKICAgIGZ1bmN0aW9uIHRhcmdldEFydGlmYWN0KHN0cmluZyBtZW1vcnkgbmV3VGFyZ2V0ZWRBcnRpZmFjdF8pIGludGVybmFsIHsKICAgICAgICBfdGFyZ2V0ZWRBcnRpZmFjdHMucHVzaChuZXdUYXJnZXRlZEFydGlmYWN0Xyk7CiAgICB9CgogICAgZnVuY3Rpb24gdGFyZ2V0QXJ0aWZhY3RTZWxlY3RvcihGdXp6U2VsZWN0b3IgbWVtb3J5IG5ld1RhcmdldGVkQXJ0aWZhY3RTZWxlY3Rvcl8pIGludGVybmFsIHsKICAgICAgICBfdGFyZ2V0ZWRBcnRpZmFjdFNlbGVjdG9ycy5wdXNoKG5ld1RhcmdldGVkQXJ0aWZhY3RTZWxlY3Rvcl8pOwogICAgfQoKICAgIGZ1bmN0aW9uIHRhcmdldENvbnRyYWN0KGFkZHJlc3MgbmV3VGFyZ2V0ZWRDb250cmFjdF8pIGludGVybmFsIHsKICAgICAgICBfdGFyZ2V0ZWRDb250cmFjdHMucHVzaChuZXdUYXJnZXRlZENvbnRyYWN0Xyk7CiAgICB9CgogICAgZnVuY3Rpb24gdGFyZ2V0U2VsZWN0b3IoRnV6elNlbGVjdG9yIG1lbW9yeSBuZXdUYXJnZXRlZFNlbGVjdG9yXykgaW50ZXJuYWwgewogICAgICAgIF90YXJnZXRlZFNlbGVjdG9ycy5wdXNoKG5ld1RhcmdldGVkU2VsZWN0b3JfKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0YXJnZXRTZW5kZXIoYWRkcmVzcyBuZXdUYXJnZXRlZFNlbmRlcl8pIGludGVybmFsIHsKICAgICAgICBfdGFyZ2V0ZWRTZW5kZXJzLnB1c2gobmV3VGFyZ2V0ZWRTZW5kZXJfKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0YXJnZXRJbnRlcmZhY2UoRnV6ekludGVyZmFjZSBtZW1vcnkgbmV3VGFyZ2V0ZWRJbnRlcmZhY2VfKSBpbnRlcm5hbCB7CiAgICAgICAgX3RhcmdldGVkSW50ZXJmYWNlcy5wdXNoKG5ld1RhcmdldGVkSW50ZXJmYWNlXyk7CiAgICB9CgogICAgLy8gRnVuY3Rpb25zIGZvciBmb3JnZToKICAgIC8vIFRoZXNlIGFyZSBjYWxsZWQgYnkgZm9yZ2UgdG8gcnVuIGludmFyaWFudCB0ZXN0cyBhbmQgZG9uJ3QgbmVlZCB0byBiZSBjYWxsZWQgaW4gdGVzdHMuCgogICAgZnVuY3Rpb24gZXhjbHVkZUFydGlmYWN0cygpIHB1YmxpYyB2aWV3IHJldHVybnMgKHN0cmluZ1tdIG1lbW9yeSBleGNsdWRlZEFydGlmYWN0c18pIHsKICAgICAgICBleGNsdWRlZEFydGlmYWN0c18gPSBfZXhjbHVkZWRBcnRpZmFjdHM7CiAgICB9CgogICAgZnVuY3Rpb24gZXhjbHVkZUNvbnRyYWN0cygpIHB1YmxpYyB2aWV3IHJldHVybnMgKGFkZHJlc3NbXSBtZW1vcnkgZXhjbHVkZWRDb250cmFjdHNfKSB7CiAgICAgICAgZXhjbHVkZWRDb250cmFjdHNfID0gX2V4Y2x1ZGVkQ29udHJhY3RzOwogICAgfQoKICAgIGZ1bmN0aW9uIGV4Y2x1ZGVTZW5kZXJzKCkgcHVibGljIHZpZXcgcmV0dXJucyAoYWRkcmVzc1tdIG1lbW9yeSBleGNsdWRlZFNlbmRlcnNfKSB7CiAgICAgICAgZXhjbHVkZWRTZW5kZXJzXyA9IF9leGNsdWRlZFNlbmRlcnM7CiAgICB9CgogICAgZnVuY3Rpb24gdGFyZ2V0QXJ0aWZhY3RzKCkgcHVibGljIHZpZXcgcmV0dXJucyAoc3RyaW5nW10gbWVtb3J5IHRhcmdldGVkQXJ0aWZhY3RzXykgewogICAgICAgIHRhcmdldGVkQXJ0aWZhY3RzXyA9IF90YXJnZXRlZEFydGlmYWN0czsKICAgIH0KCiAgICBmdW5jdGlvbiB0YXJnZXRBcnRpZmFjdFNlbGVjdG9ycygpIHB1YmxpYyB2aWV3IHJldHVybnMgKEZ1enpTZWxlY3RvcltdIG1lbW9yeSB0YXJnZXRlZEFydGlmYWN0U2VsZWN0b3JzXykgewogICAgICAgIHRhcmdldGVkQXJ0aWZhY3RTZWxlY3RvcnNfID0gX3RhcmdldGVkQXJ0aWZhY3RTZWxlY3RvcnM7CiAgICB9CgogICAgZnVuY3Rpb24gdGFyZ2V0Q29udHJhY3RzKCkgcHVibGljIHZpZXcgcmV0dXJucyAoYWRkcmVzc1tdIG1lbW9yeSB0YXJnZXRlZENvbnRyYWN0c18pIHsKICAgICAgICB0YXJnZXRlZENvbnRyYWN0c18gPSBfdGFyZ2V0ZWRDb250cmFjdHM7CiAgICB9CgogICAgZnVuY3Rpb24gdGFyZ2V0U2VsZWN0b3JzKCkgcHVibGljIHZpZXcgcmV0dXJucyAoRnV6elNlbGVjdG9yW10gbWVtb3J5IHRhcmdldGVkU2VsZWN0b3JzXykgewogICAgICAgIHRhcmdldGVkU2VsZWN0b3JzXyA9IF90YXJnZXRlZFNlbGVjdG9yczsKICAgIH0KCiAgICBmdW5jdGlvbiB0YXJnZXRTZW5kZXJzKCkgcHVibGljIHZpZXcgcmV0dXJucyAoYWRkcmVzc1tdIG1lbW9yeSB0YXJnZXRlZFNlbmRlcnNfKSB7CiAgICAgICAgdGFyZ2V0ZWRTZW5kZXJzXyA9IF90YXJnZXRlZFNlbmRlcnM7CiAgICB9CgogICAgZnVuY3Rpb24gdGFyZ2V0SW50ZXJmYWNlcygpIHB1YmxpYyB2aWV3IHJldHVybnMgKEZ1enpJbnRlcmZhY2VbXSBtZW1vcnkgdGFyZ2V0ZWRJbnRlcmZhY2VzXykgewogICAgICAgIHRhcmdldGVkSW50ZXJmYWNlc18gPSBfdGFyZ2V0ZWRJbnRlcmZhY2VzOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.6.2 <0.9.0;
+
+pragma experimental ABIEncoderV2;
+
+abstract contract StdInvariant {
+    struct FuzzSelector {
+        address addr;
+        bytes4[] selectors;
+    }
+
+    struct FuzzInterface {
+        address addr;
+        string[] artifacts;
+    }
+
+    address[] private _excludedContracts;
+    address[] private _excludedSenders;
+    address[] private _targetedContracts;
+    address[] private _targetedSenders;
+
+    string[] private _excludedArtifacts;
+    string[] private _targetedArtifacts;
+
+    FuzzSelector[] private _targetedArtifactSelectors;
+    FuzzSelector[] private _targetedSelectors;
+
+    FuzzInterface[] private _targetedInterfaces;
+
+    // Functions for users:
+    // These are intended to be called in tests.
+
+    function excludeContract(address newExcludedContract_) internal {
+        _excludedContracts.push(newExcludedContract_);
+    }
+
+    function excludeSender(address newExcludedSender_) internal {
+        _excludedSenders.push(newExcludedSender_);
+    }
+
+    function excludeArtifact(string memory newExcludedArtifact_) internal {
+        _excludedArtifacts.push(newExcludedArtifact_);
+    }
+
+    function targetArtifact(string memory newTargetedArtifact_) internal {
+        _targetedArtifacts.push(newTargetedArtifact_);
+    }
+
+    function targetArtifactSelector(FuzzSelector memory newTargetedArtifactSelector_) internal {
+        _targetedArtifactSelectors.push(newTargetedArtifactSelector_);
+    }
+
+    function targetContract(address newTargetedContract_) internal {
+        _targetedContracts.push(newTargetedContract_);
+    }
+
+    function targetSelector(FuzzSelector memory newTargetedSelector_) internal {
+        _targetedSelectors.push(newTargetedSelector_);
+    }
+
+    function targetSender(address newTargetedSender_) internal {
+        _targetedSenders.push(newTargetedSender_);
+    }
+
+    function targetInterface(FuzzInterface memory newTargetedInterface_) internal {
+        _targetedInterfaces.push(newTargetedInterface_);
+    }
+
+    // Functions for forge:
+    // These are called by forge to run invariant tests and don't need to be called in tests.
+
+    function excludeArtifacts() public view returns (string[] memory excludedArtifacts_) {
+        excludedArtifacts_ = _excludedArtifacts;
+    }
+
+    function excludeContracts() public view returns (address[] memory excludedContracts_) {
+        excludedContracts_ = _excludedContracts;
+    }
+
+    function excludeSenders() public view returns (address[] memory excludedSenders_) {
+        excludedSenders_ = _excludedSenders;
+    }
+
+    function targetArtifacts() public view returns (string[] memory targetedArtifacts_) {
+        targetedArtifacts_ = _targetedArtifacts;
+    }
+
+    function targetArtifactSelectors() public view returns (FuzzSelector[] memory targetedArtifactSelectors_) {
+        targetedArtifactSelectors_ = _targetedArtifactSelectors;
+    }
+
+    function targetContracts() public view returns (address[] memory targetedContracts_) {
+        targetedContracts_ = _targetedContracts;
+    }
+
+    function targetSelectors() public view returns (FuzzSelector[] memory targetedSelectors_) {
+        targetedSelectors_ = _targetedSelectors;
+    }
+
+    function targetSenders() public view returns (address[] memory targetedSenders_) {
+        targetedSenders_ = _targetedSenders;
+    }
+
+    function targetInterfaces() public view returns (FuzzInterface[] memory targetedInterfaces_) {
+        targetedInterfaces_ = _targetedInterfaces;
+    }
+}
