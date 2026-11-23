@@ -1,1 +1,110 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgPj0wLjcuMCA8MC45LjA7CgppbXBvcnQge1Rlc3QsIGNvbnNvbGUyLCBTdGRTdHlsZX0gZnJvbSAiLi4vc3JjL1Rlc3Quc29sIjsKCmNvbnRyYWN0IFN0ZFN0eWxlVGVzdCBpcyBUZXN0IHsKICAgIGZ1bmN0aW9uIHRlc3RfU3R5bGVDb2xvcigpIHB1YmxpYyBwdXJlIHsKICAgICAgICBjb25zb2xlMi5sb2coU3RkU3R5bGUucmVkKCJTdGRTdHlsZS5yZWQgU3RyaW5nIFRlc3QiKSk7CiAgICAgICAgY29uc29sZTIubG9nKFN0ZFN0eWxlLnJlZCh1aW50MjU2KDEwZTE4KSkpOwogICAgICAgIGNvbnNvbGUyLmxvZyhTdGRTdHlsZS5yZWQoaW50MjU2KC0xMGUxOCkpKTsKICAgICAgICBjb25zb2xlMi5sb2coU3RkU3R5bGUucmVkKHRydWUpKTsKICAgICAgICBjb25zb2xlMi5sb2coU3RkU3R5bGUucmVkKGFkZHJlc3MoMCkpKTsKICAgICAgICBjb25zb2xlMi5sb2coU3RkU3R5bGUucmVkQnl0ZXMoaGV4IjcxMDk3MDlFQ2ZhOTFhODA2MjZmRjM5ODlENjhmNjdGNWIxREQxMkQiKSk7CiAgICAgICAgY29uc29sZTIubG9nKFN0ZFN0eWxlLnJlZEJ5dGVzMzIoIlN0ZFN0eWxlLnJlZEJ5dGVzMzIiKSk7CiAgICAgICAgY29uc29sZTIubG9nKFN0ZFN0eWxlLmdyZWVuKCJTdGRTdHlsZS5ncmVlbiBTdHJpbmcgVGVzdCIpKTsKICAgICAgICBjb25zb2xlMi5sb2coU3RkU3R5bGUuZ3JlZW4odWludDI1NigxMGUxOCkpKTsKICAgICAgICBjb25zb2xlMi5sb2coU3RkU3R5bGUuZ3JlZW4oaW50MjU2KC0xMGUxOCkpKTsKICAgICAgICBjb25zb2xlMi5sb2coU3RkU3R5bGUuZ3JlZW4odHJ1ZSkpOwogICAgICAgIGNvbnNvbGUyLmxvZyhTdGRTdHlsZS5ncmVlbihhZGRyZXNzKDApKSk7CiAgICAgICAgY29uc29sZTIubG9nKFN0ZFN0eWxlLmdyZWVuQnl0ZXMoaGV4IjcxMDk3MDlFQ2ZhOTFhODA2MjZmRjM5ODlENjhmNjdGNWIxREQxMkQiKSk7CiAgICAgICAgY29uc29sZTIubG9nKFN0ZFN0eWxlLmdyZWVuQnl0ZXMzMigiU3RkU3R5bGUuZ3JlZW5CeXRlczMyIikpOwogICAgICAgIGNvbnNvbGUyLmxvZyhTdGRTdHlsZS55ZWxsb3coIlN0ZFN0eWxlLnllbGxvdyBTdHJpbmcgVGVzdCIpKTsKICAgICAgICBjb25zb2xlMi5sb2coU3RkU3R5bGUueWVsbG93KHVpbnQyNTYoMTBlMTgpKSk7CiAgICAgICAgY29uc29sZTIubG9nKFN0ZFN0eWxlLnllbGxvdyhpbnQyNTYoLTEwZTE4KSkpOwogICAgICAgIGNvbnNvbGUyLmxvZyhTdGRTdHlsZS55ZWxsb3codHJ1ZSkpOwogICAgICAgIGNvbnNvbGUyLmxvZyhTdGRTdHlsZS55ZWxsb3coYWRkcmVzcygwKSkpOwogICAgICAgIGNvbnNvbGUyLmxvZyhTdGRTdHlsZS55ZWxsb3dCeXRlcyhoZXgiNzEwOTcwOUVDZmE5MWE4MDYyNmZGMzk4OUQ2OGY2N0Y1YjFERDEyRCIpKTsKICAgICAgICBjb25zb2xlMi5sb2coU3RkU3R5bGUueWVsbG93Qnl0ZXMzMigiU3RkU3R5bGUueWVsbG93Qnl0ZXMzMiIpKTsKICAgICAgICBjb25zb2xlMi5sb2coU3RkU3R5bGUuYmx1ZSgiU3RkU3R5bGUuYmx1ZSBTdHJpbmcgVGVzdCIpKTsKICAgICAgICBjb25zb2xlMi5sb2coU3RkU3R5bGUuYmx1ZSh1aW50MjU2KDEwZTE4KSkpOwogICAgICAgIGNvbnNvbGUyLmxvZyhTdGRTdHlsZS5ibHVlKGludDI1NigtMTBlMTgpKSk7CiAgICAgICAgY29uc29sZTIubG9nKFN0ZFN0eWxlLmJsdWUodHJ1ZSkpOwogICAgICAgIGNvbnNvbGUyLmxvZyhTdGRTdHlsZS5ibHVlKGFkZHJlc3MoMCkpKTsKICAgICAgICBjb25zb2xlMi5sb2coU3RkU3R5bGUuYmx1ZUJ5dGVzKGhleCI3MTA5NzA5RUNmYTkxYTgwNjI2ZkYzOTg5RDY4ZjY3RjViMUREMTJEIikpOwogICAgICAgIGNvbnNvbGUyLmxvZyhTdGRTdHlsZS5ibHVlQnl0ZXMzMigiU3RkU3R5bGUuYmx1ZUJ5dGVzMzIiKSk7CiAgICAgICAgY29uc29sZTIubG9nKFN0ZFN0eWxlLm1hZ2VudGEoIlN0ZFN0eWxlLm1hZ2VudGEgU3RyaW5nIFRlc3QiKSk7CiAgICAgICAgY29uc29sZTIubG9nKFN0ZFN0eWxlLm1hZ2VudGEodWludDI1NigxMGUxOCkpKTsKICAgICAgICBjb25zb2xlMi5sb2coU3RkU3R5bGUubWFnZW50YShpbnQyNTYoLTEwZTE4KSkpOwogICAgICAgIGNvbnNvbGUyLmxvZyhTdGRTdHlsZS5tYWdlbnRhKHRydWUpKTsKICAgICAgICBjb25zb2xlMi5sb2coU3RkU3R5bGUubWFnZW50YShhZGRyZXNzKDApKSk7CiAgICAgICAgY29uc29sZTIubG9nKFN0ZFN0eWxlLm1hZ2VudGFCeXRlcyhoZXgiNzEwOTcwOUVDZmE5MWE4MDYyNmZGMzk4OUQ2OGY2N0Y1YjFERDEyRCIpKTsKICAgICAgICBjb25zb2xlMi5sb2coU3RkU3R5bGUubWFnZW50YUJ5dGVzMzIoIlN0ZFN0eWxlLm1hZ2VudGFCeXRlczMyIikpOwogICAgICAgIGNvbnNvbGUyLmxvZyhTdGRTdHlsZS5jeWFuKCJTdGRTdHlsZS5jeWFuIFN0cmluZyBUZXN0IikpOwogICAgICAgIGNvbnNvbGUyLmxvZyhTdGRTdHlsZS5jeWFuKHVpbnQyNTYoMTBlMTgpKSk7CiAgICAgICAgY29uc29sZTIubG9nKFN0ZFN0eWxlLmN5YW4oaW50MjU2KC0xMGUxOCkpKTsKICAgICAgICBjb25zb2xlMi5sb2coU3RkU3R5bGUuY3lhbih0cnVlKSk7CiAgICAgICAgY29uc29sZTIubG9nKFN0ZFN0eWxlLmN5YW4oYWRkcmVzcygwKSkpOwogICAgICAgIGNvbnNvbGUyLmxvZyhTdGRTdHlsZS5jeWFuQnl0ZXMoaGV4IjcxMDk3MDlFQ2ZhOTFhODA2MjZmRjM5ODlENjhmNjdGNWIxREQxMkQiKSk7CiAgICAgICAgY29uc29sZTIubG9nKFN0ZFN0eWxlLmN5YW5CeXRlczMyKCJTdGRTdHlsZS5jeWFuQnl0ZXMzMiIpKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X1N0eWxlRm9udFdlaWdodCgpIHB1YmxpYyBwdXJlIHsKICAgICAgICBjb25zb2xlMi5sb2coU3RkU3R5bGUuYm9sZCgiU3RkU3R5bGUuYm9sZCBTdHJpbmcgVGVzdCIpKTsKICAgICAgICBjb25zb2xlMi5sb2coU3RkU3R5bGUuYm9sZCh1aW50MjU2KDEwZTE4KSkpOwogICAgICAgIGNvbnNvbGUyLmxvZyhTdGRTdHlsZS5ib2xkKGludDI1NigtMTBlMTgpKSk7CiAgICAgICAgY29uc29sZTIubG9nKFN0ZFN0eWxlLmJvbGQoYWRkcmVzcygwKSkpOwogICAgICAgIGNvbnNvbGUyLmxvZyhTdGRTdHlsZS5ib2xkKHRydWUpKTsKICAgICAgICBjb25zb2xlMi5sb2coU3RkU3R5bGUuYm9sZEJ5dGVzKGhleCI3MTA5NzA5RUNmYTkxYTgwNjI2ZkYzOTg5RDY4ZjY3RjViMUREMTJEIikpOwogICAgICAgIGNvbnNvbGUyLmxvZyhTdGRTdHlsZS5ib2xkQnl0ZXMzMigiU3RkU3R5bGUuYm9sZEJ5dGVzMzIiKSk7CiAgICAgICAgY29uc29sZTIubG9nKFN0ZFN0eWxlLmRpbSgiU3RkU3R5bGUuZGltIFN0cmluZyBUZXN0IikpOwogICAgICAgIGNvbnNvbGUyLmxvZyhTdGRTdHlsZS5kaW0odWludDI1NigxMGUxOCkpKTsKICAgICAgICBjb25zb2xlMi5sb2coU3RkU3R5bGUuZGltKGludDI1NigtMTBlMTgpKSk7CiAgICAgICAgY29uc29sZTIubG9nKFN0ZFN0eWxlLmRpbShhZGRyZXNzKDApKSk7CiAgICAgICAgY29uc29sZTIubG9nKFN0ZFN0eWxlLmRpbSh0cnVlKSk7CiAgICAgICAgY29uc29sZTIubG9nKFN0ZFN0eWxlLmRpbUJ5dGVzKGhleCI3MTA5NzA5RUNmYTkxYTgwNjI2ZkYzOTg5RDY4ZjY3RjViMUREMTJEIikpOwogICAgICAgIGNvbnNvbGUyLmxvZyhTdGRTdHlsZS5kaW1CeXRlczMyKCJTdGRTdHlsZS5kaW1CeXRlczMyIikpOwogICAgICAgIGNvbnNvbGUyLmxvZyhTdGRTdHlsZS5pdGFsaWMoIlN0ZFN0eWxlLml0YWxpYyBTdHJpbmcgVGVzdCIpKTsKICAgICAgICBjb25zb2xlMi5sb2coU3RkU3R5bGUuaXRhbGljKHVpbnQyNTYoMTBlMTgpKSk7CiAgICAgICAgY29uc29sZTIubG9nKFN0ZFN0eWxlLml0YWxpYyhpbnQyNTYoLTEwZTE4KSkpOwogICAgICAgIGNvbnNvbGUyLmxvZyhTdGRTdHlsZS5pdGFsaWMoYWRkcmVzcygwKSkpOwogICAgICAgIGNvbnNvbGUyLmxvZyhTdGRTdHlsZS5pdGFsaWModHJ1ZSkpOwogICAgICAgIGNvbnNvbGUyLmxvZyhTdGRTdHlsZS5pdGFsaWNCeXRlcyhoZXgiNzEwOTcwOUVDZmE5MWE4MDYyNmZGMzk4OUQ2OGY2N0Y1YjFERDEyRCIpKTsKICAgICAgICBjb25zb2xlMi5sb2coU3RkU3R5bGUuaXRhbGljQnl0ZXMzMigiU3RkU3R5bGUuaXRhbGljQnl0ZXMzMiIpKTsKICAgICAgICBjb25zb2xlMi5sb2coU3RkU3R5bGUudW5kZXJsaW5lKCJTdGRTdHlsZS51bmRlcmxpbmUgU3RyaW5nIFRlc3QiKSk7CiAgICAgICAgY29uc29sZTIubG9nKFN0ZFN0eWxlLnVuZGVybGluZSh1aW50MjU2KDEwZTE4KSkpOwogICAgICAgIGNvbnNvbGUyLmxvZyhTdGRTdHlsZS51bmRlcmxpbmUoaW50MjU2KC0xMGUxOCkpKTsKICAgICAgICBjb25zb2xlMi5sb2coU3RkU3R5bGUudW5kZXJsaW5lKGFkZHJlc3MoMCkpKTsKICAgICAgICBjb25zb2xlMi5sb2coU3RkU3R5bGUudW5kZXJsaW5lKHRydWUpKTsKICAgICAgICBjb25zb2xlMi5sb2coU3RkU3R5bGUudW5kZXJsaW5lQnl0ZXMoaGV4IjcxMDk3MDlFQ2ZhOTFhODA2MjZmRjM5ODlENjhmNjdGNWIxREQxMkQiKSk7CiAgICAgICAgY29uc29sZTIubG9nKFN0ZFN0eWxlLnVuZGVybGluZUJ5dGVzMzIoIlN0ZFN0eWxlLnVuZGVybGluZUJ5dGVzMzIiKSk7CiAgICAgICAgY29uc29sZTIubG9nKFN0ZFN0eWxlLmludmVyc2UoIlN0ZFN0eWxlLmludmVyc2UgU3RyaW5nIFRlc3QiKSk7CiAgICAgICAgY29uc29sZTIubG9nKFN0ZFN0eWxlLmludmVyc2UodWludDI1NigxMGUxOCkpKTsKICAgICAgICBjb25zb2xlMi5sb2coU3RkU3R5bGUuaW52ZXJzZShpbnQyNTYoLTEwZTE4KSkpOwogICAgICAgIGNvbnNvbGUyLmxvZyhTdGRTdHlsZS5pbnZlcnNlKGFkZHJlc3MoMCkpKTsKICAgICAgICBjb25zb2xlMi5sb2coU3RkU3R5bGUuaW52ZXJzZSh0cnVlKSk7CiAgICAgICAgY29uc29sZTIubG9nKFN0ZFN0eWxlLmludmVyc2VCeXRlcyhoZXgiNzEwOTcwOUVDZmE5MWE4MDYyNmZGMzk4OUQ2OGY2N0Y1YjFERDEyRCIpKTsKICAgICAgICBjb25zb2xlMi5sb2coU3RkU3R5bGUuaW52ZXJzZUJ5dGVzMzIoIlN0ZFN0eWxlLmludmVyc2VCeXRlczMyIikpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfU3R5bGVDb21iaW5lZCgpIHB1YmxpYyBwdXJlIHsKICAgICAgICBjb25zb2xlMi5sb2coU3RkU3R5bGUucmVkKFN0ZFN0eWxlLmJvbGQoIlJlZCBCb2xkIFN0cmluZyBUZXN0IikpKTsKICAgICAgICBjb25zb2xlMi5sb2coU3RkU3R5bGUuZ3JlZW4oU3RkU3R5bGUuZGltKHVpbnQyNTYoMTBlMTgpKSkpOwogICAgICAgIGNvbnNvbGUyLmxvZyhTdGRTdHlsZS55ZWxsb3coU3RkU3R5bGUuaXRhbGljKGludDI1NigtMTBlMTgpKSkpOwogICAgICAgIGNvbnNvbGUyLmxvZyhTdGRTdHlsZS5ibHVlKFN0ZFN0eWxlLnVuZGVybGluZShhZGRyZXNzKDApKSkpOwogICAgICAgIGNvbnNvbGUyLmxvZyhTdGRTdHlsZS5tYWdlbnRhKFN0ZFN0eWxlLmludmVyc2UodHJ1ZSkpKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X1N0eWxlQ3VzdG9tKCkgcHVibGljIHB1cmUgewogICAgICAgIGNvbnNvbGUyLmxvZyhoMSgiQ3VzdG9tIFN0eWxlIDEiKSk7CiAgICAgICAgY29uc29sZTIubG9nKGgyKCJDdXN0b20gU3R5bGUgMiIpKTsKICAgIH0KCiAgICBmdW5jdGlvbiBoMShzdHJpbmcgbWVtb3J5IGEpIHByaXZhdGUgcHVyZSByZXR1cm5zIChzdHJpbmcgbWVtb3J5KSB7CiAgICAgICAgcmV0dXJuIFN0ZFN0eWxlLmN5YW4oU3RkU3R5bGUuaW52ZXJzZShTdGRTdHlsZS5ib2xkKGEpKSk7CiAgICB9CgogICAgZnVuY3Rpb24gaDIoc3RyaW5nIG1lbW9yeSBhKSBwcml2YXRlIHB1cmUgcmV0dXJucyAoc3RyaW5nIG1lbW9yeSkgewogICAgICAgIHJldHVybiBTdGRTdHlsZS5tYWdlbnRhKFN0ZFN0eWxlLmJvbGQoU3RkU3R5bGUudW5kZXJsaW5lKGEpKSk7CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.7.0 <0.9.0;
+
+import {Test, console2, StdStyle} from "../src/Test.sol";
+
+contract StdStyleTest is Test {
+    function test_StyleColor() public pure {
+        console2.log(StdStyle.red("StdStyle.red String Test"));
+        console2.log(StdStyle.red(uint256(10e18)));
+        console2.log(StdStyle.red(int256(-10e18)));
+        console2.log(StdStyle.red(true));
+        console2.log(StdStyle.red(address(0)));
+        console2.log(StdStyle.redBytes(hex"7109709ECfa91a80626fF3989D68f67F5b1DD12D"));
+        console2.log(StdStyle.redBytes32("StdStyle.redBytes32"));
+        console2.log(StdStyle.green("StdStyle.green String Test"));
+        console2.log(StdStyle.green(uint256(10e18)));
+        console2.log(StdStyle.green(int256(-10e18)));
+        console2.log(StdStyle.green(true));
+        console2.log(StdStyle.green(address(0)));
+        console2.log(StdStyle.greenBytes(hex"7109709ECfa91a80626fF3989D68f67F5b1DD12D"));
+        console2.log(StdStyle.greenBytes32("StdStyle.greenBytes32"));
+        console2.log(StdStyle.yellow("StdStyle.yellow String Test"));
+        console2.log(StdStyle.yellow(uint256(10e18)));
+        console2.log(StdStyle.yellow(int256(-10e18)));
+        console2.log(StdStyle.yellow(true));
+        console2.log(StdStyle.yellow(address(0)));
+        console2.log(StdStyle.yellowBytes(hex"7109709ECfa91a80626fF3989D68f67F5b1DD12D"));
+        console2.log(StdStyle.yellowBytes32("StdStyle.yellowBytes32"));
+        console2.log(StdStyle.blue("StdStyle.blue String Test"));
+        console2.log(StdStyle.blue(uint256(10e18)));
+        console2.log(StdStyle.blue(int256(-10e18)));
+        console2.log(StdStyle.blue(true));
+        console2.log(StdStyle.blue(address(0)));
+        console2.log(StdStyle.blueBytes(hex"7109709ECfa91a80626fF3989D68f67F5b1DD12D"));
+        console2.log(StdStyle.blueBytes32("StdStyle.blueBytes32"));
+        console2.log(StdStyle.magenta("StdStyle.magenta String Test"));
+        console2.log(StdStyle.magenta(uint256(10e18)));
+        console2.log(StdStyle.magenta(int256(-10e18)));
+        console2.log(StdStyle.magenta(true));
+        console2.log(StdStyle.magenta(address(0)));
+        console2.log(StdStyle.magentaBytes(hex"7109709ECfa91a80626fF3989D68f67F5b1DD12D"));
+        console2.log(StdStyle.magentaBytes32("StdStyle.magentaBytes32"));
+        console2.log(StdStyle.cyan("StdStyle.cyan String Test"));
+        console2.log(StdStyle.cyan(uint256(10e18)));
+        console2.log(StdStyle.cyan(int256(-10e18)));
+        console2.log(StdStyle.cyan(true));
+        console2.log(StdStyle.cyan(address(0)));
+        console2.log(StdStyle.cyanBytes(hex"7109709ECfa91a80626fF3989D68f67F5b1DD12D"));
+        console2.log(StdStyle.cyanBytes32("StdStyle.cyanBytes32"));
+    }
+
+    function test_StyleFontWeight() public pure {
+        console2.log(StdStyle.bold("StdStyle.bold String Test"));
+        console2.log(StdStyle.bold(uint256(10e18)));
+        console2.log(StdStyle.bold(int256(-10e18)));
+        console2.log(StdStyle.bold(address(0)));
+        console2.log(StdStyle.bold(true));
+        console2.log(StdStyle.boldBytes(hex"7109709ECfa91a80626fF3989D68f67F5b1DD12D"));
+        console2.log(StdStyle.boldBytes32("StdStyle.boldBytes32"));
+        console2.log(StdStyle.dim("StdStyle.dim String Test"));
+        console2.log(StdStyle.dim(uint256(10e18)));
+        console2.log(StdStyle.dim(int256(-10e18)));
+        console2.log(StdStyle.dim(address(0)));
+        console2.log(StdStyle.dim(true));
+        console2.log(StdStyle.dimBytes(hex"7109709ECfa91a80626fF3989D68f67F5b1DD12D"));
+        console2.log(StdStyle.dimBytes32("StdStyle.dimBytes32"));
+        console2.log(StdStyle.italic("StdStyle.italic String Test"));
+        console2.log(StdStyle.italic(uint256(10e18)));
+        console2.log(StdStyle.italic(int256(-10e18)));
+        console2.log(StdStyle.italic(address(0)));
+        console2.log(StdStyle.italic(true));
+        console2.log(StdStyle.italicBytes(hex"7109709ECfa91a80626fF3989D68f67F5b1DD12D"));
+        console2.log(StdStyle.italicBytes32("StdStyle.italicBytes32"));
+        console2.log(StdStyle.underline("StdStyle.underline String Test"));
+        console2.log(StdStyle.underline(uint256(10e18)));
+        console2.log(StdStyle.underline(int256(-10e18)));
+        console2.log(StdStyle.underline(address(0)));
+        console2.log(StdStyle.underline(true));
+        console2.log(StdStyle.underlineBytes(hex"7109709ECfa91a80626fF3989D68f67F5b1DD12D"));
+        console2.log(StdStyle.underlineBytes32("StdStyle.underlineBytes32"));
+        console2.log(StdStyle.inverse("StdStyle.inverse String Test"));
+        console2.log(StdStyle.inverse(uint256(10e18)));
+        console2.log(StdStyle.inverse(int256(-10e18)));
+        console2.log(StdStyle.inverse(address(0)));
+        console2.log(StdStyle.inverse(true));
+        console2.log(StdStyle.inverseBytes(hex"7109709ECfa91a80626fF3989D68f67F5b1DD12D"));
+        console2.log(StdStyle.inverseBytes32("StdStyle.inverseBytes32"));
+    }
+
+    function test_StyleCombined() public pure {
+        console2.log(StdStyle.red(StdStyle.bold("Red Bold String Test")));
+        console2.log(StdStyle.green(StdStyle.dim(uint256(10e18))));
+        console2.log(StdStyle.yellow(StdStyle.italic(int256(-10e18))));
+        console2.log(StdStyle.blue(StdStyle.underline(address(0))));
+        console2.log(StdStyle.magenta(StdStyle.inverse(true)));
+    }
+
+    function test_StyleCustom() public pure {
+        console2.log(h1("Custom Style 1"));
+        console2.log(h2("Custom Style 2"));
+    }
+
+    function h1(string memory a) private pure returns (string memory) {
+        return StdStyle.cyan(StdStyle.inverse(StdStyle.bold(a)));
+    }
+
+    function h2(string memory a) private pure returns (string memory) {
+        return StdStyle.magenta(StdStyle.bold(StdStyle.underline(a)));
+    }
+}
