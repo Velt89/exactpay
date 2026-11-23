@@ -1,1 +1,209 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMC4wKSAoYWNjZXNzL0FjY2Vzc0NvbnRyb2wuc29sKQoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0lBY2Nlc3NDb250cm9sfSBmcm9tICIuL0lBY2Nlc3NDb250cm9sLnNvbCI7CmltcG9ydCB7Q29udGV4dH0gZnJvbSAiLi4vdXRpbHMvQ29udGV4dC5zb2wiOwppbXBvcnQge0VSQzE2NX0gZnJvbSAiLi4vdXRpbHMvaW50cm9zcGVjdGlvbi9FUkMxNjUuc29sIjsKCi8qKgogKiBAZGV2IENvbnRyYWN0IG1vZHVsZSB0aGF0IGFsbG93cyBjaGlsZHJlbiB0byBpbXBsZW1lbnQgcm9sZS1iYXNlZCBhY2Nlc3MKICogY29udHJvbCBtZWNoYW5pc21zLiBUaGlzIGlzIGEgbGlnaHR3ZWlnaHQgdmVyc2lvbiB0aGF0IGRvZXNuJ3QgYWxsb3cgZW51bWVyYXRpbmcgcm9sZQogKiBtZW1iZXJzIGV4Y2VwdCB0aHJvdWdoIG9mZi1jaGFpbiBtZWFucyBieSBhY2Nlc3NpbmcgdGhlIGNvbnRyYWN0IGV2ZW50IGxvZ3MuIFNvbWUKICogYXBwbGljYXRpb25zIG1heSBiZW5lZml0IGZyb20gb24tY2hhaW4gZW51bWVyYWJpbGl0eSwgZm9yIHRob3NlIGNhc2VzIHNlZQogKiB7QWNjZXNzQ29udHJvbEVudW1lcmFibGV9LgogKgogKiBSb2xlcyBhcmUgcmVmZXJyZWQgdG8gYnkgdGhlaXIgYGJ5dGVzMzJgIGlkZW50aWZpZXIuIFRoZXNlIHNob3VsZCBiZSBleHBvc2VkCiAqIGluIHRoZSBleHRlcm5hbCBBUEkgYW5kIGJlIHVuaXF1ZS4gVGhlIGJlc3Qgd2F5IHRvIGFjaGlldmUgdGhpcyBpcyBieQogKiB1c2luZyBgcHVibGljIGNvbnN0YW50YCBoYXNoIGRpZ2VzdHM6CiAqCiAqIGBgYHNvbGlkaXR5CiAqIGJ5dGVzMzIgcHVibGljIGNvbnN0YW50IE1ZX1JPTEUgPSBrZWNjYWsyNTYoIk1ZX1JPTEUiKTsKICogYGBgCiAqCiAqIFJvbGVzIGNhbiBiZSB1c2VkIHRvIHJlcHJlc2VudCBhIHNldCBvZiBwZXJtaXNzaW9ucy4gVG8gcmVzdHJpY3QgYWNjZXNzIHRvIGEKICogZnVuY3Rpb24gY2FsbCwgdXNlIHtoYXNSb2xlfToKICoKICogYGBgc29saWRpdHkKICogZnVuY3Rpb24gZm9vKCkgcHVibGljIHsKICogICAgIHJlcXVpcmUoaGFzUm9sZShNWV9ST0xFLCBtc2cuc2VuZGVyKSk7CiAqICAgICAuLi4KICogfQogKiBgYGAKICoKICogUm9sZXMgY2FuIGJlIGdyYW50ZWQgYW5kIHJldm9rZWQgZHluYW1pY2FsbHkgdmlhIHRoZSB7Z3JhbnRSb2xlfSBhbmQKICoge3Jldm9rZVJvbGV9IGZ1bmN0aW9ucy4gRWFjaCByb2xlIGhhcyBhbiBhc3NvY2lhdGVkIGFkbWluIHJvbGUsIGFuZCBvbmx5CiAqIGFjY291bnRzIHRoYXQgaGF2ZSBhIHJvbGUncyBhZG1pbiByb2xlIGNhbiBjYWxsIHtncmFudFJvbGV9IGFuZCB7cmV2b2tlUm9sZX0uCiAqCiAqIEJ5IGRlZmF1bHQsIHRoZSBhZG1pbiByb2xlIGZvciBhbGwgcm9sZXMgaXMgYERFRkFVTFRfQURNSU5fUk9MRWAsIHdoaWNoIG1lYW5zCiAqIHRoYXQgb25seSBhY2NvdW50cyB3aXRoIHRoaXMgcm9sZSB3aWxsIGJlIGFibGUgdG8gZ3JhbnQgb3IgcmV2b2tlIG90aGVyCiAqIHJvbGVzLiBNb3JlIGNvbXBsZXggcm9sZSByZWxhdGlvbnNoaXBzIGNhbiBiZSBjcmVhdGVkIGJ5IHVzaW5nCiAqIHtfc2V0Um9sZUFkbWlufS4KICoKICogV0FSTklORzogVGhlIGBERUZBVUxUX0FETUlOX1JPTEVgIGlzIGFsc28gaXRzIG93biBhZG1pbjogaXQgaGFzIHBlcm1pc3Npb24gdG8KICogZ3JhbnQgYW5kIHJldm9rZSB0aGlzIHJvbGUuIEV4dHJhIHByZWNhdXRpb25zIHNob3VsZCBiZSB0YWtlbiB0byBzZWN1cmUKICogYWNjb3VudHMgdGhhdCBoYXZlIGJlZW4gZ3JhbnRlZCBpdC4gV2UgcmVjb21tZW5kIHVzaW5nIHtBY2Nlc3NDb250cm9sRGVmYXVsdEFkbWluUnVsZXN9CiAqIHRvIGVuZm9yY2UgYWRkaXRpb25hbCBzZWN1cml0eSBtZWFzdXJlcyBmb3IgdGhpcyByb2xlLgogKi8KYWJzdHJhY3QgY29udHJhY3QgQWNjZXNzQ29udHJvbCBpcyBDb250ZXh0LCBJQWNjZXNzQ29udHJvbCwgRVJDMTY1IHsKICAgIHN0cnVjdCBSb2xlRGF0YSB7CiAgICAgICAgbWFwcGluZyhhZGRyZXNzIGFjY291bnQgPT4gYm9vbCkgaGFzUm9sZTsKICAgICAgICBieXRlczMyIGFkbWluUm9sZTsKICAgIH0KCiAgICBtYXBwaW5nKGJ5dGVzMzIgcm9sZSA9PiBSb2xlRGF0YSkgcHJpdmF0ZSBfcm9sZXM7CgogICAgYnl0ZXMzMiBwdWJsaWMgY29uc3RhbnQgREVGQVVMVF9BRE1JTl9ST0xFID0gMHgwMDsKCiAgICAvKioKICAgICAqIEBkZXYgTW9kaWZpZXIgdGhhdCBjaGVja3MgdGhhdCBhbiBhY2NvdW50IGhhcyBhIHNwZWNpZmljIHJvbGUuIFJldmVydHMKICAgICAqIHdpdGggYW4ge0FjY2Vzc0NvbnRyb2xVbmF1dGhvcml6ZWRBY2NvdW50fSBlcnJvciBpbmNsdWRpbmcgdGhlIHJlcXVpcmVkIHJvbGUuCiAgICAgKi8KICAgIG1vZGlmaWVyIG9ubHlSb2xlKGJ5dGVzMzIgcm9sZSkgewogICAgICAgIF9jaGVja1JvbGUocm9sZSk7CiAgICAgICAgXzsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgU2VlIHtJRVJDMTY1LXN1cHBvcnRzSW50ZXJmYWNlfS4KICAgICAqLwogICAgZnVuY3Rpb24gc3VwcG9ydHNJbnRlcmZhY2UoYnl0ZXM0IGludGVyZmFjZUlkKSBwdWJsaWMgdmlldyB2aXJ0dWFsIG92ZXJyaWRlIHJldHVybnMgKGJvb2wpIHsKICAgICAgICByZXR1cm4gaW50ZXJmYWNlSWQgPT0gdHlwZShJQWNjZXNzQ29udHJvbCkuaW50ZXJmYWNlSWQgfHwgc3VwZXIuc3VwcG9ydHNJbnRlcmZhY2UoaW50ZXJmYWNlSWQpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBSZXR1cm5zIGB0cnVlYCBpZiBgYWNjb3VudGAgaGFzIGJlZW4gZ3JhbnRlZCBgcm9sZWAuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGhhc1JvbGUoYnl0ZXMzMiByb2xlLCBhZGRyZXNzIGFjY291bnQpIHB1YmxpYyB2aWV3IHZpcnR1YWwgcmV0dXJucyAoYm9vbCkgewogICAgICAgIHJldHVybiBfcm9sZXNbcm9sZV0uaGFzUm9sZVthY2NvdW50XTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUmV2ZXJ0cyB3aXRoIGFuIHtBY2Nlc3NDb250cm9sVW5hdXRob3JpemVkQWNjb3VudH0gZXJyb3IgaWYgYF9tc2dTZW5kZXIoKWAKICAgICAqIGlzIG1pc3NpbmcgYHJvbGVgLiBPdmVycmlkaW5nIHRoaXMgZnVuY3Rpb24gY2hhbmdlcyB0aGUgYmVoYXZpb3Igb2YgdGhlIHtvbmx5Um9sZX0gbW9kaWZpZXIuCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9jaGVja1JvbGUoYnl0ZXMzMiByb2xlKSBpbnRlcm5hbCB2aWV3IHZpcnR1YWwgewogICAgICAgIF9jaGVja1JvbGUocm9sZSwgX21zZ1NlbmRlcigpKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUmV2ZXJ0cyB3aXRoIGFuIHtBY2Nlc3NDb250cm9sVW5hdXRob3JpemVkQWNjb3VudH0gZXJyb3IgaWYgYGFjY291bnRgCiAgICAgKiBpcyBtaXNzaW5nIGByb2xlYC4KICAgICAqLwogICAgZnVuY3Rpb24gX2NoZWNrUm9sZShieXRlczMyIHJvbGUsIGFkZHJlc3MgYWNjb3VudCkgaW50ZXJuYWwgdmlldyB2aXJ0dWFsIHsKICAgICAgICBpZiAoIWhhc1JvbGUocm9sZSwgYWNjb3VudCkpIHsKICAgICAgICAgICAgcmV2ZXJ0IEFjY2Vzc0NvbnRyb2xVbmF1dGhvcml6ZWRBY2NvdW50KGFjY291bnQsIHJvbGUpOwogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyB0aGUgYWRtaW4gcm9sZSB0aGF0IGNvbnRyb2xzIGByb2xlYC4gU2VlIHtncmFudFJvbGV9IGFuZAogICAgICoge3Jldm9rZVJvbGV9LgogICAgICoKICAgICAqIFRvIGNoYW5nZSBhIHJvbGUncyBhZG1pbiwgdXNlIHtfc2V0Um9sZUFkbWlufS4KICAgICAqLwogICAgZnVuY3Rpb24gZ2V0Um9sZUFkbWluKGJ5dGVzMzIgcm9sZSkgcHVibGljIHZpZXcgdmlydHVhbCByZXR1cm5zIChieXRlczMyKSB7CiAgICAgICAgcmV0dXJuIF9yb2xlc1tyb2xlXS5hZG1pblJvbGU7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IEdyYW50cyBgcm9sZWAgdG8gYGFjY291bnRgLgogICAgICoKICAgICAqIElmIGBhY2NvdW50YCBoYWQgbm90IGJlZW4gYWxyZWFkeSBncmFudGVkIGByb2xlYCwgZW1pdHMgYSB7Um9sZUdyYW50ZWR9CiAgICAgKiBldmVudC4KICAgICAqCiAgICAgKiBSZXF1aXJlbWVudHM6CiAgICAgKgogICAgICogLSB0aGUgY2FsbGVyIG11c3QgaGF2ZSBgYHJvbGVgYCdzIGFkbWluIHJvbGUuCiAgICAgKgogICAgICogTWF5IGVtaXQgYSB7Um9sZUdyYW50ZWR9IGV2ZW50LgogICAgICovCiAgICBmdW5jdGlvbiBncmFudFJvbGUoYnl0ZXMzMiByb2xlLCBhZGRyZXNzIGFjY291bnQpIHB1YmxpYyB2aXJ0dWFsIG9ubHlSb2xlKGdldFJvbGVBZG1pbihyb2xlKSkgewogICAgICAgIF9ncmFudFJvbGUocm9sZSwgYWNjb3VudCk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldm9rZXMgYHJvbGVgIGZyb20gYGFjY291bnRgLgogICAgICoKICAgICAqIElmIGBhY2NvdW50YCBoYWQgYmVlbiBncmFudGVkIGByb2xlYCwgZW1pdHMgYSB7Um9sZVJldm9rZWR9IGV2ZW50LgogICAgICoKICAgICAqIFJlcXVpcmVtZW50czoKICAgICAqCiAgICAgKiAtIHRoZSBjYWxsZXIgbXVzdCBoYXZlIGBgcm9sZWBgJ3MgYWRtaW4gcm9sZS4KICAgICAqCiAgICAgKiBNYXkgZW1pdCBhIHtSb2xlUmV2b2tlZH0gZXZlbnQuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHJldm9rZVJvbGUoYnl0ZXMzMiByb2xlLCBhZGRyZXNzIGFjY291bnQpIHB1YmxpYyB2aXJ0dWFsIG9ubHlSb2xlKGdldFJvbGVBZG1pbihyb2xlKSkgewogICAgICAgIF9yZXZva2VSb2xlKHJvbGUsIGFjY291bnQpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBSZXZva2VzIGByb2xlYCBmcm9tIHRoZSBjYWxsaW5nIGFjY291bnQuCiAgICAgKgogICAgICogUm9sZXMgYXJlIG9mdGVuIG1hbmFnZWQgdmlhIHtncmFudFJvbGV9IGFuZCB7cmV2b2tlUm9sZX06IHRoaXMgZnVuY3Rpb24ncwogICAgICogcHVycG9zZSBpcyB0byBwcm92aWRlIGEgbWVjaGFuaXNtIGZvciBhY2NvdW50cyB0byBsb3NlIHRoZWlyIHByaXZpbGVnZXMKICAgICAqIGlmIHRoZXkgYXJlIGNvbXByb21pc2VkIChzdWNoIGFzIHdoZW4gYSB0cnVzdGVkIGRldmljZSBpcyBtaXNwbGFjZWQpLgogICAgICoKICAgICAqIElmIHRoZSBjYWxsaW5nIGFjY291bnQgaGFkIGJlZW4gcmV2b2tlZCBgcm9sZWAsIGVtaXRzIGEge1JvbGVSZXZva2VkfQogICAgICogZXZlbnQuCiAgICAgKgogICAgICogUmVxdWlyZW1lbnRzOgogICAgICoKICAgICAqIC0gdGhlIGNhbGxlciBtdXN0IGJlIGBjYWxsZXJDb25maXJtYXRpb25gLgogICAgICoKICAgICAqIE1heSBlbWl0IGEge1JvbGVSZXZva2VkfSBldmVudC4KICAgICAqLwogICAgZnVuY3Rpb24gcmVub3VuY2VSb2xlKGJ5dGVzMzIgcm9sZSwgYWRkcmVzcyBjYWxsZXJDb25maXJtYXRpb24pIHB1YmxpYyB2aXJ0dWFsIHsKICAgICAgICBpZiAoY2FsbGVyQ29uZmlybWF0aW9uICE9IF9tc2dTZW5kZXIoKSkgewogICAgICAgICAgICByZXZlcnQgQWNjZXNzQ29udHJvbEJhZENvbmZpcm1hdGlvbigpOwogICAgICAgIH0KCiAgICAgICAgX3Jldm9rZVJvbGUocm9sZSwgY2FsbGVyQ29uZmlybWF0aW9uKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgU2V0cyBgYWRtaW5Sb2xlYCBhcyBgYHJvbGVgYCdzIGFkbWluIHJvbGUuCiAgICAgKgogICAgICogRW1pdHMgYSB7Um9sZUFkbWluQ2hhbmdlZH0gZXZlbnQuCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9zZXRSb2xlQWRtaW4oYnl0ZXMzMiByb2xlLCBieXRlczMyIGFkbWluUm9sZSkgaW50ZXJuYWwgdmlydHVhbCB7CiAgICAgICAgYnl0ZXMzMiBwcmV2aW91c0FkbWluUm9sZSA9IGdldFJvbGVBZG1pbihyb2xlKTsKICAgICAgICBfcm9sZXNbcm9sZV0uYWRtaW5Sb2xlID0gYWRtaW5Sb2xlOwogICAgICAgIGVtaXQgUm9sZUFkbWluQ2hhbmdlZChyb2xlLCBwcmV2aW91c0FkbWluUm9sZSwgYWRtaW5Sb2xlKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgQXR0ZW1wdHMgdG8gZ3JhbnQgYHJvbGVgIHRvIGBhY2NvdW50YCBhbmQgcmV0dXJucyBhIGJvb2xlYW4gaW5kaWNhdGluZyBpZiBgcm9sZWAgd2FzIGdyYW50ZWQuCiAgICAgKgogICAgICogSW50ZXJuYWwgZnVuY3Rpb24gd2l0aG91dCBhY2Nlc3MgcmVzdHJpY3Rpb24uCiAgICAgKgogICAgICogTWF5IGVtaXQgYSB7Um9sZUdyYW50ZWR9IGV2ZW50LgogICAgICovCiAgICBmdW5jdGlvbiBfZ3JhbnRSb2xlKGJ5dGVzMzIgcm9sZSwgYWRkcmVzcyBhY2NvdW50KSBpbnRlcm5hbCB2aXJ0dWFsIHJldHVybnMgKGJvb2wpIHsKICAgICAgICBpZiAoIWhhc1JvbGUocm9sZSwgYWNjb3VudCkpIHsKICAgICAgICAgICAgX3JvbGVzW3JvbGVdLmhhc1JvbGVbYWNjb3VudF0gPSB0cnVlOwogICAgICAgICAgICBlbWl0IFJvbGVHcmFudGVkKHJvbGUsIGFjY291bnQsIF9tc2dTZW5kZXIoKSk7CiAgICAgICAgICAgIHJldHVybiB0cnVlOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHJldHVybiBmYWxzZTsKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IEF0dGVtcHRzIHRvIHJldm9rZSBgcm9sZWAgdG8gYGFjY291bnRgIGFuZCByZXR1cm5zIGEgYm9vbGVhbiBpbmRpY2F0aW5nIGlmIGByb2xlYCB3YXMgcmV2b2tlZC4KICAgICAqCiAgICAgKiBJbnRlcm5hbCBmdW5jdGlvbiB3aXRob3V0IGFjY2VzcyByZXN0cmljdGlvbi4KICAgICAqCiAgICAgKiBNYXkgZW1pdCBhIHtSb2xlUmV2b2tlZH0gZXZlbnQuCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9yZXZva2VSb2xlKGJ5dGVzMzIgcm9sZSwgYWRkcmVzcyBhY2NvdW50KSBpbnRlcm5hbCB2aXJ0dWFsIHJldHVybnMgKGJvb2wpIHsKICAgICAgICBpZiAoaGFzUm9sZShyb2xlLCBhY2NvdW50KSkgewogICAgICAgICAgICBfcm9sZXNbcm9sZV0uaGFzUm9sZVthY2NvdW50XSA9IGZhbHNlOwogICAgICAgICAgICBlbWl0IFJvbGVSZXZva2VkKHJvbGUsIGFjY291bnQsIF9tc2dTZW5kZXIoKSk7CiAgICAgICAgICAgIHJldHVybiB0cnVlOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHJldHVybiBmYWxzZTsKICAgICAgICB9CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.0.0) (access/AccessControl.sol)
+
+pragma solidity ^0.8.20;
+
+import {IAccessControl} from "./IAccessControl.sol";
+import {Context} from "../utils/Context.sol";
+import {ERC165} from "../utils/introspection/ERC165.sol";
+
+/**
+ * @dev Contract module that allows children to implement role-based access
+ * control mechanisms. This is a lightweight version that doesn't allow enumerating role
+ * members except through off-chain means by accessing the contract event logs. Some
+ * applications may benefit from on-chain enumerability, for those cases see
+ * {AccessControlEnumerable}.
+ *
+ * Roles are referred to by their `bytes32` identifier. These should be exposed
+ * in the external API and be unique. The best way to achieve this is by
+ * using `public constant` hash digests:
+ *
+ * ```solidity
+ * bytes32 public constant MY_ROLE = keccak256("MY_ROLE");
+ * ```
+ *
+ * Roles can be used to represent a set of permissions. To restrict access to a
+ * function call, use {hasRole}:
+ *
+ * ```solidity
+ * function foo() public {
+ *     require(hasRole(MY_ROLE, msg.sender));
+ *     ...
+ * }
+ * ```
+ *
+ * Roles can be granted and revoked dynamically via the {grantRole} and
+ * {revokeRole} functions. Each role has an associated admin role, and only
+ * accounts that have a role's admin role can call {grantRole} and {revokeRole}.
+ *
+ * By default, the admin role for all roles is `DEFAULT_ADMIN_ROLE`, which means
+ * that only accounts with this role will be able to grant or revoke other
+ * roles. More complex role relationships can be created by using
+ * {_setRoleAdmin}.
+ *
+ * WARNING: The `DEFAULT_ADMIN_ROLE` is also its own admin: it has permission to
+ * grant and revoke this role. Extra precautions should be taken to secure
+ * accounts that have been granted it. We recommend using {AccessControlDefaultAdminRules}
+ * to enforce additional security measures for this role.
+ */
+abstract contract AccessControl is Context, IAccessControl, ERC165 {
+    struct RoleData {
+        mapping(address account => bool) hasRole;
+        bytes32 adminRole;
+    }
+
+    mapping(bytes32 role => RoleData) private _roles;
+
+    bytes32 public constant DEFAULT_ADMIN_ROLE = 0x00;
+
+    /**
+     * @dev Modifier that checks that an account has a specific role. Reverts
+     * with an {AccessControlUnauthorizedAccount} error including the required role.
+     */
+    modifier onlyRole(bytes32 role) {
+        _checkRole(role);
+        _;
+    }
+
+    /**
+     * @dev See {IERC165-supportsInterface}.
+     */
+    function supportsInterface(bytes4 interfaceId) public view virtual override returns (bool) {
+        return interfaceId == type(IAccessControl).interfaceId || super.supportsInterface(interfaceId);
+    }
+
+    /**
+     * @dev Returns `true` if `account` has been granted `role`.
+     */
+    function hasRole(bytes32 role, address account) public view virtual returns (bool) {
+        return _roles[role].hasRole[account];
+    }
+
+    /**
+     * @dev Reverts with an {AccessControlUnauthorizedAccount} error if `_msgSender()`
+     * is missing `role`. Overriding this function changes the behavior of the {onlyRole} modifier.
+     */
+    function _checkRole(bytes32 role) internal view virtual {
+        _checkRole(role, _msgSender());
+    }
+
+    /**
+     * @dev Reverts with an {AccessControlUnauthorizedAccount} error if `account`
+     * is missing `role`.
+     */
+    function _checkRole(bytes32 role, address account) internal view virtual {
+        if (!hasRole(role, account)) {
+            revert AccessControlUnauthorizedAccount(account, role);
+        }
+    }
+
+    /**
+     * @dev Returns the admin role that controls `role`. See {grantRole} and
+     * {revokeRole}.
+     *
+     * To change a role's admin, use {_setRoleAdmin}.
+     */
+    function getRoleAdmin(bytes32 role) public view virtual returns (bytes32) {
+        return _roles[role].adminRole;
+    }
+
+    /**
+     * @dev Grants `role` to `account`.
+     *
+     * If `account` had not been already granted `role`, emits a {RoleGranted}
+     * event.
+     *
+     * Requirements:
+     *
+     * - the caller must have ``role``'s admin role.
+     *
+     * May emit a {RoleGranted} event.
+     */
+    function grantRole(bytes32 role, address account) public virtual onlyRole(getRoleAdmin(role)) {
+        _grantRole(role, account);
+    }
+
+    /**
+     * @dev Revokes `role` from `account`.
+     *
+     * If `account` had been granted `role`, emits a {RoleRevoked} event.
+     *
+     * Requirements:
+     *
+     * - the caller must have ``role``'s admin role.
+     *
+     * May emit a {RoleRevoked} event.
+     */
+    function revokeRole(bytes32 role, address account) public virtual onlyRole(getRoleAdmin(role)) {
+        _revokeRole(role, account);
+    }
+
+    /**
+     * @dev Revokes `role` from the calling account.
+     *
+     * Roles are often managed via {grantRole} and {revokeRole}: this function's
+     * purpose is to provide a mechanism for accounts to lose their privileges
+     * if they are compromised (such as when a trusted device is misplaced).
+     *
+     * If the calling account had been revoked `role`, emits a {RoleRevoked}
+     * event.
+     *
+     * Requirements:
+     *
+     * - the caller must be `callerConfirmation`.
+     *
+     * May emit a {RoleRevoked} event.
+     */
+    function renounceRole(bytes32 role, address callerConfirmation) public virtual {
+        if (callerConfirmation != _msgSender()) {
+            revert AccessControlBadConfirmation();
+        }
+
+        _revokeRole(role, callerConfirmation);
+    }
+
+    /**
+     * @dev Sets `adminRole` as ``role``'s admin role.
+     *
+     * Emits a {RoleAdminChanged} event.
+     */
+    function _setRoleAdmin(bytes32 role, bytes32 adminRole) internal virtual {
+        bytes32 previousAdminRole = getRoleAdmin(role);
+        _roles[role].adminRole = adminRole;
+        emit RoleAdminChanged(role, previousAdminRole, adminRole);
+    }
+
+    /**
+     * @dev Attempts to grant `role` to `account` and returns a boolean indicating if `role` was granted.
+     *
+     * Internal function without access restriction.
+     *
+     * May emit a {RoleGranted} event.
+     */
+    function _grantRole(bytes32 role, address account) internal virtual returns (bool) {
+        if (!hasRole(role, account)) {
+            _roles[role].hasRole[account] = true;
+            emit RoleGranted(role, account, _msgSender());
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    /**
+     * @dev Attempts to revoke `role` to `account` and returns a boolean indicating if `role` was revoked.
+     *
+     * Internal function without access restriction.
+     *
+     * May emit a {RoleRevoked} event.
+     */
+    function _revokeRole(bytes32 role, address account) internal virtual returns (bool) {
+        if (hasRole(role, account)) {
+            _roles[role].hasRole[account] = false;
+            emit RoleRevoked(role, account, _msgSender());
+            return true;
+        } else {
+            return false;
+        }
+    }
+}
