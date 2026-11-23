@@ -1,1 +1,80 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge1Rlc3R9IGZyb20gImZvcmdlLXN0ZC9UZXN0LnNvbCI7CgppbXBvcnQge01hdGh9IGZyb20gIi4uLy4uLy4uL2NvbnRyYWN0cy91dGlscy9tYXRoL01hdGguc29sIjsKaW1wb3J0IHtTaWduZWRNYXRofSBmcm9tICIuLi8uLi8uLi9jb250cmFjdHMvdXRpbHMvbWF0aC9TaWduZWRNYXRoLnNvbCI7Cgpjb250cmFjdCBTaWduZWRNYXRoVGVzdCBpcyBUZXN0IHsKICAgIGZ1bmN0aW9uIHRlc3RTeW1ib2xpY1Rlcm5hcnkoYm9vbCBmLCBpbnQyNTYgYSwgaW50MjU2IGIpIHB1YmxpYyB7CiAgICAgICAgYXNzZXJ0RXEoU2lnbmVkTWF0aC50ZXJuYXJ5KGYsIGEsIGIpLCBmID8gYSA6IGIpOwogICAgfQoKICAgIC8vIE1JTiAmIE1BWAogICAgZnVuY3Rpb24gdGVzdFN5bWJvbGljTWluTWF4KGludDI1NiBhLCBpbnQyNTYgYikgcHVibGljIHsKICAgICAgICBhc3NlcnRFcShTaWduZWRNYXRoLm1pbihhLCBiKSwgYSA8IGIgPyBhIDogYik7CiAgICAgICAgYXNzZXJ0RXEoU2lnbmVkTWF0aC5tYXgoYSwgYiksIGEgPiBiID8gYSA6IGIpOwogICAgfQoKICAgIC8vIE1JTgogICAgZnVuY3Rpb24gdGVzdFN5bWJvbGljTWluKGludDI1NiBhLCBpbnQyNTYgYikgcHVibGljIHsKICAgICAgICBpbnQyNTYgcmVzdWx0ID0gU2lnbmVkTWF0aC5taW4oYSwgYik7CgogICAgICAgIGFzc2VydExlKHJlc3VsdCwgYSk7CiAgICAgICAgYXNzZXJ0TGUocmVzdWx0LCBiKTsKICAgICAgICBhc3NlcnRUcnVlKHJlc3VsdCA9PSBhIHx8IHJlc3VsdCA9PSBiKTsKICAgIH0KCiAgICAvLyBNQVgKICAgIGZ1bmN0aW9uIHRlc3RTeW1ib2xpY01heChpbnQyNTYgYSwgaW50MjU2IGIpIHB1YmxpYyB7CiAgICAgICAgaW50MjU2IHJlc3VsdCA9IFNpZ25lZE1hdGgubWF4KGEsIGIpOwoKICAgICAgICBhc3NlcnRHZShyZXN1bHQsIGEpOwogICAgICAgIGFzc2VydEdlKHJlc3VsdCwgYik7CiAgICAgICAgYXNzZXJ0VHJ1ZShyZXN1bHQgPT0gYSB8fCByZXN1bHQgPT0gYik7CiAgICB9CgogICAgLy8gQVZFUkFHRQogICAgLy8gMS4gc2ltcGxlIHRlc3QsIG5vdCBmdWxsIGludDI1NiByYW5nZQogICAgZnVuY3Rpb24gdGVzdEF2ZXJhZ2UxKGludDI1NiBhLCBpbnQyNTYgYikgcHVibGljIHsKICAgICAgICBhID0gYm91bmQoYSwgdHlwZShpbnQyNTYpLm1pbiAvIDIsIHR5cGUoaW50MjU2KS5tYXggLyAyKTsKICAgICAgICBiID0gYm91bmQoYiwgdHlwZShpbnQyNTYpLm1pbiAvIDIsIHR5cGUoaW50MjU2KS5tYXggLyAyKTsKCiAgICAgICAgaW50MjU2IHJlc3VsdCA9IFNpZ25lZE1hdGguYXZlcmFnZShhLCBiKTsKCiAgICAgICAgYXNzZXJ0RXEocmVzdWx0LCAoYSArIGIpIC8gMik7CiAgICB9CgogICAgLy8gMi4gbW9yZSBjb21wbGV4IHRlc3QsIGZ1bGwgaW50MjU2IHJhbmdlCiAgICBmdW5jdGlvbiB0ZXN0QXZlcmFnZTIoaW50MjU2IGEsIGludDI1NiBiKSBwdWJsaWMgewogICAgICAgIChpbnQyNTYgcmVzdWx0LCBpbnQyNTYgbWluLCBpbnQyNTYgbWF4KSA9ICgKICAgICAgICAgICAgU2lnbmVkTWF0aC5hdmVyYWdlKGEsIGIpLAogICAgICAgICAgICBTaWduZWRNYXRoLm1pbihhLCBiKSwKICAgICAgICAgICAgU2lnbmVkTWF0aC5tYXgoYSwgYikKICAgICAgICApOwoKICAgICAgICAvLyBhdmVyYWdlIG11c3QgYmUgYmV0d2VlbiBgYWAgYW5kIGBiYAogICAgICAgIGFzc2VydEdlKHJlc3VsdCwgbWluKTsKICAgICAgICBhc3NlcnRMZShyZXN1bHQsIG1heCk7CgogICAgICAgIHVuY2hlY2tlZCB7CiAgICAgICAgICAgIC8vIG11c3QgYmUgdW5jaGVja2VkIGluIG9yZGVyIHRvIHN1cHBvcnQgYGEgPSB0eXBlKGludDI1NikubWluLCBiID0gdHlwZShpbnQyNTYpLm1heGAKICAgICAgICAgICAgdWludDI1NiBkZWx0YUxvd2VyID0gdWludDI1NihyZXN1bHQgLSBtaW4pOwogICAgICAgICAgICB1aW50MjU2IGRlbHRhVXBwZXIgPSB1aW50MjU2KG1heCAtIHJlc3VsdCk7CiAgICAgICAgICAgIHVpbnQyNTYgcmVtYWluZGVyID0gdWludDI1NigoYSAmIDEpIF4gKGIgJiAxKSk7CiAgICAgICAgICAgIGFzc2VydEVxKHJlbWFpbmRlciwgTWF0aC5tYXgoZGVsdGFMb3dlciwgZGVsdGFVcHBlcikgLSBNYXRoLm1pbihkZWx0YUxvd2VyLCBkZWx0YVVwcGVyKSk7CiAgICAgICAgfQogICAgfQoKICAgIC8vIEFCUwogICAgZnVuY3Rpb24gdGVzdFN5bWJvbGljQWJzKGludDI1NiBhKSBwdWJsaWMgewogICAgICAgIHVpbnQyNTYgcmVzdWx0ID0gU2lnbmVkTWF0aC5hYnMoYSk7CgogICAgICAgIHVuY2hlY2tlZCB7CiAgICAgICAgICAgIC8vIG11c3QgYmUgdW5jaGVja2VkIGluIG9yZGVyIHRvIHN1cHBvcnQgYG4gPSB0eXBlKGludDI1NikubWluYAogICAgICAgICAgICBhc3NlcnRFcShyZXN1bHQsIGEgPCAwID8gdWludDI1NigtYSkgOiB1aW50MjU2KGEpKTsKICAgICAgICB9CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {Test} from "forge-std/Test.sol";
+
+import {Math} from "../../../contracts/utils/math/Math.sol";
+import {SignedMath} from "../../../contracts/utils/math/SignedMath.sol";
+
+contract SignedMathTest is Test {
+    function testSymbolicTernary(bool f, int256 a, int256 b) public {
+        assertEq(SignedMath.ternary(f, a, b), f ? a : b);
+    }
+
+    // MIN & MAX
+    function testSymbolicMinMax(int256 a, int256 b) public {
+        assertEq(SignedMath.min(a, b), a < b ? a : b);
+        assertEq(SignedMath.max(a, b), a > b ? a : b);
+    }
+
+    // MIN
+    function testSymbolicMin(int256 a, int256 b) public {
+        int256 result = SignedMath.min(a, b);
+
+        assertLe(result, a);
+        assertLe(result, b);
+        assertTrue(result == a || result == b);
+    }
+
+    // MAX
+    function testSymbolicMax(int256 a, int256 b) public {
+        int256 result = SignedMath.max(a, b);
+
+        assertGe(result, a);
+        assertGe(result, b);
+        assertTrue(result == a || result == b);
+    }
+
+    // AVERAGE
+    // 1. simple test, not full int256 range
+    function testAverage1(int256 a, int256 b) public {
+        a = bound(a, type(int256).min / 2, type(int256).max / 2);
+        b = bound(b, type(int256).min / 2, type(int256).max / 2);
+
+        int256 result = SignedMath.average(a, b);
+
+        assertEq(result, (a + b) / 2);
+    }
+
+    // 2. more complex test, full int256 range
+    function testAverage2(int256 a, int256 b) public {
+        (int256 result, int256 min, int256 max) = (
+            SignedMath.average(a, b),
+            SignedMath.min(a, b),
+            SignedMath.max(a, b)
+        );
+
+        // average must be between `a` and `b`
+        assertGe(result, min);
+        assertLe(result, max);
+
+        unchecked {
+            // must be unchecked in order to support `a = type(int256).min, b = type(int256).max`
+            uint256 deltaLower = uint256(result - min);
+            uint256 deltaUpper = uint256(max - result);
+            uint256 remainder = uint256((a & 1) ^ (b & 1));
+            assertEq(remainder, Math.max(deltaLower, deltaUpper) - Math.min(deltaLower, deltaUpper));
+        }
+    }
+
+    // ABS
+    function testSymbolicAbs(int256 a) public {
+        uint256 result = SignedMath.abs(a);
+
+        unchecked {
+            // must be unchecked in order to support `n = type(int256).min`
+            assertEq(result, a < 0 ? uint256(-a) : uint256(a));
+        }
+    }
+}
