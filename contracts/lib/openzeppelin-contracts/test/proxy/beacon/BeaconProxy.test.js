@@ -1,1 +1,141 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKY29uc3QgeyBnZXRBZGRyZXNzSW5TbG90LCBCZWFjb25TbG90IH0gPSByZXF1aXJlKCcuLi8uLi9oZWxwZXJzL3N0b3JhZ2UnKTsKCmFzeW5jIGZ1bmN0aW9uIGZpeHR1cmUoKSB7CiAgY29uc3QgW2FkbWluLCBvdGhlcl0gPSBhd2FpdCBldGhlcnMuZ2V0U2lnbmVycygpOwoKICBjb25zdCB2MSA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnRHVtbXlJbXBsZW1lbnRhdGlvbicpOwogIGNvbnN0IHYyID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCdEdW1teUltcGxlbWVudGF0aW9uVjInKTsKICBjb25zdCBmYWN0b3J5ID0gYXdhaXQgZXRoZXJzLmdldENvbnRyYWN0RmFjdG9yeSgnQmVhY29uUHJveHknKTsKICBjb25zdCBiZWFjb24gPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJ1VwZ3JhZGVhYmxlQmVhY29uJywgW3YxLCBhZG1pbl0pOwoKICBjb25zdCBuZXdCZWFjb25Qcm94eSA9IChiZWFjb24sIGRhdGEsIG9wdHMgPSB7fSkgPT4gZmFjdG9yeS5kZXBsb3koYmVhY29uLCBkYXRhLCBvcHRzKTsKCiAgcmV0dXJuIHsgYWRtaW4sIG90aGVyLCBmYWN0b3J5LCBiZWFjb24sIHYxLCB2MiwgbmV3QmVhY29uUHJveHkgfTsKfQoKZGVzY3JpYmUoJ0JlYWNvblByb3h5JywgZnVuY3Rpb24gKCkgewogIGJlZm9yZUVhY2goYXN5bmMgZnVuY3Rpb24gKCkgewogICAgT2JqZWN0LmFzc2lnbih0aGlzLCBhd2FpdCBsb2FkRml4dHVyZShmaXh0dXJlKSk7CiAgfSk7CgogIGRlc2NyaWJlKCdiYWQgYmVhY29uIGlzIG5vdCBhY2NlcHRlZCcsIGZ1bmN0aW9uICgpIHsKICAgIGl0KCdub24tY29udHJhY3QgYmVhY29uJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCBub3RCZWFjb24gPSB0aGlzLm90aGVyOwoKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMubmV3QmVhY29uUHJveHkobm90QmVhY29uLCAnMHgnKSkKICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy5mYWN0b3J5LCAnRVJDMTk2N0ludmFsaWRCZWFjb24nKQogICAgICAgIC53aXRoQXJncyhub3RCZWFjb24pOwogICAgfSk7CgogICAgaXQoJ25vbi1jb21wbGlhbnQgYmVhY29uJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCBiYWRCZWFjb24gPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJ0JhZEJlYWNvbk5vSW1wbCcpOwoKICAgICAgLy8gQmFkQmVhY29uTm9JbXBsIGRvZXMgbm90IHByb3ZpZGUgYGltcGxlbWVudGF0aW9uKClgIGhhcyBubyBmYWxsYmFjay4KICAgICAgLy8gVGhpcyBjYXVzZXMgRVJDMTk2N1V0aWxzLl9zZXRCZWFjb24gdG8gcmV2ZXJ0LgogICAgICBhd2FpdCBleHBlY3QodGhpcy5uZXdCZWFjb25Qcm94eShiYWRCZWFjb24sICcweCcpKS50by5iZS5yZXZlcnRlZFdpdGhvdXRSZWFzb24oKTsKICAgIH0pOwoKICAgIGl0KCdub24tY29udHJhY3QgaW1wbGVtZW50YXRpb24nLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGNvbnN0IGJhZEJlYWNvbiA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnQmFkQmVhY29uTm90Q29udHJhY3QnKTsKCiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm5ld0JlYWNvblByb3h5KGJhZEJlYWNvbiwgJzB4JykpCiAgICAgICAgLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMuZmFjdG9yeSwgJ0VSQzE5NjdJbnZhbGlkSW1wbGVtZW50YXRpb24nKQogICAgICAgIC53aXRoQXJncyhhd2FpdCBiYWRCZWFjb24uaW1wbGVtZW50YXRpb24oKSk7CiAgICB9KTsKICB9KTsKCiAgZGVzY3JpYmUoJ2luaXRpYWxpemF0aW9uJywgZnVuY3Rpb24gKCkgewogICAgYXN5bmMgZnVuY3Rpb24gYXNzZXJ0SW5pdGlhbGl6ZWQoeyB2YWx1ZSwgYmFsYW5jZSB9KSB7CiAgICAgIGNvbnN0IGJlYWNvbkFkZHJlc3MgPSBhd2FpdCBnZXRBZGRyZXNzSW5TbG90KHRoaXMucHJveHksIEJlYWNvblNsb3QpOwogICAgICBleHBlY3QoYmVhY29uQWRkcmVzcykudG8uZXF1YWwodGhpcy5iZWFjb24pOwoKICAgICAgY29uc3QgZHVtbXkgPSB0aGlzLnYxLmF0dGFjaCh0aGlzLnByb3h5KTsKICAgICAgZXhwZWN0KGF3YWl0IGR1bW15LnZhbHVlKCkpLnRvLmVxdWFsKHZhbHVlKTsKCiAgICAgIGV4cGVjdChhd2FpdCBldGhlcnMucHJvdmlkZXIuZ2V0QmFsYW5jZSh0aGlzLnByb3h5KSkudG8uZXF1YWwoYmFsYW5jZSk7CiAgICB9CgogICAgaXQoJ25vIGluaXRpYWxpemF0aW9uJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICB0aGlzLnByb3h5ID0gYXdhaXQgdGhpcy5uZXdCZWFjb25Qcm94eSh0aGlzLmJlYWNvbiwgJzB4Jyk7CiAgICAgIGF3YWl0IGFzc2VydEluaXRpYWxpemVkLmJpbmQodGhpcykoeyB2YWx1ZTogMG4sIGJhbGFuY2U6IDBuIH0pOwogICAgfSk7CgogICAgaXQoJ25vbi1wYXlhYmxlIGluaXRpYWxpemF0aW9uJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCB2YWx1ZSA9IDU1bjsKICAgICAgY29uc3QgZGF0YSA9IHRoaXMudjEuaW50ZXJmYWNlLmVuY29kZUZ1bmN0aW9uRGF0YSgnaW5pdGlhbGl6ZU5vblBheWFibGVXaXRoVmFsdWUnLCBbdmFsdWVdKTsKCiAgICAgIHRoaXMucHJveHkgPSBhd2FpdCB0aGlzLm5ld0JlYWNvblByb3h5KHRoaXMuYmVhY29uLCBkYXRhKTsKICAgICAgYXdhaXQgYXNzZXJ0SW5pdGlhbGl6ZWQuYmluZCh0aGlzKSh7IHZhbHVlLCBiYWxhbmNlOiAwbiB9KTsKICAgIH0pOwoKICAgIGl0KCdwYXlhYmxlIGluaXRpYWxpemF0aW9uJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCB2YWx1ZSA9IDU1bjsKICAgICAgY29uc3QgZGF0YSA9IHRoaXMudjEuaW50ZXJmYWNlLmVuY29kZUZ1bmN0aW9uRGF0YSgnaW5pdGlhbGl6ZVBheWFibGVXaXRoVmFsdWUnLCBbdmFsdWVdKTsKICAgICAgY29uc3QgYmFsYW5jZSA9IDEwMG47CgogICAgICB0aGlzLnByb3h5ID0gYXdhaXQgdGhpcy5uZXdCZWFjb25Qcm94eSh0aGlzLmJlYWNvbiwgZGF0YSwgeyB2YWx1ZTogYmFsYW5jZSB9KTsKICAgICAgYXdhaXQgYXNzZXJ0SW5pdGlhbGl6ZWQuYmluZCh0aGlzKSh7IHZhbHVlLCBiYWxhbmNlIH0pOwogICAgfSk7CgogICAgaXQoJ3JldmVydGluZyBpbml0aWFsaXphdGlvbiBkdWUgdG8gdmFsdWUnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm5ld0JlYWNvblByb3h5KHRoaXMuYmVhY29uLCAnMHgnLCB7IHZhbHVlOiAxbiB9KSkudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IoCiAgICAgICAgdGhpcy5mYWN0b3J5LAogICAgICAgICdFUkMxOTY3Tm9uUGF5YWJsZScsCiAgICAgICk7CiAgICB9KTsKCiAgICBpdCgncmV2ZXJ0aW5nIGluaXRpYWxpemF0aW9uIGZ1bmN0aW9uJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCBkYXRhID0gdGhpcy52MS5pbnRlcmZhY2UuZW5jb2RlRnVuY3Rpb25EYXRhKCdyZXZlcnRzJyk7CiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm5ld0JlYWNvblByb3h5KHRoaXMuYmVhY29uLCBkYXRhKSkudG8uYmUucmV2ZXJ0ZWRXaXRoKCdEdW1teUltcGxlbWVudGF0aW9uIHJldmVydGVkJyk7CiAgICB9KTsKICB9KTsKCiAgZGVzY3JpYmUoJ3VwZ3JhZGUnLCBmdW5jdGlvbiAoKSB7CiAgICBpdCgndXBncmFkZSBhIHByb3h5IGJ5IHVwZ3JhZGluZyBpdHMgYmVhY29uJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCB2YWx1ZSA9IDEwbjsKICAgICAgY29uc3QgZGF0YSA9IHRoaXMudjEuaW50ZXJmYWNlLmVuY29kZUZ1bmN0aW9uRGF0YSgnaW5pdGlhbGl6ZU5vblBheWFibGVXaXRoVmFsdWUnLCBbdmFsdWVdKTsKICAgICAgY29uc3QgcHJveHkgPSBhd2FpdCB0aGlzLm5ld0JlYWNvblByb3h5KHRoaXMuYmVhY29uLCBkYXRhKS50aGVuKGluc3RhbmNlID0+IHRoaXMudjEuYXR0YWNoKGluc3RhbmNlKSk7CgogICAgICAvLyB0ZXN0IGluaXRpYWwgdmFsdWVzCiAgICAgIGV4cGVjdChhd2FpdCBwcm94eS52YWx1ZSgpKS50by5lcXVhbCh2YWx1ZSk7CgogICAgICAvLyB0ZXN0IGluaXRpYWwgdmVyc2lvbgogICAgICBleHBlY3QoYXdhaXQgcHJveHkudmVyc2lvbigpKS50by5lcXVhbCgnVjEnKTsKCiAgICAgIC8vIHVwZ3JhZGUgYmVhY29uCiAgICAgIGF3YWl0IHRoaXMuYmVhY29uLmNvbm5lY3QodGhpcy5hZG1pbikudXBncmFkZVRvKHRoaXMudjIpOwoKICAgICAgLy8gdGVzdCB1cGdyYWRlZCB2ZXJzaW9uCiAgICAgIGV4cGVjdChhd2FpdCBwcm94eS52ZXJzaW9uKCkpLnRvLmVxdWFsKCdWMicpOwogICAgfSk7CgogICAgaXQoJ3VwZ3JhZGUgMiBwcm94aWVzIGJ5IHVwZ3JhZGluZyBzaGFyZWQgYmVhY29uJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCB2YWx1ZTEgPSAxMG47CiAgICAgIGNvbnN0IGRhdGExID0gdGhpcy52MS5pbnRlcmZhY2UuZW5jb2RlRnVuY3Rpb25EYXRhKCdpbml0aWFsaXplTm9uUGF5YWJsZVdpdGhWYWx1ZScsIFt2YWx1ZTFdKTsKICAgICAgY29uc3QgcHJveHkxID0gYXdhaXQgdGhpcy5uZXdCZWFjb25Qcm94eSh0aGlzLmJlYWNvbiwgZGF0YTEpLnRoZW4oaW5zdGFuY2UgPT4gdGhpcy52MS5hdHRhY2goaW5zdGFuY2UpKTsKCiAgICAgIGNvbnN0IHZhbHVlMiA9IDQybjsKICAgICAgY29uc3QgZGF0YTIgPSB0aGlzLnYxLmludGVyZmFjZS5lbmNvZGVGdW5jdGlvbkRhdGEoJ2luaXRpYWxpemVOb25QYXlhYmxlV2l0aFZhbHVlJywgW3ZhbHVlMl0pOwogICAgICBjb25zdCBwcm94eTIgPSBhd2FpdCB0aGlzLm5ld0JlYWNvblByb3h5KHRoaXMuYmVhY29uLCBkYXRhMikudGhlbihpbnN0YW5jZSA9PiB0aGlzLnYxLmF0dGFjaChpbnN0YW5jZSkpOwoKICAgICAgLy8gdGVzdCBpbml0aWFsIHZhbHVlcwogICAgICBleHBlY3QoYXdhaXQgcHJveHkxLnZhbHVlKCkpLnRvLmVxdWFsKHZhbHVlMSk7CiAgICAgIGV4cGVjdChhd2FpdCBwcm94eTIudmFsdWUoKSkudG8uZXF1YWwodmFsdWUyKTsKCiAgICAgIC8vIHRlc3QgaW5pdGlhbCB2ZXJzaW9uCiAgICAgIGV4cGVjdChhd2FpdCBwcm94eTEudmVyc2lvbigpKS50by5lcXVhbCgnVjEnKTsKICAgICAgZXhwZWN0KGF3YWl0IHByb3h5Mi52ZXJzaW9uKCkpLnRvLmVxdWFsKCdWMScpOwoKICAgICAgLy8gdXBncmFkZSBiZWFjb24KICAgICAgYXdhaXQgdGhpcy5iZWFjb24uY29ubmVjdCh0aGlzLmFkbWluKS51cGdyYWRlVG8odGhpcy52Mik7CgogICAgICAvLyB0ZXN0IHVwZ3JhZGVkIHZlcnNpb24KICAgICAgZXhwZWN0KGF3YWl0IHByb3h5MS52ZXJzaW9uKCkpLnRvLmVxdWFsKCdWMicpOwogICAgICBleHBlY3QoYXdhaXQgcHJveHkyLnZlcnNpb24oKSkudG8uZXF1YWwoJ1YyJyk7CiAgICB9KTsKICB9KTsKfSk7Cg==
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+const { getAddressInSlot, BeaconSlot } = require('../../helpers/storage');
+
+async function fixture() {
+  const [admin, other] = await ethers.getSigners();
+
+  const v1 = await ethers.deployContract('DummyImplementation');
+  const v2 = await ethers.deployContract('DummyImplementationV2');
+  const factory = await ethers.getContractFactory('BeaconProxy');
+  const beacon = await ethers.deployContract('UpgradeableBeacon', [v1, admin]);
+
+  const newBeaconProxy = (beacon, data, opts = {}) => factory.deploy(beacon, data, opts);
+
+  return { admin, other, factory, beacon, v1, v2, newBeaconProxy };
+}
+
+describe('BeaconProxy', function () {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  describe('bad beacon is not accepted', function () {
+    it('non-contract beacon', async function () {
+      const notBeacon = this.other;
+
+      await expect(this.newBeaconProxy(notBeacon, '0x'))
+        .to.be.revertedWithCustomError(this.factory, 'ERC1967InvalidBeacon')
+        .withArgs(notBeacon);
+    });
+
+    it('non-compliant beacon', async function () {
+      const badBeacon = await ethers.deployContract('BadBeaconNoImpl');
+
+      // BadBeaconNoImpl does not provide `implementation()` has no fallback.
+      // This causes ERC1967Utils._setBeacon to revert.
+      await expect(this.newBeaconProxy(badBeacon, '0x')).to.be.revertedWithoutReason();
+    });
+
+    it('non-contract implementation', async function () {
+      const badBeacon = await ethers.deployContract('BadBeaconNotContract');
+
+      await expect(this.newBeaconProxy(badBeacon, '0x'))
+        .to.be.revertedWithCustomError(this.factory, 'ERC1967InvalidImplementation')
+        .withArgs(await badBeacon.implementation());
+    });
+  });
+
+  describe('initialization', function () {
+    async function assertInitialized({ value, balance }) {
+      const beaconAddress = await getAddressInSlot(this.proxy, BeaconSlot);
+      expect(beaconAddress).to.equal(this.beacon);
+
+      const dummy = this.v1.attach(this.proxy);
+      expect(await dummy.value()).to.equal(value);
+
+      expect(await ethers.provider.getBalance(this.proxy)).to.equal(balance);
+    }
+
+    it('no initialization', async function () {
+      this.proxy = await this.newBeaconProxy(this.beacon, '0x');
+      await assertInitialized.bind(this)({ value: 0n, balance: 0n });
+    });
+
+    it('non-payable initialization', async function () {
+      const value = 55n;
+      const data = this.v1.interface.encodeFunctionData('initializeNonPayableWithValue', [value]);
+
+      this.proxy = await this.newBeaconProxy(this.beacon, data);
+      await assertInitialized.bind(this)({ value, balance: 0n });
+    });
+
+    it('payable initialization', async function () {
+      const value = 55n;
+      const data = this.v1.interface.encodeFunctionData('initializePayableWithValue', [value]);
+      const balance = 100n;
+
+      this.proxy = await this.newBeaconProxy(this.beacon, data, { value: balance });
+      await assertInitialized.bind(this)({ value, balance });
+    });
+
+    it('reverting initialization due to value', async function () {
+      await expect(this.newBeaconProxy(this.beacon, '0x', { value: 1n })).to.be.revertedWithCustomError(
+        this.factory,
+        'ERC1967NonPayable',
+      );
+    });
+
+    it('reverting initialization function', async function () {
+      const data = this.v1.interface.encodeFunctionData('reverts');
+      await expect(this.newBeaconProxy(this.beacon, data)).to.be.revertedWith('DummyImplementation reverted');
+    });
+  });
+
+  describe('upgrade', function () {
+    it('upgrade a proxy by upgrading its beacon', async function () {
+      const value = 10n;
+      const data = this.v1.interface.encodeFunctionData('initializeNonPayableWithValue', [value]);
+      const proxy = await this.newBeaconProxy(this.beacon, data).then(instance => this.v1.attach(instance));
+
+      // test initial values
+      expect(await proxy.value()).to.equal(value);
+
+      // test initial version
+      expect(await proxy.version()).to.equal('V1');
+
+      // upgrade beacon
+      await this.beacon.connect(this.admin).upgradeTo(this.v2);
+
+      // test upgraded version
+      expect(await proxy.version()).to.equal('V2');
+    });
+
+    it('upgrade 2 proxies by upgrading shared beacon', async function () {
+      const value1 = 10n;
+      const data1 = this.v1.interface.encodeFunctionData('initializeNonPayableWithValue', [value1]);
+      const proxy1 = await this.newBeaconProxy(this.beacon, data1).then(instance => this.v1.attach(instance));
+
+      const value2 = 42n;
+      const data2 = this.v1.interface.encodeFunctionData('initializeNonPayableWithValue', [value2]);
+      const proxy2 = await this.newBeaconProxy(this.beacon, data2).then(instance => this.v1.attach(instance));
+
+      // test initial values
+      expect(await proxy1.value()).to.equal(value1);
+      expect(await proxy2.value()).to.equal(value2);
+
+      // test initial version
+      expect(await proxy1.version()).to.equal('V1');
+      expect(await proxy2.version()).to.equal('V1');
+
+      // upgrade beacon
+      await this.beacon.connect(this.admin).upgradeTo(this.v2);
+
+      // test upgraded version
+      expect(await proxy1.version()).to.equal('V2');
+      expect(await proxy2.version()).to.equal('V2');
+    });
+  });
+});
