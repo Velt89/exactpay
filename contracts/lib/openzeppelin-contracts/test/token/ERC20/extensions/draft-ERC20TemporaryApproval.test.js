@@ -1,1 +1,142 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwpjb25zdCB7IG1heCwgbWluIH0gPSByZXF1aXJlKCcuLi8uLi8uLi9oZWxwZXJzL21hdGguanMnKTsKCmNvbnN0IHsgc2hvdWxkQmVoYXZlTGlrZUVSQzIwIH0gPSByZXF1aXJlKCcuLi9FUkMyMC5iZWhhdmlvci5qcycpOwoKY29uc3QgbmFtZSA9ICdNeSBUb2tlbic7CmNvbnN0IHN5bWJvbCA9ICdNVEtOJzsKY29uc3QgaW5pdGlhbFN1cHBseSA9IDEwMG47Cgphc3luYyBmdW5jdGlvbiBmaXh0dXJlKCkgewogIC8vIHRoaXMuYWNjb3VudHMgaXMgdXNlZCBieSBzaG91bGRCZWhhdmVMaWtlRVJDMjAKICBjb25zdCBhY2NvdW50cyA9IGF3YWl0IGV0aGVycy5nZXRTaWduZXJzKCk7CiAgY29uc3QgW2hvbGRlciwgcmVjaXBpZW50LCBvdGhlcl0gPSBhY2NvdW50czsKCiAgY29uc3QgdG9rZW4gPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJyRFUkMyMFRlbXBvcmFyeUFwcHJvdmFsJywgW25hbWUsIHN5bWJvbF0pOwogIGF3YWl0IHRva2VuLiRfbWludChob2xkZXIsIGluaXRpYWxTdXBwbHkpOwoKICBjb25zdCBzcGVuZGVyID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCckQWRkcmVzcycpOwogIGNvbnN0IGJhdGNoID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCdCYXRjaENhbGxlcicpOwogIGNvbnN0IGdldHRlciA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnRVJDMjBHZXR0ZXJIZWxwZXInKTsKCiAgcmV0dXJuIHsgYWNjb3VudHMsIGhvbGRlciwgcmVjaXBpZW50LCBvdGhlciwgdG9rZW4sIHNwZW5kZXIsIGJhdGNoLCBnZXR0ZXIgfTsKfQoKZGVzY3JpYmUoJ0VSQzIwVGVtcG9yYXJ5QXBwcm92YWwnLCBmdW5jdGlvbiAoKSB7CiAgYmVmb3JlRWFjaChhc3luYyBmdW5jdGlvbiAoKSB7CiAgICBPYmplY3QuYXNzaWduKHRoaXMsIGF3YWl0IGxvYWRGaXh0dXJlKGZpeHR1cmUpKTsKICB9KTsKCiAgc2hvdWxkQmVoYXZlTGlrZUVSQzIwKGluaXRpYWxTdXBwbHkpOwoKICBkZXNjcmliZSgnc2V0dGluZyBhbmQgc3BlbmRpbmcgdGVtcG9yYXJ5IGFsbG93YW5jZScsIGZ1bmN0aW9uICgpIHsKICAgIGJlZm9yZUVhY2goYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCB0aGlzLnRva2VuLmNvbm5lY3QodGhpcy5ob2xkZXIpLnRyYW5zZmVyKHRoaXMuYmF0Y2gsIGluaXRpYWxTdXBwbHkpOwogICAgfSk7CgogICAgZm9yIChsZXQgewogICAgICBkZXNjcmlwdGlvbiwKICAgICAgcGVyc2lzdGVudEFsbG93YW5jZSwKICAgICAgdGVtcG9yYXJ5QWxsb3dhbmNlLAogICAgICBhbW91bnQsCiAgICAgIHRlbXBvcmFyeUV4cGVjdGVkLAogICAgICBwZXJzaXN0ZW50RXhwZWN0ZWQsCiAgICB9IG9mIFsKICAgICAgeyBkZXNjcmlwdGlvbjogJ2NhbiBzZXQgdGVtcG9yYXJ5IGFsbG93YW5jZScsIHRlbXBvcmFyeUFsbG93YW5jZTogNDJuIH0sCiAgICAgIHsKICAgICAgICBkZXNjcmlwdGlvbjogJ2NhbiBzZXQgdGVtcG9yYXJ5IGFsbG93YW5jZSBvbiB0b3Agb2YgcGVyc2lzdGVudCBhbGxvd2FuY2UnLAogICAgICAgIHRlbXBvcmFyeUFsbG93YW5jZTogNDJuLAogICAgICAgIHBlcnNpc3RlbnRBbGxvd2FuY2U6IDE3biwKICAgICAgfSwKICAgICAgeyBkZXNjcmlwdGlvbjogJ3N1cHBvcnQgYWxsb3dhbmNlIG92ZXJmbG93JywgdGVtcG9yYXJ5QWxsb3dhbmNlOiBldGhlcnMuTWF4VWludDI1NiwgcGVyc2lzdGVudEFsbG93YW5jZTogMTduIH0sCiAgICAgIHsgZGVzY3JpcHRpb246ICdjb25zdW1pbmcgdGVtcG9yYXJ5IGFsbG93YW5jZSBhbG9uZScsIHRlbXBvcmFyeUFsbG93YW5jZTogNDJuLCBhbW91bnQ6IDJuIH0sCiAgICAgIHsKICAgICAgICBkZXNjcmlwdGlvbjogJ2ZhbGxiYWNrIHRvIHBlcnNpc3RlbnQgYWxsb3dhbmNlIGlmIHRlbXBvcmFyeSBhbGxvd2FuY2UgaXMgbm90IHN1ZmZpY2llbnQnLAogICAgICAgIHRlbXBvcmFyeUFsbG93YW5jZTogNDJuLAogICAgICAgIHBlcnNpc3RlbnRBbGxvd2FuY2U6IDE3biwKICAgICAgICBhbW91bnQ6IDUwbiwKICAgICAgfSwKICAgICAgewogICAgICAgIGRlc2NyaXB0aW9uOiAnZG8gbm90IHJlZHVjZSBpbmZpbml0ZSB0ZW1wb3JhcnkgYWxsb3dhbmNlICMxJywKICAgICAgICB0ZW1wb3JhcnlBbGxvd2FuY2U6IGV0aGVycy5NYXhVaW50MjU2LAogICAgICAgIGFtb3VudDogNTBuLAogICAgICAgIHRlbXBvcmFyeUV4cGVjdGVkOiBldGhlcnMuTWF4VWludDI1NiwKICAgICAgfSwKICAgICAgewogICAgICAgIGRlc2NyaXB0aW9uOiAnZG8gbm90IHJlZHVjZSBpbmZpbml0ZSB0ZW1wb3JhcnkgYWxsb3dhbmNlICMyJywKICAgICAgICB0ZW1wb3JhcnlBbGxvd2FuY2U6IDE3biwKICAgICAgICBwZXJzaXN0ZW50QWxsb3dhbmNlOiBldGhlcnMuTWF4VWludDI1NiwKICAgICAgICBhbW91bnQ6IDUwbiwKICAgICAgICB0ZW1wb3JhcnlFeHBlY3RlZDogZXRoZXJzLk1heFVpbnQyNTYsCiAgICAgICAgcGVyc2lzdGVudEV4cGVjdGVkOiBldGhlcnMuTWF4VWludDI1NiwKICAgICAgfSwKICAgIF0pIHsKICAgICAgcGVyc2lzdGVudEFsbG93YW5jZSA/Pz0gMG47CiAgICAgIHRlbXBvcmFyeUFsbG93YW5jZSA/Pz0gMG47CiAgICAgIGFtb3VudCA/Pz0gMG47CiAgICAgIHRlbXBvcmFyeUV4cGVjdGVkID8/PSBtaW4ocGVyc2lzdGVudEFsbG93YW5jZSArIHRlbXBvcmFyeUFsbG93YW5jZSAtIGFtb3VudCwgZXRoZXJzLk1heFVpbnQyNTYpOwogICAgICBwZXJzaXN0ZW50RXhwZWN0ZWQgPz89IHBlcnNpc3RlbnRBbGxvd2FuY2UgLSBtYXgoYW1vdW50IC0gdGVtcG9yYXJ5QWxsb3dhbmNlLCAwbik7CgogICAgICBpdChkZXNjcmlwdGlvbiwgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGF3YWl0IGV4cGVjdCgKICAgICAgICAgIHRoaXMuYmF0Y2guZXhlY3V0ZSgKICAgICAgICAgICAgWwogICAgICAgICAgICAgIHBlcnNpc3RlbnRBbGxvd2FuY2UgJiYgewogICAgICAgICAgICAgICAgdGFyZ2V0OiB0aGlzLnRva2VuLAogICAgICAgICAgICAgICAgdmFsdWU6IDBuLAogICAgICAgICAgICAgICAgZGF0YTogdGhpcy50b2tlbi5pbnRlcmZhY2UuZW5jb2RlRnVuY3Rpb25EYXRhKCdhcHByb3ZlJywgW3RoaXMuc3BlbmRlci50YXJnZXQsIHBlcnNpc3RlbnRBbGxvd2FuY2VdKSwKICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgIHRlbXBvcmFyeUFsbG93YW5jZSAmJiB7CiAgICAgICAgICAgICAgICB0YXJnZXQ6IHRoaXMudG9rZW4sCiAgICAgICAgICAgICAgICB2YWx1ZTogMG4sCiAgICAgICAgICAgICAgICBkYXRhOiB0aGlzLnRva2VuLmludGVyZmFjZS5lbmNvZGVGdW5jdGlvbkRhdGEoJ3RlbXBvcmFyeUFwcHJvdmUnLCBbCiAgICAgICAgICAgICAgICAgIHRoaXMuc3BlbmRlci50YXJnZXQsCiAgICAgICAgICAgICAgICAgIHRlbXBvcmFyeUFsbG93YW5jZSwKICAgICAgICAgICAgICAgIF0pLAogICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgYW1vdW50ICYmIHsKICAgICAgICAgICAgICAgIHRhcmdldDogdGhpcy5zcGVuZGVyLAogICAgICAgICAgICAgICAgdmFsdWU6IDBuLAogICAgICAgICAgICAgICAgZGF0YTogdGhpcy5zcGVuZGVyLmludGVyZmFjZS5lbmNvZGVGdW5jdGlvbkRhdGEoJyRmdW5jdGlvbkNhbGwnLCBbCiAgICAgICAgICAgICAgICAgIHRoaXMudG9rZW4udGFyZ2V0LAogICAgICAgICAgICAgICAgICB0aGlzLnRva2VuLmludGVyZmFjZS5lbmNvZGVGdW5jdGlvbkRhdGEoJ3RyYW5zZmVyRnJvbScsIFsKICAgICAgICAgICAgICAgICAgICB0aGlzLmJhdGNoLnRhcmdldCwKICAgICAgICAgICAgICAgICAgICB0aGlzLnJlY2lwaWVudC5hZGRyZXNzLAogICAgICAgICAgICAgICAgICAgIGFtb3VudCwKICAgICAgICAgICAgICAgICAgXSksCiAgICAgICAgICAgICAgICBdKSwKICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIHRhcmdldDogdGhpcy5nZXR0ZXIsCiAgICAgICAgICAgICAgICB2YWx1ZTogMG4sCiAgICAgICAgICAgICAgICBkYXRhOiB0aGlzLmdldHRlci5pbnRlcmZhY2UuZW5jb2RlRnVuY3Rpb25EYXRhKCdhbGxvd2FuY2UnLCBbCiAgICAgICAgICAgICAgICAgIHRoaXMudG9rZW4udGFyZ2V0LAogICAgICAgICAgICAgICAgICB0aGlzLmJhdGNoLnRhcmdldCwKICAgICAgICAgICAgICAgICAgdGhpcy5zcGVuZGVyLnRhcmdldCwKICAgICAgICAgICAgICAgIF0pLAogICAgICAgICAgICAgIH0sCiAgICAgICAgICAgIF0uZmlsdGVyKEJvb2xlYW4pLAogICAgICAgICAgKSwKICAgICAgICApCiAgICAgICAgICAudG8uZW1pdCh0aGlzLmdldHRlciwgJ0VSQzIwQWxsb3dhbmNlJykKICAgICAgICAgIC53aXRoQXJncyh0aGlzLnRva2VuLCB0aGlzLmJhdGNoLCB0aGlzLnNwZW5kZXIsIHRlbXBvcmFyeUV4cGVjdGVkKTsKCiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudG9rZW4uYWxsb3dhbmNlKHRoaXMuYmF0Y2gsIHRoaXMuc3BlbmRlcikpLnRvLmVxdWFsKHBlcnNpc3RlbnRFeHBlY3RlZCk7CiAgICAgIH0pOwogICAgfQoKICAgIGl0KCdyZXZlcnRzIHdoZW4gdGhlIHJlY2lwaWVudCBpcyB0aGUgemVybyBhZGRyZXNzJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCBleHBlY3QodGhpcy50b2tlbi5jb25uZWN0KHRoaXMuaG9sZGVyKS50ZW1wb3JhcnlBcHByb3ZlKGV0aGVycy5aZXJvQWRkcmVzcywgMW4pKQogICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLnRva2VuLCAnRVJDMjBJbnZhbGlkU3BlbmRlcicpCiAgICAgICAgLndpdGhBcmdzKGV0aGVycy5aZXJvQWRkcmVzcyk7CiAgICB9KTsKCiAgICBpdCgncmV2ZXJ0cyB3aGVuIHRoZSB0b2tlbiBvd25lciBpcyB0aGUgemVybyBhZGRyZXNzJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCBleHBlY3QodGhpcy50b2tlbi4kX3RlbXBvcmFyeUFwcHJvdmUoZXRoZXJzLlplcm9BZGRyZXNzLCB0aGlzLnJlY2lwaWVudCwgMW4pKQogICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLnRva2VuLCAnRVJDMjBJbnZhbGlkQXBwcm92ZXInKQogICAgICAgIC53aXRoQXJncyhldGhlcnMuWmVyb0FkZHJlc3MpOwogICAgfSk7CiAgfSk7Cn0pOwo=
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+const { max, min } = require('../../../helpers/math.js');
+
+const { shouldBehaveLikeERC20 } = require('../ERC20.behavior.js');
+
+const name = 'My Token';
+const symbol = 'MTKN';
+const initialSupply = 100n;
+
+async function fixture() {
+  // this.accounts is used by shouldBehaveLikeERC20
+  const accounts = await ethers.getSigners();
+  const [holder, recipient, other] = accounts;
+
+  const token = await ethers.deployContract('$ERC20TemporaryApproval', [name, symbol]);
+  await token.$_mint(holder, initialSupply);
+
+  const spender = await ethers.deployContract('$Address');
+  const batch = await ethers.deployContract('BatchCaller');
+  const getter = await ethers.deployContract('ERC20GetterHelper');
+
+  return { accounts, holder, recipient, other, token, spender, batch, getter };
+}
+
+describe('ERC20TemporaryApproval', function () {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  shouldBehaveLikeERC20(initialSupply);
+
+  describe('setting and spending temporary allowance', function () {
+    beforeEach(async function () {
+      await this.token.connect(this.holder).transfer(this.batch, initialSupply);
+    });
+
+    for (let {
+      description,
+      persistentAllowance,
+      temporaryAllowance,
+      amount,
+      temporaryExpected,
+      persistentExpected,
+    } of [
+      { description: 'can set temporary allowance', temporaryAllowance: 42n },
+      {
+        description: 'can set temporary allowance on top of persistent allowance',
+        temporaryAllowance: 42n,
+        persistentAllowance: 17n,
+      },
+      { description: 'support allowance overflow', temporaryAllowance: ethers.MaxUint256, persistentAllowance: 17n },
+      { description: 'consuming temporary allowance alone', temporaryAllowance: 42n, amount: 2n },
+      {
+        description: 'fallback to persistent allowance if temporary allowance is not sufficient',
+        temporaryAllowance: 42n,
+        persistentAllowance: 17n,
+        amount: 50n,
+      },
+      {
+        description: 'do not reduce infinite temporary allowance #1',
+        temporaryAllowance: ethers.MaxUint256,
+        amount: 50n,
+        temporaryExpected: ethers.MaxUint256,
+      },
+      {
+        description: 'do not reduce infinite temporary allowance #2',
+        temporaryAllowance: 17n,
+        persistentAllowance: ethers.MaxUint256,
+        amount: 50n,
+        temporaryExpected: ethers.MaxUint256,
+        persistentExpected: ethers.MaxUint256,
+      },
+    ]) {
+      persistentAllowance ??= 0n;
+      temporaryAllowance ??= 0n;
+      amount ??= 0n;
+      temporaryExpected ??= min(persistentAllowance + temporaryAllowance - amount, ethers.MaxUint256);
+      persistentExpected ??= persistentAllowance - max(amount - temporaryAllowance, 0n);
+
+      it(description, async function () {
+        await expect(
+          this.batch.execute(
+            [
+              persistentAllowance && {
+                target: this.token,
+                value: 0n,
+                data: this.token.interface.encodeFunctionData('approve', [this.spender.target, persistentAllowance]),
+              },
+              temporaryAllowance && {
+                target: this.token,
+                value: 0n,
+                data: this.token.interface.encodeFunctionData('temporaryApprove', [
+                  this.spender.target,
+                  temporaryAllowance,
+                ]),
+              },
+              amount && {
+                target: this.spender,
+                value: 0n,
+                data: this.spender.interface.encodeFunctionData('$functionCall', [
+                  this.token.target,
+                  this.token.interface.encodeFunctionData('transferFrom', [
+                    this.batch.target,
+                    this.recipient.address,
+                    amount,
+                  ]),
+                ]),
+              },
+              {
+                target: this.getter,
+                value: 0n,
+                data: this.getter.interface.encodeFunctionData('allowance', [
+                  this.token.target,
+                  this.batch.target,
+                  this.spender.target,
+                ]),
+              },
+            ].filter(Boolean),
+          ),
+        )
+          .to.emit(this.getter, 'ERC20Allowance')
+          .withArgs(this.token, this.batch, this.spender, temporaryExpected);
+
+        expect(await this.token.allowance(this.batch, this.spender)).to.equal(persistentExpected);
+      });
+    }
+
+    it('reverts when the recipient is the zero address', async function () {
+      await expect(this.token.connect(this.holder).temporaryApprove(ethers.ZeroAddress, 1n))
+        .to.be.revertedWithCustomError(this.token, 'ERC20InvalidSpender')
+        .withArgs(ethers.ZeroAddress);
+    });
+
+    it('reverts when the token owner is the zero address', async function () {
+      await expect(this.token.$_temporaryApprove(ethers.ZeroAddress, this.recipient, 1n))
+        .to.be.revertedWithCustomError(this.token, 'ERC20InvalidApprover')
+        .withArgs(ethers.ZeroAddress);
+    });
+  });
+});
