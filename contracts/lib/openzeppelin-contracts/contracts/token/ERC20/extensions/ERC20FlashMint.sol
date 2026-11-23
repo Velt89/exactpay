@@ -1,1 +1,134 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodG9rZW4vRVJDMjAvZXh0ZW5zaW9ucy9FUkMyMEZsYXNoTWludC5zb2wpCgpwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7SUVSQzMxNTZGbGFzaEJvcnJvd2VyfSBmcm9tICIuLi8uLi8uLi9pbnRlcmZhY2VzL0lFUkMzMTU2Rmxhc2hCb3Jyb3dlci5zb2wiOwppbXBvcnQge0lFUkMzMTU2Rmxhc2hMZW5kZXJ9IGZyb20gIi4uLy4uLy4uL2ludGVyZmFjZXMvSUVSQzMxNTZGbGFzaExlbmRlci5zb2wiOwppbXBvcnQge0VSQzIwfSBmcm9tICIuLi9FUkMyMC5zb2wiOwoKLyoqCiAqIEBkZXYgSW1wbGVtZW50YXRpb24gb2YgdGhlIEVSQy0zMTU2IEZsYXNoIGxvYW5zIGV4dGVuc2lvbiwgYXMgZGVmaW5lZCBpbgogKiBodHRwczovL2VpcHMuZXRoZXJldW0ub3JnL0VJUFMvZWlwLTMxNTZbRVJDLTMxNTZdLgogKgogKiBBZGRzIHRoZSB7Zmxhc2hMb2FufSBtZXRob2QsIHdoaWNoIHByb3ZpZGVzIGZsYXNoIGxvYW4gc3VwcG9ydCBhdCB0aGUgdG9rZW4KICogbGV2ZWwuIEJ5IGRlZmF1bHQgdGhlcmUgaXMgbm8gZmVlLCBidXQgdGhpcyBjYW4gYmUgY2hhbmdlZCBieSBvdmVycmlkaW5nIHtmbGFzaEZlZX0uCiAqCiAqIE5PVEU6IFdoZW4gdGhpcyBleHRlbnNpb24gaXMgdXNlZCBhbG9uZyB3aXRoIHRoZSB7RVJDMjBDYXBwZWR9IG9yIHtFUkMyMFZvdGVzfSBleHRlbnNpb25zLAogKiB7bWF4Rmxhc2hMb2FufSB3aWxsIG5vdCBjb3JyZWN0bHkgcmVmbGVjdCB0aGUgbWF4aW11bSB0aGF0IGNhbiBiZSBmbGFzaCBtaW50ZWQuIFdlIHJlY29tbWVuZAogKiBvdmVycmlkaW5nIHttYXhGbGFzaExvYW59IHNvIHRoYXQgaXQgY29ycmVjdGx5IHJlZmxlY3RzIHRoZSBzdXBwbHkgY2FwLgogKi8KYWJzdHJhY3QgY29udHJhY3QgRVJDMjBGbGFzaE1pbnQgaXMgRVJDMjAsIElFUkMzMTU2Rmxhc2hMZW5kZXIgewogICAgYnl0ZXMzMiBwcml2YXRlIGNvbnN0YW50IFJFVFVSTl9WQUxVRSA9IGtlY2NhazI1NigiRVJDMzE1NkZsYXNoQm9ycm93ZXIub25GbGFzaExvYW4iKTsKCiAgICAvKioKICAgICAqIEBkZXYgVGhlIGxvYW4gdG9rZW4gaXMgbm90IHZhbGlkLgogICAgICovCiAgICBlcnJvciBFUkMzMTU2VW5zdXBwb3J0ZWRUb2tlbihhZGRyZXNzIHRva2VuKTsKCiAgICAvKioKICAgICAqIEBkZXYgVGhlIHJlcXVlc3RlZCBsb2FuIGV4Y2VlZHMgdGhlIG1heCBsb2FuIHZhbHVlIGZvciBgdG9rZW5gLgogICAgICovCiAgICBlcnJvciBFUkMzMTU2RXhjZWVkZWRNYXhMb2FuKHVpbnQyNTYgbWF4TG9hbik7CgogICAgLyoqCiAgICAgKiBAZGV2IFRoZSByZWNlaXZlciBvZiBhIGZsYXNobG9hbiBpcyBub3QgYSB2YWxpZCB7SUVSQzMxNTZGbGFzaEJvcnJvd2VyLW9uRmxhc2hMb2FufSBpbXBsZW1lbnRlci4KICAgICAqLwogICAgZXJyb3IgRVJDMzE1NkludmFsaWRSZWNlaXZlcihhZGRyZXNzIHJlY2VpdmVyKTsKCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyB0aGUgbWF4aW11bSBhbW91bnQgb2YgdG9rZW5zIGF2YWlsYWJsZSBmb3IgbG9hbi4KICAgICAqIEBwYXJhbSB0b2tlbiBUaGUgYWRkcmVzcyBvZiB0aGUgdG9rZW4gdGhhdCBpcyByZXF1ZXN0ZWQuCiAgICAgKiBAcmV0dXJuIFRoZSBhbW91bnQgb2YgdG9rZW4gdGhhdCBjYW4gYmUgbG9hbmVkLgogICAgICoKICAgICAqIE5PVEU6IFRoaXMgZnVuY3Rpb24gZG9lcyBub3QgY29uc2lkZXIgYW55IGZvcm0gb2Ygc3VwcGx5IGNhcCwgc28gaW4gY2FzZQogICAgICogaXQncyB1c2VkIGluIGEgdG9rZW4gd2l0aCBhIGNhcCBsaWtlIHtFUkMyMENhcHBlZH0sIG1ha2Ugc3VyZSB0byBvdmVycmlkZSB0aGlzCiAgICAgKiBmdW5jdGlvbiB0byBpbnRlZ3JhdGUgdGhlIGNhcCBpbnN0ZWFkIG9mIGB0eXBlKHVpbnQyNTYpLm1heGAuCiAgICAgKi8KICAgIGZ1bmN0aW9uIG1heEZsYXNoTG9hbihhZGRyZXNzIHRva2VuKSBwdWJsaWMgdmlldyB2aXJ0dWFsIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXR1cm4gdG9rZW4gPT0gYWRkcmVzcyh0aGlzKSA/IHR5cGUodWludDI1NikubWF4IC0gdG90YWxTdXBwbHkoKSA6IDA7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIGZlZSBhcHBsaWVkIHdoZW4gZG9pbmcgZmxhc2ggbG9hbnMuIFRoaXMgZnVuY3Rpb24gY2FsbHMKICAgICAqIHRoZSB7X2ZsYXNoRmVlfSBmdW5jdGlvbiB3aGljaCByZXR1cm5zIHRoZSBmZWUgYXBwbGllZCB3aGVuIGRvaW5nIGZsYXNoCiAgICAgKiBsb2Fucy4KICAgICAqIEBwYXJhbSB0b2tlbiBUaGUgdG9rZW4gdG8gYmUgZmxhc2ggbG9hbmVkLgogICAgICogQHBhcmFtIHZhbHVlIFRoZSBhbW91bnQgb2YgdG9rZW5zIHRvIGJlIGxvYW5lZC4KICAgICAqIEByZXR1cm4gVGhlIGZlZXMgYXBwbGllZCB0byB0aGUgY29ycmVzcG9uZGluZyBmbGFzaCBsb2FuLgogICAgICovCiAgICBmdW5jdGlvbiBmbGFzaEZlZShhZGRyZXNzIHRva2VuLCB1aW50MjU2IHZhbHVlKSBwdWJsaWMgdmlldyB2aXJ0dWFsIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICBpZiAodG9rZW4gIT0gYWRkcmVzcyh0aGlzKSkgewogICAgICAgICAgICByZXZlcnQgRVJDMzE1NlVuc3VwcG9ydGVkVG9rZW4odG9rZW4pOwogICAgICAgIH0KICAgICAgICByZXR1cm4gX2ZsYXNoRmVlKHRva2VuLCB2YWx1ZSk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIGZlZSBhcHBsaWVkIHdoZW4gZG9pbmcgZmxhc2ggbG9hbnMuIEJ5IGRlZmF1bHQgdGhpcwogICAgICogaW1wbGVtZW50YXRpb24gaGFzIDAgZmVlcy4gVGhpcyBmdW5jdGlvbiBjYW4gYmUgb3ZlcmxvYWRlZCB0byBtYWtlCiAgICAgKiB0aGUgZmxhc2ggbG9hbiBtZWNoYW5pc20gZGVmbGF0aW9uYXJ5LgogICAgICogQHBhcmFtIHRva2VuIFRoZSB0b2tlbiB0byBiZSBmbGFzaCBsb2FuZWQuCiAgICAgKiBAcGFyYW0gdmFsdWUgVGhlIGFtb3VudCBvZiB0b2tlbnMgdG8gYmUgbG9hbmVkLgogICAgICogQHJldHVybiBUaGUgZmVlcyBhcHBsaWVkIHRvIHRoZSBjb3JyZXNwb25kaW5nIGZsYXNoIGxvYW4uCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9mbGFzaEZlZShhZGRyZXNzIHRva2VuLCB1aW50MjU2IHZhbHVlKSBpbnRlcm5hbCB2aWV3IHZpcnR1YWwgcmV0dXJucyAodWludDI1NikgewogICAgICAgIC8vIHNpbGVuY2Ugd2FybmluZyBhYm91dCB1bnVzZWQgdmFyaWFibGUgd2l0aG91dCB0aGUgYWRkaXRpb24gb2YgYnl0ZWNvZGUuCiAgICAgICAgdG9rZW47CiAgICAgICAgdmFsdWU7CiAgICAgICAgcmV0dXJuIDA7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIHJlY2VpdmVyIGFkZHJlc3Mgb2YgdGhlIGZsYXNoIGZlZS4gQnkgZGVmYXVsdCB0aGlzCiAgICAgKiBpbXBsZW1lbnRhdGlvbiByZXR1cm5zIHRoZSBhZGRyZXNzKDApIHdoaWNoIG1lYW5zIHRoZSBmZWUgYW1vdW50IHdpbGwgYmUgYnVybnQuCiAgICAgKiBUaGlzIGZ1bmN0aW9uIGNhbiBiZSBvdmVybG9hZGVkIHRvIGNoYW5nZSB0aGUgZmVlIHJlY2VpdmVyLgogICAgICogQHJldHVybiBUaGUgYWRkcmVzcyBmb3Igd2hpY2ggdGhlIGZsYXNoIGZlZSB3aWxsIGJlIHNlbnQgdG8uCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9mbGFzaEZlZVJlY2VpdmVyKCkgaW50ZXJuYWwgdmlldyB2aXJ0dWFsIHJldHVybnMgKGFkZHJlc3MpIHsKICAgICAgICByZXR1cm4gYWRkcmVzcygwKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUGVyZm9ybXMgYSBmbGFzaCBsb2FuLiBOZXcgdG9rZW5zIGFyZSBtaW50ZWQgYW5kIHNlbnQgdG8gdGhlCiAgICAgKiBgcmVjZWl2ZXJgLCB3aG8gaXMgcmVxdWlyZWQgdG8gaW1wbGVtZW50IHRoZSB7SUVSQzMxNTZGbGFzaEJvcnJvd2VyfQogICAgICogaW50ZXJmYWNlLiBCeSB0aGUgZW5kIG9mIHRoZSBmbGFzaCBsb2FuLCB0aGUgcmVjZWl2ZXIgaXMgZXhwZWN0ZWQgdG8gb3duCiAgICAgKiB2YWx1ZSArIGZlZSB0b2tlbnMgYW5kIGhhdmUgdGhlbSBhcHByb3ZlZCBiYWNrIHRvIHRoZSB0b2tlbiBjb250cmFjdCBpdHNlbGYgc28KICAgICAqIHRoZXkgY2FuIGJlIGJ1cm5lZC4KICAgICAqIEBwYXJhbSByZWNlaXZlciBUaGUgcmVjZWl2ZXIgb2YgdGhlIGZsYXNoIGxvYW4uIFNob3VsZCBpbXBsZW1lbnQgdGhlCiAgICAgKiB7SUVSQzMxNTZGbGFzaEJvcnJvd2VyLW9uRmxhc2hMb2FufSBpbnRlcmZhY2UuCiAgICAgKiBAcGFyYW0gdG9rZW4gVGhlIHRva2VuIHRvIGJlIGZsYXNoIGxvYW5lZC4gT25seSBgYWRkcmVzcyh0aGlzKWAgaXMKICAgICAqIHN1cHBvcnRlZC4KICAgICAqIEBwYXJhbSB2YWx1ZSBUaGUgYW1vdW50IG9mIHRva2VucyB0byBiZSBsb2FuZWQuCiAgICAgKiBAcGFyYW0gZGF0YSBBbiBhcmJpdHJhcnkgZGF0YWZpZWxkIHRoYXQgaXMgcGFzc2VkIHRvIHRoZSByZWNlaXZlci4KICAgICAqIEByZXR1cm4gYHRydWVgIGlmIHRoZSBmbGFzaCBsb2FuIHdhcyBzdWNjZXNzZnVsLgogICAgICovCiAgICAvLyBUaGlzIGZ1bmN0aW9uIGNhbiByZWVudGVyLCBidXQgaXQgZG9lc24ndCBwb3NlIGEgcmlzayBiZWNhdXNlIGl0IGFsd2F5cyBwcmVzZXJ2ZXMgdGhlIHByb3BlcnR5IHRoYXQgdGhlIGFtb3VudAogICAgLy8gbWludGVkIGF0IHRoZSBiZWdpbm5pbmcgaXMgYWx3YXlzIHJlY292ZXJlZCBhbmQgYnVybmVkIGF0IHRoZSBlbmQsIG9yIGVsc2UgdGhlIGVudGlyZSBmdW5jdGlvbiB3aWxsIHJldmVydC4KICAgIC8vIHNsaXRoZXItZGlzYWJsZS1uZXh0LWxpbmUgcmVlbnRyYW5jeS1uby1ldGgKICAgIGZ1bmN0aW9uIGZsYXNoTG9hbigKICAgICAgICBJRVJDMzE1NkZsYXNoQm9ycm93ZXIgcmVjZWl2ZXIsCiAgICAgICAgYWRkcmVzcyB0b2tlbiwKICAgICAgICB1aW50MjU2IHZhbHVlLAogICAgICAgIGJ5dGVzIGNhbGxkYXRhIGRhdGEKICAgICkgcHVibGljIHZpcnR1YWwgcmV0dXJucyAoYm9vbCkgewogICAgICAgIHVpbnQyNTYgbWF4TG9hbiA9IG1heEZsYXNoTG9hbih0b2tlbik7CiAgICAgICAgaWYgKHZhbHVlID4gbWF4TG9hbikgewogICAgICAgICAgICByZXZlcnQgRVJDMzE1NkV4Y2VlZGVkTWF4TG9hbihtYXhMb2FuKTsKICAgICAgICB9CiAgICAgICAgdWludDI1NiBmZWUgPSBmbGFzaEZlZSh0b2tlbiwgdmFsdWUpOwogICAgICAgIF9taW50KGFkZHJlc3MocmVjZWl2ZXIpLCB2YWx1ZSk7CiAgICAgICAgaWYgKHJlY2VpdmVyLm9uRmxhc2hMb2FuKF9tc2dTZW5kZXIoKSwgdG9rZW4sIHZhbHVlLCBmZWUsIGRhdGEpICE9IFJFVFVSTl9WQUxVRSkgewogICAgICAgICAgICByZXZlcnQgRVJDMzE1NkludmFsaWRSZWNlaXZlcihhZGRyZXNzKHJlY2VpdmVyKSk7CiAgICAgICAgfQogICAgICAgIGFkZHJlc3MgZmxhc2hGZWVSZWNlaXZlciA9IF9mbGFzaEZlZVJlY2VpdmVyKCk7CiAgICAgICAgX3NwZW5kQWxsb3dhbmNlKGFkZHJlc3MocmVjZWl2ZXIpLCBhZGRyZXNzKHRoaXMpLCB2YWx1ZSArIGZlZSk7CiAgICAgICAgaWYgKGZlZSA9PSAwIHx8IGZsYXNoRmVlUmVjZWl2ZXIgPT0gYWRkcmVzcygwKSkgewogICAgICAgICAgICBfYnVybihhZGRyZXNzKHJlY2VpdmVyKSwgdmFsdWUgKyBmZWUpOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIF9idXJuKGFkZHJlc3MocmVjZWl2ZXIpLCB2YWx1ZSk7CiAgICAgICAgICAgIF90cmFuc2ZlcihhZGRyZXNzKHJlY2VpdmVyKSwgZmxhc2hGZWVSZWNlaXZlciwgZmVlKTsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIHRydWU7CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (token/ERC20/extensions/ERC20FlashMint.sol)
+
+pragma solidity ^0.8.20;
+
+import {IERC3156FlashBorrower} from "../../../interfaces/IERC3156FlashBorrower.sol";
+import {IERC3156FlashLender} from "../../../interfaces/IERC3156FlashLender.sol";
+import {ERC20} from "../ERC20.sol";
+
+/**
+ * @dev Implementation of the ERC-3156 Flash loans extension, as defined in
+ * https://eips.ethereum.org/EIPS/eip-3156[ERC-3156].
+ *
+ * Adds the {flashLoan} method, which provides flash loan support at the token
+ * level. By default there is no fee, but this can be changed by overriding {flashFee}.
+ *
+ * NOTE: When this extension is used along with the {ERC20Capped} or {ERC20Votes} extensions,
+ * {maxFlashLoan} will not correctly reflect the maximum that can be flash minted. We recommend
+ * overriding {maxFlashLoan} so that it correctly reflects the supply cap.
+ */
+abstract contract ERC20FlashMint is ERC20, IERC3156FlashLender {
+    bytes32 private constant RETURN_VALUE = keccak256("ERC3156FlashBorrower.onFlashLoan");
+
+    /**
+     * @dev The loan token is not valid.
+     */
+    error ERC3156UnsupportedToken(address token);
+
+    /**
+     * @dev The requested loan exceeds the max loan value for `token`.
+     */
+    error ERC3156ExceededMaxLoan(uint256 maxLoan);
+
+    /**
+     * @dev The receiver of a flashloan is not a valid {IERC3156FlashBorrower-onFlashLoan} implementer.
+     */
+    error ERC3156InvalidReceiver(address receiver);
+
+    /**
+     * @dev Returns the maximum amount of tokens available for loan.
+     * @param token The address of the token that is requested.
+     * @return The amount of token that can be loaned.
+     *
+     * NOTE: This function does not consider any form of supply cap, so in case
+     * it's used in a token with a cap like {ERC20Capped}, make sure to override this
+     * function to integrate the cap instead of `type(uint256).max`.
+     */
+    function maxFlashLoan(address token) public view virtual returns (uint256) {
+        return token == address(this) ? type(uint256).max - totalSupply() : 0;
+    }
+
+    /**
+     * @dev Returns the fee applied when doing flash loans. This function calls
+     * the {_flashFee} function which returns the fee applied when doing flash
+     * loans.
+     * @param token The token to be flash loaned.
+     * @param value The amount of tokens to be loaned.
+     * @return The fees applied to the corresponding flash loan.
+     */
+    function flashFee(address token, uint256 value) public view virtual returns (uint256) {
+        if (token != address(this)) {
+            revert ERC3156UnsupportedToken(token);
+        }
+        return _flashFee(token, value);
+    }
+
+    /**
+     * @dev Returns the fee applied when doing flash loans. By default this
+     * implementation has 0 fees. This function can be overloaded to make
+     * the flash loan mechanism deflationary.
+     * @param token The token to be flash loaned.
+     * @param value The amount of tokens to be loaned.
+     * @return The fees applied to the corresponding flash loan.
+     */
+    function _flashFee(address token, uint256 value) internal view virtual returns (uint256) {
+        // silence warning about unused variable without the addition of bytecode.
+        token;
+        value;
+        return 0;
+    }
+
+    /**
+     * @dev Returns the receiver address of the flash fee. By default this
+     * implementation returns the address(0) which means the fee amount will be burnt.
+     * This function can be overloaded to change the fee receiver.
+     * @return The address for which the flash fee will be sent to.
+     */
+    function _flashFeeReceiver() internal view virtual returns (address) {
+        return address(0);
+    }
+
+    /**
+     * @dev Performs a flash loan. New tokens are minted and sent to the
+     * `receiver`, who is required to implement the {IERC3156FlashBorrower}
+     * interface. By the end of the flash loan, the receiver is expected to own
+     * value + fee tokens and have them approved back to the token contract itself so
+     * they can be burned.
+     * @param receiver The receiver of the flash loan. Should implement the
+     * {IERC3156FlashBorrower-onFlashLoan} interface.
+     * @param token The token to be flash loaned. Only `address(this)` is
+     * supported.
+     * @param value The amount of tokens to be loaned.
+     * @param data An arbitrary datafield that is passed to the receiver.
+     * @return `true` if the flash loan was successful.
+     */
+    // This function can reenter, but it doesn't pose a risk because it always preserves the property that the amount
+    // minted at the beginning is always recovered and burned at the end, or else the entire function will revert.
+    // slither-disable-next-line reentrancy-no-eth
+    function flashLoan(
+        IERC3156FlashBorrower receiver,
+        address token,
+        uint256 value,
+        bytes calldata data
+    ) public virtual returns (bool) {
+        uint256 maxLoan = maxFlashLoan(token);
+        if (value > maxLoan) {
+            revert ERC3156ExceededMaxLoan(maxLoan);
+        }
+        uint256 fee = flashFee(token, value);
+        _mint(address(receiver), value);
+        if (receiver.onFlashLoan(_msgSender(), token, value, fee, data) != RETURN_VALUE) {
+            revert ERC3156InvalidReceiver(address(receiver));
+        }
+        address flashFeeReceiver = _flashFeeReceiver();
+        _spendAllowance(address(receiver), address(this), value + fee);
+        if (fee == 0 || flashFeeReceiver == address(0)) {
+            _burn(address(receiver), value + fee);
+        } else {
+            _burn(address(receiver), value);
+            _transfer(address(receiver), flashFeeReceiver, fee);
+        }
+        return true;
+    }
+}
