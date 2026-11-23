@@ -1,1 +1,15 @@
-Y29tbWVudDogb2ZmCmdpdGh1Yl9jaGVja3M6CiAgYW5ub3RhdGlvbnM6IGZhbHNlCmNvdmVyYWdlOgogIHN0YXR1czoKICAgIHBhdGNoOgogICAgICBkZWZhdWx0OgogICAgICAgIHRhcmdldDogOTUlCiAgICAgICAgb25seV9wdWxsczogdHJ1ZQogICAgcHJvamVjdDoKICAgICAgZGVmYXVsdDoKICAgICAgICB0aHJlc2hvbGQ6IDElCmlnbm9yZToKICAtICJ0ZXN0IgogIC0gImNvbnRyYWN0cy9tb2NrcyIK
+comment: off
+github_checks:
+  annotations: false
+coverage:
+  status:
+    patch:
+      default:
+        target: 95%
+        only_pulls: true
+    project:
+      default:
+        threshold: 1%
+ignore:
+  - "test"
+  - "contracts/mocks"
