@@ -1,1 +1,72 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKYXN5bmMgZnVuY3Rpb24gZml4dHVyZSgpIHsKICBjb25zdCBbaG9sZGVyLCBhbGljZSwgYnJ1Y2VdID0gYXdhaXQgZXRoZXJzLmdldFNpZ25lcnMoKTsKCiAgY29uc3QgYW1vdW50ID0gMTJfMDAwbjsKICBjb25zdCBoZWxwZXIgPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJ011bHRpY2FsbEhlbHBlcicpOwogIGNvbnN0IG1vY2sgPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJyRFUkMyME11bHRpY2FsbE1vY2snLCBbJ25hbWUnLCAnc3ltYm9sJ10pOwogIGF3YWl0IG1vY2suJF9taW50KGhvbGRlciwgYW1vdW50KTsKCiAgcmV0dXJuIHsgaG9sZGVyLCBhbGljZSwgYnJ1Y2UsIGFtb3VudCwgbW9jaywgaGVscGVyIH07Cn0KCmRlc2NyaWJlKCdNdWx0aWNhbGwnLCBmdW5jdGlvbiAoKSB7CiAgYmVmb3JlRWFjaChhc3luYyBmdW5jdGlvbiAoKSB7CiAgICBPYmplY3QuYXNzaWduKHRoaXMsIGF3YWl0IGxvYWRGaXh0dXJlKGZpeHR1cmUpKTsKICB9KTsKCiAgaXQoJ2JhdGNoZXMgZnVuY3Rpb24gY2FsbHMnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLmJhbGFuY2VPZih0aGlzLmFsaWNlKSkudG8uZXF1YWwoMG4pOwogICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay5iYWxhbmNlT2YodGhpcy5icnVjZSkpLnRvLmVxdWFsKDBuKTsKCiAgICBhd2FpdCBleHBlY3QoCiAgICAgIHRoaXMubW9jay5tdWx0aWNhbGwoWwogICAgICAgIHRoaXMubW9jay5pbnRlcmZhY2UuZW5jb2RlRnVuY3Rpb25EYXRhKCd0cmFuc2ZlcicsIFt0aGlzLmFsaWNlLmFkZHJlc3MsIHRoaXMuYW1vdW50IC8gMm5dKSwKICAgICAgICB0aGlzLm1vY2suaW50ZXJmYWNlLmVuY29kZUZ1bmN0aW9uRGF0YSgndHJhbnNmZXInLCBbdGhpcy5icnVjZS5hZGRyZXNzLCB0aGlzLmFtb3VudCAvIDNuXSksCiAgICAgIF0pLAogICAgKQogICAgICAudG8uZW1pdCh0aGlzLm1vY2ssICdUcmFuc2ZlcicpCiAgICAgIC53aXRoQXJncyh0aGlzLmhvbGRlciwgdGhpcy5hbGljZSwgdGhpcy5hbW91bnQgLyAybikKICAgICAgLnRvLmVtaXQodGhpcy5tb2NrLCAnVHJhbnNmZXInKQogICAgICAud2l0aEFyZ3ModGhpcy5ob2xkZXIsIHRoaXMuYnJ1Y2UsIHRoaXMuYW1vdW50IC8gM24pOwoKICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suYmFsYW5jZU9mKHRoaXMuYWxpY2UpKS50by5lcXVhbCh0aGlzLmFtb3VudCAvIDJuKTsKICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suYmFsYW5jZU9mKHRoaXMuYnJ1Y2UpKS50by5lcXVhbCh0aGlzLmFtb3VudCAvIDNuKTsKICB9KTsKCiAgaXQoJ3JldHVybnMgYW4gYXJyYXkgd2l0aCB0aGUgcmVzdWx0IG9mIGVhY2ggY2FsbCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgIGF3YWl0IHRoaXMubW9jay50cmFuc2Zlcih0aGlzLmhlbHBlciwgdGhpcy5hbW91bnQpOwogICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay5iYWxhbmNlT2YodGhpcy5oZWxwZXIpKS50by5lcXVhbCh0aGlzLmFtb3VudCk7CgogICAgYXdhaXQgdGhpcy5oZWxwZXIuY2hlY2tSZXR1cm5WYWx1ZXModGhpcy5tb2NrLCBbdGhpcy5hbGljZSwgdGhpcy5icnVjZV0sIFt0aGlzLmFtb3VudCAvIDJuLCB0aGlzLmFtb3VudCAvIDNuXSk7CiAgfSk7CgogIGl0KCdyZXZlcnRzIHByZXZpb3VzIGNhbGxzJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay5iYWxhbmNlT2YodGhpcy5hbGljZSkpLnRvLmVxdWFsKDBuKTsKCiAgICBhd2FpdCBleHBlY3QoCiAgICAgIHRoaXMubW9jay5tdWx0aWNhbGwoWwogICAgICAgIHRoaXMubW9jay5pbnRlcmZhY2UuZW5jb2RlRnVuY3Rpb25EYXRhKCd0cmFuc2ZlcicsIFt0aGlzLmFsaWNlLmFkZHJlc3MsIHRoaXMuYW1vdW50XSksCiAgICAgICAgdGhpcy5tb2NrLmludGVyZmFjZS5lbmNvZGVGdW5jdGlvbkRhdGEoJ3RyYW5zZmVyJywgW3RoaXMuYnJ1Y2UuYWRkcmVzcywgdGhpcy5hbW91bnRdKSwKICAgICAgXSksCiAgICApCiAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLm1vY2ssICdFUkMyMEluc3VmZmljaWVudEJhbGFuY2UnKQogICAgICAud2l0aEFyZ3ModGhpcy5ob2xkZXIsIDAsIHRoaXMuYW1vdW50KTsKCiAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLmJhbGFuY2VPZih0aGlzLmFsaWNlKSkudG8uZXF1YWwoMG4pOwogIH0pOwoKICBpdCgnYnViYmxlcyB1cCByZXZlcnQgcmVhc29ucycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgIGF3YWl0IGV4cGVjdCgKICAgICAgdGhpcy5tb2NrLm11bHRpY2FsbChbCiAgICAgICAgdGhpcy5tb2NrLmludGVyZmFjZS5lbmNvZGVGdW5jdGlvbkRhdGEoJ3RyYW5zZmVyJywgW3RoaXMuYWxpY2UuYWRkcmVzcywgdGhpcy5hbW91bnRdKSwKICAgICAgICB0aGlzLm1vY2suaW50ZXJmYWNlLmVuY29kZUZ1bmN0aW9uRGF0YSgndHJhbnNmZXInLCBbdGhpcy5icnVjZS5hZGRyZXNzLCB0aGlzLmFtb3VudF0pLAogICAgICBdKSwKICAgICkKICAgICAgLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMubW9jaywgJ0VSQzIwSW5zdWZmaWNpZW50QmFsYW5jZScpCiAgICAgIC53aXRoQXJncyh0aGlzLmhvbGRlciwgMCwgdGhpcy5hbW91bnQpOwogIH0pOwp9KTsK
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+async function fixture() {
+  const [holder, alice, bruce] = await ethers.getSigners();
+
+  const amount = 12_000n;
+  const helper = await ethers.deployContract('MulticallHelper');
+  const mock = await ethers.deployContract('$ERC20MulticallMock', ['name', 'symbol']);
+  await mock.$_mint(holder, amount);
+
+  return { holder, alice, bruce, amount, mock, helper };
+}
+
+describe('Multicall', function () {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  it('batches function calls', async function () {
+    expect(await this.mock.balanceOf(this.alice)).to.equal(0n);
+    expect(await this.mock.balanceOf(this.bruce)).to.equal(0n);
+
+    await expect(
+      this.mock.multicall([
+        this.mock.interface.encodeFunctionData('transfer', [this.alice.address, this.amount / 2n]),
+        this.mock.interface.encodeFunctionData('transfer', [this.bruce.address, this.amount / 3n]),
+      ]),
+    )
+      .to.emit(this.mock, 'Transfer')
+      .withArgs(this.holder, this.alice, this.amount / 2n)
+      .to.emit(this.mock, 'Transfer')
+      .withArgs(this.holder, this.bruce, this.amount / 3n);
+
+    expect(await this.mock.balanceOf(this.alice)).to.equal(this.amount / 2n);
+    expect(await this.mock.balanceOf(this.bruce)).to.equal(this.amount / 3n);
+  });
+
+  it('returns an array with the result of each call', async function () {
+    await this.mock.transfer(this.helper, this.amount);
+    expect(await this.mock.balanceOf(this.helper)).to.equal(this.amount);
+
+    await this.helper.checkReturnValues(this.mock, [this.alice, this.bruce], [this.amount / 2n, this.amount / 3n]);
+  });
+
+  it('reverts previous calls', async function () {
+    expect(await this.mock.balanceOf(this.alice)).to.equal(0n);
+
+    await expect(
+      this.mock.multicall([
+        this.mock.interface.encodeFunctionData('transfer', [this.alice.address, this.amount]),
+        this.mock.interface.encodeFunctionData('transfer', [this.bruce.address, this.amount]),
+      ]),
+    )
+      .to.be.revertedWithCustomError(this.mock, 'ERC20InsufficientBalance')
+      .withArgs(this.holder, 0, this.amount);
+
+    expect(await this.mock.balanceOf(this.alice)).to.equal(0n);
+  });
+
+  it('bubbles up revert reasons', async function () {
+    await expect(
+      this.mock.multicall([
+        this.mock.interface.encodeFunctionData('transfer', [this.alice.address, this.amount]),
+        this.mock.interface.encodeFunctionData('transfer', [this.bruce.address, this.amount]),
+      ]),
+    )
+      .to.be.revertedWithCustomError(this.mock, 'ERC20InsufficientBalance')
+      .withArgs(this.holder, 0, this.amount);
+  });
+});
