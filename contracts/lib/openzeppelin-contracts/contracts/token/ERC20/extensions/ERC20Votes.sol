@@ -1,1 +1,83 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodG9rZW4vRVJDMjAvZXh0ZW5zaW9ucy9FUkMyMFZvdGVzLnNvbCkKCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKaW1wb3J0IHtFUkMyMH0gZnJvbSAiLi4vRVJDMjAuc29sIjsKaW1wb3J0IHtWb3Rlc30gZnJvbSAiLi4vLi4vLi4vZ292ZXJuYW5jZS91dGlscy9Wb3Rlcy5zb2wiOwppbXBvcnQge0NoZWNrcG9pbnRzfSBmcm9tICIuLi8uLi8uLi91dGlscy9zdHJ1Y3RzL0NoZWNrcG9pbnRzLnNvbCI7CgovKioKICogQGRldiBFeHRlbnNpb24gb2YgRVJDLTIwIHRvIHN1cHBvcnQgQ29tcG91bmQtbGlrZSB2b3RpbmcgYW5kIGRlbGVnYXRpb24uIFRoaXMgdmVyc2lvbiBpcyBtb3JlIGdlbmVyaWMgdGhhbiBDb21wb3VuZCdzLAogKiBhbmQgc3VwcG9ydHMgdG9rZW4gc3VwcGx5IHVwIHRvIDJeMjA4XiAtIDEsIHdoaWxlIENPTVAgaXMgbGltaXRlZCB0byAyXjk2XiAtIDEuCiAqCiAqIE5PVEU6IFRoaXMgY29udHJhY3QgZG9lcyBub3QgcHJvdmlkZSBpbnRlcmZhY2UgY29tcGF0aWJpbGl0eSB3aXRoIENvbXBvdW5kJ3MgQ09NUCB0b2tlbi4KICoKICogVGhpcyBleHRlbnNpb24ga2VlcHMgYSBoaXN0b3J5IChjaGVja3BvaW50cykgb2YgZWFjaCBhY2NvdW50J3Mgdm90ZSBwb3dlci4gVm90ZSBwb3dlciBjYW4gYmUgZGVsZWdhdGVkIGVpdGhlcgogKiBieSBjYWxsaW5nIHRoZSB7Vm90ZXMtZGVsZWdhdGV9IGZ1bmN0aW9uIGRpcmVjdGx5LCBvciBieSBwcm92aWRpbmcgYSBzaWduYXR1cmUgdG8gYmUgdXNlZCB3aXRoIHtWb3Rlcy1kZWxlZ2F0ZUJ5U2lnfS4gVm90aW5nCiAqIHBvd2VyIGNhbiBiZSBxdWVyaWVkIHRocm91Z2ggdGhlIHB1YmxpYyBhY2Nlc3NvcnMge1ZvdGVzLWdldFZvdGVzfSBhbmQge1ZvdGVzLWdldFBhc3RWb3Rlc30uCiAqCiAqIEJ5IGRlZmF1bHQsIHRva2VuIGJhbGFuY2UgZG9lcyBub3QgYWNjb3VudCBmb3Igdm90aW5nIHBvd2VyLiBUaGlzIG1ha2VzIHRyYW5zZmVycyBjaGVhcGVyLiBUaGUgZG93bnNpZGUgaXMgdGhhdCBpdAogKiByZXF1aXJlcyB1c2VycyB0byBkZWxlZ2F0ZSB0byB0aGVtc2VsdmVzIGluIG9yZGVyIHRvIGFjdGl2YXRlIGNoZWNrcG9pbnRzIGFuZCBoYXZlIHRoZWlyIHZvdGluZyBwb3dlciB0cmFja2VkLgogKi8KYWJzdHJhY3QgY29udHJhY3QgRVJDMjBWb3RlcyBpcyBFUkMyMCwgVm90ZXMgewogICAgLyoqCiAgICAgKiBAZGV2IFRvdGFsIHN1cHBseSBjYXAgaGFzIGJlZW4gZXhjZWVkZWQsIGludHJvZHVjaW5nIGEgcmlzayBvZiB2b3RlcyBvdmVyZmxvd2luZy4KICAgICAqLwogICAgZXJyb3IgRVJDMjBFeGNlZWRlZFNhZmVTdXBwbHkodWludDI1NiBpbmNyZWFzZWRTdXBwbHksIHVpbnQyNTYgY2FwKTsKCiAgICAvKioKICAgICAqIEBkZXYgTWF4aW11bSB0b2tlbiBzdXBwbHkuIERlZmF1bHRzIHRvIGB0eXBlKHVpbnQyMDgpLm1heGAgKDJeMjA4XiAtIDEpLgogICAgICoKICAgICAqIFRoaXMgbWF4aW11bSBpcyBlbmZvcmNlZCBpbiB7X3VwZGF0ZX0uIEl0IGxpbWl0cyB0aGUgdG90YWwgc3VwcGx5IG9mIHRoZSB0b2tlbiwgd2hpY2ggaXMgb3RoZXJ3aXNlIGEgdWludDI1NiwKICAgICAqIHNvIHRoYXQgY2hlY2twb2ludHMgY2FuIGJlIHN0b3JlZCBpbiB0aGUgVHJhY2UyMDggc3RydWN0dXJlIHVzZWQgYnkge1ZvdGVzfS4gSW5jcmVhc2luZyB0aGlzIHZhbHVlIHdpbGwgbm90CiAgICAgKiByZW1vdmUgdGhlIHVuZGVybHlpbmcgbGltaXRhdGlvbiwgYW5kIHdpbGwgY2F1c2Uge191cGRhdGV9IHRvIGZhaWwgYmVjYXVzZSBvZiBhIG1hdGggb3ZlcmZsb3cgaW4KICAgICAqIHtWb3Rlcy1fdHJhbnNmZXJWb3RpbmdVbml0c30uIEFuIG92ZXJyaWRlIGNvdWxkIGJlIHVzZWQgdG8gZnVydGhlciByZXN0cmljdCB0aGUgdG90YWwgc3VwcGx5ICh0byBhIGxvd2VyIHZhbHVlKSBpZgogICAgICogYWRkaXRpb25hbCBsb2dpYyByZXF1aXJlcyBpdC4gV2hlbiByZXNvbHZpbmcgb3ZlcnJpZGUgY29uZmxpY3RzIG9uIHRoaXMgZnVuY3Rpb24sIHRoZSBtaW5pbXVtIHNob3VsZCBiZQogICAgICogcmV0dXJuZWQuCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9tYXhTdXBwbHkoKSBpbnRlcm5hbCB2aWV3IHZpcnR1YWwgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHJldHVybiB0eXBlKHVpbnQyMDgpLm1heDsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgTW92ZSB2b3RpbmcgcG93ZXIgd2hlbiB0b2tlbnMgYXJlIHRyYW5zZmVycmVkLgogICAgICoKICAgICAqIEVtaXRzIGEge0lWb3Rlcy1EZWxlZ2F0ZVZvdGVzQ2hhbmdlZH0gZXZlbnQuCiAgICAgKi8KICAgIGZ1bmN0aW9uIF91cGRhdGUoYWRkcmVzcyBmcm9tLCBhZGRyZXNzIHRvLCB1aW50MjU2IHZhbHVlKSBpbnRlcm5hbCB2aXJ0dWFsIG92ZXJyaWRlIHsKICAgICAgICBzdXBlci5fdXBkYXRlKGZyb20sIHRvLCB2YWx1ZSk7CiAgICAgICAgaWYgKGZyb20gPT0gYWRkcmVzcygwKSkgewogICAgICAgICAgICB1aW50MjU2IHN1cHBseSA9IHRvdGFsU3VwcGx5KCk7CiAgICAgICAgICAgIHVpbnQyNTYgY2FwID0gX21heFN1cHBseSgpOwogICAgICAgICAgICBpZiAoc3VwcGx5ID4gY2FwKSB7CiAgICAgICAgICAgICAgICByZXZlcnQgRVJDMjBFeGNlZWRlZFNhZmVTdXBwbHkoc3VwcGx5LCBjYXApOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIF90cmFuc2ZlclZvdGluZ1VuaXRzKGZyb20sIHRvLCB2YWx1ZSk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIHZvdGluZyB1bml0cyBvZiBhbiBgYWNjb3VudGAuCiAgICAgKgogICAgICogV0FSTklORzogT3ZlcnJpZGluZyB0aGlzIGZ1bmN0aW9uIG1heSBjb21wcm9taXNlIHRoZSBpbnRlcm5hbCB2b3RlIGFjY291bnRpbmcuCiAgICAgKiBgRVJDMjBWb3Rlc2AgYXNzdW1lcyB0b2tlbnMgbWFwIHRvIHZvdGluZyB1bml0cyAxOjEgYW5kIHRoaXMgaXMgbm90IGVhc3kgdG8gY2hhbmdlLgogICAgICovCiAgICBmdW5jdGlvbiBfZ2V0Vm90aW5nVW5pdHMoYWRkcmVzcyBhY2NvdW50KSBpbnRlcm5hbCB2aWV3IHZpcnR1YWwgb3ZlcnJpZGUgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHJldHVybiBiYWxhbmNlT2YoYWNjb3VudCk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IEdldCBudW1iZXIgb2YgY2hlY2twb2ludHMgZm9yIGBhY2NvdW50YC4KICAgICAqLwogICAgZnVuY3Rpb24gbnVtQ2hlY2twb2ludHMoYWRkcmVzcyBhY2NvdW50KSBwdWJsaWMgdmlldyB2aXJ0dWFsIHJldHVybnMgKHVpbnQzMikgewogICAgICAgIHJldHVybiBfbnVtQ2hlY2twb2ludHMoYWNjb3VudCk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IEdldCB0aGUgYHBvc2AtdGggY2hlY2twb2ludCBmb3IgYGFjY291bnRgLgogICAgICovCiAgICBmdW5jdGlvbiBjaGVja3BvaW50cyhhZGRyZXNzIGFjY291bnQsIHVpbnQzMiBwb3MpIHB1YmxpYyB2aWV3IHZpcnR1YWwgcmV0dXJucyAoQ2hlY2twb2ludHMuQ2hlY2twb2ludDIwOCBtZW1vcnkpIHsKICAgICAgICByZXR1cm4gX2NoZWNrcG9pbnRzKGFjY291bnQsIHBvcyk7CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (token/ERC20/extensions/ERC20Votes.sol)
+
+pragma solidity ^0.8.20;
+
+import {ERC20} from "../ERC20.sol";
+import {Votes} from "../../../governance/utils/Votes.sol";
+import {Checkpoints} from "../../../utils/structs/Checkpoints.sol";
+
+/**
+ * @dev Extension of ERC-20 to support Compound-like voting and delegation. This version is more generic than Compound's,
+ * and supports token supply up to 2^208^ - 1, while COMP is limited to 2^96^ - 1.
+ *
+ * NOTE: This contract does not provide interface compatibility with Compound's COMP token.
+ *
+ * This extension keeps a history (checkpoints) of each account's vote power. Vote power can be delegated either
+ * by calling the {Votes-delegate} function directly, or by providing a signature to be used with {Votes-delegateBySig}. Voting
+ * power can be queried through the public accessors {Votes-getVotes} and {Votes-getPastVotes}.
+ *
+ * By default, token balance does not account for voting power. This makes transfers cheaper. The downside is that it
+ * requires users to delegate to themselves in order to activate checkpoints and have their voting power tracked.
+ */
+abstract contract ERC20Votes is ERC20, Votes {
+    /**
+     * @dev Total supply cap has been exceeded, introducing a risk of votes overflowing.
+     */
+    error ERC20ExceededSafeSupply(uint256 increasedSupply, uint256 cap);
+
+    /**
+     * @dev Maximum token supply. Defaults to `type(uint208).max` (2^208^ - 1).
+     *
+     * This maximum is enforced in {_update}. It limits the total supply of the token, which is otherwise a uint256,
+     * so that checkpoints can be stored in the Trace208 structure used by {Votes}. Increasing this value will not
+     * remove the underlying limitation, and will cause {_update} to fail because of a math overflow in
+     * {Votes-_transferVotingUnits}. An override could be used to further restrict the total supply (to a lower value) if
+     * additional logic requires it. When resolving override conflicts on this function, the minimum should be
+     * returned.
+     */
+    function _maxSupply() internal view virtual returns (uint256) {
+        return type(uint208).max;
+    }
+
+    /**
+     * @dev Move voting power when tokens are transferred.
+     *
+     * Emits a {IVotes-DelegateVotesChanged} event.
+     */
+    function _update(address from, address to, uint256 value) internal virtual override {
+        super._update(from, to, value);
+        if (from == address(0)) {
+            uint256 supply = totalSupply();
+            uint256 cap = _maxSupply();
+            if (supply > cap) {
+                revert ERC20ExceededSafeSupply(supply, cap);
+            }
+        }
+        _transferVotingUnits(from, to, value);
+    }
+
+    /**
+     * @dev Returns the voting units of an `account`.
+     *
+     * WARNING: Overriding this function may compromise the internal vote accounting.
+     * `ERC20Votes` assumes tokens map to voting units 1:1 and this is not easy to change.
+     */
+    function _getVotingUnits(address account) internal view virtual override returns (uint256) {
+        return balanceOf(account);
+    }
+
+    /**
+     * @dev Get number of checkpoints for `account`.
+     */
+    function numCheckpoints(address account) public view virtual returns (uint32) {
+        return _numCheckpoints(account);
+    }
+
+    /**
+     * @dev Get the `pos`-th checkpoint for `account`.
+     */
+    function checkpoints(address account, uint32 pos) public view virtual returns (Checkpoints.Checkpoint208 memory) {
+        return _checkpoints(account, pos);
+    }
+}
