@@ -1,1 +1,97 @@
-LS0tIGFjY2Vzcy9tYW5hZ2VyL0FjY2Vzc01hbmFnZXIuc29sCTIwMjMtMTAtMDUgMTI6MTc6MDkuNjk0MDUxODA5IC0wMzAwCisrKyBhY2Nlc3MvbWFuYWdlci9BY2Nlc3NNYW5hZ2VyLnNvbAkyMDIzLTEwLTA1IDEyOjI2OjE4LjQ5ODY4ODcxOCAtMDMwMApAQCAtNiw3ICs2LDYgQEAKIGltcG9ydCB7SUFjY2Vzc01hbmFnZWR9IGZyb20gIi4vSUFjY2Vzc01hbmFnZWQuc29sIjsKIGltcG9ydCB7QWRkcmVzc30gZnJvbSAiLi4vLi4vdXRpbHMvQWRkcmVzcy5zb2wiOwogaW1wb3J0IHtDb250ZXh0fSBmcm9tICIuLi8uLi91dGlscy9Db250ZXh0LnNvbCI7Ci1pbXBvcnQge011bHRpY2FsbH0gZnJvbSAiLi4vLi4vdXRpbHMvTXVsdGljYWxsLnNvbCI7CiBpbXBvcnQge01hdGh9IGZyb20gIi4uLy4uL3V0aWxzL21hdGgvTWF0aC5zb2wiOwogaW1wb3J0IHtUaW1lfSBmcm9tICIuLi8uLi91dGlscy90eXBlcy9UaW1lLnNvbCI7CiAKQEAgLTU3LDcgKzU2LDggQEAKICAqIG1pbmRmdWwgb2YgdGhlIGRhbmdlciBhc3NvY2lhdGVkIHdpdGggZnVuY3Rpb25zIHN1Y2ggYXMge3tPd25hYmxlLXJlbm91bmNlT3duZXJzaGlwfX0gb3IKICAqIHt7QWNjZXNzQ29udHJvbC1yZW5vdW5jZVJvbGV9fS4KICAqLwotY29udHJhY3QgQWNjZXNzTWFuYWdlciBpcyBDb250ZXh0LCBNdWx0aWNhbGwsIElBY2Nlc3NNYW5hZ2VyIHsKKy8vIE5PVEU6IFRoZSBGViB2ZXJzaW9uIG9mIHRoaXMgY29udHJhY3QgZG9lc24ndCBpbmNsdWRlIE11bHRpY2FsbCBiZWNhdXNlIENWTCBIQVZPQ3Mgb24gYW55IGBkZWxlZ2F0ZWNhbGxgLgorY29udHJhY3QgQWNjZXNzTWFuYWdlciBpcyBDb250ZXh0LCBJQWNjZXNzTWFuYWdlciB7CiAgICAgdXNpbmcgVGltZSBmb3IgKjsKIAogICAgIC8vIFN0cnVjdHVyZSB0aGF0IHN0b3JlcyB0aGUgZGV0YWlscyBmb3IgYSB0YXJnZXQgY29udHJhY3QuCkBAIC0xMDUsNyArMTA1LDcgQEAKIAogICAgIC8vIFVzZWQgdG8gaWRlbnRpZnkgb3BlcmF0aW9ucyB0aGF0IGFyZSBjdXJyZW50bHkgYmVpbmcgZXhlY3V0ZWQgdmlhIHtleGVjdXRlfS4KICAgICAvLyBUaGlzIHNob3VsZCBiZSB0cmFuc2llbnQgc3RvcmFnZSB3aGVuIHN1cHBvcnRlZCBieSB0aGUgRVZNLgotICAgIGJ5dGVzMzIgcHJpdmF0ZSBfZXhlY3V0aW9uSWQ7CisgICAgYnl0ZXMzMiBpbnRlcm5hbCBfZXhlY3V0aW9uSWQ7IC8vIHByaXZhdGUg4oaSIGludGVybmFsIGZvciBGVgogCiAgICAgLyoqCiAgICAgICogQGRldiBDaGVjayB0aGF0IHRoZSBjYWxsZXIgaXMgYXV0aG9yaXplZCB0byBwZXJmb3JtIHRoZSBvcGVyYXRpb24sIGZvbGxvd2luZyB0aGUgcmVzdHJpY3Rpb25zIGVuY29kZWQgaW4KQEAgLTI1Myw2ICsyNTMsMTEgQEAKICAgICAgICAgX3NldEdyYW50RGVsYXkocm9sZUlkLCBuZXdEZWxheSk7CiAgICAgfQogCisgICAgLy8gRXhwb3NlZCBmb3IgRlYKKyAgICBmdW5jdGlvbiBfZ2V0VGFyZ2V0QWRtaW5EZWxheUZ1bGwoYWRkcmVzcyB0YXJnZXQpIGludGVybmFsIHZpZXcgdmlydHVhbCByZXR1cm5zICh1aW50MzIsIHVpbnQzMiwgdWludDQ4KSB7CisgICAgICAgIHJldHVybiBfdGFyZ2V0c1t0YXJnZXRdLmFkbWluRGVsYXkuZ2V0RnVsbCgpOworICAgIH0KKwogICAgIC8qKgogICAgICAqIEBkZXYgSW50ZXJuYWwgdmVyc2lvbiBvZiB7Z3JhbnRSb2xlfSB3aXRob3V0IGFjY2VzcyBjb250cm9sLiBSZXR1cm5zIHRydWUgaWYgdGhlIHJvbGUgd2FzIG5ld2x5IGdyYW50ZWQuCiAgICAgICoKQEAgLTI4Nyw2ICsyOTIsMTEgQEAKICAgICAgICAgcmV0dXJuIG5ld01lbWJlcjsKICAgICB9CiAKKyAgICAvLyBFeHBvc2VkIGZvciBGVgorICAgIGZ1bmN0aW9uIF9nZXRSb2xlR3JhbnREZWxheUZ1bGwodWludDY0IHJvbGVJZCkgaW50ZXJuYWwgdmlldyB2aXJ0dWFsIHJldHVybnMgKHVpbnQzMiwgdWludDMyLCB1aW50NDgpIHsKKyAgICAgICAgcmV0dXJuIF9yb2xlc1tyb2xlSWRdLmdyYW50RGVsYXkuZ2V0RnVsbCgpOworICAgIH0KKwogICAgIC8qKgogICAgICAqIEBkZXYgSW50ZXJuYWwgdmVyc2lvbiBvZiB7cmV2b2tlUm9sZX0gd2l0aG91dCBhY2Nlc3MgY29udHJvbC4gVGhpcyBsb2dpYyBpcyBhbHNvIHVzZWQgYnkge3Jlbm91bmNlUm9sZX0uCiAgICAgICogUmV0dXJucyB0cnVlIGlmIHRoZSByb2xlIHdhcyBwcmV2aW91c2x5IGdyYW50ZWQuCkBAIC01ODYsNyArNTk2LDcgQEAKICAgICAvKioKICAgICAgKiBAZGV2IENoZWNrIGlmIHRoZSBjdXJyZW50IGNhbGwgaXMgYXV0aG9yaXplZCBhY2NvcmRpbmcgdG8gYWRtaW4gbG9naWMuCiAgICAgICovCi0gICAgZnVuY3Rpb24gX2NoZWNrQXV0aG9yaXplZCgpIHByaXZhdGUgeworICAgIGZ1bmN0aW9uIF9jaGVja0F1dGhvcml6ZWQoKSBpbnRlcm5hbCB2aXJ0dWFsIHsgLy8gcHJpdmF0ZSDihpIgaW50ZXJuYWwgdmlydHVhbCBmb3IgRlYKICAgICAgICAgYWRkcmVzcyBjYWxsZXIgPSBfbXNnU2VuZGVyKCk7CiAgICAgICAgIChib29sIGltbWVkaWF0ZSwgdWludDMyIGRlbGF5KSA9IF9jYW5DYWxsU2VsZihjYWxsZXIsIF9tc2dEYXRhKCkpOwogICAgICAgICBpZiAoIWltbWVkaWF0ZSkgewpAQCAtNjA5LDcgKzYxOSw3IEBACiAgICAgICovCiAgICAgZnVuY3Rpb24gX2dldEFkbWluUmVzdHJpY3Rpb25zKAogICAgICAgICBieXRlcyBjYWxsZGF0YSBkYXRhCi0gICAgKSBwcml2YXRlIHZpZXcgcmV0dXJucyAoYm9vbCBhZG1pblJlc3RyaWN0ZWQsIHVpbnQ2NCByb2xlQWRtaW5JZCwgdWludDMyIGV4ZWN1dGlvbkRlbGF5KSB7CisgICAgKSBpbnRlcm5hbCB2aWV3IHJldHVybnMgKGJvb2wgYWRtaW5SZXN0cmljdGVkLCB1aW50NjQgcm9sZUFkbWluSWQsIHVpbnQzMiBleGVjdXRpb25EZWxheSkgeyAvLyBwcml2YXRlIOKGkiBpbnRlcm5hbCBmb3IgRlYKICAgICAgICAgaWYgKGRhdGEubGVuZ3RoIDwgNCkgewogICAgICAgICAgICAgcmV0dXJuIChmYWxzZSwgMCwgMCk7CiAgICAgICAgIH0KQEAgLTY2Miw3ICs2NzIsNyBAQAogICAgICAgICBhZGRyZXNzIGNhbGxlciwKICAgICAgICAgYWRkcmVzcyB0YXJnZXQsCiAgICAgICAgIGJ5dGVzIGNhbGxkYXRhIGRhdGEKLSAgICApIHByaXZhdGUgdmlldyByZXR1cm5zIChib29sIGltbWVkaWF0ZSwgdWludDMyIGRlbGF5KSB7CisgICAgKSBpbnRlcm5hbCB2aWV3IHJldHVybnMgKGJvb2wgaW1tZWRpYXRlLCB1aW50MzIgZGVsYXkpIHsgLy8gcHJpdmF0ZSDihpIgaW50ZXJuYWwgZm9yIEZWCiAgICAgICAgIGlmICh0YXJnZXQgPT0gYWRkcmVzcyh0aGlzKSkgewogICAgICAgICAgICAgcmV0dXJuIF9jYW5DYWxsU2VsZihjYWxsZXIsIGRhdGEpOwogICAgICAgICB9IGVsc2UgewpAQCAtNzE2LDE0ICs3MjYsMTQgQEAKICAgICAvKioKICAgICAgKiBAZGV2IEV4dHJhY3RzIHRoZSBzZWxlY3RvciBmcm9tIGNhbGxkYXRhLiBQYW5pY3MgaWYgZGF0YSBpcyBub3QgYXQgbGVhc3QgNCBieXRlcwogICAgICAqLwotICAgIGZ1bmN0aW9uIF9jaGVja1NlbGVjdG9yKGJ5dGVzIGNhbGxkYXRhIGRhdGEpIHByaXZhdGUgcHVyZSByZXR1cm5zIChieXRlczQpIHsKKyAgICBmdW5jdGlvbiBfY2hlY2tTZWxlY3RvcihieXRlcyBjYWxsZGF0YSBkYXRhKSBpbnRlcm5hbCBwdXJlIHJldHVybnMgKGJ5dGVzNCkgeyAvLyBwcml2YXRlIOKGkiBpbnRlcm5hbCBmb3IgRlYKICAgICAgICAgcmV0dXJuIGJ5dGVzNChkYXRhWzA6NF0pOwogICAgIH0KIAogICAgIC8qKgogICAgICAqIEBkZXYgSGFzaGluZyBmdW5jdGlvbiBmb3IgZXhlY3V0ZSBwcm90ZWN0aW9uCiAgICAgICovCi0gICAgZnVuY3Rpb24gX2hhc2hFeGVjdXRpb25JZChhZGRyZXNzIHRhcmdldCwgYnl0ZXM0IHNlbGVjdG9yKSBwcml2YXRlIHB1cmUgcmV0dXJucyAoYnl0ZXMzMikgeworICAgIGZ1bmN0aW9uIF9oYXNoRXhlY3V0aW9uSWQoYWRkcmVzcyB0YXJnZXQsIGJ5dGVzNCBzZWxlY3RvcikgaW50ZXJuYWwgcHVyZSByZXR1cm5zIChieXRlczMyKSB7IC8vIHByaXZhdGUg4oaSIGludGVybmFsIGZvciBGVgogICAgICAgICByZXR1cm4ga2VjY2FrMjU2KGFiaS5lbmNvZGUodGFyZ2V0LCBzZWxlY3RvcikpOwogICAgIH0KIH0K
+--- access/manager/AccessManager.sol	2023-10-05 12:17:09.694051809 -0300
++++ access/manager/AccessManager.sol	2023-10-05 12:26:18.498688718 -0300
+@@ -6,7 +6,6 @@
+ import {IAccessManaged} from "./IAccessManaged.sol";
+ import {Address} from "../../utils/Address.sol";
+ import {Context} from "../../utils/Context.sol";
+-import {Multicall} from "../../utils/Multicall.sol";
+ import {Math} from "../../utils/math/Math.sol";
+ import {Time} from "../../utils/types/Time.sol";
+ 
+@@ -57,7 +56,8 @@
+  * mindful of the danger associated with functions such as {{Ownable-renounceOwnership}} or
+  * {{AccessControl-renounceRole}}.
+  */
+-contract AccessManager is Context, Multicall, IAccessManager {
++// NOTE: The FV version of this contract doesn't include Multicall because CVL HAVOCs on any `delegatecall`.
++contract AccessManager is Context, IAccessManager {
+     using Time for *;
+ 
+     // Structure that stores the details for a target contract.
+@@ -105,7 +105,7 @@
+ 
+     // Used to identify operations that are currently being executed via {execute}.
+     // This should be transient storage when supported by the EVM.
+-    bytes32 private _executionId;
++    bytes32 internal _executionId; // private → internal for FV
+ 
+     /**
+      * @dev Check that the caller is authorized to perform the operation, following the restrictions encoded in
+@@ -253,6 +253,11 @@
+         _setGrantDelay(roleId, newDelay);
+     }
+ 
++    // Exposed for FV
++    function _getTargetAdminDelayFull(address target) internal view virtual returns (uint32, uint32, uint48) {
++        return _targets[target].adminDelay.getFull();
++    }
++
+     /**
+      * @dev Internal version of {grantRole} without access control. Returns true if the role was newly granted.
+      *
+@@ -287,6 +292,11 @@
+         return newMember;
+     }
+ 
++    // Exposed for FV
++    function _getRoleGrantDelayFull(uint64 roleId) internal view virtual returns (uint32, uint32, uint48) {
++        return _roles[roleId].grantDelay.getFull();
++    }
++
+     /**
+      * @dev Internal version of {revokeRole} without access control. This logic is also used by {renounceRole}.
+      * Returns true if the role was previously granted.
+@@ -586,7 +596,7 @@
+     /**
+      * @dev Check if the current call is authorized according to admin logic.
+      */
+-    function _checkAuthorized() private {
++    function _checkAuthorized() internal virtual { // private → internal virtual for FV
+         address caller = _msgSender();
+         (bool immediate, uint32 delay) = _canCallSelf(caller, _msgData());
+         if (!immediate) {
+@@ -609,7 +619,7 @@
+      */
+     function _getAdminRestrictions(
+         bytes calldata data
+-    ) private view returns (bool adminRestricted, uint64 roleAdminId, uint32 executionDelay) {
++    ) internal view returns (bool adminRestricted, uint64 roleAdminId, uint32 executionDelay) { // private → internal for FV
+         if (data.length < 4) {
+             return (false, 0, 0);
+         }
+@@ -662,7 +672,7 @@
+         address caller,
+         address target,
+         bytes calldata data
+-    ) private view returns (bool immediate, uint32 delay) {
++    ) internal view returns (bool immediate, uint32 delay) { // private → internal for FV
+         if (target == address(this)) {
+             return _canCallSelf(caller, data);
+         } else {
+@@ -716,14 +726,14 @@
+     /**
+      * @dev Extracts the selector from calldata. Panics if data is not at least 4 bytes
+      */
+-    function _checkSelector(bytes calldata data) private pure returns (bytes4) {
++    function _checkSelector(bytes calldata data) internal pure returns (bytes4) { // private → internal for FV
+         return bytes4(data[0:4]);
+     }
+ 
+     /**
+      * @dev Hashing function for execute protection
+      */
+-    function _hashExecutionId(address target, bytes4 selector) private pure returns (bytes32) {
++    function _hashExecutionId(address target, bytes4 selector) internal pure returns (bytes32) { // private → internal for FV
+         return keccak256(abi.encode(target, selector));
+     }
+ }
