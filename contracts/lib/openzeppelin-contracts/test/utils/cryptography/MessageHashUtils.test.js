@@ -1,1 +1,68 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKY29uc3QgeyBkb21haW5TZXBhcmF0b3IsIGhhc2hUeXBlZERhdGEgfSA9IHJlcXVpcmUoJy4uLy4uL2hlbHBlcnMvZWlwNzEyJyk7Cgphc3luYyBmdW5jdGlvbiBmaXh0dXJlKCkgewogIGNvbnN0IG1vY2sgPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJyRNZXNzYWdlSGFzaFV0aWxzJyk7CiAgcmV0dXJuIHsgbW9jayB9Owp9CgpkZXNjcmliZSgnTWVzc2FnZUhhc2hVdGlscycsIGZ1bmN0aW9uICgpIHsKICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgIE9iamVjdC5hc3NpZ24odGhpcywgYXdhaXQgbG9hZEZpeHR1cmUoZml4dHVyZSkpOwogIH0pOwoKICBkZXNjcmliZSgndG9FdGhTaWduZWRNZXNzYWdlSGFzaCcsIGZ1bmN0aW9uICgpIHsKICAgIGl0KCdwcmVmaXhlcyBieXRlczMyIGRhdGEgY29ycmVjdGx5JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCBtZXNzYWdlID0gZXRoZXJzLnJhbmRvbUJ5dGVzKDMyKTsKICAgICAgY29uc3QgZXhwZWN0ZWRIYXNoID0gZXRoZXJzLmhhc2hNZXNzYWdlKG1lc3NhZ2UpOwoKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay5nZXRGdW5jdGlvbignJHRvRXRoU2lnbmVkTWVzc2FnZUhhc2goYnl0ZXMzMiknKShtZXNzYWdlKSkudG8uZXF1YWwoZXhwZWN0ZWRIYXNoKTsKICAgIH0pOwoKICAgIGl0KCdwcmVmaXhlcyBkeW5hbWljIGxlbmd0aCBkYXRhIGNvcnJlY3RseScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgY29uc3QgbWVzc2FnZSA9IGV0aGVycy5yYW5kb21CeXRlcygxMjgpOwogICAgICBjb25zdCBleHBlY3RlZEhhc2ggPSBldGhlcnMuaGFzaE1lc3NhZ2UobWVzc2FnZSk7CgogICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLmdldEZ1bmN0aW9uKCckdG9FdGhTaWduZWRNZXNzYWdlSGFzaChieXRlcyknKShtZXNzYWdlKSkudG8uZXF1YWwoZXhwZWN0ZWRIYXNoKTsKICAgIH0pOwoKICAgIGl0KCd2ZXJzaW9uIG1hdGNoIGZvciBieXRlczMyJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCBtZXNzYWdlID0gZXRoZXJzLnJhbmRvbUJ5dGVzKDMyKTsKICAgICAgY29uc3QgZml4ZWQgPSBhd2FpdCB0aGlzLm1vY2suZ2V0RnVuY3Rpb24oJyR0b0V0aFNpZ25lZE1lc3NhZ2VIYXNoKGJ5dGVzMzIpJykobWVzc2FnZSk7CiAgICAgIGNvbnN0IGR5bmFtaWMgPSBhd2FpdCB0aGlzLm1vY2suZ2V0RnVuY3Rpb24oJyR0b0V0aFNpZ25lZE1lc3NhZ2VIYXNoKGJ5dGVzKScpKG1lc3NhZ2UpOwoKICAgICAgZXhwZWN0KGZpeGVkKS50by5lcXVhbChkeW5hbWljKTsKICAgIH0pOwogIH0pOwoKICBkZXNjcmliZSgndG9EYXRhV2l0aEludGVuZGVkVmFsaWRhdG9ySGFzaCcsIGZ1bmN0aW9uICgpIHsKICAgIGl0KCdyZXR1cm5zIHRoZSBkaWdlc3QgY29ycmVjdGx5JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCB2ZXJpZmllciA9IGV0aGVycy5XYWxsZXQuY3JlYXRlUmFuZG9tKCkuYWRkcmVzczsKICAgICAgY29uc3QgbWVzc2FnZSA9IGV0aGVycy5yYW5kb21CeXRlcygxMjgpOwogICAgICBjb25zdCBleHBlY3RlZEhhc2ggPSBldGhlcnMuc29saWRpdHlQYWNrZWRLZWNjYWsyNTYoCiAgICAgICAgWydzdHJpbmcnLCAnYWRkcmVzcycsICdieXRlcyddLAogICAgICAgIFsnXHgxOVx4MDAnLCB2ZXJpZmllciwgbWVzc2FnZV0sCiAgICAgICk7CgogICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiR0b0RhdGFXaXRoSW50ZW5kZWRWYWxpZGF0b3JIYXNoKHZlcmlmaWVyLCBtZXNzYWdlKSkudG8uZXF1YWwoZXhwZWN0ZWRIYXNoKTsKICAgIH0pOwogIH0pOwoKICBkZXNjcmliZSgndG9UeXBlZERhdGFIYXNoJywgZnVuY3Rpb24gKCkgewogICAgaXQoJ3JldHVybnMgdGhlIGRpZ2VzdCBjb3JyZWN0bHknLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGNvbnN0IGRvbWFpbiA9IHsKICAgICAgICBuYW1lOiAnVGVzdCcsCiAgICAgICAgdmVyc2lvbjogJzEnLAogICAgICAgIGNoYWluSWQ6IDFuLAogICAgICAgIHZlcmlmeWluZ0NvbnRyYWN0OiBldGhlcnMuV2FsbGV0LmNyZWF0ZVJhbmRvbSgpLmFkZHJlc3MsCiAgICAgIH07CiAgICAgIGNvbnN0IHN0cnVjdGhhc2ggPSBldGhlcnMucmFuZG9tQnl0ZXMoMzIpOwogICAgICBjb25zdCBleHBlY3RlZEhhc2ggPSBoYXNoVHlwZWREYXRhKGRvbWFpbiwgc3RydWN0aGFzaCk7CgogICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiR0b1R5cGVkRGF0YUhhc2goZG9tYWluU2VwYXJhdG9yKGRvbWFpbiksIHN0cnVjdGhhc2gpKS50by5lcXVhbChleHBlY3RlZEhhc2gpOwogICAgfSk7CiAgfSk7Cn0pOwo=
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+const { domainSeparator, hashTypedData } = require('../../helpers/eip712');
+
+async function fixture() {
+  const mock = await ethers.deployContract('$MessageHashUtils');
+  return { mock };
+}
+
+describe('MessageHashUtils', function () {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  describe('toEthSignedMessageHash', function () {
+    it('prefixes bytes32 data correctly', async function () {
+      const message = ethers.randomBytes(32);
+      const expectedHash = ethers.hashMessage(message);
+
+      expect(await this.mock.getFunction('$toEthSignedMessageHash(bytes32)')(message)).to.equal(expectedHash);
+    });
+
+    it('prefixes dynamic length data correctly', async function () {
+      const message = ethers.randomBytes(128);
+      const expectedHash = ethers.hashMessage(message);
+
+      expect(await this.mock.getFunction('$toEthSignedMessageHash(bytes)')(message)).to.equal(expectedHash);
+    });
+
+    it('version match for bytes32', async function () {
+      const message = ethers.randomBytes(32);
+      const fixed = await this.mock.getFunction('$toEthSignedMessageHash(bytes32)')(message);
+      const dynamic = await this.mock.getFunction('$toEthSignedMessageHash(bytes)')(message);
+
+      expect(fixed).to.equal(dynamic);
+    });
+  });
+
+  describe('toDataWithIntendedValidatorHash', function () {
+    it('returns the digest correctly', async function () {
+      const verifier = ethers.Wallet.createRandom().address;
+      const message = ethers.randomBytes(128);
+      const expectedHash = ethers.solidityPackedKeccak256(
+        ['string', 'address', 'bytes'],
+        ['\x19\x00', verifier, message],
+      );
+
+      expect(await this.mock.$toDataWithIntendedValidatorHash(verifier, message)).to.equal(expectedHash);
+    });
+  });
+
+  describe('toTypedDataHash', function () {
+    it('returns the digest correctly', async function () {
+      const domain = {
+        name: 'Test',
+        version: '1',
+        chainId: 1n,
+        verifyingContract: ethers.Wallet.createRandom().address,
+      };
+      const structhash = ethers.randomBytes(32);
+      const expectedHash = hashTypedData(domain, structhash);
+
+      expect(await this.mock.$toTypedDataHash(domainSeparator(domain), structhash)).to.equal(expectedHash);
+    });
+  });
+});
