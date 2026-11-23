@@ -1,1 +1,31 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgXjAuOC4yNDsKCmltcG9ydCB7Vm19IGZyb20gImZvcmdlLXN0ZC9WbS5zb2wiOwoKLy8vIEBkZXYgQnVpbGRzIEVJUC0zMDA5IGBSZWNlaXZlV2l0aEF1dGhvcml6YXRpb25gIHNpZ25hdHVyZXMsIHRoZSBzYW1lIHdheSBhIHdhbGxldCB3b3VsZC4KbGlicmFyeSBTaWduaW5nIHsKICAgIGJ5dGVzMzIgaW50ZXJuYWwgY29uc3RhbnQgUkVDRUlWRV9UWVBFSEFTSCA9IGtlY2NhazI1NigKICAgICAgICAiUmVjZWl2ZVdpdGhBdXRob3JpemF0aW9uKGFkZHJlc3MgZnJvbSxhZGRyZXNzIHRvLHVpbnQyNTYgdmFsdWUsdWludDI1NiB2YWxpZEFmdGVyLHVpbnQyNTYgdmFsaWRCZWZvcmUsYnl0ZXMzMiBub25jZSkiCiAgICApOwoKICAgIHN0cnVjdCBBdXRoIHsKICAgICAgICBhZGRyZXNzIGZyb207CiAgICAgICAgYWRkcmVzcyB0bzsKICAgICAgICB1aW50MjU2IHZhbHVlOwogICAgICAgIHVpbnQyNTYgdmFsaWRBZnRlcjsKICAgICAgICB1aW50MjU2IHZhbGlkQmVmb3JlOwogICAgICAgIGJ5dGVzMzIgbm9uY2U7CiAgICB9CgogICAgZnVuY3Rpb24gc2lnblJlY2VpdmUoVm0gdm0sIHVpbnQyNTYgcGssIGJ5dGVzMzIgZG9tYWluU2VwYXJhdG9yLCBBdXRoIG1lbW9yeSBhKQogICAgICAgIGludGVybmFsCiAgICAgICAgcHVyZQogICAgICAgIHJldHVybnMgKHVpbnQ4IHYsIGJ5dGVzMzIgciwgYnl0ZXMzMiBzKQogICAgewogICAgICAgIGJ5dGVzMzIgc3RydWN0SGFzaCA9IGtlY2NhazI1NigKICAgICAgICAgICAgYWJpLmVuY29kZShSRUNFSVZFX1RZUEVIQVNILCBhLmZyb20sIGEudG8sIGEudmFsdWUsIGEudmFsaWRBZnRlciwgYS52YWxpZEJlZm9yZSwgYS5ub25jZSkKICAgICAgICApOwogICAgICAgIHJldHVybiB2bS5zaWduKHBrLCBrZWNjYWsyNTYoYWJpLmVuY29kZVBhY2tlZCgiXHgxOVx4MDEiLCBkb21haW5TZXBhcmF0b3IsIHN0cnVjdEhhc2gpKSk7CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.24;
+
+import {Vm} from "forge-std/Vm.sol";
+
+/// @dev Builds EIP-3009 `ReceiveWithAuthorization` signatures, the same way a wallet would.
+library Signing {
+    bytes32 internal constant RECEIVE_TYPEHASH = keccak256(
+        "ReceiveWithAuthorization(address from,address to,uint256 value,uint256 validAfter,uint256 validBefore,bytes32 nonce)"
+    );
+
+    struct Auth {
+        address from;
+        address to;
+        uint256 value;
+        uint256 validAfter;
+        uint256 validBefore;
+        bytes32 nonce;
+    }
+
+    function signReceive(Vm vm, uint256 pk, bytes32 domainSeparator, Auth memory a)
+        internal
+        pure
+        returns (uint8 v, bytes32 r, bytes32 s)
+    {
+        bytes32 structHash = keccak256(
+            abi.encode(RECEIVE_TYPEHASH, a.from, a.to, a.value, a.validAfter, a.validBefore, a.nonce)
+        );
+        return vm.sign(pk, keccak256(abi.encodePacked("\x19\x01", domainSeparator, structHash)));
+    }
+}
