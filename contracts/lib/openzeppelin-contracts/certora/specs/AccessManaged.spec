@@ -1,1 +1,34 @@
-aW1wb3J0ICJoZWxwZXJzL2hlbHBlcnMuc3BlYyI7CmltcG9ydCAibWV0aG9kcy9JQWNjZXNzTWFuYWdlZC5zcGVjIjsKCm1ldGhvZHMgewogICAgLy8gRlYKICAgIGZ1bmN0aW9uIHNvbWVGdW5jdGlvbigpICAgICAgICAgICAgICAgICAgICAgICBleHRlcm5hbDsKICAgIGZ1bmN0aW9uIGF1dGhvcml0eV9jYW5DYWxsX2ltbWVkaWF0ZShhZGRyZXNzKSBleHRlcm5hbCByZXR1cm5zIChib29sKTsKICAgIGZ1bmN0aW9uIGF1dGhvcml0eV9jYW5DYWxsX2RlbGF5KGFkZHJlc3MpICAgICBleHRlcm5hbCByZXR1cm5zICh1aW50MzIpOwogICAgZnVuY3Rpb24gYXV0aG9yaXR5X2dldFNjaGVkdWxlKGFkZHJlc3MpICAgICAgIGV4dGVybmFsIHJldHVybnMgKHVpbnQ0OCk7Cn0KCmludmFyaWFudCBpc0NvbnN1bWluZ1NjaGVkdWxlZE9wQ2xlYW4oKQogICAgaXNDb25zdW1pbmdTY2hlZHVsZWRPcCgpID09IHRvX2J5dGVzNCgwKTsKCnJ1bGUgY2FsbFJlc3RyaWN0ZWRGdW5jdGlvbihlbnYgZSkgewogICAgYm9vbCAgIGltbWVkaWF0ZSAgICAgID0gYXV0aG9yaXR5X2NhbkNhbGxfaW1tZWRpYXRlKGUsIGUubXNnLnNlbmRlcik7CiAgICB1aW50MzIgZGVsYXkgICAgICAgICAgPSBhdXRob3JpdHlfY2FuQ2FsbF9kZWxheShlLCBlLm1zZy5zZW5kZXIpOwogICAgdWludDQ4IHNjaGVkdWxlQmVmb3JlID0gYXV0aG9yaXR5X2dldFNjaGVkdWxlKGUsIGUubXNnLnNlbmRlcik7CgogICAgc29tZUZ1bmN0aW9uQHdpdGhyZXZlcnQoZSk7CiAgICBib29sIHN1Y2Nlc3MgPSAhbGFzdFJldmVydGVkOwoKICAgIHVpbnQ0OCBzY2hlZHVsZUFmdGVyICA9IGF1dGhvcml0eV9nZXRTY2hlZHVsZShlLCBlLm1zZy5zZW5kZXIpOwoKICAgIC8vIGNhbiBvbmx5IGNhbGwgaWYgaW1tZWRpYXRlLCBvciAod2l0aCBkZWxheSkgYnkgY29uc3VtaW5nIGEgc2NoZWR1bGVkIG9wCiAgICBhc3NlcnQgc3VjY2VzcyA9PiAoCiAgICAgICAgaW1tZWRpYXRlIHx8CiAgICAgICAgKAogICAgICAgICAgICBkZWxheSA+IDAgJiYKICAgICAgICAgICAgaXNTZXRBbmRQYXN0KGUsIHNjaGVkdWxlQmVmb3JlKSAmJgogICAgICAgICAgICBzY2hlZHVsZUFmdGVyID09IDAKICAgICAgICApCiAgICApOwp9Cg==
+import "helpers/helpers.spec";
+import "methods/IAccessManaged.spec";
+
+methods {
+    // FV
+    function someFunction()                       external;
+    function authority_canCall_immediate(address) external returns (bool);
+    function authority_canCall_delay(address)     external returns (uint32);
+    function authority_getSchedule(address)       external returns (uint48);
+}
+
+invariant isConsumingScheduledOpClean()
+    isConsumingScheduledOp() == to_bytes4(0);
+
+rule callRestrictedFunction(env e) {
+    bool   immediate      = authority_canCall_immediate(e, e.msg.sender);
+    uint32 delay          = authority_canCall_delay(e, e.msg.sender);
+    uint48 scheduleBefore = authority_getSchedule(e, e.msg.sender);
+
+    someFunction@withrevert(e);
+    bool success = !lastReverted;
+
+    uint48 scheduleAfter  = authority_getSchedule(e, e.msg.sender);
+
+    // can only call if immediate, or (with delay) by consuming a scheduled op
+    assert success => (
+        immediate ||
+        (
+            delay > 0 &&
+            isSetAndPast(e, scheduleBefore) &&
+            scheduleAfter == 0
+        )
+    );
+}
