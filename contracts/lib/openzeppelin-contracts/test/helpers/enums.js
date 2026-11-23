@@ -1,1 +1,12 @@
-ZnVuY3Rpb24gRW51bSguLi5vcHRpb25zKSB7CiAgcmV0dXJuIE9iamVjdC5mcm9tRW50cmllcyhvcHRpb25zLm1hcCgoa2V5LCBpKSA9PiBba2V5LCBCaWdJbnQoaSldKSk7Cn0KCm1vZHVsZS5leHBvcnRzID0gewogIEVudW0sCiAgUHJvcG9zYWxTdGF0ZTogRW51bSgnUGVuZGluZycsICdBY3RpdmUnLCAnQ2FuY2VsZWQnLCAnRGVmZWF0ZWQnLCAnU3VjY2VlZGVkJywgJ1F1ZXVlZCcsICdFeHBpcmVkJywgJ0V4ZWN1dGVkJyksCiAgVm90ZVR5cGU6IE9iamVjdC5hc3NpZ24oRW51bSgnQWdhaW5zdCcsICdGb3InLCAnQWJzdGFpbicpLCB7IFBhcmFtZXRlcnM6IDI1NW4gfSksCiAgUm91bmRpbmc6IEVudW0oJ0Zsb29yJywgJ0NlaWwnLCAnVHJ1bmMnLCAnRXhwYW5kJyksCiAgT3BlcmF0aW9uU3RhdGU6IEVudW0oJ1Vuc2V0JywgJ1dhaXRpbmcnLCAnUmVhZHknLCAnRG9uZScpLAogIFJldmVydFR5cGU6IEVudW0oJ05vbmUnLCAnUmV2ZXJ0V2l0aG91dE1lc3NhZ2UnLCAnUmV2ZXJ0V2l0aE1lc3NhZ2UnLCAnUmV2ZXJ0V2l0aEN1c3RvbUVycm9yJywgJ1BhbmljJyksCn07Cg==
+function Enum(...options) {
+  return Object.fromEntries(options.map((key, i) => [key, BigInt(i)]));
+}
+
+module.exports = {
+  Enum,
+  ProposalState: Enum('Pending', 'Active', 'Canceled', 'Defeated', 'Succeeded', 'Queued', 'Expired', 'Executed'),
+  VoteType: Object.assign(Enum('Against', 'For', 'Abstain'), { Parameters: 255n }),
+  Rounding: Enum('Floor', 'Ceil', 'Trunc', 'Expand'),
+  OperationState: Enum('Unset', 'Waiting', 'Ready', 'Done'),
+  RevertType: Enum('None', 'RevertWithoutMessage', 'RevertWithMessage', 'RevertWithCustomError', 'Panic'),
+};
