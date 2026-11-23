@@ -1,1 +1,70 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKY29uc3QgZXJjMTE1NVVyaSA9ICdodHRwczovL3Rva2VuLmNvbS9uZnRzLyc7CmNvbnN0IGJhc2VVcmkgPSAnaHR0cHM6Ly90b2tlbi5jb20vJzsKY29uc3QgdG9rZW5JZCA9IDFuOwpjb25zdCB2YWx1ZSA9IDMwMDBuOwoKZGVzY3JpYmUoJ0VSQzExNTVVUklTdG9yYWdlJywgZnVuY3Rpb24gKCkgewogIGRlc2NyaWJlKCd3aXRoIGJhc2UgdXJpIHNldCcsIGZ1bmN0aW9uICgpIHsKICAgIGFzeW5jIGZ1bmN0aW9uIGZpeHR1cmUoKSB7CiAgICAgIGNvbnN0IFtob2xkZXJdID0gYXdhaXQgZXRoZXJzLmdldFNpZ25lcnMoKTsKCiAgICAgIGNvbnN0IHRva2VuID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCckRVJDMTE1NVVSSVN0b3JhZ2UnLCBbZXJjMTE1NVVyaV0pOwogICAgICBhd2FpdCB0b2tlbi4kX3NldEJhc2VVUkkoYmFzZVVyaSk7CiAgICAgIGF3YWl0IHRva2VuLiRfbWludChob2xkZXIsIHRva2VuSWQsIHZhbHVlLCAnMHgnKTsKCiAgICAgIHJldHVybiB7IHRva2VuLCBob2xkZXIgfTsKICAgIH0KCiAgICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgT2JqZWN0LmFzc2lnbih0aGlzLCBhd2FpdCBsb2FkRml4dHVyZShmaXh0dXJlKSk7CiAgICB9KTsKCiAgICBpdCgnY2FuIHJlcXVlc3QgdGhlIHRva2VuIHVyaSwgcmV0dXJuaW5nIHRoZSBlcmMxMTU1IHVyaSBpZiBubyB0b2tlbiB1cmkgd2FzIHNldCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudG9rZW4udXJpKHRva2VuSWQpKS50by5lcXVhbChlcmMxMTU1VXJpKTsKICAgIH0pOwoKICAgIGl0KCdjYW4gcmVxdWVzdCB0aGUgdG9rZW4gdXJpLCByZXR1cm5pbmcgdGhlIGNvbmNhdGVuYXRlZCB1cmkgaWYgYSB0b2tlbiB1cmkgd2FzIHNldCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgY29uc3QgdG9rZW5VcmkgPSAnMTIzNC8nOwogICAgICBjb25zdCBleHBlY3RlZFVyaSA9IGAke2Jhc2VVcml9JHt0b2tlblVyaX1gOwoKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMudG9rZW4uJF9zZXRVUkkoZXRoZXJzLlR5cGVkLnVpbnQyNTYodG9rZW5JZCksIHRva2VuVXJpKSkKICAgICAgICAudG8uZW1pdCh0aGlzLnRva2VuLCAnVVJJJykKICAgICAgICAud2l0aEFyZ3MoZXhwZWN0ZWRVcmksIHRva2VuSWQpOwoKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudG9rZW4udXJpKHRva2VuSWQpKS50by5lcXVhbChleHBlY3RlZFVyaSk7CiAgICB9KTsKICB9KTsKCiAgZGVzY3JpYmUoJ3dpdGggYmFzZSB1cmkgc2V0IHRvIHRoZSBlbXB0eSBzdHJpbmcnLCBmdW5jdGlvbiAoKSB7CiAgICBhc3luYyBmdW5jdGlvbiBmaXh0dXJlKCkgewogICAgICBjb25zdCBbaG9sZGVyXSA9IGF3YWl0IGV0aGVycy5nZXRTaWduZXJzKCk7CgogICAgICBjb25zdCB0b2tlbiA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnJEVSQzExNTVVUklTdG9yYWdlJywgWycnXSk7CiAgICAgIGF3YWl0IHRva2VuLiRfbWludChob2xkZXIsIHRva2VuSWQsIHZhbHVlLCAnMHgnKTsKCiAgICAgIHJldHVybiB7IHRva2VuLCBob2xkZXIgfTsKICAgIH0KCiAgICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgT2JqZWN0LmFzc2lnbih0aGlzLCBhd2FpdCBsb2FkRml4dHVyZShmaXh0dXJlKSk7CiAgICB9KTsKCiAgICBpdCgnY2FuIHJlcXVlc3QgdGhlIHRva2VuIHVyaSwgcmV0dXJuaW5nIGFuIGVtcHR5IHN0cmluZyBpZiBubyB0b2tlbiB1cmkgd2FzIHNldCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudG9rZW4udXJpKHRva2VuSWQpKS50by5lcXVhbCgnJyk7CiAgICB9KTsKCiAgICBpdCgnY2FuIHJlcXVlc3QgdGhlIHRva2VuIHVyaSwgcmV0dXJuaW5nIHRoZSB0b2tlbiB1cmkgaWYgYSB0b2tlbiB1cmkgd2FzIHNldCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgY29uc3QgdG9rZW5VcmkgPSAnaXBmczovLzEyMzQvJzsKCiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLnRva2VuLiRfc2V0VVJJKGV0aGVycy5UeXBlZC51aW50MjU2KHRva2VuSWQpLCB0b2tlblVyaSkpCiAgICAgICAgLnRvLmVtaXQodGhpcy50b2tlbiwgJ1VSSScpCiAgICAgICAgLndpdGhBcmdzKHRva2VuVXJpLCB0b2tlbklkKTsKCiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnRva2VuLnVyaSh0b2tlbklkKSkudG8uZXF1YWwodG9rZW5VcmkpOwogICAgfSk7CiAgfSk7Cn0pOwo=
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+const erc1155Uri = 'https://token.com/nfts/';
+const baseUri = 'https://token.com/';
+const tokenId = 1n;
+const value = 3000n;
+
+describe('ERC1155URIStorage', function () {
+  describe('with base uri set', function () {
+    async function fixture() {
+      const [holder] = await ethers.getSigners();
+
+      const token = await ethers.deployContract('$ERC1155URIStorage', [erc1155Uri]);
+      await token.$_setBaseURI(baseUri);
+      await token.$_mint(holder, tokenId, value, '0x');
+
+      return { token, holder };
+    }
+
+    beforeEach(async function () {
+      Object.assign(this, await loadFixture(fixture));
+    });
+
+    it('can request the token uri, returning the erc1155 uri if no token uri was set', async function () {
+      expect(await this.token.uri(tokenId)).to.equal(erc1155Uri);
+    });
+
+    it('can request the token uri, returning the concatenated uri if a token uri was set', async function () {
+      const tokenUri = '1234/';
+      const expectedUri = `${baseUri}${tokenUri}`;
+
+      await expect(this.token.$_setURI(ethers.Typed.uint256(tokenId), tokenUri))
+        .to.emit(this.token, 'URI')
+        .withArgs(expectedUri, tokenId);
+
+      expect(await this.token.uri(tokenId)).to.equal(expectedUri);
+    });
+  });
+
+  describe('with base uri set to the empty string', function () {
+    async function fixture() {
+      const [holder] = await ethers.getSigners();
+
+      const token = await ethers.deployContract('$ERC1155URIStorage', ['']);
+      await token.$_mint(holder, tokenId, value, '0x');
+
+      return { token, holder };
+    }
+
+    beforeEach(async function () {
+      Object.assign(this, await loadFixture(fixture));
+    });
+
+    it('can request the token uri, returning an empty string if no token uri was set', async function () {
+      expect(await this.token.uri(tokenId)).to.equal('');
+    });
+
+    it('can request the token uri, returning the token uri if a token uri was set', async function () {
+      const tokenUri = 'ipfs://1234/';
+
+      await expect(this.token.$_setURI(ethers.Typed.uint256(tokenId), tokenUri))
+        .to.emit(this.token, 'URI')
+        .withArgs(tokenUri, tokenId);
+
+      expect(await this.token.uri(tokenId)).to.equal(tokenUri);
+    });
+  });
+});
