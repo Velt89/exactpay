@@ -1,1 +1,55 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKY29uc3QgbmFtZSA9ICdNeSBUb2tlbic7CmNvbnN0IHN5bWJvbCA9ICdNVEtOJzsKY29uc3QgY2FwID0gMTAwMG47Cgphc3luYyBmdW5jdGlvbiBmaXh0dXJlKCkgewogIGNvbnN0IFt1c2VyXSA9IGF3YWl0IGV0aGVycy5nZXRTaWduZXJzKCk7CgogIGNvbnN0IHRva2VuID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCckRVJDMjBDYXBwZWQnLCBbbmFtZSwgc3ltYm9sLCBjYXBdKTsKCiAgcmV0dXJuIHsgdXNlciwgdG9rZW4sIGNhcCB9Owp9CgpkZXNjcmliZSgnRVJDMjBDYXBwZWQnLCBmdW5jdGlvbiAoKSB7CiAgYmVmb3JlRWFjaChhc3luYyBmdW5jdGlvbiAoKSB7CiAgICBPYmplY3QuYXNzaWduKHRoaXMsIGF3YWl0IGxvYWRGaXh0dXJlKGZpeHR1cmUpKTsKICB9KTsKCiAgaXQoJ3JlcXVpcmVzIGEgbm9uLXplcm8gY2FwJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgY29uc3QgRVJDMjBDYXBwZWQgPSBhd2FpdCBldGhlcnMuZ2V0Q29udHJhY3RGYWN0b3J5KCckRVJDMjBDYXBwZWQnKTsKCiAgICBhd2FpdCBleHBlY3QoRVJDMjBDYXBwZWQuZGVwbG95KG5hbWUsIHN5bWJvbCwgMCkpCiAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcihFUkMyMENhcHBlZCwgJ0VSQzIwSW52YWxpZENhcCcpCiAgICAgIC53aXRoQXJncygwKTsKICB9KTsKCiAgZGVzY3JpYmUoJ2NhcHBlZCB0b2tlbicsIGZ1bmN0aW9uICgpIHsKICAgIGl0KCdzdGFydHMgd2l0aCB0aGUgY29ycmVjdCBjYXAnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnRva2VuLmNhcCgpKS50by5lcXVhbCh0aGlzLmNhcCk7CiAgICB9KTsKCiAgICBpdCgnbWludHMgd2hlbiB2YWx1ZSBpcyBsZXNzIHRoYW4gY2FwJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCB2YWx1ZSA9IHRoaXMuY2FwIC0gMW47CiAgICAgIGF3YWl0IHRoaXMudG9rZW4uJF9taW50KHRoaXMudXNlciwgdmFsdWUpOwogICAgICBleHBlY3QoYXdhaXQgdGhpcy50b2tlbi50b3RhbFN1cHBseSgpKS50by5lcXVhbCh2YWx1ZSk7CiAgICB9KTsKCiAgICBpdCgnZmFpbHMgdG8gbWludCBpZiB0aGUgdmFsdWUgZXhjZWVkcyB0aGUgY2FwJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCB0aGlzLnRva2VuLiRfbWludCh0aGlzLnVzZXIsIHRoaXMuY2FwIC0gMW4pOwogICAgICBhd2FpdCBleHBlY3QodGhpcy50b2tlbi4kX21pbnQodGhpcy51c2VyLCAyKSkKICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy50b2tlbiwgJ0VSQzIwRXhjZWVkZWRDYXAnKQogICAgICAgIC53aXRoQXJncyh0aGlzLmNhcCArIDFuLCB0aGlzLmNhcCk7CiAgICB9KTsKCiAgICBpdCgnZmFpbHMgdG8gbWludCBhZnRlciBjYXAgaXMgcmVhY2hlZCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgdGhpcy50b2tlbi4kX21pbnQodGhpcy51c2VyLCB0aGlzLmNhcCk7CiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLnRva2VuLiRfbWludCh0aGlzLnVzZXIsIDEpKQogICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLnRva2VuLCAnRVJDMjBFeGNlZWRlZENhcCcpCiAgICAgICAgLndpdGhBcmdzKHRoaXMuY2FwICsgMW4sIHRoaXMuY2FwKTsKICAgIH0pOwogIH0pOwp9KTsK
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+const name = 'My Token';
+const symbol = 'MTKN';
+const cap = 1000n;
+
+async function fixture() {
+  const [user] = await ethers.getSigners();
+
+  const token = await ethers.deployContract('$ERC20Capped', [name, symbol, cap]);
+
+  return { user, token, cap };
+}
+
+describe('ERC20Capped', function () {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  it('requires a non-zero cap', async function () {
+    const ERC20Capped = await ethers.getContractFactory('$ERC20Capped');
+
+    await expect(ERC20Capped.deploy(name, symbol, 0))
+      .to.be.revertedWithCustomError(ERC20Capped, 'ERC20InvalidCap')
+      .withArgs(0);
+  });
+
+  describe('capped token', function () {
+    it('starts with the correct cap', async function () {
+      expect(await this.token.cap()).to.equal(this.cap);
+    });
+
+    it('mints when value is less than cap', async function () {
+      const value = this.cap - 1n;
+      await this.token.$_mint(this.user, value);
+      expect(await this.token.totalSupply()).to.equal(value);
+    });
+
+    it('fails to mint if the value exceeds the cap', async function () {
+      await this.token.$_mint(this.user, this.cap - 1n);
+      await expect(this.token.$_mint(this.user, 2))
+        .to.be.revertedWithCustomError(this.token, 'ERC20ExceededCap')
+        .withArgs(this.cap + 1n, this.cap);
+    });
+
+    it('fails to mint after cap is reached', async function () {
+      await this.token.$_mint(this.user, this.cap);
+      await expect(this.token.$_mint(this.user, 1))
+        .to.be.revertedWithCustomError(this.token, 'ERC20ExceededCap')
+        .withArgs(this.cap + 1n, this.cap);
+    });
+  });
+});
