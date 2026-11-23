@@ -1,1 +1,16 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7RVJDMjBQZXJtaXQsIEVSQzIwfSBmcm9tICIuLi9wYXRjaGVkL3Rva2VuL0VSQzIwL2V4dGVuc2lvbnMvRVJDMjBQZXJtaXQuc29sIjsKCmNvbnRyYWN0IEVSQzIwUGVybWl0SGFybmVzcyBpcyBFUkMyMFBlcm1pdCB7CiAgICBjb25zdHJ1Y3RvcihzdHJpbmcgbWVtb3J5IG5hbWUsIHN0cmluZyBtZW1vcnkgc3ltYm9sKSBFUkMyMChuYW1lLCBzeW1ib2wpIEVSQzIwUGVybWl0KG5hbWUpIHt9CgogICAgZnVuY3Rpb24gbWludChhZGRyZXNzIGFjY291bnQsIHVpbnQyNTYgYW1vdW50KSBleHRlcm5hbCB7CiAgICAgICAgX21pbnQoYWNjb3VudCwgYW1vdW50KTsKICAgIH0KCiAgICBmdW5jdGlvbiBidXJuKGFkZHJlc3MgYWNjb3VudCwgdWludDI1NiBhbW91bnQpIGV4dGVybmFsIHsKICAgICAgICBfYnVybihhY2NvdW50LCBhbW91bnQpOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+import {ERC20Permit, ERC20} from "../patched/token/ERC20/extensions/ERC20Permit.sol";
+
+contract ERC20PermitHarness is ERC20Permit {
+    constructor(string memory name, string memory symbol) ERC20(name, symbol) ERC20Permit(name) {}
+
+    function mint(address account, uint256 amount) external {
+        _mint(account, amount);
+    }
+
+    function burn(address account, uint256 amount) external {
+        _burn(account, amount);
+    }
+}
