@@ -1,1 +1,630 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodXRpbHMvc3RydWN0cy9DaGVja3BvaW50cy5zb2wpCi8vIFRoaXMgZmlsZSB3YXMgcHJvY2VkdXJhbGx5IGdlbmVyYXRlZCBmcm9tIHNjcmlwdHMvZ2VuZXJhdGUvdGVtcGxhdGVzL0NoZWNrcG9pbnRzLmpzLgoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge01hdGh9IGZyb20gIi4uL21hdGgvTWF0aC5zb2wiOwoKLyoqCiAqIEBkZXYgVGhpcyBsaWJyYXJ5IGRlZmluZXMgdGhlIGBUcmFjZSpgIHN0cnVjdCwgZm9yIGNoZWNrcG9pbnRpbmcgdmFsdWVzIGFzIHRoZXkgY2hhbmdlIGF0IGRpZmZlcmVudCBwb2ludHMgaW4KICogdGltZSwgYW5kIGxhdGVyIGxvb2tpbmcgdXAgcGFzdCB2YWx1ZXMgYnkgYmxvY2sgbnVtYmVyLiBTZWUge1ZvdGVzfSBhcyBhbiBleGFtcGxlLgogKgogKiBUbyBjcmVhdGUgYSBoaXN0b3J5IG9mIGNoZWNrcG9pbnRzIGRlZmluZSBhIHZhcmlhYmxlIHR5cGUgYENoZWNrcG9pbnRzLlRyYWNlKmAgaW4geW91ciBjb250cmFjdCwgYW5kIHN0b3JlIGEgbmV3CiAqIGNoZWNrcG9pbnQgZm9yIHRoZSBjdXJyZW50IHRyYW5zYWN0aW9uIGJsb2NrIHVzaW5nIHRoZSB7cHVzaH0gZnVuY3Rpb24uCiAqLwpsaWJyYXJ5IENoZWNrcG9pbnRzIHsKICAgIC8qKgogICAgICogQGRldiBBIHZhbHVlIHdhcyBhdHRlbXB0ZWQgdG8gYmUgaW5zZXJ0ZWQgb24gYSBwYXN0IGNoZWNrcG9pbnQuCiAgICAgKi8KICAgIGVycm9yIENoZWNrcG9pbnRVbm9yZGVyZWRJbnNlcnRpb24oKTsKCiAgICBzdHJ1Y3QgVHJhY2UyMjQgewogICAgICAgIENoZWNrcG9pbnQyMjRbXSBfY2hlY2twb2ludHM7CiAgICB9CgogICAgc3RydWN0IENoZWNrcG9pbnQyMjQgewogICAgICAgIHVpbnQzMiBfa2V5OwogICAgICAgIHVpbnQyMjQgX3ZhbHVlOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBQdXNoZXMgYSAoYGtleWAsIGB2YWx1ZWApIHBhaXIgaW50byBhIFRyYWNlMjI0IHNvIHRoYXQgaXQgaXMgc3RvcmVkIGFzIHRoZSBjaGVja3BvaW50LgogICAgICoKICAgICAqIFJldHVybnMgcHJldmlvdXMgdmFsdWUgYW5kIG5ldyB2YWx1ZS4KICAgICAqCiAgICAgKiBJTVBPUlRBTlQ6IE5ldmVyIGFjY2VwdCBga2V5YCBhcyBhIHVzZXIgaW5wdXQsIHNpbmNlIGFuIGFyYml0cmFyeSBgdHlwZSh1aW50MzIpLm1heGAga2V5IHNldCB3aWxsIGRpc2FibGUgdGhlCiAgICAgKiBsaWJyYXJ5LgogICAgICovCiAgICBmdW5jdGlvbiBwdXNoKAogICAgICAgIFRyYWNlMjI0IHN0b3JhZ2Ugc2VsZiwKICAgICAgICB1aW50MzIga2V5LAogICAgICAgIHVpbnQyMjQgdmFsdWUKICAgICkgaW50ZXJuYWwgcmV0dXJucyAodWludDIyNCBvbGRWYWx1ZSwgdWludDIyNCBuZXdWYWx1ZSkgewogICAgICAgIHJldHVybiBfaW5zZXJ0KHNlbGYuX2NoZWNrcG9pbnRzLCBrZXksIHZhbHVlKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyB0aGUgdmFsdWUgaW4gdGhlIGZpcnN0IChvbGRlc3QpIGNoZWNrcG9pbnQgd2l0aCBrZXkgZ3JlYXRlciBvciBlcXVhbCB0aGFuIHRoZSBzZWFyY2gga2V5LCBvciB6ZXJvIGlmCiAgICAgKiB0aGVyZSBpcyBub25lLgogICAgICovCiAgICBmdW5jdGlvbiBsb3dlckxvb2t1cChUcmFjZTIyNCBzdG9yYWdlIHNlbGYsIHVpbnQzMiBrZXkpIGludGVybmFsIHZpZXcgcmV0dXJucyAodWludDIyNCkgewogICAgICAgIHVpbnQyNTYgbGVuID0gc2VsZi5fY2hlY2twb2ludHMubGVuZ3RoOwogICAgICAgIHVpbnQyNTYgcG9zID0gX2xvd2VyQmluYXJ5TG9va3VwKHNlbGYuX2NoZWNrcG9pbnRzLCBrZXksIDAsIGxlbik7CiAgICAgICAgcmV0dXJuIHBvcyA9PSBsZW4gPyAwIDogX3Vuc2FmZUFjY2VzcyhzZWxmLl9jaGVja3BvaW50cywgcG9zKS5fdmFsdWU7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIHZhbHVlIGluIHRoZSBsYXN0IChtb3N0IHJlY2VudCkgY2hlY2twb2ludCB3aXRoIGtleSBsb3dlciBvciBlcXVhbCB0aGFuIHRoZSBzZWFyY2gga2V5LCBvciB6ZXJvCiAgICAgKiBpZiB0aGVyZSBpcyBub25lLgogICAgICovCiAgICBmdW5jdGlvbiB1cHBlckxvb2t1cChUcmFjZTIyNCBzdG9yYWdlIHNlbGYsIHVpbnQzMiBrZXkpIGludGVybmFsIHZpZXcgcmV0dXJucyAodWludDIyNCkgewogICAgICAgIHVpbnQyNTYgbGVuID0gc2VsZi5fY2hlY2twb2ludHMubGVuZ3RoOwogICAgICAgIHVpbnQyNTYgcG9zID0gX3VwcGVyQmluYXJ5TG9va3VwKHNlbGYuX2NoZWNrcG9pbnRzLCBrZXksIDAsIGxlbik7CiAgICAgICAgcmV0dXJuIHBvcyA9PSAwID8gMCA6IF91bnNhZmVBY2Nlc3Moc2VsZi5fY2hlY2twb2ludHMsIHBvcyAtIDEpLl92YWx1ZTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyB0aGUgdmFsdWUgaW4gdGhlIGxhc3QgKG1vc3QgcmVjZW50KSBjaGVja3BvaW50IHdpdGgga2V5IGxvd2VyIG9yIGVxdWFsIHRoYW4gdGhlIHNlYXJjaCBrZXksIG9yIHplcm8KICAgICAqIGlmIHRoZXJlIGlzIG5vbmUuCiAgICAgKgogICAgICogTk9URTogVGhpcyBpcyBhIHZhcmlhbnQgb2Yge3VwcGVyTG9va3VwfSB0aGF0IGlzIG9wdGltaXNlZCB0byBmaW5kICJyZWNlbnQiIGNoZWNrcG9pbnQgKGNoZWNrcG9pbnRzIHdpdGggaGlnaAogICAgICoga2V5cykuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHVwcGVyTG9va3VwUmVjZW50KFRyYWNlMjI0IHN0b3JhZ2Ugc2VsZiwgdWludDMyIGtleSkgaW50ZXJuYWwgdmlldyByZXR1cm5zICh1aW50MjI0KSB7CiAgICAgICAgdWludDI1NiBsZW4gPSBzZWxmLl9jaGVja3BvaW50cy5sZW5ndGg7CgogICAgICAgIHVpbnQyNTYgbG93ID0gMDsKICAgICAgICB1aW50MjU2IGhpZ2ggPSBsZW47CgogICAgICAgIGlmIChsZW4gPiA1KSB7CiAgICAgICAgICAgIHVpbnQyNTYgbWlkID0gbGVuIC0gTWF0aC5zcXJ0KGxlbik7CiAgICAgICAgICAgIGlmIChrZXkgPCBfdW5zYWZlQWNjZXNzKHNlbGYuX2NoZWNrcG9pbnRzLCBtaWQpLl9rZXkpIHsKICAgICAgICAgICAgICAgIGhpZ2ggPSBtaWQ7CiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBsb3cgPSBtaWQgKyAxOwogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICB1aW50MjU2IHBvcyA9IF91cHBlckJpbmFyeUxvb2t1cChzZWxmLl9jaGVja3BvaW50cywga2V5LCBsb3csIGhpZ2gpOwoKICAgICAgICByZXR1cm4gcG9zID09IDAgPyAwIDogX3Vuc2FmZUFjY2VzcyhzZWxmLl9jaGVja3BvaW50cywgcG9zIC0gMSkuX3ZhbHVlOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBSZXR1cm5zIHRoZSB2YWx1ZSBpbiB0aGUgbW9zdCByZWNlbnQgY2hlY2twb2ludCwgb3IgemVybyBpZiB0aGVyZSBhcmUgbm8gY2hlY2twb2ludHMuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGxhdGVzdChUcmFjZTIyNCBzdG9yYWdlIHNlbGYpIGludGVybmFsIHZpZXcgcmV0dXJucyAodWludDIyNCkgewogICAgICAgIHVpbnQyNTYgcG9zID0gc2VsZi5fY2hlY2twb2ludHMubGVuZ3RoOwogICAgICAgIHJldHVybiBwb3MgPT0gMCA/IDAgOiBfdW5zYWZlQWNjZXNzKHNlbGYuX2NoZWNrcG9pbnRzLCBwb3MgLSAxKS5fdmFsdWU7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgd2hldGhlciB0aGVyZSBpcyBhIGNoZWNrcG9pbnQgaW4gdGhlIHN0cnVjdHVyZSAoaS5lLiBpdCBpcyBub3QgZW1wdHkpLCBhbmQgaWYgc28gdGhlIGtleSBhbmQgdmFsdWUKICAgICAqIGluIHRoZSBtb3N0IHJlY2VudCBjaGVja3BvaW50LgogICAgICovCiAgICBmdW5jdGlvbiBsYXRlc3RDaGVja3BvaW50KFRyYWNlMjI0IHN0b3JhZ2Ugc2VsZikgaW50ZXJuYWwgdmlldyByZXR1cm5zIChib29sIGV4aXN0cywgdWludDMyIF9rZXksIHVpbnQyMjQgX3ZhbHVlKSB7CiAgICAgICAgdWludDI1NiBwb3MgPSBzZWxmLl9jaGVja3BvaW50cy5sZW5ndGg7CiAgICAgICAgaWYgKHBvcyA9PSAwKSB7CiAgICAgICAgICAgIHJldHVybiAoZmFsc2UsIDAsIDApOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIENoZWNrcG9pbnQyMjQgc3RvcmFnZSBja3B0ID0gX3Vuc2FmZUFjY2VzcyhzZWxmLl9jaGVja3BvaW50cywgcG9zIC0gMSk7CiAgICAgICAgICAgIHJldHVybiAodHJ1ZSwgY2twdC5fa2V5LCBja3B0Ll92YWx1ZSk7CiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICogQGRldiBSZXR1cm5zIHRoZSBudW1iZXIgb2YgY2hlY2twb2ludC4KICAgICAqLwogICAgZnVuY3Rpb24gbGVuZ3RoKFRyYWNlMjI0IHN0b3JhZ2Ugc2VsZikgaW50ZXJuYWwgdmlldyByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgcmV0dXJuIHNlbGYuX2NoZWNrcG9pbnRzLmxlbmd0aDsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyBjaGVja3BvaW50IGF0IGdpdmVuIHBvc2l0aW9uLgogICAgICovCiAgICBmdW5jdGlvbiBhdChUcmFjZTIyNCBzdG9yYWdlIHNlbGYsIHVpbnQzMiBwb3MpIGludGVybmFsIHZpZXcgcmV0dXJucyAoQ2hlY2twb2ludDIyNCBtZW1vcnkpIHsKICAgICAgICByZXR1cm4gc2VsZi5fY2hlY2twb2ludHNbcG9zXTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUHVzaGVzIGEgKGBrZXlgLCBgdmFsdWVgKSBwYWlyIGludG8gYW4gb3JkZXJlZCBsaXN0IG9mIGNoZWNrcG9pbnRzLCBlaXRoZXIgYnkgaW5zZXJ0aW5nIGEgbmV3IGNoZWNrcG9pbnQsCiAgICAgKiBvciBieSB1cGRhdGluZyB0aGUgbGFzdCBvbmUuCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9pbnNlcnQoCiAgICAgICAgQ2hlY2twb2ludDIyNFtdIHN0b3JhZ2Ugc2VsZiwKICAgICAgICB1aW50MzIga2V5LAogICAgICAgIHVpbnQyMjQgdmFsdWUKICAgICkgcHJpdmF0ZSByZXR1cm5zICh1aW50MjI0IG9sZFZhbHVlLCB1aW50MjI0IG5ld1ZhbHVlKSB7CiAgICAgICAgdWludDI1NiBwb3MgPSBzZWxmLmxlbmd0aDsKCiAgICAgICAgaWYgKHBvcyA+IDApIHsKICAgICAgICAgICAgQ2hlY2twb2ludDIyNCBzdG9yYWdlIGxhc3QgPSBfdW5zYWZlQWNjZXNzKHNlbGYsIHBvcyAtIDEpOwogICAgICAgICAgICB1aW50MzIgbGFzdEtleSA9IGxhc3QuX2tleTsKICAgICAgICAgICAgdWludDIyNCBsYXN0VmFsdWUgPSBsYXN0Ll92YWx1ZTsKCiAgICAgICAgICAgIC8vIENoZWNrcG9pbnQga2V5cyBtdXN0IGJlIG5vbi1kZWNyZWFzaW5nLgogICAgICAgICAgICBpZiAobGFzdEtleSA+IGtleSkgewogICAgICAgICAgICAgICAgcmV2ZXJ0IENoZWNrcG9pbnRVbm9yZGVyZWRJbnNlcnRpb24oKTsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgLy8gVXBkYXRlIG9yIHB1c2ggbmV3IGNoZWNrcG9pbnQKICAgICAgICAgICAgaWYgKGxhc3RLZXkgPT0ga2V5KSB7CiAgICAgICAgICAgICAgICBsYXN0Ll92YWx1ZSA9IHZhbHVlOwogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgc2VsZi5wdXNoKENoZWNrcG9pbnQyMjQoe19rZXk6IGtleSwgX3ZhbHVlOiB2YWx1ZX0pKTsKICAgICAgICAgICAgfQogICAgICAgICAgICByZXR1cm4gKGxhc3RWYWx1ZSwgdmFsdWUpOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHNlbGYucHVzaChDaGVja3BvaW50MjI0KHtfa2V5OiBrZXksIF92YWx1ZTogdmFsdWV9KSk7CiAgICAgICAgICAgIHJldHVybiAoMCwgdmFsdWUpOwogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJuIHRoZSBpbmRleCBvZiB0aGUgZmlyc3QgKG9sZGVzdCkgY2hlY2twb2ludCB3aXRoIGtleSBzdHJpY3RseSBiaWdnZXIgdGhhbiB0aGUgc2VhcmNoIGtleSwgb3IgYGhpZ2hgCiAgICAgKiBpZiB0aGVyZSBpcyBub25lLiBgbG93YCBhbmQgYGhpZ2hgIGRlZmluZSBhIHNlY3Rpb24gd2hlcmUgdG8gZG8gdGhlIHNlYXJjaCwgd2l0aCBpbmNsdXNpdmUgYGxvd2AgYW5kIGV4Y2x1c2l2ZQogICAgICogYGhpZ2hgLgogICAgICoKICAgICAqIFdBUk5JTkc6IGBoaWdoYCBzaG91bGQgbm90IGJlIGdyZWF0ZXIgdGhhbiB0aGUgYXJyYXkncyBsZW5ndGguCiAgICAgKi8KICAgIGZ1bmN0aW9uIF91cHBlckJpbmFyeUxvb2t1cCgKICAgICAgICBDaGVja3BvaW50MjI0W10gc3RvcmFnZSBzZWxmLAogICAgICAgIHVpbnQzMiBrZXksCiAgICAgICAgdWludDI1NiBsb3csCiAgICAgICAgdWludDI1NiBoaWdoCiAgICApIHByaXZhdGUgdmlldyByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgd2hpbGUgKGxvdyA8IGhpZ2gpIHsKICAgICAgICAgICAgdWludDI1NiBtaWQgPSBNYXRoLmF2ZXJhZ2UobG93LCBoaWdoKTsKICAgICAgICAgICAgaWYgKF91bnNhZmVBY2Nlc3Moc2VsZiwgbWlkKS5fa2V5ID4ga2V5KSB7CiAgICAgICAgICAgICAgICBoaWdoID0gbWlkOwogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgbG93ID0gbWlkICsgMTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICByZXR1cm4gaGlnaDsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJuIHRoZSBpbmRleCBvZiB0aGUgZmlyc3QgKG9sZGVzdCkgY2hlY2twb2ludCB3aXRoIGtleSBncmVhdGVyIG9yIGVxdWFsIHRoYW4gdGhlIHNlYXJjaCBrZXksIG9yIGBoaWdoYAogICAgICogaWYgdGhlcmUgaXMgbm9uZS4gYGxvd2AgYW5kIGBoaWdoYCBkZWZpbmUgYSBzZWN0aW9uIHdoZXJlIHRvIGRvIHRoZSBzZWFyY2gsIHdpdGggaW5jbHVzaXZlIGBsb3dgIGFuZCBleGNsdXNpdmUKICAgICAqIGBoaWdoYC4KICAgICAqCiAgICAgKiBXQVJOSU5HOiBgaGlnaGAgc2hvdWxkIG5vdCBiZSBncmVhdGVyIHRoYW4gdGhlIGFycmF5J3MgbGVuZ3RoLgogICAgICovCiAgICBmdW5jdGlvbiBfbG93ZXJCaW5hcnlMb29rdXAoCiAgICAgICAgQ2hlY2twb2ludDIyNFtdIHN0b3JhZ2Ugc2VsZiwKICAgICAgICB1aW50MzIga2V5LAogICAgICAgIHVpbnQyNTYgbG93LAogICAgICAgIHVpbnQyNTYgaGlnaAogICAgKSBwcml2YXRlIHZpZXcgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHdoaWxlIChsb3cgPCBoaWdoKSB7CiAgICAgICAgICAgIHVpbnQyNTYgbWlkID0gTWF0aC5hdmVyYWdlKGxvdywgaGlnaCk7CiAgICAgICAgICAgIGlmIChfdW5zYWZlQWNjZXNzKHNlbGYsIG1pZCkuX2tleSA8IGtleSkgewogICAgICAgICAgICAgICAgbG93ID0gbWlkICsgMTsKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGhpZ2ggPSBtaWQ7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgcmV0dXJuIGhpZ2g7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IEFjY2VzcyBhbiBlbGVtZW50IG9mIHRoZSBhcnJheSB3aXRob3V0IHBlcmZvcm1pbmcgYm91bmRzIGNoZWNrLiBUaGUgcG9zaXRpb24gaXMgYXNzdW1lZCB0byBiZSB3aXRoaW4gYm91bmRzLgogICAgICovCiAgICBmdW5jdGlvbiBfdW5zYWZlQWNjZXNzKAogICAgICAgIENoZWNrcG9pbnQyMjRbXSBzdG9yYWdlIHNlbGYsCiAgICAgICAgdWludDI1NiBwb3MKICAgICkgcHJpdmF0ZSBwdXJlIHJldHVybnMgKENoZWNrcG9pbnQyMjQgc3RvcmFnZSByZXN1bHQpIHsKICAgICAgICBhc3NlbWJseSB7CiAgICAgICAgICAgIG1zdG9yZSgwLCBzZWxmLnNsb3QpCiAgICAgICAgICAgIHJlc3VsdC5zbG90IDo9IGFkZChrZWNjYWsyNTYoMCwgMHgyMCksIHBvcykKICAgICAgICB9CiAgICB9CgogICAgc3RydWN0IFRyYWNlMjA4IHsKICAgICAgICBDaGVja3BvaW50MjA4W10gX2NoZWNrcG9pbnRzOwogICAgfQoKICAgIHN0cnVjdCBDaGVja3BvaW50MjA4IHsKICAgICAgICB1aW50NDggX2tleTsKICAgICAgICB1aW50MjA4IF92YWx1ZTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUHVzaGVzIGEgKGBrZXlgLCBgdmFsdWVgKSBwYWlyIGludG8gYSBUcmFjZTIwOCBzbyB0aGF0IGl0IGlzIHN0b3JlZCBhcyB0aGUgY2hlY2twb2ludC4KICAgICAqCiAgICAgKiBSZXR1cm5zIHByZXZpb3VzIHZhbHVlIGFuZCBuZXcgdmFsdWUuCiAgICAgKgogICAgICogSU1QT1JUQU5UOiBOZXZlciBhY2NlcHQgYGtleWAgYXMgYSB1c2VyIGlucHV0LCBzaW5jZSBhbiBhcmJpdHJhcnkgYHR5cGUodWludDQ4KS5tYXhgIGtleSBzZXQgd2lsbCBkaXNhYmxlIHRoZQogICAgICogbGlicmFyeS4KICAgICAqLwogICAgZnVuY3Rpb24gcHVzaCgKICAgICAgICBUcmFjZTIwOCBzdG9yYWdlIHNlbGYsCiAgICAgICAgdWludDQ4IGtleSwKICAgICAgICB1aW50MjA4IHZhbHVlCiAgICApIGludGVybmFsIHJldHVybnMgKHVpbnQyMDggb2xkVmFsdWUsIHVpbnQyMDggbmV3VmFsdWUpIHsKICAgICAgICByZXR1cm4gX2luc2VydChzZWxmLl9jaGVja3BvaW50cywga2V5LCB2YWx1ZSk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIHZhbHVlIGluIHRoZSBmaXJzdCAob2xkZXN0KSBjaGVja3BvaW50IHdpdGgga2V5IGdyZWF0ZXIgb3IgZXF1YWwgdGhhbiB0aGUgc2VhcmNoIGtleSwgb3IgemVybyBpZgogICAgICogdGhlcmUgaXMgbm9uZS4KICAgICAqLwogICAgZnVuY3Rpb24gbG93ZXJMb29rdXAoVHJhY2UyMDggc3RvcmFnZSBzZWxmLCB1aW50NDgga2V5KSBpbnRlcm5hbCB2aWV3IHJldHVybnMgKHVpbnQyMDgpIHsKICAgICAgICB1aW50MjU2IGxlbiA9IHNlbGYuX2NoZWNrcG9pbnRzLmxlbmd0aDsKICAgICAgICB1aW50MjU2IHBvcyA9IF9sb3dlckJpbmFyeUxvb2t1cChzZWxmLl9jaGVja3BvaW50cywga2V5LCAwLCBsZW4pOwogICAgICAgIHJldHVybiBwb3MgPT0gbGVuID8gMCA6IF91bnNhZmVBY2Nlc3Moc2VsZi5fY2hlY2twb2ludHMsIHBvcykuX3ZhbHVlOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBSZXR1cm5zIHRoZSB2YWx1ZSBpbiB0aGUgbGFzdCAobW9zdCByZWNlbnQpIGNoZWNrcG9pbnQgd2l0aCBrZXkgbG93ZXIgb3IgZXF1YWwgdGhhbiB0aGUgc2VhcmNoIGtleSwgb3IgemVybwogICAgICogaWYgdGhlcmUgaXMgbm9uZS4KICAgICAqLwogICAgZnVuY3Rpb24gdXBwZXJMb29rdXAoVHJhY2UyMDggc3RvcmFnZSBzZWxmLCB1aW50NDgga2V5KSBpbnRlcm5hbCB2aWV3IHJldHVybnMgKHVpbnQyMDgpIHsKICAgICAgICB1aW50MjU2IGxlbiA9IHNlbGYuX2NoZWNrcG9pbnRzLmxlbmd0aDsKICAgICAgICB1aW50MjU2IHBvcyA9IF91cHBlckJpbmFyeUxvb2t1cChzZWxmLl9jaGVja3BvaW50cywga2V5LCAwLCBsZW4pOwogICAgICAgIHJldHVybiBwb3MgPT0gMCA/IDAgOiBfdW5zYWZlQWNjZXNzKHNlbGYuX2NoZWNrcG9pbnRzLCBwb3MgLSAxKS5fdmFsdWU7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIHZhbHVlIGluIHRoZSBsYXN0IChtb3N0IHJlY2VudCkgY2hlY2twb2ludCB3aXRoIGtleSBsb3dlciBvciBlcXVhbCB0aGFuIHRoZSBzZWFyY2gga2V5LCBvciB6ZXJvCiAgICAgKiBpZiB0aGVyZSBpcyBub25lLgogICAgICoKICAgICAqIE5PVEU6IFRoaXMgaXMgYSB2YXJpYW50IG9mIHt1cHBlckxvb2t1cH0gdGhhdCBpcyBvcHRpbWlzZWQgdG8gZmluZCAicmVjZW50IiBjaGVja3BvaW50IChjaGVja3BvaW50cyB3aXRoIGhpZ2gKICAgICAqIGtleXMpLgogICAgICovCiAgICBmdW5jdGlvbiB1cHBlckxvb2t1cFJlY2VudChUcmFjZTIwOCBzdG9yYWdlIHNlbGYsIHVpbnQ0OCBrZXkpIGludGVybmFsIHZpZXcgcmV0dXJucyAodWludDIwOCkgewogICAgICAgIHVpbnQyNTYgbGVuID0gc2VsZi5fY2hlY2twb2ludHMubGVuZ3RoOwoKICAgICAgICB1aW50MjU2IGxvdyA9IDA7CiAgICAgICAgdWludDI1NiBoaWdoID0gbGVuOwoKICAgICAgICBpZiAobGVuID4gNSkgewogICAgICAgICAgICB1aW50MjU2IG1pZCA9IGxlbiAtIE1hdGguc3FydChsZW4pOwogICAgICAgICAgICBpZiAoa2V5IDwgX3Vuc2FmZUFjY2VzcyhzZWxmLl9jaGVja3BvaW50cywgbWlkKS5fa2V5KSB7CiAgICAgICAgICAgICAgICBoaWdoID0gbWlkOwogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgbG93ID0gbWlkICsgMTsKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgdWludDI1NiBwb3MgPSBfdXBwZXJCaW5hcnlMb29rdXAoc2VsZi5fY2hlY2twb2ludHMsIGtleSwgbG93LCBoaWdoKTsKCiAgICAgICAgcmV0dXJuIHBvcyA9PSAwID8gMCA6IF91bnNhZmVBY2Nlc3Moc2VsZi5fY2hlY2twb2ludHMsIHBvcyAtIDEpLl92YWx1ZTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyB0aGUgdmFsdWUgaW4gdGhlIG1vc3QgcmVjZW50IGNoZWNrcG9pbnQsIG9yIHplcm8gaWYgdGhlcmUgYXJlIG5vIGNoZWNrcG9pbnRzLgogICAgICovCiAgICBmdW5jdGlvbiBsYXRlc3QoVHJhY2UyMDggc3RvcmFnZSBzZWxmKSBpbnRlcm5hbCB2aWV3IHJldHVybnMgKHVpbnQyMDgpIHsKICAgICAgICB1aW50MjU2IHBvcyA9IHNlbGYuX2NoZWNrcG9pbnRzLmxlbmd0aDsKICAgICAgICByZXR1cm4gcG9zID09IDAgPyAwIDogX3Vuc2FmZUFjY2VzcyhzZWxmLl9jaGVja3BvaW50cywgcG9zIC0gMSkuX3ZhbHVlOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBSZXR1cm5zIHdoZXRoZXIgdGhlcmUgaXMgYSBjaGVja3BvaW50IGluIHRoZSBzdHJ1Y3R1cmUgKGkuZS4gaXQgaXMgbm90IGVtcHR5KSwgYW5kIGlmIHNvIHRoZSBrZXkgYW5kIHZhbHVlCiAgICAgKiBpbiB0aGUgbW9zdCByZWNlbnQgY2hlY2twb2ludC4KICAgICAqLwogICAgZnVuY3Rpb24gbGF0ZXN0Q2hlY2twb2ludChUcmFjZTIwOCBzdG9yYWdlIHNlbGYpIGludGVybmFsIHZpZXcgcmV0dXJucyAoYm9vbCBleGlzdHMsIHVpbnQ0OCBfa2V5LCB1aW50MjA4IF92YWx1ZSkgewogICAgICAgIHVpbnQyNTYgcG9zID0gc2VsZi5fY2hlY2twb2ludHMubGVuZ3RoOwogICAgICAgIGlmIChwb3MgPT0gMCkgewogICAgICAgICAgICByZXR1cm4gKGZhbHNlLCAwLCAwKTsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBDaGVja3BvaW50MjA4IHN0b3JhZ2UgY2twdCA9IF91bnNhZmVBY2Nlc3Moc2VsZi5fY2hlY2twb2ludHMsIHBvcyAtIDEpOwogICAgICAgICAgICByZXR1cm4gKHRydWUsIGNrcHQuX2tleSwgY2twdC5fdmFsdWUpOwogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyB0aGUgbnVtYmVyIG9mIGNoZWNrcG9pbnQuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGxlbmd0aChUcmFjZTIwOCBzdG9yYWdlIHNlbGYpIGludGVybmFsIHZpZXcgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHJldHVybiBzZWxmLl9jaGVja3BvaW50cy5sZW5ndGg7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgY2hlY2twb2ludCBhdCBnaXZlbiBwb3NpdGlvbi4KICAgICAqLwogICAgZnVuY3Rpb24gYXQoVHJhY2UyMDggc3RvcmFnZSBzZWxmLCB1aW50MzIgcG9zKSBpbnRlcm5hbCB2aWV3IHJldHVybnMgKENoZWNrcG9pbnQyMDggbWVtb3J5KSB7CiAgICAgICAgcmV0dXJuIHNlbGYuX2NoZWNrcG9pbnRzW3Bvc107CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFB1c2hlcyBhIChga2V5YCwgYHZhbHVlYCkgcGFpciBpbnRvIGFuIG9yZGVyZWQgbGlzdCBvZiBjaGVja3BvaW50cywgZWl0aGVyIGJ5IGluc2VydGluZyBhIG5ldyBjaGVja3BvaW50LAogICAgICogb3IgYnkgdXBkYXRpbmcgdGhlIGxhc3Qgb25lLgogICAgICovCiAgICBmdW5jdGlvbiBfaW5zZXJ0KAogICAgICAgIENoZWNrcG9pbnQyMDhbXSBzdG9yYWdlIHNlbGYsCiAgICAgICAgdWludDQ4IGtleSwKICAgICAgICB1aW50MjA4IHZhbHVlCiAgICApIHByaXZhdGUgcmV0dXJucyAodWludDIwOCBvbGRWYWx1ZSwgdWludDIwOCBuZXdWYWx1ZSkgewogICAgICAgIHVpbnQyNTYgcG9zID0gc2VsZi5sZW5ndGg7CgogICAgICAgIGlmIChwb3MgPiAwKSB7CiAgICAgICAgICAgIENoZWNrcG9pbnQyMDggc3RvcmFnZSBsYXN0ID0gX3Vuc2FmZUFjY2VzcyhzZWxmLCBwb3MgLSAxKTsKICAgICAgICAgICAgdWludDQ4IGxhc3RLZXkgPSBsYXN0Ll9rZXk7CiAgICAgICAgICAgIHVpbnQyMDggbGFzdFZhbHVlID0gbGFzdC5fdmFsdWU7CgogICAgICAgICAgICAvLyBDaGVja3BvaW50IGtleXMgbXVzdCBiZSBub24tZGVjcmVhc2luZy4KICAgICAgICAgICAgaWYgKGxhc3RLZXkgPiBrZXkpIHsKICAgICAgICAgICAgICAgIHJldmVydCBDaGVja3BvaW50VW5vcmRlcmVkSW5zZXJ0aW9uKCk7CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC8vIFVwZGF0ZSBvciBwdXNoIG5ldyBjaGVja3BvaW50CiAgICAgICAgICAgIGlmIChsYXN0S2V5ID09IGtleSkgewogICAgICAgICAgICAgICAgbGFzdC5fdmFsdWUgPSB2YWx1ZTsKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIHNlbGYucHVzaChDaGVja3BvaW50MjA4KHtfa2V5OiBrZXksIF92YWx1ZTogdmFsdWV9KSk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuIChsYXN0VmFsdWUsIHZhbHVlKTsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBzZWxmLnB1c2goQ2hlY2twb2ludDIwOCh7X2tleToga2V5LCBfdmFsdWU6IHZhbHVlfSkpOwogICAgICAgICAgICByZXR1cm4gKDAsIHZhbHVlKTsKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybiB0aGUgaW5kZXggb2YgdGhlIGZpcnN0IChvbGRlc3QpIGNoZWNrcG9pbnQgd2l0aCBrZXkgc3RyaWN0bHkgYmlnZ2VyIHRoYW4gdGhlIHNlYXJjaCBrZXksIG9yIGBoaWdoYAogICAgICogaWYgdGhlcmUgaXMgbm9uZS4gYGxvd2AgYW5kIGBoaWdoYCBkZWZpbmUgYSBzZWN0aW9uIHdoZXJlIHRvIGRvIHRoZSBzZWFyY2gsIHdpdGggaW5jbHVzaXZlIGBsb3dgIGFuZCBleGNsdXNpdmUKICAgICAqIGBoaWdoYC4KICAgICAqCiAgICAgKiBXQVJOSU5HOiBgaGlnaGAgc2hvdWxkIG5vdCBiZSBncmVhdGVyIHRoYW4gdGhlIGFycmF5J3MgbGVuZ3RoLgogICAgICovCiAgICBmdW5jdGlvbiBfdXBwZXJCaW5hcnlMb29rdXAoCiAgICAgICAgQ2hlY2twb2ludDIwOFtdIHN0b3JhZ2Ugc2VsZiwKICAgICAgICB1aW50NDgga2V5LAogICAgICAgIHVpbnQyNTYgbG93LAogICAgICAgIHVpbnQyNTYgaGlnaAogICAgKSBwcml2YXRlIHZpZXcgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHdoaWxlIChsb3cgPCBoaWdoKSB7CiAgICAgICAgICAgIHVpbnQyNTYgbWlkID0gTWF0aC5hdmVyYWdlKGxvdywgaGlnaCk7CiAgICAgICAgICAgIGlmIChfdW5zYWZlQWNjZXNzKHNlbGYsIG1pZCkuX2tleSA+IGtleSkgewogICAgICAgICAgICAgICAgaGlnaCA9IG1pZDsKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGxvdyA9IG1pZCArIDE7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgcmV0dXJuIGhpZ2g7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybiB0aGUgaW5kZXggb2YgdGhlIGZpcnN0IChvbGRlc3QpIGNoZWNrcG9pbnQgd2l0aCBrZXkgZ3JlYXRlciBvciBlcXVhbCB0aGFuIHRoZSBzZWFyY2gga2V5LCBvciBgaGlnaGAKICAgICAqIGlmIHRoZXJlIGlzIG5vbmUuIGBsb3dgIGFuZCBgaGlnaGAgZGVmaW5lIGEgc2VjdGlvbiB3aGVyZSB0byBkbyB0aGUgc2VhcmNoLCB3aXRoIGluY2x1c2l2ZSBgbG93YCBhbmQgZXhjbHVzaXZlCiAgICAgKiBgaGlnaGAuCiAgICAgKgogICAgICogV0FSTklORzogYGhpZ2hgIHNob3VsZCBub3QgYmUgZ3JlYXRlciB0aGFuIHRoZSBhcnJheSdzIGxlbmd0aC4KICAgICAqLwogICAgZnVuY3Rpb24gX2xvd2VyQmluYXJ5TG9va3VwKAogICAgICAgIENoZWNrcG9pbnQyMDhbXSBzdG9yYWdlIHNlbGYsCiAgICAgICAgdWludDQ4IGtleSwKICAgICAgICB1aW50MjU2IGxvdywKICAgICAgICB1aW50MjU2IGhpZ2gKICAgICkgcHJpdmF0ZSB2aWV3IHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICB3aGlsZSAobG93IDwgaGlnaCkgewogICAgICAgICAgICB1aW50MjU2IG1pZCA9IE1hdGguYXZlcmFnZShsb3csIGhpZ2gpOwogICAgICAgICAgICBpZiAoX3Vuc2FmZUFjY2VzcyhzZWxmLCBtaWQpLl9rZXkgPCBrZXkpIHsKICAgICAgICAgICAgICAgIGxvdyA9IG1pZCArIDE7CiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBoaWdoID0gbWlkOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIHJldHVybiBoaWdoOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBBY2Nlc3MgYW4gZWxlbWVudCBvZiB0aGUgYXJyYXkgd2l0aG91dCBwZXJmb3JtaW5nIGJvdW5kcyBjaGVjay4gVGhlIHBvc2l0aW9uIGlzIGFzc3VtZWQgdG8gYmUgd2l0aGluIGJvdW5kcy4KICAgICAqLwogICAgZnVuY3Rpb24gX3Vuc2FmZUFjY2VzcygKICAgICAgICBDaGVja3BvaW50MjA4W10gc3RvcmFnZSBzZWxmLAogICAgICAgIHVpbnQyNTYgcG9zCiAgICApIHByaXZhdGUgcHVyZSByZXR1cm5zIChDaGVja3BvaW50MjA4IHN0b3JhZ2UgcmVzdWx0KSB7CiAgICAgICAgYXNzZW1ibHkgewogICAgICAgICAgICBtc3RvcmUoMCwgc2VsZi5zbG90KQogICAgICAgICAgICByZXN1bHQuc2xvdCA6PSBhZGQoa2VjY2FrMjU2KDAsIDB4MjApLCBwb3MpCiAgICAgICAgfQogICAgfQoKICAgIHN0cnVjdCBUcmFjZTE2MCB7CiAgICAgICAgQ2hlY2twb2ludDE2MFtdIF9jaGVja3BvaW50czsKICAgIH0KCiAgICBzdHJ1Y3QgQ2hlY2twb2ludDE2MCB7CiAgICAgICAgdWludDk2IF9rZXk7CiAgICAgICAgdWludDE2MCBfdmFsdWU7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFB1c2hlcyBhIChga2V5YCwgYHZhbHVlYCkgcGFpciBpbnRvIGEgVHJhY2UxNjAgc28gdGhhdCBpdCBpcyBzdG9yZWQgYXMgdGhlIGNoZWNrcG9pbnQuCiAgICAgKgogICAgICogUmV0dXJucyBwcmV2aW91cyB2YWx1ZSBhbmQgbmV3IHZhbHVlLgogICAgICoKICAgICAqIElNUE9SVEFOVDogTmV2ZXIgYWNjZXB0IGBrZXlgIGFzIGEgdXNlciBpbnB1dCwgc2luY2UgYW4gYXJiaXRyYXJ5IGB0eXBlKHVpbnQ5NikubWF4YCBrZXkgc2V0IHdpbGwgZGlzYWJsZSB0aGUKICAgICAqIGxpYnJhcnkuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHB1c2goCiAgICAgICAgVHJhY2UxNjAgc3RvcmFnZSBzZWxmLAogICAgICAgIHVpbnQ5NiBrZXksCiAgICAgICAgdWludDE2MCB2YWx1ZQogICAgKSBpbnRlcm5hbCByZXR1cm5zICh1aW50MTYwIG9sZFZhbHVlLCB1aW50MTYwIG5ld1ZhbHVlKSB7CiAgICAgICAgcmV0dXJuIF9pbnNlcnQoc2VsZi5fY2hlY2twb2ludHMsIGtleSwgdmFsdWUpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBSZXR1cm5zIHRoZSB2YWx1ZSBpbiB0aGUgZmlyc3QgKG9sZGVzdCkgY2hlY2twb2ludCB3aXRoIGtleSBncmVhdGVyIG9yIGVxdWFsIHRoYW4gdGhlIHNlYXJjaCBrZXksIG9yIHplcm8gaWYKICAgICAqIHRoZXJlIGlzIG5vbmUuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGxvd2VyTG9va3VwKFRyYWNlMTYwIHN0b3JhZ2Ugc2VsZiwgdWludDk2IGtleSkgaW50ZXJuYWwgdmlldyByZXR1cm5zICh1aW50MTYwKSB7CiAgICAgICAgdWludDI1NiBsZW4gPSBzZWxmLl9jaGVja3BvaW50cy5sZW5ndGg7CiAgICAgICAgdWludDI1NiBwb3MgPSBfbG93ZXJCaW5hcnlMb29rdXAoc2VsZi5fY2hlY2twb2ludHMsIGtleSwgMCwgbGVuKTsKICAgICAgICByZXR1cm4gcG9zID09IGxlbiA/IDAgOiBfdW5zYWZlQWNjZXNzKHNlbGYuX2NoZWNrcG9pbnRzLCBwb3MpLl92YWx1ZTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyB0aGUgdmFsdWUgaW4gdGhlIGxhc3QgKG1vc3QgcmVjZW50KSBjaGVja3BvaW50IHdpdGgga2V5IGxvd2VyIG9yIGVxdWFsIHRoYW4gdGhlIHNlYXJjaCBrZXksIG9yIHplcm8KICAgICAqIGlmIHRoZXJlIGlzIG5vbmUuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHVwcGVyTG9va3VwKFRyYWNlMTYwIHN0b3JhZ2Ugc2VsZiwgdWludDk2IGtleSkgaW50ZXJuYWwgdmlldyByZXR1cm5zICh1aW50MTYwKSB7CiAgICAgICAgdWludDI1NiBsZW4gPSBzZWxmLl9jaGVja3BvaW50cy5sZW5ndGg7CiAgICAgICAgdWludDI1NiBwb3MgPSBfdXBwZXJCaW5hcnlMb29rdXAoc2VsZi5fY2hlY2twb2ludHMsIGtleSwgMCwgbGVuKTsKICAgICAgICByZXR1cm4gcG9zID09IDAgPyAwIDogX3Vuc2FmZUFjY2VzcyhzZWxmLl9jaGVja3BvaW50cywgcG9zIC0gMSkuX3ZhbHVlOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBSZXR1cm5zIHRoZSB2YWx1ZSBpbiB0aGUgbGFzdCAobW9zdCByZWNlbnQpIGNoZWNrcG9pbnQgd2l0aCBrZXkgbG93ZXIgb3IgZXF1YWwgdGhhbiB0aGUgc2VhcmNoIGtleSwgb3IgemVybwogICAgICogaWYgdGhlcmUgaXMgbm9uZS4KICAgICAqCiAgICAgKiBOT1RFOiBUaGlzIGlzIGEgdmFyaWFudCBvZiB7dXBwZXJMb29rdXB9IHRoYXQgaXMgb3B0aW1pc2VkIHRvIGZpbmQgInJlY2VudCIgY2hlY2twb2ludCAoY2hlY2twb2ludHMgd2l0aCBoaWdoCiAgICAgKiBrZXlzKS4KICAgICAqLwogICAgZnVuY3Rpb24gdXBwZXJMb29rdXBSZWNlbnQoVHJhY2UxNjAgc3RvcmFnZSBzZWxmLCB1aW50OTYga2V5KSBpbnRlcm5hbCB2aWV3IHJldHVybnMgKHVpbnQxNjApIHsKICAgICAgICB1aW50MjU2IGxlbiA9IHNlbGYuX2NoZWNrcG9pbnRzLmxlbmd0aDsKCiAgICAgICAgdWludDI1NiBsb3cgPSAwOwogICAgICAgIHVpbnQyNTYgaGlnaCA9IGxlbjsKCiAgICAgICAgaWYgKGxlbiA+IDUpIHsKICAgICAgICAgICAgdWludDI1NiBtaWQgPSBsZW4gLSBNYXRoLnNxcnQobGVuKTsKICAgICAgICAgICAgaWYgKGtleSA8IF91bnNhZmVBY2Nlc3Moc2VsZi5fY2hlY2twb2ludHMsIG1pZCkuX2tleSkgewogICAgICAgICAgICAgICAgaGlnaCA9IG1pZDsKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGxvdyA9IG1pZCArIDE7CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHVpbnQyNTYgcG9zID0gX3VwcGVyQmluYXJ5TG9va3VwKHNlbGYuX2NoZWNrcG9pbnRzLCBrZXksIGxvdywgaGlnaCk7CgogICAgICAgIHJldHVybiBwb3MgPT0gMCA/IDAgOiBfdW5zYWZlQWNjZXNzKHNlbGYuX2NoZWNrcG9pbnRzLCBwb3MgLSAxKS5fdmFsdWU7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIHZhbHVlIGluIHRoZSBtb3N0IHJlY2VudCBjaGVja3BvaW50LCBvciB6ZXJvIGlmIHRoZXJlIGFyZSBubyBjaGVja3BvaW50cy4KICAgICAqLwogICAgZnVuY3Rpb24gbGF0ZXN0KFRyYWNlMTYwIHN0b3JhZ2Ugc2VsZikgaW50ZXJuYWwgdmlldyByZXR1cm5zICh1aW50MTYwKSB7CiAgICAgICAgdWludDI1NiBwb3MgPSBzZWxmLl9jaGVja3BvaW50cy5sZW5ndGg7CiAgICAgICAgcmV0dXJuIHBvcyA9PSAwID8gMCA6IF91bnNhZmVBY2Nlc3Moc2VsZi5fY2hlY2twb2ludHMsIHBvcyAtIDEpLl92YWx1ZTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyB3aGV0aGVyIHRoZXJlIGlzIGEgY2hlY2twb2ludCBpbiB0aGUgc3RydWN0dXJlIChpLmUuIGl0IGlzIG5vdCBlbXB0eSksIGFuZCBpZiBzbyB0aGUga2V5IGFuZCB2YWx1ZQogICAgICogaW4gdGhlIG1vc3QgcmVjZW50IGNoZWNrcG9pbnQuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGxhdGVzdENoZWNrcG9pbnQoVHJhY2UxNjAgc3RvcmFnZSBzZWxmKSBpbnRlcm5hbCB2aWV3IHJldHVybnMgKGJvb2wgZXhpc3RzLCB1aW50OTYgX2tleSwgdWludDE2MCBfdmFsdWUpIHsKICAgICAgICB1aW50MjU2IHBvcyA9IHNlbGYuX2NoZWNrcG9pbnRzLmxlbmd0aDsKICAgICAgICBpZiAocG9zID09IDApIHsKICAgICAgICAgICAgcmV0dXJuIChmYWxzZSwgMCwgMCk7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgQ2hlY2twb2ludDE2MCBzdG9yYWdlIGNrcHQgPSBfdW5zYWZlQWNjZXNzKHNlbGYuX2NoZWNrcG9pbnRzLCBwb3MgLSAxKTsKICAgICAgICAgICAgcmV0dXJuICh0cnVlLCBja3B0Ll9rZXksIGNrcHQuX3ZhbHVlKTsKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIG51bWJlciBvZiBjaGVja3BvaW50LgogICAgICovCiAgICBmdW5jdGlvbiBsZW5ndGgoVHJhY2UxNjAgc3RvcmFnZSBzZWxmKSBpbnRlcm5hbCB2aWV3IHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXR1cm4gc2VsZi5fY2hlY2twb2ludHMubGVuZ3RoOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBSZXR1cm5zIGNoZWNrcG9pbnQgYXQgZ2l2ZW4gcG9zaXRpb24uCiAgICAgKi8KICAgIGZ1bmN0aW9uIGF0KFRyYWNlMTYwIHN0b3JhZ2Ugc2VsZiwgdWludDMyIHBvcykgaW50ZXJuYWwgdmlldyByZXR1cm5zIChDaGVja3BvaW50MTYwIG1lbW9yeSkgewogICAgICAgIHJldHVybiBzZWxmLl9jaGVja3BvaW50c1twb3NdOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBQdXNoZXMgYSAoYGtleWAsIGB2YWx1ZWApIHBhaXIgaW50byBhbiBvcmRlcmVkIGxpc3Qgb2YgY2hlY2twb2ludHMsIGVpdGhlciBieSBpbnNlcnRpbmcgYSBuZXcgY2hlY2twb2ludCwKICAgICAqIG9yIGJ5IHVwZGF0aW5nIHRoZSBsYXN0IG9uZS4KICAgICAqLwogICAgZnVuY3Rpb24gX2luc2VydCgKICAgICAgICBDaGVja3BvaW50MTYwW10gc3RvcmFnZSBzZWxmLAogICAgICAgIHVpbnQ5NiBrZXksCiAgICAgICAgdWludDE2MCB2YWx1ZQogICAgKSBwcml2YXRlIHJldHVybnMgKHVpbnQxNjAgb2xkVmFsdWUsIHVpbnQxNjAgbmV3VmFsdWUpIHsKICAgICAgICB1aW50MjU2IHBvcyA9IHNlbGYubGVuZ3RoOwoKICAgICAgICBpZiAocG9zID4gMCkgewogICAgICAgICAgICBDaGVja3BvaW50MTYwIHN0b3JhZ2UgbGFzdCA9IF91bnNhZmVBY2Nlc3Moc2VsZiwgcG9zIC0gMSk7CiAgICAgICAgICAgIHVpbnQ5NiBsYXN0S2V5ID0gbGFzdC5fa2V5OwogICAgICAgICAgICB1aW50MTYwIGxhc3RWYWx1ZSA9IGxhc3QuX3ZhbHVlOwoKICAgICAgICAgICAgLy8gQ2hlY2twb2ludCBrZXlzIG11c3QgYmUgbm9uLWRlY3JlYXNpbmcuCiAgICAgICAgICAgIGlmIChsYXN0S2V5ID4ga2V5KSB7CiAgICAgICAgICAgICAgICByZXZlcnQgQ2hlY2twb2ludFVub3JkZXJlZEluc2VydGlvbigpOwogICAgICAgICAgICB9CgogICAgICAgICAgICAvLyBVcGRhdGUgb3IgcHVzaCBuZXcgY2hlY2twb2ludAogICAgICAgICAgICBpZiAobGFzdEtleSA9PSBrZXkpIHsKICAgICAgICAgICAgICAgIGxhc3QuX3ZhbHVlID0gdmFsdWU7CiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBzZWxmLnB1c2goQ2hlY2twb2ludDE2MCh7X2tleToga2V5LCBfdmFsdWU6IHZhbHVlfSkpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIHJldHVybiAobGFzdFZhbHVlLCB2YWx1ZSk7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgc2VsZi5wdXNoKENoZWNrcG9pbnQxNjAoe19rZXk6IGtleSwgX3ZhbHVlOiB2YWx1ZX0pKTsKICAgICAgICAgICAgcmV0dXJuICgwLCB2YWx1ZSk7CiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICogQGRldiBSZXR1cm4gdGhlIGluZGV4IG9mIHRoZSBmaXJzdCAob2xkZXN0KSBjaGVja3BvaW50IHdpdGgga2V5IHN0cmljdGx5IGJpZ2dlciB0aGFuIHRoZSBzZWFyY2gga2V5LCBvciBgaGlnaGAKICAgICAqIGlmIHRoZXJlIGlzIG5vbmUuIGBsb3dgIGFuZCBgaGlnaGAgZGVmaW5lIGEgc2VjdGlvbiB3aGVyZSB0byBkbyB0aGUgc2VhcmNoLCB3aXRoIGluY2x1c2l2ZSBgbG93YCBhbmQgZXhjbHVzaXZlCiAgICAgKiBgaGlnaGAuCiAgICAgKgogICAgICogV0FSTklORzogYGhpZ2hgIHNob3VsZCBub3QgYmUgZ3JlYXRlciB0aGFuIHRoZSBhcnJheSdzIGxlbmd0aC4KICAgICAqLwogICAgZnVuY3Rpb24gX3VwcGVyQmluYXJ5TG9va3VwKAogICAgICAgIENoZWNrcG9pbnQxNjBbXSBzdG9yYWdlIHNlbGYsCiAgICAgICAgdWludDk2IGtleSwKICAgICAgICB1aW50MjU2IGxvdywKICAgICAgICB1aW50MjU2IGhpZ2gKICAgICkgcHJpdmF0ZSB2aWV3IHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICB3aGlsZSAobG93IDwgaGlnaCkgewogICAgICAgICAgICB1aW50MjU2IG1pZCA9IE1hdGguYXZlcmFnZShsb3csIGhpZ2gpOwogICAgICAgICAgICBpZiAoX3Vuc2FmZUFjY2VzcyhzZWxmLCBtaWQpLl9rZXkgPiBrZXkpIHsKICAgICAgICAgICAgICAgIGhpZ2ggPSBtaWQ7CiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBsb3cgPSBtaWQgKyAxOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIHJldHVybiBoaWdoOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBSZXR1cm4gdGhlIGluZGV4IG9mIHRoZSBmaXJzdCAob2xkZXN0KSBjaGVja3BvaW50IHdpdGgga2V5IGdyZWF0ZXIgb3IgZXF1YWwgdGhhbiB0aGUgc2VhcmNoIGtleSwgb3IgYGhpZ2hgCiAgICAgKiBpZiB0aGVyZSBpcyBub25lLiBgbG93YCBhbmQgYGhpZ2hgIGRlZmluZSBhIHNlY3Rpb24gd2hlcmUgdG8gZG8gdGhlIHNlYXJjaCwgd2l0aCBpbmNsdXNpdmUgYGxvd2AgYW5kIGV4Y2x1c2l2ZQogICAgICogYGhpZ2hgLgogICAgICoKICAgICAqIFdBUk5JTkc6IGBoaWdoYCBzaG91bGQgbm90IGJlIGdyZWF0ZXIgdGhhbiB0aGUgYXJyYXkncyBsZW5ndGguCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9sb3dlckJpbmFyeUxvb2t1cCgKICAgICAgICBDaGVja3BvaW50MTYwW10gc3RvcmFnZSBzZWxmLAogICAgICAgIHVpbnQ5NiBrZXksCiAgICAgICAgdWludDI1NiBsb3csCiAgICAgICAgdWludDI1NiBoaWdoCiAgICApIHByaXZhdGUgdmlldyByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgd2hpbGUgKGxvdyA8IGhpZ2gpIHsKICAgICAgICAgICAgdWludDI1NiBtaWQgPSBNYXRoLmF2ZXJhZ2UobG93LCBoaWdoKTsKICAgICAgICAgICAgaWYgKF91bnNhZmVBY2Nlc3Moc2VsZiwgbWlkKS5fa2V5IDwga2V5KSB7CiAgICAgICAgICAgICAgICBsb3cgPSBtaWQgKyAxOwogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgaGlnaCA9IG1pZDsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICByZXR1cm4gaGlnaDsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgQWNjZXNzIGFuIGVsZW1lbnQgb2YgdGhlIGFycmF5IHdpdGhvdXQgcGVyZm9ybWluZyBib3VuZHMgY2hlY2suIFRoZSBwb3NpdGlvbiBpcyBhc3N1bWVkIHRvIGJlIHdpdGhpbiBib3VuZHMuCiAgICAgKi8KICAgIGZ1bmN0aW9uIF91bnNhZmVBY2Nlc3MoCiAgICAgICAgQ2hlY2twb2ludDE2MFtdIHN0b3JhZ2Ugc2VsZiwKICAgICAgICB1aW50MjU2IHBvcwogICAgKSBwcml2YXRlIHB1cmUgcmV0dXJucyAoQ2hlY2twb2ludDE2MCBzdG9yYWdlIHJlc3VsdCkgewogICAgICAgIGFzc2VtYmx5IHsKICAgICAgICAgICAgbXN0b3JlKDAsIHNlbGYuc2xvdCkKICAgICAgICAgICAgcmVzdWx0LnNsb3QgOj0gYWRkKGtlY2NhazI1NigwLCAweDIwKSwgcG9zKQogICAgICAgIH0KICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (utils/structs/Checkpoints.sol)
+// This file was procedurally generated from scripts/generate/templates/Checkpoints.js.
+
+pragma solidity ^0.8.20;
+
+import {Math} from "../math/Math.sol";
+
+/**
+ * @dev This library defines the `Trace*` struct, for checkpointing values as they change at different points in
+ * time, and later looking up past values by block number. See {Votes} as an example.
+ *
+ * To create a history of checkpoints define a variable type `Checkpoints.Trace*` in your contract, and store a new
+ * checkpoint for the current transaction block using the {push} function.
+ */
+library Checkpoints {
+    /**
+     * @dev A value was attempted to be inserted on a past checkpoint.
+     */
+    error CheckpointUnorderedInsertion();
+
+    struct Trace224 {
+        Checkpoint224[] _checkpoints;
+    }
+
+    struct Checkpoint224 {
+        uint32 _key;
+        uint224 _value;
+    }
+
+    /**
+     * @dev Pushes a (`key`, `value`) pair into a Trace224 so that it is stored as the checkpoint.
+     *
+     * Returns previous value and new value.
+     *
+     * IMPORTANT: Never accept `key` as a user input, since an arbitrary `type(uint32).max` key set will disable the
+     * library.
+     */
+    function push(
+        Trace224 storage self,
+        uint32 key,
+        uint224 value
+    ) internal returns (uint224 oldValue, uint224 newValue) {
+        return _insert(self._checkpoints, key, value);
+    }
+
+    /**
+     * @dev Returns the value in the first (oldest) checkpoint with key greater or equal than the search key, or zero if
+     * there is none.
+     */
+    function lowerLookup(Trace224 storage self, uint32 key) internal view returns (uint224) {
+        uint256 len = self._checkpoints.length;
+        uint256 pos = _lowerBinaryLookup(self._checkpoints, key, 0, len);
+        return pos == len ? 0 : _unsafeAccess(self._checkpoints, pos)._value;
+    }
+
+    /**
+     * @dev Returns the value in the last (most recent) checkpoint with key lower or equal than the search key, or zero
+     * if there is none.
+     */
+    function upperLookup(Trace224 storage self, uint32 key) internal view returns (uint224) {
+        uint256 len = self._checkpoints.length;
+        uint256 pos = _upperBinaryLookup(self._checkpoints, key, 0, len);
+        return pos == 0 ? 0 : _unsafeAccess(self._checkpoints, pos - 1)._value;
+    }
+
+    /**
+     * @dev Returns the value in the last (most recent) checkpoint with key lower or equal than the search key, or zero
+     * if there is none.
+     *
+     * NOTE: This is a variant of {upperLookup} that is optimised to find "recent" checkpoint (checkpoints with high
+     * keys).
+     */
+    function upperLookupRecent(Trace224 storage self, uint32 key) internal view returns (uint224) {
+        uint256 len = self._checkpoints.length;
+
+        uint256 low = 0;
+        uint256 high = len;
+
+        if (len > 5) {
+            uint256 mid = len - Math.sqrt(len);
+            if (key < _unsafeAccess(self._checkpoints, mid)._key) {
+                high = mid;
+            } else {
+                low = mid + 1;
+            }
+        }
+
+        uint256 pos = _upperBinaryLookup(self._checkpoints, key, low, high);
+
+        return pos == 0 ? 0 : _unsafeAccess(self._checkpoints, pos - 1)._value;
+    }
+
+    /**
+     * @dev Returns the value in the most recent checkpoint, or zero if there are no checkpoints.
+     */
+    function latest(Trace224 storage self) internal view returns (uint224) {
+        uint256 pos = self._checkpoints.length;
+        return pos == 0 ? 0 : _unsafeAccess(self._checkpoints, pos - 1)._value;
+    }
+
+    /**
+     * @dev Returns whether there is a checkpoint in the structure (i.e. it is not empty), and if so the key and value
+     * in the most recent checkpoint.
+     */
+    function latestCheckpoint(Trace224 storage self) internal view returns (bool exists, uint32 _key, uint224 _value) {
+        uint256 pos = self._checkpoints.length;
+        if (pos == 0) {
+            return (false, 0, 0);
+        } else {
+            Checkpoint224 storage ckpt = _unsafeAccess(self._checkpoints, pos - 1);
+            return (true, ckpt._key, ckpt._value);
+        }
+    }
+
+    /**
+     * @dev Returns the number of checkpoint.
+     */
+    function length(Trace224 storage self) internal view returns (uint256) {
+        return self._checkpoints.length;
+    }
+
+    /**
+     * @dev Returns checkpoint at given position.
+     */
+    function at(Trace224 storage self, uint32 pos) internal view returns (Checkpoint224 memory) {
+        return self._checkpoints[pos];
+    }
+
+    /**
+     * @dev Pushes a (`key`, `value`) pair into an ordered list of checkpoints, either by inserting a new checkpoint,
+     * or by updating the last one.
+     */
+    function _insert(
+        Checkpoint224[] storage self,
+        uint32 key,
+        uint224 value
+    ) private returns (uint224 oldValue, uint224 newValue) {
+        uint256 pos = self.length;
+
+        if (pos > 0) {
+            Checkpoint224 storage last = _unsafeAccess(self, pos - 1);
+            uint32 lastKey = last._key;
+            uint224 lastValue = last._value;
+
+            // Checkpoint keys must be non-decreasing.
+            if (lastKey > key) {
+                revert CheckpointUnorderedInsertion();
+            }
+
+            // Update or push new checkpoint
+            if (lastKey == key) {
+                last._value = value;
+            } else {
+                self.push(Checkpoint224({_key: key, _value: value}));
+            }
+            return (lastValue, value);
+        } else {
+            self.push(Checkpoint224({_key: key, _value: value}));
+            return (0, value);
+        }
+    }
+
+    /**
+     * @dev Return the index of the first (oldest) checkpoint with key strictly bigger than the search key, or `high`
+     * if there is none. `low` and `high` define a section where to do the search, with inclusive `low` and exclusive
+     * `high`.
+     *
+     * WARNING: `high` should not be greater than the array's length.
+     */
+    function _upperBinaryLookup(
+        Checkpoint224[] storage self,
+        uint32 key,
+        uint256 low,
+        uint256 high
+    ) private view returns (uint256) {
+        while (low < high) {
+            uint256 mid = Math.average(low, high);
+            if (_unsafeAccess(self, mid)._key > key) {
+                high = mid;
+            } else {
+                low = mid + 1;
+            }
+        }
+        return high;
+    }
+
+    /**
+     * @dev Return the index of the first (oldest) checkpoint with key greater or equal than the search key, or `high`
+     * if there is none. `low` and `high` define a section where to do the search, with inclusive `low` and exclusive
+     * `high`.
+     *
+     * WARNING: `high` should not be greater than the array's length.
+     */
+    function _lowerBinaryLookup(
+        Checkpoint224[] storage self,
+        uint32 key,
+        uint256 low,
+        uint256 high
+    ) private view returns (uint256) {
+        while (low < high) {
+            uint256 mid = Math.average(low, high);
+            if (_unsafeAccess(self, mid)._key < key) {
+                low = mid + 1;
+            } else {
+                high = mid;
+            }
+        }
+        return high;
+    }
+
+    /**
+     * @dev Access an element of the array without performing bounds check. The position is assumed to be within bounds.
+     */
+    function _unsafeAccess(
+        Checkpoint224[] storage self,
+        uint256 pos
+    ) private pure returns (Checkpoint224 storage result) {
+        assembly {
+            mstore(0, self.slot)
+            result.slot := add(keccak256(0, 0x20), pos)
+        }
+    }
+
+    struct Trace208 {
+        Checkpoint208[] _checkpoints;
+    }
+
+    struct Checkpoint208 {
+        uint48 _key;
+        uint208 _value;
+    }
+
+    /**
+     * @dev Pushes a (`key`, `value`) pair into a Trace208 so that it is stored as the checkpoint.
+     *
+     * Returns previous value and new value.
+     *
+     * IMPORTANT: Never accept `key` as a user input, since an arbitrary `type(uint48).max` key set will disable the
+     * library.
+     */
+    function push(
+        Trace208 storage self,
+        uint48 key,
+        uint208 value
+    ) internal returns (uint208 oldValue, uint208 newValue) {
+        return _insert(self._checkpoints, key, value);
+    }
+
+    /**
+     * @dev Returns the value in the first (oldest) checkpoint with key greater or equal than the search key, or zero if
+     * there is none.
+     */
+    function lowerLookup(Trace208 storage self, uint48 key) internal view returns (uint208) {
+        uint256 len = self._checkpoints.length;
+        uint256 pos = _lowerBinaryLookup(self._checkpoints, key, 0, len);
+        return pos == len ? 0 : _unsafeAccess(self._checkpoints, pos)._value;
+    }
+
+    /**
+     * @dev Returns the value in the last (most recent) checkpoint with key lower or equal than the search key, or zero
+     * if there is none.
+     */
+    function upperLookup(Trace208 storage self, uint48 key) internal view returns (uint208) {
+        uint256 len = self._checkpoints.length;
+        uint256 pos = _upperBinaryLookup(self._checkpoints, key, 0, len);
+        return pos == 0 ? 0 : _unsafeAccess(self._checkpoints, pos - 1)._value;
+    }
+
+    /**
+     * @dev Returns the value in the last (most recent) checkpoint with key lower or equal than the search key, or zero
+     * if there is none.
+     *
+     * NOTE: This is a variant of {upperLookup} that is optimised to find "recent" checkpoint (checkpoints with high
+     * keys).
+     */
+    function upperLookupRecent(Trace208 storage self, uint48 key) internal view returns (uint208) {
+        uint256 len = self._checkpoints.length;
+
+        uint256 low = 0;
+        uint256 high = len;
+
+        if (len > 5) {
+            uint256 mid = len - Math.sqrt(len);
+            if (key < _unsafeAccess(self._checkpoints, mid)._key) {
+                high = mid;
+            } else {
+                low = mid + 1;
+            }
+        }
+
+        uint256 pos = _upperBinaryLookup(self._checkpoints, key, low, high);
+
+        return pos == 0 ? 0 : _unsafeAccess(self._checkpoints, pos - 1)._value;
+    }
+
+    /**
+     * @dev Returns the value in the most recent checkpoint, or zero if there are no checkpoints.
+     */
+    function latest(Trace208 storage self) internal view returns (uint208) {
+        uint256 pos = self._checkpoints.length;
+        return pos == 0 ? 0 : _unsafeAccess(self._checkpoints, pos - 1)._value;
+    }
+
+    /**
+     * @dev Returns whether there is a checkpoint in the structure (i.e. it is not empty), and if so the key and value
+     * in the most recent checkpoint.
+     */
+    function latestCheckpoint(Trace208 storage self) internal view returns (bool exists, uint48 _key, uint208 _value) {
+        uint256 pos = self._checkpoints.length;
+        if (pos == 0) {
+            return (false, 0, 0);
+        } else {
+            Checkpoint208 storage ckpt = _unsafeAccess(self._checkpoints, pos - 1);
+            return (true, ckpt._key, ckpt._value);
+        }
+    }
+
+    /**
+     * @dev Returns the number of checkpoint.
+     */
+    function length(Trace208 storage self) internal view returns (uint256) {
+        return self._checkpoints.length;
+    }
+
+    /**
+     * @dev Returns checkpoint at given position.
+     */
+    function at(Trace208 storage self, uint32 pos) internal view returns (Checkpoint208 memory) {
+        return self._checkpoints[pos];
+    }
+
+    /**
+     * @dev Pushes a (`key`, `value`) pair into an ordered list of checkpoints, either by inserting a new checkpoint,
+     * or by updating the last one.
+     */
+    function _insert(
+        Checkpoint208[] storage self,
+        uint48 key,
+        uint208 value
+    ) private returns (uint208 oldValue, uint208 newValue) {
+        uint256 pos = self.length;
+
+        if (pos > 0) {
+            Checkpoint208 storage last = _unsafeAccess(self, pos - 1);
+            uint48 lastKey = last._key;
+            uint208 lastValue = last._value;
+
+            // Checkpoint keys must be non-decreasing.
+            if (lastKey > key) {
+                revert CheckpointUnorderedInsertion();
+            }
+
+            // Update or push new checkpoint
+            if (lastKey == key) {
+                last._value = value;
+            } else {
+                self.push(Checkpoint208({_key: key, _value: value}));
+            }
+            return (lastValue, value);
+        } else {
+            self.push(Checkpoint208({_key: key, _value: value}));
+            return (0, value);
+        }
+    }
+
+    /**
+     * @dev Return the index of the first (oldest) checkpoint with key strictly bigger than the search key, or `high`
+     * if there is none. `low` and `high` define a section where to do the search, with inclusive `low` and exclusive
+     * `high`.
+     *
+     * WARNING: `high` should not be greater than the array's length.
+     */
+    function _upperBinaryLookup(
+        Checkpoint208[] storage self,
+        uint48 key,
+        uint256 low,
+        uint256 high
+    ) private view returns (uint256) {
+        while (low < high) {
+            uint256 mid = Math.average(low, high);
+            if (_unsafeAccess(self, mid)._key > key) {
+                high = mid;
+            } else {
+                low = mid + 1;
+            }
+        }
+        return high;
+    }
+
+    /**
+     * @dev Return the index of the first (oldest) checkpoint with key greater or equal than the search key, or `high`
+     * if there is none. `low` and `high` define a section where to do the search, with inclusive `low` and exclusive
+     * `high`.
+     *
+     * WARNING: `high` should not be greater than the array's length.
+     */
+    function _lowerBinaryLookup(
+        Checkpoint208[] storage self,
+        uint48 key,
+        uint256 low,
+        uint256 high
+    ) private view returns (uint256) {
+        while (low < high) {
+            uint256 mid = Math.average(low, high);
+            if (_unsafeAccess(self, mid)._key < key) {
+                low = mid + 1;
+            } else {
+                high = mid;
+            }
+        }
+        return high;
+    }
+
+    /**
+     * @dev Access an element of the array without performing bounds check. The position is assumed to be within bounds.
+     */
+    function _unsafeAccess(
+        Checkpoint208[] storage self,
+        uint256 pos
+    ) private pure returns (Checkpoint208 storage result) {
+        assembly {
+            mstore(0, self.slot)
+            result.slot := add(keccak256(0, 0x20), pos)
+        }
+    }
+
+    struct Trace160 {
+        Checkpoint160[] _checkpoints;
+    }
+
+    struct Checkpoint160 {
+        uint96 _key;
+        uint160 _value;
+    }
+
+    /**
+     * @dev Pushes a (`key`, `value`) pair into a Trace160 so that it is stored as the checkpoint.
+     *
+     * Returns previous value and new value.
+     *
+     * IMPORTANT: Never accept `key` as a user input, since an arbitrary `type(uint96).max` key set will disable the
+     * library.
+     */
+    function push(
+        Trace160 storage self,
+        uint96 key,
+        uint160 value
+    ) internal returns (uint160 oldValue, uint160 newValue) {
+        return _insert(self._checkpoints, key, value);
+    }
+
+    /**
+     * @dev Returns the value in the first (oldest) checkpoint with key greater or equal than the search key, or zero if
+     * there is none.
+     */
+    function lowerLookup(Trace160 storage self, uint96 key) internal view returns (uint160) {
+        uint256 len = self._checkpoints.length;
+        uint256 pos = _lowerBinaryLookup(self._checkpoints, key, 0, len);
+        return pos == len ? 0 : _unsafeAccess(self._checkpoints, pos)._value;
+    }
+
+    /**
+     * @dev Returns the value in the last (most recent) checkpoint with key lower or equal than the search key, or zero
+     * if there is none.
+     */
+    function upperLookup(Trace160 storage self, uint96 key) internal view returns (uint160) {
+        uint256 len = self._checkpoints.length;
+        uint256 pos = _upperBinaryLookup(self._checkpoints, key, 0, len);
+        return pos == 0 ? 0 : _unsafeAccess(self._checkpoints, pos - 1)._value;
+    }
+
+    /**
+     * @dev Returns the value in the last (most recent) checkpoint with key lower or equal than the search key, or zero
+     * if there is none.
+     *
+     * NOTE: This is a variant of {upperLookup} that is optimised to find "recent" checkpoint (checkpoints with high
+     * keys).
+     */
+    function upperLookupRecent(Trace160 storage self, uint96 key) internal view returns (uint160) {
+        uint256 len = self._checkpoints.length;
+
+        uint256 low = 0;
+        uint256 high = len;
+
+        if (len > 5) {
+            uint256 mid = len - Math.sqrt(len);
+            if (key < _unsafeAccess(self._checkpoints, mid)._key) {
+                high = mid;
+            } else {
+                low = mid + 1;
+            }
+        }
+
+        uint256 pos = _upperBinaryLookup(self._checkpoints, key, low, high);
+
+        return pos == 0 ? 0 : _unsafeAccess(self._checkpoints, pos - 1)._value;
+    }
+
+    /**
+     * @dev Returns the value in the most recent checkpoint, or zero if there are no checkpoints.
+     */
+    function latest(Trace160 storage self) internal view returns (uint160) {
+        uint256 pos = self._checkpoints.length;
+        return pos == 0 ? 0 : _unsafeAccess(self._checkpoints, pos - 1)._value;
+    }
+
+    /**
+     * @dev Returns whether there is a checkpoint in the structure (i.e. it is not empty), and if so the key and value
+     * in the most recent checkpoint.
+     */
+    function latestCheckpoint(Trace160 storage self) internal view returns (bool exists, uint96 _key, uint160 _value) {
+        uint256 pos = self._checkpoints.length;
+        if (pos == 0) {
+            return (false, 0, 0);
+        } else {
+            Checkpoint160 storage ckpt = _unsafeAccess(self._checkpoints, pos - 1);
+            return (true, ckpt._key, ckpt._value);
+        }
+    }
+
+    /**
+     * @dev Returns the number of checkpoint.
+     */
+    function length(Trace160 storage self) internal view returns (uint256) {
+        return self._checkpoints.length;
+    }
+
+    /**
+     * @dev Returns checkpoint at given position.
+     */
+    function at(Trace160 storage self, uint32 pos) internal view returns (Checkpoint160 memory) {
+        return self._checkpoints[pos];
+    }
+
+    /**
+     * @dev Pushes a (`key`, `value`) pair into an ordered list of checkpoints, either by inserting a new checkpoint,
+     * or by updating the last one.
+     */
+    function _insert(
+        Checkpoint160[] storage self,
+        uint96 key,
+        uint160 value
+    ) private returns (uint160 oldValue, uint160 newValue) {
+        uint256 pos = self.length;
+
+        if (pos > 0) {
+            Checkpoint160 storage last = _unsafeAccess(self, pos - 1);
+            uint96 lastKey = last._key;
+            uint160 lastValue = last._value;
+
+            // Checkpoint keys must be non-decreasing.
+            if (lastKey > key) {
+                revert CheckpointUnorderedInsertion();
+            }
+
+            // Update or push new checkpoint
+            if (lastKey == key) {
+                last._value = value;
+            } else {
+                self.push(Checkpoint160({_key: key, _value: value}));
+            }
+            return (lastValue, value);
+        } else {
+            self.push(Checkpoint160({_key: key, _value: value}));
+            return (0, value);
+        }
+    }
+
+    /**
+     * @dev Return the index of the first (oldest) checkpoint with key strictly bigger than the search key, or `high`
+     * if there is none. `low` and `high` define a section where to do the search, with inclusive `low` and exclusive
+     * `high`.
+     *
+     * WARNING: `high` should not be greater than the array's length.
+     */
+    function _upperBinaryLookup(
+        Checkpoint160[] storage self,
+        uint96 key,
+        uint256 low,
+        uint256 high
+    ) private view returns (uint256) {
+        while (low < high) {
+            uint256 mid = Math.average(low, high);
+            if (_unsafeAccess(self, mid)._key > key) {
+                high = mid;
+            } else {
+                low = mid + 1;
+            }
+        }
+        return high;
+    }
+
+    /**
+     * @dev Return the index of the first (oldest) checkpoint with key greater or equal than the search key, or `high`
+     * if there is none. `low` and `high` define a section where to do the search, with inclusive `low` and exclusive
+     * `high`.
+     *
+     * WARNING: `high` should not be greater than the array's length.
+     */
+    function _lowerBinaryLookup(
+        Checkpoint160[] storage self,
+        uint96 key,
+        uint256 low,
+        uint256 high
+    ) private view returns (uint256) {
+        while (low < high) {
+            uint256 mid = Math.average(low, high);
+            if (_unsafeAccess(self, mid)._key < key) {
+                low = mid + 1;
+            } else {
+                high = mid;
+            }
+        }
+        return high;
+    }
+
+    /**
+     * @dev Access an element of the array without performing bounds check. The position is assumed to be within bounds.
+     */
+    function _unsafeAccess(
+        Checkpoint160[] storage self,
+        uint256 pos
+    ) private pure returns (Checkpoint160 storage result) {
+        assembly {
+            mstore(0, self.slot)
+            result.slot := add(keccak256(0, 0x20), pos)
+        }
+    }
+}
