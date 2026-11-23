@@ -1,1 +1,5 @@
-IyEvdXNyL2Jpbi9lbnYgYmFzaAoKc2V0IC1ldW8gcGlwZWZhaWwKCmlmIGdpdCBzdGF0dXMgJj4vZGV2L251bGw7IHRoZW4gZ2l0IGNvbmZpZyBjb3JlLmhvb2tzUGF0aCAuZ2l0aG9va3M7IGZpCg==
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+if git status &>/dev/null; then git config core.hooksPath .githooks; fi
