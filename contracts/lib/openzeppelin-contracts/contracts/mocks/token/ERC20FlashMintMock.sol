@@ -1,1 +1,26 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0VSQzIwRmxhc2hNaW50fSBmcm9tICIuLi8uLi90b2tlbi9FUkMyMC9leHRlbnNpb25zL0VSQzIwRmxhc2hNaW50LnNvbCI7CgphYnN0cmFjdCBjb250cmFjdCBFUkMyMEZsYXNoTWludE1vY2sgaXMgRVJDMjBGbGFzaE1pbnQgewogICAgdWludDI1NiBfZmxhc2hGZWVBbW91bnQ7CiAgICBhZGRyZXNzIF9mbGFzaEZlZVJlY2VpdmVyQWRkcmVzczsKCiAgICBmdW5jdGlvbiBzZXRGbGFzaEZlZSh1aW50MjU2IGFtb3VudCkgcHVibGljIHsKICAgICAgICBfZmxhc2hGZWVBbW91bnQgPSBhbW91bnQ7CiAgICB9CgogICAgZnVuY3Rpb24gX2ZsYXNoRmVlKGFkZHJlc3MsIHVpbnQyNTYpIGludGVybmFsIHZpZXcgb3ZlcnJpZGUgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHJldHVybiBfZmxhc2hGZWVBbW91bnQ7CiAgICB9CgogICAgZnVuY3Rpb24gc2V0Rmxhc2hGZWVSZWNlaXZlcihhZGRyZXNzIHJlY2VpdmVyKSBwdWJsaWMgewogICAgICAgIF9mbGFzaEZlZVJlY2VpdmVyQWRkcmVzcyA9IHJlY2VpdmVyOwogICAgfQoKICAgIGZ1bmN0aW9uIF9mbGFzaEZlZVJlY2VpdmVyKCkgaW50ZXJuYWwgdmlldyBvdmVycmlkZSByZXR1cm5zIChhZGRyZXNzKSB7CiAgICAgICAgcmV0dXJuIF9mbGFzaEZlZVJlY2VpdmVyQWRkcmVzczsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {ERC20FlashMint} from "../../token/ERC20/extensions/ERC20FlashMint.sol";
+
+abstract contract ERC20FlashMintMock is ERC20FlashMint {
+    uint256 _flashFeeAmount;
+    address _flashFeeReceiverAddress;
+
+    function setFlashFee(uint256 amount) public {
+        _flashFeeAmount = amount;
+    }
+
+    function _flashFee(address, uint256) internal view override returns (uint256) {
+        return _flashFeeAmount;
+    }
+
+    function setFlashFeeReceiver(address receiver) public {
+        _flashFeeReceiverAddress = receiver;
+    }
+
+    function _flashFeeReceiver() internal view override returns (address) {
+        return _flashFeeReceiverAddress;
+    }
+}
