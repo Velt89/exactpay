@@ -1,1 +1,198 @@
-aW1wb3J0ICJoZWxwZXJzL2hlbHBlcnMuc3BlYyI7CmltcG9ydCAiRVJDMjAuc3BlYyI7CgptZXRob2RzIHsKICAgIGZ1bmN0aW9uIHVuZGVybHlpbmcoKSAgICAgICAgICAgICAgICAgICAgICAgZXh0ZXJuYWwgcmV0dXJucyhhZGRyZXNzKSBlbnZmcmVlOwogICAgZnVuY3Rpb24gdW5kZXJseWluZ1RvdGFsU3VwcGx5KCkgICAgICAgICAgICBleHRlcm5hbCByZXR1cm5zKHVpbnQyNTYpIGVudmZyZWU7CiAgICBmdW5jdGlvbiB1bmRlcmx5aW5nQmFsYW5jZU9mKGFkZHJlc3MpICAgICAgIGV4dGVybmFsIHJldHVybnModWludDI1NikgZW52ZnJlZTsKICAgIGZ1bmN0aW9uIHVuZGVybHlpbmdBbGxvd2FuY2VUb1RoaXMoYWRkcmVzcykgZXh0ZXJuYWwgcmV0dXJucyh1aW50MjU2KSBlbnZmcmVlOwoKICAgIGZ1bmN0aW9uIGRlcG9zaXRGb3IoYWRkcmVzcywgdWludDI1NikgICAgICAgZXh0ZXJuYWwgcmV0dXJucyhib29sKTsKICAgIGZ1bmN0aW9uIHdpdGhkcmF3VG8oYWRkcmVzcywgdWludDI1NikgICAgICAgZXh0ZXJuYWwgcmV0dXJucyhib29sKTsKICAgIGZ1bmN0aW9uIHJlY292ZXIoYWRkcmVzcykgICAgICAgICAgICAgICAgICAgZXh0ZXJuYWwgcmV0dXJucyh1aW50MjU2KTsKfQoKdXNlIGludmFyaWFudCB0b3RhbFN1cHBseUlzU3VtT2ZCYWxhbmNlczsKCi8qCuKUjOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUkArilIIgSGVscGVyOiBjb25zZXF1ZW5jZSBvZiBgdG90YWxTdXBwbHlJc1N1bU9mQmFsYW5jZXNgIGFwcGxpZWQgdG8gdW5kZXJseWluZyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICDilIIK4pSU4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSYCiovCmRlZmluaXRpb24gdW5kZXJseWluZ0JhbGFuY2VzTG93ZXJUaGFuVW5kZXJseWluZ1N1cHBseShhZGRyZXNzIGEpIHJldHVybnMgYm9vbCA9CiAgICB1bmRlcmx5aW5nQmFsYW5jZU9mKGEpIDw9IHVuZGVybHlpbmdUb3RhbFN1cHBseSgpOwoKZGVmaW5pdGlvbiBzdW1PZlVuZGVybHlpbmdCYWxhbmNlc0xvd2VyVGhhblVuZGVybHlpbmdTdXBwbHkoYWRkcmVzcyBhLCBhZGRyZXNzIGIpIHJldHVybnMgYm9vbCA9CiAgICBhICE9IGIgPT4gdW5kZXJseWluZ0JhbGFuY2VPZihhKSArIHVuZGVybHlpbmdCYWxhbmNlT2YoYikgPD0gdG9fbWF0aGludCh1bmRlcmx5aW5nVG90YWxTdXBwbHkoKSk7CgovKgrilIzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJAK4pSCIEludmFyaWFudDogd3JhcHBlZCB0b2tlbiBjYW4ndCBiZSB1bmRlcmNvbGxhdGVyYWxpemVkIChzb2x2ZW5jeSBvZiB0aGUgd3JhcHBlcikgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg4pSCCuKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmAoqLwppbnZhcmlhbnQgdG90YWxTdXBwbHlJc1NtYWxsZXJUaGFuVW5kZXJseWluZ0JhbGFuY2UoKQogICAgdG90YWxTdXBwbHkoKSA8PSB1bmRlcmx5aW5nQmFsYW5jZU9mKGN1cnJlbnRDb250cmFjdCkgJiYKICAgIHVuZGVybHlpbmdCYWxhbmNlT2YoY3VycmVudENvbnRyYWN0KSA8PSB1bmRlcmx5aW5nVG90YWxTdXBwbHkoKSAmJgogICAgdW5kZXJseWluZ1RvdGFsU3VwcGx5KCkgPD0gbWF4X3VpbnQyNTYKICAgIHsKICAgICAgICBwcmVzZXJ2ZWQgewogICAgICAgICAgICByZXF1aXJlSW52YXJpYW50IHRvdGFsU3VwcGx5SXNTdW1PZkJhbGFuY2VzOwogICAgICAgICAgICByZXF1aXJlIHVuZGVybHlpbmdCYWxhbmNlc0xvd2VyVGhhblVuZGVybHlpbmdTdXBwbHkoY3VycmVudENvbnRyYWN0KTsKICAgICAgICB9CiAgICAgICAgcHJlc2VydmVkIGRlcG9zaXRGb3IoYWRkcmVzcyBhY2NvdW50LCB1aW50MjU2IGFtb3VudCkgd2l0aCAoZW52IGUpIHsKICAgICAgICAgICAgcmVxdWlyZSBzdW1PZlVuZGVybHlpbmdCYWxhbmNlc0xvd2VyVGhhblVuZGVybHlpbmdTdXBwbHkoZS5tc2cuc2VuZGVyLCBjdXJyZW50Q29udHJhY3QpOwogICAgICAgIH0KICAgIH0KCmludmFyaWFudCBub1NlbGZXcmFwKCkKICAgIGN1cnJlbnRDb250cmFjdCAhPSB1bmRlcmx5aW5nKCk7CgovKgrilIzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJAK4pSCIFJ1bGU6IGRlcG9zaXRGb3IgbGl2ZW5lc3MgYW5kIGVmZmVjdHMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg4pSCCuKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmAoqLwpydWxlIGRlcG9zaXRGb3IoZW52IGUpIHsKICAgIHJlcXVpcmUgbm9ucGF5YWJsZShlKTsKCiAgICBhZGRyZXNzIHNlbmRlciA9IGUubXNnLnNlbmRlcjsKICAgIGFkZHJlc3MgcmVjZWl2ZXI7CiAgICBhZGRyZXNzIG90aGVyOwogICAgdWludDI1NiBhbW91bnQ7CgogICAgLy8gc2FuaXR5CiAgICByZXF1aXJlSW52YXJpYW50IG5vU2VsZldyYXA7CiAgICByZXF1aXJlSW52YXJpYW50IHRvdGFsU3VwcGx5SXNTdW1PZkJhbGFuY2VzOwogICAgcmVxdWlyZUludmFyaWFudCB0b3RhbFN1cHBseUlzU21hbGxlclRoYW5VbmRlcmx5aW5nQmFsYW5jZTsKICAgIHJlcXVpcmUgc3VtT2ZVbmRlcmx5aW5nQmFsYW5jZXNMb3dlclRoYW5VbmRlcmx5aW5nU3VwcGx5KGN1cnJlbnRDb250cmFjdCwgc2VuZGVyKTsKCiAgICB1aW50MjU2IGJhbGFuY2VCZWZvcmUgICAgICAgICAgICAgICAgICAgPSBiYWxhbmNlT2YocmVjZWl2ZXIpOwogICAgdWludDI1NiBzdXBwbHlCZWZvcmUgICAgICAgICAgICAgICAgICAgID0gdG90YWxTdXBwbHkoKTsKICAgIHVpbnQyNTYgc2VuZGVyVW5kZXJseWluZ0JhbGFuY2VCZWZvcmUgICA9IHVuZGVybHlpbmdCYWxhbmNlT2Yoc2VuZGVyKTsKICAgIHVpbnQyNTYgc2VuZGVyVW5kZXJseWluZ0FsbG93YW5jZUJlZm9yZSA9IHVuZGVybHlpbmdBbGxvd2FuY2VUb1RoaXMoc2VuZGVyKTsKICAgIHVpbnQyNTYgd3JhcHBlclVuZGVybHlpbmdCYWxhbmNlQmVmb3JlICA9IHVuZGVybHlpbmdCYWxhbmNlT2YoY3VycmVudENvbnRyYWN0KTsKICAgIHVpbnQyNTYgdW5kZXJseWluZ1N1cHBseUJlZm9yZSAgICAgICAgICA9IHVuZGVybHlpbmdUb3RhbFN1cHBseSgpOwoKICAgIHVpbnQyNTYgb3RoZXJCYWxhbmNlQmVmb3JlICAgICAgICAgICAgICA9IGJhbGFuY2VPZihvdGhlcik7CiAgICB1aW50MjU2IG90aGVyVW5kZXJseWluZ0JhbGFuY2VCZWZvcmUgICAgPSB1bmRlcmx5aW5nQmFsYW5jZU9mKG90aGVyKTsKCiAgICBkZXBvc2l0Rm9yQHdpdGhyZXZlcnQoZSwgcmVjZWl2ZXIsIGFtb3VudCk7CiAgICBib29sIHN1Y2Nlc3MgPSAhbGFzdFJldmVydGVkOwoKICAgIC8vIGxpdmVuZXNzCiAgICBhc3NlcnQgc3VjY2VzcyA8PT4gKAogICAgICAgIHNlbmRlciAgICE9IGN1cnJlbnRDb250cmFjdCAgICAgICAgICAgICAgICYmIC8vIGludmFsaWQgc2VuZGVyCiAgICAgICAgc2VuZGVyICAgIT0gMCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJiYgLy8gaW52YWxpZCBzZW5kZXIKICAgICAgICByZWNlaXZlciAhPSBjdXJyZW50Q29udHJhY3QgICAgICAgICAgICAgICAmJiAvLyBpbnZhbGlkIHJlY2VpdmVyCiAgICAgICAgcmVjZWl2ZXIgIT0gMCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJiYgLy8gaW52YWxpZCByZWNlaXZlcgogICAgICAgIGFtb3VudCAgIDw9IHNlbmRlclVuZGVybHlpbmdCYWxhbmNlQmVmb3JlICYmIC8vIGRlcG9zaXQgZG9lc24ndCBleGNlZWQgYmFsYW5jZQogICAgICAgIGFtb3VudCAgIDw9IHNlbmRlclVuZGVybHlpbmdBbGxvd2FuY2VCZWZvcmUgIC8vIGRlcG9zaXQgZG9lc24ndCBleGNlZWQgYWxsb3dhbmNlCiAgICApOwoKICAgIC8vIGVmZmVjdHMKICAgIGFzc2VydCBzdWNjZXNzID0+ICgKICAgICAgICB0b19tYXRoaW50KGJhbGFuY2VPZihyZWNlaXZlcikpID09IGJhbGFuY2VCZWZvcmUgKyBhbW91bnQgJiYKICAgICAgICB0b19tYXRoaW50KHRvdGFsU3VwcGx5KCkpID09IHN1cHBseUJlZm9yZSArIGFtb3VudCAmJgogICAgICAgIHRvX21hdGhpbnQodW5kZXJseWluZ0JhbGFuY2VPZihjdXJyZW50Q29udHJhY3QpKSA9PSB3cmFwcGVyVW5kZXJseWluZ0JhbGFuY2VCZWZvcmUgKyBhbW91bnQgJiYKICAgICAgICB0b19tYXRoaW50KHVuZGVybHlpbmdCYWxhbmNlT2Yoc2VuZGVyKSkgPT0gc2VuZGVyVW5kZXJseWluZ0JhbGFuY2VCZWZvcmUgLSBhbW91bnQKICAgICk7CgogICAgLy8gbm8gc2lkZSBlZmZlY3QKICAgIGFzc2VydCB1bmRlcmx5aW5nVG90YWxTdXBwbHkoKSA9PSB1bmRlcmx5aW5nU3VwcGx5QmVmb3JlOwogICAgYXNzZXJ0IGJhbGFuY2VPZihvdGhlcikgICAgICAgICAgICE9IG90aGVyQmFsYW5jZUJlZm9yZSAgICAgICAgICAgPT4gb3RoZXIgPT0gcmVjZWl2ZXI7CiAgICBhc3NlcnQgdW5kZXJseWluZ0JhbGFuY2VPZihvdGhlcikgIT0gb3RoZXJVbmRlcmx5aW5nQmFsYW5jZUJlZm9yZSA9PiAob3RoZXIgPT0gc2VuZGVyIHx8IG90aGVyID09IGN1cnJlbnRDb250cmFjdCk7Cn0KCi8qCuKUjOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUkArilIIgUnVsZTogd2l0aGRyYXdUbyBsaXZlbmVzcyBhbmQgZWZmZWN0cyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICDilIIK4pSU4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSYCiovCnJ1bGUgd2l0aGRyYXdUbyhlbnYgZSkgewogICAgcmVxdWlyZSBub25wYXlhYmxlKGUpOwoKICAgIGFkZHJlc3Mgc2VuZGVyID0gZS5tc2cuc2VuZGVyOwogICAgYWRkcmVzcyByZWNlaXZlcjsKICAgIGFkZHJlc3Mgb3RoZXI7CiAgICB1aW50MjU2IGFtb3VudDsKCiAgICAvLyBzYW5pdHkKICAgIHJlcXVpcmVJbnZhcmlhbnQgbm9TZWxmV3JhcDsKICAgIHJlcXVpcmVJbnZhcmlhbnQgdG90YWxTdXBwbHlJc1N1bU9mQmFsYW5jZXM7CiAgICByZXF1aXJlSW52YXJpYW50IHRvdGFsU3VwcGx5SXNTbWFsbGVyVGhhblVuZGVybHlpbmdCYWxhbmNlOwogICAgcmVxdWlyZSBzdW1PZlVuZGVybHlpbmdCYWxhbmNlc0xvd2VyVGhhblVuZGVybHlpbmdTdXBwbHkoY3VycmVudENvbnRyYWN0LCByZWNlaXZlcik7CgogICAgdWludDI1NiBiYWxhbmNlQmVmb3JlICAgICAgICAgICAgICAgICAgID0gYmFsYW5jZU9mKHNlbmRlcik7CiAgICB1aW50MjU2IHN1cHBseUJlZm9yZSAgICAgICAgICAgICAgICAgICAgPSB0b3RhbFN1cHBseSgpOwogICAgdWludDI1NiByZWNlaXZlclVuZGVybHlpbmdCYWxhbmNlQmVmb3JlID0gdW5kZXJseWluZ0JhbGFuY2VPZihyZWNlaXZlcik7CiAgICB1aW50MjU2IHdyYXBwZXJVbmRlcmx5aW5nQmFsYW5jZUJlZm9yZSAgPSB1bmRlcmx5aW5nQmFsYW5jZU9mKGN1cnJlbnRDb250cmFjdCk7CiAgICB1aW50MjU2IHVuZGVybHlpbmdTdXBwbHlCZWZvcmUgICAgICAgICAgPSB1bmRlcmx5aW5nVG90YWxTdXBwbHkoKTsKCiAgICB1aW50MjU2IG90aGVyQmFsYW5jZUJlZm9yZSAgICAgICAgICAgICAgPSBiYWxhbmNlT2Yob3RoZXIpOwogICAgdWludDI1NiBvdGhlclVuZGVybHlpbmdCYWxhbmNlQmVmb3JlICAgID0gdW5kZXJseWluZ0JhbGFuY2VPZihvdGhlcik7CgogICAgd2l0aGRyYXdUb0B3aXRocmV2ZXJ0KGUsIHJlY2VpdmVyLCBhbW91bnQpOwogICAgYm9vbCBzdWNjZXNzID0gIWxhc3RSZXZlcnRlZDsKCiAgICAvLyBsaXZlbmVzcwogICAgYXNzZXJ0IHN1Y2Nlc3MgPD0+ICgKICAgICAgICBzZW5kZXIgICAhPSAwICAgICAgICAgICAgICAgJiYgLy8gaW52YWxpZCBzZW5kZXIKICAgICAgICByZWNlaXZlciAhPSBjdXJyZW50Q29udHJhY3QgJiYgLy8gaW52YWxpZCByZWNlaXZlcgogICAgICAgIHJlY2VpdmVyICE9IDAgICAgICAgICAgICAgICAmJiAvLyBpbnZhbGlkIHJlY2VpdmVyCiAgICAgICAgYW1vdW50ICAgPD0gYmFsYW5jZUJlZm9yZSAgICAgIC8vIHdpdGhkcmF3IGRvZXNuJ3QgZXhjZWVkIGJhbGFuY2UKICAgICk7CgogICAgLy8gZWZmZWN0cwogICAgYXNzZXJ0IHN1Y2Nlc3MgPT4gKAogICAgICAgIHRvX21hdGhpbnQoYmFsYW5jZU9mKHNlbmRlcikpID09IGJhbGFuY2VCZWZvcmUgLSBhbW91bnQgJiYKICAgICAgICB0b19tYXRoaW50KHRvdGFsU3VwcGx5KCkpID09IHN1cHBseUJlZm9yZSAtIGFtb3VudCAmJgogICAgICAgIHRvX21hdGhpbnQodW5kZXJseWluZ0JhbGFuY2VPZihjdXJyZW50Q29udHJhY3QpKSA9PSB3cmFwcGVyVW5kZXJseWluZ0JhbGFuY2VCZWZvcmUgLSAoY3VycmVudENvbnRyYWN0ICE9IHJlY2VpdmVyID8gYW1vdW50IDogMCkgJiYKICAgICAgICB0b19tYXRoaW50KHVuZGVybHlpbmdCYWxhbmNlT2YocmVjZWl2ZXIpKSA9PSByZWNlaXZlclVuZGVybHlpbmdCYWxhbmNlQmVmb3JlICsgKGN1cnJlbnRDb250cmFjdCAhPSByZWNlaXZlciA/IGFtb3VudCA6IDApCiAgICApOwoKICAgIC8vIG5vIHNpZGUgZWZmZWN0CiAgICBhc3NlcnQgdW5kZXJseWluZ1RvdGFsU3VwcGx5KCkgPT0gdW5kZXJseWluZ1N1cHBseUJlZm9yZTsKICAgIGFzc2VydCBiYWxhbmNlT2Yob3RoZXIpICAgICAgICAgICAhPSBvdGhlckJhbGFuY2VCZWZvcmUgICAgICAgICAgID0+IG90aGVyID09IHNlbmRlcjsKICAgIGFzc2VydCB1bmRlcmx5aW5nQmFsYW5jZU9mKG90aGVyKSAhPSBvdGhlclVuZGVybHlpbmdCYWxhbmNlQmVmb3JlID0+IChvdGhlciA9PSByZWNlaXZlciB8fCBvdGhlciA9PSBjdXJyZW50Q29udHJhY3QpOwp9CgovKgrilIzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJAK4pSCIFJ1bGU6IHJlY292ZXIgbGl2ZW5lc3MgYW5kIGVmZmVjdHMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg4pSCCuKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmAoqLwpydWxlIHJlY292ZXIoZW52IGUpIHsKICAgIHJlcXVpcmUgbm9ucGF5YWJsZShlKTsKCiAgICBhZGRyZXNzIHJlY2VpdmVyOwogICAgYWRkcmVzcyBvdGhlcjsKCiAgICAvLyBzYW5pdHkKICAgIHJlcXVpcmVJbnZhcmlhbnQgbm9TZWxmV3JhcDsKICAgIHJlcXVpcmVJbnZhcmlhbnQgdG90YWxTdXBwbHlJc1N1bU9mQmFsYW5jZXM7CiAgICByZXF1aXJlSW52YXJpYW50IHRvdGFsU3VwcGx5SXNTbWFsbGVyVGhhblVuZGVybHlpbmdCYWxhbmNlOwoKICAgIG1hdGhpbnQgdmFsdWUgICAgICAgICAgICAgICAgICAgICAgICA9IHVuZGVybHlpbmdCYWxhbmNlT2YoY3VycmVudENvbnRyYWN0KSAtIHRvdGFsU3VwcGx5KCk7CiAgICB1aW50MjU2IHN1cHBseUJlZm9yZSAgICAgICAgICAgICAgICAgPSB0b3RhbFN1cHBseSgpOwogICAgdWludDI1NiBiYWxhbmNlQmVmb3JlICAgICAgICAgICAgICAgID0gYmFsYW5jZU9mKHJlY2VpdmVyKTsKCiAgICB1aW50MjU2IG90aGVyQmFsYW5jZUJlZm9yZSAgICAgICAgICAgPSBiYWxhbmNlT2Yob3RoZXIpOwogICAgdWludDI1NiBvdGhlclVuZGVybHlpbmdCYWxhbmNlQmVmb3JlID0gdW5kZXJseWluZ0JhbGFuY2VPZihvdGhlcik7CgogICAgcmVjb3ZlckB3aXRocmV2ZXJ0KGUsIHJlY2VpdmVyKTsKICAgIGJvb2wgc3VjY2VzcyA9ICFsYXN0UmV2ZXJ0ZWQ7CgogICAgLy8gbGl2ZW5lc3MKICAgIGFzc2VydCBzdWNjZXNzIDw9PiByZWNlaXZlciAhPSAwOwoKICAgIC8vIGVmZmVjdAogICAgYXNzZXJ0IHN1Y2Nlc3MgPT4gKAogICAgICAgIHRvX21hdGhpbnQoYmFsYW5jZU9mKHJlY2VpdmVyKSkgPT0gYmFsYW5jZUJlZm9yZSArIHZhbHVlICYmCiAgICAgICAgdG9fbWF0aGludCh0b3RhbFN1cHBseSgpKSA9PSBzdXBwbHlCZWZvcmUgKyB2YWx1ZSAmJgogICAgICAgIHRvdGFsU3VwcGx5KCkgPT0gdW5kZXJseWluZ0JhbGFuY2VPZihjdXJyZW50Q29udHJhY3QpCiAgICApOwoKICAgIC8vIG5vIHNpZGUgZWZmZWN0CiAgICBhc3NlcnQgdW5kZXJseWluZ0JhbGFuY2VPZihvdGhlcikgPT0gb3RoZXJVbmRlcmx5aW5nQmFsYW5jZUJlZm9yZTsKICAgIGFzc2VydCBiYWxhbmNlT2Yob3RoZXIpICE9IG90aGVyQmFsYW5jZUJlZm9yZSA9PiBvdGhlciA9PSByZWNlaXZlcjsKfQo=
+import "helpers/helpers.spec";
+import "ERC20.spec";
+
+methods {
+    function underlying()                       external returns(address) envfree;
+    function underlyingTotalSupply()            external returns(uint256) envfree;
+    function underlyingBalanceOf(address)       external returns(uint256) envfree;
+    function underlyingAllowanceToThis(address) external returns(uint256) envfree;
+
+    function depositFor(address, uint256)       external returns(bool);
+    function withdrawTo(address, uint256)       external returns(bool);
+    function recover(address)                   external returns(uint256);
+}
+
+use invariant totalSupplyIsSumOfBalances;
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Helper: consequence of `totalSupplyIsSumOfBalances` applied to underlying                                           │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+definition underlyingBalancesLowerThanUnderlyingSupply(address a) returns bool =
+    underlyingBalanceOf(a) <= underlyingTotalSupply();
+
+definition sumOfUnderlyingBalancesLowerThanUnderlyingSupply(address a, address b) returns bool =
+    a != b => underlyingBalanceOf(a) + underlyingBalanceOf(b) <= to_mathint(underlyingTotalSupply());
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Invariant: wrapped token can't be undercollateralized (solvency of the wrapper)                                     │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+invariant totalSupplyIsSmallerThanUnderlyingBalance()
+    totalSupply() <= underlyingBalanceOf(currentContract) &&
+    underlyingBalanceOf(currentContract) <= underlyingTotalSupply() &&
+    underlyingTotalSupply() <= max_uint256
+    {
+        preserved {
+            requireInvariant totalSupplyIsSumOfBalances;
+            require underlyingBalancesLowerThanUnderlyingSupply(currentContract);
+        }
+        preserved depositFor(address account, uint256 amount) with (env e) {
+            require sumOfUnderlyingBalancesLowerThanUnderlyingSupply(e.msg.sender, currentContract);
+        }
+    }
+
+invariant noSelfWrap()
+    currentContract != underlying();
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Rule: depositFor liveness and effects                                                                               │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+rule depositFor(env e) {
+    require nonpayable(e);
+
+    address sender = e.msg.sender;
+    address receiver;
+    address other;
+    uint256 amount;
+
+    // sanity
+    requireInvariant noSelfWrap;
+    requireInvariant totalSupplyIsSumOfBalances;
+    requireInvariant totalSupplyIsSmallerThanUnderlyingBalance;
+    require sumOfUnderlyingBalancesLowerThanUnderlyingSupply(currentContract, sender);
+
+    uint256 balanceBefore                   = balanceOf(receiver);
+    uint256 supplyBefore                    = totalSupply();
+    uint256 senderUnderlyingBalanceBefore   = underlyingBalanceOf(sender);
+    uint256 senderUnderlyingAllowanceBefore = underlyingAllowanceToThis(sender);
+    uint256 wrapperUnderlyingBalanceBefore  = underlyingBalanceOf(currentContract);
+    uint256 underlyingSupplyBefore          = underlyingTotalSupply();
+
+    uint256 otherBalanceBefore              = balanceOf(other);
+    uint256 otherUnderlyingBalanceBefore    = underlyingBalanceOf(other);
+
+    depositFor@withrevert(e, receiver, amount);
+    bool success = !lastReverted;
+
+    // liveness
+    assert success <=> (
+        sender   != currentContract               && // invalid sender
+        sender   != 0                             && // invalid sender
+        receiver != currentContract               && // invalid receiver
+        receiver != 0                             && // invalid receiver
+        amount   <= senderUnderlyingBalanceBefore && // deposit doesn't exceed balance
+        amount   <= senderUnderlyingAllowanceBefore  // deposit doesn't exceed allowance
+    );
+
+    // effects
+    assert success => (
+        to_mathint(balanceOf(receiver)) == balanceBefore + amount &&
+        to_mathint(totalSupply()) == supplyBefore + amount &&
+        to_mathint(underlyingBalanceOf(currentContract)) == wrapperUnderlyingBalanceBefore + amount &&
+        to_mathint(underlyingBalanceOf(sender)) == senderUnderlyingBalanceBefore - amount
+    );
+
+    // no side effect
+    assert underlyingTotalSupply() == underlyingSupplyBefore;
+    assert balanceOf(other)           != otherBalanceBefore           => other == receiver;
+    assert underlyingBalanceOf(other) != otherUnderlyingBalanceBefore => (other == sender || other == currentContract);
+}
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Rule: withdrawTo liveness and effects                                                                               │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+rule withdrawTo(env e) {
+    require nonpayable(e);
+
+    address sender = e.msg.sender;
+    address receiver;
+    address other;
+    uint256 amount;
+
+    // sanity
+    requireInvariant noSelfWrap;
+    requireInvariant totalSupplyIsSumOfBalances;
+    requireInvariant totalSupplyIsSmallerThanUnderlyingBalance;
+    require sumOfUnderlyingBalancesLowerThanUnderlyingSupply(currentContract, receiver);
+
+    uint256 balanceBefore                   = balanceOf(sender);
+    uint256 supplyBefore                    = totalSupply();
+    uint256 receiverUnderlyingBalanceBefore = underlyingBalanceOf(receiver);
+    uint256 wrapperUnderlyingBalanceBefore  = underlyingBalanceOf(currentContract);
+    uint256 underlyingSupplyBefore          = underlyingTotalSupply();
+
+    uint256 otherBalanceBefore              = balanceOf(other);
+    uint256 otherUnderlyingBalanceBefore    = underlyingBalanceOf(other);
+
+    withdrawTo@withrevert(e, receiver, amount);
+    bool success = !lastReverted;
+
+    // liveness
+    assert success <=> (
+        sender   != 0               && // invalid sender
+        receiver != currentContract && // invalid receiver
+        receiver != 0               && // invalid receiver
+        amount   <= balanceBefore      // withdraw doesn't exceed balance
+    );
+
+    // effects
+    assert success => (
+        to_mathint(balanceOf(sender)) == balanceBefore - amount &&
+        to_mathint(totalSupply()) == supplyBefore - amount &&
+        to_mathint(underlyingBalanceOf(currentContract)) == wrapperUnderlyingBalanceBefore - (currentContract != receiver ? amount : 0) &&
+        to_mathint(underlyingBalanceOf(receiver)) == receiverUnderlyingBalanceBefore + (currentContract != receiver ? amount : 0)
+    );
+
+    // no side effect
+    assert underlyingTotalSupply() == underlyingSupplyBefore;
+    assert balanceOf(other)           != otherBalanceBefore           => other == sender;
+    assert underlyingBalanceOf(other) != otherUnderlyingBalanceBefore => (other == receiver || other == currentContract);
+}
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Rule: recover liveness and effects                                                                                  │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+rule recover(env e) {
+    require nonpayable(e);
+
+    address receiver;
+    address other;
+
+    // sanity
+    requireInvariant noSelfWrap;
+    requireInvariant totalSupplyIsSumOfBalances;
+    requireInvariant totalSupplyIsSmallerThanUnderlyingBalance;
+
+    mathint value                        = underlyingBalanceOf(currentContract) - totalSupply();
+    uint256 supplyBefore                 = totalSupply();
+    uint256 balanceBefore                = balanceOf(receiver);
+
+    uint256 otherBalanceBefore           = balanceOf(other);
+    uint256 otherUnderlyingBalanceBefore = underlyingBalanceOf(other);
+
+    recover@withrevert(e, receiver);
+    bool success = !lastReverted;
+
+    // liveness
+    assert success <=> receiver != 0;
+
+    // effect
+    assert success => (
+        to_mathint(balanceOf(receiver)) == balanceBefore + value &&
+        to_mathint(totalSupply()) == supplyBefore + value &&
+        totalSupply() == underlyingBalanceOf(currentContract)
+    );
+
+    // no side effect
+    assert underlyingBalanceOf(other) == otherUnderlyingBalanceBefore;
+    assert balanceOf(other) != otherBalanceBefore => other == receiver;
+}
