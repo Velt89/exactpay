@@ -1,1 +1,80 @@
-Y29uc3QgZm9ybWF0ID0gcmVxdWlyZSgnLi4vZm9ybWF0LWxpbmVzJyk7CmNvbnN0IHsgVFlQRVMgfSA9IHJlcXVpcmUoJy4vU2xvdC5vcHRzJyk7Cgpjb25zdCBoZWFkZXIgPSBgXApwcmFnbWEgc29saWRpdHkgXjAuOC4yNDsKCi8qKgogKiBAZGV2IExpYnJhcnkgZm9yIHJlYWRpbmcgYW5kIHdyaXRpbmcgdmFsdWUtdHlwZXMgdG8gc3BlY2lmaWMgdHJhbnNpZW50IHN0b3JhZ2Ugc2xvdHMuCiAqCiAqIFRyYW5zaWVudCBzbG90cyBhcmUgb2Z0ZW4gdXNlZCB0byBzdG9yZSB0ZW1wb3JhcnkgdmFsdWVzIHRoYXQgYXJlIHJlbW92ZWQgYWZ0ZXIgdGhlIGN1cnJlbnQgdHJhbnNhY3Rpb24uCiAqIFRoaXMgbGlicmFyeSBoZWxwcyB3aXRoIHJlYWRpbmcgYW5kIHdyaXRpbmcgdG8gc3VjaCBzbG90cyB3aXRob3V0IHRoZSBuZWVkIGZvciBpbmxpbmUgYXNzZW1ibHkuCiAqCiAqICAqIEV4YW1wbGUgcmVhZGluZyBhbmQgd3JpdGluZyB2YWx1ZXMgdXNpbmcgdHJhbnNpZW50IHN0b3JhZ2U6CiAqIFxgXGBcYHNvbGlkaXR5CiAqIGNvbnRyYWN0IExvY2sgewogKiAgICAgdXNpbmcgVHJhbnNpZW50U2xvdCBmb3IgKjsKICoKICogICAgIC8vIERlZmluZSB0aGUgc2xvdC4gQWx0ZXJuYXRpdmVseSwgdXNlIHRoZSBTbG90RGVyaXZhdGlvbiBsaWJyYXJ5IHRvIGRlcml2ZSB0aGUgc2xvdC4KICogICAgIGJ5dGVzMzIgaW50ZXJuYWwgY29uc3RhbnQgX0xPQ0tfU0xPVCA9IDB4ZjQ2Nzg4NThiMmI1ODgyMjQ2MzZiODUyMmI3MjllNzcyMmQzMmZjNDkxZGE4NDllZDc1YjNmZGYzYzg0ZjU0MjsKICoKICogICAgIG1vZGlmaWVyIGxvY2tlZCgpIHsKICogICAgICAgICByZXF1aXJlKCFfTE9DS19TTE9ULmFzQm9vbGVhbigpLnRsb2FkKCkpOwogKgogKiAgICAgICAgIF9MT0NLX1NMT1QuYXNCb29sZWFuKCkudHN0b3JlKHRydWUpOwogKiAgICAgICAgIF87CiAqICAgICAgICAgX0xPQ0tfU0xPVC5hc0Jvb2xlYW4oKS50c3RvcmUoZmFsc2UpOwogKiAgICAgfQogKiB9CiAqIFxgXGBcYAogKgogKiBUSVA6IENvbnNpZGVyIHVzaW5nIHRoaXMgbGlicmFyeSBhbG9uZyB3aXRoIHtTbG90RGVyaXZhdGlvbn0uCiAqLwpgOwoKY29uc3QgdWR2dCA9ICh7IHR5cGUsIG5hbWUgfSkgPT4gYFwKLyoqCiAqIEBkZXYgVURWVCB0aGF0IHJlcHJlc2VudCBhIHNsb3QgaG9sZGluZyBhICR7dHlwZX0uCiAqLwp0eXBlICR7bmFtZX1TbG90IGlzIGJ5dGVzMzI7CgovKioKICogQGRldiBDYXN0IGFuIGFyYml0cmFyeSBzbG90IHRvIGEgJHtuYW1lfVNsb3QuCiAqLwpmdW5jdGlvbiBhcyR7bmFtZX0oYnl0ZXMzMiBzbG90KSBpbnRlcm5hbCBwdXJlIHJldHVybnMgKCR7bmFtZX1TbG90KSB7CiAgICByZXR1cm4gJHtuYW1lfVNsb3Qud3JhcChzbG90KTsKfQpgOwoKY29uc3QgdHJhbnNpZW50ID0gKHsgdHlwZSwgbmFtZSB9KSA9PiBgXAovKioKICogQGRldiBMb2FkIHRoZSB2YWx1ZSBoZWxkIGF0IGxvY2F0aW9uIFxgc2xvdFxgIGluIHRyYW5zaWVudCBzdG9yYWdlLgogKi8KZnVuY3Rpb24gdGxvYWQoJHtuYW1lfVNsb3Qgc2xvdCkgaW50ZXJuYWwgdmlldyByZXR1cm5zICgke3R5cGV9IHZhbHVlKSB7CiAgICBhc3NlbWJseSAoIm1lbW9yeS1zYWZlIikgewogICAgICAgIHZhbHVlIDo9IHRsb2FkKHNsb3QpCiAgICB9Cn0KCi8qKgogKiBAZGV2IFN0b3JlIFxgdmFsdWVcYCBhdCBsb2NhdGlvbiBcYHNsb3RcYCBpbiB0cmFuc2llbnQgc3RvcmFnZS4KICovCmZ1bmN0aW9uIHRzdG9yZSgke25hbWV9U2xvdCBzbG90LCAke3R5cGV9IHZhbHVlKSBpbnRlcm5hbCB7CiAgICBhc3NlbWJseSAoIm1lbW9yeS1zYWZlIikgewogICAgICAgIHRzdG9yZShzbG90LCB2YWx1ZSkKICAgIH0KfQpgOwoKLy8gR0VORVJBVEUKbW9kdWxlLmV4cG9ydHMgPSBmb3JtYXQoCiAgaGVhZGVyLnRyaW1FbmQoKSwKICAnbGlicmFyeSBUcmFuc2llbnRTbG90IHsnLAogIGZvcm1hdCgKICAgIFtdLmNvbmNhdCgKICAgICAgVFlQRVMuZmlsdGVyKHR5cGUgPT4gdHlwZS5pc1ZhbHVlVHlwZSkubWFwKHR5cGUgPT4gdWR2dCh0eXBlKSksCiAgICAgIFRZUEVTLmZpbHRlcih0eXBlID0+IHR5cGUuaXNWYWx1ZVR5cGUpLm1hcCh0eXBlID0+IHRyYW5zaWVudCh0eXBlKSksCiAgICApLAogICkudHJpbUVuZCgpLAogICd9JywKKTsK
+const format = require('../format-lines');
+const { TYPES } = require('./Slot.opts');
+
+const header = `\
+pragma solidity ^0.8.24;
+
+/**
+ * @dev Library for reading and writing value-types to specific transient storage slots.
+ *
+ * Transient slots are often used to store temporary values that are removed after the current transaction.
+ * This library helps with reading and writing to such slots without the need for inline assembly.
+ *
+ *  * Example reading and writing values using transient storage:
+ * \`\`\`solidity
+ * contract Lock {
+ *     using TransientSlot for *;
+ *
+ *     // Define the slot. Alternatively, use the SlotDerivation library to derive the slot.
+ *     bytes32 internal constant _LOCK_SLOT = 0xf4678858b2b588224636b8522b729e7722d32fc491da849ed75b3fdf3c84f542;
+ *
+ *     modifier locked() {
+ *         require(!_LOCK_SLOT.asBoolean().tload());
+ *
+ *         _LOCK_SLOT.asBoolean().tstore(true);
+ *         _;
+ *         _LOCK_SLOT.asBoolean().tstore(false);
+ *     }
+ * }
+ * \`\`\`
+ *
+ * TIP: Consider using this library along with {SlotDerivation}.
+ */
+`;
+
+const udvt = ({ type, name }) => `\
+/**
+ * @dev UDVT that represent a slot holding a ${type}.
+ */
+type ${name}Slot is bytes32;
+
+/**
+ * @dev Cast an arbitrary slot to a ${name}Slot.
+ */
+function as${name}(bytes32 slot) internal pure returns (${name}Slot) {
+    return ${name}Slot.wrap(slot);
+}
+`;
+
+const transient = ({ type, name }) => `\
+/**
+ * @dev Load the value held at location \`slot\` in transient storage.
+ */
+function tload(${name}Slot slot) internal view returns (${type} value) {
+    assembly ("memory-safe") {
+        value := tload(slot)
+    }
+}
+
+/**
+ * @dev Store \`value\` at location \`slot\` in transient storage.
+ */
+function tstore(${name}Slot slot, ${type} value) internal {
+    assembly ("memory-safe") {
+        tstore(slot, value)
+    }
+}
+`;
+
+// GENERATE
+module.exports = format(
+  header.trimEnd(),
+  'library TransientSlot {',
+  format(
+    [].concat(
+      TYPES.filter(type => type.isValueType).map(type => udvt(type)),
+      TYPES.filter(type => type.isValueType).map(type => transient(type)),
+    ),
+  ).trimEnd(),
+  '}',
+);
