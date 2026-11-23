@@ -1,1 +1,5 @@
-bW9kdWxlLmV4cG9ydHMgPSB7CiAgYWRkcmVzczogZXhwciA9PiBgYW5kKCR7ZXhwcn0sIHNocig5Niwgbm90KDApKSlgLAogIGJvb2w6IGV4cHIgPT4gYGlzemVybyhpc3plcm8oJHtleHByfSkpYCwKICBieXRlczogKGV4cHIsIHNpemUpID0+IGBhbmQoJHtleHByfSwgc2hsKCR7MjU2IC0gOCAqIHNpemV9LCBub3QoMCkpKWAsCn07Cg==
+module.exports = {
+  address: expr => `and(${expr}, shr(96, not(0)))`,
+  bool: expr => `iszero(iszero(${expr}))`,
+  bytes: (expr, size) => `and(${expr}, shl(${256 - 8 * size}, not(0)))`,
+};
