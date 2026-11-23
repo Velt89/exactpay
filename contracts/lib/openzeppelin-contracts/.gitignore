@@ -1,1 +1,66 @@
-Ki5zd3AKKi5zd28KCiMgTG9ncwpsb2dzCioubG9nCgojIFJ1bnRpbWUgZGF0YQpwaWRzCioucGlkCiouc2VlZAphbGxGaXJlZEV2ZW50cwpzY1RvcGljcwoKIyBDb3ZlcmFnZSBkaXJlY3RvcnkgdXNlZCBieSB0b29scyBsaWtlIGlzdGFuYnVsCmNvdmVyYWdlCmNvdmVyYWdlLmpzb24KY292ZXJhZ2VFbnYKCiMgbm9kZS13YWYgY29uZmlndXJhdGlvbgoubG9jay13c2NyaXB0CgojIERlcGVuZGVuY3kgZGlyZWN0b3J5Cm5vZGVfbW9kdWxlcwoKIyBEZWJ1ZyBsb2cgZnJvbSBucG0KbnBtLWRlYnVnLmxvZwoKIyBsb2NhbCBlbnYgdmFyaWFibGVzCi5lbnYKCiMgbWFjT1MKLkRTX1N0b3JlCgojIEludGVsbGlKIElERQouaWRlYQoKIyBkb2NzIGFydGlmYWN0cwpkb2NzL21vZHVsZXMvYXBpCgojIG9ubHkgdXNlZCB0byBwYWNrYWdlIEBvcGVuemVwcGVsaW4vY29udHJhY3RzCmNvbnRyYWN0cy9idWlsZC8KY29udHJhY3RzL1JFQURNRS5tZAoKIyB0ZW1wb3JhcnkgYXJ0aWZhY3QgZnJvbSBzb2xpZGl0eS1jb3ZlcmFnZQphbGxGaXJlZEV2ZW50cwouY292ZXJhZ2VfYXJ0aWZhY3RzCi5jb3ZlcmFnZV9jYWNoZQouY292ZXJhZ2VfY29udHJhY3RzCgojIGhhcmRhdC1leHBvc2VkCmNvbnRyYWN0cy1leHBvc2VkCgojIEhhcmRoYXQKL2NhY2hlCi9hcnRpZmFjdHMKCiMgRm91bmRyeQovb3V0Ci9jYWNoZV9mb3JnZQoKIyBDZXJ0b3JhCi5jZXJ0b3JhKgoubGFzdF9jb25mcwpjZXJ0b3JhXyoKLnppcC1vdXRwdXQtdXJsLnR4dAo=
+*.swp
+*.swo
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+allFiredEvents
+scTopics
+
+# Coverage directory used by tools like istanbul
+coverage
+coverage.json
+coverageEnv
+
+# node-waf configuration
+.lock-wscript
+
+# Dependency directory
+node_modules
+
+# Debug log from npm
+npm-debug.log
+
+# local env variables
+.env
+
+# macOS
+.DS_Store
+
+# IntelliJ IDE
+.idea
+
+# docs artifacts
+docs/modules/api
+
+# only used to package @openzeppelin/contracts
+contracts/build/
+contracts/README.md
+
+# temporary artifact from solidity-coverage
+allFiredEvents
+.coverage_artifacts
+.coverage_cache
+.coverage_contracts
+
+# hardat-exposed
+contracts-exposed
+
+# Hardhat
+/cache
+/artifacts
+
+# Foundry
+/out
+/cache_forge
+
+# Certora
+.certora*
+.last_confs
+certora_*
+.zip-output-url.txt
