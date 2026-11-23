@@ -1,1 +1,18 @@
-IyEvdXNyL2Jpbi9lbnYgYmFzaAoKc2V0IC1ldW8gcGlwZWZhaWwKCkRJUk5BTUU9IiQoZGlybmFtZSAtLSAiJHtCQVNIX1NPVVJDRVswXX0iKSIKUEFUQ0g9IiRESVJOQU1FL3VwZ3JhZGVhYmxlLnBhdGNoIgoKZXJyb3IoKSB7CiAgZWNobyBFcnJvcjogIiQqIiA+JjIKICBleGl0IDEKfQoKaWYgISBnaXQgZGlmZi1maWxlcyAtLXF1aWV0ICI6ISRQQVRDSCI7IHRoZW4KICBlcnJvciAiVW5zdGFnZWQgY2hhbmdlcy4gU3RhZ2UgdG8gaW5jbHVkZSBpbiBwYXRjaCBvciB0ZW1wb3JhcmlseSBzdGFzaC4iCmZpCgpnaXQgZGlmZi1pbmRleCAtLWNhY2hlZCAtLXBhdGNoIC0tb3V0cHV0PSIkUEFUQ0giIEhFQUQKZ2l0IHJlc3RvcmUgLS1zdGFnZWQgLS13b3JrdHJlZSAiOiEkUEFUQ0giCg==
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+DIRNAME="$(dirname -- "${BASH_SOURCE[0]}")"
+PATCH="$DIRNAME/upgradeable.patch"
+
+error() {
+  echo Error: "$*" >&2
+  exit 1
+}
+
+if ! git diff-files --quiet ":!$PATCH"; then
+  error "Unstaged changes. Stage to include in patch or temporarily stash."
+fi
+
+git diff-index --cached --patch --output="$PATCH" HEAD
+git restore --staged --worktree ":!$PATCH"
