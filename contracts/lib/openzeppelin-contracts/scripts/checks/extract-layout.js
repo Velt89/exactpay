@@ -1,1 +1,38 @@
-Y29uc3QgZnMgPSByZXF1aXJlKCdmcycpOwpjb25zdCB7IGZpbmRBbGwsIGFzdERlcmVmZXJlbmNlciwgc3JjRGVjb2RlciB9ID0gcmVxdWlyZSgnc29saWRpdHktYXN0L3V0aWxzJyk7CmNvbnN0IHsgZXh0cmFjdFN0b3JhZ2VMYXlvdXQgfSA9IHJlcXVpcmUoJ0BvcGVuemVwcGVsaW4vdXBncmFkZXMtY29yZS9kaXN0L3N0b3JhZ2UvZXh0cmFjdCcpOwoKY29uc3QgeyBfIH0gPSByZXF1aXJlKCd5YXJncycpLmFyZ3Y7Cgpjb25zdCBza2lwUGF0aCA9IFsnY29udHJhY3RzL21vY2tzLycsICdjb250cmFjdHMtZXhwb3NlZC8nXTsKY29uc3Qgc2tpcEtpbmQgPSBbJ2ludGVyZmFjZScsICdsaWJyYXJ5J107CgpmdW5jdGlvbiBleHRyYWN0TGF5b3V0cyhwYXRoKSB7CiAgY29uc3QgbGF5b3V0ID0ge307CiAgY29uc3QgeyBpbnB1dCwgb3V0cHV0IH0gPSBKU09OLnBhcnNlKGZzLnJlYWRGaWxlU3luYyhwYXRoKSk7CgogIGNvbnN0IGRlY29kZXIgPSBzcmNEZWNvZGVyKGlucHV0LCBvdXRwdXQpOwogIGNvbnN0IGRlcmVmID0gYXN0RGVyZWZlcmVuY2VyKG91dHB1dCk7CgogIGZvciAoY29uc3Qgc3JjIGluIG91dHB1dC5jb250cmFjdHMpIHsKICAgIGlmIChza2lwUGF0aC5zb21lKHByZWZpeCA9PiBzcmMuc3RhcnRzV2l0aChwcmVmaXgpKSkgewogICAgICBjb250aW51ZTsKICAgIH0KCiAgICBmb3IgKGNvbnN0IGNvbnRyYWN0RGVmIG9mIGZpbmRBbGwoJ0NvbnRyYWN0RGVmaW5pdGlvbicsIG91dHB1dC5zb3VyY2VzW3NyY10uYXN0KSkgewogICAgICBpZiAoc2tpcEtpbmQuaW5jbHVkZXMoY29udHJhY3REZWYuY29udHJhY3RLaW5kKSkgewogICAgICAgIGNvbnRpbnVlOwogICAgICB9CgogICAgICBsYXlvdXRbY29udHJhY3REZWYubmFtZV0gPSBleHRyYWN0U3RvcmFnZUxheW91dCgKICAgICAgICBjb250cmFjdERlZiwKICAgICAgICBkZWNvZGVyLAogICAgICAgIGRlcmVmLAogICAgICAgIG91dHB1dC5jb250cmFjdHNbc3JjXVtjb250cmFjdERlZi5uYW1lXS5zdG9yYWdlTGF5b3V0LAogICAgICApOwogICAgfQogIH0KICByZXR1cm4gbGF5b3V0Owp9Cgpjb25zb2xlLmxvZyhKU09OLnN0cmluZ2lmeShPYmplY3QuYXNzaWduKC4uLl8ubWFwKGV4dHJhY3RMYXlvdXRzKSkpKTsK
+const fs = require('fs');
+const { findAll, astDereferencer, srcDecoder } = require('solidity-ast/utils');
+const { extractStorageLayout } = require('@openzeppelin/upgrades-core/dist/storage/extract');
+
+const { _ } = require('yargs').argv;
+
+const skipPath = ['contracts/mocks/', 'contracts-exposed/'];
+const skipKind = ['interface', 'library'];
+
+function extractLayouts(path) {
+  const layout = {};
+  const { input, output } = JSON.parse(fs.readFileSync(path));
+
+  const decoder = srcDecoder(input, output);
+  const deref = astDereferencer(output);
+
+  for (const src in output.contracts) {
+    if (skipPath.some(prefix => src.startsWith(prefix))) {
+      continue;
+    }
+
+    for (const contractDef of findAll('ContractDefinition', output.sources[src].ast)) {
+      if (skipKind.includes(contractDef.contractKind)) {
+        continue;
+      }
+
+      layout[contractDef.name] = extractStorageLayout(
+        contractDef,
+        decoder,
+        deref,
+        output.contracts[src][contractDef.name].storageLayout,
+      );
+    }
+  }
+  return layout;
+}
+
+console.log(JSON.stringify(Object.assign(..._.map(extractLayouts))));
