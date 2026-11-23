@@ -1,1 +1,300 @@
-aW1wb3J0ICJoZWxwZXJzL2hlbHBlcnMuc3BlYyI7CgptZXRob2RzIHsKICAgIGZ1bmN0aW9uIHB1c2hGcm9udChieXRlczMyKSBleHRlcm5hbCAgICAgICAgICAgICAgICAgICBlbnZmcmVlOwogICAgZnVuY3Rpb24gcHVzaEJhY2soYnl0ZXMzMikgICAgICAgICAgICAgICAgICAgIGV4dGVybmFsIGVudmZyZWU7CiAgICBmdW5jdGlvbiBwb3BGcm9udCgpICAgICAgICAgZXh0ZXJuYWwgcmV0dXJucyAoYnl0ZXMzMikgZW52ZnJlZTsKICAgIGZ1bmN0aW9uIHBvcEJhY2soKSAgICAgICAgICBleHRlcm5hbCByZXR1cm5zIChieXRlczMyKSBlbnZmcmVlOwogICAgZnVuY3Rpb24gY2xlYXIoKSAgICAgICAgICAgIGV4dGVybmFsICAgICAgICAgICAgICAgICAgIGVudmZyZWU7CgogICAgLy8gZXhwb3NlZCBmb3IgRlYKICAgIGZ1bmN0aW9uIGJlZ2luKCkgICAgICAgICAgICBleHRlcm5hbCByZXR1cm5zICh1aW50MTI4KSBlbnZmcmVlOwogICAgZnVuY3Rpb24gZW5kKCkgICAgICAgICAgICAgIGV4dGVybmFsIHJldHVybnMgKHVpbnQxMjgpIGVudmZyZWU7CgogICAgLy8gdmlldwogICAgZnVuY3Rpb24gbGVuZ3RoKCkgICAgICAgICAgIGV4dGVybmFsIHJldHVybnMgKHVpbnQyNTYpIGVudmZyZWU7CiAgICBmdW5jdGlvbiBlbXB0eSgpICAgICAgICAgICAgZXh0ZXJuYWwgcmV0dXJucyAoYm9vbCkgICAgZW52ZnJlZTsKICAgIGZ1bmN0aW9uIGZyb250KCkgICAgICAgICAgICBleHRlcm5hbCByZXR1cm5zIChieXRlczMyKSBlbnZmcmVlOwogICAgZnVuY3Rpb24gYmFjaygpICAgICAgICAgICAgIGV4dGVybmFsIHJldHVybnMgKGJ5dGVzMzIpIGVudmZyZWU7CiAgICBmdW5jdGlvbiBhdF8odWludDI1NikgICAgICAgZXh0ZXJuYWwgcmV0dXJucyAoYnl0ZXMzMikgZW52ZnJlZTsgLy8gYXQgaXMgYSByZXNlcnZlZCB3b3JkCn0KCmRlZmluaXRpb24gZnVsbCgpIHJldHVybnMgYm9vbCA9IGxlbmd0aCgpID09IG1heF91aW50MTI4OwoKLyoK4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQCuKUgiBJbnZhcmlhbnQ6IGVtcHR5KCkgaXMgbGVuZ3RoIDAgYW5kIG5vIGVsZW1lbnQgZXhpc3RzICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIOKUggrilJTilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJgKKi8KaW52YXJpYW50IGVtcHRpbmVzcygpCiAgICBlbXB0eSgpIDw9PiBsZW5ndGgoKSA9PSAwCiAgICBmaWx0ZXJlZCB7IGYgLT4gIWYuaXNWaWV3IH0KCi8qCuKUjOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUkArilIIgSW52YXJpYW50OiBmcm9udCBwb2ludHMgdG8gdGhlIGZpcnN0IGluZGV4IGFuZCBiYWNrIHBvaW50cyB0byB0aGUgbGFzdCBvbmUgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICDilIIK4pSU4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSYCiovCmludmFyaWFudCBxdWV1ZUZyb250KCkKICAgIGF0XygwKSA9PSBmcm9udCgpCiAgICBmaWx0ZXJlZCB7IGYgLT4gIWYuaXNWaWV3IH0KCmludmFyaWFudCBxdWV1ZUJhY2soKQogICAgYXRfKHJlcXVpcmVfdWludDI1NihsZW5ndGgoKSAtIDEpKSA9PSBiYWNrKCkKICAgIGZpbHRlcmVkIHsgZiAtPiAhZi5pc1ZpZXcgfQoKLyoK4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQCuKUgiBGdW5jdGlvbiBjb3JyZWN0bmVzczogcHVzaEZyb250IGFkZHMgYW4gZWxlbWVudCBhdCB0aGUgYmVnaW5uaW5nIG9mIHRoZSBxdWV1ZSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIOKUggrilJTilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJgKKi8KcnVsZSBwdXNoRnJvbnQoYnl0ZXMzMiB2YWx1ZSkgewogICAgdWludDI1NiBsZW5ndGhCZWZvcmUgPSBsZW5ndGgoKTsKICAgIGJvb2wgICAgZnVsbEJlZm9yZSAgID0gZnVsbCgpOwoKICAgIHB1c2hGcm9udEB3aXRocmV2ZXJ0KHZhbHVlKTsKICAgIGJvb2wgc3VjY2VzcyA9ICFsYXN0UmV2ZXJ0ZWQ7CgogICAgLy8gbGl2ZW5lc3MKICAgIGFzc2VydCBzdWNjZXNzIDw9PiAhZnVsbEJlZm9yZSwgIm5ldmVyIHJldmVydCBpZiBub3QgcHJldmlvdXNseSBmdWxsIjsKCiAgICAvLyBlZmZlY3QKICAgIGFzc2VydCBzdWNjZXNzID0+IGZyb250KCkgPT0gdmFsdWUsICJmcm9udCBzZXQgdG8gdmFsdWUiOwogICAgYXNzZXJ0IHN1Y2Nlc3MgPT4gdG9fbWF0aGludChsZW5ndGgoKSkgPT0gbGVuZ3RoQmVmb3JlICsgMSwgInF1ZXVlIGV4dGVuZGVkIjsKfQoKLyoK4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQCuKUgiBSdWxlOiBwdXNoRnJvbnQgcHJlc2VydmVzIHRoZSBwcmV2aW91cyB2YWx1ZXMgaW4gdGhlIHF1ZXVlIHdpdGggYSArMSBvZmZzZXQgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIOKUggrilJTilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJgKKi8KcnVsZSBwdXNoRnJvbnRDb25zaXN0ZW5jeSh1aW50MjU2IGluZGV4KSB7CiAgICBieXRlczMyIGJlZm9yZUF0ID0gYXRfKGluZGV4KTsKCiAgICBieXRlczMyIHZhbHVlOwogICAgcHVzaEZyb250KHZhbHVlKTsKCiAgICAvLyB0cnkgdG8gcmVhZCB2YWx1ZQogICAgYnl0ZXMzMiBhZnRlckF0ID0gYXRfQHdpdGhyZXZlcnQocmVxdWlyZV91aW50MjU2KGluZGV4ICsgMSkpOwoKICAgIGFzc2VydCAhbGFzdFJldmVydGVkLCAidmFsdWUgc3RpbGwgdGhlcmUiOwogICAgYXNzZXJ0IGFmdGVyQXQgPT0gYmVmb3JlQXQsICJkYXRhIGlzIHByZXNlcnZlZCI7Cn0KCi8qCuKUjOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUkArilIIgRnVuY3Rpb24gY29ycmVjdG5lc3M6IHB1c2hCYWNrIGFkZHMgYW4gZWxlbWVudCBhdCB0aGUgZW5kIG9mIHRoZSBxdWV1ZSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICDilIIK4pSU4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSYCiovCnJ1bGUgcHVzaEJhY2soYnl0ZXMzMiB2YWx1ZSkgewogICAgdWludDI1NiBsZW5ndGhCZWZvcmUgPSBsZW5ndGgoKTsKICAgIGJvb2wgICAgZnVsbEJlZm9yZSAgID0gZnVsbCgpOwoKICAgIHB1c2hCYWNrQHdpdGhyZXZlcnQodmFsdWUpOwogICAgYm9vbCBzdWNjZXNzID0gIWxhc3RSZXZlcnRlZDsKCiAgICAvLyBsaXZlbmVzcwogICAgYXNzZXJ0IHN1Y2Nlc3MgPD0+ICFmdWxsQmVmb3JlLCAibmV2ZXIgcmV2ZXJ0IGlmIG5vdCBwcmV2aW91c2x5IGZ1bGwiOwoKICAgIC8vIGVmZmVjdAogICAgYXNzZXJ0IHN1Y2Nlc3MgPT4gYmFjaygpID09IHZhbHVlLCAiYmFjayBzZXQgdG8gdmFsdWUiOwogICAgYXNzZXJ0IHN1Y2Nlc3MgPT4gdG9fbWF0aGludChsZW5ndGgoKSkgPT0gbGVuZ3RoQmVmb3JlICsgMSwgInF1ZXVlIGluY3JlYXNlZCI7Cn0KCi8qCuKUjOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUkArilIIgUnVsZTogcHVzaEJhY2sgcHJlc2VydmVzIHRoZSBwcmV2aW91cyB2YWx1ZXMgaW4gdGhlIHF1ZXVlICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICDilIIK4pSU4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSYCiovCnJ1bGUgcHVzaEJhY2tDb25zaXN0ZW5jeSh1aW50MjU2IGluZGV4KSB7CiAgICBieXRlczMyIGJlZm9yZUF0ID0gYXRfKGluZGV4KTsKCiAgICBieXRlczMyIHZhbHVlOwogICAgcHVzaEJhY2sodmFsdWUpOwoKICAgIC8vIHRyeSB0byByZWFkIHZhbHVlCiAgICBieXRlczMyIGFmdGVyQXQgPSBhdF9Ad2l0aHJldmVydChpbmRleCk7CgogICAgYXNzZXJ0ICFsYXN0UmV2ZXJ0ZWQsICJ2YWx1ZSBzdGlsbCB0aGVyZSI7CiAgICBhc3NlcnQgYWZ0ZXJBdCA9PSBiZWZvcmVBdCwgImRhdGEgaXMgcHJlc2VydmVkIjsKfQoKLyoK4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQCuKUgiBGdW5jdGlvbiBjb3JyZWN0bmVzczogcG9wRnJvbnQgcmVtb3ZlcyBhbiBlbGVtZW50IGZyb20gdGhlIGJlZ2lubmluZyBvZiB0aGUgcXVldWUgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIOKUggrilJTilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJgKKi8KcnVsZSBwb3BGcm9udCB7CiAgICB1aW50MjU2IGxlbmd0aEJlZm9yZSA9IGxlbmd0aCgpOwogICAgYnl0ZXMzMiBmcm9udEJlZm9yZSA9IGZyb250QHdpdGhyZXZlcnQoKTsKCiAgICBieXRlczMyIHBvcHBlZCA9IHBvcEZyb250QHdpdGhyZXZlcnQoKTsKICAgIGJvb2wgc3VjY2VzcyA9ICFsYXN0UmV2ZXJ0ZWQ7CgogICAgLy8gbGl2ZW5lc3MKICAgIGFzc2VydCBzdWNjZXNzIDw9PiBsZW5ndGhCZWZvcmUgIT0gMCwgIm5ldmVyIHJldmVydHMgaWYgbm90IHByZXZpb3VzbHkgZW1wdHkiOwoKICAgIC8vIGVmZmVjdAogICAgYXNzZXJ0IHN1Y2Nlc3MgPT4gZnJvbnRCZWZvcmUgPT0gcG9wcGVkLCAicHJldmlvdXMgZnJvbnQgaXMgcmV0dXJuZWQiOwogICAgYXNzZXJ0IHN1Y2Nlc3MgPT4gdG9fbWF0aGludChsZW5ndGgoKSkgPT0gbGVuZ3RoQmVmb3JlIC0gMSwgInF1ZXVlIGRlY3JlYXNlZCI7Cn0KCi8qCuKUjOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUkArilIIgUnVsZTogYXQoeCkgaXMgcHJlc2VydmVkIGFuZCBvZmZzZXQgdG8gYXQoeCAtIDEpIGFmdGVyIGNhbGxpbmcgcG9wRnJvbnQgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CuKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmAoqLwpydWxlIHBvcEZyb250Q29uc2lzdGVuY3kodWludDI1NiBpbmRleCkgewogICAgLy8gUmVhZCAoYW55KSB2YWx1ZSB0aGF0IGlzIG5vdCB0aGUgZnJvbnQgKHRoaXMgYXNzZXJ0cyB0aGUgdmFsdWUgZXhpc3RzIC8gdGhlIHF1ZXVlIGlzIGxvbmcgZW5vdWdoKQogICAgcmVxdWlyZSBpbmRleCA+IDE7CiAgICBieXRlczMyIGJlZm9yZSA9IGF0XyhpbmRleCk7CgogICAgcG9wRnJvbnQoKTsKCiAgICAvLyB0cnkgdG8gcmVhZCB2YWx1ZQogICAgYnl0ZXMzMiBhZnRlciA9IGF0X0B3aXRocmV2ZXJ0KHJlcXVpcmVfdWludDI1NihpbmRleCAtIDEpKTsKCiAgICBhc3NlcnQgIWxhc3RSZXZlcnRlZCwgInZhbHVlIHN0aWxsIGV4aXN0cyBpbiB0aGUgcXVldWUiOwogICAgYXNzZXJ0IGJlZm9yZSA9PSBhZnRlciwgInZhbHVlcyBhcmUgb2Zmc2V0IGFuZCBub3QgbW9kaWZpZWQiOwp9CgovKgrilIzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJAK4pSCIEZ1bmN0aW9uIGNvcnJlY3RuZXNzOiBwb3BCYWNrIHJlbW92ZXMgYW4gZWxlbWVudCBmcm9tIHRoZSBlbmQgb2YgdGhlIHF1ZXVlICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg4pSCCuKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmAoqLwpydWxlIHBvcEJhY2sgewogICAgdWludDI1NiBsZW5ndGhCZWZvcmUgPSBsZW5ndGgoKTsKICAgIGJ5dGVzMzIgYmFja0JlZm9yZSA9IGJhY2tAd2l0aHJldmVydCgpOwoKICAgIGJ5dGVzMzIgcG9wcGVkID0gcG9wQmFja0B3aXRocmV2ZXJ0KCk7CiAgICBib29sIHN1Y2Nlc3MgPSAhbGFzdFJldmVydGVkOwoKICAgIC8vIGxpdmVuZXNzCiAgICBhc3NlcnQgc3VjY2VzcyA8PT4gbGVuZ3RoQmVmb3JlICE9IDAsICJuZXZlciByZXZlcnRzIGlmIG5vdCBwcmV2aW91c2x5IGVtcHR5IjsKCiAgICAvLyBlZmZlY3QKICAgIGFzc2VydCBzdWNjZXNzID0+IGJhY2tCZWZvcmUgPT0gcG9wcGVkLCAicHJldmlvdXMgYmFjayBpcyByZXR1cm5lZCI7CiAgICBhc3NlcnQgc3VjY2VzcyA9PiB0b19tYXRoaW50KGxlbmd0aCgpKSA9PSBsZW5ndGhCZWZvcmUgLSAxLCAicXVldWUgZGVjcmVhc2VkIjsKfQoKLyoK4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQCuKUgiBSdWxlOiBhdCh4KSBpcyBwcmVzZXJ2ZWQgYWZ0ZXIgY2FsbGluZyBwb3BCYWNrICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfArilJTilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJgKKi8KcnVsZSBwb3BCYWNrQ29uc2lzdGVuY3kodWludDI1NiBpbmRleCkgewogICAgLy8gUmVhZCAoYW55KSB2YWx1ZSB0aGF0IGlzIG5vdCB0aGUgYmFjayAodGhpcyBhc3NlcnRzIHRoZSB2YWx1ZSBleGlzdHMgLyB0aGUgcXVldWUgaXMgbG9uZyBlbm91Z2gpCiAgICByZXF1aXJlIHRvX21hdGhpbnQoaW5kZXgpIDwgbGVuZ3RoKCkgLSAxOwogICAgYnl0ZXMzMiBiZWZvcmUgPSBhdF8oaW5kZXgpOwoKICAgIHBvcEJhY2soKTsKCiAgICAvLyB0cnkgdG8gcmVhZCB2YWx1ZQogICAgYnl0ZXMzMiBhZnRlciA9IGF0X0B3aXRocmV2ZXJ0KGluZGV4KTsKCiAgICBhc3NlcnQgIWxhc3RSZXZlcnRlZCwgInZhbHVlIHN0aWxsIGV4aXN0cyBpbiB0aGUgcXVldWUiOwogICAgYXNzZXJ0IGJlZm9yZSA9PSBhZnRlciwgInZhbHVlcyBhcmUgb2Zmc2V0IGFuZCBub3QgbW9kaWZpZWQiOwp9CgovKgrilIzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJAK4pSCIEZ1bmN0aW9uIGNvcnJlY3RuZXNzOiBjbGVhciBzZXRzIGxlbmd0aCB0byAwICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg4pSCCuKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmAoqLwpydWxlIGNsZWFyIHsKICAgIGNsZWFyQHdpdGhyZXZlcnQoKTsKCiAgICAvLyBsaXZlbmVzcwogICAgYXNzZXJ0ICFsYXN0UmV2ZXJ0ZWQsICJuZXZlciByZXZlcnRzIjsKCiAgICAvLyBlZmZlY3QKICAgIGFzc2VydCBsZW5ndGgoKSA9PSAwLCAic2V0cyBsZW5ndGggdG8gMCI7Cn0KCi8qCuKUjOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUkArilIIgUnVsZTogZnJvbnQvYmFjayBhY2Nlc3MgcmV2ZXJ0cyBvbmx5IGlmIHRoZSBxdWV1ZSBpcyBlbXB0eSBvciBxdWVyeWluZyBvdXQgb2YgYm91bmRzICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICDilIIK4pSU4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSYCiovCnJ1bGUgb25seUVtcHR5T3JGdWxsUmV2ZXJ0KGVudiBlKSB7CiAgICByZXF1aXJlIG5vbnBheWFibGUoZSk7CgogICAgbWV0aG9kIGY7CiAgICBjYWxsZGF0YWFyZyBhcmdzOwoKICAgIGJvb2wgZW1wdHlCZWZvcmUgPSBlbXB0eSgpOwogICAgYm9vbCBmdWxsQmVmb3JlID0gZnVsbCgpOwoKICAgIGZAd2l0aHJldmVydChlLCBhcmdzKTsKCiAgICBhc3NlcnQgbGFzdFJldmVydGVkID0+ICgKICAgICAgICAoZi5zZWxlY3RvciA9PSBzaWc6ZnJvbnQoKS5zZWxlY3RvciAgICAgICAgICAgICYmIGVtcHR5QmVmb3JlKSB8fAogICAgICAgIChmLnNlbGVjdG9yID09IHNpZzpiYWNrKCkuc2VsZWN0b3IgICAgICAgICAgICAgJiYgZW1wdHlCZWZvcmUpIHx8CiAgICAgICAgKGYuc2VsZWN0b3IgPT0gc2lnOnBvcEZyb250KCkuc2VsZWN0b3IgICAgICAgICAmJiBlbXB0eUJlZm9yZSkgfHwKICAgICAgICAoZi5zZWxlY3RvciA9PSBzaWc6cG9wQmFjaygpLnNlbGVjdG9yICAgICAgICAgICYmIGVtcHR5QmVmb3JlKSB8fAogICAgICAgIChmLnNlbGVjdG9yID09IHNpZzpwdXNoRnJvbnQoYnl0ZXMzMikuc2VsZWN0b3IgJiYgZnVsbEJlZm9yZSApIHx8CiAgICAgICAgKGYuc2VsZWN0b3IgPT0gc2lnOnB1c2hCYWNrKGJ5dGVzMzIpLnNlbGVjdG9yICAmJiBmdWxsQmVmb3JlICkgfHwKICAgICAgICBmLnNlbGVjdG9yID09IHNpZzphdF8odWludDI1Nikuc2VsZWN0b3IgLy8gcmV2ZXJ0IGNvbmRpdGlvbnMgYXJlIHZlcmlmaWVkIGluIG9ubHlPdXRPZkJvdW5kc1JldmVydAogICAgKSwgIm9ubHkgcmV2ZXJ0IGlmIGVtcHR5IG9yIG91dCBvZiBib3VuZHMiOwp9CgovKgrilIzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJAK4pSCIFJ1bGU6IGF0KGluZGV4KSBvbmx5IHJldmVydHMgaWYgaW5kZXggaXMgb3V0IG9mIGJvdW5kcyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwK4pSU4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSYCiovCnJ1bGUgb25seU91dE9mQm91bmRzUmV2ZXJ0KHVpbnQyNTYgaW5kZXgpIHsKICAgIGF0X0B3aXRocmV2ZXJ0KGluZGV4KTsKCiAgICBhc3NlcnQgbGFzdFJldmVydGVkIDw9PiBpbmRleCA+PSBsZW5ndGgoKSwgIm9ubHkgcmV2ZXJ0cyBpZiBpbmRleCBpcyBvdXQgb2YgYm91bmRzIjsKfQoKLyoK4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQCuKUgiBSdWxlOiBvbmx5IGNsZWFyL3B1c2gvcG9wIG9wZXJhdGlvbnMgY2FuIGNoYW5nZSB0aGUgbGVuZ3RoIG9mIHRoZSBxdWV1ZSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIOKUggrilJTilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJgKKi8KcnVsZSBub0xlbmd0aENoYW5nZShlbnYgZSkgewogICAgbWV0aG9kIGY7CiAgICBjYWxsZGF0YWFyZyBhcmdzOwoKICAgIHVpbnQyNTYgbGVuZ3RoQmVmb3JlID0gbGVuZ3RoKCk7CiAgICBmKGUsIGFyZ3MpOwogICAgdWludDI1NiBsZW5ndGhBZnRlciA9IGxlbmd0aCgpOwoKICAgIGFzc2VydCBsZW5ndGhBZnRlciAhPSBsZW5ndGhCZWZvcmUgPT4gKAogICAgICAgIChmLnNlbGVjdG9yID09IHNpZzpwdXNoRnJvbnQoYnl0ZXMzMikuc2VsZWN0b3IgJiYgdG9fbWF0aGludChsZW5ndGhBZnRlcikgPT0gbGVuZ3RoQmVmb3JlICsgMSkgfHwKICAgICAgICAoZi5zZWxlY3RvciA9PSBzaWc6cHVzaEJhY2soYnl0ZXMzMikuc2VsZWN0b3IgICYmIHRvX21hdGhpbnQobGVuZ3RoQWZ0ZXIpID09IGxlbmd0aEJlZm9yZSArIDEpIHx8CiAgICAgICAgKGYuc2VsZWN0b3IgPT0gc2lnOnBvcEJhY2soKS5zZWxlY3RvciAgICAgICAgICAmJiB0b19tYXRoaW50KGxlbmd0aEFmdGVyKSA9PSBsZW5ndGhCZWZvcmUgLSAxKSB8fAogICAgICAgIChmLnNlbGVjdG9yID09IHNpZzpwb3BGcm9udCgpLnNlbGVjdG9yICAgICAgICAgJiYgdG9fbWF0aGludChsZW5ndGhBZnRlcikgPT0gbGVuZ3RoQmVmb3JlIC0gMSkgfHwKICAgICAgICAoZi5zZWxlY3RvciA9PSBzaWc6Y2xlYXIoKS5zZWxlY3RvciAgICAgICAgICAgICYmIGxlbmd0aEFmdGVyID09IDApCiAgICApLCAibGVuZ3RoIGlzIG9ubHkgYWZmZWN0ZWQgYnkgY2xlYXIvcG9wL3B1c2ggb3BlcmF0aW9ucyI7Cn0KCi8qCuKUjOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUkArilIIgUnVsZTogb25seSBwdXNoL3BvcCBjYW4gY2hhbmdlIHZhbHVlcyBib3VuZGVkIGluIHRoZSBxdWV1ZSAob3V0c2lkZSB2YWx1ZXMgYXJlbid0IGNsZWFyZWQpICAgICAgICAgICAgICAgICAgICAgICAgICDilIIK4pSU4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSYCiovCnJ1bGUgbm9EYXRhQ2hhbmdlKGVudiBlKSB7CiAgICBtZXRob2QgZjsKICAgIGNhbGxkYXRhYXJnIGFyZ3M7CgogICAgdWludDI1NiBpbmRleDsKICAgIGJ5dGVzMzIgYXRCZWZvcmUgPSBhdF8oaW5kZXgpOwogICAgZihlLCBhcmdzKTsKICAgIGJ5dGVzMzIgYXRBZnRlciA9IGF0X0B3aXRocmV2ZXJ0KGluZGV4KTsKICAgIGJvb2wgYXRBZnRlclN1Y2Nlc3MgPSAhbGFzdFJldmVydGVkOwoKICAgIGFzc2VydCAhYXRBZnRlclN1Y2Nlc3MgPD0+ICgKICAgICAgICAoZi5zZWxlY3RvciA9PSBzaWc6Y2xlYXIoKS5zZWxlY3RvciAgICAgICAgICAgICAgICAgICAgICAgICkgfHwKICAgICAgICAoZi5zZWxlY3RvciA9PSBzaWc6cG9wQmFjaygpLnNlbGVjdG9yICAmJiBpbmRleCA9PSBsZW5ndGgoKSkgfHwKICAgICAgICAoZi5zZWxlY3RvciA9PSBzaWc6cG9wRnJvbnQoKS5zZWxlY3RvciAmJiBpbmRleCA9PSBsZW5ndGgoKSkKICAgICksICJpbmRleGVzIG9mIHRoZSBxdWV1ZSBhcmUgb25seSByZW1vdmVkIGJ5IGNsZWFyIG9yIHBvcCI7CgogICAgYXNzZXJ0IGF0QWZ0ZXJTdWNjZXNzICYmIGF0QWZ0ZXIgIT0gYXRCZWZvcmUgPT4gKAogICAgICAgIGYuc2VsZWN0b3IgPT0gc2lnOnBvcEZyb250KCkuc2VsZWN0b3IgfHwKICAgICAgICBmLnNlbGVjdG9yID09IHNpZzpwdXNoRnJvbnQoYnl0ZXMzMikuc2VsZWN0b3IKICAgICksICJ2YWx1ZXMgb2YgdGhlIHF1ZXVlIGFyZSBvbmx5IGNoYW5nZWQgYnkgcG9wRnJvbnQgb3IgcHVzaEZyb250IjsKfQo=
+import "helpers/helpers.spec";
+
+methods {
+    function pushFront(bytes32) external                   envfree;
+    function pushBack(bytes32)                    external envfree;
+    function popFront()         external returns (bytes32) envfree;
+    function popBack()          external returns (bytes32) envfree;
+    function clear()            external                   envfree;
+
+    // exposed for FV
+    function begin()            external returns (uint128) envfree;
+    function end()              external returns (uint128) envfree;
+
+    // view
+    function length()           external returns (uint256) envfree;
+    function empty()            external returns (bool)    envfree;
+    function front()            external returns (bytes32) envfree;
+    function back()             external returns (bytes32) envfree;
+    function at_(uint256)       external returns (bytes32) envfree; // at is a reserved word
+}
+
+definition full() returns bool = length() == max_uint128;
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Invariant: empty() is length 0 and no element exists                                                                │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+invariant emptiness()
+    empty() <=> length() == 0
+    filtered { f -> !f.isView }
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Invariant: front points to the first index and back points to the last one                                          │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+invariant queueFront()
+    at_(0) == front()
+    filtered { f -> !f.isView }
+
+invariant queueBack()
+    at_(require_uint256(length() - 1)) == back()
+    filtered { f -> !f.isView }
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Function correctness: pushFront adds an element at the beginning of the queue                                       │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+rule pushFront(bytes32 value) {
+    uint256 lengthBefore = length();
+    bool    fullBefore   = full();
+
+    pushFront@withrevert(value);
+    bool success = !lastReverted;
+
+    // liveness
+    assert success <=> !fullBefore, "never revert if not previously full";
+
+    // effect
+    assert success => front() == value, "front set to value";
+    assert success => to_mathint(length()) == lengthBefore + 1, "queue extended";
+}
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Rule: pushFront preserves the previous values in the queue with a +1 offset                                         │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+rule pushFrontConsistency(uint256 index) {
+    bytes32 beforeAt = at_(index);
+
+    bytes32 value;
+    pushFront(value);
+
+    // try to read value
+    bytes32 afterAt = at_@withrevert(require_uint256(index + 1));
+
+    assert !lastReverted, "value still there";
+    assert afterAt == beforeAt, "data is preserved";
+}
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Function correctness: pushBack adds an element at the end of the queue                                              │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+rule pushBack(bytes32 value) {
+    uint256 lengthBefore = length();
+    bool    fullBefore   = full();
+
+    pushBack@withrevert(value);
+    bool success = !lastReverted;
+
+    // liveness
+    assert success <=> !fullBefore, "never revert if not previously full";
+
+    // effect
+    assert success => back() == value, "back set to value";
+    assert success => to_mathint(length()) == lengthBefore + 1, "queue increased";
+}
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Rule: pushBack preserves the previous values in the queue                                                           │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+rule pushBackConsistency(uint256 index) {
+    bytes32 beforeAt = at_(index);
+
+    bytes32 value;
+    pushBack(value);
+
+    // try to read value
+    bytes32 afterAt = at_@withrevert(index);
+
+    assert !lastReverted, "value still there";
+    assert afterAt == beforeAt, "data is preserved";
+}
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Function correctness: popFront removes an element from the beginning of the queue                                   │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+rule popFront {
+    uint256 lengthBefore = length();
+    bytes32 frontBefore = front@withrevert();
+
+    bytes32 popped = popFront@withrevert();
+    bool success = !lastReverted;
+
+    // liveness
+    assert success <=> lengthBefore != 0, "never reverts if not previously empty";
+
+    // effect
+    assert success => frontBefore == popped, "previous front is returned";
+    assert success => to_mathint(length()) == lengthBefore - 1, "queue decreased";
+}
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Rule: at(x) is preserved and offset to at(x - 1) after calling popFront                                             |
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+rule popFrontConsistency(uint256 index) {
+    // Read (any) value that is not the front (this asserts the value exists / the queue is long enough)
+    require index > 1;
+    bytes32 before = at_(index);
+
+    popFront();
+
+    // try to read value
+    bytes32 after = at_@withrevert(require_uint256(index - 1));
+
+    assert !lastReverted, "value still exists in the queue";
+    assert before == after, "values are offset and not modified";
+}
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Function correctness: popBack removes an element from the end of the queue                                          │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+rule popBack {
+    uint256 lengthBefore = length();
+    bytes32 backBefore = back@withrevert();
+
+    bytes32 popped = popBack@withrevert();
+    bool success = !lastReverted;
+
+    // liveness
+    assert success <=> lengthBefore != 0, "never reverts if not previously empty";
+
+    // effect
+    assert success => backBefore == popped, "previous back is returned";
+    assert success => to_mathint(length()) == lengthBefore - 1, "queue decreased";
+}
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Rule: at(x) is preserved after calling popBack                                                                     |
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+rule popBackConsistency(uint256 index) {
+    // Read (any) value that is not the back (this asserts the value exists / the queue is long enough)
+    require to_mathint(index) < length() - 1;
+    bytes32 before = at_(index);
+
+    popBack();
+
+    // try to read value
+    bytes32 after = at_@withrevert(index);
+
+    assert !lastReverted, "value still exists in the queue";
+    assert before == after, "values are offset and not modified";
+}
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Function correctness: clear sets length to 0                                                                        │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+rule clear {
+    clear@withrevert();
+
+    // liveness
+    assert !lastReverted, "never reverts";
+
+    // effect
+    assert length() == 0, "sets length to 0";
+}
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Rule: front/back access reverts only if the queue is empty or querying out of bounds                                │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+rule onlyEmptyOrFullRevert(env e) {
+    require nonpayable(e);
+
+    method f;
+    calldataarg args;
+
+    bool emptyBefore = empty();
+    bool fullBefore = full();
+
+    f@withrevert(e, args);
+
+    assert lastReverted => (
+        (f.selector == sig:front().selector            && emptyBefore) ||
+        (f.selector == sig:back().selector             && emptyBefore) ||
+        (f.selector == sig:popFront().selector         && emptyBefore) ||
+        (f.selector == sig:popBack().selector          && emptyBefore) ||
+        (f.selector == sig:pushFront(bytes32).selector && fullBefore ) ||
+        (f.selector == sig:pushBack(bytes32).selector  && fullBefore ) ||
+        f.selector == sig:at_(uint256).selector // revert conditions are verified in onlyOutOfBoundsRevert
+    ), "only revert if empty or out of bounds";
+}
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Rule: at(index) only reverts if index is out of bounds                                                                  |
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+rule onlyOutOfBoundsRevert(uint256 index) {
+    at_@withrevert(index);
+
+    assert lastReverted <=> index >= length(), "only reverts if index is out of bounds";
+}
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Rule: only clear/push/pop operations can change the length of the queue                                             │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+rule noLengthChange(env e) {
+    method f;
+    calldataarg args;
+
+    uint256 lengthBefore = length();
+    f(e, args);
+    uint256 lengthAfter = length();
+
+    assert lengthAfter != lengthBefore => (
+        (f.selector == sig:pushFront(bytes32).selector && to_mathint(lengthAfter) == lengthBefore + 1) ||
+        (f.selector == sig:pushBack(bytes32).selector  && to_mathint(lengthAfter) == lengthBefore + 1) ||
+        (f.selector == sig:popBack().selector          && to_mathint(lengthAfter) == lengthBefore - 1) ||
+        (f.selector == sig:popFront().selector         && to_mathint(lengthAfter) == lengthBefore - 1) ||
+        (f.selector == sig:clear().selector            && lengthAfter == 0)
+    ), "length is only affected by clear/pop/push operations";
+}
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Rule: only push/pop can change values bounded in the queue (outside values aren't cleared)                          │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+rule noDataChange(env e) {
+    method f;
+    calldataarg args;
+
+    uint256 index;
+    bytes32 atBefore = at_(index);
+    f(e, args);
+    bytes32 atAfter = at_@withrevert(index);
+    bool atAfterSuccess = !lastReverted;
+
+    assert !atAfterSuccess <=> (
+        (f.selector == sig:clear().selector                        ) ||
+        (f.selector == sig:popBack().selector  && index == length()) ||
+        (f.selector == sig:popFront().selector && index == length())
+    ), "indexes of the queue are only removed by clear or pop";
+
+    assert atAfterSuccess && atAfter != atBefore => (
+        f.selector == sig:popFront().selector ||
+        f.selector == sig:pushFront(bytes32).selector
+    ), "values of the queue are only changed by popFront or pushFront";
+}
