@@ -1,1 +1,26 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAoaW50ZXJmYWNlcy9JRVJDMTM2M1NwZW5kZXIuc29sKQoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgovKioKICogQHRpdGxlIElFUkMxMzYzU3BlbmRlcgogKiBAZGV2IEludGVyZmFjZSBmb3IgYW55IGNvbnRyYWN0IHRoYXQgd2FudHMgdG8gc3VwcG9ydCBgYXBwcm92ZUFuZENhbGxgCiAqIGZyb20gRVJDLTEzNjMgdG9rZW4gY29udHJhY3RzLgogKi8KaW50ZXJmYWNlIElFUkMxMzYzU3BlbmRlciB7CiAgICAvKioKICAgICAqIEBkZXYgV2hlbmV2ZXIgYW4gRVJDLTEzNjMgdG9rZW4gYG93bmVyYCBhcHByb3ZlcyB0aGlzIGNvbnRyYWN0IHZpYSBgYXBwcm92ZUFuZENhbGxgCiAgICAgKiB0byBzcGVuZCB0aGVpciB0b2tlbnMsIHRoaXMgZnVuY3Rpb24gaXMgY2FsbGVkLgogICAgICoKICAgICAqIE5PVEU6IFRvIGFjY2VwdCB0aGUgYXBwcm92YWwsIHRoaXMgbXVzdCByZXR1cm4KICAgICAqIGBieXRlczQoa2VjY2FrMjU2KCJvbkFwcHJvdmFsUmVjZWl2ZWQoYWRkcmVzcyx1aW50MjU2LGJ5dGVzKSIpKWAKICAgICAqIChpLmUuIDB4N2IwNGEyZDAsIG9yIGl0cyBvd24gZnVuY3Rpb24gc2VsZWN0b3IpLgogICAgICoKICAgICAqIEBwYXJhbSBvd25lciBUaGUgYWRkcmVzcyB3aGljaCBjYWxsZWQgYGFwcHJvdmVBbmRDYWxsYCBmdW5jdGlvbiBhbmQgcHJldmlvdXNseSBvd25lZCB0aGUgdG9rZW5zLgogICAgICogQHBhcmFtIHZhbHVlIFRoZSBhbW91bnQgb2YgdG9rZW5zIHRvIGJlIHNwZW50LgogICAgICogQHBhcmFtIGRhdGEgQWRkaXRpb25hbCBkYXRhIHdpdGggbm8gc3BlY2lmaWVkIGZvcm1hdC4KICAgICAqIEByZXR1cm4gYGJ5dGVzNChrZWNjYWsyNTYoIm9uQXBwcm92YWxSZWNlaXZlZChhZGRyZXNzLHVpbnQyNTYsYnl0ZXMpIikpYCBpZiBhcHByb3ZhbCBpcyBhbGxvd2VkIHVubGVzcyB0aHJvd2luZy4KICAgICAqLwogICAgZnVuY3Rpb24gb25BcHByb3ZhbFJlY2VpdmVkKGFkZHJlc3Mgb3duZXIsIHVpbnQyNTYgdmFsdWUsIGJ5dGVzIGNhbGxkYXRhIGRhdGEpIGV4dGVybmFsIHJldHVybnMgKGJ5dGVzNCk7Cn0K
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (interfaces/IERC1363Spender.sol)
+
+pragma solidity ^0.8.20;
+
+/**
+ * @title IERC1363Spender
+ * @dev Interface for any contract that wants to support `approveAndCall`
+ * from ERC-1363 token contracts.
+ */
+interface IERC1363Spender {
+    /**
+     * @dev Whenever an ERC-1363 token `owner` approves this contract via `approveAndCall`
+     * to spend their tokens, this function is called.
+     *
+     * NOTE: To accept the approval, this must return
+     * `bytes4(keccak256("onApprovalReceived(address,uint256,bytes)"))`
+     * (i.e. 0x7b04a2d0, or its own function selector).
+     *
+     * @param owner The address which called `approveAndCall` function and previously owned the tokens.
+     * @param value The amount of tokens to be spent.
+     * @param data Additional data with no specified format.
+     * @return `bytes4(keccak256("onApprovalReceived(address,uint256,bytes)"))` if approval is allowed unless throwing.
+     */
+    function onApprovalReceived(address owner, uint256 value, bytes calldata data) external returns (bytes4);
+}
