@@ -1,1 +1,49 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0luaXRpYWxpemFibGV9IGZyb20gIi4uL3Byb3h5L3V0aWxzL0luaXRpYWxpemFibGUuc29sIjsKCi8qKgogKiBAdGl0bGUgTWlncmF0YWJsZU1vY2tWMQogKiBAZGV2IFRoaXMgY29udHJhY3QgaXMgYSBtb2NrIHRvIHRlc3QgaW5pdGlhbGl6YWJsZSBmdW5jdGlvbmFsaXR5IHRocm91Z2ggbWlncmF0aW9ucwogKi8KY29udHJhY3QgTWlncmF0YWJsZU1vY2tWMSBpcyBJbml0aWFsaXphYmxlIHsKICAgIHVpbnQyNTYgcHVibGljIHg7CgogICAgZnVuY3Rpb24gaW5pdGlhbGl6ZSh1aW50MjU2IHZhbHVlKSBwdWJsaWMgcGF5YWJsZSBpbml0aWFsaXplciB7CiAgICAgICAgeCA9IHZhbHVlOwogICAgfQp9CgovKioKICogQHRpdGxlIE1pZ3JhdGFibGVNb2NrVjIKICogQGRldiBUaGlzIGNvbnRyYWN0IGlzIGEgbW9jayB0byB0ZXN0IG1pZ3JhdGFibGUgZnVuY3Rpb25hbGl0eSB3aXRoIHBhcmFtcwogKi8KY29udHJhY3QgTWlncmF0YWJsZU1vY2tWMiBpcyBNaWdyYXRhYmxlTW9ja1YxIHsKICAgIGJvb2wgaW50ZXJuYWwgX21pZ3JhdGVkVjI7CiAgICB1aW50MjU2IHB1YmxpYyB5OwoKICAgIGZ1bmN0aW9uIG1pZ3JhdGUodWludDI1NiB2YWx1ZSwgdWludDI1NiBhbm90aGVyVmFsdWUpIHB1YmxpYyBwYXlhYmxlIHsKICAgICAgICByZXF1aXJlKCFfbWlncmF0ZWRWMik7CiAgICAgICAgeCA9IHZhbHVlOwogICAgICAgIHkgPSBhbm90aGVyVmFsdWU7CiAgICAgICAgX21pZ3JhdGVkVjIgPSB0cnVlOwogICAgfQp9CgovKioKICogQHRpdGxlIE1pZ3JhdGFibGVNb2NrVjMKICogQGRldiBUaGlzIGNvbnRyYWN0IGlzIGEgbW9jayB0byB0ZXN0IG1pZ3JhdGFibGUgZnVuY3Rpb25hbGl0eSB3aXRob3V0IHBhcmFtcwogKi8KY29udHJhY3QgTWlncmF0YWJsZU1vY2tWMyBpcyBNaWdyYXRhYmxlTW9ja1YyIHsKICAgIGJvb2wgaW50ZXJuYWwgX21pZ3JhdGVkVjM7CgogICAgZnVuY3Rpb24gbWlncmF0ZSgpIHB1YmxpYyBwYXlhYmxlIHsKICAgICAgICByZXF1aXJlKCFfbWlncmF0ZWRWMyk7CiAgICAgICAgdWludDI1NiBvbGRYID0geDsKICAgICAgICB4ID0geTsKICAgICAgICB5ID0gb2xkWDsKICAgICAgICBfbWlncmF0ZWRWMyA9IHRydWU7CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {Initializable} from "../proxy/utils/Initializable.sol";
+
+/**
+ * @title MigratableMockV1
+ * @dev This contract is a mock to test initializable functionality through migrations
+ */
+contract MigratableMockV1 is Initializable {
+    uint256 public x;
+
+    function initialize(uint256 value) public payable initializer {
+        x = value;
+    }
+}
+
+/**
+ * @title MigratableMockV2
+ * @dev This contract is a mock to test migratable functionality with params
+ */
+contract MigratableMockV2 is MigratableMockV1 {
+    bool internal _migratedV2;
+    uint256 public y;
+
+    function migrate(uint256 value, uint256 anotherValue) public payable {
+        require(!_migratedV2);
+        x = value;
+        y = anotherValue;
+        _migratedV2 = true;
+    }
+}
+
+/**
+ * @title MigratableMockV3
+ * @dev This contract is a mock to test migratable functionality without params
+ */
+contract MigratableMockV3 is MigratableMockV2 {
+    bool internal _migratedV3;
+
+    function migrate() public payable {
+        require(!_migratedV3);
+        uint256 oldX = x;
+        x = y;
+        y = oldX;
+        _migratedV3 = true;
+    }
+}
