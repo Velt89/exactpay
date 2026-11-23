@@ -1,1 +1,34 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0VSQzIwUGVybWl0fSBmcm9tICIuLi9wYXRjaGVkL3Rva2VuL0VSQzIwL2V4dGVuc2lvbnMvRVJDMjBQZXJtaXQuc29sIjsKaW1wb3J0IHtFUkMyMFdyYXBwZXIsIElFUkMyMCwgRVJDMjB9IGZyb20gIi4uL3BhdGNoZWQvdG9rZW4vRVJDMjAvZXh0ZW5zaW9ucy9FUkMyMFdyYXBwZXIuc29sIjsKCmNvbnRyYWN0IEVSQzIwV3JhcHBlckhhcm5lc3MgaXMgRVJDMjBQZXJtaXQsIEVSQzIwV3JhcHBlciB7CiAgICBjb25zdHJ1Y3RvcigKICAgICAgICBJRVJDMjAgX3VuZGVybHlpbmcsCiAgICAgICAgc3RyaW5nIG1lbW9yeSBfbmFtZSwKICAgICAgICBzdHJpbmcgbWVtb3J5IF9zeW1ib2wKICAgICkgRVJDMjAoX25hbWUsIF9zeW1ib2wpIEVSQzIwUGVybWl0KF9uYW1lKSBFUkMyMFdyYXBwZXIoX3VuZGVybHlpbmcpIHt9CgogICAgZnVuY3Rpb24gdW5kZXJseWluZ1RvdGFsU3VwcGx5KCkgcHVibGljIHZpZXcgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHJldHVybiB1bmRlcmx5aW5nKCkudG90YWxTdXBwbHkoKTsKICAgIH0KCiAgICBmdW5jdGlvbiB1bmRlcmx5aW5nQmFsYW5jZU9mKGFkZHJlc3MgYWNjb3VudCkgcHVibGljIHZpZXcgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHJldHVybiB1bmRlcmx5aW5nKCkuYmFsYW5jZU9mKGFjY291bnQpOwogICAgfQoKICAgIGZ1bmN0aW9uIHVuZGVybHlpbmdBbGxvd2FuY2VUb1RoaXMoYWRkcmVzcyBhY2NvdW50KSBwdWJsaWMgdmlldyByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgcmV0dXJuIHVuZGVybHlpbmcoKS5hbGxvd2FuY2UoYWNjb3VudCwgYWRkcmVzcyh0aGlzKSk7CiAgICB9CgogICAgZnVuY3Rpb24gcmVjb3ZlcihhZGRyZXNzIGFjY291bnQpIHB1YmxpYyByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgcmV0dXJuIF9yZWNvdmVyKGFjY291bnQpOwogICAgfQoKICAgIGZ1bmN0aW9uIGRlY2ltYWxzKCkgcHVibGljIHZpZXcgb3ZlcnJpZGUoRVJDMjBXcmFwcGVyLCBFUkMyMCkgcmV0dXJucyAodWludDgpIHsKICAgICAgICByZXR1cm4gc3VwZXIuZGVjaW1hbHMoKTsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {ERC20Permit} from "../patched/token/ERC20/extensions/ERC20Permit.sol";
+import {ERC20Wrapper, IERC20, ERC20} from "../patched/token/ERC20/extensions/ERC20Wrapper.sol";
+
+contract ERC20WrapperHarness is ERC20Permit, ERC20Wrapper {
+    constructor(
+        IERC20 _underlying,
+        string memory _name,
+        string memory _symbol
+    ) ERC20(_name, _symbol) ERC20Permit(_name) ERC20Wrapper(_underlying) {}
+
+    function underlyingTotalSupply() public view returns (uint256) {
+        return underlying().totalSupply();
+    }
+
+    function underlyingBalanceOf(address account) public view returns (uint256) {
+        return underlying().balanceOf(account);
+    }
+
+    function underlyingAllowanceToThis(address account) public view returns (uint256) {
+        return underlying().allowance(account, address(this));
+    }
+
+    function recover(address account) public returns (uint256) {
+        return _recover(account);
+    }
+
+    function decimals() public view override(ERC20Wrapper, ERC20) returns (uint8) {
+        return super.decimals();
+    }
+}
