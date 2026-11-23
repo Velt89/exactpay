@@ -1,1 +1,40 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0VSQzQ2MjZGZWVzfSBmcm9tICIuLi9kb2NzL0VSQzQ2MjZGZWVzLnNvbCI7CgphYnN0cmFjdCBjb250cmFjdCBFUkM0NjI2RmVlc01vY2sgaXMgRVJDNDYyNkZlZXMgewogICAgdWludDI1NiBwcml2YXRlIGltbXV0YWJsZSBfZW50cnlGZWVCYXNpc1BvaW50VmFsdWU7CiAgICBhZGRyZXNzIHByaXZhdGUgaW1tdXRhYmxlIF9lbnRyeUZlZVJlY2lwaWVudFZhbHVlOwogICAgdWludDI1NiBwcml2YXRlIGltbXV0YWJsZSBfZXhpdEZlZUJhc2lzUG9pbnRWYWx1ZTsKICAgIGFkZHJlc3MgcHJpdmF0ZSBpbW11dGFibGUgX2V4aXRGZWVSZWNpcGllbnRWYWx1ZTsKCiAgICBjb25zdHJ1Y3RvcigKICAgICAgICB1aW50MjU2IGVudHJ5RmVlQmFzaXNQb2ludHMsCiAgICAgICAgYWRkcmVzcyBlbnRyeUZlZVJlY2lwaWVudCwKICAgICAgICB1aW50MjU2IGV4aXRGZWVCYXNpc1BvaW50cywKICAgICAgICBhZGRyZXNzIGV4aXRGZWVSZWNpcGllbnQKICAgICkgewogICAgICAgIF9lbnRyeUZlZUJhc2lzUG9pbnRWYWx1ZSA9IGVudHJ5RmVlQmFzaXNQb2ludHM7CiAgICAgICAgX2VudHJ5RmVlUmVjaXBpZW50VmFsdWUgPSBlbnRyeUZlZVJlY2lwaWVudDsKICAgICAgICBfZXhpdEZlZUJhc2lzUG9pbnRWYWx1ZSA9IGV4aXRGZWVCYXNpc1BvaW50czsKICAgICAgICBfZXhpdEZlZVJlY2lwaWVudFZhbHVlID0gZXhpdEZlZVJlY2lwaWVudDsKICAgIH0KCiAgICBmdW5jdGlvbiBfZW50cnlGZWVCYXNpc1BvaW50cygpIGludGVybmFsIHZpZXcgdmlydHVhbCBvdmVycmlkZSByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgcmV0dXJuIF9lbnRyeUZlZUJhc2lzUG9pbnRWYWx1ZTsKICAgIH0KCiAgICBmdW5jdGlvbiBfZW50cnlGZWVSZWNpcGllbnQoKSBpbnRlcm5hbCB2aWV3IHZpcnR1YWwgb3ZlcnJpZGUgcmV0dXJucyAoYWRkcmVzcykgewogICAgICAgIHJldHVybiBfZW50cnlGZWVSZWNpcGllbnRWYWx1ZTsKICAgIH0KCiAgICBmdW5jdGlvbiBfZXhpdEZlZUJhc2lzUG9pbnRzKCkgaW50ZXJuYWwgdmlldyB2aXJ0dWFsIG92ZXJyaWRlIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXR1cm4gX2V4aXRGZWVCYXNpc1BvaW50VmFsdWU7CiAgICB9CgogICAgZnVuY3Rpb24gX2V4aXRGZWVSZWNpcGllbnQoKSBpbnRlcm5hbCB2aWV3IHZpcnR1YWwgb3ZlcnJpZGUgcmV0dXJucyAoYWRkcmVzcykgewogICAgICAgIHJldHVybiBfZXhpdEZlZVJlY2lwaWVudFZhbHVlOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {ERC4626Fees} from "../docs/ERC4626Fees.sol";
+
+abstract contract ERC4626FeesMock is ERC4626Fees {
+    uint256 private immutable _entryFeeBasisPointValue;
+    address private immutable _entryFeeRecipientValue;
+    uint256 private immutable _exitFeeBasisPointValue;
+    address private immutable _exitFeeRecipientValue;
+
+    constructor(
+        uint256 entryFeeBasisPoints,
+        address entryFeeRecipient,
+        uint256 exitFeeBasisPoints,
+        address exitFeeRecipient
+    ) {
+        _entryFeeBasisPointValue = entryFeeBasisPoints;
+        _entryFeeRecipientValue = entryFeeRecipient;
+        _exitFeeBasisPointValue = exitFeeBasisPoints;
+        _exitFeeRecipientValue = exitFeeRecipient;
+    }
+
+    function _entryFeeBasisPoints() internal view virtual override returns (uint256) {
+        return _entryFeeBasisPointValue;
+    }
+
+    function _entryFeeRecipient() internal view virtual override returns (address) {
+        return _entryFeeRecipientValue;
+    }
+
+    function _exitFeeBasisPoints() internal view virtual override returns (uint256) {
+        return _exitFeeBasisPointValue;
+    }
+
+    function _exitFeeRecipient() internal view virtual override returns (address) {
+        return _exitFeeRecipientValue;
+    }
+}
