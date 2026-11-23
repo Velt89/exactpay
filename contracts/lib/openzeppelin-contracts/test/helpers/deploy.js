@@ -1,1 +1,14 @@
-Y29uc3QgeyBhcnRpZmFjdHMsIGV0aGVycyB9ID0gcmVxdWlyZSgnaGFyZGhhdCcpOwpjb25zdCB7IHNldENvZGUgfSA9IHJlcXVpcmUoJ0Bub21pY2ZvdW5kYXRpb24vaGFyZGhhdC1uZXR3b3JrLWhlbHBlcnMnKTsKY29uc3QgeyBnZW5lcmF0b3JzIH0gPSByZXF1aXJlKCcuL3JhbmRvbScpOwoKY29uc3QgZm9yY2VEZXBsb3lDb2RlID0gKG5hbWUsIGFkZHJlc3MgPSBnZW5lcmF0b3JzLmFkZHJlc3MoKSwgcnVubmVyID0gZXRoZXJzLnByb3ZpZGVyKSA9PgogIGFydGlmYWN0cwogICAgLnJlYWRBcnRpZmFjdChuYW1lKQogICAgLnRoZW4oKHsgYWJpLCBkZXBsb3llZEJ5dGVjb2RlIH0pID0+CiAgICAgIHNldENvZGUoYWRkcmVzcywgZGVwbG95ZWRCeXRlY29kZSkudGhlbigoKSA9PiBuZXcgZXRoZXJzLkNvbnRyYWN0KGFkZHJlc3MsIGFiaSwgcnVubmVyKSksCiAgICApOwoKbW9kdWxlLmV4cG9ydHMgPSB7CiAgZm9yY2VEZXBsb3lDb2RlLAp9Owo=
+const { artifacts, ethers } = require('hardhat');
+const { setCode } = require('@nomicfoundation/hardhat-network-helpers');
+const { generators } = require('./random');
+
+const forceDeployCode = (name, address = generators.address(), runner = ethers.provider) =>
+  artifacts
+    .readArtifact(name)
+    .then(({ abi, deployedBytecode }) =>
+      setCode(address, deployedBytecode).then(() => new ethers.Contract(address, abi, runner)),
+    );
+
+module.exports = {
+  forceDeployCode,
+};
