@@ -1,1 +1,91 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodG9rZW4vRVJDMjAvZXh0ZW5zaW9ucy9FUkMyMFdyYXBwZXIuc29sKQoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0lFUkMyMCwgSUVSQzIwTWV0YWRhdGEsIEVSQzIwfSBmcm9tICIuLi9FUkMyMC5zb2wiOwppbXBvcnQge1NhZmVFUkMyMH0gZnJvbSAiLi4vdXRpbHMvU2FmZUVSQzIwLnNvbCI7CgovKioKICogQGRldiBFeHRlbnNpb24gb2YgdGhlIEVSQy0yMCB0b2tlbiBjb250cmFjdCB0byBzdXBwb3J0IHRva2VuIHdyYXBwaW5nLgogKgogKiBVc2VycyBjYW4gZGVwb3NpdCBhbmQgd2l0aGRyYXcgInVuZGVybHlpbmcgdG9rZW5zIiBhbmQgcmVjZWl2ZSBhIG1hdGNoaW5nIG51bWJlciBvZiAid3JhcHBlZCB0b2tlbnMiLiBUaGlzIGlzIHVzZWZ1bAogKiBpbiBjb25qdW5jdGlvbiB3aXRoIG90aGVyIG1vZHVsZXMuIEZvciBleGFtcGxlLCBjb21iaW5pbmcgdGhpcyB3cmFwcGluZyBtZWNoYW5pc20gd2l0aCB7RVJDMjBWb3Rlc30gd2lsbCBhbGxvdyB0aGUKICogd3JhcHBpbmcgb2YgYW4gZXhpc3RpbmcgImJhc2ljIiBFUkMtMjAgaW50byBhIGdvdmVybmFuY2UgdG9rZW4uCiAqCiAqIFdBUk5JTkc6IEFueSBtZWNoYW5pc20gaW4gd2hpY2ggdGhlIHVuZGVybHlpbmcgdG9rZW4gY2hhbmdlcyB0aGUge2JhbGFuY2VPZn0gb2YgYW4gYWNjb3VudCB3aXRob3V0IGFuIGV4cGxpY2l0IHRyYW5zZmVyCiAqIG1heSBkZXN5bmNocm9uaXplIHRoaXMgY29udHJhY3QncyBzdXBwbHkgYW5kIGl0cyB1bmRlcmx5aW5nIGJhbGFuY2UuIFBsZWFzZSBleGVyY2lzZSBjYXV0aW9uIHdoZW4gd3JhcHBpbmcgdG9rZW5zIHRoYXQKICogbWF5IHVuZGVyY29sbGF0ZXJhbGl6ZSB0aGUgd3JhcHBlciAoaS5lLiB3cmFwcGVyJ3MgdG90YWwgc3VwcGx5IGlzIGhpZ2hlciB0aGFuIGl0cyB1bmRlcmx5aW5nIGJhbGFuY2UpLiBTZWUge19yZWNvdmVyfQogKiBmb3IgcmVjb3ZlcmluZyB2YWx1ZSBhY2NydWVkIHRvIHRoZSB3cmFwcGVyLgogKi8KYWJzdHJhY3QgY29udHJhY3QgRVJDMjBXcmFwcGVyIGlzIEVSQzIwIHsKICAgIElFUkMyMCBwcml2YXRlIGltbXV0YWJsZSBfdW5kZXJseWluZzsKCiAgICAvKioKICAgICAqIEBkZXYgVGhlIHVuZGVybHlpbmcgdG9rZW4gY291bGRuJ3QgYmUgd3JhcHBlZC4KICAgICAqLwogICAgZXJyb3IgRVJDMjBJbnZhbGlkVW5kZXJseWluZyhhZGRyZXNzIHRva2VuKTsKCiAgICBjb25zdHJ1Y3RvcihJRVJDMjAgdW5kZXJseWluZ1Rva2VuKSB7CiAgICAgICAgaWYgKHVuZGVybHlpbmdUb2tlbiA9PSB0aGlzKSB7CiAgICAgICAgICAgIHJldmVydCBFUkMyMEludmFsaWRVbmRlcmx5aW5nKGFkZHJlc3ModGhpcykpOwogICAgICAgIH0KICAgICAgICBfdW5kZXJseWluZyA9IHVuZGVybHlpbmdUb2tlbjsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgU2VlIHtFUkMyMC1kZWNpbWFsc30uCiAgICAgKi8KICAgIGZ1bmN0aW9uIGRlY2ltYWxzKCkgcHVibGljIHZpZXcgdmlydHVhbCBvdmVycmlkZSByZXR1cm5zICh1aW50OCkgewogICAgICAgIHRyeSBJRVJDMjBNZXRhZGF0YShhZGRyZXNzKF91bmRlcmx5aW5nKSkuZGVjaW1hbHMoKSByZXR1cm5zICh1aW50OCB2YWx1ZSkgewogICAgICAgICAgICByZXR1cm4gdmFsdWU7CiAgICAgICAgfSBjYXRjaCB7CiAgICAgICAgICAgIHJldHVybiBzdXBlci5kZWNpbWFscygpOwogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyB0aGUgYWRkcmVzcyBvZiB0aGUgdW5kZXJseWluZyBFUkMtMjAgdG9rZW4gdGhhdCBpcyBiZWluZyB3cmFwcGVkLgogICAgICovCiAgICBmdW5jdGlvbiB1bmRlcmx5aW5nKCkgcHVibGljIHZpZXcgcmV0dXJucyAoSUVSQzIwKSB7CiAgICAgICAgcmV0dXJuIF91bmRlcmx5aW5nOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBBbGxvdyBhIHVzZXIgdG8gZGVwb3NpdCB1bmRlcmx5aW5nIHRva2VucyBhbmQgbWludCB0aGUgY29ycmVzcG9uZGluZyBudW1iZXIgb2Ygd3JhcHBlZCB0b2tlbnMuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGRlcG9zaXRGb3IoYWRkcmVzcyBhY2NvdW50LCB1aW50MjU2IHZhbHVlKSBwdWJsaWMgdmlydHVhbCByZXR1cm5zIChib29sKSB7CiAgICAgICAgYWRkcmVzcyBzZW5kZXIgPSBfbXNnU2VuZGVyKCk7CiAgICAgICAgaWYgKHNlbmRlciA9PSBhZGRyZXNzKHRoaXMpKSB7CiAgICAgICAgICAgIHJldmVydCBFUkMyMEludmFsaWRTZW5kZXIoYWRkcmVzcyh0aGlzKSk7CiAgICAgICAgfQogICAgICAgIGlmIChhY2NvdW50ID09IGFkZHJlc3ModGhpcykpIHsKICAgICAgICAgICAgcmV2ZXJ0IEVSQzIwSW52YWxpZFJlY2VpdmVyKGFjY291bnQpOwogICAgICAgIH0KICAgICAgICBTYWZlRVJDMjAuc2FmZVRyYW5zZmVyRnJvbShfdW5kZXJseWluZywgc2VuZGVyLCBhZGRyZXNzKHRoaXMpLCB2YWx1ZSk7CiAgICAgICAgX21pbnQoYWNjb3VudCwgdmFsdWUpOwogICAgICAgIHJldHVybiB0cnVlOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBBbGxvdyBhIHVzZXIgdG8gYnVybiBhIG51bWJlciBvZiB3cmFwcGVkIHRva2VucyBhbmQgd2l0aGRyYXcgdGhlIGNvcnJlc3BvbmRpbmcgbnVtYmVyIG9mIHVuZGVybHlpbmcgdG9rZW5zLgogICAgICovCiAgICBmdW5jdGlvbiB3aXRoZHJhd1RvKGFkZHJlc3MgYWNjb3VudCwgdWludDI1NiB2YWx1ZSkgcHVibGljIHZpcnR1YWwgcmV0dXJucyAoYm9vbCkgewogICAgICAgIGlmIChhY2NvdW50ID09IGFkZHJlc3ModGhpcykpIHsKICAgICAgICAgICAgcmV2ZXJ0IEVSQzIwSW52YWxpZFJlY2VpdmVyKGFjY291bnQpOwogICAgICAgIH0KICAgICAgICBfYnVybihfbXNnU2VuZGVyKCksIHZhbHVlKTsKICAgICAgICBTYWZlRVJDMjAuc2FmZVRyYW5zZmVyKF91bmRlcmx5aW5nLCBhY2NvdW50LCB2YWx1ZSk7CiAgICAgICAgcmV0dXJuIHRydWU7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IE1pbnQgd3JhcHBlZCB0b2tlbiB0byBjb3ZlciBhbnkgdW5kZXJseWluZ1Rva2VucyB0aGF0IHdvdWxkIGhhdmUgYmVlbiB0cmFuc2ZlcnJlZCBieSBtaXN0YWtlIG9yIGFjcXVpcmVkIGZyb20KICAgICAqIHJlYmFzaW5nIG1lY2hhbmlzbXMuIEludGVybmFsIGZ1bmN0aW9uIHRoYXQgY2FuIGJlIGV4cG9zZWQgd2l0aCBhY2Nlc3MgY29udHJvbCBpZiBkZXNpcmVkLgogICAgICovCiAgICBmdW5jdGlvbiBfcmVjb3ZlcihhZGRyZXNzIGFjY291bnQpIGludGVybmFsIHZpcnR1YWwgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHVpbnQyNTYgdmFsdWUgPSBfdW5kZXJseWluZy5iYWxhbmNlT2YoYWRkcmVzcyh0aGlzKSkgLSB0b3RhbFN1cHBseSgpOwogICAgICAgIF9taW50KGFjY291bnQsIHZhbHVlKTsKICAgICAgICByZXR1cm4gdmFsdWU7CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (token/ERC20/extensions/ERC20Wrapper.sol)
+
+pragma solidity ^0.8.20;
+
+import {IERC20, IERC20Metadata, ERC20} from "../ERC20.sol";
+import {SafeERC20} from "../utils/SafeERC20.sol";
+
+/**
+ * @dev Extension of the ERC-20 token contract to support token wrapping.
+ *
+ * Users can deposit and withdraw "underlying tokens" and receive a matching number of "wrapped tokens". This is useful
+ * in conjunction with other modules. For example, combining this wrapping mechanism with {ERC20Votes} will allow the
+ * wrapping of an existing "basic" ERC-20 into a governance token.
+ *
+ * WARNING: Any mechanism in which the underlying token changes the {balanceOf} of an account without an explicit transfer
+ * may desynchronize this contract's supply and its underlying balance. Please exercise caution when wrapping tokens that
+ * may undercollateralize the wrapper (i.e. wrapper's total supply is higher than its underlying balance). See {_recover}
+ * for recovering value accrued to the wrapper.
+ */
+abstract contract ERC20Wrapper is ERC20 {
+    IERC20 private immutable _underlying;
+
+    /**
+     * @dev The underlying token couldn't be wrapped.
+     */
+    error ERC20InvalidUnderlying(address token);
+
+    constructor(IERC20 underlyingToken) {
+        if (underlyingToken == this) {
+            revert ERC20InvalidUnderlying(address(this));
+        }
+        _underlying = underlyingToken;
+    }
+
+    /**
+     * @dev See {ERC20-decimals}.
+     */
+    function decimals() public view virtual override returns (uint8) {
+        try IERC20Metadata(address(_underlying)).decimals() returns (uint8 value) {
+            return value;
+        } catch {
+            return super.decimals();
+        }
+    }
+
+    /**
+     * @dev Returns the address of the underlying ERC-20 token that is being wrapped.
+     */
+    function underlying() public view returns (IERC20) {
+        return _underlying;
+    }
+
+    /**
+     * @dev Allow a user to deposit underlying tokens and mint the corresponding number of wrapped tokens.
+     */
+    function depositFor(address account, uint256 value) public virtual returns (bool) {
+        address sender = _msgSender();
+        if (sender == address(this)) {
+            revert ERC20InvalidSender(address(this));
+        }
+        if (account == address(this)) {
+            revert ERC20InvalidReceiver(account);
+        }
+        SafeERC20.safeTransferFrom(_underlying, sender, address(this), value);
+        _mint(account, value);
+        return true;
+    }
+
+    /**
+     * @dev Allow a user to burn a number of wrapped tokens and withdraw the corresponding number of underlying tokens.
+     */
+    function withdrawTo(address account, uint256 value) public virtual returns (bool) {
+        if (account == address(this)) {
+            revert ERC20InvalidReceiver(account);
+        }
+        _burn(_msgSender(), value);
+        SafeERC20.safeTransfer(_underlying, account, value);
+        return true;
+    }
+
+    /**
+     * @dev Mint wrapped token to cover any underlyingTokens that would have been transferred by mistake or acquired from
+     * rebasing mechanisms. Internal function that can be exposed with access control if desired.
+     */
+    function _recover(address account) internal virtual returns (uint256) {
+        uint256 value = _underlying.balanceOf(address(this)) - totalSupply();
+        _mint(account, value);
+        return value;
+    }
+}
