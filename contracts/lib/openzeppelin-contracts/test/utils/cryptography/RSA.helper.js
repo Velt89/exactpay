@@ -1,1 +1,17 @@
-Y29uc3QgcGF0aCA9IHJlcXVpcmUoJ3BhdGgnKTsKY29uc3QgZnMgPSByZXF1aXJlKCdmcycpOwoKbW9kdWxlLmV4cG9ydHMgPSBmdW5jdGlvbiogcGFyc2UoZmlsZSkgewogIGNvbnN0IGNhY2hlID0ge307CiAgY29uc3QgZGF0YSA9IGZzLnJlYWRGaWxlU3luYyhwYXRoLnJlc29sdmUoX19kaXJuYW1lLCBmaWxlKSwgJ3V0ZjgnKTsKICBmb3IgKGNvbnN0IGxpbmUgb2YgZGF0YS5zcGxpdCgnXHJcbicpKSB7CiAgICBjb25zdCBncm91cHMgPSBsaW5lLm1hdGNoKC9eKD88a2V5Plx3KykgPSAoPzx2YWx1ZT5cdyspKD88ZXh0cmE+LiopJC8pPy5ncm91cHM7CiAgICBpZiAoZ3JvdXBzKSB7CiAgICAgIGNvbnN0IHsga2V5LCB2YWx1ZSwgZXh0cmEgfSA9IGdyb3VwczsKICAgICAgY2FjaGVba2V5XSA9IHZhbHVlOwogICAgICBpZiAoZ3JvdXBzLmtleSA9PT0gJ1Jlc3VsdCcpIHsKICAgICAgICB5aWVsZCBPYmplY3QuYXNzaWduKHsgZXh0cmE6IGV4dHJhLnRyaW0oKSB9LCBjYWNoZSk7CiAgICAgIH0KICAgIH0KICB9Cn07Cg==
+const path = require('path');
+const fs = require('fs');
+
+module.exports = function* parse(file) {
+  const cache = {};
+  const data = fs.readFileSync(path.resolve(__dirname, file), 'utf8');
+  for (const line of data.split('\r\n')) {
+    const groups = line.match(/^(?<key>\w+) = (?<value>\w+)(?<extra>.*)$/)?.groups;
+    if (groups) {
+      const { key, value, extra } = groups;
+      cache[key] = value;
+      if (groups.key === 'Result') {
+        yield Object.assign({ extra: extra.trim() }, cache);
+      }
+    }
+  }
+};
