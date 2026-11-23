@@ -1,1 +1,61 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBUaGlzIGZpbGUgd2FzIHByb2NlZHVyYWxseSBnZW5lcmF0ZWQgZnJvbSBzY3JpcHRzL2dlbmVyYXRlL3RlbXBsYXRlcy9UcmFuc2llbnRTbG90TW9jay5qcy4KCnByYWdtYSBzb2xpZGl0eSBeMC44LjI0OwoKaW1wb3J0IHtNdWx0aWNhbGx9IGZyb20gIi4uL3V0aWxzL011bHRpY2FsbC5zb2wiOwppbXBvcnQge1RyYW5zaWVudFNsb3R9IGZyb20gIi4uL3V0aWxzL1RyYW5zaWVudFNsb3Quc29sIjsKCmNvbnRyYWN0IFRyYW5zaWVudFNsb3RNb2NrIGlzIE11bHRpY2FsbCB7CiAgICB1c2luZyBUcmFuc2llbnRTbG90IGZvciAqOwoKICAgIGV2ZW50IEFkZHJlc3NWYWx1ZShieXRlczMyIHNsb3QsIGFkZHJlc3MgdmFsdWUpOwoKICAgIGZ1bmN0aW9uIHRsb2FkQWRkcmVzcyhieXRlczMyIHNsb3QpIHB1YmxpYyB7CiAgICAgICAgZW1pdCBBZGRyZXNzVmFsdWUoc2xvdCwgc2xvdC5hc0FkZHJlc3MoKS50bG9hZCgpKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0c3RvcmUoYnl0ZXMzMiBzbG90LCBhZGRyZXNzIHZhbHVlKSBwdWJsaWMgewogICAgICAgIHNsb3QuYXNBZGRyZXNzKCkudHN0b3JlKHZhbHVlKTsKICAgIH0KCiAgICBldmVudCBCb29sZWFuVmFsdWUoYnl0ZXMzMiBzbG90LCBib29sIHZhbHVlKTsKCiAgICBmdW5jdGlvbiB0bG9hZEJvb2xlYW4oYnl0ZXMzMiBzbG90KSBwdWJsaWMgewogICAgICAgIGVtaXQgQm9vbGVhblZhbHVlKHNsb3QsIHNsb3QuYXNCb29sZWFuKCkudGxvYWQoKSk7CiAgICB9CgogICAgZnVuY3Rpb24gdHN0b3JlKGJ5dGVzMzIgc2xvdCwgYm9vbCB2YWx1ZSkgcHVibGljIHsKICAgICAgICBzbG90LmFzQm9vbGVhbigpLnRzdG9yZSh2YWx1ZSk7CiAgICB9CgogICAgZXZlbnQgQnl0ZXMzMlZhbHVlKGJ5dGVzMzIgc2xvdCwgYnl0ZXMzMiB2YWx1ZSk7CgogICAgZnVuY3Rpb24gdGxvYWRCeXRlczMyKGJ5dGVzMzIgc2xvdCkgcHVibGljIHsKICAgICAgICBlbWl0IEJ5dGVzMzJWYWx1ZShzbG90LCBzbG90LmFzQnl0ZXMzMigpLnRsb2FkKCkpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRzdG9yZShieXRlczMyIHNsb3QsIGJ5dGVzMzIgdmFsdWUpIHB1YmxpYyB7CiAgICAgICAgc2xvdC5hc0J5dGVzMzIoKS50c3RvcmUodmFsdWUpOwogICAgfQoKICAgIGV2ZW50IFVpbnQyNTZWYWx1ZShieXRlczMyIHNsb3QsIHVpbnQyNTYgdmFsdWUpOwoKICAgIGZ1bmN0aW9uIHRsb2FkVWludDI1NihieXRlczMyIHNsb3QpIHB1YmxpYyB7CiAgICAgICAgZW1pdCBVaW50MjU2VmFsdWUoc2xvdCwgc2xvdC5hc1VpbnQyNTYoKS50bG9hZCgpKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0c3RvcmUoYnl0ZXMzMiBzbG90LCB1aW50MjU2IHZhbHVlKSBwdWJsaWMgewogICAgICAgIHNsb3QuYXNVaW50MjU2KCkudHN0b3JlKHZhbHVlKTsKICAgIH0KCiAgICBldmVudCBJbnQyNTZWYWx1ZShieXRlczMyIHNsb3QsIGludDI1NiB2YWx1ZSk7CgogICAgZnVuY3Rpb24gdGxvYWRJbnQyNTYoYnl0ZXMzMiBzbG90KSBwdWJsaWMgewogICAgICAgIGVtaXQgSW50MjU2VmFsdWUoc2xvdCwgc2xvdC5hc0ludDI1NigpLnRsb2FkKCkpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRzdG9yZShieXRlczMyIHNsb3QsIGludDI1NiB2YWx1ZSkgcHVibGljIHsKICAgICAgICBzbG90LmFzSW50MjU2KCkudHN0b3JlKHZhbHVlKTsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+// This file was procedurally generated from scripts/generate/templates/TransientSlotMock.js.
+
+pragma solidity ^0.8.24;
+
+import {Multicall} from "../utils/Multicall.sol";
+import {TransientSlot} from "../utils/TransientSlot.sol";
+
+contract TransientSlotMock is Multicall {
+    using TransientSlot for *;
+
+    event AddressValue(bytes32 slot, address value);
+
+    function tloadAddress(bytes32 slot) public {
+        emit AddressValue(slot, slot.asAddress().tload());
+    }
+
+    function tstore(bytes32 slot, address value) public {
+        slot.asAddress().tstore(value);
+    }
+
+    event BooleanValue(bytes32 slot, bool value);
+
+    function tloadBoolean(bytes32 slot) public {
+        emit BooleanValue(slot, slot.asBoolean().tload());
+    }
+
+    function tstore(bytes32 slot, bool value) public {
+        slot.asBoolean().tstore(value);
+    }
+
+    event Bytes32Value(bytes32 slot, bytes32 value);
+
+    function tloadBytes32(bytes32 slot) public {
+        emit Bytes32Value(slot, slot.asBytes32().tload());
+    }
+
+    function tstore(bytes32 slot, bytes32 value) public {
+        slot.asBytes32().tstore(value);
+    }
+
+    event Uint256Value(bytes32 slot, uint256 value);
+
+    function tloadUint256(bytes32 slot) public {
+        emit Uint256Value(slot, slot.asUint256().tload());
+    }
+
+    function tstore(bytes32 slot, uint256 value) public {
+        slot.asUint256().tstore(value);
+    }
+
+    event Int256Value(bytes32 slot, int256 value);
+
+    function tloadInt256(bytes32 slot) public {
+        emit Int256Value(slot, slot.asInt256().tload());
+    }
+
+    function tstore(bytes32 slot, int256 value) public {
+        slot.asInt256().tstore(value);
+    }
+}
