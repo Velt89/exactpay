@@ -1,1 +1,236 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKY29uc3QgeyBzdW0gfSA9IHJlcXVpcmUoJy4uLy4uLy4uL2hlbHBlcnMvbWF0aCcpOwoKY29uc3QgbmFtZSA9ICdOb24gRnVuZ2libGUgVG9rZW4nOwpjb25zdCBzeW1ib2wgPSAnTkZUJzsKCmRlc2NyaWJlKCdFUkM3MjFDb25zZWN1dGl2ZScsIGZ1bmN0aW9uICgpIHsKICBmb3IgKGNvbnN0IG9mZnNldCBvZiBbMG4sIDFuLCA0Mm5dKSB7CiAgICBkZXNjcmliZShgd2l0aCBvZmZzZXQgJHtvZmZzZXR9YCwgZnVuY3Rpb24gKCkgewogICAgICBhc3luYyBmdW5jdGlvbiBmaXh0dXJlKCkgewogICAgICAgIGNvbnN0IGFjY291bnRzID0gYXdhaXQgZXRoZXJzLmdldFNpZ25lcnMoKTsKICAgICAgICBjb25zdCBbYWxpY2UsIGJydWNlLCBjaHJpcywgcmVjZWl2ZXJdID0gYWNjb3VudHM7CgogICAgICAgIGNvbnN0IGJhdGNoZXMgPSBbCiAgICAgICAgICB7IHJlY2VpdmVyOiBhbGljZSwgYW1vdW50OiAwbiB9LAogICAgICAgICAgeyByZWNlaXZlcjogYWxpY2UsIGFtb3VudDogMW4gfSwKICAgICAgICAgIHsgcmVjZWl2ZXI6IGFsaWNlLCBhbW91bnQ6IDJuIH0sCiAgICAgICAgICB7IHJlY2VpdmVyOiBicnVjZSwgYW1vdW50OiA1biB9LAogICAgICAgICAgeyByZWNlaXZlcjogY2hyaXMsIGFtb3VudDogMG4gfSwKICAgICAgICAgIHsgcmVjZWl2ZXI6IGFsaWNlLCBhbW91bnQ6IDduIH0sCiAgICAgICAgXTsKICAgICAgICBjb25zdCBkZWxlZ2F0ZXMgPSBbYWxpY2UsIGNocmlzXTsKCiAgICAgICAgY29uc3QgdG9rZW4gPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJyRFUkM3MjFDb25zZWN1dGl2ZU1vY2snLCBbCiAgICAgICAgICBuYW1lLAogICAgICAgICAgc3ltYm9sLAogICAgICAgICAgb2Zmc2V0LAogICAgICAgICAgZGVsZWdhdGVzLAogICAgICAgICAgYmF0Y2hlcy5tYXAoKHsgcmVjZWl2ZXIgfSkgPT4gcmVjZWl2ZXIpLAogICAgICAgICAgYmF0Y2hlcy5tYXAoKHsgYW1vdW50IH0pID0+IGFtb3VudCksCiAgICAgICAgXSk7CgogICAgICAgIHJldHVybiB7IGFjY291bnRzLCBhbGljZSwgYnJ1Y2UsIGNocmlzLCByZWNlaXZlciwgYmF0Y2hlcywgZGVsZWdhdGVzLCB0b2tlbiB9OwogICAgICB9CgogICAgICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBPYmplY3QuYXNzaWduKHRoaXMsIGF3YWl0IGxvYWRGaXh0dXJlKGZpeHR1cmUpKTsKICAgICAgfSk7CgogICAgICBkZXNjcmliZSgnbWludGluZyBkdXJpbmcgY29uc3RydWN0aW9uJywgZnVuY3Rpb24gKCkgewogICAgICAgIGl0KCdldmVudHMgYXJlIGVtaXR0ZWQgYXQgY29uc3RydWN0aW9uJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgbGV0IGZpcnN0ID0gb2Zmc2V0OwogICAgICAgICAgZm9yIChjb25zdCBiYXRjaCBvZiB0aGlzLmJhdGNoZXMpIHsKICAgICAgICAgICAgaWYgKGJhdGNoLmFtb3VudCA+IDApIHsKICAgICAgICAgICAgICBhd2FpdCBleHBlY3QodGhpcy50b2tlbi5kZXBsb3ltZW50VHJhbnNhY3Rpb24oKSkKICAgICAgICAgICAgICAgIC50by5lbWl0KHRoaXMudG9rZW4sICdDb25zZWN1dGl2ZVRyYW5zZmVyJykKICAgICAgICAgICAgICAgIC53aXRoQXJncygKICAgICAgICAgICAgICAgICAgZmlyc3QgLyogZnJvbVRva2VuSWQgKi8sCiAgICAgICAgICAgICAgICAgIGZpcnN0ICsgYmF0Y2guYW1vdW50IC0gMW4gLyogdG9Ub2tlbklkICovLAogICAgICAgICAgICAgICAgICBldGhlcnMuWmVyb0FkZHJlc3MgLyogZnJvbUFkZHJlc3MgKi8sCiAgICAgICAgICAgICAgICAgIGJhdGNoLnJlY2VpdmVyIC8qIHRvQWRkcmVzcyAqLywKICAgICAgICAgICAgICAgICk7CiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgLy8gIi50by5ub3QuZW1pdCIgb25seSBsb29rcyBhdCBldmVudCBuYW1lLCBhbmQgZG9lc24ndCBjaGVjayB0aGUgcGFyYW1ldGVycwogICAgICAgICAgICB9CiAgICAgICAgICAgIGZpcnN0ICs9IGJhdGNoLmFtb3VudDsKICAgICAgICAgIH0KICAgICAgICB9KTsKCiAgICAgICAgaXQoJ293bmVyc2hpcCBpcyBzZXQnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICBjb25zdCBvd25lcnMgPSBbCiAgICAgICAgICAgIC4uLkFycmF5KE51bWJlcihvZmZzZXQpKS5maWxsKGV0aGVycy5aZXJvQWRkcmVzcyksCiAgICAgICAgICAgIC4uLnRoaXMuYmF0Y2hlcy5mbGF0TWFwKCh7IHJlY2VpdmVyLCBhbW91bnQgfSkgPT4gQXJyYXkoTnVtYmVyKGFtb3VudCkpLmZpbGwocmVjZWl2ZXIuYWRkcmVzcykpLAogICAgICAgICAgXTsKCiAgICAgICAgICBmb3IgKGNvbnN0IHRva2VuSWQgaW4gb3duZXJzKSB7CiAgICAgICAgICAgIGlmIChvd25lcnNbdG9rZW5JZF0gIT0gZXRoZXJzLlplcm9BZGRyZXNzKSB7CiAgICAgICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudG9rZW4ub3duZXJPZih0b2tlbklkKSkudG8uZXF1YWwob3duZXJzW3Rva2VuSWRdKTsKICAgICAgICAgICAgfQogICAgICAgICAgfQogICAgICAgIH0pOwoKICAgICAgICBpdCgnYmFsYW5jZSAmIHZvdGluZyBwb3dlciBhcmUgc2V0JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgZm9yIChjb25zdCBhY2NvdW50IG9mIHRoaXMuYWNjb3VudHMpIHsKICAgICAgICAgICAgY29uc3QgYmFsYW5jZSA9CiAgICAgICAgICAgICAgc3VtKC4uLnRoaXMuYmF0Y2hlcy5maWx0ZXIoKHsgcmVjZWl2ZXIgfSkgPT4gcmVjZWl2ZXIgPT09IGFjY291bnQpLm1hcCgoeyBhbW91bnQgfSkgPT4gYW1vdW50KSkgPz8gMG47CgogICAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy50b2tlbi5iYWxhbmNlT2YoYWNjb3VudCkpLnRvLmVxdWFsKGJhbGFuY2UpOwoKICAgICAgICAgICAgLy8gSWYgbm90IGRlbGVnYXRlZCBhdCBjb25zdHJ1Y3Rpb24sIGNoZWNrIGJlZm9yZSArIGRvIGRlbGVnYXRpb24KICAgICAgICAgICAgaWYgKCF0aGlzLmRlbGVnYXRlcy5pbmNsdWRlcyhhY2NvdW50KSkgewogICAgICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnRva2VuLmdldFZvdGVzKGFjY291bnQpKS50by5lcXVhbCgwbik7CgogICAgICAgICAgICAgIGF3YWl0IHRoaXMudG9rZW4uY29ubmVjdChhY2NvdW50KS5kZWxlZ2F0ZShhY2NvdW50KTsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgLy8gQXQgdGhpcyBwb2ludCBhbGwgYWNjb3VudHMgc2hvdWxkIGhhdmUgZGVsZWdhdGVkCiAgICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnRva2VuLmdldFZvdGVzKGFjY291bnQpKS50by5lcXVhbChiYWxhbmNlKTsKICAgICAgICAgIH0KICAgICAgICB9KTsKCiAgICAgICAgaXQoJ3JldmVydHMgb24gY29uc2VjdXRpdmUgbWludGluZyB0byB0aGUgemVybyBhZGRyZXNzJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgYXdhaXQgZXhwZWN0KAogICAgICAgICAgICBldGhlcnMuZGVwbG95Q29udHJhY3QoJyRFUkM3MjFDb25zZWN1dGl2ZU1vY2snLCBbCiAgICAgICAgICAgICAgbmFtZSwKICAgICAgICAgICAgICBzeW1ib2wsCiAgICAgICAgICAgICAgb2Zmc2V0LAogICAgICAgICAgICAgIHRoaXMuZGVsZWdhdGVzLAogICAgICAgICAgICAgIFtldGhlcnMuWmVyb0FkZHJlc3NdLAogICAgICAgICAgICAgIFsxMF0sCiAgICAgICAgICAgIF0pLAogICAgICAgICAgKQogICAgICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy50b2tlbiwgJ0VSQzcyMUludmFsaWRSZWNlaXZlcicpCiAgICAgICAgICAgIC53aXRoQXJncyhldGhlcnMuWmVyb0FkZHJlc3MpOwogICAgICAgIH0pOwogICAgICB9KTsKCiAgICAgIGRlc2NyaWJlKCdtaW50aW5nIGFmdGVyIGNvbnN0cnVjdGlvbicsIGZ1bmN0aW9uICgpIHsKICAgICAgICBpdCgnY29uc2VjdXRpdmUgbWludGluZyBpcyBub3QgcG9zc2libGUgYWZ0ZXIgY29uc3RydWN0aW9uJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMudG9rZW4uJF9taW50Q29uc2VjdXRpdmUodGhpcy5hbGljZSwgMTApKS50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcigKICAgICAgICAgICAgdGhpcy50b2tlbiwKICAgICAgICAgICAgJ0VSQzcyMUZvcmJpZGRlbkJhdGNoTWludCcsCiAgICAgICAgICApOwogICAgICAgIH0pOwoKICAgICAgICBpdCgnc2ltcGxlIG1pbnRpbmcgaXMgcG9zc2libGUgYWZ0ZXIgY29uc3RydWN0aW9uJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgY29uc3QgdG9rZW5JZCA9IHN1bSguLi50aGlzLmJhdGNoZXMubWFwKGIgPT4gYi5hbW91bnQpKSArIG9mZnNldDsKCiAgICAgICAgICBhd2FpdCBleHBlY3QodGhpcy50b2tlbi5vd25lck9mKHRva2VuSWQpKQogICAgICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy50b2tlbiwgJ0VSQzcyMU5vbmV4aXN0ZW50VG9rZW4nKQogICAgICAgICAgICAud2l0aEFyZ3ModG9rZW5JZCk7CgogICAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMudG9rZW4uJF9taW50KHRoaXMuYWxpY2UsIHRva2VuSWQpKQogICAgICAgICAgICAudG8uZW1pdCh0aGlzLnRva2VuLCAnVHJhbnNmZXInKQogICAgICAgICAgICAud2l0aEFyZ3MoZXRoZXJzLlplcm9BZGRyZXNzLCB0aGlzLmFsaWNlLCB0b2tlbklkKTsKICAgICAgICB9KTsKCiAgICAgICAgaXQoJ2Nhbm5vdCBtaW50IGEgdG9rZW4gdGhhdCBoYXMgYmVlbiBiYXRjaGVkIG1pbnRlZCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGNvbnN0IHRva2VuSWQgPSBzdW0oLi4udGhpcy5iYXRjaGVzLm1hcChiID0+IGIuYW1vdW50KSkgKyBvZmZzZXQgLSAxbjsKCiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy50b2tlbi5vd25lck9mKHRva2VuSWQpKS50by5ub3QuZXF1YWwoZXRoZXJzLlplcm9BZGRyZXNzKTsKCiAgICAgICAgICBhd2FpdCBleHBlY3QodGhpcy50b2tlbi4kX21pbnQodGhpcy5hbGljZSwgdG9rZW5JZCkpCiAgICAgICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLnRva2VuLCAnRVJDNzIxSW52YWxpZFNlbmRlcicpCiAgICAgICAgICAgIC53aXRoQXJncyhldGhlcnMuWmVyb0FkZHJlc3MpOwogICAgICAgIH0pOwogICAgICB9KTsKCiAgICAgIGRlc2NyaWJlKCdFUkM3MjEgYmVoYXZpb3InLCBmdW5jdGlvbiAoKSB7CiAgICAgICAgY29uc3QgdG9rZW5JZCA9IG9mZnNldCArIDFuOwoKICAgICAgICBpdCgnY29yZSB0YWtlcyBvdmVyIG93bmVyc2hpcCBvbiB0cmFuc2ZlcicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGF3YWl0IHRoaXMudG9rZW4uY29ubmVjdCh0aGlzLmFsaWNlKS50cmFuc2ZlckZyb20odGhpcy5hbGljZSwgdGhpcy5yZWNlaXZlciwgdG9rZW5JZCk7CgogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudG9rZW4ub3duZXJPZih0b2tlbklkKSkudG8uZXF1YWwodGhpcy5yZWNlaXZlcik7CiAgICAgICAgfSk7CgogICAgICAgIGl0KCd0b2tlbnMgY2FuIGJlIGJ1cm5lZCBhbmQgcmUtbWludGVkICMxJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMudG9rZW4uY29ubmVjdCh0aGlzLmFsaWNlKS4kX2J1cm4odG9rZW5JZCkpCiAgICAgICAgICAgIC50by5lbWl0KHRoaXMudG9rZW4sICdUcmFuc2ZlcicpCiAgICAgICAgICAgIC53aXRoQXJncyh0aGlzLmFsaWNlLCBldGhlcnMuWmVyb0FkZHJlc3MsIHRva2VuSWQpOwoKICAgICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLnRva2VuLm93bmVyT2YodG9rZW5JZCkpCiAgICAgICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLnRva2VuLCAnRVJDNzIxTm9uZXhpc3RlbnRUb2tlbicpCiAgICAgICAgICAgIC53aXRoQXJncyh0b2tlbklkKTsKCiAgICAgICAgICBhd2FpdCBleHBlY3QodGhpcy50b2tlbi4kX21pbnQodGhpcy5icnVjZSwgdG9rZW5JZCkpCiAgICAgICAgICAgIC50by5lbWl0KHRoaXMudG9rZW4sICdUcmFuc2ZlcicpCiAgICAgICAgICAgIC53aXRoQXJncyhldGhlcnMuWmVyb0FkZHJlc3MsIHRoaXMuYnJ1Y2UsIHRva2VuSWQpOwoKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnRva2VuLm93bmVyT2YodG9rZW5JZCkpLnRvLmVxdWFsKHRoaXMuYnJ1Y2UpOwogICAgICAgIH0pOwoKICAgICAgICBpdCgndG9rZW5zIGNhbiBiZSBidXJuZWQgYW5kIHJlLW1pbnRlZCAjMicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGNvbnN0IHRva2VuSWQgPSBzdW0oLi4udGhpcy5iYXRjaGVzLm1hcCgoeyBhbW91bnQgfSkgPT4gYW1vdW50KSkgKyBvZmZzZXQ7CgogICAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMudG9rZW4ub3duZXJPZih0b2tlbklkKSkKICAgICAgICAgICAgLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMudG9rZW4sICdFUkM3MjFOb25leGlzdGVudFRva2VuJykKICAgICAgICAgICAgLndpdGhBcmdzKHRva2VuSWQpOwoKICAgICAgICAgIC8vIG1pbnQKICAgICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLnRva2VuLiRfbWludCh0aGlzLmFsaWNlLCB0b2tlbklkKSkKICAgICAgICAgICAgLnRvLmVtaXQodGhpcy50b2tlbiwgJ1RyYW5zZmVyJykKICAgICAgICAgICAgLndpdGhBcmdzKGV0aGVycy5aZXJvQWRkcmVzcywgdGhpcy5hbGljZSwgdG9rZW5JZCk7CgogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudG9rZW4ub3duZXJPZih0b2tlbklkKSkudG8uZXF1YWwodGhpcy5hbGljZSk7CgogICAgICAgICAgLy8gYnVybgogICAgICAgICAgYXdhaXQgZXhwZWN0KGF3YWl0IHRoaXMudG9rZW4uJF9idXJuKHRva2VuSWQpKQogICAgICAgICAgICAudG8uZW1pdCh0aGlzLnRva2VuLCAnVHJhbnNmZXInKQogICAgICAgICAgICAud2l0aEFyZ3ModGhpcy5hbGljZSwgZXRoZXJzLlplcm9BZGRyZXNzLCB0b2tlbklkKTsKCiAgICAgICAgICBhd2FpdCBleHBlY3QodGhpcy50b2tlbi5vd25lck9mKHRva2VuSWQpKQogICAgICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy50b2tlbiwgJ0VSQzcyMU5vbmV4aXN0ZW50VG9rZW4nKQogICAgICAgICAgICAud2l0aEFyZ3ModG9rZW5JZCk7CgogICAgICAgICAgLy8gcmUtbWludAogICAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMudG9rZW4uJF9taW50KHRoaXMuYnJ1Y2UsIHRva2VuSWQpKQogICAgICAgICAgICAudG8uZW1pdCh0aGlzLnRva2VuLCAnVHJhbnNmZXInKQogICAgICAgICAgICAud2l0aEFyZ3MoZXRoZXJzLlplcm9BZGRyZXNzLCB0aGlzLmJydWNlLCB0b2tlbklkKTsKCiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy50b2tlbi5vd25lck9mKHRva2VuSWQpKS50by5lcXVhbCh0aGlzLmJydWNlKTsKICAgICAgICB9KTsKICAgICAgfSk7CiAgICB9KTsKICB9CgogIGRlc2NyaWJlKCdpbnZhbGlkIHVzZScsIGZ1bmN0aW9uICgpIHsKICAgIGNvbnN0IHJlY2VpdmVyID0gZXRoZXJzLldhbGxldC5jcmVhdGVSYW5kb20oKTsKCiAgICBpdCgnY2Fubm90IG1pbnQgYSBiYXRjaCBsYXJnZXIgdGhhbiA1MDAwJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCB7IGludGVyZmFjZSB9ID0gYXdhaXQgZXRoZXJzLmdldENvbnRyYWN0RmFjdG9yeSgnJEVSQzcyMUNvbnNlY3V0aXZlTW9jaycpOwoKICAgICAgYXdhaXQgZXhwZWN0KGV0aGVycy5kZXBsb3lDb250cmFjdCgnJEVSQzcyMUNvbnNlY3V0aXZlTW9jaycsIFtuYW1lLCBzeW1ib2wsIDAsIFtdLCBbcmVjZWl2ZXJdLCBbNTAwMW5dXSkpCiAgICAgICAgLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHsgaW50ZXJmYWNlIH0sICdFUkM3MjFFeGNlZWRlZE1heEJhdGNoTWludCcpCiAgICAgICAgLndpdGhBcmdzKDUwMDFuLCA1MDAwbik7CiAgICB9KTsKCiAgICBpdCgnY2Fubm90IHVzZSBzaW5nbGUgbWludGluZyBkdXJpbmcgY29uc3RydWN0aW9uJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCB7IGludGVyZmFjZSB9ID0gYXdhaXQgZXRoZXJzLmdldENvbnRyYWN0RmFjdG9yeSgnJEVSQzcyMUNvbnNlY3V0aXZlTm9Db25zdHJ1Y3Rvck1pbnRNb2NrJyk7CgogICAgICBhd2FpdCBleHBlY3QoCiAgICAgICAgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCckRVJDNzIxQ29uc2VjdXRpdmVOb0NvbnN0cnVjdG9yTWludE1vY2snLCBbbmFtZSwgc3ltYm9sXSksCiAgICAgICkudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IoeyBpbnRlcmZhY2UgfSwgJ0VSQzcyMUZvcmJpZGRlbk1pbnQnKTsKICAgIH0pOwoKICAgIGl0KCdjYW5ub3QgdXNlIHNpbmdsZSBtaW50aW5nIGR1cmluZyBjb25zdHJ1Y3Rpb24nLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGNvbnN0IHsgaW50ZXJmYWNlIH0gPSBhd2FpdCBldGhlcnMuZ2V0Q29udHJhY3RGYWN0b3J5KCckRVJDNzIxQ29uc2VjdXRpdmVOb0NvbnN0cnVjdG9yTWludE1vY2snKTsKCiAgICAgIGF3YWl0IGV4cGVjdCgKICAgICAgICBldGhlcnMuZGVwbG95Q29udHJhY3QoJyRFUkM3MjFDb25zZWN1dGl2ZU5vQ29uc3RydWN0b3JNaW50TW9jaycsIFtuYW1lLCBzeW1ib2xdKSwKICAgICAgKS50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih7IGludGVyZmFjZSB9LCAnRVJDNzIxRm9yYmlkZGVuTWludCcpOwogICAgfSk7CgogICAgaXQoJ2NvbnNlY3V0aXZlIG1pbnQgbm90IGNvbXBhdGlibGUgd2l0aCBlbnVtZXJhYmlsaXR5JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCB7IGludGVyZmFjZSB9ID0gYXdhaXQgZXRoZXJzLmdldENvbnRyYWN0RmFjdG9yeSgnJEVSQzcyMUNvbnNlY3V0aXZlRW51bWVyYWJsZU1vY2snKTsKCiAgICAgIGF3YWl0IGV4cGVjdCgKICAgICAgICBldGhlcnMuZGVwbG95Q29udHJhY3QoJyRFUkM3MjFDb25zZWN1dGl2ZUVudW1lcmFibGVNb2NrJywgW25hbWUsIHN5bWJvbCwgW3JlY2VpdmVyXSwgWzEwMG5dXSksCiAgICAgICkudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IoeyBpbnRlcmZhY2UgfSwgJ0VSQzcyMUVudW1lcmFibGVGb3JiaWRkZW5CYXRjaE1pbnQnKTsKICAgIH0pOwogIH0pOwp9KTsK
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+const { sum } = require('../../../helpers/math');
+
+const name = 'Non Fungible Token';
+const symbol = 'NFT';
+
+describe('ERC721Consecutive', function () {
+  for (const offset of [0n, 1n, 42n]) {
+    describe(`with offset ${offset}`, function () {
+      async function fixture() {
+        const accounts = await ethers.getSigners();
+        const [alice, bruce, chris, receiver] = accounts;
+
+        const batches = [
+          { receiver: alice, amount: 0n },
+          { receiver: alice, amount: 1n },
+          { receiver: alice, amount: 2n },
+          { receiver: bruce, amount: 5n },
+          { receiver: chris, amount: 0n },
+          { receiver: alice, amount: 7n },
+        ];
+        const delegates = [alice, chris];
+
+        const token = await ethers.deployContract('$ERC721ConsecutiveMock', [
+          name,
+          symbol,
+          offset,
+          delegates,
+          batches.map(({ receiver }) => receiver),
+          batches.map(({ amount }) => amount),
+        ]);
+
+        return { accounts, alice, bruce, chris, receiver, batches, delegates, token };
+      }
+
+      beforeEach(async function () {
+        Object.assign(this, await loadFixture(fixture));
+      });
+
+      describe('minting during construction', function () {
+        it('events are emitted at construction', async function () {
+          let first = offset;
+          for (const batch of this.batches) {
+            if (batch.amount > 0) {
+              await expect(this.token.deploymentTransaction())
+                .to.emit(this.token, 'ConsecutiveTransfer')
+                .withArgs(
+                  first /* fromTokenId */,
+                  first + batch.amount - 1n /* toTokenId */,
+                  ethers.ZeroAddress /* fromAddress */,
+                  batch.receiver /* toAddress */,
+                );
+            } else {
+              // ".to.not.emit" only looks at event name, and doesn't check the parameters
+            }
+            first += batch.amount;
+          }
+        });
+
+        it('ownership is set', async function () {
+          const owners = [
+            ...Array(Number(offset)).fill(ethers.ZeroAddress),
+            ...this.batches.flatMap(({ receiver, amount }) => Array(Number(amount)).fill(receiver.address)),
+          ];
+
+          for (const tokenId in owners) {
+            if (owners[tokenId] != ethers.ZeroAddress) {
+              expect(await this.token.ownerOf(tokenId)).to.equal(owners[tokenId]);
+            }
+          }
+        });
+
+        it('balance & voting power are set', async function () {
+          for (const account of this.accounts) {
+            const balance =
+              sum(...this.batches.filter(({ receiver }) => receiver === account).map(({ amount }) => amount)) ?? 0n;
+
+            expect(await this.token.balanceOf(account)).to.equal(balance);
+
+            // If not delegated at construction, check before + do delegation
+            if (!this.delegates.includes(account)) {
+              expect(await this.token.getVotes(account)).to.equal(0n);
+
+              await this.token.connect(account).delegate(account);
+            }
+
+            // At this point all accounts should have delegated
+            expect(await this.token.getVotes(account)).to.equal(balance);
+          }
+        });
+
+        it('reverts on consecutive minting to the zero address', async function () {
+          await expect(
+            ethers.deployContract('$ERC721ConsecutiveMock', [
+              name,
+              symbol,
+              offset,
+              this.delegates,
+              [ethers.ZeroAddress],
+              [10],
+            ]),
+          )
+            .to.be.revertedWithCustomError(this.token, 'ERC721InvalidReceiver')
+            .withArgs(ethers.ZeroAddress);
+        });
+      });
+
+      describe('minting after construction', function () {
+        it('consecutive minting is not possible after construction', async function () {
+          await expect(this.token.$_mintConsecutive(this.alice, 10)).to.be.revertedWithCustomError(
+            this.token,
+            'ERC721ForbiddenBatchMint',
+          );
+        });
+
+        it('simple minting is possible after construction', async function () {
+          const tokenId = sum(...this.batches.map(b => b.amount)) + offset;
+
+          await expect(this.token.ownerOf(tokenId))
+            .to.be.revertedWithCustomError(this.token, 'ERC721NonexistentToken')
+            .withArgs(tokenId);
+
+          await expect(this.token.$_mint(this.alice, tokenId))
+            .to.emit(this.token, 'Transfer')
+            .withArgs(ethers.ZeroAddress, this.alice, tokenId);
+        });
+
+        it('cannot mint a token that has been batched minted', async function () {
+          const tokenId = sum(...this.batches.map(b => b.amount)) + offset - 1n;
+
+          expect(await this.token.ownerOf(tokenId)).to.not.equal(ethers.ZeroAddress);
+
+          await expect(this.token.$_mint(this.alice, tokenId))
+            .to.be.revertedWithCustomError(this.token, 'ERC721InvalidSender')
+            .withArgs(ethers.ZeroAddress);
+        });
+      });
+
+      describe('ERC721 behavior', function () {
+        const tokenId = offset + 1n;
+
+        it('core takes over ownership on transfer', async function () {
+          await this.token.connect(this.alice).transferFrom(this.alice, this.receiver, tokenId);
+
+          expect(await this.token.ownerOf(tokenId)).to.equal(this.receiver);
+        });
+
+        it('tokens can be burned and re-minted #1', async function () {
+          await expect(this.token.connect(this.alice).$_burn(tokenId))
+            .to.emit(this.token, 'Transfer')
+            .withArgs(this.alice, ethers.ZeroAddress, tokenId);
+
+          await expect(this.token.ownerOf(tokenId))
+            .to.be.revertedWithCustomError(this.token, 'ERC721NonexistentToken')
+            .withArgs(tokenId);
+
+          await expect(this.token.$_mint(this.bruce, tokenId))
+            .to.emit(this.token, 'Transfer')
+            .withArgs(ethers.ZeroAddress, this.bruce, tokenId);
+
+          expect(await this.token.ownerOf(tokenId)).to.equal(this.bruce);
+        });
+
+        it('tokens can be burned and re-minted #2', async function () {
+          const tokenId = sum(...this.batches.map(({ amount }) => amount)) + offset;
+
+          await expect(this.token.ownerOf(tokenId))
+            .to.be.revertedWithCustomError(this.token, 'ERC721NonexistentToken')
+            .withArgs(tokenId);
+
+          // mint
+          await expect(this.token.$_mint(this.alice, tokenId))
+            .to.emit(this.token, 'Transfer')
+            .withArgs(ethers.ZeroAddress, this.alice, tokenId);
+
+          expect(await this.token.ownerOf(tokenId)).to.equal(this.alice);
+
+          // burn
+          await expect(await this.token.$_burn(tokenId))
+            .to.emit(this.token, 'Transfer')
+            .withArgs(this.alice, ethers.ZeroAddress, tokenId);
+
+          await expect(this.token.ownerOf(tokenId))
+            .to.be.revertedWithCustomError(this.token, 'ERC721NonexistentToken')
+            .withArgs(tokenId);
+
+          // re-mint
+          await expect(this.token.$_mint(this.bruce, tokenId))
+            .to.emit(this.token, 'Transfer')
+            .withArgs(ethers.ZeroAddress, this.bruce, tokenId);
+
+          expect(await this.token.ownerOf(tokenId)).to.equal(this.bruce);
+        });
+      });
+    });
+  }
+
+  describe('invalid use', function () {
+    const receiver = ethers.Wallet.createRandom();
+
+    it('cannot mint a batch larger than 5000', async function () {
+      const { interface } = await ethers.getContractFactory('$ERC721ConsecutiveMock');
+
+      await expect(ethers.deployContract('$ERC721ConsecutiveMock', [name, symbol, 0, [], [receiver], [5001n]]))
+        .to.be.revertedWithCustomError({ interface }, 'ERC721ExceededMaxBatchMint')
+        .withArgs(5001n, 5000n);
+    });
+
+    it('cannot use single minting during construction', async function () {
+      const { interface } = await ethers.getContractFactory('$ERC721ConsecutiveNoConstructorMintMock');
+
+      await expect(
+        ethers.deployContract('$ERC721ConsecutiveNoConstructorMintMock', [name, symbol]),
+      ).to.be.revertedWithCustomError({ interface }, 'ERC721ForbiddenMint');
+    });
+
+    it('cannot use single minting during construction', async function () {
+      const { interface } = await ethers.getContractFactory('$ERC721ConsecutiveNoConstructorMintMock');
+
+      await expect(
+        ethers.deployContract('$ERC721ConsecutiveNoConstructorMintMock', [name, symbol]),
+      ).to.be.revertedWithCustomError({ interface }, 'ERC721ForbiddenMint');
+    });
+
+    it('consecutive mint not compatible with enumerability', async function () {
+      const { interface } = await ethers.getContractFactory('$ERC721ConsecutiveEnumerableMock');
+
+      await expect(
+        ethers.deployContract('$ERC721ConsecutiveEnumerableMock', [name, symbol, [receiver], [100n]]),
+      ).to.be.revertedWithCustomError({ interface }, 'ERC721EnumerableForbiddenBatchMint');
+    });
+  });
+});
