@@ -1,1 +1,27 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0VSQzcyMX0gZnJvbSAiLi4vLi4vLi4vdG9rZW4vRVJDNzIxL0VSQzcyMS5zb2wiOwppbXBvcnQge1N0cmluZ3N9IGZyb20gIi4uLy4uLy4uL3V0aWxzL1N0cmluZ3Muc29sIjsKaW1wb3J0IHtCYXNlNjR9IGZyb20gIi4uLy4uLy4uL3V0aWxzL0Jhc2U2NC5zb2wiOwoKY29udHJhY3QgQmFzZTY0TkZUIGlzIEVSQzcyMSB7CiAgICB1c2luZyBTdHJpbmdzIGZvciB1aW50MjU2OwoKICAgIGNvbnN0cnVjdG9yKCkgRVJDNzIxKCJCYXNlNjRORlQiLCAiTVRLIikge30KCiAgICAvLyAuLi4KCiAgICBmdW5jdGlvbiB0b2tlblVSSSh1aW50MjU2IHRva2VuSWQpIHB1YmxpYyBwdXJlIG92ZXJyaWRlIHJldHVybnMgKHN0cmluZyBtZW1vcnkpIHsKICAgICAgICAvLyBFcXVpdmFsZW50IHRvOgogICAgICAgIC8vIHsKICAgICAgICAvLyAgICJuYW1lIjogIkJhc2U2NE5GVCAjMSIsCiAgICAgICAgLy8gICAvLyBSZXBsYWNlIHdpdGggZXh0cmEgRVJDLTcyMSBNZXRhZGF0YSBwcm9wZXJ0aWVzCiAgICAgICAgLy8gfQogICAgICAgIC8vIHByZXR0aWVyLWlnbm9yZQogICAgICAgIHN0cmluZyBtZW1vcnkgZGF0YVVSSSA9IHN0cmluZy5jb25jYXQoIntcIm5hbWVcIjogXCJCYXNlNjRORlQgIyIsIHRva2VuSWQudG9TdHJpbmcoKSwgIlwifSIpOwoKICAgICAgICByZXR1cm4gc3RyaW5nLmNvbmNhdCgiZGF0YTphcHBsaWNhdGlvbi9qc29uO2Jhc2U2NCwiLCBCYXNlNjQuZW5jb2RlKGJ5dGVzKGRhdGFVUkkpKSk7CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {ERC721} from "../../../token/ERC721/ERC721.sol";
+import {Strings} from "../../../utils/Strings.sol";
+import {Base64} from "../../../utils/Base64.sol";
+
+contract Base64NFT is ERC721 {
+    using Strings for uint256;
+
+    constructor() ERC721("Base64NFT", "MTK") {}
+
+    // ...
+
+    function tokenURI(uint256 tokenId) public pure override returns (string memory) {
+        // Equivalent to:
+        // {
+        //   "name": "Base64NFT #1",
+        //   // Replace with extra ERC-721 Metadata properties
+        // }
+        // prettier-ignore
+        string memory dataURI = string.concat("{\"name\": \"Base64NFT #", tokenId.toString(), "\"}");
+
+        return string.concat("data:application/json;base64,", Base64.encode(bytes(dataURI)));
+    }
+}
