@@ -1,1 +1,13 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKaW1wb3J0IHtJRVJDMzE1NkZsYXNoQm9ycm93ZXJ9IGZyb20gIi4uL3BhdGNoZWQvaW50ZXJmYWNlcy9JRVJDMzE1NkZsYXNoQm9ycm93ZXIuc29sIjsKCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKY29udHJhY3QgRVJDMzE1NkZsYXNoQm9ycm93ZXJIYXJuZXNzIGlzIElFUkMzMTU2Rmxhc2hCb3Jyb3dlciB7CiAgICBieXRlczMyIHNvbWV0aGluZ1RvUmV0dXJuOwoKICAgIGZ1bmN0aW9uIG9uRmxhc2hMb2FuKGFkZHJlc3MsIGFkZHJlc3MsIHVpbnQyNTYsIHVpbnQyNTYsIGJ5dGVzIGNhbGxkYXRhKSBleHRlcm5hbCB2aWV3IG92ZXJyaWRlIHJldHVybnMgKGJ5dGVzMzIpIHsKICAgICAgICByZXR1cm4gc29tZXRoaW5nVG9SZXR1cm47CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+
+import {IERC3156FlashBorrower} from "../patched/interfaces/IERC3156FlashBorrower.sol";
+
+pragma solidity ^0.8.20;
+
+contract ERC3156FlashBorrowerHarness is IERC3156FlashBorrower {
+    bytes32 somethingToReturn;
+
+    function onFlashLoan(address, address, uint256, uint256, bytes calldata) external view override returns (bytes32) {
+        return somethingToReturn;
+    }
+}
