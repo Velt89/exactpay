@@ -1,1 +1,27 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSwgbWluZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKYXN5bmMgZnVuY3Rpb24gZml4dHVyZSgpIHsKICByZXR1cm4ge307Cn0KCmRlc2NyaWJlKCdFbnZpcm9ubWVudCBzYW5pdHknLCBmdW5jdGlvbiAoKSB7CiAgYmVmb3JlRWFjaChhc3luYyBmdW5jdGlvbiAoKSB7CiAgICBPYmplY3QuYXNzaWduKHRoaXMsIGF3YWl0IGxvYWRGaXh0dXJlKGZpeHR1cmUpKTsKICB9KTsKCiAgZGVzY3JpYmUoJ3NuYXBzaG90JywgZnVuY3Rpb24gKCkgewogICAgbGV0IGJsb2NrTnVtYmVyQmVmb3JlOwoKICAgIGl0KCdjYWNoZSBhbmQgbWluZScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYmxvY2tOdW1iZXJCZWZvcmUgPSBhd2FpdCBldGhlcnMucHJvdmlkZXIuZ2V0QmxvY2tOdW1iZXIoKTsKICAgICAgYXdhaXQgbWluZSgpOwogICAgICBleHBlY3QoYXdhaXQgZXRoZXJzLnByb3ZpZGVyLmdldEJsb2NrTnVtYmVyKCkpLnRvLmVxdWFsKGJsb2NrTnVtYmVyQmVmb3JlICsgMSk7CiAgICB9KTsKCiAgICBpdCgnY2hlY2sgc25hcHNob3QnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGV4cGVjdChhd2FpdCBldGhlcnMucHJvdmlkZXIuZ2V0QmxvY2tOdW1iZXIoKSkudG8uZXF1YWwoYmxvY2tOdW1iZXJCZWZvcmUpOwogICAgfSk7CiAgfSk7Cn0pOwo=
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture, mine } = require('@nomicfoundation/hardhat-network-helpers');
+
+async function fixture() {
+  return {};
+}
+
+describe('Environment sanity', function () {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  describe('snapshot', function () {
+    let blockNumberBefore;
+
+    it('cache and mine', async function () {
+      blockNumberBefore = await ethers.provider.getBlockNumber();
+      await mine();
+      expect(await ethers.provider.getBlockNumber()).to.equal(blockNumberBefore + 1);
+    });
+
+    it('check snapshot', async function () {
+      expect(await ethers.provider.getBlockNumber()).to.equal(blockNumberBefore);
+    });
+  });
+});
