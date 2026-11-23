@@ -1,1 +1,36 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQgIi4uL3BhdGNoZWQvdG9rZW4vRVJDMjAvRVJDMjAuc29sIjsKaW1wb3J0ICIuLi9wYXRjaGVkL3Rva2VuL0VSQzIwL2V4dGVuc2lvbnMvRVJDMjBQZXJtaXQuc29sIjsKaW1wb3J0ICIuLi9wYXRjaGVkL3Rva2VuL0VSQzIwL2V4dGVuc2lvbnMvRVJDMjBGbGFzaE1pbnQuc29sIjsKCmNvbnRyYWN0IEVSQzIwRmxhc2hNaW50SGFybmVzcyBpcyBFUkMyMCwgRVJDMjBQZXJtaXQsIEVSQzIwRmxhc2hNaW50IHsKICAgIHVpbnQyNTYgc29tZUZlZTsKICAgIGFkZHJlc3Mgc29tZUZlZVJlY2VpdmVyOwoKICAgIGNvbnN0cnVjdG9yKHN0cmluZyBtZW1vcnkgbmFtZSwgc3RyaW5nIG1lbW9yeSBzeW1ib2wpIEVSQzIwKG5hbWUsIHN5bWJvbCkgRVJDMjBQZXJtaXQobmFtZSkge30KCiAgICBmdW5jdGlvbiBtaW50KGFkZHJlc3MgYWNjb3VudCwgdWludDI1NiBhbW91bnQpIGV4dGVybmFsIHsKICAgICAgICBfbWludChhY2NvdW50LCBhbW91bnQpOwogICAgfQoKICAgIGZ1bmN0aW9uIGJ1cm4oYWRkcmVzcyBhY2NvdW50LCB1aW50MjU2IGFtb3VudCkgZXh0ZXJuYWwgewogICAgICAgIF9idXJuKGFjY291bnQsIGFtb3VudCk7CiAgICB9CgogICAgLy8gcHVibGljIGFjY2Vzc29yCiAgICBmdW5jdGlvbiBmbGFzaEZlZVJlY2VpdmVyKCkgcHVibGljIHZpZXcgcmV0dXJucyAoYWRkcmVzcykgewogICAgICAgIHJldHVybiBzb21lRmVlUmVjZWl2ZXI7CiAgICB9CgogICAgLy8gaW50ZXJuYWwgaG9vawogICAgZnVuY3Rpb24gX2ZsYXNoRmVlKGFkZHJlc3MsIHVpbnQyNTYpIGludGVybmFsIHZpZXcgb3ZlcnJpZGUgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHJldHVybiBzb21lRmVlOwogICAgfQoKICAgIGZ1bmN0aW9uIF9mbGFzaEZlZVJlY2VpdmVyKCkgaW50ZXJuYWwgdmlldyBvdmVycmlkZSByZXR1cm5zIChhZGRyZXNzKSB7CiAgICAgICAgcmV0dXJuIHNvbWVGZWVSZWNlaXZlcjsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import "../patched/token/ERC20/ERC20.sol";
+import "../patched/token/ERC20/extensions/ERC20Permit.sol";
+import "../patched/token/ERC20/extensions/ERC20FlashMint.sol";
+
+contract ERC20FlashMintHarness is ERC20, ERC20Permit, ERC20FlashMint {
+    uint256 someFee;
+    address someFeeReceiver;
+
+    constructor(string memory name, string memory symbol) ERC20(name, symbol) ERC20Permit(name) {}
+
+    function mint(address account, uint256 amount) external {
+        _mint(account, amount);
+    }
+
+    function burn(address account, uint256 amount) external {
+        _burn(account, amount);
+    }
+
+    // public accessor
+    function flashFeeReceiver() public view returns (address) {
+        return someFeeReceiver;
+    }
+
+    // internal hook
+    function _flashFee(address, uint256) internal view override returns (uint256) {
+        return someFee;
+    }
+
+    function _flashFeeReceiver() internal view override returns (address) {
+        return someFeeReceiver;
+    }
+}
