@@ -1,1 +1,23 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0VSQzQ2MjZ9IGZyb20gIi4uLy4uL3Rva2VuL0VSQzIwL2V4dGVuc2lvbnMvRVJDNDYyNi5zb2wiOwoKYWJzdHJhY3QgY29udHJhY3QgRVJDNDYyNkxpbWl0c01vY2sgaXMgRVJDNDYyNiB7CiAgICB1aW50MjU2IF9tYXhEZXBvc2l0OwogICAgdWludDI1NiBfbWF4TWludDsKCiAgICBjb25zdHJ1Y3RvcigpIHsKICAgICAgICBfbWF4RGVwb3NpdCA9IDEwMCBldGhlcjsKICAgICAgICBfbWF4TWludCA9IDEwMCBldGhlcjsKICAgIH0KCiAgICBmdW5jdGlvbiBtYXhEZXBvc2l0KGFkZHJlc3MpIHB1YmxpYyB2aWV3IG92ZXJyaWRlIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXR1cm4gX21heERlcG9zaXQ7CiAgICB9CgogICAgZnVuY3Rpb24gbWF4TWludChhZGRyZXNzKSBwdWJsaWMgdmlldyBvdmVycmlkZSByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgcmV0dXJuIF9tYXhNaW50OwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {ERC4626} from "../../token/ERC20/extensions/ERC4626.sol";
+
+abstract contract ERC4626LimitsMock is ERC4626 {
+    uint256 _maxDeposit;
+    uint256 _maxMint;
+
+    constructor() {
+        _maxDeposit = 100 ether;
+        _maxMint = 100 ether;
+    }
+
+    function maxDeposit(address) public view override returns (uint256) {
+        return _maxDeposit;
+    }
+
+    function maxMint(address) public view override returns (uint256) {
+        return _maxMint;
+    }
+}
