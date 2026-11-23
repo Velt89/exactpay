@@ -1,1 +1,134 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodG9rZW4vRVJDMjAvZXh0ZW5zaW9ucy9FUkMxMzYzLnNvbCkKCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKaW1wb3J0IHtFUkMyMH0gZnJvbSAiLi4vRVJDMjAuc29sIjsKaW1wb3J0IHtJRVJDMTY1LCBFUkMxNjV9IGZyb20gIi4uLy4uLy4uL3V0aWxzL2ludHJvc3BlY3Rpb24vRVJDMTY1LnNvbCI7CmltcG9ydCB7SUVSQzEzNjN9IGZyb20gIi4uLy4uLy4uL2ludGVyZmFjZXMvSUVSQzEzNjMuc29sIjsKaW1wb3J0IHtFUkMxMzYzVXRpbHN9IGZyb20gIi4uL3V0aWxzL0VSQzEzNjNVdGlscy5zb2wiOwoKLyoqCiAqIEB0aXRsZSBFUkMxMzYzCiAqIEBkZXYgRXh0ZW5zaW9uIG9mIHtFUkMyMH0gdG9rZW5zIHRoYXQgYWRkcyBzdXBwb3J0IGZvciBjb2RlIGV4ZWN1dGlvbiBhZnRlciB0cmFuc2ZlcnMgYW5kIGFwcHJvdmFscwogKiBvbiByZWNpcGllbnQgY29udHJhY3RzLiBDYWxscyBhZnRlciB0cmFuc2ZlcnMgYXJlIGVuYWJsZWQgdGhyb3VnaCB0aGUge0VSQzEzNjMtdHJhbnNmZXJBbmRDYWxsfSBhbmQKICoge0VSQzEzNjMtdHJhbnNmZXJGcm9tQW5kQ2FsbH0gbWV0aG9kcyB3aGlsZSBjYWxscyBhZnRlciBhcHByb3ZhbHMgY2FuIGJlIG1hZGUgd2l0aCB7RVJDMTM2My1hcHByb3ZlQW5kQ2FsbH0KICoKICogX0F2YWlsYWJsZSBzaW5jZSB2NS4xLl8KICovCmFic3RyYWN0IGNvbnRyYWN0IEVSQzEzNjMgaXMgRVJDMjAsIEVSQzE2NSwgSUVSQzEzNjMgewogICAgLyoqCiAgICAgKiBAZGV2IEluZGljYXRlcyBhIGZhaWx1cmUgd2l0aGluIHRoZSB7dHJhbnNmZXJ9IHBhcnQgb2YgYSB0cmFuc2ZlckFuZENhbGwgb3BlcmF0aW9uLgogICAgICogQHBhcmFtIHJlY2VpdmVyIEFkZHJlc3MgdG8gd2hpY2ggdG9rZW5zIGFyZSBiZWluZyB0cmFuc2ZlcnJlZC4KICAgICAqIEBwYXJhbSB2YWx1ZSBBbW91bnQgb2YgdG9rZW5zIHRvIGJlIHRyYW5zZmVycmVkLgogICAgICovCiAgICBlcnJvciBFUkMxMzYzVHJhbnNmZXJGYWlsZWQoYWRkcmVzcyByZWNlaXZlciwgdWludDI1NiB2YWx1ZSk7CgogICAgLyoqCiAgICAgKiBAZGV2IEluZGljYXRlcyBhIGZhaWx1cmUgd2l0aGluIHRoZSB7dHJhbnNmZXJGcm9tfSBwYXJ0IG9mIGEgdHJhbnNmZXJGcm9tQW5kQ2FsbCBvcGVyYXRpb24uCiAgICAgKiBAcGFyYW0gc2VuZGVyIEFkZHJlc3MgZnJvbSB3aGljaCB0byBzZW5kIHRva2Vucy4KICAgICAqIEBwYXJhbSByZWNlaXZlciBBZGRyZXNzIHRvIHdoaWNoIHRva2VucyBhcmUgYmVpbmcgdHJhbnNmZXJyZWQuCiAgICAgKiBAcGFyYW0gdmFsdWUgQW1vdW50IG9mIHRva2VucyB0byBiZSB0cmFuc2ZlcnJlZC4KICAgICAqLwogICAgZXJyb3IgRVJDMTM2M1RyYW5zZmVyRnJvbUZhaWxlZChhZGRyZXNzIHNlbmRlciwgYWRkcmVzcyByZWNlaXZlciwgdWludDI1NiB2YWx1ZSk7CgogICAgLyoqCiAgICAgKiBAZGV2IEluZGljYXRlcyBhIGZhaWx1cmUgd2l0aGluIHRoZSB7YXBwcm92ZX0gcGFydCBvZiBhIGFwcHJvdmVBbmRDYWxsIG9wZXJhdGlvbi4KICAgICAqIEBwYXJhbSBzcGVuZGVyIEFkZHJlc3Mgd2hpY2ggd2lsbCBzcGVuZCB0aGUgZnVuZHMuCiAgICAgKiBAcGFyYW0gdmFsdWUgQW1vdW50IG9mIHRva2VucyB0byBiZSBzcGVudC4KICAgICAqLwogICAgZXJyb3IgRVJDMTM2M0FwcHJvdmVGYWlsZWQoYWRkcmVzcyBzcGVuZGVyLCB1aW50MjU2IHZhbHVlKTsKCiAgICAvKioKICAgICAqIEBpbmhlcml0ZG9jIElFUkMxNjUKICAgICAqLwogICAgZnVuY3Rpb24gc3VwcG9ydHNJbnRlcmZhY2UoYnl0ZXM0IGludGVyZmFjZUlkKSBwdWJsaWMgdmlldyB2aXJ0dWFsIG92ZXJyaWRlKEVSQzE2NSwgSUVSQzE2NSkgcmV0dXJucyAoYm9vbCkgewogICAgICAgIHJldHVybiBpbnRlcmZhY2VJZCA9PSB0eXBlKElFUkMxMzYzKS5pbnRlcmZhY2VJZCB8fCBzdXBlci5zdXBwb3J0c0ludGVyZmFjZShpbnRlcmZhY2VJZCk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IE1vdmVzIGEgYHZhbHVlYCBhbW91bnQgb2YgdG9rZW5zIGZyb20gdGhlIGNhbGxlcidzIGFjY291bnQgdG8gYHRvYAogICAgICogYW5kIHRoZW4gY2FsbHMge0lFUkMxMzYzUmVjZWl2ZXItb25UcmFuc2ZlclJlY2VpdmVkfSBvbiBgdG9gLgogICAgICoKICAgICAqIFJlcXVpcmVtZW50czoKICAgICAqCiAgICAgKiAtIFRoZSB0YXJnZXQgaGFzIGNvZGUgKGkuZS4gaXMgYSBjb250cmFjdCkuCiAgICAgKiAtIFRoZSB0YXJnZXQgYHRvYCBtdXN0IGltcGxlbWVudCB0aGUge0lFUkMxMzYzUmVjZWl2ZXJ9IGludGVyZmFjZS4KICAgICAqIC0gVGhlIHRhcmdldCBtdXN0IHJldHVybiB0aGUge0lFUkMxMzYzUmVjZWl2ZXItb25UcmFuc2ZlclJlY2VpdmVkfSBzZWxlY3RvciB0byBhY2NlcHQgdGhlIHRyYW5zZmVyLgogICAgICogLSBUaGUgaW50ZXJuYWwge3RyYW5zZmVyfSBtdXN0IHN1Y2NlZWQgKHJldHVybmVkIGB0cnVlYCkuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHRyYW5zZmVyQW5kQ2FsbChhZGRyZXNzIHRvLCB1aW50MjU2IHZhbHVlKSBwdWJsaWMgcmV0dXJucyAoYm9vbCkgewogICAgICAgIHJldHVybiB0cmFuc2ZlckFuZENhbGwodG8sIHZhbHVlLCAiIik7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFZhcmlhbnQgb2Yge3RyYW5zZmVyQW5kQ2FsbH0gdGhhdCBhY2NlcHRzIGFuIGFkZGl0aW9uYWwgYGRhdGFgIHBhcmFtZXRlciB3aXRoCiAgICAgKiBubyBzcGVjaWZpZWQgZm9ybWF0LgogICAgICovCiAgICBmdW5jdGlvbiB0cmFuc2ZlckFuZENhbGwoYWRkcmVzcyB0bywgdWludDI1NiB2YWx1ZSwgYnl0ZXMgbWVtb3J5IGRhdGEpIHB1YmxpYyB2aXJ0dWFsIHJldHVybnMgKGJvb2wpIHsKICAgICAgICBpZiAoIXRyYW5zZmVyKHRvLCB2YWx1ZSkpIHsKICAgICAgICAgICAgcmV2ZXJ0IEVSQzEzNjNUcmFuc2ZlckZhaWxlZCh0bywgdmFsdWUpOwogICAgICAgIH0KICAgICAgICBFUkMxMzYzVXRpbHMuY2hlY2tPbkVSQzEzNjNUcmFuc2ZlclJlY2VpdmVkKF9tc2dTZW5kZXIoKSwgX21zZ1NlbmRlcigpLCB0bywgdmFsdWUsIGRhdGEpOwogICAgICAgIHJldHVybiB0cnVlOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBNb3ZlcyBhIGB2YWx1ZWAgYW1vdW50IG9mIHRva2VucyBmcm9tIGBmcm9tYCB0byBgdG9gIHVzaW5nIHRoZSBhbGxvd2FuY2UgbWVjaGFuaXNtCiAgICAgKiBhbmQgdGhlbiBjYWxscyB7SUVSQzEzNjNSZWNlaXZlci1vblRyYW5zZmVyUmVjZWl2ZWR9IG9uIGB0b2AuCiAgICAgKgogICAgICogUmVxdWlyZW1lbnRzOgogICAgICoKICAgICAqIC0gVGhlIHRhcmdldCBoYXMgY29kZSAoaS5lLiBpcyBhIGNvbnRyYWN0KS4KICAgICAqIC0gVGhlIHRhcmdldCBgdG9gIG11c3QgaW1wbGVtZW50IHRoZSB7SUVSQzEzNjNSZWNlaXZlcn0gaW50ZXJmYWNlLgogICAgICogLSBUaGUgdGFyZ2V0IG11c3QgcmV0dXJuIHRoZSB7SUVSQzEzNjNSZWNlaXZlci1vblRyYW5zZmVyUmVjZWl2ZWR9IHNlbGVjdG9yIHRvIGFjY2VwdCB0aGUgdHJhbnNmZXIuCiAgICAgKiAtIFRoZSBpbnRlcm5hbCB7dHJhbnNmZXJGcm9tfSBtdXN0IHN1Y2NlZWQgKHJldHVybmVkIGB0cnVlYCkuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHRyYW5zZmVyRnJvbUFuZENhbGwoYWRkcmVzcyBmcm9tLCBhZGRyZXNzIHRvLCB1aW50MjU2IHZhbHVlKSBwdWJsaWMgcmV0dXJucyAoYm9vbCkgewogICAgICAgIHJldHVybiB0cmFuc2ZlckZyb21BbmRDYWxsKGZyb20sIHRvLCB2YWx1ZSwgIiIpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBWYXJpYW50IG9mIHt0cmFuc2ZlckZyb21BbmRDYWxsfSB0aGF0IGFjY2VwdHMgYW4gYWRkaXRpb25hbCBgZGF0YWAgcGFyYW1ldGVyIHdpdGgKICAgICAqIG5vIHNwZWNpZmllZCBmb3JtYXQuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHRyYW5zZmVyRnJvbUFuZENhbGwoCiAgICAgICAgYWRkcmVzcyBmcm9tLAogICAgICAgIGFkZHJlc3MgdG8sCiAgICAgICAgdWludDI1NiB2YWx1ZSwKICAgICAgICBieXRlcyBtZW1vcnkgZGF0YQogICAgKSBwdWJsaWMgdmlydHVhbCByZXR1cm5zIChib29sKSB7CiAgICAgICAgaWYgKCF0cmFuc2ZlckZyb20oZnJvbSwgdG8sIHZhbHVlKSkgewogICAgICAgICAgICByZXZlcnQgRVJDMTM2M1RyYW5zZmVyRnJvbUZhaWxlZChmcm9tLCB0bywgdmFsdWUpOwogICAgICAgIH0KICAgICAgICBFUkMxMzYzVXRpbHMuY2hlY2tPbkVSQzEzNjNUcmFuc2ZlclJlY2VpdmVkKF9tc2dTZW5kZXIoKSwgZnJvbSwgdG8sIHZhbHVlLCBkYXRhKTsKICAgICAgICByZXR1cm4gdHJ1ZTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgU2V0cyBhIGB2YWx1ZWAgYW1vdW50IG9mIHRva2VucyBhcyB0aGUgYWxsb3dhbmNlIG9mIGBzcGVuZGVyYCBvdmVyIHRoZQogICAgICogY2FsbGVyJ3MgdG9rZW5zIGFuZCB0aGVuIGNhbGxzIHtJRVJDMTM2M1NwZW5kZXItb25BcHByb3ZhbFJlY2VpdmVkfSBvbiBgc3BlbmRlcmAuCiAgICAgKgogICAgICogUmVxdWlyZW1lbnRzOgogICAgICoKICAgICAqIC0gVGhlIHRhcmdldCBoYXMgY29kZSAoaS5lLiBpcyBhIGNvbnRyYWN0KS4KICAgICAqIC0gVGhlIHRhcmdldCBgc3BlbmRlcmAgbXVzdCBpbXBsZW1lbnQgdGhlIHtJRVJDMTM2M1NwZW5kZXJ9IGludGVyZmFjZS4KICAgICAqIC0gVGhlIHRhcmdldCBtdXN0IHJldHVybiB0aGUge0lFUkMxMzYzU3BlbmRlci1vbkFwcHJvdmFsUmVjZWl2ZWR9IHNlbGVjdG9yIHRvIGFjY2VwdCB0aGUgYXBwcm92YWwuCiAgICAgKiAtIFRoZSBpbnRlcm5hbCB7YXBwcm92ZX0gbXVzdCBzdWNjZWVkIChyZXR1cm5lZCBgdHJ1ZWApLgogICAgICovCiAgICBmdW5jdGlvbiBhcHByb3ZlQW5kQ2FsbChhZGRyZXNzIHNwZW5kZXIsIHVpbnQyNTYgdmFsdWUpIHB1YmxpYyByZXR1cm5zIChib29sKSB7CiAgICAgICAgcmV0dXJuIGFwcHJvdmVBbmRDYWxsKHNwZW5kZXIsIHZhbHVlLCAiIik7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFZhcmlhbnQgb2Yge2FwcHJvdmVBbmRDYWxsfSB0aGF0IGFjY2VwdHMgYW4gYWRkaXRpb25hbCBgZGF0YWAgcGFyYW1ldGVyIHdpdGgKICAgICAqIG5vIHNwZWNpZmllZCBmb3JtYXQuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGFwcHJvdmVBbmRDYWxsKGFkZHJlc3Mgc3BlbmRlciwgdWludDI1NiB2YWx1ZSwgYnl0ZXMgbWVtb3J5IGRhdGEpIHB1YmxpYyB2aXJ0dWFsIHJldHVybnMgKGJvb2wpIHsKICAgICAgICBpZiAoIWFwcHJvdmUoc3BlbmRlciwgdmFsdWUpKSB7CiAgICAgICAgICAgIHJldmVydCBFUkMxMzYzQXBwcm92ZUZhaWxlZChzcGVuZGVyLCB2YWx1ZSk7CiAgICAgICAgfQogICAgICAgIEVSQzEzNjNVdGlscy5jaGVja09uRVJDMTM2M0FwcHJvdmFsUmVjZWl2ZWQoX21zZ1NlbmRlcigpLCBzcGVuZGVyLCB2YWx1ZSwgZGF0YSk7CiAgICAgICAgcmV0dXJuIHRydWU7CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (token/ERC20/extensions/ERC1363.sol)
+
+pragma solidity ^0.8.20;
+
+import {ERC20} from "../ERC20.sol";
+import {IERC165, ERC165} from "../../../utils/introspection/ERC165.sol";
+import {IERC1363} from "../../../interfaces/IERC1363.sol";
+import {ERC1363Utils} from "../utils/ERC1363Utils.sol";
+
+/**
+ * @title ERC1363
+ * @dev Extension of {ERC20} tokens that adds support for code execution after transfers and approvals
+ * on recipient contracts. Calls after transfers are enabled through the {ERC1363-transferAndCall} and
+ * {ERC1363-transferFromAndCall} methods while calls after approvals can be made with {ERC1363-approveAndCall}
+ *
+ * _Available since v5.1._
+ */
+abstract contract ERC1363 is ERC20, ERC165, IERC1363 {
+    /**
+     * @dev Indicates a failure within the {transfer} part of a transferAndCall operation.
+     * @param receiver Address to which tokens are being transferred.
+     * @param value Amount of tokens to be transferred.
+     */
+    error ERC1363TransferFailed(address receiver, uint256 value);
+
+    /**
+     * @dev Indicates a failure within the {transferFrom} part of a transferFromAndCall operation.
+     * @param sender Address from which to send tokens.
+     * @param receiver Address to which tokens are being transferred.
+     * @param value Amount of tokens to be transferred.
+     */
+    error ERC1363TransferFromFailed(address sender, address receiver, uint256 value);
+
+    /**
+     * @dev Indicates a failure within the {approve} part of a approveAndCall operation.
+     * @param spender Address which will spend the funds.
+     * @param value Amount of tokens to be spent.
+     */
+    error ERC1363ApproveFailed(address spender, uint256 value);
+
+    /**
+     * @inheritdoc IERC165
+     */
+    function supportsInterface(bytes4 interfaceId) public view virtual override(ERC165, IERC165) returns (bool) {
+        return interfaceId == type(IERC1363).interfaceId || super.supportsInterface(interfaceId);
+    }
+
+    /**
+     * @dev Moves a `value` amount of tokens from the caller's account to `to`
+     * and then calls {IERC1363Receiver-onTransferReceived} on `to`.
+     *
+     * Requirements:
+     *
+     * - The target has code (i.e. is a contract).
+     * - The target `to` must implement the {IERC1363Receiver} interface.
+     * - The target must return the {IERC1363Receiver-onTransferReceived} selector to accept the transfer.
+     * - The internal {transfer} must succeed (returned `true`).
+     */
+    function transferAndCall(address to, uint256 value) public returns (bool) {
+        return transferAndCall(to, value, "");
+    }
+
+    /**
+     * @dev Variant of {transferAndCall} that accepts an additional `data` parameter with
+     * no specified format.
+     */
+    function transferAndCall(address to, uint256 value, bytes memory data) public virtual returns (bool) {
+        if (!transfer(to, value)) {
+            revert ERC1363TransferFailed(to, value);
+        }
+        ERC1363Utils.checkOnERC1363TransferReceived(_msgSender(), _msgSender(), to, value, data);
+        return true;
+    }
+
+    /**
+     * @dev Moves a `value` amount of tokens from `from` to `to` using the allowance mechanism
+     * and then calls {IERC1363Receiver-onTransferReceived} on `to`.
+     *
+     * Requirements:
+     *
+     * - The target has code (i.e. is a contract).
+     * - The target `to` must implement the {IERC1363Receiver} interface.
+     * - The target must return the {IERC1363Receiver-onTransferReceived} selector to accept the transfer.
+     * - The internal {transferFrom} must succeed (returned `true`).
+     */
+    function transferFromAndCall(address from, address to, uint256 value) public returns (bool) {
+        return transferFromAndCall(from, to, value, "");
+    }
+
+    /**
+     * @dev Variant of {transferFromAndCall} that accepts an additional `data` parameter with
+     * no specified format.
+     */
+    function transferFromAndCall(
+        address from,
+        address to,
+        uint256 value,
+        bytes memory data
+    ) public virtual returns (bool) {
+        if (!transferFrom(from, to, value)) {
+            revert ERC1363TransferFromFailed(from, to, value);
+        }
+        ERC1363Utils.checkOnERC1363TransferReceived(_msgSender(), from, to, value, data);
+        return true;
+    }
+
+    /**
+     * @dev Sets a `value` amount of tokens as the allowance of `spender` over the
+     * caller's tokens and then calls {IERC1363Spender-onApprovalReceived} on `spender`.
+     *
+     * Requirements:
+     *
+     * - The target has code (i.e. is a contract).
+     * - The target `spender` must implement the {IERC1363Spender} interface.
+     * - The target must return the {IERC1363Spender-onApprovalReceived} selector to accept the approval.
+     * - The internal {approve} must succeed (returned `true`).
+     */
+    function approveAndCall(address spender, uint256 value) public returns (bool) {
+        return approveAndCall(spender, value, "");
+    }
+
+    /**
+     * @dev Variant of {approveAndCall} that accepts an additional `data` parameter with
+     * no specified format.
+     */
+    function approveAndCall(address spender, uint256 value, bytes memory data) public virtual returns (bool) {
+        if (!approve(spender, value)) {
+            revert ERC1363ApproveFailed(spender, value);
+        }
+        ERC1363Utils.checkOnERC1363ApprovalReceived(_msgSender(), spender, value, data);
+        return true;
+    }
+}
