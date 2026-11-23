@@ -1,1 +1,71 @@
-PSBDcmVhdGluZyBFUkMtMjAgU3VwcGx5CgpJbiB0aGlzIGd1aWRlLCB5b3Ugd2lsbCBsZWFybiBob3cgdG8gY3JlYXRlIGFuIEVSQy0yMCB0b2tlbiB3aXRoIGEgY3VzdG9tIHN1cHBseSBtZWNoYW5pc20uIFdlIHdpbGwgc2hvd2Nhc2UgdHdvIGlkaW9tYXRpYyB3YXlzIHRvIHVzZSBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIGZvciB0aGlzIHB1cnBvc2UgdGhhdCB5b3Ugd2lsbCBiZSBhYmxlIHRvIGFwcGx5IHRvIHlvdXIgc21hcnQgY29udHJhY3QgZGV2ZWxvcG1lbnQgcHJhY3RpY2UuCgpUaGUgc3RhbmRhcmQgaW50ZXJmYWNlIGltcGxlbWVudGVkIGJ5IHRva2VucyBidWlsdCBvbiBFdGhlcmV1bSBpcyBjYWxsZWQgRVJDLTIwLCBhbmQgQ29udHJhY3RzIGluY2x1ZGVzIGEgd2lkZWx5IHVzZWQgaW1wbGVtZW50YXRpb24gb2YgaXQ6IHRoZSBhcHRseSBuYW1lZCB4cmVmOmFwaTp0b2tlbi9FUkMyMC5hZG9jW2BFUkMyMGBdIGNvbnRyYWN0LiBUaGlzIGNvbnRyYWN0LCBsaWtlIHRoZSBzdGFuZGFyZCBpdHNlbGYsIGlzIHF1aXRlIHNpbXBsZSBhbmQgYmFyZS1ib25lcy4gSW4gZmFjdCwgaWYgeW91IHRyeSB0byBkZXBsb3kgYW4gaW5zdGFuY2Ugb2YgYEVSQzIwYCBhcy1pcyBpdCB3aWxsIGJlIHF1aXRlIGxpdGVyYWxseSB1c2VsZXNzLi4uIGl0IHdpbGwgaGF2ZSBubyBzdXBwbHkhIFdoYXQgdXNlIGlzIGEgdG9rZW4gd2l0aCBubyBzdXBwbHk/CgpUaGUgd2F5IHRoYXQgc3VwcGx5IGlzIGNyZWF0ZWQgaXMgbm90IGRlZmluZWQgaW4gdGhlIEVSQy0yMCBkb2N1bWVudC4gRXZlcnkgdG9rZW4gaXMgZnJlZSB0byBleHBlcmltZW50IHdpdGggaXRzIG93biBtZWNoYW5pc21zLCByYW5naW5nIGZyb20gdGhlIG1vc3QgZGVjZW50cmFsaXplZCB0byB0aGUgbW9zdCBjZW50cmFsaXplZCwgZnJvbSB0aGUgbW9zdCBuYWl2ZSB0byB0aGUgbW9zdCByZXNlYXJjaGVkLCBhbmQgbW9yZS4KCltbZml4ZWQtc3VwcGx5XV0KPT0gRml4ZWQgU3VwcGx5CgpMZXQncyBzYXkgd2Ugd2FudCBhIHRva2VuIHdpdGggYSBmaXhlZCBzdXBwbHkgb2YgMTAwMCwgaW5pdGlhbGx5IGFsbG9jYXRlZCB0byB0aGUgYWNjb3VudCB0aGF0IGRlcGxveXMgdGhlIGNvbnRyYWN0LiBJZiB5b3UndmUgdXNlZCBDb250cmFjdHMgdjEsIHlvdSBtYXkgaGF2ZSB3cml0dGVuIGNvZGUgbGlrZSB0aGUgZm9sbG93aW5nOgoKW3NvdXJjZSxzb2xpZGl0eV0KLS0tLQpjb250cmFjdCBFUkMyMEZpeGVkU3VwcGx5IGlzIEVSQzIwIHsKICAgIGNvbnN0cnVjdG9yKCkgewogICAgICAgIHRvdGFsU3VwcGx5ICs9IDEwMDA7CiAgICAgICAgYmFsYW5jZXNbbXNnLnNlbmRlcl0gKz0gMTAwMDsKICAgIH0KfQotLS0tCgpTdGFydGluZyB3aXRoIENvbnRyYWN0cyB2MiwgdGhpcyBwYXR0ZXJuIGlzIG5vdCBvbmx5IGRpc2NvdXJhZ2VkLCBidXQgZGlzYWxsb3dlZC4gVGhlIHZhcmlhYmxlcyBgdG90YWxTdXBwbHlgIGFuZCBgYmFsYW5jZXNgIGFyZSBub3cgcHJpdmF0ZSBpbXBsZW1lbnRhdGlvbiBkZXRhaWxzIG9mIGBFUkMyMGAsIGFuZCB5b3UgY2FuJ3QgZGlyZWN0bHkgd3JpdGUgdG8gdGhlbS4gSW5zdGVhZCwgdGhlcmUgaXMgYW4gaW50ZXJuYWwgeHJlZjphcGk6dG9rZW4vRVJDMjAuYWRvYyNFUkMyMC1fbWludC1hZGRyZXNzLXVpbnQyNTYtW2BfbWludGBdIGZ1bmN0aW9uIHRoYXQgd2lsbCBkbyBleGFjdGx5IHRoaXM6Cgpbc291cmNlLHNvbGlkaXR5XQotLS0tCmNvbnRyYWN0IEVSQzIwRml4ZWRTdXBwbHkgaXMgRVJDMjAgewogICAgY29uc3RydWN0b3IoKSBFUkMyMCgiRml4ZWQiLCAiRklYIikgewogICAgICAgIF9taW50KG1zZy5zZW5kZXIsIDEwMDApOwogICAgfQp9Ci0tLS0KCkVuY2Fwc3VsYXRpbmcgc3RhdGUgbGlrZSB0aGlzIG1ha2VzIGl0IHNhZmVyIHRvIGV4dGVuZCBjb250cmFjdHMuIEZvciBpbnN0YW5jZSwgaW4gdGhlIGZpcnN0IGV4YW1wbGUgd2UgaGFkIHRvIG1hbnVhbGx5IGtlZXAgdGhlIGB0b3RhbFN1cHBseWAgaW4gc3luYyB3aXRoIHRoZSBtb2RpZmllZCBiYWxhbmNlcywgd2hpY2ggaXMgZWFzeSB0byBmb3JnZXQuIEluIGZhY3QsIHdlIG9taXR0ZWQgc29tZXRoaW5nIGVsc2UgdGhhdCBpcyBhbHNvIGVhc2lseSBmb3Jnb3R0ZW46IHRoZSBgVHJhbnNmZXJgIGV2ZW50IHRoYXQgaXMgcmVxdWlyZWQgYnkgdGhlIHN0YW5kYXJkLCBhbmQgd2hpY2ggaXMgcmVsaWVkIG9uIGJ5IHNvbWUgY2xpZW50cy4gVGhlIHNlY29uZCBleGFtcGxlIGRvZXMgbm90IGhhdmUgdGhpcyBidWcsIGJlY2F1c2UgdGhlIGludGVybmFsIGBfbWludGAgZnVuY3Rpb24gdGFrZXMgY2FyZSBvZiBpdC4KCltbcmV3YXJkaW5nLW1pbmVyc11dCj09IFJld2FyZGluZyBNaW5lcnMKClRoZSBpbnRlcm5hbCB4cmVmOmFwaTp0b2tlbi9FUkMyMC5hZG9jI0VSQzIwLV9taW50LWFkZHJlc3MtdWludDI1Ni1bYF9taW50YF0gZnVuY3Rpb24gaXMgdGhlIGtleSBidWlsZGluZyBibG9jayB0aGF0IGFsbG93cyB1cyB0byB3cml0ZSBFUkMtMjAgZXh0ZW5zaW9ucyB0aGF0IGltcGxlbWVudCBhIHN1cHBseSBtZWNoYW5pc20uCgpUaGUgbWVjaGFuaXNtIHdlIHdpbGwgaW1wbGVtZW50IGlzIGEgdG9rZW4gcmV3YXJkIGZvciB0aGUgbWluZXJzIHRoYXQgcHJvZHVjZSBFdGhlcmV1bSBibG9ja3MuIEluIFNvbGlkaXR5LCB3ZSBjYW4gYWNjZXNzIHRoZSBhZGRyZXNzIG9mIHRoZSBjdXJyZW50IGJsb2NrJ3MgbWluZXIgaW4gdGhlIGdsb2JhbCB2YXJpYWJsZSBgYmxvY2suY29pbmJhc2VgLiBXZSB3aWxsIG1pbnQgYSB0b2tlbiByZXdhcmQgdG8gdGhpcyBhZGRyZXNzIHdoZW5ldmVyIHNvbWVvbmUgY2FsbHMgdGhlIGZ1bmN0aW9uIGBtaW50TWluZXJSZXdhcmQoKWAgb24gb3VyIHRva2VuLiBUaGUgbWVjaGFuaXNtIG1heSBzb3VuZCBzaWxseSwgYnV0IHlvdSBuZXZlciBrbm93IHdoYXQga2luZCBvZiBkeW5hbWljIHRoaXMgbWlnaHQgcmVzdWx0IGluLCBhbmQgaXQncyB3b3J0aCBhbmFseXppbmcgYW5kIGV4cGVyaW1lbnRpbmcgd2l0aCEKCltzb3VyY2Usc29saWRpdHldCi0tLS0KY29udHJhY3QgRVJDMjBXaXRoTWluZXJSZXdhcmQgaXMgRVJDMjAgewogICAgY29uc3RydWN0b3IoKSBFUkMyMCgiUmV3YXJkIiwgIlJXRCIpIHt9CgogICAgZnVuY3Rpb24gbWludE1pbmVyUmV3YXJkKCkgcHVibGljIHsKICAgICAgICBfbWludChibG9jay5jb2luYmFzZSwgMTAwMCk7CiAgICB9Cn0KLS0tLQoKQXMgd2UgY2FuIHNlZSwgYF9taW50YCBtYWtlcyBpdCBzdXBlciBlYXN5IHRvIGRvIHRoaXMgY29ycmVjdGx5LgoKW1thdXRvbWF0aW5nLXRoZS1yZXdhcmRdXQo9PSBBdXRvbWF0aW5nIHRoZSBSZXdhcmQKClNvIGZhciBvdXIgc3VwcGx5IG1lY2hhbmlzbSB3YXMgdHJpZ2dlcmVkIG1hbnVhbGx5LCBidXQgYEVSQzIwYCBhbHNvIGFsbG93cyB1cyB0byBleHRlbmQgdGhlIGNvcmUgZnVuY3Rpb25hbGl0eSBvZiB0aGUgdG9rZW4gdGhyb3VnaCB0aGUgeHJlZjphcGk6dG9rZW4vRVJDMjAuYWRvYyNFUkMyMC1fdXBkYXRlLWFkZHJlc3MtYWRkcmVzcy11aW50MjU2LVtgX3VwZGF0ZWBdIGZ1bmN0aW9uLgoKQWRkaW5nIHRvIHRoZSBzdXBwbHkgbWVjaGFuaXNtIGZyb20gdGhlIHByZXZpb3VzIHNlY3Rpb24sIHdlIGNhbiB1c2UgdGhpcyBmdW5jdGlvbiB0byBtaW50IGEgbWluZXIgcmV3YXJkIGZvciBldmVyeSB0b2tlbiB0cmFuc2ZlciB0aGF0IGlzIGluY2x1ZGVkIGluIHRoZSBibG9ja2NoYWluLgoKYGBgc29saWRpdHkKaW5jbHVkZTo6YXBpOmV4YW1wbGUkRVJDMjBXaXRoQXV0b01pbmVyUmV3YXJkLnNvbFtdCmBgYAoKW1t3cmFwcGluZy11cF1dCj09IFdyYXBwaW5nIFVwCgpXZSd2ZSBzZWVuIGhvdyB0byBpbXBsZW1lbnQgYSBFUkMtMjAgc3VwcGx5IG1lY2hhbmlzbTogaW50ZXJuYWxseSB0aHJvdWdoIGBfbWludGAuIEhvcGVmdWxseSB0aGlzIGhhcyBoZWxwZWQgeW91IHVuZGVyc3RhbmQgaG93IHRvIHVzZSBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIGFuZCBzb21lIG9mIHRoZSBkZXNpZ24gcHJpbmNpcGxlcyBiZWhpbmQgaXQsIGFuZCB5b3UgY2FuIGFwcGx5IHRoZW0gdG8geW91ciBvd24gc21hcnQgY29udHJhY3RzLgo=
+= Creating ERC-20 Supply
+
+In this guide, you will learn how to create an ERC-20 token with a custom supply mechanism. We will showcase two idiomatic ways to use OpenZeppelin Contracts for this purpose that you will be able to apply to your smart contract development practice.
+
+The standard interface implemented by tokens built on Ethereum is called ERC-20, and Contracts includes a widely used implementation of it: the aptly named xref:api:token/ERC20.adoc[`ERC20`] contract. This contract, like the standard itself, is quite simple and bare-bones. In fact, if you try to deploy an instance of `ERC20` as-is it will be quite literally useless... it will have no supply! What use is a token with no supply?
+
+The way that supply is created is not defined in the ERC-20 document. Every token is free to experiment with its own mechanisms, ranging from the most decentralized to the most centralized, from the most naive to the most researched, and more.
+
+[[fixed-supply]]
+== Fixed Supply
+
+Let's say we want a token with a fixed supply of 1000, initially allocated to the account that deploys the contract. If you've used Contracts v1, you may have written code like the following:
+
+[source,solidity]
+----
+contract ERC20FixedSupply is ERC20 {
+    constructor() {
+        totalSupply += 1000;
+        balances[msg.sender] += 1000;
+    }
+}
+----
+
+Starting with Contracts v2, this pattern is not only discouraged, but disallowed. The variables `totalSupply` and `balances` are now private implementation details of `ERC20`, and you can't directly write to them. Instead, there is an internal xref:api:token/ERC20.adoc#ERC20-_mint-address-uint256-[`_mint`] function that will do exactly this:
+
+[source,solidity]
+----
+contract ERC20FixedSupply is ERC20 {
+    constructor() ERC20("Fixed", "FIX") {
+        _mint(msg.sender, 1000);
+    }
+}
+----
+
+Encapsulating state like this makes it safer to extend contracts. For instance, in the first example we had to manually keep the `totalSupply` in sync with the modified balances, which is easy to forget. In fact, we omitted something else that is also easily forgotten: the `Transfer` event that is required by the standard, and which is relied on by some clients. The second example does not have this bug, because the internal `_mint` function takes care of it.
+
+[[rewarding-miners]]
+== Rewarding Miners
+
+The internal xref:api:token/ERC20.adoc#ERC20-_mint-address-uint256-[`_mint`] function is the key building block that allows us to write ERC-20 extensions that implement a supply mechanism.
+
+The mechanism we will implement is a token reward for the miners that produce Ethereum blocks. In Solidity, we can access the address of the current block's miner in the global variable `block.coinbase`. We will mint a token reward to this address whenever someone calls the function `mintMinerReward()` on our token. The mechanism may sound silly, but you never know what kind of dynamic this might result in, and it's worth analyzing and experimenting with!
+
+[source,solidity]
+----
+contract ERC20WithMinerReward is ERC20 {
+    constructor() ERC20("Reward", "RWD") {}
+
+    function mintMinerReward() public {
+        _mint(block.coinbase, 1000);
+    }
+}
+----
+
+As we can see, `_mint` makes it super easy to do this correctly.
+
+[[automating-the-reward]]
+== Automating the Reward
+
+So far our supply mechanism was triggered manually, but `ERC20` also allows us to extend the core functionality of the token through the xref:api:token/ERC20.adoc#ERC20-_update-address-address-uint256-[`_update`] function.
+
+Adding to the supply mechanism from the previous section, we can use this function to mint a miner reward for every token transfer that is included in the blockchain.
+
+```solidity
+include::api:example$ERC20WithAutoMinerReward.sol[]
+```
+
+[[wrapping-up]]
+== Wrapping Up
+
+We've seen how to implement a ERC-20 supply mechanism: internally through `_mint`. Hopefully this has helped you understand how to use OpenZeppelin Contracts and some of the design principles behind it, and you can apply them to your own smart contracts.
