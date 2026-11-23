@@ -1,1 +1,17 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7SUVSQzIwLCBFUkMyMH0gZnJvbSAiLi4vLi4vdG9rZW4vRVJDMjAvRVJDMjAuc29sIjsKaW1wb3J0IHtFUkM0NjI2fSBmcm9tICIuLi8uLi90b2tlbi9FUkMyMC9leHRlbnNpb25zL0VSQzQ2MjYuc29sIjsKCmNvbnRyYWN0IEVSQzQ2MjZNb2NrIGlzIEVSQzQ2MjYgewogICAgY29uc3RydWN0b3IoYWRkcmVzcyB1bmRlcmx5aW5nKSBFUkMyMCgiRVJDNDYyNk1vY2siLCAiRTQ2MjZNIikgRVJDNDYyNihJRVJDMjAodW5kZXJseWluZykpIHt9CgogICAgZnVuY3Rpb24gbWludChhZGRyZXNzIGFjY291bnQsIHVpbnQyNTYgYW1vdW50KSBleHRlcm5hbCB7CiAgICAgICAgX21pbnQoYWNjb3VudCwgYW1vdW50KTsKICAgIH0KCiAgICBmdW5jdGlvbiBidXJuKGFkZHJlc3MgYWNjb3VudCwgdWludDI1NiBhbW91bnQpIGV4dGVybmFsIHsKICAgICAgICBfYnVybihhY2NvdW50LCBhbW91bnQpOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+import {IERC20, ERC20} from "../../token/ERC20/ERC20.sol";
+import {ERC4626} from "../../token/ERC20/extensions/ERC4626.sol";
+
+contract ERC4626Mock is ERC4626 {
+    constructor(address underlying) ERC20("ERC4626Mock", "E4626M") ERC4626(IERC20(underlying)) {}
+
+    function mint(address account, uint256 amount) external {
+        _mint(account, amount);
+    }
+
+    function burn(address account, uint256 amount) external {
+        _burn(account, amount);
+    }
+}
