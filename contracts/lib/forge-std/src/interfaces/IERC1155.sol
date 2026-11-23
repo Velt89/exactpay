@@ -1,1 +1,105 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgPj0wLjYuMjsKCmltcG9ydCAiLi9JRVJDMTY1LnNvbCI7CgovLy8gQHRpdGxlIEVSQy0xMTU1IE11bHRpIFRva2VuIFN0YW5kYXJkCi8vLyBAZGV2IFNlZSBodHRwczovL2VpcHMuZXRoZXJldW0ub3JnL0VJUFMvZWlwLTExNTUKLy8vIE5vdGU6IFRoZSBFUkMtMTY1IGlkZW50aWZpZXIgZm9yIHRoaXMgaW50ZXJmYWNlIGlzIDB4ZDliNjdhMjYuCmludGVyZmFjZSBJRVJDMTE1NSBpcyBJRVJDMTY1IHsKICAgIC8vLyBAZGV2CiAgICAvLy8gLSBFaXRoZXIgYFRyYW5zZmVyU2luZ2xlYCBvciBgVHJhbnNmZXJCYXRjaGAgTVVTVCBlbWl0IHdoZW4gdG9rZW5zIGFyZSB0cmFuc2ZlcnJlZCwgaW5jbHVkaW5nIHplcm8gdmFsdWUgdHJhbnNmZXJzIGFzIHdlbGwgYXMgbWludGluZyBvciBidXJuaW5nIChzZWUgIlNhZmUgVHJhbnNmZXIgUnVsZXMiIHNlY3Rpb24gb2YgdGhlIHN0YW5kYXJkKS4KICAgIC8vLyAtIFRoZSBgX29wZXJhdG9yYCBhcmd1bWVudCBNVVNUIGJlIHRoZSBhZGRyZXNzIG9mIGFuIGFjY291bnQvY29udHJhY3QgdGhhdCBpcyBhcHByb3ZlZCB0byBtYWtlIHRoZSB0cmFuc2ZlciAoU0hPVUxEIGJlIG1zZy5zZW5kZXIpLgogICAgLy8vIC0gVGhlIGBfZnJvbWAgYXJndW1lbnQgTVVTVCBiZSB0aGUgYWRkcmVzcyBvZiB0aGUgaG9sZGVyIHdob3NlIGJhbGFuY2UgaXMgZGVjcmVhc2VkLgogICAgLy8vIC0gVGhlIGBfdG9gIGFyZ3VtZW50IE1VU1QgYmUgdGhlIGFkZHJlc3Mgb2YgdGhlIHJlY2lwaWVudCB3aG9zZSBiYWxhbmNlIGlzIGluY3JlYXNlZC4KICAgIC8vLyAtIFRoZSBgX2lkYCBhcmd1bWVudCBNVVNUIGJlIHRoZSB0b2tlbiB0eXBlIGJlaW5nIHRyYW5zZmVycmVkLgogICAgLy8vIC0gVGhlIGBfdmFsdWVgIGFyZ3VtZW50IE1VU1QgYmUgdGhlIG51bWJlciBvZiB0b2tlbnMgdGhlIGhvbGRlciBiYWxhbmNlIGlzIGRlY3JlYXNlZCBieSBhbmQgbWF0Y2ggd2hhdCB0aGUgcmVjaXBpZW50IGJhbGFuY2UgaXMgaW5jcmVhc2VkIGJ5LgogICAgLy8vIC0gV2hlbiBtaW50aW5nL2NyZWF0aW5nIHRva2VucywgdGhlIGBfZnJvbWAgYXJndW1lbnQgTVVTVCBiZSBzZXQgdG8gYDB4MGAgKGkuZS4gemVybyBhZGRyZXNzKS4KICAgIC8vLyAtIFdoZW4gYnVybmluZy9kZXN0cm95aW5nIHRva2VucywgdGhlIGBfdG9gIGFyZ3VtZW50IE1VU1QgYmUgc2V0IHRvIGAweDBgIChpLmUuIHplcm8gYWRkcmVzcykuCiAgICBldmVudCBUcmFuc2ZlclNpbmdsZSgKICAgICAgICBhZGRyZXNzIGluZGV4ZWQgX29wZXJhdG9yLCBhZGRyZXNzIGluZGV4ZWQgX2Zyb20sIGFkZHJlc3MgaW5kZXhlZCBfdG8sIHVpbnQyNTYgX2lkLCB1aW50MjU2IF92YWx1ZQogICAgKTsKCiAgICAvLy8gQGRldgogICAgLy8vIC0gRWl0aGVyIGBUcmFuc2ZlclNpbmdsZWAgb3IgYFRyYW5zZmVyQmF0Y2hgIE1VU1QgZW1pdCB3aGVuIHRva2VucyBhcmUgdHJhbnNmZXJyZWQsIGluY2x1ZGluZyB6ZXJvIHZhbHVlIHRyYW5zZmVycyBhcyB3ZWxsIGFzIG1pbnRpbmcgb3IgYnVybmluZyAoc2VlICJTYWZlIFRyYW5zZmVyIFJ1bGVzIiBzZWN0aW9uIG9mIHRoZSBzdGFuZGFyZCkuCiAgICAvLy8gLSBUaGUgYF9vcGVyYXRvcmAgYXJndW1lbnQgTVVTVCBiZSB0aGUgYWRkcmVzcyBvZiBhbiBhY2NvdW50L2NvbnRyYWN0IHRoYXQgaXMgYXBwcm92ZWQgdG8gbWFrZSB0aGUgdHJhbnNmZXIgKFNIT1VMRCBiZSBtc2cuc2VuZGVyKS4KICAgIC8vLyAtIFRoZSBgX2Zyb21gIGFyZ3VtZW50IE1VU1QgYmUgdGhlIGFkZHJlc3Mgb2YgdGhlIGhvbGRlciB3aG9zZSBiYWxhbmNlIGlzIGRlY3JlYXNlZC4KICAgIC8vLyAtIFRoZSBgX3RvYCBhcmd1bWVudCBNVVNUIGJlIHRoZSBhZGRyZXNzIG9mIHRoZSByZWNpcGllbnQgd2hvc2UgYmFsYW5jZSBpcyBpbmNyZWFzZWQuCiAgICAvLy8gLSBUaGUgYF9pZHNgIGFyZ3VtZW50IE1VU1QgYmUgdGhlIGxpc3Qgb2YgdG9rZW5zIGJlaW5nIHRyYW5zZmVycmVkLgogICAgLy8vIC0gVGhlIGBfdmFsdWVzYCBhcmd1bWVudCBNVVNUIGJlIHRoZSBsaXN0IG9mIG51bWJlciBvZiB0b2tlbnMgKG1hdGNoaW5nIHRoZSBsaXN0IGFuZCBvcmRlciBvZiB0b2tlbnMgc3BlY2lmaWVkIGluIF9pZHMpIHRoZSBob2xkZXIgYmFsYW5jZSBpcyBkZWNyZWFzZWQgYnkgYW5kIG1hdGNoIHdoYXQgdGhlIHJlY2lwaWVudCBiYWxhbmNlIGlzIGluY3JlYXNlZCBieS4KICAgIC8vLyAtIFdoZW4gbWludGluZy9jcmVhdGluZyB0b2tlbnMsIHRoZSBgX2Zyb21gIGFyZ3VtZW50IE1VU1QgYmUgc2V0IHRvIGAweDBgIChpLmUuIHplcm8gYWRkcmVzcykuCiAgICAvLy8gLSBXaGVuIGJ1cm5pbmcvZGVzdHJveWluZyB0b2tlbnMsIHRoZSBgX3RvYCBhcmd1bWVudCBNVVNUIGJlIHNldCB0byBgMHgwYCAoaS5lLiB6ZXJvIGFkZHJlc3MpLgogICAgZXZlbnQgVHJhbnNmZXJCYXRjaCgKICAgICAgICBhZGRyZXNzIGluZGV4ZWQgX29wZXJhdG9yLCBhZGRyZXNzIGluZGV4ZWQgX2Zyb20sIGFkZHJlc3MgaW5kZXhlZCBfdG8sIHVpbnQyNTZbXSBfaWRzLCB1aW50MjU2W10gX3ZhbHVlcwogICAgKTsKCiAgICAvLy8gQGRldiBNVVNUIGVtaXQgd2hlbiBhcHByb3ZhbCBmb3IgYSBzZWNvbmQgcGFydHkvb3BlcmF0b3IgYWRkcmVzcyB0byBtYW5hZ2UgYWxsIHRva2VucyBmb3IgYW4gb3duZXIgYWRkcmVzcyBpcyBlbmFibGVkIG9yIGRpc2FibGVkIChhYnNlbmNlIG9mIGFuIGV2ZW50IGFzc3VtZXMgZGlzYWJsZWQpLgogICAgZXZlbnQgQXBwcm92YWxGb3JBbGwoYWRkcmVzcyBpbmRleGVkIF9vd25lciwgYWRkcmVzcyBpbmRleGVkIF9vcGVyYXRvciwgYm9vbCBfYXBwcm92ZWQpOwoKICAgIC8vLyBAZGV2IE1VU1QgZW1pdCB3aGVuIHRoZSBVUkkgaXMgdXBkYXRlZCBmb3IgYSB0b2tlbiBJRC4gVVJJcyBhcmUgZGVmaW5lZCBpbiBSRkMgMzk4Ni4KICAgIC8vLyBUaGUgVVJJIE1VU1QgcG9pbnQgdG8gYSBKU09OIGZpbGUgdGhhdCBjb25mb3JtcyB0byB0aGUgIkVSQy0xMTU1IE1ldGFkYXRhIFVSSSBKU09OIFNjaGVtYSIuCiAgICBldmVudCBVUkkoc3RyaW5nIF92YWx1ZSwgdWludDI1NiBpbmRleGVkIF9pZCk7CgogICAgLy8vIEBub3RpY2UgVHJhbnNmZXJzIGBfdmFsdWVgIGFtb3VudCBvZiBhbiBgX2lkYCBmcm9tIHRoZSBgX2Zyb21gIGFkZHJlc3MgdG8gdGhlIGBfdG9gIGFkZHJlc3Mgc3BlY2lmaWVkICh3aXRoIHNhZmV0eSBjYWxsKS4KICAgIC8vLyBAZGV2IENhbGxlciBtdXN0IGJlIGFwcHJvdmVkIHRvIG1hbmFnZSB0aGUgdG9rZW5zIGJlaW5nIHRyYW5zZmVycmVkIG91dCBvZiB0aGUgYF9mcm9tYCBhY2NvdW50IChzZWUgIkFwcHJvdmFsIiBzZWN0aW9uIG9mIHRoZSBzdGFuZGFyZCkuCiAgICAvLy8gLSBNVVNUIHJldmVydCBpZiBgX3RvYCBpcyB0aGUgemVybyBhZGRyZXNzLgogICAgLy8vIC0gTVVTVCByZXZlcnQgaWYgYmFsYW5jZSBvZiBob2xkZXIgZm9yIHRva2VuIGBfaWRgIGlzIGxvd2VyIHRoYW4gdGhlIGBfdmFsdWVgIHNlbnQuCiAgICAvLy8gLSBNVVNUIHJldmVydCBvbiBhbnkgb3RoZXIgZXJyb3IuCiAgICAvLy8gLSBNVVNUIGVtaXQgdGhlIGBUcmFuc2ZlclNpbmdsZWAgZXZlbnQgdG8gcmVmbGVjdCB0aGUgYmFsYW5jZSBjaGFuZ2UgKHNlZSAiU2FmZSBUcmFuc2ZlciBSdWxlcyIgc2VjdGlvbiBvZiB0aGUgc3RhbmRhcmQpLgogICAgLy8vIC0gQWZ0ZXIgdGhlIGFib3ZlIGNvbmRpdGlvbnMgYXJlIG1ldCwgdGhpcyBmdW5jdGlvbiBNVVNUIGNoZWNrIGlmIGBfdG9gIGlzIGEgc21hcnQgY29udHJhY3QgKGUuZy4gY29kZSBzaXplID4gMCkuIElmIHNvLCBpdCBNVVNUIGNhbGwgYG9uRVJDMTE1NVJlY2VpdmVkYCBvbiBgX3RvYCBhbmQgYWN0IGFwcHJvcHJpYXRlbHkgKHNlZSAiU2FmZSBUcmFuc2ZlciBSdWxlcyIgc2VjdGlvbiBvZiB0aGUgc3RhbmRhcmQpLgogICAgLy8vIEBwYXJhbSBfZnJvbSBTb3VyY2UgYWRkcmVzcwogICAgLy8vIEBwYXJhbSBfdG8gVGFyZ2V0IGFkZHJlc3MKICAgIC8vLyBAcGFyYW0gX2lkIElEIG9mIHRoZSB0b2tlbiB0eXBlCiAgICAvLy8gQHBhcmFtIF92YWx1ZSBUcmFuc2ZlciBhbW91bnQKICAgIC8vLyBAcGFyYW0gX2RhdGEgQWRkaXRpb25hbCBkYXRhIHdpdGggbm8gc3BlY2lmaWVkIGZvcm1hdCwgTVVTVCBiZSBzZW50IHVuYWx0ZXJlZCBpbiBjYWxsIHRvIGBvbkVSQzExNTVSZWNlaXZlZGAgb24gYF90b2AKICAgIGZ1bmN0aW9uIHNhZmVUcmFuc2ZlckZyb20oYWRkcmVzcyBfZnJvbSwgYWRkcmVzcyBfdG8sIHVpbnQyNTYgX2lkLCB1aW50MjU2IF92YWx1ZSwgYnl0ZXMgY2FsbGRhdGEgX2RhdGEpIGV4dGVybmFsOwoKICAgIC8vLyBAbm90aWNlIFRyYW5zZmVycyBgX3ZhbHVlc2AgYW1vdW50KHMpIG9mIGBfaWRzYCBmcm9tIHRoZSBgX2Zyb21gIGFkZHJlc3MgdG8gdGhlIGBfdG9gIGFkZHJlc3Mgc3BlY2lmaWVkICh3aXRoIHNhZmV0eSBjYWxsKS4KICAgIC8vLyBAZGV2IENhbGxlciBtdXN0IGJlIGFwcHJvdmVkIHRvIG1hbmFnZSB0aGUgdG9rZW5zIGJlaW5nIHRyYW5zZmVycmVkIG91dCBvZiB0aGUgYF9mcm9tYCBhY2NvdW50IChzZWUgIkFwcHJvdmFsIiBzZWN0aW9uIG9mIHRoZSBzdGFuZGFyZCkuCiAgICAvLy8gLSBNVVNUIHJldmVydCBpZiBgX3RvYCBpcyB0aGUgemVybyBhZGRyZXNzLgogICAgLy8vIC0gTVVTVCByZXZlcnQgaWYgbGVuZ3RoIG9mIGBfaWRzYCBpcyBub3QgdGhlIHNhbWUgYXMgbGVuZ3RoIG9mIGBfdmFsdWVzYC4KICAgIC8vLyAtIE1VU1QgcmV2ZXJ0IGlmIGFueSBvZiB0aGUgYmFsYW5jZShzKSBvZiB0aGUgaG9sZGVyKHMpIGZvciB0b2tlbihzKSBpbiBgX2lkc2AgaXMgbG93ZXIgdGhhbiB0aGUgcmVzcGVjdGl2ZSBhbW91bnQocykgaW4gYF92YWx1ZXNgIHNlbnQgdG8gdGhlIHJlY2lwaWVudC4KICAgIC8vLyAtIE1VU1QgcmV2ZXJ0IG9uIGFueSBvdGhlciBlcnJvci4KICAgIC8vLyAtIE1VU1QgZW1pdCBgVHJhbnNmZXJTaW5nbGVgIG9yIGBUcmFuc2ZlckJhdGNoYCBldmVudChzKSBzdWNoIHRoYXQgYWxsIHRoZSBiYWxhbmNlIGNoYW5nZXMgYXJlIHJlZmxlY3RlZCAoc2VlICJTYWZlIFRyYW5zZmVyIFJ1bGVzIiBzZWN0aW9uIG9mIHRoZSBzdGFuZGFyZCkuCiAgICAvLy8gLSBCYWxhbmNlIGNoYW5nZXMgYW5kIGV2ZW50cyBNVVNUIGZvbGxvdyB0aGUgb3JkZXJpbmcgb2YgdGhlIGFycmF5cyAoX2lkc1swXS9fdmFsdWVzWzBdIGJlZm9yZSBfaWRzWzFdL192YWx1ZXNbMV0sIGV0YykuCiAgICAvLy8gLSBBZnRlciB0aGUgYWJvdmUgY29uZGl0aW9ucyBmb3IgdGhlIHRyYW5zZmVyKHMpIGluIHRoZSBiYXRjaCBhcmUgbWV0LCB0aGlzIGZ1bmN0aW9uIE1VU1QgY2hlY2sgaWYgYF90b2AgaXMgYSBzbWFydCBjb250cmFjdCAoZS5nLiBjb2RlIHNpemUgPiAwKS4gSWYgc28sIGl0IE1VU1QgY2FsbCB0aGUgcmVsZXZhbnQgYEVSQzExNTVUb2tlblJlY2VpdmVyYCBob29rKHMpIG9uIGBfdG9gIGFuZCBhY3QgYXBwcm9wcmlhdGVseSAoc2VlICJTYWZlIFRyYW5zZmVyIFJ1bGVzIiBzZWN0aW9uIG9mIHRoZSBzdGFuZGFyZCkuCiAgICAvLy8gQHBhcmFtIF9mcm9tIFNvdXJjZSBhZGRyZXNzCiAgICAvLy8gQHBhcmFtIF90byBUYXJnZXQgYWRkcmVzcwogICAgLy8vIEBwYXJhbSBfaWRzIElEcyBvZiBlYWNoIHRva2VuIHR5cGUgKG9yZGVyIGFuZCBsZW5ndGggbXVzdCBtYXRjaCBfdmFsdWVzIGFycmF5KQogICAgLy8vIEBwYXJhbSBfdmFsdWVzIFRyYW5zZmVyIGFtb3VudHMgcGVyIHRva2VuIHR5cGUgKG9yZGVyIGFuZCBsZW5ndGggbXVzdCBtYXRjaCBfaWRzIGFycmF5KQogICAgLy8vIEBwYXJhbSBfZGF0YSBBZGRpdGlvbmFsIGRhdGEgd2l0aCBubyBzcGVjaWZpZWQgZm9ybWF0LCBNVVNUIGJlIHNlbnQgdW5hbHRlcmVkIGluIGNhbGwgdG8gdGhlIGBFUkMxMTU1VG9rZW5SZWNlaXZlcmAgaG9vayhzKSBvbiBgX3RvYAogICAgZnVuY3Rpb24gc2FmZUJhdGNoVHJhbnNmZXJGcm9tKAogICAgICAgIGFkZHJlc3MgX2Zyb20sCiAgICAgICAgYWRkcmVzcyBfdG8sCiAgICAgICAgdWludDI1NltdIGNhbGxkYXRhIF9pZHMsCiAgICAgICAgdWludDI1NltdIGNhbGxkYXRhIF92YWx1ZXMsCiAgICAgICAgYnl0ZXMgY2FsbGRhdGEgX2RhdGEKICAgICkgZXh0ZXJuYWw7CgogICAgLy8vIEBub3RpY2UgR2V0IHRoZSBiYWxhbmNlIG9mIGFuIGFjY291bnQncyB0b2tlbnMuCiAgICAvLy8gQHBhcmFtIF9vd25lciBUaGUgYWRkcmVzcyBvZiB0aGUgdG9rZW4gaG9sZGVyCiAgICAvLy8gQHBhcmFtIF9pZCBJRCBvZiB0aGUgdG9rZW4KICAgIC8vLyBAcmV0dXJuIFRoZSBfb3duZXIncyBiYWxhbmNlIG9mIHRoZSB0b2tlbiB0eXBlIHJlcXVlc3RlZAogICAgZnVuY3Rpb24gYmFsYW5jZU9mKGFkZHJlc3MgX293bmVyLCB1aW50MjU2IF9pZCkgZXh0ZXJuYWwgdmlldyByZXR1cm5zICh1aW50MjU2KTsKCiAgICAvLy8gQG5vdGljZSBHZXQgdGhlIGJhbGFuY2Ugb2YgbXVsdGlwbGUgYWNjb3VudC90b2tlbiBwYWlycwogICAgLy8vIEBwYXJhbSBfb3duZXJzIFRoZSBhZGRyZXNzZXMgb2YgdGhlIHRva2VuIGhvbGRlcnMKICAgIC8vLyBAcGFyYW0gX2lkcyBJRCBvZiB0aGUgdG9rZW5zCiAgICAvLy8gQHJldHVybiBUaGUgX293bmVyJ3MgYmFsYW5jZSBvZiB0aGUgdG9rZW4gdHlwZXMgcmVxdWVzdGVkIChpLmUuIGJhbGFuY2UgZm9yIGVhY2ggKG93bmVyLCBpZCkgcGFpcikKICAgIGZ1bmN0aW9uIGJhbGFuY2VPZkJhdGNoKGFkZHJlc3NbXSBjYWxsZGF0YSBfb3duZXJzLCB1aW50MjU2W10gY2FsbGRhdGEgX2lkcykKICAgICAgICBleHRlcm5hbAogICAgICAgIHZpZXcKICAgICAgICByZXR1cm5zICh1aW50MjU2W10gbWVtb3J5KTsKCiAgICAvLy8gQG5vdGljZSBFbmFibGUgb3IgZGlzYWJsZSBhcHByb3ZhbCBmb3IgYSB0aGlyZCBwYXJ0eSAoIm9wZXJhdG9yIikgdG8gbWFuYWdlIGFsbCBvZiB0aGUgY2FsbGVyJ3MgdG9rZW5zLgogICAgLy8vIEBkZXYgTVVTVCBlbWl0IHRoZSBBcHByb3ZhbEZvckFsbCBldmVudCBvbiBzdWNjZXNzLgogICAgLy8vIEBwYXJhbSBfb3BlcmF0b3IgQWRkcmVzcyB0byBhZGQgdG8gdGhlIHNldCBvZiBhdXRob3JpemVkIG9wZXJhdG9ycwogICAgLy8vIEBwYXJhbSBfYXBwcm92ZWQgVHJ1ZSBpZiB0aGUgb3BlcmF0b3IgaXMgYXBwcm92ZWQsIGZhbHNlIHRvIHJldm9rZSBhcHByb3ZhbAogICAgZnVuY3Rpb24gc2V0QXBwcm92YWxGb3JBbGwoYWRkcmVzcyBfb3BlcmF0b3IsIGJvb2wgX2FwcHJvdmVkKSBleHRlcm5hbDsKCiAgICAvLy8gQG5vdGljZSBRdWVyaWVzIHRoZSBhcHByb3ZhbCBzdGF0dXMgb2YgYW4gb3BlcmF0b3IgZm9yIGEgZ2l2ZW4gb3duZXIuCiAgICAvLy8gQHBhcmFtIF9vd25lciBUaGUgb3duZXIgb2YgdGhlIHRva2VucwogICAgLy8vIEBwYXJhbSBfb3BlcmF0b3IgQWRkcmVzcyBvZiBhdXRob3JpemVkIG9wZXJhdG9yCiAgICAvLy8gQHJldHVybiBUcnVlIGlmIHRoZSBvcGVyYXRvciBpcyBhcHByb3ZlZCwgZmFsc2UgaWYgbm90CiAgICBmdW5jdGlvbiBpc0FwcHJvdmVkRm9yQWxsKGFkZHJlc3MgX293bmVyLCBhZGRyZXNzIF9vcGVyYXRvcikgZXh0ZXJuYWwgdmlldyByZXR1cm5zIChib29sKTsKfQo=
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.6.2;
+
+import "./IERC165.sol";
+
+/// @title ERC-1155 Multi Token Standard
+/// @dev See https://eips.ethereum.org/EIPS/eip-1155
+/// Note: The ERC-165 identifier for this interface is 0xd9b67a26.
+interface IERC1155 is IERC165 {
+    /// @dev
+    /// - Either `TransferSingle` or `TransferBatch` MUST emit when tokens are transferred, including zero value transfers as well as minting or burning (see "Safe Transfer Rules" section of the standard).
+    /// - The `_operator` argument MUST be the address of an account/contract that is approved to make the transfer (SHOULD be msg.sender).
+    /// - The `_from` argument MUST be the address of the holder whose balance is decreased.
+    /// - The `_to` argument MUST be the address of the recipient whose balance is increased.
+    /// - The `_id` argument MUST be the token type being transferred.
+    /// - The `_value` argument MUST be the number of tokens the holder balance is decreased by and match what the recipient balance is increased by.
+    /// - When minting/creating tokens, the `_from` argument MUST be set to `0x0` (i.e. zero address).
+    /// - When burning/destroying tokens, the `_to` argument MUST be set to `0x0` (i.e. zero address).
+    event TransferSingle(
+        address indexed _operator, address indexed _from, address indexed _to, uint256 _id, uint256 _value
+    );
+
+    /// @dev
+    /// - Either `TransferSingle` or `TransferBatch` MUST emit when tokens are transferred, including zero value transfers as well as minting or burning (see "Safe Transfer Rules" section of the standard).
+    /// - The `_operator` argument MUST be the address of an account/contract that is approved to make the transfer (SHOULD be msg.sender).
+    /// - The `_from` argument MUST be the address of the holder whose balance is decreased.
+    /// - The `_to` argument MUST be the address of the recipient whose balance is increased.
+    /// - The `_ids` argument MUST be the list of tokens being transferred.
+    /// - The `_values` argument MUST be the list of number of tokens (matching the list and order of tokens specified in _ids) the holder balance is decreased by and match what the recipient balance is increased by.
+    /// - When minting/creating tokens, the `_from` argument MUST be set to `0x0` (i.e. zero address).
+    /// - When burning/destroying tokens, the `_to` argument MUST be set to `0x0` (i.e. zero address).
+    event TransferBatch(
+        address indexed _operator, address indexed _from, address indexed _to, uint256[] _ids, uint256[] _values
+    );
+
+    /// @dev MUST emit when approval for a second party/operator address to manage all tokens for an owner address is enabled or disabled (absence of an event assumes disabled).
+    event ApprovalForAll(address indexed _owner, address indexed _operator, bool _approved);
+
+    /// @dev MUST emit when the URI is updated for a token ID. URIs are defined in RFC 3986.
+    /// The URI MUST point to a JSON file that conforms to the "ERC-1155 Metadata URI JSON Schema".
+    event URI(string _value, uint256 indexed _id);
+
+    /// @notice Transfers `_value` amount of an `_id` from the `_from` address to the `_to` address specified (with safety call).
+    /// @dev Caller must be approved to manage the tokens being transferred out of the `_from` account (see "Approval" section of the standard).
+    /// - MUST revert if `_to` is the zero address.
+    /// - MUST revert if balance of holder for token `_id` is lower than the `_value` sent.
+    /// - MUST revert on any other error.
+    /// - MUST emit the `TransferSingle` event to reflect the balance change (see "Safe Transfer Rules" section of the standard).
+    /// - After the above conditions are met, this function MUST check if `_to` is a smart contract (e.g. code size > 0). If so, it MUST call `onERC1155Received` on `_to` and act appropriately (see "Safe Transfer Rules" section of the standard).
+    /// @param _from Source address
+    /// @param _to Target address
+    /// @param _id ID of the token type
+    /// @param _value Transfer amount
+    /// @param _data Additional data with no specified format, MUST be sent unaltered in call to `onERC1155Received` on `_to`
+    function safeTransferFrom(address _from, address _to, uint256 _id, uint256 _value, bytes calldata _data) external;
+
+    /// @notice Transfers `_values` amount(s) of `_ids` from the `_from` address to the `_to` address specified (with safety call).
+    /// @dev Caller must be approved to manage the tokens being transferred out of the `_from` account (see "Approval" section of the standard).
+    /// - MUST revert if `_to` is the zero address.
+    /// - MUST revert if length of `_ids` is not the same as length of `_values`.
+    /// - MUST revert if any of the balance(s) of the holder(s) for token(s) in `_ids` is lower than the respective amount(s) in `_values` sent to the recipient.
+    /// - MUST revert on any other error.
+    /// - MUST emit `TransferSingle` or `TransferBatch` event(s) such that all the balance changes are reflected (see "Safe Transfer Rules" section of the standard).
+    /// - Balance changes and events MUST follow the ordering of the arrays (_ids[0]/_values[0] before _ids[1]/_values[1], etc).
+    /// - After the above conditions for the transfer(s) in the batch are met, this function MUST check if `_to` is a smart contract (e.g. code size > 0). If so, it MUST call the relevant `ERC1155TokenReceiver` hook(s) on `_to` and act appropriately (see "Safe Transfer Rules" section of the standard).
+    /// @param _from Source address
+    /// @param _to Target address
+    /// @param _ids IDs of each token type (order and length must match _values array)
+    /// @param _values Transfer amounts per token type (order and length must match _ids array)
+    /// @param _data Additional data with no specified format, MUST be sent unaltered in call to the `ERC1155TokenReceiver` hook(s) on `_to`
+    function safeBatchTransferFrom(
+        address _from,
+        address _to,
+        uint256[] calldata _ids,
+        uint256[] calldata _values,
+        bytes calldata _data
+    ) external;
+
+    /// @notice Get the balance of an account's tokens.
+    /// @param _owner The address of the token holder
+    /// @param _id ID of the token
+    /// @return The _owner's balance of the token type requested
+    function balanceOf(address _owner, uint256 _id) external view returns (uint256);
+
+    /// @notice Get the balance of multiple account/token pairs
+    /// @param _owners The addresses of the token holders
+    /// @param _ids ID of the tokens
+    /// @return The _owner's balance of the token types requested (i.e. balance for each (owner, id) pair)
+    function balanceOfBatch(address[] calldata _owners, uint256[] calldata _ids)
+        external
+        view
+        returns (uint256[] memory);
+
+    /// @notice Enable or disable approval for a third party ("operator") to manage all of the caller's tokens.
+    /// @dev MUST emit the ApprovalForAll event on success.
+    /// @param _operator Address to add to the set of authorized operators
+    /// @param _approved True if the operator is approved, false to revoke approval
+    function setApprovalForAll(address _operator, bool _approved) external;
+
+    /// @notice Queries the approval status of an operator for a given owner.
+    /// @param _owner The owner of the tokens
+    /// @param _operator Address of authorized operator
+    /// @return True if the operator is approved, false if not
+    function isApprovedForAll(address _owner, address _operator) external view returns (bool);
+}
