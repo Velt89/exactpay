@@ -1,1 +1,5 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7Cgpjb250cmFjdCBFUkMxNjVOb3RTdXBwb3J0ZWQge30K
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+contract ERC165NotSupported {}
