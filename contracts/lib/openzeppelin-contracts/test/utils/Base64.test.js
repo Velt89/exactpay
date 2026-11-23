@@ -1,1 +1,59 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKLy8gUmVwbGFjZSAiKy8iIHdpdGggIi1fIiBpbiB0aGUgY2hhciB0YWJsZSwgYW5kIHJlbW92ZSB0aGUgcGFkZGluZwovLyBzZWUgaHR0cHM6Ly9kYXRhdHJhY2tlci5pZXRmLm9yZy9kb2MvaHRtbC9yZmM0NjQ4I3NlY3Rpb24tNQpjb25zdCBiYXNlNjR0b0Jhc2U2NFVybCA9IHN0ciA9PiBzdHIucmVwbGFjZUFsbCgnKycsICctJykucmVwbGFjZUFsbCgnLycsICdfJykucmVwbGFjZUFsbCgnPScsICcnKTsKCmFzeW5jIGZ1bmN0aW9uIGZpeHR1cmUoKSB7CiAgY29uc3QgbW9jayA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnJEJhc2U2NCcpOwogIHJldHVybiB7IG1vY2sgfTsKfQoKZGVzY3JpYmUoJ1N0cmluZ3MnLCBmdW5jdGlvbiAoKSB7CiAgYmVmb3JlRWFjaChhc3luYyBmdW5jdGlvbiAoKSB7CiAgICBPYmplY3QuYXNzaWduKHRoaXMsIGF3YWl0IGxvYWRGaXh0dXJlKGZpeHR1cmUpKTsKICB9KTsKCiAgZGVzY3JpYmUoJ2Jhc2U2NCcsIGZ1bmN0aW9uICgpIHsKICAgIGZvciAoY29uc3QgeyB0aXRsZSwgaW5wdXQsIGV4cGVjdGVkIH0gb2YgWwogICAgICB7IHRpdGxlOiAnY29udmVydHMgdG8gYmFzZTY0IGVuY29kZWQgc3RyaW5nIHdpdGggZG91YmxlIHBhZGRpbmcnLCBpbnB1dDogJ3Rlc3QnLCBleHBlY3RlZDogJ2RHVnpkQT09JyB9LAogICAgICB7IHRpdGxlOiAnY29udmVydHMgdG8gYmFzZTY0IGVuY29kZWQgc3RyaW5nIHdpdGggc2luZ2xlIHBhZGRpbmcnLCBpbnB1dDogJ3Rlc3QxJywgZXhwZWN0ZWQ6ICdkR1Z6ZERFPScgfSwKICAgICAgeyB0aXRsZTogJ2NvbnZlcnRzIHRvIGJhc2U2NCBlbmNvZGVkIHN0cmluZyB3aXRob3V0IHBhZGRpbmcnLCBpbnB1dDogJ3Rlc3QxMicsIGV4cGVjdGVkOiAnZEdWemRERXknIH0sCiAgICAgIHsgdGl0bGU6ICdjb252ZXJ0cyB0byBiYXNlNjQgZW5jb2RlZCBzdHJpbmcgKC8gY2FzZSknLCBpbnB1dDogJ2/DuScsIGV4cGVjdGVkOiAnYi9rPScgfSwKICAgICAgeyB0aXRsZTogJ2NvbnZlcnRzIHRvIGJhc2U2NCBlbmNvZGVkIHN0cmluZyAoKyBjYXNlKScsIGlucHV0OiAnenN+MXQ4JywgZXhwZWN0ZWQ6ICdlbk4rTVhRNCcgfSwKICAgICAgeyB0aXRsZTogJ2VtcHR5IGJ5dGVzJywgaW5wdXQ6ICcnLCBleHBlY3RlZDogJycgfSwKICAgIF0pCiAgICAgIGl0KHRpdGxlLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgY29uc3QgYnVmZmVyID0gQnVmZmVyLmZyb20oaW5wdXQsICdhc2NpaScpOwogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGVuY29kZShidWZmZXIpKS50by5lcXVhbChldGhlcnMuZW5jb2RlQmFzZTY0KGJ1ZmZlcikpOwogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGVuY29kZShidWZmZXIpKS50by5lcXVhbChleHBlY3RlZCk7CiAgICAgIH0pOwogIH0pOwoKICBkZXNjcmliZSgnYmFzZTY0dXJsJywgZnVuY3Rpb24gKCkgewogICAgZm9yIChjb25zdCB7IHRpdGxlLCBpbnB1dCwgZXhwZWN0ZWQgfSBvZiBbCiAgICAgIHsgdGl0bGU6ICdjb252ZXJ0cyB0byBiYXNlNjR1cmwgZW5jb2RlZCBzdHJpbmcgd2l0aCBkb3VibGUgcGFkZGluZycsIGlucHV0OiAndGVzdCcsIGV4cGVjdGVkOiAnZEdWemRBJyB9LAogICAgICB7IHRpdGxlOiAnY29udmVydHMgdG8gYmFzZTY0dXJsIGVuY29kZWQgc3RyaW5nIHdpdGggc2luZ2xlIHBhZGRpbmcnLCBpbnB1dDogJ3Rlc3QxJywgZXhwZWN0ZWQ6ICdkR1Z6ZERFJyB9LAogICAgICB7IHRpdGxlOiAnY29udmVydHMgdG8gYmFzZTY0dXJsIGVuY29kZWQgc3RyaW5nIHdpdGhvdXQgcGFkZGluZycsIGlucHV0OiAndGVzdDEyJywgZXhwZWN0ZWQ6ICdkR1Z6ZERFeScgfSwKICAgICAgeyB0aXRsZTogJ2NvbnZlcnRzIHRvIGJhc2U2NHVybCBlbmNvZGVkIHN0cmluZyAoXyBjYXNlKScsIGlucHV0OiAnb8O5JywgZXhwZWN0ZWQ6ICdiX2snIH0sCiAgICAgIHsgdGl0bGU6ICdjb252ZXJ0cyB0byBiYXNlNjR1cmwgZW5jb2RlZCBzdHJpbmcgKC0gY2FzZSknLCBpbnB1dDogJ3pzfjF0OCcsIGV4cGVjdGVkOiAnZW5OLU1YUTQnIH0sCiAgICAgIHsgdGl0bGU6ICdlbXB0eSBieXRlcycsIGlucHV0OiAnJywgZXhwZWN0ZWQ6ICcnIH0sCiAgICBdKQogICAgICBpdCh0aXRsZSwgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGNvbnN0IGJ1ZmZlciA9IEJ1ZmZlci5mcm9tKGlucHV0LCAnYXNjaWknKTsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRlbmNvZGVVUkwoYnVmZmVyKSkudG8uZXF1YWwoYmFzZTY0dG9CYXNlNjRVcmwoZXRoZXJzLmVuY29kZUJhc2U2NChidWZmZXIpKSk7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kZW5jb2RlVVJMKGJ1ZmZlcikpLnRvLmVxdWFsKGV4cGVjdGVkKTsKICAgICAgfSk7CiAgfSk7CgogIGl0KCdFbmNvZGUgcmVhZHMgYmV5b25kIHRoZSBpbnB1dCBidWZmZXIgaW50byBkaXJ0eSBtZW1vcnknLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICBjb25zdCBtb2NrID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCdCYXNlNjREaXJ0eScpOwogICAgY29uc3QgYnVmZmVyMzIgPSBldGhlcnMuaWQoJ2V4YW1wbGUnKTsKICAgIGNvbnN0IGJ1ZmZlcjMxID0gYnVmZmVyMzIuc2xpY2UoMCwgLTIpOwoKICAgIGV4cGVjdChhd2FpdCBtb2NrLmVuY29kZShidWZmZXIzMSkpLnRvLmVxdWFsKGV0aGVycy5lbmNvZGVCYXNlNjQoYnVmZmVyMzEpKTsKICAgIGV4cGVjdChhd2FpdCBtb2NrLmVuY29kZShidWZmZXIzMikpLnRvLmVxdWFsKGV0aGVycy5lbmNvZGVCYXNlNjQoYnVmZmVyMzIpKTsKICB9KTsKfSk7Cg==
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+// Replace "+/" with "-_" in the char table, and remove the padding
+// see https://datatracker.ietf.org/doc/html/rfc4648#section-5
+const base64toBase64Url = str => str.replaceAll('+', '-').replaceAll('/', '_').replaceAll('=', '');
+
+async function fixture() {
+  const mock = await ethers.deployContract('$Base64');
+  return { mock };
+}
+
+describe('Strings', function () {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  describe('base64', function () {
+    for (const { title, input, expected } of [
+      { title: 'converts to base64 encoded string with double padding', input: 'test', expected: 'dGVzdA==' },
+      { title: 'converts to base64 encoded string with single padding', input: 'test1', expected: 'dGVzdDE=' },
+      { title: 'converts to base64 encoded string without padding', input: 'test12', expected: 'dGVzdDEy' },
+      { title: 'converts to base64 encoded string (/ case)', input: 'où', expected: 'b/k=' },
+      { title: 'converts to base64 encoded string (+ case)', input: 'zs~1t8', expected: 'enN+MXQ4' },
+      { title: 'empty bytes', input: '', expected: '' },
+    ])
+      it(title, async function () {
+        const buffer = Buffer.from(input, 'ascii');
+        expect(await this.mock.$encode(buffer)).to.equal(ethers.encodeBase64(buffer));
+        expect(await this.mock.$encode(buffer)).to.equal(expected);
+      });
+  });
+
+  describe('base64url', function () {
+    for (const { title, input, expected } of [
+      { title: 'converts to base64url encoded string with double padding', input: 'test', expected: 'dGVzdA' },
+      { title: 'converts to base64url encoded string with single padding', input: 'test1', expected: 'dGVzdDE' },
+      { title: 'converts to base64url encoded string without padding', input: 'test12', expected: 'dGVzdDEy' },
+      { title: 'converts to base64url encoded string (_ case)', input: 'où', expected: 'b_k' },
+      { title: 'converts to base64url encoded string (- case)', input: 'zs~1t8', expected: 'enN-MXQ4' },
+      { title: 'empty bytes', input: '', expected: '' },
+    ])
+      it(title, async function () {
+        const buffer = Buffer.from(input, 'ascii');
+        expect(await this.mock.$encodeURL(buffer)).to.equal(base64toBase64Url(ethers.encodeBase64(buffer)));
+        expect(await this.mock.$encodeURL(buffer)).to.equal(expected);
+      });
+  });
+
+  it('Encode reads beyond the input buffer into dirty memory', async function () {
+    const mock = await ethers.deployContract('Base64Dirty');
+    const buffer32 = ethers.id('example');
+    const buffer31 = buffer32.slice(0, -2);
+
+    expect(await mock.encode(buffer31)).to.equal(ethers.encodeBase64(buffer31));
+    expect(await mock.encode(buffer32)).to.equal(ethers.encodeBase64(buffer32));
+  });
+});
