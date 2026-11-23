@@ -1,1 +1,17 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0VSQzcyMVVSSVN0b3JhZ2V9IGZyb20gIi4uLy4uL3Rva2VuL0VSQzcyMS9leHRlbnNpb25zL0VSQzcyMVVSSVN0b3JhZ2Uuc29sIjsKCmFic3RyYWN0IGNvbnRyYWN0IEVSQzcyMVVSSVN0b3JhZ2VNb2NrIGlzIEVSQzcyMVVSSVN0b3JhZ2UgewogICAgc3RyaW5nIHByaXZhdGUgX2Jhc2VUb2tlblVSSTsKCiAgICBmdW5jdGlvbiBfYmFzZVVSSSgpIGludGVybmFsIHZpZXcgdmlydHVhbCBvdmVycmlkZSByZXR1cm5zIChzdHJpbmcgbWVtb3J5KSB7CiAgICAgICAgcmV0dXJuIF9iYXNlVG9rZW5VUkk7CiAgICB9CgogICAgZnVuY3Rpb24gc2V0QmFzZVVSSShzdHJpbmcgY2FsbGRhdGEgbmV3QmFzZVRva2VuVVJJKSBwdWJsaWMgewogICAgICAgIF9iYXNlVG9rZW5VUkkgPSBuZXdCYXNlVG9rZW5VUkk7CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {ERC721URIStorage} from "../../token/ERC721/extensions/ERC721URIStorage.sol";
+
+abstract contract ERC721URIStorageMock is ERC721URIStorage {
+    string private _baseTokenURI;
+
+    function _baseURI() internal view virtual override returns (string memory) {
+        return _baseTokenURI;
+    }
+
+    function setBaseURI(string calldata newBaseTokenURI) public {
+        _baseTokenURI = newBaseTokenURI;
+    }
+}
