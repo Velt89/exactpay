@@ -1,1 +1,34 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0lFUkMyMCwgRVJDMjB9IGZyb20gIi4uLy4uL3Rva2VuL0VSQzIwL0VSQzIwLnNvbCI7CmltcG9ydCB7RVJDMTM2M30gZnJvbSAiLi4vLi4vdG9rZW4vRVJDMjAvZXh0ZW5zaW9ucy9FUkMxMzYzLnNvbCI7CgphYnN0cmFjdCBjb250cmFjdCBFUkMxMzYzUmV0dXJuRmFsc2VPbkVSQzIwTW9jayBpcyBFUkMxMzYzIHsKICAgIGZ1bmN0aW9uIHRyYW5zZmVyKGFkZHJlc3MsIHVpbnQyNTYpIHB1YmxpYyBwdXJlIG92ZXJyaWRlKElFUkMyMCwgRVJDMjApIHJldHVybnMgKGJvb2wpIHsKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICB9CgogICAgZnVuY3Rpb24gdHJhbnNmZXJGcm9tKGFkZHJlc3MsIGFkZHJlc3MsIHVpbnQyNTYpIHB1YmxpYyBwdXJlIG92ZXJyaWRlKElFUkMyMCwgRVJDMjApIHJldHVybnMgKGJvb2wpIHsKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICB9CgogICAgZnVuY3Rpb24gYXBwcm92ZShhZGRyZXNzLCB1aW50MjU2KSBwdWJsaWMgcHVyZSBvdmVycmlkZShJRVJDMjAsIEVSQzIwKSByZXR1cm5zIChib29sKSB7CiAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgfQp9CgphYnN0cmFjdCBjb250cmFjdCBFUkMxMzYzUmV0dXJuRmFsc2VNb2NrIGlzIEVSQzEzNjMgewogICAgZnVuY3Rpb24gdHJhbnNmZXJBbmRDYWxsKGFkZHJlc3MsIHVpbnQyNTYsIGJ5dGVzIG1lbW9yeSkgcHVibGljIHB1cmUgb3ZlcnJpZGUgcmV0dXJucyAoYm9vbCkgewogICAgICAgIHJldHVybiBmYWxzZTsKICAgIH0KCiAgICBmdW5jdGlvbiB0cmFuc2ZlckZyb21BbmRDYWxsKGFkZHJlc3MsIGFkZHJlc3MsIHVpbnQyNTYsIGJ5dGVzIG1lbW9yeSkgcHVibGljIHB1cmUgb3ZlcnJpZGUgcmV0dXJucyAoYm9vbCkgewogICAgICAgIHJldHVybiBmYWxzZTsKICAgIH0KCiAgICBmdW5jdGlvbiBhcHByb3ZlQW5kQ2FsbChhZGRyZXNzLCB1aW50MjU2LCBieXRlcyBtZW1vcnkpIHB1YmxpYyBwdXJlIG92ZXJyaWRlIHJldHVybnMgKGJvb2wpIHsKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {IERC20, ERC20} from "../../token/ERC20/ERC20.sol";
+import {ERC1363} from "../../token/ERC20/extensions/ERC1363.sol";
+
+abstract contract ERC1363ReturnFalseOnERC20Mock is ERC1363 {
+    function transfer(address, uint256) public pure override(IERC20, ERC20) returns (bool) {
+        return false;
+    }
+
+    function transferFrom(address, address, uint256) public pure override(IERC20, ERC20) returns (bool) {
+        return false;
+    }
+
+    function approve(address, uint256) public pure override(IERC20, ERC20) returns (bool) {
+        return false;
+    }
+}
+
+abstract contract ERC1363ReturnFalseMock is ERC1363 {
+    function transferAndCall(address, uint256, bytes memory) public pure override returns (bool) {
+        return false;
+    }
+
+    function transferFromAndCall(address, address, uint256, bytes memory) public pure override returns (bool) {
+        return false;
+    }
+
+    function approveAndCall(address, uint256, bytes memory) public pure override returns (bool) {
+        return false;
+    }
+}
