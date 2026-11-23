@@ -1,1 +1,592 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IEdQTC0zLjAtb3ItbGF0ZXIKCi8vIFRoaXMgcHJvZ3JhbSBpcyBmcmVlIHNvZnR3YXJlOiB5b3UgY2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5Ci8vIGl0IHVuZGVyIHRoZSB0ZXJtcyBvZiB0aGUgR05VIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMgcHVibGlzaGVkIGJ5Ci8vIHRoZSBGcmVlIFNvZnR3YXJlIEZvdW5kYXRpb24sIGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlIExpY2Vuc2UsIG9yCi8vIChhdCB5b3VyIG9wdGlvbikgYW55IGxhdGVyIHZlcnNpb24uCgovLyBUaGlzIHByb2dyYW0gaXMgZGlzdHJpYnV0ZWQgaW4gdGhlIGhvcGUgdGhhdCBpdCB3aWxsIGJlIHVzZWZ1bCwKLy8gYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhlIGltcGxpZWQgd2FycmFudHkgb2YKLy8gTUVSQ0hBTlRBQklMSVRZIG9yIEZJVE5FU1MgRk9SIEEgUEFSVElDVUxBUiBQVVJQT1NFLiAgU2VlIHRoZQovLyBHTlUgR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLgoKLy8gWW91IHNob3VsZCBoYXZlIHJlY2VpdmVkIGEgY29weSBvZiB0aGUgR05VIEdlbmVyYWwgUHVibGljIExpY2Vuc2UKLy8gYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uICBJZiBub3QsIHNlZSA8aHR0cDovL3d3dy5nbnUub3JnL2xpY2Vuc2VzLz4uCgpwcmFnbWEgc29saWRpdHkgPj0wLjUuMDsKCmNvbnRyYWN0IERTVGVzdCB7CiAgICBldmVudCBsb2cgICAgICAgICAgICAgICAgICAgIChzdHJpbmcpOwogICAgZXZlbnQgbG9ncyAgICAgICAgICAgICAgICAgICAoYnl0ZXMpOwoKICAgIGV2ZW50IGxvZ19hZGRyZXNzICAgICAgICAgICAgKGFkZHJlc3MpOwogICAgZXZlbnQgbG9nX2J5dGVzMzIgICAgICAgICAgICAoYnl0ZXMzMik7CiAgICBldmVudCBsb2dfaW50ICAgICAgICAgICAgICAgIChpbnQpOwogICAgZXZlbnQgbG9nX3VpbnQgICAgICAgICAgICAgICAodWludCk7CiAgICBldmVudCBsb2dfYnl0ZXMgICAgICAgICAgICAgIChieXRlcyk7CiAgICBldmVudCBsb2dfc3RyaW5nICAgICAgICAgICAgIChzdHJpbmcpOwoKICAgIGV2ZW50IGxvZ19uYW1lZF9hZGRyZXNzICAgICAgKHN0cmluZyBrZXksIGFkZHJlc3MgdmFsKTsKICAgIGV2ZW50IGxvZ19uYW1lZF9ieXRlczMyICAgICAgKHN0cmluZyBrZXksIGJ5dGVzMzIgdmFsKTsKICAgIGV2ZW50IGxvZ19uYW1lZF9kZWNpbWFsX2ludCAgKHN0cmluZyBrZXksIGludCB2YWwsIHVpbnQgZGVjaW1hbHMpOwogICAgZXZlbnQgbG9nX25hbWVkX2RlY2ltYWxfdWludCAoc3RyaW5nIGtleSwgdWludCB2YWwsIHVpbnQgZGVjaW1hbHMpOwogICAgZXZlbnQgbG9nX25hbWVkX2ludCAgICAgICAgICAoc3RyaW5nIGtleSwgaW50IHZhbCk7CiAgICBldmVudCBsb2dfbmFtZWRfdWludCAgICAgICAgIChzdHJpbmcga2V5LCB1aW50IHZhbCk7CiAgICBldmVudCBsb2dfbmFtZWRfYnl0ZXMgICAgICAgIChzdHJpbmcga2V5LCBieXRlcyB2YWwpOwogICAgZXZlbnQgbG9nX25hbWVkX3N0cmluZyAgICAgICAoc3RyaW5nIGtleSwgc3RyaW5nIHZhbCk7CgogICAgYm9vbCBwdWJsaWMgSVNfVEVTVCA9IHRydWU7CiAgICBib29sIHByaXZhdGUgX2ZhaWxlZDsKCiAgICBhZGRyZXNzIGNvbnN0YW50IEhFVk1fQUREUkVTUyA9CiAgICAgICAgYWRkcmVzcyhieXRlczIwKHVpbnQxNjAodWludDI1NihrZWNjYWsyNTYoJ2hldm0gY2hlYXQgY29kZScpKSkpKTsKCiAgICBtb2RpZmllciBtYXlSZXZlcnQoKSB7IF87IH0KICAgIG1vZGlmaWVyIHRlc3RvcHRzKHN0cmluZyBtZW1vcnkpIHsgXzsgfQoKICAgIGZ1bmN0aW9uIGZhaWxlZCgpIHB1YmxpYyByZXR1cm5zIChib29sKSB7CiAgICAgICAgaWYgKF9mYWlsZWQpIHsKICAgICAgICAgICAgcmV0dXJuIF9mYWlsZWQ7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgYm9vbCBnbG9iYWxGYWlsZWQgPSBmYWxzZTsKICAgICAgICAgICAgaWYgKGhhc0hFVk1Db250ZXh0KCkpIHsKICAgICAgICAgICAgICAgICgsIGJ5dGVzIG1lbW9yeSByZXRkYXRhKSA9IEhFVk1fQUREUkVTUy5jYWxsKAogICAgICAgICAgICAgICAgICAgIGFiaS5lbmNvZGVQYWNrZWQoCiAgICAgICAgICAgICAgICAgICAgICAgIGJ5dGVzNChrZWNjYWsyNTYoImxvYWQoYWRkcmVzcyxieXRlczMyKSIpKSwKICAgICAgICAgICAgICAgICAgICAgICAgYWJpLmVuY29kZShIRVZNX0FERFJFU1MsIGJ5dGVzMzIoImZhaWxlZCIpKQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICk7CiAgICAgICAgICAgICAgICBnbG9iYWxGYWlsZWQgPSBhYmkuZGVjb2RlKHJldGRhdGEsIChib29sKSk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuIGdsb2JhbEZhaWxlZDsKICAgICAgICB9CiAgICB9CgogICAgZnVuY3Rpb24gZmFpbCgpIGludGVybmFsIHZpcnR1YWwgewogICAgICAgIGlmIChoYXNIRVZNQ29udGV4dCgpKSB7CiAgICAgICAgICAgIChib29sIHN0YXR1cywgKSA9IEhFVk1fQUREUkVTUy5jYWxsKAogICAgICAgICAgICAgICAgYWJpLmVuY29kZVBhY2tlZCgKICAgICAgICAgICAgICAgICAgICBieXRlczQoa2VjY2FrMjU2KCJzdG9yZShhZGRyZXNzLGJ5dGVzMzIsYnl0ZXMzMikiKSksCiAgICAgICAgICAgICAgICAgICAgYWJpLmVuY29kZShIRVZNX0FERFJFU1MsIGJ5dGVzMzIoImZhaWxlZCIpLCBieXRlczMyKHVpbnQyNTYoMHgwMSkpKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICApOwogICAgICAgICAgICBzdGF0dXM7IC8vIFNpbGVuY2UgY29tcGlsZXIgd2FybmluZ3MKICAgICAgICB9CiAgICAgICAgX2ZhaWxlZCA9IHRydWU7CiAgICB9CgogICAgZnVuY3Rpb24gaGFzSEVWTUNvbnRleHQoKSBpbnRlcm5hbCB2aWV3IHJldHVybnMgKGJvb2wpIHsKICAgICAgICB1aW50MjU2IGhldm1Db2RlU2l6ZSA9IDA7CiAgICAgICAgYXNzZW1ibHkgewogICAgICAgICAgICBoZXZtQ29kZVNpemUgOj0gZXh0Y29kZXNpemUoMHg3MTA5NzA5RUNmYTkxYTgwNjI2ZkYzOTg5RDY4ZjY3RjViMUREMTJEKQogICAgICAgIH0KICAgICAgICByZXR1cm4gaGV2bUNvZGVTaXplID4gMDsKICAgIH0KCiAgICBtb2RpZmllciBsb2dzX2dhcygpIHsKICAgICAgICB1aW50IHN0YXJ0R2FzID0gZ2FzbGVmdCgpOwogICAgICAgIF87CiAgICAgICAgdWludCBlbmRHYXMgPSBnYXNsZWZ0KCk7CiAgICAgICAgZW1pdCBsb2dfbmFtZWRfdWludCgiZ2FzIiwgc3RhcnRHYXMgLSBlbmRHYXMpOwogICAgfQoKICAgIGZ1bmN0aW9uIGFzc2VydFRydWUoYm9vbCBjb25kaXRpb24pIGludGVybmFsIHsKICAgICAgICBpZiAoIWNvbmRpdGlvbikgewogICAgICAgICAgICBlbWl0IGxvZygiRXJyb3I6IEFzc2VydGlvbiBGYWlsZWQiKTsKICAgICAgICAgICAgZmFpbCgpOwogICAgICAgIH0KICAgIH0KCiAgICBmdW5jdGlvbiBhc3NlcnRUcnVlKGJvb2wgY29uZGl0aW9uLCBzdHJpbmcgbWVtb3J5IGVycikgaW50ZXJuYWwgewogICAgICAgIGlmICghY29uZGl0aW9uKSB7CiAgICAgICAgICAgIGVtaXQgbG9nX25hbWVkX3N0cmluZygiRXJyb3IiLCBlcnIpOwogICAgICAgICAgICBhc3NlcnRUcnVlKGNvbmRpdGlvbik7CiAgICAgICAgfQogICAgfQoKICAgIGZ1bmN0aW9uIGFzc2VydEVxKGFkZHJlc3MgYSwgYWRkcmVzcyBiKSBpbnRlcm5hbCB7CiAgICAgICAgaWYgKGEgIT0gYikgewogICAgICAgICAgICBlbWl0IGxvZygiRXJyb3I6IGEgPT0gYiBub3Qgc2F0aXNmaWVkIFthZGRyZXNzXSIpOwogICAgICAgICAgICBlbWl0IGxvZ19uYW1lZF9hZGRyZXNzKCIgICAgICBMZWZ0IiwgYSk7CiAgICAgICAgICAgIGVtaXQgbG9nX25hbWVkX2FkZHJlc3MoIiAgICAgUmlnaHQiLCBiKTsKICAgICAgICAgICAgZmFpbCgpOwogICAgICAgIH0KICAgIH0KICAgIGZ1bmN0aW9uIGFzc2VydEVxKGFkZHJlc3MgYSwgYWRkcmVzcyBiLCBzdHJpbmcgbWVtb3J5IGVycikgaW50ZXJuYWwgewogICAgICAgIGlmIChhICE9IGIpIHsKICAgICAgICAgICAgZW1pdCBsb2dfbmFtZWRfc3RyaW5nICgiRXJyb3IiLCBlcnIpOwogICAgICAgICAgICBhc3NlcnRFcShhLCBiKTsKICAgICAgICB9CiAgICB9CgogICAgZnVuY3Rpb24gYXNzZXJ0RXEoYnl0ZXMzMiBhLCBieXRlczMyIGIpIGludGVybmFsIHsKICAgICAgICBpZiAoYSAhPSBiKSB7CiAgICAgICAgICAgIGVtaXQgbG9nKCJFcnJvcjogYSA9PSBiIG5vdCBzYXRpc2ZpZWQgW2J5dGVzMzJdIik7CiAgICAgICAgICAgIGVtaXQgbG9nX25hbWVkX2J5dGVzMzIoIiAgICAgIExlZnQiLCBhKTsKICAgICAgICAgICAgZW1pdCBsb2dfbmFtZWRfYnl0ZXMzMigiICAgICBSaWdodCIsIGIpOwogICAgICAgICAgICBmYWlsKCk7CiAgICAgICAgfQogICAgfQogICAgZnVuY3Rpb24gYXNzZXJ0RXEoYnl0ZXMzMiBhLCBieXRlczMyIGIsIHN0cmluZyBtZW1vcnkgZXJyKSBpbnRlcm5hbCB7CiAgICAgICAgaWYgKGEgIT0gYikgewogICAgICAgICAgICBlbWl0IGxvZ19uYW1lZF9zdHJpbmcgKCJFcnJvciIsIGVycik7CiAgICAgICAgICAgIGFzc2VydEVxKGEsIGIpOwogICAgICAgIH0KICAgIH0KICAgIGZ1bmN0aW9uIGFzc2VydEVxMzIoYnl0ZXMzMiBhLCBieXRlczMyIGIpIGludGVybmFsIHsKICAgICAgICBhc3NlcnRFcShhLCBiKTsKICAgIH0KICAgIGZ1bmN0aW9uIGFzc2VydEVxMzIoYnl0ZXMzMiBhLCBieXRlczMyIGIsIHN0cmluZyBtZW1vcnkgZXJyKSBpbnRlcm5hbCB7CiAgICAgICAgYXNzZXJ0RXEoYSwgYiwgZXJyKTsKICAgIH0KCiAgICBmdW5jdGlvbiBhc3NlcnRFcShpbnQgYSwgaW50IGIpIGludGVybmFsIHsKICAgICAgICBpZiAoYSAhPSBiKSB7CiAgICAgICAgICAgIGVtaXQgbG9nKCJFcnJvcjogYSA9PSBiIG5vdCBzYXRpc2ZpZWQgW2ludF0iKTsKICAgICAgICAgICAgZW1pdCBsb2dfbmFtZWRfaW50KCIgICAgICBMZWZ0IiwgYSk7CiAgICAgICAgICAgIGVtaXQgbG9nX25hbWVkX2ludCgiICAgICBSaWdodCIsIGIpOwogICAgICAgICAgICBmYWlsKCk7CiAgICAgICAgfQogICAgfQogICAgZnVuY3Rpb24gYXNzZXJ0RXEoaW50IGEsIGludCBiLCBzdHJpbmcgbWVtb3J5IGVycikgaW50ZXJuYWwgewogICAgICAgIGlmIChhICE9IGIpIHsKICAgICAgICAgICAgZW1pdCBsb2dfbmFtZWRfc3RyaW5nKCJFcnJvciIsIGVycik7CiAgICAgICAgICAgIGFzc2VydEVxKGEsIGIpOwogICAgICAgIH0KICAgIH0KICAgIGZ1bmN0aW9uIGFzc2VydEVxKHVpbnQgYSwgdWludCBiKSBpbnRlcm5hbCB7CiAgICAgICAgaWYgKGEgIT0gYikgewogICAgICAgICAgICBlbWl0IGxvZygiRXJyb3I6IGEgPT0gYiBub3Qgc2F0aXNmaWVkIFt1aW50XSIpOwogICAgICAgICAgICBlbWl0IGxvZ19uYW1lZF91aW50KCIgICAgICBMZWZ0IiwgYSk7CiAgICAgICAgICAgIGVtaXQgbG9nX25hbWVkX3VpbnQoIiAgICAgUmlnaHQiLCBiKTsKICAgICAgICAgICAgZmFpbCgpOwogICAgICAgIH0KICAgIH0KICAgIGZ1bmN0aW9uIGFzc2VydEVxKHVpbnQgYSwgdWludCBiLCBzdHJpbmcgbWVtb3J5IGVycikgaW50ZXJuYWwgewogICAgICAgIGlmIChhICE9IGIpIHsKICAgICAgICAgICAgZW1pdCBsb2dfbmFtZWRfc3RyaW5nKCJFcnJvciIsIGVycik7CiAgICAgICAgICAgIGFzc2VydEVxKGEsIGIpOwogICAgICAgIH0KICAgIH0KICAgIGZ1bmN0aW9uIGFzc2VydEVxRGVjaW1hbChpbnQgYSwgaW50IGIsIHVpbnQgZGVjaW1hbHMpIGludGVybmFsIHsKICAgICAgICBpZiAoYSAhPSBiKSB7CiAgICAgICAgICAgIGVtaXQgbG9nKCJFcnJvcjogYSA9PSBiIG5vdCBzYXRpc2ZpZWQgW2RlY2ltYWwgaW50XSIpOwogICAgICAgICAgICBlbWl0IGxvZ19uYW1lZF9kZWNpbWFsX2ludCgiICAgICAgTGVmdCIsIGEsIGRlY2ltYWxzKTsKICAgICAgICAgICAgZW1pdCBsb2dfbmFtZWRfZGVjaW1hbF9pbnQoIiAgICAgUmlnaHQiLCBiLCBkZWNpbWFscyk7CiAgICAgICAgICAgIGZhaWwoKTsKICAgICAgICB9CiAgICB9CiAgICBmdW5jdGlvbiBhc3NlcnRFcURlY2ltYWwoaW50IGEsIGludCBiLCB1aW50IGRlY2ltYWxzLCBzdHJpbmcgbWVtb3J5IGVycikgaW50ZXJuYWwgewogICAgICAgIGlmIChhICE9IGIpIHsKICAgICAgICAgICAgZW1pdCBsb2dfbmFtZWRfc3RyaW5nKCJFcnJvciIsIGVycik7CiAgICAgICAgICAgIGFzc2VydEVxRGVjaW1hbChhLCBiLCBkZWNpbWFscyk7CiAgICAgICAgfQogICAgfQogICAgZnVuY3Rpb24gYXNzZXJ0RXFEZWNpbWFsKHVpbnQgYSwgdWludCBiLCB1aW50IGRlY2ltYWxzKSBpbnRlcm5hbCB7CiAgICAgICAgaWYgKGEgIT0gYikgewogICAgICAgICAgICBlbWl0IGxvZygiRXJyb3I6IGEgPT0gYiBub3Qgc2F0aXNmaWVkIFtkZWNpbWFsIHVpbnRdIik7CiAgICAgICAgICAgIGVtaXQgbG9nX25hbWVkX2RlY2ltYWxfdWludCgiICAgICAgTGVmdCIsIGEsIGRlY2ltYWxzKTsKICAgICAgICAgICAgZW1pdCBsb2dfbmFtZWRfZGVjaW1hbF91aW50KCIgICAgIFJpZ2h0IiwgYiwgZGVjaW1hbHMpOwogICAgICAgICAgICBmYWlsKCk7CiAgICAgICAgfQogICAgfQogICAgZnVuY3Rpb24gYXNzZXJ0RXFEZWNpbWFsKHVpbnQgYSwgdWludCBiLCB1aW50IGRlY2ltYWxzLCBzdHJpbmcgbWVtb3J5IGVycikgaW50ZXJuYWwgewogICAgICAgIGlmIChhICE9IGIpIHsKICAgICAgICAgICAgZW1pdCBsb2dfbmFtZWRfc3RyaW5nKCJFcnJvciIsIGVycik7CiAgICAgICAgICAgIGFzc2VydEVxRGVjaW1hbChhLCBiLCBkZWNpbWFscyk7CiAgICAgICAgfQogICAgfQoKICAgIGZ1bmN0aW9uIGFzc2VydE5vdEVxKGFkZHJlc3MgYSwgYWRkcmVzcyBiKSBpbnRlcm5hbCB7CiAgICAgICAgaWYgKGEgPT0gYikgewogICAgICAgICAgICBlbWl0IGxvZygiRXJyb3I6IGEgIT0gYiBub3Qgc2F0aXNmaWVkIFthZGRyZXNzXSIpOwogICAgICAgICAgICBlbWl0IGxvZ19uYW1lZF9hZGRyZXNzKCIgICAgICBMZWZ0IiwgYSk7CiAgICAgICAgICAgIGVtaXQgbG9nX25hbWVkX2FkZHJlc3MoIiAgICAgUmlnaHQiLCBiKTsKICAgICAgICAgICAgZmFpbCgpOwogICAgICAgIH0KICAgIH0KICAgIGZ1bmN0aW9uIGFzc2VydE5vdEVxKGFkZHJlc3MgYSwgYWRkcmVzcyBiLCBzdHJpbmcgbWVtb3J5IGVycikgaW50ZXJuYWwgewogICAgICAgIGlmIChhID09IGIpIHsKICAgICAgICAgICAgZW1pdCBsb2dfbmFtZWRfc3RyaW5nICgiRXJyb3IiLCBlcnIpOwogICAgICAgICAgICBhc3NlcnROb3RFcShhLCBiKTsKICAgICAgICB9CiAgICB9CgogICAgZnVuY3Rpb24gYXNzZXJ0Tm90RXEoYnl0ZXMzMiBhLCBieXRlczMyIGIpIGludGVybmFsIHsKICAgICAgICBpZiAoYSA9PSBiKSB7CiAgICAgICAgICAgIGVtaXQgbG9nKCJFcnJvcjogYSAhPSBiIG5vdCBzYXRpc2ZpZWQgW2J5dGVzMzJdIik7CiAgICAgICAgICAgIGVtaXQgbG9nX25hbWVkX2J5dGVzMzIoIiAgICAgIExlZnQiLCBhKTsKICAgICAgICAgICAgZW1pdCBsb2dfbmFtZWRfYnl0ZXMzMigiICAgICBSaWdodCIsIGIpOwogICAgICAgICAgICBmYWlsKCk7CiAgICAgICAgfQogICAgfQogICAgZnVuY3Rpb24gYXNzZXJ0Tm90RXEoYnl0ZXMzMiBhLCBieXRlczMyIGIsIHN0cmluZyBtZW1vcnkgZXJyKSBpbnRlcm5hbCB7CiAgICAgICAgaWYgKGEgPT0gYikgewogICAgICAgICAgICBlbWl0IGxvZ19uYW1lZF9zdHJpbmcgKCJFcnJvciIsIGVycik7CiAgICAgICAgICAgIGFzc2VydE5vdEVxKGEsIGIpOwogICAgICAgIH0KICAgIH0KICAgIGZ1bmN0aW9uIGFzc2VydE5vdEVxMzIoYnl0ZXMzMiBhLCBieXRlczMyIGIpIGludGVybmFsIHsKICAgICAgICBhc3NlcnROb3RFcShhLCBiKTsKICAgIH0KICAgIGZ1bmN0aW9uIGFzc2VydE5vdEVxMzIoYnl0ZXMzMiBhLCBieXRlczMyIGIsIHN0cmluZyBtZW1vcnkgZXJyKSBpbnRlcm5hbCB7CiAgICAgICAgYXNzZXJ0Tm90RXEoYSwgYiwgZXJyKTsKICAgIH0KCiAgICBmdW5jdGlvbiBhc3NlcnROb3RFcShpbnQgYSwgaW50IGIpIGludGVybmFsIHsKICAgICAgICBpZiAoYSA9PSBiKSB7CiAgICAgICAgICAgIGVtaXQgbG9nKCJFcnJvcjogYSAhPSBiIG5vdCBzYXRpc2ZpZWQgW2ludF0iKTsKICAgICAgICAgICAgZW1pdCBsb2dfbmFtZWRfaW50KCIgICAgICBMZWZ0IiwgYSk7CiAgICAgICAgICAgIGVtaXQgbG9nX25hbWVkX2ludCgiICAgICBSaWdodCIsIGIpOwogICAgICAgICAgICBmYWlsKCk7CiAgICAgICAgfQogICAgfQogICAgZnVuY3Rpb24gYXNzZXJ0Tm90RXEoaW50IGEsIGludCBiLCBzdHJpbmcgbWVtb3J5IGVycikgaW50ZXJuYWwgewogICAgICAgIGlmIChhID09IGIpIHsKICAgICAgICAgICAgZW1pdCBsb2dfbmFtZWRfc3RyaW5nKCJFcnJvciIsIGVycik7CiAgICAgICAgICAgIGFzc2VydE5vdEVxKGEsIGIpOwogICAgICAgIH0KICAgIH0KICAgIGZ1bmN0aW9uIGFzc2VydE5vdEVxKHVpbnQgYSwgdWludCBiKSBpbnRlcm5hbCB7CiAgICAgICAgaWYgKGEgPT0gYikgewogICAgICAgICAgICBlbWl0IGxvZygiRXJyb3I6IGEgIT0gYiBub3Qgc2F0aXNmaWVkIFt1aW50XSIpOwogICAgICAgICAgICBlbWl0IGxvZ19uYW1lZF91aW50KCIgICAgICBMZWZ0IiwgYSk7CiAgICAgICAgICAgIGVtaXQgbG9nX25hbWVkX3VpbnQoIiAgICAgUmlnaHQiLCBiKTsKICAgICAgICAgICAgZmFpbCgpOwogICAgICAgIH0KICAgIH0KICAgIGZ1bmN0aW9uIGFzc2VydE5vdEVxKHVpbnQgYSwgdWludCBiLCBzdHJpbmcgbWVtb3J5IGVycikgaW50ZXJuYWwgewogICAgICAgIGlmIChhID09IGIpIHsKICAgICAgICAgICAgZW1pdCBsb2dfbmFtZWRfc3RyaW5nKCJFcnJvciIsIGVycik7CiAgICAgICAgICAgIGFzc2VydE5vdEVxKGEsIGIpOwogICAgICAgIH0KICAgIH0KICAgIGZ1bmN0aW9uIGFzc2VydE5vdEVxRGVjaW1hbChpbnQgYSwgaW50IGIsIHVpbnQgZGVjaW1hbHMpIGludGVybmFsIHsKICAgICAgICBpZiAoYSA9PSBiKSB7CiAgICAgICAgICAgIGVtaXQgbG9nKCJFcnJvcjogYSAhPSBiIG5vdCBzYXRpc2ZpZWQgW2RlY2ltYWwgaW50XSIpOwogICAgICAgICAgICBlbWl0IGxvZ19uYW1lZF9kZWNpbWFsX2ludCgiICAgICAgTGVmdCIsIGEsIGRlY2ltYWxzKTsKICAgICAgICAgICAgZW1pdCBsb2dfbmFtZWRfZGVjaW1hbF9pbnQoIiAgICAgUmlnaHQiLCBiLCBkZWNpbWFscyk7CiAgICAgICAgICAgIGZhaWwoKTsKICAgICAgICB9CiAgICB9CiAgICBmdW5jdGlvbiBhc3NlcnROb3RFcURlY2ltYWwoaW50IGEsIGludCBiLCB1aW50IGRlY2ltYWxzLCBzdHJpbmcgbWVtb3J5IGVycikgaW50ZXJuYWwgewogICAgICAgIGlmIChhID09IGIpIHsKICAgICAgICAgICAgZW1pdCBsb2dfbmFtZWRfc3RyaW5nKCJFcnJvciIsIGVycik7CiAgICAgICAgICAgIGFzc2VydE5vdEVxRGVjaW1hbChhLCBiLCBkZWNpbWFscyk7CiAgICAgICAgfQogICAgfQogICAgZnVuY3Rpb24gYXNzZXJ0Tm90RXFEZWNpbWFsKHVpbnQgYSwgdWludCBiLCB1aW50IGRlY2ltYWxzKSBpbnRlcm5hbCB7CiAgICAgICAgaWYgKGEgPT0gYikgewogICAgICAgICAgICBlbWl0IGxvZygiRXJyb3I6IGEgIT0gYiBub3Qgc2F0aXNmaWVkIFtkZWNpbWFsIHVpbnRdIik7CiAgICAgICAgICAgIGVtaXQgbG9nX25hbWVkX2RlY2ltYWxfdWludCgiICAgICAgTGVmdCIsIGEsIGRlY2ltYWxzKTsKICAgICAgICAgICAgZW1pdCBsb2dfbmFtZWRfZGVjaW1hbF91aW50KCIgICAgIFJpZ2h0IiwgYiwgZGVjaW1hbHMpOwogICAgICAgICAgICBmYWlsKCk7CiAgICAgICAgfQogICAgfQogICAgZnVuY3Rpb24gYXNzZXJ0Tm90RXFEZWNpbWFsKHVpbnQgYSwgdWludCBiLCB1aW50IGRlY2ltYWxzLCBzdHJpbmcgbWVtb3J5IGVycikgaW50ZXJuYWwgewogICAgICAgIGlmIChhID09IGIpIHsKICAgICAgICAgICAgZW1pdCBsb2dfbmFtZWRfc3RyaW5nKCJFcnJvciIsIGVycik7CiAgICAgICAgICAgIGFzc2VydE5vdEVxRGVjaW1hbChhLCBiLCBkZWNpbWFscyk7CiAgICAgICAgfQogICAgfQoKICAgIGZ1bmN0aW9uIGFzc2VydEd0KHVpbnQgYSwgdWludCBiKSBpbnRlcm5hbCB7CiAgICAgICAgaWYgKGEgPD0gYikgewogICAgICAgICAgICBlbWl0IGxvZygiRXJyb3I6IGEgPiBiIG5vdCBzYXRpc2ZpZWQgW3VpbnRdIik7CiAgICAgICAgICAgIGVtaXQgbG9nX25hbWVkX3VpbnQoIiAgVmFsdWUgYSIsIGEpOwogICAgICAgICAgICBlbWl0IGxvZ19uYW1lZF91aW50KCIgIFZhbHVlIGIiLCBiKTsKICAgICAgICAgICAgZmFpbCgpOwogICAgICAgIH0KICAgIH0KICAgIGZ1bmN0aW9uIGFzc2VydEd0KHVpbnQgYSwgdWludCBiLCBzdHJpbmcgbWVtb3J5IGVycikgaW50ZXJuYWwgewogICAgICAgIGlmIChhIDw9IGIpIHsKICAgICAgICAgICAgZW1pdCBsb2dfbmFtZWRfc3RyaW5nKCJFcnJvciIsIGVycik7CiAgICAgICAgICAgIGFzc2VydEd0KGEsIGIpOwogICAgICAgIH0KICAgIH0KICAgIGZ1bmN0aW9uIGFzc2VydEd0KGludCBhLCBpbnQgYikgaW50ZXJuYWwgewogICAgICAgIGlmIChhIDw9IGIpIHsKICAgICAgICAgICAgZW1pdCBsb2coIkVycm9yOiBhID4gYiBub3Qgc2F0aXNmaWVkIFtpbnRdIik7CiAgICAgICAgICAgIGVtaXQgbG9nX25hbWVkX2ludCgiICBWYWx1ZSBhIiwgYSk7CiAgICAgICAgICAgIGVtaXQgbG9nX25hbWVkX2ludCgiICBWYWx1ZSBiIiwgYik7CiAgICAgICAgICAgIGZhaWwoKTsKICAgICAgICB9CiAgICB9CiAgICBmdW5jdGlvbiBhc3NlcnRHdChpbnQgYSwgaW50IGIsIHN0cmluZyBtZW1vcnkgZXJyKSBpbnRlcm5hbCB7CiAgICAgICAgaWYgKGEgPD0gYikgewogICAgICAgICAgICBlbWl0IGxvZ19uYW1lZF9zdHJpbmcoIkVycm9yIiwgZXJyKTsKICAgICAgICAgICAgYXNzZXJ0R3QoYSwgYik7CiAgICAgICAgfQogICAgfQogICAgZnVuY3Rpb24gYXNzZXJ0R3REZWNpbWFsKGludCBhLCBpbnQgYiwgdWludCBkZWNpbWFscykgaW50ZXJuYWwgewogICAgICAgIGlmIChhIDw9IGIpIHsKICAgICAgICAgICAgZW1pdCBsb2coIkVycm9yOiBhID4gYiBub3Qgc2F0aXNmaWVkIFtkZWNpbWFsIGludF0iKTsKICAgICAgICAgICAgZW1pdCBsb2dfbmFtZWRfZGVjaW1hbF9pbnQoIiAgVmFsdWUgYSIsIGEsIGRlY2ltYWxzKTsKICAgICAgICAgICAgZW1pdCBsb2dfbmFtZWRfZGVjaW1hbF9pbnQoIiAgVmFsdWUgYiIsIGIsIGRlY2ltYWxzKTsKICAgICAgICAgICAgZmFpbCgpOwogICAgICAgIH0KICAgIH0KICAgIGZ1bmN0aW9uIGFzc2VydEd0RGVjaW1hbChpbnQgYSwgaW50IGIsIHVpbnQgZGVjaW1hbHMsIHN0cmluZyBtZW1vcnkgZXJyKSBpbnRlcm5hbCB7CiAgICAgICAgaWYgKGEgPD0gYikgewogICAgICAgICAgICBlbWl0IGxvZ19uYW1lZF9zdHJpbmcoIkVycm9yIiwgZXJyKTsKICAgICAgICAgICAgYXNzZXJ0R3REZWNpbWFsKGEsIGIsIGRlY2ltYWxzKTsKICAgICAgICB9CiAgICB9CiAgICBmdW5jdGlvbiBhc3NlcnRHdERlY2ltYWwodWludCBhLCB1aW50IGIsIHVpbnQgZGVjaW1hbHMpIGludGVybmFsIHsKICAgICAgICBpZiAoYSA8PSBiKSB7CiAgICAgICAgICAgIGVtaXQgbG9nKCJFcnJvcjogYSA+IGIgbm90IHNhdGlzZmllZCBbZGVjaW1hbCB1aW50XSIpOwogICAgICAgICAgICBlbWl0IGxvZ19uYW1lZF9kZWNpbWFsX3VpbnQoIiAgVmFsdWUgYSIsIGEsIGRlY2ltYWxzKTsKICAgICAgICAgICAgZW1pdCBsb2dfbmFtZWRfZGVjaW1hbF91aW50KCIgIFZhbHVlIGIiLCBiLCBkZWNpbWFscyk7CiAgICAgICAgICAgIGZhaWwoKTsKICAgICAgICB9CiAgICB9CiAgICBmdW5jdGlvbiBhc3NlcnRHdERlY2ltYWwodWludCBhLCB1aW50IGIsIHVpbnQgZGVjaW1hbHMsIHN0cmluZyBtZW1vcnkgZXJyKSBpbnRlcm5hbCB7CiAgICAgICAgaWYgKGEgPD0gYikgewogICAgICAgICAgICBlbWl0IGxvZ19uYW1lZF9zdHJpbmcoIkVycm9yIiwgZXJyKTsKICAgICAgICAgICAgYXNzZXJ0R3REZWNpbWFsKGEsIGIsIGRlY2ltYWxzKTsKICAgICAgICB9CiAgICB9CgogICAgZnVuY3Rpb24gYXNzZXJ0R2UodWludCBhLCB1aW50IGIpIGludGVybmFsIHsKICAgICAgICBpZiAoYSA8IGIpIHsKICAgICAgICAgICAgZW1pdCBsb2coIkVycm9yOiBhID49IGIgbm90IHNhdGlzZmllZCBbdWludF0iKTsKICAgICAgICAgICAgZW1pdCBsb2dfbmFtZWRfdWludCgiICBWYWx1ZSBhIiwgYSk7CiAgICAgICAgICAgIGVtaXQgbG9nX25hbWVkX3VpbnQoIiAgVmFsdWUgYiIsIGIpOwogICAgICAgICAgICBmYWlsKCk7CiAgICAgICAgfQogICAgfQogICAgZnVuY3Rpb24gYXNzZXJ0R2UodWludCBhLCB1aW50IGIsIHN0cmluZyBtZW1vcnkgZXJyKSBpbnRlcm5hbCB7CiAgICAgICAgaWYgKGEgPCBiKSB7CiAgICAgICAgICAgIGVtaXQgbG9nX25hbWVkX3N0cmluZygiRXJyb3IiLCBlcnIpOwogICAgICAgICAgICBhc3NlcnRHZShhLCBiKTsKICAgICAgICB9CiAgICB9CiAgICBmdW5jdGlvbiBhc3NlcnRHZShpbnQgYSwgaW50IGIpIGludGVybmFsIHsKICAgICAgICBpZiAoYSA8IGIpIHsKICAgICAgICAgICAgZW1pdCBsb2coIkVycm9yOiBhID49IGIgbm90IHNhdGlzZmllZCBbaW50XSIpOwogICAgICAgICAgICBlbWl0IGxvZ19uYW1lZF9pbnQoIiAgVmFsdWUgYSIsIGEpOwogICAgICAgICAgICBlbWl0IGxvZ19uYW1lZF9pbnQoIiAgVmFsdWUgYiIsIGIpOwogICAgICAgICAgICBmYWlsKCk7CiAgICAgICAgfQogICAgfQogICAgZnVuY3Rpb24gYXNzZXJ0R2UoaW50IGEsIGludCBiLCBzdHJpbmcgbWVtb3J5IGVycikgaW50ZXJuYWwgewogICAgICAgIGlmIChhIDwgYikgewogICAgICAgICAgICBlbWl0IGxvZ19uYW1lZF9zdHJpbmcoIkVycm9yIiwgZXJyKTsKICAgICAgICAgICAgYXNzZXJ0R2UoYSwgYik7CiAgICAgICAgfQogICAgfQogICAgZnVuY3Rpb24gYXNzZXJ0R2VEZWNpbWFsKGludCBhLCBpbnQgYiwgdWludCBkZWNpbWFscykgaW50ZXJuYWwgewogICAgICAgIGlmIChhIDwgYikgewogICAgICAgICAgICBlbWl0IGxvZygiRXJyb3I6IGEgPj0gYiBub3Qgc2F0aXNmaWVkIFtkZWNpbWFsIGludF0iKTsKICAgICAgICAgICAgZW1pdCBsb2dfbmFtZWRfZGVjaW1hbF9pbnQoIiAgVmFsdWUgYSIsIGEsIGRlY2ltYWxzKTsKICAgICAgICAgICAgZW1pdCBsb2dfbmFtZWRfZGVjaW1hbF9pbnQoIiAgVmFsdWUgYiIsIGIsIGRlY2ltYWxzKTsKICAgICAgICAgICAgZmFpbCgpOwogICAgICAgIH0KICAgIH0KICAgIGZ1bmN0aW9uIGFzc2VydEdlRGVjaW1hbChpbnQgYSwgaW50IGIsIHVpbnQgZGVjaW1hbHMsIHN0cmluZyBtZW1vcnkgZXJyKSBpbnRlcm5hbCB7CiAgICAgICAgaWYgKGEgPCBiKSB7CiAgICAgICAgICAgIGVtaXQgbG9nX25hbWVkX3N0cmluZygiRXJyb3IiLCBlcnIpOwogICAgICAgICAgICBhc3NlcnRHZURlY2ltYWwoYSwgYiwgZGVjaW1hbHMpOwogICAgICAgIH0KICAgIH0KICAgIGZ1bmN0aW9uIGFzc2VydEdlRGVjaW1hbCh1aW50IGEsIHVpbnQgYiwgdWludCBkZWNpbWFscykgaW50ZXJuYWwgewogICAgICAgIGlmIChhIDwgYikgewogICAgICAgICAgICBlbWl0IGxvZygiRXJyb3I6IGEgPj0gYiBub3Qgc2F0aXNmaWVkIFtkZWNpbWFsIHVpbnRdIik7CiAgICAgICAgICAgIGVtaXQgbG9nX25hbWVkX2RlY2ltYWxfdWludCgiICBWYWx1ZSBhIiwgYSwgZGVjaW1hbHMpOwogICAgICAgICAgICBlbWl0IGxvZ19uYW1lZF9kZWNpbWFsX3VpbnQoIiAgVmFsdWUgYiIsIGIsIGRlY2ltYWxzKTsKICAgICAgICAgICAgZmFpbCgpOwogICAgICAgIH0KICAgIH0KICAgIGZ1bmN0aW9uIGFzc2VydEdlRGVjaW1hbCh1aW50IGEsIHVpbnQgYiwgdWludCBkZWNpbWFscywgc3RyaW5nIG1lbW9yeSBlcnIpIGludGVybmFsIHsKICAgICAgICBpZiAoYSA8IGIpIHsKICAgICAgICAgICAgZW1pdCBsb2dfbmFtZWRfc3RyaW5nKCJFcnJvciIsIGVycik7CiAgICAgICAgICAgIGFzc2VydEdlRGVjaW1hbChhLCBiLCBkZWNpbWFscyk7CiAgICAgICAgfQogICAgfQoKICAgIGZ1bmN0aW9uIGFzc2VydEx0KHVpbnQgYSwgdWludCBiKSBpbnRlcm5hbCB7CiAgICAgICAgaWYgKGEgPj0gYikgewogICAgICAgICAgICBlbWl0IGxvZygiRXJyb3I6IGEgPCBiIG5vdCBzYXRpc2ZpZWQgW3VpbnRdIik7CiAgICAgICAgICAgIGVtaXQgbG9nX25hbWVkX3VpbnQoIiAgVmFsdWUgYSIsIGEpOwogICAgICAgICAgICBlbWl0IGxvZ19uYW1lZF91aW50KCIgIFZhbHVlIGIiLCBiKTsKICAgICAgICAgICAgZmFpbCgpOwogICAgICAgIH0KICAgIH0KICAgIGZ1bmN0aW9uIGFzc2VydEx0KHVpbnQgYSwgdWludCBiLCBzdHJpbmcgbWVtb3J5IGVycikgaW50ZXJuYWwgewogICAgICAgIGlmIChhID49IGIpIHsKICAgICAgICAgICAgZW1pdCBsb2dfbmFtZWRfc3RyaW5nKCJFcnJvciIsIGVycik7CiAgICAgICAgICAgIGFzc2VydEx0KGEsIGIpOwogICAgICAgIH0KICAgIH0KICAgIGZ1bmN0aW9uIGFzc2VydEx0KGludCBhLCBpbnQgYikgaW50ZXJuYWwgewogICAgICAgIGlmIChhID49IGIpIHsKICAgICAgICAgICAgZW1pdCBsb2coIkVycm9yOiBhIDwgYiBub3Qgc2F0aXNmaWVkIFtpbnRdIik7CiAgICAgICAgICAgIGVtaXQgbG9nX25hbWVkX2ludCgiICBWYWx1ZSBhIiwgYSk7CiAgICAgICAgICAgIGVtaXQgbG9nX25hbWVkX2ludCgiICBWYWx1ZSBiIiwgYik7CiAgICAgICAgICAgIGZhaWwoKTsKICAgICAgICB9CiAgICB9CiAgICBmdW5jdGlvbiBhc3NlcnRMdChpbnQgYSwgaW50IGIsIHN0cmluZyBtZW1vcnkgZXJyKSBpbnRlcm5hbCB7CiAgICAgICAgaWYgKGEgPj0gYikgewogICAgICAgICAgICBlbWl0IGxvZ19uYW1lZF9zdHJpbmcoIkVycm9yIiwgZXJyKTsKICAgICAgICAgICAgYXNzZXJ0THQoYSwgYik7CiAgICAgICAgfQogICAgfQogICAgZnVuY3Rpb24gYXNzZXJ0THREZWNpbWFsKGludCBhLCBpbnQgYiwgdWludCBkZWNpbWFscykgaW50ZXJuYWwgewogICAgICAgIGlmIChhID49IGIpIHsKICAgICAgICAgICAgZW1pdCBsb2coIkVycm9yOiBhIDwgYiBub3Qgc2F0aXNmaWVkIFtkZWNpbWFsIGludF0iKTsKICAgICAgICAgICAgZW1pdCBsb2dfbmFtZWRfZGVjaW1hbF9pbnQoIiAgVmFsdWUgYSIsIGEsIGRlY2ltYWxzKTsKICAgICAgICAgICAgZW1pdCBsb2dfbmFtZWRfZGVjaW1hbF9pbnQoIiAgVmFsdWUgYiIsIGIsIGRlY2ltYWxzKTsKICAgICAgICAgICAgZmFpbCgpOwogICAgICAgIH0KICAgIH0KICAgIGZ1bmN0aW9uIGFzc2VydEx0RGVjaW1hbChpbnQgYSwgaW50IGIsIHVpbnQgZGVjaW1hbHMsIHN0cmluZyBtZW1vcnkgZXJyKSBpbnRlcm5hbCB7CiAgICAgICAgaWYgKGEgPj0gYikgewogICAgICAgICAgICBlbWl0IGxvZ19uYW1lZF9zdHJpbmcoIkVycm9yIiwgZXJyKTsKICAgICAgICAgICAgYXNzZXJ0THREZWNpbWFsKGEsIGIsIGRlY2ltYWxzKTsKICAgICAgICB9CiAgICB9CiAgICBmdW5jdGlvbiBhc3NlcnRMdERlY2ltYWwodWludCBhLCB1aW50IGIsIHVpbnQgZGVjaW1hbHMpIGludGVybmFsIHsKICAgICAgICBpZiAoYSA+PSBiKSB7CiAgICAgICAgICAgIGVtaXQgbG9nKCJFcnJvcjogYSA8IGIgbm90IHNhdGlzZmllZCBbZGVjaW1hbCB1aW50XSIpOwogICAgICAgICAgICBlbWl0IGxvZ19uYW1lZF9kZWNpbWFsX3VpbnQoIiAgVmFsdWUgYSIsIGEsIGRlY2ltYWxzKTsKICAgICAgICAgICAgZW1pdCBsb2dfbmFtZWRfZGVjaW1hbF91aW50KCIgIFZhbHVlIGIiLCBiLCBkZWNpbWFscyk7CiAgICAgICAgICAgIGZhaWwoKTsKICAgICAgICB9CiAgICB9CiAgICBmdW5jdGlvbiBhc3NlcnRMdERlY2ltYWwodWludCBhLCB1aW50IGIsIHVpbnQgZGVjaW1hbHMsIHN0cmluZyBtZW1vcnkgZXJyKSBpbnRlcm5hbCB7CiAgICAgICAgaWYgKGEgPj0gYikgewogICAgICAgICAgICBlbWl0IGxvZ19uYW1lZF9zdHJpbmcoIkVycm9yIiwgZXJyKTsKICAgICAgICAgICAgYXNzZXJ0THREZWNpbWFsKGEsIGIsIGRlY2ltYWxzKTsKICAgICAgICB9CiAgICB9CgogICAgZnVuY3Rpb24gYXNzZXJ0TGUodWludCBhLCB1aW50IGIpIGludGVybmFsIHsKICAgICAgICBpZiAoYSA+IGIpIHsKICAgICAgICAgICAgZW1pdCBsb2coIkVycm9yOiBhIDw9IGIgbm90IHNhdGlzZmllZCBbdWludF0iKTsKICAgICAgICAgICAgZW1pdCBsb2dfbmFtZWRfdWludCgiICBWYWx1ZSBhIiwgYSk7CiAgICAgICAgICAgIGVtaXQgbG9nX25hbWVkX3VpbnQoIiAgVmFsdWUgYiIsIGIpOwogICAgICAgICAgICBmYWlsKCk7CiAgICAgICAgfQogICAgfQogICAgZnVuY3Rpb24gYXNzZXJ0TGUodWludCBhLCB1aW50IGIsIHN0cmluZyBtZW1vcnkgZXJyKSBpbnRlcm5hbCB7CiAgICAgICAgaWYgKGEgPiBiKSB7CiAgICAgICAgICAgIGVtaXQgbG9nX25hbWVkX3N0cmluZygiRXJyb3IiLCBlcnIpOwogICAgICAgICAgICBhc3NlcnRMZShhLCBiKTsKICAgICAgICB9CiAgICB9CiAgICBmdW5jdGlvbiBhc3NlcnRMZShpbnQgYSwgaW50IGIpIGludGVybmFsIHsKICAgICAgICBpZiAoYSA+IGIpIHsKICAgICAgICAgICAgZW1pdCBsb2coIkVycm9yOiBhIDw9IGIgbm90IHNhdGlzZmllZCBbaW50XSIpOwogICAgICAgICAgICBlbWl0IGxvZ19uYW1lZF9pbnQoIiAgVmFsdWUgYSIsIGEpOwogICAgICAgICAgICBlbWl0IGxvZ19uYW1lZF9pbnQoIiAgVmFsdWUgYiIsIGIpOwogICAgICAgICAgICBmYWlsKCk7CiAgICAgICAgfQogICAgfQogICAgZnVuY3Rpb24gYXNzZXJ0TGUoaW50IGEsIGludCBiLCBzdHJpbmcgbWVtb3J5IGVycikgaW50ZXJuYWwgewogICAgICAgIGlmIChhID4gYikgewogICAgICAgICAgICBlbWl0IGxvZ19uYW1lZF9zdHJpbmcoIkVycm9yIiwgZXJyKTsKICAgICAgICAgICAgYXNzZXJ0TGUoYSwgYik7CiAgICAgICAgfQogICAgfQogICAgZnVuY3Rpb24gYXNzZXJ0TGVEZWNpbWFsKGludCBhLCBpbnQgYiwgdWludCBkZWNpbWFscykgaW50ZXJuYWwgewogICAgICAgIGlmIChhID4gYikgewogICAgICAgICAgICBlbWl0IGxvZygiRXJyb3I6IGEgPD0gYiBub3Qgc2F0aXNmaWVkIFtkZWNpbWFsIGludF0iKTsKICAgICAgICAgICAgZW1pdCBsb2dfbmFtZWRfZGVjaW1hbF9pbnQoIiAgVmFsdWUgYSIsIGEsIGRlY2ltYWxzKTsKICAgICAgICAgICAgZW1pdCBsb2dfbmFtZWRfZGVjaW1hbF9pbnQoIiAgVmFsdWUgYiIsIGIsIGRlY2ltYWxzKTsKICAgICAgICAgICAgZmFpbCgpOwogICAgICAgIH0KICAgIH0KICAgIGZ1bmN0aW9uIGFzc2VydExlRGVjaW1hbChpbnQgYSwgaW50IGIsIHVpbnQgZGVjaW1hbHMsIHN0cmluZyBtZW1vcnkgZXJyKSBpbnRlcm5hbCB7CiAgICAgICAgaWYgKGEgPiBiKSB7CiAgICAgICAgICAgIGVtaXQgbG9nX25hbWVkX3N0cmluZygiRXJyb3IiLCBlcnIpOwogICAgICAgICAgICBhc3NlcnRMZURlY2ltYWwoYSwgYiwgZGVjaW1hbHMpOwogICAgICAgIH0KICAgIH0KICAgIGZ1bmN0aW9uIGFzc2VydExlRGVjaW1hbCh1aW50IGEsIHVpbnQgYiwgdWludCBkZWNpbWFscykgaW50ZXJuYWwgewogICAgICAgIGlmIChhID4gYikgewogICAgICAgICAgICBlbWl0IGxvZygiRXJyb3I6IGEgPD0gYiBub3Qgc2F0aXNmaWVkIFtkZWNpbWFsIHVpbnRdIik7CiAgICAgICAgICAgIGVtaXQgbG9nX25hbWVkX2RlY2ltYWxfdWludCgiICBWYWx1ZSBhIiwgYSwgZGVjaW1hbHMpOwogICAgICAgICAgICBlbWl0IGxvZ19uYW1lZF9kZWNpbWFsX3VpbnQoIiAgVmFsdWUgYiIsIGIsIGRlY2ltYWxzKTsKICAgICAgICAgICAgZmFpbCgpOwogICAgICAgIH0KICAgIH0KICAgIGZ1bmN0aW9uIGFzc2VydExlRGVjaW1hbCh1aW50IGEsIHVpbnQgYiwgdWludCBkZWNpbWFscywgc3RyaW5nIG1lbW9yeSBlcnIpIGludGVybmFsIHsKICAgICAgICBpZiAoYSA+IGIpIHsKICAgICAgICAgICAgZW1pdCBsb2dfbmFtZWRfc3RyaW5nKCJFcnJvciIsIGVycik7CiAgICAgICAgICAgIGFzc2VydExlRGVjaW1hbChhLCBiLCBkZWNpbWFscyk7CiAgICAgICAgfQogICAgfQoKICAgIGZ1bmN0aW9uIGFzc2VydEVxKHN0cmluZyBtZW1vcnkgYSwgc3RyaW5nIG1lbW9yeSBiKSBpbnRlcm5hbCB7CiAgICAgICAgaWYgKGtlY2NhazI1NihhYmkuZW5jb2RlUGFja2VkKGEpKSAhPSBrZWNjYWsyNTYoYWJpLmVuY29kZVBhY2tlZChiKSkpIHsKICAgICAgICAgICAgZW1pdCBsb2coIkVycm9yOiBhID09IGIgbm90IHNhdGlzZmllZCBbc3RyaW5nXSIpOwogICAgICAgICAgICBlbWl0IGxvZ19uYW1lZF9zdHJpbmcoIiAgICAgIExlZnQiLCBhKTsKICAgICAgICAgICAgZW1pdCBsb2dfbmFtZWRfc3RyaW5nKCIgICAgIFJpZ2h0IiwgYik7CiAgICAgICAgICAgIGZhaWwoKTsKICAgICAgICB9CiAgICB9CiAgICBmdW5jdGlvbiBhc3NlcnRFcShzdHJpbmcgbWVtb3J5IGEsIHN0cmluZyBtZW1vcnkgYiwgc3RyaW5nIG1lbW9yeSBlcnIpIGludGVybmFsIHsKICAgICAgICBpZiAoa2VjY2FrMjU2KGFiaS5lbmNvZGVQYWNrZWQoYSkpICE9IGtlY2NhazI1NihhYmkuZW5jb2RlUGFja2VkKGIpKSkgewogICAgICAgICAgICBlbWl0IGxvZ19uYW1lZF9zdHJpbmcoIkVycm9yIiwgZXJyKTsKICAgICAgICAgICAgYXNzZXJ0RXEoYSwgYik7CiAgICAgICAgfQogICAgfQoKICAgIGZ1bmN0aW9uIGFzc2VydE5vdEVxKHN0cmluZyBtZW1vcnkgYSwgc3RyaW5nIG1lbW9yeSBiKSBpbnRlcm5hbCB7CiAgICAgICAgaWYgKGtlY2NhazI1NihhYmkuZW5jb2RlUGFja2VkKGEpKSA9PSBrZWNjYWsyNTYoYWJpLmVuY29kZVBhY2tlZChiKSkpIHsKICAgICAgICAgICAgZW1pdCBsb2coIkVycm9yOiBhICE9IGIgbm90IHNhdGlzZmllZCBbc3RyaW5nXSIpOwogICAgICAgICAgICBlbWl0IGxvZ19uYW1lZF9zdHJpbmcoIiAgICAgIExlZnQiLCBhKTsKICAgICAgICAgICAgZW1pdCBsb2dfbmFtZWRfc3RyaW5nKCIgICAgIFJpZ2h0IiwgYik7CiAgICAgICAgICAgIGZhaWwoKTsKICAgICAgICB9CiAgICB9CiAgICBmdW5jdGlvbiBhc3NlcnROb3RFcShzdHJpbmcgbWVtb3J5IGEsIHN0cmluZyBtZW1vcnkgYiwgc3RyaW5nIG1lbW9yeSBlcnIpIGludGVybmFsIHsKICAgICAgICBpZiAoa2VjY2FrMjU2KGFiaS5lbmNvZGVQYWNrZWQoYSkpID09IGtlY2NhazI1NihhYmkuZW5jb2RlUGFja2VkKGIpKSkgewogICAgICAgICAgICBlbWl0IGxvZ19uYW1lZF9zdHJpbmcoIkVycm9yIiwgZXJyKTsKICAgICAgICAgICAgYXNzZXJ0Tm90RXEoYSwgYik7CiAgICAgICAgfQogICAgfQoKICAgIGZ1bmN0aW9uIGNoZWNrRXEwKGJ5dGVzIG1lbW9yeSBhLCBieXRlcyBtZW1vcnkgYikgaW50ZXJuYWwgcHVyZSByZXR1cm5zIChib29sIG9rKSB7CiAgICAgICAgb2sgPSB0cnVlOwogICAgICAgIGlmIChhLmxlbmd0aCA9PSBiLmxlbmd0aCkgewogICAgICAgICAgICBmb3IgKHVpbnQgaSA9IDA7IGkgPCBhLmxlbmd0aDsgaSsrKSB7CiAgICAgICAgICAgICAgICBpZiAoYVtpXSAhPSBiW2ldKSB7CiAgICAgICAgICAgICAgICAgICAgb2sgPSBmYWxzZTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIG9rID0gZmFsc2U7CiAgICAgICAgfQogICAgfQogICAgZnVuY3Rpb24gYXNzZXJ0RXEwKGJ5dGVzIG1lbW9yeSBhLCBieXRlcyBtZW1vcnkgYikgaW50ZXJuYWwgewogICAgICAgIGlmICghY2hlY2tFcTAoYSwgYikpIHsKICAgICAgICAgICAgZW1pdCBsb2coIkVycm9yOiBhID09IGIgbm90IHNhdGlzZmllZCBbYnl0ZXNdIik7CiAgICAgICAgICAgIGVtaXQgbG9nX25hbWVkX2J5dGVzKCIgICAgICBMZWZ0IiwgYSk7CiAgICAgICAgICAgIGVtaXQgbG9nX25hbWVkX2J5dGVzKCIgICAgIFJpZ2h0IiwgYik7CiAgICAgICAgICAgIGZhaWwoKTsKICAgICAgICB9CiAgICB9CiAgICBmdW5jdGlvbiBhc3NlcnRFcTAoYnl0ZXMgbWVtb3J5IGEsIGJ5dGVzIG1lbW9yeSBiLCBzdHJpbmcgbWVtb3J5IGVycikgaW50ZXJuYWwgewogICAgICAgIGlmICghY2hlY2tFcTAoYSwgYikpIHsKICAgICAgICAgICAgZW1pdCBsb2dfbmFtZWRfc3RyaW5nKCJFcnJvciIsIGVycik7CiAgICAgICAgICAgIGFzc2VydEVxMChhLCBiKTsKICAgICAgICB9CiAgICB9CgogICAgZnVuY3Rpb24gYXNzZXJ0Tm90RXEwKGJ5dGVzIG1lbW9yeSBhLCBieXRlcyBtZW1vcnkgYikgaW50ZXJuYWwgewogICAgICAgIGlmIChjaGVja0VxMChhLCBiKSkgewogICAgICAgICAgICBlbWl0IGxvZygiRXJyb3I6IGEgIT0gYiBub3Qgc2F0aXNmaWVkIFtieXRlc10iKTsKICAgICAgICAgICAgZW1pdCBsb2dfbmFtZWRfYnl0ZXMoIiAgICAgIExlZnQiLCBhKTsKICAgICAgICAgICAgZW1pdCBsb2dfbmFtZWRfYnl0ZXMoIiAgICAgUmlnaHQiLCBiKTsKICAgICAgICAgICAgZmFpbCgpOwogICAgICAgIH0KICAgIH0KICAgIGZ1bmN0aW9uIGFzc2VydE5vdEVxMChieXRlcyBtZW1vcnkgYSwgYnl0ZXMgbWVtb3J5IGIsIHN0cmluZyBtZW1vcnkgZXJyKSBpbnRlcm5hbCB7CiAgICAgICAgaWYgKGNoZWNrRXEwKGEsIGIpKSB7CiAgICAgICAgICAgIGVtaXQgbG9nX25hbWVkX3N0cmluZygiRXJyb3IiLCBlcnIpOwogICAgICAgICAgICBhc3NlcnROb3RFcTAoYSwgYik7CiAgICAgICAgfQogICAgfQp9Cg==
+// SPDX-License-Identifier: GPL-3.0-or-later
+
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+
+// You should have received a copy of the GNU General Public License
+// along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+pragma solidity >=0.5.0;
+
+contract DSTest {
+    event log                    (string);
+    event logs                   (bytes);
+
+    event log_address            (address);
+    event log_bytes32            (bytes32);
+    event log_int                (int);
+    event log_uint               (uint);
+    event log_bytes              (bytes);
+    event log_string             (string);
+
+    event log_named_address      (string key, address val);
+    event log_named_bytes32      (string key, bytes32 val);
+    event log_named_decimal_int  (string key, int val, uint decimals);
+    event log_named_decimal_uint (string key, uint val, uint decimals);
+    event log_named_int          (string key, int val);
+    event log_named_uint         (string key, uint val);
+    event log_named_bytes        (string key, bytes val);
+    event log_named_string       (string key, string val);
+
+    bool public IS_TEST = true;
+    bool private _failed;
+
+    address constant HEVM_ADDRESS =
+        address(bytes20(uint160(uint256(keccak256('hevm cheat code')))));
+
+    modifier mayRevert() { _; }
+    modifier testopts(string memory) { _; }
+
+    function failed() public returns (bool) {
+        if (_failed) {
+            return _failed;
+        } else {
+            bool globalFailed = false;
+            if (hasHEVMContext()) {
+                (, bytes memory retdata) = HEVM_ADDRESS.call(
+                    abi.encodePacked(
+                        bytes4(keccak256("load(address,bytes32)")),
+                        abi.encode(HEVM_ADDRESS, bytes32("failed"))
+                    )
+                );
+                globalFailed = abi.decode(retdata, (bool));
+            }
+            return globalFailed;
+        }
+    }
+
+    function fail() internal virtual {
+        if (hasHEVMContext()) {
+            (bool status, ) = HEVM_ADDRESS.call(
+                abi.encodePacked(
+                    bytes4(keccak256("store(address,bytes32,bytes32)")),
+                    abi.encode(HEVM_ADDRESS, bytes32("failed"), bytes32(uint256(0x01)))
+                )
+            );
+            status; // Silence compiler warnings
+        }
+        _failed = true;
+    }
+
+    function hasHEVMContext() internal view returns (bool) {
+        uint256 hevmCodeSize = 0;
+        assembly {
+            hevmCodeSize := extcodesize(0x7109709ECfa91a80626fF3989D68f67F5b1DD12D)
+        }
+        return hevmCodeSize > 0;
+    }
+
+    modifier logs_gas() {
+        uint startGas = gasleft();
+        _;
+        uint endGas = gasleft();
+        emit log_named_uint("gas", startGas - endGas);
+    }
+
+    function assertTrue(bool condition) internal {
+        if (!condition) {
+            emit log("Error: Assertion Failed");
+            fail();
+        }
+    }
+
+    function assertTrue(bool condition, string memory err) internal {
+        if (!condition) {
+            emit log_named_string("Error", err);
+            assertTrue(condition);
+        }
+    }
+
+    function assertEq(address a, address b) internal {
+        if (a != b) {
+            emit log("Error: a == b not satisfied [address]");
+            emit log_named_address("      Left", a);
+            emit log_named_address("     Right", b);
+            fail();
+        }
+    }
+    function assertEq(address a, address b, string memory err) internal {
+        if (a != b) {
+            emit log_named_string ("Error", err);
+            assertEq(a, b);
+        }
+    }
+
+    function assertEq(bytes32 a, bytes32 b) internal {
+        if (a != b) {
+            emit log("Error: a == b not satisfied [bytes32]");
+            emit log_named_bytes32("      Left", a);
+            emit log_named_bytes32("     Right", b);
+            fail();
+        }
+    }
+    function assertEq(bytes32 a, bytes32 b, string memory err) internal {
+        if (a != b) {
+            emit log_named_string ("Error", err);
+            assertEq(a, b);
+        }
+    }
+    function assertEq32(bytes32 a, bytes32 b) internal {
+        assertEq(a, b);
+    }
+    function assertEq32(bytes32 a, bytes32 b, string memory err) internal {
+        assertEq(a, b, err);
+    }
+
+    function assertEq(int a, int b) internal {
+        if (a != b) {
+            emit log("Error: a == b not satisfied [int]");
+            emit log_named_int("      Left", a);
+            emit log_named_int("     Right", b);
+            fail();
+        }
+    }
+    function assertEq(int a, int b, string memory err) internal {
+        if (a != b) {
+            emit log_named_string("Error", err);
+            assertEq(a, b);
+        }
+    }
+    function assertEq(uint a, uint b) internal {
+        if (a != b) {
+            emit log("Error: a == b not satisfied [uint]");
+            emit log_named_uint("      Left", a);
+            emit log_named_uint("     Right", b);
+            fail();
+        }
+    }
+    function assertEq(uint a, uint b, string memory err) internal {
+        if (a != b) {
+            emit log_named_string("Error", err);
+            assertEq(a, b);
+        }
+    }
+    function assertEqDecimal(int a, int b, uint decimals) internal {
+        if (a != b) {
+            emit log("Error: a == b not satisfied [decimal int]");
+            emit log_named_decimal_int("      Left", a, decimals);
+            emit log_named_decimal_int("     Right", b, decimals);
+            fail();
+        }
+    }
+    function assertEqDecimal(int a, int b, uint decimals, string memory err) internal {
+        if (a != b) {
+            emit log_named_string("Error", err);
+            assertEqDecimal(a, b, decimals);
+        }
+    }
+    function assertEqDecimal(uint a, uint b, uint decimals) internal {
+        if (a != b) {
+            emit log("Error: a == b not satisfied [decimal uint]");
+            emit log_named_decimal_uint("      Left", a, decimals);
+            emit log_named_decimal_uint("     Right", b, decimals);
+            fail();
+        }
+    }
+    function assertEqDecimal(uint a, uint b, uint decimals, string memory err) internal {
+        if (a != b) {
+            emit log_named_string("Error", err);
+            assertEqDecimal(a, b, decimals);
+        }
+    }
+
+    function assertNotEq(address a, address b) internal {
+        if (a == b) {
+            emit log("Error: a != b not satisfied [address]");
+            emit log_named_address("      Left", a);
+            emit log_named_address("     Right", b);
+            fail();
+        }
+    }
+    function assertNotEq(address a, address b, string memory err) internal {
+        if (a == b) {
+            emit log_named_string ("Error", err);
+            assertNotEq(a, b);
+        }
+    }
+
+    function assertNotEq(bytes32 a, bytes32 b) internal {
+        if (a == b) {
+            emit log("Error: a != b not satisfied [bytes32]");
+            emit log_named_bytes32("      Left", a);
+            emit log_named_bytes32("     Right", b);
+            fail();
+        }
+    }
+    function assertNotEq(bytes32 a, bytes32 b, string memory err) internal {
+        if (a == b) {
+            emit log_named_string ("Error", err);
+            assertNotEq(a, b);
+        }
+    }
+    function assertNotEq32(bytes32 a, bytes32 b) internal {
+        assertNotEq(a, b);
+    }
+    function assertNotEq32(bytes32 a, bytes32 b, string memory err) internal {
+        assertNotEq(a, b, err);
+    }
+
+    function assertNotEq(int a, int b) internal {
+        if (a == b) {
+            emit log("Error: a != b not satisfied [int]");
+            emit log_named_int("      Left", a);
+            emit log_named_int("     Right", b);
+            fail();
+        }
+    }
+    function assertNotEq(int a, int b, string memory err) internal {
+        if (a == b) {
+            emit log_named_string("Error", err);
+            assertNotEq(a, b);
+        }
+    }
+    function assertNotEq(uint a, uint b) internal {
+        if (a == b) {
+            emit log("Error: a != b not satisfied [uint]");
+            emit log_named_uint("      Left", a);
+            emit log_named_uint("     Right", b);
+            fail();
+        }
+    }
+    function assertNotEq(uint a, uint b, string memory err) internal {
+        if (a == b) {
+            emit log_named_string("Error", err);
+            assertNotEq(a, b);
+        }
+    }
+    function assertNotEqDecimal(int a, int b, uint decimals) internal {
+        if (a == b) {
+            emit log("Error: a != b not satisfied [decimal int]");
+            emit log_named_decimal_int("      Left", a, decimals);
+            emit log_named_decimal_int("     Right", b, decimals);
+            fail();
+        }
+    }
+    function assertNotEqDecimal(int a, int b, uint decimals, string memory err) internal {
+        if (a == b) {
+            emit log_named_string("Error", err);
+            assertNotEqDecimal(a, b, decimals);
+        }
+    }
+    function assertNotEqDecimal(uint a, uint b, uint decimals) internal {
+        if (a == b) {
+            emit log("Error: a != b not satisfied [decimal uint]");
+            emit log_named_decimal_uint("      Left", a, decimals);
+            emit log_named_decimal_uint("     Right", b, decimals);
+            fail();
+        }
+    }
+    function assertNotEqDecimal(uint a, uint b, uint decimals, string memory err) internal {
+        if (a == b) {
+            emit log_named_string("Error", err);
+            assertNotEqDecimal(a, b, decimals);
+        }
+    }
+
+    function assertGt(uint a, uint b) internal {
+        if (a <= b) {
+            emit log("Error: a > b not satisfied [uint]");
+            emit log_named_uint("  Value a", a);
+            emit log_named_uint("  Value b", b);
+            fail();
+        }
+    }
+    function assertGt(uint a, uint b, string memory err) internal {
+        if (a <= b) {
+            emit log_named_string("Error", err);
+            assertGt(a, b);
+        }
+    }
+    function assertGt(int a, int b) internal {
+        if (a <= b) {
+            emit log("Error: a > b not satisfied [int]");
+            emit log_named_int("  Value a", a);
+            emit log_named_int("  Value b", b);
+            fail();
+        }
+    }
+    function assertGt(int a, int b, string memory err) internal {
+        if (a <= b) {
+            emit log_named_string("Error", err);
+            assertGt(a, b);
+        }
+    }
+    function assertGtDecimal(int a, int b, uint decimals) internal {
+        if (a <= b) {
+            emit log("Error: a > b not satisfied [decimal int]");
+            emit log_named_decimal_int("  Value a", a, decimals);
+            emit log_named_decimal_int("  Value b", b, decimals);
+            fail();
+        }
+    }
+    function assertGtDecimal(int a, int b, uint decimals, string memory err) internal {
+        if (a <= b) {
+            emit log_named_string("Error", err);
+            assertGtDecimal(a, b, decimals);
+        }
+    }
+    function assertGtDecimal(uint a, uint b, uint decimals) internal {
+        if (a <= b) {
+            emit log("Error: a > b not satisfied [decimal uint]");
+            emit log_named_decimal_uint("  Value a", a, decimals);
+            emit log_named_decimal_uint("  Value b", b, decimals);
+            fail();
+        }
+    }
+    function assertGtDecimal(uint a, uint b, uint decimals, string memory err) internal {
+        if (a <= b) {
+            emit log_named_string("Error", err);
+            assertGtDecimal(a, b, decimals);
+        }
+    }
+
+    function assertGe(uint a, uint b) internal {
+        if (a < b) {
+            emit log("Error: a >= b not satisfied [uint]");
+            emit log_named_uint("  Value a", a);
+            emit log_named_uint("  Value b", b);
+            fail();
+        }
+    }
+    function assertGe(uint a, uint b, string memory err) internal {
+        if (a < b) {
+            emit log_named_string("Error", err);
+            assertGe(a, b);
+        }
+    }
+    function assertGe(int a, int b) internal {
+        if (a < b) {
+            emit log("Error: a >= b not satisfied [int]");
+            emit log_named_int("  Value a", a);
+            emit log_named_int("  Value b", b);
+            fail();
+        }
+    }
+    function assertGe(int a, int b, string memory err) internal {
+        if (a < b) {
+            emit log_named_string("Error", err);
+            assertGe(a, b);
+        }
+    }
+    function assertGeDecimal(int a, int b, uint decimals) internal {
+        if (a < b) {
+            emit log("Error: a >= b not satisfied [decimal int]");
+            emit log_named_decimal_int("  Value a", a, decimals);
+            emit log_named_decimal_int("  Value b", b, decimals);
+            fail();
+        }
+    }
+    function assertGeDecimal(int a, int b, uint decimals, string memory err) internal {
+        if (a < b) {
+            emit log_named_string("Error", err);
+            assertGeDecimal(a, b, decimals);
+        }
+    }
+    function assertGeDecimal(uint a, uint b, uint decimals) internal {
+        if (a < b) {
+            emit log("Error: a >= b not satisfied [decimal uint]");
+            emit log_named_decimal_uint("  Value a", a, decimals);
+            emit log_named_decimal_uint("  Value b", b, decimals);
+            fail();
+        }
+    }
+    function assertGeDecimal(uint a, uint b, uint decimals, string memory err) internal {
+        if (a < b) {
+            emit log_named_string("Error", err);
+            assertGeDecimal(a, b, decimals);
+        }
+    }
+
+    function assertLt(uint a, uint b) internal {
+        if (a >= b) {
+            emit log("Error: a < b not satisfied [uint]");
+            emit log_named_uint("  Value a", a);
+            emit log_named_uint("  Value b", b);
+            fail();
+        }
+    }
+    function assertLt(uint a, uint b, string memory err) internal {
+        if (a >= b) {
+            emit log_named_string("Error", err);
+            assertLt(a, b);
+        }
+    }
+    function assertLt(int a, int b) internal {
+        if (a >= b) {
+            emit log("Error: a < b not satisfied [int]");
+            emit log_named_int("  Value a", a);
+            emit log_named_int("  Value b", b);
+            fail();
+        }
+    }
+    function assertLt(int a, int b, string memory err) internal {
+        if (a >= b) {
+            emit log_named_string("Error", err);
+            assertLt(a, b);
+        }
+    }
+    function assertLtDecimal(int a, int b, uint decimals) internal {
+        if (a >= b) {
+            emit log("Error: a < b not satisfied [decimal int]");
+            emit log_named_decimal_int("  Value a", a, decimals);
+            emit log_named_decimal_int("  Value b", b, decimals);
+            fail();
+        }
+    }
+    function assertLtDecimal(int a, int b, uint decimals, string memory err) internal {
+        if (a >= b) {
+            emit log_named_string("Error", err);
+            assertLtDecimal(a, b, decimals);
+        }
+    }
+    function assertLtDecimal(uint a, uint b, uint decimals) internal {
+        if (a >= b) {
+            emit log("Error: a < b not satisfied [decimal uint]");
+            emit log_named_decimal_uint("  Value a", a, decimals);
+            emit log_named_decimal_uint("  Value b", b, decimals);
+            fail();
+        }
+    }
+    function assertLtDecimal(uint a, uint b, uint decimals, string memory err) internal {
+        if (a >= b) {
+            emit log_named_string("Error", err);
+            assertLtDecimal(a, b, decimals);
+        }
+    }
+
+    function assertLe(uint a, uint b) internal {
+        if (a > b) {
+            emit log("Error: a <= b not satisfied [uint]");
+            emit log_named_uint("  Value a", a);
+            emit log_named_uint("  Value b", b);
+            fail();
+        }
+    }
+    function assertLe(uint a, uint b, string memory err) internal {
+        if (a > b) {
+            emit log_named_string("Error", err);
+            assertLe(a, b);
+        }
+    }
+    function assertLe(int a, int b) internal {
+        if (a > b) {
+            emit log("Error: a <= b not satisfied [int]");
+            emit log_named_int("  Value a", a);
+            emit log_named_int("  Value b", b);
+            fail();
+        }
+    }
+    function assertLe(int a, int b, string memory err) internal {
+        if (a > b) {
+            emit log_named_string("Error", err);
+            assertLe(a, b);
+        }
+    }
+    function assertLeDecimal(int a, int b, uint decimals) internal {
+        if (a > b) {
+            emit log("Error: a <= b not satisfied [decimal int]");
+            emit log_named_decimal_int("  Value a", a, decimals);
+            emit log_named_decimal_int("  Value b", b, decimals);
+            fail();
+        }
+    }
+    function assertLeDecimal(int a, int b, uint decimals, string memory err) internal {
+        if (a > b) {
+            emit log_named_string("Error", err);
+            assertLeDecimal(a, b, decimals);
+        }
+    }
+    function assertLeDecimal(uint a, uint b, uint decimals) internal {
+        if (a > b) {
+            emit log("Error: a <= b not satisfied [decimal uint]");
+            emit log_named_decimal_uint("  Value a", a, decimals);
+            emit log_named_decimal_uint("  Value b", b, decimals);
+            fail();
+        }
+    }
+    function assertLeDecimal(uint a, uint b, uint decimals, string memory err) internal {
+        if (a > b) {
+            emit log_named_string("Error", err);
+            assertLeDecimal(a, b, decimals);
+        }
+    }
+
+    function assertEq(string memory a, string memory b) internal {
+        if (keccak256(abi.encodePacked(a)) != keccak256(abi.encodePacked(b))) {
+            emit log("Error: a == b not satisfied [string]");
+            emit log_named_string("      Left", a);
+            emit log_named_string("     Right", b);
+            fail();
+        }
+    }
+    function assertEq(string memory a, string memory b, string memory err) internal {
+        if (keccak256(abi.encodePacked(a)) != keccak256(abi.encodePacked(b))) {
+            emit log_named_string("Error", err);
+            assertEq(a, b);
+        }
+    }
+
+    function assertNotEq(string memory a, string memory b) internal {
+        if (keccak256(abi.encodePacked(a)) == keccak256(abi.encodePacked(b))) {
+            emit log("Error: a != b not satisfied [string]");
+            emit log_named_string("      Left", a);
+            emit log_named_string("     Right", b);
+            fail();
+        }
+    }
+    function assertNotEq(string memory a, string memory b, string memory err) internal {
+        if (keccak256(abi.encodePacked(a)) == keccak256(abi.encodePacked(b))) {
+            emit log_named_string("Error", err);
+            assertNotEq(a, b);
+        }
+    }
+
+    function checkEq0(bytes memory a, bytes memory b) internal pure returns (bool ok) {
+        ok = true;
+        if (a.length == b.length) {
+            for (uint i = 0; i < a.length; i++) {
+                if (a[i] != b[i]) {
+                    ok = false;
+                }
+            }
+        } else {
+            ok = false;
+        }
+    }
+    function assertEq0(bytes memory a, bytes memory b) internal {
+        if (!checkEq0(a, b)) {
+            emit log("Error: a == b not satisfied [bytes]");
+            emit log_named_bytes("      Left", a);
+            emit log_named_bytes("     Right", b);
+            fail();
+        }
+    }
+    function assertEq0(bytes memory a, bytes memory b, string memory err) internal {
+        if (!checkEq0(a, b)) {
+            emit log_named_string("Error", err);
+            assertEq0(a, b);
+        }
+    }
+
+    function assertNotEq0(bytes memory a, bytes memory b) internal {
+        if (checkEq0(a, b)) {
+            emit log("Error: a != b not satisfied [bytes]");
+            emit log_named_bytes("      Left", a);
+            emit log_named_bytes("     Right", b);
+            fail();
+        }
+    }
+    function assertNotEq0(bytes memory a, bytes memory b, string memory err) internal {
+        if (checkEq0(a, b)) {
+            emit log_named_string("Error", err);
+            assertNotEq0(a, b);
+        }
+    }
+}
