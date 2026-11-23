@@ -1,1 +1,34 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodXRpbHMvRXJyb3JzLnNvbCkKCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKLyoqCiAqIEBkZXYgQ29sbGVjdGlvbiBvZiBjb21tb24gY3VzdG9tIGVycm9ycyB1c2VkIGluIG11bHRpcGxlIGNvbnRyYWN0cwogKgogKiBJTVBPUlRBTlQ6IEJhY2t3YXJkcyBjb21wYXRpYmlsaXR5IGlzIG5vdCBndWFyYW50ZWVkIGluIGZ1dHVyZSB2ZXJzaW9ucyBvZiB0aGUgbGlicmFyeS4KICogSXQgaXMgcmVjb21tZW5kZWQgdG8gYXZvaWQgcmVseWluZyBvbiB0aGUgZXJyb3IgQVBJIGZvciBjcml0aWNhbCBmdW5jdGlvbmFsaXR5LgogKgogKiBfQXZhaWxhYmxlIHNpbmNlIHY1LjEuXwogKi8KbGlicmFyeSBFcnJvcnMgewogICAgLyoqCiAgICAgKiBAZGV2IFRoZSBFVEggYmFsYW5jZSBvZiB0aGUgYWNjb3VudCBpcyBub3QgZW5vdWdoIHRvIHBlcmZvcm0gdGhlIG9wZXJhdGlvbi4KICAgICAqLwogICAgZXJyb3IgSW5zdWZmaWNpZW50QmFsYW5jZSh1aW50MjU2IGJhbGFuY2UsIHVpbnQyNTYgbmVlZGVkKTsKCiAgICAvKioKICAgICAqIEBkZXYgQSBjYWxsIHRvIGFuIGFkZHJlc3MgdGFyZ2V0IGZhaWxlZC4gVGhlIHRhcmdldCBtYXkgaGF2ZSByZXZlcnRlZC4KICAgICAqLwogICAgZXJyb3IgRmFpbGVkQ2FsbCgpOwoKICAgIC8qKgogICAgICogQGRldiBUaGUgZGVwbG95bWVudCBmYWlsZWQuCiAgICAgKi8KICAgIGVycm9yIEZhaWxlZERlcGxveW1lbnQoKTsKCiAgICAvKioKICAgICAqIEBkZXYgQSBuZWNlc3NhcnkgcHJlY29tcGlsZSBpcyBtaXNzaW5nLgogICAgICovCiAgICBlcnJvciBNaXNzaW5nUHJlY29tcGlsZShhZGRyZXNzKTsKfQo=
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (utils/Errors.sol)
+
+pragma solidity ^0.8.20;
+
+/**
+ * @dev Collection of common custom errors used in multiple contracts
+ *
+ * IMPORTANT: Backwards compatibility is not guaranteed in future versions of the library.
+ * It is recommended to avoid relying on the error API for critical functionality.
+ *
+ * _Available since v5.1._
+ */
+library Errors {
+    /**
+     * @dev The ETH balance of the account is not enough to perform the operation.
+     */
+    error InsufficientBalance(uint256 balance, uint256 needed);
+
+    /**
+     * @dev A call to an address target failed. The target may have reverted.
+     */
+    error FailedCall();
+
+    /**
+     * @dev The deployment failed.
+     */
+    error FailedDeployment();
+
+    /**
+     * @dev A necessary precompile is missing.
+     */
+    error MissingPrecompile(address);
+}
