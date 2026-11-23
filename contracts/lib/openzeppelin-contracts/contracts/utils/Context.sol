@@ -1,1 +1,28 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMC4xKSAodXRpbHMvQ29udGV4dC5zb2wpCgpwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCi8qKgogKiBAZGV2IFByb3ZpZGVzIGluZm9ybWF0aW9uIGFib3V0IHRoZSBjdXJyZW50IGV4ZWN1dGlvbiBjb250ZXh0LCBpbmNsdWRpbmcgdGhlCiAqIHNlbmRlciBvZiB0aGUgdHJhbnNhY3Rpb24gYW5kIGl0cyBkYXRhLiBXaGlsZSB0aGVzZSBhcmUgZ2VuZXJhbGx5IGF2YWlsYWJsZQogKiB2aWEgbXNnLnNlbmRlciBhbmQgbXNnLmRhdGEsIHRoZXkgc2hvdWxkIG5vdCBiZSBhY2Nlc3NlZCBpbiBzdWNoIGEgZGlyZWN0CiAqIG1hbm5lciwgc2luY2Ugd2hlbiBkZWFsaW5nIHdpdGggbWV0YS10cmFuc2FjdGlvbnMgdGhlIGFjY291bnQgc2VuZGluZyBhbmQKICogcGF5aW5nIGZvciBleGVjdXRpb24gbWF5IG5vdCBiZSB0aGUgYWN0dWFsIHNlbmRlciAoYXMgZmFyIGFzIGFuIGFwcGxpY2F0aW9uCiAqIGlzIGNvbmNlcm5lZCkuCiAqCiAqIFRoaXMgY29udHJhY3QgaXMgb25seSByZXF1aXJlZCBmb3IgaW50ZXJtZWRpYXRlLCBsaWJyYXJ5LWxpa2UgY29udHJhY3RzLgogKi8KYWJzdHJhY3QgY29udHJhY3QgQ29udGV4dCB7CiAgICBmdW5jdGlvbiBfbXNnU2VuZGVyKCkgaW50ZXJuYWwgdmlldyB2aXJ0dWFsIHJldHVybnMgKGFkZHJlc3MpIHsKICAgICAgICByZXR1cm4gbXNnLnNlbmRlcjsKICAgIH0KCiAgICBmdW5jdGlvbiBfbXNnRGF0YSgpIGludGVybmFsIHZpZXcgdmlydHVhbCByZXR1cm5zIChieXRlcyBjYWxsZGF0YSkgewogICAgICAgIHJldHVybiBtc2cuZGF0YTsKICAgIH0KCiAgICBmdW5jdGlvbiBfY29udGV4dFN1ZmZpeExlbmd0aCgpIGludGVybmFsIHZpZXcgdmlydHVhbCByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgcmV0dXJuIDA7CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.0.1) (utils/Context.sol)
+
+pragma solidity ^0.8.20;
+
+/**
+ * @dev Provides information about the current execution context, including the
+ * sender of the transaction and its data. While these are generally available
+ * via msg.sender and msg.data, they should not be accessed in such a direct
+ * manner, since when dealing with meta-transactions the account sending and
+ * paying for execution may not be the actual sender (as far as an application
+ * is concerned).
+ *
+ * This contract is only required for intermediate, library-like contracts.
+ */
+abstract contract Context {
+    function _msgSender() internal view virtual returns (address) {
+        return msg.sender;
+    }
+
+    function _msgData() internal view virtual returns (bytes calldata) {
+        return msg.data;
+    }
+
+    function _contextSuffixLength() internal view virtual returns (uint256) {
+        return 0;
+    }
+}
