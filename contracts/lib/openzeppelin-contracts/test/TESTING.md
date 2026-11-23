@@ -1,1 +1,3 @@
-IyMgVGVzdGluZwoKVW5pdCB0ZXN0IGFyZSBjcml0aWNhbCB0byBPcGVuWmVwcGVsaW4gQ29udHJhY3RzLiBUaGV5IGhlbHAgZW5zdXJlIGNvZGUgcXVhbGl0eSBhbmQgbWl0aWdhdGUgYWdhaW5zdCBzZWN1cml0eSB2dWxuZXJhYmlsaXRpZXMuIFRoZSBkaXJlY3Rvcnkgc3RydWN0dXJlIHdpdGhpbiB0aGUgYC90ZXN0YCBkaXJlY3RvcnkgY29ycmVzcG9uZHMgdG8gdGhlIGAvY29udHJhY3RzYCBkaXJlY3RvcnkuCg==
+## Testing
+
+Unit test are critical to OpenZeppelin Contracts. They help ensure code quality and mitigate against security vulnerabilities. The directory structure within the `/test` directory corresponds to the `/contracts` directory.
