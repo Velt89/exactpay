@@ -1,1 +1,17 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0VSQzIwfSBmcm9tICIuLi8uLi90b2tlbi9FUkMyMC9FUkMyMC5zb2wiOwoKYWJzdHJhY3QgY29udHJhY3QgRVJDMjBEZWNpbWFsc01vY2sgaXMgRVJDMjAgewogICAgdWludDggcHJpdmF0ZSBpbW11dGFibGUgX2RlY2ltYWxzOwoKICAgIGNvbnN0cnVjdG9yKHVpbnQ4IGRlY2ltYWxzXykgewogICAgICAgIF9kZWNpbWFscyA9IGRlY2ltYWxzXzsKICAgIH0KCiAgICBmdW5jdGlvbiBkZWNpbWFscygpIHB1YmxpYyB2aWV3IG92ZXJyaWRlIHJldHVybnMgKHVpbnQ4KSB7CiAgICAgICAgcmV0dXJuIF9kZWNpbWFsczsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {ERC20} from "../../token/ERC20/ERC20.sol";
+
+abstract contract ERC20DecimalsMock is ERC20 {
+    uint8 private immutable _decimals;
+
+    constructor(uint8 decimals_) {
+        _decimals = decimals_;
+    }
+
+    function decimals() public view override returns (uint8) {
+        return _decimals;
+    }
+}
