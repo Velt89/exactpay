@@ -1,1 +1,113 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAoYWNjZXNzL21hbmFnZXIvQWNjZXNzTWFuYWdlZC5zb2wpCgpwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7SUF1dGhvcml0eX0gZnJvbSAiLi9JQXV0aG9yaXR5LnNvbCI7CmltcG9ydCB7QXV0aG9yaXR5VXRpbHN9IGZyb20gIi4vQXV0aG9yaXR5VXRpbHMuc29sIjsKaW1wb3J0IHtJQWNjZXNzTWFuYWdlcn0gZnJvbSAiLi9JQWNjZXNzTWFuYWdlci5zb2wiOwppbXBvcnQge0lBY2Nlc3NNYW5hZ2VkfSBmcm9tICIuL0lBY2Nlc3NNYW5hZ2VkLnNvbCI7CmltcG9ydCB7Q29udGV4dH0gZnJvbSAiLi4vLi4vdXRpbHMvQ29udGV4dC5zb2wiOwoKLyoqCiAqIEBkZXYgVGhpcyBjb250cmFjdCBtb2R1bGUgbWFrZXMgYXZhaWxhYmxlIGEge3Jlc3RyaWN0ZWR9IG1vZGlmaWVyLiBGdW5jdGlvbnMgZGVjb3JhdGVkIHdpdGggdGhpcyBtb2RpZmllciB3aWxsIGJlCiAqIHBlcm1pc3Npb25lZCBhY2NvcmRpbmcgdG8gYW4gImF1dGhvcml0eSI6IGEgY29udHJhY3QgbGlrZSB7QWNjZXNzTWFuYWdlcn0gdGhhdCBmb2xsb3dzIHRoZSB7SUF1dGhvcml0eX0gaW50ZXJmYWNlLAogKiBpbXBsZW1lbnRpbmcgYSBwb2xpY3kgdGhhdCBhbGxvd3MgY2VydGFpbiBjYWxsZXJzIHRvIGFjY2VzcyBjZXJ0YWluIGZ1bmN0aW9ucy4KICoKICogSU1QT1JUQU5UOiBUaGUgYHJlc3RyaWN0ZWRgIG1vZGlmaWVyIHNob3VsZCBuZXZlciBiZSB1c2VkIG9uIGBpbnRlcm5hbGAgZnVuY3Rpb25zLCBqdWRpY2lvdXNseSB1c2VkIGluIGBwdWJsaWNgCiAqIGZ1bmN0aW9ucywgYW5kIGlkZWFsbHkgb25seSB1c2VkIGluIGBleHRlcm5hbGAgZnVuY3Rpb25zLiBTZWUge3Jlc3RyaWN0ZWR9LgogKi8KYWJzdHJhY3QgY29udHJhY3QgQWNjZXNzTWFuYWdlZCBpcyBDb250ZXh0LCBJQWNjZXNzTWFuYWdlZCB7CiAgICBhZGRyZXNzIHByaXZhdGUgX2F1dGhvcml0eTsKCiAgICBib29sIHByaXZhdGUgX2NvbnN1bWluZ1NjaGVkdWxlOwoKICAgIC8qKgogICAgICogQGRldiBJbml0aWFsaXplcyB0aGUgY29udHJhY3QgY29ubmVjdGVkIHRvIGFuIGluaXRpYWwgYXV0aG9yaXR5LgogICAgICovCiAgICBjb25zdHJ1Y3RvcihhZGRyZXNzIGluaXRpYWxBdXRob3JpdHkpIHsKICAgICAgICBfc2V0QXV0aG9yaXR5KGluaXRpYWxBdXRob3JpdHkpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBSZXN0cmljdHMgYWNjZXNzIHRvIGEgZnVuY3Rpb24gYXMgZGVmaW5lZCBieSB0aGUgY29ubmVjdGVkIEF1dGhvcml0eSBmb3IgdGhpcyBjb250cmFjdCBhbmQgdGhlCiAgICAgKiBjYWxsZXIgYW5kIHNlbGVjdG9yIG9mIHRoZSBmdW5jdGlvbiB0aGF0IGVudGVyZWQgdGhlIGNvbnRyYWN0LgogICAgICoKICAgICAqIFtJTVBPUlRBTlRdCiAgICAgKiA9PT09CiAgICAgKiBJbiBnZW5lcmFsLCB0aGlzIG1vZGlmaWVyIHNob3VsZCBvbmx5IGJlIHVzZWQgb24gYGV4dGVybmFsYCBmdW5jdGlvbnMuIEl0IGlzIG9rYXkgdG8gdXNlIGl0IG9uIGBwdWJsaWNgCiAgICAgKiBmdW5jdGlvbnMgdGhhdCBhcmUgdXNlZCBhcyBleHRlcm5hbCBlbnRyeSBwb2ludHMgYW5kIGFyZSBub3QgY2FsbGVkIGludGVybmFsbHkuIFVubGVzcyB5b3Uga25vdyB3aGF0IHlvdSdyZQogICAgICogZG9pbmcsIGl0IHNob3VsZCBuZXZlciBiZSB1c2VkIG9uIGBpbnRlcm5hbGAgZnVuY3Rpb25zLiBGYWlsdXJlIHRvIGZvbGxvdyB0aGVzZSBydWxlcyBjYW4gaGF2ZSBjcml0aWNhbCBzZWN1cml0eQogICAgICogaW1wbGljYXRpb25zISBUaGlzIGlzIGJlY2F1c2UgdGhlIHBlcm1pc3Npb25zIGFyZSBkZXRlcm1pbmVkIGJ5IHRoZSBmdW5jdGlvbiB0aGF0IGVudGVyZWQgdGhlIGNvbnRyYWN0LCBpLmUuIHRoZQogICAgICogZnVuY3Rpb24gYXQgdGhlIGJvdHRvbSBvZiB0aGUgY2FsbCBzdGFjaywgYW5kIG5vdCB0aGUgZnVuY3Rpb24gd2hlcmUgdGhlIG1vZGlmaWVyIGlzIHZpc2libGUgaW4gdGhlIHNvdXJjZSBjb2RlLgogICAgICogPT09PQogICAgICoKICAgICAqIFtXQVJOSU5HXQogICAgICogPT09PQogICAgICogQXZvaWQgYWRkaW5nIHRoaXMgbW9kaWZpZXIgdG8gdGhlIGh0dHBzOi8vZG9jcy5zb2xpZGl0eWxhbmcub3JnL2VuL3YwLjguMjAvY29udHJhY3RzLmh0bWwjcmVjZWl2ZS1ldGhlci1mdW5jdGlvbltgcmVjZWl2ZSgpYF0KICAgICAqIGZ1bmN0aW9uIG9yIHRoZSBodHRwczovL2RvY3Muc29saWRpdHlsYW5nLm9yZy9lbi92MC44LjIwL2NvbnRyYWN0cy5odG1sI2ZhbGxiYWNrLWZ1bmN0aW9uW2BmYWxsYmFjaygpYF0uIFRoZXNlCiAgICAgKiBmdW5jdGlvbnMgYXJlIHRoZSBvbmx5IGV4ZWN1dGlvbiBwYXRocyB3aGVyZSBhIGZ1bmN0aW9uIHNlbGVjdG9yIGNhbm5vdCBiZSB1bmFtYmlndW91c2x5IGRldGVybWluZWQgZnJvbSB0aGUgY2FsbGRhdGEKICAgICAqIHNpbmNlIHRoZSBzZWxlY3RvciBkZWZhdWx0cyB0byBgMHgwMDAwMDAwMGAgaW4gdGhlIGByZWNlaXZlKClgIGZ1bmN0aW9uIGFuZCBzaW1pbGFybHkgaW4gdGhlIGBmYWxsYmFjaygpYCBmdW5jdGlvbgogICAgICogaWYgbm8gY2FsbGRhdGEgaXMgcHJvdmlkZWQuIChTZWUge19jaGVja0NhbkNhbGx9KS4KICAgICAqCiAgICAgKiBUaGUgYHJlY2VpdmUoKWAgZnVuY3Rpb24gd2lsbCBhbHdheXMgcGFuaWMgd2hlcmVhcyB0aGUgYGZhbGxiYWNrKClgIG1heSBwYW5pYyBkZXBlbmRpbmcgb24gdGhlIGNhbGxkYXRhIGxlbmd0aC4KICAgICAqID09PT0KICAgICAqLwogICAgbW9kaWZpZXIgcmVzdHJpY3RlZCgpIHsKICAgICAgICBfY2hlY2tDYW5DYWxsKF9tc2dTZW5kZXIoKSwgX21zZ0RhdGEoKSk7CiAgICAgICAgXzsKICAgIH0KCiAgICAvLy8gQGluaGVyaXRkb2MgSUFjY2Vzc01hbmFnZWQKICAgIGZ1bmN0aW9uIGF1dGhvcml0eSgpIHB1YmxpYyB2aWV3IHZpcnR1YWwgcmV0dXJucyAoYWRkcmVzcykgewogICAgICAgIHJldHVybiBfYXV0aG9yaXR5OwogICAgfQoKICAgIC8vLyBAaW5oZXJpdGRvYyBJQWNjZXNzTWFuYWdlZAogICAgZnVuY3Rpb24gc2V0QXV0aG9yaXR5KGFkZHJlc3MgbmV3QXV0aG9yaXR5KSBwdWJsaWMgdmlydHVhbCB7CiAgICAgICAgYWRkcmVzcyBjYWxsZXIgPSBfbXNnU2VuZGVyKCk7CiAgICAgICAgaWYgKGNhbGxlciAhPSBhdXRob3JpdHkoKSkgewogICAgICAgICAgICByZXZlcnQgQWNjZXNzTWFuYWdlZFVuYXV0aG9yaXplZChjYWxsZXIpOwogICAgICAgIH0KICAgICAgICBpZiAobmV3QXV0aG9yaXR5LmNvZGUubGVuZ3RoID09IDApIHsKICAgICAgICAgICAgcmV2ZXJ0IEFjY2Vzc01hbmFnZWRJbnZhbGlkQXV0aG9yaXR5KG5ld0F1dGhvcml0eSk7CiAgICAgICAgfQogICAgICAgIF9zZXRBdXRob3JpdHkobmV3QXV0aG9yaXR5KTsKICAgIH0KCiAgICAvLy8gQGluaGVyaXRkb2MgSUFjY2Vzc01hbmFnZWQKICAgIGZ1bmN0aW9uIGlzQ29uc3VtaW5nU2NoZWR1bGVkT3AoKSBwdWJsaWMgdmlldyByZXR1cm5zIChieXRlczQpIHsKICAgICAgICByZXR1cm4gX2NvbnN1bWluZ1NjaGVkdWxlID8gdGhpcy5pc0NvbnN1bWluZ1NjaGVkdWxlZE9wLnNlbGVjdG9yIDogYnl0ZXM0KDApOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBUcmFuc2ZlcnMgY29udHJvbCB0byBhIG5ldyBhdXRob3JpdHkuIEludGVybmFsIGZ1bmN0aW9uIHdpdGggbm8gYWNjZXNzIHJlc3RyaWN0aW9uLiBBbGxvd3MgYnlwYXNzaW5nIHRoZQogICAgICogcGVybWlzc2lvbnMgc2V0IGJ5IHRoZSBjdXJyZW50IGF1dGhvcml0eS4KICAgICAqLwogICAgZnVuY3Rpb24gX3NldEF1dGhvcml0eShhZGRyZXNzIG5ld0F1dGhvcml0eSkgaW50ZXJuYWwgdmlydHVhbCB7CiAgICAgICAgX2F1dGhvcml0eSA9IG5ld0F1dGhvcml0eTsKICAgICAgICBlbWl0IEF1dGhvcml0eVVwZGF0ZWQobmV3QXV0aG9yaXR5KTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUmV2ZXJ0cyBpZiB0aGUgY2FsbGVyIGlzIG5vdCBhbGxvd2VkIHRvIGNhbGwgdGhlIGZ1bmN0aW9uIGlkZW50aWZpZWQgYnkgYSBzZWxlY3Rvci4gUGFuaWNzIGlmIHRoZSBjYWxsZGF0YQogICAgICogaXMgbGVzcyB0aGFuIDQgYnl0ZXMgbG9uZy4KICAgICAqLwogICAgZnVuY3Rpb24gX2NoZWNrQ2FuQ2FsbChhZGRyZXNzIGNhbGxlciwgYnl0ZXMgY2FsbGRhdGEgZGF0YSkgaW50ZXJuYWwgdmlydHVhbCB7CiAgICAgICAgKGJvb2wgaW1tZWRpYXRlLCB1aW50MzIgZGVsYXkpID0gQXV0aG9yaXR5VXRpbHMuY2FuQ2FsbFdpdGhEZWxheSgKICAgICAgICAgICAgYXV0aG9yaXR5KCksCiAgICAgICAgICAgIGNhbGxlciwKICAgICAgICAgICAgYWRkcmVzcyh0aGlzKSwKICAgICAgICAgICAgYnl0ZXM0KGRhdGFbMDo0XSkKICAgICAgICApOwogICAgICAgIGlmICghaW1tZWRpYXRlKSB7CiAgICAgICAgICAgIGlmIChkZWxheSA+IDApIHsKICAgICAgICAgICAgICAgIF9jb25zdW1pbmdTY2hlZHVsZSA9IHRydWU7CiAgICAgICAgICAgICAgICBJQWNjZXNzTWFuYWdlcihhdXRob3JpdHkoKSkuY29uc3VtZVNjaGVkdWxlZE9wKGNhbGxlciwgZGF0YSk7CiAgICAgICAgICAgICAgICBfY29uc3VtaW5nU2NoZWR1bGUgPSBmYWxzZTsKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIHJldmVydCBBY2Nlc3NNYW5hZ2VkVW5hdXRob3JpemVkKGNhbGxlcik7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (access/manager/AccessManaged.sol)
+
+pragma solidity ^0.8.20;
+
+import {IAuthority} from "./IAuthority.sol";
+import {AuthorityUtils} from "./AuthorityUtils.sol";
+import {IAccessManager} from "./IAccessManager.sol";
+import {IAccessManaged} from "./IAccessManaged.sol";
+import {Context} from "../../utils/Context.sol";
+
+/**
+ * @dev This contract module makes available a {restricted} modifier. Functions decorated with this modifier will be
+ * permissioned according to an "authority": a contract like {AccessManager} that follows the {IAuthority} interface,
+ * implementing a policy that allows certain callers to access certain functions.
+ *
+ * IMPORTANT: The `restricted` modifier should never be used on `internal` functions, judiciously used in `public`
+ * functions, and ideally only used in `external` functions. See {restricted}.
+ */
+abstract contract AccessManaged is Context, IAccessManaged {
+    address private _authority;
+
+    bool private _consumingSchedule;
+
+    /**
+     * @dev Initializes the contract connected to an initial authority.
+     */
+    constructor(address initialAuthority) {
+        _setAuthority(initialAuthority);
+    }
+
+    /**
+     * @dev Restricts access to a function as defined by the connected Authority for this contract and the
+     * caller and selector of the function that entered the contract.
+     *
+     * [IMPORTANT]
+     * ====
+     * In general, this modifier should only be used on `external` functions. It is okay to use it on `public`
+     * functions that are used as external entry points and are not called internally. Unless you know what you're
+     * doing, it should never be used on `internal` functions. Failure to follow these rules can have critical security
+     * implications! This is because the permissions are determined by the function that entered the contract, i.e. the
+     * function at the bottom of the call stack, and not the function where the modifier is visible in the source code.
+     * ====
+     *
+     * [WARNING]
+     * ====
+     * Avoid adding this modifier to the https://docs.soliditylang.org/en/v0.8.20/contracts.html#receive-ether-function[`receive()`]
+     * function or the https://docs.soliditylang.org/en/v0.8.20/contracts.html#fallback-function[`fallback()`]. These
+     * functions are the only execution paths where a function selector cannot be unambiguously determined from the calldata
+     * since the selector defaults to `0x00000000` in the `receive()` function and similarly in the `fallback()` function
+     * if no calldata is provided. (See {_checkCanCall}).
+     *
+     * The `receive()` function will always panic whereas the `fallback()` may panic depending on the calldata length.
+     * ====
+     */
+    modifier restricted() {
+        _checkCanCall(_msgSender(), _msgData());
+        _;
+    }
+
+    /// @inheritdoc IAccessManaged
+    function authority() public view virtual returns (address) {
+        return _authority;
+    }
+
+    /// @inheritdoc IAccessManaged
+    function setAuthority(address newAuthority) public virtual {
+        address caller = _msgSender();
+        if (caller != authority()) {
+            revert AccessManagedUnauthorized(caller);
+        }
+        if (newAuthority.code.length == 0) {
+            revert AccessManagedInvalidAuthority(newAuthority);
+        }
+        _setAuthority(newAuthority);
+    }
+
+    /// @inheritdoc IAccessManaged
+    function isConsumingScheduledOp() public view returns (bytes4) {
+        return _consumingSchedule ? this.isConsumingScheduledOp.selector : bytes4(0);
+    }
+
+    /**
+     * @dev Transfers control to a new authority. Internal function with no access restriction. Allows bypassing the
+     * permissions set by the current authority.
+     */
+    function _setAuthority(address newAuthority) internal virtual {
+        _authority = newAuthority;
+        emit AuthorityUpdated(newAuthority);
+    }
+
+    /**
+     * @dev Reverts if the caller is not allowed to call the function identified by a selector. Panics if the calldata
+     * is less than 4 bytes long.
+     */
+    function _checkCanCall(address caller, bytes calldata data) internal virtual {
+        (bool immediate, uint32 delay) = AuthorityUtils.canCallWithDelay(
+            authority(),
+            caller,
+            address(this),
+            bytes4(data[0:4])
+        );
+        if (!immediate) {
+            if (delay > 0) {
+                _consumingSchedule = true;
+                IAccessManager(authority()).consumeScheduledOp(caller, data);
+                _consumingSchedule = false;
+            } else {
+                revert AccessManagedUnauthorized(caller);
+            }
+        }
+    }
+}
