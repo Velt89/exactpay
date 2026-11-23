@@ -1,1 +1,35 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAoaW50ZXJmYWNlcy9JRVJDNzc3UmVjaXBpZW50LnNvbCkKCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKLyoqCiAqIEBkZXYgSW50ZXJmYWNlIG9mIHRoZSBFUkMtNzc3IFRva2VucyBSZWNpcGllbnQgc3RhbmRhcmQgYXMgZGVmaW5lZCBpbiB0aGUgRVJDLgogKgogKiBBY2NvdW50cyBjYW4gYmUgbm90aWZpZWQgb2Yge0lFUkM3Nzd9IHRva2VucyBiZWluZyBzZW50IHRvIHRoZW0gYnkgaGF2aW5nIGEKICogY29udHJhY3QgaW1wbGVtZW50IHRoaXMgaW50ZXJmYWNlIChjb250cmFjdCBob2xkZXJzIGNhbiBiZSB0aGVpciBvd24KICogaW1wbGVtZW50ZXIpIGFuZCByZWdpc3RlcmluZyBpdCBvbiB0aGUKICogaHR0cHM6Ly9laXBzLmV0aGVyZXVtLm9yZy9FSVBTL2VpcC0xODIwW0VSQy0xODIwIGdsb2JhbCByZWdpc3RyeV0uCiAqCiAqIFNlZSB7SUVSQzE4MjBSZWdpc3RyeX0gYW5kIHtJRVJDMTgyMEltcGxlbWVudGVyfS4KICovCmludGVyZmFjZSBJRVJDNzc3UmVjaXBpZW50IHsKICAgIC8qKgogICAgICogQGRldiBDYWxsZWQgYnkgYW4ge0lFUkM3Nzd9IHRva2VuIGNvbnRyYWN0IHdoZW5ldmVyIHRva2VucyBhcmUgYmVpbmcKICAgICAqIG1vdmVkIG9yIGNyZWF0ZWQgaW50byBhIHJlZ2lzdGVyZWQgYWNjb3VudCAoYHRvYCkuIFRoZSB0eXBlIG9mIG9wZXJhdGlvbgogICAgICogaXMgY29udmV5ZWQgYnkgYGZyb21gIGJlaW5nIHRoZSB6ZXJvIGFkZHJlc3Mgb3Igbm90LgogICAgICoKICAgICAqIFRoaXMgY2FsbCBvY2N1cnMgX2FmdGVyXyB0aGUgdG9rZW4gY29udHJhY3QncyBzdGF0ZSBpcyB1cGRhdGVkLCBzbwogICAgICoge0lFUkM3NzctYmFsYW5jZU9mfSwgZXRjLiwgY2FuIGJlIHVzZWQgdG8gcXVlcnkgdGhlIHBvc3Qtb3BlcmF0aW9uIHN0YXRlLgogICAgICoKICAgICAqIFRoaXMgZnVuY3Rpb24gbWF5IHJldmVydCB0byBwcmV2ZW50IHRoZSBvcGVyYXRpb24gZnJvbSBiZWluZyBleGVjdXRlZC4KICAgICAqLwogICAgZnVuY3Rpb24gdG9rZW5zUmVjZWl2ZWQoCiAgICAgICAgYWRkcmVzcyBvcGVyYXRvciwKICAgICAgICBhZGRyZXNzIGZyb20sCiAgICAgICAgYWRkcmVzcyB0bywKICAgICAgICB1aW50MjU2IGFtb3VudCwKICAgICAgICBieXRlcyBjYWxsZGF0YSB1c2VyRGF0YSwKICAgICAgICBieXRlcyBjYWxsZGF0YSBvcGVyYXRvckRhdGEKICAgICkgZXh0ZXJuYWw7Cn0K
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (interfaces/IERC777Recipient.sol)
+
+pragma solidity ^0.8.20;
+
+/**
+ * @dev Interface of the ERC-777 Tokens Recipient standard as defined in the ERC.
+ *
+ * Accounts can be notified of {IERC777} tokens being sent to them by having a
+ * contract implement this interface (contract holders can be their own
+ * implementer) and registering it on the
+ * https://eips.ethereum.org/EIPS/eip-1820[ERC-1820 global registry].
+ *
+ * See {IERC1820Registry} and {IERC1820Implementer}.
+ */
+interface IERC777Recipient {
+    /**
+     * @dev Called by an {IERC777} token contract whenever tokens are being
+     * moved or created into a registered account (`to`). The type of operation
+     * is conveyed by `from` being the zero address or not.
+     *
+     * This call occurs _after_ the token contract's state is updated, so
+     * {IERC777-balanceOf}, etc., can be used to query the post-operation state.
+     *
+     * This function may revert to prevent the operation from being executed.
+     */
+    function tokensReceived(
+        address operator,
+        address from,
+        address to,
+        uint256 amount,
+        bytes calldata userData,
+        bytes calldata operatorData
+    ) external;
+}
