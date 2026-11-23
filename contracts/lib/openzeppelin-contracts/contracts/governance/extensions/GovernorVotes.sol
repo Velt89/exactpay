@@ -1,1 +1,64 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAoZ292ZXJuYW5jZS9leHRlbnNpb25zL0dvdmVybm9yVm90ZXMuc29sKQoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0dvdmVybm9yfSBmcm9tICIuLi9Hb3Zlcm5vci5zb2wiOwppbXBvcnQge0lWb3Rlc30gZnJvbSAiLi4vdXRpbHMvSVZvdGVzLnNvbCI7CmltcG9ydCB7SUVSQzU4MDV9IGZyb20gIi4uLy4uL2ludGVyZmFjZXMvSUVSQzU4MDUuc29sIjsKaW1wb3J0IHtTYWZlQ2FzdH0gZnJvbSAiLi4vLi4vdXRpbHMvbWF0aC9TYWZlQ2FzdC5zb2wiOwppbXBvcnQge1RpbWV9IGZyb20gIi4uLy4uL3V0aWxzL3R5cGVzL1RpbWUuc29sIjsKCi8qKgogKiBAZGV2IEV4dGVuc2lvbiBvZiB7R292ZXJub3J9IGZvciB2b3Rpbmcgd2VpZ2h0IGV4dHJhY3Rpb24gZnJvbSBhbiB7RVJDMjBWb3Rlc30gdG9rZW4sIG9yIHNpbmNlIHY0LjUgYW4ge0VSQzcyMVZvdGVzfQogKiB0b2tlbi4KICovCmFic3RyYWN0IGNvbnRyYWN0IEdvdmVybm9yVm90ZXMgaXMgR292ZXJub3IgewogICAgSUVSQzU4MDUgcHJpdmF0ZSBpbW11dGFibGUgX3Rva2VuOwoKICAgIGNvbnN0cnVjdG9yKElWb3RlcyB0b2tlbkFkZHJlc3MpIHsKICAgICAgICBfdG9rZW4gPSBJRVJDNTgwNShhZGRyZXNzKHRva2VuQWRkcmVzcykpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBUaGUgdG9rZW4gdGhhdCB2b3RpbmcgcG93ZXIgaXMgc291cmNlZCBmcm9tLgogICAgICovCiAgICBmdW5jdGlvbiB0b2tlbigpIHB1YmxpYyB2aWV3IHZpcnR1YWwgcmV0dXJucyAoSUVSQzU4MDUpIHsKICAgICAgICByZXR1cm4gX3Rva2VuOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBDbG9jayAoYXMgc3BlY2lmaWVkIGluIEVSQy02MzcyKSBpcyBzZXQgdG8gbWF0Y2ggdGhlIHRva2VuJ3MgY2xvY2suIEZhbGxiYWNrIHRvIGJsb2NrIG51bWJlcnMgaWYgdGhlIHRva2VuCiAgICAgKiBkb2VzIG5vdCBpbXBsZW1lbnQgRVJDLTYzNzIuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGNsb2NrKCkgcHVibGljIHZpZXcgdmlydHVhbCBvdmVycmlkZSByZXR1cm5zICh1aW50NDgpIHsKICAgICAgICB0cnkgdG9rZW4oKS5jbG9jaygpIHJldHVybnMgKHVpbnQ0OCB0aW1lcG9pbnQpIHsKICAgICAgICAgICAgcmV0dXJuIHRpbWVwb2ludDsKICAgICAgICB9IGNhdGNoIHsKICAgICAgICAgICAgcmV0dXJuIFRpbWUuYmxvY2tOdW1iZXIoKTsKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IE1hY2hpbmUtcmVhZGFibGUgZGVzY3JpcHRpb24gb2YgdGhlIGNsb2NrIGFzIHNwZWNpZmllZCBpbiBFUkMtNjM3Mi4KICAgICAqLwogICAgLy8gc29saGludC1kaXNhYmxlLW5leHQtbGluZSBmdW5jLW5hbWUtbWl4ZWRjYXNlCiAgICBmdW5jdGlvbiBDTE9DS19NT0RFKCkgcHVibGljIHZpZXcgdmlydHVhbCBvdmVycmlkZSByZXR1cm5zIChzdHJpbmcgbWVtb3J5KSB7CiAgICAgICAgdHJ5IHRva2VuKCkuQ0xPQ0tfTU9ERSgpIHJldHVybnMgKHN0cmluZyBtZW1vcnkgY2xvY2ttb2RlKSB7CiAgICAgICAgICAgIHJldHVybiBjbG9ja21vZGU7CiAgICAgICAgfSBjYXRjaCB7CiAgICAgICAgICAgIHJldHVybiAibW9kZT1ibG9ja251bWJlciZmcm9tPWRlZmF1bHQiOwogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIFJlYWQgdGhlIHZvdGluZyB3ZWlnaHQgZnJvbSB0aGUgdG9rZW4ncyBidWlsdCBpbiBzbmFwc2hvdCBtZWNoYW5pc20gKHNlZSB7R292ZXJub3ItX2dldFZvdGVzfSkuCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9nZXRWb3RlcygKICAgICAgICBhZGRyZXNzIGFjY291bnQsCiAgICAgICAgdWludDI1NiB0aW1lcG9pbnQsCiAgICAgICAgYnl0ZXMgbWVtb3J5IC8qcGFyYW1zKi8KICAgICkgaW50ZXJuYWwgdmlldyB2aXJ0dWFsIG92ZXJyaWRlIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXR1cm4gdG9rZW4oKS5nZXRQYXN0Vm90ZXMoYWNjb3VudCwgdGltZXBvaW50KTsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (governance/extensions/GovernorVotes.sol)
+
+pragma solidity ^0.8.20;
+
+import {Governor} from "../Governor.sol";
+import {IVotes} from "../utils/IVotes.sol";
+import {IERC5805} from "../../interfaces/IERC5805.sol";
+import {SafeCast} from "../../utils/math/SafeCast.sol";
+import {Time} from "../../utils/types/Time.sol";
+
+/**
+ * @dev Extension of {Governor} for voting weight extraction from an {ERC20Votes} token, or since v4.5 an {ERC721Votes}
+ * token.
+ */
+abstract contract GovernorVotes is Governor {
+    IERC5805 private immutable _token;
+
+    constructor(IVotes tokenAddress) {
+        _token = IERC5805(address(tokenAddress));
+    }
+
+    /**
+     * @dev The token that voting power is sourced from.
+     */
+    function token() public view virtual returns (IERC5805) {
+        return _token;
+    }
+
+    /**
+     * @dev Clock (as specified in ERC-6372) is set to match the token's clock. Fallback to block numbers if the token
+     * does not implement ERC-6372.
+     */
+    function clock() public view virtual override returns (uint48) {
+        try token().clock() returns (uint48 timepoint) {
+            return timepoint;
+        } catch {
+            return Time.blockNumber();
+        }
+    }
+
+    /**
+     * @dev Machine-readable description of the clock as specified in ERC-6372.
+     */
+    // solhint-disable-next-line func-name-mixedcase
+    function CLOCK_MODE() public view virtual override returns (string memory) {
+        try token().CLOCK_MODE() returns (string memory clockmode) {
+            return clockmode;
+        } catch {
+            return "mode=blocknumber&from=default";
+        }
+    }
+
+    /**
+     * Read the voting weight from the token's built in snapshot mechanism (see {Governor-_getVotes}).
+     */
+    function _getVotes(
+        address account,
+        uint256 timepoint,
+        bytes memory /*params*/
+    ) internal view virtual override returns (uint256) {
+        return token().getPastVotes(account, timepoint);
+    }
+}
