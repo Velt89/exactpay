@@ -1,1 +1,61 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKY29uc3QgeyBtYXBWYWx1ZXMgfSA9IHJlcXVpcmUoJy4uLy4uL2hlbHBlcnMvaXRlcmF0ZScpOwpjb25zdCB7IGdlbmVyYXRvcnMgfSA9IHJlcXVpcmUoJy4uLy4uL2hlbHBlcnMvcmFuZG9tJyk7CmNvbnN0IHsgVFlQRVMgfSA9IHJlcXVpcmUoJy4uLy4uLy4uL3NjcmlwdHMvZ2VuZXJhdGUvdGVtcGxhdGVzL0VudW1lcmFibGVTZXQub3B0cycpOwoKY29uc3QgeyBzaG91bGRCZWhhdmVMaWtlU2V0IH0gPSByZXF1aXJlKCcuL0VudW1lcmFibGVTZXQuYmVoYXZpb3InKTsKCmNvbnN0IGdldE1ldGhvZHMgPSAobW9jaywgZm5TaWdzKSA9PiB7CiAgcmV0dXJuIG1hcFZhbHVlcygKICAgIGZuU2lncywKICAgIGZuU2lnID0+CiAgICAgICguLi5hcmdzKSA9PgogICAgICAgIG1vY2suZ2V0RnVuY3Rpb24oZm5TaWcpKDAsIC4uLmFyZ3MpLAogICk7Cn07Cgphc3luYyBmdW5jdGlvbiBmaXh0dXJlKCkgewogIGNvbnN0IG1vY2sgPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJyRFbnVtZXJhYmxlU2V0Jyk7CgogIGNvbnN0IGVudiA9IE9iamVjdC5mcm9tRW50cmllcygKICAgIFRZUEVTLm1hcCgoeyBuYW1lLCB0eXBlIH0pID0+IFsKICAgICAgdHlwZSwKICAgICAgewogICAgICAgIHZhbHVlczogQXJyYXkuZnJvbSh7IGxlbmd0aDogMyB9LCBnZW5lcmF0b3JzW3R5cGVdKSwKICAgICAgICBtZXRob2RzOiBnZXRNZXRob2RzKG1vY2ssIHsKICAgICAgICAgIGFkZDogYCRhZGQodWludDI1Niwke3R5cGV9KWAsCiAgICAgICAgICByZW1vdmU6IGAkcmVtb3ZlKHVpbnQyNTYsJHt0eXBlfSlgLAogICAgICAgICAgY29udGFpbnM6IGAkY29udGFpbnModWludDI1Niwke3R5cGV9KWAsCiAgICAgICAgICBsZW5ndGg6IGAkbGVuZ3RoX0VudW1lcmFibGVTZXRfJHtuYW1lfSh1aW50MjU2KWAsCiAgICAgICAgICBhdDogYCRhdF9FbnVtZXJhYmxlU2V0XyR7bmFtZX0odWludDI1Nix1aW50MjU2KWAsCiAgICAgICAgICB2YWx1ZXM6IGAkdmFsdWVzX0VudW1lcmFibGVTZXRfJHtuYW1lfSh1aW50MjU2KWAsCiAgICAgICAgfSksCiAgICAgICAgZXZlbnRzOiB7CiAgICAgICAgICBhZGRSZXR1cm46IGByZXR1cm4kYWRkX0VudW1lcmFibGVTZXRfJHtuYW1lfV8ke3R5cGV9YCwKICAgICAgICAgIHJlbW92ZVJldHVybjogYHJldHVybiRyZW1vdmVfRW51bWVyYWJsZVNldF8ke25hbWV9XyR7dHlwZX1gLAogICAgICAgIH0sCiAgICAgIH0sCiAgICBdKSwKICApOwoKICByZXR1cm4geyBtb2NrLCBlbnYgfTsKfQoKZGVzY3JpYmUoJ0VudW1lcmFibGVTZXQnLCBmdW5jdGlvbiAoKSB7CiAgYmVmb3JlRWFjaChhc3luYyBmdW5jdGlvbiAoKSB7CiAgICBPYmplY3QuYXNzaWduKHRoaXMsIGF3YWl0IGxvYWRGaXh0dXJlKGZpeHR1cmUpKTsKICB9KTsKCiAgZm9yIChjb25zdCB7IHR5cGUgfSBvZiBUWVBFUykgewogICAgZGVzY3JpYmUodHlwZSwgZnVuY3Rpb24gKCkgewogICAgICBiZWZvcmVFYWNoKGZ1bmN0aW9uICgpIHsKICAgICAgICBPYmplY3QuYXNzaWduKHRoaXMsIHRoaXMuZW52W3R5cGVdKTsKICAgICAgICBbdGhpcy52YWx1ZUEsIHRoaXMudmFsdWVCLCB0aGlzLnZhbHVlQ10gPSB0aGlzLnZhbHVlczsKICAgICAgfSk7CgogICAgICBzaG91bGRCZWhhdmVMaWtlU2V0KCk7CiAgICB9KTsKICB9Cn0pOwo=
+const { ethers } = require('hardhat');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+const { mapValues } = require('../../helpers/iterate');
+const { generators } = require('../../helpers/random');
+const { TYPES } = require('../../../scripts/generate/templates/EnumerableSet.opts');
+
+const { shouldBehaveLikeSet } = require('./EnumerableSet.behavior');
+
+const getMethods = (mock, fnSigs) => {
+  return mapValues(
+    fnSigs,
+    fnSig =>
+      (...args) =>
+        mock.getFunction(fnSig)(0, ...args),
+  );
+};
+
+async function fixture() {
+  const mock = await ethers.deployContract('$EnumerableSet');
+
+  const env = Object.fromEntries(
+    TYPES.map(({ name, type }) => [
+      type,
+      {
+        values: Array.from({ length: 3 }, generators[type]),
+        methods: getMethods(mock, {
+          add: `$add(uint256,${type})`,
+          remove: `$remove(uint256,${type})`,
+          contains: `$contains(uint256,${type})`,
+          length: `$length_EnumerableSet_${name}(uint256)`,
+          at: `$at_EnumerableSet_${name}(uint256,uint256)`,
+          values: `$values_EnumerableSet_${name}(uint256)`,
+        }),
+        events: {
+          addReturn: `return$add_EnumerableSet_${name}_${type}`,
+          removeReturn: `return$remove_EnumerableSet_${name}_${type}`,
+        },
+      },
+    ]),
+  );
+
+  return { mock, env };
+}
+
+describe('EnumerableSet', function () {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  for (const { type } of TYPES) {
+    describe(type, function () {
+      beforeEach(function () {
+        Object.assign(this, this.env[type]);
+        [this.valueA, this.valueB, this.valueC] = this.values;
+      });
+
+      shouldBehaveLikeSet();
+    });
+  }
+});
