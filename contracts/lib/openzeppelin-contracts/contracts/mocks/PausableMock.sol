@@ -1,1 +1,31 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge1BhdXNhYmxlfSBmcm9tICIuLi91dGlscy9QYXVzYWJsZS5zb2wiOwoKY29udHJhY3QgUGF1c2FibGVNb2NrIGlzIFBhdXNhYmxlIHsKICAgIGJvb2wgcHVibGljIGRyYXN0aWNNZWFzdXJlVGFrZW47CiAgICB1aW50MjU2IHB1YmxpYyBjb3VudDsKCiAgICBjb25zdHJ1Y3RvcigpIHsKICAgICAgICBkcmFzdGljTWVhc3VyZVRha2VuID0gZmFsc2U7CiAgICAgICAgY291bnQgPSAwOwogICAgfQoKICAgIGZ1bmN0aW9uIG5vcm1hbFByb2Nlc3MoKSBleHRlcm5hbCB3aGVuTm90UGF1c2VkIHsKICAgICAgICBjb3VudCsrOwogICAgfQoKICAgIGZ1bmN0aW9uIGRyYXN0aWNNZWFzdXJlKCkgZXh0ZXJuYWwgd2hlblBhdXNlZCB7CiAgICAgICAgZHJhc3RpY01lYXN1cmVUYWtlbiA9IHRydWU7CiAgICB9CgogICAgZnVuY3Rpb24gcGF1c2UoKSBleHRlcm5hbCB7CiAgICAgICAgX3BhdXNlKCk7CiAgICB9CgogICAgZnVuY3Rpb24gdW5wYXVzZSgpIGV4dGVybmFsIHsKICAgICAgICBfdW5wYXVzZSgpOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {Pausable} from "../utils/Pausable.sol";
+
+contract PausableMock is Pausable {
+    bool public drasticMeasureTaken;
+    uint256 public count;
+
+    constructor() {
+        drasticMeasureTaken = false;
+        count = 0;
+    }
+
+    function normalProcess() external whenNotPaused {
+        count++;
+    }
+
+    function drasticMeasure() external whenPaused {
+        drasticMeasureTaken = true;
+    }
+
+    function pause() external {
+        _pause();
+    }
+
+    function unpause() external {
+        _unpause();
+    }
+}
