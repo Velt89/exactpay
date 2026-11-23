@@ -1,1 +1,35 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IEFHUEwtMy4wCnByYWdtYSBzb2xpZGl0eSA+PTAuOC4wIDwwLjkuMDsKCi8vLyBAbm90aWNlIFN5bWJvbGljIFZpcnR1YWwgTWFjaGluZQppbnRlcmZhY2UgU1ZNIHsKICAgIC8vIENyZWF0ZSBhIG5ldyBzeW1ib2xpYyB1aW50IHZhbHVlIHJhbmdpbmcgb3ZlciBbMCwgMioqYml0U2l6ZSAtIDFdIChpbmNsdXNpdmUpCiAgICBmdW5jdGlvbiBjcmVhdGVVaW50KHVpbnQyNTYgYml0U2l6ZSwgc3RyaW5nIG1lbW9yeSBuYW1lKSBleHRlcm5hbCBwdXJlIHJldHVybnMgKHVpbnQyNTYgdmFsdWUpOwoKICAgIC8vIENyZWF0ZSBhIG5ldyBzeW1ib2xpYyB1aW50MjU2IHZhbHVlCiAgICBmdW5jdGlvbiBjcmVhdGVVaW50MjU2KHN0cmluZyBtZW1vcnkgbmFtZSkgZXh0ZXJuYWwgcHVyZSByZXR1cm5zICh1aW50MjU2IHZhbHVlKTsKCiAgICAvLyBDcmVhdGUgYSBuZXcgc3ltYm9saWMgc2lnbmVkIGludCB2YWx1ZQogICAgZnVuY3Rpb24gY3JlYXRlSW50KHVpbnQyNTYgYml0U2l6ZSwgc3RyaW5nIG1lbW9yeSBuYW1lKSBleHRlcm5hbCBwdXJlIHJldHVybnMgKGludDI1NiB2YWx1ZSk7CgogICAgLy8gQ3JlYXRlIGEgbmV3IHN5bWJvbGljIGludDI1NiB2YWx1ZQogICAgZnVuY3Rpb24gY3JlYXRlSW50MjU2KHN0cmluZyBtZW1vcnkgbmFtZSkgZXh0ZXJuYWwgcHVyZSByZXR1cm5zIChpbnQyNTYgdmFsdWUpOwoKICAgIC8vIENyZWF0ZSBhIG5ldyBzeW1ib2xpYyBieXRlIGFycmF5IHdpdGggdGhlIGdpdmVuIGJ5dGUgc2l6ZQogICAgZnVuY3Rpb24gY3JlYXRlQnl0ZXModWludDI1NiBieXRlU2l6ZSwgc3RyaW5nIG1lbW9yeSBuYW1lKSBleHRlcm5hbCBwdXJlIHJldHVybnMgKGJ5dGVzIG1lbW9yeSB2YWx1ZSk7CgogICAgLy8gQ3JlYXRlIGEgbmV3IHN5bWJvbGljIHN0cmluZyBiYWNrZWQgYnkgYSBzeW1ib2xpYyBhcnJheSB3aXRoIHRoZSBnaXZlbiBieXRlIHNpemUKICAgIGZ1bmN0aW9uIGNyZWF0ZVN0cmluZyh1aW50MjU2IGJ5dGVTaXplLCBzdHJpbmcgbWVtb3J5IG5hbWUpIGV4dGVybmFsIHB1cmUgcmV0dXJucyAoc3RyaW5nIG1lbW9yeSB2YWx1ZSk7CgogICAgLy8gQ3JlYXRlIGEgbmV3IHN5bWJvbGljIGJ5dGVzMzIgdmFsdWUKICAgIGZ1bmN0aW9uIGNyZWF0ZUJ5dGVzMzIoc3RyaW5nIG1lbW9yeSBuYW1lKSBleHRlcm5hbCBwdXJlIHJldHVybnMgKGJ5dGVzMzIgdmFsdWUpOwoKICAgIC8vIENyZWF0ZSBhIG5ldyBzeW1ib2xpYyBieXRlczQgdmFsdWUKICAgIGZ1bmN0aW9uIGNyZWF0ZUJ5dGVzNChzdHJpbmcgbWVtb3J5IG5hbWUpIGV4dGVybmFsIHB1cmUgcmV0dXJucyAoYnl0ZXM0IHZhbHVlKTsKCiAgICAvLyBDcmVhdGUgYSBuZXcgc3ltYm9saWMgYWRkcmVzcyB2YWx1ZQogICAgZnVuY3Rpb24gY3JlYXRlQWRkcmVzcyhzdHJpbmcgbWVtb3J5IG5hbWUpIGV4dGVybmFsIHB1cmUgcmV0dXJucyAoYWRkcmVzcyB2YWx1ZSk7CgogICAgLy8gQ3JlYXRlIGEgbmV3IHN5bWJvbGljIGJvb2xlYW4gdmFsdWUKICAgIGZ1bmN0aW9uIGNyZWF0ZUJvb2woc3RyaW5nIG1lbW9yeSBuYW1lKSBleHRlcm5hbCBwdXJlIHJldHVybnMgKGJvb2wgdmFsdWUpOwp9Cg==
+// SPDX-License-Identifier: AGPL-3.0
+pragma solidity >=0.8.0 <0.9.0;
+
+/// @notice Symbolic Virtual Machine
+interface SVM {
+    // Create a new symbolic uint value ranging over [0, 2**bitSize - 1] (inclusive)
+    function createUint(uint256 bitSize, string memory name) external pure returns (uint256 value);
+
+    // Create a new symbolic uint256 value
+    function createUint256(string memory name) external pure returns (uint256 value);
+
+    // Create a new symbolic signed int value
+    function createInt(uint256 bitSize, string memory name) external pure returns (int256 value);
+
+    // Create a new symbolic int256 value
+    function createInt256(string memory name) external pure returns (int256 value);
+
+    // Create a new symbolic byte array with the given byte size
+    function createBytes(uint256 byteSize, string memory name) external pure returns (bytes memory value);
+
+    // Create a new symbolic string backed by a symbolic array with the given byte size
+    function createString(uint256 byteSize, string memory name) external pure returns (string memory value);
+
+    // Create a new symbolic bytes32 value
+    function createBytes32(string memory name) external pure returns (bytes32 value);
+
+    // Create a new symbolic bytes4 value
+    function createBytes4(string memory name) external pure returns (bytes4 value);
+
+    // Create a new symbolic address value
+    function createAddress(string memory name) external pure returns (address value);
+
+    // Create a new symbolic boolean value
+    function createBool(string memory name) external pure returns (bool value);
+}
