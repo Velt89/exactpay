@@ -1,1 +1,12 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0NvbnRleHR9IGZyb20gIi4uL3V0aWxzL0NvbnRleHQuc29sIjsKCmNvbnRyYWN0IFJlZW50cmFuY3lBdHRhY2sgaXMgQ29udGV4dCB7CiAgICBmdW5jdGlvbiBjYWxsU2VuZGVyKGJ5dGVzIGNhbGxkYXRhIGRhdGEpIHB1YmxpYyB7CiAgICAgICAgKGJvb2wgc3VjY2VzcywgKSA9IF9tc2dTZW5kZXIoKS5jYWxsKGRhdGEpOwogICAgICAgIHJlcXVpcmUoc3VjY2VzcywgIlJlZW50cmFuY3lBdHRhY2s6IGZhaWxlZCBjYWxsIik7CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {Context} from "../utils/Context.sol";
+
+contract ReentrancyAttack is Context {
+    function callSender(bytes calldata data) public {
+        (bool success, ) = _msgSender().call(data);
+        require(success, "ReentrancyAttack: failed call");
+    }
+}
