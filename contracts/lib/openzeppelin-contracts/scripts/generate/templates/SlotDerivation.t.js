@@ -1,1 +1,127 @@
-Y29uc3QgZm9ybWF0ID0gcmVxdWlyZSgnLi4vZm9ybWF0LWxpbmVzJyk7CmNvbnN0IHsgY2FwaXRhbGl6ZSB9ID0gcmVxdWlyZSgnLi4vLi4vaGVscGVycycpOwpjb25zdCB7IFRZUEVTIH0gPSByZXF1aXJlKCcuL1Nsb3Qub3B0cycpOwoKY29uc3QgaGVhZGVyID0gYFwKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge1Rlc3R9IGZyb20gImZvcmdlLXN0ZC9UZXN0LnNvbCI7CmltcG9ydCB7U3ltVGVzdH0gZnJvbSAiaGFsbW9zLWNoZWF0Y29kZXMvU3ltVGVzdC5zb2wiOwppbXBvcnQge1Nsb3REZXJpdmF0aW9ufSBmcm9tICJAb3BlbnplcHBlbGluL2NvbnRyYWN0cy91dGlscy9TbG90RGVyaXZhdGlvbi5zb2wiOwpgOwoKY29uc3QgYXJyYXkgPSBgXApieXRlc1tdIHByaXZhdGUgX2FycmF5OwoKZnVuY3Rpb24gc3ltYm9saWNEZXJpdmVBcnJheSh1aW50MjU2IGxlbmd0aCwgdWludDI1NiBvZmZzZXQpIHB1YmxpYyB7CiAgICB2bS5hc3N1bWUobGVuZ3RoID4gMCk7CiAgICB2bS5hc3N1bWUob2Zmc2V0IDwgbGVuZ3RoKTsKICAgIF9hc3NlcnREZXJpdmVBcnJheShsZW5ndGgsIG9mZnNldCk7Cn0KCmZ1bmN0aW9uIHRlc3REZXJpdmVBcnJheSh1aW50MjU2IGxlbmd0aCwgdWludDI1NiBvZmZzZXQpIHB1YmxpYyB7CiAgICBsZW5ndGggPSBib3VuZChsZW5ndGgsIDEsIHR5cGUodWludDI1NikubWF4KTsKICAgIG9mZnNldCA9IGJvdW5kKG9mZnNldCwgMCwgbGVuZ3RoIC0gMSk7CiAgICBfYXNzZXJ0RGVyaXZlQXJyYXkobGVuZ3RoLCBvZmZzZXQpOwp9CgpmdW5jdGlvbiBfYXNzZXJ0RGVyaXZlQXJyYXkodWludDI1NiBsZW5ndGgsIHVpbnQyNTYgb2Zmc2V0KSBwdWJsaWMgewogICAgYnl0ZXMzMiBiYXNlU2xvdDsKICAgIGFzc2VtYmx5IHsKICAgICAgICBiYXNlU2xvdCA6PSBfYXJyYXkuc2xvdAogICAgICAgIHNzdG9yZShiYXNlU2xvdCwgbGVuZ3RoKSAvLyBzdG9yZSBsZW5ndGggc28gc29saWRpdHkgYWNjZXNzIGRvZXMgbm90IHJldmVydAogICAgfQoKICAgIGJ5dGVzIHN0b3JhZ2UgZGVyaXZlZCA9IF9hcnJheVtvZmZzZXRdOwogICAgYnl0ZXMzMiBkZXJpdmVkU2xvdDsKICAgIGFzc2VtYmx5IHsKICAgICAgICBkZXJpdmVkU2xvdCA6PSBkZXJpdmVkLnNsb3QKICAgIH0KCiAgICBhc3NlcnRFcShiYXNlU2xvdC5kZXJpdmVBcnJheSgpLm9mZnNldChvZmZzZXQpLCBkZXJpdmVkU2xvdCk7Cn0KYDsKCmNvbnN0IG1hcHBpbmcgPSAoeyB0eXBlLCBuYW1lIH0pID0+IGBcCm1hcHBpbmcoJHt0eXBlfSA9PiBieXRlcykgcHJpdmF0ZSBfJHt0eXBlfU1hcHBpbmc7CgpmdW5jdGlvbiB0ZXN0U3ltYm9saWNEZXJpdmVNYXBwaW5nJHtuYW1lfSgke3R5cGV9IGtleSkgcHVibGljIHsKICAgIGJ5dGVzMzIgYmFzZVNsb3Q7CiAgICBhc3NlbWJseSB7CiAgICAgICAgYmFzZVNsb3QgOj0gXyR7dHlwZX1NYXBwaW5nLnNsb3QKICAgIH0KCiAgICBieXRlcyBzdG9yYWdlIGRlcml2ZWQgPSBfJHt0eXBlfU1hcHBpbmdba2V5XTsKICAgIGJ5dGVzMzIgZGVyaXZlZFNsb3Q7CiAgICBhc3NlbWJseSB7CiAgICAgICAgZGVyaXZlZFNsb3QgOj0gZGVyaXZlZC5zbG90CiAgICB9CgogICAgYXNzZXJ0RXEoYmFzZVNsb3QuZGVyaXZlTWFwcGluZyhrZXkpLCBkZXJpdmVkU2xvdCk7Cn0KYDsKCmNvbnN0IG1hcHBpbmdEaXJ0eSA9ICh7IHR5cGUsIG5hbWUgfSkgPT4gYFwKZnVuY3Rpb24gdGVzdFN5bWJvbGljRGVyaXZlTWFwcGluZyR7bmFtZX1EaXJ0eShieXRlczMyIGRpcnR5S2V5KSBwdWJsaWMgewogICAgJHt0eXBlfSBrZXk7CiAgICBhc3NlbWJseSB7CiAgICAgICAga2V5IDo9IGRpcnR5S2V5CiAgICB9CgogICAgLy8gcnVuIHRoZSAibm9ybWFsIiB0ZXN0IHVzaW5nIGEgcG90ZW50aWFsbHkgZGlydHkgdmFsdWUKICAgIHRlc3RTeW1ib2xpY0Rlcml2ZU1hcHBpbmcke25hbWV9KGtleSk7Cn0KYDsKCmNvbnN0IGJvdW5kZWRNYXBwaW5nID0gKHsgdHlwZSwgbmFtZSB9KSA9PiBgXAptYXBwaW5nKCR7dHlwZX0gPT4gYnl0ZXMpIHByaXZhdGUgXyR7dHlwZX1NYXBwaW5nOwoKZnVuY3Rpb24gdGVzdERlcml2ZU1hcHBpbmcke25hbWV9KCR7dHlwZX0gbWVtb3J5IGtleSkgcHVibGljIHsKICAgIF9hc3NlcnREZXJpdmVNYXBwaW5nJHtuYW1lfShrZXkpOwp9CgpmdW5jdGlvbiBzeW1ib2xpY0Rlcml2ZU1hcHBpbmcke25hbWV9KCkgcHVibGljIHsKICAgIF9hc3NlcnREZXJpdmVNYXBwaW5nJHtuYW1lfShzdm0uY3JlYXRlJHtuYW1lfSgyNTYsICJEZXJpdmVNYXBwaW5nJHtuYW1lfUlucHV0IikpOwp9CgpmdW5jdGlvbiBfYXNzZXJ0RGVyaXZlTWFwcGluZyR7bmFtZX0oJHt0eXBlfSBtZW1vcnkga2V5KSBpbnRlcm5hbCB7CiAgICBieXRlczMyIGJhc2VTbG90OwogICAgYXNzZW1ibHkgewogICAgICAgIGJhc2VTbG90IDo9IF8ke3R5cGV9TWFwcGluZy5zbG90CiAgICB9CgogICAgYnl0ZXMgc3RvcmFnZSBkZXJpdmVkID0gXyR7dHlwZX1NYXBwaW5nW2tleV07CiAgICBieXRlczMyIGRlcml2ZWRTbG90OwogICAgYXNzZW1ibHkgewogICAgICAgIGRlcml2ZWRTbG90IDo9IGRlcml2ZWQuc2xvdAogICAgfQoKICAgIGFzc2VydEVxKGJhc2VTbG90LmRlcml2ZU1hcHBpbmcoa2V5KSwgZGVyaXZlZFNsb3QpOwp9CmA7CgovLyBHRU5FUkFURQptb2R1bGUuZXhwb3J0cyA9IGZvcm1hdCgKICBoZWFkZXIsCiAgJ2NvbnRyYWN0IFNsb3REZXJpdmF0aW9uVGVzdCBpcyBUZXN0LCBTeW1UZXN0IHsnLAogIGZvcm1hdCgKICAgIFtdLmNvbmNhdCgKICAgICAgJ3VzaW5nIFNsb3REZXJpdmF0aW9uIGZvciBieXRlczMyOycsCiAgICAgICcnLAogICAgICBhcnJheSwKICAgICAgVFlQRVMuZmxhdE1hcCh0eXBlID0+CiAgICAgICAgW10uY29uY2F0KAogICAgICAgICAgdHlwZSwKICAgICAgICAgICh0eXBlLnZhcmlhbnRzID8/IFtdKS5tYXAodmFyaWFudCA9PiAoewogICAgICAgICAgICB0eXBlOiB2YXJpYW50LAogICAgICAgICAgICBuYW1lOiBjYXBpdGFsaXplKHZhcmlhbnQpLAogICAgICAgICAgICBpc1ZhbHVlVHlwZTogdHlwZS5pc1ZhbHVlVHlwZSwKICAgICAgICAgIH0pKSwKICAgICAgICApLAogICAgICApLm1hcCh0eXBlID0+ICh0eXBlLmlzVmFsdWVUeXBlID8gbWFwcGluZyh0eXBlKSA6IGJvdW5kZWRNYXBwaW5nKHR5cGUpKSksCiAgICAgIG1hcHBpbmdEaXJ0eShUWVBFUy5ib29sKSwKICAgICAgbWFwcGluZ0RpcnR5KFRZUEVTLmFkZHJlc3MpLAogICAgKSwKICApLnRyaW1FbmQoKSwKICAnfScsCik7Cg==
+const format = require('../format-lines');
+const { capitalize } = require('../../helpers');
+const { TYPES } = require('./Slot.opts');
+
+const header = `\
+pragma solidity ^0.8.20;
+
+import {Test} from "forge-std/Test.sol";
+import {SymTest} from "halmos-cheatcodes/SymTest.sol";
+import {SlotDerivation} from "@openzeppelin/contracts/utils/SlotDerivation.sol";
+`;
+
+const array = `\
+bytes[] private _array;
+
+function symbolicDeriveArray(uint256 length, uint256 offset) public {
+    vm.assume(length > 0);
+    vm.assume(offset < length);
+    _assertDeriveArray(length, offset);
+}
+
+function testDeriveArray(uint256 length, uint256 offset) public {
+    length = bound(length, 1, type(uint256).max);
+    offset = bound(offset, 0, length - 1);
+    _assertDeriveArray(length, offset);
+}
+
+function _assertDeriveArray(uint256 length, uint256 offset) public {
+    bytes32 baseSlot;
+    assembly {
+        baseSlot := _array.slot
+        sstore(baseSlot, length) // store length so solidity access does not revert
+    }
+
+    bytes storage derived = _array[offset];
+    bytes32 derivedSlot;
+    assembly {
+        derivedSlot := derived.slot
+    }
+
+    assertEq(baseSlot.deriveArray().offset(offset), derivedSlot);
+}
+`;
+
+const mapping = ({ type, name }) => `\
+mapping(${type} => bytes) private _${type}Mapping;
+
+function testSymbolicDeriveMapping${name}(${type} key) public {
+    bytes32 baseSlot;
+    assembly {
+        baseSlot := _${type}Mapping.slot
+    }
+
+    bytes storage derived = _${type}Mapping[key];
+    bytes32 derivedSlot;
+    assembly {
+        derivedSlot := derived.slot
+    }
+
+    assertEq(baseSlot.deriveMapping(key), derivedSlot);
+}
+`;
+
+const mappingDirty = ({ type, name }) => `\
+function testSymbolicDeriveMapping${name}Dirty(bytes32 dirtyKey) public {
+    ${type} key;
+    assembly {
+        key := dirtyKey
+    }
+
+    // run the "normal" test using a potentially dirty value
+    testSymbolicDeriveMapping${name}(key);
+}
+`;
+
+const boundedMapping = ({ type, name }) => `\
+mapping(${type} => bytes) private _${type}Mapping;
+
+function testDeriveMapping${name}(${type} memory key) public {
+    _assertDeriveMapping${name}(key);
+}
+
+function symbolicDeriveMapping${name}() public {
+    _assertDeriveMapping${name}(svm.create${name}(256, "DeriveMapping${name}Input"));
+}
+
+function _assertDeriveMapping${name}(${type} memory key) internal {
+    bytes32 baseSlot;
+    assembly {
+        baseSlot := _${type}Mapping.slot
+    }
+
+    bytes storage derived = _${type}Mapping[key];
+    bytes32 derivedSlot;
+    assembly {
+        derivedSlot := derived.slot
+    }
+
+    assertEq(baseSlot.deriveMapping(key), derivedSlot);
+}
+`;
+
+// GENERATE
+module.exports = format(
+  header,
+  'contract SlotDerivationTest is Test, SymTest {',
+  format(
+    [].concat(
+      'using SlotDerivation for bytes32;',
+      '',
+      array,
+      TYPES.flatMap(type =>
+        [].concat(
+          type,
+          (type.variants ?? []).map(variant => ({
+            type: variant,
+            name: capitalize(variant),
+            isValueType: type.isValueType,
+          })),
+        ),
+      ).map(type => (type.isValueType ? mapping(type) : boundedMapping(type))),
+      mappingDirty(TYPES.bool),
+      mappingDirty(TYPES.address),
+    ),
+  ).trimEnd(),
+  '}',
+);
