@@ -1,1 +1,349 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAoZ292ZXJuYW5jZS9leHRlbnNpb25zL0dvdmVybm9yVGltZWxvY2tBY2Nlc3Muc29sKQoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0dvdmVybm9yfSBmcm9tICIuLi9Hb3Zlcm5vci5zb2wiOwppbXBvcnQge0F1dGhvcml0eVV0aWxzfSBmcm9tICIuLi8uLi9hY2Nlc3MvbWFuYWdlci9BdXRob3JpdHlVdGlscy5zb2wiOwppbXBvcnQge0lBY2Nlc3NNYW5hZ2VyfSBmcm9tICIuLi8uLi9hY2Nlc3MvbWFuYWdlci9JQWNjZXNzTWFuYWdlci5zb2wiOwppbXBvcnQge0FkZHJlc3N9IGZyb20gIi4uLy4uL3V0aWxzL0FkZHJlc3Muc29sIjsKaW1wb3J0IHtNYXRofSBmcm9tICIuLi8uLi91dGlscy9tYXRoL01hdGguc29sIjsKaW1wb3J0IHtTYWZlQ2FzdH0gZnJvbSAiLi4vLi4vdXRpbHMvbWF0aC9TYWZlQ2FzdC5zb2wiOwppbXBvcnQge1RpbWV9IGZyb20gIi4uLy4uL3V0aWxzL3R5cGVzL1RpbWUuc29sIjsKCi8qKgogKiBAZGV2IFRoaXMgbW9kdWxlIGNvbm5lY3RzIGEge0dvdmVybm9yfSBpbnN0YW5jZSB0byBhbiB7QWNjZXNzTWFuYWdlcn0gaW5zdGFuY2UsIGFsbG93aW5nIHRoZSBnb3Zlcm5vciB0byBtYWtlIGNhbGxzCiAqIHRoYXQgYXJlIGRlbGF5LXJlc3RyaWN0ZWQgYnkgdGhlIG1hbmFnZXIgdXNpbmcgdGhlIG5vcm1hbCB7cXVldWV9IHdvcmtmbG93LiBBbiBvcHRpb25hbCBiYXNlIGRlbGF5IGlzIGFwcGxpZWQgdG8KICogb3BlcmF0aW9ucyB0aGF0IGFyZSBub3QgZGVsYXllZCBleHRlcm5hbGx5IGJ5IHRoZSBtYW5hZ2VyLiBFeGVjdXRpb24gb2YgYSBwcm9wb3NhbCB3aWxsIGJlIGRlbGF5ZWQgYXMgbXVjaCBhcwogKiBuZWNlc3NhcnkgdG8gbWVldCB0aGUgcmVxdWlyZWQgZGVsYXlzIG9mIGFsbCBvZiBpdHMgb3BlcmF0aW9ucy4KICoKICogVGhpcyBleHRlbnNpb24gYWxsb3dzIHRoZSBnb3Zlcm5vciB0byBob2xkIGFuZCB1c2UgaXRzIG93biBhc3NldHMgYW5kIHBlcm1pc3Npb25zLCB1bmxpa2Uge0dvdmVybm9yVGltZWxvY2tDb250cm9sfQogKiBhbmQge0dvdmVybm9yVGltZWxvY2tDb21wb3VuZH0sIHdoZXJlIHRoZSB0aW1lbG9jayBpcyBhIHNlcGFyYXRlIGNvbnRyYWN0IHRoYXQgbXVzdCBiZSB0aGUgb25lIHRvIGhvbGQgYXNzZXRzIGFuZAogKiBwZXJtaXNzaW9ucy4gT3BlcmF0aW9ucyB0aGF0IGFyZSBkZWxheS1yZXN0cmljdGVkIGJ5IHRoZSBtYW5hZ2VyLCBob3dldmVyLCB3aWxsIGJlIGV4ZWN1dGVkIHRocm91Z2ggdGhlCiAqIHtBY2Nlc3NNYW5hZ2VyLWV4ZWN1dGV9IGZ1bmN0aW9uLgogKgogKiA9PT09IFNlY3VyaXR5IENvbnNpZGVyYXRpb25zCiAqCiAqIFNvbWUgb3BlcmF0aW9ucyBtYXkgYmUgY2FuY2VsYWJsZSBpbiB0aGUgYEFjY2Vzc01hbmFnZXJgIGJ5IHRoZSBhZG1pbiBvciBhIHNldCBvZiBndWFyZGlhbnMsIGRlcGVuZGluZyBvbiB0aGUKICogcmVzdHJpY3RlZCBmdW5jdGlvbiBiZWluZyBpbnZva2VkLiBTaW5jZSBwcm9wb3NhbHMgYXJlIGF0b21pYywgdGhlIGNhbmNlbGxhdGlvbiBieSBhIGd1YXJkaWFuIG9mIGEgc2luZ2xlIG9wZXJhdGlvbgogKiBpbiBhIHByb3Bvc2FsIHdpbGwgY2F1c2UgYWxsIG9mIHRoZSBwcm9wb3NhbCB0byBiZWNvbWUgdW5hYmxlIHRvIGV4ZWN1dGUuIENvbnNpZGVyIHByb3Bvc2luZyBjYW5jZWxsYWJsZSBvcGVyYXRpb25zCiAqIHNlcGFyYXRlbHkuCiAqCiAqIEJ5IGRlZmF1bHQsIGZ1bmN0aW9uIGNhbGxzIHdpbGwgYmUgcm91dGVkIHRocm91Z2ggdGhlIGFzc29jaWF0ZWQgYEFjY2Vzc01hbmFnZXJgIHdoZW5ldmVyIGl0IGNsYWltcyB0aGUgdGFyZ2V0CiAqIGZ1bmN0aW9uIHRvIGJlIHJlc3RyaWN0ZWQgYnkgaXQuIEhvd2V2ZXIsIGFkbWlucyBtYXkgY29uZmlndXJlIHRoZSBtYW5hZ2VyIHRvIG1ha2UgdGhhdCBjbGFpbSBmb3IgZnVuY3Rpb25zIHRoYXQgYQogKiBnb3Zlcm5vciB3b3VsZCB3YW50IHRvIGNhbGwgZGlyZWN0bHkgKGUuZy4sIHRva2VuIHRyYW5zZmVycykgaW4gYW4gYXR0ZW1wdCB0byBkZW55IGl0IGFjY2VzcyB0byB0aG9zZSBmdW5jdGlvbnMuIFRvCiAqIG1pdGlnYXRlIHRoaXMgYXR0YWNrIHZlY3RvciwgdGhlIGdvdmVybm9yIGlzIGFibGUgdG8gaWdub3JlIHRoZSByZXN0cmljdGlvbnMgY2xhaW1lZCBieSB0aGUgYEFjY2Vzc01hbmFnZXJgIHVzaW5nCiAqIHtzZXRBY2Nlc3NNYW5hZ2VySWdub3JlZH0uIFdoaWxlIHBlcm1hbmVudCBkZW5pYWwgb2Ygc2VydmljZSBpcyBtaXRpZ2F0ZWQsIHRlbXBvcmFyeSBEb1MgbWF5IHN0aWxsIGJlIHRlY2huaWNhbGx5CiAqIHBvc3NpYmxlLiBBbGwgb2YgdGhlIGdvdmVybm9yJ3Mgb3duIGZ1bmN0aW9ucyAoZS5nLiwge3NldEJhc2VEZWxheVNlY29uZHN9KSBpZ25vcmUgdGhlIGBBY2Nlc3NNYW5hZ2VyYCBieSBkZWZhdWx0LgogKgogKiBOT1RFOiBgQWNjZXNzTWFuYWdlcmAgZG9lcyBub3Qgc3VwcG9ydCBzY2hlZHVsaW5nIG1vcmUgdGhhbiBvbmUgb3BlcmF0aW9uIHdpdGggdGhlIHNhbWUgdGFyZ2V0IGFuZCBjYWxsZGF0YSBhdAogKiB0aGUgc2FtZSB0aW1lLiBTZWUge0FjY2Vzc01hbmFnZXItc2NoZWR1bGV9IGZvciBhIHdvcmthcm91bmQuCiAqLwphYnN0cmFjdCBjb250cmFjdCBHb3Zlcm5vclRpbWVsb2NrQWNjZXNzIGlzIEdvdmVybm9yIHsKICAgIC8vIEFuIGV4ZWN1dGlvbiBwbGFuIGlzIHByb2R1Y2VkIGF0IHRoZSBtb21lbnQgYSBwcm9wb3NhbCBpcyBjcmVhdGVkLCBpbiBvcmRlciB0byBmaXggYXQgdGhhdCBwb2ludCB0aGUgZXhhY3QKICAgIC8vIGV4ZWN1dGlvbiBzZW1hbnRpY3Mgb2YgdGhlIHByb3Bvc2FsLCBuYW1lbHkgd2hldGhlciBhIGNhbGwgd2lsbCBnbyB0aHJvdWdoIHtBY2Nlc3NNYW5hZ2VyLWV4ZWN1dGV9LgogICAgc3RydWN0IEV4ZWN1dGlvblBsYW4gewogICAgICAgIHVpbnQxNiBsZW5ndGg7CiAgICAgICAgdWludDMyIGRlbGF5OwogICAgICAgIC8vIFdlIHVzZSBtYXBwaW5ncyBpbnN0ZWFkIG9mIGFycmF5cyBiZWNhdXNlIGl0IGFsbG93cyB1cyB0byBwYWNrIHZhbHVlcyBpbiBzdG9yYWdlIG1vcmUgdGlnaHRseSB3aXRob3V0CiAgICAgICAgLy8gc3RvcmluZyB0aGUgbGVuZ3RoIHJlZHVuZGFudGx5LgogICAgICAgIC8vIFdlIHBhY2sgOCBvcGVyYXRpb25zJyBkYXRhIGluIGVhY2ggYnVja2V0LiBFYWNoIHVpbnQzMiB2YWx1ZSBpcyBzZXQgdG8gMSB1cG9uIHByb3Bvc2FsIGNyZWF0aW9uIGlmIGl0IGhhcwogICAgICAgIC8vIHRvIGJlIHNjaGVkdWxlZCBhbmQgZXhlY3V0ZWQgdGhyb3VnaCB0aGUgbWFuYWdlci4gVXBvbiBxdWV1aW5nLCB0aGUgdmFsdWUgaXMgc2V0IHRvIG5vbmNlICsgMiwgd2hlcmUgdGhlCiAgICAgICAgLy8gbm9uY2UgaXMgcmVjZWl2ZWQgZnJvbSB0aGUgbWFuYWdlciB3aGVuIHNjaGVkdWxpbmcgdGhlIG9wZXJhdGlvbi4KICAgICAgICBtYXBwaW5nKHVpbnQyNTYgb3BlcmF0aW9uQnVja2V0ID0+IHVpbnQzMls4XSkgbWFuYWdlckRhdGE7CiAgICB9CgogICAgLy8gVGhlIG1lYW5pbmcgb2YgdGhlICJ0b2dnbGUiIHNldCB0byB0cnVlIGRlcGVuZHMgb24gdGhlIHRhcmdldCBjb250cmFjdC4KICAgIC8vIElmIHRhcmdldCA9PSBhZGRyZXNzKHRoaXMpLCB0aGUgbWFuYWdlciBpcyBpZ25vcmVkIGJ5IGRlZmF1bHQsIGFuZCBhIHRydWUgdG9nZ2xlIG1lYW5zIGl0IHdvbid0IGJlIGlnbm9yZWQuCiAgICAvLyBGb3IgYWxsIG90aGVyIHRhcmdldCBjb250cmFjdHMsIHRoZSBtYW5hZ2VyIGlzIHVzZWQgYnkgZGVmYXVsdCwgYW5kIGEgdHJ1ZSB0b2dnbGUgbWVhbnMgaXQgd2lsbCBiZSBpZ25vcmVkLgogICAgbWFwcGluZyhhZGRyZXNzIHRhcmdldCA9PiBtYXBwaW5nKGJ5dGVzNCBzZWxlY3RvciA9PiBib29sKSkgcHJpdmF0ZSBfaWdub3JlVG9nZ2xlOwoKICAgIG1hcHBpbmcodWludDI1NiBwcm9wb3NhbElkID0+IEV4ZWN1dGlvblBsYW4pIHByaXZhdGUgX2V4ZWN1dGlvblBsYW47CgogICAgdWludDMyIHByaXZhdGUgX2Jhc2VEZWxheTsKCiAgICBJQWNjZXNzTWFuYWdlciBwcml2YXRlIGltbXV0YWJsZSBfbWFuYWdlcjsKCiAgICBlcnJvciBHb3Zlcm5vclVubWV0RGVsYXkodWludDI1NiBwcm9wb3NhbElkLCB1aW50MjU2IG5lZWRlZFRpbWVzdGFtcCk7CiAgICBlcnJvciBHb3Zlcm5vck1pc21hdGNoZWROb25jZSh1aW50MjU2IHByb3Bvc2FsSWQsIHVpbnQyNTYgZXhwZWN0ZWROb25jZSwgdWludDI1NiBhY3R1YWxOb25jZSk7CiAgICBlcnJvciBHb3Zlcm5vckxvY2tlZElnbm9yZSgpOwoKICAgIGV2ZW50IEJhc2VEZWxheVNldCh1aW50MzIgb2xkQmFzZURlbGF5U2Vjb25kcywgdWludDMyIG5ld0Jhc2VEZWxheVNlY29uZHMpOwogICAgZXZlbnQgQWNjZXNzTWFuYWdlcklnbm9yZWRTZXQoYWRkcmVzcyB0YXJnZXQsIGJ5dGVzNCBzZWxlY3RvciwgYm9vbCBpZ25vcmVkKTsKCiAgICAvKioKICAgICAqIEBkZXYgSW5pdGlhbGl6ZSB0aGUgZ292ZXJub3Igd2l0aCBhbiB7QWNjZXNzTWFuYWdlcn0gYW5kIGluaXRpYWwgYmFzZSBkZWxheS4KICAgICAqLwogICAgY29uc3RydWN0b3IoYWRkcmVzcyBtYW5hZ2VyLCB1aW50MzIgaW5pdGlhbEJhc2VEZWxheSkgewogICAgICAgIF9tYW5hZ2VyID0gSUFjY2Vzc01hbmFnZXIobWFuYWdlcik7CiAgICAgICAgX3NldEJhc2VEZWxheVNlY29uZHMoaW5pdGlhbEJhc2VEZWxheSk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIHtBY2Nlc3NNYW5hZ2VyfSBpbnN0YW5jZSBhc3NvY2lhdGVkIHRvIHRoaXMgZ292ZXJub3IuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGFjY2Vzc01hbmFnZXIoKSBwdWJsaWMgdmlldyB2aXJ0dWFsIHJldHVybnMgKElBY2Nlc3NNYW5hZ2VyKSB7CiAgICAgICAgcmV0dXJuIF9tYW5hZ2VyOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBCYXNlIGRlbGF5IHRoYXQgd2lsbCBiZSBhcHBsaWVkIHRvIGFsbCBmdW5jdGlvbiBjYWxscy4gU29tZSBtYXkgYmUgZnVydGhlciBkZWxheWVkIGJ5IHRoZWlyIGFzc29jaWF0ZWQKICAgICAqIGBBY2Nlc3NNYW5hZ2VyYCBhdXRob3JpdHk7IGluIHRoaXMgY2FzZSB0aGUgZmluYWwgZGVsYXkgd2lsbCBiZSB0aGUgbWF4aW11bSBvZiB0aGUgYmFzZSBkZWxheSBhbmQgdGhlIG9uZQogICAgICogZGVtYW5kZWQgYnkgdGhlIGF1dGhvcml0eS4KICAgICAqCiAgICAgKiBOT1RFOiBFeGVjdXRpb24gZGVsYXlzIGFyZSBwcm9jZXNzZWQgYnkgdGhlIGBBY2Nlc3NNYW5hZ2VyYCBjb250cmFjdHMsIGFuZCBhY2NvcmRpbmcgdG8gdGhhdCBjb250cmFjdCBhcmUKICAgICAqIGV4cHJlc3NlZCBpbiBzZWNvbmRzLiBUaGVyZWZvcmUsIHRoZSBiYXNlIGRlbGF5IGlzIGFsc28gaW4gc2Vjb25kcywgcmVnYXJkbGVzcyBvZiB0aGUgZ292ZXJub3IncyBjbG9jayBtb2RlLgogICAgICovCiAgICBmdW5jdGlvbiBiYXNlRGVsYXlTZWNvbmRzKCkgcHVibGljIHZpZXcgdmlydHVhbCByZXR1cm5zICh1aW50MzIpIHsKICAgICAgICByZXR1cm4gX2Jhc2VEZWxheTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgQ2hhbmdlIHRoZSB2YWx1ZSBvZiB7YmFzZURlbGF5U2Vjb25kc30uIFRoaXMgb3BlcmF0aW9uIGNhbiBvbmx5IGJlIGludm9rZWQgdGhyb3VnaCBhIGdvdmVybmFuY2UgcHJvcG9zYWwuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHNldEJhc2VEZWxheVNlY29uZHModWludDMyIG5ld0Jhc2VEZWxheSkgcHVibGljIHZpcnR1YWwgb25seUdvdmVybmFuY2UgewogICAgICAgIF9zZXRCYXNlRGVsYXlTZWNvbmRzKG5ld0Jhc2VEZWxheSk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IENoYW5nZSB0aGUgdmFsdWUgb2Yge2Jhc2VEZWxheVNlY29uZHN9LiBJbnRlcm5hbCBmdW5jdGlvbiB3aXRob3V0IGFjY2VzcyBjb250cm9sLgogICAgICovCiAgICBmdW5jdGlvbiBfc2V0QmFzZURlbGF5U2Vjb25kcyh1aW50MzIgbmV3QmFzZURlbGF5KSBpbnRlcm5hbCB2aXJ0dWFsIHsKICAgICAgICBlbWl0IEJhc2VEZWxheVNldChfYmFzZURlbGF5LCBuZXdCYXNlRGVsYXkpOwogICAgICAgIF9iYXNlRGVsYXkgPSBuZXdCYXNlRGVsYXk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IENoZWNrIGlmIHJlc3RyaWN0aW9ucyBmcm9tIHRoZSBhc3NvY2lhdGVkIHtBY2Nlc3NNYW5hZ2VyfSBhcmUgaWdub3JlZCBmb3IgYSB0YXJnZXQgZnVuY3Rpb24uIFJldHVybnMgdHJ1ZQogICAgICogd2hlbiB0aGUgdGFyZ2V0IGZ1bmN0aW9uIHdpbGwgYmUgaW52b2tlZCBkaXJlY3RseSByZWdhcmRsZXNzIG9mIGBBY2Nlc3NNYW5hZ2VyYCBzZXR0aW5ncyBmb3IgdGhlIGZ1bmN0aW9uLgogICAgICogU2VlIHtzZXRBY2Nlc3NNYW5hZ2VySWdub3JlZH0gYW5kIFNlY3VyaXR5IENvbnNpZGVyYXRpb25zIGFib3ZlLgogICAgICovCiAgICBmdW5jdGlvbiBpc0FjY2Vzc01hbmFnZXJJZ25vcmVkKGFkZHJlc3MgdGFyZ2V0LCBieXRlczQgc2VsZWN0b3IpIHB1YmxpYyB2aWV3IHZpcnR1YWwgcmV0dXJucyAoYm9vbCkgewogICAgICAgIGJvb2wgaXNHb3Zlcm5vciA9IHRhcmdldCA9PSBhZGRyZXNzKHRoaXMpOwogICAgICAgIHJldHVybiBfaWdub3JlVG9nZ2xlW3RhcmdldF1bc2VsZWN0b3JdICE9IGlzR292ZXJub3I7IC8vIGVxdWl2YWxlbnQgdG86IGlzR292ZXJub3IgPyAhdG9nZ2xlIDogdG9nZ2xlCiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IENvbmZpZ3VyZSB3aGV0aGVyIHJlc3RyaWN0aW9ucyBmcm9tIHRoZSBhc3NvY2lhdGVkIHtBY2Nlc3NNYW5hZ2VyfSBhcmUgaWdub3JlZCBmb3IgYSB0YXJnZXQgZnVuY3Rpb24uCiAgICAgKiBTZWUgU2VjdXJpdHkgQ29uc2lkZXJhdGlvbnMgYWJvdmUuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHNldEFjY2Vzc01hbmFnZXJJZ25vcmVkKAogICAgICAgIGFkZHJlc3MgdGFyZ2V0LAogICAgICAgIGJ5dGVzNFtdIGNhbGxkYXRhIHNlbGVjdG9ycywKICAgICAgICBib29sIGlnbm9yZWQKICAgICkgcHVibGljIHZpcnR1YWwgb25seUdvdmVybmFuY2UgewogICAgICAgIGZvciAodWludDI1NiBpID0gMDsgaSA8IHNlbGVjdG9ycy5sZW5ndGg7ICsraSkgewogICAgICAgICAgICBfc2V0QWNjZXNzTWFuYWdlcklnbm9yZWQodGFyZ2V0LCBzZWxlY3RvcnNbaV0sIGlnbm9yZWQpOwogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgSW50ZXJuYWwgdmVyc2lvbiBvZiB7c2V0QWNjZXNzTWFuYWdlcklnbm9yZWR9IHdpdGhvdXQgYWNjZXNzIHJlc3RyaWN0aW9uLgogICAgICovCiAgICBmdW5jdGlvbiBfc2V0QWNjZXNzTWFuYWdlcklnbm9yZWQoYWRkcmVzcyB0YXJnZXQsIGJ5dGVzNCBzZWxlY3RvciwgYm9vbCBpZ25vcmVkKSBpbnRlcm5hbCB2aXJ0dWFsIHsKICAgICAgICBib29sIGlzR292ZXJub3IgPSB0YXJnZXQgPT0gYWRkcmVzcyh0aGlzKTsKICAgICAgICBpZiAoaXNHb3Zlcm5vciAmJiBzZWxlY3RvciA9PSB0aGlzLnNldEFjY2Vzc01hbmFnZXJJZ25vcmVkLnNlbGVjdG9yKSB7CiAgICAgICAgICAgIHJldmVydCBHb3Zlcm5vckxvY2tlZElnbm9yZSgpOwogICAgICAgIH0KICAgICAgICBfaWdub3JlVG9nZ2xlW3RhcmdldF1bc2VsZWN0b3JdID0gaWdub3JlZCAhPSBpc0dvdmVybm9yOyAvLyBlcXVpdmFsZW50IHRvOiBpc0dvdmVybm9yID8gIWlnbm9yZWQgOiBpZ25vcmVkCiAgICAgICAgZW1pdCBBY2Nlc3NNYW5hZ2VySWdub3JlZFNldCh0YXJnZXQsIHNlbGVjdG9yLCBpZ25vcmVkKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUHVibGljIGFjY2Vzc29yIHRvIGNoZWNrIHRoZSBleGVjdXRpb24gcGxhbiwgaW5jbHVkaW5nIHRoZSBudW1iZXIgb2Ygc2Vjb25kcyB0aGF0IHRoZSBwcm9wb3NhbCB3aWxsIGJlCiAgICAgKiBkZWxheWVkIHNpbmNlIHF1ZXVpbmcsIGFuIGFycmF5IGluZGljYXRpbmcgd2hpY2ggb2YgdGhlIHByb3Bvc2FsIGFjdGlvbnMgd2lsbCBiZSBleGVjdXRlZCBpbmRpcmVjdGx5IHRocm91Z2gKICAgICAqIHRoZSBhc3NvY2lhdGVkIHtBY2Nlc3NNYW5hZ2VyfSwgYW5kIGFub3RoZXIgaW5kaWNhdGluZyB3aGljaCB3aWxsIGJlIHNjaGVkdWxlZCBpbiB7cXVldWV9LiBOb3RlIHRoYXQKICAgICAqIHRob3NlIHRoYXQgbXVzdCBiZSBzY2hlZHVsZWQgYXJlIGNhbmNlbGxhYmxlIGJ5IGBBY2Nlc3NNYW5hZ2VyYCBndWFyZGlhbnMuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHByb3Bvc2FsRXhlY3V0aW9uUGxhbigKICAgICAgICB1aW50MjU2IHByb3Bvc2FsSWQKICAgICkgcHVibGljIHZpZXcgcmV0dXJucyAodWludDMyIGRlbGF5LCBib29sW10gbWVtb3J5IGluZGlyZWN0LCBib29sW10gbWVtb3J5IHdpdGhEZWxheSkgewogICAgICAgIEV4ZWN1dGlvblBsYW4gc3RvcmFnZSBwbGFuID0gX2V4ZWN1dGlvblBsYW5bcHJvcG9zYWxJZF07CgogICAgICAgIHVpbnQzMiBsZW5ndGggPSBwbGFuLmxlbmd0aDsKICAgICAgICBkZWxheSA9IHBsYW4uZGVsYXk7CiAgICAgICAgaW5kaXJlY3QgPSBuZXcgYm9vbFtdKGxlbmd0aCk7CiAgICAgICAgd2l0aERlbGF5ID0gbmV3IGJvb2xbXShsZW5ndGgpOwogICAgICAgIGZvciAodWludDI1NiBpID0gMDsgaSA8IGxlbmd0aDsgKytpKSB7CiAgICAgICAgICAgIChpbmRpcmVjdFtpXSwgd2l0aERlbGF5W2ldLCApID0gX2dldE1hbmFnZXJEYXRhKHBsYW4sIGkpOwogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIChkZWxheSwgaW5kaXJlY3QsIHdpdGhEZWxheSk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFNlZSB7SUdvdmVybm9yLXByb3Bvc2FsTmVlZHNRdWV1aW5nfS4KICAgICAqLwogICAgZnVuY3Rpb24gcHJvcG9zYWxOZWVkc1F1ZXVpbmcodWludDI1NiBwcm9wb3NhbElkKSBwdWJsaWMgdmlldyB2aXJ0dWFsIG92ZXJyaWRlIHJldHVybnMgKGJvb2wpIHsKICAgICAgICByZXR1cm4gX2V4ZWN1dGlvblBsYW5bcHJvcG9zYWxJZF0uZGVsYXkgPiAwOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBTZWUge0lHb3Zlcm5vci1wcm9wb3NlfQogICAgICovCiAgICBmdW5jdGlvbiBwcm9wb3NlKAogICAgICAgIGFkZHJlc3NbXSBtZW1vcnkgdGFyZ2V0cywKICAgICAgICB1aW50MjU2W10gbWVtb3J5IHZhbHVlcywKICAgICAgICBieXRlc1tdIG1lbW9yeSBjYWxsZGF0YXMsCiAgICAgICAgc3RyaW5nIG1lbW9yeSBkZXNjcmlwdGlvbgogICAgKSBwdWJsaWMgdmlydHVhbCBvdmVycmlkZSByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgdWludDI1NiBwcm9wb3NhbElkID0gc3VwZXIucHJvcG9zZSh0YXJnZXRzLCB2YWx1ZXMsIGNhbGxkYXRhcywgZGVzY3JpcHRpb24pOwoKICAgICAgICB1aW50MzIgbmVlZGVkRGVsYXkgPSBiYXNlRGVsYXlTZWNvbmRzKCk7CgogICAgICAgIEV4ZWN1dGlvblBsYW4gc3RvcmFnZSBwbGFuID0gX2V4ZWN1dGlvblBsYW5bcHJvcG9zYWxJZF07CiAgICAgICAgcGxhbi5sZW5ndGggPSBTYWZlQ2FzdC50b1VpbnQxNih0YXJnZXRzLmxlbmd0aCk7CgogICAgICAgIGZvciAodWludDI1NiBpID0gMDsgaSA8IHRhcmdldHMubGVuZ3RoOyArK2kpIHsKICAgICAgICAgICAgaWYgKGNhbGxkYXRhc1tpXS5sZW5ndGggPCA0KSB7CiAgICAgICAgICAgICAgICBjb250aW51ZTsKICAgICAgICAgICAgfQogICAgICAgICAgICBhZGRyZXNzIHRhcmdldCA9IHRhcmdldHNbaV07CiAgICAgICAgICAgIGJ5dGVzNCBzZWxlY3RvciA9IGJ5dGVzNChjYWxsZGF0YXNbaV0pOwogICAgICAgICAgICAoYm9vbCBpbW1lZGlhdGUsIHVpbnQzMiBkZWxheSkgPSBBdXRob3JpdHlVdGlscy5jYW5DYWxsV2l0aERlbGF5KAogICAgICAgICAgICAgICAgYWRkcmVzcyhfbWFuYWdlciksCiAgICAgICAgICAgICAgICBhZGRyZXNzKHRoaXMpLAogICAgICAgICAgICAgICAgdGFyZ2V0LAogICAgICAgICAgICAgICAgc2VsZWN0b3IKICAgICAgICAgICAgKTsKICAgICAgICAgICAgaWYgKChpbW1lZGlhdGUgfHwgZGVsYXkgPiAwKSAmJiAhaXNBY2Nlc3NNYW5hZ2VySWdub3JlZCh0YXJnZXQsIHNlbGVjdG9yKSkgewogICAgICAgICAgICAgICAgX3NldE1hbmFnZXJEYXRhKHBsYW4sIGksICFpbW1lZGlhdGUsIDApOwogICAgICAgICAgICAgICAgLy8gZG93bmNhc3QgaXMgc2FmZSBiZWNhdXNlIGJvdGggYXJndW1lbnRzIGFyZSB1aW50MzIKICAgICAgICAgICAgICAgIG5lZWRlZERlbGF5ID0gdWludDMyKE1hdGgubWF4KGRlbGF5LCBuZWVkZWREZWxheSkpOwogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBwbGFuLmRlbGF5ID0gbmVlZGVkRGVsYXk7CgogICAgICAgIHJldHVybiBwcm9wb3NhbElkOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBNZWNoYW5pc20gdG8gcXVldWUgYSBwcm9wb3NhbCwgcG90ZW50aWFsbHkgc2NoZWR1bGluZyBzb21lIG9mIGl0cyBvcGVyYXRpb25zIGluIHRoZSBBY2Nlc3NNYW5hZ2VyLgogICAgICoKICAgICAqIE5PVEU6IFRoZSBleGVjdXRpb24gZGVsYXkgaXMgY2hvc2VuIGJhc2VkIG9uIHRoZSBkZWxheSBpbmZvcm1hdGlvbiByZXRyaWV2ZWQgaW4ge3Byb3Bvc2V9LiBUaGlzIHZhbHVlIG1heSBiZQogICAgICogb2ZmIGlmIHRoZSBkZWxheSB3YXMgdXBkYXRlZCBzaW5jZSBwcm9wb3NhbCBjcmVhdGlvbi4gSW4gdGhpcyBjYXNlLCB0aGUgcHJvcG9zYWwgbmVlZHMgdG8gYmUgcmVjcmVhdGVkLgogICAgICovCiAgICBmdW5jdGlvbiBfcXVldWVPcGVyYXRpb25zKAogICAgICAgIHVpbnQyNTYgcHJvcG9zYWxJZCwKICAgICAgICBhZGRyZXNzW10gbWVtb3J5IHRhcmdldHMsCiAgICAgICAgdWludDI1NltdIG1lbW9yeSAvKiB2YWx1ZXMgKi8sCiAgICAgICAgYnl0ZXNbXSBtZW1vcnkgY2FsbGRhdGFzLAogICAgICAgIGJ5dGVzMzIgLyogZGVzY3JpcHRpb25IYXNoICovCiAgICApIGludGVybmFsIHZpcnR1YWwgb3ZlcnJpZGUgcmV0dXJucyAodWludDQ4KSB7CiAgICAgICAgRXhlY3V0aW9uUGxhbiBzdG9yYWdlIHBsYW4gPSBfZXhlY3V0aW9uUGxhbltwcm9wb3NhbElkXTsKICAgICAgICB1aW50NDggZXRhU2Vjb25kcyA9IFRpbWUudGltZXN0YW1wKCkgKyBwbGFuLmRlbGF5OwoKICAgICAgICBmb3IgKHVpbnQyNTYgaSA9IDA7IGkgPCB0YXJnZXRzLmxlbmd0aDsgKytpKSB7CiAgICAgICAgICAgICgsIGJvb2wgd2l0aERlbGF5LCApID0gX2dldE1hbmFnZXJEYXRhKHBsYW4sIGkpOwogICAgICAgICAgICBpZiAod2l0aERlbGF5KSB7CiAgICAgICAgICAgICAgICAoLCB1aW50MzIgbm9uY2UpID0gX21hbmFnZXIuc2NoZWR1bGUodGFyZ2V0c1tpXSwgY2FsbGRhdGFzW2ldLCBldGFTZWNvbmRzKTsKICAgICAgICAgICAgICAgIF9zZXRNYW5hZ2VyRGF0YShwbGFuLCBpLCB0cnVlLCBub25jZSk7CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHJldHVybiBldGFTZWNvbmRzOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBNZWNoYW5pc20gdG8gZXhlY3V0ZSBhIHByb3Bvc2FsLCBwb3RlbnRpYWxseSBnb2luZyB0aHJvdWdoIHtBY2Nlc3NNYW5hZ2VyLWV4ZWN1dGV9IGZvciBkZWxheWVkIG9wZXJhdGlvbnMuCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9leGVjdXRlT3BlcmF0aW9ucygKICAgICAgICB1aW50MjU2IHByb3Bvc2FsSWQsCiAgICAgICAgYWRkcmVzc1tdIG1lbW9yeSB0YXJnZXRzLAogICAgICAgIHVpbnQyNTZbXSBtZW1vcnkgdmFsdWVzLAogICAgICAgIGJ5dGVzW10gbWVtb3J5IGNhbGxkYXRhcywKICAgICAgICBieXRlczMyIC8qIGRlc2NyaXB0aW9uSGFzaCAqLwogICAgKSBpbnRlcm5hbCB2aXJ0dWFsIG92ZXJyaWRlIHsKICAgICAgICB1aW50NDggZXRhU2Vjb25kcyA9IFNhZmVDYXN0LnRvVWludDQ4KHByb3Bvc2FsRXRhKHByb3Bvc2FsSWQpKTsKICAgICAgICBpZiAoYmxvY2sudGltZXN0YW1wIDwgZXRhU2Vjb25kcykgewogICAgICAgICAgICByZXZlcnQgR292ZXJub3JVbm1ldERlbGF5KHByb3Bvc2FsSWQsIGV0YVNlY29uZHMpOwogICAgICAgIH0KCiAgICAgICAgRXhlY3V0aW9uUGxhbiBzdG9yYWdlIHBsYW4gPSBfZXhlY3V0aW9uUGxhbltwcm9wb3NhbElkXTsKCiAgICAgICAgZm9yICh1aW50MjU2IGkgPSAwOyBpIDwgdGFyZ2V0cy5sZW5ndGg7ICsraSkgewogICAgICAgICAgICAoYm9vbCBjb250cm9sbGVkLCBib29sIHdpdGhEZWxheSwgdWludDMyIG5vbmNlKSA9IF9nZXRNYW5hZ2VyRGF0YShwbGFuLCBpKTsKICAgICAgICAgICAgaWYgKGNvbnRyb2xsZWQpIHsKICAgICAgICAgICAgICAgIHVpbnQzMiBleGVjdXRlZE5vbmNlID0gX21hbmFnZXIuZXhlY3V0ZXt2YWx1ZTogdmFsdWVzW2ldfSh0YXJnZXRzW2ldLCBjYWxsZGF0YXNbaV0pOwogICAgICAgICAgICAgICAgaWYgKHdpdGhEZWxheSAmJiBleGVjdXRlZE5vbmNlICE9IG5vbmNlKSB7CiAgICAgICAgICAgICAgICAgICAgcmV2ZXJ0IEdvdmVybm9yTWlzbWF0Y2hlZE5vbmNlKHByb3Bvc2FsSWQsIG5vbmNlLCBleGVjdXRlZE5vbmNlKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIChib29sIHN1Y2Nlc3MsIGJ5dGVzIG1lbW9yeSByZXR1cm5kYXRhKSA9IHRhcmdldHNbaV0uY2FsbHt2YWx1ZTogdmFsdWVzW2ldfShjYWxsZGF0YXNbaV0pOwogICAgICAgICAgICAgICAgQWRkcmVzcy52ZXJpZnlDYWxsUmVzdWx0KHN1Y2Nlc3MsIHJldHVybmRhdGEpOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICogQGRldiBTZWUge0lHb3Zlcm5vci1fY2FuY2VsfQogICAgICovCiAgICBmdW5jdGlvbiBfY2FuY2VsKAogICAgICAgIGFkZHJlc3NbXSBtZW1vcnkgdGFyZ2V0cywKICAgICAgICB1aW50MjU2W10gbWVtb3J5IHZhbHVlcywKICAgICAgICBieXRlc1tdIG1lbW9yeSBjYWxsZGF0YXMsCiAgICAgICAgYnl0ZXMzMiBkZXNjcmlwdGlvbkhhc2gKICAgICkgaW50ZXJuYWwgdmlydHVhbCBvdmVycmlkZSByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgdWludDI1NiBwcm9wb3NhbElkID0gc3VwZXIuX2NhbmNlbCh0YXJnZXRzLCB2YWx1ZXMsIGNhbGxkYXRhcywgZGVzY3JpcHRpb25IYXNoKTsKCiAgICAgICAgdWludDQ4IGV0YVNlY29uZHMgPSBTYWZlQ2FzdC50b1VpbnQ0OChwcm9wb3NhbEV0YShwcm9wb3NhbElkKSk7CgogICAgICAgIEV4ZWN1dGlvblBsYW4gc3RvcmFnZSBwbGFuID0gX2V4ZWN1dGlvblBsYW5bcHJvcG9zYWxJZF07CgogICAgICAgIC8vIElmIHRoZSBwcm9wb3NhbCBoYXMgYmVlbiBzY2hlZHVsZWQgaXQgd2lsbCBoYXZlIGFuIEVUQSBhbmQgd2UgbWF5IGhhdmUgdG8gZXh0ZXJuYWxseSBjYW5jZWwKICAgICAgICBpZiAoZXRhU2Vjb25kcyAhPSAwKSB7CiAgICAgICAgICAgIGZvciAodWludDI1NiBpID0gMDsgaSA8IHRhcmdldHMubGVuZ3RoOyArK2kpIHsKICAgICAgICAgICAgICAgICgsIGJvb2wgd2l0aERlbGF5LCB1aW50MzIgbm9uY2UpID0gX2dldE1hbmFnZXJEYXRhKHBsYW4sIGkpOwogICAgICAgICAgICAgICAgLy8gT25seSBhdHRlbXB0IHRvIGNhbmNlbCBpZiB0aGUgZXhlY3V0aW9uIHBsYW4gaW5jbHVkZWQgYSBkZWxheQogICAgICAgICAgICAgICAgaWYgKHdpdGhEZWxheSkgewogICAgICAgICAgICAgICAgICAgIGJ5dGVzMzIgb3BlcmF0aW9uSWQgPSBfbWFuYWdlci5oYXNoT3BlcmF0aW9uKGFkZHJlc3ModGhpcyksIHRhcmdldHNbaV0sIGNhbGxkYXRhc1tpXSk7CiAgICAgICAgICAgICAgICAgICAgLy8gQ2hlY2sgZmlyc3QgaWYgdGhlIGN1cnJlbnQgb3BlcmF0aW9uIG5vbmNlIGlzIHRoZSBvbmUgdGhhdCB3ZSBvYnNlcnZlZCBwcmV2aW91c2x5LiBJdCBjb3VsZAogICAgICAgICAgICAgICAgICAgIC8vIGFscmVhZHkgaGF2ZSBiZWVuIGNhbmNlbGxlZCBhbmQgcmVzY2hlZHVsZWQuIFdlIGRvbid0IHdhbnQgdG8gY2FuY2VsIHVubGVzcyBpdCBpcyBleGFjdGx5IHRoZQogICAgICAgICAgICAgICAgICAgIC8vIGluc3RhbmNlIHRoYXQgd2UgcHJldmlvdXNseSBzY2hlZHVsZWQuCiAgICAgICAgICAgICAgICAgICAgaWYgKG5vbmNlID09IF9tYW5hZ2VyLmdldE5vbmNlKG9wZXJhdGlvbklkKSkgewogICAgICAgICAgICAgICAgICAgICAgICAvLyBJdCBpcyBpbXBvcnRhbnQgdGhhdCBhbGwgY2FsbHMgaGF2ZSBhbiBvcHBvcnR1bml0eSB0byBiZSBjYW5jZWxsZWQuIFdlIGNob3NlIHRvIGlnbm9yZQogICAgICAgICAgICAgICAgICAgICAgICAvLyBwb3RlbnRpYWwgZmFpbHVyZXMgb2Ygc29tZSBvZiB0aGUgY2FuY2VsIG9wZXJhdGlvbnMgdG8gZ2l2ZSB0aGUgb3RoZXIgb3BlcmF0aW9ucyBhIGNoYW5jZSB0bwogICAgICAgICAgICAgICAgICAgICAgICAvLyBiZSBwcm9wZXJseSBjYW5jZWxsZWQuIEluIHBhcnRpY3VsYXIgY2FuY2VsIG1pZ2h0IGZhaWwgaWYgdGhlIG9wZXJhdGlvbiB3YXMgYWxyZWFkeSBjYW5jZWxsZWQKICAgICAgICAgICAgICAgICAgICAgICAgLy8gYnkgZ3VhcmRpYW5zIHByZXZpb3VzbHkuIFdlIGRvbid0IG1hdGNoIG9uIHRoZSByZXZlcnQgcmVhc29uIHRvIGF2b2lkIGVuY29kaW5nIGFzc3VtcHRpb25zCiAgICAgICAgICAgICAgICAgICAgICAgIC8vIGFib3V0IHNwZWNpZmljIGVycm9ycy4KICAgICAgICAgICAgICAgICAgICAgICAgdHJ5IF9tYW5hZ2VyLmNhbmNlbChhZGRyZXNzKHRoaXMpLCB0YXJnZXRzW2ldLCBjYWxsZGF0YXNbaV0pIHt9IGNhdGNoIHt9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICByZXR1cm4gcHJvcG9zYWxJZDsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyB3aGV0aGVyIHRoZSBvcGVyYXRpb24gYXQgYW4gaW5kZXggaXMgZGVsYXllZCBieSB0aGUgbWFuYWdlciwgYW5kIGl0cyBzY2hlZHVsaW5nIG5vbmNlIG9uY2UgcXVldWVkLgogICAgICovCiAgICBmdW5jdGlvbiBfZ2V0TWFuYWdlckRhdGEoCiAgICAgICAgRXhlY3V0aW9uUGxhbiBzdG9yYWdlIHBsYW4sCiAgICAgICAgdWludDI1NiBpbmRleAogICAgKSBwcml2YXRlIHZpZXcgcmV0dXJucyAoYm9vbCBjb250cm9sbGVkLCBib29sIHdpdGhEZWxheSwgdWludDMyIG5vbmNlKSB7CiAgICAgICAgKHVpbnQyNTYgYnVja2V0LCB1aW50MjU2IHN1YmluZGV4KSA9IF9nZXRNYW5hZ2VyRGF0YUluZGljZXMoaW5kZXgpOwogICAgICAgIHVpbnQzMiB2YWx1ZSA9IHBsYW4ubWFuYWdlckRhdGFbYnVja2V0XVtzdWJpbmRleF07CiAgICAgICAgdW5jaGVja2VkIHsKICAgICAgICAgICAgcmV0dXJuICh2YWx1ZSA+IDAsIHZhbHVlID4gMSwgdmFsdWUgPiAxID8gdmFsdWUgLSAyIDogMCk7CiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICogQGRldiBNYXJrcyBhbiBvcGVyYXRpb24gYXQgYW4gaW5kZXggYXMgcGVybWlzc2lvbmVkIGJ5IHRoZSBtYW5hZ2VyLCBwb3RlbnRpYWxseSBkZWxheWVkLCBhbmQKICAgICAqIHdoZW4gZGVsYXllZCBzZXRzIGl0cyBzY2hlZHVsaW5nIG5vbmNlLgogICAgICovCiAgICBmdW5jdGlvbiBfc2V0TWFuYWdlckRhdGEoRXhlY3V0aW9uUGxhbiBzdG9yYWdlIHBsYW4sIHVpbnQyNTYgaW5kZXgsIGJvb2wgd2l0aERlbGF5LCB1aW50MzIgbm9uY2UpIHByaXZhdGUgewogICAgICAgICh1aW50MjU2IGJ1Y2tldCwgdWludDI1NiBzdWJpbmRleCkgPSBfZ2V0TWFuYWdlckRhdGFJbmRpY2VzKGluZGV4KTsKICAgICAgICBwbGFuLm1hbmFnZXJEYXRhW2J1Y2tldF1bc3ViaW5kZXhdID0gd2l0aERlbGF5ID8gbm9uY2UgKyAyIDogMTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyBidWNrZXQgYW5kIHN1YmluZGV4IGZvciByZWFkaW5nIG1hbmFnZXIgZGF0YSBmcm9tIHRoZSBwYWNrZWQgYXJyYXkgbWFwcGluZy4KICAgICAqLwogICAgZnVuY3Rpb24gX2dldE1hbmFnZXJEYXRhSW5kaWNlcyh1aW50MjU2IGluZGV4KSBwcml2YXRlIHB1cmUgcmV0dXJucyAodWludDI1NiBidWNrZXQsIHVpbnQyNTYgc3ViaW5kZXgpIHsKICAgICAgICBidWNrZXQgPSBpbmRleCA+PiAzOyAvLyBpbmRleCAvIDgKICAgICAgICBzdWJpbmRleCA9IGluZGV4ICYgNzsgLy8gaW5kZXggJSA4CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (governance/extensions/GovernorTimelockAccess.sol)
+
+pragma solidity ^0.8.20;
+
+import {Governor} from "../Governor.sol";
+import {AuthorityUtils} from "../../access/manager/AuthorityUtils.sol";
+import {IAccessManager} from "../../access/manager/IAccessManager.sol";
+import {Address} from "../../utils/Address.sol";
+import {Math} from "../../utils/math/Math.sol";
+import {SafeCast} from "../../utils/math/SafeCast.sol";
+import {Time} from "../../utils/types/Time.sol";
+
+/**
+ * @dev This module connects a {Governor} instance to an {AccessManager} instance, allowing the governor to make calls
+ * that are delay-restricted by the manager using the normal {queue} workflow. An optional base delay is applied to
+ * operations that are not delayed externally by the manager. Execution of a proposal will be delayed as much as
+ * necessary to meet the required delays of all of its operations.
+ *
+ * This extension allows the governor to hold and use its own assets and permissions, unlike {GovernorTimelockControl}
+ * and {GovernorTimelockCompound}, where the timelock is a separate contract that must be the one to hold assets and
+ * permissions. Operations that are delay-restricted by the manager, however, will be executed through the
+ * {AccessManager-execute} function.
+ *
+ * ==== Security Considerations
+ *
+ * Some operations may be cancelable in the `AccessManager` by the admin or a set of guardians, depending on the
+ * restricted function being invoked. Since proposals are atomic, the cancellation by a guardian of a single operation
+ * in a proposal will cause all of the proposal to become unable to execute. Consider proposing cancellable operations
+ * separately.
+ *
+ * By default, function calls will be routed through the associated `AccessManager` whenever it claims the target
+ * function to be restricted by it. However, admins may configure the manager to make that claim for functions that a
+ * governor would want to call directly (e.g., token transfers) in an attempt to deny it access to those functions. To
+ * mitigate this attack vector, the governor is able to ignore the restrictions claimed by the `AccessManager` using
+ * {setAccessManagerIgnored}. While permanent denial of service is mitigated, temporary DoS may still be technically
+ * possible. All of the governor's own functions (e.g., {setBaseDelaySeconds}) ignore the `AccessManager` by default.
+ *
+ * NOTE: `AccessManager` does not support scheduling more than one operation with the same target and calldata at
+ * the same time. See {AccessManager-schedule} for a workaround.
+ */
+abstract contract GovernorTimelockAccess is Governor {
+    // An execution plan is produced at the moment a proposal is created, in order to fix at that point the exact
+    // execution semantics of the proposal, namely whether a call will go through {AccessManager-execute}.
+    struct ExecutionPlan {
+        uint16 length;
+        uint32 delay;
+        // We use mappings instead of arrays because it allows us to pack values in storage more tightly without
+        // storing the length redundantly.
+        // We pack 8 operations' data in each bucket. Each uint32 value is set to 1 upon proposal creation if it has
+        // to be scheduled and executed through the manager. Upon queuing, the value is set to nonce + 2, where the
+        // nonce is received from the manager when scheduling the operation.
+        mapping(uint256 operationBucket => uint32[8]) managerData;
+    }
+
+    // The meaning of the "toggle" set to true depends on the target contract.
+    // If target == address(this), the manager is ignored by default, and a true toggle means it won't be ignored.
+    // For all other target contracts, the manager is used by default, and a true toggle means it will be ignored.
+    mapping(address target => mapping(bytes4 selector => bool)) private _ignoreToggle;
+
+    mapping(uint256 proposalId => ExecutionPlan) private _executionPlan;
+
+    uint32 private _baseDelay;
+
+    IAccessManager private immutable _manager;
+
+    error GovernorUnmetDelay(uint256 proposalId, uint256 neededTimestamp);
+    error GovernorMismatchedNonce(uint256 proposalId, uint256 expectedNonce, uint256 actualNonce);
+    error GovernorLockedIgnore();
+
+    event BaseDelaySet(uint32 oldBaseDelaySeconds, uint32 newBaseDelaySeconds);
+    event AccessManagerIgnoredSet(address target, bytes4 selector, bool ignored);
+
+    /**
+     * @dev Initialize the governor with an {AccessManager} and initial base delay.
+     */
+    constructor(address manager, uint32 initialBaseDelay) {
+        _manager = IAccessManager(manager);
+        _setBaseDelaySeconds(initialBaseDelay);
+    }
+
+    /**
+     * @dev Returns the {AccessManager} instance associated to this governor.
+     */
+    function accessManager() public view virtual returns (IAccessManager) {
+        return _manager;
+    }
+
+    /**
+     * @dev Base delay that will be applied to all function calls. Some may be further delayed by their associated
+     * `AccessManager` authority; in this case the final delay will be the maximum of the base delay and the one
+     * demanded by the authority.
+     *
+     * NOTE: Execution delays are processed by the `AccessManager` contracts, and according to that contract are
+     * expressed in seconds. Therefore, the base delay is also in seconds, regardless of the governor's clock mode.
+     */
+    function baseDelaySeconds() public view virtual returns (uint32) {
+        return _baseDelay;
+    }
+
+    /**
+     * @dev Change the value of {baseDelaySeconds}. This operation can only be invoked through a governance proposal.
+     */
+    function setBaseDelaySeconds(uint32 newBaseDelay) public virtual onlyGovernance {
+        _setBaseDelaySeconds(newBaseDelay);
+    }
+
+    /**
+     * @dev Change the value of {baseDelaySeconds}. Internal function without access control.
+     */
+    function _setBaseDelaySeconds(uint32 newBaseDelay) internal virtual {
+        emit BaseDelaySet(_baseDelay, newBaseDelay);
+        _baseDelay = newBaseDelay;
+    }
+
+    /**
+     * @dev Check if restrictions from the associated {AccessManager} are ignored for a target function. Returns true
+     * when the target function will be invoked directly regardless of `AccessManager` settings for the function.
+     * See {setAccessManagerIgnored} and Security Considerations above.
+     */
+    function isAccessManagerIgnored(address target, bytes4 selector) public view virtual returns (bool) {
+        bool isGovernor = target == address(this);
+        return _ignoreToggle[target][selector] != isGovernor; // equivalent to: isGovernor ? !toggle : toggle
+    }
+
+    /**
+     * @dev Configure whether restrictions from the associated {AccessManager} are ignored for a target function.
+     * See Security Considerations above.
+     */
+    function setAccessManagerIgnored(
+        address target,
+        bytes4[] calldata selectors,
+        bool ignored
+    ) public virtual onlyGovernance {
+        for (uint256 i = 0; i < selectors.length; ++i) {
+            _setAccessManagerIgnored(target, selectors[i], ignored);
+        }
+    }
+
+    /**
+     * @dev Internal version of {setAccessManagerIgnored} without access restriction.
+     */
+    function _setAccessManagerIgnored(address target, bytes4 selector, bool ignored) internal virtual {
+        bool isGovernor = target == address(this);
+        if (isGovernor && selector == this.setAccessManagerIgnored.selector) {
+            revert GovernorLockedIgnore();
+        }
+        _ignoreToggle[target][selector] = ignored != isGovernor; // equivalent to: isGovernor ? !ignored : ignored
+        emit AccessManagerIgnoredSet(target, selector, ignored);
+    }
+
+    /**
+     * @dev Public accessor to check the execution plan, including the number of seconds that the proposal will be
+     * delayed since queuing, an array indicating which of the proposal actions will be executed indirectly through
+     * the associated {AccessManager}, and another indicating which will be scheduled in {queue}. Note that
+     * those that must be scheduled are cancellable by `AccessManager` guardians.
+     */
+    function proposalExecutionPlan(
+        uint256 proposalId
+    ) public view returns (uint32 delay, bool[] memory indirect, bool[] memory withDelay) {
+        ExecutionPlan storage plan = _executionPlan[proposalId];
+
+        uint32 length = plan.length;
+        delay = plan.delay;
+        indirect = new bool[](length);
+        withDelay = new bool[](length);
+        for (uint256 i = 0; i < length; ++i) {
+            (indirect[i], withDelay[i], ) = _getManagerData(plan, i);
+        }
+
+        return (delay, indirect, withDelay);
+    }
+
+    /**
+     * @dev See {IGovernor-proposalNeedsQueuing}.
+     */
+    function proposalNeedsQueuing(uint256 proposalId) public view virtual override returns (bool) {
+        return _executionPlan[proposalId].delay > 0;
+    }
+
+    /**
+     * @dev See {IGovernor-propose}
+     */
+    function propose(
+        address[] memory targets,
+        uint256[] memory values,
+        bytes[] memory calldatas,
+        string memory description
+    ) public virtual override returns (uint256) {
+        uint256 proposalId = super.propose(targets, values, calldatas, description);
+
+        uint32 neededDelay = baseDelaySeconds();
+
+        ExecutionPlan storage plan = _executionPlan[proposalId];
+        plan.length = SafeCast.toUint16(targets.length);
+
+        for (uint256 i = 0; i < targets.length; ++i) {
+            if (calldatas[i].length < 4) {
+                continue;
+            }
+            address target = targets[i];
+            bytes4 selector = bytes4(calldatas[i]);
+            (bool immediate, uint32 delay) = AuthorityUtils.canCallWithDelay(
+                address(_manager),
+                address(this),
+                target,
+                selector
+            );
+            if ((immediate || delay > 0) && !isAccessManagerIgnored(target, selector)) {
+                _setManagerData(plan, i, !immediate, 0);
+                // downcast is safe because both arguments are uint32
+                neededDelay = uint32(Math.max(delay, neededDelay));
+            }
+        }
+
+        plan.delay = neededDelay;
+
+        return proposalId;
+    }
+
+    /**
+     * @dev Mechanism to queue a proposal, potentially scheduling some of its operations in the AccessManager.
+     *
+     * NOTE: The execution delay is chosen based on the delay information retrieved in {propose}. This value may be
+     * off if the delay was updated since proposal creation. In this case, the proposal needs to be recreated.
+     */
+    function _queueOperations(
+        uint256 proposalId,
+        address[] memory targets,
+        uint256[] memory /* values */,
+        bytes[] memory calldatas,
+        bytes32 /* descriptionHash */
+    ) internal virtual override returns (uint48) {
+        ExecutionPlan storage plan = _executionPlan[proposalId];
+        uint48 etaSeconds = Time.timestamp() + plan.delay;
+
+        for (uint256 i = 0; i < targets.length; ++i) {
+            (, bool withDelay, ) = _getManagerData(plan, i);
+            if (withDelay) {
+                (, uint32 nonce) = _manager.schedule(targets[i], calldatas[i], etaSeconds);
+                _setManagerData(plan, i, true, nonce);
+            }
+        }
+
+        return etaSeconds;
+    }
+
+    /**
+     * @dev Mechanism to execute a proposal, potentially going through {AccessManager-execute} for delayed operations.
+     */
+    function _executeOperations(
+        uint256 proposalId,
+        address[] memory targets,
+        uint256[] memory values,
+        bytes[] memory calldatas,
+        bytes32 /* descriptionHash */
+    ) internal virtual override {
+        uint48 etaSeconds = SafeCast.toUint48(proposalEta(proposalId));
+        if (block.timestamp < etaSeconds) {
+            revert GovernorUnmetDelay(proposalId, etaSeconds);
+        }
+
+        ExecutionPlan storage plan = _executionPlan[proposalId];
+
+        for (uint256 i = 0; i < targets.length; ++i) {
+            (bool controlled, bool withDelay, uint32 nonce) = _getManagerData(plan, i);
+            if (controlled) {
+                uint32 executedNonce = _manager.execute{value: values[i]}(targets[i], calldatas[i]);
+                if (withDelay && executedNonce != nonce) {
+                    revert GovernorMismatchedNonce(proposalId, nonce, executedNonce);
+                }
+            } else {
+                (bool success, bytes memory returndata) = targets[i].call{value: values[i]}(calldatas[i]);
+                Address.verifyCallResult(success, returndata);
+            }
+        }
+    }
+
+    /**
+     * @dev See {IGovernor-_cancel}
+     */
+    function _cancel(
+        address[] memory targets,
+        uint256[] memory values,
+        bytes[] memory calldatas,
+        bytes32 descriptionHash
+    ) internal virtual override returns (uint256) {
+        uint256 proposalId = super._cancel(targets, values, calldatas, descriptionHash);
+
+        uint48 etaSeconds = SafeCast.toUint48(proposalEta(proposalId));
+
+        ExecutionPlan storage plan = _executionPlan[proposalId];
+
+        // If the proposal has been scheduled it will have an ETA and we may have to externally cancel
+        if (etaSeconds != 0) {
+            for (uint256 i = 0; i < targets.length; ++i) {
+                (, bool withDelay, uint32 nonce) = _getManagerData(plan, i);
+                // Only attempt to cancel if the execution plan included a delay
+                if (withDelay) {
+                    bytes32 operationId = _manager.hashOperation(address(this), targets[i], calldatas[i]);
+                    // Check first if the current operation nonce is the one that we observed previously. It could
+                    // already have been cancelled and rescheduled. We don't want to cancel unless it is exactly the
+                    // instance that we previously scheduled.
+                    if (nonce == _manager.getNonce(operationId)) {
+                        // It is important that all calls have an opportunity to be cancelled. We chose to ignore
+                        // potential failures of some of the cancel operations to give the other operations a chance to
+                        // be properly cancelled. In particular cancel might fail if the operation was already cancelled
+                        // by guardians previously. We don't match on the revert reason to avoid encoding assumptions
+                        // about specific errors.
+                        try _manager.cancel(address(this), targets[i], calldatas[i]) {} catch {}
+                    }
+                }
+            }
+        }
+
+        return proposalId;
+    }
+
+    /**
+     * @dev Returns whether the operation at an index is delayed by the manager, and its scheduling nonce once queued.
+     */
+    function _getManagerData(
+        ExecutionPlan storage plan,
+        uint256 index
+    ) private view returns (bool controlled, bool withDelay, uint32 nonce) {
+        (uint256 bucket, uint256 subindex) = _getManagerDataIndices(index);
+        uint32 value = plan.managerData[bucket][subindex];
+        unchecked {
+            return (value > 0, value > 1, value > 1 ? value - 2 : 0);
+        }
+    }
+
+    /**
+     * @dev Marks an operation at an index as permissioned by the manager, potentially delayed, and
+     * when delayed sets its scheduling nonce.
+     */
+    function _setManagerData(ExecutionPlan storage plan, uint256 index, bool withDelay, uint32 nonce) private {
+        (uint256 bucket, uint256 subindex) = _getManagerDataIndices(index);
+        plan.managerData[bucket][subindex] = withDelay ? nonce + 2 : 1;
+    }
+
+    /**
+     * @dev Returns bucket and subindex for reading manager data from the packed array mapping.
+     */
+    function _getManagerDataIndices(uint256 index) private pure returns (uint256 bucket, uint256 subindex) {
+        bucket = index >> 3; // index / 8
+        subindex = index & 7; // index % 8
+    }
+}
