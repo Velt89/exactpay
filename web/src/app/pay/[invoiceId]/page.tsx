@@ -425,7 +425,7 @@ export default function PayPage() {
           <div className="modes" role="radiogroup" aria-label="Payment mode">
             {(
               [
-                { id: "gasless", title: "Gasless", tag: "EIP-3009", desc: gaslessAvailable ? "Sign once. A relayer submits it. You need no tQDAY." : "Off: set RELAYER_PRIVATE_KEY in web/.env.local to enable." },
+                { id: "gasless", title: "Gasless", tag: "EIP-3009", desc: relay.isLoading ? "Checking whether the gasless relayer is available…" : gaslessAvailable ? "Sign once. A relayer submits it. You need no tQDAY." : "Off: set RELAYER_PRIVATE_KEY in web/.env.local to enable." },
                 { id: "standard", title: "Standard", tag: "approve + pay", desc: "Two wallet transactions. You pay gas in tQDAY." },
               ] as const
             ).map((m) => (
