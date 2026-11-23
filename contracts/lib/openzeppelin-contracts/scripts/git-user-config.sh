@@ -1,1 +1,6 @@
-IyEvdXNyL2Jpbi9lbnYgYmFzaAoKc2V0IC1ldW8gcGlwZWZhaWwgLXgKCmdpdCBjb25maWcgdXNlci5uYW1lICdnaXRodWItYWN0aW9ucycKZ2l0IGNvbmZpZyB1c2VyLmVtYWlsICc0MTg5ODI4MitnaXRodWItYWN0aW9uc1tib3RdQHVzZXJzLm5vcmVwbHkuZ2l0aHViLmNvbScK
+#!/usr/bin/env bash
+
+set -euo pipefail -x
+
+git config user.name 'github-actions'
+git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
