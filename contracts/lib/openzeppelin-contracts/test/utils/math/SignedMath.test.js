@@ -1,1 +1,53 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKY29uc3QgeyBtaW4sIG1heCB9ID0gcmVxdWlyZSgnLi4vLi4vaGVscGVycy9tYXRoJyk7Cgphc3luYyBmdW5jdGlvbiB0ZXN0Q29tbXV0YXRpdmUoZm4sIGxocywgcmhzLCBleHBlY3RlZCwgLi4uZXh0cmEpIHsKICBleHBlY3QoYXdhaXQgZm4obGhzLCByaHMsIC4uLmV4dHJhKSkudG8uZGVlcC5lcXVhbChleHBlY3RlZCk7CiAgZXhwZWN0KGF3YWl0IGZuKHJocywgbGhzLCAuLi5leHRyYSkpLnRvLmRlZXAuZXF1YWwoZXhwZWN0ZWQpOwp9Cgphc3luYyBmdW5jdGlvbiBmaXh0dXJlKCkgewogIGNvbnN0IG1vY2sgPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJyRTaWduZWRNYXRoJyk7CiAgcmV0dXJuIHsgbW9jayB9Owp9CgpkZXNjcmliZSgnU2lnbmVkTWF0aCcsIGZ1bmN0aW9uICgpIHsKICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgIE9iamVjdC5hc3NpZ24odGhpcywgYXdhaXQgbG9hZEZpeHR1cmUoZml4dHVyZSkpOwogIH0pOwoKICBkZXNjcmliZSgnbWF4JywgZnVuY3Rpb24gKCkgewogICAgaXQoJ2lzIGNvcnJlY3RseSBkZXRlY3RlZCBpbiBib3RoIHBvc2l0aW9uJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCB0ZXN0Q29tbXV0YXRpdmUodGhpcy5tb2NrLiRtYXgsIC0xMjM0biwgNTY3OG4sIG1heCgtMTIzNG4sIDU2NzhuKSk7CiAgICB9KTsKICB9KTsKCiAgZGVzY3JpYmUoJ21pbicsIGZ1bmN0aW9uICgpIHsKICAgIGl0KCdpcyBjb3JyZWN0bHkgZGV0ZWN0ZWQgaW4gYm90aCBwb3NpdGlvbicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgdGVzdENvbW11dGF0aXZlKHRoaXMubW9jay4kbWluLCAtMTIzNG4sIDU2NzhuLCBtaW4oLTEyMzRuLCA1Njc4bikpOwogICAgfSk7CiAgfSk7CgogIGRlc2NyaWJlKCdhdmVyYWdlJywgZnVuY3Rpb24gKCkgewogICAgaXQoJ2lzIGNvcnJlY3RseSBjYWxjdWxhdGVkIHdpdGggdmFyaW91cyBpbnB1dCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgZm9yIChjb25zdCB4IG9mIFtldGhlcnMuTWluSW50MjU2LCAtNTc0MTduLCAtNDIzMDRuLCAtNG4sIC0zbiwgMG4sIDNuLCA0biwgNDIzMDRuLCA1NzQxN24sIGV0aGVycy5NYXhJbnQyNTZdKSB7CiAgICAgICAgZm9yIChjb25zdCB5IG9mIFtldGhlcnMuTWluSW50MjU2LCAtNTc0MTduLCAtNDIzMDRuLCAtNW4sIC0ybiwgMG4sIDJuLCA1biwgNDIzMDRuLCA1NzQxN24sIGV0aGVycy5NYXhJbnQyNTZdKSB7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRhdmVyYWdlKHgsIHkpKS50by5lcXVhbCgoeCArIHkpIC8gMm4pOwogICAgICAgIH0KICAgICAgfQogICAgfSk7CiAgfSk7CgogIGRlc2NyaWJlKCdhYnMnLCBmdW5jdGlvbiAoKSB7CiAgICBjb25zdCBhYnMgPSB4ID0+ICh4IDwgMG4gPyAteCA6IHgpOwoKICAgIGZvciAoY29uc3QgbiBvZiBbZXRoZXJzLk1pbkludDI1NiwgZXRoZXJzLk1pbkludDI1NiArIDFuLCAtMW4sIDBuLCAxbiwgZXRoZXJzLk1heEludDI1NiAtIDFuLCBldGhlcnMuTWF4SW50MjU2XSkgewogICAgICBpdChgY29ycmVjdGx5IGNvbXB1dGVzIHRoZSBhYnNvbHV0ZSB2YWx1ZSBvZiAke259YCwgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGFicyhuKSkudG8uZXF1YWwoYWJzKG4pKTsKICAgICAgfSk7CiAgICB9CiAgfSk7Cn0pOwo=
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+const { min, max } = require('../../helpers/math');
+
+async function testCommutative(fn, lhs, rhs, expected, ...extra) {
+  expect(await fn(lhs, rhs, ...extra)).to.deep.equal(expected);
+  expect(await fn(rhs, lhs, ...extra)).to.deep.equal(expected);
+}
+
+async function fixture() {
+  const mock = await ethers.deployContract('$SignedMath');
+  return { mock };
+}
+
+describe('SignedMath', function () {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  describe('max', function () {
+    it('is correctly detected in both position', async function () {
+      await testCommutative(this.mock.$max, -1234n, 5678n, max(-1234n, 5678n));
+    });
+  });
+
+  describe('min', function () {
+    it('is correctly detected in both position', async function () {
+      await testCommutative(this.mock.$min, -1234n, 5678n, min(-1234n, 5678n));
+    });
+  });
+
+  describe('average', function () {
+    it('is correctly calculated with various input', async function () {
+      for (const x of [ethers.MinInt256, -57417n, -42304n, -4n, -3n, 0n, 3n, 4n, 42304n, 57417n, ethers.MaxInt256]) {
+        for (const y of [ethers.MinInt256, -57417n, -42304n, -5n, -2n, 0n, 2n, 5n, 42304n, 57417n, ethers.MaxInt256]) {
+          expect(await this.mock.$average(x, y)).to.equal((x + y) / 2n);
+        }
+      }
+    });
+  });
+
+  describe('abs', function () {
+    const abs = x => (x < 0n ? -x : x);
+
+    for (const n of [ethers.MinInt256, ethers.MinInt256 + 1n, -1n, 0n, 1n, ethers.MaxInt256 - 1n, ethers.MaxInt256]) {
+      it(`correctly computes the absolute value of ${n}`, async function () {
+        expect(await this.mock.$abs(n)).to.equal(abs(n));
+      });
+    }
+  });
+});
