@@ -1,1 +1,46 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0dvdmVybm9yfSBmcm9tICIuLi8uLi9nb3Zlcm5hbmNlL0dvdmVybm9yLnNvbCI7CmltcG9ydCB7R292ZXJub3JQcmV2ZW50TGF0ZVF1b3J1bX0gZnJvbSAiLi4vLi4vZ292ZXJuYW5jZS9leHRlbnNpb25zL0dvdmVybm9yUHJldmVudExhdGVRdW9ydW0uc29sIjsKaW1wb3J0IHtHb3Zlcm5vclNldHRpbmdzfSBmcm9tICIuLi8uLi9nb3Zlcm5hbmNlL2V4dGVuc2lvbnMvR292ZXJub3JTZXR0aW5ncy5zb2wiOwppbXBvcnQge0dvdmVybm9yQ291bnRpbmdTaW1wbGV9IGZyb20gIi4uLy4uL2dvdmVybmFuY2UvZXh0ZW5zaW9ucy9Hb3Zlcm5vckNvdW50aW5nU2ltcGxlLnNvbCI7CmltcG9ydCB7R292ZXJub3JWb3Rlc30gZnJvbSAiLi4vLi4vZ292ZXJuYW5jZS9leHRlbnNpb25zL0dvdmVybm9yVm90ZXMuc29sIjsKCmFic3RyYWN0IGNvbnRyYWN0IEdvdmVybm9yUHJldmVudExhdGVRdW9ydW1Nb2NrIGlzCiAgICBHb3Zlcm5vclNldHRpbmdzLAogICAgR292ZXJub3JWb3RlcywKICAgIEdvdmVybm9yQ291bnRpbmdTaW1wbGUsCiAgICBHb3Zlcm5vclByZXZlbnRMYXRlUXVvcnVtCnsKICAgIHVpbnQyNTYgcHJpdmF0ZSBfcXVvcnVtOwoKICAgIGNvbnN0cnVjdG9yKHVpbnQyNTYgcXVvcnVtXykgewogICAgICAgIF9xdW9ydW0gPSBxdW9ydW1fOwogICAgfQoKICAgIGZ1bmN0aW9uIHF1b3J1bSh1aW50MjU2KSBwdWJsaWMgdmlldyBvdmVycmlkZSByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgcmV0dXJuIF9xdW9ydW07CiAgICB9CgogICAgZnVuY3Rpb24gcHJvcG9zYWxEZWFkbGluZSgKICAgICAgICB1aW50MjU2IHByb3Bvc2FsSWQKICAgICkgcHVibGljIHZpZXcgb3ZlcnJpZGUoR292ZXJub3IsIEdvdmVybm9yUHJldmVudExhdGVRdW9ydW0pIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXR1cm4gc3VwZXIucHJvcG9zYWxEZWFkbGluZShwcm9wb3NhbElkKTsKICAgIH0KCiAgICBmdW5jdGlvbiBwcm9wb3NhbFRocmVzaG9sZCgpIHB1YmxpYyB2aWV3IG92ZXJyaWRlKEdvdmVybm9yLCBHb3Zlcm5vclNldHRpbmdzKSByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgcmV0dXJuIHN1cGVyLnByb3Bvc2FsVGhyZXNob2xkKCk7CiAgICB9CgogICAgZnVuY3Rpb24gX2Nhc3RWb3RlKAogICAgICAgIHVpbnQyNTYgcHJvcG9zYWxJZCwKICAgICAgICBhZGRyZXNzIGFjY291bnQsCiAgICAgICAgdWludDggc3VwcG9ydCwKICAgICAgICBzdHJpbmcgbWVtb3J5IHJlYXNvbiwKICAgICAgICBieXRlcyBtZW1vcnkgcGFyYW1zCiAgICApIGludGVybmFsIG92ZXJyaWRlKEdvdmVybm9yLCBHb3Zlcm5vclByZXZlbnRMYXRlUXVvcnVtKSByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgcmV0dXJuIHN1cGVyLl9jYXN0Vm90ZShwcm9wb3NhbElkLCBhY2NvdW50LCBzdXBwb3J0LCByZWFzb24sIHBhcmFtcyk7CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {Governor} from "../../governance/Governor.sol";
+import {GovernorPreventLateQuorum} from "../../governance/extensions/GovernorPreventLateQuorum.sol";
+import {GovernorSettings} from "../../governance/extensions/GovernorSettings.sol";
+import {GovernorCountingSimple} from "../../governance/extensions/GovernorCountingSimple.sol";
+import {GovernorVotes} from "../../governance/extensions/GovernorVotes.sol";
+
+abstract contract GovernorPreventLateQuorumMock is
+    GovernorSettings,
+    GovernorVotes,
+    GovernorCountingSimple,
+    GovernorPreventLateQuorum
+{
+    uint256 private _quorum;
+
+    constructor(uint256 quorum_) {
+        _quorum = quorum_;
+    }
+
+    function quorum(uint256) public view override returns (uint256) {
+        return _quorum;
+    }
+
+    function proposalDeadline(
+        uint256 proposalId
+    ) public view override(Governor, GovernorPreventLateQuorum) returns (uint256) {
+        return super.proposalDeadline(proposalId);
+    }
+
+    function proposalThreshold() public view override(Governor, GovernorSettings) returns (uint256) {
+        return super.proposalThreshold();
+    }
+
+    function _castVote(
+        uint256 proposalId,
+        address account,
+        uint8 support,
+        string memory reason,
+        bytes memory params
+    ) internal override(Governor, GovernorPreventLateQuorum) returns (uint256) {
+        return super._castVote(proposalId, account, support, reason, params);
+    }
+}
