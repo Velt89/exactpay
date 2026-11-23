@@ -1,1 +1,15 @@
-ewogICJuYW1lIjogImRzLXRlc3QiLAogICJ2ZXJzaW9uIjogIjEuMC4wIiwKICAiZGVzY3JpcHRpb24iOiAiQXNzZXJ0aW9ucywgZXF1YWxpdHkgY2hlY2tzIGFuZCBvdGhlciB0ZXN0IGhlbHBlcnMgIiwKICAiYnVncyI6ICJodHRwczovL2dpdGh1Yi5jb20vZGFwcGh1Yi9kcy10ZXN0L2lzc3VlcyIsCiAgImxpY2Vuc2UiOiAiR1BMLTMuMCIsCiAgImF1dGhvciI6ICJDb250cmlidXRvcnMgdG8gZHMtdGVzdCIsCiAgImZpbGVzIjogWwogICAgInNyYy8qIgogIF0sCiAgInJlcG9zaXRvcnkiOiB7CiAgICAidHlwZSI6ICJnaXQiLAogICAgInVybCI6ICJodHRwczovL2dpdGh1Yi5jb20vZGFwcGh1Yi9kcy10ZXN0LmdpdCIKICB9Cn0K
+{
+  "name": "ds-test",
+  "version": "1.0.0",
+  "description": "Assertions, equality checks and other test helpers ",
+  "bugs": "https://github.com/dapphub/ds-test/issues",
+  "license": "GPL-3.0",
+  "author": "Contributors to ds-test",
+  "files": [
+    "src/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dapphub/ds-test.git"
+  }
+}
