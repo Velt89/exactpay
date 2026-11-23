@@ -1,1 +1,42 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgovLyBXZSBrZWVwIHRoZXNlIGltcG9ydHMgYW5kIGEgZHVtbXkgY29udHJhY3QganVzdCB0byB3ZSBjYW4gcnVuIHRoZSB0ZXN0IHN1aXRlIGFmdGVyIHRyYW5zcGlsYXRpb24uCgppbXBvcnQge0FkZHJlc3N9IGZyb20gIi4uL3V0aWxzL0FkZHJlc3Muc29sIjsKaW1wb3J0IHtBcnJheXN9IGZyb20gIi4uL3V0aWxzL0FycmF5cy5zb2wiOwppbXBvcnQge0F1dGhvcml0eVV0aWxzfSBmcm9tICIuLi9hY2Nlc3MvbWFuYWdlci9BdXRob3JpdHlVdGlscy5zb2wiOwppbXBvcnQge0Jhc2U2NH0gZnJvbSAiLi4vdXRpbHMvQmFzZTY0LnNvbCI7CmltcG9ydCB7Qml0TWFwc30gZnJvbSAiLi4vdXRpbHMvc3RydWN0cy9CaXRNYXBzLnNvbCI7CmltcG9ydCB7Q2hlY2twb2ludHN9IGZyb20gIi4uL3V0aWxzL3N0cnVjdHMvQ2hlY2twb2ludHMuc29sIjsKaW1wb3J0IHtDaXJjdWxhckJ1ZmZlcn0gZnJvbSAiLi4vdXRpbHMvc3RydWN0cy9DaXJjdWxhckJ1ZmZlci5zb2wiOwppbXBvcnQge0Nsb25lc30gZnJvbSAiLi4vcHJveHkvQ2xvbmVzLnNvbCI7CmltcG9ydCB7Q3JlYXRlMn0gZnJvbSAiLi4vdXRpbHMvQ3JlYXRlMi5zb2wiOwppbXBvcnQge0RvdWJsZUVuZGVkUXVldWV9IGZyb20gIi4uL3V0aWxzL3N0cnVjdHMvRG91YmxlRW5kZWRRdWV1ZS5zb2wiOwppbXBvcnQge0VDRFNBfSBmcm9tICIuLi91dGlscy9jcnlwdG9ncmFwaHkvRUNEU0Euc29sIjsKaW1wb3J0IHtFbnVtZXJhYmxlTWFwfSBmcm9tICIuLi91dGlscy9zdHJ1Y3RzL0VudW1lcmFibGVNYXAuc29sIjsKaW1wb3J0IHtFbnVtZXJhYmxlU2V0fSBmcm9tICIuLi91dGlscy9zdHJ1Y3RzL0VudW1lcmFibGVTZXQuc29sIjsKaW1wb3J0IHtFUkMxMTU1SG9sZGVyfSBmcm9tICIuLi90b2tlbi9FUkMxMTU1L3V0aWxzL0VSQzExNTVIb2xkZXIuc29sIjsKaW1wb3J0IHtFUkMxNjV9IGZyb20gIi4uL3V0aWxzL2ludHJvc3BlY3Rpb24vRVJDMTY1LnNvbCI7CmltcG9ydCB7RVJDMTY1Q2hlY2tlcn0gZnJvbSAiLi4vdXRpbHMvaW50cm9zcGVjdGlvbi9FUkMxNjVDaGVja2VyLnNvbCI7CmltcG9ydCB7RVJDMTk2N1V0aWxzfSBmcm9tICIuLi9wcm94eS9FUkMxOTY3L0VSQzE5NjdVdGlscy5zb2wiOwppbXBvcnQge0VSQzcyMUhvbGRlcn0gZnJvbSAiLi4vdG9rZW4vRVJDNzIxL3V0aWxzL0VSQzcyMUhvbGRlci5zb2wiOwppbXBvcnQge0hlYXB9IGZyb20gIi4uL3V0aWxzL3N0cnVjdHMvSGVhcC5zb2wiOwppbXBvcnQge01hdGh9IGZyb20gIi4uL3V0aWxzL21hdGgvTWF0aC5zb2wiOwppbXBvcnQge01lcmtsZVByb29mfSBmcm9tICIuLi91dGlscy9jcnlwdG9ncmFwaHkvTWVya2xlUHJvb2Yuc29sIjsKaW1wb3J0IHtNZXNzYWdlSGFzaFV0aWxzfSBmcm9tICIuLi91dGlscy9jcnlwdG9ncmFwaHkvTWVzc2FnZUhhc2hVdGlscy5zb2wiOwppbXBvcnQge1AyNTZ9IGZyb20gIi4uL3V0aWxzL2NyeXB0b2dyYXBoeS9QMjU2LnNvbCI7CmltcG9ydCB7UGFuaWN9IGZyb20gIi4uL3V0aWxzL1BhbmljLnNvbCI7CmltcG9ydCB7UGFja2luZ30gZnJvbSAiLi4vdXRpbHMvUGFja2luZy5zb2wiOwppbXBvcnQge1JTQX0gZnJvbSAiLi4vdXRpbHMvY3J5cHRvZ3JhcGh5L1JTQS5zb2wiOwppbXBvcnQge1NhZmVDYXN0fSBmcm9tICIuLi91dGlscy9tYXRoL1NhZmVDYXN0LnNvbCI7CmltcG9ydCB7U2FmZUVSQzIwfSBmcm9tICIuLi90b2tlbi9FUkMyMC91dGlscy9TYWZlRVJDMjAuc29sIjsKaW1wb3J0IHtTaG9ydFN0cmluZ3N9IGZyb20gIi4uL3V0aWxzL1Nob3J0U3RyaW5ncy5zb2wiOwppbXBvcnQge1NpZ25hdHVyZUNoZWNrZXJ9IGZyb20gIi4uL3V0aWxzL2NyeXB0b2dyYXBoeS9TaWduYXR1cmVDaGVja2VyLnNvbCI7CmltcG9ydCB7U2lnbmVkTWF0aH0gZnJvbSAiLi4vdXRpbHMvbWF0aC9TaWduZWRNYXRoLnNvbCI7CmltcG9ydCB7U3RvcmFnZVNsb3R9IGZyb20gIi4uL3V0aWxzL1N0b3JhZ2VTbG90LnNvbCI7CmltcG9ydCB7U3RyaW5nc30gZnJvbSAiLi4vdXRpbHMvU3RyaW5ncy5zb2wiOwppbXBvcnQge1RpbWV9IGZyb20gIi4uL3V0aWxzL3R5cGVzL1RpbWUuc29sIjsKCmNvbnRyYWN0IER1bW15MTIzNCB7fQo=
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+// We keep these imports and a dummy contract just to we can run the test suite after transpilation.
+
+import {Address} from "../utils/Address.sol";
+import {Arrays} from "../utils/Arrays.sol";
+import {AuthorityUtils} from "../access/manager/AuthorityUtils.sol";
+import {Base64} from "../utils/Base64.sol";
+import {BitMaps} from "../utils/structs/BitMaps.sol";
+import {Checkpoints} from "../utils/structs/Checkpoints.sol";
+import {CircularBuffer} from "../utils/structs/CircularBuffer.sol";
+import {Clones} from "../proxy/Clones.sol";
+import {Create2} from "../utils/Create2.sol";
+import {DoubleEndedQueue} from "../utils/structs/DoubleEndedQueue.sol";
+import {ECDSA} from "../utils/cryptography/ECDSA.sol";
+import {EnumerableMap} from "../utils/structs/EnumerableMap.sol";
+import {EnumerableSet} from "../utils/structs/EnumerableSet.sol";
+import {ERC1155Holder} from "../token/ERC1155/utils/ERC1155Holder.sol";
+import {ERC165} from "../utils/introspection/ERC165.sol";
+import {ERC165Checker} from "../utils/introspection/ERC165Checker.sol";
+import {ERC1967Utils} from "../proxy/ERC1967/ERC1967Utils.sol";
+import {ERC721Holder} from "../token/ERC721/utils/ERC721Holder.sol";
+import {Heap} from "../utils/structs/Heap.sol";
+import {Math} from "../utils/math/Math.sol";
+import {MerkleProof} from "../utils/cryptography/MerkleProof.sol";
+import {MessageHashUtils} from "../utils/cryptography/MessageHashUtils.sol";
+import {P256} from "../utils/cryptography/P256.sol";
+import {Panic} from "../utils/Panic.sol";
+import {Packing} from "../utils/Packing.sol";
+import {RSA} from "../utils/cryptography/RSA.sol";
+import {SafeCast} from "../utils/math/SafeCast.sol";
+import {SafeERC20} from "../token/ERC20/utils/SafeERC20.sol";
+import {ShortStrings} from "../utils/ShortStrings.sol";
+import {SignatureChecker} from "../utils/cryptography/SignatureChecker.sol";
+import {SignedMath} from "../utils/math/SignedMath.sol";
+import {StorageSlot} from "../utils/StorageSlot.sol";
+import {Strings} from "../utils/Strings.sol";
+import {Time} from "../utils/types/Time.sol";
+
+contract Dummy1234 {}
