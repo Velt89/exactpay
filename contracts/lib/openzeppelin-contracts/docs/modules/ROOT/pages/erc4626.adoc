@@ -1,1 +1,214 @@
-PSBFUkMtNDYyNgo6c3RlbTogbGF0ZXhtYXRoCgpodHRwczovL2VpcHMuZXRoZXJldW0ub3JnL0VJUFMvZWlwLTQ2MjZbRVJDLTQ2MjZdIGlzIGFuIGV4dGVuc2lvbiBvZiB4cmVmOmVyYzIwLmFkb2NbRVJDLTIwXSB0aGF0IHByb3Bvc2VzIGEgc3RhbmRhcmQgaW50ZXJmYWNlIGZvciB0b2tlbiB2YXVsdHMuIFRoaXMgc3RhbmRhcmQgaW50ZXJmYWNlIGNhbiBiZSB1c2VkIGJ5IHdpZGVseSBkaWZmZXJlbnQgY29udHJhY3RzIChpbmNsdWRpbmcgbGVuZGluZyBtYXJrZXRzLCBhZ2dyZWdhdG9ycywgYW5kIGludHJpbnNpY2FsbHkgaW50ZXJlc3QgYmVhcmluZyB0b2tlbnMpLCB3aGljaCBicmluZ3MgYSBudW1iZXIgb2Ygc3VidGxldGllcy4gTmF2aWdhdGluZyB0aGVzZSBwb3RlbnRpYWwgaXNzdWVzIGlzIGVzc2VudGlhbCB0byBpbXBsZW1lbnRpbmcgYSBjb21wbGlhbnQgYW5kIGNvbXBvc2FibGUgdG9rZW4gdmF1bHQuCgpXZSBwcm92aWRlIGEgYmFzZSBpbXBsZW1lbnRhdGlvbiBvZiBFUkMtNDYyNiB0aGF0IGluY2x1ZGVzIGEgc2ltcGxlIHZhdWx0LiBUaGlzIGNvbnRyYWN0IGlzIGRlc2lnbmVkIGluIGEgd2F5IHRoYXQgYWxsb3dzIGRldmVsb3BlcnMgdG8gZWFzaWx5IHJlLWNvbmZpZ3VyZSB0aGUgdmF1bHQncyBiZWhhdmlvciwgd2l0aCBtaW5pbWFsIG92ZXJyaWRlcywgd2hpbGUgc3RheWluZyBjb21wbGlhbnQuIEluIHRoaXMgZ3VpZGUsIHdlIHdpbGwgZGlzY3VzcyBzb21lIHNlY3VyaXR5IGNvbnNpZGVyYXRpb25zIHRoYXQgYWZmZWN0IEVSQy00NjI2LiBXZSB3aWxsIGFsc28gZGlzY3VzcyBjb21tb24gY3VzdG9taXphdGlvbnMgb2YgdGhlIHZhdWx0LgoKW1tpbmZsYXRpb24tYXR0YWNrXV0KPT0gU2VjdXJpdHkgY29uY2VybjogSW5mbGF0aW9uIGF0dGFjawoKPT09IFZpc3VhbGl6aW5nIHRoZSB2YXVsdAoKSW4gZXhjaGFuZ2UgZm9yIHRoZSBhc3NldHMgZGVwb3NpdGVkIGludG8gYW4gRVJDLTQ2MjYgdmF1bHQsIGEgdXNlciByZWNlaXZlcyBzaGFyZXMuIFRoZXNlIHNoYXJlcyBjYW4gbGF0ZXIgYmUgYnVybmVkIHRvIHJlZGVlbSB0aGUgY29ycmVzcG9uZGluZyB1bmRlcmx5aW5nIGFzc2V0cy4gVGhlIG51bWJlciBvZiBzaGFyZXMgYSB1c2VyIGdldHMgZGVwZW5kcyBvbiB0aGUgYW1vdW50IG9mIGFzc2V0cyB0aGV5IHB1dCBpbiBhbmQgb24gdGhlIGV4Y2hhbmdlIHJhdGUgb2YgdGhlIHZhdWx0LiBUaGlzIGV4Y2hhbmdlIHJhdGUgaXMgZGVmaW5lZCBieSB0aGUgY3VycmVudCBsaXF1aWRpdHkgaGVsZCBieSB0aGUgdmF1bHQuCgotIElmIGEgdmF1bHQgaGFzIDEwMCB0b2tlbnMgdG8gYmFjayAyMDAgc2hhcmVzLCB0aGVuIGVhY2ggc2hhcmUgaXMgd29ydGggMC41IGFzc2V0cy4KLSBJZiBhIHZhdWx0IGhhcyAyMDAgdG9rZW5zIHRvIGJhY2sgMTAwIHNoYXJlcywgdGhlbiBlYWNoIHNoYXJlIGlzIHdvcnRoIDIuMCBhc3NldHMuCgpJbiBvdGhlciB3b3JkcywgdGhlIGV4Y2hhbmdlIHJhdGUgY2FuIGJlIGRlZmluZWQgYXMgdGhlIHNsb3BlIG9mIHRoZSBsaW5lIHRoYXQgcGFzc2VzIHRocm91Z2ggdGhlIG9yaWdpbiBhbmQgdGhlIGN1cnJlbnQgbnVtYmVyIG9mIGFzc2V0cyBhbmQgc2hhcmVzIGluIHRoZSB2YXVsdC4gRGVwb3NpdHMgYW5kIHdpdGhkcmF3YWxzIG1vdmUgdGhlIHZhdWx0IGluIHRoaXMgbGluZS4KCmltYWdlOjplcmM0NjI2LXJhdGUtbGluZWFyLnBuZ1tFeGNoYW5nZSByYXRlcyBpbiBsaW5lYXIgc2NhbGVdCgpXaGVuIHBsb3R0ZWQgaW4gbG9nLWxvZyBzY2FsZSwgdGhlIHJhdGUgaXMgZGVmaW5lZCBzaW1pbGFybHksIGJ1dCBhcHBlYXJzIGRpZmZlcmVudGx5IChiZWNhdXNlIHRoZSBwb2ludCAoMCwwKSBpcyBpbmZpbml0ZWx5IGZhciBhd2F5KS4gUmF0ZXMgYXJlIHJlcHJlc2VudGVkIGJ5ICJkaWFnb25hbCIgbGluZXMgd2l0aCBkaWZmZXJlbnQgb2Zmc2V0cy4KCmltYWdlOjplcmM0NjI2LXJhdGUtbG9nbG9nLnBuZ1tFeGNoYW5nZSByYXRlcyBpbiBsb2dhcml0aG1pYyBzY2FsZV0KCkluIHN1Y2ggYSByZXByZXNlbnRhdGlvbiwgd2lkZWx5IGRpZmZlcmVudCByYXRlcyBjYW4gYmUgY2xlYXJseSB2aXNpYmxlIGluIHRoZSBzYW1lIGdyYXBoLiBUaGlzIHdvdWxkbid0IGJlIHRoZSBjYXNlIGluIGxpbmVhciBzY2FsZS4KCmltYWdlOjplcmM0NjI2LXJhdGUtbG9nbG9nZXh0LnBuZ1tNb3JlIGV4Y2hhbmdlIHJhdGVzIGluIGxvZ2FyaXRobWljIHNjYWxlXQoKPT09IFRoZSBhdHRhY2sKCldoZW4gZGVwb3NpdGluZyB0b2tlbnMsIHRoZSBudW1iZXIgb2Ygc2hhcmVzIGEgdXNlciBnZXRzIGlzIHJvdW5kZWQgdG93YXJkcyB6ZXJvLiBUaGlzIHJvdW5kaW5nIHRha2VzIGF3YXkgdmFsdWUgZnJvbSB0aGUgdXNlciBpbiBmYXZvciBvZiB0aGUgdmF1bHQgKGkuZS4gaW4gZmF2b3Igb2YgYWxsIHRoZSBjdXJyZW50IHNoYXJlIGhvbGRlcnMpLiBUaGlzIHJvdW5kaW5nIGlzIG9mdGVuIG5lZ2xpZ2libGUgYmVjYXVzZSBvZiB0aGUgYW1vdW50IGF0IHN0YWtlLiBJZiB5b3UgZGVwb3NpdCAxZTkgc2hhcmVzIHdvcnRoIG9mIHRva2VucywgdGhlIHJvdW5kaW5nIHdpbGwgaGF2ZSB5b3UgbG9zZSBhdCBtb3N0IDAuMDAwMDAwMSUgb2YgeW91ciBkZXBvc2l0LiBIb3dldmVyIGlmIHlvdSBkZXBvc2l0IDEwIHNoYXJlcyB3b3J0aCBvZiB0b2tlbnMsIHlvdSBjb3VsZCBsb3NlIDEwJSBvZiB5b3VyIGRlcG9zaXQuIEV2ZW4gd29yc2UsIGlmIHlvdSBkZXBvc2l0IDwxIHNoYXJlIHdvcnRoIG9mIHRva2VucywgdGhlbiB5b3UgZ2V0IDAgc2hhcmVzLCBhbmQgeW91IGJhc2ljYWxseSBtYWRlIGEgZG9uYXRpb24uCgpGb3IgYSBnaXZlbiBhbW91bnQgb2YgYXNzZXRzLCB0aGUgbW9yZSBzaGFyZXMgeW91IHJlY2VpdmUgdGhlIHNhZmVyIHlvdSBhcmUuIElmIHlvdSB3YW50IHRvIGxpbWl0IHlvdXIgbG9zc2VzIHRvIGF0IG1vc3QgMSUsIHlvdSBuZWVkIHRvIHJlY2VpdmUgYXQgbGVhc3QgMTAwIHNoYXJlcy4KCmltYWdlOjplcmM0NjI2LWRlcG9zaXQucG5nW0RlcG9zaXRpbmcgYXNzZXRzXQoKSW4gdGhlIGZpZ3VyZSB3ZSBjYW4gc2VlIHRoYXQgZm9yIGEgZ2l2ZW4gZGVwb3NpdCBvZiA1MDAgYXNzZXRzLCB0aGUgbnVtYmVyIG9mIHNoYXJlcyB3ZSBnZXQgYW5kIHRoZSBjb3JyZXNwb25kaW5nIHJvdW5kaW5nIGxvc3NlcyBkZXBlbmQgb24gdGhlIGV4Y2hhbmdlIHJhdGUuIElmIHRoZSBleGNoYW5nZSByYXRlIGlzIHRoYXQgb2YgdGhlIG9yYW5nZSBjdXJ2ZSwgd2UgYXJlIGdldHRpbmcgbGVzcyB0aGFuIGEgc2hhcmUsIHNvIHdlIGxvc2UgMTAwJSBvZiBvdXIgZGVwb3NpdC4gSG93ZXZlciwgaWYgdGhlIGV4Y2hhbmdlIHJhdGUgaXMgdGhhdCBvZiB0aGUgZ3JlZW4gY3VydmUsIHdlIGdldCA1MDAwIHNoYXJlcywgd2hpY2ggbGltaXRzIG91ciByb3VuZGluZyBsb3NzZXMgdG8gYXQgbW9zdCAwLjAyJS4KCmltYWdlOjplcmM0NjI2LW1pbnQucG5nW01pbnRpbmcgc2hhcmVzXQoKU3ltbWV0cmljYWxseSwgaWYgd2UgZm9jdXMgb24gbGltaXRpbmcgb3VyIGxvc3NlcyB0byBhIG1heGltdW0gb2YgMC41JSwgd2UgbmVlZCB0byBnZXQgYXQgbGVhc3QgMjAwIHNoYXJlcy4gV2l0aCB0aGUgZ3JlZW4gZXhjaGFuZ2UgcmF0ZSB0aGF0IHJlcXVpcmVzIGp1c3QgMjAgdG9rZW5zLCBidXQgd2l0aCB0aGUgb3JhbmdlIHJhdGUgdGhhdCByZXF1aXJlcyAyMDAwMDAgdG9rZW5zLgoKV2UgY2FuIGNsZWFybHkgc2VlIHRoYXQgdGhlIGJsdWUgYW5kIGdyZWVuIGN1cnZlcyBjb3JyZXNwb25kIHRvIHZhdWx0cyB0aGF0IGFyZSBzYWZlciB0aGFuIHRoZSB5ZWxsb3cgYW5kIG9yYW5nZSBjdXJ2ZXMuCgpUaGUgaWRlYSBvZiBhbiBpbmZsYXRpb24gYXR0YWNrIGlzIHRoYXQgYW4gYXR0YWNrZXIgY2FuIGRvbmF0ZSBhc3NldHMgdG8gdGhlIHZhdWx0IHRvIG1vdmUgdGhlIHJhdGUgY3VydmUgdG8gdGhlIHJpZ2h0LCBhbmQgbWFrZSB0aGUgdmF1bHQgdW5zYWZlLgoKaW1hZ2U6OmVyYzQ2MjYtYXR0YWNrLnBuZ1tJbmZsYXRpb24gYXR0YWNrIHdpdGhvdXQgcHJvdGVjdGlvbl0KCkZpZ3VyZSA2IHNob3dzIGhvdyBhbiBhdHRhY2tlciBjYW4gbWFuaXB1bGF0ZSB0aGUgcmF0ZSBvZiBhbiBlbXB0eSB2YXVsdC4gRmlyc3QgdGhlIGF0dGFja2VyIG11c3QgZGVwb3NpdCBhIHNtYWxsIGFtb3VudCBvZiB0b2tlbnMgKDEgdG9rZW4pIGFuZCBmb2xsb3cgdXAgd2l0aCBhIGRvbmF0aW9uIG9mIDFlNSB0b2tlbnMgZGlyZWN0bHkgdG8gdGhlIHZhdWx0IHRvIG1vdmUgdGhlIGV4Y2hhbmdlIHJhdGUgInJpZ2h0Ii4gVGhpcyBwdXRzIHRoZSB2YXVsdCBpbiBhIHN0YXRlIHdoZXJlIGFueSBkZXBvc2l0IHNtYWxsZXIgdGhhbiAxZTUgd291bGQgYmUgY29tcGxldGVseSBsb3N0IHRvIHRoZSB2YXVsdC4gR2l2ZW4gdGhhdCB0aGUgYXR0YWNrZXIgaXMgdGhlIG9ubHkgc2hhcmUgaG9sZGVyIChmcm9tIHRoZWlyIGRvbmF0aW9uKSwgdGhlIGF0dGFja2VyIHdvdWxkIHN0ZWFsIGFsbCB0aGUgdG9rZW5zIGRlcG9zaXRlZC4KCkFuIGF0dGFja2VyIHdvdWxkIHR5cGljYWxseSB3YWl0IGZvciBhIHVzZXIgdG8gZG8gdGhlIGZpcnN0IGRlcG9zaXQgaW50byB0aGUgdmF1bHQsIGFuZCB3b3VsZCBmcm9udHJ1biB0aGF0IG9wZXJhdGlvbiB3aXRoIHRoZSBhdHRhY2sgZGVzY3JpYmVkIGFib3ZlLiBUaGUgcmlzayBpcyBsb3csIGFuZCB0aGUgc2l6ZSBvZiB0aGUgImRvbmF0aW9uIiByZXF1aXJlZCB0byBtYW5pcHVsYXRlIHRoZSB2YXVsdCBpcyBlcXVpdmFsZW50IHRvIHRoZSBzaXplIG9mIHRoZSBkZXBvc2l0IHRoYXQgaXMgYmVpbmcgYXR0YWNrZWQuCgpJbiBtYXRoIHRoYXQgZ2l2ZXM6CgotIHN0ZW06W2FfMF0gdGhlIGF0dGFja2VyIGRlcG9zaXQKLSBzdGVtOlthXzFdIHRoZSBhdHRhY2tlciBkb25hdGlvbgotIHN0ZW06W3VdIHRoZSB1c2VyIGRlcG9zaXQKClslaGVhZGVyLGNvbHM9NCpdCnw9PT0KfAp8IEFzc2V0cwp8IFNoYXJlcwp8IFJhdGUKCnwgaW5pdGlhbAp8IHN0ZW06WzBdCnwgc3RlbTpbMF0KfCAtCgp8IGFmdGVyIGF0dGFja2VyJ3MgZGVwb3NpdAp8IHN0ZW06W2FfMF0KfCBzdGVtOlthXzBdCnwgc3RlbTpbMV0KCnwgYWZ0ZXIgYXR0YWNrZXIncyBkb25hdGlvbgp8IHN0ZW06W2FfMCthXzFdCnwgc3RlbTpbYV8wXQp8IHN0ZW06W1xmcmFje2FfMH17YV8wK2FfMX1dCnw9PT0KClRoaXMgbWVhbnMgYSBkZXBvc2l0IG9mIHN0ZW06W3VdIHdpbGwgZ2l2ZSBzdGVtOltcZnJhY3t1IFx0aW1lcyBhXzB9e2FfMCArIGFfMX1dIHNoYXJlcy4KCkZvciB0aGUgYXR0YWNrZXIgdG8gZGlsdXRlIHRoYXQgZGVwb3NpdCB0byAwIHNoYXJlcywgY2F1c2luZyB0aGUgdXNlciB0byBsb3NlIGFsbCBpdHMgZGVwb3NpdCwgaXQgbXVzdCBlbnN1cmUgdGhhdAoKW3N0ZW1dCisrKysKXGZyYWN7dSBcdGltZXMgYV8wfXthXzArYV8xfSA8IDEgXGlmZiB1IDwgMSArIFxmcmFje2FfMX17YV8wfQorKysrCgpVc2luZyBzdGVtOlthXzAgPSAxXSBhbmQgc3RlbTpbYV8xID0gdV0gaXMgZW5vdWdoLiBTbyB0aGUgYXR0YWNrZXIgb25seSBuZWVkcyBzdGVtOlt1KzFdIGFzc2V0cyB0byBwZXJmb3JtIGEgc3VjY2Vzc2Z1bCBhdHRhY2suCgpJdCBpcyBlYXN5IHRvIGdlbmVyYWxpemUgdGhlIGFib3ZlIHJlc3VsdHMgdG8gc2NlbmFyaW9zIHdoZXJlIHRoZSBhdHRhY2tlciBpcyBnb2luZyBhZnRlciBhIHNtYWxsZXIgZnJhY3Rpb24gb2YgdGhlIHVzZXIncyBkZXBvc2l0LiBJbiBvcmRlciB0byB0YXJnZXQgc3RlbTpbXGZyYWN7dX17bn1dLCB0aGUgdXNlciBuZWVkcyB0byBzdWZmZXIgcm91bmRpbmcgb2YgYSBzaW1pbGFyIGZyYWN0aW9uLCB3aGljaCBtZWFucyB0aGUgdXNlciBtdXN0IHJlY2VpdmUgYXQgbW9zdCBzdGVtOltuXSBzaGFyZXMuIFRoaXMgcmVzdWx0cyBpbjoKCltzdGVtXQorKysrClxmcmFje3UgXHRpbWVzIGFfMH17YV8wK2FfMX0gPCBuIFxpZmYgXGZyYWN7dX17bn0gPCAxICsgXGZyYWN7YV8xfXthXzB9CisrKysKCkluIHRoaXMgc2NlbmFyaW8sIHRoZSBhdHRhY2sgaXMgc3RlbTpbbl0gdGltZXMgbGVzcyBwb3dlcmZ1bCAoaW4gaG93IG11Y2ggaXQgaXMgc3RlYWxpbmcpIGFuZCBjb3N0cyBzdGVtOltuXSB0aW1lcyBsZXNzIHRvIGV4ZWN1dGUuIEluIGJvdGggY2FzZXMsIHRoZSBhbW91bnQgb2YgZnVuZHMgdGhlIGF0dGFja2VyIG5lZWRzIHRvIGNvbW1pdCBpcyBlcXVpdmFsZW50IHRvIGl0cyBwb3RlbnRpYWwgZWFybmluZ3MuCgo9PT0gRGVmZW5kaW5nIHdpdGggYSB2aXJ0dWFsIG9mZnNldAoKVGhlIGRlZmVuc2Ugd2UgcHJvcG9zZSBpcyBiYXNlZCBvbiB0aGUgYXBwcm9hY2ggdXNlZCBpbiBsaW5rOmh0dHBzOi8vZ2l0aHViLmNvbS9ib3JpbmdjcnlwdG8vWWllbGRCb3hbWWllbGRCb3hdLiBJdCBjb25zaXN0cyBvZiB0d28gcGFydHM6CgotIFVzZSBhbiBvZmZzZXQgYmV0d2VlbiB0aGUgInByZWNpc2lvbiIgb2YgdGhlIHJlcHJlc2VudGF0aW9uIG9mIHNoYXJlcyBhbmQgYXNzZXRzLiBTYWlkIG90aGVyd2lzZSwgd2UgdXNlIG1vcmUgZGVjaW1hbCBwbGFjZXMgdG8gcmVwcmVzZW50IHRoZSBzaGFyZXMgdGhhbiB0aGUgdW5kZXJseWluZyB0b2tlbiBkb2VzIHRvIHJlcHJlc2VudCB0aGUgYXNzZXRzLgotIEluY2x1ZGUgdmlydHVhbCBzaGFyZXMgYW5kIHZpcnR1YWwgYXNzZXRzIGluIHRoZSBleGNoYW5nZSByYXRlIGNvbXB1dGF0aW9uLiBUaGVzZSB2aXJ0dWFsIGFzc2V0cyBlbmZvcmNlIHRoZSBjb252ZXJzaW9uIHJhdGUgd2hlbiB0aGUgdmF1bHQgaXMgZW1wdHkuCgpUaGVzZSB0d28gcGFydHMgd29yayB0b2dldGhlciBpbiBlbmZvcmNpbmcgdGhlIHNlY3VyaXR5IG9mIHRoZSB2YXVsdC4gRmlyc3QsIHRoZSBpbmNyZWFzZWQgcHJlY2lzaW9uIGNvcnJlc3BvbmRzIHRvIGEgaGlnaCByYXRlLCB3aGljaCB3ZSBzYXcgaXMgc2FmZXIgYXMgaXQgcmVkdWNlcyB0aGUgcm91bmRpbmcgZXJyb3Igd2hlbiBjb21wdXRpbmcgdGhlIGFtb3VudCBvZiBzaGFyZXMuIFNlY29uZCwgdGhlIHZpcnR1YWwgYXNzZXRzIGFuZCBzaGFyZXMgKGluIGFkZGl0aW9uIHRvIHNpbXBsaWZ5aW5nIGEgbG90IG9mIHRoZSBjb21wdXRhdGlvbnMpIGNhcHR1cmUgcGFydCBvZiB0aGUgZG9uYXRpb24sIG1ha2luZyBpdCB1bnByb2ZpdGFibGUgZm9yIGEgZGV2ZWxvcGVyIHRvIHBlcmZvcm0gYW4gYXR0YWNrLgoKRm9sbG93aW5nIHRoZSBwcmV2aW91cyBtYXRoIGRlZmluaXRpb25zLCB3ZSBoYXZlOgoKLSBzdGVtOltcZGVsdGFdIHRoZSB2YXVsdCBvZmZzZXQKLSBzdGVtOlthXzBdIHRoZSBhdHRhY2tlciBkZXBvc2l0Ci0gc3RlbTpbYV8xXSB0aGUgYXR0YWNrZXIgZG9uYXRpb24KLSBzdGVtOlt1XSB0aGUgdXNlciBkZXBvc2l0CgpbJWhlYWRlcixjb2xzPTQqXQp8PT09CnwKfCBBc3NldHMKfCBTaGFyZXMKfCBSYXRlCgp8IGluaXRpYWwKfCBzdGVtOlsxXQp8IHN0ZW06WzEwXlxkZWx0YV0KfCBzdGVtOlsxMF5cZGVsdGFdCgp8IGFmdGVyIGF0dGFja2VyJ3MgZGVwb3NpdAp8IHN0ZW06WzErYV8wXQp8IHN0ZW06WzEwXlxkZWx0YSBcdGltZXMgKDErYV8wKV0KfCBzdGVtOlsxMF5cZGVsdGFdCgp8IGFmdGVyIGF0dGFja2VyJ3MgZG9uYXRpb24KfCBzdGVtOlsxK2FfMCthXzFdCnwgc3RlbTpbMTBeXGRlbHRhIFx0aW1lcyAoMSthXzApXQp8IHN0ZW06WzEwXlxkZWx0YSBcdGltZXMgXGZyYWN7MSthXzB9ezErYV8wK2FfMX1dCnw9PT0KCk9uZSBpbXBvcnRhbnQgdGhpbmcgdG8gbm90ZSBpcyB0aGF0IHRoZSBhdHRhY2tlciBvbmx5IG93bnMgYSBmcmFjdGlvbiBzdGVtOltcZnJhY3thXzB9ezEgKyBhXzB9XSBvZiB0aGUgc2hhcmVzLCBzbyB3aGVuIGRvaW5nIHRoZSBkb25hdGlvbiwgaGUgd2lsbCBvbmx5IGJlIGFibGUgdG8gcmVjb3ZlciB0aGF0IGZyYWN0aW9uIHN0ZW06W1xmcmFje2FfMSBcdGltZXMgYV8wfXsxICsgYV8wfV0gb2YgdGhlIGRvbmF0aW9uLiBUaGUgcmVtYWluaW5nIHN0ZW06W1xmcmFje2FfMX17MSthXzB9XSBhcmUgY2FwdHVyZWQgYnkgdGhlIHZhdWx0LgoKW3N0ZW1dCisrKysKXG1hdGhpdHtsb3NzfSA9IFxmcmFje2FfMX17MSthXzB9CisrKysKCldoZW4gdGhlIHVzZXIgZGVwb3NpdHMgc3RlbTpbdV0sIGhlIHJlY2VpdmVzCgpbc3RlbV0KKysrKwoxMF5cZGVsdGEgXHRpbWVzIHUgXHRpbWVzIFxmcmFjezErYV8wfXsxK2FfMCthXzF9CisrKysKCkZvciB0aGUgYXR0YWNrZXIgdG8gZGlsdXRlIHRoYXQgZGVwb3NpdCB0byAwIHNoYXJlcywgY2F1c2luZyB0aGUgdXNlciB0byBsb3NlIGFsbCBpdHMgZGVwb3NpdCwgaXQgbXVzdCBlbnN1cmUgdGhhdAoKW3N0ZW1dCisrKysKMTBeXGRlbHRhIFx0aW1lcyB1IFx0aW1lcyBcZnJhY3sxK2FfMH17MSthXzArYV8xfSA8IDEKKysrKwoKW3N0ZW1dCisrKysKXGlmZiAxMF5cZGVsdGEgXHRpbWVzIHUgPCBcZnJhY3sxK2FfMCthXzF9ezErYV8wfQorKysrCgpbc3RlbV0KKysrKwpcaWZmIDEwXlxkZWx0YSBcdGltZXMgdSA8IDEgKyBcZnJhY3thXzF9ezErYV8wfQorKysrCgpbc3RlbV0KKysrKwpcaWZmIDEwXlxkZWx0YSBcdGltZXMgdSBcbGUgXG1hdGhpdHtsb3NzfQorKysrCgotIElmIHRoZSBvZmZzZXQgaXMgMCwgdGhlIGF0dGFja2VyIGxvc3MgaXMgYXQgbGVhc3QgZXF1YWwgdG8gdGhlIHVzZXIncyBkZXBvc2l0LgotIElmIHRoZSBvZmZzZXQgaXMgZ3JlYXRlciB0aGFuIDAsIHRoZSBhdHRhY2tlciB3aWxsIGhhdmUgdG8gc3VmZmVyIGxvc3NlcyB0aGF0IGFyZSBvcmRlcnMgb2YgbWFnbml0dWRlIGJpZ2dlciB0aGFuIHRoZSBhbW91bnQgb2YgdmFsdWUgdGhhdCBjYW4gaHlwb3RoZXRpY2FsbHkgYmUgc3RvbGVuIGZyb20gdGhlIHVzZXIuCgpUaGlzIHNob3dzIHRoYXQgZXZlbiB3aXRoIGFuIG9mZnNldCBvZiAwLCB0aGUgdmlydHVhbCBzaGFyZXMgYW5kIGFzc2V0cyBtYWtlIHRoaXMgYXR0YWNrIG5vbiBwcm9maXRhYmxlIGZvciB0aGUgYXR0YWNrZXIuIEJpZ2dlciBvZmZzZXRzIGluY3JlYXNlIHRoZSBzZWN1cml0eSBldmVuIGZ1cnRoZXIgYnkgbWFraW5nIGFueSBhdHRhY2sgb24gdGhlIHVzZXIgZXh0cmVtZWx5IHdhc3RlZnVsLgoKVGhlIGZvbGxvd2luZyBmaWd1cmUgc2hvd3MgaG93IHRoZSBvZmZzZXQgaW1wYWN0cyB0aGUgaW5pdGlhbCByYXRlIGFuZCBsaW1pdHMgdGhlIGFiaWxpdHkgb2YgYW4gYXR0YWNrZXIgd2l0aCBsaW1pdGVkIGZ1bmRzIHRvIGluZmxhdGUgaXQgZWZmZWN0aXZlbHkuCgppbWFnZTo6ZXJjNDYyNi1hdHRhY2stM2EucG5nW0luZmxhdGlvbiBhdHRhY2sgd2l0aG91dCBvZmZzZXQ9M10Kc3RlbTpbXGRlbHRhID0gM10sIHN0ZW06W2FfMCA9IDFdLCBzdGVtOlthXzEgPSAxMF41XQoKaW1hZ2U6OmVyYzQ2MjYtYXR0YWNrLTNiLnBuZ1tJbmZsYXRpb24gYXR0YWNrIHdpdGhvdXQgb2Zmc2V0PTMgYW5kIGFuIGF0dGFja2VyIGRlcG9zaXQgdGhhdCBsaW1pdHMgaXRzIGxvc3Nlc10Kc3RlbTpbXGRlbHRhID0gM10sIHN0ZW06W2FfMCA9IDEwMF0sIHN0ZW06W2FfMSA9IDEwXjVdCgppbWFnZTo6ZXJjNDYyNi1hdHRhY2stNi5wbmdbSW5mbGF0aW9uIGF0dGFjayB3aXRob3V0IG9mZnNldD02XQpzdGVtOltcZGVsdGEgPSA2XSwgc3RlbTpbYV8wID0gMV0sIHN0ZW06W2FfMSA9IDEwXjVdCgoKW1tmZWVzXV0KPT0gQ3VzdG9tIGJlaGF2aW9yOiBBZGRpbmcgZmVlcyB0byB0aGUgdmF1bHQKCkluIGFuIEVSQy00NjI2IHZhdWx0cywgZmVlcyBjYW4gYmUgY2FwdHVyZWQgZHVyaW5nIHRoZSBkZXBvc2l0L21pbnQgYW5kL29yIGR1cmluZyB0aGUgd2l0aGRyYXcvcmVkZWVtIHN0ZXBzLiBJbiBib3RoIGNhc2VzIGl0IGlzIGVzc2VudGlhbCB0byByZW1haW4gY29tcGxpYW50IHdpdGggdGhlIEVSQy00NjI2IHJlcXVpcmVtZW50cyB3aXRoIHJlZ2FyZCB0byB0aGUgcHJldmlldyBmdW5jdGlvbnMuCgpGb3IgZXhhbXBsZSwgaWYgY2FsbGluZyBgZGVwb3NpdCgxMDAsIHJlY2VpdmVyKWAsIHRoZSBjYWxsZXIgc2hvdWxkIGRlcG9zaXQgZXhhY3RseSAxMDAgdW5kZXJseWluZyB0b2tlbnMsIGluY2x1ZGluZyBmZWVzLCBhbmQgdGhlIHJlY2VpdmVyIHNob3VsZCByZWNlaXZlIGEgbnVtYmVyIG9mIHNoYXJlcyB0aGF0IG1hdGNoZXMgdGhlIHZhbHVlIHJldHVybmVkIGJ5IGBwcmV2aWV3RGVwb3NpdCgxMDApYC4gU2ltaWxhcmx5LCBgcHJldmlld01pbnRgIHNob3VsZCBhY2NvdW50IGZvciB0aGUgZmVlcyB0aGF0IHRoZSB1c2VyIHdpbGwgaGF2ZSB0byBwYXkgb24gdG9wIG9mIHNoYXJlJ3MgY29zdC4KCkFzIGZvciB0aGUgYERlcG9zaXRgIGV2ZW50LCB3aGlsZSB0aGlzIGlzIGxlc3MgY2xlYXIgaW4gdGhlIEVJUCBzcGVjIGl0c2VsZiwgdGhlcmUgc2VlbXMgdG8gYmUgY29uc2Vuc3VzIHRoYXQgaXQgc2hvdWxkIGluY2x1ZGUgdGhlIG51bWJlciBvZiBhc3NldHMgcGFpZCBmb3IgYnkgdGhlIHVzZXIsIGluY2x1ZGluZyB0aGUgZmVlcy4KCk9uIHRoZSBvdGhlciBoYW5kLCB3aGVuIHdpdGhkcmF3aW5nIGFzc2V0cywgdGhlIG51bWJlciBnaXZlbiBieSB0aGUgdXNlciBzaG91bGQgY29ycmVzcG9uZCB0byB3aGF0IGhlIHJlY2VpdmVzLiBBbnkgZmVlcyBzaG91bGQgYmUgYWRkZWQgdG8gdGhlIHF1b3RlIChpbiBzaGFyZXMpIHBlcmZvcm1lZCBieSBgcHJldmlld1dpdGhkcmF3YC4KClRoZSBgV2l0aGRyYXdgIGV2ZW50IHNob3VsZCBpbmNsdWRlIHRoZSBudW1iZXIgb2Ygc2hhcmVzIHRoZSB1c2VyIGJ1cm5zIChpbmNsdWRpbmcgZmVlcykgYW5kIHRoZSBudW1iZXIgb2YgYXNzZXRzIHRoZSB1c2VyIGFjdHVhbGx5IHJlY2VpdmVzIChhZnRlciBmZWVzIGFyZSBkZWR1Y3RlZCkuCgpUaGUgY29uc2VxdWVuY2Ugb2YgdGhpcyBkZXNpZ24gaXMgdGhhdCBib3RoIHRoZSBgRGVwb3NpdGAgYW5kIGBXaXRoZHJhd2AgZXZlbnRzIHdpbGwgZGVzY3JpYmUgdHdvIGV4Y2hhbmdlIHJhdGVzLiBUaGUgc3ByZWFkIGJldHdlZW4gdGhlICJCdXktaW4iIGFuZCB0aGUgIkV4aXQiIHByaWNlcyBjb3JyZXNwb25kIHRvIHRoZSBmZWVzIHRha2VuIGJ5IHRoZSB2YXVsdC4KClRoZSBmb2xsb3dpbmcgZXhhbXBsZSBkZXNjcmliZXMgaG93IGZlZXMgcHJvcG9ydGlvbmFsIHRvIHRoZSBkZXBvc2l0ZWQvd2l0aGRyYXduIGFtb3VudCBjYW4gYmUgaW1wbGVtZW50ZWQ6CgpgYGBzb2xpZGl0eQppbmNsdWRlOjphcGk6ZXhhbXBsZSRFUkM0NjI2RmVlcy5zb2xbXQpgYGAK
+= ERC-4626
+:stem: latexmath
+
+https://eips.ethereum.org/EIPS/eip-4626[ERC-4626] is an extension of xref:erc20.adoc[ERC-20] that proposes a standard interface for token vaults. This standard interface can be used by widely different contracts (including lending markets, aggregators, and intrinsically interest bearing tokens), which brings a number of subtleties. Navigating these potential issues is essential to implementing a compliant and composable token vault.
+
+We provide a base implementation of ERC-4626 that includes a simple vault. This contract is designed in a way that allows developers to easily re-configure the vault's behavior, with minimal overrides, while staying compliant. In this guide, we will discuss some security considerations that affect ERC-4626. We will also discuss common customizations of the vault.
+
+[[inflation-attack]]
+== Security concern: Inflation attack
+
+=== Visualizing the vault
+
+In exchange for the assets deposited into an ERC-4626 vault, a user receives shares. These shares can later be burned to redeem the corresponding underlying assets. The number of shares a user gets depends on the amount of assets they put in and on the exchange rate of the vault. This exchange rate is defined by the current liquidity held by the vault.
+
+- If a vault has 100 tokens to back 200 shares, then each share is worth 0.5 assets.
+- If a vault has 200 tokens to back 100 shares, then each share is worth 2.0 assets.
+
+In other words, the exchange rate can be defined as the slope of the line that passes through the origin and the current number of assets and shares in the vault. Deposits and withdrawals move the vault in this line.
+
+image::erc4626-rate-linear.png[Exchange rates in linear scale]
+
+When plotted in log-log scale, the rate is defined similarly, but appears differently (because the point (0,0) is infinitely far away). Rates are represented by "diagonal" lines with different offsets.
+
+image::erc4626-rate-loglog.png[Exchange rates in logarithmic scale]
+
+In such a representation, widely different rates can be clearly visible in the same graph. This wouldn't be the case in linear scale.
+
+image::erc4626-rate-loglogext.png[More exchange rates in logarithmic scale]
+
+=== The attack
+
+When depositing tokens, the number of shares a user gets is rounded towards zero. This rounding takes away value from the user in favor of the vault (i.e. in favor of all the current share holders). This rounding is often negligible because of the amount at stake. If you deposit 1e9 shares worth of tokens, the rounding will have you lose at most 0.0000001% of your deposit. However if you deposit 10 shares worth of tokens, you could lose 10% of your deposit. Even worse, if you deposit <1 share worth of tokens, then you get 0 shares, and you basically made a donation.
+
+For a given amount of assets, the more shares you receive the safer you are. If you want to limit your losses to at most 1%, you need to receive at least 100 shares.
+
+image::erc4626-deposit.png[Depositing assets]
+
+In the figure we can see that for a given deposit of 500 assets, the number of shares we get and the corresponding rounding losses depend on the exchange rate. If the exchange rate is that of the orange curve, we are getting less than a share, so we lose 100% of our deposit. However, if the exchange rate is that of the green curve, we get 5000 shares, which limits our rounding losses to at most 0.02%.
+
+image::erc4626-mint.png[Minting shares]
+
+Symmetrically, if we focus on limiting our losses to a maximum of 0.5%, we need to get at least 200 shares. With the green exchange rate that requires just 20 tokens, but with the orange rate that requires 200000 tokens.
+
+We can clearly see that the blue and green curves correspond to vaults that are safer than the yellow and orange curves.
+
+The idea of an inflation attack is that an attacker can donate assets to the vault to move the rate curve to the right, and make the vault unsafe.
+
+image::erc4626-attack.png[Inflation attack without protection]
+
+Figure 6 shows how an attacker can manipulate the rate of an empty vault. First the attacker must deposit a small amount of tokens (1 token) and follow up with a donation of 1e5 tokens directly to the vault to move the exchange rate "right". This puts the vault in a state where any deposit smaller than 1e5 would be completely lost to the vault. Given that the attacker is the only share holder (from their donation), the attacker would steal all the tokens deposited.
+
+An attacker would typically wait for a user to do the first deposit into the vault, and would frontrun that operation with the attack described above. The risk is low, and the size of the "donation" required to manipulate the vault is equivalent to the size of the deposit that is being attacked.
+
+In math that gives:
+
+- stem:[a_0] the attacker deposit
+- stem:[a_1] the attacker donation
+- stem:[u] the user deposit
+
+[%header,cols=4*]
+|===
+|
+| Assets
+| Shares
+| Rate
+
+| initial
+| stem:[0]
+| stem:[0]
+| -
+
+| after attacker's deposit
+| stem:[a_0]
+| stem:[a_0]
+| stem:[1]
+
+| after attacker's donation
+| stem:[a_0+a_1]
+| stem:[a_0]
+| stem:[\frac{a_0}{a_0+a_1}]
+|===
+
+This means a deposit of stem:[u] will give stem:[\frac{u \times a_0}{a_0 + a_1}] shares.
+
+For the attacker to dilute that deposit to 0 shares, causing the user to lose all its deposit, it must ensure that
+
+[stem]
+++++
+\frac{u \times a_0}{a_0+a_1} < 1 \iff u < 1 + \frac{a_1}{a_0}
+++++
+
+Using stem:[a_0 = 1] and stem:[a_1 = u] is enough. So the attacker only needs stem:[u+1] assets to perform a successful attack.
+
+It is easy to generalize the above results to scenarios where the attacker is going after a smaller fraction of the user's deposit. In order to target stem:[\frac{u}{n}], the user needs to suffer rounding of a similar fraction, which means the user must receive at most stem:[n] shares. This results in:
+
+[stem]
+++++
+\frac{u \times a_0}{a_0+a_1} < n \iff \frac{u}{n} < 1 + \frac{a_1}{a_0}
+++++
+
+In this scenario, the attack is stem:[n] times less powerful (in how much it is stealing) and costs stem:[n] times less to execute. In both cases, the amount of funds the attacker needs to commit is equivalent to its potential earnings.
+
+=== Defending with a virtual offset
+
+The defense we propose is based on the approach used in link:https://github.com/boringcrypto/YieldBox[YieldBox]. It consists of two parts:
+
+- Use an offset between the "precision" of the representation of shares and assets. Said otherwise, we use more decimal places to represent the shares than the underlying token does to represent the assets.
+- Include virtual shares and virtual assets in the exchange rate computation. These virtual assets enforce the conversion rate when the vault is empty.
+
+These two parts work together in enforcing the security of the vault. First, the increased precision corresponds to a high rate, which we saw is safer as it reduces the rounding error when computing the amount of shares. Second, the virtual assets and shares (in addition to simplifying a lot of the computations) capture part of the donation, making it unprofitable for a developer to perform an attack.
+
+Following the previous math definitions, we have:
+
+- stem:[\delta] the vault offset
+- stem:[a_0] the attacker deposit
+- stem:[a_1] the attacker donation
+- stem:[u] the user deposit
+
+[%header,cols=4*]
+|===
+|
+| Assets
+| Shares
+| Rate
+
+| initial
+| stem:[1]
+| stem:[10^\delta]
+| stem:[10^\delta]
+
+| after attacker's deposit
+| stem:[1+a_0]
+| stem:[10^\delta \times (1+a_0)]
+| stem:[10^\delta]
+
+| after attacker's donation
+| stem:[1+a_0+a_1]
+| stem:[10^\delta \times (1+a_0)]
+| stem:[10^\delta \times \frac{1+a_0}{1+a_0+a_1}]
+|===
+
+One important thing to note is that the attacker only owns a fraction stem:[\frac{a_0}{1 + a_0}] of the shares, so when doing the donation, he will only be able to recover that fraction stem:[\frac{a_1 \times a_0}{1 + a_0}] of the donation. The remaining stem:[\frac{a_1}{1+a_0}] are captured by the vault.
+
+[stem]
+++++
+\mathit{loss} = \frac{a_1}{1+a_0}
+++++
+
+When the user deposits stem:[u], he receives
+
+[stem]
+++++
+10^\delta \times u \times \frac{1+a_0}{1+a_0+a_1}
+++++
+
+For the attacker to dilute that deposit to 0 shares, causing the user to lose all its deposit, it must ensure that
+
+[stem]
+++++
+10^\delta \times u \times \frac{1+a_0}{1+a_0+a_1} < 1
+++++
+
+[stem]
+++++
+\iff 10^\delta \times u < \frac{1+a_0+a_1}{1+a_0}
+++++
+
+[stem]
+++++
+\iff 10^\delta \times u < 1 + \frac{a_1}{1+a_0}
+++++
+
+[stem]
+++++
+\iff 10^\delta \times u \le \mathit{loss}
+++++
+
+- If the offset is 0, the attacker loss is at least equal to the user's deposit.
+- If the offset is greater than 0, the attacker will have to suffer losses that are orders of magnitude bigger than the amount of value that can hypothetically be stolen from the user.
+
+This shows that even with an offset of 0, the virtual shares and assets make this attack non profitable for the attacker. Bigger offsets increase the security even further by making any attack on the user extremely wasteful.
+
+The following figure shows how the offset impacts the initial rate and limits the ability of an attacker with limited funds to inflate it effectively.
+
+image::erc4626-attack-3a.png[Inflation attack without offset=3]
+stem:[\delta = 3], stem:[a_0 = 1], stem:[a_1 = 10^5]
+
+image::erc4626-attack-3b.png[Inflation attack without offset=3 and an attacker deposit that limits its losses]
+stem:[\delta = 3], stem:[a_0 = 100], stem:[a_1 = 10^5]
+
+image::erc4626-attack-6.png[Inflation attack without offset=6]
+stem:[\delta = 6], stem:[a_0 = 1], stem:[a_1 = 10^5]
+
+
+[[fees]]
+== Custom behavior: Adding fees to the vault
+
+In an ERC-4626 vaults, fees can be captured during the deposit/mint and/or during the withdraw/redeem steps. In both cases it is essential to remain compliant with the ERC-4626 requirements with regard to the preview functions.
+
+For example, if calling `deposit(100, receiver)`, the caller should deposit exactly 100 underlying tokens, including fees, and the receiver should receive a number of shares that matches the value returned by `previewDeposit(100)`. Similarly, `previewMint` should account for the fees that the user will have to pay on top of share's cost.
+
+As for the `Deposit` event, while this is less clear in the EIP spec itself, there seems to be consensus that it should include the number of assets paid for by the user, including the fees.
+
+On the other hand, when withdrawing assets, the number given by the user should correspond to what he receives. Any fees should be added to the quote (in shares) performed by `previewWithdraw`.
+
+The `Withdraw` event should include the number of shares the user burns (including fees) and the number of assets the user actually receives (after fees are deducted).
+
+The consequence of this design is that both the `Deposit` and `Withdraw` events will describe two exchange rates. The spread between the "Buy-in" and the "Exit" prices correspond to the fees taken by the vault.
+
+The following example describes how fees proportional to the deposited/withdrawn amount can be implemented:
+
+```solidity
+include::api:example$ERC4626Fees.sol[]
+```
