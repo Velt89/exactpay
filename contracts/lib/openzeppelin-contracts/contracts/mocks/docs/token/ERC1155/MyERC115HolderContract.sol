@@ -1,1 +1,7 @@
-Ly8gY29udHJhY3RzL015RVJDMTE1SG9sZGVyQ29udHJhY3Quc29sCi8vIFNQRFgtTGljZW5zZS1JZGVudGlmaWVyOiBNSVQKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0VSQzExNTVIb2xkZXJ9IGZyb20gIi4uLy4uLy4uLy4uL3Rva2VuL0VSQzExNTUvdXRpbHMvRVJDMTE1NUhvbGRlci5zb2wiOwoKY29udHJhY3QgTXlFUkMxMTVIb2xkZXJDb250cmFjdCBpcyBFUkMxMTU1SG9sZGVyIHt9Cg==
+// contracts/MyERC115HolderContract.sol
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+import {ERC1155Holder} from "../../../../token/ERC1155/utils/ERC1155Holder.sol";
+
+contract MyERC115HolderContract is ERC1155Holder {}
