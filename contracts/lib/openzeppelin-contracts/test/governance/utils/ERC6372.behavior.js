@@ -1,1 +1,25 @@
-Y29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKCmNvbnN0IHRpbWUgPSByZXF1aXJlKCcuLi8uLi9oZWxwZXJzL3RpbWUnKTsKCmZ1bmN0aW9uIHNob3VsZEJlaGF2ZUxpa2VFUkM2MzcyKG1vZGUgPSAnYmxvY2tudW1iZXInKSB7CiAgZGVzY3JpYmUoJ3Nob3VsZCBpbXBsZW1lbnQgRVJDLTYzNzInLCBmdW5jdGlvbiAoKSB7CiAgICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgdGhpcy5tb2NrID0gdGhpcy5tb2NrID8/IHRoaXMudG9rZW4gPz8gdGhpcy52b3RlczsKICAgIH0pOwoKICAgIGl0KCdjbG9jayBpcyBjb3JyZWN0JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLmNsb2NrKCkpLnRvLmVxdWFsKGF3YWl0IHRpbWUuY2xvY2tbbW9kZV0oKSk7CiAgICB9KTsKCiAgICBpdCgnQ0xPQ0tfTU9ERSBpcyBjb3JyZWN0JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCBwYXJhbXMgPSBuZXcgVVJMU2VhcmNoUGFyYW1zKGF3YWl0IHRoaXMubW9jay5DTE9DS19NT0RFKCkpOwogICAgICBleHBlY3QocGFyYW1zLmdldCgnbW9kZScpKS50by5lcXVhbChtb2RlKTsKICAgICAgZXhwZWN0KHBhcmFtcy5nZXQoJ2Zyb20nKSkudG8uZXF1YWwobW9kZSA9PSAnYmxvY2tudW1iZXInID8gJ2RlZmF1bHQnIDogbnVsbCk7CiAgICB9KTsKICB9KTsKfQoKbW9kdWxlLmV4cG9ydHMgPSB7CiAgc2hvdWxkQmVoYXZlTGlrZUVSQzYzNzIsCn07Cg==
+const { expect } = require('chai');
+
+const time = require('../../helpers/time');
+
+function shouldBehaveLikeERC6372(mode = 'blocknumber') {
+  describe('should implement ERC-6372', function () {
+    beforeEach(async function () {
+      this.mock = this.mock ?? this.token ?? this.votes;
+    });
+
+    it('clock is correct', async function () {
+      expect(await this.mock.clock()).to.equal(await time.clock[mode]());
+    });
+
+    it('CLOCK_MODE is correct', async function () {
+      const params = new URLSearchParams(await this.mock.CLOCK_MODE());
+      expect(params.get('mode')).to.equal(mode);
+      expect(params.get('from')).to.equal(mode == 'blocknumber' ? 'default' : null);
+    });
+  });
+}
+
+module.exports = {
+  shouldBehaveLikeERC6372,
+};
