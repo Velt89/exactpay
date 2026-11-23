@@ -1,1 +1,12 @@
-ewogICIkc2NoZW1hIjogImh0dHBzOi8vdW5wa2cuY29tL0BjaGFuZ2VzZXRzL2NvbmZpZ0AyLjMuMC9zY2hlbWEuanNvbiIsCiAgImNoYW5nZWxvZyI6IFsKICAgICJAY2hhbmdlc2V0cy9jaGFuZ2Vsb2ctZ2l0aHViIiwKICAgIHsKICAgICAgInJlcG8iOiAiT3BlblplcHBlbGluL29wZW56ZXBwZWxpbi1jb250cmFjdHMiCiAgICB9CiAgXSwKICAiY29tbWl0IjogZmFsc2UsCiAgImFjY2VzcyI6ICJwdWJsaWMiLAogICJiYXNlQnJhbmNoIjogIm1hc3RlciIKfQo=
+{
+  "$schema": "https://unpkg.com/@changesets/config@2.3.0/schema.json",
+  "changelog": [
+    "@changesets/changelog-github",
+    {
+      "repo": "OpenZeppelin/openzeppelin-contracts"
+    }
+  ],
+  "commit": false,
+  "access": "public",
+  "baseBranch": "master"
+}
