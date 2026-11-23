@@ -1,1 +1,138 @@
-Y29uc3QgZm9ybWF0ID0gcmVxdWlyZSgnLi4vZm9ybWF0LWxpbmVzJyk7CmNvbnN0IHsgcmFuZ2UgfSA9IHJlcXVpcmUoJy4uLy4uL2hlbHBlcnMnKTsKCmNvbnN0IExFTkdUSFMgPSByYW5nZSg4LCAyNTYsIDgpLnJldmVyc2UoKTsgLy8gMjQ4IOKGkiA4IChpbiBzdGVwcyBvZiA4KQoKY29uc3QgaGVhZGVyID0gYFwKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgovKioKICogQGRldiBXcmFwcGVycyBvdmVyIFNvbGlkaXR5J3MgdWludFhYL2ludFhYL2Jvb2wgY2FzdGluZyBvcGVyYXRvcnMgd2l0aCBhZGRlZCBvdmVyZmxvdwogKiBjaGVja3MuCiAqCiAqIERvd25jYXN0aW5nIGZyb20gdWludDI1Ni9pbnQyNTYgaW4gU29saWRpdHkgZG9lcyBub3QgcmV2ZXJ0IG9uIG92ZXJmbG93LiBUaGlzIGNhbgogKiBlYXNpbHkgcmVzdWx0IGluIHVuZGVzaXJlZCBleHBsb2l0YXRpb24gb3IgYnVncywgc2luY2UgZGV2ZWxvcGVycyB1c3VhbGx5CiAqIGFzc3VtZSB0aGF0IG92ZXJmbG93cyByYWlzZSBlcnJvcnMuIFxgU2FmZUNhc3RcYCByZXN0b3JlcyB0aGlzIGludHVpdGlvbiBieQogKiByZXZlcnRpbmcgdGhlIHRyYW5zYWN0aW9uIHdoZW4gc3VjaCBhbiBvcGVyYXRpb24gb3ZlcmZsb3dzLgogKgogKiBVc2luZyB0aGlzIGxpYnJhcnkgaW5zdGVhZCBvZiB0aGUgdW5jaGVja2VkIG9wZXJhdGlvbnMgZWxpbWluYXRlcyBhbiBlbnRpcmUKICogY2xhc3Mgb2YgYnVncywgc28gaXQncyByZWNvbW1lbmRlZCB0byB1c2UgaXQgYWx3YXlzLgogKi8KYDsKCmNvbnN0IGVycm9ycyA9IGBcCi8qKgogKiBAZGV2IFZhbHVlIGRvZXNuJ3QgZml0IGluIGFuIHVpbnQgb2YgXGBiaXRzXGAgc2l6ZS4KICovCmVycm9yIFNhZmVDYXN0T3ZlcmZsb3dlZFVpbnREb3duY2FzdCh1aW50OCBiaXRzLCB1aW50MjU2IHZhbHVlKTsKCi8qKgogKiBAZGV2IEFuIGludCB2YWx1ZSBkb2Vzbid0IGZpdCBpbiBhbiB1aW50IG9mIFxgYml0c1xgIHNpemUuCiAqLwplcnJvciBTYWZlQ2FzdE92ZXJmbG93ZWRJbnRUb1VpbnQoaW50MjU2IHZhbHVlKTsKCi8qKgogKiBAZGV2IFZhbHVlIGRvZXNuJ3QgZml0IGluIGFuIGludCBvZiBcYGJpdHNcYCBzaXplLgogKi8KZXJyb3IgU2FmZUNhc3RPdmVyZmxvd2VkSW50RG93bmNhc3QodWludDggYml0cywgaW50MjU2IHZhbHVlKTsKCi8qKgogKiBAZGV2IEFuIHVpbnQgdmFsdWUgZG9lc24ndCBmaXQgaW4gYW4gaW50IG9mIFxgYml0c1xgIHNpemUuCiAqLwplcnJvciBTYWZlQ2FzdE92ZXJmbG93ZWRVaW50VG9JbnQodWludDI1NiB2YWx1ZSk7CmA7Cgpjb25zdCB0b1VpbnREb3duQ2FzdCA9IGxlbmd0aCA9PiBgXAovKioKICogQGRldiBSZXR1cm5zIHRoZSBkb3duY2FzdGVkIHVpbnQke2xlbmd0aH0gZnJvbSB1aW50MjU2LCByZXZlcnRpbmcgb24KICogb3ZlcmZsb3cgKHdoZW4gdGhlIGlucHV0IGlzIGdyZWF0ZXIgdGhhbiBsYXJnZXN0IHVpbnQke2xlbmd0aH0pLgogKgogKiBDb3VudGVycGFydCB0byBTb2xpZGl0eSdzIFxgdWludCR7bGVuZ3RofVxgIG9wZXJhdG9yLgogKgogKiBSZXF1aXJlbWVudHM6CiAqCiAqIC0gaW5wdXQgbXVzdCBmaXQgaW50byAke2xlbmd0aH0gYml0cwogKi8KZnVuY3Rpb24gdG9VaW50JHtsZW5ndGh9KHVpbnQyNTYgdmFsdWUpIGludGVybmFsIHB1cmUgcmV0dXJucyAodWludCR7bGVuZ3RofSkgewogICAgaWYgKHZhbHVlID4gdHlwZSh1aW50JHtsZW5ndGh9KS5tYXgpIHsKICAgICAgICByZXZlcnQgU2FmZUNhc3RPdmVyZmxvd2VkVWludERvd25jYXN0KCR7bGVuZ3RofSwgdmFsdWUpOwogICAgfQogICAgcmV0dXJuIHVpbnQke2xlbmd0aH0odmFsdWUpOwp9CmA7CgovKiBlc2xpbnQtZGlzYWJsZSBtYXgtbGVuICovCmNvbnN0IHRvSW50RG93bkNhc3QgPSBsZW5ndGggPT4gYFwKLyoqCiAqIEBkZXYgUmV0dXJucyB0aGUgZG93bmNhc3RlZCBpbnQke2xlbmd0aH0gZnJvbSBpbnQyNTYsIHJldmVydGluZyBvbgogKiBvdmVyZmxvdyAod2hlbiB0aGUgaW5wdXQgaXMgbGVzcyB0aGFuIHNtYWxsZXN0IGludCR7bGVuZ3RofSBvcgogKiBncmVhdGVyIHRoYW4gbGFyZ2VzdCBpbnQke2xlbmd0aH0pLgogKgogKiBDb3VudGVycGFydCB0byBTb2xpZGl0eSdzIFxgaW50JHtsZW5ndGh9XGAgb3BlcmF0b3IuCiAqCiAqIFJlcXVpcmVtZW50czoKICoKICogLSBpbnB1dCBtdXN0IGZpdCBpbnRvICR7bGVuZ3RofSBiaXRzCiAqLwpmdW5jdGlvbiB0b0ludCR7bGVuZ3RofShpbnQyNTYgdmFsdWUpIGludGVybmFsIHB1cmUgcmV0dXJucyAoaW50JHtsZW5ndGh9IGRvd25jYXN0ZWQpIHsKICAgIGRvd25jYXN0ZWQgPSBpbnQke2xlbmd0aH0odmFsdWUpOwogICAgaWYgKGRvd25jYXN0ZWQgIT0gdmFsdWUpIHsKICAgICAgICByZXZlcnQgU2FmZUNhc3RPdmVyZmxvd2VkSW50RG93bmNhc3QoJHtsZW5ndGh9LCB2YWx1ZSk7CiAgICB9Cn0KYDsKLyogZXNsaW50LWVuYWJsZSBtYXgtbGVuICovCgpjb25zdCB0b0ludCA9IGxlbmd0aCA9PiBgXAovKioKICogQGRldiBDb252ZXJ0cyBhbiB1bnNpZ25lZCB1aW50JHtsZW5ndGh9IGludG8gYSBzaWduZWQgaW50JHtsZW5ndGh9LgogKgogKiBSZXF1aXJlbWVudHM6CiAqCiAqIC0gaW5wdXQgbXVzdCBiZSBsZXNzIHRoYW4gb3IgZXF1YWwgdG8gbWF4SW50JHtsZW5ndGh9LgogKi8KZnVuY3Rpb24gdG9JbnQke2xlbmd0aH0odWludCR7bGVuZ3RofSB2YWx1ZSkgaW50ZXJuYWwgcHVyZSByZXR1cm5zIChpbnQke2xlbmd0aH0pIHsKICAgIC8vIE5vdGU6IFVuc2FmZSBjYXN0IGJlbG93IGlzIG9rYXkgYmVjYXVzZSBcYHR5cGUoaW50JHtsZW5ndGh9KS5tYXhcYCBpcyBndWFyYW50ZWVkIHRvIGJlIHBvc2l0aXZlCiAgICBpZiAodmFsdWUgPiB1aW50JHtsZW5ndGh9KHR5cGUoaW50JHtsZW5ndGh9KS5tYXgpKSB7CiAgICAgICAgcmV2ZXJ0IFNhZmVDYXN0T3ZlcmZsb3dlZFVpbnRUb0ludCh2YWx1ZSk7CiAgICB9CiAgICByZXR1cm4gaW50JHtsZW5ndGh9KHZhbHVlKTsKfQpgOwoKY29uc3QgdG9VaW50ID0gbGVuZ3RoID0+IGBcCi8qKgogKiBAZGV2IENvbnZlcnRzIGEgc2lnbmVkIGludCR7bGVuZ3RofSBpbnRvIGFuIHVuc2lnbmVkIHVpbnQke2xlbmd0aH0uCiAqCiAqIFJlcXVpcmVtZW50czoKICoKICogLSBpbnB1dCBtdXN0IGJlIGdyZWF0ZXIgdGhhbiBvciBlcXVhbCB0byAwLgogKi8KZnVuY3Rpb24gdG9VaW50JHtsZW5ndGh9KGludCR7bGVuZ3RofSB2YWx1ZSkgaW50ZXJuYWwgcHVyZSByZXR1cm5zICh1aW50JHtsZW5ndGh9KSB7CiAgICBpZiAodmFsdWUgPCAwKSB7CiAgICAgICAgcmV2ZXJ0IFNhZmVDYXN0T3ZlcmZsb3dlZEludFRvVWludCh2YWx1ZSk7CiAgICB9CiAgICByZXR1cm4gdWludCR7bGVuZ3RofSh2YWx1ZSk7Cn0KYDsKCmNvbnN0IGJvb2xUb1VpbnQgPSBgXAovKioKICogQGRldiBDYXN0IGEgYm9vbGVhbiAoZmFsc2Ugb3IgdHJ1ZSkgdG8gYSB1aW50MjU2ICgwIG9yIDEpIHdpdGggbm8ganVtcC4KICovCmZ1bmN0aW9uIHRvVWludChib29sIGIpIGludGVybmFsIHB1cmUgcmV0dXJucyAodWludDI1NiB1KSB7CiAgICBhc3NlbWJseSAoIm1lbW9yeS1zYWZlIikgewogICAgICAgIHUgOj0gaXN6ZXJvKGlzemVybyhiKSkKICAgIH0KfQpgOwoKLy8gR0VORVJBVEUKbW9kdWxlLmV4cG9ydHMgPSBmb3JtYXQoCiAgaGVhZGVyLnRyaW1FbmQoKSwKICAnbGlicmFyeSBTYWZlQ2FzdCB7JywKICBmb3JtYXQoCiAgICBbXS5jb25jYXQoZXJyb3JzLCBMRU5HVEhTLm1hcCh0b1VpbnREb3duQ2FzdCksIHRvVWludCgyNTYpLCBMRU5HVEhTLm1hcCh0b0ludERvd25DYXN0KSwgdG9JbnQoMjU2KSwgYm9vbFRvVWludCksCiAgKS50cmltRW5kKCksCiAgJ30nLAopOwo=
+const format = require('../format-lines');
+const { range } = require('../../helpers');
+
+const LENGTHS = range(8, 256, 8).reverse(); // 248 → 8 (in steps of 8)
+
+const header = `\
+pragma solidity ^0.8.20;
+
+/**
+ * @dev Wrappers over Solidity's uintXX/intXX/bool casting operators with added overflow
+ * checks.
+ *
+ * Downcasting from uint256/int256 in Solidity does not revert on overflow. This can
+ * easily result in undesired exploitation or bugs, since developers usually
+ * assume that overflows raise errors. \`SafeCast\` restores this intuition by
+ * reverting the transaction when such an operation overflows.
+ *
+ * Using this library instead of the unchecked operations eliminates an entire
+ * class of bugs, so it's recommended to use it always.
+ */
+`;
+
+const errors = `\
+/**
+ * @dev Value doesn't fit in an uint of \`bits\` size.
+ */
+error SafeCastOverflowedUintDowncast(uint8 bits, uint256 value);
+
+/**
+ * @dev An int value doesn't fit in an uint of \`bits\` size.
+ */
+error SafeCastOverflowedIntToUint(int256 value);
+
+/**
+ * @dev Value doesn't fit in an int of \`bits\` size.
+ */
+error SafeCastOverflowedIntDowncast(uint8 bits, int256 value);
+
+/**
+ * @dev An uint value doesn't fit in an int of \`bits\` size.
+ */
+error SafeCastOverflowedUintToInt(uint256 value);
+`;
+
+const toUintDownCast = length => `\
+/**
+ * @dev Returns the downcasted uint${length} from uint256, reverting on
+ * overflow (when the input is greater than largest uint${length}).
+ *
+ * Counterpart to Solidity's \`uint${length}\` operator.
+ *
+ * Requirements:
+ *
+ * - input must fit into ${length} bits
+ */
+function toUint${length}(uint256 value) internal pure returns (uint${length}) {
+    if (value > type(uint${length}).max) {
+        revert SafeCastOverflowedUintDowncast(${length}, value);
+    }
+    return uint${length}(value);
+}
+`;
+
+/* eslint-disable max-len */
+const toIntDownCast = length => `\
+/**
+ * @dev Returns the downcasted int${length} from int256, reverting on
+ * overflow (when the input is less than smallest int${length} or
+ * greater than largest int${length}).
+ *
+ * Counterpart to Solidity's \`int${length}\` operator.
+ *
+ * Requirements:
+ *
+ * - input must fit into ${length} bits
+ */
+function toInt${length}(int256 value) internal pure returns (int${length} downcasted) {
+    downcasted = int${length}(value);
+    if (downcasted != value) {
+        revert SafeCastOverflowedIntDowncast(${length}, value);
+    }
+}
+`;
+/* eslint-enable max-len */
+
+const toInt = length => `\
+/**
+ * @dev Converts an unsigned uint${length} into a signed int${length}.
+ *
+ * Requirements:
+ *
+ * - input must be less than or equal to maxInt${length}.
+ */
+function toInt${length}(uint${length} value) internal pure returns (int${length}) {
+    // Note: Unsafe cast below is okay because \`type(int${length}).max\` is guaranteed to be positive
+    if (value > uint${length}(type(int${length}).max)) {
+        revert SafeCastOverflowedUintToInt(value);
+    }
+    return int${length}(value);
+}
+`;
+
+const toUint = length => `\
+/**
+ * @dev Converts a signed int${length} into an unsigned uint${length}.
+ *
+ * Requirements:
+ *
+ * - input must be greater than or equal to 0.
+ */
+function toUint${length}(int${length} value) internal pure returns (uint${length}) {
+    if (value < 0) {
+        revert SafeCastOverflowedIntToUint(value);
+    }
+    return uint${length}(value);
+}
+`;
+
+const boolToUint = `\
+/**
+ * @dev Cast a boolean (false or true) to a uint256 (0 or 1) with no jump.
+ */
+function toUint(bool b) internal pure returns (uint256 u) {
+    assembly ("memory-safe") {
+        u := iszero(iszero(b))
+    }
+}
+`;
+
+// GENERATE
+module.exports = format(
+  header.trimEnd(),
+  'library SafeCast {',
+  format(
+    [].concat(errors, LENGTHS.map(toUintDownCast), toUint(256), LENGTHS.map(toIntDownCast), toInt(256), boolToUint),
+  ).trimEnd(),
+  '}',
+);
