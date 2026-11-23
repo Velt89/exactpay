@@ -1,1 +1,185 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKCmNvbnN0IHsgZ2V0QWRkcmVzc0luU2xvdCwgSW1wbGVtZW50YXRpb25TbG90IH0gPSByZXF1aXJlKCcuLi9oZWxwZXJzL3N0b3JhZ2UnKTsKCm1vZHVsZS5leHBvcnRzID0gZnVuY3Rpb24gc2hvdWxkQmVoYXZlTGlrZVByb3h5KCkgewogIGl0KCdjYW5ub3QgYmUgaW5pdGlhbGl6ZWQgd2l0aCBhIG5vbi1jb250cmFjdCBhZGRyZXNzJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgY29uc3QgaW5pdGlhbGl6ZURhdGEgPSAnMHgnOwogICAgY29uc3QgY29udHJhY3RGYWN0b3J5ID0gYXdhaXQgZXRoZXJzLmdldENvbnRyYWN0RmFjdG9yeSgnRVJDMTk2N1Byb3h5Jyk7CiAgICBhd2FpdCBleHBlY3QodGhpcy5jcmVhdGVQcm94eSh0aGlzLm5vbkNvbnRyYWN0QWRkcmVzcywgaW5pdGlhbGl6ZURhdGEpKQogICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IoY29udHJhY3RGYWN0b3J5LCAnRVJDMTk2N0ludmFsaWRJbXBsZW1lbnRhdGlvbicpCiAgICAgIC53aXRoQXJncyh0aGlzLm5vbkNvbnRyYWN0QWRkcmVzcyk7CiAgfSk7CgogIGNvbnN0IGFzc2VydFByb3h5SW5pdGlhbGl6YXRpb24gPSBmdW5jdGlvbiAoeyB2YWx1ZSwgYmFsYW5jZSB9KSB7CiAgICBpdCgnc2V0cyB0aGUgaW1wbGVtZW50YXRpb24gYWRkcmVzcycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgZXhwZWN0KGF3YWl0IGdldEFkZHJlc3NJblNsb3QodGhpcy5wcm94eSwgSW1wbGVtZW50YXRpb25TbG90KSkudG8uZXF1YWwodGhpcy5pbXBsZW1lbnRhdGlvbik7CiAgICB9KTsKCiAgICBpdCgnaW5pdGlhbGl6ZXMgdGhlIHByb3h5JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCBkdW1teSA9IHRoaXMuaW1wbGVtZW50YXRpb24uYXR0YWNoKHRoaXMucHJveHkpOwogICAgICBleHBlY3QoYXdhaXQgZHVtbXkudmFsdWUoKSkudG8uZXF1YWwodmFsdWUpOwogICAgfSk7CgogICAgaXQoJ2hhcyBleHBlY3RlZCBiYWxhbmNlJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBleHBlY3QoYXdhaXQgZXRoZXJzLnByb3ZpZGVyLmdldEJhbGFuY2UodGhpcy5wcm94eSkpLnRvLmVxdWFsKGJhbGFuY2UpOwogICAgfSk7CiAgfTsKCiAgZGVzY3JpYmUoJ3dpdGhvdXQgaW5pdGlhbGl6YXRpb24nLCBmdW5jdGlvbiAoKSB7CiAgICBjb25zdCBpbml0aWFsaXplRGF0YSA9ICcweCc7CgogICAgZGVzY3JpYmUoJ3doZW4gbm90IHNlbmRpbmcgYmFsYW5jZScsIGZ1bmN0aW9uICgpIHsKICAgICAgYmVmb3JlRWFjaCgnY3JlYXRpbmcgcHJveHknLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgdGhpcy5wcm94eSA9IGF3YWl0IHRoaXMuY3JlYXRlUHJveHkodGhpcy5pbXBsZW1lbnRhdGlvbiwgaW5pdGlhbGl6ZURhdGEpOwogICAgICB9KTsKCiAgICAgIGFzc2VydFByb3h5SW5pdGlhbGl6YXRpb24oeyB2YWx1ZTogMG4sIGJhbGFuY2U6IDBuIH0pOwogICAgfSk7CgogICAgZGVzY3JpYmUoJ3doZW4gc2VuZGluZyBzb21lIGJhbGFuY2UnLCBmdW5jdGlvbiAoKSB7CiAgICAgIGNvbnN0IHZhbHVlID0gMTBuICoqIDVuOwoKICAgICAgaXQoJ3JldmVydHMnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMuY3JlYXRlUHJveHkodGhpcy5pbXBsZW1lbnRhdGlvbiwgaW5pdGlhbGl6ZURhdGEsIHsgdmFsdWUgfSkpLnRvLmJlLnJldmVydGVkOwogICAgICB9KTsKICAgIH0pOwogIH0pOwoKICBkZXNjcmliZSgnaW5pdGlhbGl6YXRpb24gd2l0aG91dCBwYXJhbWV0ZXJzJywgZnVuY3Rpb24gKCkgewogICAgZGVzY3JpYmUoJ25vbiBwYXlhYmxlJywgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCBleHBlY3RlZEluaXRpYWxpemVkVmFsdWUgPSAxMG47CgogICAgICBiZWZvcmVFYWNoKGZ1bmN0aW9uICgpIHsKICAgICAgICB0aGlzLmluaXRpYWxpemVEYXRhID0gdGhpcy5pbXBsZW1lbnRhdGlvbi5pbnRlcmZhY2UuZW5jb2RlRnVuY3Rpb25EYXRhKCdpbml0aWFsaXplTm9uUGF5YWJsZScpOwogICAgICB9KTsKCiAgICAgIGRlc2NyaWJlKCd3aGVuIG5vdCBzZW5kaW5nIGJhbGFuY2UnLCBmdW5jdGlvbiAoKSB7CiAgICAgICAgYmVmb3JlRWFjaCgnY3JlYXRpbmcgcHJveHknLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICB0aGlzLnByb3h5ID0gYXdhaXQgdGhpcy5jcmVhdGVQcm94eSh0aGlzLmltcGxlbWVudGF0aW9uLCB0aGlzLmluaXRpYWxpemVEYXRhKTsKICAgICAgICB9KTsKCiAgICAgICAgYXNzZXJ0UHJveHlJbml0aWFsaXphdGlvbih7CiAgICAgICAgICB2YWx1ZTogZXhwZWN0ZWRJbml0aWFsaXplZFZhbHVlLAogICAgICAgICAgYmFsYW5jZTogMG4sCiAgICAgICAgfSk7CiAgICAgIH0pOwoKICAgICAgZGVzY3JpYmUoJ3doZW4gc2VuZGluZyBzb21lIGJhbGFuY2UnLCBmdW5jdGlvbiAoKSB7CiAgICAgICAgY29uc3QgdmFsdWUgPSAxMG4gKiogNW47CgogICAgICAgIGl0KCdyZXZlcnRzJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMuY3JlYXRlUHJveHkodGhpcy5pbXBsZW1lbnRhdGlvbiwgdGhpcy5pbml0aWFsaXplRGF0YSwgeyB2YWx1ZSB9KSkudG8uYmUucmV2ZXJ0ZWQ7CiAgICAgICAgfSk7CiAgICAgIH0pOwogICAgfSk7CgogICAgZGVzY3JpYmUoJ3BheWFibGUnLCBmdW5jdGlvbiAoKSB7CiAgICAgIGNvbnN0IGV4cGVjdGVkSW5pdGlhbGl6ZWRWYWx1ZSA9IDEwMG47CgogICAgICBiZWZvcmVFYWNoKGZ1bmN0aW9uICgpIHsKICAgICAgICB0aGlzLmluaXRpYWxpemVEYXRhID0gdGhpcy5pbXBsZW1lbnRhdGlvbi5pbnRlcmZhY2UuZW5jb2RlRnVuY3Rpb25EYXRhKCdpbml0aWFsaXplUGF5YWJsZScpOwogICAgICB9KTsKCiAgICAgIGRlc2NyaWJlKCd3aGVuIG5vdCBzZW5kaW5nIGJhbGFuY2UnLCBmdW5jdGlvbiAoKSB7CiAgICAgICAgYmVmb3JlRWFjaCgnY3JlYXRpbmcgcHJveHknLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICB0aGlzLnByb3h5ID0gYXdhaXQgdGhpcy5jcmVhdGVQcm94eSh0aGlzLmltcGxlbWVudGF0aW9uLCB0aGlzLmluaXRpYWxpemVEYXRhKTsKICAgICAgICB9KTsKCiAgICAgICAgYXNzZXJ0UHJveHlJbml0aWFsaXphdGlvbih7CiAgICAgICAgICB2YWx1ZTogZXhwZWN0ZWRJbml0aWFsaXplZFZhbHVlLAogICAgICAgICAgYmFsYW5jZTogMG4sCiAgICAgICAgfSk7CiAgICAgIH0pOwoKICAgICAgZGVzY3JpYmUoJ3doZW4gc2VuZGluZyBzb21lIGJhbGFuY2UnLCBmdW5jdGlvbiAoKSB7CiAgICAgICAgY29uc3QgdmFsdWUgPSAxMGU1OwoKICAgICAgICBiZWZvcmVFYWNoKCdjcmVhdGluZyBwcm94eScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIHRoaXMucHJveHkgPSBhd2FpdCB0aGlzLmNyZWF0ZVByb3h5KHRoaXMuaW1wbGVtZW50YXRpb24sIHRoaXMuaW5pdGlhbGl6ZURhdGEsIHsgdmFsdWUgfSk7CiAgICAgICAgfSk7CgogICAgICAgIGFzc2VydFByb3h5SW5pdGlhbGl6YXRpb24oewogICAgICAgICAgdmFsdWU6IGV4cGVjdGVkSW5pdGlhbGl6ZWRWYWx1ZSwKICAgICAgICAgIGJhbGFuY2U6IHZhbHVlLAogICAgICAgIH0pOwogICAgICB9KTsKICAgIH0pOwogIH0pOwoKICBkZXNjcmliZSgnaW5pdGlhbGl6YXRpb24gd2l0aCBwYXJhbWV0ZXJzJywgZnVuY3Rpb24gKCkgewogICAgZGVzY3JpYmUoJ25vbiBwYXlhYmxlJywgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCBleHBlY3RlZEluaXRpYWxpemVkVmFsdWUgPSAxMG47CgogICAgICBiZWZvcmVFYWNoKGZ1bmN0aW9uICgpIHsKICAgICAgICB0aGlzLmluaXRpYWxpemVEYXRhID0gdGhpcy5pbXBsZW1lbnRhdGlvbi5pbnRlcmZhY2UuZW5jb2RlRnVuY3Rpb25EYXRhKCdpbml0aWFsaXplTm9uUGF5YWJsZVdpdGhWYWx1ZScsIFsKICAgICAgICAgIGV4cGVjdGVkSW5pdGlhbGl6ZWRWYWx1ZSwKICAgICAgICBdKTsKICAgICAgfSk7CgogICAgICBkZXNjcmliZSgnd2hlbiBub3Qgc2VuZGluZyBiYWxhbmNlJywgZnVuY3Rpb24gKCkgewogICAgICAgIGJlZm9yZUVhY2goJ2NyZWF0aW5nIHByb3h5JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgdGhpcy5wcm94eSA9IGF3YWl0IHRoaXMuY3JlYXRlUHJveHkodGhpcy5pbXBsZW1lbnRhdGlvbiwgdGhpcy5pbml0aWFsaXplRGF0YSk7CiAgICAgICAgfSk7CgogICAgICAgIGFzc2VydFByb3h5SW5pdGlhbGl6YXRpb24oewogICAgICAgICAgdmFsdWU6IGV4cGVjdGVkSW5pdGlhbGl6ZWRWYWx1ZSwKICAgICAgICAgIGJhbGFuY2U6IDAsCiAgICAgICAgfSk7CiAgICAgIH0pOwoKICAgICAgZGVzY3JpYmUoJ3doZW4gc2VuZGluZyBzb21lIGJhbGFuY2UnLCBmdW5jdGlvbiAoKSB7CiAgICAgICAgY29uc3QgdmFsdWUgPSAxMGU1OwoKICAgICAgICBpdCgncmV2ZXJ0cycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLmNyZWF0ZVByb3h5KHRoaXMuaW1wbGVtZW50YXRpb24sIHRoaXMuaW5pdGlhbGl6ZURhdGEsIHsgdmFsdWUgfSkpLnRvLmJlLnJldmVydGVkOwogICAgICAgIH0pOwogICAgICB9KTsKICAgIH0pOwoKICAgIGRlc2NyaWJlKCdwYXlhYmxlJywgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCBleHBlY3RlZEluaXRpYWxpemVkVmFsdWUgPSA0Mm47CgogICAgICBiZWZvcmVFYWNoKGZ1bmN0aW9uICgpIHsKICAgICAgICB0aGlzLmluaXRpYWxpemVEYXRhID0gdGhpcy5pbXBsZW1lbnRhdGlvbi5pbnRlcmZhY2UuZW5jb2RlRnVuY3Rpb25EYXRhKCdpbml0aWFsaXplUGF5YWJsZVdpdGhWYWx1ZScsIFsKICAgICAgICAgIGV4cGVjdGVkSW5pdGlhbGl6ZWRWYWx1ZSwKICAgICAgICBdKTsKICAgICAgfSk7CgogICAgICBkZXNjcmliZSgnd2hlbiBub3Qgc2VuZGluZyBiYWxhbmNlJywgZnVuY3Rpb24gKCkgewogICAgICAgIGJlZm9yZUVhY2goJ2NyZWF0aW5nIHByb3h5JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgdGhpcy5wcm94eSA9IGF3YWl0IHRoaXMuY3JlYXRlUHJveHkodGhpcy5pbXBsZW1lbnRhdGlvbiwgdGhpcy5pbml0aWFsaXplRGF0YSk7CiAgICAgICAgfSk7CgogICAgICAgIGFzc2VydFByb3h5SW5pdGlhbGl6YXRpb24oewogICAgICAgICAgdmFsdWU6IGV4cGVjdGVkSW5pdGlhbGl6ZWRWYWx1ZSwKICAgICAgICAgIGJhbGFuY2U6IDBuLAogICAgICAgIH0pOwogICAgICB9KTsKCiAgICAgIGRlc2NyaWJlKCd3aGVuIHNlbmRpbmcgc29tZSBiYWxhbmNlJywgZnVuY3Rpb24gKCkgewogICAgICAgIGNvbnN0IHZhbHVlID0gMTBuICoqIDVuOwoKICAgICAgICBiZWZvcmVFYWNoKCdjcmVhdGluZyBwcm94eScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIHRoaXMucHJveHkgPSBhd2FpdCB0aGlzLmNyZWF0ZVByb3h5KHRoaXMuaW1wbGVtZW50YXRpb24sIHRoaXMuaW5pdGlhbGl6ZURhdGEsIHsgdmFsdWUgfSk7CiAgICAgICAgfSk7CgogICAgICAgIGFzc2VydFByb3h5SW5pdGlhbGl6YXRpb24oewogICAgICAgICAgdmFsdWU6IGV4cGVjdGVkSW5pdGlhbGl6ZWRWYWx1ZSwKICAgICAgICAgIGJhbGFuY2U6IHZhbHVlLAogICAgICAgIH0pOwogICAgICB9KTsKICAgIH0pOwoKICAgIGRlc2NyaWJlKCdyZXZlcnRpbmcgaW5pdGlhbGl6YXRpb24nLCBmdW5jdGlvbiAoKSB7CiAgICAgIGJlZm9yZUVhY2goZnVuY3Rpb24gKCkgewogICAgICAgIHRoaXMuaW5pdGlhbGl6ZURhdGEgPSB0aGlzLmltcGxlbWVudGF0aW9uLmludGVyZmFjZS5lbmNvZGVGdW5jdGlvbkRhdGEoJ3JldmVydHMnKTsKICAgICAgfSk7CgogICAgICBpdCgncmV2ZXJ0cycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBhd2FpdCBleHBlY3QodGhpcy5jcmVhdGVQcm94eSh0aGlzLmltcGxlbWVudGF0aW9uLCB0aGlzLmluaXRpYWxpemVEYXRhKSkudG8uYmUucmV2ZXJ0ZWQ7CiAgICAgIH0pOwogICAgfSk7CiAgfSk7Cn07Cg==
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+
+const { getAddressInSlot, ImplementationSlot } = require('../helpers/storage');
+
+module.exports = function shouldBehaveLikeProxy() {
+  it('cannot be initialized with a non-contract address', async function () {
+    const initializeData = '0x';
+    const contractFactory = await ethers.getContractFactory('ERC1967Proxy');
+    await expect(this.createProxy(this.nonContractAddress, initializeData))
+      .to.be.revertedWithCustomError(contractFactory, 'ERC1967InvalidImplementation')
+      .withArgs(this.nonContractAddress);
+  });
+
+  const assertProxyInitialization = function ({ value, balance }) {
+    it('sets the implementation address', async function () {
+      expect(await getAddressInSlot(this.proxy, ImplementationSlot)).to.equal(this.implementation);
+    });
+
+    it('initializes the proxy', async function () {
+      const dummy = this.implementation.attach(this.proxy);
+      expect(await dummy.value()).to.equal(value);
+    });
+
+    it('has expected balance', async function () {
+      expect(await ethers.provider.getBalance(this.proxy)).to.equal(balance);
+    });
+  };
+
+  describe('without initialization', function () {
+    const initializeData = '0x';
+
+    describe('when not sending balance', function () {
+      beforeEach('creating proxy', async function () {
+        this.proxy = await this.createProxy(this.implementation, initializeData);
+      });
+
+      assertProxyInitialization({ value: 0n, balance: 0n });
+    });
+
+    describe('when sending some balance', function () {
+      const value = 10n ** 5n;
+
+      it('reverts', async function () {
+        await expect(this.createProxy(this.implementation, initializeData, { value })).to.be.reverted;
+      });
+    });
+  });
+
+  describe('initialization without parameters', function () {
+    describe('non payable', function () {
+      const expectedInitializedValue = 10n;
+
+      beforeEach(function () {
+        this.initializeData = this.implementation.interface.encodeFunctionData('initializeNonPayable');
+      });
+
+      describe('when not sending balance', function () {
+        beforeEach('creating proxy', async function () {
+          this.proxy = await this.createProxy(this.implementation, this.initializeData);
+        });
+
+        assertProxyInitialization({
+          value: expectedInitializedValue,
+          balance: 0n,
+        });
+      });
+
+      describe('when sending some balance', function () {
+        const value = 10n ** 5n;
+
+        it('reverts', async function () {
+          await expect(this.createProxy(this.implementation, this.initializeData, { value })).to.be.reverted;
+        });
+      });
+    });
+
+    describe('payable', function () {
+      const expectedInitializedValue = 100n;
+
+      beforeEach(function () {
+        this.initializeData = this.implementation.interface.encodeFunctionData('initializePayable');
+      });
+
+      describe('when not sending balance', function () {
+        beforeEach('creating proxy', async function () {
+          this.proxy = await this.createProxy(this.implementation, this.initializeData);
+        });
+
+        assertProxyInitialization({
+          value: expectedInitializedValue,
+          balance: 0n,
+        });
+      });
+
+      describe('when sending some balance', function () {
+        const value = 10e5;
+
+        beforeEach('creating proxy', async function () {
+          this.proxy = await this.createProxy(this.implementation, this.initializeData, { value });
+        });
+
+        assertProxyInitialization({
+          value: expectedInitializedValue,
+          balance: value,
+        });
+      });
+    });
+  });
+
+  describe('initialization with parameters', function () {
+    describe('non payable', function () {
+      const expectedInitializedValue = 10n;
+
+      beforeEach(function () {
+        this.initializeData = this.implementation.interface.encodeFunctionData('initializeNonPayableWithValue', [
+          expectedInitializedValue,
+        ]);
+      });
+
+      describe('when not sending balance', function () {
+        beforeEach('creating proxy', async function () {
+          this.proxy = await this.createProxy(this.implementation, this.initializeData);
+        });
+
+        assertProxyInitialization({
+          value: expectedInitializedValue,
+          balance: 0,
+        });
+      });
+
+      describe('when sending some balance', function () {
+        const value = 10e5;
+
+        it('reverts', async function () {
+          await expect(this.createProxy(this.implementation, this.initializeData, { value })).to.be.reverted;
+        });
+      });
+    });
+
+    describe('payable', function () {
+      const expectedInitializedValue = 42n;
+
+      beforeEach(function () {
+        this.initializeData = this.implementation.interface.encodeFunctionData('initializePayableWithValue', [
+          expectedInitializedValue,
+        ]);
+      });
+
+      describe('when not sending balance', function () {
+        beforeEach('creating proxy', async function () {
+          this.proxy = await this.createProxy(this.implementation, this.initializeData);
+        });
+
+        assertProxyInitialization({
+          value: expectedInitializedValue,
+          balance: 0n,
+        });
+      });
+
+      describe('when sending some balance', function () {
+        const value = 10n ** 5n;
+
+        beforeEach('creating proxy', async function () {
+          this.proxy = await this.createProxy(this.implementation, this.initializeData, { value });
+        });
+
+        assertProxyInitialization({
+          value: expectedInitializedValue,
+          balance: value,
+        });
+      });
+    });
+
+    describe('reverting initialization', function () {
+      beforeEach(function () {
+        this.initializeData = this.implementation.interface.encodeFunctionData('reverts');
+      });
+
+      it('reverts', async function () {
+        await expect(this.createProxy(this.implementation, this.initializeData)).to.be.reverted;
+      });
+    });
+  });
+};
