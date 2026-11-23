@@ -1,1 +1,11 @@
-PSBDcm93ZHNhbGVzCgpBbGwgY3Jvd2RzYWxlLXJlbGF0ZWQgY29udHJhY3RzIHdlcmUgcmVtb3ZlZCBmcm9tIHRoZSBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIGxpYnJhcnkgb24gdGhlIGh0dHBzOi8vZm9ydW0ub3BlbnplcHBlbGluLmNvbS90L29wZW56ZXBwZWxpbi1jb250cmFjdHMtdjMtMC1iZXRhLXJlbGVhc2UvMjI1Nlt2My4wLjAgcmVsZWFzZV0gZHVlIHRvIGJvdGggYSBkZWNsaW5lIGluIHRoZWlyIHVzYWdlIGFuZCB0aGUgY29tcGxleGl0eSBhc3NvY2lhdGVkIHdpdGggbWlncmF0aW5nIHRoZW0gdG8gU29saWRpdHkgdjAuNi4KClRoZXkgYXJlIGhvd2V2ZXIgc3RpbGwgYXZhaWxhYmxlIG9uIHRoZSB2Mi41IHJlbGVhc2Ugb2YgT3BlblplcHBlbGluIENvbnRyYWN0cywgd2hpY2ggeW91IGNhbiBpbnN0YWxsIGJ5IHJ1bm5pbmc6CgpgYGBjb25zb2xlCiQgbnBtIGluc3RhbGwgQG9wZW56ZXBwZWxpbi9jb250cmFjdHNAdjIuNQpgYGAKClJlZmVyIHRvIHRoZSBodHRwczovL2RvY3Mub3BlbnplcHBlbGluLmNvbS9jb250cmFjdHMvMi54L2Nyb3dkc2FsZXNbdjIueCBkb2N1bWVudGF0aW9uXSB3aGVuIHdvcmtpbmcgd2l0aCB0aGVtLgo=
+= Crowdsales
+
+All crowdsale-related contracts were removed from the OpenZeppelin Contracts library on the https://forum.openzeppelin.com/t/openzeppelin-contracts-v3-0-beta-release/2256[v3.0.0 release] due to both a decline in their usage and the complexity associated with migrating them to Solidity v0.6.
+
+They are however still available on the v2.5 release of OpenZeppelin Contracts, which you can install by running:
+
+```console
+$ npm install @openzeppelin/contracts@v2.5
+```
+
+Refer to the https://docs.openzeppelin.com/contracts/2.x/crowdsales[v2.x documentation] when working with them.
