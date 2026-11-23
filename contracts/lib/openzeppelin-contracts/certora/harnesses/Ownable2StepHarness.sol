@@ -1,1 +1,10 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7T3duYWJsZTJTdGVwLCBPd25hYmxlfSBmcm9tICIuLi9wYXRjaGVkL2FjY2Vzcy9Pd25hYmxlMlN0ZXAuc29sIjsKCmNvbnRyYWN0IE93bmFibGUyU3RlcEhhcm5lc3MgaXMgT3duYWJsZTJTdGVwIHsKICAgIGNvbnN0cnVjdG9yKGFkZHJlc3MgaW5pdGlhbE93bmVyKSBPd25hYmxlKGluaXRpYWxPd25lcikge30KCiAgICBmdW5jdGlvbiByZXN0cmljdGVkKCkgZXh0ZXJuYWwgb25seU93bmVyIHt9Cn0K
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+import {Ownable2Step, Ownable} from "../patched/access/Ownable2Step.sol";
+
+contract Ownable2StepHarness is Ownable2Step {
+    constructor(address initialOwner) Ownable(initialOwner) {}
+
+    function restricted() external onlyOwner {}
+}
