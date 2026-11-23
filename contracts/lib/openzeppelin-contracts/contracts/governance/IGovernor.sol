@@ -1,1 +1,441 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAoZ292ZXJuYW5jZS9JR292ZXJub3Iuc29sKQoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0lFUkMxNjV9IGZyb20gIi4uL2ludGVyZmFjZXMvSUVSQzE2NS5zb2wiOwppbXBvcnQge0lFUkM2MzcyfSBmcm9tICIuLi9pbnRlcmZhY2VzL0lFUkM2MzcyLnNvbCI7CgovKioKICogQGRldiBJbnRlcmZhY2Ugb2YgdGhlIHtHb3Zlcm5vcn0gY29yZS4KICoKICogTk9URTogRXZlbnQgcGFyYW1ldGVycyBsYWNrIHRoZSBgaW5kZXhlZGAga2V5d29yZCBmb3IgY29tcGF0aWJpbGl0eSB3aXRoIEdvdmVybm9yQnJhdm8gZXZlbnRzLgogKiBNYWtpbmcgZXZlbnQgcGFyYW1ldGVycyBgaW5kZXhlZGAgYWZmZWN0cyBob3cgZXZlbnRzIGFyZSBkZWNvZGVkLCBwb3RlbnRpYWxseSBicmVha2luZyBleGlzdGluZyBpbmRleGVycy4KICovCmludGVyZmFjZSBJR292ZXJub3IgaXMgSUVSQzE2NSwgSUVSQzYzNzIgewogICAgZW51bSBQcm9wb3NhbFN0YXRlIHsKICAgICAgICBQZW5kaW5nLAogICAgICAgIEFjdGl2ZSwKICAgICAgICBDYW5jZWxlZCwKICAgICAgICBEZWZlYXRlZCwKICAgICAgICBTdWNjZWVkZWQsCiAgICAgICAgUXVldWVkLAogICAgICAgIEV4cGlyZWQsCiAgICAgICAgRXhlY3V0ZWQKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgRW1wdHkgcHJvcG9zYWwgb3IgYSBtaXNtYXRjaCBiZXR3ZWVuIHRoZSBwYXJhbWV0ZXJzIGxlbmd0aCBmb3IgYSBwcm9wb3NhbCBjYWxsLgogICAgICovCiAgICBlcnJvciBHb3Zlcm5vckludmFsaWRQcm9wb3NhbExlbmd0aCh1aW50MjU2IHRhcmdldHMsIHVpbnQyNTYgY2FsbGRhdGFzLCB1aW50MjU2IHZhbHVlcyk7CgogICAgLyoqCiAgICAgKiBAZGV2IFRoZSB2b3RlIHdhcyBhbHJlYWR5IGNhc3QuCiAgICAgKi8KICAgIGVycm9yIEdvdmVybm9yQWxyZWFkeUNhc3RWb3RlKGFkZHJlc3Mgdm90ZXIpOwoKICAgIC8qKgogICAgICogQGRldiBUb2tlbiBkZXBvc2l0cyBhcmUgZGlzYWJsZWQgaW4gdGhpcyBjb250cmFjdC4KICAgICAqLwogICAgZXJyb3IgR292ZXJub3JEaXNhYmxlZERlcG9zaXQoKTsKCiAgICAvKioKICAgICAqIEBkZXYgVGhlIGBhY2NvdW50YCBpcyBub3QgYSBwcm9wb3Nlci4KICAgICAqLwogICAgZXJyb3IgR292ZXJub3JPbmx5UHJvcG9zZXIoYWRkcmVzcyBhY2NvdW50KTsKCiAgICAvKioKICAgICAqIEBkZXYgVGhlIGBhY2NvdW50YCBpcyBub3QgdGhlIGdvdmVybmFuY2UgZXhlY3V0b3IuCiAgICAgKi8KICAgIGVycm9yIEdvdmVybm9yT25seUV4ZWN1dG9yKGFkZHJlc3MgYWNjb3VudCk7CgogICAgLyoqCiAgICAgKiBAZGV2IFRoZSBgcHJvcG9zYWxJZGAgZG9lc24ndCBleGlzdC4KICAgICAqLwogICAgZXJyb3IgR292ZXJub3JOb25leGlzdGVudFByb3Bvc2FsKHVpbnQyNTYgcHJvcG9zYWxJZCk7CgogICAgLyoqCiAgICAgKiBAZGV2IFRoZSBjdXJyZW50IHN0YXRlIG9mIGEgcHJvcG9zYWwgaXMgbm90IHRoZSByZXF1aXJlZCBmb3IgcGVyZm9ybWluZyBhbiBvcGVyYXRpb24uCiAgICAgKiBUaGUgYGV4cGVjdGVkU3RhdGVzYCBpcyBhIGJpdG1hcCB3aXRoIHRoZSBiaXRzIGVuYWJsZWQgZm9yIGVhY2ggUHJvcG9zYWxTdGF0ZSBlbnVtIHBvc2l0aW9uCiAgICAgKiBjb3VudGluZyBmcm9tIHJpZ2h0IHRvIGxlZnQuCiAgICAgKgogICAgICogTk9URTogSWYgYGV4cGVjdGVkU3RhdGVgIGlzIGBieXRlczMyKDApYCwgdGhlIHByb3Bvc2FsIGlzIGV4cGVjdGVkIHRvIG5vdCBiZSBpbiBhbnkgc3RhdGUgKGkuZS4gbm90IGV4aXN0KS4KICAgICAqIFRoaXMgaXMgdGhlIGNhc2Ugd2hlbiBhIHByb3Bvc2FsIHRoYXQgaXMgZXhwZWN0ZWQgdG8gYmUgdW5zZXQgaXMgYWxyZWFkeSBpbml0aWF0ZWQgKHRoZSBwcm9wb3NhbCBpcyBkdXBsaWNhdGVkKS4KICAgICAqCiAgICAgKiBTZWUge0dvdmVybm9yLV9lbmNvZGVTdGF0ZUJpdG1hcH0uCiAgICAgKi8KICAgIGVycm9yIEdvdmVybm9yVW5leHBlY3RlZFByb3Bvc2FsU3RhdGUodWludDI1NiBwcm9wb3NhbElkLCBQcm9wb3NhbFN0YXRlIGN1cnJlbnQsIGJ5dGVzMzIgZXhwZWN0ZWRTdGF0ZXMpOwoKICAgIC8qKgogICAgICogQGRldiBUaGUgdm90aW5nIHBlcmlvZCBzZXQgaXMgbm90IGEgdmFsaWQgcGVyaW9kLgogICAgICovCiAgICBlcnJvciBHb3Zlcm5vckludmFsaWRWb3RpbmdQZXJpb2QodWludDI1NiB2b3RpbmdQZXJpb2QpOwoKICAgIC8qKgogICAgICogQGRldiBUaGUgYHByb3Bvc2VyYCBkb2VzIG5vdCBoYXZlIHRoZSByZXF1aXJlZCB2b3RlcyB0byBjcmVhdGUgYSBwcm9wb3NhbC4KICAgICAqLwogICAgZXJyb3IgR292ZXJub3JJbnN1ZmZpY2llbnRQcm9wb3NlclZvdGVzKGFkZHJlc3MgcHJvcG9zZXIsIHVpbnQyNTYgdm90ZXMsIHVpbnQyNTYgdGhyZXNob2xkKTsKCiAgICAvKioKICAgICAqIEBkZXYgVGhlIGBwcm9wb3NlcmAgaXMgbm90IGFsbG93ZWQgdG8gY3JlYXRlIGEgcHJvcG9zYWwuCiAgICAgKi8KICAgIGVycm9yIEdvdmVybm9yUmVzdHJpY3RlZFByb3Bvc2VyKGFkZHJlc3MgcHJvcG9zZXIpOwoKICAgIC8qKgogICAgICogQGRldiBUaGUgdm90ZSB0eXBlIHVzZWQgaXMgbm90IHZhbGlkIGZvciB0aGUgY29ycmVzcG9uZGluZyBjb3VudGluZyBtb2R1bGUuCiAgICAgKi8KICAgIGVycm9yIEdvdmVybm9ySW52YWxpZFZvdGVUeXBlKCk7CgogICAgLyoqCiAgICAgKiBAZGV2IFRoZSBwcm92aWRlZCBwYXJhbXMgYnVmZmVyIGlzIG5vdCBzdXBwb3J0ZWQgYnkgdGhlIGNvdW50aW5nIG1vZHVsZS4KICAgICAqLwogICAgZXJyb3IgR292ZXJub3JJbnZhbGlkVm90ZVBhcmFtcygpOwoKICAgIC8qKgogICAgICogQGRldiBRdWV1ZSBvcGVyYXRpb24gaXMgbm90IGltcGxlbWVudGVkIGZvciB0aGlzIGdvdmVybm9yLiBFeGVjdXRlIHNob3VsZCBiZSBjYWxsZWQgZGlyZWN0bHkuCiAgICAgKi8KICAgIGVycm9yIEdvdmVybm9yUXVldWVOb3RJbXBsZW1lbnRlZCgpOwoKICAgIC8qKgogICAgICogQGRldiBUaGUgcHJvcG9zYWwgaGFzbid0IGJlZW4gcXVldWVkIHlldC4KICAgICAqLwogICAgZXJyb3IgR292ZXJub3JOb3RRdWV1ZWRQcm9wb3NhbCh1aW50MjU2IHByb3Bvc2FsSWQpOwoKICAgIC8qKgogICAgICogQGRldiBUaGUgcHJvcG9zYWwgaGFzIGFscmVhZHkgYmVlbiBxdWV1ZWQuCiAgICAgKi8KICAgIGVycm9yIEdvdmVybm9yQWxyZWFkeVF1ZXVlZFByb3Bvc2FsKHVpbnQyNTYgcHJvcG9zYWxJZCk7CgogICAgLyoqCiAgICAgKiBAZGV2IFRoZSBwcm92aWRlZCBzaWduYXR1cmUgaXMgbm90IHZhbGlkIGZvciB0aGUgZXhwZWN0ZWQgYHZvdGVyYC4KICAgICAqIElmIHRoZSBgdm90ZXJgIGlzIGEgY29udHJhY3QsIHRoZSBzaWduYXR1cmUgaXMgbm90IHZhbGlkIHVzaW5nIHtJRVJDMTI3MS1pc1ZhbGlkU2lnbmF0dXJlfS4KICAgICAqLwogICAgZXJyb3IgR292ZXJub3JJbnZhbGlkU2lnbmF0dXJlKGFkZHJlc3Mgdm90ZXIpOwoKICAgIC8qKgogICAgICogQGRldiBFbWl0dGVkIHdoZW4gYSBwcm9wb3NhbCBpcyBjcmVhdGVkLgogICAgICovCiAgICBldmVudCBQcm9wb3NhbENyZWF0ZWQoCiAgICAgICAgdWludDI1NiBwcm9wb3NhbElkLAogICAgICAgIGFkZHJlc3MgcHJvcG9zZXIsCiAgICAgICAgYWRkcmVzc1tdIHRhcmdldHMsCiAgICAgICAgdWludDI1NltdIHZhbHVlcywKICAgICAgICBzdHJpbmdbXSBzaWduYXR1cmVzLAogICAgICAgIGJ5dGVzW10gY2FsbGRhdGFzLAogICAgICAgIHVpbnQyNTYgdm90ZVN0YXJ0LAogICAgICAgIHVpbnQyNTYgdm90ZUVuZCwKICAgICAgICBzdHJpbmcgZGVzY3JpcHRpb24KICAgICk7CgogICAgLyoqCiAgICAgKiBAZGV2IEVtaXR0ZWQgd2hlbiBhIHByb3Bvc2FsIGlzIHF1ZXVlZC4KICAgICAqLwogICAgZXZlbnQgUHJvcG9zYWxRdWV1ZWQodWludDI1NiBwcm9wb3NhbElkLCB1aW50MjU2IGV0YVNlY29uZHMpOwoKICAgIC8qKgogICAgICogQGRldiBFbWl0dGVkIHdoZW4gYSBwcm9wb3NhbCBpcyBleGVjdXRlZC4KICAgICAqLwogICAgZXZlbnQgUHJvcG9zYWxFeGVjdXRlZCh1aW50MjU2IHByb3Bvc2FsSWQpOwoKICAgIC8qKgogICAgICogQGRldiBFbWl0dGVkIHdoZW4gYSBwcm9wb3NhbCBpcyBjYW5jZWxlZC4KICAgICAqLwogICAgZXZlbnQgUHJvcG9zYWxDYW5jZWxlZCh1aW50MjU2IHByb3Bvc2FsSWQpOwoKICAgIC8qKgogICAgICogQGRldiBFbWl0dGVkIHdoZW4gYSB2b3RlIGlzIGNhc3Qgd2l0aG91dCBwYXJhbXMuCiAgICAgKgogICAgICogTm90ZTogYHN1cHBvcnRgIHZhbHVlcyBzaG91bGQgYmUgc2VlbiBhcyBidWNrZXRzLiBUaGVpciBpbnRlcnByZXRhdGlvbiBkZXBlbmRzIG9uIHRoZSB2b3RpbmcgbW9kdWxlIHVzZWQuCiAgICAgKi8KICAgIGV2ZW50IFZvdGVDYXN0KGFkZHJlc3MgaW5kZXhlZCB2b3RlciwgdWludDI1NiBwcm9wb3NhbElkLCB1aW50OCBzdXBwb3J0LCB1aW50MjU2IHdlaWdodCwgc3RyaW5nIHJlYXNvbik7CgogICAgLyoqCiAgICAgKiBAZGV2IEVtaXR0ZWQgd2hlbiBhIHZvdGUgaXMgY2FzdCB3aXRoIHBhcmFtcy4KICAgICAqCiAgICAgKiBOb3RlOiBgc3VwcG9ydGAgdmFsdWVzIHNob3VsZCBiZSBzZWVuIGFzIGJ1Y2tldHMuIFRoZWlyIGludGVycHJldGF0aW9uIGRlcGVuZHMgb24gdGhlIHZvdGluZyBtb2R1bGUgdXNlZC4KICAgICAqIGBwYXJhbXNgIGFyZSBhZGRpdGlvbmFsIGVuY29kZWQgcGFyYW1ldGVycy4gVGhlaXIgaW50ZXJwcmV0YXRpb24gIGFsc28gZGVwZW5kcyBvbiB0aGUgdm90aW5nIG1vZHVsZSB1c2VkLgogICAgICovCiAgICBldmVudCBWb3RlQ2FzdFdpdGhQYXJhbXMoCiAgICAgICAgYWRkcmVzcyBpbmRleGVkIHZvdGVyLAogICAgICAgIHVpbnQyNTYgcHJvcG9zYWxJZCwKICAgICAgICB1aW50OCBzdXBwb3J0LAogICAgICAgIHVpbnQyNTYgd2VpZ2h0LAogICAgICAgIHN0cmluZyByZWFzb24sCiAgICAgICAgYnl0ZXMgcGFyYW1zCiAgICApOwoKICAgIC8qKgogICAgICogQG5vdGljZSBtb2R1bGU6Y29yZQogICAgICogQGRldiBOYW1lIG9mIHRoZSBnb3Zlcm5vciBpbnN0YW5jZSAodXNlZCBpbiBidWlsZGluZyB0aGUgRUlQLTcxMiBkb21haW4gc2VwYXJhdG9yKS4KICAgICAqLwogICAgZnVuY3Rpb24gbmFtZSgpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAoc3RyaW5nIG1lbW9yeSk7CgogICAgLyoqCiAgICAgKiBAbm90aWNlIG1vZHVsZTpjb3JlCiAgICAgKiBAZGV2IFZlcnNpb24gb2YgdGhlIGdvdmVybm9yIGluc3RhbmNlICh1c2VkIGluIGJ1aWxkaW5nIHRoZSBFSVAtNzEyIGRvbWFpbiBzZXBhcmF0b3IpLiBEZWZhdWx0OiAiMSIKICAgICAqLwogICAgZnVuY3Rpb24gdmVyc2lvbigpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAoc3RyaW5nIG1lbW9yeSk7CgogICAgLyoqCiAgICAgKiBAbm90aWNlIG1vZHVsZTp2b3RpbmcKICAgICAqIEBkZXYgQSBkZXNjcmlwdGlvbiBvZiB0aGUgcG9zc2libGUgYHN1cHBvcnRgIHZhbHVlcyBmb3Ige2Nhc3RWb3RlfSBhbmQgdGhlIHdheSB0aGVzZSB2b3RlcyBhcmUgY291bnRlZCwgbWVhbnQgdG8KICAgICAqIGJlIGNvbnN1bWVkIGJ5IFVJcyB0byBzaG93IGNvcnJlY3Qgdm90ZSBvcHRpb25zIGFuZCBpbnRlcnByZXQgdGhlIHJlc3VsdHMuIFRoZSBzdHJpbmcgaXMgYSBVUkwtZW5jb2RlZCBzZXF1ZW5jZSBvZgogICAgICoga2V5LXZhbHVlIHBhaXJzIHRoYXQgZWFjaCBkZXNjcmliZSBvbmUgYXNwZWN0LCBmb3IgZXhhbXBsZSBgc3VwcG9ydD1icmF2byZxdW9ydW09Zm9yLGFic3RhaW5gLgogICAgICoKICAgICAqIFRoZXJlIGFyZSAyIHN0YW5kYXJkIGtleXM6IGBzdXBwb3J0YCBhbmQgYHF1b3J1bWAuCiAgICAgKgogICAgICogLSBgc3VwcG9ydD1icmF2b2AgcmVmZXJzIHRvIHRoZSB2b3RlIG9wdGlvbnMgMCA9IEFnYWluc3QsIDEgPSBGb3IsIDIgPSBBYnN0YWluLCBhcyBpbiBgR292ZXJub3JCcmF2b2AuCiAgICAgKiAtIGBxdW9ydW09YnJhdm9gIG1lYW5zIHRoYXQgb25seSBGb3Igdm90ZXMgYXJlIGNvdW50ZWQgdG93YXJkcyBxdW9ydW0uCiAgICAgKiAtIGBxdW9ydW09Zm9yLGFic3RhaW5gIG1lYW5zIHRoYXQgYm90aCBGb3IgYW5kIEFic3RhaW4gdm90ZXMgYXJlIGNvdW50ZWQgdG93YXJkcyBxdW9ydW0uCiAgICAgKgogICAgICogSWYgYSBjb3VudGluZyBtb2R1bGUgbWFrZXMgdXNlIG9mIGVuY29kZWQgYHBhcmFtc2AsIGl0IHNob3VsZCAgaW5jbHVkZSB0aGlzIHVuZGVyIGEgYHBhcmFtc2Aga2V5IHdpdGggYSB1bmlxdWUKICAgICAqIG5hbWUgdGhhdCBkZXNjcmliZXMgdGhlIGJlaGF2aW9yLiBGb3IgZXhhbXBsZToKICAgICAqCiAgICAgKiAtIGBwYXJhbXM9ZnJhY3Rpb25hbGAgbWlnaHQgcmVmZXIgdG8gYSBzY2hlbWUgd2hlcmUgdm90ZXMgYXJlIGRpdmlkZWQgZnJhY3Rpb25hbGx5IGJldHdlZW4gZm9yL2FnYWluc3QvYWJzdGFpbi4KICAgICAqIC0gYHBhcmFtcz1lcmM3MjFgIG1pZ2h0IHJlZmVyIHRvIGEgc2NoZW1lIHdoZXJlIHNwZWNpZmljIE5GVHMgYXJlIGRlbGVnYXRlZCB0byB2b3RlLgogICAgICoKICAgICAqIE5PVEU6IFRoZSBzdHJpbmcgY2FuIGJlIGRlY29kZWQgYnkgdGhlIHN0YW5kYXJkCiAgICAgKiBodHRwczovL2RldmVsb3Blci5tb3ppbGxhLm9yZy9lbi1VUy9kb2NzL1dlYi9BUEkvVVJMU2VhcmNoUGFyYW1zW2BVUkxTZWFyY2hQYXJhbXNgXQogICAgICogSmF2YVNjcmlwdCBjbGFzcy4KICAgICAqLwogICAgLy8gc29saGludC1kaXNhYmxlLW5leHQtbGluZSBmdW5jLW5hbWUtbWl4ZWRjYXNlCiAgICBmdW5jdGlvbiBDT1VOVElOR19NT0RFKCkgZXh0ZXJuYWwgdmlldyByZXR1cm5zIChzdHJpbmcgbWVtb3J5KTsKCiAgICAvKioKICAgICAqIEBub3RpY2UgbW9kdWxlOmNvcmUKICAgICAqIEBkZXYgSGFzaGluZyBmdW5jdGlvbiB1c2VkIHRvIChyZSlidWlsZCB0aGUgcHJvcG9zYWwgaWQgZnJvbSB0aGUgcHJvcG9zYWwgZGV0YWlscy4uCiAgICAgKi8KICAgIGZ1bmN0aW9uIGhhc2hQcm9wb3NhbCgKICAgICAgICBhZGRyZXNzW10gbWVtb3J5IHRhcmdldHMsCiAgICAgICAgdWludDI1NltdIG1lbW9yeSB2YWx1ZXMsCiAgICAgICAgYnl0ZXNbXSBtZW1vcnkgY2FsbGRhdGFzLAogICAgICAgIGJ5dGVzMzIgZGVzY3JpcHRpb25IYXNoCiAgICApIGV4dGVybmFsIHB1cmUgcmV0dXJucyAodWludDI1Nik7CgogICAgLyoqCiAgICAgKiBAbm90aWNlIG1vZHVsZTpjb3JlCiAgICAgKiBAZGV2IEN1cnJlbnQgc3RhdGUgb2YgYSBwcm9wb3NhbCwgZm9sbG93aW5nIENvbXBvdW5kJ3MgY29udmVudGlvbgogICAgICovCiAgICBmdW5jdGlvbiBzdGF0ZSh1aW50MjU2IHByb3Bvc2FsSWQpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAoUHJvcG9zYWxTdGF0ZSk7CgogICAgLyoqCiAgICAgKiBAbm90aWNlIG1vZHVsZTpjb3JlCiAgICAgKiBAZGV2IFRoZSBudW1iZXIgb2Ygdm90ZXMgcmVxdWlyZWQgaW4gb3JkZXIgZm9yIGEgdm90ZXIgdG8gYmVjb21lIGEgcHJvcG9zZXIuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHByb3Bvc2FsVGhyZXNob2xkKCkgZXh0ZXJuYWwgdmlldyByZXR1cm5zICh1aW50MjU2KTsKCiAgICAvKioKICAgICAqIEBub3RpY2UgbW9kdWxlOmNvcmUKICAgICAqIEBkZXYgVGltZXBvaW50IHVzZWQgdG8gcmV0cmlldmUgdXNlcidzIHZvdGVzIGFuZCBxdW9ydW0uIElmIHVzaW5nIGJsb2NrIG51bWJlciAoYXMgcGVyIENvbXBvdW5kJ3MgQ29tcCksIHRoZQogICAgICogc25hcHNob3QgaXMgcGVyZm9ybWVkIGF0IHRoZSBlbmQgb2YgdGhpcyBibG9jay4gSGVuY2UsIHZvdGluZyBmb3IgdGhpcyBwcm9wb3NhbCBzdGFydHMgYXQgdGhlIGJlZ2lubmluZyBvZiB0aGUKICAgICAqIGZvbGxvd2luZyBibG9jay4KICAgICAqLwogICAgZnVuY3Rpb24gcHJvcG9zYWxTbmFwc2hvdCh1aW50MjU2IHByb3Bvc2FsSWQpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAodWludDI1Nik7CgogICAgLyoqCiAgICAgKiBAbm90aWNlIG1vZHVsZTpjb3JlCiAgICAgKiBAZGV2IFRpbWVwb2ludCBhdCB3aGljaCB2b3RlcyBjbG9zZS4gSWYgdXNpbmcgYmxvY2sgbnVtYmVyLCB2b3RlcyBjbG9zZSBhdCB0aGUgZW5kIG9mIHRoaXMgYmxvY2ssIHNvIGl0IGlzCiAgICAgKiBwb3NzaWJsZSB0byBjYXN0IGEgdm90ZSBkdXJpbmcgdGhpcyBibG9jay4KICAgICAqLwogICAgZnVuY3Rpb24gcHJvcG9zYWxEZWFkbGluZSh1aW50MjU2IHByb3Bvc2FsSWQpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAodWludDI1Nik7CgogICAgLyoqCiAgICAgKiBAbm90aWNlIG1vZHVsZTpjb3JlCiAgICAgKiBAZGV2IFRoZSBhY2NvdW50IHRoYXQgY3JlYXRlZCBhIHByb3Bvc2FsLgogICAgICovCiAgICBmdW5jdGlvbiBwcm9wb3NhbFByb3Bvc2VyKHVpbnQyNTYgcHJvcG9zYWxJZCkgZXh0ZXJuYWwgdmlldyByZXR1cm5zIChhZGRyZXNzKTsKCiAgICAvKioKICAgICAqIEBub3RpY2UgbW9kdWxlOmNvcmUKICAgICAqIEBkZXYgVGhlIHRpbWUgd2hlbiBhIHF1ZXVlZCBwcm9wb3NhbCBiZWNvbWVzIGV4ZWN1dGFibGUgKCJFVEEiKS4gVW5saWtlIHtwcm9wb3NhbFNuYXBzaG90fSBhbmQKICAgICAqIHtwcm9wb3NhbERlYWRsaW5lfSwgdGhpcyBkb2Vzbid0IHVzZSB0aGUgZ292ZXJub3IgY2xvY2ssIGFuZCBpbnN0ZWFkIHJlbGllcyBvbiB0aGUgZXhlY3V0b3IncyBjbG9jayB3aGljaCBtYXkgYmUKICAgICAqIGRpZmZlcmVudC4gSW4gbW9zdCBjYXNlcyB0aGlzIHdpbGwgYmUgYSB0aW1lc3RhbXAuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHByb3Bvc2FsRXRhKHVpbnQyNTYgcHJvcG9zYWxJZCkgZXh0ZXJuYWwgdmlldyByZXR1cm5zICh1aW50MjU2KTsKCiAgICAvKioKICAgICAqIEBub3RpY2UgbW9kdWxlOmNvcmUKICAgICAqIEBkZXYgV2hldGhlciBhIHByb3Bvc2FsIG5lZWRzIHRvIGJlIHF1ZXVlZCBiZWZvcmUgZXhlY3V0aW9uLgogICAgICovCiAgICBmdW5jdGlvbiBwcm9wb3NhbE5lZWRzUXVldWluZyh1aW50MjU2IHByb3Bvc2FsSWQpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAoYm9vbCk7CgogICAgLyoqCiAgICAgKiBAbm90aWNlIG1vZHVsZTp1c2VyLWNvbmZpZwogICAgICogQGRldiBEZWxheSwgYmV0d2VlbiB0aGUgcHJvcG9zYWwgaXMgY3JlYXRlZCBhbmQgdGhlIHZvdGUgc3RhcnRzLiBUaGUgdW5pdCB0aGlzIGR1cmF0aW9uIGlzIGV4cHJlc3NlZCBpbiBkZXBlbmRzCiAgICAgKiBvbiB0aGUgY2xvY2sgKHNlZSBFUkMtNjM3MikgdGhpcyBjb250cmFjdCB1c2VzLgogICAgICoKICAgICAqIFRoaXMgY2FuIGJlIGluY3JlYXNlZCB0byBsZWF2ZSB0aW1lIGZvciB1c2VycyB0byBidXkgdm90aW5nIHBvd2VyLCBvciBkZWxlZ2F0ZSBpdCwgYmVmb3JlIHRoZSB2b3Rpbmcgb2YgYQogICAgICogcHJvcG9zYWwgc3RhcnRzLgogICAgICoKICAgICAqIE5PVEU6IFdoaWxlIHRoaXMgaW50ZXJmYWNlIHJldHVybnMgYSB1aW50MjU2LCB0aW1lcG9pbnRzIGFyZSBzdG9yZWQgYXMgdWludDQ4IGZvbGxvd2luZyB0aGUgRVJDLTYzNzIgY2xvY2sgdHlwZS4KICAgICAqIENvbnNlcXVlbnRseSB0aGlzIHZhbHVlIG11c3QgZml0IGluIGEgdWludDQ4ICh3aGVuIGFkZGVkIHRvIHRoZSBjdXJyZW50IGNsb2NrKS4gU2VlIHtJRVJDNjM3Mi1jbG9ja30uCiAgICAgKi8KICAgIGZ1bmN0aW9uIHZvdGluZ0RlbGF5KCkgZXh0ZXJuYWwgdmlldyByZXR1cm5zICh1aW50MjU2KTsKCiAgICAvKioKICAgICAqIEBub3RpY2UgbW9kdWxlOnVzZXItY29uZmlnCiAgICAgKiBAZGV2IERlbGF5IGJldHdlZW4gdGhlIHZvdGUgc3RhcnQgYW5kIHZvdGUgZW5kLiBUaGUgdW5pdCB0aGlzIGR1cmF0aW9uIGlzIGV4cHJlc3NlZCBpbiBkZXBlbmRzIG9uIHRoZSBjbG9jawogICAgICogKHNlZSBFUkMtNjM3MikgdGhpcyBjb250cmFjdCB1c2VzLgogICAgICoKICAgICAqIE5PVEU6IFRoZSB7dm90aW5nRGVsYXl9IGNhbiBkZWxheSB0aGUgc3RhcnQgb2YgdGhlIHZvdGUuIFRoaXMgbXVzdCBiZSBjb25zaWRlcmVkIHdoZW4gc2V0dGluZyB0aGUgdm90aW5nCiAgICAgKiBkdXJhdGlvbiBjb21wYXJlZCB0byB0aGUgdm90aW5nIGRlbGF5LgogICAgICoKICAgICAqIE5PVEU6IFRoaXMgdmFsdWUgaXMgc3RvcmVkIHdoZW4gdGhlIHByb3Bvc2FsIGlzIHN1Ym1pdHRlZCBzbyB0aGF0IHBvc3NpYmxlIGNoYW5nZXMgdG8gdGhlIHZhbHVlIGRvIG5vdCBhZmZlY3QKICAgICAqIHByb3Bvc2FscyB0aGF0IGhhdmUgYWxyZWFkeSBiZWVuIHN1Ym1pdHRlZC4gVGhlIHR5cGUgdXNlZCB0byBzYXZlIGl0IGlzIGEgdWludDMyLiBDb25zZXF1ZW50bHksIHdoaWxlIHRoaXMKICAgICAqIGludGVyZmFjZSByZXR1cm5zIGEgdWludDI1NiwgdGhlIHZhbHVlIGl0IHJldHVybnMgc2hvdWxkIGZpdCBpbiBhIHVpbnQzMi4KICAgICAqLwogICAgZnVuY3Rpb24gdm90aW5nUGVyaW9kKCkgZXh0ZXJuYWwgdmlldyByZXR1cm5zICh1aW50MjU2KTsKCiAgICAvKioKICAgICAqIEBub3RpY2UgbW9kdWxlOnVzZXItY29uZmlnCiAgICAgKiBAZGV2IE1pbmltdW0gbnVtYmVyIG9mIGNhc3Qgdm90ZWQgcmVxdWlyZWQgZm9yIGEgcHJvcG9zYWwgdG8gYmUgc3VjY2Vzc2Z1bC4KICAgICAqCiAgICAgKiBOT1RFOiBUaGUgYHRpbWVwb2ludGAgcGFyYW1ldGVyIGNvcnJlc3BvbmRzIHRvIHRoZSBzbmFwc2hvdCB1c2VkIGZvciBjb3VudGluZyB2b3RlLiBUaGlzIGFsbG93cyB0byBzY2FsZSB0aGUKICAgICAqIHF1b3J1bSBkZXBlbmRpbmcgb24gdmFsdWVzIHN1Y2ggYXMgdGhlIHRvdGFsU3VwcGx5IG9mIGEgdG9rZW4gYXQgdGhpcyB0aW1lcG9pbnQgKHNlZSB7RVJDMjBWb3Rlc30pLgogICAgICovCiAgICBmdW5jdGlvbiBxdW9ydW0odWludDI1NiB0aW1lcG9pbnQpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAodWludDI1Nik7CgogICAgLyoqCiAgICAgKiBAbm90aWNlIG1vZHVsZTpyZXB1dGF0aW9uCiAgICAgKiBAZGV2IFZvdGluZyBwb3dlciBvZiBhbiBgYWNjb3VudGAgYXQgYSBzcGVjaWZpYyBgdGltZXBvaW50YC4KICAgICAqCiAgICAgKiBOb3RlOiB0aGlzIGNhbiBiZSBpbXBsZW1lbnRlZCBpbiBhIG51bWJlciBvZiB3YXlzLCBmb3IgZXhhbXBsZSBieSByZWFkaW5nIHRoZSBkZWxlZ2F0ZWQgYmFsYW5jZSBmcm9tIG9uZSAob3IKICAgICAqIG11bHRpcGxlKSwge0VSQzIwVm90ZXN9IHRva2Vucy4KICAgICAqLwogICAgZnVuY3Rpb24gZ2V0Vm90ZXMoYWRkcmVzcyBhY2NvdW50LCB1aW50MjU2IHRpbWVwb2ludCkgZXh0ZXJuYWwgdmlldyByZXR1cm5zICh1aW50MjU2KTsKCiAgICAvKioKICAgICAqIEBub3RpY2UgbW9kdWxlOnJlcHV0YXRpb24KICAgICAqIEBkZXYgVm90aW5nIHBvd2VyIG9mIGFuIGBhY2NvdW50YCBhdCBhIHNwZWNpZmljIGB0aW1lcG9pbnRgIGdpdmVuIGFkZGl0aW9uYWwgZW5jb2RlZCBwYXJhbWV0ZXJzLgogICAgICovCiAgICBmdW5jdGlvbiBnZXRWb3Rlc1dpdGhQYXJhbXMoCiAgICAgICAgYWRkcmVzcyBhY2NvdW50LAogICAgICAgIHVpbnQyNTYgdGltZXBvaW50LAogICAgICAgIGJ5dGVzIG1lbW9yeSBwYXJhbXMKICAgICkgZXh0ZXJuYWwgdmlldyByZXR1cm5zICh1aW50MjU2KTsKCiAgICAvKioKICAgICAqIEBub3RpY2UgbW9kdWxlOnZvdGluZwogICAgICogQGRldiBSZXR1cm5zIHdoZXRoZXIgYGFjY291bnRgIGhhcyBjYXN0IGEgdm90ZSBvbiBgcHJvcG9zYWxJZGAuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGhhc1ZvdGVkKHVpbnQyNTYgcHJvcG9zYWxJZCwgYWRkcmVzcyBhY2NvdW50KSBleHRlcm5hbCB2aWV3IHJldHVybnMgKGJvb2wpOwoKICAgIC8qKgogICAgICogQGRldiBDcmVhdGUgYSBuZXcgcHJvcG9zYWwuIFZvdGUgc3RhcnQgYWZ0ZXIgYSBkZWxheSBzcGVjaWZpZWQgYnkge0lHb3Zlcm5vci12b3RpbmdEZWxheX0gYW5kIGxhc3RzIGZvciBhCiAgICAgKiBkdXJhdGlvbiBzcGVjaWZpZWQgYnkge0lHb3Zlcm5vci12b3RpbmdQZXJpb2R9LgogICAgICoKICAgICAqIEVtaXRzIGEge1Byb3Bvc2FsQ3JlYXRlZH0gZXZlbnQuCiAgICAgKgogICAgICogTk9URTogVGhlIHN0YXRlIG9mIHRoZSBHb3Zlcm5vciBhbmQgYHRhcmdldHNgIG1heSBjaGFuZ2UgYmV0d2VlbiB0aGUgcHJvcG9zYWwgY3JlYXRpb24gYW5kIGl0cyBleGVjdXRpb24uCiAgICAgKiBUaGlzIG1heSBiZSB0aGUgcmVzdWx0IG9mIHRoaXJkIHBhcnR5IGFjdGlvbnMgb24gdGhlIHRhcmdldGVkIGNvbnRyYWN0cywgb3Igb3RoZXIgZ292ZXJub3IgcHJvcG9zYWxzLgogICAgICogRm9yIGV4YW1wbGUsIHRoZSBiYWxhbmNlIG9mIHRoaXMgY29udHJhY3QgY291bGQgYmUgdXBkYXRlZCBvciBpdHMgYWNjZXNzIGNvbnRyb2wgcGVybWlzc2lvbnMgbWF5IGJlIG1vZGlmaWVkLAogICAgICogcG9zc2libHkgY29tcHJvbWlzaW5nIHRoZSBwcm9wb3NhbCdzIGFiaWxpdHkgdG8gZXhlY3V0ZSBzdWNjZXNzZnVsbHkgKGUuZy4gdGhlIGdvdmVybm9yIGRvZXNuJ3QgaGF2ZSBlbm91Z2gKICAgICAqIHZhbHVlIHRvIGNvdmVyIGEgcHJvcG9zYWwgd2l0aCBtdWx0aXBsZSB0cmFuc2ZlcnMpLgogICAgICovCiAgICBmdW5jdGlvbiBwcm9wb3NlKAogICAgICAgIGFkZHJlc3NbXSBtZW1vcnkgdGFyZ2V0cywKICAgICAgICB1aW50MjU2W10gbWVtb3J5IHZhbHVlcywKICAgICAgICBieXRlc1tdIG1lbW9yeSBjYWxsZGF0YXMsCiAgICAgICAgc3RyaW5nIG1lbW9yeSBkZXNjcmlwdGlvbgogICAgKSBleHRlcm5hbCByZXR1cm5zICh1aW50MjU2IHByb3Bvc2FsSWQpOwoKICAgIC8qKgogICAgICogQGRldiBRdWV1ZSBhIHByb3Bvc2FsLiBTb21lIGdvdmVybm9ycyByZXF1aXJlIHRoaXMgc3RlcCB0byBiZSBwZXJmb3JtZWQgYmVmb3JlIGV4ZWN1dGlvbiBjYW4gaGFwcGVuLiBJZiBxdWV1aW5nCiAgICAgKiBpcyBub3QgbmVjZXNzYXJ5LCB0aGlzIGZ1bmN0aW9uIG1heSByZXZlcnQuCiAgICAgKiBRdWV1aW5nIGEgcHJvcG9zYWwgcmVxdWlyZXMgdGhlIHF1b3J1bSB0byBiZSByZWFjaGVkLCB0aGUgdm90ZSB0byBiZSBzdWNjZXNzZnVsLCBhbmQgdGhlIGRlYWRsaW5lIHRvIGJlIHJlYWNoZWQuCiAgICAgKgogICAgICogRW1pdHMgYSB7UHJvcG9zYWxRdWV1ZWR9IGV2ZW50LgogICAgICovCiAgICBmdW5jdGlvbiBxdWV1ZSgKICAgICAgICBhZGRyZXNzW10gbWVtb3J5IHRhcmdldHMsCiAgICAgICAgdWludDI1NltdIG1lbW9yeSB2YWx1ZXMsCiAgICAgICAgYnl0ZXNbXSBtZW1vcnkgY2FsbGRhdGFzLAogICAgICAgIGJ5dGVzMzIgZGVzY3JpcHRpb25IYXNoCiAgICApIGV4dGVybmFsIHJldHVybnMgKHVpbnQyNTYgcHJvcG9zYWxJZCk7CgogICAgLyoqCiAgICAgKiBAZGV2IEV4ZWN1dGUgYSBzdWNjZXNzZnVsIHByb3Bvc2FsLiBUaGlzIHJlcXVpcmVzIHRoZSBxdW9ydW0gdG8gYmUgcmVhY2hlZCwgdGhlIHZvdGUgdG8gYmUgc3VjY2Vzc2Z1bCwgYW5kIHRoZQogICAgICogZGVhZGxpbmUgdG8gYmUgcmVhY2hlZC4gRGVwZW5kaW5nIG9uIHRoZSBnb3Zlcm5vciBpdCBtaWdodCBhbHNvIGJlIHJlcXVpcmVkIHRoYXQgdGhlIHByb3Bvc2FsIHdhcyBxdWV1ZWQgYW5kCiAgICAgKiB0aGF0IHNvbWUgZGVsYXkgcGFzc2VkLgogICAgICoKICAgICAqIEVtaXRzIGEge1Byb3Bvc2FsRXhlY3V0ZWR9IGV2ZW50LgogICAgICoKICAgICAqIE5PVEU6IFNvbWUgbW9kdWxlcyBjYW4gbW9kaWZ5IHRoZSByZXF1aXJlbWVudHMgZm9yIGV4ZWN1dGlvbiwgZm9yIGV4YW1wbGUgYnkgYWRkaW5nIGFuIGFkZGl0aW9uYWwgdGltZWxvY2suCiAgICAgKi8KICAgIGZ1bmN0aW9uIGV4ZWN1dGUoCiAgICAgICAgYWRkcmVzc1tdIG1lbW9yeSB0YXJnZXRzLAogICAgICAgIHVpbnQyNTZbXSBtZW1vcnkgdmFsdWVzLAogICAgICAgIGJ5dGVzW10gbWVtb3J5IGNhbGxkYXRhcywKICAgICAgICBieXRlczMyIGRlc2NyaXB0aW9uSGFzaAogICAgKSBleHRlcm5hbCBwYXlhYmxlIHJldHVybnMgKHVpbnQyNTYgcHJvcG9zYWxJZCk7CgogICAgLyoqCiAgICAgKiBAZGV2IENhbmNlbCBhIHByb3Bvc2FsLiBBIHByb3Bvc2FsIGlzIGNhbmNlbGxhYmxlIGJ5IHRoZSBwcm9wb3NlciwgYnV0IG9ubHkgd2hpbGUgaXQgaXMgUGVuZGluZyBzdGF0ZSwgaS5lLgogICAgICogYmVmb3JlIHRoZSB2b3RlIHN0YXJ0cy4KICAgICAqCiAgICAgKiBFbWl0cyBhIHtQcm9wb3NhbENhbmNlbGVkfSBldmVudC4KICAgICAqLwogICAgZnVuY3Rpb24gY2FuY2VsKAogICAgICAgIGFkZHJlc3NbXSBtZW1vcnkgdGFyZ2V0cywKICAgICAgICB1aW50MjU2W10gbWVtb3J5IHZhbHVlcywKICAgICAgICBieXRlc1tdIG1lbW9yeSBjYWxsZGF0YXMsCiAgICAgICAgYnl0ZXMzMiBkZXNjcmlwdGlvbkhhc2gKICAgICkgZXh0ZXJuYWwgcmV0dXJucyAodWludDI1NiBwcm9wb3NhbElkKTsKCiAgICAvKioKICAgICAqIEBkZXYgQ2FzdCBhIHZvdGUKICAgICAqCiAgICAgKiBFbWl0cyBhIHtWb3RlQ2FzdH0gZXZlbnQuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGNhc3RWb3RlKHVpbnQyNTYgcHJvcG9zYWxJZCwgdWludDggc3VwcG9ydCkgZXh0ZXJuYWwgcmV0dXJucyAodWludDI1NiBiYWxhbmNlKTsKCiAgICAvKioKICAgICAqIEBkZXYgQ2FzdCBhIHZvdGUgd2l0aCBhIHJlYXNvbgogICAgICoKICAgICAqIEVtaXRzIGEge1ZvdGVDYXN0fSBldmVudC4KICAgICAqLwogICAgZnVuY3Rpb24gY2FzdFZvdGVXaXRoUmVhc29uKAogICAgICAgIHVpbnQyNTYgcHJvcG9zYWxJZCwKICAgICAgICB1aW50OCBzdXBwb3J0LAogICAgICAgIHN0cmluZyBjYWxsZGF0YSByZWFzb24KICAgICkgZXh0ZXJuYWwgcmV0dXJucyAodWludDI1NiBiYWxhbmNlKTsKCiAgICAvKioKICAgICAqIEBkZXYgQ2FzdCBhIHZvdGUgd2l0aCBhIHJlYXNvbiBhbmQgYWRkaXRpb25hbCBlbmNvZGVkIHBhcmFtZXRlcnMKICAgICAqCiAgICAgKiBFbWl0cyBhIHtWb3RlQ2FzdH0gb3Ige1ZvdGVDYXN0V2l0aFBhcmFtc30gZXZlbnQgZGVwZW5kaW5nIG9uIHRoZSBsZW5ndGggb2YgcGFyYW1zLgogICAgICovCiAgICBmdW5jdGlvbiBjYXN0Vm90ZVdpdGhSZWFzb25BbmRQYXJhbXMoCiAgICAgICAgdWludDI1NiBwcm9wb3NhbElkLAogICAgICAgIHVpbnQ4IHN1cHBvcnQsCiAgICAgICAgc3RyaW5nIGNhbGxkYXRhIHJlYXNvbiwKICAgICAgICBieXRlcyBtZW1vcnkgcGFyYW1zCiAgICApIGV4dGVybmFsIHJldHVybnMgKHVpbnQyNTYgYmFsYW5jZSk7CgogICAgLyoqCiAgICAgKiBAZGV2IENhc3QgYSB2b3RlIHVzaW5nIHRoZSB2b3RlcidzIHNpZ25hdHVyZSwgaW5jbHVkaW5nIEVSQy0xMjcxIHNpZ25hdHVyZSBzdXBwb3J0LgogICAgICoKICAgICAqIEVtaXRzIGEge1ZvdGVDYXN0fSBldmVudC4KICAgICAqLwogICAgZnVuY3Rpb24gY2FzdFZvdGVCeVNpZygKICAgICAgICB1aW50MjU2IHByb3Bvc2FsSWQsCiAgICAgICAgdWludDggc3VwcG9ydCwKICAgICAgICBhZGRyZXNzIHZvdGVyLAogICAgICAgIGJ5dGVzIG1lbW9yeSBzaWduYXR1cmUKICAgICkgZXh0ZXJuYWwgcmV0dXJucyAodWludDI1NiBiYWxhbmNlKTsKCiAgICAvKioKICAgICAqIEBkZXYgQ2FzdCBhIHZvdGUgd2l0aCBhIHJlYXNvbiBhbmQgYWRkaXRpb25hbCBlbmNvZGVkIHBhcmFtZXRlcnMgdXNpbmcgdGhlIHZvdGVyJ3Mgc2lnbmF0dXJlLAogICAgICogaW5jbHVkaW5nIEVSQy0xMjcxIHNpZ25hdHVyZSBzdXBwb3J0LgogICAgICoKICAgICAqIEVtaXRzIGEge1ZvdGVDYXN0fSBvciB7Vm90ZUNhc3RXaXRoUGFyYW1zfSBldmVudCBkZXBlbmRpbmcgb24gdGhlIGxlbmd0aCBvZiBwYXJhbXMuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGNhc3RWb3RlV2l0aFJlYXNvbkFuZFBhcmFtc0J5U2lnKAogICAgICAgIHVpbnQyNTYgcHJvcG9zYWxJZCwKICAgICAgICB1aW50OCBzdXBwb3J0LAogICAgICAgIGFkZHJlc3Mgdm90ZXIsCiAgICAgICAgc3RyaW5nIGNhbGxkYXRhIHJlYXNvbiwKICAgICAgICBieXRlcyBtZW1vcnkgcGFyYW1zLAogICAgICAgIGJ5dGVzIG1lbW9yeSBzaWduYXR1cmUKICAgICkgZXh0ZXJuYWwgcmV0dXJucyAodWludDI1NiBiYWxhbmNlKTsKfQo=
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (governance/IGovernor.sol)
+
+pragma solidity ^0.8.20;
+
+import {IERC165} from "../interfaces/IERC165.sol";
+import {IERC6372} from "../interfaces/IERC6372.sol";
+
+/**
+ * @dev Interface of the {Governor} core.
+ *
+ * NOTE: Event parameters lack the `indexed` keyword for compatibility with GovernorBravo events.
+ * Making event parameters `indexed` affects how events are decoded, potentially breaking existing indexers.
+ */
+interface IGovernor is IERC165, IERC6372 {
+    enum ProposalState {
+        Pending,
+        Active,
+        Canceled,
+        Defeated,
+        Succeeded,
+        Queued,
+        Expired,
+        Executed
+    }
+
+    /**
+     * @dev Empty proposal or a mismatch between the parameters length for a proposal call.
+     */
+    error GovernorInvalidProposalLength(uint256 targets, uint256 calldatas, uint256 values);
+
+    /**
+     * @dev The vote was already cast.
+     */
+    error GovernorAlreadyCastVote(address voter);
+
+    /**
+     * @dev Token deposits are disabled in this contract.
+     */
+    error GovernorDisabledDeposit();
+
+    /**
+     * @dev The `account` is not a proposer.
+     */
+    error GovernorOnlyProposer(address account);
+
+    /**
+     * @dev The `account` is not the governance executor.
+     */
+    error GovernorOnlyExecutor(address account);
+
+    /**
+     * @dev The `proposalId` doesn't exist.
+     */
+    error GovernorNonexistentProposal(uint256 proposalId);
+
+    /**
+     * @dev The current state of a proposal is not the required for performing an operation.
+     * The `expectedStates` is a bitmap with the bits enabled for each ProposalState enum position
+     * counting from right to left.
+     *
+     * NOTE: If `expectedState` is `bytes32(0)`, the proposal is expected to not be in any state (i.e. not exist).
+     * This is the case when a proposal that is expected to be unset is already initiated (the proposal is duplicated).
+     *
+     * See {Governor-_encodeStateBitmap}.
+     */
+    error GovernorUnexpectedProposalState(uint256 proposalId, ProposalState current, bytes32 expectedStates);
+
+    /**
+     * @dev The voting period set is not a valid period.
+     */
+    error GovernorInvalidVotingPeriod(uint256 votingPeriod);
+
+    /**
+     * @dev The `proposer` does not have the required votes to create a proposal.
+     */
+    error GovernorInsufficientProposerVotes(address proposer, uint256 votes, uint256 threshold);
+
+    /**
+     * @dev The `proposer` is not allowed to create a proposal.
+     */
+    error GovernorRestrictedProposer(address proposer);
+
+    /**
+     * @dev The vote type used is not valid for the corresponding counting module.
+     */
+    error GovernorInvalidVoteType();
+
+    /**
+     * @dev The provided params buffer is not supported by the counting module.
+     */
+    error GovernorInvalidVoteParams();
+
+    /**
+     * @dev Queue operation is not implemented for this governor. Execute should be called directly.
+     */
+    error GovernorQueueNotImplemented();
+
+    /**
+     * @dev The proposal hasn't been queued yet.
+     */
+    error GovernorNotQueuedProposal(uint256 proposalId);
+
+    /**
+     * @dev The proposal has already been queued.
+     */
+    error GovernorAlreadyQueuedProposal(uint256 proposalId);
+
+    /**
+     * @dev The provided signature is not valid for the expected `voter`.
+     * If the `voter` is a contract, the signature is not valid using {IERC1271-isValidSignature}.
+     */
+    error GovernorInvalidSignature(address voter);
+
+    /**
+     * @dev Emitted when a proposal is created.
+     */
+    event ProposalCreated(
+        uint256 proposalId,
+        address proposer,
+        address[] targets,
+        uint256[] values,
+        string[] signatures,
+        bytes[] calldatas,
+        uint256 voteStart,
+        uint256 voteEnd,
+        string description
+    );
+
+    /**
+     * @dev Emitted when a proposal is queued.
+     */
+    event ProposalQueued(uint256 proposalId, uint256 etaSeconds);
+
+    /**
+     * @dev Emitted when a proposal is executed.
+     */
+    event ProposalExecuted(uint256 proposalId);
+
+    /**
+     * @dev Emitted when a proposal is canceled.
+     */
+    event ProposalCanceled(uint256 proposalId);
+
+    /**
+     * @dev Emitted when a vote is cast without params.
+     *
+     * Note: `support` values should be seen as buckets. Their interpretation depends on the voting module used.
+     */
+    event VoteCast(address indexed voter, uint256 proposalId, uint8 support, uint256 weight, string reason);
+
+    /**
+     * @dev Emitted when a vote is cast with params.
+     *
+     * Note: `support` values should be seen as buckets. Their interpretation depends on the voting module used.
+     * `params` are additional encoded parameters. Their interpretation  also depends on the voting module used.
+     */
+    event VoteCastWithParams(
+        address indexed voter,
+        uint256 proposalId,
+        uint8 support,
+        uint256 weight,
+        string reason,
+        bytes params
+    );
+
+    /**
+     * @notice module:core
+     * @dev Name of the governor instance (used in building the EIP-712 domain separator).
+     */
+    function name() external view returns (string memory);
+
+    /**
+     * @notice module:core
+     * @dev Version of the governor instance (used in building the EIP-712 domain separator). Default: "1"
+     */
+    function version() external view returns (string memory);
+
+    /**
+     * @notice module:voting
+     * @dev A description of the possible `support` values for {castVote} and the way these votes are counted, meant to
+     * be consumed by UIs to show correct vote options and interpret the results. The string is a URL-encoded sequence of
+     * key-value pairs that each describe one aspect, for example `support=bravo&quorum=for,abstain`.
+     *
+     * There are 2 standard keys: `support` and `quorum`.
+     *
+     * - `support=bravo` refers to the vote options 0 = Against, 1 = For, 2 = Abstain, as in `GovernorBravo`.
+     * - `quorum=bravo` means that only For votes are counted towards quorum.
+     * - `quorum=for,abstain` means that both For and Abstain votes are counted towards quorum.
+     *
+     * If a counting module makes use of encoded `params`, it should  include this under a `params` key with a unique
+     * name that describes the behavior. For example:
+     *
+     * - `params=fractional` might refer to a scheme where votes are divided fractionally between for/against/abstain.
+     * - `params=erc721` might refer to a scheme where specific NFTs are delegated to vote.
+     *
+     * NOTE: The string can be decoded by the standard
+     * https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams[`URLSearchParams`]
+     * JavaScript class.
+     */
+    // solhint-disable-next-line func-name-mixedcase
+    function COUNTING_MODE() external view returns (string memory);
+
+    /**
+     * @notice module:core
+     * @dev Hashing function used to (re)build the proposal id from the proposal details..
+     */
+    function hashProposal(
+        address[] memory targets,
+        uint256[] memory values,
+        bytes[] memory calldatas,
+        bytes32 descriptionHash
+    ) external pure returns (uint256);
+
+    /**
+     * @notice module:core
+     * @dev Current state of a proposal, following Compound's convention
+     */
+    function state(uint256 proposalId) external view returns (ProposalState);
+
+    /**
+     * @notice module:core
+     * @dev The number of votes required in order for a voter to become a proposer.
+     */
+    function proposalThreshold() external view returns (uint256);
+
+    /**
+     * @notice module:core
+     * @dev Timepoint used to retrieve user's votes and quorum. If using block number (as per Compound's Comp), the
+     * snapshot is performed at the end of this block. Hence, voting for this proposal starts at the beginning of the
+     * following block.
+     */
+    function proposalSnapshot(uint256 proposalId) external view returns (uint256);
+
+    /**
+     * @notice module:core
+     * @dev Timepoint at which votes close. If using block number, votes close at the end of this block, so it is
+     * possible to cast a vote during this block.
+     */
+    function proposalDeadline(uint256 proposalId) external view returns (uint256);
+
+    /**
+     * @notice module:core
+     * @dev The account that created a proposal.
+     */
+    function proposalProposer(uint256 proposalId) external view returns (address);
+
+    /**
+     * @notice module:core
+     * @dev The time when a queued proposal becomes executable ("ETA"). Unlike {proposalSnapshot} and
+     * {proposalDeadline}, this doesn't use the governor clock, and instead relies on the executor's clock which may be
+     * different. In most cases this will be a timestamp.
+     */
+    function proposalEta(uint256 proposalId) external view returns (uint256);
+
+    /**
+     * @notice module:core
+     * @dev Whether a proposal needs to be queued before execution.
+     */
+    function proposalNeedsQueuing(uint256 proposalId) external view returns (bool);
+
+    /**
+     * @notice module:user-config
+     * @dev Delay, between the proposal is created and the vote starts. The unit this duration is expressed in depends
+     * on the clock (see ERC-6372) this contract uses.
+     *
+     * This can be increased to leave time for users to buy voting power, or delegate it, before the voting of a
+     * proposal starts.
+     *
+     * NOTE: While this interface returns a uint256, timepoints are stored as uint48 following the ERC-6372 clock type.
+     * Consequently this value must fit in a uint48 (when added to the current clock). See {IERC6372-clock}.
+     */
+    function votingDelay() external view returns (uint256);
+
+    /**
+     * @notice module:user-config
+     * @dev Delay between the vote start and vote end. The unit this duration is expressed in depends on the clock
+     * (see ERC-6372) this contract uses.
+     *
+     * NOTE: The {votingDelay} can delay the start of the vote. This must be considered when setting the voting
+     * duration compared to the voting delay.
+     *
+     * NOTE: This value is stored when the proposal is submitted so that possible changes to the value do not affect
+     * proposals that have already been submitted. The type used to save it is a uint32. Consequently, while this
+     * interface returns a uint256, the value it returns should fit in a uint32.
+     */
+    function votingPeriod() external view returns (uint256);
+
+    /**
+     * @notice module:user-config
+     * @dev Minimum number of cast voted required for a proposal to be successful.
+     *
+     * NOTE: The `timepoint` parameter corresponds to the snapshot used for counting vote. This allows to scale the
+     * quorum depending on values such as the totalSupply of a token at this timepoint (see {ERC20Votes}).
+     */
+    function quorum(uint256 timepoint) external view returns (uint256);
+
+    /**
+     * @notice module:reputation
+     * @dev Voting power of an `account` at a specific `timepoint`.
+     *
+     * Note: this can be implemented in a number of ways, for example by reading the delegated balance from one (or
+     * multiple), {ERC20Votes} tokens.
+     */
+    function getVotes(address account, uint256 timepoint) external view returns (uint256);
+
+    /**
+     * @notice module:reputation
+     * @dev Voting power of an `account` at a specific `timepoint` given additional encoded parameters.
+     */
+    function getVotesWithParams(
+        address account,
+        uint256 timepoint,
+        bytes memory params
+    ) external view returns (uint256);
+
+    /**
+     * @notice module:voting
+     * @dev Returns whether `account` has cast a vote on `proposalId`.
+     */
+    function hasVoted(uint256 proposalId, address account) external view returns (bool);
+
+    /**
+     * @dev Create a new proposal. Vote start after a delay specified by {IGovernor-votingDelay} and lasts for a
+     * duration specified by {IGovernor-votingPeriod}.
+     *
+     * Emits a {ProposalCreated} event.
+     *
+     * NOTE: The state of the Governor and `targets` may change between the proposal creation and its execution.
+     * This may be the result of third party actions on the targeted contracts, or other governor proposals.
+     * For example, the balance of this contract could be updated or its access control permissions may be modified,
+     * possibly compromising the proposal's ability to execute successfully (e.g. the governor doesn't have enough
+     * value to cover a proposal with multiple transfers).
+     */
+    function propose(
+        address[] memory targets,
+        uint256[] memory values,
+        bytes[] memory calldatas,
+        string memory description
+    ) external returns (uint256 proposalId);
+
+    /**
+     * @dev Queue a proposal. Some governors require this step to be performed before execution can happen. If queuing
+     * is not necessary, this function may revert.
+     * Queuing a proposal requires the quorum to be reached, the vote to be successful, and the deadline to be reached.
+     *
+     * Emits a {ProposalQueued} event.
+     */
+    function queue(
+        address[] memory targets,
+        uint256[] memory values,
+        bytes[] memory calldatas,
+        bytes32 descriptionHash
+    ) external returns (uint256 proposalId);
+
+    /**
+     * @dev Execute a successful proposal. This requires the quorum to be reached, the vote to be successful, and the
+     * deadline to be reached. Depending on the governor it might also be required that the proposal was queued and
+     * that some delay passed.
+     *
+     * Emits a {ProposalExecuted} event.
+     *
+     * NOTE: Some modules can modify the requirements for execution, for example by adding an additional timelock.
+     */
+    function execute(
+        address[] memory targets,
+        uint256[] memory values,
+        bytes[] memory calldatas,
+        bytes32 descriptionHash
+    ) external payable returns (uint256 proposalId);
+
+    /**
+     * @dev Cancel a proposal. A proposal is cancellable by the proposer, but only while it is Pending state, i.e.
+     * before the vote starts.
+     *
+     * Emits a {ProposalCanceled} event.
+     */
+    function cancel(
+        address[] memory targets,
+        uint256[] memory values,
+        bytes[] memory calldatas,
+        bytes32 descriptionHash
+    ) external returns (uint256 proposalId);
+
+    /**
+     * @dev Cast a vote
+     *
+     * Emits a {VoteCast} event.
+     */
+    function castVote(uint256 proposalId, uint8 support) external returns (uint256 balance);
+
+    /**
+     * @dev Cast a vote with a reason
+     *
+     * Emits a {VoteCast} event.
+     */
+    function castVoteWithReason(
+        uint256 proposalId,
+        uint8 support,
+        string calldata reason
+    ) external returns (uint256 balance);
+
+    /**
+     * @dev Cast a vote with a reason and additional encoded parameters
+     *
+     * Emits a {VoteCast} or {VoteCastWithParams} event depending on the length of params.
+     */
+    function castVoteWithReasonAndParams(
+        uint256 proposalId,
+        uint8 support,
+        string calldata reason,
+        bytes memory params
+    ) external returns (uint256 balance);
+
+    /**
+     * @dev Cast a vote using the voter's signature, including ERC-1271 signature support.
+     *
+     * Emits a {VoteCast} event.
+     */
+    function castVoteBySig(
+        uint256 proposalId,
+        uint8 support,
+        address voter,
+        bytes memory signature
+    ) external returns (uint256 balance);
+
+    /**
+     * @dev Cast a vote with a reason and additional encoded parameters using the voter's signature,
+     * including ERC-1271 signature support.
+     *
+     * Emits a {VoteCast} or {VoteCastWithParams} event depending on the length of params.
+     */
+    function castVoteWithReasonAndParamsBySig(
+        uint256 proposalId,
+        uint8 support,
+        address voter,
+        string calldata reason,
+        bytes memory params,
+        bytes memory signature
+    ) external returns (uint256 balance);
+}
