@@ -1,1 +1,17 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAoaW50ZXJmYWNlcy9JRVJDMTI3MS5zb2wpCgpwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCi8qKgogKiBAZGV2IEludGVyZmFjZSBvZiB0aGUgRVJDLTEyNzEgc3RhbmRhcmQgc2lnbmF0dXJlIHZhbGlkYXRpb24gbWV0aG9kIGZvcgogKiBjb250cmFjdHMgYXMgZGVmaW5lZCBpbiBodHRwczovL2VpcHMuZXRoZXJldW0ub3JnL0VJUFMvZWlwLTEyNzFbRVJDLTEyNzFdLgogKi8KaW50ZXJmYWNlIElFUkMxMjcxIHsKICAgIC8qKgogICAgICogQGRldiBTaG91bGQgcmV0dXJuIHdoZXRoZXIgdGhlIHNpZ25hdHVyZSBwcm92aWRlZCBpcyB2YWxpZCBmb3IgdGhlIHByb3ZpZGVkIGRhdGEKICAgICAqIEBwYXJhbSBoYXNoICAgICAgSGFzaCBvZiB0aGUgZGF0YSB0byBiZSBzaWduZWQKICAgICAqIEBwYXJhbSBzaWduYXR1cmUgU2lnbmF0dXJlIGJ5dGUgYXJyYXkgYXNzb2NpYXRlZCB3aXRoIF9kYXRhCiAgICAgKi8KICAgIGZ1bmN0aW9uIGlzVmFsaWRTaWduYXR1cmUoYnl0ZXMzMiBoYXNoLCBieXRlcyBtZW1vcnkgc2lnbmF0dXJlKSBleHRlcm5hbCB2aWV3IHJldHVybnMgKGJ5dGVzNCBtYWdpY1ZhbHVlKTsKfQo=
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (interfaces/IERC1271.sol)
+
+pragma solidity ^0.8.20;
+
+/**
+ * @dev Interface of the ERC-1271 standard signature validation method for
+ * contracts as defined in https://eips.ethereum.org/EIPS/eip-1271[ERC-1271].
+ */
+interface IERC1271 {
+    /**
+     * @dev Should return whether the signature provided is valid for the provided data
+     * @param hash      Hash of the data to be signed
+     * @param signature Signature byte array associated with _data
+     */
+    function isValidSignature(bytes32 hash, bytes memory signature) external view returns (bytes4 magicValue);
+}
