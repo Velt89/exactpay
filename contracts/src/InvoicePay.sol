@@ -1,1 +1,184 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgXjAuOC4yNDsKCmltcG9ydCB7SUVSQzIwfSBmcm9tICJAb3BlbnplcHBlbGluL2NvbnRyYWN0cy90b2tlbi9FUkMyMC9JRVJDMjAuc29sIjsKaW1wb3J0IHtTYWZlRVJDMjB9IGZyb20gIkBvcGVuemVwcGVsaW4vY29udHJhY3RzL3Rva2VuL0VSQzIwL3V0aWxzL1NhZmVFUkMyMC5zb2wiOwppbXBvcnQge0lFUkMzMDA5fSBmcm9tICIuL2ludGVyZmFjZXMvSUVSQzMwMDkuc29sIjsKCi8vLyBAdGl0bGUgSW52b2ljZVBheQovLy8gQG5vdGljZSBNZXJjaGFudC1pc3N1ZWQgaW52b2ljZXMgcGFpZCBpbiB0VVNEOCBvbiBBZXZ1bSwgd2l0aCB0aGUgYW1vdW50IGZpeGVkIG9uLWNoYWluLgovLy8gQGRldiBXaHkgdGhpcyBleGlzdHM6IHRoZSBzdGFydGVyIGtpdCdzIENoZWNrb3V0IGxldHMgYW55b25lIHBheSBBTlkgYW1vdW50IGZvciBhbiBvcmRlcgovLy8gICAgICBpZCwgc28gYHBheShvcmRlcklkLCAxKWAgbWFya3MgYW4gb3JkZXIgcGFpZCBmb3IgMC4wMDAwMDEgdFVTRDggYW5kIHRoZSBhcHAgaGFzIHRvCi8vLyAgICAgIGNhdGNoIHRoZSBzaG9ydGZhbGwgb2ZmLWNoYWluICh0aGUga2l0IGRvY3Mgd2FybiBhYm91dCBleGFjdGx5IHRoaXMpLiBIZXJlIHRoZQovLy8gICAgICBtZXJjaGFudCBjcmVhdGVzIHRoZSBpbnZvaWNlIHdpdGggaXRzIGV4YWN0IGFtb3VudCBhbmQgZXhwaXJ5LCBhbmQgdGhlIHBheWVyIG5ldmVyCi8vLyAgICAgIHN1cHBsaWVzIGFuIGFtb3VudCBhdCBhbGwg4oCUIHRoZSBjb250cmFjdCBwdWxscyBwcmVjaXNlbHkgYGludm9pY2UuYW1vdW50YCwgc28gYQovLy8gICAgICBkdXN0IHBheW1lbnQgY2Fubm90IG1hcmsgYW4gaW52b2ljZSBwYWlkLCBhbiBleHBpcmVkIGludm9pY2UgY2Fubm90IGJlIHBhaWQgbGF0ZSwKLy8vICAgICAgYW5kIGEgcGFpZCBpbnZvaWNlIGNhbm5vdCBiZSBwYWlkIHR3aWNlLgovLy8gICAgICBUd28gcmFpbHMsIHNhbWUgYXMgdGhlIGtpdDoKLy8vICAgICAgMS4gYHBheWA6IHRoZSBwYXllciBhcHByb3ZlcyB0aGlzIGNvbnRyYWN0LCB0aGVuIGNhbGxzIGBwYXlgIChwYXllciBwYXlzIGdhcykuCi8vLyAgICAgIDIuIGBwYXlXaXRoQXV0aG9yaXphdGlvbmA6IHRoZSBwYXllciBzaWducyBhbiBFSVAtMzAwOSBtZXNzYWdlIG9mZi1jaGFpbiBhbmQgYW55b25lCi8vLyAgICAgICAgIChhIHJlbGF5ZXIsIHRoZSBtZXJjaGFudCkgc3VibWl0cyBpdC4gVGhlIHBheWVyIG5lZWRzIG5vIG5hdGl2ZSBnYXMuCi8vLyAgICAgIFRoZSBzaWduZWQgbm9uY2UgaXMgYGF1dGhvcml6YXRpb25Ob25jZShpbnZvaWNlSWQpYCwgYmluZGluZyB0aGUgc2lnbmF0dXJlIHRvIHRoaXMKLy8vICAgICAgb25lIGludm9pY2Ugc28gaXQgY2Fubm90IGJlIHJlcGxheWVkIGFnYWluc3QgYW5vdGhlci4KY29udHJhY3QgSW52b2ljZVBheSB7CiAgICB1c2luZyBTYWZlRVJDMjAgZm9yIElFUkMyMDsKCiAgICBlbnVtIFN0YXR1cyB7CiAgICAgICAgTm9uZSwKICAgICAgICBPcGVuLAogICAgICAgIFBhaWQsCiAgICAgICAgQ2FuY2VsbGVkLAogICAgICAgIFJlZnVuZGVkCiAgICB9CgogICAgc3RydWN0IEludm9pY2UgewogICAgICAgIGFkZHJlc3MgbWVyY2hhbnQ7CiAgICAgICAgYWRkcmVzcyBleHBlY3RlZFBheWVyOyAvLyBhZGRyZXNzKDApID0gYW55b25lIG1heSBwYXkKICAgICAgICBhZGRyZXNzIHBhaWRCeTsKICAgICAgICB1aW50MjU2IGFtb3VudDsKICAgICAgICB1aW50NjQgZXhwaXJ5OwogICAgICAgIHVpbnQ2NCBwYWlkQXQ7CiAgICAgICAgYnl0ZXMzMiBtZW1vSGFzaDsgLy8gaGFzaCBvZiB0aGUgaW52b2ljZSBtZW1vIC8gbGluZSBpdGVtcywga2VwdCBvZmYtY2hhaW4KICAgICAgICBTdGF0dXMgc3RhdHVzOwogICAgfQoKICAgIElFUkMyMCBwdWJsaWMgaW1tdXRhYmxlIHRva2VuOwoKICAgIG1hcHBpbmcoYnl0ZXMzMiBpbnZvaWNlSWQgPT4gSW52b2ljZSkgcHJpdmF0ZSBfaW52b2ljZXM7CgogICAgZXZlbnQgSW52b2ljZUNyZWF0ZWQoCiAgICAgICAgYnl0ZXMzMiBpbmRleGVkIGludm9pY2VJZCwgYWRkcmVzcyBpbmRleGVkIG1lcmNoYW50LCB1aW50MjU2IGFtb3VudCwgdWludDY0IGV4cGlyeSwgYWRkcmVzcyBleHBlY3RlZFBheWVyCiAgICApOwogICAgZXZlbnQgUGFpZChieXRlczMyIGluZGV4ZWQgaW52b2ljZUlkLCBhZGRyZXNzIGluZGV4ZWQgcGF5ZXIsIHVpbnQyNTYgYW1vdW50KTsKICAgIGV2ZW50IEludm9pY2VDYW5jZWxsZWQoYnl0ZXMzMiBpbmRleGVkIGludm9pY2VJZCk7CiAgICBldmVudCBJbnZvaWNlUmVmdW5kZWQoYnl0ZXMzMiBpbmRleGVkIGludm9pY2VJZCwgYWRkcmVzcyBpbmRleGVkIHBheWVyLCB1aW50MjU2IGFtb3VudCk7CgogICAgZXJyb3IgWmVyb0FkZHJlc3MoKTsKICAgIGVycm9yIFplcm9BbW91bnQoKTsKICAgIGVycm9yIEludm9pY2VFeGlzdHMoYnl0ZXMzMiBpbnZvaWNlSWQpOwogICAgZXJyb3IgSW52b2ljZU5vdEZvdW5kKGJ5dGVzMzIgaW52b2ljZUlkKTsKICAgIGVycm9yIEludm9pY2VOb3RPcGVuKGJ5dGVzMzIgaW52b2ljZUlkKTsKICAgIGVycm9yIEludm9pY2VFeHBpcmVkKGJ5dGVzMzIgaW52b2ljZUlkKTsKICAgIGVycm9yIFdyb25nUGF5ZXIoYnl0ZXMzMiBpbnZvaWNlSWQsIGFkZHJlc3MgcGF5ZXIpOwogICAgZXJyb3IgTm90TWVyY2hhbnQoYnl0ZXMzMiBpbnZvaWNlSWQsIGFkZHJlc3MgY2FsbGVyKTsKICAgIGVycm9yIEludm9pY2VOb3RQYWlkKGJ5dGVzMzIgaW52b2ljZUlkKTsKCiAgICBjb25zdHJ1Y3RvcihJRVJDMjAgdG9rZW5fKSB7CiAgICAgICAgaWYgKGFkZHJlc3ModG9rZW5fKSA9PSBhZGRyZXNzKDApKSByZXZlcnQgWmVyb0FkZHJlc3MoKTsKICAgICAgICB0b2tlbiA9IHRva2VuXzsKICAgIH0KCiAgICAvLy8gQG5vdGljZSBDcmVhdGUgYW4gaW52b2ljZS4gYGludm9pY2VJZGAgbXVzdCBiZSB1bnVzZWQ7IHVzZSBhbiB1bmd1ZXNzYWJsZSBpZAogICAgLy8vICAgICAgICAgKGZvciBleGFtcGxlIGBpbnZvaWNlSWRGb3IobWVyY2hhbnQsIG9yZGVyUmVmKWAgd2l0aCBhIHJhbmRvbSBvcmRlciByZWYpLgogICAgLy8vIEBwYXJhbSBleHBlY3RlZFBheWVyIE9wdGlvbmFsOiByZXN0cmljdCBwYXltZW50IHRvIG9uZSBhZGRyZXNzICgwID0gYW55b25lKS4KICAgIC8vLyBAcGFyYW0gbWVtb0hhc2ggSGFzaCBvZiB0aGUgb2ZmLWNoYWluIG1lbW8gKGxpbmUgaXRlbXMsIHRlcm1zKSB0aGlzIGludm9pY2UgY292ZXJzLgogICAgZnVuY3Rpb24gY3JlYXRlSW52b2ljZSgKICAgICAgICBieXRlczMyIGludm9pY2VJZCwKICAgICAgICB1aW50MjU2IGFtb3VudCwKICAgICAgICB1aW50NjQgZXhwaXJ5LAogICAgICAgIGFkZHJlc3MgZXhwZWN0ZWRQYXllciwKICAgICAgICBieXRlczMyIG1lbW9IYXNoCiAgICApIGV4dGVybmFsIHsKICAgICAgICBpZiAoYW1vdW50ID09IDApIHJldmVydCBaZXJvQW1vdW50KCk7CiAgICAgICAgaWYgKF9pbnZvaWNlc1tpbnZvaWNlSWRdLnN0YXR1cyAhPSBTdGF0dXMuTm9uZSkgcmV2ZXJ0IEludm9pY2VFeGlzdHMoaW52b2ljZUlkKTsKICAgICAgICBfaW52b2ljZXNbaW52b2ljZUlkXSA9IEludm9pY2UoewogICAgICAgICAgICBtZXJjaGFudDogbXNnLnNlbmRlciwKICAgICAgICAgICAgZXhwZWN0ZWRQYXllcjogZXhwZWN0ZWRQYXllciwKICAgICAgICAgICAgcGFpZEJ5OiBhZGRyZXNzKDApLAogICAgICAgICAgICBhbW91bnQ6IGFtb3VudCwKICAgICAgICAgICAgZXhwaXJ5OiBleHBpcnksCiAgICAgICAgICAgIHBhaWRBdDogMCwKICAgICAgICAgICAgbWVtb0hhc2g6IG1lbW9IYXNoLAogICAgICAgICAgICBzdGF0dXM6IFN0YXR1cy5PcGVuCiAgICAgICAgfSk7CiAgICAgICAgZW1pdCBJbnZvaWNlQ3JlYXRlZChpbnZvaWNlSWQsIG1zZy5zZW5kZXIsIGFtb3VudCwgZXhwaXJ5LCBleHBlY3RlZFBheWVyKTsKICAgIH0KCiAgICAvLy8gQG5vdGljZSBQYXkgaW52b2ljZSBgaW52b2ljZUlkYCBpbiBmdWxsLiBQdWxscyBleGFjdGx5IHRoZSBpbnZvaWNlIGFtb3VudCBmcm9tIHRoZQogICAgLy8vICAgICAgICAgY2FsbGVyICh3aG8gbXVzdCBoYXZlIGFwcHJvdmVkIHRoaXMgY29udHJhY3QpIHN0cmFpZ2h0IHRvIHRoZSBtZXJjaGFudC4KICAgIGZ1bmN0aW9uIHBheShieXRlczMyIGludm9pY2VJZCkgZXh0ZXJuYWwgewogICAgICAgIEludm9pY2Ugc3RvcmFnZSBpbnZvaWNlID0gX29wZW5JbnZvaWNlKGludm9pY2VJZCwgbXNnLnNlbmRlcik7CiAgICAgICAgX21hcmtQYWlkKGludm9pY2VJZCwgaW52b2ljZSwgbXNnLnNlbmRlcik7CiAgICAgICAgdG9rZW4uc2FmZVRyYW5zZmVyRnJvbShtc2cuc2VuZGVyLCBpbnZvaWNlLm1lcmNoYW50LCBpbnZvaWNlLmFtb3VudCk7CiAgICB9CgogICAgLy8vIEBub3RpY2UgUGF5IGludm9pY2UgYGludm9pY2VJZGAgd2l0aCBhbiBFSVAtMzAwOSBgUmVjZWl2ZVdpdGhBdXRob3JpemF0aW9uYCBzaWduZWQgYnkKICAgIC8vLyAgICAgICAgIGBmcm9tYC4gVGhlIHNpZ25lZCBhbW91bnQgbXVzdCBlcXVhbCB0aGUgaW52b2ljZSBhbW91bnQgYW5kIHRoZSBzaWduZWQgbm9uY2UKICAgIC8vLyAgICAgICAgIG11c3QgYmUgYGF1dGhvcml6YXRpb25Ob25jZShpbnZvaWNlSWQpYDsgYHRvYCBtdXN0IGJlIHRoaXMgY29udHJhY3QuCiAgICBmdW5jdGlvbiBwYXlXaXRoQXV0aG9yaXphdGlvbigKICAgICAgICBieXRlczMyIGludm9pY2VJZCwKICAgICAgICBhZGRyZXNzIGZyb20sCiAgICAgICAgdWludDI1NiB2YWxpZEFmdGVyLAogICAgICAgIHVpbnQyNTYgdmFsaWRCZWZvcmUsCiAgICAgICAgdWludDggdiwKICAgICAgICBieXRlczMyIHIsCiAgICAgICAgYnl0ZXMzMiBzCiAgICApIGV4dGVybmFsIHsKICAgICAgICBJbnZvaWNlIHN0b3JhZ2UgaW52b2ljZSA9IF9vcGVuSW52b2ljZShpbnZvaWNlSWQsIGZyb20pOwogICAgICAgIF9tYXJrUGFpZChpbnZvaWNlSWQsIGludm9pY2UsIGZyb20pOwogICAgICAgIElFUkMzMDA5KGFkZHJlc3ModG9rZW4pKS5yZWNlaXZlV2l0aEF1dGhvcml6YXRpb24oCiAgICAgICAgICAgIGZyb20sIGFkZHJlc3ModGhpcyksIGludm9pY2UuYW1vdW50LCB2YWxpZEFmdGVyLCB2YWxpZEJlZm9yZSwgYXV0aG9yaXphdGlvbk5vbmNlKGludm9pY2VJZCksIHYsIHIsIHMKICAgICAgICApOwogICAgICAgIHRva2VuLnNhZmVUcmFuc2ZlcihpbnZvaWNlLm1lcmNoYW50LCBpbnZvaWNlLmFtb3VudCk7CiAgICB9CgogICAgLy8vIEBub3RpY2UgQ2FuY2VsIGFuIHVucGFpZCBpbnZvaWNlLiBNZXJjaGFudCBvbmx5LgogICAgZnVuY3Rpb24gY2FuY2VsSW52b2ljZShieXRlczMyIGludm9pY2VJZCkgZXh0ZXJuYWwgewogICAgICAgIEludm9pY2Ugc3RvcmFnZSBpbnZvaWNlID0gX2ludm9pY2UoaW52b2ljZUlkKTsKICAgICAgICBpZiAobXNnLnNlbmRlciAhPSBpbnZvaWNlLm1lcmNoYW50KSByZXZlcnQgTm90TWVyY2hhbnQoaW52b2ljZUlkLCBtc2cuc2VuZGVyKTsKICAgICAgICBpZiAoaW52b2ljZS5zdGF0dXMgIT0gU3RhdHVzLk9wZW4pIHJldmVydCBJbnZvaWNlTm90T3BlbihpbnZvaWNlSWQpOwogICAgICAgIGludm9pY2Uuc3RhdHVzID0gU3RhdHVzLkNhbmNlbGxlZDsKICAgICAgICBlbWl0IEludm9pY2VDYW5jZWxsZWQoaW52b2ljZUlkKTsKICAgIH0KCiAgICAvLy8gQG5vdGljZSBSZWZ1bmQgYSBwYWlkIGludm9pY2UgaW4gZnVsbC4gTWVyY2hhbnQgb25seTsgdGhlIG1lcmNoYW50IG11c3QgaGF2ZSBhcHByb3ZlZAogICAgLy8vICAgICAgICAgdGhpcyBjb250cmFjdCB0byBwdWxsIHRoZSBhbW91bnQgYmFjayB0byB0aGUgb3JpZ2luYWwgcGF5ZXIuCiAgICBmdW5jdGlvbiByZWZ1bmRJbnZvaWNlKGJ5dGVzMzIgaW52b2ljZUlkKSBleHRlcm5hbCB7CiAgICAgICAgSW52b2ljZSBzdG9yYWdlIGludm9pY2UgPSBfaW52b2ljZShpbnZvaWNlSWQpOwogICAgICAgIGlmIChtc2cuc2VuZGVyICE9IGludm9pY2UubWVyY2hhbnQpIHJldmVydCBOb3RNZXJjaGFudChpbnZvaWNlSWQsIG1zZy5zZW5kZXIpOwogICAgICAgIGlmIChpbnZvaWNlLnN0YXR1cyAhPSBTdGF0dXMuUGFpZCkgcmV2ZXJ0IEludm9pY2VOb3RQYWlkKGludm9pY2VJZCk7CiAgICAgICAgaW52b2ljZS5zdGF0dXMgPSBTdGF0dXMuUmVmdW5kZWQ7CiAgICAgICAgdG9rZW4uc2FmZVRyYW5zZmVyRnJvbShpbnZvaWNlLm1lcmNoYW50LCBpbnZvaWNlLnBhaWRCeSwgaW52b2ljZS5hbW91bnQpOwogICAgICAgIGVtaXQgSW52b2ljZVJlZnVuZGVkKGludm9pY2VJZCwgaW52b2ljZS5wYWlkQnksIGludm9pY2UuYW1vdW50KTsKICAgIH0KCiAgICAvLy8gQG5vdGljZSBUaGUgRUlQLTMwMDkgbm9uY2UgYSBwYXllciBtdXN0IHNpZ24gdG8gcGF5IGBpbnZvaWNlSWRgIHRocm91Z2ggdGhpcyBjb250cmFjdC4KICAgIGZ1bmN0aW9uIGF1dGhvcml6YXRpb25Ob25jZShieXRlczMyIGludm9pY2VJZCkgcHVibGljIHZpZXcgcmV0dXJucyAoYnl0ZXMzMikgewogICAgICAgIHJldHVybiBrZWNjYWsyNTYoYWJpLmVuY29kZShhZGRyZXNzKHRoaXMpLCBpbnZvaWNlSWQpKTsKICAgIH0KCiAgICAvLy8gQG5vdGljZSBEZXJpdmUgYSBwZXItbWVyY2hhbnQgaW52b2ljZSBpZCBmcm9tIGFuIG9mZi1jaGFpbiByZWZlcmVuY2UgKG9yZGVyIG51bWJlciwKICAgIC8vLyAgICAgICAgIGJvb2tpbmcgY29kZS4uLikuIFBhaXIgaXQgd2l0aCBhIHJhbmRvbSByZWYgc28gaWRzIHN0YXkgdW5ndWVzc2FibGUuCiAgICBmdW5jdGlvbiBpbnZvaWNlSWRGb3IoYWRkcmVzcyBtZXJjaGFudCwgYnl0ZXMzMiByZWYpIHB1YmxpYyBwdXJlIHJldHVybnMgKGJ5dGVzMzIpIHsKICAgICAgICByZXR1cm4ga2VjY2FrMjU2KGFiaS5lbmNvZGUobWVyY2hhbnQsIHJlZikpOwogICAgfQoKICAgIGZ1bmN0aW9uIGludm9pY2VPZihieXRlczMyIGludm9pY2VJZCkgZXh0ZXJuYWwgdmlldyByZXR1cm5zIChJbnZvaWNlIG1lbW9yeSkgewogICAgICAgIHJldHVybiBfaW52b2ljZXNbaW52b2ljZUlkXTsKICAgIH0KCiAgICBmdW5jdGlvbiBpc1BhaWQoYnl0ZXMzMiBpbnZvaWNlSWQpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAoYm9vbCkgewogICAgICAgIHJldHVybiBfaW52b2ljZXNbaW52b2ljZUlkXS5zdGF0dXMgPT0gU3RhdHVzLlBhaWQ7CiAgICB9CgogICAgZnVuY3Rpb24gX2ludm9pY2UoYnl0ZXMzMiBpbnZvaWNlSWQpIHByaXZhdGUgdmlldyByZXR1cm5zIChJbnZvaWNlIHN0b3JhZ2UgaW52b2ljZSkgewogICAgICAgIGludm9pY2UgPSBfaW52b2ljZXNbaW52b2ljZUlkXTsKICAgICAgICBpZiAoaW52b2ljZS5zdGF0dXMgPT0gU3RhdHVzLk5vbmUpIHJldmVydCBJbnZvaWNlTm90Rm91bmQoaW52b2ljZUlkKTsKICAgIH0KCiAgICBmdW5jdGlvbiBfb3Blbkludm9pY2UoYnl0ZXMzMiBpbnZvaWNlSWQsIGFkZHJlc3MgcGF5ZXIpIHByaXZhdGUgdmlldyByZXR1cm5zIChJbnZvaWNlIHN0b3JhZ2UgaW52b2ljZSkgewogICAgICAgIGludm9pY2UgPSBfaW52b2ljZShpbnZvaWNlSWQpOwogICAgICAgIGlmIChpbnZvaWNlLnN0YXR1cyAhPSBTdGF0dXMuT3BlbikgcmV2ZXJ0IEludm9pY2VOb3RPcGVuKGludm9pY2VJZCk7CiAgICAgICAgaWYgKGJsb2NrLnRpbWVzdGFtcCA+IGludm9pY2UuZXhwaXJ5KSByZXZlcnQgSW52b2ljZUV4cGlyZWQoaW52b2ljZUlkKTsKICAgICAgICBpZiAoaW52b2ljZS5leHBlY3RlZFBheWVyICE9IGFkZHJlc3MoMCkgJiYgaW52b2ljZS5leHBlY3RlZFBheWVyICE9IHBheWVyKSB7CiAgICAgICAgICAgIHJldmVydCBXcm9uZ1BheWVyKGludm9pY2VJZCwgcGF5ZXIpOwogICAgICAgIH0KICAgIH0KCiAgICBmdW5jdGlvbiBfbWFya1BhaWQoYnl0ZXMzMiBpbnZvaWNlSWQsIEludm9pY2Ugc3RvcmFnZSBpbnZvaWNlLCBhZGRyZXNzIHBheWVyKSBwcml2YXRlIHsKICAgICAgICBpbnZvaWNlLnN0YXR1cyA9IFN0YXR1cy5QYWlkOwogICAgICAgIGludm9pY2UucGFpZEJ5ID0gcGF5ZXI7CiAgICAgICAgaW52b2ljZS5wYWlkQXQgPSB1aW50NjQoYmxvY2sudGltZXN0YW1wKTsKICAgICAgICBlbWl0IFBhaWQoaW52b2ljZUlkLCBwYXllciwgaW52b2ljZS5hbW91bnQpOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.24;
+
+import {IERC20} from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import {SafeERC20} from "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
+import {IERC3009} from "./interfaces/IERC3009.sol";
+
+/// @title InvoicePay
+/// @notice Merchant-issued invoices paid in tUSD8 on Aevum, with the amount fixed on-chain.
+/// @dev Why this exists: the starter kit's Checkout lets anyone pay ANY amount for an order
+///      id, so `pay(orderId, 1)` marks an order paid for 0.000001 tUSD8 and the app has to
+///      catch the shortfall off-chain (the kit docs warn about exactly this). Here the
+///      merchant creates the invoice with its exact amount and expiry, and the payer never
+///      supplies an amount at all — the contract pulls precisely `invoice.amount`, so a
+///      dust payment cannot mark an invoice paid, an expired invoice cannot be paid late,
+///      and a paid invoice cannot be paid twice.
+///      Two rails, same as the kit:
+///      1. `pay`: the payer approves this contract, then calls `pay` (payer pays gas).
+///      2. `payWithAuthorization`: the payer signs an EIP-3009 message off-chain and anyone
+///         (a relayer, the merchant) submits it. The payer needs no native gas.
+///      The signed nonce is `authorizationNonce(invoiceId)`, binding the signature to this
+///      one invoice so it cannot be replayed against another.
+contract InvoicePay {
+    using SafeERC20 for IERC20;
+
+    enum Status {
+        None,
+        Open,
+        Paid,
+        Cancelled,
+        Refunded
+    }
+
+    struct Invoice {
+        address merchant;
+        address expectedPayer; // address(0) = anyone may pay
+        address paidBy;
+        uint256 amount;
+        uint64 expiry;
+        uint64 paidAt;
+        bytes32 memoHash; // hash of the invoice memo / line items, kept off-chain
+        Status status;
+    }
+
+    IERC20 public immutable token;
+
+    mapping(bytes32 invoiceId => Invoice) private _invoices;
+
+    event InvoiceCreated(
+        bytes32 indexed invoiceId, address indexed merchant, uint256 amount, uint64 expiry, address expectedPayer
+    );
+    event Paid(bytes32 indexed invoiceId, address indexed payer, uint256 amount);
+    event InvoiceCancelled(bytes32 indexed invoiceId);
+    event InvoiceRefunded(bytes32 indexed invoiceId, address indexed payer, uint256 amount);
+
+    error ZeroAddress();
+    error ZeroAmount();
+    error InvoiceExists(bytes32 invoiceId);
+    error InvoiceNotFound(bytes32 invoiceId);
+    error InvoiceNotOpen(bytes32 invoiceId);
+    error InvoiceExpired(bytes32 invoiceId);
+    error WrongPayer(bytes32 invoiceId, address payer);
+    error NotMerchant(bytes32 invoiceId, address caller);
+    error InvoiceNotPaid(bytes32 invoiceId);
+
+    constructor(IERC20 token_) {
+        if (address(token_) == address(0)) revert ZeroAddress();
+        token = token_;
+    }
+
+    /// @notice Create an invoice. `invoiceId` must be unused; use an unguessable id
+    ///         (for example `invoiceIdFor(merchant, orderRef)` with a random order ref).
+    /// @param expectedPayer Optional: restrict payment to one address (0 = anyone).
+    /// @param memoHash Hash of the off-chain memo (line items, terms) this invoice covers.
+    function createInvoice(
+        bytes32 invoiceId,
+        uint256 amount,
+        uint64 expiry,
+        address expectedPayer,
+        bytes32 memoHash
+    ) external {
+        if (amount == 0) revert ZeroAmount();
+        if (_invoices[invoiceId].status != Status.None) revert InvoiceExists(invoiceId);
+        _invoices[invoiceId] = Invoice({
+            merchant: msg.sender,
+            expectedPayer: expectedPayer,
+            paidBy: address(0),
+            amount: amount,
+            expiry: expiry,
+            paidAt: 0,
+            memoHash: memoHash,
+            status: Status.Open
+        });
+        emit InvoiceCreated(invoiceId, msg.sender, amount, expiry, expectedPayer);
+    }
+
+    /// @notice Pay invoice `invoiceId` in full. Pulls exactly the invoice amount from the
+    ///         caller (who must have approved this contract) straight to the merchant.
+    function pay(bytes32 invoiceId) external {
+        Invoice storage invoice = _openInvoice(invoiceId, msg.sender);
+        _markPaid(invoiceId, invoice, msg.sender);
+        token.safeTransferFrom(msg.sender, invoice.merchant, invoice.amount);
+    }
+
+    /// @notice Pay invoice `invoiceId` with an EIP-3009 `ReceiveWithAuthorization` signed by
+    ///         `from`. The signed amount must equal the invoice amount and the signed nonce
+    ///         must be `authorizationNonce(invoiceId)`; `to` must be this contract.
+    function payWithAuthorization(
+        bytes32 invoiceId,
+        address from,
+        uint256 validAfter,
+        uint256 validBefore,
+        uint8 v,
+        bytes32 r,
+        bytes32 s
+    ) external {
+        Invoice storage invoice = _openInvoice(invoiceId, from);
+        _markPaid(invoiceId, invoice, from);
+        IERC3009(address(token)).receiveWithAuthorization(
+            from, address(this), invoice.amount, validAfter, validBefore, authorizationNonce(invoiceId), v, r, s
+        );
+        token.safeTransfer(invoice.merchant, invoice.amount);
+    }
+
+    /// @notice Cancel an unpaid invoice. Merchant only.
+    function cancelInvoice(bytes32 invoiceId) external {
+        Invoice storage invoice = _invoice(invoiceId);
+        if (msg.sender != invoice.merchant) revert NotMerchant(invoiceId, msg.sender);
+        if (invoice.status != Status.Open) revert InvoiceNotOpen(invoiceId);
+        invoice.status = Status.Cancelled;
+        emit InvoiceCancelled(invoiceId);
+    }
+
+    /// @notice Refund a paid invoice in full. Merchant only; the merchant must have approved
+    ///         this contract to pull the amount back to the original payer.
+    function refundInvoice(bytes32 invoiceId) external {
+        Invoice storage invoice = _invoice(invoiceId);
+        if (msg.sender != invoice.merchant) revert NotMerchant(invoiceId, msg.sender);
+        if (invoice.status != Status.Paid) revert InvoiceNotPaid(invoiceId);
+        invoice.status = Status.Refunded;
+        token.safeTransferFrom(invoice.merchant, invoice.paidBy, invoice.amount);
+        emit InvoiceRefunded(invoiceId, invoice.paidBy, invoice.amount);
+    }
+
+    /// @notice The EIP-3009 nonce a payer must sign to pay `invoiceId` through this contract.
+    function authorizationNonce(bytes32 invoiceId) public view returns (bytes32) {
+        return keccak256(abi.encode(address(this), invoiceId));
+    }
+
+    /// @notice Derive a per-merchant invoice id from an off-chain reference (order number,
+    ///         booking code...). Pair it with a random ref so ids stay unguessable.
+    function invoiceIdFor(address merchant, bytes32 ref) public pure returns (bytes32) {
+        return keccak256(abi.encode(merchant, ref));
+    }
+
+    function invoiceOf(bytes32 invoiceId) external view returns (Invoice memory) {
+        return _invoices[invoiceId];
+    }
+
+    function isPaid(bytes32 invoiceId) external view returns (bool) {
+        return _invoices[invoiceId].status == Status.Paid;
+    }
+
+    function _invoice(bytes32 invoiceId) private view returns (Invoice storage invoice) {
+        invoice = _invoices[invoiceId];
+        if (invoice.status == Status.None) revert InvoiceNotFound(invoiceId);
+    }
+
+    function _openInvoice(bytes32 invoiceId, address payer) private view returns (Invoice storage invoice) {
+        invoice = _invoice(invoiceId);
+        if (invoice.status != Status.Open) revert InvoiceNotOpen(invoiceId);
+        if (block.timestamp > invoice.expiry) revert InvoiceExpired(invoiceId);
+        if (invoice.expectedPayer != address(0) && invoice.expectedPayer != payer) {
+            revert WrongPayer(invoiceId, payer);
+        }
+    }
+
+    function _markPaid(bytes32 invoiceId, Invoice storage invoice, address payer) private {
+        invoice.status = Status.Paid;
+        invoice.paidBy = payer;
+        invoice.paidAt = uint64(block.timestamp);
+        emit Paid(invoiceId, payer, invoice.amount);
+    }
+}
