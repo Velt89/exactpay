@@ -1,1 +1,26 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7QWRkcmVzc30gZnJvbSAiLi4vdXRpbHMvQWRkcmVzcy5zb2wiOwoKY29udHJhY3QgVGltZWxvY2tSZWVudHJhbnQgewogICAgYWRkcmVzcyBwcml2YXRlIF9yZWVudGVyVGFyZ2V0OwogICAgYnl0ZXMgcHJpdmF0ZSBfcmVlbnRlckRhdGE7CiAgICBib29sIF9yZWVudGVyZWQ7CgogICAgZnVuY3Rpb24gZGlzYWJsZVJlZW50cmFuY3koKSBleHRlcm5hbCB7CiAgICAgICAgX3JlZW50ZXJlZCA9IHRydWU7CiAgICB9CgogICAgZnVuY3Rpb24gZW5hYmxlUmVudHJhbmN5KGFkZHJlc3MgdGFyZ2V0LCBieXRlcyBjYWxsZGF0YSBkYXRhKSBleHRlcm5hbCB7CiAgICAgICAgX3JlZW50ZXJUYXJnZXQgPSB0YXJnZXQ7CiAgICAgICAgX3JlZW50ZXJEYXRhID0gZGF0YTsKICAgIH0KCiAgICBmdW5jdGlvbiByZWVudGVyKCkgZXh0ZXJuYWwgewogICAgICAgIGlmICghX3JlZW50ZXJlZCkgewogICAgICAgICAgICBfcmVlbnRlcmVkID0gdHJ1ZTsKICAgICAgICAgICAgQWRkcmVzcy5mdW5jdGlvbkNhbGwoX3JlZW50ZXJUYXJnZXQsIF9yZWVudGVyRGF0YSk7CiAgICAgICAgfQogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+import {Address} from "../utils/Address.sol";
+
+contract TimelockReentrant {
+    address private _reenterTarget;
+    bytes private _reenterData;
+    bool _reentered;
+
+    function disableReentrancy() external {
+        _reentered = true;
+    }
+
+    function enableRentrancy(address target, bytes calldata data) external {
+        _reenterTarget = target;
+        _reenterData = data;
+    }
+
+    function reenter() external {
+        if (!_reentered) {
+            _reentered = true;
+            Address.functionCall(_reenterTarget, _reenterData);
+        }
+    }
+}
