@@ -1,1 +1,26 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodG9rZW4vRVJDMjAvZXh0ZW5zaW9ucy9JRVJDMjBNZXRhZGF0YS5zb2wpCgpwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7SUVSQzIwfSBmcm9tICIuLi9JRVJDMjAuc29sIjsKCi8qKgogKiBAZGV2IEludGVyZmFjZSBmb3IgdGhlIG9wdGlvbmFsIG1ldGFkYXRhIGZ1bmN0aW9ucyBmcm9tIHRoZSBFUkMtMjAgc3RhbmRhcmQuCiAqLwppbnRlcmZhY2UgSUVSQzIwTWV0YWRhdGEgaXMgSUVSQzIwIHsKICAgIC8qKgogICAgICogQGRldiBSZXR1cm5zIHRoZSBuYW1lIG9mIHRoZSB0b2tlbi4KICAgICAqLwogICAgZnVuY3Rpb24gbmFtZSgpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAoc3RyaW5nIG1lbW9yeSk7CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIHN5bWJvbCBvZiB0aGUgdG9rZW4uCiAgICAgKi8KICAgIGZ1bmN0aW9uIHN5bWJvbCgpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAoc3RyaW5nIG1lbW9yeSk7CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIGRlY2ltYWxzIHBsYWNlcyBvZiB0aGUgdG9rZW4uCiAgICAgKi8KICAgIGZ1bmN0aW9uIGRlY2ltYWxzKCkgZXh0ZXJuYWwgdmlldyByZXR1cm5zICh1aW50OCk7Cn0K
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (token/ERC20/extensions/IERC20Metadata.sol)
+
+pragma solidity ^0.8.20;
+
+import {IERC20} from "../IERC20.sol";
+
+/**
+ * @dev Interface for the optional metadata functions from the ERC-20 standard.
+ */
+interface IERC20Metadata is IERC20 {
+    /**
+     * @dev Returns the name of the token.
+     */
+    function name() external view returns (string memory);
+
+    /**
+     * @dev Returns the symbol of the token.
+     */
+    function symbol() external view returns (string memory);
+
+    /**
+     * @dev Returns the decimals places of the token.
+     */
+    function decimals() external view returns (uint8);
+}
