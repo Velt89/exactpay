@@ -1,1 +1,40 @@
-aW1wb3J0IHsgY3JlYXRlUHVibGljQ2xpZW50LCBodHRwLCBpc0FkZHJlc3MsIGlzSGV4LCB0eXBlIEFkZHJlc3MsIHR5cGUgSGV4IH0gZnJvbSAidmllbSI7CmltcG9ydCB7IGFldnVtRm9yaywgYWV2dW1UZXN0bmV0LCBsb2NhbEFudmlsIH0gZnJvbSAiQGFldnVtLWtpdC9hZXZ1bSI7CgpleHBvcnQgZnVuY3Rpb24gcmVxdWlyZWQobmFtZTogc3RyaW5nKTogc3RyaW5nIHsKICBjb25zdCB2ID0gcHJvY2Vzcy5lbnZbbmFtZV0/LnRyaW0oKTsKICBpZiAoIXYpIHsKICAgIGNvbnNvbGUuZXJyb3IoYE1pc3NpbmcgJHtuYW1lfS4gQ29weSBleGFtcGxlcy8uZW52LmV4YW1wbGUgdG8gZXhhbXBsZXMvLmVudiBhbmQgZmlsbCBpdCBpbi5gKTsKICAgIHByb2Nlc3MuZXhpdCgxKTsKICB9CiAgcmV0dXJuIHY7Cn0KCmV4cG9ydCBmdW5jdGlvbiByZXF1aXJlZEFkZHJlc3MobmFtZTogc3RyaW5nKTogQWRkcmVzcyB7CiAgY29uc3QgdiA9IHJlcXVpcmVkKG5hbWUpOwogIGlmICghaXNBZGRyZXNzKHYpKSB7CiAgICBjb25zb2xlLmVycm9yKGAke25hbWV9IGlzIG5vdCBhIHZhbGlkIGFkZHJlc3M6ICR7dn1gKTsKICAgIHByb2Nlc3MuZXhpdCgxKTsKICB9CiAgcmV0dXJuIHY7Cn0KCmV4cG9ydCBmdW5jdGlvbiByZXF1aXJlZEtleShuYW1lOiBzdHJpbmcpOiBIZXggewogIGNvbnN0IHYgPSByZXF1aXJlZChuYW1lKTsKICBjb25zdCBrZXkgPSAodi5zdGFydHNXaXRoKCIweCIpID8gdiA6IGAweCR7dn1gKSBhcyBIZXg7CiAgaWYgKCFpc0hleChrZXkpIHx8IGtleS5sZW5ndGggIT09IDY2KSB7CiAgICBjb25zb2xlLmVycm9yKGAke25hbWV9IG11c3QgYmUgYSAzMi1ieXRlIGhleCBwcml2YXRlIGtleS5gKTsKICAgIHByb2Nlc3MuZXhpdCgxKTsKICB9CiAgcmV0dXJuIGtleTsKfQoKLyoqIFBpY2tzIHRoZSBjaGFpbiBmcm9tIHRoZSBSUEMncyBjaGFpbiBJRDogQWV2dW0gdGVzdG5ldCwgYG1ha2UgZm9ya2AsIG9yIHBsYWluIGFudmlsLiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gY29ubmVjdCgpIHsKICBjb25zdCBycGNVcmwgPSBwcm9jZXNzLmVudi5SUENfVVJMPy50cmltKCkgfHwgYWV2dW1UZXN0bmV0LnJwY1VybHMuZGVmYXVsdC5odHRwWzBdOwogIGNvbnN0IHByb2JlID0gY3JlYXRlUHVibGljQ2xpZW50KHsgdHJhbnNwb3J0OiBodHRwKHJwY1VybCkgfSk7CiAgY29uc3QgaWQgPSBhd2FpdCBwcm9iZS5nZXRDaGFpbklkKCk7CiAgY29uc3QgY2hhaW4gPSBpZCA9PT0gYWV2dW1UZXN0bmV0LmlkID8gYWV2dW1UZXN0bmV0IDogaWQgPT09IGFldnVtRm9yay5pZCA/IGFldnVtRm9yayA6IHsgLi4ubG9jYWxBbnZpbCwgaWQgfTsKICBjb25zdCBjbGllbnQgPSBjcmVhdGVQdWJsaWNDbGllbnQoeyBjaGFpbiwgdHJhbnNwb3J0OiBodHRwKHJwY1VybCkgfSk7CiAgcmV0dXJuIHsgY2xpZW50LCBjaGFpbiwgcnBjVXJsIH07Cn0K
+import { createPublicClient, http, isAddress, isHex, type Address, type Hex } from "viem";
+import { aevumFork, aevumTestnet, localAnvil } from "@aevum-kit/aevum";
+
+export function required(name: string): string {
+  const v = process.env[name]?.trim();
+  if (!v) {
+    console.error(`Missing ${name}. Copy examples/.env.example to examples/.env and fill it in.`);
+    process.exit(1);
+  }
+  return v;
+}
+
+export function requiredAddress(name: string): Address {
+  const v = required(name);
+  if (!isAddress(v)) {
+    console.error(`${name} is not a valid address: ${v}`);
+    process.exit(1);
+  }
+  return v;
+}
+
+export function requiredKey(name: string): Hex {
+  const v = required(name);
+  const key = (v.startsWith("0x") ? v : `0x${v}`) as Hex;
+  if (!isHex(key) || key.length !== 66) {
+    console.error(`${name} must be a 32-byte hex private key.`);
+    process.exit(1);
+  }
+  return key;
+}
+
+/** Picks the chain from the RPC's chain ID: Aevum testnet, `make fork`, or plain anvil. */
+export async function connect() {
+  const rpcUrl = process.env.RPC_URL?.trim() || aevumTestnet.rpcUrls.default.http[0];
+  const probe = createPublicClient({ transport: http(rpcUrl) });
+  const id = await probe.getChainId();
+  const chain = id === aevumTestnet.id ? aevumTestnet : id === aevumFork.id ? aevumFork : { ...localAnvil, id };
+  const client = createPublicClient({ chain, transport: http(rpcUrl) });
+  return { client, chain, rpcUrl };
+}
