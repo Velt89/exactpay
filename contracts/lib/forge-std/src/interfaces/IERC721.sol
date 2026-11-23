@@ -1,1 +1,164 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgPj0wLjYuMjsKCmltcG9ydCAiLi9JRVJDMTY1LnNvbCI7CgovLy8gQHRpdGxlIEVSQy03MjEgTm9uLUZ1bmdpYmxlIFRva2VuIFN0YW5kYXJkCi8vLyBAZGV2IFNlZSBodHRwczovL2VpcHMuZXRoZXJldW0ub3JnL0VJUFMvZWlwLTcyMQovLy8gTm90ZTogdGhlIEVSQy0xNjUgaWRlbnRpZmllciBmb3IgdGhpcyBpbnRlcmZhY2UgaXMgMHg4MGFjNThjZC4KaW50ZXJmYWNlIElFUkM3MjEgaXMgSUVSQzE2NSB7CiAgICAvLy8gQGRldiBUaGlzIGVtaXRzIHdoZW4gb3duZXJzaGlwIG9mIGFueSBORlQgY2hhbmdlcyBieSBhbnkgbWVjaGFuaXNtLgogICAgLy8vIFRoaXMgZXZlbnQgZW1pdHMgd2hlbiBORlRzIGFyZSBjcmVhdGVkIChgZnJvbWAgPT0gMCkgYW5kIGRlc3Ryb3llZAogICAgLy8vIChgdG9gID09IDApLiBFeGNlcHRpb246IGR1cmluZyBjb250cmFjdCBjcmVhdGlvbiwgYW55IG51bWJlciBvZiBORlRzCiAgICAvLy8gbWF5IGJlIGNyZWF0ZWQgYW5kIGFzc2lnbmVkIHdpdGhvdXQgZW1pdHRpbmcgVHJhbnNmZXIuIEF0IHRoZSB0aW1lIG9mCiAgICAvLy8gYW55IHRyYW5zZmVyLCB0aGUgYXBwcm92ZWQgYWRkcmVzcyBmb3IgdGhhdCBORlQgKGlmIGFueSkgaXMgcmVzZXQgdG8gbm9uZS4KICAgIGV2ZW50IFRyYW5zZmVyKGFkZHJlc3MgaW5kZXhlZCBfZnJvbSwgYWRkcmVzcyBpbmRleGVkIF90bywgdWludDI1NiBpbmRleGVkIF90b2tlbklkKTsKCiAgICAvLy8gQGRldiBUaGlzIGVtaXRzIHdoZW4gdGhlIGFwcHJvdmVkIGFkZHJlc3MgZm9yIGFuIE5GVCBpcyBjaGFuZ2VkIG9yCiAgICAvLy8gcmVhZmZpcm1lZC4gVGhlIHplcm8gYWRkcmVzcyBpbmRpY2F0ZXMgdGhlcmUgaXMgbm8gYXBwcm92ZWQgYWRkcmVzcy4KICAgIC8vLyBXaGVuIGEgVHJhbnNmZXIgZXZlbnQgZW1pdHMsIHRoaXMgYWxzbyBpbmRpY2F0ZXMgdGhhdCB0aGUgYXBwcm92ZWQKICAgIC8vLyBhZGRyZXNzIGZvciB0aGF0IE5GVCAoaWYgYW55KSBpcyByZXNldCB0byBub25lLgogICAgZXZlbnQgQXBwcm92YWwoYWRkcmVzcyBpbmRleGVkIF9vd25lciwgYWRkcmVzcyBpbmRleGVkIF9hcHByb3ZlZCwgdWludDI1NiBpbmRleGVkIF90b2tlbklkKTsKCiAgICAvLy8gQGRldiBUaGlzIGVtaXRzIHdoZW4gYW4gb3BlcmF0b3IgaXMgZW5hYmxlZCBvciBkaXNhYmxlZCBmb3IgYW4gb3duZXIuCiAgICAvLy8gVGhlIG9wZXJhdG9yIGNhbiBtYW5hZ2UgYWxsIE5GVHMgb2YgdGhlIG93bmVyLgogICAgZXZlbnQgQXBwcm92YWxGb3JBbGwoYWRkcmVzcyBpbmRleGVkIF9vd25lciwgYWRkcmVzcyBpbmRleGVkIF9vcGVyYXRvciwgYm9vbCBfYXBwcm92ZWQpOwoKICAgIC8vLyBAbm90aWNlIENvdW50IGFsbCBORlRzIGFzc2lnbmVkIHRvIGFuIG93bmVyCiAgICAvLy8gQGRldiBORlRzIGFzc2lnbmVkIHRvIHRoZSB6ZXJvIGFkZHJlc3MgYXJlIGNvbnNpZGVyZWQgaW52YWxpZCwgYW5kIHRoaXMKICAgIC8vLyBmdW5jdGlvbiB0aHJvd3MgZm9yIHF1ZXJpZXMgYWJvdXQgdGhlIHplcm8gYWRkcmVzcy4KICAgIC8vLyBAcGFyYW0gX293bmVyIEFuIGFkZHJlc3MgZm9yIHdob20gdG8gcXVlcnkgdGhlIGJhbGFuY2UKICAgIC8vLyBAcmV0dXJuIFRoZSBudW1iZXIgb2YgTkZUcyBvd25lZCBieSBgX293bmVyYCwgcG9zc2libHkgemVybwogICAgZnVuY3Rpb24gYmFsYW5jZU9mKGFkZHJlc3MgX293bmVyKSBleHRlcm5hbCB2aWV3IHJldHVybnMgKHVpbnQyNTYpOwoKICAgIC8vLyBAbm90aWNlIEZpbmQgdGhlIG93bmVyIG9mIGFuIE5GVAogICAgLy8vIEBkZXYgTkZUcyBhc3NpZ25lZCB0byB6ZXJvIGFkZHJlc3MgYXJlIGNvbnNpZGVyZWQgaW52YWxpZCwgYW5kIHF1ZXJpZXMKICAgIC8vLyBhYm91dCB0aGVtIGRvIHRocm93LgogICAgLy8vIEBwYXJhbSBfdG9rZW5JZCBUaGUgaWRlbnRpZmllciBmb3IgYW4gTkZUCiAgICAvLy8gQHJldHVybiBUaGUgYWRkcmVzcyBvZiB0aGUgb3duZXIgb2YgdGhlIE5GVAogICAgZnVuY3Rpb24gb3duZXJPZih1aW50MjU2IF90b2tlbklkKSBleHRlcm5hbCB2aWV3IHJldHVybnMgKGFkZHJlc3MpOwoKICAgIC8vLyBAbm90aWNlIFRyYW5zZmVycyB0aGUgb3duZXJzaGlwIG9mIGFuIE5GVCBmcm9tIG9uZSBhZGRyZXNzIHRvIGFub3RoZXIgYWRkcmVzcwogICAgLy8vIEBkZXYgVGhyb3dzIHVubGVzcyBgbXNnLnNlbmRlcmAgaXMgdGhlIGN1cnJlbnQgb3duZXIsIGFuIGF1dGhvcml6ZWQKICAgIC8vLyBvcGVyYXRvciwgb3IgdGhlIGFwcHJvdmVkIGFkZHJlc3MgZm9yIHRoaXMgTkZULiBUaHJvd3MgaWYgYF9mcm9tYCBpcwogICAgLy8vIG5vdCB0aGUgY3VycmVudCBvd25lci4gVGhyb3dzIGlmIGBfdG9gIGlzIHRoZSB6ZXJvIGFkZHJlc3MuIFRocm93cyBpZgogICAgLy8vIGBfdG9rZW5JZGAgaXMgbm90IGEgdmFsaWQgTkZULiBXaGVuIHRyYW5zZmVyIGlzIGNvbXBsZXRlLCB0aGlzIGZ1bmN0aW9uCiAgICAvLy8gY2hlY2tzIGlmIGBfdG9gIGlzIGEgc21hcnQgY29udHJhY3QgKGNvZGUgc2l6ZSA+IDApLiBJZiBzbywgaXQgY2FsbHMKICAgIC8vLyBgb25FUkM3MjFSZWNlaXZlZGAgb24gYF90b2AgYW5kIHRocm93cyBpZiB0aGUgcmV0dXJuIHZhbHVlIGlzIG5vdAogICAgLy8vIGBieXRlczQoa2VjY2FrMjU2KCJvbkVSQzcyMVJlY2VpdmVkKGFkZHJlc3MsYWRkcmVzcyx1aW50MjU2LGJ5dGVzKSIpKWAuCiAgICAvLy8gQHBhcmFtIF9mcm9tIFRoZSBjdXJyZW50IG93bmVyIG9mIHRoZSBORlQKICAgIC8vLyBAcGFyYW0gX3RvIFRoZSBuZXcgb3duZXIKICAgIC8vLyBAcGFyYW0gX3Rva2VuSWQgVGhlIE5GVCB0byB0cmFuc2ZlcgogICAgLy8vIEBwYXJhbSBkYXRhIEFkZGl0aW9uYWwgZGF0YSB3aXRoIG5vIHNwZWNpZmllZCBmb3JtYXQsIHNlbnQgaW4gY2FsbCB0byBgX3RvYAogICAgZnVuY3Rpb24gc2FmZVRyYW5zZmVyRnJvbShhZGRyZXNzIF9mcm9tLCBhZGRyZXNzIF90bywgdWludDI1NiBfdG9rZW5JZCwgYnl0ZXMgY2FsbGRhdGEgZGF0YSkgZXh0ZXJuYWwgcGF5YWJsZTsKCiAgICAvLy8gQG5vdGljZSBUcmFuc2ZlcnMgdGhlIG93bmVyc2hpcCBvZiBhbiBORlQgZnJvbSBvbmUgYWRkcmVzcyB0byBhbm90aGVyIGFkZHJlc3MKICAgIC8vLyBAZGV2IFRoaXMgd29ya3MgaWRlbnRpY2FsbHkgdG8gdGhlIG90aGVyIGZ1bmN0aW9uIHdpdGggYW4gZXh0cmEgZGF0YSBwYXJhbWV0ZXIsCiAgICAvLy8gZXhjZXB0IHRoaXMgZnVuY3Rpb24ganVzdCBzZXRzIGRhdGEgdG8gIiIuCiAgICAvLy8gQHBhcmFtIF9mcm9tIFRoZSBjdXJyZW50IG93bmVyIG9mIHRoZSBORlQKICAgIC8vLyBAcGFyYW0gX3RvIFRoZSBuZXcgb3duZXIKICAgIC8vLyBAcGFyYW0gX3Rva2VuSWQgVGhlIE5GVCB0byB0cmFuc2ZlcgogICAgZnVuY3Rpb24gc2FmZVRyYW5zZmVyRnJvbShhZGRyZXNzIF9mcm9tLCBhZGRyZXNzIF90bywgdWludDI1NiBfdG9rZW5JZCkgZXh0ZXJuYWwgcGF5YWJsZTsKCiAgICAvLy8gQG5vdGljZSBUcmFuc2ZlciBvd25lcnNoaXAgb2YgYW4gTkZUIC0tIFRIRSBDQUxMRVIgSVMgUkVTUE9OU0lCTEUKICAgIC8vLyBUTyBDT05GSVJNIFRIQVQgYF90b2AgSVMgQ0FQQUJMRSBPRiBSRUNFSVZJTkcgTkZUUyBPUiBFTFNFCiAgICAvLy8gVEhFWSBNQVkgQkUgUEVSTUFORU5UTFkgTE9TVAogICAgLy8vIEBkZXYgVGhyb3dzIHVubGVzcyBgbXNnLnNlbmRlcmAgaXMgdGhlIGN1cnJlbnQgb3duZXIsIGFuIGF1dGhvcml6ZWQKICAgIC8vLyBvcGVyYXRvciwgb3IgdGhlIGFwcHJvdmVkIGFkZHJlc3MgZm9yIHRoaXMgTkZULiBUaHJvd3MgaWYgYF9mcm9tYCBpcwogICAgLy8vIG5vdCB0aGUgY3VycmVudCBvd25lci4gVGhyb3dzIGlmIGBfdG9gIGlzIHRoZSB6ZXJvIGFkZHJlc3MuIFRocm93cyBpZgogICAgLy8vIGBfdG9rZW5JZGAgaXMgbm90IGEgdmFsaWQgTkZULgogICAgLy8vIEBwYXJhbSBfZnJvbSBUaGUgY3VycmVudCBvd25lciBvZiB0aGUgTkZUCiAgICAvLy8gQHBhcmFtIF90byBUaGUgbmV3IG93bmVyCiAgICAvLy8gQHBhcmFtIF90b2tlbklkIFRoZSBORlQgdG8gdHJhbnNmZXIKICAgIGZ1bmN0aW9uIHRyYW5zZmVyRnJvbShhZGRyZXNzIF9mcm9tLCBhZGRyZXNzIF90bywgdWludDI1NiBfdG9rZW5JZCkgZXh0ZXJuYWwgcGF5YWJsZTsKCiAgICAvLy8gQG5vdGljZSBDaGFuZ2Ugb3IgcmVhZmZpcm0gdGhlIGFwcHJvdmVkIGFkZHJlc3MgZm9yIGFuIE5GVAogICAgLy8vIEBkZXYgVGhlIHplcm8gYWRkcmVzcyBpbmRpY2F0ZXMgdGhlcmUgaXMgbm8gYXBwcm92ZWQgYWRkcmVzcy4KICAgIC8vLyBUaHJvd3MgdW5sZXNzIGBtc2cuc2VuZGVyYCBpcyB0aGUgY3VycmVudCBORlQgb3duZXIsIG9yIGFuIGF1dGhvcml6ZWQKICAgIC8vLyBvcGVyYXRvciBvZiB0aGUgY3VycmVudCBvd25lci4KICAgIC8vLyBAcGFyYW0gX2FwcHJvdmVkIFRoZSBuZXcgYXBwcm92ZWQgTkZUIGNvbnRyb2xsZXIKICAgIC8vLyBAcGFyYW0gX3Rva2VuSWQgVGhlIE5GVCB0byBhcHByb3ZlCiAgICBmdW5jdGlvbiBhcHByb3ZlKGFkZHJlc3MgX2FwcHJvdmVkLCB1aW50MjU2IF90b2tlbklkKSBleHRlcm5hbCBwYXlhYmxlOwoKICAgIC8vLyBAbm90aWNlIEVuYWJsZSBvciBkaXNhYmxlIGFwcHJvdmFsIGZvciBhIHRoaXJkIHBhcnR5ICgib3BlcmF0b3IiKSB0byBtYW5hZ2UKICAgIC8vLyBhbGwgb2YgYG1zZy5zZW5kZXJgJ3MgYXNzZXRzCiAgICAvLy8gQGRldiBFbWl0cyB0aGUgQXBwcm92YWxGb3JBbGwgZXZlbnQuIFRoZSBjb250cmFjdCBNVVNUIGFsbG93CiAgICAvLy8gbXVsdGlwbGUgb3BlcmF0b3JzIHBlciBvd25lci4KICAgIC8vLyBAcGFyYW0gX29wZXJhdG9yIEFkZHJlc3MgdG8gYWRkIHRvIHRoZSBzZXQgb2YgYXV0aG9yaXplZCBvcGVyYXRvcnMKICAgIC8vLyBAcGFyYW0gX2FwcHJvdmVkIFRydWUgaWYgdGhlIG9wZXJhdG9yIGlzIGFwcHJvdmVkLCBmYWxzZSB0byByZXZva2UgYXBwcm92YWwKICAgIGZ1bmN0aW9uIHNldEFwcHJvdmFsRm9yQWxsKGFkZHJlc3MgX29wZXJhdG9yLCBib29sIF9hcHByb3ZlZCkgZXh0ZXJuYWw7CgogICAgLy8vIEBub3RpY2UgR2V0IHRoZSBhcHByb3ZlZCBhZGRyZXNzIGZvciBhIHNpbmdsZSBORlQKICAgIC8vLyBAZGV2IFRocm93cyBpZiBgX3Rva2VuSWRgIGlzIG5vdCBhIHZhbGlkIE5GVC4KICAgIC8vLyBAcGFyYW0gX3Rva2VuSWQgVGhlIE5GVCB0byBmaW5kIHRoZSBhcHByb3ZlZCBhZGRyZXNzIGZvcgogICAgLy8vIEByZXR1cm4gVGhlIGFwcHJvdmVkIGFkZHJlc3MgZm9yIHRoaXMgTkZULCBvciB0aGUgemVybyBhZGRyZXNzIGlmIHRoZXJlIGlzIG5vbmUKICAgIGZ1bmN0aW9uIGdldEFwcHJvdmVkKHVpbnQyNTYgX3Rva2VuSWQpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAoYWRkcmVzcyk7CgogICAgLy8vIEBub3RpY2UgUXVlcnkgaWYgYW4gYWRkcmVzcyBpcyBhbiBhdXRob3JpemVkIG9wZXJhdG9yIGZvciBhbm90aGVyIGFkZHJlc3MKICAgIC8vLyBAcGFyYW0gX293bmVyIFRoZSBhZGRyZXNzIHRoYXQgb3ducyB0aGUgTkZUcwogICAgLy8vIEBwYXJhbSBfb3BlcmF0b3IgVGhlIGFkZHJlc3MgdGhhdCBhY3RzIG9uIGJlaGFsZiBvZiB0aGUgb3duZXIKICAgIC8vLyBAcmV0dXJuIFRydWUgaWYgYF9vcGVyYXRvcmAgaXMgYW4gYXBwcm92ZWQgb3BlcmF0b3IgZm9yIGBfb3duZXJgLCBmYWxzZSBvdGhlcndpc2UKICAgIGZ1bmN0aW9uIGlzQXBwcm92ZWRGb3JBbGwoYWRkcmVzcyBfb3duZXIsIGFkZHJlc3MgX29wZXJhdG9yKSBleHRlcm5hbCB2aWV3IHJldHVybnMgKGJvb2wpOwp9CgovLy8gQGRldiBOb3RlOiB0aGUgRVJDLTE2NSBpZGVudGlmaWVyIGZvciB0aGlzIGludGVyZmFjZSBpcyAweDE1MGI3YTAyLgppbnRlcmZhY2UgSUVSQzcyMVRva2VuUmVjZWl2ZXIgewogICAgLy8vIEBub3RpY2UgSGFuZGxlIHRoZSByZWNlaXB0IG9mIGFuIE5GVAogICAgLy8vIEBkZXYgVGhlIEVSQzcyMSBzbWFydCBjb250cmFjdCBjYWxscyB0aGlzIGZ1bmN0aW9uIG9uIHRoZSByZWNpcGllbnQKICAgIC8vLyBhZnRlciBhIGB0cmFuc2ZlcmAuIFRoaXMgZnVuY3Rpb24gTUFZIHRocm93IHRvIHJldmVydCBhbmQgcmVqZWN0IHRoZQogICAgLy8vIHRyYW5zZmVyLiBSZXR1cm4gb2Ygb3RoZXIgdGhhbiB0aGUgbWFnaWMgdmFsdWUgTVVTVCByZXN1bHQgaW4gdGhlCiAgICAvLy8gdHJhbnNhY3Rpb24gYmVpbmcgcmV2ZXJ0ZWQuCiAgICAvLy8gTm90ZTogdGhlIGNvbnRyYWN0IGFkZHJlc3MgaXMgYWx3YXlzIHRoZSBtZXNzYWdlIHNlbmRlci4KICAgIC8vLyBAcGFyYW0gX29wZXJhdG9yIFRoZSBhZGRyZXNzIHdoaWNoIGNhbGxlZCBgc2FmZVRyYW5zZmVyRnJvbWAgZnVuY3Rpb24KICAgIC8vLyBAcGFyYW0gX2Zyb20gVGhlIGFkZHJlc3Mgd2hpY2ggcHJldmlvdXNseSBvd25lZCB0aGUgdG9rZW4KICAgIC8vLyBAcGFyYW0gX3Rva2VuSWQgVGhlIE5GVCBpZGVudGlmaWVyIHdoaWNoIGlzIGJlaW5nIHRyYW5zZmVycmVkCiAgICAvLy8gQHBhcmFtIF9kYXRhIEFkZGl0aW9uYWwgZGF0YSB3aXRoIG5vIHNwZWNpZmllZCBmb3JtYXQKICAgIC8vLyBAcmV0dXJuIGBieXRlczQoa2VjY2FrMjU2KCJvbkVSQzcyMVJlY2VpdmVkKGFkZHJlc3MsYWRkcmVzcyx1aW50MjU2LGJ5dGVzKSIpKWAKICAgIC8vLyAgdW5sZXNzIHRocm93aW5nCiAgICBmdW5jdGlvbiBvbkVSQzcyMVJlY2VpdmVkKGFkZHJlc3MgX29wZXJhdG9yLCBhZGRyZXNzIF9mcm9tLCB1aW50MjU2IF90b2tlbklkLCBieXRlcyBjYWxsZGF0YSBfZGF0YSkKICAgICAgICBleHRlcm5hbAogICAgICAgIHJldHVybnMgKGJ5dGVzNCk7Cn0KCi8vLyBAdGl0bGUgRVJDLTcyMSBOb24tRnVuZ2libGUgVG9rZW4gU3RhbmRhcmQsIG9wdGlvbmFsIG1ldGFkYXRhIGV4dGVuc2lvbgovLy8gQGRldiBTZWUgaHR0cHM6Ly9laXBzLmV0aGVyZXVtLm9yZy9FSVBTL2VpcC03MjEKLy8vIE5vdGU6IHRoZSBFUkMtMTY1IGlkZW50aWZpZXIgZm9yIHRoaXMgaW50ZXJmYWNlIGlzIDB4NWI1ZTEzOWYuCmludGVyZmFjZSBJRVJDNzIxTWV0YWRhdGEgaXMgSUVSQzcyMSB7CiAgICAvLy8gQG5vdGljZSBBIGRlc2NyaXB0aXZlIG5hbWUgZm9yIGEgY29sbGVjdGlvbiBvZiBORlRzIGluIHRoaXMgY29udHJhY3QKICAgIGZ1bmN0aW9uIG5hbWUoKSBleHRlcm5hbCB2aWV3IHJldHVybnMgKHN0cmluZyBtZW1vcnkgX25hbWUpOwoKICAgIC8vLyBAbm90aWNlIEFuIGFiYnJldmlhdGVkIG5hbWUgZm9yIE5GVHMgaW4gdGhpcyBjb250cmFjdAogICAgZnVuY3Rpb24gc3ltYm9sKCkgZXh0ZXJuYWwgdmlldyByZXR1cm5zIChzdHJpbmcgbWVtb3J5IF9zeW1ib2wpOwoKICAgIC8vLyBAbm90aWNlIEEgZGlzdGluY3QgVW5pZm9ybSBSZXNvdXJjZSBJZGVudGlmaWVyIChVUkkpIGZvciBhIGdpdmVuIGFzc2V0LgogICAgLy8vIEBkZXYgVGhyb3dzIGlmIGBfdG9rZW5JZGAgaXMgbm90IGEgdmFsaWQgTkZULiBVUklzIGFyZSBkZWZpbmVkIGluIFJGQwogICAgLy8vIDM5ODYuIFRoZSBVUkkgbWF5IHBvaW50IHRvIGEgSlNPTiBmaWxlIHRoYXQgY29uZm9ybXMgdG8gdGhlICJFUkM3MjEKICAgIC8vLyBNZXRhZGF0YSBKU09OIFNjaGVtYSIuCiAgICBmdW5jdGlvbiB0b2tlblVSSSh1aW50MjU2IF90b2tlbklkKSBleHRlcm5hbCB2aWV3IHJldHVybnMgKHN0cmluZyBtZW1vcnkpOwp9CgovLy8gQHRpdGxlIEVSQy03MjEgTm9uLUZ1bmdpYmxlIFRva2VuIFN0YW5kYXJkLCBvcHRpb25hbCBlbnVtZXJhdGlvbiBleHRlbnNpb24KLy8vIEBkZXYgU2VlIGh0dHBzOi8vZWlwcy5ldGhlcmV1bS5vcmcvRUlQUy9laXAtNzIxCi8vLyBOb3RlOiB0aGUgRVJDLTE2NSBpZGVudGlmaWVyIGZvciB0aGlzIGludGVyZmFjZSBpcyAweDc4MGU5ZDYzLgppbnRlcmZhY2UgSUVSQzcyMUVudW1lcmFibGUgaXMgSUVSQzcyMSB7CiAgICAvLy8gQG5vdGljZSBDb3VudCBORlRzIHRyYWNrZWQgYnkgdGhpcyBjb250cmFjdAogICAgLy8vIEByZXR1cm4gQSBjb3VudCBvZiB2YWxpZCBORlRzIHRyYWNrZWQgYnkgdGhpcyBjb250cmFjdCwgd2hlcmUgZWFjaCBvbmUgb2YKICAgIC8vLyB0aGVtIGhhcyBhbiBhc3NpZ25lZCBhbmQgcXVlcnlhYmxlIG93bmVyIG5vdCBlcXVhbCB0byB0aGUgemVybyBhZGRyZXNzCiAgICBmdW5jdGlvbiB0b3RhbFN1cHBseSgpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAodWludDI1Nik7CgogICAgLy8vIEBub3RpY2UgRW51bWVyYXRlIHZhbGlkIE5GVHMKICAgIC8vLyBAZGV2IFRocm93cyBpZiBgX2luZGV4YCA+PSBgdG90YWxTdXBwbHkoKWAuCiAgICAvLy8gQHBhcmFtIF9pbmRleCBBIGNvdW50ZXIgbGVzcyB0aGFuIGB0b3RhbFN1cHBseSgpYAogICAgLy8vIEByZXR1cm4gVGhlIHRva2VuIGlkZW50aWZpZXIgZm9yIHRoZSBgX2luZGV4YHRoIE5GVCwKICAgIC8vLyAoc29ydCBvcmRlciBub3Qgc3BlY2lmaWVkKQogICAgZnVuY3Rpb24gdG9rZW5CeUluZGV4KHVpbnQyNTYgX2luZGV4KSBleHRlcm5hbCB2aWV3IHJldHVybnMgKHVpbnQyNTYpOwoKICAgIC8vLyBAbm90aWNlIEVudW1lcmF0ZSBORlRzIGFzc2lnbmVkIHRvIGFuIG93bmVyCiAgICAvLy8gQGRldiBUaHJvd3MgaWYgYF9pbmRleGAgPj0gYGJhbGFuY2VPZihfb3duZXIpYCBvciBpZgogICAgLy8vIGBfb3duZXJgIGlzIHRoZSB6ZXJvIGFkZHJlc3MsIHJlcHJlc2VudGluZyBpbnZhbGlkIE5GVHMuCiAgICAvLy8gQHBhcmFtIF9vd25lciBBbiBhZGRyZXNzIHdoZXJlIHdlIGFyZSBpbnRlcmVzdGVkIGluIE5GVHMgb3duZWQgYnkgdGhlbQogICAgLy8vIEBwYXJhbSBfaW5kZXggQSBjb3VudGVyIGxlc3MgdGhhbiBgYmFsYW5jZU9mKF9vd25lcilgCiAgICAvLy8gQHJldHVybiBUaGUgdG9rZW4gaWRlbnRpZmllciBmb3IgdGhlIGBfaW5kZXhgdGggTkZUIGFzc2lnbmVkIHRvIGBfb3duZXJgLAogICAgLy8vIChzb3J0IG9yZGVyIG5vdCBzcGVjaWZpZWQpCiAgICBmdW5jdGlvbiB0b2tlbk9mT3duZXJCeUluZGV4KGFkZHJlc3MgX293bmVyLCB1aW50MjU2IF9pbmRleCkgZXh0ZXJuYWwgdmlldyByZXR1cm5zICh1aW50MjU2KTsKfQo=
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.6.2;
+
+import "./IERC165.sol";
+
+/// @title ERC-721 Non-Fungible Token Standard
+/// @dev See https://eips.ethereum.org/EIPS/eip-721
+/// Note: the ERC-165 identifier for this interface is 0x80ac58cd.
+interface IERC721 is IERC165 {
+    /// @dev This emits when ownership of any NFT changes by any mechanism.
+    /// This event emits when NFTs are created (`from` == 0) and destroyed
+    /// (`to` == 0). Exception: during contract creation, any number of NFTs
+    /// may be created and assigned without emitting Transfer. At the time of
+    /// any transfer, the approved address for that NFT (if any) is reset to none.
+    event Transfer(address indexed _from, address indexed _to, uint256 indexed _tokenId);
+
+    /// @dev This emits when the approved address for an NFT is changed or
+    /// reaffirmed. The zero address indicates there is no approved address.
+    /// When a Transfer event emits, this also indicates that the approved
+    /// address for that NFT (if any) is reset to none.
+    event Approval(address indexed _owner, address indexed _approved, uint256 indexed _tokenId);
+
+    /// @dev This emits when an operator is enabled or disabled for an owner.
+    /// The operator can manage all NFTs of the owner.
+    event ApprovalForAll(address indexed _owner, address indexed _operator, bool _approved);
+
+    /// @notice Count all NFTs assigned to an owner
+    /// @dev NFTs assigned to the zero address are considered invalid, and this
+    /// function throws for queries about the zero address.
+    /// @param _owner An address for whom to query the balance
+    /// @return The number of NFTs owned by `_owner`, possibly zero
+    function balanceOf(address _owner) external view returns (uint256);
+
+    /// @notice Find the owner of an NFT
+    /// @dev NFTs assigned to zero address are considered invalid, and queries
+    /// about them do throw.
+    /// @param _tokenId The identifier for an NFT
+    /// @return The address of the owner of the NFT
+    function ownerOf(uint256 _tokenId) external view returns (address);
+
+    /// @notice Transfers the ownership of an NFT from one address to another address
+    /// @dev Throws unless `msg.sender` is the current owner, an authorized
+    /// operator, or the approved address for this NFT. Throws if `_from` is
+    /// not the current owner. Throws if `_to` is the zero address. Throws if
+    /// `_tokenId` is not a valid NFT. When transfer is complete, this function
+    /// checks if `_to` is a smart contract (code size > 0). If so, it calls
+    /// `onERC721Received` on `_to` and throws if the return value is not
+    /// `bytes4(keccak256("onERC721Received(address,address,uint256,bytes)"))`.
+    /// @param _from The current owner of the NFT
+    /// @param _to The new owner
+    /// @param _tokenId The NFT to transfer
+    /// @param data Additional data with no specified format, sent in call to `_to`
+    function safeTransferFrom(address _from, address _to, uint256 _tokenId, bytes calldata data) external payable;
+
+    /// @notice Transfers the ownership of an NFT from one address to another address
+    /// @dev This works identically to the other function with an extra data parameter,
+    /// except this function just sets data to "".
+    /// @param _from The current owner of the NFT
+    /// @param _to The new owner
+    /// @param _tokenId The NFT to transfer
+    function safeTransferFrom(address _from, address _to, uint256 _tokenId) external payable;
+
+    /// @notice Transfer ownership of an NFT -- THE CALLER IS RESPONSIBLE
+    /// TO CONFIRM THAT `_to` IS CAPABLE OF RECEIVING NFTS OR ELSE
+    /// THEY MAY BE PERMANENTLY LOST
+    /// @dev Throws unless `msg.sender` is the current owner, an authorized
+    /// operator, or the approved address for this NFT. Throws if `_from` is
+    /// not the current owner. Throws if `_to` is the zero address. Throws if
+    /// `_tokenId` is not a valid NFT.
+    /// @param _from The current owner of the NFT
+    /// @param _to The new owner
+    /// @param _tokenId The NFT to transfer
+    function transferFrom(address _from, address _to, uint256 _tokenId) external payable;
+
+    /// @notice Change or reaffirm the approved address for an NFT
+    /// @dev The zero address indicates there is no approved address.
+    /// Throws unless `msg.sender` is the current NFT owner, or an authorized
+    /// operator of the current owner.
+    /// @param _approved The new approved NFT controller
+    /// @param _tokenId The NFT to approve
+    function approve(address _approved, uint256 _tokenId) external payable;
+
+    /// @notice Enable or disable approval for a third party ("operator") to manage
+    /// all of `msg.sender`'s assets
+    /// @dev Emits the ApprovalForAll event. The contract MUST allow
+    /// multiple operators per owner.
+    /// @param _operator Address to add to the set of authorized operators
+    /// @param _approved True if the operator is approved, false to revoke approval
+    function setApprovalForAll(address _operator, bool _approved) external;
+
+    /// @notice Get the approved address for a single NFT
+    /// @dev Throws if `_tokenId` is not a valid NFT.
+    /// @param _tokenId The NFT to find the approved address for
+    /// @return The approved address for this NFT, or the zero address if there is none
+    function getApproved(uint256 _tokenId) external view returns (address);
+
+    /// @notice Query if an address is an authorized operator for another address
+    /// @param _owner The address that owns the NFTs
+    /// @param _operator The address that acts on behalf of the owner
+    /// @return True if `_operator` is an approved operator for `_owner`, false otherwise
+    function isApprovedForAll(address _owner, address _operator) external view returns (bool);
+}
+
+/// @dev Note: the ERC-165 identifier for this interface is 0x150b7a02.
+interface IERC721TokenReceiver {
+    /// @notice Handle the receipt of an NFT
+    /// @dev The ERC721 smart contract calls this function on the recipient
+    /// after a `transfer`. This function MAY throw to revert and reject the
+    /// transfer. Return of other than the magic value MUST result in the
+    /// transaction being reverted.
+    /// Note: the contract address is always the message sender.
+    /// @param _operator The address which called `safeTransferFrom` function
+    /// @param _from The address which previously owned the token
+    /// @param _tokenId The NFT identifier which is being transferred
+    /// @param _data Additional data with no specified format
+    /// @return `bytes4(keccak256("onERC721Received(address,address,uint256,bytes)"))`
+    ///  unless throwing
+    function onERC721Received(address _operator, address _from, uint256 _tokenId, bytes calldata _data)
+        external
+        returns (bytes4);
+}
+
+/// @title ERC-721 Non-Fungible Token Standard, optional metadata extension
+/// @dev See https://eips.ethereum.org/EIPS/eip-721
+/// Note: the ERC-165 identifier for this interface is 0x5b5e139f.
+interface IERC721Metadata is IERC721 {
+    /// @notice A descriptive name for a collection of NFTs in this contract
+    function name() external view returns (string memory _name);
+
+    /// @notice An abbreviated name for NFTs in this contract
+    function symbol() external view returns (string memory _symbol);
+
+    /// @notice A distinct Uniform Resource Identifier (URI) for a given asset.
+    /// @dev Throws if `_tokenId` is not a valid NFT. URIs are defined in RFC
+    /// 3986. The URI may point to a JSON file that conforms to the "ERC721
+    /// Metadata JSON Schema".
+    function tokenURI(uint256 _tokenId) external view returns (string memory);
+}
+
+/// @title ERC-721 Non-Fungible Token Standard, optional enumeration extension
+/// @dev See https://eips.ethereum.org/EIPS/eip-721
+/// Note: the ERC-165 identifier for this interface is 0x780e9d63.
+interface IERC721Enumerable is IERC721 {
+    /// @notice Count NFTs tracked by this contract
+    /// @return A count of valid NFTs tracked by this contract, where each one of
+    /// them has an assigned and queryable owner not equal to the zero address
+    function totalSupply() external view returns (uint256);
+
+    /// @notice Enumerate valid NFTs
+    /// @dev Throws if `_index` >= `totalSupply()`.
+    /// @param _index A counter less than `totalSupply()`
+    /// @return The token identifier for the `_index`th NFT,
+    /// (sort order not specified)
+    function tokenByIndex(uint256 _index) external view returns (uint256);
+
+    /// @notice Enumerate NFTs assigned to an owner
+    /// @dev Throws if `_index` >= `balanceOf(_owner)` or if
+    /// `_owner` is the zero address, representing invalid NFTs.
+    /// @param _owner An address where we are interested in NFTs owned by them
+    /// @param _index A counter less than `balanceOf(_owner)`
+    /// @return The token identifier for the `_index`th NFT assigned to `_owner`,
+    /// (sort order not specified)
+    function tokenOfOwnerByIndex(address _owner, uint256 _index) external view returns (uint256);
+}
