@@ -1,1 +1,488 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgPj0wLjcuMCA8MC45LjA7CgppbXBvcnQge3N0ZFN0b3JhZ2UsIFN0ZFN0b3JhZ2V9IGZyb20gIi4uL3NyYy9TdGRTdG9yYWdlLnNvbCI7CmltcG9ydCB7VGVzdH0gZnJvbSAiLi4vc3JjL1Rlc3Quc29sIjsKCmNvbnRyYWN0IFN0ZFN0b3JhZ2VUZXN0IGlzIFRlc3QgewogICAgdXNpbmcgc3RkU3RvcmFnZSBmb3IgU3RkU3RvcmFnZTsKCiAgICBTdG9yYWdlVGVzdCBpbnRlcm5hbCB0ZXN0OwoKICAgIGZ1bmN0aW9uIHNldFVwKCkgcHVibGljIHsKICAgICAgICB0ZXN0ID0gbmV3IFN0b3JhZ2VUZXN0KCk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9TdG9yYWdlSGlkZGVuKCkgcHVibGljIHsKICAgICAgICBhc3NlcnRFcSh1aW50MjU2KGtlY2NhazI1NigibXkucmFuZG9tLnZhciIpKSwgc3Rkc3RvcmUudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZygiaGlkZGVuKCkiKS5maW5kKCkpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfU3RvcmFnZU9idmlvdXMoKSBwdWJsaWMgewogICAgICAgIGFzc2VydEVxKHVpbnQyNTYoMCksIHN0ZHN0b3JlLnRhcmdldChhZGRyZXNzKHRlc3QpKS5zaWcoImV4aXN0cygpIikuZmluZCgpKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X1N0b3JhZ2VFeHRyYVNsb2FkKCkgcHVibGljIHsKICAgICAgICBhc3NlcnRFcSgxNiwgc3Rkc3RvcmUudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZyh0ZXN0LmV4dHJhX3Nsb2FkLnNlbGVjdG9yKS5maW5kKCkpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfU3RvcmFnZUNoZWNrZWRXcml0ZUhpZGRlbigpIHB1YmxpYyB7CiAgICAgICAgc3Rkc3RvcmUudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZyh0ZXN0LmhpZGRlbi5zZWxlY3RvcikuY2hlY2tlZF93cml0ZSgxMDApOwogICAgICAgIGFzc2VydEVxKHVpbnQyNTYodGVzdC5oaWRkZW4oKSksIDEwMCk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9TdG9yYWdlQ2hlY2tlZFdyaXRlT2J2aW91cygpIHB1YmxpYyB7CiAgICAgICAgc3Rkc3RvcmUudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZyh0ZXN0LmV4aXN0cy5zZWxlY3RvcikuY2hlY2tlZF93cml0ZSgxMDApOwogICAgICAgIGFzc2VydEVxKHRlc3QuZXhpc3RzKCksIDEwMCk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9TdG9yYWdlQ2hlY2tlZFdyaXRlU2lnbmVkSW50ZWdlckhpZGRlbigpIHB1YmxpYyB7CiAgICAgICAgc3Rkc3RvcmUudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZyh0ZXN0LmhpZGRlbi5zZWxlY3RvcikuY2hlY2tlZF93cml0ZV9pbnQoLTEwMCk7CiAgICAgICAgYXNzZXJ0RXEoaW50MjU2KHVpbnQyNTYodGVzdC5oaWRkZW4oKSkpLCAtMTAwKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X1N0b3JhZ2VDaGVja2VkV3JpdGVTaWduZWRJbnRlZ2VyT2J2aW91cygpIHB1YmxpYyB7CiAgICAgICAgc3Rkc3RvcmUudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZyh0ZXN0LnRHLnNlbGVjdG9yKS5jaGVja2VkX3dyaXRlX2ludCgtMTAwKTsKICAgICAgICBhc3NlcnRFcSh0ZXN0LnRHKCksIC0xMDApOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfU3RvcmFnZU1hcFN0cnVjdEEoKSBwdWJsaWMgewogICAgICAgIHVpbnQyNTYgc2xvdCA9CiAgICAgICAgICAgIHN0ZHN0b3JlLnRhcmdldChhZGRyZXNzKHRlc3QpKS5zaWcodGVzdC5tYXBfc3RydWN0LnNlbGVjdG9yKS53aXRoX2tleShhZGRyZXNzKHRoaXMpKS5kZXB0aCgwKS5maW5kKCk7CiAgICAgICAgYXNzZXJ0RXEodWludDI1NihrZWNjYWsyNTYoYWJpLmVuY29kZShhZGRyZXNzKHRoaXMpLCA0KSkpLCBzbG90KTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X1N0b3JhZ2VNYXBTdHJ1Y3RCKCkgcHVibGljIHsKICAgICAgICB1aW50MjU2IHNsb3QgPQogICAgICAgICAgICBzdGRzdG9yZS50YXJnZXQoYWRkcmVzcyh0ZXN0KSkuc2lnKHRlc3QubWFwX3N0cnVjdC5zZWxlY3Rvcikud2l0aF9rZXkoYWRkcmVzcyh0aGlzKSkuZGVwdGgoMSkuZmluZCgpOwogICAgICAgIGFzc2VydEVxKHVpbnQyNTYoa2VjY2FrMjU2KGFiaS5lbmNvZGUoYWRkcmVzcyh0aGlzKSwgNCkpKSArIDEsIHNsb3QpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfU3RvcmFnZURlZXBNYXAoKSBwdWJsaWMgewogICAgICAgIHVpbnQyNTYgc2xvdCA9IHN0ZHN0b3JlLnRhcmdldChhZGRyZXNzKHRlc3QpKS5zaWcodGVzdC5kZWVwX21hcC5zZWxlY3Rvcikud2l0aF9rZXkoYWRkcmVzcyh0aGlzKSkud2l0aF9rZXkoCiAgICAgICAgICAgIGFkZHJlc3ModGhpcykKICAgICAgICApLmZpbmQoKTsKICAgICAgICBhc3NlcnRFcSh1aW50MjU2KGtlY2NhazI1NihhYmkuZW5jb2RlKGFkZHJlc3ModGhpcyksIGtlY2NhazI1NihhYmkuZW5jb2RlKGFkZHJlc3ModGhpcyksIHVpbnQyNTYoNSkpKSkpKSwgc2xvdCk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9TdG9yYWdlQ2hlY2tlZFdyaXRlRGVlcE1hcCgpIHB1YmxpYyB7CiAgICAgICAgc3Rkc3RvcmUudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZyh0ZXN0LmRlZXBfbWFwLnNlbGVjdG9yKS53aXRoX2tleShhZGRyZXNzKHRoaXMpKS53aXRoX2tleShhZGRyZXNzKHRoaXMpKQogICAgICAgICAgICAuY2hlY2tlZF93cml0ZSgxMDApOwogICAgICAgIGFzc2VydEVxKDEwMCwgdGVzdC5kZWVwX21hcChhZGRyZXNzKHRoaXMpLCBhZGRyZXNzKHRoaXMpKSk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9TdG9yYWdlRGVlcE1hcFN0cnVjdEEoKSBwdWJsaWMgewogICAgICAgIHVpbnQyNTYgc2xvdCA9IHN0ZHN0b3JlLnRhcmdldChhZGRyZXNzKHRlc3QpKS5zaWcodGVzdC5kZWVwX21hcF9zdHJ1Y3Quc2VsZWN0b3IpLndpdGhfa2V5KGFkZHJlc3ModGhpcykpCiAgICAgICAgICAgIC53aXRoX2tleShhZGRyZXNzKHRoaXMpKS5kZXB0aCgwKS5maW5kKCk7CiAgICAgICAgYXNzZXJ0RXEoCiAgICAgICAgICAgIGJ5dGVzMzIodWludDI1NihrZWNjYWsyNTYoYWJpLmVuY29kZShhZGRyZXNzKHRoaXMpLCBrZWNjYWsyNTYoYWJpLmVuY29kZShhZGRyZXNzKHRoaXMpLCB1aW50MjU2KDYpKSkpKSkgKyAwKSwKICAgICAgICAgICAgYnl0ZXMzMihzbG90KQogICAgICAgICk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9TdG9yYWdlRGVlcE1hcFN0cnVjdEIoKSBwdWJsaWMgewogICAgICAgIHVpbnQyNTYgc2xvdCA9IHN0ZHN0b3JlLnRhcmdldChhZGRyZXNzKHRlc3QpKS5zaWcodGVzdC5kZWVwX21hcF9zdHJ1Y3Quc2VsZWN0b3IpLndpdGhfa2V5KGFkZHJlc3ModGhpcykpCiAgICAgICAgICAgIC53aXRoX2tleShhZGRyZXNzKHRoaXMpKS5kZXB0aCgxKS5maW5kKCk7CiAgICAgICAgYXNzZXJ0RXEoCiAgICAgICAgICAgIGJ5dGVzMzIodWludDI1NihrZWNjYWsyNTYoYWJpLmVuY29kZShhZGRyZXNzKHRoaXMpLCBrZWNjYWsyNTYoYWJpLmVuY29kZShhZGRyZXNzKHRoaXMpLCB1aW50MjU2KDYpKSkpKSkgKyAxKSwKICAgICAgICAgICAgYnl0ZXMzMihzbG90KQogICAgICAgICk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9TdG9yYWdlQ2hlY2tlZFdyaXRlRGVlcE1hcFN0cnVjdEEoKSBwdWJsaWMgewogICAgICAgIHN0ZHN0b3JlLnRhcmdldChhZGRyZXNzKHRlc3QpKS5zaWcodGVzdC5kZWVwX21hcF9zdHJ1Y3Quc2VsZWN0b3IpLndpdGhfa2V5KGFkZHJlc3ModGhpcykpLndpdGhfa2V5KAogICAgICAgICAgICBhZGRyZXNzKHRoaXMpCiAgICAgICAgKS5kZXB0aCgwKS5jaGVja2VkX3dyaXRlKDEwMCk7CiAgICAgICAgKHVpbnQyNTYgYSwgdWludDI1NiBiKSA9IHRlc3QuZGVlcF9tYXBfc3RydWN0KGFkZHJlc3ModGhpcyksIGFkZHJlc3ModGhpcykpOwogICAgICAgIGFzc2VydEVxKDEwMCwgYSk7CiAgICAgICAgYXNzZXJ0RXEoMCwgYik7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9TdG9yYWdlQ2hlY2tlZFdyaXRlRGVlcE1hcFN0cnVjdEIoKSBwdWJsaWMgewogICAgICAgIHN0ZHN0b3JlLnRhcmdldChhZGRyZXNzKHRlc3QpKS5zaWcodGVzdC5kZWVwX21hcF9zdHJ1Y3Quc2VsZWN0b3IpLndpdGhfa2V5KGFkZHJlc3ModGhpcykpLndpdGhfa2V5KAogICAgICAgICAgICBhZGRyZXNzKHRoaXMpCiAgICAgICAgKS5kZXB0aCgxKS5jaGVja2VkX3dyaXRlKDEwMCk7CiAgICAgICAgKHVpbnQyNTYgYSwgdWludDI1NiBiKSA9IHRlc3QuZGVlcF9tYXBfc3RydWN0KGFkZHJlc3ModGhpcyksIGFkZHJlc3ModGhpcykpOwogICAgICAgIGFzc2VydEVxKDAsIGEpOwogICAgICAgIGFzc2VydEVxKDEwMCwgYik7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9TdG9yYWdlQ2hlY2tlZFdyaXRlTWFwU3RydWN0QSgpIHB1YmxpYyB7CiAgICAgICAgc3Rkc3RvcmUudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZyh0ZXN0Lm1hcF9zdHJ1Y3Quc2VsZWN0b3IpLndpdGhfa2V5KGFkZHJlc3ModGhpcykpLmRlcHRoKDApLmNoZWNrZWRfd3JpdGUoMTAwKTsKICAgICAgICAodWludDI1NiBhLCB1aW50MjU2IGIpID0gdGVzdC5tYXBfc3RydWN0KGFkZHJlc3ModGhpcykpOwogICAgICAgIGFzc2VydEVxKGEsIDEwMCk7CiAgICAgICAgYXNzZXJ0RXEoYiwgMCk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9TdG9yYWdlQ2hlY2tlZFdyaXRlTWFwU3RydWN0QigpIHB1YmxpYyB7CiAgICAgICAgc3Rkc3RvcmUudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZyh0ZXN0Lm1hcF9zdHJ1Y3Quc2VsZWN0b3IpLndpdGhfa2V5KGFkZHJlc3ModGhpcykpLmRlcHRoKDEpLmNoZWNrZWRfd3JpdGUoMTAwKTsKICAgICAgICAodWludDI1NiBhLCB1aW50MjU2IGIpID0gdGVzdC5tYXBfc3RydWN0KGFkZHJlc3ModGhpcykpOwogICAgICAgIGFzc2VydEVxKGEsIDApOwogICAgICAgIGFzc2VydEVxKGIsIDEwMCk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9TdG9yYWdlU3RydWN0QSgpIHB1YmxpYyB7CiAgICAgICAgdWludDI1NiBzbG90ID0gc3Rkc3RvcmUudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZyh0ZXN0LmJhc2ljLnNlbGVjdG9yKS5kZXB0aCgwKS5maW5kKCk7CiAgICAgICAgYXNzZXJ0RXEodWludDI1Nig3KSwgc2xvdCk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9TdG9yYWdlU3RydWN0QigpIHB1YmxpYyB7CiAgICAgICAgdWludDI1NiBzbG90ID0gc3Rkc3RvcmUudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZyh0ZXN0LmJhc2ljLnNlbGVjdG9yKS5kZXB0aCgxKS5maW5kKCk7CiAgICAgICAgYXNzZXJ0RXEodWludDI1Nig3KSArIDEsIHNsb3QpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfU3RvcmFnZUNoZWNrZWRXcml0ZVN0cnVjdEEoKSBwdWJsaWMgewogICAgICAgIHN0ZHN0b3JlLnRhcmdldChhZGRyZXNzKHRlc3QpKS5zaWcodGVzdC5iYXNpYy5zZWxlY3RvcikuZGVwdGgoMCkuY2hlY2tlZF93cml0ZSgxMDApOwogICAgICAgICh1aW50MjU2IGEsIHVpbnQyNTYgYikgPSB0ZXN0LmJhc2ljKCk7CiAgICAgICAgYXNzZXJ0RXEoYSwgMTAwKTsKICAgICAgICBhc3NlcnRFcShiLCAxMzM3KTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X1N0b3JhZ2VDaGVja2VkV3JpdGVTdHJ1Y3RCKCkgcHVibGljIHsKICAgICAgICBzdGRzdG9yZS50YXJnZXQoYWRkcmVzcyh0ZXN0KSkuc2lnKHRlc3QuYmFzaWMuc2VsZWN0b3IpLmRlcHRoKDEpLmNoZWNrZWRfd3JpdGUoMTAwKTsKICAgICAgICAodWludDI1NiBhLCB1aW50MjU2IGIpID0gdGVzdC5iYXNpYygpOwogICAgICAgIGFzc2VydEVxKGEsIDEzMzcpOwogICAgICAgIGFzc2VydEVxKGIsIDEwMCk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9TdG9yYWdlTWFwQWRkckZvdW5kKCkgcHVibGljIHsKICAgICAgICB1aW50MjU2IHNsb3QgPSBzdGRzdG9yZS50YXJnZXQoYWRkcmVzcyh0ZXN0KSkuc2lnKHRlc3QubWFwX2FkZHIuc2VsZWN0b3IpLndpdGhfa2V5KGFkZHJlc3ModGhpcykpLmZpbmQoKTsKICAgICAgICBhc3NlcnRFcSh1aW50MjU2KGtlY2NhazI1NihhYmkuZW5jb2RlKGFkZHJlc3ModGhpcyksIHVpbnQyNTYoMSkpKSksIHNsb3QpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfU3RvcmFnZU1hcEFkZHJSb290KCkgcHVibGljIHsKICAgICAgICAodWludDI1NiBzbG90LCBieXRlczMyIGtleSkgPQogICAgICAgICAgICBzdGRzdG9yZS50YXJnZXQoYWRkcmVzcyh0ZXN0KSkuc2lnKHRlc3QubWFwX2FkZHIuc2VsZWN0b3IpLndpdGhfa2V5KGFkZHJlc3ModGhpcykpLnBhcmVudCgpOwogICAgICAgIGFzc2VydEVxKGFkZHJlc3ModWludDE2MCh1aW50MjU2KGtleSkpKSwgYWRkcmVzcyh0aGlzKSk7CiAgICAgICAgYXNzZXJ0RXEodWludDI1NigxKSwgc2xvdCk7CiAgICAgICAgc2xvdCA9IHN0ZHN0b3JlLnRhcmdldChhZGRyZXNzKHRlc3QpKS5zaWcodGVzdC5tYXBfYWRkci5zZWxlY3Rvcikud2l0aF9rZXkoYWRkcmVzcyh0aGlzKSkucm9vdCgpOwogICAgICAgIGFzc2VydEVxKHVpbnQyNTYoMSksIHNsb3QpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfU3RvcmFnZU1hcFVpbnRGb3VuZCgpIHB1YmxpYyB7CiAgICAgICAgdWludDI1NiBzbG90ID0gc3Rkc3RvcmUudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZyh0ZXN0Lm1hcF91aW50LnNlbGVjdG9yKS53aXRoX2tleSgxMDApLmZpbmQoKTsKICAgICAgICBhc3NlcnRFcSh1aW50MjU2KGtlY2NhazI1NihhYmkuZW5jb2RlKDEwMCwgdWludDI1NigyKSkpKSwgc2xvdCk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9TdG9yYWdlQ2hlY2tlZFdyaXRlTWFwVWludCgpIHB1YmxpYyB7CiAgICAgICAgc3Rkc3RvcmUudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZyh0ZXN0Lm1hcF91aW50LnNlbGVjdG9yKS53aXRoX2tleSgxMDApLmNoZWNrZWRfd3JpdGUoMTAwKTsKICAgICAgICBhc3NlcnRFcSgxMDAsIHRlc3QubWFwX3VpbnQoMTAwKSk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9TdG9yYWdlQ2hlY2tlZFdyaXRlTWFwQWRkcigpIHB1YmxpYyB7CiAgICAgICAgc3Rkc3RvcmUudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZyh0ZXN0Lm1hcF9hZGRyLnNlbGVjdG9yKS53aXRoX2tleShhZGRyZXNzKHRoaXMpKS5jaGVja2VkX3dyaXRlKDEwMCk7CiAgICAgICAgYXNzZXJ0RXEoMTAwLCB0ZXN0Lm1hcF9hZGRyKGFkZHJlc3ModGhpcykpKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X1N0b3JhZ2VDaGVja2VkV3JpdGVNYXBCb29sKCkgcHVibGljIHsKICAgICAgICBzdGRzdG9yZS50YXJnZXQoYWRkcmVzcyh0ZXN0KSkuc2lnKHRlc3QubWFwX2Jvb2wuc2VsZWN0b3IpLndpdGhfa2V5KGFkZHJlc3ModGhpcykpLmNoZWNrZWRfd3JpdGUodHJ1ZSk7CiAgICAgICAgYXNzZXJ0VHJ1ZSh0ZXN0Lm1hcF9ib29sKGFkZHJlc3ModGhpcykpKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0RnV6el9TdG9yYWdlQ2hlY2tlZFdyaXRlTWFwUGFja2VkKGFkZHJlc3MgYWRkciwgdWludDEyOCB2YWx1ZSkgcHVibGljIHsKICAgICAgICBzdGRzdG9yZS5lbmFibGVfcGFja2VkX3Nsb3RzKCkudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZyh0ZXN0LnJlYWRfc3RydWN0X2xvd2VyLnNlbGVjdG9yKS53aXRoX2tleShhZGRyKQogICAgICAgICAgICAuY2hlY2tlZF93cml0ZSh2YWx1ZSk7CiAgICAgICAgYXNzZXJ0RXEodGVzdC5yZWFkX3N0cnVjdF9sb3dlcihhZGRyKSwgdmFsdWUpOwoKICAgICAgICBzdGRzdG9yZS5lbmFibGVfcGFja2VkX3Nsb3RzKCkudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZyh0ZXN0LnJlYWRfc3RydWN0X3VwcGVyLnNlbGVjdG9yKS53aXRoX2tleShhZGRyKQogICAgICAgICAgICAuY2hlY2tlZF93cml0ZSh2YWx1ZSk7CiAgICAgICAgYXNzZXJ0RXEodGVzdC5yZWFkX3N0cnVjdF91cHBlcihhZGRyKSwgdmFsdWUpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfU3RvcmFnZUNoZWNrZWRXcml0ZU1hcFBhY2tlZEZ1bGxTdWNjZXNzKCkgcHVibGljIHsKICAgICAgICB1aW50MjU2IGZ1bGwgPSB0ZXN0Lm1hcF9wYWNrZWQoYWRkcmVzcygxMzM3KSk7CiAgICAgICAgLy8ga2VlcCB1cHBlciAxMjgsIHNldCBsb3dlciAxMjggdG8gMTMzNwogICAgICAgIGZ1bGwgPSAoZnVsbCAmICh1aW50MjU2KCgxIDw8IDEyOCkgLSAxKSA8PCAxMjgpKSB8IDEzMzc7CiAgICAgICAgc3Rkc3RvcmUudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZyh0ZXN0Lm1hcF9wYWNrZWQuc2VsZWN0b3IpLndpdGhfa2V5KGFkZHJlc3ModWludDE2MCgxMzM3KSkpLmNoZWNrZWRfd3JpdGUoCiAgICAgICAgICAgIGZ1bGwKICAgICAgICApOwogICAgICAgIGFzc2VydEVxKDEzMzcsIHRlc3QucmVhZF9zdHJ1Y3RfbG93ZXIoYWRkcmVzcygxMzM3KSkpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfUmV2ZXJ0U3RvcmFnZUNvbnN0KCkgcHVibGljIHsKICAgICAgICBTdG9yYWdlVGVzdFRhcmdldCB0YXJnZXQgPSBuZXcgU3RvcmFnZVRlc3RUYXJnZXQodGVzdCk7CgogICAgICAgIHZtLmV4cGVjdFJldmVydCgic3RkU3RvcmFnZSBmaW5kKFN0ZFN0b3JhZ2UpOiBObyBzdG9yYWdlIHVzZSBkZXRlY3RlZCBmb3IgdGFyZ2V0LiIpOwogICAgICAgIHRhcmdldC5leHBlY3RSZXZlcnRTdG9yYWdlQ29uc3QoKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0RnV6el9TdG9yYWdlTmF0aXZlUGFjayh1aW50MjQ4IHZhbDEsIHVpbnQyNDggdmFsMiwgYm9vbCBib29sVmFsMSwgYm9vbCBib29sVmFsMikgcHVibGljIHsKICAgICAgICBzdGRzdG9yZS5lbmFibGVfcGFja2VkX3Nsb3RzKCkudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZyh0ZXN0LnRBLnNlbGVjdG9yKS5jaGVja2VkX3dyaXRlKHZhbDEpOwogICAgICAgIHN0ZHN0b3JlLmVuYWJsZV9wYWNrZWRfc2xvdHMoKS50YXJnZXQoYWRkcmVzcyh0ZXN0KSkuc2lnKHRlc3QudEIuc2VsZWN0b3IpLmNoZWNrZWRfd3JpdGUoYm9vbFZhbDEpOwogICAgICAgIHN0ZHN0b3JlLmVuYWJsZV9wYWNrZWRfc2xvdHMoKS50YXJnZXQoYWRkcmVzcyh0ZXN0KSkuc2lnKHRlc3QudEMuc2VsZWN0b3IpLmNoZWNrZWRfd3JpdGUoYm9vbFZhbDIpOwogICAgICAgIHN0ZHN0b3JlLmVuYWJsZV9wYWNrZWRfc2xvdHMoKS50YXJnZXQoYWRkcmVzcyh0ZXN0KSkuc2lnKHRlc3QudEQuc2VsZWN0b3IpLmNoZWNrZWRfd3JpdGUodmFsMik7CgogICAgICAgIGFzc2VydEVxKHRlc3QudEEoKSwgdmFsMSk7CiAgICAgICAgYXNzZXJ0RXEodGVzdC50QigpLCBib29sVmFsMSk7CiAgICAgICAgYXNzZXJ0RXEodGVzdC50QygpLCBib29sVmFsMik7CiAgICAgICAgYXNzZXJ0RXEodGVzdC50RCgpLCB2YWwyKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X1N0b3JhZ2VSZWFkQnl0ZXMzMigpIHB1YmxpYyB7CiAgICAgICAgYnl0ZXMzMiB2YWwgPSBzdGRzdG9yZS50YXJnZXQoYWRkcmVzcyh0ZXN0KSkuc2lnKHRlc3QudEUuc2VsZWN0b3IpLnJlYWRfYnl0ZXMzMigpOwogICAgICAgIGFzc2VydEVxKHZhbCwgaGV4IjEzMzciKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X1N0b3JhZ2VSZWFkQm9vbF9GYWxzZSgpIHB1YmxpYyB7CiAgICAgICAgYm9vbCB2YWwgPSBzdGRzdG9yZS50YXJnZXQoYWRkcmVzcyh0ZXN0KSkuc2lnKHRlc3QudEIuc2VsZWN0b3IpLnJlYWRfYm9vbCgpOwogICAgICAgIGFzc2VydEVxKHZhbCwgZmFsc2UpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfU3RvcmFnZVJlYWRCb29sX1RydWUoKSBwdWJsaWMgewogICAgICAgIGJvb2wgdmFsID0gc3Rkc3RvcmUudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZyh0ZXN0LnRILnNlbGVjdG9yKS5yZWFkX2Jvb2woKTsKICAgICAgICBhc3NlcnRFcSh2YWwsIHRydWUpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfUmV2ZXJ0SWZfUmVhZGluZ05vbkJvb2xWYWx1ZSgpIHB1YmxpYyB7CiAgICAgICAgdm0uZXhwZWN0UmV2ZXJ0KCJzdGRTdG9yYWdlIHJlYWRfYm9vbChTdGRTdG9yYWdlKTogQ2Fubm90IGRlY29kZS4gTWFrZSBzdXJlIHlvdSBhcmUgcmVhZGluZyBhIGJvb2wuIik7CiAgICAgICAgdGhpcy5yZWFkTm9uQm9vbFZhbHVlKCk7CiAgICB9CgogICAgZnVuY3Rpb24gcmVhZE5vbkJvb2xWYWx1ZSgpIHB1YmxpYyB7CiAgICAgICAgc3Rkc3RvcmUudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZyh0ZXN0LnRFLnNlbGVjdG9yKS5yZWFkX2Jvb2woKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X1N0b3JhZ2VSZWFkQWRkcmVzcygpIHB1YmxpYyB7CiAgICAgICAgYWRkcmVzcyB2YWwgPSBzdGRzdG9yZS50YXJnZXQoYWRkcmVzcyh0ZXN0KSkuc2lnKHRlc3QudEYuc2VsZWN0b3IpLnJlYWRfYWRkcmVzcygpOwogICAgICAgIGFzc2VydEVxKHZhbCwgYWRkcmVzcygxMzM3KSk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9TdG9yYWdlUmVhZFVpbnQoKSBwdWJsaWMgewogICAgICAgIHVpbnQyNTYgdmFsID0gc3Rkc3RvcmUudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZyh0ZXN0LmV4aXN0cy5zZWxlY3RvcikucmVhZF91aW50KCk7CiAgICAgICAgYXNzZXJ0RXEodmFsLCAxKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X1N0b3JhZ2VSZWFkSW50KCkgcHVibGljIHsKICAgICAgICBpbnQyNTYgdmFsID0gc3Rkc3RvcmUudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZyh0ZXN0LnRHLnNlbGVjdG9yKS5yZWFkX2ludCgpOwogICAgICAgIGFzc2VydEVxKHZhbCwgdHlwZShpbnQyNTYpLm1pbik7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdEZ1enpfUGFja2VkKHVpbnQyNTYgdmFsLCB1aW50OCBlbGVtVG9HZXQpIHB1YmxpYyB7CiAgICAgICAgLy8gVGhpcyBmdW5jdGlvbiB0cmllcyBhbiBhc3NvcnRtZW50IG9mIHBhY2tlZCBzbG90cywgc2hpZnRzIG1lYW5pbmcgbnVtYmVyIG9mIGVsZW1lbnRzCiAgICAgICAgLy8gdGhhdCBhcmUgcGFja2VkLiBTaGlmdHNpemVzIGFyZSB0aGUgc2l6ZSBvZiBlYWNoIGVsZW1lbnQsIGkuZS4gOCBtZWFucyBhIGRhdGEgdHlwZSB0aGF0IGlzIDggYml0cywgMTYgPT0gMTYgYml0cywgZXRjLgogICAgICAgIC8vIENvbWJpbmVkLCB0aGVzZSBkZXRlcm1pbmUgaG93IGEgc2xvdCBpcyBwYWNrZWQuIE1ha2luZyBpdCByYW5kb20gaXMgdG9vIGhhcmQgdG8gYXZvaWQgZ2xvYmFsIHJlamVjdGlvbiBsaW1pdAogICAgICAgIC8vIGFuZCBtYWtlIGl0IHBlcmZvcm1hbnQuCgogICAgICAgIC8vIGNoYW5nZSB0aGUgbnVtYmVyIG9mIHNoaWZ0cwogICAgICAgIGZvciAodWludDI1NiBpID0gMTsgaSA8IDU7IGkrKykgewogICAgICAgICAgICB1aW50MjU2IHNoaWZ0cyA9IGk7CgogICAgICAgICAgICBlbGVtVG9HZXQgPSB1aW50OChib3VuZChlbGVtVG9HZXQsIDAsIHNoaWZ0cyAtIDEpKTsKCiAgICAgICAgICAgIHVpbnQyNTZbXSBtZW1vcnkgc2hpZnRTaXplcyA9IG5ldyB1aW50MjU2W10oc2hpZnRzKTsKICAgICAgICAgICAgZm9yICh1aW50MjU2IGo7IGogPCBzaGlmdHM7IGorKykgewogICAgICAgICAgICAgICAgc2hpZnRTaXplc1tqXSA9IDggKiAoaiArIDEpOwogICAgICAgICAgICB9CgogICAgICAgICAgICB0ZXN0LnNldFJhbmRvbVBhY2tpbmcodmFsKTsKCiAgICAgICAgICAgIHVpbnQyNTYgbGVmdEJpdHM7CiAgICAgICAgICAgIHVpbnQyNTYgcmlnaHRCaXRzOwogICAgICAgICAgICBmb3IgKHVpbnQyNTYgajsgaiA8IHNoaWZ0U2l6ZXMubGVuZ3RoOyBqKyspIHsKICAgICAgICAgICAgICAgIGlmIChqIDwgZWxlbVRvR2V0KSB7CiAgICAgICAgICAgICAgICAgICAgbGVmdEJpdHMgKz0gc2hpZnRTaXplc1tqXTsKICAgICAgICAgICAgICAgIH0gZWxzZSBpZiAoZWxlbVRvR2V0ICE9IGopIHsKICAgICAgICAgICAgICAgICAgICByaWdodEJpdHMgKz0gc2hpZnRTaXplc1tqXTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgICAgICAgICAgLy8gd2UgbWF5IGhhdmUgc29tZSByaWdodCBiaXRzIHVuYWNjb3VudGVkIGZvcgogICAgICAgICAgICBsZWZ0Qml0cyArPSAyNTYgLSAobGVmdEJpdHMgKyBzaGlmdFNpemVzW2VsZW1Ub0dldF0gKyByaWdodEJpdHMpOwogICAgICAgICAgICAvLyBjbGVhciBsZWZ0IGJpdHMsIHRoZW4gY2xlYXIgcmlnaHQgYml0cyBhbmQgcmVhbGlnbgogICAgICAgICAgICB1aW50MjU2IGV4cGVjdGVkVmFsVG9SZWFkID0gKHZhbCA8PCBsZWZ0Qml0cykgPj4gKGxlZnRCaXRzICsgcmlnaHRCaXRzKTsKCiAgICAgICAgICAgIHVpbnQyNTYgcmVhZFZhbCA9IHN0ZHN0b3JlLnRhcmdldChhZGRyZXNzKHRlc3QpKS5lbmFibGVfcGFja2VkX3Nsb3RzKCkuc2lnKAogICAgICAgICAgICAgICAgImdldFJhbmRvbVBhY2tlZCh1aW50OCx1aW50OFtdLHVpbnQ4KSIKICAgICAgICAgICAgKS53aXRoX2NhbGxkYXRhKGFiaS5lbmNvZGUoc2hpZnRzLCBzaGlmdFNpemVzLCBlbGVtVG9HZXQpKS5yZWFkX3VpbnQoKTsKCiAgICAgICAgICAgIGFzc2VydEVxKHJlYWRWYWwsIGV4cGVjdGVkVmFsVG9SZWFkKTsKICAgICAgICB9CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdEZ1enpfUGFja2VkMih1aW50MjU2IG52YXJzLCB1aW50MjU2IHNlZWQpIHB1YmxpYyB7CiAgICAgICAgLy8gTnVtYmVyIG9mIHJhbmRvbSB2YXJpYWJsZXMgdG8gZ2VuZXJhdGUuCiAgICAgICAgbnZhcnMgPSBib3VuZChudmFycywgMSwgMjApOwoKICAgICAgICAvLyBUaGlzIHdpbGwgZGVjcmVhc2UgYXMgd2UgZ2VuZXJhdGUgdmFsdWVzIGluIHRoZSBiZWxvdyBsb29wLgogICAgICAgIHVpbnQyNTYgYml0c1JlbWFpbmluZyA9IDI1NjsKCiAgICAgICAgLy8gR2VuZXJhdGUgYSByYW5kb20gdmFsdWUgYW5kIHNpemUgZm9yIGVhY2ggdmFyaWFibGUuCiAgICAgICAgdWludDI1NltdIG1lbW9yeSB2YWxzID0gbmV3IHVpbnQyNTZbXShudmFycyk7CiAgICAgICAgdWludDI1NltdIG1lbW9yeSBzaXplcyA9IG5ldyB1aW50MjU2W10obnZhcnMpOwogICAgICAgIHVpbnQyNTZbXSBtZW1vcnkgb2Zmc2V0cyA9IG5ldyB1aW50MjU2W10obnZhcnMpOwoKICAgICAgICBmb3IgKHVpbnQyNTYgaSA9IDA7IGkgPCBudmFyczsgaSsrKSB7CiAgICAgICAgICAgIC8vIEdlbmVyYXRlIGEgcmFuZG9tIHZhbHVlIGFuZCBzaXplLgogICAgICAgICAgICBvZmZzZXRzW2ldID0gaSA9PSAwID8gMCA6IG9mZnNldHNbaSAtIDFdICsgc2l6ZXNbaSAtIDFdOwoKICAgICAgICAgICAgdWludDI1NiBudmFyc1JlbWFpbmluZyA9IG52YXJzIC0gaTsKICAgICAgICAgICAgdWludDI1NiBtYXhWYXJTaXplID0gYml0c1JlbWFpbmluZyAtIG52YXJzUmVtYWluaW5nICsgMTsKICAgICAgICAgICAgc2l6ZXNbaV0gPSBib3VuZCh1aW50MjU2KGtlY2NhazI1NihhYmkuZW5jb2RlUGFja2VkKHNlZWQsIGkgKyAyNTYpKSksIDEsIG1heFZhclNpemUpOwogICAgICAgICAgICBiaXRzUmVtYWluaW5nIC09IHNpemVzW2ldOwoKICAgICAgICAgICAgdWludDI1NiBtYXhWYWw7CiAgICAgICAgICAgIHVpbnQyNTYgdmFyU2l6ZSA9IHNpemVzW2ldOwogICAgICAgICAgICBhc3NlbWJseSB7CiAgICAgICAgICAgICAgICAvLyBtYXNrID0gKDEgPDwgdmFyU2l6ZSkgLSAxCiAgICAgICAgICAgICAgICBtYXhWYWwgOj0gc3ViKHNobCh2YXJTaXplLCAxKSwgMSkKICAgICAgICAgICAgfQogICAgICAgICAgICB2YWxzW2ldID0gYm91bmQodWludDI1NihrZWNjYWsyNTYoYWJpLmVuY29kZVBhY2tlZChzZWVkLCBpKSkpLCAwLCBtYXhWYWwpOwogICAgICAgIH0KCiAgICAgICAgLy8gUGFjayBhbGwgdmFsdWVzIGludG8gdGhlIHNsb3QuCiAgICAgICAgZm9yICh1aW50MjU2IGkgPSAwOyBpIDwgbnZhcnM7IGkrKykgewogICAgICAgICAgICBzdGRzdG9yZS5lbmFibGVfcGFja2VkX3Nsb3RzKCkudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZygiZ2V0UmFuZG9tUGFja2VkKHVpbnQyNTYsdWludDI1NikiKS53aXRoX2tleSgKICAgICAgICAgICAgICAgIHNpemVzW2ldCiAgICAgICAgICAgICkud2l0aF9rZXkob2Zmc2V0c1tpXSkuY2hlY2tlZF93cml0ZSh2YWxzW2ldKTsKICAgICAgICB9CgogICAgICAgIC8vIFZlcmlmeSB0aGUgcmVhZCBkYXRhIG1hdGNoZXMuCiAgICAgICAgZm9yICh1aW50MjU2IGkgPSAwOyBpIDwgbnZhcnM7IGkrKykgewogICAgICAgICAgICB1aW50MjU2IHJlYWRWYWwgPSBzdGRzdG9yZS5lbmFibGVfcGFja2VkX3Nsb3RzKCkudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZygKICAgICAgICAgICAgICAgICJnZXRSYW5kb21QYWNrZWQodWludDI1Nix1aW50MjU2KSIKICAgICAgICAgICAgKS53aXRoX2tleShzaXplc1tpXSkud2l0aF9rZXkob2Zmc2V0c1tpXSkucmVhZF91aW50KCk7CgogICAgICAgICAgICB1aW50MjU2IHJldFZhbCA9IHRlc3QuZ2V0UmFuZG9tUGFja2VkKHNpemVzW2ldLCBvZmZzZXRzW2ldKTsKCiAgICAgICAgICAgIGFzc2VydEVxKHJlYWRWYWwsIHZhbHNbaV0pOwogICAgICAgICAgICBhc3NlcnRFcShyZXRWYWwsIHZhbHNbaV0pOwogICAgICAgIH0KICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0RWRnZUNhc2VBcnJheSgpIHB1YmxpYyB7CiAgICAgICAgc3Rkc3RvcmUudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZygiZWRnZUNhc2VBcnJheSh1aW50MjU2KSIpLndpdGhfa2V5KHVpbnQyNTYoMCkpLmNoZWNrZWRfd3JpdGUoMSk7CiAgICAgICAgYXNzZXJ0RXEodGVzdC5lZGdlQ2FzZUFycmF5KDApLCAxKTsKICAgIH0KfQoKY29udHJhY3QgU3RvcmFnZVRlc3RUYXJnZXQgewogICAgdXNpbmcgc3RkU3RvcmFnZSBmb3IgU3RkU3RvcmFnZTsKCiAgICBTdGRTdG9yYWdlIGludGVybmFsIHN0ZHN0b3JlOwogICAgU3RvcmFnZVRlc3QgaW50ZXJuYWwgdGVzdDsKCiAgICBjb25zdHJ1Y3RvcihTdG9yYWdlVGVzdCB0ZXN0XykgewogICAgICAgIHRlc3QgPSB0ZXN0XzsKICAgIH0KCiAgICBmdW5jdGlvbiBleHBlY3RSZXZlcnRTdG9yYWdlQ29uc3QoKSBwdWJsaWMgewogICAgICAgIHN0ZHN0b3JlLnRhcmdldChhZGRyZXNzKHRlc3QpKS5zaWcoImNvbnN0KCkiKS5maW5kKCk7CiAgICB9Cn0KCmNvbnRyYWN0IFN0b3JhZ2VUZXN0IHsKICAgIHVpbnQyNTYgcHVibGljIGV4aXN0cyA9IDE7CiAgICBtYXBwaW5nKGFkZHJlc3MgPT4gdWludDI1NikgcHVibGljIG1hcF9hZGRyOwogICAgbWFwcGluZyh1aW50MjU2ID0+IHVpbnQyNTYpIHB1YmxpYyBtYXBfdWludDsKICAgIG1hcHBpbmcoYWRkcmVzcyA9PiB1aW50MjU2KSBwdWJsaWMgbWFwX3BhY2tlZDsKICAgIG1hcHBpbmcoYWRkcmVzcyA9PiBVbnBhY2tlZFN0cnVjdCkgcHVibGljIG1hcF9zdHJ1Y3Q7CiAgICBtYXBwaW5nKGFkZHJlc3MgPT4gbWFwcGluZyhhZGRyZXNzID0+IHVpbnQyNTYpKSBwdWJsaWMgZGVlcF9tYXA7CiAgICBtYXBwaW5nKGFkZHJlc3MgPT4gbWFwcGluZyhhZGRyZXNzID0+IFVucGFja2VkU3RydWN0KSkgcHVibGljIGRlZXBfbWFwX3N0cnVjdDsKICAgIFVucGFja2VkU3RydWN0IHB1YmxpYyBiYXNpYzsKCiAgICB1aW50MjQ4IHB1YmxpYyB0QTsKICAgIGJvb2wgcHVibGljIHRCOwoKICAgIGJvb2wgcHVibGljIHRDID0gZmFsc2U7CiAgICB1aW50MjQ4IHB1YmxpYyB0RCA9IDE7CgogICAgc3RydWN0IFVucGFja2VkU3RydWN0IHsKICAgICAgICB1aW50MjU2IGE7CiAgICAgICAgdWludDI1NiBiOwogICAgfQoKICAgIG1hcHBpbmcoYWRkcmVzcyA9PiBib29sKSBwdWJsaWMgbWFwX2Jvb2w7CgogICAgYnl0ZXMzMiBwdWJsaWMgdEUgPSBoZXgiMTMzNyI7CiAgICBhZGRyZXNzIHB1YmxpYyB0RiA9IGFkZHJlc3MoMTMzNyk7CiAgICBpbnQyNTYgcHVibGljIHRHID0gdHlwZShpbnQyNTYpLm1pbjsKICAgIGJvb2wgcHVibGljIHRIID0gdHJ1ZTsKICAgIGJ5dGVzMzIgcHJpdmF0ZSB0SSA9IH5ieXRlczMyKGhleCIxMzM3Iik7CgogICAgdWludDI1NiByYW5kb21QYWNraW5nOwoKICAgIC8vIEFycmF5IHdpdGggbGVuZ3RoIG1hdGNoaW5nIHZhbHVlcyBvZiBlbGVtZW50cy4KICAgIHVpbnQyNTZbXSBwdWJsaWMgZWRnZUNhc2VBcnJheSA9IFszLCAzLCAzXTsKCiAgICBjb25zdHJ1Y3RvcigpIHsKICAgICAgICBiYXNpYyA9IFVucGFja2VkU3RydWN0KHthOiAxMzM3LCBiOiAxMzM3fSk7CgogICAgICAgIHVpbnQyNTYgdHdvID0gKDEgPDwgMTI4KSB8IDE7CiAgICAgICAgbWFwX3BhY2tlZFttc2cuc2VuZGVyXSA9IHR3bzsKICAgICAgICBtYXBfcGFja2VkW2FkZHJlc3ModWludDE2MCgxMzM3KSldID0gMSA8PCAxMjg7CiAgICB9CgogICAgZnVuY3Rpb24gcmVhZF9zdHJ1Y3RfdXBwZXIoYWRkcmVzcyB3aG8pIHB1YmxpYyB2aWV3IHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXR1cm4gbWFwX3BhY2tlZFt3aG9dID4+IDEyODsKICAgIH0KCiAgICBmdW5jdGlvbiByZWFkX3N0cnVjdF9sb3dlcihhZGRyZXNzIHdobykgcHVibGljIHZpZXcgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHJldHVybiBtYXBfcGFja2VkW3dob10gJiAoKDEgPDwgMTI4KSAtIDEpOwogICAgfQoKICAgIGZ1bmN0aW9uIGhpZGRlbigpIHB1YmxpYyB2aWV3IHJldHVybnMgKGJ5dGVzMzIgdCkgewogICAgICAgIGJ5dGVzMzIgc2xvdCA9IGtlY2NhazI1NigibXkucmFuZG9tLnZhciIpOwogICAgICAgIC8vLyBAc29saWRpdHkgbWVtb3J5LXNhZmUtYXNzZW1ibHkKICAgICAgICBhc3NlbWJseSB7CiAgICAgICAgICAgIHQgOj0gc2xvYWQoc2xvdCkKICAgICAgICB9CiAgICB9CgogICAgZnVuY3Rpb24gY29uc3QoKSBwdWJsaWMgcHVyZSByZXR1cm5zIChieXRlczMyIHQpIHsKICAgICAgICB0ID0gYnl0ZXMzMihoZXgiMTMzNyIpOwogICAgfQoKICAgIGZ1bmN0aW9uIGV4dHJhX3Nsb2FkKCkgcHVibGljIHZpZXcgcmV0dXJucyAoYnl0ZXMzMiB0KSB7CiAgICAgICAgLy8gdHJpZ2dlciByZWFkIG9uIHNsb3QgYHRFYCwgYW5kIG1ha2UgYSBzdGF0aWNjYWxsIHRvIG1ha2Ugc3VyZSBjb21waWxlciBkb2Vzbid0IG9wdGltaXplIHRoaXMgU0xPQUQgYXdheQogICAgICAgIGFzc2VtYmx5IHsKICAgICAgICAgICAgcG9wKHN0YXRpY2NhbGwoZ2FzKCksIHNsb2FkKHRFLnNsb3QpLCAwLCAwLCAwLCAwKSkKICAgICAgICB9CiAgICAgICAgdCA9IHRJOwogICAgfQoKICAgIGZ1bmN0aW9uIHNldFJhbmRvbVBhY2tpbmcodWludDI1NiB2YWwpIHB1YmxpYyB7CiAgICAgICAgcmFuZG9tUGFja2luZyA9IHZhbDsKICAgIH0KCiAgICBmdW5jdGlvbiBfZ2V0TWFzayh1aW50MjU2IHNpemUpIGludGVybmFsIHB1cmUgcmV0dXJucyAodWludDI1NiBtYXNrKSB7CiAgICAgICAgYXNzZW1ibHkgewogICAgICAgICAgICAvLyBtYXNrID0gKDEgPDwgc2l6ZSkgLSAxCiAgICAgICAgICAgIG1hc2sgOj0gc3ViKHNobChzaXplLCAxKSwgMSkKICAgICAgICB9CiAgICB9CgogICAgZnVuY3Rpb24gc2V0UmFuZG9tUGFja2luZyh1aW50MjU2IHZhbCwgdWludDI1NiBzaXplLCB1aW50MjU2IG9mZnNldCkgcHVibGljIHsKICAgICAgICAvLyBHZW5lcmF0ZSBtYXNrIGJhc2VkIG9uIHRoZSBzaXplIG9mIHRoZSB2YWx1ZQogICAgICAgIHVpbnQyNTYgbWFzayA9IF9nZXRNYXNrKHNpemUpOwogICAgICAgIC8vIFplcm8gb3V0IGFsbCBiaXRzIGZvciB0aGUgd29yZCB3ZSdyZSBhYm91dCB0byBzZXQKICAgICAgICB1aW50MjU2IGNsZWFuZWRXb3JkID0gcmFuZG9tUGFja2luZyAmIH4obWFzayA8PCBvZmZzZXQpOwogICAgICAgIC8vIFBsYWNlIHZhbCBpbiB0aGUgY29ycmVjdCBzcG90IG9mIHRoZSBjbGVhbmVkIHdvcmQKICAgICAgICByYW5kb21QYWNraW5nID0gY2xlYW5lZFdvcmQgfCB2YWwgPDwgb2Zmc2V0OwogICAgfQoKICAgIGZ1bmN0aW9uIGdldFJhbmRvbVBhY2tlZCh1aW50MjU2IHNpemUsIHVpbnQyNTYgb2Zmc2V0KSBwdWJsaWMgdmlldyByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgLy8gR2VuZXJhdGUgbWFzayBiYXNlZCBvbiB0aGUgc2l6ZSBvZiB0aGUgdmFsdWUKICAgICAgICB1aW50MjU2IG1hc2sgPSBfZ2V0TWFzayhzaXplKTsKICAgICAgICAvLyBTaGlmdCB0byBwbGFjZSB0aGUgYml0cyBpbiB0aGUgY29ycmVjdCBwb3NpdGlvbiwgYW5kIHVzZSBtYXNrIHRvIHplcm8gb3V0IHJlbWFpbmluZyBiaXRzCiAgICAgICAgcmV0dXJuIChyYW5kb21QYWNraW5nID4+IG9mZnNldCkgJiBtYXNrOwogICAgfQoKICAgIGZ1bmN0aW9uIGdldFJhbmRvbVBhY2tlZCh1aW50OCBzaGlmdHMsIHVpbnQ4W10gbWVtb3J5IHNoaWZ0U2l6ZXMsIHVpbnQ4IGVsZW0pIHB1YmxpYyB2aWV3IHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXF1aXJlKGVsZW0gPCBzaGlmdHMsICIhZWxlbSIpOwogICAgICAgIHVpbnQyNTYgbGVmdEJpdHM7CiAgICAgICAgdWludDI1NiByaWdodEJpdHM7CgogICAgICAgIGZvciAodWludDI1NiBpOyBpIDwgc2hpZnRTaXplcy5sZW5ndGg7IGkrKykgewogICAgICAgICAgICBpZiAoaSA8IGVsZW0pIHsKICAgICAgICAgICAgICAgIGxlZnRCaXRzICs9IHNoaWZ0U2l6ZXNbaV07CiAgICAgICAgICAgIH0gZWxzZSBpZiAoZWxlbSAhPSBpKSB7CiAgICAgICAgICAgICAgICByaWdodEJpdHMgKz0gc2hpZnRTaXplc1tpXTsKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgLy8gd2UgbWF5IGhhdmUgc29tZSByaWdodCBiaXRzIHVuYWNjb3VudGVkIGZvcgogICAgICAgIGxlZnRCaXRzICs9IDI1NiAtIChsZWZ0Qml0cyArIHNoaWZ0U2l6ZXNbZWxlbV0gKyByaWdodEJpdHMpOwoKICAgICAgICAvLyBjbGVhciBsZWZ0IGJpdHMsIHRoZW4gY2xlYXIgcmlnaHQgYml0cyBhbmQgcmVhbGlnbgogICAgICAgIHJldHVybiAocmFuZG9tUGFja2luZyA8PCBsZWZ0Qml0cykgPj4gKGxlZnRCaXRzICsgcmlnaHRCaXRzKTsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.7.0 <0.9.0;
+
+import {stdStorage, StdStorage} from "../src/StdStorage.sol";
+import {Test} from "../src/Test.sol";
+
+contract StdStorageTest is Test {
+    using stdStorage for StdStorage;
+
+    StorageTest internal test;
+
+    function setUp() public {
+        test = new StorageTest();
+    }
+
+    function test_StorageHidden() public {
+        assertEq(uint256(keccak256("my.random.var")), stdstore.target(address(test)).sig("hidden()").find());
+    }
+
+    function test_StorageObvious() public {
+        assertEq(uint256(0), stdstore.target(address(test)).sig("exists()").find());
+    }
+
+    function test_StorageExtraSload() public {
+        assertEq(16, stdstore.target(address(test)).sig(test.extra_sload.selector).find());
+    }
+
+    function test_StorageCheckedWriteHidden() public {
+        stdstore.target(address(test)).sig(test.hidden.selector).checked_write(100);
+        assertEq(uint256(test.hidden()), 100);
+    }
+
+    function test_StorageCheckedWriteObvious() public {
+        stdstore.target(address(test)).sig(test.exists.selector).checked_write(100);
+        assertEq(test.exists(), 100);
+    }
+
+    function test_StorageCheckedWriteSignedIntegerHidden() public {
+        stdstore.target(address(test)).sig(test.hidden.selector).checked_write_int(-100);
+        assertEq(int256(uint256(test.hidden())), -100);
+    }
+
+    function test_StorageCheckedWriteSignedIntegerObvious() public {
+        stdstore.target(address(test)).sig(test.tG.selector).checked_write_int(-100);
+        assertEq(test.tG(), -100);
+    }
+
+    function test_StorageMapStructA() public {
+        uint256 slot =
+            stdstore.target(address(test)).sig(test.map_struct.selector).with_key(address(this)).depth(0).find();
+        assertEq(uint256(keccak256(abi.encode(address(this), 4))), slot);
+    }
+
+    function test_StorageMapStructB() public {
+        uint256 slot =
+            stdstore.target(address(test)).sig(test.map_struct.selector).with_key(address(this)).depth(1).find();
+        assertEq(uint256(keccak256(abi.encode(address(this), 4))) + 1, slot);
+    }
+
+    function test_StorageDeepMap() public {
+        uint256 slot = stdstore.target(address(test)).sig(test.deep_map.selector).with_key(address(this)).with_key(
+            address(this)
+        ).find();
+        assertEq(uint256(keccak256(abi.encode(address(this), keccak256(abi.encode(address(this), uint256(5)))))), slot);
+    }
+
+    function test_StorageCheckedWriteDeepMap() public {
+        stdstore.target(address(test)).sig(test.deep_map.selector).with_key(address(this)).with_key(address(this))
+            .checked_write(100);
+        assertEq(100, test.deep_map(address(this), address(this)));
+    }
+
+    function test_StorageDeepMapStructA() public {
+        uint256 slot = stdstore.target(address(test)).sig(test.deep_map_struct.selector).with_key(address(this))
+            .with_key(address(this)).depth(0).find();
+        assertEq(
+            bytes32(uint256(keccak256(abi.encode(address(this), keccak256(abi.encode(address(this), uint256(6)))))) + 0),
+            bytes32(slot)
+        );
+    }
+
+    function test_StorageDeepMapStructB() public {
+        uint256 slot = stdstore.target(address(test)).sig(test.deep_map_struct.selector).with_key(address(this))
+            .with_key(address(this)).depth(1).find();
+        assertEq(
+            bytes32(uint256(keccak256(abi.encode(address(this), keccak256(abi.encode(address(this), uint256(6)))))) + 1),
+            bytes32(slot)
+        );
+    }
+
+    function test_StorageCheckedWriteDeepMapStructA() public {
+        stdstore.target(address(test)).sig(test.deep_map_struct.selector).with_key(address(this)).with_key(
+            address(this)
+        ).depth(0).checked_write(100);
+        (uint256 a, uint256 b) = test.deep_map_struct(address(this), address(this));
+        assertEq(100, a);
+        assertEq(0, b);
+    }
+
+    function test_StorageCheckedWriteDeepMapStructB() public {
+        stdstore.target(address(test)).sig(test.deep_map_struct.selector).with_key(address(this)).with_key(
+            address(this)
+        ).depth(1).checked_write(100);
+        (uint256 a, uint256 b) = test.deep_map_struct(address(this), address(this));
+        assertEq(0, a);
+        assertEq(100, b);
+    }
+
+    function test_StorageCheckedWriteMapStructA() public {
+        stdstore.target(address(test)).sig(test.map_struct.selector).with_key(address(this)).depth(0).checked_write(100);
+        (uint256 a, uint256 b) = test.map_struct(address(this));
+        assertEq(a, 100);
+        assertEq(b, 0);
+    }
+
+    function test_StorageCheckedWriteMapStructB() public {
+        stdstore.target(address(test)).sig(test.map_struct.selector).with_key(address(this)).depth(1).checked_write(100);
+        (uint256 a, uint256 b) = test.map_struct(address(this));
+        assertEq(a, 0);
+        assertEq(b, 100);
+    }
+
+    function test_StorageStructA() public {
+        uint256 slot = stdstore.target(address(test)).sig(test.basic.selector).depth(0).find();
+        assertEq(uint256(7), slot);
+    }
+
+    function test_StorageStructB() public {
+        uint256 slot = stdstore.target(address(test)).sig(test.basic.selector).depth(1).find();
+        assertEq(uint256(7) + 1, slot);
+    }
+
+    function test_StorageCheckedWriteStructA() public {
+        stdstore.target(address(test)).sig(test.basic.selector).depth(0).checked_write(100);
+        (uint256 a, uint256 b) = test.basic();
+        assertEq(a, 100);
+        assertEq(b, 1337);
+    }
+
+    function test_StorageCheckedWriteStructB() public {
+        stdstore.target(address(test)).sig(test.basic.selector).depth(1).checked_write(100);
+        (uint256 a, uint256 b) = test.basic();
+        assertEq(a, 1337);
+        assertEq(b, 100);
+    }
+
+    function test_StorageMapAddrFound() public {
+        uint256 slot = stdstore.target(address(test)).sig(test.map_addr.selector).with_key(address(this)).find();
+        assertEq(uint256(keccak256(abi.encode(address(this), uint256(1)))), slot);
+    }
+
+    function test_StorageMapAddrRoot() public {
+        (uint256 slot, bytes32 key) =
+            stdstore.target(address(test)).sig(test.map_addr.selector).with_key(address(this)).parent();
+        assertEq(address(uint160(uint256(key))), address(this));
+        assertEq(uint256(1), slot);
+        slot = stdstore.target(address(test)).sig(test.map_addr.selector).with_key(address(this)).root();
+        assertEq(uint256(1), slot);
+    }
+
+    function test_StorageMapUintFound() public {
+        uint256 slot = stdstore.target(address(test)).sig(test.map_uint.selector).with_key(100).find();
+        assertEq(uint256(keccak256(abi.encode(100, uint256(2)))), slot);
+    }
+
+    function test_StorageCheckedWriteMapUint() public {
+        stdstore.target(address(test)).sig(test.map_uint.selector).with_key(100).checked_write(100);
+        assertEq(100, test.map_uint(100));
+    }
+
+    function test_StorageCheckedWriteMapAddr() public {
+        stdstore.target(address(test)).sig(test.map_addr.selector).with_key(address(this)).checked_write(100);
+        assertEq(100, test.map_addr(address(this)));
+    }
+
+    function test_StorageCheckedWriteMapBool() public {
+        stdstore.target(address(test)).sig(test.map_bool.selector).with_key(address(this)).checked_write(true);
+        assertTrue(test.map_bool(address(this)));
+    }
+
+    function testFuzz_StorageCheckedWriteMapPacked(address addr, uint128 value) public {
+        stdstore.enable_packed_slots().target(address(test)).sig(test.read_struct_lower.selector).with_key(addr)
+            .checked_write(value);
+        assertEq(test.read_struct_lower(addr), value);
+
+        stdstore.enable_packed_slots().target(address(test)).sig(test.read_struct_upper.selector).with_key(addr)
+            .checked_write(value);
+        assertEq(test.read_struct_upper(addr), value);
+    }
+
+    function test_StorageCheckedWriteMapPackedFullSuccess() public {
+        uint256 full = test.map_packed(address(1337));
+        // keep upper 128, set lower 128 to 1337
+        full = (full & (uint256((1 << 128) - 1) << 128)) | 1337;
+        stdstore.target(address(test)).sig(test.map_packed.selector).with_key(address(uint160(1337))).checked_write(
+            full
+        );
+        assertEq(1337, test.read_struct_lower(address(1337)));
+    }
+
+    function test_RevertStorageConst() public {
+        StorageTestTarget target = new StorageTestTarget(test);
+
+        vm.expectRevert("stdStorage find(StdStorage): No storage use detected for target.");
+        target.expectRevertStorageConst();
+    }
+
+    function testFuzz_StorageNativePack(uint248 val1, uint248 val2, bool boolVal1, bool boolVal2) public {
+        stdstore.enable_packed_slots().target(address(test)).sig(test.tA.selector).checked_write(val1);
+        stdstore.enable_packed_slots().target(address(test)).sig(test.tB.selector).checked_write(boolVal1);
+        stdstore.enable_packed_slots().target(address(test)).sig(test.tC.selector).checked_write(boolVal2);
+        stdstore.enable_packed_slots().target(address(test)).sig(test.tD.selector).checked_write(val2);
+
+        assertEq(test.tA(), val1);
+        assertEq(test.tB(), boolVal1);
+        assertEq(test.tC(), boolVal2);
+        assertEq(test.tD(), val2);
+    }
+
+    function test_StorageReadBytes32() public {
+        bytes32 val = stdstore.target(address(test)).sig(test.tE.selector).read_bytes32();
+        assertEq(val, hex"1337");
+    }
+
+    function test_StorageReadBool_False() public {
+        bool val = stdstore.target(address(test)).sig(test.tB.selector).read_bool();
+        assertEq(val, false);
+    }
+
+    function test_StorageReadBool_True() public {
+        bool val = stdstore.target(address(test)).sig(test.tH.selector).read_bool();
+        assertEq(val, true);
+    }
+
+    function test_RevertIf_ReadingNonBoolValue() public {
+        vm.expectRevert("stdStorage read_bool(StdStorage): Cannot decode. Make sure you are reading a bool.");
+        this.readNonBoolValue();
+    }
+
+    function readNonBoolValue() public {
+        stdstore.target(address(test)).sig(test.tE.selector).read_bool();
+    }
+
+    function test_StorageReadAddress() public {
+        address val = stdstore.target(address(test)).sig(test.tF.selector).read_address();
+        assertEq(val, address(1337));
+    }
+
+    function test_StorageReadUint() public {
+        uint256 val = stdstore.target(address(test)).sig(test.exists.selector).read_uint();
+        assertEq(val, 1);
+    }
+
+    function test_StorageReadInt() public {
+        int256 val = stdstore.target(address(test)).sig(test.tG.selector).read_int();
+        assertEq(val, type(int256).min);
+    }
+
+    function testFuzz_Packed(uint256 val, uint8 elemToGet) public {
+        // This function tries an assortment of packed slots, shifts meaning number of elements
+        // that are packed. Shiftsizes are the size of each element, i.e. 8 means a data type that is 8 bits, 16 == 16 bits, etc.
+        // Combined, these determine how a slot is packed. Making it random is too hard to avoid global rejection limit
+        // and make it performant.
+
+        // change the number of shifts
+        for (uint256 i = 1; i < 5; i++) {
+            uint256 shifts = i;
+
+            elemToGet = uint8(bound(elemToGet, 0, shifts - 1));
+
+            uint256[] memory shiftSizes = new uint256[](shifts);
+            for (uint256 j; j < shifts; j++) {
+                shiftSizes[j] = 8 * (j + 1);
+            }
+
+            test.setRandomPacking(val);
+
+            uint256 leftBits;
+            uint256 rightBits;
+            for (uint256 j; j < shiftSizes.length; j++) {
+                if (j < elemToGet) {
+                    leftBits += shiftSizes[j];
+                } else if (elemToGet != j) {
+                    rightBits += shiftSizes[j];
+                }
+            }
+
+            // we may have some right bits unaccounted for
+            leftBits += 256 - (leftBits + shiftSizes[elemToGet] + rightBits);
+            // clear left bits, then clear right bits and realign
+            uint256 expectedValToRead = (val << leftBits) >> (leftBits + rightBits);
+
+            uint256 readVal = stdstore.target(address(test)).enable_packed_slots().sig(
+                "getRandomPacked(uint8,uint8[],uint8)"
+            ).with_calldata(abi.encode(shifts, shiftSizes, elemToGet)).read_uint();
+
+            assertEq(readVal, expectedValToRead);
+        }
+    }
+
+    function testFuzz_Packed2(uint256 nvars, uint256 seed) public {
+        // Number of random variables to generate.
+        nvars = bound(nvars, 1, 20);
+
+        // This will decrease as we generate values in the below loop.
+        uint256 bitsRemaining = 256;
+
+        // Generate a random value and size for each variable.
+        uint256[] memory vals = new uint256[](nvars);
+        uint256[] memory sizes = new uint256[](nvars);
+        uint256[] memory offsets = new uint256[](nvars);
+
+        for (uint256 i = 0; i < nvars; i++) {
+            // Generate a random value and size.
+            offsets[i] = i == 0 ? 0 : offsets[i - 1] + sizes[i - 1];
+
+            uint256 nvarsRemaining = nvars - i;
+            uint256 maxVarSize = bitsRemaining - nvarsRemaining + 1;
+            sizes[i] = bound(uint256(keccak256(abi.encodePacked(seed, i + 256))), 1, maxVarSize);
+            bitsRemaining -= sizes[i];
+
+            uint256 maxVal;
+            uint256 varSize = sizes[i];
+            assembly {
+                // mask = (1 << varSize) - 1
+                maxVal := sub(shl(varSize, 1), 1)
+            }
+            vals[i] = bound(uint256(keccak256(abi.encodePacked(seed, i))), 0, maxVal);
+        }
+
+        // Pack all values into the slot.
+        for (uint256 i = 0; i < nvars; i++) {
+            stdstore.enable_packed_slots().target(address(test)).sig("getRandomPacked(uint256,uint256)").with_key(
+                sizes[i]
+            ).with_key(offsets[i]).checked_write(vals[i]);
+        }
+
+        // Verify the read data matches.
+        for (uint256 i = 0; i < nvars; i++) {
+            uint256 readVal = stdstore.enable_packed_slots().target(address(test)).sig(
+                "getRandomPacked(uint256,uint256)"
+            ).with_key(sizes[i]).with_key(offsets[i]).read_uint();
+
+            uint256 retVal = test.getRandomPacked(sizes[i], offsets[i]);
+
+            assertEq(readVal, vals[i]);
+            assertEq(retVal, vals[i]);
+        }
+    }
+
+    function testEdgeCaseArray() public {
+        stdstore.target(address(test)).sig("edgeCaseArray(uint256)").with_key(uint256(0)).checked_write(1);
+        assertEq(test.edgeCaseArray(0), 1);
+    }
+}
+
+contract StorageTestTarget {
+    using stdStorage for StdStorage;
+
+    StdStorage internal stdstore;
+    StorageTest internal test;
+
+    constructor(StorageTest test_) {
+        test = test_;
+    }
+
+    function expectRevertStorageConst() public {
+        stdstore.target(address(test)).sig("const()").find();
+    }
+}
+
+contract StorageTest {
+    uint256 public exists = 1;
+    mapping(address => uint256) public map_addr;
+    mapping(uint256 => uint256) public map_uint;
+    mapping(address => uint256) public map_packed;
+    mapping(address => UnpackedStruct) public map_struct;
+    mapping(address => mapping(address => uint256)) public deep_map;
+    mapping(address => mapping(address => UnpackedStruct)) public deep_map_struct;
+    UnpackedStruct public basic;
+
+    uint248 public tA;
+    bool public tB;
+
+    bool public tC = false;
+    uint248 public tD = 1;
+
+    struct UnpackedStruct {
+        uint256 a;
+        uint256 b;
+    }
+
+    mapping(address => bool) public map_bool;
+
+    bytes32 public tE = hex"1337";
+    address public tF = address(1337);
+    int256 public tG = type(int256).min;
+    bool public tH = true;
+    bytes32 private tI = ~bytes32(hex"1337");
+
+    uint256 randomPacking;
+
+    // Array with length matching values of elements.
+    uint256[] public edgeCaseArray = [3, 3, 3];
+
+    constructor() {
+        basic = UnpackedStruct({a: 1337, b: 1337});
+
+        uint256 two = (1 << 128) | 1;
+        map_packed[msg.sender] = two;
+        map_packed[address(uint160(1337))] = 1 << 128;
+    }
+
+    function read_struct_upper(address who) public view returns (uint256) {
+        return map_packed[who] >> 128;
+    }
+
+    function read_struct_lower(address who) public view returns (uint256) {
+        return map_packed[who] & ((1 << 128) - 1);
+    }
+
+    function hidden() public view returns (bytes32 t) {
+        bytes32 slot = keccak256("my.random.var");
+        /// @solidity memory-safe-assembly
+        assembly {
+            t := sload(slot)
+        }
+    }
+
+    function const() public pure returns (bytes32 t) {
+        t = bytes32(hex"1337");
+    }
+
+    function extra_sload() public view returns (bytes32 t) {
+        // trigger read on slot `tE`, and make a staticcall to make sure compiler doesn't optimize this SLOAD away
+        assembly {
+            pop(staticcall(gas(), sload(tE.slot), 0, 0, 0, 0))
+        }
+        t = tI;
+    }
+
+    function setRandomPacking(uint256 val) public {
+        randomPacking = val;
+    }
+
+    function _getMask(uint256 size) internal pure returns (uint256 mask) {
+        assembly {
+            // mask = (1 << size) - 1
+            mask := sub(shl(size, 1), 1)
+        }
+    }
+
+    function setRandomPacking(uint256 val, uint256 size, uint256 offset) public {
+        // Generate mask based on the size of the value
+        uint256 mask = _getMask(size);
+        // Zero out all bits for the word we're about to set
+        uint256 cleanedWord = randomPacking & ~(mask << offset);
+        // Place val in the correct spot of the cleaned word
+        randomPacking = cleanedWord | val << offset;
+    }
+
+    function getRandomPacked(uint256 size, uint256 offset) public view returns (uint256) {
+        // Generate mask based on the size of the value
+        uint256 mask = _getMask(size);
+        // Shift to place the bits in the correct position, and use mask to zero out remaining bits
+        return (randomPacking >> offset) & mask;
+    }
+
+    function getRandomPacked(uint8 shifts, uint8[] memory shiftSizes, uint8 elem) public view returns (uint256) {
+        require(elem < shifts, "!elem");
+        uint256 leftBits;
+        uint256 rightBits;
+
+        for (uint256 i; i < shiftSizes.length; i++) {
+            if (i < elem) {
+                leftBits += shiftSizes[i];
+            } else if (elem != i) {
+                rightBits += shiftSizes[i];
+            }
+        }
+
+        // we may have some right bits unaccounted for
+        leftBits += 256 - (leftBits + shiftSizes[elem] + rightBits);
+
+        // clear left bits, then clear right bits and realign
+        return (randomPacking << leftBits) >> (leftBits + rightBits);
+    }
+}
