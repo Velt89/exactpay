@@ -1,1 +1,95 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodG9rZW4vRVJDMjAvdXRpbHMvRVJDMTM2M1V0aWxzLnNvbCkKCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKaW1wb3J0IHtJRVJDMTM2M1JlY2VpdmVyfSBmcm9tICIuLi8uLi8uLi9pbnRlcmZhY2VzL0lFUkMxMzYzUmVjZWl2ZXIuc29sIjsKaW1wb3J0IHtJRVJDMTM2M1NwZW5kZXJ9IGZyb20gIi4uLy4uLy4uL2ludGVyZmFjZXMvSUVSQzEzNjNTcGVuZGVyLnNvbCI7CgovKioKICogQGRldiBMaWJyYXJ5IHRoYXQgcHJvdmlkZXMgY29tbW9uIEVSQy0xMzYzIHV0aWxpdHkgZnVuY3Rpb25zLgogKgogKiBTZWUgaHR0cHM6Ly9laXBzLmV0aGVyZXVtLm9yZy9FSVBTL2VpcC0xMzYzW0VSQy0xMzYzXS4KICovCmxpYnJhcnkgRVJDMTM2M1V0aWxzIHsKICAgIC8qKgogICAgICogQGRldiBJbmRpY2F0ZXMgYSBmYWlsdXJlIHdpdGggdGhlIHRva2VuIGByZWNlaXZlcmAuIFVzZWQgaW4gdHJhbnNmZXJzLgogICAgICogQHBhcmFtIHJlY2VpdmVyIEFkZHJlc3MgdG8gd2hpY2ggdG9rZW5zIGFyZSBiZWluZyB0cmFuc2ZlcnJlZC4KICAgICAqLwogICAgZXJyb3IgRVJDMTM2M0ludmFsaWRSZWNlaXZlcihhZGRyZXNzIHJlY2VpdmVyKTsKCiAgICAvKioKICAgICAqIEBkZXYgSW5kaWNhdGVzIGEgZmFpbHVyZSB3aXRoIHRoZSB0b2tlbiBgc3BlbmRlcmAuIFVzZWQgaW4gYXBwcm92YWxzLgogICAgICogQHBhcmFtIHNwZW5kZXIgQWRkcmVzcyB0aGF0IG1heSBiZSBhbGxvd2VkIHRvIG9wZXJhdGUgb24gdG9rZW5zIHdpdGhvdXQgYmVpbmcgdGhlaXIgb3duZXIuCiAgICAgKi8KICAgIGVycm9yIEVSQzEzNjNJbnZhbGlkU3BlbmRlcihhZGRyZXNzIHNwZW5kZXIpOwoKICAgIC8qKgogICAgICogQGRldiBQZXJmb3JtcyBhIGNhbGwgdG8ge0lFUkMxMzYzUmVjZWl2ZXItb25UcmFuc2ZlclJlY2VpdmVkfSBvbiBhIHRhcmdldCBhZGRyZXNzLgogICAgICoKICAgICAqIFJlcXVpcmVtZW50czoKICAgICAqCiAgICAgKiAtIFRoZSB0YXJnZXQgaGFzIGNvZGUgKGkuZS4gaXMgYSBjb250cmFjdCkuCiAgICAgKiAtIFRoZSB0YXJnZXQgYHRvYCBtdXN0IGltcGxlbWVudCB0aGUge0lFUkMxMzYzUmVjZWl2ZXJ9IGludGVyZmFjZS4KICAgICAqIC0gVGhlIHRhcmdldCBtdXN0IHJldHVybiB0aGUge0lFUkMxMzYzUmVjZWl2ZXItb25UcmFuc2ZlclJlY2VpdmVkfSBzZWxlY3RvciB0byBhY2NlcHQgdGhlIHRyYW5zZmVyLgogICAgICovCiAgICBmdW5jdGlvbiBjaGVja09uRVJDMTM2M1RyYW5zZmVyUmVjZWl2ZWQoCiAgICAgICAgYWRkcmVzcyBvcGVyYXRvciwKICAgICAgICBhZGRyZXNzIGZyb20sCiAgICAgICAgYWRkcmVzcyB0bywKICAgICAgICB1aW50MjU2IHZhbHVlLAogICAgICAgIGJ5dGVzIG1lbW9yeSBkYXRhCiAgICApIGludGVybmFsIHsKICAgICAgICBpZiAodG8uY29kZS5sZW5ndGggPT0gMCkgewogICAgICAgICAgICByZXZlcnQgRVJDMTM2M0ludmFsaWRSZWNlaXZlcih0byk7CiAgICAgICAgfQoKICAgICAgICB0cnkgSUVSQzEzNjNSZWNlaXZlcih0bykub25UcmFuc2ZlclJlY2VpdmVkKG9wZXJhdG9yLCBmcm9tLCB2YWx1ZSwgZGF0YSkgcmV0dXJucyAoYnl0ZXM0IHJldHZhbCkgewogICAgICAgICAgICBpZiAocmV0dmFsICE9IElFUkMxMzYzUmVjZWl2ZXIub25UcmFuc2ZlclJlY2VpdmVkLnNlbGVjdG9yKSB7CiAgICAgICAgICAgICAgICByZXZlcnQgRVJDMTM2M0ludmFsaWRSZWNlaXZlcih0byk7CiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChieXRlcyBtZW1vcnkgcmVhc29uKSB7CiAgICAgICAgICAgIGlmIChyZWFzb24ubGVuZ3RoID09IDApIHsKICAgICAgICAgICAgICAgIHJldmVydCBFUkMxMzYzSW52YWxpZFJlY2VpdmVyKHRvKTsKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGFzc2VtYmx5ICgibWVtb3J5LXNhZmUiKSB7CiAgICAgICAgICAgICAgICAgICAgcmV2ZXJ0KGFkZCgzMiwgcmVhc29uKSwgbWxvYWQocmVhc29uKSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUGVyZm9ybXMgYSBjYWxsIHRvIHtJRVJDMTM2M1NwZW5kZXItb25BcHByb3ZhbFJlY2VpdmVkfSBvbiBhIHRhcmdldCBhZGRyZXNzLgogICAgICoKICAgICAqIFJlcXVpcmVtZW50czoKICAgICAqCiAgICAgKiAtIFRoZSB0YXJnZXQgaGFzIGNvZGUgKGkuZS4gaXMgYSBjb250cmFjdCkuCiAgICAgKiAtIFRoZSB0YXJnZXQgYHNwZW5kZXJgIG11c3QgaW1wbGVtZW50IHRoZSB7SUVSQzEzNjNTcGVuZGVyfSBpbnRlcmZhY2UuCiAgICAgKiAtIFRoZSB0YXJnZXQgbXVzdCByZXR1cm4gdGhlIHtJRVJDMTM2M1NwZW5kZXItb25BcHByb3ZhbFJlY2VpdmVkfSBzZWxlY3RvciB0byBhY2NlcHQgdGhlIGFwcHJvdmFsLgogICAgICovCiAgICBmdW5jdGlvbiBjaGVja09uRVJDMTM2M0FwcHJvdmFsUmVjZWl2ZWQoCiAgICAgICAgYWRkcmVzcyBvcGVyYXRvciwKICAgICAgICBhZGRyZXNzIHNwZW5kZXIsCiAgICAgICAgdWludDI1NiB2YWx1ZSwKICAgICAgICBieXRlcyBtZW1vcnkgZGF0YQogICAgKSBpbnRlcm5hbCB7CiAgICAgICAgaWYgKHNwZW5kZXIuY29kZS5sZW5ndGggPT0gMCkgewogICAgICAgICAgICByZXZlcnQgRVJDMTM2M0ludmFsaWRTcGVuZGVyKHNwZW5kZXIpOwogICAgICAgIH0KCiAgICAgICAgdHJ5IElFUkMxMzYzU3BlbmRlcihzcGVuZGVyKS5vbkFwcHJvdmFsUmVjZWl2ZWQob3BlcmF0b3IsIHZhbHVlLCBkYXRhKSByZXR1cm5zIChieXRlczQgcmV0dmFsKSB7CiAgICAgICAgICAgIGlmIChyZXR2YWwgIT0gSUVSQzEzNjNTcGVuZGVyLm9uQXBwcm92YWxSZWNlaXZlZC5zZWxlY3RvcikgewogICAgICAgICAgICAgICAgcmV2ZXJ0IEVSQzEzNjNJbnZhbGlkU3BlbmRlcihzcGVuZGVyKTsKICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKGJ5dGVzIG1lbW9yeSByZWFzb24pIHsKICAgICAgICAgICAgaWYgKHJlYXNvbi5sZW5ndGggPT0gMCkgewogICAgICAgICAgICAgICAgcmV2ZXJ0IEVSQzEzNjNJbnZhbGlkU3BlbmRlcihzcGVuZGVyKTsKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGFzc2VtYmx5ICgibWVtb3J5LXNhZmUiKSB7CiAgICAgICAgICAgICAgICAgICAgcmV2ZXJ0KGFkZCgzMiwgcmVhc29uKSwgbWxvYWQocmVhc29uKSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (token/ERC20/utils/ERC1363Utils.sol)
+
+pragma solidity ^0.8.20;
+
+import {IERC1363Receiver} from "../../../interfaces/IERC1363Receiver.sol";
+import {IERC1363Spender} from "../../../interfaces/IERC1363Spender.sol";
+
+/**
+ * @dev Library that provides common ERC-1363 utility functions.
+ *
+ * See https://eips.ethereum.org/EIPS/eip-1363[ERC-1363].
+ */
+library ERC1363Utils {
+    /**
+     * @dev Indicates a failure with the token `receiver`. Used in transfers.
+     * @param receiver Address to which tokens are being transferred.
+     */
+    error ERC1363InvalidReceiver(address receiver);
+
+    /**
+     * @dev Indicates a failure with the token `spender`. Used in approvals.
+     * @param spender Address that may be allowed to operate on tokens without being their owner.
+     */
+    error ERC1363InvalidSpender(address spender);
+
+    /**
+     * @dev Performs a call to {IERC1363Receiver-onTransferReceived} on a target address.
+     *
+     * Requirements:
+     *
+     * - The target has code (i.e. is a contract).
+     * - The target `to` must implement the {IERC1363Receiver} interface.
+     * - The target must return the {IERC1363Receiver-onTransferReceived} selector to accept the transfer.
+     */
+    function checkOnERC1363TransferReceived(
+        address operator,
+        address from,
+        address to,
+        uint256 value,
+        bytes memory data
+    ) internal {
+        if (to.code.length == 0) {
+            revert ERC1363InvalidReceiver(to);
+        }
+
+        try IERC1363Receiver(to).onTransferReceived(operator, from, value, data) returns (bytes4 retval) {
+            if (retval != IERC1363Receiver.onTransferReceived.selector) {
+                revert ERC1363InvalidReceiver(to);
+            }
+        } catch (bytes memory reason) {
+            if (reason.length == 0) {
+                revert ERC1363InvalidReceiver(to);
+            } else {
+                assembly ("memory-safe") {
+                    revert(add(32, reason), mload(reason))
+                }
+            }
+        }
+    }
+
+    /**
+     * @dev Performs a call to {IERC1363Spender-onApprovalReceived} on a target address.
+     *
+     * Requirements:
+     *
+     * - The target has code (i.e. is a contract).
+     * - The target `spender` must implement the {IERC1363Spender} interface.
+     * - The target must return the {IERC1363Spender-onApprovalReceived} selector to accept the approval.
+     */
+    function checkOnERC1363ApprovalReceived(
+        address operator,
+        address spender,
+        uint256 value,
+        bytes memory data
+    ) internal {
+        if (spender.code.length == 0) {
+            revert ERC1363InvalidSpender(spender);
+        }
+
+        try IERC1363Spender(spender).onApprovalReceived(operator, value, data) returns (bytes4 retval) {
+            if (retval != IERC1363Spender.onApprovalReceived.selector) {
+                revert ERC1363InvalidSpender(spender);
+            }
+        } catch (bytes memory reason) {
+            if (reason.length == 0) {
+                revert ERC1363InvalidSpender(spender);
+            } else {
+                assembly ("memory-safe") {
+                    revert(add(32, reason), mload(reason))
+                }
+            }
+        }
+    }
+}
