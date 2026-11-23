@@ -1,1 +1,199 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwpjb25zdCB7IFBBTklDX0NPREVTIH0gPSByZXF1aXJlKCdAbm9taWNmb3VuZGF0aW9uL2hhcmRoYXQtY2hhaS1tYXRjaGVycy9wYW5pYycpOwoKY29uc3QgewogIHNob3VsZEJlaGF2ZUxpa2VFUkMyMCwKICBzaG91bGRCZWhhdmVMaWtlRVJDMjBUcmFuc2ZlciwKICBzaG91bGRCZWhhdmVMaWtlRVJDMjBBcHByb3ZlLAp9ID0gcmVxdWlyZSgnLi9FUkMyMC5iZWhhdmlvcicpOwoKY29uc3QgVE9LRU5TID0gW3sgVG9rZW46ICckRVJDMjAnIH0sIHsgVG9rZW46ICckRVJDMjBBcHByb3ZhbE1vY2snLCBmb3JjZWRBcHByb3ZhbDogdHJ1ZSB9XTsKCmNvbnN0IG5hbWUgPSAnTXkgVG9rZW4nOwpjb25zdCBzeW1ib2wgPSAnTVRLTic7CmNvbnN0IGluaXRpYWxTdXBwbHkgPSAxMDBuOwoKZGVzY3JpYmUoJ0VSQzIwJywgZnVuY3Rpb24gKCkgewogIGZvciAoY29uc3QgeyBUb2tlbiwgZm9yY2VkQXBwcm92YWwgfSBvZiBUT0tFTlMpIHsKICAgIGRlc2NyaWJlKFRva2VuLCBmdW5jdGlvbiAoKSB7CiAgICAgIGNvbnN0IGZpeHR1cmUgPSBhc3luYyAoKSA9PiB7CiAgICAgICAgLy8gdGhpcy5hY2NvdW50cyBpcyB1c2VkIGJ5IHNob3VsZEJlaGF2ZUxpa2VFUkMyMAogICAgICAgIGNvbnN0IGFjY291bnRzID0gYXdhaXQgZXRoZXJzLmdldFNpZ25lcnMoKTsKICAgICAgICBjb25zdCBbaG9sZGVyLCByZWNpcGllbnRdID0gYWNjb3VudHM7CgogICAgICAgIGNvbnN0IHRva2VuID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KFRva2VuLCBbbmFtZSwgc3ltYm9sXSk7CiAgICAgICAgYXdhaXQgdG9rZW4uJF9taW50KGhvbGRlciwgaW5pdGlhbFN1cHBseSk7CgogICAgICAgIHJldHVybiB7IGFjY291bnRzLCBob2xkZXIsIHJlY2lwaWVudCwgdG9rZW4gfTsKICAgICAgfTsKCiAgICAgIGJlZm9yZUVhY2goYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIE9iamVjdC5hc3NpZ24odGhpcywgYXdhaXQgbG9hZEZpeHR1cmUoZml4dHVyZSkpOwogICAgICB9KTsKCiAgICAgIHNob3VsZEJlaGF2ZUxpa2VFUkMyMChpbml0aWFsU3VwcGx5LCB7IGZvcmNlZEFwcHJvdmFsIH0pOwoKICAgICAgaXQoJ2hhcyBhIG5hbWUnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudG9rZW4ubmFtZSgpKS50by5lcXVhbChuYW1lKTsKICAgICAgfSk7CgogICAgICBpdCgnaGFzIGEgc3ltYm9sJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnRva2VuLnN5bWJvbCgpKS50by5lcXVhbChzeW1ib2wpOwogICAgICB9KTsKCiAgICAgIGl0KCdoYXMgMTggZGVjaW1hbHMnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudG9rZW4uZGVjaW1hbHMoKSkudG8uZXF1YWwoMThuKTsKICAgICAgfSk7CgogICAgICBkZXNjcmliZSgnX21pbnQnLCBmdW5jdGlvbiAoKSB7CiAgICAgICAgY29uc3QgdmFsdWUgPSA1MG47CiAgICAgICAgaXQoJ3JlamVjdHMgYSBudWxsIGFjY291bnQnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICBhd2FpdCBleHBlY3QodGhpcy50b2tlbi4kX21pbnQoZXRoZXJzLlplcm9BZGRyZXNzLCB2YWx1ZSkpCiAgICAgICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLnRva2VuLCAnRVJDMjBJbnZhbGlkUmVjZWl2ZXInKQogICAgICAgICAgICAud2l0aEFyZ3MoZXRoZXJzLlplcm9BZGRyZXNzKTsKICAgICAgICB9KTsKCiAgICAgICAgaXQoJ3JlamVjdHMgb3ZlcmZsb3cnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICBhd2FpdCBleHBlY3QodGhpcy50b2tlbi4kX21pbnQodGhpcy5yZWNpcGllbnQsIGV0aGVycy5NYXhVaW50MjU2KSkudG8uYmUucmV2ZXJ0ZWRXaXRoUGFuaWMoCiAgICAgICAgICAgIFBBTklDX0NPREVTLkFSSVRITUVUSUNfVU5ERVJfT1JfT1ZFUkZMT1csCiAgICAgICAgICApOwogICAgICAgIH0pOwoKICAgICAgICBkZXNjcmliZSgnZm9yIGEgbm9uIHplcm8gYWNjb3VudCcsIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGJlZm9yZUVhY2goJ21pbnRpbmcnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICAgIHRoaXMudHggPSBhd2FpdCB0aGlzLnRva2VuLiRfbWludCh0aGlzLnJlY2lwaWVudCwgdmFsdWUpOwogICAgICAgICAgfSk7CgogICAgICAgICAgaXQoJ2luY3JlbWVudHMgdG90YWxTdXBwbHknLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICAgIGF3YWl0IGV4cGVjdChhd2FpdCB0aGlzLnRva2VuLnRvdGFsU3VwcGx5KCkpLnRvLmVxdWFsKGluaXRpYWxTdXBwbHkgKyB2YWx1ZSk7CiAgICAgICAgICB9KTsKCiAgICAgICAgICBpdCgnaW5jcmVtZW50cyByZWNpcGllbnQgYmFsYW5jZScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMudHgpLnRvLmNoYW5nZVRva2VuQmFsYW5jZSh0aGlzLnRva2VuLCB0aGlzLnJlY2lwaWVudCwgdmFsdWUpOwogICAgICAgICAgfSk7CgogICAgICAgICAgaXQoJ2VtaXRzIFRyYW5zZmVyIGV2ZW50JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgICBhd2FpdCBleHBlY3QodGhpcy50eCkudG8uZW1pdCh0aGlzLnRva2VuLCAnVHJhbnNmZXInKS53aXRoQXJncyhldGhlcnMuWmVyb0FkZHJlc3MsIHRoaXMucmVjaXBpZW50LCB2YWx1ZSk7CiAgICAgICAgICB9KTsKICAgICAgICB9KTsKICAgICAgfSk7CgogICAgICBkZXNjcmliZSgnX2J1cm4nLCBmdW5jdGlvbiAoKSB7CiAgICAgICAgaXQoJ3JlamVjdHMgYSBudWxsIGFjY291bnQnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICBhd2FpdCBleHBlY3QodGhpcy50b2tlbi4kX2J1cm4oZXRoZXJzLlplcm9BZGRyZXNzLCAxbikpCiAgICAgICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLnRva2VuLCAnRVJDMjBJbnZhbGlkU2VuZGVyJykKICAgICAgICAgICAgLndpdGhBcmdzKGV0aGVycy5aZXJvQWRkcmVzcyk7CiAgICAgICAgfSk7CgogICAgICAgIGRlc2NyaWJlKCdmb3IgYSBub24gemVybyBhY2NvdW50JywgZnVuY3Rpb24gKCkgewogICAgICAgICAgaXQoJ3JlamVjdHMgYnVybmluZyBtb3JlIHRoYW4gYmFsYW5jZScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMudG9rZW4uJF9idXJuKHRoaXMuaG9sZGVyLCBpbml0aWFsU3VwcGx5ICsgMW4pKQogICAgICAgICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLnRva2VuLCAnRVJDMjBJbnN1ZmZpY2llbnRCYWxhbmNlJykKICAgICAgICAgICAgICAud2l0aEFyZ3ModGhpcy5ob2xkZXIsIGluaXRpYWxTdXBwbHksIGluaXRpYWxTdXBwbHkgKyAxbik7CiAgICAgICAgICB9KTsKCiAgICAgICAgICBjb25zdCBkZXNjcmliZUJ1cm4gPSBmdW5jdGlvbiAoZGVzY3JpcHRpb24sIHZhbHVlKSB7CiAgICAgICAgICAgIGRlc2NyaWJlKGRlc2NyaXB0aW9uLCBmdW5jdGlvbiAoKSB7CiAgICAgICAgICAgICAgYmVmb3JlRWFjaCgnYnVybmluZycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgICAgICAgIHRoaXMudHggPSBhd2FpdCB0aGlzLnRva2VuLiRfYnVybih0aGlzLmhvbGRlciwgdmFsdWUpOwogICAgICAgICAgICAgIH0pOwoKICAgICAgICAgICAgICBpdCgnZGVjcmVtZW50cyB0b3RhbFN1cHBseScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnRva2VuLnRvdGFsU3VwcGx5KCkpLnRvLmVxdWFsKGluaXRpYWxTdXBwbHkgLSB2YWx1ZSk7CiAgICAgICAgICAgICAgfSk7CgogICAgICAgICAgICAgIGl0KCdkZWNyZW1lbnRzIGhvbGRlciBiYWxhbmNlJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMudHgpLnRvLmNoYW5nZVRva2VuQmFsYW5jZSh0aGlzLnRva2VuLCB0aGlzLmhvbGRlciwgLXZhbHVlKTsKICAgICAgICAgICAgICB9KTsKCiAgICAgICAgICAgICAgaXQoJ2VtaXRzIFRyYW5zZmVyIGV2ZW50JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMudHgpLnRvLmVtaXQodGhpcy50b2tlbiwgJ1RyYW5zZmVyJykud2l0aEFyZ3ModGhpcy5ob2xkZXIsIGV0aGVycy5aZXJvQWRkcmVzcywgdmFsdWUpOwogICAgICAgICAgICAgIH0pOwogICAgICAgICAgICB9KTsKICAgICAgICAgIH07CgogICAgICAgICAgZGVzY3JpYmVCdXJuKCdmb3IgZW50aXJlIGJhbGFuY2UnLCBpbml0aWFsU3VwcGx5KTsKICAgICAgICAgIGRlc2NyaWJlQnVybignZm9yIGxlc3MgdmFsdWUgdGhhbiBiYWxhbmNlJywgaW5pdGlhbFN1cHBseSAtIDFuKTsKICAgICAgICB9KTsKICAgICAgfSk7CgogICAgICBkZXNjcmliZSgnX3VwZGF0ZScsIGZ1bmN0aW9uICgpIHsKICAgICAgICBjb25zdCB2YWx1ZSA9IDFuOwoKICAgICAgICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIHRoaXMudG90YWxTdXBwbHkgPSBhd2FpdCB0aGlzLnRva2VuLnRvdGFsU3VwcGx5KCk7CiAgICAgICAgfSk7CgogICAgICAgIGl0KCdmcm9tIGlzIHRoZSB6ZXJvIGFkZHJlc3MnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICBjb25zdCB0eCA9IGF3YWl0IHRoaXMudG9rZW4uJF91cGRhdGUoZXRoZXJzLlplcm9BZGRyZXNzLCB0aGlzLmhvbGRlciwgdmFsdWUpOwogICAgICAgICAgYXdhaXQgZXhwZWN0KHR4KS50by5lbWl0KHRoaXMudG9rZW4sICdUcmFuc2ZlcicpLndpdGhBcmdzKGV0aGVycy5aZXJvQWRkcmVzcywgdGhpcy5ob2xkZXIsIHZhbHVlKTsKCiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy50b2tlbi50b3RhbFN1cHBseSgpKS50by5lcXVhbCh0aGlzLnRvdGFsU3VwcGx5ICsgdmFsdWUpOwogICAgICAgICAgYXdhaXQgZXhwZWN0KHR4KS50by5jaGFuZ2VUb2tlbkJhbGFuY2UodGhpcy50b2tlbiwgdGhpcy5ob2xkZXIsIHZhbHVlKTsKICAgICAgICB9KTsKCiAgICAgICAgaXQoJ3RvIGlzIHRoZSB6ZXJvIGFkZHJlc3MnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICBjb25zdCB0eCA9IGF3YWl0IHRoaXMudG9rZW4uJF91cGRhdGUodGhpcy5ob2xkZXIsIGV0aGVycy5aZXJvQWRkcmVzcywgdmFsdWUpOwogICAgICAgICAgYXdhaXQgZXhwZWN0KHR4KS50by5lbWl0KHRoaXMudG9rZW4sICdUcmFuc2ZlcicpLndpdGhBcmdzKHRoaXMuaG9sZGVyLCBldGhlcnMuWmVyb0FkZHJlc3MsIHZhbHVlKTsKCiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy50b2tlbi50b3RhbFN1cHBseSgpKS50by5lcXVhbCh0aGlzLnRvdGFsU3VwcGx5IC0gdmFsdWUpOwogICAgICAgICAgYXdhaXQgZXhwZWN0KHR4KS50by5jaGFuZ2VUb2tlbkJhbGFuY2UodGhpcy50b2tlbiwgdGhpcy5ob2xkZXIsIC12YWx1ZSk7CiAgICAgICAgfSk7CgogICAgICAgIGRlc2NyaWJlKCdmcm9tIGFuZCB0byBhcmUgdGhlIHNhbWUgYWRkcmVzcycsIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGl0KCd6ZXJvIGFkZHJlc3MnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICAgIGNvbnN0IHR4ID0gYXdhaXQgdGhpcy50b2tlbi4kX3VwZGF0ZShldGhlcnMuWmVyb0FkZHJlc3MsIGV0aGVycy5aZXJvQWRkcmVzcywgdmFsdWUpOwogICAgICAgICAgICBhd2FpdCBleHBlY3QodHgpLnRvLmVtaXQodGhpcy50b2tlbiwgJ1RyYW5zZmVyJykud2l0aEFyZ3MoZXRoZXJzLlplcm9BZGRyZXNzLCBldGhlcnMuWmVyb0FkZHJlc3MsIHZhbHVlKTsKCiAgICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnRva2VuLnRvdGFsU3VwcGx5KCkpLnRvLmVxdWFsKHRoaXMudG90YWxTdXBwbHkpOwogICAgICAgICAgICBhd2FpdCBleHBlY3QodHgpLnRvLmNoYW5nZVRva2VuQmFsYW5jZSh0aGlzLnRva2VuLCBldGhlcnMuWmVyb0FkZHJlc3MsIDBuKTsKICAgICAgICAgIH0pOwoKICAgICAgICAgIGRlc2NyaWJlKCdub24gemVybyBhZGRyZXNzJywgZnVuY3Rpb24gKCkgewogICAgICAgICAgICBpdCgncmV2ZXJ0cyB3aXRob3V0IGJhbGFuY2UnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMudG9rZW4uJF91cGRhdGUodGhpcy5yZWNpcGllbnQsIHRoaXMucmVjaXBpZW50LCB2YWx1ZSkpCiAgICAgICAgICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy50b2tlbiwgJ0VSQzIwSW5zdWZmaWNpZW50QmFsYW5jZScpCiAgICAgICAgICAgICAgICAud2l0aEFyZ3ModGhpcy5yZWNpcGllbnQsIDBuLCB2YWx1ZSk7CiAgICAgICAgICAgIH0pOwoKICAgICAgICAgICAgaXQoJ2V4ZWN1dGVzIHdpdGggYmFsYW5jZScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgICAgICBjb25zdCB0eCA9IGF3YWl0IHRoaXMudG9rZW4uJF91cGRhdGUodGhpcy5ob2xkZXIsIHRoaXMuaG9sZGVyLCB2YWx1ZSk7CiAgICAgICAgICAgICAgYXdhaXQgZXhwZWN0KHR4KS50by5jaGFuZ2VUb2tlbkJhbGFuY2UodGhpcy50b2tlbiwgdGhpcy5ob2xkZXIsIDBuKTsKICAgICAgICAgICAgICBhd2FpdCBleHBlY3QodHgpLnRvLmVtaXQodGhpcy50b2tlbiwgJ1RyYW5zZmVyJykud2l0aEFyZ3ModGhpcy5ob2xkZXIsIHRoaXMuaG9sZGVyLCB2YWx1ZSk7CiAgICAgICAgICAgIH0pOwogICAgICAgICAgfSk7CiAgICAgICAgfSk7CiAgICAgIH0pOwoKICAgICAgZGVzY3JpYmUoJ190cmFuc2ZlcicsIGZ1bmN0aW9uICgpIHsKICAgICAgICBiZWZvcmVFYWNoKGZ1bmN0aW9uICgpIHsKICAgICAgICAgIHRoaXMudHJhbnNmZXIgPSB0aGlzLnRva2VuLiRfdHJhbnNmZXI7CiAgICAgICAgfSk7CgogICAgICAgIHNob3VsZEJlaGF2ZUxpa2VFUkMyMFRyYW5zZmVyKGluaXRpYWxTdXBwbHkpOwoKICAgICAgICBpdCgncmV2ZXJ0cyB3aGVuIHRoZSBzZW5kZXIgaXMgdGhlIHplcm8gYWRkcmVzcycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLnRva2VuLiRfdHJhbnNmZXIoZXRoZXJzLlplcm9BZGRyZXNzLCB0aGlzLnJlY2lwaWVudCwgaW5pdGlhbFN1cHBseSkpCiAgICAgICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLnRva2VuLCAnRVJDMjBJbnZhbGlkU2VuZGVyJykKICAgICAgICAgICAgLndpdGhBcmdzKGV0aGVycy5aZXJvQWRkcmVzcyk7CiAgICAgICAgfSk7CiAgICAgIH0pOwoKICAgICAgZGVzY3JpYmUoJ19hcHByb3ZlJywgZnVuY3Rpb24gKCkgewogICAgICAgIGJlZm9yZUVhY2goZnVuY3Rpb24gKCkgewogICAgICAgICAgdGhpcy5hcHByb3ZlID0gdGhpcy50b2tlbi4kX2FwcHJvdmU7CiAgICAgICAgfSk7CgogICAgICAgIHNob3VsZEJlaGF2ZUxpa2VFUkMyMEFwcHJvdmUoaW5pdGlhbFN1cHBseSk7CgogICAgICAgIGl0KCdyZXZlcnRzIHdoZW4gdGhlIG93bmVyIGlzIHRoZSB6ZXJvIGFkZHJlc3MnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICBhd2FpdCBleHBlY3QodGhpcy50b2tlbi4kX2FwcHJvdmUoZXRoZXJzLlplcm9BZGRyZXNzLCB0aGlzLnJlY2lwaWVudCwgaW5pdGlhbFN1cHBseSkpCiAgICAgICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLnRva2VuLCAnRVJDMjBJbnZhbGlkQXBwcm92ZXInKQogICAgICAgICAgICAud2l0aEFyZ3MoZXRoZXJzLlplcm9BZGRyZXNzKTsKICAgICAgICB9KTsKICAgICAgfSk7CiAgICB9KTsKICB9Cn0pOwo=
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+const { PANIC_CODES } = require('@nomicfoundation/hardhat-chai-matchers/panic');
+
+const {
+  shouldBehaveLikeERC20,
+  shouldBehaveLikeERC20Transfer,
+  shouldBehaveLikeERC20Approve,
+} = require('./ERC20.behavior');
+
+const TOKENS = [{ Token: '$ERC20' }, { Token: '$ERC20ApprovalMock', forcedApproval: true }];
+
+const name = 'My Token';
+const symbol = 'MTKN';
+const initialSupply = 100n;
+
+describe('ERC20', function () {
+  for (const { Token, forcedApproval } of TOKENS) {
+    describe(Token, function () {
+      const fixture = async () => {
+        // this.accounts is used by shouldBehaveLikeERC20
+        const accounts = await ethers.getSigners();
+        const [holder, recipient] = accounts;
+
+        const token = await ethers.deployContract(Token, [name, symbol]);
+        await token.$_mint(holder, initialSupply);
+
+        return { accounts, holder, recipient, token };
+      };
+
+      beforeEach(async function () {
+        Object.assign(this, await loadFixture(fixture));
+      });
+
+      shouldBehaveLikeERC20(initialSupply, { forcedApproval });
+
+      it('has a name', async function () {
+        expect(await this.token.name()).to.equal(name);
+      });
+
+      it('has a symbol', async function () {
+        expect(await this.token.symbol()).to.equal(symbol);
+      });
+
+      it('has 18 decimals', async function () {
+        expect(await this.token.decimals()).to.equal(18n);
+      });
+
+      describe('_mint', function () {
+        const value = 50n;
+        it('rejects a null account', async function () {
+          await expect(this.token.$_mint(ethers.ZeroAddress, value))
+            .to.be.revertedWithCustomError(this.token, 'ERC20InvalidReceiver')
+            .withArgs(ethers.ZeroAddress);
+        });
+
+        it('rejects overflow', async function () {
+          await expect(this.token.$_mint(this.recipient, ethers.MaxUint256)).to.be.revertedWithPanic(
+            PANIC_CODES.ARITHMETIC_UNDER_OR_OVERFLOW,
+          );
+        });
+
+        describe('for a non zero account', function () {
+          beforeEach('minting', async function () {
+            this.tx = await this.token.$_mint(this.recipient, value);
+          });
+
+          it('increments totalSupply', async function () {
+            await expect(await this.token.totalSupply()).to.equal(initialSupply + value);
+          });
+
+          it('increments recipient balance', async function () {
+            await expect(this.tx).to.changeTokenBalance(this.token, this.recipient, value);
+          });
+
+          it('emits Transfer event', async function () {
+            await expect(this.tx).to.emit(this.token, 'Transfer').withArgs(ethers.ZeroAddress, this.recipient, value);
+          });
+        });
+      });
+
+      describe('_burn', function () {
+        it('rejects a null account', async function () {
+          await expect(this.token.$_burn(ethers.ZeroAddress, 1n))
+            .to.be.revertedWithCustomError(this.token, 'ERC20InvalidSender')
+            .withArgs(ethers.ZeroAddress);
+        });
+
+        describe('for a non zero account', function () {
+          it('rejects burning more than balance', async function () {
+            await expect(this.token.$_burn(this.holder, initialSupply + 1n))
+              .to.be.revertedWithCustomError(this.token, 'ERC20InsufficientBalance')
+              .withArgs(this.holder, initialSupply, initialSupply + 1n);
+          });
+
+          const describeBurn = function (description, value) {
+            describe(description, function () {
+              beforeEach('burning', async function () {
+                this.tx = await this.token.$_burn(this.holder, value);
+              });
+
+              it('decrements totalSupply', async function () {
+                expect(await this.token.totalSupply()).to.equal(initialSupply - value);
+              });
+
+              it('decrements holder balance', async function () {
+                await expect(this.tx).to.changeTokenBalance(this.token, this.holder, -value);
+              });
+
+              it('emits Transfer event', async function () {
+                await expect(this.tx).to.emit(this.token, 'Transfer').withArgs(this.holder, ethers.ZeroAddress, value);
+              });
+            });
+          };
+
+          describeBurn('for entire balance', initialSupply);
+          describeBurn('for less value than balance', initialSupply - 1n);
+        });
+      });
+
+      describe('_update', function () {
+        const value = 1n;
+
+        beforeEach(async function () {
+          this.totalSupply = await this.token.totalSupply();
+        });
+
+        it('from is the zero address', async function () {
+          const tx = await this.token.$_update(ethers.ZeroAddress, this.holder, value);
+          await expect(tx).to.emit(this.token, 'Transfer').withArgs(ethers.ZeroAddress, this.holder, value);
+
+          expect(await this.token.totalSupply()).to.equal(this.totalSupply + value);
+          await expect(tx).to.changeTokenBalance(this.token, this.holder, value);
+        });
+
+        it('to is the zero address', async function () {
+          const tx = await this.token.$_update(this.holder, ethers.ZeroAddress, value);
+          await expect(tx).to.emit(this.token, 'Transfer').withArgs(this.holder, ethers.ZeroAddress, value);
+
+          expect(await this.token.totalSupply()).to.equal(this.totalSupply - value);
+          await expect(tx).to.changeTokenBalance(this.token, this.holder, -value);
+        });
+
+        describe('from and to are the same address', function () {
+          it('zero address', async function () {
+            const tx = await this.token.$_update(ethers.ZeroAddress, ethers.ZeroAddress, value);
+            await expect(tx).to.emit(this.token, 'Transfer').withArgs(ethers.ZeroAddress, ethers.ZeroAddress, value);
+
+            expect(await this.token.totalSupply()).to.equal(this.totalSupply);
+            await expect(tx).to.changeTokenBalance(this.token, ethers.ZeroAddress, 0n);
+          });
+
+          describe('non zero address', function () {
+            it('reverts without balance', async function () {
+              await expect(this.token.$_update(this.recipient, this.recipient, value))
+                .to.be.revertedWithCustomError(this.token, 'ERC20InsufficientBalance')
+                .withArgs(this.recipient, 0n, value);
+            });
+
+            it('executes with balance', async function () {
+              const tx = await this.token.$_update(this.holder, this.holder, value);
+              await expect(tx).to.changeTokenBalance(this.token, this.holder, 0n);
+              await expect(tx).to.emit(this.token, 'Transfer').withArgs(this.holder, this.holder, value);
+            });
+          });
+        });
+      });
+
+      describe('_transfer', function () {
+        beforeEach(function () {
+          this.transfer = this.token.$_transfer;
+        });
+
+        shouldBehaveLikeERC20Transfer(initialSupply);
+
+        it('reverts when the sender is the zero address', async function () {
+          await expect(this.token.$_transfer(ethers.ZeroAddress, this.recipient, initialSupply))
+            .to.be.revertedWithCustomError(this.token, 'ERC20InvalidSender')
+            .withArgs(ethers.ZeroAddress);
+        });
+      });
+
+      describe('_approve', function () {
+        beforeEach(function () {
+          this.approve = this.token.$_approve;
+        });
+
+        shouldBehaveLikeERC20Approve(initialSupply);
+
+        it('reverts when the owner is the zero address', async function () {
+          await expect(this.token.$_approve(ethers.ZeroAddress, this.recipient, initialSupply))
+            .to.be.revertedWithCustomError(this.token, 'ERC20InvalidApprover')
+            .withArgs(ethers.ZeroAddress);
+        });
+      });
+    });
+  }
+});
