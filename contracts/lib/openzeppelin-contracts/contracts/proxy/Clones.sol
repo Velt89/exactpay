@@ -1,1 +1,121 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAocHJveHkvQ2xvbmVzLnNvbCkKCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKaW1wb3J0IHtFcnJvcnN9IGZyb20gIi4uL3V0aWxzL0Vycm9ycy5zb2wiOwoKLyoqCiAqIEBkZXYgaHR0cHM6Ly9laXBzLmV0aGVyZXVtLm9yZy9FSVBTL2VpcC0xMTY3W0VSQy0xMTY3XSBpcyBhIHN0YW5kYXJkIGZvcgogKiBkZXBsb3lpbmcgbWluaW1hbCBwcm94eSBjb250cmFjdHMsIGFsc28ga25vd24gYXMgImNsb25lcyIuCiAqCiAqID4gVG8gc2ltcGx5IGFuZCBjaGVhcGx5IGNsb25lIGNvbnRyYWN0IGZ1bmN0aW9uYWxpdHkgaW4gYW4gaW1tdXRhYmxlIHdheSwgdGhpcyBzdGFuZGFyZCBzcGVjaWZpZXMKICogPiBhIG1pbmltYWwgYnl0ZWNvZGUgaW1wbGVtZW50YXRpb24gdGhhdCBkZWxlZ2F0ZXMgYWxsIGNhbGxzIHRvIGEga25vd24sIGZpeGVkIGFkZHJlc3MuCiAqCiAqIFRoZSBsaWJyYXJ5IGluY2x1ZGVzIGZ1bmN0aW9ucyB0byBkZXBsb3kgYSBwcm94eSB1c2luZyBlaXRoZXIgYGNyZWF0ZWAgKHRyYWRpdGlvbmFsIGRlcGxveW1lbnQpIG9yIGBjcmVhdGUyYAogKiAoc2FsdGVkIGRldGVybWluaXN0aWMgZGVwbG95bWVudCkuIEl0IGFsc28gaW5jbHVkZXMgZnVuY3Rpb25zIHRvIHByZWRpY3QgdGhlIGFkZHJlc3NlcyBvZiBjbG9uZXMgZGVwbG95ZWQgdXNpbmcgdGhlCiAqIGRldGVybWluaXN0aWMgbWV0aG9kLgogKi8KbGlicmFyeSBDbG9uZXMgewogICAgLyoqCiAgICAgKiBAZGV2IERlcGxveXMgYW5kIHJldHVybnMgdGhlIGFkZHJlc3Mgb2YgYSBjbG9uZSB0aGF0IG1pbWljcyB0aGUgYmVoYXZpb3VyIG9mIGBpbXBsZW1lbnRhdGlvbmAuCiAgICAgKgogICAgICogVGhpcyBmdW5jdGlvbiB1c2VzIHRoZSBjcmVhdGUgb3Bjb2RlLCB3aGljaCBzaG91bGQgbmV2ZXIgcmV2ZXJ0LgogICAgICovCiAgICBmdW5jdGlvbiBjbG9uZShhZGRyZXNzIGltcGxlbWVudGF0aW9uKSBpbnRlcm5hbCByZXR1cm5zIChhZGRyZXNzIGluc3RhbmNlKSB7CiAgICAgICAgcmV0dXJuIGNsb25lKGltcGxlbWVudGF0aW9uLCAwKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgU2FtZSBhcyB7eHJlZi1DbG9uZXMtY2xvbmUtYWRkcmVzcy19W2Nsb25lXSwgYnV0IHdpdGggYSBgdmFsdWVgIHBhcmFtZXRlciB0byBzZW5kIG5hdGl2ZSBjdXJyZW5jeQogICAgICogdG8gdGhlIG5ldyBjb250cmFjdC4KICAgICAqCiAgICAgKiBOT1RFOiBVc2luZyBhIG5vbi16ZXJvIHZhbHVlIGF0IGNyZWF0aW9uIHdpbGwgcmVxdWlyZSB0aGUgY29udHJhY3QgdXNpbmcgdGhpcyBmdW5jdGlvbiAoZS5nLiBhIGZhY3RvcnkpCiAgICAgKiB0byBhbHdheXMgaGF2ZSBlbm91Z2ggYmFsYW5jZSBmb3IgbmV3IGRlcGxveW1lbnRzLiBDb25zaWRlciBleHBvc2luZyB0aGlzIGZ1bmN0aW9uIHVuZGVyIGEgcGF5YWJsZSBtZXRob2QuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGNsb25lKGFkZHJlc3MgaW1wbGVtZW50YXRpb24sIHVpbnQyNTYgdmFsdWUpIGludGVybmFsIHJldHVybnMgKGFkZHJlc3MgaW5zdGFuY2UpIHsKICAgICAgICBpZiAoYWRkcmVzcyh0aGlzKS5iYWxhbmNlIDwgdmFsdWUpIHsKICAgICAgICAgICAgcmV2ZXJ0IEVycm9ycy5JbnN1ZmZpY2llbnRCYWxhbmNlKGFkZHJlc3ModGhpcykuYmFsYW5jZSwgdmFsdWUpOwogICAgICAgIH0KICAgICAgICBhc3NlbWJseSAoIm1lbW9yeS1zYWZlIikgewogICAgICAgICAgICAvLyBDbGVhbnMgdGhlIHVwcGVyIDk2IGJpdHMgb2YgdGhlIGBpbXBsZW1lbnRhdGlvbmAgd29yZCwgdGhlbiBwYWNrcyB0aGUgZmlyc3QgMyBieXRlcwogICAgICAgICAgICAvLyBvZiB0aGUgYGltcGxlbWVudGF0aW9uYCBhZGRyZXNzIHdpdGggdGhlIGJ5dGVjb2RlIGJlZm9yZSB0aGUgYWRkcmVzcy4KICAgICAgICAgICAgbXN0b3JlKDB4MDAsIG9yKHNocigweGU4LCBzaGwoMHg2MCwgaW1wbGVtZW50YXRpb24pKSwgMHgzZDYwMmQ4MDYwMGEzZDM5ODFmMzM2M2QzZDM3M2QzZDNkMzYzZDczMDAwMDAwKSkKICAgICAgICAgICAgLy8gUGFja3MgdGhlIHJlbWFpbmluZyAxNyBieXRlcyBvZiBgaW1wbGVtZW50YXRpb25gIHdpdGggdGhlIGJ5dGVjb2RlIGFmdGVyIHRoZSBhZGRyZXNzLgogICAgICAgICAgICBtc3RvcmUoMHgyMCwgb3Ioc2hsKDB4NzgsIGltcGxlbWVudGF0aW9uKSwgMHg1YWY0M2Q4MjgwM2U5MDNkOTE2MDJiNTdmZDViZjMpKQogICAgICAgICAgICBpbnN0YW5jZSA6PSBjcmVhdGUodmFsdWUsIDB4MDksIDB4MzcpCiAgICAgICAgfQogICAgICAgIGlmIChpbnN0YW5jZSA9PSBhZGRyZXNzKDApKSB7CiAgICAgICAgICAgIHJldmVydCBFcnJvcnMuRmFpbGVkRGVwbG95bWVudCgpOwogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgRGVwbG95cyBhbmQgcmV0dXJucyB0aGUgYWRkcmVzcyBvZiBhIGNsb25lIHRoYXQgbWltaWNzIHRoZSBiZWhhdmlvdXIgb2YgYGltcGxlbWVudGF0aW9uYC4KICAgICAqCiAgICAgKiBUaGlzIGZ1bmN0aW9uIHVzZXMgdGhlIGNyZWF0ZTIgb3Bjb2RlIGFuZCBhIGBzYWx0YCB0byBkZXRlcm1pbmlzdGljYWxseSBkZXBsb3kKICAgICAqIHRoZSBjbG9uZS4gVXNpbmcgdGhlIHNhbWUgYGltcGxlbWVudGF0aW9uYCBhbmQgYHNhbHRgIG11bHRpcGxlIHRpbWUgd2lsbCByZXZlcnQsIHNpbmNlCiAgICAgKiB0aGUgY2xvbmVzIGNhbm5vdCBiZSBkZXBsb3llZCB0d2ljZSBhdCB0aGUgc2FtZSBhZGRyZXNzLgogICAgICovCiAgICBmdW5jdGlvbiBjbG9uZURldGVybWluaXN0aWMoYWRkcmVzcyBpbXBsZW1lbnRhdGlvbiwgYnl0ZXMzMiBzYWx0KSBpbnRlcm5hbCByZXR1cm5zIChhZGRyZXNzIGluc3RhbmNlKSB7CiAgICAgICAgcmV0dXJuIGNsb25lRGV0ZXJtaW5pc3RpYyhpbXBsZW1lbnRhdGlvbiwgc2FsdCwgMCk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFNhbWUgYXMge3hyZWYtQ2xvbmVzLWNsb25lRGV0ZXJtaW5pc3RpYy1hZGRyZXNzLWJ5dGVzMzItfVtjbG9uZURldGVybWluaXN0aWNdLCBidXQgd2l0aAogICAgICogYSBgdmFsdWVgIHBhcmFtZXRlciB0byBzZW5kIG5hdGl2ZSBjdXJyZW5jeSB0byB0aGUgbmV3IGNvbnRyYWN0LgogICAgICoKICAgICAqIE5PVEU6IFVzaW5nIGEgbm9uLXplcm8gdmFsdWUgYXQgY3JlYXRpb24gd2lsbCByZXF1aXJlIHRoZSBjb250cmFjdCB1c2luZyB0aGlzIGZ1bmN0aW9uIChlLmcuIGEgZmFjdG9yeSkKICAgICAqIHRvIGFsd2F5cyBoYXZlIGVub3VnaCBiYWxhbmNlIGZvciBuZXcgZGVwbG95bWVudHMuIENvbnNpZGVyIGV4cG9zaW5nIHRoaXMgZnVuY3Rpb24gdW5kZXIgYSBwYXlhYmxlIG1ldGhvZC4KICAgICAqLwogICAgZnVuY3Rpb24gY2xvbmVEZXRlcm1pbmlzdGljKAogICAgICAgIGFkZHJlc3MgaW1wbGVtZW50YXRpb24sCiAgICAgICAgYnl0ZXMzMiBzYWx0LAogICAgICAgIHVpbnQyNTYgdmFsdWUKICAgICkgaW50ZXJuYWwgcmV0dXJucyAoYWRkcmVzcyBpbnN0YW5jZSkgewogICAgICAgIGlmIChhZGRyZXNzKHRoaXMpLmJhbGFuY2UgPCB2YWx1ZSkgewogICAgICAgICAgICByZXZlcnQgRXJyb3JzLkluc3VmZmljaWVudEJhbGFuY2UoYWRkcmVzcyh0aGlzKS5iYWxhbmNlLCB2YWx1ZSk7CiAgICAgICAgfQogICAgICAgIGFzc2VtYmx5ICgibWVtb3J5LXNhZmUiKSB7CiAgICAgICAgICAgIC8vIENsZWFucyB0aGUgdXBwZXIgOTYgYml0cyBvZiB0aGUgYGltcGxlbWVudGF0aW9uYCB3b3JkLCB0aGVuIHBhY2tzIHRoZSBmaXJzdCAzIGJ5dGVzCiAgICAgICAgICAgIC8vIG9mIHRoZSBgaW1wbGVtZW50YXRpb25gIGFkZHJlc3Mgd2l0aCB0aGUgYnl0ZWNvZGUgYmVmb3JlIHRoZSBhZGRyZXNzLgogICAgICAgICAgICBtc3RvcmUoMHgwMCwgb3Ioc2hyKDB4ZTgsIHNobCgweDYwLCBpbXBsZW1lbnRhdGlvbikpLCAweDNkNjAyZDgwNjAwYTNkMzk4MWYzMzYzZDNkMzczZDNkM2QzNjNkNzMwMDAwMDApKQogICAgICAgICAgICAvLyBQYWNrcyB0aGUgcmVtYWluaW5nIDE3IGJ5dGVzIG9mIGBpbXBsZW1lbnRhdGlvbmAgd2l0aCB0aGUgYnl0ZWNvZGUgYWZ0ZXIgdGhlIGFkZHJlc3MuCiAgICAgICAgICAgIG1zdG9yZSgweDIwLCBvcihzaGwoMHg3OCwgaW1wbGVtZW50YXRpb24pLCAweDVhZjQzZDgyODAzZTkwM2Q5MTYwMmI1N2ZkNWJmMykpCiAgICAgICAgICAgIGluc3RhbmNlIDo9IGNyZWF0ZTIodmFsdWUsIDB4MDksIDB4MzcsIHNhbHQpCiAgICAgICAgfQogICAgICAgIGlmIChpbnN0YW5jZSA9PSBhZGRyZXNzKDApKSB7CiAgICAgICAgICAgIHJldmVydCBFcnJvcnMuRmFpbGVkRGVwbG95bWVudCgpOwogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgQ29tcHV0ZXMgdGhlIGFkZHJlc3Mgb2YgYSBjbG9uZSBkZXBsb3llZCB1c2luZyB7Q2xvbmVzLWNsb25lRGV0ZXJtaW5pc3RpY30uCiAgICAgKi8KICAgIGZ1bmN0aW9uIHByZWRpY3REZXRlcm1pbmlzdGljQWRkcmVzcygKICAgICAgICBhZGRyZXNzIGltcGxlbWVudGF0aW9uLAogICAgICAgIGJ5dGVzMzIgc2FsdCwKICAgICAgICBhZGRyZXNzIGRlcGxveWVyCiAgICApIGludGVybmFsIHB1cmUgcmV0dXJucyAoYWRkcmVzcyBwcmVkaWN0ZWQpIHsKICAgICAgICBhc3NlbWJseSAoIm1lbW9yeS1zYWZlIikgewogICAgICAgICAgICBsZXQgcHRyIDo9IG1sb2FkKDB4NDApCiAgICAgICAgICAgIG1zdG9yZShhZGQocHRyLCAweDM4KSwgZGVwbG95ZXIpCiAgICAgICAgICAgIG1zdG9yZShhZGQocHRyLCAweDI0KSwgMHg1YWY0M2Q4MjgwM2U5MDNkOTE2MDJiNTdmZDViZjNmZikKICAgICAgICAgICAgbXN0b3JlKGFkZChwdHIsIDB4MTQpLCBpbXBsZW1lbnRhdGlvbikKICAgICAgICAgICAgbXN0b3JlKHB0ciwgMHgzZDYwMmQ4MDYwMGEzZDM5ODFmMzM2M2QzZDM3M2QzZDNkMzYzZDczKQogICAgICAgICAgICBtc3RvcmUoYWRkKHB0ciwgMHg1OCksIHNhbHQpCiAgICAgICAgICAgIG1zdG9yZShhZGQocHRyLCAweDc4KSwga2VjY2FrMjU2KGFkZChwdHIsIDB4MGMpLCAweDM3KSkKICAgICAgICAgICAgcHJlZGljdGVkIDo9IGFuZChrZWNjYWsyNTYoYWRkKHB0ciwgMHg0MyksIDB4NTUpLCAweGZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmYpCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICogQGRldiBDb21wdXRlcyB0aGUgYWRkcmVzcyBvZiBhIGNsb25lIGRlcGxveWVkIHVzaW5nIHtDbG9uZXMtY2xvbmVEZXRlcm1pbmlzdGljfS4KICAgICAqLwogICAgZnVuY3Rpb24gcHJlZGljdERldGVybWluaXN0aWNBZGRyZXNzKAogICAgICAgIGFkZHJlc3MgaW1wbGVtZW50YXRpb24sCiAgICAgICAgYnl0ZXMzMiBzYWx0CiAgICApIGludGVybmFsIHZpZXcgcmV0dXJucyAoYWRkcmVzcyBwcmVkaWN0ZWQpIHsKICAgICAgICByZXR1cm4gcHJlZGljdERldGVybWluaXN0aWNBZGRyZXNzKGltcGxlbWVudGF0aW9uLCBzYWx0LCBhZGRyZXNzKHRoaXMpKTsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (proxy/Clones.sol)
+
+pragma solidity ^0.8.20;
+
+import {Errors} from "../utils/Errors.sol";
+
+/**
+ * @dev https://eips.ethereum.org/EIPS/eip-1167[ERC-1167] is a standard for
+ * deploying minimal proxy contracts, also known as "clones".
+ *
+ * > To simply and cheaply clone contract functionality in an immutable way, this standard specifies
+ * > a minimal bytecode implementation that delegates all calls to a known, fixed address.
+ *
+ * The library includes functions to deploy a proxy using either `create` (traditional deployment) or `create2`
+ * (salted deterministic deployment). It also includes functions to predict the addresses of clones deployed using the
+ * deterministic method.
+ */
+library Clones {
+    /**
+     * @dev Deploys and returns the address of a clone that mimics the behaviour of `implementation`.
+     *
+     * This function uses the create opcode, which should never revert.
+     */
+    function clone(address implementation) internal returns (address instance) {
+        return clone(implementation, 0);
+    }
+
+    /**
+     * @dev Same as {xref-Clones-clone-address-}[clone], but with a `value` parameter to send native currency
+     * to the new contract.
+     *
+     * NOTE: Using a non-zero value at creation will require the contract using this function (e.g. a factory)
+     * to always have enough balance for new deployments. Consider exposing this function under a payable method.
+     */
+    function clone(address implementation, uint256 value) internal returns (address instance) {
+        if (address(this).balance < value) {
+            revert Errors.InsufficientBalance(address(this).balance, value);
+        }
+        assembly ("memory-safe") {
+            // Cleans the upper 96 bits of the `implementation` word, then packs the first 3 bytes
+            // of the `implementation` address with the bytecode before the address.
+            mstore(0x00, or(shr(0xe8, shl(0x60, implementation)), 0x3d602d80600a3d3981f3363d3d373d3d3d363d73000000))
+            // Packs the remaining 17 bytes of `implementation` with the bytecode after the address.
+            mstore(0x20, or(shl(0x78, implementation), 0x5af43d82803e903d91602b57fd5bf3))
+            instance := create(value, 0x09, 0x37)
+        }
+        if (instance == address(0)) {
+            revert Errors.FailedDeployment();
+        }
+    }
+
+    /**
+     * @dev Deploys and returns the address of a clone that mimics the behaviour of `implementation`.
+     *
+     * This function uses the create2 opcode and a `salt` to deterministically deploy
+     * the clone. Using the same `implementation` and `salt` multiple time will revert, since
+     * the clones cannot be deployed twice at the same address.
+     */
+    function cloneDeterministic(address implementation, bytes32 salt) internal returns (address instance) {
+        return cloneDeterministic(implementation, salt, 0);
+    }
+
+    /**
+     * @dev Same as {xref-Clones-cloneDeterministic-address-bytes32-}[cloneDeterministic], but with
+     * a `value` parameter to send native currency to the new contract.
+     *
+     * NOTE: Using a non-zero value at creation will require the contract using this function (e.g. a factory)
+     * to always have enough balance for new deployments. Consider exposing this function under a payable method.
+     */
+    function cloneDeterministic(
+        address implementation,
+        bytes32 salt,
+        uint256 value
+    ) internal returns (address instance) {
+        if (address(this).balance < value) {
+            revert Errors.InsufficientBalance(address(this).balance, value);
+        }
+        assembly ("memory-safe") {
+            // Cleans the upper 96 bits of the `implementation` word, then packs the first 3 bytes
+            // of the `implementation` address with the bytecode before the address.
+            mstore(0x00, or(shr(0xe8, shl(0x60, implementation)), 0x3d602d80600a3d3981f3363d3d373d3d3d363d73000000))
+            // Packs the remaining 17 bytes of `implementation` with the bytecode after the address.
+            mstore(0x20, or(shl(0x78, implementation), 0x5af43d82803e903d91602b57fd5bf3))
+            instance := create2(value, 0x09, 0x37, salt)
+        }
+        if (instance == address(0)) {
+            revert Errors.FailedDeployment();
+        }
+    }
+
+    /**
+     * @dev Computes the address of a clone deployed using {Clones-cloneDeterministic}.
+     */
+    function predictDeterministicAddress(
+        address implementation,
+        bytes32 salt,
+        address deployer
+    ) internal pure returns (address predicted) {
+        assembly ("memory-safe") {
+            let ptr := mload(0x40)
+            mstore(add(ptr, 0x38), deployer)
+            mstore(add(ptr, 0x24), 0x5af43d82803e903d91602b57fd5bf3ff)
+            mstore(add(ptr, 0x14), implementation)
+            mstore(ptr, 0x3d602d80600a3d3981f3363d3d373d3d3d363d73)
+            mstore(add(ptr, 0x58), salt)
+            mstore(add(ptr, 0x78), keccak256(add(ptr, 0x0c), 0x37))
+            predicted := and(keccak256(add(ptr, 0x43), 0x55), 0xffffffffffffffffffffffffffffffffffffffff)
+        }
+    }
+
+    /**
+     * @dev Computes the address of a clone deployed using {Clones-cloneDeterministic}.
+     */
+    function predictDeterministicAddress(
+        address implementation,
+        bytes32 salt
+    ) internal view returns (address predicted) {
+        return predictDeterministicAddress(implementation, salt, address(this));
+    }
+}
