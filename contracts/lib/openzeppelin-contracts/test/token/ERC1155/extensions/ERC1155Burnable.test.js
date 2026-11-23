@@ -1,1 +1,66 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKY29uc3QgaWRzID0gWzQybiwgMTEzN25dOwpjb25zdCB2YWx1ZXMgPSBbMzAwMG4sIDk5MDJuXTsKCmFzeW5jIGZ1bmN0aW9uIGZpeHR1cmUoKSB7CiAgY29uc3QgW2hvbGRlciwgb3BlcmF0b3IsIG90aGVyXSA9IGF3YWl0IGV0aGVycy5nZXRTaWduZXJzKCk7CgogIGNvbnN0IHRva2VuID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCckRVJDMTE1NUJ1cm5hYmxlJywgWydodHRwczovL3Rva2VuLWNkbi1kb21haW4ve2lkfS5qc29uJ10pOwogIGF3YWl0IHRva2VuLiRfbWludChob2xkZXIsIGlkc1swXSwgdmFsdWVzWzBdLCAnMHgnKTsKICBhd2FpdCB0b2tlbi4kX21pbnQoaG9sZGVyLCBpZHNbMV0sIHZhbHVlc1sxXSwgJzB4Jyk7CgogIHJldHVybiB7IHRva2VuLCBob2xkZXIsIG9wZXJhdG9yLCBvdGhlciB9Owp9CgpkZXNjcmliZSgnRVJDMTE1NUJ1cm5hYmxlJywgZnVuY3Rpb24gKCkgewogIGJlZm9yZUVhY2goYXN5bmMgZnVuY3Rpb24gKCkgewogICAgT2JqZWN0LmFzc2lnbih0aGlzLCBhd2FpdCBsb2FkRml4dHVyZShmaXh0dXJlKSk7CiAgfSk7CgogIGRlc2NyaWJlKCdidXJuJywgZnVuY3Rpb24gKCkgewogICAgaXQoJ2hvbGRlciBjYW4gYnVybiB0aGVpciB0b2tlbnMnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IHRoaXMudG9rZW4uY29ubmVjdCh0aGlzLmhvbGRlcikuYnVybih0aGlzLmhvbGRlciwgaWRzWzBdLCB2YWx1ZXNbMF0gLSAxbik7CgogICAgICBleHBlY3QoYXdhaXQgdGhpcy50b2tlbi5iYWxhbmNlT2YodGhpcy5ob2xkZXIsIGlkc1swXSkpLnRvLmVxdWFsKDFuKTsKICAgIH0pOwoKICAgIGl0KCJhcHByb3ZlZCBvcGVyYXRvcnMgY2FuIGJ1cm4gdGhlIGhvbGRlcidzIHRva2VucyIsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgdGhpcy50b2tlbi5jb25uZWN0KHRoaXMuaG9sZGVyKS5zZXRBcHByb3ZhbEZvckFsbCh0aGlzLm9wZXJhdG9yLCB0cnVlKTsKICAgICAgYXdhaXQgdGhpcy50b2tlbi5jb25uZWN0KHRoaXMub3BlcmF0b3IpLmJ1cm4odGhpcy5ob2xkZXIsIGlkc1swXSwgdmFsdWVzWzBdIC0gMW4pOwoKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudG9rZW4uYmFsYW5jZU9mKHRoaXMuaG9sZGVyLCBpZHNbMF0pKS50by5lcXVhbCgxbik7CiAgICB9KTsKCiAgICBpdCgidW5hcHByb3ZlZCBhY2NvdW50cyBjYW5ub3QgYnVybiB0aGUgaG9sZGVyJ3MgdG9rZW5zIiwgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCBleHBlY3QodGhpcy50b2tlbi5jb25uZWN0KHRoaXMub3RoZXIpLmJ1cm4odGhpcy5ob2xkZXIsIGlkc1swXSwgdmFsdWVzWzBdIC0gMW4pKQogICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLnRva2VuLCAnRVJDMTE1NU1pc3NpbmdBcHByb3ZhbEZvckFsbCcpCiAgICAgICAgLndpdGhBcmdzKHRoaXMub3RoZXIsIHRoaXMuaG9sZGVyKTsKICAgIH0pOwogIH0pOwoKICBkZXNjcmliZSgnYnVybkJhdGNoJywgZnVuY3Rpb24gKCkgewogICAgaXQoJ2hvbGRlciBjYW4gYnVybiB0aGVpciB0b2tlbnMnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IHRoaXMudG9rZW4uY29ubmVjdCh0aGlzLmhvbGRlcikuYnVybkJhdGNoKHRoaXMuaG9sZGVyLCBpZHMsIFt2YWx1ZXNbMF0gLSAxbiwgdmFsdWVzWzFdIC0gMm5dKTsKCiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnRva2VuLmJhbGFuY2VPZih0aGlzLmhvbGRlciwgaWRzWzBdKSkudG8uZXF1YWwoMW4pOwogICAgICBleHBlY3QoYXdhaXQgdGhpcy50b2tlbi5iYWxhbmNlT2YodGhpcy5ob2xkZXIsIGlkc1sxXSkpLnRvLmVxdWFsKDJuKTsKICAgIH0pOwoKICAgIGl0KCJhcHByb3ZlZCBvcGVyYXRvcnMgY2FuIGJ1cm4gdGhlIGhvbGRlcidzIHRva2VucyIsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgdGhpcy50b2tlbi5jb25uZWN0KHRoaXMuaG9sZGVyKS5zZXRBcHByb3ZhbEZvckFsbCh0aGlzLm9wZXJhdG9yLCB0cnVlKTsKICAgICAgYXdhaXQgdGhpcy50b2tlbi5jb25uZWN0KHRoaXMub3BlcmF0b3IpLmJ1cm5CYXRjaCh0aGlzLmhvbGRlciwgaWRzLCBbdmFsdWVzWzBdIC0gMW4sIHZhbHVlc1sxXSAtIDJuXSk7CgogICAgICBleHBlY3QoYXdhaXQgdGhpcy50b2tlbi5iYWxhbmNlT2YodGhpcy5ob2xkZXIsIGlkc1swXSkpLnRvLmVxdWFsKDFuKTsKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudG9rZW4uYmFsYW5jZU9mKHRoaXMuaG9sZGVyLCBpZHNbMV0pKS50by5lcXVhbCgybik7CiAgICB9KTsKCiAgICBpdCgidW5hcHByb3ZlZCBhY2NvdW50cyBjYW5ub3QgYnVybiB0aGUgaG9sZGVyJ3MgdG9rZW5zIiwgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCBleHBlY3QodGhpcy50b2tlbi5jb25uZWN0KHRoaXMub3RoZXIpLmJ1cm5CYXRjaCh0aGlzLmhvbGRlciwgaWRzLCBbdmFsdWVzWzBdIC0gMW4sIHZhbHVlc1sxXSAtIDJuXSkpCiAgICAgICAgLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMudG9rZW4sICdFUkMxMTU1TWlzc2luZ0FwcHJvdmFsRm9yQWxsJykKICAgICAgICAud2l0aEFyZ3ModGhpcy5vdGhlciwgdGhpcy5ob2xkZXIpOwogICAgfSk7CiAgfSk7Cn0pOwo=
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+const ids = [42n, 1137n];
+const values = [3000n, 9902n];
+
+async function fixture() {
+  const [holder, operator, other] = await ethers.getSigners();
+
+  const token = await ethers.deployContract('$ERC1155Burnable', ['https://token-cdn-domain/{id}.json']);
+  await token.$_mint(holder, ids[0], values[0], '0x');
+  await token.$_mint(holder, ids[1], values[1], '0x');
+
+  return { token, holder, operator, other };
+}
+
+describe('ERC1155Burnable', function () {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  describe('burn', function () {
+    it('holder can burn their tokens', async function () {
+      await this.token.connect(this.holder).burn(this.holder, ids[0], values[0] - 1n);
+
+      expect(await this.token.balanceOf(this.holder, ids[0])).to.equal(1n);
+    });
+
+    it("approved operators can burn the holder's tokens", async function () {
+      await this.token.connect(this.holder).setApprovalForAll(this.operator, true);
+      await this.token.connect(this.operator).burn(this.holder, ids[0], values[0] - 1n);
+
+      expect(await this.token.balanceOf(this.holder, ids[0])).to.equal(1n);
+    });
+
+    it("unapproved accounts cannot burn the holder's tokens", async function () {
+      await expect(this.token.connect(this.other).burn(this.holder, ids[0], values[0] - 1n))
+        .to.be.revertedWithCustomError(this.token, 'ERC1155MissingApprovalForAll')
+        .withArgs(this.other, this.holder);
+    });
+  });
+
+  describe('burnBatch', function () {
+    it('holder can burn their tokens', async function () {
+      await this.token.connect(this.holder).burnBatch(this.holder, ids, [values[0] - 1n, values[1] - 2n]);
+
+      expect(await this.token.balanceOf(this.holder, ids[0])).to.equal(1n);
+      expect(await this.token.balanceOf(this.holder, ids[1])).to.equal(2n);
+    });
+
+    it("approved operators can burn the holder's tokens", async function () {
+      await this.token.connect(this.holder).setApprovalForAll(this.operator, true);
+      await this.token.connect(this.operator).burnBatch(this.holder, ids, [values[0] - 1n, values[1] - 2n]);
+
+      expect(await this.token.balanceOf(this.holder, ids[0])).to.equal(1n);
+      expect(await this.token.balanceOf(this.holder, ids[1])).to.equal(2n);
+    });
+
+    it("unapproved accounts cannot burn the holder's tokens", async function () {
+      await expect(this.token.connect(this.other).burnBatch(this.holder, ids, [values[0] - 1n, values[1] - 2n]))
+        .to.be.revertedWithCustomError(this.token, 'ERC1155MissingApprovalForAll')
+        .withArgs(this.other, this.holder);
+    });
+  });
+});
