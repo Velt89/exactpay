@@ -1,1 +1,16 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7RVJDMjB9IGZyb20gIi4uLy4uL3Rva2VuL0VSQzIwL0VSQzIwLnNvbCI7Cgpjb250cmFjdCBFUkMyME1vY2sgaXMgRVJDMjAgewogICAgY29uc3RydWN0b3IoKSBFUkMyMCgiRVJDMjBNb2NrIiwgIkUyME0iKSB7fQoKICAgIGZ1bmN0aW9uIG1pbnQoYWRkcmVzcyBhY2NvdW50LCB1aW50MjU2IGFtb3VudCkgZXh0ZXJuYWwgewogICAgICAgIF9taW50KGFjY291bnQsIGFtb3VudCk7CiAgICB9CgogICAgZnVuY3Rpb24gYnVybihhZGRyZXNzIGFjY291bnQsIHVpbnQyNTYgYW1vdW50KSBleHRlcm5hbCB7CiAgICAgICAgX2J1cm4oYWNjb3VudCwgYW1vdW50KTsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+import {ERC20} from "../../token/ERC20/ERC20.sol";
+
+contract ERC20Mock is ERC20 {
+    constructor() ERC20("ERC20Mock", "E20M") {}
+
+    function mint(address account, uint256 amount) external {
+        _mint(account, amount);
+    }
+
+    function burn(address account, uint256 amount) external {
+        _burn(account, amount);
+    }
+}
