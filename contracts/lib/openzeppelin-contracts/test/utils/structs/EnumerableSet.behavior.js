@@ -1,1 +1,116 @@
-Y29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBQQU5JQ19DT0RFUyB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LWNoYWktbWF0Y2hlcnMvcGFuaWMnKTsKCmZ1bmN0aW9uIHNob3VsZEJlaGF2ZUxpa2VTZXQoKSB7CiAgYXN5bmMgZnVuY3Rpb24gZXhwZWN0TWVtYmVyc01hdGNoKG1ldGhvZHMsIHZhbHVlcykgewogICAgZXhwZWN0KGF3YWl0IG1ldGhvZHMubGVuZ3RoKCkpLnRvLmVxdWFsKHZhbHVlcy5sZW5ndGgpOwogICAgZm9yIChjb25zdCB2YWx1ZSBvZiB2YWx1ZXMpIGV4cGVjdChhd2FpdCBtZXRob2RzLmNvbnRhaW5zKHZhbHVlKSkudG8uYmUudHJ1ZTsKCiAgICBleHBlY3QoYXdhaXQgUHJvbWlzZS5hbGwodmFsdWVzLm1hcCgoXywgaW5kZXgpID0+IG1ldGhvZHMuYXQoaW5kZXgpKSkpLnRvLmhhdmUuZGVlcC5tZW1iZXJzKHZhbHVlcyk7CiAgICBleHBlY3QoWy4uLihhd2FpdCBtZXRob2RzLnZhbHVlcygpKV0pLnRvLmhhdmUuZGVlcC5tZW1iZXJzKHZhbHVlcyk7CiAgfQoKICBpdCgnc3RhcnRzIGVtcHR5JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgZXhwZWN0KGF3YWl0IHRoaXMubWV0aG9kcy5jb250YWlucyh0aGlzLnZhbHVlQSkpLnRvLmJlLmZhbHNlOwoKICAgIGF3YWl0IGV4cGVjdE1lbWJlcnNNYXRjaCh0aGlzLm1ldGhvZHMsIFtdKTsKICB9KTsKCiAgZGVzY3JpYmUoJ2FkZCcsIGZ1bmN0aW9uICgpIHsKICAgIGl0KCdhZGRzIGEgdmFsdWUnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1ldGhvZHMuYWRkKHRoaXMudmFsdWVBKSkudG8uZW1pdCh0aGlzLm1vY2ssIHRoaXMuZXZlbnRzLmFkZFJldHVybikud2l0aEFyZ3ModHJ1ZSk7CgogICAgICBhd2FpdCBleHBlY3RNZW1iZXJzTWF0Y2godGhpcy5tZXRob2RzLCBbdGhpcy52YWx1ZUFdKTsKICAgIH0pOwoKICAgIGl0KCdhZGRzIHNldmVyYWwgdmFsdWVzJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCB0aGlzLm1ldGhvZHMuYWRkKHRoaXMudmFsdWVBKTsKICAgICAgYXdhaXQgdGhpcy5tZXRob2RzLmFkZCh0aGlzLnZhbHVlQik7CgogICAgICBhd2FpdCBleHBlY3RNZW1iZXJzTWF0Y2godGhpcy5tZXRob2RzLCBbdGhpcy52YWx1ZUEsIHRoaXMudmFsdWVCXSk7CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1ldGhvZHMuY29udGFpbnModGhpcy52YWx1ZUMpKS50by5iZS5mYWxzZTsKICAgIH0pOwoKICAgIGl0KCdyZXR1cm5zIGZhbHNlIHdoZW4gYWRkaW5nIHZhbHVlcyBhbHJlYWR5IGluIHRoZSBzZXQnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IHRoaXMubWV0aG9kcy5hZGQodGhpcy52YWx1ZUEpOwoKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMubWV0aG9kcy5hZGQodGhpcy52YWx1ZUEpKS50by5lbWl0KHRoaXMubW9jaywgdGhpcy5ldmVudHMuYWRkUmV0dXJuKS53aXRoQXJncyhmYWxzZSk7CgogICAgICBhd2FpdCBleHBlY3RNZW1iZXJzTWF0Y2godGhpcy5tZXRob2RzLCBbdGhpcy52YWx1ZUFdKTsKICAgIH0pOwogIH0pOwoKICBkZXNjcmliZSgnYXQnLCBmdW5jdGlvbiAoKSB7CiAgICBpdCgncmV2ZXJ0cyB3aGVuIHJldHJpZXZpbmcgbm9uLWV4aXN0ZW50IGVsZW1lbnRzJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCBleHBlY3QodGhpcy5tZXRob2RzLmF0KDApKS50by5iZS5yZXZlcnRlZFdpdGhQYW5pYyhQQU5JQ19DT0RFUy5BUlJBWV9BQ0NFU1NfT1VUX09GX0JPVU5EUyk7CiAgICB9KTsKCiAgICBpdCgncmV0cmlldmVzIGV4aXN0aW5nIGVsZW1lbnQnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IHRoaXMubWV0aG9kcy5hZGQodGhpcy52YWx1ZUEpOwogICAgICBleHBlY3QoYXdhaXQgdGhpcy5tZXRob2RzLmF0KDApKS50by5lcXVhbCh0aGlzLnZhbHVlQSk7CiAgICB9KTsKICB9KTsKCiAgZGVzY3JpYmUoJ3JlbW92ZScsIGZ1bmN0aW9uICgpIHsKICAgIGl0KCdyZW1vdmVzIGFkZGVkIHZhbHVlcycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgdGhpcy5tZXRob2RzLmFkZCh0aGlzLnZhbHVlQSk7CgogICAgICBhd2FpdCBleHBlY3QodGhpcy5tZXRob2RzLnJlbW92ZSh0aGlzLnZhbHVlQSkpLnRvLmVtaXQodGhpcy5tb2NrLCB0aGlzLmV2ZW50cy5yZW1vdmVSZXR1cm4pLndpdGhBcmdzKHRydWUpOwoKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubWV0aG9kcy5jb250YWlucyh0aGlzLnZhbHVlQSkpLnRvLmJlLmZhbHNlOwogICAgICBhd2FpdCBleHBlY3RNZW1iZXJzTWF0Y2godGhpcy5tZXRob2RzLCBbXSk7CiAgICB9KTsKCiAgICBpdCgncmV0dXJucyBmYWxzZSB3aGVuIHJlbW92aW5nIHZhbHVlcyBub3QgaW4gdGhlIHNldCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMubWV0aG9kcy5yZW1vdmUodGhpcy52YWx1ZUEpKS50by5lbWl0KHRoaXMubW9jaywgdGhpcy5ldmVudHMucmVtb3ZlUmV0dXJuKS53aXRoQXJncyhmYWxzZSk7CgogICAgICBleHBlY3QoYXdhaXQgdGhpcy5tZXRob2RzLmNvbnRhaW5zKHRoaXMudmFsdWVBKSkudG8uYmUuZmFsc2U7CiAgICB9KTsKCiAgICBpdCgnYWRkcyBhbmQgcmVtb3ZlcyBtdWx0aXBsZSB2YWx1ZXMnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIC8vIFtdCgogICAgICBhd2FpdCB0aGlzLm1ldGhvZHMuYWRkKHRoaXMudmFsdWVBKTsKICAgICAgYXdhaXQgdGhpcy5tZXRob2RzLmFkZCh0aGlzLnZhbHVlQyk7CgogICAgICAvLyBbQSwgQ10KCiAgICAgIGF3YWl0IHRoaXMubWV0aG9kcy5yZW1vdmUodGhpcy52YWx1ZUEpOwogICAgICBhd2FpdCB0aGlzLm1ldGhvZHMucmVtb3ZlKHRoaXMudmFsdWVCKTsKCiAgICAgIC8vIFtDXQoKICAgICAgYXdhaXQgdGhpcy5tZXRob2RzLmFkZCh0aGlzLnZhbHVlQik7CgogICAgICAvLyBbQywgQl0KCiAgICAgIGF3YWl0IHRoaXMubWV0aG9kcy5hZGQodGhpcy52YWx1ZUEpOwogICAgICBhd2FpdCB0aGlzLm1ldGhvZHMucmVtb3ZlKHRoaXMudmFsdWVDKTsKCiAgICAgIC8vIFtBLCBCXQoKICAgICAgYXdhaXQgdGhpcy5tZXRob2RzLmFkZCh0aGlzLnZhbHVlQSk7CiAgICAgIGF3YWl0IHRoaXMubWV0aG9kcy5hZGQodGhpcy52YWx1ZUIpOwoKICAgICAgLy8gW0EsIEJdCgogICAgICBhd2FpdCB0aGlzLm1ldGhvZHMuYWRkKHRoaXMudmFsdWVDKTsKICAgICAgYXdhaXQgdGhpcy5tZXRob2RzLnJlbW92ZSh0aGlzLnZhbHVlQSk7CgogICAgICAvLyBbQiwgQ10KCiAgICAgIGF3YWl0IHRoaXMubWV0aG9kcy5hZGQodGhpcy52YWx1ZUEpOwogICAgICBhd2FpdCB0aGlzLm1ldGhvZHMucmVtb3ZlKHRoaXMudmFsdWVCKTsKCiAgICAgIC8vIFtBLCBDXQoKICAgICAgYXdhaXQgZXhwZWN0TWVtYmVyc01hdGNoKHRoaXMubWV0aG9kcywgW3RoaXMudmFsdWVBLCB0aGlzLnZhbHVlQ10pOwoKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubWV0aG9kcy5jb250YWlucyh0aGlzLnZhbHVlQikpLnRvLmJlLmZhbHNlOwogICAgfSk7CiAgfSk7Cn0KCm1vZHVsZS5leHBvcnRzID0gewogIHNob3VsZEJlaGF2ZUxpa2VTZXQsCn07Cg==
+const { expect } = require('chai');
+const { PANIC_CODES } = require('@nomicfoundation/hardhat-chai-matchers/panic');
+
+function shouldBehaveLikeSet() {
+  async function expectMembersMatch(methods, values) {
+    expect(await methods.length()).to.equal(values.length);
+    for (const value of values) expect(await methods.contains(value)).to.be.true;
+
+    expect(await Promise.all(values.map((_, index) => methods.at(index)))).to.have.deep.members(values);
+    expect([...(await methods.values())]).to.have.deep.members(values);
+  }
+
+  it('starts empty', async function () {
+    expect(await this.methods.contains(this.valueA)).to.be.false;
+
+    await expectMembersMatch(this.methods, []);
+  });
+
+  describe('add', function () {
+    it('adds a value', async function () {
+      await expect(this.methods.add(this.valueA)).to.emit(this.mock, this.events.addReturn).withArgs(true);
+
+      await expectMembersMatch(this.methods, [this.valueA]);
+    });
+
+    it('adds several values', async function () {
+      await this.methods.add(this.valueA);
+      await this.methods.add(this.valueB);
+
+      await expectMembersMatch(this.methods, [this.valueA, this.valueB]);
+      expect(await this.methods.contains(this.valueC)).to.be.false;
+    });
+
+    it('returns false when adding values already in the set', async function () {
+      await this.methods.add(this.valueA);
+
+      await expect(this.methods.add(this.valueA)).to.emit(this.mock, this.events.addReturn).withArgs(false);
+
+      await expectMembersMatch(this.methods, [this.valueA]);
+    });
+  });
+
+  describe('at', function () {
+    it('reverts when retrieving non-existent elements', async function () {
+      await expect(this.methods.at(0)).to.be.revertedWithPanic(PANIC_CODES.ARRAY_ACCESS_OUT_OF_BOUNDS);
+    });
+
+    it('retrieves existing element', async function () {
+      await this.methods.add(this.valueA);
+      expect(await this.methods.at(0)).to.equal(this.valueA);
+    });
+  });
+
+  describe('remove', function () {
+    it('removes added values', async function () {
+      await this.methods.add(this.valueA);
+
+      await expect(this.methods.remove(this.valueA)).to.emit(this.mock, this.events.removeReturn).withArgs(true);
+
+      expect(await this.methods.contains(this.valueA)).to.be.false;
+      await expectMembersMatch(this.methods, []);
+    });
+
+    it('returns false when removing values not in the set', async function () {
+      await expect(this.methods.remove(this.valueA)).to.emit(this.mock, this.events.removeReturn).withArgs(false);
+
+      expect(await this.methods.contains(this.valueA)).to.be.false;
+    });
+
+    it('adds and removes multiple values', async function () {
+      // []
+
+      await this.methods.add(this.valueA);
+      await this.methods.add(this.valueC);
+
+      // [A, C]
+
+      await this.methods.remove(this.valueA);
+      await this.methods.remove(this.valueB);
+
+      // [C]
+
+      await this.methods.add(this.valueB);
+
+      // [C, B]
+
+      await this.methods.add(this.valueA);
+      await this.methods.remove(this.valueC);
+
+      // [A, B]
+
+      await this.methods.add(this.valueA);
+      await this.methods.add(this.valueB);
+
+      // [A, B]
+
+      await this.methods.add(this.valueC);
+      await this.methods.remove(this.valueA);
+
+      // [B, C]
+
+      await this.methods.add(this.valueA);
+      await this.methods.remove(this.valueB);
+
+      // [A, C]
+
+      await expectMembersMatch(this.methods, [this.valueA, this.valueC]);
+
+      expect(await this.methods.contains(this.valueB)).to.be.false;
+    });
+  });
+}
+
+module.exports = {
+  shouldBehaveLikeSet,
+};
