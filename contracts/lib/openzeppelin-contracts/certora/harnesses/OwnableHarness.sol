@@ -1,1 +1,10 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7T3duYWJsZX0gZnJvbSAiLi4vcGF0Y2hlZC9hY2Nlc3MvT3duYWJsZS5zb2wiOwoKY29udHJhY3QgT3duYWJsZUhhcm5lc3MgaXMgT3duYWJsZSB7CiAgICBjb25zdHJ1Y3RvcihhZGRyZXNzIGluaXRpYWxPd25lcikgT3duYWJsZShpbml0aWFsT3duZXIpIHt9CgogICAgZnVuY3Rpb24gcmVzdHJpY3RlZCgpIGV4dGVybmFsIG9ubHlPd25lciB7fQp9Cg==
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+import {Ownable} from "../patched/access/Ownable.sol";
+
+contract OwnableHarness is Ownable {
+    constructor(address initialOwner) Ownable(initialOwner) {}
+
+    function restricted() external onlyOwner {}
+}
