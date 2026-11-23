@@ -1,1 +1,116 @@
-IyBFUkM0NjI2IFByb3BlcnR5IFRlc3RzCgpGb3VuZHJ5IChkYXBwdG9vbHMtc3R5bGUpIHByb3BlcnR5LWJhc2VkIHRlc3RzIGZvciBbRVJDNDYyNl0gc3RhbmRhcmQgY29uZm9ybWFuY2UuCgpbRVJDNDYyNl06IDxodHRwczovL2VpcHMuZXRoZXJldW0ub3JnL0VJUFMvZWlwLTQ2MjY+CgpZb3UgY2FuIHJlYWQgb3VyIHBvc3Qgb24gIl9bR2VuZXJhbGl6ZWQgcHJvcGVydHkgdGVzdHMgZm9yIEVSQzQ2MjYgdmF1bHRzXVtwb3N0XV8uIgoKW3Bvc3RdOiA8aHR0cHM6Ly9hMTZ6Y3J5cHRvLmNvbS9nZW5lcmFsaXplZC1wcm9wZXJ0eS10ZXN0cy1mb3ItZXJjNDYyNi12YXVsdHM+CgojIyBPdmVydmlldwoKIyMjIyBXaGF0IGlzIGl0PwotIFRlc3Qgc3VpdGVzIGZvciBjaGVja2luZyBpZiB0aGUgZ2l2ZW4gRVJDNDYyNiBpbXBsZW1lbnRhdGlvbiBzYXRpc2ZpZXMgdGhlICoqc3RhbmRhcmQgcmVxdWlyZW1lbnRzKiouCi0gRGFwcHRvb2xzLXN0eWxlICoqcHJvcGVydHktYmFzZWQgdGVzdHMqKiBmb3IgZnV6emluZyBvciBzeW1ib2xpYyBleGVjdXRpb24gdGVzdGluZy4KLSBUZXN0cyB0aGF0IGFyZSAqKmluZGVwZW5kZW50KiogZnJvbSBpbXBsZW1lbnRhdGlvbiBkZXRhaWxzLCB0aHVzIGFwcGxpY2FibGUgZm9yIGFueSBFUkM0NjI2IHZhdWx0cy4KCiMjIyMgV2hhdCBpc27igJl0IGl0PwotIEl0IGRvZXMgTk9UIHRlc3QgaW1wbGVtZW50YXRpb24tc3BlY2lmaWMgZGV0YWlscywgZS5nLiwgaG93IHRvIGdlbmVyYXRlIGFuZCBkaXN0cmlidXRlIHlpZWxkcywgaG93IHRvIGNvbXB1dGUgdGhlIHNoYXJlIHByaWNlLCBldGMuCgojIyMjIFRlc3RpbmcgcHJvcGVydGllczoKCi0gKipSb3VuZC10cmlwIHByb3BlcnRpZXMqKjogbm8gb25lIGNhbiBtYWtlIGEgZnJlZSBwcm9maXQgYnkgZGVwb3NpdGluZyBhbmQgaW1tZWRpYXRlbHkgd2l0aGRyYXdpbmcgYmFjayBhbmQgZm9ydGguCgotICoqRnVuY3Rpb25hbCBjb3JyZWN0bmVzcyoqOiB0aGUgYGRlcG9zaXQoKWAsIGBtaW50KClgLCBgd2l0aGRyYXcoKWAsIGFuZCBgcmVkZWVtKClgIGZ1bmN0aW9ucyB1cGRhdGUgdGhlIGJhbGFuY2UgYW5kIGFsbG93YW5jZSBwcm9wZXJseS4KCi0gVGhlIGBwcmV2aWV3e0RlcG9zaXQsUmVkZWVtfSgpYCBmdW5jdGlvbnMgKipNVVNUIE5PVCBvdmVyLWVzdGltYXRlKiogdGhlIGV4YWN0IGFtb3VudC5bXjFdCgpbXjFdOiBUaGF0IGlzLCB0aGUgYGRlcG9zaXQoKWAgYW5kIGByZWRlZW0oKWAgZnVuY3Rpb25zIOKAnE1VU1QgcmV0dXJuIHRoZSBzYW1lIG9yIG1vcmUgYW1vdW50cyBhcyB0aGVpciBwcmV2aWV3IGZ1bmN0aW9uIGlmIGNhbGxlZCBpbiB0aGUgc2FtZSB0cmFuc2FjdGlvbi7igJ0KCi0gVGhlIGBwcmV2aWV3e01pbnQsV2l0aGRyYXd9KClgIGZ1bmN0aW9ucyAqKk1VU1QgTk9UIHVuZGVyLWVzdGltYXRlKiogdGhlIGV4YWN0IGFtb3VudC5bXjJdCgpbXjJdOiBUaGF0IGlzLCB0aGUgYG1pbnQoKWAgYW5kIGB3aXRoZHJhdygpYCBmdW5jdGlvbnMg4oCcTVVTVCByZXR1cm4gdGhlIHNhbWUgb3IgZmV3ZXIgYW1vdW50cyBhcyB0aGVpciBwcmV2aWV3IGZ1bmN0aW9uIGlmIGNhbGxlZCBpbiB0aGUgc2FtZSB0cmFuc2FjdGlvbi7igJ0KCi0gVGhlIGBjb252ZXJ0VG97U2hhcmVzLEFzc2V0c31gIGZ1bmN0aW9ucyDigJwqKk1VU1QgTk9UIHNob3cgYW55IHZhcmlhdGlvbnMqKiBkZXBlbmRpbmcgb24gdGhlIGNhbGxlci7igJ0KCi0gVGhlIGBhc3NldCgpYCwgYHRvdGFsQXNzZXRzKClgLCBhbmQgYG1heHtEZXBvc2l0LE1pbnQsV2l0aGRyYXcsUmVkZWVtfSgpYCBmdW5jdGlvbnMg4oCcKipNVVNUIE5PVCByZXZlcnQqKi7igJ0KCiMjIFVzYWdlCgoqKlN0ZXAgMCoqOiBJbnN0YWxsIFtmb3VuZHJ5XSBhbmQgYWRkIFtmb3JnZS1zdGRdIGluIHlvdXIgdmF1bHQgcmVwbzoKYGBgYmFzaAokIGN1cmwgLUwgaHR0cHM6Ly9mb3VuZHJ5LnBhcmFkaWdtLnh5eiB8IGJhc2gKCiQgY2QgL3BhdGgvdG8veW91ci1lcmM0NjI2LXZhdWx0CiQgZm9yZ2UgaW5zdGFsbCBmb3VuZHJ5LXJzL2ZvcmdlLXN0ZApgYGAKCltmb3VuZHJ5XTogPGh0dHBzOi8vZ2V0Zm91bmRyeS5zaC8+Cltmb3JnZS1zdGRdOiA8aHR0cHM6Ly9naXRodWIuY29tL2ZvdW5kcnktcnMvZm9yZ2Utc3RkPgoKKipTdGVwIDEqKjogQWRkIHRoaXMgW2VyYzQ2MjYtdGVzdHNdIGFzIGEgZGVwZW5kZW5jeSB0byB5b3VyIHZhdWx0OgpgYGBiYXNoCiQgY2QgL3BhdGgvdG8veW91ci1lcmM0NjI2LXZhdWx0CiQgZm9yZ2UgaW5zdGFsbCBhMTZ6L2VyYzQ2MjYtdGVzdHMKYGBgCgpbZXJjNDYyNi10ZXN0c106IDxodHRwczovL2dpdGh1Yi5jb20vYTE2ei9lcmM0NjI2LXRlc3RzPgoKKipTdGVwIDIqKjogRXh0ZW5kIHRoZSBhYnN0cmFjdCB0ZXN0IGNvbnRyYWN0IFtgRVJDNDYyNlRlc3RgXShFUkM0NjI2LnRlc3Quc29sKSB3aXRoIHlvdXIgb3duIGN1c3RvbSB2YXVsdCBzZXR1cCBtZXRob2QsIGZvciBleGFtcGxlOgoKYGBgc29saWRpdHkKLy8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IEFHUEwtMy4wCnByYWdtYSBzb2xpZGl0eSA+PTAuOC4wIDwwLjkuMDsKCmltcG9ydCAiZXJjNDYyNi10ZXN0cy9FUkM0NjI2LnRlc3Quc29sIjsKCmltcG9ydCB7IEVSQzIwTW9jayAgIH0gZnJvbSAiL3BhdGgvdG8vbW9ja3MvRVJDMjBNb2NrLnNvbCI7CmltcG9ydCB7IEVSQzQ2MjZNb2NrIH0gZnJvbSAiL3BhdGgvdG8vbW9ja3MvRVJDNDYyNk1vY2suc29sIjsKCmNvbnRyYWN0IEVSQzQ2MjZTdGRUZXN0IGlzIEVSQzQ2MjZUZXN0IHsKICAgIGZ1bmN0aW9uIHNldFVwKCkgcHVibGljIG92ZXJyaWRlIHsKICAgICAgICBfdW5kZXJseWluZ18gPSBhZGRyZXNzKG5ldyBFUkMyME1vY2soIk1vY2sgRVJDMjAiLCAiTUVSQzIwIiwgMTgpKTsKICAgICAgICBfdmF1bHRfID0gYWRkcmVzcyhuZXcgRVJDNDYyNk1vY2soRVJDMjBNb2NrKF9fdW5kZXJseWluZ19fKSwgIk1vY2sgRVJDNDYyNiIsICJNRVJDNDYyNiIpKTsKICAgICAgICBfZGVsdGFfID0gMDsKICAgICAgICBfdmF1bHRNYXlCZUVtcHR5ID0gZmFsc2U7CiAgICAgICAgX3VubGltaXRlZEFtb3VudCA9IGZhbHNlOwogICAgfQp9CmBgYAoKU3BlY2lmaWNhbGx5LCBzZXQgdGhlIHN0YXRlIHZhcmlhYmxlcyBhcyBmb2xsb3dzOgotIGBfdmF1bHRfYDogdGhlIGFkZHJlc3Mgb2YgeW91ciBFUkM0NjI2IHZhdWx0LgotIGBfdW5kZXJseWluZ19gOiB0aGUgYWRkcmVzcyBvZiB0aGUgdW5kZXJseWluZyBhc3NldCBvZiB5b3VyIHZhdWx0LiBOb3RlIHRoYXQgdGhlIGRlZmF1bHQgYHNldHVwVmF1bHQoKWAgYW5kIGBzZXR1cFlpZWxkKClgIG1ldGhvZHMgb2YgYEVSQzQ2MjZUZXN0YCBhc3N1bWUgdGhhdCBpdCBpbXBsZW1lbnRzIGBtaW50KGFkZHJlc3MgdG8sIHVpbnQgdmFsdWUpYCBhbmQgYGJ1cm4oYWRkcmVzcyBmcm9tLCB1aW50IHZhbHVlKWAuIFlvdSBjYW4gb3ZlcnJpZGUgdGhlIHNldHVwIG1ldGhvZHMgd2l0aCB5b3VyIG93biBpZiBzdWNoIGBtaW50KClgIGFuZCBgYnVybigpYCBhcmUgbm90IGltcGxlbWVudGVkLgotIGBfZGVsdGFfYDogdGhlIG1heGltdW0gYXBwcm94aW1hdGlvbiBlcnJvciBzaXplIHRvIGJlIHBhc3NlZCB0byBbYGFzc2VydEFwcHJveEVxQWJzKClgXS4gSXQgbXVzdCBiZSBnaXZlbiBhcyBhbiBhYnNvbHV0ZSB2YWx1ZSAobm90IGEgcGVyY2VudGFnZSkgaW4gdGhlIHNtYWxsZXN0IHVuaXQgKGUuZy4sIFdlaSBvciBTYXRvc2hpKS4gTm90ZSB0aGF0IGFsbCB0aGUgdGVzdHMgYXJlIGV4cGVjdGVkIHRvIHBhc3Mgd2l0aCBgX19kZWx0YV9fID09IDBgIGFzIGxvbmcgYXMgeW91ciB2YXVsdCBmb2xsb3dzIHRoZSBbcHJlZmVycmVkIHJvdW5kaW5nIGRpcmVjdGlvbl0gYXMgc3BlY2lmaWVkIGluIHRoZSBzdGFuZGFyZC4gSWYgeW91ciB2YXVsdCBkb2Vzbid0IGZvbGxvdyB0aGUgcHJlZmVycmVkIHJvdW5kaW5nIGRpcmVjdGlvbiwgeW91IGNhbiBzZXQgYF9fZGVsdGFfX2AgdG8gYSByZWFzb25hYmxlIHNpemUgb2Ygcm91bmRpbmcgZXJyb3JzIHdoZXJlIHRoZSBhZHZlcnNhcmlhbCBwcm9maXQgb2YgZXhwbG9pdGluZyBzdWNoIHJvdW5kaW5nIGVycm9ycyBzdGF5cyBzdWZmaWNpZW50bHkgc21hbGwgY29tcGFyZWQgdG8gdGhlIGdhcyBjb3N0LiAoWW91IGNhbiByZWFkIG91ciBbcG9zdF0gZm9yIG1vcmUgYWJvdXQgdGhlIGFkdmVyc2FyaWFsIHByb2ZpdC4pCi0gYF92YXVsdE1heUJlRW1wdHlgOiB3aGVuIHNldCB0byBmYWxzZSwgZnV6eiBpbnB1dHMgdGhhdCBlbXB0aWVzIHRoZSB2YXVsdCBhcmUgaWdub3JlZC4KLSBgX3VubGltaXRlZEFtb3VudGA6IHdoZW4gc2V0IHRvIGZhbHNlLCBmdXp6IGlucHV0cyBhcmUgcmVzdHJpY3RlZCB0byB0aGUgY3VycmVudGx5IGF2YWlsYWJsZSBhbW91bnQgZnJvbSB0aGUgY2FsbGVyLiBMaW1pdGluZyB0aGUgYW1vdW50IGNhbiBzcGVlZCB1cCBmdXp6aW5nLCBidXQgbWF5IG1pc3Mgc29tZSBlZGdlIGNhc2VzLgoKW2Bhc3NlcnRBcHByb3hFcUFicygpYF06IDxodHRwczovL2Jvb2suZ2V0Zm91bmRyeS5zaC9yZWZlcmVuY2UvZm9yZ2Utc3RkL2Fzc2VydEFwcHJveEVxQWJzPgoKW3ByZWZlcnJlZCByb3VuZGluZyBkaXJlY3Rpb25dOiA8aHR0cHM6Ly9laXBzLmV0aGVyZXVtLm9yZy9FSVBTL2VpcC00NjI2I3NlY3VyaXR5LWNvbnNpZGVyYXRpb25zPgoKKipTdGVwIDMqKjogUnVuIGBmb3JnZSB0ZXN0YAoKYGBgCiQgZm9yZ2UgdGVzdApgYGAKCiMjIEV4YW1wbGVzCgpCZWxvdyBhcmUgZXhhbXBsZXMgb2YgYWRkaW5nIHRoZXNlIHByb3BlcnR5IHRlc3RzIHRvIGV4aXN0aW5nIEVSQzQ2MjYgdmF1bHRzOgotIFtPcGVuWmVwcGVsaW4gRVJDNDYyNl0gW1tkaWZmXShodHRwczovL2dpdGh1Yi5jb20vZGFlanVucGFyay9vcGVuemVwcGVsaW4tY29udHJhY3RzL3B1bGwvMS9maWxlcyldCi0gW1NvbG1hdGUgRVJDNDYyNl0gW1tkaWZmXShodHRwczovL2dpdGh1Yi5jb20vZGFlanVucGFyay9zb2xtYXRlL3B1bGwvMS9maWxlcyldCi0gW1JldmVudWUgRGlzdHJpYnV0aW9uIFRva2VuXSBbW2RpZmZdKGh0dHBzOi8vZ2l0aHViLmNvbS9kYWVqdW5wYXJrL3JldmVudWUtZGlzdHJpYnV0aW9uLXRva2VuL3B1bGwvMS9maWxlcyldCi0gW1lpZWxkIERhZGR5IEVSQzQ2MjYgd3JhcHBlcnNdIFtbZGlmZl0oaHR0cHM6Ly9naXRodWIuY29tL2RhZWp1bnBhcmsveWllbGQtZGFkZHkvcHVsbC8xL2ZpbGVzKV1bXmJ1Z10KCltPcGVuWmVwcGVsaW4gRVJDNDYyNl06IDxodHRwczovL2dpdGh1Yi5jb20vT3BlblplcHBlbGluL29wZW56ZXBwZWxpbi1jb250cmFjdHMvYmxvYi9hMTk0ODI1MGFiOGM0NDFmNmQzMjdhNjU3NTRjYjIwZDJiMWI0NTU0L2NvbnRyYWN0cy90b2tlbi9FUkMyMC9leHRlbnNpb25zL0VSQzQ2MjYuc29sPgpbU29sbWF0ZSBFUkM0NjI2XTogPGh0dHBzOi8vZ2l0aHViLmNvbS90cmFuc21pc3Npb25zMTEvc29sbWF0ZS9ibG9iL2MyNTk0YmY0NjM1YWQ3NzNhOGY0NzYzZTIwYjdlNzk1ODJlNDE1MzUvc3JjL21peGlucy9FUkM0NjI2LnNvbD4KW1JldmVudWUgRGlzdHJpYnV0aW9uIFRva2VuXTogPGh0dHBzOi8vZ2l0aHViLmNvbS9tYXBsZS1sYWJzL3JldmVudWUtZGlzdHJpYnV0aW9uLXRva2VuL2Jsb2IvYmU5NTkyZmQ3MmJmYTcxNDJhMjE3NTA3ZjJkNTUwMGE3ODU2MzI5ZS9jb250cmFjdHMvUmV2ZW51ZURpc3RyaWJ1dGlvblRva2VuLnNvbD4KW1lpZWxkIERhZGR5IEVSQzQ2MjYgd3JhcHBlcnNdOiA8aHR0cHM6Ly9naXRodWIuY29tL3RpbWVsZXNzLWZpL3lpZWxkLWRhZGR5PgoKW15idWddOiBPdXIgcHJvcGVydHkgdGVzdHMgaW5kZWVkIHJldmVhbGVkIGFuIFtpc3N1ZV0oaHR0cHM6Ly9naXRodWIuY29tL3RpbWVsZXNzLWZpL3lpZWxkLWRhZGR5L2lzc3Vlcy83KSBpbiB0aGVpciBlVG9rZW4gdGVzdGluZyBtb2NrIGNvbnRyYWN0LiBUaGUgdGVzdHMgcGFzc2VkIGFmdGVyIGl0IGlzIFtmaXhlZF0oaHR0cHM6Ly9naXRodWIuY29tL2RhZWp1bnBhcmsveWllbGQtZGFkZHkvY29tbWl0LzcyMWNmNGJkNzY2ODA1ZmQ0MDk0NTU0MzRhYTVmZDFhOWIyZGYyNWMpLgoKIyMgRGlzY2xhaW1lcgoKX1RoZXNlIHNtYXJ0IGNvbnRyYWN0cyBhcmUgYmVpbmcgcHJvdmlkZWQgYXMgaXMuIE5vIGd1YXJhbnRlZSwgcmVwcmVzZW50YXRpb24gb3Igd2FycmFudHkgaXMgYmVpbmcgbWFkZSwgZXhwcmVzcyBvciBpbXBsaWVkLCBhcyB0byB0aGUgc2FmZXR5IG9yIGNvcnJlY3RuZXNzIG9mIHRoZSB1c2VyIGludGVyZmFjZSBvciB0aGUgc21hcnQgY29udHJhY3RzLiBUaGV5IGhhdmUgbm90IGJlZW4gYXVkaXRlZCBhbmQgYXMgc3VjaCB0aGVyZSBjYW4gYmUgbm8gYXNzdXJhbmNlIHRoZXkgd2lsbCB3b3JrIGFzIGludGVuZGVkLCBhbmQgdXNlcnMgbWF5IGV4cGVyaWVuY2UgZGVsYXlzLCBmYWlsdXJlcywgZXJyb3JzLCBvbWlzc2lvbnMgb3IgbG9zcyBvZiB0cmFuc21pdHRlZCBpbmZvcm1hdGlvbi4gVEhFIFNNQVJUIENPTlRSQUNUUyBDT05UQUlORUQgSEVSRUlOIEFSRSBGVVJOSVNIRUQgQVMgSVMsIFdIRVJFIElTLCBXSVRIIEFMTCBGQVVMVFMgQU5EIFdJVEhPVVQgV0FSUkFOVFkgT0YgQU5ZIEtJTkQsIEVYUFJFU1MgT1IgSU1QTElFRCwgSU5DTFVESU5HIEFOWSBXQVJSQU5UWSBPRiBNRVJDSEFOVEFCSUxJVFksIE5PTi1JTkZSSU5HRU1FTlQgT1IgRklUTkVTUyBGT1IgQU5ZIFBBUlRJQ1VMQVIgUFVSUE9TRS4gRnVydGhlciwgdXNlIG9mIGFueSBvZiB0aGVzZSBzbWFydCBjb250cmFjdHMgbWF5IGJlIHJlc3RyaWN0ZWQgb3IgcHJvaGliaXRlZCB1bmRlciBhcHBsaWNhYmxlIGxhdywgaW5jbHVkaW5nIHNlY3VyaXRpZXMgbGF3cywgYW5kIGl0IGlzIHRoZXJlZm9yZSBzdHJvbmdseSBhZHZpc2VkIGZvciB5b3UgdG8gY29udGFjdCBhIHJlcHV0YWJsZSBhdHRvcm5leSBpbiBhbnkganVyaXNkaWN0aW9uIHdoZXJlIHRoZXNlIHNtYXJ0IGNvbnRyYWN0cyBtYXkgYmUgYWNjZXNzaWJsZSBmb3IgYW55IHF1ZXN0aW9ucyBvciBjb25jZXJucyB3aXRoIHJlc3BlY3QgdGhlcmV0by4gRnVydGhlciwgbm8gaW5mb3JtYXRpb24gcHJvdmlkZWQgaW4gdGhpcyByZXBvIHNob3VsZCBiZSBjb25zdHJ1ZWQgYXMgaW52ZXN0bWVudCBhZHZpY2Ugb3IgbGVnYWwgYWR2aWNlIGZvciBhbnkgcGFydGljdWxhciBmYWN0cyBvciBjaXJjdW1zdGFuY2VzLCBhbmQgaXMgbm90IG1lYW50IHRvIHJlcGxhY2UgY29tcGV0ZW50IGNvdW5zZWwuIGExNnogaXMgbm90IGxpYWJsZSBmb3IgYW55IHVzZSBvZiB0aGUgZm9yZWdvaW5nLCBhbmQgdXNlcnMgc2hvdWxkIHByb2NlZWQgd2l0aCBjYXV0aW9uIGFuZCB1c2UgYXQgdGhlaXIgb3duIHJpc2suIFNlZSBhMTZ6LmNvbS9kaXNjbG9zdXJlcyBmb3IgbW9yZSBpbmZvLl8K
+# ERC4626 Property Tests
+
+Foundry (dapptools-style) property-based tests for [ERC4626] standard conformance.
+
+[ERC4626]: <https://eips.ethereum.org/EIPS/eip-4626>
+
+You can read our post on "_[Generalized property tests for ERC4626 vaults][post]_."
+
+[post]: <https://a16zcrypto.com/generalized-property-tests-for-erc4626-vaults>
+
+## Overview
+
+#### What is it?
+- Test suites for checking if the given ERC4626 implementation satisfies the **standard requirements**.
+- Dapptools-style **property-based tests** for fuzzing or symbolic execution testing.
+- Tests that are **independent** from implementation details, thus applicable for any ERC4626 vaults.
+
+#### What isn’t it?
+- It does NOT test implementation-specific details, e.g., how to generate and distribute yields, how to compute the share price, etc.
+
+#### Testing properties:
+
+- **Round-trip properties**: no one can make a free profit by depositing and immediately withdrawing back and forth.
+
+- **Functional correctness**: the `deposit()`, `mint()`, `withdraw()`, and `redeem()` functions update the balance and allowance properly.
+
+- The `preview{Deposit,Redeem}()` functions **MUST NOT over-estimate** the exact amount.[^1]
+
+[^1]: That is, the `deposit()` and `redeem()` functions “MUST return the same or more amounts as their preview function if called in the same transaction.”
+
+- The `preview{Mint,Withdraw}()` functions **MUST NOT under-estimate** the exact amount.[^2]
+
+[^2]: That is, the `mint()` and `withdraw()` functions “MUST return the same or fewer amounts as their preview function if called in the same transaction.”
+
+- The `convertTo{Shares,Assets}` functions “**MUST NOT show any variations** depending on the caller.”
+
+- The `asset()`, `totalAssets()`, and `max{Deposit,Mint,Withdraw,Redeem}()` functions “**MUST NOT revert**.”
+
+## Usage
+
+**Step 0**: Install [foundry] and add [forge-std] in your vault repo:
+```bash
+$ curl -L https://foundry.paradigm.xyz | bash
+
+$ cd /path/to/your-erc4626-vault
+$ forge install foundry-rs/forge-std
+```
+
+[foundry]: <https://getfoundry.sh/>
+[forge-std]: <https://github.com/foundry-rs/forge-std>
+
+**Step 1**: Add this [erc4626-tests] as a dependency to your vault:
+```bash
+$ cd /path/to/your-erc4626-vault
+$ forge install a16z/erc4626-tests
+```
+
+[erc4626-tests]: <https://github.com/a16z/erc4626-tests>
+
+**Step 2**: Extend the abstract test contract [`ERC4626Test`](ERC4626.test.sol) with your own custom vault setup method, for example:
+
+```solidity
+// SPDX-License-Identifier: AGPL-3.0
+pragma solidity >=0.8.0 <0.9.0;
+
+import "erc4626-tests/ERC4626.test.sol";
+
+import { ERC20Mock   } from "/path/to/mocks/ERC20Mock.sol";
+import { ERC4626Mock } from "/path/to/mocks/ERC4626Mock.sol";
+
+contract ERC4626StdTest is ERC4626Test {
+    function setUp() public override {
+        _underlying_ = address(new ERC20Mock("Mock ERC20", "MERC20", 18));
+        _vault_ = address(new ERC4626Mock(ERC20Mock(__underlying__), "Mock ERC4626", "MERC4626"));
+        _delta_ = 0;
+        _vaultMayBeEmpty = false;
+        _unlimitedAmount = false;
+    }
+}
+```
+
+Specifically, set the state variables as follows:
+- `_vault_`: the address of your ERC4626 vault.
+- `_underlying_`: the address of the underlying asset of your vault. Note that the default `setupVault()` and `setupYield()` methods of `ERC4626Test` assume that it implements `mint(address to, uint value)` and `burn(address from, uint value)`. You can override the setup methods with your own if such `mint()` and `burn()` are not implemented.
+- `_delta_`: the maximum approximation error size to be passed to [`assertApproxEqAbs()`]. It must be given as an absolute value (not a percentage) in the smallest unit (e.g., Wei or Satoshi). Note that all the tests are expected to pass with `__delta__ == 0` as long as your vault follows the [preferred rounding direction] as specified in the standard. If your vault doesn't follow the preferred rounding direction, you can set `__delta__` to a reasonable size of rounding errors where the adversarial profit of exploiting such rounding errors stays sufficiently small compared to the gas cost. (You can read our [post] for more about the adversarial profit.)
+- `_vaultMayBeEmpty`: when set to false, fuzz inputs that empties the vault are ignored.
+- `_unlimitedAmount`: when set to false, fuzz inputs are restricted to the currently available amount from the caller. Limiting the amount can speed up fuzzing, but may miss some edge cases.
+
+[`assertApproxEqAbs()`]: <https://book.getfoundry.sh/reference/forge-std/assertApproxEqAbs>
+
+[preferred rounding direction]: <https://eips.ethereum.org/EIPS/eip-4626#security-considerations>
+
+**Step 3**: Run `forge test`
+
+```
+$ forge test
+```
+
+## Examples
+
+Below are examples of adding these property tests to existing ERC4626 vaults:
+- [OpenZeppelin ERC4626] [[diff](https://github.com/daejunpark/openzeppelin-contracts/pull/1/files)]
+- [Solmate ERC4626] [[diff](https://github.com/daejunpark/solmate/pull/1/files)]
+- [Revenue Distribution Token] [[diff](https://github.com/daejunpark/revenue-distribution-token/pull/1/files)]
+- [Yield Daddy ERC4626 wrappers] [[diff](https://github.com/daejunpark/yield-daddy/pull/1/files)][^bug]
+
+[OpenZeppelin ERC4626]: <https://github.com/OpenZeppelin/openzeppelin-contracts/blob/a1948250ab8c441f6d327a65754cb20d2b1b4554/contracts/token/ERC20/extensions/ERC4626.sol>
+[Solmate ERC4626]: <https://github.com/transmissions11/solmate/blob/c2594bf4635ad773a8f4763e20b7e79582e41535/src/mixins/ERC4626.sol>
+[Revenue Distribution Token]: <https://github.com/maple-labs/revenue-distribution-token/blob/be9592fd72bfa7142a217507f2d5500a7856329e/contracts/RevenueDistributionToken.sol>
+[Yield Daddy ERC4626 wrappers]: <https://github.com/timeless-fi/yield-daddy>
+
+[^bug]: Our property tests indeed revealed an [issue](https://github.com/timeless-fi/yield-daddy/issues/7) in their eToken testing mock contract. The tests passed after it is [fixed](https://github.com/daejunpark/yield-daddy/commit/721cf4bd766805fd409455434aa5fd1a9b2df25c).
+
+## Disclaimer
+
+_These smart contracts are being provided as is. No guarantee, representation or warranty is being made, express or implied, as to the safety or correctness of the user interface or the smart contracts. They have not been audited and as such there can be no assurance they will work as intended, and users may experience delays, failures, errors, omissions or loss of transmitted information. THE SMART CONTRACTS CONTAINED HEREIN ARE FURNISHED AS IS, WHERE IS, WITH ALL FAULTS AND WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING ANY WARRANTY OF MERCHANTABILITY, NON-INFRINGEMENT OR FITNESS FOR ANY PARTICULAR PURPOSE. Further, use of any of these smart contracts may be restricted or prohibited under applicable law, including securities laws, and it is therefore strongly advised for you to contact a reputable attorney in any jurisdiction where these smart contracts may be accessible for any questions or concerns with respect thereto. Further, no information provided in this repo should be construed as investment advice or legal advice for any particular facts or circumstances, and is not meant to replace competent counsel. a16z is not liable for any use of the foregoing, and users should proceed with caution and use at their own risk. See a16z.com/disclosures for more info._
