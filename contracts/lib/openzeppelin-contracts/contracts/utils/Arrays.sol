@@ -1,1 +1,482 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodXRpbHMvQXJyYXlzLnNvbCkKLy8gVGhpcyBmaWxlIHdhcyBwcm9jZWR1cmFsbHkgZ2VuZXJhdGVkIGZyb20gc2NyaXB0cy9nZW5lcmF0ZS90ZW1wbGF0ZXMvQXJyYXlzLmpzLgoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0NvbXBhcmF0b3JzfSBmcm9tICIuL0NvbXBhcmF0b3JzLnNvbCI7CmltcG9ydCB7U2xvdERlcml2YXRpb259IGZyb20gIi4vU2xvdERlcml2YXRpb24uc29sIjsKaW1wb3J0IHtTdG9yYWdlU2xvdH0gZnJvbSAiLi9TdG9yYWdlU2xvdC5zb2wiOwppbXBvcnQge01hdGh9IGZyb20gIi4vbWF0aC9NYXRoLnNvbCI7CgovKioKICogQGRldiBDb2xsZWN0aW9uIG9mIGZ1bmN0aW9ucyByZWxhdGVkIHRvIGFycmF5IHR5cGVzLgogKi8KbGlicmFyeSBBcnJheXMgewogICAgdXNpbmcgU2xvdERlcml2YXRpb24gZm9yIGJ5dGVzMzI7CiAgICB1c2luZyBTdG9yYWdlU2xvdCBmb3IgYnl0ZXMzMjsKCiAgICAvKioKICAgICAqIEBkZXYgU29ydCBhbiBhcnJheSBvZiB1aW50MjU2IChpbiBtZW1vcnkpIGZvbGxvd2luZyB0aGUgcHJvdmlkZWQgY29tcGFyYXRvciBmdW5jdGlvbi4KICAgICAqCiAgICAgKiBUaGlzIGZ1bmN0aW9uIGRvZXMgdGhlIHNvcnRpbmcgImluIHBsYWNlIiwgbWVhbmluZyB0aGF0IGl0IG92ZXJyaWRlcyB0aGUgaW5wdXQuIFRoZSBvYmplY3QgaXMgcmV0dXJuZWQgZm9yCiAgICAgKiBjb252ZW5pZW5jZSwgYnV0IHRoYXQgcmV0dXJuZWQgdmFsdWUgY2FuIGJlIGRpc2NhcmRlZCBzYWZlbHkgaWYgdGhlIGNhbGxlciBoYXMgYSBtZW1vcnkgcG9pbnRlciB0byB0aGUgYXJyYXkuCiAgICAgKgogICAgICogTk9URTogdGhpcyBmdW5jdGlvbidzIGNvc3QgaXMgYE8obiDCtyBsb2cobikpYCBpbiBhdmVyYWdlIGFuZCBgTyhuwrIpYCBpbiB0aGUgd29yc3QgY2FzZSwgd2l0aCBuIHRoZSBsZW5ndGggb2YgdGhlCiAgICAgKiBhcnJheS4gVXNpbmcgaXQgaW4gdmlldyBmdW5jdGlvbnMgdGhhdCBhcmUgZXhlY3V0ZWQgdGhyb3VnaCBgZXRoX2NhbGxgIGlzIHNhZmUsIGJ1dCBvbmUgc2hvdWxkIGJlIHZlcnkgY2FyZWZ1bAogICAgICogd2hlbiBleGVjdXRpbmcgdGhpcyBhcyBwYXJ0IG9mIGEgdHJhbnNhY3Rpb24uIElmIHRoZSBhcnJheSBiZWluZyBzb3J0ZWQgaXMgdG9vIGxhcmdlLCB0aGUgc29ydCBvcGVyYXRpb24gbWF5CiAgICAgKiBjb25zdW1lIG1vcmUgZ2FzIHRoYW4gaXMgYXZhaWxhYmxlIGluIGEgYmxvY2ssIGxlYWRpbmcgdG8gcG90ZW50aWFsIERvUy4KICAgICAqCiAgICAgKiBJTVBPUlRBTlQ6IENvbnNpZGVyIG1lbW9yeSBzaWRlLWVmZmVjdHMgd2hlbiB1c2luZyBjdXN0b20gY29tcGFyYXRvciBmdW5jdGlvbnMgdGhhdCBhY2Nlc3MgbWVtb3J5IGluIGFuIHVuc2FmZSB3YXkuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHNvcnQoCiAgICAgICAgdWludDI1NltdIG1lbW9yeSBhcnJheSwKICAgICAgICBmdW5jdGlvbih1aW50MjU2LCB1aW50MjU2KSBwdXJlIHJldHVybnMgKGJvb2wpIGNvbXAKICAgICkgaW50ZXJuYWwgcHVyZSByZXR1cm5zICh1aW50MjU2W10gbWVtb3J5KSB7CiAgICAgICAgX3F1aWNrU29ydChfYmVnaW4oYXJyYXkpLCBfZW5kKGFycmF5KSwgY29tcCk7CiAgICAgICAgcmV0dXJuIGFycmF5OwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBWYXJpYW50IG9mIHtzb3J0fSB0aGF0IHNvcnRzIGFuIGFycmF5IG9mIHVpbnQyNTYgaW4gaW5jcmVhc2luZyBvcmRlci4KICAgICAqLwogICAgZnVuY3Rpb24gc29ydCh1aW50MjU2W10gbWVtb3J5IGFycmF5KSBpbnRlcm5hbCBwdXJlIHJldHVybnMgKHVpbnQyNTZbXSBtZW1vcnkpIHsKICAgICAgICBzb3J0KGFycmF5LCBDb21wYXJhdG9ycy5sdCk7CiAgICAgICAgcmV0dXJuIGFycmF5OwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBTb3J0IGFuIGFycmF5IG9mIGFkZHJlc3MgKGluIG1lbW9yeSkgZm9sbG93aW5nIHRoZSBwcm92aWRlZCBjb21wYXJhdG9yIGZ1bmN0aW9uLgogICAgICoKICAgICAqIFRoaXMgZnVuY3Rpb24gZG9lcyB0aGUgc29ydGluZyAiaW4gcGxhY2UiLCBtZWFuaW5nIHRoYXQgaXQgb3ZlcnJpZGVzIHRoZSBpbnB1dC4gVGhlIG9iamVjdCBpcyByZXR1cm5lZCBmb3IKICAgICAqIGNvbnZlbmllbmNlLCBidXQgdGhhdCByZXR1cm5lZCB2YWx1ZSBjYW4gYmUgZGlzY2FyZGVkIHNhZmVseSBpZiB0aGUgY2FsbGVyIGhhcyBhIG1lbW9yeSBwb2ludGVyIHRvIHRoZSBhcnJheS4KICAgICAqCiAgICAgKiBOT1RFOiB0aGlzIGZ1bmN0aW9uJ3MgY29zdCBpcyBgTyhuIMK3IGxvZyhuKSlgIGluIGF2ZXJhZ2UgYW5kIGBPKG7CsilgIGluIHRoZSB3b3JzdCBjYXNlLCB3aXRoIG4gdGhlIGxlbmd0aCBvZiB0aGUKICAgICAqIGFycmF5LiBVc2luZyBpdCBpbiB2aWV3IGZ1bmN0aW9ucyB0aGF0IGFyZSBleGVjdXRlZCB0aHJvdWdoIGBldGhfY2FsbGAgaXMgc2FmZSwgYnV0IG9uZSBzaG91bGQgYmUgdmVyeSBjYXJlZnVsCiAgICAgKiB3aGVuIGV4ZWN1dGluZyB0aGlzIGFzIHBhcnQgb2YgYSB0cmFuc2FjdGlvbi4gSWYgdGhlIGFycmF5IGJlaW5nIHNvcnRlZCBpcyB0b28gbGFyZ2UsIHRoZSBzb3J0IG9wZXJhdGlvbiBtYXkKICAgICAqIGNvbnN1bWUgbW9yZSBnYXMgdGhhbiBpcyBhdmFpbGFibGUgaW4gYSBibG9jaywgbGVhZGluZyB0byBwb3RlbnRpYWwgRG9TLgogICAgICoKICAgICAqIElNUE9SVEFOVDogQ29uc2lkZXIgbWVtb3J5IHNpZGUtZWZmZWN0cyB3aGVuIHVzaW5nIGN1c3RvbSBjb21wYXJhdG9yIGZ1bmN0aW9ucyB0aGF0IGFjY2VzcyBtZW1vcnkgaW4gYW4gdW5zYWZlIHdheS4KICAgICAqLwogICAgZnVuY3Rpb24gc29ydCgKICAgICAgICBhZGRyZXNzW10gbWVtb3J5IGFycmF5LAogICAgICAgIGZ1bmN0aW9uKGFkZHJlc3MsIGFkZHJlc3MpIHB1cmUgcmV0dXJucyAoYm9vbCkgY29tcAogICAgKSBpbnRlcm5hbCBwdXJlIHJldHVybnMgKGFkZHJlc3NbXSBtZW1vcnkpIHsKICAgICAgICBzb3J0KF9jYXN0VG9VaW50MjU2QXJyYXkoYXJyYXkpLCBfY2FzdFRvVWludDI1NkNvbXAoY29tcCkpOwogICAgICAgIHJldHVybiBhcnJheTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgVmFyaWFudCBvZiB7c29ydH0gdGhhdCBzb3J0cyBhbiBhcnJheSBvZiBhZGRyZXNzIGluIGluY3JlYXNpbmcgb3JkZXIuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHNvcnQoYWRkcmVzc1tdIG1lbW9yeSBhcnJheSkgaW50ZXJuYWwgcHVyZSByZXR1cm5zIChhZGRyZXNzW10gbWVtb3J5KSB7CiAgICAgICAgc29ydChfY2FzdFRvVWludDI1NkFycmF5KGFycmF5KSwgQ29tcGFyYXRvcnMubHQpOwogICAgICAgIHJldHVybiBhcnJheTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgU29ydCBhbiBhcnJheSBvZiBieXRlczMyIChpbiBtZW1vcnkpIGZvbGxvd2luZyB0aGUgcHJvdmlkZWQgY29tcGFyYXRvciBmdW5jdGlvbi4KICAgICAqCiAgICAgKiBUaGlzIGZ1bmN0aW9uIGRvZXMgdGhlIHNvcnRpbmcgImluIHBsYWNlIiwgbWVhbmluZyB0aGF0IGl0IG92ZXJyaWRlcyB0aGUgaW5wdXQuIFRoZSBvYmplY3QgaXMgcmV0dXJuZWQgZm9yCiAgICAgKiBjb252ZW5pZW5jZSwgYnV0IHRoYXQgcmV0dXJuZWQgdmFsdWUgY2FuIGJlIGRpc2NhcmRlZCBzYWZlbHkgaWYgdGhlIGNhbGxlciBoYXMgYSBtZW1vcnkgcG9pbnRlciB0byB0aGUgYXJyYXkuCiAgICAgKgogICAgICogTk9URTogdGhpcyBmdW5jdGlvbidzIGNvc3QgaXMgYE8obiDCtyBsb2cobikpYCBpbiBhdmVyYWdlIGFuZCBgTyhuwrIpYCBpbiB0aGUgd29yc3QgY2FzZSwgd2l0aCBuIHRoZSBsZW5ndGggb2YgdGhlCiAgICAgKiBhcnJheS4gVXNpbmcgaXQgaW4gdmlldyBmdW5jdGlvbnMgdGhhdCBhcmUgZXhlY3V0ZWQgdGhyb3VnaCBgZXRoX2NhbGxgIGlzIHNhZmUsIGJ1dCBvbmUgc2hvdWxkIGJlIHZlcnkgY2FyZWZ1bAogICAgICogd2hlbiBleGVjdXRpbmcgdGhpcyBhcyBwYXJ0IG9mIGEgdHJhbnNhY3Rpb24uIElmIHRoZSBhcnJheSBiZWluZyBzb3J0ZWQgaXMgdG9vIGxhcmdlLCB0aGUgc29ydCBvcGVyYXRpb24gbWF5CiAgICAgKiBjb25zdW1lIG1vcmUgZ2FzIHRoYW4gaXMgYXZhaWxhYmxlIGluIGEgYmxvY2ssIGxlYWRpbmcgdG8gcG90ZW50aWFsIERvUy4KICAgICAqCiAgICAgKiBJTVBPUlRBTlQ6IENvbnNpZGVyIG1lbW9yeSBzaWRlLWVmZmVjdHMgd2hlbiB1c2luZyBjdXN0b20gY29tcGFyYXRvciBmdW5jdGlvbnMgdGhhdCBhY2Nlc3MgbWVtb3J5IGluIGFuIHVuc2FmZSB3YXkuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHNvcnQoCiAgICAgICAgYnl0ZXMzMltdIG1lbW9yeSBhcnJheSwKICAgICAgICBmdW5jdGlvbihieXRlczMyLCBieXRlczMyKSBwdXJlIHJldHVybnMgKGJvb2wpIGNvbXAKICAgICkgaW50ZXJuYWwgcHVyZSByZXR1cm5zIChieXRlczMyW10gbWVtb3J5KSB7CiAgICAgICAgc29ydChfY2FzdFRvVWludDI1NkFycmF5KGFycmF5KSwgX2Nhc3RUb1VpbnQyNTZDb21wKGNvbXApKTsKICAgICAgICByZXR1cm4gYXJyYXk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFZhcmlhbnQgb2Yge3NvcnR9IHRoYXQgc29ydHMgYW4gYXJyYXkgb2YgYnl0ZXMzMiBpbiBpbmNyZWFzaW5nIG9yZGVyLgogICAgICovCiAgICBmdW5jdGlvbiBzb3J0KGJ5dGVzMzJbXSBtZW1vcnkgYXJyYXkpIGludGVybmFsIHB1cmUgcmV0dXJucyAoYnl0ZXMzMltdIG1lbW9yeSkgewogICAgICAgIHNvcnQoX2Nhc3RUb1VpbnQyNTZBcnJheShhcnJheSksIENvbXBhcmF0b3JzLmx0KTsKICAgICAgICByZXR1cm4gYXJyYXk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFBlcmZvcm1zIGEgcXVpY2sgc29ydCBvZiBhIHNlZ21lbnQgb2YgbWVtb3J5LiBUaGUgc2VnbWVudCBzb3J0ZWQgc3RhcnRzIGF0IGBiZWdpbmAgKGluY2x1c2l2ZSksIGFuZCBzdG9wcwogICAgICogYXQgZW5kIChleGNsdXNpdmUpLiBTb3J0aW5nIGZvbGxvd3MgdGhlIGBjb21wYCBjb21wYXJhdG9yLgogICAgICoKICAgICAqIEludmFyaWFudDogYGJlZ2luIDw9IGVuZGAuIFRoaXMgaXMgdGhlIGNhc2Ugd2hlbiBpbml0aWFsbHkgY2FsbGVkIGJ5IHtzb3J0fSBhbmQgaXMgcHJlc2VydmVkIGluIHN1YmNhbGxzLgogICAgICoKICAgICAqIElNUE9SVEFOVDogTWVtb3J5IGxvY2F0aW9ucyBiZXR3ZWVuIGBiZWdpbmAgYW5kIGBlbmRgIGFyZSBub3QgdmFsaWRhdGVkL3plcm9lZC4gVGhpcyBmdW5jdGlvbiBzaG91bGQKICAgICAqIGJlIHVzZWQgb25seSBpZiB0aGUgbGltaXRzIGFyZSB3aXRoaW4gYSBtZW1vcnkgYXJyYXkuCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9xdWlja1NvcnQodWludDI1NiBiZWdpbiwgdWludDI1NiBlbmQsIGZ1bmN0aW9uKHVpbnQyNTYsIHVpbnQyNTYpIHB1cmUgcmV0dXJucyAoYm9vbCkgY29tcCkgcHJpdmF0ZSBwdXJlIHsKICAgICAgICB1bmNoZWNrZWQgewogICAgICAgICAgICBpZiAoZW5kIC0gYmVnaW4gPCAweDQwKSByZXR1cm47CgogICAgICAgICAgICAvLyBVc2UgZmlyc3QgZWxlbWVudCBhcyBwaXZvdAogICAgICAgICAgICB1aW50MjU2IHBpdm90ID0gX21sb2FkKGJlZ2luKTsKICAgICAgICAgICAgLy8gUG9zaXRpb24gd2hlcmUgdGhlIHBpdm90IHNob3VsZCBiZSBhdCB0aGUgZW5kIG9mIHRoZSBsb29wCiAgICAgICAgICAgIHVpbnQyNTYgcG9zID0gYmVnaW47CgogICAgICAgICAgICBmb3IgKHVpbnQyNTYgaXQgPSBiZWdpbiArIDB4MjA7IGl0IDwgZW5kOyBpdCArPSAweDIwKSB7CiAgICAgICAgICAgICAgICBpZiAoY29tcChfbWxvYWQoaXQpLCBwaXZvdCkpIHsKICAgICAgICAgICAgICAgICAgICAvLyBJZiB0aGUgdmFsdWUgc3RvcmVkIGF0IHRoZSBpdGVyYXRvcidzIHBvc2l0aW9uIGNvbWVzIGJlZm9yZSB0aGUgcGl2b3QsIHdlIGluY3JlbWVudCB0aGUKICAgICAgICAgICAgICAgICAgICAvLyBwb3NpdGlvbiBvZiB0aGUgcGl2b3QgYW5kIG1vdmUgdGhlIHZhbHVlIHRoZXJlLgogICAgICAgICAgICAgICAgICAgIHBvcyArPSAweDIwOwogICAgICAgICAgICAgICAgICAgIF9zd2FwKHBvcywgaXQpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICBfc3dhcChiZWdpbiwgcG9zKTsgLy8gU3dhcCBwaXZvdCBpbnRvIHBsYWNlCiAgICAgICAgICAgIF9xdWlja1NvcnQoYmVnaW4sIHBvcywgY29tcCk7IC8vIFNvcnQgdGhlIGxlZnQgc2lkZSBvZiB0aGUgcGl2b3QKICAgICAgICAgICAgX3F1aWNrU29ydChwb3MgKyAweDIwLCBlbmQsIGNvbXApOyAvLyBTb3J0IHRoZSByaWdodCBzaWRlIG9mIHRoZSBwaXZvdAogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUG9pbnRlciB0byB0aGUgbWVtb3J5IGxvY2F0aW9uIG9mIHRoZSBmaXJzdCBlbGVtZW50IG9mIGBhcnJheWAuCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9iZWdpbih1aW50MjU2W10gbWVtb3J5IGFycmF5KSBwcml2YXRlIHB1cmUgcmV0dXJucyAodWludDI1NiBwdHIpIHsKICAgICAgICBhc3NlbWJseSAoIm1lbW9yeS1zYWZlIikgewogICAgICAgICAgICBwdHIgOj0gYWRkKGFycmF5LCAweDIwKQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUG9pbnRlciB0byB0aGUgbWVtb3J5IGxvY2F0aW9uIG9mIHRoZSBmaXJzdCBtZW1vcnkgd29yZCAoMzJieXRlcykgYWZ0ZXIgYGFycmF5YC4gVGhpcyBpcyB0aGUgbWVtb3J5IHdvcmQKICAgICAqIHRoYXQgY29tZXMganVzdCBhZnRlciB0aGUgbGFzdCBlbGVtZW50IG9mIHRoZSBhcnJheS4KICAgICAqLwogICAgZnVuY3Rpb24gX2VuZCh1aW50MjU2W10gbWVtb3J5IGFycmF5KSBwcml2YXRlIHB1cmUgcmV0dXJucyAodWludDI1NiBwdHIpIHsKICAgICAgICB1bmNoZWNrZWQgewogICAgICAgICAgICByZXR1cm4gX2JlZ2luKGFycmF5KSArIGFycmF5Lmxlbmd0aCAqIDB4MjA7CiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICogQGRldiBMb2FkIG1lbW9yeSB3b3JkIChhcyBhIHVpbnQyNTYpIGF0IGxvY2F0aW9uIGBwdHJgLgogICAgICovCiAgICBmdW5jdGlvbiBfbWxvYWQodWludDI1NiBwdHIpIHByaXZhdGUgcHVyZSByZXR1cm5zICh1aW50MjU2IHZhbHVlKSB7CiAgICAgICAgYXNzZW1ibHkgewogICAgICAgICAgICB2YWx1ZSA6PSBtbG9hZChwdHIpCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICogQGRldiBTd2FwcyB0aGUgZWxlbWVudHMgbWVtb3J5IGxvY2F0aW9uIGBwdHIxYCBhbmQgYHB0cjJgLgogICAgICovCiAgICBmdW5jdGlvbiBfc3dhcCh1aW50MjU2IHB0cjEsIHVpbnQyNTYgcHRyMikgcHJpdmF0ZSBwdXJlIHsKICAgICAgICBhc3NlbWJseSB7CiAgICAgICAgICAgIGxldCB2YWx1ZTEgOj0gbWxvYWQocHRyMSkKICAgICAgICAgICAgbGV0IHZhbHVlMiA6PSBtbG9hZChwdHIyKQogICAgICAgICAgICBtc3RvcmUocHRyMSwgdmFsdWUyKQogICAgICAgICAgICBtc3RvcmUocHRyMiwgdmFsdWUxKQogICAgICAgIH0KICAgIH0KCiAgICAvLy8gQGRldiBIZWxwZXI6IGxvdyBsZXZlbCBjYXN0IGFkZHJlc3MgbWVtb3J5IGFycmF5IHRvIHVpbnQyNTYgbWVtb3J5IGFycmF5CiAgICBmdW5jdGlvbiBfY2FzdFRvVWludDI1NkFycmF5KGFkZHJlc3NbXSBtZW1vcnkgaW5wdXQpIHByaXZhdGUgcHVyZSByZXR1cm5zICh1aW50MjU2W10gbWVtb3J5IG91dHB1dCkgewogICAgICAgIGFzc2VtYmx5IHsKICAgICAgICAgICAgb3V0cHV0IDo9IGlucHV0CiAgICAgICAgfQogICAgfQoKICAgIC8vLyBAZGV2IEhlbHBlcjogbG93IGxldmVsIGNhc3QgYnl0ZXMzMiBtZW1vcnkgYXJyYXkgdG8gdWludDI1NiBtZW1vcnkgYXJyYXkKICAgIGZ1bmN0aW9uIF9jYXN0VG9VaW50MjU2QXJyYXkoYnl0ZXMzMltdIG1lbW9yeSBpbnB1dCkgcHJpdmF0ZSBwdXJlIHJldHVybnMgKHVpbnQyNTZbXSBtZW1vcnkgb3V0cHV0KSB7CiAgICAgICAgYXNzZW1ibHkgewogICAgICAgICAgICBvdXRwdXQgOj0gaW5wdXQKICAgICAgICB9CiAgICB9CgogICAgLy8vIEBkZXYgSGVscGVyOiBsb3cgbGV2ZWwgY2FzdCBhZGRyZXNzIGNvbXAgZnVuY3Rpb24gdG8gdWludDI1NiBjb21wIGZ1bmN0aW9uCiAgICBmdW5jdGlvbiBfY2FzdFRvVWludDI1NkNvbXAoCiAgICAgICAgZnVuY3Rpb24oYWRkcmVzcywgYWRkcmVzcykgcHVyZSByZXR1cm5zIChib29sKSBpbnB1dAogICAgKSBwcml2YXRlIHB1cmUgcmV0dXJucyAoZnVuY3Rpb24odWludDI1NiwgdWludDI1NikgcHVyZSByZXR1cm5zIChib29sKSBvdXRwdXQpIHsKICAgICAgICBhc3NlbWJseSB7CiAgICAgICAgICAgIG91dHB1dCA6PSBpbnB1dAogICAgICAgIH0KICAgIH0KCiAgICAvLy8gQGRldiBIZWxwZXI6IGxvdyBsZXZlbCBjYXN0IGJ5dGVzMzIgY29tcCBmdW5jdGlvbiB0byB1aW50MjU2IGNvbXAgZnVuY3Rpb24KICAgIGZ1bmN0aW9uIF9jYXN0VG9VaW50MjU2Q29tcCgKICAgICAgICBmdW5jdGlvbihieXRlczMyLCBieXRlczMyKSBwdXJlIHJldHVybnMgKGJvb2wpIGlucHV0CiAgICApIHByaXZhdGUgcHVyZSByZXR1cm5zIChmdW5jdGlvbih1aW50MjU2LCB1aW50MjU2KSBwdXJlIHJldHVybnMgKGJvb2wpIG91dHB1dCkgewogICAgICAgIGFzc2VtYmx5IHsKICAgICAgICAgICAgb3V0cHV0IDo9IGlucHV0CiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICogQGRldiBTZWFyY2hlcyBhIHNvcnRlZCBgYXJyYXlgIGFuZCByZXR1cm5zIHRoZSBmaXJzdCBpbmRleCB0aGF0IGNvbnRhaW5zCiAgICAgKiBhIHZhbHVlIGdyZWF0ZXIgb3IgZXF1YWwgdG8gYGVsZW1lbnRgLiBJZiBubyBzdWNoIGluZGV4IGV4aXN0cyAoaS5lLiBhbGwKICAgICAqIHZhbHVlcyBpbiB0aGUgYXJyYXkgYXJlIHN0cmljdGx5IGxlc3MgdGhhbiBgZWxlbWVudGApLCB0aGUgYXJyYXkgbGVuZ3RoIGlzCiAgICAgKiByZXR1cm5lZC4gVGltZSBjb21wbGV4aXR5IE8obG9nIG4pLgogICAgICoKICAgICAqIE5PVEU6IFRoZSBgYXJyYXlgIGlzIGV4cGVjdGVkIHRvIGJlIHNvcnRlZCBpbiBhc2NlbmRpbmcgb3JkZXIsIGFuZCB0bwogICAgICogY29udGFpbiBubyByZXBlYXRlZCBlbGVtZW50cy4KICAgICAqCiAgICAgKiBJTVBPUlRBTlQ6IERlcHJlY2F0ZWQuIFRoaXMgaW1wbGVtZW50YXRpb24gYmVoYXZlcyBhcyB7bG93ZXJCb3VuZH0gYnV0IGxhY2tzCiAgICAgKiBzdXBwb3J0IGZvciByZXBlYXRlZCBlbGVtZW50cyBpbiB0aGUgYXJyYXkuIFRoZSB7bG93ZXJCb3VuZH0gZnVuY3Rpb24gc2hvdWxkCiAgICAgKiBiZSB1c2VkIGluc3RlYWQuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGZpbmRVcHBlckJvdW5kKHVpbnQyNTZbXSBzdG9yYWdlIGFycmF5LCB1aW50MjU2IGVsZW1lbnQpIGludGVybmFsIHZpZXcgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHVpbnQyNTYgbG93ID0gMDsKICAgICAgICB1aW50MjU2IGhpZ2ggPSBhcnJheS5sZW5ndGg7CgogICAgICAgIGlmIChoaWdoID09IDApIHsKICAgICAgICAgICAgcmV0dXJuIDA7CiAgICAgICAgfQoKICAgICAgICB3aGlsZSAobG93IDwgaGlnaCkgewogICAgICAgICAgICB1aW50MjU2IG1pZCA9IE1hdGguYXZlcmFnZShsb3csIGhpZ2gpOwoKICAgICAgICAgICAgLy8gTm90ZSB0aGF0IG1pZCB3aWxsIGFsd2F5cyBiZSBzdHJpY3RseSBsZXNzIHRoYW4gaGlnaCAoaS5lLiBpdCB3aWxsIGJlIGEgdmFsaWQgYXJyYXkgaW5kZXgpCiAgICAgICAgICAgIC8vIGJlY2F1c2UgTWF0aC5hdmVyYWdlIHJvdW5kcyB0b3dhcmRzIHplcm8gKGl0IGRvZXMgaW50ZWdlciBkaXZpc2lvbiB3aXRoIHRydW5jYXRpb24pLgogICAgICAgICAgICBpZiAodW5zYWZlQWNjZXNzKGFycmF5LCBtaWQpLnZhbHVlID4gZWxlbWVudCkgewogICAgICAgICAgICAgICAgaGlnaCA9IG1pZDsKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGxvdyA9IG1pZCArIDE7CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIC8vIEF0IHRoaXMgcG9pbnQgYGxvd2AgaXMgdGhlIGV4Y2x1c2l2ZSB1cHBlciBib3VuZC4gV2Ugd2lsbCByZXR1cm4gdGhlIGluY2x1c2l2ZSB1cHBlciBib3VuZC4KICAgICAgICBpZiAobG93ID4gMCAmJiB1bnNhZmVBY2Nlc3MoYXJyYXksIGxvdyAtIDEpLnZhbHVlID09IGVsZW1lbnQpIHsKICAgICAgICAgICAgcmV0dXJuIGxvdyAtIDE7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgcmV0dXJuIGxvdzsKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFNlYXJjaGVzIGFuIGBhcnJheWAgc29ydGVkIGluIGFzY2VuZGluZyBvcmRlciBhbmQgcmV0dXJucyB0aGUgZmlyc3QKICAgICAqIGluZGV4IHRoYXQgY29udGFpbnMgYSB2YWx1ZSBncmVhdGVyIG9yIGVxdWFsIHRoYW4gYGVsZW1lbnRgLiBJZiBubyBzdWNoIGluZGV4CiAgICAgKiBleGlzdHMgKGkuZS4gYWxsIHZhbHVlcyBpbiB0aGUgYXJyYXkgYXJlIHN0cmljdGx5IGxlc3MgdGhhbiBgZWxlbWVudGApLCB0aGUgYXJyYXkKICAgICAqIGxlbmd0aCBpcyByZXR1cm5lZC4gVGltZSBjb21wbGV4aXR5IE8obG9nIG4pLgogICAgICoKICAgICAqIFNlZSBDKysncyBodHRwczovL2VuLmNwcHJlZmVyZW5jZS5jb20vdy9jcHAvYWxnb3JpdGhtL2xvd2VyX2JvdW5kW2xvd2VyX2JvdW5kXS4KICAgICAqLwogICAgZnVuY3Rpb24gbG93ZXJCb3VuZCh1aW50MjU2W10gc3RvcmFnZSBhcnJheSwgdWludDI1NiBlbGVtZW50KSBpbnRlcm5hbCB2aWV3IHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICB1aW50MjU2IGxvdyA9IDA7CiAgICAgICAgdWludDI1NiBoaWdoID0gYXJyYXkubGVuZ3RoOwoKICAgICAgICBpZiAoaGlnaCA9PSAwKSB7CiAgICAgICAgICAgIHJldHVybiAwOwogICAgICAgIH0KCiAgICAgICAgd2hpbGUgKGxvdyA8IGhpZ2gpIHsKICAgICAgICAgICAgdWludDI1NiBtaWQgPSBNYXRoLmF2ZXJhZ2UobG93LCBoaWdoKTsKCiAgICAgICAgICAgIC8vIE5vdGUgdGhhdCBtaWQgd2lsbCBhbHdheXMgYmUgc3RyaWN0bHkgbGVzcyB0aGFuIGhpZ2ggKGkuZS4gaXQgd2lsbCBiZSBhIHZhbGlkIGFycmF5IGluZGV4KQogICAgICAgICAgICAvLyBiZWNhdXNlIE1hdGguYXZlcmFnZSByb3VuZHMgdG93YXJkcyB6ZXJvIChpdCBkb2VzIGludGVnZXIgZGl2aXNpb24gd2l0aCB0cnVuY2F0aW9uKS4KICAgICAgICAgICAgaWYgKHVuc2FmZUFjY2VzcyhhcnJheSwgbWlkKS52YWx1ZSA8IGVsZW1lbnQpIHsKICAgICAgICAgICAgICAgIC8vIHRoaXMgY2Fubm90IG92ZXJmbG93IGJlY2F1c2UgbWlkIDwgaGlnaAogICAgICAgICAgICAgICAgdW5jaGVja2VkIHsKICAgICAgICAgICAgICAgICAgICBsb3cgPSBtaWQgKyAxOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgaGlnaCA9IG1pZDsKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIGxvdzsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgU2VhcmNoZXMgYW4gYGFycmF5YCBzb3J0ZWQgaW4gYXNjZW5kaW5nIG9yZGVyIGFuZCByZXR1cm5zIHRoZSBmaXJzdAogICAgICogaW5kZXggdGhhdCBjb250YWlucyBhIHZhbHVlIHN0cmljdGx5IGdyZWF0ZXIgdGhhbiBgZWxlbWVudGAuIElmIG5vIHN1Y2ggaW5kZXgKICAgICAqIGV4aXN0cyAoaS5lLiBhbGwgdmFsdWVzIGluIHRoZSBhcnJheSBhcmUgc3RyaWN0bHkgbGVzcyB0aGFuIGBlbGVtZW50YCksIHRoZSBhcnJheQogICAgICogbGVuZ3RoIGlzIHJldHVybmVkLiBUaW1lIGNvbXBsZXhpdHkgTyhsb2cgbikuCiAgICAgKgogICAgICogU2VlIEMrKydzIGh0dHBzOi8vZW4uY3BwcmVmZXJlbmNlLmNvbS93L2NwcC9hbGdvcml0aG0vdXBwZXJfYm91bmRbdXBwZXJfYm91bmRdLgogICAgICovCiAgICBmdW5jdGlvbiB1cHBlckJvdW5kKHVpbnQyNTZbXSBzdG9yYWdlIGFycmF5LCB1aW50MjU2IGVsZW1lbnQpIGludGVybmFsIHZpZXcgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHVpbnQyNTYgbG93ID0gMDsKICAgICAgICB1aW50MjU2IGhpZ2ggPSBhcnJheS5sZW5ndGg7CgogICAgICAgIGlmIChoaWdoID09IDApIHsKICAgICAgICAgICAgcmV0dXJuIDA7CiAgICAgICAgfQoKICAgICAgICB3aGlsZSAobG93IDwgaGlnaCkgewogICAgICAgICAgICB1aW50MjU2IG1pZCA9IE1hdGguYXZlcmFnZShsb3csIGhpZ2gpOwoKICAgICAgICAgICAgLy8gTm90ZSB0aGF0IG1pZCB3aWxsIGFsd2F5cyBiZSBzdHJpY3RseSBsZXNzIHRoYW4gaGlnaCAoaS5lLiBpdCB3aWxsIGJlIGEgdmFsaWQgYXJyYXkgaW5kZXgpCiAgICAgICAgICAgIC8vIGJlY2F1c2UgTWF0aC5hdmVyYWdlIHJvdW5kcyB0b3dhcmRzIHplcm8gKGl0IGRvZXMgaW50ZWdlciBkaXZpc2lvbiB3aXRoIHRydW5jYXRpb24pLgogICAgICAgICAgICBpZiAodW5zYWZlQWNjZXNzKGFycmF5LCBtaWQpLnZhbHVlID4gZWxlbWVudCkgewogICAgICAgICAgICAgICAgaGlnaCA9IG1pZDsKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIC8vIHRoaXMgY2Fubm90IG92ZXJmbG93IGJlY2F1c2UgbWlkIDwgaGlnaAogICAgICAgICAgICAgICAgdW5jaGVja2VkIHsKICAgICAgICAgICAgICAgICAgICBsb3cgPSBtaWQgKyAxOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICByZXR1cm4gbG93OwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBTYW1lIGFzIHtsb3dlckJvdW5kfSwgYnV0IHdpdGggYW4gYXJyYXkgaW4gbWVtb3J5LgogICAgICovCiAgICBmdW5jdGlvbiBsb3dlckJvdW5kTWVtb3J5KHVpbnQyNTZbXSBtZW1vcnkgYXJyYXksIHVpbnQyNTYgZWxlbWVudCkgaW50ZXJuYWwgcHVyZSByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgdWludDI1NiBsb3cgPSAwOwogICAgICAgIHVpbnQyNTYgaGlnaCA9IGFycmF5Lmxlbmd0aDsKCiAgICAgICAgaWYgKGhpZ2ggPT0gMCkgewogICAgICAgICAgICByZXR1cm4gMDsKICAgICAgICB9CgogICAgICAgIHdoaWxlIChsb3cgPCBoaWdoKSB7CiAgICAgICAgICAgIHVpbnQyNTYgbWlkID0gTWF0aC5hdmVyYWdlKGxvdywgaGlnaCk7CgogICAgICAgICAgICAvLyBOb3RlIHRoYXQgbWlkIHdpbGwgYWx3YXlzIGJlIHN0cmljdGx5IGxlc3MgdGhhbiBoaWdoIChpLmUuIGl0IHdpbGwgYmUgYSB2YWxpZCBhcnJheSBpbmRleCkKICAgICAgICAgICAgLy8gYmVjYXVzZSBNYXRoLmF2ZXJhZ2Ugcm91bmRzIHRvd2FyZHMgemVybyAoaXQgZG9lcyBpbnRlZ2VyIGRpdmlzaW9uIHdpdGggdHJ1bmNhdGlvbikuCiAgICAgICAgICAgIGlmICh1bnNhZmVNZW1vcnlBY2Nlc3MoYXJyYXksIG1pZCkgPCBlbGVtZW50KSB7CiAgICAgICAgICAgICAgICAvLyB0aGlzIGNhbm5vdCBvdmVyZmxvdyBiZWNhdXNlIG1pZCA8IGhpZ2gKICAgICAgICAgICAgICAgIHVuY2hlY2tlZCB7CiAgICAgICAgICAgICAgICAgICAgbG93ID0gbWlkICsgMTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGhpZ2ggPSBtaWQ7CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHJldHVybiBsb3c7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFNhbWUgYXMge3VwcGVyQm91bmR9LCBidXQgd2l0aCBhbiBhcnJheSBpbiBtZW1vcnkuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHVwcGVyQm91bmRNZW1vcnkodWludDI1NltdIG1lbW9yeSBhcnJheSwgdWludDI1NiBlbGVtZW50KSBpbnRlcm5hbCBwdXJlIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICB1aW50MjU2IGxvdyA9IDA7CiAgICAgICAgdWludDI1NiBoaWdoID0gYXJyYXkubGVuZ3RoOwoKICAgICAgICBpZiAoaGlnaCA9PSAwKSB7CiAgICAgICAgICAgIHJldHVybiAwOwogICAgICAgIH0KCiAgICAgICAgd2hpbGUgKGxvdyA8IGhpZ2gpIHsKICAgICAgICAgICAgdWludDI1NiBtaWQgPSBNYXRoLmF2ZXJhZ2UobG93LCBoaWdoKTsKCiAgICAgICAgICAgIC8vIE5vdGUgdGhhdCBtaWQgd2lsbCBhbHdheXMgYmUgc3RyaWN0bHkgbGVzcyB0aGFuIGhpZ2ggKGkuZS4gaXQgd2lsbCBiZSBhIHZhbGlkIGFycmF5IGluZGV4KQogICAgICAgICAgICAvLyBiZWNhdXNlIE1hdGguYXZlcmFnZSByb3VuZHMgdG93YXJkcyB6ZXJvIChpdCBkb2VzIGludGVnZXIgZGl2aXNpb24gd2l0aCB0cnVuY2F0aW9uKS4KICAgICAgICAgICAgaWYgKHVuc2FmZU1lbW9yeUFjY2VzcyhhcnJheSwgbWlkKSA+IGVsZW1lbnQpIHsKICAgICAgICAgICAgICAgIGhpZ2ggPSBtaWQ7CiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAvLyB0aGlzIGNhbm5vdCBvdmVyZmxvdyBiZWNhdXNlIG1pZCA8IGhpZ2gKICAgICAgICAgICAgICAgIHVuY2hlY2tlZCB7CiAgICAgICAgICAgICAgICAgICAgbG93ID0gbWlkICsgMTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIGxvdzsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgQWNjZXNzIGFuIGFycmF5IGluIGFuICJ1bnNhZmUiIHdheS4gU2tpcHMgc29saWRpdHkgImluZGV4LW91dC1vZi1yYW5nZSIgY2hlY2suCiAgICAgKgogICAgICogV0FSTklORzogT25seSB1c2UgaWYgeW91IGFyZSBjZXJ0YWluIGBwb3NgIGlzIGxvd2VyIHRoYW4gdGhlIGFycmF5IGxlbmd0aC4KICAgICAqLwogICAgZnVuY3Rpb24gdW5zYWZlQWNjZXNzKGFkZHJlc3NbXSBzdG9yYWdlIGFyciwgdWludDI1NiBwb3MpIGludGVybmFsIHB1cmUgcmV0dXJucyAoU3RvcmFnZVNsb3QuQWRkcmVzc1Nsb3Qgc3RvcmFnZSkgewogICAgICAgIGJ5dGVzMzIgc2xvdDsKICAgICAgICBhc3NlbWJseSAoIm1lbW9yeS1zYWZlIikgewogICAgICAgICAgICBzbG90IDo9IGFyci5zbG90CiAgICAgICAgfQogICAgICAgIHJldHVybiBzbG90LmRlcml2ZUFycmF5KCkub2Zmc2V0KHBvcykuZ2V0QWRkcmVzc1Nsb3QoKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgQWNjZXNzIGFuIGFycmF5IGluIGFuICJ1bnNhZmUiIHdheS4gU2tpcHMgc29saWRpdHkgImluZGV4LW91dC1vZi1yYW5nZSIgY2hlY2suCiAgICAgKgogICAgICogV0FSTklORzogT25seSB1c2UgaWYgeW91IGFyZSBjZXJ0YWluIGBwb3NgIGlzIGxvd2VyIHRoYW4gdGhlIGFycmF5IGxlbmd0aC4KICAgICAqLwogICAgZnVuY3Rpb24gdW5zYWZlQWNjZXNzKGJ5dGVzMzJbXSBzdG9yYWdlIGFyciwgdWludDI1NiBwb3MpIGludGVybmFsIHB1cmUgcmV0dXJucyAoU3RvcmFnZVNsb3QuQnl0ZXMzMlNsb3Qgc3RvcmFnZSkgewogICAgICAgIGJ5dGVzMzIgc2xvdDsKICAgICAgICBhc3NlbWJseSAoIm1lbW9yeS1zYWZlIikgewogICAgICAgICAgICBzbG90IDo9IGFyci5zbG90CiAgICAgICAgfQogICAgICAgIHJldHVybiBzbG90LmRlcml2ZUFycmF5KCkub2Zmc2V0KHBvcykuZ2V0Qnl0ZXMzMlNsb3QoKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgQWNjZXNzIGFuIGFycmF5IGluIGFuICJ1bnNhZmUiIHdheS4gU2tpcHMgc29saWRpdHkgImluZGV4LW91dC1vZi1yYW5nZSIgY2hlY2suCiAgICAgKgogICAgICogV0FSTklORzogT25seSB1c2UgaWYgeW91IGFyZSBjZXJ0YWluIGBwb3NgIGlzIGxvd2VyIHRoYW4gdGhlIGFycmF5IGxlbmd0aC4KICAgICAqLwogICAgZnVuY3Rpb24gdW5zYWZlQWNjZXNzKHVpbnQyNTZbXSBzdG9yYWdlIGFyciwgdWludDI1NiBwb3MpIGludGVybmFsIHB1cmUgcmV0dXJucyAoU3RvcmFnZVNsb3QuVWludDI1NlNsb3Qgc3RvcmFnZSkgewogICAgICAgIGJ5dGVzMzIgc2xvdDsKICAgICAgICBhc3NlbWJseSAoIm1lbW9yeS1zYWZlIikgewogICAgICAgICAgICBzbG90IDo9IGFyci5zbG90CiAgICAgICAgfQogICAgICAgIHJldHVybiBzbG90LmRlcml2ZUFycmF5KCkub2Zmc2V0KHBvcykuZ2V0VWludDI1NlNsb3QoKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgQWNjZXNzIGFuIGFycmF5IGluIGFuICJ1bnNhZmUiIHdheS4gU2tpcHMgc29saWRpdHkgImluZGV4LW91dC1vZi1yYW5nZSIgY2hlY2suCiAgICAgKgogICAgICogV0FSTklORzogT25seSB1c2UgaWYgeW91IGFyZSBjZXJ0YWluIGBwb3NgIGlzIGxvd2VyIHRoYW4gdGhlIGFycmF5IGxlbmd0aC4KICAgICAqLwogICAgZnVuY3Rpb24gdW5zYWZlTWVtb3J5QWNjZXNzKGFkZHJlc3NbXSBtZW1vcnkgYXJyLCB1aW50MjU2IHBvcykgaW50ZXJuYWwgcHVyZSByZXR1cm5zIChhZGRyZXNzIHJlcykgewogICAgICAgIGFzc2VtYmx5IHsKICAgICAgICAgICAgcmVzIDo9IG1sb2FkKGFkZChhZGQoYXJyLCAweDIwKSwgbXVsKHBvcywgMHgyMCkpKQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgQWNjZXNzIGFuIGFycmF5IGluIGFuICJ1bnNhZmUiIHdheS4gU2tpcHMgc29saWRpdHkgImluZGV4LW91dC1vZi1yYW5nZSIgY2hlY2suCiAgICAgKgogICAgICogV0FSTklORzogT25seSB1c2UgaWYgeW91IGFyZSBjZXJ0YWluIGBwb3NgIGlzIGxvd2VyIHRoYW4gdGhlIGFycmF5IGxlbmd0aC4KICAgICAqLwogICAgZnVuY3Rpb24gdW5zYWZlTWVtb3J5QWNjZXNzKGJ5dGVzMzJbXSBtZW1vcnkgYXJyLCB1aW50MjU2IHBvcykgaW50ZXJuYWwgcHVyZSByZXR1cm5zIChieXRlczMyIHJlcykgewogICAgICAgIGFzc2VtYmx5IHsKICAgICAgICAgICAgcmVzIDo9IG1sb2FkKGFkZChhZGQoYXJyLCAweDIwKSwgbXVsKHBvcywgMHgyMCkpKQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgQWNjZXNzIGFuIGFycmF5IGluIGFuICJ1bnNhZmUiIHdheS4gU2tpcHMgc29saWRpdHkgImluZGV4LW91dC1vZi1yYW5nZSIgY2hlY2suCiAgICAgKgogICAgICogV0FSTklORzogT25seSB1c2UgaWYgeW91IGFyZSBjZXJ0YWluIGBwb3NgIGlzIGxvd2VyIHRoYW4gdGhlIGFycmF5IGxlbmd0aC4KICAgICAqLwogICAgZnVuY3Rpb24gdW5zYWZlTWVtb3J5QWNjZXNzKHVpbnQyNTZbXSBtZW1vcnkgYXJyLCB1aW50MjU2IHBvcykgaW50ZXJuYWwgcHVyZSByZXR1cm5zICh1aW50MjU2IHJlcykgewogICAgICAgIGFzc2VtYmx5IHsKICAgICAgICAgICAgcmVzIDo9IG1sb2FkKGFkZChhZGQoYXJyLCAweDIwKSwgbXVsKHBvcywgMHgyMCkpKQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgSGVscGVyIHRvIHNldCB0aGUgbGVuZ3RoIG9mIGFuIGR5bmFtaWMgYXJyYXkuIERpcmVjdGx5IHdyaXRpbmcgdG8gYC5sZW5ndGhgIGlzIGZvcmJpZGRlbi4KICAgICAqCiAgICAgKiBXQVJOSU5HOiB0aGlzIGRvZXMgbm90IGNsZWFyIGVsZW1lbnRzIGlmIGxlbmd0aCBpcyByZWR1Y2VkLCBvZiBpbml0aWFsaXplIGVsZW1lbnRzIGlmIGxlbmd0aCBpcyBpbmNyZWFzZWQuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHVuc2FmZVNldExlbmd0aChhZGRyZXNzW10gc3RvcmFnZSBhcnJheSwgdWludDI1NiBsZW4pIGludGVybmFsIHsKICAgICAgICBhc3NlbWJseSAoIm1lbW9yeS1zYWZlIikgewogICAgICAgICAgICBzc3RvcmUoYXJyYXkuc2xvdCwgbGVuKQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgSGVscGVyIHRvIHNldCB0aGUgbGVuZ3RoIG9mIGFuIGR5bmFtaWMgYXJyYXkuIERpcmVjdGx5IHdyaXRpbmcgdG8gYC5sZW5ndGhgIGlzIGZvcmJpZGRlbi4KICAgICAqCiAgICAgKiBXQVJOSU5HOiB0aGlzIGRvZXMgbm90IGNsZWFyIGVsZW1lbnRzIGlmIGxlbmd0aCBpcyByZWR1Y2VkLCBvZiBpbml0aWFsaXplIGVsZW1lbnRzIGlmIGxlbmd0aCBpcyBpbmNyZWFzZWQuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHVuc2FmZVNldExlbmd0aChieXRlczMyW10gc3RvcmFnZSBhcnJheSwgdWludDI1NiBsZW4pIGludGVybmFsIHsKICAgICAgICBhc3NlbWJseSAoIm1lbW9yeS1zYWZlIikgewogICAgICAgICAgICBzc3RvcmUoYXJyYXkuc2xvdCwgbGVuKQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgSGVscGVyIHRvIHNldCB0aGUgbGVuZ3RoIG9mIGFuIGR5bmFtaWMgYXJyYXkuIERpcmVjdGx5IHdyaXRpbmcgdG8gYC5sZW5ndGhgIGlzIGZvcmJpZGRlbi4KICAgICAqCiAgICAgKiBXQVJOSU5HOiB0aGlzIGRvZXMgbm90IGNsZWFyIGVsZW1lbnRzIGlmIGxlbmd0aCBpcyByZWR1Y2VkLCBvZiBpbml0aWFsaXplIGVsZW1lbnRzIGlmIGxlbmd0aCBpcyBpbmNyZWFzZWQuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHVuc2FmZVNldExlbmd0aCh1aW50MjU2W10gc3RvcmFnZSBhcnJheSwgdWludDI1NiBsZW4pIGludGVybmFsIHsKICAgICAgICBhc3NlbWJseSAoIm1lbW9yeS1zYWZlIikgewogICAgICAgICAgICBzc3RvcmUoYXJyYXkuc2xvdCwgbGVuKQogICAgICAgIH0KICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (utils/Arrays.sol)
+// This file was procedurally generated from scripts/generate/templates/Arrays.js.
+
+pragma solidity ^0.8.20;
+
+import {Comparators} from "./Comparators.sol";
+import {SlotDerivation} from "./SlotDerivation.sol";
+import {StorageSlot} from "./StorageSlot.sol";
+import {Math} from "./math/Math.sol";
+
+/**
+ * @dev Collection of functions related to array types.
+ */
+library Arrays {
+    using SlotDerivation for bytes32;
+    using StorageSlot for bytes32;
+
+    /**
+     * @dev Sort an array of uint256 (in memory) following the provided comparator function.
+     *
+     * This function does the sorting "in place", meaning that it overrides the input. The object is returned for
+     * convenience, but that returned value can be discarded safely if the caller has a memory pointer to the array.
+     *
+     * NOTE: this function's cost is `O(n · log(n))` in average and `O(n²)` in the worst case, with n the length of the
+     * array. Using it in view functions that are executed through `eth_call` is safe, but one should be very careful
+     * when executing this as part of a transaction. If the array being sorted is too large, the sort operation may
+     * consume more gas than is available in a block, leading to potential DoS.
+     *
+     * IMPORTANT: Consider memory side-effects when using custom comparator functions that access memory in an unsafe way.
+     */
+    function sort(
+        uint256[] memory array,
+        function(uint256, uint256) pure returns (bool) comp
+    ) internal pure returns (uint256[] memory) {
+        _quickSort(_begin(array), _end(array), comp);
+        return array;
+    }
+
+    /**
+     * @dev Variant of {sort} that sorts an array of uint256 in increasing order.
+     */
+    function sort(uint256[] memory array) internal pure returns (uint256[] memory) {
+        sort(array, Comparators.lt);
+        return array;
+    }
+
+    /**
+     * @dev Sort an array of address (in memory) following the provided comparator function.
+     *
+     * This function does the sorting "in place", meaning that it overrides the input. The object is returned for
+     * convenience, but that returned value can be discarded safely if the caller has a memory pointer to the array.
+     *
+     * NOTE: this function's cost is `O(n · log(n))` in average and `O(n²)` in the worst case, with n the length of the
+     * array. Using it in view functions that are executed through `eth_call` is safe, but one should be very careful
+     * when executing this as part of a transaction. If the array being sorted is too large, the sort operation may
+     * consume more gas than is available in a block, leading to potential DoS.
+     *
+     * IMPORTANT: Consider memory side-effects when using custom comparator functions that access memory in an unsafe way.
+     */
+    function sort(
+        address[] memory array,
+        function(address, address) pure returns (bool) comp
+    ) internal pure returns (address[] memory) {
+        sort(_castToUint256Array(array), _castToUint256Comp(comp));
+        return array;
+    }
+
+    /**
+     * @dev Variant of {sort} that sorts an array of address in increasing order.
+     */
+    function sort(address[] memory array) internal pure returns (address[] memory) {
+        sort(_castToUint256Array(array), Comparators.lt);
+        return array;
+    }
+
+    /**
+     * @dev Sort an array of bytes32 (in memory) following the provided comparator function.
+     *
+     * This function does the sorting "in place", meaning that it overrides the input. The object is returned for
+     * convenience, but that returned value can be discarded safely if the caller has a memory pointer to the array.
+     *
+     * NOTE: this function's cost is `O(n · log(n))` in average and `O(n²)` in the worst case, with n the length of the
+     * array. Using it in view functions that are executed through `eth_call` is safe, but one should be very careful
+     * when executing this as part of a transaction. If the array being sorted is too large, the sort operation may
+     * consume more gas than is available in a block, leading to potential DoS.
+     *
+     * IMPORTANT: Consider memory side-effects when using custom comparator functions that access memory in an unsafe way.
+     */
+    function sort(
+        bytes32[] memory array,
+        function(bytes32, bytes32) pure returns (bool) comp
+    ) internal pure returns (bytes32[] memory) {
+        sort(_castToUint256Array(array), _castToUint256Comp(comp));
+        return array;
+    }
+
+    /**
+     * @dev Variant of {sort} that sorts an array of bytes32 in increasing order.
+     */
+    function sort(bytes32[] memory array) internal pure returns (bytes32[] memory) {
+        sort(_castToUint256Array(array), Comparators.lt);
+        return array;
+    }
+
+    /**
+     * @dev Performs a quick sort of a segment of memory. The segment sorted starts at `begin` (inclusive), and stops
+     * at end (exclusive). Sorting follows the `comp` comparator.
+     *
+     * Invariant: `begin <= end`. This is the case when initially called by {sort} and is preserved in subcalls.
+     *
+     * IMPORTANT: Memory locations between `begin` and `end` are not validated/zeroed. This function should
+     * be used only if the limits are within a memory array.
+     */
+    function _quickSort(uint256 begin, uint256 end, function(uint256, uint256) pure returns (bool) comp) private pure {
+        unchecked {
+            if (end - begin < 0x40) return;
+
+            // Use first element as pivot
+            uint256 pivot = _mload(begin);
+            // Position where the pivot should be at the end of the loop
+            uint256 pos = begin;
+
+            for (uint256 it = begin + 0x20; it < end; it += 0x20) {
+                if (comp(_mload(it), pivot)) {
+                    // If the value stored at the iterator's position comes before the pivot, we increment the
+                    // position of the pivot and move the value there.
+                    pos += 0x20;
+                    _swap(pos, it);
+                }
+            }
+
+            _swap(begin, pos); // Swap pivot into place
+            _quickSort(begin, pos, comp); // Sort the left side of the pivot
+            _quickSort(pos + 0x20, end, comp); // Sort the right side of the pivot
+        }
+    }
+
+    /**
+     * @dev Pointer to the memory location of the first element of `array`.
+     */
+    function _begin(uint256[] memory array) private pure returns (uint256 ptr) {
+        assembly ("memory-safe") {
+            ptr := add(array, 0x20)
+        }
+    }
+
+    /**
+     * @dev Pointer to the memory location of the first memory word (32bytes) after `array`. This is the memory word
+     * that comes just after the last element of the array.
+     */
+    function _end(uint256[] memory array) private pure returns (uint256 ptr) {
+        unchecked {
+            return _begin(array) + array.length * 0x20;
+        }
+    }
+
+    /**
+     * @dev Load memory word (as a uint256) at location `ptr`.
+     */
+    function _mload(uint256 ptr) private pure returns (uint256 value) {
+        assembly {
+            value := mload(ptr)
+        }
+    }
+
+    /**
+     * @dev Swaps the elements memory location `ptr1` and `ptr2`.
+     */
+    function _swap(uint256 ptr1, uint256 ptr2) private pure {
+        assembly {
+            let value1 := mload(ptr1)
+            let value2 := mload(ptr2)
+            mstore(ptr1, value2)
+            mstore(ptr2, value1)
+        }
+    }
+
+    /// @dev Helper: low level cast address memory array to uint256 memory array
+    function _castToUint256Array(address[] memory input) private pure returns (uint256[] memory output) {
+        assembly {
+            output := input
+        }
+    }
+
+    /// @dev Helper: low level cast bytes32 memory array to uint256 memory array
+    function _castToUint256Array(bytes32[] memory input) private pure returns (uint256[] memory output) {
+        assembly {
+            output := input
+        }
+    }
+
+    /// @dev Helper: low level cast address comp function to uint256 comp function
+    function _castToUint256Comp(
+        function(address, address) pure returns (bool) input
+    ) private pure returns (function(uint256, uint256) pure returns (bool) output) {
+        assembly {
+            output := input
+        }
+    }
+
+    /// @dev Helper: low level cast bytes32 comp function to uint256 comp function
+    function _castToUint256Comp(
+        function(bytes32, bytes32) pure returns (bool) input
+    ) private pure returns (function(uint256, uint256) pure returns (bool) output) {
+        assembly {
+            output := input
+        }
+    }
+
+    /**
+     * @dev Searches a sorted `array` and returns the first index that contains
+     * a value greater or equal to `element`. If no such index exists (i.e. all
+     * values in the array are strictly less than `element`), the array length is
+     * returned. Time complexity O(log n).
+     *
+     * NOTE: The `array` is expected to be sorted in ascending order, and to
+     * contain no repeated elements.
+     *
+     * IMPORTANT: Deprecated. This implementation behaves as {lowerBound} but lacks
+     * support for repeated elements in the array. The {lowerBound} function should
+     * be used instead.
+     */
+    function findUpperBound(uint256[] storage array, uint256 element) internal view returns (uint256) {
+        uint256 low = 0;
+        uint256 high = array.length;
+
+        if (high == 0) {
+            return 0;
+        }
+
+        while (low < high) {
+            uint256 mid = Math.average(low, high);
+
+            // Note that mid will always be strictly less than high (i.e. it will be a valid array index)
+            // because Math.average rounds towards zero (it does integer division with truncation).
+            if (unsafeAccess(array, mid).value > element) {
+                high = mid;
+            } else {
+                low = mid + 1;
+            }
+        }
+
+        // At this point `low` is the exclusive upper bound. We will return the inclusive upper bound.
+        if (low > 0 && unsafeAccess(array, low - 1).value == element) {
+            return low - 1;
+        } else {
+            return low;
+        }
+    }
+
+    /**
+     * @dev Searches an `array` sorted in ascending order and returns the first
+     * index that contains a value greater or equal than `element`. If no such index
+     * exists (i.e. all values in the array are strictly less than `element`), the array
+     * length is returned. Time complexity O(log n).
+     *
+     * See C++'s https://en.cppreference.com/w/cpp/algorithm/lower_bound[lower_bound].
+     */
+    function lowerBound(uint256[] storage array, uint256 element) internal view returns (uint256) {
+        uint256 low = 0;
+        uint256 high = array.length;
+
+        if (high == 0) {
+            return 0;
+        }
+
+        while (low < high) {
+            uint256 mid = Math.average(low, high);
+
+            // Note that mid will always be strictly less than high (i.e. it will be a valid array index)
+            // because Math.average rounds towards zero (it does integer division with truncation).
+            if (unsafeAccess(array, mid).value < element) {
+                // this cannot overflow because mid < high
+                unchecked {
+                    low = mid + 1;
+                }
+            } else {
+                high = mid;
+            }
+        }
+
+        return low;
+    }
+
+    /**
+     * @dev Searches an `array` sorted in ascending order and returns the first
+     * index that contains a value strictly greater than `element`. If no such index
+     * exists (i.e. all values in the array are strictly less than `element`), the array
+     * length is returned. Time complexity O(log n).
+     *
+     * See C++'s https://en.cppreference.com/w/cpp/algorithm/upper_bound[upper_bound].
+     */
+    function upperBound(uint256[] storage array, uint256 element) internal view returns (uint256) {
+        uint256 low = 0;
+        uint256 high = array.length;
+
+        if (high == 0) {
+            return 0;
+        }
+
+        while (low < high) {
+            uint256 mid = Math.average(low, high);
+
+            // Note that mid will always be strictly less than high (i.e. it will be a valid array index)
+            // because Math.average rounds towards zero (it does integer division with truncation).
+            if (unsafeAccess(array, mid).value > element) {
+                high = mid;
+            } else {
+                // this cannot overflow because mid < high
+                unchecked {
+                    low = mid + 1;
+                }
+            }
+        }
+
+        return low;
+    }
+
+    /**
+     * @dev Same as {lowerBound}, but with an array in memory.
+     */
+    function lowerBoundMemory(uint256[] memory array, uint256 element) internal pure returns (uint256) {
+        uint256 low = 0;
+        uint256 high = array.length;
+
+        if (high == 0) {
+            return 0;
+        }
+
+        while (low < high) {
+            uint256 mid = Math.average(low, high);
+
+            // Note that mid will always be strictly less than high (i.e. it will be a valid array index)
+            // because Math.average rounds towards zero (it does integer division with truncation).
+            if (unsafeMemoryAccess(array, mid) < element) {
+                // this cannot overflow because mid < high
+                unchecked {
+                    low = mid + 1;
+                }
+            } else {
+                high = mid;
+            }
+        }
+
+        return low;
+    }
+
+    /**
+     * @dev Same as {upperBound}, but with an array in memory.
+     */
+    function upperBoundMemory(uint256[] memory array, uint256 element) internal pure returns (uint256) {
+        uint256 low = 0;
+        uint256 high = array.length;
+
+        if (high == 0) {
+            return 0;
+        }
+
+        while (low < high) {
+            uint256 mid = Math.average(low, high);
+
+            // Note that mid will always be strictly less than high (i.e. it will be a valid array index)
+            // because Math.average rounds towards zero (it does integer division with truncation).
+            if (unsafeMemoryAccess(array, mid) > element) {
+                high = mid;
+            } else {
+                // this cannot overflow because mid < high
+                unchecked {
+                    low = mid + 1;
+                }
+            }
+        }
+
+        return low;
+    }
+
+    /**
+     * @dev Access an array in an "unsafe" way. Skips solidity "index-out-of-range" check.
+     *
+     * WARNING: Only use if you are certain `pos` is lower than the array length.
+     */
+    function unsafeAccess(address[] storage arr, uint256 pos) internal pure returns (StorageSlot.AddressSlot storage) {
+        bytes32 slot;
+        assembly ("memory-safe") {
+            slot := arr.slot
+        }
+        return slot.deriveArray().offset(pos).getAddressSlot();
+    }
+
+    /**
+     * @dev Access an array in an "unsafe" way. Skips solidity "index-out-of-range" check.
+     *
+     * WARNING: Only use if you are certain `pos` is lower than the array length.
+     */
+    function unsafeAccess(bytes32[] storage arr, uint256 pos) internal pure returns (StorageSlot.Bytes32Slot storage) {
+        bytes32 slot;
+        assembly ("memory-safe") {
+            slot := arr.slot
+        }
+        return slot.deriveArray().offset(pos).getBytes32Slot();
+    }
+
+    /**
+     * @dev Access an array in an "unsafe" way. Skips solidity "index-out-of-range" check.
+     *
+     * WARNING: Only use if you are certain `pos` is lower than the array length.
+     */
+    function unsafeAccess(uint256[] storage arr, uint256 pos) internal pure returns (StorageSlot.Uint256Slot storage) {
+        bytes32 slot;
+        assembly ("memory-safe") {
+            slot := arr.slot
+        }
+        return slot.deriveArray().offset(pos).getUint256Slot();
+    }
+
+    /**
+     * @dev Access an array in an "unsafe" way. Skips solidity "index-out-of-range" check.
+     *
+     * WARNING: Only use if you are certain `pos` is lower than the array length.
+     */
+    function unsafeMemoryAccess(address[] memory arr, uint256 pos) internal pure returns (address res) {
+        assembly {
+            res := mload(add(add(arr, 0x20), mul(pos, 0x20)))
+        }
+    }
+
+    /**
+     * @dev Access an array in an "unsafe" way. Skips solidity "index-out-of-range" check.
+     *
+     * WARNING: Only use if you are certain `pos` is lower than the array length.
+     */
+    function unsafeMemoryAccess(bytes32[] memory arr, uint256 pos) internal pure returns (bytes32 res) {
+        assembly {
+            res := mload(add(add(arr, 0x20), mul(pos, 0x20)))
+        }
+    }
+
+    /**
+     * @dev Access an array in an "unsafe" way. Skips solidity "index-out-of-range" check.
+     *
+     * WARNING: Only use if you are certain `pos` is lower than the array length.
+     */
+    function unsafeMemoryAccess(uint256[] memory arr, uint256 pos) internal pure returns (uint256 res) {
+        assembly {
+            res := mload(add(add(arr, 0x20), mul(pos, 0x20)))
+        }
+    }
+
+    /**
+     * @dev Helper to set the length of an dynamic array. Directly writing to `.length` is forbidden.
+     *
+     * WARNING: this does not clear elements if length is reduced, of initialize elements if length is increased.
+     */
+    function unsafeSetLength(address[] storage array, uint256 len) internal {
+        assembly ("memory-safe") {
+            sstore(array.slot, len)
+        }
+    }
+
+    /**
+     * @dev Helper to set the length of an dynamic array. Directly writing to `.length` is forbidden.
+     *
+     * WARNING: this does not clear elements if length is reduced, of initialize elements if length is increased.
+     */
+    function unsafeSetLength(bytes32[] storage array, uint256 len) internal {
+        assembly ("memory-safe") {
+            sstore(array.slot, len)
+        }
+    }
+
+    /**
+     * @dev Helper to set the length of an dynamic array. Directly writing to `.length` is forbidden.
+     *
+     * WARNING: this does not clear elements if length is reduced, of initialize elements if length is increased.
+     */
+    function unsafeSetLength(uint256[] storage array, uint256 len) internal {
+        assembly ("memory-safe") {
+            sstore(array.slot, len)
+        }
+    }
+}
