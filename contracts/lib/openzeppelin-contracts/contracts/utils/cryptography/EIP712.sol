@@ -1,1 +1,160 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodXRpbHMvY3J5cHRvZ3JhcGh5L0VJUDcxMi5zb2wpCgpwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7TWVzc2FnZUhhc2hVdGlsc30gZnJvbSAiLi9NZXNzYWdlSGFzaFV0aWxzLnNvbCI7CmltcG9ydCB7U2hvcnRTdHJpbmdzLCBTaG9ydFN0cmluZ30gZnJvbSAiLi4vU2hvcnRTdHJpbmdzLnNvbCI7CmltcG9ydCB7SUVSQzUyNjd9IGZyb20gIi4uLy4uL2ludGVyZmFjZXMvSUVSQzUyNjcuc29sIjsKCi8qKgogKiBAZGV2IGh0dHBzOi8vZWlwcy5ldGhlcmV1bS5vcmcvRUlQUy9laXAtNzEyW0VJUC03MTJdIGlzIGEgc3RhbmRhcmQgZm9yIGhhc2hpbmcgYW5kIHNpZ25pbmcgb2YgdHlwZWQgc3RydWN0dXJlZCBkYXRhLgogKgogKiBUaGUgZW5jb2Rpbmcgc2NoZW1lIHNwZWNpZmllZCBpbiB0aGUgRUlQIHJlcXVpcmVzIGEgZG9tYWluIHNlcGFyYXRvciBhbmQgYSBoYXNoIG9mIHRoZSB0eXBlZCBzdHJ1Y3R1cmVkIGRhdGEsIHdob3NlCiAqIGVuY29kaW5nIGlzIHZlcnkgZ2VuZXJpYyBhbmQgdGhlcmVmb3JlIGl0cyBpbXBsZW1lbnRhdGlvbiBpbiBTb2xpZGl0eSBpcyBub3QgZmVhc2libGUsIHRodXMgdGhpcyBjb250cmFjdAogKiBkb2VzIG5vdCBpbXBsZW1lbnQgdGhlIGVuY29kaW5nIGl0c2VsZi4gUHJvdG9jb2xzIG5lZWQgdG8gaW1wbGVtZW50IHRoZSB0eXBlLXNwZWNpZmljIGVuY29kaW5nIHRoZXkgbmVlZCBpbiBvcmRlciB0bwogKiBwcm9kdWNlIHRoZSBoYXNoIG9mIHRoZWlyIHR5cGVkIGRhdGEgdXNpbmcgYSBjb21iaW5hdGlvbiBvZiBgYWJpLmVuY29kZWAgYW5kIGBrZWNjYWsyNTZgLgogKgogKiBUaGlzIGNvbnRyYWN0IGltcGxlbWVudHMgdGhlIEVJUC03MTIgZG9tYWluIHNlcGFyYXRvciAoe19kb21haW5TZXBhcmF0b3JWNH0pIHRoYXQgaXMgdXNlZCBhcyBwYXJ0IG9mIHRoZSBlbmNvZGluZwogKiBzY2hlbWUsIGFuZCB0aGUgZmluYWwgc3RlcCBvZiB0aGUgZW5jb2RpbmcgdG8gb2J0YWluIHRoZSBtZXNzYWdlIGRpZ2VzdCB0aGF0IGlzIHRoZW4gc2lnbmVkIHZpYSBFQ0RTQQogKiAoe19oYXNoVHlwZWREYXRhVjR9KS4KICoKICogVGhlIGltcGxlbWVudGF0aW9uIG9mIHRoZSBkb21haW4gc2VwYXJhdG9yIHdhcyBkZXNpZ25lZCB0byBiZSBhcyBlZmZpY2llbnQgYXMgcG9zc2libGUgd2hpbGUgc3RpbGwgcHJvcGVybHkgdXBkYXRpbmcKICogdGhlIGNoYWluIGlkIHRvIHByb3RlY3QgYWdhaW5zdCByZXBsYXkgYXR0YWNrcyBvbiBhbiBldmVudHVhbCBmb3JrIG9mIHRoZSBjaGFpbi4KICoKICogTk9URTogVGhpcyBjb250cmFjdCBpbXBsZW1lbnRzIHRoZSB2ZXJzaW9uIG9mIHRoZSBlbmNvZGluZyBrbm93biBhcyAidjQiLCBhcyBpbXBsZW1lbnRlZCBieSB0aGUgSlNPTiBSUEMgbWV0aG9kCiAqIGh0dHBzOi8vZG9jcy5tZXRhbWFzay5pby9ndWlkZS9zaWduaW5nLWRhdGEuaHRtbFtgZXRoX3NpZ25UeXBlZERhdGFWNGAgaW4gTWV0YU1hc2tdLgogKgogKiBOT1RFOiBJbiB0aGUgdXBncmFkZWFibGUgdmVyc2lvbiBvZiB0aGlzIGNvbnRyYWN0LCB0aGUgY2FjaGVkIHZhbHVlcyB3aWxsIGNvcnJlc3BvbmQgdG8gdGhlIGFkZHJlc3MsIGFuZCB0aGUgZG9tYWluCiAqIHNlcGFyYXRvciBvZiB0aGUgaW1wbGVtZW50YXRpb24gY29udHJhY3QuIFRoaXMgd2lsbCBjYXVzZSB0aGUge19kb21haW5TZXBhcmF0b3JWNH0gZnVuY3Rpb24gdG8gYWx3YXlzIHJlYnVpbGQgdGhlCiAqIHNlcGFyYXRvciBmcm9tIHRoZSBpbW11dGFibGUgdmFsdWVzLCB3aGljaCBpcyBjaGVhcGVyIHRoYW4gYWNjZXNzaW5nIGEgY2FjaGVkIHZlcnNpb24gaW4gY29sZCBzdG9yYWdlLgogKgogKiBAY3VzdG9tOm96LXVwZ3JhZGVzLXVuc2FmZS1hbGxvdyBzdGF0ZS12YXJpYWJsZS1pbW11dGFibGUKICovCmFic3RyYWN0IGNvbnRyYWN0IEVJUDcxMiBpcyBJRVJDNTI2NyB7CiAgICB1c2luZyBTaG9ydFN0cmluZ3MgZm9yICo7CgogICAgYnl0ZXMzMiBwcml2YXRlIGNvbnN0YW50IFRZUEVfSEFTSCA9CiAgICAgICAga2VjY2FrMjU2KCJFSVA3MTJEb21haW4oc3RyaW5nIG5hbWUsc3RyaW5nIHZlcnNpb24sdWludDI1NiBjaGFpbklkLGFkZHJlc3MgdmVyaWZ5aW5nQ29udHJhY3QpIik7CgogICAgLy8gQ2FjaGUgdGhlIGRvbWFpbiBzZXBhcmF0b3IgYXMgYW4gaW1tdXRhYmxlIHZhbHVlLCBidXQgYWxzbyBzdG9yZSB0aGUgY2hhaW4gaWQgdGhhdCBpdCBjb3JyZXNwb25kcyB0bywgaW4gb3JkZXIgdG8KICAgIC8vIGludmFsaWRhdGUgdGhlIGNhY2hlZCBkb21haW4gc2VwYXJhdG9yIGlmIHRoZSBjaGFpbiBpZCBjaGFuZ2VzLgogICAgYnl0ZXMzMiBwcml2YXRlIGltbXV0YWJsZSBfY2FjaGVkRG9tYWluU2VwYXJhdG9yOwogICAgdWludDI1NiBwcml2YXRlIGltbXV0YWJsZSBfY2FjaGVkQ2hhaW5JZDsKICAgIGFkZHJlc3MgcHJpdmF0ZSBpbW11dGFibGUgX2NhY2hlZFRoaXM7CgogICAgYnl0ZXMzMiBwcml2YXRlIGltbXV0YWJsZSBfaGFzaGVkTmFtZTsKICAgIGJ5dGVzMzIgcHJpdmF0ZSBpbW11dGFibGUgX2hhc2hlZFZlcnNpb247CgogICAgU2hvcnRTdHJpbmcgcHJpdmF0ZSBpbW11dGFibGUgX25hbWU7CiAgICBTaG9ydFN0cmluZyBwcml2YXRlIGltbXV0YWJsZSBfdmVyc2lvbjsKICAgIHN0cmluZyBwcml2YXRlIF9uYW1lRmFsbGJhY2s7CiAgICBzdHJpbmcgcHJpdmF0ZSBfdmVyc2lvbkZhbGxiYWNrOwoKICAgIC8qKgogICAgICogQGRldiBJbml0aWFsaXplcyB0aGUgZG9tYWluIHNlcGFyYXRvciBhbmQgcGFyYW1ldGVyIGNhY2hlcy4KICAgICAqCiAgICAgKiBUaGUgbWVhbmluZyBvZiBgbmFtZWAgYW5kIGB2ZXJzaW9uYCBpcyBzcGVjaWZpZWQgaW4KICAgICAqIGh0dHBzOi8vZWlwcy5ldGhlcmV1bS5vcmcvRUlQUy9laXAtNzEyI2RlZmluaXRpb24tb2YtZG9tYWluc2VwYXJhdG9yW0VJUC03MTJdOgogICAgICoKICAgICAqIC0gYG5hbWVgOiB0aGUgdXNlciByZWFkYWJsZSBuYW1lIG9mIHRoZSBzaWduaW5nIGRvbWFpbiwgaS5lLiB0aGUgbmFtZSBvZiB0aGUgREFwcCBvciB0aGUgcHJvdG9jb2wuCiAgICAgKiAtIGB2ZXJzaW9uYDogdGhlIGN1cnJlbnQgbWFqb3IgdmVyc2lvbiBvZiB0aGUgc2lnbmluZyBkb21haW4uCiAgICAgKgogICAgICogTk9URTogVGhlc2UgcGFyYW1ldGVycyBjYW5ub3QgYmUgY2hhbmdlZCBleGNlcHQgdGhyb3VnaCBhIHhyZWY6bGVhcm46OnVwZ3JhZGluZy1zbWFydC1jb250cmFjdHMuYWRvY1tzbWFydAogICAgICogY29udHJhY3QgdXBncmFkZV0uCiAgICAgKi8KICAgIGNvbnN0cnVjdG9yKHN0cmluZyBtZW1vcnkgbmFtZSwgc3RyaW5nIG1lbW9yeSB2ZXJzaW9uKSB7CiAgICAgICAgX25hbWUgPSBuYW1lLnRvU2hvcnRTdHJpbmdXaXRoRmFsbGJhY2soX25hbWVGYWxsYmFjayk7CiAgICAgICAgX3ZlcnNpb24gPSB2ZXJzaW9uLnRvU2hvcnRTdHJpbmdXaXRoRmFsbGJhY2soX3ZlcnNpb25GYWxsYmFjayk7CiAgICAgICAgX2hhc2hlZE5hbWUgPSBrZWNjYWsyNTYoYnl0ZXMobmFtZSkpOwogICAgICAgIF9oYXNoZWRWZXJzaW9uID0ga2VjY2FrMjU2KGJ5dGVzKHZlcnNpb24pKTsKCiAgICAgICAgX2NhY2hlZENoYWluSWQgPSBibG9jay5jaGFpbmlkOwogICAgICAgIF9jYWNoZWREb21haW5TZXBhcmF0b3IgPSBfYnVpbGREb21haW5TZXBhcmF0b3IoKTsKICAgICAgICBfY2FjaGVkVGhpcyA9IGFkZHJlc3ModGhpcyk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIGRvbWFpbiBzZXBhcmF0b3IgZm9yIHRoZSBjdXJyZW50IGNoYWluLgogICAgICovCiAgICBmdW5jdGlvbiBfZG9tYWluU2VwYXJhdG9yVjQoKSBpbnRlcm5hbCB2aWV3IHJldHVybnMgKGJ5dGVzMzIpIHsKICAgICAgICBpZiAoYWRkcmVzcyh0aGlzKSA9PSBfY2FjaGVkVGhpcyAmJiBibG9jay5jaGFpbmlkID09IF9jYWNoZWRDaGFpbklkKSB7CiAgICAgICAgICAgIHJldHVybiBfY2FjaGVkRG9tYWluU2VwYXJhdG9yOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHJldHVybiBfYnVpbGREb21haW5TZXBhcmF0b3IoKTsKICAgICAgICB9CiAgICB9CgogICAgZnVuY3Rpb24gX2J1aWxkRG9tYWluU2VwYXJhdG9yKCkgcHJpdmF0ZSB2aWV3IHJldHVybnMgKGJ5dGVzMzIpIHsKICAgICAgICByZXR1cm4ga2VjY2FrMjU2KGFiaS5lbmNvZGUoVFlQRV9IQVNILCBfaGFzaGVkTmFtZSwgX2hhc2hlZFZlcnNpb24sIGJsb2NrLmNoYWluaWQsIGFkZHJlc3ModGhpcykpKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgR2l2ZW4gYW4gYWxyZWFkeSBodHRwczovL2VpcHMuZXRoZXJldW0ub3JnL0VJUFMvZWlwLTcxMiNkZWZpbml0aW9uLW9mLWhhc2hzdHJ1Y3RbaGFzaGVkIHN0cnVjdF0sIHRoaXMKICAgICAqIGZ1bmN0aW9uIHJldHVybnMgdGhlIGhhc2ggb2YgdGhlIGZ1bGx5IGVuY29kZWQgRUlQNzEyIG1lc3NhZ2UgZm9yIHRoaXMgZG9tYWluLgogICAgICoKICAgICAqIFRoaXMgaGFzaCBjYW4gYmUgdXNlZCB0b2dldGhlciB3aXRoIHtFQ0RTQS1yZWNvdmVyfSB0byBvYnRhaW4gdGhlIHNpZ25lciBvZiBhIG1lc3NhZ2UuIEZvciBleGFtcGxlOgogICAgICoKICAgICAqIGBgYHNvbGlkaXR5CiAgICAgKiBieXRlczMyIGRpZ2VzdCA9IF9oYXNoVHlwZWREYXRhVjQoa2VjY2FrMjU2KGFiaS5lbmNvZGUoCiAgICAgKiAgICAga2VjY2FrMjU2KCJNYWlsKGFkZHJlc3MgdG8sc3RyaW5nIGNvbnRlbnRzKSIpLAogICAgICogICAgIG1haWxUbywKICAgICAqICAgICBrZWNjYWsyNTYoYnl0ZXMobWFpbENvbnRlbnRzKSkKICAgICAqICkpKTsKICAgICAqIGFkZHJlc3Mgc2lnbmVyID0gRUNEU0EucmVjb3ZlcihkaWdlc3QsIHNpZ25hdHVyZSk7CiAgICAgKiBgYGAKICAgICAqLwogICAgZnVuY3Rpb24gX2hhc2hUeXBlZERhdGFWNChieXRlczMyIHN0cnVjdEhhc2gpIGludGVybmFsIHZpZXcgdmlydHVhbCByZXR1cm5zIChieXRlczMyKSB7CiAgICAgICAgcmV0dXJuIE1lc3NhZ2VIYXNoVXRpbHMudG9UeXBlZERhdGFIYXNoKF9kb21haW5TZXBhcmF0b3JWNCgpLCBzdHJ1Y3RIYXNoKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgU2VlIHtJRVJDLTUyNjd9LgogICAgICovCiAgICBmdW5jdGlvbiBlaXA3MTJEb21haW4oKQogICAgICAgIHB1YmxpYwogICAgICAgIHZpZXcKICAgICAgICB2aXJ0dWFsCiAgICAgICAgcmV0dXJucyAoCiAgICAgICAgICAgIGJ5dGVzMSBmaWVsZHMsCiAgICAgICAgICAgIHN0cmluZyBtZW1vcnkgbmFtZSwKICAgICAgICAgICAgc3RyaW5nIG1lbW9yeSB2ZXJzaW9uLAogICAgICAgICAgICB1aW50MjU2IGNoYWluSWQsCiAgICAgICAgICAgIGFkZHJlc3MgdmVyaWZ5aW5nQ29udHJhY3QsCiAgICAgICAgICAgIGJ5dGVzMzIgc2FsdCwKICAgICAgICAgICAgdWludDI1NltdIG1lbW9yeSBleHRlbnNpb25zCiAgICAgICAgKQogICAgewogICAgICAgIHJldHVybiAoCiAgICAgICAgICAgIGhleCIwZiIsIC8vIDAxMTExCiAgICAgICAgICAgIF9FSVA3MTJOYW1lKCksCiAgICAgICAgICAgIF9FSVA3MTJWZXJzaW9uKCksCiAgICAgICAgICAgIGJsb2NrLmNoYWluaWQsCiAgICAgICAgICAgIGFkZHJlc3ModGhpcyksCiAgICAgICAgICAgIGJ5dGVzMzIoMCksCiAgICAgICAgICAgIG5ldyB1aW50MjU2W10oMCkKICAgICAgICApOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBUaGUgbmFtZSBwYXJhbWV0ZXIgZm9yIHRoZSBFSVA3MTIgZG9tYWluLgogICAgICoKICAgICAqIE5PVEU6IEJ5IGRlZmF1bHQgdGhpcyBmdW5jdGlvbiByZWFkcyBfbmFtZSB3aGljaCBpcyBhbiBpbW11dGFibGUgdmFsdWUuCiAgICAgKiBJdCBvbmx5IHJlYWRzIGZyb20gc3RvcmFnZSBpZiBuZWNlc3NhcnkgKGluIGNhc2UgdGhlIHZhbHVlIGlzIHRvbyBsYXJnZSB0byBmaXQgaW4gYSBTaG9ydFN0cmluZykuCiAgICAgKi8KICAgIC8vIHNvbGhpbnQtZGlzYWJsZS1uZXh0LWxpbmUgZnVuYy1uYW1lLW1peGVkY2FzZQogICAgZnVuY3Rpb24gX0VJUDcxMk5hbWUoKSBpbnRlcm5hbCB2aWV3IHJldHVybnMgKHN0cmluZyBtZW1vcnkpIHsKICAgICAgICByZXR1cm4gX25hbWUudG9TdHJpbmdXaXRoRmFsbGJhY2soX25hbWVGYWxsYmFjayk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFRoZSB2ZXJzaW9uIHBhcmFtZXRlciBmb3IgdGhlIEVJUDcxMiBkb21haW4uCiAgICAgKgogICAgICogTk9URTogQnkgZGVmYXVsdCB0aGlzIGZ1bmN0aW9uIHJlYWRzIF92ZXJzaW9uIHdoaWNoIGlzIGFuIGltbXV0YWJsZSB2YWx1ZS4KICAgICAqIEl0IG9ubHkgcmVhZHMgZnJvbSBzdG9yYWdlIGlmIG5lY2Vzc2FyeSAoaW4gY2FzZSB0aGUgdmFsdWUgaXMgdG9vIGxhcmdlIHRvIGZpdCBpbiBhIFNob3J0U3RyaW5nKS4KICAgICAqLwogICAgLy8gc29saGludC1kaXNhYmxlLW5leHQtbGluZSBmdW5jLW5hbWUtbWl4ZWRjYXNlCiAgICBmdW5jdGlvbiBfRUlQNzEyVmVyc2lvbigpIGludGVybmFsIHZpZXcgcmV0dXJucyAoc3RyaW5nIG1lbW9yeSkgewogICAgICAgIHJldHVybiBfdmVyc2lvbi50b1N0cmluZ1dpdGhGYWxsYmFjayhfdmVyc2lvbkZhbGxiYWNrKTsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (utils/cryptography/EIP712.sol)
+
+pragma solidity ^0.8.20;
+
+import {MessageHashUtils} from "./MessageHashUtils.sol";
+import {ShortStrings, ShortString} from "../ShortStrings.sol";
+import {IERC5267} from "../../interfaces/IERC5267.sol";
+
+/**
+ * @dev https://eips.ethereum.org/EIPS/eip-712[EIP-712] is a standard for hashing and signing of typed structured data.
+ *
+ * The encoding scheme specified in the EIP requires a domain separator and a hash of the typed structured data, whose
+ * encoding is very generic and therefore its implementation in Solidity is not feasible, thus this contract
+ * does not implement the encoding itself. Protocols need to implement the type-specific encoding they need in order to
+ * produce the hash of their typed data using a combination of `abi.encode` and `keccak256`.
+ *
+ * This contract implements the EIP-712 domain separator ({_domainSeparatorV4}) that is used as part of the encoding
+ * scheme, and the final step of the encoding to obtain the message digest that is then signed via ECDSA
+ * ({_hashTypedDataV4}).
+ *
+ * The implementation of the domain separator was designed to be as efficient as possible while still properly updating
+ * the chain id to protect against replay attacks on an eventual fork of the chain.
+ *
+ * NOTE: This contract implements the version of the encoding known as "v4", as implemented by the JSON RPC method
+ * https://docs.metamask.io/guide/signing-data.html[`eth_signTypedDataV4` in MetaMask].
+ *
+ * NOTE: In the upgradeable version of this contract, the cached values will correspond to the address, and the domain
+ * separator of the implementation contract. This will cause the {_domainSeparatorV4} function to always rebuild the
+ * separator from the immutable values, which is cheaper than accessing a cached version in cold storage.
+ *
+ * @custom:oz-upgrades-unsafe-allow state-variable-immutable
+ */
+abstract contract EIP712 is IERC5267 {
+    using ShortStrings for *;
+
+    bytes32 private constant TYPE_HASH =
+        keccak256("EIP712Domain(string name,string version,uint256 chainId,address verifyingContract)");
+
+    // Cache the domain separator as an immutable value, but also store the chain id that it corresponds to, in order to
+    // invalidate the cached domain separator if the chain id changes.
+    bytes32 private immutable _cachedDomainSeparator;
+    uint256 private immutable _cachedChainId;
+    address private immutable _cachedThis;
+
+    bytes32 private immutable _hashedName;
+    bytes32 private immutable _hashedVersion;
+
+    ShortString private immutable _name;
+    ShortString private immutable _version;
+    string private _nameFallback;
+    string private _versionFallback;
+
+    /**
+     * @dev Initializes the domain separator and parameter caches.
+     *
+     * The meaning of `name` and `version` is specified in
+     * https://eips.ethereum.org/EIPS/eip-712#definition-of-domainseparator[EIP-712]:
+     *
+     * - `name`: the user readable name of the signing domain, i.e. the name of the DApp or the protocol.
+     * - `version`: the current major version of the signing domain.
+     *
+     * NOTE: These parameters cannot be changed except through a xref:learn::upgrading-smart-contracts.adoc[smart
+     * contract upgrade].
+     */
+    constructor(string memory name, string memory version) {
+        _name = name.toShortStringWithFallback(_nameFallback);
+        _version = version.toShortStringWithFallback(_versionFallback);
+        _hashedName = keccak256(bytes(name));
+        _hashedVersion = keccak256(bytes(version));
+
+        _cachedChainId = block.chainid;
+        _cachedDomainSeparator = _buildDomainSeparator();
+        _cachedThis = address(this);
+    }
+
+    /**
+     * @dev Returns the domain separator for the current chain.
+     */
+    function _domainSeparatorV4() internal view returns (bytes32) {
+        if (address(this) == _cachedThis && block.chainid == _cachedChainId) {
+            return _cachedDomainSeparator;
+        } else {
+            return _buildDomainSeparator();
+        }
+    }
+
+    function _buildDomainSeparator() private view returns (bytes32) {
+        return keccak256(abi.encode(TYPE_HASH, _hashedName, _hashedVersion, block.chainid, address(this)));
+    }
+
+    /**
+     * @dev Given an already https://eips.ethereum.org/EIPS/eip-712#definition-of-hashstruct[hashed struct], this
+     * function returns the hash of the fully encoded EIP712 message for this domain.
+     *
+     * This hash can be used together with {ECDSA-recover} to obtain the signer of a message. For example:
+     *
+     * ```solidity
+     * bytes32 digest = _hashTypedDataV4(keccak256(abi.encode(
+     *     keccak256("Mail(address to,string contents)"),
+     *     mailTo,
+     *     keccak256(bytes(mailContents))
+     * )));
+     * address signer = ECDSA.recover(digest, signature);
+     * ```
+     */
+    function _hashTypedDataV4(bytes32 structHash) internal view virtual returns (bytes32) {
+        return MessageHashUtils.toTypedDataHash(_domainSeparatorV4(), structHash);
+    }
+
+    /**
+     * @dev See {IERC-5267}.
+     */
+    function eip712Domain()
+        public
+        view
+        virtual
+        returns (
+            bytes1 fields,
+            string memory name,
+            string memory version,
+            uint256 chainId,
+            address verifyingContract,
+            bytes32 salt,
+            uint256[] memory extensions
+        )
+    {
+        return (
+            hex"0f", // 01111
+            _EIP712Name(),
+            _EIP712Version(),
+            block.chainid,
+            address(this),
+            bytes32(0),
+            new uint256[](0)
+        );
+    }
+
+    /**
+     * @dev The name parameter for the EIP712 domain.
+     *
+     * NOTE: By default this function reads _name which is an immutable value.
+     * It only reads from storage if necessary (in case the value is too large to fit in a ShortString).
+     */
+    // solhint-disable-next-line func-name-mixedcase
+    function _EIP712Name() internal view returns (string memory) {
+        return _name.toStringWithFallback(_nameFallback);
+    }
+
+    /**
+     * @dev The version parameter for the EIP712 domain.
+     *
+     * NOTE: By default this function reads _version which is an immutable value.
+     * It only reads from storage if necessary (in case the value is too large to fit in a ShortString).
+     */
+    // solhint-disable-next-line func-name-mixedcase
+    function _EIP712Version() internal view returns (string memory) {
+        return _version.toStringWithFallback(_versionFallback);
+    }
+}
