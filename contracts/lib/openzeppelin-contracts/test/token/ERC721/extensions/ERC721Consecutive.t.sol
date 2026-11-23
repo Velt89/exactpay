@@ -1,1 +1,181 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgovLyBzb2xoaW50LWRpc2FibGUgZnVuYy1uYW1lLW1peGVkY2FzZQoKaW1wb3J0IHtFUkM3MjF9IGZyb20gIkBvcGVuemVwcGVsaW4vY29udHJhY3RzL3Rva2VuL0VSQzcyMS9FUkM3MjEuc29sIjsKaW1wb3J0IHtFUkM3MjFDb25zZWN1dGl2ZX0gZnJvbSAiQG9wZW56ZXBwZWxpbi9jb250cmFjdHMvdG9rZW4vRVJDNzIxL2V4dGVuc2lvbnMvRVJDNzIxQ29uc2VjdXRpdmUuc29sIjsKaW1wb3J0IHtUZXN0LCBTdGRVdGlsc30gZnJvbSAiZm9yZ2Utc3RkL1Rlc3Quc29sIjsKCmZ1bmN0aW9uIHRvU2luZ2xldG9uKGFkZHJlc3MgYWNjb3VudCkgcHVyZSByZXR1cm5zIChhZGRyZXNzW10gbWVtb3J5KSB7CiAgICBhZGRyZXNzW10gbWVtb3J5IGFjY291bnRzID0gbmV3IGFkZHJlc3NbXSgxKTsKICAgIGFjY291bnRzWzBdID0gYWNjb3VudDsKICAgIHJldHVybiBhY2NvdW50czsKfQoKY29udHJhY3QgRVJDNzIxQ29uc2VjdXRpdmVUYXJnZXQgaXMgU3RkVXRpbHMsIEVSQzcyMUNvbnNlY3V0aXZlIHsKICAgIHVpbnQ5NiBwcml2YXRlIGltbXV0YWJsZSBfb2Zmc2V0OwogICAgdWludDI1NiBwdWJsaWMgdG90YWxNaW50ZWQgPSAwOwoKICAgIGNvbnN0cnVjdG9yKGFkZHJlc3NbXSBtZW1vcnkgcmVjZWl2ZXJzLCB1aW50MjU2W10gbWVtb3J5IGJhdGNoZXMsIHVpbnQyNTYgc3RhcnRpbmdJZCkgRVJDNzIxKCIiLCAiIikgewogICAgICAgIF9vZmZzZXQgPSB1aW50OTYoc3RhcnRpbmdJZCk7CiAgICAgICAgZm9yICh1aW50MjU2IGkgPSAwOyBpIDwgYmF0Y2hlcy5sZW5ndGg7IGkrKykgewogICAgICAgICAgICBhZGRyZXNzIHJlY2VpdmVyID0gcmVjZWl2ZXJzW2kgJSByZWNlaXZlcnMubGVuZ3RoXTsKICAgICAgICAgICAgdWludDk2IGJhdGNoU2l6ZSA9IHVpbnQ5Nihib3VuZChiYXRjaGVzW2ldLCAwLCBfbWF4QmF0Y2hTaXplKCkpKTsKICAgICAgICAgICAgX21pbnRDb25zZWN1dGl2ZShyZWNlaXZlciwgYmF0Y2hTaXplKTsKICAgICAgICAgICAgdG90YWxNaW50ZWQgKz0gYmF0Y2hTaXplOwogICAgICAgIH0KICAgIH0KCiAgICBmdW5jdGlvbiBidXJuKHVpbnQyNTYgdG9rZW5JZCkgcHVibGljIHsKICAgICAgICBfYnVybih0b2tlbklkKTsKICAgIH0KCiAgICBmdW5jdGlvbiBfZmlyc3RDb25zZWN1dGl2ZUlkKCkgaW50ZXJuYWwgdmlldyB2aXJ0dWFsIG92ZXJyaWRlIHJldHVybnMgKHVpbnQ5NikgewogICAgICAgIHJldHVybiBfb2Zmc2V0OwogICAgfQp9Cgpjb250cmFjdCBFUkM3MjFDb25zZWN1dGl2ZVRlc3QgaXMgVGVzdCB7CiAgICBmdW5jdGlvbiB0ZXN0X2JhbGFuY2UoYWRkcmVzcyByZWNlaXZlciwgdWludDI1NltdIGNhbGxkYXRhIGJhdGNoZXMsIHVpbnQ5NiBzdGFydGluZ0lkKSBwdWJsaWMgewogICAgICAgIHZtLmFzc3VtZShyZWNlaXZlciAhPSBhZGRyZXNzKDApKTsKCiAgICAgICAgdWludDI1NiBzdGFydGluZ1Rva2VuSWQgPSBib3VuZChzdGFydGluZ0lkLCAwLCA1MDAwKTsKCiAgICAgICAgRVJDNzIxQ29uc2VjdXRpdmVUYXJnZXQgdG9rZW4gPSBuZXcgRVJDNzIxQ29uc2VjdXRpdmVUYXJnZXQodG9TaW5nbGV0b24ocmVjZWl2ZXIpLCBiYXRjaGVzLCBzdGFydGluZ1Rva2VuSWQpOwoKICAgICAgICBhc3NlcnRFcSh0b2tlbi5iYWxhbmNlT2YocmVjZWl2ZXIpLCB0b2tlbi50b3RhbE1pbnRlZCgpKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X293bmVyc2hpcCgKICAgICAgICBhZGRyZXNzIHJlY2VpdmVyLAogICAgICAgIHVpbnQyNTZbXSBjYWxsZGF0YSBiYXRjaGVzLAogICAgICAgIHVpbnQyNTZbMl0gY2FsbGRhdGEgdW5ib3VuZGVkVG9rZW5JZCwKICAgICAgICB1aW50OTYgc3RhcnRpbmdJZAogICAgKSBwdWJsaWMgewogICAgICAgIHZtLmFzc3VtZShyZWNlaXZlciAhPSBhZGRyZXNzKDApKTsKCiAgICAgICAgdWludDI1NiBzdGFydGluZ1Rva2VuSWQgPSBib3VuZChzdGFydGluZ0lkLCAwLCA1MDAwKTsKCiAgICAgICAgRVJDNzIxQ29uc2VjdXRpdmVUYXJnZXQgdG9rZW4gPSBuZXcgRVJDNzIxQ29uc2VjdXRpdmVUYXJnZXQodG9TaW5nbGV0b24ocmVjZWl2ZXIpLCBiYXRjaGVzLCBzdGFydGluZ1Rva2VuSWQpOwoKICAgICAgICBpZiAodG9rZW4udG90YWxNaW50ZWQoKSA+IDApIHsKICAgICAgICAgICAgdWludDI1NiB2YWxpZFRva2VuSWQgPSBib3VuZCgKICAgICAgICAgICAgICAgIHVuYm91bmRlZFRva2VuSWRbMF0sCiAgICAgICAgICAgICAgICBzdGFydGluZ1Rva2VuSWQsCiAgICAgICAgICAgICAgICBzdGFydGluZ1Rva2VuSWQgKyB0b2tlbi50b3RhbE1pbnRlZCgpIC0gMQogICAgICAgICAgICApOwogICAgICAgICAgICBhc3NlcnRFcSh0b2tlbi5vd25lck9mKHZhbGlkVG9rZW5JZCksIHJlY2VpdmVyKTsKICAgICAgICB9CgogICAgICAgIHVpbnQyNTYgaW52YWxpZFRva2VuSWQgPSBib3VuZCgKICAgICAgICAgICAgdW5ib3VuZGVkVG9rZW5JZFsxXSwKICAgICAgICAgICAgc3RhcnRpbmdUb2tlbklkICsgdG9rZW4udG90YWxNaW50ZWQoKSwKICAgICAgICAgICAgc3RhcnRpbmdUb2tlbklkICsgdG9rZW4udG90YWxNaW50ZWQoKSArIDEKICAgICAgICApOwogICAgICAgIHZtLmV4cGVjdFJldmVydCgpOwogICAgICAgIHRva2VuLm93bmVyT2YoaW52YWxpZFRva2VuSWQpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfYnVybigKICAgICAgICBhZGRyZXNzIHJlY2VpdmVyLAogICAgICAgIHVpbnQyNTZbXSBjYWxsZGF0YSBiYXRjaGVzLAogICAgICAgIHVpbnQyNTYgdW5ib3VuZGVkVG9rZW5JZCwKICAgICAgICB1aW50OTYgc3RhcnRpbmdJZAogICAgKSBwdWJsaWMgewogICAgICAgIHZtLmFzc3VtZShyZWNlaXZlciAhPSBhZGRyZXNzKDApKTsKCiAgICAgICAgdWludDI1NiBzdGFydGluZ1Rva2VuSWQgPSBib3VuZChzdGFydGluZ0lkLCAwLCA1MDAwKTsKCiAgICAgICAgRVJDNzIxQ29uc2VjdXRpdmVUYXJnZXQgdG9rZW4gPSBuZXcgRVJDNzIxQ29uc2VjdXRpdmVUYXJnZXQodG9TaW5nbGV0b24ocmVjZWl2ZXIpLCBiYXRjaGVzLCBzdGFydGluZ1Rva2VuSWQpOwoKICAgICAgICAvLyBvbmx5IHRlc3QgaWYgd2UgbWludGVkIGF0IGxlYXN0IG9uZSB0b2tlbgogICAgICAgIHVpbnQyNTYgc3VwcGx5ID0gdG9rZW4udG90YWxNaW50ZWQoKTsKICAgICAgICB2bS5hc3N1bWUoc3VwcGx5ID4gMCk7CgogICAgICAgIC8vIGJ1cm4gYSB0b2tlbiBpbiBbMDsgc3VwcGx5WwogICAgICAgIHVpbnQyNTYgdG9rZW5JZCA9IGJvdW5kKHVuYm91bmRlZFRva2VuSWQsIHN0YXJ0aW5nVG9rZW5JZCwgc3RhcnRpbmdUb2tlbklkICsgc3VwcGx5IC0gMSk7CiAgICAgICAgdG9rZW4uYnVybih0b2tlbklkKTsKCiAgICAgICAgLy8gYmFsYW5jZSBzaG91bGQgaGF2ZSBkZWNyZWFzZWQKICAgICAgICBhc3NlcnRFcSh0b2tlbi5iYWxhbmNlT2YocmVjZWl2ZXIpLCBzdXBwbHkgLSAxKTsKCiAgICAgICAgLy8gdG9rZW4gc2hvdWxkIGJlIGJ1cm50CiAgICAgICAgdm0uZXhwZWN0UmV2ZXJ0KCk7CiAgICAgICAgdG9rZW4ub3duZXJPZih0b2tlbklkKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X3RyYW5zZmVyKAogICAgICAgIGFkZHJlc3NbMl0gY2FsbGRhdGEgYWNjb3VudHMsCiAgICAgICAgdWludDI1NlsyXSBjYWxsZGF0YSB1bmJvdW5kZWRCYXRjaGVzLAogICAgICAgIHVpbnQyNTZbMl0gY2FsbGRhdGEgdW5ib3VuZGVkVG9rZW5JZCwKICAgICAgICB1aW50OTYgc3RhcnRpbmdJZAogICAgKSBwdWJsaWMgewogICAgICAgIHZtLmFzc3VtZShhY2NvdW50c1swXSAhPSBhZGRyZXNzKDApKTsKICAgICAgICB2bS5hc3N1bWUoYWNjb3VudHNbMV0gIT0gYWRkcmVzcygwKSk7CiAgICAgICAgdm0uYXNzdW1lKGFjY291bnRzWzBdICE9IGFjY291bnRzWzFdKTsKCiAgICAgICAgdWludDI1NiBzdGFydGluZ1Rva2VuSWQgPSBib3VuZChzdGFydGluZ0lkLCAxLCA1MDAwKTsKCiAgICAgICAgYWRkcmVzc1tdIG1lbW9yeSByZWNlaXZlcnMgPSBuZXcgYWRkcmVzc1tdKDIpOwogICAgICAgIHJlY2VpdmVyc1swXSA9IGFjY291bnRzWzBdOwogICAgICAgIHJlY2VpdmVyc1sxXSA9IGFjY291bnRzWzFdOwoKICAgICAgICAvLyBXZSBhc3N1bWUgX21heEJhdGNoU2l6ZSBpcyA1MDAwICh0aGUgZGVmYXVsdCkuIFRoaXMgdGVzdCB3aWxsIGJyZWFrIG90aGVyd2lzZS4KICAgICAgICB1aW50MjU2W10gbWVtb3J5IGJhdGNoZXMgPSBuZXcgdWludDI1NltdKDIpOwogICAgICAgIGJhdGNoZXNbMF0gPSBib3VuZCh1bmJvdW5kZWRCYXRjaGVzWzBdLCBzdGFydGluZ1Rva2VuSWQsIDUwMDApOwogICAgICAgIGJhdGNoZXNbMV0gPSBib3VuZCh1bmJvdW5kZWRCYXRjaGVzWzFdLCBzdGFydGluZ1Rva2VuSWQsIDUwMDApOwoKICAgICAgICBFUkM3MjFDb25zZWN1dGl2ZVRhcmdldCB0b2tlbiA9IG5ldyBFUkM3MjFDb25zZWN1dGl2ZVRhcmdldChyZWNlaXZlcnMsIGJhdGNoZXMsIHN0YXJ0aW5nVG9rZW5JZCk7CgogICAgICAgIHVpbnQyNTYgdG9rZW5JZDAgPSBib3VuZCh1bmJvdW5kZWRUb2tlbklkWzBdLCBzdGFydGluZ1Rva2VuSWQsIGJhdGNoZXNbMF0pOwogICAgICAgIHVpbnQyNTYgdG9rZW5JZDEgPSBib3VuZCh1bmJvdW5kZWRUb2tlbklkWzFdLCBzdGFydGluZ1Rva2VuSWQsIGJhdGNoZXNbMV0pICsgYmF0Y2hlc1swXTsKCiAgICAgICAgYXNzZXJ0RXEodG9rZW4ub3duZXJPZih0b2tlbklkMCksIGFjY291bnRzWzBdKTsKICAgICAgICBhc3NlcnRFcSh0b2tlbi5vd25lck9mKHRva2VuSWQxKSwgYWNjb3VudHNbMV0pOwogICAgICAgIGFzc2VydEVxKHRva2VuLmJhbGFuY2VPZihhY2NvdW50c1swXSksIGJhdGNoZXNbMF0pOwogICAgICAgIGFzc2VydEVxKHRva2VuLmJhbGFuY2VPZihhY2NvdW50c1sxXSksIGJhdGNoZXNbMV0pOwoKICAgICAgICB2bS5wcmFuayhhY2NvdW50c1swXSk7CiAgICAgICAgdG9rZW4udHJhbnNmZXJGcm9tKGFjY291bnRzWzBdLCBhY2NvdW50c1sxXSwgdG9rZW5JZDApOwoKICAgICAgICBhc3NlcnRFcSh0b2tlbi5vd25lck9mKHRva2VuSWQwKSwgYWNjb3VudHNbMV0pOwogICAgICAgIGFzc2VydEVxKHRva2VuLm93bmVyT2YodG9rZW5JZDEpLCBhY2NvdW50c1sxXSk7CiAgICAgICAgYXNzZXJ0RXEodG9rZW4uYmFsYW5jZU9mKGFjY291bnRzWzBdKSwgYmF0Y2hlc1swXSAtIDEpOwogICAgICAgIGFzc2VydEVxKHRva2VuLmJhbGFuY2VPZihhY2NvdW50c1sxXSksIGJhdGNoZXNbMV0gKyAxKTsKCiAgICAgICAgdm0ucHJhbmsoYWNjb3VudHNbMV0pOwogICAgICAgIHRva2VuLnRyYW5zZmVyRnJvbShhY2NvdW50c1sxXSwgYWNjb3VudHNbMF0sIHRva2VuSWQxKTsKCiAgICAgICAgYXNzZXJ0RXEodG9rZW4ub3duZXJPZih0b2tlbklkMCksIGFjY291bnRzWzFdKTsKICAgICAgICBhc3NlcnRFcSh0b2tlbi5vd25lck9mKHRva2VuSWQxKSwgYWNjb3VudHNbMF0pOwogICAgICAgIGFzc2VydEVxKHRva2VuLmJhbGFuY2VPZihhY2NvdW50c1swXSksIGJhdGNoZXNbMF0pOwogICAgICAgIGFzc2VydEVxKHRva2VuLmJhbGFuY2VPZihhY2NvdW50c1sxXSksIGJhdGNoZXNbMV0pOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3Rfc3RhcnRfY29uc2VjdXRpdmVfaWQoCiAgICAgICAgYWRkcmVzcyByZWNlaXZlciwKICAgICAgICB1aW50MjU2WzJdIGNhbGxkYXRhIHVuYm91bmRlZEJhdGNoZXMsCiAgICAgICAgdWludDI1NlsyXSBjYWxsZGF0YSB1bmJvdW5kZWRUb2tlbklkLAogICAgICAgIHVpbnQ5NiBzdGFydGluZ0lkCiAgICApIHB1YmxpYyB7CiAgICAgICAgdm0uYXNzdW1lKHJlY2VpdmVyICE9IGFkZHJlc3MoMCkpOwoKICAgICAgICB1aW50MjU2IHN0YXJ0aW5nVG9rZW5JZCA9IGJvdW5kKHN0YXJ0aW5nSWQsIDEsIDUwMDApOwoKICAgICAgICAvLyBXZSBhc3N1bWUgX21heEJhdGNoU2l6ZSBpcyA1MDAwICh0aGUgZGVmYXVsdCkuIFRoaXMgdGVzdCB3aWxsIGJyZWFrIG90aGVyd2lzZS4KICAgICAgICB1aW50MjU2W10gbWVtb3J5IGJhdGNoZXMgPSBuZXcgdWludDI1NltdKDIpOwogICAgICAgIGJhdGNoZXNbMF0gPSBib3VuZCh1bmJvdW5kZWRCYXRjaGVzWzBdLCBzdGFydGluZ1Rva2VuSWQsIDUwMDApOwogICAgICAgIGJhdGNoZXNbMV0gPSBib3VuZCh1bmJvdW5kZWRCYXRjaGVzWzFdLCBzdGFydGluZ1Rva2VuSWQsIDUwMDApOwoKICAgICAgICBFUkM3MjFDb25zZWN1dGl2ZVRhcmdldCB0b2tlbiA9IG5ldyBFUkM3MjFDb25zZWN1dGl2ZVRhcmdldCh0b1NpbmdsZXRvbihyZWNlaXZlciksIGJhdGNoZXMsIHN0YXJ0aW5nVG9rZW5JZCk7CgogICAgICAgIHVpbnQyNTYgdG9rZW5JZDAgPSBib3VuZCh1bmJvdW5kZWRUb2tlbklkWzBdLCBzdGFydGluZ1Rva2VuSWQsIGJhdGNoZXNbMF0pOwogICAgICAgIHVpbnQyNTYgdG9rZW5JZDEgPSBib3VuZCh1bmJvdW5kZWRUb2tlbklkWzFdLCBzdGFydGluZ1Rva2VuSWQsIGJhdGNoZXNbMV0pOwoKICAgICAgICBhc3NlcnRFcSh0b2tlbi5vd25lck9mKHRva2VuSWQwKSwgcmVjZWl2ZXIpOwogICAgICAgIGFzc2VydEVxKHRva2VuLm93bmVyT2YodG9rZW5JZDEpLCByZWNlaXZlcik7CiAgICAgICAgYXNzZXJ0RXEodG9rZW4uYmFsYW5jZU9mKHJlY2VpdmVyKSwgYmF0Y2hlc1swXSArIGJhdGNoZXNbMV0pOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+// solhint-disable func-name-mixedcase
+
+import {ERC721} from "@openzeppelin/contracts/token/ERC721/ERC721.sol";
+import {ERC721Consecutive} from "@openzeppelin/contracts/token/ERC721/extensions/ERC721Consecutive.sol";
+import {Test, StdUtils} from "forge-std/Test.sol";
+
+function toSingleton(address account) pure returns (address[] memory) {
+    address[] memory accounts = new address[](1);
+    accounts[0] = account;
+    return accounts;
+}
+
+contract ERC721ConsecutiveTarget is StdUtils, ERC721Consecutive {
+    uint96 private immutable _offset;
+    uint256 public totalMinted = 0;
+
+    constructor(address[] memory receivers, uint256[] memory batches, uint256 startingId) ERC721("", "") {
+        _offset = uint96(startingId);
+        for (uint256 i = 0; i < batches.length; i++) {
+            address receiver = receivers[i % receivers.length];
+            uint96 batchSize = uint96(bound(batches[i], 0, _maxBatchSize()));
+            _mintConsecutive(receiver, batchSize);
+            totalMinted += batchSize;
+        }
+    }
+
+    function burn(uint256 tokenId) public {
+        _burn(tokenId);
+    }
+
+    function _firstConsecutiveId() internal view virtual override returns (uint96) {
+        return _offset;
+    }
+}
+
+contract ERC721ConsecutiveTest is Test {
+    function test_balance(address receiver, uint256[] calldata batches, uint96 startingId) public {
+        vm.assume(receiver != address(0));
+
+        uint256 startingTokenId = bound(startingId, 0, 5000);
+
+        ERC721ConsecutiveTarget token = new ERC721ConsecutiveTarget(toSingleton(receiver), batches, startingTokenId);
+
+        assertEq(token.balanceOf(receiver), token.totalMinted());
+    }
+
+    function test_ownership(
+        address receiver,
+        uint256[] calldata batches,
+        uint256[2] calldata unboundedTokenId,
+        uint96 startingId
+    ) public {
+        vm.assume(receiver != address(0));
+
+        uint256 startingTokenId = bound(startingId, 0, 5000);
+
+        ERC721ConsecutiveTarget token = new ERC721ConsecutiveTarget(toSingleton(receiver), batches, startingTokenId);
+
+        if (token.totalMinted() > 0) {
+            uint256 validTokenId = bound(
+                unboundedTokenId[0],
+                startingTokenId,
+                startingTokenId + token.totalMinted() - 1
+            );
+            assertEq(token.ownerOf(validTokenId), receiver);
+        }
+
+        uint256 invalidTokenId = bound(
+            unboundedTokenId[1],
+            startingTokenId + token.totalMinted(),
+            startingTokenId + token.totalMinted() + 1
+        );
+        vm.expectRevert();
+        token.ownerOf(invalidTokenId);
+    }
+
+    function test_burn(
+        address receiver,
+        uint256[] calldata batches,
+        uint256 unboundedTokenId,
+        uint96 startingId
+    ) public {
+        vm.assume(receiver != address(0));
+
+        uint256 startingTokenId = bound(startingId, 0, 5000);
+
+        ERC721ConsecutiveTarget token = new ERC721ConsecutiveTarget(toSingleton(receiver), batches, startingTokenId);
+
+        // only test if we minted at least one token
+        uint256 supply = token.totalMinted();
+        vm.assume(supply > 0);
+
+        // burn a token in [0; supply[
+        uint256 tokenId = bound(unboundedTokenId, startingTokenId, startingTokenId + supply - 1);
+        token.burn(tokenId);
+
+        // balance should have decreased
+        assertEq(token.balanceOf(receiver), supply - 1);
+
+        // token should be burnt
+        vm.expectRevert();
+        token.ownerOf(tokenId);
+    }
+
+    function test_transfer(
+        address[2] calldata accounts,
+        uint256[2] calldata unboundedBatches,
+        uint256[2] calldata unboundedTokenId,
+        uint96 startingId
+    ) public {
+        vm.assume(accounts[0] != address(0));
+        vm.assume(accounts[1] != address(0));
+        vm.assume(accounts[0] != accounts[1]);
+
+        uint256 startingTokenId = bound(startingId, 1, 5000);
+
+        address[] memory receivers = new address[](2);
+        receivers[0] = accounts[0];
+        receivers[1] = accounts[1];
+
+        // We assume _maxBatchSize is 5000 (the default). This test will break otherwise.
+        uint256[] memory batches = new uint256[](2);
+        batches[0] = bound(unboundedBatches[0], startingTokenId, 5000);
+        batches[1] = bound(unboundedBatches[1], startingTokenId, 5000);
+
+        ERC721ConsecutiveTarget token = new ERC721ConsecutiveTarget(receivers, batches, startingTokenId);
+
+        uint256 tokenId0 = bound(unboundedTokenId[0], startingTokenId, batches[0]);
+        uint256 tokenId1 = bound(unboundedTokenId[1], startingTokenId, batches[1]) + batches[0];
+
+        assertEq(token.ownerOf(tokenId0), accounts[0]);
+        assertEq(token.ownerOf(tokenId1), accounts[1]);
+        assertEq(token.balanceOf(accounts[0]), batches[0]);
+        assertEq(token.balanceOf(accounts[1]), batches[1]);
+
+        vm.prank(accounts[0]);
+        token.transferFrom(accounts[0], accounts[1], tokenId0);
+
+        assertEq(token.ownerOf(tokenId0), accounts[1]);
+        assertEq(token.ownerOf(tokenId1), accounts[1]);
+        assertEq(token.balanceOf(accounts[0]), batches[0] - 1);
+        assertEq(token.balanceOf(accounts[1]), batches[1] + 1);
+
+        vm.prank(accounts[1]);
+        token.transferFrom(accounts[1], accounts[0], tokenId1);
+
+        assertEq(token.ownerOf(tokenId0), accounts[1]);
+        assertEq(token.ownerOf(tokenId1), accounts[0]);
+        assertEq(token.balanceOf(accounts[0]), batches[0]);
+        assertEq(token.balanceOf(accounts[1]), batches[1]);
+    }
+
+    function test_start_consecutive_id(
+        address receiver,
+        uint256[2] calldata unboundedBatches,
+        uint256[2] calldata unboundedTokenId,
+        uint96 startingId
+    ) public {
+        vm.assume(receiver != address(0));
+
+        uint256 startingTokenId = bound(startingId, 1, 5000);
+
+        // We assume _maxBatchSize is 5000 (the default). This test will break otherwise.
+        uint256[] memory batches = new uint256[](2);
+        batches[0] = bound(unboundedBatches[0], startingTokenId, 5000);
+        batches[1] = bound(unboundedBatches[1], startingTokenId, 5000);
+
+        ERC721ConsecutiveTarget token = new ERC721ConsecutiveTarget(toSingleton(receiver), batches, startingTokenId);
+
+        uint256 tokenId0 = bound(unboundedTokenId[0], startingTokenId, batches[0]);
+        uint256 tokenId1 = bound(unboundedTokenId[1], startingTokenId, batches[1]);
+
+        assertEq(token.ownerOf(tokenId0), receiver);
+        assertEq(token.ownerOf(tokenId1), receiver);
+        assertEq(token.balanceOf(receiver), batches[0] + batches[1]);
+    }
+}
