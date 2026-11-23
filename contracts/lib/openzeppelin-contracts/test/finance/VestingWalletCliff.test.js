@@ -1,1 +1,70 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKY29uc3QgeyBtaW4gfSA9IHJlcXVpcmUoJy4uL2hlbHBlcnMvbWF0aCcpOwpjb25zdCB0aW1lID0gcmVxdWlyZSgnLi4vaGVscGVycy90aW1lJyk7Cgpjb25zdCB7IGVudlNldHVwLCBzaG91bGRCZWhhdmVMaWtlVmVzdGluZyB9ID0gcmVxdWlyZSgnLi9WZXN0aW5nV2FsbGV0LmJlaGF2aW9yJyk7Cgphc3luYyBmdW5jdGlvbiBmaXh0dXJlKCkgewogIGNvbnN0IGFtb3VudCA9IGV0aGVycy5wYXJzZUV0aGVyKCcxMDAnKTsKICBjb25zdCBkdXJhdGlvbiA9IHRpbWUuZHVyYXRpb24ueWVhcnMoNCk7CiAgY29uc3Qgc3RhcnQgPSAoYXdhaXQgdGltZS5jbG9jay50aW1lc3RhbXAoKSkgKyB0aW1lLmR1cmF0aW9uLmhvdXJzKDEpOwogIGNvbnN0IGNsaWZmRHVyYXRpb24gPSB0aW1lLmR1cmF0aW9uLnllYXJzKDEpOwogIGNvbnN0IGNsaWZmID0gc3RhcnQgKyBjbGlmZkR1cmF0aW9uOwoKICBjb25zdCBbc2VuZGVyLCBiZW5lZmljaWFyeV0gPSBhd2FpdCBldGhlcnMuZ2V0U2lnbmVycygpOwogIGNvbnN0IG1vY2sgPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJyRWZXN0aW5nV2FsbGV0Q2xpZmYnLCBbYmVuZWZpY2lhcnksIHN0YXJ0LCBkdXJhdGlvbiwgY2xpZmZEdXJhdGlvbl0pOwoKICBjb25zdCB0b2tlbiA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnJEVSQzIwJywgWydOYW1lJywgJ1N5bWJvbCddKTsKICBhd2FpdCB0b2tlbi4kX21pbnQobW9jaywgYW1vdW50KTsKICBhd2FpdCBzZW5kZXIuc2VuZFRyYW5zYWN0aW9uKHsgdG86IG1vY2ssIHZhbHVlOiBhbW91bnQgfSk7CgogIGNvbnN0IGVudiA9IGF3YWl0IGVudlNldHVwKG1vY2ssIGJlbmVmaWNpYXJ5LCB0b2tlbik7CgogIGNvbnN0IHNjaGVkdWxlID0gQXJyYXkuZnJvbSh7IGxlbmd0aDogNjQgfSwgKF8sIGkpID0+IChCaWdJbnQoaSkgKiBkdXJhdGlvbikgLyA2MG4gKyBzdGFydCk7CiAgY29uc3QgdmVzdGluZ0ZuID0gdGltZXN0YW1wID0+IG1pbihhbW91bnQsIHRpbWVzdGFtcCA8IGNsaWZmID8gMG4gOiAoYW1vdW50ICogKHRpbWVzdGFtcCAtIHN0YXJ0KSkgLyBkdXJhdGlvbik7CgogIHJldHVybiB7IG1vY2ssIGR1cmF0aW9uLCBzdGFydCwgYmVuZWZpY2lhcnksIGNsaWZmLCBzY2hlZHVsZSwgdmVzdGluZ0ZuLCBlbnYgfTsKfQoKZGVzY3JpYmUoJ1Zlc3RpbmdXYWxsZXRDbGlmZicsIGZ1bmN0aW9uICgpIHsKICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgIE9iamVjdC5hc3NpZ24odGhpcywgYXdhaXQgbG9hZEZpeHR1cmUoZml4dHVyZSkpOwogIH0pOwoKICBpdCgncmVqZWN0cyBhIGxhcmdlciBjbGlmZiB0aGFuIHZlc3RpbmcgZHVyYXRpb24nLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICBhd2FpdCBleHBlY3QoCiAgICAgIGV0aGVycy5kZXBsb3lDb250cmFjdCgnJFZlc3RpbmdXYWxsZXRDbGlmZicsIFt0aGlzLmJlbmVmaWNpYXJ5LCB0aGlzLnN0YXJ0LCB0aGlzLmR1cmF0aW9uLCB0aGlzLmR1cmF0aW9uICsgMW5dKSwKICAgICkKICAgICAgLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMubW9jaywgJ0ludmFsaWRDbGlmZkR1cmF0aW9uJykKICAgICAgLndpdGhBcmdzKHRoaXMuZHVyYXRpb24gKyAxbiwgdGhpcy5kdXJhdGlvbik7CiAgfSk7CgogIGl0KCdjaGVjayB2ZXN0aW5nIGNvbnRyYWN0JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay5vd25lcigpKS50by5lcXVhbCh0aGlzLmJlbmVmaWNpYXJ5KTsKICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suc3RhcnQoKSkudG8uZXF1YWwodGhpcy5zdGFydCk7CiAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLmR1cmF0aW9uKCkpLnRvLmVxdWFsKHRoaXMuZHVyYXRpb24pOwogICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay5lbmQoKSkudG8uZXF1YWwodGhpcy5zdGFydCArIHRoaXMuZHVyYXRpb24pOwogICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay5jbGlmZigpKS50by5lcXVhbCh0aGlzLmNsaWZmKTsKICB9KTsKCiAgZGVzY3JpYmUoJ3Zlc3Rpbmcgc2NoZWR1bGUnLCBmdW5jdGlvbiAoKSB7CiAgICBkZXNjcmliZSgnRXRoIHZlc3RpbmcnLCBmdW5jdGlvbiAoKSB7CiAgICAgIGJlZm9yZUVhY2goYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIE9iamVjdC5hc3NpZ24odGhpcywgdGhpcy5lbnYuZXRoKTsKICAgICAgfSk7CgogICAgICBzaG91bGRCZWhhdmVMaWtlVmVzdGluZygpOwogICAgfSk7CgogICAgZGVzY3JpYmUoJ0VSQzIwIHZlc3RpbmcnLCBmdW5jdGlvbiAoKSB7CiAgICAgIGJlZm9yZUVhY2goYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIE9iamVjdC5hc3NpZ24odGhpcywgdGhpcy5lbnYudG9rZW4pOwogICAgICB9KTsKCiAgICAgIHNob3VsZEJlaGF2ZUxpa2VWZXN0aW5nKCk7CiAgICB9KTsKICB9KTsKfSk7Cg==
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+const { min } = require('../helpers/math');
+const time = require('../helpers/time');
+
+const { envSetup, shouldBehaveLikeVesting } = require('./VestingWallet.behavior');
+
+async function fixture() {
+  const amount = ethers.parseEther('100');
+  const duration = time.duration.years(4);
+  const start = (await time.clock.timestamp()) + time.duration.hours(1);
+  const cliffDuration = time.duration.years(1);
+  const cliff = start + cliffDuration;
+
+  const [sender, beneficiary] = await ethers.getSigners();
+  const mock = await ethers.deployContract('$VestingWalletCliff', [beneficiary, start, duration, cliffDuration]);
+
+  const token = await ethers.deployContract('$ERC20', ['Name', 'Symbol']);
+  await token.$_mint(mock, amount);
+  await sender.sendTransaction({ to: mock, value: amount });
+
+  const env = await envSetup(mock, beneficiary, token);
+
+  const schedule = Array.from({ length: 64 }, (_, i) => (BigInt(i) * duration) / 60n + start);
+  const vestingFn = timestamp => min(amount, timestamp < cliff ? 0n : (amount * (timestamp - start)) / duration);
+
+  return { mock, duration, start, beneficiary, cliff, schedule, vestingFn, env };
+}
+
+describe('VestingWalletCliff', function () {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  it('rejects a larger cliff than vesting duration', async function () {
+    await expect(
+      ethers.deployContract('$VestingWalletCliff', [this.beneficiary, this.start, this.duration, this.duration + 1n]),
+    )
+      .revertedWithCustomError(this.mock, 'InvalidCliffDuration')
+      .withArgs(this.duration + 1n, this.duration);
+  });
+
+  it('check vesting contract', async function () {
+    expect(await this.mock.owner()).to.equal(this.beneficiary);
+    expect(await this.mock.start()).to.equal(this.start);
+    expect(await this.mock.duration()).to.equal(this.duration);
+    expect(await this.mock.end()).to.equal(this.start + this.duration);
+    expect(await this.mock.cliff()).to.equal(this.cliff);
+  });
+
+  describe('vesting schedule', function () {
+    describe('Eth vesting', function () {
+      beforeEach(async function () {
+        Object.assign(this, this.env.eth);
+      });
+
+      shouldBehaveLikeVesting();
+    });
+
+    describe('ERC20 vesting', function () {
+      beforeEach(async function () {
+        Object.assign(this, this.env.token);
+      });
+
+      shouldBehaveLikeVesting();
+    });
+  });
+});
