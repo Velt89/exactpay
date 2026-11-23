@@ -1,1 +1,161 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAoaW50ZXJmYWNlcy9kcmFmdC1JRVJDNjA5My5zb2wpCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKLyoqCiAqIEBkZXYgU3RhbmRhcmQgRVJDLTIwIEVycm9ycwogKiBJbnRlcmZhY2Ugb2YgdGhlIGh0dHBzOi8vZWlwcy5ldGhlcmV1bS5vcmcvRUlQUy9laXAtNjA5M1tFUkMtNjA5M10gY3VzdG9tIGVycm9ycyBmb3IgRVJDLTIwIHRva2Vucy4KICovCmludGVyZmFjZSBJRVJDMjBFcnJvcnMgewogICAgLyoqCiAgICAgKiBAZGV2IEluZGljYXRlcyBhbiBlcnJvciByZWxhdGVkIHRvIHRoZSBjdXJyZW50IGBiYWxhbmNlYCBvZiBhIGBzZW5kZXJgLiBVc2VkIGluIHRyYW5zZmVycy4KICAgICAqIEBwYXJhbSBzZW5kZXIgQWRkcmVzcyB3aG9zZSB0b2tlbnMgYXJlIGJlaW5nIHRyYW5zZmVycmVkLgogICAgICogQHBhcmFtIGJhbGFuY2UgQ3VycmVudCBiYWxhbmNlIGZvciB0aGUgaW50ZXJhY3RpbmcgYWNjb3VudC4KICAgICAqIEBwYXJhbSBuZWVkZWQgTWluaW11bSBhbW91bnQgcmVxdWlyZWQgdG8gcGVyZm9ybSBhIHRyYW5zZmVyLgogICAgICovCiAgICBlcnJvciBFUkMyMEluc3VmZmljaWVudEJhbGFuY2UoYWRkcmVzcyBzZW5kZXIsIHVpbnQyNTYgYmFsYW5jZSwgdWludDI1NiBuZWVkZWQpOwoKICAgIC8qKgogICAgICogQGRldiBJbmRpY2F0ZXMgYSBmYWlsdXJlIHdpdGggdGhlIHRva2VuIGBzZW5kZXJgLiBVc2VkIGluIHRyYW5zZmVycy4KICAgICAqIEBwYXJhbSBzZW5kZXIgQWRkcmVzcyB3aG9zZSB0b2tlbnMgYXJlIGJlaW5nIHRyYW5zZmVycmVkLgogICAgICovCiAgICBlcnJvciBFUkMyMEludmFsaWRTZW5kZXIoYWRkcmVzcyBzZW5kZXIpOwoKICAgIC8qKgogICAgICogQGRldiBJbmRpY2F0ZXMgYSBmYWlsdXJlIHdpdGggdGhlIHRva2VuIGByZWNlaXZlcmAuIFVzZWQgaW4gdHJhbnNmZXJzLgogICAgICogQHBhcmFtIHJlY2VpdmVyIEFkZHJlc3MgdG8gd2hpY2ggdG9rZW5zIGFyZSBiZWluZyB0cmFuc2ZlcnJlZC4KICAgICAqLwogICAgZXJyb3IgRVJDMjBJbnZhbGlkUmVjZWl2ZXIoYWRkcmVzcyByZWNlaXZlcik7CgogICAgLyoqCiAgICAgKiBAZGV2IEluZGljYXRlcyBhIGZhaWx1cmUgd2l0aCB0aGUgYHNwZW5kZXJg4oCZcyBgYWxsb3dhbmNlYC4gVXNlZCBpbiB0cmFuc2ZlcnMuCiAgICAgKiBAcGFyYW0gc3BlbmRlciBBZGRyZXNzIHRoYXQgbWF5IGJlIGFsbG93ZWQgdG8gb3BlcmF0ZSBvbiB0b2tlbnMgd2l0aG91dCBiZWluZyB0aGVpciBvd25lci4KICAgICAqIEBwYXJhbSBhbGxvd2FuY2UgQW1vdW50IG9mIHRva2VucyBhIGBzcGVuZGVyYCBpcyBhbGxvd2VkIHRvIG9wZXJhdGUgd2l0aC4KICAgICAqIEBwYXJhbSBuZWVkZWQgTWluaW11bSBhbW91bnQgcmVxdWlyZWQgdG8gcGVyZm9ybSBhIHRyYW5zZmVyLgogICAgICovCiAgICBlcnJvciBFUkMyMEluc3VmZmljaWVudEFsbG93YW5jZShhZGRyZXNzIHNwZW5kZXIsIHVpbnQyNTYgYWxsb3dhbmNlLCB1aW50MjU2IG5lZWRlZCk7CgogICAgLyoqCiAgICAgKiBAZGV2IEluZGljYXRlcyBhIGZhaWx1cmUgd2l0aCB0aGUgYGFwcHJvdmVyYCBvZiBhIHRva2VuIHRvIGJlIGFwcHJvdmVkLiBVc2VkIGluIGFwcHJvdmFscy4KICAgICAqIEBwYXJhbSBhcHByb3ZlciBBZGRyZXNzIGluaXRpYXRpbmcgYW4gYXBwcm92YWwgb3BlcmF0aW9uLgogICAgICovCiAgICBlcnJvciBFUkMyMEludmFsaWRBcHByb3ZlcihhZGRyZXNzIGFwcHJvdmVyKTsKCiAgICAvKioKICAgICAqIEBkZXYgSW5kaWNhdGVzIGEgZmFpbHVyZSB3aXRoIHRoZSBgc3BlbmRlcmAgdG8gYmUgYXBwcm92ZWQuIFVzZWQgaW4gYXBwcm92YWxzLgogICAgICogQHBhcmFtIHNwZW5kZXIgQWRkcmVzcyB0aGF0IG1heSBiZSBhbGxvd2VkIHRvIG9wZXJhdGUgb24gdG9rZW5zIHdpdGhvdXQgYmVpbmcgdGhlaXIgb3duZXIuCiAgICAgKi8KICAgIGVycm9yIEVSQzIwSW52YWxpZFNwZW5kZXIoYWRkcmVzcyBzcGVuZGVyKTsKfQoKLyoqCiAqIEBkZXYgU3RhbmRhcmQgRVJDLTcyMSBFcnJvcnMKICogSW50ZXJmYWNlIG9mIHRoZSBodHRwczovL2VpcHMuZXRoZXJldW0ub3JnL0VJUFMvZWlwLTYwOTNbRVJDLTYwOTNdIGN1c3RvbSBlcnJvcnMgZm9yIEVSQy03MjEgdG9rZW5zLgogKi8KaW50ZXJmYWNlIElFUkM3MjFFcnJvcnMgewogICAgLyoqCiAgICAgKiBAZGV2IEluZGljYXRlcyB0aGF0IGFuIGFkZHJlc3MgY2FuJ3QgYmUgYW4gb3duZXIuIEZvciBleGFtcGxlLCBgYWRkcmVzcygwKWAgaXMgYSBmb3JiaWRkZW4gb3duZXIgaW4gRVJDLTIwLgogICAgICogVXNlZCBpbiBiYWxhbmNlIHF1ZXJpZXMuCiAgICAgKiBAcGFyYW0gb3duZXIgQWRkcmVzcyBvZiB0aGUgY3VycmVudCBvd25lciBvZiBhIHRva2VuLgogICAgICovCiAgICBlcnJvciBFUkM3MjFJbnZhbGlkT3duZXIoYWRkcmVzcyBvd25lcik7CgogICAgLyoqCiAgICAgKiBAZGV2IEluZGljYXRlcyBhIGB0b2tlbklkYCB3aG9zZSBgb3duZXJgIGlzIHRoZSB6ZXJvIGFkZHJlc3MuCiAgICAgKiBAcGFyYW0gdG9rZW5JZCBJZGVudGlmaWVyIG51bWJlciBvZiBhIHRva2VuLgogICAgICovCiAgICBlcnJvciBFUkM3MjFOb25leGlzdGVudFRva2VuKHVpbnQyNTYgdG9rZW5JZCk7CgogICAgLyoqCiAgICAgKiBAZGV2IEluZGljYXRlcyBhbiBlcnJvciByZWxhdGVkIHRvIHRoZSBvd25lcnNoaXAgb3ZlciBhIHBhcnRpY3VsYXIgdG9rZW4uIFVzZWQgaW4gdHJhbnNmZXJzLgogICAgICogQHBhcmFtIHNlbmRlciBBZGRyZXNzIHdob3NlIHRva2VucyBhcmUgYmVpbmcgdHJhbnNmZXJyZWQuCiAgICAgKiBAcGFyYW0gdG9rZW5JZCBJZGVudGlmaWVyIG51bWJlciBvZiBhIHRva2VuLgogICAgICogQHBhcmFtIG93bmVyIEFkZHJlc3Mgb2YgdGhlIGN1cnJlbnQgb3duZXIgb2YgYSB0b2tlbi4KICAgICAqLwogICAgZXJyb3IgRVJDNzIxSW5jb3JyZWN0T3duZXIoYWRkcmVzcyBzZW5kZXIsIHVpbnQyNTYgdG9rZW5JZCwgYWRkcmVzcyBvd25lcik7CgogICAgLyoqCiAgICAgKiBAZGV2IEluZGljYXRlcyBhIGZhaWx1cmUgd2l0aCB0aGUgdG9rZW4gYHNlbmRlcmAuIFVzZWQgaW4gdHJhbnNmZXJzLgogICAgICogQHBhcmFtIHNlbmRlciBBZGRyZXNzIHdob3NlIHRva2VucyBhcmUgYmVpbmcgdHJhbnNmZXJyZWQuCiAgICAgKi8KICAgIGVycm9yIEVSQzcyMUludmFsaWRTZW5kZXIoYWRkcmVzcyBzZW5kZXIpOwoKICAgIC8qKgogICAgICogQGRldiBJbmRpY2F0ZXMgYSBmYWlsdXJlIHdpdGggdGhlIHRva2VuIGByZWNlaXZlcmAuIFVzZWQgaW4gdHJhbnNmZXJzLgogICAgICogQHBhcmFtIHJlY2VpdmVyIEFkZHJlc3MgdG8gd2hpY2ggdG9rZW5zIGFyZSBiZWluZyB0cmFuc2ZlcnJlZC4KICAgICAqLwogICAgZXJyb3IgRVJDNzIxSW52YWxpZFJlY2VpdmVyKGFkZHJlc3MgcmVjZWl2ZXIpOwoKICAgIC8qKgogICAgICogQGRldiBJbmRpY2F0ZXMgYSBmYWlsdXJlIHdpdGggdGhlIGBvcGVyYXRvcmDigJlzIGFwcHJvdmFsLiBVc2VkIGluIHRyYW5zZmVycy4KICAgICAqIEBwYXJhbSBvcGVyYXRvciBBZGRyZXNzIHRoYXQgbWF5IGJlIGFsbG93ZWQgdG8gb3BlcmF0ZSBvbiB0b2tlbnMgd2l0aG91dCBiZWluZyB0aGVpciBvd25lci4KICAgICAqIEBwYXJhbSB0b2tlbklkIElkZW50aWZpZXIgbnVtYmVyIG9mIGEgdG9rZW4uCiAgICAgKi8KICAgIGVycm9yIEVSQzcyMUluc3VmZmljaWVudEFwcHJvdmFsKGFkZHJlc3Mgb3BlcmF0b3IsIHVpbnQyNTYgdG9rZW5JZCk7CgogICAgLyoqCiAgICAgKiBAZGV2IEluZGljYXRlcyBhIGZhaWx1cmUgd2l0aCB0aGUgYGFwcHJvdmVyYCBvZiBhIHRva2VuIHRvIGJlIGFwcHJvdmVkLiBVc2VkIGluIGFwcHJvdmFscy4KICAgICAqIEBwYXJhbSBhcHByb3ZlciBBZGRyZXNzIGluaXRpYXRpbmcgYW4gYXBwcm92YWwgb3BlcmF0aW9uLgogICAgICovCiAgICBlcnJvciBFUkM3MjFJbnZhbGlkQXBwcm92ZXIoYWRkcmVzcyBhcHByb3Zlcik7CgogICAgLyoqCiAgICAgKiBAZGV2IEluZGljYXRlcyBhIGZhaWx1cmUgd2l0aCB0aGUgYG9wZXJhdG9yYCB0byBiZSBhcHByb3ZlZC4gVXNlZCBpbiBhcHByb3ZhbHMuCiAgICAgKiBAcGFyYW0gb3BlcmF0b3IgQWRkcmVzcyB0aGF0IG1heSBiZSBhbGxvd2VkIHRvIG9wZXJhdGUgb24gdG9rZW5zIHdpdGhvdXQgYmVpbmcgdGhlaXIgb3duZXIuCiAgICAgKi8KICAgIGVycm9yIEVSQzcyMUludmFsaWRPcGVyYXRvcihhZGRyZXNzIG9wZXJhdG9yKTsKfQoKLyoqCiAqIEBkZXYgU3RhbmRhcmQgRVJDLTExNTUgRXJyb3JzCiAqIEludGVyZmFjZSBvZiB0aGUgaHR0cHM6Ly9laXBzLmV0aGVyZXVtLm9yZy9FSVBTL2VpcC02MDkzW0VSQy02MDkzXSBjdXN0b20gZXJyb3JzIGZvciBFUkMtMTE1NSB0b2tlbnMuCiAqLwppbnRlcmZhY2UgSUVSQzExNTVFcnJvcnMgewogICAgLyoqCiAgICAgKiBAZGV2IEluZGljYXRlcyBhbiBlcnJvciByZWxhdGVkIHRvIHRoZSBjdXJyZW50IGBiYWxhbmNlYCBvZiBhIGBzZW5kZXJgLiBVc2VkIGluIHRyYW5zZmVycy4KICAgICAqIEBwYXJhbSBzZW5kZXIgQWRkcmVzcyB3aG9zZSB0b2tlbnMgYXJlIGJlaW5nIHRyYW5zZmVycmVkLgogICAgICogQHBhcmFtIGJhbGFuY2UgQ3VycmVudCBiYWxhbmNlIGZvciB0aGUgaW50ZXJhY3RpbmcgYWNjb3VudC4KICAgICAqIEBwYXJhbSBuZWVkZWQgTWluaW11bSBhbW91bnQgcmVxdWlyZWQgdG8gcGVyZm9ybSBhIHRyYW5zZmVyLgogICAgICogQHBhcmFtIHRva2VuSWQgSWRlbnRpZmllciBudW1iZXIgb2YgYSB0b2tlbi4KICAgICAqLwogICAgZXJyb3IgRVJDMTE1NUluc3VmZmljaWVudEJhbGFuY2UoYWRkcmVzcyBzZW5kZXIsIHVpbnQyNTYgYmFsYW5jZSwgdWludDI1NiBuZWVkZWQsIHVpbnQyNTYgdG9rZW5JZCk7CgogICAgLyoqCiAgICAgKiBAZGV2IEluZGljYXRlcyBhIGZhaWx1cmUgd2l0aCB0aGUgdG9rZW4gYHNlbmRlcmAuIFVzZWQgaW4gdHJhbnNmZXJzLgogICAgICogQHBhcmFtIHNlbmRlciBBZGRyZXNzIHdob3NlIHRva2VucyBhcmUgYmVpbmcgdHJhbnNmZXJyZWQuCiAgICAgKi8KICAgIGVycm9yIEVSQzExNTVJbnZhbGlkU2VuZGVyKGFkZHJlc3Mgc2VuZGVyKTsKCiAgICAvKioKICAgICAqIEBkZXYgSW5kaWNhdGVzIGEgZmFpbHVyZSB3aXRoIHRoZSB0b2tlbiBgcmVjZWl2ZXJgLiBVc2VkIGluIHRyYW5zZmVycy4KICAgICAqIEBwYXJhbSByZWNlaXZlciBBZGRyZXNzIHRvIHdoaWNoIHRva2VucyBhcmUgYmVpbmcgdHJhbnNmZXJyZWQuCiAgICAgKi8KICAgIGVycm9yIEVSQzExNTVJbnZhbGlkUmVjZWl2ZXIoYWRkcmVzcyByZWNlaXZlcik7CgogICAgLyoqCiAgICAgKiBAZGV2IEluZGljYXRlcyBhIGZhaWx1cmUgd2l0aCB0aGUgYG9wZXJhdG9yYOKAmXMgYXBwcm92YWwuIFVzZWQgaW4gdHJhbnNmZXJzLgogICAgICogQHBhcmFtIG9wZXJhdG9yIEFkZHJlc3MgdGhhdCBtYXkgYmUgYWxsb3dlZCB0byBvcGVyYXRlIG9uIHRva2VucyB3aXRob3V0IGJlaW5nIHRoZWlyIG93bmVyLgogICAgICogQHBhcmFtIG93bmVyIEFkZHJlc3Mgb2YgdGhlIGN1cnJlbnQgb3duZXIgb2YgYSB0b2tlbi4KICAgICAqLwogICAgZXJyb3IgRVJDMTE1NU1pc3NpbmdBcHByb3ZhbEZvckFsbChhZGRyZXNzIG9wZXJhdG9yLCBhZGRyZXNzIG93bmVyKTsKCiAgICAvKioKICAgICAqIEBkZXYgSW5kaWNhdGVzIGEgZmFpbHVyZSB3aXRoIHRoZSBgYXBwcm92ZXJgIG9mIGEgdG9rZW4gdG8gYmUgYXBwcm92ZWQuIFVzZWQgaW4gYXBwcm92YWxzLgogICAgICogQHBhcmFtIGFwcHJvdmVyIEFkZHJlc3MgaW5pdGlhdGluZyBhbiBhcHByb3ZhbCBvcGVyYXRpb24uCiAgICAgKi8KICAgIGVycm9yIEVSQzExNTVJbnZhbGlkQXBwcm92ZXIoYWRkcmVzcyBhcHByb3Zlcik7CgogICAgLyoqCiAgICAgKiBAZGV2IEluZGljYXRlcyBhIGZhaWx1cmUgd2l0aCB0aGUgYG9wZXJhdG9yYCB0byBiZSBhcHByb3ZlZC4gVXNlZCBpbiBhcHByb3ZhbHMuCiAgICAgKiBAcGFyYW0gb3BlcmF0b3IgQWRkcmVzcyB0aGF0IG1heSBiZSBhbGxvd2VkIHRvIG9wZXJhdGUgb24gdG9rZW5zIHdpdGhvdXQgYmVpbmcgdGhlaXIgb3duZXIuCiAgICAgKi8KICAgIGVycm9yIEVSQzExNTVJbnZhbGlkT3BlcmF0b3IoYWRkcmVzcyBvcGVyYXRvcik7CgogICAgLyoqCiAgICAgKiBAZGV2IEluZGljYXRlcyBhbiBhcnJheSBsZW5ndGggbWlzbWF0Y2ggYmV0d2VlbiBpZHMgYW5kIHZhbHVlcyBpbiBhIHNhZmVCYXRjaFRyYW5zZmVyRnJvbSBvcGVyYXRpb24uCiAgICAgKiBVc2VkIGluIGJhdGNoIHRyYW5zZmVycy4KICAgICAqIEBwYXJhbSBpZHNMZW5ndGggTGVuZ3RoIG9mIHRoZSBhcnJheSBvZiB0b2tlbiBpZGVudGlmaWVycwogICAgICogQHBhcmFtIHZhbHVlc0xlbmd0aCBMZW5ndGggb2YgdGhlIGFycmF5IG9mIHRva2VuIGFtb3VudHMKICAgICAqLwogICAgZXJyb3IgRVJDMTE1NUludmFsaWRBcnJheUxlbmd0aCh1aW50MjU2IGlkc0xlbmd0aCwgdWludDI1NiB2YWx1ZXNMZW5ndGgpOwp9Cg==
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (interfaces/draft-IERC6093.sol)
+pragma solidity ^0.8.20;
+
+/**
+ * @dev Standard ERC-20 Errors
+ * Interface of the https://eips.ethereum.org/EIPS/eip-6093[ERC-6093] custom errors for ERC-20 tokens.
+ */
+interface IERC20Errors {
+    /**
+     * @dev Indicates an error related to the current `balance` of a `sender`. Used in transfers.
+     * @param sender Address whose tokens are being transferred.
+     * @param balance Current balance for the interacting account.
+     * @param needed Minimum amount required to perform a transfer.
+     */
+    error ERC20InsufficientBalance(address sender, uint256 balance, uint256 needed);
+
+    /**
+     * @dev Indicates a failure with the token `sender`. Used in transfers.
+     * @param sender Address whose tokens are being transferred.
+     */
+    error ERC20InvalidSender(address sender);
+
+    /**
+     * @dev Indicates a failure with the token `receiver`. Used in transfers.
+     * @param receiver Address to which tokens are being transferred.
+     */
+    error ERC20InvalidReceiver(address receiver);
+
+    /**
+     * @dev Indicates a failure with the `spender`’s `allowance`. Used in transfers.
+     * @param spender Address that may be allowed to operate on tokens without being their owner.
+     * @param allowance Amount of tokens a `spender` is allowed to operate with.
+     * @param needed Minimum amount required to perform a transfer.
+     */
+    error ERC20InsufficientAllowance(address spender, uint256 allowance, uint256 needed);
+
+    /**
+     * @dev Indicates a failure with the `approver` of a token to be approved. Used in approvals.
+     * @param approver Address initiating an approval operation.
+     */
+    error ERC20InvalidApprover(address approver);
+
+    /**
+     * @dev Indicates a failure with the `spender` to be approved. Used in approvals.
+     * @param spender Address that may be allowed to operate on tokens without being their owner.
+     */
+    error ERC20InvalidSpender(address spender);
+}
+
+/**
+ * @dev Standard ERC-721 Errors
+ * Interface of the https://eips.ethereum.org/EIPS/eip-6093[ERC-6093] custom errors for ERC-721 tokens.
+ */
+interface IERC721Errors {
+    /**
+     * @dev Indicates that an address can't be an owner. For example, `address(0)` is a forbidden owner in ERC-20.
+     * Used in balance queries.
+     * @param owner Address of the current owner of a token.
+     */
+    error ERC721InvalidOwner(address owner);
+
+    /**
+     * @dev Indicates a `tokenId` whose `owner` is the zero address.
+     * @param tokenId Identifier number of a token.
+     */
+    error ERC721NonexistentToken(uint256 tokenId);
+
+    /**
+     * @dev Indicates an error related to the ownership over a particular token. Used in transfers.
+     * @param sender Address whose tokens are being transferred.
+     * @param tokenId Identifier number of a token.
+     * @param owner Address of the current owner of a token.
+     */
+    error ERC721IncorrectOwner(address sender, uint256 tokenId, address owner);
+
+    /**
+     * @dev Indicates a failure with the token `sender`. Used in transfers.
+     * @param sender Address whose tokens are being transferred.
+     */
+    error ERC721InvalidSender(address sender);
+
+    /**
+     * @dev Indicates a failure with the token `receiver`. Used in transfers.
+     * @param receiver Address to which tokens are being transferred.
+     */
+    error ERC721InvalidReceiver(address receiver);
+
+    /**
+     * @dev Indicates a failure with the `operator`’s approval. Used in transfers.
+     * @param operator Address that may be allowed to operate on tokens without being their owner.
+     * @param tokenId Identifier number of a token.
+     */
+    error ERC721InsufficientApproval(address operator, uint256 tokenId);
+
+    /**
+     * @dev Indicates a failure with the `approver` of a token to be approved. Used in approvals.
+     * @param approver Address initiating an approval operation.
+     */
+    error ERC721InvalidApprover(address approver);
+
+    /**
+     * @dev Indicates a failure with the `operator` to be approved. Used in approvals.
+     * @param operator Address that may be allowed to operate on tokens without being their owner.
+     */
+    error ERC721InvalidOperator(address operator);
+}
+
+/**
+ * @dev Standard ERC-1155 Errors
+ * Interface of the https://eips.ethereum.org/EIPS/eip-6093[ERC-6093] custom errors for ERC-1155 tokens.
+ */
+interface IERC1155Errors {
+    /**
+     * @dev Indicates an error related to the current `balance` of a `sender`. Used in transfers.
+     * @param sender Address whose tokens are being transferred.
+     * @param balance Current balance for the interacting account.
+     * @param needed Minimum amount required to perform a transfer.
+     * @param tokenId Identifier number of a token.
+     */
+    error ERC1155InsufficientBalance(address sender, uint256 balance, uint256 needed, uint256 tokenId);
+
+    /**
+     * @dev Indicates a failure with the token `sender`. Used in transfers.
+     * @param sender Address whose tokens are being transferred.
+     */
+    error ERC1155InvalidSender(address sender);
+
+    /**
+     * @dev Indicates a failure with the token `receiver`. Used in transfers.
+     * @param receiver Address to which tokens are being transferred.
+     */
+    error ERC1155InvalidReceiver(address receiver);
+
+    /**
+     * @dev Indicates a failure with the `operator`’s approval. Used in transfers.
+     * @param operator Address that may be allowed to operate on tokens without being their owner.
+     * @param owner Address of the current owner of a token.
+     */
+    error ERC1155MissingApprovalForAll(address operator, address owner);
+
+    /**
+     * @dev Indicates a failure with the `approver` of a token to be approved. Used in approvals.
+     * @param approver Address initiating an approval operation.
+     */
+    error ERC1155InvalidApprover(address approver);
+
+    /**
+     * @dev Indicates a failure with the `operator` to be approved. Used in approvals.
+     * @param operator Address that may be allowed to operate on tokens without being their owner.
+     */
+    error ERC1155InvalidOperator(address operator);
+
+    /**
+     * @dev Indicates an array length mismatch between ids and values in a safeBatchTransferFrom operation.
+     * Used in batch transfers.
+     * @param idsLength Length of the array of token identifiers
+     * @param valuesLength Length of the array of token amounts
+     */
+    error ERC1155InvalidArrayLength(uint256 idsLength, uint256 valuesLength);
+}
