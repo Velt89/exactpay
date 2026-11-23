@@ -1,1 +1,17 @@
-Ly8gY29udHJhY3RzL0FjY2Vzc0NvbnRyb2xOb25SZXZva2FibGVBZG1pbi5zb2wKLy8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7QWNjZXNzQ29udHJvbH0gZnJvbSAiLi4vLi4vLi4vYWNjZXNzL0FjY2Vzc0NvbnRyb2wuc29sIjsKCmNvbnRyYWN0IEFjY2Vzc0NvbnRyb2xOb25SZXZva2FibGVBZG1pbiBpcyBBY2Nlc3NDb250cm9sIHsKICAgIGVycm9yIEFjY2Vzc0NvbnRyb2xOb25SZXZva2FibGUoKTsKCiAgICBmdW5jdGlvbiByZXZva2VSb2xlKGJ5dGVzMzIgcm9sZSwgYWRkcmVzcyBhY2NvdW50KSBwdWJsaWMgb3ZlcnJpZGUgewogICAgICAgIGlmIChyb2xlID09IERFRkFVTFRfQURNSU5fUk9MRSkgewogICAgICAgICAgICByZXZlcnQgQWNjZXNzQ29udHJvbE5vblJldm9rYWJsZSgpOwogICAgICAgIH0KCiAgICAgICAgc3VwZXIucmV2b2tlUm9sZShyb2xlLCBhY2NvdW50KTsKICAgIH0KfQo=
+// contracts/AccessControlNonRevokableAdmin.sol
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+import {AccessControl} from "../../../access/AccessControl.sol";
+
+contract AccessControlNonRevokableAdmin is AccessControl {
+    error AccessControlNonRevokable();
+
+    function revokeRole(bytes32 role, address account) public override {
+        if (role == DEFAULT_ADMIN_ROLE) {
+            revert AccessControlNonRevokable();
+        }
+
+        super.revokeRole(role, account);
+    }
+}
