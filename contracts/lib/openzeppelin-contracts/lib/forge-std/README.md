@@ -1,1 +1,250 @@
-IyBGb3JnZSBTdGFuZGFyZCBMaWJyYXJ5IOKAoiBbIVtDSSBzdGF0dXNdKGh0dHBzOi8vZ2l0aHViLmNvbS9mb3VuZHJ5LXJzL2ZvcmdlLXN0ZC9hY3Rpb25zL3dvcmtmbG93cy9jaS55bWwvYmFkZ2Uuc3ZnKV0oaHR0cHM6Ly9naXRodWIuY29tL2ZvdW5kcnktcnMvZm9yZ2Utc3RkL2FjdGlvbnMvd29ya2Zsb3dzL2NpLnltbCkKCkZvcmdlIFN0YW5kYXJkIExpYnJhcnkgaXMgYSBjb2xsZWN0aW9uIG9mIGhlbHBmdWwgY29udHJhY3RzIGFuZCBsaWJyYXJpZXMgZm9yIHVzZSB3aXRoIFtGb3JnZSBhbmQgRm91bmRyeV0oaHR0cHM6Ly9naXRodWIuY29tL2ZvdW5kcnktcnMvZm91bmRyeSkuIEl0IGxldmVyYWdlcyBGb3JnZSdzIGNoZWF0Y29kZXMgdG8gbWFrZSB3cml0aW5nIHRlc3RzIGVhc2llciBhbmQgZmFzdGVyLCB3aGlsZSBpbXByb3ZpbmcgdGhlIFVYIG9mIGNoZWF0Y29kZXMuCgoqKkxlYXJuIGhvdyB0byB1c2UgRm9yZ2UtU3RkIHdpdGggdGhlIFvwn5OWIEZvdW5kcnkgQm9vayAoRm9yZ2UtU3RkIEd1aWRlKV0oaHR0cHM6Ly9ib29rLmdldGZvdW5kcnkuc2gvZm9yZ2UvZm9yZ2Utc3RkLmh0bWwpLioqCgojIyBJbnN0YWxsCgpgYGBiYXNoCmZvcmdlIGluc3RhbGwgZm91bmRyeS1ycy9mb3JnZS1zdGQKYGBgCgojIyBDb250cmFjdHMKIyMjIHN0ZEVycm9yCgpUaGlzIGlzIGEgaGVscGVyIGNvbnRyYWN0IGZvciBlcnJvcnMgYW5kIHJldmVydHMuIEluIEZvcmdlLCB0aGlzIGNvbnRyYWN0IGlzIHBhcnRpY3VsYXJseSBoZWxwZnVsIGZvciB0aGUgYGV4cGVjdFJldmVydGAgY2hlYXRjb2RlLCBhcyBpdCBwcm92aWRlcyBhbGwgY29tcGlsZXIgYnVpbHRpbiBlcnJvcnMuCgpTZWUgdGhlIGNvbnRyYWN0IGl0c2VsZiBmb3IgYWxsIGVycm9yIGNvZGVzLgoKIyMjIyBFeGFtcGxlIHVzYWdlCgpgYGBzb2xpZGl0eQoKaW1wb3J0ICJmb3JnZS1zdGQvVGVzdC5zb2wiOwoKY29udHJhY3QgVGVzdENvbnRyYWN0IGlzIFRlc3QgewogICAgRXJyb3JzVGVzdCB0ZXN0OwoKICAgIGZ1bmN0aW9uIHNldFVwKCkgcHVibGljIHsKICAgICAgICB0ZXN0ID0gbmV3IEVycm9yc1Rlc3QoKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0RXhwZWN0QXJpdGhtZXRpYygpIHB1YmxpYyB7CiAgICAgICAgdm0uZXhwZWN0UmV2ZXJ0KHN0ZEVycm9yLmFyaXRobWV0aWNFcnJvcik7CiAgICAgICAgdGVzdC5hcml0aG1ldGljRXJyb3IoMTApOwogICAgfQp9Cgpjb250cmFjdCBFcnJvcnNUZXN0IHsKICAgIGZ1bmN0aW9uIGFyaXRobWV0aWNFcnJvcih1aW50MjU2IGEpIHB1YmxpYyB7CiAgICAgICAgdWludDI1NiBhID0gYSAtIDEwMDsKICAgIH0KfQpgYGAKCiMjIyBzdGRTdG9yYWdlCgpUaGlzIGlzIGEgcmF0aGVyIGxhcmdlIGNvbnRyYWN0IGR1ZSB0byBhbGwgb2YgdGhlIG92ZXJsb2FkaW5nIHRvIG1ha2UgdGhlIFVYIGRlY2VudC4gUHJpbWFyaWx5LCBpdCBpcyBhIHdyYXBwZXIgYXJvdW5kIHRoZSBgcmVjb3JkYCBhbmQgYGFjY2Vzc2VzYCBjaGVhdGNvZGVzLiBJdCBjYW4gKmFsd2F5cyogZmluZCBhbmQgd3JpdGUgdGhlIHN0b3JhZ2Ugc2xvdChzKSBhc3NvY2lhdGVkIHdpdGggYSBwYXJ0aWN1bGFyIHZhcmlhYmxlIHdpdGhvdXQga25vd2luZyB0aGUgc3RvcmFnZSBsYXlvdXQuIFRoZSBvbmUgX21ham9yXyBjYXZlYXQgdG8gdGhpcyBpcyB3aGlsZSBhIHNsb3QgY2FuIGJlIGZvdW5kIGZvciBwYWNrZWQgc3RvcmFnZSB2YXJpYWJsZXMsIHdlIGNhbid0IHdyaXRlIHRvIHRoYXQgdmFyaWFibGUgc2FmZWx5LiBJZiBhIHVzZXIgdHJpZXMgdG8gd3JpdGUgdG8gYSBwYWNrZWQgc2xvdCwgdGhlIGV4ZWN1dGlvbiB0aHJvd3MgYW4gZXJyb3IsIHVubGVzcyBpdCBpcyB1bmluaXRpYWxpemVkIChgYnl0ZXMzMigwKWApLgoKVGhpcyB3b3JrcyBieSByZWNvcmRpbmcgYWxsIGBTTE9BRGBzIGFuZCBgU1NUT1JFYHMgZHVyaW5nIGEgZnVuY3Rpb24gY2FsbC4gSWYgdGhlcmUgaXMgYSBzaW5nbGUgc2xvdCByZWFkIG9yIHdyaXR0ZW4gdG8sIGl0IGltbWVkaWF0ZWx5IHJldHVybnMgdGhlIHNsb3QuIE90aGVyd2lzZSwgYmVoaW5kIHRoZSBzY2VuZXMsIHdlIGl0ZXJhdGUgdGhyb3VnaCBhbmQgY2hlY2sgZWFjaCBvbmUgKGFzc3VtaW5nIHRoZSB1c2VyIHBhc3NlZCBpbiBhIGBkZXB0aGAgcGFyYW1ldGVyKS4gSWYgdGhlIHZhcmlhYmxlIGlzIGEgc3RydWN0LCB5b3UgY2FuIHBhc3MgaW4gYSBgZGVwdGhgIHBhcmFtZXRlciB3aGljaCBpcyBiYXNpY2FsbHkgdGhlIGZpZWxkIGRlcHRoLgoKSS5lLjoKYGBgc29saWRpdHkKc3RydWN0IFQgewogICAgLy8gZGVwdGggMAogICAgdWludDI1NiBhOwogICAgLy8gZGVwdGggMQogICAgdWludDI1NiBiOwp9CmBgYAoKIyMjIyBFeGFtcGxlIHVzYWdlCgpgYGBzb2xpZGl0eQppbXBvcnQgImZvcmdlLXN0ZC9UZXN0LnNvbCI7Cgpjb250cmFjdCBUZXN0Q29udHJhY3QgaXMgVGVzdCB7CiAgICB1c2luZyBzdGRTdG9yYWdlIGZvciBTdGRTdG9yYWdlOwoKICAgIFN0b3JhZ2UgdGVzdDsKCiAgICBmdW5jdGlvbiBzZXRVcCgpIHB1YmxpYyB7CiAgICAgICAgdGVzdCA9IG5ldyBTdG9yYWdlKCk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdEZpbmRFeGlzdHMoKSBwdWJsaWMgewogICAgICAgIC8vIExldHMgc2F5IHdlIHdhbnQgdG8gZmluZCB0aGUgc2xvdCBmb3IgdGhlIHB1YmxpYwogICAgICAgIC8vIHZhcmlhYmxlIGBleGlzdHNgLiBXZSBqdXN0IHBhc3MgaW4gdGhlIGZ1bmN0aW9uIHNlbGVjdG9yCiAgICAgICAgLy8gdG8gdGhlIGBmaW5kYCBjb21tYW5kCiAgICAgICAgdWludDI1NiBzbG90ID0gc3Rkc3RvcmUudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZygiZXhpc3RzKCkiKS5maW5kKCk7CiAgICAgICAgYXNzZXJ0RXEoc2xvdCwgMCk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdFdyaXRlRXhpc3RzKCkgcHVibGljIHsKICAgICAgICAvLyBMZXRzIHNheSB3ZSB3YW50IHRvIHdyaXRlIHRvIHRoZSBzbG90IGZvciB0aGUgcHVibGljCiAgICAgICAgLy8gdmFyaWFibGUgYGV4aXN0c2AuIFdlIGp1c3QgcGFzcyBpbiB0aGUgZnVuY3Rpb24gc2VsZWN0b3IKICAgICAgICAvLyB0byB0aGUgYGNoZWNrZWRfd3JpdGVgIGNvbW1hbmQKICAgICAgICBzdGRzdG9yZS50YXJnZXQoYWRkcmVzcyh0ZXN0KSkuc2lnKCJleGlzdHMoKSIpLmNoZWNrZWRfd3JpdGUoMTAwKTsKICAgICAgICBhc3NlcnRFcSh0ZXN0LmV4aXN0cygpLCAxMDApOwogICAgfQoKICAgIC8vIEl0IHN1cHBvcnRzIGFyYml0cmFyeSBzdG9yYWdlIGxheW91dHMsIGxpa2UgYXNzZW1ibHkgYmFzZWQgc3RvcmFnZSBsb2NhdGlvbnMKICAgIGZ1bmN0aW9uIHRlc3RGaW5kSGlkZGVuKCkgcHVibGljIHsKICAgICAgICAvLyBgaGlkZGVuYCBpcyBhIHJhbmRvbSBoYXNoIG9mIGEgYnl0ZXMsIGl0ZXJhdGlvbiB0aHJvdWdoIHNsb3RzIHdvdWxkCiAgICAgICAgLy8gbm90IGZpbmQgaXQuIE91ciBtZWNoYW5pc20gZG9lcwogICAgICAgIC8vIEFsc28sIHlvdSBjYW4gdXNlIHRoZSBzZWxlY3RvciBpbnN0ZWFkIG9mIGEgc3RyaW5nCiAgICAgICAgdWludDI1NiBzbG90ID0gc3Rkc3RvcmUudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZyh0ZXN0LmhpZGRlbi5zZWxlY3RvcikuZmluZCgpOwogICAgICAgIGFzc2VydEVxKHNsb3QsIHVpbnQyNTYoa2VjY2FrMjU2KCJteS5yYW5kb20udmFyIikpKTsKICAgIH0KCiAgICAvLyBJZiB0YXJnZXRpbmcgYSBtYXBwaW5nLCB5b3UgaGF2ZSB0byBwYXNzIGluIHRoZSBrZXlzIG5lY2Vzc2FyeSB0byBwZXJmb3JtIHRoZSBmaW5kCiAgICAvLyBpLmUuOgogICAgZnVuY3Rpb24gdGVzdEZpbmRNYXBwaW5nKCkgcHVibGljIHsKICAgICAgICB1aW50MjU2IHNsb3QgPSBzdGRzdG9yZQogICAgICAgICAgICAudGFyZ2V0KGFkZHJlc3ModGVzdCkpCiAgICAgICAgICAgIC5zaWcodGVzdC5tYXBfYWRkci5zZWxlY3RvcikKICAgICAgICAgICAgLndpdGhfa2V5KGFkZHJlc3ModGhpcykpCiAgICAgICAgICAgIC5maW5kKCk7CiAgICAgICAgLy8gaW4gdGhlIGBTdG9yYWdlYCBjb25zdHJ1Y3Rvciwgd2Ugd3JvdGUgdGhhdCB0aGlzIGFkZHJlc3MnIHZhbHVlIHdhcyAxIGluIHRoZSBtYXAKICAgICAgICAvLyBzbyB3aGVuIHdlIGxvYWQgdGhlIHNsb3QsIHdlIGV4cGVjdCBpdCB0byBiZSAxCiAgICAgICAgYXNzZXJ0RXEodWludCh2bS5sb2FkKGFkZHJlc3ModGVzdCksIGJ5dGVzMzIoc2xvdCkpKSwgMSk7CiAgICB9CgogICAgLy8gSWYgdGhlIHRhcmdldCBpcyBhIHN0cnVjdCwgeW91IGNhbiBzcGVjaWZ5IHRoZSBmaWVsZCBkZXB0aDoKICAgIGZ1bmN0aW9uIHRlc3RGaW5kU3RydWN0KCkgcHVibGljIHsKICAgICAgICAvLyBOT1RFOiBzZWUgdGhlIGRlcHRoIHBhcmFtZXRlciAtIDAgbWVhbnMgMHRoIGZpZWxkLCAxIG1lYW5zIDFzdCBmaWVsZCwgZXRjLgogICAgICAgIHVpbnQyNTYgc2xvdF9mb3JfYV9maWVsZCA9IHN0ZHN0b3JlCiAgICAgICAgICAgIC50YXJnZXQoYWRkcmVzcyh0ZXN0KSkKICAgICAgICAgICAgLnNpZyh0ZXN0LmJhc2ljU3RydWN0LnNlbGVjdG9yKQogICAgICAgICAgICAuZGVwdGgoMCkKICAgICAgICAgICAgLmZpbmQoKTsKCiAgICAgICAgdWludDI1NiBzbG90X2Zvcl9iX2ZpZWxkID0gc3Rkc3RvcmUKICAgICAgICAgICAgLnRhcmdldChhZGRyZXNzKHRlc3QpKQogICAgICAgICAgICAuc2lnKHRlc3QuYmFzaWNTdHJ1Y3Quc2VsZWN0b3IpCiAgICAgICAgICAgIC5kZXB0aCgxKQogICAgICAgICAgICAuZmluZCgpOwoKICAgICAgICBhc3NlcnRFcSh1aW50KHZtLmxvYWQoYWRkcmVzcyh0ZXN0KSwgYnl0ZXMzMihzbG90X2Zvcl9hX2ZpZWxkKSkpLCAxKTsKICAgICAgICBhc3NlcnRFcSh1aW50KHZtLmxvYWQoYWRkcmVzcyh0ZXN0KSwgYnl0ZXMzMihzbG90X2Zvcl9iX2ZpZWxkKSkpLCAyKTsKICAgIH0KfQoKLy8gQSBjb21wbGV4IHN0b3JhZ2UgY29udHJhY3QKY29udHJhY3QgU3RvcmFnZSB7CiAgICBzdHJ1Y3QgVW5wYWNrZWRTdHJ1Y3QgewogICAgICAgIHVpbnQyNTYgYTsKICAgICAgICB1aW50MjU2IGI7CiAgICB9CgogICAgY29uc3RydWN0b3IoKSB7CiAgICAgICAgbWFwX2FkZHJbbXNnLnNlbmRlcl0gPSAxOwogICAgfQoKICAgIHVpbnQyNTYgcHVibGljIGV4aXN0cyA9IDE7CiAgICBtYXBwaW5nKGFkZHJlc3MgPT4gdWludDI1NikgcHVibGljIG1hcF9hZGRyOwogICAgLy8gbWFwcGluZyhhZGRyZXNzID0+IFBhY2tlZCkgcHVibGljIG1hcF9wYWNrZWQ7CiAgICBtYXBwaW5nKGFkZHJlc3MgPT4gVW5wYWNrZWRTdHJ1Y3QpIHB1YmxpYyBtYXBfc3RydWN0OwogICAgbWFwcGluZyhhZGRyZXNzID0+IG1hcHBpbmcoYWRkcmVzcyA9PiB1aW50MjU2KSkgcHVibGljIGRlZXBfbWFwOwogICAgbWFwcGluZyhhZGRyZXNzID0+IG1hcHBpbmcoYWRkcmVzcyA9PiBVbnBhY2tlZFN0cnVjdCkpIHB1YmxpYyBkZWVwX21hcF9zdHJ1Y3Q7CiAgICBVbnBhY2tlZFN0cnVjdCBwdWJsaWMgYmFzaWNTdHJ1Y3QgPSBVbnBhY2tlZFN0cnVjdCh7CiAgICAgICAgYTogMSwKICAgICAgICBiOiAyCiAgICB9KTsKCiAgICBmdW5jdGlvbiBoaWRkZW4oKSBwdWJsaWMgdmlldyByZXR1cm5zIChieXRlczMyIHQpIHsKICAgICAgICAvLyBhbiBleHRyZW1lbHkgaGlkZGVuIHN0b3JhZ2Ugc2xvdAogICAgICAgIGJ5dGVzMzIgc2xvdCA9IGtlY2NhazI1NigibXkucmFuZG9tLnZhciIpOwogICAgICAgIGFzc2VtYmx5IHsKICAgICAgICAgICAgdCA6PSBzbG9hZChzbG90KQogICAgICAgIH0KICAgIH0KfQpgYGAKCiMjIyBzdGRDaGVhdHMKClRoaXMgaXMgYSB3cmFwcGVyIG92ZXIgbWlzY2VsbGFuZW91cyBjaGVhdGNvZGVzIHRoYXQgbmVlZCB3cmFwcGVycyB0byBiZSBtb3JlIGRldiBmcmllbmRseS4gQ3VycmVudGx5IHRoZXJlIGFyZSBvbmx5IGZ1bmN0aW9ucyByZWxhdGVkIHRvIGBwcmFua2AuIEluIGdlbmVyYWwsIHVzZXJzIG1heSBleHBlY3QgRVRIIHRvIGJlIHB1dCBpbnRvIGFuIGFkZHJlc3Mgb24gYHByYW5rYCwgYnV0IHRoaXMgaXMgbm90IHRoZSBjYXNlIGZvciBzYWZldHkgcmVhc29ucy4gRXhwbGljaXRseSB0aGlzIGBob2F4YCBmdW5jdGlvbiBzaG91bGQgb25seSBiZSB1c2VkIGZvciBhZGRyZXNzIHRoYXQgaGF2ZSBleHBlY3RlZCBiYWxhbmNlcyBhcyBpdCB3aWxsIGdldCBvdmVyd3JpdHRlbi4gSWYgYW4gYWRkcmVzcyBhbHJlYWR5IGhhcyBFVEgsIHlvdSBzaG91bGQganVzdCB1c2UgYHByYW5rYC4gSWYgeW91IHdhbnQgdG8gY2hhbmdlIHRoYXQgYmFsYW5jZSBleHBsaWNpdGx5LCBqdXN0IHVzZSBgZGVhbGAuIElmIHlvdSB3YW50IHRvIGRvIGJvdGgsIGBob2F4YCBpcyBhbHNvIHJpZ2h0IGZvciB5b3UuCgoKIyMjIyBFeGFtcGxlIHVzYWdlOgpgYGBzb2xpZGl0eQoKLy8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgXjAuOC4wOwoKaW1wb3J0ICJmb3JnZS1zdGQvVGVzdC5zb2wiOwoKLy8gSW5oZXJpdCB0aGUgc3RkQ2hlYXRzCmNvbnRyYWN0IFN0ZENoZWF0c1Rlc3QgaXMgVGVzdCB7CiAgICBCYXIgdGVzdDsKICAgIGZ1bmN0aW9uIHNldFVwKCkgcHVibGljIHsKICAgICAgICB0ZXN0ID0gbmV3IEJhcigpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RIb2F4KCkgcHVibGljIHsKICAgICAgICAvLyB3ZSBjYWxsIGBob2F4YCwgd2hpY2ggZ2l2ZXMgdGhlIHRhcmdldCBhZGRyZXNzCiAgICAgICAgLy8gZXRoIGFuZCB0aGVuIGNhbGxzIGBwcmFua2AKICAgICAgICBob2F4KGFkZHJlc3MoMTMzNykpOwogICAgICAgIHRlc3QuYmFye3ZhbHVlOiAxMDB9KGFkZHJlc3MoMTMzNykpOwoKICAgICAgICAvLyBvdmVybG9hZGVkIHRvIGFsbG93IHlvdSB0byBzcGVjaWZ5IGhvdyBtdWNoIGV0aCB0bwogICAgICAgIC8vIGluaXRpYWxpemUgdGhlIGFkZHJlc3Mgd2l0aAogICAgICAgIGhvYXgoYWRkcmVzcygxMzM3KSwgMSk7CiAgICAgICAgdGVzdC5iYXJ7dmFsdWU6IDF9KGFkZHJlc3MoMTMzNykpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RTdGFydEhvYXgoKSBwdWJsaWMgewogICAgICAgIC8vIHdlIGNhbGwgYHN0YXJ0SG9heGAsIHdoaWNoIGdpdmVzIHRoZSB0YXJnZXQgYWRkcmVzcwogICAgICAgIC8vIGV0aCBhbmQgdGhlbiBjYWxscyBgc3RhcnRQcmFua2AKICAgICAgICAvLwogICAgICAgIC8vIGl0IGlzIGFsc28gb3ZlcmxvYWRlZCBzbyB0aGF0IHlvdSBjYW4gc3BlY2lmeSBhbiBldGggYW1vdW50CiAgICAgICAgc3RhcnRIb2F4KGFkZHJlc3MoMTMzNykpOwogICAgICAgIHRlc3QuYmFye3ZhbHVlOiAxMDB9KGFkZHJlc3MoMTMzNykpOwogICAgICAgIHRlc3QuYmFye3ZhbHVlOiAxMDB9KGFkZHJlc3MoMTMzNykpOwogICAgICAgIHZtLnN0b3BQcmFuaygpOwogICAgICAgIHRlc3QuYmFyKGFkZHJlc3ModGhpcykpOwogICAgfQp9Cgpjb250cmFjdCBCYXIgewogICAgZnVuY3Rpb24gYmFyKGFkZHJlc3MgZXhwZWN0ZWRTZW5kZXIpIHB1YmxpYyBwYXlhYmxlIHsKICAgICAgICByZXF1aXJlKG1zZy5zZW5kZXIgPT0gZXhwZWN0ZWRTZW5kZXIsICIhcHJhbmsiKTsKICAgIH0KfQpgYGAKCiMjIyBTdGQgQXNzZXJ0aW9ucwoKRXhwYW5kIHVwb24gdGhlIGFzc2VydGlvbiBmdW5jdGlvbnMgZnJvbSB0aGUgYERTVGVzdGAgbGlicmFyeS4KCiMjIyBgY29uc29sZS5sb2dgCgpVc2FnZSBmb2xsb3dzIHRoZSBzYW1lIGZvcm1hdCBhcyBbSGFyZGhhdF0oaHR0cHM6Ly9oYXJkaGF0Lm9yZy9oYXJkaGF0LW5ldHdvcmsvcmVmZXJlbmNlLyNjb25zb2xlLWxvZykuCkl0J3MgcmVjb21tZW5kZWQgdG8gdXNlIGBjb25zb2xlMi5zb2xgIGFzIHNob3duIGJlbG93LCBhcyB0aGlzIHdpbGwgc2hvdyB0aGUgZGVjb2RlZCBsb2dzIGluIEZvcmdlIHRyYWNlcy4KCmBgYHNvbGlkaXR5Ci8vIGltcG9ydCBpdCBpbmRpcmVjdGx5IHZpYSBUZXN0LnNvbAppbXBvcnQgImZvcmdlLXN0ZC9UZXN0LnNvbCI7Ci8vIG9yIGRpcmVjdGx5IGltcG9ydCBpdAppbXBvcnQgImZvcmdlLXN0ZC9jb25zb2xlMi5zb2wiOwouLi4KY29uc29sZTIubG9nKHNvbWVWYWx1ZSk7CmBgYAoKSWYgeW91IG5lZWQgY29tcGF0aWJpbGl0eSB3aXRoIEhhcmRoYXQsIHlvdSBtdXN0IHVzZSB0aGUgc3RhbmRhcmQgYGNvbnNvbGUuc29sYCBpbnN0ZWFkLgpEdWUgdG8gYSBidWcgaW4gYGNvbnNvbGUuc29sYCwgbG9ncyB0aGF0IHVzZSBgdWludDI1NmAgb3IgYGludDI1NmAgdHlwZXMgd2lsbCBub3QgYmUgcHJvcGVybHkgZGVjb2RlZCBpbiBGb3JnZSB0cmFjZXMuCgpgYGBzb2xpZGl0eQovLyBpbXBvcnQgaXQgaW5kaXJlY3RseSB2aWEgVGVzdC5zb2wKaW1wb3J0ICJmb3JnZS1zdGQvVGVzdC5zb2wiOwovLyBvciBkaXJlY3RseSBpbXBvcnQgaXQKaW1wb3J0ICJmb3JnZS1zdGQvY29uc29sZS5zb2wiOwouLi4KY29uc29sZS5sb2coc29tZVZhbHVlKTsKYGBgCgojIyBMaWNlbnNlCgpGb3JnZSBTdGFuZGFyZCBMaWJyYXJ5IGlzIG9mZmVyZWQgdW5kZXIgZWl0aGVyIFtNSVRdKExJQ0VOU0UtTUlUKSBvciBbQXBhY2hlIDIuMF0oTElDRU5TRS1BUEFDSEUpIGxpY2Vuc2UuCg==
+# Forge Standard Library • [![CI status](https://github.com/foundry-rs/forge-std/actions/workflows/ci.yml/badge.svg)](https://github.com/foundry-rs/forge-std/actions/workflows/ci.yml)
+
+Forge Standard Library is a collection of helpful contracts and libraries for use with [Forge and Foundry](https://github.com/foundry-rs/foundry). It leverages Forge's cheatcodes to make writing tests easier and faster, while improving the UX of cheatcodes.
+
+**Learn how to use Forge-Std with the [📖 Foundry Book (Forge-Std Guide)](https://book.getfoundry.sh/forge/forge-std.html).**
+
+## Install
+
+```bash
+forge install foundry-rs/forge-std
+```
+
+## Contracts
+### stdError
+
+This is a helper contract for errors and reverts. In Forge, this contract is particularly helpful for the `expectRevert` cheatcode, as it provides all compiler builtin errors.
+
+See the contract itself for all error codes.
+
+#### Example usage
+
+```solidity
+
+import "forge-std/Test.sol";
+
+contract TestContract is Test {
+    ErrorsTest test;
+
+    function setUp() public {
+        test = new ErrorsTest();
+    }
+
+    function testExpectArithmetic() public {
+        vm.expectRevert(stdError.arithmeticError);
+        test.arithmeticError(10);
+    }
+}
+
+contract ErrorsTest {
+    function arithmeticError(uint256 a) public {
+        uint256 a = a - 100;
+    }
+}
+```
+
+### stdStorage
+
+This is a rather large contract due to all of the overloading to make the UX decent. Primarily, it is a wrapper around the `record` and `accesses` cheatcodes. It can *always* find and write the storage slot(s) associated with a particular variable without knowing the storage layout. The one _major_ caveat to this is while a slot can be found for packed storage variables, we can't write to that variable safely. If a user tries to write to a packed slot, the execution throws an error, unless it is uninitialized (`bytes32(0)`).
+
+This works by recording all `SLOAD`s and `SSTORE`s during a function call. If there is a single slot read or written to, it immediately returns the slot. Otherwise, behind the scenes, we iterate through and check each one (assuming the user passed in a `depth` parameter). If the variable is a struct, you can pass in a `depth` parameter which is basically the field depth.
+
+I.e.:
+```solidity
+struct T {
+    // depth 0
+    uint256 a;
+    // depth 1
+    uint256 b;
+}
+```
+
+#### Example usage
+
+```solidity
+import "forge-std/Test.sol";
+
+contract TestContract is Test {
+    using stdStorage for StdStorage;
+
+    Storage test;
+
+    function setUp() public {
+        test = new Storage();
+    }
+
+    function testFindExists() public {
+        // Lets say we want to find the slot for the public
+        // variable `exists`. We just pass in the function selector
+        // to the `find` command
+        uint256 slot = stdstore.target(address(test)).sig("exists()").find();
+        assertEq(slot, 0);
+    }
+
+    function testWriteExists() public {
+        // Lets say we want to write to the slot for the public
+        // variable `exists`. We just pass in the function selector
+        // to the `checked_write` command
+        stdstore.target(address(test)).sig("exists()").checked_write(100);
+        assertEq(test.exists(), 100);
+    }
+
+    // It supports arbitrary storage layouts, like assembly based storage locations
+    function testFindHidden() public {
+        // `hidden` is a random hash of a bytes, iteration through slots would
+        // not find it. Our mechanism does
+        // Also, you can use the selector instead of a string
+        uint256 slot = stdstore.target(address(test)).sig(test.hidden.selector).find();
+        assertEq(slot, uint256(keccak256("my.random.var")));
+    }
+
+    // If targeting a mapping, you have to pass in the keys necessary to perform the find
+    // i.e.:
+    function testFindMapping() public {
+        uint256 slot = stdstore
+            .target(address(test))
+            .sig(test.map_addr.selector)
+            .with_key(address(this))
+            .find();
+        // in the `Storage` constructor, we wrote that this address' value was 1 in the map
+        // so when we load the slot, we expect it to be 1
+        assertEq(uint(vm.load(address(test), bytes32(slot))), 1);
+    }
+
+    // If the target is a struct, you can specify the field depth:
+    function testFindStruct() public {
+        // NOTE: see the depth parameter - 0 means 0th field, 1 means 1st field, etc.
+        uint256 slot_for_a_field = stdstore
+            .target(address(test))
+            .sig(test.basicStruct.selector)
+            .depth(0)
+            .find();
+
+        uint256 slot_for_b_field = stdstore
+            .target(address(test))
+            .sig(test.basicStruct.selector)
+            .depth(1)
+            .find();
+
+        assertEq(uint(vm.load(address(test), bytes32(slot_for_a_field))), 1);
+        assertEq(uint(vm.load(address(test), bytes32(slot_for_b_field))), 2);
+    }
+}
+
+// A complex storage contract
+contract Storage {
+    struct UnpackedStruct {
+        uint256 a;
+        uint256 b;
+    }
+
+    constructor() {
+        map_addr[msg.sender] = 1;
+    }
+
+    uint256 public exists = 1;
+    mapping(address => uint256) public map_addr;
+    // mapping(address => Packed) public map_packed;
+    mapping(address => UnpackedStruct) public map_struct;
+    mapping(address => mapping(address => uint256)) public deep_map;
+    mapping(address => mapping(address => UnpackedStruct)) public deep_map_struct;
+    UnpackedStruct public basicStruct = UnpackedStruct({
+        a: 1,
+        b: 2
+    });
+
+    function hidden() public view returns (bytes32 t) {
+        // an extremely hidden storage slot
+        bytes32 slot = keccak256("my.random.var");
+        assembly {
+            t := sload(slot)
+        }
+    }
+}
+```
+
+### stdCheats
+
+This is a wrapper over miscellaneous cheatcodes that need wrappers to be more dev friendly. Currently there are only functions related to `prank`. In general, users may expect ETH to be put into an address on `prank`, but this is not the case for safety reasons. Explicitly this `hoax` function should only be used for address that have expected balances as it will get overwritten. If an address already has ETH, you should just use `prank`. If you want to change that balance explicitly, just use `deal`. If you want to do both, `hoax` is also right for you.
+
+
+#### Example usage:
+```solidity
+
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+import "forge-std/Test.sol";
+
+// Inherit the stdCheats
+contract StdCheatsTest is Test {
+    Bar test;
+    function setUp() public {
+        test = new Bar();
+    }
+
+    function testHoax() public {
+        // we call `hoax`, which gives the target address
+        // eth and then calls `prank`
+        hoax(address(1337));
+        test.bar{value: 100}(address(1337));
+
+        // overloaded to allow you to specify how much eth to
+        // initialize the address with
+        hoax(address(1337), 1);
+        test.bar{value: 1}(address(1337));
+    }
+
+    function testStartHoax() public {
+        // we call `startHoax`, which gives the target address
+        // eth and then calls `startPrank`
+        //
+        // it is also overloaded so that you can specify an eth amount
+        startHoax(address(1337));
+        test.bar{value: 100}(address(1337));
+        test.bar{value: 100}(address(1337));
+        vm.stopPrank();
+        test.bar(address(this));
+    }
+}
+
+contract Bar {
+    function bar(address expectedSender) public payable {
+        require(msg.sender == expectedSender, "!prank");
+    }
+}
+```
+
+### Std Assertions
+
+Expand upon the assertion functions from the `DSTest` library.
+
+### `console.log`
+
+Usage follows the same format as [Hardhat](https://hardhat.org/hardhat-network/reference/#console-log).
+It's recommended to use `console2.sol` as shown below, as this will show the decoded logs in Forge traces.
+
+```solidity
+// import it indirectly via Test.sol
+import "forge-std/Test.sol";
+// or directly import it
+import "forge-std/console2.sol";
+...
+console2.log(someValue);
+```
+
+If you need compatibility with Hardhat, you must use the standard `console.sol` instead.
+Due to a bug in `console.sol`, logs that use `uint256` or `int256` types will not be properly decoded in Forge traces.
+
+```solidity
+// import it indirectly via Test.sol
+import "forge-std/Test.sol";
+// or directly import it
+import "forge-std/console.sol";
+...
+console.log(someValue);
+```
+
+## License
+
+Forge Standard Library is offered under either [MIT](LICENSE-MIT) or [Apache 2.0](LICENSE-APACHE) license.
