@@ -1,1 +1,29 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0VSQzIwVm90ZXN9IGZyb20gIi4uLy4uL3Rva2VuL0VSQzIwL2V4dGVuc2lvbnMvRVJDMjBWb3Rlcy5zb2wiOwppbXBvcnQge0VSQzcyMVZvdGVzfSBmcm9tICIuLi8uLi90b2tlbi9FUkM3MjEvZXh0ZW5zaW9ucy9FUkM3MjFWb3Rlcy5zb2wiOwppbXBvcnQge1NhZmVDYXN0fSBmcm9tICIuLi8uLi91dGlscy9tYXRoL1NhZmVDYXN0LnNvbCI7CgphYnN0cmFjdCBjb250cmFjdCBFUkMyMFZvdGVzVGltZXN0YW1wTW9jayBpcyBFUkMyMFZvdGVzIHsKICAgIGZ1bmN0aW9uIGNsb2NrKCkgcHVibGljIHZpZXcgdmlydHVhbCBvdmVycmlkZSByZXR1cm5zICh1aW50NDgpIHsKICAgICAgICByZXR1cm4gU2FmZUNhc3QudG9VaW50NDgoYmxvY2sudGltZXN0YW1wKTsKICAgIH0KCiAgICAvLyBzb2xoaW50LWRpc2FibGUtbmV4dC1saW5lIGZ1bmMtbmFtZS1taXhlZGNhc2UKICAgIGZ1bmN0aW9uIENMT0NLX01PREUoKSBwdWJsaWMgdmlldyB2aXJ0dWFsIG92ZXJyaWRlIHJldHVybnMgKHN0cmluZyBtZW1vcnkpIHsKICAgICAgICByZXR1cm4gIm1vZGU9dGltZXN0YW1wIjsKICAgIH0KfQoKYWJzdHJhY3QgY29udHJhY3QgRVJDNzIxVm90ZXNUaW1lc3RhbXBNb2NrIGlzIEVSQzcyMVZvdGVzIHsKICAgIGZ1bmN0aW9uIGNsb2NrKCkgcHVibGljIHZpZXcgdmlydHVhbCBvdmVycmlkZSByZXR1cm5zICh1aW50NDgpIHsKICAgICAgICByZXR1cm4gU2FmZUNhc3QudG9VaW50NDgoYmxvY2sudGltZXN0YW1wKTsKICAgIH0KCiAgICAvLyBzb2xoaW50LWRpc2FibGUtbmV4dC1saW5lIGZ1bmMtbmFtZS1taXhlZGNhc2UKICAgIGZ1bmN0aW9uIENMT0NLX01PREUoKSBwdWJsaWMgdmlldyB2aXJ0dWFsIG92ZXJyaWRlIHJldHVybnMgKHN0cmluZyBtZW1vcnkpIHsKICAgICAgICByZXR1cm4gIm1vZGU9dGltZXN0YW1wIjsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {ERC20Votes} from "../../token/ERC20/extensions/ERC20Votes.sol";
+import {ERC721Votes} from "../../token/ERC721/extensions/ERC721Votes.sol";
+import {SafeCast} from "../../utils/math/SafeCast.sol";
+
+abstract contract ERC20VotesTimestampMock is ERC20Votes {
+    function clock() public view virtual override returns (uint48) {
+        return SafeCast.toUint48(block.timestamp);
+    }
+
+    // solhint-disable-next-line func-name-mixedcase
+    function CLOCK_MODE() public view virtual override returns (string memory) {
+        return "mode=timestamp";
+    }
+}
+
+abstract contract ERC721VotesTimestampMock is ERC721Votes {
+    function clock() public view virtual override returns (uint48) {
+        return SafeCast.toUint48(block.timestamp);
+    }
+
+    // solhint-disable-next-line func-name-mixedcase
+    function CLOCK_MODE() public view virtual override returns (string memory) {
+        return "mode=timestamp";
+    }
+}
