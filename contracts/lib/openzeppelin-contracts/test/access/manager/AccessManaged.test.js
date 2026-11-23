@@ -1,1 +1,146 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKY29uc3QgeyBpbXBlcnNvbmF0ZSB9ID0gcmVxdWlyZSgnLi4vLi4vaGVscGVycy9hY2NvdW50Jyk7CmNvbnN0IHRpbWUgPSByZXF1aXJlKCcuLi8uLi9oZWxwZXJzL3RpbWUnKTsKCmFzeW5jIGZ1bmN0aW9uIGZpeHR1cmUoKSB7CiAgY29uc3QgW2FkbWluLCByb2xlTWVtYmVyLCBvdGhlcl0gPSBhd2FpdCBldGhlcnMuZ2V0U2lnbmVycygpOwoKICBjb25zdCBhdXRob3JpdHkgPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJyRBY2Nlc3NNYW5hZ2VyJywgW2FkbWluXSk7CiAgY29uc3QgbWFuYWdlZCA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnJEFjY2Vzc01hbmFnZWRUYXJnZXQnLCBbYXV0aG9yaXR5XSk7CgogIGNvbnN0IGFub3RoZXJBdXRob3JpdHkgPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJyRBY2Nlc3NNYW5hZ2VyJywgW2FkbWluXSk7CiAgY29uc3QgYXV0aG9yaXR5T2JzZXJ2ZUlzQ29uc3VtaW5nID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCckQXV0aG9yaXR5T2JzZXJ2ZUlzQ29uc3VtaW5nJyk7CgogIGF3YWl0IGltcGVyc29uYXRlKGF1dGhvcml0eS50YXJnZXQpOwogIGNvbnN0IGF1dGhvcml0eUFzU2lnbmVyID0gYXdhaXQgZXRoZXJzLmdldFNpZ25lcihhdXRob3JpdHkudGFyZ2V0KTsKCiAgcmV0dXJuIHsKICAgIHJvbGVNZW1iZXIsCiAgICBvdGhlciwKICAgIGF1dGhvcml0eUFzU2lnbmVyLAogICAgYXV0aG9yaXR5LAogICAgbWFuYWdlZCwKICAgIGF1dGhvcml0eU9ic2VydmVJc0NvbnN1bWluZywKICAgIGFub3RoZXJBdXRob3JpdHksCiAgfTsKfQoKZGVzY3JpYmUoJ0FjY2Vzc01hbmFnZWQnLCBmdW5jdGlvbiAoKSB7CiAgYmVmb3JlRWFjaChhc3luYyBmdW5jdGlvbiAoKSB7CiAgICBPYmplY3QuYXNzaWduKHRoaXMsIGF3YWl0IGxvYWRGaXh0dXJlKGZpeHR1cmUpKTsKICB9KTsKCiAgaXQoJ3NldHMgYXV0aG9yaXR5IGFuZCBlbWl0cyBBdXRob3JpdHlVcGRhdGVkIGV2ZW50IGR1cmluZyBjb25zdHJ1Y3Rpb24nLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICBhd2FpdCBleHBlY3QodGhpcy5tYW5hZ2VkLmRlcGxveW1lbnRUcmFuc2FjdGlvbigpKQogICAgICAudG8uZW1pdCh0aGlzLm1hbmFnZWQsICdBdXRob3JpdHlVcGRhdGVkJykKICAgICAgLndpdGhBcmdzKHRoaXMuYXV0aG9yaXR5KTsKICB9KTsKCiAgZGVzY3JpYmUoJ3Jlc3RyaWN0ZWQgbW9kaWZpZXInLCBmdW5jdGlvbiAoKSB7CiAgICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgdGhpcy5zZWxlY3RvciA9IHRoaXMubWFuYWdlZC5mblJlc3RyaWN0ZWQuZ2V0RnJhZ21lbnQoKS5zZWxlY3RvcjsKICAgICAgdGhpcy5yb2xlID0gNDJuOwogICAgICBhd2FpdCB0aGlzLmF1dGhvcml0eS4kX3NldFRhcmdldEZ1bmN0aW9uUm9sZSh0aGlzLm1hbmFnZWQsIHRoaXMuc2VsZWN0b3IsIHRoaXMucm9sZSk7CiAgICAgIGF3YWl0IHRoaXMuYXV0aG9yaXR5LiRfZ3JhbnRSb2xlKHRoaXMucm9sZSwgdGhpcy5yb2xlTWVtYmVyLCAwLCAwKTsKICAgIH0pOwoKICAgIGl0KCdzdWNjZWVkcyB3aGVuIHJvbGUgaXMgZ3JhbnRlZCB3aXRob3V0IGV4ZWN1dGlvbiBkZWxheScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgdGhpcy5tYW5hZ2VkLmNvbm5lY3QodGhpcy5yb2xlTWVtYmVyKVt0aGlzLnNlbGVjdG9yXSgpOwogICAgfSk7CgogICAgaXQoJ3JldmVydHMgd2hlbiByb2xlIGlzIG5vdCBncmFudGVkJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCBleHBlY3QodGhpcy5tYW5hZ2VkLmNvbm5lY3QodGhpcy5vdGhlcilbdGhpcy5zZWxlY3Rvcl0oKSkKICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy5tYW5hZ2VkLCAnQWNjZXNzTWFuYWdlZFVuYXV0aG9yaXplZCcpCiAgICAgICAgLndpdGhBcmdzKHRoaXMub3RoZXIpOwogICAgfSk7CgogICAgaXQoJ3BhbmljcyBpbiBzaG9ydCBjYWxsZGF0YScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgLy8gV2UgYXZvaWQgYWRkaW5nIHRoZSBgcmVzdHJpY3RlZGAgbW9kaWZpZXIgdG8gdGhlIGZhbGxiYWNrIGZ1bmN0aW9uIGJlY2F1c2Ugb3RoZXIgdGVzdHMgbWF5IGRlcGVuZCBvbiBpdAogICAgICAvLyBiZWluZyBhY2Nlc3NpYmxlIHdpdGhvdXQgcmVzdHJpY3Rpb25zLiBXZSBjaGVjayBmb3IgdGhlIGludGVybmFsIGBfY2hlY2tDYW5DYWxsYCBpbnN0ZWFkLgogICAgICBhd2FpdCBleHBlY3QodGhpcy5tYW5hZ2VkLiRfY2hlY2tDYW5DYWxsKHRoaXMucm9sZU1lbWJlciwgJzB4MTIzNCcpKS50by5iZS5yZXZlcnRlZDsKICAgIH0pOwoKICAgIGRlc2NyaWJlKCd3aGVuIHJvbGUgaXMgZ3JhbnRlZCB3aXRoIGV4ZWN1dGlvbiBkZWxheScsIGZ1bmN0aW9uICgpIHsKICAgICAgYmVmb3JlRWFjaChhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgY29uc3QgZXhlY3V0aW9uRGVsYXkgPSA5MTFuOwogICAgICAgIGF3YWl0IHRoaXMuYXV0aG9yaXR5LiRfZ3JhbnRSb2xlKHRoaXMucm9sZSwgdGhpcy5yb2xlTWVtYmVyLCAwLCBleGVjdXRpb25EZWxheSk7CiAgICAgIH0pOwoKICAgICAgaXQoJ3JldmVydHMgaWYgdGhlIG9wZXJhdGlvbiBpcyBub3Qgc2NoZWR1bGVkJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGNvbnN0IGZuID0gdGhpcy5tYW5hZ2VkLmludGVyZmFjZS5nZXRGdW5jdGlvbih0aGlzLnNlbGVjdG9yKTsKICAgICAgICBjb25zdCBjYWxsZGF0YSA9IHRoaXMubWFuYWdlZC5pbnRlcmZhY2UuZW5jb2RlRnVuY3Rpb25EYXRhKGZuLCBbXSk7CiAgICAgICAgY29uc3Qgb3BJZCA9IGF3YWl0IHRoaXMuYXV0aG9yaXR5Lmhhc2hPcGVyYXRpb24odGhpcy5yb2xlTWVtYmVyLCB0aGlzLm1hbmFnZWQsIGNhbGxkYXRhKTsKCiAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMubWFuYWdlZC5jb25uZWN0KHRoaXMucm9sZU1lbWJlcilbdGhpcy5zZWxlY3Rvcl0oKSkKICAgICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLmF1dGhvcml0eSwgJ0FjY2Vzc01hbmFnZXJOb3RTY2hlZHVsZWQnKQogICAgICAgICAgLndpdGhBcmdzKG9wSWQpOwogICAgICB9KTsKCiAgICAgIGl0KCdzdWNjZWVkcyBpZiB0aGUgb3BlcmF0aW9uIGlzIHNjaGVkdWxlZCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAvLyBBcmd1bWVudHMKICAgICAgICBjb25zdCBkZWxheSA9IHRpbWUuZHVyYXRpb24uaG91cnMoMTIpOwogICAgICAgIGNvbnN0IGZuID0gdGhpcy5tYW5hZ2VkLmludGVyZmFjZS5nZXRGdW5jdGlvbih0aGlzLnNlbGVjdG9yKTsKICAgICAgICBjb25zdCBjYWxsZGF0YSA9IHRoaXMubWFuYWdlZC5pbnRlcmZhY2UuZW5jb2RlRnVuY3Rpb25EYXRhKGZuLCBbXSk7CgogICAgICAgIC8vIFNjaGVkdWxlCiAgICAgICAgY29uc3Qgc2NoZWR1bGVkQXQgPSAoYXdhaXQgdGltZS5jbG9jay50aW1lc3RhbXAoKSkgKyAxbjsKICAgICAgICBjb25zdCB3aGVuID0gc2NoZWR1bGVkQXQgKyBkZWxheTsKICAgICAgICBhd2FpdCB0aW1lLmluY3JlYXNlVG8udGltZXN0YW1wKHNjaGVkdWxlZEF0LCBmYWxzZSk7CiAgICAgICAgYXdhaXQgdGhpcy5hdXRob3JpdHkuY29ubmVjdCh0aGlzLnJvbGVNZW1iZXIpLnNjaGVkdWxlKHRoaXMubWFuYWdlZCwgY2FsbGRhdGEsIHdoZW4pOwoKICAgICAgICAvLyBTZXQgZXhlY3V0aW9uIGRhdGUKICAgICAgICBhd2FpdCB0aW1lLmluY3JlYXNlVG8udGltZXN0YW1wKHdoZW4sIGZhbHNlKTsKCiAgICAgICAgLy8gU2hvdWxkbid0IHJldmVydAogICAgICAgIGF3YWl0IHRoaXMubWFuYWdlZC5jb25uZWN0KHRoaXMucm9sZU1lbWJlcilbdGhpcy5zZWxlY3Rvcl0oKTsKICAgICAgfSk7CiAgICB9KTsKICB9KTsKCiAgZGVzY3JpYmUoJ3NldEF1dGhvcml0eScsIGZ1bmN0aW9uICgpIHsKICAgIGl0KCdyZXZlcnRzIGlmIHRoZSBjYWxsZXIgaXMgbm90IHRoZSBhdXRob3JpdHknLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1hbmFnZWQuY29ubmVjdCh0aGlzLm90aGVyKS5zZXRBdXRob3JpdHkodGhpcy5vdGhlcikpCiAgICAgICAgLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMubWFuYWdlZCwgJ0FjY2Vzc01hbmFnZWRVbmF1dGhvcml6ZWQnKQogICAgICAgIC53aXRoQXJncyh0aGlzLm90aGVyKTsKICAgIH0pOwoKICAgIGl0KCdyZXZlcnRzIGlmIHRoZSBuZXcgYXV0aG9yaXR5IGlzIG5vdCBhIHZhbGlkIGF1dGhvcml0eScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMubWFuYWdlZC5jb25uZWN0KHRoaXMuYXV0aG9yaXR5QXNTaWduZXIpLnNldEF1dGhvcml0eSh0aGlzLm90aGVyKSkKICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy5tYW5hZ2VkLCAnQWNjZXNzTWFuYWdlZEludmFsaWRBdXRob3JpdHknKQogICAgICAgIC53aXRoQXJncyh0aGlzLm90aGVyKTsKICAgIH0pOwoKICAgIGl0KCdzZXRzIGF1dGhvcml0eSBhbmQgZW1pdHMgQXV0aG9yaXR5VXBkYXRlZCBldmVudCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMubWFuYWdlZC5jb25uZWN0KHRoaXMuYXV0aG9yaXR5QXNTaWduZXIpLnNldEF1dGhvcml0eSh0aGlzLmFub3RoZXJBdXRob3JpdHkpKQogICAgICAgIC50by5lbWl0KHRoaXMubWFuYWdlZCwgJ0F1dGhvcml0eVVwZGF0ZWQnKQogICAgICAgIC53aXRoQXJncyh0aGlzLmFub3RoZXJBdXRob3JpdHkpOwoKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubWFuYWdlZC5hdXRob3JpdHkoKSkudG8uZXF1YWwodGhpcy5hbm90aGVyQXV0aG9yaXR5KTsKICAgIH0pOwogIH0pOwoKICBkZXNjcmliZSgnaXNDb25zdW1pbmdTY2hlZHVsZWRPcCcsIGZ1bmN0aW9uICgpIHsKICAgIGJlZm9yZUVhY2goYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCB0aGlzLm1hbmFnZWQuY29ubmVjdCh0aGlzLmF1dGhvcml0eUFzU2lnbmVyKS5zZXRBdXRob3JpdHkodGhpcy5hdXRob3JpdHlPYnNlcnZlSXNDb25zdW1pbmcpOwogICAgfSk7CgogICAgaXQoJ3JldHVybnMgYnl0ZXM0KDApIHdoZW4gbm90IGNvbnN1bWluZyBvcGVyYXRpb24nLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1hbmFnZWQuaXNDb25zdW1pbmdTY2hlZHVsZWRPcCgpKS50by5lcXVhbCgnMHgwMDAwMDAwMCcpOwogICAgfSk7CgogICAgaXQoJ3JldHVybnMgaXNDb25zdW1pbmdTY2hlZHVsZWRPcCBzZWxlY3RvciB3aGVuIGNvbnN1bWluZyBvcGVyYXRpb24nLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGNvbnN0IGlzQ29uc3VtaW5nU2NoZWR1bGVkT3AgPSB0aGlzLm1hbmFnZWQuaW50ZXJmYWNlLmdldEZ1bmN0aW9uKCdpc0NvbnN1bWluZ1NjaGVkdWxlZE9wKCknKTsKICAgICAgY29uc3QgZm5SZXN0cmljdGVkID0gdGhpcy5tYW5hZ2VkLmZuUmVzdHJpY3RlZC5nZXRGcmFnbWVudCgpOwogICAgICBhd2FpdCBleHBlY3QodGhpcy5tYW5hZ2VkLmNvbm5lY3QodGhpcy5vdGhlcikuZm5SZXN0cmljdGVkKCkpCiAgICAgICAgLnRvLmVtaXQodGhpcy5hdXRob3JpdHlPYnNlcnZlSXNDb25zdW1pbmcsICdDb25zdW1lU2NoZWR1bGVkT3BDYWxsZWQnKQogICAgICAgIC53aXRoQXJncygKICAgICAgICAgIHRoaXMub3RoZXIsCiAgICAgICAgICB0aGlzLm1hbmFnZWQuaW50ZXJmYWNlLmVuY29kZUZ1bmN0aW9uRGF0YShmblJlc3RyaWN0ZWQsIFtdKSwKICAgICAgICAgIGlzQ29uc3VtaW5nU2NoZWR1bGVkT3Auc2VsZWN0b3IsCiAgICAgICAgKTsKICAgIH0pOwogIH0pOwp9KTsK
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+const { impersonate } = require('../../helpers/account');
+const time = require('../../helpers/time');
+
+async function fixture() {
+  const [admin, roleMember, other] = await ethers.getSigners();
+
+  const authority = await ethers.deployContract('$AccessManager', [admin]);
+  const managed = await ethers.deployContract('$AccessManagedTarget', [authority]);
+
+  const anotherAuthority = await ethers.deployContract('$AccessManager', [admin]);
+  const authorityObserveIsConsuming = await ethers.deployContract('$AuthorityObserveIsConsuming');
+
+  await impersonate(authority.target);
+  const authorityAsSigner = await ethers.getSigner(authority.target);
+
+  return {
+    roleMember,
+    other,
+    authorityAsSigner,
+    authority,
+    managed,
+    authorityObserveIsConsuming,
+    anotherAuthority,
+  };
+}
+
+describe('AccessManaged', function () {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  it('sets authority and emits AuthorityUpdated event during construction', async function () {
+    await expect(this.managed.deploymentTransaction())
+      .to.emit(this.managed, 'AuthorityUpdated')
+      .withArgs(this.authority);
+  });
+
+  describe('restricted modifier', function () {
+    beforeEach(async function () {
+      this.selector = this.managed.fnRestricted.getFragment().selector;
+      this.role = 42n;
+      await this.authority.$_setTargetFunctionRole(this.managed, this.selector, this.role);
+      await this.authority.$_grantRole(this.role, this.roleMember, 0, 0);
+    });
+
+    it('succeeds when role is granted without execution delay', async function () {
+      await this.managed.connect(this.roleMember)[this.selector]();
+    });
+
+    it('reverts when role is not granted', async function () {
+      await expect(this.managed.connect(this.other)[this.selector]())
+        .to.be.revertedWithCustomError(this.managed, 'AccessManagedUnauthorized')
+        .withArgs(this.other);
+    });
+
+    it('panics in short calldata', async function () {
+      // We avoid adding the `restricted` modifier to the fallback function because other tests may depend on it
+      // being accessible without restrictions. We check for the internal `_checkCanCall` instead.
+      await expect(this.managed.$_checkCanCall(this.roleMember, '0x1234')).to.be.reverted;
+    });
+
+    describe('when role is granted with execution delay', function () {
+      beforeEach(async function () {
+        const executionDelay = 911n;
+        await this.authority.$_grantRole(this.role, this.roleMember, 0, executionDelay);
+      });
+
+      it('reverts if the operation is not scheduled', async function () {
+        const fn = this.managed.interface.getFunction(this.selector);
+        const calldata = this.managed.interface.encodeFunctionData(fn, []);
+        const opId = await this.authority.hashOperation(this.roleMember, this.managed, calldata);
+
+        await expect(this.managed.connect(this.roleMember)[this.selector]())
+          .to.be.revertedWithCustomError(this.authority, 'AccessManagerNotScheduled')
+          .withArgs(opId);
+      });
+
+      it('succeeds if the operation is scheduled', async function () {
+        // Arguments
+        const delay = time.duration.hours(12);
+        const fn = this.managed.interface.getFunction(this.selector);
+        const calldata = this.managed.interface.encodeFunctionData(fn, []);
+
+        // Schedule
+        const scheduledAt = (await time.clock.timestamp()) + 1n;
+        const when = scheduledAt + delay;
+        await time.increaseTo.timestamp(scheduledAt, false);
+        await this.authority.connect(this.roleMember).schedule(this.managed, calldata, when);
+
+        // Set execution date
+        await time.increaseTo.timestamp(when, false);
+
+        // Shouldn't revert
+        await this.managed.connect(this.roleMember)[this.selector]();
+      });
+    });
+  });
+
+  describe('setAuthority', function () {
+    it('reverts if the caller is not the authority', async function () {
+      await expect(this.managed.connect(this.other).setAuthority(this.other))
+        .to.be.revertedWithCustomError(this.managed, 'AccessManagedUnauthorized')
+        .withArgs(this.other);
+    });
+
+    it('reverts if the new authority is not a valid authority', async function () {
+      await expect(this.managed.connect(this.authorityAsSigner).setAuthority(this.other))
+        .to.be.revertedWithCustomError(this.managed, 'AccessManagedInvalidAuthority')
+        .withArgs(this.other);
+    });
+
+    it('sets authority and emits AuthorityUpdated event', async function () {
+      await expect(this.managed.connect(this.authorityAsSigner).setAuthority(this.anotherAuthority))
+        .to.emit(this.managed, 'AuthorityUpdated')
+        .withArgs(this.anotherAuthority);
+
+      expect(await this.managed.authority()).to.equal(this.anotherAuthority);
+    });
+  });
+
+  describe('isConsumingScheduledOp', function () {
+    beforeEach(async function () {
+      await this.managed.connect(this.authorityAsSigner).setAuthority(this.authorityObserveIsConsuming);
+    });
+
+    it('returns bytes4(0) when not consuming operation', async function () {
+      expect(await this.managed.isConsumingScheduledOp()).to.equal('0x00000000');
+    });
+
+    it('returns isConsumingScheduledOp selector when consuming operation', async function () {
+      const isConsumingScheduledOp = this.managed.interface.getFunction('isConsumingScheduledOp()');
+      const fnRestricted = this.managed.fnRestricted.getFragment();
+      await expect(this.managed.connect(this.other).fnRestricted())
+        .to.emit(this.authorityObserveIsConsuming, 'ConsumeScheduledOpCalled')
+        .withArgs(
+          this.other,
+          this.managed.interface.encodeFunctionData(fnRestricted, []),
+          isConsumingScheduledOp.selector,
+        );
+    });
+  });
+});
