@@ -1,1 +1,17 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0VSQzQ2MjZ9IGZyb20gIi4uLy4uL3Rva2VuL0VSQzIwL2V4dGVuc2lvbnMvRVJDNDYyNi5zb2wiOwoKYWJzdHJhY3QgY29udHJhY3QgRVJDNDYyNk9mZnNldE1vY2sgaXMgRVJDNDYyNiB7CiAgICB1aW50OCBwcml2YXRlIGltbXV0YWJsZSBfb2Zmc2V0OwoKICAgIGNvbnN0cnVjdG9yKHVpbnQ4IG9mZnNldF8pIHsKICAgICAgICBfb2Zmc2V0ID0gb2Zmc2V0XzsKICAgIH0KCiAgICBmdW5jdGlvbiBfZGVjaW1hbHNPZmZzZXQoKSBpbnRlcm5hbCB2aWV3IHZpcnR1YWwgb3ZlcnJpZGUgcmV0dXJucyAodWludDgpIHsKICAgICAgICByZXR1cm4gX29mZnNldDsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {ERC4626} from "../../token/ERC20/extensions/ERC4626.sol";
+
+abstract contract ERC4626OffsetMock is ERC4626 {
+    uint8 private immutable _offset;
+
+    constructor(uint8 offset_) {
+        _offset = offset_;
+    }
+
+    function _decimalsOffset() internal view virtual override returns (uint8) {
+        return _offset;
+    }
+}
