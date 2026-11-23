@@ -1,1 +1,45 @@
-aW1wb3J0IHR5cGUgeyBBZGRyZXNzLCBIZXggfSBmcm9tICJ2aWVtIjsKaW1wb3J0IHsgdHVzZDhEb21haW4gfSBmcm9tICIuL2NvbnRyYWN0cyI7CgovKiogRUlQLTcxMiB0eXBlcyBmb3IgdGhlIG1lc3NhZ2UgYSBidXllciBzaWducyB0byBwYXkgYENoZWNrb3V0LnBheVdpdGhBdXRob3JpemF0aW9uYC4gKi8KZXhwb3J0IGNvbnN0IHJlY2VpdmVXaXRoQXV0aG9yaXphdGlvblR5cGVzID0gewogIFJlY2VpdmVXaXRoQXV0aG9yaXphdGlvbjogWwogICAgeyBuYW1lOiAiZnJvbSIsIHR5cGU6ICJhZGRyZXNzIiB9LAogICAgeyBuYW1lOiAidG8iLCB0eXBlOiAiYWRkcmVzcyIgfSwKICAgIHsgbmFtZTogInZhbHVlIiwgdHlwZTogInVpbnQyNTYiIH0sCiAgICB7IG5hbWU6ICJ2YWxpZEFmdGVyIiwgdHlwZTogInVpbnQyNTYiIH0sCiAgICB7IG5hbWU6ICJ2YWxpZEJlZm9yZSIsIHR5cGU6ICJ1aW50MjU2IiB9LAogICAgeyBuYW1lOiAibm9uY2UiLCB0eXBlOiAiYnl0ZXMzMiIgfSwKICBdLAp9IGFzIGNvbnN0OwoKZXhwb3J0IGludGVyZmFjZSBDaGVja291dEF1dGhvcml6YXRpb24gewogIGZyb206IEFkZHJlc3M7CiAgLyoqIE11c3QgYmUgdGhlIENoZWNrb3V0IGNvbnRyYWN0LiAqLwogIHRvOiBBZGRyZXNzOwogIHZhbHVlOiBiaWdpbnQ7CiAgdmFsaWRBZnRlcjogYmlnaW50OwogIHZhbGlkQmVmb3JlOiBiaWdpbnQ7CiAgLyoqIE11c3QgYmUgYENoZWNrb3V0LmF1dGhvcml6YXRpb25Ob25jZShvcmRlcklkKWAuICovCiAgbm9uY2U6IEhleDsKfQoKLyoqCiAqIFR5cGVkIGRhdGEgZm9yIGBzaWduVHlwZWREYXRhYCAodmllbSAvIHdhZ21pKS4gUGFzcyB0aGUgcmVzdWx0IHN0cmFpZ2h0IHRvIHRoZSB3YWxsZXQuCiAqCiAqICAgY29uc3Qgc2lnID0gYXdhaXQgd2FsbGV0Q2xpZW50LnNpZ25UeXBlZERhdGEoeyBhY2NvdW50LCAuLi5jaGVja291dFR5cGVkRGF0YSguLi4pIH0pCiAqLwpleHBvcnQgZnVuY3Rpb24gY2hlY2tvdXRUeXBlZERhdGEoY2hhaW5JZDogbnVtYmVyLCB0b2tlbjogQWRkcmVzcywgbWVzc2FnZTogQ2hlY2tvdXRBdXRob3JpemF0aW9uKSB7CiAgcmV0dXJuIHsKICAgIGRvbWFpbjogdHVzZDhEb21haW4oY2hhaW5JZCwgdG9rZW4pLAogICAgdHlwZXM6IHJlY2VpdmVXaXRoQXV0aG9yaXphdGlvblR5cGVzLAogICAgcHJpbWFyeVR5cGU6ICJSZWNlaXZlV2l0aEF1dGhvcml6YXRpb24iIGFzIGNvbnN0LAogICAgbWVzc2FnZSwKICB9Owp9CgovKiogQSBzaWduYXR1cmUgd2luZG93IHRoYXQgaXMgdmFsaWQgYXQgb25jZSAodmFsaWRBZnRlciA9IDAsIHNvIGNsb2NrIGRyaWZ0IGNhbid0IHJlamVjdCBpdCkgYW5kIGxhc3RzIGBzZWNvbmRzYC4gKi8KZXhwb3J0IGZ1bmN0aW9uIGF1dGhvcml6YXRpb25XaW5kb3coc2Vjb25kcyA9IDYwMCwgbm93TXMgPSBEYXRlLm5vdygpKSB7CiAgY29uc3Qgbm93ID0gQmlnSW50KE1hdGguZmxvb3Iobm93TXMgLyAxMDAwKSk7CiAgcmV0dXJuIHsgdmFsaWRBZnRlcjogMG4sIHZhbGlkQmVmb3JlOiBub3cgKyBCaWdJbnQoc2Vjb25kcykgfTsKfQo=
+import type { Address, Hex } from "viem";
+import { tusd8Domain } from "./contracts";
+
+/** EIP-712 types for the message a buyer signs to pay `Checkout.payWithAuthorization`. */
+export const receiveWithAuthorizationTypes = {
+  ReceiveWithAuthorization: [
+    { name: "from", type: "address" },
+    { name: "to", type: "address" },
+    { name: "value", type: "uint256" },
+    { name: "validAfter", type: "uint256" },
+    { name: "validBefore", type: "uint256" },
+    { name: "nonce", type: "bytes32" },
+  ],
+} as const;
+
+export interface CheckoutAuthorization {
+  from: Address;
+  /** Must be the Checkout contract. */
+  to: Address;
+  value: bigint;
+  validAfter: bigint;
+  validBefore: bigint;
+  /** Must be `Checkout.authorizationNonce(orderId)`. */
+  nonce: Hex;
+}
+
+/**
+ * Typed data for `signTypedData` (viem / wagmi). Pass the result straight to the wallet.
+ *
+ *   const sig = await walletClient.signTypedData({ account, ...checkoutTypedData(...) })
+ */
+export function checkoutTypedData(chainId: number, token: Address, message: CheckoutAuthorization) {
+  return {
+    domain: tusd8Domain(chainId, token),
+    types: receiveWithAuthorizationTypes,
+    primaryType: "ReceiveWithAuthorization" as const,
+    message,
+  };
+}
+
+/** A signature window that is valid at once (validAfter = 0, so clock drift can't reject it) and lasts `seconds`. */
+export function authorizationWindow(seconds = 600, nowMs = Date.now()) {
+  const now = BigInt(Math.floor(nowMs / 1000));
+  return { validAfter: 0n, validBefore: now + BigInt(seconds) };
+}
