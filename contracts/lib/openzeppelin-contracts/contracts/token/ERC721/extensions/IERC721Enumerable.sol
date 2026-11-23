@@ -1,1 +1,29 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMC4wKSAodG9rZW4vRVJDNzIxL2V4dGVuc2lvbnMvSUVSQzcyMUVudW1lcmFibGUuc29sKQoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0lFUkM3MjF9IGZyb20gIi4uL0lFUkM3MjEuc29sIjsKCi8qKgogKiBAdGl0bGUgRVJDLTcyMSBOb24tRnVuZ2libGUgVG9rZW4gU3RhbmRhcmQsIG9wdGlvbmFsIGVudW1lcmF0aW9uIGV4dGVuc2lvbgogKiBAZGV2IFNlZSBodHRwczovL2VpcHMuZXRoZXJldW0ub3JnL0VJUFMvZWlwLTcyMQogKi8KaW50ZXJmYWNlIElFUkM3MjFFbnVtZXJhYmxlIGlzIElFUkM3MjEgewogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIHRvdGFsIGFtb3VudCBvZiB0b2tlbnMgc3RvcmVkIGJ5IHRoZSBjb250cmFjdC4KICAgICAqLwogICAgZnVuY3Rpb24gdG90YWxTdXBwbHkoKSBleHRlcm5hbCB2aWV3IHJldHVybnMgKHVpbnQyNTYpOwoKICAgIC8qKgogICAgICogQGRldiBSZXR1cm5zIGEgdG9rZW4gSUQgb3duZWQgYnkgYG93bmVyYCBhdCBhIGdpdmVuIGBpbmRleGAgb2YgaXRzIHRva2VuIGxpc3QuCiAgICAgKiBVc2UgYWxvbmcgd2l0aCB7YmFsYW5jZU9mfSB0byBlbnVtZXJhdGUgYWxsIG9mIGBgb3duZXJgYCdzIHRva2Vucy4KICAgICAqLwogICAgZnVuY3Rpb24gdG9rZW5PZk93bmVyQnlJbmRleChhZGRyZXNzIG93bmVyLCB1aW50MjU2IGluZGV4KSBleHRlcm5hbCB2aWV3IHJldHVybnMgKHVpbnQyNTYpOwoKICAgIC8qKgogICAgICogQGRldiBSZXR1cm5zIGEgdG9rZW4gSUQgYXQgYSBnaXZlbiBgaW5kZXhgIG9mIGFsbCB0aGUgdG9rZW5zIHN0b3JlZCBieSB0aGUgY29udHJhY3QuCiAgICAgKiBVc2UgYWxvbmcgd2l0aCB7dG90YWxTdXBwbHl9IHRvIGVudW1lcmF0ZSBhbGwgdG9rZW5zLgogICAgICovCiAgICBmdW5jdGlvbiB0b2tlbkJ5SW5kZXgodWludDI1NiBpbmRleCkgZXh0ZXJuYWwgdmlldyByZXR1cm5zICh1aW50MjU2KTsKfQo=
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.0.0) (token/ERC721/extensions/IERC721Enumerable.sol)
+
+pragma solidity ^0.8.20;
+
+import {IERC721} from "../IERC721.sol";
+
+/**
+ * @title ERC-721 Non-Fungible Token Standard, optional enumeration extension
+ * @dev See https://eips.ethereum.org/EIPS/eip-721
+ */
+interface IERC721Enumerable is IERC721 {
+    /**
+     * @dev Returns the total amount of tokens stored by the contract.
+     */
+    function totalSupply() external view returns (uint256);
+
+    /**
+     * @dev Returns a token ID owned by `owner` at a given `index` of its token list.
+     * Use along with {balanceOf} to enumerate all of ``owner``'s tokens.
+     */
+    function tokenOfOwnerByIndex(address owner, uint256 index) external view returns (uint256);
+
+    /**
+     * @dev Returns a token ID at a given `index` of all the tokens stored by the contract.
+     * Use along with {totalSupply} to enumerate all tokens.
+     */
+    function tokenByIndex(uint256 index) external view returns (uint256);
+}
