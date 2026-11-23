@@ -1,1 +1,7 @@
-bW9kdWxlLmV4cG9ydHMgPSAoeyBnaXRodWIsIGNvbnRleHQgfSkgPT4KICBnaXRodWIucmVzdC5hY3Rpb25zLmNyZWF0ZVdvcmtmbG93RGlzcGF0Y2goewogICAgb3duZXI6IGNvbnRleHQucmVwby5vd25lciwKICAgIHJlcG86IGNvbnRleHQucmVwby5yZXBvLAogICAgd29ya2Zsb3dfaWQ6ICdyZWxlYXNlLWN5Y2xlLnltbCcsCiAgICByZWY6IHByb2Nlc3MuZW52LlJFRiB8fCBwcm9jZXNzLmVudi5HSVRIVUJfUkVGX05BTUUsCiAgfSk7Cg==
+module.exports = ({ github, context }) =>
+  github.rest.actions.createWorkflowDispatch({
+    owner: context.repo.owner,
+    repo: context.repo.repo,
+    workflow_id: 'release-cycle.yml',
+    ref: process.env.REF || process.env.GITHUB_REF_NAME,
+  });
