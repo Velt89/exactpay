@@ -1,1 +1,3 @@
-bW9kdWxlLmV4cG9ydHMgPSB7CiAgU0laRVM6IFsxLCAyLCA0LCA2LCA4LCAxMiwgMTYsIDIwLCAyNCwgMjgsIDMyXSwKfTsK
+module.exports = {
+  SIZES: [1, 2, 4, 6, 8, 12, 16, 20, 24, 28, 32],
+};
