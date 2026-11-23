@@ -1,1 +1,26 @@
-IyEvdXNyL2Jpbi9lbnYgYmFzaAoKc2V0IC1ldW8gcGlwZWZhaWwKClBBQ0tBR0VfSlNPTl9OQU1FPSIkKHRhciB4Zk8gIiRUQVJCQUxMIiBwYWNrYWdlL3BhY2thZ2UuanNvbiB8IGpxIC1yIC5uYW1lKSIKUEFDS0FHRV9KU09OX1ZFUlNJT049IiQodGFyIHhmTyAiJFRBUkJBTEwiIHBhY2thZ2UvcGFja2FnZS5qc29uIHwganEgLXIgLnZlcnNpb24pIgoKIyBJbnRlbnRpb25hbGx5IGVzY2FwZSAkIHRvIGF2b2lkIGludGVycG9sYXRpb24gYW5kIHdyaXRpbmcgdGhlIHRva2VuIHRvIGRpc2sKZWNobyAiLy9yZWdpc3RyeS5ucG1qcy5vcmcvOl9hdXRoVG9rZW49XCR7TlBNX1RPS0VOfSIgPiAubnBtcmMKCiMgQWN0dWFsIHB1Ymxpc2gKbnBtIHB1Ymxpc2ggIiRUQVJCQUxMIiAtLXRhZyAiJFRBRyIKCiMgQ2xlYW4gdXAgdGFncwpkZWxldGVfdGFnKCkgewogIG5wbSBkaXN0LXRhZyBybSAiJFBBQ0tBR0VfSlNPTl9OQU1FIiAiJDEiCn0KCmlmIFsgIiRUQUciID0gdG1wIF07IHRoZW4KICBkZWxldGVfdGFnICIkVEFHIgplbGlmIFsgIiRUQUciID0gbGF0ZXN0IF07IHRoZW4KICAjIERlbGV0ZSB0aGUgbmV4dCB0YWcgaWYgaXQgZXhpc3RzIGFuZCBpcyBhIHByZXJlbGVhc2UgZm9yIHdoYXQgaXMgY3VycmVudGx5IGJlaW5nIHB1Ymxpc2hlZAogIGlmIG5wbSBkaXN0LXRhZyBscyAiJFBBQ0tBR0VfSlNPTl9OQU1FIiB8IGdyZXAgLXEgIm5leHQ6ICRQQUNLQUdFX0pTT05fVkVSU0lPTiI7IHRoZW4KICAgIGRlbGV0ZV90YWcgbmV4dAogIGZpCmZpCg==
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+PACKAGE_JSON_NAME="$(tar xfO "$TARBALL" package/package.json | jq -r .name)"
+PACKAGE_JSON_VERSION="$(tar xfO "$TARBALL" package/package.json | jq -r .version)"
+
+# Intentionally escape $ to avoid interpolation and writing the token to disk
+echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" > .npmrc
+
+# Actual publish
+npm publish "$TARBALL" --tag "$TAG"
+
+# Clean up tags
+delete_tag() {
+  npm dist-tag rm "$PACKAGE_JSON_NAME" "$1"
+}
+
+if [ "$TAG" = tmp ]; then
+  delete_tag "$TAG"
+elif [ "$TAG" = latest ]; then
+  # Delete the next tag if it exists and is a prerelease for what is currently being published
+  if npm dist-tag ls "$PACKAGE_JSON_NAME" | grep -q "next: $PACKAGE_JSON_VERSION"; then
+    delete_tag next
+  fi
+fi
