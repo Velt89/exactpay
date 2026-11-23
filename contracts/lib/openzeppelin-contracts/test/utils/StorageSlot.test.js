@@ -1,1 +1,73 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwpjb25zdCB7IGdlbmVyYXRvcnMgfSA9IHJlcXVpcmUoJy4uL2hlbHBlcnMvcmFuZG9tJyk7Cgpjb25zdCBzbG90ID0gZXRoZXJzLmlkKCdzb21lLnN0b3JhZ2Uuc2xvdCcpOwpjb25zdCBvdGhlclNsb3QgPSBldGhlcnMuaWQoJ3NvbWUub3RoZXIuc3RvcmFnZS5zbG90Jyk7Cgpjb25zdCBUWVBFUyA9IFsKICB7IG5hbWU6ICdCb29sZWFuJywgdHlwZTogJ2Jvb2wnLCB2YWx1ZTogdHJ1ZSwgaXNWYWx1ZVR5cGU6IHRydWUsIHplcm86IGZhbHNlIH0sCiAgeyBuYW1lOiAnQWRkcmVzcycsIHR5cGU6ICdhZGRyZXNzJywgdmFsdWU6IGdlbmVyYXRvcnMuYWRkcmVzcygpLCBpc1ZhbHVlVHlwZTogdHJ1ZSwgemVybzogZ2VuZXJhdG9ycy5hZGRyZXNzLnplcm8gfSwKICB7IG5hbWU6ICdCeXRlczMyJywgdHlwZTogJ2J5dGVzMzInLCB2YWx1ZTogZ2VuZXJhdG9ycy5ieXRlczMyKCksIGlzVmFsdWVUeXBlOiB0cnVlLCB6ZXJvOiBnZW5lcmF0b3JzLmJ5dGVzMzIuemVybyB9LAogIHsgbmFtZTogJ1VpbnQyNTYnLCB0eXBlOiAndWludDI1NicsIHZhbHVlOiBnZW5lcmF0b3JzLnVpbnQyNTYoKSwgaXNWYWx1ZVR5cGU6IHRydWUsIHplcm86IGdlbmVyYXRvcnMudWludDI1Ni56ZXJvIH0sCiAgeyBuYW1lOiAnSW50MjU2JywgdHlwZTogJ2ludDI1NicsIHZhbHVlOiBnZW5lcmF0b3JzLmludDI1NigpLCBpc1ZhbHVlVHlwZTogdHJ1ZSwgemVybzogZ2VuZXJhdG9ycy5pbnQyNTYuemVybyB9LAogIHsgbmFtZTogJ0J5dGVzJywgdHlwZTogJ2J5dGVzJywgdmFsdWU6IGdlbmVyYXRvcnMuaGV4Qnl0ZXMoMTI4KSwgaXNWYWx1ZVR5cGU6IGZhbHNlLCB6ZXJvOiBnZW5lcmF0b3JzLmhleEJ5dGVzLnplcm8gfSwKICB7IG5hbWU6ICdTdHJpbmcnLCB0eXBlOiAnc3RyaW5nJywgdmFsdWU6ICdsb3JlbSBpcHN1bScsIGlzVmFsdWVUeXBlOiBmYWxzZSwgemVybzogJycgfSwKXTsKCmFzeW5jIGZ1bmN0aW9uIGZpeHR1cmUoKSB7CiAgcmV0dXJuIHsgbW9jazogYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCdTdG9yYWdlU2xvdE1vY2snKSB9Owp9CgpkZXNjcmliZSgnU3RvcmFnZVNsb3QnLCBmdW5jdGlvbiAoKSB7CiAgYmVmb3JlRWFjaChhc3luYyBmdW5jdGlvbiAoKSB7CiAgICBPYmplY3QuYXNzaWduKHRoaXMsIGF3YWl0IGxvYWRGaXh0dXJlKGZpeHR1cmUpKTsKICB9KTsKCiAgZm9yIChjb25zdCB7IG5hbWUsIHR5cGUsIHZhbHVlLCB6ZXJvIH0gb2YgVFlQRVMpIHsKICAgIGRlc2NyaWJlKGAke3R5cGV9IHN0b3JhZ2Ugc2xvdGAsIGZ1bmN0aW9uICgpIHsKICAgICAgaXQoJ3NldCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBhd2FpdCB0aGlzLm1vY2suZ2V0RnVuY3Rpb24oYHNldCR7bmFtZX1TbG90YCkoc2xvdCwgdmFsdWUpOwogICAgICB9KTsKCiAgICAgIGRlc2NyaWJlKCdnZXQnLCBmdW5jdGlvbiAoKSB7CiAgICAgICAgYmVmb3JlRWFjaChhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICBhd2FpdCB0aGlzLm1vY2suZ2V0RnVuY3Rpb24oYHNldCR7bmFtZX1TbG90YCkoc2xvdCwgdmFsdWUpOwogICAgICAgIH0pOwoKICAgICAgICBpdCgnZnJvbSByaWdodCBzbG90JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay5nZXRGdW5jdGlvbihgZ2V0JHtuYW1lfVNsb3RgKShzbG90KSkudG8uZXF1YWwodmFsdWUpOwogICAgICAgIH0pOwoKICAgICAgICBpdCgnZnJvbSBvdGhlciBzbG90JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay5nZXRGdW5jdGlvbihgZ2V0JHtuYW1lfVNsb3RgKShvdGhlclNsb3QpKS50by5lcXVhbCh6ZXJvKTsKICAgICAgICB9KTsKICAgICAgfSk7CiAgICB9KTsKICB9CgogIGZvciAoY29uc3QgeyBuYW1lLCB0eXBlLCB2YWx1ZSwgemVybyB9IG9mIFRZUEVTLmZpbHRlcih0eXBlID0+ICF0eXBlLmlzVmFsdWVUeXBlKSkgewogICAgZGVzY3JpYmUoYCR7dHlwZX0gc3RvcmFnZSBwb2ludGVyYCwgZnVuY3Rpb24gKCkgewogICAgICBpdCgnc2V0JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGF3YWl0IHRoaXMubW9jay5nZXRGdW5jdGlvbihgc2V0JHtuYW1lfVN0b3JhZ2VgKShzbG90LCB2YWx1ZSk7CiAgICAgIH0pOwoKICAgICAgZGVzY3JpYmUoJ2dldCcsIGZ1bmN0aW9uICgpIHsKICAgICAgICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGF3YWl0IHRoaXMubW9jay5nZXRGdW5jdGlvbihgc2V0JHtuYW1lfVN0b3JhZ2VgKShzbG90LCB2YWx1ZSk7CiAgICAgICAgfSk7CgogICAgICAgIGl0KCdmcm9tIHJpZ2h0IHNsb3QnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLmdldEZ1bmN0aW9uKGAke3R5cGV9TWFwYCkoc2xvdCkpLnRvLmVxdWFsKHZhbHVlKTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suZ2V0RnVuY3Rpb24oYGdldCR7bmFtZX1TdG9yYWdlYCkoc2xvdCkpLnRvLmVxdWFsKHZhbHVlKTsKICAgICAgICB9KTsKCiAgICAgICAgaXQoJ2Zyb20gb3RoZXIgc2xvdCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suZ2V0RnVuY3Rpb24oYCR7dHlwZX1NYXBgKShvdGhlclNsb3QpKS50by5lcXVhbCh6ZXJvKTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suZ2V0RnVuY3Rpb24oYGdldCR7bmFtZX1TdG9yYWdlYCkob3RoZXJTbG90KSkudG8uZXF1YWwoemVybyk7CiAgICAgICAgfSk7CiAgICAgIH0pOwogICAgfSk7CiAgfQp9KTsK
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+const { generators } = require('../helpers/random');
+
+const slot = ethers.id('some.storage.slot');
+const otherSlot = ethers.id('some.other.storage.slot');
+
+const TYPES = [
+  { name: 'Boolean', type: 'bool', value: true, isValueType: true, zero: false },
+  { name: 'Address', type: 'address', value: generators.address(), isValueType: true, zero: generators.address.zero },
+  { name: 'Bytes32', type: 'bytes32', value: generators.bytes32(), isValueType: true, zero: generators.bytes32.zero },
+  { name: 'Uint256', type: 'uint256', value: generators.uint256(), isValueType: true, zero: generators.uint256.zero },
+  { name: 'Int256', type: 'int256', value: generators.int256(), isValueType: true, zero: generators.int256.zero },
+  { name: 'Bytes', type: 'bytes', value: generators.hexBytes(128), isValueType: false, zero: generators.hexBytes.zero },
+  { name: 'String', type: 'string', value: 'lorem ipsum', isValueType: false, zero: '' },
+];
+
+async function fixture() {
+  return { mock: await ethers.deployContract('StorageSlotMock') };
+}
+
+describe('StorageSlot', function () {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  for (const { name, type, value, zero } of TYPES) {
+    describe(`${type} storage slot`, function () {
+      it('set', async function () {
+        await this.mock.getFunction(`set${name}Slot`)(slot, value);
+      });
+
+      describe('get', function () {
+        beforeEach(async function () {
+          await this.mock.getFunction(`set${name}Slot`)(slot, value);
+        });
+
+        it('from right slot', async function () {
+          expect(await this.mock.getFunction(`get${name}Slot`)(slot)).to.equal(value);
+        });
+
+        it('from other slot', async function () {
+          expect(await this.mock.getFunction(`get${name}Slot`)(otherSlot)).to.equal(zero);
+        });
+      });
+    });
+  }
+
+  for (const { name, type, value, zero } of TYPES.filter(type => !type.isValueType)) {
+    describe(`${type} storage pointer`, function () {
+      it('set', async function () {
+        await this.mock.getFunction(`set${name}Storage`)(slot, value);
+      });
+
+      describe('get', function () {
+        beforeEach(async function () {
+          await this.mock.getFunction(`set${name}Storage`)(slot, value);
+        });
+
+        it('from right slot', async function () {
+          expect(await this.mock.getFunction(`${type}Map`)(slot)).to.equal(value);
+          expect(await this.mock.getFunction(`get${name}Storage`)(slot)).to.equal(value);
+        });
+
+        it('from other slot', async function () {
+          expect(await this.mock.getFunction(`${type}Map`)(otherSlot)).to.equal(zero);
+          expect(await this.mock.getFunction(`get${name}Storage`)(otherSlot)).to.equal(zero);
+        });
+      });
+    });
+  }
+});
