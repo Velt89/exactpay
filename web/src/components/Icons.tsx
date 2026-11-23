@@ -1,1 +1,17 @@
-Y29uc3QgYmFzZSA9IHsgd2lkdGg6IDE0LCBoZWlnaHQ6IDE0LCB2aWV3Qm94OiAiMCAwIDI0IDI0IiwgZmlsbDogIm5vbmUiLCBzdHJva2U6ICJjdXJyZW50Q29sb3IiLCBzdHJva2VXaWR0aDogMywgc3Ryb2tlTGluZWNhcDogInJvdW5kIiBhcyBjb25zdCwgc3Ryb2tlTGluZWpvaW46ICJyb3VuZCIgYXMgY29uc3QsICJhcmlhLWhpZGRlbiI6IHRydWUgfTsKCmV4cG9ydCBjb25zdCBDaGVja0ljb24gPSAoKSA9PiAoCiAgPHN2ZyB7Li4uYmFzZX0+PHBhdGggZD0iTTUgMTJsNSA1TDIwIDciIC8+PC9zdmc+Cik7CmV4cG9ydCBjb25zdCBXYXJuSWNvbiA9ICgpID0+ICgKICA8c3ZnIHsuLi5iYXNlfT48cGF0aCBkPSJNMTIgN3Y2IiAvPjxwYXRoIGQ9Ik0xMiAxN2guMDEiIC8+PC9zdmc+Cik7CmV4cG9ydCBjb25zdCBDcm9zc0ljb24gPSAoKSA9PiAoCiAgPHN2ZyB7Li4uYmFzZX0+PHBhdGggZD0iTTcgN2wxMCAxME0xNyA3TDcgMTciIC8+PC9zdmc+Cik7CgpleHBvcnQgY29uc3QgR2l0SHViSWNvbiA9ICh7IHNpemUgPSAxOCB9OiB7IHNpemU/OiBudW1iZXIgfSkgPT4gKAogIDxzdmcgd2lkdGg9e3NpemV9IGhlaWdodD17c2l6ZX0gdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJjdXJyZW50Q29sb3IiIGFyaWEtaGlkZGVuPSJ0cnVlIj4KICAgIDxwYXRoIGQ9Ik0xMiAuNUM1LjY1LjUuNSA1LjY1LjUgMTJjMCA1LjA4IDMuMjkgOS4zOSA3Ljg2IDEwLjkxLjU4LjExLjc5LS4yNS43OS0uNTYgMC0uMjctLjAxLTEtLjAyLTEuOTYtMy4yLjctMy44Ny0xLjU0LTMuODctMS41NC0uNTItMS4zMy0xLjI4LTEuNjgtMS4yOC0xLjY4LTEuMDUtLjcyLjA4LS43LjA4LS43IDEuMTYuMDggMS43NyAxLjE5IDEuNzcgMS4xOSAxLjAzIDEuNzYgMi43IDEuMjUgMy4zNi45Ni4xLS43NS40LTEuMjUuNzMtMS41NC0yLjU1LS4yOS01LjI0LTEuMjgtNS4yNC01LjY5IDAtMS4yNi40NS0yLjI5IDEuMTktMy4wOS0uMTItLjI5LS41Mi0xLjQ2LjExLTMuMDUgMCAwIC45Ny0uMzEgMy4xOCAxLjE4YTExLjA0IDExLjA0IDAgMCAxIDUuOCAwYzIuMi0xLjQ5IDMuMTctMS4xOCAzLjE3LTEuMTguNjMgMS41OS4yMyAyLjc2LjExIDMuMDUuNzQuOCAxLjE5IDEuODMgMS4xOSAzLjA5IDAgNC40Mi0yLjY5IDUuMzktNS4yNSA1LjY4LjQxLjM2Ljc4IDEuMDYuNzggMi4xMyAwIDEuNTQtLjAxIDIuNzgtLjAxIDMuMTYgMCAuMzEuMjEuNjguOC41NkExMS41IDExLjUgMCAwIDAgMjMuNSAxMkMyMy41IDUuNjUgMTguMzUuNSAxMiAuNXoiIC8+CiAgPC9zdmc+Cik7Cg==
+const base = { width: 14, height: 14, viewBox: "0 0 24 24", fill: "none", stroke: "currentColor", strokeWidth: 3, strokeLinecap: "round" as const, strokeLinejoin: "round" as const, "aria-hidden": true };
+
+export const CheckIcon = () => (
+  <svg {...base}><path d="M5 12l5 5L20 7" /></svg>
+);
+export const WarnIcon = () => (
+  <svg {...base}><path d="M12 7v6" /><path d="M12 17h.01" /></svg>
+);
+export const CrossIcon = () => (
+  <svg {...base}><path d="M7 7l10 10M17 7L7 17" /></svg>
+);
+
+export const GitHubIcon = ({ size = 18 }: { size?: number }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56 0-.27-.01-1-.02-1.96-3.2.7-3.87-1.54-3.87-1.54-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.04 11.04 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.8 1.19 1.83 1.19 3.09 0 4.42-2.69 5.39-5.25 5.68.41.36.78 1.06.78 2.13 0 1.54-.01 2.78-.01 3.16 0 .31.21.68.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z" />
+  </svg>
+);
