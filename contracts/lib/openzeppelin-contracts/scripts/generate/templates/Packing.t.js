@@ -1,1 +1,48 @@
-Y29uc3QgZm9ybWF0ID0gcmVxdWlyZSgnLi4vZm9ybWF0LWxpbmVzJyk7CmNvbnN0IHsgcHJvZHVjdCB9ID0gcmVxdWlyZSgnLi4vLi4vaGVscGVycycpOwpjb25zdCB7IFNJWkVTIH0gPSByZXF1aXJlKCcuL1BhY2tpbmcub3B0cycpOwoKLy8gVEVNUExBVEUKY29uc3QgaGVhZGVyID0gYFwKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge1Rlc3R9IGZyb20gImZvcmdlLXN0ZC9UZXN0LnNvbCI7CmltcG9ydCB7UGFja2luZ30gZnJvbSAiQG9wZW56ZXBwZWxpbi9jb250cmFjdHMvdXRpbHMvUGFja2luZy5zb2wiOwpgOwoKY29uc3QgdGVzdFBhY2sgPSAobGVmdCwgcmlnaHQpID0+IGBcCmZ1bmN0aW9uIHRlc3RQYWNrKGJ5dGVzJHtsZWZ0fSBsZWZ0LCBieXRlcyR7cmlnaHR9IHJpZ2h0KSBleHRlcm5hbCB7CiAgICBhc3NlcnRFcShsZWZ0LCBQYWNraW5nLnBhY2tfJHtsZWZ0fV8ke3JpZ2h0fShsZWZ0LCByaWdodCkuZXh0cmFjdF8ke2xlZnQgKyByaWdodH1fJHtsZWZ0fSgwKSk7CiAgICBhc3NlcnRFcShyaWdodCwgUGFja2luZy5wYWNrXyR7bGVmdH1fJHtyaWdodH0obGVmdCwgcmlnaHQpLmV4dHJhY3RfJHtsZWZ0ICsgcmlnaHR9XyR7cmlnaHR9KCR7bGVmdH0pKTsKfQpgOwoKY29uc3QgdGVzdFJlcGxhY2UgPSAob3V0ZXIsIGlubmVyKSA9PiBgXApmdW5jdGlvbiB0ZXN0UmVwbGFjZShieXRlcyR7b3V0ZXJ9IGNvbnRhaW5lciwgYnl0ZXMke2lubmVyfSBuZXdWYWx1ZSwgdWludDggb2Zmc2V0KSBleHRlcm5hbCB7CiAgICBvZmZzZXQgPSB1aW50OChib3VuZChvZmZzZXQsIDAsICR7b3V0ZXIgLSBpbm5lcn0pKTsKCiAgICBieXRlcyR7aW5uZXJ9IG9sZFZhbHVlID0gY29udGFpbmVyLmV4dHJhY3RfJHtvdXRlcn1fJHtpbm5lcn0ob2Zmc2V0KTsKCiAgICBhc3NlcnRFcShuZXdWYWx1ZSwgY29udGFpbmVyLnJlcGxhY2VfJHtvdXRlcn1fJHtpbm5lcn0obmV3VmFsdWUsIG9mZnNldCkuZXh0cmFjdF8ke291dGVyfV8ke2lubmVyfShvZmZzZXQpKTsKICAgIGFzc2VydEVxKGNvbnRhaW5lciwgY29udGFpbmVyLnJlcGxhY2VfJHtvdXRlcn1fJHtpbm5lcn0obmV3VmFsdWUsIG9mZnNldCkucmVwbGFjZV8ke291dGVyfV8ke2lubmVyfShvbGRWYWx1ZSwgb2Zmc2V0KSk7Cn0KYDsKCi8vIEdFTkVSQVRFCm1vZHVsZS5leHBvcnRzID0gZm9ybWF0KAogIGhlYWRlciwKICAnY29udHJhY3QgUGFja2luZ1Rlc3QgaXMgVGVzdCB7JywKICBmb3JtYXQoCiAgICBbXS5jb25jYXQoCiAgICAgICd1c2luZyBQYWNraW5nIGZvciAqOycsCiAgICAgICcnLAogICAgICBwcm9kdWN0KFNJWkVTLCBTSVpFUykKICAgICAgICAuZmlsdGVyKChbbGVmdCwgcmlnaHRdKSA9PiBTSVpFUy5pbmNsdWRlcyhsZWZ0ICsgcmlnaHQpKQogICAgICAgIC5tYXAoKFtsZWZ0LCByaWdodF0pID0+IHRlc3RQYWNrKGxlZnQsIHJpZ2h0KSksCiAgICAgIHByb2R1Y3QoU0laRVMsIFNJWkVTKQogICAgICAgIC5maWx0ZXIoKFtvdXRlciwgaW5uZXJdKSA9PiBvdXRlciA+IGlubmVyKQogICAgICAgIC5tYXAoKFtvdXRlciwgaW5uZXJdKSA9PiB0ZXN0UmVwbGFjZShvdXRlciwgaW5uZXIpKSwKICAgICksCiAgKS50cmltRW5kKCksCiAgJ30nLAopOwo=
+const format = require('../format-lines');
+const { product } = require('../../helpers');
+const { SIZES } = require('./Packing.opts');
+
+// TEMPLATE
+const header = `\
+pragma solidity ^0.8.20;
+
+import {Test} from "forge-std/Test.sol";
+import {Packing} from "@openzeppelin/contracts/utils/Packing.sol";
+`;
+
+const testPack = (left, right) => `\
+function testPack(bytes${left} left, bytes${right} right) external {
+    assertEq(left, Packing.pack_${left}_${right}(left, right).extract_${left + right}_${left}(0));
+    assertEq(right, Packing.pack_${left}_${right}(left, right).extract_${left + right}_${right}(${left}));
+}
+`;
+
+const testReplace = (outer, inner) => `\
+function testReplace(bytes${outer} container, bytes${inner} newValue, uint8 offset) external {
+    offset = uint8(bound(offset, 0, ${outer - inner}));
+
+    bytes${inner} oldValue = container.extract_${outer}_${inner}(offset);
+
+    assertEq(newValue, container.replace_${outer}_${inner}(newValue, offset).extract_${outer}_${inner}(offset));
+    assertEq(container, container.replace_${outer}_${inner}(newValue, offset).replace_${outer}_${inner}(oldValue, offset));
+}
+`;
+
+// GENERATE
+module.exports = format(
+  header,
+  'contract PackingTest is Test {',
+  format(
+    [].concat(
+      'using Packing for *;',
+      '',
+      product(SIZES, SIZES)
+        .filter(([left, right]) => SIZES.includes(left + right))
+        .map(([left, right]) => testPack(left, right)),
+      product(SIZES, SIZES)
+        .filter(([outer, inner]) => outer > inner)
+        .map(([outer, inner]) => testReplace(outer, inner)),
+    ),
+  ).trimEnd(),
+  '}',
+);
