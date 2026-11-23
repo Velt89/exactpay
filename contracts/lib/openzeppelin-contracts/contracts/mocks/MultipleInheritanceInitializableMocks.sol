@@ -1,1 +1,131 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0luaXRpYWxpemFibGV9IGZyb20gIi4uL3Byb3h5L3V0aWxzL0luaXRpYWxpemFibGUuc29sIjsKCi8vIFNhbXBsZSBjb250cmFjdHMgc2hvd2luZyB1cGdyYWRlYWJpbGl0eSB3aXRoIG11bHRpcGxlIGluaGVyaXRhbmNlLgovLyBDaGlsZCBjb250cmFjdCBpbmhlcml0cyBmcm9tIEZhdGhlciBhbmQgTW90aGVyIGNvbnRyYWN0cywgYW5kIEZhdGhlciBleHRlbmRzIGZyb20gR3JhbXBzLgovLwovLyAgICAgICAgIEh1bWFuCi8vICAgICAgIC8gICAgICAgXAovLyAgICAgIHwgICAgICAgR3JhbXBzCi8vICAgICAgfCAgICAgICAgIHwKLy8gICAgTW90aGVyICAgIEZhdGhlcgovLyAgICAgIHwgICAgICAgICB8Ci8vICAgICAgLS0gQ2hpbGQgLS0KCi8qKgogKiBTYW1wbGUgYmFzZSBpbml0aWFsaXphYmxlIGNvbnRyYWN0IHRoYXQgaXMgYSBodW1hbgogKi8KY29udHJhY3QgU2FtcGxlSHVtYW4gaXMgSW5pdGlhbGl6YWJsZSB7CiAgICBib29sIHB1YmxpYyBpc0h1bWFuOwoKICAgIGZ1bmN0aW9uIGluaXRpYWxpemUoKSBwdWJsaWMgaW5pdGlhbGl6ZXIgewogICAgICAgIF9fU2FtcGxlSHVtYW5faW5pdCgpOwogICAgfQoKICAgIC8vIHNvbGhpbnQtZGlzYWJsZS1uZXh0LWxpbmUgZnVuYy1uYW1lLW1peGVkY2FzZQogICAgZnVuY3Rpb24gX19TYW1wbGVIdW1hbl9pbml0KCkgaW50ZXJuYWwgb25seUluaXRpYWxpemluZyB7CiAgICAgICAgX19TYW1wbGVIdW1hbl9pbml0X3VuY2hhaW5lZCgpOwogICAgfQoKICAgIC8vIHNvbGhpbnQtZGlzYWJsZS1uZXh0LWxpbmUgZnVuYy1uYW1lLW1peGVkY2FzZQogICAgZnVuY3Rpb24gX19TYW1wbGVIdW1hbl9pbml0X3VuY2hhaW5lZCgpIGludGVybmFsIG9ubHlJbml0aWFsaXppbmcgewogICAgICAgIGlzSHVtYW4gPSB0cnVlOwogICAgfQp9CgovKioKICogU2FtcGxlIGJhc2UgaW5pdGlhbGl6YWJsZSBjb250cmFjdCB0aGF0IGRlZmluZXMgYSBmaWVsZCBtb3RoZXIKICovCmNvbnRyYWN0IFNhbXBsZU1vdGhlciBpcyBJbml0aWFsaXphYmxlLCBTYW1wbGVIdW1hbiB7CiAgICB1aW50MjU2IHB1YmxpYyBtb3RoZXI7CgogICAgZnVuY3Rpb24gaW5pdGlhbGl6ZSh1aW50MjU2IHZhbHVlKSBwdWJsaWMgaW5pdGlhbGl6ZXIgewogICAgICAgIF9fU2FtcGxlTW90aGVyX2luaXQodmFsdWUpOwogICAgfQoKICAgIC8vIHNvbGhpbnQtZGlzYWJsZS1uZXh0LWxpbmUgZnVuYy1uYW1lLW1peGVkY2FzZQogICAgZnVuY3Rpb24gX19TYW1wbGVNb3RoZXJfaW5pdCh1aW50MjU2IHZhbHVlKSBpbnRlcm5hbCBvbmx5SW5pdGlhbGl6aW5nIHsKICAgICAgICBfX1NhbXBsZUh1bWFuX2luaXQoKTsKICAgICAgICBfX1NhbXBsZU1vdGhlcl9pbml0X3VuY2hhaW5lZCh2YWx1ZSk7CiAgICB9CgogICAgLy8gc29saGludC1kaXNhYmxlLW5leHQtbGluZSBmdW5jLW5hbWUtbWl4ZWRjYXNlCiAgICBmdW5jdGlvbiBfX1NhbXBsZU1vdGhlcl9pbml0X3VuY2hhaW5lZCh1aW50MjU2IHZhbHVlKSBpbnRlcm5hbCBvbmx5SW5pdGlhbGl6aW5nIHsKICAgICAgICBtb3RoZXIgPSB2YWx1ZTsKICAgIH0KfQoKLyoqCiAqIFNhbXBsZSBiYXNlIGluaXRpYWxpemFibGUgY29udHJhY3QgdGhhdCBkZWZpbmVzIGEgZmllbGQgZ3JhbXBzCiAqLwpjb250cmFjdCBTYW1wbGVHcmFtcHMgaXMgSW5pdGlhbGl6YWJsZSwgU2FtcGxlSHVtYW4gewogICAgc3RyaW5nIHB1YmxpYyBncmFtcHM7CgogICAgZnVuY3Rpb24gaW5pdGlhbGl6ZShzdHJpbmcgbWVtb3J5IHZhbHVlKSBwdWJsaWMgaW5pdGlhbGl6ZXIgewogICAgICAgIF9fU2FtcGxlR3JhbXBzX2luaXQodmFsdWUpOwogICAgfQoKICAgIC8vIHNvbGhpbnQtZGlzYWJsZS1uZXh0LWxpbmUgZnVuYy1uYW1lLW1peGVkY2FzZQogICAgZnVuY3Rpb24gX19TYW1wbGVHcmFtcHNfaW5pdChzdHJpbmcgbWVtb3J5IHZhbHVlKSBpbnRlcm5hbCBvbmx5SW5pdGlhbGl6aW5nIHsKICAgICAgICBfX1NhbXBsZUh1bWFuX2luaXQoKTsKICAgICAgICBfX1NhbXBsZUdyYW1wc19pbml0X3VuY2hhaW5lZCh2YWx1ZSk7CiAgICB9CgogICAgLy8gc29saGludC1kaXNhYmxlLW5leHQtbGluZSBmdW5jLW5hbWUtbWl4ZWRjYXNlCiAgICBmdW5jdGlvbiBfX1NhbXBsZUdyYW1wc19pbml0X3VuY2hhaW5lZChzdHJpbmcgbWVtb3J5IHZhbHVlKSBpbnRlcm5hbCBvbmx5SW5pdGlhbGl6aW5nIHsKICAgICAgICBncmFtcHMgPSB2YWx1ZTsKICAgIH0KfQoKLyoqCiAqIFNhbXBsZSBiYXNlIGluaXRpYWxpemFibGUgY29udHJhY3QgdGhhdCBkZWZpbmVzIGEgZmllbGQgZmF0aGVyIGFuZCBleHRlbmRzIGZyb20gZ3JhbXBzCiAqLwpjb250cmFjdCBTYW1wbGVGYXRoZXIgaXMgSW5pdGlhbGl6YWJsZSwgU2FtcGxlR3JhbXBzIHsKICAgIHVpbnQyNTYgcHVibGljIGZhdGhlcjsKCiAgICBmdW5jdGlvbiBpbml0aWFsaXplKHN0cmluZyBtZW1vcnkgX2dyYW1wcywgdWludDI1NiBfZmF0aGVyKSBwdWJsaWMgaW5pdGlhbGl6ZXIgewogICAgICAgIF9fU2FtcGxlRmF0aGVyX2luaXQoX2dyYW1wcywgX2ZhdGhlcik7CiAgICB9CgogICAgLy8gc29saGludC1kaXNhYmxlLW5leHQtbGluZSBmdW5jLW5hbWUtbWl4ZWRjYXNlCiAgICBmdW5jdGlvbiBfX1NhbXBsZUZhdGhlcl9pbml0KHN0cmluZyBtZW1vcnkgX2dyYW1wcywgdWludDI1NiBfZmF0aGVyKSBpbnRlcm5hbCBvbmx5SW5pdGlhbGl6aW5nIHsKICAgICAgICBfX1NhbXBsZUdyYW1wc19pbml0KF9ncmFtcHMpOwogICAgICAgIF9fU2FtcGxlRmF0aGVyX2luaXRfdW5jaGFpbmVkKF9mYXRoZXIpOwogICAgfQoKICAgIC8vIHNvbGhpbnQtZGlzYWJsZS1uZXh0LWxpbmUgZnVuYy1uYW1lLW1peGVkY2FzZQogICAgZnVuY3Rpb24gX19TYW1wbGVGYXRoZXJfaW5pdF91bmNoYWluZWQodWludDI1NiBfZmF0aGVyKSBpbnRlcm5hbCBvbmx5SW5pdGlhbGl6aW5nIHsKICAgICAgICBmYXRoZXIgPSBfZmF0aGVyOwogICAgfQp9CgovKioKICogQ2hpbGQgZXh0ZW5kcyBmcm9tIG1vdGhlciwgZmF0aGVyIChncmFtcHMpCiAqLwpjb250cmFjdCBTYW1wbGVDaGlsZCBpcyBJbml0aWFsaXphYmxlLCBTYW1wbGVNb3RoZXIsIFNhbXBsZUZhdGhlciB7CiAgICB1aW50MjU2IHB1YmxpYyBjaGlsZDsKCiAgICBmdW5jdGlvbiBpbml0aWFsaXplKHVpbnQyNTYgX21vdGhlciwgc3RyaW5nIG1lbW9yeSBfZ3JhbXBzLCB1aW50MjU2IF9mYXRoZXIsIHVpbnQyNTYgX2NoaWxkKSBwdWJsaWMgaW5pdGlhbGl6ZXIgewogICAgICAgIF9fU2FtcGxlQ2hpbGRfaW5pdChfbW90aGVyLCBfZ3JhbXBzLCBfZmF0aGVyLCBfY2hpbGQpOwogICAgfQoKICAgIC8vIHNvbGhpbnQtZGlzYWJsZS1uZXh0LWxpbmUgZnVuYy1uYW1lLW1peGVkY2FzZQogICAgZnVuY3Rpb24gX19TYW1wbGVDaGlsZF9pbml0KAogICAgICAgIHVpbnQyNTYgX21vdGhlciwKICAgICAgICBzdHJpbmcgbWVtb3J5IF9ncmFtcHMsCiAgICAgICAgdWludDI1NiBfZmF0aGVyLAogICAgICAgIHVpbnQyNTYgX2NoaWxkCiAgICApIGludGVybmFsIG9ubHlJbml0aWFsaXppbmcgewogICAgICAgIF9fU2FtcGxlTW90aGVyX2luaXQoX21vdGhlcik7CiAgICAgICAgX19TYW1wbGVGYXRoZXJfaW5pdChfZ3JhbXBzLCBfZmF0aGVyKTsKICAgICAgICBfX1NhbXBsZUNoaWxkX2luaXRfdW5jaGFpbmVkKF9jaGlsZCk7CiAgICB9CgogICAgLy8gc29saGludC1kaXNhYmxlLW5leHQtbGluZSBmdW5jLW5hbWUtbWl4ZWRjYXNlCiAgICBmdW5jdGlvbiBfX1NhbXBsZUNoaWxkX2luaXRfdW5jaGFpbmVkKHVpbnQyNTYgX2NoaWxkKSBpbnRlcm5hbCBvbmx5SW5pdGlhbGl6aW5nIHsKICAgICAgICBjaGlsZCA9IF9jaGlsZDsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {Initializable} from "../proxy/utils/Initializable.sol";
+
+// Sample contracts showing upgradeability with multiple inheritance.
+// Child contract inherits from Father and Mother contracts, and Father extends from Gramps.
+//
+//         Human
+//       /       \
+//      |       Gramps
+//      |         |
+//    Mother    Father
+//      |         |
+//      -- Child --
+
+/**
+ * Sample base initializable contract that is a human
+ */
+contract SampleHuman is Initializable {
+    bool public isHuman;
+
+    function initialize() public initializer {
+        __SampleHuman_init();
+    }
+
+    // solhint-disable-next-line func-name-mixedcase
+    function __SampleHuman_init() internal onlyInitializing {
+        __SampleHuman_init_unchained();
+    }
+
+    // solhint-disable-next-line func-name-mixedcase
+    function __SampleHuman_init_unchained() internal onlyInitializing {
+        isHuman = true;
+    }
+}
+
+/**
+ * Sample base initializable contract that defines a field mother
+ */
+contract SampleMother is Initializable, SampleHuman {
+    uint256 public mother;
+
+    function initialize(uint256 value) public initializer {
+        __SampleMother_init(value);
+    }
+
+    // solhint-disable-next-line func-name-mixedcase
+    function __SampleMother_init(uint256 value) internal onlyInitializing {
+        __SampleHuman_init();
+        __SampleMother_init_unchained(value);
+    }
+
+    // solhint-disable-next-line func-name-mixedcase
+    function __SampleMother_init_unchained(uint256 value) internal onlyInitializing {
+        mother = value;
+    }
+}
+
+/**
+ * Sample base initializable contract that defines a field gramps
+ */
+contract SampleGramps is Initializable, SampleHuman {
+    string public gramps;
+
+    function initialize(string memory value) public initializer {
+        __SampleGramps_init(value);
+    }
+
+    // solhint-disable-next-line func-name-mixedcase
+    function __SampleGramps_init(string memory value) internal onlyInitializing {
+        __SampleHuman_init();
+        __SampleGramps_init_unchained(value);
+    }
+
+    // solhint-disable-next-line func-name-mixedcase
+    function __SampleGramps_init_unchained(string memory value) internal onlyInitializing {
+        gramps = value;
+    }
+}
+
+/**
+ * Sample base initializable contract that defines a field father and extends from gramps
+ */
+contract SampleFather is Initializable, SampleGramps {
+    uint256 public father;
+
+    function initialize(string memory _gramps, uint256 _father) public initializer {
+        __SampleFather_init(_gramps, _father);
+    }
+
+    // solhint-disable-next-line func-name-mixedcase
+    function __SampleFather_init(string memory _gramps, uint256 _father) internal onlyInitializing {
+        __SampleGramps_init(_gramps);
+        __SampleFather_init_unchained(_father);
+    }
+
+    // solhint-disable-next-line func-name-mixedcase
+    function __SampleFather_init_unchained(uint256 _father) internal onlyInitializing {
+        father = _father;
+    }
+}
+
+/**
+ * Child extends from mother, father (gramps)
+ */
+contract SampleChild is Initializable, SampleMother, SampleFather {
+    uint256 public child;
+
+    function initialize(uint256 _mother, string memory _gramps, uint256 _father, uint256 _child) public initializer {
+        __SampleChild_init(_mother, _gramps, _father, _child);
+    }
+
+    // solhint-disable-next-line func-name-mixedcase
+    function __SampleChild_init(
+        uint256 _mother,
+        string memory _gramps,
+        uint256 _father,
+        uint256 _child
+    ) internal onlyInitializing {
+        __SampleMother_init(_mother);
+        __SampleFather_init(_gramps, _father);
+        __SampleChild_init_unchained(_child);
+    }
+
+    // solhint-disable-next-line func-name-mixedcase
+    function __SampleChild_init_unchained(uint256 _child) internal onlyInitializing {
+        child = _child;
+    }
+}
