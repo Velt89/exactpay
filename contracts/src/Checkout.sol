@@ -1,1 +1,102 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgXjAuOC4yNDsKCmltcG9ydCB7SUVSQzIwfSBmcm9tICJAb3BlbnplcHBlbGluL2NvbnRyYWN0cy90b2tlbi9FUkMyMC9JRVJDMjAuc29sIjsKaW1wb3J0IHtTYWZlRVJDMjB9IGZyb20gIkBvcGVuemVwcGVsaW4vY29udHJhY3RzL3Rva2VuL0VSQzIwL3V0aWxzL1NhZmVFUkMyMC5zb2wiOwoKLy8vIEBub3RpY2UgRUlQLTMwMDkgKFVTREMtc3R5bGUpIHNpZ25lZCB0cmFuc2ZlcnMuIHRVU0Q4IG9uIEFldnVtIGltcGxlbWVudHMgdGhpcy4KaW50ZXJmYWNlIElFUkMzMDA5IHsKICAgIGZ1bmN0aW9uIHJlY2VpdmVXaXRoQXV0aG9yaXphdGlvbigKICAgICAgICBhZGRyZXNzIGZyb20sCiAgICAgICAgYWRkcmVzcyB0bywKICAgICAgICB1aW50MjU2IHZhbHVlLAogICAgICAgIHVpbnQyNTYgdmFsaWRBZnRlciwKICAgICAgICB1aW50MjU2IHZhbGlkQmVmb3JlLAogICAgICAgIGJ5dGVzMzIgbm9uY2UsCiAgICAgICAgdWludDggdiwKICAgICAgICBieXRlczMyIHIsCiAgICAgICAgYnl0ZXMzMiBzCiAgICApIGV4dGVybmFsOwp9CgovLy8gQHRpdGxlIENoZWNrb3V0Ci8vLyBAbm90aWNlIEEgbWluaW1hbCBzdGFibGVjb2luIGNoZWNrb3V0LiBFYWNoIG9yZGVyIGlkIGNhbiBiZSBwYWlkIG9uY2U7IHRoZSBtb25leSBnb2VzCi8vLyAgICAgICAgIHN0cmFpZ2h0IHRvIHRoZSBtZXJjaGFudCBhbmQgYSBgUGFpZGAgZXZlbnQgaXMgdGhlIHJlY2VpcHQuCi8vLyBAZGV2IFR3byB3YXlzIHRvIHBheToKLy8vICAgICAgMS4gYHBheWA6IHRoZSBidXllciBhcHByb3ZlcyB0aGlzIGNvbnRyYWN0LCB0aGVuIGNhbGxzIGBwYXlgICh0d28gdHJhbnNhY3Rpb25zLCBidXllciBwYXlzIGdhcykuCi8vLyAgICAgIDIuIGBwYXlXaXRoQXV0aG9yaXphdGlvbmA6IHRoZSBidXllciBzaWducyBhbiBFSVAtMzAwOSBtZXNzYWdlIG9mZi1jaGFpbiBhbmQgYW55b25lCi8vLyAgICAgICAgICh5b3VyIGJhY2tlbmQsIGEgcmVsYXllciwgdGhlIG1lcmNoYW50KSBzdWJtaXRzIGl0LiBUaGUgYnV5ZXIgbmVlZHMgbm8gbmF0aXZlIGdhcy4KLy8vICAgICAgVGhlIGNvbnRyYWN0IG5ldmVyIGRlY2lkZXMgdGhlIHByaWNlLiBZb3VyIGFwcCBtdXN0IGNoZWNrIHRoYXQgYGFtb3VudGAgbWF0Y2hlcyB0aGUgb3JkZXIuCmNvbnRyYWN0IENoZWNrb3V0IHsKICAgIHVzaW5nIFNhZmVFUkMyMCBmb3IgSUVSQzIwOwoKICAgIHN0cnVjdCBQYXltZW50IHsKICAgICAgICBhZGRyZXNzIHBheWVyOwogICAgICAgIHVpbnQ2NCBwYWlkQXQ7CiAgICAgICAgdWludDI1NiBhbW91bnQ7CiAgICB9CgogICAgSUVSQzIwIHB1YmxpYyBpbW11dGFibGUgdG9rZW47CiAgICBhZGRyZXNzIHB1YmxpYyBpbW11dGFibGUgbWVyY2hhbnQ7CgogICAgbWFwcGluZyhieXRlczMyIG9yZGVySWQgPT4gUGF5bWVudCkgcHJpdmF0ZSBfcGF5bWVudHM7CgogICAgZXZlbnQgUGFpZChieXRlczMyIGluZGV4ZWQgb3JkZXJJZCwgYWRkcmVzcyBpbmRleGVkIHBheWVyLCB1aW50MjU2IGFtb3VudCk7CgogICAgZXJyb3IgQWxyZWFkeVBhaWQoYnl0ZXMzMiBvcmRlcklkKTsKICAgIGVycm9yIFplcm9BbW91bnQoKTsKICAgIGVycm9yIFplcm9BZGRyZXNzKCk7CgogICAgY29uc3RydWN0b3IoSUVSQzIwIHRva2VuXywgYWRkcmVzcyBtZXJjaGFudF8pIHsKICAgICAgICBpZiAoYWRkcmVzcyh0b2tlbl8pID09IGFkZHJlc3MoMCkgfHwgbWVyY2hhbnRfID09IGFkZHJlc3MoMCkpIHJldmVydCBaZXJvQWRkcmVzcygpOwogICAgICAgIHRva2VuID0gdG9rZW5fOwogICAgICAgIG1lcmNoYW50ID0gbWVyY2hhbnRfOwogICAgfQoKICAgIC8vLyBAbm90aWNlIFBheSBmb3IgYG9yZGVySWRgIHdpdGggdG9rZW5zIHlvdSBoYXZlIGFwcHJvdmVkIHRvIHRoaXMgY29udHJhY3QuCiAgICBmdW5jdGlvbiBwYXkoYnl0ZXMzMiBvcmRlcklkLCB1aW50MjU2IGFtb3VudCkgZXh0ZXJuYWwgewogICAgICAgIF9yZWNvcmQob3JkZXJJZCwgbXNnLnNlbmRlciwgYW1vdW50KTsKICAgICAgICB0b2tlbi5zYWZlVHJhbnNmZXJGcm9tKG1zZy5zZW5kZXIsIG1lcmNoYW50LCBhbW91bnQpOwogICAgfQoKICAgIC8vLyBAbm90aWNlIFBheSBmb3IgYG9yZGVySWRgIHdpdGggYW4gRUlQLTMwMDkgYFJlY2VpdmVXaXRoQXV0aG9yaXphdGlvbmAgc2lnbmVkIGJ5IGBmcm9tYC4KICAgIC8vLyBAZGV2IFRoZSBzaWduZWQgbm9uY2UgbXVzdCBiZSBgYXV0aG9yaXphdGlvbk5vbmNlKG9yZGVySWQpYC4gVGhhdCB0aWVzIHRoZSBzaWduYXR1cmUgdG8KICAgIC8vLyAgICAgIHRoaXMgb3JkZXIsIHNvIGEgcmVsYXllciBjYW4ndCByZXVzZSBpdCB0byBtYXJrIGEgZGlmZmVyZW50IG9yZGVyIGFzIHBhaWQuCiAgICAvLy8gICAgICBgdG9gIGluIHRoZSBzaWduZWQgbWVzc2FnZSBtdXN0IGJlIHRoaXMgY29udHJhY3QuCiAgICBmdW5jdGlvbiBwYXlXaXRoQXV0aG9yaXphdGlvbigKICAgICAgICBieXRlczMyIG9yZGVySWQsCiAgICAgICAgYWRkcmVzcyBmcm9tLAogICAgICAgIHVpbnQyNTYgYW1vdW50LAogICAgICAgIHVpbnQyNTYgdmFsaWRBZnRlciwKICAgICAgICB1aW50MjU2IHZhbGlkQmVmb3JlLAogICAgICAgIHVpbnQ4IHYsCiAgICAgICAgYnl0ZXMzMiByLAogICAgICAgIGJ5dGVzMzIgcwogICAgKSBleHRlcm5hbCB7CiAgICAgICAgX3JlY29yZChvcmRlcklkLCBmcm9tLCBhbW91bnQpOwogICAgICAgIElFUkMzMDA5KGFkZHJlc3ModG9rZW4pKS5yZWNlaXZlV2l0aEF1dGhvcml6YXRpb24oCiAgICAgICAgICAgIGZyb20sIGFkZHJlc3ModGhpcyksIGFtb3VudCwgdmFsaWRBZnRlciwgdmFsaWRCZWZvcmUsIGF1dGhvcml6YXRpb25Ob25jZShvcmRlcklkKSwgdiwgciwgcwogICAgICAgICk7CiAgICAgICAgdG9rZW4uc2FmZVRyYW5zZmVyKG1lcmNoYW50LCBhbW91bnQpOwogICAgfQoKICAgIC8vLyBAbm90aWNlIFRoZSBFSVAtMzAwOSBub25jZSBhIGJ1eWVyIG11c3Qgc2lnbiB0byBwYXkgYG9yZGVySWRgIHRocm91Z2ggdGhpcyBjb250cmFjdC4KICAgIGZ1bmN0aW9uIGF1dGhvcml6YXRpb25Ob25jZShieXRlczMyIG9yZGVySWQpIHB1YmxpYyB2aWV3IHJldHVybnMgKGJ5dGVzMzIpIHsKICAgICAgICByZXR1cm4ga2VjY2FrMjU2KGFiaS5lbmNvZGUoYWRkcmVzcyh0aGlzKSwgb3JkZXJJZCkpOwogICAgfQoKICAgIGZ1bmN0aW9uIHBheW1lbnRPZihieXRlczMyIG9yZGVySWQpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAoUGF5bWVudCBtZW1vcnkpIHsKICAgICAgICByZXR1cm4gX3BheW1lbnRzW29yZGVySWRdOwogICAgfQoKICAgIGZ1bmN0aW9uIGlzUGFpZChieXRlczMyIG9yZGVySWQpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAoYm9vbCkgewogICAgICAgIHJldHVybiBfcGF5bWVudHNbb3JkZXJJZF0ucGF5ZXIgIT0gYWRkcmVzcygwKTsKICAgIH0KCiAgICBmdW5jdGlvbiBfcmVjb3JkKGJ5dGVzMzIgb3JkZXJJZCwgYWRkcmVzcyBwYXllciwgdWludDI1NiBhbW91bnQpIHByaXZhdGUgewogICAgICAgIGlmIChhbW91bnQgPT0gMCkgcmV2ZXJ0IFplcm9BbW91bnQoKTsKICAgICAgICBpZiAoX3BheW1lbnRzW29yZGVySWRdLnBheWVyICE9IGFkZHJlc3MoMCkpIHJldmVydCBBbHJlYWR5UGFpZChvcmRlcklkKTsKICAgICAgICBfcGF5bWVudHNbb3JkZXJJZF0gPSBQYXltZW50KHtwYXllcjogcGF5ZXIsIHBhaWRBdDogdWludDY0KGJsb2NrLnRpbWVzdGFtcCksIGFtb3VudDogYW1vdW50fSk7CiAgICAgICAgZW1pdCBQYWlkKG9yZGVySWQsIHBheWVyLCBhbW91bnQpOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.24;
+
+import {IERC20} from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import {SafeERC20} from "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
+
+/// @notice EIP-3009 (USDC-style) signed transfers. tUSD8 on Aevum implements this.
+interface IERC3009 {
+    function receiveWithAuthorization(
+        address from,
+        address to,
+        uint256 value,
+        uint256 validAfter,
+        uint256 validBefore,
+        bytes32 nonce,
+        uint8 v,
+        bytes32 r,
+        bytes32 s
+    ) external;
+}
+
+/// @title Checkout
+/// @notice A minimal stablecoin checkout. Each order id can be paid once; the money goes
+///         straight to the merchant and a `Paid` event is the receipt.
+/// @dev Two ways to pay:
+///      1. `pay`: the buyer approves this contract, then calls `pay` (two transactions, buyer pays gas).
+///      2. `payWithAuthorization`: the buyer signs an EIP-3009 message off-chain and anyone
+///         (your backend, a relayer, the merchant) submits it. The buyer needs no native gas.
+///      The contract never decides the price. Your app must check that `amount` matches the order.
+contract Checkout {
+    using SafeERC20 for IERC20;
+
+    struct Payment {
+        address payer;
+        uint64 paidAt;
+        uint256 amount;
+    }
+
+    IERC20 public immutable token;
+    address public immutable merchant;
+
+    mapping(bytes32 orderId => Payment) private _payments;
+
+    event Paid(bytes32 indexed orderId, address indexed payer, uint256 amount);
+
+    error AlreadyPaid(bytes32 orderId);
+    error ZeroAmount();
+    error ZeroAddress();
+
+    constructor(IERC20 token_, address merchant_) {
+        if (address(token_) == address(0) || merchant_ == address(0)) revert ZeroAddress();
+        token = token_;
+        merchant = merchant_;
+    }
+
+    /// @notice Pay for `orderId` with tokens you have approved to this contract.
+    function pay(bytes32 orderId, uint256 amount) external {
+        _record(orderId, msg.sender, amount);
+        token.safeTransferFrom(msg.sender, merchant, amount);
+    }
+
+    /// @notice Pay for `orderId` with an EIP-3009 `ReceiveWithAuthorization` signed by `from`.
+    /// @dev The signed nonce must be `authorizationNonce(orderId)`. That ties the signature to
+    ///      this order, so a relayer can't reuse it to mark a different order as paid.
+    ///      `to` in the signed message must be this contract.
+    function payWithAuthorization(
+        bytes32 orderId,
+        address from,
+        uint256 amount,
+        uint256 validAfter,
+        uint256 validBefore,
+        uint8 v,
+        bytes32 r,
+        bytes32 s
+    ) external {
+        _record(orderId, from, amount);
+        IERC3009(address(token)).receiveWithAuthorization(
+            from, address(this), amount, validAfter, validBefore, authorizationNonce(orderId), v, r, s
+        );
+        token.safeTransfer(merchant, amount);
+    }
+
+    /// @notice The EIP-3009 nonce a buyer must sign to pay `orderId` through this contract.
+    function authorizationNonce(bytes32 orderId) public view returns (bytes32) {
+        return keccak256(abi.encode(address(this), orderId));
+    }
+
+    function paymentOf(bytes32 orderId) external view returns (Payment memory) {
+        return _payments[orderId];
+    }
+
+    function isPaid(bytes32 orderId) external view returns (bool) {
+        return _payments[orderId].payer != address(0);
+    }
+
+    function _record(bytes32 orderId, address payer, uint256 amount) private {
+        if (amount == 0) revert ZeroAmount();
+        if (_payments[orderId].payer != address(0)) revert AlreadyPaid(orderId);
+        _payments[orderId] = Payment({payer: payer, paidAt: uint64(block.timestamp), amount: amount});
+        emit Paid(orderId, payer, amount);
+    }
+}
