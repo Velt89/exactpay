@@ -1,1 +1,123 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodG9rZW4vRVJDMTE1NS9JRVJDMTE1NS5zb2wpCgpwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7SUVSQzE2NX0gZnJvbSAiLi4vLi4vdXRpbHMvaW50cm9zcGVjdGlvbi9JRVJDMTY1LnNvbCI7CgovKioKICogQGRldiBSZXF1aXJlZCBpbnRlcmZhY2Ugb2YgYW4gRVJDLTExNTUgY29tcGxpYW50IGNvbnRyYWN0LCBhcyBkZWZpbmVkIGluIHRoZQogKiBodHRwczovL2VpcHMuZXRoZXJldW0ub3JnL0VJUFMvZWlwLTExNTVbRVJDXS4KICovCmludGVyZmFjZSBJRVJDMTE1NSBpcyBJRVJDMTY1IHsKICAgIC8qKgogICAgICogQGRldiBFbWl0dGVkIHdoZW4gYHZhbHVlYCBhbW91bnQgb2YgdG9rZW5zIG9mIHR5cGUgYGlkYCBhcmUgdHJhbnNmZXJyZWQgZnJvbSBgZnJvbWAgdG8gYHRvYCBieSBgb3BlcmF0b3JgLgogICAgICovCiAgICBldmVudCBUcmFuc2ZlclNpbmdsZShhZGRyZXNzIGluZGV4ZWQgb3BlcmF0b3IsIGFkZHJlc3MgaW5kZXhlZCBmcm9tLCBhZGRyZXNzIGluZGV4ZWQgdG8sIHVpbnQyNTYgaWQsIHVpbnQyNTYgdmFsdWUpOwoKICAgIC8qKgogICAgICogQGRldiBFcXVpdmFsZW50IHRvIG11bHRpcGxlIHtUcmFuc2ZlclNpbmdsZX0gZXZlbnRzLCB3aGVyZSBgb3BlcmF0b3JgLCBgZnJvbWAgYW5kIGB0b2AgYXJlIHRoZSBzYW1lIGZvciBhbGwKICAgICAqIHRyYW5zZmVycy4KICAgICAqLwogICAgZXZlbnQgVHJhbnNmZXJCYXRjaCgKICAgICAgICBhZGRyZXNzIGluZGV4ZWQgb3BlcmF0b3IsCiAgICAgICAgYWRkcmVzcyBpbmRleGVkIGZyb20sCiAgICAgICAgYWRkcmVzcyBpbmRleGVkIHRvLAogICAgICAgIHVpbnQyNTZbXSBpZHMsCiAgICAgICAgdWludDI1NltdIHZhbHVlcwogICAgKTsKCiAgICAvKioKICAgICAqIEBkZXYgRW1pdHRlZCB3aGVuIGBhY2NvdW50YCBncmFudHMgb3IgcmV2b2tlcyBwZXJtaXNzaW9uIHRvIGBvcGVyYXRvcmAgdG8gdHJhbnNmZXIgdGhlaXIgdG9rZW5zLCBhY2NvcmRpbmcgdG8KICAgICAqIGBhcHByb3ZlZGAuCiAgICAgKi8KICAgIGV2ZW50IEFwcHJvdmFsRm9yQWxsKGFkZHJlc3MgaW5kZXhlZCBhY2NvdW50LCBhZGRyZXNzIGluZGV4ZWQgb3BlcmF0b3IsIGJvb2wgYXBwcm92ZWQpOwoKICAgIC8qKgogICAgICogQGRldiBFbWl0dGVkIHdoZW4gdGhlIFVSSSBmb3IgdG9rZW4gdHlwZSBgaWRgIGNoYW5nZXMgdG8gYHZhbHVlYCwgaWYgaXQgaXMgYSBub24tcHJvZ3JhbW1hdGljIFVSSS4KICAgICAqCiAgICAgKiBJZiBhbiB7VVJJfSBldmVudCB3YXMgZW1pdHRlZCBmb3IgYGlkYCwgdGhlIHN0YW5kYXJkCiAgICAgKiBodHRwczovL2VpcHMuZXRoZXJldW0ub3JnL0VJUFMvZWlwLTExNTUjbWV0YWRhdGEtZXh0ZW5zaW9uc1tndWFyYW50ZWVzXSB0aGF0IGB2YWx1ZWAgd2lsbCBlcXVhbCB0aGUgdmFsdWUKICAgICAqIHJldHVybmVkIGJ5IHtJRVJDMTE1NU1ldGFkYXRhVVJJLXVyaX0uCiAgICAgKi8KICAgIGV2ZW50IFVSSShzdHJpbmcgdmFsdWUsIHVpbnQyNTYgaW5kZXhlZCBpZCk7CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIHZhbHVlIG9mIHRva2VucyBvZiB0b2tlbiB0eXBlIGBpZGAgb3duZWQgYnkgYGFjY291bnRgLgogICAgICovCiAgICBmdW5jdGlvbiBiYWxhbmNlT2YoYWRkcmVzcyBhY2NvdW50LCB1aW50MjU2IGlkKSBleHRlcm5hbCB2aWV3IHJldHVybnMgKHVpbnQyNTYpOwoKICAgIC8qKgogICAgICogQGRldiB4cmVmOlJPT1Q6ZXJjMTE1NS5hZG9jI2JhdGNoLW9wZXJhdGlvbnNbQmF0Y2hlZF0gdmVyc2lvbiBvZiB7YmFsYW5jZU9mfS4KICAgICAqCiAgICAgKiBSZXF1aXJlbWVudHM6CiAgICAgKgogICAgICogLSBgYWNjb3VudHNgIGFuZCBgaWRzYCBtdXN0IGhhdmUgdGhlIHNhbWUgbGVuZ3RoLgogICAgICovCiAgICBmdW5jdGlvbiBiYWxhbmNlT2ZCYXRjaCgKICAgICAgICBhZGRyZXNzW10gY2FsbGRhdGEgYWNjb3VudHMsCiAgICAgICAgdWludDI1NltdIGNhbGxkYXRhIGlkcwogICAgKSBleHRlcm5hbCB2aWV3IHJldHVybnMgKHVpbnQyNTZbXSBtZW1vcnkpOwoKICAgIC8qKgogICAgICogQGRldiBHcmFudHMgb3IgcmV2b2tlcyBwZXJtaXNzaW9uIHRvIGBvcGVyYXRvcmAgdG8gdHJhbnNmZXIgdGhlIGNhbGxlcidzIHRva2VucywgYWNjb3JkaW5nIHRvIGBhcHByb3ZlZGAsCiAgICAgKgogICAgICogRW1pdHMgYW4ge0FwcHJvdmFsRm9yQWxsfSBldmVudC4KICAgICAqCiAgICAgKiBSZXF1aXJlbWVudHM6CiAgICAgKgogICAgICogLSBgb3BlcmF0b3JgIGNhbm5vdCBiZSB0aGUgemVybyBhZGRyZXNzLgogICAgICovCiAgICBmdW5jdGlvbiBzZXRBcHByb3ZhbEZvckFsbChhZGRyZXNzIG9wZXJhdG9yLCBib29sIGFwcHJvdmVkKSBleHRlcm5hbDsKCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyB0cnVlIGlmIGBvcGVyYXRvcmAgaXMgYXBwcm92ZWQgdG8gdHJhbnNmZXIgYGBhY2NvdW50YGAncyB0b2tlbnMuCiAgICAgKgogICAgICogU2VlIHtzZXRBcHByb3ZhbEZvckFsbH0uCiAgICAgKi8KICAgIGZ1bmN0aW9uIGlzQXBwcm92ZWRGb3JBbGwoYWRkcmVzcyBhY2NvdW50LCBhZGRyZXNzIG9wZXJhdG9yKSBleHRlcm5hbCB2aWV3IHJldHVybnMgKGJvb2wpOwoKICAgIC8qKgogICAgICogQGRldiBUcmFuc2ZlcnMgYSBgdmFsdWVgIGFtb3VudCBvZiB0b2tlbnMgb2YgdHlwZSBgaWRgIGZyb20gYGZyb21gIHRvIGB0b2AuCiAgICAgKgogICAgICogV0FSTklORzogVGhpcyBmdW5jdGlvbiBjYW4gcG90ZW50aWFsbHkgYWxsb3cgYSByZWVudHJhbmN5IGF0dGFjayB3aGVuIHRyYW5zZmVycmluZyB0b2tlbnMKICAgICAqIHRvIGFuIHVudHJ1c3RlZCBjb250cmFjdCwgd2hlbiBpbnZva2luZyB7b25FUkMxMTU1UmVjZWl2ZWR9IG9uIHRoZSByZWNlaXZlci4KICAgICAqIEVuc3VyZSB0byBmb2xsb3cgdGhlIGNoZWNrcy1lZmZlY3RzLWludGVyYWN0aW9ucyBwYXR0ZXJuIGFuZCBjb25zaWRlciBlbXBsb3lpbmcKICAgICAqIHJlZW50cmFuY3kgZ3VhcmRzIHdoZW4gaW50ZXJhY3Rpbmcgd2l0aCB1bnRydXN0ZWQgY29udHJhY3RzLgogICAgICoKICAgICAqIEVtaXRzIGEge1RyYW5zZmVyU2luZ2xlfSBldmVudC4KICAgICAqCiAgICAgKiBSZXF1aXJlbWVudHM6CiAgICAgKgogICAgICogLSBgdG9gIGNhbm5vdCBiZSB0aGUgemVybyBhZGRyZXNzLgogICAgICogLSBJZiB0aGUgY2FsbGVyIGlzIG5vdCBgZnJvbWAsIGl0IG11c3QgaGF2ZSBiZWVuIGFwcHJvdmVkIHRvIHNwZW5kIGBgZnJvbWBgJ3MgdG9rZW5zIHZpYSB7c2V0QXBwcm92YWxGb3JBbGx9LgogICAgICogLSBgZnJvbWAgbXVzdCBoYXZlIGEgYmFsYW5jZSBvZiB0b2tlbnMgb2YgdHlwZSBgaWRgIG9mIGF0IGxlYXN0IGB2YWx1ZWAgYW1vdW50LgogICAgICogLSBJZiBgdG9gIHJlZmVycyB0byBhIHNtYXJ0IGNvbnRyYWN0LCBpdCBtdXN0IGltcGxlbWVudCB7SUVSQzExNTVSZWNlaXZlci1vbkVSQzExNTVSZWNlaXZlZH0gYW5kIHJldHVybiB0aGUKICAgICAqIGFjY2VwdGFuY2UgbWFnaWMgdmFsdWUuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHNhZmVUcmFuc2ZlckZyb20oYWRkcmVzcyBmcm9tLCBhZGRyZXNzIHRvLCB1aW50MjU2IGlkLCB1aW50MjU2IHZhbHVlLCBieXRlcyBjYWxsZGF0YSBkYXRhKSBleHRlcm5hbDsKCiAgICAvKioKICAgICAqIEBkZXYgeHJlZjpST09UOmVyYzExNTUuYWRvYyNiYXRjaC1vcGVyYXRpb25zW0JhdGNoZWRdIHZlcnNpb24gb2Yge3NhZmVUcmFuc2ZlckZyb219LgogICAgICoKICAgICAqIFdBUk5JTkc6IFRoaXMgZnVuY3Rpb24gY2FuIHBvdGVudGlhbGx5IGFsbG93IGEgcmVlbnRyYW5jeSBhdHRhY2sgd2hlbiB0cmFuc2ZlcnJpbmcgdG9rZW5zCiAgICAgKiB0byBhbiB1bnRydXN0ZWQgY29udHJhY3QsIHdoZW4gaW52b2tpbmcge29uRVJDMTE1NUJhdGNoUmVjZWl2ZWR9IG9uIHRoZSByZWNlaXZlci4KICAgICAqIEVuc3VyZSB0byBmb2xsb3cgdGhlIGNoZWNrcy1lZmZlY3RzLWludGVyYWN0aW9ucyBwYXR0ZXJuIGFuZCBjb25zaWRlciBlbXBsb3lpbmcKICAgICAqIHJlZW50cmFuY3kgZ3VhcmRzIHdoZW4gaW50ZXJhY3Rpbmcgd2l0aCB1bnRydXN0ZWQgY29udHJhY3RzLgogICAgICoKICAgICAqIEVtaXRzIGVpdGhlciBhIHtUcmFuc2ZlclNpbmdsZX0gb3IgYSB7VHJhbnNmZXJCYXRjaH0gZXZlbnQsIGRlcGVuZGluZyBvbiB0aGUgbGVuZ3RoIG9mIHRoZSBhcnJheSBhcmd1bWVudHMuCiAgICAgKgogICAgICogUmVxdWlyZW1lbnRzOgogICAgICoKICAgICAqIC0gYGlkc2AgYW5kIGB2YWx1ZXNgIG11c3QgaGF2ZSB0aGUgc2FtZSBsZW5ndGguCiAgICAgKiAtIElmIGB0b2AgcmVmZXJzIHRvIGEgc21hcnQgY29udHJhY3QsIGl0IG11c3QgaW1wbGVtZW50IHtJRVJDMTE1NVJlY2VpdmVyLW9uRVJDMTE1NUJhdGNoUmVjZWl2ZWR9IGFuZCByZXR1cm4gdGhlCiAgICAgKiBhY2NlcHRhbmNlIG1hZ2ljIHZhbHVlLgogICAgICovCiAgICBmdW5jdGlvbiBzYWZlQmF0Y2hUcmFuc2ZlckZyb20oCiAgICAgICAgYWRkcmVzcyBmcm9tLAogICAgICAgIGFkZHJlc3MgdG8sCiAgICAgICAgdWludDI1NltdIGNhbGxkYXRhIGlkcywKICAgICAgICB1aW50MjU2W10gY2FsbGRhdGEgdmFsdWVzLAogICAgICAgIGJ5dGVzIGNhbGxkYXRhIGRhdGEKICAgICkgZXh0ZXJuYWw7Cn0K
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (token/ERC1155/IERC1155.sol)
+
+pragma solidity ^0.8.20;
+
+import {IERC165} from "../../utils/introspection/IERC165.sol";
+
+/**
+ * @dev Required interface of an ERC-1155 compliant contract, as defined in the
+ * https://eips.ethereum.org/EIPS/eip-1155[ERC].
+ */
+interface IERC1155 is IERC165 {
+    /**
+     * @dev Emitted when `value` amount of tokens of type `id` are transferred from `from` to `to` by `operator`.
+     */
+    event TransferSingle(address indexed operator, address indexed from, address indexed to, uint256 id, uint256 value);
+
+    /**
+     * @dev Equivalent to multiple {TransferSingle} events, where `operator`, `from` and `to` are the same for all
+     * transfers.
+     */
+    event TransferBatch(
+        address indexed operator,
+        address indexed from,
+        address indexed to,
+        uint256[] ids,
+        uint256[] values
+    );
+
+    /**
+     * @dev Emitted when `account` grants or revokes permission to `operator` to transfer their tokens, according to
+     * `approved`.
+     */
+    event ApprovalForAll(address indexed account, address indexed operator, bool approved);
+
+    /**
+     * @dev Emitted when the URI for token type `id` changes to `value`, if it is a non-programmatic URI.
+     *
+     * If an {URI} event was emitted for `id`, the standard
+     * https://eips.ethereum.org/EIPS/eip-1155#metadata-extensions[guarantees] that `value` will equal the value
+     * returned by {IERC1155MetadataURI-uri}.
+     */
+    event URI(string value, uint256 indexed id);
+
+    /**
+     * @dev Returns the value of tokens of token type `id` owned by `account`.
+     */
+    function balanceOf(address account, uint256 id) external view returns (uint256);
+
+    /**
+     * @dev xref:ROOT:erc1155.adoc#batch-operations[Batched] version of {balanceOf}.
+     *
+     * Requirements:
+     *
+     * - `accounts` and `ids` must have the same length.
+     */
+    function balanceOfBatch(
+        address[] calldata accounts,
+        uint256[] calldata ids
+    ) external view returns (uint256[] memory);
+
+    /**
+     * @dev Grants or revokes permission to `operator` to transfer the caller's tokens, according to `approved`,
+     *
+     * Emits an {ApprovalForAll} event.
+     *
+     * Requirements:
+     *
+     * - `operator` cannot be the zero address.
+     */
+    function setApprovalForAll(address operator, bool approved) external;
+
+    /**
+     * @dev Returns true if `operator` is approved to transfer ``account``'s tokens.
+     *
+     * See {setApprovalForAll}.
+     */
+    function isApprovedForAll(address account, address operator) external view returns (bool);
+
+    /**
+     * @dev Transfers a `value` amount of tokens of type `id` from `from` to `to`.
+     *
+     * WARNING: This function can potentially allow a reentrancy attack when transferring tokens
+     * to an untrusted contract, when invoking {onERC1155Received} on the receiver.
+     * Ensure to follow the checks-effects-interactions pattern and consider employing
+     * reentrancy guards when interacting with untrusted contracts.
+     *
+     * Emits a {TransferSingle} event.
+     *
+     * Requirements:
+     *
+     * - `to` cannot be the zero address.
+     * - If the caller is not `from`, it must have been approved to spend ``from``'s tokens via {setApprovalForAll}.
+     * - `from` must have a balance of tokens of type `id` of at least `value` amount.
+     * - If `to` refers to a smart contract, it must implement {IERC1155Receiver-onERC1155Received} and return the
+     * acceptance magic value.
+     */
+    function safeTransferFrom(address from, address to, uint256 id, uint256 value, bytes calldata data) external;
+
+    /**
+     * @dev xref:ROOT:erc1155.adoc#batch-operations[Batched] version of {safeTransferFrom}.
+     *
+     * WARNING: This function can potentially allow a reentrancy attack when transferring tokens
+     * to an untrusted contract, when invoking {onERC1155BatchReceived} on the receiver.
+     * Ensure to follow the checks-effects-interactions pattern and consider employing
+     * reentrancy guards when interacting with untrusted contracts.
+     *
+     * Emits either a {TransferSingle} or a {TransferBatch} event, depending on the length of the array arguments.
+     *
+     * Requirements:
+     *
+     * - `ids` and `values` must have the same length.
+     * - If `to` refers to a smart contract, it must implement {IERC1155Receiver-onERC1155BatchReceived} and return the
+     * acceptance magic value.
+     */
+    function safeBatchTransferFrom(
+        address from,
+        address to,
+        uint256[] calldata ids,
+        uint256[] calldata values,
+        bytes calldata data
+    ) external;
+}
