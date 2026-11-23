@@ -1,1 +1,155 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodXRpbHMvU2xvdERlcml2YXRpb24uc29sKQovLyBUaGlzIGZpbGUgd2FzIHByb2NlZHVyYWxseSBnZW5lcmF0ZWQgZnJvbSBzY3JpcHRzL2dlbmVyYXRlL3RlbXBsYXRlcy9TbG90RGVyaXZhdGlvbi5qcy4KCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKLyoqCiAqIEBkZXYgTGlicmFyeSBmb3IgY29tcHV0aW5nIHN0b3JhZ2UgKGFuZCB0cmFuc2llbnQgc3RvcmFnZSkgbG9jYXRpb25zIGZyb20gbmFtZXNwYWNlcyBhbmQgZGVyaXZpbmcgc2xvdHMKICogY29ycmVzcG9uZGluZyB0byBzdGFuZGFyZCBwYXR0ZXJucy4gVGhlIGRlcml2YXRpb24gbWV0aG9kIGZvciBhcnJheSBhbmQgbWFwcGluZyBtYXRjaGVzIHRoZSBzdG9yYWdlIGxheW91dCB1c2VkIGJ5CiAqIHRoZSBzb2xpZGl0eSBsYW5ndWFnZSAvIGNvbXBpbGVyLgogKgogKiBTZWUgaHR0cHM6Ly9kb2NzLnNvbGlkaXR5bGFuZy5vcmcvZW4vdjAuOC4yMC9pbnRlcm5hbHMvbGF5b3V0X2luX3N0b3JhZ2UuaHRtbCNtYXBwaW5ncy1hbmQtZHluYW1pYy1hcnJheXNbU29saWRpdHkgZG9jcyBmb3IgbWFwcGluZ3MgYW5kIGR5bmFtaWMgYXJyYXlzLl0uCiAqCiAqIEV4YW1wbGUgdXNhZ2U6CiAqIGBgYHNvbGlkaXR5CiAqIGNvbnRyYWN0IEV4YW1wbGUgewogKiAgICAgLy8gQWRkIHRoZSBsaWJyYXJ5IG1ldGhvZHMKICogICAgIHVzaW5nIFN0b3JhZ2VTbG90IGZvciBieXRlczMyOwogKiAgICAgdXNpbmcgU2xvdERlcml2YXRpb24gZm9yIGJ5dGVzMzI7CiAqCiAqICAgICAvLyBEZWNsYXJlIGEgbmFtZXNwYWNlCiAqICAgICBzdHJpbmcgcHJpdmF0ZSBjb25zdGFudCBfTkFNRVNQQUNFID0gIjxuYW1lc3BhY2U+IiAvLyBlZy4gT3BlblplcHBlbGluLlNsb3QKICoKICogICAgIGZ1bmN0aW9uIHNldFZhbHVlSW5OYW1lc3BhY2UodWludDI1NiBrZXksIGFkZHJlc3MgbmV3VmFsdWUpIGludGVybmFsIHsKICogICAgICAgICBfTkFNRVNQQUNFLmVyYzcyMDFTbG90KCkuZGVyaXZlTWFwcGluZyhrZXkpLmdldEFkZHJlc3NTbG90KCkudmFsdWUgPSBuZXdWYWx1ZTsKICogICAgIH0KICoKICogICAgIGZ1bmN0aW9uIGdldFZhbHVlSW5OYW1lc3BhY2UodWludDI1NiBrZXkpIGludGVybmFsIHZpZXcgcmV0dXJucyAoYWRkcmVzcykgewogKiAgICAgICAgIHJldHVybiBfTkFNRVNQQUNFLmVyYzcyMDFTbG90KCkuZGVyaXZlTWFwcGluZyhrZXkpLmdldEFkZHJlc3NTbG90KCkudmFsdWU7CiAqICAgICB9CiAqIH0KICogYGBgCiAqCiAqIFRJUDogQ29uc2lkZXIgdXNpbmcgdGhpcyBsaWJyYXJ5IGFsb25nIHdpdGgge1N0b3JhZ2VTbG90fS4KICoKICogTk9URTogVGhpcyBsaWJyYXJ5IHByb3ZpZGVzIGEgd2F5IHRvIG1hbmlwdWxhdGUgc3RvcmFnZSBsb2NhdGlvbnMgaW4gYSBub24tc3RhbmRhcmQgd2F5LiBUb29saW5nIGZvciBjaGVja2luZwogKiB1cGdyYWRlIHNhZmV0eSB3aWxsIGlnbm9yZSB0aGUgc2xvdHMgYWNjZXNzZWQgdGhyb3VnaCB0aGlzIGxpYnJhcnkuCiAqCiAqIF9BdmFpbGFibGUgc2luY2UgdjUuMS5fCiAqLwpsaWJyYXJ5IFNsb3REZXJpdmF0aW9uIHsKICAgIC8qKgogICAgICogQGRldiBEZXJpdmUgYW4gRVJDLTcyMDEgc2xvdCBmcm9tIGEgc3RyaW5nIChuYW1lc3BhY2UpLgogICAgICovCiAgICBmdW5jdGlvbiBlcmM3MjAxU2xvdChzdHJpbmcgbWVtb3J5IG5hbWVzcGFjZSkgaW50ZXJuYWwgcHVyZSByZXR1cm5zIChieXRlczMyIHNsb3QpIHsKICAgICAgICBhc3NlbWJseSAoIm1lbW9yeS1zYWZlIikgewogICAgICAgICAgICBtc3RvcmUoMHgwMCwgc3ViKGtlY2NhazI1NihhZGQobmFtZXNwYWNlLCAweDIwKSwgbWxvYWQobmFtZXNwYWNlKSksIDEpKQogICAgICAgICAgICBzbG90IDo9IGFuZChrZWNjYWsyNTYoMHgwMCwgMHgyMCksIG5vdCgweGZmKSkKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IEFkZCBhbiBvZmZzZXQgdG8gYSBzbG90IHRvIGdldCB0aGUgbi10aCBlbGVtZW50IG9mIGEgc3RydWN0dXJlIG9yIGFuIGFycmF5LgogICAgICovCiAgICBmdW5jdGlvbiBvZmZzZXQoYnl0ZXMzMiBzbG90LCB1aW50MjU2IHBvcykgaW50ZXJuYWwgcHVyZSByZXR1cm5zIChieXRlczMyIHJlc3VsdCkgewogICAgICAgIHVuY2hlY2tlZCB7CiAgICAgICAgICAgIHJldHVybiBieXRlczMyKHVpbnQyNTYoc2xvdCkgKyBwb3MpOwogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgRGVyaXZlIHRoZSBsb2NhdGlvbiBvZiB0aGUgZmlyc3QgZWxlbWVudCBpbiBhbiBhcnJheSBmcm9tIHRoZSBzbG90IHdoZXJlIHRoZSBsZW5ndGggaXMgc3RvcmVkLgogICAgICovCiAgICBmdW5jdGlvbiBkZXJpdmVBcnJheShieXRlczMyIHNsb3QpIGludGVybmFsIHB1cmUgcmV0dXJucyAoYnl0ZXMzMiByZXN1bHQpIHsKICAgICAgICBhc3NlbWJseSAoIm1lbW9yeS1zYWZlIikgewogICAgICAgICAgICBtc3RvcmUoMHgwMCwgc2xvdCkKICAgICAgICAgICAgcmVzdWx0IDo9IGtlY2NhazI1NigweDAwLCAweDIwKQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgRGVyaXZlIHRoZSBsb2NhdGlvbiBvZiBhIG1hcHBpbmcgZWxlbWVudCBmcm9tIHRoZSBrZXkuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGRlcml2ZU1hcHBpbmcoYnl0ZXMzMiBzbG90LCBhZGRyZXNzIGtleSkgaW50ZXJuYWwgcHVyZSByZXR1cm5zIChieXRlczMyIHJlc3VsdCkgewogICAgICAgIGFzc2VtYmx5ICgibWVtb3J5LXNhZmUiKSB7CiAgICAgICAgICAgIG1zdG9yZSgweDAwLCBhbmQoa2V5LCBzaHIoOTYsIG5vdCgwKSkpKQogICAgICAgICAgICBtc3RvcmUoMHgyMCwgc2xvdCkKICAgICAgICAgICAgcmVzdWx0IDo9IGtlY2NhazI1NigweDAwLCAweDQwKQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgRGVyaXZlIHRoZSBsb2NhdGlvbiBvZiBhIG1hcHBpbmcgZWxlbWVudCBmcm9tIHRoZSBrZXkuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGRlcml2ZU1hcHBpbmcoYnl0ZXMzMiBzbG90LCBib29sIGtleSkgaW50ZXJuYWwgcHVyZSByZXR1cm5zIChieXRlczMyIHJlc3VsdCkgewogICAgICAgIGFzc2VtYmx5ICgibWVtb3J5LXNhZmUiKSB7CiAgICAgICAgICAgIG1zdG9yZSgweDAwLCBpc3plcm8oaXN6ZXJvKGtleSkpKQogICAgICAgICAgICBtc3RvcmUoMHgyMCwgc2xvdCkKICAgICAgICAgICAgcmVzdWx0IDo9IGtlY2NhazI1NigweDAwLCAweDQwKQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgRGVyaXZlIHRoZSBsb2NhdGlvbiBvZiBhIG1hcHBpbmcgZWxlbWVudCBmcm9tIHRoZSBrZXkuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGRlcml2ZU1hcHBpbmcoYnl0ZXMzMiBzbG90LCBieXRlczMyIGtleSkgaW50ZXJuYWwgcHVyZSByZXR1cm5zIChieXRlczMyIHJlc3VsdCkgewogICAgICAgIGFzc2VtYmx5ICgibWVtb3J5LXNhZmUiKSB7CiAgICAgICAgICAgIG1zdG9yZSgweDAwLCBrZXkpCiAgICAgICAgICAgIG1zdG9yZSgweDIwLCBzbG90KQogICAgICAgICAgICByZXN1bHQgOj0ga2VjY2FrMjU2KDB4MDAsIDB4NDApCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICogQGRldiBEZXJpdmUgdGhlIGxvY2F0aW9uIG9mIGEgbWFwcGluZyBlbGVtZW50IGZyb20gdGhlIGtleS4KICAgICAqLwogICAgZnVuY3Rpb24gZGVyaXZlTWFwcGluZyhieXRlczMyIHNsb3QsIHVpbnQyNTYga2V5KSBpbnRlcm5hbCBwdXJlIHJldHVybnMgKGJ5dGVzMzIgcmVzdWx0KSB7CiAgICAgICAgYXNzZW1ibHkgKCJtZW1vcnktc2FmZSIpIHsKICAgICAgICAgICAgbXN0b3JlKDB4MDAsIGtleSkKICAgICAgICAgICAgbXN0b3JlKDB4MjAsIHNsb3QpCiAgICAgICAgICAgIHJlc3VsdCA6PSBrZWNjYWsyNTYoMHgwMCwgMHg0MCkKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IERlcml2ZSB0aGUgbG9jYXRpb24gb2YgYSBtYXBwaW5nIGVsZW1lbnQgZnJvbSB0aGUga2V5LgogICAgICovCiAgICBmdW5jdGlvbiBkZXJpdmVNYXBwaW5nKGJ5dGVzMzIgc2xvdCwgaW50MjU2IGtleSkgaW50ZXJuYWwgcHVyZSByZXR1cm5zIChieXRlczMyIHJlc3VsdCkgewogICAgICAgIGFzc2VtYmx5ICgibWVtb3J5LXNhZmUiKSB7CiAgICAgICAgICAgIG1zdG9yZSgweDAwLCBrZXkpCiAgICAgICAgICAgIG1zdG9yZSgweDIwLCBzbG90KQogICAgICAgICAgICByZXN1bHQgOj0ga2VjY2FrMjU2KDB4MDAsIDB4NDApCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICogQGRldiBEZXJpdmUgdGhlIGxvY2F0aW9uIG9mIGEgbWFwcGluZyBlbGVtZW50IGZyb20gdGhlIGtleS4KICAgICAqLwogICAgZnVuY3Rpb24gZGVyaXZlTWFwcGluZyhieXRlczMyIHNsb3QsIHN0cmluZyBtZW1vcnkga2V5KSBpbnRlcm5hbCBwdXJlIHJldHVybnMgKGJ5dGVzMzIgcmVzdWx0KSB7CiAgICAgICAgYXNzZW1ibHkgKCJtZW1vcnktc2FmZSIpIHsKICAgICAgICAgICAgbGV0IGxlbmd0aCA6PSBtbG9hZChrZXkpCiAgICAgICAgICAgIGxldCBiZWdpbiA6PSBhZGQoa2V5LCAweDIwKQogICAgICAgICAgICBsZXQgZW5kIDo9IGFkZChiZWdpbiwgbGVuZ3RoKQogICAgICAgICAgICBsZXQgY2FjaGUgOj0gbWxvYWQoZW5kKQogICAgICAgICAgICBtc3RvcmUoZW5kLCBzbG90KQogICAgICAgICAgICByZXN1bHQgOj0ga2VjY2FrMjU2KGJlZ2luLCBhZGQobGVuZ3RoLCAweDIwKSkKICAgICAgICAgICAgbXN0b3JlKGVuZCwgY2FjaGUpCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICogQGRldiBEZXJpdmUgdGhlIGxvY2F0aW9uIG9mIGEgbWFwcGluZyBlbGVtZW50IGZyb20gdGhlIGtleS4KICAgICAqLwogICAgZnVuY3Rpb24gZGVyaXZlTWFwcGluZyhieXRlczMyIHNsb3QsIGJ5dGVzIG1lbW9yeSBrZXkpIGludGVybmFsIHB1cmUgcmV0dXJucyAoYnl0ZXMzMiByZXN1bHQpIHsKICAgICAgICBhc3NlbWJseSAoIm1lbW9yeS1zYWZlIikgewogICAgICAgICAgICBsZXQgbGVuZ3RoIDo9IG1sb2FkKGtleSkKICAgICAgICAgICAgbGV0IGJlZ2luIDo9IGFkZChrZXksIDB4MjApCiAgICAgICAgICAgIGxldCBlbmQgOj0gYWRkKGJlZ2luLCBsZW5ndGgpCiAgICAgICAgICAgIGxldCBjYWNoZSA6PSBtbG9hZChlbmQpCiAgICAgICAgICAgIG1zdG9yZShlbmQsIHNsb3QpCiAgICAgICAgICAgIHJlc3VsdCA6PSBrZWNjYWsyNTYoYmVnaW4sIGFkZChsZW5ndGgsIDB4MjApKQogICAgICAgICAgICBtc3RvcmUoZW5kLCBjYWNoZSkKICAgICAgICB9CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (utils/SlotDerivation.sol)
+// This file was procedurally generated from scripts/generate/templates/SlotDerivation.js.
+
+pragma solidity ^0.8.20;
+
+/**
+ * @dev Library for computing storage (and transient storage) locations from namespaces and deriving slots
+ * corresponding to standard patterns. The derivation method for array and mapping matches the storage layout used by
+ * the solidity language / compiler.
+ *
+ * See https://docs.soliditylang.org/en/v0.8.20/internals/layout_in_storage.html#mappings-and-dynamic-arrays[Solidity docs for mappings and dynamic arrays.].
+ *
+ * Example usage:
+ * ```solidity
+ * contract Example {
+ *     // Add the library methods
+ *     using StorageSlot for bytes32;
+ *     using SlotDerivation for bytes32;
+ *
+ *     // Declare a namespace
+ *     string private constant _NAMESPACE = "<namespace>" // eg. OpenZeppelin.Slot
+ *
+ *     function setValueInNamespace(uint256 key, address newValue) internal {
+ *         _NAMESPACE.erc7201Slot().deriveMapping(key).getAddressSlot().value = newValue;
+ *     }
+ *
+ *     function getValueInNamespace(uint256 key) internal view returns (address) {
+ *         return _NAMESPACE.erc7201Slot().deriveMapping(key).getAddressSlot().value;
+ *     }
+ * }
+ * ```
+ *
+ * TIP: Consider using this library along with {StorageSlot}.
+ *
+ * NOTE: This library provides a way to manipulate storage locations in a non-standard way. Tooling for checking
+ * upgrade safety will ignore the slots accessed through this library.
+ *
+ * _Available since v5.1._
+ */
+library SlotDerivation {
+    /**
+     * @dev Derive an ERC-7201 slot from a string (namespace).
+     */
+    function erc7201Slot(string memory namespace) internal pure returns (bytes32 slot) {
+        assembly ("memory-safe") {
+            mstore(0x00, sub(keccak256(add(namespace, 0x20), mload(namespace)), 1))
+            slot := and(keccak256(0x00, 0x20), not(0xff))
+        }
+    }
+
+    /**
+     * @dev Add an offset to a slot to get the n-th element of a structure or an array.
+     */
+    function offset(bytes32 slot, uint256 pos) internal pure returns (bytes32 result) {
+        unchecked {
+            return bytes32(uint256(slot) + pos);
+        }
+    }
+
+    /**
+     * @dev Derive the location of the first element in an array from the slot where the length is stored.
+     */
+    function deriveArray(bytes32 slot) internal pure returns (bytes32 result) {
+        assembly ("memory-safe") {
+            mstore(0x00, slot)
+            result := keccak256(0x00, 0x20)
+        }
+    }
+
+    /**
+     * @dev Derive the location of a mapping element from the key.
+     */
+    function deriveMapping(bytes32 slot, address key) internal pure returns (bytes32 result) {
+        assembly ("memory-safe") {
+            mstore(0x00, and(key, shr(96, not(0))))
+            mstore(0x20, slot)
+            result := keccak256(0x00, 0x40)
+        }
+    }
+
+    /**
+     * @dev Derive the location of a mapping element from the key.
+     */
+    function deriveMapping(bytes32 slot, bool key) internal pure returns (bytes32 result) {
+        assembly ("memory-safe") {
+            mstore(0x00, iszero(iszero(key)))
+            mstore(0x20, slot)
+            result := keccak256(0x00, 0x40)
+        }
+    }
+
+    /**
+     * @dev Derive the location of a mapping element from the key.
+     */
+    function deriveMapping(bytes32 slot, bytes32 key) internal pure returns (bytes32 result) {
+        assembly ("memory-safe") {
+            mstore(0x00, key)
+            mstore(0x20, slot)
+            result := keccak256(0x00, 0x40)
+        }
+    }
+
+    /**
+     * @dev Derive the location of a mapping element from the key.
+     */
+    function deriveMapping(bytes32 slot, uint256 key) internal pure returns (bytes32 result) {
+        assembly ("memory-safe") {
+            mstore(0x00, key)
+            mstore(0x20, slot)
+            result := keccak256(0x00, 0x40)
+        }
+    }
+
+    /**
+     * @dev Derive the location of a mapping element from the key.
+     */
+    function deriveMapping(bytes32 slot, int256 key) internal pure returns (bytes32 result) {
+        assembly ("memory-safe") {
+            mstore(0x00, key)
+            mstore(0x20, slot)
+            result := keccak256(0x00, 0x40)
+        }
+    }
+
+    /**
+     * @dev Derive the location of a mapping element from the key.
+     */
+    function deriveMapping(bytes32 slot, string memory key) internal pure returns (bytes32 result) {
+        assembly ("memory-safe") {
+            let length := mload(key)
+            let begin := add(key, 0x20)
+            let end := add(begin, length)
+            let cache := mload(end)
+            mstore(end, slot)
+            result := keccak256(begin, add(length, 0x20))
+            mstore(end, cache)
+        }
+    }
+
+    /**
+     * @dev Derive the location of a mapping element from the key.
+     */
+    function deriveMapping(bytes32 slot, bytes memory key) internal pure returns (bytes32 result) {
+        assembly ("memory-safe") {
+            let length := mload(key)
+            let begin := add(key, 0x20)
+            let end := add(begin, length)
+            let cache := mload(end)
+            mstore(end, slot)
+            result := keccak256(begin, add(length, 0x20))
+            mstore(end, cache)
+        }
+    }
+}
