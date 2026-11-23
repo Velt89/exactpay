@@ -1,1 +1,102 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwpjb25zdCB7IFBBTklDX0NPREVTIH0gPSByZXF1aXJlKCdAbm9taWNmb3VuZGF0aW9uL2hhcmRoYXQtY2hhaS1tYXRjaGVycy9wYW5pYycpOwoKYXN5bmMgZnVuY3Rpb24gZml4dHVyZSgpIHsKICBjb25zdCBtb2NrID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCckRG91YmxlRW5kZWRRdWV1ZScpOwoKICAvKiogUmVidWlsZCB0aGUgY29udGVudCBvZiB0aGUgZGVxdWUgYXMgYSBKUyBhcnJheS4gKi8KICBjb25zdCBnZXRDb250ZW50ID0gKCkgPT4KICAgIG1vY2suJGxlbmd0aCgwKS50aGVuKGxlbmd0aCA9PiBQcm9taXNlLmFsbChBcnJheS5mcm9tKHsgbGVuZ3RoOiBOdW1iZXIobGVuZ3RoKSB9LCAoXywgaSkgPT4gbW9jay4kYXQoMCwgaSkpKSk7CgogIHJldHVybiB7IG1vY2ssIGdldENvbnRlbnQgfTsKfQoKZGVzY3JpYmUoJ0RvdWJsZUVuZGVkUXVldWUnLCBmdW5jdGlvbiAoKSB7CiAgY29uc3QgY29kZXIgPSBldGhlcnMuQWJpQ29kZXIuZGVmYXVsdEFiaUNvZGVyKCk7CiAgY29uc3QgYnl0ZXNBID0gY29kZXIuZW5jb2RlKFsndWludDI1NiddLCBbMHhkZWFkYmVlZl0pOwogIGNvbnN0IGJ5dGVzQiA9IGNvZGVyLmVuY29kZShbJ3VpbnQyNTYnXSwgWzB4MDEyMzQ1Njc4OV0pOwogIGNvbnN0IGJ5dGVzQyA9IGNvZGVyLmVuY29kZShbJ3VpbnQyNTYnXSwgWzB4NDI0MjQyNDJdKTsKICBjb25zdCBieXRlc0QgPSBjb2Rlci5lbmNvZGUoWyd1aW50MjU2J10sIFsweDE3MTcxN10pOwoKICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgIE9iamVjdC5hc3NpZ24odGhpcywgYXdhaXQgbG9hZEZpeHR1cmUoZml4dHVyZSkpOwogIH0pOwoKICBkZXNjcmliZSgnd2hlbiBlbXB0eScsIGZ1bmN0aW9uICgpIHsKICAgIGl0KCdnZXR0ZXJzJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRlbXB0eSgwKSkudG8uYmUudHJ1ZTsKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMuZ2V0Q29udGVudCgpKS50by5oYXZlLm9yZGVyZWQubWVtYmVycyhbXSk7CiAgICB9KTsKCiAgICBpdCgncmV2ZXJ0cyBvbiBhY2Nlc3NlcycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMubW9jay4kcG9wQmFjaygwKSkudG8uYmUucmV2ZXJ0ZWRXaXRoUGFuaWMoUEFOSUNfQ09ERVMuUE9QX09OX0VNUFRZX0FSUkFZKTsKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMubW9jay4kcG9wRnJvbnQoMCkpLnRvLmJlLnJldmVydGVkV2l0aFBhbmljKFBBTklDX0NPREVTLlBPUF9PTl9FTVBUWV9BUlJBWSk7CiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1vY2suJGJhY2soMCkpLnRvLmJlLnJldmVydGVkV2l0aFBhbmljKFBBTklDX0NPREVTLkFSUkFZX0FDQ0VTU19PVVRfT0ZfQk9VTkRTKTsKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMubW9jay4kZnJvbnQoMCkpLnRvLmJlLnJldmVydGVkV2l0aFBhbmljKFBBTklDX0NPREVTLkFSUkFZX0FDQ0VTU19PVVRfT0ZfQk9VTkRTKTsKICAgIH0pOwogIH0pOwoKICBkZXNjcmliZSgnd2hlbiBub3QgZW1wdHknLCBmdW5jdGlvbiAoKSB7CiAgICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgdGhpcy5tb2NrLiRwdXNoQmFjaygwLCBieXRlc0IpOwogICAgICBhd2FpdCB0aGlzLm1vY2suJHB1c2hGcm9udCgwLCBieXRlc0EpOwogICAgICBhd2FpdCB0aGlzLm1vY2suJHB1c2hCYWNrKDAsIGJ5dGVzQyk7CiAgICAgIHRoaXMuY29udGVudCA9IFtieXRlc0EsIGJ5dGVzQiwgYnl0ZXNDXTsKICAgIH0pOwoKICAgIGl0KCdnZXR0ZXJzJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRlbXB0eSgwKSkudG8uYmUuZmFsc2U7CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGxlbmd0aCgwKSkudG8uZXF1YWwodGhpcy5jb250ZW50Lmxlbmd0aCk7CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGZyb250KDApKS50by5lcXVhbCh0aGlzLmNvbnRlbnRbMF0pOwogICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRiYWNrKDApKS50by5lcXVhbCh0aGlzLmNvbnRlbnRbdGhpcy5jb250ZW50Lmxlbmd0aCAtIDFdKTsKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMuZ2V0Q29udGVudCgpKS50by5oYXZlLm9yZGVyZWQubWVtYmVycyh0aGlzLmNvbnRlbnQpOwogICAgfSk7CgogICAgaXQoJ291dCBvZiBib3VuZHMgYWNjZXNzJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCBleHBlY3QodGhpcy5tb2NrLiRhdCgwLCB0aGlzLmNvbnRlbnQubGVuZ3RoKSkudG8uYmUucmV2ZXJ0ZWRXaXRoUGFuaWMoCiAgICAgICAgUEFOSUNfQ09ERVMuQVJSQVlfQUNDRVNTX09VVF9PRl9CT1VORFMsCiAgICAgICk7CiAgICB9KTsKCiAgICBkZXNjcmliZSgncHVzaCcsIGZ1bmN0aW9uICgpIHsKICAgICAgaXQoJ2Zyb250JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGF3YWl0IHRoaXMubW9jay4kcHVzaEZyb250KDAsIGJ5dGVzRCk7CiAgICAgICAgdGhpcy5jb250ZW50LnVuc2hpZnQoYnl0ZXNEKTsgLy8gYWRkIGVsZW1lbnQgYXQgdGhlIGJlZ2lubmluZwoKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5nZXRDb250ZW50KCkpLnRvLmhhdmUub3JkZXJlZC5tZW1iZXJzKHRoaXMuY29udGVudCk7CiAgICAgIH0pOwoKICAgICAgaXQoJ2JhY2snLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgYXdhaXQgdGhpcy5tb2NrLiRwdXNoQmFjaygwLCBieXRlc0QpOwogICAgICAgIHRoaXMuY29udGVudC5wdXNoKGJ5dGVzRCk7IC8vIGFkZCBlbGVtZW50IGF0IHRoZSBlbmQKCiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMuZ2V0Q29udGVudCgpKS50by5oYXZlLm9yZGVyZWQubWVtYmVycyh0aGlzLmNvbnRlbnQpOwogICAgICB9KTsKICAgIH0pOwoKICAgIGRlc2NyaWJlKCdwb3AnLCBmdW5jdGlvbiAoKSB7CiAgICAgIGl0KCdmcm9udCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBjb25zdCB2YWx1ZSA9IHRoaXMuY29udGVudC5zaGlmdCgpOyAvLyByZW1vdmUgZmlyc3QgZWxlbWVudAogICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1vY2suJHBvcEZyb250KDApKS50by5lbWl0KHRoaXMubW9jaywgJ3JldHVybiRwb3BGcm9udCcpLndpdGhBcmdzKHZhbHVlKTsKCiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMuZ2V0Q29udGVudCgpKS50by5oYXZlLm9yZGVyZWQubWVtYmVycyh0aGlzLmNvbnRlbnQpOwogICAgICB9KTsKCiAgICAgIGl0KCdiYWNrJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGNvbnN0IHZhbHVlID0gdGhpcy5jb250ZW50LnBvcCgpOyAvLyByZW1vdmUgbGFzdCBlbGVtZW50CiAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMubW9jay4kcG9wQmFjaygwKSkudG8uZW1pdCh0aGlzLm1vY2ssICdyZXR1cm4kcG9wQmFjaycpLndpdGhBcmdzKHZhbHVlKTsKCiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMuZ2V0Q29udGVudCgpKS50by5oYXZlLm9yZGVyZWQubWVtYmVycyh0aGlzLmNvbnRlbnQpOwogICAgICB9KTsKICAgIH0pOwoKICAgIGl0KCdjbGVhcicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgdGhpcy5tb2NrLiRjbGVhcigwKTsKCiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGVtcHR5KDApKS50by5iZS50cnVlOwogICAgICBleHBlY3QoYXdhaXQgdGhpcy5nZXRDb250ZW50KCkpLnRvLmhhdmUub3JkZXJlZC5tZW1iZXJzKFtdKTsKICAgIH0pOwogIH0pOwp9KTsK
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+const { PANIC_CODES } = require('@nomicfoundation/hardhat-chai-matchers/panic');
+
+async function fixture() {
+  const mock = await ethers.deployContract('$DoubleEndedQueue');
+
+  /** Rebuild the content of the deque as a JS array. */
+  const getContent = () =>
+    mock.$length(0).then(length => Promise.all(Array.from({ length: Number(length) }, (_, i) => mock.$at(0, i))));
+
+  return { mock, getContent };
+}
+
+describe('DoubleEndedQueue', function () {
+  const coder = ethers.AbiCoder.defaultAbiCoder();
+  const bytesA = coder.encode(['uint256'], [0xdeadbeef]);
+  const bytesB = coder.encode(['uint256'], [0x0123456789]);
+  const bytesC = coder.encode(['uint256'], [0x42424242]);
+  const bytesD = coder.encode(['uint256'], [0x171717]);
+
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  describe('when empty', function () {
+    it('getters', async function () {
+      expect(await this.mock.$empty(0)).to.be.true;
+      expect(await this.getContent()).to.have.ordered.members([]);
+    });
+
+    it('reverts on accesses', async function () {
+      await expect(this.mock.$popBack(0)).to.be.revertedWithPanic(PANIC_CODES.POP_ON_EMPTY_ARRAY);
+      await expect(this.mock.$popFront(0)).to.be.revertedWithPanic(PANIC_CODES.POP_ON_EMPTY_ARRAY);
+      await expect(this.mock.$back(0)).to.be.revertedWithPanic(PANIC_CODES.ARRAY_ACCESS_OUT_OF_BOUNDS);
+      await expect(this.mock.$front(0)).to.be.revertedWithPanic(PANIC_CODES.ARRAY_ACCESS_OUT_OF_BOUNDS);
+    });
+  });
+
+  describe('when not empty', function () {
+    beforeEach(async function () {
+      await this.mock.$pushBack(0, bytesB);
+      await this.mock.$pushFront(0, bytesA);
+      await this.mock.$pushBack(0, bytesC);
+      this.content = [bytesA, bytesB, bytesC];
+    });
+
+    it('getters', async function () {
+      expect(await this.mock.$empty(0)).to.be.false;
+      expect(await this.mock.$length(0)).to.equal(this.content.length);
+      expect(await this.mock.$front(0)).to.equal(this.content[0]);
+      expect(await this.mock.$back(0)).to.equal(this.content[this.content.length - 1]);
+      expect(await this.getContent()).to.have.ordered.members(this.content);
+    });
+
+    it('out of bounds access', async function () {
+      await expect(this.mock.$at(0, this.content.length)).to.be.revertedWithPanic(
+        PANIC_CODES.ARRAY_ACCESS_OUT_OF_BOUNDS,
+      );
+    });
+
+    describe('push', function () {
+      it('front', async function () {
+        await this.mock.$pushFront(0, bytesD);
+        this.content.unshift(bytesD); // add element at the beginning
+
+        expect(await this.getContent()).to.have.ordered.members(this.content);
+      });
+
+      it('back', async function () {
+        await this.mock.$pushBack(0, bytesD);
+        this.content.push(bytesD); // add element at the end
+
+        expect(await this.getContent()).to.have.ordered.members(this.content);
+      });
+    });
+
+    describe('pop', function () {
+      it('front', async function () {
+        const value = this.content.shift(); // remove first element
+        await expect(this.mock.$popFront(0)).to.emit(this.mock, 'return$popFront').withArgs(value);
+
+        expect(await this.getContent()).to.have.ordered.members(this.content);
+      });
+
+      it('back', async function () {
+        const value = this.content.pop(); // remove last element
+        await expect(this.mock.$popBack(0)).to.emit(this.mock, 'return$popBack').withArgs(value);
+
+        expect(await this.getContent()).to.have.ordered.members(this.content);
+      });
+    });
+
+    it('clear', async function () {
+      await this.mock.$clear(0);
+
+      expect(await this.mock.$empty(0)).to.be.true;
+      expect(await this.getContent()).to.have.ordered.members([]);
+    });
+  });
+});
