@@ -1,1 +1,100 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgXjAuOC4yNDsKCmltcG9ydCB7RVJDMjB9IGZyb20gIkBvcGVuemVwcGVsaW4vY29udHJhY3RzL3Rva2VuL0VSQzIwL0VSQzIwLnNvbCI7CmltcG9ydCB7RUlQNzEyfSBmcm9tICJAb3BlbnplcHBlbGluL2NvbnRyYWN0cy91dGlscy9jcnlwdG9ncmFwaHkvRUlQNzEyLnNvbCI7CmltcG9ydCB7RUNEU0F9IGZyb20gIkBvcGVuemVwcGVsaW4vY29udHJhY3RzL3V0aWxzL2NyeXB0b2dyYXBoeS9FQ0RTQS5zb2wiOwoKLy8vIEB0aXRsZSBNb2NrVVNEOAovLy8gQG5vdGljZSBMb2NhbCBzdGFuZC1pbiBmb3IgdFVTRDg6IDYgZGVjaW1hbHMsIHRoZSBzYW1lIEVJUC03MTIgZG9tYWluICgidFVTRDgiLCB2ZXJzaW9uICIyIikKLy8vICAgICAgICAgYW5kIHRoZSBzYW1lIEVJUC0zMDA5IGZ1bmN0aW9ucy4gQW55b25lIGNhbiBtaW50LiBGT1IgTE9DQUwgVEVTVElORyBPTkxZLgpjb250cmFjdCBNb2NrVVNEOCBpcyBFUkMyMCwgRUlQNzEyIHsKICAgIGJ5dGVzMzIgcHVibGljIGNvbnN0YW50IFRSQU5TRkVSX1dJVEhfQVVUSE9SSVpBVElPTl9UWVBFSEFTSCA9IGtlY2NhazI1NigKICAgICAgICAiVHJhbnNmZXJXaXRoQXV0aG9yaXphdGlvbihhZGRyZXNzIGZyb20sYWRkcmVzcyB0byx1aW50MjU2IHZhbHVlLHVpbnQyNTYgdmFsaWRBZnRlcix1aW50MjU2IHZhbGlkQmVmb3JlLGJ5dGVzMzIgbm9uY2UpIgogICAgKTsKICAgIGJ5dGVzMzIgcHVibGljIGNvbnN0YW50IFJFQ0VJVkVfV0lUSF9BVVRIT1JJWkFUSU9OX1RZUEVIQVNIID0ga2VjY2FrMjU2KAogICAgICAgICJSZWNlaXZlV2l0aEF1dGhvcml6YXRpb24oYWRkcmVzcyBmcm9tLGFkZHJlc3MgdG8sdWludDI1NiB2YWx1ZSx1aW50MjU2IHZhbGlkQWZ0ZXIsdWludDI1NiB2YWxpZEJlZm9yZSxieXRlczMyIG5vbmNlKSIKICAgICk7CgogICAgbWFwcGluZyhhZGRyZXNzIGF1dGhvcml6ZXIgPT4gbWFwcGluZyhieXRlczMyIG5vbmNlID0+IGJvb2wgdXNlZCkpIHB1YmxpYyBhdXRob3JpemF0aW9uU3RhdGU7CgogICAgZXZlbnQgQXV0aG9yaXphdGlvblVzZWQoYWRkcmVzcyBpbmRleGVkIGF1dGhvcml6ZXIsIGJ5dGVzMzIgaW5kZXhlZCBub25jZSk7CgogICAgZXJyb3IgQXV0aG9yaXphdGlvbk5vdFlldFZhbGlkKCk7CiAgICBlcnJvciBBdXRob3JpemF0aW9uRXhwaXJlZCgpOwogICAgZXJyb3IgQXV0aG9yaXphdGlvblVzZWRBbHJlYWR5KCk7CiAgICBlcnJvciBJbnZhbGlkU2lnbmF0dXJlKCk7CiAgICBlcnJvciBDYWxsZXJNdXN0QmVQYXllZSgpOwoKICAgIGNvbnN0cnVjdG9yKCkgRVJDMjAoInRVU0Q4IiwgInRVU0Q4IikgRUlQNzEyKCJ0VVNEOCIsICIyIikge30KCiAgICBmdW5jdGlvbiBkZWNpbWFscygpIHB1YmxpYyBwdXJlIG92ZXJyaWRlIHJldHVybnMgKHVpbnQ4KSB7CiAgICAgICAgcmV0dXJuIDY7CiAgICB9CgogICAgZnVuY3Rpb24gbWludChhZGRyZXNzIHRvLCB1aW50MjU2IGFtb3VudCkgZXh0ZXJuYWwgewogICAgICAgIF9taW50KHRvLCBhbW91bnQpOwogICAgfQoKICAgIC8vIHNvbGhpbnQtZGlzYWJsZS1uZXh0LWxpbmUgZnVuYy1uYW1lLW1peGVkY2FzZQogICAgZnVuY3Rpb24gRE9NQUlOX1NFUEFSQVRPUigpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAoYnl0ZXMzMikgewogICAgICAgIHJldHVybiBfZG9tYWluU2VwYXJhdG9yVjQoKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0cmFuc2ZlcldpdGhBdXRob3JpemF0aW9uKAogICAgICAgIGFkZHJlc3MgZnJvbSwKICAgICAgICBhZGRyZXNzIHRvLAogICAgICAgIHVpbnQyNTYgdmFsdWUsCiAgICAgICAgdWludDI1NiB2YWxpZEFmdGVyLAogICAgICAgIHVpbnQyNTYgdmFsaWRCZWZvcmUsCiAgICAgICAgYnl0ZXMzMiBub25jZSwKICAgICAgICB1aW50OCB2LAogICAgICAgIGJ5dGVzMzIgciwKICAgICAgICBieXRlczMyIHMKICAgICkgZXh0ZXJuYWwgewogICAgICAgIF91c2VBdXRob3JpemF0aW9uKAogICAgICAgICAgICBUUkFOU0ZFUl9XSVRIX0FVVEhPUklaQVRJT05fVFlQRUhBU0gsIGZyb20sIHRvLCB2YWx1ZSwgdmFsaWRBZnRlciwgdmFsaWRCZWZvcmUsIG5vbmNlLCB2LCByLCBzCiAgICAgICAgKTsKICAgICAgICBfdHJhbnNmZXIoZnJvbSwgdG8sIHZhbHVlKTsKICAgIH0KCiAgICBmdW5jdGlvbiByZWNlaXZlV2l0aEF1dGhvcml6YXRpb24oCiAgICAgICAgYWRkcmVzcyBmcm9tLAogICAgICAgIGFkZHJlc3MgdG8sCiAgICAgICAgdWludDI1NiB2YWx1ZSwKICAgICAgICB1aW50MjU2IHZhbGlkQWZ0ZXIsCiAgICAgICAgdWludDI1NiB2YWxpZEJlZm9yZSwKICAgICAgICBieXRlczMyIG5vbmNlLAogICAgICAgIHVpbnQ4IHYsCiAgICAgICAgYnl0ZXMzMiByLAogICAgICAgIGJ5dGVzMzIgcwogICAgKSBleHRlcm5hbCB7CiAgICAgICAgaWYgKHRvICE9IG1zZy5zZW5kZXIpIHJldmVydCBDYWxsZXJNdXN0QmVQYXllZSgpOwogICAgICAgIF91c2VBdXRob3JpemF0aW9uKAogICAgICAgICAgICBSRUNFSVZFX1dJVEhfQVVUSE9SSVpBVElPTl9UWVBFSEFTSCwgZnJvbSwgdG8sIHZhbHVlLCB2YWxpZEFmdGVyLCB2YWxpZEJlZm9yZSwgbm9uY2UsIHYsIHIsIHMKICAgICAgICApOwogICAgICAgIF90cmFuc2Zlcihmcm9tLCB0bywgdmFsdWUpOwogICAgfQoKICAgIGZ1bmN0aW9uIF91c2VBdXRob3JpemF0aW9uKAogICAgICAgIGJ5dGVzMzIgdHlwZWhhc2gsCiAgICAgICAgYWRkcmVzcyBmcm9tLAogICAgICAgIGFkZHJlc3MgdG8sCiAgICAgICAgdWludDI1NiB2YWx1ZSwKICAgICAgICB1aW50MjU2IHZhbGlkQWZ0ZXIsCiAgICAgICAgdWludDI1NiB2YWxpZEJlZm9yZSwKICAgICAgICBieXRlczMyIG5vbmNlLAogICAgICAgIHVpbnQ4IHYsCiAgICAgICAgYnl0ZXMzMiByLAogICAgICAgIGJ5dGVzMzIgcwogICAgKSBwcml2YXRlIHsKICAgICAgICBpZiAoYmxvY2sudGltZXN0YW1wIDw9IHZhbGlkQWZ0ZXIpIHJldmVydCBBdXRob3JpemF0aW9uTm90WWV0VmFsaWQoKTsKICAgICAgICBpZiAoYmxvY2sudGltZXN0YW1wID49IHZhbGlkQmVmb3JlKSByZXZlcnQgQXV0aG9yaXphdGlvbkV4cGlyZWQoKTsKICAgICAgICBpZiAoYXV0aG9yaXphdGlvblN0YXRlW2Zyb21dW25vbmNlXSkgcmV2ZXJ0IEF1dGhvcml6YXRpb25Vc2VkQWxyZWFkeSgpOwogICAgICAgIGJ5dGVzMzIgZGlnZXN0ID0KICAgICAgICAgICAgX2hhc2hUeXBlZERhdGFWNChrZWNjYWsyNTYoYWJpLmVuY29kZSh0eXBlaGFzaCwgZnJvbSwgdG8sIHZhbHVlLCB2YWxpZEFmdGVyLCB2YWxpZEJlZm9yZSwgbm9uY2UpKSk7CiAgICAgICAgaWYgKEVDRFNBLnJlY292ZXIoZGlnZXN0LCB2LCByLCBzKSAhPSBmcm9tKSByZXZlcnQgSW52YWxpZFNpZ25hdHVyZSgpOwogICAgICAgIGF1dGhvcml6YXRpb25TdGF0ZVtmcm9tXVtub25jZV0gPSB0cnVlOwogICAgICAgIGVtaXQgQXV0aG9yaXphdGlvblVzZWQoZnJvbSwgbm9uY2UpOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.24;
+
+import {ERC20} from "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import {EIP712} from "@openzeppelin/contracts/utils/cryptography/EIP712.sol";
+import {ECDSA} from "@openzeppelin/contracts/utils/cryptography/ECDSA.sol";
+
+/// @title MockUSD8
+/// @notice Local stand-in for tUSD8: 6 decimals, the same EIP-712 domain ("tUSD8", version "2")
+///         and the same EIP-3009 functions. Anyone can mint. FOR LOCAL TESTING ONLY.
+contract MockUSD8 is ERC20, EIP712 {
+    bytes32 public constant TRANSFER_WITH_AUTHORIZATION_TYPEHASH = keccak256(
+        "TransferWithAuthorization(address from,address to,uint256 value,uint256 validAfter,uint256 validBefore,bytes32 nonce)"
+    );
+    bytes32 public constant RECEIVE_WITH_AUTHORIZATION_TYPEHASH = keccak256(
+        "ReceiveWithAuthorization(address from,address to,uint256 value,uint256 validAfter,uint256 validBefore,bytes32 nonce)"
+    );
+
+    mapping(address authorizer => mapping(bytes32 nonce => bool used)) public authorizationState;
+
+    event AuthorizationUsed(address indexed authorizer, bytes32 indexed nonce);
+
+    error AuthorizationNotYetValid();
+    error AuthorizationExpired();
+    error AuthorizationUsedAlready();
+    error InvalidSignature();
+    error CallerMustBePayee();
+
+    constructor() ERC20("tUSD8", "tUSD8") EIP712("tUSD8", "2") {}
+
+    function decimals() public pure override returns (uint8) {
+        return 6;
+    }
+
+    function mint(address to, uint256 amount) external {
+        _mint(to, amount);
+    }
+
+    // solhint-disable-next-line func-name-mixedcase
+    function DOMAIN_SEPARATOR() external view returns (bytes32) {
+        return _domainSeparatorV4();
+    }
+
+    function transferWithAuthorization(
+        address from,
+        address to,
+        uint256 value,
+        uint256 validAfter,
+        uint256 validBefore,
+        bytes32 nonce,
+        uint8 v,
+        bytes32 r,
+        bytes32 s
+    ) external {
+        _useAuthorization(
+            TRANSFER_WITH_AUTHORIZATION_TYPEHASH, from, to, value, validAfter, validBefore, nonce, v, r, s
+        );
+        _transfer(from, to, value);
+    }
+
+    function receiveWithAuthorization(
+        address from,
+        address to,
+        uint256 value,
+        uint256 validAfter,
+        uint256 validBefore,
+        bytes32 nonce,
+        uint8 v,
+        bytes32 r,
+        bytes32 s
+    ) external {
+        if (to != msg.sender) revert CallerMustBePayee();
+        _useAuthorization(
+            RECEIVE_WITH_AUTHORIZATION_TYPEHASH, from, to, value, validAfter, validBefore, nonce, v, r, s
+        );
+        _transfer(from, to, value);
+    }
+
+    function _useAuthorization(
+        bytes32 typehash,
+        address from,
+        address to,
+        uint256 value,
+        uint256 validAfter,
+        uint256 validBefore,
+        bytes32 nonce,
+        uint8 v,
+        bytes32 r,
+        bytes32 s
+    ) private {
+        if (block.timestamp <= validAfter) revert AuthorizationNotYetValid();
+        if (block.timestamp >= validBefore) revert AuthorizationExpired();
+        if (authorizationState[from][nonce]) revert AuthorizationUsedAlready();
+        bytes32 digest =
+            _hashTypedDataV4(keccak256(abi.encode(typehash, from, to, value, validAfter, validBefore, nonce)));
+        if (ECDSA.recover(digest, v, r, s) != from) revert InvalidSignature();
+        authorizationState[from][nonce] = true;
+        emit AuthorizationUsed(from, nonce);
+    }
+}
