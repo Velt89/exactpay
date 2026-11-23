@@ -1,1 +1,28 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0VSQzIwfSBmcm9tICIuLi8uLi90b2tlbi9FUkMyMC9FUkMyMC5zb2wiOwoKYWJzdHJhY3QgY29udHJhY3QgRVJDMjBOb1JldHVybk1vY2sgaXMgRVJDMjAgewogICAgZnVuY3Rpb24gdHJhbnNmZXIoYWRkcmVzcyB0bywgdWludDI1NiBhbW91bnQpIHB1YmxpYyBvdmVycmlkZSByZXR1cm5zIChib29sKSB7CiAgICAgICAgc3VwZXIudHJhbnNmZXIodG8sIGFtb3VudCk7CiAgICAgICAgYXNzZW1ibHkgewogICAgICAgICAgICByZXR1cm4oMCwgMCkKICAgICAgICB9CiAgICB9CgogICAgZnVuY3Rpb24gdHJhbnNmZXJGcm9tKGFkZHJlc3MgZnJvbSwgYWRkcmVzcyB0bywgdWludDI1NiBhbW91bnQpIHB1YmxpYyBvdmVycmlkZSByZXR1cm5zIChib29sKSB7CiAgICAgICAgc3VwZXIudHJhbnNmZXJGcm9tKGZyb20sIHRvLCBhbW91bnQpOwogICAgICAgIGFzc2VtYmx5IHsKICAgICAgICAgICAgcmV0dXJuKDAsIDApCiAgICAgICAgfQogICAgfQoKICAgIGZ1bmN0aW9uIGFwcHJvdmUoYWRkcmVzcyBzcGVuZGVyLCB1aW50MjU2IGFtb3VudCkgcHVibGljIG92ZXJyaWRlIHJldHVybnMgKGJvb2wpIHsKICAgICAgICBzdXBlci5hcHByb3ZlKHNwZW5kZXIsIGFtb3VudCk7CiAgICAgICAgYXNzZW1ibHkgewogICAgICAgICAgICByZXR1cm4oMCwgMCkKICAgICAgICB9CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {ERC20} from "../../token/ERC20/ERC20.sol";
+
+abstract contract ERC20NoReturnMock is ERC20 {
+    function transfer(address to, uint256 amount) public override returns (bool) {
+        super.transfer(to, amount);
+        assembly {
+            return(0, 0)
+        }
+    }
+
+    function transferFrom(address from, address to, uint256 amount) public override returns (bool) {
+        super.transferFrom(from, to, amount);
+        assembly {
+            return(0, 0)
+        }
+    }
+
+    function approve(address spender, uint256 amount) public override returns (bool) {
+        super.approve(spender, amount);
+        assembly {
+            return(0, 0)
+        }
+    }
+}
