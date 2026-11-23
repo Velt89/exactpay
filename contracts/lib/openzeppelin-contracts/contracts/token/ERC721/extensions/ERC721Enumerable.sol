@@ -1,1 +1,174 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodG9rZW4vRVJDNzIxL2V4dGVuc2lvbnMvRVJDNzIxRW51bWVyYWJsZS5zb2wpCgpwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7RVJDNzIxfSBmcm9tICIuLi9FUkM3MjEuc29sIjsKaW1wb3J0IHtJRVJDNzIxRW51bWVyYWJsZX0gZnJvbSAiLi9JRVJDNzIxRW51bWVyYWJsZS5zb2wiOwppbXBvcnQge0lFUkMxNjV9IGZyb20gIi4uLy4uLy4uL3V0aWxzL2ludHJvc3BlY3Rpb24vRVJDMTY1LnNvbCI7CgovKioKICogQGRldiBUaGlzIGltcGxlbWVudHMgYW4gb3B0aW9uYWwgZXh0ZW5zaW9uIG9mIHtFUkM3MjF9IGRlZmluZWQgaW4gdGhlIEVSQyB0aGF0IGFkZHMgZW51bWVyYWJpbGl0eQogKiBvZiBhbGwgdGhlIHRva2VuIGlkcyBpbiB0aGUgY29udHJhY3QgYXMgd2VsbCBhcyBhbGwgdG9rZW4gaWRzIG93bmVkIGJ5IGVhY2ggYWNjb3VudC4KICoKICogQ0FVVElPTjoge0VSQzcyMX0gZXh0ZW5zaW9ucyB0aGF0IGltcGxlbWVudCBjdXN0b20gYGJhbGFuY2VPZmAgbG9naWMsIHN1Y2ggYXMge0VSQzcyMUNvbnNlY3V0aXZlfSwKICogaW50ZXJmZXJlIHdpdGggZW51bWVyYWJpbGl0eSBhbmQgc2hvdWxkIG5vdCBiZSB1c2VkIHRvZ2V0aGVyIHdpdGgge0VSQzcyMUVudW1lcmFibGV9LgogKi8KYWJzdHJhY3QgY29udHJhY3QgRVJDNzIxRW51bWVyYWJsZSBpcyBFUkM3MjEsIElFUkM3MjFFbnVtZXJhYmxlIHsKICAgIG1hcHBpbmcoYWRkcmVzcyBvd25lciA9PiBtYXBwaW5nKHVpbnQyNTYgaW5kZXggPT4gdWludDI1NikpIHByaXZhdGUgX293bmVkVG9rZW5zOwogICAgbWFwcGluZyh1aW50MjU2IHRva2VuSWQgPT4gdWludDI1NikgcHJpdmF0ZSBfb3duZWRUb2tlbnNJbmRleDsKCiAgICB1aW50MjU2W10gcHJpdmF0ZSBfYWxsVG9rZW5zOwogICAgbWFwcGluZyh1aW50MjU2IHRva2VuSWQgPT4gdWludDI1NikgcHJpdmF0ZSBfYWxsVG9rZW5zSW5kZXg7CgogICAgLyoqCiAgICAgKiBAZGV2IEFuIGBvd25lcmAncyB0b2tlbiBxdWVyeSB3YXMgb3V0IG9mIGJvdW5kcyBmb3IgYGluZGV4YC4KICAgICAqCiAgICAgKiBOT1RFOiBUaGUgb3duZXIgYmVpbmcgYGFkZHJlc3MoMClgIGluZGljYXRlcyBhIGdsb2JhbCBvdXQgb2YgYm91bmRzIGluZGV4LgogICAgICovCiAgICBlcnJvciBFUkM3MjFPdXRPZkJvdW5kc0luZGV4KGFkZHJlc3Mgb3duZXIsIHVpbnQyNTYgaW5kZXgpOwoKICAgIC8qKgogICAgICogQGRldiBCYXRjaCBtaW50IGlzIG5vdCBhbGxvd2VkLgogICAgICovCiAgICBlcnJvciBFUkM3MjFFbnVtZXJhYmxlRm9yYmlkZGVuQmF0Y2hNaW50KCk7CgogICAgLyoqCiAgICAgKiBAZGV2IFNlZSB7SUVSQzE2NS1zdXBwb3J0c0ludGVyZmFjZX0uCiAgICAgKi8KICAgIGZ1bmN0aW9uIHN1cHBvcnRzSW50ZXJmYWNlKGJ5dGVzNCBpbnRlcmZhY2VJZCkgcHVibGljIHZpZXcgdmlydHVhbCBvdmVycmlkZShJRVJDMTY1LCBFUkM3MjEpIHJldHVybnMgKGJvb2wpIHsKICAgICAgICByZXR1cm4gaW50ZXJmYWNlSWQgPT0gdHlwZShJRVJDNzIxRW51bWVyYWJsZSkuaW50ZXJmYWNlSWQgfHwgc3VwZXIuc3VwcG9ydHNJbnRlcmZhY2UoaW50ZXJmYWNlSWQpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBTZWUge0lFUkM3MjFFbnVtZXJhYmxlLXRva2VuT2ZPd25lckJ5SW5kZXh9LgogICAgICovCiAgICBmdW5jdGlvbiB0b2tlbk9mT3duZXJCeUluZGV4KGFkZHJlc3Mgb3duZXIsIHVpbnQyNTYgaW5kZXgpIHB1YmxpYyB2aWV3IHZpcnR1YWwgcmV0dXJucyAodWludDI1NikgewogICAgICAgIGlmIChpbmRleCA+PSBiYWxhbmNlT2Yob3duZXIpKSB7CiAgICAgICAgICAgIHJldmVydCBFUkM3MjFPdXRPZkJvdW5kc0luZGV4KG93bmVyLCBpbmRleCk7CiAgICAgICAgfQogICAgICAgIHJldHVybiBfb3duZWRUb2tlbnNbb3duZXJdW2luZGV4XTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgU2VlIHtJRVJDNzIxRW51bWVyYWJsZS10b3RhbFN1cHBseX0uCiAgICAgKi8KICAgIGZ1bmN0aW9uIHRvdGFsU3VwcGx5KCkgcHVibGljIHZpZXcgdmlydHVhbCByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgcmV0dXJuIF9hbGxUb2tlbnMubGVuZ3RoOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBTZWUge0lFUkM3MjFFbnVtZXJhYmxlLXRva2VuQnlJbmRleH0uCiAgICAgKi8KICAgIGZ1bmN0aW9uIHRva2VuQnlJbmRleCh1aW50MjU2IGluZGV4KSBwdWJsaWMgdmlldyB2aXJ0dWFsIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICBpZiAoaW5kZXggPj0gdG90YWxTdXBwbHkoKSkgewogICAgICAgICAgICByZXZlcnQgRVJDNzIxT3V0T2ZCb3VuZHNJbmRleChhZGRyZXNzKDApLCBpbmRleCk7CiAgICAgICAgfQogICAgICAgIHJldHVybiBfYWxsVG9rZW5zW2luZGV4XTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgU2VlIHtFUkM3MjEtX3VwZGF0ZX0uCiAgICAgKi8KICAgIGZ1bmN0aW9uIF91cGRhdGUoYWRkcmVzcyB0bywgdWludDI1NiB0b2tlbklkLCBhZGRyZXNzIGF1dGgpIGludGVybmFsIHZpcnR1YWwgb3ZlcnJpZGUgcmV0dXJucyAoYWRkcmVzcykgewogICAgICAgIGFkZHJlc3MgcHJldmlvdXNPd25lciA9IHN1cGVyLl91cGRhdGUodG8sIHRva2VuSWQsIGF1dGgpOwoKICAgICAgICBpZiAocHJldmlvdXNPd25lciA9PSBhZGRyZXNzKDApKSB7CiAgICAgICAgICAgIF9hZGRUb2tlblRvQWxsVG9rZW5zRW51bWVyYXRpb24odG9rZW5JZCk7CiAgICAgICAgfSBlbHNlIGlmIChwcmV2aW91c093bmVyICE9IHRvKSB7CiAgICAgICAgICAgIF9yZW1vdmVUb2tlbkZyb21Pd25lckVudW1lcmF0aW9uKHByZXZpb3VzT3duZXIsIHRva2VuSWQpOwogICAgICAgIH0KICAgICAgICBpZiAodG8gPT0gYWRkcmVzcygwKSkgewogICAgICAgICAgICBfcmVtb3ZlVG9rZW5Gcm9tQWxsVG9rZW5zRW51bWVyYXRpb24odG9rZW5JZCk7CiAgICAgICAgfSBlbHNlIGlmIChwcmV2aW91c093bmVyICE9IHRvKSB7CiAgICAgICAgICAgIF9hZGRUb2tlblRvT3duZXJFbnVtZXJhdGlvbih0bywgdG9rZW5JZCk7CiAgICAgICAgfQoKICAgICAgICByZXR1cm4gcHJldmlvdXNPd25lcjsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUHJpdmF0ZSBmdW5jdGlvbiB0byBhZGQgYSB0b2tlbiB0byB0aGlzIGV4dGVuc2lvbidzIG93bmVyc2hpcC10cmFja2luZyBkYXRhIHN0cnVjdHVyZXMuCiAgICAgKiBAcGFyYW0gdG8gYWRkcmVzcyByZXByZXNlbnRpbmcgdGhlIG5ldyBvd25lciBvZiB0aGUgZ2l2ZW4gdG9rZW4gSUQKICAgICAqIEBwYXJhbSB0b2tlbklkIHVpbnQyNTYgSUQgb2YgdGhlIHRva2VuIHRvIGJlIGFkZGVkIHRvIHRoZSB0b2tlbnMgbGlzdCBvZiB0aGUgZ2l2ZW4gYWRkcmVzcwogICAgICovCiAgICBmdW5jdGlvbiBfYWRkVG9rZW5Ub093bmVyRW51bWVyYXRpb24oYWRkcmVzcyB0bywgdWludDI1NiB0b2tlbklkKSBwcml2YXRlIHsKICAgICAgICB1aW50MjU2IGxlbmd0aCA9IGJhbGFuY2VPZih0bykgLSAxOwogICAgICAgIF9vd25lZFRva2Vuc1t0b11bbGVuZ3RoXSA9IHRva2VuSWQ7CiAgICAgICAgX293bmVkVG9rZW5zSW5kZXhbdG9rZW5JZF0gPSBsZW5ndGg7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFByaXZhdGUgZnVuY3Rpb24gdG8gYWRkIGEgdG9rZW4gdG8gdGhpcyBleHRlbnNpb24ncyB0b2tlbiB0cmFja2luZyBkYXRhIHN0cnVjdHVyZXMuCiAgICAgKiBAcGFyYW0gdG9rZW5JZCB1aW50MjU2IElEIG9mIHRoZSB0b2tlbiB0byBiZSBhZGRlZCB0byB0aGUgdG9rZW5zIGxpc3QKICAgICAqLwogICAgZnVuY3Rpb24gX2FkZFRva2VuVG9BbGxUb2tlbnNFbnVtZXJhdGlvbih1aW50MjU2IHRva2VuSWQpIHByaXZhdGUgewogICAgICAgIF9hbGxUb2tlbnNJbmRleFt0b2tlbklkXSA9IF9hbGxUb2tlbnMubGVuZ3RoOwogICAgICAgIF9hbGxUb2tlbnMucHVzaCh0b2tlbklkKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUHJpdmF0ZSBmdW5jdGlvbiB0byByZW1vdmUgYSB0b2tlbiBmcm9tIHRoaXMgZXh0ZW5zaW9uJ3Mgb3duZXJzaGlwLXRyYWNraW5nIGRhdGEgc3RydWN0dXJlcy4gTm90ZSB0aGF0CiAgICAgKiB3aGlsZSB0aGUgdG9rZW4gaXMgbm90IGFzc2lnbmVkIGEgbmV3IG93bmVyLCB0aGUgYF9vd25lZFRva2Vuc0luZGV4YCBtYXBwaW5nIGlzIF9ub3RfIHVwZGF0ZWQ6IHRoaXMgYWxsb3dzIGZvcgogICAgICogZ2FzIG9wdGltaXphdGlvbnMgZS5nLiB3aGVuIHBlcmZvcm1pbmcgYSB0cmFuc2ZlciBvcGVyYXRpb24gKGF2b2lkaW5nIGRvdWJsZSB3cml0ZXMpLgogICAgICogVGhpcyBoYXMgTygxKSB0aW1lIGNvbXBsZXhpdHksIGJ1dCBhbHRlcnMgdGhlIG9yZGVyIG9mIHRoZSBfb3duZWRUb2tlbnMgYXJyYXkuCiAgICAgKiBAcGFyYW0gZnJvbSBhZGRyZXNzIHJlcHJlc2VudGluZyB0aGUgcHJldmlvdXMgb3duZXIgb2YgdGhlIGdpdmVuIHRva2VuIElECiAgICAgKiBAcGFyYW0gdG9rZW5JZCB1aW50MjU2IElEIG9mIHRoZSB0b2tlbiB0byBiZSByZW1vdmVkIGZyb20gdGhlIHRva2VucyBsaXN0IG9mIHRoZSBnaXZlbiBhZGRyZXNzCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9yZW1vdmVUb2tlbkZyb21Pd25lckVudW1lcmF0aW9uKGFkZHJlc3MgZnJvbSwgdWludDI1NiB0b2tlbklkKSBwcml2YXRlIHsKICAgICAgICAvLyBUbyBwcmV2ZW50IGEgZ2FwIGluIGZyb20ncyB0b2tlbnMgYXJyYXksIHdlIHN0b3JlIHRoZSBsYXN0IHRva2VuIGluIHRoZSBpbmRleCBvZiB0aGUgdG9rZW4gdG8gZGVsZXRlLCBhbmQKICAgICAgICAvLyB0aGVuIGRlbGV0ZSB0aGUgbGFzdCBzbG90IChzd2FwIGFuZCBwb3ApLgoKICAgICAgICB1aW50MjU2IGxhc3RUb2tlbkluZGV4ID0gYmFsYW5jZU9mKGZyb20pOwogICAgICAgIHVpbnQyNTYgdG9rZW5JbmRleCA9IF9vd25lZFRva2Vuc0luZGV4W3Rva2VuSWRdOwoKICAgICAgICBtYXBwaW5nKHVpbnQyNTYgaW5kZXggPT4gdWludDI1Nikgc3RvcmFnZSBfb3duZWRUb2tlbnNCeU93bmVyID0gX293bmVkVG9rZW5zW2Zyb21dOwoKICAgICAgICAvLyBXaGVuIHRoZSB0b2tlbiB0byBkZWxldGUgaXMgdGhlIGxhc3QgdG9rZW4sIHRoZSBzd2FwIG9wZXJhdGlvbiBpcyB1bm5lY2Vzc2FyeQogICAgICAgIGlmICh0b2tlbkluZGV4ICE9IGxhc3RUb2tlbkluZGV4KSB7CiAgICAgICAgICAgIHVpbnQyNTYgbGFzdFRva2VuSWQgPSBfb3duZWRUb2tlbnNCeU93bmVyW2xhc3RUb2tlbkluZGV4XTsKCiAgICAgICAgICAgIF9vd25lZFRva2Vuc0J5T3duZXJbdG9rZW5JbmRleF0gPSBsYXN0VG9rZW5JZDsgLy8gTW92ZSB0aGUgbGFzdCB0b2tlbiB0byB0aGUgc2xvdCBvZiB0aGUgdG8tZGVsZXRlIHRva2VuCiAgICAgICAgICAgIF9vd25lZFRva2Vuc0luZGV4W2xhc3RUb2tlbklkXSA9IHRva2VuSW5kZXg7IC8vIFVwZGF0ZSB0aGUgbW92ZWQgdG9rZW4ncyBpbmRleAogICAgICAgIH0KCiAgICAgICAgLy8gVGhpcyBhbHNvIGRlbGV0ZXMgdGhlIGNvbnRlbnRzIGF0IHRoZSBsYXN0IHBvc2l0aW9uIG9mIHRoZSBhcnJheQogICAgICAgIGRlbGV0ZSBfb3duZWRUb2tlbnNJbmRleFt0b2tlbklkXTsKICAgICAgICBkZWxldGUgX293bmVkVG9rZW5zQnlPd25lcltsYXN0VG9rZW5JbmRleF07CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFByaXZhdGUgZnVuY3Rpb24gdG8gcmVtb3ZlIGEgdG9rZW4gZnJvbSB0aGlzIGV4dGVuc2lvbidzIHRva2VuIHRyYWNraW5nIGRhdGEgc3RydWN0dXJlcy4KICAgICAqIFRoaXMgaGFzIE8oMSkgdGltZSBjb21wbGV4aXR5LCBidXQgYWx0ZXJzIHRoZSBvcmRlciBvZiB0aGUgX2FsbFRva2VucyBhcnJheS4KICAgICAqIEBwYXJhbSB0b2tlbklkIHVpbnQyNTYgSUQgb2YgdGhlIHRva2VuIHRvIGJlIHJlbW92ZWQgZnJvbSB0aGUgdG9rZW5zIGxpc3QKICAgICAqLwogICAgZnVuY3Rpb24gX3JlbW92ZVRva2VuRnJvbUFsbFRva2Vuc0VudW1lcmF0aW9uKHVpbnQyNTYgdG9rZW5JZCkgcHJpdmF0ZSB7CiAgICAgICAgLy8gVG8gcHJldmVudCBhIGdhcCBpbiB0aGUgdG9rZW5zIGFycmF5LCB3ZSBzdG9yZSB0aGUgbGFzdCB0b2tlbiBpbiB0aGUgaW5kZXggb2YgdGhlIHRva2VuIHRvIGRlbGV0ZSwgYW5kCiAgICAgICAgLy8gdGhlbiBkZWxldGUgdGhlIGxhc3Qgc2xvdCAoc3dhcCBhbmQgcG9wKS4KCiAgICAgICAgdWludDI1NiBsYXN0VG9rZW5JbmRleCA9IF9hbGxUb2tlbnMubGVuZ3RoIC0gMTsKICAgICAgICB1aW50MjU2IHRva2VuSW5kZXggPSBfYWxsVG9rZW5zSW5kZXhbdG9rZW5JZF07CgogICAgICAgIC8vIFdoZW4gdGhlIHRva2VuIHRvIGRlbGV0ZSBpcyB0aGUgbGFzdCB0b2tlbiwgdGhlIHN3YXAgb3BlcmF0aW9uIGlzIHVubmVjZXNzYXJ5LiBIb3dldmVyLCBzaW5jZSB0aGlzIG9jY3VycyBzbwogICAgICAgIC8vIHJhcmVseSAod2hlbiB0aGUgbGFzdCBtaW50ZWQgdG9rZW4gaXMgYnVybnQpIHRoYXQgd2Ugc3RpbGwgZG8gdGhlIHN3YXAgaGVyZSB0byBhdm9pZCB0aGUgZ2FzIGNvc3Qgb2YgYWRkaW5nCiAgICAgICAgLy8gYW4gJ2lmJyBzdGF0ZW1lbnQgKGxpa2UgaW4gX3JlbW92ZVRva2VuRnJvbU93bmVyRW51bWVyYXRpb24pCiAgICAgICAgdWludDI1NiBsYXN0VG9rZW5JZCA9IF9hbGxUb2tlbnNbbGFzdFRva2VuSW5kZXhdOwoKICAgICAgICBfYWxsVG9rZW5zW3Rva2VuSW5kZXhdID0gbGFzdFRva2VuSWQ7IC8vIE1vdmUgdGhlIGxhc3QgdG9rZW4gdG8gdGhlIHNsb3Qgb2YgdGhlIHRvLWRlbGV0ZSB0b2tlbgogICAgICAgIF9hbGxUb2tlbnNJbmRleFtsYXN0VG9rZW5JZF0gPSB0b2tlbkluZGV4OyAvLyBVcGRhdGUgdGhlIG1vdmVkIHRva2VuJ3MgaW5kZXgKCiAgICAgICAgLy8gVGhpcyBhbHNvIGRlbGV0ZXMgdGhlIGNvbnRlbnRzIGF0IHRoZSBsYXN0IHBvc2l0aW9uIG9mIHRoZSBhcnJheQogICAgICAgIGRlbGV0ZSBfYWxsVG9rZW5zSW5kZXhbdG9rZW5JZF07CiAgICAgICAgX2FsbFRva2Vucy5wb3AoKTsKICAgIH0KCiAgICAvKioKICAgICAqIFNlZSB7RVJDNzIxLV9pbmNyZWFzZUJhbGFuY2V9LiBXZSBuZWVkIHRoYXQgdG8gYWNjb3VudCB0b2tlbnMgdGhhdCB3ZXJlIG1pbnRlZCBpbiBiYXRjaAogICAgICovCiAgICBmdW5jdGlvbiBfaW5jcmVhc2VCYWxhbmNlKGFkZHJlc3MgYWNjb3VudCwgdWludDEyOCBhbW91bnQpIGludGVybmFsIHZpcnR1YWwgb3ZlcnJpZGUgewogICAgICAgIGlmIChhbW91bnQgPiAwKSB7CiAgICAgICAgICAgIHJldmVydCBFUkM3MjFFbnVtZXJhYmxlRm9yYmlkZGVuQmF0Y2hNaW50KCk7CiAgICAgICAgfQogICAgICAgIHN1cGVyLl9pbmNyZWFzZUJhbGFuY2UoYWNjb3VudCwgYW1vdW50KTsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (token/ERC721/extensions/ERC721Enumerable.sol)
+
+pragma solidity ^0.8.20;
+
+import {ERC721} from "../ERC721.sol";
+import {IERC721Enumerable} from "./IERC721Enumerable.sol";
+import {IERC165} from "../../../utils/introspection/ERC165.sol";
+
+/**
+ * @dev This implements an optional extension of {ERC721} defined in the ERC that adds enumerability
+ * of all the token ids in the contract as well as all token ids owned by each account.
+ *
+ * CAUTION: {ERC721} extensions that implement custom `balanceOf` logic, such as {ERC721Consecutive},
+ * interfere with enumerability and should not be used together with {ERC721Enumerable}.
+ */
+abstract contract ERC721Enumerable is ERC721, IERC721Enumerable {
+    mapping(address owner => mapping(uint256 index => uint256)) private _ownedTokens;
+    mapping(uint256 tokenId => uint256) private _ownedTokensIndex;
+
+    uint256[] private _allTokens;
+    mapping(uint256 tokenId => uint256) private _allTokensIndex;
+
+    /**
+     * @dev An `owner`'s token query was out of bounds for `index`.
+     *
+     * NOTE: The owner being `address(0)` indicates a global out of bounds index.
+     */
+    error ERC721OutOfBoundsIndex(address owner, uint256 index);
+
+    /**
+     * @dev Batch mint is not allowed.
+     */
+    error ERC721EnumerableForbiddenBatchMint();
+
+    /**
+     * @dev See {IERC165-supportsInterface}.
+     */
+    function supportsInterface(bytes4 interfaceId) public view virtual override(IERC165, ERC721) returns (bool) {
+        return interfaceId == type(IERC721Enumerable).interfaceId || super.supportsInterface(interfaceId);
+    }
+
+    /**
+     * @dev See {IERC721Enumerable-tokenOfOwnerByIndex}.
+     */
+    function tokenOfOwnerByIndex(address owner, uint256 index) public view virtual returns (uint256) {
+        if (index >= balanceOf(owner)) {
+            revert ERC721OutOfBoundsIndex(owner, index);
+        }
+        return _ownedTokens[owner][index];
+    }
+
+    /**
+     * @dev See {IERC721Enumerable-totalSupply}.
+     */
+    function totalSupply() public view virtual returns (uint256) {
+        return _allTokens.length;
+    }
+
+    /**
+     * @dev See {IERC721Enumerable-tokenByIndex}.
+     */
+    function tokenByIndex(uint256 index) public view virtual returns (uint256) {
+        if (index >= totalSupply()) {
+            revert ERC721OutOfBoundsIndex(address(0), index);
+        }
+        return _allTokens[index];
+    }
+
+    /**
+     * @dev See {ERC721-_update}.
+     */
+    function _update(address to, uint256 tokenId, address auth) internal virtual override returns (address) {
+        address previousOwner = super._update(to, tokenId, auth);
+
+        if (previousOwner == address(0)) {
+            _addTokenToAllTokensEnumeration(tokenId);
+        } else if (previousOwner != to) {
+            _removeTokenFromOwnerEnumeration(previousOwner, tokenId);
+        }
+        if (to == address(0)) {
+            _removeTokenFromAllTokensEnumeration(tokenId);
+        } else if (previousOwner != to) {
+            _addTokenToOwnerEnumeration(to, tokenId);
+        }
+
+        return previousOwner;
+    }
+
+    /**
+     * @dev Private function to add a token to this extension's ownership-tracking data structures.
+     * @param to address representing the new owner of the given token ID
+     * @param tokenId uint256 ID of the token to be added to the tokens list of the given address
+     */
+    function _addTokenToOwnerEnumeration(address to, uint256 tokenId) private {
+        uint256 length = balanceOf(to) - 1;
+        _ownedTokens[to][length] = tokenId;
+        _ownedTokensIndex[tokenId] = length;
+    }
+
+    /**
+     * @dev Private function to add a token to this extension's token tracking data structures.
+     * @param tokenId uint256 ID of the token to be added to the tokens list
+     */
+    function _addTokenToAllTokensEnumeration(uint256 tokenId) private {
+        _allTokensIndex[tokenId] = _allTokens.length;
+        _allTokens.push(tokenId);
+    }
+
+    /**
+     * @dev Private function to remove a token from this extension's ownership-tracking data structures. Note that
+     * while the token is not assigned a new owner, the `_ownedTokensIndex` mapping is _not_ updated: this allows for
+     * gas optimizations e.g. when performing a transfer operation (avoiding double writes).
+     * This has O(1) time complexity, but alters the order of the _ownedTokens array.
+     * @param from address representing the previous owner of the given token ID
+     * @param tokenId uint256 ID of the token to be removed from the tokens list of the given address
+     */
+    function _removeTokenFromOwnerEnumeration(address from, uint256 tokenId) private {
+        // To prevent a gap in from's tokens array, we store the last token in the index of the token to delete, and
+        // then delete the last slot (swap and pop).
+
+        uint256 lastTokenIndex = balanceOf(from);
+        uint256 tokenIndex = _ownedTokensIndex[tokenId];
+
+        mapping(uint256 index => uint256) storage _ownedTokensByOwner = _ownedTokens[from];
+
+        // When the token to delete is the last token, the swap operation is unnecessary
+        if (tokenIndex != lastTokenIndex) {
+            uint256 lastTokenId = _ownedTokensByOwner[lastTokenIndex];
+
+            _ownedTokensByOwner[tokenIndex] = lastTokenId; // Move the last token to the slot of the to-delete token
+            _ownedTokensIndex[lastTokenId] = tokenIndex; // Update the moved token's index
+        }
+
+        // This also deletes the contents at the last position of the array
+        delete _ownedTokensIndex[tokenId];
+        delete _ownedTokensByOwner[lastTokenIndex];
+    }
+
+    /**
+     * @dev Private function to remove a token from this extension's token tracking data structures.
+     * This has O(1) time complexity, but alters the order of the _allTokens array.
+     * @param tokenId uint256 ID of the token to be removed from the tokens list
+     */
+    function _removeTokenFromAllTokensEnumeration(uint256 tokenId) private {
+        // To prevent a gap in the tokens array, we store the last token in the index of the token to delete, and
+        // then delete the last slot (swap and pop).
+
+        uint256 lastTokenIndex = _allTokens.length - 1;
+        uint256 tokenIndex = _allTokensIndex[tokenId];
+
+        // When the token to delete is the last token, the swap operation is unnecessary. However, since this occurs so
+        // rarely (when the last minted token is burnt) that we still do the swap here to avoid the gas cost of adding
+        // an 'if' statement (like in _removeTokenFromOwnerEnumeration)
+        uint256 lastTokenId = _allTokens[lastTokenIndex];
+
+        _allTokens[tokenIndex] = lastTokenId; // Move the last token to the slot of the to-delete token
+        _allTokensIndex[lastTokenId] = tokenIndex; // Update the moved token's index
+
+        // This also deletes the contents at the last position of the array
+        delete _allTokensIndex[tokenId];
+        _allTokens.pop();
+    }
+
+    /**
+     * See {ERC721-_increaseBalance}. We need that to account tokens that were minted in batch
+     */
+    function _increaseBalance(address account, uint128 amount) internal virtual override {
+        if (amount > 0) {
+            revert ERC721EnumerableForbiddenBatchMint();
+        }
+        super._increaseBalance(account, amount);
+    }
+}
