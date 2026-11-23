@@ -1,1 +1,100 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwpjb25zdCB7IFBBTklDX0NPREVTIH0gPSByZXF1aXJlKCdAbm9taWNmb3VuZGF0aW9uL2hhcmRoYXQtY2hhaS1tYXRjaGVycy9wYW5pYycpOwpjb25zdCB7IFN0YW5kYXJkTWVya2xlVHJlZSB9ID0gcmVxdWlyZSgnQG9wZW56ZXBwZWxpbi9tZXJrbGUtdHJlZScpOwoKY29uc3QgeyBnZW5lcmF0b3JzIH0gPSByZXF1aXJlKCcuLi8uLi9oZWxwZXJzL3JhbmRvbScpOwoKY29uc3QgbWFrZVRyZWUgPSAobGVhdmVzID0gW2V0aGVycy5aZXJvSGFzaF0pID0+CiAgU3RhbmRhcmRNZXJrbGVUcmVlLm9mKAogICAgbGVhdmVzLm1hcChsZWFmID0+IFtsZWFmXSksCiAgICBbJ2J5dGVzMzInXSwKICAgIHsgc29ydExlYXZlczogZmFsc2UgfSwKICApOwoKY29uc3QgaGFzaExlYWYgPSBsZWFmID0+IG1ha2VUcmVlKCkubGVhZkhhc2goW2xlYWZdKTsKCmNvbnN0IERFUFRIID0gNG47IC8vIDE2IHNsb3RzCmNvbnN0IFpFUk8gPSBoYXNoTGVhZihldGhlcnMuWmVyb0hhc2gpOwoKYXN5bmMgZnVuY3Rpb24gZml4dHVyZSgpIHsKICBjb25zdCBtb2NrID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCdNZXJrbGVUcmVlTW9jaycpOwogIGF3YWl0IG1vY2suc2V0dXAoREVQVEgsIFpFUk8pOwogIHJldHVybiB7IG1vY2sgfTsKfQoKZGVzY3JpYmUoJ01lcmtsZVRyZWUnLCBmdW5jdGlvbiAoKSB7CiAgYmVmb3JlRWFjaChhc3luYyBmdW5jdGlvbiAoKSB7CiAgICBPYmplY3QuYXNzaWduKHRoaXMsIGF3YWl0IGxvYWRGaXh0dXJlKGZpeHR1cmUpKTsKICB9KTsKCiAgaXQoJ3NldHMgaW5pdGlhbCB2YWx1ZXMgYXQgc2V0dXAnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICBjb25zdCBtZXJrbGVUcmVlID0gbWFrZVRyZWUoQXJyYXkuZnJvbSh7IGxlbmd0aDogMiAqKiBOdW1iZXIoREVQVEgpIH0sICgpID0+IGV0aGVycy5aZXJvSGFzaCkpOwoKICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2sucm9vdCgpKS50by5lcXVhbChtZXJrbGVUcmVlLnJvb3QpOwogICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay5kZXB0aCgpKS50by5lcXVhbChERVBUSCk7CiAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLm5leHRMZWFmSW5kZXgoKSkudG8uZXF1YWwoMG4pOwogIH0pOwoKICBkZXNjcmliZSgncHVzaCcsIGZ1bmN0aW9uICgpIHsKICAgIGl0KCd0cmVlIGlzIGNvcnJlY3RseSB1cGRhdGVkJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCBsZWF2ZXMgPSBBcnJheS5mcm9tKHsgbGVuZ3RoOiAyICoqIE51bWJlcihERVBUSCkgfSwgKCkgPT4gZXRoZXJzLlplcm9IYXNoKTsKCiAgICAgIC8vIGZvciBlYWNoIGxlYWYgc2xvdAogICAgICBmb3IgKGNvbnN0IGkgaW4gbGVhdmVzKSB7CiAgICAgICAgLy8gZ2VuZXJhdGUgcmFuZG9tIGxlYWYgYW5kIGhhc2ggaXQKICAgICAgICBjb25zdCBoYXNoZWRMZWFmID0gaGFzaExlYWYoKGxlYXZlc1tpXSA9IGdlbmVyYXRvcnMuYnl0ZXMzMigpKSk7CgogICAgICAgIC8vIHVwZGF0ZSBsZWFmIGxpc3QgYW5kIHJlYnVpbGQgdHJlZS4KICAgICAgICBjb25zdCB0cmVlID0gbWFrZVRyZWUobGVhdmVzKTsKCiAgICAgICAgLy8gcHVzaCB2YWx1ZSB0byB0cmVlCiAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMubW9jay5wdXNoKGhhc2hlZExlYWYpKS50by5lbWl0KHRoaXMubW9jaywgJ0xlYWZJbnNlcnRlZCcpLndpdGhBcmdzKGhhc2hlZExlYWYsIGksIHRyZWUucm9vdCk7CgogICAgICAgIC8vIGNoZWNrIHRyZWUKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLnJvb3QoKSkudG8uZXF1YWwodHJlZS5yb290KTsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLm5leHRMZWFmSW5kZXgoKSkudG8uZXF1YWwoQmlnSW50KGkpICsgMW4pOwogICAgICB9CiAgICB9KTsKCiAgICBpdCgncmV2ZXJ0IHdoZW4gdHJlZSBpcyBmdWxsJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCBQcm9taXNlLmFsbChBcnJheS5mcm9tKHsgbGVuZ3RoOiAyICoqIE51bWJlcihERVBUSCkgfSkubWFwKCgpID0+IHRoaXMubW9jay5wdXNoKGV0aGVycy5aZXJvSGFzaCkpKTsKCiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1vY2sucHVzaChldGhlcnMuWmVyb0hhc2gpKS50by5iZS5yZXZlcnRlZFdpdGhQYW5pYyhQQU5JQ19DT0RFUy5UT09fTVVDSF9NRU1PUllfQUxMT0NBVEVEKTsKICAgIH0pOwogIH0pOwoKICBpdCgncmVzZXQnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAvLyBlbXB0eSB0cmVlCiAgICBjb25zdCB6ZXJvTGVhdmVzID0gQXJyYXkuZnJvbSh7IGxlbmd0aDogMiAqKiBOdW1iZXIoREVQVEgpIH0sICgpID0+IGV0aGVycy5aZXJvSGFzaCk7CiAgICBjb25zdCB6ZXJvVHJlZSA9IG1ha2VUcmVlKHplcm9MZWF2ZXMpOwoKICAgIC8vIHRyZWUgd2l0aCBvbmUgZWxlbWVudAogICAgY29uc3QgbGVhdmVzID0gQXJyYXkuZnJvbSh7IGxlbmd0aDogMiAqKiBOdW1iZXIoREVQVEgpIH0sICgpID0+IGV0aGVycy5aZXJvSGFzaCk7CiAgICBjb25zdCBoYXNoZWRMZWFmID0gaGFzaExlYWYoKGxlYXZlc1swXSA9IGdlbmVyYXRvcnMuYnl0ZXMzMigpKSk7IC8vIGZpbGwgZmlyc3QgbGVhZiBhbmQgaGFzaCBpdAogICAgY29uc3QgdHJlZSA9IG1ha2VUcmVlKGxlYXZlcyk7CgogICAgLy8gcm9vdCBzaG91bGQgYmUgdGhhdCBvZiBhIHplcm8gdHJlZQogICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay5yb290KCkpLnRvLmVxdWFsKHplcm9UcmVlLnJvb3QpOwogICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay5uZXh0TGVhZkluZGV4KCkpLnRvLmVxdWFsKDBuKTsKCiAgICAvLyBwdXNoIGxlYWYgYW5kIGNoZWNrIHJvb3QKICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1vY2sucHVzaChoYXNoZWRMZWFmKSkudG8uZW1pdCh0aGlzLm1vY2ssICdMZWFmSW5zZXJ0ZWQnKS53aXRoQXJncyhoYXNoZWRMZWFmLCAwLCB0cmVlLnJvb3QpOwoKICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2sucm9vdCgpKS50by5lcXVhbCh0cmVlLnJvb3QpOwogICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay5uZXh0TGVhZkluZGV4KCkpLnRvLmVxdWFsKDFuKTsKCiAgICAvLyByZXNldCB0cmVlCiAgICBhd2FpdCB0aGlzLm1vY2suc2V0dXAoREVQVEgsIFpFUk8pOwoKICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2sucm9vdCgpKS50by5lcXVhbCh6ZXJvVHJlZS5yb290KTsKICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2submV4dExlYWZJbmRleCgpKS50by5lcXVhbCgwbik7CgogICAgLy8gcmUtcHVzaCBsZWFmIGFuZCBjaGVjayByb290CiAgICBhd2FpdCBleHBlY3QodGhpcy5tb2NrLnB1c2goaGFzaGVkTGVhZikpLnRvLmVtaXQodGhpcy5tb2NrLCAnTGVhZkluc2VydGVkJykud2l0aEFyZ3MoaGFzaGVkTGVhZiwgMCwgdHJlZS5yb290KTsKCiAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLnJvb3QoKSkudG8uZXF1YWwodHJlZS5yb290KTsKICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2submV4dExlYWZJbmRleCgpKS50by5lcXVhbCgxbik7CiAgfSk7Cn0pOwo=
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+const { PANIC_CODES } = require('@nomicfoundation/hardhat-chai-matchers/panic');
+const { StandardMerkleTree } = require('@openzeppelin/merkle-tree');
+
+const { generators } = require('../../helpers/random');
+
+const makeTree = (leaves = [ethers.ZeroHash]) =>
+  StandardMerkleTree.of(
+    leaves.map(leaf => [leaf]),
+    ['bytes32'],
+    { sortLeaves: false },
+  );
+
+const hashLeaf = leaf => makeTree().leafHash([leaf]);
+
+const DEPTH = 4n; // 16 slots
+const ZERO = hashLeaf(ethers.ZeroHash);
+
+async function fixture() {
+  const mock = await ethers.deployContract('MerkleTreeMock');
+  await mock.setup(DEPTH, ZERO);
+  return { mock };
+}
+
+describe('MerkleTree', function () {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  it('sets initial values at setup', async function () {
+    const merkleTree = makeTree(Array.from({ length: 2 ** Number(DEPTH) }, () => ethers.ZeroHash));
+
+    expect(await this.mock.root()).to.equal(merkleTree.root);
+    expect(await this.mock.depth()).to.equal(DEPTH);
+    expect(await this.mock.nextLeafIndex()).to.equal(0n);
+  });
+
+  describe('push', function () {
+    it('tree is correctly updated', async function () {
+      const leaves = Array.from({ length: 2 ** Number(DEPTH) }, () => ethers.ZeroHash);
+
+      // for each leaf slot
+      for (const i in leaves) {
+        // generate random leaf and hash it
+        const hashedLeaf = hashLeaf((leaves[i] = generators.bytes32()));
+
+        // update leaf list and rebuild tree.
+        const tree = makeTree(leaves);
+
+        // push value to tree
+        await expect(this.mock.push(hashedLeaf)).to.emit(this.mock, 'LeafInserted').withArgs(hashedLeaf, i, tree.root);
+
+        // check tree
+        expect(await this.mock.root()).to.equal(tree.root);
+        expect(await this.mock.nextLeafIndex()).to.equal(BigInt(i) + 1n);
+      }
+    });
+
+    it('revert when tree is full', async function () {
+      await Promise.all(Array.from({ length: 2 ** Number(DEPTH) }).map(() => this.mock.push(ethers.ZeroHash)));
+
+      await expect(this.mock.push(ethers.ZeroHash)).to.be.revertedWithPanic(PANIC_CODES.TOO_MUCH_MEMORY_ALLOCATED);
+    });
+  });
+
+  it('reset', async function () {
+    // empty tree
+    const zeroLeaves = Array.from({ length: 2 ** Number(DEPTH) }, () => ethers.ZeroHash);
+    const zeroTree = makeTree(zeroLeaves);
+
+    // tree with one element
+    const leaves = Array.from({ length: 2 ** Number(DEPTH) }, () => ethers.ZeroHash);
+    const hashedLeaf = hashLeaf((leaves[0] = generators.bytes32())); // fill first leaf and hash it
+    const tree = makeTree(leaves);
+
+    // root should be that of a zero tree
+    expect(await this.mock.root()).to.equal(zeroTree.root);
+    expect(await this.mock.nextLeafIndex()).to.equal(0n);
+
+    // push leaf and check root
+    await expect(this.mock.push(hashedLeaf)).to.emit(this.mock, 'LeafInserted').withArgs(hashedLeaf, 0, tree.root);
+
+    expect(await this.mock.root()).to.equal(tree.root);
+    expect(await this.mock.nextLeafIndex()).to.equal(1n);
+
+    // reset tree
+    await this.mock.setup(DEPTH, ZERO);
+
+    expect(await this.mock.root()).to.equal(zeroTree.root);
+    expect(await this.mock.nextLeafIndex()).to.equal(0n);
+
+    // re-push leaf and check root
+    await expect(this.mock.push(hashedLeaf)).to.emit(this.mock, 'LeafInserted').withArgs(hashedLeaf, 0, tree.root);
+
+    expect(await this.mock.root()).to.equal(tree.root);
+    expect(await this.mock.nextLeafIndex()).to.equal(1n);
+  });
+});
