@@ -1,1 +1,7 @@
-Y29uc3QgaXRlcmF0ZSA9IHJlcXVpcmUoJy4uL3Rlc3QvaGVscGVycy9pdGVyYXRlJyk7CmNvbnN0IHN0cmluZ3MgPSByZXF1aXJlKCcuLi90ZXN0L2hlbHBlcnMvc3RyaW5ncycpOwoKbW9kdWxlLmV4cG9ydHMgPSB7CiAgLi4uaXRlcmF0ZSwKICAuLi5zdHJpbmdzLAp9Owo=
+const iterate = require('../test/helpers/iterate');
+const strings = require('../test/helpers/strings');
+
+module.exports = {
+  ...iterate,
+  ...strings,
+};
