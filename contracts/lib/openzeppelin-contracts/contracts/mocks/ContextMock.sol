@@ -1,1 +1,35 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0NvbnRleHR9IGZyb20gIi4uL3V0aWxzL0NvbnRleHQuc29sIjsKCmNvbnRyYWN0IENvbnRleHRNb2NrIGlzIENvbnRleHQgewogICAgZXZlbnQgU2VuZGVyKGFkZHJlc3Mgc2VuZGVyKTsKCiAgICBmdW5jdGlvbiBtc2dTZW5kZXIoKSBwdWJsaWMgewogICAgICAgIGVtaXQgU2VuZGVyKF9tc2dTZW5kZXIoKSk7CiAgICB9CgogICAgZXZlbnQgRGF0YShieXRlcyBkYXRhLCB1aW50MjU2IGludGVnZXJWYWx1ZSwgc3RyaW5nIHN0cmluZ1ZhbHVlKTsKCiAgICBmdW5jdGlvbiBtc2dEYXRhKHVpbnQyNTYgaW50ZWdlclZhbHVlLCBzdHJpbmcgbWVtb3J5IHN0cmluZ1ZhbHVlKSBwdWJsaWMgewogICAgICAgIGVtaXQgRGF0YShfbXNnRGF0YSgpLCBpbnRlZ2VyVmFsdWUsIHN0cmluZ1ZhbHVlKTsKICAgIH0KCiAgICBldmVudCBEYXRhU2hvcnQoYnl0ZXMgZGF0YSk7CgogICAgZnVuY3Rpb24gbXNnRGF0YVNob3J0KCkgcHVibGljIHsKICAgICAgICBlbWl0IERhdGFTaG9ydChfbXNnRGF0YSgpKTsKICAgIH0KfQoKY29udHJhY3QgQ29udGV4dE1vY2tDYWxsZXIgewogICAgZnVuY3Rpb24gY2FsbFNlbmRlcihDb250ZXh0TW9jayBjb250ZXh0KSBwdWJsaWMgewogICAgICAgIGNvbnRleHQubXNnU2VuZGVyKCk7CiAgICB9CgogICAgZnVuY3Rpb24gY2FsbERhdGEoQ29udGV4dE1vY2sgY29udGV4dCwgdWludDI1NiBpbnRlZ2VyVmFsdWUsIHN0cmluZyBtZW1vcnkgc3RyaW5nVmFsdWUpIHB1YmxpYyB7CiAgICAgICAgY29udGV4dC5tc2dEYXRhKGludGVnZXJWYWx1ZSwgc3RyaW5nVmFsdWUpOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {Context} from "../utils/Context.sol";
+
+contract ContextMock is Context {
+    event Sender(address sender);
+
+    function msgSender() public {
+        emit Sender(_msgSender());
+    }
+
+    event Data(bytes data, uint256 integerValue, string stringValue);
+
+    function msgData(uint256 integerValue, string memory stringValue) public {
+        emit Data(_msgData(), integerValue, stringValue);
+    }
+
+    event DataShort(bytes data);
+
+    function msgDataShort() public {
+        emit DataShort(_msgData());
+    }
+}
+
+contract ContextMockCaller {
+    function callSender(ContextMock context) public {
+        context.msgSender();
+    }
+
+    function callData(ContextMock context, uint256 integerValue, string memory stringValue) public {
+        context.msgData(integerValue, stringValue);
+    }
+}
