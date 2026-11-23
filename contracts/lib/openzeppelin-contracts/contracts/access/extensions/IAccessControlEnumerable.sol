@@ -1,1 +1,31 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAoYWNjZXNzL2V4dGVuc2lvbnMvSUFjY2Vzc0NvbnRyb2xFbnVtZXJhYmxlLnNvbCkKCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKaW1wb3J0IHtJQWNjZXNzQ29udHJvbH0gZnJvbSAiLi4vSUFjY2Vzc0NvbnRyb2wuc29sIjsKCi8qKgogKiBAZGV2IEV4dGVybmFsIGludGVyZmFjZSBvZiBBY2Nlc3NDb250cm9sRW51bWVyYWJsZSBkZWNsYXJlZCB0byBzdXBwb3J0IEVSQy0xNjUgZGV0ZWN0aW9uLgogKi8KaW50ZXJmYWNlIElBY2Nlc3NDb250cm9sRW51bWVyYWJsZSBpcyBJQWNjZXNzQ29udHJvbCB7CiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyBvbmUgb2YgdGhlIGFjY291bnRzIHRoYXQgaGF2ZSBgcm9sZWAuIGBpbmRleGAgbXVzdCBiZSBhCiAgICAgKiB2YWx1ZSBiZXR3ZWVuIDAgYW5kIHtnZXRSb2xlTWVtYmVyQ291bnR9LCBub24taW5jbHVzaXZlLgogICAgICoKICAgICAqIFJvbGUgYmVhcmVycyBhcmUgbm90IHNvcnRlZCBpbiBhbnkgcGFydGljdWxhciB3YXksIGFuZCB0aGVpciBvcmRlcmluZyBtYXkKICAgICAqIGNoYW5nZSBhdCBhbnkgcG9pbnQuCiAgICAgKgogICAgICogV0FSTklORzogV2hlbiB1c2luZyB7Z2V0Um9sZU1lbWJlcn0gYW5kIHtnZXRSb2xlTWVtYmVyQ291bnR9LCBtYWtlIHN1cmUKICAgICAqIHlvdSBwZXJmb3JtIGFsbCBxdWVyaWVzIG9uIHRoZSBzYW1lIGJsb2NrLiBTZWUgdGhlIGZvbGxvd2luZwogICAgICogaHR0cHM6Ly9mb3J1bS5vcGVuemVwcGVsaW4uY29tL3QvaXRlcmF0aW5nLW92ZXItZWxlbWVudHMtb24tZW51bWVyYWJsZXNldC1pbi1vcGVuemVwcGVsaW4tY29udHJhY3RzLzIyOTZbZm9ydW0gcG9zdF0KICAgICAqIGZvciBtb3JlIGluZm9ybWF0aW9uLgogICAgICovCiAgICBmdW5jdGlvbiBnZXRSb2xlTWVtYmVyKGJ5dGVzMzIgcm9sZSwgdWludDI1NiBpbmRleCkgZXh0ZXJuYWwgdmlldyByZXR1cm5zIChhZGRyZXNzKTsKCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyB0aGUgbnVtYmVyIG9mIGFjY291bnRzIHRoYXQgaGF2ZSBgcm9sZWAuIENhbiBiZSB1c2VkCiAgICAgKiB0b2dldGhlciB3aXRoIHtnZXRSb2xlTWVtYmVyfSB0byBlbnVtZXJhdGUgYWxsIGJlYXJlcnMgb2YgYSByb2xlLgogICAgICovCiAgICBmdW5jdGlvbiBnZXRSb2xlTWVtYmVyQ291bnQoYnl0ZXMzMiByb2xlKSBleHRlcm5hbCB2aWV3IHJldHVybnMgKHVpbnQyNTYpOwp9Cg==
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (access/extensions/IAccessControlEnumerable.sol)
+
+pragma solidity ^0.8.20;
+
+import {IAccessControl} from "../IAccessControl.sol";
+
+/**
+ * @dev External interface of AccessControlEnumerable declared to support ERC-165 detection.
+ */
+interface IAccessControlEnumerable is IAccessControl {
+    /**
+     * @dev Returns one of the accounts that have `role`. `index` must be a
+     * value between 0 and {getRoleMemberCount}, non-inclusive.
+     *
+     * Role bearers are not sorted in any particular way, and their ordering may
+     * change at any point.
+     *
+     * WARNING: When using {getRoleMember} and {getRoleMemberCount}, make sure
+     * you perform all queries on the same block. See the following
+     * https://forum.openzeppelin.com/t/iterating-over-elements-on-enumerableset-in-openzeppelin-contracts/2296[forum post]
+     * for more information.
+     */
+    function getRoleMember(bytes32 role, uint256 index) external view returns (address);
+
+    /**
+     * @dev Returns the number of accounts that have `role`. Can be used
+     * together with {getRoleMember} to enumerate all bearers of a role.
+     */
+    function getRoleMemberCount(bytes32 role) external view returns (uint256);
+}
