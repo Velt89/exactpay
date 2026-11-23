@@ -1,1 +1,59 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwpjb25zdCB7IGdlbmVyYXRvcnMgfSA9IHJlcXVpcmUoJy4uL2hlbHBlcnMvcmFuZG9tJyk7Cgpjb25zdCBzbG90ID0gZXRoZXJzLmlkKCdzb21lLnN0b3JhZ2Uuc2xvdCcpOwpjb25zdCBvdGhlclNsb3QgPSBldGhlcnMuaWQoJ3NvbWUub3RoZXIuc3RvcmFnZS5zbG90Jyk7CgovLyBOb24tdmFsdWUgdHlwZXMgYXJlIG5vdCBzdXBwb3J0ZWQgYnkgdGhlIGBUcmFuc2llbnRTbG90YCBsaWJyYXJ5Lgpjb25zdCBUWVBFUyA9IFsKICB7IG5hbWU6ICdCb29sZWFuJywgdHlwZTogJ2Jvb2wnLCB2YWx1ZTogdHJ1ZSwgemVybzogZmFsc2UgfSwKICB7IG5hbWU6ICdBZGRyZXNzJywgdHlwZTogJ2FkZHJlc3MnLCB2YWx1ZTogZ2VuZXJhdG9ycy5hZGRyZXNzKCksIHplcm86IGdlbmVyYXRvcnMuYWRkcmVzcy56ZXJvIH0sCiAgeyBuYW1lOiAnQnl0ZXMzMicsIHR5cGU6ICdieXRlczMyJywgdmFsdWU6IGdlbmVyYXRvcnMuYnl0ZXMzMigpLCB6ZXJvOiBnZW5lcmF0b3JzLmJ5dGVzMzIuemVybyB9LAogIHsgbmFtZTogJ1VpbnQyNTYnLCB0eXBlOiAndWludDI1NicsIHZhbHVlOiBnZW5lcmF0b3JzLnVpbnQyNTYoKSwgemVybzogZ2VuZXJhdG9ycy51aW50MjU2Lnplcm8gfSwKICB7IG5hbWU6ICdJbnQyNTYnLCB0eXBlOiAnaW50MjU2JywgdmFsdWU6IGdlbmVyYXRvcnMuaW50MjU2KCksIHplcm86IGdlbmVyYXRvcnMuaW50MjU2Lnplcm8gfSwKXTsKCmFzeW5jIGZ1bmN0aW9uIGZpeHR1cmUoKSB7CiAgcmV0dXJuIHsgbW9jazogYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCdUcmFuc2llbnRTbG90TW9jaycpIH07Cn0KCmRlc2NyaWJlKCdUcmFuc2llbnRTbG90JywgZnVuY3Rpb24gKCkgewogIGJlZm9yZUVhY2goYXN5bmMgZnVuY3Rpb24gKCkgewogICAgT2JqZWN0LmFzc2lnbih0aGlzLCBhd2FpdCBsb2FkRml4dHVyZShmaXh0dXJlKSk7CiAgfSk7CgogIGZvciAoY29uc3QgeyBuYW1lLCB0eXBlLCB2YWx1ZSwgemVybyB9IG9mIFRZUEVTKSB7CiAgICBkZXNjcmliZShgJHt0eXBlfSB0cmFuc2llbnQgc2xvdGAsIGZ1bmN0aW9uICgpIHsKICAgICAgY29uc3QgbG9hZCA9IGB0bG9hZCR7bmFtZX0oYnl0ZXMzMilgOwogICAgICBjb25zdCBzdG9yZSA9IGB0c3RvcmUoYnl0ZXMzMiwke3R5cGV9KWA7CiAgICAgIGNvbnN0IGV2ZW50ID0gYCR7bmFtZX1WYWx1ZWA7CgogICAgICBpdCgnbG9hZCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBhd2FpdCBleHBlY3QodGhpcy5tb2NrW2xvYWRdKHNsb3QpKS50by5lbWl0KHRoaXMubW9jaywgZXZlbnQpLndpdGhBcmdzKHNsb3QsIHplcm8pOwogICAgICB9KTsKCiAgICAgIGl0KCdzdG9yZSBhbmQgbG9hZCAoMiB0eHMpJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGF3YWl0IHRoaXMubW9ja1tzdG9yZV0oc2xvdCwgdmFsdWUpOwogICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1vY2tbbG9hZF0oc2xvdCkpLnRvLmVtaXQodGhpcy5tb2NrLCBldmVudCkud2l0aEFyZ3Moc2xvdCwgemVybyk7CiAgICAgIH0pOwoKICAgICAgaXQoJ3N0b3JlIGFuZCBsb2FkIChiYXRjaGVkKScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBhd2FpdCBleHBlY3QoCiAgICAgICAgICB0aGlzLm1vY2subXVsdGljYWxsKFsKICAgICAgICAgICAgdGhpcy5tb2NrLmludGVyZmFjZS5lbmNvZGVGdW5jdGlvbkRhdGEoc3RvcmUsIFtzbG90LCB2YWx1ZV0pLAogICAgICAgICAgICB0aGlzLm1vY2suaW50ZXJmYWNlLmVuY29kZUZ1bmN0aW9uRGF0YShsb2FkLCBbc2xvdF0pLAogICAgICAgICAgICB0aGlzLm1vY2suaW50ZXJmYWNlLmVuY29kZUZ1bmN0aW9uRGF0YShsb2FkLCBbb3RoZXJTbG90XSksCiAgICAgICAgICBdKSwKICAgICAgICApCiAgICAgICAgICAudG8uZW1pdCh0aGlzLm1vY2ssIGV2ZW50KQogICAgICAgICAgLndpdGhBcmdzKHNsb3QsIHZhbHVlKQogICAgICAgICAgLnRvLmVtaXQodGhpcy5tb2NrLCBldmVudCkKICAgICAgICAgIC53aXRoQXJncyhvdGhlclNsb3QsIHplcm8pOwoKICAgICAgICBhd2FpdCBleHBlY3QodGhpcy5tb2NrW2xvYWRdKHNsb3QpKS50by5lbWl0KHRoaXMubW9jaywgZXZlbnQpLndpdGhBcmdzKHNsb3QsIHplcm8pOwogICAgICB9KTsKICAgIH0pOwogIH0KfSk7Cg==
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+const { generators } = require('../helpers/random');
+
+const slot = ethers.id('some.storage.slot');
+const otherSlot = ethers.id('some.other.storage.slot');
+
+// Non-value types are not supported by the `TransientSlot` library.
+const TYPES = [
+  { name: 'Boolean', type: 'bool', value: true, zero: false },
+  { name: 'Address', type: 'address', value: generators.address(), zero: generators.address.zero },
+  { name: 'Bytes32', type: 'bytes32', value: generators.bytes32(), zero: generators.bytes32.zero },
+  { name: 'Uint256', type: 'uint256', value: generators.uint256(), zero: generators.uint256.zero },
+  { name: 'Int256', type: 'int256', value: generators.int256(), zero: generators.int256.zero },
+];
+
+async function fixture() {
+  return { mock: await ethers.deployContract('TransientSlotMock') };
+}
+
+describe('TransientSlot', function () {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  for (const { name, type, value, zero } of TYPES) {
+    describe(`${type} transient slot`, function () {
+      const load = `tload${name}(bytes32)`;
+      const store = `tstore(bytes32,${type})`;
+      const event = `${name}Value`;
+
+      it('load', async function () {
+        await expect(this.mock[load](slot)).to.emit(this.mock, event).withArgs(slot, zero);
+      });
+
+      it('store and load (2 txs)', async function () {
+        await this.mock[store](slot, value);
+        await expect(this.mock[load](slot)).to.emit(this.mock, event).withArgs(slot, zero);
+      });
+
+      it('store and load (batched)', async function () {
+        await expect(
+          this.mock.multicall([
+            this.mock.interface.encodeFunctionData(store, [slot, value]),
+            this.mock.interface.encodeFunctionData(load, [slot]),
+            this.mock.interface.encodeFunctionData(load, [otherSlot]),
+          ]),
+        )
+          .to.emit(this.mock, event)
+          .withArgs(slot, value)
+          .to.emit(this.mock, event)
+          .withArgs(otherSlot, zero);
+
+        await expect(this.mock[load](slot)).to.emit(this.mock, event).withArgs(slot, zero);
+      });
+    });
+  }
+});
