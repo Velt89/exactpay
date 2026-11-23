@@ -1,1 +1,61 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0luaXRpYWxpemFibGV9IGZyb20gIi4uL3Byb3h5L3V0aWxzL0luaXRpYWxpemFibGUuc29sIjsKCmNvbnRyYWN0IEltcGxlbWVudGF0aW9uMSBpcyBJbml0aWFsaXphYmxlIHsKICAgIHVpbnQyNTYgaW50ZXJuYWwgX3ZhbHVlOwoKICAgIGZ1bmN0aW9uIGluaXRpYWxpemUoKSBwdWJsaWMgaW5pdGlhbGl6ZXIge30KCiAgICBmdW5jdGlvbiBzZXRWYWx1ZSh1aW50MjU2IF9udW1iZXIpIHB1YmxpYyB7CiAgICAgICAgX3ZhbHVlID0gX251bWJlcjsKICAgIH0KfQoKY29udHJhY3QgSW1wbGVtZW50YXRpb24yIGlzIEluaXRpYWxpemFibGUgewogICAgdWludDI1NiBpbnRlcm5hbCBfdmFsdWU7CgogICAgZnVuY3Rpb24gaW5pdGlhbGl6ZSgpIHB1YmxpYyBpbml0aWFsaXplciB7fQoKICAgIGZ1bmN0aW9uIHNldFZhbHVlKHVpbnQyNTYgX251bWJlcikgcHVibGljIHsKICAgICAgICBfdmFsdWUgPSBfbnVtYmVyOwogICAgfQoKICAgIGZ1bmN0aW9uIGdldFZhbHVlKCkgcHVibGljIHZpZXcgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHJldHVybiBfdmFsdWU7CiAgICB9Cn0KCmNvbnRyYWN0IEltcGxlbWVudGF0aW9uMyBpcyBJbml0aWFsaXphYmxlIHsKICAgIHVpbnQyNTYgaW50ZXJuYWwgX3ZhbHVlOwoKICAgIGZ1bmN0aW9uIGluaXRpYWxpemUoKSBwdWJsaWMgaW5pdGlhbGl6ZXIge30KCiAgICBmdW5jdGlvbiBzZXRWYWx1ZSh1aW50MjU2IF9udW1iZXIpIHB1YmxpYyB7CiAgICAgICAgX3ZhbHVlID0gX251bWJlcjsKICAgIH0KCiAgICBmdW5jdGlvbiBnZXRWYWx1ZSh1aW50MjU2IF9udW1iZXIpIHB1YmxpYyB2aWV3IHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXR1cm4gX3ZhbHVlICsgX251bWJlcjsKICAgIH0KfQoKY29udHJhY3QgSW1wbGVtZW50YXRpb240IGlzIEluaXRpYWxpemFibGUgewogICAgdWludDI1NiBpbnRlcm5hbCBfdmFsdWU7CgogICAgZnVuY3Rpb24gaW5pdGlhbGl6ZSgpIHB1YmxpYyBpbml0aWFsaXplciB7fQoKICAgIGZ1bmN0aW9uIHNldFZhbHVlKHVpbnQyNTYgX251bWJlcikgcHVibGljIHsKICAgICAgICBfdmFsdWUgPSBfbnVtYmVyOwogICAgfQoKICAgIGZ1bmN0aW9uIGdldFZhbHVlKCkgcHVibGljIHZpZXcgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHJldHVybiBfdmFsdWU7CiAgICB9CgogICAgZmFsbGJhY2soKSBleHRlcm5hbCB7CiAgICAgICAgX3ZhbHVlID0gMTsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {Initializable} from "../proxy/utils/Initializable.sol";
+
+contract Implementation1 is Initializable {
+    uint256 internal _value;
+
+    function initialize() public initializer {}
+
+    function setValue(uint256 _number) public {
+        _value = _number;
+    }
+}
+
+contract Implementation2 is Initializable {
+    uint256 internal _value;
+
+    function initialize() public initializer {}
+
+    function setValue(uint256 _number) public {
+        _value = _number;
+    }
+
+    function getValue() public view returns (uint256) {
+        return _value;
+    }
+}
+
+contract Implementation3 is Initializable {
+    uint256 internal _value;
+
+    function initialize() public initializer {}
+
+    function setValue(uint256 _number) public {
+        _value = _number;
+    }
+
+    function getValue(uint256 _number) public view returns (uint256) {
+        return _value + _number;
+    }
+}
+
+contract Implementation4 is Initializable {
+    uint256 internal _value;
+
+    function initialize() public initializer {}
+
+    function setValue(uint256 _number) public {
+        _value = _number;
+    }
+
+    function getValue() public view returns (uint256) {
+        return _value;
+    }
+
+    fallback() external {
+        _value = 1;
+    }
+}
