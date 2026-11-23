@@ -1,1 +1,22 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0VSQzIwfSBmcm9tICIuLi8uLi90b2tlbi9FUkMyMC9FUkMyMC5zb2wiOwoKY29udHJhY3QgRVJDMjBXaXRoQXV0b01pbmVyUmV3YXJkIGlzIEVSQzIwIHsKICAgIGNvbnN0cnVjdG9yKCkgRVJDMjAoIlJld2FyZCIsICJSV0QiKSB7CiAgICAgICAgX21pbnRNaW5lclJld2FyZCgpOwogICAgfQoKICAgIGZ1bmN0aW9uIF9taW50TWluZXJSZXdhcmQoKSBpbnRlcm5hbCB7CiAgICAgICAgX21pbnQoYmxvY2suY29pbmJhc2UsIDEwMDApOwogICAgfQoKICAgIGZ1bmN0aW9uIF91cGRhdGUoYWRkcmVzcyBmcm9tLCBhZGRyZXNzIHRvLCB1aW50MjU2IHZhbHVlKSBpbnRlcm5hbCB2aXJ0dWFsIG92ZXJyaWRlIHsKICAgICAgICBpZiAoIShmcm9tID09IGFkZHJlc3MoMCkgJiYgdG8gPT0gYmxvY2suY29pbmJhc2UpKSB7CiAgICAgICAgICAgIF9taW50TWluZXJSZXdhcmQoKTsKICAgICAgICB9CiAgICAgICAgc3VwZXIuX3VwZGF0ZShmcm9tLCB0bywgdmFsdWUpOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {ERC20} from "../../token/ERC20/ERC20.sol";
+
+contract ERC20WithAutoMinerReward is ERC20 {
+    constructor() ERC20("Reward", "RWD") {
+        _mintMinerReward();
+    }
+
+    function _mintMinerReward() internal {
+        _mint(block.coinbase, 1000);
+    }
+
+    function _update(address from, address to, uint256 value) internal virtual override {
+        if (!(from == address(0) && to == block.coinbase)) {
+            _mintMinerReward();
+        }
+        super._update(from, to, value);
+    }
+}
