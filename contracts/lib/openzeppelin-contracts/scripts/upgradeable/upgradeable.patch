@@ -1,1 +1,361 @@
-ZGlmZiAtLWdpdCBhLy5naXRodWIvSVNTVUVfVEVNUExBVEUvYnVnX3JlcG9ydC5tZCBiLy5naXRodWIvSVNTVUVfVEVNUExBVEUvYnVnX3JlcG9ydC5tZApkZWxldGVkIGZpbGUgbW9kZSAxMDA2NDQKaW5kZXggMzVhZDA5N2ZmLi4wMDAwMDAwMDAKLS0tIGEvLmdpdGh1Yi9JU1NVRV9URU1QTEFURS9idWdfcmVwb3J0Lm1kCisrKyAvZGV2L251bGwKQEAgLTEsMjEgKzAsMCBAQAotLS0tCi1uYW1lOiBCdWcgcmVwb3J0Ci1hYm91dDogUmVwb3J0IGEgYnVnIGluIE9wZW5aZXBwZWxpbiBDb250cmFjdHMKLQotLS0tCi0KLTwhLS0gQnJpZWZseSBkZXNjcmliZSB0aGUgaXNzdWUgeW91J3JlIGV4cGVyaWVuY2luZy4gVGVsbCB1cyB3aGF0IHlvdSB3ZXJlIHRyeWluZyB0byBkbyBhbmQgd2hhdCBoYXBwZW5lZCBpbnN0ZWFkLiAtLT4KLQotPCEtLSBSZW1lbWJlciwgdGhpcyBpcyBub3QgYSBwbGFjZSB0byBhc2sgZm9yIGhlbHAgZGVidWdnaW5nIGNvZGUuIEZvciB0aGF0LCB3ZSB3ZWxjb21lIHlvdSBpbiB0aGUgT3BlblplcHBlbGluIENvbW11bml0eSBGb3J1bTogaHR0cHM6Ly9mb3J1bS5vcGVuemVwcGVsaW4uY29tLy4gLS0+Ci0KLSoq8J+SuyBFbnZpcm9ubWVudCoqCi0KLTwhLS0gVGVsbCB1cyB3aGF0IHZlcnNpb24gb2YgT3BlblplcHBlbGluIENvbnRyYWN0cyB5b3UncmUgdXNpbmcsIGFuZCBob3cgeW91J3JlIHVzaW5nIGl0OiBIYXJkaGF0LCBSZW1peCwgZXRjLiAtLT4KLQotKirwn5OdIERldGFpbHMqKgotCi08IS0tIERlc2NyaWJlIHRoZSBwcm9ibGVtIHlvdSBoYXZlIGJlZW4gZXhwZXJpZW5jaW5nIGluIG1vcmUgZGV0YWlsLiBJbmNsdWRlIGFzIG11Y2ggaW5mb3JtYXRpb24gYXMgeW91IHRoaW5rIGlzIHJlbGV2YW50LiBLZWVwIGluIG1pbmQgdGhhdCB0cmFuc2FjdGlvbnMgY2FuIGZhaWwgZm9yIG1hbnkgcmVhc29uczsgY29udGV4dCBpcyBrZXkgaGVyZS4gLS0+Ci0KLSoq8J+UoiBDb2RlIHRvIHJlcHJvZHVjZSBidWcqKgotCi08IS0tIFdlIHdpbGwgYmUgYWJsZSB0byBiZXR0ZXIgaGVscCBpZiB5b3UgcHJvdmlkZSBhIG1pbmltYWwgZXhhbXBsZSB0aGF0IHRyaWdnZXJzIHRoZSBidWcuIC0tPgpkaWZmIC0tZ2l0IGEvLmdpdGh1Yi9JU1NVRV9URU1QTEFURS9jb25maWcueW1sIGIvLmdpdGh1Yi9JU1NVRV9URU1QTEFURS9jb25maWcueW1sCmluZGV4IDQwMThjZWYyOS4uZDM0M2E1M2Q4IDEwMDY0NAotLS0gYS8uZ2l0aHViL0lTU1VFX1RFTVBMQVRFL2NvbmZpZy55bWwKKysrIGIvLmdpdGh1Yi9JU1NVRV9URU1QTEFURS9jb25maWcueW1sCkBAIC0xLDQgKzEsOCBAQAorYmxhbmtfaXNzdWVzX2VuYWJsZWQ6IGZhbHNlCiBjb250YWN0X2xpbmtzOgorICAtIG5hbWU6IEJ1ZyBSZXBvcnRzICYgRmVhdHVyZSBSZXF1ZXN0cworICAgIHVybDogaHR0cHM6Ly9naXRodWIuY29tL09wZW5aZXBwZWxpbi9vcGVuemVwcGVsaW4tY29udHJhY3RzL2lzc3Vlcy9uZXcvY2hvb3NlCisgICAgYWJvdXQ6IFZpc2l0IHRoZSBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIHJlcG9zaXRvcnkKICAgLSBuYW1lOiBRdWVzdGlvbnMgJiBTdXBwb3J0IFJlcXVlc3RzCiAgICAgdXJsOiBodHRwczovL2ZvcnVtLm9wZW56ZXBwZWxpbi5jb20vYy9zdXBwb3J0L2NvbnRyYWN0cy8xOAogICAgIGFib3V0OiBBc2sgaW4gdGhlIE9wZW5aZXBwZWxpbiBGb3J1bQpkaWZmIC0tZ2l0IGEvLmdpdGh1Yi9JU1NVRV9URU1QTEFURS9mZWF0dXJlX3JlcXVlc3QubWQgYi8uZ2l0aHViL0lTU1VFX1RFTVBMQVRFL2ZlYXR1cmVfcmVxdWVzdC5tZApkZWxldGVkIGZpbGUgbW9kZSAxMDA2NDQKaW5kZXggZmY1OTZiMGMzLi4wMDAwMDAwMDAKLS0tIGEvLmdpdGh1Yi9JU1NVRV9URU1QTEFURS9mZWF0dXJlX3JlcXVlc3QubWQKKysrIC9kZXYvbnVsbApAQCAtMSwxNCArMCwwIEBACi0tLS0KLW5hbWU6IEZlYXR1cmUgcmVxdWVzdAotYWJvdXQ6IFN1Z2dlc3QgYW4gaWRlYSBmb3IgT3BlblplcHBlbGluIENvbnRyYWN0cwotCi0tLS0KLQotKirwn6eQIE1vdGl2YXRpb24qKgotPCEtLSBJcyB5b3VyIGZlYXR1cmUgcmVxdWVzdCByZWxhdGVkIHRvIGEgc3BlY2lmaWMgcHJvYmxlbT8gSXMgaXQganVzdCBhIGNyYXp5IGlkZWE/IFRlbGwgdXMgYWJvdXQgaXQhIC0tPgotCi0qKvCfk50gRGV0YWlscyoqCi08IS0tIFBsZWFzZSBkZXNjcmliZSB5b3VyIGZlYXR1cmUgcmVxdWVzdCBpbiBkZXRhaWwuIC0tPgotCi08IS0tIE1ha2Ugc3VyZSB0aGF0IHlvdSBoYXZlIHJldmlld2VkIHRoZSBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIENvbnRyaWJ1dG9yIEd1aWRlbGluZXMuIC0tPgotPCEtLSBodHRwczovL2dpdGh1Yi5jb20vT3BlblplcHBlbGluL29wZW56ZXBwZWxpbi1jb250cmFjdHMvYmxvYi9tYXN0ZXIvQ09OVFJJQlVUSU5HLm1kIC0tPgpkaWZmIC0tZ2l0IGEvUkVBRE1FLm1kIGIvUkVBRE1FLm1kCmluZGV4IGZhN2I0ZTMxZS4uNDc5OWI2Mzc2IDEwMDY0NAotLS0gYS9SRUFETUUubWQKKysrIGIvUkVBRE1FLm1kCkBAIC0xOSw2ICsxOSw5IEBACiA+IFshSU1QT1JUQU5UXQogPiBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIHVzZXMgc2VtYW50aWMgdmVyc2lvbmluZyB0byBjb21tdW5pY2F0ZSBiYWNrd2FyZHMgY29tcGF0aWJpbGl0eSBvZiBpdHMgQVBJIGFuZCBzdG9yYWdlIGxheW91dC4gRm9yIHVwZ3JhZGVhYmxlIGNvbnRyYWN0cywgdGhlIHN0b3JhZ2UgbGF5b3V0IG9mIGRpZmZlcmVudCBtYWpvciB2ZXJzaW9ucyBzaG91bGQgYmUgYXNzdW1lZCBpbmNvbXBhdGlibGUsIGZvciBleGFtcGxlLCBpdCBpcyB1bnNhZmUgdG8gdXBncmFkZSBmcm9tIDQuOS4zIHRvIDUuMC4wLiBMZWFybiBtb3JlIGF0IFtCYWNrd2FyZHMgQ29tcGF0aWJpbGl0eV0oaHR0cHM6Ly9kb2NzLm9wZW56ZXBwZWxpbi5jb20vY29udHJhY3RzL2JhY2t3YXJkcy1jb21wYXRpYmlsaXR5KS4KIAorKz4gWyFOT1RFXQorKz4gWW91IGFyZSBsb29raW5nIGF0IHRoZSB1cGdyYWRlYWJsZSB2YXJpYW50IG9mIE9wZW5aZXBwZWxpbiBDb250cmFjdHMuIEJlIHN1cmUgdG8gcmV2aWV3IHRoZSBkb2N1bWVudGF0aW9uIG9uIFtVc2luZyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIHdpdGggVXBncmFkZXNdKGh0dHBzOi8vZG9jcy5vcGVuemVwcGVsaW4uY29tL2NvbnRyYWN0cy91cGdyYWRlYWJsZSkuCisrCiAjIyBPdmVydmlldwogCiAjIyMgSW5zdGFsbGF0aW9uCkBAIC0yNiw3ICsyOSw3IEBACiAjIyMjIEhhcmRoYXQgKG5wbSkKIAogYGBgCi0kIG5wbSBpbnN0YWxsIEBvcGVuemVwcGVsaW4vY29udHJhY3RzCiskIG5wbSBpbnN0YWxsIEBvcGVuemVwcGVsaW4vY29udHJhY3RzLXVwZ3JhZGVhYmxlCiBgYGAKIAogIyMjIyBGb3VuZHJ5IChnaXQpCkBAIC0zOCwxMCArNDEsMTAgQEAgJCBucG0gaW5zdGFsbCBAb3BlbnplcHBlbGluL2NvbnRyYWN0cwogPiBGb3VuZHJ5IGluc3RhbGxzIHRoZSBsYXRlc3QgdmVyc2lvbiBpbml0aWFsbHksIGJ1dCBzdWJzZXF1ZW50IGBmb3JnZSB1cGRhdGVgIGNvbW1hbmRzIHdpbGwgdXNlIHRoZSBgbWFzdGVyYCBicmFuY2guCiAKIGBgYAotJCBmb3JnZSBpbnN0YWxsIE9wZW5aZXBwZWxpbi9vcGVuemVwcGVsaW4tY29udHJhY3RzCiskIGZvcmdlIGluc3RhbGwgT3BlblplcHBlbGluL29wZW56ZXBwZWxpbi1jb250cmFjdHMtdXBncmFkZWFibGUKIGBgYAogCi1BZGQgYEBvcGVuemVwcGVsaW4vY29udHJhY3RzLz1saWIvb3BlbnplcHBlbGluLWNvbnRyYWN0cy9jb250cmFjdHMvYCBpbiBgcmVtYXBwaW5ncy50eHQuYAorQWRkIGBAb3BlbnplcHBlbGluL2NvbnRyYWN0cy11cGdyYWRlYWJsZS89bGliL29wZW56ZXBwZWxpbi1jb250cmFjdHMtdXBncmFkZWFibGUvY29udHJhY3RzL2AgaW4gYHJlbWFwcGluZ3MudHh0LmAKIAogIyMjIFVzYWdlCiAKQEAgLTUwLDEwICs1MywxMSBAQCBPbmNlIGluc3RhbGxlZCwgeW91IGNhbiB1c2UgdGhlIGNvbnRyYWN0cyBpbiB0aGUgbGlicmFyeSBieSBpbXBvcnRpbmcgdGhlbToKIGBgYHNvbGlkaXR5CiBwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKIAotaW1wb3J0IHtFUkM3MjF9IGZyb20gIkBvcGVuemVwcGVsaW4vY29udHJhY3RzL3Rva2VuL0VSQzcyMS9FUkM3MjEuc29sIjsKK2ltcG9ydCB7RVJDNzIxVXBncmFkZWFibGV9IGZyb20gIkBvcGVuemVwcGVsaW4vY29udHJhY3RzLXVwZ3JhZGVhYmxlL3Rva2VuL0VSQzcyMS9FUkM3MjFVcGdyYWRlYWJsZS5zb2wiOwogCi1jb250cmFjdCBNeUNvbGxlY3RpYmxlIGlzIEVSQzcyMSB7Ci0gICAgY29uc3RydWN0b3IoKSBFUkM3MjEoIk15Q29sbGVjdGlibGUiLCAiTUNPIikgeworY29udHJhY3QgTXlDb2xsZWN0aWJsZSBpcyBFUkM3MjFVcGdyYWRlYWJsZSB7CisgICAgZnVuY3Rpb24gaW5pdGlhbGl6ZSgpIGluaXRpYWxpemVyIHB1YmxpYyB7CisgICAgICAgIF9fRVJDNzIxX2luaXQoIk15Q29sbGVjdGlibGUiLCAiTUNPIik7CiAgICAgfQogfQogYGBgCmRpZmYgLS1naXQgYS9jb250cmFjdHMvcGFja2FnZS5qc29uIGIvY29udHJhY3RzL3BhY2thZ2UuanNvbgppbmRleCA4NDVlOGM0MDMuLjhkYzE4MWI5MSAxMDA2NDQKLS0tIGEvY29udHJhY3RzL3BhY2thZ2UuanNvbgorKysgYi9jb250cmFjdHMvcGFja2FnZS5qc29uCkBAIC0xLDUgKzEsNSBAQAogewotICAibmFtZSI6ICJAb3BlbnplcHBlbGluL2NvbnRyYWN0cyIsCisgICJuYW1lIjogIkBvcGVuemVwcGVsaW4vY29udHJhY3RzLXVwZ3JhZGVhYmxlIiwKICAgImRlc2NyaXB0aW9uIjogIlNlY3VyZSBTbWFydCBDb250cmFjdCBsaWJyYXJ5IGZvciBTb2xpZGl0eSIsCiAgICJ2ZXJzaW9uIjogIjUuMC4yIiwKICAgImZpbGVzIjogWwpAQCAtMTMsNyArMTMsNyBAQAogICB9LAogICAicmVwb3NpdG9yeSI6IHsKICAgICAidHlwZSI6ICJnaXQiLAotICAgICJ1cmwiOiAiaHR0cHM6Ly9naXRodWIuY29tL09wZW5aZXBwZWxpbi9vcGVuemVwcGVsaW4tY29udHJhY3RzLmdpdCIKKyAgICAidXJsIjogImh0dHBzOi8vZ2l0aHViLmNvbS9PcGVuWmVwcGVsaW4vb3BlbnplcHBlbGluLWNvbnRyYWN0cy11cGdyYWRlYWJsZS5naXQiCiAgIH0sCiAgICJrZXl3b3JkcyI6IFsKICAgICAic29saWRpdHkiLApAQCAtMjgsNSArMjgsOCBAQAogICAiYnVncyI6IHsKICAgICAidXJsIjogImh0dHBzOi8vZ2l0aHViLmNvbS9PcGVuWmVwcGVsaW4vb3BlbnplcHBlbGluLWNvbnRyYWN0cy9pc3N1ZXMiCiAgIH0sCi0gICJob21lcGFnZSI6ICJodHRwczovL29wZW56ZXBwZWxpbi5jb20vY29udHJhY3RzLyIKKyAgImhvbWVwYWdlIjogImh0dHBzOi8vb3BlbnplcHBlbGluLmNvbS9jb250cmFjdHMvIiwKKyAgInBlZXJEZXBlbmRlbmNpZXMiOiB7CisgICAgIkBvcGVuemVwcGVsaW4vY29udHJhY3RzIjogIjxwYWNrYWdlLXZlcnNpb24+IgorICB9CiB9CmRpZmYgLS1naXQgYS9jb250cmFjdHMvdXRpbHMvY3J5cHRvZ3JhcGh5L0VJUDcxMi5zb2wgYi9jb250cmFjdHMvdXRpbHMvY3J5cHRvZ3JhcGh5L0VJUDcxMi5zb2wKaW5kZXggNzdjNGM4OTkwLi42MDI0NjdmNDAgMTAwNjQ0Ci0tLSBhL2NvbnRyYWN0cy91dGlscy9jcnlwdG9ncmFwaHkvRUlQNzEyLnNvbAorKysgYi9jb250cmFjdHMvdXRpbHMvY3J5cHRvZ3JhcGh5L0VJUDcxMi5zb2wKQEAgLTQsNyArNCw2IEBACiBwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKIAogaW1wb3J0IHtNZXNzYWdlSGFzaFV0aWxzfSBmcm9tICIuL01lc3NhZ2VIYXNoVXRpbHMuc29sIjsKLWltcG9ydCB7U2hvcnRTdHJpbmdzLCBTaG9ydFN0cmluZ30gZnJvbSAiLi4vU2hvcnRTdHJpbmdzLnNvbCI7CiBpbXBvcnQge0lFUkM1MjY3fSBmcm9tICIuLi8uLi9pbnRlcmZhY2VzL0lFUkM1MjY3LnNvbCI7CiAKIC8qKgpAQCAtMjgsMjggKzI3LDE4IEBAIGltcG9ydCB7SUVSQzUyNjd9IGZyb20gIi4uLy4uL2ludGVyZmFjZXMvSUVSQzUyNjcuc29sIjsKICAqIE5PVEU6IEluIHRoZSB1cGdyYWRlYWJsZSB2ZXJzaW9uIG9mIHRoaXMgY29udHJhY3QsIHRoZSBjYWNoZWQgdmFsdWVzIHdpbGwgY29ycmVzcG9uZCB0byB0aGUgYWRkcmVzcywgYW5kIHRoZSBkb21haW4KICAqIHNlcGFyYXRvciBvZiB0aGUgaW1wbGVtZW50YXRpb24gY29udHJhY3QuIFRoaXMgd2lsbCBjYXVzZSB0aGUge19kb21haW5TZXBhcmF0b3JWNH0gZnVuY3Rpb24gdG8gYWx3YXlzIHJlYnVpbGQgdGhlCiAgKiBzZXBhcmF0b3IgZnJvbSB0aGUgaW1tdXRhYmxlIHZhbHVlcywgd2hpY2ggaXMgY2hlYXBlciB0aGFuIGFjY2Vzc2luZyBhIGNhY2hlZCB2ZXJzaW9uIGluIGNvbGQgc3RvcmFnZS4KLSAqCi0gKiBAY3VzdG9tOm96LXVwZ3JhZGVzLXVuc2FmZS1hbGxvdyBzdGF0ZS12YXJpYWJsZS1pbW11dGFibGUKICAqLwogYWJzdHJhY3QgY29udHJhY3QgRUlQNzEyIGlzIElFUkM1MjY3IHsKLSAgICB1c2luZyBTaG9ydFN0cmluZ3MgZm9yICo7Ci0KICAgICBieXRlczMyIHByaXZhdGUgY29uc3RhbnQgVFlQRV9IQVNIID0KICAgICAgICAga2VjY2FrMjU2KCJFSVA3MTJEb21haW4oc3RyaW5nIG5hbWUsc3RyaW5nIHZlcnNpb24sdWludDI1NiBjaGFpbklkLGFkZHJlc3MgdmVyaWZ5aW5nQ29udHJhY3QpIik7CiAKLSAgICAvLyBDYWNoZSB0aGUgZG9tYWluIHNlcGFyYXRvciBhcyBhbiBpbW11dGFibGUgdmFsdWUsIGJ1dCBhbHNvIHN0b3JlIHRoZSBjaGFpbiBpZCB0aGF0IGl0IGNvcnJlc3BvbmRzIHRvLCBpbiBvcmRlciB0bwotICAgIC8vIGludmFsaWRhdGUgdGhlIGNhY2hlZCBkb21haW4gc2VwYXJhdG9yIGlmIHRoZSBjaGFpbiBpZCBjaGFuZ2VzLgotICAgIGJ5dGVzMzIgcHJpdmF0ZSBpbW11dGFibGUgX2NhY2hlZERvbWFpblNlcGFyYXRvcjsKLSAgICB1aW50MjU2IHByaXZhdGUgaW1tdXRhYmxlIF9jYWNoZWRDaGFpbklkOwotICAgIGFkZHJlc3MgcHJpdmF0ZSBpbW11dGFibGUgX2NhY2hlZFRoaXM7Ci0KKyAgICAvLy8gQGN1c3RvbTpvei1yZW5hbWVkLWZyb20gX0hBU0hFRF9OQU1FCiAgICAgYnl0ZXMzMiBwcml2YXRlIGltbXV0YWJsZSBfaGFzaGVkTmFtZTsKKyAgICAvLy8gQGN1c3RvbTpvei1yZW5hbWVkLWZyb20gX0hBU0hFRF9WRVJTSU9OCiAgICAgYnl0ZXMzMiBwcml2YXRlIGltbXV0YWJsZSBfaGFzaGVkVmVyc2lvbjsKIAotICAgIFNob3J0U3RyaW5nIHByaXZhdGUgaW1tdXRhYmxlIF9uYW1lOwotICAgIFNob3J0U3RyaW5nIHByaXZhdGUgaW1tdXRhYmxlIF92ZXJzaW9uOwotICAgIHN0cmluZyBwcml2YXRlIF9uYW1lRmFsbGJhY2s7Ci0gICAgc3RyaW5nIHByaXZhdGUgX3ZlcnNpb25GYWxsYmFjazsKKyAgICBzdHJpbmcgcHJpdmF0ZSBfbmFtZTsKKyAgICBzdHJpbmcgcHJpdmF0ZSBfdmVyc2lvbjsKIAogICAgIC8qKgogICAgICAqIEBkZXYgSW5pdGlhbGl6ZXMgdGhlIGRvbWFpbiBzZXBhcmF0b3IgYW5kIHBhcmFtZXRlciBjYWNoZXMuCkBAIC02NCwyOSArNTMsMjMgQEAgYWJzdHJhY3QgY29udHJhY3QgRUlQNzEyIGlzIElFUkM1MjY3IHsKICAgICAgKiBjb250cmFjdCB1cGdyYWRlXS4KICAgICAgKi8KICAgICBjb25zdHJ1Y3RvcihzdHJpbmcgbWVtb3J5IG5hbWUsIHN0cmluZyBtZW1vcnkgdmVyc2lvbikgewotICAgICAgICBfbmFtZSA9IG5hbWUudG9TaG9ydFN0cmluZ1dpdGhGYWxsYmFjayhfbmFtZUZhbGxiYWNrKTsKLSAgICAgICAgX3ZlcnNpb24gPSB2ZXJzaW9uLnRvU2hvcnRTdHJpbmdXaXRoRmFsbGJhY2soX3ZlcnNpb25GYWxsYmFjayk7Ci0gICAgICAgIF9oYXNoZWROYW1lID0ga2VjY2FrMjU2KGJ5dGVzKG5hbWUpKTsKLSAgICAgICAgX2hhc2hlZFZlcnNpb24gPSBrZWNjYWsyNTYoYnl0ZXModmVyc2lvbikpOwotCi0gICAgICAgIF9jYWNoZWRDaGFpbklkID0gYmxvY2suY2hhaW5pZDsKLSAgICAgICAgX2NhY2hlZERvbWFpblNlcGFyYXRvciA9IF9idWlsZERvbWFpblNlcGFyYXRvcigpOwotICAgICAgICBfY2FjaGVkVGhpcyA9IGFkZHJlc3ModGhpcyk7CisgICAgICAgIF9uYW1lID0gbmFtZTsKKyAgICAgICAgX3ZlcnNpb24gPSB2ZXJzaW9uOworCisgICAgICAgIC8vIFJlc2V0IHByaW9yIHZhbHVlcyBpbiBzdG9yYWdlIGlmIHVwZ3JhZGluZworICAgICAgICBfaGFzaGVkTmFtZSA9IDA7CisgICAgICAgIF9oYXNoZWRWZXJzaW9uID0gMDsKICAgICB9CiAKICAgICAvKioKICAgICAgKiBAZGV2IFJldHVybnMgdGhlIGRvbWFpbiBzZXBhcmF0b3IgZm9yIHRoZSBjdXJyZW50IGNoYWluLgogICAgICAqLwogICAgIGZ1bmN0aW9uIF9kb21haW5TZXBhcmF0b3JWNCgpIGludGVybmFsIHZpZXcgcmV0dXJucyAoYnl0ZXMzMikgewotICAgICAgICBpZiAoYWRkcmVzcyh0aGlzKSA9PSBfY2FjaGVkVGhpcyAmJiBibG9jay5jaGFpbmlkID09IF9jYWNoZWRDaGFpbklkKSB7Ci0gICAgICAgICAgICByZXR1cm4gX2NhY2hlZERvbWFpblNlcGFyYXRvcjsKLSAgICAgICAgfSBlbHNlIHsKLSAgICAgICAgICAgIHJldHVybiBfYnVpbGREb21haW5TZXBhcmF0b3IoKTsKLSAgICAgICAgfQorICAgICAgICByZXR1cm4gX2J1aWxkRG9tYWluU2VwYXJhdG9yKCk7CiAgICAgfQogCiAgICAgZnVuY3Rpb24gX2J1aWxkRG9tYWluU2VwYXJhdG9yKCkgcHJpdmF0ZSB2aWV3IHJldHVybnMgKGJ5dGVzMzIpIHsKLSAgICAgICAgcmV0dXJuIGtlY2NhazI1NihhYmkuZW5jb2RlKFRZUEVfSEFTSCwgX2hhc2hlZE5hbWUsIF9oYXNoZWRWZXJzaW9uLCBibG9jay5jaGFpbmlkLCBhZGRyZXNzKHRoaXMpKSk7CisgICAgICAgIHJldHVybiBrZWNjYWsyNTYoYWJpLmVuY29kZShUWVBFX0hBU0gsIF9FSVA3MTJOYW1lSGFzaCgpLCBfRUlQNzEyVmVyc2lvbkhhc2goKSwgYmxvY2suY2hhaW5pZCwgYWRkcmVzcyh0aGlzKSkpOwogICAgIH0KIAogICAgIC8qKgpAQCAtMTI1LDYgKzEwOCwxMCBAQCBhYnN0cmFjdCBjb250cmFjdCBFSVA3MTIgaXMgSUVSQzUyNjcgewogICAgICAgICAgICAgdWludDI1NltdIG1lbW9yeSBleHRlbnNpb25zCiAgICAgICAgICkKICAgICB7CisgICAgICAgIC8vIElmIHRoZSBoYXNoZWQgbmFtZSBhbmQgdmVyc2lvbiBpbiBzdG9yYWdlIGFyZSBub24temVybywgdGhlIGNvbnRyYWN0IGhhc24ndCBiZWVuIHByb3Blcmx5IGluaXRpYWxpemVkCisgICAgICAgIC8vIGFuZCB0aGUgRUlQNzEyIGRvbWFpbiBpcyBub3QgcmVsaWFibGUsIGFzIGl0IHdpbGwgYmUgbWlzc2luZyBuYW1lIGFuZCB2ZXJzaW9uLgorICAgICAgICByZXF1aXJlKF9oYXNoZWROYW1lID09IDAgJiYgX2hhc2hlZFZlcnNpb24gPT0gMCwgIkVJUDcxMjogVW5pbml0aWFsaXplZCIpOworCiAgICAgICAgIHJldHVybiAoCiAgICAgICAgICAgICBoZXgiMGYiLCAvLyAwMTExMQogICAgICAgICAgICAgX0VJUDcxMk5hbWUoKSwKQEAgLTEzOSwyMiArMTI2LDYyIEBAIGFic3RyYWN0IGNvbnRyYWN0IEVJUDcxMiBpcyBJRVJDNTI2NyB7CiAgICAgLyoqCiAgICAgICogQGRldiBUaGUgbmFtZSBwYXJhbWV0ZXIgZm9yIHRoZSBFSVA3MTIgZG9tYWluLgogICAgICAqCi0gICAgICogTk9URTogQnkgZGVmYXVsdCB0aGlzIGZ1bmN0aW9uIHJlYWRzIF9uYW1lIHdoaWNoIGlzIGFuIGltbXV0YWJsZSB2YWx1ZS4KLSAgICAgKiBJdCBvbmx5IHJlYWRzIGZyb20gc3RvcmFnZSBpZiBuZWNlc3NhcnkgKGluIGNhc2UgdGhlIHZhbHVlIGlzIHRvbyBsYXJnZSB0byBmaXQgaW4gYSBTaG9ydFN0cmluZykuCisgICAgICogTk9URTogVGhpcyBmdW5jdGlvbiByZWFkcyBmcm9tIHN0b3JhZ2UgYnkgZGVmYXVsdCwgYnV0IGNhbiBiZSByZWRlZmluZWQgdG8gcmV0dXJuIGEgY29uc3RhbnQgdmFsdWUgaWYgZ2FzIGNvc3RzCisgICAgICogYXJlIGEgY29uY2Vybi4KICAgICAgKi8KLSAgICAvLyBzb2xoaW50LWRpc2FibGUtbmV4dC1saW5lIGZ1bmMtbmFtZS1taXhlZGNhc2UKLSAgICBmdW5jdGlvbiBfRUlQNzEyTmFtZSgpIGludGVybmFsIHZpZXcgcmV0dXJucyAoc3RyaW5nIG1lbW9yeSkgewotICAgICAgICByZXR1cm4gX25hbWUudG9TdHJpbmdXaXRoRmFsbGJhY2soX25hbWVGYWxsYmFjayk7CisgICAgZnVuY3Rpb24gX0VJUDcxMk5hbWUoKSBpbnRlcm5hbCB2aWV3IHZpcnR1YWwgcmV0dXJucyAoc3RyaW5nIG1lbW9yeSkgeworICAgICAgICByZXR1cm4gX25hbWU7CiAgICAgfQogCiAgICAgLyoqCiAgICAgICogQGRldiBUaGUgdmVyc2lvbiBwYXJhbWV0ZXIgZm9yIHRoZSBFSVA3MTIgZG9tYWluLgogICAgICAqCi0gICAgICogTk9URTogQnkgZGVmYXVsdCB0aGlzIGZ1bmN0aW9uIHJlYWRzIF92ZXJzaW9uIHdoaWNoIGlzIGFuIGltbXV0YWJsZSB2YWx1ZS4KLSAgICAgKiBJdCBvbmx5IHJlYWRzIGZyb20gc3RvcmFnZSBpZiBuZWNlc3NhcnkgKGluIGNhc2UgdGhlIHZhbHVlIGlzIHRvbyBsYXJnZSB0byBmaXQgaW4gYSBTaG9ydFN0cmluZykuCisgICAgICogTk9URTogVGhpcyBmdW5jdGlvbiByZWFkcyBmcm9tIHN0b3JhZ2UgYnkgZGVmYXVsdCwgYnV0IGNhbiBiZSByZWRlZmluZWQgdG8gcmV0dXJuIGEgY29uc3RhbnQgdmFsdWUgaWYgZ2FzIGNvc3RzCisgICAgICogYXJlIGEgY29uY2Vybi4KICAgICAgKi8KLSAgICAvLyBzb2xoaW50LWRpc2FibGUtbmV4dC1saW5lIGZ1bmMtbmFtZS1taXhlZGNhc2UKLSAgICBmdW5jdGlvbiBfRUlQNzEyVmVyc2lvbigpIGludGVybmFsIHZpZXcgcmV0dXJucyAoc3RyaW5nIG1lbW9yeSkgewotICAgICAgICByZXR1cm4gX3ZlcnNpb24udG9TdHJpbmdXaXRoRmFsbGJhY2soX3ZlcnNpb25GYWxsYmFjayk7CisgICAgZnVuY3Rpb24gX0VJUDcxMlZlcnNpb24oKSBpbnRlcm5hbCB2aWV3IHZpcnR1YWwgcmV0dXJucyAoc3RyaW5nIG1lbW9yeSkgeworICAgICAgICByZXR1cm4gX3ZlcnNpb247CisgICAgfQorCisgICAgLyoqCisgICAgICogQGRldiBUaGUgaGFzaCBvZiB0aGUgbmFtZSBwYXJhbWV0ZXIgZm9yIHRoZSBFSVA3MTIgZG9tYWluLgorICAgICAqCisgICAgICogTk9URTogSW4gcHJldmlvdXMgdmVyc2lvbnMgdGhpcyBmdW5jdGlvbiB3YXMgdmlydHVhbC4gSW4gdGhpcyB2ZXJzaW9uIHlvdSBzaG91bGQgb3ZlcnJpZGUgYF9FSVA3MTJOYW1lYCBpbnN0ZWFkLgorICAgICAqLworICAgIGZ1bmN0aW9uIF9FSVA3MTJOYW1lSGFzaCgpIGludGVybmFsIHZpZXcgcmV0dXJucyAoYnl0ZXMzMikgeworICAgICAgICBzdHJpbmcgbWVtb3J5IG5hbWUgPSBfRUlQNzEyTmFtZSgpOworICAgICAgICBpZiAoYnl0ZXMobmFtZSkubGVuZ3RoID4gMCkgeworICAgICAgICAgICAgcmV0dXJuIGtlY2NhazI1NihieXRlcyhuYW1lKSk7CisgICAgICAgIH0gZWxzZSB7CisgICAgICAgICAgICAvLyBJZiB0aGUgbmFtZSBpcyBlbXB0eSwgdGhlIGNvbnRyYWN0IG1heSBoYXZlIGJlZW4gdXBncmFkZWQgd2l0aG91dCBpbml0aWFsaXppbmcgdGhlIG5ldyBzdG9yYWdlLgorICAgICAgICAgICAgLy8gV2UgcmV0dXJuIHRoZSBuYW1lIGhhc2ggaW4gc3RvcmFnZSBpZiBub24temVybywgb3RoZXJ3aXNlIHdlIGFzc3VtZSB0aGUgbmFtZSBpcyBlbXB0eSBieSBkZXNpZ24uCisgICAgICAgICAgICBieXRlczMyIGhhc2hlZE5hbWUgPSBfaGFzaGVkTmFtZTsKKyAgICAgICAgICAgIGlmIChoYXNoZWROYW1lICE9IDApIHsKKyAgICAgICAgICAgICAgICByZXR1cm4gaGFzaGVkTmFtZTsKKyAgICAgICAgICAgIH0gZWxzZSB7CisgICAgICAgICAgICAgICAgcmV0dXJuIGtlY2NhazI1NigiIik7CisgICAgICAgICAgICB9CisgICAgICAgIH0KKyAgICB9CisKKyAgICAvKioKKyAgICAgKiBAZGV2IFRoZSBoYXNoIG9mIHRoZSB2ZXJzaW9uIHBhcmFtZXRlciBmb3IgdGhlIEVJUDcxMiBkb21haW4uCisgICAgICoKKyAgICAgKiBOT1RFOiBJbiBwcmV2aW91cyB2ZXJzaW9ucyB0aGlzIGZ1bmN0aW9uIHdhcyB2aXJ0dWFsLiBJbiB0aGlzIHZlcnNpb24geW91IHNob3VsZCBvdmVycmlkZSBgX0VJUDcxMlZlcnNpb25gIGluc3RlYWQuCisgICAgICovCisgICAgZnVuY3Rpb24gX0VJUDcxMlZlcnNpb25IYXNoKCkgaW50ZXJuYWwgdmlldyByZXR1cm5zIChieXRlczMyKSB7CisgICAgICAgIHN0cmluZyBtZW1vcnkgdmVyc2lvbiA9IF9FSVA3MTJWZXJzaW9uKCk7CisgICAgICAgIGlmIChieXRlcyh2ZXJzaW9uKS5sZW5ndGggPiAwKSB7CisgICAgICAgICAgICByZXR1cm4ga2VjY2FrMjU2KGJ5dGVzKHZlcnNpb24pKTsKKyAgICAgICAgfSBlbHNlIHsKKyAgICAgICAgICAgIC8vIElmIHRoZSB2ZXJzaW9uIGlzIGVtcHR5LCB0aGUgY29udHJhY3QgbWF5IGhhdmUgYmVlbiB1cGdyYWRlZCB3aXRob3V0IGluaXRpYWxpemluZyB0aGUgbmV3IHN0b3JhZ2UuCisgICAgICAgICAgICAvLyBXZSByZXR1cm4gdGhlIHZlcnNpb24gaGFzaCBpbiBzdG9yYWdlIGlmIG5vbi16ZXJvLCBvdGhlcndpc2Ugd2UgYXNzdW1lIHRoZSB2ZXJzaW9uIGlzIGVtcHR5IGJ5IGRlc2lnbi4KKyAgICAgICAgICAgIGJ5dGVzMzIgaGFzaGVkVmVyc2lvbiA9IF9oYXNoZWRWZXJzaW9uOworICAgICAgICAgICAgaWYgKGhhc2hlZFZlcnNpb24gIT0gMCkgeworICAgICAgICAgICAgICAgIHJldHVybiBoYXNoZWRWZXJzaW9uOworICAgICAgICAgICAgfSBlbHNlIHsKKyAgICAgICAgICAgICAgICByZXR1cm4ga2VjY2FrMjU2KCIiKTsKKyAgICAgICAgICAgIH0KKyAgICAgICAgfQogICAgIH0KIH0KZGlmZiAtLWdpdCBhL3BhY2thZ2UuanNvbiBiL3BhY2thZ2UuanNvbgppbmRleCBjNGIzNThlMTAuLjk2YWIyNTU5YyAxMDA2NDQKLS0tIGEvcGFja2FnZS5qc29uCisrKyBiL3BhY2thZ2UuanNvbgpAQCAtMzIsNyArMzIsNyBAQAogICB9LAogICAicmVwb3NpdG9yeSI6IHsKICAgICAidHlwZSI6ICJnaXQiLAotICAgICJ1cmwiOiAiaHR0cHM6Ly9naXRodWIuY29tL09wZW5aZXBwZWxpbi9vcGVuemVwcGVsaW4tY29udHJhY3RzLmdpdCIKKyAgICAidXJsIjogImh0dHBzOi8vZ2l0aHViLmNvbS9PcGVuWmVwcGVsaW4vb3BlbnplcHBlbGluLWNvbnRyYWN0cy11cGdyYWRlYWJsZS5naXQiCiAgIH0sCiAgICJrZXl3b3JkcyI6IFsKICAgICAic29saWRpdHkiLApkaWZmIC0tZ2l0IGEvcmVtYXBwaW5ncy50eHQgYi9yZW1hcHBpbmdzLnR4dAppbmRleCAzMDRkMTM4NmEuLmExY2Q2M2JlZSAxMDA2NDQKLS0tIGEvcmVtYXBwaW5ncy50eHQKKysrIGIvcmVtYXBwaW5ncy50eHQKQEAgLTEgKzEsMiBAQAotQG9wZW56ZXBwZWxpbi9jb250cmFjdHMvPWNvbnRyYWN0cy8KK0BvcGVuemVwcGVsaW4vY29udHJhY3RzLXVwZ3JhZGVhYmxlLz1jb250cmFjdHMvCitAb3BlbnplcHBlbGluL2NvbnRyYWN0cy89bGliL29wZW56ZXBwZWxpbi1jb250cmFjdHMvY29udHJhY3RzLwpkaWZmIC0tZ2l0IGEvdGVzdC91dGlscy9jcnlwdG9ncmFwaHkvRUlQNzEyLnRlc3QuanMgYi90ZXN0L3V0aWxzL2NyeXB0b2dyYXBoeS9FSVA3MTIudGVzdC5qcwppbmRleCAyYjZlN2ZhOTcuLjI2OGUwZDI5ZCAxMDA2NDQKLS0tIGEvdGVzdC91dGlscy9jcnlwdG9ncmFwaHkvRUlQNzEyLnRlc3QuanMKKysrIGIvdGVzdC91dGlscy9jcnlwdG9ncmFwaHkvRUlQNzEyLnRlc3QuanMKQEAgLTQ3LDI3ICs0Nyw2IEBAIGRlc2NyaWJlKCdFSVA3MTInLCBmdW5jdGlvbiAoKSB7CiAgICAgICAgICAgY29uc3QgcmVidWlsZERvbWFpbiA9IGF3YWl0IGdldERvbWFpbih0aGlzLmVpcDcxMik7CiAgICAgICAgICAgZXhwZWN0KHJlYnVpbGREb21haW4pLnRvLmJlLmRlZXAuZXF1YWwodGhpcy5kb21haW4pOwogICAgICAgICB9KTsKLQotICAgICAgICBpZiAoc2hvcnRPckxvbmcgPT09ICdzaG9ydCcpIHsKLSAgICAgICAgICAvLyBMb25nIHN0cmluZ3MgYXJlIGluIHN0b3JhZ2UsIGFuZCB0aGUgcHJveHkgd2lsbCBub3QgYmUgcHJvcGVybHkgaW5pdGlhbGl6ZWQgdW5sZXNzCi0gICAgICAgICAgLy8gdGhlIHVwZ3JhZGVhYmxlIGNvbnRyYWN0IHZhcmlhbnQgaXMgdXNlZCBhbmQgdGhlIGluaXRpYWxpemVyIGlzIGludm9rZWQuCi0KLSAgICAgICAgICBpdCgnYWRqdXN0cyB3aGVuIGJlaGluZCBwcm94eScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKLSAgICAgICAgICAgIGNvbnN0IGZhY3RvcnkgPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJyRDbG9uZXMnKTsKLQotICAgICAgICAgICAgY29uc3QgY2xvbmUgPSBhd2FpdCBmYWN0b3J5Ci0gICAgICAgICAgICAgIC4kY2xvbmUodGhpcy5laXA3MTIpCi0gICAgICAgICAgICAgIC50aGVuKHR4ID0+IHR4LndhaXQoKSkKLSAgICAgICAgICAgICAgLnRoZW4ocmVjZWlwdCA9PiByZWNlaXB0LmxvZ3MuZmluZChldiA9PiBldi5mcmFnbWVudC5uYW1lID09ICdyZXR1cm4kY2xvbmVfYWRkcmVzcycpLmFyZ3MuaW5zdGFuY2UpCi0gICAgICAgICAgICAgIC50aGVuKGFkZHJlc3MgPT4gZXRoZXJzLmdldENvbnRyYWN0QXQoJyRFSVA3MTJWZXJpZmllcicsIGFkZHJlc3MpKTsKLQotICAgICAgICAgICAgY29uc3QgZXhwZWN0ZWREb21haW4gPSB7IC4uLnRoaXMuZG9tYWluLCB2ZXJpZnlpbmdDb250cmFjdDogY2xvbmUudGFyZ2V0IH07Ci0gICAgICAgICAgICBleHBlY3QoYXdhaXQgZ2V0RG9tYWluKGNsb25lKSkudG8uYmUuZGVlcC5lcXVhbChleHBlY3RlZERvbWFpbik7Ci0KLSAgICAgICAgICAgIGNvbnN0IGV4cGVjdGVkU2VwYXJhdG9yID0gYXdhaXQgZG9tYWluU2VwYXJhdG9yKGV4cGVjdGVkRG9tYWluKTsKLSAgICAgICAgICAgIGV4cGVjdChhd2FpdCBjbG9uZS4kX2RvbWFpblNlcGFyYXRvclY0KCkpLnRvLmVxdWFsKGV4cGVjdGVkU2VwYXJhdG9yKTsKLSAgICAgICAgICB9KTsKLSAgICAgICAgfQogICAgICAgfSk7CiAKICAgICAgIGl0KCdoYXNoIGRpZ2VzdCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsK
+diff --git a/.github/ISSUE_TEMPLATE/bug_report.md b/.github/ISSUE_TEMPLATE/bug_report.md
+deleted file mode 100644
+index 35ad097ff..000000000
+--- a/.github/ISSUE_TEMPLATE/bug_report.md
++++ /dev/null
+@@ -1,21 +0,0 @@
+----
+-name: Bug report
+-about: Report a bug in OpenZeppelin Contracts
+-
+----
+-
+-<!-- Briefly describe the issue you're experiencing. Tell us what you were trying to do and what happened instead. -->
+-
+-<!-- Remember, this is not a place to ask for help debugging code. For that, we welcome you in the OpenZeppelin Community Forum: https://forum.openzeppelin.com/. -->
+-
+-**💻 Environment**
+-
+-<!-- Tell us what version of OpenZeppelin Contracts you're using, and how you're using it: Hardhat, Remix, etc. -->
+-
+-**📝 Details**
+-
+-<!-- Describe the problem you have been experiencing in more detail. Include as much information as you think is relevant. Keep in mind that transactions can fail for many reasons; context is key here. -->
+-
+-**🔢 Code to reproduce bug**
+-
+-<!-- We will be able to better help if you provide a minimal example that triggers the bug. -->
+diff --git a/.github/ISSUE_TEMPLATE/config.yml b/.github/ISSUE_TEMPLATE/config.yml
+index 4018cef29..d343a53d8 100644
+--- a/.github/ISSUE_TEMPLATE/config.yml
++++ b/.github/ISSUE_TEMPLATE/config.yml
+@@ -1,4 +1,8 @@
++blank_issues_enabled: false
+ contact_links:
++  - name: Bug Reports & Feature Requests
++    url: https://github.com/OpenZeppelin/openzeppelin-contracts/issues/new/choose
++    about: Visit the OpenZeppelin Contracts repository
+   - name: Questions & Support Requests
+     url: https://forum.openzeppelin.com/c/support/contracts/18
+     about: Ask in the OpenZeppelin Forum
+diff --git a/.github/ISSUE_TEMPLATE/feature_request.md b/.github/ISSUE_TEMPLATE/feature_request.md
+deleted file mode 100644
+index ff596b0c3..000000000
+--- a/.github/ISSUE_TEMPLATE/feature_request.md
++++ /dev/null
+@@ -1,14 +0,0 @@
+----
+-name: Feature request
+-about: Suggest an idea for OpenZeppelin Contracts
+-
+----
+-
+-**🧐 Motivation**
+-<!-- Is your feature request related to a specific problem? Is it just a crazy idea? Tell us about it! -->
+-
+-**📝 Details**
+-<!-- Please describe your feature request in detail. -->
+-
+-<!-- Make sure that you have reviewed the OpenZeppelin Contracts Contributor Guidelines. -->
+-<!-- https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/CONTRIBUTING.md -->
+diff --git a/README.md b/README.md
+index fa7b4e31e..4799b6376 100644
+--- a/README.md
++++ b/README.md
+@@ -19,6 +19,9 @@
+ > [!IMPORTANT]
+ > OpenZeppelin Contracts uses semantic versioning to communicate backwards compatibility of its API and storage layout. For upgradeable contracts, the storage layout of different major versions should be assumed incompatible, for example, it is unsafe to upgrade from 4.9.3 to 5.0.0. Learn more at [Backwards Compatibility](https://docs.openzeppelin.com/contracts/backwards-compatibility).
+ 
+++> [!NOTE]
+++> You are looking at the upgradeable variant of OpenZeppelin Contracts. Be sure to review the documentation on [Using OpenZeppelin Contracts with Upgrades](https://docs.openzeppelin.com/contracts/upgradeable).
+++
+ ## Overview
+ 
+ ### Installation
+@@ -26,7 +29,7 @@
+ #### Hardhat (npm)
+ 
+ ```
+-$ npm install @openzeppelin/contracts
++$ npm install @openzeppelin/contracts-upgradeable
+ ```
+ 
+ #### Foundry (git)
+@@ -38,10 +41,10 @@ $ npm install @openzeppelin/contracts
+ > Foundry installs the latest version initially, but subsequent `forge update` commands will use the `master` branch.
+ 
+ ```
+-$ forge install OpenZeppelin/openzeppelin-contracts
++$ forge install OpenZeppelin/openzeppelin-contracts-upgradeable
+ ```
+ 
+-Add `@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/` in `remappings.txt.`
++Add `@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/` in `remappings.txt.`
+ 
+ ### Usage
+ 
+@@ -50,10 +53,11 @@ Once installed, you can use the contracts in the library by importing them:
+ ```solidity
+ pragma solidity ^0.8.20;
+ 
+-import {ERC721} from "@openzeppelin/contracts/token/ERC721/ERC721.sol";
++import {ERC721Upgradeable} from "@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol";
+ 
+-contract MyCollectible is ERC721 {
+-    constructor() ERC721("MyCollectible", "MCO") {
++contract MyCollectible is ERC721Upgradeable {
++    function initialize() initializer public {
++        __ERC721_init("MyCollectible", "MCO");
+     }
+ }
+ ```
+diff --git a/contracts/package.json b/contracts/package.json
+index 845e8c403..8dc181b91 100644
+--- a/contracts/package.json
++++ b/contracts/package.json
+@@ -1,5 +1,5 @@
+ {
+-  "name": "@openzeppelin/contracts",
++  "name": "@openzeppelin/contracts-upgradeable",
+   "description": "Secure Smart Contract library for Solidity",
+   "version": "5.0.2",
+   "files": [
+@@ -13,7 +13,7 @@
+   },
+   "repository": {
+     "type": "git",
+-    "url": "https://github.com/OpenZeppelin/openzeppelin-contracts.git"
++    "url": "https://github.com/OpenZeppelin/openzeppelin-contracts-upgradeable.git"
+   },
+   "keywords": [
+     "solidity",
+@@ -28,5 +28,8 @@
+   "bugs": {
+     "url": "https://github.com/OpenZeppelin/openzeppelin-contracts/issues"
+   },
+-  "homepage": "https://openzeppelin.com/contracts/"
++  "homepage": "https://openzeppelin.com/contracts/",
++  "peerDependencies": {
++    "@openzeppelin/contracts": "<package-version>"
++  }
+ }
+diff --git a/contracts/utils/cryptography/EIP712.sol b/contracts/utils/cryptography/EIP712.sol
+index 77c4c8990..602467f40 100644
+--- a/contracts/utils/cryptography/EIP712.sol
++++ b/contracts/utils/cryptography/EIP712.sol
+@@ -4,7 +4,6 @@
+ pragma solidity ^0.8.20;
+ 
+ import {MessageHashUtils} from "./MessageHashUtils.sol";
+-import {ShortStrings, ShortString} from "../ShortStrings.sol";
+ import {IERC5267} from "../../interfaces/IERC5267.sol";
+ 
+ /**
+@@ -28,28 +27,18 @@ import {IERC5267} from "../../interfaces/IERC5267.sol";
+  * NOTE: In the upgradeable version of this contract, the cached values will correspond to the address, and the domain
+  * separator of the implementation contract. This will cause the {_domainSeparatorV4} function to always rebuild the
+  * separator from the immutable values, which is cheaper than accessing a cached version in cold storage.
+- *
+- * @custom:oz-upgrades-unsafe-allow state-variable-immutable
+  */
+ abstract contract EIP712 is IERC5267 {
+-    using ShortStrings for *;
+-
+     bytes32 private constant TYPE_HASH =
+         keccak256("EIP712Domain(string name,string version,uint256 chainId,address verifyingContract)");
+ 
+-    // Cache the domain separator as an immutable value, but also store the chain id that it corresponds to, in order to
+-    // invalidate the cached domain separator if the chain id changes.
+-    bytes32 private immutable _cachedDomainSeparator;
+-    uint256 private immutable _cachedChainId;
+-    address private immutable _cachedThis;
+-
++    /// @custom:oz-renamed-from _HASHED_NAME
+     bytes32 private immutable _hashedName;
++    /// @custom:oz-renamed-from _HASHED_VERSION
+     bytes32 private immutable _hashedVersion;
+ 
+-    ShortString private immutable _name;
+-    ShortString private immutable _version;
+-    string private _nameFallback;
+-    string private _versionFallback;
++    string private _name;
++    string private _version;
+ 
+     /**
+      * @dev Initializes the domain separator and parameter caches.
+@@ -64,29 +53,23 @@ abstract contract EIP712 is IERC5267 {
+      * contract upgrade].
+      */
+     constructor(string memory name, string memory version) {
+-        _name = name.toShortStringWithFallback(_nameFallback);
+-        _version = version.toShortStringWithFallback(_versionFallback);
+-        _hashedName = keccak256(bytes(name));
+-        _hashedVersion = keccak256(bytes(version));
+-
+-        _cachedChainId = block.chainid;
+-        _cachedDomainSeparator = _buildDomainSeparator();
+-        _cachedThis = address(this);
++        _name = name;
++        _version = version;
++
++        // Reset prior values in storage if upgrading
++        _hashedName = 0;
++        _hashedVersion = 0;
+     }
+ 
+     /**
+      * @dev Returns the domain separator for the current chain.
+      */
+     function _domainSeparatorV4() internal view returns (bytes32) {
+-        if (address(this) == _cachedThis && block.chainid == _cachedChainId) {
+-            return _cachedDomainSeparator;
+-        } else {
+-            return _buildDomainSeparator();
+-        }
++        return _buildDomainSeparator();
+     }
+ 
+     function _buildDomainSeparator() private view returns (bytes32) {
+-        return keccak256(abi.encode(TYPE_HASH, _hashedName, _hashedVersion, block.chainid, address(this)));
++        return keccak256(abi.encode(TYPE_HASH, _EIP712NameHash(), _EIP712VersionHash(), block.chainid, address(this)));
+     }
+ 
+     /**
+@@ -125,6 +108,10 @@ abstract contract EIP712 is IERC5267 {
+             uint256[] memory extensions
+         )
+     {
++        // If the hashed name and version in storage are non-zero, the contract hasn't been properly initialized
++        // and the EIP712 domain is not reliable, as it will be missing name and version.
++        require(_hashedName == 0 && _hashedVersion == 0, "EIP712: Uninitialized");
++
+         return (
+             hex"0f", // 01111
+             _EIP712Name(),
+@@ -139,22 +126,62 @@ abstract contract EIP712 is IERC5267 {
+     /**
+      * @dev The name parameter for the EIP712 domain.
+      *
+-     * NOTE: By default this function reads _name which is an immutable value.
+-     * It only reads from storage if necessary (in case the value is too large to fit in a ShortString).
++     * NOTE: This function reads from storage by default, but can be redefined to return a constant value if gas costs
++     * are a concern.
+      */
+-    // solhint-disable-next-line func-name-mixedcase
+-    function _EIP712Name() internal view returns (string memory) {
+-        return _name.toStringWithFallback(_nameFallback);
++    function _EIP712Name() internal view virtual returns (string memory) {
++        return _name;
+     }
+ 
+     /**
+      * @dev The version parameter for the EIP712 domain.
+      *
+-     * NOTE: By default this function reads _version which is an immutable value.
+-     * It only reads from storage if necessary (in case the value is too large to fit in a ShortString).
++     * NOTE: This function reads from storage by default, but can be redefined to return a constant value if gas costs
++     * are a concern.
+      */
+-    // solhint-disable-next-line func-name-mixedcase
+-    function _EIP712Version() internal view returns (string memory) {
+-        return _version.toStringWithFallback(_versionFallback);
++    function _EIP712Version() internal view virtual returns (string memory) {
++        return _version;
++    }
++
++    /**
++     * @dev The hash of the name parameter for the EIP712 domain.
++     *
++     * NOTE: In previous versions this function was virtual. In this version you should override `_EIP712Name` instead.
++     */
++    function _EIP712NameHash() internal view returns (bytes32) {
++        string memory name = _EIP712Name();
++        if (bytes(name).length > 0) {
++            return keccak256(bytes(name));
++        } else {
++            // If the name is empty, the contract may have been upgraded without initializing the new storage.
++            // We return the name hash in storage if non-zero, otherwise we assume the name is empty by design.
++            bytes32 hashedName = _hashedName;
++            if (hashedName != 0) {
++                return hashedName;
++            } else {
++                return keccak256("");
++            }
++        }
++    }
++
++    /**
++     * @dev The hash of the version parameter for the EIP712 domain.
++     *
++     * NOTE: In previous versions this function was virtual. In this version you should override `_EIP712Version` instead.
++     */
++    function _EIP712VersionHash() internal view returns (bytes32) {
++        string memory version = _EIP712Version();
++        if (bytes(version).length > 0) {
++            return keccak256(bytes(version));
++        } else {
++            // If the version is empty, the contract may have been upgraded without initializing the new storage.
++            // We return the version hash in storage if non-zero, otherwise we assume the version is empty by design.
++            bytes32 hashedVersion = _hashedVersion;
++            if (hashedVersion != 0) {
++                return hashedVersion;
++            } else {
++                return keccak256("");
++            }
++        }
+     }
+ }
+diff --git a/package.json b/package.json
+index c4b358e10..96ab2559c 100644
+--- a/package.json
++++ b/package.json
+@@ -32,7 +32,7 @@
+   },
+   "repository": {
+     "type": "git",
+-    "url": "https://github.com/OpenZeppelin/openzeppelin-contracts.git"
++    "url": "https://github.com/OpenZeppelin/openzeppelin-contracts-upgradeable.git"
+   },
+   "keywords": [
+     "solidity",
+diff --git a/remappings.txt b/remappings.txt
+index 304d1386a..a1cd63bee 100644
+--- a/remappings.txt
++++ b/remappings.txt
+@@ -1 +1,2 @@
+-@openzeppelin/contracts/=contracts/
++@openzeppelin/contracts-upgradeable/=contracts/
++@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/
+diff --git a/test/utils/cryptography/EIP712.test.js b/test/utils/cryptography/EIP712.test.js
+index 2b6e7fa97..268e0d29d 100644
+--- a/test/utils/cryptography/EIP712.test.js
++++ b/test/utils/cryptography/EIP712.test.js
+@@ -47,27 +47,6 @@ describe('EIP712', function () {
+           const rebuildDomain = await getDomain(this.eip712);
+           expect(rebuildDomain).to.be.deep.equal(this.domain);
+         });
+-
+-        if (shortOrLong === 'short') {
+-          // Long strings are in storage, and the proxy will not be properly initialized unless
+-          // the upgradeable contract variant is used and the initializer is invoked.
+-
+-          it('adjusts when behind proxy', async function () {
+-            const factory = await ethers.deployContract('$Clones');
+-
+-            const clone = await factory
+-              .$clone(this.eip712)
+-              .then(tx => tx.wait())
+-              .then(receipt => receipt.logs.find(ev => ev.fragment.name == 'return$clone_address').args.instance)
+-              .then(address => ethers.getContractAt('$EIP712Verifier', address));
+-
+-            const expectedDomain = { ...this.domain, verifyingContract: clone.target };
+-            expect(await getDomain(clone)).to.be.deep.equal(expectedDomain);
+-
+-            const expectedSeparator = await domainSeparator(expectedDomain);
+-            expect(await clone.$_domainSeparatorV4()).to.equal(expectedSeparator);
+-          });
+-        }
+       });
+ 
+       it('hash digest', async function () {
