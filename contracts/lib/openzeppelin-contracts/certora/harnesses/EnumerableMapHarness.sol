@@ -1,1 +1,55 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0VudW1lcmFibGVNYXB9IGZyb20gIi4uL3BhdGNoZWQvdXRpbHMvc3RydWN0cy9FbnVtZXJhYmxlTWFwLnNvbCI7Cgpjb250cmFjdCBFbnVtZXJhYmxlTWFwSGFybmVzcyB7CiAgICB1c2luZyBFbnVtZXJhYmxlTWFwIGZvciBFbnVtZXJhYmxlTWFwLkJ5dGVzMzJUb0J5dGVzMzJNYXA7CgogICAgRW51bWVyYWJsZU1hcC5CeXRlczMyVG9CeXRlczMyTWFwIHByaXZhdGUgX21hcDsKCiAgICBmdW5jdGlvbiBzZXQoYnl0ZXMzMiBrZXksIGJ5dGVzMzIgdmFsdWUpIHB1YmxpYyByZXR1cm5zIChib29sKSB7CiAgICAgICAgcmV0dXJuIF9tYXAuc2V0KGtleSwgdmFsdWUpOwogICAgfQoKICAgIGZ1bmN0aW9uIHJlbW92ZShieXRlczMyIGtleSkgcHVibGljIHJldHVybnMgKGJvb2wpIHsKICAgICAgICByZXR1cm4gX21hcC5yZW1vdmUoa2V5KTsKICAgIH0KCiAgICBmdW5jdGlvbiBjb250YWlucyhieXRlczMyIGtleSkgcHVibGljIHZpZXcgcmV0dXJucyAoYm9vbCkgewogICAgICAgIHJldHVybiBfbWFwLmNvbnRhaW5zKGtleSk7CiAgICB9CgogICAgZnVuY3Rpb24gbGVuZ3RoKCkgcHVibGljIHZpZXcgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHJldHVybiBfbWFwLmxlbmd0aCgpOwogICAgfQoKICAgIGZ1bmN0aW9uIGtleV9hdCh1aW50MjU2IGluZGV4KSBwdWJsaWMgdmlldyByZXR1cm5zIChieXRlczMyKSB7CiAgICAgICAgKGJ5dGVzMzIga2V5LCkgPSBfbWFwLmF0KGluZGV4KTsKICAgICAgICByZXR1cm4ga2V5OwogICAgfQoKICAgIGZ1bmN0aW9uIHZhbHVlX2F0KHVpbnQyNTYgaW5kZXgpIHB1YmxpYyB2aWV3IHJldHVybnMgKGJ5dGVzMzIpIHsKICAgICAgICAoLGJ5dGVzMzIgdmFsdWUpID0gX21hcC5hdChpbmRleCk7CiAgICAgICAgcmV0dXJuIHZhbHVlOwogICAgfQoKICAgIGZ1bmN0aW9uIHRyeUdldF9jb250YWlucyhieXRlczMyIGtleSkgcHVibGljIHZpZXcgcmV0dXJucyAoYm9vbCkgewogICAgICAgIChib29sIGNvbnRhaW5lZCwpID0gX21hcC50cnlHZXQoa2V5KTsKICAgICAgICByZXR1cm4gY29udGFpbmVkOwogICAgfQoKICAgIGZ1bmN0aW9uIHRyeUdldF92YWx1ZShieXRlczMyIGtleSkgcHVibGljIHZpZXcgcmV0dXJucyAoYnl0ZXMzMikgewogICAgICAgICgsYnl0ZXMzMiB2YWx1ZSkgPSBfbWFwLnRyeUdldChrZXkpOwogICAgICAgIHJldHVybiB2YWx1ZTsKICAgIH0KCiAgICBmdW5jdGlvbiBnZXQoYnl0ZXMzMiBrZXkpIHB1YmxpYyB2aWV3IHJldHVybnMgKGJ5dGVzMzIpIHsKICAgICAgICByZXR1cm4gX21hcC5nZXQoa2V5KTsKICAgIH0KCiAgICBmdW5jdGlvbiBfcG9zaXRpb25PZihieXRlczMyIGtleSkgcHVibGljIHZpZXcgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHJldHVybiBfbWFwLl9rZXlzLl9pbm5lci5fcG9zaXRpb25zW2tleV07CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {EnumerableMap} from "../patched/utils/structs/EnumerableMap.sol";
+
+contract EnumerableMapHarness {
+    using EnumerableMap for EnumerableMap.Bytes32ToBytes32Map;
+
+    EnumerableMap.Bytes32ToBytes32Map private _map;
+
+    function set(bytes32 key, bytes32 value) public returns (bool) {
+        return _map.set(key, value);
+    }
+
+    function remove(bytes32 key) public returns (bool) {
+        return _map.remove(key);
+    }
+
+    function contains(bytes32 key) public view returns (bool) {
+        return _map.contains(key);
+    }
+
+    function length() public view returns (uint256) {
+        return _map.length();
+    }
+
+    function key_at(uint256 index) public view returns (bytes32) {
+        (bytes32 key,) = _map.at(index);
+        return key;
+    }
+
+    function value_at(uint256 index) public view returns (bytes32) {
+        (,bytes32 value) = _map.at(index);
+        return value;
+    }
+
+    function tryGet_contains(bytes32 key) public view returns (bool) {
+        (bool contained,) = _map.tryGet(key);
+        return contained;
+    }
+
+    function tryGet_value(bytes32 key) public view returns (bytes32) {
+        (,bytes32 value) = _map.tryGet(key);
+        return value;
+    }
+
+    function get(bytes32 key) public view returns (bytes32) {
+        return _map.get(key);
+    }
+
+    function _positionOf(bytes32 key) public view returns (uint256) {
+        return _map._keys._inner._positions[key];
+    }
+}
