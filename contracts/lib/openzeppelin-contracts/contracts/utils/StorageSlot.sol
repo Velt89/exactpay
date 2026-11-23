@@ -1,1 +1,143 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodXRpbHMvU3RvcmFnZVNsb3Quc29sKQovLyBUaGlzIGZpbGUgd2FzIHByb2NlZHVyYWxseSBnZW5lcmF0ZWQgZnJvbSBzY3JpcHRzL2dlbmVyYXRlL3RlbXBsYXRlcy9TdG9yYWdlU2xvdC5qcy4KCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKLyoqCiAqIEBkZXYgTGlicmFyeSBmb3IgcmVhZGluZyBhbmQgd3JpdGluZyBwcmltaXRpdmUgdHlwZXMgdG8gc3BlY2lmaWMgc3RvcmFnZSBzbG90cy4KICoKICogU3RvcmFnZSBzbG90cyBhcmUgb2Z0ZW4gdXNlZCB0byBhdm9pZCBzdG9yYWdlIGNvbmZsaWN0IHdoZW4gZGVhbGluZyB3aXRoIHVwZ3JhZGVhYmxlIGNvbnRyYWN0cy4KICogVGhpcyBsaWJyYXJ5IGhlbHBzIHdpdGggcmVhZGluZyBhbmQgd3JpdGluZyB0byBzdWNoIHNsb3RzIHdpdGhvdXQgdGhlIG5lZWQgZm9yIGlubGluZSBhc3NlbWJseS4KICoKICogVGhlIGZ1bmN0aW9ucyBpbiB0aGlzIGxpYnJhcnkgcmV0dXJuIFNsb3Qgc3RydWN0cyB0aGF0IGNvbnRhaW4gYSBgdmFsdWVgIG1lbWJlciB0aGF0IGNhbiBiZSB1c2VkIHRvIHJlYWQgb3Igd3JpdGUuCiAqCiAqIEV4YW1wbGUgdXNhZ2UgdG8gc2V0IEVSQy0xOTY3IGltcGxlbWVudGF0aW9uIHNsb3Q6CiAqIGBgYHNvbGlkaXR5CiAqIGNvbnRyYWN0IEVSQzE5NjcgewogKiAgICAgLy8gRGVmaW5lIHRoZSBzbG90LiBBbHRlcm5hdGl2ZWx5LCB1c2UgdGhlIFNsb3REZXJpdmF0aW9uIGxpYnJhcnkgdG8gZGVyaXZlIHRoZSBzbG90LgogKiAgICAgYnl0ZXMzMiBpbnRlcm5hbCBjb25zdGFudCBfSU1QTEVNRU5UQVRJT05fU0xPVCA9IDB4MzYwODk0YTEzYmExYTMyMTA2NjdjODI4NDkyZGI5OGRjYTNlMjA3NmNjMzczNWE5MjBhM2NhNTA1ZDM4MmJiYzsKICoKICogICAgIGZ1bmN0aW9uIF9nZXRJbXBsZW1lbnRhdGlvbigpIGludGVybmFsIHZpZXcgcmV0dXJucyAoYWRkcmVzcykgewogKiAgICAgICAgIHJldHVybiBTdG9yYWdlU2xvdC5nZXRBZGRyZXNzU2xvdChfSU1QTEVNRU5UQVRJT05fU0xPVCkudmFsdWU7CiAqICAgICB9CiAqCiAqICAgICBmdW5jdGlvbiBfc2V0SW1wbGVtZW50YXRpb24oYWRkcmVzcyBuZXdJbXBsZW1lbnRhdGlvbikgaW50ZXJuYWwgewogKiAgICAgICAgIHJlcXVpcmUobmV3SW1wbGVtZW50YXRpb24uY29kZS5sZW5ndGggPiAwKTsKICogICAgICAgICBTdG9yYWdlU2xvdC5nZXRBZGRyZXNzU2xvdChfSU1QTEVNRU5UQVRJT05fU0xPVCkudmFsdWUgPSBuZXdJbXBsZW1lbnRhdGlvbjsKICogICAgIH0KICogfQogKiBgYGAKICoKICogVElQOiBDb25zaWRlciB1c2luZyB0aGlzIGxpYnJhcnkgYWxvbmcgd2l0aCB7U2xvdERlcml2YXRpb259LgogKi8KbGlicmFyeSBTdG9yYWdlU2xvdCB7CiAgICBzdHJ1Y3QgQWRkcmVzc1Nsb3QgewogICAgICAgIGFkZHJlc3MgdmFsdWU7CiAgICB9CgogICAgc3RydWN0IEJvb2xlYW5TbG90IHsKICAgICAgICBib29sIHZhbHVlOwogICAgfQoKICAgIHN0cnVjdCBCeXRlczMyU2xvdCB7CiAgICAgICAgYnl0ZXMzMiB2YWx1ZTsKICAgIH0KCiAgICBzdHJ1Y3QgVWludDI1NlNsb3QgewogICAgICAgIHVpbnQyNTYgdmFsdWU7CiAgICB9CgogICAgc3RydWN0IEludDI1NlNsb3QgewogICAgICAgIGludDI1NiB2YWx1ZTsKICAgIH0KCiAgICBzdHJ1Y3QgU3RyaW5nU2xvdCB7CiAgICAgICAgc3RyaW5nIHZhbHVlOwogICAgfQoKICAgIHN0cnVjdCBCeXRlc1Nsb3QgewogICAgICAgIGJ5dGVzIHZhbHVlOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBSZXR1cm5zIGFuIGBBZGRyZXNzU2xvdGAgd2l0aCBtZW1iZXIgYHZhbHVlYCBsb2NhdGVkIGF0IGBzbG90YC4KICAgICAqLwogICAgZnVuY3Rpb24gZ2V0QWRkcmVzc1Nsb3QoYnl0ZXMzMiBzbG90KSBpbnRlcm5hbCBwdXJlIHJldHVybnMgKEFkZHJlc3NTbG90IHN0b3JhZ2UgcikgewogICAgICAgIGFzc2VtYmx5ICgibWVtb3J5LXNhZmUiKSB7CiAgICAgICAgICAgIHIuc2xvdCA6PSBzbG90CiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICogQGRldiBSZXR1cm5zIGEgYEJvb2xlYW5TbG90YCB3aXRoIG1lbWJlciBgdmFsdWVgIGxvY2F0ZWQgYXQgYHNsb3RgLgogICAgICovCiAgICBmdW5jdGlvbiBnZXRCb29sZWFuU2xvdChieXRlczMyIHNsb3QpIGludGVybmFsIHB1cmUgcmV0dXJucyAoQm9vbGVhblNsb3Qgc3RvcmFnZSByKSB7CiAgICAgICAgYXNzZW1ibHkgKCJtZW1vcnktc2FmZSIpIHsKICAgICAgICAgICAgci5zbG90IDo9IHNsb3QKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgYSBgQnl0ZXMzMlNsb3RgIHdpdGggbWVtYmVyIGB2YWx1ZWAgbG9jYXRlZCBhdCBgc2xvdGAuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGdldEJ5dGVzMzJTbG90KGJ5dGVzMzIgc2xvdCkgaW50ZXJuYWwgcHVyZSByZXR1cm5zIChCeXRlczMyU2xvdCBzdG9yYWdlIHIpIHsKICAgICAgICBhc3NlbWJseSAoIm1lbW9yeS1zYWZlIikgewogICAgICAgICAgICByLnNsb3QgOj0gc2xvdAogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyBhIGBVaW50MjU2U2xvdGAgd2l0aCBtZW1iZXIgYHZhbHVlYCBsb2NhdGVkIGF0IGBzbG90YC4KICAgICAqLwogICAgZnVuY3Rpb24gZ2V0VWludDI1NlNsb3QoYnl0ZXMzMiBzbG90KSBpbnRlcm5hbCBwdXJlIHJldHVybnMgKFVpbnQyNTZTbG90IHN0b3JhZ2UgcikgewogICAgICAgIGFzc2VtYmx5ICgibWVtb3J5LXNhZmUiKSB7CiAgICAgICAgICAgIHIuc2xvdCA6PSBzbG90CiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICogQGRldiBSZXR1cm5zIGEgYEludDI1NlNsb3RgIHdpdGggbWVtYmVyIGB2YWx1ZWAgbG9jYXRlZCBhdCBgc2xvdGAuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGdldEludDI1NlNsb3QoYnl0ZXMzMiBzbG90KSBpbnRlcm5hbCBwdXJlIHJldHVybnMgKEludDI1NlNsb3Qgc3RvcmFnZSByKSB7CiAgICAgICAgYXNzZW1ibHkgKCJtZW1vcnktc2FmZSIpIHsKICAgICAgICAgICAgci5zbG90IDo9IHNsb3QKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgYSBgU3RyaW5nU2xvdGAgd2l0aCBtZW1iZXIgYHZhbHVlYCBsb2NhdGVkIGF0IGBzbG90YC4KICAgICAqLwogICAgZnVuY3Rpb24gZ2V0U3RyaW5nU2xvdChieXRlczMyIHNsb3QpIGludGVybmFsIHB1cmUgcmV0dXJucyAoU3RyaW5nU2xvdCBzdG9yYWdlIHIpIHsKICAgICAgICBhc3NlbWJseSAoIm1lbW9yeS1zYWZlIikgewogICAgICAgICAgICByLnNsb3QgOj0gc2xvdAogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyBhbiBgU3RyaW5nU2xvdGAgcmVwcmVzZW50YXRpb24gb2YgdGhlIHN0cmluZyBzdG9yYWdlIHBvaW50ZXIgYHN0b3JlYC4KICAgICAqLwogICAgZnVuY3Rpb24gZ2V0U3RyaW5nU2xvdChzdHJpbmcgc3RvcmFnZSBzdG9yZSkgaW50ZXJuYWwgcHVyZSByZXR1cm5zIChTdHJpbmdTbG90IHN0b3JhZ2UgcikgewogICAgICAgIGFzc2VtYmx5ICgibWVtb3J5LXNhZmUiKSB7CiAgICAgICAgICAgIHIuc2xvdCA6PSBzdG9yZS5zbG90CiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICogQGRldiBSZXR1cm5zIGEgYEJ5dGVzU2xvdGAgd2l0aCBtZW1iZXIgYHZhbHVlYCBsb2NhdGVkIGF0IGBzbG90YC4KICAgICAqLwogICAgZnVuY3Rpb24gZ2V0Qnl0ZXNTbG90KGJ5dGVzMzIgc2xvdCkgaW50ZXJuYWwgcHVyZSByZXR1cm5zIChCeXRlc1Nsb3Qgc3RvcmFnZSByKSB7CiAgICAgICAgYXNzZW1ibHkgKCJtZW1vcnktc2FmZSIpIHsKICAgICAgICAgICAgci5zbG90IDo9IHNsb3QKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgYW4gYEJ5dGVzU2xvdGAgcmVwcmVzZW50YXRpb24gb2YgdGhlIGJ5dGVzIHN0b3JhZ2UgcG9pbnRlciBgc3RvcmVgLgogICAgICovCiAgICBmdW5jdGlvbiBnZXRCeXRlc1Nsb3QoYnl0ZXMgc3RvcmFnZSBzdG9yZSkgaW50ZXJuYWwgcHVyZSByZXR1cm5zIChCeXRlc1Nsb3Qgc3RvcmFnZSByKSB7CiAgICAgICAgYXNzZW1ibHkgKCJtZW1vcnktc2FmZSIpIHsKICAgICAgICAgICAgci5zbG90IDo9IHN0b3JlLnNsb3QKICAgICAgICB9CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (utils/StorageSlot.sol)
+// This file was procedurally generated from scripts/generate/templates/StorageSlot.js.
+
+pragma solidity ^0.8.20;
+
+/**
+ * @dev Library for reading and writing primitive types to specific storage slots.
+ *
+ * Storage slots are often used to avoid storage conflict when dealing with upgradeable contracts.
+ * This library helps with reading and writing to such slots without the need for inline assembly.
+ *
+ * The functions in this library return Slot structs that contain a `value` member that can be used to read or write.
+ *
+ * Example usage to set ERC-1967 implementation slot:
+ * ```solidity
+ * contract ERC1967 {
+ *     // Define the slot. Alternatively, use the SlotDerivation library to derive the slot.
+ *     bytes32 internal constant _IMPLEMENTATION_SLOT = 0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc;
+ *
+ *     function _getImplementation() internal view returns (address) {
+ *         return StorageSlot.getAddressSlot(_IMPLEMENTATION_SLOT).value;
+ *     }
+ *
+ *     function _setImplementation(address newImplementation) internal {
+ *         require(newImplementation.code.length > 0);
+ *         StorageSlot.getAddressSlot(_IMPLEMENTATION_SLOT).value = newImplementation;
+ *     }
+ * }
+ * ```
+ *
+ * TIP: Consider using this library along with {SlotDerivation}.
+ */
+library StorageSlot {
+    struct AddressSlot {
+        address value;
+    }
+
+    struct BooleanSlot {
+        bool value;
+    }
+
+    struct Bytes32Slot {
+        bytes32 value;
+    }
+
+    struct Uint256Slot {
+        uint256 value;
+    }
+
+    struct Int256Slot {
+        int256 value;
+    }
+
+    struct StringSlot {
+        string value;
+    }
+
+    struct BytesSlot {
+        bytes value;
+    }
+
+    /**
+     * @dev Returns an `AddressSlot` with member `value` located at `slot`.
+     */
+    function getAddressSlot(bytes32 slot) internal pure returns (AddressSlot storage r) {
+        assembly ("memory-safe") {
+            r.slot := slot
+        }
+    }
+
+    /**
+     * @dev Returns a `BooleanSlot` with member `value` located at `slot`.
+     */
+    function getBooleanSlot(bytes32 slot) internal pure returns (BooleanSlot storage r) {
+        assembly ("memory-safe") {
+            r.slot := slot
+        }
+    }
+
+    /**
+     * @dev Returns a `Bytes32Slot` with member `value` located at `slot`.
+     */
+    function getBytes32Slot(bytes32 slot) internal pure returns (Bytes32Slot storage r) {
+        assembly ("memory-safe") {
+            r.slot := slot
+        }
+    }
+
+    /**
+     * @dev Returns a `Uint256Slot` with member `value` located at `slot`.
+     */
+    function getUint256Slot(bytes32 slot) internal pure returns (Uint256Slot storage r) {
+        assembly ("memory-safe") {
+            r.slot := slot
+        }
+    }
+
+    /**
+     * @dev Returns a `Int256Slot` with member `value` located at `slot`.
+     */
+    function getInt256Slot(bytes32 slot) internal pure returns (Int256Slot storage r) {
+        assembly ("memory-safe") {
+            r.slot := slot
+        }
+    }
+
+    /**
+     * @dev Returns a `StringSlot` with member `value` located at `slot`.
+     */
+    function getStringSlot(bytes32 slot) internal pure returns (StringSlot storage r) {
+        assembly ("memory-safe") {
+            r.slot := slot
+        }
+    }
+
+    /**
+     * @dev Returns an `StringSlot` representation of the string storage pointer `store`.
+     */
+    function getStringSlot(string storage store) internal pure returns (StringSlot storage r) {
+        assembly ("memory-safe") {
+            r.slot := store.slot
+        }
+    }
+
+    /**
+     * @dev Returns a `BytesSlot` with member `value` located at `slot`.
+     */
+    function getBytesSlot(bytes32 slot) internal pure returns (BytesSlot storage r) {
+        assembly ("memory-safe") {
+            r.slot := slot
+        }
+    }
+
+    /**
+     * @dev Returns an `BytesSlot` representation of the bytes storage pointer `store`.
+     */
+    function getBytesSlot(bytes storage store) internal pure returns (BytesSlot storage r) {
+        assembly ("memory-safe") {
+            r.slot := store.slot
+        }
+    }
+}
