@@ -1,1 +1,14 @@
-LS0tCm5hbWU6IEZlYXR1cmUgcmVxdWVzdAphYm91dDogU3VnZ2VzdCBhbiBpZGVhIGZvciBPcGVuWmVwcGVsaW4gQ29udHJhY3RzCgotLS0KCioq8J+nkCBNb3RpdmF0aW9uKioKPCEtLSBJcyB5b3VyIGZlYXR1cmUgcmVxdWVzdCByZWxhdGVkIHRvIGEgc3BlY2lmaWMgcHJvYmxlbT8gSXMgaXQganVzdCBhIGNyYXp5IGlkZWE/IFRlbGwgdXMgYWJvdXQgaXQhIC0tPgoKKirwn5OdIERldGFpbHMqKgo8IS0tIFBsZWFzZSBkZXNjcmliZSB5b3VyIGZlYXR1cmUgcmVxdWVzdCBpbiBkZXRhaWwuIC0tPgoKPCEtLSBNYWtlIHN1cmUgdGhhdCB5b3UgaGF2ZSByZXZpZXdlZCB0aGUgT3BlblplcHBlbGluIENvbnRyYWN0cyBDb250cmlidXRvciBHdWlkZWxpbmVzLiAtLT4KPCEtLSBodHRwczovL2dpdGh1Yi5jb20vT3BlblplcHBlbGluL29wZW56ZXBwZWxpbi1jb250cmFjdHMvYmxvYi9tYXN0ZXIvQ09OVFJJQlVUSU5HLm1kIC0tPgo=
+---
+name: Feature request
+about: Suggest an idea for OpenZeppelin Contracts
+
+---
+
+**🧐 Motivation**
+<!-- Is your feature request related to a specific problem? Is it just a crazy idea? Tell us about it! -->
+
+**📝 Details**
+<!-- Please describe your feature request in detail. -->
+
+<!-- Make sure that you have reviewed the OpenZeppelin Contracts Contributor Guidelines. -->
+<!-- https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/CONTRIBUTING.md -->
