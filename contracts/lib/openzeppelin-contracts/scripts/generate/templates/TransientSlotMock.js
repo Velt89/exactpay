@@ -1,1 +1,35 @@
-Y29uc3QgZm9ybWF0ID0gcmVxdWlyZSgnLi4vZm9ybWF0LWxpbmVzJyk7CmNvbnN0IHsgVFlQRVMgfSA9IHJlcXVpcmUoJy4vU2xvdC5vcHRzJyk7Cgpjb25zdCBoZWFkZXIgPSBgXApwcmFnbWEgc29saWRpdHkgXjAuOC4yNDsKCmltcG9ydCB7TXVsdGljYWxsfSBmcm9tICIuLi91dGlscy9NdWx0aWNhbGwuc29sIjsKaW1wb3J0IHtUcmFuc2llbnRTbG90fSBmcm9tICIuLi91dGlscy9UcmFuc2llbnRTbG90LnNvbCI7CmA7Cgpjb25zdCB0cmFuc2llbnQgPSAoeyB0eXBlLCBuYW1lIH0pID0+IGBcCmV2ZW50ICR7bmFtZX1WYWx1ZShieXRlczMyIHNsb3QsICR7dHlwZX0gdmFsdWUpOwoKZnVuY3Rpb24gdGxvYWQke25hbWV9KGJ5dGVzMzIgc2xvdCkgcHVibGljIHsKICAgIGVtaXQgJHtuYW1lfVZhbHVlKHNsb3QsIHNsb3QuYXMke25hbWV9KCkudGxvYWQoKSk7Cn0KCmZ1bmN0aW9uIHRzdG9yZShieXRlczMyIHNsb3QsICR7dHlwZX0gdmFsdWUpIHB1YmxpYyB7CiAgICBzbG90LmFzJHtuYW1lfSgpLnRzdG9yZSh2YWx1ZSk7Cn0KYDsKCi8vIEdFTkVSQVRFCm1vZHVsZS5leHBvcnRzID0gZm9ybWF0KAogIGhlYWRlciwKICAnY29udHJhY3QgVHJhbnNpZW50U2xvdE1vY2sgaXMgTXVsdGljYWxsIHsnLAogIGZvcm1hdCgKICAgIFtdLmNvbmNhdCgKICAgICAgJ3VzaW5nIFRyYW5zaWVudFNsb3QgZm9yICo7JywKICAgICAgJycsCiAgICAgIFRZUEVTLmZpbHRlcih0eXBlID0+IHR5cGUuaXNWYWx1ZVR5cGUpLm1hcCh0eXBlID0+IHRyYW5zaWVudCh0eXBlKSksCiAgICApLAogICkudHJpbUVuZCgpLAogICd9JywKKTsK
+const format = require('../format-lines');
+const { TYPES } = require('./Slot.opts');
+
+const header = `\
+pragma solidity ^0.8.24;
+
+import {Multicall} from "../utils/Multicall.sol";
+import {TransientSlot} from "../utils/TransientSlot.sol";
+`;
+
+const transient = ({ type, name }) => `\
+event ${name}Value(bytes32 slot, ${type} value);
+
+function tload${name}(bytes32 slot) public {
+    emit ${name}Value(slot, slot.as${name}().tload());
+}
+
+function tstore(bytes32 slot, ${type} value) public {
+    slot.as${name}().tstore(value);
+}
+`;
+
+// GENERATE
+module.exports = format(
+  header,
+  'contract TransientSlotMock is Multicall {',
+  format(
+    [].concat(
+      'using TransientSlot for *;',
+      '',
+      TYPES.filter(type => type.isValueType).map(type => transient(type)),
+    ),
+  ).trimEnd(),
+  '}',
+);
