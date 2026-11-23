@@ -1,1 +1,47 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0lFUkM3MjFSZWNlaXZlcn0gZnJvbSAiLi4vLi4vdG9rZW4vRVJDNzIxL0lFUkM3MjFSZWNlaXZlci5zb2wiOwoKY29udHJhY3QgRVJDNzIxUmVjZWl2ZXJNb2NrIGlzIElFUkM3MjFSZWNlaXZlciB7CiAgICBlbnVtIFJldmVydFR5cGUgewogICAgICAgIE5vbmUsCiAgICAgICAgUmV2ZXJ0V2l0aG91dE1lc3NhZ2UsCiAgICAgICAgUmV2ZXJ0V2l0aE1lc3NhZ2UsCiAgICAgICAgUmV2ZXJ0V2l0aEN1c3RvbUVycm9yLAogICAgICAgIFBhbmljCiAgICB9CgogICAgYnl0ZXM0IHByaXZhdGUgaW1tdXRhYmxlIF9yZXR2YWw7CiAgICBSZXZlcnRUeXBlIHByaXZhdGUgaW1tdXRhYmxlIF9lcnJvcjsKCiAgICBldmVudCBSZWNlaXZlZChhZGRyZXNzIG9wZXJhdG9yLCBhZGRyZXNzIGZyb20sIHVpbnQyNTYgdG9rZW5JZCwgYnl0ZXMgZGF0YSwgdWludDI1NiBnYXMpOwogICAgZXJyb3IgQ3VzdG9tRXJyb3IoYnl0ZXM0KTsKCiAgICBjb25zdHJ1Y3RvcihieXRlczQgcmV0dmFsLCBSZXZlcnRUeXBlIGVycm9yKSB7CiAgICAgICAgX3JldHZhbCA9IHJldHZhbDsKICAgICAgICBfZXJyb3IgPSBlcnJvcjsKICAgIH0KCiAgICBmdW5jdGlvbiBvbkVSQzcyMVJlY2VpdmVkKAogICAgICAgIGFkZHJlc3Mgb3BlcmF0b3IsCiAgICAgICAgYWRkcmVzcyBmcm9tLAogICAgICAgIHVpbnQyNTYgdG9rZW5JZCwKICAgICAgICBieXRlcyBtZW1vcnkgZGF0YQogICAgKSBwdWJsaWMgcmV0dXJucyAoYnl0ZXM0KSB7CiAgICAgICAgaWYgKF9lcnJvciA9PSBSZXZlcnRUeXBlLlJldmVydFdpdGhvdXRNZXNzYWdlKSB7CiAgICAgICAgICAgIHJldmVydCgpOwogICAgICAgIH0gZWxzZSBpZiAoX2Vycm9yID09IFJldmVydFR5cGUuUmV2ZXJ0V2l0aE1lc3NhZ2UpIHsKICAgICAgICAgICAgcmV2ZXJ0KCJFUkM3MjFSZWNlaXZlck1vY2s6IHJldmVydGluZyIpOwogICAgICAgIH0gZWxzZSBpZiAoX2Vycm9yID09IFJldmVydFR5cGUuUmV2ZXJ0V2l0aEN1c3RvbUVycm9yKSB7CiAgICAgICAgICAgIHJldmVydCBDdXN0b21FcnJvcihfcmV0dmFsKTsKICAgICAgICB9IGVsc2UgaWYgKF9lcnJvciA9PSBSZXZlcnRUeXBlLlBhbmljKSB7CiAgICAgICAgICAgIHVpbnQyNTYgYSA9IHVpbnQyNTYoMCkgLyB1aW50MjU2KDApOwogICAgICAgICAgICBhOwogICAgICAgIH0KCiAgICAgICAgZW1pdCBSZWNlaXZlZChvcGVyYXRvciwgZnJvbSwgdG9rZW5JZCwgZGF0YSwgZ2FzbGVmdCgpKTsKICAgICAgICByZXR1cm4gX3JldHZhbDsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {IERC721Receiver} from "../../token/ERC721/IERC721Receiver.sol";
+
+contract ERC721ReceiverMock is IERC721Receiver {
+    enum RevertType {
+        None,
+        RevertWithoutMessage,
+        RevertWithMessage,
+        RevertWithCustomError,
+        Panic
+    }
+
+    bytes4 private immutable _retval;
+    RevertType private immutable _error;
+
+    event Received(address operator, address from, uint256 tokenId, bytes data, uint256 gas);
+    error CustomError(bytes4);
+
+    constructor(bytes4 retval, RevertType error) {
+        _retval = retval;
+        _error = error;
+    }
+
+    function onERC721Received(
+        address operator,
+        address from,
+        uint256 tokenId,
+        bytes memory data
+    ) public returns (bytes4) {
+        if (_error == RevertType.RevertWithoutMessage) {
+            revert();
+        } else if (_error == RevertType.RevertWithMessage) {
+            revert("ERC721ReceiverMock: reverting");
+        } else if (_error == RevertType.RevertWithCustomError) {
+            revert CustomError(_retval);
+        } else if (_error == RevertType.Panic) {
+            uint256 a = uint256(0) / uint256(0);
+            a;
+        }
+
+        emit Received(operator, from, tokenId, data, gasleft());
+        return _retval;
+    }
+}
