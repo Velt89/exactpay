@@ -1,1 +1,151 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKCmNvbnN0IHppcCA9IChhcnJheTEsIGFycmF5MikgPT4gYXJyYXkxLm1hcCgoaXRlbSwgaW5kZXgpID0+IFtpdGVtLCBhcnJheTJbaW5kZXhdXSk7CgpmdW5jdGlvbiBzaG91bGRCZWhhdmVMaWtlTWFwKCkgewogIGFzeW5jIGZ1bmN0aW9uIGV4cGVjdE1lbWJlcnNNYXRjaChtZXRob2RzLCBrZXlzLCB2YWx1ZXMpIHsKICAgIGV4cGVjdChrZXlzLmxlbmd0aCkudG8uZXF1YWwodmFsdWVzLmxlbmd0aCk7CiAgICBleHBlY3QoYXdhaXQgbWV0aG9kcy5sZW5ndGgoKSkudG8uZXF1YWwoa2V5cy5sZW5ndGgpOwogICAgZXhwZWN0KFsuLi4oYXdhaXQgbWV0aG9kcy5rZXlzKCkpXSkudG8uaGF2ZS5tZW1iZXJzKGtleXMpOwoKICAgIGZvciAoY29uc3QgW2tleSwgdmFsdWVdIG9mIHppcChrZXlzLCB2YWx1ZXMpKSB7CiAgICAgIGV4cGVjdChhd2FpdCBtZXRob2RzLmNvbnRhaW5zKGtleSkpLnRvLmJlLnRydWU7CiAgICAgIGV4cGVjdChhd2FpdCBtZXRob2RzLmdldChrZXkpKS50by5lcXVhbCh2YWx1ZSk7CiAgICB9CgogICAgZXhwZWN0KGF3YWl0IFByb21pc2UuYWxsKGtleXMubWFwKChfLCBpbmRleCkgPT4gbWV0aG9kcy5hdChpbmRleCkpKSkudG8uaGF2ZS5kZWVwLm1lbWJlcnMoemlwKGtleXMsIHZhbHVlcykpOwogIH0KCiAgaXQoJ3N0YXJ0cyBlbXB0eScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgIGV4cGVjdChhd2FpdCB0aGlzLm1ldGhvZHMuY29udGFpbnModGhpcy5rZXlBKSkudG8uYmUuZmFsc2U7CgogICAgYXdhaXQgZXhwZWN0TWVtYmVyc01hdGNoKHRoaXMubWV0aG9kcywgW10sIFtdKTsKICB9KTsKCiAgZGVzY3JpYmUoJ3NldCcsIGZ1bmN0aW9uICgpIHsKICAgIGl0KCdhZGRzIGEga2V5JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCBleHBlY3QodGhpcy5tZXRob2RzLnNldCh0aGlzLmtleUEsIHRoaXMudmFsdWVBKSkudG8uZW1pdCh0aGlzLm1vY2ssIHRoaXMuZXZlbnRzLnNldFJldHVybikud2l0aEFyZ3ModHJ1ZSk7CgogICAgICBhd2FpdCBleHBlY3RNZW1iZXJzTWF0Y2godGhpcy5tZXRob2RzLCBbdGhpcy5rZXlBXSwgW3RoaXMudmFsdWVBXSk7CiAgICB9KTsKCiAgICBpdCgnYWRkcyBzZXZlcmFsIGtleXMnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IHRoaXMubWV0aG9kcy5zZXQodGhpcy5rZXlBLCB0aGlzLnZhbHVlQSk7CiAgICAgIGF3YWl0IHRoaXMubWV0aG9kcy5zZXQodGhpcy5rZXlCLCB0aGlzLnZhbHVlQik7CgogICAgICBhd2FpdCBleHBlY3RNZW1iZXJzTWF0Y2godGhpcy5tZXRob2RzLCBbdGhpcy5rZXlBLCB0aGlzLmtleUJdLCBbdGhpcy52YWx1ZUEsIHRoaXMudmFsdWVCXSk7CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1ldGhvZHMuY29udGFpbnModGhpcy5rZXlDKSkudG8uYmUuZmFsc2U7CiAgICB9KTsKCiAgICBpdCgncmV0dXJucyBmYWxzZSB3aGVuIGFkZGluZyBrZXlzIGFscmVhZHkgaW4gdGhlIHNldCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgdGhpcy5tZXRob2RzLnNldCh0aGlzLmtleUEsIHRoaXMudmFsdWVBKTsKCiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1ldGhvZHMuc2V0KHRoaXMua2V5QSwgdGhpcy52YWx1ZUEpKS50by5lbWl0KHRoaXMubW9jaywgdGhpcy5ldmVudHMuc2V0UmV0dXJuKS53aXRoQXJncyhmYWxzZSk7CgogICAgICBhd2FpdCBleHBlY3RNZW1iZXJzTWF0Y2godGhpcy5tZXRob2RzLCBbdGhpcy5rZXlBXSwgW3RoaXMudmFsdWVBXSk7CiAgICB9KTsKCiAgICBpdCgndXBkYXRlcyB2YWx1ZXMgZm9yIGtleXMgYWxyZWFkeSBpbiB0aGUgc2V0JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCB0aGlzLm1ldGhvZHMuc2V0KHRoaXMua2V5QSwgdGhpcy52YWx1ZUEpOwogICAgICBhd2FpdCB0aGlzLm1ldGhvZHMuc2V0KHRoaXMua2V5QSwgdGhpcy52YWx1ZUIpOwoKICAgICAgYXdhaXQgZXhwZWN0TWVtYmVyc01hdGNoKHRoaXMubWV0aG9kcywgW3RoaXMua2V5QV0sIFt0aGlzLnZhbHVlQl0pOwogICAgfSk7CiAgfSk7CgogIGRlc2NyaWJlKCdyZW1vdmUnLCBmdW5jdGlvbiAoKSB7CiAgICBpdCgncmVtb3ZlcyBhZGRlZCBrZXlzJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCB0aGlzLm1ldGhvZHMuc2V0KHRoaXMua2V5QSwgdGhpcy52YWx1ZUEpOwoKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMubWV0aG9kcy5yZW1vdmUodGhpcy5rZXlBKSkudG8uZW1pdCh0aGlzLm1vY2ssIHRoaXMuZXZlbnRzLnJlbW92ZVJldHVybikud2l0aEFyZ3ModHJ1ZSk7CgogICAgICBleHBlY3QoYXdhaXQgdGhpcy5tZXRob2RzLmNvbnRhaW5zKHRoaXMua2V5QSkpLnRvLmJlLmZhbHNlOwogICAgICBhd2FpdCBleHBlY3RNZW1iZXJzTWF0Y2godGhpcy5tZXRob2RzLCBbXSwgW10pOwogICAgfSk7CgogICAgaXQoJ3JldHVybnMgZmFsc2Ugd2hlbiByZW1vdmluZyBrZXlzIG5vdCBpbiB0aGUgc2V0JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCBleHBlY3QoYXdhaXQgdGhpcy5tZXRob2RzLnJlbW92ZSh0aGlzLmtleUEpKQogICAgICAgIC50by5lbWl0KHRoaXMubW9jaywgdGhpcy5ldmVudHMucmVtb3ZlUmV0dXJuKQogICAgICAgIC53aXRoQXJncyhmYWxzZSk7CgogICAgICBleHBlY3QoYXdhaXQgdGhpcy5tZXRob2RzLmNvbnRhaW5zKHRoaXMua2V5QSkpLnRvLmJlLmZhbHNlOwogICAgfSk7CgogICAgaXQoJ2FkZHMgYW5kIHJlbW92ZXMgbXVsdGlwbGUga2V5cycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgLy8gW10KCiAgICAgIGF3YWl0IHRoaXMubWV0aG9kcy5zZXQodGhpcy5rZXlBLCB0aGlzLnZhbHVlQSk7CiAgICAgIGF3YWl0IHRoaXMubWV0aG9kcy5zZXQodGhpcy5rZXlDLCB0aGlzLnZhbHVlQyk7CgogICAgICAvLyBbQSwgQ10KCiAgICAgIGF3YWl0IHRoaXMubWV0aG9kcy5yZW1vdmUodGhpcy5rZXlBKTsKICAgICAgYXdhaXQgdGhpcy5tZXRob2RzLnJlbW92ZSh0aGlzLmtleUIpOwoKICAgICAgLy8gW0NdCgogICAgICBhd2FpdCB0aGlzLm1ldGhvZHMuc2V0KHRoaXMua2V5QiwgdGhpcy52YWx1ZUIpOwoKICAgICAgLy8gW0MsIEJdCgogICAgICBhd2FpdCB0aGlzLm1ldGhvZHMuc2V0KHRoaXMua2V5QSwgdGhpcy52YWx1ZUEpOwogICAgICBhd2FpdCB0aGlzLm1ldGhvZHMucmVtb3ZlKHRoaXMua2V5Qyk7CgogICAgICAvLyBbQSwgQl0KCiAgICAgIGF3YWl0IHRoaXMubWV0aG9kcy5zZXQodGhpcy5rZXlBLCB0aGlzLnZhbHVlQSk7CiAgICAgIGF3YWl0IHRoaXMubWV0aG9kcy5zZXQodGhpcy5rZXlCLCB0aGlzLnZhbHVlQik7CgogICAgICAvLyBbQSwgQl0KCiAgICAgIGF3YWl0IHRoaXMubWV0aG9kcy5zZXQodGhpcy5rZXlDLCB0aGlzLnZhbHVlQyk7CiAgICAgIGF3YWl0IHRoaXMubWV0aG9kcy5yZW1vdmUodGhpcy5rZXlBKTsKCiAgICAgIC8vIFtCLCBDXQoKICAgICAgYXdhaXQgdGhpcy5tZXRob2RzLnNldCh0aGlzLmtleUEsIHRoaXMudmFsdWVBKTsKICAgICAgYXdhaXQgdGhpcy5tZXRob2RzLnJlbW92ZSh0aGlzLmtleUIpOwoKICAgICAgLy8gW0EsIENdCgogICAgICBhd2FpdCBleHBlY3RNZW1iZXJzTWF0Y2godGhpcy5tZXRob2RzLCBbdGhpcy5rZXlBLCB0aGlzLmtleUNdLCBbdGhpcy52YWx1ZUEsIHRoaXMudmFsdWVDXSk7CgogICAgICBleHBlY3QoYXdhaXQgdGhpcy5tZXRob2RzLmNvbnRhaW5zKHRoaXMua2V5QSkpLnRvLmJlLnRydWU7CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1ldGhvZHMuY29udGFpbnModGhpcy5rZXlCKSkudG8uYmUuZmFsc2U7CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1ldGhvZHMuY29udGFpbnModGhpcy5rZXlDKSkudG8uYmUudHJ1ZTsKICAgIH0pOwogIH0pOwoKICBkZXNjcmliZSgncmVhZCcsIGZ1bmN0aW9uICgpIHsKICAgIGJlZm9yZUVhY2goYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCB0aGlzLm1ldGhvZHMuc2V0KHRoaXMua2V5QSwgdGhpcy52YWx1ZUEpOwogICAgfSk7CgogICAgZGVzY3JpYmUoJ2dldCcsIGZ1bmN0aW9uICgpIHsKICAgICAgaXQoJ2V4aXN0aW5nIHZhbHVlJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1ldGhvZHMuZ2V0KHRoaXMua2V5QSkpLnRvLmVxdWFsKHRoaXMudmFsdWVBKTsKICAgICAgfSk7CgogICAgICBpdCgnbWlzc2luZyB2YWx1ZScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBhd2FpdCBleHBlY3QodGhpcy5tZXRob2RzLmdldCh0aGlzLmtleUIpKQogICAgICAgICAgLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMubW9jaywgJ0VudW1lcmFibGVNYXBOb25leGlzdGVudEtleScpCiAgICAgICAgICAud2l0aEFyZ3MoZXRoZXJzLkFiaUNvZGVyLmRlZmF1bHRBYmlDb2RlcigpLmVuY29kZShbdGhpcy5rZXlUeXBlXSwgW3RoaXMua2V5Ql0pKTsKICAgICAgfSk7CiAgICB9KTsKCiAgICBkZXNjcmliZSgndHJ5R2V0JywgZnVuY3Rpb24gKCkgewogICAgICBpdCgnZXhpc3RpbmcgdmFsdWUnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubWV0aG9kcy50cnlHZXQodGhpcy5rZXlBKSkudG8uaGF2ZS5vcmRlcmVkLm1lbWJlcnMoW3RydWUsIHRoaXMudmFsdWVBXSk7CiAgICAgIH0pOwoKICAgICAgaXQoJ21pc3NpbmcgdmFsdWUnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubWV0aG9kcy50cnlHZXQodGhpcy5rZXlCKSkudG8uaGF2ZS5vcmRlcmVkLm1lbWJlcnMoW2ZhbHNlLCB0aGlzLnplcm9WYWx1ZV0pOwogICAgICB9KTsKICAgIH0pOwogIH0pOwp9Cgptb2R1bGUuZXhwb3J0cyA9IHsKICBzaG91bGRCZWhhdmVMaWtlTWFwLAp9Owo=
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+
+const zip = (array1, array2) => array1.map((item, index) => [item, array2[index]]);
+
+function shouldBehaveLikeMap() {
+  async function expectMembersMatch(methods, keys, values) {
+    expect(keys.length).to.equal(values.length);
+    expect(await methods.length()).to.equal(keys.length);
+    expect([...(await methods.keys())]).to.have.members(keys);
+
+    for (const [key, value] of zip(keys, values)) {
+      expect(await methods.contains(key)).to.be.true;
+      expect(await methods.get(key)).to.equal(value);
+    }
+
+    expect(await Promise.all(keys.map((_, index) => methods.at(index)))).to.have.deep.members(zip(keys, values));
+  }
+
+  it('starts empty', async function () {
+    expect(await this.methods.contains(this.keyA)).to.be.false;
+
+    await expectMembersMatch(this.methods, [], []);
+  });
+
+  describe('set', function () {
+    it('adds a key', async function () {
+      await expect(this.methods.set(this.keyA, this.valueA)).to.emit(this.mock, this.events.setReturn).withArgs(true);
+
+      await expectMembersMatch(this.methods, [this.keyA], [this.valueA]);
+    });
+
+    it('adds several keys', async function () {
+      await this.methods.set(this.keyA, this.valueA);
+      await this.methods.set(this.keyB, this.valueB);
+
+      await expectMembersMatch(this.methods, [this.keyA, this.keyB], [this.valueA, this.valueB]);
+      expect(await this.methods.contains(this.keyC)).to.be.false;
+    });
+
+    it('returns false when adding keys already in the set', async function () {
+      await this.methods.set(this.keyA, this.valueA);
+
+      await expect(this.methods.set(this.keyA, this.valueA)).to.emit(this.mock, this.events.setReturn).withArgs(false);
+
+      await expectMembersMatch(this.methods, [this.keyA], [this.valueA]);
+    });
+
+    it('updates values for keys already in the set', async function () {
+      await this.methods.set(this.keyA, this.valueA);
+      await this.methods.set(this.keyA, this.valueB);
+
+      await expectMembersMatch(this.methods, [this.keyA], [this.valueB]);
+    });
+  });
+
+  describe('remove', function () {
+    it('removes added keys', async function () {
+      await this.methods.set(this.keyA, this.valueA);
+
+      await expect(this.methods.remove(this.keyA)).to.emit(this.mock, this.events.removeReturn).withArgs(true);
+
+      expect(await this.methods.contains(this.keyA)).to.be.false;
+      await expectMembersMatch(this.methods, [], []);
+    });
+
+    it('returns false when removing keys not in the set', async function () {
+      await expect(await this.methods.remove(this.keyA))
+        .to.emit(this.mock, this.events.removeReturn)
+        .withArgs(false);
+
+      expect(await this.methods.contains(this.keyA)).to.be.false;
+    });
+
+    it('adds and removes multiple keys', async function () {
+      // []
+
+      await this.methods.set(this.keyA, this.valueA);
+      await this.methods.set(this.keyC, this.valueC);
+
+      // [A, C]
+
+      await this.methods.remove(this.keyA);
+      await this.methods.remove(this.keyB);
+
+      // [C]
+
+      await this.methods.set(this.keyB, this.valueB);
+
+      // [C, B]
+
+      await this.methods.set(this.keyA, this.valueA);
+      await this.methods.remove(this.keyC);
+
+      // [A, B]
+
+      await this.methods.set(this.keyA, this.valueA);
+      await this.methods.set(this.keyB, this.valueB);
+
+      // [A, B]
+
+      await this.methods.set(this.keyC, this.valueC);
+      await this.methods.remove(this.keyA);
+
+      // [B, C]
+
+      await this.methods.set(this.keyA, this.valueA);
+      await this.methods.remove(this.keyB);
+
+      // [A, C]
+
+      await expectMembersMatch(this.methods, [this.keyA, this.keyC], [this.valueA, this.valueC]);
+
+      expect(await this.methods.contains(this.keyA)).to.be.true;
+      expect(await this.methods.contains(this.keyB)).to.be.false;
+      expect(await this.methods.contains(this.keyC)).to.be.true;
+    });
+  });
+
+  describe('read', function () {
+    beforeEach(async function () {
+      await this.methods.set(this.keyA, this.valueA);
+    });
+
+    describe('get', function () {
+      it('existing value', async function () {
+        expect(await this.methods.get(this.keyA)).to.equal(this.valueA);
+      });
+
+      it('missing value', async function () {
+        await expect(this.methods.get(this.keyB))
+          .to.be.revertedWithCustomError(this.mock, 'EnumerableMapNonexistentKey')
+          .withArgs(ethers.AbiCoder.defaultAbiCoder().encode([this.keyType], [this.keyB]));
+      });
+    });
+
+    describe('tryGet', function () {
+      it('existing value', async function () {
+        expect(await this.methods.tryGet(this.keyA)).to.have.ordered.members([true, this.valueA]);
+      });
+
+      it('missing value', async function () {
+        expect(await this.methods.tryGet(this.keyB)).to.have.ordered.members([false, this.zeroValue]);
+      });
+    });
+  });
+}
+
+module.exports = {
+  shouldBehaveLikeMap,
+};
