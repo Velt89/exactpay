@@ -1,1 +1,69 @@
-PSBFUkMtNzIxCgpbLnJlYWRtZS1ub3RpY2VdCk5PVEU6IFRoaXMgZG9jdW1lbnQgaXMgYmV0dGVyIHZpZXdlZCBhdCBodHRwczovL2RvY3Mub3BlbnplcHBlbGluLmNvbS9jb250cmFjdHMvYXBpL3Rva2VuL2VyYzcyMQoKVGhpcyBzZXQgb2YgaW50ZXJmYWNlcywgY29udHJhY3RzLCBhbmQgdXRpbGl0aWVzIGFyZSBhbGwgcmVsYXRlZCB0byB0aGUgaHR0cHM6Ly9laXBzLmV0aGVyZXVtLm9yZy9FSVBTL2VpcC03MjFbRVJDLTcyMSBOb24tRnVuZ2libGUgVG9rZW4gU3RhbmRhcmRdLgoKVElQOiBGb3IgYSB3YWxrIHRocm91Z2ggb24gaG93IHRvIGNyZWF0ZSBhbiBFUkMtNzIxIHRva2VuIHJlYWQgb3VyIHhyZWY6Uk9PVDplcmM3MjEuYWRvY1tFUkMtNzIxIGd1aWRlXS4KClRoZSBFUkMgc3BlY2lmaWVzIGZvdXIgaW50ZXJmYWNlczoKCioge0lFUkM3MjF9OiBDb3JlIGZ1bmN0aW9uYWxpdHkgcmVxdWlyZWQgaW4gYWxsIGNvbXBsaWFudCBpbXBsZW1lbnRhdGlvbi4KKiB7SUVSQzcyMU1ldGFkYXRhfTogT3B0aW9uYWwgZXh0ZW5zaW9uIHRoYXQgYWRkcyBuYW1lLCBzeW1ib2wsIGFuZCB0b2tlbiBVUkksIGFsbW9zdCBhbHdheXMgaW5jbHVkZWQuCioge0lFUkM3MjFFbnVtZXJhYmxlfTogT3B0aW9uYWwgZXh0ZW5zaW9uIHRoYXQgYWxsb3dzIGVudW1lcmF0aW5nIHRoZSB0b2tlbnMgb24gY2hhaW4sIG9mdGVuIG5vdCBpbmNsdWRlZCBzaW5jZSBpdCByZXF1aXJlcyBsYXJnZSBnYXMgb3ZlcmhlYWQuCioge0lFUkM3MjFSZWNlaXZlcn06IEFuIGludGVyZmFjZSB0aGF0IG11c3QgYmUgaW1wbGVtZW50ZWQgYnkgY29udHJhY3RzIGlmIHRoZXkgd2FudCB0byBhY2NlcHQgdG9rZW5zIHRocm91Z2ggYHNhZmVUcmFuc2ZlckZyb21gLgoKT3BlblplcHBlbGluIENvbnRyYWN0cyBwcm92aWRlcyBpbXBsZW1lbnRhdGlvbnMgb2YgYWxsIGZvdXIgaW50ZXJmYWNlczoKCioge0VSQzcyMX06IFRoZSBjb3JlIGFuZCBtZXRhZGF0YSBleHRlbnNpb25zLCB3aXRoIGEgYmFzZSBVUkkgbWVjaGFuaXNtLgoqIHtFUkM3MjFFbnVtZXJhYmxlfTogVGhlIGVudW1lcmFibGUgZXh0ZW5zaW9uLgoqIHtFUkM3MjFIb2xkZXJ9OiBBIGJhcmUgYm9uZXMgaW1wbGVtZW50YXRpb24gb2YgdGhlIHJlY2VpdmVyIGludGVyZmFjZS4KCkFkZGl0aW9uYWxseSB0aGVyZSBhcmUgYSBmZXcgb2Ygb3RoZXIgZXh0ZW5zaW9uczoKCioge0VSQzcyMUNvbnNlY3V0aXZlfTogQW4gaW1wbGVtZW50YXRpb24gb2YgaHR0cHM6Ly9laXBzLmV0aGVyZXVtLm9yZy9FSVBTL2VpcC0yMzA5W0VSQy0yMzA5XSBmb3IgbWludGluZyBiYXRjaHMgb2YgdG9rZW5zIGR1cmluZyBjb25zdHJ1Y3Rpb24sIGluIGFjY29yZGFuY2Ugd2l0aCBFUkMtNzIxLgoqIHtFUkM3MjFVUklTdG9yYWdlfTogQSBtb3JlIGZsZXhpYmxlIGJ1dCBtb3JlIGV4cGVuc2l2ZSB3YXkgb2Ygc3RvcmluZyBtZXRhZGF0YS4KKiB7RVJDNzIxVm90ZXN9OiBTdXBwb3J0IGZvciB2b3RpbmcgYW5kIHZvdGUgZGVsZWdhdGlvbi4KKiB7RVJDNzIxUm95YWx0eX06IEEgd2F5IHRvIHNpZ25hbCByb3lhbHR5IGluZm9ybWF0aW9uIGZvbGxvd2luZyBFUkMtMjk4MS4KKiB7RVJDNzIxUGF1c2FibGV9OiBBIHByaW1pdGl2ZSB0byBwYXVzZSBjb250cmFjdCBvcGVyYXRpb24uCioge0VSQzcyMUJ1cm5hYmxlfTogQSB3YXkgZm9yIHRva2VuIGhvbGRlcnMgdG8gYnVybiB0aGVpciBvd24gdG9rZW5zLgoqIHtFUkM3MjFXcmFwcGVyfTogV3JhcHBlciB0byBjcmVhdGUgYW4gRVJDLTcyMSBiYWNrZWQgYnkgYW5vdGhlciBFUkMtNzIxLCB3aXRoIGRlcG9zaXQgYW5kIHdpdGhkcmF3IG1ldGhvZHMuIFVzZWZ1bCBpbiBjb25qdW5jdGlvbiB3aXRoIHtFUkM3MjFWb3Rlc30uCgpOT1RFOiBUaGlzIGNvcmUgc2V0IG9mIGNvbnRyYWN0cyBpcyBkZXNpZ25lZCB0byBiZSB1bm9waW5pb25hdGVkLCBhbGxvd2luZyBkZXZlbG9wZXJzIHRvIGFjY2VzcyB0aGUgaW50ZXJuYWwgZnVuY3Rpb25zIGluIEVSQy03MjEgKHN1Y2ggYXMgPDxFUkM3MjEtX21pbnQtYWRkcmVzcy11aW50MjU2LSxgX21pbnRgPj4pIGFuZCBleHBvc2UgdGhlbSBhcyBleHRlcm5hbCBmdW5jdGlvbnMgaW4gdGhlIHdheSB0aGV5IHByZWZlci4KCj09IENvcmUKCnt7SUVSQzcyMX19Cgp7e0lFUkM3MjFNZXRhZGF0YX19Cgp7e0lFUkM3MjFFbnVtZXJhYmxlfX0KCnt7RVJDNzIxfX0KCnt7RVJDNzIxRW51bWVyYWJsZX19Cgp7e0lFUkM3MjFSZWNlaXZlcn19Cgo9PSBFeHRlbnNpb25zCgp7e0VSQzcyMVBhdXNhYmxlfX0KCnt7RVJDNzIxQnVybmFibGV9fQoKe3tFUkM3MjFDb25zZWN1dGl2ZX19Cgp7e0VSQzcyMVVSSVN0b3JhZ2V9fQoKe3tFUkM3MjFWb3Rlc319Cgp7e0VSQzcyMVJveWFsdHl9fQoKe3tFUkM3MjFXcmFwcGVyfX0KCj09IFV0aWxpdGllcwoKe3tFUkM3MjFIb2xkZXJ9fQoKe3tFUkM3MjFVdGlsc319Cg==
+= ERC-721
+
+[.readme-notice]
+NOTE: This document is better viewed at https://docs.openzeppelin.com/contracts/api/token/erc721
+
+This set of interfaces, contracts, and utilities are all related to the https://eips.ethereum.org/EIPS/eip-721[ERC-721 Non-Fungible Token Standard].
+
+TIP: For a walk through on how to create an ERC-721 token read our xref:ROOT:erc721.adoc[ERC-721 guide].
+
+The ERC specifies four interfaces:
+
+* {IERC721}: Core functionality required in all compliant implementation.
+* {IERC721Metadata}: Optional extension that adds name, symbol, and token URI, almost always included.
+* {IERC721Enumerable}: Optional extension that allows enumerating the tokens on chain, often not included since it requires large gas overhead.
+* {IERC721Receiver}: An interface that must be implemented by contracts if they want to accept tokens through `safeTransferFrom`.
+
+OpenZeppelin Contracts provides implementations of all four interfaces:
+
+* {ERC721}: The core and metadata extensions, with a base URI mechanism.
+* {ERC721Enumerable}: The enumerable extension.
+* {ERC721Holder}: A bare bones implementation of the receiver interface.
+
+Additionally there are a few of other extensions:
+
+* {ERC721Consecutive}: An implementation of https://eips.ethereum.org/EIPS/eip-2309[ERC-2309] for minting batchs of tokens during construction, in accordance with ERC-721.
+* {ERC721URIStorage}: A more flexible but more expensive way of storing metadata.
+* {ERC721Votes}: Support for voting and vote delegation.
+* {ERC721Royalty}: A way to signal royalty information following ERC-2981.
+* {ERC721Pausable}: A primitive to pause contract operation.
+* {ERC721Burnable}: A way for token holders to burn their own tokens.
+* {ERC721Wrapper}: Wrapper to create an ERC-721 backed by another ERC-721, with deposit and withdraw methods. Useful in conjunction with {ERC721Votes}.
+
+NOTE: This core set of contracts is designed to be unopinionated, allowing developers to access the internal functions in ERC-721 (such as <<ERC721-_mint-address-uint256-,`_mint`>>) and expose them as external functions in the way they prefer.
+
+== Core
+
+{{IERC721}}
+
+{{IERC721Metadata}}
+
+{{IERC721Enumerable}}
+
+{{ERC721}}
+
+{{ERC721Enumerable}}
+
+{{IERC721Receiver}}
+
+== Extensions
+
+{{ERC721Pausable}}
+
+{{ERC721Burnable}}
+
+{{ERC721Consecutive}}
+
+{{ERC721URIStorage}}
+
+{{ERC721Votes}}
+
+{{ERC721Royalty}}
+
+{{ERC721Wrapper}}
+
+== Utilities
+
+{{ERC721Holder}}
+
+{{ERC721Utils}}
