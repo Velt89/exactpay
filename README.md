@@ -8,7 +8,8 @@ Built for the [Aevum Builder Challenge #1](https://dorahacks.io/hackathon/qday) 
   - `InvoicePay` — [0xc6C7aa266eE2Bad2f1d12D09Ebef706bAf934702](https://explorer-test.qday.info/address/0xc6C7aa266eE2Bad2f1d12D09Ebef706bAf934702)
   - `PayeeDirectory` — [0x5c17A736dB5DE648d5E2901038FCDd75Ba5121f2](https://explorer-test.qday.info/address/0x5c17A736dB5DE648d5E2901038FCDd75Ba5121f2)
   - Deployed at block 3,802,447.
-- **Demo video:** [Watch on YouTube](https://www.youtube.com/watch?v=7TG1ZM22onQ) (1:18, unlisted) — a narrated walkthrough of the live app and the on-chain payments below.
+- **Live app:** [exactpay-velt89.vercel.app](https://exactpay-velt89.vercel.app) — the deployed web app on Vercel (Aevum testnet; gasless relay enabled).
+- **Demo video:** [Watch on YouTube](https://www.youtube.com/watch?v=7TG1ZM22onQ) (1:18) — a narrated walkthrough of the live app and the on-chain payments below.
 
 ---
 
