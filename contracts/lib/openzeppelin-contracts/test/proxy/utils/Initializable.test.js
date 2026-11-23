@@ -1,1 +1,216 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBNQVhfVUlOVDY0IH0gPSByZXF1aXJlKCcuLi8uLi9oZWxwZXJzL2NvbnN0YW50cycpOwoKZGVzY3JpYmUoJ0luaXRpYWxpemFibGUnLCBmdW5jdGlvbiAoKSB7CiAgZGVzY3JpYmUoJ2Jhc2ljIHRlc3Rpbmcgd2l0aG91dCBpbmhlcml0YW5jZScsIGZ1bmN0aW9uICgpIHsKICAgIGJlZm9yZUVhY2goJ2RlcGxveWluZycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgdGhpcy5tb2NrID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCdJbml0aWFsaXphYmxlTW9jaycpOwogICAgfSk7CgogICAgZGVzY3JpYmUoJ2JlZm9yZSBpbml0aWFsaXplJywgZnVuY3Rpb24gKCkgewogICAgICBpdCgnaW5pdGlhbGl6ZXIgaGFzIG5vdCBydW4nLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay5pbml0aWFsaXplclJhbigpKS50by5iZS5mYWxzZTsKICAgICAgfSk7CgogICAgICBpdCgnX2luaXRpYWxpemluZyByZXR1cm5zIGZhbHNlIGJlZm9yZSBpbml0aWFsaXphdGlvbicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLmlzSW5pdGlhbGl6aW5nKCkpLnRvLmJlLmZhbHNlOwogICAgICB9KTsKICAgIH0pOwoKICAgIGRlc2NyaWJlKCdhZnRlciBpbml0aWFsaXplJywgZnVuY3Rpb24gKCkgewogICAgICBiZWZvcmVFYWNoKCdpbml0aWFsaXppbmcnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgYXdhaXQgdGhpcy5tb2NrLmluaXRpYWxpemUoKTsKICAgICAgfSk7CgogICAgICBpdCgnaW5pdGlhbGl6ZXIgaGFzIHJ1bicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLmluaXRpYWxpemVyUmFuKCkpLnRvLmJlLnRydWU7CiAgICAgIH0pOwoKICAgICAgaXQoJ19pbml0aWFsaXppbmcgcmV0dXJucyBmYWxzZSBhZnRlciBpbml0aWFsaXphdGlvbicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLmlzSW5pdGlhbGl6aW5nKCkpLnRvLmJlLmZhbHNlOwogICAgICB9KTsKCiAgICAgIGl0KCdpbml0aWFsaXplciBkb2VzIG5vdCBydW4gYWdhaW4nLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMubW9jay5pbml0aWFsaXplKCkpLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMubW9jaywgJ0ludmFsaWRJbml0aWFsaXphdGlvbicpOwogICAgICB9KTsKICAgIH0pOwoKICAgIGRlc2NyaWJlKCduZXN0ZWQgdW5kZXIgYW4gaW5pdGlhbGl6ZXInLCBmdW5jdGlvbiAoKSB7CiAgICAgIGl0KCdpbml0aWFsaXplciBtb2RpZmllciByZXZlcnRzJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1vY2suaW5pdGlhbGl6ZXJOZXN0ZWQoKSkudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy5tb2NrLCAnSW52YWxpZEluaXRpYWxpemF0aW9uJyk7CiAgICAgIH0pOwoKICAgICAgaXQoJ29ubHlJbml0aWFsaXppbmcgbW9kaWZpZXIgc3VjY2VlZHMnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgYXdhaXQgdGhpcy5tb2NrLm9ubHlJbml0aWFsaXppbmdOZXN0ZWQoKTsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLm9ubHlJbml0aWFsaXppbmdSYW4oKSkudG8uYmUudHJ1ZTsKICAgICAgfSk7CiAgICB9KTsKCiAgICBpdCgnY2Fubm90IGNhbGwgb25seUluaXRpYWxpemFibGUgZnVuY3Rpb24gb3V0c2lkZSB0aGUgc2NvcGUgb2YgYW4gaW5pdGlhbGl6YWJsZSBmdW5jdGlvbicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMubW9jay5pbml0aWFsaXplT25seUluaXRpYWxpemluZygpKS50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLm1vY2ssICdOb3RJbml0aWFsaXppbmcnKTsKICAgIH0pOwogIH0pOwoKICBpdCgnbmVzdGVkIGluaXRpYWxpemVyIGNhbiBydW4gZHVyaW5nIGNvbnN0cnVjdGlvbicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgIGNvbnN0IG1vY2sgPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJ0NvbnN0cnVjdG9ySW5pdGlhbGl6YWJsZU1vY2snKTsKICAgIGV4cGVjdChhd2FpdCBtb2NrLmluaXRpYWxpemVyUmFuKCkpLnRvLmJlLnRydWU7CiAgICBleHBlY3QoYXdhaXQgbW9jay5vbmx5SW5pdGlhbGl6aW5nUmFuKCkpLnRvLmJlLnRydWU7CiAgfSk7CgogIGl0KCdtdWx0aXBsZSBjb25zdHJ1Y3RvciBsZXZlbHMgY2FuIGJlIGluaXRpYWxpemVycycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgIGNvbnN0IG1vY2sgPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJ0NoaWxkQ29uc3RydWN0b3JJbml0aWFsaXphYmxlTW9jaycpOwogICAgZXhwZWN0KGF3YWl0IG1vY2suaW5pdGlhbGl6ZXJSYW4oKSkudG8uYmUudHJ1ZTsKICAgIGV4cGVjdChhd2FpdCBtb2NrLmNoaWxkSW5pdGlhbGl6ZXJSYW4oKSkudG8uYmUudHJ1ZTsKICAgIGV4cGVjdChhd2FpdCBtb2NrLm9ubHlJbml0aWFsaXppbmdSYW4oKSkudG8uYmUudHJ1ZTsKICB9KTsKCiAgZGVzY3JpYmUoJ3JlaW5pdGlhbGl6YXRpb24nLCBmdW5jdGlvbiAoKSB7CiAgICBiZWZvcmVFYWNoKCdkZXBsb3lpbmcnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIHRoaXMubW9jayA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnUmVpbml0aWFsaXplck1vY2snKTsKICAgIH0pOwoKICAgIGl0KCdjYW4gcmVpbml0aWFsaXplJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLmNvdW50ZXIoKSkudG8uZXF1YWwoMG4pOwogICAgICBhd2FpdCB0aGlzLm1vY2suaW5pdGlhbGl6ZSgpOwogICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLmNvdW50ZXIoKSkudG8uZXF1YWwoMW4pOwogICAgICBhd2FpdCB0aGlzLm1vY2sucmVpbml0aWFsaXplKDIpOwogICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLmNvdW50ZXIoKSkudG8uZXF1YWwoMm4pOwogICAgICBhd2FpdCB0aGlzLm1vY2sucmVpbml0aWFsaXplKDMpOwogICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLmNvdW50ZXIoKSkudG8uZXF1YWwoM24pOwogICAgfSk7CgogICAgaXQoJ2NhbiBqdW1wIG11bHRpcGxlIHN0ZXBzJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLmNvdW50ZXIoKSkudG8uZXF1YWwoMG4pOwogICAgICBhd2FpdCB0aGlzLm1vY2suaW5pdGlhbGl6ZSgpOwogICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLmNvdW50ZXIoKSkudG8uZXF1YWwoMW4pOwogICAgICBhd2FpdCB0aGlzLm1vY2sucmVpbml0aWFsaXplKDEyOCk7CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suY291bnRlcigpKS50by5lcXVhbCgybik7CiAgICB9KTsKCiAgICBpdCgnY2Fubm90IG5lc3QgcmVpbml0aWFsaXplcnMnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suY291bnRlcigpKS50by5lcXVhbCgwbik7CiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1vY2submVzdGVkUmVpbml0aWFsaXplKDIsIDIpKS50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcigKICAgICAgICB0aGlzLm1vY2ssCiAgICAgICAgJ0ludmFsaWRJbml0aWFsaXphdGlvbicsCiAgICAgICk7CiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1vY2submVzdGVkUmVpbml0aWFsaXplKDIsIDMpKS50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcigKICAgICAgICB0aGlzLm1vY2ssCiAgICAgICAgJ0ludmFsaWRJbml0aWFsaXphdGlvbicsCiAgICAgICk7CiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1vY2submVzdGVkUmVpbml0aWFsaXplKDMsIDIpKS50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcigKICAgICAgICB0aGlzLm1vY2ssCiAgICAgICAgJ0ludmFsaWRJbml0aWFsaXphdGlvbicsCiAgICAgICk7CiAgICB9KTsKCiAgICBpdCgnY2FuIGNoYWluIHJlaW5pdGlhbGl6ZXJzJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLmNvdW50ZXIoKSkudG8uZXF1YWwoMG4pOwogICAgICBhd2FpdCB0aGlzLm1vY2suY2hhaW5SZWluaXRpYWxpemUoMiwgMyk7CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suY291bnRlcigpKS50by5lcXVhbCgybik7CiAgICB9KTsKCiAgICBpdCgnX2dldEluaXRpYWxpemVkVmVyc2lvbiByZXR1cm5zIHJpZ2h0IHZlcnNpb24nLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IHRoaXMubW9jay5pbml0aWFsaXplKCk7CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suZ2V0SW5pdGlhbGl6ZWRWZXJzaW9uKCkpLnRvLmVxdWFsKDFuKTsKICAgICAgYXdhaXQgdGhpcy5tb2NrLnJlaW5pdGlhbGl6ZSgxMik7CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suZ2V0SW5pdGlhbGl6ZWRWZXJzaW9uKCkpLnRvLmVxdWFsKDEybik7CiAgICB9KTsKCiAgICBkZXNjcmliZSgnY29udHJhY3QgbG9ja2luZycsIGZ1bmN0aW9uICgpIHsKICAgICAgaXQoJ3ByZXZlbnRzIGluaXRpYWxpemF0aW9uJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGF3YWl0IHRoaXMubW9jay5kaXNhYmxlSW5pdGlhbGl6ZXJzKCk7CiAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMubW9jay5pbml0aWFsaXplKCkpLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMubW9jaywgJ0ludmFsaWRJbml0aWFsaXphdGlvbicpOwogICAgICB9KTsKCiAgICAgIGl0KCdwcmV2ZW50cyByZS1pbml0aWFsaXphdGlvbicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBhd2FpdCB0aGlzLm1vY2suZGlzYWJsZUluaXRpYWxpemVycygpOwogICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1vY2sucmVpbml0aWFsaXplKDI1NW4pKS50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLm1vY2ssICdJbnZhbGlkSW5pdGlhbGl6YXRpb24nKTsKICAgICAgfSk7CgogICAgICBpdCgnY2FuIGxvY2sgY29udHJhY3QgYWZ0ZXIgaW5pdGlhbGl6YXRpb24nLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgYXdhaXQgdGhpcy5tb2NrLmluaXRpYWxpemUoKTsKICAgICAgICBhd2FpdCB0aGlzLm1vY2suZGlzYWJsZUluaXRpYWxpemVycygpOwogICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1vY2sucmVpbml0aWFsaXplKDI1NW4pKS50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLm1vY2ssICdJbnZhbGlkSW5pdGlhbGl6YXRpb24nKTsKICAgICAgfSk7CiAgICB9KTsKICB9KTsKCiAgZGVzY3JpYmUoJ2V2ZW50cycsIGZ1bmN0aW9uICgpIHsKICAgIGl0KCdjb25zdHJ1Y3RvciBpbml0aWFsaXphdGlvbiBlbWl0cyBldmVudCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgY29uc3QgbW9jayA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnQ29uc3RydWN0b3JJbml0aWFsaXphYmxlTW9jaycpOwogICAgICBhd2FpdCBleHBlY3QobW9jay5kZXBsb3ltZW50VHJhbnNhY3Rpb24oKSkudG8uZW1pdChtb2NrLCAnSW5pdGlhbGl6ZWQnKS53aXRoQXJncygxbik7CiAgICB9KTsKCiAgICBpdCgnaW5pdGlhbGl6YXRpb24gZW1pdHMgZXZlbnQnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGNvbnN0IG1vY2sgPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJ1JlaW5pdGlhbGl6ZXJNb2NrJyk7CiAgICAgIGF3YWl0IGV4cGVjdChtb2NrLmluaXRpYWxpemUoKSkudG8uZW1pdChtb2NrLCAnSW5pdGlhbGl6ZWQnKS53aXRoQXJncygxbik7CiAgICB9KTsKCiAgICBpdCgncmVpbml0aWFsaXphdGlvbiBlbWl0cyBldmVudCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgY29uc3QgbW9jayA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnUmVpbml0aWFsaXplck1vY2snKTsKICAgICAgYXdhaXQgZXhwZWN0KG1vY2sucmVpbml0aWFsaXplKDEyOCkpLnRvLmVtaXQobW9jaywgJ0luaXRpYWxpemVkJykud2l0aEFyZ3MoMTI4bik7CiAgICB9KTsKCiAgICBpdCgnY2hhaW5lZCByZWluaXRpYWxpemF0aW9uIGVtaXRzIG11bHRpcGxlIGV2ZW50cycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgY29uc3QgbW9jayA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnUmVpbml0aWFsaXplck1vY2snKTsKCiAgICAgIGF3YWl0IGV4cGVjdChtb2NrLmNoYWluUmVpbml0aWFsaXplKDIsIDMpKQogICAgICAgIC50by5lbWl0KG1vY2ssICdJbml0aWFsaXplZCcpCiAgICAgICAgLndpdGhBcmdzKDJuKQogICAgICAgIC50by5lbWl0KG1vY2ssICdJbml0aWFsaXplZCcpCiAgICAgICAgLndpdGhBcmdzKDNuKTsKICAgIH0pOwogIH0pOwoKICBkZXNjcmliZSgnY29tcGxleCB0ZXN0aW5nIHdpdGggaW5oZXJpdGFuY2UnLCBmdW5jdGlvbiAoKSB7CiAgICBjb25zdCBtb3RoZXIgPSAxMm47CiAgICBjb25zdCBncmFtcHMgPSAnNTYnOwogICAgY29uc3QgZmF0aGVyID0gMzRuOwogICAgY29uc3QgY2hpbGQgPSA3OG47CgogICAgYmVmb3JlRWFjaCgnZGVwbG95aW5nJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICB0aGlzLm1vY2sgPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJ1NhbXBsZUNoaWxkJyk7CiAgICAgIGF3YWl0IHRoaXMubW9jay5pbml0aWFsaXplKG1vdGhlciwgZ3JhbXBzLCBmYXRoZXIsIGNoaWxkKTsKICAgIH0pOwoKICAgIGl0KCdpbml0aWFsaXplcyBodW1hbicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay5pc0h1bWFuKCkpLnRvLmJlLnRydWU7CiAgICB9KTsKCiAgICBpdCgnaW5pdGlhbGl6ZXMgbW90aGVyJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLm1vdGhlcigpKS50by5lcXVhbChtb3RoZXIpOwogICAgfSk7CgogICAgaXQoJ2luaXRpYWxpemVzIGdyYW1wcycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay5ncmFtcHMoKSkudG8uZXF1YWwoZ3JhbXBzKTsKICAgIH0pOwoKICAgIGl0KCdpbml0aWFsaXplcyBmYXRoZXInLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suZmF0aGVyKCkpLnRvLmVxdWFsKGZhdGhlcik7CiAgICB9KTsKCiAgICBpdCgnaW5pdGlhbGl6ZXMgY2hpbGQnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suY2hpbGQoKSkudG8uZXF1YWwoY2hpbGQpOwogICAgfSk7CiAgfSk7CgogIGRlc2NyaWJlKCdkaXNhYmxpbmcgaW5pdGlhbGl6YXRpb24nLCBmdW5jdGlvbiAoKSB7CiAgICBpdCgnb2xkIGFuZCBuZXcgcGF0dGVybnMgaW4gYmFkIHNlcXVlbmNlJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCBEaXNhYmxlQmFkMSA9IGF3YWl0IGV0aGVycy5nZXRDb250cmFjdEZhY3RvcnkoJ0Rpc2FibGVCYWQxJyk7CiAgICAgIGF3YWl0IGV4cGVjdChEaXNhYmxlQmFkMS5kZXBsb3koKSkudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IoRGlzYWJsZUJhZDEsICdJbnZhbGlkSW5pdGlhbGl6YXRpb24nKTsKCiAgICAgIGNvbnN0IERpc2FibGVCYWQyID0gYXdhaXQgZXRoZXJzLmdldENvbnRyYWN0RmFjdG9yeSgnRGlzYWJsZUJhZDInKTsKICAgICAgYXdhaXQgZXhwZWN0KERpc2FibGVCYWQyLmRlcGxveSgpKS50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcihEaXNhYmxlQmFkMiwgJ0ludmFsaWRJbml0aWFsaXphdGlvbicpOwogICAgfSk7CgogICAgaXQoJ29sZCBhbmQgbmV3IHBhdHRlcm5zIGluIGdvb2Qgc2VxdWVuY2UnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGNvbnN0IG9rID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCdEaXNhYmxlT2snKTsKICAgICAgYXdhaXQgZXhwZWN0KG9rLmRlcGxveW1lbnRUcmFuc2FjdGlvbigpKQogICAgICAgIC50by5lbWl0KG9rLCAnSW5pdGlhbGl6ZWQnKQogICAgICAgIC53aXRoQXJncygxbikKICAgICAgICAudG8uZW1pdChvaywgJ0luaXRpYWxpemVkJykKICAgICAgICAud2l0aEFyZ3MoTUFYX1VJTlQ2NCk7CiAgICB9KTsKICB9KTsKfSk7Cg==
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { MAX_UINT64 } = require('../../helpers/constants');
+
+describe('Initializable', function () {
+  describe('basic testing without inheritance', function () {
+    beforeEach('deploying', async function () {
+      this.mock = await ethers.deployContract('InitializableMock');
+    });
+
+    describe('before initialize', function () {
+      it('initializer has not run', async function () {
+        expect(await this.mock.initializerRan()).to.be.false;
+      });
+
+      it('_initializing returns false before initialization', async function () {
+        expect(await this.mock.isInitializing()).to.be.false;
+      });
+    });
+
+    describe('after initialize', function () {
+      beforeEach('initializing', async function () {
+        await this.mock.initialize();
+      });
+
+      it('initializer has run', async function () {
+        expect(await this.mock.initializerRan()).to.be.true;
+      });
+
+      it('_initializing returns false after initialization', async function () {
+        expect(await this.mock.isInitializing()).to.be.false;
+      });
+
+      it('initializer does not run again', async function () {
+        await expect(this.mock.initialize()).to.be.revertedWithCustomError(this.mock, 'InvalidInitialization');
+      });
+    });
+
+    describe('nested under an initializer', function () {
+      it('initializer modifier reverts', async function () {
+        await expect(this.mock.initializerNested()).to.be.revertedWithCustomError(this.mock, 'InvalidInitialization');
+      });
+
+      it('onlyInitializing modifier succeeds', async function () {
+        await this.mock.onlyInitializingNested();
+        expect(await this.mock.onlyInitializingRan()).to.be.true;
+      });
+    });
+
+    it('cannot call onlyInitializable function outside the scope of an initializable function', async function () {
+      await expect(this.mock.initializeOnlyInitializing()).to.be.revertedWithCustomError(this.mock, 'NotInitializing');
+    });
+  });
+
+  it('nested initializer can run during construction', async function () {
+    const mock = await ethers.deployContract('ConstructorInitializableMock');
+    expect(await mock.initializerRan()).to.be.true;
+    expect(await mock.onlyInitializingRan()).to.be.true;
+  });
+
+  it('multiple constructor levels can be initializers', async function () {
+    const mock = await ethers.deployContract('ChildConstructorInitializableMock');
+    expect(await mock.initializerRan()).to.be.true;
+    expect(await mock.childInitializerRan()).to.be.true;
+    expect(await mock.onlyInitializingRan()).to.be.true;
+  });
+
+  describe('reinitialization', function () {
+    beforeEach('deploying', async function () {
+      this.mock = await ethers.deployContract('ReinitializerMock');
+    });
+
+    it('can reinitialize', async function () {
+      expect(await this.mock.counter()).to.equal(0n);
+      await this.mock.initialize();
+      expect(await this.mock.counter()).to.equal(1n);
+      await this.mock.reinitialize(2);
+      expect(await this.mock.counter()).to.equal(2n);
+      await this.mock.reinitialize(3);
+      expect(await this.mock.counter()).to.equal(3n);
+    });
+
+    it('can jump multiple steps', async function () {
+      expect(await this.mock.counter()).to.equal(0n);
+      await this.mock.initialize();
+      expect(await this.mock.counter()).to.equal(1n);
+      await this.mock.reinitialize(128);
+      expect(await this.mock.counter()).to.equal(2n);
+    });
+
+    it('cannot nest reinitializers', async function () {
+      expect(await this.mock.counter()).to.equal(0n);
+      await expect(this.mock.nestedReinitialize(2, 2)).to.be.revertedWithCustomError(
+        this.mock,
+        'InvalidInitialization',
+      );
+      await expect(this.mock.nestedReinitialize(2, 3)).to.be.revertedWithCustomError(
+        this.mock,
+        'InvalidInitialization',
+      );
+      await expect(this.mock.nestedReinitialize(3, 2)).to.be.revertedWithCustomError(
+        this.mock,
+        'InvalidInitialization',
+      );
+    });
+
+    it('can chain reinitializers', async function () {
+      expect(await this.mock.counter()).to.equal(0n);
+      await this.mock.chainReinitialize(2, 3);
+      expect(await this.mock.counter()).to.equal(2n);
+    });
+
+    it('_getInitializedVersion returns right version', async function () {
+      await this.mock.initialize();
+      expect(await this.mock.getInitializedVersion()).to.equal(1n);
+      await this.mock.reinitialize(12);
+      expect(await this.mock.getInitializedVersion()).to.equal(12n);
+    });
+
+    describe('contract locking', function () {
+      it('prevents initialization', async function () {
+        await this.mock.disableInitializers();
+        await expect(this.mock.initialize()).to.be.revertedWithCustomError(this.mock, 'InvalidInitialization');
+      });
+
+      it('prevents re-initialization', async function () {
+        await this.mock.disableInitializers();
+        await expect(this.mock.reinitialize(255n)).to.be.revertedWithCustomError(this.mock, 'InvalidInitialization');
+      });
+
+      it('can lock contract after initialization', async function () {
+        await this.mock.initialize();
+        await this.mock.disableInitializers();
+        await expect(this.mock.reinitialize(255n)).to.be.revertedWithCustomError(this.mock, 'InvalidInitialization');
+      });
+    });
+  });
+
+  describe('events', function () {
+    it('constructor initialization emits event', async function () {
+      const mock = await ethers.deployContract('ConstructorInitializableMock');
+      await expect(mock.deploymentTransaction()).to.emit(mock, 'Initialized').withArgs(1n);
+    });
+
+    it('initialization emits event', async function () {
+      const mock = await ethers.deployContract('ReinitializerMock');
+      await expect(mock.initialize()).to.emit(mock, 'Initialized').withArgs(1n);
+    });
+
+    it('reinitialization emits event', async function () {
+      const mock = await ethers.deployContract('ReinitializerMock');
+      await expect(mock.reinitialize(128)).to.emit(mock, 'Initialized').withArgs(128n);
+    });
+
+    it('chained reinitialization emits multiple events', async function () {
+      const mock = await ethers.deployContract('ReinitializerMock');
+
+      await expect(mock.chainReinitialize(2, 3))
+        .to.emit(mock, 'Initialized')
+        .withArgs(2n)
+        .to.emit(mock, 'Initialized')
+        .withArgs(3n);
+    });
+  });
+
+  describe('complex testing with inheritance', function () {
+    const mother = 12n;
+    const gramps = '56';
+    const father = 34n;
+    const child = 78n;
+
+    beforeEach('deploying', async function () {
+      this.mock = await ethers.deployContract('SampleChild');
+      await this.mock.initialize(mother, gramps, father, child);
+    });
+
+    it('initializes human', async function () {
+      expect(await this.mock.isHuman()).to.be.true;
+    });
+
+    it('initializes mother', async function () {
+      expect(await this.mock.mother()).to.equal(mother);
+    });
+
+    it('initializes gramps', async function () {
+      expect(await this.mock.gramps()).to.equal(gramps);
+    });
+
+    it('initializes father', async function () {
+      expect(await this.mock.father()).to.equal(father);
+    });
+
+    it('initializes child', async function () {
+      expect(await this.mock.child()).to.equal(child);
+    });
+  });
+
+  describe('disabling initialization', function () {
+    it('old and new patterns in bad sequence', async function () {
+      const DisableBad1 = await ethers.getContractFactory('DisableBad1');
+      await expect(DisableBad1.deploy()).to.be.revertedWithCustomError(DisableBad1, 'InvalidInitialization');
+
+      const DisableBad2 = await ethers.getContractFactory('DisableBad2');
+      await expect(DisableBad2.deploy()).to.be.revertedWithCustomError(DisableBad2, 'InvalidInitialization');
+    });
+
+    it('old and new patterns in good sequence', async function () {
+      const ok = await ethers.deployContract('DisableOk');
+      await expect(ok.deploymentTransaction())
+        .to.emit(ok, 'Initialized')
+        .withArgs(1n)
+        .to.emit(ok, 'Initialized')
+        .withArgs(MAX_UINT64);
+    });
+  });
+});
