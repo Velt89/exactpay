@@ -1,1 +1,18 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgPj0wLjguMCA8MC45LjA7CgppbXBvcnQge1Rlc3R9IGZyb20gIi4uL3NyYy9UZXN0LnNvbCI7CmltcG9ydCB7Vm0sIFZtU2FmZX0gZnJvbSAiLi4vc3JjL1ZtLnNvbCI7CgovLyBUaGVzZSB0ZXN0cyBlbnN1cmUgdGhhdCBmdW5jdGlvbnMgYXJlIG5ldmVyIGFjY2lkZW50YWxseSByZW1vdmVkIGZyb20gYSBWbSBpbnRlcmZhY2UsIG9yCi8vIGluYWR2ZXJ0ZW50bHkgbW92ZWQgYmV0d2VlbiBWbSBhbmQgVm1TYWZlLiBUaGVzZSB0ZXN0cyBtdXN0IGJlIHVwZGF0ZWQgZWFjaCB0aW1lIGEgZnVuY3Rpb24gaXMKLy8gYWRkZWQgdG8gb3IgcmVtb3ZlZCBmcm9tIFZtIG9yIFZtU2FmZS4KY29udHJhY3QgVm1UZXN0IGlzIFRlc3QgewogICAgZnVuY3Rpb24gdGVzdF9WbUludGVyZmFjZUlkKCkgcHVibGljIHB1cmUgewogICAgICAgIGFzc2VydEVxKHR5cGUoVm0pLmludGVyZmFjZUlkLCBieXRlczQoMHhkYjI4ZGQ3YiksICJWbSIpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfVm1TYWZlSW50ZXJmYWNlSWQoKSBwdWJsaWMgcHVyZSB7CiAgICAgICAgYXNzZXJ0RXEodHlwZShWbVNhZmUpLmludGVyZmFjZUlkLCBieXRlczQoMHhiNTcyZjQ0ZiksICJWbVNhZmUiKTsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.8.0 <0.9.0;
+
+import {Test} from "../src/Test.sol";
+import {Vm, VmSafe} from "../src/Vm.sol";
+
+// These tests ensure that functions are never accidentally removed from a Vm interface, or
+// inadvertently moved between Vm and VmSafe. These tests must be updated each time a function is
+// added to or removed from Vm or VmSafe.
+contract VmTest is Test {
+    function test_VmInterfaceId() public pure {
+        assertEq(type(Vm).interfaceId, bytes4(0xdb28dd7b), "Vm");
+    }
+
+    function test_VmSafeInterfaceId() public pure {
+        assertEq(type(VmSafe).interfaceId, bytes4(0xb572f44f), "VmSafe");
+    }
+}
