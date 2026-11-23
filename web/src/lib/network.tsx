@@ -1,1 +1,97 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgY3JlYXRlQ29udGV4dCwgdXNlQ2FsbGJhY2ssIHVzZUNvbnRleHQsIHVzZUVmZmVjdCwgdXNlU3RhdGUsIHR5cGUgUmVhY3ROb2RlIH0gZnJvbSAicmVhY3QiOwppbXBvcnQgeyB1c2VBY2NvdW50LCB1c2VTd2l0Y2hDaGFpbiB9IGZyb20gIndhZ21pIjsKaW1wb3J0IHsgZGVmYXVsdE5ldHdvcmssIG5ldHdvcmtCeUNoYWluSWQsIG5ldHdvcmtCeUtleSwgdHlwZSBOZXR3b3JrLCB0eXBlIE5ldHdvcmtLZXkgfSBmcm9tICIuL2VudiI7CmltcG9ydCB7IGV4cGxhaW4gfSBmcm9tICIuL2Vycm9ycyI7Cgpjb25zdCBTVE9SQUdFX0tFWSA9ICJhZXZ1bS1raXQ6bmV0d29yayI7CgppbnRlcmZhY2UgTmV0d29ya1N0YXRlIHsKICAvKiogVGhlIG5ldHdvcmsgZXZlcnkgcGFnZSByZWFkcyBmcm9tIGFuZCBzZW5kcyB0by4gKi8KICBuZXQ6IE5ldHdvcms7CiAgLyoqIFBpY2sgYSBuZXR3b3JrLiBJZiBhIHdhbGxldCBpcyBjb25uZWN0ZWQsIGl0IGlzIGFza2VkIHRvIHN3aXRjaCBmaXJzdC4gKi8KICBzZWxlY3Q6IChrZXk6IE5ldHdvcmtLZXkpID0+IHZvaWQ7CiAgLyoqIFRoZSBuZXR3b3JrIHdlIGFza2VkIHRoZSB3YWxsZXQgdG8gc3dpdGNoIHRvLCB3aGlsZSBpdCdzIHdhaXRpbmcgZm9yIHRoZSB1c2VyLiAqLwogIHN3aXRjaGluZ1RvOiBOZXR3b3JrIHwgbnVsbDsKICAvKiogV2h5IHRoZSBsYXN0IHN3aXRjaCBmYWlsZWQsIGluIHBsYWluIHdvcmRzLiAqLwogIHN3aXRjaEVycm9yOiBzdHJpbmcgfCBudWxsOwp9Cgpjb25zdCBOZXR3b3JrQ29udGV4dCA9IGNyZWF0ZUNvbnRleHQ8TmV0d29ya1N0YXRlIHwgbnVsbD4obnVsbCk7CgpmdW5jdGlvbiByZW1lbWJlcihrZXk6IE5ldHdvcmtLZXkpIHsKICB0cnkgewogICAgbG9jYWxTdG9yYWdlLnNldEl0ZW0oU1RPUkFHRV9LRVksIGtleSk7CiAgfSBjYXRjaCB7CiAgICAvLyBTdG9yYWdlIGNhbiBiZSBibG9ja2VkIChwcml2YXRlIG1vZGUsIHByZXZpZXdzKS4gTm90IHJlbWVtYmVyaW5nIHRoZSBjaG9pY2UgaXMgZmluZS4KICB9Cn0KCi8qKgogKiBXaGljaCBuZXR3b3JrIHRoZSBhcHAgaXMgb24uCiAqICAtIFdhbGxldCBjb25uZWN0ZWQgYW5kIG9uIGEgY29uZmlndXJlZCBuZXR3b3JrOiB0aGUgYXBwIGZvbGxvd3MgdGhlIHdhbGxldC4KICogIC0gT3RoZXJ3aXNlOiB0aGUgbGFzdCBjaG9pY2UgZnJvbSB0aGUgc3dpdGNoZXIgKG9yIHRoZSBmaXJzdCBuZXR3b3JrIGluIE5FWFRfUFVCTElDX05FVFdPUktTKS4KICogV2l0aCBhIHdhbGxldCBjb25uZWN0ZWQsIHBpY2tpbmcgYSBuZXR3b3JrIGFza3MgdGhlIHdhbGxldCB0byBzd2l0Y2gsIGFuZCB0aGUgYXBwIG9ubHkgbW92ZXMgb25jZQogKiB0aGUgd2FsbGV0IGhhcyBhY3R1YWxseSBzd2l0Y2hlZC4gVGhhdCB3YXkgdGhlIGFwcCBuZXZlciByZWFkcyBvbmUgY2hhaW4gd2hpbGUgdGhlIHdhbGxldCBzaWducyBvbiBhbm90aGVyLgogKi8KZXhwb3J0IGZ1bmN0aW9uIE5ldHdvcmtQcm92aWRlcih7IGNoaWxkcmVuIH06IHsgY2hpbGRyZW46IFJlYWN0Tm9kZSB9KSB7CiAgY29uc3QgeyBjaGFpbklkLCBpc0Nvbm5lY3RlZCB9ID0gdXNlQWNjb3VudCgpOwogIGNvbnN0IHsgc3dpdGNoQ2hhaW5Bc3luYyB9ID0gdXNlU3dpdGNoQ2hhaW4oKTsKICBjb25zdCBba2V5LCBzZXRLZXldID0gdXNlU3RhdGU8TmV0d29ya0tleT4oZGVmYXVsdE5ldHdvcmsua2V5KTsKICBjb25zdCBbc3dpdGNoaW5nVG8sIHNldFN3aXRjaGluZ1RvXSA9IHVzZVN0YXRlPE5ldHdvcmsgfCBudWxsPihudWxsKTsKICBjb25zdCBbc3dpdGNoRXJyb3IsIHNldFN3aXRjaEVycm9yXSA9IHVzZVN0YXRlPHN0cmluZyB8IG51bGw+KG51bGwpOwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgdHJ5IHsKICAgICAgY29uc3Qgc2F2ZWQgPSBuZXR3b3JrQnlLZXkobG9jYWxTdG9yYWdlLmdldEl0ZW0oU1RPUkFHRV9LRVkpKTsKICAgICAgaWYgKHNhdmVkKSBzZXRLZXkoc2F2ZWQua2V5KTsKICAgIH0gY2F0Y2ggewogICAgICAvLyBTZWUgcmVtZW1iZXIoKS4KICAgIH0KICB9LCBbXSk7CgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBjb25zdCB3YWxsZXROZXQgPSBpc0Nvbm5lY3RlZCA/IG5ldHdvcmtCeUNoYWluSWQoY2hhaW5JZCkgOiB1bmRlZmluZWQ7CiAgICBpZiAoIXdhbGxldE5ldCkgcmV0dXJuOwogICAgc2V0S2V5KHdhbGxldE5ldC5rZXkpOwogICAgcmVtZW1iZXIod2FsbGV0TmV0LmtleSk7CiAgICBzZXRTd2l0Y2hpbmdUbyhudWxsKTsKICAgIHNldFN3aXRjaEVycm9yKG51bGwpOwogIH0sIFtjaGFpbklkLCBpc0Nvbm5lY3RlZF0pOwoKICBjb25zdCBzZWxlY3QgPSB1c2VDYWxsYmFjaygKICAgIGFzeW5jIChuZXh0OiBOZXR3b3JrS2V5KSA9PiB7CiAgICAgIGNvbnN0IHRhcmdldCA9IG5ldHdvcmtCeUtleShuZXh0KTsKICAgICAgaWYgKCF0YXJnZXQpIHJldHVybjsKICAgICAgc2V0U3dpdGNoRXJyb3IobnVsbCk7CiAgICAgIGlmICghaXNDb25uZWN0ZWQgfHwgY2hhaW5JZCA9PT0gdGFyZ2V0LmNoYWluLmlkKSB7CiAgICAgICAgc2V0S2V5KHRhcmdldC5rZXkpOwogICAgICAgIHJlbWVtYmVyKHRhcmdldC5rZXkpOwogICAgICAgIHJldHVybjsKICAgICAgfQogICAgICBzZXRTd2l0Y2hpbmdUbyh0YXJnZXQpOwogICAgICB0cnkgewogICAgICAgIC8vIEFkZHMgdGhlIG5ldHdvcmsgdG8gdGhlIHdhbGxldCBmaXJzdCBpZiBpdCBkb2Vzbid0IGtub3cgaXQgeWV0LgogICAgICAgIGF3YWl0IHN3aXRjaENoYWluQXN5bmMoeyBjaGFpbklkOiB0YXJnZXQuY2hhaW4uaWQgfSk7CiAgICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgICBjb25zb2xlLmVycm9yKCJbbmV0d29ya10gc3dpdGNoIGZhaWxlZCIsIHRhcmdldC5jaGFpbi5pZCwgZSk7CiAgICAgICAgc2V0U3dpdGNoRXJyb3IoYENvdWxkbid0IHN3aXRjaCB0byAke3RhcmdldC5sYWJlbH06ICR7ZXhwbGFpbihlKX1gKTsKICAgICAgfSBmaW5hbGx5IHsKICAgICAgICBzZXRTd2l0Y2hpbmdUbyhudWxsKTsKICAgICAgfQogICAgfSwKICAgIFtjaGFpbklkLCBpc0Nvbm5lY3RlZCwgc3dpdGNoQ2hhaW5Bc3luY10sCiAgKTsKCiAgY29uc3QgbmV0ID0gbmV0d29ya0J5S2V5KGtleSkgPz8gZGVmYXVsdE5ldHdvcms7CiAgcmV0dXJuICgKICAgIDxOZXR3b3JrQ29udGV4dC5Qcm92aWRlciB2YWx1ZT17eyBuZXQsIHNlbGVjdDogKGspID0+IHZvaWQgc2VsZWN0KGspLCBzd2l0Y2hpbmdUbywgc3dpdGNoRXJyb3IgfX0+e2NoaWxkcmVufTwvTmV0d29ya0NvbnRleHQuUHJvdmlkZXI+CiAgKTsKfQoKZXhwb3J0IGZ1bmN0aW9uIHVzZU5ldHdvcmsoKTogTmV0d29ya1N0YXRlIHsKICBjb25zdCBjdHggPSB1c2VDb250ZXh0KE5ldHdvcmtDb250ZXh0KTsKICBpZiAoIWN0eCkgdGhyb3cgbmV3IEVycm9yKCJ1c2VOZXR3b3JrIG11c3QgYmUgdXNlZCBpbnNpZGUgPE5ldHdvcmtQcm92aWRlcj4iKTsKICByZXR1cm4gY3R4Owp9Cg==
+"use client";
+
+import { createContext, useCallback, useContext, useEffect, useState, type ReactNode } from "react";
+import { useAccount, useSwitchChain } from "wagmi";
+import { defaultNetwork, networkByChainId, networkByKey, type Network, type NetworkKey } from "./env";
+import { explain } from "./errors";
+
+const STORAGE_KEY = "aevum-kit:network";
+
+interface NetworkState {
+  /** The network every page reads from and sends to. */
+  net: Network;
+  /** Pick a network. If a wallet is connected, it is asked to switch first. */
+  select: (key: NetworkKey) => void;
+  /** The network we asked the wallet to switch to, while it's waiting for the user. */
+  switchingTo: Network | null;
+  /** Why the last switch failed, in plain words. */
+  switchError: string | null;
+}
+
+const NetworkContext = createContext<NetworkState | null>(null);
+
+function remember(key: NetworkKey) {
+  try {
+    localStorage.setItem(STORAGE_KEY, key);
+  } catch {
+    // Storage can be blocked (private mode, previews). Not remembering the choice is fine.
+  }
+}
+
+/**
+ * Which network the app is on.
+ *  - Wallet connected and on a configured network: the app follows the wallet.
+ *  - Otherwise: the last choice from the switcher (or the first network in NEXT_PUBLIC_NETWORKS).
+ * With a wallet connected, picking a network asks the wallet to switch, and the app only moves once
+ * the wallet has actually switched. That way the app never reads one chain while the wallet signs on another.
+ */
+export function NetworkProvider({ children }: { children: ReactNode }) {
+  const { chainId, isConnected } = useAccount();
+  const { switchChainAsync } = useSwitchChain();
+  const [key, setKey] = useState<NetworkKey>(defaultNetwork.key);
+  const [switchingTo, setSwitchingTo] = useState<Network | null>(null);
+  const [switchError, setSwitchError] = useState<string | null>(null);
+
+  useEffect(() => {
+    try {
+      const saved = networkByKey(localStorage.getItem(STORAGE_KEY));
+      if (saved) setKey(saved.key);
+    } catch {
+      // See remember().
+    }
+  }, []);
+
+  useEffect(() => {
+    const walletNet = isConnected ? networkByChainId(chainId) : undefined;
+    if (!walletNet) return;
+    setKey(walletNet.key);
+    remember(walletNet.key);
+    setSwitchingTo(null);
+    setSwitchError(null);
+  }, [chainId, isConnected]);
+
+  const select = useCallback(
+    async (next: NetworkKey) => {
+      const target = networkByKey(next);
+      if (!target) return;
+      setSwitchError(null);
+      if (!isConnected || chainId === target.chain.id) {
+        setKey(target.key);
+        remember(target.key);
+        return;
+      }
+      setSwitchingTo(target);
+      try {
+        // Adds the network to the wallet first if it doesn't know it yet.
+        await switchChainAsync({ chainId: target.chain.id });
+      } catch (e) {
+        console.error("[network] switch failed", target.chain.id, e);
+        setSwitchError(`Couldn't switch to ${target.label}: ${explain(e)}`);
+      } finally {
+        setSwitchingTo(null);
+      }
+    },
+    [chainId, isConnected, switchChainAsync],
+  );
+
+  const net = networkByKey(key) ?? defaultNetwork;
+  return (
+    <NetworkContext.Provider value={{ net, select: (k) => void select(k), switchingTo, switchError }}>{children}</NetworkContext.Provider>
+  );
+}
+
+export function useNetwork(): NetworkState {
+  const ctx = useContext(NetworkContext);
+  if (!ctx) throw new Error("useNetwork must be used inside <NetworkProvider>");
+  return ctx;
+}
