@@ -1,1 +1,147 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAocHJveHkvdXRpbHMvVVVQU1VwZ3JhZGVhYmxlLnNvbCkKCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKaW1wb3J0IHtJRVJDMTgyMlByb3hpYWJsZX0gZnJvbSAiLi4vLi4vaW50ZXJmYWNlcy9kcmFmdC1JRVJDMTgyMi5zb2wiOwppbXBvcnQge0VSQzE5NjdVdGlsc30gZnJvbSAiLi4vRVJDMTk2Ny9FUkMxOTY3VXRpbHMuc29sIjsKCi8qKgogKiBAZGV2IEFuIHVwZ3JhZGVhYmlsaXR5IG1lY2hhbmlzbSBkZXNpZ25lZCBmb3IgVVVQUyBwcm94aWVzLiBUaGUgZnVuY3Rpb25zIGluY2x1ZGVkIGhlcmUgY2FuIHBlcmZvcm0gYW4gdXBncmFkZSBvZiBhbgogKiB7RVJDMTk2N1Byb3h5fSwgd2hlbiB0aGlzIGNvbnRyYWN0IGlzIHNldCBhcyB0aGUgaW1wbGVtZW50YXRpb24gYmVoaW5kIHN1Y2ggYSBwcm94eS4KICoKICogQSBzZWN1cml0eSBtZWNoYW5pc20gZW5zdXJlcyB0aGF0IGFuIHVwZ3JhZGUgZG9lcyBub3QgdHVybiBvZmYgdXBncmFkZWFiaWxpdHkgYWNjaWRlbnRhbGx5LCBhbHRob3VnaCB0aGlzIHJpc2sgaXMKICogcmVpbnN0YXRlZCBpZiB0aGUgdXBncmFkZSByZXRhaW5zIHVwZ3JhZGVhYmlsaXR5IGJ1dCByZW1vdmVzIHRoZSBzZWN1cml0eSBtZWNoYW5pc20sIGUuZy4gYnkgcmVwbGFjaW5nCiAqIGBVVVBTVXBncmFkZWFibGVgIHdpdGggYSBjdXN0b20gaW1wbGVtZW50YXRpb24gb2YgdXBncmFkZXMuCiAqCiAqIFRoZSB7X2F1dGhvcml6ZVVwZ3JhZGV9IGZ1bmN0aW9uIG11c3QgYmUgb3ZlcnJpZGRlbiB0byBpbmNsdWRlIGFjY2VzcyByZXN0cmljdGlvbiB0byB0aGUgdXBncmFkZSBtZWNoYW5pc20uCiAqLwphYnN0cmFjdCBjb250cmFjdCBVVVBTVXBncmFkZWFibGUgaXMgSUVSQzE4MjJQcm94aWFibGUgewogICAgLy8vIEBjdXN0b206b3otdXBncmFkZXMtdW5zYWZlLWFsbG93IHN0YXRlLXZhcmlhYmxlLWltbXV0YWJsZQogICAgYWRkcmVzcyBwcml2YXRlIGltbXV0YWJsZSBfX3NlbGYgPSBhZGRyZXNzKHRoaXMpOwoKICAgIC8qKgogICAgICogQGRldiBUaGUgdmVyc2lvbiBvZiB0aGUgdXBncmFkZSBpbnRlcmZhY2Ugb2YgdGhlIGNvbnRyYWN0LiBJZiB0aGlzIGdldHRlciBpcyBtaXNzaW5nLCBib3RoIGB1cGdyYWRlVG8oYWRkcmVzcylgCiAgICAgKiBhbmQgYHVwZ3JhZGVUb0FuZENhbGwoYWRkcmVzcyxieXRlcylgIGFyZSBwcmVzZW50LCBhbmQgYHVwZ3JhZGVUb2AgbXVzdCBiZSB1c2VkIGlmIG5vIGZ1bmN0aW9uIHNob3VsZCBiZSBjYWxsZWQsCiAgICAgKiB3aGlsZSBgdXBncmFkZVRvQW5kQ2FsbGAgd2lsbCBpbnZva2UgdGhlIGByZWNlaXZlYCBmdW5jdGlvbiBpZiB0aGUgc2Vjb25kIGFyZ3VtZW50IGlzIHRoZSBlbXB0eSBieXRlIHN0cmluZy4KICAgICAqIElmIHRoZSBnZXR0ZXIgcmV0dXJucyBgIjUuMC4wImAsIG9ubHkgYHVwZ3JhZGVUb0FuZENhbGwoYWRkcmVzcyxieXRlcylgIGlzIHByZXNlbnQsIGFuZCB0aGUgc2Vjb25kIGFyZ3VtZW50IG11c3QKICAgICAqIGJlIHRoZSBlbXB0eSBieXRlIHN0cmluZyBpZiBubyBmdW5jdGlvbiBzaG91bGQgYmUgY2FsbGVkLCBtYWtpbmcgaXQgaW1wb3NzaWJsZSB0byBpbnZva2UgdGhlIGByZWNlaXZlYCBmdW5jdGlvbgogICAgICogZHVyaW5nIGFuIHVwZ3JhZGUuCiAgICAgKi8KICAgIHN0cmluZyBwdWJsaWMgY29uc3RhbnQgVVBHUkFERV9JTlRFUkZBQ0VfVkVSU0lPTiA9ICI1LjAuMCI7CgogICAgLyoqCiAgICAgKiBAZGV2IFRoZSBjYWxsIGlzIGZyb20gYW4gdW5hdXRob3JpemVkIGNvbnRleHQuCiAgICAgKi8KICAgIGVycm9yIFVVUFNVbmF1dGhvcml6ZWRDYWxsQ29udGV4dCgpOwoKICAgIC8qKgogICAgICogQGRldiBUaGUgc3RvcmFnZSBgc2xvdGAgaXMgdW5zdXBwb3J0ZWQgYXMgYSBVVUlELgogICAgICovCiAgICBlcnJvciBVVVBTVW5zdXBwb3J0ZWRQcm94aWFibGVVVUlEKGJ5dGVzMzIgc2xvdCk7CgogICAgLyoqCiAgICAgKiBAZGV2IENoZWNrIHRoYXQgdGhlIGV4ZWN1dGlvbiBpcyBiZWluZyBwZXJmb3JtZWQgdGhyb3VnaCBhIGRlbGVnYXRlY2FsbCBjYWxsIGFuZCB0aGF0IHRoZSBleGVjdXRpb24gY29udGV4dCBpcwogICAgICogYSBwcm94eSBjb250cmFjdCB3aXRoIGFuIGltcGxlbWVudGF0aW9uIChhcyBkZWZpbmVkIGluIEVSQy0xOTY3KSBwb2ludGluZyB0byBzZWxmLiBUaGlzIHNob3VsZCBvbmx5IGJlIHRoZSBjYXNlCiAgICAgKiBmb3IgVVVQUyBhbmQgdHJhbnNwYXJlbnQgcHJveGllcyB0aGF0IGFyZSB1c2luZyB0aGUgY3VycmVudCBjb250cmFjdCBhcyB0aGVpciBpbXBsZW1lbnRhdGlvbi4gRXhlY3V0aW9uIG9mIGEKICAgICAqIGZ1bmN0aW9uIHRocm91Z2ggRVJDLTExNjcgbWluaW1hbCBwcm94aWVzIChjbG9uZXMpIHdvdWxkIG5vdCBub3JtYWxseSBwYXNzIHRoaXMgdGVzdCwgYnV0IGlzIG5vdCBndWFyYW50ZWVkIHRvCiAgICAgKiBmYWlsLgogICAgICovCiAgICBtb2RpZmllciBvbmx5UHJveHkoKSB7CiAgICAgICAgX2NoZWNrUHJveHkoKTsKICAgICAgICBfOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBDaGVjayB0aGF0IHRoZSBleGVjdXRpb24gaXMgbm90IGJlaW5nIHBlcmZvcm1lZCB0aHJvdWdoIGEgZGVsZWdhdGUgY2FsbC4gVGhpcyBhbGxvd3MgYSBmdW5jdGlvbiB0byBiZQogICAgICogY2FsbGFibGUgb24gdGhlIGltcGxlbWVudGluZyBjb250cmFjdCBidXQgbm90IHRocm91Z2ggcHJveGllcy4KICAgICAqLwogICAgbW9kaWZpZXIgbm90RGVsZWdhdGVkKCkgewogICAgICAgIF9jaGVja05vdERlbGVnYXRlZCgpOwogICAgICAgIF87CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IEltcGxlbWVudGF0aW9uIG9mIHRoZSBFUkMtMTgyMiB7cHJveGlhYmxlVVVJRH0gZnVuY3Rpb24uIFRoaXMgcmV0dXJucyB0aGUgc3RvcmFnZSBzbG90IHVzZWQgYnkgdGhlCiAgICAgKiBpbXBsZW1lbnRhdGlvbi4gSXQgaXMgdXNlZCB0byB2YWxpZGF0ZSB0aGUgaW1wbGVtZW50YXRpb24ncyBjb21wYXRpYmlsaXR5IHdoZW4gcGVyZm9ybWluZyBhbiB1cGdyYWRlLgogICAgICoKICAgICAqIElNUE9SVEFOVDogQSBwcm94eSBwb2ludGluZyBhdCBhIHByb3hpYWJsZSBjb250cmFjdCBzaG91bGQgbm90IGJlIGNvbnNpZGVyZWQgcHJveGlhYmxlIGl0c2VsZiwgYmVjYXVzZSB0aGlzIHJpc2tzCiAgICAgKiBicmlja2luZyBhIHByb3h5IHRoYXQgdXBncmFkZXMgdG8gaXQsIGJ5IGRlbGVnYXRpbmcgdG8gaXRzZWxmIHVudGlsIG91dCBvZiBnYXMuIFRodXMgaXQgaXMgY3JpdGljYWwgdGhhdCB0aGlzCiAgICAgKiBmdW5jdGlvbiByZXZlcnQgaWYgaW52b2tlZCB0aHJvdWdoIGEgcHJveHkuIFRoaXMgaXMgZ3VhcmFudGVlZCBieSB0aGUgYG5vdERlbGVnYXRlZGAgbW9kaWZpZXIuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHByb3hpYWJsZVVVSUQoKSBleHRlcm5hbCB2aWV3IHZpcnR1YWwgbm90RGVsZWdhdGVkIHJldHVybnMgKGJ5dGVzMzIpIHsKICAgICAgICByZXR1cm4gRVJDMTk2N1V0aWxzLklNUExFTUVOVEFUSU9OX1NMT1Q7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFVwZ3JhZGUgdGhlIGltcGxlbWVudGF0aW9uIG9mIHRoZSBwcm94eSB0byBgbmV3SW1wbGVtZW50YXRpb25gLCBhbmQgc3Vic2VxdWVudGx5IGV4ZWN1dGUgdGhlIGZ1bmN0aW9uIGNhbGwKICAgICAqIGVuY29kZWQgaW4gYGRhdGFgLgogICAgICoKICAgICAqIENhbGxzIHtfYXV0aG9yaXplVXBncmFkZX0uCiAgICAgKgogICAgICogRW1pdHMgYW4ge1VwZ3JhZGVkfSBldmVudC4KICAgICAqCiAgICAgKiBAY3VzdG9tOm96LXVwZ3JhZGVzLXVuc2FmZS1hbGxvdy1yZWFjaGFibGUgZGVsZWdhdGVjYWxsCiAgICAgKi8KICAgIGZ1bmN0aW9uIHVwZ3JhZGVUb0FuZENhbGwoYWRkcmVzcyBuZXdJbXBsZW1lbnRhdGlvbiwgYnl0ZXMgbWVtb3J5IGRhdGEpIHB1YmxpYyBwYXlhYmxlIHZpcnR1YWwgb25seVByb3h5IHsKICAgICAgICBfYXV0aG9yaXplVXBncmFkZShuZXdJbXBsZW1lbnRhdGlvbik7CiAgICAgICAgX3VwZ3JhZGVUb0FuZENhbGxVVVBTKG5ld0ltcGxlbWVudGF0aW9uLCBkYXRhKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUmV2ZXJ0cyBpZiB0aGUgZXhlY3V0aW9uIGlzIG5vdCBwZXJmb3JtZWQgdmlhIGRlbGVnYXRlY2FsbCBvciB0aGUgZXhlY3V0aW9uCiAgICAgKiBjb250ZXh0IGlzIG5vdCBvZiBhIHByb3h5IHdpdGggYW4gRVJDLTE5NjcgY29tcGxpYW50IGltcGxlbWVudGF0aW9uIHBvaW50aW5nIHRvIHNlbGYuCiAgICAgKiBTZWUge19vbmx5UHJveHl9LgogICAgICovCiAgICBmdW5jdGlvbiBfY2hlY2tQcm94eSgpIGludGVybmFsIHZpZXcgdmlydHVhbCB7CiAgICAgICAgaWYgKAogICAgICAgICAgICBhZGRyZXNzKHRoaXMpID09IF9fc2VsZiB8fCAvLyBNdXN0IGJlIGNhbGxlZCB0aHJvdWdoIGRlbGVnYXRlY2FsbAogICAgICAgICAgICBFUkMxOTY3VXRpbHMuZ2V0SW1wbGVtZW50YXRpb24oKSAhPSBfX3NlbGYgLy8gTXVzdCBiZSBjYWxsZWQgdGhyb3VnaCBhbiBhY3RpdmUgcHJveHkKICAgICAgICApIHsKICAgICAgICAgICAgcmV2ZXJ0IFVVUFNVbmF1dGhvcml6ZWRDYWxsQ29udGV4dCgpOwogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUmV2ZXJ0cyBpZiB0aGUgZXhlY3V0aW9uIGlzIHBlcmZvcm1lZCB2aWEgZGVsZWdhdGVjYWxsLgogICAgICogU2VlIHtub3REZWxlZ2F0ZWR9LgogICAgICovCiAgICBmdW5jdGlvbiBfY2hlY2tOb3REZWxlZ2F0ZWQoKSBpbnRlcm5hbCB2aWV3IHZpcnR1YWwgewogICAgICAgIGlmIChhZGRyZXNzKHRoaXMpICE9IF9fc2VsZikgewogICAgICAgICAgICAvLyBNdXN0IG5vdCBiZSBjYWxsZWQgdGhyb3VnaCBkZWxlZ2F0ZWNhbGwKICAgICAgICAgICAgcmV2ZXJ0IFVVUFNVbmF1dGhvcml6ZWRDYWxsQ29udGV4dCgpOwogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgRnVuY3Rpb24gdGhhdCBzaG91bGQgcmV2ZXJ0IHdoZW4gYG1zZy5zZW5kZXJgIGlzIG5vdCBhdXRob3JpemVkIHRvIHVwZ3JhZGUgdGhlIGNvbnRyYWN0LiBDYWxsZWQgYnkKICAgICAqIHt1cGdyYWRlVG9BbmRDYWxsfS4KICAgICAqCiAgICAgKiBOb3JtYWxseSwgdGhpcyBmdW5jdGlvbiB3aWxsIHVzZSBhbiB4cmVmOmFjY2Vzcy5hZG9jW2FjY2VzcyBjb250cm9sXSBtb2RpZmllciBzdWNoIGFzIHtPd25hYmxlLW9ubHlPd25lcn0uCiAgICAgKgogICAgICogYGBgc29saWRpdHkKICAgICAqIGZ1bmN0aW9uIF9hdXRob3JpemVVcGdyYWRlKGFkZHJlc3MpIGludGVybmFsIG9ubHlPd25lciB7fQogICAgICogYGBgCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9hdXRob3JpemVVcGdyYWRlKGFkZHJlc3MgbmV3SW1wbGVtZW50YXRpb24pIGludGVybmFsIHZpcnR1YWw7CgogICAgLyoqCiAgICAgKiBAZGV2IFBlcmZvcm1zIGFuIGltcGxlbWVudGF0aW9uIHVwZ3JhZGUgd2l0aCBhIHNlY3VyaXR5IGNoZWNrIGZvciBVVVBTIHByb3hpZXMsIGFuZCBhZGRpdGlvbmFsIHNldHVwIGNhbGwuCiAgICAgKgogICAgICogQXMgYSBzZWN1cml0eSBjaGVjaywge3Byb3hpYWJsZVVVSUR9IGlzIGludm9rZWQgaW4gdGhlIG5ldyBpbXBsZW1lbnRhdGlvbiwgYW5kIHRoZSByZXR1cm4gdmFsdWUKICAgICAqIGlzIGV4cGVjdGVkIHRvIGJlIHRoZSBpbXBsZW1lbnRhdGlvbiBzbG90IGluIEVSQy0xOTY3LgogICAgICoKICAgICAqIEVtaXRzIGFuIHtJRVJDMTk2Ny1VcGdyYWRlZH0gZXZlbnQuCiAgICAgKi8KICAgIGZ1bmN0aW9uIF91cGdyYWRlVG9BbmRDYWxsVVVQUyhhZGRyZXNzIG5ld0ltcGxlbWVudGF0aW9uLCBieXRlcyBtZW1vcnkgZGF0YSkgcHJpdmF0ZSB7CiAgICAgICAgdHJ5IElFUkMxODIyUHJveGlhYmxlKG5ld0ltcGxlbWVudGF0aW9uKS5wcm94aWFibGVVVUlEKCkgcmV0dXJucyAoYnl0ZXMzMiBzbG90KSB7CiAgICAgICAgICAgIGlmIChzbG90ICE9IEVSQzE5NjdVdGlscy5JTVBMRU1FTlRBVElPTl9TTE9UKSB7CiAgICAgICAgICAgICAgICByZXZlcnQgVVVQU1Vuc3VwcG9ydGVkUHJveGlhYmxlVVVJRChzbG90KTsKICAgICAgICAgICAgfQogICAgICAgICAgICBFUkMxOTY3VXRpbHMudXBncmFkZVRvQW5kQ2FsbChuZXdJbXBsZW1lbnRhdGlvbiwgZGF0YSk7CiAgICAgICAgfSBjYXRjaCB7CiAgICAgICAgICAgIC8vIFRoZSBpbXBsZW1lbnRhdGlvbiBpcyBub3QgVVVQUwogICAgICAgICAgICByZXZlcnQgRVJDMTk2N1V0aWxzLkVSQzE5NjdJbnZhbGlkSW1wbGVtZW50YXRpb24obmV3SW1wbGVtZW50YXRpb24pOwogICAgICAgIH0KICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (proxy/utils/UUPSUpgradeable.sol)
+
+pragma solidity ^0.8.20;
+
+import {IERC1822Proxiable} from "../../interfaces/draft-IERC1822.sol";
+import {ERC1967Utils} from "../ERC1967/ERC1967Utils.sol";
+
+/**
+ * @dev An upgradeability mechanism designed for UUPS proxies. The functions included here can perform an upgrade of an
+ * {ERC1967Proxy}, when this contract is set as the implementation behind such a proxy.
+ *
+ * A security mechanism ensures that an upgrade does not turn off upgradeability accidentally, although this risk is
+ * reinstated if the upgrade retains upgradeability but removes the security mechanism, e.g. by replacing
+ * `UUPSUpgradeable` with a custom implementation of upgrades.
+ *
+ * The {_authorizeUpgrade} function must be overridden to include access restriction to the upgrade mechanism.
+ */
+abstract contract UUPSUpgradeable is IERC1822Proxiable {
+    /// @custom:oz-upgrades-unsafe-allow state-variable-immutable
+    address private immutable __self = address(this);
+
+    /**
+     * @dev The version of the upgrade interface of the contract. If this getter is missing, both `upgradeTo(address)`
+     * and `upgradeToAndCall(address,bytes)` are present, and `upgradeTo` must be used if no function should be called,
+     * while `upgradeToAndCall` will invoke the `receive` function if the second argument is the empty byte string.
+     * If the getter returns `"5.0.0"`, only `upgradeToAndCall(address,bytes)` is present, and the second argument must
+     * be the empty byte string if no function should be called, making it impossible to invoke the `receive` function
+     * during an upgrade.
+     */
+    string public constant UPGRADE_INTERFACE_VERSION = "5.0.0";
+
+    /**
+     * @dev The call is from an unauthorized context.
+     */
+    error UUPSUnauthorizedCallContext();
+
+    /**
+     * @dev The storage `slot` is unsupported as a UUID.
+     */
+    error UUPSUnsupportedProxiableUUID(bytes32 slot);
+
+    /**
+     * @dev Check that the execution is being performed through a delegatecall call and that the execution context is
+     * a proxy contract with an implementation (as defined in ERC-1967) pointing to self. This should only be the case
+     * for UUPS and transparent proxies that are using the current contract as their implementation. Execution of a
+     * function through ERC-1167 minimal proxies (clones) would not normally pass this test, but is not guaranteed to
+     * fail.
+     */
+    modifier onlyProxy() {
+        _checkProxy();
+        _;
+    }
+
+    /**
+     * @dev Check that the execution is not being performed through a delegate call. This allows a function to be
+     * callable on the implementing contract but not through proxies.
+     */
+    modifier notDelegated() {
+        _checkNotDelegated();
+        _;
+    }
+
+    /**
+     * @dev Implementation of the ERC-1822 {proxiableUUID} function. This returns the storage slot used by the
+     * implementation. It is used to validate the implementation's compatibility when performing an upgrade.
+     *
+     * IMPORTANT: A proxy pointing at a proxiable contract should not be considered proxiable itself, because this risks
+     * bricking a proxy that upgrades to it, by delegating to itself until out of gas. Thus it is critical that this
+     * function revert if invoked through a proxy. This is guaranteed by the `notDelegated` modifier.
+     */
+    function proxiableUUID() external view virtual notDelegated returns (bytes32) {
+        return ERC1967Utils.IMPLEMENTATION_SLOT;
+    }
+
+    /**
+     * @dev Upgrade the implementation of the proxy to `newImplementation`, and subsequently execute the function call
+     * encoded in `data`.
+     *
+     * Calls {_authorizeUpgrade}.
+     *
+     * Emits an {Upgraded} event.
+     *
+     * @custom:oz-upgrades-unsafe-allow-reachable delegatecall
+     */
+    function upgradeToAndCall(address newImplementation, bytes memory data) public payable virtual onlyProxy {
+        _authorizeUpgrade(newImplementation);
+        _upgradeToAndCallUUPS(newImplementation, data);
+    }
+
+    /**
+     * @dev Reverts if the execution is not performed via delegatecall or the execution
+     * context is not of a proxy with an ERC-1967 compliant implementation pointing to self.
+     * See {_onlyProxy}.
+     */
+    function _checkProxy() internal view virtual {
+        if (
+            address(this) == __self || // Must be called through delegatecall
+            ERC1967Utils.getImplementation() != __self // Must be called through an active proxy
+        ) {
+            revert UUPSUnauthorizedCallContext();
+        }
+    }
+
+    /**
+     * @dev Reverts if the execution is performed via delegatecall.
+     * See {notDelegated}.
+     */
+    function _checkNotDelegated() internal view virtual {
+        if (address(this) != __self) {
+            // Must not be called through delegatecall
+            revert UUPSUnauthorizedCallContext();
+        }
+    }
+
+    /**
+     * @dev Function that should revert when `msg.sender` is not authorized to upgrade the contract. Called by
+     * {upgradeToAndCall}.
+     *
+     * Normally, this function will use an xref:access.adoc[access control] modifier such as {Ownable-onlyOwner}.
+     *
+     * ```solidity
+     * function _authorizeUpgrade(address) internal onlyOwner {}
+     * ```
+     */
+    function _authorizeUpgrade(address newImplementation) internal virtual;
+
+    /**
+     * @dev Performs an implementation upgrade with a security check for UUPS proxies, and additional setup call.
+     *
+     * As a security check, {proxiableUUID} is invoked in the new implementation, and the return value
+     * is expected to be the implementation slot in ERC-1967.
+     *
+     * Emits an {IERC1967-Upgraded} event.
+     */
+    function _upgradeToAndCallUUPS(address newImplementation, bytes memory data) private {
+        try IERC1822Proxiable(newImplementation).proxiableUUID() returns (bytes32 slot) {
+            if (slot != ERC1967Utils.IMPLEMENTATION_SLOT) {
+                revert UUPSUnsupportedProxiableUUID(slot);
+            }
+            ERC1967Utils.upgradeToAndCall(newImplementation, data);
+        } catch {
+            // The implementation is not UUPS
+            revert ERC1967Utils.ERC1967InvalidImplementation(newImplementation);
+        }
+    }
+}
