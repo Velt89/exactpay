@@ -1,1 +1,70 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0lHb3Zlcm5vciwgR292ZXJub3J9IGZyb20gIi4uLy4uL2dvdmVybmFuY2UvR292ZXJub3Iuc29sIjsKaW1wb3J0IHtHb3Zlcm5vclRpbWVsb2NrQWNjZXNzfSBmcm9tICIuLi8uLi9nb3Zlcm5hbmNlL2V4dGVuc2lvbnMvR292ZXJub3JUaW1lbG9ja0FjY2Vzcy5zb2wiOwppbXBvcnQge0dvdmVybm9yU2V0dGluZ3N9IGZyb20gIi4uLy4uL2dvdmVybmFuY2UvZXh0ZW5zaW9ucy9Hb3Zlcm5vclNldHRpbmdzLnNvbCI7CmltcG9ydCB7R292ZXJub3JDb3VudGluZ1NpbXBsZX0gZnJvbSAiLi4vLi4vZ292ZXJuYW5jZS9leHRlbnNpb25zL0dvdmVybm9yQ291bnRpbmdTaW1wbGUuc29sIjsKaW1wb3J0IHtHb3Zlcm5vclZvdGVzUXVvcnVtRnJhY3Rpb259IGZyb20gIi4uLy4uL2dvdmVybmFuY2UvZXh0ZW5zaW9ucy9Hb3Zlcm5vclZvdGVzUXVvcnVtRnJhY3Rpb24uc29sIjsKCmFic3RyYWN0IGNvbnRyYWN0IEdvdmVybm9yVGltZWxvY2tBY2Nlc3NNb2NrIGlzCiAgICBHb3Zlcm5vclNldHRpbmdzLAogICAgR292ZXJub3JUaW1lbG9ja0FjY2VzcywKICAgIEdvdmVybm9yVm90ZXNRdW9ydW1GcmFjdGlvbiwKICAgIEdvdmVybm9yQ291bnRpbmdTaW1wbGUKewogICAgZnVuY3Rpb24gbm9uR292ZXJuYW5jZUZ1bmN0aW9uKCkgZXh0ZXJuYWwge30KCiAgICBmdW5jdGlvbiBxdW9ydW0odWludDI1NiBibG9ja051bWJlcikgcHVibGljIHZpZXcgb3ZlcnJpZGUoR292ZXJub3IsIEdvdmVybm9yVm90ZXNRdW9ydW1GcmFjdGlvbikgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHJldHVybiBzdXBlci5xdW9ydW0oYmxvY2tOdW1iZXIpOwogICAgfQoKICAgIGZ1bmN0aW9uIHByb3Bvc2FsVGhyZXNob2xkKCkgcHVibGljIHZpZXcgb3ZlcnJpZGUoR292ZXJub3IsIEdvdmVybm9yU2V0dGluZ3MpIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXR1cm4gc3VwZXIucHJvcG9zYWxUaHJlc2hvbGQoKTsKICAgIH0KCiAgICBmdW5jdGlvbiBwcm9wb3NhbE5lZWRzUXVldWluZygKICAgICAgICB1aW50MjU2IHByb3Bvc2FsSWQKICAgICkgcHVibGljIHZpZXcgdmlydHVhbCBvdmVycmlkZShHb3Zlcm5vciwgR292ZXJub3JUaW1lbG9ja0FjY2VzcykgcmV0dXJucyAoYm9vbCkgewogICAgICAgIHJldHVybiBzdXBlci5wcm9wb3NhbE5lZWRzUXVldWluZyhwcm9wb3NhbElkKTsKICAgIH0KCiAgICBmdW5jdGlvbiBwcm9wb3NlKAogICAgICAgIGFkZHJlc3NbXSBtZW1vcnkgdGFyZ2V0cywKICAgICAgICB1aW50MjU2W10gbWVtb3J5IHZhbHVlcywKICAgICAgICBieXRlc1tdIG1lbW9yeSBjYWxsZGF0YXMsCiAgICAgICAgc3RyaW5nIG1lbW9yeSBkZXNjcmlwdGlvbgogICAgKSBwdWJsaWMgb3ZlcnJpZGUoR292ZXJub3IsIEdvdmVybm9yVGltZWxvY2tBY2Nlc3MpIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXR1cm4gc3VwZXIucHJvcG9zZSh0YXJnZXRzLCB2YWx1ZXMsIGNhbGxkYXRhcywgZGVzY3JpcHRpb24pOwogICAgfQoKICAgIGZ1bmN0aW9uIF9xdWV1ZU9wZXJhdGlvbnMoCiAgICAgICAgdWludDI1NiBwcm9wb3NhbElkLAogICAgICAgIGFkZHJlc3NbXSBtZW1vcnkgdGFyZ2V0cywKICAgICAgICB1aW50MjU2W10gbWVtb3J5IHZhbHVlcywKICAgICAgICBieXRlc1tdIG1lbW9yeSBjYWxsZGF0YXMsCiAgICAgICAgYnl0ZXMzMiBkZXNjcmlwdGlvbkhhc2gKICAgICkgaW50ZXJuYWwgb3ZlcnJpZGUoR292ZXJub3IsIEdvdmVybm9yVGltZWxvY2tBY2Nlc3MpIHJldHVybnMgKHVpbnQ0OCkgewogICAgICAgIHJldHVybiBzdXBlci5fcXVldWVPcGVyYXRpb25zKHByb3Bvc2FsSWQsIHRhcmdldHMsIHZhbHVlcywgY2FsbGRhdGFzLCBkZXNjcmlwdGlvbkhhc2gpOwogICAgfQoKICAgIGZ1bmN0aW9uIF9leGVjdXRlT3BlcmF0aW9ucygKICAgICAgICB1aW50MjU2IHByb3Bvc2FsSWQsCiAgICAgICAgYWRkcmVzc1tdIG1lbW9yeSB0YXJnZXRzLAogICAgICAgIHVpbnQyNTZbXSBtZW1vcnkgdmFsdWVzLAogICAgICAgIGJ5dGVzW10gbWVtb3J5IGNhbGxkYXRhcywKICAgICAgICBieXRlczMyIGRlc2NyaXB0aW9uSGFzaAogICAgKSBpbnRlcm5hbCBvdmVycmlkZShHb3Zlcm5vciwgR292ZXJub3JUaW1lbG9ja0FjY2VzcykgewogICAgICAgIHN1cGVyLl9leGVjdXRlT3BlcmF0aW9ucyhwcm9wb3NhbElkLCB0YXJnZXRzLCB2YWx1ZXMsIGNhbGxkYXRhcywgZGVzY3JpcHRpb25IYXNoKTsKICAgIH0KCiAgICBmdW5jdGlvbiBfY2FuY2VsKAogICAgICAgIGFkZHJlc3NbXSBtZW1vcnkgdGFyZ2V0cywKICAgICAgICB1aW50MjU2W10gbWVtb3J5IHZhbHVlcywKICAgICAgICBieXRlc1tdIG1lbW9yeSBjYWxsZGF0YXMsCiAgICAgICAgYnl0ZXMzMiBkZXNjcmlwdGlvbkhhc2gKICAgICkgaW50ZXJuYWwgb3ZlcnJpZGUoR292ZXJub3IsIEdvdmVybm9yVGltZWxvY2tBY2Nlc3MpIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXR1cm4gc3VwZXIuX2NhbmNlbCh0YXJnZXRzLCB2YWx1ZXMsIGNhbGxkYXRhcywgZGVzY3JpcHRpb25IYXNoKTsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {IGovernor, Governor} from "../../governance/Governor.sol";
+import {GovernorTimelockAccess} from "../../governance/extensions/GovernorTimelockAccess.sol";
+import {GovernorSettings} from "../../governance/extensions/GovernorSettings.sol";
+import {GovernorCountingSimple} from "../../governance/extensions/GovernorCountingSimple.sol";
+import {GovernorVotesQuorumFraction} from "../../governance/extensions/GovernorVotesQuorumFraction.sol";
+
+abstract contract GovernorTimelockAccessMock is
+    GovernorSettings,
+    GovernorTimelockAccess,
+    GovernorVotesQuorumFraction,
+    GovernorCountingSimple
+{
+    function nonGovernanceFunction() external {}
+
+    function quorum(uint256 blockNumber) public view override(Governor, GovernorVotesQuorumFraction) returns (uint256) {
+        return super.quorum(blockNumber);
+    }
+
+    function proposalThreshold() public view override(Governor, GovernorSettings) returns (uint256) {
+        return super.proposalThreshold();
+    }
+
+    function proposalNeedsQueuing(
+        uint256 proposalId
+    ) public view virtual override(Governor, GovernorTimelockAccess) returns (bool) {
+        return super.proposalNeedsQueuing(proposalId);
+    }
+
+    function propose(
+        address[] memory targets,
+        uint256[] memory values,
+        bytes[] memory calldatas,
+        string memory description
+    ) public override(Governor, GovernorTimelockAccess) returns (uint256) {
+        return super.propose(targets, values, calldatas, description);
+    }
+
+    function _queueOperations(
+        uint256 proposalId,
+        address[] memory targets,
+        uint256[] memory values,
+        bytes[] memory calldatas,
+        bytes32 descriptionHash
+    ) internal override(Governor, GovernorTimelockAccess) returns (uint48) {
+        return super._queueOperations(proposalId, targets, values, calldatas, descriptionHash);
+    }
+
+    function _executeOperations(
+        uint256 proposalId,
+        address[] memory targets,
+        uint256[] memory values,
+        bytes[] memory calldatas,
+        bytes32 descriptionHash
+    ) internal override(Governor, GovernorTimelockAccess) {
+        super._executeOperations(proposalId, targets, values, calldatas, descriptionHash);
+    }
+
+    function _cancel(
+        address[] memory targets,
+        uint256[] memory values,
+        bytes[] memory calldatas,
+        bytes32 descriptionHash
+    ) internal override(Governor, GovernorTimelockAccess) returns (uint256) {
+        return super._cancel(targets, values, calldatas, descriptionHash);
+    }
+}
