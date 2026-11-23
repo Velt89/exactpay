@@ -1,1 +1,32 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMC4wKSAoYWNjZXNzL21hbmFnZXIvQXV0aG9yaXR5VXRpbHMuc29sKQoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0lBdXRob3JpdHl9IGZyb20gIi4vSUF1dGhvcml0eS5zb2wiOwoKbGlicmFyeSBBdXRob3JpdHlVdGlscyB7CiAgICAvKioKICAgICAqIEBkZXYgU2luY2UgYEFjY2Vzc01hbmFnZXJgIGltcGxlbWVudHMgYW4gZXh0ZW5kZWQgSUF1dGhvcml0eSBpbnRlcmZhY2UsIGludm9raW5nIGBjYW5DYWxsYCB3aXRoIGJhY2t3YXJkcyBjb21wYXRpYmlsaXR5CiAgICAgKiBmb3IgdGhlIHByZWV4aXN0aW5nIGBJQXV0aG9yaXR5YCBpbnRlcmZhY2UgcmVxdWlyZXMgc3BlY2lhbCBjYXJlIHRvIGF2b2lkIHJldmVydGluZyBvbiBpbnN1ZmZpY2llbnQgcmV0dXJuIGRhdGEuCiAgICAgKiBUaGlzIGhlbHBlciBmdW5jdGlvbiB0YWtlcyBjYXJlIG9mIGludm9raW5nIGBjYW5DYWxsYCBpbiBhIGJhY2t3YXJkcyBjb21wYXRpYmxlIHdheSB3aXRob3V0IHJldmVydGluZy4KICAgICAqLwogICAgZnVuY3Rpb24gY2FuQ2FsbFdpdGhEZWxheSgKICAgICAgICBhZGRyZXNzIGF1dGhvcml0eSwKICAgICAgICBhZGRyZXNzIGNhbGxlciwKICAgICAgICBhZGRyZXNzIHRhcmdldCwKICAgICAgICBieXRlczQgc2VsZWN0b3IKICAgICkgaW50ZXJuYWwgdmlldyByZXR1cm5zIChib29sIGltbWVkaWF0ZSwgdWludDMyIGRlbGF5KSB7CiAgICAgICAgKGJvb2wgc3VjY2VzcywgYnl0ZXMgbWVtb3J5IGRhdGEpID0gYXV0aG9yaXR5LnN0YXRpY2NhbGwoCiAgICAgICAgICAgIGFiaS5lbmNvZGVDYWxsKElBdXRob3JpdHkuY2FuQ2FsbCwgKGNhbGxlciwgdGFyZ2V0LCBzZWxlY3RvcikpCiAgICAgICAgKTsKICAgICAgICBpZiAoc3VjY2VzcykgewogICAgICAgICAgICBpZiAoZGF0YS5sZW5ndGggPj0gMHg0MCkgewogICAgICAgICAgICAgICAgKGltbWVkaWF0ZSwgZGVsYXkpID0gYWJpLmRlY29kZShkYXRhLCAoYm9vbCwgdWludDMyKSk7CiAgICAgICAgICAgIH0gZWxzZSBpZiAoZGF0YS5sZW5ndGggPj0gMHgyMCkgewogICAgICAgICAgICAgICAgaW1tZWRpYXRlID0gYWJpLmRlY29kZShkYXRhLCAoYm9vbCkpOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIHJldHVybiAoaW1tZWRpYXRlLCBkZWxheSk7CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.0.0) (access/manager/AuthorityUtils.sol)
+
+pragma solidity ^0.8.20;
+
+import {IAuthority} from "./IAuthority.sol";
+
+library AuthorityUtils {
+    /**
+     * @dev Since `AccessManager` implements an extended IAuthority interface, invoking `canCall` with backwards compatibility
+     * for the preexisting `IAuthority` interface requires special care to avoid reverting on insufficient return data.
+     * This helper function takes care of invoking `canCall` in a backwards compatible way without reverting.
+     */
+    function canCallWithDelay(
+        address authority,
+        address caller,
+        address target,
+        bytes4 selector
+    ) internal view returns (bool immediate, uint32 delay) {
+        (bool success, bytes memory data) = authority.staticcall(
+            abi.encodeCall(IAuthority.canCall, (caller, target, selector))
+        );
+        if (success) {
+            if (data.length >= 0x40) {
+                (immediate, delay) = abi.decode(data, (bool, uint32));
+            } else if (data.length >= 0x20) {
+                immediate = abi.decode(data, (bool));
+            }
+        }
+        return (immediate, delay);
+    }
+}
