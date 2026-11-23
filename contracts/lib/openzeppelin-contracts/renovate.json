@@ -1,1 +1,4 @@
-ewogICJleHRlbmRzIjogWyJnaXRodWI+T3BlblplcHBlbGluL2NvbmZpZ3MiXSwKICAibGFiZWxzIjogWyJpZ25vcmUtY2hhbmdlc2V0Il0KfQo=
+{
+  "extends": ["github>OpenZeppelin/configs"],
+  "labels": ["ignore-changeset"]
+}
