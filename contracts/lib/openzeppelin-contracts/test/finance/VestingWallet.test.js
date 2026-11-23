@@ -1,1 +1,65 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKY29uc3QgeyBtaW4gfSA9IHJlcXVpcmUoJy4uL2hlbHBlcnMvbWF0aCcpOwpjb25zdCB0aW1lID0gcmVxdWlyZSgnLi4vaGVscGVycy90aW1lJyk7Cgpjb25zdCB7IGVudlNldHVwLCBzaG91bGRCZWhhdmVMaWtlVmVzdGluZyB9ID0gcmVxdWlyZSgnLi9WZXN0aW5nV2FsbGV0LmJlaGF2aW9yJyk7Cgphc3luYyBmdW5jdGlvbiBmaXh0dXJlKCkgewogIGNvbnN0IGFtb3VudCA9IGV0aGVycy5wYXJzZUV0aGVyKCcxMDAnKTsKICBjb25zdCBkdXJhdGlvbiA9IHRpbWUuZHVyYXRpb24ueWVhcnMoNCk7CiAgY29uc3Qgc3RhcnQgPSAoYXdhaXQgdGltZS5jbG9jay50aW1lc3RhbXAoKSkgKyB0aW1lLmR1cmF0aW9uLmhvdXJzKDEpOwoKICBjb25zdCBbc2VuZGVyLCBiZW5lZmljaWFyeV0gPSBhd2FpdCBldGhlcnMuZ2V0U2lnbmVycygpOwogIGNvbnN0IG1vY2sgPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJ1Zlc3RpbmdXYWxsZXQnLCBbYmVuZWZpY2lhcnksIHN0YXJ0LCBkdXJhdGlvbl0pOwoKICBjb25zdCB0b2tlbiA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnJEVSQzIwJywgWydOYW1lJywgJ1N5bWJvbCddKTsKICBhd2FpdCB0b2tlbi4kX21pbnQobW9jaywgYW1vdW50KTsKICBhd2FpdCBzZW5kZXIuc2VuZFRyYW5zYWN0aW9uKHsgdG86IG1vY2ssIHZhbHVlOiBhbW91bnQgfSk7CgogIGNvbnN0IGVudiA9IGF3YWl0IGVudlNldHVwKG1vY2ssIGJlbmVmaWNpYXJ5LCB0b2tlbik7CgogIGNvbnN0IHNjaGVkdWxlID0gQXJyYXkuZnJvbSh7IGxlbmd0aDogNjQgfSwgKF8sIGkpID0+IChCaWdJbnQoaSkgKiBkdXJhdGlvbikgLyA2MG4gKyBzdGFydCk7CiAgY29uc3QgdmVzdGluZ0ZuID0gdGltZXN0YW1wID0+IG1pbihhbW91bnQsIChhbW91bnQgKiAodGltZXN0YW1wIC0gc3RhcnQpKSAvIGR1cmF0aW9uKTsKCiAgcmV0dXJuIHsgbW9jaywgZHVyYXRpb24sIHN0YXJ0LCBiZW5lZmljaWFyeSwgc2NoZWR1bGUsIHZlc3RpbmdGbiwgZW52IH07Cn0KCmRlc2NyaWJlKCdWZXN0aW5nV2FsbGV0JywgZnVuY3Rpb24gKCkgewogIGJlZm9yZUVhY2goYXN5bmMgZnVuY3Rpb24gKCkgewogICAgT2JqZWN0LmFzc2lnbih0aGlzLCBhd2FpdCBsb2FkRml4dHVyZShmaXh0dXJlKSk7CiAgfSk7CgogIGl0KCdyZWplY3RzIHplcm8gYWRkcmVzcyBmb3IgYmVuZWZpY2lhcnknLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICBhd2FpdCBleHBlY3QoZXRoZXJzLmRlcGxveUNvbnRyYWN0KCdWZXN0aW5nV2FsbGV0JywgW2V0aGVycy5aZXJvQWRkcmVzcywgdGhpcy5zdGFydCwgdGhpcy5kdXJhdGlvbl0pKQogICAgICAucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy5tb2NrLCAnT3duYWJsZUludmFsaWRPd25lcicpCiAgICAgIC53aXRoQXJncyhldGhlcnMuWmVyb0FkZHJlc3MpOwogIH0pOwoKICBpdCgnY2hlY2sgdmVzdGluZyBjb250cmFjdCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2sub3duZXIoKSkudG8uZXF1YWwodGhpcy5iZW5lZmljaWFyeSk7CiAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLnN0YXJ0KCkpLnRvLmVxdWFsKHRoaXMuc3RhcnQpOwogICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay5kdXJhdGlvbigpKS50by5lcXVhbCh0aGlzLmR1cmF0aW9uKTsKICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suZW5kKCkpLnRvLmVxdWFsKHRoaXMuc3RhcnQgKyB0aGlzLmR1cmF0aW9uKTsKICB9KTsKCiAgZGVzY3JpYmUoJ3Zlc3Rpbmcgc2NoZWR1bGUnLCBmdW5jdGlvbiAoKSB7CiAgICBkZXNjcmliZSgnRXRoIHZlc3RpbmcnLCBmdW5jdGlvbiAoKSB7CiAgICAgIGJlZm9yZUVhY2goYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIE9iamVjdC5hc3NpZ24odGhpcywgdGhpcy5lbnYuZXRoKTsKICAgICAgfSk7CgogICAgICBzaG91bGRCZWhhdmVMaWtlVmVzdGluZygpOwogICAgfSk7CgogICAgZGVzY3JpYmUoJ0VSQzIwIHZlc3RpbmcnLCBmdW5jdGlvbiAoKSB7CiAgICAgIGJlZm9yZUVhY2goYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIE9iamVjdC5hc3NpZ24odGhpcywgdGhpcy5lbnYudG9rZW4pOwogICAgICB9KTsKCiAgICAgIHNob3VsZEJlaGF2ZUxpa2VWZXN0aW5nKCk7CiAgICB9KTsKICB9KTsKfSk7Cg==
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+const { min } = require('../helpers/math');
+const time = require('../helpers/time');
+
+const { envSetup, shouldBehaveLikeVesting } = require('./VestingWallet.behavior');
+
+async function fixture() {
+  const amount = ethers.parseEther('100');
+  const duration = time.duration.years(4);
+  const start = (await time.clock.timestamp()) + time.duration.hours(1);
+
+  const [sender, beneficiary] = await ethers.getSigners();
+  const mock = await ethers.deployContract('VestingWallet', [beneficiary, start, duration]);
+
+  const token = await ethers.deployContract('$ERC20', ['Name', 'Symbol']);
+  await token.$_mint(mock, amount);
+  await sender.sendTransaction({ to: mock, value: amount });
+
+  const env = await envSetup(mock, beneficiary, token);
+
+  const schedule = Array.from({ length: 64 }, (_, i) => (BigInt(i) * duration) / 60n + start);
+  const vestingFn = timestamp => min(amount, (amount * (timestamp - start)) / duration);
+
+  return { mock, duration, start, beneficiary, schedule, vestingFn, env };
+}
+
+describe('VestingWallet', function () {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  it('rejects zero address for beneficiary', async function () {
+    await expect(ethers.deployContract('VestingWallet', [ethers.ZeroAddress, this.start, this.duration]))
+      .revertedWithCustomError(this.mock, 'OwnableInvalidOwner')
+      .withArgs(ethers.ZeroAddress);
+  });
+
+  it('check vesting contract', async function () {
+    expect(await this.mock.owner()).to.equal(this.beneficiary);
+    expect(await this.mock.start()).to.equal(this.start);
+    expect(await this.mock.duration()).to.equal(this.duration);
+    expect(await this.mock.end()).to.equal(this.start + this.duration);
+  });
+
+  describe('vesting schedule', function () {
+    describe('Eth vesting', function () {
+      beforeEach(async function () {
+        Object.assign(this, this.env.eth);
+      });
+
+      shouldBehaveLikeVesting();
+    });
+
+    describe('ERC20 vesting', function () {
+      beforeEach(async function () {
+        Object.assign(this, this.env.token);
+      });
+
+      shouldBehaveLikeVesting();
+    });
+  });
+});
