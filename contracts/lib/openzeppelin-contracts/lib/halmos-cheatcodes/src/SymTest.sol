@@ -1,1 +1,11 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IEFHUEwtMy4wCnByYWdtYSBzb2xpZGl0eSA+PTAuOC4wIDwwLjkuMDsKCmltcG9ydCB7U1ZNfSBmcm9tICIuL1NWTS5zb2wiOwoKYWJzdHJhY3QgY29udHJhY3QgU3ltVGVzdCB7CiAgICAvLyBTVk0gY2hlYXQgY29kZSBhZGRyZXNzOiAweGYzOTkzYTYyMzc3YmNkNTZhZTM5ZDc3Mzc0MGE1MzkwNDExZThiYzkKICAgIGFkZHJlc3MgaW50ZXJuYWwgY29uc3RhbnQgU1ZNX0FERFJFU1MgPSBhZGRyZXNzKHVpbnQxNjAodWludDI1NihrZWNjYWsyNTYoInN2bSBjaGVhdCBjb2RlIikpKSk7CgogICAgU1ZNIGludGVybmFsIGNvbnN0YW50IHN2bSA9IFNWTShTVk1fQUREUkVTUyk7Cn0K
+// SPDX-License-Identifier: AGPL-3.0
+pragma solidity >=0.8.0 <0.9.0;
+
+import {SVM} from "./SVM.sol";
+
+abstract contract SymTest {
+    // SVM cheat code address: 0xf3993a62377bcd56ae39d773740a5390411e8bc9
+    address internal constant SVM_ADDRESS = address(uint160(uint256(keccak256("svm cheat code"))));
+
+    SVM internal constant svm = SVM(SVM_ADDRESS);
+}
