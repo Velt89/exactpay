@@ -1,1 +1,53 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0lFUkMyMH0gZnJvbSAiLi4vdG9rZW4vRVJDMjAvSUVSQzIwLnNvbCI7CmltcG9ydCB7SUVSQzMxNTZGbGFzaEJvcnJvd2VyfSBmcm9tICIuLi9pbnRlcmZhY2VzL0lFUkMzMTU2LnNvbCI7CmltcG9ydCB7QWRkcmVzc30gZnJvbSAiLi4vdXRpbHMvQWRkcmVzcy5zb2wiOwoKLyoqCiAqIEBkZXYgV0FSTklORzogdGhpcyBJRVJDMzE1NkZsYXNoQm9ycm93ZXIgbW9jayBpbXBsZW1lbnRhdGlvbiBpcyBmb3IgdGVzdGluZyBwdXJwb3NlcyBPTkxZLgogKiBXcml0aW5nIGEgc2VjdXJlIGZsYXNoIGxvY2sgYm9ycm93ZXIgaXMgbm90IGFuIGVhc3kgdGFzaywgYW5kIHNob3VsZCBiZSBkb25lIHdpdGggdGhlIHV0bW9zdCBjYXJlLgogKiBUaGlzIGlzIG5vdCBhbiBleGFtcGxlIG9mIGhvdyBpdCBzaG91bGQgYmUgZG9uZSwgYW5kIG5vIHBhdHRlcm4gcHJlc2VudCBpbiB0aGlzIG1vY2sgc2hvdWxkIGJlIGNvbnNpZGVyZWQgc2VjdXJlLgogKiBGb2xsb3dpbmcgYmVzdCBwcmFjdGljZXMsIGFsd2F5cyBoYXZlIHlvdXIgY29udHJhY3QgcHJvcGVybHkgYXVkaXRlZCBiZWZvcmUgdXNpbmcgdGhlbSB0byBtYW5pcHVsYXRlIGltcG9ydGFudCBmdW5kcyBvbgogKiBsaXZlIG5ldHdvcmtzLgogKi8KY29udHJhY3QgRVJDMzE1NkZsYXNoQm9ycm93ZXJNb2NrIGlzIElFUkMzMTU2Rmxhc2hCb3Jyb3dlciB7CiAgICBieXRlczMyIGludGVybmFsIGNvbnN0YW50IF9SRVRVUk5fVkFMVUUgPSBrZWNjYWsyNTYoIkVSQzMxNTZGbGFzaEJvcnJvd2VyLm9uRmxhc2hMb2FuIik7CgogICAgYm9vbCBpbW11dGFibGUgX2VuYWJsZUFwcHJvdmU7CiAgICBib29sIGltbXV0YWJsZSBfZW5hYmxlUmV0dXJuOwoKICAgIGV2ZW50IEJhbGFuY2VPZihhZGRyZXNzIHRva2VuLCBhZGRyZXNzIGFjY291bnQsIHVpbnQyNTYgdmFsdWUpOwogICAgZXZlbnQgVG90YWxTdXBwbHkoYWRkcmVzcyB0b2tlbiwgdWludDI1NiB2YWx1ZSk7CgogICAgY29uc3RydWN0b3IoYm9vbCBlbmFibGVSZXR1cm4sIGJvb2wgZW5hYmxlQXBwcm92ZSkgewogICAgICAgIF9lbmFibGVBcHByb3ZlID0gZW5hYmxlQXBwcm92ZTsKICAgICAgICBfZW5hYmxlUmV0dXJuID0gZW5hYmxlUmV0dXJuOwogICAgfQoKICAgIGZ1bmN0aW9uIG9uRmxhc2hMb2FuKAogICAgICAgIGFkZHJlc3MgLyppbml0aWF0b3IqLywKICAgICAgICBhZGRyZXNzIHRva2VuLAogICAgICAgIHVpbnQyNTYgYW1vdW50LAogICAgICAgIHVpbnQyNTYgZmVlLAogICAgICAgIGJ5dGVzIGNhbGxkYXRhIGRhdGEKICAgICkgcHVibGljIHJldHVybnMgKGJ5dGVzMzIpIHsKICAgICAgICByZXF1aXJlKG1zZy5zZW5kZXIgPT0gdG9rZW4pOwoKICAgICAgICBlbWl0IEJhbGFuY2VPZih0b2tlbiwgYWRkcmVzcyh0aGlzKSwgSUVSQzIwKHRva2VuKS5iYWxhbmNlT2YoYWRkcmVzcyh0aGlzKSkpOwogICAgICAgIGVtaXQgVG90YWxTdXBwbHkodG9rZW4sIElFUkMyMCh0b2tlbikudG90YWxTdXBwbHkoKSk7CgogICAgICAgIGlmIChkYXRhLmxlbmd0aCA+IDApIHsKICAgICAgICAgICAgLy8gV0FSTklORzogVGhpcyBjb2RlIGlzIGZvciB0ZXN0aW5nIHB1cnBvc2VzIG9ubHkhIERvIG5vdCB1c2UuCiAgICAgICAgICAgIEFkZHJlc3MuZnVuY3Rpb25DYWxsKHRva2VuLCBkYXRhKTsKICAgICAgICB9CgogICAgICAgIGlmIChfZW5hYmxlQXBwcm92ZSkgewogICAgICAgICAgICBJRVJDMjAodG9rZW4pLmFwcHJvdmUodG9rZW4sIGFtb3VudCArIGZlZSk7CiAgICAgICAgfQoKICAgICAgICByZXR1cm4gX2VuYWJsZVJldHVybiA/IF9SRVRVUk5fVkFMVUUgOiBieXRlczMyKDApOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {IERC20} from "../token/ERC20/IERC20.sol";
+import {IERC3156FlashBorrower} from "../interfaces/IERC3156.sol";
+import {Address} from "../utils/Address.sol";
+
+/**
+ * @dev WARNING: this IERC3156FlashBorrower mock implementation is for testing purposes ONLY.
+ * Writing a secure flash lock borrower is not an easy task, and should be done with the utmost care.
+ * This is not an example of how it should be done, and no pattern present in this mock should be considered secure.
+ * Following best practices, always have your contract properly audited before using them to manipulate important funds on
+ * live networks.
+ */
+contract ERC3156FlashBorrowerMock is IERC3156FlashBorrower {
+    bytes32 internal constant _RETURN_VALUE = keccak256("ERC3156FlashBorrower.onFlashLoan");
+
+    bool immutable _enableApprove;
+    bool immutable _enableReturn;
+
+    event BalanceOf(address token, address account, uint256 value);
+    event TotalSupply(address token, uint256 value);
+
+    constructor(bool enableReturn, bool enableApprove) {
+        _enableApprove = enableApprove;
+        _enableReturn = enableReturn;
+    }
+
+    function onFlashLoan(
+        address /*initiator*/,
+        address token,
+        uint256 amount,
+        uint256 fee,
+        bytes calldata data
+    ) public returns (bytes32) {
+        require(msg.sender == token);
+
+        emit BalanceOf(token, address(this), IERC20(token).balanceOf(address(this)));
+        emit TotalSupply(token, IERC20(token).totalSupply());
+
+        if (data.length > 0) {
+            // WARNING: This code is for testing purposes only! Do not use.
+            Address.functionCall(token, data);
+        }
+
+        if (_enableApprove) {
+            IERC20(token).approve(token, amount + fee);
+        }
+
+        return _enableReturn ? _RETURN_VALUE : bytes32(0);
+    }
+}
