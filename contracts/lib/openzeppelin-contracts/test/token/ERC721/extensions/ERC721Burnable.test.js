@@ -1,1 +1,77 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKY29uc3QgbmFtZSA9ICdOb24gRnVuZ2libGUgVG9rZW4nOwpjb25zdCBzeW1ib2wgPSAnTkZUJzsKY29uc3QgdG9rZW5JZCA9IDFuOwpjb25zdCBvdGhlclRva2VuSWQgPSAybjsKY29uc3QgdW5rbm93blRva2VuSWQgPSAzbjsKCmFzeW5jIGZ1bmN0aW9uIGZpeHR1cmUoKSB7CiAgY29uc3QgW293bmVyLCBhcHByb3ZlZCwgYW5vdGhlcl0gPSBhd2FpdCBldGhlcnMuZ2V0U2lnbmVycygpOwogIGNvbnN0IHRva2VuID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCckRVJDNzIxQnVybmFibGUnLCBbbmFtZSwgc3ltYm9sXSk7CiAgcmV0dXJuIHsgb3duZXIsIGFwcHJvdmVkLCBhbm90aGVyLCB0b2tlbiB9Owp9CgpkZXNjcmliZSgnRVJDNzIxQnVybmFibGUnLCBmdW5jdGlvbiAoKSB7CiAgYmVmb3JlRWFjaChhc3luYyBmdW5jdGlvbiAoKSB7CiAgICBPYmplY3QuYXNzaWduKHRoaXMsIGF3YWl0IGxvYWRGaXh0dXJlKGZpeHR1cmUpKTsKICB9KTsKCiAgZGVzY3JpYmUoJ2xpa2UgYSBidXJuYWJsZSBFUkM3MjEnLCBmdW5jdGlvbiAoKSB7CiAgICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgdGhpcy50b2tlbi4kX21pbnQodGhpcy5vd25lciwgdG9rZW5JZCk7CiAgICAgIGF3YWl0IHRoaXMudG9rZW4uJF9taW50KHRoaXMub3duZXIsIG90aGVyVG9rZW5JZCk7CiAgICB9KTsKCiAgICBkZXNjcmliZSgnYnVybicsIGZ1bmN0aW9uICgpIHsKICAgICAgZGVzY3JpYmUoJ3doZW4gc3VjY2Vzc2Z1bCcsIGZ1bmN0aW9uICgpIHsKICAgICAgICBpdCgnZW1pdHMgYSBidXJuIGV2ZW50LCBidXJucyB0aGUgZ2l2ZW4gdG9rZW4gSUQgYW5kIGFkanVzdHMgdGhlIGJhbGFuY2Ugb2YgdGhlIG93bmVyJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgY29uc3QgYmFsYW5jZUJlZm9yZSA9IGF3YWl0IHRoaXMudG9rZW4uYmFsYW5jZU9mKHRoaXMub3duZXIpOwoKICAgICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLnRva2VuLmNvbm5lY3QodGhpcy5vd25lcikuYnVybih0b2tlbklkKSkKICAgICAgICAgICAgLnRvLmVtaXQodGhpcy50b2tlbiwgJ1RyYW5zZmVyJykKICAgICAgICAgICAgLndpdGhBcmdzKHRoaXMub3duZXIsIGV0aGVycy5aZXJvQWRkcmVzcywgdG9rZW5JZCk7CgogICAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMudG9rZW4ub3duZXJPZih0b2tlbklkKSkKICAgICAgICAgICAgLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMudG9rZW4sICdFUkM3MjFOb25leGlzdGVudFRva2VuJykKICAgICAgICAgICAgLndpdGhBcmdzKHRva2VuSWQpOwoKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnRva2VuLmJhbGFuY2VPZih0aGlzLm93bmVyKSkudG8uZXF1YWwoYmFsYW5jZUJlZm9yZSAtIDFuKTsKICAgICAgICB9KTsKICAgICAgfSk7CgogICAgICBkZXNjcmliZSgnd2hlbiB0aGVyZSBpcyBhIHByZXZpb3VzIGFwcHJvdmFsIGJ1cm5lZCcsIGZ1bmN0aW9uICgpIHsKICAgICAgICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGF3YWl0IHRoaXMudG9rZW4uY29ubmVjdCh0aGlzLm93bmVyKS5hcHByb3ZlKHRoaXMuYXBwcm92ZWQsIHRva2VuSWQpOwogICAgICAgICAgYXdhaXQgdGhpcy50b2tlbi5jb25uZWN0KHRoaXMub3duZXIpLmJ1cm4odG9rZW5JZCk7CiAgICAgICAgfSk7CgogICAgICAgIGRlc2NyaWJlKCdnZXRBcHByb3ZlZCcsIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGl0KCdyZXZlcnRzJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgICBhd2FpdCBleHBlY3QodGhpcy50b2tlbi5nZXRBcHByb3ZlZCh0b2tlbklkKSkKICAgICAgICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy50b2tlbiwgJ0VSQzcyMU5vbmV4aXN0ZW50VG9rZW4nKQogICAgICAgICAgICAgIC53aXRoQXJncyh0b2tlbklkKTsKICAgICAgICAgIH0pOwogICAgICAgIH0pOwogICAgICB9KTsKCiAgICAgIGRlc2NyaWJlKCd3aGVuIHRoZXJlIGlzIG5vIHByZXZpb3VzIGFwcHJvdmFsIGJ1cm5lZCcsIGZ1bmN0aW9uICgpIHsKICAgICAgICBpdCgncmV2ZXJ0cycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLnRva2VuLmNvbm5lY3QodGhpcy5hbm90aGVyKS5idXJuKHRva2VuSWQpKQogICAgICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy50b2tlbiwgJ0VSQzcyMUluc3VmZmljaWVudEFwcHJvdmFsJykKICAgICAgICAgICAgLndpdGhBcmdzKHRoaXMuYW5vdGhlciwgdG9rZW5JZCk7CiAgICAgICAgfSk7CiAgICAgIH0pOwoKICAgICAgZGVzY3JpYmUoJ3doZW4gdGhlIGdpdmVuIHRva2VuIElEIHdhcyBub3QgdHJhY2tlZCBieSB0aGlzIGNvbnRyYWN0JywgZnVuY3Rpb24gKCkgewogICAgICAgIGl0KCdyZXZlcnRzJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMudG9rZW4uY29ubmVjdCh0aGlzLm93bmVyKS5idXJuKHVua25vd25Ub2tlbklkKSkKICAgICAgICAgICAgLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMudG9rZW4sICdFUkM3MjFOb25leGlzdGVudFRva2VuJykKICAgICAgICAgICAgLndpdGhBcmdzKHVua25vd25Ub2tlbklkKTsKICAgICAgICB9KTsKICAgICAgfSk7CiAgICB9KTsKICB9KTsKfSk7Cg==
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+const name = 'Non Fungible Token';
+const symbol = 'NFT';
+const tokenId = 1n;
+const otherTokenId = 2n;
+const unknownTokenId = 3n;
+
+async function fixture() {
+  const [owner, approved, another] = await ethers.getSigners();
+  const token = await ethers.deployContract('$ERC721Burnable', [name, symbol]);
+  return { owner, approved, another, token };
+}
+
+describe('ERC721Burnable', function () {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  describe('like a burnable ERC721', function () {
+    beforeEach(async function () {
+      await this.token.$_mint(this.owner, tokenId);
+      await this.token.$_mint(this.owner, otherTokenId);
+    });
+
+    describe('burn', function () {
+      describe('when successful', function () {
+        it('emits a burn event, burns the given token ID and adjusts the balance of the owner', async function () {
+          const balanceBefore = await this.token.balanceOf(this.owner);
+
+          await expect(this.token.connect(this.owner).burn(tokenId))
+            .to.emit(this.token, 'Transfer')
+            .withArgs(this.owner, ethers.ZeroAddress, tokenId);
+
+          await expect(this.token.ownerOf(tokenId))
+            .to.be.revertedWithCustomError(this.token, 'ERC721NonexistentToken')
+            .withArgs(tokenId);
+
+          expect(await this.token.balanceOf(this.owner)).to.equal(balanceBefore - 1n);
+        });
+      });
+
+      describe('when there is a previous approval burned', function () {
+        beforeEach(async function () {
+          await this.token.connect(this.owner).approve(this.approved, tokenId);
+          await this.token.connect(this.owner).burn(tokenId);
+        });
+
+        describe('getApproved', function () {
+          it('reverts', async function () {
+            await expect(this.token.getApproved(tokenId))
+              .to.be.revertedWithCustomError(this.token, 'ERC721NonexistentToken')
+              .withArgs(tokenId);
+          });
+        });
+      });
+
+      describe('when there is no previous approval burned', function () {
+        it('reverts', async function () {
+          await expect(this.token.connect(this.another).burn(tokenId))
+            .to.be.revertedWithCustomError(this.token, 'ERC721InsufficientApproval')
+            .withArgs(this.another, tokenId);
+        });
+      });
+
+      describe('when the given token ID was not tracked by this contract', function () {
+        it('reverts', async function () {
+          await expect(this.token.connect(this.owner).burn(unknownTokenId))
+            .to.be.revertedWithCustomError(this.token, 'ERC721NonexistentToken')
+            .withArgs(unknownTokenId);
+        });
+      });
+    });
+  });
+});
