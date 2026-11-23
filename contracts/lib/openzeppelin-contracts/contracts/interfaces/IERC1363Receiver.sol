@@ -1,1 +1,32 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAoaW50ZXJmYWNlcy9JRVJDMTM2M1JlY2VpdmVyLnNvbCkKCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKLyoqCiAqIEB0aXRsZSBJRVJDMTM2M1JlY2VpdmVyCiAqIEBkZXYgSW50ZXJmYWNlIGZvciBhbnkgY29udHJhY3QgdGhhdCB3YW50cyB0byBzdXBwb3J0IGB0cmFuc2ZlckFuZENhbGxgIG9yIGB0cmFuc2ZlckZyb21BbmRDYWxsYAogKiBmcm9tIEVSQy0xMzYzIHRva2VuIGNvbnRyYWN0cy4KICovCmludGVyZmFjZSBJRVJDMTM2M1JlY2VpdmVyIHsKICAgIC8qKgogICAgICogQGRldiBXaGVuZXZlciBFUkMtMTM2MyB0b2tlbnMgYXJlIHRyYW5zZmVycmVkIHRvIHRoaXMgY29udHJhY3QgdmlhIGB0cmFuc2ZlckFuZENhbGxgIG9yIGB0cmFuc2ZlckZyb21BbmRDYWxsYAogICAgICogYnkgYG9wZXJhdG9yYCBmcm9tIGBmcm9tYCwgdGhpcyBmdW5jdGlvbiBpcyBjYWxsZWQuCiAgICAgKgogICAgICogTk9URTogVG8gYWNjZXB0IHRoZSB0cmFuc2ZlciwgdGhpcyBtdXN0IHJldHVybgogICAgICogYGJ5dGVzNChrZWNjYWsyNTYoIm9uVHJhbnNmZXJSZWNlaXZlZChhZGRyZXNzLGFkZHJlc3MsdWludDI1NixieXRlcykiKSlgCiAgICAgKiAoaS5lLiAweDg4YTdjYTVjLCBvciBpdHMgb3duIGZ1bmN0aW9uIHNlbGVjdG9yKS4KICAgICAqCiAgICAgKiBAcGFyYW0gb3BlcmF0b3IgVGhlIGFkZHJlc3Mgd2hpY2ggY2FsbGVkIGB0cmFuc2ZlckFuZENhbGxgIG9yIGB0cmFuc2ZlckZyb21BbmRDYWxsYCBmdW5jdGlvbi4KICAgICAqIEBwYXJhbSBmcm9tIFRoZSBhZGRyZXNzIHdoaWNoIHRoZSB0b2tlbnMgYXJlIHRyYW5zZmVycmVkIGZyb20uCiAgICAgKiBAcGFyYW0gdmFsdWUgVGhlIGFtb3VudCBvZiB0b2tlbnMgdHJhbnNmZXJyZWQuCiAgICAgKiBAcGFyYW0gZGF0YSBBZGRpdGlvbmFsIGRhdGEgd2l0aCBubyBzcGVjaWZpZWQgZm9ybWF0LgogICAgICogQHJldHVybiBgYnl0ZXM0KGtlY2NhazI1Nigib25UcmFuc2ZlclJlY2VpdmVkKGFkZHJlc3MsYWRkcmVzcyx1aW50MjU2LGJ5dGVzKSIpKWAgaWYgdHJhbnNmZXIgaXMgYWxsb3dlZCB1bmxlc3MgdGhyb3dpbmcuCiAgICAgKi8KICAgIGZ1bmN0aW9uIG9uVHJhbnNmZXJSZWNlaXZlZCgKICAgICAgICBhZGRyZXNzIG9wZXJhdG9yLAogICAgICAgIGFkZHJlc3MgZnJvbSwKICAgICAgICB1aW50MjU2IHZhbHVlLAogICAgICAgIGJ5dGVzIGNhbGxkYXRhIGRhdGEKICAgICkgZXh0ZXJuYWwgcmV0dXJucyAoYnl0ZXM0KTsKfQo=
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (interfaces/IERC1363Receiver.sol)
+
+pragma solidity ^0.8.20;
+
+/**
+ * @title IERC1363Receiver
+ * @dev Interface for any contract that wants to support `transferAndCall` or `transferFromAndCall`
+ * from ERC-1363 token contracts.
+ */
+interface IERC1363Receiver {
+    /**
+     * @dev Whenever ERC-1363 tokens are transferred to this contract via `transferAndCall` or `transferFromAndCall`
+     * by `operator` from `from`, this function is called.
+     *
+     * NOTE: To accept the transfer, this must return
+     * `bytes4(keccak256("onTransferReceived(address,address,uint256,bytes)"))`
+     * (i.e. 0x88a7ca5c, or its own function selector).
+     *
+     * @param operator The address which called `transferAndCall` or `transferFromAndCall` function.
+     * @param from The address which the tokens are transferred from.
+     * @param value The amount of tokens transferred.
+     * @param data Additional data with no specified format.
+     * @return `bytes4(keccak256("onTransferReceived(address,address,uint256,bytes)"))` if transfer is allowed unless throwing.
+     */
+    function onTransferReceived(
+        address operator,
+        address from,
+        uint256 value,
+        bytes calldata data
+    ) external returns (bytes4);
+}
