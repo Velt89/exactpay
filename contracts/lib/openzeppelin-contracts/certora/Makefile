@@ -1,1 +1,54 @@
-ZGVmYXVsdDogaGVscAoKU1JDICAgOj0gLi4vY29udHJhY3RzCkRTVCAgIDo9IHBhdGNoZWQKRElGRiAgOj0gZGlmZgpTUkNTICA6PSAkKHNoZWxsIGZpbmQgJChTUkMpIC10eXBlIGYpCkRTVFMgIDo9ICQoc2hlbGwgZmluZCAkKERTVCkgLXR5cGUgZikKRElGRlMgOj0gJChzaGVsbCBmaW5kICQoRElGRikgLXR5cGUgZikKCiMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMKIyBBcHBseSBhbGwgcGF0Y2hlcyBpbiB0aGUgJERJRkYgZm9sZGVyIHRvIHRoZSAkRFNUIGZvbGRlcgphcHBseTogJChEU1QpICQocGF0c3Vic3QgJChESUZGKS8lLnBhdGNoLCQoRFNUKS8lLCQoc3Vic3QgXywvLCQoRElGRlMpKSkKCiMgUmVzZXQgdGhlICREU1QgZm9sZGVyCiQoRFNUKTogRk9SQ0UKCUBybSAtcmYgJEAKCUBjcCAtciAkKFNSQykgJEAKCiMgVXBkYXRlIGEgc29saWRpdHkgZmlsZSBpbiB0aGUgJERTVCBkaXJlY3RvcnkgdXNpbmcgdGhlIGNvcnJlc3BvbmRpbmcgcGF0Y2gKJChEU1QpLyUuc29sOiBGT1JDRSB8ICQoRFNUKQoJQGVjaG8gQXBwbHlpbmcgcGF0Y2ggdG8gJEAKCUBwYXRjaCAtcDAgLWQgJChEU1QpIDwgJChwYXRzdWJzdCAkKERTVClfJSwkKERJRkYpLyUucGF0Y2gsJChzdWJzdCAvLF8sJEApKQoKIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIwojIFJlY29yZCBhbGwgZGlmZmVyZW5jZSBiZXR3ZWVuICRTUkMgYW5kICREU1QgaW4gcGF0Y2hlcwpyZWNvcmQ6ICQoRElGRikgJChwYXRzdWJzdCAlLCQoRElGRikvJS5wYXRjaCwkKHN1YnN0IC8sXywkKHN1YnN0ICQoU1JDKS8sLCQoU1JDUykpICQoc3Vic3QgJChEU1QpLywsJChEU1RTKSkpKQoKIyBDcmVhdGUgdGhlICRESUZGIGZvbGRlcgokKERJRkYpOiBGT1JDRQoJQHJtIC1yZiAkQAoJQG1rZGlyICRACgojIENyZWF0ZSB0aGUgcGF0Y2ggZmlsZSBieSBjb21wYXJpbmcgdGhlIHNvdXJjZSBhbmQgdGhlIGRlc3RpbmF0aW9uCiQoRElGRikvJS5wYXRjaDogRk9SQ0UgfCAkKERJRkYpCglAZWNobyBHZW5lcmF0aW5nIHBhdGNoICRACglAZGlmZiAtcnVOIFwKCQkkKHBhdHN1YnN0ICQoRElGRikvJS5wYXRjaCwkKFNSQykvJSwkKHN1YnN0IF8sLywkQCkpIFwKCQkkKHBhdHN1YnN0ICQoRElGRikvJS5wYXRjaCwkKERTVCkvJSwkKHN1YnN0IF8sLywkQCkpIFwKCQl8IHNlZCAncyskKFNSQykvKytnJyBcCgkJfCBzZWQgJ3MrJChEU1QpLysrZycgXAoJCT4gJEAKCUBbIC1zICRAIF0gfHwgcm0gJEAKCiMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMKaGVscDoKCUBlY2hvICJ1c2FnZToiCglAZWNobyAiICBtYWtlIGFwcGx5OiAgY3JlYXRlICQoRFNUKSBkaXJlY3RvcnkgYnkgYXBwbHlpbmcgdGhlIHBhdGNoZXMgdG8gJChTUkMpIgoJQGVjaG8gIiAgbWFrZSByZWNvcmQ6IHJlY29yZCB0aGUgcGF0Y2hlcyBjYXB0dXJpbmcgdGhlIGRpZmZlcmVuY2VzIGJldHdlZW4gJChTUkMpIGFuZCAkKERTVCkiCglAZWNobyAiICBtYWtlIGNsZWFuOiAgcmVtb3ZlIGFsbCBnZW5lcmF0ZWQgZmlsZXMgKHRob3NlIGlnbm9yZWQgYnkgZ2l0KSIKCmNsZWFuOgoJZ2l0IGNsZWFuIC1mZFgKCkZPUkNFOiA7Cg==
+default: help
+
+SRC   := ../contracts
+DST   := patched
+DIFF  := diff
+SRCS  := $(shell find $(SRC) -type f)
+DSTS  := $(shell find $(DST) -type f)
+DIFFS := $(shell find $(DIFF) -type f)
+
+###############################################################################
+# Apply all patches in the $DIFF folder to the $DST folder
+apply: $(DST) $(patsubst $(DIFF)/%.patch,$(DST)/%,$(subst _,/,$(DIFFS)))
+
+# Reset the $DST folder
+$(DST): FORCE
+	@rm -rf $@
+	@cp -r $(SRC) $@
+
+# Update a solidity file in the $DST directory using the corresponding patch
+$(DST)/%.sol: FORCE | $(DST)
+	@echo Applying patch to $@
+	@patch -p0 -d $(DST) < $(patsubst $(DST)_%,$(DIFF)/%.patch,$(subst /,_,$@))
+
+###############################################################################
+# Record all difference between $SRC and $DST in patches
+record: $(DIFF) $(patsubst %,$(DIFF)/%.patch,$(subst /,_,$(subst $(SRC)/,,$(SRCS)) $(subst $(DST)/,,$(DSTS))))
+
+# Create the $DIFF folder
+$(DIFF): FORCE
+	@rm -rf $@
+	@mkdir $@
+
+# Create the patch file by comparing the source and the destination
+$(DIFF)/%.patch: FORCE | $(DIFF)
+	@echo Generating patch $@
+	@diff -ruN \
+		$(patsubst $(DIFF)/%.patch,$(SRC)/%,$(subst _,/,$@)) \
+		$(patsubst $(DIFF)/%.patch,$(DST)/%,$(subst _,/,$@)) \
+		| sed 's+$(SRC)/++g' \
+		| sed 's+$(DST)/++g' \
+		> $@
+	@[ -s $@ ] || rm $@
+
+###############################################################################
+help:
+	@echo "usage:"
+	@echo "  make apply:  create $(DST) directory by applying the patches to $(SRC)"
+	@echo "  make record: record the patches capturing the differences between $(SRC) and $(DST)"
+	@echo "  make clean:  remove all generated files (those ignored by git)"
+
+clean:
+	git clean -fdX
+
+FORCE: ;
