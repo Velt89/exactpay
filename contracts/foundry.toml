@@ -1,1 +1,21 @@
-W3Byb2ZpbGUuZGVmYXVsdF0Kc3JjID0gInNyYyIKb3V0ID0gIm91dCIKbGlicyA9IFsibGliIl0KIyBBZXZ1bSBydW5zIHRoZSBTaGFuZ2hhaSBFVk06IG5vIE1DT1BZLCBUU1RPUkUvVExPQUQgb3IgYmxvYiBvcGNvZGVzLgojIE5ldmVyIHJhaXNlIHRoaXMgdG8gImNhbmN1biIsIG9yIGNvbnRyYWN0cyB0aGF0IHBhc3MgdGVzdHMgd2lsbCBmYWlsIG9uIGNoYWluLgpzb2xjX3ZlcnNpb24gPSAiMC44LjI0Igpldm1fdmVyc2lvbiA9ICJzaGFuZ2hhaSIKb3B0aW1pemVyID0gdHJ1ZQpvcHRpbWl6ZXJfcnVucyA9IDIwMApyZW1hcHBpbmdzID0gWwogICJAb3BlbnplcHBlbGluL2NvbnRyYWN0cy89bGliL29wZW56ZXBwZWxpbi1jb250cmFjdHMvY29udHJhY3RzLyIsCiAgImZvcmdlLXN0ZC89bGliL2ZvcmdlLXN0ZC9zcmMvIiwKXQoKW3JwY19lbmRwb2ludHNdCmFldnVtID0gImh0dHBzOi8vcnBjLXRlc3QucWRheS5pbmZvIgpsb2NhbCA9ICJodHRwOi8vMTI3LjAuMC4xOjg1NDUiCgpbZm10XQpsaW5lX2xlbmd0aCA9IDExMAo=
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+# Aevum runs the Shanghai EVM: no MCOPY, TSTORE/TLOAD or blob opcodes.
+# Never raise this to "cancun", or contracts that pass tests will fail on chain.
+solc_version = "0.8.24"
+evm_version = "shanghai"
+optimizer = true
+optimizer_runs = 200
+remappings = [
+  "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+  "forge-std/=lib/forge-std/src/",
+]
+
+[rpc_endpoints]
+aevum = "https://rpc-test.qday.info"
+local = "http://127.0.0.1:8545"
+
+[fmt]
+line_length = 110
