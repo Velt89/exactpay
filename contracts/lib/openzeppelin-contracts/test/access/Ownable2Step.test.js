@@ -1,1 +1,102 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKYXN5bmMgZnVuY3Rpb24gZml4dHVyZSgpIHsKICBjb25zdCBbb3duZXIsIGFjY291bnRBLCBhY2NvdW50Ql0gPSBhd2FpdCBldGhlcnMuZ2V0U2lnbmVycygpOwogIGNvbnN0IG93bmFibGUyU3RlcCA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnJE93bmFibGUyU3RlcCcsIFtvd25lcl0pOwogIHJldHVybiB7CiAgICBvd25hYmxlMlN0ZXAsCiAgICBvd25lciwKICAgIGFjY291bnRBLAogICAgYWNjb3VudEIsCiAgfTsKfQoKZGVzY3JpYmUoJ093bmFibGUyU3RlcCcsIGZ1bmN0aW9uICgpIHsKICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgIE9iamVjdC5hc3NpZ24odGhpcywgYXdhaXQgbG9hZEZpeHR1cmUoZml4dHVyZSkpOwogIH0pOwoKICBkZXNjcmliZSgndHJhbnNmZXIgb3duZXJzaGlwJywgZnVuY3Rpb24gKCkgewogICAgaXQoJ3N0YXJ0aW5nIGEgdHJhbnNmZXIgZG9lcyBub3QgY2hhbmdlIG93bmVyJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCBleHBlY3QodGhpcy5vd25hYmxlMlN0ZXAuY29ubmVjdCh0aGlzLm93bmVyKS50cmFuc2Zlck93bmVyc2hpcCh0aGlzLmFjY291bnRBKSkKICAgICAgICAudG8uZW1pdCh0aGlzLm93bmFibGUyU3RlcCwgJ093bmVyc2hpcFRyYW5zZmVyU3RhcnRlZCcpCiAgICAgICAgLndpdGhBcmdzKHRoaXMub3duZXIsIHRoaXMuYWNjb3VudEEpOwoKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMub3duYWJsZTJTdGVwLm93bmVyKCkpLnRvLmVxdWFsKHRoaXMub3duZXIpOwogICAgICBleHBlY3QoYXdhaXQgdGhpcy5vd25hYmxlMlN0ZXAucGVuZGluZ093bmVyKCkpLnRvLmVxdWFsKHRoaXMuYWNjb3VudEEpOwogICAgfSk7CgogICAgaXQoJ2NoYW5nZXMgb3duZXIgYWZ0ZXIgdHJhbnNmZXInLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IHRoaXMub3duYWJsZTJTdGVwLmNvbm5lY3QodGhpcy5vd25lcikudHJhbnNmZXJPd25lcnNoaXAodGhpcy5hY2NvdW50QSk7CgogICAgICBhd2FpdCBleHBlY3QodGhpcy5vd25hYmxlMlN0ZXAuY29ubmVjdCh0aGlzLmFjY291bnRBKS5hY2NlcHRPd25lcnNoaXAoKSkKICAgICAgICAudG8uZW1pdCh0aGlzLm93bmFibGUyU3RlcCwgJ093bmVyc2hpcFRyYW5zZmVycmVkJykKICAgICAgICAud2l0aEFyZ3ModGhpcy5vd25lciwgdGhpcy5hY2NvdW50QSk7CgogICAgICBleHBlY3QoYXdhaXQgdGhpcy5vd25hYmxlMlN0ZXAub3duZXIoKSkudG8uZXF1YWwodGhpcy5hY2NvdW50QSk7CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm93bmFibGUyU3RlcC5wZW5kaW5nT3duZXIoKSkudG8uZXF1YWwoZXRoZXJzLlplcm9BZGRyZXNzKTsKICAgIH0pOwoKICAgIGl0KCdndWFyZHMgdHJhbnNmZXIgYWdhaW5zdCBpbnZhbGlkIHVzZXInLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IHRoaXMub3duYWJsZTJTdGVwLmNvbm5lY3QodGhpcy5vd25lcikudHJhbnNmZXJPd25lcnNoaXAodGhpcy5hY2NvdW50QSk7CgogICAgICBhd2FpdCBleHBlY3QodGhpcy5vd25hYmxlMlN0ZXAuY29ubmVjdCh0aGlzLmFjY291bnRCKS5hY2NlcHRPd25lcnNoaXAoKSkKICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy5vd25hYmxlMlN0ZXAsICdPd25hYmxlVW5hdXRob3JpemVkQWNjb3VudCcpCiAgICAgICAgLndpdGhBcmdzKHRoaXMuYWNjb3VudEIpOwogICAgfSk7CiAgfSk7CgogIGRlc2NyaWJlKCdyZW5vdW5jaW5nIG93bmVyc2hpcCcsIGZ1bmN0aW9uICgpIHsKICAgIGl0KCdjaGFuZ2VzIG93bmVyIGFmdGVyIHJlbm91bmNpbmcgb3duZXJzaGlwJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCBleHBlY3QodGhpcy5vd25hYmxlMlN0ZXAuY29ubmVjdCh0aGlzLm93bmVyKS5yZW5vdW5jZU93bmVyc2hpcCgpKQogICAgICAgIC50by5lbWl0KHRoaXMub3duYWJsZTJTdGVwLCAnT3duZXJzaGlwVHJhbnNmZXJyZWQnKQogICAgICAgIC53aXRoQXJncyh0aGlzLm93bmVyLCBldGhlcnMuWmVyb0FkZHJlc3MpOwoKICAgICAgLy8gSWYgcmVub3VuY2VPd25lcnNoaXAgaXMgcmVtb3ZlZCBmcm9tIHBhcmVudCBhbiBhbHRlcm5hdGl2ZSBpcyBuZWVkZWQgLi4uCiAgICAgIC8vIHdpdGhvdXQgaXQgaXMgZGlmZmljdWx0IHRvIGNsZWFubHkgcmVub3VuY2Ugd2l0aCB0aGUgdHdvIHN0ZXAgcHJvY2VzcwogICAgICAvLyBzZWU6IGh0dHBzOi8vZ2l0aHViLmNvbS9PcGVuWmVwcGVsaW4vb3BlbnplcHBlbGluLWNvbnRyYWN0cy9wdWxsLzM2MjAjZGlzY3Vzc2lvbl9yOTU3OTMwMzg4CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm93bmFibGUyU3RlcC5vd25lcigpKS50by5lcXVhbChldGhlcnMuWmVyb0FkZHJlc3MpOwogICAgfSk7CgogICAgaXQoJ3BlbmRpbmcgb3duZXIgcmVzZXRzIGFmdGVyIHJlbm91bmNpbmcgb3duZXJzaGlwJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCB0aGlzLm93bmFibGUyU3RlcC5jb25uZWN0KHRoaXMub3duZXIpLnRyYW5zZmVyT3duZXJzaGlwKHRoaXMuYWNjb3VudEEpOwogICAgICBleHBlY3QoYXdhaXQgdGhpcy5vd25hYmxlMlN0ZXAucGVuZGluZ093bmVyKCkpLnRvLmVxdWFsKHRoaXMuYWNjb3VudEEpOwoKICAgICAgYXdhaXQgdGhpcy5vd25hYmxlMlN0ZXAuY29ubmVjdCh0aGlzLm93bmVyKS5yZW5vdW5jZU93bmVyc2hpcCgpOwogICAgICBleHBlY3QoYXdhaXQgdGhpcy5vd25hYmxlMlN0ZXAucGVuZGluZ093bmVyKCkpLnRvLmVxdWFsKGV0aGVycy5aZXJvQWRkcmVzcyk7CgogICAgICBhd2FpdCBleHBlY3QodGhpcy5vd25hYmxlMlN0ZXAuY29ubmVjdCh0aGlzLmFjY291bnRBKS5hY2NlcHRPd25lcnNoaXAoKSkKICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy5vd25hYmxlMlN0ZXAsICdPd25hYmxlVW5hdXRob3JpemVkQWNjb3VudCcpCiAgICAgICAgLndpdGhBcmdzKHRoaXMuYWNjb3VudEEpOwogICAgfSk7CgogICAgaXQoJ2FsbG93cyB0byByZWNvdmVyIGFjY2VzcyB1c2luZyB0aGUgaW50ZXJuYWwgX3RyYW5zZmVyT3duZXJzaGlwJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCB0aGlzLm93bmFibGUyU3RlcC5jb25uZWN0KHRoaXMub3duZXIpLnJlbm91bmNlT3duZXJzaGlwKCk7CgogICAgICBhd2FpdCBleHBlY3QodGhpcy5vd25hYmxlMlN0ZXAuJF90cmFuc2Zlck93bmVyc2hpcCh0aGlzLmFjY291bnRBKSkKICAgICAgICAudG8uZW1pdCh0aGlzLm93bmFibGUyU3RlcCwgJ093bmVyc2hpcFRyYW5zZmVycmVkJykKICAgICAgICAud2l0aEFyZ3MoZXRoZXJzLlplcm9BZGRyZXNzLCB0aGlzLmFjY291bnRBKTsKCiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm93bmFibGUyU3RlcC5vd25lcigpKS50by5lcXVhbCh0aGlzLmFjY291bnRBKTsKICAgIH0pOwoKICAgIGl0KCdhbGxvd3MgdGhlIG93bmVyIHRvIGNhbmNlbCBhbiBpbml0aWF0ZWQgb3duZXJzaGlwIHRyYW5zZmVyIGJ5IHNldHRpbmcgbmV3T3duZXIgdG8gemVybyBhZGRyZXNzJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAvLyBpbml0aWF0ZSBvd25lcnNoaXAgdHJhbnNmZXIgdG8gYWNjb3VudEEKICAgICAgYXdhaXQgdGhpcy5vd25hYmxlMlN0ZXAuY29ubmVjdCh0aGlzLm93bmVyKS50cmFuc2Zlck93bmVyc2hpcCh0aGlzLmFjY291bnRBKTsKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMub3duYWJsZTJTdGVwLnBlbmRpbmdPd25lcigpKS50by5lcXVhbCh0aGlzLmFjY291bnRBKTsKCiAgICAgIC8vIGNhbmNlbCB0aGUgb3duZXJzaGlwIHRyYW5zZmVyIGJ5IHNldHRpbmcgbmV3T3duZXIgdG8gemVybyBhZGRyZXNzCiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm93bmFibGUyU3RlcC5jb25uZWN0KHRoaXMub3duZXIpLnRyYW5zZmVyT3duZXJzaGlwKGV0aGVycy5aZXJvQWRkcmVzcykpCiAgICAgICAgLnRvLmVtaXQodGhpcy5vd25hYmxlMlN0ZXAsICdPd25lcnNoaXBUcmFuc2ZlclN0YXJ0ZWQnKQogICAgICAgIC53aXRoQXJncyh0aGlzLm93bmVyLCBldGhlcnMuWmVyb0FkZHJlc3MpOwogICAgICBleHBlY3QoYXdhaXQgdGhpcy5vd25hYmxlMlN0ZXAucGVuZGluZ093bmVyKCkpLnRvLmVxdWFsKGV0aGVycy5aZXJvQWRkcmVzcyk7CgogICAgICAvLyB2ZXJpZnkgdGhhdCBhY2NvdW50QSBjYW5ub3QgYWNjZXB0IG93bmVyc2hpcCBhbnltb3JlCiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm93bmFibGUyU3RlcC5jb25uZWN0KHRoaXMuYWNjb3VudEEpLmFjY2VwdE93bmVyc2hpcCgpKQogICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLm93bmFibGUyU3RlcCwgJ093bmFibGVVbmF1dGhvcml6ZWRBY2NvdW50JykKICAgICAgICAud2l0aEFyZ3ModGhpcy5hY2NvdW50QSk7CiAgICB9KTsKICB9KTsKfSk7Cg==
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+async function fixture() {
+  const [owner, accountA, accountB] = await ethers.getSigners();
+  const ownable2Step = await ethers.deployContract('$Ownable2Step', [owner]);
+  return {
+    ownable2Step,
+    owner,
+    accountA,
+    accountB,
+  };
+}
+
+describe('Ownable2Step', function () {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  describe('transfer ownership', function () {
+    it('starting a transfer does not change owner', async function () {
+      await expect(this.ownable2Step.connect(this.owner).transferOwnership(this.accountA))
+        .to.emit(this.ownable2Step, 'OwnershipTransferStarted')
+        .withArgs(this.owner, this.accountA);
+
+      expect(await this.ownable2Step.owner()).to.equal(this.owner);
+      expect(await this.ownable2Step.pendingOwner()).to.equal(this.accountA);
+    });
+
+    it('changes owner after transfer', async function () {
+      await this.ownable2Step.connect(this.owner).transferOwnership(this.accountA);
+
+      await expect(this.ownable2Step.connect(this.accountA).acceptOwnership())
+        .to.emit(this.ownable2Step, 'OwnershipTransferred')
+        .withArgs(this.owner, this.accountA);
+
+      expect(await this.ownable2Step.owner()).to.equal(this.accountA);
+      expect(await this.ownable2Step.pendingOwner()).to.equal(ethers.ZeroAddress);
+    });
+
+    it('guards transfer against invalid user', async function () {
+      await this.ownable2Step.connect(this.owner).transferOwnership(this.accountA);
+
+      await expect(this.ownable2Step.connect(this.accountB).acceptOwnership())
+        .to.be.revertedWithCustomError(this.ownable2Step, 'OwnableUnauthorizedAccount')
+        .withArgs(this.accountB);
+    });
+  });
+
+  describe('renouncing ownership', function () {
+    it('changes owner after renouncing ownership', async function () {
+      await expect(this.ownable2Step.connect(this.owner).renounceOwnership())
+        .to.emit(this.ownable2Step, 'OwnershipTransferred')
+        .withArgs(this.owner, ethers.ZeroAddress);
+
+      // If renounceOwnership is removed from parent an alternative is needed ...
+      // without it is difficult to cleanly renounce with the two step process
+      // see: https://github.com/OpenZeppelin/openzeppelin-contracts/pull/3620#discussion_r957930388
+      expect(await this.ownable2Step.owner()).to.equal(ethers.ZeroAddress);
+    });
+
+    it('pending owner resets after renouncing ownership', async function () {
+      await this.ownable2Step.connect(this.owner).transferOwnership(this.accountA);
+      expect(await this.ownable2Step.pendingOwner()).to.equal(this.accountA);
+
+      await this.ownable2Step.connect(this.owner).renounceOwnership();
+      expect(await this.ownable2Step.pendingOwner()).to.equal(ethers.ZeroAddress);
+
+      await expect(this.ownable2Step.connect(this.accountA).acceptOwnership())
+        .to.be.revertedWithCustomError(this.ownable2Step, 'OwnableUnauthorizedAccount')
+        .withArgs(this.accountA);
+    });
+
+    it('allows to recover access using the internal _transferOwnership', async function () {
+      await this.ownable2Step.connect(this.owner).renounceOwnership();
+
+      await expect(this.ownable2Step.$_transferOwnership(this.accountA))
+        .to.emit(this.ownable2Step, 'OwnershipTransferred')
+        .withArgs(ethers.ZeroAddress, this.accountA);
+
+      expect(await this.ownable2Step.owner()).to.equal(this.accountA);
+    });
+
+    it('allows the owner to cancel an initiated ownership transfer by setting newOwner to zero address', async function () {
+      // initiate ownership transfer to accountA
+      await this.ownable2Step.connect(this.owner).transferOwnership(this.accountA);
+      expect(await this.ownable2Step.pendingOwner()).to.equal(this.accountA);
+
+      // cancel the ownership transfer by setting newOwner to zero address
+      await expect(this.ownable2Step.connect(this.owner).transferOwnership(ethers.ZeroAddress))
+        .to.emit(this.ownable2Step, 'OwnershipTransferStarted')
+        .withArgs(this.owner, ethers.ZeroAddress);
+      expect(await this.ownable2Step.pendingOwner()).to.equal(ethers.ZeroAddress);
+
+      // verify that accountA cannot accept ownership anymore
+      await expect(this.ownable2Step.connect(this.accountA).acceptOwnership())
+        .to.be.revertedWithCustomError(this.ownable2Step, 'OwnableUnauthorizedAccount')
+        .withArgs(this.accountA);
+    });
+  });
+});
