@@ -1,1 +1,404 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IEFHUEwtMy4wCnByYWdtYSBzb2xpZGl0eSA+PTAuOC4wIDwwLjkuMDsKCmltcG9ydCAiZm9yZ2Utc3RkL1Rlc3Quc29sIjsKCi8vIFRPRE86IHVzZSBpbnRlcmZhY2UgcHJvdmlkZWQgYnkgZm9yZ2Utc3RkIHYxLjAuMCBvciBsYXRlcgovLyBpbXBvcnQge0lFUkMyMH0gZnJvbSAiZm9yZ2Utc3RkL2ludGVyZmFjZXMvSUVSQzIwLnNvbCI7CmludGVyZmFjZSBJRVJDMjAgewogICAgZXZlbnQgVHJhbnNmZXIoYWRkcmVzcyBpbmRleGVkIGZyb20sIGFkZHJlc3MgaW5kZXhlZCB0bywgdWludCB2YWx1ZSk7CiAgICBldmVudCBBcHByb3ZhbChhZGRyZXNzIGluZGV4ZWQgb3duZXIsIGFkZHJlc3MgaW5kZXhlZCBzcGVuZGVyLCB1aW50IHZhbHVlKTsKICAgIGZ1bmN0aW9uIHRvdGFsU3VwcGx5KCkgZXh0ZXJuYWwgdmlldyByZXR1cm5zICh1aW50KTsKICAgIGZ1bmN0aW9uIGJhbGFuY2VPZihhZGRyZXNzIGFjY291bnQpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAodWludCk7CiAgICBmdW5jdGlvbiB0cmFuc2ZlcihhZGRyZXNzIHRvLCB1aW50IGFtb3VudCkgZXh0ZXJuYWwgcmV0dXJucyAoYm9vbCk7CiAgICBmdW5jdGlvbiBhbGxvd2FuY2UoYWRkcmVzcyBvd25lciwgYWRkcmVzcyBzcGVuZGVyKSBleHRlcm5hbCB2aWV3IHJldHVybnMgKHVpbnQpOwogICAgZnVuY3Rpb24gYXBwcm92ZShhZGRyZXNzIHNwZW5kZXIsIHVpbnQgYW1vdW50KSBleHRlcm5hbCByZXR1cm5zIChib29sKTsKICAgIGZ1bmN0aW9uIHRyYW5zZmVyRnJvbShhZGRyZXNzIGZyb20sIGFkZHJlc3MgdG8sIHVpbnQgYW1vdW50KSBleHRlcm5hbCByZXR1cm5zIChib29sKTsKfQoKLy8gVE9ETzogdXNlIGludGVyZmFjZSBwcm92aWRlZCBieSBmb3JnZS1zdGQgdjEuMC4wIG9yIGxhdGVyCi8vIGltcG9ydCB7SUVSQzQ2MjZ9IGZyb20gImZvcmdlLXN0ZC9pbnRlcmZhY2VzL0lFUkM0NjI2LnNvbCI7CmludGVyZmFjZSBJRVJDNDYyNiBpcyBJRVJDMjAgewogICAgZXZlbnQgRGVwb3NpdChhZGRyZXNzIGluZGV4ZWQgY2FsbGVyLCBhZGRyZXNzIGluZGV4ZWQgb3duZXIsIHVpbnQgYXNzZXRzLCB1aW50IHNoYXJlcyk7CiAgICBldmVudCBXaXRoZHJhdyhhZGRyZXNzIGluZGV4ZWQgY2FsbGVyLCBhZGRyZXNzIGluZGV4ZWQgcmVjZWl2ZXIsIGFkZHJlc3MgaW5kZXhlZCBvd25lciwgdWludCBhc3NldHMsIHVpbnQgc2hhcmVzKTsKICAgIGZ1bmN0aW9uIGFzc2V0KCkgZXh0ZXJuYWwgdmlldyByZXR1cm5zIChhZGRyZXNzIGFzc2V0VG9rZW5BZGRyZXNzKTsKICAgIGZ1bmN0aW9uIHRvdGFsQXNzZXRzKCkgZXh0ZXJuYWwgdmlldyByZXR1cm5zICh1aW50IHRvdGFsTWFuYWdlZEFzc2V0cyk7CiAgICBmdW5jdGlvbiBjb252ZXJ0VG9TaGFyZXModWludCBhc3NldHMpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAodWludCBzaGFyZXMpOwogICAgZnVuY3Rpb24gY29udmVydFRvQXNzZXRzKHVpbnQgc2hhcmVzKSBleHRlcm5hbCB2aWV3IHJldHVybnMgKHVpbnQgYXNzZXRzKTsKICAgIGZ1bmN0aW9uIG1heERlcG9zaXQoYWRkcmVzcyByZWNlaXZlcikgZXh0ZXJuYWwgdmlldyByZXR1cm5zICh1aW50IG1heEFzc2V0cyk7CiAgICBmdW5jdGlvbiBwcmV2aWV3RGVwb3NpdCh1aW50IGFzc2V0cykgZXh0ZXJuYWwgdmlldyByZXR1cm5zICh1aW50IHNoYXJlcyk7CiAgICBmdW5jdGlvbiBkZXBvc2l0KHVpbnQgYXNzZXRzLCBhZGRyZXNzIHJlY2VpdmVyKSBleHRlcm5hbCByZXR1cm5zICh1aW50IHNoYXJlcyk7CiAgICBmdW5jdGlvbiBtYXhNaW50KGFkZHJlc3MgcmVjZWl2ZXIpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAodWludCBtYXhTaGFyZXMpOwogICAgZnVuY3Rpb24gcHJldmlld01pbnQodWludCBzaGFyZXMpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAodWludCBhc3NldHMpOwogICAgZnVuY3Rpb24gbWludCh1aW50IHNoYXJlcywgYWRkcmVzcyByZWNlaXZlcikgZXh0ZXJuYWwgcmV0dXJucyAodWludCBhc3NldHMpOwogICAgZnVuY3Rpb24gbWF4V2l0aGRyYXcoYWRkcmVzcyBvd25lcikgZXh0ZXJuYWwgdmlldyByZXR1cm5zICh1aW50IG1heEFzc2V0cyk7CiAgICBmdW5jdGlvbiBwcmV2aWV3V2l0aGRyYXcodWludCBhc3NldHMpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAodWludCBzaGFyZXMpOwogICAgZnVuY3Rpb24gd2l0aGRyYXcodWludCBhc3NldHMsIGFkZHJlc3MgcmVjZWl2ZXIsIGFkZHJlc3Mgb3duZXIpIGV4dGVybmFsIHJldHVybnMgKHVpbnQgc2hhcmVzKTsKICAgIGZ1bmN0aW9uIG1heFJlZGVlbShhZGRyZXNzIG93bmVyKSBleHRlcm5hbCB2aWV3IHJldHVybnMgKHVpbnQgbWF4U2hhcmVzKTsKICAgIGZ1bmN0aW9uIHByZXZpZXdSZWRlZW0odWludCBzaGFyZXMpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAodWludCBhc3NldHMpOwogICAgZnVuY3Rpb24gcmVkZWVtKHVpbnQgc2hhcmVzLCBhZGRyZXNzIHJlY2VpdmVyLCBhZGRyZXNzIG93bmVyKSBleHRlcm5hbCByZXR1cm5zICh1aW50IGFzc2V0cyk7Cn0KCmFic3RyYWN0IGNvbnRyYWN0IEVSQzQ2MjZQcm9wIGlzIFRlc3QgewogICAgdWludCBpbnRlcm5hbCBfZGVsdGFfOwoKICAgIGFkZHJlc3MgaW50ZXJuYWwgX3VuZGVybHlpbmdfOwogICAgYWRkcmVzcyBpbnRlcm5hbCBfdmF1bHRfOwoKICAgIGJvb2wgaW50ZXJuYWwgX3ZhdWx0TWF5QmVFbXB0eTsKICAgIGJvb2wgaW50ZXJuYWwgX3VubGltaXRlZEFtb3VudDsKCiAgICAvLwogICAgLy8gYXNzZXQKICAgIC8vCgogICAgLy8gYXNzZXQKICAgIC8vICJNVVNUIE5PVCByZXZlcnQuIgogICAgZnVuY3Rpb24gcHJvcF9hc3NldChhZGRyZXNzIGNhbGxlcikgcHVibGljIHsKICAgICAgICB2bS5wcmFuayhjYWxsZXIpOyBJRVJDNDYyNihfdmF1bHRfKS5hc3NldCgpOwogICAgfQoKICAgIC8vIHRvdGFsQXNzZXRzCiAgICAvLyAiTVVTVCBOT1QgcmV2ZXJ0LiIKICAgIGZ1bmN0aW9uIHByb3BfdG90YWxBc3NldHMoYWRkcmVzcyBjYWxsZXIpIHB1YmxpYyB7CiAgICAgICAgdm0ucHJhbmsoY2FsbGVyKTsgSUVSQzQ2MjYoX3ZhdWx0XykudG90YWxBc3NldHMoKTsKICAgIH0KCiAgICAvLwogICAgLy8gY29udmVydAogICAgLy8KCiAgICAvLyBjb252ZXJ0VG9TaGFyZXMKICAgIC8vICJNVVNUIE5PVCBzaG93IGFueSB2YXJpYXRpb25zIGRlcGVuZGluZyBvbiB0aGUgY2FsbGVyLiIKICAgIGZ1bmN0aW9uIHByb3BfY29udmVydFRvU2hhcmVzKGFkZHJlc3MgY2FsbGVyMSwgYWRkcmVzcyBjYWxsZXIyLCB1aW50IGFzc2V0cykgcHVibGljIHsKICAgICAgICB2bS5wcmFuayhjYWxsZXIxKTsgdWludCByZXMxID0gdmF1bHRfY29udmVydFRvU2hhcmVzKGFzc2V0cyk7IC8vICJNQVkgcmV2ZXJ0IGR1ZSB0byBpbnRlZ2VyIG92ZXJmbG93IGNhdXNlZCBieSBhbiB1bnJlYXNvbmFibHkgbGFyZ2UgaW5wdXQuIgogICAgICAgIHZtLnByYW5rKGNhbGxlcjIpOyB1aW50IHJlczIgPSB2YXVsdF9jb252ZXJ0VG9TaGFyZXMoYXNzZXRzKTsgLy8gIk1BWSByZXZlcnQgZHVlIHRvIGludGVnZXIgb3ZlcmZsb3cgY2F1c2VkIGJ5IGFuIHVucmVhc29uYWJseSBsYXJnZSBpbnB1dC4iCiAgICAgICAgYXNzZXJ0RXEocmVzMSwgcmVzMik7CiAgICB9CgogICAgLy8gY29udmVydFRvQXNzZXRzCiAgICAvLyAiTVVTVCBOT1Qgc2hvdyBhbnkgdmFyaWF0aW9ucyBkZXBlbmRpbmcgb24gdGhlIGNhbGxlci4iCiAgICBmdW5jdGlvbiBwcm9wX2NvbnZlcnRUb0Fzc2V0cyhhZGRyZXNzIGNhbGxlcjEsIGFkZHJlc3MgY2FsbGVyMiwgdWludCBzaGFyZXMpIHB1YmxpYyB7CiAgICAgICAgdm0ucHJhbmsoY2FsbGVyMSk7IHVpbnQgcmVzMSA9IHZhdWx0X2NvbnZlcnRUb0Fzc2V0cyhzaGFyZXMpOyAvLyAiTUFZIHJldmVydCBkdWUgdG8gaW50ZWdlciBvdmVyZmxvdyBjYXVzZWQgYnkgYW4gdW5yZWFzb25hYmx5IGxhcmdlIGlucHV0LiIKICAgICAgICB2bS5wcmFuayhjYWxsZXIyKTsgdWludCByZXMyID0gdmF1bHRfY29udmVydFRvQXNzZXRzKHNoYXJlcyk7IC8vICJNQVkgcmV2ZXJ0IGR1ZSB0byBpbnRlZ2VyIG92ZXJmbG93IGNhdXNlZCBieSBhbiB1bnJlYXNvbmFibHkgbGFyZ2UgaW5wdXQuIgogICAgICAgIGFzc2VydEVxKHJlczEsIHJlczIpOwogICAgfQoKICAgIC8vCiAgICAvLyBkZXBvc2l0CiAgICAvLwoKICAgIC8vIG1heERlcG9zaXQKICAgIC8vICJNVVNUIE5PVCByZXZlcnQuIgogICAgZnVuY3Rpb24gcHJvcF9tYXhEZXBvc2l0KGFkZHJlc3MgY2FsbGVyLCBhZGRyZXNzIHJlY2VpdmVyKSBwdWJsaWMgewogICAgICAgIHZtLnByYW5rKGNhbGxlcik7IElFUkM0NjI2KF92YXVsdF8pLm1heERlcG9zaXQocmVjZWl2ZXIpOwogICAgfQoKICAgIC8vIHByZXZpZXdEZXBvc2l0CiAgICAvLyAiTVVTVCByZXR1cm4gYXMgY2xvc2UgdG8gYW5kIG5vIG1vcmUgdGhhbiB0aGUgZXhhY3QgYW1vdW50IG9mIFZhdWx0CiAgICAvLyBzaGFyZXMgdGhhdCB3b3VsZCBiZSBtaW50ZWQgaW4gYSBkZXBvc2l0IGNhbGwgaW4gdGhlIHNhbWUgdHJhbnNhY3Rpb24uCiAgICAvLyBJLmUuIGRlcG9zaXQgc2hvdWxkIHJldHVybiB0aGUgc2FtZSBvciBtb3JlIHNoYXJlcyBhcyBwcmV2aWV3RGVwb3NpdCBpZgogICAgLy8gY2FsbGVkIGluIHRoZSBzYW1lIHRyYW5zYWN0aW9uLiIKICAgIGZ1bmN0aW9uIHByb3BfcHJldmlld0RlcG9zaXQoYWRkcmVzcyBjYWxsZXIsIGFkZHJlc3MgcmVjZWl2ZXIsIGFkZHJlc3Mgb3RoZXIsIHVpbnQgYXNzZXRzKSBwdWJsaWMgewogICAgICAgIHZtLnByYW5rKG90aGVyKTsgdWludCBzaGFyZXNQcmV2aWV3ID0gdmF1bHRfcHJldmlld0RlcG9zaXQoYXNzZXRzKTsgLy8gIk1BWSByZXZlcnQgZHVlIHRvIG90aGVyIGNvbmRpdGlvbnMgdGhhdCB3b3VsZCBhbHNvIGNhdXNlIGRlcG9zaXQgdG8gcmV2ZXJ0LiIKICAgICAgICB2bS5wcmFuayhjYWxsZXIpOyB1aW50IHNoYXJlc0FjdHVhbCA9IHZhdWx0X2RlcG9zaXQoYXNzZXRzLCByZWNlaXZlcik7CiAgICAgICAgYXNzZXJ0QXBwcm94R2VBYnMoc2hhcmVzQWN0dWFsLCBzaGFyZXNQcmV2aWV3LCBfZGVsdGFfKTsKICAgIH0KCiAgICAvLyBkZXBvc2l0CiAgICBmdW5jdGlvbiBwcm9wX2RlcG9zaXQoYWRkcmVzcyBjYWxsZXIsIGFkZHJlc3MgcmVjZWl2ZXIsIHVpbnQgYXNzZXRzKSBwdWJsaWMgewogICAgICAgIHVpbnQgb2xkQ2FsbGVyQXNzZXQgPSBJRVJDMjAoX3VuZGVybHlpbmdfKS5iYWxhbmNlT2YoY2FsbGVyKTsKICAgICAgICB1aW50IG9sZFJlY2VpdmVyU2hhcmUgPSBJRVJDMjAoX3ZhdWx0XykuYmFsYW5jZU9mKHJlY2VpdmVyKTsKICAgICAgICB1aW50IG9sZEFsbG93YW5jZSA9IElFUkMyMChfdW5kZXJseWluZ18pLmFsbG93YW5jZShjYWxsZXIsIF92YXVsdF8pOwoKICAgICAgICB2bS5wcmFuayhjYWxsZXIpOyB1aW50IHNoYXJlcyA9IHZhdWx0X2RlcG9zaXQoYXNzZXRzLCByZWNlaXZlcik7CgogICAgICAgIHVpbnQgbmV3Q2FsbGVyQXNzZXQgPSBJRVJDMjAoX3VuZGVybHlpbmdfKS5iYWxhbmNlT2YoY2FsbGVyKTsKICAgICAgICB1aW50IG5ld1JlY2VpdmVyU2hhcmUgPSBJRVJDMjAoX3ZhdWx0XykuYmFsYW5jZU9mKHJlY2VpdmVyKTsKICAgICAgICB1aW50IG5ld0FsbG93YW5jZSA9IElFUkMyMChfdW5kZXJseWluZ18pLmFsbG93YW5jZShjYWxsZXIsIF92YXVsdF8pOwoKICAgICAgICBhc3NlcnRBcHByb3hFcUFicyhuZXdDYWxsZXJBc3NldCwgb2xkQ2FsbGVyQXNzZXQgLSBhc3NldHMsIF9kZWx0YV8sICJhc3NldCIpOyAvLyBOT1RFOiB0aGlzIG1heSBmYWlsIGlmIHRoZSBjYWxsZXIgaXMgYSBjb250cmFjdCBpbiB3aGljaCB0aGUgYXNzZXQgaXMgc3RvcmVkCiAgICAgICAgYXNzZXJ0QXBwcm94RXFBYnMobmV3UmVjZWl2ZXJTaGFyZSwgb2xkUmVjZWl2ZXJTaGFyZSArIHNoYXJlcywgX2RlbHRhXywgInNoYXJlIik7CiAgICAgICAgaWYgKG9sZEFsbG93YW5jZSAhPSB0eXBlKHVpbnQpLm1heCkgYXNzZXJ0QXBwcm94RXFBYnMobmV3QWxsb3dhbmNlLCBvbGRBbGxvd2FuY2UgLSBhc3NldHMsIF9kZWx0YV8sICJhbGxvd2FuY2UiKTsKICAgIH0KCiAgICAvLwogICAgLy8gbWludAogICAgLy8KCiAgICAvLyBtYXhNaW50CiAgICAvLyAiTVVTVCBOT1QgcmV2ZXJ0LiIKICAgIGZ1bmN0aW9uIHByb3BfbWF4TWludChhZGRyZXNzIGNhbGxlciwgYWRkcmVzcyByZWNlaXZlcikgcHVibGljIHsKICAgICAgICB2bS5wcmFuayhjYWxsZXIpOyBJRVJDNDYyNihfdmF1bHRfKS5tYXhNaW50KHJlY2VpdmVyKTsKICAgIH0KCiAgICAvLyBwcmV2aWV3TWludAogICAgLy8gIk1VU1QgcmV0dXJuIGFzIGNsb3NlIHRvIGFuZCBubyBmZXdlciB0aGFuIHRoZSBleGFjdCBhbW91bnQgb2YgYXNzZXRzCiAgICAvLyB0aGF0IHdvdWxkIGJlIGRlcG9zaXRlZCBpbiBhIG1pbnQgY2FsbCBpbiB0aGUgc2FtZSB0cmFuc2FjdGlvbi4gSS5lLiBtaW50CiAgICAvLyBzaG91bGQgcmV0dXJuIHRoZSBzYW1lIG9yIGZld2VyIGFzc2V0cyBhcyBwcmV2aWV3TWludCBpZiBjYWxsZWQgaW4gdGhlCiAgICAvLyBzYW1lIHRyYW5zYWN0aW9uLiIKICAgIGZ1bmN0aW9uIHByb3BfcHJldmlld01pbnQoYWRkcmVzcyBjYWxsZXIsIGFkZHJlc3MgcmVjZWl2ZXIsIGFkZHJlc3Mgb3RoZXIsIHVpbnQgc2hhcmVzKSBwdWJsaWMgewogICAgICAgIHZtLnByYW5rKG90aGVyKTsgdWludCBhc3NldHNQcmV2aWV3ID0gdmF1bHRfcHJldmlld01pbnQoc2hhcmVzKTsKICAgICAgICB2bS5wcmFuayhjYWxsZXIpOyB1aW50IGFzc2V0c0FjdHVhbCA9IHZhdWx0X21pbnQoc2hhcmVzLCByZWNlaXZlcik7CiAgICAgICAgYXNzZXJ0QXBwcm94TGVBYnMoYXNzZXRzQWN0dWFsLCBhc3NldHNQcmV2aWV3LCBfZGVsdGFfKTsKICAgIH0KCiAgICAvLyBtaW50CiAgICBmdW5jdGlvbiBwcm9wX21pbnQoYWRkcmVzcyBjYWxsZXIsIGFkZHJlc3MgcmVjZWl2ZXIsIHVpbnQgc2hhcmVzKSBwdWJsaWMgewogICAgICAgIHVpbnQgb2xkQ2FsbGVyQXNzZXQgPSBJRVJDMjAoX3VuZGVybHlpbmdfKS5iYWxhbmNlT2YoY2FsbGVyKTsKICAgICAgICB1aW50IG9sZFJlY2VpdmVyU2hhcmUgPSBJRVJDMjAoX3ZhdWx0XykuYmFsYW5jZU9mKHJlY2VpdmVyKTsKICAgICAgICB1aW50IG9sZEFsbG93YW5jZSA9IElFUkMyMChfdW5kZXJseWluZ18pLmFsbG93YW5jZShjYWxsZXIsIF92YXVsdF8pOwoKICAgICAgICB2bS5wcmFuayhjYWxsZXIpOyB1aW50IGFzc2V0cyA9IHZhdWx0X21pbnQoc2hhcmVzLCByZWNlaXZlcik7CgogICAgICAgIHVpbnQgbmV3Q2FsbGVyQXNzZXQgPSBJRVJDMjAoX3VuZGVybHlpbmdfKS5iYWxhbmNlT2YoY2FsbGVyKTsKICAgICAgICB1aW50IG5ld1JlY2VpdmVyU2hhcmUgPSBJRVJDMjAoX3ZhdWx0XykuYmFsYW5jZU9mKHJlY2VpdmVyKTsKICAgICAgICB1aW50IG5ld0FsbG93YW5jZSA9IElFUkMyMChfdW5kZXJseWluZ18pLmFsbG93YW5jZShjYWxsZXIsIF92YXVsdF8pOwoKICAgICAgICBhc3NlcnRBcHByb3hFcUFicyhuZXdDYWxsZXJBc3NldCwgb2xkQ2FsbGVyQXNzZXQgLSBhc3NldHMsIF9kZWx0YV8sICJhc3NldCIpOyAvLyBOT1RFOiB0aGlzIG1heSBmYWlsIGlmIHRoZSBjYWxsZXIgaXMgYSBjb250cmFjdCBpbiB3aGljaCB0aGUgYXNzZXQgaXMgc3RvcmVkCiAgICAgICAgYXNzZXJ0QXBwcm94RXFBYnMobmV3UmVjZWl2ZXJTaGFyZSwgb2xkUmVjZWl2ZXJTaGFyZSArIHNoYXJlcywgX2RlbHRhXywgInNoYXJlIik7CiAgICAgICAgaWYgKG9sZEFsbG93YW5jZSAhPSB0eXBlKHVpbnQpLm1heCkgYXNzZXJ0QXBwcm94RXFBYnMobmV3QWxsb3dhbmNlLCBvbGRBbGxvd2FuY2UgLSBhc3NldHMsIF9kZWx0YV8sICJhbGxvd2FuY2UiKTsKICAgIH0KCiAgICAvLwogICAgLy8gd2l0aGRyYXcKICAgIC8vCgogICAgLy8gbWF4V2l0aGRyYXcKICAgIC8vICJNVVNUIE5PVCByZXZlcnQuIgogICAgLy8gTk9URTogc29tZSBpbXBsZW1lbnRhdGlvbnMgZmFpbGVkIGR1ZSB0byBhcml0aG1ldGljIG92ZXJmbG93CiAgICBmdW5jdGlvbiBwcm9wX21heFdpdGhkcmF3KGFkZHJlc3MgY2FsbGVyLCBhZGRyZXNzIG93bmVyKSBwdWJsaWMgewogICAgICAgIHZtLnByYW5rKGNhbGxlcik7IElFUkM0NjI2KF92YXVsdF8pLm1heFdpdGhkcmF3KG93bmVyKTsKICAgIH0KCiAgICAvLyBwcmV2aWV3V2l0aGRyYXcKICAgIC8vICJNVVNUIHJldHVybiBhcyBjbG9zZSB0byBhbmQgbm8gZmV3ZXIgdGhhbiB0aGUgZXhhY3QgYW1vdW50IG9mIFZhdWx0CiAgICAvLyBzaGFyZXMgdGhhdCB3b3VsZCBiZSBidXJuZWQgaW4gYSB3aXRoZHJhdyBjYWxsIGluIHRoZSBzYW1lIHRyYW5zYWN0aW9uLgogICAgLy8gSS5lLiB3aXRoZHJhdyBzaG91bGQgcmV0dXJuIHRoZSBzYW1lIG9yIGZld2VyIHNoYXJlcyBhcyBwcmV2aWV3V2l0aGRyYXcKICAgIC8vIGlmIGNhbGxlZCBpbiB0aGUgc2FtZSB0cmFuc2FjdGlvbi4iCiAgICBmdW5jdGlvbiBwcm9wX3ByZXZpZXdXaXRoZHJhdyhhZGRyZXNzIGNhbGxlciwgYWRkcmVzcyByZWNlaXZlciwgYWRkcmVzcyBvd25lciwgYWRkcmVzcyBvdGhlciwgdWludCBhc3NldHMpIHB1YmxpYyB7CiAgICAgICAgdm0ucHJhbmsob3RoZXIpOyB1aW50IHByZXZpZXcgPSB2YXVsdF9wcmV2aWV3V2l0aGRyYXcoYXNzZXRzKTsKICAgICAgICB2bS5wcmFuayhjYWxsZXIpOyB1aW50IGFjdHVhbCA9IHZhdWx0X3dpdGhkcmF3KGFzc2V0cywgcmVjZWl2ZXIsIG93bmVyKTsKICAgICAgICBhc3NlcnRBcHByb3hMZUFicyhhY3R1YWwsIHByZXZpZXcsIF9kZWx0YV8pOwogICAgfQoKICAgIC8vIHdpdGhkcmF3CiAgICBmdW5jdGlvbiBwcm9wX3dpdGhkcmF3KGFkZHJlc3MgY2FsbGVyLCBhZGRyZXNzIHJlY2VpdmVyLCBhZGRyZXNzIG93bmVyLCB1aW50IGFzc2V0cykgcHVibGljIHsKICAgICAgICB1aW50IG9sZFJlY2VpdmVyQXNzZXQgPSBJRVJDMjAoX3VuZGVybHlpbmdfKS5iYWxhbmNlT2YocmVjZWl2ZXIpOwogICAgICAgIHVpbnQgb2xkT3duZXJTaGFyZSA9IElFUkMyMChfdmF1bHRfKS5iYWxhbmNlT2Yob3duZXIpOwogICAgICAgIHVpbnQgb2xkQWxsb3dhbmNlID0gSUVSQzIwKF92YXVsdF8pLmFsbG93YW5jZShvd25lciwgY2FsbGVyKTsKCiAgICAgICAgdm0ucHJhbmsoY2FsbGVyKTsgdWludCBzaGFyZXMgPSB2YXVsdF93aXRoZHJhdyhhc3NldHMsIHJlY2VpdmVyLCBvd25lcik7CgogICAgICAgIHVpbnQgbmV3UmVjZWl2ZXJBc3NldCA9IElFUkMyMChfdW5kZXJseWluZ18pLmJhbGFuY2VPZihyZWNlaXZlcik7CiAgICAgICAgdWludCBuZXdPd25lclNoYXJlID0gSUVSQzIwKF92YXVsdF8pLmJhbGFuY2VPZihvd25lcik7CiAgICAgICAgdWludCBuZXdBbGxvd2FuY2UgPSBJRVJDMjAoX3ZhdWx0XykuYWxsb3dhbmNlKG93bmVyLCBjYWxsZXIpOwoKICAgICAgICBhc3NlcnRBcHByb3hFcUFicyhuZXdPd25lclNoYXJlLCBvbGRPd25lclNoYXJlIC0gc2hhcmVzLCBfZGVsdGFfLCAic2hhcmUiKTsKICAgICAgICBhc3NlcnRBcHByb3hFcUFicyhuZXdSZWNlaXZlckFzc2V0LCBvbGRSZWNlaXZlckFzc2V0ICsgYXNzZXRzLCBfZGVsdGFfLCAiYXNzZXQiKTsgLy8gTk9URTogdGhpcyBtYXkgZmFpbCBpZiB0aGUgcmVjZWl2ZXIgaXMgYSBjb250cmFjdCBpbiB3aGljaCB0aGUgYXNzZXQgaXMgc3RvcmVkCiAgICAgICAgaWYgKGNhbGxlciAhPSBvd25lciAmJiBvbGRBbGxvd2FuY2UgIT0gdHlwZSh1aW50KS5tYXgpIGFzc2VydEFwcHJveEVxQWJzKG5ld0FsbG93YW5jZSwgb2xkQWxsb3dhbmNlIC0gc2hhcmVzLCBfZGVsdGFfLCAiYWxsb3dhbmNlIik7CgogICAgICAgIGFzc2VydFRydWUoY2FsbGVyID09IG93bmVyIHx8IG9sZEFsbG93YW5jZSAhPSAwIHx8IChzaGFyZXMgPT0gMCAmJiBhc3NldHMgPT0gMCksICJhY2Nlc3MgY29udHJvbCIpOwogICAgfQoKICAgIC8vCiAgICAvLyByZWRlZW0KICAgIC8vCgogICAgLy8gbWF4UmVkZWVtCiAgICAvLyAiTVVTVCBOT1QgcmV2ZXJ0LiIKICAgIGZ1bmN0aW9uIHByb3BfbWF4UmVkZWVtKGFkZHJlc3MgY2FsbGVyLCBhZGRyZXNzIG93bmVyKSBwdWJsaWMgewogICAgICAgIHZtLnByYW5rKGNhbGxlcik7IElFUkM0NjI2KF92YXVsdF8pLm1heFJlZGVlbShvd25lcik7CiAgICB9CgogICAgLy8gcHJldmlld1JlZGVlbQogICAgLy8gIk1VU1QgcmV0dXJuIGFzIGNsb3NlIHRvIGFuZCBubyBtb3JlIHRoYW4gdGhlIGV4YWN0IGFtb3VudCBvZiBhc3NldHMgdGhhdAogICAgLy8gd291bGQgYmUgd2l0aGRyYXduIGluIGEgcmVkZWVtIGNhbGwgaW4gdGhlIHNhbWUgdHJhbnNhY3Rpb24uIEkuZS4gcmVkZWVtCiAgICAvLyBzaG91bGQgcmV0dXJuIHRoZSBzYW1lIG9yIG1vcmUgYXNzZXRzIGFzIHByZXZpZXdSZWRlZW0gaWYgY2FsbGVkIGluIHRoZQogICAgLy8gc2FtZSB0cmFuc2FjdGlvbi4iCiAgICBmdW5jdGlvbiBwcm9wX3ByZXZpZXdSZWRlZW0oYWRkcmVzcyBjYWxsZXIsIGFkZHJlc3MgcmVjZWl2ZXIsIGFkZHJlc3Mgb3duZXIsIGFkZHJlc3Mgb3RoZXIsIHVpbnQgc2hhcmVzKSBwdWJsaWMgewogICAgICAgIHZtLnByYW5rKG90aGVyKTsgdWludCBwcmV2aWV3ID0gdmF1bHRfcHJldmlld1JlZGVlbShzaGFyZXMpOwogICAgICAgIHZtLnByYW5rKGNhbGxlcik7IHVpbnQgYWN0dWFsID0gdmF1bHRfcmVkZWVtKHNoYXJlcywgcmVjZWl2ZXIsIG93bmVyKTsKICAgICAgICBhc3NlcnRBcHByb3hHZUFicyhhY3R1YWwsIHByZXZpZXcsIF9kZWx0YV8pOwogICAgfQoKICAgIC8vIHJlZGVlbQogICAgZnVuY3Rpb24gcHJvcF9yZWRlZW0oYWRkcmVzcyBjYWxsZXIsIGFkZHJlc3MgcmVjZWl2ZXIsIGFkZHJlc3Mgb3duZXIsIHVpbnQgc2hhcmVzKSBwdWJsaWMgewogICAgICAgIHVpbnQgb2xkUmVjZWl2ZXJBc3NldCA9IElFUkMyMChfdW5kZXJseWluZ18pLmJhbGFuY2VPZihyZWNlaXZlcik7CiAgICAgICAgdWludCBvbGRPd25lclNoYXJlID0gSUVSQzIwKF92YXVsdF8pLmJhbGFuY2VPZihvd25lcik7CiAgICAgICAgdWludCBvbGRBbGxvd2FuY2UgPSBJRVJDMjAoX3ZhdWx0XykuYWxsb3dhbmNlKG93bmVyLCBjYWxsZXIpOwoKICAgICAgICB2bS5wcmFuayhjYWxsZXIpOyB1aW50IGFzc2V0cyA9IHZhdWx0X3JlZGVlbShzaGFyZXMsIHJlY2VpdmVyLCBvd25lcik7CgogICAgICAgIHVpbnQgbmV3UmVjZWl2ZXJBc3NldCA9IElFUkMyMChfdW5kZXJseWluZ18pLmJhbGFuY2VPZihyZWNlaXZlcik7CiAgICAgICAgdWludCBuZXdPd25lclNoYXJlID0gSUVSQzIwKF92YXVsdF8pLmJhbGFuY2VPZihvd25lcik7CiAgICAgICAgdWludCBuZXdBbGxvd2FuY2UgPSBJRVJDMjAoX3ZhdWx0XykuYWxsb3dhbmNlKG93bmVyLCBjYWxsZXIpOwoKICAgICAgICBhc3NlcnRBcHByb3hFcUFicyhuZXdPd25lclNoYXJlLCBvbGRPd25lclNoYXJlIC0gc2hhcmVzLCBfZGVsdGFfLCAic2hhcmUiKTsKICAgICAgICBhc3NlcnRBcHByb3hFcUFicyhuZXdSZWNlaXZlckFzc2V0LCBvbGRSZWNlaXZlckFzc2V0ICsgYXNzZXRzLCBfZGVsdGFfLCAiYXNzZXQiKTsgLy8gTk9URTogdGhpcyBtYXkgZmFpbCBpZiB0aGUgcmVjZWl2ZXIgaXMgYSBjb250cmFjdCBpbiB3aGljaCB0aGUgYXNzZXQgaXMgc3RvcmVkCiAgICAgICAgaWYgKGNhbGxlciAhPSBvd25lciAmJiBvbGRBbGxvd2FuY2UgIT0gdHlwZSh1aW50KS5tYXgpIGFzc2VydEFwcHJveEVxQWJzKG5ld0FsbG93YW5jZSwgb2xkQWxsb3dhbmNlIC0gc2hhcmVzLCBfZGVsdGFfLCAiYWxsb3dhbmNlIik7CgogICAgICAgIGFzc2VydFRydWUoY2FsbGVyID09IG93bmVyIHx8IG9sZEFsbG93YW5jZSAhPSAwIHx8IChzaGFyZXMgPT0gMCAmJiBhc3NldHMgPT0gMCksICJhY2Nlc3MgY29udHJvbCIpOwogICAgfQoKICAgIC8vCiAgICAvLyByb3VuZCB0cmlwIHByb3BlcnRpZXMKICAgIC8vCgogICAgLy8gcmVkZWVtKGRlcG9zaXQoYSkpIDw9IGEKICAgIGZ1bmN0aW9uIHByb3BfUlRfZGVwb3NpdF9yZWRlZW0oYWRkcmVzcyBjYWxsZXIsIHVpbnQgYXNzZXRzKSBwdWJsaWMgewogICAgICAgIGlmICghX3ZhdWx0TWF5QmVFbXB0eSkgdm0uYXNzdW1lKElFUkMyMChfdmF1bHRfKS50b3RhbFN1cHBseSgpID4gMCk7CiAgICAgICAgdm0ucHJhbmsoY2FsbGVyKTsgdWludCBzaGFyZXMgPSB2YXVsdF9kZXBvc2l0KGFzc2V0cywgY2FsbGVyKTsKICAgICAgICB2bS5wcmFuayhjYWxsZXIpOyB1aW50IGFzc2V0czIgPSB2YXVsdF9yZWRlZW0oc2hhcmVzLCBjYWxsZXIsIGNhbGxlcik7CiAgICAgICAgYXNzZXJ0QXBwcm94TGVBYnMoYXNzZXRzMiwgYXNzZXRzLCBfZGVsdGFfKTsKICAgIH0KCiAgICAvLyBzID0gZGVwb3NpdChhKQogICAgLy8gcycgPSB3aXRoZHJhdyhhKQogICAgLy8gcycgPj0gcwogICAgZnVuY3Rpb24gcHJvcF9SVF9kZXBvc2l0X3dpdGhkcmF3KGFkZHJlc3MgY2FsbGVyLCB1aW50IGFzc2V0cykgcHVibGljIHsKICAgICAgICBpZiAoIV92YXVsdE1heUJlRW1wdHkpIHZtLmFzc3VtZShJRVJDMjAoX3ZhdWx0XykudG90YWxTdXBwbHkoKSA+IDApOwogICAgICAgIHZtLnByYW5rKGNhbGxlcik7IHVpbnQgc2hhcmVzMSA9IHZhdWx0X2RlcG9zaXQoYXNzZXRzLCBjYWxsZXIpOwogICAgICAgIHZtLnByYW5rKGNhbGxlcik7IHVpbnQgc2hhcmVzMiA9IHZhdWx0X3dpdGhkcmF3KGFzc2V0cywgY2FsbGVyLCBjYWxsZXIpOwogICAgICAgIGFzc2VydEFwcHJveEdlQWJzKHNoYXJlczIsIHNoYXJlczEsIF9kZWx0YV8pOwogICAgfQoKICAgIC8vIGRlcG9zaXQocmVkZWVtKHMpKSA8PSBzCiAgICBmdW5jdGlvbiBwcm9wX1JUX3JlZGVlbV9kZXBvc2l0KGFkZHJlc3MgY2FsbGVyLCB1aW50IHNoYXJlcykgcHVibGljIHsKICAgICAgICB2bS5wcmFuayhjYWxsZXIpOyB1aW50IGFzc2V0cyA9IHZhdWx0X3JlZGVlbShzaGFyZXMsIGNhbGxlciwgY2FsbGVyKTsKICAgICAgICBpZiAoIV92YXVsdE1heUJlRW1wdHkpIHZtLmFzc3VtZShJRVJDMjAoX3ZhdWx0XykudG90YWxTdXBwbHkoKSA+IDApOwogICAgICAgIHZtLnByYW5rKGNhbGxlcik7IHVpbnQgc2hhcmVzMiA9IHZhdWx0X2RlcG9zaXQoYXNzZXRzLCBjYWxsZXIpOwogICAgICAgIGFzc2VydEFwcHJveExlQWJzKHNoYXJlczIsIHNoYXJlcywgX2RlbHRhXyk7CiAgICB9CgogICAgLy8gYSA9IHJlZGVlbShzKQogICAgLy8gYScgPSBtaW50KHMpCiAgICAvLyBhJyA+PSBhCiAgICBmdW5jdGlvbiBwcm9wX1JUX3JlZGVlbV9taW50KGFkZHJlc3MgY2FsbGVyLCB1aW50IHNoYXJlcykgcHVibGljIHsKICAgICAgICB2bS5wcmFuayhjYWxsZXIpOyB1aW50IGFzc2V0czEgPSB2YXVsdF9yZWRlZW0oc2hhcmVzLCBjYWxsZXIsIGNhbGxlcik7CiAgICAgICAgaWYgKCFfdmF1bHRNYXlCZUVtcHR5KSB2bS5hc3N1bWUoSUVSQzIwKF92YXVsdF8pLnRvdGFsU3VwcGx5KCkgPiAwKTsKICAgICAgICB2bS5wcmFuayhjYWxsZXIpOyB1aW50IGFzc2V0czIgPSB2YXVsdF9taW50KHNoYXJlcywgY2FsbGVyKTsKICAgICAgICBhc3NlcnRBcHByb3hHZUFicyhhc3NldHMyLCBhc3NldHMxLCBfZGVsdGFfKTsKICAgIH0KCiAgICAvLyB3aXRoZHJhdyhtaW50KHMpKSA+PSBzCiAgICBmdW5jdGlvbiBwcm9wX1JUX21pbnRfd2l0aGRyYXcoYWRkcmVzcyBjYWxsZXIsIHVpbnQgc2hhcmVzKSBwdWJsaWMgewogICAgICAgIGlmICghX3ZhdWx0TWF5QmVFbXB0eSkgdm0uYXNzdW1lKElFUkMyMChfdmF1bHRfKS50b3RhbFN1cHBseSgpID4gMCk7CiAgICAgICAgdm0ucHJhbmsoY2FsbGVyKTsgdWludCBhc3NldHMgPSB2YXVsdF9taW50KHNoYXJlcywgY2FsbGVyKTsKICAgICAgICB2bS5wcmFuayhjYWxsZXIpOyB1aW50IHNoYXJlczIgPSB2YXVsdF93aXRoZHJhdyhhc3NldHMsIGNhbGxlciwgY2FsbGVyKTsKICAgICAgICBhc3NlcnRBcHByb3hHZUFicyhzaGFyZXMyLCBzaGFyZXMsIF9kZWx0YV8pOwogICAgfQoKICAgIC8vIGEgPSBtaW50KHMpCiAgICAvLyBhJyA9IHJlZGVlbShzKQogICAgLy8gYScgPD0gYQogICAgZnVuY3Rpb24gcHJvcF9SVF9taW50X3JlZGVlbShhZGRyZXNzIGNhbGxlciwgdWludCBzaGFyZXMpIHB1YmxpYyB7CiAgICAgICAgaWYgKCFfdmF1bHRNYXlCZUVtcHR5KSB2bS5hc3N1bWUoSUVSQzIwKF92YXVsdF8pLnRvdGFsU3VwcGx5KCkgPiAwKTsKICAgICAgICB2bS5wcmFuayhjYWxsZXIpOyB1aW50IGFzc2V0czEgPSB2YXVsdF9taW50KHNoYXJlcywgY2FsbGVyKTsKICAgICAgICB2bS5wcmFuayhjYWxsZXIpOyB1aW50IGFzc2V0czIgPSB2YXVsdF9yZWRlZW0oc2hhcmVzLCBjYWxsZXIsIGNhbGxlcik7CiAgICAgICAgYXNzZXJ0QXBwcm94TGVBYnMoYXNzZXRzMiwgYXNzZXRzMSwgX2RlbHRhXyk7CiAgICB9CgogICAgLy8gbWludCh3aXRoZHJhdyhhKSkgPj0gYQogICAgZnVuY3Rpb24gcHJvcF9SVF93aXRoZHJhd19taW50KGFkZHJlc3MgY2FsbGVyLCB1aW50IGFzc2V0cykgcHVibGljIHsKICAgICAgICB2bS5wcmFuayhjYWxsZXIpOyB1aW50IHNoYXJlcyA9IHZhdWx0X3dpdGhkcmF3KGFzc2V0cywgY2FsbGVyLCBjYWxsZXIpOwogICAgICAgIGlmICghX3ZhdWx0TWF5QmVFbXB0eSkgdm0uYXNzdW1lKElFUkMyMChfdmF1bHRfKS50b3RhbFN1cHBseSgpID4gMCk7CiAgICAgICAgdm0ucHJhbmsoY2FsbGVyKTsgdWludCBhc3NldHMyID0gdmF1bHRfbWludChzaGFyZXMsIGNhbGxlcik7CiAgICAgICAgYXNzZXJ0QXBwcm94R2VBYnMoYXNzZXRzMiwgYXNzZXRzLCBfZGVsdGFfKTsKICAgIH0KCiAgICAvLyBzID0gd2l0aGRyYXcoYSkKICAgIC8vIHMnID0gZGVwb3NpdChhKQogICAgLy8gcycgPD0gcwogICAgZnVuY3Rpb24gcHJvcF9SVF93aXRoZHJhd19kZXBvc2l0KGFkZHJlc3MgY2FsbGVyLCB1aW50IGFzc2V0cykgcHVibGljIHsKICAgICAgICB2bS5wcmFuayhjYWxsZXIpOyB1aW50IHNoYXJlczEgPSB2YXVsdF93aXRoZHJhdyhhc3NldHMsIGNhbGxlciwgY2FsbGVyKTsKICAgICAgICBpZiAoIV92YXVsdE1heUJlRW1wdHkpIHZtLmFzc3VtZShJRVJDMjAoX3ZhdWx0XykudG90YWxTdXBwbHkoKSA+IDApOwogICAgICAgIHZtLnByYW5rKGNhbGxlcik7IHVpbnQgc2hhcmVzMiA9IHZhdWx0X2RlcG9zaXQoYXNzZXRzLCBjYWxsZXIpOwogICAgICAgIGFzc2VydEFwcHJveExlQWJzKHNoYXJlczIsIHNoYXJlczEsIF9kZWx0YV8pOwogICAgfQoKICAgIC8vCiAgICAvLyB1dGlscwogICAgLy8KCiAgICBmdW5jdGlvbiB2YXVsdF9jb252ZXJ0VG9TaGFyZXModWludCBhc3NldHMpIGludGVybmFsIHJldHVybnMgKHVpbnQpIHsKICAgICAgICByZXR1cm4gX2NhbGxfdmF1bHQoYWJpLmVuY29kZVdpdGhTZWxlY3RvcihJRVJDNDYyNi5jb252ZXJ0VG9TaGFyZXMuc2VsZWN0b3IsIGFzc2V0cykpOwogICAgfQogICAgZnVuY3Rpb24gdmF1bHRfY29udmVydFRvQXNzZXRzKHVpbnQgc2hhcmVzKSBpbnRlcm5hbCByZXR1cm5zICh1aW50KSB7CiAgICAgICAgcmV0dXJuIF9jYWxsX3ZhdWx0KGFiaS5lbmNvZGVXaXRoU2VsZWN0b3IoSUVSQzQ2MjYuY29udmVydFRvQXNzZXRzLnNlbGVjdG9yLCBzaGFyZXMpKTsKICAgIH0KCiAgICBmdW5jdGlvbiB2YXVsdF9tYXhEZXBvc2l0KGFkZHJlc3MgcmVjZWl2ZXIpIGludGVybmFsIHJldHVybnMgKHVpbnQpIHsKICAgICAgICByZXR1cm4gX2NhbGxfdmF1bHQoYWJpLmVuY29kZVdpdGhTZWxlY3RvcihJRVJDNDYyNi5tYXhEZXBvc2l0LnNlbGVjdG9yLCByZWNlaXZlcikpOwogICAgfQogICAgZnVuY3Rpb24gdmF1bHRfbWF4TWludChhZGRyZXNzIHJlY2VpdmVyKSBpbnRlcm5hbCByZXR1cm5zICh1aW50KSB7CiAgICAgICAgcmV0dXJuIF9jYWxsX3ZhdWx0KGFiaS5lbmNvZGVXaXRoU2VsZWN0b3IoSUVSQzQ2MjYubWF4TWludC5zZWxlY3RvciwgcmVjZWl2ZXIpKTsKICAgIH0KICAgIGZ1bmN0aW9uIHZhdWx0X21heFdpdGhkcmF3KGFkZHJlc3Mgb3duZXIpIGludGVybmFsIHJldHVybnMgKHVpbnQpIHsKICAgICAgICByZXR1cm4gX2NhbGxfdmF1bHQoYWJpLmVuY29kZVdpdGhTZWxlY3RvcihJRVJDNDYyNi5tYXhXaXRoZHJhdy5zZWxlY3Rvciwgb3duZXIpKTsKICAgIH0KICAgIGZ1bmN0aW9uIHZhdWx0X21heFJlZGVlbShhZGRyZXNzIG93bmVyKSBpbnRlcm5hbCByZXR1cm5zICh1aW50KSB7CiAgICAgICAgcmV0dXJuIF9jYWxsX3ZhdWx0KGFiaS5lbmNvZGVXaXRoU2VsZWN0b3IoSUVSQzQ2MjYubWF4UmVkZWVtLnNlbGVjdG9yLCBvd25lcikpOwogICAgfQoKICAgIGZ1bmN0aW9uIHZhdWx0X3ByZXZpZXdEZXBvc2l0KHVpbnQgYXNzZXRzKSBpbnRlcm5hbCByZXR1cm5zICh1aW50KSB7CiAgICAgICAgcmV0dXJuIF9jYWxsX3ZhdWx0KGFiaS5lbmNvZGVXaXRoU2VsZWN0b3IoSUVSQzQ2MjYucHJldmlld0RlcG9zaXQuc2VsZWN0b3IsIGFzc2V0cykpOwogICAgfQogICAgZnVuY3Rpb24gdmF1bHRfcHJldmlld01pbnQodWludCBzaGFyZXMpIGludGVybmFsIHJldHVybnMgKHVpbnQpIHsKICAgICAgICByZXR1cm4gX2NhbGxfdmF1bHQoYWJpLmVuY29kZVdpdGhTZWxlY3RvcihJRVJDNDYyNi5wcmV2aWV3TWludC5zZWxlY3Rvciwgc2hhcmVzKSk7CiAgICB9CiAgICBmdW5jdGlvbiB2YXVsdF9wcmV2aWV3V2l0aGRyYXcodWludCBhc3NldHMpIGludGVybmFsIHJldHVybnMgKHVpbnQpIHsKICAgICAgICByZXR1cm4gX2NhbGxfdmF1bHQoYWJpLmVuY29kZVdpdGhTZWxlY3RvcihJRVJDNDYyNi5wcmV2aWV3V2l0aGRyYXcuc2VsZWN0b3IsIGFzc2V0cykpOwogICAgfQogICAgZnVuY3Rpb24gdmF1bHRfcHJldmlld1JlZGVlbSh1aW50IHNoYXJlcykgaW50ZXJuYWwgcmV0dXJucyAodWludCkgewogICAgICAgIHJldHVybiBfY2FsbF92YXVsdChhYmkuZW5jb2RlV2l0aFNlbGVjdG9yKElFUkM0NjI2LnByZXZpZXdSZWRlZW0uc2VsZWN0b3IsIHNoYXJlcykpOwogICAgfQoKICAgIGZ1bmN0aW9uIHZhdWx0X2RlcG9zaXQodWludCBhc3NldHMsIGFkZHJlc3MgcmVjZWl2ZXIpIGludGVybmFsIHJldHVybnMgKHVpbnQpIHsKICAgICAgICByZXR1cm4gX2NhbGxfdmF1bHQoYWJpLmVuY29kZVdpdGhTZWxlY3RvcihJRVJDNDYyNi5kZXBvc2l0LnNlbGVjdG9yLCBhc3NldHMsIHJlY2VpdmVyKSk7CiAgICB9CiAgICBmdW5jdGlvbiB2YXVsdF9taW50KHVpbnQgc2hhcmVzLCBhZGRyZXNzIHJlY2VpdmVyKSBpbnRlcm5hbCByZXR1cm5zICh1aW50KSB7CiAgICAgICAgcmV0dXJuIF9jYWxsX3ZhdWx0KGFiaS5lbmNvZGVXaXRoU2VsZWN0b3IoSUVSQzQ2MjYubWludC5zZWxlY3Rvciwgc2hhcmVzLCByZWNlaXZlcikpOwogICAgfQogICAgZnVuY3Rpb24gdmF1bHRfd2l0aGRyYXcodWludCBhc3NldHMsIGFkZHJlc3MgcmVjZWl2ZXIsIGFkZHJlc3Mgb3duZXIpIGludGVybmFsIHJldHVybnMgKHVpbnQpIHsKICAgICAgICByZXR1cm4gX2NhbGxfdmF1bHQoYWJpLmVuY29kZVdpdGhTZWxlY3RvcihJRVJDNDYyNi53aXRoZHJhdy5zZWxlY3RvciwgYXNzZXRzLCByZWNlaXZlciwgb3duZXIpKTsKICAgIH0KICAgIGZ1bmN0aW9uIHZhdWx0X3JlZGVlbSh1aW50IHNoYXJlcywgYWRkcmVzcyByZWNlaXZlciwgYWRkcmVzcyBvd25lcikgaW50ZXJuYWwgcmV0dXJucyAodWludCkgewogICAgICAgIHJldHVybiBfY2FsbF92YXVsdChhYmkuZW5jb2RlV2l0aFNlbGVjdG9yKElFUkM0NjI2LnJlZGVlbS5zZWxlY3Rvciwgc2hhcmVzLCByZWNlaXZlciwgb3duZXIpKTsKICAgIH0KCiAgICBmdW5jdGlvbiBfY2FsbF92YXVsdChieXRlcyBtZW1vcnkgZGF0YSkgaW50ZXJuYWwgcmV0dXJucyAodWludCkgewogICAgICAgIChib29sIHN1Y2Nlc3MsIGJ5dGVzIG1lbW9yeSByZXRkYXRhKSA9IF92YXVsdF8uY2FsbChkYXRhKTsKICAgICAgICBpZiAoc3VjY2VzcykgcmV0dXJuIGFiaS5kZWNvZGUocmV0ZGF0YSwgKHVpbnQpKTsKICAgICAgICB2bS5hc3N1bWUoZmFsc2UpOyAvLyBpZiByZXZlcnRlZCwgZGlzY2FyZCB0aGUgY3VycmVudCBmdXp6IGlucHV0cywgYW5kIGxldCB0aGUgZnV6emVyIHRvIHN0YXJ0IGEgbmV3IGZ1enogcnVuCiAgICAgICAgcmV0dXJuIDA7IC8vIHNpbGVuY2Ugd2FybmluZwogICAgfQoKICAgIGZ1bmN0aW9uIGFzc2VydEFwcHJveEdlQWJzKHVpbnQgYSwgdWludCBiLCB1aW50IG1heERlbHRhKSBpbnRlcm5hbCB7CiAgICAgICAgaWYgKCEoYSA+PSBiKSkgewogICAgICAgICAgICB1aW50IGR0ID0gYiAtIGE7CiAgICAgICAgICAgIGlmIChkdCA+IG1heERlbHRhKSB7CiAgICAgICAgICAgICAgICBlbWl0IGxvZyAgICAgICAgICAgICAgICAoIkVycm9yOiBhID49fiBiIG5vdCBzYXRpc2ZpZWQgW3VpbnRdIik7CiAgICAgICAgICAgICAgICBlbWl0IGxvZ19uYW1lZF91aW50ICAgICAoIiAgIFZhbHVlIGEiLCBhKTsKICAgICAgICAgICAgICAgIGVtaXQgbG9nX25hbWVkX3VpbnQgICAgICgiICAgVmFsdWUgYiIsIGIpOwogICAgICAgICAgICAgICAgZW1pdCBsb2dfbmFtZWRfdWludCAgICAgKCIgTWF4IERlbHRhIiwgbWF4RGVsdGEpOwogICAgICAgICAgICAgICAgZW1pdCBsb2dfbmFtZWRfdWludCAgICAgKCIgICAgIERlbHRhIiwgZHQpOwogICAgICAgICAgICAgICAgZmFpbCgpOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIGZ1bmN0aW9uIGFzc2VydEFwcHJveExlQWJzKHVpbnQgYSwgdWludCBiLCB1aW50IG1heERlbHRhKSBpbnRlcm5hbCB7CiAgICAgICAgaWYgKCEoYSA8PSBiKSkgewogICAgICAgICAgICB1aW50IGR0ID0gYSAtIGI7CiAgICAgICAgICAgIGlmIChkdCA+IG1heERlbHRhKSB7CiAgICAgICAgICAgICAgICBlbWl0IGxvZyAgICAgICAgICAgICAgICAoIkVycm9yOiBhIDw9fiBiIG5vdCBzYXRpc2ZpZWQgW3VpbnRdIik7CiAgICAgICAgICAgICAgICBlbWl0IGxvZ19uYW1lZF91aW50ICAgICAoIiAgIFZhbHVlIGEiLCBhKTsKICAgICAgICAgICAgICAgIGVtaXQgbG9nX25hbWVkX3VpbnQgICAgICgiICAgVmFsdWUgYiIsIGIpOwogICAgICAgICAgICAgICAgZW1pdCBsb2dfbmFtZWRfdWludCAgICAgKCIgTWF4IERlbHRhIiwgbWF4RGVsdGEpOwogICAgICAgICAgICAgICAgZW1pdCBsb2dfbmFtZWRfdWludCAgICAgKCIgICAgIERlbHRhIiwgZHQpOwogICAgICAgICAgICAgICAgZmFpbCgpOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9Cg==
+// SPDX-License-Identifier: AGPL-3.0
+pragma solidity >=0.8.0 <0.9.0;
+
+import "forge-std/Test.sol";
+
+// TODO: use interface provided by forge-std v1.0.0 or later
+// import {IERC20} from "forge-std/interfaces/IERC20.sol";
+interface IERC20 {
+    event Transfer(address indexed from, address indexed to, uint value);
+    event Approval(address indexed owner, address indexed spender, uint value);
+    function totalSupply() external view returns (uint);
+    function balanceOf(address account) external view returns (uint);
+    function transfer(address to, uint amount) external returns (bool);
+    function allowance(address owner, address spender) external view returns (uint);
+    function approve(address spender, uint amount) external returns (bool);
+    function transferFrom(address from, address to, uint amount) external returns (bool);
+}
+
+// TODO: use interface provided by forge-std v1.0.0 or later
+// import {IERC4626} from "forge-std/interfaces/IERC4626.sol";
+interface IERC4626 is IERC20 {
+    event Deposit(address indexed caller, address indexed owner, uint assets, uint shares);
+    event Withdraw(address indexed caller, address indexed receiver, address indexed owner, uint assets, uint shares);
+    function asset() external view returns (address assetTokenAddress);
+    function totalAssets() external view returns (uint totalManagedAssets);
+    function convertToShares(uint assets) external view returns (uint shares);
+    function convertToAssets(uint shares) external view returns (uint assets);
+    function maxDeposit(address receiver) external view returns (uint maxAssets);
+    function previewDeposit(uint assets) external view returns (uint shares);
+    function deposit(uint assets, address receiver) external returns (uint shares);
+    function maxMint(address receiver) external view returns (uint maxShares);
+    function previewMint(uint shares) external view returns (uint assets);
+    function mint(uint shares, address receiver) external returns (uint assets);
+    function maxWithdraw(address owner) external view returns (uint maxAssets);
+    function previewWithdraw(uint assets) external view returns (uint shares);
+    function withdraw(uint assets, address receiver, address owner) external returns (uint shares);
+    function maxRedeem(address owner) external view returns (uint maxShares);
+    function previewRedeem(uint shares) external view returns (uint assets);
+    function redeem(uint shares, address receiver, address owner) external returns (uint assets);
+}
+
+abstract contract ERC4626Prop is Test {
+    uint internal _delta_;
+
+    address internal _underlying_;
+    address internal _vault_;
+
+    bool internal _vaultMayBeEmpty;
+    bool internal _unlimitedAmount;
+
+    //
+    // asset
+    //
+
+    // asset
+    // "MUST NOT revert."
+    function prop_asset(address caller) public {
+        vm.prank(caller); IERC4626(_vault_).asset();
+    }
+
+    // totalAssets
+    // "MUST NOT revert."
+    function prop_totalAssets(address caller) public {
+        vm.prank(caller); IERC4626(_vault_).totalAssets();
+    }
+
+    //
+    // convert
+    //
+
+    // convertToShares
+    // "MUST NOT show any variations depending on the caller."
+    function prop_convertToShares(address caller1, address caller2, uint assets) public {
+        vm.prank(caller1); uint res1 = vault_convertToShares(assets); // "MAY revert due to integer overflow caused by an unreasonably large input."
+        vm.prank(caller2); uint res2 = vault_convertToShares(assets); // "MAY revert due to integer overflow caused by an unreasonably large input."
+        assertEq(res1, res2);
+    }
+
+    // convertToAssets
+    // "MUST NOT show any variations depending on the caller."
+    function prop_convertToAssets(address caller1, address caller2, uint shares) public {
+        vm.prank(caller1); uint res1 = vault_convertToAssets(shares); // "MAY revert due to integer overflow caused by an unreasonably large input."
+        vm.prank(caller2); uint res2 = vault_convertToAssets(shares); // "MAY revert due to integer overflow caused by an unreasonably large input."
+        assertEq(res1, res2);
+    }
+
+    //
+    // deposit
+    //
+
+    // maxDeposit
+    // "MUST NOT revert."
+    function prop_maxDeposit(address caller, address receiver) public {
+        vm.prank(caller); IERC4626(_vault_).maxDeposit(receiver);
+    }
+
+    // previewDeposit
+    // "MUST return as close to and no more than the exact amount of Vault
+    // shares that would be minted in a deposit call in the same transaction.
+    // I.e. deposit should return the same or more shares as previewDeposit if
+    // called in the same transaction."
+    function prop_previewDeposit(address caller, address receiver, address other, uint assets) public {
+        vm.prank(other); uint sharesPreview = vault_previewDeposit(assets); // "MAY revert due to other conditions that would also cause deposit to revert."
+        vm.prank(caller); uint sharesActual = vault_deposit(assets, receiver);
+        assertApproxGeAbs(sharesActual, sharesPreview, _delta_);
+    }
+
+    // deposit
+    function prop_deposit(address caller, address receiver, uint assets) public {
+        uint oldCallerAsset = IERC20(_underlying_).balanceOf(caller);
+        uint oldReceiverShare = IERC20(_vault_).balanceOf(receiver);
+        uint oldAllowance = IERC20(_underlying_).allowance(caller, _vault_);
+
+        vm.prank(caller); uint shares = vault_deposit(assets, receiver);
+
+        uint newCallerAsset = IERC20(_underlying_).balanceOf(caller);
+        uint newReceiverShare = IERC20(_vault_).balanceOf(receiver);
+        uint newAllowance = IERC20(_underlying_).allowance(caller, _vault_);
+
+        assertApproxEqAbs(newCallerAsset, oldCallerAsset - assets, _delta_, "asset"); // NOTE: this may fail if the caller is a contract in which the asset is stored
+        assertApproxEqAbs(newReceiverShare, oldReceiverShare + shares, _delta_, "share");
+        if (oldAllowance != type(uint).max) assertApproxEqAbs(newAllowance, oldAllowance - assets, _delta_, "allowance");
+    }
+
+    //
+    // mint
+    //
+
+    // maxMint
+    // "MUST NOT revert."
+    function prop_maxMint(address caller, address receiver) public {
+        vm.prank(caller); IERC4626(_vault_).maxMint(receiver);
+    }
+
+    // previewMint
+    // "MUST return as close to and no fewer than the exact amount of assets
+    // that would be deposited in a mint call in the same transaction. I.e. mint
+    // should return the same or fewer assets as previewMint if called in the
+    // same transaction."
+    function prop_previewMint(address caller, address receiver, address other, uint shares) public {
+        vm.prank(other); uint assetsPreview = vault_previewMint(shares);
+        vm.prank(caller); uint assetsActual = vault_mint(shares, receiver);
+        assertApproxLeAbs(assetsActual, assetsPreview, _delta_);
+    }
+
+    // mint
+    function prop_mint(address caller, address receiver, uint shares) public {
+        uint oldCallerAsset = IERC20(_underlying_).balanceOf(caller);
+        uint oldReceiverShare = IERC20(_vault_).balanceOf(receiver);
+        uint oldAllowance = IERC20(_underlying_).allowance(caller, _vault_);
+
+        vm.prank(caller); uint assets = vault_mint(shares, receiver);
+
+        uint newCallerAsset = IERC20(_underlying_).balanceOf(caller);
+        uint newReceiverShare = IERC20(_vault_).balanceOf(receiver);
+        uint newAllowance = IERC20(_underlying_).allowance(caller, _vault_);
+
+        assertApproxEqAbs(newCallerAsset, oldCallerAsset - assets, _delta_, "asset"); // NOTE: this may fail if the caller is a contract in which the asset is stored
+        assertApproxEqAbs(newReceiverShare, oldReceiverShare + shares, _delta_, "share");
+        if (oldAllowance != type(uint).max) assertApproxEqAbs(newAllowance, oldAllowance - assets, _delta_, "allowance");
+    }
+
+    //
+    // withdraw
+    //
+
+    // maxWithdraw
+    // "MUST NOT revert."
+    // NOTE: some implementations failed due to arithmetic overflow
+    function prop_maxWithdraw(address caller, address owner) public {
+        vm.prank(caller); IERC4626(_vault_).maxWithdraw(owner);
+    }
+
+    // previewWithdraw
+    // "MUST return as close to and no fewer than the exact amount of Vault
+    // shares that would be burned in a withdraw call in the same transaction.
+    // I.e. withdraw should return the same or fewer shares as previewWithdraw
+    // if called in the same transaction."
+    function prop_previewWithdraw(address caller, address receiver, address owner, address other, uint assets) public {
+        vm.prank(other); uint preview = vault_previewWithdraw(assets);
+        vm.prank(caller); uint actual = vault_withdraw(assets, receiver, owner);
+        assertApproxLeAbs(actual, preview, _delta_);
+    }
+
+    // withdraw
+    function prop_withdraw(address caller, address receiver, address owner, uint assets) public {
+        uint oldReceiverAsset = IERC20(_underlying_).balanceOf(receiver);
+        uint oldOwnerShare = IERC20(_vault_).balanceOf(owner);
+        uint oldAllowance = IERC20(_vault_).allowance(owner, caller);
+
+        vm.prank(caller); uint shares = vault_withdraw(assets, receiver, owner);
+
+        uint newReceiverAsset = IERC20(_underlying_).balanceOf(receiver);
+        uint newOwnerShare = IERC20(_vault_).balanceOf(owner);
+        uint newAllowance = IERC20(_vault_).allowance(owner, caller);
+
+        assertApproxEqAbs(newOwnerShare, oldOwnerShare - shares, _delta_, "share");
+        assertApproxEqAbs(newReceiverAsset, oldReceiverAsset + assets, _delta_, "asset"); // NOTE: this may fail if the receiver is a contract in which the asset is stored
+        if (caller != owner && oldAllowance != type(uint).max) assertApproxEqAbs(newAllowance, oldAllowance - shares, _delta_, "allowance");
+
+        assertTrue(caller == owner || oldAllowance != 0 || (shares == 0 && assets == 0), "access control");
+    }
+
+    //
+    // redeem
+    //
+
+    // maxRedeem
+    // "MUST NOT revert."
+    function prop_maxRedeem(address caller, address owner) public {
+        vm.prank(caller); IERC4626(_vault_).maxRedeem(owner);
+    }
+
+    // previewRedeem
+    // "MUST return as close to and no more than the exact amount of assets that
+    // would be withdrawn in a redeem call in the same transaction. I.e. redeem
+    // should return the same or more assets as previewRedeem if called in the
+    // same transaction."
+    function prop_previewRedeem(address caller, address receiver, address owner, address other, uint shares) public {
+        vm.prank(other); uint preview = vault_previewRedeem(shares);
+        vm.prank(caller); uint actual = vault_redeem(shares, receiver, owner);
+        assertApproxGeAbs(actual, preview, _delta_);
+    }
+
+    // redeem
+    function prop_redeem(address caller, address receiver, address owner, uint shares) public {
+        uint oldReceiverAsset = IERC20(_underlying_).balanceOf(receiver);
+        uint oldOwnerShare = IERC20(_vault_).balanceOf(owner);
+        uint oldAllowance = IERC20(_vault_).allowance(owner, caller);
+
+        vm.prank(caller); uint assets = vault_redeem(shares, receiver, owner);
+
+        uint newReceiverAsset = IERC20(_underlying_).balanceOf(receiver);
+        uint newOwnerShare = IERC20(_vault_).balanceOf(owner);
+        uint newAllowance = IERC20(_vault_).allowance(owner, caller);
+
+        assertApproxEqAbs(newOwnerShare, oldOwnerShare - shares, _delta_, "share");
+        assertApproxEqAbs(newReceiverAsset, oldReceiverAsset + assets, _delta_, "asset"); // NOTE: this may fail if the receiver is a contract in which the asset is stored
+        if (caller != owner && oldAllowance != type(uint).max) assertApproxEqAbs(newAllowance, oldAllowance - shares, _delta_, "allowance");
+
+        assertTrue(caller == owner || oldAllowance != 0 || (shares == 0 && assets == 0), "access control");
+    }
+
+    //
+    // round trip properties
+    //
+
+    // redeem(deposit(a)) <= a
+    function prop_RT_deposit_redeem(address caller, uint assets) public {
+        if (!_vaultMayBeEmpty) vm.assume(IERC20(_vault_).totalSupply() > 0);
+        vm.prank(caller); uint shares = vault_deposit(assets, caller);
+        vm.prank(caller); uint assets2 = vault_redeem(shares, caller, caller);
+        assertApproxLeAbs(assets2, assets, _delta_);
+    }
+
+    // s = deposit(a)
+    // s' = withdraw(a)
+    // s' >= s
+    function prop_RT_deposit_withdraw(address caller, uint assets) public {
+        if (!_vaultMayBeEmpty) vm.assume(IERC20(_vault_).totalSupply() > 0);
+        vm.prank(caller); uint shares1 = vault_deposit(assets, caller);
+        vm.prank(caller); uint shares2 = vault_withdraw(assets, caller, caller);
+        assertApproxGeAbs(shares2, shares1, _delta_);
+    }
+
+    // deposit(redeem(s)) <= s
+    function prop_RT_redeem_deposit(address caller, uint shares) public {
+        vm.prank(caller); uint assets = vault_redeem(shares, caller, caller);
+        if (!_vaultMayBeEmpty) vm.assume(IERC20(_vault_).totalSupply() > 0);
+        vm.prank(caller); uint shares2 = vault_deposit(assets, caller);
+        assertApproxLeAbs(shares2, shares, _delta_);
+    }
+
+    // a = redeem(s)
+    // a' = mint(s)
+    // a' >= a
+    function prop_RT_redeem_mint(address caller, uint shares) public {
+        vm.prank(caller); uint assets1 = vault_redeem(shares, caller, caller);
+        if (!_vaultMayBeEmpty) vm.assume(IERC20(_vault_).totalSupply() > 0);
+        vm.prank(caller); uint assets2 = vault_mint(shares, caller);
+        assertApproxGeAbs(assets2, assets1, _delta_);
+    }
+
+    // withdraw(mint(s)) >= s
+    function prop_RT_mint_withdraw(address caller, uint shares) public {
+        if (!_vaultMayBeEmpty) vm.assume(IERC20(_vault_).totalSupply() > 0);
+        vm.prank(caller); uint assets = vault_mint(shares, caller);
+        vm.prank(caller); uint shares2 = vault_withdraw(assets, caller, caller);
+        assertApproxGeAbs(shares2, shares, _delta_);
+    }
+
+    // a = mint(s)
+    // a' = redeem(s)
+    // a' <= a
+    function prop_RT_mint_redeem(address caller, uint shares) public {
+        if (!_vaultMayBeEmpty) vm.assume(IERC20(_vault_).totalSupply() > 0);
+        vm.prank(caller); uint assets1 = vault_mint(shares, caller);
+        vm.prank(caller); uint assets2 = vault_redeem(shares, caller, caller);
+        assertApproxLeAbs(assets2, assets1, _delta_);
+    }
+
+    // mint(withdraw(a)) >= a
+    function prop_RT_withdraw_mint(address caller, uint assets) public {
+        vm.prank(caller); uint shares = vault_withdraw(assets, caller, caller);
+        if (!_vaultMayBeEmpty) vm.assume(IERC20(_vault_).totalSupply() > 0);
+        vm.prank(caller); uint assets2 = vault_mint(shares, caller);
+        assertApproxGeAbs(assets2, assets, _delta_);
+    }
+
+    // s = withdraw(a)
+    // s' = deposit(a)
+    // s' <= s
+    function prop_RT_withdraw_deposit(address caller, uint assets) public {
+        vm.prank(caller); uint shares1 = vault_withdraw(assets, caller, caller);
+        if (!_vaultMayBeEmpty) vm.assume(IERC20(_vault_).totalSupply() > 0);
+        vm.prank(caller); uint shares2 = vault_deposit(assets, caller);
+        assertApproxLeAbs(shares2, shares1, _delta_);
+    }
+
+    //
+    // utils
+    //
+
+    function vault_convertToShares(uint assets) internal returns (uint) {
+        return _call_vault(abi.encodeWithSelector(IERC4626.convertToShares.selector, assets));
+    }
+    function vault_convertToAssets(uint shares) internal returns (uint) {
+        return _call_vault(abi.encodeWithSelector(IERC4626.convertToAssets.selector, shares));
+    }
+
+    function vault_maxDeposit(address receiver) internal returns (uint) {
+        return _call_vault(abi.encodeWithSelector(IERC4626.maxDeposit.selector, receiver));
+    }
+    function vault_maxMint(address receiver) internal returns (uint) {
+        return _call_vault(abi.encodeWithSelector(IERC4626.maxMint.selector, receiver));
+    }
+    function vault_maxWithdraw(address owner) internal returns (uint) {
+        return _call_vault(abi.encodeWithSelector(IERC4626.maxWithdraw.selector, owner));
+    }
+    function vault_maxRedeem(address owner) internal returns (uint) {
+        return _call_vault(abi.encodeWithSelector(IERC4626.maxRedeem.selector, owner));
+    }
+
+    function vault_previewDeposit(uint assets) internal returns (uint) {
+        return _call_vault(abi.encodeWithSelector(IERC4626.previewDeposit.selector, assets));
+    }
+    function vault_previewMint(uint shares) internal returns (uint) {
+        return _call_vault(abi.encodeWithSelector(IERC4626.previewMint.selector, shares));
+    }
+    function vault_previewWithdraw(uint assets) internal returns (uint) {
+        return _call_vault(abi.encodeWithSelector(IERC4626.previewWithdraw.selector, assets));
+    }
+    function vault_previewRedeem(uint shares) internal returns (uint) {
+        return _call_vault(abi.encodeWithSelector(IERC4626.previewRedeem.selector, shares));
+    }
+
+    function vault_deposit(uint assets, address receiver) internal returns (uint) {
+        return _call_vault(abi.encodeWithSelector(IERC4626.deposit.selector, assets, receiver));
+    }
+    function vault_mint(uint shares, address receiver) internal returns (uint) {
+        return _call_vault(abi.encodeWithSelector(IERC4626.mint.selector, shares, receiver));
+    }
+    function vault_withdraw(uint assets, address receiver, address owner) internal returns (uint) {
+        return _call_vault(abi.encodeWithSelector(IERC4626.withdraw.selector, assets, receiver, owner));
+    }
+    function vault_redeem(uint shares, address receiver, address owner) internal returns (uint) {
+        return _call_vault(abi.encodeWithSelector(IERC4626.redeem.selector, shares, receiver, owner));
+    }
+
+    function _call_vault(bytes memory data) internal returns (uint) {
+        (bool success, bytes memory retdata) = _vault_.call(data);
+        if (success) return abi.decode(retdata, (uint));
+        vm.assume(false); // if reverted, discard the current fuzz inputs, and let the fuzzer to start a new fuzz run
+        return 0; // silence warning
+    }
+
+    function assertApproxGeAbs(uint a, uint b, uint maxDelta) internal {
+        if (!(a >= b)) {
+            uint dt = b - a;
+            if (dt > maxDelta) {
+                emit log                ("Error: a >=~ b not satisfied [uint]");
+                emit log_named_uint     ("   Value a", a);
+                emit log_named_uint     ("   Value b", b);
+                emit log_named_uint     (" Max Delta", maxDelta);
+                emit log_named_uint     ("     Delta", dt);
+                fail();
+            }
+        }
+    }
+
+    function assertApproxLeAbs(uint a, uint b, uint maxDelta) internal {
+        if (!(a <= b)) {
+            uint dt = a - b;
+            if (dt > maxDelta) {
+                emit log                ("Error: a <=~ b not satisfied [uint]");
+                emit log_named_uint     ("   Value a", a);
+                emit log_named_uint     ("   Value b", b);
+                emit log_named_uint     (" Max Delta", maxDelta);
+                emit log_named_uint     ("     Delta", dt);
+                fail();
+            }
+        }
+    }
+}
