@@ -1,1 +1,357 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKCmNvbnN0IHsgaW1wZXJzb25hdGUgfSA9IHJlcXVpcmUoJy4uLy4uL2hlbHBlcnMvYWNjb3VudCcpOwpjb25zdCB7IGdldEFkZHJlc3NJblNsb3QsIEltcGxlbWVudGF0aW9uU2xvdCwgQWRtaW5TbG90IH0gPSByZXF1aXJlKCcuLi8uLi9oZWxwZXJzL3N0b3JhZ2UnKTsKCi8vIGNyZWF0ZVByb3h5LCBpbml0aWFsT3duZXIsIGFjY291bnRzCm1vZHVsZS5leHBvcnRzID0gZnVuY3Rpb24gc2hvdWxkQmVoYXZlTGlrZVRyYW5zcGFyZW50VXBncmFkZWFibGVQcm94eSgpIHsKICBiZWZvcmUoYXN5bmMgZnVuY3Rpb24gKCkgewogICAgY29uc3QgaW1wbGVtZW50YXRpb25WMCA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnRHVtbXlJbXBsZW1lbnRhdGlvbicpOwogICAgY29uc3QgaW1wbGVtZW50YXRpb25WMSA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnRHVtbXlJbXBsZW1lbnRhdGlvbicpOwoKICAgIGNvbnN0IGNyZWF0ZVByb3h5V2l0aEltcGVyc29uYXRlZFByb3h5QWRtaW4gPSBhc3luYyAobG9naWMsIGluaXREYXRhLCBvcHRzID0gdW5kZWZpbmVkKSA9PiB7CiAgICAgIGNvbnN0IFtwcm94eSwgdHhdID0gYXdhaXQgdGhpcy5jcmVhdGVQcm94eShsb2dpYywgaW5pdERhdGEsIG9wdHMpLnRoZW4oaW5zdGFuY2UgPT4KICAgICAgICBQcm9taXNlLmFsbChbZXRoZXJzLmdldENvbnRyYWN0QXQoJ0lUcmFuc3BhcmVudFVwZ3JhZGVhYmxlUHJveHknLCBpbnN0YW5jZSksIGluc3RhbmNlLmRlcGxveW1lbnRUcmFuc2FjdGlvbigpXSksCiAgICAgICk7CgogICAgICBjb25zdCBwcm94eUFkbWluID0gYXdhaXQgZXRoZXJzLmdldENvbnRyYWN0QXQoCiAgICAgICAgJ1Byb3h5QWRtaW4nLAogICAgICAgIGV0aGVycy5nZXRDcmVhdGVBZGRyZXNzKHsgZnJvbTogcHJveHkudGFyZ2V0LCBub25jZTogMW4gfSksCiAgICAgICk7CiAgICAgIGNvbnN0IHByb3h5QWRtaW5Bc1NpZ25lciA9IGF3YWl0IHByb3h5QWRtaW4uZ2V0QWRkcmVzcygpLnRoZW4oaW1wZXJzb25hdGUpOwoKICAgICAgcmV0dXJuIHsKICAgICAgICBpbnN0YW5jZTogbG9naWMuYXR0YWNoKHByb3h5LnRhcmdldCksIC8vIGF0dGFjaGluZyBwcm94eSBkaXJlY3RseSB3b3JrcyB3ZWxsIGZvciBldmVyeXRoaW5nIGV4Y2VwdCBmb3IgZXZlbnQgcmVzb2x1dGlvbgogICAgICAgIHByb3h5LAogICAgICAgIHByb3h5QWRtaW4sCiAgICAgICAgcHJveHlBZG1pbkFzU2lnbmVyLAogICAgICAgIHR4LAogICAgICB9OwogICAgfTsKCiAgICBPYmplY3QuYXNzaWduKHRoaXMsIHsKICAgICAgaW1wbGVtZW50YXRpb25WMCwKICAgICAgaW1wbGVtZW50YXRpb25WMSwKICAgICAgY3JlYXRlUHJveHlXaXRoSW1wZXJzb25hdGVkUHJveHlBZG1pbiwKICAgIH0pOwogIH0pOwoKICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgIE9iamVjdC5hc3NpZ24odGhpcywgYXdhaXQgdGhpcy5jcmVhdGVQcm94eVdpdGhJbXBlcnNvbmF0ZWRQcm94eUFkbWluKHRoaXMuaW1wbGVtZW50YXRpb25WMCwgJzB4JykpOwogIH0pOwoKICBkZXNjcmliZSgnaW1wbGVtZW50YXRpb24nLCBmdW5jdGlvbiAoKSB7CiAgICBpdCgncmV0dXJucyB0aGUgY3VycmVudCBpbXBsZW1lbnRhdGlvbiBhZGRyZXNzJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBleHBlY3QoYXdhaXQgZ2V0QWRkcmVzc0luU2xvdCh0aGlzLnByb3h5LCBJbXBsZW1lbnRhdGlvblNsb3QpKS50by5lcXVhbCh0aGlzLmltcGxlbWVudGF0aW9uVjApOwogICAgfSk7CgogICAgaXQoJ2RlbGVnYXRlcyB0byB0aGUgaW1wbGVtZW50YXRpb24nLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLmluc3RhbmNlLmdldCgpKS50by5iZS50cnVlOwogICAgfSk7CiAgfSk7CgogIGRlc2NyaWJlKCdwcm94eSBhZG1pbicsIGZ1bmN0aW9uICgpIHsKICAgIGl0KCdlbWl0cyBBZG1pbkNoYW5nZWQgZXZlbnQgZHVyaW5nIGNvbnN0cnVjdGlvbicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMudHgpLnRvLmVtaXQodGhpcy5wcm94eSwgJ0FkbWluQ2hhbmdlZCcpLndpdGhBcmdzKGV0aGVycy5aZXJvQWRkcmVzcywgdGhpcy5wcm94eUFkbWluKTsKICAgIH0pOwoKICAgIGl0KCdzZXRzIHRoZSBwcm94eSBhZG1pbiBpbiBzdG9yYWdlIHdpdGggdGhlIGNvcnJlY3QgaW5pdGlhbCBvd25lcicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgZXhwZWN0KGF3YWl0IGdldEFkZHJlc3NJblNsb3QodGhpcy5wcm94eSwgQWRtaW5TbG90KSkudG8uZXF1YWwodGhpcy5wcm94eUFkbWluKTsKCiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnByb3h5QWRtaW4ub3duZXIoKSkudG8uZXF1YWwodGhpcy5vd25lcik7CiAgICB9KTsKCiAgICBpdCgnY2FuIG92ZXJ3cml0ZSB0aGUgYWRtaW4gYnkgdGhlIGltcGxlbWVudGF0aW9uJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCB0aGlzLmluc3RhbmNlLnVuc2FmZU92ZXJyaWRlQWRtaW4odGhpcy5vdGhlcik7CgogICAgICBjb25zdCBFUkMxOTY3QWRtaW5TbG90VmFsdWUgPSBhd2FpdCBnZXRBZGRyZXNzSW5TbG90KHRoaXMucHJveHksIEFkbWluU2xvdCk7CiAgICAgIGV4cGVjdChFUkMxOTY3QWRtaW5TbG90VmFsdWUpLnRvLmVxdWFsKHRoaXMub3RoZXIpOwogICAgICBleHBlY3QoRVJDMTk2N0FkbWluU2xvdFZhbHVlKS50by5ub3QuZXF1YWwodGhpcy5wcm94eUFkbWluKTsKCiAgICAgIC8vIFN0aWxsIGFsbG93cyBwcmV2aW91cyBhZG1pbiB0byBleGVjdXRlIGFkbWluIG9wZXJhdGlvbnMKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMucHJveHkuY29ubmVjdCh0aGlzLnByb3h5QWRtaW5Bc1NpZ25lcikudXBncmFkZVRvQW5kQ2FsbCh0aGlzLmltcGxlbWVudGF0aW9uVjEsICcweCcpKQogICAgICAgIC50by5lbWl0KHRoaXMucHJveHksICdVcGdyYWRlZCcpCiAgICAgICAgLndpdGhBcmdzKHRoaXMuaW1wbGVtZW50YXRpb25WMSk7CiAgICB9KTsKICB9KTsKCiAgZGVzY3JpYmUoJ3VwZ3JhZGVUb0FuZENhbGwnLCBmdW5jdGlvbiAoKSB7CiAgICBkZXNjcmliZSgnd2l0aG91dCBtaWdyYXRpb25zJywgZnVuY3Rpb24gKCkgewogICAgICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICB0aGlzLmJlaGF2aW9yID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCdJbml0aWFsaXphYmxlTW9jaycpOwogICAgICB9KTsKCiAgICAgIGRlc2NyaWJlKCd3aGVuIHRoZSBjYWxsIGRvZXMgbm90IGZhaWwnLCBmdW5jdGlvbiAoKSB7CiAgICAgICAgYmVmb3JlRWFjaChmdW5jdGlvbiAoKSB7CiAgICAgICAgICB0aGlzLmluaXRpYWxpemVEYXRhID0gdGhpcy5iZWhhdmlvci5pbnRlcmZhY2UuZW5jb2RlRnVuY3Rpb25EYXRhKCdpbml0aWFsaXplV2l0aFgnLCBbNDJuXSk7CiAgICAgICAgfSk7CgogICAgICAgIGRlc2NyaWJlKCd3aGVuIHRoZSBzZW5kZXIgaXMgdGhlIGFkbWluJywgZnVuY3Rpb24gKCkgewogICAgICAgICAgY29uc3QgdmFsdWUgPSAxMG4gKiogNW47CgogICAgICAgICAgYmVmb3JlRWFjaChhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICAgIHRoaXMudHggPSBhd2FpdCB0aGlzLnByb3h5CiAgICAgICAgICAgICAgLmNvbm5lY3QodGhpcy5wcm94eUFkbWluQXNTaWduZXIpCiAgICAgICAgICAgICAgLnVwZ3JhZGVUb0FuZENhbGwodGhpcy5iZWhhdmlvciwgdGhpcy5pbml0aWFsaXplRGF0YSwgewogICAgICAgICAgICAgICAgdmFsdWUsCiAgICAgICAgICAgICAgfSk7CiAgICAgICAgICB9KTsKCiAgICAgICAgICBpdCgndXBncmFkZXMgdG8gdGhlIHJlcXVlc3RlZCBpbXBsZW1lbnRhdGlvbicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgICAgZXhwZWN0KGF3YWl0IGdldEFkZHJlc3NJblNsb3QodGhpcy5wcm94eSwgSW1wbGVtZW50YXRpb25TbG90KSkudG8uZXF1YWwodGhpcy5iZWhhdmlvcik7CiAgICAgICAgICB9KTsKCiAgICAgICAgICBpdCgnZW1pdHMgYW4gZXZlbnQnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLnR4KS50by5lbWl0KHRoaXMucHJveHksICdVcGdyYWRlZCcpLndpdGhBcmdzKHRoaXMuYmVoYXZpb3IpOwogICAgICAgICAgfSk7CgogICAgICAgICAgaXQoJ2NhbGxzIHRoZSBpbml0aWFsaXplciBmdW5jdGlvbicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMuYmVoYXZpb3IuYXR0YWNoKHRoaXMucHJveHkpLngoKSkudG8uZXF1YWwoNDJuKTsKICAgICAgICAgIH0pOwoKICAgICAgICAgIGl0KCdzZW5kcyBnaXZlbiB2YWx1ZSB0byB0aGUgcHJveHknLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICAgIGV4cGVjdChhd2FpdCBldGhlcnMucHJvdmlkZXIuZ2V0QmFsYW5jZSh0aGlzLnByb3h5KSkudG8uZXF1YWwodmFsdWUpOwogICAgICAgICAgfSk7CgogICAgICAgICAgaXQoJ3VzZXMgdGhlIHN0b3JhZ2Ugb2YgdGhlIHByb3h5JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgICAvLyBzdG9yYWdlIGxheW91dCBzaG91bGQgbG9vayBhcyBmb2xsb3dzOgogICAgICAgICAgICAvLyAgLSAwOiBJbml0aWFsaXphYmxlIHN0b3JhZ2UgKysgaW5pdGlhbGl6ZXJSYW4gKysgb25seUluaXRpYWxpemluZ1JhbgogICAgICAgICAgICAvLyAgLSAxOiB4CiAgICAgICAgICAgIGV4cGVjdChhd2FpdCBldGhlcnMucHJvdmlkZXIuZ2V0U3RvcmFnZSh0aGlzLnByb3h5LCAxbikpLnRvLmVxdWFsKDQybik7CiAgICAgICAgICB9KTsKICAgICAgICB9KTsKCiAgICAgICAgZGVzY3JpYmUoJ3doZW4gdGhlIHNlbmRlciBpcyBub3QgdGhlIGFkbWluJywgZnVuY3Rpb24gKCkgewogICAgICAgICAgaXQoJ3JldmVydHMnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLnByb3h5LmNvbm5lY3QodGhpcy5vdGhlcikudXBncmFkZVRvQW5kQ2FsbCh0aGlzLmJlaGF2aW9yLCB0aGlzLmluaXRpYWxpemVEYXRhKSkudG8uYmUKICAgICAgICAgICAgICAucmV2ZXJ0ZWQ7CiAgICAgICAgICB9KTsKICAgICAgICB9KTsKICAgICAgfSk7CgogICAgICBkZXNjcmliZSgnd2hlbiB0aGUgY2FsbCBkb2VzIGZhaWwnLCBmdW5jdGlvbiAoKSB7CiAgICAgICAgYmVmb3JlRWFjaChmdW5jdGlvbiAoKSB7CiAgICAgICAgICB0aGlzLmluaXRpYWxpemVEYXRhID0gdGhpcy5iZWhhdmlvci5pbnRlcmZhY2UuZW5jb2RlRnVuY3Rpb25EYXRhKCdmYWlsJyk7CiAgICAgICAgfSk7CgogICAgICAgIGl0KCdyZXZlcnRzJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMucHJveHkuY29ubmVjdCh0aGlzLnByb3h5QWRtaW5Bc1NpZ25lcikudXBncmFkZVRvQW5kQ2FsbCh0aGlzLmJlaGF2aW9yLCB0aGlzLmluaXRpYWxpemVEYXRhKSkKICAgICAgICAgICAgLnRvLmJlLnJldmVydGVkOwogICAgICAgIH0pOwogICAgICB9KTsKICAgIH0pOwoKICAgIGRlc2NyaWJlKCd3aXRoIG1pZ3JhdGlvbnMnLCBmdW5jdGlvbiAoKSB7CiAgICAgIGRlc2NyaWJlKCd3aGVuIHRoZSBzZW5kZXIgaXMgdGhlIGFkbWluJywgZnVuY3Rpb24gKCkgewogICAgICAgIGNvbnN0IHZhbHVlID0gMTBuICoqIDVuOwoKICAgICAgICBkZXNjcmliZSgnd2hlbiB1cGdyYWRpbmcgdG8gVjEnLCBmdW5jdGlvbiAoKSB7CiAgICAgICAgICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgICAgdGhpcy5iZWhhdmlvclYxID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCdNaWdyYXRhYmxlTW9ja1YxJyk7CiAgICAgICAgICAgIGNvbnN0IHYxTWlncmF0aW9uRGF0YSA9IHRoaXMuYmVoYXZpb3JWMS5pbnRlcmZhY2UuZW5jb2RlRnVuY3Rpb25EYXRhKCdpbml0aWFsaXplJywgWzQybl0pOwoKICAgICAgICAgICAgdGhpcy5iYWxhbmNlUHJldmlvdXNWMSA9IGF3YWl0IGV0aGVycy5wcm92aWRlci5nZXRCYWxhbmNlKHRoaXMucHJveHkpOwogICAgICAgICAgICB0aGlzLnR4ID0gYXdhaXQgdGhpcy5wcm94eQogICAgICAgICAgICAgIC5jb25uZWN0KHRoaXMucHJveHlBZG1pbkFzU2lnbmVyKQogICAgICAgICAgICAgIC51cGdyYWRlVG9BbmRDYWxsKHRoaXMuYmVoYXZpb3JWMSwgdjFNaWdyYXRpb25EYXRhLCB7CiAgICAgICAgICAgICAgICB2YWx1ZSwKICAgICAgICAgICAgICB9KTsKICAgICAgICAgIH0pOwoKICAgICAgICAgIGl0KCd1cGdyYWRlcyB0byB0aGUgcmVxdWVzdGVkIHZlcnNpb24gYW5kIGVtaXRzIGFuIGV2ZW50JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgICBleHBlY3QoYXdhaXQgZ2V0QWRkcmVzc0luU2xvdCh0aGlzLnByb3h5LCBJbXBsZW1lbnRhdGlvblNsb3QpKS50by5lcXVhbCh0aGlzLmJlaGF2aW9yVjEpOwoKICAgICAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMudHgpLnRvLmVtaXQodGhpcy5wcm94eSwgJ1VwZ3JhZGVkJykud2l0aEFyZ3ModGhpcy5iZWhhdmlvclYxKTsKICAgICAgICAgIH0pOwoKICAgICAgICAgIGl0KCJjYWxscyB0aGUgJ2luaXRpYWxpemUnIGZ1bmN0aW9uIGFuZCBzZW5kcyBnaXZlbiB2YWx1ZSB0byB0aGUgcHJveHkiLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLmJlaGF2aW9yVjEuYXR0YWNoKHRoaXMucHJveHkpLngoKSkudG8uZXF1YWwoNDJuKTsKICAgICAgICAgICAgZXhwZWN0KGF3YWl0IGV0aGVycy5wcm92aWRlci5nZXRCYWxhbmNlKHRoaXMucHJveHkpKS50by5lcXVhbCh0aGlzLmJhbGFuY2VQcmV2aW91c1YxICsgdmFsdWUpOwogICAgICAgICAgfSk7CgogICAgICAgICAgZGVzY3JpYmUoJ3doZW4gdXBncmFkaW5nIHRvIFYyJywgZnVuY3Rpb24gKCkgewogICAgICAgICAgICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgICAgICB0aGlzLmJlaGF2aW9yVjIgPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJ01pZ3JhdGFibGVNb2NrVjInKTsKICAgICAgICAgICAgICBjb25zdCB2Mk1pZ3JhdGlvbkRhdGEgPSB0aGlzLmJlaGF2aW9yVjIuaW50ZXJmYWNlLmVuY29kZUZ1bmN0aW9uRGF0YSgnbWlncmF0ZScsIFsxMG4sIDQybl0pOwoKICAgICAgICAgICAgICB0aGlzLmJhbGFuY2VQcmV2aW91c1YyID0gYXdhaXQgZXRoZXJzLnByb3ZpZGVyLmdldEJhbGFuY2UodGhpcy5wcm94eSk7CiAgICAgICAgICAgICAgdGhpcy50eCA9IGF3YWl0IHRoaXMucHJveHkKICAgICAgICAgICAgICAgIC5jb25uZWN0KHRoaXMucHJveHlBZG1pbkFzU2lnbmVyKQogICAgICAgICAgICAgICAgLnVwZ3JhZGVUb0FuZENhbGwodGhpcy5iZWhhdmlvclYyLCB2Mk1pZ3JhdGlvbkRhdGEsIHsKICAgICAgICAgICAgICAgICAgdmFsdWUsCiAgICAgICAgICAgICAgICB9KTsKICAgICAgICAgICAgfSk7CgogICAgICAgICAgICBpdCgndXBncmFkZXMgdG8gdGhlIHJlcXVlc3RlZCB2ZXJzaW9uIGFuZCBlbWl0cyBhbiBldmVudCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgICAgICBleHBlY3QoYXdhaXQgZ2V0QWRkcmVzc0luU2xvdCh0aGlzLnByb3h5LCBJbXBsZW1lbnRhdGlvblNsb3QpKS50by5lcXVhbCh0aGlzLmJlaGF2aW9yVjIpOwoKICAgICAgICAgICAgICBhd2FpdCBleHBlY3QodGhpcy50eCkudG8uZW1pdCh0aGlzLnByb3h5LCAnVXBncmFkZWQnKS53aXRoQXJncyh0aGlzLmJlaGF2aW9yVjIpOwogICAgICAgICAgICB9KTsKCiAgICAgICAgICAgIGl0KCJjYWxscyB0aGUgJ21pZ3JhdGUnIGZ1bmN0aW9uIGFuZCBzZW5kcyBnaXZlbiB2YWx1ZSB0byB0aGUgcHJveHkiLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMuYmVoYXZpb3JWMi5hdHRhY2godGhpcy5wcm94eSkueCgpKS50by5lcXVhbCgxMG4pOwogICAgICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLmJlaGF2aW9yVjIuYXR0YWNoKHRoaXMucHJveHkpLnkoKSkudG8uZXF1YWwoNDJuKTsKICAgICAgICAgICAgICBleHBlY3QoYXdhaXQgZXRoZXJzLnByb3ZpZGVyLmdldEJhbGFuY2UodGhpcy5wcm94eSkpLnRvLmVxdWFsKHRoaXMuYmFsYW5jZVByZXZpb3VzVjIgKyB2YWx1ZSk7CiAgICAgICAgICAgIH0pOwoKICAgICAgICAgICAgZGVzY3JpYmUoJ3doZW4gdXBncmFkaW5nIHRvIFYzJywgZnVuY3Rpb24gKCkgewogICAgICAgICAgICAgIGJlZm9yZUVhY2goYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgICAgICAgdGhpcy5iZWhhdmlvclYzID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCdNaWdyYXRhYmxlTW9ja1YzJyk7CiAgICAgICAgICAgICAgICBjb25zdCB2M01pZ3JhdGlvbkRhdGEgPSB0aGlzLmJlaGF2aW9yVjMuaW50ZXJmYWNlLmVuY29kZUZ1bmN0aW9uRGF0YSgnbWlncmF0ZSgpJyk7CgogICAgICAgICAgICAgICAgdGhpcy5iYWxhbmNlUHJldmlvdXNWMyA9IGF3YWl0IGV0aGVycy5wcm92aWRlci5nZXRCYWxhbmNlKHRoaXMucHJveHkpOwogICAgICAgICAgICAgICAgdGhpcy50eCA9IGF3YWl0IHRoaXMucHJveHkKICAgICAgICAgICAgICAgICAgLmNvbm5lY3QodGhpcy5wcm94eUFkbWluQXNTaWduZXIpCiAgICAgICAgICAgICAgICAgIC51cGdyYWRlVG9BbmRDYWxsKHRoaXMuYmVoYXZpb3JWMywgdjNNaWdyYXRpb25EYXRhLCB7CiAgICAgICAgICAgICAgICAgICAgdmFsdWUsCiAgICAgICAgICAgICAgICAgIH0pOwogICAgICAgICAgICAgIH0pOwoKICAgICAgICAgICAgICBpdCgndXBncmFkZXMgdG8gdGhlIHJlcXVlc3RlZCB2ZXJzaW9uIGFuZCBlbWl0cyBhbiBldmVudCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgICAgICAgIGV4cGVjdChhd2FpdCBnZXRBZGRyZXNzSW5TbG90KHRoaXMucHJveHksIEltcGxlbWVudGF0aW9uU2xvdCkpLnRvLmVxdWFsKHRoaXMuYmVoYXZpb3JWMyk7CgogICAgICAgICAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMudHgpLnRvLmVtaXQodGhpcy5wcm94eSwgJ1VwZ3JhZGVkJykud2l0aEFyZ3ModGhpcy5iZWhhdmlvclYzKTsKICAgICAgICAgICAgICB9KTsKCiAgICAgICAgICAgICAgaXQoImNhbGxzIHRoZSAnbWlncmF0ZScgZnVuY3Rpb24gYW5kIHNlbmRzIGdpdmVuIHZhbHVlIHRvIHRoZSBwcm94eSIsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLmJlaGF2aW9yVjMuYXR0YWNoKHRoaXMucHJveHkpLngoKSkudG8uZXF1YWwoNDJuKTsKICAgICAgICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLmJlaGF2aW9yVjMuYXR0YWNoKHRoaXMucHJveHkpLnkoKSkudG8uZXF1YWwoMTBuKTsKICAgICAgICAgICAgICAgIGV4cGVjdChhd2FpdCBldGhlcnMucHJvdmlkZXIuZ2V0QmFsYW5jZSh0aGlzLnByb3h5KSkudG8uZXF1YWwodGhpcy5iYWxhbmNlUHJldmlvdXNWMyArIHZhbHVlKTsKICAgICAgICAgICAgICB9KTsKICAgICAgICAgICAgfSk7CiAgICAgICAgICB9KTsKICAgICAgICB9KTsKICAgICAgfSk7CgogICAgICBkZXNjcmliZSgnd2hlbiB0aGUgc2VuZGVyIGlzIG5vdCB0aGUgYWRtaW4nLCBmdW5jdGlvbiAoKSB7CiAgICAgICAgaXQoJ3JldmVydHMnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICBjb25zdCBiZWhhdmlvclYxID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCdNaWdyYXRhYmxlTW9ja1YxJyk7CiAgICAgICAgICBjb25zdCB2MU1pZ3JhdGlvbkRhdGEgPSBiZWhhdmlvclYxLmludGVyZmFjZS5lbmNvZGVGdW5jdGlvbkRhdGEoJ2luaXRpYWxpemUnLCBbNDJuXSk7CiAgICAgICAgICBhd2FpdCBleHBlY3QodGhpcy5wcm94eS5jb25uZWN0KHRoaXMub3RoZXIpLnVwZ3JhZGVUb0FuZENhbGwoYmVoYXZpb3JWMSwgdjFNaWdyYXRpb25EYXRhKSkudG8uYmUucmV2ZXJ0ZWQ7CiAgICAgICAgfSk7CiAgICAgIH0pOwogICAgfSk7CiAgfSk7CgogIGRlc2NyaWJlKCd0cmFuc3BhcmVudCBwcm94eScsIGZ1bmN0aW9uICgpIHsKICAgIGJlZm9yZUVhY2goJ2NyZWF0aW5nIHByb3h5JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICB0aGlzLmNsYXNoaW5nSW1wbFYwID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCdDbGFzaGluZ0ltcGxlbWVudGF0aW9uJyk7CiAgICAgIHRoaXMuY2xhc2hpbmdJbXBsVjEgPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJ0NsYXNoaW5nSW1wbGVtZW50YXRpb24nKTsKCiAgICAgIE9iamVjdC5hc3NpZ24odGhpcywgYXdhaXQgdGhpcy5jcmVhdGVQcm94eVdpdGhJbXBlcnNvbmF0ZWRQcm94eUFkbWluKHRoaXMuY2xhc2hpbmdJbXBsVjAsICcweCcpKTsKICAgIH0pOwoKICAgIGl0KCdwcm94eSBhZG1pbiBjYW5ub3QgY2FsbCBkZWxlZ2F0ZWQgZnVuY3Rpb25zJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCBpbnRlcmZhY2UgPSBhd2FpdCBldGhlcnMuZ2V0Q29udHJhY3RGYWN0b3J5KCdUcmFuc3BhcmVudFVwZ3JhZGVhYmxlUHJveHknKTsKCiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLmluc3RhbmNlLmNvbm5lY3QodGhpcy5wcm94eUFkbWluQXNTaWduZXIpLmRlbGVnYXRlZEZ1bmN0aW9uKCkpLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKAogICAgICAgIGludGVyZmFjZSwKICAgICAgICAnUHJveHlEZW5pZWRBZG1pbkFjY2VzcycsCiAgICAgICk7CiAgICB9KTsKCiAgICBkZXNjcmliZSgnd2hlbiBmdW5jdGlvbiBuYW1lcyBjbGFzaCcsIGZ1bmN0aW9uICgpIHsKICAgICAgaXQoJ2V4ZWN1dGVzIHRoZSBwcm94eSBmdW5jdGlvbiBpZiB0aGUgc2VuZGVyIGlzIHRoZSBhZG1pbicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBhd2FpdCBleHBlY3QodGhpcy5wcm94eS5jb25uZWN0KHRoaXMucHJveHlBZG1pbkFzU2lnbmVyKS51cGdyYWRlVG9BbmRDYWxsKHRoaXMuY2xhc2hpbmdJbXBsVjEsICcweCcpKQogICAgICAgICAgLnRvLmVtaXQodGhpcy5wcm94eSwgJ1VwZ3JhZGVkJykKICAgICAgICAgIC53aXRoQXJncyh0aGlzLmNsYXNoaW5nSW1wbFYxKTsKICAgICAgfSk7CgogICAgICBpdCgnZGVsZWdhdGVzIHRoZSBjYWxsIHRvIGltcGxlbWVudGF0aW9uIHdoZW4gc2VuZGVyIGlzIG5vdCB0aGUgYWRtaW4nLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMucHJveHkuY29ubmVjdCh0aGlzLm90aGVyKS51cGdyYWRlVG9BbmRDYWxsKHRoaXMuY2xhc2hpbmdJbXBsVjEsICcweCcpKQogICAgICAgICAgLnRvLmVtaXQodGhpcy5pbnN0YW5jZSwgJ0NsYXNoaW5nSW1wbGVtZW50YXRpb25DYWxsJykKICAgICAgICAgIC50by5ub3QuZW1pdCh0aGlzLnByb3h5LCAnVXBncmFkZWQnKTsKICAgICAgfSk7CiAgICB9KTsKICB9KTsKCiAgZGVzY3JpYmUoJ3JlZ3Jlc3Npb24nLCBmdW5jdGlvbiAoKSB7CiAgICBjb25zdCBpbml0aWFsaXplRGF0YSA9ICcweCc7CgogICAgaXQoJ3Nob3VsZCBhZGQgbmV3IGZ1bmN0aW9uJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCBpbXBsMSA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnSW1wbGVtZW50YXRpb24xJyk7CiAgICAgIGNvbnN0IGltcGwyID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCdJbXBsZW1lbnRhdGlvbjInKTsKICAgICAgY29uc3QgeyBpbnN0YW5jZSwgcHJveHksIHByb3h5QWRtaW5Bc1NpZ25lciB9ID0gYXdhaXQgdGhpcy5jcmVhdGVQcm94eVdpdGhJbXBlcnNvbmF0ZWRQcm94eUFkbWluKAogICAgICAgIGltcGwxLAogICAgICAgIGluaXRpYWxpemVEYXRhLAogICAgICApOwoKICAgICAgYXdhaXQgaW5zdGFuY2Uuc2V0VmFsdWUoNDJuKTsKCiAgICAgIC8vIGBnZXRWYWx1ZWAgaXMgbm90IGF2YWlsYWJsZSBpbiBpbXBsMQogICAgICBhd2FpdCBleHBlY3QoaW1wbDIuYXR0YWNoKGluc3RhbmNlKS5nZXRWYWx1ZSgpKS50by5iZS5yZXZlcnRlZDsKCiAgICAgIC8vIGRvIHVwZ3JhZGUKICAgICAgYXdhaXQgcHJveHkuY29ubmVjdChwcm94eUFkbWluQXNTaWduZXIpLnVwZ3JhZGVUb0FuZENhbGwoaW1wbDIsICcweCcpOwoKICAgICAgLy8gYGdldFZhbHVlYCBpcyBhdmFpbGFibGUgaW4gaW1wbDIKICAgICAgZXhwZWN0KGF3YWl0IGltcGwyLmF0dGFjaChpbnN0YW5jZSkuZ2V0VmFsdWUoKSkudG8uZXF1YWwoNDJuKTsKICAgIH0pOwoKICAgIGl0KCdzaG91bGQgcmVtb3ZlIGZ1bmN0aW9uJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCBpbXBsMSA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnSW1wbGVtZW50YXRpb24xJyk7CiAgICAgIGNvbnN0IGltcGwyID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCdJbXBsZW1lbnRhdGlvbjInKTsKICAgICAgY29uc3QgeyBpbnN0YW5jZSwgcHJveHksIHByb3h5QWRtaW5Bc1NpZ25lciB9ID0gYXdhaXQgdGhpcy5jcmVhdGVQcm94eVdpdGhJbXBlcnNvbmF0ZWRQcm94eUFkbWluKAogICAgICAgIGltcGwyLAogICAgICAgIGluaXRpYWxpemVEYXRhLAogICAgICApOwoKICAgICAgYXdhaXQgaW5zdGFuY2Uuc2V0VmFsdWUoNDJuKTsKCiAgICAgIC8vIGBnZXRWYWx1ZWAgaXMgYXZhaWxhYmxlIGluIGltcGwyCiAgICAgIGV4cGVjdChhd2FpdCBpbXBsMi5hdHRhY2goaW5zdGFuY2UpLmdldFZhbHVlKCkpLnRvLmVxdWFsKDQybik7CgogICAgICAvLyBkbyBkb3duZ3JhZGUKICAgICAgYXdhaXQgcHJveHkuY29ubmVjdChwcm94eUFkbWluQXNTaWduZXIpLnVwZ3JhZGVUb0FuZENhbGwoaW1wbDEsICcweCcpOwoKICAgICAgLy8gYGdldFZhbHVlYCBpcyBub3QgYXZhaWxhYmxlIGluIGltcGwxCiAgICAgIGF3YWl0IGV4cGVjdChpbXBsMi5hdHRhY2goaW5zdGFuY2UpLmdldFZhbHVlKCkpLnRvLmJlLnJldmVydGVkOwogICAgfSk7CgogICAgaXQoJ3Nob3VsZCBjaGFuZ2UgZnVuY3Rpb24gc2lnbmF0dXJlJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCBpbXBsMSA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnSW1wbGVtZW50YXRpb24xJyk7CiAgICAgIGNvbnN0IGltcGwzID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCdJbXBsZW1lbnRhdGlvbjMnKTsKICAgICAgY29uc3QgeyBpbnN0YW5jZSwgcHJveHksIHByb3h5QWRtaW5Bc1NpZ25lciB9ID0gYXdhaXQgdGhpcy5jcmVhdGVQcm94eVdpdGhJbXBlcnNvbmF0ZWRQcm94eUFkbWluKAogICAgICAgIGltcGwxLAogICAgICAgIGluaXRpYWxpemVEYXRhLAogICAgICApOwoKICAgICAgYXdhaXQgaW5zdGFuY2Uuc2V0VmFsdWUoNDJuKTsKCiAgICAgIGF3YWl0IHByb3h5LmNvbm5lY3QocHJveHlBZG1pbkFzU2lnbmVyKS51cGdyYWRlVG9BbmRDYWxsKGltcGwzLCAnMHgnKTsKCiAgICAgIGV4cGVjdChhd2FpdCBpbXBsMy5hdHRhY2goaW5zdGFuY2UpLmdldFZhbHVlKDhuKSkudG8uZXF1YWwoNTBuKTsKICAgIH0pOwoKICAgIGl0KCdzaG91bGQgYWRkIGZhbGxiYWNrIGZ1bmN0aW9uJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCBpbXBsMSA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnSW1wbGVtZW50YXRpb24xJyk7CiAgICAgIGNvbnN0IGltcGw0ID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCdJbXBsZW1lbnRhdGlvbjQnKTsKICAgICAgY29uc3QgeyBpbnN0YW5jZSwgcHJveHksIHByb3h5QWRtaW5Bc1NpZ25lciB9ID0gYXdhaXQgdGhpcy5jcmVhdGVQcm94eVdpdGhJbXBlcnNvbmF0ZWRQcm94eUFkbWluKAogICAgICAgIGltcGwxLAogICAgICAgIGluaXRpYWxpemVEYXRhLAogICAgICApOwoKICAgICAgYXdhaXQgcHJveHkuY29ubmVjdChwcm94eUFkbWluQXNTaWduZXIpLnVwZ3JhZGVUb0FuZENhbGwoaW1wbDQsICcweCcpOwoKICAgICAgYXdhaXQgdGhpcy5vdGhlci5zZW5kVHJhbnNhY3Rpb24oeyB0bzogcHJveHkgfSk7CgogICAgICBleHBlY3QoYXdhaXQgaW1wbDQuYXR0YWNoKGluc3RhbmNlKS5nZXRWYWx1ZSgpKS50by5lcXVhbCgxbik7CiAgICB9KTsKCiAgICBpdCgnc2hvdWxkIHJlbW92ZSBmYWxsYmFjayBmdW5jdGlvbicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgY29uc3QgaW1wbDIgPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJ0ltcGxlbWVudGF0aW9uMicpOwogICAgICBjb25zdCBpbXBsNCA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnSW1wbGVtZW50YXRpb240Jyk7CiAgICAgIGNvbnN0IHsgaW5zdGFuY2UsIHByb3h5LCBwcm94eUFkbWluQXNTaWduZXIgfSA9IGF3YWl0IHRoaXMuY3JlYXRlUHJveHlXaXRoSW1wZXJzb25hdGVkUHJveHlBZG1pbigKICAgICAgICBpbXBsNCwKICAgICAgICBpbml0aWFsaXplRGF0YSwKICAgICAgKTsKCiAgICAgIGF3YWl0IHByb3h5LmNvbm5lY3QocHJveHlBZG1pbkFzU2lnbmVyKS51cGdyYWRlVG9BbmRDYWxsKGltcGwyLCAnMHgnKTsKCiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm90aGVyLnNlbmRUcmFuc2FjdGlvbih7IHRvOiBwcm94eSB9KSkudG8uYmUucmV2ZXJ0ZWQ7CgogICAgICBleHBlY3QoYXdhaXQgaW1wbDIuYXR0YWNoKGluc3RhbmNlKS5nZXRWYWx1ZSgpKS50by5lcXVhbCgwbik7CiAgICB9KTsKICB9KTsKfTsK
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+
+const { impersonate } = require('../../helpers/account');
+const { getAddressInSlot, ImplementationSlot, AdminSlot } = require('../../helpers/storage');
+
+// createProxy, initialOwner, accounts
+module.exports = function shouldBehaveLikeTransparentUpgradeableProxy() {
+  before(async function () {
+    const implementationV0 = await ethers.deployContract('DummyImplementation');
+    const implementationV1 = await ethers.deployContract('DummyImplementation');
+
+    const createProxyWithImpersonatedProxyAdmin = async (logic, initData, opts = undefined) => {
+      const [proxy, tx] = await this.createProxy(logic, initData, opts).then(instance =>
+        Promise.all([ethers.getContractAt('ITransparentUpgradeableProxy', instance), instance.deploymentTransaction()]),
+      );
+
+      const proxyAdmin = await ethers.getContractAt(
+        'ProxyAdmin',
+        ethers.getCreateAddress({ from: proxy.target, nonce: 1n }),
+      );
+      const proxyAdminAsSigner = await proxyAdmin.getAddress().then(impersonate);
+
+      return {
+        instance: logic.attach(proxy.target), // attaching proxy directly works well for everything except for event resolution
+        proxy,
+        proxyAdmin,
+        proxyAdminAsSigner,
+        tx,
+      };
+    };
+
+    Object.assign(this, {
+      implementationV0,
+      implementationV1,
+      createProxyWithImpersonatedProxyAdmin,
+    });
+  });
+
+  beforeEach(async function () {
+    Object.assign(this, await this.createProxyWithImpersonatedProxyAdmin(this.implementationV0, '0x'));
+  });
+
+  describe('implementation', function () {
+    it('returns the current implementation address', async function () {
+      expect(await getAddressInSlot(this.proxy, ImplementationSlot)).to.equal(this.implementationV0);
+    });
+
+    it('delegates to the implementation', async function () {
+      expect(await this.instance.get()).to.be.true;
+    });
+  });
+
+  describe('proxy admin', function () {
+    it('emits AdminChanged event during construction', async function () {
+      await expect(this.tx).to.emit(this.proxy, 'AdminChanged').withArgs(ethers.ZeroAddress, this.proxyAdmin);
+    });
+
+    it('sets the proxy admin in storage with the correct initial owner', async function () {
+      expect(await getAddressInSlot(this.proxy, AdminSlot)).to.equal(this.proxyAdmin);
+
+      expect(await this.proxyAdmin.owner()).to.equal(this.owner);
+    });
+
+    it('can overwrite the admin by the implementation', async function () {
+      await this.instance.unsafeOverrideAdmin(this.other);
+
+      const ERC1967AdminSlotValue = await getAddressInSlot(this.proxy, AdminSlot);
+      expect(ERC1967AdminSlotValue).to.equal(this.other);
+      expect(ERC1967AdminSlotValue).to.not.equal(this.proxyAdmin);
+
+      // Still allows previous admin to execute admin operations
+      await expect(this.proxy.connect(this.proxyAdminAsSigner).upgradeToAndCall(this.implementationV1, '0x'))
+        .to.emit(this.proxy, 'Upgraded')
+        .withArgs(this.implementationV1);
+    });
+  });
+
+  describe('upgradeToAndCall', function () {
+    describe('without migrations', function () {
+      beforeEach(async function () {
+        this.behavior = await ethers.deployContract('InitializableMock');
+      });
+
+      describe('when the call does not fail', function () {
+        beforeEach(function () {
+          this.initializeData = this.behavior.interface.encodeFunctionData('initializeWithX', [42n]);
+        });
+
+        describe('when the sender is the admin', function () {
+          const value = 10n ** 5n;
+
+          beforeEach(async function () {
+            this.tx = await this.proxy
+              .connect(this.proxyAdminAsSigner)
+              .upgradeToAndCall(this.behavior, this.initializeData, {
+                value,
+              });
+          });
+
+          it('upgrades to the requested implementation', async function () {
+            expect(await getAddressInSlot(this.proxy, ImplementationSlot)).to.equal(this.behavior);
+          });
+
+          it('emits an event', async function () {
+            await expect(this.tx).to.emit(this.proxy, 'Upgraded').withArgs(this.behavior);
+          });
+
+          it('calls the initializer function', async function () {
+            expect(await this.behavior.attach(this.proxy).x()).to.equal(42n);
+          });
+
+          it('sends given value to the proxy', async function () {
+            expect(await ethers.provider.getBalance(this.proxy)).to.equal(value);
+          });
+
+          it('uses the storage of the proxy', async function () {
+            // storage layout should look as follows:
+            //  - 0: Initializable storage ++ initializerRan ++ onlyInitializingRan
+            //  - 1: x
+            expect(await ethers.provider.getStorage(this.proxy, 1n)).to.equal(42n);
+          });
+        });
+
+        describe('when the sender is not the admin', function () {
+          it('reverts', async function () {
+            await expect(this.proxy.connect(this.other).upgradeToAndCall(this.behavior, this.initializeData)).to.be
+              .reverted;
+          });
+        });
+      });
+
+      describe('when the call does fail', function () {
+        beforeEach(function () {
+          this.initializeData = this.behavior.interface.encodeFunctionData('fail');
+        });
+
+        it('reverts', async function () {
+          await expect(this.proxy.connect(this.proxyAdminAsSigner).upgradeToAndCall(this.behavior, this.initializeData))
+            .to.be.reverted;
+        });
+      });
+    });
+
+    describe('with migrations', function () {
+      describe('when the sender is the admin', function () {
+        const value = 10n ** 5n;
+
+        describe('when upgrading to V1', function () {
+          beforeEach(async function () {
+            this.behaviorV1 = await ethers.deployContract('MigratableMockV1');
+            const v1MigrationData = this.behaviorV1.interface.encodeFunctionData('initialize', [42n]);
+
+            this.balancePreviousV1 = await ethers.provider.getBalance(this.proxy);
+            this.tx = await this.proxy
+              .connect(this.proxyAdminAsSigner)
+              .upgradeToAndCall(this.behaviorV1, v1MigrationData, {
+                value,
+              });
+          });
+
+          it('upgrades to the requested version and emits an event', async function () {
+            expect(await getAddressInSlot(this.proxy, ImplementationSlot)).to.equal(this.behaviorV1);
+
+            await expect(this.tx).to.emit(this.proxy, 'Upgraded').withArgs(this.behaviorV1);
+          });
+
+          it("calls the 'initialize' function and sends given value to the proxy", async function () {
+            expect(await this.behaviorV1.attach(this.proxy).x()).to.equal(42n);
+            expect(await ethers.provider.getBalance(this.proxy)).to.equal(this.balancePreviousV1 + value);
+          });
+
+          describe('when upgrading to V2', function () {
+            beforeEach(async function () {
+              this.behaviorV2 = await ethers.deployContract('MigratableMockV2');
+              const v2MigrationData = this.behaviorV2.interface.encodeFunctionData('migrate', [10n, 42n]);
+
+              this.balancePreviousV2 = await ethers.provider.getBalance(this.proxy);
+              this.tx = await this.proxy
+                .connect(this.proxyAdminAsSigner)
+                .upgradeToAndCall(this.behaviorV2, v2MigrationData, {
+                  value,
+                });
+            });
+
+            it('upgrades to the requested version and emits an event', async function () {
+              expect(await getAddressInSlot(this.proxy, ImplementationSlot)).to.equal(this.behaviorV2);
+
+              await expect(this.tx).to.emit(this.proxy, 'Upgraded').withArgs(this.behaviorV2);
+            });
+
+            it("calls the 'migrate' function and sends given value to the proxy", async function () {
+              expect(await this.behaviorV2.attach(this.proxy).x()).to.equal(10n);
+              expect(await this.behaviorV2.attach(this.proxy).y()).to.equal(42n);
+              expect(await ethers.provider.getBalance(this.proxy)).to.equal(this.balancePreviousV2 + value);
+            });
+
+            describe('when upgrading to V3', function () {
+              beforeEach(async function () {
+                this.behaviorV3 = await ethers.deployContract('MigratableMockV3');
+                const v3MigrationData = this.behaviorV3.interface.encodeFunctionData('migrate()');
+
+                this.balancePreviousV3 = await ethers.provider.getBalance(this.proxy);
+                this.tx = await this.proxy
+                  .connect(this.proxyAdminAsSigner)
+                  .upgradeToAndCall(this.behaviorV3, v3MigrationData, {
+                    value,
+                  });
+              });
+
+              it('upgrades to the requested version and emits an event', async function () {
+                expect(await getAddressInSlot(this.proxy, ImplementationSlot)).to.equal(this.behaviorV3);
+
+                await expect(this.tx).to.emit(this.proxy, 'Upgraded').withArgs(this.behaviorV3);
+              });
+
+              it("calls the 'migrate' function and sends given value to the proxy", async function () {
+                expect(await this.behaviorV3.attach(this.proxy).x()).to.equal(42n);
+                expect(await this.behaviorV3.attach(this.proxy).y()).to.equal(10n);
+                expect(await ethers.provider.getBalance(this.proxy)).to.equal(this.balancePreviousV3 + value);
+              });
+            });
+          });
+        });
+      });
+
+      describe('when the sender is not the admin', function () {
+        it('reverts', async function () {
+          const behaviorV1 = await ethers.deployContract('MigratableMockV1');
+          const v1MigrationData = behaviorV1.interface.encodeFunctionData('initialize', [42n]);
+          await expect(this.proxy.connect(this.other).upgradeToAndCall(behaviorV1, v1MigrationData)).to.be.reverted;
+        });
+      });
+    });
+  });
+
+  describe('transparent proxy', function () {
+    beforeEach('creating proxy', async function () {
+      this.clashingImplV0 = await ethers.deployContract('ClashingImplementation');
+      this.clashingImplV1 = await ethers.deployContract('ClashingImplementation');
+
+      Object.assign(this, await this.createProxyWithImpersonatedProxyAdmin(this.clashingImplV0, '0x'));
+    });
+
+    it('proxy admin cannot call delegated functions', async function () {
+      const interface = await ethers.getContractFactory('TransparentUpgradeableProxy');
+
+      await expect(this.instance.connect(this.proxyAdminAsSigner).delegatedFunction()).to.be.revertedWithCustomError(
+        interface,
+        'ProxyDeniedAdminAccess',
+      );
+    });
+
+    describe('when function names clash', function () {
+      it('executes the proxy function if the sender is the admin', async function () {
+        await expect(this.proxy.connect(this.proxyAdminAsSigner).upgradeToAndCall(this.clashingImplV1, '0x'))
+          .to.emit(this.proxy, 'Upgraded')
+          .withArgs(this.clashingImplV1);
+      });
+
+      it('delegates the call to implementation when sender is not the admin', async function () {
+        await expect(this.proxy.connect(this.other).upgradeToAndCall(this.clashingImplV1, '0x'))
+          .to.emit(this.instance, 'ClashingImplementationCall')
+          .to.not.emit(this.proxy, 'Upgraded');
+      });
+    });
+  });
+
+  describe('regression', function () {
+    const initializeData = '0x';
+
+    it('should add new function', async function () {
+      const impl1 = await ethers.deployContract('Implementation1');
+      const impl2 = await ethers.deployContract('Implementation2');
+      const { instance, proxy, proxyAdminAsSigner } = await this.createProxyWithImpersonatedProxyAdmin(
+        impl1,
+        initializeData,
+      );
+
+      await instance.setValue(42n);
+
+      // `getValue` is not available in impl1
+      await expect(impl2.attach(instance).getValue()).to.be.reverted;
+
+      // do upgrade
+      await proxy.connect(proxyAdminAsSigner).upgradeToAndCall(impl2, '0x');
+
+      // `getValue` is available in impl2
+      expect(await impl2.attach(instance).getValue()).to.equal(42n);
+    });
+
+    it('should remove function', async function () {
+      const impl1 = await ethers.deployContract('Implementation1');
+      const impl2 = await ethers.deployContract('Implementation2');
+      const { instance, proxy, proxyAdminAsSigner } = await this.createProxyWithImpersonatedProxyAdmin(
+        impl2,
+        initializeData,
+      );
+
+      await instance.setValue(42n);
+
+      // `getValue` is available in impl2
+      expect(await impl2.attach(instance).getValue()).to.equal(42n);
+
+      // do downgrade
+      await proxy.connect(proxyAdminAsSigner).upgradeToAndCall(impl1, '0x');
+
+      // `getValue` is not available in impl1
+      await expect(impl2.attach(instance).getValue()).to.be.reverted;
+    });
+
+    it('should change function signature', async function () {
+      const impl1 = await ethers.deployContract('Implementation1');
+      const impl3 = await ethers.deployContract('Implementation3');
+      const { instance, proxy, proxyAdminAsSigner } = await this.createProxyWithImpersonatedProxyAdmin(
+        impl1,
+        initializeData,
+      );
+
+      await instance.setValue(42n);
+
+      await proxy.connect(proxyAdminAsSigner).upgradeToAndCall(impl3, '0x');
+
+      expect(await impl3.attach(instance).getValue(8n)).to.equal(50n);
+    });
+
+    it('should add fallback function', async function () {
+      const impl1 = await ethers.deployContract('Implementation1');
+      const impl4 = await ethers.deployContract('Implementation4');
+      const { instance, proxy, proxyAdminAsSigner } = await this.createProxyWithImpersonatedProxyAdmin(
+        impl1,
+        initializeData,
+      );
+
+      await proxy.connect(proxyAdminAsSigner).upgradeToAndCall(impl4, '0x');
+
+      await this.other.sendTransaction({ to: proxy });
+
+      expect(await impl4.attach(instance).getValue()).to.equal(1n);
+    });
+
+    it('should remove fallback function', async function () {
+      const impl2 = await ethers.deployContract('Implementation2');
+      const impl4 = await ethers.deployContract('Implementation4');
+      const { instance, proxy, proxyAdminAsSigner } = await this.createProxyWithImpersonatedProxyAdmin(
+        impl4,
+        initializeData,
+      );
+
+      await proxy.connect(proxyAdminAsSigner).upgradeToAndCall(impl2, '0x');
+
+      await expect(this.other.sendTransaction({ to: proxy })).to.be.reverted;
+
+      expect(await impl2.attach(instance).getValue()).to.equal(0n);
+    });
+  });
+};
