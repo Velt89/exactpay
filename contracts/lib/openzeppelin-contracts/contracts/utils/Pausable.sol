@@ -1,1 +1,119 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMC4wKSAodXRpbHMvUGF1c2FibGUuc29sKQoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0NvbnRleHR9IGZyb20gIi4uL3V0aWxzL0NvbnRleHQuc29sIjsKCi8qKgogKiBAZGV2IENvbnRyYWN0IG1vZHVsZSB3aGljaCBhbGxvd3MgY2hpbGRyZW4gdG8gaW1wbGVtZW50IGFuIGVtZXJnZW5jeSBzdG9wCiAqIG1lY2hhbmlzbSB0aGF0IGNhbiBiZSB0cmlnZ2VyZWQgYnkgYW4gYXV0aG9yaXplZCBhY2NvdW50LgogKgogKiBUaGlzIG1vZHVsZSBpcyB1c2VkIHRocm91Z2ggaW5oZXJpdGFuY2UuIEl0IHdpbGwgbWFrZSBhdmFpbGFibGUgdGhlCiAqIG1vZGlmaWVycyBgd2hlbk5vdFBhdXNlZGAgYW5kIGB3aGVuUGF1c2VkYCwgd2hpY2ggY2FuIGJlIGFwcGxpZWQgdG8KICogdGhlIGZ1bmN0aW9ucyBvZiB5b3VyIGNvbnRyYWN0LiBOb3RlIHRoYXQgdGhleSB3aWxsIG5vdCBiZSBwYXVzYWJsZSBieQogKiBzaW1wbHkgaW5jbHVkaW5nIHRoaXMgbW9kdWxlLCBvbmx5IG9uY2UgdGhlIG1vZGlmaWVycyBhcmUgcHV0IGluIHBsYWNlLgogKi8KYWJzdHJhY3QgY29udHJhY3QgUGF1c2FibGUgaXMgQ29udGV4dCB7CiAgICBib29sIHByaXZhdGUgX3BhdXNlZDsKCiAgICAvKioKICAgICAqIEBkZXYgRW1pdHRlZCB3aGVuIHRoZSBwYXVzZSBpcyB0cmlnZ2VyZWQgYnkgYGFjY291bnRgLgogICAgICovCiAgICBldmVudCBQYXVzZWQoYWRkcmVzcyBhY2NvdW50KTsKCiAgICAvKioKICAgICAqIEBkZXYgRW1pdHRlZCB3aGVuIHRoZSBwYXVzZSBpcyBsaWZ0ZWQgYnkgYGFjY291bnRgLgogICAgICovCiAgICBldmVudCBVbnBhdXNlZChhZGRyZXNzIGFjY291bnQpOwoKICAgIC8qKgogICAgICogQGRldiBUaGUgb3BlcmF0aW9uIGZhaWxlZCBiZWNhdXNlIHRoZSBjb250cmFjdCBpcyBwYXVzZWQuCiAgICAgKi8KICAgIGVycm9yIEVuZm9yY2VkUGF1c2UoKTsKCiAgICAvKioKICAgICAqIEBkZXYgVGhlIG9wZXJhdGlvbiBmYWlsZWQgYmVjYXVzZSB0aGUgY29udHJhY3QgaXMgbm90IHBhdXNlZC4KICAgICAqLwogICAgZXJyb3IgRXhwZWN0ZWRQYXVzZSgpOwoKICAgIC8qKgogICAgICogQGRldiBJbml0aWFsaXplcyB0aGUgY29udHJhY3QgaW4gdW5wYXVzZWQgc3RhdGUuCiAgICAgKi8KICAgIGNvbnN0cnVjdG9yKCkgewogICAgICAgIF9wYXVzZWQgPSBmYWxzZTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgTW9kaWZpZXIgdG8gbWFrZSBhIGZ1bmN0aW9uIGNhbGxhYmxlIG9ubHkgd2hlbiB0aGUgY29udHJhY3QgaXMgbm90IHBhdXNlZC4KICAgICAqCiAgICAgKiBSZXF1aXJlbWVudHM6CiAgICAgKgogICAgICogLSBUaGUgY29udHJhY3QgbXVzdCBub3QgYmUgcGF1c2VkLgogICAgICovCiAgICBtb2RpZmllciB3aGVuTm90UGF1c2VkKCkgewogICAgICAgIF9yZXF1aXJlTm90UGF1c2VkKCk7CiAgICAgICAgXzsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgTW9kaWZpZXIgdG8gbWFrZSBhIGZ1bmN0aW9uIGNhbGxhYmxlIG9ubHkgd2hlbiB0aGUgY29udHJhY3QgaXMgcGF1c2VkLgogICAgICoKICAgICAqIFJlcXVpcmVtZW50czoKICAgICAqCiAgICAgKiAtIFRoZSBjb250cmFjdCBtdXN0IGJlIHBhdXNlZC4KICAgICAqLwogICAgbW9kaWZpZXIgd2hlblBhdXNlZCgpIHsKICAgICAgICBfcmVxdWlyZVBhdXNlZCgpOwogICAgICAgIF87CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdHJ1ZSBpZiB0aGUgY29udHJhY3QgaXMgcGF1c2VkLCBhbmQgZmFsc2Ugb3RoZXJ3aXNlLgogICAgICovCiAgICBmdW5jdGlvbiBwYXVzZWQoKSBwdWJsaWMgdmlldyB2aXJ0dWFsIHJldHVybnMgKGJvb2wpIHsKICAgICAgICByZXR1cm4gX3BhdXNlZDsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgVGhyb3dzIGlmIHRoZSBjb250cmFjdCBpcyBwYXVzZWQuCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9yZXF1aXJlTm90UGF1c2VkKCkgaW50ZXJuYWwgdmlldyB2aXJ0dWFsIHsKICAgICAgICBpZiAocGF1c2VkKCkpIHsKICAgICAgICAgICAgcmV2ZXJ0IEVuZm9yY2VkUGF1c2UoKTsKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFRocm93cyBpZiB0aGUgY29udHJhY3QgaXMgbm90IHBhdXNlZC4KICAgICAqLwogICAgZnVuY3Rpb24gX3JlcXVpcmVQYXVzZWQoKSBpbnRlcm5hbCB2aWV3IHZpcnR1YWwgewogICAgICAgIGlmICghcGF1c2VkKCkpIHsKICAgICAgICAgICAgcmV2ZXJ0IEV4cGVjdGVkUGF1c2UoKTsKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFRyaWdnZXJzIHN0b3BwZWQgc3RhdGUuCiAgICAgKgogICAgICogUmVxdWlyZW1lbnRzOgogICAgICoKICAgICAqIC0gVGhlIGNvbnRyYWN0IG11c3Qgbm90IGJlIHBhdXNlZC4KICAgICAqLwogICAgZnVuY3Rpb24gX3BhdXNlKCkgaW50ZXJuYWwgdmlydHVhbCB3aGVuTm90UGF1c2VkIHsKICAgICAgICBfcGF1c2VkID0gdHJ1ZTsKICAgICAgICBlbWl0IFBhdXNlZChfbXNnU2VuZGVyKCkpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBSZXR1cm5zIHRvIG5vcm1hbCBzdGF0ZS4KICAgICAqCiAgICAgKiBSZXF1aXJlbWVudHM6CiAgICAgKgogICAgICogLSBUaGUgY29udHJhY3QgbXVzdCBiZSBwYXVzZWQuCiAgICAgKi8KICAgIGZ1bmN0aW9uIF91bnBhdXNlKCkgaW50ZXJuYWwgdmlydHVhbCB3aGVuUGF1c2VkIHsKICAgICAgICBfcGF1c2VkID0gZmFsc2U7CiAgICAgICAgZW1pdCBVbnBhdXNlZChfbXNnU2VuZGVyKCkpOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.0.0) (utils/Pausable.sol)
+
+pragma solidity ^0.8.20;
+
+import {Context} from "../utils/Context.sol";
+
+/**
+ * @dev Contract module which allows children to implement an emergency stop
+ * mechanism that can be triggered by an authorized account.
+ *
+ * This module is used through inheritance. It will make available the
+ * modifiers `whenNotPaused` and `whenPaused`, which can be applied to
+ * the functions of your contract. Note that they will not be pausable by
+ * simply including this module, only once the modifiers are put in place.
+ */
+abstract contract Pausable is Context {
+    bool private _paused;
+
+    /**
+     * @dev Emitted when the pause is triggered by `account`.
+     */
+    event Paused(address account);
+
+    /**
+     * @dev Emitted when the pause is lifted by `account`.
+     */
+    event Unpaused(address account);
+
+    /**
+     * @dev The operation failed because the contract is paused.
+     */
+    error EnforcedPause();
+
+    /**
+     * @dev The operation failed because the contract is not paused.
+     */
+    error ExpectedPause();
+
+    /**
+     * @dev Initializes the contract in unpaused state.
+     */
+    constructor() {
+        _paused = false;
+    }
+
+    /**
+     * @dev Modifier to make a function callable only when the contract is not paused.
+     *
+     * Requirements:
+     *
+     * - The contract must not be paused.
+     */
+    modifier whenNotPaused() {
+        _requireNotPaused();
+        _;
+    }
+
+    /**
+     * @dev Modifier to make a function callable only when the contract is paused.
+     *
+     * Requirements:
+     *
+     * - The contract must be paused.
+     */
+    modifier whenPaused() {
+        _requirePaused();
+        _;
+    }
+
+    /**
+     * @dev Returns true if the contract is paused, and false otherwise.
+     */
+    function paused() public view virtual returns (bool) {
+        return _paused;
+    }
+
+    /**
+     * @dev Throws if the contract is paused.
+     */
+    function _requireNotPaused() internal view virtual {
+        if (paused()) {
+            revert EnforcedPause();
+        }
+    }
+
+    /**
+     * @dev Throws if the contract is not paused.
+     */
+    function _requirePaused() internal view virtual {
+        if (!paused()) {
+            revert ExpectedPause();
+        }
+    }
+
+    /**
+     * @dev Triggers stopped state.
+     *
+     * Requirements:
+     *
+     * - The contract must not be paused.
+     */
+    function _pause() internal virtual whenNotPaused {
+        _paused = true;
+        emit Paused(_msgSender());
+    }
+
+    /**
+     * @dev Returns to normal state.
+     *
+     * Requirements:
+     *
+     * - The contract must be paused.
+     */
+    function _unpause() internal virtual whenPaused {
+        _paused = false;
+        emit Unpaused(_msgSender());
+    }
+}
