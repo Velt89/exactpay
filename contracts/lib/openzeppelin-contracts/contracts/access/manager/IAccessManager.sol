@@ -1,1 +1,401 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAoYWNjZXNzL21hbmFnZXIvSUFjY2Vzc01hbmFnZXIuc29sKQoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge1RpbWV9IGZyb20gIi4uLy4uL3V0aWxzL3R5cGVzL1RpbWUuc29sIjsKCmludGVyZmFjZSBJQWNjZXNzTWFuYWdlciB7CiAgICAvKioKICAgICAqIEBkZXYgQSBkZWxheWVkIG9wZXJhdGlvbiB3YXMgc2NoZWR1bGVkLgogICAgICovCiAgICBldmVudCBPcGVyYXRpb25TY2hlZHVsZWQoCiAgICAgICAgYnl0ZXMzMiBpbmRleGVkIG9wZXJhdGlvbklkLAogICAgICAgIHVpbnQzMiBpbmRleGVkIG5vbmNlLAogICAgICAgIHVpbnQ0OCBzY2hlZHVsZSwKICAgICAgICBhZGRyZXNzIGNhbGxlciwKICAgICAgICBhZGRyZXNzIHRhcmdldCwKICAgICAgICBieXRlcyBkYXRhCiAgICApOwoKICAgIC8qKgogICAgICogQGRldiBBIHNjaGVkdWxlZCBvcGVyYXRpb24gd2FzIGV4ZWN1dGVkLgogICAgICovCiAgICBldmVudCBPcGVyYXRpb25FeGVjdXRlZChieXRlczMyIGluZGV4ZWQgb3BlcmF0aW9uSWQsIHVpbnQzMiBpbmRleGVkIG5vbmNlKTsKCiAgICAvKioKICAgICAqIEBkZXYgQSBzY2hlZHVsZWQgb3BlcmF0aW9uIHdhcyBjYW5jZWxlZC4KICAgICAqLwogICAgZXZlbnQgT3BlcmF0aW9uQ2FuY2VsZWQoYnl0ZXMzMiBpbmRleGVkIG9wZXJhdGlvbklkLCB1aW50MzIgaW5kZXhlZCBub25jZSk7CgogICAgLyoqCiAgICAgKiBAZGV2IEluZm9ybWF0aW9uYWwgbGFiZWxsaW5nIGZvciBhIHJvbGVJZC4KICAgICAqLwogICAgZXZlbnQgUm9sZUxhYmVsKHVpbnQ2NCBpbmRleGVkIHJvbGVJZCwgc3RyaW5nIGxhYmVsKTsKCiAgICAvKioKICAgICAqIEBkZXYgRW1pdHRlZCB3aGVuIGBhY2NvdW50YCBpcyBncmFudGVkIGByb2xlSWRgLgogICAgICoKICAgICAqIE5PVEU6IFRoZSBtZWFuaW5nIG9mIHRoZSBgc2luY2VgIGFyZ3VtZW50IGRlcGVuZHMgb24gdGhlIGBuZXdNZW1iZXJgIGFyZ3VtZW50LgogICAgICogSWYgdGhlIHJvbGUgaXMgZ3JhbnRlZCB0byBhIG5ldyBtZW1iZXIsIHRoZSBgc2luY2VgIGFyZ3VtZW50IGluZGljYXRlcyB3aGVuIHRoZSBhY2NvdW50IGJlY29tZXMgYSBtZW1iZXIgb2YgdGhlIHJvbGUsCiAgICAgKiBvdGhlcndpc2UgaXQgaW5kaWNhdGVzIHRoZSBleGVjdXRpb24gZGVsYXkgZm9yIHRoaXMgYWNjb3VudCBhbmQgcm9sZUlkIGlzIHVwZGF0ZWQuCiAgICAgKi8KICAgIGV2ZW50IFJvbGVHcmFudGVkKHVpbnQ2NCBpbmRleGVkIHJvbGVJZCwgYWRkcmVzcyBpbmRleGVkIGFjY291bnQsIHVpbnQzMiBkZWxheSwgdWludDQ4IHNpbmNlLCBib29sIG5ld01lbWJlcik7CgogICAgLyoqCiAgICAgKiBAZGV2IEVtaXR0ZWQgd2hlbiBgYWNjb3VudGAgbWVtYmVyc2hpcCBvciBgcm9sZUlkYCBpcyByZXZva2VkLiBVbmxpa2UgZ3JhbnRpbmcsIHJldm9raW5nIGlzIGluc3RhbnRhbmVvdXMuCiAgICAgKi8KICAgIGV2ZW50IFJvbGVSZXZva2VkKHVpbnQ2NCBpbmRleGVkIHJvbGVJZCwgYWRkcmVzcyBpbmRleGVkIGFjY291bnQpOwoKICAgIC8qKgogICAgICogQGRldiBSb2xlIGFjdGluZyBhcyBhZG1pbiBvdmVyIGEgZ2l2ZW4gYHJvbGVJZGAgaXMgdXBkYXRlZC4KICAgICAqLwogICAgZXZlbnQgUm9sZUFkbWluQ2hhbmdlZCh1aW50NjQgaW5kZXhlZCByb2xlSWQsIHVpbnQ2NCBpbmRleGVkIGFkbWluKTsKCiAgICAvKioKICAgICAqIEBkZXYgUm9sZSBhY3RpbmcgYXMgZ3VhcmRpYW4gb3ZlciBhIGdpdmVuIGByb2xlSWRgIGlzIHVwZGF0ZWQuCiAgICAgKi8KICAgIGV2ZW50IFJvbGVHdWFyZGlhbkNoYW5nZWQodWludDY0IGluZGV4ZWQgcm9sZUlkLCB1aW50NjQgaW5kZXhlZCBndWFyZGlhbik7CgogICAgLyoqCiAgICAgKiBAZGV2IEdyYW50IGRlbGF5IGZvciBhIGdpdmVuIGByb2xlSWRgIHdpbGwgYmUgdXBkYXRlZCB0byBgZGVsYXlgIHdoZW4gYHNpbmNlYCBpcyByZWFjaGVkLgogICAgICovCiAgICBldmVudCBSb2xlR3JhbnREZWxheUNoYW5nZWQodWludDY0IGluZGV4ZWQgcm9sZUlkLCB1aW50MzIgZGVsYXksIHVpbnQ0OCBzaW5jZSk7CgogICAgLyoqCiAgICAgKiBAZGV2IFRhcmdldCBtb2RlIGlzIHVwZGF0ZWQgKHRydWUgPSBjbG9zZWQsIGZhbHNlID0gb3BlbikuCiAgICAgKi8KICAgIGV2ZW50IFRhcmdldENsb3NlZChhZGRyZXNzIGluZGV4ZWQgdGFyZ2V0LCBib29sIGNsb3NlZCk7CgogICAgLyoqCiAgICAgKiBAZGV2IFJvbGUgcmVxdWlyZWQgdG8gaW52b2tlIGBzZWxlY3RvcmAgb24gYHRhcmdldGAgaXMgdXBkYXRlZCB0byBgcm9sZUlkYC4KICAgICAqLwogICAgZXZlbnQgVGFyZ2V0RnVuY3Rpb25Sb2xlVXBkYXRlZChhZGRyZXNzIGluZGV4ZWQgdGFyZ2V0LCBieXRlczQgc2VsZWN0b3IsIHVpbnQ2NCBpbmRleGVkIHJvbGVJZCk7CgogICAgLyoqCiAgICAgKiBAZGV2IEFkbWluIGRlbGF5IGZvciBhIGdpdmVuIGB0YXJnZXRgIHdpbGwgYmUgdXBkYXRlZCB0byBgZGVsYXlgIHdoZW4gYHNpbmNlYCBpcyByZWFjaGVkLgogICAgICovCiAgICBldmVudCBUYXJnZXRBZG1pbkRlbGF5VXBkYXRlZChhZGRyZXNzIGluZGV4ZWQgdGFyZ2V0LCB1aW50MzIgZGVsYXksIHVpbnQ0OCBzaW5jZSk7CgogICAgZXJyb3IgQWNjZXNzTWFuYWdlckFscmVhZHlTY2hlZHVsZWQoYnl0ZXMzMiBvcGVyYXRpb25JZCk7CiAgICBlcnJvciBBY2Nlc3NNYW5hZ2VyTm90U2NoZWR1bGVkKGJ5dGVzMzIgb3BlcmF0aW9uSWQpOwogICAgZXJyb3IgQWNjZXNzTWFuYWdlck5vdFJlYWR5KGJ5dGVzMzIgb3BlcmF0aW9uSWQpOwogICAgZXJyb3IgQWNjZXNzTWFuYWdlckV4cGlyZWQoYnl0ZXMzMiBvcGVyYXRpb25JZCk7CiAgICBlcnJvciBBY2Nlc3NNYW5hZ2VyTG9ja2VkUm9sZSh1aW50NjQgcm9sZUlkKTsKICAgIGVycm9yIEFjY2Vzc01hbmFnZXJCYWRDb25maXJtYXRpb24oKTsKICAgIGVycm9yIEFjY2Vzc01hbmFnZXJVbmF1dGhvcml6ZWRBY2NvdW50KGFkZHJlc3MgbXNnc2VuZGVyLCB1aW50NjQgcm9sZUlkKTsKICAgIGVycm9yIEFjY2Vzc01hbmFnZXJVbmF1dGhvcml6ZWRDYWxsKGFkZHJlc3MgY2FsbGVyLCBhZGRyZXNzIHRhcmdldCwgYnl0ZXM0IHNlbGVjdG9yKTsKICAgIGVycm9yIEFjY2Vzc01hbmFnZXJVbmF1dGhvcml6ZWRDb25zdW1lKGFkZHJlc3MgdGFyZ2V0KTsKICAgIGVycm9yIEFjY2Vzc01hbmFnZXJVbmF1dGhvcml6ZWRDYW5jZWwoYWRkcmVzcyBtc2dzZW5kZXIsIGFkZHJlc3MgY2FsbGVyLCBhZGRyZXNzIHRhcmdldCwgYnl0ZXM0IHNlbGVjdG9yKTsKICAgIGVycm9yIEFjY2Vzc01hbmFnZXJJbnZhbGlkSW5pdGlhbEFkbWluKGFkZHJlc3MgaW5pdGlhbEFkbWluKTsKCiAgICAvKioKICAgICAqIEBkZXYgQ2hlY2sgaWYgYW4gYWRkcmVzcyAoYGNhbGxlcmApIGlzIGF1dGhvcmlzZWQgdG8gY2FsbCBhIGdpdmVuIGZ1bmN0aW9uIG9uIGEgZ2l2ZW4gY29udHJhY3QgZGlyZWN0bHkgKHdpdGgKICAgICAqIG5vIHJlc3RyaWN0aW9uKS4gQWRkaXRpb25hbGx5LCBpdCByZXR1cm5zIHRoZSBkZWxheSBuZWVkZWQgdG8gcGVyZm9ybSB0aGUgY2FsbCBpbmRpcmVjdGx5IHRocm91Z2ggdGhlIHtzY2hlZHVsZX0KICAgICAqICYge2V4ZWN1dGV9IHdvcmtmbG93LgogICAgICoKICAgICAqIFRoaXMgZnVuY3Rpb24gaXMgdXN1YWxseSBjYWxsZWQgYnkgdGhlIHRhcmdldGVkIGNvbnRyYWN0IHRvIGNvbnRyb2wgaW1tZWRpYXRlIGV4ZWN1dGlvbiBvZiByZXN0cmljdGVkIGZ1bmN0aW9ucy4KICAgICAqIFRoZXJlZm9yZSB3ZSBvbmx5IHJldHVybiB0cnVlIGlmIHRoZSBjYWxsIGNhbiBiZSBwZXJmb3JtZWQgd2l0aG91dCBhbnkgZGVsYXkuIElmIHRoZSBjYWxsIGlzIHN1YmplY3QgdG8gYQogICAgICogcHJldmlvdXNseSBzZXQgZGVsYXkgKG5vdCB6ZXJvKSwgdGhlbiB0aGUgZnVuY3Rpb24gc2hvdWxkIHJldHVybiBmYWxzZSBhbmQgdGhlIGNhbGxlciBzaG91bGQgc2NoZWR1bGUgdGhlIG9wZXJhdGlvbgogICAgICogZm9yIGZ1dHVyZSBleGVjdXRpb24uCiAgICAgKgogICAgICogSWYgYGltbWVkaWF0ZWAgaXMgdHJ1ZSwgdGhlIGRlbGF5IGNhbiBiZSBkaXNyZWdhcmRlZCBhbmQgdGhlIG9wZXJhdGlvbiBjYW4gYmUgaW1tZWRpYXRlbHkgZXhlY3V0ZWQsIG90aGVyd2lzZQogICAgICogdGhlIG9wZXJhdGlvbiBjYW4gYmUgZXhlY3V0ZWQgaWYgYW5kIG9ubHkgaWYgZGVsYXkgaXMgZ3JlYXRlciB0aGFuIDAuCiAgICAgKgogICAgICogTk9URTogVGhlIElBdXRob3JpdHkgaW50ZXJmYWNlIGRvZXMgbm90IGluY2x1ZGUgdGhlIGB1aW50MzJgIGRlbGF5LiBUaGlzIGlzIGFuIGV4dGVuc2lvbiBvZiB0aGF0IGludGVyZmFjZSB0aGF0CiAgICAgKiBpcyBiYWNrd2FyZCBjb21wYXRpYmxlLiBTb21lIGNvbnRyYWN0cyBtYXkgdGh1cyBpZ25vcmUgdGhlIHNlY29uZCByZXR1cm4gYXJndW1lbnQuIEluIHRoYXQgY2FzZSB0aGV5IHdpbGwgZmFpbAogICAgICogdG8gaWRlbnRpZnkgdGhlIGluZGlyZWN0IHdvcmtmbG93LCBhbmQgd2lsbCBjb25zaWRlciBjYWxscyB0aGF0IHJlcXVpcmUgYSBkZWxheSB0byBiZSBmb3JiaWRkZW4uCiAgICAgKgogICAgICogTk9URTogVGhpcyBmdW5jdGlvbiBkb2VzIG5vdCByZXBvcnQgdGhlIHBlcm1pc3Npb25zIG9mIHRoZSBhZG1pbiBmdW5jdGlvbnMgaW4gdGhlIG1hbmFnZXIgaXRzZWxmLiBUaGVzZSBhcmUgZGVmaW5lZCBieSB0aGUKICAgICAqIHtBY2Nlc3NNYW5hZ2VyfSBkb2N1bWVudGF0aW9uLgogICAgICovCiAgICBmdW5jdGlvbiBjYW5DYWxsKAogICAgICAgIGFkZHJlc3MgY2FsbGVyLAogICAgICAgIGFkZHJlc3MgdGFyZ2V0LAogICAgICAgIGJ5dGVzNCBzZWxlY3RvcgogICAgKSBleHRlcm5hbCB2aWV3IHJldHVybnMgKGJvb2wgYWxsb3dlZCwgdWludDMyIGRlbGF5KTsKCiAgICAvKioKICAgICAqIEBkZXYgRXhwaXJhdGlvbiBkZWxheSBmb3Igc2NoZWR1bGVkIHByb3Bvc2Fscy4gRGVmYXVsdHMgdG8gMSB3ZWVrLgogICAgICoKICAgICAqIElNUE9SVEFOVDogQXZvaWQgb3ZlcnJpZGluZyB0aGUgZXhwaXJhdGlvbiB3aXRoIDAuIE90aGVyd2lzZSBldmVyeSBjb250cmFjdCBwcm9wb3NhbCB3aWxsIGJlIGV4cGlyZWQgaW1tZWRpYXRlbHksCiAgICAgKiBkaXNhYmxpbmcgYW55IHNjaGVkdWxpbmcgdXNhZ2UuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGV4cGlyYXRpb24oKSBleHRlcm5hbCB2aWV3IHJldHVybnMgKHVpbnQzMik7CgogICAgLyoqCiAgICAgKiBAZGV2IE1pbmltdW0gc2V0YmFjayBmb3IgYWxsIGRlbGF5IHVwZGF0ZXMsIHdpdGggdGhlIGV4Y2VwdGlvbiBvZiBleGVjdXRpb24gZGVsYXlzLiBJdAogICAgICogY2FuIGJlIGluY3JlYXNlZCB3aXRob3V0IHNldGJhY2sgKGFuZCByZXNldCB2aWEge3Jldm9rZVJvbGV9IGluIHRoZSBjYXNlIGV2ZW50IG9mIGFuCiAgICAgKiBhY2NpZGVudGFsIGluY3JlYXNlKS4gRGVmYXVsdHMgdG8gNSBkYXlzLgogICAgICovCiAgICBmdW5jdGlvbiBtaW5TZXRiYWNrKCkgZXh0ZXJuYWwgdmlldyByZXR1cm5zICh1aW50MzIpOwoKICAgIC8qKgogICAgICogQGRldiBHZXQgd2hldGhlciB0aGUgY29udHJhY3QgaXMgY2xvc2VkIGRpc2FibGluZyBhbnkgYWNjZXNzLiBPdGhlcndpc2Ugcm9sZSBwZXJtaXNzaW9ucyBhcmUgYXBwbGllZC4KICAgICAqCiAgICAgKiBOT1RFOiBXaGVuIHRoZSBtYW5hZ2VyIGl0c2VsZiBpcyBjbG9zZWQsIGFkbWluIGZ1bmN0aW9ucyBhcmUgc3RpbGwgYWNjZXNzaWJsZSB0byBhdm9pZCBsb2NraW5nIHRoZSBjb250cmFjdC4KICAgICAqLwogICAgZnVuY3Rpb24gaXNUYXJnZXRDbG9zZWQoYWRkcmVzcyB0YXJnZXQpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAoYm9vbCk7CgogICAgLyoqCiAgICAgKiBAZGV2IEdldCB0aGUgcm9sZSByZXF1aXJlZCB0byBjYWxsIGEgZnVuY3Rpb24uCiAgICAgKi8KICAgIGZ1bmN0aW9uIGdldFRhcmdldEZ1bmN0aW9uUm9sZShhZGRyZXNzIHRhcmdldCwgYnl0ZXM0IHNlbGVjdG9yKSBleHRlcm5hbCB2aWV3IHJldHVybnMgKHVpbnQ2NCk7CgogICAgLyoqCiAgICAgKiBAZGV2IEdldCB0aGUgYWRtaW4gZGVsYXkgZm9yIGEgdGFyZ2V0IGNvbnRyYWN0LiBDaGFuZ2VzIHRvIGNvbnRyYWN0IGNvbmZpZ3VyYXRpb24gYXJlIHN1YmplY3QgdG8gdGhpcyBkZWxheS4KICAgICAqLwogICAgZnVuY3Rpb24gZ2V0VGFyZ2V0QWRtaW5EZWxheShhZGRyZXNzIHRhcmdldCkgZXh0ZXJuYWwgdmlldyByZXR1cm5zICh1aW50MzIpOwoKICAgIC8qKgogICAgICogQGRldiBHZXQgdGhlIGlkIG9mIHRoZSByb2xlIHRoYXQgYWN0cyBhcyBhbiBhZG1pbiBmb3IgdGhlIGdpdmVuIHJvbGUuCiAgICAgKgogICAgICogVGhlIGFkbWluIHBlcm1pc3Npb24gaXMgcmVxdWlyZWQgdG8gZ3JhbnQgdGhlIHJvbGUsIHJldm9rZSB0aGUgcm9sZSBhbmQgdXBkYXRlIHRoZSBleGVjdXRpb24gZGVsYXkgdG8gZXhlY3V0ZQogICAgICogYW4gb3BlcmF0aW9uIHRoYXQgaXMgcmVzdHJpY3RlZCB0byB0aGlzIHJvbGUuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGdldFJvbGVBZG1pbih1aW50NjQgcm9sZUlkKSBleHRlcm5hbCB2aWV3IHJldHVybnMgKHVpbnQ2NCk7CgogICAgLyoqCiAgICAgKiBAZGV2IEdldCB0aGUgcm9sZSB0aGF0IGFjdHMgYXMgYSBndWFyZGlhbiBmb3IgYSBnaXZlbiByb2xlLgogICAgICoKICAgICAqIFRoZSBndWFyZGlhbiBwZXJtaXNzaW9uIGFsbG93cyBjYW5jZWxpbmcgb3BlcmF0aW9ucyB0aGF0IGhhdmUgYmVlbiBzY2hlZHVsZWQgdW5kZXIgdGhlIHJvbGUuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGdldFJvbGVHdWFyZGlhbih1aW50NjQgcm9sZUlkKSBleHRlcm5hbCB2aWV3IHJldHVybnMgKHVpbnQ2NCk7CgogICAgLyoqCiAgICAgKiBAZGV2IEdldCB0aGUgcm9sZSBjdXJyZW50IGdyYW50IGRlbGF5LgogICAgICoKICAgICAqIEl0cyB2YWx1ZSBtYXkgY2hhbmdlIGF0IGFueSBwb2ludCB3aXRob3V0IGFuIGV2ZW50IGVtaXR0ZWQgZm9sbG93aW5nIGEgY2FsbCB0byB7c2V0R3JhbnREZWxheX0uCiAgICAgKiBDaGFuZ2VzIHRvIHRoaXMgdmFsdWUsIGluY2x1ZGluZyBlZmZlY3QgdGltZXBvaW50IGFyZSBub3RpZmllZCBpbiBhZHZhbmNlIGJ5IHRoZSB7Um9sZUdyYW50RGVsYXlDaGFuZ2VkfSBldmVudC4KICAgICAqLwogICAgZnVuY3Rpb24gZ2V0Um9sZUdyYW50RGVsYXkodWludDY0IHJvbGVJZCkgZXh0ZXJuYWwgdmlldyByZXR1cm5zICh1aW50MzIpOwoKICAgIC8qKgogICAgICogQGRldiBHZXQgdGhlIGFjY2VzcyBkZXRhaWxzIGZvciBhIGdpdmVuIGFjY291bnQgZm9yIGEgZ2l2ZW4gcm9sZS4gVGhlc2UgZGV0YWlscyBpbmNsdWRlIHRoZSB0aW1lcG9pbnQgYXQgd2hpY2gKICAgICAqIG1lbWJlcnNoaXAgYmVjb21lcyBhY3RpdmUsIGFuZCB0aGUgZGVsYXkgYXBwbGllZCB0byBhbGwgb3BlcmF0aW9uIGJ5IHRoaXMgdXNlciB0aGF0IHJlcXVpcmVzIHRoaXMgcGVybWlzc2lvbgogICAgICogbGV2ZWwuCiAgICAgKgogICAgICogUmV0dXJuczoKICAgICAqIFswXSBUaW1lc3RhbXAgYXQgd2hpY2ggdGhlIGFjY291bnQgbWVtYmVyc2hpcCBiZWNvbWVzIHZhbGlkLiAwIG1lYW5zIHJvbGUgaXMgbm90IGdyYW50ZWQuCiAgICAgKiBbMV0gQ3VycmVudCBleGVjdXRpb24gZGVsYXkgZm9yIHRoZSBhY2NvdW50LgogICAgICogWzJdIFBlbmRpbmcgZXhlY3V0aW9uIGRlbGF5IGZvciB0aGUgYWNjb3VudC4KICAgICAqIFszXSBUaW1lc3RhbXAgYXQgd2hpY2ggdGhlIHBlbmRpbmcgZXhlY3V0aW9uIGRlbGF5IHdpbGwgYmVjb21lIGFjdGl2ZS4gMCBtZWFucyBubyBkZWxheSB1cGRhdGUgaXMgc2NoZWR1bGVkLgogICAgICovCiAgICBmdW5jdGlvbiBnZXRBY2Nlc3MoCiAgICAgICAgdWludDY0IHJvbGVJZCwKICAgICAgICBhZGRyZXNzIGFjY291bnQKICAgICkgZXh0ZXJuYWwgdmlldyByZXR1cm5zICh1aW50NDggc2luY2UsIHVpbnQzMiBjdXJyZW50RGVsYXksIHVpbnQzMiBwZW5kaW5nRGVsYXksIHVpbnQ0OCBlZmZlY3QpOwoKICAgIC8qKgogICAgICogQGRldiBDaGVjayBpZiBhIGdpdmVuIGFjY291bnQgY3VycmVudGx5IGhhcyB0aGUgcGVybWlzc2lvbiBsZXZlbCBjb3JyZXNwb25kaW5nIHRvIGEgZ2l2ZW4gcm9sZS4gTm90ZSB0aGF0IHRoaXMKICAgICAqIHBlcm1pc3Npb24gbWlnaHQgYmUgYXNzb2NpYXRlZCB3aXRoIGFuIGV4ZWN1dGlvbiBkZWxheS4ge2dldEFjY2Vzc30gY2FuIHByb3ZpZGUgbW9yZSBkZXRhaWxzLgogICAgICovCiAgICBmdW5jdGlvbiBoYXNSb2xlKHVpbnQ2NCByb2xlSWQsIGFkZHJlc3MgYWNjb3VudCkgZXh0ZXJuYWwgdmlldyByZXR1cm5zIChib29sIGlzTWVtYmVyLCB1aW50MzIgZXhlY3V0aW9uRGVsYXkpOwoKICAgIC8qKgogICAgICogQGRldiBHaXZlIGEgbGFiZWwgdG8gYSByb2xlLCBmb3IgaW1wcm92ZWQgcm9sZSBkaXNjb3ZlcmFiaWxpdHkgYnkgVUlzLgogICAgICoKICAgICAqIFJlcXVpcmVtZW50czoKICAgICAqCiAgICAgKiAtIHRoZSBjYWxsZXIgbXVzdCBiZSBhIGdsb2JhbCBhZG1pbgogICAgICoKICAgICAqIEVtaXRzIGEge1JvbGVMYWJlbH0gZXZlbnQuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGxhYmVsUm9sZSh1aW50NjQgcm9sZUlkLCBzdHJpbmcgY2FsbGRhdGEgbGFiZWwpIGV4dGVybmFsOwoKICAgIC8qKgogICAgICogQGRldiBBZGQgYGFjY291bnRgIHRvIGByb2xlSWRgLCBvciBjaGFuZ2UgaXRzIGV4ZWN1dGlvbiBkZWxheS4KICAgICAqCiAgICAgKiBUaGlzIGdpdmVzIHRoZSBhY2NvdW50IHRoZSBhdXRob3JpemF0aW9uIHRvIGNhbGwgYW55IGZ1bmN0aW9uIHRoYXQgaXMgcmVzdHJpY3RlZCB0byB0aGlzIHJvbGUuIEFuIG9wdGlvbmFsCiAgICAgKiBleGVjdXRpb24gZGVsYXkgKGluIHNlY29uZHMpIGNhbiBiZSBzZXQuIElmIHRoYXQgZGVsYXkgaXMgbm9uIDAsIHRoZSB1c2VyIGlzIHJlcXVpcmVkIHRvIHNjaGVkdWxlIGFueSBvcGVyYXRpb24KICAgICAqIHRoYXQgaXMgcmVzdHJpY3RlZCB0byBtZW1iZXJzIG9mIHRoaXMgcm9sZS4gVGhlIHVzZXIgd2lsbCBvbmx5IGJlIGFibGUgdG8gZXhlY3V0ZSB0aGUgb3BlcmF0aW9uIGFmdGVyIHRoZSBkZWxheSBoYXMKICAgICAqIHBhc3NlZCwgYmVmb3JlIGl0IGhhcyBleHBpcmVkLiBEdXJpbmcgdGhpcyBwZXJpb2QsIGFkbWluIGFuZCBndWFyZGlhbnMgY2FuIGNhbmNlbCB0aGUgb3BlcmF0aW9uIChzZWUge2NhbmNlbH0pLgogICAgICoKICAgICAqIElmIHRoZSBhY2NvdW50IGhhcyBhbHJlYWR5IGJlZW4gZ3JhbnRlZCB0aGlzIHJvbGUsIHRoZSBleGVjdXRpb24gZGVsYXkgd2lsbCBiZSB1cGRhdGVkLiBUaGlzIHVwZGF0ZSBpcyBub3QKICAgICAqIGltbWVkaWF0ZSBhbmQgZm9sbG93cyB0aGUgZGVsYXkgcnVsZXMuIEZvciBleGFtcGxlLCBpZiBhIHVzZXIgY3VycmVudGx5IGhhcyBhIGRlbGF5IG9mIDMgaG91cnMsIGFuZCB0aGlzIGlzCiAgICAgKiBjYWxsZWQgdG8gcmVkdWNlIHRoYXQgZGVsYXkgdG8gMSBob3VyLCB0aGUgbmV3IGRlbGF5IHdpbGwgdGFrZSBzb21lIHRpbWUgdG8gdGFrZSBlZmZlY3QsIGVuZm9yY2luZyB0aGF0IGFueQogICAgICogb3BlcmF0aW9uIGV4ZWN1dGVkIGluIHRoZSAzIGhvdXJzIHRoYXQgZm9sbG93cyB0aGlzIHVwZGF0ZSB3YXMgaW5kZWVkIHNjaGVkdWxlZCBiZWZvcmUgdGhpcyB1cGRhdGUuCiAgICAgKgogICAgICogUmVxdWlyZW1lbnRzOgogICAgICoKICAgICAqIC0gdGhlIGNhbGxlciBtdXN0IGJlIGFuIGFkbWluIGZvciB0aGUgcm9sZSAoc2VlIHtnZXRSb2xlQWRtaW59KQogICAgICogLSBncmFudGVkIHJvbGUgbXVzdCBub3QgYmUgdGhlIGBQVUJMSUNfUk9MRWAKICAgICAqCiAgICAgKiBFbWl0cyBhIHtSb2xlR3JhbnRlZH0gZXZlbnQuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGdyYW50Um9sZSh1aW50NjQgcm9sZUlkLCBhZGRyZXNzIGFjY291bnQsIHVpbnQzMiBleGVjdXRpb25EZWxheSkgZXh0ZXJuYWw7CgogICAgLyoqCiAgICAgKiBAZGV2IFJlbW92ZSBhbiBhY2NvdW50IGZyb20gYSByb2xlLCB3aXRoIGltbWVkaWF0ZSBlZmZlY3QuIElmIHRoZSBhY2NvdW50IGRvZXMgbm90IGhhdmUgdGhlIHJvbGUsIHRoaXMgY2FsbCBoYXMKICAgICAqIG5vIGVmZmVjdC4KICAgICAqCiAgICAgKiBSZXF1aXJlbWVudHM6CiAgICAgKgogICAgICogLSB0aGUgY2FsbGVyIG11c3QgYmUgYW4gYWRtaW4gZm9yIHRoZSByb2xlIChzZWUge2dldFJvbGVBZG1pbn0pCiAgICAgKiAtIHJldm9rZWQgcm9sZSBtdXN0IG5vdCBiZSB0aGUgYFBVQkxJQ19ST0xFYAogICAgICoKICAgICAqIEVtaXRzIGEge1JvbGVSZXZva2VkfSBldmVudCBpZiB0aGUgYWNjb3VudCBoYWQgdGhlIHJvbGUuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHJldm9rZVJvbGUodWludDY0IHJvbGVJZCwgYWRkcmVzcyBhY2NvdW50KSBleHRlcm5hbDsKCiAgICAvKioKICAgICAqIEBkZXYgUmVub3VuY2Ugcm9sZSBwZXJtaXNzaW9ucyBmb3IgdGhlIGNhbGxpbmcgYWNjb3VudCB3aXRoIGltbWVkaWF0ZSBlZmZlY3QuIElmIHRoZSBzZW5kZXIgaXMgbm90IGluCiAgICAgKiB0aGUgcm9sZSB0aGlzIGNhbGwgaGFzIG5vIGVmZmVjdC4KICAgICAqCiAgICAgKiBSZXF1aXJlbWVudHM6CiAgICAgKgogICAgICogLSB0aGUgY2FsbGVyIG11c3QgYmUgYGNhbGxlckNvbmZpcm1hdGlvbmAuCiAgICAgKgogICAgICogRW1pdHMgYSB7Um9sZVJldm9rZWR9IGV2ZW50IGlmIHRoZSBhY2NvdW50IGhhZCB0aGUgcm9sZS4KICAgICAqLwogICAgZnVuY3Rpb24gcmVub3VuY2VSb2xlKHVpbnQ2NCByb2xlSWQsIGFkZHJlc3MgY2FsbGVyQ29uZmlybWF0aW9uKSBleHRlcm5hbDsKCiAgICAvKioKICAgICAqIEBkZXYgQ2hhbmdlIGFkbWluIHJvbGUgZm9yIGEgZ2l2ZW4gcm9sZS4KICAgICAqCiAgICAgKiBSZXF1aXJlbWVudHM6CiAgICAgKgogICAgICogLSB0aGUgY2FsbGVyIG11c3QgYmUgYSBnbG9iYWwgYWRtaW4KICAgICAqCiAgICAgKiBFbWl0cyBhIHtSb2xlQWRtaW5DaGFuZ2VkfSBldmVudAogICAgICovCiAgICBmdW5jdGlvbiBzZXRSb2xlQWRtaW4odWludDY0IHJvbGVJZCwgdWludDY0IGFkbWluKSBleHRlcm5hbDsKCiAgICAvKioKICAgICAqIEBkZXYgQ2hhbmdlIGd1YXJkaWFuIHJvbGUgZm9yIGEgZ2l2ZW4gcm9sZS4KICAgICAqCiAgICAgKiBSZXF1aXJlbWVudHM6CiAgICAgKgogICAgICogLSB0aGUgY2FsbGVyIG11c3QgYmUgYSBnbG9iYWwgYWRtaW4KICAgICAqCiAgICAgKiBFbWl0cyBhIHtSb2xlR3VhcmRpYW5DaGFuZ2VkfSBldmVudAogICAgICovCiAgICBmdW5jdGlvbiBzZXRSb2xlR3VhcmRpYW4odWludDY0IHJvbGVJZCwgdWludDY0IGd1YXJkaWFuKSBleHRlcm5hbDsKCiAgICAvKioKICAgICAqIEBkZXYgVXBkYXRlIHRoZSBkZWxheSBmb3IgZ3JhbnRpbmcgYSBgcm9sZUlkYC4KICAgICAqCiAgICAgKiBSZXF1aXJlbWVudHM6CiAgICAgKgogICAgICogLSB0aGUgY2FsbGVyIG11c3QgYmUgYSBnbG9iYWwgYWRtaW4KICAgICAqCiAgICAgKiBFbWl0cyBhIHtSb2xlR3JhbnREZWxheUNoYW5nZWR9IGV2ZW50LgogICAgICovCiAgICBmdW5jdGlvbiBzZXRHcmFudERlbGF5KHVpbnQ2NCByb2xlSWQsIHVpbnQzMiBuZXdEZWxheSkgZXh0ZXJuYWw7CgogICAgLyoqCiAgICAgKiBAZGV2IFNldCB0aGUgcm9sZSByZXF1aXJlZCB0byBjYWxsIGZ1bmN0aW9ucyBpZGVudGlmaWVkIGJ5IHRoZSBgc2VsZWN0b3JzYCBpbiB0aGUgYHRhcmdldGAgY29udHJhY3QuCiAgICAgKgogICAgICogUmVxdWlyZW1lbnRzOgogICAgICoKICAgICAqIC0gdGhlIGNhbGxlciBtdXN0IGJlIGEgZ2xvYmFsIGFkbWluCiAgICAgKgogICAgICogRW1pdHMgYSB7VGFyZ2V0RnVuY3Rpb25Sb2xlVXBkYXRlZH0gZXZlbnQgcGVyIHNlbGVjdG9yLgogICAgICovCiAgICBmdW5jdGlvbiBzZXRUYXJnZXRGdW5jdGlvblJvbGUoYWRkcmVzcyB0YXJnZXQsIGJ5dGVzNFtdIGNhbGxkYXRhIHNlbGVjdG9ycywgdWludDY0IHJvbGVJZCkgZXh0ZXJuYWw7CgogICAgLyoqCiAgICAgKiBAZGV2IFNldCB0aGUgZGVsYXkgZm9yIGNoYW5naW5nIHRoZSBjb25maWd1cmF0aW9uIG9mIGEgZ2l2ZW4gdGFyZ2V0IGNvbnRyYWN0LgogICAgICoKICAgICAqIFJlcXVpcmVtZW50czoKICAgICAqCiAgICAgKiAtIHRoZSBjYWxsZXIgbXVzdCBiZSBhIGdsb2JhbCBhZG1pbgogICAgICoKICAgICAqIEVtaXRzIGEge1RhcmdldEFkbWluRGVsYXlVcGRhdGVkfSBldmVudC4KICAgICAqLwogICAgZnVuY3Rpb24gc2V0VGFyZ2V0QWRtaW5EZWxheShhZGRyZXNzIHRhcmdldCwgdWludDMyIG5ld0RlbGF5KSBleHRlcm5hbDsKCiAgICAvKioKICAgICAqIEBkZXYgU2V0IHRoZSBjbG9zZWQgZmxhZyBmb3IgYSBjb250cmFjdC4KICAgICAqCiAgICAgKiBDbG9zaW5nIHRoZSBtYW5hZ2VyIGl0c2VsZiB3b24ndCBkaXNhYmxlIGFjY2VzcyB0byBhZG1pbiBtZXRob2RzIHRvIGF2b2lkIGxvY2tpbmcgdGhlIGNvbnRyYWN0LgogICAgICoKICAgICAqIFJlcXVpcmVtZW50czoKICAgICAqCiAgICAgKiAtIHRoZSBjYWxsZXIgbXVzdCBiZSBhIGdsb2JhbCBhZG1pbgogICAgICoKICAgICAqIEVtaXRzIGEge1RhcmdldENsb3NlZH0gZXZlbnQuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHNldFRhcmdldENsb3NlZChhZGRyZXNzIHRhcmdldCwgYm9vbCBjbG9zZWQpIGV4dGVybmFsOwoKICAgIC8qKgogICAgICogQGRldiBSZXR1cm4gdGhlIHRpbWVwb2ludCBhdCB3aGljaCBhIHNjaGVkdWxlZCBvcGVyYXRpb24gd2lsbCBiZSByZWFkeSBmb3IgZXhlY3V0aW9uLiBUaGlzIHJldHVybnMgMCBpZiB0aGUKICAgICAqIG9wZXJhdGlvbiBpcyBub3QgeWV0IHNjaGVkdWxlZCwgaGFzIGV4cGlyZWQsIHdhcyBleGVjdXRlZCwgb3Igd2FzIGNhbmNlbGVkLgogICAgICovCiAgICBmdW5jdGlvbiBnZXRTY2hlZHVsZShieXRlczMyIGlkKSBleHRlcm5hbCB2aWV3IHJldHVybnMgKHVpbnQ0OCk7CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybiB0aGUgbm9uY2UgZm9yIHRoZSBsYXRlc3Qgc2NoZWR1bGVkIG9wZXJhdGlvbiB3aXRoIGEgZ2l2ZW4gaWQuIFJldHVybnMgMCBpZiB0aGUgb3BlcmF0aW9uIGhhcyBuZXZlcgogICAgICogYmVlbiBzY2hlZHVsZWQuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGdldE5vbmNlKGJ5dGVzMzIgaWQpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAodWludDMyKTsKCiAgICAvKioKICAgICAqIEBkZXYgU2NoZWR1bGUgYSBkZWxheWVkIG9wZXJhdGlvbiBmb3IgZnV0dXJlIGV4ZWN1dGlvbiwgYW5kIHJldHVybiB0aGUgb3BlcmF0aW9uIGlkZW50aWZpZXIuIEl0IGlzIHBvc3NpYmxlIHRvCiAgICAgKiBjaG9vc2UgdGhlIHRpbWVzdGFtcCBhdCB3aGljaCB0aGUgb3BlcmF0aW9uIGJlY29tZXMgZXhlY3V0YWJsZSBhcyBsb25nIGFzIGl0IHNhdGlzZmllcyB0aGUgZXhlY3V0aW9uIGRlbGF5cwogICAgICogcmVxdWlyZWQgZm9yIHRoZSBjYWxsZXIuIFRoZSBzcGVjaWFsIHZhbHVlIHplcm8gd2lsbCBhdXRvbWF0aWNhbGx5IHNldCB0aGUgZWFybGllc3QgcG9zc2libGUgdGltZS4KICAgICAqCiAgICAgKiBSZXR1cm5zIHRoZSBgb3BlcmF0aW9uSWRgIHRoYXQgd2FzIHNjaGVkdWxlZC4gU2luY2UgdGhpcyB2YWx1ZSBpcyBhIGhhc2ggb2YgdGhlIHBhcmFtZXRlcnMsIGl0IGNhbiByZW9jY3VyIHdoZW4KICAgICAqIHRoZSBzYW1lIHBhcmFtZXRlcnMgYXJlIHVzZWQ7IGlmIHRoaXMgaXMgcmVsZXZhbnQsIHRoZSByZXR1cm5lZCBgbm9uY2VgIGNhbiBiZSB1c2VkIHRvIHVuaXF1ZWx5IGlkZW50aWZ5IHRoaXMKICAgICAqIHNjaGVkdWxlZCBvcGVyYXRpb24gZnJvbSBvdGhlciBvY2N1cnJlbmNlcyBvZiB0aGUgc2FtZSBgb3BlcmF0aW9uSWRgIGluIGludm9jYXRpb25zIG9mIHtleGVjdXRlfSBhbmQge2NhbmNlbH0uCiAgICAgKgogICAgICogRW1pdHMgYSB7T3BlcmF0aW9uU2NoZWR1bGVkfSBldmVudC4KICAgICAqCiAgICAgKiBOT1RFOiBJdCBpcyBub3QgcG9zc2libGUgdG8gY29uY3VycmVudGx5IHNjaGVkdWxlIG1vcmUgdGhhbiBvbmUgb3BlcmF0aW9uIHdpdGggdGhlIHNhbWUgYHRhcmdldGAgYW5kIGBkYXRhYC4gSWYKICAgICAqIHRoaXMgaXMgbmVjZXNzYXJ5LCBhIHJhbmRvbSBieXRlIGNhbiBiZSBhcHBlbmRlZCB0byBgZGF0YWAgdG8gYWN0IGFzIGEgc2FsdCB0aGF0IHdpbGwgYmUgaWdub3JlZCBieSB0aGUgdGFyZ2V0CiAgICAgKiBjb250cmFjdCBpZiBpdCBpcyB1c2luZyBzdGFuZGFyZCBTb2xpZGl0eSBBQkkgZW5jb2RpbmcuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHNjaGVkdWxlKAogICAgICAgIGFkZHJlc3MgdGFyZ2V0LAogICAgICAgIGJ5dGVzIGNhbGxkYXRhIGRhdGEsCiAgICAgICAgdWludDQ4IHdoZW4KICAgICkgZXh0ZXJuYWwgcmV0dXJucyAoYnl0ZXMzMiBvcGVyYXRpb25JZCwgdWludDMyIG5vbmNlKTsKCiAgICAvKioKICAgICAqIEBkZXYgRXhlY3V0ZSBhIGZ1bmN0aW9uIHRoYXQgaXMgZGVsYXkgcmVzdHJpY3RlZCwgcHJvdmlkZWQgaXQgd2FzIHByb3Blcmx5IHNjaGVkdWxlZCBiZWZvcmVoYW5kLCBvciB0aGUKICAgICAqIGV4ZWN1dGlvbiBkZWxheSBpcyAwLgogICAgICoKICAgICAqIFJldHVybnMgdGhlIG5vbmNlIHRoYXQgaWRlbnRpZmllcyB0aGUgcHJldmlvdXNseSBzY2hlZHVsZWQgb3BlcmF0aW9uIHRoYXQgaXMgZXhlY3V0ZWQsIG9yIDAgaWYgdGhlCiAgICAgKiBvcGVyYXRpb24gd2Fzbid0IHByZXZpb3VzbHkgc2NoZWR1bGVkIChpZiB0aGUgY2FsbGVyIGRvZXNuJ3QgaGF2ZSBhbiBleGVjdXRpb24gZGVsYXkpLgogICAgICoKICAgICAqIEVtaXRzIGFuIHtPcGVyYXRpb25FeGVjdXRlZH0gZXZlbnQgb25seSBpZiB0aGUgY2FsbCB3YXMgc2NoZWR1bGVkIGFuZCBkZWxheWVkLgogICAgICovCiAgICBmdW5jdGlvbiBleGVjdXRlKGFkZHJlc3MgdGFyZ2V0LCBieXRlcyBjYWxsZGF0YSBkYXRhKSBleHRlcm5hbCBwYXlhYmxlIHJldHVybnMgKHVpbnQzMik7CgogICAgLyoqCiAgICAgKiBAZGV2IENhbmNlbCBhIHNjaGVkdWxlZCAoZGVsYXllZCkgb3BlcmF0aW9uLiBSZXR1cm5zIHRoZSBub25jZSB0aGF0IGlkZW50aWZpZXMgdGhlIHByZXZpb3VzbHkgc2NoZWR1bGVkCiAgICAgKiBvcGVyYXRpb24gdGhhdCBpcyBjYW5jZWxsZWQuCiAgICAgKgogICAgICogUmVxdWlyZW1lbnRzOgogICAgICoKICAgICAqIC0gdGhlIGNhbGxlciBtdXN0IGJlIHRoZSBwcm9wb3NlciwgYSBndWFyZGlhbiBvZiB0aGUgdGFyZ2V0ZWQgZnVuY3Rpb24sIG9yIGEgZ2xvYmFsIGFkbWluCiAgICAgKgogICAgICogRW1pdHMgYSB7T3BlcmF0aW9uQ2FuY2VsZWR9IGV2ZW50LgogICAgICovCiAgICBmdW5jdGlvbiBjYW5jZWwoYWRkcmVzcyBjYWxsZXIsIGFkZHJlc3MgdGFyZ2V0LCBieXRlcyBjYWxsZGF0YSBkYXRhKSBleHRlcm5hbCByZXR1cm5zICh1aW50MzIpOwoKICAgIC8qKgogICAgICogQGRldiBDb25zdW1lIGEgc2NoZWR1bGVkIG9wZXJhdGlvbiB0YXJnZXRpbmcgdGhlIGNhbGxlci4gSWYgc3VjaCBhbiBvcGVyYXRpb24gZXhpc3RzLCBtYXJrIGl0IGFzIGNvbnN1bWVkCiAgICAgKiAoZW1pdCBhbiB7T3BlcmF0aW9uRXhlY3V0ZWR9IGV2ZW50IGFuZCBjbGVhbiB0aGUgc3RhdGUpLiBPdGhlcndpc2UsIHRocm93IGFuIGVycm9yLgogICAgICoKICAgICAqIFRoaXMgaXMgdXNlZnVsIGZvciBjb250cmFjdCB0aGF0IHdhbnQgdG8gZW5mb3JjZSB0aGF0IGNhbGxzIHRhcmdldGluZyB0aGVtIHdlcmUgc2NoZWR1bGVkIG9uIHRoZSBtYW5hZ2VyLAogICAgICogd2l0aCBhbGwgdGhlIHZlcmlmaWNhdGlvbnMgdGhhdCBpdCBpbXBsaWVzLgogICAgICoKICAgICAqIEVtaXQgYSB7T3BlcmF0aW9uRXhlY3V0ZWR9IGV2ZW50LgogICAgICovCiAgICBmdW5jdGlvbiBjb25zdW1lU2NoZWR1bGVkT3AoYWRkcmVzcyBjYWxsZXIsIGJ5dGVzIGNhbGxkYXRhIGRhdGEpIGV4dGVybmFsOwoKICAgIC8qKgogICAgICogQGRldiBIYXNoaW5nIGZ1bmN0aW9uIGZvciBkZWxheWVkIG9wZXJhdGlvbnMuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGhhc2hPcGVyYXRpb24oYWRkcmVzcyBjYWxsZXIsIGFkZHJlc3MgdGFyZ2V0LCBieXRlcyBjYWxsZGF0YSBkYXRhKSBleHRlcm5hbCB2aWV3IHJldHVybnMgKGJ5dGVzMzIpOwoKICAgIC8qKgogICAgICogQGRldiBDaGFuZ2VzIHRoZSBhdXRob3JpdHkgb2YgYSB0YXJnZXQgbWFuYWdlZCBieSB0aGlzIG1hbmFnZXIgaW5zdGFuY2UuCiAgICAgKgogICAgICogUmVxdWlyZW1lbnRzOgogICAgICoKICAgICAqIC0gdGhlIGNhbGxlciBtdXN0IGJlIGEgZ2xvYmFsIGFkbWluCiAgICAgKi8KICAgIGZ1bmN0aW9uIHVwZGF0ZUF1dGhvcml0eShhZGRyZXNzIHRhcmdldCwgYWRkcmVzcyBuZXdBdXRob3JpdHkpIGV4dGVybmFsOwp9Cg==
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (access/manager/IAccessManager.sol)
+
+pragma solidity ^0.8.20;
+
+import {Time} from "../../utils/types/Time.sol";
+
+interface IAccessManager {
+    /**
+     * @dev A delayed operation was scheduled.
+     */
+    event OperationScheduled(
+        bytes32 indexed operationId,
+        uint32 indexed nonce,
+        uint48 schedule,
+        address caller,
+        address target,
+        bytes data
+    );
+
+    /**
+     * @dev A scheduled operation was executed.
+     */
+    event OperationExecuted(bytes32 indexed operationId, uint32 indexed nonce);
+
+    /**
+     * @dev A scheduled operation was canceled.
+     */
+    event OperationCanceled(bytes32 indexed operationId, uint32 indexed nonce);
+
+    /**
+     * @dev Informational labelling for a roleId.
+     */
+    event RoleLabel(uint64 indexed roleId, string label);
+
+    /**
+     * @dev Emitted when `account` is granted `roleId`.
+     *
+     * NOTE: The meaning of the `since` argument depends on the `newMember` argument.
+     * If the role is granted to a new member, the `since` argument indicates when the account becomes a member of the role,
+     * otherwise it indicates the execution delay for this account and roleId is updated.
+     */
+    event RoleGranted(uint64 indexed roleId, address indexed account, uint32 delay, uint48 since, bool newMember);
+
+    /**
+     * @dev Emitted when `account` membership or `roleId` is revoked. Unlike granting, revoking is instantaneous.
+     */
+    event RoleRevoked(uint64 indexed roleId, address indexed account);
+
+    /**
+     * @dev Role acting as admin over a given `roleId` is updated.
+     */
+    event RoleAdminChanged(uint64 indexed roleId, uint64 indexed admin);
+
+    /**
+     * @dev Role acting as guardian over a given `roleId` is updated.
+     */
+    event RoleGuardianChanged(uint64 indexed roleId, uint64 indexed guardian);
+
+    /**
+     * @dev Grant delay for a given `roleId` will be updated to `delay` when `since` is reached.
+     */
+    event RoleGrantDelayChanged(uint64 indexed roleId, uint32 delay, uint48 since);
+
+    /**
+     * @dev Target mode is updated (true = closed, false = open).
+     */
+    event TargetClosed(address indexed target, bool closed);
+
+    /**
+     * @dev Role required to invoke `selector` on `target` is updated to `roleId`.
+     */
+    event TargetFunctionRoleUpdated(address indexed target, bytes4 selector, uint64 indexed roleId);
+
+    /**
+     * @dev Admin delay for a given `target` will be updated to `delay` when `since` is reached.
+     */
+    event TargetAdminDelayUpdated(address indexed target, uint32 delay, uint48 since);
+
+    error AccessManagerAlreadyScheduled(bytes32 operationId);
+    error AccessManagerNotScheduled(bytes32 operationId);
+    error AccessManagerNotReady(bytes32 operationId);
+    error AccessManagerExpired(bytes32 operationId);
+    error AccessManagerLockedRole(uint64 roleId);
+    error AccessManagerBadConfirmation();
+    error AccessManagerUnauthorizedAccount(address msgsender, uint64 roleId);
+    error AccessManagerUnauthorizedCall(address caller, address target, bytes4 selector);
+    error AccessManagerUnauthorizedConsume(address target);
+    error AccessManagerUnauthorizedCancel(address msgsender, address caller, address target, bytes4 selector);
+    error AccessManagerInvalidInitialAdmin(address initialAdmin);
+
+    /**
+     * @dev Check if an address (`caller`) is authorised to call a given function on a given contract directly (with
+     * no restriction). Additionally, it returns the delay needed to perform the call indirectly through the {schedule}
+     * & {execute} workflow.
+     *
+     * This function is usually called by the targeted contract to control immediate execution of restricted functions.
+     * Therefore we only return true if the call can be performed without any delay. If the call is subject to a
+     * previously set delay (not zero), then the function should return false and the caller should schedule the operation
+     * for future execution.
+     *
+     * If `immediate` is true, the delay can be disregarded and the operation can be immediately executed, otherwise
+     * the operation can be executed if and only if delay is greater than 0.
+     *
+     * NOTE: The IAuthority interface does not include the `uint32` delay. This is an extension of that interface that
+     * is backward compatible. Some contracts may thus ignore the second return argument. In that case they will fail
+     * to identify the indirect workflow, and will consider calls that require a delay to be forbidden.
+     *
+     * NOTE: This function does not report the permissions of the admin functions in the manager itself. These are defined by the
+     * {AccessManager} documentation.
+     */
+    function canCall(
+        address caller,
+        address target,
+        bytes4 selector
+    ) external view returns (bool allowed, uint32 delay);
+
+    /**
+     * @dev Expiration delay for scheduled proposals. Defaults to 1 week.
+     *
+     * IMPORTANT: Avoid overriding the expiration with 0. Otherwise every contract proposal will be expired immediately,
+     * disabling any scheduling usage.
+     */
+    function expiration() external view returns (uint32);
+
+    /**
+     * @dev Minimum setback for all delay updates, with the exception of execution delays. It
+     * can be increased without setback (and reset via {revokeRole} in the case event of an
+     * accidental increase). Defaults to 5 days.
+     */
+    function minSetback() external view returns (uint32);
+
+    /**
+     * @dev Get whether the contract is closed disabling any access. Otherwise role permissions are applied.
+     *
+     * NOTE: When the manager itself is closed, admin functions are still accessible to avoid locking the contract.
+     */
+    function isTargetClosed(address target) external view returns (bool);
+
+    /**
+     * @dev Get the role required to call a function.
+     */
+    function getTargetFunctionRole(address target, bytes4 selector) external view returns (uint64);
+
+    /**
+     * @dev Get the admin delay for a target contract. Changes to contract configuration are subject to this delay.
+     */
+    function getTargetAdminDelay(address target) external view returns (uint32);
+
+    /**
+     * @dev Get the id of the role that acts as an admin for the given role.
+     *
+     * The admin permission is required to grant the role, revoke the role and update the execution delay to execute
+     * an operation that is restricted to this role.
+     */
+    function getRoleAdmin(uint64 roleId) external view returns (uint64);
+
+    /**
+     * @dev Get the role that acts as a guardian for a given role.
+     *
+     * The guardian permission allows canceling operations that have been scheduled under the role.
+     */
+    function getRoleGuardian(uint64 roleId) external view returns (uint64);
+
+    /**
+     * @dev Get the role current grant delay.
+     *
+     * Its value may change at any point without an event emitted following a call to {setGrantDelay}.
+     * Changes to this value, including effect timepoint are notified in advance by the {RoleGrantDelayChanged} event.
+     */
+    function getRoleGrantDelay(uint64 roleId) external view returns (uint32);
+
+    /**
+     * @dev Get the access details for a given account for a given role. These details include the timepoint at which
+     * membership becomes active, and the delay applied to all operation by this user that requires this permission
+     * level.
+     *
+     * Returns:
+     * [0] Timestamp at which the account membership becomes valid. 0 means role is not granted.
+     * [1] Current execution delay for the account.
+     * [2] Pending execution delay for the account.
+     * [3] Timestamp at which the pending execution delay will become active. 0 means no delay update is scheduled.
+     */
+    function getAccess(
+        uint64 roleId,
+        address account
+    ) external view returns (uint48 since, uint32 currentDelay, uint32 pendingDelay, uint48 effect);
+
+    /**
+     * @dev Check if a given account currently has the permission level corresponding to a given role. Note that this
+     * permission might be associated with an execution delay. {getAccess} can provide more details.
+     */
+    function hasRole(uint64 roleId, address account) external view returns (bool isMember, uint32 executionDelay);
+
+    /**
+     * @dev Give a label to a role, for improved role discoverability by UIs.
+     *
+     * Requirements:
+     *
+     * - the caller must be a global admin
+     *
+     * Emits a {RoleLabel} event.
+     */
+    function labelRole(uint64 roleId, string calldata label) external;
+
+    /**
+     * @dev Add `account` to `roleId`, or change its execution delay.
+     *
+     * This gives the account the authorization to call any function that is restricted to this role. An optional
+     * execution delay (in seconds) can be set. If that delay is non 0, the user is required to schedule any operation
+     * that is restricted to members of this role. The user will only be able to execute the operation after the delay has
+     * passed, before it has expired. During this period, admin and guardians can cancel the operation (see {cancel}).
+     *
+     * If the account has already been granted this role, the execution delay will be updated. This update is not
+     * immediate and follows the delay rules. For example, if a user currently has a delay of 3 hours, and this is
+     * called to reduce that delay to 1 hour, the new delay will take some time to take effect, enforcing that any
+     * operation executed in the 3 hours that follows this update was indeed scheduled before this update.
+     *
+     * Requirements:
+     *
+     * - the caller must be an admin for the role (see {getRoleAdmin})
+     * - granted role must not be the `PUBLIC_ROLE`
+     *
+     * Emits a {RoleGranted} event.
+     */
+    function grantRole(uint64 roleId, address account, uint32 executionDelay) external;
+
+    /**
+     * @dev Remove an account from a role, with immediate effect. If the account does not have the role, this call has
+     * no effect.
+     *
+     * Requirements:
+     *
+     * - the caller must be an admin for the role (see {getRoleAdmin})
+     * - revoked role must not be the `PUBLIC_ROLE`
+     *
+     * Emits a {RoleRevoked} event if the account had the role.
+     */
+    function revokeRole(uint64 roleId, address account) external;
+
+    /**
+     * @dev Renounce role permissions for the calling account with immediate effect. If the sender is not in
+     * the role this call has no effect.
+     *
+     * Requirements:
+     *
+     * - the caller must be `callerConfirmation`.
+     *
+     * Emits a {RoleRevoked} event if the account had the role.
+     */
+    function renounceRole(uint64 roleId, address callerConfirmation) external;
+
+    /**
+     * @dev Change admin role for a given role.
+     *
+     * Requirements:
+     *
+     * - the caller must be a global admin
+     *
+     * Emits a {RoleAdminChanged} event
+     */
+    function setRoleAdmin(uint64 roleId, uint64 admin) external;
+
+    /**
+     * @dev Change guardian role for a given role.
+     *
+     * Requirements:
+     *
+     * - the caller must be a global admin
+     *
+     * Emits a {RoleGuardianChanged} event
+     */
+    function setRoleGuardian(uint64 roleId, uint64 guardian) external;
+
+    /**
+     * @dev Update the delay for granting a `roleId`.
+     *
+     * Requirements:
+     *
+     * - the caller must be a global admin
+     *
+     * Emits a {RoleGrantDelayChanged} event.
+     */
+    function setGrantDelay(uint64 roleId, uint32 newDelay) external;
+
+    /**
+     * @dev Set the role required to call functions identified by the `selectors` in the `target` contract.
+     *
+     * Requirements:
+     *
+     * - the caller must be a global admin
+     *
+     * Emits a {TargetFunctionRoleUpdated} event per selector.
+     */
+    function setTargetFunctionRole(address target, bytes4[] calldata selectors, uint64 roleId) external;
+
+    /**
+     * @dev Set the delay for changing the configuration of a given target contract.
+     *
+     * Requirements:
+     *
+     * - the caller must be a global admin
+     *
+     * Emits a {TargetAdminDelayUpdated} event.
+     */
+    function setTargetAdminDelay(address target, uint32 newDelay) external;
+
+    /**
+     * @dev Set the closed flag for a contract.
+     *
+     * Closing the manager itself won't disable access to admin methods to avoid locking the contract.
+     *
+     * Requirements:
+     *
+     * - the caller must be a global admin
+     *
+     * Emits a {TargetClosed} event.
+     */
+    function setTargetClosed(address target, bool closed) external;
+
+    /**
+     * @dev Return the timepoint at which a scheduled operation will be ready for execution. This returns 0 if the
+     * operation is not yet scheduled, has expired, was executed, or was canceled.
+     */
+    function getSchedule(bytes32 id) external view returns (uint48);
+
+    /**
+     * @dev Return the nonce for the latest scheduled operation with a given id. Returns 0 if the operation has never
+     * been scheduled.
+     */
+    function getNonce(bytes32 id) external view returns (uint32);
+
+    /**
+     * @dev Schedule a delayed operation for future execution, and return the operation identifier. It is possible to
+     * choose the timestamp at which the operation becomes executable as long as it satisfies the execution delays
+     * required for the caller. The special value zero will automatically set the earliest possible time.
+     *
+     * Returns the `operationId` that was scheduled. Since this value is a hash of the parameters, it can reoccur when
+     * the same parameters are used; if this is relevant, the returned `nonce` can be used to uniquely identify this
+     * scheduled operation from other occurrences of the same `operationId` in invocations of {execute} and {cancel}.
+     *
+     * Emits a {OperationScheduled} event.
+     *
+     * NOTE: It is not possible to concurrently schedule more than one operation with the same `target` and `data`. If
+     * this is necessary, a random byte can be appended to `data` to act as a salt that will be ignored by the target
+     * contract if it is using standard Solidity ABI encoding.
+     */
+    function schedule(
+        address target,
+        bytes calldata data,
+        uint48 when
+    ) external returns (bytes32 operationId, uint32 nonce);
+
+    /**
+     * @dev Execute a function that is delay restricted, provided it was properly scheduled beforehand, or the
+     * execution delay is 0.
+     *
+     * Returns the nonce that identifies the previously scheduled operation that is executed, or 0 if the
+     * operation wasn't previously scheduled (if the caller doesn't have an execution delay).
+     *
+     * Emits an {OperationExecuted} event only if the call was scheduled and delayed.
+     */
+    function execute(address target, bytes calldata data) external payable returns (uint32);
+
+    /**
+     * @dev Cancel a scheduled (delayed) operation. Returns the nonce that identifies the previously scheduled
+     * operation that is cancelled.
+     *
+     * Requirements:
+     *
+     * - the caller must be the proposer, a guardian of the targeted function, or a global admin
+     *
+     * Emits a {OperationCanceled} event.
+     */
+    function cancel(address caller, address target, bytes calldata data) external returns (uint32);
+
+    /**
+     * @dev Consume a scheduled operation targeting the caller. If such an operation exists, mark it as consumed
+     * (emit an {OperationExecuted} event and clean the state). Otherwise, throw an error.
+     *
+     * This is useful for contract that want to enforce that calls targeting them were scheduled on the manager,
+     * with all the verifications that it implies.
+     *
+     * Emit a {OperationExecuted} event.
+     */
+    function consumeScheduledOp(address caller, bytes calldata data) external;
+
+    /**
+     * @dev Hashing function for delayed operations.
+     */
+    function hashOperation(address caller, address target, bytes calldata data) external view returns (bytes32);
+
+    /**
+     * @dev Changes the authority of a target managed by this manager instance.
+     *
+     * Requirements:
+     *
+     * - the caller must be a global admin
+     */
+    function updateAuthority(address target, address newAuthority) external;
+}
