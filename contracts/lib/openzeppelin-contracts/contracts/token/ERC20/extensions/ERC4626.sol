@@ -1,1 +1,282 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodG9rZW4vRVJDMjAvZXh0ZW5zaW9ucy9FUkM0NjI2LnNvbCkKCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKaW1wb3J0IHtJRVJDMjAsIElFUkMyME1ldGFkYXRhLCBFUkMyMH0gZnJvbSAiLi4vRVJDMjAuc29sIjsKaW1wb3J0IHtTYWZlRVJDMjB9IGZyb20gIi4uL3V0aWxzL1NhZmVFUkMyMC5zb2wiOwppbXBvcnQge0lFUkM0NjI2fSBmcm9tICIuLi8uLi8uLi9pbnRlcmZhY2VzL0lFUkM0NjI2LnNvbCI7CmltcG9ydCB7TWF0aH0gZnJvbSAiLi4vLi4vLi4vdXRpbHMvbWF0aC9NYXRoLnNvbCI7CgovKioKICogQGRldiBJbXBsZW1lbnRhdGlvbiBvZiB0aGUgRVJDLTQ2MjYgIlRva2VuaXplZCBWYXVsdCBTdGFuZGFyZCIgYXMgZGVmaW5lZCBpbgogKiBodHRwczovL2VpcHMuZXRoZXJldW0ub3JnL0VJUFMvZWlwLTQ2MjZbRVJDLTQ2MjZdLgogKgogKiBUaGlzIGV4dGVuc2lvbiBhbGxvd3MgdGhlIG1pbnRpbmcgYW5kIGJ1cm5pbmcgb2YgInNoYXJlcyIgKHJlcHJlc2VudGVkIHVzaW5nIHRoZSBFUkMtMjAgaW5oZXJpdGFuY2UpIGluIGV4Y2hhbmdlIGZvcgogKiB1bmRlcmx5aW5nICJhc3NldHMiIHRocm91Z2ggc3RhbmRhcmRpemVkIHtkZXBvc2l0fSwge21pbnR9LCB7cmVkZWVtfSBhbmQge2J1cm59IHdvcmtmbG93cy4gVGhpcyBjb250cmFjdCBleHRlbmRzCiAqIHRoZSBFUkMtMjAgc3RhbmRhcmQuIEFueSBhZGRpdGlvbmFsIGV4dGVuc2lvbnMgaW5jbHVkZWQgYWxvbmcgaXQgd291bGQgYWZmZWN0IHRoZSAic2hhcmVzIiB0b2tlbiByZXByZXNlbnRlZCBieSB0aGlzCiAqIGNvbnRyYWN0IGFuZCBub3QgdGhlICJhc3NldHMiIHRva2VuIHdoaWNoIGlzIGFuIGluZGVwZW5kZW50IGNvbnRyYWN0LgogKgogKiBbQ0FVVElPTl0KICogPT09PQogKiBJbiBlbXB0eSAob3IgbmVhcmx5IGVtcHR5KSBFUkMtNDYyNiB2YXVsdHMsIGRlcG9zaXRzIGFyZSBhdCBoaWdoIHJpc2sgb2YgYmVpbmcgc3RvbGVuIHRocm91Z2ggZnJvbnRydW5uaW5nCiAqIHdpdGggYSAiZG9uYXRpb24iIHRvIHRoZSB2YXVsdCB0aGF0IGluZmxhdGVzIHRoZSBwcmljZSBvZiBhIHNoYXJlLiBUaGlzIGlzIHZhcmlvdXNseSBrbm93biBhcyBhIGRvbmF0aW9uIG9yIGluZmxhdGlvbgogKiBhdHRhY2sgYW5kIGlzIGVzc2VudGlhbGx5IGEgcHJvYmxlbSBvZiBzbGlwcGFnZS4gVmF1bHQgZGVwbG95ZXJzIGNhbiBwcm90ZWN0IGFnYWluc3QgdGhpcyBhdHRhY2sgYnkgbWFraW5nIGFuIGluaXRpYWwKICogZGVwb3NpdCBvZiBhIG5vbi10cml2aWFsIGFtb3VudCBvZiB0aGUgYXNzZXQsIHN1Y2ggdGhhdCBwcmljZSBtYW5pcHVsYXRpb24gYmVjb21lcyBpbmZlYXNpYmxlLiBXaXRoZHJhd2FscyBtYXkKICogc2ltaWxhcmx5IGJlIGFmZmVjdGVkIGJ5IHNsaXBwYWdlLiBVc2VycyBjYW4gcHJvdGVjdCBhZ2FpbnN0IHRoaXMgYXR0YWNrIGFzIHdlbGwgYXMgdW5leHBlY3RlZCBzbGlwcGFnZSBpbiBnZW5lcmFsIGJ5CiAqIHZlcmlmeWluZyB0aGUgYW1vdW50IHJlY2VpdmVkIGlzIGFzIGV4cGVjdGVkLCB1c2luZyBhIHdyYXBwZXIgdGhhdCBwZXJmb3JtcyB0aGVzZSBjaGVja3Mgc3VjaCBhcwogKiBodHRwczovL2dpdGh1Yi5jb20vZmVpLXByb3RvY29sL0VSQzQ2MjYjZXJjNDYyNnJvdXRlci1hbmQtYmFzZVtFUkM0NjI2Um91dGVyXS4KICoKICogU2luY2UgdjQuOSwgdGhpcyBpbXBsZW1lbnRhdGlvbiBpbnRyb2R1Y2VzIGNvbmZpZ3VyYWJsZSB2aXJ0dWFsIGFzc2V0cyBhbmQgc2hhcmVzIHRvIGhlbHAgZGV2ZWxvcGVycyBtaXRpZ2F0ZSB0aGF0IHJpc2suCiAqIFRoZSBgX2RlY2ltYWxzT2Zmc2V0KClgIGNvcnJlc3BvbmRzIHRvIGFuIG9mZnNldCBpbiB0aGUgZGVjaW1hbCByZXByZXNlbnRhdGlvbiBiZXR3ZWVuIHRoZSB1bmRlcmx5aW5nIGFzc2V0J3MgZGVjaW1hbHMKICogYW5kIHRoZSB2YXVsdCBkZWNpbWFscy4gVGhpcyBvZmZzZXQgYWxzbyBkZXRlcm1pbmVzIHRoZSByYXRlIG9mIHZpcnR1YWwgc2hhcmVzIHRvIHZpcnR1YWwgYXNzZXRzIGluIHRoZSB2YXVsdCwgd2hpY2gKICogaXRzZWxmIGRldGVybWluZXMgdGhlIGluaXRpYWwgZXhjaGFuZ2UgcmF0ZS4gV2hpbGUgbm90IGZ1bGx5IHByZXZlbnRpbmcgdGhlIGF0dGFjaywgYW5hbHlzaXMgc2hvd3MgdGhhdCB0aGUgZGVmYXVsdAogKiBvZmZzZXQgKDApIG1ha2VzIGl0IG5vbi1wcm9maXRhYmxlIGV2ZW4gaWYgYW4gYXR0YWNrZXIgaXMgYWJsZSB0byBjYXB0dXJlIHZhbHVlIGZyb20gbXVsdGlwbGUgdXNlciBkZXBvc2l0cywgYXMgYSByZXN1bHQKICogb2YgdGhlIHZhbHVlIGJlaW5nIGNhcHR1cmVkIGJ5IHRoZSB2aXJ0dWFsIHNoYXJlcyAob3V0IG9mIHRoZSBhdHRhY2tlcidzIGRvbmF0aW9uKSBtYXRjaGluZyB0aGUgYXR0YWNrZXIncyBleHBlY3RlZCBnYWlucy4KICogV2l0aCBhIGxhcmdlciBvZmZzZXQsIHRoZSBhdHRhY2sgYmVjb21lcyBvcmRlcnMgb2YgbWFnbml0dWRlIG1vcmUgZXhwZW5zaXZlIHRoYW4gaXQgaXMgcHJvZml0YWJsZS4gTW9yZSBkZXRhaWxzIGFib3V0IHRoZQogKiB1bmRlcmx5aW5nIG1hdGggY2FuIGJlIGZvdW5kIHhyZWY6ZXJjNDYyNi5hZG9jI2luZmxhdGlvbi1hdHRhY2tbaGVyZV0uCiAqCiAqIFRoZSBkcmF3YmFjayBvZiB0aGlzIGFwcHJvYWNoIGlzIHRoYXQgdGhlIHZpcnR1YWwgc2hhcmVzIGRvIGNhcHR1cmUgKGEgdmVyeSBzbWFsbCkgcGFydCBvZiB0aGUgdmFsdWUgYmVpbmcgYWNjcnVlZAogKiB0byB0aGUgdmF1bHQuIEFsc28sIGlmIHRoZSB2YXVsdCBleHBlcmllbmNlcyBsb3NzZXMsIHRoZSB1c2VycyB0cnkgdG8gZXhpdCB0aGUgdmF1bHQsIHRoZSB2aXJ0dWFsIHNoYXJlcyBhbmQgYXNzZXRzCiAqIHdpbGwgY2F1c2UgdGhlIGZpcnN0IHVzZXIgdG8gZXhpdCB0byBleHBlcmllbmNlIHJlZHVjZWQgbG9zc2VzIGluIGRldHJpbWVudCB0byB0aGUgbGFzdCB1c2VycyB0aGF0IHdpbGwgZXhwZXJpZW5jZQogKiBiaWdnZXIgbG9zc2VzLiBEZXZlbG9wZXJzIHdpbGxpbmcgdG8gcmV2ZXJ0IGJhY2sgdG8gdGhlIHByZS12NC45IGJlaGF2aW9yIGp1c3QgbmVlZCB0byBvdmVycmlkZSB0aGUKICogYF9jb252ZXJ0VG9TaGFyZXNgIGFuZCBgX2NvbnZlcnRUb0Fzc2V0c2AgZnVuY3Rpb25zLgogKgogKiBUbyBsZWFybiBtb3JlLCBjaGVjayBvdXQgb3VyIHhyZWY6Uk9PVDplcmM0NjI2LmFkb2NbRVJDLTQ2MjYgZ3VpZGVdLgogKiA9PT09CiAqLwphYnN0cmFjdCBjb250cmFjdCBFUkM0NjI2IGlzIEVSQzIwLCBJRVJDNDYyNiB7CiAgICB1c2luZyBNYXRoIGZvciB1aW50MjU2OwoKICAgIElFUkMyMCBwcml2YXRlIGltbXV0YWJsZSBfYXNzZXQ7CiAgICB1aW50OCBwcml2YXRlIGltbXV0YWJsZSBfdW5kZXJseWluZ0RlY2ltYWxzOwoKICAgIC8qKgogICAgICogQGRldiBBdHRlbXB0ZWQgdG8gZGVwb3NpdCBtb3JlIGFzc2V0cyB0aGFuIHRoZSBtYXggYW1vdW50IGZvciBgcmVjZWl2ZXJgLgogICAgICovCiAgICBlcnJvciBFUkM0NjI2RXhjZWVkZWRNYXhEZXBvc2l0KGFkZHJlc3MgcmVjZWl2ZXIsIHVpbnQyNTYgYXNzZXRzLCB1aW50MjU2IG1heCk7CgogICAgLyoqCiAgICAgKiBAZGV2IEF0dGVtcHRlZCB0byBtaW50IG1vcmUgc2hhcmVzIHRoYW4gdGhlIG1heCBhbW91bnQgZm9yIGByZWNlaXZlcmAuCiAgICAgKi8KICAgIGVycm9yIEVSQzQ2MjZFeGNlZWRlZE1heE1pbnQoYWRkcmVzcyByZWNlaXZlciwgdWludDI1NiBzaGFyZXMsIHVpbnQyNTYgbWF4KTsKCiAgICAvKioKICAgICAqIEBkZXYgQXR0ZW1wdGVkIHRvIHdpdGhkcmF3IG1vcmUgYXNzZXRzIHRoYW4gdGhlIG1heCBhbW91bnQgZm9yIGByZWNlaXZlcmAuCiAgICAgKi8KICAgIGVycm9yIEVSQzQ2MjZFeGNlZWRlZE1heFdpdGhkcmF3KGFkZHJlc3Mgb3duZXIsIHVpbnQyNTYgYXNzZXRzLCB1aW50MjU2IG1heCk7CgogICAgLyoqCiAgICAgKiBAZGV2IEF0dGVtcHRlZCB0byByZWRlZW0gbW9yZSBzaGFyZXMgdGhhbiB0aGUgbWF4IGFtb3VudCBmb3IgYHJlY2VpdmVyYC4KICAgICAqLwogICAgZXJyb3IgRVJDNDYyNkV4Y2VlZGVkTWF4UmVkZWVtKGFkZHJlc3Mgb3duZXIsIHVpbnQyNTYgc2hhcmVzLCB1aW50MjU2IG1heCk7CgogICAgLyoqCiAgICAgKiBAZGV2IFNldCB0aGUgdW5kZXJseWluZyBhc3NldCBjb250cmFjdC4gVGhpcyBtdXN0IGJlIGFuIEVSQzIwLWNvbXBhdGlibGUgY29udHJhY3QgKEVSQy0yMCBvciBFUkMtNzc3KS4KICAgICAqLwogICAgY29uc3RydWN0b3IoSUVSQzIwIGFzc2V0XykgewogICAgICAgIChib29sIHN1Y2Nlc3MsIHVpbnQ4IGFzc2V0RGVjaW1hbHMpID0gX3RyeUdldEFzc2V0RGVjaW1hbHMoYXNzZXRfKTsKICAgICAgICBfdW5kZXJseWluZ0RlY2ltYWxzID0gc3VjY2VzcyA/IGFzc2V0RGVjaW1hbHMgOiAxODsKICAgICAgICBfYXNzZXQgPSBhc3NldF87CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IEF0dGVtcHRzIHRvIGZldGNoIHRoZSBhc3NldCBkZWNpbWFscy4gQSByZXR1cm4gdmFsdWUgb2YgZmFsc2UgaW5kaWNhdGVzIHRoYXQgdGhlIGF0dGVtcHQgZmFpbGVkIGluIHNvbWUgd2F5LgogICAgICovCiAgICBmdW5jdGlvbiBfdHJ5R2V0QXNzZXREZWNpbWFscyhJRVJDMjAgYXNzZXRfKSBwcml2YXRlIHZpZXcgcmV0dXJucyAoYm9vbCBvaywgdWludDggYXNzZXREZWNpbWFscykgewogICAgICAgIChib29sIHN1Y2Nlc3MsIGJ5dGVzIG1lbW9yeSBlbmNvZGVkRGVjaW1hbHMpID0gYWRkcmVzcyhhc3NldF8pLnN0YXRpY2NhbGwoCiAgICAgICAgICAgIGFiaS5lbmNvZGVDYWxsKElFUkMyME1ldGFkYXRhLmRlY2ltYWxzLCAoKSkKICAgICAgICApOwogICAgICAgIGlmIChzdWNjZXNzICYmIGVuY29kZWREZWNpbWFscy5sZW5ndGggPj0gMzIpIHsKICAgICAgICAgICAgdWludDI1NiByZXR1cm5lZERlY2ltYWxzID0gYWJpLmRlY29kZShlbmNvZGVkRGVjaW1hbHMsICh1aW50MjU2KSk7CiAgICAgICAgICAgIGlmIChyZXR1cm5lZERlY2ltYWxzIDw9IHR5cGUodWludDgpLm1heCkgewogICAgICAgICAgICAgICAgcmV0dXJuICh0cnVlLCB1aW50OChyZXR1cm5lZERlY2ltYWxzKSk7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgcmV0dXJuIChmYWxzZSwgMCk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IERlY2ltYWxzIGFyZSBjb21wdXRlZCBieSBhZGRpbmcgdGhlIGRlY2ltYWwgb2Zmc2V0IG9uIHRvcCBvZiB0aGUgdW5kZXJseWluZyBhc3NldCdzIGRlY2ltYWxzLiBUaGlzCiAgICAgKiAib3JpZ2luYWwiIHZhbHVlIGlzIGNhY2hlZCBkdXJpbmcgY29uc3RydWN0aW9uIG9mIHRoZSB2YXVsdCBjb250cmFjdC4gSWYgdGhpcyByZWFkIG9wZXJhdGlvbiBmYWlscyAoZS5nLiwgdGhlCiAgICAgKiBhc3NldCBoYXMgbm90IGJlZW4gY3JlYXRlZCB5ZXQpLCBhIGRlZmF1bHQgb2YgMTggaXMgdXNlZCB0byByZXByZXNlbnQgdGhlIHVuZGVybHlpbmcgYXNzZXQncyBkZWNpbWFscy4KICAgICAqCiAgICAgKiBTZWUge0lFUkMyME1ldGFkYXRhLWRlY2ltYWxzfS4KICAgICAqLwogICAgZnVuY3Rpb24gZGVjaW1hbHMoKSBwdWJsaWMgdmlldyB2aXJ0dWFsIG92ZXJyaWRlKElFUkMyME1ldGFkYXRhLCBFUkMyMCkgcmV0dXJucyAodWludDgpIHsKICAgICAgICByZXR1cm4gX3VuZGVybHlpbmdEZWNpbWFscyArIF9kZWNpbWFsc09mZnNldCgpOwogICAgfQoKICAgIC8qKiBAZGV2IFNlZSB7SUVSQzQ2MjYtYXNzZXR9LiAqLwogICAgZnVuY3Rpb24gYXNzZXQoKSBwdWJsaWMgdmlldyB2aXJ0dWFsIHJldHVybnMgKGFkZHJlc3MpIHsKICAgICAgICByZXR1cm4gYWRkcmVzcyhfYXNzZXQpOwogICAgfQoKICAgIC8qKiBAZGV2IFNlZSB7SUVSQzQ2MjYtdG90YWxBc3NldHN9LiAqLwogICAgZnVuY3Rpb24gdG90YWxBc3NldHMoKSBwdWJsaWMgdmlldyB2aXJ0dWFsIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXR1cm4gX2Fzc2V0LmJhbGFuY2VPZihhZGRyZXNzKHRoaXMpKTsKICAgIH0KCiAgICAvKiogQGRldiBTZWUge0lFUkM0NjI2LWNvbnZlcnRUb1NoYXJlc30uICovCiAgICBmdW5jdGlvbiBjb252ZXJ0VG9TaGFyZXModWludDI1NiBhc3NldHMpIHB1YmxpYyB2aWV3IHZpcnR1YWwgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHJldHVybiBfY29udmVydFRvU2hhcmVzKGFzc2V0cywgTWF0aC5Sb3VuZGluZy5GbG9vcik7CiAgICB9CgogICAgLyoqIEBkZXYgU2VlIHtJRVJDNDYyNi1jb252ZXJ0VG9Bc3NldHN9LiAqLwogICAgZnVuY3Rpb24gY29udmVydFRvQXNzZXRzKHVpbnQyNTYgc2hhcmVzKSBwdWJsaWMgdmlldyB2aXJ0dWFsIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXR1cm4gX2NvbnZlcnRUb0Fzc2V0cyhzaGFyZXMsIE1hdGguUm91bmRpbmcuRmxvb3IpOwogICAgfQoKICAgIC8qKiBAZGV2IFNlZSB7SUVSQzQ2MjYtbWF4RGVwb3NpdH0uICovCiAgICBmdW5jdGlvbiBtYXhEZXBvc2l0KGFkZHJlc3MpIHB1YmxpYyB2aWV3IHZpcnR1YWwgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHJldHVybiB0eXBlKHVpbnQyNTYpLm1heDsKICAgIH0KCiAgICAvKiogQGRldiBTZWUge0lFUkM0NjI2LW1heE1pbnR9LiAqLwogICAgZnVuY3Rpb24gbWF4TWludChhZGRyZXNzKSBwdWJsaWMgdmlldyB2aXJ0dWFsIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXR1cm4gdHlwZSh1aW50MjU2KS5tYXg7CiAgICB9CgogICAgLyoqIEBkZXYgU2VlIHtJRVJDNDYyNi1tYXhXaXRoZHJhd30uICovCiAgICBmdW5jdGlvbiBtYXhXaXRoZHJhdyhhZGRyZXNzIG93bmVyKSBwdWJsaWMgdmlldyB2aXJ0dWFsIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXR1cm4gX2NvbnZlcnRUb0Fzc2V0cyhiYWxhbmNlT2Yob3duZXIpLCBNYXRoLlJvdW5kaW5nLkZsb29yKTsKICAgIH0KCiAgICAvKiogQGRldiBTZWUge0lFUkM0NjI2LW1heFJlZGVlbX0uICovCiAgICBmdW5jdGlvbiBtYXhSZWRlZW0oYWRkcmVzcyBvd25lcikgcHVibGljIHZpZXcgdmlydHVhbCByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgcmV0dXJuIGJhbGFuY2VPZihvd25lcik7CiAgICB9CgogICAgLyoqIEBkZXYgU2VlIHtJRVJDNDYyNi1wcmV2aWV3RGVwb3NpdH0uICovCiAgICBmdW5jdGlvbiBwcmV2aWV3RGVwb3NpdCh1aW50MjU2IGFzc2V0cykgcHVibGljIHZpZXcgdmlydHVhbCByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgcmV0dXJuIF9jb252ZXJ0VG9TaGFyZXMoYXNzZXRzLCBNYXRoLlJvdW5kaW5nLkZsb29yKTsKICAgIH0KCiAgICAvKiogQGRldiBTZWUge0lFUkM0NjI2LXByZXZpZXdNaW50fS4gKi8KICAgIGZ1bmN0aW9uIHByZXZpZXdNaW50KHVpbnQyNTYgc2hhcmVzKSBwdWJsaWMgdmlldyB2aXJ0dWFsIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXR1cm4gX2NvbnZlcnRUb0Fzc2V0cyhzaGFyZXMsIE1hdGguUm91bmRpbmcuQ2VpbCk7CiAgICB9CgogICAgLyoqIEBkZXYgU2VlIHtJRVJDNDYyNi1wcmV2aWV3V2l0aGRyYXd9LiAqLwogICAgZnVuY3Rpb24gcHJldmlld1dpdGhkcmF3KHVpbnQyNTYgYXNzZXRzKSBwdWJsaWMgdmlldyB2aXJ0dWFsIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXR1cm4gX2NvbnZlcnRUb1NoYXJlcyhhc3NldHMsIE1hdGguUm91bmRpbmcuQ2VpbCk7CiAgICB9CgogICAgLyoqIEBkZXYgU2VlIHtJRVJDNDYyNi1wcmV2aWV3UmVkZWVtfS4gKi8KICAgIGZ1bmN0aW9uIHByZXZpZXdSZWRlZW0odWludDI1NiBzaGFyZXMpIHB1YmxpYyB2aWV3IHZpcnR1YWwgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHJldHVybiBfY29udmVydFRvQXNzZXRzKHNoYXJlcywgTWF0aC5Sb3VuZGluZy5GbG9vcik7CiAgICB9CgogICAgLyoqIEBkZXYgU2VlIHtJRVJDNDYyNi1kZXBvc2l0fS4gKi8KICAgIGZ1bmN0aW9uIGRlcG9zaXQodWludDI1NiBhc3NldHMsIGFkZHJlc3MgcmVjZWl2ZXIpIHB1YmxpYyB2aXJ0dWFsIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICB1aW50MjU2IG1heEFzc2V0cyA9IG1heERlcG9zaXQocmVjZWl2ZXIpOwogICAgICAgIGlmIChhc3NldHMgPiBtYXhBc3NldHMpIHsKICAgICAgICAgICAgcmV2ZXJ0IEVSQzQ2MjZFeGNlZWRlZE1heERlcG9zaXQocmVjZWl2ZXIsIGFzc2V0cywgbWF4QXNzZXRzKTsKICAgICAgICB9CgogICAgICAgIHVpbnQyNTYgc2hhcmVzID0gcHJldmlld0RlcG9zaXQoYXNzZXRzKTsKICAgICAgICBfZGVwb3NpdChfbXNnU2VuZGVyKCksIHJlY2VpdmVyLCBhc3NldHMsIHNoYXJlcyk7CgogICAgICAgIHJldHVybiBzaGFyZXM7CiAgICB9CgogICAgLyoqIEBkZXYgU2VlIHtJRVJDNDYyNi1taW50fS4gKi8KICAgIGZ1bmN0aW9uIG1pbnQodWludDI1NiBzaGFyZXMsIGFkZHJlc3MgcmVjZWl2ZXIpIHB1YmxpYyB2aXJ0dWFsIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICB1aW50MjU2IG1heFNoYXJlcyA9IG1heE1pbnQocmVjZWl2ZXIpOwogICAgICAgIGlmIChzaGFyZXMgPiBtYXhTaGFyZXMpIHsKICAgICAgICAgICAgcmV2ZXJ0IEVSQzQ2MjZFeGNlZWRlZE1heE1pbnQocmVjZWl2ZXIsIHNoYXJlcywgbWF4U2hhcmVzKTsKICAgICAgICB9CgogICAgICAgIHVpbnQyNTYgYXNzZXRzID0gcHJldmlld01pbnQoc2hhcmVzKTsKICAgICAgICBfZGVwb3NpdChfbXNnU2VuZGVyKCksIHJlY2VpdmVyLCBhc3NldHMsIHNoYXJlcyk7CgogICAgICAgIHJldHVybiBhc3NldHM7CiAgICB9CgogICAgLyoqIEBkZXYgU2VlIHtJRVJDNDYyNi13aXRoZHJhd30uICovCiAgICBmdW5jdGlvbiB3aXRoZHJhdyh1aW50MjU2IGFzc2V0cywgYWRkcmVzcyByZWNlaXZlciwgYWRkcmVzcyBvd25lcikgcHVibGljIHZpcnR1YWwgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHVpbnQyNTYgbWF4QXNzZXRzID0gbWF4V2l0aGRyYXcob3duZXIpOwogICAgICAgIGlmIChhc3NldHMgPiBtYXhBc3NldHMpIHsKICAgICAgICAgICAgcmV2ZXJ0IEVSQzQ2MjZFeGNlZWRlZE1heFdpdGhkcmF3KG93bmVyLCBhc3NldHMsIG1heEFzc2V0cyk7CiAgICAgICAgfQoKICAgICAgICB1aW50MjU2IHNoYXJlcyA9IHByZXZpZXdXaXRoZHJhdyhhc3NldHMpOwogICAgICAgIF93aXRoZHJhdyhfbXNnU2VuZGVyKCksIHJlY2VpdmVyLCBvd25lciwgYXNzZXRzLCBzaGFyZXMpOwoKICAgICAgICByZXR1cm4gc2hhcmVzOwogICAgfQoKICAgIC8qKiBAZGV2IFNlZSB7SUVSQzQ2MjYtcmVkZWVtfS4gKi8KICAgIGZ1bmN0aW9uIHJlZGVlbSh1aW50MjU2IHNoYXJlcywgYWRkcmVzcyByZWNlaXZlciwgYWRkcmVzcyBvd25lcikgcHVibGljIHZpcnR1YWwgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHVpbnQyNTYgbWF4U2hhcmVzID0gbWF4UmVkZWVtKG93bmVyKTsKICAgICAgICBpZiAoc2hhcmVzID4gbWF4U2hhcmVzKSB7CiAgICAgICAgICAgIHJldmVydCBFUkM0NjI2RXhjZWVkZWRNYXhSZWRlZW0ob3duZXIsIHNoYXJlcywgbWF4U2hhcmVzKTsKICAgICAgICB9CgogICAgICAgIHVpbnQyNTYgYXNzZXRzID0gcHJldmlld1JlZGVlbShzaGFyZXMpOwogICAgICAgIF93aXRoZHJhdyhfbXNnU2VuZGVyKCksIHJlY2VpdmVyLCBvd25lciwgYXNzZXRzLCBzaGFyZXMpOwoKICAgICAgICByZXR1cm4gYXNzZXRzOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBJbnRlcm5hbCBjb252ZXJzaW9uIGZ1bmN0aW9uIChmcm9tIGFzc2V0cyB0byBzaGFyZXMpIHdpdGggc3VwcG9ydCBmb3Igcm91bmRpbmcgZGlyZWN0aW9uLgogICAgICovCiAgICBmdW5jdGlvbiBfY29udmVydFRvU2hhcmVzKHVpbnQyNTYgYXNzZXRzLCBNYXRoLlJvdW5kaW5nIHJvdW5kaW5nKSBpbnRlcm5hbCB2aWV3IHZpcnR1YWwgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHJldHVybiBhc3NldHMubXVsRGl2KHRvdGFsU3VwcGx5KCkgKyAxMCAqKiBfZGVjaW1hbHNPZmZzZXQoKSwgdG90YWxBc3NldHMoKSArIDEsIHJvdW5kaW5nKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgSW50ZXJuYWwgY29udmVyc2lvbiBmdW5jdGlvbiAoZnJvbSBzaGFyZXMgdG8gYXNzZXRzKSB3aXRoIHN1cHBvcnQgZm9yIHJvdW5kaW5nIGRpcmVjdGlvbi4KICAgICAqLwogICAgZnVuY3Rpb24gX2NvbnZlcnRUb0Fzc2V0cyh1aW50MjU2IHNoYXJlcywgTWF0aC5Sb3VuZGluZyByb3VuZGluZykgaW50ZXJuYWwgdmlldyB2aXJ0dWFsIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXR1cm4gc2hhcmVzLm11bERpdih0b3RhbEFzc2V0cygpICsgMSwgdG90YWxTdXBwbHkoKSArIDEwICoqIF9kZWNpbWFsc09mZnNldCgpLCByb3VuZGluZyk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IERlcG9zaXQvbWludCBjb21tb24gd29ya2Zsb3cuCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9kZXBvc2l0KGFkZHJlc3MgY2FsbGVyLCBhZGRyZXNzIHJlY2VpdmVyLCB1aW50MjU2IGFzc2V0cywgdWludDI1NiBzaGFyZXMpIGludGVybmFsIHZpcnR1YWwgewogICAgICAgIC8vIElmIF9hc3NldCBpcyBFUkMtNzc3LCBgdHJhbnNmZXJGcm9tYCBjYW4gdHJpZ2dlciBhIHJlZW50cmFuY3kgQkVGT1JFIHRoZSB0cmFuc2ZlciBoYXBwZW5zIHRocm91Z2ggdGhlCiAgICAgICAgLy8gYHRva2Vuc1RvU2VuZGAgaG9vay4gT24gdGhlIG90aGVyIGhhbmQsIHRoZSBgdG9rZW5SZWNlaXZlZGAgaG9vaywgdGhhdCBpcyB0cmlnZ2VyZWQgYWZ0ZXIgdGhlIHRyYW5zZmVyLAogICAgICAgIC8vIGNhbGxzIHRoZSB2YXVsdCwgd2hpY2ggaXMgYXNzdW1lZCBub3QgbWFsaWNpb3VzLgogICAgICAgIC8vCiAgICAgICAgLy8gQ29uY2x1c2lvbjogd2UgbmVlZCB0byBkbyB0aGUgdHJhbnNmZXIgYmVmb3JlIHdlIG1pbnQgc28gdGhhdCBhbnkgcmVlbnRyYW5jeSB3b3VsZCBoYXBwZW4gYmVmb3JlIHRoZQogICAgICAgIC8vIGFzc2V0cyBhcmUgdHJhbnNmZXJyZWQgYW5kIGJlZm9yZSB0aGUgc2hhcmVzIGFyZSBtaW50ZWQsIHdoaWNoIGlzIGEgdmFsaWQgc3RhdGUuCiAgICAgICAgLy8gc2xpdGhlci1kaXNhYmxlLW5leHQtbGluZSByZWVudHJhbmN5LW5vLWV0aAogICAgICAgIFNhZmVFUkMyMC5zYWZlVHJhbnNmZXJGcm9tKF9hc3NldCwgY2FsbGVyLCBhZGRyZXNzKHRoaXMpLCBhc3NldHMpOwogICAgICAgIF9taW50KHJlY2VpdmVyLCBzaGFyZXMpOwoKICAgICAgICBlbWl0IERlcG9zaXQoY2FsbGVyLCByZWNlaXZlciwgYXNzZXRzLCBzaGFyZXMpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBXaXRoZHJhdy9yZWRlZW0gY29tbW9uIHdvcmtmbG93LgogICAgICovCiAgICBmdW5jdGlvbiBfd2l0aGRyYXcoCiAgICAgICAgYWRkcmVzcyBjYWxsZXIsCiAgICAgICAgYWRkcmVzcyByZWNlaXZlciwKICAgICAgICBhZGRyZXNzIG93bmVyLAogICAgICAgIHVpbnQyNTYgYXNzZXRzLAogICAgICAgIHVpbnQyNTYgc2hhcmVzCiAgICApIGludGVybmFsIHZpcnR1YWwgewogICAgICAgIGlmIChjYWxsZXIgIT0gb3duZXIpIHsKICAgICAgICAgICAgX3NwZW5kQWxsb3dhbmNlKG93bmVyLCBjYWxsZXIsIHNoYXJlcyk7CiAgICAgICAgfQoKICAgICAgICAvLyBJZiBfYXNzZXQgaXMgRVJDLTc3NywgYHRyYW5zZmVyYCBjYW4gdHJpZ2dlciBhIHJlZW50cmFuY3kgQUZURVIgdGhlIHRyYW5zZmVyIGhhcHBlbnMgdGhyb3VnaCB0aGUKICAgICAgICAvLyBgdG9rZW5zUmVjZWl2ZWRgIGhvb2suIE9uIHRoZSBvdGhlciBoYW5kLCB0aGUgYHRva2Vuc1RvU2VuZGAgaG9vaywgdGhhdCBpcyB0cmlnZ2VyZWQgYmVmb3JlIHRoZSB0cmFuc2ZlciwKICAgICAgICAvLyBjYWxscyB0aGUgdmF1bHQsIHdoaWNoIGlzIGFzc3VtZWQgbm90IG1hbGljaW91cy4KICAgICAgICAvLwogICAgICAgIC8vIENvbmNsdXNpb246IHdlIG5lZWQgdG8gZG8gdGhlIHRyYW5zZmVyIGFmdGVyIHRoZSBidXJuIHNvIHRoYXQgYW55IHJlZW50cmFuY3kgd291bGQgaGFwcGVuIGFmdGVyIHRoZQogICAgICAgIC8vIHNoYXJlcyBhcmUgYnVybmVkIGFuZCBhZnRlciB0aGUgYXNzZXRzIGFyZSB0cmFuc2ZlcnJlZCwgd2hpY2ggaXMgYSB2YWxpZCBzdGF0ZS4KICAgICAgICBfYnVybihvd25lciwgc2hhcmVzKTsKICAgICAgICBTYWZlRVJDMjAuc2FmZVRyYW5zZmVyKF9hc3NldCwgcmVjZWl2ZXIsIGFzc2V0cyk7CgogICAgICAgIGVtaXQgV2l0aGRyYXcoY2FsbGVyLCByZWNlaXZlciwgb3duZXIsIGFzc2V0cywgc2hhcmVzKTsKICAgIH0KCiAgICBmdW5jdGlvbiBfZGVjaW1hbHNPZmZzZXQoKSBpbnRlcm5hbCB2aWV3IHZpcnR1YWwgcmV0dXJucyAodWludDgpIHsKICAgICAgICByZXR1cm4gMDsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (token/ERC20/extensions/ERC4626.sol)
+
+pragma solidity ^0.8.20;
+
+import {IERC20, IERC20Metadata, ERC20} from "../ERC20.sol";
+import {SafeERC20} from "../utils/SafeERC20.sol";
+import {IERC4626} from "../../../interfaces/IERC4626.sol";
+import {Math} from "../../../utils/math/Math.sol";
+
+/**
+ * @dev Implementation of the ERC-4626 "Tokenized Vault Standard" as defined in
+ * https://eips.ethereum.org/EIPS/eip-4626[ERC-4626].
+ *
+ * This extension allows the minting and burning of "shares" (represented using the ERC-20 inheritance) in exchange for
+ * underlying "assets" through standardized {deposit}, {mint}, {redeem} and {burn} workflows. This contract extends
+ * the ERC-20 standard. Any additional extensions included along it would affect the "shares" token represented by this
+ * contract and not the "assets" token which is an independent contract.
+ *
+ * [CAUTION]
+ * ====
+ * In empty (or nearly empty) ERC-4626 vaults, deposits are at high risk of being stolen through frontrunning
+ * with a "donation" to the vault that inflates the price of a share. This is variously known as a donation or inflation
+ * attack and is essentially a problem of slippage. Vault deployers can protect against this attack by making an initial
+ * deposit of a non-trivial amount of the asset, such that price manipulation becomes infeasible. Withdrawals may
+ * similarly be affected by slippage. Users can protect against this attack as well as unexpected slippage in general by
+ * verifying the amount received is as expected, using a wrapper that performs these checks such as
+ * https://github.com/fei-protocol/ERC4626#erc4626router-and-base[ERC4626Router].
+ *
+ * Since v4.9, this implementation introduces configurable virtual assets and shares to help developers mitigate that risk.
+ * The `_decimalsOffset()` corresponds to an offset in the decimal representation between the underlying asset's decimals
+ * and the vault decimals. This offset also determines the rate of virtual shares to virtual assets in the vault, which
+ * itself determines the initial exchange rate. While not fully preventing the attack, analysis shows that the default
+ * offset (0) makes it non-profitable even if an attacker is able to capture value from multiple user deposits, as a result
+ * of the value being captured by the virtual shares (out of the attacker's donation) matching the attacker's expected gains.
+ * With a larger offset, the attack becomes orders of magnitude more expensive than it is profitable. More details about the
+ * underlying math can be found xref:erc4626.adoc#inflation-attack[here].
+ *
+ * The drawback of this approach is that the virtual shares do capture (a very small) part of the value being accrued
+ * to the vault. Also, if the vault experiences losses, the users try to exit the vault, the virtual shares and assets
+ * will cause the first user to exit to experience reduced losses in detriment to the last users that will experience
+ * bigger losses. Developers willing to revert back to the pre-v4.9 behavior just need to override the
+ * `_convertToShares` and `_convertToAssets` functions.
+ *
+ * To learn more, check out our xref:ROOT:erc4626.adoc[ERC-4626 guide].
+ * ====
+ */
+abstract contract ERC4626 is ERC20, IERC4626 {
+    using Math for uint256;
+
+    IERC20 private immutable _asset;
+    uint8 private immutable _underlyingDecimals;
+
+    /**
+     * @dev Attempted to deposit more assets than the max amount for `receiver`.
+     */
+    error ERC4626ExceededMaxDeposit(address receiver, uint256 assets, uint256 max);
+
+    /**
+     * @dev Attempted to mint more shares than the max amount for `receiver`.
+     */
+    error ERC4626ExceededMaxMint(address receiver, uint256 shares, uint256 max);
+
+    /**
+     * @dev Attempted to withdraw more assets than the max amount for `receiver`.
+     */
+    error ERC4626ExceededMaxWithdraw(address owner, uint256 assets, uint256 max);
+
+    /**
+     * @dev Attempted to redeem more shares than the max amount for `receiver`.
+     */
+    error ERC4626ExceededMaxRedeem(address owner, uint256 shares, uint256 max);
+
+    /**
+     * @dev Set the underlying asset contract. This must be an ERC20-compatible contract (ERC-20 or ERC-777).
+     */
+    constructor(IERC20 asset_) {
+        (bool success, uint8 assetDecimals) = _tryGetAssetDecimals(asset_);
+        _underlyingDecimals = success ? assetDecimals : 18;
+        _asset = asset_;
+    }
+
+    /**
+     * @dev Attempts to fetch the asset decimals. A return value of false indicates that the attempt failed in some way.
+     */
+    function _tryGetAssetDecimals(IERC20 asset_) private view returns (bool ok, uint8 assetDecimals) {
+        (bool success, bytes memory encodedDecimals) = address(asset_).staticcall(
+            abi.encodeCall(IERC20Metadata.decimals, ())
+        );
+        if (success && encodedDecimals.length >= 32) {
+            uint256 returnedDecimals = abi.decode(encodedDecimals, (uint256));
+            if (returnedDecimals <= type(uint8).max) {
+                return (true, uint8(returnedDecimals));
+            }
+        }
+        return (false, 0);
+    }
+
+    /**
+     * @dev Decimals are computed by adding the decimal offset on top of the underlying asset's decimals. This
+     * "original" value is cached during construction of the vault contract. If this read operation fails (e.g., the
+     * asset has not been created yet), a default of 18 is used to represent the underlying asset's decimals.
+     *
+     * See {IERC20Metadata-decimals}.
+     */
+    function decimals() public view virtual override(IERC20Metadata, ERC20) returns (uint8) {
+        return _underlyingDecimals + _decimalsOffset();
+    }
+
+    /** @dev See {IERC4626-asset}. */
+    function asset() public view virtual returns (address) {
+        return address(_asset);
+    }
+
+    /** @dev See {IERC4626-totalAssets}. */
+    function totalAssets() public view virtual returns (uint256) {
+        return _asset.balanceOf(address(this));
+    }
+
+    /** @dev See {IERC4626-convertToShares}. */
+    function convertToShares(uint256 assets) public view virtual returns (uint256) {
+        return _convertToShares(assets, Math.Rounding.Floor);
+    }
+
+    /** @dev See {IERC4626-convertToAssets}. */
+    function convertToAssets(uint256 shares) public view virtual returns (uint256) {
+        return _convertToAssets(shares, Math.Rounding.Floor);
+    }
+
+    /** @dev See {IERC4626-maxDeposit}. */
+    function maxDeposit(address) public view virtual returns (uint256) {
+        return type(uint256).max;
+    }
+
+    /** @dev See {IERC4626-maxMint}. */
+    function maxMint(address) public view virtual returns (uint256) {
+        return type(uint256).max;
+    }
+
+    /** @dev See {IERC4626-maxWithdraw}. */
+    function maxWithdraw(address owner) public view virtual returns (uint256) {
+        return _convertToAssets(balanceOf(owner), Math.Rounding.Floor);
+    }
+
+    /** @dev See {IERC4626-maxRedeem}. */
+    function maxRedeem(address owner) public view virtual returns (uint256) {
+        return balanceOf(owner);
+    }
+
+    /** @dev See {IERC4626-previewDeposit}. */
+    function previewDeposit(uint256 assets) public view virtual returns (uint256) {
+        return _convertToShares(assets, Math.Rounding.Floor);
+    }
+
+    /** @dev See {IERC4626-previewMint}. */
+    function previewMint(uint256 shares) public view virtual returns (uint256) {
+        return _convertToAssets(shares, Math.Rounding.Ceil);
+    }
+
+    /** @dev See {IERC4626-previewWithdraw}. */
+    function previewWithdraw(uint256 assets) public view virtual returns (uint256) {
+        return _convertToShares(assets, Math.Rounding.Ceil);
+    }
+
+    /** @dev See {IERC4626-previewRedeem}. */
+    function previewRedeem(uint256 shares) public view virtual returns (uint256) {
+        return _convertToAssets(shares, Math.Rounding.Floor);
+    }
+
+    /** @dev See {IERC4626-deposit}. */
+    function deposit(uint256 assets, address receiver) public virtual returns (uint256) {
+        uint256 maxAssets = maxDeposit(receiver);
+        if (assets > maxAssets) {
+            revert ERC4626ExceededMaxDeposit(receiver, assets, maxAssets);
+        }
+
+        uint256 shares = previewDeposit(assets);
+        _deposit(_msgSender(), receiver, assets, shares);
+
+        return shares;
+    }
+
+    /** @dev See {IERC4626-mint}. */
+    function mint(uint256 shares, address receiver) public virtual returns (uint256) {
+        uint256 maxShares = maxMint(receiver);
+        if (shares > maxShares) {
+            revert ERC4626ExceededMaxMint(receiver, shares, maxShares);
+        }
+
+        uint256 assets = previewMint(shares);
+        _deposit(_msgSender(), receiver, assets, shares);
+
+        return assets;
+    }
+
+    /** @dev See {IERC4626-withdraw}. */
+    function withdraw(uint256 assets, address receiver, address owner) public virtual returns (uint256) {
+        uint256 maxAssets = maxWithdraw(owner);
+        if (assets > maxAssets) {
+            revert ERC4626ExceededMaxWithdraw(owner, assets, maxAssets);
+        }
+
+        uint256 shares = previewWithdraw(assets);
+        _withdraw(_msgSender(), receiver, owner, assets, shares);
+
+        return shares;
+    }
+
+    /** @dev See {IERC4626-redeem}. */
+    function redeem(uint256 shares, address receiver, address owner) public virtual returns (uint256) {
+        uint256 maxShares = maxRedeem(owner);
+        if (shares > maxShares) {
+            revert ERC4626ExceededMaxRedeem(owner, shares, maxShares);
+        }
+
+        uint256 assets = previewRedeem(shares);
+        _withdraw(_msgSender(), receiver, owner, assets, shares);
+
+        return assets;
+    }
+
+    /**
+     * @dev Internal conversion function (from assets to shares) with support for rounding direction.
+     */
+    function _convertToShares(uint256 assets, Math.Rounding rounding) internal view virtual returns (uint256) {
+        return assets.mulDiv(totalSupply() + 10 ** _decimalsOffset(), totalAssets() + 1, rounding);
+    }
+
+    /**
+     * @dev Internal conversion function (from shares to assets) with support for rounding direction.
+     */
+    function _convertToAssets(uint256 shares, Math.Rounding rounding) internal view virtual returns (uint256) {
+        return shares.mulDiv(totalAssets() + 1, totalSupply() + 10 ** _decimalsOffset(), rounding);
+    }
+
+    /**
+     * @dev Deposit/mint common workflow.
+     */
+    function _deposit(address caller, address receiver, uint256 assets, uint256 shares) internal virtual {
+        // If _asset is ERC-777, `transferFrom` can trigger a reentrancy BEFORE the transfer happens through the
+        // `tokensToSend` hook. On the other hand, the `tokenReceived` hook, that is triggered after the transfer,
+        // calls the vault, which is assumed not malicious.
+        //
+        // Conclusion: we need to do the transfer before we mint so that any reentrancy would happen before the
+        // assets are transferred and before the shares are minted, which is a valid state.
+        // slither-disable-next-line reentrancy-no-eth
+        SafeERC20.safeTransferFrom(_asset, caller, address(this), assets);
+        _mint(receiver, shares);
+
+        emit Deposit(caller, receiver, assets, shares);
+    }
+
+    /**
+     * @dev Withdraw/redeem common workflow.
+     */
+    function _withdraw(
+        address caller,
+        address receiver,
+        address owner,
+        uint256 assets,
+        uint256 shares
+    ) internal virtual {
+        if (caller != owner) {
+            _spendAllowance(owner, caller, shares);
+        }
+
+        // If _asset is ERC-777, `transfer` can trigger a reentrancy AFTER the transfer happens through the
+        // `tokensReceived` hook. On the other hand, the `tokensToSend` hook, that is triggered before the transfer,
+        // calls the vault, which is assumed not malicious.
+        //
+        // Conclusion: we need to do the transfer after the burn so that any reentrancy would happen after the
+        // shares are burned and after the assets are transferred, which is a valid state.
+        _burn(owner, shares);
+        SafeERC20.safeTransfer(_asset, receiver, assets);
+
+        emit Withdraw(caller, receiver, owner, assets, shares);
+    }
+
+    function _decimalsOffset() internal view virtual returns (uint8) {
+        return 0;
+    }
+}
