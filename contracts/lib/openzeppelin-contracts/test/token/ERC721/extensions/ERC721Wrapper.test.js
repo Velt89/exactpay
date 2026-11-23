@@ -1,1 +1,201 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKY29uc3QgeyBzaG91bGRCZWhhdmVMaWtlRVJDNzIxIH0gPSByZXF1aXJlKCcuLi9FUkM3MjEuYmVoYXZpb3InKTsKCmNvbnN0IG5hbWUgPSAnTm9uIEZ1bmdpYmxlIFRva2VuJzsKY29uc3Qgc3ltYm9sID0gJ05GVCc7CmNvbnN0IHRva2VuSWQgPSAxbjsKY29uc3Qgb3RoZXJUb2tlbklkID0gMm47Cgphc3luYyBmdW5jdGlvbiBmaXh0dXJlKCkgewogIGNvbnN0IGFjY291bnRzID0gYXdhaXQgZXRoZXJzLmdldFNpZ25lcnMoKTsKICBjb25zdCBbb3duZXIsIGFwcHJvdmVkLCBvdGhlcl0gPSBhY2NvdW50czsKCiAgY29uc3QgdW5kZXJseWluZyA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnJEVSQzcyMScsIFtuYW1lLCBzeW1ib2xdKTsKICBhd2FpdCB1bmRlcmx5aW5nLiRfc2FmZU1pbnQob3duZXIsIHRva2VuSWQpOwogIGF3YWl0IHVuZGVybHlpbmcuJF9zYWZlTWludChvd25lciwgb3RoZXJUb2tlbklkKTsKICBjb25zdCB0b2tlbiA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnJEVSQzcyMVdyYXBwZXInLCBbYFdyYXBwZWQgJHtuYW1lfWAsIGBXJHtzeW1ib2x9YCwgdW5kZXJseWluZ10pOwoKICByZXR1cm4geyBhY2NvdW50cywgb3duZXIsIGFwcHJvdmVkLCBvdGhlciwgdW5kZXJseWluZywgdG9rZW4gfTsKfQoKZGVzY3JpYmUoJ0VSQzcyMVdyYXBwZXInLCBmdW5jdGlvbiAoKSB7CiAgYmVmb3JlRWFjaChhc3luYyBmdW5jdGlvbiAoKSB7CiAgICBPYmplY3QuYXNzaWduKHRoaXMsIGF3YWl0IGxvYWRGaXh0dXJlKGZpeHR1cmUpKTsKICB9KTsKCiAgaXQoJ2hhcyBhIG5hbWUnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICBleHBlY3QoYXdhaXQgdGhpcy50b2tlbi5uYW1lKCkpLnRvLmVxdWFsKGBXcmFwcGVkICR7bmFtZX1gKTsKICB9KTsKCiAgaXQoJ2hhcyBhIHN5bWJvbCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgIGV4cGVjdChhd2FpdCB0aGlzLnRva2VuLnN5bWJvbCgpKS50by5lcXVhbChgVyR7c3ltYm9sfWApOwogIH0pOwoKICBpdCgnaGFzIHVuZGVybHlpbmcnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICBleHBlY3QoYXdhaXQgdGhpcy50b2tlbi51bmRlcmx5aW5nKCkpLnRvLmVxdWFsKHRoaXMudW5kZXJseWluZyk7CiAgfSk7CgogIGRlc2NyaWJlKCdkZXBvc2l0Rm9yJywgZnVuY3Rpb24gKCkgewogICAgaXQoJ3dvcmtzIHdpdGggdG9rZW4gYXBwcm92YWwnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IHRoaXMudW5kZXJseWluZy5jb25uZWN0KHRoaXMub3duZXIpLmFwcHJvdmUodGhpcy50b2tlbiwgdG9rZW5JZCk7CgogICAgICBhd2FpdCBleHBlY3QodGhpcy50b2tlbi5jb25uZWN0KHRoaXMub3duZXIpLmRlcG9zaXRGb3IodGhpcy5vd25lciwgW3Rva2VuSWRdKSkKICAgICAgICAudG8uZW1pdCh0aGlzLnVuZGVybHlpbmcsICdUcmFuc2ZlcicpCiAgICAgICAgLndpdGhBcmdzKHRoaXMub3duZXIsIHRoaXMudG9rZW4sIHRva2VuSWQpCiAgICAgICAgLnRvLmVtaXQodGhpcy50b2tlbiwgJ1RyYW5zZmVyJykKICAgICAgICAud2l0aEFyZ3MoZXRoZXJzLlplcm9BZGRyZXNzLCB0aGlzLm93bmVyLCB0b2tlbklkKTsKICAgIH0pOwoKICAgIGl0KCd3b3JrcyB3aXRoIGFwcHJvdmFsIGZvciBhbGwnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IHRoaXMudW5kZXJseWluZy5jb25uZWN0KHRoaXMub3duZXIpLnNldEFwcHJvdmFsRm9yQWxsKHRoaXMudG9rZW4sIHRydWUpOwoKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMudG9rZW4uY29ubmVjdCh0aGlzLm93bmVyKS5kZXBvc2l0Rm9yKHRoaXMub3duZXIsIFt0b2tlbklkXSkpCiAgICAgICAgLnRvLmVtaXQodGhpcy51bmRlcmx5aW5nLCAnVHJhbnNmZXInKQogICAgICAgIC53aXRoQXJncyh0aGlzLm93bmVyLCB0aGlzLnRva2VuLCB0b2tlbklkKQogICAgICAgIC50by5lbWl0KHRoaXMudG9rZW4sICdUcmFuc2ZlcicpCiAgICAgICAgLndpdGhBcmdzKGV0aGVycy5aZXJvQWRkcmVzcywgdGhpcy5vd25lciwgdG9rZW5JZCk7CiAgICB9KTsKCiAgICBpdCgnd29ya3Mgc2VuZGluZyB0byBhbm90aGVyIGFjY291bnQnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IHRoaXMudW5kZXJseWluZy5jb25uZWN0KHRoaXMub3duZXIpLmFwcHJvdmUodGhpcy50b2tlbiwgdG9rZW5JZCk7CgogICAgICBhd2FpdCBleHBlY3QodGhpcy50b2tlbi5jb25uZWN0KHRoaXMub3duZXIpLmRlcG9zaXRGb3IodGhpcy5vdGhlciwgW3Rva2VuSWRdKSkKICAgICAgICAudG8uZW1pdCh0aGlzLnVuZGVybHlpbmcsICdUcmFuc2ZlcicpCiAgICAgICAgLndpdGhBcmdzKHRoaXMub3duZXIsIHRoaXMudG9rZW4sIHRva2VuSWQpCiAgICAgICAgLnRvLmVtaXQodGhpcy50b2tlbiwgJ1RyYW5zZmVyJykKICAgICAgICAud2l0aEFyZ3MoZXRoZXJzLlplcm9BZGRyZXNzLCB0aGlzLm90aGVyLCB0b2tlbklkKTsKICAgIH0pOwoKICAgIGl0KCd3b3JrcyB3aXRoIG11bHRpcGxlIHRva2VucycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgdGhpcy51bmRlcmx5aW5nLmNvbm5lY3QodGhpcy5vd25lcikuYXBwcm92ZSh0aGlzLnRva2VuLCB0b2tlbklkKTsKICAgICAgYXdhaXQgdGhpcy51bmRlcmx5aW5nLmNvbm5lY3QodGhpcy5vd25lcikuYXBwcm92ZSh0aGlzLnRva2VuLCBvdGhlclRva2VuSWQpOwoKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMudG9rZW4uY29ubmVjdCh0aGlzLm93bmVyKS5kZXBvc2l0Rm9yKHRoaXMub3duZXIsIFt0b2tlbklkLCBvdGhlclRva2VuSWRdKSkKICAgICAgICAudG8uZW1pdCh0aGlzLnVuZGVybHlpbmcsICdUcmFuc2ZlcicpCiAgICAgICAgLndpdGhBcmdzKHRoaXMub3duZXIsIHRoaXMudG9rZW4sIHRva2VuSWQpCiAgICAgICAgLnRvLmVtaXQodGhpcy50b2tlbiwgJ1RyYW5zZmVyJykKICAgICAgICAud2l0aEFyZ3MoZXRoZXJzLlplcm9BZGRyZXNzLCB0aGlzLm93bmVyLCB0b2tlbklkKQogICAgICAgIC50by5lbWl0KHRoaXMudW5kZXJseWluZywgJ1RyYW5zZmVyJykKICAgICAgICAud2l0aEFyZ3ModGhpcy5vd25lciwgdGhpcy50b2tlbiwgb3RoZXJUb2tlbklkKQogICAgICAgIC50by5lbWl0KHRoaXMudG9rZW4sICdUcmFuc2ZlcicpCiAgICAgICAgLndpdGhBcmdzKGV0aGVycy5aZXJvQWRkcmVzcywgdGhpcy5vd25lciwgb3RoZXJUb2tlbklkKTsKICAgIH0pOwoKICAgIGl0KCdyZXZlcnRzIHdpdGggbWlzc2luZyBhcHByb3ZhbCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMudG9rZW4uY29ubmVjdCh0aGlzLm93bmVyKS5kZXBvc2l0Rm9yKHRoaXMub3duZXIsIFt0b2tlbklkXSkpCiAgICAgICAgLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMudG9rZW4sICdFUkM3MjFJbnN1ZmZpY2llbnRBcHByb3ZhbCcpCiAgICAgICAgLndpdGhBcmdzKHRoaXMudG9rZW4sIHRva2VuSWQpOwogICAgfSk7CiAgfSk7CgogIGRlc2NyaWJlKCd3aXRoZHJhd1RvJywgZnVuY3Rpb24gKCkgewogICAgYmVmb3JlRWFjaChhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IHRoaXMudW5kZXJseWluZy5jb25uZWN0KHRoaXMub3duZXIpLmFwcHJvdmUodGhpcy50b2tlbiwgdG9rZW5JZCk7CiAgICAgIGF3YWl0IHRoaXMudG9rZW4uY29ubmVjdCh0aGlzLm93bmVyKS5kZXBvc2l0Rm9yKHRoaXMub3duZXIsIFt0b2tlbklkXSk7CiAgICB9KTsKCiAgICBpdCgnd29ya3MgZm9yIGFuIG93bmVyJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCBleHBlY3QodGhpcy50b2tlbi5jb25uZWN0KHRoaXMub3duZXIpLndpdGhkcmF3VG8odGhpcy5vd25lciwgW3Rva2VuSWRdKSkKICAgICAgICAudG8uZW1pdCh0aGlzLnVuZGVybHlpbmcsICdUcmFuc2ZlcicpCiAgICAgICAgLndpdGhBcmdzKHRoaXMudG9rZW4sIHRoaXMub3duZXIsIHRva2VuSWQpCiAgICAgICAgLnRvLmVtaXQodGhpcy50b2tlbiwgJ1RyYW5zZmVyJykKICAgICAgICAud2l0aEFyZ3ModGhpcy5vd25lciwgZXRoZXJzLlplcm9BZGRyZXNzLCB0b2tlbklkKTsKICAgIH0pOwoKICAgIGl0KCd3b3JrcyBmb3IgYW4gYXBwcm92ZWQnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IHRoaXMudG9rZW4uY29ubmVjdCh0aGlzLm93bmVyKS5hcHByb3ZlKHRoaXMuYXBwcm92ZWQsIHRva2VuSWQpOwoKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMudG9rZW4uY29ubmVjdCh0aGlzLmFwcHJvdmVkKS53aXRoZHJhd1RvKHRoaXMub3duZXIsIFt0b2tlbklkXSkpCiAgICAgICAgLnRvLmVtaXQodGhpcy51bmRlcmx5aW5nLCAnVHJhbnNmZXInKQogICAgICAgIC53aXRoQXJncyh0aGlzLnRva2VuLCB0aGlzLm93bmVyLCB0b2tlbklkKQogICAgICAgIC50by5lbWl0KHRoaXMudG9rZW4sICdUcmFuc2ZlcicpCiAgICAgICAgLndpdGhBcmdzKHRoaXMub3duZXIsIGV0aGVycy5aZXJvQWRkcmVzcywgdG9rZW5JZCk7CiAgICB9KTsKCiAgICBpdCgnd29ya3MgZm9yIGFuIGFwcHJvdmVkIGZvciBhbGwnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IHRoaXMudG9rZW4uY29ubmVjdCh0aGlzLm93bmVyKS5zZXRBcHByb3ZhbEZvckFsbCh0aGlzLmFwcHJvdmVkLCB0cnVlKTsKCiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLnRva2VuLmNvbm5lY3QodGhpcy5hcHByb3ZlZCkud2l0aGRyYXdUbyh0aGlzLm93bmVyLCBbdG9rZW5JZF0pKQogICAgICAgIC50by5lbWl0KHRoaXMudW5kZXJseWluZywgJ1RyYW5zZmVyJykKICAgICAgICAud2l0aEFyZ3ModGhpcy50b2tlbiwgdGhpcy5vd25lciwgdG9rZW5JZCkKICAgICAgICAudG8uZW1pdCh0aGlzLnRva2VuLCAnVHJhbnNmZXInKQogICAgICAgIC53aXRoQXJncyh0aGlzLm93bmVyLCBldGhlcnMuWmVyb0FkZHJlc3MsIHRva2VuSWQpOwogICAgfSk7CgogICAgaXQoImRvZXNuJ3Qgd29yayBmb3IgYSBub24tb3duZXIgbm9yIGFwcHJvdmVkIiwgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCBleHBlY3QodGhpcy50b2tlbi5jb25uZWN0KHRoaXMub3RoZXIpLndpdGhkcmF3VG8odGhpcy5vd25lciwgW3Rva2VuSWRdKSkKICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy50b2tlbiwgJ0VSQzcyMUluc3VmZmljaWVudEFwcHJvdmFsJykKICAgICAgICAud2l0aEFyZ3ModGhpcy5vdGhlciwgdG9rZW5JZCk7CiAgICB9KTsKCiAgICBpdCgnd29ya3Mgd2l0aCBtdWx0aXBsZSB0b2tlbnMnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IHRoaXMudW5kZXJseWluZy5jb25uZWN0KHRoaXMub3duZXIpLmFwcHJvdmUodGhpcy50b2tlbiwgb3RoZXJUb2tlbklkKTsKICAgICAgYXdhaXQgdGhpcy50b2tlbi5jb25uZWN0KHRoaXMub3duZXIpLmRlcG9zaXRGb3IodGhpcy5vd25lciwgW290aGVyVG9rZW5JZF0pOwoKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMudG9rZW4uY29ubmVjdCh0aGlzLm93bmVyKS53aXRoZHJhd1RvKHRoaXMub3duZXIsIFt0b2tlbklkLCBvdGhlclRva2VuSWRdKSkKICAgICAgICAudG8uZW1pdCh0aGlzLnVuZGVybHlpbmcsICdUcmFuc2ZlcicpCiAgICAgICAgLndpdGhBcmdzKHRoaXMudG9rZW4sIHRoaXMub3duZXIsIHRva2VuSWQpCiAgICAgICAgLnRvLmVtaXQodGhpcy51bmRlcmx5aW5nLCAnVHJhbnNmZXInKQogICAgICAgIC53aXRoQXJncyh0aGlzLnRva2VuLCB0aGlzLm93bmVyLCB0b2tlbklkKQogICAgICAgIC50by5lbWl0KHRoaXMudG9rZW4sICdUcmFuc2ZlcicpCiAgICAgICAgLndpdGhBcmdzKHRoaXMub3duZXIsIGV0aGVycy5aZXJvQWRkcmVzcywgdG9rZW5JZCkKICAgICAgICAudG8uZW1pdCh0aGlzLnRva2VuLCAnVHJhbnNmZXInKQogICAgICAgIC53aXRoQXJncyh0aGlzLm93bmVyLCBldGhlcnMuWmVyb0FkZHJlc3MsIHRva2VuSWQpOwogICAgfSk7CgogICAgaXQoJ3dvcmtzIHRvIGFub3RoZXIgYWNjb3VudCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMudG9rZW4uY29ubmVjdCh0aGlzLm93bmVyKS53aXRoZHJhd1RvKHRoaXMub3RoZXIsIFt0b2tlbklkXSkpCiAgICAgICAgLnRvLmVtaXQodGhpcy51bmRlcmx5aW5nLCAnVHJhbnNmZXInKQogICAgICAgIC53aXRoQXJncyh0aGlzLnRva2VuLCB0aGlzLm90aGVyLCB0b2tlbklkKQogICAgICAgIC50by5lbWl0KHRoaXMudG9rZW4sICdUcmFuc2ZlcicpCiAgICAgICAgLndpdGhBcmdzKHRoaXMub3duZXIsIGV0aGVycy5aZXJvQWRkcmVzcywgdG9rZW5JZCk7CiAgICB9KTsKICB9KTsKCiAgZGVzY3JpYmUoJ29uRVJDNzIxUmVjZWl2ZWQnLCBmdW5jdGlvbiAoKSB7CiAgICBpdCgnb25seSBhbGxvd3MgY2FsbHMgZnJvbSB1bmRlcmx5aW5nJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCBleHBlY3QoCiAgICAgICAgdGhpcy50b2tlbi5jb25uZWN0KHRoaXMub3RoZXIpLm9uRVJDNzIxUmVjZWl2ZWQoCiAgICAgICAgICB0aGlzLm93bmVyLAogICAgICAgICAgdGhpcy50b2tlbiwKICAgICAgICAgIHRva2VuSWQsCiAgICAgICAgICB0aGlzLm90aGVyLmFkZHJlc3MsIC8vIENvcnJlY3QgZGF0YQogICAgICAgICksCiAgICAgICkKICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy50b2tlbiwgJ0VSQzcyMVVuc3VwcG9ydGVkVG9rZW4nKQogICAgICAgIC53aXRoQXJncyh0aGlzLm90aGVyKTsKICAgIH0pOwoKICAgIGl0KCdtaW50cyBhIHRva2VuIHRvIGZyb20nLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLnVuZGVybHlpbmcuY29ubmVjdCh0aGlzLm93bmVyKS5zYWZlVHJhbnNmZXJGcm9tKHRoaXMub3duZXIsIHRoaXMudG9rZW4sIHRva2VuSWQpKQogICAgICAgIC50by5lbWl0KHRoaXMudG9rZW4sICdUcmFuc2ZlcicpCiAgICAgICAgLndpdGhBcmdzKGV0aGVycy5aZXJvQWRkcmVzcywgdGhpcy5vd25lciwgdG9rZW5JZCk7CiAgICB9KTsKICB9KTsKCiAgZGVzY3JpYmUoJ19yZWNvdmVyJywgZnVuY3Rpb24gKCkgewogICAgaXQoJ3dvcmtzIGlmIHRoZXJlIGlzIHNvbWV0aGluZyB0byByZWNvdmVyJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAvLyBTaG91bGQgdXNlIGB0cmFuc2ZlckZyb21gIHRvIGF2b2lkIGBvbkVSQzcyMVJlY2VpdmVkYCBtaW50aW5nCiAgICAgIGF3YWl0IHRoaXMudW5kZXJseWluZy5jb25uZWN0KHRoaXMub3duZXIpLnRyYW5zZmVyRnJvbSh0aGlzLm93bmVyLCB0aGlzLnRva2VuLCB0b2tlbklkKTsKCiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLnRva2VuLiRfcmVjb3Zlcih0aGlzLm90aGVyLCB0b2tlbklkKSkKICAgICAgICAudG8uZW1pdCh0aGlzLnRva2VuLCAnVHJhbnNmZXInKQogICAgICAgIC53aXRoQXJncyhldGhlcnMuWmVyb0FkZHJlc3MsIHRoaXMub3RoZXIsIHRva2VuSWQpOwogICAgfSk7CgogICAgaXQoJ3JldmVydHMgaWYgdGhlcmUgaXMgbm90aGluZyB0byByZWNvdmVyJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCBob2xkZXIgPSBhd2FpdCB0aGlzLnVuZGVybHlpbmcub3duZXJPZih0b2tlbklkKTsKCiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLnRva2VuLiRfcmVjb3Zlcihob2xkZXIsIHRva2VuSWQpKQogICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLnRva2VuLCAnRVJDNzIxSW5jb3JyZWN0T3duZXInKQogICAgICAgIC53aXRoQXJncyh0aGlzLnRva2VuLCB0b2tlbklkLCBob2xkZXIpOwogICAgfSk7CiAgfSk7CgogIGRlc2NyaWJlKCdFUkM3MTIgYmVoYXZpb3InLCBmdW5jdGlvbiAoKSB7CiAgICBzaG91bGRCZWhhdmVMaWtlRVJDNzIxKCk7CiAgfSk7Cn0pOwo=
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+const { shouldBehaveLikeERC721 } = require('../ERC721.behavior');
+
+const name = 'Non Fungible Token';
+const symbol = 'NFT';
+const tokenId = 1n;
+const otherTokenId = 2n;
+
+async function fixture() {
+  const accounts = await ethers.getSigners();
+  const [owner, approved, other] = accounts;
+
+  const underlying = await ethers.deployContract('$ERC721', [name, symbol]);
+  await underlying.$_safeMint(owner, tokenId);
+  await underlying.$_safeMint(owner, otherTokenId);
+  const token = await ethers.deployContract('$ERC721Wrapper', [`Wrapped ${name}`, `W${symbol}`, underlying]);
+
+  return { accounts, owner, approved, other, underlying, token };
+}
+
+describe('ERC721Wrapper', function () {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  it('has a name', async function () {
+    expect(await this.token.name()).to.equal(`Wrapped ${name}`);
+  });
+
+  it('has a symbol', async function () {
+    expect(await this.token.symbol()).to.equal(`W${symbol}`);
+  });
+
+  it('has underlying', async function () {
+    expect(await this.token.underlying()).to.equal(this.underlying);
+  });
+
+  describe('depositFor', function () {
+    it('works with token approval', async function () {
+      await this.underlying.connect(this.owner).approve(this.token, tokenId);
+
+      await expect(this.token.connect(this.owner).depositFor(this.owner, [tokenId]))
+        .to.emit(this.underlying, 'Transfer')
+        .withArgs(this.owner, this.token, tokenId)
+        .to.emit(this.token, 'Transfer')
+        .withArgs(ethers.ZeroAddress, this.owner, tokenId);
+    });
+
+    it('works with approval for all', async function () {
+      await this.underlying.connect(this.owner).setApprovalForAll(this.token, true);
+
+      await expect(this.token.connect(this.owner).depositFor(this.owner, [tokenId]))
+        .to.emit(this.underlying, 'Transfer')
+        .withArgs(this.owner, this.token, tokenId)
+        .to.emit(this.token, 'Transfer')
+        .withArgs(ethers.ZeroAddress, this.owner, tokenId);
+    });
+
+    it('works sending to another account', async function () {
+      await this.underlying.connect(this.owner).approve(this.token, tokenId);
+
+      await expect(this.token.connect(this.owner).depositFor(this.other, [tokenId]))
+        .to.emit(this.underlying, 'Transfer')
+        .withArgs(this.owner, this.token, tokenId)
+        .to.emit(this.token, 'Transfer')
+        .withArgs(ethers.ZeroAddress, this.other, tokenId);
+    });
+
+    it('works with multiple tokens', async function () {
+      await this.underlying.connect(this.owner).approve(this.token, tokenId);
+      await this.underlying.connect(this.owner).approve(this.token, otherTokenId);
+
+      await expect(this.token.connect(this.owner).depositFor(this.owner, [tokenId, otherTokenId]))
+        .to.emit(this.underlying, 'Transfer')
+        .withArgs(this.owner, this.token, tokenId)
+        .to.emit(this.token, 'Transfer')
+        .withArgs(ethers.ZeroAddress, this.owner, tokenId)
+        .to.emit(this.underlying, 'Transfer')
+        .withArgs(this.owner, this.token, otherTokenId)
+        .to.emit(this.token, 'Transfer')
+        .withArgs(ethers.ZeroAddress, this.owner, otherTokenId);
+    });
+
+    it('reverts with missing approval', async function () {
+      await expect(this.token.connect(this.owner).depositFor(this.owner, [tokenId]))
+        .to.be.revertedWithCustomError(this.token, 'ERC721InsufficientApproval')
+        .withArgs(this.token, tokenId);
+    });
+  });
+
+  describe('withdrawTo', function () {
+    beforeEach(async function () {
+      await this.underlying.connect(this.owner).approve(this.token, tokenId);
+      await this.token.connect(this.owner).depositFor(this.owner, [tokenId]);
+    });
+
+    it('works for an owner', async function () {
+      await expect(this.token.connect(this.owner).withdrawTo(this.owner, [tokenId]))
+        .to.emit(this.underlying, 'Transfer')
+        .withArgs(this.token, this.owner, tokenId)
+        .to.emit(this.token, 'Transfer')
+        .withArgs(this.owner, ethers.ZeroAddress, tokenId);
+    });
+
+    it('works for an approved', async function () {
+      await this.token.connect(this.owner).approve(this.approved, tokenId);
+
+      await expect(this.token.connect(this.approved).withdrawTo(this.owner, [tokenId]))
+        .to.emit(this.underlying, 'Transfer')
+        .withArgs(this.token, this.owner, tokenId)
+        .to.emit(this.token, 'Transfer')
+        .withArgs(this.owner, ethers.ZeroAddress, tokenId);
+    });
+
+    it('works for an approved for all', async function () {
+      await this.token.connect(this.owner).setApprovalForAll(this.approved, true);
+
+      await expect(this.token.connect(this.approved).withdrawTo(this.owner, [tokenId]))
+        .to.emit(this.underlying, 'Transfer')
+        .withArgs(this.token, this.owner, tokenId)
+        .to.emit(this.token, 'Transfer')
+        .withArgs(this.owner, ethers.ZeroAddress, tokenId);
+    });
+
+    it("doesn't work for a non-owner nor approved", async function () {
+      await expect(this.token.connect(this.other).withdrawTo(this.owner, [tokenId]))
+        .to.be.revertedWithCustomError(this.token, 'ERC721InsufficientApproval')
+        .withArgs(this.other, tokenId);
+    });
+
+    it('works with multiple tokens', async function () {
+      await this.underlying.connect(this.owner).approve(this.token, otherTokenId);
+      await this.token.connect(this.owner).depositFor(this.owner, [otherTokenId]);
+
+      await expect(this.token.connect(this.owner).withdrawTo(this.owner, [tokenId, otherTokenId]))
+        .to.emit(this.underlying, 'Transfer')
+        .withArgs(this.token, this.owner, tokenId)
+        .to.emit(this.underlying, 'Transfer')
+        .withArgs(this.token, this.owner, tokenId)
+        .to.emit(this.token, 'Transfer')
+        .withArgs(this.owner, ethers.ZeroAddress, tokenId)
+        .to.emit(this.token, 'Transfer')
+        .withArgs(this.owner, ethers.ZeroAddress, tokenId);
+    });
+
+    it('works to another account', async function () {
+      await expect(this.token.connect(this.owner).withdrawTo(this.other, [tokenId]))
+        .to.emit(this.underlying, 'Transfer')
+        .withArgs(this.token, this.other, tokenId)
+        .to.emit(this.token, 'Transfer')
+        .withArgs(this.owner, ethers.ZeroAddress, tokenId);
+    });
+  });
+
+  describe('onERC721Received', function () {
+    it('only allows calls from underlying', async function () {
+      await expect(
+        this.token.connect(this.other).onERC721Received(
+          this.owner,
+          this.token,
+          tokenId,
+          this.other.address, // Correct data
+        ),
+      )
+        .to.be.revertedWithCustomError(this.token, 'ERC721UnsupportedToken')
+        .withArgs(this.other);
+    });
+
+    it('mints a token to from', async function () {
+      await expect(this.underlying.connect(this.owner).safeTransferFrom(this.owner, this.token, tokenId))
+        .to.emit(this.token, 'Transfer')
+        .withArgs(ethers.ZeroAddress, this.owner, tokenId);
+    });
+  });
+
+  describe('_recover', function () {
+    it('works if there is something to recover', async function () {
+      // Should use `transferFrom` to avoid `onERC721Received` minting
+      await this.underlying.connect(this.owner).transferFrom(this.owner, this.token, tokenId);
+
+      await expect(this.token.$_recover(this.other, tokenId))
+        .to.emit(this.token, 'Transfer')
+        .withArgs(ethers.ZeroAddress, this.other, tokenId);
+    });
+
+    it('reverts if there is nothing to recover', async function () {
+      const holder = await this.underlying.ownerOf(tokenId);
+
+      await expect(this.token.$_recover(holder, tokenId))
+        .to.be.revertedWithCustomError(this.token, 'ERC721IncorrectOwner')
+        .withArgs(this.token, tokenId, holder);
+    });
+  });
+
+  describe('ERC712 behavior', function () {
+    shouldBehaveLikeERC721();
+  });
+});
