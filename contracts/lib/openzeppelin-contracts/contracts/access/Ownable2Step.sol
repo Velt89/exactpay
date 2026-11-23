@@ -1,1 +1,67 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAoYWNjZXNzL093bmFibGUyU3RlcC5zb2wpCgpwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7T3duYWJsZX0gZnJvbSAiLi9Pd25hYmxlLnNvbCI7CgovKioKICogQGRldiBDb250cmFjdCBtb2R1bGUgd2hpY2ggcHJvdmlkZXMgYWNjZXNzIGNvbnRyb2wgbWVjaGFuaXNtLCB3aGVyZQogKiB0aGVyZSBpcyBhbiBhY2NvdW50IChhbiBvd25lcikgdGhhdCBjYW4gYmUgZ3JhbnRlZCBleGNsdXNpdmUgYWNjZXNzIHRvCiAqIHNwZWNpZmljIGZ1bmN0aW9ucy4KICoKICogVGhpcyBleHRlbnNpb24gb2YgdGhlIHtPd25hYmxlfSBjb250cmFjdCBpbmNsdWRlcyBhIHR3by1zdGVwIG1lY2hhbmlzbSB0byB0cmFuc2ZlcgogKiBvd25lcnNoaXAsIHdoZXJlIHRoZSBuZXcgb3duZXIgbXVzdCBjYWxsIHthY2NlcHRPd25lcnNoaXB9IGluIG9yZGVyIHRvIHJlcGxhY2UgdGhlCiAqIG9sZCBvbmUuIFRoaXMgY2FuIGhlbHAgcHJldmVudCBjb21tb24gbWlzdGFrZXMsIHN1Y2ggYXMgdHJhbnNmZXJzIG9mIG93bmVyc2hpcCB0bwogKiBpbmNvcnJlY3QgYWNjb3VudHMsIG9yIHRvIGNvbnRyYWN0cyB0aGF0IGFyZSB1bmFibGUgdG8gaW50ZXJhY3Qgd2l0aCB0aGUKICogcGVybWlzc2lvbiBzeXN0ZW0uCiAqCiAqIFRoZSBpbml0aWFsIG93bmVyIGlzIHNwZWNpZmllZCBhdCBkZXBsb3ltZW50IHRpbWUgaW4gdGhlIGNvbnN0cnVjdG9yIGZvciBgT3duYWJsZWAuIFRoaXMKICogY2FuIGxhdGVyIGJlIGNoYW5nZWQgd2l0aCB7dHJhbnNmZXJPd25lcnNoaXB9IGFuZCB7YWNjZXB0T3duZXJzaGlwfS4KICoKICogVGhpcyBtb2R1bGUgaXMgdXNlZCB0aHJvdWdoIGluaGVyaXRhbmNlLiBJdCB3aWxsIG1ha2UgYXZhaWxhYmxlIGFsbCBmdW5jdGlvbnMKICogZnJvbSBwYXJlbnQgKE93bmFibGUpLgogKi8KYWJzdHJhY3QgY29udHJhY3QgT3duYWJsZTJTdGVwIGlzIE93bmFibGUgewogICAgYWRkcmVzcyBwcml2YXRlIF9wZW5kaW5nT3duZXI7CgogICAgZXZlbnQgT3duZXJzaGlwVHJhbnNmZXJTdGFydGVkKGFkZHJlc3MgaW5kZXhlZCBwcmV2aW91c093bmVyLCBhZGRyZXNzIGluZGV4ZWQgbmV3T3duZXIpOwoKICAgIC8qKgogICAgICogQGRldiBSZXR1cm5zIHRoZSBhZGRyZXNzIG9mIHRoZSBwZW5kaW5nIG93bmVyLgogICAgICovCiAgICBmdW5jdGlvbiBwZW5kaW5nT3duZXIoKSBwdWJsaWMgdmlldyB2aXJ0dWFsIHJldHVybnMgKGFkZHJlc3MpIHsKICAgICAgICByZXR1cm4gX3BlbmRpbmdPd25lcjsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgU3RhcnRzIHRoZSBvd25lcnNoaXAgdHJhbnNmZXIgb2YgdGhlIGNvbnRyYWN0IHRvIGEgbmV3IGFjY291bnQuIFJlcGxhY2VzIHRoZSBwZW5kaW5nIHRyYW5zZmVyIGlmIHRoZXJlIGlzIG9uZS4KICAgICAqIENhbiBvbmx5IGJlIGNhbGxlZCBieSB0aGUgY3VycmVudCBvd25lci4KICAgICAqCiAgICAgKiBTZXR0aW5nIGBuZXdPd25lcmAgdG8gdGhlIHplcm8gYWRkcmVzcyBpcyBhbGxvd2VkOyB0aGlzIGNhbiBiZSB1c2VkIHRvIGNhbmNlbCBhbiBpbml0aWF0ZWQgb3duZXJzaGlwIHRyYW5zZmVyLgogICAgICovCiAgICBmdW5jdGlvbiB0cmFuc2Zlck93bmVyc2hpcChhZGRyZXNzIG5ld093bmVyKSBwdWJsaWMgdmlydHVhbCBvdmVycmlkZSBvbmx5T3duZXIgewogICAgICAgIF9wZW5kaW5nT3duZXIgPSBuZXdPd25lcjsKICAgICAgICBlbWl0IE93bmVyc2hpcFRyYW5zZmVyU3RhcnRlZChvd25lcigpLCBuZXdPd25lcik7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFRyYW5zZmVycyBvd25lcnNoaXAgb2YgdGhlIGNvbnRyYWN0IHRvIGEgbmV3IGFjY291bnQgKGBuZXdPd25lcmApIGFuZCBkZWxldGVzIGFueSBwZW5kaW5nIG93bmVyLgogICAgICogSW50ZXJuYWwgZnVuY3Rpb24gd2l0aG91dCBhY2Nlc3MgcmVzdHJpY3Rpb24uCiAgICAgKi8KICAgIGZ1bmN0aW9uIF90cmFuc2Zlck93bmVyc2hpcChhZGRyZXNzIG5ld093bmVyKSBpbnRlcm5hbCB2aXJ0dWFsIG92ZXJyaWRlIHsKICAgICAgICBkZWxldGUgX3BlbmRpbmdPd25lcjsKICAgICAgICBzdXBlci5fdHJhbnNmZXJPd25lcnNoaXAobmV3T3duZXIpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBUaGUgbmV3IG93bmVyIGFjY2VwdHMgdGhlIG93bmVyc2hpcCB0cmFuc2Zlci4KICAgICAqLwogICAgZnVuY3Rpb24gYWNjZXB0T3duZXJzaGlwKCkgcHVibGljIHZpcnR1YWwgewogICAgICAgIGFkZHJlc3Mgc2VuZGVyID0gX21zZ1NlbmRlcigpOwogICAgICAgIGlmIChwZW5kaW5nT3duZXIoKSAhPSBzZW5kZXIpIHsKICAgICAgICAgICAgcmV2ZXJ0IE93bmFibGVVbmF1dGhvcml6ZWRBY2NvdW50KHNlbmRlcik7CiAgICAgICAgfQogICAgICAgIF90cmFuc2Zlck93bmVyc2hpcChzZW5kZXIpOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (access/Ownable2Step.sol)
+
+pragma solidity ^0.8.20;
+
+import {Ownable} from "./Ownable.sol";
+
+/**
+ * @dev Contract module which provides access control mechanism, where
+ * there is an account (an owner) that can be granted exclusive access to
+ * specific functions.
+ *
+ * This extension of the {Ownable} contract includes a two-step mechanism to transfer
+ * ownership, where the new owner must call {acceptOwnership} in order to replace the
+ * old one. This can help prevent common mistakes, such as transfers of ownership to
+ * incorrect accounts, or to contracts that are unable to interact with the
+ * permission system.
+ *
+ * The initial owner is specified at deployment time in the constructor for `Ownable`. This
+ * can later be changed with {transferOwnership} and {acceptOwnership}.
+ *
+ * This module is used through inheritance. It will make available all functions
+ * from parent (Ownable).
+ */
+abstract contract Ownable2Step is Ownable {
+    address private _pendingOwner;
+
+    event OwnershipTransferStarted(address indexed previousOwner, address indexed newOwner);
+
+    /**
+     * @dev Returns the address of the pending owner.
+     */
+    function pendingOwner() public view virtual returns (address) {
+        return _pendingOwner;
+    }
+
+    /**
+     * @dev Starts the ownership transfer of the contract to a new account. Replaces the pending transfer if there is one.
+     * Can only be called by the current owner.
+     *
+     * Setting `newOwner` to the zero address is allowed; this can be used to cancel an initiated ownership transfer.
+     */
+    function transferOwnership(address newOwner) public virtual override onlyOwner {
+        _pendingOwner = newOwner;
+        emit OwnershipTransferStarted(owner(), newOwner);
+    }
+
+    /**
+     * @dev Transfers ownership of the contract to a new account (`newOwner`) and deletes any pending owner.
+     * Internal function without access restriction.
+     */
+    function _transferOwnership(address newOwner) internal virtual override {
+        delete _pendingOwner;
+        super._transferOwnership(newOwner);
+    }
+
+    /**
+     * @dev The new owner accepts the ownership transfer.
+     */
+    function acceptOwnership() public virtual {
+        address sender = _msgSender();
+        if (pendingOwner() != sender) {
+            revert OwnableUnauthorizedAccount(sender);
+        }
+        _transferOwnership(sender);
+    }
+}
