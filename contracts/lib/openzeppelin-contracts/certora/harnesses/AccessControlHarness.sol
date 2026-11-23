@@ -1,1 +1,6 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7QWNjZXNzQ29udHJvbH0gZnJvbSAiLi4vcGF0Y2hlZC9hY2Nlc3MvQWNjZXNzQ29udHJvbC5zb2wiOwoKY29udHJhY3QgQWNjZXNzQ29udHJvbEhhcm5lc3MgaXMgQWNjZXNzQ29udHJvbCB7fQo=
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+import {AccessControl} from "../patched/access/AccessControl.sol";
+
+contract AccessControlHarness is AccessControl {}
