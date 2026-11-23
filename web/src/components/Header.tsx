@@ -1,1 +1,101 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgQ29ubmVjdEJ1dHRvbiB9IGZyb20gIkByYWluYm93LW1lL3JhaW5ib3draXQiOwppbXBvcnQgTGluayBmcm9tICJuZXh0L2xpbmsiOwppbXBvcnQgeyB1c2VQYXRobmFtZSB9IGZyb20gIm5leHQvbmF2aWdhdGlvbiI7CmltcG9ydCB7IHVzZUFjY291bnQgfSBmcm9tICJ3YWdtaSI7CmltcG9ydCB7IG5ldHdvcmtzLCByZXBvVXJsIH0gZnJvbSAiQC9saWIvZW52IjsKaW1wb3J0IHsgR2l0SHViSWNvbiB9IGZyb20gIi4vSWNvbnMiOwppbXBvcnQgeyB1c2VOZXR3b3JrIH0gZnJvbSAiQC9saWIvbmV0d29yayI7Cgpjb25zdCBsaW5rcyA9IFsKICB7IGhyZWY6ICIvIiwgbGFiZWw6ICJTZXR1cCIgfSwKICB7IGhyZWY6ICIvaW52b2ljZXMiLCBsYWJlbDogIkludm9pY2VzIiB9LAogIHsgaHJlZjogIi9kaXJlY3RvcnkiLCBsYWJlbDogIkRpcmVjdG9yeSIgfSwKICB7IGhyZWY6ICIvYWN0aXZpdHkiLCBsYWJlbDogIkFjdGl2aXR5IiB9LAogIHsgaHJlZjogIi9kb2NzIiwgbGFiZWw6ICJEb2NzIiB9LApdOwoKZXhwb3J0IGZ1bmN0aW9uIEhlYWRlcigpIHsKICBjb25zdCBwYXRobmFtZSA9IHVzZVBhdGhuYW1lKCk7CiAgY29uc3QgeyBpc0Nvbm5lY3RlZCwgY2hhaW5JZCB9ID0gdXNlQWNjb3VudCgpOwogIGNvbnN0IHsgbmV0LCBzZWxlY3QsIHN3aXRjaGluZ1RvLCBzd2l0Y2hFcnJvciB9ID0gdXNlTmV0d29yaygpOwogIGNvbnN0IHdyb25nTmV0d29yayA9IGlzQ29ubmVjdGVkICYmIGNoYWluSWQgIT09IG5ldC5jaGFpbi5pZCAmJiAhc3dpdGNoaW5nVG87CgogIHJldHVybiAoCiAgICA8PgogICAgICA8aGVhZGVyIGNsYXNzTmFtZT0idG9wYmFyIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic2hlbGwiPgogICAgICAgICAgPExpbmsgaHJlZj0iLyIgY2xhc3NOYW1lPSJicmFuZCI+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iYnJhbmQtbWFyayIgYXJpYS1oaWRkZW49InRydWUiIC8+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iYnJhbmQtbmFtZSI+RXhhY3RQYXk8L3NwYW4+CiAgICAgICAgICA8L0xpbms+CiAgICAgICAgICA8bmF2IGNsYXNzTmFtZT0ibmF2IiBhcmlhLWxhYmVsPSJNYWluIj4KICAgICAgICAgICAge2xpbmtzLm1hcCgobCkgPT4gewogICAgICAgICAgICAgIGNvbnN0IGFjdGl2ZSA9IGwuaHJlZiA9PT0gIi8iID8gcGF0aG5hbWUgPT09ICIvIiA6IHBhdGhuYW1lLnN0YXJ0c1dpdGgobC5ocmVmKTsKICAgICAgICAgICAgICByZXR1cm4gKAogICAgICAgICAgICAgICAgPExpbmsga2V5PXtsLmhyZWZ9IGhyZWY9e2wuaHJlZn0gYXJpYS1jdXJyZW50PXthY3RpdmUgPyAicGFnZSIgOiB1bmRlZmluZWR9PgogICAgICAgICAgICAgICAgICB7bC5sYWJlbH0KICAgICAgICAgICAgICAgIDwvTGluaz4KICAgICAgICAgICAgICApOwogICAgICAgICAgICB9KX0KICAgICAgICAgIDwvbmF2PgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRvcGJhci1lbmQiPgogICAgICAgICAgICA8YSBjbGFzc05hbWU9ImdoLWxpbmsiIGhyZWY9e3JlcG9Vcmx9IHRhcmdldD0iX2JsYW5rIiByZWw9Im5vcmVmZXJyZXIiIHRpdGxlPSJTb3VyY2UgY29kZSBvbiBHaXRIdWIiPgogICAgICAgICAgICAgIDxHaXRIdWJJY29uIC8+CiAgICAgICAgICAgICAgPHNwYW4+R2l0SHViPC9zcGFuPgogICAgICAgICAgICA8L2E+CiAgICAgICAgICAgIHtuZXR3b3Jrcy5sZW5ndGggPiAxICYmICgKICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibmV0LXN3aXRjaCIgcm9sZT0icmFkaW9ncm91cCIgYXJpYS1sYWJlbD0iTmV0d29yayI+CiAgICAgICAgICAgICAgICB7bmV0d29ya3MubWFwKChuKSA9PiAoCiAgICAgICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgICAgICBrZXk9e24ua2V5fQogICAgICAgICAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgICAgICAgICByb2xlPSJyYWRpbyIKICAgICAgICAgICAgICAgICAgICBhcmlhLWNoZWNrZWQ9e24ua2V5ID09PSBuZXQua2V5fQogICAgICAgICAgICAgICAgICAgIGRpc2FibGVkPXtCb29sZWFuKHN3aXRjaGluZ1RvKX0KICAgICAgICAgICAgICAgICAgICB0aXRsZT17YCR7bi5jaGFpbi5uYW1lfSDCtyBjaGFpbiAke24uY2hhaW4uaWR9YH0KICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBzZWxlY3Qobi5rZXkpfQogICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPXtgbmV0LWRvdCAke24ua2V5fWB9IGFyaWEtaGlkZGVuPSJ0cnVlIiAvPgogICAgICAgICAgICAgICAgICAgIHtuLmxhYmVsfQogICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICApfQogICAgICAgICAgICA8Q29ubmVjdEJ1dHRvbiBjaGFpblN0YXR1cz0iaWNvbiIgc2hvd0JhbGFuY2U9e2ZhbHNlfSBhY2NvdW50U3RhdHVzPSJhZGRyZXNzIiAvPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvaGVhZGVyPgogICAgICB7c3dpdGNoaW5nVG8gJiYgKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJiYW5uZXIgaW5mbyIgcm9sZT0ic3RhdHVzIj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzaGVsbCI+CiAgICAgICAgICAgIDxzcGFuPgogICAgICAgICAgICAgIENvbmZpcm0gdGhlIHN3aXRjaCB0byA8c3Ryb25nPntzd2l0Y2hpbmdUby5jaGFpbi5uYW1lfTwvc3Ryb25nPiBpbiB5b3VyIHdhbGxldC4gSWYgbm8gd2luZG93IG9wZW5lZCwgY2xpY2sgdGhlIHdhbGxldCBpY29uIGluIHlvdXIKICAgICAgICAgICAgICBicm93c2VyIHRvb2xiYXIuCiAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICApfQogICAgICB7c3dpdGNoRXJyb3IgJiYgIXN3aXRjaGluZ1RvICYmICgKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYmFubmVyIiByb2xlPSJhbGVydCI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic2hlbGwiPgogICAgICAgICAgICA8c3Bhbj57c3dpdGNoRXJyb3J9PC9zcGFuPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgICl9CiAgICAgIHt3cm9uZ05ldHdvcmsgJiYgKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJiYW5uZXIiIHJvbGU9ImFsZXJ0Ij4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzaGVsbCI+CiAgICAgICAgICAgIDxzcGFuPgogICAgICAgICAgICAgIFlvdXIgd2FsbGV0IGlzIG9uIGFub3RoZXIgbmV0d29yay4gVGhpcyBhcHAgaXMgc2V0IHRvIDxzdHJvbmc+e25ldC5jaGFpbi5uYW1lfSAoe25ldC5jaGFpbi5pZH0pPC9zdHJvbmc+LgogICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgIDxidXR0b24gdHlwZT0iYnV0dG9uIiBjbGFzc05hbWU9ImJ0biB3YXJuIHNtYWxsIiBvbkNsaWNrPXsoKSA9PiBzZWxlY3QobmV0LmtleSl9PgogICAgICAgICAgICAgIFN3aXRjaCBuZXR3b3JrCiAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgICl9CiAgICA8Lz4KICApOwp9Cg==
+"use client";
+
+import { ConnectButton } from "@rainbow-me/rainbowkit";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { useAccount } from "wagmi";
+import { networks, repoUrl } from "@/lib/env";
+import { GitHubIcon } from "./Icons";
+import { useNetwork } from "@/lib/network";
+
+const links = [
+  { href: "/", label: "Setup" },
+  { href: "/invoices", label: "Invoices" },
+  { href: "/directory", label: "Directory" },
+  { href: "/activity", label: "Activity" },
+  { href: "/docs", label: "Docs" },
+];
+
+export function Header() {
+  const pathname = usePathname();
+  const { isConnected, chainId } = useAccount();
+  const { net, select, switchingTo, switchError } = useNetwork();
+  const wrongNetwork = isConnected && chainId !== net.chain.id && !switchingTo;
+
+  return (
+    <>
+      <header className="topbar">
+        <div className="shell">
+          <Link href="/" className="brand">
+            <span className="brand-mark" aria-hidden="true" />
+            <span className="brand-name">ExactPay</span>
+          </Link>
+          <nav className="nav" aria-label="Main">
+            {links.map((l) => {
+              const active = l.href === "/" ? pathname === "/" : pathname.startsWith(l.href);
+              return (
+                <Link key={l.href} href={l.href} aria-current={active ? "page" : undefined}>
+                  {l.label}
+                </Link>
+              );
+            })}
+          </nav>
+          <div className="topbar-end">
+            <a className="gh-link" href={repoUrl} target="_blank" rel="noreferrer" title="Source code on GitHub">
+              <GitHubIcon />
+              <span>GitHub</span>
+            </a>
+            {networks.length > 1 && (
+              <div className="net-switch" role="radiogroup" aria-label="Network">
+                {networks.map((n) => (
+                  <button
+                    key={n.key}
+                    type="button"
+                    role="radio"
+                    aria-checked={n.key === net.key}
+                    disabled={Boolean(switchingTo)}
+                    title={`${n.chain.name} · chain ${n.chain.id}`}
+                    onClick={() => select(n.key)}
+                  >
+                    <span className={`net-dot ${n.key}`} aria-hidden="true" />
+                    {n.label}
+                  </button>
+                ))}
+              </div>
+            )}
+            <ConnectButton chainStatus="icon" showBalance={false} accountStatus="address" />
+          </div>
+        </div>
+      </header>
+      {switchingTo && (
+        <div className="banner info" role="status">
+          <div className="shell">
+            <span>
+              Confirm the switch to <strong>{switchingTo.chain.name}</strong> in your wallet. If no window opened, click the wallet icon in your
+              browser toolbar.
+            </span>
+          </div>
+        </div>
+      )}
+      {switchError && !switchingTo && (
+        <div className="banner" role="alert">
+          <div className="shell">
+            <span>{switchError}</span>
+          </div>
+        </div>
+      )}
+      {wrongNetwork && (
+        <div className="banner" role="alert">
+          <div className="shell">
+            <span>
+              Your wallet is on another network. This app is set to <strong>{net.chain.name} ({net.chain.id})</strong>.
+            </span>
+            <button type="button" className="btn warn small" onClick={() => select(net.key)}>
+              Switch network
+            </button>
+          </div>
+        </div>
+      )}
+    </>
+  );
+}
