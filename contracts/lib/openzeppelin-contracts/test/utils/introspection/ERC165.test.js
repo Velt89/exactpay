@@ -1,1 +1,18 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKY29uc3QgeyBzaG91bGRTdXBwb3J0SW50ZXJmYWNlcyB9ID0gcmVxdWlyZSgnLi9TdXBwb3J0c0ludGVyZmFjZS5iZWhhdmlvcicpOwoKYXN5bmMgZnVuY3Rpb24gZml4dHVyZSgpIHsKICByZXR1cm4gewogICAgbW9jazogYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCckRVJDMTY1JyksCiAgfTsKfQoKZGVzY3JpYmUoJ0VSQzE2NScsIGZ1bmN0aW9uICgpIHsKICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgIE9iamVjdC5hc3NpZ24odGhpcywgYXdhaXQgbG9hZEZpeHR1cmUoZml4dHVyZSkpOwogIH0pOwoKICBzaG91bGRTdXBwb3J0SW50ZXJmYWNlcygpOwp9KTsK
+const { ethers } = require('hardhat');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+const { shouldSupportInterfaces } = require('./SupportsInterface.behavior');
+
+async function fixture() {
+  return {
+    mock: await ethers.deployContract('$ERC165'),
+  };
+}
+
+describe('ERC165', function () {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  shouldSupportInterfaces();
+});
