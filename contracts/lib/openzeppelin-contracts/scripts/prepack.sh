@@ -1,1 +1,23 @@
-IyEvdXNyL2Jpbi9lbnYgYmFzaAoKc2V0IC1ldW8gcGlwZWZhaWwKc2hvcHQgLXMgZ2xvYnN0YXIKCiMgY3Jvc3MgcGxhdGZvcm0gYG1rZGlyIC1wYApta2RpcnAoKSB7CiAgbm9kZSAtZSAiZnMubWtkaXJTeW5jKCckMScsIHsgcmVjdXJzaXZlOiB0cnVlIH0pIgp9CgojIGNkIHRvIHRoZSByb290IG9mIHRoZSByZXBvCmNkICIkKGdpdCByZXYtcGFyc2UgLS1zaG93LXRvcGxldmVsKSIKCm5wbSBydW4gY2xlYW4KCmVudiBDT01QSUxFX01PREU9cHJvZHVjdGlvbiBucG0gcnVuIGNvbXBpbGUKCm1rZGlycCBjb250cmFjdHMvYnVpbGQvY29udHJhY3RzCmNwIGFydGlmYWN0cy9jb250cmFjdHMvKiovKi5qc29uIGNvbnRyYWN0cy9idWlsZC9jb250cmFjdHMKcm0gY29udHJhY3RzL2J1aWxkL2NvbnRyYWN0cy8qLmRiZy5qc29uCm5vZGUgc2NyaXB0cy9yZW1vdmUtaWdub3JlZC1hcnRpZmFjdHMuanMKCmNwIFJFQURNRS5tZCBjb250cmFjdHMvCg==
+#!/usr/bin/env bash
+
+set -euo pipefail
+shopt -s globstar
+
+# cross platform `mkdir -p`
+mkdirp() {
+  node -e "fs.mkdirSync('$1', { recursive: true })"
+}
+
+# cd to the root of the repo
+cd "$(git rev-parse --show-toplevel)"
+
+npm run clean
+
+env COMPILE_MODE=production npm run compile
+
+mkdirp contracts/build/contracts
+cp artifacts/contracts/**/*.json contracts/build/contracts
+rm contracts/build/contracts/*.dbg.json
+node scripts/remove-ignored-artifacts.js
+
+cp README.md contracts/
