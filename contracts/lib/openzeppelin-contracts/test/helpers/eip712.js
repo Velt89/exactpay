@@ -1,1 +1,45 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgdHlwZXMgPSByZXF1aXJlKCcuL2VpcDcxMi10eXBlcycpOwoKYXN5bmMgZnVuY3Rpb24gZ2V0RG9tYWluKGNvbnRyYWN0KSB7CiAgY29uc3QgeyBmaWVsZHMsIG5hbWUsIHZlcnNpb24sIGNoYWluSWQsIHZlcmlmeWluZ0NvbnRyYWN0LCBzYWx0LCBleHRlbnNpb25zIH0gPSBhd2FpdCBjb250cmFjdC5laXA3MTJEb21haW4oKTsKCiAgaWYgKGV4dGVuc2lvbnMubGVuZ3RoID4gMCkgewogICAgdGhyb3cgRXJyb3IoJ0V4dGVuc2lvbnMgbm90IGltcGxlbWVudGVkJyk7CiAgfQoKICBjb25zdCBkb21haW4gPSB7CiAgICBuYW1lLAogICAgdmVyc2lvbiwKICAgIGNoYWluSWQsCiAgICB2ZXJpZnlpbmdDb250cmFjdCwKICAgIHNhbHQsCiAgfTsKCiAgZm9yIChjb25zdCBbaSwgeyBuYW1lIH1dIG9mIHR5cGVzLkVJUDcxMkRvbWFpbi5lbnRyaWVzKCkpIHsKICAgIGlmICghKGZpZWxkcyAmICgxIDw8IGkpKSkgewogICAgICBkZWxldGUgZG9tYWluW25hbWVdOwogICAgfQogIH0KCiAgcmV0dXJuIGRvbWFpbjsKfQoKZnVuY3Rpb24gZG9tYWluVHlwZShkb21haW4pIHsKICByZXR1cm4gdHlwZXMuRUlQNzEyRG9tYWluLmZpbHRlcigoeyBuYW1lIH0pID0+IGRvbWFpbltuYW1lXSAhPT0gdW5kZWZpbmVkKTsKfQoKZnVuY3Rpb24gaGFzaFR5cGVkRGF0YShkb21haW4sIHN0cnVjdEhhc2gpIHsKICByZXR1cm4gZXRoZXJzLnNvbGlkaXR5UGFja2VkS2VjY2FrMjU2KAogICAgWydieXRlcycsICdieXRlczMyJywgJ2J5dGVzMzInXSwKICAgIFsnMHgxOTAxJywgZXRoZXJzLlR5cGVkRGF0YUVuY29kZXIuaGFzaERvbWFpbihkb21haW4pLCBzdHJ1Y3RIYXNoXSwKICApOwp9Cgptb2R1bGUuZXhwb3J0cyA9IHsKICBnZXREb21haW4sCiAgZG9tYWluVHlwZSwKICBkb21haW5TZXBhcmF0b3I6IGV0aGVycy5UeXBlZERhdGFFbmNvZGVyLmhhc2hEb21haW4sCiAgaGFzaFR5cGVkRGF0YSwKICAuLi50eXBlcywKfTsK
+const { ethers } = require('hardhat');
+const types = require('./eip712-types');
+
+async function getDomain(contract) {
+  const { fields, name, version, chainId, verifyingContract, salt, extensions } = await contract.eip712Domain();
+
+  if (extensions.length > 0) {
+    throw Error('Extensions not implemented');
+  }
+
+  const domain = {
+    name,
+    version,
+    chainId,
+    verifyingContract,
+    salt,
+  };
+
+  for (const [i, { name }] of types.EIP712Domain.entries()) {
+    if (!(fields & (1 << i))) {
+      delete domain[name];
+    }
+  }
+
+  return domain;
+}
+
+function domainType(domain) {
+  return types.EIP712Domain.filter(({ name }) => domain[name] !== undefined);
+}
+
+function hashTypedData(domain, structHash) {
+  return ethers.solidityPackedKeccak256(
+    ['bytes', 'bytes32', 'bytes32'],
+    ['0x1901', ethers.TypedDataEncoder.hashDomain(domain), structHash],
+  );
+}
+
+module.exports = {
+  getDomain,
+  domainType,
+  domainSeparator: ethers.TypedDataEncoder.hashDomain,
+  hashTypedData,
+  ...types,
+};
