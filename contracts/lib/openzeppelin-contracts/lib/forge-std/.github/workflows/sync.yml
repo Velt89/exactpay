@@ -1,1 +1,29 @@
-bmFtZTogU3luYyBSZWxlYXNlIEJyYW5jaAoKb246CiAgcmVsZWFzZToKICAgIHR5cGVzOgogICAgICAtIGNyZWF0ZWQKCmpvYnM6CiAgc3luYy1yZWxlYXNlLWJyYW5jaDoKICAgIHJ1bnMtb246IHVidW50dS1sYXRlc3QKICAgIGlmOiBzdGFydHNXaXRoKGdpdGh1Yi5ldmVudC5yZWxlYXNlLnRhZ19uYW1lLCAndjEnKQogICAgc3RlcHM6CiAgICAgIC0gbmFtZTogQ2hlY2sgb3V0IHRoZSByZXBvCiAgICAgICAgdXNlczogYWN0aW9ucy9jaGVja291dEB2MwogICAgICAgIHdpdGg6CiAgICAgICAgICBmZXRjaC1kZXB0aDogMAogICAgICAgICAgcmVmOiB2MQoKICAgICAgLSBuYW1lOiBDb25maWd1cmUgR2l0CiAgICAgICAgcnVuOiB8CiAgICAgICAgICBnaXQgY29uZmlnIHVzZXIubmFtZSBnaXRodWItYWN0aW9uc1tib3RdCiAgICAgICAgICBnaXQgY29uZmlnIHVzZXIuZW1haWwgNDE4OTgyODIrZ2l0aHViLWFjdGlvbnNbYm90XUB1c2Vycy5ub3JlcGx5LmdpdGh1Yi5jb20KCiAgICAgIC0gbmFtZTogU3luYyBSZWxlYXNlIEJyYW5jaAogICAgICAgIHJ1bjogfAogICAgICAgICAgZ2l0IGZldGNoIC0tdGFncwogICAgICAgICAgZ2l0IGNoZWNrb3V0IHYxCiAgICAgICAgICBnaXQgcmVzZXQgLS1oYXJkICR7R0lUSFVCX1JFRn0KICAgICAgICAgIGdpdCBwdXNoIC0tZm9yY2UK
+name: Sync Release Branch
+
+on:
+  release:
+    types:
+      - created
+
+jobs:
+  sync-release-branch:
+    runs-on: ubuntu-latest
+    if: startsWith(github.event.release.tag_name, 'v1')
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          ref: v1
+
+      - name: Configure Git
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+
+      - name: Sync Release Branch
+        run: |
+          git fetch --tags
+          git checkout v1
+          git reset --hard ${GITHUB_REF}
+          git push --force
