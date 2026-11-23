@@ -1,1 +1,45 @@
-Ly8gV2FybmluZ3MgYWJvdXQgdW5yZWFjaGFibGUgY29kZSBhcmUgZW1pdHRlZCB3aXRoIGEgc291cmNlIGxvY2F0aW9uIHRoYXQgY29ycmVzcG9uZHMgdG8gdGhlIHVucmVhY2hhYmxlIGNvZGUuCi8vIFdlIGhhdmUgc29tZSB0ZXN0aW5nIGNvbnRyYWN0cyB0aGF0IHB1cnBvc2VseSBjYXVzZSB1bnJlYWNoYWJsZSBjb2RlLCBidXQgc2FpZCBjb2RlIGlzIGluIHRoZSBsaWJyYXJ5IGNvbnRyYWN0cywgYW5kCi8vIHdpdGggaGFyZGhhdC1pZ25vcmUtd2FybmluZ3Mgd2UgYXJlIG5vdCBhYmxlIHRvIHNlbGVjdGl2ZWx5IGlnbm9yZSB0aGVtIHdpdGhvdXQgcG90ZW50aWFsbHkgaWdub3JpbmcgcmVsZXZhbnQKLy8gd2FybmluZ3MgdGhhdCB3ZSBkb24ndCB3YW50IHRvIG1pc3MuCi8vIFRodXMsIHdlIG5lZWQgdG8gaGFuZGxlIHRoZXNlIHdhcm5pbmdzIHNlcGFyYXRlbHkuIFdlIGZvcmNlIEhhcmRoYXQgdG8gY29tcGlsZSB0aGVtIGluIGEgc2VwYXJhdGUgY29tcGlsYXRpb24gam9iIGFuZAovLyB0aGVuIGlnbm9yZSB0aGUgd2FybmluZ3MgYWJvdXQgdW5yZWFjaGFibGUgY29kZSB0aGF0IGNvbWUgZnJvbSB0aGF0IGNvbXBpbGF0aW9uIGpvYi4KCmNvbnN0IHsgdGFzayB9ID0gcmVxdWlyZSgnaGFyZGhhdC9jb25maWcnKTsKY29uc3QgewogIFRBU0tfQ09NUElMRV9TT0xJRElUWV9HRVRfQ09NUElMQVRJT05fSk9CX0ZPUl9GSUxFLAogIFRBU0tfQ09NUElMRV9TT0xJRElUWV9DT01QSUxFLAp9ID0gcmVxdWlyZSgnaGFyZGhhdC9idWlsdGluLXRhc2tzL3Rhc2stbmFtZXMnKTsKCmNvbnN0IG1hcmtlciA9IFN5bWJvbCgndW5yZWFjaGFibGUnKTsKY29uc3QgbWFya2VkQ2FjaGUgPSBuZXcgV2Vha01hcCgpOwoKdGFzayhUQVNLX0NPTVBJTEVfU09MSURJVFlfR0VUX0NPTVBJTEFUSU9OX0pPQl9GT1JfRklMRSwgYXN5bmMgKHBhcmFtcywgXywgcnVuU3VwZXIpID0+IHsKICBjb25zdCBqb2IgPSBhd2FpdCBydW5TdXBlcihwYXJhbXMpOwogIC8vIElmIHRoZSBmaWxlIGlzIGluIHRoZSB1bnJlYWNoYWJsZSBkaXJlY3RvcnksIHdlIG1ha2UgYSBjb3B5IG9mIHRoZSBjb25maWcgYW5kIG1hcmsgaXQsIHdoaWNoIHdpbGwgY2F1c2UgaXQgdG8gZ2V0CiAgLy8gY29tcGlsZWQgc2VwYXJhdGVseSAoYWxvbmcgd2l0aCB0aGUgb3RoZXIgbWFya2VkIGZpbGVzKS4KICBpZiAocGFyYW1zLmZpbGUuc291cmNlTmFtZS5zdGFydHNXaXRoKCdjb250cmFjdHMvbW9ja3MvJykgJiYgL1xidW5yZWFjaGFibGVcYi8udGVzdChwYXJhbXMuZmlsZS5zb3VyY2VOYW1lKSkgewogICAgY29uc3Qgb3JpZ2luYWxDb25maWcgPSBqb2Iuc29saWRpdHlDb25maWc7CiAgICBsZXQgbWFya2VkQ29uZmlnID0gbWFya2VkQ2FjaGUuZ2V0KG9yaWdpbmFsQ29uZmlnKTsKICAgIGlmIChtYXJrZWRDb25maWcgPT09IHVuZGVmaW5lZCkgewogICAgICBtYXJrZWRDb25maWcgPSB7IC4uLm9yaWdpbmFsQ29uZmlnLCBbbWFya2VyXTogdHJ1ZSB9OwogICAgICBtYXJrZWRDYWNoZS5zZXQob3JpZ2luYWxDb25maWcsIG1hcmtlZENvbmZpZyk7CiAgICB9CiAgICBqb2Iuc29saWRpdHlDb25maWcgPSBtYXJrZWRDb25maWc7CiAgfQogIHJldHVybiBqb2I7Cn0pOwoKY29uc3QgV19VTlJFQUNIQUJMRV9DT0RFID0gJzU3NDAnOwoKdGFzayhUQVNLX0NPTVBJTEVfU09MSURJVFlfQ09NUElMRSwgYXN5bmMgKHBhcmFtcywgXywgcnVuU3VwZXIpID0+IHsKICBjb25zdCBtYXJrZWQgPSBwYXJhbXMuY29tcGlsYXRpb25Kb2Iuc29saWRpdHlDb25maWdbbWFya2VyXTsKICBjb25zdCByZXN1bHQgPSBhd2FpdCBydW5TdXBlcihwYXJhbXMpOwogIGlmIChtYXJrZWQpIHsKICAgIHJlc3VsdC5vdXRwdXQgPSB7CiAgICAgIC4uLnJlc3VsdC5vdXRwdXQsCiAgICAgIGVycm9yczogcmVzdWx0Lm91dHB1dC5lcnJvcnM/LmZpbHRlcihlID0+IGUuc2V2ZXJpdHkgIT09ICd3YXJuaW5nJyB8fCBlLmVycm9yQ29kZSAhPT0gV19VTlJFQUNIQUJMRV9DT0RFKSwKICAgIH07CiAgfQogIHJldHVybiByZXN1bHQ7Cn0pOwo=
+// Warnings about unreachable code are emitted with a source location that corresponds to the unreachable code.
+// We have some testing contracts that purposely cause unreachable code, but said code is in the library contracts, and
+// with hardhat-ignore-warnings we are not able to selectively ignore them without potentially ignoring relevant
+// warnings that we don't want to miss.
+// Thus, we need to handle these warnings separately. We force Hardhat to compile them in a separate compilation job and
+// then ignore the warnings about unreachable code that come from that compilation job.
+
+const { task } = require('hardhat/config');
+const {
+  TASK_COMPILE_SOLIDITY_GET_COMPILATION_JOB_FOR_FILE,
+  TASK_COMPILE_SOLIDITY_COMPILE,
+} = require('hardhat/builtin-tasks/task-names');
+
+const marker = Symbol('unreachable');
+const markedCache = new WeakMap();
+
+task(TASK_COMPILE_SOLIDITY_GET_COMPILATION_JOB_FOR_FILE, async (params, _, runSuper) => {
+  const job = await runSuper(params);
+  // If the file is in the unreachable directory, we make a copy of the config and mark it, which will cause it to get
+  // compiled separately (along with the other marked files).
+  if (params.file.sourceName.startsWith('contracts/mocks/') && /\bunreachable\b/.test(params.file.sourceName)) {
+    const originalConfig = job.solidityConfig;
+    let markedConfig = markedCache.get(originalConfig);
+    if (markedConfig === undefined) {
+      markedConfig = { ...originalConfig, [marker]: true };
+      markedCache.set(originalConfig, markedConfig);
+    }
+    job.solidityConfig = markedConfig;
+  }
+  return job;
+});
+
+const W_UNREACHABLE_CODE = '5740';
+
+task(TASK_COMPILE_SOLIDITY_COMPILE, async (params, _, runSuper) => {
+  const marked = params.compilationJob.solidityConfig[marker];
+  const result = await runSuper(params);
+  if (marked) {
+    result.output = {
+      ...result.output,
+      errors: result.output.errors?.filter(e => e.severity !== 'warning' || e.errorCode !== W_UNREACHABLE_CODE),
+    };
+  }
+  return result;
+});
