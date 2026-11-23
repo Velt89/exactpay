@@ -1,1 +1,10 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgPj0wLjYuMiA8MC45LjA7CgpwcmFnbWEgZXhwZXJpbWVudGFsIEFCSUVuY29kZXJWMjsKCmltcG9ydCAiLi4vLi4vc3JjL1NjcmlwdC5zb2wiOwoKLy8gVGhlIHB1cnBvc2Ugb2YgdGhpcyBjb250cmFjdCBpcyB0byBiZW5jaG1hcmsgY29tcGlsYXRpb24gdGltZSB0byBhdm9pZCBhY2NpZGVudGFsbHkgaW50cm9kdWNpbmcKLy8gYSBjaGFuZ2UgdGhhdCByZXN1bHRzIGluIHZlcnkgbG9uZyBjb21waWxhdGlvbiB0aW1lcyB3aXRoIHZpYS1pci4gU2VlIGh0dHBzOi8vZ2l0aHViLmNvbS9mb3VuZHJ5LXJzL2ZvcmdlLXN0ZC9pc3N1ZXMvMjA3CmNvbnRyYWN0IENvbXBpbGF0aW9uU2NyaXB0QmFzZSBpcyBTY3JpcHRCYXNlIHt9Cg==
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.6.2 <0.9.0;
+
+pragma experimental ABIEncoderV2;
+
+import "../../src/Script.sol";
+
+// The purpose of this contract is to benchmark compilation time to avoid accidentally introducing
+// a change that results in very long compilation times with via-ir. See https://github.com/foundry-rs/forge-std/issues/207
+contract CompilationScriptBase is ScriptBase {}
