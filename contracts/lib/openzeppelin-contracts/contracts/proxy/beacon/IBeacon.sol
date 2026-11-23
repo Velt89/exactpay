@@ -1,1 +1,16 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMC4wKSAocHJveHkvYmVhY29uL0lCZWFjb24uc29sKQoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgovKioKICogQGRldiBUaGlzIGlzIHRoZSBpbnRlcmZhY2UgdGhhdCB7QmVhY29uUHJveHl9IGV4cGVjdHMgb2YgaXRzIGJlYWNvbi4KICovCmludGVyZmFjZSBJQmVhY29uIHsKICAgIC8qKgogICAgICogQGRldiBNdXN0IHJldHVybiBhbiBhZGRyZXNzIHRoYXQgY2FuIGJlIHVzZWQgYXMgYSBkZWxlZ2F0ZSBjYWxsIHRhcmdldC4KICAgICAqCiAgICAgKiB7VXBncmFkZWFibGVCZWFjb259IHdpbGwgY2hlY2sgdGhhdCB0aGlzIGFkZHJlc3MgaXMgYSBjb250cmFjdC4KICAgICAqLwogICAgZnVuY3Rpb24gaW1wbGVtZW50YXRpb24oKSBleHRlcm5hbCB2aWV3IHJldHVybnMgKGFkZHJlc3MpOwp9Cg==
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.0.0) (proxy/beacon/IBeacon.sol)
+
+pragma solidity ^0.8.20;
+
+/**
+ * @dev This is the interface that {BeaconProxy} expects of its beacon.
+ */
+interface IBeacon {
+    /**
+     * @dev Must return an address that can be used as a delegate call target.
+     *
+     * {UpgradeableBeacon} will check that this address is a contract.
+     */
+    function implementation() external view returns (address);
+}
