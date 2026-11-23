@@ -1,1 +1,130 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0luaXRpYWxpemFibGV9IGZyb20gIi4uL3Byb3h5L3V0aWxzL0luaXRpYWxpemFibGUuc29sIjsKCi8qKgogKiBAdGl0bGUgSW5pdGlhbGl6YWJsZU1vY2sKICogQGRldiBUaGlzIGNvbnRyYWN0IGlzIGEgbW9jayB0byB0ZXN0IGluaXRpYWxpemFibGUgZnVuY3Rpb25hbGl0eQogKi8KY29udHJhY3QgSW5pdGlhbGl6YWJsZU1vY2sgaXMgSW5pdGlhbGl6YWJsZSB7CiAgICBib29sIHB1YmxpYyBpbml0aWFsaXplclJhbjsKICAgIGJvb2wgcHVibGljIG9ubHlJbml0aWFsaXppbmdSYW47CiAgICB1aW50MjU2IHB1YmxpYyB4OwoKICAgIGZ1bmN0aW9uIGlzSW5pdGlhbGl6aW5nKCkgcHVibGljIHZpZXcgcmV0dXJucyAoYm9vbCkgewogICAgICAgIHJldHVybiBfaXNJbml0aWFsaXppbmcoKTsKICAgIH0KCiAgICBmdW5jdGlvbiBpbml0aWFsaXplKCkgcHVibGljIGluaXRpYWxpemVyIHsKICAgICAgICBpbml0aWFsaXplclJhbiA9IHRydWU7CiAgICB9CgogICAgZnVuY3Rpb24gaW5pdGlhbGl6ZU9ubHlJbml0aWFsaXppbmcoKSBwdWJsaWMgb25seUluaXRpYWxpemluZyB7CiAgICAgICAgb25seUluaXRpYWxpemluZ1JhbiA9IHRydWU7CiAgICB9CgogICAgZnVuY3Rpb24gaW5pdGlhbGl6ZXJOZXN0ZWQoKSBwdWJsaWMgaW5pdGlhbGl6ZXIgewogICAgICAgIGluaXRpYWxpemUoKTsKICAgIH0KCiAgICBmdW5jdGlvbiBvbmx5SW5pdGlhbGl6aW5nTmVzdGVkKCkgcHVibGljIGluaXRpYWxpemVyIHsKICAgICAgICBpbml0aWFsaXplT25seUluaXRpYWxpemluZygpOwogICAgfQoKICAgIGZ1bmN0aW9uIGluaXRpYWxpemVXaXRoWCh1aW50MjU2IF94KSBwdWJsaWMgcGF5YWJsZSBpbml0aWFsaXplciB7CiAgICAgICAgeCA9IF94OwogICAgfQoKICAgIGZ1bmN0aW9uIG5vbkluaXRpYWxpemFibGUodWludDI1NiBfeCkgcHVibGljIHBheWFibGUgewogICAgICAgIHggPSBfeDsKICAgIH0KCiAgICBmdW5jdGlvbiBmYWlsKCkgcHVibGljIHB1cmUgewogICAgICAgIHJlcXVpcmUoZmFsc2UsICJJbml0aWFsaXphYmxlTW9jayBmb3JjZWQgZmFpbHVyZSIpOwogICAgfQp9Cgpjb250cmFjdCBDb25zdHJ1Y3RvckluaXRpYWxpemFibGVNb2NrIGlzIEluaXRpYWxpemFibGUgewogICAgYm9vbCBwdWJsaWMgaW5pdGlhbGl6ZXJSYW47CiAgICBib29sIHB1YmxpYyBvbmx5SW5pdGlhbGl6aW5nUmFuOwoKICAgIGNvbnN0cnVjdG9yKCkgaW5pdGlhbGl6ZXIgewogICAgICAgIGluaXRpYWxpemUoKTsKICAgICAgICBpbml0aWFsaXplT25seUluaXRpYWxpemluZygpOwogICAgfQoKICAgIGZ1bmN0aW9uIGluaXRpYWxpemUoKSBwdWJsaWMgaW5pdGlhbGl6ZXIgewogICAgICAgIGluaXRpYWxpemVyUmFuID0gdHJ1ZTsKICAgIH0KCiAgICBmdW5jdGlvbiBpbml0aWFsaXplT25seUluaXRpYWxpemluZygpIHB1YmxpYyBvbmx5SW5pdGlhbGl6aW5nIHsKICAgICAgICBvbmx5SW5pdGlhbGl6aW5nUmFuID0gdHJ1ZTsKICAgIH0KfQoKY29udHJhY3QgQ2hpbGRDb25zdHJ1Y3RvckluaXRpYWxpemFibGVNb2NrIGlzIENvbnN0cnVjdG9ySW5pdGlhbGl6YWJsZU1vY2sgewogICAgYm9vbCBwdWJsaWMgY2hpbGRJbml0aWFsaXplclJhbjsKCiAgICBjb25zdHJ1Y3RvcigpIGluaXRpYWxpemVyIHsKICAgICAgICBjaGlsZEluaXRpYWxpemUoKTsKICAgIH0KCiAgICBmdW5jdGlvbiBjaGlsZEluaXRpYWxpemUoKSBwdWJsaWMgaW5pdGlhbGl6ZXIgewogICAgICAgIGNoaWxkSW5pdGlhbGl6ZXJSYW4gPSB0cnVlOwogICAgfQp9Cgpjb250cmFjdCBSZWluaXRpYWxpemVyTW9jayBpcyBJbml0aWFsaXphYmxlIHsKICAgIHVpbnQyNTYgcHVibGljIGNvdW50ZXI7CgogICAgZnVuY3Rpb24gZ2V0SW5pdGlhbGl6ZWRWZXJzaW9uKCkgcHVibGljIHZpZXcgcmV0dXJucyAodWludDY0KSB7CiAgICAgICAgcmV0dXJuIF9nZXRJbml0aWFsaXplZFZlcnNpb24oKTsKICAgIH0KCiAgICBmdW5jdGlvbiBpbml0aWFsaXplKCkgcHVibGljIGluaXRpYWxpemVyIHsKICAgICAgICBkb1N0dWZmKCk7CiAgICB9CgogICAgZnVuY3Rpb24gcmVpbml0aWFsaXplKHVpbnQ2NCBpKSBwdWJsaWMgcmVpbml0aWFsaXplcihpKSB7CiAgICAgICAgZG9TdHVmZigpOwogICAgfQoKICAgIGZ1bmN0aW9uIG5lc3RlZFJlaW5pdGlhbGl6ZSh1aW50NjQgaSwgdWludDY0IGopIHB1YmxpYyByZWluaXRpYWxpemVyKGkpIHsKICAgICAgICByZWluaXRpYWxpemUoaik7CiAgICB9CgogICAgZnVuY3Rpb24gY2hhaW5SZWluaXRpYWxpemUodWludDY0IGksIHVpbnQ2NCBqKSBwdWJsaWMgewogICAgICAgIHJlaW5pdGlhbGl6ZShpKTsKICAgICAgICByZWluaXRpYWxpemUoaik7CiAgICB9CgogICAgZnVuY3Rpb24gZGlzYWJsZUluaXRpYWxpemVycygpIHB1YmxpYyB7CiAgICAgICAgX2Rpc2FibGVJbml0aWFsaXplcnMoKTsKICAgIH0KCiAgICBmdW5jdGlvbiBkb1N0dWZmKCkgcHVibGljIG9ubHlJbml0aWFsaXppbmcgewogICAgICAgIGNvdW50ZXIrKzsKICAgIH0KfQoKY29udHJhY3QgRGlzYWJsZU5ldyBpcyBJbml0aWFsaXphYmxlIHsKICAgIGNvbnN0cnVjdG9yKCkgewogICAgICAgIF9kaXNhYmxlSW5pdGlhbGl6ZXJzKCk7CiAgICB9Cn0KCmNvbnRyYWN0IERpc2FibGVPbGQgaXMgSW5pdGlhbGl6YWJsZSB7CiAgICBjb25zdHJ1Y3RvcigpIGluaXRpYWxpemVyIHt9Cn0KCmNvbnRyYWN0IERpc2FibGVCYWQxIGlzIERpc2FibGVOZXcsIERpc2FibGVPbGQge30KCmNvbnRyYWN0IERpc2FibGVCYWQyIGlzIEluaXRpYWxpemFibGUgewogICAgY29uc3RydWN0b3IoKSBpbml0aWFsaXplciB7CiAgICAgICAgX2Rpc2FibGVJbml0aWFsaXplcnMoKTsKICAgIH0KfQoKY29udHJhY3QgRGlzYWJsZU9rIGlzIERpc2FibGVPbGQsIERpc2FibGVOZXcge30K
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {Initializable} from "../proxy/utils/Initializable.sol";
+
+/**
+ * @title InitializableMock
+ * @dev This contract is a mock to test initializable functionality
+ */
+contract InitializableMock is Initializable {
+    bool public initializerRan;
+    bool public onlyInitializingRan;
+    uint256 public x;
+
+    function isInitializing() public view returns (bool) {
+        return _isInitializing();
+    }
+
+    function initialize() public initializer {
+        initializerRan = true;
+    }
+
+    function initializeOnlyInitializing() public onlyInitializing {
+        onlyInitializingRan = true;
+    }
+
+    function initializerNested() public initializer {
+        initialize();
+    }
+
+    function onlyInitializingNested() public initializer {
+        initializeOnlyInitializing();
+    }
+
+    function initializeWithX(uint256 _x) public payable initializer {
+        x = _x;
+    }
+
+    function nonInitializable(uint256 _x) public payable {
+        x = _x;
+    }
+
+    function fail() public pure {
+        require(false, "InitializableMock forced failure");
+    }
+}
+
+contract ConstructorInitializableMock is Initializable {
+    bool public initializerRan;
+    bool public onlyInitializingRan;
+
+    constructor() initializer {
+        initialize();
+        initializeOnlyInitializing();
+    }
+
+    function initialize() public initializer {
+        initializerRan = true;
+    }
+
+    function initializeOnlyInitializing() public onlyInitializing {
+        onlyInitializingRan = true;
+    }
+}
+
+contract ChildConstructorInitializableMock is ConstructorInitializableMock {
+    bool public childInitializerRan;
+
+    constructor() initializer {
+        childInitialize();
+    }
+
+    function childInitialize() public initializer {
+        childInitializerRan = true;
+    }
+}
+
+contract ReinitializerMock is Initializable {
+    uint256 public counter;
+
+    function getInitializedVersion() public view returns (uint64) {
+        return _getInitializedVersion();
+    }
+
+    function initialize() public initializer {
+        doStuff();
+    }
+
+    function reinitialize(uint64 i) public reinitializer(i) {
+        doStuff();
+    }
+
+    function nestedReinitialize(uint64 i, uint64 j) public reinitializer(i) {
+        reinitialize(j);
+    }
+
+    function chainReinitialize(uint64 i, uint64 j) public {
+        reinitialize(i);
+        reinitialize(j);
+    }
+
+    function disableInitializers() public {
+        _disableInitializers();
+    }
+
+    function doStuff() public onlyInitializing {
+        counter++;
+    }
+}
+
+contract DisableNew is Initializable {
+    constructor() {
+        _disableInitializers();
+    }
+}
+
+contract DisableOld is Initializable {
+    constructor() initializer {}
+}
+
+contract DisableBad1 is DisableNew, DisableOld {}
+
+contract DisableBad2 is Initializable {
+    constructor() initializer {
+        _disableInitializers();
+    }
+}
+
+contract DisableOk is DisableOld, DisableNew {}
