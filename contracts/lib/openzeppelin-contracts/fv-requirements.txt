@@ -1,1 +1,4 @@
-Y2VydG9yYS1jbGk9PTQuMTMuMQojIEZpbGUgdXNlcyBhIGN1c3RvbSBuYW1lIChmdi1yZXF1aXJlbWVudHMudHh0KSBzbyB0aGF0IGl0IGlzbid0IHBpY2tlZCBieSBOZXRsaWZ5J3MgYnVpbGQKIyB3aG9zZSBsYXRlc3QgUHl0aG9uIHZlcnNpb24gaXMgMC4zLjgsIGluY29tcGF0aWJsZSB3aXRoIG1vc3QgcmVjZW50IHZlcnNpb25zIG9mIEhhbG1vcwpoYWxtb3M9PTAuMS4xMwo=
+certora-cli==4.13.1
+# File uses a custom name (fv-requirements.txt) so that it isn't picked by Netlify's build
+# whose latest Python version is 0.3.8, incompatible with most recent versions of Halmos
+halmos==0.1.13
