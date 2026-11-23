@@ -1,1 +1,59 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMC4wKSAoZ292ZXJuYW5jZS91dGlscy9JVm90ZXMuc29sKQpwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCi8qKgogKiBAZGV2IENvbW1vbiBpbnRlcmZhY2UgZm9yIHtFUkMyMFZvdGVzfSwge0VSQzcyMVZvdGVzfSwgYW5kIG90aGVyIHtWb3Rlc30tZW5hYmxlZCBjb250cmFjdHMuCiAqLwppbnRlcmZhY2UgSVZvdGVzIHsKICAgIC8qKgogICAgICogQGRldiBUaGUgc2lnbmF0dXJlIHVzZWQgaGFzIGV4cGlyZWQuCiAgICAgKi8KICAgIGVycm9yIFZvdGVzRXhwaXJlZFNpZ25hdHVyZSh1aW50MjU2IGV4cGlyeSk7CgogICAgLyoqCiAgICAgKiBAZGV2IEVtaXR0ZWQgd2hlbiBhbiBhY2NvdW50IGNoYW5nZXMgdGhlaXIgZGVsZWdhdGUuCiAgICAgKi8KICAgIGV2ZW50IERlbGVnYXRlQ2hhbmdlZChhZGRyZXNzIGluZGV4ZWQgZGVsZWdhdG9yLCBhZGRyZXNzIGluZGV4ZWQgZnJvbURlbGVnYXRlLCBhZGRyZXNzIGluZGV4ZWQgdG9EZWxlZ2F0ZSk7CgogICAgLyoqCiAgICAgKiBAZGV2IEVtaXR0ZWQgd2hlbiBhIHRva2VuIHRyYW5zZmVyIG9yIGRlbGVnYXRlIGNoYW5nZSByZXN1bHRzIGluIGNoYW5nZXMgdG8gYSBkZWxlZ2F0ZSdzIG51bWJlciBvZiB2b3RpbmcgdW5pdHMuCiAgICAgKi8KICAgIGV2ZW50IERlbGVnYXRlVm90ZXNDaGFuZ2VkKGFkZHJlc3MgaW5kZXhlZCBkZWxlZ2F0ZSwgdWludDI1NiBwcmV2aW91c1ZvdGVzLCB1aW50MjU2IG5ld1ZvdGVzKTsKCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyB0aGUgY3VycmVudCBhbW91bnQgb2Ygdm90ZXMgdGhhdCBgYWNjb3VudGAgaGFzLgogICAgICovCiAgICBmdW5jdGlvbiBnZXRWb3RlcyhhZGRyZXNzIGFjY291bnQpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAodWludDI1Nik7CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIGFtb3VudCBvZiB2b3RlcyB0aGF0IGBhY2NvdW50YCBoYWQgYXQgYSBzcGVjaWZpYyBtb21lbnQgaW4gdGhlIHBhc3QuIElmIHRoZSBgY2xvY2soKWAgaXMKICAgICAqIGNvbmZpZ3VyZWQgdG8gdXNlIGJsb2NrIG51bWJlcnMsIHRoaXMgd2lsbCByZXR1cm4gdGhlIHZhbHVlIGF0IHRoZSBlbmQgb2YgdGhlIGNvcnJlc3BvbmRpbmcgYmxvY2suCiAgICAgKi8KICAgIGZ1bmN0aW9uIGdldFBhc3RWb3RlcyhhZGRyZXNzIGFjY291bnQsIHVpbnQyNTYgdGltZXBvaW50KSBleHRlcm5hbCB2aWV3IHJldHVybnMgKHVpbnQyNTYpOwoKICAgIC8qKgogICAgICogQGRldiBSZXR1cm5zIHRoZSB0b3RhbCBzdXBwbHkgb2Ygdm90ZXMgYXZhaWxhYmxlIGF0IGEgc3BlY2lmaWMgbW9tZW50IGluIHRoZSBwYXN0LiBJZiB0aGUgYGNsb2NrKClgIGlzCiAgICAgKiBjb25maWd1cmVkIHRvIHVzZSBibG9jayBudW1iZXJzLCB0aGlzIHdpbGwgcmV0dXJuIHRoZSB2YWx1ZSBhdCB0aGUgZW5kIG9mIHRoZSBjb3JyZXNwb25kaW5nIGJsb2NrLgogICAgICoKICAgICAqIE5PVEU6IFRoaXMgdmFsdWUgaXMgdGhlIHN1bSBvZiBhbGwgYXZhaWxhYmxlIHZvdGVzLCB3aGljaCBpcyBub3QgbmVjZXNzYXJpbHkgdGhlIHN1bSBvZiBhbGwgZGVsZWdhdGVkIHZvdGVzLgogICAgICogVm90ZXMgdGhhdCBoYXZlIG5vdCBiZWVuIGRlbGVnYXRlZCBhcmUgc3RpbGwgcGFydCBvZiB0b3RhbCBzdXBwbHksIGV2ZW4gdGhvdWdoIHRoZXkgd291bGQgbm90IHBhcnRpY2lwYXRlIGluIGEKICAgICAqIHZvdGUuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGdldFBhc3RUb3RhbFN1cHBseSh1aW50MjU2IHRpbWVwb2ludCkgZXh0ZXJuYWwgdmlldyByZXR1cm5zICh1aW50MjU2KTsKCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyB0aGUgZGVsZWdhdGUgdGhhdCBgYWNjb3VudGAgaGFzIGNob3Nlbi4KICAgICAqLwogICAgZnVuY3Rpb24gZGVsZWdhdGVzKGFkZHJlc3MgYWNjb3VudCkgZXh0ZXJuYWwgdmlldyByZXR1cm5zIChhZGRyZXNzKTsKCiAgICAvKioKICAgICAqIEBkZXYgRGVsZWdhdGVzIHZvdGVzIGZyb20gdGhlIHNlbmRlciB0byBgZGVsZWdhdGVlYC4KICAgICAqLwogICAgZnVuY3Rpb24gZGVsZWdhdGUoYWRkcmVzcyBkZWxlZ2F0ZWUpIGV4dGVybmFsOwoKICAgIC8qKgogICAgICogQGRldiBEZWxlZ2F0ZXMgdm90ZXMgZnJvbSBzaWduZXIgdG8gYGRlbGVnYXRlZWAuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGRlbGVnYXRlQnlTaWcoYWRkcmVzcyBkZWxlZ2F0ZWUsIHVpbnQyNTYgbm9uY2UsIHVpbnQyNTYgZXhwaXJ5LCB1aW50OCB2LCBieXRlczMyIHIsIGJ5dGVzMzIgcykgZXh0ZXJuYWw7Cn0K
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.0.0) (governance/utils/IVotes.sol)
+pragma solidity ^0.8.20;
+
+/**
+ * @dev Common interface for {ERC20Votes}, {ERC721Votes}, and other {Votes}-enabled contracts.
+ */
+interface IVotes {
+    /**
+     * @dev The signature used has expired.
+     */
+    error VotesExpiredSignature(uint256 expiry);
+
+    /**
+     * @dev Emitted when an account changes their delegate.
+     */
+    event DelegateChanged(address indexed delegator, address indexed fromDelegate, address indexed toDelegate);
+
+    /**
+     * @dev Emitted when a token transfer or delegate change results in changes to a delegate's number of voting units.
+     */
+    event DelegateVotesChanged(address indexed delegate, uint256 previousVotes, uint256 newVotes);
+
+    /**
+     * @dev Returns the current amount of votes that `account` has.
+     */
+    function getVotes(address account) external view returns (uint256);
+
+    /**
+     * @dev Returns the amount of votes that `account` had at a specific moment in the past. If the `clock()` is
+     * configured to use block numbers, this will return the value at the end of the corresponding block.
+     */
+    function getPastVotes(address account, uint256 timepoint) external view returns (uint256);
+
+    /**
+     * @dev Returns the total supply of votes available at a specific moment in the past. If the `clock()` is
+     * configured to use block numbers, this will return the value at the end of the corresponding block.
+     *
+     * NOTE: This value is the sum of all available votes, which is not necessarily the sum of all delegated votes.
+     * Votes that have not been delegated are still part of total supply, even though they would not participate in a
+     * vote.
+     */
+    function getPastTotalSupply(uint256 timepoint) external view returns (uint256);
+
+    /**
+     * @dev Returns the delegate that `account` has chosen.
+     */
+    function delegates(address account) external view returns (address);
+
+    /**
+     * @dev Delegates votes from the sender to `delegatee`.
+     */
+    function delegate(address delegatee) external;
+
+    /**
+     * @dev Delegates votes from signer to `delegatee`.
+     */
+    function delegateBySig(address delegatee, uint256 nonce, uint256 expiry, uint8 v, bytes32 r, bytes32 s) external;
+}
