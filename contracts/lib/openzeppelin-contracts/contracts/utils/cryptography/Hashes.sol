@@ -1,1 +1,31 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodXRpbHMvY3J5cHRvZ3JhcGh5L0hhc2hlcy5zb2wpCgpwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCi8qKgogKiBAZGV2IExpYnJhcnkgb2Ygc3RhbmRhcmQgaGFzaCBmdW5jdGlvbnMuCiAqCiAqIF9BdmFpbGFibGUgc2luY2UgdjUuMS5fCiAqLwpsaWJyYXJ5IEhhc2hlcyB7CiAgICAvKioKICAgICAqIEBkZXYgQ29tbXV0YXRpdmUgS2VjY2FrMjU2IGhhc2ggb2YgYSBzb3J0ZWQgcGFpciBvZiBieXRlczMyLiBGcmVxdWVudGx5IHVzZWQgd2hlbiB3b3JraW5nIHdpdGggbWVya2xlIHByb29mcy4KICAgICAqCiAgICAgKiBOT1RFOiBFcXVpdmFsZW50IHRvIHRoZSBgc3RhbmRhcmROb2RlSGFzaGAgaW4gb3VyIGh0dHBzOi8vZ2l0aHViLmNvbS9PcGVuWmVwcGVsaW4vbWVya2xlLXRyZWVbSmF2YVNjcmlwdCBsaWJyYXJ5XS4KICAgICAqLwogICAgZnVuY3Rpb24gY29tbXV0YXRpdmVLZWNjYWsyNTYoYnl0ZXMzMiBhLCBieXRlczMyIGIpIGludGVybmFsIHB1cmUgcmV0dXJucyAoYnl0ZXMzMikgewogICAgICAgIHJldHVybiBhIDwgYiA/IF9lZmZpY2llbnRLZWNjYWsyNTYoYSwgYikgOiBfZWZmaWNpZW50S2VjY2FrMjU2KGIsIGEpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBJbXBsZW1lbnRhdGlvbiBvZiBrZWNjYWsyNTYoYWJpLmVuY29kZShhLCBiKSkgdGhhdCBkb2Vzbid0IGFsbG9jYXRlIG9yIGV4cGFuZCBtZW1vcnkuCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9lZmZpY2llbnRLZWNjYWsyNTYoYnl0ZXMzMiBhLCBieXRlczMyIGIpIHByaXZhdGUgcHVyZSByZXR1cm5zIChieXRlczMyIHZhbHVlKSB7CiAgICAgICAgYXNzZW1ibHkgKCJtZW1vcnktc2FmZSIpIHsKICAgICAgICAgICAgbXN0b3JlKDB4MDAsIGEpCiAgICAgICAgICAgIG1zdG9yZSgweDIwLCBiKQogICAgICAgICAgICB2YWx1ZSA6PSBrZWNjYWsyNTYoMHgwMCwgMHg0MCkKICAgICAgICB9CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (utils/cryptography/Hashes.sol)
+
+pragma solidity ^0.8.20;
+
+/**
+ * @dev Library of standard hash functions.
+ *
+ * _Available since v5.1._
+ */
+library Hashes {
+    /**
+     * @dev Commutative Keccak256 hash of a sorted pair of bytes32. Frequently used when working with merkle proofs.
+     *
+     * NOTE: Equivalent to the `standardNodeHash` in our https://github.com/OpenZeppelin/merkle-tree[JavaScript library].
+     */
+    function commutativeKeccak256(bytes32 a, bytes32 b) internal pure returns (bytes32) {
+        return a < b ? _efficientKeccak256(a, b) : _efficientKeccak256(b, a);
+    }
+
+    /**
+     * @dev Implementation of keccak256(abi.encode(a, b)) that doesn't allocate or expand memory.
+     */
+    function _efficientKeccak256(bytes32 a, bytes32 b) private pure returns (bytes32 value) {
+        assembly ("memory-safe") {
+            mstore(0x00, a)
+            mstore(0x20, b)
+            value := keccak256(0x00, 0x40)
+        }
+    }
+}
