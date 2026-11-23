@@ -1,1 +1,24 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge093bmFibGV9IGZyb20gIi4uL2FjY2Vzcy9Pd25hYmxlLnNvbCI7CmltcG9ydCB7SUVSQzEyNzF9IGZyb20gIi4uL2ludGVyZmFjZXMvSUVSQzEyNzEuc29sIjsKaW1wb3J0IHtFQ0RTQX0gZnJvbSAiLi4vdXRpbHMvY3J5cHRvZ3JhcGh5L0VDRFNBLnNvbCI7Cgpjb250cmFjdCBFUkMxMjcxV2FsbGV0TW9jayBpcyBPd25hYmxlLCBJRVJDMTI3MSB7CiAgICBjb25zdHJ1Y3RvcihhZGRyZXNzIG9yaWdpbmFsT3duZXIpIE93bmFibGUob3JpZ2luYWxPd25lcikge30KCiAgICBmdW5jdGlvbiBpc1ZhbGlkU2lnbmF0dXJlKGJ5dGVzMzIgaGFzaCwgYnl0ZXMgbWVtb3J5IHNpZ25hdHVyZSkgcHVibGljIHZpZXcgcmV0dXJucyAoYnl0ZXM0IG1hZ2ljVmFsdWUpIHsKICAgICAgICByZXR1cm4gRUNEU0EucmVjb3ZlcihoYXNoLCBzaWduYXR1cmUpID09IG93bmVyKCkgPyB0aGlzLmlzVmFsaWRTaWduYXR1cmUuc2VsZWN0b3IgOiBieXRlczQoMCk7CiAgICB9Cn0KCmNvbnRyYWN0IEVSQzEyNzFNYWxpY2lvdXNNb2NrIGlzIElFUkMxMjcxIHsKICAgIGZ1bmN0aW9uIGlzVmFsaWRTaWduYXR1cmUoYnl0ZXMzMiwgYnl0ZXMgbWVtb3J5KSBwdWJsaWMgcHVyZSByZXR1cm5zIChieXRlczQpIHsKICAgICAgICBhc3NlbWJseSB7CiAgICAgICAgICAgIG1zdG9yZSgwLCAweGZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmYpCiAgICAgICAgICAgIHJldHVybigwLCAzMikKICAgICAgICB9CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {Ownable} from "../access/Ownable.sol";
+import {IERC1271} from "../interfaces/IERC1271.sol";
+import {ECDSA} from "../utils/cryptography/ECDSA.sol";
+
+contract ERC1271WalletMock is Ownable, IERC1271 {
+    constructor(address originalOwner) Ownable(originalOwner) {}
+
+    function isValidSignature(bytes32 hash, bytes memory signature) public view returns (bytes4 magicValue) {
+        return ECDSA.recover(hash, signature) == owner() ? this.isValidSignature.selector : bytes4(0);
+    }
+}
+
+contract ERC1271MaliciousMock is IERC1271 {
+    function isValidSignature(bytes32, bytes memory) public pure returns (bytes4) {
+        assembly {
+            mstore(0, 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff)
+            return(0, 32)
+        }
+    }
+}
