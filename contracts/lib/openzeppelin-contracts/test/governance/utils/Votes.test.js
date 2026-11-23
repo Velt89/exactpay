@@ -1,1 +1,102 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKY29uc3QgeyBzdW0gfSA9IHJlcXVpcmUoJy4uLy4uL2hlbHBlcnMvbWF0aCcpOwpjb25zdCB7IHppcCB9ID0gcmVxdWlyZSgnLi4vLi4vaGVscGVycy9pdGVyYXRlJyk7CmNvbnN0IHRpbWUgPSByZXF1aXJlKCcuLi8uLi9oZWxwZXJzL3RpbWUnKTsKCmNvbnN0IHsgc2hvdWxkQmVoYXZlTGlrZVZvdGVzIH0gPSByZXF1aXJlKCcuL1ZvdGVzLmJlaGF2aW9yJyk7Cgpjb25zdCBNT0RFUyA9IHsKICBibG9ja251bWJlcjogJyRWb3Rlc01vY2snLAogIHRpbWVzdGFtcDogJyRWb3Rlc1RpbWVzdGFtcE1vY2snLAp9OwoKY29uc3QgQU1PVU5UUyA9IFtldGhlcnMucGFyc2VFdGhlcignMTAwMDAwMDAnKSwgMTBuLCAyMG5dOwoKZGVzY3JpYmUoJ1ZvdGVzJywgZnVuY3Rpb24gKCkgewogIGZvciAoY29uc3QgW21vZGUsIGFydGlmYWN0XSBvZiBPYmplY3QuZW50cmllcyhNT0RFUykpIHsKICAgIGNvbnN0IGZpeHR1cmUgPSBhc3luYyAoKSA9PiB7CiAgICAgIGNvbnN0IGFjY291bnRzID0gYXdhaXQgZXRoZXJzLmdldFNpZ25lcnMoKTsKCiAgICAgIGNvbnN0IGFtb3VudHMgPSBPYmplY3QuZnJvbUVudHJpZXMoCiAgICAgICAgemlwKAogICAgICAgICAgYWNjb3VudHMuc2xpY2UoMCwgQU1PVU5UUy5sZW5ndGgpLm1hcCgoeyBhZGRyZXNzIH0pID0+IGFkZHJlc3MpLAogICAgICAgICAgQU1PVU5UUywKICAgICAgICApLAogICAgICApOwoKICAgICAgY29uc3QgbmFtZSA9ICdNeSBWb3RlJzsKICAgICAgY29uc3QgdmVyc2lvbiA9ICcxJzsKICAgICAgY29uc3Qgdm90ZXMgPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoYXJ0aWZhY3QsIFtuYW1lLCB2ZXJzaW9uXSk7CgogICAgICByZXR1cm4geyBhY2NvdW50cywgYW1vdW50cywgdm90ZXMsIG5hbWUsIHZlcnNpb24gfTsKICAgIH07CgogICAgZGVzY3JpYmUoYHZvdGUgd2l0aCAke21vZGV9YCwgZnVuY3Rpb24gKCkgewogICAgICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBPYmplY3QuYXNzaWduKHRoaXMsIGF3YWl0IGxvYWRGaXh0dXJlKGZpeHR1cmUpKTsKICAgICAgfSk7CgogICAgICBzaG91bGRCZWhhdmVMaWtlVm90ZXMoQU1PVU5UUywgeyBtb2RlLCBmdW5naWJsZTogdHJ1ZSB9KTsKCiAgICAgIGl0KCdzdGFydHMgd2l0aCB6ZXJvIHZvdGVzJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnZvdGVzLmdldFRvdGFsU3VwcGx5KCkpLnRvLmVxdWFsKDBuKTsKICAgICAgfSk7CgogICAgICBkZXNjcmliZSgncGVyZm9ybXMgdm90aW5nIG9wZXJhdGlvbnMnLCBmdW5jdGlvbiAoKSB7CiAgICAgICAgYmVmb3JlRWFjaChhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICB0aGlzLnR4cyA9IFtdOwogICAgICAgICAgZm9yIChjb25zdCBbYWNjb3VudCwgYW1vdW50XSBvZiBPYmplY3QuZW50cmllcyh0aGlzLmFtb3VudHMpKSB7CiAgICAgICAgICAgIHRoaXMudHhzLnB1c2goYXdhaXQgdGhpcy52b3Rlcy4kX21pbnQoYWNjb3VudCwgYW1vdW50KSk7CiAgICAgICAgICB9CiAgICAgICAgfSk7CgogICAgICAgIGl0KCdyZXZlcnRzIGlmIGJsb2NrIG51bWJlciA+PSBjdXJyZW50IGJsb2NrJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgY29uc3QgbGFzdFR4VGltZXBvaW50ID0gYXdhaXQgdGltZS5jbG9ja0Zyb21SZWNlaXB0W21vZGVdKHRoaXMudHhzLmF0KC0xKSk7CiAgICAgICAgICBjb25zdCBjbG9jayA9IGF3YWl0IHRoaXMudm90ZXMuY2xvY2soKTsKICAgICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLnZvdGVzLmdldFBhc3RUb3RhbFN1cHBseShsYXN0VHhUaW1lcG9pbnQpKQogICAgICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy52b3RlcywgJ0VSQzU4MDVGdXR1cmVMb29rdXAnKQogICAgICAgICAgICAud2l0aEFyZ3MobGFzdFR4VGltZXBvaW50LCBjbG9jayk7CiAgICAgICAgfSk7CgogICAgICAgIGl0KCdkZWxlZ2F0ZXMnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy52b3Rlcy5nZXRWb3Rlcyh0aGlzLmFjY291bnRzWzBdKSkudG8uZXF1YWwoMG4pOwogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudm90ZXMuZ2V0Vm90ZXModGhpcy5hY2NvdW50c1sxXSkpLnRvLmVxdWFsKDBuKTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnZvdGVzLmRlbGVnYXRlcyh0aGlzLmFjY291bnRzWzBdKSkudG8uZXF1YWwoZXRoZXJzLlplcm9BZGRyZXNzKTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnZvdGVzLmRlbGVnYXRlcyh0aGlzLmFjY291bnRzWzFdKSkudG8uZXF1YWwoZXRoZXJzLlplcm9BZGRyZXNzKTsKCiAgICAgICAgICBhd2FpdCB0aGlzLnZvdGVzLmRlbGVnYXRlKHRoaXMuYWNjb3VudHNbMF0sIGV0aGVycy5UeXBlZC5hZGRyZXNzKHRoaXMuYWNjb3VudHNbMF0pKTsKCiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy52b3Rlcy5nZXRWb3Rlcyh0aGlzLmFjY291bnRzWzBdKSkudG8uZXF1YWwodGhpcy5hbW91bnRzW3RoaXMuYWNjb3VudHNbMF0uYWRkcmVzc10pOwogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudm90ZXMuZ2V0Vm90ZXModGhpcy5hY2NvdW50c1sxXSkpLnRvLmVxdWFsKDBuKTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnZvdGVzLmRlbGVnYXRlcyh0aGlzLmFjY291bnRzWzBdKSkudG8uZXF1YWwodGhpcy5hY2NvdW50c1swXSk7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy52b3Rlcy5kZWxlZ2F0ZXModGhpcy5hY2NvdW50c1sxXSkpLnRvLmVxdWFsKGV0aGVycy5aZXJvQWRkcmVzcyk7CgogICAgICAgICAgYXdhaXQgdGhpcy52b3Rlcy5kZWxlZ2F0ZSh0aGlzLmFjY291bnRzWzFdLCBldGhlcnMuVHlwZWQuYWRkcmVzcyh0aGlzLmFjY291bnRzWzBdKSk7CgogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudm90ZXMuZ2V0Vm90ZXModGhpcy5hY2NvdW50c1swXSkpLnRvLmVxdWFsKAogICAgICAgICAgICB0aGlzLmFtb3VudHNbdGhpcy5hY2NvdW50c1swXS5hZGRyZXNzXSArIHRoaXMuYW1vdW50c1t0aGlzLmFjY291bnRzWzFdLmFkZHJlc3NdLAogICAgICAgICAgKTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnZvdGVzLmdldFZvdGVzKHRoaXMuYWNjb3VudHNbMV0pKS50by5lcXVhbCgwbik7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy52b3Rlcy5kZWxlZ2F0ZXModGhpcy5hY2NvdW50c1swXSkpLnRvLmVxdWFsKHRoaXMuYWNjb3VudHNbMF0pOwogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudm90ZXMuZGVsZWdhdGVzKHRoaXMuYWNjb3VudHNbMV0pKS50by5lcXVhbCh0aGlzLmFjY291bnRzWzBdKTsKICAgICAgICB9KTsKCiAgICAgICAgaXQoJ2Nyb3NzIGRlbGVnYXRlcycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGF3YWl0IHRoaXMudm90ZXMuZGVsZWdhdGUodGhpcy5hY2NvdW50c1swXSwgZXRoZXJzLlR5cGVkLmFkZHJlc3ModGhpcy5hY2NvdW50c1sxXSkpOwogICAgICAgICAgYXdhaXQgdGhpcy52b3Rlcy5kZWxlZ2F0ZSh0aGlzLmFjY291bnRzWzFdLCBldGhlcnMuVHlwZWQuYWRkcmVzcyh0aGlzLmFjY291bnRzWzBdKSk7CgogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudm90ZXMuZ2V0Vm90ZXModGhpcy5hY2NvdW50c1swXSkpLnRvLmVxdWFsKHRoaXMuYW1vdW50c1t0aGlzLmFjY291bnRzWzFdLmFkZHJlc3NdKTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnZvdGVzLmdldFZvdGVzKHRoaXMuYWNjb3VudHNbMV0pKS50by5lcXVhbCh0aGlzLmFtb3VudHNbdGhpcy5hY2NvdW50c1swXS5hZGRyZXNzXSk7CiAgICAgICAgfSk7CgogICAgICAgIGl0KCdyZXR1cm5zIHRvdGFsIGFtb3VudCBvZiB2b3RlcycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGNvbnN0IHRvdGFsU3VwcGx5ID0gc3VtKC4uLk9iamVjdC52YWx1ZXModGhpcy5hbW91bnRzKSk7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy52b3Rlcy5nZXRUb3RhbFN1cHBseSgpKS50by5lcXVhbCh0b3RhbFN1cHBseSk7CiAgICAgICAgfSk7CiAgICAgIH0pOwogICAgfSk7CiAgfQp9KTsK
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+const { sum } = require('../../helpers/math');
+const { zip } = require('../../helpers/iterate');
+const time = require('../../helpers/time');
+
+const { shouldBehaveLikeVotes } = require('./Votes.behavior');
+
+const MODES = {
+  blocknumber: '$VotesMock',
+  timestamp: '$VotesTimestampMock',
+};
+
+const AMOUNTS = [ethers.parseEther('10000000'), 10n, 20n];
+
+describe('Votes', function () {
+  for (const [mode, artifact] of Object.entries(MODES)) {
+    const fixture = async () => {
+      const accounts = await ethers.getSigners();
+
+      const amounts = Object.fromEntries(
+        zip(
+          accounts.slice(0, AMOUNTS.length).map(({ address }) => address),
+          AMOUNTS,
+        ),
+      );
+
+      const name = 'My Vote';
+      const version = '1';
+      const votes = await ethers.deployContract(artifact, [name, version]);
+
+      return { accounts, amounts, votes, name, version };
+    };
+
+    describe(`vote with ${mode}`, function () {
+      beforeEach(async function () {
+        Object.assign(this, await loadFixture(fixture));
+      });
+
+      shouldBehaveLikeVotes(AMOUNTS, { mode, fungible: true });
+
+      it('starts with zero votes', async function () {
+        expect(await this.votes.getTotalSupply()).to.equal(0n);
+      });
+
+      describe('performs voting operations', function () {
+        beforeEach(async function () {
+          this.txs = [];
+          for (const [account, amount] of Object.entries(this.amounts)) {
+            this.txs.push(await this.votes.$_mint(account, amount));
+          }
+        });
+
+        it('reverts if block number >= current block', async function () {
+          const lastTxTimepoint = await time.clockFromReceipt[mode](this.txs.at(-1));
+          const clock = await this.votes.clock();
+          await expect(this.votes.getPastTotalSupply(lastTxTimepoint))
+            .to.be.revertedWithCustomError(this.votes, 'ERC5805FutureLookup')
+            .withArgs(lastTxTimepoint, clock);
+        });
+
+        it('delegates', async function () {
+          expect(await this.votes.getVotes(this.accounts[0])).to.equal(0n);
+          expect(await this.votes.getVotes(this.accounts[1])).to.equal(0n);
+          expect(await this.votes.delegates(this.accounts[0])).to.equal(ethers.ZeroAddress);
+          expect(await this.votes.delegates(this.accounts[1])).to.equal(ethers.ZeroAddress);
+
+          await this.votes.delegate(this.accounts[0], ethers.Typed.address(this.accounts[0]));
+
+          expect(await this.votes.getVotes(this.accounts[0])).to.equal(this.amounts[this.accounts[0].address]);
+          expect(await this.votes.getVotes(this.accounts[1])).to.equal(0n);
+          expect(await this.votes.delegates(this.accounts[0])).to.equal(this.accounts[0]);
+          expect(await this.votes.delegates(this.accounts[1])).to.equal(ethers.ZeroAddress);
+
+          await this.votes.delegate(this.accounts[1], ethers.Typed.address(this.accounts[0]));
+
+          expect(await this.votes.getVotes(this.accounts[0])).to.equal(
+            this.amounts[this.accounts[0].address] + this.amounts[this.accounts[1].address],
+          );
+          expect(await this.votes.getVotes(this.accounts[1])).to.equal(0n);
+          expect(await this.votes.delegates(this.accounts[0])).to.equal(this.accounts[0]);
+          expect(await this.votes.delegates(this.accounts[1])).to.equal(this.accounts[0]);
+        });
+
+        it('cross delegates', async function () {
+          await this.votes.delegate(this.accounts[0], ethers.Typed.address(this.accounts[1]));
+          await this.votes.delegate(this.accounts[1], ethers.Typed.address(this.accounts[0]));
+
+          expect(await this.votes.getVotes(this.accounts[0])).to.equal(this.amounts[this.accounts[1].address]);
+          expect(await this.votes.getVotes(this.accounts[1])).to.equal(this.amounts[this.accounts[0].address]);
+        });
+
+        it('returns total amount of votes', async function () {
+          const totalSupply = sum(...Object.values(this.amounts));
+          expect(await this.votes.getTotalSupply()).to.equal(totalSupply);
+        });
+      });
+    });
+  }
+});
