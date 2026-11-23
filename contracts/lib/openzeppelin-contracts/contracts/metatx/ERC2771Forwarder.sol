@@ -1,1 +1,369 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAobWV0YXR4L0VSQzI3NzFGb3J3YXJkZXIuc29sKQoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0VSQzI3NzFDb250ZXh0fSBmcm9tICIuL0VSQzI3NzFDb250ZXh0LnNvbCI7CmltcG9ydCB7RUNEU0F9IGZyb20gIi4uL3V0aWxzL2NyeXB0b2dyYXBoeS9FQ0RTQS5zb2wiOwppbXBvcnQge0VJUDcxMn0gZnJvbSAiLi4vdXRpbHMvY3J5cHRvZ3JhcGh5L0VJUDcxMi5zb2wiOwppbXBvcnQge05vbmNlc30gZnJvbSAiLi4vdXRpbHMvTm9uY2VzLnNvbCI7CmltcG9ydCB7QWRkcmVzc30gZnJvbSAiLi4vdXRpbHMvQWRkcmVzcy5zb2wiOwppbXBvcnQge0Vycm9yc30gZnJvbSAiLi4vdXRpbHMvRXJyb3JzLnNvbCI7CgovKioKICogQGRldiBBIGZvcndhcmRlciBjb21wYXRpYmxlIHdpdGggRVJDLTI3NzEgY29udHJhY3RzLiBTZWUge0VSQzI3NzFDb250ZXh0fS4KICoKICogVGhpcyBmb3J3YXJkZXIgb3BlcmF0ZXMgb24gZm9yd2FyZCByZXF1ZXN0cyB0aGF0IGluY2x1ZGU6CiAqCiAqICogYGZyb21gOiBBbiBhZGRyZXNzIHRvIG9wZXJhdGUgb24gYmVoYWxmIG9mLiBJdCBpcyByZXF1aXJlZCB0byBiZSBlcXVhbCB0byB0aGUgcmVxdWVzdCBzaWduZXIuCiAqICogYHRvYDogVGhlIGFkZHJlc3MgdGhhdCBzaG91bGQgYmUgY2FsbGVkLgogKiAqIGB2YWx1ZWA6IFRoZSBhbW91bnQgb2YgbmF0aXZlIHRva2VuIHRvIGF0dGFjaCB3aXRoIHRoZSByZXF1ZXN0ZWQgY2FsbC4KICogKiBgZ2FzYDogVGhlIGFtb3VudCBvZiBnYXMgbGltaXQgdGhhdCB3aWxsIGJlIGZvcndhcmRlZCB3aXRoIHRoZSByZXF1ZXN0ZWQgY2FsbC4KICogKiBgbm9uY2VgOiBBIHVuaXF1ZSB0cmFuc2FjdGlvbiBvcmRlcmluZyBpZGVudGlmaWVyIHRvIGF2b2lkIHJlcGxheWFiaWxpdHkgYW5kIHJlcXVlc3QgaW52YWxpZGF0aW9uLgogKiAqIGBkZWFkbGluZWA6IEEgdGltZXN0YW1wIGFmdGVyIHdoaWNoIHRoZSByZXF1ZXN0IGlzIG5vdCBleGVjdXRhYmxlIGFueW1vcmUuCiAqICogYGRhdGFgOiBFbmNvZGVkIGBtc2cuZGF0YWAgdG8gc2VuZCB3aXRoIHRoZSByZXF1ZXN0ZWQgY2FsbC4KICoKICogUmVsYXllcnMgYXJlIGFibGUgdG8gc3VibWl0IGJhdGNoZXMgaWYgdGhleSBhcmUgcHJvY2Vzc2luZyBhIGhpZ2ggdm9sdW1lIG9mIHJlcXVlc3RzLiBXaXRoIGhpZ2gKICogdGhyb3VnaHB1dCwgcmVsYXllcnMgbWF5IHJ1biBpbnRvIGxpbWl0YXRpb25zIG9mIHRoZSBjaGFpbiBzdWNoIGFzIGxpbWl0cyBvbiB0aGUgbnVtYmVyIG9mCiAqIHRyYW5zYWN0aW9ucyBpbiB0aGUgbWVtcG9vbC4gSW4gdGhlc2UgY2FzZXMgdGhlIHJlY29tbWVuZGF0aW9uIGlzIHRvIGRpc3RyaWJ1dGUgdGhlIGxvYWQgYW1vbmcKICogbXVsdGlwbGUgYWNjb3VudHMuCiAqCiAqIE5PVEU6IEJhdGNoaW5nIHJlcXVlc3RzIGluY2x1ZGVzIGFuIG9wdGlvbmFsIHJlZnVuZCBmb3IgdW51c2VkIGBtc2cudmFsdWVgIHRoYXQgaXMgYWNoaWV2ZWQgYnkKICogcGVyZm9ybWluZyBhIGNhbGwgd2l0aCBlbXB0eSBjYWxsZGF0YS4gV2hpbGUgdGhpcyBpcyB3aXRoaW4gdGhlIGJvdW5kcyBvZiBFUkMtMjc3MSBjb21wbGlhbmNlLAogKiBpZiB0aGUgcmVmdW5kIHJlY2VpdmVyIGhhcHBlbnMgdG8gY29uc2lkZXIgdGhlIGZvcndhcmRlciBhIHRydXN0ZWQgZm9yd2FyZGVyLCBpdCBNVVNUIHByb3Blcmx5CiAqIGhhbmRsZSBgbXNnLmRhdGEubGVuZ3RoID09IDBgLiBgRVJDMjc3MUNvbnRleHRgIGluIE9wZW5aZXBwZWxpbiBDb250cmFjdHMgdmVyc2lvbnMgcHJpb3IgdG8gNC45LjMKICogZG8gbm90IGhhbmRsZSB0aGlzIHByb3Blcmx5LgogKgogKiA9PT09IFNlY3VyaXR5IENvbnNpZGVyYXRpb25zCiAqCiAqIElmIGEgcmVsYXllciBzdWJtaXRzIGEgZm9yd2FyZCByZXF1ZXN0LCBpdCBzaG91bGQgYmUgd2lsbGluZyB0byBwYXkgdXAgdG8gMTAwJSBvZiB0aGUgZ2FzIGFtb3VudAogKiBzcGVjaWZpZWQgaW4gdGhlIHJlcXVlc3QuIFRoaXMgY29udHJhY3QgZG9lcyBub3QgaW1wbGVtZW50IGFueSBraW5kIG9mIHJldHJpYnV0aW9uIGZvciB0aGlzIGdhcywKICogYW5kIGl0IGlzIGFzc3VtZWQgdGhhdCB0aGVyZSBpcyBhbiBvdXQgb2YgYmFuZCBpbmNlbnRpdmUgZm9yIHJlbGF5ZXJzIHRvIHBheSBmb3IgZXhlY3V0aW9uIG9uCiAqIGJlaGFsZiBvZiBzaWduZXJzLiBPZnRlbiwgdGhlIHJlbGF5ZXIgaXMgb3BlcmF0ZWQgYnkgYSBwcm9qZWN0IHRoYXQgd2lsbCBjb25zaWRlciBpdCBhIHVzZXIKICogYWNxdWlzaXRpb24gY29zdC4KICoKICogQnkgb2ZmZXJpbmcgdG8gcGF5IGZvciBnYXMsIHJlbGF5ZXJzIGFyZSBhdCByaXNrIG9mIGhhdmluZyB0aGF0IGdhcyB1c2VkIGJ5IGFuIGF0dGFja2VyIHRvd2FyZAogKiBzb21lIG90aGVyIHB1cnBvc2UgdGhhdCBpcyBub3QgYWxpZ25lZCB3aXRoIHRoZSBleHBlY3RlZCBvdXQgb2YgYmFuZCBpbmNlbnRpdmVzLiBJZiB5b3Ugb3BlcmF0ZSBhCiAqIHJlbGF5ZXIsIGNvbnNpZGVyIHdoaXRlbGlzdGluZyB0YXJnZXQgY29udHJhY3RzIGFuZCBmdW5jdGlvbiBzZWxlY3RvcnMuIFdoZW4gcmVsYXlpbmcgRVJDLTcyMSBvcgogKiBFUkMtMTE1NSB0cmFuc2ZlcnMgc3BlY2lmaWNhbGx5LCBjb25zaWRlciByZWplY3RpbmcgdGhlIHVzZSBvZiB0aGUgYGRhdGFgIGZpZWxkLCBzaW5jZSBpdCBjYW4gYmUKICogdXNlZCB0byBleGVjdXRlIGFyYml0cmFyeSBjb2RlLgogKi8KY29udHJhY3QgRVJDMjc3MUZvcndhcmRlciBpcyBFSVA3MTIsIE5vbmNlcyB7CiAgICB1c2luZyBFQ0RTQSBmb3IgYnl0ZXMzMjsKCiAgICBzdHJ1Y3QgRm9yd2FyZFJlcXVlc3REYXRhIHsKICAgICAgICBhZGRyZXNzIGZyb207CiAgICAgICAgYWRkcmVzcyB0bzsKICAgICAgICB1aW50MjU2IHZhbHVlOwogICAgICAgIHVpbnQyNTYgZ2FzOwogICAgICAgIHVpbnQ0OCBkZWFkbGluZTsKICAgICAgICBieXRlcyBkYXRhOwogICAgICAgIGJ5dGVzIHNpZ25hdHVyZTsKICAgIH0KCiAgICBieXRlczMyIGludGVybmFsIGNvbnN0YW50IF9GT1JXQVJEX1JFUVVFU1RfVFlQRUhBU0ggPQogICAgICAgIGtlY2NhazI1NigKICAgICAgICAgICAgIkZvcndhcmRSZXF1ZXN0KGFkZHJlc3MgZnJvbSxhZGRyZXNzIHRvLHVpbnQyNTYgdmFsdWUsdWludDI1NiBnYXMsdWludDI1NiBub25jZSx1aW50NDggZGVhZGxpbmUsYnl0ZXMgZGF0YSkiCiAgICAgICAgKTsKCiAgICAvKioKICAgICAqIEBkZXYgRW1pdHRlZCB3aGVuIGEgYEZvcndhcmRSZXF1ZXN0YCBpcyBleGVjdXRlZC4KICAgICAqCiAgICAgKiBOT1RFOiBBbiB1bnN1Y2Nlc3NmdWwgZm9yd2FyZCByZXF1ZXN0IGNvdWxkIGJlIGR1ZSB0byBhbiBpbnZhbGlkIHNpZ25hdHVyZSwgYW4gZXhwaXJlZCBkZWFkbGluZSwKICAgICAqIG9yIHNpbXBseSBhIHJldmVydCBpbiB0aGUgcmVxdWVzdGVkIGNhbGwuIFRoZSBjb250cmFjdCBndWFyYW50ZWVzIHRoYXQgdGhlIHJlbGF5ZXIgaXMgbm90IGFibGUgdG8gZm9yY2UKICAgICAqIHRoZSByZXF1ZXN0ZWQgY2FsbCB0byBydW4gb3V0IG9mIGdhcy4KICAgICAqLwogICAgZXZlbnQgRXhlY3V0ZWRGb3J3YXJkUmVxdWVzdChhZGRyZXNzIGluZGV4ZWQgc2lnbmVyLCB1aW50MjU2IG5vbmNlLCBib29sIHN1Y2Nlc3MpOwoKICAgIC8qKgogICAgICogQGRldiBUaGUgcmVxdWVzdCBgZnJvbWAgZG9lc24ndCBtYXRjaCB3aXRoIHRoZSByZWNvdmVyZWQgYHNpZ25lcmAuCiAgICAgKi8KICAgIGVycm9yIEVSQzI3NzFGb3J3YXJkZXJJbnZhbGlkU2lnbmVyKGFkZHJlc3Mgc2lnbmVyLCBhZGRyZXNzIGZyb20pOwoKICAgIC8qKgogICAgICogQGRldiBUaGUgYHJlcXVlc3RlZFZhbHVlYCBkb2Vzbid0IG1hdGNoIHdpdGggdGhlIGF2YWlsYWJsZSBgbXNnVmFsdWVgLgogICAgICovCiAgICBlcnJvciBFUkMyNzcxRm9yd2FyZGVyTWlzbWF0Y2hlZFZhbHVlKHVpbnQyNTYgcmVxdWVzdGVkVmFsdWUsIHVpbnQyNTYgbXNnVmFsdWUpOwoKICAgIC8qKgogICAgICogQGRldiBUaGUgcmVxdWVzdCBgZGVhZGxpbmVgIGhhcyBleHBpcmVkLgogICAgICovCiAgICBlcnJvciBFUkMyNzcxRm9yd2FyZGVyRXhwaXJlZFJlcXVlc3QodWludDQ4IGRlYWRsaW5lKTsKCiAgICAvKioKICAgICAqIEBkZXYgVGhlIHJlcXVlc3QgdGFyZ2V0IGRvZXNuJ3QgdHJ1c3QgdGhlIGBmb3J3YXJkZXJgLgogICAgICovCiAgICBlcnJvciBFUkMyNzcxVW50cnVzdGZ1bFRhcmdldChhZGRyZXNzIHRhcmdldCwgYWRkcmVzcyBmb3J3YXJkZXIpOwoKICAgIC8qKgogICAgICogQGRldiBTZWUge0VJUDcxMi1jb25zdHJ1Y3Rvcn0uCiAgICAgKi8KICAgIGNvbnN0cnVjdG9yKHN0cmluZyBtZW1vcnkgbmFtZSkgRUlQNzEyKG5hbWUsICIxIikge30KCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyBgdHJ1ZWAgaWYgYSByZXF1ZXN0IGlzIHZhbGlkIGZvciBhIHByb3ZpZGVkIGBzaWduYXR1cmVgIGF0IHRoZSBjdXJyZW50IGJsb2NrIHRpbWVzdGFtcC4KICAgICAqCiAgICAgKiBBIHRyYW5zYWN0aW9uIGlzIGNvbnNpZGVyZWQgdmFsaWQgd2hlbiB0aGUgdGFyZ2V0IHRydXN0cyB0aGlzIGZvcndhcmRlciwgdGhlIHJlcXVlc3QgaGFzbid0IGV4cGlyZWQKICAgICAqIChkZWFkbGluZSBpcyBub3QgbWV0KSwgYW5kIHRoZSBzaWduZXIgbWF0Y2hlcyB0aGUgYGZyb21gIHBhcmFtZXRlciBvZiB0aGUgc2lnbmVkIHJlcXVlc3QuCiAgICAgKgogICAgICogTk9URTogQSByZXF1ZXN0IG1heSByZXR1cm4gZmFsc2UgaGVyZSBidXQgaXQgd29uJ3QgY2F1c2Uge2V4ZWN1dGVCYXRjaH0gdG8gcmV2ZXJ0IGlmIGEgcmVmdW5kCiAgICAgKiByZWNlaXZlciBpcyBwcm92aWRlZC4KICAgICAqLwogICAgZnVuY3Rpb24gdmVyaWZ5KEZvcndhcmRSZXF1ZXN0RGF0YSBjYWxsZGF0YSByZXF1ZXN0KSBwdWJsaWMgdmlldyB2aXJ0dWFsIHJldHVybnMgKGJvb2wpIHsKICAgICAgICAoYm9vbCBpc1RydXN0ZWRGb3J3YXJkZXIsIGJvb2wgYWN0aXZlLCBib29sIHNpZ25lck1hdGNoLCApID0gX3ZhbGlkYXRlKHJlcXVlc3QpOwogICAgICAgIHJldHVybiBpc1RydXN0ZWRGb3J3YXJkZXIgJiYgYWN0aXZlICYmIHNpZ25lck1hdGNoOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBFeGVjdXRlcyBhIGByZXF1ZXN0YCBvbiBiZWhhbGYgb2YgYHNpZ25hdHVyZWAncyBzaWduZXIgdXNpbmcgdGhlIEVSQy0yNzcxIHByb3RvY29sLiBUaGUgZ2FzCiAgICAgKiBwcm92aWRlZCB0byB0aGUgcmVxdWVzdGVkIGNhbGwgbWF5IG5vdCBiZSBleGFjdGx5IHRoZSBhbW91bnQgcmVxdWVzdGVkLCBidXQgdGhlIGNhbGwgd2lsbCBub3QgcnVuCiAgICAgKiBvdXQgb2YgZ2FzLiBXaWxsIHJldmVydCBpZiB0aGUgcmVxdWVzdCBpcyBpbnZhbGlkIG9yIHRoZSBjYWxsIHJldmVydHMsIGluIHRoaXMgY2FzZSB0aGUgbm9uY2UgaXMgbm90IGNvbnN1bWVkLgogICAgICoKICAgICAqIFJlcXVpcmVtZW50czoKICAgICAqCiAgICAgKiAtIFRoZSByZXF1ZXN0IHZhbHVlIHNob3VsZCBiZSBlcXVhbCB0byB0aGUgcHJvdmlkZWQgYG1zZy52YWx1ZWAuCiAgICAgKiAtIFRoZSByZXF1ZXN0IHNob3VsZCBiZSB2YWxpZCBhY2NvcmRpbmcgdG8ge3ZlcmlmeX0uCiAgICAgKi8KICAgIGZ1bmN0aW9uIGV4ZWN1dGUoRm9yd2FyZFJlcXVlc3REYXRhIGNhbGxkYXRhIHJlcXVlc3QpIHB1YmxpYyBwYXlhYmxlIHZpcnR1YWwgewogICAgICAgIC8vIFdlIG1ha2Ugc3VyZSB0aGF0IG1zZy52YWx1ZSBhbmQgcmVxdWVzdC52YWx1ZSBtYXRjaCBleGFjdGx5LgogICAgICAgIC8vIElmIHRoZSByZXF1ZXN0IGlzIGludmFsaWQgb3IgdGhlIGNhbGwgcmV2ZXJ0cywgdGhpcyB3aG9sZSBmdW5jdGlvbgogICAgICAgIC8vIHdpbGwgcmV2ZXJ0LCBlbnN1cmluZyB2YWx1ZSBpc24ndCBzdHVjay4KICAgICAgICBpZiAobXNnLnZhbHVlICE9IHJlcXVlc3QudmFsdWUpIHsKICAgICAgICAgICAgcmV2ZXJ0IEVSQzI3NzFGb3J3YXJkZXJNaXNtYXRjaGVkVmFsdWUocmVxdWVzdC52YWx1ZSwgbXNnLnZhbHVlKTsKICAgICAgICB9CgogICAgICAgIGlmICghX2V4ZWN1dGUocmVxdWVzdCwgdHJ1ZSkpIHsKICAgICAgICAgICAgcmV2ZXJ0IEVycm9ycy5GYWlsZWRDYWxsKCk7CiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICogQGRldiBCYXRjaCB2ZXJzaW9uIG9mIHtleGVjdXRlfSB3aXRoIG9wdGlvbmFsIHJlZnVuZGluZyBhbmQgYXRvbWljIGV4ZWN1dGlvbi4KICAgICAqCiAgICAgKiBJbiBjYXNlIGEgYmF0Y2ggY29udGFpbnMgYXQgbGVhc3Qgb25lIGludmFsaWQgcmVxdWVzdCAoc2VlIHt2ZXJpZnl9KSwgdGhlCiAgICAgKiByZXF1ZXN0IHdpbGwgYmUgc2tpcHBlZCBhbmQgdGhlIGByZWZ1bmRSZWNlaXZlcmAgcGFyYW1ldGVyIHdpbGwgcmVjZWl2ZSBiYWNrIHRoZQogICAgICogdW51c2VkIHJlcXVlc3RlZCB2YWx1ZSBhdCB0aGUgZW5kIG9mIHRoZSBleGVjdXRpb24uIFRoaXMgaXMgZG9uZSB0byBwcmV2ZW50IHJldmVydGluZwogICAgICogdGhlIGVudGlyZSBiYXRjaCB3aGVuIGEgcmVxdWVzdCBpcyBpbnZhbGlkIG9yIGhhcyBhbHJlYWR5IGJlZW4gc3VibWl0dGVkLgogICAgICoKICAgICAqIElmIHRoZSBgcmVmdW5kUmVjZWl2ZXJgIGlzIHRoZSBgYWRkcmVzcygwKWAsIHRoaXMgZnVuY3Rpb24gd2lsbCByZXZlcnQgd2hlbiBhdCBsZWFzdAogICAgICogb25lIG9mIHRoZSByZXF1ZXN0cyB3YXMgbm90IHZhbGlkIGluc3RlYWQgb2Ygc2tpcHBpbmcgaXQuIFRoaXMgY291bGQgYmUgdXNlZnVsIGlmCiAgICAgKiBhIGJhdGNoIGlzIHJlcXVpcmVkIHRvIGdldCBleGVjdXRlZCBhdG9taWNhbGx5IChhdCBsZWFzdCBhdCB0aGUgdG9wLWxldmVsKS4gRm9yIGV4YW1wbGUsCiAgICAgKiByZWZ1bmRpbmcgKGFuZCB0aHVzIGF0b21pY2l0eSkgY2FuIGJlIG9wdC1vdXQgaWYgdGhlIHJlbGF5ZXIgaXMgdXNpbmcgYSBzZXJ2aWNlIHRoYXQgYXZvaWRzCiAgICAgKiBpbmNsdWRpbmcgcmV2ZXJ0ZWQgdHJhbnNhY3Rpb25zLgogICAgICoKICAgICAqIFJlcXVpcmVtZW50czoKICAgICAqCiAgICAgKiAtIFRoZSBzdW0gb2YgdGhlIHJlcXVlc3RzJyB2YWx1ZXMgc2hvdWxkIGJlIGVxdWFsIHRvIHRoZSBwcm92aWRlZCBgbXNnLnZhbHVlYC4KICAgICAqIC0gQWxsIG9mIHRoZSByZXF1ZXN0cyBzaG91bGQgYmUgdmFsaWQgKHNlZSB7dmVyaWZ5fSkgd2hlbiBgcmVmdW5kUmVjZWl2ZXJgIGlzIHRoZSB6ZXJvIGFkZHJlc3MuCiAgICAgKgogICAgICogTk9URTogU2V0dGluZyBhIHplcm8gYHJlZnVuZFJlY2VpdmVyYCBndWFyYW50ZWVzIGFuIGFsbC1vci1ub3RoaW5nIHJlcXVlc3RzIGV4ZWN1dGlvbiBvbmx5IGZvcgogICAgICogdGhlIGZpcnN0LWxldmVsIGZvcndhcmRlZCBjYWxscy4gSW4gY2FzZSBhIGZvcndhcmRlZCByZXF1ZXN0IGNhbGxzIHRvIGEgY29udHJhY3Qgd2l0aCBhbm90aGVyCiAgICAgKiBzdWJjYWxsLCB0aGUgc2Vjb25kLWxldmVsIGNhbGwgbWF5IHJldmVydCB3aXRob3V0IHRoZSB0b3AtbGV2ZWwgY2FsbCByZXZlcnRpbmcuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGV4ZWN1dGVCYXRjaCgKICAgICAgICBGb3J3YXJkUmVxdWVzdERhdGFbXSBjYWxsZGF0YSByZXF1ZXN0cywKICAgICAgICBhZGRyZXNzIHBheWFibGUgcmVmdW5kUmVjZWl2ZXIKICAgICkgcHVibGljIHBheWFibGUgdmlydHVhbCB7CiAgICAgICAgYm9vbCBhdG9taWMgPSByZWZ1bmRSZWNlaXZlciA9PSBhZGRyZXNzKDApOwoKICAgICAgICB1aW50MjU2IHJlcXVlc3RzVmFsdWU7CiAgICAgICAgdWludDI1NiByZWZ1bmRWYWx1ZTsKCiAgICAgICAgZm9yICh1aW50MjU2IGk7IGkgPCByZXF1ZXN0cy5sZW5ndGg7ICsraSkgewogICAgICAgICAgICByZXF1ZXN0c1ZhbHVlICs9IHJlcXVlc3RzW2ldLnZhbHVlOwogICAgICAgICAgICBib29sIHN1Y2Nlc3MgPSBfZXhlY3V0ZShyZXF1ZXN0c1tpXSwgYXRvbWljKTsKICAgICAgICAgICAgaWYgKCFzdWNjZXNzKSB7CiAgICAgICAgICAgICAgICByZWZ1bmRWYWx1ZSArPSByZXF1ZXN0c1tpXS52YWx1ZTsKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgLy8gVGhlIGJhdGNoIHNob3VsZCByZXZlcnQgaWYgdGhlcmUncyBhIG1pc21hdGNoZWQgbXNnLnZhbHVlIHByb3ZpZGVkCiAgICAgICAgLy8gdG8gYXZvaWQgcmVxdWVzdCB2YWx1ZSB0YW1wZXJpbmcKICAgICAgICBpZiAocmVxdWVzdHNWYWx1ZSAhPSBtc2cudmFsdWUpIHsKICAgICAgICAgICAgcmV2ZXJ0IEVSQzI3NzFGb3J3YXJkZXJNaXNtYXRjaGVkVmFsdWUocmVxdWVzdHNWYWx1ZSwgbXNnLnZhbHVlKTsKICAgICAgICB9CgogICAgICAgIC8vIFNvbWUgcmVxdWVzdHMgd2l0aCB2YWx1ZSB3ZXJlIGludmFsaWQgKHBvc3NpYmx5IGR1ZSB0byBmcm9udHJ1bm5pbmcpLgogICAgICAgIC8vIFRvIGF2b2lkIGxlYXZpbmcgRVRIIGluIHRoZSBjb250cmFjdCB0aGlzIHZhbHVlIGlzIHJlZnVuZGVkLgogICAgICAgIGlmIChyZWZ1bmRWYWx1ZSAhPSAwKSB7CiAgICAgICAgICAgIC8vIFdlIGtub3cgcmVmdW5kUmVjZWl2ZXIgIT0gYWRkcmVzcygwKSAmJiByZXF1ZXN0c1ZhbHVlID09IG1zZy52YWx1ZQogICAgICAgICAgICAvLyBtZWFuaW5nIHdlIGNhbiBlbnN1cmUgcmVmdW5kVmFsdWUgaXMgbm90IHRha2VuIGZyb20gdGhlIG9yaWdpbmFsIGNvbnRyYWN0J3MgYmFsYW5jZQogICAgICAgICAgICAvLyBhbmQgcmVmdW5kUmVjZWl2ZXIgaXMgYSBrbm93biBhY2NvdW50LgogICAgICAgICAgICBBZGRyZXNzLnNlbmRWYWx1ZShyZWZ1bmRSZWNlaXZlciwgcmVmdW5kVmFsdWUpOwogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgVmFsaWRhdGVzIGlmIHRoZSBwcm92aWRlZCByZXF1ZXN0IGNhbiBiZSBleGVjdXRlZCBhdCBjdXJyZW50IGJsb2NrIHRpbWVzdGFtcCB3aXRoCiAgICAgKiB0aGUgZ2l2ZW4gYHJlcXVlc3Quc2lnbmF0dXJlYCBvbiBiZWhhbGYgb2YgYHJlcXVlc3Quc2lnbmVyYC4KICAgICAqLwogICAgZnVuY3Rpb24gX3ZhbGlkYXRlKAogICAgICAgIEZvcndhcmRSZXF1ZXN0RGF0YSBjYWxsZGF0YSByZXF1ZXN0CiAgICApIGludGVybmFsIHZpZXcgdmlydHVhbCByZXR1cm5zIChib29sIGlzVHJ1c3RlZEZvcndhcmRlciwgYm9vbCBhY3RpdmUsIGJvb2wgc2lnbmVyTWF0Y2gsIGFkZHJlc3Mgc2lnbmVyKSB7CiAgICAgICAgKGJvb2wgaXNWYWxpZCwgYWRkcmVzcyByZWNvdmVyZWQpID0gX3JlY292ZXJGb3J3YXJkUmVxdWVzdFNpZ25lcihyZXF1ZXN0KTsKCiAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgX2lzVHJ1c3RlZEJ5VGFyZ2V0KHJlcXVlc3QudG8pLAogICAgICAgICAgICByZXF1ZXN0LmRlYWRsaW5lID49IGJsb2NrLnRpbWVzdGFtcCwKICAgICAgICAgICAgaXNWYWxpZCAmJiByZWNvdmVyZWQgPT0gcmVxdWVzdC5mcm9tLAogICAgICAgICAgICByZWNvdmVyZWQKICAgICAgICApOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBSZXR1cm5zIGEgdHVwbGUgd2l0aCB0aGUgcmVjb3ZlcmVkIHRoZSBzaWduZXIgb2YgYW4gRUlQNzEyIGZvcndhcmQgcmVxdWVzdCBtZXNzYWdlIGhhc2gKICAgICAqIGFuZCBhIGJvb2xlYW4gaW5kaWNhdGluZyBpZiB0aGUgc2lnbmF0dXJlIGlzIHZhbGlkLgogICAgICoKICAgICAqIE5PVEU6IFRoZSBzaWduYXR1cmUgaXMgY29uc2lkZXJlZCB2YWxpZCBpZiB7RUNEU0EtdHJ5UmVjb3Zlcn0gaW5kaWNhdGVzIG5vIHJlY292ZXIgZXJyb3IgZm9yIGl0LgogICAgICovCiAgICBmdW5jdGlvbiBfcmVjb3ZlckZvcndhcmRSZXF1ZXN0U2lnbmVyKAogICAgICAgIEZvcndhcmRSZXF1ZXN0RGF0YSBjYWxsZGF0YSByZXF1ZXN0CiAgICApIGludGVybmFsIHZpZXcgdmlydHVhbCByZXR1cm5zIChib29sIGlzVmFsaWQsIGFkZHJlc3Mgc2lnbmVyKSB7CiAgICAgICAgKGFkZHJlc3MgcmVjb3ZlcmVkLCBFQ0RTQS5SZWNvdmVyRXJyb3IgZXJyLCApID0gX2hhc2hUeXBlZERhdGFWNCgKICAgICAgICAgICAga2VjY2FrMjU2KAogICAgICAgICAgICAgICAgYWJpLmVuY29kZSgKICAgICAgICAgICAgICAgICAgICBfRk9SV0FSRF9SRVFVRVNUX1RZUEVIQVNILAogICAgICAgICAgICAgICAgICAgIHJlcXVlc3QuZnJvbSwKICAgICAgICAgICAgICAgICAgICByZXF1ZXN0LnRvLAogICAgICAgICAgICAgICAgICAgIHJlcXVlc3QudmFsdWUsCiAgICAgICAgICAgICAgICAgICAgcmVxdWVzdC5nYXMsCiAgICAgICAgICAgICAgICAgICAgbm9uY2VzKHJlcXVlc3QuZnJvbSksCiAgICAgICAgICAgICAgICAgICAgcmVxdWVzdC5kZWFkbGluZSwKICAgICAgICAgICAgICAgICAgICBrZWNjYWsyNTYocmVxdWVzdC5kYXRhKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICApCiAgICAgICAgKS50cnlSZWNvdmVyKHJlcXVlc3Quc2lnbmF0dXJlKTsKCiAgICAgICAgcmV0dXJuIChlcnIgPT0gRUNEU0EuUmVjb3ZlckVycm9yLk5vRXJyb3IsIHJlY292ZXJlZCk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFZhbGlkYXRlcyBhbmQgZXhlY3V0ZXMgYSBzaWduZWQgcmVxdWVzdCByZXR1cm5pbmcgdGhlIHJlcXVlc3QgY2FsbCBgc3VjY2Vzc2AgdmFsdWUuCiAgICAgKgogICAgICogSW50ZXJuYWwgZnVuY3Rpb24gd2l0aG91dCBtc2cudmFsdWUgdmFsaWRhdGlvbi4KICAgICAqCiAgICAgKiBSZXF1aXJlbWVudHM6CiAgICAgKgogICAgICogLSBUaGUgY2FsbGVyIG11c3QgaGF2ZSBwcm92aWRlZCBlbm91Z2ggZ2FzIHRvIGZvcndhcmQgd2l0aCB0aGUgY2FsbC4KICAgICAqIC0gVGhlIHJlcXVlc3QgbXVzdCBiZSB2YWxpZCAoc2VlIHt2ZXJpZnl9KSBpZiB0aGUgYHJlcXVpcmVWYWxpZFJlcXVlc3RgIGlzIHRydWUuCiAgICAgKgogICAgICogRW1pdHMgYW4ge0V4ZWN1dGVkRm9yd2FyZFJlcXVlc3R9IGV2ZW50LgogICAgICoKICAgICAqIElNUE9SVEFOVDogVXNpbmcgdGhpcyBmdW5jdGlvbiBkb2Vzbid0IGNoZWNrIHRoYXQgYWxsIHRoZSBgbXNnLnZhbHVlYCB3YXMgc2VudCwgcG90ZW50aWFsbHkKICAgICAqIGxlYXZpbmcgdmFsdWUgc3R1Y2sgaW4gdGhlIGNvbnRyYWN0LgogICAgICovCiAgICBmdW5jdGlvbiBfZXhlY3V0ZSgKICAgICAgICBGb3J3YXJkUmVxdWVzdERhdGEgY2FsbGRhdGEgcmVxdWVzdCwKICAgICAgICBib29sIHJlcXVpcmVWYWxpZFJlcXVlc3QKICAgICkgaW50ZXJuYWwgdmlydHVhbCByZXR1cm5zIChib29sIHN1Y2Nlc3MpIHsKICAgICAgICAoYm9vbCBpc1RydXN0ZWRGb3J3YXJkZXIsIGJvb2wgYWN0aXZlLCBib29sIHNpZ25lck1hdGNoLCBhZGRyZXNzIHNpZ25lcikgPSBfdmFsaWRhdGUocmVxdWVzdCk7CgogICAgICAgIC8vIE5lZWQgdG8gZXhwbGljaXRseSBzcGVjaWZ5IGlmIGEgcmV2ZXJ0IGlzIHJlcXVpcmVkIHNpbmNlIG5vbi1yZXZlcnRpbmcgaXMgZGVmYXVsdCBmb3IKICAgICAgICAvLyBiYXRjaGVzIGFuZCByZXZlcnNpb24gaXMgb3B0LWluIHNpbmNlIGl0IGNvdWxkIGJlIHVzZWZ1bCBpbiBzb21lIHNjZW5hcmlvcwogICAgICAgIGlmIChyZXF1aXJlVmFsaWRSZXF1ZXN0KSB7CiAgICAgICAgICAgIGlmICghaXNUcnVzdGVkRm9yd2FyZGVyKSB7CiAgICAgICAgICAgICAgICByZXZlcnQgRVJDMjc3MVVudHJ1c3RmdWxUYXJnZXQocmVxdWVzdC50bywgYWRkcmVzcyh0aGlzKSk7CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGlmICghYWN0aXZlKSB7CiAgICAgICAgICAgICAgICByZXZlcnQgRVJDMjc3MUZvcndhcmRlckV4cGlyZWRSZXF1ZXN0KHJlcXVlc3QuZGVhZGxpbmUpOwogICAgICAgICAgICB9CgogICAgICAgICAgICBpZiAoIXNpZ25lck1hdGNoKSB7CiAgICAgICAgICAgICAgICByZXZlcnQgRVJDMjc3MUZvcndhcmRlckludmFsaWRTaWduZXIoc2lnbmVyLCByZXF1ZXN0LmZyb20pOwogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICAvLyBJZ25vcmUgYW4gaW52YWxpZCByZXF1ZXN0IGJlY2F1c2UgcmVxdWlyZVZhbGlkUmVxdWVzdCA9IGZhbHNlCiAgICAgICAgaWYgKGlzVHJ1c3RlZEZvcndhcmRlciAmJiBzaWduZXJNYXRjaCAmJiBhY3RpdmUpIHsKICAgICAgICAgICAgLy8gTm9uY2Ugc2hvdWxkIGJlIHVzZWQgYmVmb3JlIHRoZSBjYWxsIHRvIHByZXZlbnQgcmV1c2luZyBieSByZWVudHJhbmN5CiAgICAgICAgICAgIHVpbnQyNTYgY3VycmVudE5vbmNlID0gX3VzZU5vbmNlKHNpZ25lcik7CgogICAgICAgICAgICB1aW50MjU2IHJlcUdhcyA9IHJlcXVlc3QuZ2FzOwogICAgICAgICAgICBhZGRyZXNzIHRvID0gcmVxdWVzdC50bzsKICAgICAgICAgICAgdWludDI1NiB2YWx1ZSA9IHJlcXVlc3QudmFsdWU7CiAgICAgICAgICAgIGJ5dGVzIG1lbW9yeSBkYXRhID0gYWJpLmVuY29kZVBhY2tlZChyZXF1ZXN0LmRhdGEsIHJlcXVlc3QuZnJvbSk7CgogICAgICAgICAgICB1aW50MjU2IGdhc0xlZnQ7CgogICAgICAgICAgICBhc3NlbWJseSAoIm1lbW9yeS1zYWZlIikgewogICAgICAgICAgICAgICAgc3VjY2VzcyA6PSBjYWxsKHJlcUdhcywgdG8sIHZhbHVlLCBhZGQoZGF0YSwgMHgyMCksIG1sb2FkKGRhdGEpLCAwLCAwKQogICAgICAgICAgICAgICAgZ2FzTGVmdCA6PSBnYXMoKQogICAgICAgICAgICB9CgogICAgICAgICAgICBfY2hlY2tGb3J3YXJkZWRHYXMoZ2FzTGVmdCwgcmVxdWVzdCk7CgogICAgICAgICAgICBlbWl0IEV4ZWN1dGVkRm9yd2FyZFJlcXVlc3Qoc2lnbmVyLCBjdXJyZW50Tm9uY2UsIHN1Y2Nlc3MpOwogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyB3aGV0aGVyIHRoZSB0YXJnZXQgdHJ1c3RzIHRoaXMgZm9yd2FyZGVyLgogICAgICoKICAgICAqIFRoaXMgZnVuY3Rpb24gcGVyZm9ybXMgYSBzdGF0aWMgY2FsbCB0byB0aGUgdGFyZ2V0IGNvbnRyYWN0IGNhbGxpbmcgdGhlCiAgICAgKiB7RVJDMjc3MUNvbnRleHQtaXNUcnVzdGVkRm9yd2FyZGVyfSBmdW5jdGlvbi4KICAgICAqLwogICAgZnVuY3Rpb24gX2lzVHJ1c3RlZEJ5VGFyZ2V0KGFkZHJlc3MgdGFyZ2V0KSBwcml2YXRlIHZpZXcgcmV0dXJucyAoYm9vbCkgewogICAgICAgIGJ5dGVzIG1lbW9yeSBlbmNvZGVkUGFyYW1zID0gYWJpLmVuY29kZUNhbGwoRVJDMjc3MUNvbnRleHQuaXNUcnVzdGVkRm9yd2FyZGVyLCAoYWRkcmVzcyh0aGlzKSkpOwoKICAgICAgICBib29sIHN1Y2Nlc3M7CiAgICAgICAgdWludDI1NiByZXR1cm5TaXplOwogICAgICAgIHVpbnQyNTYgcmV0dXJuVmFsdWU7CiAgICAgICAgYXNzZW1ibHkgKCJtZW1vcnktc2FmZSIpIHsKICAgICAgICAgICAgLy8gUGVyZm9ybSB0aGUgc3RhdGljY2FsbCBhbmQgc2F2ZSB0aGUgcmVzdWx0IGluIHRoZSBzY3JhdGNoIHNwYWNlLgogICAgICAgICAgICAvLyB8IExvY2F0aW9uICB8IENvbnRlbnQgIHwgQ29udGVudCAoSGV4KSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKICAgICAgICAgICAgLy8gfC0tLS0tLS0tLS0tfC0tLS0tLS0tLS18LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS18CiAgICAgICAgICAgIC8vIHwgICAgICAgICAgIHwgICAgICAgICAgfCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVzdWx0IOKGkyB8CiAgICAgICAgICAgIC8vIHwgMHgwMDoweDFGIHwgc2VsZWN0b3IgfCAweDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDEgfAogICAgICAgICAgICBzdWNjZXNzIDo9IHN0YXRpY2NhbGwoZ2FzKCksIHRhcmdldCwgYWRkKGVuY29kZWRQYXJhbXMsIDB4MjApLCBtbG9hZChlbmNvZGVkUGFyYW1zKSwgMCwgMHgyMCkKICAgICAgICAgICAgcmV0dXJuU2l6ZSA6PSByZXR1cm5kYXRhc2l6ZSgpCiAgICAgICAgICAgIHJldHVyblZhbHVlIDo9IG1sb2FkKDApCiAgICAgICAgfQoKICAgICAgICByZXR1cm4gc3VjY2VzcyAmJiByZXR1cm5TaXplID49IDB4MjAgJiYgcmV0dXJuVmFsdWUgPiAwOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBDaGVja3MgaWYgdGhlIHJlcXVlc3RlZCBnYXMgd2FzIGNvcnJlY3RseSBmb3J3YXJkZWQgdG8gdGhlIGNhbGxlZS4KICAgICAqCiAgICAgKiBBcyBhIGNvbnNlcXVlbmNlIG9mIGh0dHBzOi8vZWlwcy5ldGhlcmV1bS5vcmcvRUlQUy9laXAtMTUwW0VJUC0xNTBdOgogICAgICogLSBBdCBtb3N0IGBnYXNsZWZ0KCkgLSBmbG9vcihnYXNsZWZ0KCkgLyA2NClgIGlzIGZvcndhcmRlZCB0byB0aGUgY2FsbGVlLgogICAgICogLSBBdCBsZWFzdCBgZmxvb3IoZ2FzbGVmdCgpIC8gNjQpYCBpcyBrZXB0IGluIHRoZSBjYWxsZXIuCiAgICAgKgogICAgICogSXQgcmV2ZXJ0cyBjb25zdW1pbmcgYWxsIHRoZSBhdmFpbGFibGUgZ2FzIGlmIHRoZSBmb3J3YXJkZWQgZ2FzIGlzIG5vdCB0aGUgcmVxdWVzdGVkIGdhcy4KICAgICAqCiAgICAgKiBJTVBPUlRBTlQ6IFRoZSBgZ2FzTGVmdGAgcGFyYW1ldGVyIHNob3VsZCBiZSBtZWFzdXJlZCBleGFjdGx5IGF0IHRoZSBlbmQgb2YgdGhlIGZvcndhcmRlZCBjYWxsLgogICAgICogQW55IGdhcyBjb25zdW1lZCBpbiBiZXR3ZWVuIHdpbGwgbWFrZSByb29tIGZvciBieXBhc3NpbmcgdGhpcyBjaGVjay4KICAgICAqLwogICAgZnVuY3Rpb24gX2NoZWNrRm9yd2FyZGVkR2FzKHVpbnQyNTYgZ2FzTGVmdCwgRm9yd2FyZFJlcXVlc3REYXRhIGNhbGxkYXRhIHJlcXVlc3QpIHByaXZhdGUgcHVyZSB7CiAgICAgICAgLy8gVG8gYXZvaWQgaW5zdWZmaWNpZW50IGdhcyBncmllZmluZyBhdHRhY2tzLCBhcyByZWZlcmVuY2VkIGluIGh0dHBzOi8vcm9uYW4uZXRoLmxpbW8vYmxvZy9ldGhlcmV1bS1nYXMtZGFuZ2Vycy8KICAgICAgICAvLwogICAgICAgIC8vIEEgbWFsaWNpb3VzIHJlbGF5ZXIgY2FuIGF0dGVtcHQgdG8gc2hyaW5rIHRoZSBnYXMgZm9yd2FyZGVkIHNvIHRoYXQgdGhlIHVuZGVybHlpbmcgY2FsbCByZXZlcnRzIG91dC1vZi1nYXMKICAgICAgICAvLyBidXQgdGhlIGZvcndhcmRpbmcgaXRzZWxmIHN0aWxsIHN1Y2NlZWRzLiBJbiBvcmRlciB0byBtYWtlIHN1cmUgdGhhdCB0aGUgc3ViY2FsbCByZWNlaXZlZCBzdWZmaWNpZW50IGdhcywKICAgICAgICAvLyB3ZSB3aWxsIGluc3BlY3QgZ2FzbGVmdCgpIGFmdGVyIHRoZSBmb3J3YXJkaW5nLgogICAgICAgIC8vCiAgICAgICAgLy8gTGV0IFggYmUgdGhlIGdhcyBhdmFpbGFibGUgYmVmb3JlIHRoZSBzdWJjYWxsLCBzdWNoIHRoYXQgdGhlIHN1YmNhbGwgZ2V0cyBhdCBtb3N0IFggKiA2MyAvIDY0LgogICAgICAgIC8vIFdlIGNhbid0IGtub3cgWCBhZnRlciBDQUxMIGR5bmFtaWMgY29zdHMsIGJ1dCB3ZSB3YW50IGl0IHRvIGJlIHN1Y2ggdGhhdCBYICogNjMgLyA2NCA+PSByZXEuZ2FzLgogICAgICAgIC8vIExldCBZIGJlIHRoZSBnYXMgdXNlZCBpbiB0aGUgc3ViY2FsbC4gZ2FzbGVmdCgpIG1lYXN1cmVkIGltbWVkaWF0ZWx5IGFmdGVyIHRoZSBzdWJjYWxsIHdpbGwgYmUgZ2FzbGVmdCgpID0gWCAtIFkuCiAgICAgICAgLy8gSWYgdGhlIHN1YmNhbGwgcmFuIG91dCBvZiBnYXMsIHRoZW4gWSA9IFggKiA2MyAvIDY0IGFuZCBnYXNsZWZ0KCkgPSBYIC0gWSA9IFggLyA2NC4KICAgICAgICAvLyBVbmRlciB0aGlzIGFzc3VtcHRpb24gcmVxLmdhcyAvIDYzID4gZ2FzbGVmdCgpIGlzIHRydWUgaWYgYW5kIG9ubHkgaWYKICAgICAgICAvLyByZXEuZ2FzIC8gNjMgPiBYIC8gNjQsIG9yIGVxdWl2YWxlbnRseSByZXEuZ2FzID4gWCAqIDYzIC8gNjQuCiAgICAgICAgLy8gVGhpcyBtZWFucyB0aGF0IGlmIHRoZSBzdWJjYWxsIHJ1bnMgb3V0IG9mIGdhcyB3ZSBhcmUgYWJsZSB0byBkZXRlY3QgdGhhdCBpbnN1ZmZpY2llbnQgZ2FzIHdhcyBwYXNzZWQuCiAgICAgICAgLy8KICAgICAgICAvLyBXZSB3aWxsIG5vdyBhbHNvIHNlZSB0aGF0IHJlcS5nYXMgLyA2MyA+IGdhc2xlZnQoKSBpbXBsaWVzIHRoYXQgcmVxLmdhcyA+PSBYICogNjMgLyA2NC4KICAgICAgICAvLyBUaGUgY29udHJhY3QgZ3VhcmFudGVlcyBZIDw9IHJlcS5nYXMsIHRodXMgZ2FzbGVmdCgpID0gWCAtIFkgPj0gWCAtIHJlcS5nYXMuCiAgICAgICAgLy8gLSAgICByZXEuZ2FzIC8gNjMgPiBnYXNsZWZ0KCkKICAgICAgICAvLyAtICAgIHJlcS5nYXMgLyA2MyA+PSBYIC0gcmVxLmdhcwogICAgICAgIC8vIC0gICAgcmVxLmdhcyA+PSBYICogNjMgLyA2NAogICAgICAgIC8vIEluIG90aGVyIHdvcmRzIGlmIHJlcS5nYXMgPCBYICogNjMgLyA2NCB0aGVuIHJlcS5nYXMgLyA2MyA8PSBnYXNsZWZ0KCksIHRodXMgaWYgdGhlIHJlbGF5ZXIgYmVoYXZlcyBob25lc3RseQogICAgICAgIC8vIHRoZSBmb3J3YXJkaW5nIGRvZXMgbm90IHJldmVydC4KICAgICAgICBpZiAoZ2FzTGVmdCA8IHJlcXVlc3QuZ2FzIC8gNjMpIHsKICAgICAgICAgICAgLy8gV2UgZXhwbGljaXRseSB0cmlnZ2VyIGludmFsaWQgb3Bjb2RlIHRvIGNvbnN1bWUgYWxsIGdhcyBhbmQgYnViYmxlLXVwIHRoZSBlZmZlY3RzLCBzaW5jZQogICAgICAgICAgICAvLyBuZWl0aGVyIHJldmVydCBvciBhc3NlcnQgY29uc3VtZSBhbGwgZ2FzIHNpbmNlIFNvbGlkaXR5IDAuOC4yMAogICAgICAgICAgICAvLyBodHRwczovL2RvY3Muc29saWRpdHlsYW5nLm9yZy9lbi92MC44LjIwL2NvbnRyb2wtc3RydWN0dXJlcy5odG1sI3BhbmljLXZpYS1hc3NlcnQtYW5kLWVycm9yLXZpYS1yZXF1aXJlCiAgICAgICAgICAgIGFzc2VtYmx5ICgibWVtb3J5LXNhZmUiKSB7CiAgICAgICAgICAgICAgICBpbnZhbGlkKCkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (metatx/ERC2771Forwarder.sol)
+
+pragma solidity ^0.8.20;
+
+import {ERC2771Context} from "./ERC2771Context.sol";
+import {ECDSA} from "../utils/cryptography/ECDSA.sol";
+import {EIP712} from "../utils/cryptography/EIP712.sol";
+import {Nonces} from "../utils/Nonces.sol";
+import {Address} from "../utils/Address.sol";
+import {Errors} from "../utils/Errors.sol";
+
+/**
+ * @dev A forwarder compatible with ERC-2771 contracts. See {ERC2771Context}.
+ *
+ * This forwarder operates on forward requests that include:
+ *
+ * * `from`: An address to operate on behalf of. It is required to be equal to the request signer.
+ * * `to`: The address that should be called.
+ * * `value`: The amount of native token to attach with the requested call.
+ * * `gas`: The amount of gas limit that will be forwarded with the requested call.
+ * * `nonce`: A unique transaction ordering identifier to avoid replayability and request invalidation.
+ * * `deadline`: A timestamp after which the request is not executable anymore.
+ * * `data`: Encoded `msg.data` to send with the requested call.
+ *
+ * Relayers are able to submit batches if they are processing a high volume of requests. With high
+ * throughput, relayers may run into limitations of the chain such as limits on the number of
+ * transactions in the mempool. In these cases the recommendation is to distribute the load among
+ * multiple accounts.
+ *
+ * NOTE: Batching requests includes an optional refund for unused `msg.value` that is achieved by
+ * performing a call with empty calldata. While this is within the bounds of ERC-2771 compliance,
+ * if the refund receiver happens to consider the forwarder a trusted forwarder, it MUST properly
+ * handle `msg.data.length == 0`. `ERC2771Context` in OpenZeppelin Contracts versions prior to 4.9.3
+ * do not handle this properly.
+ *
+ * ==== Security Considerations
+ *
+ * If a relayer submits a forward request, it should be willing to pay up to 100% of the gas amount
+ * specified in the request. This contract does not implement any kind of retribution for this gas,
+ * and it is assumed that there is an out of band incentive for relayers to pay for execution on
+ * behalf of signers. Often, the relayer is operated by a project that will consider it a user
+ * acquisition cost.
+ *
+ * By offering to pay for gas, relayers are at risk of having that gas used by an attacker toward
+ * some other purpose that is not aligned with the expected out of band incentives. If you operate a
+ * relayer, consider whitelisting target contracts and function selectors. When relaying ERC-721 or
+ * ERC-1155 transfers specifically, consider rejecting the use of the `data` field, since it can be
+ * used to execute arbitrary code.
+ */
+contract ERC2771Forwarder is EIP712, Nonces {
+    using ECDSA for bytes32;
+
+    struct ForwardRequestData {
+        address from;
+        address to;
+        uint256 value;
+        uint256 gas;
+        uint48 deadline;
+        bytes data;
+        bytes signature;
+    }
+
+    bytes32 internal constant _FORWARD_REQUEST_TYPEHASH =
+        keccak256(
+            "ForwardRequest(address from,address to,uint256 value,uint256 gas,uint256 nonce,uint48 deadline,bytes data)"
+        );
+
+    /**
+     * @dev Emitted when a `ForwardRequest` is executed.
+     *
+     * NOTE: An unsuccessful forward request could be due to an invalid signature, an expired deadline,
+     * or simply a revert in the requested call. The contract guarantees that the relayer is not able to force
+     * the requested call to run out of gas.
+     */
+    event ExecutedForwardRequest(address indexed signer, uint256 nonce, bool success);
+
+    /**
+     * @dev The request `from` doesn't match with the recovered `signer`.
+     */
+    error ERC2771ForwarderInvalidSigner(address signer, address from);
+
+    /**
+     * @dev The `requestedValue` doesn't match with the available `msgValue`.
+     */
+    error ERC2771ForwarderMismatchedValue(uint256 requestedValue, uint256 msgValue);
+
+    /**
+     * @dev The request `deadline` has expired.
+     */
+    error ERC2771ForwarderExpiredRequest(uint48 deadline);
+
+    /**
+     * @dev The request target doesn't trust the `forwarder`.
+     */
+    error ERC2771UntrustfulTarget(address target, address forwarder);
+
+    /**
+     * @dev See {EIP712-constructor}.
+     */
+    constructor(string memory name) EIP712(name, "1") {}
+
+    /**
+     * @dev Returns `true` if a request is valid for a provided `signature` at the current block timestamp.
+     *
+     * A transaction is considered valid when the target trusts this forwarder, the request hasn't expired
+     * (deadline is not met), and the signer matches the `from` parameter of the signed request.
+     *
+     * NOTE: A request may return false here but it won't cause {executeBatch} to revert if a refund
+     * receiver is provided.
+     */
+    function verify(ForwardRequestData calldata request) public view virtual returns (bool) {
+        (bool isTrustedForwarder, bool active, bool signerMatch, ) = _validate(request);
+        return isTrustedForwarder && active && signerMatch;
+    }
+
+    /**
+     * @dev Executes a `request` on behalf of `signature`'s signer using the ERC-2771 protocol. The gas
+     * provided to the requested call may not be exactly the amount requested, but the call will not run
+     * out of gas. Will revert if the request is invalid or the call reverts, in this case the nonce is not consumed.
+     *
+     * Requirements:
+     *
+     * - The request value should be equal to the provided `msg.value`.
+     * - The request should be valid according to {verify}.
+     */
+    function execute(ForwardRequestData calldata request) public payable virtual {
+        // We make sure that msg.value and request.value match exactly.
+        // If the request is invalid or the call reverts, this whole function
+        // will revert, ensuring value isn't stuck.
+        if (msg.value != request.value) {
+            revert ERC2771ForwarderMismatchedValue(request.value, msg.value);
+        }
+
+        if (!_execute(request, true)) {
+            revert Errors.FailedCall();
+        }
+    }
+
+    /**
+     * @dev Batch version of {execute} with optional refunding and atomic execution.
+     *
+     * In case a batch contains at least one invalid request (see {verify}), the
+     * request will be skipped and the `refundReceiver` parameter will receive back the
+     * unused requested value at the end of the execution. This is done to prevent reverting
+     * the entire batch when a request is invalid or has already been submitted.
+     *
+     * If the `refundReceiver` is the `address(0)`, this function will revert when at least
+     * one of the requests was not valid instead of skipping it. This could be useful if
+     * a batch is required to get executed atomically (at least at the top-level). For example,
+     * refunding (and thus atomicity) can be opt-out if the relayer is using a service that avoids
+     * including reverted transactions.
+     *
+     * Requirements:
+     *
+     * - The sum of the requests' values should be equal to the provided `msg.value`.
+     * - All of the requests should be valid (see {verify}) when `refundReceiver` is the zero address.
+     *
+     * NOTE: Setting a zero `refundReceiver` guarantees an all-or-nothing requests execution only for
+     * the first-level forwarded calls. In case a forwarded request calls to a contract with another
+     * subcall, the second-level call may revert without the top-level call reverting.
+     */
+    function executeBatch(
+        ForwardRequestData[] calldata requests,
+        address payable refundReceiver
+    ) public payable virtual {
+        bool atomic = refundReceiver == address(0);
+
+        uint256 requestsValue;
+        uint256 refundValue;
+
+        for (uint256 i; i < requests.length; ++i) {
+            requestsValue += requests[i].value;
+            bool success = _execute(requests[i], atomic);
+            if (!success) {
+                refundValue += requests[i].value;
+            }
+        }
+
+        // The batch should revert if there's a mismatched msg.value provided
+        // to avoid request value tampering
+        if (requestsValue != msg.value) {
+            revert ERC2771ForwarderMismatchedValue(requestsValue, msg.value);
+        }
+
+        // Some requests with value were invalid (possibly due to frontrunning).
+        // To avoid leaving ETH in the contract this value is refunded.
+        if (refundValue != 0) {
+            // We know refundReceiver != address(0) && requestsValue == msg.value
+            // meaning we can ensure refundValue is not taken from the original contract's balance
+            // and refundReceiver is a known account.
+            Address.sendValue(refundReceiver, refundValue);
+        }
+    }
+
+    /**
+     * @dev Validates if the provided request can be executed at current block timestamp with
+     * the given `request.signature` on behalf of `request.signer`.
+     */
+    function _validate(
+        ForwardRequestData calldata request
+    ) internal view virtual returns (bool isTrustedForwarder, bool active, bool signerMatch, address signer) {
+        (bool isValid, address recovered) = _recoverForwardRequestSigner(request);
+
+        return (
+            _isTrustedByTarget(request.to),
+            request.deadline >= block.timestamp,
+            isValid && recovered == request.from,
+            recovered
+        );
+    }
+
+    /**
+     * @dev Returns a tuple with the recovered the signer of an EIP712 forward request message hash
+     * and a boolean indicating if the signature is valid.
+     *
+     * NOTE: The signature is considered valid if {ECDSA-tryRecover} indicates no recover error for it.
+     */
+    function _recoverForwardRequestSigner(
+        ForwardRequestData calldata request
+    ) internal view virtual returns (bool isValid, address signer) {
+        (address recovered, ECDSA.RecoverError err, ) = _hashTypedDataV4(
+            keccak256(
+                abi.encode(
+                    _FORWARD_REQUEST_TYPEHASH,
+                    request.from,
+                    request.to,
+                    request.value,
+                    request.gas,
+                    nonces(request.from),
+                    request.deadline,
+                    keccak256(request.data)
+                )
+            )
+        ).tryRecover(request.signature);
+
+        return (err == ECDSA.RecoverError.NoError, recovered);
+    }
+
+    /**
+     * @dev Validates and executes a signed request returning the request call `success` value.
+     *
+     * Internal function without msg.value validation.
+     *
+     * Requirements:
+     *
+     * - The caller must have provided enough gas to forward with the call.
+     * - The request must be valid (see {verify}) if the `requireValidRequest` is true.
+     *
+     * Emits an {ExecutedForwardRequest} event.
+     *
+     * IMPORTANT: Using this function doesn't check that all the `msg.value` was sent, potentially
+     * leaving value stuck in the contract.
+     */
+    function _execute(
+        ForwardRequestData calldata request,
+        bool requireValidRequest
+    ) internal virtual returns (bool success) {
+        (bool isTrustedForwarder, bool active, bool signerMatch, address signer) = _validate(request);
+
+        // Need to explicitly specify if a revert is required since non-reverting is default for
+        // batches and reversion is opt-in since it could be useful in some scenarios
+        if (requireValidRequest) {
+            if (!isTrustedForwarder) {
+                revert ERC2771UntrustfulTarget(request.to, address(this));
+            }
+
+            if (!active) {
+                revert ERC2771ForwarderExpiredRequest(request.deadline);
+            }
+
+            if (!signerMatch) {
+                revert ERC2771ForwarderInvalidSigner(signer, request.from);
+            }
+        }
+
+        // Ignore an invalid request because requireValidRequest = false
+        if (isTrustedForwarder && signerMatch && active) {
+            // Nonce should be used before the call to prevent reusing by reentrancy
+            uint256 currentNonce = _useNonce(signer);
+
+            uint256 reqGas = request.gas;
+            address to = request.to;
+            uint256 value = request.value;
+            bytes memory data = abi.encodePacked(request.data, request.from);
+
+            uint256 gasLeft;
+
+            assembly ("memory-safe") {
+                success := call(reqGas, to, value, add(data, 0x20), mload(data), 0, 0)
+                gasLeft := gas()
+            }
+
+            _checkForwardedGas(gasLeft, request);
+
+            emit ExecutedForwardRequest(signer, currentNonce, success);
+        }
+    }
+
+    /**
+     * @dev Returns whether the target trusts this forwarder.
+     *
+     * This function performs a static call to the target contract calling the
+     * {ERC2771Context-isTrustedForwarder} function.
+     */
+    function _isTrustedByTarget(address target) private view returns (bool) {
+        bytes memory encodedParams = abi.encodeCall(ERC2771Context.isTrustedForwarder, (address(this)));
+
+        bool success;
+        uint256 returnSize;
+        uint256 returnValue;
+        assembly ("memory-safe") {
+            // Perform the staticcall and save the result in the scratch space.
+            // | Location  | Content  | Content (Hex)                                                      |
+            // |-----------|----------|--------------------------------------------------------------------|
+            // |           |          |                                                           result ↓ |
+            // | 0x00:0x1F | selector | 0x0000000000000000000000000000000000000000000000000000000000000001 |
+            success := staticcall(gas(), target, add(encodedParams, 0x20), mload(encodedParams), 0, 0x20)
+            returnSize := returndatasize()
+            returnValue := mload(0)
+        }
+
+        return success && returnSize >= 0x20 && returnValue > 0;
+    }
+
+    /**
+     * @dev Checks if the requested gas was correctly forwarded to the callee.
+     *
+     * As a consequence of https://eips.ethereum.org/EIPS/eip-150[EIP-150]:
+     * - At most `gasleft() - floor(gasleft() / 64)` is forwarded to the callee.
+     * - At least `floor(gasleft() / 64)` is kept in the caller.
+     *
+     * It reverts consuming all the available gas if the forwarded gas is not the requested gas.
+     *
+     * IMPORTANT: The `gasLeft` parameter should be measured exactly at the end of the forwarded call.
+     * Any gas consumed in between will make room for bypassing this check.
+     */
+    function _checkForwardedGas(uint256 gasLeft, ForwardRequestData calldata request) private pure {
+        // To avoid insufficient gas griefing attacks, as referenced in https://ronan.eth.limo/blog/ethereum-gas-dangers/
+        //
+        // A malicious relayer can attempt to shrink the gas forwarded so that the underlying call reverts out-of-gas
+        // but the forwarding itself still succeeds. In order to make sure that the subcall received sufficient gas,
+        // we will inspect gasleft() after the forwarding.
+        //
+        // Let X be the gas available before the subcall, such that the subcall gets at most X * 63 / 64.
+        // We can't know X after CALL dynamic costs, but we want it to be such that X * 63 / 64 >= req.gas.
+        // Let Y be the gas used in the subcall. gasleft() measured immediately after the subcall will be gasleft() = X - Y.
+        // If the subcall ran out of gas, then Y = X * 63 / 64 and gasleft() = X - Y = X / 64.
+        // Under this assumption req.gas / 63 > gasleft() is true if and only if
+        // req.gas / 63 > X / 64, or equivalently req.gas > X * 63 / 64.
+        // This means that if the subcall runs out of gas we are able to detect that insufficient gas was passed.
+        //
+        // We will now also see that req.gas / 63 > gasleft() implies that req.gas >= X * 63 / 64.
+        // The contract guarantees Y <= req.gas, thus gasleft() = X - Y >= X - req.gas.
+        // -    req.gas / 63 > gasleft()
+        // -    req.gas / 63 >= X - req.gas
+        // -    req.gas >= X * 63 / 64
+        // In other words if req.gas < X * 63 / 64 then req.gas / 63 <= gasleft(), thus if the relayer behaves honestly
+        // the forwarding does not revert.
+        if (gasLeft < request.gas / 63) {
+            // We explicitly trigger invalid opcode to consume all gas and bubble-up the effects, since
+            // neither revert or assert consume all gas since Solidity 0.8.20
+            // https://docs.soliditylang.org/en/v0.8.20/control-structures.html#panic-via-assert-and-error-via-require
+            assembly ("memory-safe") {
+                invalid()
+            }
+        }
+    }
+}
