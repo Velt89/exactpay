@@ -1,1 +1,86 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAobWV0YXR4L0VSQzI3NzFDb250ZXh0LnNvbCkKCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKaW1wb3J0IHtDb250ZXh0fSBmcm9tICIuLi91dGlscy9Db250ZXh0LnNvbCI7CgovKioKICogQGRldiBDb250ZXh0IHZhcmlhbnQgd2l0aCBFUkMtMjc3MSBzdXBwb3J0LgogKgogKiBXQVJOSU5HOiBBdm9pZCB1c2luZyB0aGlzIHBhdHRlcm4gaW4gY29udHJhY3RzIHRoYXQgcmVseSBpbiBhIHNwZWNpZmljIGNhbGxkYXRhIGxlbmd0aCBhcyB0aGV5J2xsCiAqIGJlIGFmZmVjdGVkIGJ5IGFueSBmb3J3YXJkZXIgd2hvc2UgYG1zZy5kYXRhYCBpcyBzdWZmaXhlZCB3aXRoIHRoZSBgZnJvbWAgYWRkcmVzcyBhY2NvcmRpbmcgdG8gdGhlIEVSQy0yNzcxCiAqIHNwZWNpZmljYXRpb24gYWRkaW5nIHRoZSBhZGRyZXNzIHNpemUgaW4gYnl0ZXMgKDIwKSB0byB0aGUgY2FsbGRhdGEgc2l6ZS4gQW4gZXhhbXBsZSBvZiBhbiB1bmV4cGVjdGVkCiAqIGJlaGF2aW9yIGNvdWxkIGJlIGFuIHVuaW50ZW5kZWQgZmFsbGJhY2sgKG9yIGFub3RoZXIgZnVuY3Rpb24pIGludm9jYXRpb24gd2hpbGUgdHJ5aW5nIHRvIGludm9rZSB0aGUgYHJlY2VpdmVgCiAqIGZ1bmN0aW9uIG9ubHkgYWNjZXNzaWJsZSBpZiBgbXNnLmRhdGEubGVuZ3RoID09IDBgLgogKgogKiBXQVJOSU5HOiBUaGUgdXNhZ2Ugb2YgYGRlbGVnYXRlY2FsbGAgaW4gdGhpcyBjb250cmFjdCBpcyBkYW5nZXJvdXMgYW5kIG1heSByZXN1bHQgaW4gY29udGV4dCBjb3JydXB0aW9uLgogKiBBbnkgZm9yd2FyZGVkIHJlcXVlc3QgdG8gdGhpcyBjb250cmFjdCB0cmlnZ2VyaW5nIGEgYGRlbGVnYXRlY2FsbGAgdG8gaXRzZWxmIHdpbGwgcmVzdWx0IGluIGFuIGludmFsaWQge19tc2dTZW5kZXJ9CiAqIHJlY292ZXJ5LgogKi8KYWJzdHJhY3QgY29udHJhY3QgRVJDMjc3MUNvbnRleHQgaXMgQ29udGV4dCB7CiAgICAvLy8gQGN1c3RvbTpvei11cGdyYWRlcy11bnNhZmUtYWxsb3cgc3RhdGUtdmFyaWFibGUtaW1tdXRhYmxlCiAgICBhZGRyZXNzIHByaXZhdGUgaW1tdXRhYmxlIF90cnVzdGVkRm9yd2FyZGVyOwoKICAgIC8qKgogICAgICogQGRldiBJbml0aWFsaXplcyB0aGUgY29udHJhY3Qgd2l0aCBhIHRydXN0ZWQgZm9yd2FyZGVyLCB3aGljaCB3aWxsIGJlIGFibGUgdG8KICAgICAqIGludm9rZSBmdW5jdGlvbnMgb24gdGhpcyBjb250cmFjdCBvbiBiZWhhbGYgb2Ygb3RoZXIgYWNjb3VudHMuCiAgICAgKgogICAgICogTk9URTogVGhlIHRydXN0ZWQgZm9yd2FyZGVyIGNhbiBiZSByZXBsYWNlZCBieSBvdmVycmlkaW5nIHt0cnVzdGVkRm9yd2FyZGVyfS4KICAgICAqLwogICAgLy8vIEBjdXN0b206b3otdXBncmFkZXMtdW5zYWZlLWFsbG93IGNvbnN0cnVjdG9yCiAgICBjb25zdHJ1Y3RvcihhZGRyZXNzIHRydXN0ZWRGb3J3YXJkZXJfKSB7CiAgICAgICAgX3RydXN0ZWRGb3J3YXJkZXIgPSB0cnVzdGVkRm9yd2FyZGVyXzsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyB0aGUgYWRkcmVzcyBvZiB0aGUgdHJ1c3RlZCBmb3J3YXJkZXIuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHRydXN0ZWRGb3J3YXJkZXIoKSBwdWJsaWMgdmlldyB2aXJ0dWFsIHJldHVybnMgKGFkZHJlc3MpIHsKICAgICAgICByZXR1cm4gX3RydXN0ZWRGb3J3YXJkZXI7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IEluZGljYXRlcyB3aGV0aGVyIGFueSBwYXJ0aWN1bGFyIGFkZHJlc3MgaXMgdGhlIHRydXN0ZWQgZm9yd2FyZGVyLgogICAgICovCiAgICBmdW5jdGlvbiBpc1RydXN0ZWRGb3J3YXJkZXIoYWRkcmVzcyBmb3J3YXJkZXIpIHB1YmxpYyB2aWV3IHZpcnR1YWwgcmV0dXJucyAoYm9vbCkgewogICAgICAgIHJldHVybiBmb3J3YXJkZXIgPT0gdHJ1c3RlZEZvcndhcmRlcigpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBPdmVycmlkZSBmb3IgYG1zZy5zZW5kZXJgLiBEZWZhdWx0cyB0byB0aGUgb3JpZ2luYWwgYG1zZy5zZW5kZXJgIHdoZW5ldmVyCiAgICAgKiBhIGNhbGwgaXMgbm90IHBlcmZvcm1lZCBieSB0aGUgdHJ1c3RlZCBmb3J3YXJkZXIgb3IgdGhlIGNhbGxkYXRhIGxlbmd0aCBpcyBsZXNzIHRoYW4KICAgICAqIDIwIGJ5dGVzIChhbiBhZGRyZXNzIGxlbmd0aCkuCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9tc2dTZW5kZXIoKSBpbnRlcm5hbCB2aWV3IHZpcnR1YWwgb3ZlcnJpZGUgcmV0dXJucyAoYWRkcmVzcykgewogICAgICAgIHVpbnQyNTYgY2FsbGRhdGFMZW5ndGggPSBtc2cuZGF0YS5sZW5ndGg7CiAgICAgICAgdWludDI1NiBjb250ZXh0U3VmZml4TGVuZ3RoID0gX2NvbnRleHRTdWZmaXhMZW5ndGgoKTsKICAgICAgICBpZiAoaXNUcnVzdGVkRm9yd2FyZGVyKG1zZy5zZW5kZXIpICYmIGNhbGxkYXRhTGVuZ3RoID49IGNvbnRleHRTdWZmaXhMZW5ndGgpIHsKICAgICAgICAgICAgcmV0dXJuIGFkZHJlc3MoYnl0ZXMyMChtc2cuZGF0YVtjYWxsZGF0YUxlbmd0aCAtIGNvbnRleHRTdWZmaXhMZW5ndGg6XSkpOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHJldHVybiBzdXBlci5fbXNnU2VuZGVyKCk7CiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICogQGRldiBPdmVycmlkZSBmb3IgYG1zZy5kYXRhYC4gRGVmYXVsdHMgdG8gdGhlIG9yaWdpbmFsIGBtc2cuZGF0YWAgd2hlbmV2ZXIKICAgICAqIGEgY2FsbCBpcyBub3QgcGVyZm9ybWVkIGJ5IHRoZSB0cnVzdGVkIGZvcndhcmRlciBvciB0aGUgY2FsbGRhdGEgbGVuZ3RoIGlzIGxlc3MgdGhhbgogICAgICogMjAgYnl0ZXMgKGFuIGFkZHJlc3MgbGVuZ3RoKS4KICAgICAqLwogICAgZnVuY3Rpb24gX21zZ0RhdGEoKSBpbnRlcm5hbCB2aWV3IHZpcnR1YWwgb3ZlcnJpZGUgcmV0dXJucyAoYnl0ZXMgY2FsbGRhdGEpIHsKICAgICAgICB1aW50MjU2IGNhbGxkYXRhTGVuZ3RoID0gbXNnLmRhdGEubGVuZ3RoOwogICAgICAgIHVpbnQyNTYgY29udGV4dFN1ZmZpeExlbmd0aCA9IF9jb250ZXh0U3VmZml4TGVuZ3RoKCk7CiAgICAgICAgaWYgKGlzVHJ1c3RlZEZvcndhcmRlcihtc2cuc2VuZGVyKSAmJiBjYWxsZGF0YUxlbmd0aCA+PSBjb250ZXh0U3VmZml4TGVuZ3RoKSB7CiAgICAgICAgICAgIHJldHVybiBtc2cuZGF0YVs6Y2FsbGRhdGFMZW5ndGggLSBjb250ZXh0U3VmZml4TGVuZ3RoXTsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICByZXR1cm4gc3VwZXIuX21zZ0RhdGEoKTsKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IEVSQy0yNzcxIHNwZWNpZmllcyB0aGUgY29udGV4dCBhcyBiZWluZyBhIHNpbmdsZSBhZGRyZXNzICgyMCBieXRlcykuCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9jb250ZXh0U3VmZml4TGVuZ3RoKCkgaW50ZXJuYWwgdmlldyB2aXJ0dWFsIG92ZXJyaWRlIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXR1cm4gMjA7CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (metatx/ERC2771Context.sol)
+
+pragma solidity ^0.8.20;
+
+import {Context} from "../utils/Context.sol";
+
+/**
+ * @dev Context variant with ERC-2771 support.
+ *
+ * WARNING: Avoid using this pattern in contracts that rely in a specific calldata length as they'll
+ * be affected by any forwarder whose `msg.data` is suffixed with the `from` address according to the ERC-2771
+ * specification adding the address size in bytes (20) to the calldata size. An example of an unexpected
+ * behavior could be an unintended fallback (or another function) invocation while trying to invoke the `receive`
+ * function only accessible if `msg.data.length == 0`.
+ *
+ * WARNING: The usage of `delegatecall` in this contract is dangerous and may result in context corruption.
+ * Any forwarded request to this contract triggering a `delegatecall` to itself will result in an invalid {_msgSender}
+ * recovery.
+ */
+abstract contract ERC2771Context is Context {
+    /// @custom:oz-upgrades-unsafe-allow state-variable-immutable
+    address private immutable _trustedForwarder;
+
+    /**
+     * @dev Initializes the contract with a trusted forwarder, which will be able to
+     * invoke functions on this contract on behalf of other accounts.
+     *
+     * NOTE: The trusted forwarder can be replaced by overriding {trustedForwarder}.
+     */
+    /// @custom:oz-upgrades-unsafe-allow constructor
+    constructor(address trustedForwarder_) {
+        _trustedForwarder = trustedForwarder_;
+    }
+
+    /**
+     * @dev Returns the address of the trusted forwarder.
+     */
+    function trustedForwarder() public view virtual returns (address) {
+        return _trustedForwarder;
+    }
+
+    /**
+     * @dev Indicates whether any particular address is the trusted forwarder.
+     */
+    function isTrustedForwarder(address forwarder) public view virtual returns (bool) {
+        return forwarder == trustedForwarder();
+    }
+
+    /**
+     * @dev Override for `msg.sender`. Defaults to the original `msg.sender` whenever
+     * a call is not performed by the trusted forwarder or the calldata length is less than
+     * 20 bytes (an address length).
+     */
+    function _msgSender() internal view virtual override returns (address) {
+        uint256 calldataLength = msg.data.length;
+        uint256 contextSuffixLength = _contextSuffixLength();
+        if (isTrustedForwarder(msg.sender) && calldataLength >= contextSuffixLength) {
+            return address(bytes20(msg.data[calldataLength - contextSuffixLength:]));
+        } else {
+            return super._msgSender();
+        }
+    }
+
+    /**
+     * @dev Override for `msg.data`. Defaults to the original `msg.data` whenever
+     * a call is not performed by the trusted forwarder or the calldata length is less than
+     * 20 bytes (an address length).
+     */
+    function _msgData() internal view virtual override returns (bytes calldata) {
+        uint256 calldataLength = msg.data.length;
+        uint256 contextSuffixLength = _contextSuffixLength();
+        if (isTrustedForwarder(msg.sender) && calldataLength >= contextSuffixLength) {
+            return msg.data[:calldataLength - contextSuffixLength];
+        } else {
+            return super._msgData();
+        }
+    }
+
+    /**
+     * @dev ERC-2771 specifies the context as being a single address (20 bytes).
+     */
+    function _contextSuffixLength() internal view virtual override returns (uint256) {
+        return 20;
+    }
+}
