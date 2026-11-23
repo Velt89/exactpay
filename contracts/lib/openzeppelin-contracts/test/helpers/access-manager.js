@@ -1,1 +1,85 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKCmNvbnN0IHsgTUFYX1VJTlQ2NCB9ID0gcmVxdWlyZSgnLi9jb25zdGFudHMnKTsKY29uc3QgdGltZSA9IHJlcXVpcmUoJy4vdGltZScpOwpjb25zdCB7IHVwZ3JhZGVhYmxlU2xvdCB9ID0gcmVxdWlyZSgnLi9zdG9yYWdlJyk7CgpmdW5jdGlvbiBidWlsZEJhc2VSb2xlcygpIHsKICBjb25zdCByb2xlcyA9IHsKICAgIEFETUlOOiB7CiAgICAgIGlkOiAwbiwKICAgIH0sCiAgICBTT01FX0FETUlOOiB7CiAgICAgIGlkOiAxN24sCiAgICB9LAogICAgU09NRV9HVUFSRElBTjogewogICAgICBpZDogMzVuLAogICAgfSwKICAgIFNPTUU6IHsKICAgICAgaWQ6IDQybiwKICAgIH0sCiAgICBQVUJMSUM6IHsKICAgICAgaWQ6IE1BWF9VSU5UNjQsCiAgICB9LAogIH07CgogIC8vIE5hbWVzCiAgT2JqZWN0LmVudHJpZXMocm9sZXMpLmZvckVhY2goKFtuYW1lLCByb2xlXSkgPT4gKHJvbGUubmFtZSA9IG5hbWUpKTsKCiAgLy8gRGVmYXVsdHMKICBmb3IgKGNvbnN0IHJvbGUgb2YgT2JqZWN0LmtleXMocm9sZXMpKSB7CiAgICByb2xlc1tyb2xlXS5hZG1pbiA9IHJvbGVzLkFETUlOOwogICAgcm9sZXNbcm9sZV0uZ3VhcmRpYW4gPSByb2xlcy5BRE1JTjsKICB9CgogIC8vIEFkbWlucwogIHJvbGVzLlNPTUUuYWRtaW4gPSByb2xlcy5TT01FX0FETUlOOwoKICAvLyBHdWFyZGlhbnMKICByb2xlcy5TT01FLmd1YXJkaWFuID0gcm9sZXMuU09NRV9HVUFSRElBTjsKCiAgcmV0dXJuIHJvbGVzOwp9Cgpjb25zdCBmb3JtYXRBY2Nlc3MgPSBhY2Nlc3MgPT4gW2FjY2Vzc1swXSwgYWNjZXNzWzFdLnRvU3RyaW5nKCldOwoKY29uc3QgTUlOU0VUQkFDSyA9IHRpbWUuZHVyYXRpb24uZGF5cyg1KTsKY29uc3QgRVhQSVJBVElPTiA9IHRpbWUuZHVyYXRpb24ud2Vla3MoMSk7Cgpjb25zdCBFWEVDVVRJT05fSURfU1RPUkFHRV9TTE9UID0gdXBncmFkZWFibGVTbG90KCdBY2Nlc3NNYW5hZ2VyJywgM24pOwpjb25zdCBDT05TVU1JTkdfU0NIRURVTEVfU1RPUkFHRV9TTE9UID0gdXBncmFkZWFibGVTbG90KCdBY2Nlc3NNYW5hZ2VkJywgMG4pOwoKLyoqCiAqIEByZXF1aXJlcyB0aGlzLnttYW5hZ2VyLCBjYWxsZXIsIHRhcmdldCwgY2FsbGRhdGF9CiAqLwphc3luYyBmdW5jdGlvbiBwcmVwYXJlT3BlcmF0aW9uKG1hbmFnZXIsIHsgY2FsbGVyLCB0YXJnZXQsIGNhbGxkYXRhLCBkZWxheSB9KSB7CiAgY29uc3Qgc2NoZWR1bGVkQXQgPSAoYXdhaXQgdGltZS5jbG9jay50aW1lc3RhbXAoKSkgKyAxbjsKICBhd2FpdCB0aW1lLmluY3JlYXNlVG8udGltZXN0YW1wKHNjaGVkdWxlZEF0LCBmYWxzZSk7IC8vIEZpeCBuZXh0IGJsb2NrIHRpbWVzdGFtcCBmb3IgcHJlZGljdGFiaWxpdHkKCiAgcmV0dXJuIHsKICAgIHNjaGVkdWxlOiAoKSA9PiBtYW5hZ2VyLmNvbm5lY3QoY2FsbGVyKS5zY2hlZHVsZSh0YXJnZXQsIGNhbGxkYXRhLCBzY2hlZHVsZWRBdCArIGRlbGF5KSwKICAgIHNjaGVkdWxlZEF0LAogICAgb3BlcmF0aW9uSWQ6IGhhc2hPcGVyYXRpb24oY2FsbGVyLCB0YXJnZXQsIGNhbGxkYXRhKSwKICB9Owp9Cgpjb25zdCBsYXp5R2V0QWRkcmVzcyA9IGFkZHJlc3NhYmxlID0+IGFkZHJlc3NhYmxlLmFkZHJlc3MgPz8gYWRkcmVzc2FibGUudGFyZ2V0ID8/IGFkZHJlc3NhYmxlOwoKY29uc3QgaGFzaE9wZXJhdGlvbiA9IChjYWxsZXIsIHRhcmdldCwgZGF0YSkgPT4KICBldGhlcnMua2VjY2FrMjU2KAogICAgZXRoZXJzLkFiaUNvZGVyLmRlZmF1bHRBYmlDb2RlcigpLmVuY29kZSgKICAgICAgWydhZGRyZXNzJywgJ2FkZHJlc3MnLCAnYnl0ZXMnXSwKICAgICAgW2xhenlHZXRBZGRyZXNzKGNhbGxlciksIGxhenlHZXRBZGRyZXNzKHRhcmdldCksIGRhdGFdLAogICAgKSwKICApOwoKbW9kdWxlLmV4cG9ydHMgPSB7CiAgYnVpbGRCYXNlUm9sZXMsCiAgZm9ybWF0QWNjZXNzLAogIE1JTlNFVEJBQ0ssCiAgRVhQSVJBVElPTiwKICBFWEVDVVRJT05fSURfU1RPUkFHRV9TTE9ULAogIENPTlNVTUlOR19TQ0hFRFVMRV9TVE9SQUdFX1NMT1QsCiAgcHJlcGFyZU9wZXJhdGlvbiwKICBoYXNoT3BlcmF0aW9uLAp9Owo=
+const { ethers } = require('hardhat');
+
+const { MAX_UINT64 } = require('./constants');
+const time = require('./time');
+const { upgradeableSlot } = require('./storage');
+
+function buildBaseRoles() {
+  const roles = {
+    ADMIN: {
+      id: 0n,
+    },
+    SOME_ADMIN: {
+      id: 17n,
+    },
+    SOME_GUARDIAN: {
+      id: 35n,
+    },
+    SOME: {
+      id: 42n,
+    },
+    PUBLIC: {
+      id: MAX_UINT64,
+    },
+  };
+
+  // Names
+  Object.entries(roles).forEach(([name, role]) => (role.name = name));
+
+  // Defaults
+  for (const role of Object.keys(roles)) {
+    roles[role].admin = roles.ADMIN;
+    roles[role].guardian = roles.ADMIN;
+  }
+
+  // Admins
+  roles.SOME.admin = roles.SOME_ADMIN;
+
+  // Guardians
+  roles.SOME.guardian = roles.SOME_GUARDIAN;
+
+  return roles;
+}
+
+const formatAccess = access => [access[0], access[1].toString()];
+
+const MINSETBACK = time.duration.days(5);
+const EXPIRATION = time.duration.weeks(1);
+
+const EXECUTION_ID_STORAGE_SLOT = upgradeableSlot('AccessManager', 3n);
+const CONSUMING_SCHEDULE_STORAGE_SLOT = upgradeableSlot('AccessManaged', 0n);
+
+/**
+ * @requires this.{manager, caller, target, calldata}
+ */
+async function prepareOperation(manager, { caller, target, calldata, delay }) {
+  const scheduledAt = (await time.clock.timestamp()) + 1n;
+  await time.increaseTo.timestamp(scheduledAt, false); // Fix next block timestamp for predictability
+
+  return {
+    schedule: () => manager.connect(caller).schedule(target, calldata, scheduledAt + delay),
+    scheduledAt,
+    operationId: hashOperation(caller, target, calldata),
+  };
+}
+
+const lazyGetAddress = addressable => addressable.address ?? addressable.target ?? addressable;
+
+const hashOperation = (caller, target, data) =>
+  ethers.keccak256(
+    ethers.AbiCoder.defaultAbiCoder().encode(
+      ['address', 'address', 'bytes'],
+      [lazyGetAddress(caller), lazyGetAddress(target), data],
+    ),
+  );
+
+module.exports = {
+  buildBaseRoles,
+  formatAccess,
+  MINSETBACK,
+  EXPIRATION,
+  EXECUTION_ID_STORAGE_SLOT,
+  CONSUMING_SCHEDULE_STORAGE_SLOT,
+  prepareOperation,
+  hashOperation,
+};
