@@ -1,1 +1,30 @@
-ZnVuY3Rpb24gdG9CeXRlczMyKHR5cGUsIHZhbHVlKSB7CiAgc3dpdGNoICh0eXBlKSB7CiAgICBjYXNlICdieXRlczMyJzoKICAgICAgcmV0dXJuIHZhbHVlOwogICAgY2FzZSAndWludDI1Nic6CiAgICAgIHJldHVybiBgYnl0ZXMzMigke3ZhbHVlfSlgOwogICAgY2FzZSAnYWRkcmVzcyc6CiAgICAgIHJldHVybiBgYnl0ZXMzMih1aW50MjU2KHVpbnQxNjAoJHt2YWx1ZX0pKSlgOwogICAgZGVmYXVsdDoKICAgICAgdGhyb3cgbmV3IEVycm9yKGBDb252ZXJzaW9uIGZyb20gJHt0eXBlfSB0byBieXRlczMyIG5vdCBzdXBwb3J0ZWRgKTsKICB9Cn0KCmZ1bmN0aW9uIGZyb21CeXRlczMyKHR5cGUsIHZhbHVlKSB7CiAgc3dpdGNoICh0eXBlKSB7CiAgICBjYXNlICdieXRlczMyJzoKICAgICAgcmV0dXJuIHZhbHVlOwogICAgY2FzZSAndWludDI1Nic6CiAgICAgIHJldHVybiBgdWludDI1Nigke3ZhbHVlfSlgOwogICAgY2FzZSAnYWRkcmVzcyc6CiAgICAgIHJldHVybiBgYWRkcmVzcyh1aW50MTYwKHVpbnQyNTYoJHt2YWx1ZX0pKSlgOwogICAgZGVmYXVsdDoKICAgICAgdGhyb3cgbmV3IEVycm9yKGBDb252ZXJzaW9uIGZyb20gYnl0ZXMzMiB0byAke3R5cGV9IG5vdCBzdXBwb3J0ZWRgKTsKICB9Cn0KCm1vZHVsZS5leHBvcnRzID0gewogIHRvQnl0ZXMzMiwKICBmcm9tQnl0ZXMzMiwKfTsK
+function toBytes32(type, value) {
+  switch (type) {
+    case 'bytes32':
+      return value;
+    case 'uint256':
+      return `bytes32(${value})`;
+    case 'address':
+      return `bytes32(uint256(uint160(${value})))`;
+    default:
+      throw new Error(`Conversion from ${type} to bytes32 not supported`);
+  }
+}
+
+function fromBytes32(type, value) {
+  switch (type) {
+    case 'bytes32':
+      return value;
+    case 'uint256':
+      return `uint256(${value})`;
+    case 'address':
+      return `address(uint160(uint256(${value})))`;
+    default:
+      throw new Error(`Conversion from bytes32 to ${type} not supported`);
+  }
+}
+
+module.exports = {
+  toBytes32,
+  fromBytes32,
+};
