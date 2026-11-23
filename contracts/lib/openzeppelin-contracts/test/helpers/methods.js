@@ -1,1 +1,14 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKCmNvbnN0IHNlbGVjdG9yID0gc2lnbmF0dXJlID0+IGV0aGVycy5GdW5jdGlvbkZyYWdtZW50LmZyb20oc2lnbmF0dXJlKS5zZWxlY3RvcjsKCmNvbnN0IGludGVyZmFjZUlkID0gc2lnbmF0dXJlcyA9PgogIGV0aGVycy50b0JlSGV4KAogICAgc2lnbmF0dXJlcy5yZWR1Y2UoKGFjYywgc2lnbmF0dXJlKSA9PiBhY2MgXiBldGhlcnMudG9CaWdJbnQoc2VsZWN0b3Ioc2lnbmF0dXJlKSksIDBuKSwKICAgIDQsCiAgKTsKCm1vZHVsZS5leHBvcnRzID0gewogIHNlbGVjdG9yLAogIGludGVyZmFjZUlkLAp9Owo=
+const { ethers } = require('hardhat');
+
+const selector = signature => ethers.FunctionFragment.from(signature).selector;
+
+const interfaceId = signatures =>
+  ethers.toBeHex(
+    signatures.reduce((acc, signature) => acc ^ ethers.toBigInt(selector(signature)), 0n),
+    4,
+  );
+
+module.exports = {
+  selector,
+  interfaceId,
+};
