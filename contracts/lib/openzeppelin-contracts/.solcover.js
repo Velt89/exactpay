@@ -1,1 +1,21 @@
-bW9kdWxlLmV4cG9ydHMgPSB7CiAgbm9ycGM6IHRydWUsCiAgdGVzdENvbW1hbmQ6ICducG0gdGVzdCcsCiAgY29tcGlsZUNvbW1hbmQ6ICducG0gcnVuIGNvbXBpbGUnLAogIHNraXBGaWxlczogWydtb2NrcyddLAogIHByb3ZpZGVyT3B0aW9uczogewogICAgZGVmYXVsdF9iYWxhbmNlX2V0aGVyOiAnMTAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAnLAogIH0sCiAgbW9jaGE6IHsKICAgIGZncmVwOiAnW3NraXAtb24tY292ZXJhZ2VdJywKICAgIGludmVydDogdHJ1ZSwKICB9LAogIC8vIFdvcmsgYXJvdW5kIHN0YWNrIHRvbyBkZWVwIGZvciBjb3ZlcmFnZQogIGNvbmZpZ3VyZVl1bE9wdGltaXplcjogdHJ1ZSwKICBzb2xjT3B0aW1pemVyRGV0YWlsczogewogICAgeXVsOiB0cnVlLAogICAgeXVsRGV0YWlsczogewogICAgICBvcHRpbWl6ZXJTdGVwczogJycsCiAgICB9LAogIH0sCn07Cg==
+module.exports = {
+  norpc: true,
+  testCommand: 'npm test',
+  compileCommand: 'npm run compile',
+  skipFiles: ['mocks'],
+  providerOptions: {
+    default_balance_ether: '10000000000000000000000000',
+  },
+  mocha: {
+    fgrep: '[skip-on-coverage]',
+    invert: true,
+  },
+  // Work around stack too deep for coverage
+  configureYulOptimizer: true,
+  solcOptimizerDetails: {
+    yul: true,
+    yulDetails: {
+      optimizerSteps: '',
+    },
+  },
+};
