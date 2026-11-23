@@ -1,1 +1,40 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAocHJveHkvRVJDMTk2Ny9FUkMxOTY3UHJveHkuc29sKQoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge1Byb3h5fSBmcm9tICIuLi9Qcm94eS5zb2wiOwppbXBvcnQge0VSQzE5NjdVdGlsc30gZnJvbSAiLi9FUkMxOTY3VXRpbHMuc29sIjsKCi8qKgogKiBAZGV2IFRoaXMgY29udHJhY3QgaW1wbGVtZW50cyBhbiB1cGdyYWRlYWJsZSBwcm94eS4gSXQgaXMgdXBncmFkZWFibGUgYmVjYXVzZSBjYWxscyBhcmUgZGVsZWdhdGVkIHRvIGFuCiAqIGltcGxlbWVudGF0aW9uIGFkZHJlc3MgdGhhdCBjYW4gYmUgY2hhbmdlZC4gVGhpcyBhZGRyZXNzIGlzIHN0b3JlZCBpbiBzdG9yYWdlIGluIHRoZSBsb2NhdGlvbiBzcGVjaWZpZWQgYnkKICogaHR0cHM6Ly9laXBzLmV0aGVyZXVtLm9yZy9FSVBTL2VpcC0xOTY3W0VSQy0xOTY3XSwgc28gdGhhdCBpdCBkb2Vzbid0IGNvbmZsaWN0IHdpdGggdGhlIHN0b3JhZ2UgbGF5b3V0IG9mIHRoZQogKiBpbXBsZW1lbnRhdGlvbiBiZWhpbmQgdGhlIHByb3h5LgogKi8KY29udHJhY3QgRVJDMTk2N1Byb3h5IGlzIFByb3h5IHsKICAgIC8qKgogICAgICogQGRldiBJbml0aWFsaXplcyB0aGUgdXBncmFkZWFibGUgcHJveHkgd2l0aCBhbiBpbml0aWFsIGltcGxlbWVudGF0aW9uIHNwZWNpZmllZCBieSBgaW1wbGVtZW50YXRpb25gLgogICAgICoKICAgICAqIElmIGBfZGF0YWAgaXMgbm9uZW1wdHksIGl0J3MgdXNlZCBhcyBkYXRhIGluIGEgZGVsZWdhdGUgY2FsbCB0byBgaW1wbGVtZW50YXRpb25gLiBUaGlzIHdpbGwgdHlwaWNhbGx5IGJlIGFuCiAgICAgKiBlbmNvZGVkIGZ1bmN0aW9uIGNhbGwsIGFuZCBhbGxvd3MgaW5pdGlhbGl6aW5nIHRoZSBzdG9yYWdlIG9mIHRoZSBwcm94eSBsaWtlIGEgU29saWRpdHkgY29uc3RydWN0b3IuCiAgICAgKgogICAgICogUmVxdWlyZW1lbnRzOgogICAgICoKICAgICAqIC0gSWYgYGRhdGFgIGlzIGVtcHR5LCBgbXNnLnZhbHVlYCBtdXN0IGJlIHplcm8uCiAgICAgKi8KICAgIGNvbnN0cnVjdG9yKGFkZHJlc3MgaW1wbGVtZW50YXRpb24sIGJ5dGVzIG1lbW9yeSBfZGF0YSkgcGF5YWJsZSB7CiAgICAgICAgRVJDMTk2N1V0aWxzLnVwZ3JhZGVUb0FuZENhbGwoaW1wbGVtZW50YXRpb24sIF9kYXRhKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyB0aGUgY3VycmVudCBpbXBsZW1lbnRhdGlvbiBhZGRyZXNzLgogICAgICoKICAgICAqIFRJUDogVG8gZ2V0IHRoaXMgdmFsdWUgY2xpZW50cyBjYW4gcmVhZCBkaXJlY3RseSBmcm9tIHRoZSBzdG9yYWdlIHNsb3Qgc2hvd24gYmVsb3cgKHNwZWNpZmllZCBieSBFUkMtMTk2NykgdXNpbmcKICAgICAqIHRoZSBodHRwczovL2V0aC53aWtpL2pzb24tcnBjL0FQSSNldGhfZ2V0c3RvcmFnZWF0W2BldGhfZ2V0U3RvcmFnZUF0YF0gUlBDIGNhbGwuCiAgICAgKiBgMHgzNjA4OTRhMTNiYTFhMzIxMDY2N2M4Mjg0OTJkYjk4ZGNhM2UyMDc2Y2MzNzM1YTkyMGEzY2E1MDVkMzgyYmJjYAogICAgICovCiAgICBmdW5jdGlvbiBfaW1wbGVtZW50YXRpb24oKSBpbnRlcm5hbCB2aWV3IHZpcnR1YWwgb3ZlcnJpZGUgcmV0dXJucyAoYWRkcmVzcykgewogICAgICAgIHJldHVybiBFUkMxOTY3VXRpbHMuZ2V0SW1wbGVtZW50YXRpb24oKTsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (proxy/ERC1967/ERC1967Proxy.sol)
+
+pragma solidity ^0.8.20;
+
+import {Proxy} from "../Proxy.sol";
+import {ERC1967Utils} from "./ERC1967Utils.sol";
+
+/**
+ * @dev This contract implements an upgradeable proxy. It is upgradeable because calls are delegated to an
+ * implementation address that can be changed. This address is stored in storage in the location specified by
+ * https://eips.ethereum.org/EIPS/eip-1967[ERC-1967], so that it doesn't conflict with the storage layout of the
+ * implementation behind the proxy.
+ */
+contract ERC1967Proxy is Proxy {
+    /**
+     * @dev Initializes the upgradeable proxy with an initial implementation specified by `implementation`.
+     *
+     * If `_data` is nonempty, it's used as data in a delegate call to `implementation`. This will typically be an
+     * encoded function call, and allows initializing the storage of the proxy like a Solidity constructor.
+     *
+     * Requirements:
+     *
+     * - If `data` is empty, `msg.value` must be zero.
+     */
+    constructor(address implementation, bytes memory _data) payable {
+        ERC1967Utils.upgradeToAndCall(implementation, _data);
+    }
+
+    /**
+     * @dev Returns the current implementation address.
+     *
+     * TIP: To get this value clients can read directly from the storage slot shown below (specified by ERC-1967) using
+     * the https://eth.wiki/json-rpc/API#eth_getstorageat[`eth_getStorageAt`] RPC call.
+     * `0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc`
+     */
+    function _implementation() internal view virtual override returns (address) {
+        return ERC1967Utils.getImplementation();
+    }
+}
