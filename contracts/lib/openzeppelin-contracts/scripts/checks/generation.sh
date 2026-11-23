@@ -1,1 +1,6 @@
-IyEvdXNyL2Jpbi9lbnYgYmFzaAoKc2V0IC1ldW8gcGlwZWZhaWwKCm5wbSBydW4gZ2VuZXJhdGUKZ2l0IGRpZmYgLVIgLS1leGl0LWNvZGUK
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+npm run generate
+git diff -R --exit-code
