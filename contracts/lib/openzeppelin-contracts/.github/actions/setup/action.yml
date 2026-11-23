@@ -1,1 +1,22 @@
-bmFtZTogU2V0dXAKZGVzY3JpcHRpb246IENvbW1vbiBlbnZpcm9ubWVudCBzZXR1cAoKcnVuczoKICB1c2luZzogY29tcG9zaXRlCiAgc3RlcHM6CiAgICAtIHVzZXM6IGFjdGlvbnMvc2V0dXAtbm9kZUB2NAogICAgICB3aXRoOgogICAgICAgIG5vZGUtdmVyc2lvbjogMjAueAogICAgLSB1c2VzOiBhY3Rpb25zL2NhY2hlQHY0CiAgICAgIGlkOiBjYWNoZQogICAgICB3aXRoOgogICAgICAgIHBhdGg6ICcqKi9ub2RlX21vZHVsZXMnCiAgICAgICAga2V5OiBucG0tdjMtJHt7IGhhc2hGaWxlcygnKiovcGFja2FnZS1sb2NrLmpzb24nKSB9fQogICAgLSBuYW1lOiBJbnN0YWxsIGRlcGVuZGVuY2llcwogICAgICBydW46IG5wbSBjaQogICAgICBzaGVsbDogYmFzaAogICAgICBpZjogc3RlcHMuY2FjaGUub3V0cHV0cy5jYWNoZS1oaXQgIT0gJ3RydWUnCiAgICAtIG5hbWU6IEluc3RhbGwgRm91bmRyeQogICAgICB1c2VzOiBmb3VuZHJ5LXJzL2ZvdW5kcnktdG9vbGNoYWluQHYxCiAgICAgIHdpdGg6CiAgICAgICAgdmVyc2lvbjogbmlnaHRseQo=
+name: Setup
+description: Common environment setup
+
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-node@v4
+      with:
+        node-version: 20.x
+    - uses: actions/cache@v4
+      id: cache
+      with:
+        path: '**/node_modules'
+        key: npm-v3-${{ hashFiles('**/package-lock.json') }}
+    - name: Install dependencies
+      run: npm ci
+      shell: bash
+      if: steps.cache.outputs.cache-hit != 'true'
+    - name: Install Foundry
+      uses: foundry-rs/foundry-toolchain@v1
+      with:
+        version: nightly
