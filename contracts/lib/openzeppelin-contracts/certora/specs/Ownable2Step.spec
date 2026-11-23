@@ -1,1 +1,108 @@
-aW1wb3J0ICJoZWxwZXJzL2hlbHBlcnMuc3BlYyI7CmltcG9ydCAibWV0aG9kcy9JT3duYWJsZTJTdGVwLnNwZWMiOwoKbWV0aG9kcyB7CiAgICBmdW5jdGlvbiByZXN0cmljdGVkKCkgZXh0ZXJuYWw7Cn0KCi8qCuKUjOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUkArilIIgRnVuY3Rpb24gY29ycmVjdG5lc3M6IHRyYW5zZmVyT3duZXJzaGlwIHNldHMgdGhlIHBlbmRpbmcgb3duZXIgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICDilIIK4pSU4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSYCiovCnJ1bGUgdHJhbnNmZXJPd25lcnNoaXAoZW52IGUpIHsKICAgIHJlcXVpcmUgbm9ucGF5YWJsZShlKTsKCiAgICBhZGRyZXNzIG5ld093bmVyOwogICAgYWRkcmVzcyBjdXJyZW50ID0gb3duZXIoKTsKCiAgICB0cmFuc2Zlck93bmVyc2hpcEB3aXRocmV2ZXJ0KGUsIG5ld093bmVyKTsKICAgIGJvb2wgc3VjY2VzcyA9ICFsYXN0UmV2ZXJ0ZWQ7CgogICAgYXNzZXJ0IHN1Y2Nlc3MgPD0+IGUubXNnLnNlbmRlciA9PSBjdXJyZW50LCAidW5hdXRob3JpemVkIGNhbGxlciI7CiAgICBhc3NlcnQgc3VjY2VzcyA9PiBwZW5kaW5nT3duZXIoKSA9PSBuZXdPd25lciwgInBlbmRpbmcgb3duZXIgbm90IHNldCI7CiAgICBhc3NlcnQgc3VjY2VzcyA9PiBvd25lcigpID09IGN1cnJlbnQsICJjdXJyZW50IG93bmVyIGNoYW5nZWQiOwp9CgovKgrilIzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJAK4pSCIEZ1bmN0aW9uIGNvcnJlY3RuZXNzOiByZW5vdW5jZU93bmVyc2hpcCByZW1vdmVzIHRoZSBvd25lciBhbmQgdGhlIHBlbmRpbmdPd25lciAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg4pSCCuKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmAoqLwpydWxlIHJlbm91bmNlT3duZXJzaGlwKGVudiBlKSB7CiAgICByZXF1aXJlIG5vbnBheWFibGUoZSk7CgogICAgYWRkcmVzcyBjdXJyZW50ID0gb3duZXIoKTsKCiAgICByZW5vdW5jZU93bmVyc2hpcEB3aXRocmV2ZXJ0KGUpOwogICAgYm9vbCBzdWNjZXNzID0gIWxhc3RSZXZlcnRlZDsKCiAgICBhc3NlcnQgc3VjY2VzcyA8PT4gZS5tc2cuc2VuZGVyID09IGN1cnJlbnQsICJ1bmF1dGhvcml6ZWQgY2FsbGVyIjsKICAgIGFzc2VydCBzdWNjZXNzID0+IHBlbmRpbmdPd25lcigpID09IDAsICJwZW5kaW5nIG93bmVyIG5vdCBjbGVhcmVkIjsKICAgIGFzc2VydCBzdWNjZXNzID0+IG93bmVyKCkgPT0gMCwgIm93bmVyIG5vdCBjbGVhcmVkIjsKfQoKLyoK4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQCuKUgiBGdW5jdGlvbiBjb3JyZWN0bmVzczogYWNjZXB0T3duZXJzaGlwIGNoYW5nZXMgb3duZXIgYW5kIHJlc2V0IHBlbmRpbmcgb3duZXIgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIOKUggrilJTilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJgKKi8KcnVsZSBhY2NlcHRPd25lcnNoaXAoZW52IGUpIHsKCiAgICByZXF1aXJlIG5vbnBheWFibGUoZSk7CgogICAgYWRkcmVzcyBjdXJyZW50ID0gb3duZXIoKTsKICAgIGFkZHJlc3MgcGVuZGluZyA9IHBlbmRpbmdPd25lcigpOwoKICAgIGFjY2VwdE93bmVyc2hpcEB3aXRocmV2ZXJ0KGUpOwogICAgYm9vbCBzdWNjZXNzID0gIWxhc3RSZXZlcnRlZDsKCiAgICBhc3NlcnQgc3VjY2VzcyA8PT4gZS5tc2cuc2VuZGVyID09IHBlbmRpbmcsICJ1bmF1dGhvcml6ZWQgY2FsbGVyIjsKICAgIGFzc2VydCBzdWNjZXNzID0+IHBlbmRpbmdPd25lcigpID09IDAsICJwZW5kaW5nIG93bmVyIG5vdCBjbGVhcmVkIjsKICAgIGFzc2VydCBzdWNjZXNzID0+IG93bmVyKCkgPT0gcGVuZGluZywgIm93bmVyIG5vdCB0cmFuc2ZlcnJlZCI7Cn0KCi8qCuKUjOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUkArilIIgQWNjZXNzIGNvbnRyb2w6IG9ubHkgY3VycmVudCBvd25lciBjYW4gY2FsbCByZXN0cmljdGVkIGZ1bmN0aW9ucyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICDilIIK4pSU4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSYCiovCnJ1bGUgb25seUN1cnJlbnRPd25lckNhbkNhbGxPbmx5T3duZXIoZW52IGUpIHsKICAgIHJlcXVpcmUgbm9ucGF5YWJsZShlKTsKCiAgICBhZGRyZXNzIGN1cnJlbnQgPSBvd25lcigpOwoKICAgIGNhbGxkYXRhYXJnIGFyZ3M7CiAgICByZXN0cmljdGVkQHdpdGhyZXZlcnQoZSwgYXJncyk7CgogICAgYXNzZXJ0ICFsYXN0UmV2ZXJ0ZWQgPD0+IGUubXNnLnNlbmRlciA9PSBjdXJyZW50LCAiYWNjZXNzIGNvbnRyb2wgZmFpbGVkIjsKfQoKLyoK4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQCuKUgiBSdWxlOiBvd25lcnNoaXAgYW5kIHBlbmRpbmcgb3duZXJzaGlwIGNhbiBvbmx5IGNoYW5nZSBpbiBzcGVjaWZpYyB3YXlzICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIOKUggrilJTilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJgKKi8KcnVsZSBvd25lck9yUGVuZGluZ093bmVyQ2hhbmdlKGVudiBlLCBtZXRob2QgZikgewogICAgYWRkcmVzcyBvbGRDdXJyZW50ID0gb3duZXIoKTsKICAgIGFkZHJlc3Mgb2xkUGVuZGluZyA9IHBlbmRpbmdPd25lcigpOwoKICAgIGNhbGxkYXRhYXJnIGFyZ3M7CiAgICBmKGUsIGFyZ3MpOwoKICAgIGFkZHJlc3MgbmV3Q3VycmVudCA9IG93bmVyKCk7CiAgICBhZGRyZXNzIG5ld1BlbmRpbmcgPSBwZW5kaW5nT3duZXIoKTsKCiAgICAvLyBJZiBvd25lciBjaGFuZ2VzLCBtdXN0IGJlIGVpdGhlciBhY2NlcHRPd25lcnNoaXAgb3IgcmVub3VuY2VPd25lcnNoaXAKICAgIGFzc2VydCBvbGRDdXJyZW50ICE9IG5ld0N1cnJlbnQgPT4gKAogICAgICAgIChlLm1zZy5zZW5kZXIgPT0gb2xkUGVuZGluZyAmJiBuZXdDdXJyZW50ID09IG9sZFBlbmRpbmcgJiYgbmV3UGVuZGluZyA9PSAwICYmIGYuc2VsZWN0b3IgPT0gc2lnOmFjY2VwdE93bmVyc2hpcCgpLnNlbGVjdG9yKSB8fAogICAgICAgIChlLm1zZy5zZW5kZXIgPT0gb2xkQ3VycmVudCAmJiBuZXdDdXJyZW50ID09IDAgICAgICAgICAgJiYgbmV3UGVuZGluZyA9PSAwICYmIGYuc2VsZWN0b3IgPT0gc2lnOnJlbm91bmNlT3duZXJzaGlwKCkuc2VsZWN0b3IpCiAgICApOwoKICAgIC8vIElmIHBlbmRpbmcgY2hhbmdlcywgbXVzdCBiZSBlaXRoZXIgYWNjZXB0YW5jZSBvciByZXNldAogICAgYXNzZXJ0IG9sZFBlbmRpbmcgIT0gbmV3UGVuZGluZyA9PiAoCiAgICAgICAgKGUubXNnLnNlbmRlciA9PSBvbGRDdXJyZW50ICYmIG5ld0N1cnJlbnQgPT0gb2xkQ3VycmVudCAmJiAgICAgICAgICAgICAgICAgICAgZi5zZWxlY3RvciA9PSBzaWc6dHJhbnNmZXJPd25lcnNoaXAoYWRkcmVzcykuc2VsZWN0b3IpIHx8CiAgICAgICAgKGUubXNnLnNlbmRlciA9PSBvbGRQZW5kaW5nICYmIG5ld0N1cnJlbnQgPT0gb2xkUGVuZGluZyAmJiBuZXdQZW5kaW5nID09IDAgJiYgZi5zZWxlY3RvciA9PSBzaWc6YWNjZXB0T3duZXJzaGlwKCkuc2VsZWN0b3IpIHx8CiAgICAgICAgKGUubXNnLnNlbmRlciA9PSBvbGRDdXJyZW50ICYmIG5ld0N1cnJlbnQgPT0gMCAgICAgICAgICAmJiBuZXdQZW5kaW5nID09IDAgJiYgZi5zZWxlY3RvciA9PSBzaWc6cmVub3VuY2VPd25lcnNoaXAoKS5zZWxlY3RvcikKICAgICk7Cn0K
+import "helpers/helpers.spec";
+import "methods/IOwnable2Step.spec";
+
+methods {
+    function restricted() external;
+}
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Function correctness: transferOwnership sets the pending owner                                                      │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+rule transferOwnership(env e) {
+    require nonpayable(e);
+
+    address newOwner;
+    address current = owner();
+
+    transferOwnership@withrevert(e, newOwner);
+    bool success = !lastReverted;
+
+    assert success <=> e.msg.sender == current, "unauthorized caller";
+    assert success => pendingOwner() == newOwner, "pending owner not set";
+    assert success => owner() == current, "current owner changed";
+}
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Function correctness: renounceOwnership removes the owner and the pendingOwner                                      │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+rule renounceOwnership(env e) {
+    require nonpayable(e);
+
+    address current = owner();
+
+    renounceOwnership@withrevert(e);
+    bool success = !lastReverted;
+
+    assert success <=> e.msg.sender == current, "unauthorized caller";
+    assert success => pendingOwner() == 0, "pending owner not cleared";
+    assert success => owner() == 0, "owner not cleared";
+}
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Function correctness: acceptOwnership changes owner and reset pending owner                                         │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+rule acceptOwnership(env e) {
+
+    require nonpayable(e);
+
+    address current = owner();
+    address pending = pendingOwner();
+
+    acceptOwnership@withrevert(e);
+    bool success = !lastReverted;
+
+    assert success <=> e.msg.sender == pending, "unauthorized caller";
+    assert success => pendingOwner() == 0, "pending owner not cleared";
+    assert success => owner() == pending, "owner not transferred";
+}
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Access control: only current owner can call restricted functions                                                    │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+rule onlyCurrentOwnerCanCallOnlyOwner(env e) {
+    require nonpayable(e);
+
+    address current = owner();
+
+    calldataarg args;
+    restricted@withrevert(e, args);
+
+    assert !lastReverted <=> e.msg.sender == current, "access control failed";
+}
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Rule: ownership and pending ownership can only change in specific ways                                              │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+rule ownerOrPendingOwnerChange(env e, method f) {
+    address oldCurrent = owner();
+    address oldPending = pendingOwner();
+
+    calldataarg args;
+    f(e, args);
+
+    address newCurrent = owner();
+    address newPending = pendingOwner();
+
+    // If owner changes, must be either acceptOwnership or renounceOwnership
+    assert oldCurrent != newCurrent => (
+        (e.msg.sender == oldPending && newCurrent == oldPending && newPending == 0 && f.selector == sig:acceptOwnership().selector) ||
+        (e.msg.sender == oldCurrent && newCurrent == 0          && newPending == 0 && f.selector == sig:renounceOwnership().selector)
+    );
+
+    // If pending changes, must be either acceptance or reset
+    assert oldPending != newPending => (
+        (e.msg.sender == oldCurrent && newCurrent == oldCurrent &&                    f.selector == sig:transferOwnership(address).selector) ||
+        (e.msg.sender == oldPending && newCurrent == oldPending && newPending == 0 && f.selector == sig:acceptOwnership().selector) ||
+        (e.msg.sender == oldCurrent && newCurrent == 0          && newPending == 0 && f.selector == sig:renounceOwnership().selector)
+    );
+}
