@@ -1,1 +1,5 @@
-bWV0aG9kcyB7CiAgICBmdW5jdGlvbiBvd25lcigpIGV4dGVybmFsIHJldHVybnMgKGFkZHJlc3MpIGVudmZyZWU7CiAgICBmdW5jdGlvbiB0cmFuc2Zlck93bmVyc2hpcChhZGRyZXNzKSBleHRlcm5hbDsKICAgIGZ1bmN0aW9uIHJlbm91bmNlT3duZXJzaGlwKCkgZXh0ZXJuYWw7Cn0K
+methods {
+    function owner() external returns (address) envfree;
+    function transferOwnership(address) external;
+    function renounceOwnership() external;
+}
