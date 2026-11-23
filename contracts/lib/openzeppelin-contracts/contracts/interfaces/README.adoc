@@ -1,1 +1,85 @@
-PSBJbnRlcmZhY2VzCgpbLnJlYWRtZS1ub3RpY2VdCk5PVEU6IFRoaXMgZG9jdW1lbnQgaXMgYmV0dGVyIHZpZXdlZCBhdCBodHRwczovL2RvY3Mub3BlbnplcHBlbGluLmNvbS9jb250cmFjdHMvYXBpL2ludGVyZmFjZXMKCj09IExpc3Qgb2Ygc3RhbmRhcmRpemVkIGludGVyZmFjZXMKVGhlc2UgaW50ZXJmYWNlcyBhcmUgYXZhaWxhYmxlIGFzIGAuc29sYCBmaWxlcywgYW5kIGFsc28gYXMgY29tcGlsZXIgYC5qc29uYCBBQkkgZmlsZXMgKHRocm91Z2ggdGhlIG5wbSBwYWNrYWdlKS4gVGhlc2UKYXJlIHVzZWZ1bCB0byBpbnRlcmFjdCB3aXRoIHRoaXJkIHBhcnR5IGNvbnRyYWN0cyB0aGF0IGltcGxlbWVudCB0aGVtLgoKLSB7SUVSQzIwfQotIHtJRVJDMjBFcnJvcnN9Ci0ge0lFUkMyME1ldGFkYXRhfQotIHtJRVJDMTY1fQotIHtJRVJDNzIxfQotIHtJRVJDNzIxUmVjZWl2ZXJ9Ci0ge0lFUkM3MjFFbnVtZXJhYmxlfQotIHtJRVJDNzIxTWV0YWRhdGF9Ci0ge0lFUkM3MjFFcnJvcnN9Ci0ge0lFUkM3Nzd9Ci0ge0lFUkM3NzdSZWNpcGllbnR9Ci0ge0lFUkM3NzdTZW5kZXJ9Ci0ge0lFUkMxMTU1fQotIHtJRVJDMTE1NVJlY2VpdmVyfQotIHtJRVJDMTE1NU1ldGFkYXRhVVJJfQotIHtJRVJDMTE1NUVycm9yc30KLSB7SUVSQzEyNzF9Ci0ge0lFUkMxMzYzfQotIHtJRVJDMTM2M1JlY2VpdmVyfQotIHtJRVJDMTM2M1NwZW5kZXJ9Ci0ge0lFUkMxODIwSW1wbGVtZW50ZXJ9Ci0ge0lFUkMxODIwUmVnaXN0cnl9Ci0ge0lFUkMxODIyUHJveGlhYmxlfQotIHtJRVJDMjYxMn0KLSB7SUVSQzI5ODF9Ci0ge0lFUkMzMTU2Rmxhc2hMZW5kZXJ9Ci0ge0lFUkMzMTU2Rmxhc2hCb3Jyb3dlcn0KLSB7SUVSQzQ2MjZ9Ci0ge0lFUkM0OTA2fQotIHtJRVJDNTI2N30KLSB7SUVSQzUzMTN9Ci0ge0lFUkM1ODA1fQotIHtJRVJDNjM3Mn0KLSB7SUVSQzc2NzR9Cgo9PSBEZXRhaWxlZCBBQkkKCnt7SUVSQzIwRXJyb3JzfX0KCnt7SUVSQzcyMUVycm9yc319Cgp7e0lFUkMxMTU1RXJyb3JzfX0KCnt7SUVSQzEyNzF9fQoKe3tJRVJDMTM2M319Cgp7e0lFUkMxMzYzUmVjZWl2ZXJ9fQoKe3tJRVJDMTM2M1NwZW5kZXJ9fQoKe3tJRVJDMTgyMEltcGxlbWVudGVyfX0KCnt7SUVSQzE4MjBSZWdpc3RyeX19Cgp7e0lFUkMxODIyUHJveGlhYmxlfX0KCnt7SUVSQzI2MTJ9fQoKe3tJRVJDMjk4MX19Cgp7e0lFUkMzMTU2Rmxhc2hMZW5kZXJ9fQoKe3tJRVJDMzE1NkZsYXNoQm9ycm93ZXJ9fQoKe3tJRVJDNDYyNn19Cgp7e0lFUkM1MzEzfX0KCnt7SUVSQzUyNjd9fQoKe3tJRVJDNTgwNX19Cgp7e0lFUkM2MzcyfX0KCnt7SUVSQzc2NzR9fQo=
+= Interfaces
+
+[.readme-notice]
+NOTE: This document is better viewed at https://docs.openzeppelin.com/contracts/api/interfaces
+
+== List of standardized interfaces
+These interfaces are available as `.sol` files, and also as compiler `.json` ABI files (through the npm package). These
+are useful to interact with third party contracts that implement them.
+
+- {IERC20}
+- {IERC20Errors}
+- {IERC20Metadata}
+- {IERC165}
+- {IERC721}
+- {IERC721Receiver}
+- {IERC721Enumerable}
+- {IERC721Metadata}
+- {IERC721Errors}
+- {IERC777}
+- {IERC777Recipient}
+- {IERC777Sender}
+- {IERC1155}
+- {IERC1155Receiver}
+- {IERC1155MetadataURI}
+- {IERC1155Errors}
+- {IERC1271}
+- {IERC1363}
+- {IERC1363Receiver}
+- {IERC1363Spender}
+- {IERC1820Implementer}
+- {IERC1820Registry}
+- {IERC1822Proxiable}
+- {IERC2612}
+- {IERC2981}
+- {IERC3156FlashLender}
+- {IERC3156FlashBorrower}
+- {IERC4626}
+- {IERC4906}
+- {IERC5267}
+- {IERC5313}
+- {IERC5805}
+- {IERC6372}
+- {IERC7674}
+
+== Detailed ABI
+
+{{IERC20Errors}}
+
+{{IERC721Errors}}
+
+{{IERC1155Errors}}
+
+{{IERC1271}}
+
+{{IERC1363}}
+
+{{IERC1363Receiver}}
+
+{{IERC1363Spender}}
+
+{{IERC1820Implementer}}
+
+{{IERC1820Registry}}
+
+{{IERC1822Proxiable}}
+
+{{IERC2612}}
+
+{{IERC2981}}
+
+{{IERC3156FlashLender}}
+
+{{IERC3156FlashBorrower}}
+
+{{IERC4626}}
+
+{{IERC5313}}
+
+{{IERC5267}}
+
+{{IERC5805}}
+
+{{IERC6372}}
+
+{{IERC7674}}
