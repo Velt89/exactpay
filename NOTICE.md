@@ -1,1 +1,27 @@
-IyBUaGlyZC1wYXJ0eSBub3RpY2VzCgpBZXZ1bSBTdGFydGVyIEtpdCBpcyBNSVQgbGljZW5zZWQgKHNlZSBbTElDRU5TRV0oTElDRU5TRSkpLiBJdCBidWlsZHMgb24gdGhlIG9wZW4tc291cmNlIHByb2plY3RzIGJlbG93LgpOb25lIG9mIHRoZWlyIGNvZGUgaXMgY29waWVkIGludG8gdGhpcyByZXBvc2l0b3J5OiB0aGUgU29saWRpdHkgbGlicmFyaWVzIGFyZSBnaXQgc3VibW9kdWxlcyB0aGF0IGtlZXAKdGhlaXIgb3duIExJQ0VOU0UgZmlsZXMsIGFuZCB0aGUgSmF2YVNjcmlwdCBwYWNrYWdlcyBhcmUgaW5zdGFsbGVkIGZyb20gbnBtLgoKIyMgU29saWRpdHkgbGlicmFyaWVzIChgY29udHJhY3RzL2xpYmAsIGdpdCBzdWJtb2R1bGVzKQoKfCBQcm9qZWN0IHwgVmVyc2lvbiB8IExpY2Vuc2UgfCBTb3VyY2UgfAp8LS0tfC0tLXwtLS18LS0tfAp8IGZvcmdlLXN0ZCB8IHYxLjkuNiB8IE1JVCBvciBBcGFjaGUtMi4wIHwgaHR0cHM6Ly9naXRodWIuY29tL2ZvdW5kcnktcnMvZm9yZ2Utc3RkIHwKfCBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIHwgdjUuMS4wIHwgTUlUIHwgaHR0cHM6Ly9naXRodWIuY29tL09wZW5aZXBwZWxpbi9vcGVuemVwcGVsaW4tY29udHJhY3RzIHwKCiMjIEphdmFTY3JpcHQgcGFja2FnZXMgKGRpcmVjdCBkZXBlbmRlbmNpZXMpCgp8IFBhY2thZ2UgfCBWZXJzaW9uIHwgTGljZW5zZSB8IFVzZWQgaW4gfAp8LS0tfC0tLXwtLS18LS0tfAp8IG5leHQgfCAxNi40LjMgfCBNSVQgfCB3ZWIgfAp8IHJlYWN0LCByZWFjdC1kb20gfCAxOS4yLjAgfCBNSVQgfCB3ZWIgfAp8IEByYWluYm93LW1lL3JhaW5ib3draXQgfCAyLjIuMTEgfCBNSVQgfCB3ZWIgfAp8IHdhZ21pIHwgMi4xOS41IHwgTUlUIHwgd2ViIHwKfCBAdGFuc3RhY2svcmVhY3QtcXVlcnkgfCA1LjkwLjIgfCBNSVQgfCB3ZWIgfAp8IHZpZW0gfCAyLjU3LjEyIHwgTUlUIHwgd2ViLCBleGFtcGxlcywgcGFja2FnZXMvYWV2dW0gfAp8IHRzeCB8IDQuMjMuMTUgfCBNSVQgfCBleGFtcGxlcyAoZGV2KSB8CnwgdHlwZXNjcmlwdCB8IDUuOS4zIHwgQXBhY2hlLTIuMCB8IGFsbCAoZGV2KSB8CgpUaGVpciBvd24gZGVwZW5kZW5jaWVzIGNhcnJ5IHRoZWlyIG93biBsaWNlbnNlcy4gVG8gbGlzdCB0aGVtIGFsbCwgcnVuIGBwbnBtIGxpY2Vuc2VzIGxpc3RgIGluIHRoZSByZXBvIHJvb3QuCg==
+# Third-party notices
+
+Aevum Starter Kit is MIT licensed (see [LICENSE](LICENSE)). It builds on the open-source projects below.
+None of their code is copied into this repository: the Solidity libraries are git submodules that keep
+their own LICENSE files, and the JavaScript packages are installed from npm.
+
+## Solidity libraries (`contracts/lib`, git submodules)
+
+| Project | Version | License | Source |
+|---|---|---|---|
+| forge-std | v1.9.6 | MIT or Apache-2.0 | https://github.com/foundry-rs/forge-std |
+| OpenZeppelin Contracts | v5.1.0 | MIT | https://github.com/OpenZeppelin/openzeppelin-contracts |
+
+## JavaScript packages (direct dependencies)
+
+| Package | Version | License | Used in |
+|---|---|---|---|
+| next | 16.4.3 | MIT | web |
+| react, react-dom | 19.2.0 | MIT | web |
+| @rainbow-me/rainbowkit | 2.2.11 | MIT | web |
+| wagmi | 2.19.5 | MIT | web |
+| @tanstack/react-query | 5.90.2 | MIT | web |
+| viem | 2.57.12 | MIT | web, examples, packages/aevum |
+| tsx | 4.23.15 | MIT | examples (dev) |
+| typescript | 5.9.3 | Apache-2.0 | all (dev) |
+
+Their own dependencies carry their own licenses. To list them all, run `pnpm licenses list` in the repo root.
