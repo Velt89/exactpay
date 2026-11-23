@@ -1,1 +1,65 @@
-Y29uc3QgcHJvYyA9IHJlcXVpcmUoJ2NoaWxkX3Byb2Nlc3MnKTsKY29uc3QgcmVhZCA9IGNtZCA9PiBwcm9jLmV4ZWNTeW5jKGNtZCwgeyBlbmNvZGluZzogJ3V0ZjgnIH0pLnRyaW0oKTsKY29uc3QgcnVuID0gY21kID0+IHsKICBwcm9jLmV4ZWNTeW5jKGNtZCwgeyBzdGRpbzogJ2luaGVyaXQnIH0pOwp9Owpjb25zdCB0cnlSZWFkID0gY21kID0+IHsKICB0cnkgewogICAgcmV0dXJuIHJlYWQoY21kKTsKICB9IGNhdGNoIChlKSB7CiAgICByZXR1cm4gdW5kZWZpbmVkOwogIH0KfTsKCmNvbnN0IHJlbGVhc2VCcmFuY2hSZWdleCA9IC9ecmVsZWFzZS12KD88dmVyc2lvbj4oPzxtYWpvcj5cZCspXC4oPzxtaW5vcj5cZCspKD86XC4oPzxwYXRjaD5cZCspKT8pJC87Cgpjb25zdCBjdXJyZW50QnJhbmNoID0gcmVhZCgnZ2l0IHJldi1wYXJzZSAtLWFiYnJldi1yZWYgSEVBRCcpOwpjb25zdCBtYXRjaCA9IGN1cnJlbnRCcmFuY2gubWF0Y2gocmVsZWFzZUJyYW5jaFJlZ2V4KTsKCmlmICghbWF0Y2gpIHsKICBjb25zb2xlLmVycm9yKCdOb3QgY3VycmVudGx5IG9uIGEgcmVsZWFzZSBicmFuY2gnKTsKICBwcm9jZXNzLmV4aXQoMSk7Cn0KCmNvbnN0IHBrZ1ZlcnNpb24gPSByZXF1aXJlKCcuLi9wYWNrYWdlLmpzb24nKS52ZXJzaW9uOwoKaWYgKHBrZ1ZlcnNpb24uaW5jbHVkZXMoJy0nKSAmJiAhcGtnVmVyc2lvbi5pbmNsdWRlcygnLjAuMC0nKSkgewogIGNvbnNvbGUuZXJyb3IoJ1JlZnVzaW5nIHRvIHVwZGF0ZSBkb2NzOiBub24tbWFqb3IgcHJlcmVsZWFzZSBkZXRlY3RlZCcpOwogIHByb2Nlc3MuZXhpdCgwKTsKfQoKY29uc3QgY3VycmVudCA9IG1hdGNoLmdyb3VwczsKY29uc3QgZG9jc0JyYW5jaCA9IGBkb2NzLXYke2N1cnJlbnQubWFqb3J9LnhgOwoKLy8gRmV0Y2ggcmVtb3RlcyBhbmQgZmluZCB0aGUgZG9jcyBicmFuY2ggaWYgaXQgZXhpc3RzCnJ1bignZ2l0IGZldGNoIC0tYWxsIC0tbm8tdGFncycpOwpjb25zdCBtYXRjaGluZ0RvY3NCcmFuY2hlcyA9IHRyeVJlYWQoYGdpdCByZXYtcGFyc2UgLS1nbG9iPScqLyR7ZG9jc0JyYW5jaH0nYCk7CgppZiAoIW1hdGNoaW5nRG9jc0JyYW5jaGVzKSB7CiAgLy8gQ3JlYXRlIHRoZSBicmFuY2gKICBydW4oYGdpdCBjaGVja291dCAtLW9ycGhhbiAke2RvY3NCcmFuY2h9YCk7Cn0gZWxzZSB7CiAgY29uc3QgW3B1Ymxpc2hlZFJlZiwgLi4ub3RoZXJzXSA9IG5ldyBTZXQobWF0Y2hpbmdEb2NzQnJhbmNoZXMuc3BsaXQoJ1xuJykpOwogIGlmIChvdGhlcnMubGVuZ3RoID4gMCkgewogICAgY29uc29sZS5lcnJvcigKICAgICAgYEZvdW5kIGNvbmZsaWN0aW5nICR7ZG9jc0JyYW5jaH0gYnJhbmNoZXMuXG5gICsKICAgICAgICAnRWl0aGVyIGxvY2FsIGJyYW5jaCBpcyBvdXRkYXRlZCBvciB0aGVyZSBhcmUgbXVsdGlwbGUgbWF0Y2hpbmcgcmVtb3RlIGJyYW5jaGVzLicsCiAgICApOwogICAgcHJvY2Vzcy5leGl0KDEpOwogIH0KICBjb25zdCBwdWJsaXNoZWRWZXJzaW9uID0gSlNPTi5wYXJzZShyZWFkKGBnaXQgc2hvdyAke3B1Ymxpc2hlZFJlZn06cGFja2FnZS5qc29uYCkpLnZlcnNpb247CiAgY29uc3QgcHVibGlzaGVkTWlub3IgPSBwdWJsaXNoZWRWZXJzaW9uLm1hdGNoKC9cZCtcLig/PG1pbm9yPlxkKylcLlxkKy8pLmdyb3Vwcy5taW5vcjsKICBpZiAoY3VycmVudC5taW5vciA8IHB1Ymxpc2hlZE1pbm9yKSB7CiAgICBjb25zb2xlLmVycm9yKCdSZWZ1c2luZyB0byB1cGRhdGUgZG9jczogbmV3ZXIgdmVyc2lvbiBpcyBwdWJsaXNoZWQnKTsKICAgIHByb2Nlc3MuZXhpdCgwKTsKICB9CgogIHJ1bignZ2l0IGNoZWNrb3V0IC0tcXVpZXQgLS1kZXRhY2gnKTsKICBydW4oYGdpdCByZXNldCAtLXNvZnQgJHtwdWJsaXNoZWRSZWZ9YCk7CiAgcnVuKGBnaXQgY2hlY2tvdXQgJHtkb2NzQnJhbmNofWApOwp9CgpydW4oJ25wbSBydW4gcHJlcGFyZS1kb2NzJyk7CnJ1bignZ2l0IGFkZCAtZiBkb2NzJyk7IC8vIC0tZm9yY2UgbmVlZGVkIGJlY2F1c2UgZ2VuZXJhdGVkIGRvY3MgZmlsZXMgYXJlIGdpdGlnbm9yZWQKcnVuKCdnaXQgY29tbWl0IC1tICJVcGRhdGUgZG9jcyInKTsKcnVuKGBnaXQgY2hlY2tvdXQgJHtjdXJyZW50QnJhbmNofWApOwo=
+const proc = require('child_process');
+const read = cmd => proc.execSync(cmd, { encoding: 'utf8' }).trim();
+const run = cmd => {
+  proc.execSync(cmd, { stdio: 'inherit' });
+};
+const tryRead = cmd => {
+  try {
+    return read(cmd);
+  } catch (e) {
+    return undefined;
+  }
+};
+
+const releaseBranchRegex = /^release-v(?<version>(?<major>\d+)\.(?<minor>\d+)(?:\.(?<patch>\d+))?)$/;
+
+const currentBranch = read('git rev-parse --abbrev-ref HEAD');
+const match = currentBranch.match(releaseBranchRegex);
+
+if (!match) {
+  console.error('Not currently on a release branch');
+  process.exit(1);
+}
+
+const pkgVersion = require('../package.json').version;
+
+if (pkgVersion.includes('-') && !pkgVersion.includes('.0.0-')) {
+  console.error('Refusing to update docs: non-major prerelease detected');
+  process.exit(0);
+}
+
+const current = match.groups;
+const docsBranch = `docs-v${current.major}.x`;
+
+// Fetch remotes and find the docs branch if it exists
+run('git fetch --all --no-tags');
+const matchingDocsBranches = tryRead(`git rev-parse --glob='*/${docsBranch}'`);
+
+if (!matchingDocsBranches) {
+  // Create the branch
+  run(`git checkout --orphan ${docsBranch}`);
+} else {
+  const [publishedRef, ...others] = new Set(matchingDocsBranches.split('\n'));
+  if (others.length > 0) {
+    console.error(
+      `Found conflicting ${docsBranch} branches.\n` +
+        'Either local branch is outdated or there are multiple matching remote branches.',
+    );
+    process.exit(1);
+  }
+  const publishedVersion = JSON.parse(read(`git show ${publishedRef}:package.json`)).version;
+  const publishedMinor = publishedVersion.match(/\d+\.(?<minor>\d+)\.\d+/).groups.minor;
+  if (current.minor < publishedMinor) {
+    console.error('Refusing to update docs: newer version is published');
+    process.exit(0);
+  }
+
+  run('git checkout --quiet --detach');
+  run(`git reset --soft ${publishedRef}`);
+  run(`git checkout ${docsBranch}`);
+}
+
+run('npm run prepare-docs');
+run('git add -f docs'); // --force needed because generated docs files are gitignored
+run('git commit -m "Update docs"');
+run(`git checkout ${currentBranch}`);
