@@ -1,1 +1,49 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgPj0wLjcuMCA8MC45LjA7CgppbXBvcnQge1Rlc3QsIHN0ZEpzb259IGZyb20gIi4uL3NyYy9UZXN0LnNvbCI7Cgpjb250cmFjdCBTdGRKc29uVGVzdCBpcyBUZXN0IHsKICAgIHVzaW5nIHN0ZEpzb24gZm9yIHN0cmluZzsKCiAgICBzdHJpbmcgcm9vdDsKICAgIHN0cmluZyBwYXRoOwoKICAgIGZ1bmN0aW9uIHNldFVwKCkgcHVibGljIHsKICAgICAgICByb290ID0gdm0ucHJvamVjdFJvb3QoKTsKICAgICAgICBwYXRoID0gc3RyaW5nLmNvbmNhdChyb290LCAiL3Rlc3QvZml4dHVyZXMvdGVzdC5qc29uIik7CiAgICB9CgogICAgc3RydWN0IFNpbXBsZUpzb24gewogICAgICAgIHVpbnQyNTYgYTsKICAgICAgICBzdHJpbmcgYjsKICAgIH0KCiAgICBzdHJ1Y3QgTmVzdGVkSnNvbiB7CiAgICAgICAgdWludDI1NiBhOwogICAgICAgIHN0cmluZyBiOwogICAgICAgIFNpbXBsZUpzb24gYzsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X3JlYWRKc29uKCkgcHVibGljIHZpZXcgewogICAgICAgIHN0cmluZyBtZW1vcnkganNvbiA9IHZtLnJlYWRGaWxlKHBhdGgpOwogICAgICAgIGFzc2VydEVxKGpzb24ucmVhZFVpbnQoIi5hIiksIDEyMyk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF93cml0ZUpzb24oKSBwdWJsaWMgewogICAgICAgIHN0cmluZyBtZW1vcnkganNvbiA9ICJqc29uIjsKICAgICAgICBqc29uLnNlcmlhbGl6ZSgiYSIsIHVpbnQyNTYoMTIzKSk7CiAgICAgICAgc3RyaW5nIG1lbW9yeSBzZW1pRmluYWwgPSBqc29uLnNlcmlhbGl6ZSgiYiIsIHN0cmluZygidGVzdCIpKTsKICAgICAgICBzdHJpbmcgbWVtb3J5IGZpbmFsSnNvbiA9IGpzb24uc2VyaWFsaXplKCJjIiwgc2VtaUZpbmFsKTsKICAgICAgICBmaW5hbEpzb24ud3JpdGUocGF0aCk7CgogICAgICAgIHN0cmluZyBtZW1vcnkganNvbl8gPSB2bS5yZWFkRmlsZShwYXRoKTsKICAgICAgICBieXRlcyBtZW1vcnkgZGF0YSA9IGpzb25fLnBhcnNlUmF3KCIkIik7CiAgICAgICAgTmVzdGVkSnNvbiBtZW1vcnkgZGVjb2RlZERhdGEgPSBhYmkuZGVjb2RlKGRhdGEsIChOZXN0ZWRKc29uKSk7CgogICAgICAgIGFzc2VydEVxKGRlY29kZWREYXRhLmEsIDEyMyk7CiAgICAgICAgYXNzZXJ0RXEoZGVjb2RlZERhdGEuYiwgInRlc3QiKTsKICAgICAgICBhc3NlcnRFcShkZWNvZGVkRGF0YS5jLmEsIDEyMyk7CiAgICAgICAgYXNzZXJ0RXEoZGVjb2RlZERhdGEuYy5iLCAidGVzdCIpOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.7.0 <0.9.0;
+
+import {Test, stdJson} from "../src/Test.sol";
+
+contract StdJsonTest is Test {
+    using stdJson for string;
+
+    string root;
+    string path;
+
+    function setUp() public {
+        root = vm.projectRoot();
+        path = string.concat(root, "/test/fixtures/test.json");
+    }
+
+    struct SimpleJson {
+        uint256 a;
+        string b;
+    }
+
+    struct NestedJson {
+        uint256 a;
+        string b;
+        SimpleJson c;
+    }
+
+    function test_readJson() public view {
+        string memory json = vm.readFile(path);
+        assertEq(json.readUint(".a"), 123);
+    }
+
+    function test_writeJson() public {
+        string memory json = "json";
+        json.serialize("a", uint256(123));
+        string memory semiFinal = json.serialize("b", string("test"));
+        string memory finalJson = json.serialize("c", semiFinal);
+        finalJson.write(path);
+
+        string memory json_ = vm.readFile(path);
+        bytes memory data = json_.parseRaw("$");
+        NestedJson memory decodedData = abi.decode(data, (NestedJson));
+
+        assertEq(decodedData.a, 123);
+        assertEq(decodedData.b, "test");
+        assertEq(decodedData.c.a, 123);
+        assertEq(decodedData.c.b, "test");
+    }
+}
