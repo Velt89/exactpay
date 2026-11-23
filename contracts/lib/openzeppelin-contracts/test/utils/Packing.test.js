@@ -1,1 +1,70 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKY29uc3QgeyBmb3JjZURlcGxveUNvZGUgfSA9IHJlcXVpcmUoJy4uL2hlbHBlcnMvZGVwbG95Jyk7CmNvbnN0IHsgcHJvZHVjdCB9ID0gcmVxdWlyZSgnLi4vaGVscGVycy9pdGVyYXRlJyk7CmNvbnN0IHsgU0laRVMgfSA9IHJlcXVpcmUoJy4uLy4uL3NjcmlwdHMvZ2VuZXJhdGUvdGVtcGxhdGVzL1BhY2tpbmcub3B0cycpOwoKYXN5bmMgZnVuY3Rpb24gZml4dHVyZSgpIHsKICByZXR1cm4geyBtb2NrOiBhd2FpdCBmb3JjZURlcGxveUNvZGUoJyRQYWNraW5nJykgfTsKfQoKZGVzY3JpYmUoJ1BhY2tpbmcnLCBmdW5jdGlvbiAoKSB7CiAgYmVmb3JlRWFjaChhc3luYyBmdW5jdGlvbiAoKSB7CiAgICBPYmplY3QuYXNzaWduKHRoaXMsIGF3YWl0IGxvYWRGaXh0dXJlKGZpeHR1cmUpKTsKICB9KTsKCiAgZGVzY3JpYmUoJ3BhY2snLCBmdW5jdGlvbiAoKSB7CiAgICBmb3IgKGNvbnN0IFtzaXplMSwgc2l6ZTJdIG9mIHByb2R1Y3QoU0laRVMsIFNJWkVTKS5maWx0ZXIoKFtzaXplMSwgc2l6ZTJdKSA9PiBTSVpFUy5pbmNsdWRlcyhzaXplMSArIHNpemUyKSkpIHsKICAgICAgY29uc3QgdmFsdWUxID0gZXRoZXJzLmhleGxpZnkoZXRoZXJzLnJhbmRvbUJ5dGVzKHNpemUxKSk7CiAgICAgIGNvbnN0IHZhbHVlMiA9IGV0aGVycy5oZXhsaWZ5KGV0aGVycy5yYW5kb21CeXRlcyhzaXplMikpOwogICAgICBjb25zdCBwYWNrZWQgPSBldGhlcnMuY29uY2F0KFt2YWx1ZTEsIHZhbHVlMl0pOwoKICAgICAgaXQoYHBhY2sgYnl0ZXMke3NpemUxfSArIGJ5dGVzJHtzaXplMn0gPT4gYnl0ZXMke3NpemUxICsgc2l6ZTJ9YCwgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2tbYCRwYWNrXyR7c2l6ZTF9XyR7c2l6ZTJ9YF0odmFsdWUxLCB2YWx1ZTIpKS50by5lcXVhbChwYWNrZWQpOwogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2tbYCRleHRyYWN0XyR7c2l6ZTEgKyBzaXplMn1fJHtzaXplMX1gXShwYWNrZWQsIDApKS50by5lcXVhbCh2YWx1ZTEpOwogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2tbYCRleHRyYWN0XyR7c2l6ZTEgKyBzaXplMn1fJHtzaXplMn1gXShwYWNrZWQsIHNpemUxKSkudG8uZXF1YWwodmFsdWUyKTsKICAgICAgfSk7CiAgICB9CiAgfSk7CgogIGRlc2NyaWJlKCdleHRyYWN0IC8gcmVwbGFjZScsIGZ1bmN0aW9uICgpIHsKICAgIGZvciAoY29uc3QgW3NpemUxLCBzaXplMl0gb2YgcHJvZHVjdChTSVpFUywgU0laRVMpLmZpbHRlcigoW3NpemUxLCBzaXplMl0pID0+IHNpemUxID4gc2l6ZTIpKSB7CiAgICAgIGNvbnN0IE1BWF9PRkZTRVQgPSBzaXplMSAtIHNpemUyOwogICAgICBjb25zdCBvZmZzZXQgPSBldGhlcnMudG9OdW1iZXIoZXRoZXJzLnJhbmRvbUJ5dGVzKDEpKSAlIChNQVhfT0ZGU0VUICsgMSk7CiAgICAgIGNvbnN0IG91dGVyID0gZXRoZXJzLnJhbmRvbUJ5dGVzKHNpemUxKTsKICAgICAgY29uc3QgdmFsdWUgPSBldGhlcnMucmFuZG9tQnl0ZXMoc2l6ZTIpOwoKICAgICAgaXQoYGV4dHJhY3QgYnl0ZXMke3NpemUyfSBmcm9tIGJ5dGVzJHtzaXplMX1gLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9ja1tgJGV4dHJhY3RfJHtzaXplMX1fJHtzaXplMn1gXShvdXRlciwgb2Zmc2V0KSkudG8uZXF1YWwoCiAgICAgICAgICBldGhlcnMuaGV4bGlmeShvdXRlci5zbGljZShvZmZzZXQsIG9mZnNldCArIHNpemUyKSksCiAgICAgICAgKTsKCiAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMubW9ja1tgJGV4dHJhY3RfJHtzaXplMX1fJHtzaXplMn1gXShvdXRlciwgTUFYX09GRlNFVCkpLnRvLm5vdC5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcigKICAgICAgICAgIHRoaXMubW9jaywKICAgICAgICAgICdPdXRPZlJhbmdlQWNjZXNzJywKICAgICAgICApOwoKICAgICAgICBhd2FpdCBleHBlY3QodGhpcy5tb2NrW2AkZXh0cmFjdF8ke3NpemUxfV8ke3NpemUyfWBdKG91dGVyLCBNQVhfT0ZGU0VUICsgMSkpLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKAogICAgICAgICAgdGhpcy5tb2NrLAogICAgICAgICAgJ091dE9mUmFuZ2VBY2Nlc3MnLAogICAgICAgICk7CiAgICAgIH0pOwoKICAgICAgaXQoYHJlcGxhY2UgYnl0ZXMke3NpemUyfSBmcm9tIGJ5dGVzJHtzaXplMX1gLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9ja1tgJHJlcGxhY2VfJHtzaXplMX1fJHtzaXplMn1gXShvdXRlciwgdmFsdWUsIG9mZnNldCkpLnRvLmVxdWFsKAogICAgICAgICAgZXRoZXJzLmNvbmNhdChbb3V0ZXIuc2xpY2UoMCwgb2Zmc2V0KSwgdmFsdWUsIG91dGVyLnNsaWNlKG9mZnNldCArIHNpemUyKV0pLAogICAgICAgICk7CgogICAgICAgIGF3YWl0IGV4cGVjdCgKICAgICAgICAgIHRoaXMubW9ja1tgJHJlcGxhY2VfJHtzaXplMX1fJHtzaXplMn1gXShvdXRlciwgdmFsdWUsIE1BWF9PRkZTRVQpLAogICAgICAgICkudG8ubm90LmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMubW9jaywgJ091dE9mUmFuZ2VBY2Nlc3MnKTsKCiAgICAgICAgYXdhaXQgZXhwZWN0KAogICAgICAgICAgdGhpcy5tb2NrW2AkcmVwbGFjZV8ke3NpemUxfV8ke3NpemUyfWBdKG91dGVyLCB2YWx1ZSwgTUFYX09GRlNFVCArIDEpLAogICAgICAgICkudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy5tb2NrLCAnT3V0T2ZSYW5nZUFjY2VzcycpOwogICAgICB9KTsKICAgIH0KICB9KTsKfSk7Cg==
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+const { forceDeployCode } = require('../helpers/deploy');
+const { product } = require('../helpers/iterate');
+const { SIZES } = require('../../scripts/generate/templates/Packing.opts');
+
+async function fixture() {
+  return { mock: await forceDeployCode('$Packing') };
+}
+
+describe('Packing', function () {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  describe('pack', function () {
+    for (const [size1, size2] of product(SIZES, SIZES).filter(([size1, size2]) => SIZES.includes(size1 + size2))) {
+      const value1 = ethers.hexlify(ethers.randomBytes(size1));
+      const value2 = ethers.hexlify(ethers.randomBytes(size2));
+      const packed = ethers.concat([value1, value2]);
+
+      it(`pack bytes${size1} + bytes${size2} => bytes${size1 + size2}`, async function () {
+        expect(await this.mock[`$pack_${size1}_${size2}`](value1, value2)).to.equal(packed);
+        expect(await this.mock[`$extract_${size1 + size2}_${size1}`](packed, 0)).to.equal(value1);
+        expect(await this.mock[`$extract_${size1 + size2}_${size2}`](packed, size1)).to.equal(value2);
+      });
+    }
+  });
+
+  describe('extract / replace', function () {
+    for (const [size1, size2] of product(SIZES, SIZES).filter(([size1, size2]) => size1 > size2)) {
+      const MAX_OFFSET = size1 - size2;
+      const offset = ethers.toNumber(ethers.randomBytes(1)) % (MAX_OFFSET + 1);
+      const outer = ethers.randomBytes(size1);
+      const value = ethers.randomBytes(size2);
+
+      it(`extract bytes${size2} from bytes${size1}`, async function () {
+        expect(await this.mock[`$extract_${size1}_${size2}`](outer, offset)).to.equal(
+          ethers.hexlify(outer.slice(offset, offset + size2)),
+        );
+
+        await expect(this.mock[`$extract_${size1}_${size2}`](outer, MAX_OFFSET)).to.not.be.revertedWithCustomError(
+          this.mock,
+          'OutOfRangeAccess',
+        );
+
+        await expect(this.mock[`$extract_${size1}_${size2}`](outer, MAX_OFFSET + 1)).to.be.revertedWithCustomError(
+          this.mock,
+          'OutOfRangeAccess',
+        );
+      });
+
+      it(`replace bytes${size2} from bytes${size1}`, async function () {
+        expect(await this.mock[`$replace_${size1}_${size2}`](outer, value, offset)).to.equal(
+          ethers.concat([outer.slice(0, offset), value, outer.slice(offset + size2)]),
+        );
+
+        await expect(
+          this.mock[`$replace_${size1}_${size2}`](outer, value, MAX_OFFSET),
+        ).to.not.be.revertedWithCustomError(this.mock, 'OutOfRangeAccess');
+
+        await expect(
+          this.mock[`$replace_${size1}_${size2}`](outer, value, MAX_OFFSET + 1),
+        ).to.be.revertedWithCustomError(this.mock, 'OutOfRangeAccess');
+      });
+    }
+  });
+});
