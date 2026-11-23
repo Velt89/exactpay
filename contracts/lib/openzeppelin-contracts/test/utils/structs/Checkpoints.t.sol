@@ -1,1 +1,332 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBUaGlzIGZpbGUgd2FzIHByb2NlZHVyYWxseSBnZW5lcmF0ZWQgZnJvbSBzY3JpcHRzL2dlbmVyYXRlL3RlbXBsYXRlcy9DaGVja3BvaW50cy50LmpzLgoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge1Rlc3R9IGZyb20gImZvcmdlLXN0ZC9UZXN0LnNvbCI7CmltcG9ydCB7U2FmZUNhc3R9IGZyb20gIkBvcGVuemVwcGVsaW4vY29udHJhY3RzL3V0aWxzL21hdGgvU2FmZUNhc3Quc29sIjsKaW1wb3J0IHtDaGVja3BvaW50c30gZnJvbSAiQG9wZW56ZXBwZWxpbi9jb250cmFjdHMvdXRpbHMvc3RydWN0cy9DaGVja3BvaW50cy5zb2wiOwoKY29udHJhY3QgQ2hlY2twb2ludHNUcmFjZTIyNFRlc3QgaXMgVGVzdCB7CiAgICB1c2luZyBDaGVja3BvaW50cyBmb3IgQ2hlY2twb2ludHMuVHJhY2UyMjQ7CgogICAgLy8gTWF4aW11bSBnYXAgYmV0d2VlbiBrZXlzIHVzZWQgZHVyaW5nIHRoZSBmdXp6aW5nIHRlc3RzOiB0aGUgYF9wcmVwYXJlS2V5c2AgZnVuY3Rpb24gd2l0aCBtYWtlIHN1cmUgdGhhdAogICAgLy8ga2V5I24rMSBpcyBpbiB0aGUgW2tleSNuLCBrZXkjbiArIF9LRVlfTUFYX0dBUF0gcmFuZ2UuCiAgICB1aW50OCBpbnRlcm5hbCBjb25zdGFudCBfS0VZX01BWF9HQVAgPSA2NDsKCiAgICBDaGVja3BvaW50cy5UcmFjZTIyNCBpbnRlcm5hbCBfY2twdHM7CgogICAgLy8gaGVscGVycwogICAgZnVuY3Rpb24gX2JvdW5kVWludDMyKHVpbnQzMiB4LCB1aW50MzIgbWluLCB1aW50MzIgbWF4KSBpbnRlcm5hbCBwdXJlIHJldHVybnMgKHVpbnQzMikgewogICAgICAgIHJldHVybiBTYWZlQ2FzdC50b1VpbnQzMihib3VuZCh1aW50MjU2KHgpLCB1aW50MjU2KG1pbiksIHVpbnQyNTYobWF4KSkpOwogICAgfQoKICAgIGZ1bmN0aW9uIF9wcmVwYXJlS2V5cyh1aW50MzJbXSBtZW1vcnkga2V5cywgdWludDMyIG1heFNwcmVhZCkgaW50ZXJuYWwgcHVyZSB7CiAgICAgICAgdWludDMyIGxhc3RLZXkgPSAwOwogICAgICAgIGZvciAodWludDI1NiBpID0gMDsgaSA8IGtleXMubGVuZ3RoOyArK2kpIHsKICAgICAgICAgICAgdWludDMyIGtleSA9IF9ib3VuZFVpbnQzMihrZXlzW2ldLCBsYXN0S2V5LCBsYXN0S2V5ICsgbWF4U3ByZWFkKTsKICAgICAgICAgICAga2V5c1tpXSA9IGtleTsKICAgICAgICAgICAgbGFzdEtleSA9IGtleTsKICAgICAgICB9CiAgICB9CgogICAgZnVuY3Rpb24gX2Fzc2VydExhdGVzdENoZWNrcG9pbnQoYm9vbCBleGlzdCwgdWludDMyIGtleSwgdWludDIyNCB2YWx1ZSkgaW50ZXJuYWwgewogICAgICAgIChib29sIF9leGlzdCwgdWludDMyIF9rZXksIHVpbnQyMjQgX3ZhbHVlKSA9IF9ja3B0cy5sYXRlc3RDaGVja3BvaW50KCk7CiAgICAgICAgYXNzZXJ0RXEoX2V4aXN0LCBleGlzdCk7CiAgICAgICAgYXNzZXJ0RXEoX2tleSwga2V5KTsKICAgICAgICBhc3NlcnRFcShfdmFsdWUsIHZhbHVlKTsKICAgIH0KCiAgICAvLyB0ZXN0cwogICAgZnVuY3Rpb24gdGVzdFB1c2godWludDMyW10gbWVtb3J5IGtleXMsIHVpbnQyMjRbXSBtZW1vcnkgdmFsdWVzLCB1aW50MzIgcGFzdEtleSkgcHVibGljIHsKICAgICAgICB2bS5hc3N1bWUodmFsdWVzLmxlbmd0aCA+IDAgJiYgdmFsdWVzLmxlbmd0aCA8PSBrZXlzLmxlbmd0aCk7CiAgICAgICAgX3ByZXBhcmVLZXlzKGtleXMsIF9LRVlfTUFYX0dBUCk7CgogICAgICAgIC8vIGluaXRpYWwgc3RhdGUKICAgICAgICBhc3NlcnRFcShfY2twdHMubGVuZ3RoKCksIDApOwogICAgICAgIGFzc2VydEVxKF9ja3B0cy5sYXRlc3QoKSwgMCk7CiAgICAgICAgX2Fzc2VydExhdGVzdENoZWNrcG9pbnQoZmFsc2UsIDAsIDApOwoKICAgICAgICB1aW50MjU2IGR1cGxpY2F0ZXMgPSAwOwogICAgICAgIGZvciAodWludDI1NiBpID0gMDsgaSA8IGtleXMubGVuZ3RoOyArK2kpIHsKICAgICAgICAgICAgdWludDMyIGtleSA9IGtleXNbaV07CiAgICAgICAgICAgIHVpbnQyMjQgdmFsdWUgPSB2YWx1ZXNbaSAlIHZhbHVlcy5sZW5ndGhdOwogICAgICAgICAgICBpZiAoaSA+IDAgJiYga2V5ID09IGtleXNbaSAtIDFdKSArK2R1cGxpY2F0ZXM7CgogICAgICAgICAgICAvLyBwdXNoCiAgICAgICAgICAgIF9ja3B0cy5wdXNoKGtleSwgdmFsdWUpOwoKICAgICAgICAgICAgLy8gY2hlY2sgbGVuZ3RoICYgbGF0ZXN0CiAgICAgICAgICAgIGFzc2VydEVxKF9ja3B0cy5sZW5ndGgoKSwgaSArIDEgLSBkdXBsaWNhdGVzKTsKICAgICAgICAgICAgYXNzZXJ0RXEoX2NrcHRzLmxhdGVzdCgpLCB2YWx1ZSk7CiAgICAgICAgICAgIF9hc3NlcnRMYXRlc3RDaGVja3BvaW50KHRydWUsIGtleSwgdmFsdWUpOwogICAgICAgIH0KCiAgICAgICAgaWYgKGtleXMubGVuZ3RoID4gMCkgewogICAgICAgICAgICB1aW50MzIgbGFzdEtleSA9IGtleXNba2V5cy5sZW5ndGggLSAxXTsKICAgICAgICAgICAgaWYgKGxhc3RLZXkgPiAwKSB7CiAgICAgICAgICAgICAgICBwYXN0S2V5ID0gX2JvdW5kVWludDMyKHBhc3RLZXksIDAsIGxhc3RLZXkgLSAxKTsKCiAgICAgICAgICAgICAgICB2bS5leHBlY3RSZXZlcnQoKTsKICAgICAgICAgICAgICAgIHRoaXMucHVzaChwYXN0S2V5LCB2YWx1ZXNba2V5cy5sZW5ndGggJSB2YWx1ZXMubGVuZ3RoXSk7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgLy8gdXNlZCB0byB0ZXN0IHJldmVydHMKICAgIGZ1bmN0aW9uIHB1c2godWludDMyIGtleSwgdWludDIyNCB2YWx1ZSkgZXh0ZXJuYWwgewogICAgICAgIF9ja3B0cy5wdXNoKGtleSwgdmFsdWUpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RMb29rdXAodWludDMyW10gbWVtb3J5IGtleXMsIHVpbnQyMjRbXSBtZW1vcnkgdmFsdWVzLCB1aW50MzIgbG9va3VwKSBwdWJsaWMgewogICAgICAgIHZtLmFzc3VtZSh2YWx1ZXMubGVuZ3RoID4gMCAmJiB2YWx1ZXMubGVuZ3RoIDw9IGtleXMubGVuZ3RoKTsKICAgICAgICBfcHJlcGFyZUtleXMoa2V5cywgX0tFWV9NQVhfR0FQKTsKCiAgICAgICAgdWludDMyIGxhc3RLZXkgPSBrZXlzLmxlbmd0aCA9PSAwID8gMCA6IGtleXNba2V5cy5sZW5ndGggLSAxXTsKICAgICAgICBsb29rdXAgPSBfYm91bmRVaW50MzIobG9va3VwLCAwLCBsYXN0S2V5ICsgX0tFWV9NQVhfR0FQKTsKCiAgICAgICAgdWludDIyNCB1cHBlciA9IDA7CiAgICAgICAgdWludDIyNCBsb3dlciA9IDA7CiAgICAgICAgdWludDMyIGxvd2VyS2V5ID0gdHlwZSh1aW50MzIpLm1heDsKICAgICAgICBmb3IgKHVpbnQyNTYgaSA9IDA7IGkgPCBrZXlzLmxlbmd0aDsgKytpKSB7CiAgICAgICAgICAgIHVpbnQzMiBrZXkgPSBrZXlzW2ldOwogICAgICAgICAgICB1aW50MjI0IHZhbHVlID0gdmFsdWVzW2kgJSB2YWx1ZXMubGVuZ3RoXTsKCiAgICAgICAgICAgIC8vIHB1c2gKICAgICAgICAgICAgX2NrcHRzLnB1c2goa2V5LCB2YWx1ZSk7CgogICAgICAgICAgICAvLyB0cmFjayBleHBlY3RlZCByZXN1bHQgb2YgbG9va3VwcwogICAgICAgICAgICBpZiAoa2V5IDw9IGxvb2t1cCkgewogICAgICAgICAgICAgICAgdXBwZXIgPSB2YWx1ZTsKICAgICAgICAgICAgfQogICAgICAgICAgICAvLyBmaW5kIHRoZSBmaXJzdCBrZXkgdGhhdCBpcyBub3Qgc21hbGxlciB0aGFuIHRoZSBsb29rdXAga2V5CiAgICAgICAgICAgIGlmIChrZXkgPj0gbG9va3VwICYmIChpID09IDAgfHwga2V5c1tpIC0gMV0gPCBsb29rdXApKSB7CiAgICAgICAgICAgICAgICBsb3dlcktleSA9IGtleTsKICAgICAgICAgICAgfQogICAgICAgICAgICBpZiAoa2V5ID09IGxvd2VyS2V5KSB7CiAgICAgICAgICAgICAgICBsb3dlciA9IHZhbHVlOwogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICAvLyBjaGVjayBsb29rdXAKICAgICAgICBhc3NlcnRFcShfY2twdHMubG93ZXJMb29rdXAobG9va3VwKSwgbG93ZXIpOwogICAgICAgIGFzc2VydEVxKF9ja3B0cy51cHBlckxvb2t1cChsb29rdXApLCB1cHBlcik7CiAgICAgICAgYXNzZXJ0RXEoX2NrcHRzLnVwcGVyTG9va3VwUmVjZW50KGxvb2t1cCksIHVwcGVyKTsKICAgIH0KfQoKY29udHJhY3QgQ2hlY2twb2ludHNUcmFjZTIwOFRlc3QgaXMgVGVzdCB7CiAgICB1c2luZyBDaGVja3BvaW50cyBmb3IgQ2hlY2twb2ludHMuVHJhY2UyMDg7CgogICAgLy8gTWF4aW11bSBnYXAgYmV0d2VlbiBrZXlzIHVzZWQgZHVyaW5nIHRoZSBmdXp6aW5nIHRlc3RzOiB0aGUgYF9wcmVwYXJlS2V5c2AgZnVuY3Rpb24gd2l0aCBtYWtlIHN1cmUgdGhhdAogICAgLy8ga2V5I24rMSBpcyBpbiB0aGUgW2tleSNuLCBrZXkjbiArIF9LRVlfTUFYX0dBUF0gcmFuZ2UuCiAgICB1aW50OCBpbnRlcm5hbCBjb25zdGFudCBfS0VZX01BWF9HQVAgPSA2NDsKCiAgICBDaGVja3BvaW50cy5UcmFjZTIwOCBpbnRlcm5hbCBfY2twdHM7CgogICAgLy8gaGVscGVycwogICAgZnVuY3Rpb24gX2JvdW5kVWludDQ4KHVpbnQ0OCB4LCB1aW50NDggbWluLCB1aW50NDggbWF4KSBpbnRlcm5hbCBwdXJlIHJldHVybnMgKHVpbnQ0OCkgewogICAgICAgIHJldHVybiBTYWZlQ2FzdC50b1VpbnQ0OChib3VuZCh1aW50MjU2KHgpLCB1aW50MjU2KG1pbiksIHVpbnQyNTYobWF4KSkpOwogICAgfQoKICAgIGZ1bmN0aW9uIF9wcmVwYXJlS2V5cyh1aW50NDhbXSBtZW1vcnkga2V5cywgdWludDQ4IG1heFNwcmVhZCkgaW50ZXJuYWwgcHVyZSB7CiAgICAgICAgdWludDQ4IGxhc3RLZXkgPSAwOwogICAgICAgIGZvciAodWludDI1NiBpID0gMDsgaSA8IGtleXMubGVuZ3RoOyArK2kpIHsKICAgICAgICAgICAgdWludDQ4IGtleSA9IF9ib3VuZFVpbnQ0OChrZXlzW2ldLCBsYXN0S2V5LCBsYXN0S2V5ICsgbWF4U3ByZWFkKTsKICAgICAgICAgICAga2V5c1tpXSA9IGtleTsKICAgICAgICAgICAgbGFzdEtleSA9IGtleTsKICAgICAgICB9CiAgICB9CgogICAgZnVuY3Rpb24gX2Fzc2VydExhdGVzdENoZWNrcG9pbnQoYm9vbCBleGlzdCwgdWludDQ4IGtleSwgdWludDIwOCB2YWx1ZSkgaW50ZXJuYWwgewogICAgICAgIChib29sIF9leGlzdCwgdWludDQ4IF9rZXksIHVpbnQyMDggX3ZhbHVlKSA9IF9ja3B0cy5sYXRlc3RDaGVja3BvaW50KCk7CiAgICAgICAgYXNzZXJ0RXEoX2V4aXN0LCBleGlzdCk7CiAgICAgICAgYXNzZXJ0RXEoX2tleSwga2V5KTsKICAgICAgICBhc3NlcnRFcShfdmFsdWUsIHZhbHVlKTsKICAgIH0KCiAgICAvLyB0ZXN0cwogICAgZnVuY3Rpb24gdGVzdFB1c2godWludDQ4W10gbWVtb3J5IGtleXMsIHVpbnQyMDhbXSBtZW1vcnkgdmFsdWVzLCB1aW50NDggcGFzdEtleSkgcHVibGljIHsKICAgICAgICB2bS5hc3N1bWUodmFsdWVzLmxlbmd0aCA+IDAgJiYgdmFsdWVzLmxlbmd0aCA8PSBrZXlzLmxlbmd0aCk7CiAgICAgICAgX3ByZXBhcmVLZXlzKGtleXMsIF9LRVlfTUFYX0dBUCk7CgogICAgICAgIC8vIGluaXRpYWwgc3RhdGUKICAgICAgICBhc3NlcnRFcShfY2twdHMubGVuZ3RoKCksIDApOwogICAgICAgIGFzc2VydEVxKF9ja3B0cy5sYXRlc3QoKSwgMCk7CiAgICAgICAgX2Fzc2VydExhdGVzdENoZWNrcG9pbnQoZmFsc2UsIDAsIDApOwoKICAgICAgICB1aW50MjU2IGR1cGxpY2F0ZXMgPSAwOwogICAgICAgIGZvciAodWludDI1NiBpID0gMDsgaSA8IGtleXMubGVuZ3RoOyArK2kpIHsKICAgICAgICAgICAgdWludDQ4IGtleSA9IGtleXNbaV07CiAgICAgICAgICAgIHVpbnQyMDggdmFsdWUgPSB2YWx1ZXNbaSAlIHZhbHVlcy5sZW5ndGhdOwogICAgICAgICAgICBpZiAoaSA+IDAgJiYga2V5ID09IGtleXNbaSAtIDFdKSArK2R1cGxpY2F0ZXM7CgogICAgICAgICAgICAvLyBwdXNoCiAgICAgICAgICAgIF9ja3B0cy5wdXNoKGtleSwgdmFsdWUpOwoKICAgICAgICAgICAgLy8gY2hlY2sgbGVuZ3RoICYgbGF0ZXN0CiAgICAgICAgICAgIGFzc2VydEVxKF9ja3B0cy5sZW5ndGgoKSwgaSArIDEgLSBkdXBsaWNhdGVzKTsKICAgICAgICAgICAgYXNzZXJ0RXEoX2NrcHRzLmxhdGVzdCgpLCB2YWx1ZSk7CiAgICAgICAgICAgIF9hc3NlcnRMYXRlc3RDaGVja3BvaW50KHRydWUsIGtleSwgdmFsdWUpOwogICAgICAgIH0KCiAgICAgICAgaWYgKGtleXMubGVuZ3RoID4gMCkgewogICAgICAgICAgICB1aW50NDggbGFzdEtleSA9IGtleXNba2V5cy5sZW5ndGggLSAxXTsKICAgICAgICAgICAgaWYgKGxhc3RLZXkgPiAwKSB7CiAgICAgICAgICAgICAgICBwYXN0S2V5ID0gX2JvdW5kVWludDQ4KHBhc3RLZXksIDAsIGxhc3RLZXkgLSAxKTsKCiAgICAgICAgICAgICAgICB2bS5leHBlY3RSZXZlcnQoKTsKICAgICAgICAgICAgICAgIHRoaXMucHVzaChwYXN0S2V5LCB2YWx1ZXNba2V5cy5sZW5ndGggJSB2YWx1ZXMubGVuZ3RoXSk7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgLy8gdXNlZCB0byB0ZXN0IHJldmVydHMKICAgIGZ1bmN0aW9uIHB1c2godWludDQ4IGtleSwgdWludDIwOCB2YWx1ZSkgZXh0ZXJuYWwgewogICAgICAgIF9ja3B0cy5wdXNoKGtleSwgdmFsdWUpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RMb29rdXAodWludDQ4W10gbWVtb3J5IGtleXMsIHVpbnQyMDhbXSBtZW1vcnkgdmFsdWVzLCB1aW50NDggbG9va3VwKSBwdWJsaWMgewogICAgICAgIHZtLmFzc3VtZSh2YWx1ZXMubGVuZ3RoID4gMCAmJiB2YWx1ZXMubGVuZ3RoIDw9IGtleXMubGVuZ3RoKTsKICAgICAgICBfcHJlcGFyZUtleXMoa2V5cywgX0tFWV9NQVhfR0FQKTsKCiAgICAgICAgdWludDQ4IGxhc3RLZXkgPSBrZXlzLmxlbmd0aCA9PSAwID8gMCA6IGtleXNba2V5cy5sZW5ndGggLSAxXTsKICAgICAgICBsb29rdXAgPSBfYm91bmRVaW50NDgobG9va3VwLCAwLCBsYXN0S2V5ICsgX0tFWV9NQVhfR0FQKTsKCiAgICAgICAgdWludDIwOCB1cHBlciA9IDA7CiAgICAgICAgdWludDIwOCBsb3dlciA9IDA7CiAgICAgICAgdWludDQ4IGxvd2VyS2V5ID0gdHlwZSh1aW50NDgpLm1heDsKICAgICAgICBmb3IgKHVpbnQyNTYgaSA9IDA7IGkgPCBrZXlzLmxlbmd0aDsgKytpKSB7CiAgICAgICAgICAgIHVpbnQ0OCBrZXkgPSBrZXlzW2ldOwogICAgICAgICAgICB1aW50MjA4IHZhbHVlID0gdmFsdWVzW2kgJSB2YWx1ZXMubGVuZ3RoXTsKCiAgICAgICAgICAgIC8vIHB1c2gKICAgICAgICAgICAgX2NrcHRzLnB1c2goa2V5LCB2YWx1ZSk7CgogICAgICAgICAgICAvLyB0cmFjayBleHBlY3RlZCByZXN1bHQgb2YgbG9va3VwcwogICAgICAgICAgICBpZiAoa2V5IDw9IGxvb2t1cCkgewogICAgICAgICAgICAgICAgdXBwZXIgPSB2YWx1ZTsKICAgICAgICAgICAgfQogICAgICAgICAgICAvLyBmaW5kIHRoZSBmaXJzdCBrZXkgdGhhdCBpcyBub3Qgc21hbGxlciB0aGFuIHRoZSBsb29rdXAga2V5CiAgICAgICAgICAgIGlmIChrZXkgPj0gbG9va3VwICYmIChpID09IDAgfHwga2V5c1tpIC0gMV0gPCBsb29rdXApKSB7CiAgICAgICAgICAgICAgICBsb3dlcktleSA9IGtleTsKICAgICAgICAgICAgfQogICAgICAgICAgICBpZiAoa2V5ID09IGxvd2VyS2V5KSB7CiAgICAgICAgICAgICAgICBsb3dlciA9IHZhbHVlOwogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICAvLyBjaGVjayBsb29rdXAKICAgICAgICBhc3NlcnRFcShfY2twdHMubG93ZXJMb29rdXAobG9va3VwKSwgbG93ZXIpOwogICAgICAgIGFzc2VydEVxKF9ja3B0cy51cHBlckxvb2t1cChsb29rdXApLCB1cHBlcik7CiAgICAgICAgYXNzZXJ0RXEoX2NrcHRzLnVwcGVyTG9va3VwUmVjZW50KGxvb2t1cCksIHVwcGVyKTsKICAgIH0KfQoKY29udHJhY3QgQ2hlY2twb2ludHNUcmFjZTE2MFRlc3QgaXMgVGVzdCB7CiAgICB1c2luZyBDaGVja3BvaW50cyBmb3IgQ2hlY2twb2ludHMuVHJhY2UxNjA7CgogICAgLy8gTWF4aW11bSBnYXAgYmV0d2VlbiBrZXlzIHVzZWQgZHVyaW5nIHRoZSBmdXp6aW5nIHRlc3RzOiB0aGUgYF9wcmVwYXJlS2V5c2AgZnVuY3Rpb24gd2l0aCBtYWtlIHN1cmUgdGhhdAogICAgLy8ga2V5I24rMSBpcyBpbiB0aGUgW2tleSNuLCBrZXkjbiArIF9LRVlfTUFYX0dBUF0gcmFuZ2UuCiAgICB1aW50OCBpbnRlcm5hbCBjb25zdGFudCBfS0VZX01BWF9HQVAgPSA2NDsKCiAgICBDaGVja3BvaW50cy5UcmFjZTE2MCBpbnRlcm5hbCBfY2twdHM7CgogICAgLy8gaGVscGVycwogICAgZnVuY3Rpb24gX2JvdW5kVWludDk2KHVpbnQ5NiB4LCB1aW50OTYgbWluLCB1aW50OTYgbWF4KSBpbnRlcm5hbCBwdXJlIHJldHVybnMgKHVpbnQ5NikgewogICAgICAgIHJldHVybiBTYWZlQ2FzdC50b1VpbnQ5Nihib3VuZCh1aW50MjU2KHgpLCB1aW50MjU2KG1pbiksIHVpbnQyNTYobWF4KSkpOwogICAgfQoKICAgIGZ1bmN0aW9uIF9wcmVwYXJlS2V5cyh1aW50OTZbXSBtZW1vcnkga2V5cywgdWludDk2IG1heFNwcmVhZCkgaW50ZXJuYWwgcHVyZSB7CiAgICAgICAgdWludDk2IGxhc3RLZXkgPSAwOwogICAgICAgIGZvciAodWludDI1NiBpID0gMDsgaSA8IGtleXMubGVuZ3RoOyArK2kpIHsKICAgICAgICAgICAgdWludDk2IGtleSA9IF9ib3VuZFVpbnQ5NihrZXlzW2ldLCBsYXN0S2V5LCBsYXN0S2V5ICsgbWF4U3ByZWFkKTsKICAgICAgICAgICAga2V5c1tpXSA9IGtleTsKICAgICAgICAgICAgbGFzdEtleSA9IGtleTsKICAgICAgICB9CiAgICB9CgogICAgZnVuY3Rpb24gX2Fzc2VydExhdGVzdENoZWNrcG9pbnQoYm9vbCBleGlzdCwgdWludDk2IGtleSwgdWludDE2MCB2YWx1ZSkgaW50ZXJuYWwgewogICAgICAgIChib29sIF9leGlzdCwgdWludDk2IF9rZXksIHVpbnQxNjAgX3ZhbHVlKSA9IF9ja3B0cy5sYXRlc3RDaGVja3BvaW50KCk7CiAgICAgICAgYXNzZXJ0RXEoX2V4aXN0LCBleGlzdCk7CiAgICAgICAgYXNzZXJ0RXEoX2tleSwga2V5KTsKICAgICAgICBhc3NlcnRFcShfdmFsdWUsIHZhbHVlKTsKICAgIH0KCiAgICAvLyB0ZXN0cwogICAgZnVuY3Rpb24gdGVzdFB1c2godWludDk2W10gbWVtb3J5IGtleXMsIHVpbnQxNjBbXSBtZW1vcnkgdmFsdWVzLCB1aW50OTYgcGFzdEtleSkgcHVibGljIHsKICAgICAgICB2bS5hc3N1bWUodmFsdWVzLmxlbmd0aCA+IDAgJiYgdmFsdWVzLmxlbmd0aCA8PSBrZXlzLmxlbmd0aCk7CiAgICAgICAgX3ByZXBhcmVLZXlzKGtleXMsIF9LRVlfTUFYX0dBUCk7CgogICAgICAgIC8vIGluaXRpYWwgc3RhdGUKICAgICAgICBhc3NlcnRFcShfY2twdHMubGVuZ3RoKCksIDApOwogICAgICAgIGFzc2VydEVxKF9ja3B0cy5sYXRlc3QoKSwgMCk7CiAgICAgICAgX2Fzc2VydExhdGVzdENoZWNrcG9pbnQoZmFsc2UsIDAsIDApOwoKICAgICAgICB1aW50MjU2IGR1cGxpY2F0ZXMgPSAwOwogICAgICAgIGZvciAodWludDI1NiBpID0gMDsgaSA8IGtleXMubGVuZ3RoOyArK2kpIHsKICAgICAgICAgICAgdWludDk2IGtleSA9IGtleXNbaV07CiAgICAgICAgICAgIHVpbnQxNjAgdmFsdWUgPSB2YWx1ZXNbaSAlIHZhbHVlcy5sZW5ndGhdOwogICAgICAgICAgICBpZiAoaSA+IDAgJiYga2V5ID09IGtleXNbaSAtIDFdKSArK2R1cGxpY2F0ZXM7CgogICAgICAgICAgICAvLyBwdXNoCiAgICAgICAgICAgIF9ja3B0cy5wdXNoKGtleSwgdmFsdWUpOwoKICAgICAgICAgICAgLy8gY2hlY2sgbGVuZ3RoICYgbGF0ZXN0CiAgICAgICAgICAgIGFzc2VydEVxKF9ja3B0cy5sZW5ndGgoKSwgaSArIDEgLSBkdXBsaWNhdGVzKTsKICAgICAgICAgICAgYXNzZXJ0RXEoX2NrcHRzLmxhdGVzdCgpLCB2YWx1ZSk7CiAgICAgICAgICAgIF9hc3NlcnRMYXRlc3RDaGVja3BvaW50KHRydWUsIGtleSwgdmFsdWUpOwogICAgICAgIH0KCiAgICAgICAgaWYgKGtleXMubGVuZ3RoID4gMCkgewogICAgICAgICAgICB1aW50OTYgbGFzdEtleSA9IGtleXNba2V5cy5sZW5ndGggLSAxXTsKICAgICAgICAgICAgaWYgKGxhc3RLZXkgPiAwKSB7CiAgICAgICAgICAgICAgICBwYXN0S2V5ID0gX2JvdW5kVWludDk2KHBhc3RLZXksIDAsIGxhc3RLZXkgLSAxKTsKCiAgICAgICAgICAgICAgICB2bS5leHBlY3RSZXZlcnQoKTsKICAgICAgICAgICAgICAgIHRoaXMucHVzaChwYXN0S2V5LCB2YWx1ZXNba2V5cy5sZW5ndGggJSB2YWx1ZXMubGVuZ3RoXSk7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgLy8gdXNlZCB0byB0ZXN0IHJldmVydHMKICAgIGZ1bmN0aW9uIHB1c2godWludDk2IGtleSwgdWludDE2MCB2YWx1ZSkgZXh0ZXJuYWwgewogICAgICAgIF9ja3B0cy5wdXNoKGtleSwgdmFsdWUpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RMb29rdXAodWludDk2W10gbWVtb3J5IGtleXMsIHVpbnQxNjBbXSBtZW1vcnkgdmFsdWVzLCB1aW50OTYgbG9va3VwKSBwdWJsaWMgewogICAgICAgIHZtLmFzc3VtZSh2YWx1ZXMubGVuZ3RoID4gMCAmJiB2YWx1ZXMubGVuZ3RoIDw9IGtleXMubGVuZ3RoKTsKICAgICAgICBfcHJlcGFyZUtleXMoa2V5cywgX0tFWV9NQVhfR0FQKTsKCiAgICAgICAgdWludDk2IGxhc3RLZXkgPSBrZXlzLmxlbmd0aCA9PSAwID8gMCA6IGtleXNba2V5cy5sZW5ndGggLSAxXTsKICAgICAgICBsb29rdXAgPSBfYm91bmRVaW50OTYobG9va3VwLCAwLCBsYXN0S2V5ICsgX0tFWV9NQVhfR0FQKTsKCiAgICAgICAgdWludDE2MCB1cHBlciA9IDA7CiAgICAgICAgdWludDE2MCBsb3dlciA9IDA7CiAgICAgICAgdWludDk2IGxvd2VyS2V5ID0gdHlwZSh1aW50OTYpLm1heDsKICAgICAgICBmb3IgKHVpbnQyNTYgaSA9IDA7IGkgPCBrZXlzLmxlbmd0aDsgKytpKSB7CiAgICAgICAgICAgIHVpbnQ5NiBrZXkgPSBrZXlzW2ldOwogICAgICAgICAgICB1aW50MTYwIHZhbHVlID0gdmFsdWVzW2kgJSB2YWx1ZXMubGVuZ3RoXTsKCiAgICAgICAgICAgIC8vIHB1c2gKICAgICAgICAgICAgX2NrcHRzLnB1c2goa2V5LCB2YWx1ZSk7CgogICAgICAgICAgICAvLyB0cmFjayBleHBlY3RlZCByZXN1bHQgb2YgbG9va3VwcwogICAgICAgICAgICBpZiAoa2V5IDw9IGxvb2t1cCkgewogICAgICAgICAgICAgICAgdXBwZXIgPSB2YWx1ZTsKICAgICAgICAgICAgfQogICAgICAgICAgICAvLyBmaW5kIHRoZSBmaXJzdCBrZXkgdGhhdCBpcyBub3Qgc21hbGxlciB0aGFuIHRoZSBsb29rdXAga2V5CiAgICAgICAgICAgIGlmIChrZXkgPj0gbG9va3VwICYmIChpID09IDAgfHwga2V5c1tpIC0gMV0gPCBsb29rdXApKSB7CiAgICAgICAgICAgICAgICBsb3dlcktleSA9IGtleTsKICAgICAgICAgICAgfQogICAgICAgICAgICBpZiAoa2V5ID09IGxvd2VyS2V5KSB7CiAgICAgICAgICAgICAgICBsb3dlciA9IHZhbHVlOwogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICAvLyBjaGVjayBsb29rdXAKICAgICAgICBhc3NlcnRFcShfY2twdHMubG93ZXJMb29rdXAobG9va3VwKSwgbG93ZXIpOwogICAgICAgIGFzc2VydEVxKF9ja3B0cy51cHBlckxvb2t1cChsb29rdXApLCB1cHBlcik7CiAgICAgICAgYXNzZXJ0RXEoX2NrcHRzLnVwcGVyTG9va3VwUmVjZW50KGxvb2t1cCksIHVwcGVyKTsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+// This file was procedurally generated from scripts/generate/templates/Checkpoints.t.js.
+
+pragma solidity ^0.8.20;
+
+import {Test} from "forge-std/Test.sol";
+import {SafeCast} from "@openzeppelin/contracts/utils/math/SafeCast.sol";
+import {Checkpoints} from "@openzeppelin/contracts/utils/structs/Checkpoints.sol";
+
+contract CheckpointsTrace224Test is Test {
+    using Checkpoints for Checkpoints.Trace224;
+
+    // Maximum gap between keys used during the fuzzing tests: the `_prepareKeys` function with make sure that
+    // key#n+1 is in the [key#n, key#n + _KEY_MAX_GAP] range.
+    uint8 internal constant _KEY_MAX_GAP = 64;
+
+    Checkpoints.Trace224 internal _ckpts;
+
+    // helpers
+    function _boundUint32(uint32 x, uint32 min, uint32 max) internal pure returns (uint32) {
+        return SafeCast.toUint32(bound(uint256(x), uint256(min), uint256(max)));
+    }
+
+    function _prepareKeys(uint32[] memory keys, uint32 maxSpread) internal pure {
+        uint32 lastKey = 0;
+        for (uint256 i = 0; i < keys.length; ++i) {
+            uint32 key = _boundUint32(keys[i], lastKey, lastKey + maxSpread);
+            keys[i] = key;
+            lastKey = key;
+        }
+    }
+
+    function _assertLatestCheckpoint(bool exist, uint32 key, uint224 value) internal {
+        (bool _exist, uint32 _key, uint224 _value) = _ckpts.latestCheckpoint();
+        assertEq(_exist, exist);
+        assertEq(_key, key);
+        assertEq(_value, value);
+    }
+
+    // tests
+    function testPush(uint32[] memory keys, uint224[] memory values, uint32 pastKey) public {
+        vm.assume(values.length > 0 && values.length <= keys.length);
+        _prepareKeys(keys, _KEY_MAX_GAP);
+
+        // initial state
+        assertEq(_ckpts.length(), 0);
+        assertEq(_ckpts.latest(), 0);
+        _assertLatestCheckpoint(false, 0, 0);
+
+        uint256 duplicates = 0;
+        for (uint256 i = 0; i < keys.length; ++i) {
+            uint32 key = keys[i];
+            uint224 value = values[i % values.length];
+            if (i > 0 && key == keys[i - 1]) ++duplicates;
+
+            // push
+            _ckpts.push(key, value);
+
+            // check length & latest
+            assertEq(_ckpts.length(), i + 1 - duplicates);
+            assertEq(_ckpts.latest(), value);
+            _assertLatestCheckpoint(true, key, value);
+        }
+
+        if (keys.length > 0) {
+            uint32 lastKey = keys[keys.length - 1];
+            if (lastKey > 0) {
+                pastKey = _boundUint32(pastKey, 0, lastKey - 1);
+
+                vm.expectRevert();
+                this.push(pastKey, values[keys.length % values.length]);
+            }
+        }
+    }
+
+    // used to test reverts
+    function push(uint32 key, uint224 value) external {
+        _ckpts.push(key, value);
+    }
+
+    function testLookup(uint32[] memory keys, uint224[] memory values, uint32 lookup) public {
+        vm.assume(values.length > 0 && values.length <= keys.length);
+        _prepareKeys(keys, _KEY_MAX_GAP);
+
+        uint32 lastKey = keys.length == 0 ? 0 : keys[keys.length - 1];
+        lookup = _boundUint32(lookup, 0, lastKey + _KEY_MAX_GAP);
+
+        uint224 upper = 0;
+        uint224 lower = 0;
+        uint32 lowerKey = type(uint32).max;
+        for (uint256 i = 0; i < keys.length; ++i) {
+            uint32 key = keys[i];
+            uint224 value = values[i % values.length];
+
+            // push
+            _ckpts.push(key, value);
+
+            // track expected result of lookups
+            if (key <= lookup) {
+                upper = value;
+            }
+            // find the first key that is not smaller than the lookup key
+            if (key >= lookup && (i == 0 || keys[i - 1] < lookup)) {
+                lowerKey = key;
+            }
+            if (key == lowerKey) {
+                lower = value;
+            }
+        }
+
+        // check lookup
+        assertEq(_ckpts.lowerLookup(lookup), lower);
+        assertEq(_ckpts.upperLookup(lookup), upper);
+        assertEq(_ckpts.upperLookupRecent(lookup), upper);
+    }
+}
+
+contract CheckpointsTrace208Test is Test {
+    using Checkpoints for Checkpoints.Trace208;
+
+    // Maximum gap between keys used during the fuzzing tests: the `_prepareKeys` function with make sure that
+    // key#n+1 is in the [key#n, key#n + _KEY_MAX_GAP] range.
+    uint8 internal constant _KEY_MAX_GAP = 64;
+
+    Checkpoints.Trace208 internal _ckpts;
+
+    // helpers
+    function _boundUint48(uint48 x, uint48 min, uint48 max) internal pure returns (uint48) {
+        return SafeCast.toUint48(bound(uint256(x), uint256(min), uint256(max)));
+    }
+
+    function _prepareKeys(uint48[] memory keys, uint48 maxSpread) internal pure {
+        uint48 lastKey = 0;
+        for (uint256 i = 0; i < keys.length; ++i) {
+            uint48 key = _boundUint48(keys[i], lastKey, lastKey + maxSpread);
+            keys[i] = key;
+            lastKey = key;
+        }
+    }
+
+    function _assertLatestCheckpoint(bool exist, uint48 key, uint208 value) internal {
+        (bool _exist, uint48 _key, uint208 _value) = _ckpts.latestCheckpoint();
+        assertEq(_exist, exist);
+        assertEq(_key, key);
+        assertEq(_value, value);
+    }
+
+    // tests
+    function testPush(uint48[] memory keys, uint208[] memory values, uint48 pastKey) public {
+        vm.assume(values.length > 0 && values.length <= keys.length);
+        _prepareKeys(keys, _KEY_MAX_GAP);
+
+        // initial state
+        assertEq(_ckpts.length(), 0);
+        assertEq(_ckpts.latest(), 0);
+        _assertLatestCheckpoint(false, 0, 0);
+
+        uint256 duplicates = 0;
+        for (uint256 i = 0; i < keys.length; ++i) {
+            uint48 key = keys[i];
+            uint208 value = values[i % values.length];
+            if (i > 0 && key == keys[i - 1]) ++duplicates;
+
+            // push
+            _ckpts.push(key, value);
+
+            // check length & latest
+            assertEq(_ckpts.length(), i + 1 - duplicates);
+            assertEq(_ckpts.latest(), value);
+            _assertLatestCheckpoint(true, key, value);
+        }
+
+        if (keys.length > 0) {
+            uint48 lastKey = keys[keys.length - 1];
+            if (lastKey > 0) {
+                pastKey = _boundUint48(pastKey, 0, lastKey - 1);
+
+                vm.expectRevert();
+                this.push(pastKey, values[keys.length % values.length]);
+            }
+        }
+    }
+
+    // used to test reverts
+    function push(uint48 key, uint208 value) external {
+        _ckpts.push(key, value);
+    }
+
+    function testLookup(uint48[] memory keys, uint208[] memory values, uint48 lookup) public {
+        vm.assume(values.length > 0 && values.length <= keys.length);
+        _prepareKeys(keys, _KEY_MAX_GAP);
+
+        uint48 lastKey = keys.length == 0 ? 0 : keys[keys.length - 1];
+        lookup = _boundUint48(lookup, 0, lastKey + _KEY_MAX_GAP);
+
+        uint208 upper = 0;
+        uint208 lower = 0;
+        uint48 lowerKey = type(uint48).max;
+        for (uint256 i = 0; i < keys.length; ++i) {
+            uint48 key = keys[i];
+            uint208 value = values[i % values.length];
+
+            // push
+            _ckpts.push(key, value);
+
+            // track expected result of lookups
+            if (key <= lookup) {
+                upper = value;
+            }
+            // find the first key that is not smaller than the lookup key
+            if (key >= lookup && (i == 0 || keys[i - 1] < lookup)) {
+                lowerKey = key;
+            }
+            if (key == lowerKey) {
+                lower = value;
+            }
+        }
+
+        // check lookup
+        assertEq(_ckpts.lowerLookup(lookup), lower);
+        assertEq(_ckpts.upperLookup(lookup), upper);
+        assertEq(_ckpts.upperLookupRecent(lookup), upper);
+    }
+}
+
+contract CheckpointsTrace160Test is Test {
+    using Checkpoints for Checkpoints.Trace160;
+
+    // Maximum gap between keys used during the fuzzing tests: the `_prepareKeys` function with make sure that
+    // key#n+1 is in the [key#n, key#n + _KEY_MAX_GAP] range.
+    uint8 internal constant _KEY_MAX_GAP = 64;
+
+    Checkpoints.Trace160 internal _ckpts;
+
+    // helpers
+    function _boundUint96(uint96 x, uint96 min, uint96 max) internal pure returns (uint96) {
+        return SafeCast.toUint96(bound(uint256(x), uint256(min), uint256(max)));
+    }
+
+    function _prepareKeys(uint96[] memory keys, uint96 maxSpread) internal pure {
+        uint96 lastKey = 0;
+        for (uint256 i = 0; i < keys.length; ++i) {
+            uint96 key = _boundUint96(keys[i], lastKey, lastKey + maxSpread);
+            keys[i] = key;
+            lastKey = key;
+        }
+    }
+
+    function _assertLatestCheckpoint(bool exist, uint96 key, uint160 value) internal {
+        (bool _exist, uint96 _key, uint160 _value) = _ckpts.latestCheckpoint();
+        assertEq(_exist, exist);
+        assertEq(_key, key);
+        assertEq(_value, value);
+    }
+
+    // tests
+    function testPush(uint96[] memory keys, uint160[] memory values, uint96 pastKey) public {
+        vm.assume(values.length > 0 && values.length <= keys.length);
+        _prepareKeys(keys, _KEY_MAX_GAP);
+
+        // initial state
+        assertEq(_ckpts.length(), 0);
+        assertEq(_ckpts.latest(), 0);
+        _assertLatestCheckpoint(false, 0, 0);
+
+        uint256 duplicates = 0;
+        for (uint256 i = 0; i < keys.length; ++i) {
+            uint96 key = keys[i];
+            uint160 value = values[i % values.length];
+            if (i > 0 && key == keys[i - 1]) ++duplicates;
+
+            // push
+            _ckpts.push(key, value);
+
+            // check length & latest
+            assertEq(_ckpts.length(), i + 1 - duplicates);
+            assertEq(_ckpts.latest(), value);
+            _assertLatestCheckpoint(true, key, value);
+        }
+
+        if (keys.length > 0) {
+            uint96 lastKey = keys[keys.length - 1];
+            if (lastKey > 0) {
+                pastKey = _boundUint96(pastKey, 0, lastKey - 1);
+
+                vm.expectRevert();
+                this.push(pastKey, values[keys.length % values.length]);
+            }
+        }
+    }
+
+    // used to test reverts
+    function push(uint96 key, uint160 value) external {
+        _ckpts.push(key, value);
+    }
+
+    function testLookup(uint96[] memory keys, uint160[] memory values, uint96 lookup) public {
+        vm.assume(values.length > 0 && values.length <= keys.length);
+        _prepareKeys(keys, _KEY_MAX_GAP);
+
+        uint96 lastKey = keys.length == 0 ? 0 : keys[keys.length - 1];
+        lookup = _boundUint96(lookup, 0, lastKey + _KEY_MAX_GAP);
+
+        uint160 upper = 0;
+        uint160 lower = 0;
+        uint96 lowerKey = type(uint96).max;
+        for (uint256 i = 0; i < keys.length; ++i) {
+            uint96 key = keys[i];
+            uint160 value = values[i % values.length];
+
+            // push
+            _ckpts.push(key, value);
+
+            // track expected result of lookups
+            if (key <= lookup) {
+                upper = value;
+            }
+            // find the first key that is not smaller than the lookup key
+            if (key >= lookup && (i == 0 || keys[i - 1] < lookup)) {
+                lowerKey = key;
+            }
+            if (key == lowerKey) {
+                lower = value;
+            }
+        }
+
+        // check lookup
+        assertEq(_ckpts.lowerLookup(lookup), lower);
+        assertEq(_ckpts.upperLookup(lookup), upper);
+        assertEq(_ckpts.upperLookupRecent(lookup), upper);
+    }
+}
