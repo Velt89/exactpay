@@ -1,1 +1,86 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAoaW50ZXJmYWNlcy9JRVJDMTM2My5zb2wpCgpwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7SUVSQzIwfSBmcm9tICIuL0lFUkMyMC5zb2wiOwppbXBvcnQge0lFUkMxNjV9IGZyb20gIi4vSUVSQzE2NS5zb2wiOwoKLyoqCiAqIEB0aXRsZSBJRVJDMTM2MwogKiBAZGV2IEludGVyZmFjZSBvZiB0aGUgRVJDLTEzNjMgc3RhbmRhcmQgYXMgZGVmaW5lZCBpbiB0aGUgaHR0cHM6Ly9laXBzLmV0aGVyZXVtLm9yZy9FSVBTL2VpcC0xMzYzW0VSQy0xMzYzXS4KICoKICogRGVmaW5lcyBhbiBleHRlbnNpb24gaW50ZXJmYWNlIGZvciBFUkMtMjAgdG9rZW5zIHRoYXQgc3VwcG9ydHMgZXhlY3V0aW5nIGNvZGUgb24gYSByZWNpcGllbnQgY29udHJhY3QKICogYWZ0ZXIgYHRyYW5zZmVyYCBvciBgdHJhbnNmZXJGcm9tYCwgb3IgY29kZSBvbiBhIHNwZW5kZXIgY29udHJhY3QgYWZ0ZXIgYGFwcHJvdmVgLCBpbiBhIHNpbmdsZSB0cmFuc2FjdGlvbi4KICovCmludGVyZmFjZSBJRVJDMTM2MyBpcyBJRVJDMjAsIElFUkMxNjUgewogICAgLyoKICAgICAqIE5vdGU6IHRoZSBFUkMtMTY1IGlkZW50aWZpZXIgZm9yIHRoaXMgaW50ZXJmYWNlIGlzIDB4YjAyMDJhMTEuCiAgICAgKiAweGIwMjAyYTExID09PQogICAgICogICBieXRlczQoa2VjY2FrMjU2KCd0cmFuc2ZlckFuZENhbGwoYWRkcmVzcyx1aW50MjU2KScpKSBeCiAgICAgKiAgIGJ5dGVzNChrZWNjYWsyNTYoJ3RyYW5zZmVyQW5kQ2FsbChhZGRyZXNzLHVpbnQyNTYsYnl0ZXMpJykpIF4KICAgICAqICAgYnl0ZXM0KGtlY2NhazI1NigndHJhbnNmZXJGcm9tQW5kQ2FsbChhZGRyZXNzLGFkZHJlc3MsdWludDI1NiknKSkgXgogICAgICogICBieXRlczQoa2VjY2FrMjU2KCd0cmFuc2ZlckZyb21BbmRDYWxsKGFkZHJlc3MsYWRkcmVzcyx1aW50MjU2LGJ5dGVzKScpKSBeCiAgICAgKiAgIGJ5dGVzNChrZWNjYWsyNTYoJ2FwcHJvdmVBbmRDYWxsKGFkZHJlc3MsdWludDI1NiknKSkgXgogICAgICogICBieXRlczQoa2VjY2FrMjU2KCdhcHByb3ZlQW5kQ2FsbChhZGRyZXNzLHVpbnQyNTYsYnl0ZXMpJykpCiAgICAgKi8KCiAgICAvKioKICAgICAqIEBkZXYgTW92ZXMgYSBgdmFsdWVgIGFtb3VudCBvZiB0b2tlbnMgZnJvbSB0aGUgY2FsbGVyJ3MgYWNjb3VudCB0byBgdG9gCiAgICAgKiBhbmQgdGhlbiBjYWxscyB7SUVSQzEzNjNSZWNlaXZlci1vblRyYW5zZmVyUmVjZWl2ZWR9IG9uIGB0b2AuCiAgICAgKiBAcGFyYW0gdG8gVGhlIGFkZHJlc3Mgd2hpY2ggeW91IHdhbnQgdG8gdHJhbnNmZXIgdG8uCiAgICAgKiBAcGFyYW0gdmFsdWUgVGhlIGFtb3VudCBvZiB0b2tlbnMgdG8gYmUgdHJhbnNmZXJyZWQuCiAgICAgKiBAcmV0dXJuIEEgYm9vbGVhbiB2YWx1ZSBpbmRpY2F0aW5nIHdoZXRoZXIgdGhlIG9wZXJhdGlvbiBzdWNjZWVkZWQgdW5sZXNzIHRocm93aW5nLgogICAgICovCiAgICBmdW5jdGlvbiB0cmFuc2ZlckFuZENhbGwoYWRkcmVzcyB0bywgdWludDI1NiB2YWx1ZSkgZXh0ZXJuYWwgcmV0dXJucyAoYm9vbCk7CgogICAgLyoqCiAgICAgKiBAZGV2IE1vdmVzIGEgYHZhbHVlYCBhbW91bnQgb2YgdG9rZW5zIGZyb20gdGhlIGNhbGxlcidzIGFjY291bnQgdG8gYHRvYAogICAgICogYW5kIHRoZW4gY2FsbHMge0lFUkMxMzYzUmVjZWl2ZXItb25UcmFuc2ZlclJlY2VpdmVkfSBvbiBgdG9gLgogICAgICogQHBhcmFtIHRvIFRoZSBhZGRyZXNzIHdoaWNoIHlvdSB3YW50IHRvIHRyYW5zZmVyIHRvLgogICAgICogQHBhcmFtIHZhbHVlIFRoZSBhbW91bnQgb2YgdG9rZW5zIHRvIGJlIHRyYW5zZmVycmVkLgogICAgICogQHBhcmFtIGRhdGEgQWRkaXRpb25hbCBkYXRhIHdpdGggbm8gc3BlY2lmaWVkIGZvcm1hdCwgc2VudCBpbiBjYWxsIHRvIGB0b2AuCiAgICAgKiBAcmV0dXJuIEEgYm9vbGVhbiB2YWx1ZSBpbmRpY2F0aW5nIHdoZXRoZXIgdGhlIG9wZXJhdGlvbiBzdWNjZWVkZWQgdW5sZXNzIHRocm93aW5nLgogICAgICovCiAgICBmdW5jdGlvbiB0cmFuc2ZlckFuZENhbGwoYWRkcmVzcyB0bywgdWludDI1NiB2YWx1ZSwgYnl0ZXMgY2FsbGRhdGEgZGF0YSkgZXh0ZXJuYWwgcmV0dXJucyAoYm9vbCk7CgogICAgLyoqCiAgICAgKiBAZGV2IE1vdmVzIGEgYHZhbHVlYCBhbW91bnQgb2YgdG9rZW5zIGZyb20gYGZyb21gIHRvIGB0b2AgdXNpbmcgdGhlIGFsbG93YW5jZSBtZWNoYW5pc20KICAgICAqIGFuZCB0aGVuIGNhbGxzIHtJRVJDMTM2M1JlY2VpdmVyLW9uVHJhbnNmZXJSZWNlaXZlZH0gb24gYHRvYC4KICAgICAqIEBwYXJhbSBmcm9tIFRoZSBhZGRyZXNzIHdoaWNoIHlvdSB3YW50IHRvIHNlbmQgdG9rZW5zIGZyb20uCiAgICAgKiBAcGFyYW0gdG8gVGhlIGFkZHJlc3Mgd2hpY2ggeW91IHdhbnQgdG8gdHJhbnNmZXIgdG8uCiAgICAgKiBAcGFyYW0gdmFsdWUgVGhlIGFtb3VudCBvZiB0b2tlbnMgdG8gYmUgdHJhbnNmZXJyZWQuCiAgICAgKiBAcmV0dXJuIEEgYm9vbGVhbiB2YWx1ZSBpbmRpY2F0aW5nIHdoZXRoZXIgdGhlIG9wZXJhdGlvbiBzdWNjZWVkZWQgdW5sZXNzIHRocm93aW5nLgogICAgICovCiAgICBmdW5jdGlvbiB0cmFuc2ZlckZyb21BbmRDYWxsKGFkZHJlc3MgZnJvbSwgYWRkcmVzcyB0bywgdWludDI1NiB2YWx1ZSkgZXh0ZXJuYWwgcmV0dXJucyAoYm9vbCk7CgogICAgLyoqCiAgICAgKiBAZGV2IE1vdmVzIGEgYHZhbHVlYCBhbW91bnQgb2YgdG9rZW5zIGZyb20gYGZyb21gIHRvIGB0b2AgdXNpbmcgdGhlIGFsbG93YW5jZSBtZWNoYW5pc20KICAgICAqIGFuZCB0aGVuIGNhbGxzIHtJRVJDMTM2M1JlY2VpdmVyLW9uVHJhbnNmZXJSZWNlaXZlZH0gb24gYHRvYC4KICAgICAqIEBwYXJhbSBmcm9tIFRoZSBhZGRyZXNzIHdoaWNoIHlvdSB3YW50IHRvIHNlbmQgdG9rZW5zIGZyb20uCiAgICAgKiBAcGFyYW0gdG8gVGhlIGFkZHJlc3Mgd2hpY2ggeW91IHdhbnQgdG8gdHJhbnNmZXIgdG8uCiAgICAgKiBAcGFyYW0gdmFsdWUgVGhlIGFtb3VudCBvZiB0b2tlbnMgdG8gYmUgdHJhbnNmZXJyZWQuCiAgICAgKiBAcGFyYW0gZGF0YSBBZGRpdGlvbmFsIGRhdGEgd2l0aCBubyBzcGVjaWZpZWQgZm9ybWF0LCBzZW50IGluIGNhbGwgdG8gYHRvYC4KICAgICAqIEByZXR1cm4gQSBib29sZWFuIHZhbHVlIGluZGljYXRpbmcgd2hldGhlciB0aGUgb3BlcmF0aW9uIHN1Y2NlZWRlZCB1bmxlc3MgdGhyb3dpbmcuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHRyYW5zZmVyRnJvbUFuZENhbGwoYWRkcmVzcyBmcm9tLCBhZGRyZXNzIHRvLCB1aW50MjU2IHZhbHVlLCBieXRlcyBjYWxsZGF0YSBkYXRhKSBleHRlcm5hbCByZXR1cm5zIChib29sKTsKCiAgICAvKioKICAgICAqIEBkZXYgU2V0cyBhIGB2YWx1ZWAgYW1vdW50IG9mIHRva2VucyBhcyB0aGUgYWxsb3dhbmNlIG9mIGBzcGVuZGVyYCBvdmVyIHRoZQogICAgICogY2FsbGVyJ3MgdG9rZW5zIGFuZCB0aGVuIGNhbGxzIHtJRVJDMTM2M1NwZW5kZXItb25BcHByb3ZhbFJlY2VpdmVkfSBvbiBgc3BlbmRlcmAuCiAgICAgKiBAcGFyYW0gc3BlbmRlciBUaGUgYWRkcmVzcyB3aGljaCB3aWxsIHNwZW5kIHRoZSBmdW5kcy4KICAgICAqIEBwYXJhbSB2YWx1ZSBUaGUgYW1vdW50IG9mIHRva2VucyB0byBiZSBzcGVudC4KICAgICAqIEByZXR1cm4gQSBib29sZWFuIHZhbHVlIGluZGljYXRpbmcgd2hldGhlciB0aGUgb3BlcmF0aW9uIHN1Y2NlZWRlZCB1bmxlc3MgdGhyb3dpbmcuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGFwcHJvdmVBbmRDYWxsKGFkZHJlc3Mgc3BlbmRlciwgdWludDI1NiB2YWx1ZSkgZXh0ZXJuYWwgcmV0dXJucyAoYm9vbCk7CgogICAgLyoqCiAgICAgKiBAZGV2IFNldHMgYSBgdmFsdWVgIGFtb3VudCBvZiB0b2tlbnMgYXMgdGhlIGFsbG93YW5jZSBvZiBgc3BlbmRlcmAgb3ZlciB0aGUKICAgICAqIGNhbGxlcidzIHRva2VucyBhbmQgdGhlbiBjYWxscyB7SUVSQzEzNjNTcGVuZGVyLW9uQXBwcm92YWxSZWNlaXZlZH0gb24gYHNwZW5kZXJgLgogICAgICogQHBhcmFtIHNwZW5kZXIgVGhlIGFkZHJlc3Mgd2hpY2ggd2lsbCBzcGVuZCB0aGUgZnVuZHMuCiAgICAgKiBAcGFyYW0gdmFsdWUgVGhlIGFtb3VudCBvZiB0b2tlbnMgdG8gYmUgc3BlbnQuCiAgICAgKiBAcGFyYW0gZGF0YSBBZGRpdGlvbmFsIGRhdGEgd2l0aCBubyBzcGVjaWZpZWQgZm9ybWF0LCBzZW50IGluIGNhbGwgdG8gYHNwZW5kZXJgLgogICAgICogQHJldHVybiBBIGJvb2xlYW4gdmFsdWUgaW5kaWNhdGluZyB3aGV0aGVyIHRoZSBvcGVyYXRpb24gc3VjY2VlZGVkIHVubGVzcyB0aHJvd2luZy4KICAgICAqLwogICAgZnVuY3Rpb24gYXBwcm92ZUFuZENhbGwoYWRkcmVzcyBzcGVuZGVyLCB1aW50MjU2IHZhbHVlLCBieXRlcyBjYWxsZGF0YSBkYXRhKSBleHRlcm5hbCByZXR1cm5zIChib29sKTsKfQo=
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (interfaces/IERC1363.sol)
+
+pragma solidity ^0.8.20;
+
+import {IERC20} from "./IERC20.sol";
+import {IERC165} from "./IERC165.sol";
+
+/**
+ * @title IERC1363
+ * @dev Interface of the ERC-1363 standard as defined in the https://eips.ethereum.org/EIPS/eip-1363[ERC-1363].
+ *
+ * Defines an extension interface for ERC-20 tokens that supports executing code on a recipient contract
+ * after `transfer` or `transferFrom`, or code on a spender contract after `approve`, in a single transaction.
+ */
+interface IERC1363 is IERC20, IERC165 {
+    /*
+     * Note: the ERC-165 identifier for this interface is 0xb0202a11.
+     * 0xb0202a11 ===
+     *   bytes4(keccak256('transferAndCall(address,uint256)')) ^
+     *   bytes4(keccak256('transferAndCall(address,uint256,bytes)')) ^
+     *   bytes4(keccak256('transferFromAndCall(address,address,uint256)')) ^
+     *   bytes4(keccak256('transferFromAndCall(address,address,uint256,bytes)')) ^
+     *   bytes4(keccak256('approveAndCall(address,uint256)')) ^
+     *   bytes4(keccak256('approveAndCall(address,uint256,bytes)'))
+     */
+
+    /**
+     * @dev Moves a `value` amount of tokens from the caller's account to `to`
+     * and then calls {IERC1363Receiver-onTransferReceived} on `to`.
+     * @param to The address which you want to transfer to.
+     * @param value The amount of tokens to be transferred.
+     * @return A boolean value indicating whether the operation succeeded unless throwing.
+     */
+    function transferAndCall(address to, uint256 value) external returns (bool);
+
+    /**
+     * @dev Moves a `value` amount of tokens from the caller's account to `to`
+     * and then calls {IERC1363Receiver-onTransferReceived} on `to`.
+     * @param to The address which you want to transfer to.
+     * @param value The amount of tokens to be transferred.
+     * @param data Additional data with no specified format, sent in call to `to`.
+     * @return A boolean value indicating whether the operation succeeded unless throwing.
+     */
+    function transferAndCall(address to, uint256 value, bytes calldata data) external returns (bool);
+
+    /**
+     * @dev Moves a `value` amount of tokens from `from` to `to` using the allowance mechanism
+     * and then calls {IERC1363Receiver-onTransferReceived} on `to`.
+     * @param from The address which you want to send tokens from.
+     * @param to The address which you want to transfer to.
+     * @param value The amount of tokens to be transferred.
+     * @return A boolean value indicating whether the operation succeeded unless throwing.
+     */
+    function transferFromAndCall(address from, address to, uint256 value) external returns (bool);
+
+    /**
+     * @dev Moves a `value` amount of tokens from `from` to `to` using the allowance mechanism
+     * and then calls {IERC1363Receiver-onTransferReceived} on `to`.
+     * @param from The address which you want to send tokens from.
+     * @param to The address which you want to transfer to.
+     * @param value The amount of tokens to be transferred.
+     * @param data Additional data with no specified format, sent in call to `to`.
+     * @return A boolean value indicating whether the operation succeeded unless throwing.
+     */
+    function transferFromAndCall(address from, address to, uint256 value, bytes calldata data) external returns (bool);
+
+    /**
+     * @dev Sets a `value` amount of tokens as the allowance of `spender` over the
+     * caller's tokens and then calls {IERC1363Spender-onApprovalReceived} on `spender`.
+     * @param spender The address which will spend the funds.
+     * @param value The amount of tokens to be spent.
+     * @return A boolean value indicating whether the operation succeeded unless throwing.
+     */
+    function approveAndCall(address spender, uint256 value) external returns (bool);
+
+    /**
+     * @dev Sets a `value` amount of tokens as the allowance of `spender` over the
+     * caller's tokens and then calls {IERC1363Spender-onApprovalReceived} on `spender`.
+     * @param spender The address which will spend the funds.
+     * @param value The amount of tokens to be spent.
+     * @param data Additional data with no specified format, sent in call to `spender`.
+     * @return A boolean value indicating whether the operation succeeded unless throwing.
+     */
+    function approveAndCall(address spender, uint256 value, bytes calldata data) external returns (bool);
+}
