@@ -1,1 +1,18 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7UGF1c2FibGV9IGZyb20gIi4uL3BhdGNoZWQvdXRpbHMvUGF1c2FibGUuc29sIjsKCmNvbnRyYWN0IFBhdXNhYmxlSGFybmVzcyBpcyBQYXVzYWJsZSB7CiAgICBmdW5jdGlvbiBwYXVzZSgpIGV4dGVybmFsIHsKICAgICAgICBfcGF1c2UoKTsKICAgIH0KCiAgICBmdW5jdGlvbiB1bnBhdXNlKCkgZXh0ZXJuYWwgewogICAgICAgIF91bnBhdXNlKCk7CiAgICB9CgogICAgZnVuY3Rpb24gb25seVdoZW5QYXVzZWQoKSBleHRlcm5hbCB3aGVuUGF1c2VkIHt9CgogICAgZnVuY3Rpb24gb25seVdoZW5Ob3RQYXVzZWQoKSBleHRlcm5hbCB3aGVuTm90UGF1c2VkIHt9Cn0K
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+import {Pausable} from "../patched/utils/Pausable.sol";
+
+contract PausableHarness is Pausable {
+    function pause() external {
+        _pause();
+    }
+
+    function unpause() external {
+        _unpause();
+    }
+
+    function onlyWhenPaused() external whenPaused {}
+
+    function onlyWhenNotPaused() external whenNotPaused {}
+}
