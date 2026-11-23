@@ -1,1 +1,23 @@
-W3Byb2ZpbGUuZGVmYXVsdF0KZnNfcGVybWlzc2lvbnMgPSBbeyBhY2Nlc3MgPSAicmVhZC13cml0ZSIsIHBhdGggPSAiLi8ifV0Kb3B0aW1pemVyID0gdHJ1ZQpvcHRpbWl6ZXJfcnVucyA9IDIwMAoKW3JwY19lbmRwb2ludHNdCiMgVGhlIFJQQyBVUkxzIGFyZSBtb2RpZmllZCB2ZXJzaW9ucyBvZiB0aGUgZGVmYXVsdCBmb3IgdGVzdGluZyBpbml0aWFsaXphdGlvbi4KbWFpbm5ldCA9ICJodHRwczovL2V0aC1tYWlubmV0LmFsY2hlbXlhcGkuaW8vdjIvV1Y0MDdCRWlCbWpOSmZLbzlVb181NXUwejBJVHlDT1giICMgRGlmZmVyZW50IEFQSSBrZXkuCm9wdGltaXNtX3NlcG9saWEgPSAiaHR0cHM6Ly9zZXBvbGlhLm9wdGltaXNtLmlvLyIgIyBBZGRzIGEgdHJhaWxpbmcgc2xhc2guCmFyYml0cnVtX29uZV9zZXBvbGlhID0gImh0dHBzOi8vc2Vwb2xpYS1yb2xsdXAuYXJiaXRydW0uaW8vcnBjLyIgIyBBZGRzIGEgdHJhaWxpbmcgc2xhc2guCm5lZWRzX3VuZGVmaW5lZF9lbnZfdmFyID0gIiR7VU5ERUZJTkVEX1JQQ19VUkxfUExBQ0VIT0xERVJ9IgoKW2ZtdF0KIyBUaGVzZSBhcmUgYWxsIHRoZSBgZm9yZ2UgZm10YCBkZWZhdWx0cy4KbGluZV9sZW5ndGggPSAxMjAKdGFiX3dpZHRoID0gNApicmFja2V0X3NwYWNpbmcgPSBmYWxzZQppbnRfdHlwZXMgPSAnbG9uZycKbXVsdGlsaW5lX2Z1bmNfaGVhZGVyID0gJ2F0dHJpYnV0ZXNfZmlyc3QnCnF1b3RlX3N0eWxlID0gJ2RvdWJsZScKbnVtYmVyX3VuZGVyc2NvcmUgPSAncHJlc2VydmUnCnNpbmdsZV9saW5lX3N0YXRlbWVudF9ibG9ja3MgPSAncHJlc2VydmUnCmlnbm9yZSA9IFsic3JjL2NvbnNvbGUuc29sIiwgInNyYy9jb25zb2xlMi5zb2wiXQ==
+[profile.default]
+fs_permissions = [{ access = "read-write", path = "./"}]
+optimizer = true
+optimizer_runs = 200
+
+[rpc_endpoints]
+# The RPC URLs are modified versions of the default for testing initialization.
+mainnet = "https://eth-mainnet.alchemyapi.io/v2/WV407BEiBmjNJfKo9Uo_55u0z0ITyCOX" # Different API key.
+optimism_sepolia = "https://sepolia.optimism.io/" # Adds a trailing slash.
+arbitrum_one_sepolia = "https://sepolia-rollup.arbitrum.io/rpc/" # Adds a trailing slash.
+needs_undefined_env_var = "${UNDEFINED_RPC_URL_PLACEHOLDER}"
+
+[fmt]
+# These are all the `forge fmt` defaults.
+line_length = 120
+tab_width = 4
+bracket_spacing = false
+int_types = 'long'
+multiline_func_header = 'attributes_first'
+quote_style = 'double'
+number_underscore = 'preserve'
+single_line_statement_blocks = 'preserve'
+ignore = ["src/console.sol", "src/console2.sol"]
