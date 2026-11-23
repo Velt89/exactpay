@@ -1,1 +1,245 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKY29uc3QgeyBHb3Zlcm5vckhlbHBlciB9ID0gcmVxdWlyZSgnLi4vLi4vaGVscGVycy9nb3Zlcm5hbmNlJyk7CmNvbnN0IHsgVm90ZVR5cGUgfSA9IHJlcXVpcmUoJy4uLy4uL2hlbHBlcnMvZW51bXMnKTsKY29uc3QgeyBnZXREb21haW4sIEV4dGVuZGVkQmFsbG90IH0gPSByZXF1aXJlKCcuLi8uLi9oZWxwZXJzL2VpcDcxMicpOwoKY29uc3QgVE9LRU5TID0gWwogIHsgVG9rZW46ICckRVJDMjBWb3RlcycsIG1vZGU6ICdibG9ja251bWJlcicgfSwKICB7IFRva2VuOiAnJEVSQzIwVm90ZXNUaW1lc3RhbXBNb2NrJywgbW9kZTogJ3RpbWVzdGFtcCcgfSwKXTsKCmNvbnN0IG5hbWUgPSAnT1otR292ZXJub3InOwpjb25zdCB2ZXJzaW9uID0gJzEnOwpjb25zdCB0b2tlbk5hbWUgPSAnTW9ja1Rva2VuJzsKY29uc3QgdG9rZW5TeW1ib2wgPSAnTVRLTic7CmNvbnN0IHRva2VuU3VwcGx5ID0gZXRoZXJzLnBhcnNlRXRoZXIoJzEwMCcpOwpjb25zdCB2b3RpbmdEZWxheSA9IDRuOwpjb25zdCB2b3RpbmdQZXJpb2QgPSAxNm47CmNvbnN0IHZhbHVlID0gZXRoZXJzLnBhcnNlRXRoZXIoJzEnKTsKCmNvbnN0IHBhcmFtcyA9IHsKICBkZWNvZGVkOiBbNDJuLCAnVGhlc2UgYXJlIG15IHBhcmFtcyddLAogIGVuY29kZWQ6IGV0aGVycy5BYmlDb2Rlci5kZWZhdWx0QWJpQ29kZXIoKS5lbmNvZGUoWyd1aW50MjU2JywgJ3N0cmluZyddLCBbNDJuLCAnVGhlc2UgYXJlIG15IHBhcmFtcyddKSwKfTsKCmRlc2NyaWJlKCdHb3Zlcm5vcldpdGhQYXJhbXMnLCBmdW5jdGlvbiAoKSB7CiAgZm9yIChjb25zdCB7IFRva2VuLCBtb2RlIH0gb2YgVE9LRU5TKSB7CiAgICBjb25zdCBmaXh0dXJlID0gYXN5bmMgKCkgPT4gewogICAgICBjb25zdCBbb3duZXIsIHByb3Bvc2VyLCB2b3RlcjEsIHZvdGVyMiwgdm90ZXIzLCB2b3RlcjQsIG90aGVyXSA9IGF3YWl0IGV0aGVycy5nZXRTaWduZXJzKCk7CiAgICAgIGNvbnN0IHJlY2VpdmVyID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCdDYWxsUmVjZWl2ZXJNb2NrJyk7CgogICAgICBjb25zdCB0b2tlbiA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdChUb2tlbiwgW3Rva2VuTmFtZSwgdG9rZW5TeW1ib2wsIHZlcnNpb25dKTsKICAgICAgY29uc3QgbW9jayA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnJEdvdmVybm9yV2l0aFBhcmFtc01vY2snLCBbbmFtZSwgdG9rZW5dKTsKCiAgICAgIGF3YWl0IG93bmVyLnNlbmRUcmFuc2FjdGlvbih7IHRvOiBtb2NrLCB2YWx1ZSB9KTsKICAgICAgYXdhaXQgdG9rZW4uJF9taW50KG93bmVyLCB0b2tlblN1cHBseSk7CgogICAgICBjb25zdCBoZWxwZXIgPSBuZXcgR292ZXJub3JIZWxwZXIobW9jaywgbW9kZSk7CiAgICAgIGF3YWl0IGhlbHBlci5jb25uZWN0KG93bmVyKS5kZWxlZ2F0ZSh7IHRva2VuLCB0bzogdm90ZXIxLCB2YWx1ZTogZXRoZXJzLnBhcnNlRXRoZXIoJzEwJykgfSk7CiAgICAgIGF3YWl0IGhlbHBlci5jb25uZWN0KG93bmVyKS5kZWxlZ2F0ZSh7IHRva2VuLCB0bzogdm90ZXIyLCB2YWx1ZTogZXRoZXJzLnBhcnNlRXRoZXIoJzcnKSB9KTsKICAgICAgYXdhaXQgaGVscGVyLmNvbm5lY3Qob3duZXIpLmRlbGVnYXRlKHsgdG9rZW4sIHRvOiB2b3RlcjMsIHZhbHVlOiBldGhlcnMucGFyc2VFdGhlcignNScpIH0pOwogICAgICBhd2FpdCBoZWxwZXIuY29ubmVjdChvd25lcikuZGVsZWdhdGUoeyB0b2tlbiwgdG86IHZvdGVyNCwgdmFsdWU6IGV0aGVycy5wYXJzZUV0aGVyKCcyJykgfSk7CgogICAgICByZXR1cm4geyBvd25lciwgcHJvcG9zZXIsIHZvdGVyMSwgdm90ZXIyLCB2b3RlcjMsIHZvdGVyNCwgb3RoZXIsIHJlY2VpdmVyLCB0b2tlbiwgbW9jaywgaGVscGVyIH07CiAgICB9OwoKICAgIGRlc2NyaWJlKGB1c2luZyAke1Rva2VufWAsIGZ1bmN0aW9uICgpIHsKICAgICAgYmVmb3JlRWFjaChhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgT2JqZWN0LmFzc2lnbih0aGlzLCBhd2FpdCBsb2FkRml4dHVyZShmaXh0dXJlKSk7CgogICAgICAgIC8vIGRlZmF1bHQgcHJvcG9zYWwKICAgICAgICB0aGlzLnByb3Bvc2FsID0gdGhpcy5oZWxwZXIuc2V0UHJvcG9zYWwoCiAgICAgICAgICBbCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICB0YXJnZXQ6IHRoaXMucmVjZWl2ZXIudGFyZ2V0LAogICAgICAgICAgICAgIHZhbHVlLAogICAgICAgICAgICAgIGRhdGE6IHRoaXMucmVjZWl2ZXIuaW50ZXJmYWNlLmVuY29kZUZ1bmN0aW9uRGF0YSgnbW9ja0Z1bmN0aW9uJyksCiAgICAgICAgICAgIH0sCiAgICAgICAgICBdLAogICAgICAgICAgJzxwcm9wb3NhbCBkZXNjcmlwdGlvbj4nLAogICAgICAgICk7CiAgICAgIH0pOwoKICAgICAgaXQoJ2RlcGxveW1lbnQgY2hlY2snLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay5uYW1lKCkpLnRvLmVxdWFsKG5hbWUpOwogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2sudG9rZW4oKSkudG8uZXF1YWwodGhpcy50b2tlbik7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay52b3RpbmdEZWxheSgpKS50by5lcXVhbCh2b3RpbmdEZWxheSk7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay52b3RpbmdQZXJpb2QoKSkudG8uZXF1YWwodm90aW5nUGVyaW9kKTsKICAgICAgfSk7CgogICAgICBpdCgnbm9taW5hbCBpcyB1bmFmZmVjdGVkJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGF3YWl0IHRoaXMuaGVscGVyLmNvbm5lY3QodGhpcy5wcm9wb3NlcikucHJvcG9zZSgpOwogICAgICAgIGF3YWl0IHRoaXMuaGVscGVyLndhaXRGb3JTbmFwc2hvdCgpOwogICAgICAgIGF3YWl0IHRoaXMuaGVscGVyLmNvbm5lY3QodGhpcy52b3RlcjEpLnZvdGUoeyBzdXBwb3J0OiBWb3RlVHlwZS5Gb3IsIHJlYXNvbjogJ1RoaXMgaXMgbmljZScgfSk7CiAgICAgICAgYXdhaXQgdGhpcy5oZWxwZXIuY29ubmVjdCh0aGlzLnZvdGVyMikudm90ZSh7IHN1cHBvcnQ6IFZvdGVUeXBlLkZvciB9KTsKICAgICAgICBhd2FpdCB0aGlzLmhlbHBlci5jb25uZWN0KHRoaXMudm90ZXIzKS52b3RlKHsgc3VwcG9ydDogVm90ZVR5cGUuQWdhaW5zdCB9KTsKICAgICAgICBhd2FpdCB0aGlzLmhlbHBlci5jb25uZWN0KHRoaXMudm90ZXI0KS52b3RlKHsgc3VwcG9ydDogVm90ZVR5cGUuQWJzdGFpbiB9KTsKICAgICAgICBhd2FpdCB0aGlzLmhlbHBlci53YWl0Rm9yRGVhZGxpbmUoKTsKICAgICAgICBhd2FpdCB0aGlzLmhlbHBlci5leGVjdXRlKCk7CgogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suaGFzVm90ZWQodGhpcy5wcm9wb3NhbC5pZCwgdGhpcy5vd25lcikpLnRvLmJlLmZhbHNlOwogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suaGFzVm90ZWQodGhpcy5wcm9wb3NhbC5pZCwgdGhpcy52b3RlcjEpKS50by5iZS50cnVlOwogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suaGFzVm90ZWQodGhpcy5wcm9wb3NhbC5pZCwgdGhpcy52b3RlcjIpKS50by5iZS50cnVlOwogICAgICAgIGV4cGVjdChhd2FpdCBldGhlcnMucHJvdmlkZXIuZ2V0QmFsYW5jZSh0aGlzLm1vY2spKS50by5lcXVhbCgwbik7CiAgICAgICAgZXhwZWN0KGF3YWl0IGV0aGVycy5wcm92aWRlci5nZXRCYWxhbmNlKHRoaXMucmVjZWl2ZXIpKS50by5lcXVhbCh2YWx1ZSk7CiAgICAgIH0pOwoKICAgICAgaXQoJ1ZvdGluZyB3aXRoIHBhcmFtcyBpcyBwcm9wZXJseSBzdXBwb3J0ZWQnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgYXdhaXQgdGhpcy5oZWxwZXIuY29ubmVjdCh0aGlzLnByb3Bvc2VyKS5wcm9wb3NlKCk7CiAgICAgICAgYXdhaXQgdGhpcy5oZWxwZXIud2FpdEZvclNuYXBzaG90KCk7CgogICAgICAgIGNvbnN0IHdlaWdodCA9IGV0aGVycy5wYXJzZUV0aGVyKCc3JykgLSBwYXJhbXMuZGVjb2RlZFswXTsKCiAgICAgICAgYXdhaXQgZXhwZWN0KAogICAgICAgICAgdGhpcy5oZWxwZXIuY29ubmVjdCh0aGlzLnZvdGVyMikudm90ZSh7CiAgICAgICAgICAgIHN1cHBvcnQ6IFZvdGVUeXBlLkZvciwKICAgICAgICAgICAgcmVhc29uOiAnbm8gcGFydGljdWxhciByZWFzb24nLAogICAgICAgICAgICBwYXJhbXM6IHBhcmFtcy5lbmNvZGVkLAogICAgICAgICAgfSksCiAgICAgICAgKQogICAgICAgICAgLnRvLmVtaXQodGhpcy5tb2NrLCAnQ291bnRQYXJhbXMnKQogICAgICAgICAgLndpdGhBcmdzKC4uLnBhcmFtcy5kZWNvZGVkKQogICAgICAgICAgLnRvLmVtaXQodGhpcy5tb2NrLCAnVm90ZUNhc3RXaXRoUGFyYW1zJykKICAgICAgICAgIC53aXRoQXJncygKICAgICAgICAgICAgdGhpcy52b3RlcjIuYWRkcmVzcywKICAgICAgICAgICAgdGhpcy5wcm9wb3NhbC5pZCwKICAgICAgICAgICAgVm90ZVR5cGUuRm9yLAogICAgICAgICAgICB3ZWlnaHQsCiAgICAgICAgICAgICdubyBwYXJ0aWN1bGFyIHJlYXNvbicsCiAgICAgICAgICAgIHBhcmFtcy5lbmNvZGVkLAogICAgICAgICAgKTsKCiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay5wcm9wb3NhbFZvdGVzKHRoaXMucHJvcG9zYWwuaWQpKS50by5kZWVwLmVxdWFsKFswbiwgd2VpZ2h0LCAwbl0pOwogICAgICB9KTsKCiAgICAgIGRlc2NyaWJlKCd2b3RpbmcgYnkgc2lnbmF0dXJlJywgZnVuY3Rpb24gKCkgewogICAgICAgIGl0KCdzdXBwb3J0cyBFT0Egc2lnbmF0dXJlcycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGF3YWl0IHRoaXMudG9rZW4uY29ubmVjdCh0aGlzLnZvdGVyMikuZGVsZWdhdGUodGhpcy5vdGhlcik7CgogICAgICAgICAgLy8gUnVuIHByb3Bvc2FsCiAgICAgICAgICBhd2FpdCB0aGlzLmhlbHBlci5wcm9wb3NlKCk7CiAgICAgICAgICBhd2FpdCB0aGlzLmhlbHBlci53YWl0Rm9yU25hcHNob3QoKTsKCiAgICAgICAgICAvLyBQcmVwYXJlIHZvdGUKICAgICAgICAgIGNvbnN0IHdlaWdodCA9IGV0aGVycy5wYXJzZUV0aGVyKCc3JykgLSBwYXJhbXMuZGVjb2RlZFswXTsKICAgICAgICAgIGNvbnN0IG5vbmNlID0gYXdhaXQgdGhpcy5tb2NrLm5vbmNlcyh0aGlzLm90aGVyKTsKICAgICAgICAgIGNvbnN0IGRhdGEgPSB7CiAgICAgICAgICAgIHByb3Bvc2FsSWQ6IHRoaXMucHJvcG9zYWwuaWQsCiAgICAgICAgICAgIHN1cHBvcnQ6IFZvdGVUeXBlLkZvciwKICAgICAgICAgICAgdm90ZXI6IHRoaXMub3RoZXIuYWRkcmVzcywKICAgICAgICAgICAgbm9uY2UsCiAgICAgICAgICAgIHJlYXNvbjogJ25vIHBhcnRpY3VsYXIgcmVhc29uJywKICAgICAgICAgICAgcGFyYW1zOiBwYXJhbXMuZW5jb2RlZCwKICAgICAgICAgICAgc2lnbmF0dXJlOiAoY29udHJhY3QsIG1lc3NhZ2UpID0+CiAgICAgICAgICAgICAgZ2V0RG9tYWluKGNvbnRyYWN0KS50aGVuKGRvbWFpbiA9PiB0aGlzLm90aGVyLnNpZ25UeXBlZERhdGEoZG9tYWluLCB7IEV4dGVuZGVkQmFsbG90IH0sIG1lc3NhZ2UpKSwKICAgICAgICAgIH07CgogICAgICAgICAgLy8gVm90ZQogICAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMuaGVscGVyLnZvdGUoZGF0YSkpCiAgICAgICAgICAgIC50by5lbWl0KHRoaXMubW9jaywgJ0NvdW50UGFyYW1zJykKICAgICAgICAgICAgLndpdGhBcmdzKC4uLnBhcmFtcy5kZWNvZGVkKQogICAgICAgICAgICAudG8uZW1pdCh0aGlzLm1vY2ssICdWb3RlQ2FzdFdpdGhQYXJhbXMnKQogICAgICAgICAgICAud2l0aEFyZ3MoZGF0YS52b3RlciwgZGF0YS5wcm9wb3NhbElkLCBkYXRhLnN1cHBvcnQsIHdlaWdodCwgZGF0YS5yZWFzb24sIGRhdGEucGFyYW1zKTsKCiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLnByb3Bvc2FsVm90ZXModGhpcy5wcm9wb3NhbC5pZCkpLnRvLmRlZXAuZXF1YWwoWzBuLCB3ZWlnaHQsIDBuXSk7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLm5vbmNlcyh0aGlzLm90aGVyKSkudG8uZXF1YWwobm9uY2UgKyAxbik7CiAgICAgICAgfSk7CgogICAgICAgIGl0KCdzdXBwb3J0cyBFSVAtMTI3MSBzaWduYXR1cmUgc2lnbmF0dXJlcycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGNvbnN0IHdhbGxldCA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnRVJDMTI3MVdhbGxldE1vY2snLCBbdGhpcy5vdGhlcl0pOwogICAgICAgICAgYXdhaXQgdGhpcy50b2tlbi5jb25uZWN0KHRoaXMudm90ZXIyKS5kZWxlZ2F0ZSh3YWxsZXQpOwoKICAgICAgICAgIC8vIFJ1biBwcm9wb3NhbAogICAgICAgICAgYXdhaXQgdGhpcy5oZWxwZXIucHJvcG9zZSgpOwogICAgICAgICAgYXdhaXQgdGhpcy5oZWxwZXIud2FpdEZvclNuYXBzaG90KCk7CgogICAgICAgICAgLy8gUHJlcGFyZSB2b3RlCiAgICAgICAgICBjb25zdCB3ZWlnaHQgPSBldGhlcnMucGFyc2VFdGhlcignNycpIC0gcGFyYW1zLmRlY29kZWRbMF07CiAgICAgICAgICBjb25zdCBub25jZSA9IGF3YWl0IHRoaXMubW9jay5ub25jZXModGhpcy5vdGhlcik7CiAgICAgICAgICBjb25zdCBkYXRhID0gewogICAgICAgICAgICBwcm9wb3NhbElkOiB0aGlzLnByb3Bvc2FsLmlkLAogICAgICAgICAgICBzdXBwb3J0OiBWb3RlVHlwZS5Gb3IsCiAgICAgICAgICAgIHZvdGVyOiB3YWxsZXQudGFyZ2V0LAogICAgICAgICAgICBub25jZSwKICAgICAgICAgICAgcmVhc29uOiAnbm8gcGFydGljdWxhciByZWFzb24nLAogICAgICAgICAgICBwYXJhbXM6IHBhcmFtcy5lbmNvZGVkLAogICAgICAgICAgICBzaWduYXR1cmU6IChjb250cmFjdCwgbWVzc2FnZSkgPT4KICAgICAgICAgICAgICBnZXREb21haW4oY29udHJhY3QpLnRoZW4oZG9tYWluID0+IHRoaXMub3RoZXIuc2lnblR5cGVkRGF0YShkb21haW4sIHsgRXh0ZW5kZWRCYWxsb3QgfSwgbWVzc2FnZSkpLAogICAgICAgICAgfTsKCiAgICAgICAgICAvLyBWb3RlCiAgICAgICAgICBhd2FpdCBleHBlY3QodGhpcy5oZWxwZXIudm90ZShkYXRhKSkKICAgICAgICAgICAgLnRvLmVtaXQodGhpcy5tb2NrLCAnQ291bnRQYXJhbXMnKQogICAgICAgICAgICAud2l0aEFyZ3MoLi4ucGFyYW1zLmRlY29kZWQpCiAgICAgICAgICAgIC50by5lbWl0KHRoaXMubW9jaywgJ1ZvdGVDYXN0V2l0aFBhcmFtcycpCiAgICAgICAgICAgIC53aXRoQXJncyhkYXRhLnZvdGVyLCBkYXRhLnByb3Bvc2FsSWQsIGRhdGEuc3VwcG9ydCwgd2VpZ2h0LCBkYXRhLnJlYXNvbiwgZGF0YS5wYXJhbXMpOwoKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2sucHJvcG9zYWxWb3Rlcyh0aGlzLnByb3Bvc2FsLmlkKSkudG8uZGVlcC5lcXVhbChbMG4sIHdlaWdodCwgMG5dKTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2subm9uY2VzKHdhbGxldCkpLnRvLmVxdWFsKG5vbmNlICsgMW4pOwogICAgICAgIH0pOwoKICAgICAgICBpdCgncmV2ZXJ0cyBpZiBzaWduYXR1cmUgZG9lcyBub3QgbWF0Y2ggc2lnbmVyJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgYXdhaXQgdGhpcy50b2tlbi5jb25uZWN0KHRoaXMudm90ZXIyKS5kZWxlZ2F0ZSh0aGlzLm90aGVyKTsKCiAgICAgICAgICAvLyBSdW4gcHJvcG9zYWwKICAgICAgICAgIGF3YWl0IHRoaXMuaGVscGVyLnByb3Bvc2UoKTsKICAgICAgICAgIGF3YWl0IHRoaXMuaGVscGVyLndhaXRGb3JTbmFwc2hvdCgpOwoKICAgICAgICAgIC8vIFByZXBhcmUgdm90ZQogICAgICAgICAgY29uc3Qgbm9uY2UgPSBhd2FpdCB0aGlzLm1vY2subm9uY2VzKHRoaXMub3RoZXIpOwogICAgICAgICAgY29uc3QgZGF0YSA9IHsKICAgICAgICAgICAgcHJvcG9zYWxJZDogdGhpcy5wcm9wb3NhbC5pZCwKICAgICAgICAgICAgc3VwcG9ydDogVm90ZVR5cGUuRm9yLAogICAgICAgICAgICB2b3RlcjogdGhpcy5vdGhlci5hZGRyZXNzLAogICAgICAgICAgICBub25jZSwKICAgICAgICAgICAgcmVhc29uOiAnbm8gcGFydGljdWxhciByZWFzb24nLAogICAgICAgICAgICBwYXJhbXM6IHBhcmFtcy5lbmNvZGVkLAogICAgICAgICAgICAvLyB0YW1wZXJlZCBzaWduYXR1cmUKICAgICAgICAgICAgc2lnbmF0dXJlOiAoY29udHJhY3QsIG1lc3NhZ2UpID0+CiAgICAgICAgICAgICAgZ2V0RG9tYWluKGNvbnRyYWN0KQogICAgICAgICAgICAgICAgLnRoZW4oZG9tYWluID0+IHRoaXMub3RoZXIuc2lnblR5cGVkRGF0YShkb21haW4sIHsgRXh0ZW5kZWRCYWxsb3QgfSwgbWVzc2FnZSkpCiAgICAgICAgICAgICAgICAudGhlbihzaWduYXR1cmUgPT4gewogICAgICAgICAgICAgICAgICBjb25zdCB0YW1wZXJlZFNpZyA9IGV0aGVycy50b0JlQXJyYXkoc2lnbmF0dXJlKTsKICAgICAgICAgICAgICAgICAgdGFtcGVyZWRTaWdbNDJdIF49IDB4ZmY7CiAgICAgICAgICAgICAgICAgIHJldHVybiBldGhlcnMuaGV4bGlmeSh0YW1wZXJlZFNpZyk7CiAgICAgICAgICAgICAgICB9KSwKICAgICAgICAgIH07CgogICAgICAgICAgLy8gVm90ZQogICAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMuaGVscGVyLnZvdGUoZGF0YSkpCiAgICAgICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLm1vY2ssICdHb3Zlcm5vckludmFsaWRTaWduYXR1cmUnKQogICAgICAgICAgICAud2l0aEFyZ3MoZGF0YS52b3Rlcik7CiAgICAgICAgfSk7CgogICAgICAgIGl0KCdyZXZlcnRzIGlmIHZvdGUgbm9uY2UgaXMgaW5jb3JyZWN0JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgYXdhaXQgdGhpcy50b2tlbi5jb25uZWN0KHRoaXMudm90ZXIyKS5kZWxlZ2F0ZSh0aGlzLm90aGVyKTsKCiAgICAgICAgICAvLyBSdW4gcHJvcG9zYWwKICAgICAgICAgIGF3YWl0IHRoaXMuaGVscGVyLnByb3Bvc2UoKTsKICAgICAgICAgIGF3YWl0IHRoaXMuaGVscGVyLndhaXRGb3JTbmFwc2hvdCgpOwoKICAgICAgICAgIC8vIFByZXBhcmUgdm90ZQogICAgICAgICAgY29uc3Qgbm9uY2UgPSBhd2FpdCB0aGlzLm1vY2subm9uY2VzKHRoaXMub3RoZXIpOwogICAgICAgICAgY29uc3QgZGF0YSA9IHsKICAgICAgICAgICAgcHJvcG9zYWxJZDogdGhpcy5wcm9wb3NhbC5pZCwKICAgICAgICAgICAgc3VwcG9ydDogVm90ZVR5cGUuRm9yLAogICAgICAgICAgICB2b3RlcjogdGhpcy5vdGhlci5hZGRyZXNzLAogICAgICAgICAgICBub25jZTogbm9uY2UgKyAxbiwKICAgICAgICAgICAgcmVhc29uOiAnbm8gcGFydGljdWxhciByZWFzb24nLAogICAgICAgICAgICBwYXJhbXM6IHBhcmFtcy5lbmNvZGVkLAogICAgICAgICAgICBzaWduYXR1cmU6IChjb250cmFjdCwgbWVzc2FnZSkgPT4KICAgICAgICAgICAgICBnZXREb21haW4oY29udHJhY3QpLnRoZW4oZG9tYWluID0+IHRoaXMub3RoZXIuc2lnblR5cGVkRGF0YShkb21haW4sIHsgRXh0ZW5kZWRCYWxsb3QgfSwgbWVzc2FnZSkpLAogICAgICAgICAgfTsKCiAgICAgICAgICAvLyBWb3RlCiAgICAgICAgICBhd2FpdCBleHBlY3QodGhpcy5oZWxwZXIudm90ZShkYXRhKSkKICAgICAgICAgICAgLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMubW9jaywgJ0dvdmVybm9ySW52YWxpZFNpZ25hdHVyZScpCiAgICAgICAgICAgIC53aXRoQXJncyhkYXRhLnZvdGVyKTsKICAgICAgICB9KTsKICAgICAgfSk7CiAgICB9KTsKICB9Cn0pOwo=
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+const { GovernorHelper } = require('../../helpers/governance');
+const { VoteType } = require('../../helpers/enums');
+const { getDomain, ExtendedBallot } = require('../../helpers/eip712');
+
+const TOKENS = [
+  { Token: '$ERC20Votes', mode: 'blocknumber' },
+  { Token: '$ERC20VotesTimestampMock', mode: 'timestamp' },
+];
+
+const name = 'OZ-Governor';
+const version = '1';
+const tokenName = 'MockToken';
+const tokenSymbol = 'MTKN';
+const tokenSupply = ethers.parseEther('100');
+const votingDelay = 4n;
+const votingPeriod = 16n;
+const value = ethers.parseEther('1');
+
+const params = {
+  decoded: [42n, 'These are my params'],
+  encoded: ethers.AbiCoder.defaultAbiCoder().encode(['uint256', 'string'], [42n, 'These are my params']),
+};
+
+describe('GovernorWithParams', function () {
+  for (const { Token, mode } of TOKENS) {
+    const fixture = async () => {
+      const [owner, proposer, voter1, voter2, voter3, voter4, other] = await ethers.getSigners();
+      const receiver = await ethers.deployContract('CallReceiverMock');
+
+      const token = await ethers.deployContract(Token, [tokenName, tokenSymbol, version]);
+      const mock = await ethers.deployContract('$GovernorWithParamsMock', [name, token]);
+
+      await owner.sendTransaction({ to: mock, value });
+      await token.$_mint(owner, tokenSupply);
+
+      const helper = new GovernorHelper(mock, mode);
+      await helper.connect(owner).delegate({ token, to: voter1, value: ethers.parseEther('10') });
+      await helper.connect(owner).delegate({ token, to: voter2, value: ethers.parseEther('7') });
+      await helper.connect(owner).delegate({ token, to: voter3, value: ethers.parseEther('5') });
+      await helper.connect(owner).delegate({ token, to: voter4, value: ethers.parseEther('2') });
+
+      return { owner, proposer, voter1, voter2, voter3, voter4, other, receiver, token, mock, helper };
+    };
+
+    describe(`using ${Token}`, function () {
+      beforeEach(async function () {
+        Object.assign(this, await loadFixture(fixture));
+
+        // default proposal
+        this.proposal = this.helper.setProposal(
+          [
+            {
+              target: this.receiver.target,
+              value,
+              data: this.receiver.interface.encodeFunctionData('mockFunction'),
+            },
+          ],
+          '<proposal description>',
+        );
+      });
+
+      it('deployment check', async function () {
+        expect(await this.mock.name()).to.equal(name);
+        expect(await this.mock.token()).to.equal(this.token);
+        expect(await this.mock.votingDelay()).to.equal(votingDelay);
+        expect(await this.mock.votingPeriod()).to.equal(votingPeriod);
+      });
+
+      it('nominal is unaffected', async function () {
+        await this.helper.connect(this.proposer).propose();
+        await this.helper.waitForSnapshot();
+        await this.helper.connect(this.voter1).vote({ support: VoteType.For, reason: 'This is nice' });
+        await this.helper.connect(this.voter2).vote({ support: VoteType.For });
+        await this.helper.connect(this.voter3).vote({ support: VoteType.Against });
+        await this.helper.connect(this.voter4).vote({ support: VoteType.Abstain });
+        await this.helper.waitForDeadline();
+        await this.helper.execute();
+
+        expect(await this.mock.hasVoted(this.proposal.id, this.owner)).to.be.false;
+        expect(await this.mock.hasVoted(this.proposal.id, this.voter1)).to.be.true;
+        expect(await this.mock.hasVoted(this.proposal.id, this.voter2)).to.be.true;
+        expect(await ethers.provider.getBalance(this.mock)).to.equal(0n);
+        expect(await ethers.provider.getBalance(this.receiver)).to.equal(value);
+      });
+
+      it('Voting with params is properly supported', async function () {
+        await this.helper.connect(this.proposer).propose();
+        await this.helper.waitForSnapshot();
+
+        const weight = ethers.parseEther('7') - params.decoded[0];
+
+        await expect(
+          this.helper.connect(this.voter2).vote({
+            support: VoteType.For,
+            reason: 'no particular reason',
+            params: params.encoded,
+          }),
+        )
+          .to.emit(this.mock, 'CountParams')
+          .withArgs(...params.decoded)
+          .to.emit(this.mock, 'VoteCastWithParams')
+          .withArgs(
+            this.voter2.address,
+            this.proposal.id,
+            VoteType.For,
+            weight,
+            'no particular reason',
+            params.encoded,
+          );
+
+        expect(await this.mock.proposalVotes(this.proposal.id)).to.deep.equal([0n, weight, 0n]);
+      });
+
+      describe('voting by signature', function () {
+        it('supports EOA signatures', async function () {
+          await this.token.connect(this.voter2).delegate(this.other);
+
+          // Run proposal
+          await this.helper.propose();
+          await this.helper.waitForSnapshot();
+
+          // Prepare vote
+          const weight = ethers.parseEther('7') - params.decoded[0];
+          const nonce = await this.mock.nonces(this.other);
+          const data = {
+            proposalId: this.proposal.id,
+            support: VoteType.For,
+            voter: this.other.address,
+            nonce,
+            reason: 'no particular reason',
+            params: params.encoded,
+            signature: (contract, message) =>
+              getDomain(contract).then(domain => this.other.signTypedData(domain, { ExtendedBallot }, message)),
+          };
+
+          // Vote
+          await expect(this.helper.vote(data))
+            .to.emit(this.mock, 'CountParams')
+            .withArgs(...params.decoded)
+            .to.emit(this.mock, 'VoteCastWithParams')
+            .withArgs(data.voter, data.proposalId, data.support, weight, data.reason, data.params);
+
+          expect(await this.mock.proposalVotes(this.proposal.id)).to.deep.equal([0n, weight, 0n]);
+          expect(await this.mock.nonces(this.other)).to.equal(nonce + 1n);
+        });
+
+        it('supports EIP-1271 signature signatures', async function () {
+          const wallet = await ethers.deployContract('ERC1271WalletMock', [this.other]);
+          await this.token.connect(this.voter2).delegate(wallet);
+
+          // Run proposal
+          await this.helper.propose();
+          await this.helper.waitForSnapshot();
+
+          // Prepare vote
+          const weight = ethers.parseEther('7') - params.decoded[0];
+          const nonce = await this.mock.nonces(this.other);
+          const data = {
+            proposalId: this.proposal.id,
+            support: VoteType.For,
+            voter: wallet.target,
+            nonce,
+            reason: 'no particular reason',
+            params: params.encoded,
+            signature: (contract, message) =>
+              getDomain(contract).then(domain => this.other.signTypedData(domain, { ExtendedBallot }, message)),
+          };
+
+          // Vote
+          await expect(this.helper.vote(data))
+            .to.emit(this.mock, 'CountParams')
+            .withArgs(...params.decoded)
+            .to.emit(this.mock, 'VoteCastWithParams')
+            .withArgs(data.voter, data.proposalId, data.support, weight, data.reason, data.params);
+
+          expect(await this.mock.proposalVotes(this.proposal.id)).to.deep.equal([0n, weight, 0n]);
+          expect(await this.mock.nonces(wallet)).to.equal(nonce + 1n);
+        });
+
+        it('reverts if signature does not match signer', async function () {
+          await this.token.connect(this.voter2).delegate(this.other);
+
+          // Run proposal
+          await this.helper.propose();
+          await this.helper.waitForSnapshot();
+
+          // Prepare vote
+          const nonce = await this.mock.nonces(this.other);
+          const data = {
+            proposalId: this.proposal.id,
+            support: VoteType.For,
+            voter: this.other.address,
+            nonce,
+            reason: 'no particular reason',
+            params: params.encoded,
+            // tampered signature
+            signature: (contract, message) =>
+              getDomain(contract)
+                .then(domain => this.other.signTypedData(domain, { ExtendedBallot }, message))
+                .then(signature => {
+                  const tamperedSig = ethers.toBeArray(signature);
+                  tamperedSig[42] ^= 0xff;
+                  return ethers.hexlify(tamperedSig);
+                }),
+          };
+
+          // Vote
+          await expect(this.helper.vote(data))
+            .to.be.revertedWithCustomError(this.mock, 'GovernorInvalidSignature')
+            .withArgs(data.voter);
+        });
+
+        it('reverts if vote nonce is incorrect', async function () {
+          await this.token.connect(this.voter2).delegate(this.other);
+
+          // Run proposal
+          await this.helper.propose();
+          await this.helper.waitForSnapshot();
+
+          // Prepare vote
+          const nonce = await this.mock.nonces(this.other);
+          const data = {
+            proposalId: this.proposal.id,
+            support: VoteType.For,
+            voter: this.other.address,
+            nonce: nonce + 1n,
+            reason: 'no particular reason',
+            params: params.encoded,
+            signature: (contract, message) =>
+              getDomain(contract).then(domain => this.other.signTypedData(domain, { ExtendedBallot }, message)),
+          };
+
+          // Vote
+          await expect(this.helper.vote(data))
+            .to.be.revertedWithCustomError(this.mock, 'GovernorInvalidSignature')
+            .withArgs(data.voter);
+        });
+      });
+    });
+  }
+});
