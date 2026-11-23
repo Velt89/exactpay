@@ -1,1 +1,14 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0dvdmVybm9yfSBmcm9tICIuLi8uLi9nb3Zlcm5hbmNlL0dvdmVybm9yLnNvbCI7CmltcG9ydCB7R292ZXJub3JTZXR0aW5nc30gZnJvbSAiLi4vLi4vZ292ZXJuYW5jZS9leHRlbnNpb25zL0dvdmVybm9yU2V0dGluZ3Muc29sIjsKaW1wb3J0IHtHb3Zlcm5vckNvdW50aW5nRnJhY3Rpb25hbH0gZnJvbSAiLi4vLi4vZ292ZXJuYW5jZS9leHRlbnNpb25zL0dvdmVybm9yQ291bnRpbmdGcmFjdGlvbmFsLnNvbCI7CmltcG9ydCB7R292ZXJub3JWb3Rlc1F1b3J1bUZyYWN0aW9ufSBmcm9tICIuLi8uLi9nb3Zlcm5hbmNlL2V4dGVuc2lvbnMvR292ZXJub3JWb3Rlc1F1b3J1bUZyYWN0aW9uLnNvbCI7CgphYnN0cmFjdCBjb250cmFjdCBHb3Zlcm5vckZyYWN0aW9uYWxNb2NrIGlzIEdvdmVybm9yU2V0dGluZ3MsIEdvdmVybm9yVm90ZXNRdW9ydW1GcmFjdGlvbiwgR292ZXJub3JDb3VudGluZ0ZyYWN0aW9uYWwgewogICAgZnVuY3Rpb24gcHJvcG9zYWxUaHJlc2hvbGQoKSBwdWJsaWMgdmlldyBvdmVycmlkZShHb3Zlcm5vciwgR292ZXJub3JTZXR0aW5ncykgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHJldHVybiBzdXBlci5wcm9wb3NhbFRocmVzaG9sZCgpOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {Governor} from "../../governance/Governor.sol";
+import {GovernorSettings} from "../../governance/extensions/GovernorSettings.sol";
+import {GovernorCountingFractional} from "../../governance/extensions/GovernorCountingFractional.sol";
+import {GovernorVotesQuorumFraction} from "../../governance/extensions/GovernorVotesQuorumFraction.sol";
+
+abstract contract GovernorFractionalMock is GovernorSettings, GovernorVotesQuorumFraction, GovernorCountingFractional {
+    function proposalThreshold() public view override(Governor, GovernorSettings) returns (uint256) {
+        return super.proposalThreshold();
+    }
+}
