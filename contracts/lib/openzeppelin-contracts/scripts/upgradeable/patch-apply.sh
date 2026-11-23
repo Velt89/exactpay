@@ -1,1 +1,19 @@
-IyEvdXNyL2Jpbi9lbnYgYmFzaAoKc2V0IC1ldW8gcGlwZWZhaWwKCkRJUk5BTUU9IiQoZGlybmFtZSAtLSAiJHtCQVNIX1NPVVJDRVswXX0iKSIKUEFUQ0g9IiRESVJOQU1FL3VwZ3JhZGVhYmxlLnBhdGNoIgoKZXJyb3IoKSB7CiAgZWNobyBFcnJvcjogIiQqIiA+JjIKICBleGl0IDEKfQoKaWYgISBnaXQgZGlmZi1maWxlcyAtLXF1aWV0ICI6ISRQQVRDSCIgfHwgISBnaXQgZGlmZi1pbmRleCAtLXF1aWV0IEhFQUQgIjohJFBBVENIIjsgdGhlbgogIGVycm9yICJSZXBvc2l0b3J5IG11c3QgaGF2ZSBubyBzdGFnZWQgb3IgdW5zdGFnZWQgY2hhbmdlcyIKZmkKCmlmICEgZ2l0IGFwcGx5IC0zICIkUEFUQ0giOyB0aGVuCiAgZXJyb3IgIkZpeCBjb25mbGljdHMgYW5kIHJ1biAkRElSTkFNRS9wYXRjaC1zYXZlLnNoIgpmaQo=
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+DIRNAME="$(dirname -- "${BASH_SOURCE[0]}")"
+PATCH="$DIRNAME/upgradeable.patch"
+
+error() {
+  echo Error: "$*" >&2
+  exit 1
+}
+
+if ! git diff-files --quiet ":!$PATCH" || ! git diff-index --quiet HEAD ":!$PATCH"; then
+  error "Repository must have no staged or unstaged changes"
+fi
+
+if ! git apply -3 "$PATCH"; then
+  error "Fix conflicts and run $DIRNAME/patch-save.sh"
+fi
