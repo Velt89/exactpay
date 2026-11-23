@@ -1,1 +1,5 @@
-bWV0aG9kcyB7CiAgICBmdW5jdGlvbiBhdXRob3JpdHkoKSAgICAgICAgICAgICAgZXh0ZXJuYWwgcmV0dXJucyAoYWRkcmVzcykgZW52ZnJlZTsKICAgIGZ1bmN0aW9uIGlzQ29uc3VtaW5nU2NoZWR1bGVkT3AoKSBleHRlcm5hbCByZXR1cm5zIChieXRlczQpICBlbnZmcmVlOwogICAgZnVuY3Rpb24gc2V0QXV0aG9yaXR5KGFkZHJlc3MpICAgIGV4dGVybmFsOwp9Cg==
+methods {
+    function authority()              external returns (address) envfree;
+    function isConsumingScheduledOp() external returns (bytes4)  envfree;
+    function setAuthority(address)    external;
+}
