@@ -1,1 +1,73 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7Cgpjb250cmFjdCBDYWxsUmVjZWl2ZXJNb2NrIHsKICAgIGV2ZW50IE1vY2tGdW5jdGlvbkNhbGxlZCgpOwogICAgZXZlbnQgTW9ja0Z1bmN0aW9uQ2FsbGVkV2l0aEFyZ3ModWludDI1NiBhLCB1aW50MjU2IGIpOwoKICAgIHVpbnQyNTZbXSBwcml2YXRlIF9hcnJheTsKCiAgICBmdW5jdGlvbiBtb2NrRnVuY3Rpb24oKSBwdWJsaWMgcGF5YWJsZSByZXR1cm5zIChzdHJpbmcgbWVtb3J5KSB7CiAgICAgICAgZW1pdCBNb2NrRnVuY3Rpb25DYWxsZWQoKTsKCiAgICAgICAgcmV0dXJuICIweDEyMzQiOwogICAgfQoKICAgIGZ1bmN0aW9uIG1vY2tGdW5jdGlvbkVtcHR5UmV0dXJuKCkgcHVibGljIHBheWFibGUgewogICAgICAgIGVtaXQgTW9ja0Z1bmN0aW9uQ2FsbGVkKCk7CiAgICB9CgogICAgZnVuY3Rpb24gbW9ja0Z1bmN0aW9uV2l0aEFyZ3ModWludDI1NiBhLCB1aW50MjU2IGIpIHB1YmxpYyBwYXlhYmxlIHJldHVybnMgKHN0cmluZyBtZW1vcnkpIHsKICAgICAgICBlbWl0IE1vY2tGdW5jdGlvbkNhbGxlZFdpdGhBcmdzKGEsIGIpOwoKICAgICAgICByZXR1cm4gIjB4MTIzNCI7CiAgICB9CgogICAgZnVuY3Rpb24gbW9ja0Z1bmN0aW9uTm9uUGF5YWJsZSgpIHB1YmxpYyByZXR1cm5zIChzdHJpbmcgbWVtb3J5KSB7CiAgICAgICAgZW1pdCBNb2NrRnVuY3Rpb25DYWxsZWQoKTsKCiAgICAgICAgcmV0dXJuICIweDEyMzQiOwogICAgfQoKICAgIGZ1bmN0aW9uIG1vY2tTdGF0aWNGdW5jdGlvbigpIHB1YmxpYyBwdXJlIHJldHVybnMgKHN0cmluZyBtZW1vcnkpIHsKICAgICAgICByZXR1cm4gIjB4MTIzNCI7CiAgICB9CgogICAgZnVuY3Rpb24gbW9ja0Z1bmN0aW9uUmV2ZXJ0c05vUmVhc29uKCkgcHVibGljIHBheWFibGUgewogICAgICAgIHJldmVydCgpOwogICAgfQoKICAgIGZ1bmN0aW9uIG1vY2tGdW5jdGlvblJldmVydHNSZWFzb24oKSBwdWJsaWMgcGF5YWJsZSB7CiAgICAgICAgcmV2ZXJ0KCJDYWxsUmVjZWl2ZXJNb2NrOiByZXZlcnRpbmciKTsKICAgIH0KCiAgICBmdW5jdGlvbiBtb2NrRnVuY3Rpb25UaHJvd3MoKSBwdWJsaWMgcGF5YWJsZSB7CiAgICAgICAgYXNzZXJ0KGZhbHNlKTsKICAgIH0KCiAgICBmdW5jdGlvbiBtb2NrRnVuY3Rpb25PdXRPZkdhcygpIHB1YmxpYyBwYXlhYmxlIHsKICAgICAgICBmb3IgKHVpbnQyNTYgaSA9IDA7IDsgKytpKSB7CiAgICAgICAgICAgIF9hcnJheS5wdXNoKGkpOwogICAgICAgIH0KICAgIH0KCiAgICBmdW5jdGlvbiBtb2NrRnVuY3Rpb25Xcml0ZXNTdG9yYWdlKGJ5dGVzMzIgc2xvdCwgYnl0ZXMzMiB2YWx1ZSkgcHVibGljIHJldHVybnMgKHN0cmluZyBtZW1vcnkpIHsKICAgICAgICBhc3NlbWJseSB7CiAgICAgICAgICAgIHNzdG9yZShzbG90LCB2YWx1ZSkKICAgICAgICB9CiAgICAgICAgcmV0dXJuICIweDEyMzQiOwogICAgfQp9Cgpjb250cmFjdCBDYWxsUmVjZWl2ZXJNb2NrVHJ1c3RpbmdGb3J3YXJkZXIgaXMgQ2FsbFJlY2VpdmVyTW9jayB7CiAgICBhZGRyZXNzIHByaXZhdGUgX3RydXN0ZWRGb3J3YXJkZXI7CgogICAgY29uc3RydWN0b3IoYWRkcmVzcyB0cnVzdGVkRm9yd2FyZGVyXykgewogICAgICAgIF90cnVzdGVkRm9yd2FyZGVyID0gdHJ1c3RlZEZvcndhcmRlcl87CiAgICB9CgogICAgZnVuY3Rpb24gaXNUcnVzdGVkRm9yd2FyZGVyKGFkZHJlc3MgZm9yd2FyZGVyKSBwdWJsaWMgdmlldyB2aXJ0dWFsIHJldHVybnMgKGJvb2wpIHsKICAgICAgICByZXR1cm4gZm9yd2FyZGVyID09IF90cnVzdGVkRm9yd2FyZGVyOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+contract CallReceiverMock {
+    event MockFunctionCalled();
+    event MockFunctionCalledWithArgs(uint256 a, uint256 b);
+
+    uint256[] private _array;
+
+    function mockFunction() public payable returns (string memory) {
+        emit MockFunctionCalled();
+
+        return "0x1234";
+    }
+
+    function mockFunctionEmptyReturn() public payable {
+        emit MockFunctionCalled();
+    }
+
+    function mockFunctionWithArgs(uint256 a, uint256 b) public payable returns (string memory) {
+        emit MockFunctionCalledWithArgs(a, b);
+
+        return "0x1234";
+    }
+
+    function mockFunctionNonPayable() public returns (string memory) {
+        emit MockFunctionCalled();
+
+        return "0x1234";
+    }
+
+    function mockStaticFunction() public pure returns (string memory) {
+        return "0x1234";
+    }
+
+    function mockFunctionRevertsNoReason() public payable {
+        revert();
+    }
+
+    function mockFunctionRevertsReason() public payable {
+        revert("CallReceiverMock: reverting");
+    }
+
+    function mockFunctionThrows() public payable {
+        assert(false);
+    }
+
+    function mockFunctionOutOfGas() public payable {
+        for (uint256 i = 0; ; ++i) {
+            _array.push(i);
+        }
+    }
+
+    function mockFunctionWritesStorage(bytes32 slot, bytes32 value) public returns (string memory) {
+        assembly {
+            sstore(slot, value)
+        }
+        return "0x1234";
+    }
+}
+
+contract CallReceiverMockTrustingForwarder is CallReceiverMock {
+    address private _trustedForwarder;
+
+    constructor(address trustedForwarder_) {
+        _trustedForwarder = trustedForwarder_;
+    }
+
+    function isTrustedForwarder(address forwarder) public view virtual returns (bool) {
+        return forwarder == _trustedForwarder;
+    }
+}
