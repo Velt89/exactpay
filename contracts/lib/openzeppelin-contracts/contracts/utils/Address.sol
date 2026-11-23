@@ -1,1 +1,150 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodXRpbHMvQWRkcmVzcy5zb2wpCgpwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7RXJyb3JzfSBmcm9tICIuL0Vycm9ycy5zb2wiOwoKLyoqCiAqIEBkZXYgQ29sbGVjdGlvbiBvZiBmdW5jdGlvbnMgcmVsYXRlZCB0byB0aGUgYWRkcmVzcyB0eXBlCiAqLwpsaWJyYXJ5IEFkZHJlc3MgewogICAgLyoqCiAgICAgKiBAZGV2IFRoZXJlJ3Mgbm8gY29kZSBhdCBgdGFyZ2V0YCAoaXQgaXMgbm90IGEgY29udHJhY3QpLgogICAgICovCiAgICBlcnJvciBBZGRyZXNzRW1wdHlDb2RlKGFkZHJlc3MgdGFyZ2V0KTsKCiAgICAvKioKICAgICAqIEBkZXYgUmVwbGFjZW1lbnQgZm9yIFNvbGlkaXR5J3MgYHRyYW5zZmVyYDogc2VuZHMgYGFtb3VudGAgd2VpIHRvCiAgICAgKiBgcmVjaXBpZW50YCwgZm9yd2FyZGluZyBhbGwgYXZhaWxhYmxlIGdhcyBhbmQgcmV2ZXJ0aW5nIG9uIGVycm9ycy4KICAgICAqCiAgICAgKiBodHRwczovL2VpcHMuZXRoZXJldW0ub3JnL0VJUFMvZWlwLTE4ODRbRUlQMTg4NF0gaW5jcmVhc2VzIHRoZSBnYXMgY29zdAogICAgICogb2YgY2VydGFpbiBvcGNvZGVzLCBwb3NzaWJseSBtYWtpbmcgY29udHJhY3RzIGdvIG92ZXIgdGhlIDIzMDAgZ2FzIGxpbWl0CiAgICAgKiBpbXBvc2VkIGJ5IGB0cmFuc2ZlcmAsIG1ha2luZyB0aGVtIHVuYWJsZSB0byByZWNlaXZlIGZ1bmRzIHZpYQogICAgICogYHRyYW5zZmVyYC4ge3NlbmRWYWx1ZX0gcmVtb3ZlcyB0aGlzIGxpbWl0YXRpb24uCiAgICAgKgogICAgICogaHR0cHM6Ly9jb25zZW5zeXMubmV0L2RpbGlnZW5jZS9ibG9nLzIwMTkvMDkvc3RvcC11c2luZy1zb2xpZGl0eXMtdHJhbnNmZXItbm93L1tMZWFybiBtb3JlXS4KICAgICAqCiAgICAgKiBJTVBPUlRBTlQ6IGJlY2F1c2UgY29udHJvbCBpcyB0cmFuc2ZlcnJlZCB0byBgcmVjaXBpZW50YCwgY2FyZSBtdXN0IGJlCiAgICAgKiB0YWtlbiB0byBub3QgY3JlYXRlIHJlZW50cmFuY3kgdnVsbmVyYWJpbGl0aWVzLiBDb25zaWRlciB1c2luZwogICAgICoge1JlZW50cmFuY3lHdWFyZH0gb3IgdGhlCiAgICAgKiBodHRwczovL3NvbGlkaXR5LnJlYWR0aGVkb2NzLmlvL2VuL3YwLjguMjAvc2VjdXJpdHktY29uc2lkZXJhdGlvbnMuaHRtbCN1c2UtdGhlLWNoZWNrcy1lZmZlY3RzLWludGVyYWN0aW9ucy1wYXR0ZXJuW2NoZWNrcy1lZmZlY3RzLWludGVyYWN0aW9ucyBwYXR0ZXJuXS4KICAgICAqLwogICAgZnVuY3Rpb24gc2VuZFZhbHVlKGFkZHJlc3MgcGF5YWJsZSByZWNpcGllbnQsIHVpbnQyNTYgYW1vdW50KSBpbnRlcm5hbCB7CiAgICAgICAgaWYgKGFkZHJlc3ModGhpcykuYmFsYW5jZSA8IGFtb3VudCkgewogICAgICAgICAgICByZXZlcnQgRXJyb3JzLkluc3VmZmljaWVudEJhbGFuY2UoYWRkcmVzcyh0aGlzKS5iYWxhbmNlLCBhbW91bnQpOwogICAgICAgIH0KCiAgICAgICAgKGJvb2wgc3VjY2VzcywgKSA9IHJlY2lwaWVudC5jYWxse3ZhbHVlOiBhbW91bnR9KCIiKTsKICAgICAgICBpZiAoIXN1Y2Nlc3MpIHsKICAgICAgICAgICAgcmV2ZXJ0IEVycm9ycy5GYWlsZWRDYWxsKCk7CiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICogQGRldiBQZXJmb3JtcyBhIFNvbGlkaXR5IGZ1bmN0aW9uIGNhbGwgdXNpbmcgYSBsb3cgbGV2ZWwgYGNhbGxgLiBBCiAgICAgKiBwbGFpbiBgY2FsbGAgaXMgYW4gdW5zYWZlIHJlcGxhY2VtZW50IGZvciBhIGZ1bmN0aW9uIGNhbGw6IHVzZSB0aGlzCiAgICAgKiBmdW5jdGlvbiBpbnN0ZWFkLgogICAgICoKICAgICAqIElmIGB0YXJnZXRgIHJldmVydHMgd2l0aCBhIHJldmVydCByZWFzb24gb3IgY3VzdG9tIGVycm9yLCBpdCBpcyBidWJibGVkCiAgICAgKiB1cCBieSB0aGlzIGZ1bmN0aW9uIChsaWtlIHJlZ3VsYXIgU29saWRpdHkgZnVuY3Rpb24gY2FsbHMpLiBIb3dldmVyLCBpZgogICAgICogdGhlIGNhbGwgcmV2ZXJ0ZWQgd2l0aCBubyByZXR1cm5lZCByZWFzb24sIHRoaXMgZnVuY3Rpb24gcmV2ZXJ0cyB3aXRoIGEKICAgICAqIHtFcnJvcnMuRmFpbGVkQ2FsbH0gZXJyb3IuCiAgICAgKgogICAgICogUmV0dXJucyB0aGUgcmF3IHJldHVybmVkIGRhdGEuIFRvIGNvbnZlcnQgdG8gdGhlIGV4cGVjdGVkIHJldHVybiB2YWx1ZSwKICAgICAqIHVzZSBodHRwczovL3NvbGlkaXR5LnJlYWR0aGVkb2NzLmlvL2VuL2xhdGVzdC91bml0cy1hbmQtZ2xvYmFsLXZhcmlhYmxlcy5odG1sP2hpZ2hsaWdodD1hYmkuZGVjb2RlI2FiaS1lbmNvZGluZy1hbmQtZGVjb2RpbmctZnVuY3Rpb25zW2BhYmkuZGVjb2RlYF0uCiAgICAgKgogICAgICogUmVxdWlyZW1lbnRzOgogICAgICoKICAgICAqIC0gYHRhcmdldGAgbXVzdCBiZSBhIGNvbnRyYWN0LgogICAgICogLSBjYWxsaW5nIGB0YXJnZXRgIHdpdGggYGRhdGFgIG11c3Qgbm90IHJldmVydC4KICAgICAqLwogICAgZnVuY3Rpb24gZnVuY3Rpb25DYWxsKGFkZHJlc3MgdGFyZ2V0LCBieXRlcyBtZW1vcnkgZGF0YSkgaW50ZXJuYWwgcmV0dXJucyAoYnl0ZXMgbWVtb3J5KSB7CiAgICAgICAgcmV0dXJuIGZ1bmN0aW9uQ2FsbFdpdGhWYWx1ZSh0YXJnZXQsIGRhdGEsIDApOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBTYW1lIGFzIHt4cmVmLUFkZHJlc3MtZnVuY3Rpb25DYWxsLWFkZHJlc3MtYnl0ZXMtfVtgZnVuY3Rpb25DYWxsYF0sCiAgICAgKiBidXQgYWxzbyB0cmFuc2ZlcnJpbmcgYHZhbHVlYCB3ZWkgdG8gYHRhcmdldGAuCiAgICAgKgogICAgICogUmVxdWlyZW1lbnRzOgogICAgICoKICAgICAqIC0gdGhlIGNhbGxpbmcgY29udHJhY3QgbXVzdCBoYXZlIGFuIEVUSCBiYWxhbmNlIG9mIGF0IGxlYXN0IGB2YWx1ZWAuCiAgICAgKiAtIHRoZSBjYWxsZWQgU29saWRpdHkgZnVuY3Rpb24gbXVzdCBiZSBgcGF5YWJsZWAuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGZ1bmN0aW9uQ2FsbFdpdGhWYWx1ZShhZGRyZXNzIHRhcmdldCwgYnl0ZXMgbWVtb3J5IGRhdGEsIHVpbnQyNTYgdmFsdWUpIGludGVybmFsIHJldHVybnMgKGJ5dGVzIG1lbW9yeSkgewogICAgICAgIGlmIChhZGRyZXNzKHRoaXMpLmJhbGFuY2UgPCB2YWx1ZSkgewogICAgICAgICAgICByZXZlcnQgRXJyb3JzLkluc3VmZmljaWVudEJhbGFuY2UoYWRkcmVzcyh0aGlzKS5iYWxhbmNlLCB2YWx1ZSk7CiAgICAgICAgfQogICAgICAgIChib29sIHN1Y2Nlc3MsIGJ5dGVzIG1lbW9yeSByZXR1cm5kYXRhKSA9IHRhcmdldC5jYWxse3ZhbHVlOiB2YWx1ZX0oZGF0YSk7CiAgICAgICAgcmV0dXJuIHZlcmlmeUNhbGxSZXN1bHRGcm9tVGFyZ2V0KHRhcmdldCwgc3VjY2VzcywgcmV0dXJuZGF0YSk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFNhbWUgYXMge3hyZWYtQWRkcmVzcy1mdW5jdGlvbkNhbGwtYWRkcmVzcy1ieXRlcy19W2BmdW5jdGlvbkNhbGxgXSwKICAgICAqIGJ1dCBwZXJmb3JtaW5nIGEgc3RhdGljIGNhbGwuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGZ1bmN0aW9uU3RhdGljQ2FsbChhZGRyZXNzIHRhcmdldCwgYnl0ZXMgbWVtb3J5IGRhdGEpIGludGVybmFsIHZpZXcgcmV0dXJucyAoYnl0ZXMgbWVtb3J5KSB7CiAgICAgICAgKGJvb2wgc3VjY2VzcywgYnl0ZXMgbWVtb3J5IHJldHVybmRhdGEpID0gdGFyZ2V0LnN0YXRpY2NhbGwoZGF0YSk7CiAgICAgICAgcmV0dXJuIHZlcmlmeUNhbGxSZXN1bHRGcm9tVGFyZ2V0KHRhcmdldCwgc3VjY2VzcywgcmV0dXJuZGF0YSk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFNhbWUgYXMge3hyZWYtQWRkcmVzcy1mdW5jdGlvbkNhbGwtYWRkcmVzcy1ieXRlcy19W2BmdW5jdGlvbkNhbGxgXSwKICAgICAqIGJ1dCBwZXJmb3JtaW5nIGEgZGVsZWdhdGUgY2FsbC4KICAgICAqLwogICAgZnVuY3Rpb24gZnVuY3Rpb25EZWxlZ2F0ZUNhbGwoYWRkcmVzcyB0YXJnZXQsIGJ5dGVzIG1lbW9yeSBkYXRhKSBpbnRlcm5hbCByZXR1cm5zIChieXRlcyBtZW1vcnkpIHsKICAgICAgICAoYm9vbCBzdWNjZXNzLCBieXRlcyBtZW1vcnkgcmV0dXJuZGF0YSkgPSB0YXJnZXQuZGVsZWdhdGVjYWxsKGRhdGEpOwogICAgICAgIHJldHVybiB2ZXJpZnlDYWxsUmVzdWx0RnJvbVRhcmdldCh0YXJnZXQsIHN1Y2Nlc3MsIHJldHVybmRhdGEpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBUb29sIHRvIHZlcmlmeSB0aGF0IGEgbG93IGxldmVsIGNhbGwgdG8gc21hcnQtY29udHJhY3Qgd2FzIHN1Y2Nlc3NmdWwsIGFuZCByZXZlcnRzIGlmIHRoZSB0YXJnZXQKICAgICAqIHdhcyBub3QgYSBjb250cmFjdCBvciBidWJibGluZyB1cCB0aGUgcmV2ZXJ0IHJlYXNvbiAoZmFsbGluZyBiYWNrIHRvIHtFcnJvcnMuRmFpbGVkQ2FsbH0pIGluIGNhc2UKICAgICAqIG9mIGFuIHVuc3VjY2Vzc2Z1bCBjYWxsLgogICAgICovCiAgICBmdW5jdGlvbiB2ZXJpZnlDYWxsUmVzdWx0RnJvbVRhcmdldCgKICAgICAgICBhZGRyZXNzIHRhcmdldCwKICAgICAgICBib29sIHN1Y2Nlc3MsCiAgICAgICAgYnl0ZXMgbWVtb3J5IHJldHVybmRhdGEKICAgICkgaW50ZXJuYWwgdmlldyByZXR1cm5zIChieXRlcyBtZW1vcnkpIHsKICAgICAgICBpZiAoIXN1Y2Nlc3MpIHsKICAgICAgICAgICAgX3JldmVydChyZXR1cm5kYXRhKTsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAvLyBvbmx5IGNoZWNrIGlmIHRhcmdldCBpcyBhIGNvbnRyYWN0IGlmIHRoZSBjYWxsIHdhcyBzdWNjZXNzZnVsIGFuZCB0aGUgcmV0dXJuIGRhdGEgaXMgZW1wdHkKICAgICAgICAgICAgLy8gb3RoZXJ3aXNlIHdlIGFscmVhZHkga25vdyB0aGF0IGl0IHdhcyBhIGNvbnRyYWN0CiAgICAgICAgICAgIGlmIChyZXR1cm5kYXRhLmxlbmd0aCA9PSAwICYmIHRhcmdldC5jb2RlLmxlbmd0aCA9PSAwKSB7CiAgICAgICAgICAgICAgICByZXZlcnQgQWRkcmVzc0VtcHR5Q29kZSh0YXJnZXQpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIHJldHVybiByZXR1cm5kYXRhOwogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgVG9vbCB0byB2ZXJpZnkgdGhhdCBhIGxvdyBsZXZlbCBjYWxsIHdhcyBzdWNjZXNzZnVsLCBhbmQgcmV2ZXJ0cyBpZiBpdCB3YXNuJ3QsIGVpdGhlciBieSBidWJibGluZyB0aGUKICAgICAqIHJldmVydCByZWFzb24gb3Igd2l0aCBhIGRlZmF1bHQge0Vycm9ycy5GYWlsZWRDYWxsfSBlcnJvci4KICAgICAqLwogICAgZnVuY3Rpb24gdmVyaWZ5Q2FsbFJlc3VsdChib29sIHN1Y2Nlc3MsIGJ5dGVzIG1lbW9yeSByZXR1cm5kYXRhKSBpbnRlcm5hbCBwdXJlIHJldHVybnMgKGJ5dGVzIG1lbW9yeSkgewogICAgICAgIGlmICghc3VjY2VzcykgewogICAgICAgICAgICBfcmV2ZXJ0KHJldHVybmRhdGEpOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHJldHVybiByZXR1cm5kYXRhOwogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUmV2ZXJ0cyB3aXRoIHJldHVybmRhdGEgaWYgcHJlc2VudC4gT3RoZXJ3aXNlIHJldmVydHMgd2l0aCB7RXJyb3JzLkZhaWxlZENhbGx9LgogICAgICovCiAgICBmdW5jdGlvbiBfcmV2ZXJ0KGJ5dGVzIG1lbW9yeSByZXR1cm5kYXRhKSBwcml2YXRlIHB1cmUgewogICAgICAgIC8vIExvb2sgZm9yIHJldmVydCByZWFzb24gYW5kIGJ1YmJsZSBpdCB1cCBpZiBwcmVzZW50CiAgICAgICAgaWYgKHJldHVybmRhdGEubGVuZ3RoID4gMCkgewogICAgICAgICAgICAvLyBUaGUgZWFzaWVzdCB3YXkgdG8gYnViYmxlIHRoZSByZXZlcnQgcmVhc29uIGlzIHVzaW5nIG1lbW9yeSB2aWEgYXNzZW1ibHkKICAgICAgICAgICAgYXNzZW1ibHkgKCJtZW1vcnktc2FmZSIpIHsKICAgICAgICAgICAgICAgIGxldCByZXR1cm5kYXRhX3NpemUgOj0gbWxvYWQocmV0dXJuZGF0YSkKICAgICAgICAgICAgICAgIHJldmVydChhZGQoMzIsIHJldHVybmRhdGEpLCByZXR1cm5kYXRhX3NpemUpCiAgICAgICAgICAgIH0KICAgICAgICB9IGVsc2UgewogICAgICAgICAgICByZXZlcnQgRXJyb3JzLkZhaWxlZENhbGwoKTsKICAgICAgICB9CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (utils/Address.sol)
+
+pragma solidity ^0.8.20;
+
+import {Errors} from "./Errors.sol";
+
+/**
+ * @dev Collection of functions related to the address type
+ */
+library Address {
+    /**
+     * @dev There's no code at `target` (it is not a contract).
+     */
+    error AddressEmptyCode(address target);
+
+    /**
+     * @dev Replacement for Solidity's `transfer`: sends `amount` wei to
+     * `recipient`, forwarding all available gas and reverting on errors.
+     *
+     * https://eips.ethereum.org/EIPS/eip-1884[EIP1884] increases the gas cost
+     * of certain opcodes, possibly making contracts go over the 2300 gas limit
+     * imposed by `transfer`, making them unable to receive funds via
+     * `transfer`. {sendValue} removes this limitation.
+     *
+     * https://consensys.net/diligence/blog/2019/09/stop-using-soliditys-transfer-now/[Learn more].
+     *
+     * IMPORTANT: because control is transferred to `recipient`, care must be
+     * taken to not create reentrancy vulnerabilities. Consider using
+     * {ReentrancyGuard} or the
+     * https://solidity.readthedocs.io/en/v0.8.20/security-considerations.html#use-the-checks-effects-interactions-pattern[checks-effects-interactions pattern].
+     */
+    function sendValue(address payable recipient, uint256 amount) internal {
+        if (address(this).balance < amount) {
+            revert Errors.InsufficientBalance(address(this).balance, amount);
+        }
+
+        (bool success, ) = recipient.call{value: amount}("");
+        if (!success) {
+            revert Errors.FailedCall();
+        }
+    }
+
+    /**
+     * @dev Performs a Solidity function call using a low level `call`. A
+     * plain `call` is an unsafe replacement for a function call: use this
+     * function instead.
+     *
+     * If `target` reverts with a revert reason or custom error, it is bubbled
+     * up by this function (like regular Solidity function calls). However, if
+     * the call reverted with no returned reason, this function reverts with a
+     * {Errors.FailedCall} error.
+     *
+     * Returns the raw returned data. To convert to the expected return value,
+     * use https://solidity.readthedocs.io/en/latest/units-and-global-variables.html?highlight=abi.decode#abi-encoding-and-decoding-functions[`abi.decode`].
+     *
+     * Requirements:
+     *
+     * - `target` must be a contract.
+     * - calling `target` with `data` must not revert.
+     */
+    function functionCall(address target, bytes memory data) internal returns (bytes memory) {
+        return functionCallWithValue(target, data, 0);
+    }
+
+    /**
+     * @dev Same as {xref-Address-functionCall-address-bytes-}[`functionCall`],
+     * but also transferring `value` wei to `target`.
+     *
+     * Requirements:
+     *
+     * - the calling contract must have an ETH balance of at least `value`.
+     * - the called Solidity function must be `payable`.
+     */
+    function functionCallWithValue(address target, bytes memory data, uint256 value) internal returns (bytes memory) {
+        if (address(this).balance < value) {
+            revert Errors.InsufficientBalance(address(this).balance, value);
+        }
+        (bool success, bytes memory returndata) = target.call{value: value}(data);
+        return verifyCallResultFromTarget(target, success, returndata);
+    }
+
+    /**
+     * @dev Same as {xref-Address-functionCall-address-bytes-}[`functionCall`],
+     * but performing a static call.
+     */
+    function functionStaticCall(address target, bytes memory data) internal view returns (bytes memory) {
+        (bool success, bytes memory returndata) = target.staticcall(data);
+        return verifyCallResultFromTarget(target, success, returndata);
+    }
+
+    /**
+     * @dev Same as {xref-Address-functionCall-address-bytes-}[`functionCall`],
+     * but performing a delegate call.
+     */
+    function functionDelegateCall(address target, bytes memory data) internal returns (bytes memory) {
+        (bool success, bytes memory returndata) = target.delegatecall(data);
+        return verifyCallResultFromTarget(target, success, returndata);
+    }
+
+    /**
+     * @dev Tool to verify that a low level call to smart-contract was successful, and reverts if the target
+     * was not a contract or bubbling up the revert reason (falling back to {Errors.FailedCall}) in case
+     * of an unsuccessful call.
+     */
+    function verifyCallResultFromTarget(
+        address target,
+        bool success,
+        bytes memory returndata
+    ) internal view returns (bytes memory) {
+        if (!success) {
+            _revert(returndata);
+        } else {
+            // only check if target is a contract if the call was successful and the return data is empty
+            // otherwise we already know that it was a contract
+            if (returndata.length == 0 && target.code.length == 0) {
+                revert AddressEmptyCode(target);
+            }
+            return returndata;
+        }
+    }
+
+    /**
+     * @dev Tool to verify that a low level call was successful, and reverts if it wasn't, either by bubbling the
+     * revert reason or with a default {Errors.FailedCall} error.
+     */
+    function verifyCallResult(bool success, bytes memory returndata) internal pure returns (bytes memory) {
+        if (!success) {
+            _revert(returndata);
+        } else {
+            return returndata;
+        }
+    }
+
+    /**
+     * @dev Reverts with returndata if present. Otherwise reverts with {Errors.FailedCall}.
+     */
+    function _revert(bytes memory returndata) private pure {
+        // Look for revert reason and bubble it up if present
+        if (returndata.length > 0) {
+            // The easiest way to bubble the revert reason is using memory via assembly
+            assembly ("memory-safe") {
+                let returndata_size := mload(returndata)
+                revert(add(32, returndata), returndata_size)
+            }
+        } else {
+            revert Errors.FailedCall();
+        }
+    }
+}
