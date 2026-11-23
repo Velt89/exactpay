@@ -1,1 +1,7 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMC4wKSAoaW50ZXJmYWNlcy9JRVJDMzE1Ni5zb2wpCgpwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7SUVSQzMxNTZGbGFzaEJvcnJvd2VyfSBmcm9tICIuL0lFUkMzMTU2Rmxhc2hCb3Jyb3dlci5zb2wiOwppbXBvcnQge0lFUkMzMTU2Rmxhc2hMZW5kZXJ9IGZyb20gIi4vSUVSQzMxNTZGbGFzaExlbmRlci5zb2wiOwo=
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.0.0) (interfaces/IERC3156.sol)
+
+pragma solidity ^0.8.20;
+
+import {IERC3156FlashBorrower} from "./IERC3156FlashBorrower.sol";
+import {IERC3156FlashLender} from "./IERC3156FlashLender.sol";
