@@ -1,1 +1,274 @@
-Y29uc3QgZm9ybWF0ID0gcmVxdWlyZSgnLi4vZm9ybWF0LWxpbmVzJyk7CmNvbnN0IHsgZnJvbUJ5dGVzMzIsIHRvQnl0ZXMzMiB9ID0gcmVxdWlyZSgnLi9jb252ZXJzaW9uJyk7CmNvbnN0IHsgVFlQRVMgfSA9IHJlcXVpcmUoJy4vRW51bWVyYWJsZU1hcC5vcHRzJyk7CgovKiBlc2xpbnQtZGlzYWJsZSBtYXgtbGVuICovCmNvbnN0IGhlYWRlciA9IGBcCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKaW1wb3J0IHtFbnVtZXJhYmxlU2V0fSBmcm9tICIuL0VudW1lcmFibGVTZXQuc29sIjsKCi8qKgogKiBAZGV2IExpYnJhcnkgZm9yIG1hbmFnaW5nIGFuIGVudW1lcmFibGUgdmFyaWFudCBvZiBTb2xpZGl0eSdzCiAqIGh0dHBzOi8vc29saWRpdHkucmVhZHRoZWRvY3MuaW8vZW4vbGF0ZXN0L3R5cGVzLmh0bWwjbWFwcGluZy10eXBlc1tcYG1hcHBpbmdcYF0KICogdHlwZS4KICoKICogTWFwcyBoYXZlIHRoZSBmb2xsb3dpbmcgcHJvcGVydGllczoKICoKICogLSBFbnRyaWVzIGFyZSBhZGRlZCwgcmVtb3ZlZCwgYW5kIGNoZWNrZWQgZm9yIGV4aXN0ZW5jZSBpbiBjb25zdGFudCB0aW1lCiAqIChPKDEpKS4KICogLSBFbnRyaWVzIGFyZSBlbnVtZXJhdGVkIGluIE8obikuIE5vIGd1YXJhbnRlZXMgYXJlIG1hZGUgb24gdGhlIG9yZGVyaW5nLgogKgogKiBcYFxgXGBzb2xpZGl0eQogKiBjb250cmFjdCBFeGFtcGxlIHsKICogICAgIC8vIEFkZCB0aGUgbGlicmFyeSBtZXRob2RzCiAqICAgICB1c2luZyBFbnVtZXJhYmxlTWFwIGZvciBFbnVtZXJhYmxlTWFwLlVpbnRUb0FkZHJlc3NNYXA7CiAqCiAqICAgICAvLyBEZWNsYXJlIGEgc2V0IHN0YXRlIHZhcmlhYmxlCiAqICAgICBFbnVtZXJhYmxlTWFwLlVpbnRUb0FkZHJlc3NNYXAgcHJpdmF0ZSBteU1hcDsKICogfQogKiBcYFxgXGAKICoKICogVGhlIGZvbGxvd2luZyBtYXAgdHlwZXMgYXJlIHN1cHBvcnRlZDoKICoKICogLSBcYHVpbnQyNTYgLT4gYWRkcmVzc1xgIChcYFVpbnRUb0FkZHJlc3NNYXBcYCkgc2luY2UgdjMuMC4wCiAqIC0gXGBhZGRyZXNzIC0+IHVpbnQyNTZcYCAoXGBBZGRyZXNzVG9VaW50TWFwXGApIHNpbmNlIHY0LjYuMAogKiAtIFxgYnl0ZXMzMiAtPiBieXRlczMyXGAgKFxgQnl0ZXMzMlRvQnl0ZXMzMk1hcFxgKSBzaW5jZSB2NC42LjAKICogLSBcYHVpbnQyNTYgLT4gdWludDI1NlxgIChcYFVpbnRUb1VpbnRNYXBcYCkgc2luY2UgdjQuNy4wCiAqIC0gXGBieXRlczMyIC0+IHVpbnQyNTZcYCAoXGBCeXRlczMyVG9VaW50TWFwXGApIHNpbmNlIHY0LjcuMAogKiAtIFxgdWludDI1NiAtPiBieXRlczMyXGAgKFxgVWludFRvQnl0ZXMzMk1hcFxgKSBzaW5jZSB2NS4xLjAKICogLSBcYGFkZHJlc3MgLT4gYWRkcmVzc1xgIChcYEFkZHJlc3NUb0FkZHJlc3NNYXBcYCkgc2luY2UgdjUuMS4wCiAqIC0gXGBhZGRyZXNzIC0+IGJ5dGVzMzJcYCAoXGBBZGRyZXNzVG9CeXRlczMyTWFwXGApIHNpbmNlIHY1LjEuMAogKiAtIFxgYnl0ZXMzMiAtPiBhZGRyZXNzXGAgKFxgQnl0ZXMzMlRvQWRkcmVzc01hcFxgKSBzaW5jZSB2NS4xLjAKICoKICogW1dBUk5JTkddCiAqID09PT0KICogVHJ5aW5nIHRvIGRlbGV0ZSBzdWNoIGEgc3RydWN0dXJlIGZyb20gc3RvcmFnZSB3aWxsIGxpa2VseSByZXN1bHQgaW4gZGF0YSBjb3JydXB0aW9uLCByZW5kZXJpbmcgdGhlIHN0cnVjdHVyZQogKiB1bnVzYWJsZS4KICogU2VlIGh0dHBzOi8vZ2l0aHViLmNvbS9ldGhlcmV1bS9zb2xpZGl0eS9wdWxsLzExODQzW2V0aGVyZXVtL3NvbGlkaXR5IzExODQzXSBmb3IgbW9yZSBpbmZvLgogKgogKiBJbiBvcmRlciB0byBjbGVhbiBhbiBFbnVtZXJhYmxlTWFwLCB5b3UgY2FuIGVpdGhlciByZW1vdmUgYWxsIGVsZW1lbnRzIG9uZSBieSBvbmUgb3IgY3JlYXRlIGEgZnJlc2ggaW5zdGFuY2UgdXNpbmcgYW4KICogYXJyYXkgb2YgRW51bWVyYWJsZU1hcC4KICogPT09PQogKi8KYDsKLyogZXNsaW50LWVuYWJsZSBtYXgtbGVuICovCgpjb25zdCBkZWZhdWx0TWFwID0gYFwKLy8gVG8gaW1wbGVtZW50IHRoaXMgbGlicmFyeSBmb3IgbXVsdGlwbGUgdHlwZXMgd2l0aCBhcyBsaXR0bGUgY29kZSByZXBldGl0aW9uIGFzIHBvc3NpYmxlLCB3ZSB3cml0ZSBpdCBpbgovLyB0ZXJtcyBvZiBhIGdlbmVyaWMgTWFwIHR5cGUgd2l0aCBieXRlczMyIGtleXMgYW5kIHZhbHVlcy4gVGhlIE1hcCBpbXBsZW1lbnRhdGlvbiB1c2VzIHByaXZhdGUgZnVuY3Rpb25zLAovLyBhbmQgdXNlci1mYWNpbmcgaW1wbGVtZW50YXRpb25zIHN1Y2ggYXMgXGBVaW50VG9BZGRyZXNzTWFwXGAgYXJlIGp1c3Qgd3JhcHBlcnMgYXJvdW5kIHRoZSB1bmRlcmx5aW5nIE1hcC4KLy8gVGhpcyBtZWFucyB0aGF0IHdlIGNhbiBvbmx5IGNyZWF0ZSBuZXcgRW51bWVyYWJsZU1hcHMgZm9yIHR5cGVzIHRoYXQgZml0IGluIGJ5dGVzMzIuCgovKioKICogQGRldiBRdWVyeSBmb3IgYSBub25leGlzdGVudCBtYXAga2V5LgogKi8KZXJyb3IgRW51bWVyYWJsZU1hcE5vbmV4aXN0ZW50S2V5KGJ5dGVzMzIga2V5KTsKCnN0cnVjdCBCeXRlczMyVG9CeXRlczMyTWFwIHsKICAgIC8vIFN0b3JhZ2Ugb2Yga2V5cwogICAgRW51bWVyYWJsZVNldC5CeXRlczMyU2V0IF9rZXlzOwogICAgbWFwcGluZyhieXRlczMyIGtleSA9PiBieXRlczMyKSBfdmFsdWVzOwp9CgovKioKICogQGRldiBBZGRzIGEga2V5LXZhbHVlIHBhaXIgdG8gYSBtYXAsIG9yIHVwZGF0ZXMgdGhlIHZhbHVlIGZvciBhbiBleGlzdGluZwogKiBrZXkuIE8oMSkuCiAqCiAqIFJldHVybnMgdHJ1ZSBpZiB0aGUga2V5IHdhcyBhZGRlZCB0byB0aGUgbWFwLCB0aGF0IGlzIGlmIGl0IHdhcyBub3QKICogYWxyZWFkeSBwcmVzZW50LgogKi8KZnVuY3Rpb24gc2V0KEJ5dGVzMzJUb0J5dGVzMzJNYXAgc3RvcmFnZSBtYXAsIGJ5dGVzMzIga2V5LCBieXRlczMyIHZhbHVlKSBpbnRlcm5hbCByZXR1cm5zIChib29sKSB7CiAgICBtYXAuX3ZhbHVlc1trZXldID0gdmFsdWU7CiAgICByZXR1cm4gbWFwLl9rZXlzLmFkZChrZXkpOwp9CgovKioKICogQGRldiBSZW1vdmVzIGEga2V5LXZhbHVlIHBhaXIgZnJvbSBhIG1hcC4gTygxKS4KICoKICogUmV0dXJucyB0cnVlIGlmIHRoZSBrZXkgd2FzIHJlbW92ZWQgZnJvbSB0aGUgbWFwLCB0aGF0IGlzIGlmIGl0IHdhcyBwcmVzZW50LgogKi8KZnVuY3Rpb24gcmVtb3ZlKEJ5dGVzMzJUb0J5dGVzMzJNYXAgc3RvcmFnZSBtYXAsIGJ5dGVzMzIga2V5KSBpbnRlcm5hbCByZXR1cm5zIChib29sKSB7CiAgICBkZWxldGUgbWFwLl92YWx1ZXNba2V5XTsKICAgIHJldHVybiBtYXAuX2tleXMucmVtb3ZlKGtleSk7Cn0KCi8qKgogKiBAZGV2IFJldHVybnMgdHJ1ZSBpZiB0aGUga2V5IGlzIGluIHRoZSBtYXAuIE8oMSkuCiAqLwpmdW5jdGlvbiBjb250YWlucyhCeXRlczMyVG9CeXRlczMyTWFwIHN0b3JhZ2UgbWFwLCBieXRlczMyIGtleSkgaW50ZXJuYWwgdmlldyByZXR1cm5zIChib29sKSB7CiAgICByZXR1cm4gbWFwLl9rZXlzLmNvbnRhaW5zKGtleSk7Cn0KCi8qKgogKiBAZGV2IFJldHVybnMgdGhlIG51bWJlciBvZiBrZXktdmFsdWUgcGFpcnMgaW4gdGhlIG1hcC4gTygxKS4KICovCmZ1bmN0aW9uIGxlbmd0aChCeXRlczMyVG9CeXRlczMyTWFwIHN0b3JhZ2UgbWFwKSBpbnRlcm5hbCB2aWV3IHJldHVybnMgKHVpbnQyNTYpIHsKICAgIHJldHVybiBtYXAuX2tleXMubGVuZ3RoKCk7Cn0KCi8qKgogKiBAZGV2IFJldHVybnMgdGhlIGtleS12YWx1ZSBwYWlyIHN0b3JlZCBhdCBwb3NpdGlvbiBcYGluZGV4XGAgaW4gdGhlIG1hcC4gTygxKS4KICoKICogTm90ZSB0aGF0IHRoZXJlIGFyZSBubyBndWFyYW50ZWVzIG9uIHRoZSBvcmRlcmluZyBvZiBlbnRyaWVzIGluc2lkZSB0aGUKICogYXJyYXksIGFuZCBpdCBtYXkgY2hhbmdlIHdoZW4gbW9yZSBlbnRyaWVzIGFyZSBhZGRlZCBvciByZW1vdmVkLgogKgogKiBSZXF1aXJlbWVudHM6CiAqCiAqIC0gXGBpbmRleFxgIG11c3QgYmUgc3RyaWN0bHkgbGVzcyB0aGFuIHtsZW5ndGh9LgogKi8KZnVuY3Rpb24gYXQoQnl0ZXMzMlRvQnl0ZXMzMk1hcCBzdG9yYWdlIG1hcCwgdWludDI1NiBpbmRleCkgaW50ZXJuYWwgdmlldyByZXR1cm5zIChieXRlczMyIGtleSwgYnl0ZXMzMiB2YWx1ZSkgewogICAgYnl0ZXMzMiBhdEtleSA9IG1hcC5fa2V5cy5hdChpbmRleCk7CiAgICByZXR1cm4gKGF0S2V5LCBtYXAuX3ZhbHVlc1thdEtleV0pOwp9CgovKioKICogQGRldiBUcmllcyB0byByZXR1cm5zIHRoZSB2YWx1ZSBhc3NvY2lhdGVkIHdpdGggXGBrZXlcYC4gTygxKS4KICogRG9lcyBub3QgcmV2ZXJ0IGlmIFxga2V5XGAgaXMgbm90IGluIHRoZSBtYXAuCiAqLwpmdW5jdGlvbiB0cnlHZXQoQnl0ZXMzMlRvQnl0ZXMzMk1hcCBzdG9yYWdlIG1hcCwgYnl0ZXMzMiBrZXkpIGludGVybmFsIHZpZXcgcmV0dXJucyAoYm9vbCBleGlzdHMsIGJ5dGVzMzIgdmFsdWUpIHsKICAgIGJ5dGVzMzIgdmFsID0gbWFwLl92YWx1ZXNba2V5XTsKICAgIGlmICh2YWwgPT0gYnl0ZXMzMigwKSkgewogICAgICAgIHJldHVybiAoY29udGFpbnMobWFwLCBrZXkpLCBieXRlczMyKDApKTsKICAgIH0gZWxzZSB7CiAgICAgICAgcmV0dXJuICh0cnVlLCB2YWwpOwogICAgfQp9CgovKioKICogQGRldiBSZXR1cm5zIHRoZSB2YWx1ZSBhc3NvY2lhdGVkIHdpdGggXGBrZXlcYC4gTygxKS4KICoKICogUmVxdWlyZW1lbnRzOgogKgogKiAtIFxga2V5XGAgbXVzdCBiZSBpbiB0aGUgbWFwLgogKi8KZnVuY3Rpb24gZ2V0KEJ5dGVzMzJUb0J5dGVzMzJNYXAgc3RvcmFnZSBtYXAsIGJ5dGVzMzIga2V5KSBpbnRlcm5hbCB2aWV3IHJldHVybnMgKGJ5dGVzMzIpIHsKICAgIGJ5dGVzMzIgdmFsdWUgPSBtYXAuX3ZhbHVlc1trZXldOwogICAgaWYgKHZhbHVlID09IDAgJiYgIWNvbnRhaW5zKG1hcCwga2V5KSkgewogICAgICAgIHJldmVydCBFbnVtZXJhYmxlTWFwTm9uZXhpc3RlbnRLZXkoa2V5KTsKICAgIH0KICAgIHJldHVybiB2YWx1ZTsKfQoKLyoqCiAqIEBkZXYgUmV0dXJuIHRoZSBhbiBhcnJheSBjb250YWluaW5nIGFsbCB0aGUga2V5cwogKgogKiBXQVJOSU5HOiBUaGlzIG9wZXJhdGlvbiB3aWxsIGNvcHkgdGhlIGVudGlyZSBzdG9yYWdlIHRvIG1lbW9yeSwgd2hpY2ggY2FuIGJlIHF1aXRlIGV4cGVuc2l2ZS4gVGhpcyBpcyBkZXNpZ25lZAogKiB0byBtb3N0bHkgYmUgdXNlZCBieSB2aWV3IGFjY2Vzc29ycyB0aGF0IGFyZSBxdWVyaWVkIHdpdGhvdXQgYW55IGdhcyBmZWVzLiBEZXZlbG9wZXJzIHNob3VsZCBrZWVwIGluIG1pbmQgdGhhdAogKiB0aGlzIGZ1bmN0aW9uIGhhcyBhbiB1bmJvdW5kZWQgY29zdCwgYW5kIHVzaW5nIGl0IGFzIHBhcnQgb2YgYSBzdGF0ZS1jaGFuZ2luZyBmdW5jdGlvbiBtYXkgcmVuZGVyIHRoZSBmdW5jdGlvbgogKiB1bmNhbGxhYmxlIGlmIHRoZSBtYXAgZ3Jvd3MgdG8gYSBwb2ludCB3aGVyZSBjb3B5aW5nIHRvIG1lbW9yeSBjb25zdW1lcyB0b28gbXVjaCBnYXMgdG8gZml0IGluIGEgYmxvY2suCiAqLwpmdW5jdGlvbiBrZXlzKEJ5dGVzMzJUb0J5dGVzMzJNYXAgc3RvcmFnZSBtYXApIGludGVybmFsIHZpZXcgcmV0dXJucyAoYnl0ZXMzMltdIG1lbW9yeSkgewogICAgcmV0dXJuIG1hcC5fa2V5cy52YWx1ZXMoKTsKfQpgOwoKY29uc3QgY3VzdG9tTWFwID0gKHsgbmFtZSwga2V5VHlwZSwgdmFsdWVUeXBlIH0pID0+IGBcCi8vICR7bmFtZX0KCnN0cnVjdCAke25hbWV9IHsKICAgIEJ5dGVzMzJUb0J5dGVzMzJNYXAgX2lubmVyOwp9CgovKioKICogQGRldiBBZGRzIGEga2V5LXZhbHVlIHBhaXIgdG8gYSBtYXAsIG9yIHVwZGF0ZXMgdGhlIHZhbHVlIGZvciBhbiBleGlzdGluZwogKiBrZXkuIE8oMSkuCiAqCiAqIFJldHVybnMgdHJ1ZSBpZiB0aGUga2V5IHdhcyBhZGRlZCB0byB0aGUgbWFwLCB0aGF0IGlzIGlmIGl0IHdhcyBub3QKICogYWxyZWFkeSBwcmVzZW50LgogKi8KZnVuY3Rpb24gc2V0KCR7bmFtZX0gc3RvcmFnZSBtYXAsICR7a2V5VHlwZX0ga2V5LCAke3ZhbHVlVHlwZX0gdmFsdWUpIGludGVybmFsIHJldHVybnMgKGJvb2wpIHsKICAgIHJldHVybiBzZXQobWFwLl9pbm5lciwgJHt0b0J5dGVzMzIoa2V5VHlwZSwgJ2tleScpfSwgJHt0b0J5dGVzMzIodmFsdWVUeXBlLCAndmFsdWUnKX0pOwp9CgovKioKICogQGRldiBSZW1vdmVzIGEgdmFsdWUgZnJvbSBhIG1hcC4gTygxKS4KICoKICogUmV0dXJucyB0cnVlIGlmIHRoZSBrZXkgd2FzIHJlbW92ZWQgZnJvbSB0aGUgbWFwLCB0aGF0IGlzIGlmIGl0IHdhcyBwcmVzZW50LgogKi8KZnVuY3Rpb24gcmVtb3ZlKCR7bmFtZX0gc3RvcmFnZSBtYXAsICR7a2V5VHlwZX0ga2V5KSBpbnRlcm5hbCByZXR1cm5zIChib29sKSB7CiAgICByZXR1cm4gcmVtb3ZlKG1hcC5faW5uZXIsICR7dG9CeXRlczMyKGtleVR5cGUsICdrZXknKX0pOwp9CgovKioKICogQGRldiBSZXR1cm5zIHRydWUgaWYgdGhlIGtleSBpcyBpbiB0aGUgbWFwLiBPKDEpLgogKi8KZnVuY3Rpb24gY29udGFpbnMoJHtuYW1lfSBzdG9yYWdlIG1hcCwgJHtrZXlUeXBlfSBrZXkpIGludGVybmFsIHZpZXcgcmV0dXJucyAoYm9vbCkgewogICAgcmV0dXJuIGNvbnRhaW5zKG1hcC5faW5uZXIsICR7dG9CeXRlczMyKGtleVR5cGUsICdrZXknKX0pOwp9CgovKioKICogQGRldiBSZXR1cm5zIHRoZSBudW1iZXIgb2YgZWxlbWVudHMgaW4gdGhlIG1hcC4gTygxKS4KICovCmZ1bmN0aW9uIGxlbmd0aCgke25hbWV9IHN0b3JhZ2UgbWFwKSBpbnRlcm5hbCB2aWV3IHJldHVybnMgKHVpbnQyNTYpIHsKICAgIHJldHVybiBsZW5ndGgobWFwLl9pbm5lcik7Cn0KCi8qKgogKiBAZGV2IFJldHVybnMgdGhlIGVsZW1lbnQgc3RvcmVkIGF0IHBvc2l0aW9uIFxgaW5kZXhcYCBpbiB0aGUgbWFwLiBPKDEpLgogKiBOb3RlIHRoYXQgdGhlcmUgYXJlIG5vIGd1YXJhbnRlZXMgb24gdGhlIG9yZGVyaW5nIG9mIHZhbHVlcyBpbnNpZGUgdGhlCiAqIGFycmF5LCBhbmQgaXQgbWF5IGNoYW5nZSB3aGVuIG1vcmUgdmFsdWVzIGFyZSBhZGRlZCBvciByZW1vdmVkLgogKgogKiBSZXF1aXJlbWVudHM6CiAqCiAqIC0gXGBpbmRleFxgIG11c3QgYmUgc3RyaWN0bHkgbGVzcyB0aGFuIHtsZW5ndGh9LgogKi8KZnVuY3Rpb24gYXQoJHtuYW1lfSBzdG9yYWdlIG1hcCwgdWludDI1NiBpbmRleCkgaW50ZXJuYWwgdmlldyByZXR1cm5zICgke2tleVR5cGV9IGtleSwgJHt2YWx1ZVR5cGV9IHZhbHVlKSB7CiAgICAoYnl0ZXMzMiBhdEtleSwgYnl0ZXMzMiB2YWwpID0gYXQobWFwLl9pbm5lciwgaW5kZXgpOwogICAgcmV0dXJuICgke2Zyb21CeXRlczMyKGtleVR5cGUsICdhdEtleScpfSwgJHtmcm9tQnl0ZXMzMih2YWx1ZVR5cGUsICd2YWwnKX0pOwp9CgovKioKICogQGRldiBUcmllcyB0byByZXR1cm5zIHRoZSB2YWx1ZSBhc3NvY2lhdGVkIHdpdGggXGBrZXlcYC4gTygxKS4KICogRG9lcyBub3QgcmV2ZXJ0IGlmIFxga2V5XGAgaXMgbm90IGluIHRoZSBtYXAuCiAqLwpmdW5jdGlvbiB0cnlHZXQoJHtuYW1lfSBzdG9yYWdlIG1hcCwgJHtrZXlUeXBlfSBrZXkpIGludGVybmFsIHZpZXcgcmV0dXJucyAoYm9vbCBleGlzdHMsICR7dmFsdWVUeXBlfSB2YWx1ZSkgewogICAgKGJvb2wgc3VjY2VzcywgYnl0ZXMzMiB2YWwpID0gdHJ5R2V0KG1hcC5faW5uZXIsICR7dG9CeXRlczMyKGtleVR5cGUsICdrZXknKX0pOwogICAgcmV0dXJuIChzdWNjZXNzLCAke2Zyb21CeXRlczMyKHZhbHVlVHlwZSwgJ3ZhbCcpfSk7Cn0KCi8qKgogKiBAZGV2IFJldHVybnMgdGhlIHZhbHVlIGFzc29jaWF0ZWQgd2l0aCBcYGtleVxgLiBPKDEpLgogKgogKiBSZXF1aXJlbWVudHM6CiAqCiAqIC0gXGBrZXlcYCBtdXN0IGJlIGluIHRoZSBtYXAuCiAqLwpmdW5jdGlvbiBnZXQoJHtuYW1lfSBzdG9yYWdlIG1hcCwgJHtrZXlUeXBlfSBrZXkpIGludGVybmFsIHZpZXcgcmV0dXJucyAoJHt2YWx1ZVR5cGV9KSB7CiAgICByZXR1cm4gJHtmcm9tQnl0ZXMzMih2YWx1ZVR5cGUsIGBnZXQobWFwLl9pbm5lciwgJHt0b0J5dGVzMzIoa2V5VHlwZSwgJ2tleScpfSlgKX07Cn0KCi8qKgogKiBAZGV2IFJldHVybiB0aGUgYW4gYXJyYXkgY29udGFpbmluZyBhbGwgdGhlIGtleXMKICoKICogV0FSTklORzogVGhpcyBvcGVyYXRpb24gd2lsbCBjb3B5IHRoZSBlbnRpcmUgc3RvcmFnZSB0byBtZW1vcnksIHdoaWNoIGNhbiBiZSBxdWl0ZSBleHBlbnNpdmUuIFRoaXMgaXMgZGVzaWduZWQKICogdG8gbW9zdGx5IGJlIHVzZWQgYnkgdmlldyBhY2Nlc3NvcnMgdGhhdCBhcmUgcXVlcmllZCB3aXRob3V0IGFueSBnYXMgZmVlcy4gRGV2ZWxvcGVycyBzaG91bGQga2VlcCBpbiBtaW5kIHRoYXQKICogdGhpcyBmdW5jdGlvbiBoYXMgYW4gdW5ib3VuZGVkIGNvc3QsIGFuZCB1c2luZyBpdCBhcyBwYXJ0IG9mIGEgc3RhdGUtY2hhbmdpbmcgZnVuY3Rpb24gbWF5IHJlbmRlciB0aGUgZnVuY3Rpb24KICogdW5jYWxsYWJsZSBpZiB0aGUgbWFwIGdyb3dzIHRvIGEgcG9pbnQgd2hlcmUgY29weWluZyB0byBtZW1vcnkgY29uc3VtZXMgdG9vIG11Y2ggZ2FzIHRvIGZpdCBpbiBhIGJsb2NrLgogKi8KZnVuY3Rpb24ga2V5cygke25hbWV9IHN0b3JhZ2UgbWFwKSBpbnRlcm5hbCB2aWV3IHJldHVybnMgKCR7a2V5VHlwZX1bXSBtZW1vcnkpIHsKICAgIGJ5dGVzMzJbXSBtZW1vcnkgc3RvcmUgPSBrZXlzKG1hcC5faW5uZXIpOwogICAgJHtrZXlUeXBlfVtdIG1lbW9yeSByZXN1bHQ7CgogICAgYXNzZW1ibHkgKCJtZW1vcnktc2FmZSIpIHsKICAgICAgICByZXN1bHQgOj0gc3RvcmUKICAgIH0KCiAgICByZXR1cm4gcmVzdWx0Owp9CmA7CgovLyBHRU5FUkFURQptb2R1bGUuZXhwb3J0cyA9IGZvcm1hdCgKICBoZWFkZXIudHJpbUVuZCgpLAogICdsaWJyYXJ5IEVudW1lcmFibGVNYXAgeycsCiAgZm9ybWF0KAogICAgW10uY29uY2F0KAogICAgICAndXNpbmcgRW51bWVyYWJsZVNldCBmb3IgRW51bWVyYWJsZVNldC5CeXRlczMyU2V0OycsCiAgICAgICcnLAogICAgICBkZWZhdWx0TWFwLAogICAgICBUWVBFUy5tYXAoZGV0YWlscyA9PiBjdXN0b21NYXAoZGV0YWlscykpLAogICAgKSwKICApLnRyaW1FbmQoKSwKICAnfScsCik7Cg==
+const format = require('../format-lines');
+const { fromBytes32, toBytes32 } = require('./conversion');
+const { TYPES } = require('./EnumerableMap.opts');
+
+/* eslint-disable max-len */
+const header = `\
+pragma solidity ^0.8.20;
+
+import {EnumerableSet} from "./EnumerableSet.sol";
+
+/**
+ * @dev Library for managing an enumerable variant of Solidity's
+ * https://solidity.readthedocs.io/en/latest/types.html#mapping-types[\`mapping\`]
+ * type.
+ *
+ * Maps have the following properties:
+ *
+ * - Entries are added, removed, and checked for existence in constant time
+ * (O(1)).
+ * - Entries are enumerated in O(n). No guarantees are made on the ordering.
+ *
+ * \`\`\`solidity
+ * contract Example {
+ *     // Add the library methods
+ *     using EnumerableMap for EnumerableMap.UintToAddressMap;
+ *
+ *     // Declare a set state variable
+ *     EnumerableMap.UintToAddressMap private myMap;
+ * }
+ * \`\`\`
+ *
+ * The following map types are supported:
+ *
+ * - \`uint256 -> address\` (\`UintToAddressMap\`) since v3.0.0
+ * - \`address -> uint256\` (\`AddressToUintMap\`) since v4.6.0
+ * - \`bytes32 -> bytes32\` (\`Bytes32ToBytes32Map\`) since v4.6.0
+ * - \`uint256 -> uint256\` (\`UintToUintMap\`) since v4.7.0
+ * - \`bytes32 -> uint256\` (\`Bytes32ToUintMap\`) since v4.7.0
+ * - \`uint256 -> bytes32\` (\`UintToBytes32Map\`) since v5.1.0
+ * - \`address -> address\` (\`AddressToAddressMap\`) since v5.1.0
+ * - \`address -> bytes32\` (\`AddressToBytes32Map\`) since v5.1.0
+ * - \`bytes32 -> address\` (\`Bytes32ToAddressMap\`) since v5.1.0
+ *
+ * [WARNING]
+ * ====
+ * Trying to delete such a structure from storage will likely result in data corruption, rendering the structure
+ * unusable.
+ * See https://github.com/ethereum/solidity/pull/11843[ethereum/solidity#11843] for more info.
+ *
+ * In order to clean an EnumerableMap, you can either remove all elements one by one or create a fresh instance using an
+ * array of EnumerableMap.
+ * ====
+ */
+`;
+/* eslint-enable max-len */
+
+const defaultMap = `\
+// To implement this library for multiple types with as little code repetition as possible, we write it in
+// terms of a generic Map type with bytes32 keys and values. The Map implementation uses private functions,
+// and user-facing implementations such as \`UintToAddressMap\` are just wrappers around the underlying Map.
+// This means that we can only create new EnumerableMaps for types that fit in bytes32.
+
+/**
+ * @dev Query for a nonexistent map key.
+ */
+error EnumerableMapNonexistentKey(bytes32 key);
+
+struct Bytes32ToBytes32Map {
+    // Storage of keys
+    EnumerableSet.Bytes32Set _keys;
+    mapping(bytes32 key => bytes32) _values;
+}
+
+/**
+ * @dev Adds a key-value pair to a map, or updates the value for an existing
+ * key. O(1).
+ *
+ * Returns true if the key was added to the map, that is if it was not
+ * already present.
+ */
+function set(Bytes32ToBytes32Map storage map, bytes32 key, bytes32 value) internal returns (bool) {
+    map._values[key] = value;
+    return map._keys.add(key);
+}
+
+/**
+ * @dev Removes a key-value pair from a map. O(1).
+ *
+ * Returns true if the key was removed from the map, that is if it was present.
+ */
+function remove(Bytes32ToBytes32Map storage map, bytes32 key) internal returns (bool) {
+    delete map._values[key];
+    return map._keys.remove(key);
+}
+
+/**
+ * @dev Returns true if the key is in the map. O(1).
+ */
+function contains(Bytes32ToBytes32Map storage map, bytes32 key) internal view returns (bool) {
+    return map._keys.contains(key);
+}
+
+/**
+ * @dev Returns the number of key-value pairs in the map. O(1).
+ */
+function length(Bytes32ToBytes32Map storage map) internal view returns (uint256) {
+    return map._keys.length();
+}
+
+/**
+ * @dev Returns the key-value pair stored at position \`index\` in the map. O(1).
+ *
+ * Note that there are no guarantees on the ordering of entries inside the
+ * array, and it may change when more entries are added or removed.
+ *
+ * Requirements:
+ *
+ * - \`index\` must be strictly less than {length}.
+ */
+function at(Bytes32ToBytes32Map storage map, uint256 index) internal view returns (bytes32 key, bytes32 value) {
+    bytes32 atKey = map._keys.at(index);
+    return (atKey, map._values[atKey]);
+}
+
+/**
+ * @dev Tries to returns the value associated with \`key\`. O(1).
+ * Does not revert if \`key\` is not in the map.
+ */
+function tryGet(Bytes32ToBytes32Map storage map, bytes32 key) internal view returns (bool exists, bytes32 value) {
+    bytes32 val = map._values[key];
+    if (val == bytes32(0)) {
+        return (contains(map, key), bytes32(0));
+    } else {
+        return (true, val);
+    }
+}
+
+/**
+ * @dev Returns the value associated with \`key\`. O(1).
+ *
+ * Requirements:
+ *
+ * - \`key\` must be in the map.
+ */
+function get(Bytes32ToBytes32Map storage map, bytes32 key) internal view returns (bytes32) {
+    bytes32 value = map._values[key];
+    if (value == 0 && !contains(map, key)) {
+        revert EnumerableMapNonexistentKey(key);
+    }
+    return value;
+}
+
+/**
+ * @dev Return the an array containing all the keys
+ *
+ * WARNING: This operation will copy the entire storage to memory, which can be quite expensive. This is designed
+ * to mostly be used by view accessors that are queried without any gas fees. Developers should keep in mind that
+ * this function has an unbounded cost, and using it as part of a state-changing function may render the function
+ * uncallable if the map grows to a point where copying to memory consumes too much gas to fit in a block.
+ */
+function keys(Bytes32ToBytes32Map storage map) internal view returns (bytes32[] memory) {
+    return map._keys.values();
+}
+`;
+
+const customMap = ({ name, keyType, valueType }) => `\
+// ${name}
+
+struct ${name} {
+    Bytes32ToBytes32Map _inner;
+}
+
+/**
+ * @dev Adds a key-value pair to a map, or updates the value for an existing
+ * key. O(1).
+ *
+ * Returns true if the key was added to the map, that is if it was not
+ * already present.
+ */
+function set(${name} storage map, ${keyType} key, ${valueType} value) internal returns (bool) {
+    return set(map._inner, ${toBytes32(keyType, 'key')}, ${toBytes32(valueType, 'value')});
+}
+
+/**
+ * @dev Removes a value from a map. O(1).
+ *
+ * Returns true if the key was removed from the map, that is if it was present.
+ */
+function remove(${name} storage map, ${keyType} key) internal returns (bool) {
+    return remove(map._inner, ${toBytes32(keyType, 'key')});
+}
+
+/**
+ * @dev Returns true if the key is in the map. O(1).
+ */
+function contains(${name} storage map, ${keyType} key) internal view returns (bool) {
+    return contains(map._inner, ${toBytes32(keyType, 'key')});
+}
+
+/**
+ * @dev Returns the number of elements in the map. O(1).
+ */
+function length(${name} storage map) internal view returns (uint256) {
+    return length(map._inner);
+}
+
+/**
+ * @dev Returns the element stored at position \`index\` in the map. O(1).
+ * Note that there are no guarantees on the ordering of values inside the
+ * array, and it may change when more values are added or removed.
+ *
+ * Requirements:
+ *
+ * - \`index\` must be strictly less than {length}.
+ */
+function at(${name} storage map, uint256 index) internal view returns (${keyType} key, ${valueType} value) {
+    (bytes32 atKey, bytes32 val) = at(map._inner, index);
+    return (${fromBytes32(keyType, 'atKey')}, ${fromBytes32(valueType, 'val')});
+}
+
+/**
+ * @dev Tries to returns the value associated with \`key\`. O(1).
+ * Does not revert if \`key\` is not in the map.
+ */
+function tryGet(${name} storage map, ${keyType} key) internal view returns (bool exists, ${valueType} value) {
+    (bool success, bytes32 val) = tryGet(map._inner, ${toBytes32(keyType, 'key')});
+    return (success, ${fromBytes32(valueType, 'val')});
+}
+
+/**
+ * @dev Returns the value associated with \`key\`. O(1).
+ *
+ * Requirements:
+ *
+ * - \`key\` must be in the map.
+ */
+function get(${name} storage map, ${keyType} key) internal view returns (${valueType}) {
+    return ${fromBytes32(valueType, `get(map._inner, ${toBytes32(keyType, 'key')})`)};
+}
+
+/**
+ * @dev Return the an array containing all the keys
+ *
+ * WARNING: This operation will copy the entire storage to memory, which can be quite expensive. This is designed
+ * to mostly be used by view accessors that are queried without any gas fees. Developers should keep in mind that
+ * this function has an unbounded cost, and using it as part of a state-changing function may render the function
+ * uncallable if the map grows to a point where copying to memory consumes too much gas to fit in a block.
+ */
+function keys(${name} storage map) internal view returns (${keyType}[] memory) {
+    bytes32[] memory store = keys(map._inner);
+    ${keyType}[] memory result;
+
+    assembly ("memory-safe") {
+        result := store
+    }
+
+    return result;
+}
+`;
+
+// GENERATE
+module.exports = format(
+  header.trimEnd(),
+  'library EnumerableMap {',
+  format(
+    [].concat(
+      'using EnumerableSet for EnumerableSet.Bytes32Set;',
+      '',
+      defaultMap,
+      TYPES.map(details => customMap(details)),
+    ),
+  ).trimEnd(),
+  '}',
+);
