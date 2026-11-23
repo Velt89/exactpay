@@ -1,1 +1,42 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0VSQzcyMX0gZnJvbSAiLi4vLi4vdG9rZW4vRVJDNzIxL0VSQzcyMS5zb2wiOwppbXBvcnQge0VSQzcyMUNvbnNlY3V0aXZlfSBmcm9tICIuLi8uLi90b2tlbi9FUkM3MjEvZXh0ZW5zaW9ucy9FUkM3MjFDb25zZWN1dGl2ZS5zb2wiOwppbXBvcnQge0VSQzcyMUVudW1lcmFibGV9IGZyb20gIi4uLy4uL3Rva2VuL0VSQzcyMS9leHRlbnNpb25zL0VSQzcyMUVudW1lcmFibGUuc29sIjsKCmNvbnRyYWN0IEVSQzcyMUNvbnNlY3V0aXZlRW51bWVyYWJsZU1vY2sgaXMgRVJDNzIxQ29uc2VjdXRpdmUsIEVSQzcyMUVudW1lcmFibGUgewogICAgY29uc3RydWN0b3IoCiAgICAgICAgc3RyaW5nIG1lbW9yeSBuYW1lLAogICAgICAgIHN0cmluZyBtZW1vcnkgc3ltYm9sLAogICAgICAgIGFkZHJlc3NbXSBtZW1vcnkgcmVjZWl2ZXJzLAogICAgICAgIHVpbnQ5NltdIG1lbW9yeSBhbW91bnRzCiAgICApIEVSQzcyMShuYW1lLCBzeW1ib2wpIHsKICAgICAgICBmb3IgKHVpbnQyNTYgaSA9IDA7IGkgPCByZWNlaXZlcnMubGVuZ3RoOyArK2kpIHsKICAgICAgICAgICAgX21pbnRDb25zZWN1dGl2ZShyZWNlaXZlcnNbaV0sIGFtb3VudHNbaV0pOwogICAgICAgIH0KICAgIH0KCiAgICBmdW5jdGlvbiBzdXBwb3J0c0ludGVyZmFjZSgKICAgICAgICBieXRlczQgaW50ZXJmYWNlSWQKICAgICkgcHVibGljIHZpZXcgdmlydHVhbCBvdmVycmlkZShFUkM3MjEsIEVSQzcyMUVudW1lcmFibGUpIHJldHVybnMgKGJvb2wpIHsKICAgICAgICByZXR1cm4gc3VwZXIuc3VwcG9ydHNJbnRlcmZhY2UoaW50ZXJmYWNlSWQpOwogICAgfQoKICAgIGZ1bmN0aW9uIF9vd25lck9mKHVpbnQyNTYgdG9rZW5JZCkgaW50ZXJuYWwgdmlldyB2aXJ0dWFsIG92ZXJyaWRlKEVSQzcyMSwgRVJDNzIxQ29uc2VjdXRpdmUpIHJldHVybnMgKGFkZHJlc3MpIHsKICAgICAgICByZXR1cm4gc3VwZXIuX293bmVyT2YodG9rZW5JZCk7CiAgICB9CgogICAgZnVuY3Rpb24gX3VwZGF0ZSgKICAgICAgICBhZGRyZXNzIHRvLAogICAgICAgIHVpbnQyNTYgdG9rZW5JZCwKICAgICAgICBhZGRyZXNzIGF1dGgKICAgICkgaW50ZXJuYWwgdmlydHVhbCBvdmVycmlkZShFUkM3MjFDb25zZWN1dGl2ZSwgRVJDNzIxRW51bWVyYWJsZSkgcmV0dXJucyAoYWRkcmVzcykgewogICAgICAgIHJldHVybiBzdXBlci5fdXBkYXRlKHRvLCB0b2tlbklkLCBhdXRoKTsKICAgIH0KCiAgICBmdW5jdGlvbiBfaW5jcmVhc2VCYWxhbmNlKGFkZHJlc3MgYWNjb3VudCwgdWludDEyOCBhbW91bnQpIGludGVybmFsIHZpcnR1YWwgb3ZlcnJpZGUoRVJDNzIxLCBFUkM3MjFFbnVtZXJhYmxlKSB7CiAgICAgICAgc3VwZXIuX2luY3JlYXNlQmFsYW5jZShhY2NvdW50LCBhbW91bnQpOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {ERC721} from "../../token/ERC721/ERC721.sol";
+import {ERC721Consecutive} from "../../token/ERC721/extensions/ERC721Consecutive.sol";
+import {ERC721Enumerable} from "../../token/ERC721/extensions/ERC721Enumerable.sol";
+
+contract ERC721ConsecutiveEnumerableMock is ERC721Consecutive, ERC721Enumerable {
+    constructor(
+        string memory name,
+        string memory symbol,
+        address[] memory receivers,
+        uint96[] memory amounts
+    ) ERC721(name, symbol) {
+        for (uint256 i = 0; i < receivers.length; ++i) {
+            _mintConsecutive(receivers[i], amounts[i]);
+        }
+    }
+
+    function supportsInterface(
+        bytes4 interfaceId
+    ) public view virtual override(ERC721, ERC721Enumerable) returns (bool) {
+        return super.supportsInterface(interfaceId);
+    }
+
+    function _ownerOf(uint256 tokenId) internal view virtual override(ERC721, ERC721Consecutive) returns (address) {
+        return super._ownerOf(tokenId);
+    }
+
+    function _update(
+        address to,
+        uint256 tokenId,
+        address auth
+    ) internal virtual override(ERC721Consecutive, ERC721Enumerable) returns (address) {
+        return super._update(to, tokenId, auth);
+    }
+
+    function _increaseBalance(address account, uint128 amount) internal virtual override(ERC721, ERC721Enumerable) {
+        super._increaseBalance(account, amount);
+    }
+}
