@@ -1,1 +1,228 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMC4wKSAocHJveHkvdXRpbHMvSW5pdGlhbGl6YWJsZS5zb2wpCgpwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCi8qKgogKiBAZGV2IFRoaXMgaXMgYSBiYXNlIGNvbnRyYWN0IHRvIGFpZCBpbiB3cml0aW5nIHVwZ3JhZGVhYmxlIGNvbnRyYWN0cywgb3IgYW55IGtpbmQgb2YgY29udHJhY3QgdGhhdCB3aWxsIGJlIGRlcGxveWVkCiAqIGJlaGluZCBhIHByb3h5LiBTaW5jZSBwcm94aWVkIGNvbnRyYWN0cyBkbyBub3QgbWFrZSB1c2Ugb2YgYSBjb25zdHJ1Y3RvciwgaXQncyBjb21tb24gdG8gbW92ZSBjb25zdHJ1Y3RvciBsb2dpYyB0byBhbgogKiBleHRlcm5hbCBpbml0aWFsaXplciBmdW5jdGlvbiwgdXN1YWxseSBjYWxsZWQgYGluaXRpYWxpemVgLiBJdCB0aGVuIGJlY29tZXMgbmVjZXNzYXJ5IHRvIHByb3RlY3QgdGhpcyBpbml0aWFsaXplcgogKiBmdW5jdGlvbiBzbyBpdCBjYW4gb25seSBiZSBjYWxsZWQgb25jZS4gVGhlIHtpbml0aWFsaXplcn0gbW9kaWZpZXIgcHJvdmlkZWQgYnkgdGhpcyBjb250cmFjdCB3aWxsIGhhdmUgdGhpcyBlZmZlY3QuCiAqCiAqIFRoZSBpbml0aWFsaXphdGlvbiBmdW5jdGlvbnMgdXNlIGEgdmVyc2lvbiBudW1iZXIuIE9uY2UgYSB2ZXJzaW9uIG51bWJlciBpcyB1c2VkLCBpdCBpcyBjb25zdW1lZCBhbmQgY2Fubm90IGJlCiAqIHJldXNlZC4gVGhpcyBtZWNoYW5pc20gcHJldmVudHMgcmUtZXhlY3V0aW9uIG9mIGVhY2ggInN0ZXAiIGJ1dCBhbGxvd3MgdGhlIGNyZWF0aW9uIG9mIG5ldyBpbml0aWFsaXphdGlvbiBzdGVwcyBpbgogKiBjYXNlIGFuIHVwZ3JhZGUgYWRkcyBhIG1vZHVsZSB0aGF0IG5lZWRzIHRvIGJlIGluaXRpYWxpemVkLgogKgogKiBGb3IgZXhhbXBsZToKICoKICogWy5obGpzLXRoZW1lLWxpZ2h0Lm5vcGFkZGluZ10KICogYGBgc29saWRpdHkKICogY29udHJhY3QgTXlUb2tlbiBpcyBFUkMyMFVwZ3JhZGVhYmxlIHsKICogICAgIGZ1bmN0aW9uIGluaXRpYWxpemUoKSBpbml0aWFsaXplciBwdWJsaWMgewogKiAgICAgICAgIF9fRVJDMjBfaW5pdCgiTXlUb2tlbiIsICJNVEsiKTsKICogICAgIH0KICogfQogKgogKiBjb250cmFjdCBNeVRva2VuVjIgaXMgTXlUb2tlbiwgRVJDMjBQZXJtaXRVcGdyYWRlYWJsZSB7CiAqICAgICBmdW5jdGlvbiBpbml0aWFsaXplVjIoKSByZWluaXRpYWxpemVyKDIpIHB1YmxpYyB7CiAqICAgICAgICAgX19FUkMyMFBlcm1pdF9pbml0KCJNeVRva2VuIik7CiAqICAgICB9CiAqIH0KICogYGBgCiAqCiAqIFRJUDogVG8gYXZvaWQgbGVhdmluZyB0aGUgcHJveHkgaW4gYW4gdW5pbml0aWFsaXplZCBzdGF0ZSwgdGhlIGluaXRpYWxpemVyIGZ1bmN0aW9uIHNob3VsZCBiZSBjYWxsZWQgYXMgZWFybHkgYXMKICogcG9zc2libGUgYnkgcHJvdmlkaW5nIHRoZSBlbmNvZGVkIGZ1bmN0aW9uIGNhbGwgYXMgdGhlIGBfZGF0YWAgYXJndW1lbnQgdG8ge0VSQzE5NjdQcm94eS1jb25zdHJ1Y3Rvcn0uCiAqCiAqIENBVVRJT046IFdoZW4gdXNlZCB3aXRoIGluaGVyaXRhbmNlLCBtYW51YWwgY2FyZSBtdXN0IGJlIHRha2VuIHRvIG5vdCBpbnZva2UgYSBwYXJlbnQgaW5pdGlhbGl6ZXIgdHdpY2UsIG9yIHRvIGVuc3VyZQogKiB0aGF0IGFsbCBpbml0aWFsaXplcnMgYXJlIGlkZW1wb3RlbnQuIFRoaXMgaXMgbm90IHZlcmlmaWVkIGF1dG9tYXRpY2FsbHkgYXMgY29uc3RydWN0b3JzIGFyZSBieSBTb2xpZGl0eS4KICoKICogW0NBVVRJT05dCiAqID09PT0KICogQXZvaWQgbGVhdmluZyBhIGNvbnRyYWN0IHVuaW5pdGlhbGl6ZWQuCiAqCiAqIEFuIHVuaW5pdGlhbGl6ZWQgY29udHJhY3QgY2FuIGJlIHRha2VuIG92ZXIgYnkgYW4gYXR0YWNrZXIuIFRoaXMgYXBwbGllcyB0byBib3RoIGEgcHJveHkgYW5kIGl0cyBpbXBsZW1lbnRhdGlvbgogKiBjb250cmFjdCwgd2hpY2ggbWF5IGltcGFjdCB0aGUgcHJveHkuIFRvIHByZXZlbnQgdGhlIGltcGxlbWVudGF0aW9uIGNvbnRyYWN0IGZyb20gYmVpbmcgdXNlZCwgeW91IHNob3VsZCBpbnZva2UKICogdGhlIHtfZGlzYWJsZUluaXRpYWxpemVyc30gZnVuY3Rpb24gaW4gdGhlIGNvbnN0cnVjdG9yIHRvIGF1dG9tYXRpY2FsbHkgbG9jayBpdCB3aGVuIGl0IGlzIGRlcGxveWVkOgogKgogKiBbLmhsanMtdGhlbWUtbGlnaHQubm9wYWRkaW5nXQogKiBgYGAKICogLy8vIEBjdXN0b206b3otdXBncmFkZXMtdW5zYWZlLWFsbG93IGNvbnN0cnVjdG9yCiAqIGNvbnN0cnVjdG9yKCkgewogKiAgICAgX2Rpc2FibGVJbml0aWFsaXplcnMoKTsKICogfQogKiBgYGAKICogPT09PQogKi8KYWJzdHJhY3QgY29udHJhY3QgSW5pdGlhbGl6YWJsZSB7CiAgICAvKioKICAgICAqIEBkZXYgU3RvcmFnZSBvZiB0aGUgaW5pdGlhbGl6YWJsZSBjb250cmFjdC4KICAgICAqCiAgICAgKiBJdCdzIGltcGxlbWVudGVkIG9uIGEgY3VzdG9tIEVSQy03MjAxIG5hbWVzcGFjZSB0byByZWR1Y2UgdGhlIHJpc2sgb2Ygc3RvcmFnZSBjb2xsaXNpb25zCiAgICAgKiB3aGVuIHVzaW5nIHdpdGggdXBncmFkZWFibGUgY29udHJhY3RzLgogICAgICoKICAgICAqIEBjdXN0b206c3RvcmFnZS1sb2NhdGlvbiBlcmM3MjAxOm9wZW56ZXBwZWxpbi5zdG9yYWdlLkluaXRpYWxpemFibGUKICAgICAqLwogICAgc3RydWN0IEluaXRpYWxpemFibGVTdG9yYWdlIHsKICAgICAgICAvKioKICAgICAgICAgKiBAZGV2IEluZGljYXRlcyB0aGF0IHRoZSBjb250cmFjdCBoYXMgYmVlbiBpbml0aWFsaXplZC4KICAgICAgICAgKi8KICAgICAgICB1aW50NjQgX2luaXRpYWxpemVkOwogICAgICAgIC8qKgogICAgICAgICAqIEBkZXYgSW5kaWNhdGVzIHRoYXQgdGhlIGNvbnRyYWN0IGlzIGluIHRoZSBwcm9jZXNzIG9mIGJlaW5nIGluaXRpYWxpemVkLgogICAgICAgICAqLwogICAgICAgIGJvb2wgX2luaXRpYWxpemluZzsKICAgIH0KCiAgICAvLyBrZWNjYWsyNTYoYWJpLmVuY29kZSh1aW50MjU2KGtlY2NhazI1Nigib3BlbnplcHBlbGluLnN0b3JhZ2UuSW5pdGlhbGl6YWJsZSIpKSAtIDEpKSAmIH5ieXRlczMyKHVpbnQyNTYoMHhmZikpCiAgICBieXRlczMyIHByaXZhdGUgY29uc3RhbnQgSU5JVElBTElaQUJMRV9TVE9SQUdFID0gMHhmMGM1N2UxNjg0MGRmMDQwZjE1MDg4ZGMyZjgxZmUzOTFjMzkyM2JlYzczZTIzYTk2NjJlZmM5YzIyOWM2YTAwOwoKICAgIC8qKgogICAgICogQGRldiBUaGUgY29udHJhY3QgaXMgYWxyZWFkeSBpbml0aWFsaXplZC4KICAgICAqLwogICAgZXJyb3IgSW52YWxpZEluaXRpYWxpemF0aW9uKCk7CgogICAgLyoqCiAgICAgKiBAZGV2IFRoZSBjb250cmFjdCBpcyBub3QgaW5pdGlhbGl6aW5nLgogICAgICovCiAgICBlcnJvciBOb3RJbml0aWFsaXppbmcoKTsKCiAgICAvKioKICAgICAqIEBkZXYgVHJpZ2dlcmVkIHdoZW4gdGhlIGNvbnRyYWN0IGhhcyBiZWVuIGluaXRpYWxpemVkIG9yIHJlaW5pdGlhbGl6ZWQuCiAgICAgKi8KICAgIGV2ZW50IEluaXRpYWxpemVkKHVpbnQ2NCB2ZXJzaW9uKTsKCiAgICAvKioKICAgICAqIEBkZXYgQSBtb2RpZmllciB0aGF0IGRlZmluZXMgYSBwcm90ZWN0ZWQgaW5pdGlhbGl6ZXIgZnVuY3Rpb24gdGhhdCBjYW4gYmUgaW52b2tlZCBhdCBtb3N0IG9uY2UuIEluIGl0cyBzY29wZSwKICAgICAqIGBvbmx5SW5pdGlhbGl6aW5nYCBmdW5jdGlvbnMgY2FuIGJlIHVzZWQgdG8gaW5pdGlhbGl6ZSBwYXJlbnQgY29udHJhY3RzLgogICAgICoKICAgICAqIFNpbWlsYXIgdG8gYHJlaW5pdGlhbGl6ZXIoMSlgLCBleGNlcHQgdGhhdCBpbiB0aGUgY29udGV4dCBvZiBhIGNvbnN0cnVjdG9yIGFuIGBpbml0aWFsaXplcmAgbWF5IGJlIGludm9rZWQgYW55CiAgICAgKiBudW1iZXIgb2YgdGltZXMuIFRoaXMgYmVoYXZpb3IgaW4gdGhlIGNvbnN0cnVjdG9yIGNhbiBiZSB1c2VmdWwgZHVyaW5nIHRlc3RpbmcgYW5kIGlzIG5vdCBleHBlY3RlZCB0byBiZSB1c2VkIGluCiAgICAgKiBwcm9kdWN0aW9uLgogICAgICoKICAgICAqIEVtaXRzIGFuIHtJbml0aWFsaXplZH0gZXZlbnQuCiAgICAgKi8KICAgIG1vZGlmaWVyIGluaXRpYWxpemVyKCkgewogICAgICAgIC8vIHNvbGhpbnQtZGlzYWJsZS1uZXh0LWxpbmUgdmFyLW5hbWUtbWl4ZWRjYXNlCiAgICAgICAgSW5pdGlhbGl6YWJsZVN0b3JhZ2Ugc3RvcmFnZSAkID0gX2dldEluaXRpYWxpemFibGVTdG9yYWdlKCk7CgogICAgICAgIC8vIENhY2hlIHZhbHVlcyB0byBhdm9pZCBkdXBsaWNhdGVkIHNsb2FkcwogICAgICAgIGJvb2wgaXNUb3BMZXZlbENhbGwgPSAhJC5faW5pdGlhbGl6aW5nOwogICAgICAgIHVpbnQ2NCBpbml0aWFsaXplZCA9ICQuX2luaXRpYWxpemVkOwoKICAgICAgICAvLyBBbGxvd2VkIGNhbGxzOgogICAgICAgIC8vIC0gaW5pdGlhbFNldHVwOiB0aGUgY29udHJhY3QgaXMgbm90IGluIHRoZSBpbml0aWFsaXppbmcgc3RhdGUgYW5kIG5vIHByZXZpb3VzIHZlcnNpb24gd2FzCiAgICAgICAgLy8gICAgICAgICAgICAgICAgIGluaXRpYWxpemVkCiAgICAgICAgLy8gLSBjb25zdHJ1Y3Rpb246IHRoZSBjb250cmFjdCBpcyBpbml0aWFsaXplZCBhdCB2ZXJzaW9uIDEgKG5vIHJlaW5pbml0aWFsaXphdGlvbikgYW5kIHRoZQogICAgICAgIC8vICAgICAgICAgICAgICAgICBjdXJyZW50IGNvbnRyYWN0IGlzIGp1c3QgYmVpbmcgZGVwbG95ZWQKICAgICAgICBib29sIGluaXRpYWxTZXR1cCA9IGluaXRpYWxpemVkID09IDAgJiYgaXNUb3BMZXZlbENhbGw7CiAgICAgICAgYm9vbCBjb25zdHJ1Y3Rpb24gPSBpbml0aWFsaXplZCA9PSAxICYmIGFkZHJlc3ModGhpcykuY29kZS5sZW5ndGggPT0gMDsKCiAgICAgICAgaWYgKCFpbml0aWFsU2V0dXAgJiYgIWNvbnN0cnVjdGlvbikgewogICAgICAgICAgICByZXZlcnQgSW52YWxpZEluaXRpYWxpemF0aW9uKCk7CiAgICAgICAgfQogICAgICAgICQuX2luaXRpYWxpemVkID0gMTsKICAgICAgICBpZiAoaXNUb3BMZXZlbENhbGwpIHsKICAgICAgICAgICAgJC5faW5pdGlhbGl6aW5nID0gdHJ1ZTsKICAgICAgICB9CiAgICAgICAgXzsKICAgICAgICBpZiAoaXNUb3BMZXZlbENhbGwpIHsKICAgICAgICAgICAgJC5faW5pdGlhbGl6aW5nID0gZmFsc2U7CiAgICAgICAgICAgIGVtaXQgSW5pdGlhbGl6ZWQoMSk7CiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICogQGRldiBBIG1vZGlmaWVyIHRoYXQgZGVmaW5lcyBhIHByb3RlY3RlZCByZWluaXRpYWxpemVyIGZ1bmN0aW9uIHRoYXQgY2FuIGJlIGludm9rZWQgYXQgbW9zdCBvbmNlLCBhbmQgb25seSBpZiB0aGUKICAgICAqIGNvbnRyYWN0IGhhc24ndCBiZWVuIGluaXRpYWxpemVkIHRvIGEgZ3JlYXRlciB2ZXJzaW9uIGJlZm9yZS4gSW4gaXRzIHNjb3BlLCBgb25seUluaXRpYWxpemluZ2AgZnVuY3Rpb25zIGNhbiBiZQogICAgICogdXNlZCB0byBpbml0aWFsaXplIHBhcmVudCBjb250cmFjdHMuCiAgICAgKgogICAgICogQSByZWluaXRpYWxpemVyIG1heSBiZSB1c2VkIGFmdGVyIHRoZSBvcmlnaW5hbCBpbml0aWFsaXphdGlvbiBzdGVwLiBUaGlzIGlzIGVzc2VudGlhbCB0byBjb25maWd1cmUgbW9kdWxlcyB0aGF0CiAgICAgKiBhcmUgYWRkZWQgdGhyb3VnaCB1cGdyYWRlcyBhbmQgdGhhdCByZXF1aXJlIGluaXRpYWxpemF0aW9uLgogICAgICoKICAgICAqIFdoZW4gYHZlcnNpb25gIGlzIDEsIHRoaXMgbW9kaWZpZXIgaXMgc2ltaWxhciB0byBgaW5pdGlhbGl6ZXJgLCBleGNlcHQgdGhhdCBmdW5jdGlvbnMgbWFya2VkIHdpdGggYHJlaW5pdGlhbGl6ZXJgCiAgICAgKiBjYW5ub3QgYmUgbmVzdGVkLiBJZiBvbmUgaXMgaW52b2tlZCBpbiB0aGUgY29udGV4dCBvZiBhbm90aGVyLCBleGVjdXRpb24gd2lsbCByZXZlcnQuCiAgICAgKgogICAgICogTm90ZSB0aGF0IHZlcnNpb25zIGNhbiBqdW1wIGluIGluY3JlbWVudHMgZ3JlYXRlciB0aGFuIDE7IHRoaXMgaW1wbGllcyB0aGF0IGlmIG11bHRpcGxlIHJlaW5pdGlhbGl6ZXJzIGNvZXhpc3QgaW4KICAgICAqIGEgY29udHJhY3QsIGV4ZWN1dGluZyB0aGVtIGluIHRoZSByaWdodCBvcmRlciBpcyB1cCB0byB0aGUgZGV2ZWxvcGVyIG9yIG9wZXJhdG9yLgogICAgICoKICAgICAqIFdBUk5JTkc6IFNldHRpbmcgdGhlIHZlcnNpb24gdG8gMioqNjQgLSAxIHdpbGwgcHJldmVudCBhbnkgZnV0dXJlIHJlaW5pdGlhbGl6YXRpb24uCiAgICAgKgogICAgICogRW1pdHMgYW4ge0luaXRpYWxpemVkfSBldmVudC4KICAgICAqLwogICAgbW9kaWZpZXIgcmVpbml0aWFsaXplcih1aW50NjQgdmVyc2lvbikgewogICAgICAgIC8vIHNvbGhpbnQtZGlzYWJsZS1uZXh0LWxpbmUgdmFyLW5hbWUtbWl4ZWRjYXNlCiAgICAgICAgSW5pdGlhbGl6YWJsZVN0b3JhZ2Ugc3RvcmFnZSAkID0gX2dldEluaXRpYWxpemFibGVTdG9yYWdlKCk7CgogICAgICAgIGlmICgkLl9pbml0aWFsaXppbmcgfHwgJC5faW5pdGlhbGl6ZWQgPj0gdmVyc2lvbikgewogICAgICAgICAgICByZXZlcnQgSW52YWxpZEluaXRpYWxpemF0aW9uKCk7CiAgICAgICAgfQogICAgICAgICQuX2luaXRpYWxpemVkID0gdmVyc2lvbjsKICAgICAgICAkLl9pbml0aWFsaXppbmcgPSB0cnVlOwogICAgICAgIF87CiAgICAgICAgJC5faW5pdGlhbGl6aW5nID0gZmFsc2U7CiAgICAgICAgZW1pdCBJbml0aWFsaXplZCh2ZXJzaW9uKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgTW9kaWZpZXIgdG8gcHJvdGVjdCBhbiBpbml0aWFsaXphdGlvbiBmdW5jdGlvbiBzbyB0aGF0IGl0IGNhbiBvbmx5IGJlIGludm9rZWQgYnkgZnVuY3Rpb25zIHdpdGggdGhlCiAgICAgKiB7aW5pdGlhbGl6ZXJ9IGFuZCB7cmVpbml0aWFsaXplcn0gbW9kaWZpZXJzLCBkaXJlY3RseSBvciBpbmRpcmVjdGx5LgogICAgICovCiAgICBtb2RpZmllciBvbmx5SW5pdGlhbGl6aW5nKCkgewogICAgICAgIF9jaGVja0luaXRpYWxpemluZygpOwogICAgICAgIF87CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldmVydHMgaWYgdGhlIGNvbnRyYWN0IGlzIG5vdCBpbiBhbiBpbml0aWFsaXppbmcgc3RhdGUuIFNlZSB7b25seUluaXRpYWxpemluZ30uCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9jaGVja0luaXRpYWxpemluZygpIGludGVybmFsIHZpZXcgdmlydHVhbCB7CiAgICAgICAgaWYgKCFfaXNJbml0aWFsaXppbmcoKSkgewogICAgICAgICAgICByZXZlcnQgTm90SW5pdGlhbGl6aW5nKCk7CiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICogQGRldiBMb2NrcyB0aGUgY29udHJhY3QsIHByZXZlbnRpbmcgYW55IGZ1dHVyZSByZWluaXRpYWxpemF0aW9uLiBUaGlzIGNhbm5vdCBiZSBwYXJ0IG9mIGFuIGluaXRpYWxpemVyIGNhbGwuCiAgICAgKiBDYWxsaW5nIHRoaXMgaW4gdGhlIGNvbnN0cnVjdG9yIG9mIGEgY29udHJhY3Qgd2lsbCBwcmV2ZW50IHRoYXQgY29udHJhY3QgZnJvbSBiZWluZyBpbml0aWFsaXplZCBvciByZWluaXRpYWxpemVkCiAgICAgKiB0byBhbnkgdmVyc2lvbi4gSXQgaXMgcmVjb21tZW5kZWQgdG8gdXNlIHRoaXMgdG8gbG9jayBpbXBsZW1lbnRhdGlvbiBjb250cmFjdHMgdGhhdCBhcmUgZGVzaWduZWQgdG8gYmUgY2FsbGVkCiAgICAgKiB0aHJvdWdoIHByb3hpZXMuCiAgICAgKgogICAgICogRW1pdHMgYW4ge0luaXRpYWxpemVkfSBldmVudCB0aGUgZmlyc3QgdGltZSBpdCBpcyBzdWNjZXNzZnVsbHkgZXhlY3V0ZWQuCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9kaXNhYmxlSW5pdGlhbGl6ZXJzKCkgaW50ZXJuYWwgdmlydHVhbCB7CiAgICAgICAgLy8gc29saGludC1kaXNhYmxlLW5leHQtbGluZSB2YXItbmFtZS1taXhlZGNhc2UKICAgICAgICBJbml0aWFsaXphYmxlU3RvcmFnZSBzdG9yYWdlICQgPSBfZ2V0SW5pdGlhbGl6YWJsZVN0b3JhZ2UoKTsKCiAgICAgICAgaWYgKCQuX2luaXRpYWxpemluZykgewogICAgICAgICAgICByZXZlcnQgSW52YWxpZEluaXRpYWxpemF0aW9uKCk7CiAgICAgICAgfQogICAgICAgIGlmICgkLl9pbml0aWFsaXplZCAhPSB0eXBlKHVpbnQ2NCkubWF4KSB7CiAgICAgICAgICAgICQuX2luaXRpYWxpemVkID0gdHlwZSh1aW50NjQpLm1heDsKICAgICAgICAgICAgZW1pdCBJbml0aWFsaXplZCh0eXBlKHVpbnQ2NCkubWF4KTsKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIGhpZ2hlc3QgdmVyc2lvbiB0aGF0IGhhcyBiZWVuIGluaXRpYWxpemVkLiBTZWUge3JlaW5pdGlhbGl6ZXJ9LgogICAgICovCiAgICBmdW5jdGlvbiBfZ2V0SW5pdGlhbGl6ZWRWZXJzaW9uKCkgaW50ZXJuYWwgdmlldyByZXR1cm5zICh1aW50NjQpIHsKICAgICAgICByZXR1cm4gX2dldEluaXRpYWxpemFibGVTdG9yYWdlKCkuX2luaXRpYWxpemVkOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBSZXR1cm5zIGB0cnVlYCBpZiB0aGUgY29udHJhY3QgaXMgY3VycmVudGx5IGluaXRpYWxpemluZy4gU2VlIHtvbmx5SW5pdGlhbGl6aW5nfS4KICAgICAqLwogICAgZnVuY3Rpb24gX2lzSW5pdGlhbGl6aW5nKCkgaW50ZXJuYWwgdmlldyByZXR1cm5zIChib29sKSB7CiAgICAgICAgcmV0dXJuIF9nZXRJbml0aWFsaXphYmxlU3RvcmFnZSgpLl9pbml0aWFsaXppbmc7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgYSBwb2ludGVyIHRvIHRoZSBzdG9yYWdlIG5hbWVzcGFjZS4KICAgICAqLwogICAgLy8gc29saGludC1kaXNhYmxlLW5leHQtbGluZSB2YXItbmFtZS1taXhlZGNhc2UKICAgIGZ1bmN0aW9uIF9nZXRJbml0aWFsaXphYmxlU3RvcmFnZSgpIHByaXZhdGUgcHVyZSByZXR1cm5zIChJbml0aWFsaXphYmxlU3RvcmFnZSBzdG9yYWdlICQpIHsKICAgICAgICBhc3NlbWJseSB7CiAgICAgICAgICAgICQuc2xvdCA6PSBJTklUSUFMSVpBQkxFX1NUT1JBR0UKICAgICAgICB9CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.0.0) (proxy/utils/Initializable.sol)
+
+pragma solidity ^0.8.20;
+
+/**
+ * @dev This is a base contract to aid in writing upgradeable contracts, or any kind of contract that will be deployed
+ * behind a proxy. Since proxied contracts do not make use of a constructor, it's common to move constructor logic to an
+ * external initializer function, usually called `initialize`. It then becomes necessary to protect this initializer
+ * function so it can only be called once. The {initializer} modifier provided by this contract will have this effect.
+ *
+ * The initialization functions use a version number. Once a version number is used, it is consumed and cannot be
+ * reused. This mechanism prevents re-execution of each "step" but allows the creation of new initialization steps in
+ * case an upgrade adds a module that needs to be initialized.
+ *
+ * For example:
+ *
+ * [.hljs-theme-light.nopadding]
+ * ```solidity
+ * contract MyToken is ERC20Upgradeable {
+ *     function initialize() initializer public {
+ *         __ERC20_init("MyToken", "MTK");
+ *     }
+ * }
+ *
+ * contract MyTokenV2 is MyToken, ERC20PermitUpgradeable {
+ *     function initializeV2() reinitializer(2) public {
+ *         __ERC20Permit_init("MyToken");
+ *     }
+ * }
+ * ```
+ *
+ * TIP: To avoid leaving the proxy in an uninitialized state, the initializer function should be called as early as
+ * possible by providing the encoded function call as the `_data` argument to {ERC1967Proxy-constructor}.
+ *
+ * CAUTION: When used with inheritance, manual care must be taken to not invoke a parent initializer twice, or to ensure
+ * that all initializers are idempotent. This is not verified automatically as constructors are by Solidity.
+ *
+ * [CAUTION]
+ * ====
+ * Avoid leaving a contract uninitialized.
+ *
+ * An uninitialized contract can be taken over by an attacker. This applies to both a proxy and its implementation
+ * contract, which may impact the proxy. To prevent the implementation contract from being used, you should invoke
+ * the {_disableInitializers} function in the constructor to automatically lock it when it is deployed:
+ *
+ * [.hljs-theme-light.nopadding]
+ * ```
+ * /// @custom:oz-upgrades-unsafe-allow constructor
+ * constructor() {
+ *     _disableInitializers();
+ * }
+ * ```
+ * ====
+ */
+abstract contract Initializable {
+    /**
+     * @dev Storage of the initializable contract.
+     *
+     * It's implemented on a custom ERC-7201 namespace to reduce the risk of storage collisions
+     * when using with upgradeable contracts.
+     *
+     * @custom:storage-location erc7201:openzeppelin.storage.Initializable
+     */
+    struct InitializableStorage {
+        /**
+         * @dev Indicates that the contract has been initialized.
+         */
+        uint64 _initialized;
+        /**
+         * @dev Indicates that the contract is in the process of being initialized.
+         */
+        bool _initializing;
+    }
+
+    // keccak256(abi.encode(uint256(keccak256("openzeppelin.storage.Initializable")) - 1)) & ~bytes32(uint256(0xff))
+    bytes32 private constant INITIALIZABLE_STORAGE = 0xf0c57e16840df040f15088dc2f81fe391c3923bec73e23a9662efc9c229c6a00;
+
+    /**
+     * @dev The contract is already initialized.
+     */
+    error InvalidInitialization();
+
+    /**
+     * @dev The contract is not initializing.
+     */
+    error NotInitializing();
+
+    /**
+     * @dev Triggered when the contract has been initialized or reinitialized.
+     */
+    event Initialized(uint64 version);
+
+    /**
+     * @dev A modifier that defines a protected initializer function that can be invoked at most once. In its scope,
+     * `onlyInitializing` functions can be used to initialize parent contracts.
+     *
+     * Similar to `reinitializer(1)`, except that in the context of a constructor an `initializer` may be invoked any
+     * number of times. This behavior in the constructor can be useful during testing and is not expected to be used in
+     * production.
+     *
+     * Emits an {Initialized} event.
+     */
+    modifier initializer() {
+        // solhint-disable-next-line var-name-mixedcase
+        InitializableStorage storage $ = _getInitializableStorage();
+
+        // Cache values to avoid duplicated sloads
+        bool isTopLevelCall = !$._initializing;
+        uint64 initialized = $._initialized;
+
+        // Allowed calls:
+        // - initialSetup: the contract is not in the initializing state and no previous version was
+        //                 initialized
+        // - construction: the contract is initialized at version 1 (no reininitialization) and the
+        //                 current contract is just being deployed
+        bool initialSetup = initialized == 0 && isTopLevelCall;
+        bool construction = initialized == 1 && address(this).code.length == 0;
+
+        if (!initialSetup && !construction) {
+            revert InvalidInitialization();
+        }
+        $._initialized = 1;
+        if (isTopLevelCall) {
+            $._initializing = true;
+        }
+        _;
+        if (isTopLevelCall) {
+            $._initializing = false;
+            emit Initialized(1);
+        }
+    }
+
+    /**
+     * @dev A modifier that defines a protected reinitializer function that can be invoked at most once, and only if the
+     * contract hasn't been initialized to a greater version before. In its scope, `onlyInitializing` functions can be
+     * used to initialize parent contracts.
+     *
+     * A reinitializer may be used after the original initialization step. This is essential to configure modules that
+     * are added through upgrades and that require initialization.
+     *
+     * When `version` is 1, this modifier is similar to `initializer`, except that functions marked with `reinitializer`
+     * cannot be nested. If one is invoked in the context of another, execution will revert.
+     *
+     * Note that versions can jump in increments greater than 1; this implies that if multiple reinitializers coexist in
+     * a contract, executing them in the right order is up to the developer or operator.
+     *
+     * WARNING: Setting the version to 2**64 - 1 will prevent any future reinitialization.
+     *
+     * Emits an {Initialized} event.
+     */
+    modifier reinitializer(uint64 version) {
+        // solhint-disable-next-line var-name-mixedcase
+        InitializableStorage storage $ = _getInitializableStorage();
+
+        if ($._initializing || $._initialized >= version) {
+            revert InvalidInitialization();
+        }
+        $._initialized = version;
+        $._initializing = true;
+        _;
+        $._initializing = false;
+        emit Initialized(version);
+    }
+
+    /**
+     * @dev Modifier to protect an initialization function so that it can only be invoked by functions with the
+     * {initializer} and {reinitializer} modifiers, directly or indirectly.
+     */
+    modifier onlyInitializing() {
+        _checkInitializing();
+        _;
+    }
+
+    /**
+     * @dev Reverts if the contract is not in an initializing state. See {onlyInitializing}.
+     */
+    function _checkInitializing() internal view virtual {
+        if (!_isInitializing()) {
+            revert NotInitializing();
+        }
+    }
+
+    /**
+     * @dev Locks the contract, preventing any future reinitialization. This cannot be part of an initializer call.
+     * Calling this in the constructor of a contract will prevent that contract from being initialized or reinitialized
+     * to any version. It is recommended to use this to lock implementation contracts that are designed to be called
+     * through proxies.
+     *
+     * Emits an {Initialized} event the first time it is successfully executed.
+     */
+    function _disableInitializers() internal virtual {
+        // solhint-disable-next-line var-name-mixedcase
+        InitializableStorage storage $ = _getInitializableStorage();
+
+        if ($._initializing) {
+            revert InvalidInitialization();
+        }
+        if ($._initialized != type(uint64).max) {
+            $._initialized = type(uint64).max;
+            emit Initialized(type(uint64).max);
+        }
+    }
+
+    /**
+     * @dev Returns the highest version that has been initialized. See {reinitializer}.
+     */
+    function _getInitializedVersion() internal view returns (uint64) {
+        return _getInitializableStorage()._initialized;
+    }
+
+    /**
+     * @dev Returns `true` if the contract is currently initializing. See {onlyInitializing}.
+     */
+    function _isInitializing() internal view returns (bool) {
+        return _getInitializableStorage()._initializing;
+    }
+
+    /**
+     * @dev Returns a pointer to the storage namespace.
+     */
+    // solhint-disable-next-line var-name-mixedcase
+    function _getInitializableStorage() private pure returns (InitializableStorage storage $) {
+        assembly {
+            $.slot := INITIALIZABLE_STORAGE
+        }
+    }
+}
