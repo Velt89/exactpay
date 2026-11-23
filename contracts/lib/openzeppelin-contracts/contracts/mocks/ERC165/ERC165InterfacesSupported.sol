@@ -1,1 +1,58 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0lFUkMxNjV9IGZyb20gIi4uLy4uL3V0aWxzL2ludHJvc3BlY3Rpb24vSUVSQzE2NS5zb2wiOwoKLyoqCiAqIGh0dHBzOi8vZWlwcy5ldGhlcmV1bS5vcmcvRUlQUy9laXAtMjE0I3NwZWNpZmljYXRpb24KICogRnJvbSB0aGUgc3BlY2lmaWNhdGlvbjoKICogPiBBbnkgYXR0ZW1wdHMgdG8gbWFrZSBzdGF0ZS1jaGFuZ2luZyBvcGVyYXRpb25zIGluc2lkZSBhbiBleGVjdXRpb24gaW5zdGFuY2Ugd2l0aCBTVEFUSUMgc2V0IHRvIHRydWUgd2lsbCBpbnN0ZWFkCiAqIHRocm93IGFuIGV4Y2VwdGlvbi4KICogPiBUaGVzZSBvcGVyYXRpb25zIGluY2x1ZGUgWy4uLl0sIExPRzAsIExPRzEsIExPRzIsIFsuLi5dCiAqCiAqIHRoZXJlZm9yZSwgYmVjYXVzZSB0aGlzIGNvbnRyYWN0IGlzIHN0YXRpY2NhbGwnZCB3ZSBuZWVkIHRvIG5vdCBlbWl0IGV2ZW50cyAod2hpY2ggaXMgaG93IHNvbGlkaXR5LWNvdmVyYWdlIHdvcmtzKQogKiBzb2xpZGl0eS1jb3ZlcmFnZSBpZ25vcmVzIHRoZSAvbW9ja3MgZm9sZGVyLCBzbyB3ZSBkdXBsaWNhdGUgaXRzIGltcGxlbWVudGF0aW9uIGhlcmUgdG8gYXZvaWQgaW5zdHJ1bWVudGluZyBpdAogKi8KY29udHJhY3QgU3VwcG9ydHNJbnRlcmZhY2VXaXRoTG9va3VwTW9jayBpcyBJRVJDMTY1IHsKICAgIC8qCiAgICAgKiBieXRlczQoa2VjY2FrMjU2KCdzdXBwb3J0c0ludGVyZmFjZShieXRlczQpJykpID09IDB4MDFmZmM5YTcKICAgICAqLwogICAgYnl0ZXM0IHB1YmxpYyBjb25zdGFudCBJTlRFUkZBQ0VfSURfRVJDMTY1ID0gMHgwMWZmYzlhNzsKCiAgICAvKioKICAgICAqIEBkZXYgQSBtYXBwaW5nIG9mIGludGVyZmFjZSBpZCB0byB3aGV0aGVyIG9yIG5vdCBpdCdzIHN1cHBvcnRlZC4KICAgICAqLwogICAgbWFwcGluZyhieXRlczQgaW50ZXJmYWNlSWQgPT4gYm9vbCkgcHJpdmF0ZSBfc3VwcG9ydGVkSW50ZXJmYWNlczsKCiAgICAvKioKICAgICAqIEBkZXYgQSBjb250cmFjdCBpbXBsZW1lbnRpbmcgU3VwcG9ydHNJbnRlcmZhY2VXaXRoTG9va3VwCiAgICAgKiBpbXBsZW1lbnQgRVJDLTE2NSBpdHNlbGYuCiAgICAgKi8KICAgIGNvbnN0cnVjdG9yKCkgewogICAgICAgIF9yZWdpc3RlckludGVyZmFjZShJTlRFUkZBQ0VfSURfRVJDMTY1KTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgSW1wbGVtZW50IHN1cHBvcnRzSW50ZXJmYWNlKGJ5dGVzNCkgdXNpbmcgYSBsb29rdXAgdGFibGUuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHN1cHBvcnRzSW50ZXJmYWNlKGJ5dGVzNCBpbnRlcmZhY2VJZCkgcHVibGljIHZpZXcgb3ZlcnJpZGUgcmV0dXJucyAoYm9vbCkgewogICAgICAgIHJldHVybiBfc3VwcG9ydGVkSW50ZXJmYWNlc1tpbnRlcmZhY2VJZF07CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFByaXZhdGUgbWV0aG9kIGZvciByZWdpc3RlcmluZyBhbiBpbnRlcmZhY2UuCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9yZWdpc3RlckludGVyZmFjZShieXRlczQgaW50ZXJmYWNlSWQpIGludGVybmFsIHsKICAgICAgICByZXF1aXJlKGludGVyZmFjZUlkICE9IDB4ZmZmZmZmZmYsICJFUkMxNjVJbnRlcmZhY2VzU3VwcG9ydGVkOiBpbnZhbGlkIGludGVyZmFjZSBpZCIpOwogICAgICAgIF9zdXBwb3J0ZWRJbnRlcmZhY2VzW2ludGVyZmFjZUlkXSA9IHRydWU7CiAgICB9Cn0KCmNvbnRyYWN0IEVSQzE2NUludGVyZmFjZXNTdXBwb3J0ZWQgaXMgU3VwcG9ydHNJbnRlcmZhY2VXaXRoTG9va3VwTW9jayB7CiAgICBjb25zdHJ1Y3RvcihieXRlczRbXSBtZW1vcnkgaW50ZXJmYWNlSWRzKSB7CiAgICAgICAgZm9yICh1aW50MjU2IGkgPSAwOyBpIDwgaW50ZXJmYWNlSWRzLmxlbmd0aDsgaSsrKSB7CiAgICAgICAgICAgIF9yZWdpc3RlckludGVyZmFjZShpbnRlcmZhY2VJZHNbaV0pOwogICAgICAgIH0KICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {IERC165} from "../../utils/introspection/IERC165.sol";
+
+/**
+ * https://eips.ethereum.org/EIPS/eip-214#specification
+ * From the specification:
+ * > Any attempts to make state-changing operations inside an execution instance with STATIC set to true will instead
+ * throw an exception.
+ * > These operations include [...], LOG0, LOG1, LOG2, [...]
+ *
+ * therefore, because this contract is staticcall'd we need to not emit events (which is how solidity-coverage works)
+ * solidity-coverage ignores the /mocks folder, so we duplicate its implementation here to avoid instrumenting it
+ */
+contract SupportsInterfaceWithLookupMock is IERC165 {
+    /*
+     * bytes4(keccak256('supportsInterface(bytes4)')) == 0x01ffc9a7
+     */
+    bytes4 public constant INTERFACE_ID_ERC165 = 0x01ffc9a7;
+
+    /**
+     * @dev A mapping of interface id to whether or not it's supported.
+     */
+    mapping(bytes4 interfaceId => bool) private _supportedInterfaces;
+
+    /**
+     * @dev A contract implementing SupportsInterfaceWithLookup
+     * implement ERC-165 itself.
+     */
+    constructor() {
+        _registerInterface(INTERFACE_ID_ERC165);
+    }
+
+    /**
+     * @dev Implement supportsInterface(bytes4) using a lookup table.
+     */
+    function supportsInterface(bytes4 interfaceId) public view override returns (bool) {
+        return _supportedInterfaces[interfaceId];
+    }
+
+    /**
+     * @dev Private method for registering an interface.
+     */
+    function _registerInterface(bytes4 interfaceId) internal {
+        require(interfaceId != 0xffffffff, "ERC165InterfacesSupported: invalid interface id");
+        _supportedInterfaces[interfaceId] = true;
+    }
+}
+
+contract ERC165InterfacesSupported is SupportsInterfaceWithLookupMock {
+    constructor(bytes4[] memory interfaceIds) {
+        for (uint256 i = 0; i < interfaceIds.length; i++) {
+            _registerInterface(interfaceIds[i]);
+        }
+    }
+}
