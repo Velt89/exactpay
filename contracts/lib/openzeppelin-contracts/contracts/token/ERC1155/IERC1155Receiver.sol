@@ -1,1 +1,59 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodG9rZW4vRVJDMTE1NS9JRVJDMTE1NVJlY2VpdmVyLnNvbCkKCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKaW1wb3J0IHtJRVJDMTY1fSBmcm9tICIuLi8uLi91dGlscy9pbnRyb3NwZWN0aW9uL0lFUkMxNjUuc29sIjsKCi8qKgogKiBAZGV2IEludGVyZmFjZSB0aGF0IG11c3QgYmUgaW1wbGVtZW50ZWQgYnkgc21hcnQgY29udHJhY3RzIGluIG9yZGVyIHRvIHJlY2VpdmUKICogRVJDLTExNTUgdG9rZW4gdHJhbnNmZXJzLgogKi8KaW50ZXJmYWNlIElFUkMxMTU1UmVjZWl2ZXIgaXMgSUVSQzE2NSB7CiAgICAvKioKICAgICAqIEBkZXYgSGFuZGxlcyB0aGUgcmVjZWlwdCBvZiBhIHNpbmdsZSBFUkMtMTE1NSB0b2tlbiB0eXBlLiBUaGlzIGZ1bmN0aW9uIGlzCiAgICAgKiBjYWxsZWQgYXQgdGhlIGVuZCBvZiBhIGBzYWZlVHJhbnNmZXJGcm9tYCBhZnRlciB0aGUgYmFsYW5jZSBoYXMgYmVlbiB1cGRhdGVkLgogICAgICoKICAgICAqIE5PVEU6IFRvIGFjY2VwdCB0aGUgdHJhbnNmZXIsIHRoaXMgbXVzdCByZXR1cm4KICAgICAqIGBieXRlczQoa2VjY2FrMjU2KCJvbkVSQzExNTVSZWNlaXZlZChhZGRyZXNzLGFkZHJlc3MsdWludDI1Nix1aW50MjU2LGJ5dGVzKSIpKWAKICAgICAqIChpLmUuIDB4ZjIzYTZlNjEsIG9yIGl0cyBvd24gZnVuY3Rpb24gc2VsZWN0b3IpLgogICAgICoKICAgICAqIEBwYXJhbSBvcGVyYXRvciBUaGUgYWRkcmVzcyB3aGljaCBpbml0aWF0ZWQgdGhlIHRyYW5zZmVyIChpLmUuIG1zZy5zZW5kZXIpCiAgICAgKiBAcGFyYW0gZnJvbSBUaGUgYWRkcmVzcyB3aGljaCBwcmV2aW91c2x5IG93bmVkIHRoZSB0b2tlbgogICAgICogQHBhcmFtIGlkIFRoZSBJRCBvZiB0aGUgdG9rZW4gYmVpbmcgdHJhbnNmZXJyZWQKICAgICAqIEBwYXJhbSB2YWx1ZSBUaGUgYW1vdW50IG9mIHRva2VucyBiZWluZyB0cmFuc2ZlcnJlZAogICAgICogQHBhcmFtIGRhdGEgQWRkaXRpb25hbCBkYXRhIHdpdGggbm8gc3BlY2lmaWVkIGZvcm1hdAogICAgICogQHJldHVybiBgYnl0ZXM0KGtlY2NhazI1Nigib25FUkMxMTU1UmVjZWl2ZWQoYWRkcmVzcyxhZGRyZXNzLHVpbnQyNTYsdWludDI1NixieXRlcykiKSlgIGlmIHRyYW5zZmVyIGlzIGFsbG93ZWQKICAgICAqLwogICAgZnVuY3Rpb24gb25FUkMxMTU1UmVjZWl2ZWQoCiAgICAgICAgYWRkcmVzcyBvcGVyYXRvciwKICAgICAgICBhZGRyZXNzIGZyb20sCiAgICAgICAgdWludDI1NiBpZCwKICAgICAgICB1aW50MjU2IHZhbHVlLAogICAgICAgIGJ5dGVzIGNhbGxkYXRhIGRhdGEKICAgICkgZXh0ZXJuYWwgcmV0dXJucyAoYnl0ZXM0KTsKCiAgICAvKioKICAgICAqIEBkZXYgSGFuZGxlcyB0aGUgcmVjZWlwdCBvZiBhIG11bHRpcGxlIEVSQy0xMTU1IHRva2VuIHR5cGVzLiBUaGlzIGZ1bmN0aW9uCiAgICAgKiBpcyBjYWxsZWQgYXQgdGhlIGVuZCBvZiBhIGBzYWZlQmF0Y2hUcmFuc2ZlckZyb21gIGFmdGVyIHRoZSBiYWxhbmNlcyBoYXZlCiAgICAgKiBiZWVuIHVwZGF0ZWQuCiAgICAgKgogICAgICogTk9URTogVG8gYWNjZXB0IHRoZSB0cmFuc2ZlcihzKSwgdGhpcyBtdXN0IHJldHVybgogICAgICogYGJ5dGVzNChrZWNjYWsyNTYoIm9uRVJDMTE1NUJhdGNoUmVjZWl2ZWQoYWRkcmVzcyxhZGRyZXNzLHVpbnQyNTZbXSx1aW50MjU2W10sYnl0ZXMpIikpYAogICAgICogKGkuZS4gMHhiYzE5N2M4MSwgb3IgaXRzIG93biBmdW5jdGlvbiBzZWxlY3RvcikuCiAgICAgKgogICAgICogQHBhcmFtIG9wZXJhdG9yIFRoZSBhZGRyZXNzIHdoaWNoIGluaXRpYXRlZCB0aGUgYmF0Y2ggdHJhbnNmZXIgKGkuZS4gbXNnLnNlbmRlcikKICAgICAqIEBwYXJhbSBmcm9tIFRoZSBhZGRyZXNzIHdoaWNoIHByZXZpb3VzbHkgb3duZWQgdGhlIHRva2VuCiAgICAgKiBAcGFyYW0gaWRzIEFuIGFycmF5IGNvbnRhaW5pbmcgaWRzIG9mIGVhY2ggdG9rZW4gYmVpbmcgdHJhbnNmZXJyZWQgKG9yZGVyIGFuZCBsZW5ndGggbXVzdCBtYXRjaCB2YWx1ZXMgYXJyYXkpCiAgICAgKiBAcGFyYW0gdmFsdWVzIEFuIGFycmF5IGNvbnRhaW5pbmcgYW1vdW50cyBvZiBlYWNoIHRva2VuIGJlaW5nIHRyYW5zZmVycmVkIChvcmRlciBhbmQgbGVuZ3RoIG11c3QgbWF0Y2ggaWRzIGFycmF5KQogICAgICogQHBhcmFtIGRhdGEgQWRkaXRpb25hbCBkYXRhIHdpdGggbm8gc3BlY2lmaWVkIGZvcm1hdAogICAgICogQHJldHVybiBgYnl0ZXM0KGtlY2NhazI1Nigib25FUkMxMTU1QmF0Y2hSZWNlaXZlZChhZGRyZXNzLGFkZHJlc3MsdWludDI1NltdLHVpbnQyNTZbXSxieXRlcykiKSlgIGlmIHRyYW5zZmVyIGlzIGFsbG93ZWQKICAgICAqLwogICAgZnVuY3Rpb24gb25FUkMxMTU1QmF0Y2hSZWNlaXZlZCgKICAgICAgICBhZGRyZXNzIG9wZXJhdG9yLAogICAgICAgIGFkZHJlc3MgZnJvbSwKICAgICAgICB1aW50MjU2W10gY2FsbGRhdGEgaWRzLAogICAgICAgIHVpbnQyNTZbXSBjYWxsZGF0YSB2YWx1ZXMsCiAgICAgICAgYnl0ZXMgY2FsbGRhdGEgZGF0YQogICAgKSBleHRlcm5hbCByZXR1cm5zIChieXRlczQpOwp9Cg==
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (token/ERC1155/IERC1155Receiver.sol)
+
+pragma solidity ^0.8.20;
+
+import {IERC165} from "../../utils/introspection/IERC165.sol";
+
+/**
+ * @dev Interface that must be implemented by smart contracts in order to receive
+ * ERC-1155 token transfers.
+ */
+interface IERC1155Receiver is IERC165 {
+    /**
+     * @dev Handles the receipt of a single ERC-1155 token type. This function is
+     * called at the end of a `safeTransferFrom` after the balance has been updated.
+     *
+     * NOTE: To accept the transfer, this must return
+     * `bytes4(keccak256("onERC1155Received(address,address,uint256,uint256,bytes)"))`
+     * (i.e. 0xf23a6e61, or its own function selector).
+     *
+     * @param operator The address which initiated the transfer (i.e. msg.sender)
+     * @param from The address which previously owned the token
+     * @param id The ID of the token being transferred
+     * @param value The amount of tokens being transferred
+     * @param data Additional data with no specified format
+     * @return `bytes4(keccak256("onERC1155Received(address,address,uint256,uint256,bytes)"))` if transfer is allowed
+     */
+    function onERC1155Received(
+        address operator,
+        address from,
+        uint256 id,
+        uint256 value,
+        bytes calldata data
+    ) external returns (bytes4);
+
+    /**
+     * @dev Handles the receipt of a multiple ERC-1155 token types. This function
+     * is called at the end of a `safeBatchTransferFrom` after the balances have
+     * been updated.
+     *
+     * NOTE: To accept the transfer(s), this must return
+     * `bytes4(keccak256("onERC1155BatchReceived(address,address,uint256[],uint256[],bytes)"))`
+     * (i.e. 0xbc197c81, or its own function selector).
+     *
+     * @param operator The address which initiated the batch transfer (i.e. msg.sender)
+     * @param from The address which previously owned the token
+     * @param ids An array containing ids of each token being transferred (order and length must match values array)
+     * @param values An array containing amounts of each token being transferred (order and length must match ids array)
+     * @param data Additional data with no specified format
+     * @return `bytes4(keccak256("onERC1155BatchReceived(address,address,uint256[],uint256[],bytes)"))` if transfer is allowed
+     */
+    function onERC1155BatchReceived(
+        address operator,
+        address from,
+        uint256[] calldata ids,
+        uint256[] calldata values,
+        bytes calldata data
+    ) external returns (bytes4);
+}
