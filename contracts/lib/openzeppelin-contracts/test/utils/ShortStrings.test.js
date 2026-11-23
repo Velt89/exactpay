@@ -1,1 +1,64 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKY29uc3QgRkFMTEJBQ0tfU0VOVElORUwgPSBldGhlcnMuemVyb1BhZFZhbHVlKCcweEZGJywgMzIpOwoKY29uc3QgbGVuZ3RoID0gc3N0ciA9PiBwYXJzZUludChzc3RyLnNsaWNlKDY0KSwgMTYpOwpjb25zdCBkZWNvZGUgPSBzc3RyID0+IGV0aGVycy50b1V0ZjhTdHJpbmcoc3N0cikuc2xpY2UoMCwgbGVuZ3RoKHNzdHIpKTsKY29uc3QgZW5jb2RlID0gc3RyID0+CiAgc3RyLmxlbmd0aCA8IDMyCiAgICA/IGV0aGVycy5jb25jYXQoWwogICAgICAgIGV0aGVycy5lbmNvZGVCeXRlczMyU3RyaW5nKHN0cikuc2xpY2UoMCwgLTIpLAogICAgICAgIGV0aGVycy56ZXJvUGFkVmFsdWUoZXRoZXJzLnRvQmVBcnJheShzdHIubGVuZ3RoKSwgMSksCiAgICAgIF0pCiAgICA6IEZBTExCQUNLX1NFTlRJTkVMOwoKYXN5bmMgZnVuY3Rpb24gZml4dHVyZSgpIHsKICBjb25zdCBtb2NrID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCckU2hvcnRTdHJpbmdzJyk7CiAgcmV0dXJuIHsgbW9jayB9Owp9CgpkZXNjcmliZSgnU2hvcnRTdHJpbmdzJywgZnVuY3Rpb24gKCkgewogIGJlZm9yZUVhY2goYXN5bmMgZnVuY3Rpb24gKCkgewogICAgT2JqZWN0LmFzc2lnbih0aGlzLCBhd2FpdCBsb2FkRml4dHVyZShmaXh0dXJlKSk7CiAgfSk7CgogIGZvciAoY29uc3Qgc3RyIG9mIFswLCAxLCAxNiwgMzEsIDMyLCA2NCwgMTAyNF0ubWFwKGxlbmd0aCA9PiAnYScucmVwZWF0KGxlbmd0aCkpKSB7CiAgICBkZXNjcmliZShgd2l0aCBzdHJpbmcgbGVuZ3RoICR7c3RyLmxlbmd0aH1gLCBmdW5jdGlvbiAoKSB7CiAgICAgIGl0KCdlbmNvZGUgLyBkZWNvZGUnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgaWYgKHN0ci5sZW5ndGggPCAzMikgewogICAgICAgICAgY29uc3QgZW5jb2RlZCA9IGF3YWl0IHRoaXMubW9jay4kdG9TaG9ydFN0cmluZyhzdHIpOwogICAgICAgICAgZXhwZWN0KGVuY29kZWQpLnRvLmVxdWFsKGVuY29kZShzdHIpKTsKICAgICAgICAgIGV4cGVjdChkZWNvZGUoZW5jb2RlZCkpLnRvLmVxdWFsKHN0cik7CgogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kYnl0ZUxlbmd0aChlbmNvZGVkKSkudG8uZXF1YWwoc3RyLmxlbmd0aCk7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiR0b1N0cmluZyhlbmNvZGVkKSkudG8uZXF1YWwoc3RyKTsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMubW9jay4kdG9TaG9ydFN0cmluZyhzdHIpKQogICAgICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy5tb2NrLCAnU3RyaW5nVG9vTG9uZycpCiAgICAgICAgICAgIC53aXRoQXJncyhzdHIpOwogICAgICAgIH0KICAgICAgfSk7CgogICAgICBpdCgnc2V0IC8gZ2V0IHdpdGggZmFsbGJhY2snLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgY29uc3Qgc2hvcnQgPSBhd2FpdCB0aGlzLm1vY2sKICAgICAgICAgIC4kdG9TaG9ydFN0cmluZ1dpdGhGYWxsYmFjayhzdHIsIDApCiAgICAgICAgICAudGhlbih0eCA9PiB0eC53YWl0KCkpCiAgICAgICAgICAudGhlbihyZWNlaXB0ID0+IHJlY2VpcHQubG9ncy5maW5kKGV2ID0+IGV2LmZyYWdtZW50Lm5hbWUgPT0gJ3JldHVybiR0b1Nob3J0U3RyaW5nV2l0aEZhbGxiYWNrJykuYXJnc1swXSk7CgogICAgICAgIGV4cGVjdChzaG9ydCkudG8uZXF1YWwoZW5jb2RlKHN0cikpOwoKICAgICAgICBjb25zdCBwcm9taXNlID0gdGhpcy5tb2NrLiR0b1N0cmluZyhzaG9ydCk7CiAgICAgICAgaWYgKHN0ci5sZW5ndGggPCAzMikgewogICAgICAgICAgZXhwZWN0KGF3YWl0IHByb21pc2UpLnRvLmVxdWFsKHN0cik7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgIGF3YWl0IGV4cGVjdChwcm9taXNlKS50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLm1vY2ssICdJbnZhbGlkU2hvcnRTdHJpbmcnKTsKICAgICAgICB9CgogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGJ5dGVMZW5ndGhXaXRoRmFsbGJhY2soc2hvcnQsIDApKS50by5lcXVhbChzdHIubGVuZ3RoKTsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiR0b1N0cmluZ1dpdGhGYWxsYmFjayhzaG9ydCwgMCkpLnRvLmVxdWFsKHN0cik7CiAgICAgIH0pOwogICAgfSk7CiAgfQp9KTsK
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+const FALLBACK_SENTINEL = ethers.zeroPadValue('0xFF', 32);
+
+const length = sstr => parseInt(sstr.slice(64), 16);
+const decode = sstr => ethers.toUtf8String(sstr).slice(0, length(sstr));
+const encode = str =>
+  str.length < 32
+    ? ethers.concat([
+        ethers.encodeBytes32String(str).slice(0, -2),
+        ethers.zeroPadValue(ethers.toBeArray(str.length), 1),
+      ])
+    : FALLBACK_SENTINEL;
+
+async function fixture() {
+  const mock = await ethers.deployContract('$ShortStrings');
+  return { mock };
+}
+
+describe('ShortStrings', function () {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  for (const str of [0, 1, 16, 31, 32, 64, 1024].map(length => 'a'.repeat(length))) {
+    describe(`with string length ${str.length}`, function () {
+      it('encode / decode', async function () {
+        if (str.length < 32) {
+          const encoded = await this.mock.$toShortString(str);
+          expect(encoded).to.equal(encode(str));
+          expect(decode(encoded)).to.equal(str);
+
+          expect(await this.mock.$byteLength(encoded)).to.equal(str.length);
+          expect(await this.mock.$toString(encoded)).to.equal(str);
+        } else {
+          await expect(this.mock.$toShortString(str))
+            .to.be.revertedWithCustomError(this.mock, 'StringTooLong')
+            .withArgs(str);
+        }
+      });
+
+      it('set / get with fallback', async function () {
+        const short = await this.mock
+          .$toShortStringWithFallback(str, 0)
+          .then(tx => tx.wait())
+          .then(receipt => receipt.logs.find(ev => ev.fragment.name == 'return$toShortStringWithFallback').args[0]);
+
+        expect(short).to.equal(encode(str));
+
+        const promise = this.mock.$toString(short);
+        if (str.length < 32) {
+          expect(await promise).to.equal(str);
+        } else {
+          await expect(promise).to.be.revertedWithCustomError(this.mock, 'InvalidShortString');
+        }
+
+        expect(await this.mock.$byteLengthWithFallback(short, 0)).to.equal(str.length);
+        expect(await this.mock.$toStringWithFallback(short, 0)).to.equal(str);
+      });
+    });
+  }
+});
