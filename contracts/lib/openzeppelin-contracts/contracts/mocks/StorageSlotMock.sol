@@ -1,1 +1,87 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBUaGlzIGZpbGUgd2FzIHByb2NlZHVyYWxseSBnZW5lcmF0ZWQgZnJvbSBzY3JpcHRzL2dlbmVyYXRlL3RlbXBsYXRlcy9TdG9yYWdlU2xvdE1vY2suanMuCgpwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7TXVsdGljYWxsfSBmcm9tICIuLi91dGlscy9NdWx0aWNhbGwuc29sIjsKaW1wb3J0IHtTdG9yYWdlU2xvdH0gZnJvbSAiLi4vdXRpbHMvU3RvcmFnZVNsb3Quc29sIjsKCmNvbnRyYWN0IFN0b3JhZ2VTbG90TW9jayBpcyBNdWx0aWNhbGwgewogICAgdXNpbmcgU3RvcmFnZVNsb3QgZm9yICo7CgogICAgZnVuY3Rpb24gc2V0QWRkcmVzc1Nsb3QoYnl0ZXMzMiBzbG90LCBhZGRyZXNzIHZhbHVlKSBwdWJsaWMgewogICAgICAgIHNsb3QuZ2V0QWRkcmVzc1Nsb3QoKS52YWx1ZSA9IHZhbHVlOwogICAgfQoKICAgIGZ1bmN0aW9uIHNldEJvb2xlYW5TbG90KGJ5dGVzMzIgc2xvdCwgYm9vbCB2YWx1ZSkgcHVibGljIHsKICAgICAgICBzbG90LmdldEJvb2xlYW5TbG90KCkudmFsdWUgPSB2YWx1ZTsKICAgIH0KCiAgICBmdW5jdGlvbiBzZXRCeXRlczMyU2xvdChieXRlczMyIHNsb3QsIGJ5dGVzMzIgdmFsdWUpIHB1YmxpYyB7CiAgICAgICAgc2xvdC5nZXRCeXRlczMyU2xvdCgpLnZhbHVlID0gdmFsdWU7CiAgICB9CgogICAgZnVuY3Rpb24gc2V0VWludDI1NlNsb3QoYnl0ZXMzMiBzbG90LCB1aW50MjU2IHZhbHVlKSBwdWJsaWMgewogICAgICAgIHNsb3QuZ2V0VWludDI1NlNsb3QoKS52YWx1ZSA9IHZhbHVlOwogICAgfQoKICAgIGZ1bmN0aW9uIHNldEludDI1NlNsb3QoYnl0ZXMzMiBzbG90LCBpbnQyNTYgdmFsdWUpIHB1YmxpYyB7CiAgICAgICAgc2xvdC5nZXRJbnQyNTZTbG90KCkudmFsdWUgPSB2YWx1ZTsKICAgIH0KCiAgICBmdW5jdGlvbiBnZXRBZGRyZXNzU2xvdChieXRlczMyIHNsb3QpIHB1YmxpYyB2aWV3IHJldHVybnMgKGFkZHJlc3MpIHsKICAgICAgICByZXR1cm4gc2xvdC5nZXRBZGRyZXNzU2xvdCgpLnZhbHVlOwogICAgfQoKICAgIGZ1bmN0aW9uIGdldEJvb2xlYW5TbG90KGJ5dGVzMzIgc2xvdCkgcHVibGljIHZpZXcgcmV0dXJucyAoYm9vbCkgewogICAgICAgIHJldHVybiBzbG90LmdldEJvb2xlYW5TbG90KCkudmFsdWU7CiAgICB9CgogICAgZnVuY3Rpb24gZ2V0Qnl0ZXMzMlNsb3QoYnl0ZXMzMiBzbG90KSBwdWJsaWMgdmlldyByZXR1cm5zIChieXRlczMyKSB7CiAgICAgICAgcmV0dXJuIHNsb3QuZ2V0Qnl0ZXMzMlNsb3QoKS52YWx1ZTsKICAgIH0KCiAgICBmdW5jdGlvbiBnZXRVaW50MjU2U2xvdChieXRlczMyIHNsb3QpIHB1YmxpYyB2aWV3IHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXR1cm4gc2xvdC5nZXRVaW50MjU2U2xvdCgpLnZhbHVlOwogICAgfQoKICAgIGZ1bmN0aW9uIGdldEludDI1NlNsb3QoYnl0ZXMzMiBzbG90KSBwdWJsaWMgdmlldyByZXR1cm5zIChpbnQyNTYpIHsKICAgICAgICByZXR1cm4gc2xvdC5nZXRJbnQyNTZTbG90KCkudmFsdWU7CiAgICB9CgogICAgbWFwcGluZyh1aW50MjU2IGtleSA9PiBzdHJpbmcpIHB1YmxpYyBzdHJpbmdNYXA7CgogICAgZnVuY3Rpb24gc2V0U3RyaW5nU2xvdChieXRlczMyIHNsb3QsIHN0cmluZyBjYWxsZGF0YSB2YWx1ZSkgcHVibGljIHsKICAgICAgICBzbG90LmdldFN0cmluZ1Nsb3QoKS52YWx1ZSA9IHZhbHVlOwogICAgfQoKICAgIGZ1bmN0aW9uIHNldFN0cmluZ1N0b3JhZ2UodWludDI1NiBrZXksIHN0cmluZyBjYWxsZGF0YSB2YWx1ZSkgcHVibGljIHsKICAgICAgICBzdHJpbmdNYXBba2V5XS5nZXRTdHJpbmdTbG90KCkudmFsdWUgPSB2YWx1ZTsKICAgIH0KCiAgICBmdW5jdGlvbiBnZXRTdHJpbmdTbG90KGJ5dGVzMzIgc2xvdCkgcHVibGljIHZpZXcgcmV0dXJucyAoc3RyaW5nIG1lbW9yeSkgewogICAgICAgIHJldHVybiBzbG90LmdldFN0cmluZ1Nsb3QoKS52YWx1ZTsKICAgIH0KCiAgICBmdW5jdGlvbiBnZXRTdHJpbmdTdG9yYWdlKHVpbnQyNTYga2V5KSBwdWJsaWMgdmlldyByZXR1cm5zIChzdHJpbmcgbWVtb3J5KSB7CiAgICAgICAgcmV0dXJuIHN0cmluZ01hcFtrZXldLmdldFN0cmluZ1Nsb3QoKS52YWx1ZTsKICAgIH0KCiAgICBtYXBwaW5nKHVpbnQyNTYga2V5ID0+IGJ5dGVzKSBwdWJsaWMgYnl0ZXNNYXA7CgogICAgZnVuY3Rpb24gc2V0Qnl0ZXNTbG90KGJ5dGVzMzIgc2xvdCwgYnl0ZXMgY2FsbGRhdGEgdmFsdWUpIHB1YmxpYyB7CiAgICAgICAgc2xvdC5nZXRCeXRlc1Nsb3QoKS52YWx1ZSA9IHZhbHVlOwogICAgfQoKICAgIGZ1bmN0aW9uIHNldEJ5dGVzU3RvcmFnZSh1aW50MjU2IGtleSwgYnl0ZXMgY2FsbGRhdGEgdmFsdWUpIHB1YmxpYyB7CiAgICAgICAgYnl0ZXNNYXBba2V5XS5nZXRCeXRlc1Nsb3QoKS52YWx1ZSA9IHZhbHVlOwogICAgfQoKICAgIGZ1bmN0aW9uIGdldEJ5dGVzU2xvdChieXRlczMyIHNsb3QpIHB1YmxpYyB2aWV3IHJldHVybnMgKGJ5dGVzIG1lbW9yeSkgewogICAgICAgIHJldHVybiBzbG90LmdldEJ5dGVzU2xvdCgpLnZhbHVlOwogICAgfQoKICAgIGZ1bmN0aW9uIGdldEJ5dGVzU3RvcmFnZSh1aW50MjU2IGtleSkgcHVibGljIHZpZXcgcmV0dXJucyAoYnl0ZXMgbWVtb3J5KSB7CiAgICAgICAgcmV0dXJuIGJ5dGVzTWFwW2tleV0uZ2V0Qnl0ZXNTbG90KCkudmFsdWU7CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+// This file was procedurally generated from scripts/generate/templates/StorageSlotMock.js.
+
+pragma solidity ^0.8.20;
+
+import {Multicall} from "../utils/Multicall.sol";
+import {StorageSlot} from "../utils/StorageSlot.sol";
+
+contract StorageSlotMock is Multicall {
+    using StorageSlot for *;
+
+    function setAddressSlot(bytes32 slot, address value) public {
+        slot.getAddressSlot().value = value;
+    }
+
+    function setBooleanSlot(bytes32 slot, bool value) public {
+        slot.getBooleanSlot().value = value;
+    }
+
+    function setBytes32Slot(bytes32 slot, bytes32 value) public {
+        slot.getBytes32Slot().value = value;
+    }
+
+    function setUint256Slot(bytes32 slot, uint256 value) public {
+        slot.getUint256Slot().value = value;
+    }
+
+    function setInt256Slot(bytes32 slot, int256 value) public {
+        slot.getInt256Slot().value = value;
+    }
+
+    function getAddressSlot(bytes32 slot) public view returns (address) {
+        return slot.getAddressSlot().value;
+    }
+
+    function getBooleanSlot(bytes32 slot) public view returns (bool) {
+        return slot.getBooleanSlot().value;
+    }
+
+    function getBytes32Slot(bytes32 slot) public view returns (bytes32) {
+        return slot.getBytes32Slot().value;
+    }
+
+    function getUint256Slot(bytes32 slot) public view returns (uint256) {
+        return slot.getUint256Slot().value;
+    }
+
+    function getInt256Slot(bytes32 slot) public view returns (int256) {
+        return slot.getInt256Slot().value;
+    }
+
+    mapping(uint256 key => string) public stringMap;
+
+    function setStringSlot(bytes32 slot, string calldata value) public {
+        slot.getStringSlot().value = value;
+    }
+
+    function setStringStorage(uint256 key, string calldata value) public {
+        stringMap[key].getStringSlot().value = value;
+    }
+
+    function getStringSlot(bytes32 slot) public view returns (string memory) {
+        return slot.getStringSlot().value;
+    }
+
+    function getStringStorage(uint256 key) public view returns (string memory) {
+        return stringMap[key].getStringSlot().value;
+    }
+
+    mapping(uint256 key => bytes) public bytesMap;
+
+    function setBytesSlot(bytes32 slot, bytes calldata value) public {
+        slot.getBytesSlot().value = value;
+    }
+
+    function setBytesStorage(uint256 key, bytes calldata value) public {
+        bytesMap[key].getBytesSlot().value = value;
+    }
+
+    function getBytesSlot(bytes32 slot) public view returns (bytes memory) {
+        return slot.getBytesSlot().value;
+    }
+
+    function getBytesStorage(uint256 key) public view returns (bytes memory) {
+        return bytesMap[key].getBytesSlot().value;
+    }
+}
