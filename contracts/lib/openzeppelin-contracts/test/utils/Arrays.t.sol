@@ -1,1 +1,31 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge1Rlc3R9IGZyb20gImZvcmdlLXN0ZC9UZXN0LnNvbCI7CmltcG9ydCB7U3ltVGVzdH0gZnJvbSAiaGFsbW9zLWNoZWF0Y29kZXMvU3ltVGVzdC5zb2wiOwppbXBvcnQge0FycmF5c30gZnJvbSAiQG9wZW56ZXBwZWxpbi9jb250cmFjdHMvdXRpbHMvQXJyYXlzLnNvbCI7Cgpjb250cmFjdCBBcnJheXNUZXN0IGlzIFRlc3QsIFN5bVRlc3QgewogICAgZnVuY3Rpb24gdGVzdFNvcnQodWludDI1NltdIG1lbW9yeSB2YWx1ZXMpIHB1YmxpYyB7CiAgICAgICAgQXJyYXlzLnNvcnQodmFsdWVzKTsKICAgICAgICBfYXNzZXJ0U29ydCh2YWx1ZXMpOwogICAgfQoKICAgIGZ1bmN0aW9uIHN5bWJvbGljU29ydCgpIHB1YmxpYyB7CiAgICAgICAgdWludDI1NltdIG1lbW9yeSB2YWx1ZXMgPSBuZXcgdWludDI1NltdKDMpOwogICAgICAgIGZvciAodWludDI1NiBpID0gMDsgaSA8IDM7IGkrKykgewogICAgICAgICAgICB2YWx1ZXNbaV0gPSBzdm0uY3JlYXRlVWludDI1NigiYXJyYXlFbGVtZW50Iik7CiAgICAgICAgfQogICAgICAgIEFycmF5cy5zb3J0KHZhbHVlcyk7CiAgICAgICAgX2Fzc2VydFNvcnQodmFsdWVzKTsKICAgIH0KCiAgICAvLy8gQXNzZXJ0cwoKICAgIGZ1bmN0aW9uIF9hc3NlcnRTb3J0KHVpbnQyNTZbXSBtZW1vcnkgdmFsdWVzKSBpbnRlcm5hbCB7CiAgICAgICAgZm9yICh1aW50MjU2IGkgPSAxOyBpIDwgdmFsdWVzLmxlbmd0aDsgKytpKSB7CiAgICAgICAgICAgIGFzc2VydExlKHZhbHVlc1tpIC0gMV0sIHZhbHVlc1tpXSk7CiAgICAgICAgfQogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {Test} from "forge-std/Test.sol";
+import {SymTest} from "halmos-cheatcodes/SymTest.sol";
+import {Arrays} from "@openzeppelin/contracts/utils/Arrays.sol";
+
+contract ArraysTest is Test, SymTest {
+    function testSort(uint256[] memory values) public {
+        Arrays.sort(values);
+        _assertSort(values);
+    }
+
+    function symbolicSort() public {
+        uint256[] memory values = new uint256[](3);
+        for (uint256 i = 0; i < 3; i++) {
+            values[i] = svm.createUint256("arrayElement");
+        }
+        Arrays.sort(values);
+        _assertSort(values);
+    }
+
+    /// Asserts
+
+    function _assertSort(uint256[] memory values) internal {
+        for (uint256 i = 1; i < values.length; ++i) {
+            assertLe(values[i - 1], values[i]);
+        }
+    }
+}
