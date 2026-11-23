@@ -1,1 +1,33 @@
-IyEvdXNyL2Jpbi9lbnYgbm9kZQoKLy8gQWRqdXN0cyB0aGUgZm9ybWF0IG9mIHRoZSBjaGFuZ2Vsb2cgdGhhdCBjaGFuZ2VzZXRzIGdlbmVyYXRlcy4KLy8gVGhpcyBpcyBydW4gYXV0b21hdGljYWxseSB3aGVuIG5wbSB2ZXJzaW9uIGlzIHJ1bi4KCmNvbnN0IGZzID0gcmVxdWlyZSgnZnMnKTsKY29uc3QgY2hhbmdlbG9nID0gZnMucmVhZEZpbGVTeW5jKCdDSEFOR0VMT0cubWQnLCAndXRmOCcpOwoKLy8gR3JvdXBzOgovLyAgLSAxOiBQdWxsIFJlcXVlc3QgTnVtYmVyIGFuZCBVUkwKLy8gIC0gMjogQ2hhbmdlc2V0IGVudHJ5CmNvbnN0IFJFTEVBU0VfTElORV9SRUdFWCA9IC9eLSAoXFsjLio/XF1cKC4qP1wpKT8uKj8hIC0gKC4qKSQvZ207CgovLyBDYXB0dXJlcyB2WC5ZLlogb3IgdlguWS5aLXJjLlcKY29uc3QgVkVSU0lPTl9USVRMRV9SRUdFWCA9IC9eIyMgKFxkK1wuXGQrXC5cZCsoLXJjXC5cZCspPykkL2dtOwoKY29uc3QgaXNQcmVyZWxlYXNlID0gcHJvY2Vzcy5lbnYuUFJFUkVMRUFTRSA9PT0gJ3RydWUnOwoKY29uc3QgZm9ybWF0dGVkID0gY2hhbmdlbG9nCiAgLy8gUmVtb3ZlIHRpdGxlcwogIC5yZXBsYWNlKC9eIyMjIE1ham9yIENoYW5nZXNcblxuL2dtLCAnJykKICAucmVwbGFjZSgvXiMjIyBNaW5vciBDaGFuZ2VzXG5cbi9nbSwgJycpCiAgLnJlcGxhY2UoL14jIyMgUGF0Y2ggQ2hhbmdlc1xuXG4vZ20sICcnKQogIC8vIFJlbW92ZSBleHRyYSB3aGl0ZXNwYWNlIGJldHdlZW4gaXRlbXMKICAucmVwbGFjZSgvXigtIFxbLipcbilcbig/PS0pL2dtLCAnJDEnKQogIC8vIEZvcm1hdCBlYWNoIHJlbGVhc2UgbGluZQogIC5yZXBsYWNlKFJFTEVBU0VfTElORV9SRUdFWCwgKF8sIHByLCBlbnRyeSkgPT4gKHByID8gYC0gJHtlbnRyeX0gKCR7cHJ9KWAgOiBgLSAke2VudHJ5fWApKQogIC8vIEFkZCBkYXRlIHRvIG5ldyB2ZXJzaW9uCiAgLnJlcGxhY2UoVkVSU0lPTl9USVRMRV9SRUdFWCwgYFxuIyMgJDEgKCR7bmV3IERhdGUoKS50b0lTT1N0cmluZygpLnNwbGl0KCdUJylbMF19KWApCiAgLy8gQ29uZGl0aW9uYWxseSBhbGxvdyB2WC5ZLloucmMtLlcgc2VjdGlvbnMgb25seSBpbiBwcmVyZWxlYXNlCiAgLnJlcGxhY2UoL14jIyBcZFwuXGRcLlxkLXJjXFMrW15dKz8oPz1eIykvZ20sIHNlY3Rpb24gPT4gKGlzUHJlcmVsZWFzZSA/IHNlY3Rpb24gOiAnJykpOwoKZnMud3JpdGVGaWxlU3luYygnQ0hBTkdFTE9HLm1kJywgZm9ybWF0dGVkKTsK
+#!/usr/bin/env node
+
+// Adjusts the format of the changelog that changesets generates.
+// This is run automatically when npm version is run.
+
+const fs = require('fs');
+const changelog = fs.readFileSync('CHANGELOG.md', 'utf8');
+
+// Groups:
+//  - 1: Pull Request Number and URL
+//  - 2: Changeset entry
+const RELEASE_LINE_REGEX = /^- (\[#.*?\]\(.*?\))?.*?! - (.*)$/gm;
+
+// Captures vX.Y.Z or vX.Y.Z-rc.W
+const VERSION_TITLE_REGEX = /^## (\d+\.\d+\.\d+(-rc\.\d+)?)$/gm;
+
+const isPrerelease = process.env.PRERELEASE === 'true';
+
+const formatted = changelog
+  // Remove titles
+  .replace(/^### Major Changes\n\n/gm, '')
+  .replace(/^### Minor Changes\n\n/gm, '')
+  .replace(/^### Patch Changes\n\n/gm, '')
+  // Remove extra whitespace between items
+  .replace(/^(- \[.*\n)\n(?=-)/gm, '$1')
+  // Format each release line
+  .replace(RELEASE_LINE_REGEX, (_, pr, entry) => (pr ? `- ${entry} (${pr})` : `- ${entry}`))
+  // Add date to new version
+  .replace(VERSION_TITLE_REGEX, `\n## $1 (${new Date().toISOString().split('T')[0]})`)
+  // Conditionally allow vX.Y.Z.rc-.W sections only in prerelease
+  .replace(/^## \d\.\d\.\d-rc\S+[^]+?(?=^#)/gm, section => (isPrerelease ? section : ''));
+
+fs.writeFileSync('CHANGELOG.md', formatted);
