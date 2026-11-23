@@ -1,1 +1,39 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgXjAuOC4yNDsKCmltcG9ydCB7U2NyaXB0LCBjb25zb2xlfSBmcm9tICJmb3JnZS1zdGQvU2NyaXB0LnNvbCI7CmltcG9ydCB7SUVSQzIwfSBmcm9tICJAb3BlbnplcHBlbGluL2NvbnRyYWN0cy90b2tlbi9FUkMyMC9JRVJDMjAuc29sIjsKaW1wb3J0IHtJbnZvaWNlUGF5fSBmcm9tICIuLi9zcmMvSW52b2ljZVBheS5zb2wiOwppbXBvcnQge1BheWVlRGlyZWN0b3J5fSBmcm9tICIuLi9zcmMvUGF5ZWVEaXJlY3Rvcnkuc29sIjsKaW1wb3J0IHtNb2NrVVNEOH0gZnJvbSAiLi4vc3JjL21vY2tzL01vY2tVU0Q4LnNvbCI7CgovLy8gQG5vdGljZSBEZXBsb3lzIEludm9pY2VQYXkgKyBQYXllZURpcmVjdG9yeSwgZm9sbG93aW5nIHRoZSBzYW1lIGNoYWluIHJ1bGVzIGFzIERlcGxveS5zLnNvbDoKLy8vICAgLSBBZXZ1bSB0ZXN0bmV0IGFuZCBgbWFrZSBmb3JrYDogdXNlcyB0aGUgcmVhbCB0VVNEOC4KLy8vICAgLSBgbWFrZSBhbnZpbGAgKGNoYWluIDMxMzM3KSBvbmx5OiBkZXBsb3lzIE1vY2tVU0Q4IGZpcnN0IGFuZCBtaW50cyAxLDAwMCB0byB0aGUgZGVwbG95ZXIuCi8vLyAgIC0gQW55d2hlcmUgZWxzZSBpdCBzdG9wcywgcmF0aGVyIHRoYW4gZGVwbG95IGFnYWluc3QgYSB0b2tlbiBhbnlvbmUgY2FuIG1pbnQuCmNvbnRyYWN0IERlcGxveU91cnMgaXMgU2NyaXB0IHsKICAgIGFkZHJlc3MgY29uc3RhbnQgQUVWVU1fVFVTRDggPSAweDQ1NjU2OTgzOGYxZDQzMDA5QTkxZWJBNDI2MzE0N0FmZDcyMzM0ODM7CiAgICB1aW50MjU2IGNvbnN0YW50IEFOVklMX0NIQUlOID0gMzEzMzc7CgogICAgZnVuY3Rpb24gcnVuKCkgZXh0ZXJuYWwgcmV0dXJucyAoSW52b2ljZVBheSBpbnZvaWNlUGF5LCBQYXllZURpcmVjdG9yeSBkaXJlY3RvcnksIGFkZHJlc3MgdG9rZW4pIHsKICAgICAgICB2bS5zdGFydEJyb2FkY2FzdCgpOwogICAgICAgICgsIGFkZHJlc3MgZGVwbG95ZXIsKSA9IHZtLnJlYWRDYWxsZXJzKCk7CgogICAgICAgIGlmIChBRVZVTV9UVVNEOC5jb2RlLmxlbmd0aCA+IDApIHsKICAgICAgICAgICAgdG9rZW4gPSBBRVZVTV9UVVNEODsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICByZXF1aXJlKGJsb2NrLmNoYWluaWQgPT0gQU5WSUxfQ0hBSU4sICJ0VVNEOCBub3QgZm91bmQgb24gdGhpcyBjaGFpbi4gQ2hlY2sgdGhlIFJQQyAoQWV2dW0gdGVzdG5ldCBpcyA0NDAwNSkuIik7CiAgICAgICAgICAgIE1vY2tVU0Q4IG1vY2sgPSBuZXcgTW9ja1VTRDgoKTsKICAgICAgICAgICAgbW9jay5taW50KGRlcGxveWVyLCAxXzAwMGU2KTsKICAgICAgICAgICAgdG9rZW4gPSBhZGRyZXNzKG1vY2spOwogICAgICAgIH0KICAgICAgICBpbnZvaWNlUGF5ID0gbmV3IEludm9pY2VQYXkoSUVSQzIwKHRva2VuKSk7CiAgICAgICAgZGlyZWN0b3J5ID0gbmV3IFBheWVlRGlyZWN0b3J5KCk7CiAgICAgICAgdm0uc3RvcEJyb2FkY2FzdCgpOwoKICAgICAgICBjb25zb2xlLmxvZygiY2hhaW5JZCAgICAgICAgIiwgYmxvY2suY2hhaW5pZCk7CiAgICAgICAgY29uc29sZS5sb2coInRva2VuICAgICAgICAgICIsIHRva2VuKTsKICAgICAgICBjb25zb2xlLmxvZygiSW52b2ljZVBheSAgICAgIiwgYWRkcmVzcyhpbnZvaWNlUGF5KSk7CiAgICAgICAgY29uc29sZS5sb2coIlBheWVlRGlyZWN0b3J5ICIsIGFkZHJlc3MoZGlyZWN0b3J5KSk7CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.24;
+
+import {Script, console} from "forge-std/Script.sol";
+import {IERC20} from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import {InvoicePay} from "../src/InvoicePay.sol";
+import {PayeeDirectory} from "../src/PayeeDirectory.sol";
+import {MockUSD8} from "../src/mocks/MockUSD8.sol";
+
+/// @notice Deploys InvoicePay + PayeeDirectory, following the same chain rules as Deploy.s.sol:
+///   - Aevum testnet and `make fork`: uses the real tUSD8.
+///   - `make anvil` (chain 31337) only: deploys MockUSD8 first and mints 1,000 to the deployer.
+///   - Anywhere else it stops, rather than deploy against a token anyone can mint.
+contract DeployOurs is Script {
+    address constant AEVUM_TUSD8 = 0x456569838f1d43009A91ebA4263147Afd7233483;
+    uint256 constant ANVIL_CHAIN = 31337;
+
+    function run() external returns (InvoicePay invoicePay, PayeeDirectory directory, address token) {
+        vm.startBroadcast();
+        (, address deployer,) = vm.readCallers();
+
+        if (AEVUM_TUSD8.code.length > 0) {
+            token = AEVUM_TUSD8;
+        } else {
+            require(block.chainid == ANVIL_CHAIN, "tUSD8 not found on this chain. Check the RPC (Aevum testnet is 44005).");
+            MockUSD8 mock = new MockUSD8();
+            mock.mint(deployer, 1_000e6);
+            token = address(mock);
+        }
+        invoicePay = new InvoicePay(IERC20(token));
+        directory = new PayeeDirectory();
+        vm.stopBroadcast();
+
+        console.log("chainId        ", block.chainid);
+        console.log("token          ", token);
+        console.log("InvoicePay     ", address(invoicePay));
+        console.log("PayeeDirectory ", address(directory));
+    }
+}
