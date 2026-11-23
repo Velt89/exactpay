@@ -1,1 +1,57 @@
-IyEvdXNyL2Jpbi9lbnYgbm9kZQovLyBGYWlscyBpZiBhbnkgY29udHJhY3QgY29tcGlsZWQgZnJvbSBjb250cmFjdHMvc3JjIHVzZXMgYW4gb3Bjb2RlIEFldnVtIChTaGFuZ2hhaSBFVk0pIGRvZXNuJ3QgaGF2ZS4KLy8gVXNhZ2U6IG5vZGUgdG9vbHMvY2hlY2stc2hhbmdoYWkubWpzIFtjb250cmFjdHMvb3V0XQppbXBvcnQgeyByZWFkZGlyU3luYywgcmVhZEZpbGVTeW5jLCBzdGF0U3luYyB9IGZyb20gIm5vZGU6ZnMiOwppbXBvcnQgeyBqb2luIH0gZnJvbSAibm9kZTpwYXRoIjsKCmNvbnN0IENBTkNVTl9PTkxZID0geyAweDQ5OiAiQkxPQkhBU0giLCAweDRhOiAiQkxPQkJBU0VGRUUiLCAweDVjOiAiVExPQUQiLCAweDVkOiAiVFNUT1JFIiwgMHg1ZTogIk1DT1BZIiB9Owpjb25zdCBvdXREaXIgPSBwcm9jZXNzLmFyZ3ZbMl0gPz8gImNvbnRyYWN0cy9vdXQiOwoKZnVuY3Rpb24qIGFydGlmYWN0cyhkaXIpIHsKICBmb3IgKGNvbnN0IG5hbWUgb2YgcmVhZGRpclN5bmMoZGlyKSkgewogICAgY29uc3QgcCA9IGpvaW4oZGlyLCBuYW1lKTsKICAgIGlmIChzdGF0U3luYyhwKS5pc0RpcmVjdG9yeSgpKSB5aWVsZCogYXJ0aWZhY3RzKHApOwogICAgZWxzZSBpZiAobmFtZS5lbmRzV2l0aCgiLmpzb24iKSkgeWllbGQgcDsKICB9Cn0KCi8vIFdhbGsgcmVhbCBpbnN0cnVjdGlvbnMsIHNraXBwaW5nIFBVU0ggZGF0YSBhbmQgdGhlIHRyYWlsaW5nIENCT1IgbWV0YWRhdGEuCmZ1bmN0aW9uIGZpbmRCYWQoaGV4KSB7CiAgY29uc3QgY29kZSA9IEJ1ZmZlci5mcm9tKGhleC5yZXBsYWNlKC9eMHgvLCAiIiksICJoZXgiKTsKICBpZiAoY29kZS5sZW5ndGggPT09IDApIHJldHVybiBbXTsKICBjb25zdCBtZXRhTGVuID0gY29kZS5sZW5ndGggPj0gMiA/IGNvZGUucmVhZFVJbnQxNkJFKGNvZGUubGVuZ3RoIC0gMikgKyAyIDogMDsKICBjb25zdCBlbmQgPSBtZXRhTGVuIDwgY29kZS5sZW5ndGggPyBjb2RlLmxlbmd0aCAtIG1ldGFMZW4gOiBjb2RlLmxlbmd0aDsKICBjb25zdCBiYWQgPSBbXTsKICBmb3IgKGxldCBpID0gMDsgaSA8IGVuZDsgaSsrKSB7CiAgICBjb25zdCBvcCA9IGNvZGVbaV07CiAgICBpZiAoQ0FOQ1VOX09OTFlbb3BdKSBiYWQucHVzaChgJHtDQU5DVU5fT05MWVtvcF19IGF0IGJ5dGUgJHtpfWApOwogICAgaWYgKG9wID49IDB4NjAgJiYgb3AgPD0gMHg3ZikgaSArPSBvcCAtIDB4NWY7CiAgfQogIHJldHVybiBiYWQ7Cn0KCmxldCBjaGVja2VkID0gMDsKbGV0IGZhaWxlZCA9IDA7CmZvciAoY29uc3QgZmlsZSBvZiBhcnRpZmFjdHMob3V0RGlyKSkgewogIGNvbnN0IGEgPSBKU09OLnBhcnNlKHJlYWRGaWxlU3luYyhmaWxlLCAidXRmOCIpKTsKICBjb25zdCBzb3VyY2UgPSBPYmplY3Qua2V5cyhhLm1ldGFkYXRhPy5zZXR0aW5ncz8uY29tcGlsYXRpb25UYXJnZXQgPz8ge30pWzBdID8/ICIiOwogIGlmICghc291cmNlLnN0YXJ0c1dpdGgoInNyYy8iKSkgY29udGludWU7IC8vIG9ubHkgb3VyIGNvbnRyYWN0cywgbm90IGZvcmdlLXN0ZC90ZXN0IGhlbHBlcnMKICBmb3IgKGNvbnN0IFtraW5kLCBoZXhdIG9mIFtbInJ1bnRpbWUiLCBhLmRlcGxveWVkQnl0ZWNvZGU/Lm9iamVjdF0sIFsiY3JlYXRpb24iLCBhLmJ5dGVjb2RlPy5vYmplY3RdXSkgewogICAgaWYgKCFoZXggfHwgaGV4ID09PSAiMHgiKSBjb250aW51ZTsKICAgIGNoZWNrZWQrKzsKICAgIGNvbnN0IGJhZCA9IGZpbmRCYWQoaGV4KTsKICAgIGlmIChiYWQubGVuZ3RoKSB7CiAgICAgIGZhaWxlZCsrOwogICAgICBjb25zb2xlLmVycm9yKGDinJcgJHtzb3VyY2V9ICgke2tpbmR9KTogJHtiYWQuam9pbigiLCAiKX1gKTsKICAgIH0KICB9Cn0KaWYgKGNoZWNrZWQgPT09IDApIHsKICBjb25zb2xlLmVycm9yKGBObyBhcnRpZmFjdHMgZnJvbSBzcmMvIGZvdW5kIGluICR7b3V0RGlyfS4gUnVuIFxgZm9yZ2UgYnVpbGRcYCBmaXJzdC5gKTsKICBwcm9jZXNzLmV4aXQoMSk7Cn0KaWYgKGZhaWxlZCkgewogIGNvbnNvbGUuZXJyb3IoIlxuVGhlc2Ugb3Bjb2RlcyBkb24ndCBleGlzdCBvbiBBZXZ1bS4gU2V0IGV2bV92ZXJzaW9uID0gXCJzaGFuZ2hhaVwiIGluIGZvdW5kcnkudG9tbC4iKTsKICBwcm9jZXNzLmV4aXQoMSk7Cn0KY29uc29sZS5sb2coYOKckyAke2NoZWNrZWR9IGJ5dGVjb2RlIGJsb2JzIGNoZWNrZWQ6IFNoYW5naGFpLXNhZmUuYCk7Cg==
+#!/usr/bin/env node
+// Fails if any contract compiled from contracts/src uses an opcode Aevum (Shanghai EVM) doesn't have.
+// Usage: node tools/check-shanghai.mjs [contracts/out]
+import { readdirSync, readFileSync, statSync } from "node:fs";
+import { join } from "node:path";
+
+const CANCUN_ONLY = { 0x49: "BLOBHASH", 0x4a: "BLOBBASEFEE", 0x5c: "TLOAD", 0x5d: "TSTORE", 0x5e: "MCOPY" };
+const outDir = process.argv[2] ?? "contracts/out";
+
+function* artifacts(dir) {
+  for (const name of readdirSync(dir)) {
+    const p = join(dir, name);
+    if (statSync(p).isDirectory()) yield* artifacts(p);
+    else if (name.endsWith(".json")) yield p;
+  }
+}
+
+// Walk real instructions, skipping PUSH data and the trailing CBOR metadata.
+function findBad(hex) {
+  const code = Buffer.from(hex.replace(/^0x/, ""), "hex");
+  if (code.length === 0) return [];
+  const metaLen = code.length >= 2 ? code.readUInt16BE(code.length - 2) + 2 : 0;
+  const end = metaLen < code.length ? code.length - metaLen : code.length;
+  const bad = [];
+  for (let i = 0; i < end; i++) {
+    const op = code[i];
+    if (CANCUN_ONLY[op]) bad.push(`${CANCUN_ONLY[op]} at byte ${i}`);
+    if (op >= 0x60 && op <= 0x7f) i += op - 0x5f;
+  }
+  return bad;
+}
+
+let checked = 0;
+let failed = 0;
+for (const file of artifacts(outDir)) {
+  const a = JSON.parse(readFileSync(file, "utf8"));
+  const source = Object.keys(a.metadata?.settings?.compilationTarget ?? {})[0] ?? "";
+  if (!source.startsWith("src/")) continue; // only our contracts, not forge-std/test helpers
+  for (const [kind, hex] of [["runtime", a.deployedBytecode?.object], ["creation", a.bytecode?.object]]) {
+    if (!hex || hex === "0x") continue;
+    checked++;
+    const bad = findBad(hex);
+    if (bad.length) {
+      failed++;
+      console.error(`✗ ${source} (${kind}): ${bad.join(", ")}`);
+    }
+  }
+}
+if (checked === 0) {
+  console.error(`No artifacts from src/ found in ${outDir}. Run \`forge build\` first.`);
+  process.exit(1);
+}
+if (failed) {
+  console.error("\nThese opcodes don't exist on Aevum. Set evm_version = \"shanghai\" in foundry.toml.");
+  process.exit(1);
+}
+console.log(`✓ ${checked} bytecode blobs checked: Shanghai-safe.`);
