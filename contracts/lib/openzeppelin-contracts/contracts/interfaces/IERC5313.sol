@@ -1,1 +1,16 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMC4wKSAoaW50ZXJmYWNlcy9JRVJDNTMxMy5zb2wpCgpwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCi8qKgogKiBAZGV2IEludGVyZmFjZSBmb3IgdGhlIExpZ2h0IENvbnRyYWN0IE93bmVyc2hpcCBTdGFuZGFyZC4KICoKICogQSBzdGFuZGFyZGl6ZWQgbWluaW1hbCBpbnRlcmZhY2UgcmVxdWlyZWQgdG8gaWRlbnRpZnkgYW4gYWNjb3VudCB0aGF0IGNvbnRyb2xzIGEgY29udHJhY3QKICovCmludGVyZmFjZSBJRVJDNTMxMyB7CiAgICAvKioKICAgICAqIEBkZXYgR2V0cyB0aGUgYWRkcmVzcyBvZiB0aGUgb3duZXIuCiAgICAgKi8KICAgIGZ1bmN0aW9uIG93bmVyKCkgZXh0ZXJuYWwgdmlldyByZXR1cm5zIChhZGRyZXNzKTsKfQo=
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.0.0) (interfaces/IERC5313.sol)
+
+pragma solidity ^0.8.20;
+
+/**
+ * @dev Interface for the Light Contract Ownership Standard.
+ *
+ * A standardized minimal interface required to identify an account that controls a contract
+ */
+interface IERC5313 {
+    /**
+     * @dev Gets the address of the owner.
+     */
+    function owner() external view returns (address);
+}
