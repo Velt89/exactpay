@@ -1,1 +1,52 @@
-Y29uc3QgeyBtYXBWYWx1ZXMgfSA9IHJlcXVpcmUoJy4vaXRlcmF0ZScpOwoKY29uc3QgZm9ybWF0VHlwZSA9IHNjaGVtYSA9PiBPYmplY3QuZW50cmllcyhzY2hlbWEpLm1hcCgoW25hbWUsIHR5cGVdKSA9PiAoeyBuYW1lLCB0eXBlIH0pKTsKCm1vZHVsZS5leHBvcnRzID0gbWFwVmFsdWVzKAogIHsKICAgIEVJUDcxMkRvbWFpbjogewogICAgICBuYW1lOiAnc3RyaW5nJywKICAgICAgdmVyc2lvbjogJ3N0cmluZycsCiAgICAgIGNoYWluSWQ6ICd1aW50MjU2JywKICAgICAgdmVyaWZ5aW5nQ29udHJhY3Q6ICdhZGRyZXNzJywKICAgICAgc2FsdDogJ2J5dGVzMzInLAogICAgfSwKICAgIFBlcm1pdDogewogICAgICBvd25lcjogJ2FkZHJlc3MnLAogICAgICBzcGVuZGVyOiAnYWRkcmVzcycsCiAgICAgIHZhbHVlOiAndWludDI1NicsCiAgICAgIG5vbmNlOiAndWludDI1NicsCiAgICAgIGRlYWRsaW5lOiAndWludDI1NicsCiAgICB9LAogICAgQmFsbG90OiB7CiAgICAgIHByb3Bvc2FsSWQ6ICd1aW50MjU2JywKICAgICAgc3VwcG9ydDogJ3VpbnQ4JywKICAgICAgdm90ZXI6ICdhZGRyZXNzJywKICAgICAgbm9uY2U6ICd1aW50MjU2JywKICAgIH0sCiAgICBFeHRlbmRlZEJhbGxvdDogewogICAgICBwcm9wb3NhbElkOiAndWludDI1NicsCiAgICAgIHN1cHBvcnQ6ICd1aW50OCcsCiAgICAgIHZvdGVyOiAnYWRkcmVzcycsCiAgICAgIG5vbmNlOiAndWludDI1NicsCiAgICAgIHJlYXNvbjogJ3N0cmluZycsCiAgICAgIHBhcmFtczogJ2J5dGVzJywKICAgIH0sCiAgICBEZWxlZ2F0aW9uOiB7CiAgICAgIGRlbGVnYXRlZTogJ2FkZHJlc3MnLAogICAgICBub25jZTogJ3VpbnQyNTYnLAogICAgICBleHBpcnk6ICd1aW50MjU2JywKICAgIH0sCiAgICBGb3J3YXJkUmVxdWVzdDogewogICAgICBmcm9tOiAnYWRkcmVzcycsCiAgICAgIHRvOiAnYWRkcmVzcycsCiAgICAgIHZhbHVlOiAndWludDI1NicsCiAgICAgIGdhczogJ3VpbnQyNTYnLAogICAgICBub25jZTogJ3VpbnQyNTYnLAogICAgICBkZWFkbGluZTogJ3VpbnQ0OCcsCiAgICAgIGRhdGE6ICdieXRlcycsCiAgICB9LAogIH0sCiAgZm9ybWF0VHlwZSwKKTsKbW9kdWxlLmV4cG9ydHMuZm9ybWF0VHlwZSA9IGZvcm1hdFR5cGU7Cg==
+const { mapValues } = require('./iterate');
+
+const formatType = schema => Object.entries(schema).map(([name, type]) => ({ name, type }));
+
+module.exports = mapValues(
+  {
+    EIP712Domain: {
+      name: 'string',
+      version: 'string',
+      chainId: 'uint256',
+      verifyingContract: 'address',
+      salt: 'bytes32',
+    },
+    Permit: {
+      owner: 'address',
+      spender: 'address',
+      value: 'uint256',
+      nonce: 'uint256',
+      deadline: 'uint256',
+    },
+    Ballot: {
+      proposalId: 'uint256',
+      support: 'uint8',
+      voter: 'address',
+      nonce: 'uint256',
+    },
+    ExtendedBallot: {
+      proposalId: 'uint256',
+      support: 'uint8',
+      voter: 'address',
+      nonce: 'uint256',
+      reason: 'string',
+      params: 'bytes',
+    },
+    Delegation: {
+      delegatee: 'address',
+      nonce: 'uint256',
+      expiry: 'uint256',
+    },
+    ForwardRequest: {
+      from: 'address',
+      to: 'address',
+      value: 'uint256',
+      gas: 'uint256',
+      nonce: 'uint256',
+      deadline: 'uint48',
+      data: 'bytes',
+    },
+  },
+  formatType,
+);
+module.exports.formatType = formatType;
