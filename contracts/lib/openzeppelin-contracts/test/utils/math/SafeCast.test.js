@@ -1,1 +1,159 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKY29uc3QgeyByYW5nZSB9ID0gcmVxdWlyZSgnLi4vLi4vaGVscGVycy9pdGVyYXRlJyk7Cgphc3luYyBmdW5jdGlvbiBmaXh0dXJlKCkgewogIGNvbnN0IG1vY2sgPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJyRTYWZlQ2FzdCcpOwogIHJldHVybiB7IG1vY2sgfTsKfQoKZGVzY3JpYmUoJ1NhZmVDYXN0JywgZnVuY3Rpb24gKCkgewogIGJlZm9yZUVhY2goYXN5bmMgZnVuY3Rpb24gKCkgewogICAgT2JqZWN0LmFzc2lnbih0aGlzLCBhd2FpdCBsb2FkRml4dHVyZShmaXh0dXJlKSk7CiAgfSk7CgogIGZvciAoY29uc3QgYml0cyBvZiByYW5nZSg4LCAyNTYsIDgpLm1hcChldGhlcnMudG9CaWdJbnQpKSB7CiAgICBjb25zdCBtYXhWYWx1ZSA9IDJuICoqIGJpdHMgLSAxbjsKCiAgICBkZXNjcmliZShgdG9VaW50JHtiaXRzfWAsICgpID0+IHsKICAgICAgaXQoJ2Rvd25jYXN0cyAwJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2tbYCR0b1VpbnQke2JpdHN9YF0oMG4pKS5pcy5lcXVhbCgwbik7CiAgICAgIH0pOwoKICAgICAgaXQoJ2Rvd25jYXN0cyAxJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2tbYCR0b1VpbnQke2JpdHN9YF0oMW4pKS5pcy5lcXVhbCgxbik7CiAgICAgIH0pOwoKICAgICAgaXQoYGRvd25jYXN0cyAyXiR7Yml0c30gLSAxICgke21heFZhbHVlfSlgLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9ja1tgJHRvVWludCR7Yml0c31gXShtYXhWYWx1ZSkpLmlzLmVxdWFsKG1heFZhbHVlKTsKICAgICAgfSk7CgogICAgICBpdChgcmV2ZXJ0cyB3aGVuIGRvd25jYXN0aW5nIDJeJHtiaXRzfSAoJHttYXhWYWx1ZSArIDFufSlgLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMubW9ja1tgJHRvVWludCR7Yml0c31gXShtYXhWYWx1ZSArIDFuKSkKICAgICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLm1vY2ssICdTYWZlQ2FzdE92ZXJmbG93ZWRVaW50RG93bmNhc3QnKQogICAgICAgICAgLndpdGhBcmdzKGJpdHMsIG1heFZhbHVlICsgMW4pOwogICAgICB9KTsKCiAgICAgIGl0KGByZXZlcnRzIHdoZW4gZG93bmNhc3RpbmcgMl4ke2JpdHN9ICsgMSAoJHttYXhWYWx1ZSArIDJufSlgLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMubW9ja1tgJHRvVWludCR7Yml0c31gXShtYXhWYWx1ZSArIDJuKSkKICAgICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLm1vY2ssICdTYWZlQ2FzdE92ZXJmbG93ZWRVaW50RG93bmNhc3QnKQogICAgICAgICAgLndpdGhBcmdzKGJpdHMsIG1heFZhbHVlICsgMm4pOwogICAgICB9KTsKICAgIH0pOwogIH0KCiAgZGVzY3JpYmUoJ3RvVWludDI1NicsICgpID0+IHsKICAgIGl0KCdjYXN0cyAwJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiR0b1VpbnQyNTYoMG4pKS5pcy5lcXVhbCgwbik7CiAgICB9KTsKCiAgICBpdCgnY2FzdHMgMScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kdG9VaW50MjU2KDFuKSkuaXMuZXF1YWwoMW4pOwogICAgfSk7CgogICAgaXQoYGNhc3RzIElOVDI1Nl9NQVggKCR7ZXRoZXJzLk1heEludDI1Nn0pYCwgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiR0b1VpbnQyNTYoZXRoZXJzLk1heEludDI1NikpLmlzLmVxdWFsKGV0aGVycy5NYXhJbnQyNTYpOwogICAgfSk7CgogICAgaXQoJ3JldmVydHMgd2hlbiBjYXN0aW5nIC0xJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCBleHBlY3QodGhpcy5tb2NrLiR0b1VpbnQyNTYoLTFuKSkKICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy5tb2NrLCAnU2FmZUNhc3RPdmVyZmxvd2VkSW50VG9VaW50JykKICAgICAgICAud2l0aEFyZ3MoLTFuKTsKICAgIH0pOwoKICAgIGl0KGByZXZlcnRzIHdoZW4gY2FzdGluZyBJTlQyNTZfTUlOICgke2V0aGVycy5NaW5JbnQyNTZ9KWAsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMubW9jay4kdG9VaW50MjU2KGV0aGVycy5NaW5JbnQyNTYpKQogICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLm1vY2ssICdTYWZlQ2FzdE92ZXJmbG93ZWRJbnRUb1VpbnQnKQogICAgICAgIC53aXRoQXJncyhldGhlcnMuTWluSW50MjU2KTsKICAgIH0pOwogIH0pOwoKICBmb3IgKGNvbnN0IGJpdHMgb2YgcmFuZ2UoOCwgMjU2LCA4KS5tYXAoZXRoZXJzLnRvQmlnSW50KSkgewogICAgY29uc3QgbWluVmFsdWUgPSAtKDJuICoqIChiaXRzIC0gMW4pKTsKICAgIGNvbnN0IG1heFZhbHVlID0gMm4gKiogKGJpdHMgLSAxbikgLSAxbjsKCiAgICBkZXNjcmliZShgdG9JbnQke2JpdHN9YCwgKCkgPT4gewogICAgICBpdCgnZG93bmNhc3RzIDAnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9ja1tgJHRvSW50JHtiaXRzfWBdKDBuKSkuaXMuZXF1YWwoMG4pOwogICAgICB9KTsKCiAgICAgIGl0KCdkb3duY2FzdHMgMScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrW2AkdG9JbnQke2JpdHN9YF0oMW4pKS5pcy5lcXVhbCgxbik7CiAgICAgIH0pOwoKICAgICAgaXQoJ2Rvd25jYXN0cyAtMScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrW2AkdG9JbnQke2JpdHN9YF0oLTFuKSkuaXMuZXF1YWwoLTFuKTsKICAgICAgfSk7CgogICAgICBpdChgZG93bmNhc3RzIC0yXiR7Yml0cyAtIDFufSAoJHttaW5WYWx1ZX0pYCwgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2tbYCR0b0ludCR7Yml0c31gXShtaW5WYWx1ZSkpLmlzLmVxdWFsKG1pblZhbHVlKTsKICAgICAgfSk7CgogICAgICBpdChgZG93bmNhc3RzIDJeJHtiaXRzIC0gMW59IC0gMSAoJHttYXhWYWx1ZX0pYCwgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2tbYCR0b0ludCR7Yml0c31gXShtYXhWYWx1ZSkpLmlzLmVxdWFsKG1heFZhbHVlKTsKICAgICAgfSk7CgogICAgICBpdChgcmV2ZXJ0cyB3aGVuIGRvd25jYXN0aW5nIC0yXiR7Yml0cyAtIDFufSAtIDEgKCR7bWluVmFsdWUgLSAxbn0pYCwgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1vY2tbYCR0b0ludCR7Yml0c31gXShtaW5WYWx1ZSAtIDFuKSkKICAgICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLm1vY2ssICdTYWZlQ2FzdE92ZXJmbG93ZWRJbnREb3duY2FzdCcpCiAgICAgICAgICAud2l0aEFyZ3MoYml0cywgbWluVmFsdWUgLSAxbik7CiAgICAgIH0pOwoKICAgICAgaXQoYHJldmVydHMgd2hlbiBkb3duY2FzdGluZyAtMl4ke2JpdHMgLSAxbn0gLSAyICgke21pblZhbHVlIC0gMm59KWAsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBhd2FpdCBleHBlY3QodGhpcy5tb2NrW2AkdG9JbnQke2JpdHN9YF0obWluVmFsdWUgLSAybikpCiAgICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy5tb2NrLCAnU2FmZUNhc3RPdmVyZmxvd2VkSW50RG93bmNhc3QnKQogICAgICAgICAgLndpdGhBcmdzKGJpdHMsIG1pblZhbHVlIC0gMm4pOwogICAgICB9KTsKCiAgICAgIGl0KGByZXZlcnRzIHdoZW4gZG93bmNhc3RpbmcgMl4ke2JpdHMgLSAxbn0gKCR7bWF4VmFsdWUgKyAxbn0pYCwgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1vY2tbYCR0b0ludCR7Yml0c31gXShtYXhWYWx1ZSArIDFuKSkKICAgICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLm1vY2ssICdTYWZlQ2FzdE92ZXJmbG93ZWRJbnREb3duY2FzdCcpCiAgICAgICAgICAud2l0aEFyZ3MoYml0cywgbWF4VmFsdWUgKyAxbik7CiAgICAgIH0pOwoKICAgICAgaXQoYHJldmVydHMgd2hlbiBkb3duY2FzdGluZyAyXiR7Yml0cyAtIDFufSArIDEgKCR7bWF4VmFsdWUgKyAybn0pYCwgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1vY2tbYCR0b0ludCR7Yml0c31gXShtYXhWYWx1ZSArIDJuKSkKICAgICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLm1vY2ssICdTYWZlQ2FzdE92ZXJmbG93ZWRJbnREb3duY2FzdCcpCiAgICAgICAgICAud2l0aEFyZ3MoYml0cywgbWF4VmFsdWUgKyAybik7CiAgICAgIH0pOwogICAgfSk7CiAgfQoKICBkZXNjcmliZSgndG9JbnQyNTYnLCAoKSA9PiB7CiAgICBpdCgnY2FzdHMgMCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kdG9JbnQyNTYoMCkpLmlzLmVxdWFsKDBuKTsKICAgIH0pOwoKICAgIGl0KCdjYXN0cyAxJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiR0b0ludDI1NigxKSkuaXMuZXF1YWwoMW4pOwogICAgfSk7CgogICAgaXQoYGNhc3RzIElOVDI1Nl9NQVggKCR7ZXRoZXJzLk1heEludDI1Nn0pYCwgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiR0b0ludDI1NihldGhlcnMuTWF4SW50MjU2KSkuaXMuZXF1YWwoZXRoZXJzLk1heEludDI1Nik7CiAgICB9KTsKCiAgICBpdChgcmV2ZXJ0cyB3aGVuIGNhc3RpbmcgSU5UMjU2X01BWCArIDEgKCR7ZXRoZXJzLk1heEludDI1NiArIDFufSlgLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1vY2suJHRvSW50MjU2KGV0aGVycy5NYXhJbnQyNTYgKyAxbikpCiAgICAgICAgLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMubW9jaywgJ1NhZmVDYXN0T3ZlcmZsb3dlZFVpbnRUb0ludCcpCiAgICAgICAgLndpdGhBcmdzKGV0aGVycy5NYXhJbnQyNTYgKyAxbik7CiAgICB9KTsKCiAgICBpdChgcmV2ZXJ0cyB3aGVuIGNhc3RpbmcgVUlOVDI1Nl9NQVggKCR7ZXRoZXJzLk1heFVpbnQyNTZ9KWAsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMubW9jay4kdG9JbnQyNTYoZXRoZXJzLk1heFVpbnQyNTYpKQogICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLm1vY2ssICdTYWZlQ2FzdE92ZXJmbG93ZWRVaW50VG9JbnQnKQogICAgICAgIC53aXRoQXJncyhldGhlcnMuTWF4VWludDI1Nik7CiAgICB9KTsKICB9KTsKCiAgZGVzY3JpYmUoJ3RvVWludCAoYm9vbCknLCBmdW5jdGlvbiAoKSB7CiAgICBpdCgndG9VaW50KGZhbHNlKSBzaG91bGQgYmUgMCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kdG9VaW50KGZhbHNlKSkudG8uZXF1YWwoMG4pOwogICAgfSk7CgogICAgaXQoJ3RvVWludCh0cnVlKSBzaG91bGQgYmUgMScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kdG9VaW50KHRydWUpKS50by5lcXVhbCgxbik7CiAgICB9KTsKICB9KTsKfSk7Cg==
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+const { range } = require('../../helpers/iterate');
+
+async function fixture() {
+  const mock = await ethers.deployContract('$SafeCast');
+  return { mock };
+}
+
+describe('SafeCast', function () {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  for (const bits of range(8, 256, 8).map(ethers.toBigInt)) {
+    const maxValue = 2n ** bits - 1n;
+
+    describe(`toUint${bits}`, () => {
+      it('downcasts 0', async function () {
+        expect(await this.mock[`$toUint${bits}`](0n)).is.equal(0n);
+      });
+
+      it('downcasts 1', async function () {
+        expect(await this.mock[`$toUint${bits}`](1n)).is.equal(1n);
+      });
+
+      it(`downcasts 2^${bits} - 1 (${maxValue})`, async function () {
+        expect(await this.mock[`$toUint${bits}`](maxValue)).is.equal(maxValue);
+      });
+
+      it(`reverts when downcasting 2^${bits} (${maxValue + 1n})`, async function () {
+        await expect(this.mock[`$toUint${bits}`](maxValue + 1n))
+          .to.be.revertedWithCustomError(this.mock, 'SafeCastOverflowedUintDowncast')
+          .withArgs(bits, maxValue + 1n);
+      });
+
+      it(`reverts when downcasting 2^${bits} + 1 (${maxValue + 2n})`, async function () {
+        await expect(this.mock[`$toUint${bits}`](maxValue + 2n))
+          .to.be.revertedWithCustomError(this.mock, 'SafeCastOverflowedUintDowncast')
+          .withArgs(bits, maxValue + 2n);
+      });
+    });
+  }
+
+  describe('toUint256', () => {
+    it('casts 0', async function () {
+      expect(await this.mock.$toUint256(0n)).is.equal(0n);
+    });
+
+    it('casts 1', async function () {
+      expect(await this.mock.$toUint256(1n)).is.equal(1n);
+    });
+
+    it(`casts INT256_MAX (${ethers.MaxInt256})`, async function () {
+      expect(await this.mock.$toUint256(ethers.MaxInt256)).is.equal(ethers.MaxInt256);
+    });
+
+    it('reverts when casting -1', async function () {
+      await expect(this.mock.$toUint256(-1n))
+        .to.be.revertedWithCustomError(this.mock, 'SafeCastOverflowedIntToUint')
+        .withArgs(-1n);
+    });
+
+    it(`reverts when casting INT256_MIN (${ethers.MinInt256})`, async function () {
+      await expect(this.mock.$toUint256(ethers.MinInt256))
+        .to.be.revertedWithCustomError(this.mock, 'SafeCastOverflowedIntToUint')
+        .withArgs(ethers.MinInt256);
+    });
+  });
+
+  for (const bits of range(8, 256, 8).map(ethers.toBigInt)) {
+    const minValue = -(2n ** (bits - 1n));
+    const maxValue = 2n ** (bits - 1n) - 1n;
+
+    describe(`toInt${bits}`, () => {
+      it('downcasts 0', async function () {
+        expect(await this.mock[`$toInt${bits}`](0n)).is.equal(0n);
+      });
+
+      it('downcasts 1', async function () {
+        expect(await this.mock[`$toInt${bits}`](1n)).is.equal(1n);
+      });
+
+      it('downcasts -1', async function () {
+        expect(await this.mock[`$toInt${bits}`](-1n)).is.equal(-1n);
+      });
+
+      it(`downcasts -2^${bits - 1n} (${minValue})`, async function () {
+        expect(await this.mock[`$toInt${bits}`](minValue)).is.equal(minValue);
+      });
+
+      it(`downcasts 2^${bits - 1n} - 1 (${maxValue})`, async function () {
+        expect(await this.mock[`$toInt${bits}`](maxValue)).is.equal(maxValue);
+      });
+
+      it(`reverts when downcasting -2^${bits - 1n} - 1 (${minValue - 1n})`, async function () {
+        await expect(this.mock[`$toInt${bits}`](minValue - 1n))
+          .to.be.revertedWithCustomError(this.mock, 'SafeCastOverflowedIntDowncast')
+          .withArgs(bits, minValue - 1n);
+      });
+
+      it(`reverts when downcasting -2^${bits - 1n} - 2 (${minValue - 2n})`, async function () {
+        await expect(this.mock[`$toInt${bits}`](minValue - 2n))
+          .to.be.revertedWithCustomError(this.mock, 'SafeCastOverflowedIntDowncast')
+          .withArgs(bits, minValue - 2n);
+      });
+
+      it(`reverts when downcasting 2^${bits - 1n} (${maxValue + 1n})`, async function () {
+        await expect(this.mock[`$toInt${bits}`](maxValue + 1n))
+          .to.be.revertedWithCustomError(this.mock, 'SafeCastOverflowedIntDowncast')
+          .withArgs(bits, maxValue + 1n);
+      });
+
+      it(`reverts when downcasting 2^${bits - 1n} + 1 (${maxValue + 2n})`, async function () {
+        await expect(this.mock[`$toInt${bits}`](maxValue + 2n))
+          .to.be.revertedWithCustomError(this.mock, 'SafeCastOverflowedIntDowncast')
+          .withArgs(bits, maxValue + 2n);
+      });
+    });
+  }
+
+  describe('toInt256', () => {
+    it('casts 0', async function () {
+      expect(await this.mock.$toInt256(0)).is.equal(0n);
+    });
+
+    it('casts 1', async function () {
+      expect(await this.mock.$toInt256(1)).is.equal(1n);
+    });
+
+    it(`casts INT256_MAX (${ethers.MaxInt256})`, async function () {
+      expect(await this.mock.$toInt256(ethers.MaxInt256)).is.equal(ethers.MaxInt256);
+    });
+
+    it(`reverts when casting INT256_MAX + 1 (${ethers.MaxInt256 + 1n})`, async function () {
+      await expect(this.mock.$toInt256(ethers.MaxInt256 + 1n))
+        .to.be.revertedWithCustomError(this.mock, 'SafeCastOverflowedUintToInt')
+        .withArgs(ethers.MaxInt256 + 1n);
+    });
+
+    it(`reverts when casting UINT256_MAX (${ethers.MaxUint256})`, async function () {
+      await expect(this.mock.$toInt256(ethers.MaxUint256))
+        .to.be.revertedWithCustomError(this.mock, 'SafeCastOverflowedUintToInt')
+        .withArgs(ethers.MaxUint256);
+    });
+  });
+
+  describe('toUint (bool)', function () {
+    it('toUint(false) should be 0', async function () {
+      expect(await this.mock.$toUint(false)).to.equal(0n);
+    });
+
+    it('toUint(true) should be 1', async function () {
+      expect(await this.mock.$toUint(true)).to.equal(1n);
+    });
+  });
+});
