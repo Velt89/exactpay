@@ -1,1 +1,69 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0lHb3Zlcm5vciwgR292ZXJub3J9IGZyb20gIi4uLy4uL2dvdmVybmFuY2UvR292ZXJub3Iuc29sIjsKaW1wb3J0IHtHb3Zlcm5vclRpbWVsb2NrQ29udHJvbH0gZnJvbSAiLi4vLi4vZ292ZXJuYW5jZS9leHRlbnNpb25zL0dvdmVybm9yVGltZWxvY2tDb250cm9sLnNvbCI7CmltcG9ydCB7R292ZXJub3JTZXR0aW5nc30gZnJvbSAiLi4vLi4vZ292ZXJuYW5jZS9leHRlbnNpb25zL0dvdmVybm9yU2V0dGluZ3Muc29sIjsKaW1wb3J0IHtHb3Zlcm5vckNvdW50aW5nU2ltcGxlfSBmcm9tICIuLi8uLi9nb3Zlcm5hbmNlL2V4dGVuc2lvbnMvR292ZXJub3JDb3VudGluZ1NpbXBsZS5zb2wiOwppbXBvcnQge0dvdmVybm9yVm90ZXNRdW9ydW1GcmFjdGlvbn0gZnJvbSAiLi4vLi4vZ292ZXJuYW5jZS9leHRlbnNpb25zL0dvdmVybm9yVm90ZXNRdW9ydW1GcmFjdGlvbi5zb2wiOwoKYWJzdHJhY3QgY29udHJhY3QgR292ZXJub3JUaW1lbG9ja0NvbnRyb2xNb2NrIGlzCiAgICBHb3Zlcm5vclNldHRpbmdzLAogICAgR292ZXJub3JUaW1lbG9ja0NvbnRyb2wsCiAgICBHb3Zlcm5vclZvdGVzUXVvcnVtRnJhY3Rpb24sCiAgICBHb3Zlcm5vckNvdW50aW5nU2ltcGxlCnsKICAgIGZ1bmN0aW9uIHF1b3J1bSh1aW50MjU2IGJsb2NrTnVtYmVyKSBwdWJsaWMgdmlldyBvdmVycmlkZShHb3Zlcm5vciwgR292ZXJub3JWb3Rlc1F1b3J1bUZyYWN0aW9uKSByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgcmV0dXJuIHN1cGVyLnF1b3J1bShibG9ja051bWJlcik7CiAgICB9CgogICAgZnVuY3Rpb24gc3RhdGUodWludDI1NiBwcm9wb3NhbElkKSBwdWJsaWMgdmlldyBvdmVycmlkZShHb3Zlcm5vciwgR292ZXJub3JUaW1lbG9ja0NvbnRyb2wpIHJldHVybnMgKFByb3Bvc2FsU3RhdGUpIHsKICAgICAgICByZXR1cm4gc3VwZXIuc3RhdGUocHJvcG9zYWxJZCk7CiAgICB9CgogICAgZnVuY3Rpb24gcHJvcG9zYWxUaHJlc2hvbGQoKSBwdWJsaWMgdmlldyBvdmVycmlkZShHb3Zlcm5vciwgR292ZXJub3JTZXR0aW5ncykgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHJldHVybiBzdXBlci5wcm9wb3NhbFRocmVzaG9sZCgpOwogICAgfQoKICAgIGZ1bmN0aW9uIHByb3Bvc2FsTmVlZHNRdWV1aW5nKAogICAgICAgIHVpbnQyNTYgcHJvcG9zYWxJZAogICAgKSBwdWJsaWMgdmlldyB2aXJ0dWFsIG92ZXJyaWRlKEdvdmVybm9yLCBHb3Zlcm5vclRpbWVsb2NrQ29udHJvbCkgcmV0dXJucyAoYm9vbCkgewogICAgICAgIHJldHVybiBzdXBlci5wcm9wb3NhbE5lZWRzUXVldWluZyhwcm9wb3NhbElkKTsKICAgIH0KCiAgICBmdW5jdGlvbiBfcXVldWVPcGVyYXRpb25zKAogICAgICAgIHVpbnQyNTYgcHJvcG9zYWxJZCwKICAgICAgICBhZGRyZXNzW10gbWVtb3J5IHRhcmdldHMsCiAgICAgICAgdWludDI1NltdIG1lbW9yeSB2YWx1ZXMsCiAgICAgICAgYnl0ZXNbXSBtZW1vcnkgY2FsbGRhdGFzLAogICAgICAgIGJ5dGVzMzIgZGVzY3JpcHRpb25IYXNoCiAgICApIGludGVybmFsIG92ZXJyaWRlKEdvdmVybm9yLCBHb3Zlcm5vclRpbWVsb2NrQ29udHJvbCkgcmV0dXJucyAodWludDQ4KSB7CiAgICAgICAgcmV0dXJuIHN1cGVyLl9xdWV1ZU9wZXJhdGlvbnMocHJvcG9zYWxJZCwgdGFyZ2V0cywgdmFsdWVzLCBjYWxsZGF0YXMsIGRlc2NyaXB0aW9uSGFzaCk7CiAgICB9CgogICAgZnVuY3Rpb24gX2V4ZWN1dGVPcGVyYXRpb25zKAogICAgICAgIHVpbnQyNTYgcHJvcG9zYWxJZCwKICAgICAgICBhZGRyZXNzW10gbWVtb3J5IHRhcmdldHMsCiAgICAgICAgdWludDI1NltdIG1lbW9yeSB2YWx1ZXMsCiAgICAgICAgYnl0ZXNbXSBtZW1vcnkgY2FsbGRhdGFzLAogICAgICAgIGJ5dGVzMzIgZGVzY3JpcHRpb25IYXNoCiAgICApIGludGVybmFsIG92ZXJyaWRlKEdvdmVybm9yLCBHb3Zlcm5vclRpbWVsb2NrQ29udHJvbCkgewogICAgICAgIHN1cGVyLl9leGVjdXRlT3BlcmF0aW9ucyhwcm9wb3NhbElkLCB0YXJnZXRzLCB2YWx1ZXMsIGNhbGxkYXRhcywgZGVzY3JpcHRpb25IYXNoKTsKICAgIH0KCiAgICBmdW5jdGlvbiBfY2FuY2VsKAogICAgICAgIGFkZHJlc3NbXSBtZW1vcnkgdGFyZ2V0cywKICAgICAgICB1aW50MjU2W10gbWVtb3J5IHZhbHVlcywKICAgICAgICBieXRlc1tdIG1lbW9yeSBjYWxsZGF0YXMsCiAgICAgICAgYnl0ZXMzMiBkZXNjcmlwdGlvbkhhc2gKICAgICkgaW50ZXJuYWwgb3ZlcnJpZGUoR292ZXJub3IsIEdvdmVybm9yVGltZWxvY2tDb250cm9sKSByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgcmV0dXJuIHN1cGVyLl9jYW5jZWwodGFyZ2V0cywgdmFsdWVzLCBjYWxsZGF0YXMsIGRlc2NyaXB0aW9uSGFzaCk7CiAgICB9CgogICAgZnVuY3Rpb24gX2V4ZWN1dG9yKCkgaW50ZXJuYWwgdmlldyBvdmVycmlkZShHb3Zlcm5vciwgR292ZXJub3JUaW1lbG9ja0NvbnRyb2wpIHJldHVybnMgKGFkZHJlc3MpIHsKICAgICAgICByZXR1cm4gc3VwZXIuX2V4ZWN1dG9yKCk7CiAgICB9CgogICAgZnVuY3Rpb24gbm9uR292ZXJuYW5jZUZ1bmN0aW9uKCkgZXh0ZXJuYWwge30KfQo=
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {IGovernor, Governor} from "../../governance/Governor.sol";
+import {GovernorTimelockControl} from "../../governance/extensions/GovernorTimelockControl.sol";
+import {GovernorSettings} from "../../governance/extensions/GovernorSettings.sol";
+import {GovernorCountingSimple} from "../../governance/extensions/GovernorCountingSimple.sol";
+import {GovernorVotesQuorumFraction} from "../../governance/extensions/GovernorVotesQuorumFraction.sol";
+
+abstract contract GovernorTimelockControlMock is
+    GovernorSettings,
+    GovernorTimelockControl,
+    GovernorVotesQuorumFraction,
+    GovernorCountingSimple
+{
+    function quorum(uint256 blockNumber) public view override(Governor, GovernorVotesQuorumFraction) returns (uint256) {
+        return super.quorum(blockNumber);
+    }
+
+    function state(uint256 proposalId) public view override(Governor, GovernorTimelockControl) returns (ProposalState) {
+        return super.state(proposalId);
+    }
+
+    function proposalThreshold() public view override(Governor, GovernorSettings) returns (uint256) {
+        return super.proposalThreshold();
+    }
+
+    function proposalNeedsQueuing(
+        uint256 proposalId
+    ) public view virtual override(Governor, GovernorTimelockControl) returns (bool) {
+        return super.proposalNeedsQueuing(proposalId);
+    }
+
+    function _queueOperations(
+        uint256 proposalId,
+        address[] memory targets,
+        uint256[] memory values,
+        bytes[] memory calldatas,
+        bytes32 descriptionHash
+    ) internal override(Governor, GovernorTimelockControl) returns (uint48) {
+        return super._queueOperations(proposalId, targets, values, calldatas, descriptionHash);
+    }
+
+    function _executeOperations(
+        uint256 proposalId,
+        address[] memory targets,
+        uint256[] memory values,
+        bytes[] memory calldatas,
+        bytes32 descriptionHash
+    ) internal override(Governor, GovernorTimelockControl) {
+        super._executeOperations(proposalId, targets, values, calldatas, descriptionHash);
+    }
+
+    function _cancel(
+        address[] memory targets,
+        uint256[] memory values,
+        bytes[] memory calldatas,
+        bytes32 descriptionHash
+    ) internal override(Governor, GovernorTimelockControl) returns (uint256) {
+        return super._cancel(targets, values, calldatas, descriptionHash);
+    }
+
+    function _executor() internal view override(Governor, GovernorTimelockControl) returns (address) {
+        return super._executor();
+    }
+
+    function nonGovernanceFunction() external {}
+}
