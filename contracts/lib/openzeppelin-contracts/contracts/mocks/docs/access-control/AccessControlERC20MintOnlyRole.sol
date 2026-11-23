@@ -1,1 +1,23 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7QWNjZXNzQ29udHJvbH0gZnJvbSAiLi4vLi4vLi4vYWNjZXNzL0FjY2Vzc0NvbnRyb2wuc29sIjsKaW1wb3J0IHtFUkMyMH0gZnJvbSAiLi4vLi4vLi4vdG9rZW4vRVJDMjAvRVJDMjAuc29sIjsKCmNvbnRyYWN0IEFjY2Vzc0NvbnRyb2xFUkMyME1pbnQgaXMgRVJDMjAsIEFjY2Vzc0NvbnRyb2wgewogICAgYnl0ZXMzMiBwdWJsaWMgY29uc3RhbnQgTUlOVEVSX1JPTEUgPSBrZWNjYWsyNTYoIk1JTlRFUl9ST0xFIik7CiAgICBieXRlczMyIHB1YmxpYyBjb25zdGFudCBCVVJORVJfUk9MRSA9IGtlY2NhazI1NigiQlVSTkVSX1JPTEUiKTsKCiAgICBjb25zdHJ1Y3RvcihhZGRyZXNzIG1pbnRlciwgYWRkcmVzcyBidXJuZXIpIEVSQzIwKCJNeVRva2VuIiwgIlRLTiIpIHsKICAgICAgICBfZ3JhbnRSb2xlKE1JTlRFUl9ST0xFLCBtaW50ZXIpOwogICAgICAgIF9ncmFudFJvbGUoQlVSTkVSX1JPTEUsIGJ1cm5lcik7CiAgICB9CgogICAgZnVuY3Rpb24gbWludChhZGRyZXNzIHRvLCB1aW50MjU2IGFtb3VudCkgcHVibGljIG9ubHlSb2xlKE1JTlRFUl9ST0xFKSB7CiAgICAgICAgX21pbnQodG8sIGFtb3VudCk7CiAgICB9CgogICAgZnVuY3Rpb24gYnVybihhZGRyZXNzIGZyb20sIHVpbnQyNTYgYW1vdW50KSBwdWJsaWMgb25seVJvbGUoQlVSTkVSX1JPTEUpIHsKICAgICAgICBfYnVybihmcm9tLCBhbW91bnQpOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+import {AccessControl} from "../../../access/AccessControl.sol";
+import {ERC20} from "../../../token/ERC20/ERC20.sol";
+
+contract AccessControlERC20Mint is ERC20, AccessControl {
+    bytes32 public constant MINTER_ROLE = keccak256("MINTER_ROLE");
+    bytes32 public constant BURNER_ROLE = keccak256("BURNER_ROLE");
+
+    constructor(address minter, address burner) ERC20("MyToken", "TKN") {
+        _grantRole(MINTER_ROLE, minter);
+        _grantRole(BURNER_ROLE, burner);
+    }
+
+    function mint(address to, uint256 amount) public onlyRole(MINTER_ROLE) {
+        _mint(to, amount);
+    }
+
+    function burn(address from, uint256 amount) public onlyRole(BURNER_ROLE) {
+        _burn(from, amount);
+    }
+}
