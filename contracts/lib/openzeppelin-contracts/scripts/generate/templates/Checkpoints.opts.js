@@ -1,1 +1,17 @@
-Ly8gT1BUSU9OUwpjb25zdCBWQUxVRV9TSVpFUyA9IFsyMjQsIDIwOCwgMTYwXTsKCmNvbnN0IGRlZmF1bHRPcHRzID0gc2l6ZSA9PiAoewogIGhpc3RvcnlUeXBlTmFtZTogYFRyYWNlJHtzaXplfWAsCiAgY2hlY2twb2ludFR5cGVOYW1lOiBgQ2hlY2twb2ludCR7c2l6ZX1gLAogIGNoZWNrcG9pbnRGaWVsZE5hbWU6ICdfY2hlY2twb2ludHMnLAogIGtleVR5cGVOYW1lOiBgdWludCR7MjU2IC0gc2l6ZX1gLAogIGtleUZpZWxkTmFtZTogJ19rZXknLAogIHZhbHVlVHlwZU5hbWU6IGB1aW50JHtzaXplfWAsCiAgdmFsdWVGaWVsZE5hbWU6ICdfdmFsdWUnLAp9KTsKCm1vZHVsZS5leHBvcnRzID0gewogIFZBTFVFX1NJWkVTLAogIE9QVFM6IFZBTFVFX1NJWkVTLm1hcChzaXplID0+IGRlZmF1bHRPcHRzKHNpemUpKSwKfTsK
+// OPTIONS
+const VALUE_SIZES = [224, 208, 160];
+
+const defaultOpts = size => ({
+  historyTypeName: `Trace${size}`,
+  checkpointTypeName: `Checkpoint${size}`,
+  checkpointFieldName: '_checkpoints',
+  keyTypeName: `uint${256 - size}`,
+  keyFieldName: '_key',
+  valueTypeName: `uint${size}`,
+  valueFieldName: '_value',
+});
+
+module.exports = {
+  VALUE_SIZES,
+  OPTS: VALUE_SIZES.map(size => defaultOpts(size)),
+};
