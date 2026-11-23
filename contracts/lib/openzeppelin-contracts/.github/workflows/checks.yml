@@ -1,1 +1,132 @@
-bmFtZTogY2hlY2tzCgpvbjoKICBwdXNoOgogICAgYnJhbmNoZXM6CiAgICAgIC0gbWFzdGVyCiAgICAgIC0gbmV4dC12KgogICAgICAtIHJlbGVhc2UtdioKICBwdWxsX3JlcXVlc3Q6IHt9CiAgd29ya2Zsb3dfZGlzcGF0Y2g6IHt9Cgpjb25jdXJyZW5jeToKICBncm91cDogY2hlY2tzLSR7eyBnaXRodWIucmVmIH19CiAgY2FuY2VsLWluLXByb2dyZXNzOiB0cnVlCgplbnY6CiAgTk9ERV9PUFRJT05TOiAtLW1heF9vbGRfc3BhY2Vfc2l6ZT04MTkyCgpqb2JzOgogIGxpbnQ6CiAgICBydW5zLW9uOiB1YnVudHUtbGF0ZXN0CiAgICBzdGVwczoKICAgICAgLSB1c2VzOiBhY3Rpb25zL2NoZWNrb3V0QHY0CiAgICAgIC0gbmFtZTogU2V0IHVwIGVudmlyb25tZW50CiAgICAgICAgdXNlczogLi8uZ2l0aHViL2FjdGlvbnMvc2V0dXAKICAgICAgLSBydW46IG5wbSBydW4gbGludAoKICB0ZXN0czoKICAgIHJ1bnMtb246IHVidW50dS1sYXRlc3QKICAgIGVudjoKICAgICAgRk9SQ0VfQ09MT1I6IDEKICAgICAgIyBOZWVkZWQgZm9yICJldGgtZ2FzLXJlcG9ydGVyIiB0byBwcm9kdWNlIGEgImdhc1JlcG9ydGVyT3V0cHV0Lmpzb24iIGFzIGRvY3VtZW50ZWQgaW4KICAgICAgIyBodHRwczovL2dpdGh1Yi5jb20vY2dld2Vja2UvZXRoLWdhcy1yZXBvcnRlci9ibG9iL3YwLjIuMjcvZG9jcy9nYXNSZXBvcnRlck91dHB1dC5tZAogICAgICBDSTogdHJ1ZQogICAgICBHQVM6IHRydWUKICAgIHN0ZXBzOgogICAgICAtIHVzZXM6IGFjdGlvbnMvY2hlY2tvdXRAdjQKICAgICAgLSBuYW1lOiBTZXQgdXAgZW52aXJvbm1lbnQKICAgICAgICB1c2VzOiAuLy5naXRodWIvYWN0aW9ucy9zZXR1cAogICAgICAtIG5hbWU6IFJ1biB0ZXN0cyBhbmQgZ2VuZXJhdGUgZ2FzIHJlcG9ydAogICAgICAgIHJ1bjogbnBtIHJ1biB0ZXN0CiAgICAgIC0gbmFtZTogQ2hlY2sgbGluZWFyaXNhdGlvbiBvZiB0aGUgaW5oZXJpdGFuY2UgZ3JhcGgKICAgICAgICBydW46IG5wbSBydW4gdGVzdDppbmhlcml0YW5jZQogICAgICAtIG5hbWU6IENoZWNrIHByb2NlZHVyYWx5IGdlbmVyYXRlZCBjb250cmFjdHMgYXJlIHVwLXRvLWRhdGUKICAgICAgICBydW46IG5wbSBydW4gdGVzdDpnZW5lcmF0aW9uCiAgICAgIC0gbmFtZTogQ29tcGFyZSBnYXMgY29zdHMKICAgICAgICB1c2VzOiAuLy5naXRodWIvYWN0aW9ucy9nYXMtY29tcGFyZQogICAgICAgIHdpdGg6CiAgICAgICAgICB0b2tlbjogJHt7IGdpdGh1Yi50b2tlbiB9fQoKICB0ZXN0cy11cGdyYWRlYWJsZToKICAgIHJ1bnMtb246IHVidW50dS1sYXRlc3QKICAgIGVudjoKICAgICAgRk9SQ0VfQ09MT1I6IDEKICAgIHN0ZXBzOgogICAgICAtIHVzZXM6IGFjdGlvbnMvY2hlY2tvdXRAdjQKICAgICAgICB3aXRoOgogICAgICAgICAgZmV0Y2gtZGVwdGg6IDAgIyBJbmNsdWRlIGhpc3Rvcnkgc28gcGF0Y2ggY29uZmxpY3RzIGFyZSByZXNvbHZlZCBhdXRvbWF0aWNhbGx5CiAgICAgIC0gbmFtZTogU2V0IHVwIGVudmlyb25tZW50CiAgICAgICAgdXNlczogLi8uZ2l0aHViL2FjdGlvbnMvc2V0dXAKICAgICAgLSBuYW1lOiBDb3B5IG5vbi11cGdyYWRlYWJsZSBjb250cmFjdHMgYXMgZGVwZW5kZW5jeQogICAgICAgIHJ1bjogfAogICAgICAgICAgbWtkaXIgLXAgbGliL29wZW56ZXBwZWxpbi1jb250cmFjdHMKICAgICAgICAgIGNwIC1yblQgY29udHJhY3RzIGxpYi9vcGVuemVwcGVsaW4tY29udHJhY3RzL2NvbnRyYWN0cwogICAgICAtIG5hbWU6IFRyYW5zcGlsZSB0byB1cGdyYWRlYWJsZQogICAgICAgIHJ1bjogYmFzaCBzY3JpcHRzL3VwZ3JhZGVhYmxlL3RyYW5zcGlsZS5zaAogICAgICAtIG5hbWU6IFJ1biB0ZXN0cwogICAgICAgIHJ1bjogbnBtIHJ1biB0ZXN0CiAgICAgIC0gbmFtZTogQ2hlY2sgbGluZWFyaXNhdGlvbiBvZiB0aGUgaW5oZXJpdGFuY2UgZ3JhcGgKICAgICAgICBydW46IG5wbSBydW4gdGVzdDppbmhlcml0YW5jZQogICAgICAtIG5hbWU6IENoZWNrIHN0b3JhZ2UgbGF5b3V0CiAgICAgICAgdXNlczogLi8uZ2l0aHViL2FjdGlvbnMvc3RvcmFnZS1sYXlvdXQKICAgICAgICBjb250aW51ZS1vbi1lcnJvcjogJHt7IGNvbnRhaW5zKGdpdGh1Yi5ldmVudC5wdWxsX3JlcXVlc3QubGFiZWxzLioubmFtZSwgJ2JyZWFraW5nIGNoYW5nZScpIH19CiAgICAgICAgd2l0aDoKICAgICAgICAgIHRva2VuOiAke3sgZ2l0aHViLnRva2VuIH19CgogIHRlc3RzLWZvdW5kcnk6CiAgICBydW5zLW9uOiB1YnVudHUtbGF0ZXN0CiAgICBzdGVwczoKICAgICAgLSB1c2VzOiBhY3Rpb25zL2NoZWNrb3V0QHY0CiAgICAgICAgd2l0aDoKICAgICAgICAgIHN1Ym1vZHVsZXM6IHJlY3Vyc2l2ZQogICAgICAtIG5hbWU6IFNldCB1cCBlbnZpcm9ubWVudAogICAgICAgIHVzZXM6IC4vLmdpdGh1Yi9hY3Rpb25zL3NldHVwCiAgICAgIC0gbmFtZTogUnVuIHRlc3RzCiAgICAgICAgcnVuOiBmb3JnZSB0ZXN0IC12dgoKICBjb3ZlcmFnZToKICAgIHJ1bnMtb246IHVidW50dS1sYXRlc3QKICAgIHN0ZXBzOgogICAgICAtIHVzZXM6IGFjdGlvbnMvY2hlY2tvdXRAdjQKICAgICAgLSBuYW1lOiBTZXQgdXAgZW52aXJvbm1lbnQKICAgICAgICB1c2VzOiAuLy5naXRodWIvYWN0aW9ucy9zZXR1cAogICAgICAtIG5hbWU6IFJ1biBjb3ZlcmFnZQogICAgICAgIHJ1bjogbnBtIHJ1biBjb3ZlcmFnZQogICAgICAtIHVzZXM6IGNvZGVjb3YvY29kZWNvdi1hY3Rpb25AdjQKICAgICAgICBlbnY6CiAgICAgICAgICBDT0RFQ09WX1RPS0VOOiAke3sgc2VjcmV0cy5DT0RFQ09WX1RPS0VOIH19CgogIGhhcm5lc3NlczoKICAgIHJ1bnMtb246IHVidW50dS1sYXRlc3QKICAgIHN0ZXBzOgogICAgICAtIHVzZXM6IGFjdGlvbnMvY2hlY2tvdXRAdjQKICAgICAgLSBuYW1lOiBTZXQgdXAgZW52aXJvbm1lbnQKICAgICAgICB1c2VzOiAuLy5naXRodWIvYWN0aW9ucy9zZXR1cAogICAgICAtIG5hbWU6IENvbXBpbGUgaGFybmVzc2VzCiAgICAgICAgcnVuOiB8CiAgICAgICAgICBtYWtlIC1DIGNlcnRvcmEgYXBwbHkKICAgICAgICAgIG5wbSBydW4gY29tcGlsZTpoYXJuZXNzZXMKCiAgc2xpdGhlcjoKICAgIHJ1bnMtb246IHVidW50dS1sYXRlc3QKICAgIHN0ZXBzOgogICAgICAtIHVzZXM6IGFjdGlvbnMvY2hlY2tvdXRAdjQKICAgICAgLSBuYW1lOiBTZXQgdXAgZW52aXJvbm1lbnQKICAgICAgICB1c2VzOiAuLy5naXRodWIvYWN0aW9ucy9zZXR1cAogICAgICAtIHJ1bjogcm0gZm91bmRyeS50b21sCiAgICAgIC0gdXNlczogY3J5dGljL3NsaXRoZXItYWN0aW9uQHYwLjQuMAogICAgICAgIHdpdGg6CiAgICAgICAgICBub2RlLXZlcnNpb246IDE4LjE1CiAgICAgICAgICBzbGl0aGVyLXZlcnNpb246IDAuMTAuMQoKICBjb2Rlc3BlbGw6CiAgICBydW5zLW9uOiB1YnVudHUtbGF0ZXN0CiAgICBzdGVwczoKICAgICAgLSB1c2VzOiBhY3Rpb25zL2NoZWNrb3V0QHY0CiAgICAgIC0gbmFtZTogUnVuIENvZGVTcGVsbAogICAgICAgIHVzZXM6IGNvZGVzcGVsbC1wcm9qZWN0L2FjdGlvbnMtY29kZXNwZWxsQHYyLjAKICAgICAgICB3aXRoOgogICAgICAgICAgY2hlY2tfaGlkZGVuOiB0cnVlCiAgICAgICAgICBjaGVja19maWxlbmFtZXM6IHRydWUKICAgICAgICAgIHNraXA6IHBhY2thZ2UtbG9jay5qc29uLCoucGRmCg==
+name: checks
+
+on:
+  push:
+    branches:
+      - master
+      - next-v*
+      - release-v*
+  pull_request: {}
+  workflow_dispatch: {}
+
+concurrency:
+  group: checks-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  NODE_OPTIONS: --max_old_space_size=8192
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up environment
+        uses: ./.github/actions/setup
+      - run: npm run lint
+
+  tests:
+    runs-on: ubuntu-latest
+    env:
+      FORCE_COLOR: 1
+      # Needed for "eth-gas-reporter" to produce a "gasReporterOutput.json" as documented in
+      # https://github.com/cgewecke/eth-gas-reporter/blob/v0.2.27/docs/gasReporterOutput.md
+      CI: true
+      GAS: true
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up environment
+        uses: ./.github/actions/setup
+      - name: Run tests and generate gas report
+        run: npm run test
+      - name: Check linearisation of the inheritance graph
+        run: npm run test:inheritance
+      - name: Check proceduraly generated contracts are up-to-date
+        run: npm run test:generation
+      - name: Compare gas costs
+        uses: ./.github/actions/gas-compare
+        with:
+          token: ${{ github.token }}
+
+  tests-upgradeable:
+    runs-on: ubuntu-latest
+    env:
+      FORCE_COLOR: 1
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Include history so patch conflicts are resolved automatically
+      - name: Set up environment
+        uses: ./.github/actions/setup
+      - name: Copy non-upgradeable contracts as dependency
+        run: |
+          mkdir -p lib/openzeppelin-contracts
+          cp -rnT contracts lib/openzeppelin-contracts/contracts
+      - name: Transpile to upgradeable
+        run: bash scripts/upgradeable/transpile.sh
+      - name: Run tests
+        run: npm run test
+      - name: Check linearisation of the inheritance graph
+        run: npm run test:inheritance
+      - name: Check storage layout
+        uses: ./.github/actions/storage-layout
+        continue-on-error: ${{ contains(github.event.pull_request.labels.*.name, 'breaking change') }}
+        with:
+          token: ${{ github.token }}
+
+  tests-foundry:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - name: Set up environment
+        uses: ./.github/actions/setup
+      - name: Run tests
+        run: forge test -vv
+
+  coverage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up environment
+        uses: ./.github/actions/setup
+      - name: Run coverage
+        run: npm run coverage
+      - uses: codecov/codecov-action@v4
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+
+  harnesses:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up environment
+        uses: ./.github/actions/setup
+      - name: Compile harnesses
+        run: |
+          make -C certora apply
+          npm run compile:harnesses
+
+  slither:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up environment
+        uses: ./.github/actions/setup
+      - run: rm foundry.toml
+      - uses: crytic/slither-action@v0.4.0
+        with:
+          node-version: 18.15
+          slither-version: 0.10.1
+
+  codespell:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run CodeSpell
+        uses: codespell-project/actions-codespell@v2.0
+        with:
+          check_hidden: true
+          check_filenames: true
+          skip: package-lock.json,*.pdf
