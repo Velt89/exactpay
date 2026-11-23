@@ -1,1 +1,39 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMC4wKSAodG9rZW4vRVJDMjAvZXh0ZW5zaW9ucy9FUkMyMEJ1cm5hYmxlLnNvbCkKCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKaW1wb3J0IHtFUkMyMH0gZnJvbSAiLi4vRVJDMjAuc29sIjsKaW1wb3J0IHtDb250ZXh0fSBmcm9tICIuLi8uLi8uLi91dGlscy9Db250ZXh0LnNvbCI7CgovKioKICogQGRldiBFeHRlbnNpb24gb2Yge0VSQzIwfSB0aGF0IGFsbG93cyB0b2tlbiBob2xkZXJzIHRvIGRlc3Ryb3kgYm90aCB0aGVpciBvd24KICogdG9rZW5zIGFuZCB0aG9zZSB0aGF0IHRoZXkgaGF2ZSBhbiBhbGxvd2FuY2UgZm9yLCBpbiBhIHdheSB0aGF0IGNhbiBiZQogKiByZWNvZ25pemVkIG9mZi1jaGFpbiAodmlhIGV2ZW50IGFuYWx5c2lzKS4KICovCmFic3RyYWN0IGNvbnRyYWN0IEVSQzIwQnVybmFibGUgaXMgQ29udGV4dCwgRVJDMjAgewogICAgLyoqCiAgICAgKiBAZGV2IERlc3Ryb3lzIGEgYHZhbHVlYCBhbW91bnQgb2YgdG9rZW5zIGZyb20gdGhlIGNhbGxlci4KICAgICAqCiAgICAgKiBTZWUge0VSQzIwLV9idXJufS4KICAgICAqLwogICAgZnVuY3Rpb24gYnVybih1aW50MjU2IHZhbHVlKSBwdWJsaWMgdmlydHVhbCB7CiAgICAgICAgX2J1cm4oX21zZ1NlbmRlcigpLCB2YWx1ZSk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IERlc3Ryb3lzIGEgYHZhbHVlYCBhbW91bnQgb2YgdG9rZW5zIGZyb20gYGFjY291bnRgLCBkZWR1Y3RpbmcgZnJvbQogICAgICogdGhlIGNhbGxlcidzIGFsbG93YW5jZS4KICAgICAqCiAgICAgKiBTZWUge0VSQzIwLV9idXJufSBhbmQge0VSQzIwLWFsbG93YW5jZX0uCiAgICAgKgogICAgICogUmVxdWlyZW1lbnRzOgogICAgICoKICAgICAqIC0gdGhlIGNhbGxlciBtdXN0IGhhdmUgYWxsb3dhbmNlIGZvciBgYGFjY291bnRzYGAncyB0b2tlbnMgb2YgYXQgbGVhc3QKICAgICAqIGB2YWx1ZWAuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGJ1cm5Gcm9tKGFkZHJlc3MgYWNjb3VudCwgdWludDI1NiB2YWx1ZSkgcHVibGljIHZpcnR1YWwgewogICAgICAgIF9zcGVuZEFsbG93YW5jZShhY2NvdW50LCBfbXNnU2VuZGVyKCksIHZhbHVlKTsKICAgICAgICBfYnVybihhY2NvdW50LCB2YWx1ZSk7CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.0.0) (token/ERC20/extensions/ERC20Burnable.sol)
+
+pragma solidity ^0.8.20;
+
+import {ERC20} from "../ERC20.sol";
+import {Context} from "../../../utils/Context.sol";
+
+/**
+ * @dev Extension of {ERC20} that allows token holders to destroy both their own
+ * tokens and those that they have an allowance for, in a way that can be
+ * recognized off-chain (via event analysis).
+ */
+abstract contract ERC20Burnable is Context, ERC20 {
+    /**
+     * @dev Destroys a `value` amount of tokens from the caller.
+     *
+     * See {ERC20-_burn}.
+     */
+    function burn(uint256 value) public virtual {
+        _burn(_msgSender(), value);
+    }
+
+    /**
+     * @dev Destroys a `value` amount of tokens from `account`, deducting from
+     * the caller's allowance.
+     *
+     * See {ERC20-_burn} and {ERC20-allowance}.
+     *
+     * Requirements:
+     *
+     * - the caller must have allowance for ``accounts``'s tokens of at least
+     * `value`.
+     */
+    function burnFrom(address account, uint256 value) public virtual {
+        _spendAllowance(account, _msgSender(), value);
+        _burn(account, value);
+    }
+}
