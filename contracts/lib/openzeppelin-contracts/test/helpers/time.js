@@ -1,1 +1,30 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyB0aW1lLCBtaW5lLCBtaW5lVXBUbyB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwpjb25zdCB7IG1hcFZhbHVlcyB9ID0gcmVxdWlyZSgnLi9pdGVyYXRlJyk7Cgpjb25zdCBjbG9jayA9IHsKICBibG9ja251bWJlcjogKCkgPT4gdGltZS5sYXRlc3RCbG9jaygpLnRoZW4oZXRoZXJzLnRvQmlnSW50KSwKICB0aW1lc3RhbXA6ICgpID0+IHRpbWUubGF0ZXN0KCkudGhlbihldGhlcnMudG9CaWdJbnQpLAp9Owpjb25zdCBjbG9ja0Zyb21SZWNlaXB0ID0gewogIGJsb2NrbnVtYmVyOiByZWNlaXB0ID0+IFByb21pc2UucmVzb2x2ZShldGhlcnMudG9CaWdJbnQocmVjZWlwdC5ibG9ja051bWJlcikpLAogIHRpbWVzdGFtcDogcmVjZWlwdCA9PiBldGhlcnMucHJvdmlkZXIuZ2V0QmxvY2socmVjZWlwdC5ibG9ja051bWJlcikudGhlbihibG9jayA9PiBldGhlcnMudG9CaWdJbnQoYmxvY2sudGltZXN0YW1wKSksCn07CmNvbnN0IGluY3JlYXNlQnkgPSB7CiAgYmxvY2tOdW1iZXI6IG1pbmUsCiAgdGltZXN0YW1wOiAoZGVsYXksIG1pbmUgPSB0cnVlKSA9PgogICAgdGltZS5sYXRlc3QoKS50aGVuKGNsb2NrID0+IGluY3JlYXNlVG8udGltZXN0YW1wKGNsb2NrICsgZXRoZXJzLnRvTnVtYmVyKGRlbGF5KSwgbWluZSkpLAp9Owpjb25zdCBpbmNyZWFzZVRvID0gewogIGJsb2NrbnVtYmVyOiBtaW5lVXBUbywKICB0aW1lc3RhbXA6ICh0bywgbWluZSA9IHRydWUpID0+IChtaW5lID8gdGltZS5pbmNyZWFzZVRvKHRvKSA6IHRpbWUuc2V0TmV4dEJsb2NrVGltZXN0YW1wKHRvKSksCn07CmNvbnN0IGR1cmF0aW9uID0gbWFwVmFsdWVzKHRpbWUuZHVyYXRpb24sIGZuID0+IG4gPT4gZXRoZXJzLnRvQmlnSW50KGZuKGV0aGVycy50b051bWJlcihuKSkpKTsKCm1vZHVsZS5leHBvcnRzID0gewogIGNsb2NrLAogIGNsb2NrRnJvbVJlY2VpcHQsCiAgaW5jcmVhc2VCeSwKICBpbmNyZWFzZVRvLAogIGR1cmF0aW9uLAp9Owo=
+const { ethers } = require('hardhat');
+const { time, mine, mineUpTo } = require('@nomicfoundation/hardhat-network-helpers');
+const { mapValues } = require('./iterate');
+
+const clock = {
+  blocknumber: () => time.latestBlock().then(ethers.toBigInt),
+  timestamp: () => time.latest().then(ethers.toBigInt),
+};
+const clockFromReceipt = {
+  blocknumber: receipt => Promise.resolve(ethers.toBigInt(receipt.blockNumber)),
+  timestamp: receipt => ethers.provider.getBlock(receipt.blockNumber).then(block => ethers.toBigInt(block.timestamp)),
+};
+const increaseBy = {
+  blockNumber: mine,
+  timestamp: (delay, mine = true) =>
+    time.latest().then(clock => increaseTo.timestamp(clock + ethers.toNumber(delay), mine)),
+};
+const increaseTo = {
+  blocknumber: mineUpTo,
+  timestamp: (to, mine = true) => (mine ? time.increaseTo(to) : time.setNextBlockTimestamp(to)),
+};
+const duration = mapValues(time.duration, fn => n => ethers.toBigInt(fn(ethers.toNumber(n))));
+
+module.exports = {
+  clock,
+  clockFromReceipt,
+  increaseBy,
+  increaseTo,
+  duration,
+};
