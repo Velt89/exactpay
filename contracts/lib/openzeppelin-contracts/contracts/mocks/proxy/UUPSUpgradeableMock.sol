@@ -1,1 +1,35 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge1VVUFNVcGdyYWRlYWJsZX0gZnJvbSAiLi4vLi4vcHJveHkvdXRpbHMvVVVQU1VwZ3JhZGVhYmxlLnNvbCI7CmltcG9ydCB7RVJDMTk2N1V0aWxzfSBmcm9tICIuLi8uLi9wcm94eS9FUkMxOTY3L0VSQzE5NjdVdGlscy5zb2wiOwoKY29udHJhY3QgTm9uVXBncmFkZWFibGVNb2NrIHsKICAgIHVpbnQyNTYgaW50ZXJuYWwgX2NvdW50ZXI7CgogICAgZnVuY3Rpb24gY3VycmVudCgpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHJldHVybiBfY291bnRlcjsKICAgIH0KCiAgICBmdW5jdGlvbiBpbmNyZW1lbnQoKSBleHRlcm5hbCB7CiAgICAgICAgKytfY291bnRlcjsKICAgIH0KfQoKY29udHJhY3QgVVVQU1VwZ3JhZGVhYmxlTW9jayBpcyBOb25VcGdyYWRlYWJsZU1vY2ssIFVVUFNVcGdyYWRlYWJsZSB7CiAgICAvLyBOb3QgaGF2aW5nIGFueSBjaGVja3MgaW4gdGhpcyBmdW5jdGlvbiBpcyBkYW5nZXJvdXMhIERvIG5vdCBkbyB0aGlzIG91dHNpZGUgdGVzdHMhCiAgICBmdW5jdGlvbiBfYXV0aG9yaXplVXBncmFkZShhZGRyZXNzKSBpbnRlcm5hbCBvdmVycmlkZSB7fQp9Cgpjb250cmFjdCBVVVBTVXBncmFkZWFibGVVbnNhZmVNb2NrIGlzIFVVUFNVcGdyYWRlYWJsZU1vY2sgewogICAgZnVuY3Rpb24gdXBncmFkZVRvQW5kQ2FsbChhZGRyZXNzIG5ld0ltcGxlbWVudGF0aW9uLCBieXRlcyBtZW1vcnkgZGF0YSkgcHVibGljIHBheWFibGUgb3ZlcnJpZGUgewogICAgICAgIEVSQzE5NjdVdGlscy51cGdyYWRlVG9BbmRDYWxsKG5ld0ltcGxlbWVudGF0aW9uLCBkYXRhKTsKICAgIH0KfQoKY29udHJhY3QgVVVQU1Vuc3VwcG9ydGVkUHJveGlhYmxlVVVJRCBpcyBVVVBTVXBncmFkZWFibGVNb2NrIHsKICAgIGZ1bmN0aW9uIHByb3hpYWJsZVVVSUQoKSBleHRlcm5hbCBwdXJlIG92ZXJyaWRlIHJldHVybnMgKGJ5dGVzMzIpIHsKICAgICAgICByZXR1cm4ga2VjY2FrMjU2KCJpbnZhbGlkIFVVSUQiKTsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {UUPSUpgradeable} from "../../proxy/utils/UUPSUpgradeable.sol";
+import {ERC1967Utils} from "../../proxy/ERC1967/ERC1967Utils.sol";
+
+contract NonUpgradeableMock {
+    uint256 internal _counter;
+
+    function current() external view returns (uint256) {
+        return _counter;
+    }
+
+    function increment() external {
+        ++_counter;
+    }
+}
+
+contract UUPSUpgradeableMock is NonUpgradeableMock, UUPSUpgradeable {
+    // Not having any checks in this function is dangerous! Do not do this outside tests!
+    function _authorizeUpgrade(address) internal override {}
+}
+
+contract UUPSUpgradeableUnsafeMock is UUPSUpgradeableMock {
+    function upgradeToAndCall(address newImplementation, bytes memory data) public payable override {
+        ERC1967Utils.upgradeToAndCall(newImplementation, data);
+    }
+}
+
+contract UUPSUnsupportedProxiableUUID is UUPSUpgradeableMock {
+    function proxiableUUID() external pure override returns (bytes32) {
+        return keccak256("invalid UUID");
+    }
+}
