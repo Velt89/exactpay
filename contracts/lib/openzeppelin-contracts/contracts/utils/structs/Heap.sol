@@ -1,1 +1,256 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodXRpbHMvc3RydWN0cy9IZWFwLnNvbCkKCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKaW1wb3J0IHtNYXRofSBmcm9tICIuLi9tYXRoL01hdGguc29sIjsKaW1wb3J0IHtTYWZlQ2FzdH0gZnJvbSAiLi4vbWF0aC9TYWZlQ2FzdC5zb2wiOwppbXBvcnQge0NvbXBhcmF0b3JzfSBmcm9tICIuLi9Db21wYXJhdG9ycy5zb2wiOwppbXBvcnQge0FycmF5c30gZnJvbSAiLi4vQXJyYXlzLnNvbCI7CmltcG9ydCB7UGFuaWN9IGZyb20gIi4uL1BhbmljLnNvbCI7CmltcG9ydCB7U3RvcmFnZVNsb3R9IGZyb20gIi4uL1N0b3JhZ2VTbG90LnNvbCI7CgovKioKICogQGRldiBMaWJyYXJ5IGZvciBtYW5hZ2luZyBodHRwczovL2VuLndpa2lwZWRpYS5vcmcvd2lraS9CaW5hcnlfaGVhcFtiaW5hcnkgaGVhcF0gdGhhdCBjYW4gYmUgdXNlZCBhcwogKiBodHRwczovL2VuLndpa2lwZWRpYS5vcmcvd2lraS9Qcmlvcml0eV9xdWV1ZVtwcmlvcml0eSBxdWV1ZV0uCiAqCiAqIEhlYXBzIGFyZSByZXByZXNlbnRlZCBhcyBhIHRyZWUgb2YgdmFsdWVzIHdoZXJlIHRoZSBmaXJzdCBlbGVtZW50IChpbmRleCAwKSBpcyB0aGUgcm9vdCwgYW5kIHdoZXJlIHRoZSBub2RlIGF0CiAqIGluZGV4IGkgaXMgdGhlIGNoaWxkIG9mIHRoZSBub2RlIGF0IGluZGV4IChpLTEpLzIgYW5kIHRoZSBwYXJlbnQgb2Ygbm9kZXMgYXQgaW5kZXggMippKzEgYW5kIDIqaSsyLiBFYWNoIG5vZGUKICogc3RvcmVzIGFuIGVsZW1lbnQgb2YgdGhlIGhlYXAuCiAqCiAqIFRoZSBzdHJ1Y3R1cmUgaXMgb3JkZXJlZCBzbyB0aGF0IGVhY2ggbm9kZSBpcyBiaWdnZXIgdGhhbiBpdHMgcGFyZW50LiBBbiBpbW1lZGlhdGUgY29uc2VxdWVuY2UgaXMgdGhhdCB0aGUKICogaGlnaGVzdCBwcmlvcml0eSB2YWx1ZSBpcyB0aGUgb25lIGF0IHRoZSByb290LiBUaGlzIHZhbHVlIGNhbiBiZSBsb29rZWQgdXAgaW4gY29uc3RhbnQgdGltZSAoTygxKSkgYXQKICogYGhlYXAudHJlZVswXWAKICoKICogVGhlIHN0cnVjdHVyZSBpcyBkZXNpZ25lZCB0byBwZXJmb3JtIHRoZSBmb2xsb3dpbmcgb3BlcmF0aW9ucyB3aXRoIHRoZSBjb3JyZXNwb25kaW5nIGNvbXBsZXhpdGllczoKICoKICogKiBwZWVrIChnZXQgdGhlIGhpZ2hlc3QgcHJpb3JpdHkgdmFsdWUpOiBPKDEpCiAqICogaW5zZXJ0IChpbnNlcnQgYSB2YWx1ZSk6IE8obG9nKG4pKQogKiAqIHBvcCAocmVtb3ZlIHRoZSBoaWdoZXN0IHByaW9yaXR5IHZhbHVlKTogTyhsb2cobikpCiAqICogcmVwbGFjZSAocmVwbGFjZSB0aGUgaGlnaGVzdCBwcmlvcml0eSB2YWx1ZSB3aXRoIGEgbmV3IHZhbHVlKTogTyhsb2cobikpCiAqICogbGVuZ3RoIChnZXQgdGhlIG51bWJlciBvZiBlbGVtZW50cyk6IE8oMSkKICogKiBjbGVhciAocmVtb3ZlIGFsbCBlbGVtZW50cyk6IE8oMSkKICoKICogSU1QT1JUQU5UOiBUaGlzIGxpYnJhcnkgYWxsb3dzIGZvciB0aGUgdXNlIG9mIGN1c3RvbSBjb21wYXJhdG9yIGZ1bmN0aW9ucy4gR2l2ZW4gdGhhdCBtYW5pcHVsYXRpbmcKICogbWVtb3J5IGNhbiBsZWFkIHRvIHVuZXhwZWN0ZWQgYmVoYXZpb3IuIENvbnNpZGVyIHZlcmlmeWluZyB0aGF0IHRoZSBjb21wYXJhdG9yIGRvZXMgbm90IG1hbmlwdWxhdGUKICogdGhlIEhlYXAncyBzdGF0ZSBkaXJlY3RseSBhbmQgdGhhdCBpdCBmb2xsb3dzIHRoZSBTb2xpZGl0eSBtZW1vcnkgc2FmZXR5IHJ1bGVzLgogKgogKiBfQXZhaWxhYmxlIHNpbmNlIHY1LjEuXwogKi8KbGlicmFyeSBIZWFwIHsKICAgIHVzaW5nIEFycmF5cyBmb3IgKjsKICAgIHVzaW5nIE1hdGggZm9yICo7CiAgICB1c2luZyBTYWZlQ2FzdCBmb3IgKjsKCiAgICAvKioKICAgICAqIEBkZXYgQmluYXJ5IGhlYXAgdGhhdCBzdXBwb3J0cyB2YWx1ZXMgb2YgdHlwZSB1aW50MjU2LgogICAgICoKICAgICAqIEVhY2ggZWxlbWVudCBvZiB0aGF0IHN0cnVjdHVyZSB1c2VzIG9uZSBzdG9yYWdlIHNsb3QuCiAgICAgKi8KICAgIHN0cnVjdCBVaW50MjU2SGVhcCB7CiAgICAgICAgdWludDI1NltdIHRyZWU7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IExvb2t1cCB0aGUgcm9vdCBlbGVtZW50IG9mIHRoZSBoZWFwLgogICAgICovCiAgICBmdW5jdGlvbiBwZWVrKFVpbnQyNTZIZWFwIHN0b3JhZ2Ugc2VsZikgaW50ZXJuYWwgdmlldyByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgLy8gc2VsZi50cmVlWzBdIHdpbGwgYEFSUkFZX0FDQ0VTU19PVVRfT0ZfQk9VTkRTYCBwYW5pYyBpZiBoZWFwIGlzIGVtcHR5LgogICAgICAgIHJldHVybiBzZWxmLnRyZWVbMF07CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJlbW92ZSAoYW5kIHJldHVybikgdGhlIHJvb3QgZWxlbWVudCBmb3IgdGhlIGhlYXAgdXNpbmcgdGhlIGRlZmF1bHQgY29tcGFyYXRvci4KICAgICAqCiAgICAgKiBOT1RFOiBBbGwgaW5zZXJ0aW5nIGFuZCByZW1vdmFsIGZyb20gYSBoZWFwIHNob3VsZCBhbHdheXMgYmUgZG9uZSB1c2luZyB0aGUgc2FtZSBjb21wYXJhdG9yLiBNaXhpbmcgY29tcGFyYXRvcgogICAgICogZHVyaW5nIHRoZSBsaWZlY3ljbGUgb2YgYSBoZWFwIHdpbGwgcmVzdWx0IGluIHVuZGVmaW5lZCBiZWhhdmlvci4KICAgICAqLwogICAgZnVuY3Rpb24gcG9wKFVpbnQyNTZIZWFwIHN0b3JhZ2Ugc2VsZikgaW50ZXJuYWwgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHJldHVybiBwb3Aoc2VsZiwgQ29tcGFyYXRvcnMubHQpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBSZW1vdmUgKGFuZCByZXR1cm4pIHRoZSByb290IGVsZW1lbnQgZm9yIHRoZSBoZWFwIHVzaW5nIHRoZSBwcm92aWRlZCBjb21wYXJhdG9yLgogICAgICoKICAgICAqIE5PVEU6IEFsbCBpbnNlcnRpbmcgYW5kIHJlbW92YWwgZnJvbSBhIGhlYXAgc2hvdWxkIGFsd2F5cyBiZSBkb25lIHVzaW5nIHRoZSBzYW1lIGNvbXBhcmF0b3IuIE1peGluZyBjb21wYXJhdG9yCiAgICAgKiBkdXJpbmcgdGhlIGxpZmVjeWNsZSBvZiBhIGhlYXAgd2lsbCByZXN1bHQgaW4gdW5kZWZpbmVkIGJlaGF2aW9yLgogICAgICovCiAgICBmdW5jdGlvbiBwb3AoCiAgICAgICAgVWludDI1NkhlYXAgc3RvcmFnZSBzZWxmLAogICAgICAgIGZ1bmN0aW9uKHVpbnQyNTYsIHVpbnQyNTYpIHZpZXcgcmV0dXJucyAoYm9vbCkgY29tcAogICAgKSBpbnRlcm5hbCByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgdW5jaGVja2VkIHsKICAgICAgICAgICAgdWludDI1NiBzaXplID0gbGVuZ3RoKHNlbGYpOwogICAgICAgICAgICBpZiAoc2l6ZSA9PSAwKSBQYW5pYy5wYW5pYyhQYW5pYy5FTVBUWV9BUlJBWV9QT1ApOwoKICAgICAgICAgICAgLy8gY2FjaGUKICAgICAgICAgICAgdWludDI1NiByb290VmFsdWUgPSBzZWxmLnRyZWUudW5zYWZlQWNjZXNzKDApLnZhbHVlOwogICAgICAgICAgICB1aW50MjU2IGxhc3RWYWx1ZSA9IHNlbGYudHJlZS51bnNhZmVBY2Nlc3Moc2l6ZSAtIDEpLnZhbHVlOwoKICAgICAgICAgICAgLy8gc3dhcCBsYXN0IGxlYWYgd2l0aCByb290LCBzaHJpbmsgdHJlZSBhbmQgcmUtaGVhcGlmeQogICAgICAgICAgICBzZWxmLnRyZWUucG9wKCk7CiAgICAgICAgICAgIHNlbGYudHJlZS51bnNhZmVBY2Nlc3MoMCkudmFsdWUgPSBsYXN0VmFsdWU7CiAgICAgICAgICAgIF9zaWZ0RG93bihzZWxmLCBzaXplIC0gMSwgMCwgbGFzdFZhbHVlLCBjb21wKTsKCiAgICAgICAgICAgIHJldHVybiByb290VmFsdWU7CiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICogQGRldiBJbnNlcnQgYSBuZXcgZWxlbWVudCBpbiB0aGUgaGVhcCB1c2luZyB0aGUgZGVmYXVsdCBjb21wYXJhdG9yLgogICAgICoKICAgICAqIE5PVEU6IEFsbCBpbnNlcnRpbmcgYW5kIHJlbW92YWwgZnJvbSBhIGhlYXAgc2hvdWxkIGFsd2F5cyBiZSBkb25lIHVzaW5nIHRoZSBzYW1lIGNvbXBhcmF0b3IuIE1peGluZyBjb21wYXJhdG9yCiAgICAgKiBkdXJpbmcgdGhlIGxpZmVjeWNsZSBvZiBhIGhlYXAgd2lsbCByZXN1bHQgaW4gdW5kZWZpbmVkIGJlaGF2aW9yLgogICAgICovCiAgICBmdW5jdGlvbiBpbnNlcnQoVWludDI1NkhlYXAgc3RvcmFnZSBzZWxmLCB1aW50MjU2IHZhbHVlKSBpbnRlcm5hbCB7CiAgICAgICAgaW5zZXJ0KHNlbGYsIHZhbHVlLCBDb21wYXJhdG9ycy5sdCk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IEluc2VydCBhIG5ldyBlbGVtZW50IGluIHRoZSBoZWFwIHVzaW5nIHRoZSBwcm92aWRlZCBjb21wYXJhdG9yLgogICAgICoKICAgICAqIE5PVEU6IEFsbCBpbnNlcnRpbmcgYW5kIHJlbW92YWwgZnJvbSBhIGhlYXAgc2hvdWxkIGFsd2F5cyBiZSBkb25lIHVzaW5nIHRoZSBzYW1lIGNvbXBhcmF0b3IuIE1peGluZyBjb21wYXJhdG9yCiAgICAgKiBkdXJpbmcgdGhlIGxpZmVjeWNsZSBvZiBhIGhlYXAgd2lsbCByZXN1bHQgaW4gdW5kZWZpbmVkIGJlaGF2aW9yLgogICAgICovCiAgICBmdW5jdGlvbiBpbnNlcnQoCiAgICAgICAgVWludDI1NkhlYXAgc3RvcmFnZSBzZWxmLAogICAgICAgIHVpbnQyNTYgdmFsdWUsCiAgICAgICAgZnVuY3Rpb24odWludDI1NiwgdWludDI1NikgdmlldyByZXR1cm5zIChib29sKSBjb21wCiAgICApIGludGVybmFsIHsKICAgICAgICB1aW50MjU2IHNpemUgPSBsZW5ndGgoc2VsZik7CgogICAgICAgIC8vIHB1c2ggbmV3IGl0ZW0gYW5kIHJlLWhlYXBpZnkKICAgICAgICBzZWxmLnRyZWUucHVzaCh2YWx1ZSk7CiAgICAgICAgX3NpZnRVcChzZWxmLCBzaXplLCB2YWx1ZSwgY29tcCk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybiB0aGUgcm9vdCBlbGVtZW50IGZvciB0aGUgaGVhcCwgYW5kIHJlcGxhY2UgaXQgd2l0aCBhIG5ldyB2YWx1ZSwgdXNpbmcgdGhlIGRlZmF1bHQgY29tcGFyYXRvci4KICAgICAqIFRoaXMgaXMgZXF1aXZhbGVudCB0byB1c2luZyB7cG9wfSBhbmQge2luc2VydH0sIGJ1dCByZXF1aXJlcyBvbmx5IG9uZSByZWJhbGFuY2luZyBvcGVyYXRpb24uCiAgICAgKgogICAgICogTk9URTogQWxsIGluc2VydGluZyBhbmQgcmVtb3ZhbCBmcm9tIGEgaGVhcCBzaG91bGQgYWx3YXlzIGJlIGRvbmUgdXNpbmcgdGhlIHNhbWUgY29tcGFyYXRvci4gTWl4aW5nIGNvbXBhcmF0b3IKICAgICAqIGR1cmluZyB0aGUgbGlmZWN5Y2xlIG9mIGEgaGVhcCB3aWxsIHJlc3VsdCBpbiB1bmRlZmluZWQgYmVoYXZpb3IuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHJlcGxhY2UoVWludDI1NkhlYXAgc3RvcmFnZSBzZWxmLCB1aW50MjU2IG5ld1ZhbHVlKSBpbnRlcm5hbCByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgcmV0dXJuIHJlcGxhY2Uoc2VsZiwgbmV3VmFsdWUsIENvbXBhcmF0b3JzLmx0KTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJuIHRoZSByb290IGVsZW1lbnQgZm9yIHRoZSBoZWFwLCBhbmQgcmVwbGFjZSBpdCB3aXRoIGEgbmV3IHZhbHVlLCB1c2luZyB0aGUgcHJvdmlkZWQgY29tcGFyYXRvci4KICAgICAqIFRoaXMgaXMgZXF1aXZhbGVudCB0byB1c2luZyB7cG9wfSBhbmQge2luc2VydH0sIGJ1dCByZXF1aXJlcyBvbmx5IG9uZSByZWJhbGFuY2luZyBvcGVyYXRpb24uCiAgICAgKgogICAgICogTk9URTogQWxsIGluc2VydGluZyBhbmQgcmVtb3ZhbCBmcm9tIGEgaGVhcCBzaG91bGQgYWx3YXlzIGJlIGRvbmUgdXNpbmcgdGhlIHNhbWUgY29tcGFyYXRvci4gTWl4aW5nIGNvbXBhcmF0b3IKICAgICAqIGR1cmluZyB0aGUgbGlmZWN5Y2xlIG9mIGEgaGVhcCB3aWxsIHJlc3VsdCBpbiB1bmRlZmluZWQgYmVoYXZpb3IuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHJlcGxhY2UoCiAgICAgICAgVWludDI1NkhlYXAgc3RvcmFnZSBzZWxmLAogICAgICAgIHVpbnQyNTYgbmV3VmFsdWUsCiAgICAgICAgZnVuY3Rpb24odWludDI1NiwgdWludDI1NikgdmlldyByZXR1cm5zIChib29sKSBjb21wCiAgICApIGludGVybmFsIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICB1aW50MjU2IHNpemUgPSBsZW5ndGgoc2VsZik7CiAgICAgICAgaWYgKHNpemUgPT0gMCkgUGFuaWMucGFuaWMoUGFuaWMuRU1QVFlfQVJSQVlfUE9QKTsKCiAgICAgICAgLy8gY2FjaGUKICAgICAgICB1aW50MjU2IG9sZFZhbHVlID0gc2VsZi50cmVlLnVuc2FmZUFjY2VzcygwKS52YWx1ZTsKCiAgICAgICAgLy8gcmVwbGFjZSBhbmQgcmUtaGVhcGlmeQogICAgICAgIHNlbGYudHJlZS51bnNhZmVBY2Nlc3MoMCkudmFsdWUgPSBuZXdWYWx1ZTsKICAgICAgICBfc2lmdERvd24oc2VsZiwgc2l6ZSwgMCwgbmV3VmFsdWUsIGNvbXApOwoKICAgICAgICByZXR1cm4gb2xkVmFsdWU7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIG51bWJlciBvZiBlbGVtZW50cyBpbiB0aGUgaGVhcC4KICAgICAqLwogICAgZnVuY3Rpb24gbGVuZ3RoKFVpbnQyNTZIZWFwIHN0b3JhZ2Ugc2VsZikgaW50ZXJuYWwgdmlldyByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgcmV0dXJuIHNlbGYudHJlZS5sZW5ndGg7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJlbW92ZXMgYWxsIGVsZW1lbnRzIGluIHRoZSBoZWFwLgogICAgICovCiAgICBmdW5jdGlvbiBjbGVhcihVaW50MjU2SGVhcCBzdG9yYWdlIHNlbGYpIGludGVybmFsIHsKICAgICAgICBzZWxmLnRyZWUudW5zYWZlU2V0TGVuZ3RoKDApOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBTd2FwIG5vZGUgYGlgIGFuZCBgamAgaW4gdGhlIHRyZWUuCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9zd2FwKFVpbnQyNTZIZWFwIHN0b3JhZ2Ugc2VsZiwgdWludDI1NiBpLCB1aW50MjU2IGopIHByaXZhdGUgewogICAgICAgIFN0b3JhZ2VTbG90LlVpbnQyNTZTbG90IHN0b3JhZ2UgbmkgPSBzZWxmLnRyZWUudW5zYWZlQWNjZXNzKGkpOwogICAgICAgIFN0b3JhZ2VTbG90LlVpbnQyNTZTbG90IHN0b3JhZ2UgbmogPSBzZWxmLnRyZWUudW5zYWZlQWNjZXNzKGopOwogICAgICAgIChuaS52YWx1ZSwgbmoudmFsdWUpID0gKG5qLnZhbHVlLCBuaS52YWx1ZSk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFBlcmZvcm0gaGVhcCBtYWludGVuYW5jZSBvbiBgc2VsZmAsIHN0YXJ0aW5nIGF0IGBpbmRleGAgKHdpdGggdGhlIGB2YWx1ZWApLCB1c2luZyBgY29tcGAgYXMgYQogICAgICogY29tcGFyYXRvciwgYW5kIG1vdmluZyB0b3dhcmQgdGhlIGxlYXZlcyBvZiB0aGUgdW5kZXJseWluZyB0cmVlLgogICAgICoKICAgICAqIE5PVEU6IFRoaXMgaXMgYSBwcml2YXRlIGZ1bmN0aW9uIHRoYXQgaXMgY2FsbGVkIGluIGEgdHJ1c3RlZCBjb250ZXh0IHdpdGggYWxyZWFkeSBjYWNoZWQgcGFyYW1ldGVycy4gYHNpemVgCiAgICAgKiBhbmQgYHZhbHVlYCBjb3VsZCBiZSBleHRyYWN0ZWQgZnJvbSBgc2VsZmAgYW5kIGBpbmRleGAsIGJ1dCB0aGF0IHdvdWxkIHJlcXVpcmUgcmVkdW5kYW50IHN0b3JhZ2UgcmVhZC4gVGhlc2UKICAgICAqIHBhcmFtZXRlcnMgYXJlIG5vdCB2ZXJpZmllZC4gSXQgaXMgdGhlIGNhbGxlciByb2xlIHRvIG1ha2Ugc3VyZSB0aGUgcGFyYW1ldGVycyBhcmUgY29ycmVjdC4KICAgICAqLwogICAgZnVuY3Rpb24gX3NpZnREb3duKAogICAgICAgIFVpbnQyNTZIZWFwIHN0b3JhZ2Ugc2VsZiwKICAgICAgICB1aW50MjU2IHNpemUsCiAgICAgICAgdWludDI1NiBpbmRleCwKICAgICAgICB1aW50MjU2IHZhbHVlLAogICAgICAgIGZ1bmN0aW9uKHVpbnQyNTYsIHVpbnQyNTYpIHZpZXcgcmV0dXJucyAoYm9vbCkgY29tcAogICAgKSBwcml2YXRlIHsKICAgICAgICB1bmNoZWNrZWQgewogICAgICAgICAgICAvLyBDaGVjayBpZiB0aGVyZSBpcyBhIHJpc2sgb2Ygb3ZlcmZsb3cgd2hlbiBjb21wdXRpbmcgdGhlIGluZGljZXMgb2YgdGhlIGNoaWxkIG5vZGVzLiBJZiB0aGF0IGlzIHRoZSBjYXNlLAogICAgICAgICAgICAvLyB0aGVyZSBjYW5ub3QgYmUgY2hpbGQgbm9kZXMgaW4gdGhlIHRyZWUsIHNvIHNpZnRpbmcgaXMgZG9uZS4KICAgICAgICAgICAgaWYgKGluZGV4ID49IHR5cGUodWludDI1NikubWF4IC8gMikgcmV0dXJuOwoKICAgICAgICAgICAgLy8gQ29tcHV0ZSB0aGUgaW5kaWNlcyBvZiB0aGUgcG90ZW50aWFsIGNoaWxkIG5vZGVzCiAgICAgICAgICAgIHVpbnQyNTYgbEluZGV4ID0gMiAqIGluZGV4ICsgMTsKICAgICAgICAgICAgdWludDI1NiBySW5kZXggPSAyICogaW5kZXggKyAyOwoKICAgICAgICAgICAgLy8gVGhyZWUgY2FzZXM6CiAgICAgICAgICAgIC8vIDEuIEJvdGggY2hpbGRyZW4gZXhpc3Q6IHNpZnRpbmcgbWF5IGNvbnRpbnVlIG9uIG9uZSBvZiB0aGUgYnJhbmNoIChzZWxlY3Rpb24gcmVxdWlyZWQpCiAgICAgICAgICAgIC8vIDIuIE9ubHkgbGVmdCBjaGlsZCBleGlzdDogc2lmdGluZyBtYXkgY29udGludWUgb24gdGhlIGxlZnQgYnJhbmNoIChubyBzZWxlY3Rpb24gcmVxdWlyZWQpCiAgICAgICAgICAgIC8vIDMuIE5laXRoZXIgY2hpbGQgZXhpc3Q6IHNpZnRpbmcgaXMgZG9uZQogICAgICAgICAgICBpZiAockluZGV4IDwgc2l6ZSkgewogICAgICAgICAgICAgICAgdWludDI1NiBsVmFsdWUgPSBzZWxmLnRyZWUudW5zYWZlQWNjZXNzKGxJbmRleCkudmFsdWU7CiAgICAgICAgICAgICAgICB1aW50MjU2IHJWYWx1ZSA9IHNlbGYudHJlZS51bnNhZmVBY2Nlc3MockluZGV4KS52YWx1ZTsKICAgICAgICAgICAgICAgIGlmIChjb21wKGxWYWx1ZSwgdmFsdWUpIHx8IGNvbXAoclZhbHVlLCB2YWx1ZSkpIHsKICAgICAgICAgICAgICAgICAgICB1aW50MjU2IGNJbmRleCA9IGNvbXAobFZhbHVlLCByVmFsdWUpLnRlcm5hcnkobEluZGV4LCBySW5kZXgpOwogICAgICAgICAgICAgICAgICAgIF9zd2FwKHNlbGYsIGluZGV4LCBjSW5kZXgpOwogICAgICAgICAgICAgICAgICAgIF9zaWZ0RG93bihzZWxmLCBzaXplLCBjSW5kZXgsIHZhbHVlLCBjb21wKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSBlbHNlIGlmIChsSW5kZXggPCBzaXplKSB7CiAgICAgICAgICAgICAgICB1aW50MjU2IGxWYWx1ZSA9IHNlbGYudHJlZS51bnNhZmVBY2Nlc3MobEluZGV4KS52YWx1ZTsKICAgICAgICAgICAgICAgIGlmIChjb21wKGxWYWx1ZSwgdmFsdWUpKSB7CiAgICAgICAgICAgICAgICAgICAgX3N3YXAoc2VsZiwgaW5kZXgsIGxJbmRleCk7CiAgICAgICAgICAgICAgICAgICAgX3NpZnREb3duKHNlbGYsIHNpemUsIGxJbmRleCwgdmFsdWUsIGNvbXApOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICogQGRldiBQZXJmb3JtIGhlYXAgbWFpbnRlbmFuY2Ugb24gYHNlbGZgLCBzdGFydGluZyBhdCBgaW5kZXhgICh3aXRoIHRoZSBgdmFsdWVgKSwgdXNpbmcgYGNvbXBgIGFzIGEKICAgICAqIGNvbXBhcmF0b3IsIGFuZCBtb3ZpbmcgdG93YXJkIHRoZSByb290IG9mIHRoZSB1bmRlcmx5aW5nIHRyZWUuCiAgICAgKgogICAgICogTk9URTogVGhpcyBpcyBhIHByaXZhdGUgZnVuY3Rpb24gdGhhdCBpcyBjYWxsZWQgaW4gYSB0cnVzdGVkIGNvbnRleHQgd2l0aCBhbHJlYWR5IGNhY2hlZCBwYXJhbWV0ZXJzLiBgdmFsdWVgCiAgICAgKiBjb3VsZCBiZSBleHRyYWN0ZWQgZnJvbSBgc2VsZmAgYW5kIGBpbmRleGAsIGJ1dCB0aGF0IHdvdWxkIHJlcXVpcmUgcmVkdW5kYW50IHN0b3JhZ2UgcmVhZC4gVGhlc2UgcGFyYW1ldGVycyBhcmUgbm90CiAgICAgKiB2ZXJpZmllZC4gSXQgaXMgdGhlIGNhbGxlciByb2xlIHRvIG1ha2Ugc3VyZSB0aGUgcGFyYW1ldGVycyBhcmUgY29ycmVjdC4KICAgICAqLwogICAgZnVuY3Rpb24gX3NpZnRVcCgKICAgICAgICBVaW50MjU2SGVhcCBzdG9yYWdlIHNlbGYsCiAgICAgICAgdWludDI1NiBpbmRleCwKICAgICAgICB1aW50MjU2IHZhbHVlLAogICAgICAgIGZ1bmN0aW9uKHVpbnQyNTYsIHVpbnQyNTYpIHZpZXcgcmV0dXJucyAoYm9vbCkgY29tcAogICAgKSBwcml2YXRlIHsKICAgICAgICB1bmNoZWNrZWQgewogICAgICAgICAgICB3aGlsZSAoaW5kZXggPiAwKSB7CiAgICAgICAgICAgICAgICB1aW50MjU2IHBhcmVudEluZGV4ID0gKGluZGV4IC0gMSkgLyAyOwogICAgICAgICAgICAgICAgdWludDI1NiBwYXJlbnRWYWx1ZSA9IHNlbGYudHJlZS51bnNhZmVBY2Nlc3MocGFyZW50SW5kZXgpLnZhbHVlOwogICAgICAgICAgICAgICAgaWYgKGNvbXAocGFyZW50VmFsdWUsIHZhbHVlKSkgYnJlYWs7CiAgICAgICAgICAgICAgICBfc3dhcChzZWxmLCBpbmRleCwgcGFyZW50SW5kZXgpOwogICAgICAgICAgICAgICAgaW5kZXggPSBwYXJlbnRJbmRleDsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (utils/structs/Heap.sol)
+
+pragma solidity ^0.8.20;
+
+import {Math} from "../math/Math.sol";
+import {SafeCast} from "../math/SafeCast.sol";
+import {Comparators} from "../Comparators.sol";
+import {Arrays} from "../Arrays.sol";
+import {Panic} from "../Panic.sol";
+import {StorageSlot} from "../StorageSlot.sol";
+
+/**
+ * @dev Library for managing https://en.wikipedia.org/wiki/Binary_heap[binary heap] that can be used as
+ * https://en.wikipedia.org/wiki/Priority_queue[priority queue].
+ *
+ * Heaps are represented as a tree of values where the first element (index 0) is the root, and where the node at
+ * index i is the child of the node at index (i-1)/2 and the parent of nodes at index 2*i+1 and 2*i+2. Each node
+ * stores an element of the heap.
+ *
+ * The structure is ordered so that each node is bigger than its parent. An immediate consequence is that the
+ * highest priority value is the one at the root. This value can be looked up in constant time (O(1)) at
+ * `heap.tree[0]`
+ *
+ * The structure is designed to perform the following operations with the corresponding complexities:
+ *
+ * * peek (get the highest priority value): O(1)
+ * * insert (insert a value): O(log(n))
+ * * pop (remove the highest priority value): O(log(n))
+ * * replace (replace the highest priority value with a new value): O(log(n))
+ * * length (get the number of elements): O(1)
+ * * clear (remove all elements): O(1)
+ *
+ * IMPORTANT: This library allows for the use of custom comparator functions. Given that manipulating
+ * memory can lead to unexpected behavior. Consider verifying that the comparator does not manipulate
+ * the Heap's state directly and that it follows the Solidity memory safety rules.
+ *
+ * _Available since v5.1._
+ */
+library Heap {
+    using Arrays for *;
+    using Math for *;
+    using SafeCast for *;
+
+    /**
+     * @dev Binary heap that supports values of type uint256.
+     *
+     * Each element of that structure uses one storage slot.
+     */
+    struct Uint256Heap {
+        uint256[] tree;
+    }
+
+    /**
+     * @dev Lookup the root element of the heap.
+     */
+    function peek(Uint256Heap storage self) internal view returns (uint256) {
+        // self.tree[0] will `ARRAY_ACCESS_OUT_OF_BOUNDS` panic if heap is empty.
+        return self.tree[0];
+    }
+
+    /**
+     * @dev Remove (and return) the root element for the heap using the default comparator.
+     *
+     * NOTE: All inserting and removal from a heap should always be done using the same comparator. Mixing comparator
+     * during the lifecycle of a heap will result in undefined behavior.
+     */
+    function pop(Uint256Heap storage self) internal returns (uint256) {
+        return pop(self, Comparators.lt);
+    }
+
+    /**
+     * @dev Remove (and return) the root element for the heap using the provided comparator.
+     *
+     * NOTE: All inserting and removal from a heap should always be done using the same comparator. Mixing comparator
+     * during the lifecycle of a heap will result in undefined behavior.
+     */
+    function pop(
+        Uint256Heap storage self,
+        function(uint256, uint256) view returns (bool) comp
+    ) internal returns (uint256) {
+        unchecked {
+            uint256 size = length(self);
+            if (size == 0) Panic.panic(Panic.EMPTY_ARRAY_POP);
+
+            // cache
+            uint256 rootValue = self.tree.unsafeAccess(0).value;
+            uint256 lastValue = self.tree.unsafeAccess(size - 1).value;
+
+            // swap last leaf with root, shrink tree and re-heapify
+            self.tree.pop();
+            self.tree.unsafeAccess(0).value = lastValue;
+            _siftDown(self, size - 1, 0, lastValue, comp);
+
+            return rootValue;
+        }
+    }
+
+    /**
+     * @dev Insert a new element in the heap using the default comparator.
+     *
+     * NOTE: All inserting and removal from a heap should always be done using the same comparator. Mixing comparator
+     * during the lifecycle of a heap will result in undefined behavior.
+     */
+    function insert(Uint256Heap storage self, uint256 value) internal {
+        insert(self, value, Comparators.lt);
+    }
+
+    /**
+     * @dev Insert a new element in the heap using the provided comparator.
+     *
+     * NOTE: All inserting and removal from a heap should always be done using the same comparator. Mixing comparator
+     * during the lifecycle of a heap will result in undefined behavior.
+     */
+    function insert(
+        Uint256Heap storage self,
+        uint256 value,
+        function(uint256, uint256) view returns (bool) comp
+    ) internal {
+        uint256 size = length(self);
+
+        // push new item and re-heapify
+        self.tree.push(value);
+        _siftUp(self, size, value, comp);
+    }
+
+    /**
+     * @dev Return the root element for the heap, and replace it with a new value, using the default comparator.
+     * This is equivalent to using {pop} and {insert}, but requires only one rebalancing operation.
+     *
+     * NOTE: All inserting and removal from a heap should always be done using the same comparator. Mixing comparator
+     * during the lifecycle of a heap will result in undefined behavior.
+     */
+    function replace(Uint256Heap storage self, uint256 newValue) internal returns (uint256) {
+        return replace(self, newValue, Comparators.lt);
+    }
+
+    /**
+     * @dev Return the root element for the heap, and replace it with a new value, using the provided comparator.
+     * This is equivalent to using {pop} and {insert}, but requires only one rebalancing operation.
+     *
+     * NOTE: All inserting and removal from a heap should always be done using the same comparator. Mixing comparator
+     * during the lifecycle of a heap will result in undefined behavior.
+     */
+    function replace(
+        Uint256Heap storage self,
+        uint256 newValue,
+        function(uint256, uint256) view returns (bool) comp
+    ) internal returns (uint256) {
+        uint256 size = length(self);
+        if (size == 0) Panic.panic(Panic.EMPTY_ARRAY_POP);
+
+        // cache
+        uint256 oldValue = self.tree.unsafeAccess(0).value;
+
+        // replace and re-heapify
+        self.tree.unsafeAccess(0).value = newValue;
+        _siftDown(self, size, 0, newValue, comp);
+
+        return oldValue;
+    }
+
+    /**
+     * @dev Returns the number of elements in the heap.
+     */
+    function length(Uint256Heap storage self) internal view returns (uint256) {
+        return self.tree.length;
+    }
+
+    /**
+     * @dev Removes all elements in the heap.
+     */
+    function clear(Uint256Heap storage self) internal {
+        self.tree.unsafeSetLength(0);
+    }
+
+    /**
+     * @dev Swap node `i` and `j` in the tree.
+     */
+    function _swap(Uint256Heap storage self, uint256 i, uint256 j) private {
+        StorageSlot.Uint256Slot storage ni = self.tree.unsafeAccess(i);
+        StorageSlot.Uint256Slot storage nj = self.tree.unsafeAccess(j);
+        (ni.value, nj.value) = (nj.value, ni.value);
+    }
+
+    /**
+     * @dev Perform heap maintenance on `self`, starting at `index` (with the `value`), using `comp` as a
+     * comparator, and moving toward the leaves of the underlying tree.
+     *
+     * NOTE: This is a private function that is called in a trusted context with already cached parameters. `size`
+     * and `value` could be extracted from `self` and `index`, but that would require redundant storage read. These
+     * parameters are not verified. It is the caller role to make sure the parameters are correct.
+     */
+    function _siftDown(
+        Uint256Heap storage self,
+        uint256 size,
+        uint256 index,
+        uint256 value,
+        function(uint256, uint256) view returns (bool) comp
+    ) private {
+        unchecked {
+            // Check if there is a risk of overflow when computing the indices of the child nodes. If that is the case,
+            // there cannot be child nodes in the tree, so sifting is done.
+            if (index >= type(uint256).max / 2) return;
+
+            // Compute the indices of the potential child nodes
+            uint256 lIndex = 2 * index + 1;
+            uint256 rIndex = 2 * index + 2;
+
+            // Three cases:
+            // 1. Both children exist: sifting may continue on one of the branch (selection required)
+            // 2. Only left child exist: sifting may continue on the left branch (no selection required)
+            // 3. Neither child exist: sifting is done
+            if (rIndex < size) {
+                uint256 lValue = self.tree.unsafeAccess(lIndex).value;
+                uint256 rValue = self.tree.unsafeAccess(rIndex).value;
+                if (comp(lValue, value) || comp(rValue, value)) {
+                    uint256 cIndex = comp(lValue, rValue).ternary(lIndex, rIndex);
+                    _swap(self, index, cIndex);
+                    _siftDown(self, size, cIndex, value, comp);
+                }
+            } else if (lIndex < size) {
+                uint256 lValue = self.tree.unsafeAccess(lIndex).value;
+                if (comp(lValue, value)) {
+                    _swap(self, index, lIndex);
+                    _siftDown(self, size, lIndex, value, comp);
+                }
+            }
+        }
+    }
+
+    /**
+     * @dev Perform heap maintenance on `self`, starting at `index` (with the `value`), using `comp` as a
+     * comparator, and moving toward the root of the underlying tree.
+     *
+     * NOTE: This is a private function that is called in a trusted context with already cached parameters. `value`
+     * could be extracted from `self` and `index`, but that would require redundant storage read. These parameters are not
+     * verified. It is the caller role to make sure the parameters are correct.
+     */
+    function _siftUp(
+        Uint256Heap storage self,
+        uint256 index,
+        uint256 value,
+        function(uint256, uint256) view returns (bool) comp
+    ) private {
+        unchecked {
+            while (index > 0) {
+                uint256 parentIndex = (index - 1) / 2;
+                uint256 parentValue = self.tree.unsafeAccess(parentIndex).value;
+                if (comp(parentValue, value)) break;
+                _swap(self, index, parentIndex);
+                index = parentIndex;
+            }
+        }
+    }
+}
