@@ -1,1 +1,45 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAocHJveHkvdHJhbnNwYXJlbnQvUHJveHlBZG1pbi5zb2wpCgpwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7SVRyYW5zcGFyZW50VXBncmFkZWFibGVQcm94eX0gZnJvbSAiLi9UcmFuc3BhcmVudFVwZ3JhZGVhYmxlUHJveHkuc29sIjsKaW1wb3J0IHtPd25hYmxlfSBmcm9tICIuLi8uLi9hY2Nlc3MvT3duYWJsZS5zb2wiOwoKLyoqCiAqIEBkZXYgVGhpcyBpcyBhbiBhdXhpbGlhcnkgY29udHJhY3QgbWVhbnQgdG8gYmUgYXNzaWduZWQgYXMgdGhlIGFkbWluIG9mIGEge1RyYW5zcGFyZW50VXBncmFkZWFibGVQcm94eX0uIEZvciBhbgogKiBleHBsYW5hdGlvbiBvZiB3aHkgeW91IHdvdWxkIHdhbnQgdG8gdXNlIHRoaXMgc2VlIHRoZSBkb2N1bWVudGF0aW9uIGZvciB7VHJhbnNwYXJlbnRVcGdyYWRlYWJsZVByb3h5fS4KICovCmNvbnRyYWN0IFByb3h5QWRtaW4gaXMgT3duYWJsZSB7CiAgICAvKioKICAgICAqIEBkZXYgVGhlIHZlcnNpb24gb2YgdGhlIHVwZ3JhZGUgaW50ZXJmYWNlIG9mIHRoZSBjb250cmFjdC4gSWYgdGhpcyBnZXR0ZXIgaXMgbWlzc2luZywgYm90aCBgdXBncmFkZShhZGRyZXNzLGFkZHJlc3MpYAogICAgICogYW5kIGB1cGdyYWRlQW5kQ2FsbChhZGRyZXNzLGFkZHJlc3MsYnl0ZXMpYCBhcmUgcHJlc2VudCwgYW5kIGB1cGdyYWRlYCBtdXN0IGJlIHVzZWQgaWYgbm8gZnVuY3Rpb24gc2hvdWxkIGJlIGNhbGxlZCwKICAgICAqIHdoaWxlIGB1cGdyYWRlQW5kQ2FsbGAgd2lsbCBpbnZva2UgdGhlIGByZWNlaXZlYCBmdW5jdGlvbiBpZiB0aGUgdGhpcmQgYXJndW1lbnQgaXMgdGhlIGVtcHR5IGJ5dGUgc3RyaW5nLgogICAgICogSWYgdGhlIGdldHRlciByZXR1cm5zIGAiNS4wLjAiYCwgb25seSBgdXBncmFkZUFuZENhbGwoYWRkcmVzcyxhZGRyZXNzLGJ5dGVzKWAgaXMgcHJlc2VudCwgYW5kIHRoZSB0aGlyZCBhcmd1bWVudCBtdXN0CiAgICAgKiBiZSB0aGUgZW1wdHkgYnl0ZSBzdHJpbmcgaWYgbm8gZnVuY3Rpb24gc2hvdWxkIGJlIGNhbGxlZCwgbWFraW5nIGl0IGltcG9zc2libGUgdG8gaW52b2tlIHRoZSBgcmVjZWl2ZWAgZnVuY3Rpb24KICAgICAqIGR1cmluZyBhbiB1cGdyYWRlLgogICAgICovCiAgICBzdHJpbmcgcHVibGljIGNvbnN0YW50IFVQR1JBREVfSU5URVJGQUNFX1ZFUlNJT04gPSAiNS4wLjAiOwoKICAgIC8qKgogICAgICogQGRldiBTZXRzIHRoZSBpbml0aWFsIG93bmVyIHdobyBjYW4gcGVyZm9ybSB1cGdyYWRlcy4KICAgICAqLwogICAgY29uc3RydWN0b3IoYWRkcmVzcyBpbml0aWFsT3duZXIpIE93bmFibGUoaW5pdGlhbE93bmVyKSB7fQoKICAgIC8qKgogICAgICogQGRldiBVcGdyYWRlcyBgcHJveHlgIHRvIGBpbXBsZW1lbnRhdGlvbmAgYW5kIGNhbGxzIGEgZnVuY3Rpb24gb24gdGhlIG5ldyBpbXBsZW1lbnRhdGlvbi4KICAgICAqIFNlZSB7VHJhbnNwYXJlbnRVcGdyYWRlYWJsZVByb3h5LV9kaXNwYXRjaFVwZ3JhZGVUb0FuZENhbGx9LgogICAgICoKICAgICAqIFJlcXVpcmVtZW50czoKICAgICAqCiAgICAgKiAtIFRoaXMgY29udHJhY3QgbXVzdCBiZSB0aGUgYWRtaW4gb2YgYHByb3h5YC4KICAgICAqIC0gSWYgYGRhdGFgIGlzIGVtcHR5LCBgbXNnLnZhbHVlYCBtdXN0IGJlIHplcm8uCiAgICAgKi8KICAgIGZ1bmN0aW9uIHVwZ3JhZGVBbmRDYWxsKAogICAgICAgIElUcmFuc3BhcmVudFVwZ3JhZGVhYmxlUHJveHkgcHJveHksCiAgICAgICAgYWRkcmVzcyBpbXBsZW1lbnRhdGlvbiwKICAgICAgICBieXRlcyBtZW1vcnkgZGF0YQogICAgKSBwdWJsaWMgcGF5YWJsZSB2aXJ0dWFsIG9ubHlPd25lciB7CiAgICAgICAgcHJveHkudXBncmFkZVRvQW5kQ2FsbHt2YWx1ZTogbXNnLnZhbHVlfShpbXBsZW1lbnRhdGlvbiwgZGF0YSk7CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (proxy/transparent/ProxyAdmin.sol)
+
+pragma solidity ^0.8.20;
+
+import {ITransparentUpgradeableProxy} from "./TransparentUpgradeableProxy.sol";
+import {Ownable} from "../../access/Ownable.sol";
+
+/**
+ * @dev This is an auxiliary contract meant to be assigned as the admin of a {TransparentUpgradeableProxy}. For an
+ * explanation of why you would want to use this see the documentation for {TransparentUpgradeableProxy}.
+ */
+contract ProxyAdmin is Ownable {
+    /**
+     * @dev The version of the upgrade interface of the contract. If this getter is missing, both `upgrade(address,address)`
+     * and `upgradeAndCall(address,address,bytes)` are present, and `upgrade` must be used if no function should be called,
+     * while `upgradeAndCall` will invoke the `receive` function if the third argument is the empty byte string.
+     * If the getter returns `"5.0.0"`, only `upgradeAndCall(address,address,bytes)` is present, and the third argument must
+     * be the empty byte string if no function should be called, making it impossible to invoke the `receive` function
+     * during an upgrade.
+     */
+    string public constant UPGRADE_INTERFACE_VERSION = "5.0.0";
+
+    /**
+     * @dev Sets the initial owner who can perform upgrades.
+     */
+    constructor(address initialOwner) Ownable(initialOwner) {}
+
+    /**
+     * @dev Upgrades `proxy` to `implementation` and calls a function on the new implementation.
+     * See {TransparentUpgradeableProxy-_dispatchUpgradeToAndCall}.
+     *
+     * Requirements:
+     *
+     * - This contract must be the admin of `proxy`.
+     * - If `data` is empty, `msg.value` must be zero.
+     */
+    function upgradeAndCall(
+        ITransparentUpgradeableProxy proxy,
+        address implementation,
+        bytes memory data
+    ) public payable virtual onlyOwner {
+        proxy.upgradeToAndCall{value: msg.value}(implementation, data);
+    }
+}
