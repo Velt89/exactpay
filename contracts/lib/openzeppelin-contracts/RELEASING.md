@@ -1,1 +1,45 @@
-IyBSZWxlYXNpbmcKCk9wZW5aZXBwZWxpbiBDb250cmFjdHMgdXNlcyBhIGZ1bGx5IGF1dG9tYXRlZCByZWxlYXNlIHByb2Nlc3MgdGhhdCB0YWtlcyBjYXJlIG9mIGNvbXBpbGluZywgcGFja2FnaW5nLCBhbmQgcHVibGlzaGluZyB0aGUgbGlicmFyeSwgYWxsIG9mIHdoaWNoIGlzIGNhcnJpZWQgb3V0IGluIGEgY2xlYW4gQ0kgZW52aXJvbm1lbnQgKEdpdEh1YiBBY3Rpb25zKSwgaW1wbGVtZW50ZWQgaW4gdGhlIChbYHJlbGVhc2UtY3ljbGVgXSguZ2l0aHViL3dvcmtmbG93cy9yZWxlYXNlLWN5Y2xlLnltbCkpIHdvcmtmbG93LiBUaGlzIGhlbHBzIHRvIHJlZHVjZSB0aGUgcG90ZW50aWFsIGZvciBodW1hbiBlcnJvciBhbmQgaW5jb25zaXN0ZW5jaWVzLCBhbmQgZW5zdXJlcyB0aGF0IHRoZSByZWxlYXNlIHByb2Nlc3MgaXMgb25nb2luZyBhbmQgcmVsaWFibGUuCgojIyBDaGFuZ2VzZXRzCgpbQ2hhbmdlc2V0c10oaHR0cHM6Ly9naXRodWIuY29tL2NoYW5nZXNldHMvY2hhbmdlc2V0cy8pIGlzIHVzZWQgYXMgcGFydCBvZiBvdXIgcmVsZWFzZSBwcm9jZXNzIGZvciBgQ0hBTkdFTE9HLm1kYCBtYW5hZ2VtZW50LiBFYWNoIGNoYW5nZSB0aGF0IGlzIHJlbGV2YW50IGZvciB0aGUgY29kZWJhc2UgaXMgZXhwZWN0ZWQgdG8gaW5jbHVkZSBhIGNoYW5nZXNldC4KCiMjIEJyYW5jaGluZyBtb2RlbAoKVGhlIHJlbGVhc2UgY3ljbGUgaGFwcGVucyBvbiByZWxlYXNlIGJyYW5jaGVzIGNhbGxlZCBgcmVsZWFzZS12WC5ZYC4gRWFjaCBvZiB0aGVzZSBicmFuY2hlcyBzdGFydHMgYXMgYSByZWxlYXNlIGNhbmRpZGF0ZSAocmMpIGFuZCBpcyBldmVudHVhbGx5IHByb21vdGVkIHRvIGZpbmFsLgoKQSByZWxlYXNlIGJyYW5jaCBjYW4gYmUgdXBkYXRlZCB3aXRoIGNoZXJyeS1waWNrZWQgcGF0Y2hlcyBmcm9tIGBtYXN0ZXJgLCBvciBtYXkgc29tZXRpbWVzIGJlIGNvbW1pdHRlZCB0byBkaXJlY3RseSBpbiB0aGUgY2FzZSBvZiBvbGQgcmVsZWFzZXMuIFRoZXNlIGNvbW1pdHMgd2lsbCBsZWFkIHRvIGEgbmV3IHJlbGVhc2UgY2FuZGlkYXRlIG9yIGEgcGF0Y2ggaW5jcmVtZW50IGRlcGVuZGluZyBvbiB0aGUgc3RhdGUgb2YgdGhlIHJlbGVhc2UgYnJhbmNoLgoKYGBgbWVybWFpZAogICUle2luaXQ6IHsnZ2l0R3JhcGgnOiB7J21haW5CcmFuY2hOYW1lJzogJ21hc3Rlcid9fSB9JSUKICBnaXRHcmFwaAogICAgY29tbWl0IGlkOiAiRmVhdHVyZSBBIgogICAgY29tbWl0IGlkOiAiRmVhdHVyZSBCIgogICAgYnJhbmNoIHJlbGVhc2UtdlguWQogICAgY29tbWl0IGlkOiAiU3RhcnQgcmVsZWFzZSIKICAgIGNvbW1pdCBpZDogIlJlbGVhc2UgdlguWS4wLXJjLjAiCgogICAgY2hlY2tvdXQgbWFzdGVyCiAgICBjb21taXQgaWQ6ICJGZWF0dXJlIEMiCiAgICBjb21taXQgaWQ6ICJGaXggQSIKCiAgICBjaGVja291dCByZWxlYXNlLXZYLlkKICAgIGNoZXJyeS1waWNrIGlkOiAiRml4IEEiIHRhZzogIiIKICAgIGNvbW1pdCBpZDogIlJlbGVhc2UgdlguWS4wLXJjLjEiCiAgICBjb21taXQgaWQ6ICJSZWxlYXNlIHZYLlkuMCIKCiAgICBjaGVja291dCBtYXN0ZXIKICAgIG1lcmdlIHJlbGVhc2UtdlguWQogICAgY29tbWl0IGlkOiAiRmVhdHVyZSBEIgogICAgY29tbWl0IGlkOiAiUGF0Y2ggQiIKCiAgICBjaGVja291dCByZWxlYXNlLXZYLlkKICAgIGNoZXJyeS1waWNrIGlkOiAiUGF0Y2ggQiIgdGFnOiAiIgogICAgY29tbWl0IGlkOiAiUmVsZWFzZSB2WC5ZLjEiCiAgICAKICAgIGNoZWNrb3V0IG1hc3RlcgogICAgbWVyZ2UgcmVsZWFzZS12WC5ZCiAgICBjb21taXQgaWQ6ICJGZWF0dXJlIEUiCmBgYAo=
+# Releasing
+
+OpenZeppelin Contracts uses a fully automated release process that takes care of compiling, packaging, and publishing the library, all of which is carried out in a clean CI environment (GitHub Actions), implemented in the ([`release-cycle`](.github/workflows/release-cycle.yml)) workflow. This helps to reduce the potential for human error and inconsistencies, and ensures that the release process is ongoing and reliable.
+
+## Changesets
+
+[Changesets](https://github.com/changesets/changesets/) is used as part of our release process for `CHANGELOG.md` management. Each change that is relevant for the codebase is expected to include a changeset.
+
+## Branching model
+
+The release cycle happens on release branches called `release-vX.Y`. Each of these branches starts as a release candidate (rc) and is eventually promoted to final.
+
+A release branch can be updated with cherry-picked patches from `master`, or may sometimes be committed to directly in the case of old releases. These commits will lead to a new release candidate or a patch increment depending on the state of the release branch.
+
+```mermaid
+  %%{init: {'gitGraph': {'mainBranchName': 'master'}} }%%
+  gitGraph
+    commit id: "Feature A"
+    commit id: "Feature B"
+    branch release-vX.Y
+    commit id: "Start release"
+    commit id: "Release vX.Y.0-rc.0"
+
+    checkout master
+    commit id: "Feature C"
+    commit id: "Fix A"
+
+    checkout release-vX.Y
+    cherry-pick id: "Fix A" tag: ""
+    commit id: "Release vX.Y.0-rc.1"
+    commit id: "Release vX.Y.0"
+
+    checkout master
+    merge release-vX.Y
+    commit id: "Feature D"
+    commit id: "Patch B"
+
+    checkout release-vX.Y
+    cherry-pick id: "Patch B" tag: ""
+    commit id: "Release vX.Y.1"
+    
+    checkout master
+    merge release-vX.Y
+    commit id: "Feature E"
+```
