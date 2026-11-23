@@ -1,1 +1,28 @@
-aW1wb3J0IHR5cGUgeyBNZXRhZGF0YSB9IGZyb20gIm5leHQiOwppbXBvcnQgeyBJbnRlciwgSW50ZXJfVGlnaHQsIEpldEJyYWluc19Nb25vIH0gZnJvbSAibmV4dC9mb250L2dvb2dsZSI7CmltcG9ydCB0eXBlIHsgUmVhY3ROb2RlIH0gZnJvbSAicmVhY3QiOwppbXBvcnQgeyBIZWFkZXIgfSBmcm9tICJAL2NvbXBvbmVudHMvSGVhZGVyIjsKaW1wb3J0IHsgUHJvdmlkZXJzIH0gZnJvbSAiLi9wcm92aWRlcnMiOwppbXBvcnQgIi4vZ2xvYmFscy5jc3MiOwoKY29uc3QgaW50ZXIgPSBJbnRlcih7IHN1YnNldHM6IFsibGF0aW4iXSwgdmFyaWFibGU6ICItLWZvbnQtaW50ZXIiLCBkaXNwbGF5OiAic3dhcCIgfSk7CmNvbnN0IGludGVyVGlnaHQgPSBJbnRlcl9UaWdodCh7IHN1YnNldHM6IFsibGF0aW4iXSwgd2VpZ2h0OiBbIjUwMCIsICI2MDAiLCAiNzAwIl0sIHZhcmlhYmxlOiAiLS1mb250LWludGVyLXRpZ2h0IiwgZGlzcGxheTogInN3YXAiIH0pOwpjb25zdCBqZXRicmFpbnMgPSBKZXRCcmFpbnNfTW9ubyh7IHN1YnNldHM6IFsibGF0aW4iXSwgd2VpZ2h0OiBbIjQwMCIsICI1MDAiXSwgdmFyaWFibGU6ICItLWZvbnQtamV0YnJhaW5zIiwgZGlzcGxheTogInN3YXAiIH0pOwoKZXhwb3J0IGNvbnN0IG1ldGFkYXRhOiBNZXRhZGF0YSA9IHsKICB0aXRsZTogeyBkZWZhdWx0OiAiQWV2dW0gU3RhcnRlciBLaXQiLCB0ZW1wbGF0ZTogIiVzIMK3IEFldnVtIFN0YXJ0ZXIgS2l0IiB9LAogIGRlc2NyaXB0aW9uOiAiQnVpbGQgYW5kIHRlc3Qgc3RhYmxlY29pbiBwYXltZW50cyBvbiBRRGF5IEFldnVtIHRlc3RuZXQuIiwKfTsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFJvb3RMYXlvdXQoeyBjaGlsZHJlbiB9OiB7IGNoaWxkcmVuOiBSZWFjdE5vZGUgfSkgewogIHJldHVybiAoCiAgICA8aHRtbCBsYW5nPSJlbiIgY2xhc3NOYW1lPXtgJHtpbnRlci52YXJpYWJsZX0gJHtpbnRlclRpZ2h0LnZhcmlhYmxlfSAke2pldGJyYWlucy52YXJpYWJsZX1gfT4KICAgICAgPGJvZHk+CiAgICAgICAgPFByb3ZpZGVycz4KICAgICAgICAgIDxIZWFkZXIgLz4KICAgICAgICAgIHtjaGlsZHJlbn0KICAgICAgICA8L1Byb3ZpZGVycz4KICAgICAgPC9ib2R5PgogICAgPC9odG1sPgogICk7Cn0K
+import type { Metadata } from "next";
+import { Inter, Inter_Tight, JetBrains_Mono } from "next/font/google";
+import type { ReactNode } from "react";
+import { Header } from "@/components/Header";
+import { Providers } from "./providers";
+import "./globals.css";
+
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
+const interTight = Inter_Tight({ subsets: ["latin"], weight: ["500", "600", "700"], variable: "--font-inter-tight", display: "swap" });
+const jetbrains = JetBrains_Mono({ subsets: ["latin"], weight: ["400", "500"], variable: "--font-jetbrains", display: "swap" });
+
+export const metadata: Metadata = {
+  title: { default: "Aevum Starter Kit", template: "%s · Aevum Starter Kit" },
+  description: "Build and test stablecoin payments on QDay Aevum testnet.",
+};
+
+export default function RootLayout({ children }: { children: ReactNode }) {
+  return (
+    <html lang="en" className={`${inter.variable} ${interTight.variable} ${jetbrains.variable}`}>
+      <body>
+        <Providers>
+          <Header />
+          {children}
+        </Providers>
+      </body>
+    </html>
+  );
+}
