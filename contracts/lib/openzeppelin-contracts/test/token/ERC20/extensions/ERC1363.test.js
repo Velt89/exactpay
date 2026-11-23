@@ -1,1 +1,370 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKY29uc3QgewogIHNob3VsZEJlaGF2ZUxpa2VFUkMyMCwKICBzaG91bGRCZWhhdmVMaWtlRVJDMjBUcmFuc2ZlciwKICBzaG91bGRCZWhhdmVMaWtlRVJDMjBBcHByb3ZlLAp9ID0gcmVxdWlyZSgnLi4vRVJDMjAuYmVoYXZpb3IuanMnKTsKY29uc3QgeyBzaG91bGRTdXBwb3J0SW50ZXJmYWNlcyB9ID0gcmVxdWlyZSgnLi4vLi4vLi4vdXRpbHMvaW50cm9zcGVjdGlvbi9TdXBwb3J0c0ludGVyZmFjZS5iZWhhdmlvcicpOwpjb25zdCB7IFJldmVydFR5cGUgfSA9IHJlcXVpcmUoJy4uLy4uLy4uL2hlbHBlcnMvZW51bXMuanMnKTsKCmNvbnN0IG5hbWUgPSAnTXkgVG9rZW4nOwpjb25zdCBzeW1ib2wgPSAnTVRLTic7CmNvbnN0IHZhbHVlID0gMTAwMG47CmNvbnN0IGRhdGEgPSAnMHgxMjM0NTYnOwoKYXN5bmMgZnVuY3Rpb24gZml4dHVyZSgpIHsKICAvLyB0aGlzLmFjY291bnRzIGlzIHVzZWQgYnkgc2hvdWxkQmVoYXZlTGlrZUVSQzIwCiAgY29uc3QgYWNjb3VudHMgPSBhd2FpdCBldGhlcnMuZ2V0U2lnbmVycygpOwogIGNvbnN0IFtob2xkZXIsIG90aGVyXSA9IGFjY291bnRzOwoKICBjb25zdCByZWNlaXZlciA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnRVJDMTM2M1JlY2VpdmVyTW9jaycpOwogIGNvbnN0IHNwZW5kZXIgPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJ0VSQzEzNjNTcGVuZGVyTW9jaycpOwogIGNvbnN0IHRva2VuID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCckRVJDMTM2MycsIFtuYW1lLCBzeW1ib2xdKTsKCiAgYXdhaXQgdG9rZW4uJF9taW50KGhvbGRlciwgdmFsdWUpOwoKICByZXR1cm4gewogICAgYWNjb3VudHMsCiAgICBob2xkZXIsCiAgICBvdGhlciwKICAgIHRva2VuLAogICAgcmVjZWl2ZXIsCiAgICBzcGVuZGVyLAogICAgc2VsZWN0b3JzOiB7CiAgICAgIG9uVHJhbnNmZXJSZWNlaXZlZDogcmVjZWl2ZXIuaW50ZXJmYWNlLmdldEZ1bmN0aW9uKCdvblRyYW5zZmVyUmVjZWl2ZWQoYWRkcmVzcyxhZGRyZXNzLHVpbnQyNTYsYnl0ZXMpJykuc2VsZWN0b3IsCiAgICAgIG9uQXBwcm92YWxSZWNlaXZlZDogc3BlbmRlci5pbnRlcmZhY2UuZ2V0RnVuY3Rpb24oJ29uQXBwcm92YWxSZWNlaXZlZChhZGRyZXNzLHVpbnQyNTYsYnl0ZXMpJykuc2VsZWN0b3IsCiAgICB9LAogIH07Cn0KCmRlc2NyaWJlKCdFUkMxMzYzJywgZnVuY3Rpb24gKCkgewogIGJlZm9yZUVhY2goYXN5bmMgZnVuY3Rpb24gKCkgewogICAgT2JqZWN0LmFzc2lnbih0aGlzLCBhd2FpdCBsb2FkRml4dHVyZShmaXh0dXJlKSk7CiAgfSk7CgogIHNob3VsZFN1cHBvcnRJbnRlcmZhY2VzKFsnRVJDMTY1JywgJ0VSQzEzNjMnXSk7CiAgc2hvdWxkQmVoYXZlTGlrZUVSQzIwKHZhbHVlKTsKCiAgZGVzY3JpYmUoJ3RyYW5zZmVyQW5kQ2FsbCcsIGZ1bmN0aW9uICgpIHsKICAgIGRlc2NyaWJlKCdhcyBhIHRyYW5zZmVyJywgZnVuY3Rpb24gKCkgewogICAgICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICB0aGlzLnJlY2lwaWVudCA9IHRoaXMucmVjZWl2ZXI7CiAgICAgICAgdGhpcy50cmFuc2ZlciA9IChob2xkZXIsIC4uLnJlc3QpID0+CiAgICAgICAgICB0aGlzLnRva2VuLmNvbm5lY3QoaG9sZGVyKS5nZXRGdW5jdGlvbigndHJhbnNmZXJBbmRDYWxsKGFkZHJlc3MsdWludDI1NiknKSguLi5yZXN0KTsKICAgICAgfSk7CgogICAgICBzaG91bGRCZWhhdmVMaWtlRVJDMjBUcmFuc2Zlcih2YWx1ZSk7CiAgICB9KTsKCiAgICBpdCgncmV2ZXJ0cyB0cmFuc2ZlcnJpbmcgdG8gYW4gRU9BJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCBleHBlY3QodGhpcy50b2tlbi5jb25uZWN0KHRoaXMuaG9sZGVyKS5nZXRGdW5jdGlvbigndHJhbnNmZXJBbmRDYWxsKGFkZHJlc3MsdWludDI1NiknKSh0aGlzLm90aGVyLCB2YWx1ZSkpCiAgICAgICAgLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMudG9rZW4sICdFUkMxMzYzSW52YWxpZFJlY2VpdmVyJykKICAgICAgICAud2l0aEFyZ3ModGhpcy5vdGhlci5hZGRyZXNzKTsKICAgIH0pOwoKICAgIGl0KCdzdWNjZWVkcyB3aXRob3V0IGRhdGEnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IGV4cGVjdCgKICAgICAgICB0aGlzLnRva2VuLmNvbm5lY3QodGhpcy5ob2xkZXIpLmdldEZ1bmN0aW9uKCd0cmFuc2ZlckFuZENhbGwoYWRkcmVzcyx1aW50MjU2KScpKHRoaXMucmVjZWl2ZXIsIHZhbHVlKSwKICAgICAgKQogICAgICAgIC50by5lbWl0KHRoaXMudG9rZW4sICdUcmFuc2ZlcicpCiAgICAgICAgLndpdGhBcmdzKHRoaXMuaG9sZGVyLmFkZHJlc3MsIHRoaXMucmVjZWl2ZXIudGFyZ2V0LCB2YWx1ZSkKICAgICAgICAudG8uZW1pdCh0aGlzLnJlY2VpdmVyLCAnUmVjZWl2ZWQnKQogICAgICAgIC53aXRoQXJncyh0aGlzLmhvbGRlci5hZGRyZXNzLCB0aGlzLmhvbGRlci5hZGRyZXNzLCB2YWx1ZSwgJzB4Jyk7CiAgICB9KTsKCiAgICBpdCgnc3VjY2VlZHMgd2l0aCBkYXRhJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCBleHBlY3QoCiAgICAgICAgdGhpcy50b2tlbi5jb25uZWN0KHRoaXMuaG9sZGVyKS5nZXRGdW5jdGlvbigndHJhbnNmZXJBbmRDYWxsKGFkZHJlc3MsdWludDI1NixieXRlcyknKSgKICAgICAgICAgIHRoaXMucmVjZWl2ZXIsCiAgICAgICAgICB2YWx1ZSwKICAgICAgICAgIGRhdGEsCiAgICAgICAgKSwKICAgICAgKQogICAgICAgIC50by5lbWl0KHRoaXMudG9rZW4sICdUcmFuc2ZlcicpCiAgICAgICAgLndpdGhBcmdzKHRoaXMuaG9sZGVyLmFkZHJlc3MsIHRoaXMucmVjZWl2ZXIudGFyZ2V0LCB2YWx1ZSkKICAgICAgICAudG8uZW1pdCh0aGlzLnJlY2VpdmVyLCAnUmVjZWl2ZWQnKQogICAgICAgIC53aXRoQXJncyh0aGlzLmhvbGRlci5hZGRyZXNzLCB0aGlzLmhvbGRlci5hZGRyZXNzLCB2YWx1ZSwgZGF0YSk7CiAgICB9KTsKCiAgICBpdCgncmV2ZXJ0cyB3aXRoIHJldmVydGluZyBob29rICh3aXRob3V0IHJlYXNvbiknLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IHRoaXMucmVjZWl2ZXIuc2V0VXAodGhpcy5zZWxlY3RvcnMub25UcmFuc2ZlclJlY2VpdmVkLCBSZXZlcnRUeXBlLlJldmVydFdpdGhvdXRNZXNzYWdlKTsKCiAgICAgIGF3YWl0IGV4cGVjdCgKICAgICAgICB0aGlzLnRva2VuLmNvbm5lY3QodGhpcy5ob2xkZXIpLmdldEZ1bmN0aW9uKCd0cmFuc2ZlckFuZENhbGwoYWRkcmVzcyx1aW50MjU2LGJ5dGVzKScpKAogICAgICAgICAgdGhpcy5yZWNlaXZlciwKICAgICAgICAgIHZhbHVlLAogICAgICAgICAgZGF0YSwKICAgICAgICApLAogICAgICApCiAgICAgICAgLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMudG9rZW4sICdFUkMxMzYzSW52YWxpZFJlY2VpdmVyJykKICAgICAgICAud2l0aEFyZ3ModGhpcy5yZWNlaXZlci50YXJnZXQpOwogICAgfSk7CgogICAgaXQoJ3JldmVydHMgd2l0aCByZXZlcnRpbmcgaG9vayAod2l0aCByZWFzb24pJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCB0aGlzLnJlY2VpdmVyLnNldFVwKHRoaXMuc2VsZWN0b3JzLm9uVHJhbnNmZXJSZWNlaXZlZCwgUmV2ZXJ0VHlwZS5SZXZlcnRXaXRoTWVzc2FnZSk7CgogICAgICBhd2FpdCBleHBlY3QoCiAgICAgICAgdGhpcy50b2tlbi5jb25uZWN0KHRoaXMuaG9sZGVyKS5nZXRGdW5jdGlvbigndHJhbnNmZXJBbmRDYWxsKGFkZHJlc3MsdWludDI1NixieXRlcyknKSgKICAgICAgICAgIHRoaXMucmVjZWl2ZXIsCiAgICAgICAgICB2YWx1ZSwKICAgICAgICAgIGRhdGEsCiAgICAgICAgKSwKICAgICAgKS50by5iZS5yZXZlcnRlZFdpdGgoJ0VSQzEzNjNSZWNlaXZlck1vY2s6IHJldmVydGluZycpOwogICAgfSk7CgogICAgaXQoJ3JldmVydHMgd2l0aCByZXZlcnRpbmcgaG9vayAod2l0aCBjdXN0b20gZXJyb3IpJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCByZWFzb24gPSAnMHgxMjM0NTY3OCc7CiAgICAgIGF3YWl0IHRoaXMucmVjZWl2ZXIuc2V0VXAocmVhc29uLCBSZXZlcnRUeXBlLlJldmVydFdpdGhDdXN0b21FcnJvcik7CgogICAgICBhd2FpdCBleHBlY3QoCiAgICAgICAgdGhpcy50b2tlbi5jb25uZWN0KHRoaXMuaG9sZGVyKS5nZXRGdW5jdGlvbigndHJhbnNmZXJBbmRDYWxsKGFkZHJlc3MsdWludDI1NixieXRlcyknKSgKICAgICAgICAgIHRoaXMucmVjZWl2ZXIsCiAgICAgICAgICB2YWx1ZSwKICAgICAgICAgIGRhdGEsCiAgICAgICAgKSwKICAgICAgKQogICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLnJlY2VpdmVyLCAnQ3VzdG9tRXJyb3InKQogICAgICAgIC53aXRoQXJncyhyZWFzb24pOwogICAgfSk7CgogICAgaXQoJ3BhbmljcyB3aXRoIHJldmVydGluZyBob29rICh3aXRoIHBhbmljKScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgdGhpcy5yZWNlaXZlci5zZXRVcCh0aGlzLnNlbGVjdG9ycy5vblRyYW5zZmVyUmVjZWl2ZWQsIFJldmVydFR5cGUuUGFuaWMpOwoKICAgICAgYXdhaXQgZXhwZWN0KAogICAgICAgIHRoaXMudG9rZW4uY29ubmVjdCh0aGlzLmhvbGRlcikuZ2V0RnVuY3Rpb24oJ3RyYW5zZmVyQW5kQ2FsbChhZGRyZXNzLHVpbnQyNTYsYnl0ZXMpJykoCiAgICAgICAgICB0aGlzLnJlY2VpdmVyLAogICAgICAgICAgdmFsdWUsCiAgICAgICAgICBkYXRhLAogICAgICAgICksCiAgICAgICkudG8uYmUucmV2ZXJ0ZWRXaXRoUGFuaWMoKTsKICAgIH0pOwoKICAgIGl0KCdyZXZlcnRzIHdpdGggYmFkIHJldHVybiB2YWx1ZScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgdGhpcy5yZWNlaXZlci5zZXRVcCgnMHgxMjM0NTY3OCcsIFJldmVydFR5cGUuTm9uZSk7CgogICAgICBhd2FpdCBleHBlY3QoCiAgICAgICAgdGhpcy50b2tlbi5jb25uZWN0KHRoaXMuaG9sZGVyKS5nZXRGdW5jdGlvbigndHJhbnNmZXJBbmRDYWxsKGFkZHJlc3MsdWludDI1NixieXRlcyknKSgKICAgICAgICAgIHRoaXMucmVjZWl2ZXIsCiAgICAgICAgICB2YWx1ZSwKICAgICAgICAgIGRhdGEsCiAgICAgICAgKSwKICAgICAgKQogICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLnRva2VuLCAnRVJDMTM2M0ludmFsaWRSZWNlaXZlcicpCiAgICAgICAgLndpdGhBcmdzKHRoaXMucmVjZWl2ZXIudGFyZ2V0KTsKICAgIH0pOwogIH0pOwoKICBkZXNjcmliZSgndHJhbnNmZXJGcm9tQW5kQ2FsbCcsIGZ1bmN0aW9uICgpIHsKICAgIGJlZm9yZUVhY2goYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCB0aGlzLnRva2VuLmNvbm5lY3QodGhpcy5ob2xkZXIpLmFwcHJvdmUodGhpcy5vdGhlciwgZXRoZXJzLk1heFVpbnQyNTYpOwogICAgfSk7CgogICAgZGVzY3JpYmUoJ2FzIGEgdHJhbnNmZXInLCBmdW5jdGlvbiAoKSB7CiAgICAgIGJlZm9yZUVhY2goYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIHRoaXMucmVjaXBpZW50ID0gdGhpcy5yZWNlaXZlcjsKICAgICAgICB0aGlzLnRyYW5zZmVyID0gdGhpcy50b2tlbi5jb25uZWN0KHRoaXMub3RoZXIpLmdldEZ1bmN0aW9uKCd0cmFuc2ZlckZyb21BbmRDYWxsKGFkZHJlc3MsYWRkcmVzcyx1aW50MjU2KScpOwogICAgICB9KTsKCiAgICAgIHNob3VsZEJlaGF2ZUxpa2VFUkMyMFRyYW5zZmVyKHZhbHVlKTsKICAgIH0pOwoKICAgIGl0KCdyZXZlcnRzIHRyYW5zZmVycmluZyB0byBhbiBFT0EnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IGV4cGVjdCgKICAgICAgICB0aGlzLnRva2VuLmNvbm5lY3QodGhpcy5vdGhlcikuZ2V0RnVuY3Rpb24oJ3RyYW5zZmVyRnJvbUFuZENhbGwoYWRkcmVzcyxhZGRyZXNzLHVpbnQyNTYpJykoCiAgICAgICAgICB0aGlzLmhvbGRlciwKICAgICAgICAgIHRoaXMub3RoZXIsCiAgICAgICAgICB2YWx1ZSwKICAgICAgICApLAogICAgICApCiAgICAgICAgLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMudG9rZW4sICdFUkMxMzYzSW52YWxpZFJlY2VpdmVyJykKICAgICAgICAud2l0aEFyZ3ModGhpcy5vdGhlci5hZGRyZXNzKTsKICAgIH0pOwoKICAgIGl0KCdzdWNjZWVkcyB3aXRob3V0IGRhdGEnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IGV4cGVjdCgKICAgICAgICB0aGlzLnRva2VuLmNvbm5lY3QodGhpcy5vdGhlcikuZ2V0RnVuY3Rpb24oJ3RyYW5zZmVyRnJvbUFuZENhbGwoYWRkcmVzcyxhZGRyZXNzLHVpbnQyNTYpJykoCiAgICAgICAgICB0aGlzLmhvbGRlciwKICAgICAgICAgIHRoaXMucmVjZWl2ZXIsCiAgICAgICAgICB2YWx1ZSwKICAgICAgICApLAogICAgICApCiAgICAgICAgLnRvLmVtaXQodGhpcy50b2tlbiwgJ1RyYW5zZmVyJykKICAgICAgICAud2l0aEFyZ3ModGhpcy5ob2xkZXIuYWRkcmVzcywgdGhpcy5yZWNlaXZlci50YXJnZXQsIHZhbHVlKQogICAgICAgIC50by5lbWl0KHRoaXMucmVjZWl2ZXIsICdSZWNlaXZlZCcpCiAgICAgICAgLndpdGhBcmdzKHRoaXMub3RoZXIuYWRkcmVzcywgdGhpcy5ob2xkZXIuYWRkcmVzcywgdmFsdWUsICcweCcpOwogICAgfSk7CgogICAgaXQoJ3N1Y2NlZWRzIHdpdGggZGF0YScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgZXhwZWN0KAogICAgICAgIHRoaXMudG9rZW4uY29ubmVjdCh0aGlzLm90aGVyKS5nZXRGdW5jdGlvbigndHJhbnNmZXJGcm9tQW5kQ2FsbChhZGRyZXNzLGFkZHJlc3MsdWludDI1NixieXRlcyknKSgKICAgICAgICAgIHRoaXMuaG9sZGVyLAogICAgICAgICAgdGhpcy5yZWNlaXZlciwKICAgICAgICAgIHZhbHVlLAogICAgICAgICAgZGF0YSwKICAgICAgICApLAogICAgICApCiAgICAgICAgLnRvLmVtaXQodGhpcy50b2tlbiwgJ1RyYW5zZmVyJykKICAgICAgICAud2l0aEFyZ3ModGhpcy5ob2xkZXIuYWRkcmVzcywgdGhpcy5yZWNlaXZlci50YXJnZXQsIHZhbHVlKQogICAgICAgIC50by5lbWl0KHRoaXMucmVjZWl2ZXIsICdSZWNlaXZlZCcpCiAgICAgICAgLndpdGhBcmdzKHRoaXMub3RoZXIuYWRkcmVzcywgdGhpcy5ob2xkZXIuYWRkcmVzcywgdmFsdWUsIGRhdGEpOwogICAgfSk7CgogICAgaXQoJ3JldmVydHMgd2l0aCByZXZlcnRpbmcgaG9vayAod2l0aG91dCByZWFzb24pJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCB0aGlzLnJlY2VpdmVyLnNldFVwKHRoaXMuc2VsZWN0b3JzLm9uVHJhbnNmZXJSZWNlaXZlZCwgUmV2ZXJ0VHlwZS5SZXZlcnRXaXRob3V0TWVzc2FnZSk7CgogICAgICBhd2FpdCBleHBlY3QoCiAgICAgICAgdGhpcy50b2tlbi5jb25uZWN0KHRoaXMub3RoZXIpLmdldEZ1bmN0aW9uKCd0cmFuc2ZlckZyb21BbmRDYWxsKGFkZHJlc3MsYWRkcmVzcyx1aW50MjU2LGJ5dGVzKScpKAogICAgICAgICAgdGhpcy5ob2xkZXIsCiAgICAgICAgICB0aGlzLnJlY2VpdmVyLAogICAgICAgICAgdmFsdWUsCiAgICAgICAgICBkYXRhLAogICAgICAgICksCiAgICAgICkKICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy50b2tlbiwgJ0VSQzEzNjNJbnZhbGlkUmVjZWl2ZXInKQogICAgICAgIC53aXRoQXJncyh0aGlzLnJlY2VpdmVyLnRhcmdldCk7CiAgICB9KTsKCiAgICBpdCgncmV2ZXJ0cyB3aXRoIHJldmVydGluZyBob29rICh3aXRoIHJlYXNvbiknLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IHRoaXMucmVjZWl2ZXIuc2V0VXAodGhpcy5zZWxlY3RvcnMub25UcmFuc2ZlclJlY2VpdmVkLCBSZXZlcnRUeXBlLlJldmVydFdpdGhNZXNzYWdlKTsKCiAgICAgIGF3YWl0IGV4cGVjdCgKICAgICAgICB0aGlzLnRva2VuLmNvbm5lY3QodGhpcy5vdGhlcikuZ2V0RnVuY3Rpb24oJ3RyYW5zZmVyRnJvbUFuZENhbGwoYWRkcmVzcyxhZGRyZXNzLHVpbnQyNTYsYnl0ZXMpJykoCiAgICAgICAgICB0aGlzLmhvbGRlciwKICAgICAgICAgIHRoaXMucmVjZWl2ZXIsCiAgICAgICAgICB2YWx1ZSwKICAgICAgICAgIGRhdGEsCiAgICAgICAgKSwKICAgICAgKS50by5iZS5yZXZlcnRlZFdpdGgoJ0VSQzEzNjNSZWNlaXZlck1vY2s6IHJldmVydGluZycpOwogICAgfSk7CgogICAgaXQoJ3JldmVydHMgd2l0aCByZXZlcnRpbmcgaG9vayAod2l0aCBjdXN0b20gZXJyb3IpJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCByZWFzb24gPSAnMHgxMjM0NTY3OCc7CiAgICAgIGF3YWl0IHRoaXMucmVjZWl2ZXIuc2V0VXAocmVhc29uLCBSZXZlcnRUeXBlLlJldmVydFdpdGhDdXN0b21FcnJvcik7CgogICAgICBhd2FpdCBleHBlY3QoCiAgICAgICAgdGhpcy50b2tlbi5jb25uZWN0KHRoaXMub3RoZXIpLmdldEZ1bmN0aW9uKCd0cmFuc2ZlckZyb21BbmRDYWxsKGFkZHJlc3MsYWRkcmVzcyx1aW50MjU2LGJ5dGVzKScpKAogICAgICAgICAgdGhpcy5ob2xkZXIsCiAgICAgICAgICB0aGlzLnJlY2VpdmVyLAogICAgICAgICAgdmFsdWUsCiAgICAgICAgICBkYXRhLAogICAgICAgICksCiAgICAgICkKICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy5yZWNlaXZlciwgJ0N1c3RvbUVycm9yJykKICAgICAgICAud2l0aEFyZ3MocmVhc29uKTsKICAgIH0pOwoKICAgIGl0KCdwYW5pY3Mgd2l0aCByZXZlcnRpbmcgaG9vayAod2l0aCBwYW5pYyknLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IHRoaXMucmVjZWl2ZXIuc2V0VXAodGhpcy5zZWxlY3RvcnMub25UcmFuc2ZlclJlY2VpdmVkLCBSZXZlcnRUeXBlLlBhbmljKTsKCiAgICAgIGF3YWl0IGV4cGVjdCgKICAgICAgICB0aGlzLnRva2VuLmNvbm5lY3QodGhpcy5vdGhlcikuZ2V0RnVuY3Rpb24oJ3RyYW5zZmVyRnJvbUFuZENhbGwoYWRkcmVzcyxhZGRyZXNzLHVpbnQyNTYsYnl0ZXMpJykoCiAgICAgICAgICB0aGlzLmhvbGRlciwKICAgICAgICAgIHRoaXMucmVjZWl2ZXIsCiAgICAgICAgICB2YWx1ZSwKICAgICAgICAgIGRhdGEsCiAgICAgICAgKSwKICAgICAgKS50by5iZS5yZXZlcnRlZFdpdGhQYW5pYygpOwogICAgfSk7CgogICAgaXQoJ3JldmVydHMgd2l0aCBiYWQgcmV0dXJuIHZhbHVlJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCB0aGlzLnJlY2VpdmVyLnNldFVwKCcweDEyMzQ1Njc4JywgUmV2ZXJ0VHlwZS5Ob25lKTsKCiAgICAgIGF3YWl0IGV4cGVjdCgKICAgICAgICB0aGlzLnRva2VuLmNvbm5lY3QodGhpcy5vdGhlcikuZ2V0RnVuY3Rpb24oJ3RyYW5zZmVyRnJvbUFuZENhbGwoYWRkcmVzcyxhZGRyZXNzLHVpbnQyNTYsYnl0ZXMpJykoCiAgICAgICAgICB0aGlzLmhvbGRlciwKICAgICAgICAgIHRoaXMucmVjZWl2ZXIsCiAgICAgICAgICB2YWx1ZSwKICAgICAgICAgIGRhdGEsCiAgICAgICAgKSwKICAgICAgKQogICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLnRva2VuLCAnRVJDMTM2M0ludmFsaWRSZWNlaXZlcicpCiAgICAgICAgLndpdGhBcmdzKHRoaXMucmVjZWl2ZXIudGFyZ2V0KTsKICAgIH0pOwogIH0pOwoKICBkZXNjcmliZSgnYXBwcm92ZUFuZENhbGwnLCBmdW5jdGlvbiAoKSB7CiAgICBkZXNjcmliZSgnYXMgYW4gYXBwcm92YWwnLCBmdW5jdGlvbiAoKSB7CiAgICAgIGJlZm9yZUVhY2goYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIHRoaXMucmVjaXBpZW50ID0gdGhpcy5zcGVuZGVyOwogICAgICAgIHRoaXMuYXBwcm92ZSA9IChob2xkZXIsIC4uLnJlc3QpID0+CiAgICAgICAgICB0aGlzLnRva2VuLmNvbm5lY3QoaG9sZGVyKS5nZXRGdW5jdGlvbignYXBwcm92ZUFuZENhbGwoYWRkcmVzcyx1aW50MjU2KScpKC4uLnJlc3QpOwogICAgICB9KTsKCiAgICAgIHNob3VsZEJlaGF2ZUxpa2VFUkMyMEFwcHJvdmUodmFsdWUpOwogICAgfSk7CgogICAgaXQoJ3JldmVydHMgYXBwcm92aW5nIGFuIEVPQScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMudG9rZW4uY29ubmVjdCh0aGlzLmhvbGRlcikuZ2V0RnVuY3Rpb24oJ2FwcHJvdmVBbmRDYWxsKGFkZHJlc3MsdWludDI1NiknKSh0aGlzLm90aGVyLCB2YWx1ZSkpCiAgICAgICAgLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMudG9rZW4sICdFUkMxMzYzSW52YWxpZFNwZW5kZXInKQogICAgICAgIC53aXRoQXJncyh0aGlzLm90aGVyLmFkZHJlc3MpOwogICAgfSk7CgogICAgaXQoJ3N1Y2NlZWRzIHdpdGhvdXQgZGF0YScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMudG9rZW4uY29ubmVjdCh0aGlzLmhvbGRlcikuZ2V0RnVuY3Rpb24oJ2FwcHJvdmVBbmRDYWxsKGFkZHJlc3MsdWludDI1NiknKSh0aGlzLnNwZW5kZXIsIHZhbHVlKSkKICAgICAgICAudG8uZW1pdCh0aGlzLnRva2VuLCAnQXBwcm92YWwnKQogICAgICAgIC53aXRoQXJncyh0aGlzLmhvbGRlci5hZGRyZXNzLCB0aGlzLnNwZW5kZXIudGFyZ2V0LCB2YWx1ZSkKICAgICAgICAudG8uZW1pdCh0aGlzLnNwZW5kZXIsICdBcHByb3ZlZCcpCiAgICAgICAgLndpdGhBcmdzKHRoaXMuaG9sZGVyLmFkZHJlc3MsIHZhbHVlLCAnMHgnKTsKICAgIH0pOwoKICAgIGl0KCdzdWNjZWVkcyB3aXRoIGRhdGEnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IGV4cGVjdCgKICAgICAgICB0aGlzLnRva2VuLmNvbm5lY3QodGhpcy5ob2xkZXIpLmdldEZ1bmN0aW9uKCdhcHByb3ZlQW5kQ2FsbChhZGRyZXNzLHVpbnQyNTYsYnl0ZXMpJykodGhpcy5zcGVuZGVyLCB2YWx1ZSwgZGF0YSksCiAgICAgICkKICAgICAgICAudG8uZW1pdCh0aGlzLnRva2VuLCAnQXBwcm92YWwnKQogICAgICAgIC53aXRoQXJncyh0aGlzLmhvbGRlci5hZGRyZXNzLCB0aGlzLnNwZW5kZXIudGFyZ2V0LCB2YWx1ZSkKICAgICAgICAudG8uZW1pdCh0aGlzLnNwZW5kZXIsICdBcHByb3ZlZCcpCiAgICAgICAgLndpdGhBcmdzKHRoaXMuaG9sZGVyLmFkZHJlc3MsIHZhbHVlLCBkYXRhKTsKICAgIH0pOwoKICAgIGl0KCd3aXRoIHJldmVydGluZyBob29rICh3aXRob3V0IHJlYXNvbiknLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IHRoaXMuc3BlbmRlci5zZXRVcCh0aGlzLnNlbGVjdG9ycy5vbkFwcHJvdmFsUmVjZWl2ZWQsIFJldmVydFR5cGUuUmV2ZXJ0V2l0aG91dE1lc3NhZ2UpOwoKICAgICAgYXdhaXQgZXhwZWN0KAogICAgICAgIHRoaXMudG9rZW4uY29ubmVjdCh0aGlzLmhvbGRlcikuZ2V0RnVuY3Rpb24oJ2FwcHJvdmVBbmRDYWxsKGFkZHJlc3MsdWludDI1NixieXRlcyknKSh0aGlzLnNwZW5kZXIsIHZhbHVlLCBkYXRhKSwKICAgICAgKQogICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLnRva2VuLCAnRVJDMTM2M0ludmFsaWRTcGVuZGVyJykKICAgICAgICAud2l0aEFyZ3ModGhpcy5zcGVuZGVyLnRhcmdldCk7CiAgICB9KTsKCiAgICBpdCgncmV2ZXJ0cyB3aXRoIHJldmVydGluZyBob29rICh3aXRoIHJlYXNvbiknLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IHRoaXMuc3BlbmRlci5zZXRVcCh0aGlzLnNlbGVjdG9ycy5vbkFwcHJvdmFsUmVjZWl2ZWQsIFJldmVydFR5cGUuUmV2ZXJ0V2l0aE1lc3NhZ2UpOwoKICAgICAgYXdhaXQgZXhwZWN0KAogICAgICAgIHRoaXMudG9rZW4uY29ubmVjdCh0aGlzLmhvbGRlcikuZ2V0RnVuY3Rpb24oJ2FwcHJvdmVBbmRDYWxsKGFkZHJlc3MsdWludDI1NixieXRlcyknKSh0aGlzLnNwZW5kZXIsIHZhbHVlLCBkYXRhKSwKICAgICAgKS50by5iZS5yZXZlcnRlZFdpdGgoJ0VSQzEzNjNTcGVuZGVyTW9jazogcmV2ZXJ0aW5nJyk7CiAgICB9KTsKCiAgICBpdCgncmV2ZXJ0cyB3aXRoIHJldmVydGluZyBob29rICh3aXRoIGN1c3RvbSBlcnJvciknLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGNvbnN0IHJlYXNvbiA9ICcweDEyMzQ1Njc4JzsKICAgICAgYXdhaXQgdGhpcy5zcGVuZGVyLnNldFVwKHJlYXNvbiwgUmV2ZXJ0VHlwZS5SZXZlcnRXaXRoQ3VzdG9tRXJyb3IpOwoKICAgICAgYXdhaXQgZXhwZWN0KAogICAgICAgIHRoaXMudG9rZW4uY29ubmVjdCh0aGlzLmhvbGRlcikuZ2V0RnVuY3Rpb24oJ2FwcHJvdmVBbmRDYWxsKGFkZHJlc3MsdWludDI1NixieXRlcyknKSh0aGlzLnNwZW5kZXIsIHZhbHVlLCBkYXRhKSwKICAgICAgKQogICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLnNwZW5kZXIsICdDdXN0b21FcnJvcicpCiAgICAgICAgLndpdGhBcmdzKHJlYXNvbik7CiAgICB9KTsKCiAgICBpdCgncGFuaWNzIHdpdGggcmV2ZXJ0aW5nIGhvb2sgKHdpdGggcGFuaWMpJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCB0aGlzLnNwZW5kZXIuc2V0VXAodGhpcy5zZWxlY3RvcnMub25BcHByb3ZhbFJlY2VpdmVkLCBSZXZlcnRUeXBlLlBhbmljKTsKCiAgICAgIGF3YWl0IGV4cGVjdCgKICAgICAgICB0aGlzLnRva2VuLmNvbm5lY3QodGhpcy5ob2xkZXIpLmdldEZ1bmN0aW9uKCdhcHByb3ZlQW5kQ2FsbChhZGRyZXNzLHVpbnQyNTYsYnl0ZXMpJykodGhpcy5zcGVuZGVyLCB2YWx1ZSwgZGF0YSksCiAgICAgICkudG8uYmUucmV2ZXJ0ZWRXaXRoUGFuaWMoKTsKICAgIH0pOwoKICAgIGl0KCdyZXZlcnRzIHdpdGggYmFkIHJldHVybiB2YWx1ZScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgdGhpcy5zcGVuZGVyLnNldFVwKCcweDEyMzQ1Njc4JywgUmV2ZXJ0VHlwZS5Ob25lKTsKCiAgICAgIGF3YWl0IGV4cGVjdCgKICAgICAgICB0aGlzLnRva2VuLmNvbm5lY3QodGhpcy5ob2xkZXIpLmdldEZ1bmN0aW9uKCdhcHByb3ZlQW5kQ2FsbChhZGRyZXNzLHVpbnQyNTYsYnl0ZXMpJykodGhpcy5zcGVuZGVyLCB2YWx1ZSwgZGF0YSksCiAgICAgICkKICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy50b2tlbiwgJ0VSQzEzNjNJbnZhbGlkU3BlbmRlcicpCiAgICAgICAgLndpdGhBcmdzKHRoaXMuc3BlbmRlci50YXJnZXQpOwogICAgfSk7CiAgfSk7Cn0pOwo=
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+const {
+  shouldBehaveLikeERC20,
+  shouldBehaveLikeERC20Transfer,
+  shouldBehaveLikeERC20Approve,
+} = require('../ERC20.behavior.js');
+const { shouldSupportInterfaces } = require('../../../utils/introspection/SupportsInterface.behavior');
+const { RevertType } = require('../../../helpers/enums.js');
+
+const name = 'My Token';
+const symbol = 'MTKN';
+const value = 1000n;
+const data = '0x123456';
+
+async function fixture() {
+  // this.accounts is used by shouldBehaveLikeERC20
+  const accounts = await ethers.getSigners();
+  const [holder, other] = accounts;
+
+  const receiver = await ethers.deployContract('ERC1363ReceiverMock');
+  const spender = await ethers.deployContract('ERC1363SpenderMock');
+  const token = await ethers.deployContract('$ERC1363', [name, symbol]);
+
+  await token.$_mint(holder, value);
+
+  return {
+    accounts,
+    holder,
+    other,
+    token,
+    receiver,
+    spender,
+    selectors: {
+      onTransferReceived: receiver.interface.getFunction('onTransferReceived(address,address,uint256,bytes)').selector,
+      onApprovalReceived: spender.interface.getFunction('onApprovalReceived(address,uint256,bytes)').selector,
+    },
+  };
+}
+
+describe('ERC1363', function () {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  shouldSupportInterfaces(['ERC165', 'ERC1363']);
+  shouldBehaveLikeERC20(value);
+
+  describe('transferAndCall', function () {
+    describe('as a transfer', function () {
+      beforeEach(async function () {
+        this.recipient = this.receiver;
+        this.transfer = (holder, ...rest) =>
+          this.token.connect(holder).getFunction('transferAndCall(address,uint256)')(...rest);
+      });
+
+      shouldBehaveLikeERC20Transfer(value);
+    });
+
+    it('reverts transferring to an EOA', async function () {
+      await expect(this.token.connect(this.holder).getFunction('transferAndCall(address,uint256)')(this.other, value))
+        .to.be.revertedWithCustomError(this.token, 'ERC1363InvalidReceiver')
+        .withArgs(this.other.address);
+    });
+
+    it('succeeds without data', async function () {
+      await expect(
+        this.token.connect(this.holder).getFunction('transferAndCall(address,uint256)')(this.receiver, value),
+      )
+        .to.emit(this.token, 'Transfer')
+        .withArgs(this.holder.address, this.receiver.target, value)
+        .to.emit(this.receiver, 'Received')
+        .withArgs(this.holder.address, this.holder.address, value, '0x');
+    });
+
+    it('succeeds with data', async function () {
+      await expect(
+        this.token.connect(this.holder).getFunction('transferAndCall(address,uint256,bytes)')(
+          this.receiver,
+          value,
+          data,
+        ),
+      )
+        .to.emit(this.token, 'Transfer')
+        .withArgs(this.holder.address, this.receiver.target, value)
+        .to.emit(this.receiver, 'Received')
+        .withArgs(this.holder.address, this.holder.address, value, data);
+    });
+
+    it('reverts with reverting hook (without reason)', async function () {
+      await this.receiver.setUp(this.selectors.onTransferReceived, RevertType.RevertWithoutMessage);
+
+      await expect(
+        this.token.connect(this.holder).getFunction('transferAndCall(address,uint256,bytes)')(
+          this.receiver,
+          value,
+          data,
+        ),
+      )
+        .to.be.revertedWithCustomError(this.token, 'ERC1363InvalidReceiver')
+        .withArgs(this.receiver.target);
+    });
+
+    it('reverts with reverting hook (with reason)', async function () {
+      await this.receiver.setUp(this.selectors.onTransferReceived, RevertType.RevertWithMessage);
+
+      await expect(
+        this.token.connect(this.holder).getFunction('transferAndCall(address,uint256,bytes)')(
+          this.receiver,
+          value,
+          data,
+        ),
+      ).to.be.revertedWith('ERC1363ReceiverMock: reverting');
+    });
+
+    it('reverts with reverting hook (with custom error)', async function () {
+      const reason = '0x12345678';
+      await this.receiver.setUp(reason, RevertType.RevertWithCustomError);
+
+      await expect(
+        this.token.connect(this.holder).getFunction('transferAndCall(address,uint256,bytes)')(
+          this.receiver,
+          value,
+          data,
+        ),
+      )
+        .to.be.revertedWithCustomError(this.receiver, 'CustomError')
+        .withArgs(reason);
+    });
+
+    it('panics with reverting hook (with panic)', async function () {
+      await this.receiver.setUp(this.selectors.onTransferReceived, RevertType.Panic);
+
+      await expect(
+        this.token.connect(this.holder).getFunction('transferAndCall(address,uint256,bytes)')(
+          this.receiver,
+          value,
+          data,
+        ),
+      ).to.be.revertedWithPanic();
+    });
+
+    it('reverts with bad return value', async function () {
+      await this.receiver.setUp('0x12345678', RevertType.None);
+
+      await expect(
+        this.token.connect(this.holder).getFunction('transferAndCall(address,uint256,bytes)')(
+          this.receiver,
+          value,
+          data,
+        ),
+      )
+        .to.be.revertedWithCustomError(this.token, 'ERC1363InvalidReceiver')
+        .withArgs(this.receiver.target);
+    });
+  });
+
+  describe('transferFromAndCall', function () {
+    beforeEach(async function () {
+      await this.token.connect(this.holder).approve(this.other, ethers.MaxUint256);
+    });
+
+    describe('as a transfer', function () {
+      beforeEach(async function () {
+        this.recipient = this.receiver;
+        this.transfer = this.token.connect(this.other).getFunction('transferFromAndCall(address,address,uint256)');
+      });
+
+      shouldBehaveLikeERC20Transfer(value);
+    });
+
+    it('reverts transferring to an EOA', async function () {
+      await expect(
+        this.token.connect(this.other).getFunction('transferFromAndCall(address,address,uint256)')(
+          this.holder,
+          this.other,
+          value,
+        ),
+      )
+        .to.be.revertedWithCustomError(this.token, 'ERC1363InvalidReceiver')
+        .withArgs(this.other.address);
+    });
+
+    it('succeeds without data', async function () {
+      await expect(
+        this.token.connect(this.other).getFunction('transferFromAndCall(address,address,uint256)')(
+          this.holder,
+          this.receiver,
+          value,
+        ),
+      )
+        .to.emit(this.token, 'Transfer')
+        .withArgs(this.holder.address, this.receiver.target, value)
+        .to.emit(this.receiver, 'Received')
+        .withArgs(this.other.address, this.holder.address, value, '0x');
+    });
+
+    it('succeeds with data', async function () {
+      await expect(
+        this.token.connect(this.other).getFunction('transferFromAndCall(address,address,uint256,bytes)')(
+          this.holder,
+          this.receiver,
+          value,
+          data,
+        ),
+      )
+        .to.emit(this.token, 'Transfer')
+        .withArgs(this.holder.address, this.receiver.target, value)
+        .to.emit(this.receiver, 'Received')
+        .withArgs(this.other.address, this.holder.address, value, data);
+    });
+
+    it('reverts with reverting hook (without reason)', async function () {
+      await this.receiver.setUp(this.selectors.onTransferReceived, RevertType.RevertWithoutMessage);
+
+      await expect(
+        this.token.connect(this.other).getFunction('transferFromAndCall(address,address,uint256,bytes)')(
+          this.holder,
+          this.receiver,
+          value,
+          data,
+        ),
+      )
+        .to.be.revertedWithCustomError(this.token, 'ERC1363InvalidReceiver')
+        .withArgs(this.receiver.target);
+    });
+
+    it('reverts with reverting hook (with reason)', async function () {
+      await this.receiver.setUp(this.selectors.onTransferReceived, RevertType.RevertWithMessage);
+
+      await expect(
+        this.token.connect(this.other).getFunction('transferFromAndCall(address,address,uint256,bytes)')(
+          this.holder,
+          this.receiver,
+          value,
+          data,
+        ),
+      ).to.be.revertedWith('ERC1363ReceiverMock: reverting');
+    });
+
+    it('reverts with reverting hook (with custom error)', async function () {
+      const reason = '0x12345678';
+      await this.receiver.setUp(reason, RevertType.RevertWithCustomError);
+
+      await expect(
+        this.token.connect(this.other).getFunction('transferFromAndCall(address,address,uint256,bytes)')(
+          this.holder,
+          this.receiver,
+          value,
+          data,
+        ),
+      )
+        .to.be.revertedWithCustomError(this.receiver, 'CustomError')
+        .withArgs(reason);
+    });
+
+    it('panics with reverting hook (with panic)', async function () {
+      await this.receiver.setUp(this.selectors.onTransferReceived, RevertType.Panic);
+
+      await expect(
+        this.token.connect(this.other).getFunction('transferFromAndCall(address,address,uint256,bytes)')(
+          this.holder,
+          this.receiver,
+          value,
+          data,
+        ),
+      ).to.be.revertedWithPanic();
+    });
+
+    it('reverts with bad return value', async function () {
+      await this.receiver.setUp('0x12345678', RevertType.None);
+
+      await expect(
+        this.token.connect(this.other).getFunction('transferFromAndCall(address,address,uint256,bytes)')(
+          this.holder,
+          this.receiver,
+          value,
+          data,
+        ),
+      )
+        .to.be.revertedWithCustomError(this.token, 'ERC1363InvalidReceiver')
+        .withArgs(this.receiver.target);
+    });
+  });
+
+  describe('approveAndCall', function () {
+    describe('as an approval', function () {
+      beforeEach(async function () {
+        this.recipient = this.spender;
+        this.approve = (holder, ...rest) =>
+          this.token.connect(holder).getFunction('approveAndCall(address,uint256)')(...rest);
+      });
+
+      shouldBehaveLikeERC20Approve(value);
+    });
+
+    it('reverts approving an EOA', async function () {
+      await expect(this.token.connect(this.holder).getFunction('approveAndCall(address,uint256)')(this.other, value))
+        .to.be.revertedWithCustomError(this.token, 'ERC1363InvalidSpender')
+        .withArgs(this.other.address);
+    });
+
+    it('succeeds without data', async function () {
+      await expect(this.token.connect(this.holder).getFunction('approveAndCall(address,uint256)')(this.spender, value))
+        .to.emit(this.token, 'Approval')
+        .withArgs(this.holder.address, this.spender.target, value)
+        .to.emit(this.spender, 'Approved')
+        .withArgs(this.holder.address, value, '0x');
+    });
+
+    it('succeeds with data', async function () {
+      await expect(
+        this.token.connect(this.holder).getFunction('approveAndCall(address,uint256,bytes)')(this.spender, value, data),
+      )
+        .to.emit(this.token, 'Approval')
+        .withArgs(this.holder.address, this.spender.target, value)
+        .to.emit(this.spender, 'Approved')
+        .withArgs(this.holder.address, value, data);
+    });
+
+    it('with reverting hook (without reason)', async function () {
+      await this.spender.setUp(this.selectors.onApprovalReceived, RevertType.RevertWithoutMessage);
+
+      await expect(
+        this.token.connect(this.holder).getFunction('approveAndCall(address,uint256,bytes)')(this.spender, value, data),
+      )
+        .to.be.revertedWithCustomError(this.token, 'ERC1363InvalidSpender')
+        .withArgs(this.spender.target);
+    });
+
+    it('reverts with reverting hook (with reason)', async function () {
+      await this.spender.setUp(this.selectors.onApprovalReceived, RevertType.RevertWithMessage);
+
+      await expect(
+        this.token.connect(this.holder).getFunction('approveAndCall(address,uint256,bytes)')(this.spender, value, data),
+      ).to.be.revertedWith('ERC1363SpenderMock: reverting');
+    });
+
+    it('reverts with reverting hook (with custom error)', async function () {
+      const reason = '0x12345678';
+      await this.spender.setUp(reason, RevertType.RevertWithCustomError);
+
+      await expect(
+        this.token.connect(this.holder).getFunction('approveAndCall(address,uint256,bytes)')(this.spender, value, data),
+      )
+        .to.be.revertedWithCustomError(this.spender, 'CustomError')
+        .withArgs(reason);
+    });
+
+    it('panics with reverting hook (with panic)', async function () {
+      await this.spender.setUp(this.selectors.onApprovalReceived, RevertType.Panic);
+
+      await expect(
+        this.token.connect(this.holder).getFunction('approveAndCall(address,uint256,bytes)')(this.spender, value, data),
+      ).to.be.revertedWithPanic();
+    });
+
+    it('reverts with bad return value', async function () {
+      await this.spender.setUp('0x12345678', RevertType.None);
+
+      await expect(
+        this.token.connect(this.holder).getFunction('approveAndCall(address,uint256,bytes)')(this.spender, value, data),
+      )
+        .to.be.revertedWithCustomError(this.token, 'ERC1363InvalidSpender')
+        .withArgs(this.spender.target);
+    });
+  });
+});
