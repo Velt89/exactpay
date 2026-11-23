@@ -1,1 +1,19 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKCmNvbnN0IGdlbmVyYXRvcnMgPSB7CiAgYWRkcmVzczogKCkgPT4gZXRoZXJzLldhbGxldC5jcmVhdGVSYW5kb20oKS5hZGRyZXNzLAogIGJ5dGVzMzI6ICgpID0+IGV0aGVycy5oZXhsaWZ5KGV0aGVycy5yYW5kb21CeXRlcygzMikpLAogIHVpbnQyNTY6ICgpID0+IGV0aGVycy50b0JpZ0ludChldGhlcnMucmFuZG9tQnl0ZXMoMzIpKSwKICBpbnQyNTY6ICgpID0+IGV0aGVycy50b0JpZ0ludChldGhlcnMucmFuZG9tQnl0ZXMoMzIpKSArIGV0aGVycy5NaW5JbnQyNTYsCiAgaGV4Qnl0ZXM6IGxlbmd0aCA9PiBldGhlcnMuaGV4bGlmeShldGhlcnMucmFuZG9tQnl0ZXMobGVuZ3RoKSksCn07CgpnZW5lcmF0b3JzLmFkZHJlc3MuemVybyA9IGV0aGVycy5aZXJvQWRkcmVzczsKZ2VuZXJhdG9ycy5ieXRlczMyLnplcm8gPSBldGhlcnMuWmVyb0hhc2g7CmdlbmVyYXRvcnMudWludDI1Ni56ZXJvID0gMG47CmdlbmVyYXRvcnMuaW50MjU2Lnplcm8gPSAwbjsKZ2VuZXJhdG9ycy5oZXhCeXRlcy56ZXJvID0gJzB4JzsKCm1vZHVsZS5leHBvcnRzID0gewogIGdlbmVyYXRvcnMsCn07Cg==
+const { ethers } = require('hardhat');
+
+const generators = {
+  address: () => ethers.Wallet.createRandom().address,
+  bytes32: () => ethers.hexlify(ethers.randomBytes(32)),
+  uint256: () => ethers.toBigInt(ethers.randomBytes(32)),
+  int256: () => ethers.toBigInt(ethers.randomBytes(32)) + ethers.MinInt256,
+  hexBytes: length => ethers.hexlify(ethers.randomBytes(length)),
+};
+
+generators.address.zero = ethers.ZeroAddress;
+generators.bytes32.zero = ethers.ZeroHash;
+generators.uint256.zero = 0n;
+generators.int256.zero = 0n;
+generators.hexBytes.zero = '0x';
+
+module.exports = {
+  generators,
+};
