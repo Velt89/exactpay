@@ -1,1 +1,20 @@
-Y29uc3QgZnMgPSByZXF1aXJlKCdmcycpOwpjb25zdCB7IGdldFN0b3JhZ2VVcGdyYWRlUmVwb3J0IH0gPSByZXF1aXJlKCdAb3BlbnplcHBlbGluL3VwZ3JhZGVzLWNvcmUvZGlzdC9zdG9yYWdlJyk7Cgpjb25zdCB7IHJlZiwgaGVhZCB9ID0gcmVxdWlyZSgneWFyZ3MnKS5hcmd2OwoKY29uc3Qgb2xkTGF5b3V0ID0gSlNPTi5wYXJzZShmcy5yZWFkRmlsZVN5bmMocmVmKSk7CmNvbnN0IG5ld0xheW91dCA9IEpTT04ucGFyc2UoZnMucmVhZEZpbGVTeW5jKGhlYWQpKTsKCmZvciAoY29uc3QgbmFtZSBpbiBvbGRMYXlvdXQpIHsKICBpZiAobmFtZSBpbiBuZXdMYXlvdXQpIHsKICAgIGNvbnN0IHJlcG9ydCA9IGdldFN0b3JhZ2VVcGdyYWRlUmVwb3J0KG9sZExheW91dFtuYW1lXSwgbmV3TGF5b3V0W25hbWVdLCB7fSk7CiAgICBpZiAoIXJlcG9ydC5vaykgewogICAgICBjb25zb2xlLmxvZyhgU3RvcmFnZSBsYXlvdXQgaW5jb21wYXRpYmlsaXR5IGZvdW5kIGluICR7bmFtZX06YCk7CiAgICAgIGNvbnNvbGUubG9nKHJlcG9ydC5leHBsYWluKCkpOwogICAgICBwcm9jZXNzLmV4aXRDb2RlID0gMTsKICAgIH0KICB9IGVsc2UgewogICAgY29uc29sZS5sb2coYFdBUk5JTkc6ICR7bmFtZX0gaXMgbWlzc2luZyBmcm9tIHRoZSBjdXJyZW50IGJyYW5jaGApOwogIH0KfQo=
+const fs = require('fs');
+const { getStorageUpgradeReport } = require('@openzeppelin/upgrades-core/dist/storage');
+
+const { ref, head } = require('yargs').argv;
+
+const oldLayout = JSON.parse(fs.readFileSync(ref));
+const newLayout = JSON.parse(fs.readFileSync(head));
+
+for (const name in oldLayout) {
+  if (name in newLayout) {
+    const report = getStorageUpgradeReport(oldLayout[name], newLayout[name], {});
+    if (!report.ok) {
+      console.log(`Storage layout incompatibility found in ${name}:`);
+      console.log(report.explain());
+      process.exitCode = 1;
+    }
+  } else {
+    console.log(`WARNING: ${name} is missing from the current branch`);
+  }
+}
