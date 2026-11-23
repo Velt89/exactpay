@@ -1,1 +1,21 @@
-VGhlIHVwZ3JhZGVhYmxlIHZhcmlhbnQgb2YgT3BlblplcHBlbGluIENvbnRyYWN0cyBpcyBhdXRvbWF0aWNhbGx5IGdlbmVyYXRlZCBmcm9tIHRoZSBvcmlnaW5hbCBTb2xpZGl0eSBjb2RlLiBXZSBjYWxsIHRoaXMgcHJvY2VzcyAidHJhbnNwaWxhdGlvbiIgYW5kIGl0IGlzIGltcGxlbWVudGVkIGJ5IG91ciBbVXBncmFkZWFiaWxpdHkgVHJhbnNwaWxlcl0oaHR0cHM6Ly9naXRodWIuY29tL09wZW5aZXBwZWxpbi9vcGVuemVwcGVsaW4tdHJhbnNwaWxlci8pLgoKV2hlbiB0aGUgYG1hc3RlcmAgYnJhbmNoIG9yIGByZWxlYXNlLXYqYCBicmFuY2hlcyBhcmUgdXBkYXRlZCwgdGhlIGNvZGUgaXMgdHJhbnNwaWxlZCBhbmQgcHVzaGVkIHRvIFtPcGVuWmVwcGVsaW4vb3BlbnplcHBlbGluLWNvbnRyYWN0cy11cGdyYWRlYWJsZV0oaHR0cHM6Ly9naXRodWIuY29tL09wZW5aZXBwZWxpbi9vcGVuemVwcGVsaW4tY29udHJhY3RzLXVwZ3JhZGVhYmxlKSBieSB0aGUgYHVwZ3JhZGVhYmxlLnltbGAgd29ya2Zsb3cuCgojIyBgdHJhbnNwaWxlLnNoYAoKQXBwbGllcyBwYXRjaGVzIGFuZCBpbnZva2VzIHRoZSB0cmFuc3BpbGVyIHdpdGggdGhlIGNvbW1hbmQgbGluZSBmbGFncyB3ZSBuZWVkIGZvciBvdXIgcmVxdWlyZW1lbnRzIChmb3IgZXhhbXBsZSwgZXhjbHVkaW5nIGNlcnRhaW4gZmlsZXMpLgoKIyMgYHRyYW5zcGlsZS1vbnRvLnNoYAoKYGBgCmJhc2ggc2NyaXB0cy91cGdyYWRlYWJsZS90cmFuc3BpbGUtb250by5zaCA8dGFyZ2V0PiBbPGJhc2U+XQpgYGAKClRyYW5zcGlsZXMgdGhlIGNvbnRlbnRzIG9mIHRoZSBjdXJyZW50IGdpdCBicmFuY2ggYW5kIGNvbW1pdHMgdGhlIHJlc3VsdCBhcyBhIG5ldyBjb21taXQgb24gYnJhbmNoIGA8dGFyZ2V0PmAuIElmIGJyYW5jaCBgPHRhcmdldD5gIGRvZXNuJ3QgZXhpc3QsIGl0IHdpbGwgY29weSB0aGUgY29tbWl0IGhpc3Rvcnkgb2YgYFs8YmFzZT5dYCAodGhpcyBpcyB1c2VkIGluIEdpdEh1YiBBY3Rpb25zLCBidXQgaXMgdXN1YWxseSBub3QgbmVjZXNzYXJ5IGxvY2FsbHkpLgoKIyMgYHBhdGNoLWFwcGx5LnNoYCAmIGBwYXRjaC1zYXZlLnNoYAoKU29tZSBvZiB0aGUgdXBncmFkZWFibGUgY29udHJhY3QgdmFyaWFudHMgcmVxdWlyZSBhZC1ob2MgY2hhbmdlcyB0aGF0IGFyZSBub3QgaW1wbGVtZW50ZWQgYnkgdGhlIHRyYW5zcGlsZXIuIFRoZXNlIGNoYW5nZXMgYXJlIGltcGxlbWVudGVkIGJ5IHBhdGNoZXMgc3RvcmVkIGluIGB1cGdyYWRlYWJsZS5wYXRjaGAgaW4gdGhpcyBkaXJlY3RvcnkuIGBwYXRjaC1hcHBseS5zaGAgYXBwbGllcyB0aGVzZSBwYXRjaGVzLgoKSWYgdGhlIHBhdGNoZXMgZmFpbCB0byBhcHBseSBkdWUgdG8gY2hhbmdlcyBpbiB0aGUgcmVwbywgdGhlIGNvbmZsaWN0cyBoYXZlIHRvIGJlIHJlc29sdmVkIG1hbnVhbGx5LiBPbmNlIGZpeGVkLCBgcGF0Y2gtc2F2ZS5zaGAgd2lsbCB0YWtlIHRoZSBjaGFuZ2VzIHN0YWdlZCBpbiBHaXQgYW5kIHVwZGF0ZSBgdXBncmFkZWFibGUucGF0Y2hgIHRvIG1hdGNoLgo=
+The upgradeable variant of OpenZeppelin Contracts is automatically generated from the original Solidity code. We call this process "transpilation" and it is implemented by our [Upgradeability Transpiler](https://github.com/OpenZeppelin/openzeppelin-transpiler/).
+
+When the `master` branch or `release-v*` branches are updated, the code is transpiled and pushed to [OpenZeppelin/openzeppelin-contracts-upgradeable](https://github.com/OpenZeppelin/openzeppelin-contracts-upgradeable) by the `upgradeable.yml` workflow.
+
+## `transpile.sh`
+
+Applies patches and invokes the transpiler with the command line flags we need for our requirements (for example, excluding certain files).
+
+## `transpile-onto.sh`
+
+```
+bash scripts/upgradeable/transpile-onto.sh <target> [<base>]
+```
+
+Transpiles the contents of the current git branch and commits the result as a new commit on branch `<target>`. If branch `<target>` doesn't exist, it will copy the commit history of `[<base>]` (this is used in GitHub Actions, but is usually not necessary locally).
+
+## `patch-apply.sh` & `patch-save.sh`
+
+Some of the upgradeable contract variants require ad-hoc changes that are not implemented by the transpiler. These changes are implemented by patches stored in `upgradeable.patch` in this directory. `patch-apply.sh` applies these patches.
+
+If the patches fail to apply due to changes in the repo, the conflicts have to be resolved manually. Once fixed, `patch-save.sh` will take the changes staged in Git and update `upgradeable.patch` to match.
