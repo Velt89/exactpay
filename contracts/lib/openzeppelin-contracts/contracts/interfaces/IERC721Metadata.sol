@@ -1,1 +1,6 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMC4wKSAoaW50ZXJmYWNlcy9JRVJDNzIxTWV0YWRhdGEuc29sKQoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0lFUkM3MjFNZXRhZGF0YX0gZnJvbSAiLi4vdG9rZW4vRVJDNzIxL2V4dGVuc2lvbnMvSUVSQzcyMU1ldGFkYXRhLnNvbCI7Cg==
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.0.0) (interfaces/IERC721Metadata.sol)
+
+pragma solidity ^0.8.20;
+
+import {IERC721Metadata} from "../token/ERC721/extensions/IERC721Metadata.sol";
