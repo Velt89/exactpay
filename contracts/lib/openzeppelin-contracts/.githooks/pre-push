@@ -1,1 +1,8 @@
-IyEvdXNyL2Jpbi9lbnYgYmFzaAoKc2V0IC1ldW8gcGlwZWZhaWwKCmlmIFsgIiR7Q0k6LSJmYWxzZSJ9IiAhPSAidHJ1ZSIgXTsgdGhlbgogIG5wbSBydW4gdGVzdDpnZW5lcmF0aW9uCiAgbnBtIHJ1biBsaW50CmZpCg==
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+if [ "${CI:-"false"}" != "true" ]; then
+  npm run test:generation
+  npm run lint
+fi
