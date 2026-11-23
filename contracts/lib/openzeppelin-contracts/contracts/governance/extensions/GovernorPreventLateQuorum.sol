@@ -1,1 +1,102 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMC4wKSAoZ292ZXJuYW5jZS9leHRlbnNpb25zL0dvdmVybm9yUHJldmVudExhdGVRdW9ydW0uc29sKQoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0dvdmVybm9yfSBmcm9tICIuLi9Hb3Zlcm5vci5zb2wiOwppbXBvcnQge01hdGh9IGZyb20gIi4uLy4uL3V0aWxzL21hdGgvTWF0aC5zb2wiOwoKLyoqCiAqIEBkZXYgQSBtb2R1bGUgdGhhdCBlbnN1cmVzIHRoZXJlIGlzIGEgbWluaW11bSB2b3RpbmcgcGVyaW9kIGFmdGVyIHF1b3J1bSBpcyByZWFjaGVkLiBUaGlzIHByZXZlbnRzIGEgbGFyZ2Ugdm90ZXIgZnJvbQogKiBzd2F5aW5nIGEgdm90ZSBhbmQgdHJpZ2dlcmluZyBxdW9ydW0gYXQgdGhlIGxhc3QgbWludXRlLCBieSBlbnN1cmluZyB0aGVyZSBpcyBhbHdheXMgdGltZSBmb3Igb3RoZXIgdm90ZXJzIHRvIHJlYWN0CiAqIGFuZCB0cnkgdG8gb3Bwb3NlIHRoZSBkZWNpc2lvbi4KICoKICogSWYgYSB2b3RlIGNhdXNlcyBxdW9ydW0gdG8gYmUgcmVhY2hlZCwgdGhlIHByb3Bvc2FsJ3Mgdm90aW5nIHBlcmlvZCBtYXkgYmUgZXh0ZW5kZWQgc28gdGhhdCBpdCBkb2VzIG5vdCBlbmQgYmVmb3JlIGF0CiAqIGxlYXN0IGEgc3BlY2lmaWVkIHRpbWUgaGFzIHBhc3NlZCAodGhlICJ2b3RlIGV4dGVuc2lvbiIgcGFyYW1ldGVyKS4gVGhpcyBwYXJhbWV0ZXIgY2FuIGJlIHNldCB0aHJvdWdoIGEgZ292ZXJuYW5jZQogKiBwcm9wb3NhbC4KICovCmFic3RyYWN0IGNvbnRyYWN0IEdvdmVybm9yUHJldmVudExhdGVRdW9ydW0gaXMgR292ZXJub3IgewogICAgdWludDQ4IHByaXZhdGUgX3ZvdGVFeHRlbnNpb247CgogICAgbWFwcGluZyh1aW50MjU2IHByb3Bvc2FsSWQgPT4gdWludDQ4KSBwcml2YXRlIF9leHRlbmRlZERlYWRsaW5lczsKCiAgICAvLy8gQGRldiBFbWl0dGVkIHdoZW4gYSBwcm9wb3NhbCBkZWFkbGluZSBpcyBwdXNoZWQgYmFjayBkdWUgdG8gcmVhY2hpbmcgcXVvcnVtIGxhdGUgaW4gaXRzIHZvdGluZyBwZXJpb2QuCiAgICBldmVudCBQcm9wb3NhbEV4dGVuZGVkKHVpbnQyNTYgaW5kZXhlZCBwcm9wb3NhbElkLCB1aW50NjQgZXh0ZW5kZWREZWFkbGluZSk7CgogICAgLy8vIEBkZXYgRW1pdHRlZCB3aGVuIHRoZSB7bGF0ZVF1b3J1bVZvdGVFeHRlbnNpb259IHBhcmFtZXRlciBpcyBjaGFuZ2VkLgogICAgZXZlbnQgTGF0ZVF1b3J1bVZvdGVFeHRlbnNpb25TZXQodWludDY0IG9sZFZvdGVFeHRlbnNpb24sIHVpbnQ2NCBuZXdWb3RlRXh0ZW5zaW9uKTsKCiAgICAvKioKICAgICAqIEBkZXYgSW5pdGlhbGl6ZXMgdGhlIHZvdGUgZXh0ZW5zaW9uIHBhcmFtZXRlcjogdGhlIHRpbWUgaW4gZWl0aGVyIG51bWJlciBvZiBibG9ja3Mgb3Igc2Vjb25kcyAoZGVwZW5kaW5nIG9uIHRoZQogICAgICogZ292ZXJub3IgY2xvY2sgbW9kZSkgdGhhdCBpcyByZXF1aXJlZCB0byBwYXNzIHNpbmNlIHRoZSBtb21lbnQgYSBwcm9wb3NhbCByZWFjaGVzIHF1b3J1bSB1bnRpbCBpdHMgdm90aW5nIHBlcmlvZAogICAgICogZW5kcy4gSWYgbmVjZXNzYXJ5IHRoZSB2b3RpbmcgcGVyaW9kIHdpbGwgYmUgZXh0ZW5kZWQgYmV5b25kIHRoZSBvbmUgc2V0IGR1cmluZyBwcm9wb3NhbCBjcmVhdGlvbi4KICAgICAqLwogICAgY29uc3RydWN0b3IodWludDQ4IGluaXRpYWxWb3RlRXh0ZW5zaW9uKSB7CiAgICAgICAgX3NldExhdGVRdW9ydW1Wb3RlRXh0ZW5zaW9uKGluaXRpYWxWb3RlRXh0ZW5zaW9uKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyB0aGUgcHJvcG9zYWwgZGVhZGxpbmUsIHdoaWNoIG1heSBoYXZlIGJlZW4gZXh0ZW5kZWQgYmV5b25kIHRoYXQgc2V0IGF0IHByb3Bvc2FsIGNyZWF0aW9uLCBpZiB0aGUKICAgICAqIHByb3Bvc2FsIHJlYWNoZWQgcXVvcnVtIGxhdGUgaW4gdGhlIHZvdGluZyBwZXJpb2QuIFNlZSB7R292ZXJub3ItcHJvcG9zYWxEZWFkbGluZX0uCiAgICAgKi8KICAgIGZ1bmN0aW9uIHByb3Bvc2FsRGVhZGxpbmUodWludDI1NiBwcm9wb3NhbElkKSBwdWJsaWMgdmlldyB2aXJ0dWFsIG92ZXJyaWRlIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXR1cm4gTWF0aC5tYXgoc3VwZXIucHJvcG9zYWxEZWFkbGluZShwcm9wb3NhbElkKSwgX2V4dGVuZGVkRGVhZGxpbmVzW3Byb3Bvc2FsSWRdKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgQ2FzdHMgYSB2b3RlIGFuZCBkZXRlY3RzIGlmIGl0IGNhdXNlZCBxdW9ydW0gdG8gYmUgcmVhY2hlZCwgcG90ZW50aWFsbHkgZXh0ZW5kaW5nIHRoZSB2b3RpbmcgcGVyaW9kLiBTZWUKICAgICAqIHtHb3Zlcm5vci1fY2FzdFZvdGV9LgogICAgICoKICAgICAqIE1heSBlbWl0IGEge1Byb3Bvc2FsRXh0ZW5kZWR9IGV2ZW50LgogICAgICovCiAgICBmdW5jdGlvbiBfY2FzdFZvdGUoCiAgICAgICAgdWludDI1NiBwcm9wb3NhbElkLAogICAgICAgIGFkZHJlc3MgYWNjb3VudCwKICAgICAgICB1aW50OCBzdXBwb3J0LAogICAgICAgIHN0cmluZyBtZW1vcnkgcmVhc29uLAogICAgICAgIGJ5dGVzIG1lbW9yeSBwYXJhbXMKICAgICkgaW50ZXJuYWwgdmlydHVhbCBvdmVycmlkZSByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgdWludDI1NiByZXN1bHQgPSBzdXBlci5fY2FzdFZvdGUocHJvcG9zYWxJZCwgYWNjb3VudCwgc3VwcG9ydCwgcmVhc29uLCBwYXJhbXMpOwoKICAgICAgICBpZiAoX2V4dGVuZGVkRGVhZGxpbmVzW3Byb3Bvc2FsSWRdID09IDAgJiYgX3F1b3J1bVJlYWNoZWQocHJvcG9zYWxJZCkpIHsKICAgICAgICAgICAgdWludDQ4IGV4dGVuZGVkRGVhZGxpbmUgPSBjbG9jaygpICsgbGF0ZVF1b3J1bVZvdGVFeHRlbnNpb24oKTsKCiAgICAgICAgICAgIGlmIChleHRlbmRlZERlYWRsaW5lID4gcHJvcG9zYWxEZWFkbGluZShwcm9wb3NhbElkKSkgewogICAgICAgICAgICAgICAgZW1pdCBQcm9wb3NhbEV4dGVuZGVkKHByb3Bvc2FsSWQsIGV4dGVuZGVkRGVhZGxpbmUpOwogICAgICAgICAgICB9CgogICAgICAgICAgICBfZXh0ZW5kZWREZWFkbGluZXNbcHJvcG9zYWxJZF0gPSBleHRlbmRlZERlYWRsaW5lOwogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIHJlc3VsdDsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyB0aGUgY3VycmVudCB2YWx1ZSBvZiB0aGUgdm90ZSBleHRlbnNpb24gcGFyYW1ldGVyOiB0aGUgbnVtYmVyIG9mIGJsb2NrcyB0aGF0IGFyZSByZXF1aXJlZCB0byBwYXNzCiAgICAgKiBmcm9tIHRoZSB0aW1lIGEgcHJvcG9zYWwgcmVhY2hlcyBxdW9ydW0gdW50aWwgaXRzIHZvdGluZyBwZXJpb2QgZW5kcy4KICAgICAqLwogICAgZnVuY3Rpb24gbGF0ZVF1b3J1bVZvdGVFeHRlbnNpb24oKSBwdWJsaWMgdmlldyB2aXJ0dWFsIHJldHVybnMgKHVpbnQ0OCkgewogICAgICAgIHJldHVybiBfdm90ZUV4dGVuc2lvbjsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgQ2hhbmdlcyB0aGUge2xhdGVRdW9ydW1Wb3RlRXh0ZW5zaW9ufS4gVGhpcyBvcGVyYXRpb24gY2FuIG9ubHkgYmUgcGVyZm9ybWVkIGJ5IHRoZSBnb3Zlcm5hbmNlIGV4ZWN1dG9yLAogICAgICogZ2VuZXJhbGx5IHRocm91Z2ggYSBnb3Zlcm5hbmNlIHByb3Bvc2FsLgogICAgICoKICAgICAqIEVtaXRzIGEge0xhdGVRdW9ydW1Wb3RlRXh0ZW5zaW9uU2V0fSBldmVudC4KICAgICAqLwogICAgZnVuY3Rpb24gc2V0TGF0ZVF1b3J1bVZvdGVFeHRlbnNpb24odWludDQ4IG5ld1ZvdGVFeHRlbnNpb24pIHB1YmxpYyB2aXJ0dWFsIG9ubHlHb3Zlcm5hbmNlIHsKICAgICAgICBfc2V0TGF0ZVF1b3J1bVZvdGVFeHRlbnNpb24obmV3Vm90ZUV4dGVuc2lvbik7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IENoYW5nZXMgdGhlIHtsYXRlUXVvcnVtVm90ZUV4dGVuc2lvbn0uIFRoaXMgaXMgYW4gaW50ZXJuYWwgZnVuY3Rpb24gdGhhdCBjYW4gYmUgZXhwb3NlZCBpbiBhIHB1YmxpYyBmdW5jdGlvbgogICAgICogbGlrZSB7c2V0TGF0ZVF1b3J1bVZvdGVFeHRlbnNpb259IGlmIGFub3RoZXIgYWNjZXNzIGNvbnRyb2wgbWVjaGFuaXNtIGlzIG5lZWRlZC4KICAgICAqCiAgICAgKiBFbWl0cyBhIHtMYXRlUXVvcnVtVm90ZUV4dGVuc2lvblNldH0gZXZlbnQuCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9zZXRMYXRlUXVvcnVtVm90ZUV4dGVuc2lvbih1aW50NDggbmV3Vm90ZUV4dGVuc2lvbikgaW50ZXJuYWwgdmlydHVhbCB7CiAgICAgICAgZW1pdCBMYXRlUXVvcnVtVm90ZUV4dGVuc2lvblNldChfdm90ZUV4dGVuc2lvbiwgbmV3Vm90ZUV4dGVuc2lvbik7CiAgICAgICAgX3ZvdGVFeHRlbnNpb24gPSBuZXdWb3RlRXh0ZW5zaW9uOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.0.0) (governance/extensions/GovernorPreventLateQuorum.sol)
+
+pragma solidity ^0.8.20;
+
+import {Governor} from "../Governor.sol";
+import {Math} from "../../utils/math/Math.sol";
+
+/**
+ * @dev A module that ensures there is a minimum voting period after quorum is reached. This prevents a large voter from
+ * swaying a vote and triggering quorum at the last minute, by ensuring there is always time for other voters to react
+ * and try to oppose the decision.
+ *
+ * If a vote causes quorum to be reached, the proposal's voting period may be extended so that it does not end before at
+ * least a specified time has passed (the "vote extension" parameter). This parameter can be set through a governance
+ * proposal.
+ */
+abstract contract GovernorPreventLateQuorum is Governor {
+    uint48 private _voteExtension;
+
+    mapping(uint256 proposalId => uint48) private _extendedDeadlines;
+
+    /// @dev Emitted when a proposal deadline is pushed back due to reaching quorum late in its voting period.
+    event ProposalExtended(uint256 indexed proposalId, uint64 extendedDeadline);
+
+    /// @dev Emitted when the {lateQuorumVoteExtension} parameter is changed.
+    event LateQuorumVoteExtensionSet(uint64 oldVoteExtension, uint64 newVoteExtension);
+
+    /**
+     * @dev Initializes the vote extension parameter: the time in either number of blocks or seconds (depending on the
+     * governor clock mode) that is required to pass since the moment a proposal reaches quorum until its voting period
+     * ends. If necessary the voting period will be extended beyond the one set during proposal creation.
+     */
+    constructor(uint48 initialVoteExtension) {
+        _setLateQuorumVoteExtension(initialVoteExtension);
+    }
+
+    /**
+     * @dev Returns the proposal deadline, which may have been extended beyond that set at proposal creation, if the
+     * proposal reached quorum late in the voting period. See {Governor-proposalDeadline}.
+     */
+    function proposalDeadline(uint256 proposalId) public view virtual override returns (uint256) {
+        return Math.max(super.proposalDeadline(proposalId), _extendedDeadlines[proposalId]);
+    }
+
+    /**
+     * @dev Casts a vote and detects if it caused quorum to be reached, potentially extending the voting period. See
+     * {Governor-_castVote}.
+     *
+     * May emit a {ProposalExtended} event.
+     */
+    function _castVote(
+        uint256 proposalId,
+        address account,
+        uint8 support,
+        string memory reason,
+        bytes memory params
+    ) internal virtual override returns (uint256) {
+        uint256 result = super._castVote(proposalId, account, support, reason, params);
+
+        if (_extendedDeadlines[proposalId] == 0 && _quorumReached(proposalId)) {
+            uint48 extendedDeadline = clock() + lateQuorumVoteExtension();
+
+            if (extendedDeadline > proposalDeadline(proposalId)) {
+                emit ProposalExtended(proposalId, extendedDeadline);
+            }
+
+            _extendedDeadlines[proposalId] = extendedDeadline;
+        }
+
+        return result;
+    }
+
+    /**
+     * @dev Returns the current value of the vote extension parameter: the number of blocks that are required to pass
+     * from the time a proposal reaches quorum until its voting period ends.
+     */
+    function lateQuorumVoteExtension() public view virtual returns (uint48) {
+        return _voteExtension;
+    }
+
+    /**
+     * @dev Changes the {lateQuorumVoteExtension}. This operation can only be performed by the governance executor,
+     * generally through a governance proposal.
+     *
+     * Emits a {LateQuorumVoteExtensionSet} event.
+     */
+    function setLateQuorumVoteExtension(uint48 newVoteExtension) public virtual onlyGovernance {
+        _setLateQuorumVoteExtension(newVoteExtension);
+    }
+
+    /**
+     * @dev Changes the {lateQuorumVoteExtension}. This is an internal function that can be exposed in a public function
+     * like {setLateQuorumVoteExtension} if another access control mechanism is needed.
+     *
+     * Emits a {LateQuorumVoteExtensionSet} event.
+     */
+    function _setLateQuorumVoteExtension(uint48 newVoteExtension) internal virtual {
+        emit LateQuorumVoteExtensionSet(_voteExtension, newVoteExtension);
+        _voteExtension = newVoteExtension;
+    }
+}
