@@ -1,1 +1,8 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMC4wKSAoaW50ZXJmYWNlcy9JRVJDMjYxMi5zb2wpCgpwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7SUVSQzIwUGVybWl0fSBmcm9tICIuLi90b2tlbi9FUkMyMC9leHRlbnNpb25zL0lFUkMyMFBlcm1pdC5zb2wiOwoKaW50ZXJmYWNlIElFUkMyNjEyIGlzIElFUkMyMFBlcm1pdCB7fQo=
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.0.0) (interfaces/IERC2612.sol)
+
+pragma solidity ^0.8.20;
+
+import {IERC20Permit} from "../token/ERC20/extensions/IERC20Permit.sol";
+
+interface IERC2612 is IERC20Permit {}
