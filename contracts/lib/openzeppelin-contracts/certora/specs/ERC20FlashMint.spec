@@ -1,1 +1,55 @@
-aW1wb3J0ICJoZWxwZXJzL2hlbHBlcnMuc3BlYyI7CmltcG9ydCAibWV0aG9kcy9JRVJDMjAuc3BlYyI7CmltcG9ydCAibWV0aG9kcy9JRVJDMzE1NkZsYXNoTGVuZGVyLnNwZWMiOwppbXBvcnQgIm1ldGhvZHMvSUVSQzMxNTZGbGFzaEJvcnJvd2VyLnNwZWMiOwoKbWV0aG9kcyB7CiAgICAvLyBub24gc3RhbmRhcmQgRVJDLTMxNTYgZnVuY3Rpb25zCiAgICBmdW5jdGlvbiBmbGFzaEZlZVJlY2VpdmVyKCkgZXh0ZXJuYWwgcmV0dXJucyAoYWRkcmVzcykgZW52ZnJlZTsKCiAgICAvLyBmdW5jdGlvbiBzdW1tYXJpZXMgYmVsb3cKICAgIGZ1bmN0aW9uIF8uX3VwZGF0ZShhZGRyZXNzIGZyb20sIGFkZHJlc3MgdG8sIHVpbnQyNTYgYW1vdW50KSBpbnRlcm5hbCA9PiBzcGVjVXBkYXRlKGZyb20sIHRvLCBhbW91bnQpIGV4cGVjdCB2b2lkIEFMTDsKfQoKLyoK4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQCuKUgiBHaG9zdDogdHJhY2sgbWludCBhbmQgYnVybnMgaW4gdGhlIENWTCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIOKUggrilJTilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJgKKi8KZ2hvc3QgbWFwcGluZyhhZGRyZXNzID0+IG1hdGhpbnQpICAgICAgICAgICAgICAgICAgICAgdHJhY2tlZE1pbnRBbW91bnQ7Cmdob3N0IG1hcHBpbmcoYWRkcmVzcyA9PiBtYXRoaW50KSAgICAgICAgICAgICAgICAgICAgIHRyYWNrZWRCdXJuQW1vdW50OwpnaG9zdCBtYXBwaW5nKGFkZHJlc3MgPT4gbWFwcGluZyhhZGRyZXNzID0+IG1hdGhpbnQpKSB0cmFja2VkVHJhbnNmZXJlZEFtb3VudDsKCmZ1bmN0aW9uIHNwZWNVcGRhdGUoYWRkcmVzcyBmcm9tLCBhZGRyZXNzIHRvLCB1aW50MjU2IGFtb3VudCkgewogICAgaWYgKGZyb20gPT0gMCAmJiB0byA9PSAwKSB7IGFzc2VydChmYWxzZSk7IH0gLy8gZGVmZW5zaXZlCgogICAgaWYgKGZyb20gPT0gMCkgewogICAgICAgIHRyYWNrZWRNaW50QW1vdW50W3RvXSA9IGFtb3VudDsKICAgIH0gZWxzZSBpZiAodG8gPT0gMCkgewogICAgICAgIHRyYWNrZWRCdXJuQW1vdW50W2Zyb21dID0gYW1vdW50OwogICAgfSBlbHNlIHsKICAgICAgICB0cmFja2VkVHJhbnNmZXJlZEFtb3VudFtmcm9tXVt0b10gPSBhbW91bnQ7CiAgICB9Cn0KCi8qCuKUjOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUkArilIIgUnVsZTogV2hlbiBkb2luZyBhIGZsYXNoTG9hbiwgImFtb3VudCIgaXMgbWludGVkIGFuZCBidXJudCwgYWRkaXRpb25hbGx5LCB0aGUgZmVlIGlzIGVpdGhlciBidXJudCAgICAgICAgICAgICAgICAgICDilIIK4pSCIChpZiB0aGUgZmVlIHJlY2lwaWVudCBpcyAwKSBvciB0cmFuc2ZlcnJlZCAoaWYgdGhlIGZlZSByZWNpcGllbnQgaXMgbm90IDApICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg4pSCCuKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmAoqLwpydWxlIGNoZWNrTWludEFuZEJ1cm4oZW52IGUpIHsKICAgIGFkZHJlc3MgcmVjZWl2ZXI7CiAgICBhZGRyZXNzIHRva2VuOwogICAgdWludDI1NiBhbW91bnQ7CiAgICBieXRlcyBkYXRhOwoKICAgIHVpbnQyNTYgZmVlcyA9IGZsYXNoRmVlKHRva2VuLCBhbW91bnQpOwogICAgYWRkcmVzcyByZWNpcGllbnQgPSBmbGFzaEZlZVJlY2VpdmVyKCk7CgogICAgZmxhc2hMb2FuKGUsIHJlY2VpdmVyLCB0b2tlbiwgYW1vdW50LCBkYXRhKTsKCiAgICBhc3NlcnQgdHJhY2tlZE1pbnRBbW91bnRbcmVjZWl2ZXJdID09IHRvX21hdGhpbnQoYW1vdW50KTsKICAgIGFzc2VydCB0cmFja2VkQnVybkFtb3VudFtyZWNlaXZlcl0gPT0gYW1vdW50ICsgdG9fbWF0aGludChyZWNpcGllbnQgPT0gMCA/IGZlZXMgOiAwKTsKICAgIGFzc2VydCAoZmVlcyA+IDAgJiYgcmVjaXBpZW50ICE9IDApID0+IHRyYWNrZWRUcmFuc2ZlcmVkQW1vdW50W3JlY2VpdmVyXVtyZWNpcGllbnRdID09IHRvX21hdGhpbnQoZmVlcyk7Cn0K
+import "helpers/helpers.spec";
+import "methods/IERC20.spec";
+import "methods/IERC3156FlashLender.spec";
+import "methods/IERC3156FlashBorrower.spec";
+
+methods {
+    // non standard ERC-3156 functions
+    function flashFeeReceiver() external returns (address) envfree;
+
+    // function summaries below
+    function _._update(address from, address to, uint256 amount) internal => specUpdate(from, to, amount) expect void ALL;
+}
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Ghost: track mint and burns in the CVL                                                                              │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+ghost mapping(address => mathint)                     trackedMintAmount;
+ghost mapping(address => mathint)                     trackedBurnAmount;
+ghost mapping(address => mapping(address => mathint)) trackedTransferedAmount;
+
+function specUpdate(address from, address to, uint256 amount) {
+    if (from == 0 && to == 0) { assert(false); } // defensive
+
+    if (from == 0) {
+        trackedMintAmount[to] = amount;
+    } else if (to == 0) {
+        trackedBurnAmount[from] = amount;
+    } else {
+        trackedTransferedAmount[from][to] = amount;
+    }
+}
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Rule: When doing a flashLoan, "amount" is minted and burnt, additionally, the fee is either burnt                   │
+│ (if the fee recipient is 0) or transferred (if the fee recipient is not 0)                                          │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+rule checkMintAndBurn(env e) {
+    address receiver;
+    address token;
+    uint256 amount;
+    bytes data;
+
+    uint256 fees = flashFee(token, amount);
+    address recipient = flashFeeReceiver();
+
+    flashLoan(e, receiver, token, amount, data);
+
+    assert trackedMintAmount[receiver] == to_mathint(amount);
+    assert trackedBurnAmount[receiver] == amount + to_mathint(recipient == 0 ? fees : 0);
+    assert (fees > 0 && recipient != 0) => trackedTransferedAmount[receiver][recipient] == to_mathint(fees);
+}
