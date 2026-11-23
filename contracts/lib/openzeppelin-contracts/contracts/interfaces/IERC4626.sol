@@ -1,1 +1,230 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAoaW50ZXJmYWNlcy9JRVJDNDYyNi5zb2wpCgpwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7SUVSQzIwfSBmcm9tICIuLi90b2tlbi9FUkMyMC9JRVJDMjAuc29sIjsKaW1wb3J0IHtJRVJDMjBNZXRhZGF0YX0gZnJvbSAiLi4vdG9rZW4vRVJDMjAvZXh0ZW5zaW9ucy9JRVJDMjBNZXRhZGF0YS5zb2wiOwoKLyoqCiAqIEBkZXYgSW50ZXJmYWNlIG9mIHRoZSBFUkMtNDYyNiAiVG9rZW5pemVkIFZhdWx0IFN0YW5kYXJkIiwgYXMgZGVmaW5lZCBpbgogKiBodHRwczovL2VpcHMuZXRoZXJldW0ub3JnL0VJUFMvZWlwLTQ2MjZbRVJDLTQ2MjZdLgogKi8KaW50ZXJmYWNlIElFUkM0NjI2IGlzIElFUkMyMCwgSUVSQzIwTWV0YWRhdGEgewogICAgZXZlbnQgRGVwb3NpdChhZGRyZXNzIGluZGV4ZWQgc2VuZGVyLCBhZGRyZXNzIGluZGV4ZWQgb3duZXIsIHVpbnQyNTYgYXNzZXRzLCB1aW50MjU2IHNoYXJlcyk7CgogICAgZXZlbnQgV2l0aGRyYXcoCiAgICAgICAgYWRkcmVzcyBpbmRleGVkIHNlbmRlciwKICAgICAgICBhZGRyZXNzIGluZGV4ZWQgcmVjZWl2ZXIsCiAgICAgICAgYWRkcmVzcyBpbmRleGVkIG93bmVyLAogICAgICAgIHVpbnQyNTYgYXNzZXRzLAogICAgICAgIHVpbnQyNTYgc2hhcmVzCiAgICApOwoKICAgIC8qKgogICAgICogQGRldiBSZXR1cm5zIHRoZSBhZGRyZXNzIG9mIHRoZSB1bmRlcmx5aW5nIHRva2VuIHVzZWQgZm9yIHRoZSBWYXVsdCBmb3IgYWNjb3VudGluZywgZGVwb3NpdGluZywgYW5kIHdpdGhkcmF3aW5nLgogICAgICoKICAgICAqIC0gTVVTVCBiZSBhbiBFUkMtMjAgdG9rZW4gY29udHJhY3QuCiAgICAgKiAtIE1VU1QgTk9UIHJldmVydC4KICAgICAqLwogICAgZnVuY3Rpb24gYXNzZXQoKSBleHRlcm5hbCB2aWV3IHJldHVybnMgKGFkZHJlc3MgYXNzZXRUb2tlbkFkZHJlc3MpOwoKICAgIC8qKgogICAgICogQGRldiBSZXR1cm5zIHRoZSB0b3RhbCBhbW91bnQgb2YgdGhlIHVuZGVybHlpbmcgYXNzZXQgdGhhdCBpcyDigJxtYW5hZ2Vk4oCdIGJ5IFZhdWx0LgogICAgICoKICAgICAqIC0gU0hPVUxEIGluY2x1ZGUgYW55IGNvbXBvdW5kaW5nIHRoYXQgb2NjdXJzIGZyb20geWllbGQuCiAgICAgKiAtIE1VU1QgYmUgaW5jbHVzaXZlIG9mIGFueSBmZWVzIHRoYXQgYXJlIGNoYXJnZWQgYWdhaW5zdCBhc3NldHMgaW4gdGhlIFZhdWx0LgogICAgICogLSBNVVNUIE5PVCByZXZlcnQuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHRvdGFsQXNzZXRzKCkgZXh0ZXJuYWwgdmlldyByZXR1cm5zICh1aW50MjU2IHRvdGFsTWFuYWdlZEFzc2V0cyk7CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIGFtb3VudCBvZiBzaGFyZXMgdGhhdCB0aGUgVmF1bHQgd291bGQgZXhjaGFuZ2UgZm9yIHRoZSBhbW91bnQgb2YgYXNzZXRzIHByb3ZpZGVkLCBpbiBhbiBpZGVhbAogICAgICogc2NlbmFyaW8gd2hlcmUgYWxsIHRoZSBjb25kaXRpb25zIGFyZSBtZXQuCiAgICAgKgogICAgICogLSBNVVNUIE5PVCBiZSBpbmNsdXNpdmUgb2YgYW55IGZlZXMgdGhhdCBhcmUgY2hhcmdlZCBhZ2FpbnN0IGFzc2V0cyBpbiB0aGUgVmF1bHQuCiAgICAgKiAtIE1VU1QgTk9UIHNob3cgYW55IHZhcmlhdGlvbnMgZGVwZW5kaW5nIG9uIHRoZSBjYWxsZXIuCiAgICAgKiAtIE1VU1QgTk9UIHJlZmxlY3Qgc2xpcHBhZ2Ugb3Igb3RoZXIgb24tY2hhaW4gY29uZGl0aW9ucywgd2hlbiBwZXJmb3JtaW5nIHRoZSBhY3R1YWwgZXhjaGFuZ2UuCiAgICAgKiAtIE1VU1QgTk9UIHJldmVydC4KICAgICAqCiAgICAgKiBOT1RFOiBUaGlzIGNhbGN1bGF0aW9uIE1BWSBOT1QgcmVmbGVjdCB0aGUg4oCccGVyLXVzZXLigJ0gcHJpY2UtcGVyLXNoYXJlLCBhbmQgaW5zdGVhZCBzaG91bGQgcmVmbGVjdCB0aGUKICAgICAqIOKAnGF2ZXJhZ2UtdXNlcuKAmXPigJ0gcHJpY2UtcGVyLXNoYXJlLCBtZWFuaW5nIHdoYXQgdGhlIGF2ZXJhZ2UgdXNlciBzaG91bGQgZXhwZWN0IHRvIHNlZSB3aGVuIGV4Y2hhbmdpbmcgdG8gYW5kCiAgICAgKiBmcm9tLgogICAgICovCiAgICBmdW5jdGlvbiBjb252ZXJ0VG9TaGFyZXModWludDI1NiBhc3NldHMpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAodWludDI1NiBzaGFyZXMpOwoKICAgIC8qKgogICAgICogQGRldiBSZXR1cm5zIHRoZSBhbW91bnQgb2YgYXNzZXRzIHRoYXQgdGhlIFZhdWx0IHdvdWxkIGV4Y2hhbmdlIGZvciB0aGUgYW1vdW50IG9mIHNoYXJlcyBwcm92aWRlZCwgaW4gYW4gaWRlYWwKICAgICAqIHNjZW5hcmlvIHdoZXJlIGFsbCB0aGUgY29uZGl0aW9ucyBhcmUgbWV0LgogICAgICoKICAgICAqIC0gTVVTVCBOT1QgYmUgaW5jbHVzaXZlIG9mIGFueSBmZWVzIHRoYXQgYXJlIGNoYXJnZWQgYWdhaW5zdCBhc3NldHMgaW4gdGhlIFZhdWx0LgogICAgICogLSBNVVNUIE5PVCBzaG93IGFueSB2YXJpYXRpb25zIGRlcGVuZGluZyBvbiB0aGUgY2FsbGVyLgogICAgICogLSBNVVNUIE5PVCByZWZsZWN0IHNsaXBwYWdlIG9yIG90aGVyIG9uLWNoYWluIGNvbmRpdGlvbnMsIHdoZW4gcGVyZm9ybWluZyB0aGUgYWN0dWFsIGV4Y2hhbmdlLgogICAgICogLSBNVVNUIE5PVCByZXZlcnQuCiAgICAgKgogICAgICogTk9URTogVGhpcyBjYWxjdWxhdGlvbiBNQVkgTk9UIHJlZmxlY3QgdGhlIOKAnHBlci11c2Vy4oCdIHByaWNlLXBlci1zaGFyZSwgYW5kIGluc3RlYWQgc2hvdWxkIHJlZmxlY3QgdGhlCiAgICAgKiDigJxhdmVyYWdlLXVzZXLigJlz4oCdIHByaWNlLXBlci1zaGFyZSwgbWVhbmluZyB3aGF0IHRoZSBhdmVyYWdlIHVzZXIgc2hvdWxkIGV4cGVjdCB0byBzZWUgd2hlbiBleGNoYW5naW5nIHRvIGFuZAogICAgICogZnJvbS4KICAgICAqLwogICAgZnVuY3Rpb24gY29udmVydFRvQXNzZXRzKHVpbnQyNTYgc2hhcmVzKSBleHRlcm5hbCB2aWV3IHJldHVybnMgKHVpbnQyNTYgYXNzZXRzKTsKCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyB0aGUgbWF4aW11bSBhbW91bnQgb2YgdGhlIHVuZGVybHlpbmcgYXNzZXQgdGhhdCBjYW4gYmUgZGVwb3NpdGVkIGludG8gdGhlIFZhdWx0IGZvciB0aGUgcmVjZWl2ZXIsCiAgICAgKiB0aHJvdWdoIGEgZGVwb3NpdCBjYWxsLgogICAgICoKICAgICAqIC0gTVVTVCByZXR1cm4gYSBsaW1pdGVkIHZhbHVlIGlmIHJlY2VpdmVyIGlzIHN1YmplY3QgdG8gc29tZSBkZXBvc2l0IGxpbWl0LgogICAgICogLSBNVVNUIHJldHVybiAyICoqIDI1NiAtIDEgaWYgdGhlcmUgaXMgbm8gbGltaXQgb24gdGhlIG1heGltdW0gYW1vdW50IG9mIGFzc2V0cyB0aGF0IG1heSBiZSBkZXBvc2l0ZWQuCiAgICAgKiAtIE1VU1QgTk9UIHJldmVydC4KICAgICAqLwogICAgZnVuY3Rpb24gbWF4RGVwb3NpdChhZGRyZXNzIHJlY2VpdmVyKSBleHRlcm5hbCB2aWV3IHJldHVybnMgKHVpbnQyNTYgbWF4QXNzZXRzKTsKCiAgICAvKioKICAgICAqIEBkZXYgQWxsb3dzIGFuIG9uLWNoYWluIG9yIG9mZi1jaGFpbiB1c2VyIHRvIHNpbXVsYXRlIHRoZSBlZmZlY3RzIG9mIHRoZWlyIGRlcG9zaXQgYXQgdGhlIGN1cnJlbnQgYmxvY2ssIGdpdmVuCiAgICAgKiBjdXJyZW50IG9uLWNoYWluIGNvbmRpdGlvbnMuCiAgICAgKgogICAgICogLSBNVVNUIHJldHVybiBhcyBjbG9zZSB0byBhbmQgbm8gbW9yZSB0aGFuIHRoZSBleGFjdCBhbW91bnQgb2YgVmF1bHQgc2hhcmVzIHRoYXQgd291bGQgYmUgbWludGVkIGluIGEgZGVwb3NpdAogICAgICogICBjYWxsIGluIHRoZSBzYW1lIHRyYW5zYWN0aW9uLiBJLmUuIGRlcG9zaXQgc2hvdWxkIHJldHVybiB0aGUgc2FtZSBvciBtb3JlIHNoYXJlcyBhcyBwcmV2aWV3RGVwb3NpdCBpZiBjYWxsZWQKICAgICAqICAgaW4gdGhlIHNhbWUgdHJhbnNhY3Rpb24uCiAgICAgKiAtIE1VU1QgTk9UIGFjY291bnQgZm9yIGRlcG9zaXQgbGltaXRzIGxpa2UgdGhvc2UgcmV0dXJuZWQgZnJvbSBtYXhEZXBvc2l0IGFuZCBzaG91bGQgYWx3YXlzIGFjdCBhcyB0aG91Z2ggdGhlCiAgICAgKiAgIGRlcG9zaXQgd291bGQgYmUgYWNjZXB0ZWQsIHJlZ2FyZGxlc3MgaWYgdGhlIHVzZXIgaGFzIGVub3VnaCB0b2tlbnMgYXBwcm92ZWQsIGV0Yy4KICAgICAqIC0gTVVTVCBiZSBpbmNsdXNpdmUgb2YgZGVwb3NpdCBmZWVzLiBJbnRlZ3JhdG9ycyBzaG91bGQgYmUgYXdhcmUgb2YgdGhlIGV4aXN0ZW5jZSBvZiBkZXBvc2l0IGZlZXMuCiAgICAgKiAtIE1VU1QgTk9UIHJldmVydC4KICAgICAqCiAgICAgKiBOT1RFOiBhbnkgdW5mYXZvcmFibGUgZGlzY3JlcGFuY3kgYmV0d2VlbiBjb252ZXJ0VG9TaGFyZXMgYW5kIHByZXZpZXdEZXBvc2l0IFNIT1VMRCBiZSBjb25zaWRlcmVkIHNsaXBwYWdlIGluCiAgICAgKiBzaGFyZSBwcmljZSBvciBzb21lIG90aGVyIHR5cGUgb2YgY29uZGl0aW9uLCBtZWFuaW5nIHRoZSBkZXBvc2l0b3Igd2lsbCBsb3NlIGFzc2V0cyBieSBkZXBvc2l0aW5nLgogICAgICovCiAgICBmdW5jdGlvbiBwcmV2aWV3RGVwb3NpdCh1aW50MjU2IGFzc2V0cykgZXh0ZXJuYWwgdmlldyByZXR1cm5zICh1aW50MjU2IHNoYXJlcyk7CgogICAgLyoqCiAgICAgKiBAZGV2IE1pbnRzIHNoYXJlcyBWYXVsdCBzaGFyZXMgdG8gcmVjZWl2ZXIgYnkgZGVwb3NpdGluZyBleGFjdGx5IGFtb3VudCBvZiB1bmRlcmx5aW5nIHRva2Vucy4KICAgICAqCiAgICAgKiAtIE1VU1QgZW1pdCB0aGUgRGVwb3NpdCBldmVudC4KICAgICAqIC0gTUFZIHN1cHBvcnQgYW4gYWRkaXRpb25hbCBmbG93IGluIHdoaWNoIHRoZSB1bmRlcmx5aW5nIHRva2VucyBhcmUgb3duZWQgYnkgdGhlIFZhdWx0IGNvbnRyYWN0IGJlZm9yZSB0aGUKICAgICAqICAgZGVwb3NpdCBleGVjdXRpb24sIGFuZCBhcmUgYWNjb3VudGVkIGZvciBkdXJpbmcgZGVwb3NpdC4KICAgICAqIC0gTVVTVCByZXZlcnQgaWYgYWxsIG9mIGFzc2V0cyBjYW5ub3QgYmUgZGVwb3NpdGVkIChkdWUgdG8gZGVwb3NpdCBsaW1pdCBiZWluZyByZWFjaGVkLCBzbGlwcGFnZSwgdGhlIHVzZXIgbm90CiAgICAgKiAgIGFwcHJvdmluZyBlbm91Z2ggdW5kZXJseWluZyB0b2tlbnMgdG8gdGhlIFZhdWx0IGNvbnRyYWN0LCBldGMpLgogICAgICoKICAgICAqIE5PVEU6IG1vc3QgaW1wbGVtZW50YXRpb25zIHdpbGwgcmVxdWlyZSBwcmUtYXBwcm92YWwgb2YgdGhlIFZhdWx0IHdpdGggdGhlIFZhdWx04oCZcyB1bmRlcmx5aW5nIGFzc2V0IHRva2VuLgogICAgICovCiAgICBmdW5jdGlvbiBkZXBvc2l0KHVpbnQyNTYgYXNzZXRzLCBhZGRyZXNzIHJlY2VpdmVyKSBleHRlcm5hbCByZXR1cm5zICh1aW50MjU2IHNoYXJlcyk7CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIG1heGltdW0gYW1vdW50IG9mIHRoZSBWYXVsdCBzaGFyZXMgdGhhdCBjYW4gYmUgbWludGVkIGZvciB0aGUgcmVjZWl2ZXIsIHRocm91Z2ggYSBtaW50IGNhbGwuCiAgICAgKiAtIE1VU1QgcmV0dXJuIGEgbGltaXRlZCB2YWx1ZSBpZiByZWNlaXZlciBpcyBzdWJqZWN0IHRvIHNvbWUgbWludCBsaW1pdC4KICAgICAqIC0gTVVTVCByZXR1cm4gMiAqKiAyNTYgLSAxIGlmIHRoZXJlIGlzIG5vIGxpbWl0IG9uIHRoZSBtYXhpbXVtIGFtb3VudCBvZiBzaGFyZXMgdGhhdCBtYXkgYmUgbWludGVkLgogICAgICogLSBNVVNUIE5PVCByZXZlcnQuCiAgICAgKi8KICAgIGZ1bmN0aW9uIG1heE1pbnQoYWRkcmVzcyByZWNlaXZlcikgZXh0ZXJuYWwgdmlldyByZXR1cm5zICh1aW50MjU2IG1heFNoYXJlcyk7CgogICAgLyoqCiAgICAgKiBAZGV2IEFsbG93cyBhbiBvbi1jaGFpbiBvciBvZmYtY2hhaW4gdXNlciB0byBzaW11bGF0ZSB0aGUgZWZmZWN0cyBvZiB0aGVpciBtaW50IGF0IHRoZSBjdXJyZW50IGJsb2NrLCBnaXZlbgogICAgICogY3VycmVudCBvbi1jaGFpbiBjb25kaXRpb25zLgogICAgICoKICAgICAqIC0gTVVTVCByZXR1cm4gYXMgY2xvc2UgdG8gYW5kIG5vIGZld2VyIHRoYW4gdGhlIGV4YWN0IGFtb3VudCBvZiBhc3NldHMgdGhhdCB3b3VsZCBiZSBkZXBvc2l0ZWQgaW4gYSBtaW50IGNhbGwKICAgICAqICAgaW4gdGhlIHNhbWUgdHJhbnNhY3Rpb24uIEkuZS4gbWludCBzaG91bGQgcmV0dXJuIHRoZSBzYW1lIG9yIGZld2VyIGFzc2V0cyBhcyBwcmV2aWV3TWludCBpZiBjYWxsZWQgaW4gdGhlCiAgICAgKiAgIHNhbWUgdHJhbnNhY3Rpb24uCiAgICAgKiAtIE1VU1QgTk9UIGFjY291bnQgZm9yIG1pbnQgbGltaXRzIGxpa2UgdGhvc2UgcmV0dXJuZWQgZnJvbSBtYXhNaW50IGFuZCBzaG91bGQgYWx3YXlzIGFjdCBhcyB0aG91Z2ggdGhlIG1pbnQKICAgICAqICAgd291bGQgYmUgYWNjZXB0ZWQsIHJlZ2FyZGxlc3MgaWYgdGhlIHVzZXIgaGFzIGVub3VnaCB0b2tlbnMgYXBwcm92ZWQsIGV0Yy4KICAgICAqIC0gTVVTVCBiZSBpbmNsdXNpdmUgb2YgZGVwb3NpdCBmZWVzLiBJbnRlZ3JhdG9ycyBzaG91bGQgYmUgYXdhcmUgb2YgdGhlIGV4aXN0ZW5jZSBvZiBkZXBvc2l0IGZlZXMuCiAgICAgKiAtIE1VU1QgTk9UIHJldmVydC4KICAgICAqCiAgICAgKiBOT1RFOiBhbnkgdW5mYXZvcmFibGUgZGlzY3JlcGFuY3kgYmV0d2VlbiBjb252ZXJ0VG9Bc3NldHMgYW5kIHByZXZpZXdNaW50IFNIT1VMRCBiZSBjb25zaWRlcmVkIHNsaXBwYWdlIGluCiAgICAgKiBzaGFyZSBwcmljZSBvciBzb21lIG90aGVyIHR5cGUgb2YgY29uZGl0aW9uLCBtZWFuaW5nIHRoZSBkZXBvc2l0b3Igd2lsbCBsb3NlIGFzc2V0cyBieSBtaW50aW5nLgogICAgICovCiAgICBmdW5jdGlvbiBwcmV2aWV3TWludCh1aW50MjU2IHNoYXJlcykgZXh0ZXJuYWwgdmlldyByZXR1cm5zICh1aW50MjU2IGFzc2V0cyk7CgogICAgLyoqCiAgICAgKiBAZGV2IE1pbnRzIGV4YWN0bHkgc2hhcmVzIFZhdWx0IHNoYXJlcyB0byByZWNlaXZlciBieSBkZXBvc2l0aW5nIGFtb3VudCBvZiB1bmRlcmx5aW5nIHRva2Vucy4KICAgICAqCiAgICAgKiAtIE1VU1QgZW1pdCB0aGUgRGVwb3NpdCBldmVudC4KICAgICAqIC0gTUFZIHN1cHBvcnQgYW4gYWRkaXRpb25hbCBmbG93IGluIHdoaWNoIHRoZSB1bmRlcmx5aW5nIHRva2VucyBhcmUgb3duZWQgYnkgdGhlIFZhdWx0IGNvbnRyYWN0IGJlZm9yZSB0aGUgbWludAogICAgICogICBleGVjdXRpb24sIGFuZCBhcmUgYWNjb3VudGVkIGZvciBkdXJpbmcgbWludC4KICAgICAqIC0gTVVTVCByZXZlcnQgaWYgYWxsIG9mIHNoYXJlcyBjYW5ub3QgYmUgbWludGVkIChkdWUgdG8gZGVwb3NpdCBsaW1pdCBiZWluZyByZWFjaGVkLCBzbGlwcGFnZSwgdGhlIHVzZXIgbm90CiAgICAgKiAgIGFwcHJvdmluZyBlbm91Z2ggdW5kZXJseWluZyB0b2tlbnMgdG8gdGhlIFZhdWx0IGNvbnRyYWN0LCBldGMpLgogICAgICoKICAgICAqIE5PVEU6IG1vc3QgaW1wbGVtZW50YXRpb25zIHdpbGwgcmVxdWlyZSBwcmUtYXBwcm92YWwgb2YgdGhlIFZhdWx0IHdpdGggdGhlIFZhdWx04oCZcyB1bmRlcmx5aW5nIGFzc2V0IHRva2VuLgogICAgICovCiAgICBmdW5jdGlvbiBtaW50KHVpbnQyNTYgc2hhcmVzLCBhZGRyZXNzIHJlY2VpdmVyKSBleHRlcm5hbCByZXR1cm5zICh1aW50MjU2IGFzc2V0cyk7CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIG1heGltdW0gYW1vdW50IG9mIHRoZSB1bmRlcmx5aW5nIGFzc2V0IHRoYXQgY2FuIGJlIHdpdGhkcmF3biBmcm9tIHRoZSBvd25lciBiYWxhbmNlIGluIHRoZQogICAgICogVmF1bHQsIHRocm91Z2ggYSB3aXRoZHJhdyBjYWxsLgogICAgICoKICAgICAqIC0gTVVTVCByZXR1cm4gYSBsaW1pdGVkIHZhbHVlIGlmIG93bmVyIGlzIHN1YmplY3QgdG8gc29tZSB3aXRoZHJhd2FsIGxpbWl0IG9yIHRpbWVsb2NrLgogICAgICogLSBNVVNUIE5PVCByZXZlcnQuCiAgICAgKi8KICAgIGZ1bmN0aW9uIG1heFdpdGhkcmF3KGFkZHJlc3Mgb3duZXIpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAodWludDI1NiBtYXhBc3NldHMpOwoKICAgIC8qKgogICAgICogQGRldiBBbGxvd3MgYW4gb24tY2hhaW4gb3Igb2ZmLWNoYWluIHVzZXIgdG8gc2ltdWxhdGUgdGhlIGVmZmVjdHMgb2YgdGhlaXIgd2l0aGRyYXdhbCBhdCB0aGUgY3VycmVudCBibG9jaywKICAgICAqIGdpdmVuIGN1cnJlbnQgb24tY2hhaW4gY29uZGl0aW9ucy4KICAgICAqCiAgICAgKiAtIE1VU1QgcmV0dXJuIGFzIGNsb3NlIHRvIGFuZCBubyBmZXdlciB0aGFuIHRoZSBleGFjdCBhbW91bnQgb2YgVmF1bHQgc2hhcmVzIHRoYXQgd291bGQgYmUgYnVybmVkIGluIGEgd2l0aGRyYXcKICAgICAqICAgY2FsbCBpbiB0aGUgc2FtZSB0cmFuc2FjdGlvbi4gSS5lLiB3aXRoZHJhdyBzaG91bGQgcmV0dXJuIHRoZSBzYW1lIG9yIGZld2VyIHNoYXJlcyBhcyBwcmV2aWV3V2l0aGRyYXcgaWYKICAgICAqICAgY2FsbGVkCiAgICAgKiAgIGluIHRoZSBzYW1lIHRyYW5zYWN0aW9uLgogICAgICogLSBNVVNUIE5PVCBhY2NvdW50IGZvciB3aXRoZHJhd2FsIGxpbWl0cyBsaWtlIHRob3NlIHJldHVybmVkIGZyb20gbWF4V2l0aGRyYXcgYW5kIHNob3VsZCBhbHdheXMgYWN0IGFzIHRob3VnaAogICAgICogICB0aGUgd2l0aGRyYXdhbCB3b3VsZCBiZSBhY2NlcHRlZCwgcmVnYXJkbGVzcyBpZiB0aGUgdXNlciBoYXMgZW5vdWdoIHNoYXJlcywgZXRjLgogICAgICogLSBNVVNUIGJlIGluY2x1c2l2ZSBvZiB3aXRoZHJhd2FsIGZlZXMuIEludGVncmF0b3JzIHNob3VsZCBiZSBhd2FyZSBvZiB0aGUgZXhpc3RlbmNlIG9mIHdpdGhkcmF3YWwgZmVlcy4KICAgICAqIC0gTVVTVCBOT1QgcmV2ZXJ0LgogICAgICoKICAgICAqIE5PVEU6IGFueSB1bmZhdm9yYWJsZSBkaXNjcmVwYW5jeSBiZXR3ZWVuIGNvbnZlcnRUb1NoYXJlcyBhbmQgcHJldmlld1dpdGhkcmF3IFNIT1VMRCBiZSBjb25zaWRlcmVkIHNsaXBwYWdlIGluCiAgICAgKiBzaGFyZSBwcmljZSBvciBzb21lIG90aGVyIHR5cGUgb2YgY29uZGl0aW9uLCBtZWFuaW5nIHRoZSBkZXBvc2l0b3Igd2lsbCBsb3NlIGFzc2V0cyBieSBkZXBvc2l0aW5nLgogICAgICovCiAgICBmdW5jdGlvbiBwcmV2aWV3V2l0aGRyYXcodWludDI1NiBhc3NldHMpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAodWludDI1NiBzaGFyZXMpOwoKICAgIC8qKgogICAgICogQGRldiBCdXJucyBzaGFyZXMgZnJvbSBvd25lciBhbmQgc2VuZHMgZXhhY3RseSBhc3NldHMgb2YgdW5kZXJseWluZyB0b2tlbnMgdG8gcmVjZWl2ZXIuCiAgICAgKgogICAgICogLSBNVVNUIGVtaXQgdGhlIFdpdGhkcmF3IGV2ZW50LgogICAgICogLSBNQVkgc3VwcG9ydCBhbiBhZGRpdGlvbmFsIGZsb3cgaW4gd2hpY2ggdGhlIHVuZGVybHlpbmcgdG9rZW5zIGFyZSBvd25lZCBieSB0aGUgVmF1bHQgY29udHJhY3QgYmVmb3JlIHRoZQogICAgICogICB3aXRoZHJhdyBleGVjdXRpb24sIGFuZCBhcmUgYWNjb3VudGVkIGZvciBkdXJpbmcgd2l0aGRyYXcuCiAgICAgKiAtIE1VU1QgcmV2ZXJ0IGlmIGFsbCBvZiBhc3NldHMgY2Fubm90IGJlIHdpdGhkcmF3biAoZHVlIHRvIHdpdGhkcmF3YWwgbGltaXQgYmVpbmcgcmVhY2hlZCwgc2xpcHBhZ2UsIHRoZSBvd25lcgogICAgICogICBub3QgaGF2aW5nIGVub3VnaCBzaGFyZXMsIGV0YykuCiAgICAgKgogICAgICogTm90ZSB0aGF0IHNvbWUgaW1wbGVtZW50YXRpb25zIHdpbGwgcmVxdWlyZSBwcmUtcmVxdWVzdGluZyB0byB0aGUgVmF1bHQgYmVmb3JlIGEgd2l0aGRyYXdhbCBtYXkgYmUgcGVyZm9ybWVkLgogICAgICogVGhvc2UgbWV0aG9kcyBzaG91bGQgYmUgcGVyZm9ybWVkIHNlcGFyYXRlbHkuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHdpdGhkcmF3KHVpbnQyNTYgYXNzZXRzLCBhZGRyZXNzIHJlY2VpdmVyLCBhZGRyZXNzIG93bmVyKSBleHRlcm5hbCByZXR1cm5zICh1aW50MjU2IHNoYXJlcyk7CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIG1heGltdW0gYW1vdW50IG9mIFZhdWx0IHNoYXJlcyB0aGF0IGNhbiBiZSByZWRlZW1lZCBmcm9tIHRoZSBvd25lciBiYWxhbmNlIGluIHRoZSBWYXVsdCwKICAgICAqIHRocm91Z2ggYSByZWRlZW0gY2FsbC4KICAgICAqCiAgICAgKiAtIE1VU1QgcmV0dXJuIGEgbGltaXRlZCB2YWx1ZSBpZiBvd25lciBpcyBzdWJqZWN0IHRvIHNvbWUgd2l0aGRyYXdhbCBsaW1pdCBvciB0aW1lbG9jay4KICAgICAqIC0gTVVTVCByZXR1cm4gYmFsYW5jZU9mKG93bmVyKSBpZiBvd25lciBpcyBub3Qgc3ViamVjdCB0byBhbnkgd2l0aGRyYXdhbCBsaW1pdCBvciB0aW1lbG9jay4KICAgICAqIC0gTVVTVCBOT1QgcmV2ZXJ0LgogICAgICovCiAgICBmdW5jdGlvbiBtYXhSZWRlZW0oYWRkcmVzcyBvd25lcikgZXh0ZXJuYWwgdmlldyByZXR1cm5zICh1aW50MjU2IG1heFNoYXJlcyk7CgogICAgLyoqCiAgICAgKiBAZGV2IEFsbG93cyBhbiBvbi1jaGFpbiBvciBvZmYtY2hhaW4gdXNlciB0byBzaW11bGF0ZSB0aGUgZWZmZWN0cyBvZiB0aGVpciByZWRlZW1wdGlvbiBhdCB0aGUgY3VycmVudCBibG9jaywKICAgICAqIGdpdmVuIGN1cnJlbnQgb24tY2hhaW4gY29uZGl0aW9ucy4KICAgICAqCiAgICAgKiAtIE1VU1QgcmV0dXJuIGFzIGNsb3NlIHRvIGFuZCBubyBtb3JlIHRoYW4gdGhlIGV4YWN0IGFtb3VudCBvZiBhc3NldHMgdGhhdCB3b3VsZCBiZSB3aXRoZHJhd24gaW4gYSByZWRlZW0gY2FsbAogICAgICogICBpbiB0aGUgc2FtZSB0cmFuc2FjdGlvbi4gSS5lLiByZWRlZW0gc2hvdWxkIHJldHVybiB0aGUgc2FtZSBvciBtb3JlIGFzc2V0cyBhcyBwcmV2aWV3UmVkZWVtIGlmIGNhbGxlZCBpbiB0aGUKICAgICAqICAgc2FtZSB0cmFuc2FjdGlvbi4KICAgICAqIC0gTVVTVCBOT1QgYWNjb3VudCBmb3IgcmVkZW1wdGlvbiBsaW1pdHMgbGlrZSB0aG9zZSByZXR1cm5lZCBmcm9tIG1heFJlZGVlbSBhbmQgc2hvdWxkIGFsd2F5cyBhY3QgYXMgdGhvdWdoIHRoZQogICAgICogICByZWRlbXB0aW9uIHdvdWxkIGJlIGFjY2VwdGVkLCByZWdhcmRsZXNzIGlmIHRoZSB1c2VyIGhhcyBlbm91Z2ggc2hhcmVzLCBldGMuCiAgICAgKiAtIE1VU1QgYmUgaW5jbHVzaXZlIG9mIHdpdGhkcmF3YWwgZmVlcy4gSW50ZWdyYXRvcnMgc2hvdWxkIGJlIGF3YXJlIG9mIHRoZSBleGlzdGVuY2Ugb2Ygd2l0aGRyYXdhbCBmZWVzLgogICAgICogLSBNVVNUIE5PVCByZXZlcnQuCiAgICAgKgogICAgICogTk9URTogYW55IHVuZmF2b3JhYmxlIGRpc2NyZXBhbmN5IGJldHdlZW4gY29udmVydFRvQXNzZXRzIGFuZCBwcmV2aWV3UmVkZWVtIFNIT1VMRCBiZSBjb25zaWRlcmVkIHNsaXBwYWdlIGluCiAgICAgKiBzaGFyZSBwcmljZSBvciBzb21lIG90aGVyIHR5cGUgb2YgY29uZGl0aW9uLCBtZWFuaW5nIHRoZSBkZXBvc2l0b3Igd2lsbCBsb3NlIGFzc2V0cyBieSByZWRlZW1pbmcuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHByZXZpZXdSZWRlZW0odWludDI1NiBzaGFyZXMpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAodWludDI1NiBhc3NldHMpOwoKICAgIC8qKgogICAgICogQGRldiBCdXJucyBleGFjdGx5IHNoYXJlcyBmcm9tIG93bmVyIGFuZCBzZW5kcyBhc3NldHMgb2YgdW5kZXJseWluZyB0b2tlbnMgdG8gcmVjZWl2ZXIuCiAgICAgKgogICAgICogLSBNVVNUIGVtaXQgdGhlIFdpdGhkcmF3IGV2ZW50LgogICAgICogLSBNQVkgc3VwcG9ydCBhbiBhZGRpdGlvbmFsIGZsb3cgaW4gd2hpY2ggdGhlIHVuZGVybHlpbmcgdG9rZW5zIGFyZSBvd25lZCBieSB0aGUgVmF1bHQgY29udHJhY3QgYmVmb3JlIHRoZQogICAgICogICByZWRlZW0gZXhlY3V0aW9uLCBhbmQgYXJlIGFjY291bnRlZCBmb3IgZHVyaW5nIHJlZGVlbS4KICAgICAqIC0gTVVTVCByZXZlcnQgaWYgYWxsIG9mIHNoYXJlcyBjYW5ub3QgYmUgcmVkZWVtZWQgKGR1ZSB0byB3aXRoZHJhd2FsIGxpbWl0IGJlaW5nIHJlYWNoZWQsIHNsaXBwYWdlLCB0aGUgb3duZXIKICAgICAqICAgbm90IGhhdmluZyBlbm91Z2ggc2hhcmVzLCBldGMpLgogICAgICoKICAgICAqIE5PVEU6IHNvbWUgaW1wbGVtZW50YXRpb25zIHdpbGwgcmVxdWlyZSBwcmUtcmVxdWVzdGluZyB0byB0aGUgVmF1bHQgYmVmb3JlIGEgd2l0aGRyYXdhbCBtYXkgYmUgcGVyZm9ybWVkLgogICAgICogVGhvc2UgbWV0aG9kcyBzaG91bGQgYmUgcGVyZm9ybWVkIHNlcGFyYXRlbHkuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHJlZGVlbSh1aW50MjU2IHNoYXJlcywgYWRkcmVzcyByZWNlaXZlciwgYWRkcmVzcyBvd25lcikgZXh0ZXJuYWwgcmV0dXJucyAodWludDI1NiBhc3NldHMpOwp9Cg==
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (interfaces/IERC4626.sol)
+
+pragma solidity ^0.8.20;
+
+import {IERC20} from "../token/ERC20/IERC20.sol";
+import {IERC20Metadata} from "../token/ERC20/extensions/IERC20Metadata.sol";
+
+/**
+ * @dev Interface of the ERC-4626 "Tokenized Vault Standard", as defined in
+ * https://eips.ethereum.org/EIPS/eip-4626[ERC-4626].
+ */
+interface IERC4626 is IERC20, IERC20Metadata {
+    event Deposit(address indexed sender, address indexed owner, uint256 assets, uint256 shares);
+
+    event Withdraw(
+        address indexed sender,
+        address indexed receiver,
+        address indexed owner,
+        uint256 assets,
+        uint256 shares
+    );
+
+    /**
+     * @dev Returns the address of the underlying token used for the Vault for accounting, depositing, and withdrawing.
+     *
+     * - MUST be an ERC-20 token contract.
+     * - MUST NOT revert.
+     */
+    function asset() external view returns (address assetTokenAddress);
+
+    /**
+     * @dev Returns the total amount of the underlying asset that is “managed” by Vault.
+     *
+     * - SHOULD include any compounding that occurs from yield.
+     * - MUST be inclusive of any fees that are charged against assets in the Vault.
+     * - MUST NOT revert.
+     */
+    function totalAssets() external view returns (uint256 totalManagedAssets);
+
+    /**
+     * @dev Returns the amount of shares that the Vault would exchange for the amount of assets provided, in an ideal
+     * scenario where all the conditions are met.
+     *
+     * - MUST NOT be inclusive of any fees that are charged against assets in the Vault.
+     * - MUST NOT show any variations depending on the caller.
+     * - MUST NOT reflect slippage or other on-chain conditions, when performing the actual exchange.
+     * - MUST NOT revert.
+     *
+     * NOTE: This calculation MAY NOT reflect the “per-user” price-per-share, and instead should reflect the
+     * “average-user’s” price-per-share, meaning what the average user should expect to see when exchanging to and
+     * from.
+     */
+    function convertToShares(uint256 assets) external view returns (uint256 shares);
+
+    /**
+     * @dev Returns the amount of assets that the Vault would exchange for the amount of shares provided, in an ideal
+     * scenario where all the conditions are met.
+     *
+     * - MUST NOT be inclusive of any fees that are charged against assets in the Vault.
+     * - MUST NOT show any variations depending on the caller.
+     * - MUST NOT reflect slippage or other on-chain conditions, when performing the actual exchange.
+     * - MUST NOT revert.
+     *
+     * NOTE: This calculation MAY NOT reflect the “per-user” price-per-share, and instead should reflect the
+     * “average-user’s” price-per-share, meaning what the average user should expect to see when exchanging to and
+     * from.
+     */
+    function convertToAssets(uint256 shares) external view returns (uint256 assets);
+
+    /**
+     * @dev Returns the maximum amount of the underlying asset that can be deposited into the Vault for the receiver,
+     * through a deposit call.
+     *
+     * - MUST return a limited value if receiver is subject to some deposit limit.
+     * - MUST return 2 ** 256 - 1 if there is no limit on the maximum amount of assets that may be deposited.
+     * - MUST NOT revert.
+     */
+    function maxDeposit(address receiver) external view returns (uint256 maxAssets);
+
+    /**
+     * @dev Allows an on-chain or off-chain user to simulate the effects of their deposit at the current block, given
+     * current on-chain conditions.
+     *
+     * - MUST return as close to and no more than the exact amount of Vault shares that would be minted in a deposit
+     *   call in the same transaction. I.e. deposit should return the same or more shares as previewDeposit if called
+     *   in the same transaction.
+     * - MUST NOT account for deposit limits like those returned from maxDeposit and should always act as though the
+     *   deposit would be accepted, regardless if the user has enough tokens approved, etc.
+     * - MUST be inclusive of deposit fees. Integrators should be aware of the existence of deposit fees.
+     * - MUST NOT revert.
+     *
+     * NOTE: any unfavorable discrepancy between convertToShares and previewDeposit SHOULD be considered slippage in
+     * share price or some other type of condition, meaning the depositor will lose assets by depositing.
+     */
+    function previewDeposit(uint256 assets) external view returns (uint256 shares);
+
+    /**
+     * @dev Mints shares Vault shares to receiver by depositing exactly amount of underlying tokens.
+     *
+     * - MUST emit the Deposit event.
+     * - MAY support an additional flow in which the underlying tokens are owned by the Vault contract before the
+     *   deposit execution, and are accounted for during deposit.
+     * - MUST revert if all of assets cannot be deposited (due to deposit limit being reached, slippage, the user not
+     *   approving enough underlying tokens to the Vault contract, etc).
+     *
+     * NOTE: most implementations will require pre-approval of the Vault with the Vault’s underlying asset token.
+     */
+    function deposit(uint256 assets, address receiver) external returns (uint256 shares);
+
+    /**
+     * @dev Returns the maximum amount of the Vault shares that can be minted for the receiver, through a mint call.
+     * - MUST return a limited value if receiver is subject to some mint limit.
+     * - MUST return 2 ** 256 - 1 if there is no limit on the maximum amount of shares that may be minted.
+     * - MUST NOT revert.
+     */
+    function maxMint(address receiver) external view returns (uint256 maxShares);
+
+    /**
+     * @dev Allows an on-chain or off-chain user to simulate the effects of their mint at the current block, given
+     * current on-chain conditions.
+     *
+     * - MUST return as close to and no fewer than the exact amount of assets that would be deposited in a mint call
+     *   in the same transaction. I.e. mint should return the same or fewer assets as previewMint if called in the
+     *   same transaction.
+     * - MUST NOT account for mint limits like those returned from maxMint and should always act as though the mint
+     *   would be accepted, regardless if the user has enough tokens approved, etc.
+     * - MUST be inclusive of deposit fees. Integrators should be aware of the existence of deposit fees.
+     * - MUST NOT revert.
+     *
+     * NOTE: any unfavorable discrepancy between convertToAssets and previewMint SHOULD be considered slippage in
+     * share price or some other type of condition, meaning the depositor will lose assets by minting.
+     */
+    function previewMint(uint256 shares) external view returns (uint256 assets);
+
+    /**
+     * @dev Mints exactly shares Vault shares to receiver by depositing amount of underlying tokens.
+     *
+     * - MUST emit the Deposit event.
+     * - MAY support an additional flow in which the underlying tokens are owned by the Vault contract before the mint
+     *   execution, and are accounted for during mint.
+     * - MUST revert if all of shares cannot be minted (due to deposit limit being reached, slippage, the user not
+     *   approving enough underlying tokens to the Vault contract, etc).
+     *
+     * NOTE: most implementations will require pre-approval of the Vault with the Vault’s underlying asset token.
+     */
+    function mint(uint256 shares, address receiver) external returns (uint256 assets);
+
+    /**
+     * @dev Returns the maximum amount of the underlying asset that can be withdrawn from the owner balance in the
+     * Vault, through a withdraw call.
+     *
+     * - MUST return a limited value if owner is subject to some withdrawal limit or timelock.
+     * - MUST NOT revert.
+     */
+    function maxWithdraw(address owner) external view returns (uint256 maxAssets);
+
+    /**
+     * @dev Allows an on-chain or off-chain user to simulate the effects of their withdrawal at the current block,
+     * given current on-chain conditions.
+     *
+     * - MUST return as close to and no fewer than the exact amount of Vault shares that would be burned in a withdraw
+     *   call in the same transaction. I.e. withdraw should return the same or fewer shares as previewWithdraw if
+     *   called
+     *   in the same transaction.
+     * - MUST NOT account for withdrawal limits like those returned from maxWithdraw and should always act as though
+     *   the withdrawal would be accepted, regardless if the user has enough shares, etc.
+     * - MUST be inclusive of withdrawal fees. Integrators should be aware of the existence of withdrawal fees.
+     * - MUST NOT revert.
+     *
+     * NOTE: any unfavorable discrepancy between convertToShares and previewWithdraw SHOULD be considered slippage in
+     * share price or some other type of condition, meaning the depositor will lose assets by depositing.
+     */
+    function previewWithdraw(uint256 assets) external view returns (uint256 shares);
+
+    /**
+     * @dev Burns shares from owner and sends exactly assets of underlying tokens to receiver.
+     *
+     * - MUST emit the Withdraw event.
+     * - MAY support an additional flow in which the underlying tokens are owned by the Vault contract before the
+     *   withdraw execution, and are accounted for during withdraw.
+     * - MUST revert if all of assets cannot be withdrawn (due to withdrawal limit being reached, slippage, the owner
+     *   not having enough shares, etc).
+     *
+     * Note that some implementations will require pre-requesting to the Vault before a withdrawal may be performed.
+     * Those methods should be performed separately.
+     */
+    function withdraw(uint256 assets, address receiver, address owner) external returns (uint256 shares);
+
+    /**
+     * @dev Returns the maximum amount of Vault shares that can be redeemed from the owner balance in the Vault,
+     * through a redeem call.
+     *
+     * - MUST return a limited value if owner is subject to some withdrawal limit or timelock.
+     * - MUST return balanceOf(owner) if owner is not subject to any withdrawal limit or timelock.
+     * - MUST NOT revert.
+     */
+    function maxRedeem(address owner) external view returns (uint256 maxShares);
+
+    /**
+     * @dev Allows an on-chain or off-chain user to simulate the effects of their redeemption at the current block,
+     * given current on-chain conditions.
+     *
+     * - MUST return as close to and no more than the exact amount of assets that would be withdrawn in a redeem call
+     *   in the same transaction. I.e. redeem should return the same or more assets as previewRedeem if called in the
+     *   same transaction.
+     * - MUST NOT account for redemption limits like those returned from maxRedeem and should always act as though the
+     *   redemption would be accepted, regardless if the user has enough shares, etc.
+     * - MUST be inclusive of withdrawal fees. Integrators should be aware of the existence of withdrawal fees.
+     * - MUST NOT revert.
+     *
+     * NOTE: any unfavorable discrepancy between convertToAssets and previewRedeem SHOULD be considered slippage in
+     * share price or some other type of condition, meaning the depositor will lose assets by redeeming.
+     */
+    function previewRedeem(uint256 shares) external view returns (uint256 assets);
+
+    /**
+     * @dev Burns exactly shares from owner and sends assets of underlying tokens to receiver.
+     *
+     * - MUST emit the Withdraw event.
+     * - MAY support an additional flow in which the underlying tokens are owned by the Vault contract before the
+     *   redeem execution, and are accounted for during redeem.
+     * - MUST revert if all of shares cannot be redeemed (due to withdrawal limit being reached, slippage, the owner
+     *   not having enough shares, etc).
+     *
+     * NOTE: some implementations will require pre-requesting to the Vault before a withdrawal may be performed.
+     * Those methods should be performed separately.
+     */
+    function redeem(uint256 shares, address receiver, address owner) external returns (uint256 assets);
+}
