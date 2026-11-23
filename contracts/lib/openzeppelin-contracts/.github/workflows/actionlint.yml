@@ -1,1 +1,18 @@
-bmFtZTogbGludCB3b3JrZmxvd3MKCm9uOgogIHB1bGxfcmVxdWVzdDoKICAgIHBhdGhzOgogICAgICAtICcuZ2l0aHViLyoqLyoueWE/bWwnCgpqb2JzOgogIGxpbnQ6CiAgICBydW5zLW9uOiB1YnVudHUtbGF0ZXN0CiAgICBzdGVwczoKICAgICAgLSB1c2VzOiBhY3Rpb25zL2NoZWNrb3V0QHY0CiAgICAgIC0gbmFtZTogQWRkIHByb2JsZW0gbWF0Y2hlcnMKICAgICAgICBydW46IHwKICAgICAgICAgICMgaHR0cHM6Ly9naXRodWIuY29tL3JoeXNkL2FjdGlvbmxpbnQvYmxvYi8zYTJmMmM3L2RvY3MvdXNhZ2UubWQjcHJvYmxlbS1tYXRjaGVycwogICAgICAgICAgY3VybCAtTE8gaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3JoeXNkL2FjdGlvbmxpbnQvbWFpbi8uZ2l0aHViL2FjdGlvbmxpbnQtbWF0Y2hlci5qc29uCiAgICAgICAgICBlY2hvICI6OmFkZC1tYXRjaGVyOjphY3Rpb25saW50LW1hdGNoZXIuanNvbiIKICAgICAgLSB1c2VzOiBkb2NrZXI6Ly9yaHlzZC9hY3Rpb25saW50OmxhdGVzdAo=
+name: lint workflows
+
+on:
+  pull_request:
+    paths:
+      - '.github/**/*.ya?ml'
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Add problem matchers
+        run: |
+          # https://github.com/rhysd/actionlint/blob/3a2f2c7/docs/usage.md#problem-matchers
+          curl -LO https://raw.githubusercontent.com/rhysd/actionlint/main/.github/actionlint-matcher.json
+          echo "::add-matcher::actionlint-matcher.json"
+      - uses: docker://rhysd/actionlint:latest
