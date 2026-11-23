@@ -1,1 +1,6 @@
-Y29uc3QgeyBzdWJ0YXNrIH0gPSByZXF1aXJlKCdoYXJkaGF0L2NvbmZpZycpOwpjb25zdCB7IFRBU0tfQ09NUElMRV9TT0xJRElUWV9HRVRfU09VUkNFX1BBVEhTIH0gPSByZXF1aXJlKCdoYXJkaGF0L2J1aWx0aW4tdGFza3MvdGFzay1uYW1lcycpOwoKc3VidGFzayhUQVNLX0NPTVBJTEVfU09MSURJVFlfR0VUX1NPVVJDRV9QQVRIUykuc2V0QWN0aW9uKGFzeW5jIChfLCBfXywgcnVuU3VwZXIpID0+CiAgKGF3YWl0IHJ1blN1cGVyKCkpLmZpbHRlcihwYXRoID0+ICFwYXRoLmVuZHNXaXRoKCcudC5zb2wnKSksCik7Cg==
+const { subtask } = require('hardhat/config');
+const { TASK_COMPILE_SOLIDITY_GET_SOURCE_PATHS } = require('hardhat/builtin-tasks/task-names');
+
+subtask(TASK_COMPILE_SOLIDITY_GET_SOURCE_PATHS).setAction(async (_, __, runSuper) =>
+  (await runSuper()).filter(path => !path.endsWith('.t.sol')),
+);
