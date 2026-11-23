@@ -1,1 +1,26 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAoaW50ZXJmYWNlcy9JRVJDMjk4MS5zb2wpCgpwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7SUVSQzE2NX0gZnJvbSAiLi4vdXRpbHMvaW50cm9zcGVjdGlvbi9JRVJDMTY1LnNvbCI7CgovKioKICogQGRldiBJbnRlcmZhY2UgZm9yIHRoZSBORlQgUm95YWx0eSBTdGFuZGFyZC4KICoKICogQSBzdGFuZGFyZGl6ZWQgd2F5IHRvIHJldHJpZXZlIHJveWFsdHkgcGF5bWVudCBpbmZvcm1hdGlvbiBmb3Igbm9uLWZ1bmdpYmxlIHRva2VucyAoTkZUcykgdG8gZW5hYmxlIHVuaXZlcnNhbAogKiBzdXBwb3J0IGZvciByb3lhbHR5IHBheW1lbnRzIGFjcm9zcyBhbGwgTkZUIG1hcmtldHBsYWNlcyBhbmQgZWNvc3lzdGVtIHBhcnRpY2lwYW50cy4KICovCmludGVyZmFjZSBJRVJDMjk4MSBpcyBJRVJDMTY1IHsKICAgIC8qKgogICAgICogQGRldiBSZXR1cm5zIGhvdyBtdWNoIHJveWFsdHkgaXMgb3dlZCBhbmQgdG8gd2hvbSwgYmFzZWQgb24gYSBzYWxlIHByaWNlIHRoYXQgbWF5IGJlIGRlbm9taW5hdGVkIGluIGFueSB1bml0IG9mCiAgICAgKiBleGNoYW5nZS4gVGhlIHJveWFsdHkgYW1vdW50IGlzIGRlbm9taW5hdGVkIGFuZCBzaG91bGQgYmUgcGFpZCBpbiB0aGF0IHNhbWUgdW5pdCBvZiBleGNoYW5nZS4KICAgICAqCiAgICAgKiBOT1RFOiBFUkMtMjk4MSBhbGxvd3Mgc2V0dGluZyB0aGUgcm95YWx0eSB0byAxMDAlIG9mIHRoZSBwcmljZS4gSW4gdGhhdCBjYXNlIGFsbCB0aGUgcHJpY2Ugd291bGQgYmUgc2VudCB0byB0aGUKICAgICAqIHJveWFsdHkgcmVjZWl2ZXIgYW5kIDAgdG9rZW5zIHRvIHRoZSBzZWxsZXIuIENvbnRyYWN0cyBkZWFsaW5nIHdpdGggcm95YWx0eSBzaG91bGQgY29uc2lkZXIgZW1wdHkgdHJhbnNmZXJzLgogICAgICovCiAgICBmdW5jdGlvbiByb3lhbHR5SW5mbygKICAgICAgICB1aW50MjU2IHRva2VuSWQsCiAgICAgICAgdWludDI1NiBzYWxlUHJpY2UKICAgICkgZXh0ZXJuYWwgdmlldyByZXR1cm5zIChhZGRyZXNzIHJlY2VpdmVyLCB1aW50MjU2IHJveWFsdHlBbW91bnQpOwp9Cg==
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (interfaces/IERC2981.sol)
+
+pragma solidity ^0.8.20;
+
+import {IERC165} from "../utils/introspection/IERC165.sol";
+
+/**
+ * @dev Interface for the NFT Royalty Standard.
+ *
+ * A standardized way to retrieve royalty payment information for non-fungible tokens (NFTs) to enable universal
+ * support for royalty payments across all NFT marketplaces and ecosystem participants.
+ */
+interface IERC2981 is IERC165 {
+    /**
+     * @dev Returns how much royalty is owed and to whom, based on a sale price that may be denominated in any unit of
+     * exchange. The royalty amount is denominated and should be paid in that same unit of exchange.
+     *
+     * NOTE: ERC-2981 allows setting the royalty to 100% of the price. In that case all the price would be sent to the
+     * royalty receiver and 0 tokens to the seller. Contracts dealing with royalty should consider empty transfers.
+     */
+    function royaltyInfo(
+        uint256 tokenId,
+        uint256 salePrice
+    ) external view returns (address receiver, uint256 royaltyAmount);
+}
