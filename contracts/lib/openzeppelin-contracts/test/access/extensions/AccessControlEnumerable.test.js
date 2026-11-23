@@ -1,1 +1,24 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKY29uc3QgewogIERFRkFVTFRfQURNSU5fUk9MRSwKICBzaG91bGRCZWhhdmVMaWtlQWNjZXNzQ29udHJvbCwKICBzaG91bGRCZWhhdmVMaWtlQWNjZXNzQ29udHJvbEVudW1lcmFibGUsCn0gPSByZXF1aXJlKCcuLi9BY2Nlc3NDb250cm9sLmJlaGF2aW9yJyk7Cgphc3luYyBmdW5jdGlvbiBmaXh0dXJlKCkgewogIGNvbnN0IFtkZWZhdWx0QWRtaW4sIC4uLmFjY291bnRzXSA9IGF3YWl0IGV0aGVycy5nZXRTaWduZXJzKCk7CiAgY29uc3QgbW9jayA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnJEFjY2Vzc0NvbnRyb2xFbnVtZXJhYmxlJyk7CiAgYXdhaXQgbW9jay4kX2dyYW50Um9sZShERUZBVUxUX0FETUlOX1JPTEUsIGRlZmF1bHRBZG1pbik7CiAgcmV0dXJuIHsgbW9jaywgZGVmYXVsdEFkbWluLCBhY2NvdW50cyB9Owp9CgpkZXNjcmliZSgnQWNjZXNzQ29udHJvbEVudW1lcmFibGUnLCBmdW5jdGlvbiAoKSB7CiAgYmVmb3JlRWFjaChhc3luYyBmdW5jdGlvbiAoKSB7CiAgICBPYmplY3QuYXNzaWduKHRoaXMsIGF3YWl0IGxvYWRGaXh0dXJlKGZpeHR1cmUpKTsKICB9KTsKCiAgc2hvdWxkQmVoYXZlTGlrZUFjY2Vzc0NvbnRyb2woKTsKICBzaG91bGRCZWhhdmVMaWtlQWNjZXNzQ29udHJvbEVudW1lcmFibGUoKTsKfSk7Cg==
+const { ethers } = require('hardhat');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+const {
+  DEFAULT_ADMIN_ROLE,
+  shouldBehaveLikeAccessControl,
+  shouldBehaveLikeAccessControlEnumerable,
+} = require('../AccessControl.behavior');
+
+async function fixture() {
+  const [defaultAdmin, ...accounts] = await ethers.getSigners();
+  const mock = await ethers.deployContract('$AccessControlEnumerable');
+  await mock.$_grantRole(DEFAULT_ADMIN_ROLE, defaultAdmin);
+  return { mock, defaultAdmin, accounts };
+}
+
+describe('AccessControlEnumerable', function () {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  shouldBehaveLikeAccessControl();
+  shouldBehaveLikeAccessControlEnumerable();
+});
