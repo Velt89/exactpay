@@ -1,1 +1,248 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBUaGlzIGZpbGUgd2FzIHByb2NlZHVyYWxseSBnZW5lcmF0ZWQgZnJvbSBzY3JpcHRzL2dlbmVyYXRlL3RlbXBsYXRlcy9TbG90RGVyaXZhdGlvbi50LmpzLgoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge1Rlc3R9IGZyb20gImZvcmdlLXN0ZC9UZXN0LnNvbCI7CmltcG9ydCB7U3ltVGVzdH0gZnJvbSAiaGFsbW9zLWNoZWF0Y29kZXMvU3ltVGVzdC5zb2wiOwppbXBvcnQge1Nsb3REZXJpdmF0aW9ufSBmcm9tICJAb3BlbnplcHBlbGluL2NvbnRyYWN0cy91dGlscy9TbG90RGVyaXZhdGlvbi5zb2wiOwoKY29udHJhY3QgU2xvdERlcml2YXRpb25UZXN0IGlzIFRlc3QsIFN5bVRlc3QgewogICAgdXNpbmcgU2xvdERlcml2YXRpb24gZm9yIGJ5dGVzMzI7CgogICAgYnl0ZXNbXSBwcml2YXRlIF9hcnJheTsKCiAgICBmdW5jdGlvbiBzeW1ib2xpY0Rlcml2ZUFycmF5KHVpbnQyNTYgbGVuZ3RoLCB1aW50MjU2IG9mZnNldCkgcHVibGljIHsKICAgICAgICB2bS5hc3N1bWUobGVuZ3RoID4gMCk7CiAgICAgICAgdm0uYXNzdW1lKG9mZnNldCA8IGxlbmd0aCk7CiAgICAgICAgX2Fzc2VydERlcml2ZUFycmF5KGxlbmd0aCwgb2Zmc2V0KTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0RGVyaXZlQXJyYXkodWludDI1NiBsZW5ndGgsIHVpbnQyNTYgb2Zmc2V0KSBwdWJsaWMgewogICAgICAgIGxlbmd0aCA9IGJvdW5kKGxlbmd0aCwgMSwgdHlwZSh1aW50MjU2KS5tYXgpOwogICAgICAgIG9mZnNldCA9IGJvdW5kKG9mZnNldCwgMCwgbGVuZ3RoIC0gMSk7CiAgICAgICAgX2Fzc2VydERlcml2ZUFycmF5KGxlbmd0aCwgb2Zmc2V0KTsKICAgIH0KCiAgICBmdW5jdGlvbiBfYXNzZXJ0RGVyaXZlQXJyYXkodWludDI1NiBsZW5ndGgsIHVpbnQyNTYgb2Zmc2V0KSBwdWJsaWMgewogICAgICAgIGJ5dGVzMzIgYmFzZVNsb3Q7CiAgICAgICAgYXNzZW1ibHkgewogICAgICAgICAgICBiYXNlU2xvdCA6PSBfYXJyYXkuc2xvdAogICAgICAgICAgICBzc3RvcmUoYmFzZVNsb3QsIGxlbmd0aCkgLy8gc3RvcmUgbGVuZ3RoIHNvIHNvbGlkaXR5IGFjY2VzcyBkb2VzIG5vdCByZXZlcnQKICAgICAgICB9CgogICAgICAgIGJ5dGVzIHN0b3JhZ2UgZGVyaXZlZCA9IF9hcnJheVtvZmZzZXRdOwogICAgICAgIGJ5dGVzMzIgZGVyaXZlZFNsb3Q7CiAgICAgICAgYXNzZW1ibHkgewogICAgICAgICAgICBkZXJpdmVkU2xvdCA6PSBkZXJpdmVkLnNsb3QKICAgICAgICB9CgogICAgICAgIGFzc2VydEVxKGJhc2VTbG90LmRlcml2ZUFycmF5KCkub2Zmc2V0KG9mZnNldCksIGRlcml2ZWRTbG90KTsKICAgIH0KCiAgICBtYXBwaW5nKGFkZHJlc3MgPT4gYnl0ZXMpIHByaXZhdGUgX2FkZHJlc3NNYXBwaW5nOwoKICAgIGZ1bmN0aW9uIHRlc3RTeW1ib2xpY0Rlcml2ZU1hcHBpbmdBZGRyZXNzKGFkZHJlc3Mga2V5KSBwdWJsaWMgewogICAgICAgIGJ5dGVzMzIgYmFzZVNsb3Q7CiAgICAgICAgYXNzZW1ibHkgewogICAgICAgICAgICBiYXNlU2xvdCA6PSBfYWRkcmVzc01hcHBpbmcuc2xvdAogICAgICAgIH0KCiAgICAgICAgYnl0ZXMgc3RvcmFnZSBkZXJpdmVkID0gX2FkZHJlc3NNYXBwaW5nW2tleV07CiAgICAgICAgYnl0ZXMzMiBkZXJpdmVkU2xvdDsKICAgICAgICBhc3NlbWJseSB7CiAgICAgICAgICAgIGRlcml2ZWRTbG90IDo9IGRlcml2ZWQuc2xvdAogICAgICAgIH0KCiAgICAgICAgYXNzZXJ0RXEoYmFzZVNsb3QuZGVyaXZlTWFwcGluZyhrZXkpLCBkZXJpdmVkU2xvdCk7CiAgICB9CgogICAgbWFwcGluZyhib29sID0+IGJ5dGVzKSBwcml2YXRlIF9ib29sTWFwcGluZzsKCiAgICBmdW5jdGlvbiB0ZXN0U3ltYm9saWNEZXJpdmVNYXBwaW5nQm9vbGVhbihib29sIGtleSkgcHVibGljIHsKICAgICAgICBieXRlczMyIGJhc2VTbG90OwogICAgICAgIGFzc2VtYmx5IHsKICAgICAgICAgICAgYmFzZVNsb3QgOj0gX2Jvb2xNYXBwaW5nLnNsb3QKICAgICAgICB9CgogICAgICAgIGJ5dGVzIHN0b3JhZ2UgZGVyaXZlZCA9IF9ib29sTWFwcGluZ1trZXldOwogICAgICAgIGJ5dGVzMzIgZGVyaXZlZFNsb3Q7CiAgICAgICAgYXNzZW1ibHkgewogICAgICAgICAgICBkZXJpdmVkU2xvdCA6PSBkZXJpdmVkLnNsb3QKICAgICAgICB9CgogICAgICAgIGFzc2VydEVxKGJhc2VTbG90LmRlcml2ZU1hcHBpbmcoa2V5KSwgZGVyaXZlZFNsb3QpOwogICAgfQoKICAgIG1hcHBpbmcoYnl0ZXMzMiA9PiBieXRlcykgcHJpdmF0ZSBfYnl0ZXMzMk1hcHBpbmc7CgogICAgZnVuY3Rpb24gdGVzdFN5bWJvbGljRGVyaXZlTWFwcGluZ0J5dGVzMzIoYnl0ZXMzMiBrZXkpIHB1YmxpYyB7CiAgICAgICAgYnl0ZXMzMiBiYXNlU2xvdDsKICAgICAgICBhc3NlbWJseSB7CiAgICAgICAgICAgIGJhc2VTbG90IDo9IF9ieXRlczMyTWFwcGluZy5zbG90CiAgICAgICAgfQoKICAgICAgICBieXRlcyBzdG9yYWdlIGRlcml2ZWQgPSBfYnl0ZXMzMk1hcHBpbmdba2V5XTsKICAgICAgICBieXRlczMyIGRlcml2ZWRTbG90OwogICAgICAgIGFzc2VtYmx5IHsKICAgICAgICAgICAgZGVyaXZlZFNsb3QgOj0gZGVyaXZlZC5zbG90CiAgICAgICAgfQoKICAgICAgICBhc3NlcnRFcShiYXNlU2xvdC5kZXJpdmVNYXBwaW5nKGtleSksIGRlcml2ZWRTbG90KTsKICAgIH0KCiAgICBtYXBwaW5nKGJ5dGVzNCA9PiBieXRlcykgcHJpdmF0ZSBfYnl0ZXM0TWFwcGluZzsKCiAgICBmdW5jdGlvbiB0ZXN0U3ltYm9saWNEZXJpdmVNYXBwaW5nQnl0ZXM0KGJ5dGVzNCBrZXkpIHB1YmxpYyB7CiAgICAgICAgYnl0ZXMzMiBiYXNlU2xvdDsKICAgICAgICBhc3NlbWJseSB7CiAgICAgICAgICAgIGJhc2VTbG90IDo9IF9ieXRlczRNYXBwaW5nLnNsb3QKICAgICAgICB9CgogICAgICAgIGJ5dGVzIHN0b3JhZ2UgZGVyaXZlZCA9IF9ieXRlczRNYXBwaW5nW2tleV07CiAgICAgICAgYnl0ZXMzMiBkZXJpdmVkU2xvdDsKICAgICAgICBhc3NlbWJseSB7CiAgICAgICAgICAgIGRlcml2ZWRTbG90IDo9IGRlcml2ZWQuc2xvdAogICAgICAgIH0KCiAgICAgICAgYXNzZXJ0RXEoYmFzZVNsb3QuZGVyaXZlTWFwcGluZyhrZXkpLCBkZXJpdmVkU2xvdCk7CiAgICB9CgogICAgbWFwcGluZyh1aW50MjU2ID0+IGJ5dGVzKSBwcml2YXRlIF91aW50MjU2TWFwcGluZzsKCiAgICBmdW5jdGlvbiB0ZXN0U3ltYm9saWNEZXJpdmVNYXBwaW5nVWludDI1Nih1aW50MjU2IGtleSkgcHVibGljIHsKICAgICAgICBieXRlczMyIGJhc2VTbG90OwogICAgICAgIGFzc2VtYmx5IHsKICAgICAgICAgICAgYmFzZVNsb3QgOj0gX3VpbnQyNTZNYXBwaW5nLnNsb3QKICAgICAgICB9CgogICAgICAgIGJ5dGVzIHN0b3JhZ2UgZGVyaXZlZCA9IF91aW50MjU2TWFwcGluZ1trZXldOwogICAgICAgIGJ5dGVzMzIgZGVyaXZlZFNsb3Q7CiAgICAgICAgYXNzZW1ibHkgewogICAgICAgICAgICBkZXJpdmVkU2xvdCA6PSBkZXJpdmVkLnNsb3QKICAgICAgICB9CgogICAgICAgIGFzc2VydEVxKGJhc2VTbG90LmRlcml2ZU1hcHBpbmcoa2V5KSwgZGVyaXZlZFNsb3QpOwogICAgfQoKICAgIG1hcHBpbmcodWludDMyID0+IGJ5dGVzKSBwcml2YXRlIF91aW50MzJNYXBwaW5nOwoKICAgIGZ1bmN0aW9uIHRlc3RTeW1ib2xpY0Rlcml2ZU1hcHBpbmdVaW50MzIodWludDMyIGtleSkgcHVibGljIHsKICAgICAgICBieXRlczMyIGJhc2VTbG90OwogICAgICAgIGFzc2VtYmx5IHsKICAgICAgICAgICAgYmFzZVNsb3QgOj0gX3VpbnQzMk1hcHBpbmcuc2xvdAogICAgICAgIH0KCiAgICAgICAgYnl0ZXMgc3RvcmFnZSBkZXJpdmVkID0gX3VpbnQzMk1hcHBpbmdba2V5XTsKICAgICAgICBieXRlczMyIGRlcml2ZWRTbG90OwogICAgICAgIGFzc2VtYmx5IHsKICAgICAgICAgICAgZGVyaXZlZFNsb3QgOj0gZGVyaXZlZC5zbG90CiAgICAgICAgfQoKICAgICAgICBhc3NlcnRFcShiYXNlU2xvdC5kZXJpdmVNYXBwaW5nKGtleSksIGRlcml2ZWRTbG90KTsKICAgIH0KCiAgICBtYXBwaW5nKGludDI1NiA9PiBieXRlcykgcHJpdmF0ZSBfaW50MjU2TWFwcGluZzsKCiAgICBmdW5jdGlvbiB0ZXN0U3ltYm9saWNEZXJpdmVNYXBwaW5nSW50MjU2KGludDI1NiBrZXkpIHB1YmxpYyB7CiAgICAgICAgYnl0ZXMzMiBiYXNlU2xvdDsKICAgICAgICBhc3NlbWJseSB7CiAgICAgICAgICAgIGJhc2VTbG90IDo9IF9pbnQyNTZNYXBwaW5nLnNsb3QKICAgICAgICB9CgogICAgICAgIGJ5dGVzIHN0b3JhZ2UgZGVyaXZlZCA9IF9pbnQyNTZNYXBwaW5nW2tleV07CiAgICAgICAgYnl0ZXMzMiBkZXJpdmVkU2xvdDsKICAgICAgICBhc3NlbWJseSB7CiAgICAgICAgICAgIGRlcml2ZWRTbG90IDo9IGRlcml2ZWQuc2xvdAogICAgICAgIH0KCiAgICAgICAgYXNzZXJ0RXEoYmFzZVNsb3QuZGVyaXZlTWFwcGluZyhrZXkpLCBkZXJpdmVkU2xvdCk7CiAgICB9CgogICAgbWFwcGluZyhpbnQzMiA9PiBieXRlcykgcHJpdmF0ZSBfaW50MzJNYXBwaW5nOwoKICAgIGZ1bmN0aW9uIHRlc3RTeW1ib2xpY0Rlcml2ZU1hcHBpbmdJbnQzMihpbnQzMiBrZXkpIHB1YmxpYyB7CiAgICAgICAgYnl0ZXMzMiBiYXNlU2xvdDsKICAgICAgICBhc3NlbWJseSB7CiAgICAgICAgICAgIGJhc2VTbG90IDo9IF9pbnQzMk1hcHBpbmcuc2xvdAogICAgICAgIH0KCiAgICAgICAgYnl0ZXMgc3RvcmFnZSBkZXJpdmVkID0gX2ludDMyTWFwcGluZ1trZXldOwogICAgICAgIGJ5dGVzMzIgZGVyaXZlZFNsb3Q7CiAgICAgICAgYXNzZW1ibHkgewogICAgICAgICAgICBkZXJpdmVkU2xvdCA6PSBkZXJpdmVkLnNsb3QKICAgICAgICB9CgogICAgICAgIGFzc2VydEVxKGJhc2VTbG90LmRlcml2ZU1hcHBpbmcoa2V5KSwgZGVyaXZlZFNsb3QpOwogICAgfQoKICAgIG1hcHBpbmcoc3RyaW5nID0+IGJ5dGVzKSBwcml2YXRlIF9zdHJpbmdNYXBwaW5nOwoKICAgIGZ1bmN0aW9uIHRlc3REZXJpdmVNYXBwaW5nU3RyaW5nKHN0cmluZyBtZW1vcnkga2V5KSBwdWJsaWMgewogICAgICAgIF9hc3NlcnREZXJpdmVNYXBwaW5nU3RyaW5nKGtleSk7CiAgICB9CgogICAgZnVuY3Rpb24gc3ltYm9saWNEZXJpdmVNYXBwaW5nU3RyaW5nKCkgcHVibGljIHsKICAgICAgICBfYXNzZXJ0RGVyaXZlTWFwcGluZ1N0cmluZyhzdm0uY3JlYXRlU3RyaW5nKDI1NiwgIkRlcml2ZU1hcHBpbmdTdHJpbmdJbnB1dCIpKTsKICAgIH0KCiAgICBmdW5jdGlvbiBfYXNzZXJ0RGVyaXZlTWFwcGluZ1N0cmluZyhzdHJpbmcgbWVtb3J5IGtleSkgaW50ZXJuYWwgewogICAgICAgIGJ5dGVzMzIgYmFzZVNsb3Q7CiAgICAgICAgYXNzZW1ibHkgewogICAgICAgICAgICBiYXNlU2xvdCA6PSBfc3RyaW5nTWFwcGluZy5zbG90CiAgICAgICAgfQoKICAgICAgICBieXRlcyBzdG9yYWdlIGRlcml2ZWQgPSBfc3RyaW5nTWFwcGluZ1trZXldOwogICAgICAgIGJ5dGVzMzIgZGVyaXZlZFNsb3Q7CiAgICAgICAgYXNzZW1ibHkgewogICAgICAgICAgICBkZXJpdmVkU2xvdCA6PSBkZXJpdmVkLnNsb3QKICAgICAgICB9CgogICAgICAgIGFzc2VydEVxKGJhc2VTbG90LmRlcml2ZU1hcHBpbmcoa2V5KSwgZGVyaXZlZFNsb3QpOwogICAgfQoKICAgIG1hcHBpbmcoYnl0ZXMgPT4gYnl0ZXMpIHByaXZhdGUgX2J5dGVzTWFwcGluZzsKCiAgICBmdW5jdGlvbiB0ZXN0RGVyaXZlTWFwcGluZ0J5dGVzKGJ5dGVzIG1lbW9yeSBrZXkpIHB1YmxpYyB7CiAgICAgICAgX2Fzc2VydERlcml2ZU1hcHBpbmdCeXRlcyhrZXkpOwogICAgfQoKICAgIGZ1bmN0aW9uIHN5bWJvbGljRGVyaXZlTWFwcGluZ0J5dGVzKCkgcHVibGljIHsKICAgICAgICBfYXNzZXJ0RGVyaXZlTWFwcGluZ0J5dGVzKHN2bS5jcmVhdGVCeXRlcygyNTYsICJEZXJpdmVNYXBwaW5nQnl0ZXNJbnB1dCIpKTsKICAgIH0KCiAgICBmdW5jdGlvbiBfYXNzZXJ0RGVyaXZlTWFwcGluZ0J5dGVzKGJ5dGVzIG1lbW9yeSBrZXkpIGludGVybmFsIHsKICAgICAgICBieXRlczMyIGJhc2VTbG90OwogICAgICAgIGFzc2VtYmx5IHsKICAgICAgICAgICAgYmFzZVNsb3QgOj0gX2J5dGVzTWFwcGluZy5zbG90CiAgICAgICAgfQoKICAgICAgICBieXRlcyBzdG9yYWdlIGRlcml2ZWQgPSBfYnl0ZXNNYXBwaW5nW2tleV07CiAgICAgICAgYnl0ZXMzMiBkZXJpdmVkU2xvdDsKICAgICAgICBhc3NlbWJseSB7CiAgICAgICAgICAgIGRlcml2ZWRTbG90IDo9IGRlcml2ZWQuc2xvdAogICAgICAgIH0KCiAgICAgICAgYXNzZXJ0RXEoYmFzZVNsb3QuZGVyaXZlTWFwcGluZyhrZXkpLCBkZXJpdmVkU2xvdCk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdFN5bWJvbGljRGVyaXZlTWFwcGluZ0Jvb2xlYW5EaXJ0eShieXRlczMyIGRpcnR5S2V5KSBwdWJsaWMgewogICAgICAgIGJvb2wga2V5OwogICAgICAgIGFzc2VtYmx5IHsKICAgICAgICAgICAga2V5IDo9IGRpcnR5S2V5CiAgICAgICAgfQoKICAgICAgICAvLyBydW4gdGhlICJub3JtYWwiIHRlc3QgdXNpbmcgYSBwb3RlbnRpYWxseSBkaXJ0eSB2YWx1ZQogICAgICAgIHRlc3RTeW1ib2xpY0Rlcml2ZU1hcHBpbmdCb29sZWFuKGtleSk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdFN5bWJvbGljRGVyaXZlTWFwcGluZ0FkZHJlc3NEaXJ0eShieXRlczMyIGRpcnR5S2V5KSBwdWJsaWMgewogICAgICAgIGFkZHJlc3Mga2V5OwogICAgICAgIGFzc2VtYmx5IHsKICAgICAgICAgICAga2V5IDo9IGRpcnR5S2V5CiAgICAgICAgfQoKICAgICAgICAvLyBydW4gdGhlICJub3JtYWwiIHRlc3QgdXNpbmcgYSBwb3RlbnRpYWxseSBkaXJ0eSB2YWx1ZQogICAgICAgIHRlc3RTeW1ib2xpY0Rlcml2ZU1hcHBpbmdBZGRyZXNzKGtleSk7CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+// This file was procedurally generated from scripts/generate/templates/SlotDerivation.t.js.
+
+pragma solidity ^0.8.20;
+
+import {Test} from "forge-std/Test.sol";
+import {SymTest} from "halmos-cheatcodes/SymTest.sol";
+import {SlotDerivation} from "@openzeppelin/contracts/utils/SlotDerivation.sol";
+
+contract SlotDerivationTest is Test, SymTest {
+    using SlotDerivation for bytes32;
+
+    bytes[] private _array;
+
+    function symbolicDeriveArray(uint256 length, uint256 offset) public {
+        vm.assume(length > 0);
+        vm.assume(offset < length);
+        _assertDeriveArray(length, offset);
+    }
+
+    function testDeriveArray(uint256 length, uint256 offset) public {
+        length = bound(length, 1, type(uint256).max);
+        offset = bound(offset, 0, length - 1);
+        _assertDeriveArray(length, offset);
+    }
+
+    function _assertDeriveArray(uint256 length, uint256 offset) public {
+        bytes32 baseSlot;
+        assembly {
+            baseSlot := _array.slot
+            sstore(baseSlot, length) // store length so solidity access does not revert
+        }
+
+        bytes storage derived = _array[offset];
+        bytes32 derivedSlot;
+        assembly {
+            derivedSlot := derived.slot
+        }
+
+        assertEq(baseSlot.deriveArray().offset(offset), derivedSlot);
+    }
+
+    mapping(address => bytes) private _addressMapping;
+
+    function testSymbolicDeriveMappingAddress(address key) public {
+        bytes32 baseSlot;
+        assembly {
+            baseSlot := _addressMapping.slot
+        }
+
+        bytes storage derived = _addressMapping[key];
+        bytes32 derivedSlot;
+        assembly {
+            derivedSlot := derived.slot
+        }
+
+        assertEq(baseSlot.deriveMapping(key), derivedSlot);
+    }
+
+    mapping(bool => bytes) private _boolMapping;
+
+    function testSymbolicDeriveMappingBoolean(bool key) public {
+        bytes32 baseSlot;
+        assembly {
+            baseSlot := _boolMapping.slot
+        }
+
+        bytes storage derived = _boolMapping[key];
+        bytes32 derivedSlot;
+        assembly {
+            derivedSlot := derived.slot
+        }
+
+        assertEq(baseSlot.deriveMapping(key), derivedSlot);
+    }
+
+    mapping(bytes32 => bytes) private _bytes32Mapping;
+
+    function testSymbolicDeriveMappingBytes32(bytes32 key) public {
+        bytes32 baseSlot;
+        assembly {
+            baseSlot := _bytes32Mapping.slot
+        }
+
+        bytes storage derived = _bytes32Mapping[key];
+        bytes32 derivedSlot;
+        assembly {
+            derivedSlot := derived.slot
+        }
+
+        assertEq(baseSlot.deriveMapping(key), derivedSlot);
+    }
+
+    mapping(bytes4 => bytes) private _bytes4Mapping;
+
+    function testSymbolicDeriveMappingBytes4(bytes4 key) public {
+        bytes32 baseSlot;
+        assembly {
+            baseSlot := _bytes4Mapping.slot
+        }
+
+        bytes storage derived = _bytes4Mapping[key];
+        bytes32 derivedSlot;
+        assembly {
+            derivedSlot := derived.slot
+        }
+
+        assertEq(baseSlot.deriveMapping(key), derivedSlot);
+    }
+
+    mapping(uint256 => bytes) private _uint256Mapping;
+
+    function testSymbolicDeriveMappingUint256(uint256 key) public {
+        bytes32 baseSlot;
+        assembly {
+            baseSlot := _uint256Mapping.slot
+        }
+
+        bytes storage derived = _uint256Mapping[key];
+        bytes32 derivedSlot;
+        assembly {
+            derivedSlot := derived.slot
+        }
+
+        assertEq(baseSlot.deriveMapping(key), derivedSlot);
+    }
+
+    mapping(uint32 => bytes) private _uint32Mapping;
+
+    function testSymbolicDeriveMappingUint32(uint32 key) public {
+        bytes32 baseSlot;
+        assembly {
+            baseSlot := _uint32Mapping.slot
+        }
+
+        bytes storage derived = _uint32Mapping[key];
+        bytes32 derivedSlot;
+        assembly {
+            derivedSlot := derived.slot
+        }
+
+        assertEq(baseSlot.deriveMapping(key), derivedSlot);
+    }
+
+    mapping(int256 => bytes) private _int256Mapping;
+
+    function testSymbolicDeriveMappingInt256(int256 key) public {
+        bytes32 baseSlot;
+        assembly {
+            baseSlot := _int256Mapping.slot
+        }
+
+        bytes storage derived = _int256Mapping[key];
+        bytes32 derivedSlot;
+        assembly {
+            derivedSlot := derived.slot
+        }
+
+        assertEq(baseSlot.deriveMapping(key), derivedSlot);
+    }
+
+    mapping(int32 => bytes) private _int32Mapping;
+
+    function testSymbolicDeriveMappingInt32(int32 key) public {
+        bytes32 baseSlot;
+        assembly {
+            baseSlot := _int32Mapping.slot
+        }
+
+        bytes storage derived = _int32Mapping[key];
+        bytes32 derivedSlot;
+        assembly {
+            derivedSlot := derived.slot
+        }
+
+        assertEq(baseSlot.deriveMapping(key), derivedSlot);
+    }
+
+    mapping(string => bytes) private _stringMapping;
+
+    function testDeriveMappingString(string memory key) public {
+        _assertDeriveMappingString(key);
+    }
+
+    function symbolicDeriveMappingString() public {
+        _assertDeriveMappingString(svm.createString(256, "DeriveMappingStringInput"));
+    }
+
+    function _assertDeriveMappingString(string memory key) internal {
+        bytes32 baseSlot;
+        assembly {
+            baseSlot := _stringMapping.slot
+        }
+
+        bytes storage derived = _stringMapping[key];
+        bytes32 derivedSlot;
+        assembly {
+            derivedSlot := derived.slot
+        }
+
+        assertEq(baseSlot.deriveMapping(key), derivedSlot);
+    }
+
+    mapping(bytes => bytes) private _bytesMapping;
+
+    function testDeriveMappingBytes(bytes memory key) public {
+        _assertDeriveMappingBytes(key);
+    }
+
+    function symbolicDeriveMappingBytes() public {
+        _assertDeriveMappingBytes(svm.createBytes(256, "DeriveMappingBytesInput"));
+    }
+
+    function _assertDeriveMappingBytes(bytes memory key) internal {
+        bytes32 baseSlot;
+        assembly {
+            baseSlot := _bytesMapping.slot
+        }
+
+        bytes storage derived = _bytesMapping[key];
+        bytes32 derivedSlot;
+        assembly {
+            derivedSlot := derived.slot
+        }
+
+        assertEq(baseSlot.deriveMapping(key), derivedSlot);
+    }
+
+    function testSymbolicDeriveMappingBooleanDirty(bytes32 dirtyKey) public {
+        bool key;
+        assembly {
+            key := dirtyKey
+        }
+
+        // run the "normal" test using a potentially dirty value
+        testSymbolicDeriveMappingBoolean(key);
+    }
+
+    function testSymbolicDeriveMappingAddressDirty(bytes32 dirtyKey) public {
+        address key;
+        assembly {
+            key := dirtyKey
+        }
+
+        // run the "normal" test using a potentially dirty value
+        testSymbolicDeriveMappingAddress(key);
+    }
+}
