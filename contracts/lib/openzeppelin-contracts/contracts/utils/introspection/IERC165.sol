@@ -1,1 +1,25 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodXRpbHMvaW50cm9zcGVjdGlvbi9JRVJDMTY1LnNvbCkKCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKLyoqCiAqIEBkZXYgSW50ZXJmYWNlIG9mIHRoZSBFUkMtMTY1IHN0YW5kYXJkLCBhcyBkZWZpbmVkIGluIHRoZQogKiBodHRwczovL2VpcHMuZXRoZXJldW0ub3JnL0VJUFMvZWlwLTE2NVtFUkNdLgogKgogKiBJbXBsZW1lbnRlcnMgY2FuIGRlY2xhcmUgc3VwcG9ydCBvZiBjb250cmFjdCBpbnRlcmZhY2VzLCB3aGljaCBjYW4gdGhlbiBiZQogKiBxdWVyaWVkIGJ5IG90aGVycyAoe0VSQzE2NUNoZWNrZXJ9KS4KICoKICogRm9yIGFuIGltcGxlbWVudGF0aW9uLCBzZWUge0VSQzE2NX0uCiAqLwppbnRlcmZhY2UgSUVSQzE2NSB7CiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyB0cnVlIGlmIHRoaXMgY29udHJhY3QgaW1wbGVtZW50cyB0aGUgaW50ZXJmYWNlIGRlZmluZWQgYnkKICAgICAqIGBpbnRlcmZhY2VJZGAuIFNlZSB0aGUgY29ycmVzcG9uZGluZwogICAgICogaHR0cHM6Ly9laXBzLmV0aGVyZXVtLm9yZy9FSVBTL2VpcC0xNjUjaG93LWludGVyZmFjZXMtYXJlLWlkZW50aWZpZWRbRVJDIHNlY3Rpb25dCiAgICAgKiB0byBsZWFybiBtb3JlIGFib3V0IGhvdyB0aGVzZSBpZHMgYXJlIGNyZWF0ZWQuCiAgICAgKgogICAgICogVGhpcyBmdW5jdGlvbiBjYWxsIG11c3QgdXNlIGxlc3MgdGhhbiAzMCAwMDAgZ2FzLgogICAgICovCiAgICBmdW5jdGlvbiBzdXBwb3J0c0ludGVyZmFjZShieXRlczQgaW50ZXJmYWNlSWQpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAoYm9vbCk7Cn0K
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (utils/introspection/IERC165.sol)
+
+pragma solidity ^0.8.20;
+
+/**
+ * @dev Interface of the ERC-165 standard, as defined in the
+ * https://eips.ethereum.org/EIPS/eip-165[ERC].
+ *
+ * Implementers can declare support of contract interfaces, which can then be
+ * queried by others ({ERC165Checker}).
+ *
+ * For an implementation, see {ERC165}.
+ */
+interface IERC165 {
+    /**
+     * @dev Returns true if this contract implements the interface defined by
+     * `interfaceId`. See the corresponding
+     * https://eips.ethereum.org/EIPS/eip-165#how-interfaces-are-identified[ERC section]
+     * to learn more about how these ids are created.
+     *
+     * This function call must use less than 30 000 gas.
+     */
+    function supportsInterface(bytes4 interfaceId) external view returns (bool);
+}
