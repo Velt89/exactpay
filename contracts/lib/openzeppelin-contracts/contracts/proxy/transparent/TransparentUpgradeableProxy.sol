@@ -1,1 +1,118 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAocHJveHkvdHJhbnNwYXJlbnQvVHJhbnNwYXJlbnRVcGdyYWRlYWJsZVByb3h5LnNvbCkKCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKaW1wb3J0IHtFUkMxOTY3VXRpbHN9IGZyb20gIi4uL0VSQzE5NjcvRVJDMTk2N1V0aWxzLnNvbCI7CmltcG9ydCB7RVJDMTk2N1Byb3h5fSBmcm9tICIuLi9FUkMxOTY3L0VSQzE5NjdQcm94eS5zb2wiOwppbXBvcnQge0lFUkMxOTY3fSBmcm9tICIuLi8uLi9pbnRlcmZhY2VzL0lFUkMxOTY3LnNvbCI7CmltcG9ydCB7UHJveHlBZG1pbn0gZnJvbSAiLi9Qcm94eUFkbWluLnNvbCI7CgovKioKICogQGRldiBJbnRlcmZhY2UgZm9yIHtUcmFuc3BhcmVudFVwZ3JhZGVhYmxlUHJveHl9LiBJbiBvcmRlciB0byBpbXBsZW1lbnQgdHJhbnNwYXJlbmN5LCB7VHJhbnNwYXJlbnRVcGdyYWRlYWJsZVByb3h5fQogKiBkb2VzIG5vdCBpbXBsZW1lbnQgdGhpcyBpbnRlcmZhY2UgZGlyZWN0bHksIGFuZCBpdHMgdXBncmFkZWFiaWxpdHkgbWVjaGFuaXNtIGlzIGltcGxlbWVudGVkIGJ5IGFuIGludGVybmFsIGRpc3BhdGNoCiAqIG1lY2hhbmlzbS4gVGhlIGNvbXBpbGVyIGlzIHVuYXdhcmUgdGhhdCB0aGVzZSBmdW5jdGlvbnMgYXJlIGltcGxlbWVudGVkIGJ5IHtUcmFuc3BhcmVudFVwZ3JhZGVhYmxlUHJveHl9IGFuZCB3aWxsIG5vdAogKiBpbmNsdWRlIHRoZW0gaW4gdGhlIEFCSSBzbyB0aGlzIGludGVyZmFjZSBtdXN0IGJlIHVzZWQgdG8gaW50ZXJhY3Qgd2l0aCBpdC4KICovCmludGVyZmFjZSBJVHJhbnNwYXJlbnRVcGdyYWRlYWJsZVByb3h5IGlzIElFUkMxOTY3IHsKICAgIC8vLyBAZGV2IFNlZSB7VVVQU1VwZ3JhZGVhYmxlLXVwZ3JhZGVUb0FuZENhbGx9CiAgICBmdW5jdGlvbiB1cGdyYWRlVG9BbmRDYWxsKGFkZHJlc3MgbmV3SW1wbGVtZW50YXRpb24sIGJ5dGVzIGNhbGxkYXRhIGRhdGEpIGV4dGVybmFsIHBheWFibGU7Cn0KCi8qKgogKiBAZGV2IFRoaXMgY29udHJhY3QgaW1wbGVtZW50cyBhIHByb3h5IHRoYXQgaXMgdXBncmFkZWFibGUgdGhyb3VnaCBhbiBhc3NvY2lhdGVkIHtQcm94eUFkbWlufSBpbnN0YW5jZS4KICoKICogVG8gYXZvaWQgaHR0cHM6Ly9tZWRpdW0uY29tL25vbWljLWxhYnMtYmxvZy9tYWxpY2lvdXMtYmFja2Rvb3JzLWluLWV0aGVyZXVtLXByb3hpZXMtNjI2MjlhZGYzMzU3W3Byb3h5IHNlbGVjdG9yCiAqIGNsYXNoaW5nXSwgd2hpY2ggY2FuIHBvdGVudGlhbGx5IGJlIHVzZWQgaW4gYW4gYXR0YWNrLCB0aGlzIGNvbnRyYWN0IHVzZXMgdGhlCiAqIGh0dHBzOi8vYmxvZy5vcGVuemVwcGVsaW4uY29tL3RoZS10cmFuc3BhcmVudC1wcm94eS1wYXR0ZXJuL1t0cmFuc3BhcmVudCBwcm94eSBwYXR0ZXJuXS4gVGhpcyBwYXR0ZXJuIGltcGxpZXMgdHdvCiAqIHRoaW5ncyB0aGF0IGdvIGhhbmQgaW4gaGFuZDoKICoKICogMS4gSWYgYW55IGFjY291bnQgb3RoZXIgdGhhbiB0aGUgYWRtaW4gY2FsbHMgdGhlIHByb3h5LCB0aGUgY2FsbCB3aWxsIGJlIGZvcndhcmRlZCB0byB0aGUgaW1wbGVtZW50YXRpb24sIGV2ZW4gaWYKICogdGhhdCBjYWxsIG1hdGNoZXMgdGhlIHtJVHJhbnNwYXJlbnRVcGdyYWRlYWJsZVByb3h5LXVwZ3JhZGVUb0FuZENhbGx9IGZ1bmN0aW9uIGV4cG9zZWQgYnkgdGhlIHByb3h5IGl0c2VsZi4KICogMi4gSWYgdGhlIGFkbWluIGNhbGxzIHRoZSBwcm94eSwgaXQgY2FuIGNhbGwgdGhlIGB1cGdyYWRlVG9BbmRDYWxsYCBmdW5jdGlvbiBidXQgYW55IG90aGVyIGNhbGwgd29uJ3QgYmUgZm9yd2FyZGVkIHRvCiAqIHRoZSBpbXBsZW1lbnRhdGlvbi4gSWYgdGhlIGFkbWluIHRyaWVzIHRvIGNhbGwgYSBmdW5jdGlvbiBvbiB0aGUgaW1wbGVtZW50YXRpb24gaXQgd2lsbCBmYWlsIHdpdGggYW4gZXJyb3IgaW5kaWNhdGluZwogKiB0aGUgcHJveHkgYWRtaW4gY2Fubm90IGZhbGxiYWNrIHRvIHRoZSB0YXJnZXQgaW1wbGVtZW50YXRpb24uCiAqCiAqIFRoZXNlIHByb3BlcnRpZXMgbWVhbiB0aGF0IHRoZSBhZG1pbiBhY2NvdW50IGNhbiBvbmx5IGJlIHVzZWQgZm9yIHVwZ3JhZGluZyB0aGUgcHJveHksIHNvIGl0J3MgYmVzdCBpZiBpdCdzIGEKICogZGVkaWNhdGVkIGFjY291bnQgdGhhdCBpcyBub3QgdXNlZCBmb3IgYW55dGhpbmcgZWxzZS4gVGhpcyB3aWxsIGF2b2lkIGhlYWRhY2hlcyBkdWUgdG8gc3VkZGVuIGVycm9ycyB3aGVuIHRyeWluZyB0bwogKiBjYWxsIGEgZnVuY3Rpb24gZnJvbSB0aGUgcHJveHkgaW1wbGVtZW50YXRpb24uIEZvciB0aGlzIHJlYXNvbiwgdGhlIHByb3h5IGRlcGxveXMgYW4gaW5zdGFuY2Ugb2Yge1Byb3h5QWRtaW59IGFuZAogKiBhbGxvd3MgdXBncmFkZXMgb25seSBpZiB0aGV5IGNvbWUgdGhyb3VnaCBpdC4gWW91IHNob3VsZCB0aGluayBvZiB0aGUgYFByb3h5QWRtaW5gIGluc3RhbmNlIGFzIHRoZSBhZG1pbmlzdHJhdGl2ZQogKiBpbnRlcmZhY2Ugb2YgdGhlIHByb3h5LCBpbmNsdWRpbmcgdGhlIGFiaWxpdHkgdG8gY2hhbmdlIHdobyBjYW4gdHJpZ2dlciB1cGdyYWRlcyBieSB0cmFuc2ZlcnJpbmcgb3duZXJzaGlwLgogKgogKiBOT1RFOiBUaGUgcmVhbCBpbnRlcmZhY2Ugb2YgdGhpcyBwcm94eSBpcyB0aGF0IGRlZmluZWQgaW4gYElUcmFuc3BhcmVudFVwZ3JhZGVhYmxlUHJveHlgLiBUaGlzIGNvbnRyYWN0IGRvZXMgbm90CiAqIGluaGVyaXQgZnJvbSB0aGF0IGludGVyZmFjZSwgYW5kIGluc3RlYWQgYHVwZ3JhZGVUb0FuZENhbGxgIGlzIGltcGxpY2l0bHkgaW1wbGVtZW50ZWQgdXNpbmcgYSBjdXN0b20gZGlzcGF0Y2gKICogbWVjaGFuaXNtIGluIGBfZmFsbGJhY2tgLiBDb25zZXF1ZW50bHksIHRoZSBjb21waWxlciB3aWxsIG5vdCBwcm9kdWNlIGFuIEFCSSBmb3IgdGhpcyBjb250cmFjdC4gVGhpcyBpcyBuZWNlc3NhcnkgdG8KICogZnVsbHkgaW1wbGVtZW50IHRyYW5zcGFyZW5jeSB3aXRob3V0IGRlY29kaW5nIHJldmVydHMgY2F1c2VkIGJ5IHNlbGVjdG9yIGNsYXNoZXMgYmV0d2VlbiB0aGUgcHJveHkgYW5kIHRoZQogKiBpbXBsZW1lbnRhdGlvbi4KICoKICogTk9URTogVGhpcyBwcm94eSBkb2VzIG5vdCBpbmhlcml0IGZyb20ge0NvbnRleHR9IGRlbGliZXJhdGVseS4gVGhlIHtQcm94eUFkbWlufSBvZiB0aGlzIGNvbnRyYWN0IHdvbid0IHNlbmQgYQogKiBtZXRhLXRyYW5zYWN0aW9uIGluIGFueSB3YXksIGFuZCBhbnkgb3RoZXIgbWV0YS10cmFuc2FjdGlvbiBzZXR1cCBzaG91bGQgYmUgbWFkZSBpbiB0aGUgaW1wbGVtZW50YXRpb24gY29udHJhY3QuCiAqCiAqIElNUE9SVEFOVDogVGhpcyBjb250cmFjdCBhdm9pZHMgdW5uZWNlc3Nhcnkgc3RvcmFnZSByZWFkcyBieSBzZXR0aW5nIHRoZSBhZG1pbiBvbmx5IGR1cmluZyBjb25zdHJ1Y3Rpb24gYXMgYW4KICogaW1tdXRhYmxlIHZhcmlhYmxlLCBwcmV2ZW50aW5nIGFueSBjaGFuZ2VzIHRoZXJlYWZ0ZXIuIEhvd2V2ZXIsIHRoZSBhZG1pbiBzbG90IGRlZmluZWQgaW4gRVJDLTE5NjcgY2FuIHN0aWxsIGJlCiAqIG92ZXJ3cml0dGVuIGJ5IHRoZSBpbXBsZW1lbnRhdGlvbiBsb2dpYyBwb2ludGVkIHRvIGJ5IHRoaXMgcHJveHkuIEluIHN1Y2ggY2FzZXMsIHRoZSBjb250cmFjdCBtYXkgZW5kIHVwIGluIGFuCiAqIHVuZGVzaXJhYmxlIHN0YXRlIHdoZXJlIHRoZSBhZG1pbiBzbG90IGlzIGRpZmZlcmVudCBmcm9tIHRoZSBhY3R1YWwgYWRtaW4uIFJlbHlpbmcgb24gdGhlIHZhbHVlIG9mIHRoZSBhZG1pbiBzbG90CiAqIGlzIGdlbmVyYWxseSBmaW5lIGlmIHRoZSBpbXBsZW1lbnRhdGlvbiBpcyB0cnVzdGVkLgogKgogKiBXQVJOSU5HOiBJdCBpcyBub3QgcmVjb21tZW5kZWQgdG8gZXh0ZW5kIHRoaXMgY29udHJhY3QgdG8gYWRkIGFkZGl0aW9uYWwgZXh0ZXJuYWwgZnVuY3Rpb25zLiBJZiB5b3UgZG8gc28sIHRoZQogKiBjb21waWxlciB3aWxsIG5vdCBjaGVjayB0aGF0IHRoZXJlIGFyZSBubyBzZWxlY3RvciBjb25mbGljdHMsIGR1ZSB0byB0aGUgbm90ZSBhYm92ZS4gQSBzZWxlY3RvciBjbGFzaCBiZXR3ZWVuIGFueSBuZXcKICogZnVuY3Rpb24gYW5kIHRoZSBmdW5jdGlvbnMgZGVjbGFyZWQgaW4ge0lUcmFuc3BhcmVudFVwZ3JhZGVhYmxlUHJveHl9IHdpbGwgYmUgcmVzb2x2ZWQgaW4gZmF2b3Igb2YgdGhlIG5ldyBvbmUuIFRoaXMKICogY291bGQgcmVuZGVyIHRoZSBgdXBncmFkZVRvQW5kQ2FsbGAgZnVuY3Rpb24gaW5hY2Nlc3NpYmxlLCBwcmV2ZW50aW5nIHVwZ3JhZGVhYmlsaXR5IGFuZCBjb21wcm9taXNpbmcgdHJhbnNwYXJlbmN5LgogKi8KY29udHJhY3QgVHJhbnNwYXJlbnRVcGdyYWRlYWJsZVByb3h5IGlzIEVSQzE5NjdQcm94eSB7CiAgICAvLyBBbiBpbW11dGFibGUgYWRkcmVzcyBmb3IgdGhlIGFkbWluIHRvIGF2b2lkIHVubmVjZXNzYXJ5IFNMT0FEcyBiZWZvcmUgZWFjaCBjYWxsCiAgICAvLyBhdCB0aGUgZXhwZW5zZSBvZiByZW1vdmluZyB0aGUgYWJpbGl0eSB0byBjaGFuZ2UgdGhlIGFkbWluIG9uY2UgaXQncyBzZXQuCiAgICAvLyBUaGlzIGlzIGFjY2VwdGFibGUgaWYgdGhlIGFkbWluIGlzIGFsd2F5cyBhIFByb3h5QWRtaW4gaW5zdGFuY2Ugb3Igc2ltaWxhciBjb250cmFjdAogICAgLy8gd2l0aCBpdHMgb3duIGFiaWxpdHkgdG8gdHJhbnNmZXIgdGhlIHBlcm1pc3Npb25zIHRvIGFub3RoZXIgYWNjb3VudC4KICAgIGFkZHJlc3MgcHJpdmF0ZSBpbW11dGFibGUgX2FkbWluOwoKICAgIC8qKgogICAgICogQGRldiBUaGUgcHJveHkgY2FsbGVyIGlzIHRoZSBjdXJyZW50IGFkbWluLCBhbmQgY2FuJ3QgZmFsbGJhY2sgdG8gdGhlIHByb3h5IHRhcmdldC4KICAgICAqLwogICAgZXJyb3IgUHJveHlEZW5pZWRBZG1pbkFjY2VzcygpOwoKICAgIC8qKgogICAgICogQGRldiBJbml0aWFsaXplcyBhbiB1cGdyYWRlYWJsZSBwcm94eSBtYW5hZ2VkIGJ5IGFuIGluc3RhbmNlIG9mIGEge1Byb3h5QWRtaW59IHdpdGggYW4gYGluaXRpYWxPd25lcmAsCiAgICAgKiBiYWNrZWQgYnkgdGhlIGltcGxlbWVudGF0aW9uIGF0IGBfbG9naWNgLCBhbmQgb3B0aW9uYWxseSBpbml0aWFsaXplZCB3aXRoIGBfZGF0YWAgYXMgZXhwbGFpbmVkIGluCiAgICAgKiB7RVJDMTk2N1Byb3h5LWNvbnN0cnVjdG9yfS4KICAgICAqLwogICAgY29uc3RydWN0b3IoYWRkcmVzcyBfbG9naWMsIGFkZHJlc3MgaW5pdGlhbE93bmVyLCBieXRlcyBtZW1vcnkgX2RhdGEpIHBheWFibGUgRVJDMTk2N1Byb3h5KF9sb2dpYywgX2RhdGEpIHsKICAgICAgICBfYWRtaW4gPSBhZGRyZXNzKG5ldyBQcm94eUFkbWluKGluaXRpYWxPd25lcikpOwogICAgICAgIC8vIFNldCB0aGUgc3RvcmFnZSB2YWx1ZSBhbmQgZW1pdCBhbiBldmVudCBmb3IgRVJDLTE5NjcgY29tcGF0aWJpbGl0eQogICAgICAgIEVSQzE5NjdVdGlscy5jaGFuZ2VBZG1pbihfcHJveHlBZG1pbigpKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyB0aGUgYWRtaW4gb2YgdGhpcyBwcm94eS4KICAgICAqLwogICAgZnVuY3Rpb24gX3Byb3h5QWRtaW4oKSBpbnRlcm5hbCB2aWV3IHZpcnR1YWwgcmV0dXJucyAoYWRkcmVzcykgewogICAgICAgIHJldHVybiBfYWRtaW47CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IElmIGNhbGxlciBpcyB0aGUgYWRtaW4gcHJvY2VzcyB0aGUgY2FsbCBpbnRlcm5hbGx5LCBvdGhlcndpc2UgdHJhbnNwYXJlbnRseSBmYWxsYmFjayB0byB0aGUgcHJveHkgYmVoYXZpb3IuCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9mYWxsYmFjaygpIGludGVybmFsIHZpcnR1YWwgb3ZlcnJpZGUgewogICAgICAgIGlmIChtc2cuc2VuZGVyID09IF9wcm94eUFkbWluKCkpIHsKICAgICAgICAgICAgaWYgKG1zZy5zaWcgIT0gSVRyYW5zcGFyZW50VXBncmFkZWFibGVQcm94eS51cGdyYWRlVG9BbmRDYWxsLnNlbGVjdG9yKSB7CiAgICAgICAgICAgICAgICByZXZlcnQgUHJveHlEZW5pZWRBZG1pbkFjY2VzcygpOwogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgX2Rpc3BhdGNoVXBncmFkZVRvQW5kQ2FsbCgpOwogICAgICAgICAgICB9CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgc3VwZXIuX2ZhbGxiYWNrKCk7CiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICogQGRldiBVcGdyYWRlIHRoZSBpbXBsZW1lbnRhdGlvbiBvZiB0aGUgcHJveHkuIFNlZSB7RVJDMTk2N1V0aWxzLXVwZ3JhZGVUb0FuZENhbGx9LgogICAgICoKICAgICAqIFJlcXVpcmVtZW50czoKICAgICAqCiAgICAgKiAtIElmIGBkYXRhYCBpcyBlbXB0eSwgYG1zZy52YWx1ZWAgbXVzdCBiZSB6ZXJvLgogICAgICovCiAgICBmdW5jdGlvbiBfZGlzcGF0Y2hVcGdyYWRlVG9BbmRDYWxsKCkgcHJpdmF0ZSB7CiAgICAgICAgKGFkZHJlc3MgbmV3SW1wbGVtZW50YXRpb24sIGJ5dGVzIG1lbW9yeSBkYXRhKSA9IGFiaS5kZWNvZGUobXNnLmRhdGFbNDpdLCAoYWRkcmVzcywgYnl0ZXMpKTsKICAgICAgICBFUkMxOTY3VXRpbHMudXBncmFkZVRvQW5kQ2FsbChuZXdJbXBsZW1lbnRhdGlvbiwgZGF0YSk7CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (proxy/transparent/TransparentUpgradeableProxy.sol)
+
+pragma solidity ^0.8.20;
+
+import {ERC1967Utils} from "../ERC1967/ERC1967Utils.sol";
+import {ERC1967Proxy} from "../ERC1967/ERC1967Proxy.sol";
+import {IERC1967} from "../../interfaces/IERC1967.sol";
+import {ProxyAdmin} from "./ProxyAdmin.sol";
+
+/**
+ * @dev Interface for {TransparentUpgradeableProxy}. In order to implement transparency, {TransparentUpgradeableProxy}
+ * does not implement this interface directly, and its upgradeability mechanism is implemented by an internal dispatch
+ * mechanism. The compiler is unaware that these functions are implemented by {TransparentUpgradeableProxy} and will not
+ * include them in the ABI so this interface must be used to interact with it.
+ */
+interface ITransparentUpgradeableProxy is IERC1967 {
+    /// @dev See {UUPSUpgradeable-upgradeToAndCall}
+    function upgradeToAndCall(address newImplementation, bytes calldata data) external payable;
+}
+
+/**
+ * @dev This contract implements a proxy that is upgradeable through an associated {ProxyAdmin} instance.
+ *
+ * To avoid https://medium.com/nomic-labs-blog/malicious-backdoors-in-ethereum-proxies-62629adf3357[proxy selector
+ * clashing], which can potentially be used in an attack, this contract uses the
+ * https://blog.openzeppelin.com/the-transparent-proxy-pattern/[transparent proxy pattern]. This pattern implies two
+ * things that go hand in hand:
+ *
+ * 1. If any account other than the admin calls the proxy, the call will be forwarded to the implementation, even if
+ * that call matches the {ITransparentUpgradeableProxy-upgradeToAndCall} function exposed by the proxy itself.
+ * 2. If the admin calls the proxy, it can call the `upgradeToAndCall` function but any other call won't be forwarded to
+ * the implementation. If the admin tries to call a function on the implementation it will fail with an error indicating
+ * the proxy admin cannot fallback to the target implementation.
+ *
+ * These properties mean that the admin account can only be used for upgrading the proxy, so it's best if it's a
+ * dedicated account that is not used for anything else. This will avoid headaches due to sudden errors when trying to
+ * call a function from the proxy implementation. For this reason, the proxy deploys an instance of {ProxyAdmin} and
+ * allows upgrades only if they come through it. You should think of the `ProxyAdmin` instance as the administrative
+ * interface of the proxy, including the ability to change who can trigger upgrades by transferring ownership.
+ *
+ * NOTE: The real interface of this proxy is that defined in `ITransparentUpgradeableProxy`. This contract does not
+ * inherit from that interface, and instead `upgradeToAndCall` is implicitly implemented using a custom dispatch
+ * mechanism in `_fallback`. Consequently, the compiler will not produce an ABI for this contract. This is necessary to
+ * fully implement transparency without decoding reverts caused by selector clashes between the proxy and the
+ * implementation.
+ *
+ * NOTE: This proxy does not inherit from {Context} deliberately. The {ProxyAdmin} of this contract won't send a
+ * meta-transaction in any way, and any other meta-transaction setup should be made in the implementation contract.
+ *
+ * IMPORTANT: This contract avoids unnecessary storage reads by setting the admin only during construction as an
+ * immutable variable, preventing any changes thereafter. However, the admin slot defined in ERC-1967 can still be
+ * overwritten by the implementation logic pointed to by this proxy. In such cases, the contract may end up in an
+ * undesirable state where the admin slot is different from the actual admin. Relying on the value of the admin slot
+ * is generally fine if the implementation is trusted.
+ *
+ * WARNING: It is not recommended to extend this contract to add additional external functions. If you do so, the
+ * compiler will not check that there are no selector conflicts, due to the note above. A selector clash between any new
+ * function and the functions declared in {ITransparentUpgradeableProxy} will be resolved in favor of the new one. This
+ * could render the `upgradeToAndCall` function inaccessible, preventing upgradeability and compromising transparency.
+ */
+contract TransparentUpgradeableProxy is ERC1967Proxy {
+    // An immutable address for the admin to avoid unnecessary SLOADs before each call
+    // at the expense of removing the ability to change the admin once it's set.
+    // This is acceptable if the admin is always a ProxyAdmin instance or similar contract
+    // with its own ability to transfer the permissions to another account.
+    address private immutable _admin;
+
+    /**
+     * @dev The proxy caller is the current admin, and can't fallback to the proxy target.
+     */
+    error ProxyDeniedAdminAccess();
+
+    /**
+     * @dev Initializes an upgradeable proxy managed by an instance of a {ProxyAdmin} with an `initialOwner`,
+     * backed by the implementation at `_logic`, and optionally initialized with `_data` as explained in
+     * {ERC1967Proxy-constructor}.
+     */
+    constructor(address _logic, address initialOwner, bytes memory _data) payable ERC1967Proxy(_logic, _data) {
+        _admin = address(new ProxyAdmin(initialOwner));
+        // Set the storage value and emit an event for ERC-1967 compatibility
+        ERC1967Utils.changeAdmin(_proxyAdmin());
+    }
+
+    /**
+     * @dev Returns the admin of this proxy.
+     */
+    function _proxyAdmin() internal view virtual returns (address) {
+        return _admin;
+    }
+
+    /**
+     * @dev If caller is the admin process the call internally, otherwise transparently fallback to the proxy behavior.
+     */
+    function _fallback() internal virtual override {
+        if (msg.sender == _proxyAdmin()) {
+            if (msg.sig != ITransparentUpgradeableProxy.upgradeToAndCall.selector) {
+                revert ProxyDeniedAdminAccess();
+            } else {
+                _dispatchUpgradeToAndCall();
+            }
+        } else {
+            super._fallback();
+        }
+    }
+
+    /**
+     * @dev Upgrade the implementation of the proxy. See {ERC1967Utils-upgradeToAndCall}.
+     *
+     * Requirements:
+     *
+     * - If `data` is empty, `msg.value` must be zero.
+     */
+    function _dispatchUpgradeToAndCall() private {
+        (address newImplementation, bytes memory data) = abi.decode(msg.data[4:], (address, bytes));
+        ERC1967Utils.upgradeToAndCall(newImplementation, data);
+    }
+}
