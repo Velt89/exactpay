@@ -1,1 +1,378 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgPj0wLjYuMiA8MC45LjA7CgppbXBvcnQge1ZtfSBmcm9tICIuL1ZtLnNvbCI7CgpzdHJ1Y3QgU3RkU3RvcmFnZSB7CiAgICBtYXBwaW5nKGFkZHJlc3MgPT4gbWFwcGluZyhieXRlczQgPT4gbWFwcGluZyhieXRlczMyID0+IHVpbnQyNTYpKSkgc2xvdHM7CiAgICBtYXBwaW5nKGFkZHJlc3MgPT4gbWFwcGluZyhieXRlczQgPT4gbWFwcGluZyhieXRlczMyID0+IGJvb2wpKSkgZmluZHM7CiAgICBieXRlczMyW10gX2tleXM7CiAgICBieXRlczQgX3NpZzsKICAgIHVpbnQyNTYgX2RlcHRoOwogICAgYWRkcmVzcyBfdGFyZ2V0OwogICAgYnl0ZXMzMiBfc2V0Owp9CgpsaWJyYXJ5IHN0ZFN0b3JhZ2VTYWZlIHsKICAgIGV2ZW50IFNsb3RGb3VuZChhZGRyZXNzIHdobywgYnl0ZXM0IGZzaWcsIGJ5dGVzMzIga2V5c0hhc2gsIHVpbnQyNTYgc2xvdCk7CiAgICBldmVudCBXQVJOSU5HX1VuaW5pdGVkU2xvdChhZGRyZXNzIHdobywgdWludDI1NiBzbG90KTsKCiAgICBWbSBwcml2YXRlIGNvbnN0YW50IHZtID0gVm0oYWRkcmVzcyh1aW50MTYwKHVpbnQyNTYoa2VjY2FrMjU2KCJoZXZtIGNoZWF0IGNvZGUiKSkpKSk7CgogICAgZnVuY3Rpb24gc2lncyhzdHJpbmcgbWVtb3J5IHNpZ1N0cikgaW50ZXJuYWwgcHVyZSByZXR1cm5zIChieXRlczQpIHsKICAgICAgICByZXR1cm4gYnl0ZXM0KGtlY2NhazI1NihieXRlcyhzaWdTdHIpKSk7CiAgICB9CgogICAgLy8vIEBub3RpY2UgZmluZCBhbiBhcmJpdHJhcnkgc3RvcmFnZSBzbG90IGdpdmVuIGEgZnVuY3Rpb24gc2lnLCBpbnB1dCBkYXRhLCBhZGRyZXNzIG9mIHRoZSBjb250cmFjdCBhbmQgYSB2YWx1ZSB0byBjaGVjayBhZ2FpbnN0CiAgICAvLyBzbG90IGNvbXBsZXhpdHk6CiAgICAvLyAgaWYgZmxhdCwgd2lsbCBiZSBieXRlczMyKHVpbnQyNTYodWludCkpOwogICAgLy8gIGlmIG1hcCwgd2lsbCBiZSBrZWNjYWsyNTYoYWJpLmVuY29kZShrZXksIHVpbnQoc2xvdCkpKTsKICAgIC8vICBpZiBkZWVwIG1hcCwgd2lsbCBiZSBrZWNjYWsyNTYoYWJpLmVuY29kZShrZXkxLCBrZWNjYWsyNTYoYWJpLmVuY29kZShrZXkwLCB1aW50KHNsb3QpKSkpKTsKICAgIC8vICBpZiBtYXAgc3RydWN0LCB3aWxsIGJlIGJ5dGVzMzIodWludDI1NihrZWNjYWsyNTYoYWJpLmVuY29kZShrZXkxLCBrZWNjYWsyNTYoYWJpLmVuY29kZShrZXkwLCB1aW50KHNsb3QpKSkpKSkgKyBzdHJ1Y3RGaWVsZERlcHRoKTsKICAgIGZ1bmN0aW9uIGZpbmQoU3RkU3RvcmFnZSBzdG9yYWdlIHNlbGYpIGludGVybmFsIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICBhZGRyZXNzIHdobyA9IHNlbGYuX3RhcmdldDsKICAgICAgICBieXRlczQgZnNpZyA9IHNlbGYuX3NpZzsKICAgICAgICB1aW50MjU2IGZpZWxkX2RlcHRoID0gc2VsZi5fZGVwdGg7CiAgICAgICAgYnl0ZXMzMltdIG1lbW9yeSBpbnMgPSBzZWxmLl9rZXlzOwoKICAgICAgICAvLyBjYWxsZGF0YSB0byB0ZXN0IGFnYWluc3QKICAgICAgICBpZiAoc2VsZi5maW5kc1t3aG9dW2ZzaWddW2tlY2NhazI1NihhYmkuZW5jb2RlUGFja2VkKGlucywgZmllbGRfZGVwdGgpKV0pIHsKICAgICAgICAgICAgcmV0dXJuIHNlbGYuc2xvdHNbd2hvXVtmc2lnXVtrZWNjYWsyNTYoYWJpLmVuY29kZVBhY2tlZChpbnMsIGZpZWxkX2RlcHRoKSldOwogICAgICAgIH0KICAgICAgICBieXRlcyBtZW1vcnkgY2FsZCA9IGFiaS5lbmNvZGVQYWNrZWQoZnNpZywgZmxhdHRlbihpbnMpKTsKICAgICAgICB2bS5yZWNvcmQoKTsKICAgICAgICBieXRlczMyIGZkYXQ7CiAgICAgICAgewogICAgICAgICAgICAoLCBieXRlcyBtZW1vcnkgcmRhdCkgPSB3aG8uc3RhdGljY2FsbChjYWxkKTsKICAgICAgICAgICAgZmRhdCA9IGJ5dGVzVG9CeXRlczMyKHJkYXQsIDMyICogZmllbGRfZGVwdGgpOwogICAgICAgIH0KCiAgICAgICAgKGJ5dGVzMzJbXSBtZW1vcnkgcmVhZHMsKSA9IHZtLmFjY2Vzc2VzKGFkZHJlc3Mod2hvKSk7CiAgICAgICAgaWYgKHJlYWRzLmxlbmd0aCA9PSAxKSB7CiAgICAgICAgICAgIGJ5dGVzMzIgY3VyciA9IHZtLmxvYWQod2hvLCByZWFkc1swXSk7CiAgICAgICAgICAgIGlmIChjdXJyID09IGJ5dGVzMzIoMCkpIHsKICAgICAgICAgICAgICAgIGVtaXQgV0FSTklOR19VbmluaXRlZFNsb3Qod2hvLCB1aW50MjU2KHJlYWRzWzBdKSk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgKGZkYXQgIT0gY3VycikgewogICAgICAgICAgICAgICAgcmVxdWlyZSgKICAgICAgICAgICAgICAgICAgICBmYWxzZSwKICAgICAgICAgICAgICAgICAgICAic3RkU3RvcmFnZSBmaW5kKFN0ZFN0b3JhZ2UpOiBQYWNrZWQgc2xvdC4gVGhpcyB3b3VsZCBjYXVzZSBkYW5nZXJvdXMgb3ZlcndyaXRpbmcgYW5kIGN1cnJlbnRseSBpc24ndCBzdXBwb3J0ZWQuIgogICAgICAgICAgICAgICAgKTsKICAgICAgICAgICAgfQogICAgICAgICAgICBlbWl0IFNsb3RGb3VuZCh3aG8sIGZzaWcsIGtlY2NhazI1NihhYmkuZW5jb2RlUGFja2VkKGlucywgZmllbGRfZGVwdGgpKSwgdWludDI1NihyZWFkc1swXSkpOwogICAgICAgICAgICBzZWxmLnNsb3RzW3dob11bZnNpZ11ba2VjY2FrMjU2KGFiaS5lbmNvZGVQYWNrZWQoaW5zLCBmaWVsZF9kZXB0aCkpXSA9IHVpbnQyNTYocmVhZHNbMF0pOwogICAgICAgICAgICBzZWxmLmZpbmRzW3dob11bZnNpZ11ba2VjY2FrMjU2KGFiaS5lbmNvZGVQYWNrZWQoaW5zLCBmaWVsZF9kZXB0aCkpXSA9IHRydWU7CiAgICAgICAgfSBlbHNlIGlmIChyZWFkcy5sZW5ndGggPiAxKSB7CiAgICAgICAgICAgIGZvciAodWludDI1NiBpID0gMDsgaSA8IHJlYWRzLmxlbmd0aDsgaSsrKSB7CiAgICAgICAgICAgICAgICBieXRlczMyIHByZXYgPSB2bS5sb2FkKHdobywgcmVhZHNbaV0pOwogICAgICAgICAgICAgICAgaWYgKHByZXYgPT0gYnl0ZXMzMigwKSkgewogICAgICAgICAgICAgICAgICAgIGVtaXQgV0FSTklOR19VbmluaXRlZFNsb3Qod2hvLCB1aW50MjU2KHJlYWRzW2ldKSk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBpZiAocHJldiAhPSBmZGF0KSB7CiAgICAgICAgICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBieXRlczMyIG5ld192YWwgPSB+cHJldjsKICAgICAgICAgICAgICAgIC8vIHN0b3JlCiAgICAgICAgICAgICAgICB2bS5zdG9yZSh3aG8sIHJlYWRzW2ldLCBuZXdfdmFsKTsKICAgICAgICAgICAgICAgIGJvb2wgc3VjY2VzczsKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICBieXRlcyBtZW1vcnkgcmRhdDsKICAgICAgICAgICAgICAgICAgICAoc3VjY2VzcywgcmRhdCkgPSB3aG8uc3RhdGljY2FsbChjYWxkKTsKICAgICAgICAgICAgICAgICAgICBmZGF0ID0gYnl0ZXNUb0J5dGVzMzIocmRhdCwgMzIgKiBmaWVsZF9kZXB0aCk7CiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgaWYgKHN1Y2Nlc3MgJiYgZmRhdCA9PSBuZXdfdmFsKSB7CiAgICAgICAgICAgICAgICAgICAgLy8gd2UgZm91bmQgd2hpY2ggb2YgdGhlIHNsb3RzIGlzIHRoZSBhY3R1YWwgb25lCiAgICAgICAgICAgICAgICAgICAgZW1pdCBTbG90Rm91bmQod2hvLCBmc2lnLCBrZWNjYWsyNTYoYWJpLmVuY29kZVBhY2tlZChpbnMsIGZpZWxkX2RlcHRoKSksIHVpbnQyNTYocmVhZHNbaV0pKTsKICAgICAgICAgICAgICAgICAgICBzZWxmLnNsb3RzW3dob11bZnNpZ11ba2VjY2FrMjU2KGFiaS5lbmNvZGVQYWNrZWQoaW5zLCBmaWVsZF9kZXB0aCkpXSA9IHVpbnQyNTYocmVhZHNbaV0pOwogICAgICAgICAgICAgICAgICAgIHNlbGYuZmluZHNbd2hvXVtmc2lnXVtrZWNjYWsyNTYoYWJpLmVuY29kZVBhY2tlZChpbnMsIGZpZWxkX2RlcHRoKSldID0gdHJ1ZTsKICAgICAgICAgICAgICAgICAgICB2bS5zdG9yZSh3aG8sIHJlYWRzW2ldLCBwcmV2KTsKICAgICAgICAgICAgICAgICAgICBicmVhazsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHZtLnN0b3JlKHdobywgcmVhZHNbaV0sIHByZXYpOwogICAgICAgICAgICB9CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgcmV2ZXJ0KCJzdGRTdG9yYWdlIGZpbmQoU3RkU3RvcmFnZSk6IE5vIHN0b3JhZ2UgdXNlIGRldGVjdGVkIGZvciB0YXJnZXQuIik7CiAgICAgICAgfQoKICAgICAgICByZXF1aXJlKAogICAgICAgICAgICBzZWxmLmZpbmRzW3dob11bZnNpZ11ba2VjY2FrMjU2KGFiaS5lbmNvZGVQYWNrZWQoaW5zLCBmaWVsZF9kZXB0aCkpXSwKICAgICAgICAgICAgInN0ZFN0b3JhZ2UgZmluZChTdGRTdG9yYWdlKTogU2xvdChzKSBub3QgZm91bmQuIgogICAgICAgICk7CgogICAgICAgIGRlbGV0ZSBzZWxmLl90YXJnZXQ7CiAgICAgICAgZGVsZXRlIHNlbGYuX3NpZzsKICAgICAgICBkZWxldGUgc2VsZi5fa2V5czsKICAgICAgICBkZWxldGUgc2VsZi5fZGVwdGg7CgogICAgICAgIHJldHVybiBzZWxmLnNsb3RzW3dob11bZnNpZ11ba2VjY2FrMjU2KGFiaS5lbmNvZGVQYWNrZWQoaW5zLCBmaWVsZF9kZXB0aCkpXTsKICAgIH0KCiAgICBmdW5jdGlvbiB0YXJnZXQoU3RkU3RvcmFnZSBzdG9yYWdlIHNlbGYsIGFkZHJlc3MgX3RhcmdldCkgaW50ZXJuYWwgcmV0dXJucyAoU3RkU3RvcmFnZSBzdG9yYWdlKSB7CiAgICAgICAgc2VsZi5fdGFyZ2V0ID0gX3RhcmdldDsKICAgICAgICByZXR1cm4gc2VsZjsKICAgIH0KCiAgICBmdW5jdGlvbiBzaWcoU3RkU3RvcmFnZSBzdG9yYWdlIHNlbGYsIGJ5dGVzNCBfc2lnKSBpbnRlcm5hbCByZXR1cm5zIChTdGRTdG9yYWdlIHN0b3JhZ2UpIHsKICAgICAgICBzZWxmLl9zaWcgPSBfc2lnOwogICAgICAgIHJldHVybiBzZWxmOwogICAgfQoKICAgIGZ1bmN0aW9uIHNpZyhTdGRTdG9yYWdlIHN0b3JhZ2Ugc2VsZiwgc3RyaW5nIG1lbW9yeSBfc2lnKSBpbnRlcm5hbCByZXR1cm5zIChTdGRTdG9yYWdlIHN0b3JhZ2UpIHsKICAgICAgICBzZWxmLl9zaWcgPSBzaWdzKF9zaWcpOwogICAgICAgIHJldHVybiBzZWxmOwogICAgfQoKICAgIGZ1bmN0aW9uIHdpdGhfa2V5KFN0ZFN0b3JhZ2Ugc3RvcmFnZSBzZWxmLCBhZGRyZXNzIHdobykgaW50ZXJuYWwgcmV0dXJucyAoU3RkU3RvcmFnZSBzdG9yYWdlKSB7CiAgICAgICAgc2VsZi5fa2V5cy5wdXNoKGJ5dGVzMzIodWludDI1Nih1aW50MTYwKHdobykpKSk7CiAgICAgICAgcmV0dXJuIHNlbGY7CiAgICB9CgogICAgZnVuY3Rpb24gd2l0aF9rZXkoU3RkU3RvcmFnZSBzdG9yYWdlIHNlbGYsIHVpbnQyNTYgYW10KSBpbnRlcm5hbCByZXR1cm5zIChTdGRTdG9yYWdlIHN0b3JhZ2UpIHsKICAgICAgICBzZWxmLl9rZXlzLnB1c2goYnl0ZXMzMihhbXQpKTsKICAgICAgICByZXR1cm4gc2VsZjsKICAgIH0KCiAgICBmdW5jdGlvbiB3aXRoX2tleShTdGRTdG9yYWdlIHN0b3JhZ2Ugc2VsZiwgYnl0ZXMzMiBrZXkpIGludGVybmFsIHJldHVybnMgKFN0ZFN0b3JhZ2Ugc3RvcmFnZSkgewogICAgICAgIHNlbGYuX2tleXMucHVzaChrZXkpOwogICAgICAgIHJldHVybiBzZWxmOwogICAgfQoKICAgIGZ1bmN0aW9uIGRlcHRoKFN0ZFN0b3JhZ2Ugc3RvcmFnZSBzZWxmLCB1aW50MjU2IF9kZXB0aCkgaW50ZXJuYWwgcmV0dXJucyAoU3RkU3RvcmFnZSBzdG9yYWdlKSB7CiAgICAgICAgc2VsZi5fZGVwdGggPSBfZGVwdGg7CiAgICAgICAgcmV0dXJuIHNlbGY7CiAgICB9CgogICAgZnVuY3Rpb24gcmVhZChTdGRTdG9yYWdlIHN0b3JhZ2Ugc2VsZikgcHJpdmF0ZSByZXR1cm5zIChieXRlcyBtZW1vcnkpIHsKICAgICAgICBhZGRyZXNzIHQgPSBzZWxmLl90YXJnZXQ7CiAgICAgICAgdWludDI1NiBzID0gZmluZChzZWxmKTsKICAgICAgICByZXR1cm4gYWJpLmVuY29kZSh2bS5sb2FkKHQsIGJ5dGVzMzIocykpKTsKICAgIH0KCiAgICBmdW5jdGlvbiByZWFkX2J5dGVzMzIoU3RkU3RvcmFnZSBzdG9yYWdlIHNlbGYpIGludGVybmFsIHJldHVybnMgKGJ5dGVzMzIpIHsKICAgICAgICByZXR1cm4gYWJpLmRlY29kZShyZWFkKHNlbGYpLCAoYnl0ZXMzMikpOwogICAgfQoKICAgIGZ1bmN0aW9uIHJlYWRfYm9vbChTdGRTdG9yYWdlIHN0b3JhZ2Ugc2VsZikgaW50ZXJuYWwgcmV0dXJucyAoYm9vbCkgewogICAgICAgIGludDI1NiB2ID0gcmVhZF9pbnQoc2VsZik7CiAgICAgICAgaWYgKHYgPT0gMCkgcmV0dXJuIGZhbHNlOwogICAgICAgIGlmICh2ID09IDEpIHJldHVybiB0cnVlOwogICAgICAgIHJldmVydCgic3RkU3RvcmFnZSByZWFkX2Jvb2woU3RkU3RvcmFnZSk6IENhbm5vdCBkZWNvZGUuIE1ha2Ugc3VyZSB5b3UgYXJlIHJlYWRpbmcgYSBib29sLiIpOwogICAgfQoKICAgIGZ1bmN0aW9uIHJlYWRfYWRkcmVzcyhTdGRTdG9yYWdlIHN0b3JhZ2Ugc2VsZikgaW50ZXJuYWwgcmV0dXJucyAoYWRkcmVzcykgewogICAgICAgIHJldHVybiBhYmkuZGVjb2RlKHJlYWQoc2VsZiksIChhZGRyZXNzKSk7CiAgICB9CgogICAgZnVuY3Rpb24gcmVhZF91aW50KFN0ZFN0b3JhZ2Ugc3RvcmFnZSBzZWxmKSBpbnRlcm5hbCByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgcmV0dXJuIGFiaS5kZWNvZGUocmVhZChzZWxmKSwgKHVpbnQyNTYpKTsKICAgIH0KCiAgICBmdW5jdGlvbiByZWFkX2ludChTdGRTdG9yYWdlIHN0b3JhZ2Ugc2VsZikgaW50ZXJuYWwgcmV0dXJucyAoaW50MjU2KSB7CiAgICAgICAgcmV0dXJuIGFiaS5kZWNvZGUocmVhZChzZWxmKSwgKGludDI1NikpOwogICAgfQoKICAgIGZ1bmN0aW9uIHBhcmVudChTdGRTdG9yYWdlIHN0b3JhZ2Ugc2VsZikgaW50ZXJuYWwgcmV0dXJucyAodWludDI1NiwgYnl0ZXMzMikgewogICAgICAgIGFkZHJlc3Mgd2hvID0gc2VsZi5fdGFyZ2V0OwogICAgICAgIHVpbnQyNTYgZmllbGRfZGVwdGggPSBzZWxmLl9kZXB0aDsKICAgICAgICB2bS5zdGFydE1hcHBpbmdSZWNvcmRpbmcoKTsKICAgICAgICB1aW50MjU2IGNoaWxkID0gZmluZChzZWxmKSAtIGZpZWxkX2RlcHRoOwogICAgICAgIChib29sIGZvdW5kLCBieXRlczMyIGtleSwgYnl0ZXMzMiBwYXJlbnRfc2xvdCkgPSB2bS5nZXRNYXBwaW5nS2V5QW5kUGFyZW50T2Yod2hvLCBieXRlczMyKGNoaWxkKSk7CiAgICAgICAgaWYgKCFmb3VuZCkgewogICAgICAgICAgICByZXZlcnQoCiAgICAgICAgICAgICAgICAic3RkU3RvcmFnZSByZWFkX2Jvb2woU3RkU3RvcmFnZSk6IENhbm5vdCBmaW5kIHBhcmVudC4gTWFrZSBzdXJlIHlvdSBnaXZlIGEgc2xvdCBhbmQgc3RhcnRNYXBwaW5nUmVjb3JkaW5nKCkgaGFzIGJlZW4gY2FsbGVkLiIKICAgICAgICAgICAgKTsKICAgICAgICB9CiAgICAgICAgcmV0dXJuICh1aW50MjU2KHBhcmVudF9zbG90KSwga2V5KTsKICAgIH0KCiAgICBmdW5jdGlvbiByb290KFN0ZFN0b3JhZ2Ugc3RvcmFnZSBzZWxmKSBpbnRlcm5hbCByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgYWRkcmVzcyB3aG8gPSBzZWxmLl90YXJnZXQ7CiAgICAgICAgdWludDI1NiBmaWVsZF9kZXB0aCA9IHNlbGYuX2RlcHRoOwogICAgICAgIHZtLnN0YXJ0TWFwcGluZ1JlY29yZGluZygpOwogICAgICAgIHVpbnQyNTYgY2hpbGQgPSBmaW5kKHNlbGYpIC0gZmllbGRfZGVwdGg7CiAgICAgICAgYm9vbCBmb3VuZDsKICAgICAgICBieXRlczMyIHJvb3Rfc2xvdDsKICAgICAgICBieXRlczMyIHBhcmVudF9zbG90OwogICAgICAgIChmb3VuZCwsIHBhcmVudF9zbG90KSA9IHZtLmdldE1hcHBpbmdLZXlBbmRQYXJlbnRPZih3aG8sIGJ5dGVzMzIoY2hpbGQpKTsKICAgICAgICBpZiAoIWZvdW5kKSB7CiAgICAgICAgICAgIHJldmVydCgKICAgICAgICAgICAgICAgICJzdGRTdG9yYWdlIHJlYWRfYm9vbChTdGRTdG9yYWdlKTogQ2Fubm90IGZpbmQgcGFyZW50LiBNYWtlIHN1cmUgeW91IGdpdmUgYSBzbG90IGFuZCBzdGFydE1hcHBpbmdSZWNvcmRpbmcoKSBoYXMgYmVlbiBjYWxsZWQuIgogICAgICAgICAgICApOwogICAgICAgIH0KICAgICAgICB3aGlsZSAoZm91bmQpIHsKICAgICAgICAgICAgcm9vdF9zbG90ID0gcGFyZW50X3Nsb3Q7CiAgICAgICAgICAgIChmb3VuZCwsIHBhcmVudF9zbG90KSA9IHZtLmdldE1hcHBpbmdLZXlBbmRQYXJlbnRPZih3aG8sIGJ5dGVzMzIocm9vdF9zbG90KSk7CiAgICAgICAgfQogICAgICAgIHJldHVybiB1aW50MjU2KHJvb3Rfc2xvdCk7CiAgICB9CgogICAgZnVuY3Rpb24gYnl0ZXNUb0J5dGVzMzIoYnl0ZXMgbWVtb3J5IGIsIHVpbnQyNTYgb2Zmc2V0KSBwcml2YXRlIHB1cmUgcmV0dXJucyAoYnl0ZXMzMikgewogICAgICAgIGJ5dGVzMzIgb3V0OwoKICAgICAgICB1aW50MjU2IG1heCA9IGIubGVuZ3RoID4gMzIgPyAzMiA6IGIubGVuZ3RoOwogICAgICAgIGZvciAodWludDI1NiBpID0gMDsgaSA8IG1heDsgaSsrKSB7CiAgICAgICAgICAgIG91dCB8PSBieXRlczMyKGJbb2Zmc2V0ICsgaV0gJiAweEZGKSA+PiAoaSAqIDgpOwogICAgICAgIH0KICAgICAgICByZXR1cm4gb3V0OwogICAgfQoKICAgIGZ1bmN0aW9uIGZsYXR0ZW4oYnl0ZXMzMltdIG1lbW9yeSBiKSBwcml2YXRlIHB1cmUgcmV0dXJucyAoYnl0ZXMgbWVtb3J5KSB7CiAgICAgICAgYnl0ZXMgbWVtb3J5IHJlc3VsdCA9IG5ldyBieXRlcyhiLmxlbmd0aCAqIDMyKTsKICAgICAgICBmb3IgKHVpbnQyNTYgaSA9IDA7IGkgPCBiLmxlbmd0aDsgaSsrKSB7CiAgICAgICAgICAgIGJ5dGVzMzIgayA9IGJbaV07CiAgICAgICAgICAgIC8vLyBAc29saWRpdHkgbWVtb3J5LXNhZmUtYXNzZW1ibHkKICAgICAgICAgICAgYXNzZW1ibHkgewogICAgICAgICAgICAgICAgbXN0b3JlKGFkZChyZXN1bHQsIGFkZCgzMiwgbXVsKDMyLCBpKSkpLCBrKQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICByZXR1cm4gcmVzdWx0OwogICAgfQp9CgpsaWJyYXJ5IHN0ZFN0b3JhZ2UgewogICAgVm0gcHJpdmF0ZSBjb25zdGFudCB2bSA9IFZtKGFkZHJlc3ModWludDE2MCh1aW50MjU2KGtlY2NhazI1NigiaGV2bSBjaGVhdCBjb2RlIikpKSkpOwoKICAgIGZ1bmN0aW9uIHNpZ3Moc3RyaW5nIG1lbW9yeSBzaWdTdHIpIGludGVybmFsIHB1cmUgcmV0dXJucyAoYnl0ZXM0KSB7CiAgICAgICAgcmV0dXJuIHN0ZFN0b3JhZ2VTYWZlLnNpZ3Moc2lnU3RyKTsKICAgIH0KCiAgICBmdW5jdGlvbiBmaW5kKFN0ZFN0b3JhZ2Ugc3RvcmFnZSBzZWxmKSBpbnRlcm5hbCByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgcmV0dXJuIHN0ZFN0b3JhZ2VTYWZlLmZpbmQoc2VsZik7CiAgICB9CgogICAgZnVuY3Rpb24gdGFyZ2V0KFN0ZFN0b3JhZ2Ugc3RvcmFnZSBzZWxmLCBhZGRyZXNzIF90YXJnZXQpIGludGVybmFsIHJldHVybnMgKFN0ZFN0b3JhZ2Ugc3RvcmFnZSkgewogICAgICAgIHJldHVybiBzdGRTdG9yYWdlU2FmZS50YXJnZXQoc2VsZiwgX3RhcmdldCk7CiAgICB9CgogICAgZnVuY3Rpb24gc2lnKFN0ZFN0b3JhZ2Ugc3RvcmFnZSBzZWxmLCBieXRlczQgX3NpZykgaW50ZXJuYWwgcmV0dXJucyAoU3RkU3RvcmFnZSBzdG9yYWdlKSB7CiAgICAgICAgcmV0dXJuIHN0ZFN0b3JhZ2VTYWZlLnNpZyhzZWxmLCBfc2lnKTsKICAgIH0KCiAgICBmdW5jdGlvbiBzaWcoU3RkU3RvcmFnZSBzdG9yYWdlIHNlbGYsIHN0cmluZyBtZW1vcnkgX3NpZykgaW50ZXJuYWwgcmV0dXJucyAoU3RkU3RvcmFnZSBzdG9yYWdlKSB7CiAgICAgICAgcmV0dXJuIHN0ZFN0b3JhZ2VTYWZlLnNpZyhzZWxmLCBfc2lnKTsKICAgIH0KCiAgICBmdW5jdGlvbiB3aXRoX2tleShTdGRTdG9yYWdlIHN0b3JhZ2Ugc2VsZiwgYWRkcmVzcyB3aG8pIGludGVybmFsIHJldHVybnMgKFN0ZFN0b3JhZ2Ugc3RvcmFnZSkgewogICAgICAgIHJldHVybiBzdGRTdG9yYWdlU2FmZS53aXRoX2tleShzZWxmLCB3aG8pOwogICAgfQoKICAgIGZ1bmN0aW9uIHdpdGhfa2V5KFN0ZFN0b3JhZ2Ugc3RvcmFnZSBzZWxmLCB1aW50MjU2IGFtdCkgaW50ZXJuYWwgcmV0dXJucyAoU3RkU3RvcmFnZSBzdG9yYWdlKSB7CiAgICAgICAgcmV0dXJuIHN0ZFN0b3JhZ2VTYWZlLndpdGhfa2V5KHNlbGYsIGFtdCk7CiAgICB9CgogICAgZnVuY3Rpb24gd2l0aF9rZXkoU3RkU3RvcmFnZSBzdG9yYWdlIHNlbGYsIGJ5dGVzMzIga2V5KSBpbnRlcm5hbCByZXR1cm5zIChTdGRTdG9yYWdlIHN0b3JhZ2UpIHsKICAgICAgICByZXR1cm4gc3RkU3RvcmFnZVNhZmUud2l0aF9rZXkoc2VsZiwga2V5KTsKICAgIH0KCiAgICBmdW5jdGlvbiBkZXB0aChTdGRTdG9yYWdlIHN0b3JhZ2Ugc2VsZiwgdWludDI1NiBfZGVwdGgpIGludGVybmFsIHJldHVybnMgKFN0ZFN0b3JhZ2Ugc3RvcmFnZSkgewogICAgICAgIHJldHVybiBzdGRTdG9yYWdlU2FmZS5kZXB0aChzZWxmLCBfZGVwdGgpOwogICAgfQoKICAgIGZ1bmN0aW9uIGNoZWNrZWRfd3JpdGUoU3RkU3RvcmFnZSBzdG9yYWdlIHNlbGYsIGFkZHJlc3Mgd2hvKSBpbnRlcm5hbCB7CiAgICAgICAgY2hlY2tlZF93cml0ZShzZWxmLCBieXRlczMyKHVpbnQyNTYodWludDE2MCh3aG8pKSkpOwogICAgfQoKICAgIGZ1bmN0aW9uIGNoZWNrZWRfd3JpdGUoU3RkU3RvcmFnZSBzdG9yYWdlIHNlbGYsIHVpbnQyNTYgYW10KSBpbnRlcm5hbCB7CiAgICAgICAgY2hlY2tlZF93cml0ZShzZWxmLCBieXRlczMyKGFtdCkpOwogICAgfQoKICAgIGZ1bmN0aW9uIGNoZWNrZWRfd3JpdGVfaW50KFN0ZFN0b3JhZ2Ugc3RvcmFnZSBzZWxmLCBpbnQyNTYgdmFsKSBpbnRlcm5hbCB7CiAgICAgICAgY2hlY2tlZF93cml0ZShzZWxmLCBieXRlczMyKHVpbnQyNTYodmFsKSkpOwogICAgfQoKICAgIGZ1bmN0aW9uIGNoZWNrZWRfd3JpdGUoU3RkU3RvcmFnZSBzdG9yYWdlIHNlbGYsIGJvb2wgd3JpdGUpIGludGVybmFsIHsKICAgICAgICBieXRlczMyIHQ7CiAgICAgICAgLy8vIEBzb2xpZGl0eSBtZW1vcnktc2FmZS1hc3NlbWJseQogICAgICAgIGFzc2VtYmx5IHsKICAgICAgICAgICAgdCA6PSB3cml0ZQogICAgICAgIH0KICAgICAgICBjaGVja2VkX3dyaXRlKHNlbGYsIHQpOwogICAgfQoKICAgIGZ1bmN0aW9uIGNoZWNrZWRfd3JpdGUoU3RkU3RvcmFnZSBzdG9yYWdlIHNlbGYsIGJ5dGVzMzIgc2V0KSBpbnRlcm5hbCB7CiAgICAgICAgYWRkcmVzcyB3aG8gPSBzZWxmLl90YXJnZXQ7CiAgICAgICAgYnl0ZXM0IGZzaWcgPSBzZWxmLl9zaWc7CiAgICAgICAgdWludDI1NiBmaWVsZF9kZXB0aCA9IHNlbGYuX2RlcHRoOwogICAgICAgIGJ5dGVzMzJbXSBtZW1vcnkgaW5zID0gc2VsZi5fa2V5czsKCiAgICAgICAgYnl0ZXMgbWVtb3J5IGNhbGQgPSBhYmkuZW5jb2RlUGFja2VkKGZzaWcsIGZsYXR0ZW4oaW5zKSk7CiAgICAgICAgaWYgKCFzZWxmLmZpbmRzW3dob11bZnNpZ11ba2VjY2FrMjU2KGFiaS5lbmNvZGVQYWNrZWQoaW5zLCBmaWVsZF9kZXB0aCkpXSkgewogICAgICAgICAgICBmaW5kKHNlbGYpOwogICAgICAgIH0KICAgICAgICBieXRlczMyIHNsb3QgPSBieXRlczMyKHNlbGYuc2xvdHNbd2hvXVtmc2lnXVtrZWNjYWsyNTYoYWJpLmVuY29kZVBhY2tlZChpbnMsIGZpZWxkX2RlcHRoKSldKTsKCiAgICAgICAgYnl0ZXMzMiBmZGF0OwogICAgICAgIHsKICAgICAgICAgICAgKCwgYnl0ZXMgbWVtb3J5IHJkYXQpID0gd2hvLnN0YXRpY2NhbGwoY2FsZCk7CiAgICAgICAgICAgIGZkYXQgPSBieXRlc1RvQnl0ZXMzMihyZGF0LCAzMiAqIGZpZWxkX2RlcHRoKTsKICAgICAgICB9CiAgICAgICAgYnl0ZXMzMiBjdXJyID0gdm0ubG9hZCh3aG8sIHNsb3QpOwoKICAgICAgICBpZiAoZmRhdCAhPSBjdXJyKSB7CiAgICAgICAgICAgIHJlcXVpcmUoCiAgICAgICAgICAgICAgICBmYWxzZSwKICAgICAgICAgICAgICAgICJzdGRTdG9yYWdlIGZpbmQoU3RkU3RvcmFnZSk6IFBhY2tlZCBzbG90LiBUaGlzIHdvdWxkIGNhdXNlIGRhbmdlcm91cyBvdmVyd3JpdGluZyBhbmQgY3VycmVudGx5IGlzbid0IHN1cHBvcnRlZC4iCiAgICAgICAgICAgICk7CiAgICAgICAgfQogICAgICAgIHZtLnN0b3JlKHdobywgc2xvdCwgc2V0KTsKICAgICAgICBkZWxldGUgc2VsZi5fdGFyZ2V0OwogICAgICAgIGRlbGV0ZSBzZWxmLl9zaWc7CiAgICAgICAgZGVsZXRlIHNlbGYuX2tleXM7CiAgICAgICAgZGVsZXRlIHNlbGYuX2RlcHRoOwogICAgfQoKICAgIGZ1bmN0aW9uIHJlYWRfYnl0ZXMzMihTdGRTdG9yYWdlIHN0b3JhZ2Ugc2VsZikgaW50ZXJuYWwgcmV0dXJucyAoYnl0ZXMzMikgewogICAgICAgIHJldHVybiBzdGRTdG9yYWdlU2FmZS5yZWFkX2J5dGVzMzIoc2VsZik7CiAgICB9CgogICAgZnVuY3Rpb24gcmVhZF9ib29sKFN0ZFN0b3JhZ2Ugc3RvcmFnZSBzZWxmKSBpbnRlcm5hbCByZXR1cm5zIChib29sKSB7CiAgICAgICAgcmV0dXJuIHN0ZFN0b3JhZ2VTYWZlLnJlYWRfYm9vbChzZWxmKTsKICAgIH0KCiAgICBmdW5jdGlvbiByZWFkX2FkZHJlc3MoU3RkU3RvcmFnZSBzdG9yYWdlIHNlbGYpIGludGVybmFsIHJldHVybnMgKGFkZHJlc3MpIHsKICAgICAgICByZXR1cm4gc3RkU3RvcmFnZVNhZmUucmVhZF9hZGRyZXNzKHNlbGYpOwogICAgfQoKICAgIGZ1bmN0aW9uIHJlYWRfdWludChTdGRTdG9yYWdlIHN0b3JhZ2Ugc2VsZikgaW50ZXJuYWwgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHJldHVybiBzdGRTdG9yYWdlU2FmZS5yZWFkX3VpbnQoc2VsZik7CiAgICB9CgogICAgZnVuY3Rpb24gcmVhZF9pbnQoU3RkU3RvcmFnZSBzdG9yYWdlIHNlbGYpIGludGVybmFsIHJldHVybnMgKGludDI1NikgewogICAgICAgIHJldHVybiBzdGRTdG9yYWdlU2FmZS5yZWFkX2ludChzZWxmKTsKICAgIH0KCiAgICBmdW5jdGlvbiBwYXJlbnQoU3RkU3RvcmFnZSBzdG9yYWdlIHNlbGYpIGludGVybmFsIHJldHVybnMgKHVpbnQyNTYsIGJ5dGVzMzIpIHsKICAgICAgICByZXR1cm4gc3RkU3RvcmFnZVNhZmUucGFyZW50KHNlbGYpOwogICAgfQoKICAgIGZ1bmN0aW9uIHJvb3QoU3RkU3RvcmFnZSBzdG9yYWdlIHNlbGYpIGludGVybmFsIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXR1cm4gc3RkU3RvcmFnZVNhZmUucm9vdChzZWxmKTsKICAgIH0KCiAgICAvLyBQcml2YXRlIGZ1bmN0aW9uIHNvIG5lZWRzIHRvIGJlIGNvcGllZCBvdmVyCiAgICBmdW5jdGlvbiBieXRlc1RvQnl0ZXMzMihieXRlcyBtZW1vcnkgYiwgdWludDI1NiBvZmZzZXQpIHByaXZhdGUgcHVyZSByZXR1cm5zIChieXRlczMyKSB7CiAgICAgICAgYnl0ZXMzMiBvdXQ7CgogICAgICAgIHVpbnQyNTYgbWF4ID0gYi5sZW5ndGggPiAzMiA/IDMyIDogYi5sZW5ndGg7CiAgICAgICAgZm9yICh1aW50MjU2IGkgPSAwOyBpIDwgbWF4OyBpKyspIHsKICAgICAgICAgICAgb3V0IHw9IGJ5dGVzMzIoYltvZmZzZXQgKyBpXSAmIDB4RkYpID4+IChpICogOCk7CiAgICAgICAgfQogICAgICAgIHJldHVybiBvdXQ7CiAgICB9CgogICAgLy8gUHJpdmF0ZSBmdW5jdGlvbiBzbyBuZWVkcyB0byBiZSBjb3BpZWQgb3ZlcgogICAgZnVuY3Rpb24gZmxhdHRlbihieXRlczMyW10gbWVtb3J5IGIpIHByaXZhdGUgcHVyZSByZXR1cm5zIChieXRlcyBtZW1vcnkpIHsKICAgICAgICBieXRlcyBtZW1vcnkgcmVzdWx0ID0gbmV3IGJ5dGVzKGIubGVuZ3RoICogMzIpOwogICAgICAgIGZvciAodWludDI1NiBpID0gMDsgaSA8IGIubGVuZ3RoOyBpKyspIHsKICAgICAgICAgICAgYnl0ZXMzMiBrID0gYltpXTsKICAgICAgICAgICAgLy8vIEBzb2xpZGl0eSBtZW1vcnktc2FmZS1hc3NlbWJseQogICAgICAgICAgICBhc3NlbWJseSB7CiAgICAgICAgICAgICAgICBtc3RvcmUoYWRkKHJlc3VsdCwgYWRkKDMyLCBtdWwoMzIsIGkpKSksIGspCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHJldHVybiByZXN1bHQ7CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.6.2 <0.9.0;
+
+import {Vm} from "./Vm.sol";
+
+struct StdStorage {
+    mapping(address => mapping(bytes4 => mapping(bytes32 => uint256))) slots;
+    mapping(address => mapping(bytes4 => mapping(bytes32 => bool))) finds;
+    bytes32[] _keys;
+    bytes4 _sig;
+    uint256 _depth;
+    address _target;
+    bytes32 _set;
+}
+
+library stdStorageSafe {
+    event SlotFound(address who, bytes4 fsig, bytes32 keysHash, uint256 slot);
+    event WARNING_UninitedSlot(address who, uint256 slot);
+
+    Vm private constant vm = Vm(address(uint160(uint256(keccak256("hevm cheat code")))));
+
+    function sigs(string memory sigStr) internal pure returns (bytes4) {
+        return bytes4(keccak256(bytes(sigStr)));
+    }
+
+    /// @notice find an arbitrary storage slot given a function sig, input data, address of the contract and a value to check against
+    // slot complexity:
+    //  if flat, will be bytes32(uint256(uint));
+    //  if map, will be keccak256(abi.encode(key, uint(slot)));
+    //  if deep map, will be keccak256(abi.encode(key1, keccak256(abi.encode(key0, uint(slot)))));
+    //  if map struct, will be bytes32(uint256(keccak256(abi.encode(key1, keccak256(abi.encode(key0, uint(slot)))))) + structFieldDepth);
+    function find(StdStorage storage self) internal returns (uint256) {
+        address who = self._target;
+        bytes4 fsig = self._sig;
+        uint256 field_depth = self._depth;
+        bytes32[] memory ins = self._keys;
+
+        // calldata to test against
+        if (self.finds[who][fsig][keccak256(abi.encodePacked(ins, field_depth))]) {
+            return self.slots[who][fsig][keccak256(abi.encodePacked(ins, field_depth))];
+        }
+        bytes memory cald = abi.encodePacked(fsig, flatten(ins));
+        vm.record();
+        bytes32 fdat;
+        {
+            (, bytes memory rdat) = who.staticcall(cald);
+            fdat = bytesToBytes32(rdat, 32 * field_depth);
+        }
+
+        (bytes32[] memory reads,) = vm.accesses(address(who));
+        if (reads.length == 1) {
+            bytes32 curr = vm.load(who, reads[0]);
+            if (curr == bytes32(0)) {
+                emit WARNING_UninitedSlot(who, uint256(reads[0]));
+            }
+            if (fdat != curr) {
+                require(
+                    false,
+                    "stdStorage find(StdStorage): Packed slot. This would cause dangerous overwriting and currently isn't supported."
+                );
+            }
+            emit SlotFound(who, fsig, keccak256(abi.encodePacked(ins, field_depth)), uint256(reads[0]));
+            self.slots[who][fsig][keccak256(abi.encodePacked(ins, field_depth))] = uint256(reads[0]);
+            self.finds[who][fsig][keccak256(abi.encodePacked(ins, field_depth))] = true;
+        } else if (reads.length > 1) {
+            for (uint256 i = 0; i < reads.length; i++) {
+                bytes32 prev = vm.load(who, reads[i]);
+                if (prev == bytes32(0)) {
+                    emit WARNING_UninitedSlot(who, uint256(reads[i]));
+                }
+                if (prev != fdat) {
+                    continue;
+                }
+                bytes32 new_val = ~prev;
+                // store
+                vm.store(who, reads[i], new_val);
+                bool success;
+                {
+                    bytes memory rdat;
+                    (success, rdat) = who.staticcall(cald);
+                    fdat = bytesToBytes32(rdat, 32 * field_depth);
+                }
+
+                if (success && fdat == new_val) {
+                    // we found which of the slots is the actual one
+                    emit SlotFound(who, fsig, keccak256(abi.encodePacked(ins, field_depth)), uint256(reads[i]));
+                    self.slots[who][fsig][keccak256(abi.encodePacked(ins, field_depth))] = uint256(reads[i]);
+                    self.finds[who][fsig][keccak256(abi.encodePacked(ins, field_depth))] = true;
+                    vm.store(who, reads[i], prev);
+                    break;
+                }
+                vm.store(who, reads[i], prev);
+            }
+        } else {
+            revert("stdStorage find(StdStorage): No storage use detected for target.");
+        }
+
+        require(
+            self.finds[who][fsig][keccak256(abi.encodePacked(ins, field_depth))],
+            "stdStorage find(StdStorage): Slot(s) not found."
+        );
+
+        delete self._target;
+        delete self._sig;
+        delete self._keys;
+        delete self._depth;
+
+        return self.slots[who][fsig][keccak256(abi.encodePacked(ins, field_depth))];
+    }
+
+    function target(StdStorage storage self, address _target) internal returns (StdStorage storage) {
+        self._target = _target;
+        return self;
+    }
+
+    function sig(StdStorage storage self, bytes4 _sig) internal returns (StdStorage storage) {
+        self._sig = _sig;
+        return self;
+    }
+
+    function sig(StdStorage storage self, string memory _sig) internal returns (StdStorage storage) {
+        self._sig = sigs(_sig);
+        return self;
+    }
+
+    function with_key(StdStorage storage self, address who) internal returns (StdStorage storage) {
+        self._keys.push(bytes32(uint256(uint160(who))));
+        return self;
+    }
+
+    function with_key(StdStorage storage self, uint256 amt) internal returns (StdStorage storage) {
+        self._keys.push(bytes32(amt));
+        return self;
+    }
+
+    function with_key(StdStorage storage self, bytes32 key) internal returns (StdStorage storage) {
+        self._keys.push(key);
+        return self;
+    }
+
+    function depth(StdStorage storage self, uint256 _depth) internal returns (StdStorage storage) {
+        self._depth = _depth;
+        return self;
+    }
+
+    function read(StdStorage storage self) private returns (bytes memory) {
+        address t = self._target;
+        uint256 s = find(self);
+        return abi.encode(vm.load(t, bytes32(s)));
+    }
+
+    function read_bytes32(StdStorage storage self) internal returns (bytes32) {
+        return abi.decode(read(self), (bytes32));
+    }
+
+    function read_bool(StdStorage storage self) internal returns (bool) {
+        int256 v = read_int(self);
+        if (v == 0) return false;
+        if (v == 1) return true;
+        revert("stdStorage read_bool(StdStorage): Cannot decode. Make sure you are reading a bool.");
+    }
+
+    function read_address(StdStorage storage self) internal returns (address) {
+        return abi.decode(read(self), (address));
+    }
+
+    function read_uint(StdStorage storage self) internal returns (uint256) {
+        return abi.decode(read(self), (uint256));
+    }
+
+    function read_int(StdStorage storage self) internal returns (int256) {
+        return abi.decode(read(self), (int256));
+    }
+
+    function parent(StdStorage storage self) internal returns (uint256, bytes32) {
+        address who = self._target;
+        uint256 field_depth = self._depth;
+        vm.startMappingRecording();
+        uint256 child = find(self) - field_depth;
+        (bool found, bytes32 key, bytes32 parent_slot) = vm.getMappingKeyAndParentOf(who, bytes32(child));
+        if (!found) {
+            revert(
+                "stdStorage read_bool(StdStorage): Cannot find parent. Make sure you give a slot and startMappingRecording() has been called."
+            );
+        }
+        return (uint256(parent_slot), key);
+    }
+
+    function root(StdStorage storage self) internal returns (uint256) {
+        address who = self._target;
+        uint256 field_depth = self._depth;
+        vm.startMappingRecording();
+        uint256 child = find(self) - field_depth;
+        bool found;
+        bytes32 root_slot;
+        bytes32 parent_slot;
+        (found,, parent_slot) = vm.getMappingKeyAndParentOf(who, bytes32(child));
+        if (!found) {
+            revert(
+                "stdStorage read_bool(StdStorage): Cannot find parent. Make sure you give a slot and startMappingRecording() has been called."
+            );
+        }
+        while (found) {
+            root_slot = parent_slot;
+            (found,, parent_slot) = vm.getMappingKeyAndParentOf(who, bytes32(root_slot));
+        }
+        return uint256(root_slot);
+    }
+
+    function bytesToBytes32(bytes memory b, uint256 offset) private pure returns (bytes32) {
+        bytes32 out;
+
+        uint256 max = b.length > 32 ? 32 : b.length;
+        for (uint256 i = 0; i < max; i++) {
+            out |= bytes32(b[offset + i] & 0xFF) >> (i * 8);
+        }
+        return out;
+    }
+
+    function flatten(bytes32[] memory b) private pure returns (bytes memory) {
+        bytes memory result = new bytes(b.length * 32);
+        for (uint256 i = 0; i < b.length; i++) {
+            bytes32 k = b[i];
+            /// @solidity memory-safe-assembly
+            assembly {
+                mstore(add(result, add(32, mul(32, i))), k)
+            }
+        }
+
+        return result;
+    }
+}
+
+library stdStorage {
+    Vm private constant vm = Vm(address(uint160(uint256(keccak256("hevm cheat code")))));
+
+    function sigs(string memory sigStr) internal pure returns (bytes4) {
+        return stdStorageSafe.sigs(sigStr);
+    }
+
+    function find(StdStorage storage self) internal returns (uint256) {
+        return stdStorageSafe.find(self);
+    }
+
+    function target(StdStorage storage self, address _target) internal returns (StdStorage storage) {
+        return stdStorageSafe.target(self, _target);
+    }
+
+    function sig(StdStorage storage self, bytes4 _sig) internal returns (StdStorage storage) {
+        return stdStorageSafe.sig(self, _sig);
+    }
+
+    function sig(StdStorage storage self, string memory _sig) internal returns (StdStorage storage) {
+        return stdStorageSafe.sig(self, _sig);
+    }
+
+    function with_key(StdStorage storage self, address who) internal returns (StdStorage storage) {
+        return stdStorageSafe.with_key(self, who);
+    }
+
+    function with_key(StdStorage storage self, uint256 amt) internal returns (StdStorage storage) {
+        return stdStorageSafe.with_key(self, amt);
+    }
+
+    function with_key(StdStorage storage self, bytes32 key) internal returns (StdStorage storage) {
+        return stdStorageSafe.with_key(self, key);
+    }
+
+    function depth(StdStorage storage self, uint256 _depth) internal returns (StdStorage storage) {
+        return stdStorageSafe.depth(self, _depth);
+    }
+
+    function checked_write(StdStorage storage self, address who) internal {
+        checked_write(self, bytes32(uint256(uint160(who))));
+    }
+
+    function checked_write(StdStorage storage self, uint256 amt) internal {
+        checked_write(self, bytes32(amt));
+    }
+
+    function checked_write_int(StdStorage storage self, int256 val) internal {
+        checked_write(self, bytes32(uint256(val)));
+    }
+
+    function checked_write(StdStorage storage self, bool write) internal {
+        bytes32 t;
+        /// @solidity memory-safe-assembly
+        assembly {
+            t := write
+        }
+        checked_write(self, t);
+    }
+
+    function checked_write(StdStorage storage self, bytes32 set) internal {
+        address who = self._target;
+        bytes4 fsig = self._sig;
+        uint256 field_depth = self._depth;
+        bytes32[] memory ins = self._keys;
+
+        bytes memory cald = abi.encodePacked(fsig, flatten(ins));
+        if (!self.finds[who][fsig][keccak256(abi.encodePacked(ins, field_depth))]) {
+            find(self);
+        }
+        bytes32 slot = bytes32(self.slots[who][fsig][keccak256(abi.encodePacked(ins, field_depth))]);
+
+        bytes32 fdat;
+        {
+            (, bytes memory rdat) = who.staticcall(cald);
+            fdat = bytesToBytes32(rdat, 32 * field_depth);
+        }
+        bytes32 curr = vm.load(who, slot);
+
+        if (fdat != curr) {
+            require(
+                false,
+                "stdStorage find(StdStorage): Packed slot. This would cause dangerous overwriting and currently isn't supported."
+            );
+        }
+        vm.store(who, slot, set);
+        delete self._target;
+        delete self._sig;
+        delete self._keys;
+        delete self._depth;
+    }
+
+    function read_bytes32(StdStorage storage self) internal returns (bytes32) {
+        return stdStorageSafe.read_bytes32(self);
+    }
+
+    function read_bool(StdStorage storage self) internal returns (bool) {
+        return stdStorageSafe.read_bool(self);
+    }
+
+    function read_address(StdStorage storage self) internal returns (address) {
+        return stdStorageSafe.read_address(self);
+    }
+
+    function read_uint(StdStorage storage self) internal returns (uint256) {
+        return stdStorageSafe.read_uint(self);
+    }
+
+    function read_int(StdStorage storage self) internal returns (int256) {
+        return stdStorageSafe.read_int(self);
+    }
+
+    function parent(StdStorage storage self) internal returns (uint256, bytes32) {
+        return stdStorageSafe.parent(self);
+    }
+
+    function root(StdStorage storage self) internal returns (uint256) {
+        return stdStorageSafe.root(self);
+    }
+
+    // Private function so needs to be copied over
+    function bytesToBytes32(bytes memory b, uint256 offset) private pure returns (bytes32) {
+        bytes32 out;
+
+        uint256 max = b.length > 32 ? 32 : b.length;
+        for (uint256 i = 0; i < max; i++) {
+            out |= bytes32(b[offset + i] & 0xFF) >> (i * 8);
+        }
+        return out;
+    }
+
+    // Private function so needs to be copied over
+    function flatten(bytes32[] memory b) private pure returns (bytes memory) {
+        bytes memory result = new bytes(b.length * 32);
+        for (uint256 i = 0; i < b.length; i++) {
+            bytes32 k = b[i];
+            /// @solidity memory-safe-assembly
+            assembly {
+                mstore(add(result, add(32, mul(32, i))), k)
+            }
+        }
+
+        return result;
+    }
+}
