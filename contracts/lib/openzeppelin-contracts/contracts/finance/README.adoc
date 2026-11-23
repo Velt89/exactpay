@@ -1,1 +1,14 @@
-PSBGaW5hbmNlCgpbLnJlYWRtZS1ub3RpY2VdCk5PVEU6IFRoaXMgZG9jdW1lbnQgaXMgYmV0dGVyIHZpZXdlZCBhdCBodHRwczovL2RvY3Mub3BlbnplcHBlbGluLmNvbS9jb250cmFjdHMvYXBpL2ZpbmFuY2UKClRoaXMgZGlyZWN0b3J5IGluY2x1ZGVzIHByaW1pdGl2ZXMgZm9yIGZpbmFuY2lhbCBzeXN0ZW1zOgoKLSB7VmVzdGluZ1dhbGxldH0gaGFuZGxlcyB0aGUgdmVzdGluZyBvZiBFdGhlciBhbmQgRVJDLTIwIHRva2VucyBmb3IgYSBnaXZlbiBiZW5lZmljaWFyeS4gQ3VzdG9keSBvZiBtdWx0aXBsZSB0b2tlbnMgY2FuCiAgYmUgZ2l2ZW4gdG8gdGhpcyBjb250cmFjdCwgd2hpY2ggd2lsbCByZWxlYXNlIHRoZSB0b2tlbiB0byB0aGUgYmVuZWZpY2lhcnkgZm9sbG93aW5nIGEgZ2l2ZW4sIGN1c3RvbWl6YWJsZSwgdmVzdGluZwogIHNjaGVkdWxlLgoKPT0gQ29udHJhY3RzCgp7e1Zlc3RpbmdXYWxsZXR9fQo=
+= Finance
+
+[.readme-notice]
+NOTE: This document is better viewed at https://docs.openzeppelin.com/contracts/api/finance
+
+This directory includes primitives for financial systems:
+
+- {VestingWallet} handles the vesting of Ether and ERC-20 tokens for a given beneficiary. Custody of multiple tokens can
+  be given to this contract, which will release the token to the beneficiary following a given, customizable, vesting
+  schedule.
+
+== Contracts
+
+{{VestingWallet}}
