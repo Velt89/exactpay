@@ -1,1 +1,10 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7RVJDMjB9IGZyb20gIi4uLy4uL3Rva2VuL0VSQzIwL0VSQzIwLnNvbCI7CgphYnN0cmFjdCBjb250cmFjdCBFUkMyMEFwcHJvdmFsTW9jayBpcyBFUkMyMCB7CiAgICBmdW5jdGlvbiBfYXBwcm92ZShhZGRyZXNzIG93bmVyLCBhZGRyZXNzIHNwZW5kZXIsIHVpbnQyNTYgYW1vdW50LCBib29sKSBpbnRlcm5hbCB2aXJ0dWFsIG92ZXJyaWRlIHsKICAgICAgICBzdXBlci5fYXBwcm92ZShvd25lciwgc3BlbmRlciwgYW1vdW50LCB0cnVlKTsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+import {ERC20} from "../../token/ERC20/ERC20.sol";
+
+abstract contract ERC20ApprovalMock is ERC20 {
+    function _approve(address owner, address spender, uint256 amount, bool) internal virtual override {
+        super._approve(owner, spender, amount, true);
+    }
+}
