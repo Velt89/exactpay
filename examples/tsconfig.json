@@ -1,1 +1,18 @@
-ewogICJjb21waWxlck9wdGlvbnMiOiB7CiAgICAidGFyZ2V0IjogIkVTMjAyMiIsCiAgICAibW9kdWxlIjogIkVTTmV4dCIsCiAgICAibW9kdWxlUmVzb2x1dGlvbiI6ICJidW5kbGVyIiwKICAgICJzdHJpY3QiOiB0cnVlLAogICAgInNraXBMaWJDaGVjayI6IHRydWUsCiAgICAibm9FbWl0IjogdHJ1ZSwKICAgICJhbGxvd0ltcG9ydGluZ1RzRXh0ZW5zaW9ucyI6IGZhbHNlLAogICAgInR5cGVzIjogWwogICAgICAibm9kZSIKICAgIF0KICB9LAogICJpbmNsdWRlIjogWwogICAgInNyYyIsCiAgICAiLi4vcGFja2FnZXMvYWV2dW0vc3JjIgogIF0KfQo=
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "allowImportingTsExtensions": false,
+    "types": [
+      "node"
+    ]
+  },
+  "include": [
+    "src",
+    "../packages/aevum/src"
+  ]
+}
