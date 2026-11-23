@@ -1,1 +1,33 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgPj0wLjYuMiA8MC45LjA7CgpwcmFnbWEgZXhwZXJpbWVudGFsIEFCSUVuY29kZXJWMjsKCi8vIPCfkqwgQUJPVVQKLy8gRm9yZ2UgU3RkJ3MgZGVmYXVsdCBUZXN0LgoKLy8g8J+nqSBNT0RVTEVTCmltcG9ydCB7Y29uc29sZX0gZnJvbSAiLi9jb25zb2xlLnNvbCI7CmltcG9ydCB7Y29uc29sZTJ9IGZyb20gIi4vY29uc29sZTIuc29sIjsKaW1wb3J0IHtzYWZlY29uc29sZX0gZnJvbSAiLi9zYWZlY29uc29sZS5zb2wiOwppbXBvcnQge1N0ZEFzc2VydGlvbnN9IGZyb20gIi4vU3RkQXNzZXJ0aW9ucy5zb2wiOwppbXBvcnQge1N0ZENoYWluc30gZnJvbSAiLi9TdGRDaGFpbnMuc29sIjsKaW1wb3J0IHtTdGRDaGVhdHN9IGZyb20gIi4vU3RkQ2hlYXRzLnNvbCI7CmltcG9ydCB7c3RkRXJyb3J9IGZyb20gIi4vU3RkRXJyb3Iuc29sIjsKaW1wb3J0IHtTdGRJbnZhcmlhbnR9IGZyb20gIi4vU3RkSW52YXJpYW50LnNvbCI7CmltcG9ydCB7c3RkSnNvbn0gZnJvbSAiLi9TdGRKc29uLnNvbCI7CmltcG9ydCB7c3RkTWF0aH0gZnJvbSAiLi9TdGRNYXRoLnNvbCI7CmltcG9ydCB7U3RkU3RvcmFnZSwgc3RkU3RvcmFnZX0gZnJvbSAiLi9TdGRTdG9yYWdlLnNvbCI7CmltcG9ydCB7U3RkU3R5bGV9IGZyb20gIi4vU3RkU3R5bGUuc29sIjsKaW1wb3J0IHtTdGRVdGlsc30gZnJvbSAiLi9TdGRVdGlscy5zb2wiOwppbXBvcnQge1ZtfSBmcm9tICIuL1ZtLnNvbCI7CgovLyDwn5OmIEJPSUxFUlBMQVRFCmltcG9ydCB7VGVzdEJhc2V9IGZyb20gIi4vQmFzZS5zb2wiOwppbXBvcnQge0RTVGVzdH0gZnJvbSAiZHMtdGVzdC90ZXN0LnNvbCI7CgovLyDirZDvuI8gVEVTVAphYnN0cmFjdCBjb250cmFjdCBUZXN0IGlzIFRlc3RCYXNlLCBEU1Rlc3QsIFN0ZEFzc2VydGlvbnMsIFN0ZENoYWlucywgU3RkQ2hlYXRzLCBTdGRJbnZhcmlhbnQsIFN0ZFV0aWxzIHsKLy8gTm90ZTogSVNfVEVTVCgpIG11c3QgcmV0dXJuIHRydWUuCi8vIE5vdGU6IE11c3QgaGF2ZSBmYWlsdXJlIHN5c3RlbSwgaHR0cHM6Ly9naXRodWIuY29tL2RhcHBodWIvZHMtdGVzdC9ibG9iL2NkOThlZmYyODMyNGJmYWM2NTJlNjNhMjM5YTYwNjMyYTc2MTc5MGIvc3JjL3Rlc3Quc29sI0wzOS1MNzYuCn0K
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.6.2 <0.9.0;
+
+pragma experimental ABIEncoderV2;
+
+// 💬 ABOUT
+// Forge Std's default Test.
+
+// 🧩 MODULES
+import {console} from "./console.sol";
+import {console2} from "./console2.sol";
+import {safeconsole} from "./safeconsole.sol";
+import {StdAssertions} from "./StdAssertions.sol";
+import {StdChains} from "./StdChains.sol";
+import {StdCheats} from "./StdCheats.sol";
+import {stdError} from "./StdError.sol";
+import {StdInvariant} from "./StdInvariant.sol";
+import {stdJson} from "./StdJson.sol";
+import {stdMath} from "./StdMath.sol";
+import {StdStorage, stdStorage} from "./StdStorage.sol";
+import {StdStyle} from "./StdStyle.sol";
+import {StdUtils} from "./StdUtils.sol";
+import {Vm} from "./Vm.sol";
+
+// 📦 BOILERPLATE
+import {TestBase} from "./Base.sol";
+import {DSTest} from "ds-test/test.sol";
+
+// ⭐️ TEST
+abstract contract Test is TestBase, DSTest, StdAssertions, StdChains, StdCheats, StdInvariant, StdUtils {
+// Note: IS_TEST() must return true.
+// Note: Must have failure system, https://github.com/dapphub/ds-test/blob/cd98eff28324bfac652e63a239a60632a761790b/src/test.sol#L39-L76.
+}
