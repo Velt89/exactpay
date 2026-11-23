@@ -1,1 +1,70 @@
-aW1wb3J0IHsgZGVmaW5lQ2hhaW4gfSBmcm9tICJ2aWVtIjsKCi8qKgogKiBRRGF5IEFldnVtIHRlc3RuZXQuCiAqCiAqIFRoaW5ncyB0aGF0IGRpZmZlciBmcm9tIEV0aGVyZXVtIGFuZCB3aWxsIGJpdGUgeW91OgogKiAgLSBFVk0gaXMgU2hhbmdoYWkuIENvbXBpbGUgd2l0aCBldm1fdmVyc2lvbiA9ICJzaGFuZ2hhaSIgKG5vIE1DT1BZIC8gVFNUT1JFIC8gYmxvYnMpLgogKiAgLSBldGhfZ2V0TG9ncyByZXR1cm5zIGF0IG1vc3QgMSwwMDAgYmxvY2tzIHBlciBjYWxsLiBVc2UgYGdldExvZ3NDaHVua2VkYC4KICogIC0gTm8gV2ViU29ja2V0IFJQQy4gUG9sbCBvdmVyIEhUVFBTLgogKiAgLSBMZWdhY3kgKHR5cGUgMCkgdHJhbnNhY3Rpb25zIGFyZSB0aGUgc2FmZXN0IGNob2ljZSBmb3Igc2NyaXB0cy4KICovCmV4cG9ydCBjb25zdCBhZXZ1bVRlc3RuZXQgPSBkZWZpbmVDaGFpbih7CiAgaWQ6IDQ0MDA1LAogIG5hbWU6ICJRRGF5IEFldnVtIFRlc3RuZXQiLAogIG5hdGl2ZUN1cnJlbmN5OiB7IG5hbWU6ICJUZXN0IFFEQVkiLCBzeW1ib2w6ICJ0UURBWSIsIGRlY2ltYWxzOiAxOCB9LAogIHJwY1VybHM6IHsKICAgIGRlZmF1bHQ6IHsgaHR0cDogWyJodHRwczovL3JwYy10ZXN0LnFkYXkuaW5mbyJdIH0sCiAgfSwKICBibG9ja0V4cGxvcmVyczogewogICAgZGVmYXVsdDogeyBuYW1lOiAiQWV2dW0gRXhwbG9yZXIiLCB1cmw6ICJodHRwczovL2V4cGxvcmVyLXRlc3QucWRheS5pbmZvIiB9LAogIH0sCiAgY29udHJhY3RzOiB7CiAgICBtdWx0aWNhbGwzOiB7IGFkZHJlc3M6ICIweGNBMTFiZGUwNTk3N2IzNjMxMTY3MDI4ODYyYkUyYTE3Mzk3NkNBMTEiIH0sCiAgfSwKICB0ZXN0bmV0OiB0cnVlLAp9KTsKCi8qKiBMb2NhbCBhbnZpbC4gU3RhcnQgaXQgd2l0aCBgbWFrZSBhbnZpbGAgKFNoYW5naGFpIGhhcmRmb3JrKSBvciBgbWFrZSBmb3JrYCAoY29weSBvZiBBZXZ1bSkuICovCmV4cG9ydCBjb25zdCBsb2NhbEFudmlsID0gZGVmaW5lQ2hhaW4oewogIGlkOiAzMTMzNywKICBuYW1lOiAiTG9jYWwgKGFudmlsKSIsCiAgbmF0aXZlQ3VycmVuY3k6IHsgbmFtZTogIkV0aGVyIiwgc3ltYm9sOiAiRVRIIiwgZGVjaW1hbHM6IDE4IH0sCiAgcnBjVXJsczogeyBkZWZhdWx0OiB7IGh0dHA6IFsiaHR0cDovLzEyNy4wLjAuMTo4NTQ1Il0gfSB9LAogIHRlc3RuZXQ6IHRydWUsCn0pOwoKLyoqCiAqIENoYWluIElEIG9mIGBtYWtlIGZvcmtgLiBUaGUgZm9yayBjb3BpZXMgQWV2dW0ncyBzdGF0ZSBidXQgcnVucyB1bmRlciBpdHMgb3duIGNoYWluIElELCBzbzoKICogIC0gd2FsbGV0cyBrZWVwIGl0IGFzIGEgc2VwYXJhdGUgbmV0d29yayBuZXh0IHRvIHRoZSByZWFsIHRlc3RuZXQgKHN3aXRjaGluZyBpcyBvbmUgY2xpY2spLCBhbmQKICogIC0gRUlQLTcxMiBzaWduYXR1cmVzIG1hZGUgb24gdGhlIGZvcmsgKHBlcm1pdCwgRUlQLTMwMDkpIGFyZSBub3QgdmFsaWQgb24gdGhlIHJlYWwgdGVzdG5ldC4KICovCmV4cG9ydCBjb25zdCBBRVZVTV9GT1JLX0NIQUlOX0lEID0gNDQwMDUwOwoKLyoqIGBtYWtlIGZvcmtgOiBhIGxvY2FsIGNvcHkgb2YgQWV2dW0gdGVzdG5ldCBvbiB5b3VyIG1hY2hpbmUuICovCmV4cG9ydCBjb25zdCBhZXZ1bUZvcmsgPSBkZWZpbmVDaGFpbih7CiAgLi4uYWV2dW1UZXN0bmV0LAogIGlkOiBBRVZVTV9GT1JLX0NIQUlOX0lELAogIG5hbWU6ICJBZXZ1bSBmb3JrIChsb2NhbCkiLAogIC8vIE5vdCA4NTQ1OiB3YWxsZXRzIG9mdGVuIGFscmVhZHkgaGF2ZSBhbiBhbnZpbC9IYXJkaGF0IG5ldHdvcmsgdGhlcmUsIGFuZCBNZXRhTWFzayByZWZ1c2VzCiAgLy8gdG8gYWRkIGEgc2Vjb25kIG5ldHdvcmsgd2l0aCB0aGUgc2FtZSBSUEMgVVJMLgogIHJwY1VybHM6IHsgZGVmYXVsdDogeyBodHRwOiBbImh0dHA6Ly8xMjcuMC4wLjE6ODU1NSJdIH0gfSwKICBibG9ja0V4cGxvcmVyczogdW5kZWZpbmVkLAp9KTsKCi8qKiBMYXJnZXN0IGJsb2NrIHJhbmdlIGEgc2luZ2xlIGV0aF9nZXRMb2dzIGNhbGwgbWF5IGNvdmVyIG9uIEFldnVtLiAqLwpleHBvcnQgY29uc3QgTUFYX0xPR19SQU5HRSA9IDEwMDBuOwoKZXhwb3J0IGNvbnN0IGxpbmtzID0gewogIGV4cGxvcmVyOiAiaHR0cHM6Ly9leHBsb3Jlci10ZXN0LnFkYXkuaW5mbyIsCiAgZmF1Y2V0V2ViOiAiaHR0cHM6Ly9mYXVjZXQucWRheS5pbmZvL2VuIiwKICBkb2NzOiAiaHR0cHM6Ly9jb21tdW5pdHkucWRheS5pby9ndWlkZS8iLAp9IGFzIGNvbnN0OwoKZXhwb3J0IGZ1bmN0aW9uIHR4VXJsKGhhc2g6IHN0cmluZyk6IHN0cmluZyB7CiAgcmV0dXJuIGAke2xpbmtzLmV4cGxvcmVyfS90eC8ke2hhc2h9YDsKfQoKZXhwb3J0IGZ1bmN0aW9uIGFkZHJlc3NVcmwoYWRkcmVzczogc3RyaW5nKTogc3RyaW5nIHsKICByZXR1cm4gYCR7bGlua3MuZXhwbG9yZXJ9L2FkZHJlc3MvJHthZGRyZXNzfWA7Cn0K
+import { defineChain } from "viem";
+
+/**
+ * QDay Aevum testnet.
+ *
+ * Things that differ from Ethereum and will bite you:
+ *  - EVM is Shanghai. Compile with evm_version = "shanghai" (no MCOPY / TSTORE / blobs).
+ *  - eth_getLogs returns at most 1,000 blocks per call. Use `getLogsChunked`.
+ *  - No WebSocket RPC. Poll over HTTPS.
+ *  - Legacy (type 0) transactions are the safest choice for scripts.
+ */
+export const aevumTestnet = defineChain({
+  id: 44005,
+  name: "QDay Aevum Testnet",
+  nativeCurrency: { name: "Test QDAY", symbol: "tQDAY", decimals: 18 },
+  rpcUrls: {
+    default: { http: ["https://rpc-test.qday.info"] },
+  },
+  blockExplorers: {
+    default: { name: "Aevum Explorer", url: "https://explorer-test.qday.info" },
+  },
+  contracts: {
+    multicall3: { address: "0xcA11bde05977b3631167028862bE2a173976CA11" },
+  },
+  testnet: true,
+});
+
+/** Local anvil. Start it with `make anvil` (Shanghai hardfork) or `make fork` (copy of Aevum). */
+export const localAnvil = defineChain({
+  id: 31337,
+  name: "Local (anvil)",
+  nativeCurrency: { name: "Ether", symbol: "ETH", decimals: 18 },
+  rpcUrls: { default: { http: ["http://127.0.0.1:8545"] } },
+  testnet: true,
+});
+
+/**
+ * Chain ID of `make fork`. The fork copies Aevum's state but runs under its own chain ID, so:
+ *  - wallets keep it as a separate network next to the real testnet (switching is one click), and
+ *  - EIP-712 signatures made on the fork (permit, EIP-3009) are not valid on the real testnet.
+ */
+export const AEVUM_FORK_CHAIN_ID = 440050;
+
+/** `make fork`: a local copy of Aevum testnet on your machine. */
+export const aevumFork = defineChain({
+  ...aevumTestnet,
+  id: AEVUM_FORK_CHAIN_ID,
+  name: "Aevum fork (local)",
+  // Not 8545: wallets often already have an anvil/Hardhat network there, and MetaMask refuses
+  // to add a second network with the same RPC URL.
+  rpcUrls: { default: { http: ["http://127.0.0.1:8555"] } },
+  blockExplorers: undefined,
+});
+
+/** Largest block range a single eth_getLogs call may cover on Aevum. */
+export const MAX_LOG_RANGE = 1000n;
+
+export const links = {
+  explorer: "https://explorer-test.qday.info",
+  faucetWeb: "https://faucet.qday.info/en",
+  docs: "https://community.qday.io/guide/",
+} as const;
+
+export function txUrl(hash: string): string {
+  return `${links.explorer}/tx/${hash}`;
+}
+
+export function addressUrl(address: string): string {
+  return `${links.explorer}/address/${address}`;
+}
