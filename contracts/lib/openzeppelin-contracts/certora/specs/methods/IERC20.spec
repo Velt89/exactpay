@@ -1,1 +1,11 @@
-bWV0aG9kcyB7CiAgICBmdW5jdGlvbiBuYW1lKCkgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGV4dGVybmFsIHJldHVybnMgKHN0cmluZykgIGVudmZyZWU7CiAgICBmdW5jdGlvbiBzeW1ib2woKSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGV4dGVybmFsIHJldHVybnMgKHN0cmluZykgIGVudmZyZWU7CiAgICBmdW5jdGlvbiBkZWNpbWFscygpICAgICAgICAgICAgICAgICAgICAgICAgICAgIGV4dGVybmFsIHJldHVybnMgKHVpbnQ4KSAgIGVudmZyZWU7CiAgICBmdW5jdGlvbiB0b3RhbFN1cHBseSgpICAgICAgICAgICAgICAgICAgICAgICAgIGV4dGVybmFsIHJldHVybnMgKHVpbnQyNTYpIGVudmZyZWU7CiAgICBmdW5jdGlvbiBiYWxhbmNlT2YoYWRkcmVzcykgICAgICAgICAgICAgICAgICAgIGV4dGVybmFsIHJldHVybnMgKHVpbnQyNTYpIGVudmZyZWU7CiAgICBmdW5jdGlvbiBhbGxvd2FuY2UoYWRkcmVzcyxhZGRyZXNzKSAgICAgICAgICAgIGV4dGVybmFsIHJldHVybnMgKHVpbnQyNTYpIGVudmZyZWU7CiAgICBmdW5jdGlvbiBhcHByb3ZlKGFkZHJlc3MsdWludDI1NikgICAgICAgICAgICAgIGV4dGVybmFsIHJldHVybnMgKGJvb2wpOwogICAgZnVuY3Rpb24gdHJhbnNmZXIoYWRkcmVzcyx1aW50MjU2KSAgICAgICAgICAgICBleHRlcm5hbCByZXR1cm5zIChib29sKTsKICAgIGZ1bmN0aW9uIHRyYW5zZmVyRnJvbShhZGRyZXNzLGFkZHJlc3MsdWludDI1NikgZXh0ZXJuYWwgcmV0dXJucyAoYm9vbCk7Cn0K
+methods {
+    function name()                                external returns (string)  envfree;
+    function symbol()                              external returns (string)  envfree;
+    function decimals()                            external returns (uint8)   envfree;
+    function totalSupply()                         external returns (uint256) envfree;
+    function balanceOf(address)                    external returns (uint256) envfree;
+    function allowance(address,address)            external returns (uint256) envfree;
+    function approve(address,uint256)              external returns (bool);
+    function transfer(address,uint256)             external returns (bool);
+    function transferFrom(address,address,uint256) external returns (bool);
+}
