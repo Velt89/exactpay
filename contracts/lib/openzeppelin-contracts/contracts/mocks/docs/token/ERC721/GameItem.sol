@@ -1,1 +1,19 @@
-Ly8gY29udHJhY3RzL0dhbWVJdGVtLnNvbAovLyBTUERYLUxpY2Vuc2UtSWRlbnRpZmllcjogTUlUCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKaW1wb3J0IHtFUkM3MjFVUklTdG9yYWdlLCBFUkM3MjF9IGZyb20gIi4uLy4uLy4uLy4uL3Rva2VuL0VSQzcyMS9leHRlbnNpb25zL0VSQzcyMVVSSVN0b3JhZ2Uuc29sIjsKCmNvbnRyYWN0IEdhbWVJdGVtIGlzIEVSQzcyMVVSSVN0b3JhZ2UgewogICAgdWludDI1NiBwcml2YXRlIF9uZXh0VG9rZW5JZDsKCiAgICBjb25zdHJ1Y3RvcigpIEVSQzcyMSgiR2FtZUl0ZW0iLCAiSVRNIikge30KCiAgICBmdW5jdGlvbiBhd2FyZEl0ZW0oYWRkcmVzcyBwbGF5ZXIsIHN0cmluZyBtZW1vcnkgdG9rZW5VUkkpIHB1YmxpYyByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgdWludDI1NiB0b2tlbklkID0gX25leHRUb2tlbklkKys7CiAgICAgICAgX21pbnQocGxheWVyLCB0b2tlbklkKTsKICAgICAgICBfc2V0VG9rZW5VUkkodG9rZW5JZCwgdG9rZW5VUkkpOwoKICAgICAgICByZXR1cm4gdG9rZW5JZDsKICAgIH0KfQo=
+// contracts/GameItem.sol
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+import {ERC721URIStorage, ERC721} from "../../../../token/ERC721/extensions/ERC721URIStorage.sol";
+
+contract GameItem is ERC721URIStorage {
+    uint256 private _nextTokenId;
+
+    constructor() ERC721("GameItem", "ITM") {}
+
+    function awardItem(address player, string memory tokenURI) public returns (uint256) {
+        uint256 tokenId = _nextTokenId++;
+        _mint(player, tokenId);
+        _setTokenURI(tokenId, tokenURI);
+
+        return tokenId;
+    }
+}
