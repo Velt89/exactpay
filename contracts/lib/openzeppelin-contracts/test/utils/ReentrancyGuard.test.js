@@ -1,1 +1,50 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKZm9yIChjb25zdCB2YXJpYW50IG9mIFsnJywgJ1RyYW5zaWVudCddKSB7CiAgZGVzY3JpYmUoYFJlZW50cmFuY3kke3ZhcmlhbnR9R3VhcmRgLCBmdW5jdGlvbiAoKSB7CiAgICBhc3luYyBmdW5jdGlvbiBmaXh0dXJlKCkgewogICAgICBjb25zdCBuYW1lID0gYFJlZW50cmFuY3kke3ZhcmlhbnR9TW9ja2A7CiAgICAgIGNvbnN0IG1vY2sgPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QobmFtZSk7CiAgICAgIHJldHVybiB7IG5hbWUsIG1vY2sgfTsKICAgIH0KCiAgICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgT2JqZWN0LmFzc2lnbih0aGlzLCBhd2FpdCBsb2FkRml4dHVyZShmaXh0dXJlKSk7CiAgICB9KTsKCiAgICBpdCgnbm9uUmVlbnRyYW50IGZ1bmN0aW9uIGNhbiBiZSBjYWxsZWQnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suY291bnRlcigpKS50by5lcXVhbCgwbik7CiAgICAgIGF3YWl0IHRoaXMubW9jay5jYWxsYmFjaygpOwogICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLmNvdW50ZXIoKSkudG8uZXF1YWwoMW4pOwogICAgfSk7CgogICAgaXQoJ2RvZXMgbm90IGFsbG93IHJlbW90ZSBjYWxsYmFjaycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgY29uc3QgYXR0YWNrZXIgPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJ1JlZW50cmFuY3lBdHRhY2snKTsKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMubW9jay5jb3VudEFuZENhbGwoYXR0YWNrZXIpKS50by5iZS5yZXZlcnRlZFdpdGgoJ1JlZW50cmFuY3lBdHRhY2s6IGZhaWxlZCBjYWxsJyk7CiAgICB9KTsKCiAgICBpdCgnX3JlZW50cmFuY3lHdWFyZEVudGVyZWQgc2hvdWxkIGJlIHRydWUgd2hlbiBndWFyZGVkJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCB0aGlzLm1vY2suZ3VhcmRlZENoZWNrRW50ZXJlZCgpOwogICAgfSk7CgogICAgaXQoJ19yZWVudHJhbmN5R3VhcmRFbnRlcmVkIHNob3VsZCBiZSBmYWxzZSB3aGVuIHVuZ3VhcmRlZCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgdGhpcy5tb2NrLnVuZ3VhcmRlZENoZWNrTm90RW50ZXJlZCgpOwogICAgfSk7CgogICAgLy8gVGhlIGZvbGxvd2luZyBhcmUgbW9yZSBzaWRlLWVmZmVjdHMgdGhhbiBpbnRlbmRlZCBiZWhhdmlvcjoKICAgIC8vIEkgcHV0IHRoZW0gaGVyZSBhcyBkb2N1bWVudGF0aW9uLCBhbmQgdG8gbW9uaXRvciBhbnkgY2hhbmdlcwogICAgLy8gaW4gdGhlIHNpZGUtZWZmZWN0cy4KICAgIGl0KCdkb2VzIG5vdCBhbGxvdyBsb2NhbCByZWN1cnNpb24nLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1vY2suY291bnRMb2NhbFJlY3Vyc2l2ZSgxMG4pKS50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcigKICAgICAgICB0aGlzLm1vY2ssCiAgICAgICAgJ1JlZW50cmFuY3lHdWFyZFJlZW50cmFudENhbGwnLAogICAgICApOwogICAgfSk7CgogICAgaXQoJ2RvZXMgbm90IGFsbG93IGluZGlyZWN0IGxvY2FsIHJlY3Vyc2lvbicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMubW9jay5jb3VudFRoaXNSZWN1cnNpdmUoMTBuKSkudG8uYmUucmV2ZXJ0ZWRXaXRoKGAke3RoaXMubmFtZX06IGZhaWxlZCBjYWxsYCk7CiAgICB9KTsKICB9KTsKfQo=
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+for (const variant of ['', 'Transient']) {
+  describe(`Reentrancy${variant}Guard`, function () {
+    async function fixture() {
+      const name = `Reentrancy${variant}Mock`;
+      const mock = await ethers.deployContract(name);
+      return { name, mock };
+    }
+
+    beforeEach(async function () {
+      Object.assign(this, await loadFixture(fixture));
+    });
+
+    it('nonReentrant function can be called', async function () {
+      expect(await this.mock.counter()).to.equal(0n);
+      await this.mock.callback();
+      expect(await this.mock.counter()).to.equal(1n);
+    });
+
+    it('does not allow remote callback', async function () {
+      const attacker = await ethers.deployContract('ReentrancyAttack');
+      await expect(this.mock.countAndCall(attacker)).to.be.revertedWith('ReentrancyAttack: failed call');
+    });
+
+    it('_reentrancyGuardEntered should be true when guarded', async function () {
+      await this.mock.guardedCheckEntered();
+    });
+
+    it('_reentrancyGuardEntered should be false when unguarded', async function () {
+      await this.mock.unguardedCheckNotEntered();
+    });
+
+    // The following are more side-effects than intended behavior:
+    // I put them here as documentation, and to monitor any changes
+    // in the side-effects.
+    it('does not allow local recursion', async function () {
+      await expect(this.mock.countLocalRecursive(10n)).to.be.revertedWithCustomError(
+        this.mock,
+        'ReentrancyGuardReentrantCall',
+      );
+    });
+
+    it('does not allow indirect local recursion', async function () {
+      await expect(this.mock.countThisRecursive(10n)).to.be.revertedWith(`${this.name}: failed call`);
+    });
+  });
+}
