@@ -1,1 +1,35 @@
-IyEvdXNyL2Jpbi9lbnYgYmFzaAoKc2V0IC1ldW8gcGlwZWZhaWwKCiMgU2V0IGNoYW5nZXNldCBzdGF0dXMgbG9jYXRpb24KIyBUaGlzIGlzIG5lZWRlZCBiZWNhdXNlIGBjaGFuZ2VzZXQgc3RhdHVzIC0tb3V0cHV0YCBvbmx5IHdvcmtzIHdpdGggcmVsYXRpdmUgcm91dGVzCkNIQU5HRVNFVFNfU1RBVFVTX0pTT049IiQocmVhbHBhdGggLS1yZWxhdGl2ZS10bz0uICIkUlVOTkVSX1RFTVAvc3RhdHVzLmpzb24iKSIKCiMgU2F2ZSBjaGFuZ2VzZXQgc3RhdHVzIHRvIHRlbXAgZmlsZQpucHggY2hhbmdlc2V0IHN0YXR1cyAtLW91dHB1dD0iJENIQU5HRVNFVFNfU1RBVFVTX0pTT04iCgojIERlZmVuc2l2ZSBhc3NlcnRpb24uIFNIT1VMRCBOT1QgQkUgUkVBQ0hFRAppZiBbICIkKGpxICcucmVsZWFzZXMgfCBsZW5ndGgnICIkQ0hBTkdFU0VUU19TVEFUVVNfSlNPTiIpIiAhPSAxIF07IHRoZW4KICBlY2hvICI6OmVycm9yIGZpbGU9JENIQU5HRVNFVFNfU1RBVFVTX0pTT046OlRoZSBzdGF0dXMgZG9lc24ndCBjb250YWluIG9ubHkgMSByZWxlYXNlIgogIGV4aXQgMTsKZmk7CgojIENyZWF0ZSBicmFuY2gKQlJBTkNIX1NVRkZJWD0iJChqcSAtciAnLnJlbGVhc2VzWzBdLm5ld1ZlcnNpb24gfCBnc3ViKCJcXC5cXGQrJCI7ICIiKScgJENIQU5HRVNFVFNfU1RBVFVTX0pTT04pIgpSRUxFQVNFX0JSQU5DSD0icmVsZWFzZS12JEJSQU5DSF9TVUZGSVgiCmdpdCBjaGVja291dCAtYiAiJFJFTEVBU0VfQlJBTkNIIgoKIyBPdXRwdXQgYnJhbmNoCmVjaG8gImJyYW5jaD0kUkVMRUFTRV9CUkFOQ0giID4+ICRHSVRIVUJfT1VUUFVUCgojIEVudGVyIGluIHByZXJlbGVhc2Ugc3RhdGUKbnB4IGNoYW5nZXNldCBwcmUgZW50ZXIgcmMKZ2l0IGFkZCAuCmdpdCBjb21taXQgLW0gIlN0YXJ0IHJlbGVhc2UgY2FuZGlkYXRlIgoKIyBQdXNoIGJyYW5jaAppZiAhIGdpdCBwdXNoIG9yaWdpbiAiJFJFTEVBU0VfQlJBTkNIIjsgdGhlbgogIGVjaG8gIjo6ZXJyb3IgZmlsZT1zY3JpcHRzL3JlbGVhc2Uvc3RhcnQuc2g6OkNhbid0IHB1c2ggJFJFTEVBU0VfQlJBTkNILiBEaWQgeW91IGZvcmdldCB0byBydW4gdGhpcyB3b3JrZmxvdyBmcm9tICRSRUxFQVNFX0JSQU5DSD8iCiAgZXhpdCAxCmZpCg==
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+# Set changeset status location
+# This is needed because `changeset status --output` only works with relative routes
+CHANGESETS_STATUS_JSON="$(realpath --relative-to=. "$RUNNER_TEMP/status.json")"
+
+# Save changeset status to temp file
+npx changeset status --output="$CHANGESETS_STATUS_JSON"
+
+# Defensive assertion. SHOULD NOT BE REACHED
+if [ "$(jq '.releases | length' "$CHANGESETS_STATUS_JSON")" != 1 ]; then
+  echo "::error file=$CHANGESETS_STATUS_JSON::The status doesn't contain only 1 release"
+  exit 1;
+fi;
+
+# Create branch
+BRANCH_SUFFIX="$(jq -r '.releases[0].newVersion | gsub("\\.\\d+$"; "")' $CHANGESETS_STATUS_JSON)"
+RELEASE_BRANCH="release-v$BRANCH_SUFFIX"
+git checkout -b "$RELEASE_BRANCH"
+
+# Output branch
+echo "branch=$RELEASE_BRANCH" >> $GITHUB_OUTPUT
+
+# Enter in prerelease state
+npx changeset pre enter rc
+git add .
+git commit -m "Start release candidate"
+
+# Push branch
+if ! git push origin "$RELEASE_BRANCH"; then
+  echo "::error file=scripts/release/start.sh::Can't push $RELEASE_BRANCH. Did you forget to run this workflow from $RELEASE_BRANCH?"
+  exit 1
+fi
