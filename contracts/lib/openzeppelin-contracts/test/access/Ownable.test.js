@@ -1,1 +1,79 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKYXN5bmMgZnVuY3Rpb24gZml4dHVyZSgpIHsKICBjb25zdCBbb3duZXIsIG90aGVyXSA9IGF3YWl0IGV0aGVycy5nZXRTaWduZXJzKCk7CiAgY29uc3Qgb3duYWJsZSA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnJE93bmFibGUnLCBbb3duZXJdKTsKICByZXR1cm4geyBvd25lciwgb3RoZXIsIG93bmFibGUgfTsKfQoKZGVzY3JpYmUoJ093bmFibGUnLCBmdW5jdGlvbiAoKSB7CiAgYmVmb3JlRWFjaChhc3luYyBmdW5jdGlvbiAoKSB7CiAgICBPYmplY3QuYXNzaWduKHRoaXMsIGF3YWl0IGxvYWRGaXh0dXJlKGZpeHR1cmUpKTsKICB9KTsKCiAgaXQoJ2VtaXRzIG93bmVyc2hpcCB0cmFuc2ZlciBldmVudHMgZHVyaW5nIGNvbnN0cnVjdGlvbicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgIGF3YWl0IGV4cGVjdCh0aGlzLm93bmFibGUuZGVwbG95bWVudFRyYW5zYWN0aW9uKCkpCiAgICAgIC50by5lbWl0KHRoaXMub3duYWJsZSwgJ093bmVyc2hpcFRyYW5zZmVycmVkJykKICAgICAgLndpdGhBcmdzKGV0aGVycy5aZXJvQWRkcmVzcywgdGhpcy5vd25lcik7CiAgfSk7CgogIGl0KCdyZWplY3RzIHplcm8gYWRkcmVzcyBmb3IgaW5pdGlhbE93bmVyJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgYXdhaXQgZXhwZWN0KGV0aGVycy5kZXBsb3lDb250cmFjdCgnJE93bmFibGUnLCBbZXRoZXJzLlplcm9BZGRyZXNzXSkpCiAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih7IGludGVyZmFjZTogdGhpcy5vd25hYmxlLmludGVyZmFjZSB9LCAnT3duYWJsZUludmFsaWRPd25lcicpCiAgICAgIC53aXRoQXJncyhldGhlcnMuWmVyb0FkZHJlc3MpOwogIH0pOwoKICBpdCgnaGFzIGFuIG93bmVyJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgZXhwZWN0KGF3YWl0IHRoaXMub3duYWJsZS5vd25lcigpKS50by5lcXVhbCh0aGlzLm93bmVyKTsKICB9KTsKCiAgZGVzY3JpYmUoJ3RyYW5zZmVyIG93bmVyc2hpcCcsIGZ1bmN0aW9uICgpIHsKICAgIGl0KCdjaGFuZ2VzIG93bmVyIGFmdGVyIHRyYW5zZmVyJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCBleHBlY3QodGhpcy5vd25hYmxlLmNvbm5lY3QodGhpcy5vd25lcikudHJhbnNmZXJPd25lcnNoaXAodGhpcy5vdGhlcikpCiAgICAgICAgLnRvLmVtaXQodGhpcy5vd25hYmxlLCAnT3duZXJzaGlwVHJhbnNmZXJyZWQnKQogICAgICAgIC53aXRoQXJncyh0aGlzLm93bmVyLCB0aGlzLm90aGVyKTsKCiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm93bmFibGUub3duZXIoKSkudG8uZXF1YWwodGhpcy5vdGhlcik7CiAgICB9KTsKCiAgICBpdCgncHJldmVudHMgbm9uLW93bmVycyBmcm9tIHRyYW5zZmVycmluZycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMub3duYWJsZS5jb25uZWN0KHRoaXMub3RoZXIpLnRyYW5zZmVyT3duZXJzaGlwKHRoaXMub3RoZXIpKQogICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLm93bmFibGUsICdPd25hYmxlVW5hdXRob3JpemVkQWNjb3VudCcpCiAgICAgICAgLndpdGhBcmdzKHRoaXMub3RoZXIpOwogICAgfSk7CgogICAgaXQoJ2d1YXJkcyBvd25lcnNoaXAgYWdhaW5zdCBzdHVjayBzdGF0ZScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMub3duYWJsZS5jb25uZWN0KHRoaXMub3duZXIpLnRyYW5zZmVyT3duZXJzaGlwKGV0aGVycy5aZXJvQWRkcmVzcykpCiAgICAgICAgLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMub3duYWJsZSwgJ093bmFibGVJbnZhbGlkT3duZXInKQogICAgICAgIC53aXRoQXJncyhldGhlcnMuWmVyb0FkZHJlc3MpOwogICAgfSk7CiAgfSk7CgogIGRlc2NyaWJlKCdyZW5vdW5jZSBvd25lcnNoaXAnLCBmdW5jdGlvbiAoKSB7CiAgICBpdCgnbG9zZXMgb3duZXJzaGlwIGFmdGVyIHJlbm91bmNlbWVudCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMub3duYWJsZS5jb25uZWN0KHRoaXMub3duZXIpLnJlbm91bmNlT3duZXJzaGlwKCkpCiAgICAgICAgLnRvLmVtaXQodGhpcy5vd25hYmxlLCAnT3duZXJzaGlwVHJhbnNmZXJyZWQnKQogICAgICAgIC53aXRoQXJncyh0aGlzLm93bmVyLCBldGhlcnMuWmVyb0FkZHJlc3MpOwoKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMub3duYWJsZS5vd25lcigpKS50by5lcXVhbChldGhlcnMuWmVyb0FkZHJlc3MpOwogICAgfSk7CgogICAgaXQoJ3ByZXZlbnRzIG5vbi1vd25lcnMgZnJvbSByZW5vdW5jZW1lbnQnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm93bmFibGUuY29ubmVjdCh0aGlzLm90aGVyKS5yZW5vdW5jZU93bmVyc2hpcCgpKQogICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLm93bmFibGUsICdPd25hYmxlVW5hdXRob3JpemVkQWNjb3VudCcpCiAgICAgICAgLndpdGhBcmdzKHRoaXMub3RoZXIpOwogICAgfSk7CgogICAgaXQoJ2FsbG93cyB0byByZWNvdmVyIGFjY2VzcyB1c2luZyB0aGUgaW50ZXJuYWwgX3RyYW5zZmVyT3duZXJzaGlwJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCB0aGlzLm93bmFibGUuY29ubmVjdCh0aGlzLm93bmVyKS5yZW5vdW5jZU93bmVyc2hpcCgpOwoKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMub3duYWJsZS4kX3RyYW5zZmVyT3duZXJzaGlwKHRoaXMub3RoZXIpKQogICAgICAgIC50by5lbWl0KHRoaXMub3duYWJsZSwgJ093bmVyc2hpcFRyYW5zZmVycmVkJykKICAgICAgICAud2l0aEFyZ3MoZXRoZXJzLlplcm9BZGRyZXNzLCB0aGlzLm90aGVyKTsKCiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm93bmFibGUub3duZXIoKSkudG8uZXF1YWwodGhpcy5vdGhlcik7CiAgICB9KTsKICB9KTsKfSk7Cg==
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+async function fixture() {
+  const [owner, other] = await ethers.getSigners();
+  const ownable = await ethers.deployContract('$Ownable', [owner]);
+  return { owner, other, ownable };
+}
+
+describe('Ownable', function () {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  it('emits ownership transfer events during construction', async function () {
+    await expect(this.ownable.deploymentTransaction())
+      .to.emit(this.ownable, 'OwnershipTransferred')
+      .withArgs(ethers.ZeroAddress, this.owner);
+  });
+
+  it('rejects zero address for initialOwner', async function () {
+    await expect(ethers.deployContract('$Ownable', [ethers.ZeroAddress]))
+      .to.be.revertedWithCustomError({ interface: this.ownable.interface }, 'OwnableInvalidOwner')
+      .withArgs(ethers.ZeroAddress);
+  });
+
+  it('has an owner', async function () {
+    expect(await this.ownable.owner()).to.equal(this.owner);
+  });
+
+  describe('transfer ownership', function () {
+    it('changes owner after transfer', async function () {
+      await expect(this.ownable.connect(this.owner).transferOwnership(this.other))
+        .to.emit(this.ownable, 'OwnershipTransferred')
+        .withArgs(this.owner, this.other);
+
+      expect(await this.ownable.owner()).to.equal(this.other);
+    });
+
+    it('prevents non-owners from transferring', async function () {
+      await expect(this.ownable.connect(this.other).transferOwnership(this.other))
+        .to.be.revertedWithCustomError(this.ownable, 'OwnableUnauthorizedAccount')
+        .withArgs(this.other);
+    });
+
+    it('guards ownership against stuck state', async function () {
+      await expect(this.ownable.connect(this.owner).transferOwnership(ethers.ZeroAddress))
+        .to.be.revertedWithCustomError(this.ownable, 'OwnableInvalidOwner')
+        .withArgs(ethers.ZeroAddress);
+    });
+  });
+
+  describe('renounce ownership', function () {
+    it('loses ownership after renouncement', async function () {
+      await expect(this.ownable.connect(this.owner).renounceOwnership())
+        .to.emit(this.ownable, 'OwnershipTransferred')
+        .withArgs(this.owner, ethers.ZeroAddress);
+
+      expect(await this.ownable.owner()).to.equal(ethers.ZeroAddress);
+    });
+
+    it('prevents non-owners from renouncement', async function () {
+      await expect(this.ownable.connect(this.other).renounceOwnership())
+        .to.be.revertedWithCustomError(this.ownable, 'OwnableUnauthorizedAccount')
+        .withArgs(this.other);
+    });
+
+    it('allows to recover access using the internal _transferOwnership', async function () {
+      await this.ownable.connect(this.owner).renounceOwnership();
+
+      await expect(this.ownable.$_transferOwnership(this.other))
+        .to.emit(this.ownable, 'OwnershipTransferred')
+        .withArgs(ethers.ZeroAddress, this.other);
+
+      expect(await this.ownable.owner()).to.equal(this.other);
+    });
+  });
+});
