@@ -1,1 +1,3 @@
-W3N1Ym1vZHVsZSAibGliL2RzLXRlc3QiXQoJcGF0aCA9IGxpYi9kcy10ZXN0Cgl1cmwgPSBodHRwczovL2dpdGh1Yi5jb20vZGFwcGh1Yi9kcy10ZXN0Cg==
+[submodule "lib/ds-test"]
+	path = lib/ds-test
+	url = https://github.com/dapphub/ds-test
