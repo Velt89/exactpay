@@ -1,1 +1,82 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAoYWNjZXNzL2V4dGVuc2lvbnMvQWNjZXNzQ29udHJvbEVudW1lcmFibGUuc29sKQoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0lBY2Nlc3NDb250cm9sRW51bWVyYWJsZX0gZnJvbSAiLi9JQWNjZXNzQ29udHJvbEVudW1lcmFibGUuc29sIjsKaW1wb3J0IHtBY2Nlc3NDb250cm9sfSBmcm9tICIuLi9BY2Nlc3NDb250cm9sLnNvbCI7CmltcG9ydCB7RW51bWVyYWJsZVNldH0gZnJvbSAiLi4vLi4vdXRpbHMvc3RydWN0cy9FbnVtZXJhYmxlU2V0LnNvbCI7CgovKioKICogQGRldiBFeHRlbnNpb24gb2Yge0FjY2Vzc0NvbnRyb2x9IHRoYXQgYWxsb3dzIGVudW1lcmF0aW5nIHRoZSBtZW1iZXJzIG9mIGVhY2ggcm9sZS4KICovCmFic3RyYWN0IGNvbnRyYWN0IEFjY2Vzc0NvbnRyb2xFbnVtZXJhYmxlIGlzIElBY2Nlc3NDb250cm9sRW51bWVyYWJsZSwgQWNjZXNzQ29udHJvbCB7CiAgICB1c2luZyBFbnVtZXJhYmxlU2V0IGZvciBFbnVtZXJhYmxlU2V0LkFkZHJlc3NTZXQ7CgogICAgbWFwcGluZyhieXRlczMyIHJvbGUgPT4gRW51bWVyYWJsZVNldC5BZGRyZXNzU2V0KSBwcml2YXRlIF9yb2xlTWVtYmVyczsKCiAgICAvKioKICAgICAqIEBkZXYgU2VlIHtJRVJDMTY1LXN1cHBvcnRzSW50ZXJmYWNlfS4KICAgICAqLwogICAgZnVuY3Rpb24gc3VwcG9ydHNJbnRlcmZhY2UoYnl0ZXM0IGludGVyZmFjZUlkKSBwdWJsaWMgdmlldyB2aXJ0dWFsIG92ZXJyaWRlIHJldHVybnMgKGJvb2wpIHsKICAgICAgICByZXR1cm4gaW50ZXJmYWNlSWQgPT0gdHlwZShJQWNjZXNzQ29udHJvbEVudW1lcmFibGUpLmludGVyZmFjZUlkIHx8IHN1cGVyLnN1cHBvcnRzSW50ZXJmYWNlKGludGVyZmFjZUlkKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyBvbmUgb2YgdGhlIGFjY291bnRzIHRoYXQgaGF2ZSBgcm9sZWAuIGBpbmRleGAgbXVzdCBiZSBhCiAgICAgKiB2YWx1ZSBiZXR3ZWVuIDAgYW5kIHtnZXRSb2xlTWVtYmVyQ291bnR9LCBub24taW5jbHVzaXZlLgogICAgICoKICAgICAqIFJvbGUgYmVhcmVycyBhcmUgbm90IHNvcnRlZCBpbiBhbnkgcGFydGljdWxhciB3YXksIGFuZCB0aGVpciBvcmRlcmluZyBtYXkKICAgICAqIGNoYW5nZSBhdCBhbnkgcG9pbnQuCiAgICAgKgogICAgICogV0FSTklORzogV2hlbiB1c2luZyB7Z2V0Um9sZU1lbWJlcn0gYW5kIHtnZXRSb2xlTWVtYmVyQ291bnR9LCBtYWtlIHN1cmUKICAgICAqIHlvdSBwZXJmb3JtIGFsbCBxdWVyaWVzIG9uIHRoZSBzYW1lIGJsb2NrLiBTZWUgdGhlIGZvbGxvd2luZwogICAgICogaHR0cHM6Ly9mb3J1bS5vcGVuemVwcGVsaW4uY29tL3QvaXRlcmF0aW5nLW92ZXItZWxlbWVudHMtb24tZW51bWVyYWJsZXNldC1pbi1vcGVuemVwcGVsaW4tY29udHJhY3RzLzIyOTZbZm9ydW0gcG9zdF0KICAgICAqIGZvciBtb3JlIGluZm9ybWF0aW9uLgogICAgICovCiAgICBmdW5jdGlvbiBnZXRSb2xlTWVtYmVyKGJ5dGVzMzIgcm9sZSwgdWludDI1NiBpbmRleCkgcHVibGljIHZpZXcgdmlydHVhbCByZXR1cm5zIChhZGRyZXNzKSB7CiAgICAgICAgcmV0dXJuIF9yb2xlTWVtYmVyc1tyb2xlXS5hdChpbmRleCk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIG51bWJlciBvZiBhY2NvdW50cyB0aGF0IGhhdmUgYHJvbGVgLiBDYW4gYmUgdXNlZAogICAgICogdG9nZXRoZXIgd2l0aCB7Z2V0Um9sZU1lbWJlcn0gdG8gZW51bWVyYXRlIGFsbCBiZWFyZXJzIG9mIGEgcm9sZS4KICAgICAqLwogICAgZnVuY3Rpb24gZ2V0Um9sZU1lbWJlckNvdW50KGJ5dGVzMzIgcm9sZSkgcHVibGljIHZpZXcgdmlydHVhbCByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgcmV0dXJuIF9yb2xlTWVtYmVyc1tyb2xlXS5sZW5ndGgoKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJuIGFsbCBhY2NvdW50cyB0aGF0IGhhdmUgYHJvbGVgCiAgICAgKgogICAgICogV0FSTklORzogVGhpcyBvcGVyYXRpb24gd2lsbCBjb3B5IHRoZSBlbnRpcmUgc3RvcmFnZSB0byBtZW1vcnksIHdoaWNoIGNhbiBiZSBxdWl0ZSBleHBlbnNpdmUuIFRoaXMgaXMgZGVzaWduZWQKICAgICAqIHRvIG1vc3RseSBiZSB1c2VkIGJ5IHZpZXcgYWNjZXNzb3JzIHRoYXQgYXJlIHF1ZXJpZWQgd2l0aG91dCBhbnkgZ2FzIGZlZXMuIERldmVsb3BlcnMgc2hvdWxkIGtlZXAgaW4gbWluZCB0aGF0CiAgICAgKiB0aGlzIGZ1bmN0aW9uIGhhcyBhbiB1bmJvdW5kZWQgY29zdCwgYW5kIHVzaW5nIGl0IGFzIHBhcnQgb2YgYSBzdGF0ZS1jaGFuZ2luZyBmdW5jdGlvbiBtYXkgcmVuZGVyIHRoZSBmdW5jdGlvbgogICAgICogdW5jYWxsYWJsZSBpZiB0aGUgc2V0IGdyb3dzIHRvIGEgcG9pbnQgd2hlcmUgY29weWluZyB0byBtZW1vcnkgY29uc3VtZXMgdG9vIG11Y2ggZ2FzIHRvIGZpdCBpbiBhIGJsb2NrLgogICAgICovCiAgICBmdW5jdGlvbiBnZXRSb2xlTWVtYmVycyhieXRlczMyIHJvbGUpIHB1YmxpYyB2aWV3IHZpcnR1YWwgcmV0dXJucyAoYWRkcmVzc1tdIG1lbW9yeSkgewogICAgICAgIHJldHVybiBfcm9sZU1lbWJlcnNbcm9sZV0udmFsdWVzKCk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IE92ZXJsb2FkIHtBY2Nlc3NDb250cm9sLV9ncmFudFJvbGV9IHRvIHRyYWNrIGVudW1lcmFibGUgbWVtYmVyc2hpcHMKICAgICAqLwogICAgZnVuY3Rpb24gX2dyYW50Um9sZShieXRlczMyIHJvbGUsIGFkZHJlc3MgYWNjb3VudCkgaW50ZXJuYWwgdmlydHVhbCBvdmVycmlkZSByZXR1cm5zIChib29sKSB7CiAgICAgICAgYm9vbCBncmFudGVkID0gc3VwZXIuX2dyYW50Um9sZShyb2xlLCBhY2NvdW50KTsKICAgICAgICBpZiAoZ3JhbnRlZCkgewogICAgICAgICAgICBfcm9sZU1lbWJlcnNbcm9sZV0uYWRkKGFjY291bnQpOwogICAgICAgIH0KICAgICAgICByZXR1cm4gZ3JhbnRlZDsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgT3ZlcmxvYWQge0FjY2Vzc0NvbnRyb2wtX3Jldm9rZVJvbGV9IHRvIHRyYWNrIGVudW1lcmFibGUgbWVtYmVyc2hpcHMKICAgICAqLwogICAgZnVuY3Rpb24gX3Jldm9rZVJvbGUoYnl0ZXMzMiByb2xlLCBhZGRyZXNzIGFjY291bnQpIGludGVybmFsIHZpcnR1YWwgb3ZlcnJpZGUgcmV0dXJucyAoYm9vbCkgewogICAgICAgIGJvb2wgcmV2b2tlZCA9IHN1cGVyLl9yZXZva2VSb2xlKHJvbGUsIGFjY291bnQpOwogICAgICAgIGlmIChyZXZva2VkKSB7CiAgICAgICAgICAgIF9yb2xlTWVtYmVyc1tyb2xlXS5yZW1vdmUoYWNjb3VudCk7CiAgICAgICAgfQogICAgICAgIHJldHVybiByZXZva2VkOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (access/extensions/AccessControlEnumerable.sol)
+
+pragma solidity ^0.8.20;
+
+import {IAccessControlEnumerable} from "./IAccessControlEnumerable.sol";
+import {AccessControl} from "../AccessControl.sol";
+import {EnumerableSet} from "../../utils/structs/EnumerableSet.sol";
+
+/**
+ * @dev Extension of {AccessControl} that allows enumerating the members of each role.
+ */
+abstract contract AccessControlEnumerable is IAccessControlEnumerable, AccessControl {
+    using EnumerableSet for EnumerableSet.AddressSet;
+
+    mapping(bytes32 role => EnumerableSet.AddressSet) private _roleMembers;
+
+    /**
+     * @dev See {IERC165-supportsInterface}.
+     */
+    function supportsInterface(bytes4 interfaceId) public view virtual override returns (bool) {
+        return interfaceId == type(IAccessControlEnumerable).interfaceId || super.supportsInterface(interfaceId);
+    }
+
+    /**
+     * @dev Returns one of the accounts that have `role`. `index` must be a
+     * value between 0 and {getRoleMemberCount}, non-inclusive.
+     *
+     * Role bearers are not sorted in any particular way, and their ordering may
+     * change at any point.
+     *
+     * WARNING: When using {getRoleMember} and {getRoleMemberCount}, make sure
+     * you perform all queries on the same block. See the following
+     * https://forum.openzeppelin.com/t/iterating-over-elements-on-enumerableset-in-openzeppelin-contracts/2296[forum post]
+     * for more information.
+     */
+    function getRoleMember(bytes32 role, uint256 index) public view virtual returns (address) {
+        return _roleMembers[role].at(index);
+    }
+
+    /**
+     * @dev Returns the number of accounts that have `role`. Can be used
+     * together with {getRoleMember} to enumerate all bearers of a role.
+     */
+    function getRoleMemberCount(bytes32 role) public view virtual returns (uint256) {
+        return _roleMembers[role].length();
+    }
+
+    /**
+     * @dev Return all accounts that have `role`
+     *
+     * WARNING: This operation will copy the entire storage to memory, which can be quite expensive. This is designed
+     * to mostly be used by view accessors that are queried without any gas fees. Developers should keep in mind that
+     * this function has an unbounded cost, and using it as part of a state-changing function may render the function
+     * uncallable if the set grows to a point where copying to memory consumes too much gas to fit in a block.
+     */
+    function getRoleMembers(bytes32 role) public view virtual returns (address[] memory) {
+        return _roleMembers[role].values();
+    }
+
+    /**
+     * @dev Overload {AccessControl-_grantRole} to track enumerable memberships
+     */
+    function _grantRole(bytes32 role, address account) internal virtual override returns (bool) {
+        bool granted = super._grantRole(role, account);
+        if (granted) {
+            _roleMembers[role].add(account);
+        }
+        return granted;
+    }
+
+    /**
+     * @dev Overload {AccessControl-_revokeRole} to track enumerable memberships
+     */
+    function _revokeRole(bytes32 role, address account) internal virtual override returns (bool) {
+        bool revoked = super._revokeRole(role, account);
+        if (revoked) {
+            _roleMembers[role].remove(account);
+        }
+        return revoked;
+    }
+}
