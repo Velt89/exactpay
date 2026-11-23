@@ -1,1 +1,112 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMC4wKSAoZ292ZXJuYW5jZS9leHRlbnNpb25zL0dvdmVybm9yU2V0dGluZ3Muc29sKQoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0dvdmVybm9yfSBmcm9tICIuLi9Hb3Zlcm5vci5zb2wiOwoKLyoqCiAqIEBkZXYgRXh0ZW5zaW9uIG9mIHtHb3Zlcm5vcn0gZm9yIHNldHRpbmdzIHVwZGF0YWJsZSB0aHJvdWdoIGdvdmVybmFuY2UuCiAqLwphYnN0cmFjdCBjb250cmFjdCBHb3Zlcm5vclNldHRpbmdzIGlzIEdvdmVybm9yIHsKICAgIC8vIGFtb3VudCBvZiB0b2tlbgogICAgdWludDI1NiBwcml2YXRlIF9wcm9wb3NhbFRocmVzaG9sZDsKICAgIC8vIHRpbWVwb2ludDogbGltaXRlZCB0byB1aW50NDggaW4gY29yZSAoc2FtZSBhcyBjbG9jaygpIHR5cGUpCiAgICB1aW50NDggcHJpdmF0ZSBfdm90aW5nRGVsYXk7CiAgICAvLyBkdXJhdGlvbjogbGltaXRlZCB0byB1aW50MzIgaW4gY29yZQogICAgdWludDMyIHByaXZhdGUgX3ZvdGluZ1BlcmlvZDsKCiAgICBldmVudCBWb3RpbmdEZWxheVNldCh1aW50MjU2IG9sZFZvdGluZ0RlbGF5LCB1aW50MjU2IG5ld1ZvdGluZ0RlbGF5KTsKICAgIGV2ZW50IFZvdGluZ1BlcmlvZFNldCh1aW50MjU2IG9sZFZvdGluZ1BlcmlvZCwgdWludDI1NiBuZXdWb3RpbmdQZXJpb2QpOwogICAgZXZlbnQgUHJvcG9zYWxUaHJlc2hvbGRTZXQodWludDI1NiBvbGRQcm9wb3NhbFRocmVzaG9sZCwgdWludDI1NiBuZXdQcm9wb3NhbFRocmVzaG9sZCk7CgogICAgLyoqCiAgICAgKiBAZGV2IEluaXRpYWxpemUgdGhlIGdvdmVybmFuY2UgcGFyYW1ldGVycy4KICAgICAqLwogICAgY29uc3RydWN0b3IodWludDQ4IGluaXRpYWxWb3RpbmdEZWxheSwgdWludDMyIGluaXRpYWxWb3RpbmdQZXJpb2QsIHVpbnQyNTYgaW5pdGlhbFByb3Bvc2FsVGhyZXNob2xkKSB7CiAgICAgICAgX3NldFZvdGluZ0RlbGF5KGluaXRpYWxWb3RpbmdEZWxheSk7CiAgICAgICAgX3NldFZvdGluZ1BlcmlvZChpbml0aWFsVm90aW5nUGVyaW9kKTsKICAgICAgICBfc2V0UHJvcG9zYWxUaHJlc2hvbGQoaW5pdGlhbFByb3Bvc2FsVGhyZXNob2xkKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgU2VlIHtJR292ZXJub3Itdm90aW5nRGVsYXl9LgogICAgICovCiAgICBmdW5jdGlvbiB2b3RpbmdEZWxheSgpIHB1YmxpYyB2aWV3IHZpcnR1YWwgb3ZlcnJpZGUgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHJldHVybiBfdm90aW5nRGVsYXk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFNlZSB7SUdvdmVybm9yLXZvdGluZ1BlcmlvZH0uCiAgICAgKi8KICAgIGZ1bmN0aW9uIHZvdGluZ1BlcmlvZCgpIHB1YmxpYyB2aWV3IHZpcnR1YWwgb3ZlcnJpZGUgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHJldHVybiBfdm90aW5nUGVyaW9kOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBTZWUge0dvdmVybm9yLXByb3Bvc2FsVGhyZXNob2xkfS4KICAgICAqLwogICAgZnVuY3Rpb24gcHJvcG9zYWxUaHJlc2hvbGQoKSBwdWJsaWMgdmlldyB2aXJ0dWFsIG92ZXJyaWRlIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXR1cm4gX3Byb3Bvc2FsVGhyZXNob2xkOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBVcGRhdGUgdGhlIHZvdGluZyBkZWxheS4gVGhpcyBvcGVyYXRpb24gY2FuIG9ubHkgYmUgcGVyZm9ybWVkIHRocm91Z2ggYSBnb3Zlcm5hbmNlIHByb3Bvc2FsLgogICAgICoKICAgICAqIEVtaXRzIGEge1ZvdGluZ0RlbGF5U2V0fSBldmVudC4KICAgICAqLwogICAgZnVuY3Rpb24gc2V0Vm90aW5nRGVsYXkodWludDQ4IG5ld1ZvdGluZ0RlbGF5KSBwdWJsaWMgdmlydHVhbCBvbmx5R292ZXJuYW5jZSB7CiAgICAgICAgX3NldFZvdGluZ0RlbGF5KG5ld1ZvdGluZ0RlbGF5KTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgVXBkYXRlIHRoZSB2b3RpbmcgcGVyaW9kLiBUaGlzIG9wZXJhdGlvbiBjYW4gb25seSBiZSBwZXJmb3JtZWQgdGhyb3VnaCBhIGdvdmVybmFuY2UgcHJvcG9zYWwuCiAgICAgKgogICAgICogRW1pdHMgYSB7Vm90aW5nUGVyaW9kU2V0fSBldmVudC4KICAgICAqLwogICAgZnVuY3Rpb24gc2V0Vm90aW5nUGVyaW9kKHVpbnQzMiBuZXdWb3RpbmdQZXJpb2QpIHB1YmxpYyB2aXJ0dWFsIG9ubHlHb3Zlcm5hbmNlIHsKICAgICAgICBfc2V0Vm90aW5nUGVyaW9kKG5ld1ZvdGluZ1BlcmlvZCk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFVwZGF0ZSB0aGUgcHJvcG9zYWwgdGhyZXNob2xkLiBUaGlzIG9wZXJhdGlvbiBjYW4gb25seSBiZSBwZXJmb3JtZWQgdGhyb3VnaCBhIGdvdmVybmFuY2UgcHJvcG9zYWwuCiAgICAgKgogICAgICogRW1pdHMgYSB7UHJvcG9zYWxUaHJlc2hvbGRTZXR9IGV2ZW50LgogICAgICovCiAgICBmdW5jdGlvbiBzZXRQcm9wb3NhbFRocmVzaG9sZCh1aW50MjU2IG5ld1Byb3Bvc2FsVGhyZXNob2xkKSBwdWJsaWMgdmlydHVhbCBvbmx5R292ZXJuYW5jZSB7CiAgICAgICAgX3NldFByb3Bvc2FsVGhyZXNob2xkKG5ld1Byb3Bvc2FsVGhyZXNob2xkKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgSW50ZXJuYWwgc2V0dGVyIGZvciB0aGUgdm90aW5nIGRlbGF5LgogICAgICoKICAgICAqIEVtaXRzIGEge1ZvdGluZ0RlbGF5U2V0fSBldmVudC4KICAgICAqLwogICAgZnVuY3Rpb24gX3NldFZvdGluZ0RlbGF5KHVpbnQ0OCBuZXdWb3RpbmdEZWxheSkgaW50ZXJuYWwgdmlydHVhbCB7CiAgICAgICAgZW1pdCBWb3RpbmdEZWxheVNldChfdm90aW5nRGVsYXksIG5ld1ZvdGluZ0RlbGF5KTsKICAgICAgICBfdm90aW5nRGVsYXkgPSBuZXdWb3RpbmdEZWxheTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgSW50ZXJuYWwgc2V0dGVyIGZvciB0aGUgdm90aW5nIHBlcmlvZC4KICAgICAqCiAgICAgKiBFbWl0cyBhIHtWb3RpbmdQZXJpb2RTZXR9IGV2ZW50LgogICAgICovCiAgICBmdW5jdGlvbiBfc2V0Vm90aW5nUGVyaW9kKHVpbnQzMiBuZXdWb3RpbmdQZXJpb2QpIGludGVybmFsIHZpcnR1YWwgewogICAgICAgIGlmIChuZXdWb3RpbmdQZXJpb2QgPT0gMCkgewogICAgICAgICAgICByZXZlcnQgR292ZXJub3JJbnZhbGlkVm90aW5nUGVyaW9kKDApOwogICAgICAgIH0KICAgICAgICBlbWl0IFZvdGluZ1BlcmlvZFNldChfdm90aW5nUGVyaW9kLCBuZXdWb3RpbmdQZXJpb2QpOwogICAgICAgIF92b3RpbmdQZXJpb2QgPSBuZXdWb3RpbmdQZXJpb2Q7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IEludGVybmFsIHNldHRlciBmb3IgdGhlIHByb3Bvc2FsIHRocmVzaG9sZC4KICAgICAqCiAgICAgKiBFbWl0cyBhIHtQcm9wb3NhbFRocmVzaG9sZFNldH0gZXZlbnQuCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9zZXRQcm9wb3NhbFRocmVzaG9sZCh1aW50MjU2IG5ld1Byb3Bvc2FsVGhyZXNob2xkKSBpbnRlcm5hbCB2aXJ0dWFsIHsKICAgICAgICBlbWl0IFByb3Bvc2FsVGhyZXNob2xkU2V0KF9wcm9wb3NhbFRocmVzaG9sZCwgbmV3UHJvcG9zYWxUaHJlc2hvbGQpOwogICAgICAgIF9wcm9wb3NhbFRocmVzaG9sZCA9IG5ld1Byb3Bvc2FsVGhyZXNob2xkOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.0.0) (governance/extensions/GovernorSettings.sol)
+
+pragma solidity ^0.8.20;
+
+import {Governor} from "../Governor.sol";
+
+/**
+ * @dev Extension of {Governor} for settings updatable through governance.
+ */
+abstract contract GovernorSettings is Governor {
+    // amount of token
+    uint256 private _proposalThreshold;
+    // timepoint: limited to uint48 in core (same as clock() type)
+    uint48 private _votingDelay;
+    // duration: limited to uint32 in core
+    uint32 private _votingPeriod;
+
+    event VotingDelaySet(uint256 oldVotingDelay, uint256 newVotingDelay);
+    event VotingPeriodSet(uint256 oldVotingPeriod, uint256 newVotingPeriod);
+    event ProposalThresholdSet(uint256 oldProposalThreshold, uint256 newProposalThreshold);
+
+    /**
+     * @dev Initialize the governance parameters.
+     */
+    constructor(uint48 initialVotingDelay, uint32 initialVotingPeriod, uint256 initialProposalThreshold) {
+        _setVotingDelay(initialVotingDelay);
+        _setVotingPeriod(initialVotingPeriod);
+        _setProposalThreshold(initialProposalThreshold);
+    }
+
+    /**
+     * @dev See {IGovernor-votingDelay}.
+     */
+    function votingDelay() public view virtual override returns (uint256) {
+        return _votingDelay;
+    }
+
+    /**
+     * @dev See {IGovernor-votingPeriod}.
+     */
+    function votingPeriod() public view virtual override returns (uint256) {
+        return _votingPeriod;
+    }
+
+    /**
+     * @dev See {Governor-proposalThreshold}.
+     */
+    function proposalThreshold() public view virtual override returns (uint256) {
+        return _proposalThreshold;
+    }
+
+    /**
+     * @dev Update the voting delay. This operation can only be performed through a governance proposal.
+     *
+     * Emits a {VotingDelaySet} event.
+     */
+    function setVotingDelay(uint48 newVotingDelay) public virtual onlyGovernance {
+        _setVotingDelay(newVotingDelay);
+    }
+
+    /**
+     * @dev Update the voting period. This operation can only be performed through a governance proposal.
+     *
+     * Emits a {VotingPeriodSet} event.
+     */
+    function setVotingPeriod(uint32 newVotingPeriod) public virtual onlyGovernance {
+        _setVotingPeriod(newVotingPeriod);
+    }
+
+    /**
+     * @dev Update the proposal threshold. This operation can only be performed through a governance proposal.
+     *
+     * Emits a {ProposalThresholdSet} event.
+     */
+    function setProposalThreshold(uint256 newProposalThreshold) public virtual onlyGovernance {
+        _setProposalThreshold(newProposalThreshold);
+    }
+
+    /**
+     * @dev Internal setter for the voting delay.
+     *
+     * Emits a {VotingDelaySet} event.
+     */
+    function _setVotingDelay(uint48 newVotingDelay) internal virtual {
+        emit VotingDelaySet(_votingDelay, newVotingDelay);
+        _votingDelay = newVotingDelay;
+    }
+
+    /**
+     * @dev Internal setter for the voting period.
+     *
+     * Emits a {VotingPeriodSet} event.
+     */
+    function _setVotingPeriod(uint32 newVotingPeriod) internal virtual {
+        if (newVotingPeriod == 0) {
+            revert GovernorInvalidVotingPeriod(0);
+        }
+        emit VotingPeriodSet(_votingPeriod, newVotingPeriod);
+        _votingPeriod = newVotingPeriod;
+    }
+
+    /**
+     * @dev Internal setter for the proposal threshold.
+     *
+     * Emits a {ProposalThresholdSet} event.
+     */
+    function _setProposalThreshold(uint256 newProposalThreshold) internal virtual {
+        emit ProposalThresholdSet(_proposalThreshold, newProposalThreshold);
+        _proposalThreshold = newProposalThreshold;
+    }
+}
