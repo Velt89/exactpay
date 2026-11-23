@@ -1,1 +1,62 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge01lcmtsZVByb29mfSBmcm9tICIuLi91dGlscy9jcnlwdG9ncmFwaHkvTWVya2xlUHJvb2Yuc29sIjsKCi8vIFRoaXMgY291bGQgYmUgYSBsaWJyYXJ5LCBidXQgdGhlbiB3ZSB3b3VsZCBoYXZlIHRvIGFkZCBpdCB0byB0aGUgU3RhdGVsZXNzLnNvbCBtb2NrIGZvciB1cGdyYWRlYWJsZSB0ZXN0cwphYnN0cmFjdCBjb250cmFjdCBNZXJrbGVQcm9vZkN1c3RvbUhhc2hNb2NrIHsKICAgIGZ1bmN0aW9uIGN1c3RvbUhhc2goYnl0ZXMzMiBhLCBieXRlczMyIGIpIGludGVybmFsIHB1cmUgcmV0dXJucyAoYnl0ZXMzMikgewogICAgICAgIHJldHVybiBhIDwgYiA/IHNoYTI1NihhYmkuZW5jb2RlKGEsIGIpKSA6IHNoYTI1NihhYmkuZW5jb2RlKGIsIGEpKTsKICAgIH0KCiAgICBmdW5jdGlvbiB2ZXJpZnkoYnl0ZXMzMltdIGNhbGxkYXRhIHByb29mLCBieXRlczMyIHJvb3QsIGJ5dGVzMzIgbGVhZikgaW50ZXJuYWwgdmlldyByZXR1cm5zIChib29sKSB7CiAgICAgICAgcmV0dXJuIE1lcmtsZVByb29mLnZlcmlmeShwcm9vZiwgcm9vdCwgbGVhZiwgY3VzdG9tSGFzaCk7CiAgICB9CgogICAgZnVuY3Rpb24gcHJvY2Vzc1Byb29mKGJ5dGVzMzJbXSBjYWxsZGF0YSBwcm9vZiwgYnl0ZXMzMiBsZWFmKSBpbnRlcm5hbCB2aWV3IHJldHVybnMgKGJ5dGVzMzIpIHsKICAgICAgICByZXR1cm4gTWVya2xlUHJvb2YucHJvY2Vzc1Byb29mKHByb29mLCBsZWFmLCBjdXN0b21IYXNoKTsKICAgIH0KCiAgICBmdW5jdGlvbiB2ZXJpZnlDYWxsZGF0YShieXRlczMyW10gY2FsbGRhdGEgcHJvb2YsIGJ5dGVzMzIgcm9vdCwgYnl0ZXMzMiBsZWFmKSBpbnRlcm5hbCB2aWV3IHJldHVybnMgKGJvb2wpIHsKICAgICAgICByZXR1cm4gTWVya2xlUHJvb2YudmVyaWZ5Q2FsbGRhdGEocHJvb2YsIHJvb3QsIGxlYWYsIGN1c3RvbUhhc2gpOwogICAgfQoKICAgIGZ1bmN0aW9uIHByb2Nlc3NQcm9vZkNhbGxkYXRhKGJ5dGVzMzJbXSBjYWxsZGF0YSBwcm9vZiwgYnl0ZXMzMiBsZWFmKSBpbnRlcm5hbCB2aWV3IHJldHVybnMgKGJ5dGVzMzIpIHsKICAgICAgICByZXR1cm4gTWVya2xlUHJvb2YucHJvY2Vzc1Byb29mQ2FsbGRhdGEocHJvb2YsIGxlYWYsIGN1c3RvbUhhc2gpOwogICAgfQoKICAgIGZ1bmN0aW9uIG11bHRpUHJvb2ZWZXJpZnkoCiAgICAgICAgYnl0ZXMzMltdIGNhbGxkYXRhIHByb29mLAogICAgICAgIGJvb2xbXSBjYWxsZGF0YSBwcm9vZkZsYWdzLAogICAgICAgIGJ5dGVzMzIgcm9vdCwKICAgICAgICBieXRlczMyW10gY2FsbGRhdGEgbGVhdmVzCiAgICApIGludGVybmFsIHZpZXcgcmV0dXJucyAoYm9vbCkgewogICAgICAgIHJldHVybiBNZXJrbGVQcm9vZi5tdWx0aVByb29mVmVyaWZ5KHByb29mLCBwcm9vZkZsYWdzLCByb290LCBsZWF2ZXMsIGN1c3RvbUhhc2gpOwogICAgfQoKICAgIGZ1bmN0aW9uIHByb2Nlc3NNdWx0aVByb29mKAogICAgICAgIGJ5dGVzMzJbXSBjYWxsZGF0YSBwcm9vZiwKICAgICAgICBib29sW10gY2FsbGRhdGEgcHJvb2ZGbGFncywKICAgICAgICBieXRlczMyW10gY2FsbGRhdGEgbGVhdmVzCiAgICApIGludGVybmFsIHZpZXcgcmV0dXJucyAoYnl0ZXMzMikgewogICAgICAgIHJldHVybiBNZXJrbGVQcm9vZi5wcm9jZXNzTXVsdGlQcm9vZihwcm9vZiwgcHJvb2ZGbGFncywgbGVhdmVzLCBjdXN0b21IYXNoKTsKICAgIH0KCiAgICBmdW5jdGlvbiBtdWx0aVByb29mVmVyaWZ5Q2FsbGRhdGEoCiAgICAgICAgYnl0ZXMzMltdIGNhbGxkYXRhIHByb29mLAogICAgICAgIGJvb2xbXSBjYWxsZGF0YSBwcm9vZkZsYWdzLAogICAgICAgIGJ5dGVzMzIgcm9vdCwKICAgICAgICBieXRlczMyW10gY2FsbGRhdGEgbGVhdmVzCiAgICApIGludGVybmFsIHZpZXcgcmV0dXJucyAoYm9vbCkgewogICAgICAgIHJldHVybiBNZXJrbGVQcm9vZi5tdWx0aVByb29mVmVyaWZ5Q2FsbGRhdGEocHJvb2YsIHByb29mRmxhZ3MsIHJvb3QsIGxlYXZlcywgY3VzdG9tSGFzaCk7CiAgICB9CgogICAgZnVuY3Rpb24gcHJvY2Vzc011bHRpUHJvb2ZDYWxsZGF0YSgKICAgICAgICBieXRlczMyW10gY2FsbGRhdGEgcHJvb2YsCiAgICAgICAgYm9vbFtdIGNhbGxkYXRhIHByb29mRmxhZ3MsCiAgICAgICAgYnl0ZXMzMltdIGNhbGxkYXRhIGxlYXZlcwogICAgKSBpbnRlcm5hbCB2aWV3IHJldHVybnMgKGJ5dGVzMzIpIHsKICAgICAgICByZXR1cm4gTWVya2xlUHJvb2YucHJvY2Vzc011bHRpUHJvb2ZDYWxsZGF0YShwcm9vZiwgcHJvb2ZGbGFncywgbGVhdmVzLCBjdXN0b21IYXNoKTsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {MerkleProof} from "../utils/cryptography/MerkleProof.sol";
+
+// This could be a library, but then we would have to add it to the Stateless.sol mock for upgradeable tests
+abstract contract MerkleProofCustomHashMock {
+    function customHash(bytes32 a, bytes32 b) internal pure returns (bytes32) {
+        return a < b ? sha256(abi.encode(a, b)) : sha256(abi.encode(b, a));
+    }
+
+    function verify(bytes32[] calldata proof, bytes32 root, bytes32 leaf) internal view returns (bool) {
+        return MerkleProof.verify(proof, root, leaf, customHash);
+    }
+
+    function processProof(bytes32[] calldata proof, bytes32 leaf) internal view returns (bytes32) {
+        return MerkleProof.processProof(proof, leaf, customHash);
+    }
+
+    function verifyCalldata(bytes32[] calldata proof, bytes32 root, bytes32 leaf) internal view returns (bool) {
+        return MerkleProof.verifyCalldata(proof, root, leaf, customHash);
+    }
+
+    function processProofCalldata(bytes32[] calldata proof, bytes32 leaf) internal view returns (bytes32) {
+        return MerkleProof.processProofCalldata(proof, leaf, customHash);
+    }
+
+    function multiProofVerify(
+        bytes32[] calldata proof,
+        bool[] calldata proofFlags,
+        bytes32 root,
+        bytes32[] calldata leaves
+    ) internal view returns (bool) {
+        return MerkleProof.multiProofVerify(proof, proofFlags, root, leaves, customHash);
+    }
+
+    function processMultiProof(
+        bytes32[] calldata proof,
+        bool[] calldata proofFlags,
+        bytes32[] calldata leaves
+    ) internal view returns (bytes32) {
+        return MerkleProof.processMultiProof(proof, proofFlags, leaves, customHash);
+    }
+
+    function multiProofVerifyCalldata(
+        bytes32[] calldata proof,
+        bool[] calldata proofFlags,
+        bytes32 root,
+        bytes32[] calldata leaves
+    ) internal view returns (bool) {
+        return MerkleProof.multiProofVerifyCalldata(proof, proofFlags, root, leaves, customHash);
+    }
+
+    function processMultiProofCalldata(
+        bytes32[] calldata proof,
+        bool[] calldata proofFlags,
+        bytes32[] calldata leaves
+    ) internal view returns (bytes32) {
+        return MerkleProof.processMultiProofCalldata(proof, proofFlags, leaves, customHash);
+    }
+}
