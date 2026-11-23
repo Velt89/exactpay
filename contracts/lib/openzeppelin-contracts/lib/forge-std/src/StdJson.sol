@@ -1,1 +1,183 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgPj0wLjYuMCA8MC45LjA7CgpwcmFnbWEgZXhwZXJpbWVudGFsIEFCSUVuY29kZXJWMjsKCmltcG9ydCB7Vm1TYWZlfSBmcm9tICIuL1ZtLnNvbCI7CgovLyBIZWxwZXJzIGZvciBwYXJzaW5nIGFuZCB3cml0aW5nIEpTT04gZmlsZXMKLy8gVG8gcGFyc2U6Ci8vIGBgYAovLyB1c2luZyBzdGRKc29uIGZvciBzdHJpbmc7Ci8vIHN0cmluZyBtZW1vcnkganNvbiA9IHZtLnJlYWRGaWxlKCJzb21lX3BldGgiKTsKLy8ganNvbi5wYXJzZVVpbnQoIjxqc29uX3BhdGg+Iik7Ci8vIGBgYAovLyBUbyB3cml0ZToKLy8gYGBgCi8vIHVzaW5nIHN0ZEpzb24gZm9yIHN0cmluZzsKLy8gc3RyaW5nIG1lbW9yeSBqc29uID0gImRlcGxveW1lbnRBcnRpZmFjdCI7Ci8vIENvbnRyYWN0IGNvbnRyYWN0ID0gbmV3IENvbnRyYWN0KCk7Ci8vIGpzb24uc2VyaWFsaXplKCJjb250cmFjdEFkZHJlc3MiLCBhZGRyZXNzKGNvbnRyYWN0KSk7Ci8vIGpzb24gPSBqc29uLnNlcmlhbGl6ZSgiZGVwbG95bWVudFRpbWVzIiwgdWludCgxKSk7Ci8vIC8vIHN0b3JlIHRoZSBzdHJpbmdpZmllZCBKU09OIHRvIHRoZSAnanNvbicgdmFyaWFibGUgd2UgaGF2ZSBiZWVuIHVzaW5nIGFzIGEga2V5Ci8vIC8vIGFzIHdlIHdvbid0IG5lZWQgaXQgYW55IGxvbmdlcgovLyBzdHJpbmcgbWVtb3J5IGpzb24yID0gImZpbmFsQXJ0aWZhY3QiOwovLyBzdHJpbmcgbWVtb3J5IGZpbmFsID0ganNvbjIuc2VyaWFsaXplKCJkZXBBcnRpZmFjdCIsIGpzb24pOwovLyBmaW5hbC53cml0ZSgiPHNvbWVfcGF0aD4iKTsKLy8gYGBgCgpsaWJyYXJ5IHN0ZEpzb24gewogICAgVm1TYWZlIHByaXZhdGUgY29uc3RhbnQgdm0gPSBWbVNhZmUoYWRkcmVzcyh1aW50MTYwKHVpbnQyNTYoa2VjY2FrMjU2KCJoZXZtIGNoZWF0IGNvZGUiKSkpKSk7CgogICAgZnVuY3Rpb24gcGFyc2VSYXcoc3RyaW5nIG1lbW9yeSBqc29uLCBzdHJpbmcgbWVtb3J5IGtleSkgaW50ZXJuYWwgcHVyZSByZXR1cm5zIChieXRlcyBtZW1vcnkpIHsKICAgICAgICByZXR1cm4gdm0ucGFyc2VKc29uKGpzb24sIGtleSk7CiAgICB9CgogICAgZnVuY3Rpb24gcmVhZFVpbnQoc3RyaW5nIG1lbW9yeSBqc29uLCBzdHJpbmcgbWVtb3J5IGtleSkgaW50ZXJuYWwgcHVyZSByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgcmV0dXJuIHZtLnBhcnNlSnNvblVpbnQoanNvbiwga2V5KTsKICAgIH0KCiAgICBmdW5jdGlvbiByZWFkVWludEFycmF5KHN0cmluZyBtZW1vcnkganNvbiwgc3RyaW5nIG1lbW9yeSBrZXkpIGludGVybmFsIHB1cmUgcmV0dXJucyAodWludDI1NltdIG1lbW9yeSkgewogICAgICAgIHJldHVybiB2bS5wYXJzZUpzb25VaW50QXJyYXkoanNvbiwga2V5KTsKICAgIH0KCiAgICBmdW5jdGlvbiByZWFkSW50KHN0cmluZyBtZW1vcnkganNvbiwgc3RyaW5nIG1lbW9yeSBrZXkpIGludGVybmFsIHB1cmUgcmV0dXJucyAoaW50MjU2KSB7CiAgICAgICAgcmV0dXJuIHZtLnBhcnNlSnNvbkludChqc29uLCBrZXkpOwogICAgfQoKICAgIGZ1bmN0aW9uIHJlYWRJbnRBcnJheShzdHJpbmcgbWVtb3J5IGpzb24sIHN0cmluZyBtZW1vcnkga2V5KSBpbnRlcm5hbCBwdXJlIHJldHVybnMgKGludDI1NltdIG1lbW9yeSkgewogICAgICAgIHJldHVybiB2bS5wYXJzZUpzb25JbnRBcnJheShqc29uLCBrZXkpOwogICAgfQoKICAgIGZ1bmN0aW9uIHJlYWRCeXRlczMyKHN0cmluZyBtZW1vcnkganNvbiwgc3RyaW5nIG1lbW9yeSBrZXkpIGludGVybmFsIHB1cmUgcmV0dXJucyAoYnl0ZXMzMikgewogICAgICAgIHJldHVybiB2bS5wYXJzZUpzb25CeXRlczMyKGpzb24sIGtleSk7CiAgICB9CgogICAgZnVuY3Rpb24gcmVhZEJ5dGVzMzJBcnJheShzdHJpbmcgbWVtb3J5IGpzb24sIHN0cmluZyBtZW1vcnkga2V5KSBpbnRlcm5hbCBwdXJlIHJldHVybnMgKGJ5dGVzMzJbXSBtZW1vcnkpIHsKICAgICAgICByZXR1cm4gdm0ucGFyc2VKc29uQnl0ZXMzMkFycmF5KGpzb24sIGtleSk7CiAgICB9CgogICAgZnVuY3Rpb24gcmVhZFN0cmluZyhzdHJpbmcgbWVtb3J5IGpzb24sIHN0cmluZyBtZW1vcnkga2V5KSBpbnRlcm5hbCBwdXJlIHJldHVybnMgKHN0cmluZyBtZW1vcnkpIHsKICAgICAgICByZXR1cm4gdm0ucGFyc2VKc29uU3RyaW5nKGpzb24sIGtleSk7CiAgICB9CgogICAgZnVuY3Rpb24gcmVhZFN0cmluZ0FycmF5KHN0cmluZyBtZW1vcnkganNvbiwgc3RyaW5nIG1lbW9yeSBrZXkpIGludGVybmFsIHB1cmUgcmV0dXJucyAoc3RyaW5nW10gbWVtb3J5KSB7CiAgICAgICAgcmV0dXJuIHZtLnBhcnNlSnNvblN0cmluZ0FycmF5KGpzb24sIGtleSk7CiAgICB9CgogICAgZnVuY3Rpb24gcmVhZEFkZHJlc3Moc3RyaW5nIG1lbW9yeSBqc29uLCBzdHJpbmcgbWVtb3J5IGtleSkgaW50ZXJuYWwgcHVyZSByZXR1cm5zIChhZGRyZXNzKSB7CiAgICAgICAgcmV0dXJuIHZtLnBhcnNlSnNvbkFkZHJlc3MoanNvbiwga2V5KTsKICAgIH0KCiAgICBmdW5jdGlvbiByZWFkQWRkcmVzc0FycmF5KHN0cmluZyBtZW1vcnkganNvbiwgc3RyaW5nIG1lbW9yeSBrZXkpIGludGVybmFsIHB1cmUgcmV0dXJucyAoYWRkcmVzc1tdIG1lbW9yeSkgewogICAgICAgIHJldHVybiB2bS5wYXJzZUpzb25BZGRyZXNzQXJyYXkoanNvbiwga2V5KTsKICAgIH0KCiAgICBmdW5jdGlvbiByZWFkQm9vbChzdHJpbmcgbWVtb3J5IGpzb24sIHN0cmluZyBtZW1vcnkga2V5KSBpbnRlcm5hbCBwdXJlIHJldHVybnMgKGJvb2wpIHsKICAgICAgICByZXR1cm4gdm0ucGFyc2VKc29uQm9vbChqc29uLCBrZXkpOwogICAgfQoKICAgIGZ1bmN0aW9uIHJlYWRCb29sQXJyYXkoc3RyaW5nIG1lbW9yeSBqc29uLCBzdHJpbmcgbWVtb3J5IGtleSkgaW50ZXJuYWwgcHVyZSByZXR1cm5zIChib29sW10gbWVtb3J5KSB7CiAgICAgICAgcmV0dXJuIHZtLnBhcnNlSnNvbkJvb2xBcnJheShqc29uLCBrZXkpOwogICAgfQoKICAgIGZ1bmN0aW9uIHJlYWRCeXRlcyhzdHJpbmcgbWVtb3J5IGpzb24sIHN0cmluZyBtZW1vcnkga2V5KSBpbnRlcm5hbCBwdXJlIHJldHVybnMgKGJ5dGVzIG1lbW9yeSkgewogICAgICAgIHJldHVybiB2bS5wYXJzZUpzb25CeXRlcyhqc29uLCBrZXkpOwogICAgfQoKICAgIGZ1bmN0aW9uIHJlYWRCeXRlc0FycmF5KHN0cmluZyBtZW1vcnkganNvbiwgc3RyaW5nIG1lbW9yeSBrZXkpIGludGVybmFsIHB1cmUgcmV0dXJucyAoYnl0ZXNbXSBtZW1vcnkpIHsKICAgICAgICByZXR1cm4gdm0ucGFyc2VKc29uQnl0ZXNBcnJheShqc29uLCBrZXkpOwogICAgfQoKICAgIGZ1bmN0aW9uIHNlcmlhbGl6ZShzdHJpbmcgbWVtb3J5IGpzb25LZXksIHN0cmluZyBtZW1vcnkgcm9vdE9iamVjdCkgaW50ZXJuYWwgcmV0dXJucyAoc3RyaW5nIG1lbW9yeSkgewogICAgICAgIHJldHVybiB2bS5zZXJpYWxpemVKc29uKGpzb25LZXksIHJvb3RPYmplY3QpOwogICAgfQoKICAgIGZ1bmN0aW9uIHNlcmlhbGl6ZShzdHJpbmcgbWVtb3J5IGpzb25LZXksIHN0cmluZyBtZW1vcnkga2V5LCBib29sIHZhbHVlKSBpbnRlcm5hbCByZXR1cm5zIChzdHJpbmcgbWVtb3J5KSB7CiAgICAgICAgcmV0dXJuIHZtLnNlcmlhbGl6ZUJvb2woanNvbktleSwga2V5LCB2YWx1ZSk7CiAgICB9CgogICAgZnVuY3Rpb24gc2VyaWFsaXplKHN0cmluZyBtZW1vcnkganNvbktleSwgc3RyaW5nIG1lbW9yeSBrZXksIGJvb2xbXSBtZW1vcnkgdmFsdWUpCiAgICAgICAgaW50ZXJuYWwKICAgICAgICByZXR1cm5zIChzdHJpbmcgbWVtb3J5KQogICAgewogICAgICAgIHJldHVybiB2bS5zZXJpYWxpemVCb29sKGpzb25LZXksIGtleSwgdmFsdWUpOwogICAgfQoKICAgIGZ1bmN0aW9uIHNlcmlhbGl6ZShzdHJpbmcgbWVtb3J5IGpzb25LZXksIHN0cmluZyBtZW1vcnkga2V5LCB1aW50MjU2IHZhbHVlKSBpbnRlcm5hbCByZXR1cm5zIChzdHJpbmcgbWVtb3J5KSB7CiAgICAgICAgcmV0dXJuIHZtLnNlcmlhbGl6ZVVpbnQoanNvbktleSwga2V5LCB2YWx1ZSk7CiAgICB9CgogICAgZnVuY3Rpb24gc2VyaWFsaXplKHN0cmluZyBtZW1vcnkganNvbktleSwgc3RyaW5nIG1lbW9yeSBrZXksIHVpbnQyNTZbXSBtZW1vcnkgdmFsdWUpCiAgICAgICAgaW50ZXJuYWwKICAgICAgICByZXR1cm5zIChzdHJpbmcgbWVtb3J5KQogICAgewogICAgICAgIHJldHVybiB2bS5zZXJpYWxpemVVaW50KGpzb25LZXksIGtleSwgdmFsdWUpOwogICAgfQoKICAgIGZ1bmN0aW9uIHNlcmlhbGl6ZShzdHJpbmcgbWVtb3J5IGpzb25LZXksIHN0cmluZyBtZW1vcnkga2V5LCBpbnQyNTYgdmFsdWUpIGludGVybmFsIHJldHVybnMgKHN0cmluZyBtZW1vcnkpIHsKICAgICAgICByZXR1cm4gdm0uc2VyaWFsaXplSW50KGpzb25LZXksIGtleSwgdmFsdWUpOwogICAgfQoKICAgIGZ1bmN0aW9uIHNlcmlhbGl6ZShzdHJpbmcgbWVtb3J5IGpzb25LZXksIHN0cmluZyBtZW1vcnkga2V5LCBpbnQyNTZbXSBtZW1vcnkgdmFsdWUpCiAgICAgICAgaW50ZXJuYWwKICAgICAgICByZXR1cm5zIChzdHJpbmcgbWVtb3J5KQogICAgewogICAgICAgIHJldHVybiB2bS5zZXJpYWxpemVJbnQoanNvbktleSwga2V5LCB2YWx1ZSk7CiAgICB9CgogICAgZnVuY3Rpb24gc2VyaWFsaXplKHN0cmluZyBtZW1vcnkganNvbktleSwgc3RyaW5nIG1lbW9yeSBrZXksIGFkZHJlc3MgdmFsdWUpIGludGVybmFsIHJldHVybnMgKHN0cmluZyBtZW1vcnkpIHsKICAgICAgICByZXR1cm4gdm0uc2VyaWFsaXplQWRkcmVzcyhqc29uS2V5LCBrZXksIHZhbHVlKTsKICAgIH0KCiAgICBmdW5jdGlvbiBzZXJpYWxpemUoc3RyaW5nIG1lbW9yeSBqc29uS2V5LCBzdHJpbmcgbWVtb3J5IGtleSwgYWRkcmVzc1tdIG1lbW9yeSB2YWx1ZSkKICAgICAgICBpbnRlcm5hbAogICAgICAgIHJldHVybnMgKHN0cmluZyBtZW1vcnkpCiAgICB7CiAgICAgICAgcmV0dXJuIHZtLnNlcmlhbGl6ZUFkZHJlc3MoanNvbktleSwga2V5LCB2YWx1ZSk7CiAgICB9CgogICAgZnVuY3Rpb24gc2VyaWFsaXplKHN0cmluZyBtZW1vcnkganNvbktleSwgc3RyaW5nIG1lbW9yeSBrZXksIGJ5dGVzMzIgdmFsdWUpIGludGVybmFsIHJldHVybnMgKHN0cmluZyBtZW1vcnkpIHsKICAgICAgICByZXR1cm4gdm0uc2VyaWFsaXplQnl0ZXMzMihqc29uS2V5LCBrZXksIHZhbHVlKTsKICAgIH0KCiAgICBmdW5jdGlvbiBzZXJpYWxpemUoc3RyaW5nIG1lbW9yeSBqc29uS2V5LCBzdHJpbmcgbWVtb3J5IGtleSwgYnl0ZXMzMltdIG1lbW9yeSB2YWx1ZSkKICAgICAgICBpbnRlcm5hbAogICAgICAgIHJldHVybnMgKHN0cmluZyBtZW1vcnkpCiAgICB7CiAgICAgICAgcmV0dXJuIHZtLnNlcmlhbGl6ZUJ5dGVzMzIoanNvbktleSwga2V5LCB2YWx1ZSk7CiAgICB9CgogICAgZnVuY3Rpb24gc2VyaWFsaXplKHN0cmluZyBtZW1vcnkganNvbktleSwgc3RyaW5nIG1lbW9yeSBrZXksIGJ5dGVzIG1lbW9yeSB2YWx1ZSkgaW50ZXJuYWwgcmV0dXJucyAoc3RyaW5nIG1lbW9yeSkgewogICAgICAgIHJldHVybiB2bS5zZXJpYWxpemVCeXRlcyhqc29uS2V5LCBrZXksIHZhbHVlKTsKICAgIH0KCiAgICBmdW5jdGlvbiBzZXJpYWxpemUoc3RyaW5nIG1lbW9yeSBqc29uS2V5LCBzdHJpbmcgbWVtb3J5IGtleSwgYnl0ZXNbXSBtZW1vcnkgdmFsdWUpCiAgICAgICAgaW50ZXJuYWwKICAgICAgICByZXR1cm5zIChzdHJpbmcgbWVtb3J5KQogICAgewogICAgICAgIHJldHVybiB2bS5zZXJpYWxpemVCeXRlcyhqc29uS2V5LCBrZXksIHZhbHVlKTsKICAgIH0KCiAgICBmdW5jdGlvbiBzZXJpYWxpemUoc3RyaW5nIG1lbW9yeSBqc29uS2V5LCBzdHJpbmcgbWVtb3J5IGtleSwgc3RyaW5nIG1lbW9yeSB2YWx1ZSkKICAgICAgICBpbnRlcm5hbAogICAgICAgIHJldHVybnMgKHN0cmluZyBtZW1vcnkpCiAgICB7CiAgICAgICAgcmV0dXJuIHZtLnNlcmlhbGl6ZVN0cmluZyhqc29uS2V5LCBrZXksIHZhbHVlKTsKICAgIH0KCiAgICBmdW5jdGlvbiBzZXJpYWxpemUoc3RyaW5nIG1lbW9yeSBqc29uS2V5LCBzdHJpbmcgbWVtb3J5IGtleSwgc3RyaW5nW10gbWVtb3J5IHZhbHVlKQogICAgICAgIGludGVybmFsCiAgICAgICAgcmV0dXJucyAoc3RyaW5nIG1lbW9yeSkKICAgIHsKICAgICAgICByZXR1cm4gdm0uc2VyaWFsaXplU3RyaW5nKGpzb25LZXksIGtleSwgdmFsdWUpOwogICAgfQoKICAgIGZ1bmN0aW9uIHdyaXRlKHN0cmluZyBtZW1vcnkganNvbktleSwgc3RyaW5nIG1lbW9yeSBwYXRoKSBpbnRlcm5hbCB7CiAgICAgICAgdm0ud3JpdGVKc29uKGpzb25LZXksIHBhdGgpOwogICAgfQoKICAgIGZ1bmN0aW9uIHdyaXRlKHN0cmluZyBtZW1vcnkganNvbktleSwgc3RyaW5nIG1lbW9yeSBwYXRoLCBzdHJpbmcgbWVtb3J5IHZhbHVlS2V5KSBpbnRlcm5hbCB7CiAgICAgICAgdm0ud3JpdGVKc29uKGpzb25LZXksIHBhdGgsIHZhbHVlS2V5KTsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.6.0 <0.9.0;
+
+pragma experimental ABIEncoderV2;
+
+import {VmSafe} from "./Vm.sol";
+
+// Helpers for parsing and writing JSON files
+// To parse:
+// ```
+// using stdJson for string;
+// string memory json = vm.readFile("some_peth");
+// json.parseUint("<json_path>");
+// ```
+// To write:
+// ```
+// using stdJson for string;
+// string memory json = "deploymentArtifact";
+// Contract contract = new Contract();
+// json.serialize("contractAddress", address(contract));
+// json = json.serialize("deploymentTimes", uint(1));
+// // store the stringified JSON to the 'json' variable we have been using as a key
+// // as we won't need it any longer
+// string memory json2 = "finalArtifact";
+// string memory final = json2.serialize("depArtifact", json);
+// final.write("<some_path>");
+// ```
+
+library stdJson {
+    VmSafe private constant vm = VmSafe(address(uint160(uint256(keccak256("hevm cheat code")))));
+
+    function parseRaw(string memory json, string memory key) internal pure returns (bytes memory) {
+        return vm.parseJson(json, key);
+    }
+
+    function readUint(string memory json, string memory key) internal pure returns (uint256) {
+        return vm.parseJsonUint(json, key);
+    }
+
+    function readUintArray(string memory json, string memory key) internal pure returns (uint256[] memory) {
+        return vm.parseJsonUintArray(json, key);
+    }
+
+    function readInt(string memory json, string memory key) internal pure returns (int256) {
+        return vm.parseJsonInt(json, key);
+    }
+
+    function readIntArray(string memory json, string memory key) internal pure returns (int256[] memory) {
+        return vm.parseJsonIntArray(json, key);
+    }
+
+    function readBytes32(string memory json, string memory key) internal pure returns (bytes32) {
+        return vm.parseJsonBytes32(json, key);
+    }
+
+    function readBytes32Array(string memory json, string memory key) internal pure returns (bytes32[] memory) {
+        return vm.parseJsonBytes32Array(json, key);
+    }
+
+    function readString(string memory json, string memory key) internal pure returns (string memory) {
+        return vm.parseJsonString(json, key);
+    }
+
+    function readStringArray(string memory json, string memory key) internal pure returns (string[] memory) {
+        return vm.parseJsonStringArray(json, key);
+    }
+
+    function readAddress(string memory json, string memory key) internal pure returns (address) {
+        return vm.parseJsonAddress(json, key);
+    }
+
+    function readAddressArray(string memory json, string memory key) internal pure returns (address[] memory) {
+        return vm.parseJsonAddressArray(json, key);
+    }
+
+    function readBool(string memory json, string memory key) internal pure returns (bool) {
+        return vm.parseJsonBool(json, key);
+    }
+
+    function readBoolArray(string memory json, string memory key) internal pure returns (bool[] memory) {
+        return vm.parseJsonBoolArray(json, key);
+    }
+
+    function readBytes(string memory json, string memory key) internal pure returns (bytes memory) {
+        return vm.parseJsonBytes(json, key);
+    }
+
+    function readBytesArray(string memory json, string memory key) internal pure returns (bytes[] memory) {
+        return vm.parseJsonBytesArray(json, key);
+    }
+
+    function serialize(string memory jsonKey, string memory rootObject) internal returns (string memory) {
+        return vm.serializeJson(jsonKey, rootObject);
+    }
+
+    function serialize(string memory jsonKey, string memory key, bool value) internal returns (string memory) {
+        return vm.serializeBool(jsonKey, key, value);
+    }
+
+    function serialize(string memory jsonKey, string memory key, bool[] memory value)
+        internal
+        returns (string memory)
+    {
+        return vm.serializeBool(jsonKey, key, value);
+    }
+
+    function serialize(string memory jsonKey, string memory key, uint256 value) internal returns (string memory) {
+        return vm.serializeUint(jsonKey, key, value);
+    }
+
+    function serialize(string memory jsonKey, string memory key, uint256[] memory value)
+        internal
+        returns (string memory)
+    {
+        return vm.serializeUint(jsonKey, key, value);
+    }
+
+    function serialize(string memory jsonKey, string memory key, int256 value) internal returns (string memory) {
+        return vm.serializeInt(jsonKey, key, value);
+    }
+
+    function serialize(string memory jsonKey, string memory key, int256[] memory value)
+        internal
+        returns (string memory)
+    {
+        return vm.serializeInt(jsonKey, key, value);
+    }
+
+    function serialize(string memory jsonKey, string memory key, address value) internal returns (string memory) {
+        return vm.serializeAddress(jsonKey, key, value);
+    }
+
+    function serialize(string memory jsonKey, string memory key, address[] memory value)
+        internal
+        returns (string memory)
+    {
+        return vm.serializeAddress(jsonKey, key, value);
+    }
+
+    function serialize(string memory jsonKey, string memory key, bytes32 value) internal returns (string memory) {
+        return vm.serializeBytes32(jsonKey, key, value);
+    }
+
+    function serialize(string memory jsonKey, string memory key, bytes32[] memory value)
+        internal
+        returns (string memory)
+    {
+        return vm.serializeBytes32(jsonKey, key, value);
+    }
+
+    function serialize(string memory jsonKey, string memory key, bytes memory value) internal returns (string memory) {
+        return vm.serializeBytes(jsonKey, key, value);
+    }
+
+    function serialize(string memory jsonKey, string memory key, bytes[] memory value)
+        internal
+        returns (string memory)
+    {
+        return vm.serializeBytes(jsonKey, key, value);
+    }
+
+    function serialize(string memory jsonKey, string memory key, string memory value)
+        internal
+        returns (string memory)
+    {
+        return vm.serializeString(jsonKey, key, value);
+    }
+
+    function serialize(string memory jsonKey, string memory key, string[] memory value)
+        internal
+        returns (string memory)
+    {
+        return vm.serializeString(jsonKey, key, value);
+    }
+
+    function write(string memory jsonKey, string memory path) internal {
+        vm.writeJson(jsonKey, path);
+    }
+
+    function write(string memory jsonKey, string memory path, string memory valueKey) internal {
+        vm.writeJson(jsonKey, path, valueKey);
+    }
+}
