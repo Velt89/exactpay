@@ -1,1 +1,96 @@
-aW1wb3J0ICJoZWxwZXJzL2hlbHBlcnMuc3BlYyI7CgptZXRob2RzIHsKICAgIGZ1bmN0aW9uIHBhdXNlZCgpIGV4dGVybmFsIHJldHVybnMgKGJvb2wpIGVudmZyZWU7CiAgICBmdW5jdGlvbiBwYXVzZSgpIGV4dGVybmFsOwogICAgZnVuY3Rpb24gdW5wYXVzZSgpIGV4dGVybmFsOwogICAgZnVuY3Rpb24gb25seVdoZW5QYXVzZWQoKSBleHRlcm5hbDsKICAgIGZ1bmN0aW9uIG9ubHlXaGVuTm90UGF1c2VkKCkgZXh0ZXJuYWw7Cn0KCi8qCuKUjOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUkArilIIgRnVuY3Rpb24gY29ycmVjdG5lc3M6IF9wYXVzZSBwYXVzZXMgdGhlIGNvbnRyYWN0ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICDilIIK4pSU4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSYCiovCnJ1bGUgcGF1c2UoZW52IGUpIHsKICAgIHJlcXVpcmUgbm9ucGF5YWJsZShlKTsKCiAgICBib29sIHBhdXNlZEJlZm9yZSA9IHBhdXNlZCgpOwoKICAgIHBhdXNlQHdpdGhyZXZlcnQoZSk7CiAgICBib29sIHN1Y2Nlc3MgPSAhbGFzdFJldmVydGVkOwoKICAgIGJvb2wgcGF1c2VkQWZ0ZXIgPSBwYXVzZWQoKTsKCiAgICAvLyBsaXZlbmVzcwogICAgYXNzZXJ0IHN1Y2Nlc3MgPD0+ICFwYXVzZWRCZWZvcmUsICJ3b3JrcyBpZiBhbmQgb25seSBpZiB0aGUgY29udHJhY3Qgd2FzIG5vdCBwYXVzZWQgYmVmb3JlIjsKCiAgICAvLyBlZmZlY3QKICAgIGFzc2VydCBzdWNjZXNzID0+IHBhdXNlZEFmdGVyLCAiY29udHJhY3QgbXVzdCBiZSBwYXVzZWQgYWZ0ZXIgYSBzdWNjZXNzZnVsIGNhbGwiOwp9CgovKgrilIzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJAK4pSCIEZ1bmN0aW9uIGNvcnJlY3RuZXNzOiBfdW5wYXVzZSB1bnBhdXNlcyB0aGUgY29udHJhY3QgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg4pSCCuKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmAoqLwpydWxlIHVucGF1c2UoZW52IGUpIHsKICAgIHJlcXVpcmUgbm9ucGF5YWJsZShlKTsKCiAgICBib29sIHBhdXNlZEJlZm9yZSA9IHBhdXNlZCgpOwoKICAgIHVucGF1c2VAd2l0aHJldmVydChlKTsKICAgIGJvb2wgc3VjY2VzcyA9ICFsYXN0UmV2ZXJ0ZWQ7CgogICAgYm9vbCBwYXVzZWRBZnRlciA9IHBhdXNlZCgpOwoKICAgIC8vIGxpdmVuZXNzCiAgICBhc3NlcnQgc3VjY2VzcyA8PT4gcGF1c2VkQmVmb3JlLCAid29ya3MgaWYgYW5kIG9ubHkgaWYgdGhlIGNvbnRyYWN0IHdhcyBwYXVzZWQgYmVmb3JlIjsKCiAgICAvLyBlZmZlY3QKICAgIGFzc2VydCBzdWNjZXNzID0+ICFwYXVzZWRBZnRlciwgImNvbnRyYWN0IG11c3QgYmUgdW5wYXVzZWQgYWZ0ZXIgYSBzdWNjZXNzZnVsIGNhbGwiOwp9CgovKgrilIzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJAK4pSCIEZ1bmN0aW9uIGNvcnJlY3RuZXNzOiB3aGVuUGF1c2VkIG1vZGlmaWVyIGNhbiBvbmx5IGJlIGNhbGxlZCBpZiB0aGUgY29udHJhY3QgaXMgcGF1c2VkICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg4pSCCuKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmAoqLwpydWxlIHdoZW5QYXVzZWQoZW52IGUpIHsKICAgIHJlcXVpcmUgbm9ucGF5YWJsZShlKTsKCiAgICBvbmx5V2hlblBhdXNlZEB3aXRocmV2ZXJ0KGUpOwogICAgYXNzZXJ0ICFsYXN0UmV2ZXJ0ZWQgPD0+IHBhdXNlZCgpLCAid29ya3MgaWYgYW5kIG9ubHkgaWYgdGhlIGNvbnRyYWN0IGlzIHBhdXNlZCI7Cn0KCi8qCuKUjOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUkArilIIgRnVuY3Rpb24gY29ycmVjdG5lc3M6IHdoZW5Ob3RQYXVzZWQgbW9kaWZpZXIgY2FuIG9ubHkgYmUgY2FsbGVkIGlmIHRoZSBjb250cmFjdCBpcyBub3QgcGF1c2VkICAgICAgICAgICAgICAgICAgICAgICDilIIK4pSU4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSYCiovCnJ1bGUgd2hlbk5vdFBhdXNlZChlbnYgZSkgewogICAgcmVxdWlyZSBub25wYXlhYmxlKGUpOwoKICAgIG9ubHlXaGVuTm90UGF1c2VkQHdpdGhyZXZlcnQoZSk7CiAgICBhc3NlcnQgIWxhc3RSZXZlcnRlZCA8PT4gIXBhdXNlZCgpLCAid29ya3MgaWYgYW5kIG9ubHkgaWYgdGhlIGNvbnRyYWN0IGlzIG5vdCBwYXVzZWQiOwp9CgovKgrilIzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJAK4pSCIFJ1bGVzOiBvbmx5IF9wYXVzZSBhbmQgX3VucGF1c2UgY2FuIGNoYW5nZSBwYXVzZWQgc3RhdHVzICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg4pSCCuKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmAoqLwpydWxlIG5vUGF1c2VDaGFuZ2UoZW52IGUpIHsKICAgIG1ldGhvZCBmOwogICAgY2FsbGRhdGFhcmcgYXJnczsKCiAgICBib29sIHBhdXNlZEJlZm9yZSA9IHBhdXNlZCgpOwogICAgZihlLCBhcmdzKTsKICAgIGJvb2wgcGF1c2VkQWZ0ZXIgPSBwYXVzZWQoKTsKCiAgICBhc3NlcnQgcGF1c2VkQmVmb3JlICE9IHBhdXNlZEFmdGVyID0+ICgKICAgICAgICAoIXBhdXNlZEFmdGVyICYmIGYuc2VsZWN0b3IgPT0gc2lnOnVucGF1c2UoKS5zZWxlY3RvcikgfHwKICAgICAgICAocGF1c2VkQWZ0ZXIgJiYgZi5zZWxlY3RvciA9PSBzaWc6cGF1c2UoKS5zZWxlY3RvcikKICAgICksICJjb250cmFjdCdzIHBhdXNlZCBzdGF0dXMgY2FuIG9ubHkgYmUgY2hhbmdlZCBieSBfcGF1c2UoKSBvciBfdW5wYXVzZSgpIjsKfQo=
+import "helpers/helpers.spec";
+
+methods {
+    function paused() external returns (bool) envfree;
+    function pause() external;
+    function unpause() external;
+    function onlyWhenPaused() external;
+    function onlyWhenNotPaused() external;
+}
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Function correctness: _pause pauses the contract                                                                    │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+rule pause(env e) {
+    require nonpayable(e);
+
+    bool pausedBefore = paused();
+
+    pause@withrevert(e);
+    bool success = !lastReverted;
+
+    bool pausedAfter = paused();
+
+    // liveness
+    assert success <=> !pausedBefore, "works if and only if the contract was not paused before";
+
+    // effect
+    assert success => pausedAfter, "contract must be paused after a successful call";
+}
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Function correctness: _unpause unpauses the contract                                                                │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+rule unpause(env e) {
+    require nonpayable(e);
+
+    bool pausedBefore = paused();
+
+    unpause@withrevert(e);
+    bool success = !lastReverted;
+
+    bool pausedAfter = paused();
+
+    // liveness
+    assert success <=> pausedBefore, "works if and only if the contract was paused before";
+
+    // effect
+    assert success => !pausedAfter, "contract must be unpaused after a successful call";
+}
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Function correctness: whenPaused modifier can only be called if the contract is paused                              │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+rule whenPaused(env e) {
+    require nonpayable(e);
+
+    onlyWhenPaused@withrevert(e);
+    assert !lastReverted <=> paused(), "works if and only if the contract is paused";
+}
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Function correctness: whenNotPaused modifier can only be called if the contract is not paused                       │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+rule whenNotPaused(env e) {
+    require nonpayable(e);
+
+    onlyWhenNotPaused@withrevert(e);
+    assert !lastReverted <=> !paused(), "works if and only if the contract is not paused";
+}
+
+/*
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Rules: only _pause and _unpause can change paused status                                                            │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+*/
+rule noPauseChange(env e) {
+    method f;
+    calldataarg args;
+
+    bool pausedBefore = paused();
+    f(e, args);
+    bool pausedAfter = paused();
+
+    assert pausedBefore != pausedAfter => (
+        (!pausedAfter && f.selector == sig:unpause().selector) ||
+        (pausedAfter && f.selector == sig:pause().selector)
+    ), "contract's paused status can only be changed by _pause() or _unpause()";
+}
