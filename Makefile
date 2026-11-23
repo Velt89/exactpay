@@ -1,1 +1,83 @@
-IyBBZXZ1bSBTdGFydGVyIEtpdC4gUnVuIGBtYWtlIGhlbHBgIGZvciB0aGUgbGlzdC4KU0hFTEwgOj0gL2Jpbi9iYXNoCi5ERUZBVUxUX0dPQUwgOj0gaGVscAoKQUVWVU1fUlBDICAgPz0gaHR0cHM6Ly9ycGMtdGVzdC5xZGF5LmluZm8KTE9DQUxfUlBDICAgPz0gaHR0cDovLzEyNy4wLjAuMTo4NTQ1CiMgT3duIHBvcnQsIHNvIHdhbGxldHMgY2FuIGhvbGQgaXQgbmV4dCB0byBhbiBleGlzdGluZyAiTG9jYWxob3N0IDg1NDUiIC8gYW52aWwgbmV0d29yawojIChNZXRhTWFzayByZWZ1c2VzIHR3byBuZXR3b3JrcyB3aXRoIHRoZSBzYW1lIFJQQyBVUkwpLgpGT1JLX1BPUlQgICA/PSA4NTU1CkZPUktfUlBDICAgID89IGh0dHA6Ly8xMjcuMC4wLjE6JChGT1JLX1BPUlQpClRVU0Q4ICAgICAgIDo9IDB4NDU2NTY5ODM4ZjFkNDMwMDlBOTFlYkE0MjYzMTQ3QWZkNzIzMzQ4MwojIHRVU0Q4J3MgbWFzdGVyIG1pbnRlci4gT25seSB1c2VkIG9uIGEgbG9jYWwgZm9yaywgd2hlcmUgYW55b25lIGNhbiBpbXBlcnNvbmF0ZSBpdC4KVFVTRDhfTU0gICAgOj0gMHg0ZDRiNzAzMUQzNUI3NDIxNWJlYmUzM0Y2QUY2ZTY4MkVhOTlkMGIxCiMgYW52aWwncyBmaXJzdCBkZWZhdWx0IGFjY291bnQgKHB1YmxpYyB0ZXN0IGFjY291bnQsIGxvY2FsIGNoYWlucyBvbmx5KS4KQU5WSUxfMCAgICAgOj0gMHhmMzlGZDZlNTFhYWQ4OEY2RjRjZTZhQjg4MjcyNzljZmZGYjkyMjY2CkFNT1VOVCAgICAgID89IDEwMAojIGBtYWtlIGZvcmtgIHJ1bnMgdW5kZXIgaXRzIG93biBjaGFpbiBJRCBzbyB3YWxsZXRzIGFuZCBzaWduYXR1cmVzIG5ldmVyIG1peCBpdCB1cCB3aXRoIHRoZSByZWFsIHRlc3RuZXQuCkZPUktfQ0hBSU4gIDo9IDQ0MDA1MAoKLlBIT05ZOiBoZWxwIGluc3RhbGwgYnVpbGQgdGVzdCB0ZXN0LWZvcmsgY2hlY2sgYW52aWwgZm9yayBkZXBsb3ktbG9jYWwgZGVwbG95LWZvcmsgZGVwbG95LWFldnVtIG1pbnQgZGVhbCBkZXYKCmhlbHA6ICMjIFNob3cgdGhpcyBsaXN0CglAZ3JlcCAtRSAnXlthLXotXSs6LiojIyAnICQoTUFLRUZJTEVfTElTVCkgfCBhd2sgLUYnOi4qIyMgJyAne3ByaW50ZiAiICBcMDMzWzM2bW1ha2UgJS0xNHNcMDMzWzBtICVzXG4iLCAkJDEsICQkMn0nCgppbnN0YWxsOiAjIyBGZXRjaCBTb2xpZGl0eSBsaWJzIGFuZCBKUyBwYWNrYWdlcwoJZ2l0IHN1Ym1vZHVsZSB1cGRhdGUgLS1pbml0IC0tcmVjdXJzaXZlCglwbnBtIGluc3RhbGwKCmJ1aWxkOiAjIyBDb21waWxlIGNvbnRyYWN0cyBhbmQgY2hlY2sgdGhleSBhcmUgU2hhbmdoYWktc2FmZQoJY2QgY29udHJhY3RzICYmIGZvcmdlIGJ1aWxkCglub2RlIHRvb2xzL2NoZWNrLXNoYW5naGFpLm1qcyBjb250cmFjdHMvb3V0Cgp0ZXN0OiAjIyBVbml0IHRlc3RzIChsb2NhbCwgbm8gbmV0d29yaykKCWNkIGNvbnRyYWN0cyAmJiBmb3JnZSB0ZXN0IC0tbm8tbWF0Y2gtcGF0aCAndGVzdC9mb3JrLyonIC12dgoKdGVzdC1mb3JrOiAjIyBUZXN0cyBhZ2FpbnN0IHRoZSByZWFsIHRVU0Q4IG9uIGEgbG9jYWwgZm9yayBvZiBBZXZ1bSAobm8gZnVuZHMgbmVlZGVkKQoJY2QgY29udHJhY3RzICYmIGZvcmdlIHRlc3QgLS1tYXRjaC1wYXRoICd0ZXN0L2ZvcmsvKicgLS1mb3JrLXVybCAkKEFFVlVNX1JQQykgLXZ2CgpjaGVjazogYnVpbGQgdGVzdCB0ZXN0LWZvcmsgIyMgRXZlcnl0aGluZyBDSSBydW5zCglwbnBtIC1yIHR5cGVjaGVjawoKYW52aWw6ICMjIEVtcHR5IGxvY2FsIGNoYWluICgzMTMzNykgd2l0aCBBZXZ1bSdzIEVWTSBydWxlcwoJYW52aWwgLS1oYXJkZm9yayBzaGFuZ2hhaQoKZm9yazogIyMgTG9jYWwgY29weSBvZiBBZXZ1bSB0ZXN0bmV0IG9uIDEyNy4wLjAuMTo4NTU1IChjaGFpbiA0NDAwNTApCglhbnZpbCAtLWZvcmstdXJsICQoQUVWVU1fUlBDKSAtLWhhcmRmb3JrIHNoYW5naGFpIC0tY2hhaW4taWQgJChGT1JLX0NIQUlOKSAtLXBvcnQgJChGT1JLX1BPUlQpCgpkZXBsb3ktbG9jYWw6ICMjIERlcGxveSBNb2NrVVNEOCArIENoZWNrb3V0IHRvIGBtYWtlIGFudmlsYAoJY2QgY29udHJhY3RzICYmIGZvcmdlIHNjcmlwdCBzY3JpcHQvRGVwbG95LnMuc29sIC0tcnBjLXVybCAkKExPQ0FMX1JQQykgLS1icm9hZGNhc3QgLS11bmxvY2tlZCAtLXNlbmRlciAkKEFOVklMXzApCgojIERlcGxveSBmcm9tIGEgcmFuZG9tIGFkZHJlc3Mgbm9ib2R5IGhhcyB0aGUga2V5IGZvciAoYW52aWwgaW1wZXJzb25hdGVzIGl0KSwgbm90IGZyb20gYSBwdWJsaWMKIyBhbnZpbCBhY2NvdW50LiBPdGhlcndpc2UgdGhlIGZvcmsncyBjb250cmFjdCBhZGRyZXNzZXMgY291bGQgYmUgY2xhaW1lZCBvbiB0aGUgcmVhbCB0ZXN0bmV0IGJ5CiMgYW55b25lIGhvbGRpbmcgdGhhdCBwdWJsaWMga2V5LgpkZXBsb3ktZm9yazogIyMgRGVwbG95IENoZWNrb3V0IChyZWFsIHRVU0Q4KSB0byBgbWFrZSBmb3JrYAoJQHRlc3QgIiQkKGNhc3QgY2hhaW4taWQgLS1ycGMtdXJsICQoRk9SS19SUEMpKSIgPSAiJChGT1JLX0NIQUlOKSIgfHwgKGVjaG8gIlRoaXMgb25seSB3b3JrcyBvbiAnbWFrZSBmb3JrJy4iICYmIGV4aXQgMSkKCUBERVBMT1lFUj0kJChjYXN0IHRvLWNoZWNrLXN1bS1hZGRyZXNzIDB4JCQob3BlbnNzbCByYW5kIC1oZXggMjApKTsgXAoJICBjYXN0IHJwYyBhbnZpbF9zZXRCYWxhbmNlICQkREVQTE9ZRVIgMHg4YWM3MjMwNDg5ZTgwMDAwIC0tcnBjLXVybCAkKEZPUktfUlBDKSA+IC9kZXYvbnVsbCAmJiBcCgkgIGNhc3QgcnBjIGFudmlsX2ltcGVyc29uYXRlQWNjb3VudCAkJERFUExPWUVSIC0tcnBjLXVybCAkKEZPUktfUlBDKSA+IC9kZXYvbnVsbCAmJiBcCgkgIGVjaG8gIkRlcGxveWluZyBmcm9tIHRocm93YXdheSBhZGRyZXNzICQkREVQTE9ZRVIgKG5vIHByaXZhdGUga2V5IGV4aXN0cyBmb3IgaXQpIiAmJiBcCgkgIGNkIGNvbnRyYWN0cyAmJiBNRVJDSEFOVD0kJHtNRVJDSEFOVDotJChBTlZJTF8wKX0gZm9yZ2Ugc2NyaXB0IHNjcmlwdC9EZXBsb3kucy5zb2wgLS1ycGMtdXJsICQoRk9SS19SUEMpIC0tYnJvYWRjYXN0IC0tdW5sb2NrZWQgLS1zZW5kZXIgJCRERVBMT1lFUgoKZGVwbG95LWFldnVtOiAjIyBEZXBsb3kgQ2hlY2tvdXQgdG8gQWV2dW0gdGVzdG5ldC4gTmVlZHMgQUNDT1VOVD08a2V5c3RvcmUgbmFtZT4gKHNlZSBSRUFETUUpCglAdGVzdCAtbiAiJChBQ0NPVU5UKSIgfHwgKGVjaG8gIlNldCBBQ0NPVU5UPTxuYW1lPi4gQ3JlYXRlIG9uZSB3aXRoOiBjYXN0IHdhbGxldCBpbXBvcnQgPG5hbWU+IC0taW50ZXJhY3RpdmUiICYmIGV4aXQgMSkKCWNkIGNvbnRyYWN0cyAmJiBmb3JnZSBzY3JpcHQgc2NyaXB0L0RlcGxveS5zLnNvbCAtLXJwYy11cmwgJChBRVZVTV9SUEMpIC0tYnJvYWRjYXN0IC0tbGVnYWN5IC0tYWNjb3VudCAkKEFDQ09VTlQpCgptaW50OiAjIyBgbWFrZSBhbnZpbGAgb25seTogbWludCBBTU9VTlQgTW9ja1VTRDggdG8gVE8uIE5lZWRzIENIRUNLT1VUPTxhZGRyZXNzPgoJQHRlc3QgLW4gIiQoVE8pIiAtYSAtbiAiJChDSEVDS09VVCkiIHx8IChlY2hvICJVc2FnZTogbWFrZSBtaW50IFRPPTB4Li4uIENIRUNLT1VUPTB4Li4uIFtBTU9VTlQ9MTAwXSIgJiYgZXhpdCAxKQoJY2FzdCBzZW5kICQkKGNhc3QgY2FsbCAkKENIRUNLT1VUKSAidG9rZW4oKShhZGRyZXNzKSIgLS1ycGMtdXJsICQoTE9DQUxfUlBDKSkgIm1pbnQoYWRkcmVzcyx1aW50MjU2KSIgJChUTykgJCQoY2FzdCBwYXJzZS11bml0cyAkKEFNT1VOVCkgNikgXAoJICAtLXJwYy11cmwgJChMT0NBTF9SUEMpIC0tdW5sb2NrZWQgLS1mcm9tICQoQU5WSUxfMCkgPiAvZGV2L251bGwKCUBlY2hvICJNaW50ZWQgJChBTU9VTlQpIHRvICQoVE8pLiIKCmRlYWw6ICMjIGBtYWtlIGZvcmtgIG9ubHk6IGdpdmUgVE8gQU1PVU5UIHRVU0Q4IGFuZCAxMCB0UURBWSBmb3IgZ2FzCglAdGVzdCAtbiAiJChUTykiIHx8IChlY2hvICJVc2FnZTogbWFrZSBkZWFsIFRPPTB4Li4uIFtBTU9VTlQ9MTAwXSIgJiYgZXhpdCAxKQoJQHRlc3QgIiQkKGNhc3QgY2hhaW4taWQgLS1ycGMtdXJsICQoRk9SS19SUEMpKSIgPSAiJChGT1JLX0NIQUlOKSIgfHwgKGVjaG8gIlRoaXMgb25seSB3b3JrcyBvbiAnbWFrZSBmb3JrJy4iICYmIGV4aXQgMSkKCUBjYXN0IHJwYyBhbnZpbF9zZXRCYWxhbmNlICQoVE8pIDB4OGFjNzIzMDQ4OWU4MDAwMCAtLXJwYy11cmwgJChGT1JLX1JQQykgPiAvZGV2L251bGwKCUBjYXN0IHJwYyBhbnZpbF9pbXBlcnNvbmF0ZUFjY291bnQgJChUVVNEOF9NTSkgLS1ycGMtdXJsICQoRk9SS19SUEMpID4gL2Rldi9udWxsCglAY2FzdCBycGMgYW52aWxfc2V0QmFsYW5jZSAkKFRVU0Q4X01NKSAweDU2QkM3NUUyRDYzMTAwMDAwIC0tcnBjLXVybCAkKEZPUktfUlBDKSA+IC9kZXYvbnVsbAoJQGNhc3Qgc2VuZCAkKFRVU0Q4KSAiY29uZmlndXJlTWludGVyKGFkZHJlc3MsdWludDI1NikiICQoVFVTRDhfTU0pIDEwMDAwMDAwMDAwMDAwMDAgLS1mcm9tICQoVFVTRDhfTU0pIC0tdW5sb2NrZWQgLS1ycGMtdXJsICQoRk9SS19SUEMpID4gL2Rldi9udWxsCglAY2FzdCBzZW5kICQoVFVTRDgpICJtaW50KGFkZHJlc3MsdWludDI1NikiICQoVE8pICQkKGNhc3QgcGFyc2UtdW5pdHMgJChBTU9VTlQpIDYpIC0tZnJvbSAkKFRVU0Q4X01NKSAtLXVubG9ja2VkIC0tcnBjLXVybCAkKEZPUktfUlBDKSA+IC9kZXYvbnVsbAoJQGVjaG8gInRVU0Q4IGJhbGFuY2Ugb2YgJChUTyk6ICQkKGNhc3QgY2FsbCAkKFRVU0Q4KSAnYmFsYW5jZU9mKGFkZHJlc3MpKHVpbnQyNTYpJyAkKFRPKSAtLXJwYy11cmwgJChGT1JLX1JQQykpIgoKZGV2OiAjIyBTdGFydCB0aGUgd2ViIGFwcCBvbiBodHRwOi8vbG9jYWxob3N0OjMwMDAKCXBucG0gZGV2Cg==
+# Aevum Starter Kit. Run `make help` for the list.
+SHELL := /bin/bash
+.DEFAULT_GOAL := help
+
+AEVUM_RPC   ?= https://rpc-test.qday.info
+LOCAL_RPC   ?= http://127.0.0.1:8545
+# Own port, so wallets can hold it next to an existing "Localhost 8545" / anvil network
+# (MetaMask refuses two networks with the same RPC URL).
+FORK_PORT   ?= 8555
+FORK_RPC    ?= http://127.0.0.1:$(FORK_PORT)
+TUSD8       := 0x456569838f1d43009A91ebA4263147Afd7233483
+# tUSD8's master minter. Only used on a local fork, where anyone can impersonate it.
+TUSD8_MM    := 0x4d4b7031D35B74215bebe33F6AF6e682Ea99d0b1
+# anvil's first default account (public test account, local chains only).
+ANVIL_0     := 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+AMOUNT      ?= 100
+# `make fork` runs under its own chain ID so wallets and signatures never mix it up with the real testnet.
+FORK_CHAIN  := 440050
+
+.PHONY: help install build test test-fork check anvil fork deploy-local deploy-fork deploy-aevum mint deal dev
+
+help: ## Show this list
+	@grep -E '^[a-z-]+:.*## ' $(MAKEFILE_LIST) | awk -F':.*## ' '{printf "  \033[36mmake %-14s\033[0m %s\n", $$1, $$2}'
+
+install: ## Fetch Solidity libs and JS packages
+	git submodule update --init --recursive
+	pnpm install
+
+build: ## Compile contracts and check they are Shanghai-safe
+	cd contracts && forge build
+	node tools/check-shanghai.mjs contracts/out
+
+test: ## Unit tests (local, no network)
+	cd contracts && forge test --no-match-path 'test/fork/*' -vv
+
+test-fork: ## Tests against the real tUSD8 on a local fork of Aevum (no funds needed)
+	cd contracts && forge test --match-path 'test/fork/*' --fork-url $(AEVUM_RPC) -vv
+
+check: build test test-fork ## Everything CI runs
+	pnpm -r typecheck
+
+anvil: ## Empty local chain (31337) with Aevum's EVM rules
+	anvil --hardfork shanghai
+
+fork: ## Local copy of Aevum testnet on 127.0.0.1:8555 (chain 440050)
+	anvil --fork-url $(AEVUM_RPC) --hardfork shanghai --chain-id $(FORK_CHAIN) --port $(FORK_PORT)
+
+deploy-local: ## Deploy MockUSD8 + Checkout to `make anvil`
+	cd contracts && forge script script/Deploy.s.sol --rpc-url $(LOCAL_RPC) --broadcast --unlocked --sender $(ANVIL_0)
+
+# Deploy from a random address nobody has the key for (anvil impersonates it), not from a public
+# anvil account. Otherwise the fork's contract addresses could be claimed on the real testnet by
+# anyone holding that public key.
+deploy-fork: ## Deploy Checkout (real tUSD8) to `make fork`
+	@test "$$(cast chain-id --rpc-url $(FORK_RPC))" = "$(FORK_CHAIN)" || (echo "This only works on 'make fork'." && exit 1)
+	@DEPLOYER=$$(cast to-check-sum-address 0x$$(openssl rand -hex 20)); \
+	  cast rpc anvil_setBalance $$DEPLOYER 0x8ac7230489e80000 --rpc-url $(FORK_RPC) > /dev/null && \
+	  cast rpc anvil_impersonateAccount $$DEPLOYER --rpc-url $(FORK_RPC) > /dev/null && \
+	  echo "Deploying from throwaway address $$DEPLOYER (no private key exists for it)" && \
+	  cd contracts && MERCHANT=$${MERCHANT:-$(ANVIL_0)} forge script script/Deploy.s.sol --rpc-url $(FORK_RPC) --broadcast --unlocked --sender $$DEPLOYER
+
+deploy-aevum: ## Deploy Checkout to Aevum testnet. Needs ACCOUNT=<keystore name> (see README)
+	@test -n "$(ACCOUNT)" || (echo "Set ACCOUNT=<name>. Create one with: cast wallet import <name> --interactive" && exit 1)
+	cd contracts && forge script script/Deploy.s.sol --rpc-url $(AEVUM_RPC) --broadcast --legacy --account $(ACCOUNT)
+
+mint: ## `make anvil` only: mint AMOUNT MockUSD8 to TO. Needs CHECKOUT=<address>
+	@test -n "$(TO)" -a -n "$(CHECKOUT)" || (echo "Usage: make mint TO=0x... CHECKOUT=0x... [AMOUNT=100]" && exit 1)
+	cast send $$(cast call $(CHECKOUT) "token()(address)" --rpc-url $(LOCAL_RPC)) "mint(address,uint256)" $(TO) $$(cast parse-units $(AMOUNT) 6) \
+	  --rpc-url $(LOCAL_RPC) --unlocked --from $(ANVIL_0) > /dev/null
+	@echo "Minted $(AMOUNT) to $(TO)."
+
+deal: ## `make fork` only: give TO AMOUNT tUSD8 and 10 tQDAY for gas
+	@test -n "$(TO)" || (echo "Usage: make deal TO=0x... [AMOUNT=100]" && exit 1)
+	@test "$$(cast chain-id --rpc-url $(FORK_RPC))" = "$(FORK_CHAIN)" || (echo "This only works on 'make fork'." && exit 1)
+	@cast rpc anvil_setBalance $(TO) 0x8ac7230489e80000 --rpc-url $(FORK_RPC) > /dev/null
+	@cast rpc anvil_impersonateAccount $(TUSD8_MM) --rpc-url $(FORK_RPC) > /dev/null
+	@cast rpc anvil_setBalance $(TUSD8_MM) 0x56BC75E2D63100000 --rpc-url $(FORK_RPC) > /dev/null
+	@cast send $(TUSD8) "configureMinter(address,uint256)" $(TUSD8_MM) 1000000000000000 --from $(TUSD8_MM) --unlocked --rpc-url $(FORK_RPC) > /dev/null
+	@cast send $(TUSD8) "mint(address,uint256)" $(TO) $$(cast parse-units $(AMOUNT) 6) --from $(TUSD8_MM) --unlocked --rpc-url $(FORK_RPC) > /dev/null
+	@echo "tUSD8 balance of $(TO): $$(cast call $(TUSD8) 'balanceOf(address)(uint256)' $(TO) --rpc-url $(FORK_RPC))"
+
+dev: ## Start the web app on http://localhost:3000
+	pnpm dev
