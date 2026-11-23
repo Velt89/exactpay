@@ -1,1 +1,77 @@
-Y29uc3QgZm9ybWF0ID0gcmVxdWlyZSgnLi4vZm9ybWF0LWxpbmVzJyk7CmNvbnN0IHsgVFlQRVMgfSA9IHJlcXVpcmUoJy4vU2xvdC5vcHRzJyk7Cgpjb25zdCBoZWFkZXIgPSBgXApwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCi8qKgogKiBAZGV2IExpYnJhcnkgZm9yIHJlYWRpbmcgYW5kIHdyaXRpbmcgcHJpbWl0aXZlIHR5cGVzIHRvIHNwZWNpZmljIHN0b3JhZ2Ugc2xvdHMuCiAqCiAqIFN0b3JhZ2Ugc2xvdHMgYXJlIG9mdGVuIHVzZWQgdG8gYXZvaWQgc3RvcmFnZSBjb25mbGljdCB3aGVuIGRlYWxpbmcgd2l0aCB1cGdyYWRlYWJsZSBjb250cmFjdHMuCiAqIFRoaXMgbGlicmFyeSBoZWxwcyB3aXRoIHJlYWRpbmcgYW5kIHdyaXRpbmcgdG8gc3VjaCBzbG90cyB3aXRob3V0IHRoZSBuZWVkIGZvciBpbmxpbmUgYXNzZW1ibHkuCiAqCiAqIFRoZSBmdW5jdGlvbnMgaW4gdGhpcyBsaWJyYXJ5IHJldHVybiBTbG90IHN0cnVjdHMgdGhhdCBjb250YWluIGEgXGB2YWx1ZVxgIG1lbWJlciB0aGF0IGNhbiBiZSB1c2VkIHRvIHJlYWQgb3Igd3JpdGUuCiAqCiAqIEV4YW1wbGUgdXNhZ2UgdG8gc2V0IEVSQy0xOTY3IGltcGxlbWVudGF0aW9uIHNsb3Q6CiAqIFxgXGBcYHNvbGlkaXR5CiAqIGNvbnRyYWN0IEVSQzE5NjcgewogKiAgICAgLy8gRGVmaW5lIHRoZSBzbG90LiBBbHRlcm5hdGl2ZWx5LCB1c2UgdGhlIFNsb3REZXJpdmF0aW9uIGxpYnJhcnkgdG8gZGVyaXZlIHRoZSBzbG90LgogKiAgICAgYnl0ZXMzMiBpbnRlcm5hbCBjb25zdGFudCBfSU1QTEVNRU5UQVRJT05fU0xPVCA9IDB4MzYwODk0YTEzYmExYTMyMTA2NjdjODI4NDkyZGI5OGRjYTNlMjA3NmNjMzczNWE5MjBhM2NhNTA1ZDM4MmJiYzsKICoKICogICAgIGZ1bmN0aW9uIF9nZXRJbXBsZW1lbnRhdGlvbigpIGludGVybmFsIHZpZXcgcmV0dXJucyAoYWRkcmVzcykgewogKiAgICAgICAgIHJldHVybiBTdG9yYWdlU2xvdC5nZXRBZGRyZXNzU2xvdChfSU1QTEVNRU5UQVRJT05fU0xPVCkudmFsdWU7CiAqICAgICB9CiAqCiAqICAgICBmdW5jdGlvbiBfc2V0SW1wbGVtZW50YXRpb24oYWRkcmVzcyBuZXdJbXBsZW1lbnRhdGlvbikgaW50ZXJuYWwgewogKiAgICAgICAgIHJlcXVpcmUobmV3SW1wbGVtZW50YXRpb24uY29kZS5sZW5ndGggPiAwKTsKICogICAgICAgICBTdG9yYWdlU2xvdC5nZXRBZGRyZXNzU2xvdChfSU1QTEVNRU5UQVRJT05fU0xPVCkudmFsdWUgPSBuZXdJbXBsZW1lbnRhdGlvbjsKICogICAgIH0KICogfQogKiBcYFxgXGAKICoKICogVElQOiBDb25zaWRlciB1c2luZyB0aGlzIGxpYnJhcnkgYWxvbmcgd2l0aCB7U2xvdERlcml2YXRpb259LgogKi8KYDsKCmNvbnN0IHN0cnVjdCA9ICh7IHR5cGUsIG5hbWUgfSkgPT4gYFwKc3RydWN0ICR7bmFtZX1TbG90IHsKICAgICR7dHlwZX0gdmFsdWU7Cn0KYDsKCmNvbnN0IGdldCA9ICh7IG5hbWUgfSkgPT4gYFwKLyoqCiAqIEBkZXYgUmV0dXJucyAkewogICBuYW1lLnRvTG93ZXJDYXNlKCkuc3RhcnRzV2l0aCgnYScpID8gJ2FuJyA6ICdhJwogfSBcYCR7bmFtZX1TbG90XGAgd2l0aCBtZW1iZXIgXGB2YWx1ZVxgIGxvY2F0ZWQgYXQgXGBzbG90XGAuCiAqLwpmdW5jdGlvbiBnZXQke25hbWV9U2xvdChieXRlczMyIHNsb3QpIGludGVybmFsIHB1cmUgcmV0dXJucyAoJHtuYW1lfVNsb3Qgc3RvcmFnZSByKSB7CiAgICBhc3NlbWJseSAoIm1lbW9yeS1zYWZlIikgewogICAgICAgIHIuc2xvdCA6PSBzbG90CiAgICB9Cn0KYDsKCmNvbnN0IGdldFN0b3JhZ2UgPSAoeyB0eXBlLCBuYW1lIH0pID0+IGBcCi8qKgogKiBAZGV2IFJldHVybnMgYW4gXGAke25hbWV9U2xvdFxgIHJlcHJlc2VudGF0aW9uIG9mIHRoZSAke3R5cGV9IHN0b3JhZ2UgcG9pbnRlciBcYHN0b3JlXGAuCiAqLwpmdW5jdGlvbiBnZXQke25hbWV9U2xvdCgke3R5cGV9IHN0b3JhZ2Ugc3RvcmUpIGludGVybmFsIHB1cmUgcmV0dXJucyAoJHtuYW1lfVNsb3Qgc3RvcmFnZSByKSB7CiAgICBhc3NlbWJseSAoIm1lbW9yeS1zYWZlIikgewogICAgICAgIHIuc2xvdCA6PSBzdG9yZS5zbG90CiAgICB9Cn0KYDsKCi8vIEdFTkVSQVRFCm1vZHVsZS5leHBvcnRzID0gZm9ybWF0KAogIGhlYWRlci50cmltRW5kKCksCiAgJ2xpYnJhcnkgU3RvcmFnZVNsb3QgeycsCiAgZm9ybWF0KAogICAgW10uY29uY2F0KAogICAgICBUWVBFUy5tYXAodHlwZSA9PiBzdHJ1Y3QodHlwZSkpLAogICAgICBUWVBFUy5mbGF0TWFwKHR5cGUgPT4gW2dldCh0eXBlKSwgIXR5cGUuaXNWYWx1ZVR5cGUgJiYgZ2V0U3RvcmFnZSh0eXBlKV0uZmlsdGVyKEJvb2xlYW4pKSwKICAgICksCiAgKS50cmltRW5kKCksCiAgJ30nLAopOwo=
+const format = require('../format-lines');
+const { TYPES } = require('./Slot.opts');
+
+const header = `\
+pragma solidity ^0.8.20;
+
+/**
+ * @dev Library for reading and writing primitive types to specific storage slots.
+ *
+ * Storage slots are often used to avoid storage conflict when dealing with upgradeable contracts.
+ * This library helps with reading and writing to such slots without the need for inline assembly.
+ *
+ * The functions in this library return Slot structs that contain a \`value\` member that can be used to read or write.
+ *
+ * Example usage to set ERC-1967 implementation slot:
+ * \`\`\`solidity
+ * contract ERC1967 {
+ *     // Define the slot. Alternatively, use the SlotDerivation library to derive the slot.
+ *     bytes32 internal constant _IMPLEMENTATION_SLOT = 0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc;
+ *
+ *     function _getImplementation() internal view returns (address) {
+ *         return StorageSlot.getAddressSlot(_IMPLEMENTATION_SLOT).value;
+ *     }
+ *
+ *     function _setImplementation(address newImplementation) internal {
+ *         require(newImplementation.code.length > 0);
+ *         StorageSlot.getAddressSlot(_IMPLEMENTATION_SLOT).value = newImplementation;
+ *     }
+ * }
+ * \`\`\`
+ *
+ * TIP: Consider using this library along with {SlotDerivation}.
+ */
+`;
+
+const struct = ({ type, name }) => `\
+struct ${name}Slot {
+    ${type} value;
+}
+`;
+
+const get = ({ name }) => `\
+/**
+ * @dev Returns ${
+   name.toLowerCase().startsWith('a') ? 'an' : 'a'
+ } \`${name}Slot\` with member \`value\` located at \`slot\`.
+ */
+function get${name}Slot(bytes32 slot) internal pure returns (${name}Slot storage r) {
+    assembly ("memory-safe") {
+        r.slot := slot
+    }
+}
+`;
+
+const getStorage = ({ type, name }) => `\
+/**
+ * @dev Returns an \`${name}Slot\` representation of the ${type} storage pointer \`store\`.
+ */
+function get${name}Slot(${type} storage store) internal pure returns (${name}Slot storage r) {
+    assembly ("memory-safe") {
+        r.slot := store.slot
+    }
+}
+`;
+
+// GENERATE
+module.exports = format(
+  header.trimEnd(),
+  'library StorageSlot {',
+  format(
+    [].concat(
+      TYPES.map(type => struct(type)),
+      TYPES.flatMap(type => [get(type), !type.isValueType && getStorage(type)].filter(Boolean)),
+    ),
+  ).trimEnd(),
+  '}',
+);
