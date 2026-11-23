@@ -1,1 +1,325 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBtaW5lIH0gPSByZXF1aXJlKCdAbm9taWNmb3VuZGF0aW9uL2hhcmRoYXQtbmV0d29yay1oZWxwZXJzJyk7Cgpjb25zdCB7IGdldERvbWFpbiwgRGVsZWdhdGlvbiB9ID0gcmVxdWlyZSgnLi4vLi4vaGVscGVycy9laXA3MTInKTsKY29uc3QgdGltZSA9IHJlcXVpcmUoJy4uLy4uL2hlbHBlcnMvdGltZScpOwoKY29uc3QgeyBzaG91bGRCZWhhdmVMaWtlRVJDNjM3MiB9ID0gcmVxdWlyZSgnLi9FUkM2MzcyLmJlaGF2aW9yJyk7CgpmdW5jdGlvbiBzaG91bGRCZWhhdmVMaWtlVm90ZXModG9rZW5zLCB7IG1vZGUgPSAnYmxvY2tudW1iZXInLCBmdW5naWJsZSA9IHRydWUgfSkgewogIGJlZm9yZUVhY2goYXN5bmMgZnVuY3Rpb24gKCkgewogICAgW3RoaXMuZGVsZWdhdG9yLCB0aGlzLmRlbGVnYXRlZSwgdGhpcy5hbGljZSwgdGhpcy5ib2IsIHRoaXMub3RoZXJdID0gdGhpcy5hY2NvdW50czsKICAgIHRoaXMuZG9tYWluID0gYXdhaXQgZ2V0RG9tYWluKHRoaXMudm90ZXMpOwogIH0pOwoKICBzaG91bGRCZWhhdmVMaWtlRVJDNjM3Mihtb2RlKTsKCiAgY29uc3QgZ2V0V2VpZ2h0ID0gdG9rZW4gPT4gKGZ1bmdpYmxlID8gdG9rZW4gOiAxbik7CgogIGRlc2NyaWJlKCdydW4gdm90ZXMgd29ya2Zsb3cnLCBmdW5jdGlvbiAoKSB7CiAgICBpdCgnaW5pdGlhbCBub25jZSBpcyAwJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBleHBlY3QoYXdhaXQgdGhpcy52b3Rlcy5ub25jZXModGhpcy5hbGljZSkpLnRvLmVxdWFsKDBuKTsKICAgIH0pOwoKICAgIGRlc2NyaWJlKCdkZWxlZ2F0aW9uIHdpdGggc2lnbmF0dXJlJywgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCB0b2tlbiA9IHRva2Vuc1swXTsKCiAgICAgIGl0KCdkZWxlZ2F0aW9uIHdpdGhvdXQgdG9rZW5zJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnZvdGVzLmRlbGVnYXRlcyh0aGlzLmFsaWNlKSkudG8uZXF1YWwoZXRoZXJzLlplcm9BZGRyZXNzKTsKCiAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMudm90ZXMuY29ubmVjdCh0aGlzLmFsaWNlKS5kZWxlZ2F0ZSh0aGlzLmFsaWNlKSkKICAgICAgICAgIC50by5lbWl0KHRoaXMudm90ZXMsICdEZWxlZ2F0ZUNoYW5nZWQnKQogICAgICAgICAgLndpdGhBcmdzKHRoaXMuYWxpY2UsIGV0aGVycy5aZXJvQWRkcmVzcywgdGhpcy5hbGljZSkKICAgICAgICAgIC50by5ub3QuZW1pdCh0aGlzLnZvdGVzLCAnRGVsZWdhdGVWb3Rlc0NoYW5nZWQnKTsKCiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudm90ZXMuZGVsZWdhdGVzKHRoaXMuYWxpY2UpKS50by5lcXVhbCh0aGlzLmFsaWNlKTsKICAgICAgfSk7CgogICAgICBpdCgnZGVsZWdhdGlvbiB3aXRoIHRva2VucycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBhd2FpdCB0aGlzLnZvdGVzLiRfbWludCh0aGlzLmFsaWNlLCB0b2tlbik7CiAgICAgICAgY29uc3Qgd2VpZ2h0ID0gZ2V0V2VpZ2h0KHRva2VuKTsKCiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudm90ZXMuZGVsZWdhdGVzKHRoaXMuYWxpY2UpKS50by5lcXVhbChldGhlcnMuWmVyb0FkZHJlc3MpOwoKICAgICAgICBjb25zdCB0eCA9IGF3YWl0IHRoaXMudm90ZXMuY29ubmVjdCh0aGlzLmFsaWNlKS5kZWxlZ2F0ZSh0aGlzLmFsaWNlKTsKICAgICAgICBjb25zdCB0aW1lcG9pbnQgPSBhd2FpdCB0aW1lLmNsb2NrRnJvbVJlY2VpcHRbbW9kZV0odHgpOwoKICAgICAgICBhd2FpdCBleHBlY3QodHgpCiAgICAgICAgICAudG8uZW1pdCh0aGlzLnZvdGVzLCAnRGVsZWdhdGVDaGFuZ2VkJykKICAgICAgICAgIC53aXRoQXJncyh0aGlzLmFsaWNlLCBldGhlcnMuWmVyb0FkZHJlc3MsIHRoaXMuYWxpY2UpCiAgICAgICAgICAudG8uZW1pdCh0aGlzLnZvdGVzLCAnRGVsZWdhdGVWb3Rlc0NoYW5nZWQnKQogICAgICAgICAgLndpdGhBcmdzKHRoaXMuYWxpY2UsIDBuLCB3ZWlnaHQpOwoKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy52b3Rlcy5kZWxlZ2F0ZXModGhpcy5hbGljZSkpLnRvLmVxdWFsKHRoaXMuYWxpY2UpOwogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnZvdGVzLmdldFZvdGVzKHRoaXMuYWxpY2UpKS50by5lcXVhbCh3ZWlnaHQpOwogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnZvdGVzLmdldFBhc3RWb3Rlcyh0aGlzLmFsaWNlLCB0aW1lcG9pbnQgLSAxbikpLnRvLmVxdWFsKDBuKTsKICAgICAgICBhd2FpdCBtaW5lKCk7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudm90ZXMuZ2V0UGFzdFZvdGVzKHRoaXMuYWxpY2UsIHRpbWVwb2ludCkpLnRvLmVxdWFsKHdlaWdodCk7CiAgICAgIH0pOwoKICAgICAgaXQoJ2RlbGVnYXRpb24gdXBkYXRlJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGF3YWl0IHRoaXMudm90ZXMuY29ubmVjdCh0aGlzLmFsaWNlKS5kZWxlZ2F0ZSh0aGlzLmFsaWNlKTsKICAgICAgICBhd2FpdCB0aGlzLnZvdGVzLiRfbWludCh0aGlzLmFsaWNlLCB0b2tlbik7CiAgICAgICAgY29uc3Qgd2VpZ2h0ID0gZ2V0V2VpZ2h0KHRva2VuKTsKCiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudm90ZXMuZGVsZWdhdGVzKHRoaXMuYWxpY2UpKS50by5lcXVhbCh0aGlzLmFsaWNlKTsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy52b3Rlcy5nZXRWb3Rlcyh0aGlzLmFsaWNlKSkudG8uZXF1YWwod2VpZ2h0KTsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy52b3Rlcy5nZXRWb3Rlcyh0aGlzLmJvYikpLnRvLmVxdWFsKDApOwoKICAgICAgICBjb25zdCB0eCA9IGF3YWl0IHRoaXMudm90ZXMuY29ubmVjdCh0aGlzLmFsaWNlKS5kZWxlZ2F0ZSh0aGlzLmJvYik7CiAgICAgICAgY29uc3QgdGltZXBvaW50ID0gYXdhaXQgdGltZS5jbG9ja0Zyb21SZWNlaXB0W21vZGVdKHR4KTsKCiAgICAgICAgYXdhaXQgZXhwZWN0KHR4KQogICAgICAgICAgLnRvLmVtaXQodGhpcy52b3RlcywgJ0RlbGVnYXRlQ2hhbmdlZCcpCiAgICAgICAgICAud2l0aEFyZ3ModGhpcy5hbGljZSwgdGhpcy5hbGljZSwgdGhpcy5ib2IpCiAgICAgICAgICAudG8uZW1pdCh0aGlzLnZvdGVzLCAnRGVsZWdhdGVWb3Rlc0NoYW5nZWQnKQogICAgICAgICAgLndpdGhBcmdzKHRoaXMuYWxpY2UsIHdlaWdodCwgMCkKICAgICAgICAgIC50by5lbWl0KHRoaXMudm90ZXMsICdEZWxlZ2F0ZVZvdGVzQ2hhbmdlZCcpCiAgICAgICAgICAud2l0aEFyZ3ModGhpcy5ib2IsIDAsIHdlaWdodCk7CgogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnZvdGVzLmRlbGVnYXRlcyh0aGlzLmFsaWNlKSkudG8uZXF1YWwodGhpcy5ib2IpOwogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnZvdGVzLmdldFZvdGVzKHRoaXMuYWxpY2UpKS50by5lcXVhbCgwbik7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudm90ZXMuZ2V0Vm90ZXModGhpcy5ib2IpKS50by5lcXVhbCh3ZWlnaHQpOwoKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy52b3Rlcy5nZXRQYXN0Vm90ZXModGhpcy5hbGljZSwgdGltZXBvaW50IC0gMW4pKS50by5lcXVhbCh3ZWlnaHQpOwogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnZvdGVzLmdldFBhc3RWb3Rlcyh0aGlzLmJvYiwgdGltZXBvaW50IC0gMW4pKS50by5lcXVhbCgwbik7CiAgICAgICAgYXdhaXQgbWluZSgpOwogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnZvdGVzLmdldFBhc3RWb3Rlcyh0aGlzLmFsaWNlLCB0aW1lcG9pbnQpKS50by5lcXVhbCgwbik7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudm90ZXMuZ2V0UGFzdFZvdGVzKHRoaXMuYm9iLCB0aW1lcG9pbnQpKS50by5lcXVhbCh3ZWlnaHQpOwogICAgICB9KTsKCiAgICAgIGRlc2NyaWJlKCd3aXRoIHNpZ25hdHVyZScsIGZ1bmN0aW9uICgpIHsKICAgICAgICBjb25zdCBub25jZSA9IDBuOwoKICAgICAgICBpdCgnYWNjZXB0IHNpZ25lZCBkZWxlZ2F0aW9uJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgYXdhaXQgdGhpcy52b3Rlcy4kX21pbnQodGhpcy5kZWxlZ2F0b3IsIHRva2VuKTsKICAgICAgICAgIGNvbnN0IHdlaWdodCA9IGdldFdlaWdodCh0b2tlbik7CgogICAgICAgICAgY29uc3QgeyByLCBzLCB2IH0gPSBhd2FpdCB0aGlzLmRlbGVnYXRvcgogICAgICAgICAgICAuc2lnblR5cGVkRGF0YSgKICAgICAgICAgICAgICB0aGlzLmRvbWFpbiwKICAgICAgICAgICAgICB7IERlbGVnYXRpb24gfSwKICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBkZWxlZ2F0ZWU6IHRoaXMuZGVsZWdhdGVlLmFkZHJlc3MsCiAgICAgICAgICAgICAgICBub25jZSwKICAgICAgICAgICAgICAgIGV4cGlyeTogZXRoZXJzLk1heFVpbnQyNTYsCiAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgKQogICAgICAgICAgICAudGhlbihldGhlcnMuU2lnbmF0dXJlLmZyb20pOwoKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnZvdGVzLmRlbGVnYXRlcyh0aGlzLmRlbGVnYXRvcikpLnRvLmVxdWFsKGV0aGVycy5aZXJvQWRkcmVzcyk7CgogICAgICAgICAgY29uc3QgdHggPSBhd2FpdCB0aGlzLnZvdGVzLmRlbGVnYXRlQnlTaWcodGhpcy5kZWxlZ2F0ZWUsIG5vbmNlLCBldGhlcnMuTWF4VWludDI1Niwgdiwgciwgcyk7CiAgICAgICAgICBjb25zdCB0aW1lcG9pbnQgPSBhd2FpdCB0aW1lLmNsb2NrRnJvbVJlY2VpcHRbbW9kZV0odHgpOwoKICAgICAgICAgIGF3YWl0IGV4cGVjdCh0eCkKICAgICAgICAgICAgLnRvLmVtaXQodGhpcy52b3RlcywgJ0RlbGVnYXRlQ2hhbmdlZCcpCiAgICAgICAgICAgIC53aXRoQXJncyh0aGlzLmRlbGVnYXRvciwgZXRoZXJzLlplcm9BZGRyZXNzLCB0aGlzLmRlbGVnYXRlZSkKICAgICAgICAgICAgLnRvLmVtaXQodGhpcy52b3RlcywgJ0RlbGVnYXRlVm90ZXNDaGFuZ2VkJykKICAgICAgICAgICAgLndpdGhBcmdzKHRoaXMuZGVsZWdhdGVlLCAwLCB3ZWlnaHQpOwoKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnZvdGVzLmRlbGVnYXRlcyh0aGlzLmRlbGVnYXRvci5hZGRyZXNzKSkudG8uZXF1YWwodGhpcy5kZWxlZ2F0ZWUpOwogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudm90ZXMuZ2V0Vm90ZXModGhpcy5kZWxlZ2F0b3IuYWRkcmVzcykpLnRvLmVxdWFsKDBuKTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnZvdGVzLmdldFZvdGVzKHRoaXMuZGVsZWdhdGVlKSkudG8uZXF1YWwod2VpZ2h0KTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnZvdGVzLmdldFBhc3RWb3Rlcyh0aGlzLmRlbGVnYXRlZSwgdGltZXBvaW50IC0gMW4pKS50by5lcXVhbCgwbik7CiAgICAgICAgICBhd2FpdCBtaW5lKCk7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy52b3Rlcy5nZXRQYXN0Vm90ZXModGhpcy5kZWxlZ2F0ZWUsIHRpbWVwb2ludCkpLnRvLmVxdWFsKHdlaWdodCk7CiAgICAgICAgfSk7CgogICAgICAgIGl0KCdyZWplY3RzIHJldXNlZCBzaWduYXR1cmUnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICBjb25zdCB7IHIsIHMsIHYgfSA9IGF3YWl0IHRoaXMuZGVsZWdhdG9yCiAgICAgICAgICAgIC5zaWduVHlwZWREYXRhKAogICAgICAgICAgICAgIHRoaXMuZG9tYWluLAogICAgICAgICAgICAgIHsgRGVsZWdhdGlvbiB9LAogICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIGRlbGVnYXRlZTogdGhpcy5kZWxlZ2F0ZWUuYWRkcmVzcywKICAgICAgICAgICAgICAgIG5vbmNlLAogICAgICAgICAgICAgICAgZXhwaXJ5OiBldGhlcnMuTWF4VWludDI1NiwKICAgICAgICAgICAgICB9LAogICAgICAgICAgICApCiAgICAgICAgICAgIC50aGVuKGV0aGVycy5TaWduYXR1cmUuZnJvbSk7CgogICAgICAgICAgYXdhaXQgdGhpcy52b3Rlcy5kZWxlZ2F0ZUJ5U2lnKHRoaXMuZGVsZWdhdGVlLCBub25jZSwgZXRoZXJzLk1heFVpbnQyNTYsIHYsIHIsIHMpOwoKICAgICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLnZvdGVzLmRlbGVnYXRlQnlTaWcodGhpcy5kZWxlZ2F0ZWUsIG5vbmNlLCBldGhlcnMuTWF4VWludDI1NiwgdiwgciwgcykpCiAgICAgICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLnZvdGVzLCAnSW52YWxpZEFjY291bnROb25jZScpCiAgICAgICAgICAgIC53aXRoQXJncyh0aGlzLmRlbGVnYXRvciwgbm9uY2UgKyAxbik7CiAgICAgICAgfSk7CgogICAgICAgIGl0KCdyZWplY3RzIGJhZCBkZWxlZ2F0ZWUnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICBjb25zdCB7IHIsIHMsIHYgfSA9IGF3YWl0IHRoaXMuZGVsZWdhdG9yCiAgICAgICAgICAgIC5zaWduVHlwZWREYXRhKAogICAgICAgICAgICAgIHRoaXMuZG9tYWluLAogICAgICAgICAgICAgIHsgRGVsZWdhdGlvbiB9LAogICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIGRlbGVnYXRlZTogdGhpcy5kZWxlZ2F0ZWUuYWRkcmVzcywKICAgICAgICAgICAgICAgIG5vbmNlLAogICAgICAgICAgICAgICAgZXhwaXJ5OiBldGhlcnMuTWF4VWludDI1NiwKICAgICAgICAgICAgICB9LAogICAgICAgICAgICApCiAgICAgICAgICAgIC50aGVuKGV0aGVycy5TaWduYXR1cmUuZnJvbSk7CgogICAgICAgICAgY29uc3QgdHggPSBhd2FpdCB0aGlzLnZvdGVzLmRlbGVnYXRlQnlTaWcodGhpcy5vdGhlciwgbm9uY2UsIGV0aGVycy5NYXhVaW50MjU2LCB2LCByLCBzKTsKICAgICAgICAgIGNvbnN0IHJlY2VpcHQgPSBhd2FpdCB0eC53YWl0KCk7CgogICAgICAgICAgY29uc3QgW2RlbGVnYXRlQ2hhbmdlZF0gPSByZWNlaXB0LmxvZ3MuZmlsdGVyKAogICAgICAgICAgICBsb2cgPT4gdGhpcy52b3Rlcy5pbnRlcmZhY2UucGFyc2VMb2cobG9nKT8ubmFtZSA9PT0gJ0RlbGVnYXRlQ2hhbmdlZCcsCiAgICAgICAgICApOwogICAgICAgICAgY29uc3QgeyBhcmdzIH0gPSB0aGlzLnZvdGVzLmludGVyZmFjZS5wYXJzZUxvZyhkZWxlZ2F0ZUNoYW5nZWQpOwogICAgICAgICAgZXhwZWN0KGFyZ3MuZGVsZWdhdG9yKS50by5ub3QuYmUuZXF1YWwodGhpcy5kZWxlZ2F0b3IpOwogICAgICAgICAgZXhwZWN0KGFyZ3MuZnJvbURlbGVnYXRlKS50by5lcXVhbChldGhlcnMuWmVyb0FkZHJlc3MpOwogICAgICAgICAgZXhwZWN0KGFyZ3MudG9EZWxlZ2F0ZSkudG8uZXF1YWwodGhpcy5vdGhlcik7CiAgICAgICAgfSk7CgogICAgICAgIGl0KCdyZWplY3RzIGJhZCBub25jZScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGNvbnN0IHsgciwgcywgdiB9ID0gYXdhaXQgdGhpcy5kZWxlZ2F0b3IKICAgICAgICAgICAgLnNpZ25UeXBlZERhdGEoCiAgICAgICAgICAgICAgdGhpcy5kb21haW4sCiAgICAgICAgICAgICAgeyBEZWxlZ2F0aW9uIH0sCiAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgZGVsZWdhdGVlOiB0aGlzLmRlbGVnYXRlZS5hZGRyZXNzLAogICAgICAgICAgICAgICAgbm9uY2U6IG5vbmNlICsgMW4sCiAgICAgICAgICAgICAgICBleHBpcnk6IGV0aGVycy5NYXhVaW50MjU2LAogICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICkKICAgICAgICAgICAgLnRoZW4oZXRoZXJzLlNpZ25hdHVyZS5mcm9tKTsKCiAgICAgICAgICBhd2FpdCBleHBlY3QodGhpcy52b3Rlcy5kZWxlZ2F0ZUJ5U2lnKHRoaXMuZGVsZWdhdGVlLCBub25jZSArIDFuLCBldGhlcnMuTWF4VWludDI1NiwgdiwgciwgcykpCiAgICAgICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLnZvdGVzLCAnSW52YWxpZEFjY291bnROb25jZScpCiAgICAgICAgICAgIC53aXRoQXJncyh0aGlzLmRlbGVnYXRvciwgMCk7CiAgICAgICAgfSk7CgogICAgICAgIGl0KCdyZWplY3RzIGV4cGlyZWQgcGVybWl0JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgY29uc3QgZXhwaXJ5ID0gKGF3YWl0IHRpbWUuY2xvY2sudGltZXN0YW1wKCkpIC0gMW47CiAgICAgICAgICBjb25zdCB7IHIsIHMsIHYgfSA9IGF3YWl0IHRoaXMuZGVsZWdhdG9yCiAgICAgICAgICAgIC5zaWduVHlwZWREYXRhKAogICAgICAgICAgICAgIHRoaXMuZG9tYWluLAogICAgICAgICAgICAgIHsgRGVsZWdhdGlvbiB9LAogICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIGRlbGVnYXRlZTogdGhpcy5kZWxlZ2F0ZWUuYWRkcmVzcywKICAgICAgICAgICAgICAgIG5vbmNlLAogICAgICAgICAgICAgICAgZXhwaXJ5LAogICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICkKICAgICAgICAgICAgLnRoZW4oZXRoZXJzLlNpZ25hdHVyZS5mcm9tKTsKCiAgICAgICAgICBhd2FpdCBleHBlY3QodGhpcy52b3Rlcy5kZWxlZ2F0ZUJ5U2lnKHRoaXMuZGVsZWdhdGVlLCBub25jZSwgZXhwaXJ5LCB2LCByLCBzKSkKICAgICAgICAgICAgLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMudm90ZXMsICdWb3Rlc0V4cGlyZWRTaWduYXR1cmUnKQogICAgICAgICAgICAud2l0aEFyZ3MoZXhwaXJ5KTsKICAgICAgICB9KTsKICAgICAgfSk7CiAgICB9KTsKCiAgICBkZXNjcmliZSgnZ2V0UGFzdFRvdGFsU3VwcGx5JywgZnVuY3Rpb24gKCkgewogICAgICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBhd2FpdCB0aGlzLnZvdGVzLmNvbm5lY3QodGhpcy5hbGljZSkuZGVsZWdhdGUodGhpcy5hbGljZSk7CiAgICAgIH0pOwoKICAgICAgaXQoJ3JldmVydHMgaWYgYmxvY2sgbnVtYmVyID49IGN1cnJlbnQgYmxvY2snLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgY29uc3QgdGltZXBvaW50ID0gNWUxMDsKICAgICAgICBjb25zdCBjbG9jayA9IGF3YWl0IHRoaXMudm90ZXMuY2xvY2soKTsKICAgICAgICBhd2FpdCBleHBlY3QodGhpcy52b3Rlcy5nZXRQYXN0VG90YWxTdXBwbHkodGltZXBvaW50KSkKICAgICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLnZvdGVzLCAnRVJDNTgwNUZ1dHVyZUxvb2t1cCcpCiAgICAgICAgICAud2l0aEFyZ3ModGltZXBvaW50LCBjbG9jayk7CiAgICAgIH0pOwoKICAgICAgaXQoJ3JldHVybnMgMCBpZiB0aGVyZSBhcmUgbm8gY2hlY2twb2ludHMnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudm90ZXMuZ2V0UGFzdFRvdGFsU3VwcGx5KDBuKSkudG8uZXF1YWwoMG4pOwogICAgICB9KTsKCiAgICAgIGl0KCdyZXR1cm5zIHRoZSBjb3JyZWN0IGNoZWNrcG9pbnRlZCB0b3RhbCBzdXBwbHknLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgY29uc3Qgd2VpZ2h0ID0gdG9rZW5zLm1hcCh0b2tlbiA9PiBnZXRXZWlnaHQodG9rZW4pKTsKCiAgICAgICAgLy8gdDAgPSBtaW50ICMwCiAgICAgICAgY29uc3QgdDAgPSBhd2FpdCB0aGlzLnZvdGVzLiRfbWludCh0aGlzLmFsaWNlLCB0b2tlbnNbMF0pOwogICAgICAgIGF3YWl0IG1pbmUoKTsKICAgICAgICAvLyB0MSA9IG1pbnQgIzEKICAgICAgICBjb25zdCB0MSA9IGF3YWl0IHRoaXMudm90ZXMuJF9taW50KHRoaXMuYWxpY2UsIHRva2Vuc1sxXSk7CiAgICAgICAgYXdhaXQgbWluZSgpOwogICAgICAgIC8vIHQyID0gYnVybiAjMQogICAgICAgIGNvbnN0IHQyID0gYXdhaXQgdGhpcy52b3Rlcy4kX2J1cm4oLi4uKGZ1bmdpYmxlID8gW3RoaXMuYWxpY2VdIDogW10pLCB0b2tlbnNbMV0pOwogICAgICAgIGF3YWl0IG1pbmUoKTsKICAgICAgICAvLyB0MyA9IG1pbnQgIzIKICAgICAgICBjb25zdCB0MyA9IGF3YWl0IHRoaXMudm90ZXMuJF9taW50KHRoaXMuYWxpY2UsIHRva2Vuc1syXSk7CiAgICAgICAgYXdhaXQgbWluZSgpOwogICAgICAgIC8vIHQ0ID0gYnVybiAjMAogICAgICAgIGNvbnN0IHQ0ID0gYXdhaXQgdGhpcy52b3Rlcy4kX2J1cm4oLi4uKGZ1bmdpYmxlID8gW3RoaXMuYWxpY2VdIDogW10pLCB0b2tlbnNbMF0pOwogICAgICAgIGF3YWl0IG1pbmUoKTsKICAgICAgICAvLyB0NSA9IGJ1cm4gIzIKICAgICAgICBjb25zdCB0NSA9IGF3YWl0IHRoaXMudm90ZXMuJF9idXJuKC4uLihmdW5naWJsZSA/IFt0aGlzLmFsaWNlXSA6IFtdKSwgdG9rZW5zWzJdKTsKICAgICAgICBhd2FpdCBtaW5lKCk7CgogICAgICAgIHQwLnRpbWVwb2ludCA9IGF3YWl0IHRpbWUuY2xvY2tGcm9tUmVjZWlwdFttb2RlXSh0MCk7CiAgICAgICAgdDEudGltZXBvaW50ID0gYXdhaXQgdGltZS5jbG9ja0Zyb21SZWNlaXB0W21vZGVdKHQxKTsKICAgICAgICB0Mi50aW1lcG9pbnQgPSBhd2FpdCB0aW1lLmNsb2NrRnJvbVJlY2VpcHRbbW9kZV0odDIpOwogICAgICAgIHQzLnRpbWVwb2ludCA9IGF3YWl0IHRpbWUuY2xvY2tGcm9tUmVjZWlwdFttb2RlXSh0Myk7CiAgICAgICAgdDQudGltZXBvaW50ID0gYXdhaXQgdGltZS5jbG9ja0Zyb21SZWNlaXB0W21vZGVdKHQ0KTsKICAgICAgICB0NS50aW1lcG9pbnQgPSBhd2FpdCB0aW1lLmNsb2NrRnJvbVJlY2VpcHRbbW9kZV0odDUpOwoKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy52b3Rlcy5nZXRQYXN0VG90YWxTdXBwbHkodDAudGltZXBvaW50IC0gMW4pKS50by5lcXVhbCgwKTsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy52b3Rlcy5nZXRQYXN0VG90YWxTdXBwbHkodDAudGltZXBvaW50KSkudG8uZXF1YWwod2VpZ2h0WzBdKTsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy52b3Rlcy5nZXRQYXN0VG90YWxTdXBwbHkodDAudGltZXBvaW50ICsgMW4pKS50by5lcXVhbCh3ZWlnaHRbMF0pOwogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnZvdGVzLmdldFBhc3RUb3RhbFN1cHBseSh0MS50aW1lcG9pbnQpKS50by5lcXVhbCh3ZWlnaHRbMF0gKyB3ZWlnaHRbMV0pOwogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnZvdGVzLmdldFBhc3RUb3RhbFN1cHBseSh0MS50aW1lcG9pbnQgKyAxbikpLnRvLmVxdWFsKHdlaWdodFswXSArIHdlaWdodFsxXSk7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudm90ZXMuZ2V0UGFzdFRvdGFsU3VwcGx5KHQyLnRpbWVwb2ludCkpLnRvLmVxdWFsKHdlaWdodFswXSk7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudm90ZXMuZ2V0UGFzdFRvdGFsU3VwcGx5KHQyLnRpbWVwb2ludCArIDFuKSkudG8uZXF1YWwod2VpZ2h0WzBdKTsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy52b3Rlcy5nZXRQYXN0VG90YWxTdXBwbHkodDMudGltZXBvaW50KSkudG8uZXF1YWwod2VpZ2h0WzBdICsgd2VpZ2h0WzJdKTsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy52b3Rlcy5nZXRQYXN0VG90YWxTdXBwbHkodDMudGltZXBvaW50ICsgMW4pKS50by5lcXVhbCh3ZWlnaHRbMF0gKyB3ZWlnaHRbMl0pOwogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnZvdGVzLmdldFBhc3RUb3RhbFN1cHBseSh0NC50aW1lcG9pbnQpKS50by5lcXVhbCh3ZWlnaHRbMl0pOwogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnZvdGVzLmdldFBhc3RUb3RhbFN1cHBseSh0NC50aW1lcG9pbnQgKyAxbikpLnRvLmVxdWFsKHdlaWdodFsyXSk7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudm90ZXMuZ2V0UGFzdFRvdGFsU3VwcGx5KHQ1LnRpbWVwb2ludCkpLnRvLmVxdWFsKDApOwogICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLnZvdGVzLmdldFBhc3RUb3RhbFN1cHBseSh0NS50aW1lcG9pbnQgKyAxbikpCiAgICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy52b3RlcywgJ0VSQzU4MDVGdXR1cmVMb29rdXAnKQogICAgICAgICAgLndpdGhBcmdzKHQ1LnRpbWVwb2ludCArIDFuLCB0NS50aW1lcG9pbnQgKyAxbik7CiAgICAgIH0pOwogICAgfSk7CgogICAgLy8gVGhlIGZvbGxvd2luZyB0ZXN0cyBhcmUgYW4gYWRhcHRhdGlvbiBvZgogICAgLy8gaHR0cHM6Ly9naXRodWIuY29tL2NvbXBvdW5kLWZpbmFuY2UvY29tcG91bmQtcHJvdG9jb2wvYmxvYi9tYXN0ZXIvdGVzdHMvR292ZXJuYW5jZS9Db21wVGVzdC5qcy4KICAgIGRlc2NyaWJlKCdDb21wb3VuZCB0ZXN0IHN1aXRlJywgZnVuY3Rpb24gKCkgewogICAgICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBhd2FpdCB0aGlzLnZvdGVzLiRfbWludCh0aGlzLmFsaWNlLCB0b2tlbnNbMF0pOwogICAgICAgIGF3YWl0IHRoaXMudm90ZXMuJF9taW50KHRoaXMuYWxpY2UsIHRva2Vuc1sxXSk7CiAgICAgICAgYXdhaXQgdGhpcy52b3Rlcy4kX21pbnQodGhpcy5hbGljZSwgdG9rZW5zWzJdKTsKICAgICAgfSk7CgogICAgICBkZXNjcmliZSgnZ2V0UGFzdFZvdGVzJywgZnVuY3Rpb24gKCkgewogICAgICAgIGl0KCdyZXZlcnRzIGlmIGJsb2NrIG51bWJlciA+PSBjdXJyZW50IGJsb2NrJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgY29uc3QgY2xvY2sgPSBhd2FpdCB0aGlzLnZvdGVzLmNsb2NrKCk7CiAgICAgICAgICBjb25zdCB0aW1lcG9pbnQgPSA1ZTEwOyAvLyBmYXIgaW4gdGhlIGZ1dHVyZQogICAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMudm90ZXMuZ2V0UGFzdFZvdGVzKHRoaXMuYm9iLCB0aW1lcG9pbnQpKQogICAgICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy52b3RlcywgJ0VSQzU4MDVGdXR1cmVMb29rdXAnKQogICAgICAgICAgICAud2l0aEFyZ3ModGltZXBvaW50LCBjbG9jayk7CiAgICAgICAgfSk7CgogICAgICAgIGl0KCdyZXR1cm5zIDAgaWYgdGhlcmUgYXJlIG5vIGNoZWNrcG9pbnRzJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudm90ZXMuZ2V0UGFzdFZvdGVzKHRoaXMuYm9iLCAwbikpLnRvLmVxdWFsKDBuKTsKICAgICAgICB9KTsKCiAgICAgICAgaXQoJ3JldHVybnMgdGhlIGxhdGVzdCBibG9jayBpZiA+PSBsYXN0IGNoZWNrcG9pbnQgYmxvY2snLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICBjb25zdCBkZWxlZ2F0ZSA9IGF3YWl0IHRoaXMudm90ZXMuY29ubmVjdCh0aGlzLmFsaWNlKS5kZWxlZ2F0ZSh0aGlzLmJvYik7CiAgICAgICAgICBjb25zdCB0aW1lcG9pbnQgPSBhd2FpdCB0aW1lLmNsb2NrRnJvbVJlY2VpcHRbbW9kZV0oZGVsZWdhdGUpOwogICAgICAgICAgYXdhaXQgbWluZSgyKTsKCiAgICAgICAgICBjb25zdCBsYXRlc3QgPSBhd2FpdCB0aGlzLnZvdGVzLmdldFZvdGVzKHRoaXMuYm9iKTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnZvdGVzLmdldFBhc3RWb3Rlcyh0aGlzLmJvYiwgdGltZXBvaW50KSkudG8uZXF1YWwobGF0ZXN0KTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnZvdGVzLmdldFBhc3RWb3Rlcyh0aGlzLmJvYiwgdGltZXBvaW50ICsgMW4pKS50by5lcXVhbChsYXRlc3QpOwogICAgICAgIH0pOwoKICAgICAgICBpdCgncmV0dXJucyB6ZXJvIGlmIDwgZmlyc3QgY2hlY2twb2ludCBibG9jaycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGF3YWl0IG1pbmUoKTsKICAgICAgICAgIGNvbnN0IGRlbGVnYXRlID0gYXdhaXQgdGhpcy52b3Rlcy5jb25uZWN0KHRoaXMuYWxpY2UpLmRlbGVnYXRlKHRoaXMuYm9iKTsKICAgICAgICAgIGNvbnN0IHRpbWVwb2ludCA9IGF3YWl0IHRpbWUuY2xvY2tGcm9tUmVjZWlwdFttb2RlXShkZWxlZ2F0ZSk7CiAgICAgICAgICBhd2FpdCBtaW5lKDIpOwoKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnZvdGVzLmdldFBhc3RWb3Rlcyh0aGlzLmJvYiwgdGltZXBvaW50IC0gMW4pKS50by5lcXVhbCgwbik7CiAgICAgICAgfSk7CiAgICAgIH0pOwogICAgfSk7CiAgfSk7Cn0KCm1vZHVsZS5leHBvcnRzID0gewogIHNob3VsZEJlaGF2ZUxpa2VWb3RlcywKfTsK
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { mine } = require('@nomicfoundation/hardhat-network-helpers');
+
+const { getDomain, Delegation } = require('../../helpers/eip712');
+const time = require('../../helpers/time');
+
+const { shouldBehaveLikeERC6372 } = require('./ERC6372.behavior');
+
+function shouldBehaveLikeVotes(tokens, { mode = 'blocknumber', fungible = true }) {
+  beforeEach(async function () {
+    [this.delegator, this.delegatee, this.alice, this.bob, this.other] = this.accounts;
+    this.domain = await getDomain(this.votes);
+  });
+
+  shouldBehaveLikeERC6372(mode);
+
+  const getWeight = token => (fungible ? token : 1n);
+
+  describe('run votes workflow', function () {
+    it('initial nonce is 0', async function () {
+      expect(await this.votes.nonces(this.alice)).to.equal(0n);
+    });
+
+    describe('delegation with signature', function () {
+      const token = tokens[0];
+
+      it('delegation without tokens', async function () {
+        expect(await this.votes.delegates(this.alice)).to.equal(ethers.ZeroAddress);
+
+        await expect(this.votes.connect(this.alice).delegate(this.alice))
+          .to.emit(this.votes, 'DelegateChanged')
+          .withArgs(this.alice, ethers.ZeroAddress, this.alice)
+          .to.not.emit(this.votes, 'DelegateVotesChanged');
+
+        expect(await this.votes.delegates(this.alice)).to.equal(this.alice);
+      });
+
+      it('delegation with tokens', async function () {
+        await this.votes.$_mint(this.alice, token);
+        const weight = getWeight(token);
+
+        expect(await this.votes.delegates(this.alice)).to.equal(ethers.ZeroAddress);
+
+        const tx = await this.votes.connect(this.alice).delegate(this.alice);
+        const timepoint = await time.clockFromReceipt[mode](tx);
+
+        await expect(tx)
+          .to.emit(this.votes, 'DelegateChanged')
+          .withArgs(this.alice, ethers.ZeroAddress, this.alice)
+          .to.emit(this.votes, 'DelegateVotesChanged')
+          .withArgs(this.alice, 0n, weight);
+
+        expect(await this.votes.delegates(this.alice)).to.equal(this.alice);
+        expect(await this.votes.getVotes(this.alice)).to.equal(weight);
+        expect(await this.votes.getPastVotes(this.alice, timepoint - 1n)).to.equal(0n);
+        await mine();
+        expect(await this.votes.getPastVotes(this.alice, timepoint)).to.equal(weight);
+      });
+
+      it('delegation update', async function () {
+        await this.votes.connect(this.alice).delegate(this.alice);
+        await this.votes.$_mint(this.alice, token);
+        const weight = getWeight(token);
+
+        expect(await this.votes.delegates(this.alice)).to.equal(this.alice);
+        expect(await this.votes.getVotes(this.alice)).to.equal(weight);
+        expect(await this.votes.getVotes(this.bob)).to.equal(0);
+
+        const tx = await this.votes.connect(this.alice).delegate(this.bob);
+        const timepoint = await time.clockFromReceipt[mode](tx);
+
+        await expect(tx)
+          .to.emit(this.votes, 'DelegateChanged')
+          .withArgs(this.alice, this.alice, this.bob)
+          .to.emit(this.votes, 'DelegateVotesChanged')
+          .withArgs(this.alice, weight, 0)
+          .to.emit(this.votes, 'DelegateVotesChanged')
+          .withArgs(this.bob, 0, weight);
+
+        expect(await this.votes.delegates(this.alice)).to.equal(this.bob);
+        expect(await this.votes.getVotes(this.alice)).to.equal(0n);
+        expect(await this.votes.getVotes(this.bob)).to.equal(weight);
+
+        expect(await this.votes.getPastVotes(this.alice, timepoint - 1n)).to.equal(weight);
+        expect(await this.votes.getPastVotes(this.bob, timepoint - 1n)).to.equal(0n);
+        await mine();
+        expect(await this.votes.getPastVotes(this.alice, timepoint)).to.equal(0n);
+        expect(await this.votes.getPastVotes(this.bob, timepoint)).to.equal(weight);
+      });
+
+      describe('with signature', function () {
+        const nonce = 0n;
+
+        it('accept signed delegation', async function () {
+          await this.votes.$_mint(this.delegator, token);
+          const weight = getWeight(token);
+
+          const { r, s, v } = await this.delegator
+            .signTypedData(
+              this.domain,
+              { Delegation },
+              {
+                delegatee: this.delegatee.address,
+                nonce,
+                expiry: ethers.MaxUint256,
+              },
+            )
+            .then(ethers.Signature.from);
+
+          expect(await this.votes.delegates(this.delegator)).to.equal(ethers.ZeroAddress);
+
+          const tx = await this.votes.delegateBySig(this.delegatee, nonce, ethers.MaxUint256, v, r, s);
+          const timepoint = await time.clockFromReceipt[mode](tx);
+
+          await expect(tx)
+            .to.emit(this.votes, 'DelegateChanged')
+            .withArgs(this.delegator, ethers.ZeroAddress, this.delegatee)
+            .to.emit(this.votes, 'DelegateVotesChanged')
+            .withArgs(this.delegatee, 0, weight);
+
+          expect(await this.votes.delegates(this.delegator.address)).to.equal(this.delegatee);
+          expect(await this.votes.getVotes(this.delegator.address)).to.equal(0n);
+          expect(await this.votes.getVotes(this.delegatee)).to.equal(weight);
+          expect(await this.votes.getPastVotes(this.delegatee, timepoint - 1n)).to.equal(0n);
+          await mine();
+          expect(await this.votes.getPastVotes(this.delegatee, timepoint)).to.equal(weight);
+        });
+
+        it('rejects reused signature', async function () {
+          const { r, s, v } = await this.delegator
+            .signTypedData(
+              this.domain,
+              { Delegation },
+              {
+                delegatee: this.delegatee.address,
+                nonce,
+                expiry: ethers.MaxUint256,
+              },
+            )
+            .then(ethers.Signature.from);
+
+          await this.votes.delegateBySig(this.delegatee, nonce, ethers.MaxUint256, v, r, s);
+
+          await expect(this.votes.delegateBySig(this.delegatee, nonce, ethers.MaxUint256, v, r, s))
+            .to.be.revertedWithCustomError(this.votes, 'InvalidAccountNonce')
+            .withArgs(this.delegator, nonce + 1n);
+        });
+
+        it('rejects bad delegatee', async function () {
+          const { r, s, v } = await this.delegator
+            .signTypedData(
+              this.domain,
+              { Delegation },
+              {
+                delegatee: this.delegatee.address,
+                nonce,
+                expiry: ethers.MaxUint256,
+              },
+            )
+            .then(ethers.Signature.from);
+
+          const tx = await this.votes.delegateBySig(this.other, nonce, ethers.MaxUint256, v, r, s);
+          const receipt = await tx.wait();
+
+          const [delegateChanged] = receipt.logs.filter(
+            log => this.votes.interface.parseLog(log)?.name === 'DelegateChanged',
+          );
+          const { args } = this.votes.interface.parseLog(delegateChanged);
+          expect(args.delegator).to.not.be.equal(this.delegator);
+          expect(args.fromDelegate).to.equal(ethers.ZeroAddress);
+          expect(args.toDelegate).to.equal(this.other);
+        });
+
+        it('rejects bad nonce', async function () {
+          const { r, s, v } = await this.delegator
+            .signTypedData(
+              this.domain,
+              { Delegation },
+              {
+                delegatee: this.delegatee.address,
+                nonce: nonce + 1n,
+                expiry: ethers.MaxUint256,
+              },
+            )
+            .then(ethers.Signature.from);
+
+          await expect(this.votes.delegateBySig(this.delegatee, nonce + 1n, ethers.MaxUint256, v, r, s))
+            .to.be.revertedWithCustomError(this.votes, 'InvalidAccountNonce')
+            .withArgs(this.delegator, 0);
+        });
+
+        it('rejects expired permit', async function () {
+          const expiry = (await time.clock.timestamp()) - 1n;
+          const { r, s, v } = await this.delegator
+            .signTypedData(
+              this.domain,
+              { Delegation },
+              {
+                delegatee: this.delegatee.address,
+                nonce,
+                expiry,
+              },
+            )
+            .then(ethers.Signature.from);
+
+          await expect(this.votes.delegateBySig(this.delegatee, nonce, expiry, v, r, s))
+            .to.be.revertedWithCustomError(this.votes, 'VotesExpiredSignature')
+            .withArgs(expiry);
+        });
+      });
+    });
+
+    describe('getPastTotalSupply', function () {
+      beforeEach(async function () {
+        await this.votes.connect(this.alice).delegate(this.alice);
+      });
+
+      it('reverts if block number >= current block', async function () {
+        const timepoint = 5e10;
+        const clock = await this.votes.clock();
+        await expect(this.votes.getPastTotalSupply(timepoint))
+          .to.be.revertedWithCustomError(this.votes, 'ERC5805FutureLookup')
+          .withArgs(timepoint, clock);
+      });
+
+      it('returns 0 if there are no checkpoints', async function () {
+        expect(await this.votes.getPastTotalSupply(0n)).to.equal(0n);
+      });
+
+      it('returns the correct checkpointed total supply', async function () {
+        const weight = tokens.map(token => getWeight(token));
+
+        // t0 = mint #0
+        const t0 = await this.votes.$_mint(this.alice, tokens[0]);
+        await mine();
+        // t1 = mint #1
+        const t1 = await this.votes.$_mint(this.alice, tokens[1]);
+        await mine();
+        // t2 = burn #1
+        const t2 = await this.votes.$_burn(...(fungible ? [this.alice] : []), tokens[1]);
+        await mine();
+        // t3 = mint #2
+        const t3 = await this.votes.$_mint(this.alice, tokens[2]);
+        await mine();
+        // t4 = burn #0
+        const t4 = await this.votes.$_burn(...(fungible ? [this.alice] : []), tokens[0]);
+        await mine();
+        // t5 = burn #2
+        const t5 = await this.votes.$_burn(...(fungible ? [this.alice] : []), tokens[2]);
+        await mine();
+
+        t0.timepoint = await time.clockFromReceipt[mode](t0);
+        t1.timepoint = await time.clockFromReceipt[mode](t1);
+        t2.timepoint = await time.clockFromReceipt[mode](t2);
+        t3.timepoint = await time.clockFromReceipt[mode](t3);
+        t4.timepoint = await time.clockFromReceipt[mode](t4);
+        t5.timepoint = await time.clockFromReceipt[mode](t5);
+
+        expect(await this.votes.getPastTotalSupply(t0.timepoint - 1n)).to.equal(0);
+        expect(await this.votes.getPastTotalSupply(t0.timepoint)).to.equal(weight[0]);
+        expect(await this.votes.getPastTotalSupply(t0.timepoint + 1n)).to.equal(weight[0]);
+        expect(await this.votes.getPastTotalSupply(t1.timepoint)).to.equal(weight[0] + weight[1]);
+        expect(await this.votes.getPastTotalSupply(t1.timepoint + 1n)).to.equal(weight[0] + weight[1]);
+        expect(await this.votes.getPastTotalSupply(t2.timepoint)).to.equal(weight[0]);
+        expect(await this.votes.getPastTotalSupply(t2.timepoint + 1n)).to.equal(weight[0]);
+        expect(await this.votes.getPastTotalSupply(t3.timepoint)).to.equal(weight[0] + weight[2]);
+        expect(await this.votes.getPastTotalSupply(t3.timepoint + 1n)).to.equal(weight[0] + weight[2]);
+        expect(await this.votes.getPastTotalSupply(t4.timepoint)).to.equal(weight[2]);
+        expect(await this.votes.getPastTotalSupply(t4.timepoint + 1n)).to.equal(weight[2]);
+        expect(await this.votes.getPastTotalSupply(t5.timepoint)).to.equal(0);
+        await expect(this.votes.getPastTotalSupply(t5.timepoint + 1n))
+          .to.be.revertedWithCustomError(this.votes, 'ERC5805FutureLookup')
+          .withArgs(t5.timepoint + 1n, t5.timepoint + 1n);
+      });
+    });
+
+    // The following tests are an adaptation of
+    // https://github.com/compound-finance/compound-protocol/blob/master/tests/Governance/CompTest.js.
+    describe('Compound test suite', function () {
+      beforeEach(async function () {
+        await this.votes.$_mint(this.alice, tokens[0]);
+        await this.votes.$_mint(this.alice, tokens[1]);
+        await this.votes.$_mint(this.alice, tokens[2]);
+      });
+
+      describe('getPastVotes', function () {
+        it('reverts if block number >= current block', async function () {
+          const clock = await this.votes.clock();
+          const timepoint = 5e10; // far in the future
+          await expect(this.votes.getPastVotes(this.bob, timepoint))
+            .to.be.revertedWithCustomError(this.votes, 'ERC5805FutureLookup')
+            .withArgs(timepoint, clock);
+        });
+
+        it('returns 0 if there are no checkpoints', async function () {
+          expect(await this.votes.getPastVotes(this.bob, 0n)).to.equal(0n);
+        });
+
+        it('returns the latest block if >= last checkpoint block', async function () {
+          const delegate = await this.votes.connect(this.alice).delegate(this.bob);
+          const timepoint = await time.clockFromReceipt[mode](delegate);
+          await mine(2);
+
+          const latest = await this.votes.getVotes(this.bob);
+          expect(await this.votes.getPastVotes(this.bob, timepoint)).to.equal(latest);
+          expect(await this.votes.getPastVotes(this.bob, timepoint + 1n)).to.equal(latest);
+        });
+
+        it('returns zero if < first checkpoint block', async function () {
+          await mine();
+          const delegate = await this.votes.connect(this.alice).delegate(this.bob);
+          const timepoint = await time.clockFromReceipt[mode](delegate);
+          await mine(2);
+
+          expect(await this.votes.getPastVotes(this.bob, timepoint - 1n)).to.equal(0n);
+        });
+      });
+    });
+  });
+}
+
+module.exports = {
+  shouldBehaveLikeVotes,
+};
