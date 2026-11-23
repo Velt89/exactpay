@@ -1,1 +1,92 @@
-Y29uc3QgZm9ybWF0ID0gcmVxdWlyZSgnLi4vZm9ybWF0LWxpbmVzJyk7CmNvbnN0IHNhbml0aXplID0gcmVxdWlyZSgnLi4vaGVscGVycy9zYW5pdGl6ZScpOwpjb25zdCB7IHByb2R1Y3QgfSA9IHJlcXVpcmUoJy4uLy4uL2hlbHBlcnMnKTsKY29uc3QgeyBTSVpFUyB9ID0gcmVxdWlyZSgnLi9QYWNraW5nLm9wdHMnKTsKCi8vIFRFTVBMQVRFCmNvbnN0IGhlYWRlciA9IGBcCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKLyoqCiAqIEBkZXYgSGVscGVyIGxpYnJhcnkgcGFja2luZyBhbmQgdW5wYWNraW5nIG11bHRpcGxlIHZhbHVlcyBpbnRvIGJ5dGVzWFguCiAqCiAqIEV4YW1wbGUgdXNhZ2U6CiAqCiAqIFxgXGBcYHNvbGlkaXR5CiAqIGxpYnJhcnkgTXlQYWNrZXIgewogKiAgICAgdHlwZSBNeVR5cGUgaXMgYnl0ZXMzMjsKICoKICogICAgIGZ1bmN0aW9uIF9wYWNrKGFkZHJlc3MgYWNjb3VudCwgYnl0ZXM0IHNlbGVjdG9yLCB1aW50NjQgcGVyaW9kKSBleHRlcm5hbCBwdXJlIHJldHVybnMgKE15VHlwZSkgewogKiAgICAgICAgIGJ5dGVzMTIgc3VicGFjayA9IFBhY2tpbmcucGFja180Xzgoc2VsZWN0b3IsIGJ5dGVzOChwZXJpb2QpKTsKICogICAgICAgICBieXRlczMyIHBhY2sgPSBQYWNraW5nLnBhY2tfMjBfMTIoYnl0ZXMyMChhY2NvdW50KSwgc3VicGFjayk7CiAqICAgICAgICAgcmV0dXJuIE15VHlwZS53cmFwKHBhY2spOwogKiAgICAgfQogKgogKiAgICAgZnVuY3Rpb24gX3VucGFjayhNeVR5cGUgc2VsZikgZXh0ZXJuYWwgcHVyZSByZXR1cm5zIChhZGRyZXNzLCBieXRlczQsIHVpbnQ2NCkgewogKiAgICAgICAgIGJ5dGVzMzIgcGFjayA9IE15VHlwZS51bndyYXAoc2VsZik7CiAqICAgICAgICAgcmV0dXJuICgKICogICAgICAgICAgICAgYWRkcmVzcyhQYWNraW5nLmV4dHJhY3RfMzJfMjAocGFjaywgMCkpLAogKiAgICAgICAgICAgICBQYWNraW5nLmV4dHJhY3RfMzJfNChwYWNrLCAyMCksCiAqICAgICAgICAgICAgIHVpbnQ2NChQYWNraW5nLmV4dHJhY3RfMzJfOChwYWNrLCAyNCkpCiAqICAgICAgICAgKTsKICogICAgIH0KICogfQogKiBcYFxgXGAKICoKICogX0F2YWlsYWJsZSBzaW5jZSB2NS4xLl8KICovCi8vIHNvbGhpbnQtZGlzYWJsZSBmdW5jLW5hbWUtbWl4ZWRjYXNlCmA7Cgpjb25zdCBlcnJvcnMgPSBgXAplcnJvciBPdXRPZlJhbmdlQWNjZXNzKCk7CmA7Cgpjb25zdCBwYWNrID0gKGxlZnQsIHJpZ2h0KSA9PiBgXApmdW5jdGlvbiBwYWNrXyR7bGVmdH1fJHtyaWdodH0oYnl0ZXMke2xlZnR9IGxlZnQsIGJ5dGVzJHtyaWdodH0gcmlnaHQpIGludGVybmFsIHB1cmUgcmV0dXJucyAoYnl0ZXMkewogIGxlZnQgKyByaWdodAp9IHJlc3VsdCkgewogICAgYXNzZW1ibHkgKCJtZW1vcnktc2FmZSIpIHsKICAgICAgICBsZWZ0IDo9ICR7c2FuaXRpemUuYnl0ZXMoJ2xlZnQnLCBsZWZ0KX0KICAgICAgICByaWdodCA6PSAke3Nhbml0aXplLmJ5dGVzKCdyaWdodCcsIHJpZ2h0KX0KICAgICAgICByZXN1bHQgOj0gb3IobGVmdCwgc2hyKCR7OCAqIGxlZnR9LCByaWdodCkpCiAgICB9Cn0KYDsKCmNvbnN0IGV4dHJhY3QgPSAob3V0ZXIsIGlubmVyKSA9PiBgXApmdW5jdGlvbiBleHRyYWN0XyR7b3V0ZXJ9XyR7aW5uZXJ9KGJ5dGVzJHtvdXRlcn0gc2VsZiwgdWludDggb2Zmc2V0KSBpbnRlcm5hbCBwdXJlIHJldHVybnMgKGJ5dGVzJHtpbm5lcn0gcmVzdWx0KSB7CiAgICBpZiAob2Zmc2V0ID4gJHtvdXRlciAtIGlubmVyfSkgcmV2ZXJ0IE91dE9mUmFuZ2VBY2Nlc3MoKTsKICAgIGFzc2VtYmx5ICgibWVtb3J5LXNhZmUiKSB7CiAgICAgICAgcmVzdWx0IDo9ICR7c2FuaXRpemUuYnl0ZXMoJ3NobChtdWwoOCwgb2Zmc2V0KSwgc2VsZiknLCBpbm5lcil9CiAgICB9Cn0KYDsKCmNvbnN0IHJlcGxhY2UgPSAob3V0ZXIsIGlubmVyKSA9PiBgXApmdW5jdGlvbiByZXBsYWNlXyR7b3V0ZXJ9XyR7aW5uZXJ9KGJ5dGVzJHtvdXRlcn0gc2VsZiwgYnl0ZXMke2lubmVyfSB2YWx1ZSwgdWludDggb2Zmc2V0KSBpbnRlcm5hbCBwdXJlIHJldHVybnMgKGJ5dGVzJHtvdXRlcn0gcmVzdWx0KSB7CiAgICBieXRlcyR7aW5uZXJ9IG9sZFZhbHVlID0gZXh0cmFjdF8ke291dGVyfV8ke2lubmVyfShzZWxmLCBvZmZzZXQpOwogICAgYXNzZW1ibHkgKCJtZW1vcnktc2FmZSIpIHsKICAgICAgICB2YWx1ZSA6PSAke3Nhbml0aXplLmJ5dGVzKCd2YWx1ZScsIGlubmVyKX0KICAgICAgICByZXN1bHQgOj0geG9yKHNlbGYsIHNocihtdWwoOCwgb2Zmc2V0KSwgeG9yKG9sZFZhbHVlLCB2YWx1ZSkpKQogICAgfQp9CmA7CgovLyBHRU5FUkFURQptb2R1bGUuZXhwb3J0cyA9IGZvcm1hdCgKICBoZWFkZXIudHJpbUVuZCgpLAogICdsaWJyYXJ5IFBhY2tpbmcgeycsCiAgZm9ybWF0KAogICAgW10uY29uY2F0KAogICAgICBlcnJvcnMsCiAgICAgIHByb2R1Y3QoU0laRVMsIFNJWkVTKQogICAgICAgIC5maWx0ZXIoKFtsZWZ0LCByaWdodF0pID0+IFNJWkVTLmluY2x1ZGVzKGxlZnQgKyByaWdodCkpCiAgICAgICAgLm1hcCgoW2xlZnQsIHJpZ2h0XSkgPT4gcGFjayhsZWZ0LCByaWdodCkpLAogICAgICBwcm9kdWN0KFNJWkVTLCBTSVpFUykKICAgICAgICAuZmlsdGVyKChbb3V0ZXIsIGlubmVyXSkgPT4gb3V0ZXIgPiBpbm5lcikKICAgICAgICAuZmxhdE1hcCgoW291dGVyLCBpbm5lcl0pID0+IFtleHRyYWN0KG91dGVyLCBpbm5lciksIHJlcGxhY2Uob3V0ZXIsIGlubmVyKV0pLAogICAgKSwKICApLnRyaW1FbmQoKSwKICAnfScsCik7Cg==
+const format = require('../format-lines');
+const sanitize = require('../helpers/sanitize');
+const { product } = require('../../helpers');
+const { SIZES } = require('./Packing.opts');
+
+// TEMPLATE
+const header = `\
+pragma solidity ^0.8.20;
+
+/**
+ * @dev Helper library packing and unpacking multiple values into bytesXX.
+ *
+ * Example usage:
+ *
+ * \`\`\`solidity
+ * library MyPacker {
+ *     type MyType is bytes32;
+ *
+ *     function _pack(address account, bytes4 selector, uint64 period) external pure returns (MyType) {
+ *         bytes12 subpack = Packing.pack_4_8(selector, bytes8(period));
+ *         bytes32 pack = Packing.pack_20_12(bytes20(account), subpack);
+ *         return MyType.wrap(pack);
+ *     }
+ *
+ *     function _unpack(MyType self) external pure returns (address, bytes4, uint64) {
+ *         bytes32 pack = MyType.unwrap(self);
+ *         return (
+ *             address(Packing.extract_32_20(pack, 0)),
+ *             Packing.extract_32_4(pack, 20),
+ *             uint64(Packing.extract_32_8(pack, 24))
+ *         );
+ *     }
+ * }
+ * \`\`\`
+ *
+ * _Available since v5.1._
+ */
+// solhint-disable func-name-mixedcase
+`;
+
+const errors = `\
+error OutOfRangeAccess();
+`;
+
+const pack = (left, right) => `\
+function pack_${left}_${right}(bytes${left} left, bytes${right} right) internal pure returns (bytes${
+  left + right
+} result) {
+    assembly ("memory-safe") {
+        left := ${sanitize.bytes('left', left)}
+        right := ${sanitize.bytes('right', right)}
+        result := or(left, shr(${8 * left}, right))
+    }
+}
+`;
+
+const extract = (outer, inner) => `\
+function extract_${outer}_${inner}(bytes${outer} self, uint8 offset) internal pure returns (bytes${inner} result) {
+    if (offset > ${outer - inner}) revert OutOfRangeAccess();
+    assembly ("memory-safe") {
+        result := ${sanitize.bytes('shl(mul(8, offset), self)', inner)}
+    }
+}
+`;
+
+const replace = (outer, inner) => `\
+function replace_${outer}_${inner}(bytes${outer} self, bytes${inner} value, uint8 offset) internal pure returns (bytes${outer} result) {
+    bytes${inner} oldValue = extract_${outer}_${inner}(self, offset);
+    assembly ("memory-safe") {
+        value := ${sanitize.bytes('value', inner)}
+        result := xor(self, shr(mul(8, offset), xor(oldValue, value)))
+    }
+}
+`;
+
+// GENERATE
+module.exports = format(
+  header.trimEnd(),
+  'library Packing {',
+  format(
+    [].concat(
+      errors,
+      product(SIZES, SIZES)
+        .filter(([left, right]) => SIZES.includes(left + right))
+        .map(([left, right]) => pack(left, right)),
+      product(SIZES, SIZES)
+        .filter(([outer, inner]) => outer > inner)
+        .flatMap(([outer, inner]) => [extract(outer, inner), replace(outer, inner)]),
+    ),
+  ).trimEnd(),
+  '}',
+);
