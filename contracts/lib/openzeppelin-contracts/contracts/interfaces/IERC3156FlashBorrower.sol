@@ -1,1 +1,27 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAoaW50ZXJmYWNlcy9JRVJDMzE1NkZsYXNoQm9ycm93ZXIuc29sKQoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgovKioKICogQGRldiBJbnRlcmZhY2Ugb2YgdGhlIEVSQy0zMTU2IEZsYXNoQm9ycm93ZXIsIGFzIGRlZmluZWQgaW4KICogaHR0cHM6Ly9laXBzLmV0aGVyZXVtLm9yZy9FSVBTL2VpcC0zMTU2W0VSQy0zMTU2XS4KICovCmludGVyZmFjZSBJRVJDMzE1NkZsYXNoQm9ycm93ZXIgewogICAgLyoqCiAgICAgKiBAZGV2IFJlY2VpdmUgYSBmbGFzaCBsb2FuLgogICAgICogQHBhcmFtIGluaXRpYXRvciBUaGUgaW5pdGlhdG9yIG9mIHRoZSBsb2FuLgogICAgICogQHBhcmFtIHRva2VuIFRoZSBsb2FuIGN1cnJlbmN5LgogICAgICogQHBhcmFtIGFtb3VudCBUaGUgYW1vdW50IG9mIHRva2VucyBsZW50LgogICAgICogQHBhcmFtIGZlZSBUaGUgYWRkaXRpb25hbCBhbW91bnQgb2YgdG9rZW5zIHRvIHJlcGF5LgogICAgICogQHBhcmFtIGRhdGEgQXJiaXRyYXJ5IGRhdGEgc3RydWN0dXJlLCBpbnRlbmRlZCB0byBjb250YWluIHVzZXItZGVmaW5lZCBwYXJhbWV0ZXJzLgogICAgICogQHJldHVybiBUaGUga2VjY2FrMjU2IGhhc2ggb2YgIkVSQzMxNTZGbGFzaEJvcnJvd2VyLm9uRmxhc2hMb2FuIgogICAgICovCiAgICBmdW5jdGlvbiBvbkZsYXNoTG9hbigKICAgICAgICBhZGRyZXNzIGluaXRpYXRvciwKICAgICAgICBhZGRyZXNzIHRva2VuLAogICAgICAgIHVpbnQyNTYgYW1vdW50LAogICAgICAgIHVpbnQyNTYgZmVlLAogICAgICAgIGJ5dGVzIGNhbGxkYXRhIGRhdGEKICAgICkgZXh0ZXJuYWwgcmV0dXJucyAoYnl0ZXMzMik7Cn0K
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (interfaces/IERC3156FlashBorrower.sol)
+
+pragma solidity ^0.8.20;
+
+/**
+ * @dev Interface of the ERC-3156 FlashBorrower, as defined in
+ * https://eips.ethereum.org/EIPS/eip-3156[ERC-3156].
+ */
+interface IERC3156FlashBorrower {
+    /**
+     * @dev Receive a flash loan.
+     * @param initiator The initiator of the loan.
+     * @param token The loan currency.
+     * @param amount The amount of tokens lent.
+     * @param fee The additional amount of tokens to repay.
+     * @param data Arbitrary data structure, intended to contain user-defined parameters.
+     * @return The keccak256 hash of "ERC3156FlashBorrower.onFlashLoan"
+     */
+    function onFlashLoan(
+        address initiator,
+        address token,
+        uint256 amount,
+        uint256 fee,
+        bytes calldata data
+    ) external returns (bytes32);
+}
