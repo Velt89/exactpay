@@ -1,1 +1,51 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0dvdmVybm9yfSBmcm9tICIuLi8uLi9nb3Zlcm5hbmNlL0dvdmVybm9yLnNvbCI7CmltcG9ydCB7R292ZXJub3JDb3VudGluZ1NpbXBsZX0gZnJvbSAiLi4vLi4vZ292ZXJuYW5jZS9leHRlbnNpb25zL0dvdmVybm9yQ291bnRpbmdTaW1wbGUuc29sIjsKaW1wb3J0IHtHb3Zlcm5vclZvdGVzfSBmcm9tICIuLi8uLi9nb3Zlcm5hbmNlL2V4dGVuc2lvbnMvR292ZXJub3JWb3Rlcy5zb2wiOwoKYWJzdHJhY3QgY29udHJhY3QgR292ZXJub3JXaXRoUGFyYW1zTW9jayBpcyBHb3Zlcm5vclZvdGVzLCBHb3Zlcm5vckNvdW50aW5nU2ltcGxlIHsKICAgIGV2ZW50IENvdW50UGFyYW1zKHVpbnQyNTYgdWludFBhcmFtLCBzdHJpbmcgc3RyUGFyYW0pOwoKICAgIGZ1bmN0aW9uIHF1b3J1bSh1aW50MjU2KSBwdWJsaWMgcHVyZSBvdmVycmlkZSByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgcmV0dXJuIDA7CiAgICB9CgogICAgZnVuY3Rpb24gdm90aW5nRGVsYXkoKSBwdWJsaWMgcHVyZSBvdmVycmlkZSByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgcmV0dXJuIDQ7CiAgICB9CgogICAgZnVuY3Rpb24gdm90aW5nUGVyaW9kKCkgcHVibGljIHB1cmUgb3ZlcnJpZGUgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHJldHVybiAxNjsKICAgIH0KCiAgICBmdW5jdGlvbiBfZ2V0Vm90ZXMoCiAgICAgICAgYWRkcmVzcyBhY2NvdW50LAogICAgICAgIHVpbnQyNTYgYmxvY2tOdW1iZXIsCiAgICAgICAgYnl0ZXMgbWVtb3J5IHBhcmFtcwogICAgKSBpbnRlcm5hbCB2aWV3IG92ZXJyaWRlKEdvdmVybm9yLCBHb3Zlcm5vclZvdGVzKSByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgdWludDI1NiByZWR1Y3Rpb24gPSAwOwogICAgICAgIC8vIElmIHRoZSB1c2VyIHByb3ZpZGVzIHBhcmFtZXRlcnMsIHdlIHJlZHVjZSB0aGUgdm90aW5nIHdlaWdodCBieSB0aGUgYW1vdW50IG9mIHRoZSBpbnRlZ2VyIHBhcmFtCiAgICAgICAgaWYgKHBhcmFtcy5sZW5ndGggPiAwKSB7CiAgICAgICAgICAgIChyZWR1Y3Rpb24sICkgPSBhYmkuZGVjb2RlKHBhcmFtcywgKHVpbnQyNTYsIHN0cmluZykpOwogICAgICAgIH0KICAgICAgICAvLyByZXZlcnRzIG9uIG92ZXJmbG93CiAgICAgICAgcmV0dXJuIHN1cGVyLl9nZXRWb3RlcyhhY2NvdW50LCBibG9ja051bWJlciwgcGFyYW1zKSAtIHJlZHVjdGlvbjsKICAgIH0KCiAgICBmdW5jdGlvbiBfY291bnRWb3RlKAogICAgICAgIHVpbnQyNTYgcHJvcG9zYWxJZCwKICAgICAgICBhZGRyZXNzIGFjY291bnQsCiAgICAgICAgdWludDggc3VwcG9ydCwKICAgICAgICB1aW50MjU2IHdlaWdodCwKICAgICAgICBieXRlcyBtZW1vcnkgcGFyYW1zCiAgICApIGludGVybmFsIG92ZXJyaWRlKEdvdmVybm9yLCBHb3Zlcm5vckNvdW50aW5nU2ltcGxlKSByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgaWYgKHBhcmFtcy5sZW5ndGggPiAwKSB7CiAgICAgICAgICAgICh1aW50MjU2IF91aW50UGFyYW0sIHN0cmluZyBtZW1vcnkgX3N0clBhcmFtKSA9IGFiaS5kZWNvZGUocGFyYW1zLCAodWludDI1Niwgc3RyaW5nKSk7CiAgICAgICAgICAgIGVtaXQgQ291bnRQYXJhbXMoX3VpbnRQYXJhbSwgX3N0clBhcmFtKTsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIHN1cGVyLl9jb3VudFZvdGUocHJvcG9zYWxJZCwgYWNjb3VudCwgc3VwcG9ydCwgd2VpZ2h0LCBwYXJhbXMpOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {Governor} from "../../governance/Governor.sol";
+import {GovernorCountingSimple} from "../../governance/extensions/GovernorCountingSimple.sol";
+import {GovernorVotes} from "../../governance/extensions/GovernorVotes.sol";
+
+abstract contract GovernorWithParamsMock is GovernorVotes, GovernorCountingSimple {
+    event CountParams(uint256 uintParam, string strParam);
+
+    function quorum(uint256) public pure override returns (uint256) {
+        return 0;
+    }
+
+    function votingDelay() public pure override returns (uint256) {
+        return 4;
+    }
+
+    function votingPeriod() public pure override returns (uint256) {
+        return 16;
+    }
+
+    function _getVotes(
+        address account,
+        uint256 blockNumber,
+        bytes memory params
+    ) internal view override(Governor, GovernorVotes) returns (uint256) {
+        uint256 reduction = 0;
+        // If the user provides parameters, we reduce the voting weight by the amount of the integer param
+        if (params.length > 0) {
+            (reduction, ) = abi.decode(params, (uint256, string));
+        }
+        // reverts on overflow
+        return super._getVotes(account, blockNumber, params) - reduction;
+    }
+
+    function _countVote(
+        uint256 proposalId,
+        address account,
+        uint8 support,
+        uint256 weight,
+        bytes memory params
+    ) internal override(Governor, GovernorCountingSimple) returns (uint256) {
+        if (params.length > 0) {
+            (uint256 _uintParam, string memory _strParam) = abi.decode(params, (uint256, string));
+            emit CountParams(_uintParam, _strParam);
+        }
+        return super._countVote(proposalId, account, support, weight, params);
+    }
+}
