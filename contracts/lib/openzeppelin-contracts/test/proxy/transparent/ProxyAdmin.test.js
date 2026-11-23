@@ -1,1 +1,82 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKY29uc3QgeyBnZXRBZGRyZXNzSW5TbG90LCBJbXBsZW1lbnRhdGlvblNsb3QgfSA9IHJlcXVpcmUoJy4uLy4uL2hlbHBlcnMvc3RvcmFnZScpOwoKYXN5bmMgZnVuY3Rpb24gZml4dHVyZSgpIHsKICBjb25zdCBbYWRtaW4sIG90aGVyXSA9IGF3YWl0IGV0aGVycy5nZXRTaWduZXJzKCk7CgogIGNvbnN0IHYxID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCdEdW1teUltcGxlbWVudGF0aW9uJyk7CiAgY29uc3QgdjIgPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJ0R1bW15SW1wbGVtZW50YXRpb25WMicpOwoKICBjb25zdCBwcm94eSA9IGF3YWl0IGV0aGVycwogICAgLmRlcGxveUNvbnRyYWN0KCdUcmFuc3BhcmVudFVwZ3JhZGVhYmxlUHJveHknLCBbdjEsIGFkbWluLCAnMHgnXSkKICAgIC50aGVuKGluc3RhbmNlID0+IGV0aGVycy5nZXRDb250cmFjdEF0KCdJVHJhbnNwYXJlbnRVcGdyYWRlYWJsZVByb3h5JywgaW5zdGFuY2UpKTsKCiAgY29uc3QgcHJveHlBZG1pbiA9IGF3YWl0IGV0aGVycy5nZXRDb250cmFjdEF0KAogICAgJ1Byb3h5QWRtaW4nLAogICAgZXRoZXJzLmdldENyZWF0ZUFkZHJlc3MoeyBmcm9tOiBwcm94eS50YXJnZXQsIG5vbmNlOiAxbiB9KSwKICApOwoKICByZXR1cm4geyBhZG1pbiwgb3RoZXIsIHYxLCB2MiwgcHJveHksIHByb3h5QWRtaW4gfTsKfQoKZGVzY3JpYmUoJ1Byb3h5QWRtaW4nLCBmdW5jdGlvbiAoKSB7CiAgYmVmb3JlRWFjaChhc3luYyBmdW5jdGlvbiAoKSB7CiAgICBPYmplY3QuYXNzaWduKHRoaXMsIGF3YWl0IGxvYWRGaXh0dXJlKGZpeHR1cmUpKTsKICB9KTsKCiAgaXQoJ2hhcyBhbiBvd25lcicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgIGV4cGVjdChhd2FpdCB0aGlzLnByb3h5QWRtaW4ub3duZXIoKSkudG8uZXF1YWwodGhpcy5hZG1pbik7CiAgfSk7CgogIGl0KCdoYXMgYW4gaW50ZXJmYWNlIHZlcnNpb24nLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICBleHBlY3QoYXdhaXQgdGhpcy5wcm94eUFkbWluLlVQR1JBREVfSU5URVJGQUNFX1ZFUlNJT04oKSkudG8uZXF1YWwoJzUuMC4wJyk7CiAgfSk7CgogIGRlc2NyaWJlKCd3aXRob3V0IGRhdGEnLCBmdW5jdGlvbiAoKSB7CiAgICBkZXNjcmliZSgnd2l0aCB1bmF1dGhvcml6ZWQgYWNjb3VudCcsIGZ1bmN0aW9uICgpIHsKICAgICAgaXQoJ2ZhaWxzIHRvIHVwZ3JhZGUnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMucHJveHlBZG1pbi5jb25uZWN0KHRoaXMub3RoZXIpLnVwZ3JhZGVBbmRDYWxsKHRoaXMucHJveHksIHRoaXMudjIsICcweCcpKQogICAgICAgICAgLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMucHJveHlBZG1pbiwgJ093bmFibGVVbmF1dGhvcml6ZWRBY2NvdW50JykKICAgICAgICAgIC53aXRoQXJncyh0aGlzLm90aGVyKTsKICAgICAgfSk7CiAgICB9KTsKCiAgICBkZXNjcmliZSgnd2l0aCBhdXRob3JpemVkIGFjY291bnQnLCBmdW5jdGlvbiAoKSB7CiAgICAgIGl0KCd1cGdyYWRlcyBpbXBsZW1lbnRhdGlvbicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBhd2FpdCB0aGlzLnByb3h5QWRtaW4uY29ubmVjdCh0aGlzLmFkbWluKS51cGdyYWRlQW5kQ2FsbCh0aGlzLnByb3h5LCB0aGlzLnYyLCAnMHgnKTsKICAgICAgICBleHBlY3QoYXdhaXQgZ2V0QWRkcmVzc0luU2xvdCh0aGlzLnByb3h5LCBJbXBsZW1lbnRhdGlvblNsb3QpKS50by5lcXVhbCh0aGlzLnYyKTsKICAgICAgfSk7CiAgICB9KTsKICB9KTsKCiAgZGVzY3JpYmUoJ3dpdGggZGF0YScsIGZ1bmN0aW9uICgpIHsKICAgIGRlc2NyaWJlKCd3aXRoIHVuYXV0aG9yaXplZCBhY2NvdW50JywgZnVuY3Rpb24gKCkgewogICAgICBpdCgnZmFpbHMgdG8gdXBncmFkZScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBjb25zdCBkYXRhID0gdGhpcy52MS5pbnRlcmZhY2UuZW5jb2RlRnVuY3Rpb25EYXRhKCdpbml0aWFsaXplTm9uUGF5YWJsZVdpdGhWYWx1ZScsIFsxMzM3bl0pOwogICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLnByb3h5QWRtaW4uY29ubmVjdCh0aGlzLm90aGVyKS51cGdyYWRlQW5kQ2FsbCh0aGlzLnByb3h5LCB0aGlzLnYyLCBkYXRhKSkKICAgICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLnByb3h5QWRtaW4sICdPd25hYmxlVW5hdXRob3JpemVkQWNjb3VudCcpCiAgICAgICAgICAud2l0aEFyZ3ModGhpcy5vdGhlcik7CiAgICAgIH0pOwogICAgfSk7CgogICAgZGVzY3JpYmUoJ3dpdGggYXV0aG9yaXplZCBhY2NvdW50JywgZnVuY3Rpb24gKCkgewogICAgICBkZXNjcmliZSgnd2l0aCBpbnZhbGlkIGNhbGxEYXRhJywgZnVuY3Rpb24gKCkgewogICAgICAgIGl0KCdmYWlscyB0byB1cGdyYWRlJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgY29uc3QgZGF0YSA9ICcweDEyMzQ1Njc4JzsKICAgICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLnByb3h5QWRtaW4uY29ubmVjdCh0aGlzLmFkbWluKS51cGdyYWRlQW5kQ2FsbCh0aGlzLnByb3h5LCB0aGlzLnYyLCBkYXRhKSkudG8uYmUucmV2ZXJ0ZWQ7CiAgICAgICAgfSk7CiAgICAgIH0pOwoKICAgICAgZGVzY3JpYmUoJ3dpdGggdmFsaWQgY2FsbERhdGEnLCBmdW5jdGlvbiAoKSB7CiAgICAgICAgaXQoJ3VwZ3JhZGVzIGltcGxlbWVudGF0aW9uJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgY29uc3QgZGF0YSA9IHRoaXMudjIuaW50ZXJmYWNlLmVuY29kZUZ1bmN0aW9uRGF0YSgnaW5pdGlhbGl6ZU5vblBheWFibGVXaXRoVmFsdWUnLCBbMTMzN25dKTsKICAgICAgICAgIGF3YWl0IHRoaXMucHJveHlBZG1pbi5jb25uZWN0KHRoaXMuYWRtaW4pLnVwZ3JhZGVBbmRDYWxsKHRoaXMucHJveHksIHRoaXMudjIsIGRhdGEpOwogICAgICAgICAgZXhwZWN0KGF3YWl0IGdldEFkZHJlc3NJblNsb3QodGhpcy5wcm94eSwgSW1wbGVtZW50YXRpb25TbG90KSkudG8uZXF1YWwodGhpcy52Mik7CiAgICAgICAgfSk7CiAgICAgIH0pOwogICAgfSk7CiAgfSk7Cn0pOwo=
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+const { getAddressInSlot, ImplementationSlot } = require('../../helpers/storage');
+
+async function fixture() {
+  const [admin, other] = await ethers.getSigners();
+
+  const v1 = await ethers.deployContract('DummyImplementation');
+  const v2 = await ethers.deployContract('DummyImplementationV2');
+
+  const proxy = await ethers
+    .deployContract('TransparentUpgradeableProxy', [v1, admin, '0x'])
+    .then(instance => ethers.getContractAt('ITransparentUpgradeableProxy', instance));
+
+  const proxyAdmin = await ethers.getContractAt(
+    'ProxyAdmin',
+    ethers.getCreateAddress({ from: proxy.target, nonce: 1n }),
+  );
+
+  return { admin, other, v1, v2, proxy, proxyAdmin };
+}
+
+describe('ProxyAdmin', function () {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  it('has an owner', async function () {
+    expect(await this.proxyAdmin.owner()).to.equal(this.admin);
+  });
+
+  it('has an interface version', async function () {
+    expect(await this.proxyAdmin.UPGRADE_INTERFACE_VERSION()).to.equal('5.0.0');
+  });
+
+  describe('without data', function () {
+    describe('with unauthorized account', function () {
+      it('fails to upgrade', async function () {
+        await expect(this.proxyAdmin.connect(this.other).upgradeAndCall(this.proxy, this.v2, '0x'))
+          .to.be.revertedWithCustomError(this.proxyAdmin, 'OwnableUnauthorizedAccount')
+          .withArgs(this.other);
+      });
+    });
+
+    describe('with authorized account', function () {
+      it('upgrades implementation', async function () {
+        await this.proxyAdmin.connect(this.admin).upgradeAndCall(this.proxy, this.v2, '0x');
+        expect(await getAddressInSlot(this.proxy, ImplementationSlot)).to.equal(this.v2);
+      });
+    });
+  });
+
+  describe('with data', function () {
+    describe('with unauthorized account', function () {
+      it('fails to upgrade', async function () {
+        const data = this.v1.interface.encodeFunctionData('initializeNonPayableWithValue', [1337n]);
+        await expect(this.proxyAdmin.connect(this.other).upgradeAndCall(this.proxy, this.v2, data))
+          .to.be.revertedWithCustomError(this.proxyAdmin, 'OwnableUnauthorizedAccount')
+          .withArgs(this.other);
+      });
+    });
+
+    describe('with authorized account', function () {
+      describe('with invalid callData', function () {
+        it('fails to upgrade', async function () {
+          const data = '0x12345678';
+          await expect(this.proxyAdmin.connect(this.admin).upgradeAndCall(this.proxy, this.v2, data)).to.be.reverted;
+        });
+      });
+
+      describe('with valid callData', function () {
+        it('upgrades implementation', async function () {
+          const data = this.v2.interface.encodeFunctionData('initializeNonPayableWithValue', [1337n]);
+          await this.proxyAdmin.connect(this.admin).upgradeAndCall(this.proxy, this.v2, data);
+          expect(await getAddressInSlot(this.proxy, ImplementationSlot)).to.equal(this.v2);
+        });
+      });
+    });
+  });
+});
