@@ -1,1 +1,41 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7RVJDNDYyNlRlc3R9IGZyb20gImVyYzQ2MjYtdGVzdHMvRVJDNDYyNi50ZXN0LnNvbCI7CgppbXBvcnQge0VSQzIwfSBmcm9tICJAb3BlbnplcHBlbGluL2NvbnRyYWN0cy90b2tlbi9FUkMyMC9FUkMyMC5zb2wiOwppbXBvcnQge0VSQzQ2MjZ9IGZyb20gIkBvcGVuemVwcGVsaW4vY29udHJhY3RzL3Rva2VuL0VSQzIwL2V4dGVuc2lvbnMvRVJDNDYyNi5zb2wiOwoKaW1wb3J0IHtFUkMyME1vY2t9IGZyb20gIkBvcGVuemVwcGVsaW4vY29udHJhY3RzL21vY2tzL3Rva2VuL0VSQzIwTW9jay5zb2wiOwppbXBvcnQge0VSQzQ2MjZNb2NrfSBmcm9tICJAb3BlbnplcHBlbGluL2NvbnRyYWN0cy9tb2Nrcy90b2tlbi9FUkM0NjI2TW9jay5zb2wiOwppbXBvcnQge0VSQzQ2MjZPZmZzZXRNb2NrfSBmcm9tICJAb3BlbnplcHBlbGluL2NvbnRyYWN0cy9tb2Nrcy90b2tlbi9FUkM0NjI2T2Zmc2V0TW9jay5zb2wiOwoKY29udHJhY3QgRVJDNDYyNlZhdWx0T2Zmc2V0TW9jayBpcyBFUkM0NjI2T2Zmc2V0TW9jayB7CiAgICBjb25zdHJ1Y3RvcigKICAgICAgICBFUkMyMCB1bmRlcmx5aW5nXywKICAgICAgICB1aW50OCBvZmZzZXRfCiAgICApIEVSQzIwKCJNeSBUb2tlbiBWYXVsdCIsICJNVEtOViIpIEVSQzQ2MjYodW5kZXJseWluZ18pIEVSQzQ2MjZPZmZzZXRNb2NrKG9mZnNldF8pIHt9Cn0KCmNvbnRyYWN0IEVSQzQ2MjZTdGRUZXN0IGlzIEVSQzQ2MjZUZXN0IHsKICAgIEVSQzIwIHByaXZhdGUgX3VuZGVybHlpbmcgPSBuZXcgRVJDMjBNb2NrKCk7CgogICAgZnVuY3Rpb24gc2V0VXAoKSBwdWJsaWMgb3ZlcnJpZGUgewogICAgICAgIF91bmRlcmx5aW5nXyA9IGFkZHJlc3MoX3VuZGVybHlpbmcpOwogICAgICAgIF92YXVsdF8gPSBhZGRyZXNzKG5ldyBFUkM0NjI2TW9jayhfdW5kZXJseWluZ18pKTsKICAgICAgICBfZGVsdGFfID0gMDsKICAgICAgICBfdmF1bHRNYXlCZUVtcHR5ID0gdHJ1ZTsKICAgICAgICBfdW5saW1pdGVkQW1vdW50ID0gdHJ1ZTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgQ2hlY2sgdGhlIGNhc2Ugd2hlcmUgY2FsY3VsYXRlZCBgZGVjaW1hbHNgIHZhbHVlIG92ZXJmbG93cyB0aGUgYHVpbnQ4YCB0eXBlLgogICAgICovCiAgICBmdW5jdGlvbiB0ZXN0RnV6ekRlY2ltYWxzT3ZlcmZsb3codWludDggb2Zmc2V0KSBwdWJsaWMgewogICAgICAgIC8vLyBAZGV2IFJlbWVtYmVyIHRoYXQgdGhlIGBfdW5kZXJseWluZ2AgZXhoaWJpdHMgYSBgZGVjaW1hbHNgIHZhbHVlIG9mIDE4LgogICAgICAgIG9mZnNldCA9IHVpbnQ4KGJvdW5kKHVpbnQyNTYob2Zmc2V0KSwgMjM4LCB1aW50MjU2KHR5cGUodWludDgpLm1heCkpKTsKICAgICAgICBFUkM0NjI2VmF1bHRPZmZzZXRNb2NrIGVyYzQ2MjZWYXVsdE9mZnNldE1vY2sgPSBuZXcgRVJDNDYyNlZhdWx0T2Zmc2V0TW9jayhfdW5kZXJseWluZywgb2Zmc2V0KTsKICAgICAgICB2bS5leHBlY3RSZXZlcnQoKTsKICAgICAgICBlcmM0NjI2VmF1bHRPZmZzZXRNb2NrLmRlY2ltYWxzKCk7CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+import {ERC4626Test} from "erc4626-tests/ERC4626.test.sol";
+
+import {ERC20} from "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import {ERC4626} from "@openzeppelin/contracts/token/ERC20/extensions/ERC4626.sol";
+
+import {ERC20Mock} from "@openzeppelin/contracts/mocks/token/ERC20Mock.sol";
+import {ERC4626Mock} from "@openzeppelin/contracts/mocks/token/ERC4626Mock.sol";
+import {ERC4626OffsetMock} from "@openzeppelin/contracts/mocks/token/ERC4626OffsetMock.sol";
+
+contract ERC4626VaultOffsetMock is ERC4626OffsetMock {
+    constructor(
+        ERC20 underlying_,
+        uint8 offset_
+    ) ERC20("My Token Vault", "MTKNV") ERC4626(underlying_) ERC4626OffsetMock(offset_) {}
+}
+
+contract ERC4626StdTest is ERC4626Test {
+    ERC20 private _underlying = new ERC20Mock();
+
+    function setUp() public override {
+        _underlying_ = address(_underlying);
+        _vault_ = address(new ERC4626Mock(_underlying_));
+        _delta_ = 0;
+        _vaultMayBeEmpty = true;
+        _unlimitedAmount = true;
+    }
+
+    /**
+     * @dev Check the case where calculated `decimals` value overflows the `uint8` type.
+     */
+    function testFuzzDecimalsOverflow(uint8 offset) public {
+        /// @dev Remember that the `_underlying` exhibits a `decimals` value of 18.
+        offset = uint8(bound(uint256(offset), 238, uint256(type(uint8).max)));
+        ERC4626VaultOffsetMock erc4626VaultOffsetMock = new ERC4626VaultOffsetMock(_underlying, offset);
+        vm.expectRevert();
+        erc4626VaultOffsetMock.decimals();
+    }
+}
