@@ -1,1 +1,113 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwpjb25zdCB7IFBBTklDX0NPREVTIH0gPSByZXF1aXJlKCdAbm9taWNmb3VuZGF0aW9uL2hhcmRoYXQtY2hhaS1tYXRjaGVycy9wYW5pYycpOwoKYXN5bmMgZnVuY3Rpb24gZml4dHVyZSgpIHsKICBjb25zdCBtb2NrID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCckSGVhcCcpOwogIHJldHVybiB7IG1vY2sgfTsKfQoKZGVzY3JpYmUoJ0hlYXAnLCBmdW5jdGlvbiAoKSB7CiAgYmVmb3JlRWFjaChhc3luYyBmdW5jdGlvbiAoKSB7CiAgICBPYmplY3QuYXNzaWduKHRoaXMsIGF3YWl0IGxvYWRGaXh0dXJlKGZpeHR1cmUpKTsKICB9KTsKCiAgZGVzY3JpYmUoJ1VpbnQyNTZIZWFwJywgZnVuY3Rpb24gKCkgewogICAgaXQoJ3N0YXJ0cyBlbXB0eScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kbGVuZ3RoKDApKS50by5lcXVhbCgwbik7CiAgICB9KTsKCiAgICBpdCgncGVlaywgcG9wIGFuZCByZXBsYWNlIGZyb20gZW1wdHknLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1vY2suJHBlZWsoMCkpLnRvLmJlLnJldmVydGVkV2l0aFBhbmljKFBBTklDX0NPREVTLkFSUkFZX0FDQ0VTU19PVVRfT0ZfQk9VTkRTKTsKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMubW9jay4kcG9wKDApKS50by5iZS5yZXZlcnRlZFdpdGhQYW5pYyhQQU5JQ19DT0RFUy5QT1BfT05fRU1QVFlfQVJSQVkpOwogICAgICBhd2FpdCBleHBlY3QodGhpcy5tb2NrLiRyZXBsYWNlKDAsIDBuKSkudG8uYmUucmV2ZXJ0ZWRXaXRoUGFuaWMoUEFOSUNfQ09ERVMuUE9QX09OX0VNUFRZX0FSUkFZKTsKICAgIH0pOwoKICAgIGl0KCdjbGVhcicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgdGhpcy5tb2NrLiRpbnNlcnQoMCwgNDJuKTsKCiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGxlbmd0aCgwKSkudG8uZXF1YWwoMW4pOwogICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRwZWVrKDApKS50by5lcXVhbCg0Mm4pOwoKICAgICAgYXdhaXQgdGhpcy5tb2NrLiRjbGVhcigwKTsKCiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGxlbmd0aCgwKSkudG8uZXF1YWwoMG4pOwogICAgICBhd2FpdCBleHBlY3QodGhpcy5tb2NrLiRwZWVrKDApKS50by5iZS5yZXZlcnRlZFdpdGhQYW5pYyhQQU5JQ19DT0RFUy5BUlJBWV9BQ0NFU1NfT1VUX09GX0JPVU5EUyk7CiAgICB9KTsKCiAgICBpdCgnc3VwcG9ydCBkdXBsaWNhdGVkIGl0ZW1zJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRsZW5ndGgoMCkpLnRvLmVxdWFsKDBuKTsKCiAgICAgIC8vIGluc2VydCA1IHRpbWVzCiAgICAgIGF3YWl0IHRoaXMubW9jay4kaW5zZXJ0KDAsIDQybik7CiAgICAgIGF3YWl0IHRoaXMubW9jay4kaW5zZXJ0KDAsIDQybik7CiAgICAgIGF3YWl0IHRoaXMubW9jay4kaW5zZXJ0KDAsIDQybik7CiAgICAgIGF3YWl0IHRoaXMubW9jay4kaW5zZXJ0KDAsIDQybik7CiAgICAgIGF3YWl0IHRoaXMubW9jay4kaW5zZXJ0KDAsIDQybik7CgogICAgICAvLyBwb3AgNSB0aW1lcwogICAgICBhd2FpdCBleHBlY3QodGhpcy5tb2NrLiRwb3AoMCkpLnRvLmVtaXQodGhpcy5tb2NrLCAncmV0dXJuJHBvcCcpLndpdGhBcmdzKDQybik7CiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1vY2suJHBvcCgwKSkudG8uZW1pdCh0aGlzLm1vY2ssICdyZXR1cm4kcG9wJykud2l0aEFyZ3MoNDJuKTsKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMubW9jay4kcG9wKDApKS50by5lbWl0KHRoaXMubW9jaywgJ3JldHVybiRwb3AnKS53aXRoQXJncyg0Mm4pOwogICAgICBhd2FpdCBleHBlY3QodGhpcy5tb2NrLiRwb3AoMCkpLnRvLmVtaXQodGhpcy5tb2NrLCAncmV0dXJuJHBvcCcpLndpdGhBcmdzKDQybik7CiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1vY2suJHBvcCgwKSkudG8uZW1pdCh0aGlzLm1vY2ssICdyZXR1cm4kcG9wJykud2l0aEFyZ3MoNDJuKTsKCiAgICAgIC8vIHBvcHBpbmcgYSA2dGggdGltZSBwYW5pY3MKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMubW9jay4kcG9wKDApKS50by5iZS5yZXZlcnRlZFdpdGhQYW5pYyhQQU5JQ19DT0RFUy5QT1BfT05fRU1QVFlfQVJSQVkpOwogICAgfSk7CgogICAgaXQoJ2luc2VydCwgcG9wIGFuZCByZXBsYWNlJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCBoZWFwID0gW107CiAgICAgIGZvciAoY29uc3QgeyBvcCwgdmFsdWUgfSBvZiBbCiAgICAgICAgeyBvcDogJ2luc2VydCcsIHZhbHVlOiA3MTIgfSwgLy8gWzcxMl0KICAgICAgICB7IG9wOiAnaW5zZXJ0JywgdmFsdWU6IDIwIH0sIC8vIFsyMCwgNzEyXQogICAgICAgIHsgb3A6ICdpbnNlcnQnLCB2YWx1ZTogNDMzNyB9LCAvLyBbMjAsIDcxMiwgNDQzN10KICAgICAgICB7IG9wOiAncG9wJyB9LCAvLyAyMCwgWzcxMiwgNDQzN10KICAgICAgICB7IG9wOiAnaW5zZXJ0JywgdmFsdWU6IDE1NTkgfSwgLy8gWzcxMiwgMTU1OSwgNDQzN10KICAgICAgICB7IG9wOiAnaW5zZXJ0JywgdmFsdWU6IDE2NSB9LCAvLyBbMTY1LCA3MTIsIDE1NTksIDQ0MzddCiAgICAgICAgeyBvcDogJ2luc2VydCcsIHZhbHVlOiAxNTUgfSwgLy8gWzE1NSwgMTY1LCA3MTIsIDE1NTksIDQ0MzddCiAgICAgICAgeyBvcDogJ2luc2VydCcsIHZhbHVlOiA3NzAyIH0sIC8vIFsxNTUsIDE2NSwgNzEyLCAxNTU5LCA0NDM3LCA3NzAyXQogICAgICAgIHsgb3A6ICdwb3AnIH0sIC8vIDE1NSwgWzE2NSwgNzEyLCAxNTU5LCA0NDM3LCA3NzAyXQogICAgICAgIHsgb3A6ICdyZXBsYWNlJywgdmFsdWU6IDcyMSB9LCAvLyAxNjUsIFs3MTIsIDcyMSwgMTU1OSwgNDQzNywgNzcwMl0KICAgICAgICB7IG9wOiAncG9wJyB9LCAvLyA3MTIsIFs3MjEsIDE1NTksIDQ0MzcsIDc3MDJdCiAgICAgICAgeyBvcDogJ3BvcCcgfSwgLy8gNzIxLCBbMTU1OSwgNDQzNywgNzcwMl0KICAgICAgICB7IG9wOiAncG9wJyB9LCAvLyAxNTU5LCBbNDQzNywgNzcwMl0KICAgICAgICB7IG9wOiAncG9wJyB9LCAvLyA0NDM3LCBbNzcwMl0KICAgICAgICB7IG9wOiAncG9wJyB9LCAvLyA3NzAyLCBbXQogICAgICAgIHsgb3A6ICdwb3AnIH0sIC8vIHBhbmljCiAgICAgICAgeyBvcDogJ3JlcGxhY2UnLCB2YWx1ZTogJzEzNjMnIH0sIC8vIHBhbmljCiAgICAgIF0pIHsKICAgICAgICBzd2l0Y2ggKG9wKSB7CiAgICAgICAgICBjYXNlICdpbnNlcnQnOgogICAgICAgICAgICBhd2FpdCB0aGlzLm1vY2suJGluc2VydCgwLCB2YWx1ZSk7CiAgICAgICAgICAgIGhlYXAucHVzaCh2YWx1ZSk7CiAgICAgICAgICAgIGhlYXAuc29ydCgoYSwgYikgPT4gYSAtIGIpOwogICAgICAgICAgICBicmVhazsKICAgICAgICAgIGNhc2UgJ3BvcCc6CiAgICAgICAgICAgIGlmIChoZWFwLmxlbmd0aCA9PSAwKSB7CiAgICAgICAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMubW9jay4kcG9wKDApKS50by5iZS5yZXZlcnRlZFdpdGhQYW5pYyhQQU5JQ19DT0RFUy5QT1BfT05fRU1QVFlfQVJSQVkpOwogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1vY2suJHBvcCgwKSkudG8uZW1pdCh0aGlzLm1vY2ssICdyZXR1cm4kcG9wJykud2l0aEFyZ3MoaGVhcC5zaGlmdCgpKTsKICAgICAgICAgICAgfQogICAgICAgICAgICBicmVhazsKICAgICAgICAgIGNhc2UgJ3JlcGxhY2UnOgogICAgICAgICAgICBpZiAoaGVhcC5sZW5ndGggPT0gMCkgewogICAgICAgICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1vY2suJHJlcGxhY2UoMCwgdmFsdWUpKS50by5iZS5yZXZlcnRlZFdpdGhQYW5pYyhQQU5JQ19DT0RFUy5QT1BfT05fRU1QVFlfQVJSQVkpOwogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1vY2suJHJlcGxhY2UoMCwgdmFsdWUpKS50by5lbWl0KHRoaXMubW9jaywgJ3JldHVybiRyZXBsYWNlJykud2l0aEFyZ3MoaGVhcC5zaGlmdCgpKTsKICAgICAgICAgICAgICBoZWFwLnB1c2godmFsdWUpOwogICAgICAgICAgICAgIGhlYXAuc29ydCgoYSwgYikgPT4gYSAtIGIpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGJyZWFrOwogICAgICAgIH0KICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRsZW5ndGgoMCkpLnRvLmVxdWFsKGhlYXAubGVuZ3RoKTsKICAgICAgICBpZiAoaGVhcC5sZW5ndGggPT0gMCkgewogICAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMubW9jay4kcGVlaygwKSkudG8uYmUucmV2ZXJ0ZWRXaXRoUGFuaWMoUEFOSUNfQ09ERVMuQVJSQVlfQUNDRVNTX09VVF9PRl9CT1VORFMpOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRwZWVrKDApKS50by5lcXVhbChoZWFwWzBdKTsKICAgICAgICB9CiAgICAgIH0KICAgIH0pOwogIH0pOwp9KTsK
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+const { PANIC_CODES } = require('@nomicfoundation/hardhat-chai-matchers/panic');
+
+async function fixture() {
+  const mock = await ethers.deployContract('$Heap');
+  return { mock };
+}
+
+describe('Heap', function () {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  describe('Uint256Heap', function () {
+    it('starts empty', async function () {
+      expect(await this.mock.$length(0)).to.equal(0n);
+    });
+
+    it('peek, pop and replace from empty', async function () {
+      await expect(this.mock.$peek(0)).to.be.revertedWithPanic(PANIC_CODES.ARRAY_ACCESS_OUT_OF_BOUNDS);
+      await expect(this.mock.$pop(0)).to.be.revertedWithPanic(PANIC_CODES.POP_ON_EMPTY_ARRAY);
+      await expect(this.mock.$replace(0, 0n)).to.be.revertedWithPanic(PANIC_CODES.POP_ON_EMPTY_ARRAY);
+    });
+
+    it('clear', async function () {
+      await this.mock.$insert(0, 42n);
+
+      expect(await this.mock.$length(0)).to.equal(1n);
+      expect(await this.mock.$peek(0)).to.equal(42n);
+
+      await this.mock.$clear(0);
+
+      expect(await this.mock.$length(0)).to.equal(0n);
+      await expect(this.mock.$peek(0)).to.be.revertedWithPanic(PANIC_CODES.ARRAY_ACCESS_OUT_OF_BOUNDS);
+    });
+
+    it('support duplicated items', async function () {
+      expect(await this.mock.$length(0)).to.equal(0n);
+
+      // insert 5 times
+      await this.mock.$insert(0, 42n);
+      await this.mock.$insert(0, 42n);
+      await this.mock.$insert(0, 42n);
+      await this.mock.$insert(0, 42n);
+      await this.mock.$insert(0, 42n);
+
+      // pop 5 times
+      await expect(this.mock.$pop(0)).to.emit(this.mock, 'return$pop').withArgs(42n);
+      await expect(this.mock.$pop(0)).to.emit(this.mock, 'return$pop').withArgs(42n);
+      await expect(this.mock.$pop(0)).to.emit(this.mock, 'return$pop').withArgs(42n);
+      await expect(this.mock.$pop(0)).to.emit(this.mock, 'return$pop').withArgs(42n);
+      await expect(this.mock.$pop(0)).to.emit(this.mock, 'return$pop').withArgs(42n);
+
+      // popping a 6th time panics
+      await expect(this.mock.$pop(0)).to.be.revertedWithPanic(PANIC_CODES.POP_ON_EMPTY_ARRAY);
+    });
+
+    it('insert, pop and replace', async function () {
+      const heap = [];
+      for (const { op, value } of [
+        { op: 'insert', value: 712 }, // [712]
+        { op: 'insert', value: 20 }, // [20, 712]
+        { op: 'insert', value: 4337 }, // [20, 712, 4437]
+        { op: 'pop' }, // 20, [712, 4437]
+        { op: 'insert', value: 1559 }, // [712, 1559, 4437]
+        { op: 'insert', value: 165 }, // [165, 712, 1559, 4437]
+        { op: 'insert', value: 155 }, // [155, 165, 712, 1559, 4437]
+        { op: 'insert', value: 7702 }, // [155, 165, 712, 1559, 4437, 7702]
+        { op: 'pop' }, // 155, [165, 712, 1559, 4437, 7702]
+        { op: 'replace', value: 721 }, // 165, [712, 721, 1559, 4437, 7702]
+        { op: 'pop' }, // 712, [721, 1559, 4437, 7702]
+        { op: 'pop' }, // 721, [1559, 4437, 7702]
+        { op: 'pop' }, // 1559, [4437, 7702]
+        { op: 'pop' }, // 4437, [7702]
+        { op: 'pop' }, // 7702, []
+        { op: 'pop' }, // panic
+        { op: 'replace', value: '1363' }, // panic
+      ]) {
+        switch (op) {
+          case 'insert':
+            await this.mock.$insert(0, value);
+            heap.push(value);
+            heap.sort((a, b) => a - b);
+            break;
+          case 'pop':
+            if (heap.length == 0) {
+              await expect(this.mock.$pop(0)).to.be.revertedWithPanic(PANIC_CODES.POP_ON_EMPTY_ARRAY);
+            } else {
+              await expect(this.mock.$pop(0)).to.emit(this.mock, 'return$pop').withArgs(heap.shift());
+            }
+            break;
+          case 'replace':
+            if (heap.length == 0) {
+              await expect(this.mock.$replace(0, value)).to.be.revertedWithPanic(PANIC_CODES.POP_ON_EMPTY_ARRAY);
+            } else {
+              await expect(this.mock.$replace(0, value)).to.emit(this.mock, 'return$replace').withArgs(heap.shift());
+              heap.push(value);
+              heap.sort((a, b) => a - b);
+            }
+            break;
+        }
+        expect(await this.mock.$length(0)).to.equal(heap.length);
+        if (heap.length == 0) {
+          await expect(this.mock.$peek(0)).to.be.revertedWithPanic(PANIC_CODES.ARRAY_ACCESS_OUT_OF_BOUNDS);
+        } else {
+          expect(await this.mock.$peek(0)).to.equal(heap[0]);
+        }
+      }
+    });
+  });
+});
