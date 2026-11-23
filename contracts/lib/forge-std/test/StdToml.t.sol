@@ -1,1 +1,49 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgPj0wLjcuMCA8MC45LjA7CgppbXBvcnQge1Rlc3QsIHN0ZFRvbWx9IGZyb20gIi4uL3NyYy9UZXN0LnNvbCI7Cgpjb250cmFjdCBTdGRUb21sVGVzdCBpcyBUZXN0IHsKICAgIHVzaW5nIHN0ZFRvbWwgZm9yIHN0cmluZzsKCiAgICBzdHJpbmcgcm9vdDsKICAgIHN0cmluZyBwYXRoOwoKICAgIGZ1bmN0aW9uIHNldFVwKCkgcHVibGljIHsKICAgICAgICByb290ID0gdm0ucHJvamVjdFJvb3QoKTsKICAgICAgICBwYXRoID0gc3RyaW5nLmNvbmNhdChyb290LCAiL3Rlc3QvZml4dHVyZXMvdGVzdC50b21sIik7CiAgICB9CgogICAgc3RydWN0IFNpbXBsZVRvbWwgewogICAgICAgIHVpbnQyNTYgYTsKICAgICAgICBzdHJpbmcgYjsKICAgIH0KCiAgICBzdHJ1Y3QgTmVzdGVkVG9tbCB7CiAgICAgICAgdWludDI1NiBhOwogICAgICAgIHN0cmluZyBiOwogICAgICAgIFNpbXBsZVRvbWwgYzsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X3JlYWRUb21sKCkgcHVibGljIHZpZXcgewogICAgICAgIHN0cmluZyBtZW1vcnkganNvbiA9IHZtLnJlYWRGaWxlKHBhdGgpOwogICAgICAgIGFzc2VydEVxKGpzb24ucmVhZFVpbnQoIi5hIiksIDEyMyk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF93cml0ZVRvbWwoKSBwdWJsaWMgewogICAgICAgIHN0cmluZyBtZW1vcnkganNvbiA9ICJqc29uIjsKICAgICAgICBqc29uLnNlcmlhbGl6ZSgiYSIsIHVpbnQyNTYoMTIzKSk7CiAgICAgICAgc3RyaW5nIG1lbW9yeSBzZW1pRmluYWwgPSBqc29uLnNlcmlhbGl6ZSgiYiIsIHN0cmluZygidGVzdCIpKTsKICAgICAgICBzdHJpbmcgbWVtb3J5IGZpbmFsSnNvbiA9IGpzb24uc2VyaWFsaXplKCJjIiwgc2VtaUZpbmFsKTsKICAgICAgICBmaW5hbEpzb24ud3JpdGUocGF0aCk7CgogICAgICAgIHN0cmluZyBtZW1vcnkgdG9tbCA9IHZtLnJlYWRGaWxlKHBhdGgpOwogICAgICAgIGJ5dGVzIG1lbW9yeSBkYXRhID0gdG9tbC5wYXJzZVJhdygiJCIpOwogICAgICAgIE5lc3RlZFRvbWwgbWVtb3J5IGRlY29kZWREYXRhID0gYWJpLmRlY29kZShkYXRhLCAoTmVzdGVkVG9tbCkpOwoKICAgICAgICBhc3NlcnRFcShkZWNvZGVkRGF0YS5hLCAxMjMpOwogICAgICAgIGFzc2VydEVxKGRlY29kZWREYXRhLmIsICJ0ZXN0Iik7CiAgICAgICAgYXNzZXJ0RXEoZGVjb2RlZERhdGEuYy5hLCAxMjMpOwogICAgICAgIGFzc2VydEVxKGRlY29kZWREYXRhLmMuYiwgInRlc3QiKTsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.7.0 <0.9.0;
+
+import {Test, stdToml} from "../src/Test.sol";
+
+contract StdTomlTest is Test {
+    using stdToml for string;
+
+    string root;
+    string path;
+
+    function setUp() public {
+        root = vm.projectRoot();
+        path = string.concat(root, "/test/fixtures/test.toml");
+    }
+
+    struct SimpleToml {
+        uint256 a;
+        string b;
+    }
+
+    struct NestedToml {
+        uint256 a;
+        string b;
+        SimpleToml c;
+    }
+
+    function test_readToml() public view {
+        string memory json = vm.readFile(path);
+        assertEq(json.readUint(".a"), 123);
+    }
+
+    function test_writeToml() public {
+        string memory json = "json";
+        json.serialize("a", uint256(123));
+        string memory semiFinal = json.serialize("b", string("test"));
+        string memory finalJson = json.serialize("c", semiFinal);
+        finalJson.write(path);
+
+        string memory toml = vm.readFile(path);
+        bytes memory data = toml.parseRaw("$");
+        NestedToml memory decodedData = abi.decode(data, (NestedToml));
+
+        assertEq(decodedData.a, 123);
+        assertEq(decodedData.b, "test");
+        assertEq(decodedData.c.a, 123);
+        assertEq(decodedData.c.b, "test");
+    }
+}
