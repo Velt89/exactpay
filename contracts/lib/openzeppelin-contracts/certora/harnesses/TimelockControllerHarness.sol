@@ -1,1 +1,13 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7VGltZWxvY2tDb250cm9sbGVyfSBmcm9tICIuLi9wYXRjaGVkL2dvdmVybmFuY2UvVGltZWxvY2tDb250cm9sbGVyLnNvbCI7Cgpjb250cmFjdCBUaW1lbG9ja0NvbnRyb2xsZXJIYXJuZXNzIGlzIFRpbWVsb2NrQ29udHJvbGxlciB7CiAgICBjb25zdHJ1Y3RvcigKICAgICAgICB1aW50MjU2IG1pbkRlbGF5LAogICAgICAgIGFkZHJlc3NbXSBtZW1vcnkgcHJvcG9zZXJzLAogICAgICAgIGFkZHJlc3NbXSBtZW1vcnkgZXhlY3V0b3JzLAogICAgICAgIGFkZHJlc3MgYWRtaW4KICAgICkgVGltZWxvY2tDb250cm9sbGVyKG1pbkRlbGF5LCBwcm9wb3NlcnMsIGV4ZWN1dG9ycywgYWRtaW4pIHt9Cn0K
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+import {TimelockController} from "../patched/governance/TimelockController.sol";
+
+contract TimelockControllerHarness is TimelockController {
+    constructor(
+        uint256 minDelay,
+        address[] memory proposers,
+        address[] memory executors,
+        address admin
+    ) TimelockController(minDelay, proposers, executors, admin) {}
+}
