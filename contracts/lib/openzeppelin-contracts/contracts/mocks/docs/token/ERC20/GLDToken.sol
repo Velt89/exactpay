@@ -1,1 +1,11 @@
-Ly8gY29udHJhY3RzL0dMRFRva2VuLnNvbAovLyBTUERYLUxpY2Vuc2UtSWRlbnRpZmllcjogTUlUCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKaW1wb3J0IHtFUkMyMH0gZnJvbSAiLi4vLi4vLi4vLi4vdG9rZW4vRVJDMjAvRVJDMjAuc29sIjsKCmNvbnRyYWN0IEdMRFRva2VuIGlzIEVSQzIwIHsKICAgIGNvbnN0cnVjdG9yKHVpbnQyNTYgaW5pdGlhbFN1cHBseSkgRVJDMjAoIkdvbGQiLCAiR0xEIikgewogICAgICAgIF9taW50KG1zZy5zZW5kZXIsIGluaXRpYWxTdXBwbHkpOwogICAgfQp9Cg==
+// contracts/GLDToken.sol
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+import {ERC20} from "../../../../token/ERC20/ERC20.sol";
+
+contract GLDToken is ERC20 {
+    constructor(uint256 initialSupply) ERC20("Gold", "GLD") {
+        _mint(msg.sender, initialSupply);
+    }
+}
