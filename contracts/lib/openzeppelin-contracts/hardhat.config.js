@@ -1,1 +1,124 @@
-Ly8vIEVOVlZBUgovLyAtIENPTVBJTEVSOiAgICAgIGNvbXBpbGVyIHZlcnNpb24gKGRlZmF1bHQ6IDAuOC4yNCkKLy8gLSBTUkM6ICAgICAgICAgICBjb250cmFjdHMgZm9sZGVyIHRvIGNvbXBpbGUgKGRlZmF1bHQ6IGNvbnRyYWN0cykKLy8gLSBSVU5TOiAgICAgICAgICBudW1iZXIgb2Ygb3B0aW1pemF0aW9uIHJ1bnMgKGRlZmF1bHQ6IDIwMCkKLy8gLSBJUjogICAgICAgICAgICBlbmFibGUgSVIgY29tcGlsYXRpb24gKGRlZmF1bHQ6IGZhbHNlKQovLyAtIENPVkVSQUdFOiAgICAgIGVuYWJsZSBjb3ZlcmFnZSByZXBvcnQgKGRlZmF1bHQ6IGZhbHNlKQovLyAtIEdBUzogICAgICAgICAgIGVuYWJsZSBnYXMgcmVwb3J0IChkZWZhdWx0OiBmYWxzZSkKLy8gLSBDT0lOTUFSS0VUQ0FQOiBjb2lubWFya2V0Y2FwIGFwaSBrZXkgZm9yIFVTRCB2YWx1ZSBpbiBnYXMgcmVwb3J0Ci8vIC0gQ0k6ICAgICAgICAgICAgb3V0cHV0IGdhcyByZXBvcnQgdG8gZmlsZSBpbnN0ZWFkIG9mIHN0ZG91dAoKY29uc3QgZnMgPSByZXF1aXJlKCdmcycpOwpjb25zdCBwYXRoID0gcmVxdWlyZSgncGF0aCcpOwoKY29uc3QgeyBhcmd2IH0gPSByZXF1aXJlKCd5YXJncy95YXJncycpKCkKICAuZW52KCcnKQogIC5vcHRpb25zKHsKICAgIC8vIENvbXBpbGF0aW9uIHNldHRpbmdzCiAgICBjb21waWxlcjogewogICAgICBhbGlhczogJ2NvbXBpbGVWZXJzaW9uJywKICAgICAgdHlwZTogJ3N0cmluZycsCiAgICAgIGRlZmF1bHQ6ICcwLjguMjQnLAogICAgfSwKICAgIHNyYzogewogICAgICBhbGlhczogJ3NvdXJjZScsCiAgICAgIHR5cGU6ICdzdHJpbmcnLAogICAgICBkZWZhdWx0OiAnY29udHJhY3RzJywKICAgIH0sCiAgICBydW5zOiB7CiAgICAgIGFsaWFzOiAnb3B0aW1pemF0aW9uUnVucycsCiAgICAgIHR5cGU6ICdudW1iZXInLAogICAgICBkZWZhdWx0OiAyMDAsCiAgICB9LAogICAgaXI6IHsKICAgICAgYWxpYXM6ICdlbmFibGVJUicsCiAgICAgIHR5cGU6ICdib29sZWFuJywKICAgICAgZGVmYXVsdDogZmFsc2UsCiAgICB9LAogICAgZXZtOiB7CiAgICAgIGFsaWFzOiAnZXZtVmVyc2lvbicsCiAgICAgIHR5cGU6ICdzdHJpbmcnLAogICAgICBkZWZhdWx0OiAnY2FuY3VuJywKICAgIH0sCiAgICAvLyBFeHRyYSBtb2R1bGVzCiAgICBjb3ZlcmFnZTogewogICAgICB0eXBlOiAnYm9vbGVhbicsCiAgICAgIGRlZmF1bHQ6IGZhbHNlLAogICAgfSwKICAgIGdhczogewogICAgICBhbGlhczogJ2VuYWJsZUdhc1JlcG9ydCcsCiAgICAgIHR5cGU6ICdib29sZWFuJywKICAgICAgZGVmYXVsdDogZmFsc2UsCiAgICB9LAogICAgY29pbm1hcmtldGNhcDogewogICAgICBhbGlhczogJ2NvaW5tYXJrZXRjYXBBcGlLZXknLAogICAgICB0eXBlOiAnc3RyaW5nJywKICAgIH0sCiAgfSk7CgpyZXF1aXJlKCdAbm9taWNmb3VuZGF0aW9uL2hhcmRoYXQtY2hhaS1tYXRjaGVycycpOwpyZXF1aXJlKCdAbm9taWNmb3VuZGF0aW9uL2hhcmRoYXQtZXRoZXJzJyk7CnJlcXVpcmUoJ2hhcmRoYXQtZXhwb3NlZCcpOwpyZXF1aXJlKCdoYXJkaGF0LWdhcy1yZXBvcnRlcicpOwpyZXF1aXJlKCdoYXJkaGF0LWlnbm9yZS13YXJuaW5ncycpOwpyZXF1aXJlKCdzb2xpZGl0eS1jb3ZlcmFnZScpOwpyZXF1aXJlKCdzb2xpZGl0eS1kb2NnZW4nKTsKCmZvciAoY29uc3QgZiBvZiBmcy5yZWFkZGlyU3luYyhwYXRoLmpvaW4oX19kaXJuYW1lLCAnaGFyZGhhdCcpKSkgewogIHJlcXVpcmUocGF0aC5qb2luKF9fZGlybmFtZSwgJ2hhcmRoYXQnLCBmKSk7Cn0KCi8qKgogKiBAdHlwZSBpbXBvcnQoJ2hhcmRoYXQvY29uZmlnJykuSGFyZGhhdFVzZXJDb25maWcKICovCm1vZHVsZS5leHBvcnRzID0gewogIHNvbGlkaXR5OiB7CiAgICB2ZXJzaW9uOiBhcmd2LmNvbXBpbGVyLAogICAgc2V0dGluZ3M6IHsKICAgICAgb3B0aW1pemVyOiB7CiAgICAgICAgZW5hYmxlZDogdHJ1ZSwKICAgICAgICBydW5zOiBhcmd2LnJ1bnMsCiAgICAgIH0sCiAgICAgIGV2bVZlcnNpb246IGFyZ3YuZXZtLAogICAgICB2aWFJUjogYXJndi5pciwKICAgICAgb3V0cHV0U2VsZWN0aW9uOiB7ICcqJzogeyAnKic6IFsnc3RvcmFnZUxheW91dCddIH0gfSwKICAgIH0sCiAgfSwKICB3YXJuaW5nczogewogICAgJ2NvbnRyYWN0cy1leHBvc2VkLyoqLyonOiB7CiAgICAgICdjb2RlLXNpemUnOiAnb2ZmJywKICAgICAgJ2luaXRjb2RlLXNpemUnOiAnb2ZmJywKICAgIH0sCiAgICAnKic6IHsKICAgICAgJ2NvZGUtc2l6ZSc6IHRydWUsCiAgICAgICd1bnVzZWQtcGFyYW0nOiAhYXJndi5jb3ZlcmFnZSwgLy8gY292ZXJhZ2UgY2F1c2VzIHVudXNlZC1wYXJhbSB3YXJuaW5ncwogICAgICAndHJhbnNpZW50LXN0b3JhZ2UnOiBmYWxzZSwKICAgICAgZGVmYXVsdDogJ2Vycm9yJywKICAgIH0sCiAgfSwKICBuZXR3b3JrczogewogICAgaGFyZGhhdDogewogICAgICBoYXJkZm9yazogYXJndi5ldm0sCiAgICAgIC8vIEV4cG9zZWQgY29udHJhY3RzIG9mdGVuIGV4Y2VlZCB0aGUgbWF4aW11bSBjb250cmFjdCBzaXplLiBGb3Igbm9ybWFsIGNvbnRyYWN0LAogICAgICAvLyB3ZSByZWx5IG9uIHRoZSBgY29kZS1zaXplYCBjb21waWxlciB3YXJuaW5nLCB0aGF0IHdpbGwgY2F1c2UgYSBjb21waWxhdGlvbiBlcnJvci4KICAgICAgYWxsb3dVbmxpbWl0ZWRDb250cmFjdFNpemU6IHRydWUsCiAgICAgIGluaXRpYWxCYXNlRmVlUGVyR2FzOiBhcmd2LmNvdmVyYWdlID8gMCA6IHVuZGVmaW5lZCwKICAgIH0sCiAgfSwKICBleHBvc2VkOiB7CiAgICBpbXBvcnRzOiB0cnVlLAogICAgaW5pdGlhbGl6ZXJzOiB0cnVlLAogICAgZXhjbHVkZTogWyd2ZW5kb3IvKiovKicsICcqKi8qV2l0aEluaXQuc29sJ10sCiAgfSwKICBnYXNSZXBvcnRlcjogewogICAgZW5hYmxlZDogYXJndi5nYXMsCiAgICBzaG93TWV0aG9kU2lnOiB0cnVlLAogICAgaW5jbHVkZUJ5dGVjb2RlSW5KU09OOiB0cnVlLAogICAgY3VycmVuY3k6ICdVU0QnLAogICAgY29pbm1hcmtldGNhcDogYXJndi5jb2lubWFya2V0Y2FwLAogIH0sCiAgcGF0aHM6IHsKICAgIHNvdXJjZXM6IGFyZ3Yuc3JjLAogIH0sCiAgZG9jZ2VuOiByZXF1aXJlKCcuL2RvY3MvY29uZmlnJyksCn07Cg==
+/// ENVVAR
+// - COMPILER:      compiler version (default: 0.8.24)
+// - SRC:           contracts folder to compile (default: contracts)
+// - RUNS:          number of optimization runs (default: 200)
+// - IR:            enable IR compilation (default: false)
+// - COVERAGE:      enable coverage report (default: false)
+// - GAS:           enable gas report (default: false)
+// - COINMARKETCAP: coinmarketcap api key for USD value in gas report
+// - CI:            output gas report to file instead of stdout
+
+const fs = require('fs');
+const path = require('path');
+
+const { argv } = require('yargs/yargs')()
+  .env('')
+  .options({
+    // Compilation settings
+    compiler: {
+      alias: 'compileVersion',
+      type: 'string',
+      default: '0.8.24',
+    },
+    src: {
+      alias: 'source',
+      type: 'string',
+      default: 'contracts',
+    },
+    runs: {
+      alias: 'optimizationRuns',
+      type: 'number',
+      default: 200,
+    },
+    ir: {
+      alias: 'enableIR',
+      type: 'boolean',
+      default: false,
+    },
+    evm: {
+      alias: 'evmVersion',
+      type: 'string',
+      default: 'cancun',
+    },
+    // Extra modules
+    coverage: {
+      type: 'boolean',
+      default: false,
+    },
+    gas: {
+      alias: 'enableGasReport',
+      type: 'boolean',
+      default: false,
+    },
+    coinmarketcap: {
+      alias: 'coinmarketcapApiKey',
+      type: 'string',
+    },
+  });
+
+require('@nomicfoundation/hardhat-chai-matchers');
+require('@nomicfoundation/hardhat-ethers');
+require('hardhat-exposed');
+require('hardhat-gas-reporter');
+require('hardhat-ignore-warnings');
+require('solidity-coverage');
+require('solidity-docgen');
+
+for (const f of fs.readdirSync(path.join(__dirname, 'hardhat'))) {
+  require(path.join(__dirname, 'hardhat', f));
+}
+
+/**
+ * @type import('hardhat/config').HardhatUserConfig
+ */
+module.exports = {
+  solidity: {
+    version: argv.compiler,
+    settings: {
+      optimizer: {
+        enabled: true,
+        runs: argv.runs,
+      },
+      evmVersion: argv.evm,
+      viaIR: argv.ir,
+      outputSelection: { '*': { '*': ['storageLayout'] } },
+    },
+  },
+  warnings: {
+    'contracts-exposed/**/*': {
+      'code-size': 'off',
+      'initcode-size': 'off',
+    },
+    '*': {
+      'code-size': true,
+      'unused-param': !argv.coverage, // coverage causes unused-param warnings
+      'transient-storage': false,
+      default: 'error',
+    },
+  },
+  networks: {
+    hardhat: {
+      hardfork: argv.evm,
+      // Exposed contracts often exceed the maximum contract size. For normal contract,
+      // we rely on the `code-size` compiler warning, that will cause a compilation error.
+      allowUnlimitedContractSize: true,
+      initialBaseFeePerGas: argv.coverage ? 0 : undefined,
+    },
+  },
+  exposed: {
+    imports: true,
+    initializers: true,
+    exclude: ['vendor/**/*', '**/*WithInit.sol'],
+  },
+  gasReporter: {
+    enabled: argv.gas,
+    showMethodSig: true,
+    includeBytecodeInJSON: true,
+    currency: 'USD',
+    coinmarketcap: argv.coinmarketcap,
+  },
+  paths: {
+    sources: argv.src,
+  },
+  docgen: require('./docs/config'),
+};
