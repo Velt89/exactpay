@@ -1,1 +1,119 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKYXN5bmMgZnVuY3Rpb24gZml4dHVyZSgpIHsKICBjb25zdCBbaG9sZGVyXSA9IGF3YWl0IGV0aGVycy5nZXRTaWduZXJzKCk7CiAgY29uc3QgdG9rZW4gPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJyRFUkMxMTU1U3VwcGx5JywgWydodHRwczovL3Rva2VuLWNkbi1kb21haW4ve2lkfS5qc29uJ10pOwogIHJldHVybiB7IHRva2VuLCBob2xkZXIgfTsKfQoKZGVzY3JpYmUoJ0VSQzExNTVTdXBwbHknLCBmdW5jdGlvbiAoKSB7CiAgY29uc3QgZmlyc3RUb2tlbklkID0gMzduOwogIGNvbnN0IGZpcnN0VG9rZW5WYWx1ZSA9IDQybjsKICBjb25zdCBzZWNvbmRUb2tlbklkID0gMTk4NDJuOwogIGNvbnN0IHNlY29uZFRva2VuVmFsdWUgPSAyM247CgogIGJlZm9yZUVhY2goYXN5bmMgZnVuY3Rpb24gKCkgewogICAgT2JqZWN0LmFzc2lnbih0aGlzLCBhd2FpdCBsb2FkRml4dHVyZShmaXh0dXJlKSk7CiAgfSk7CgogIGRlc2NyaWJlKCdiZWZvcmUgbWludCcsIGZ1bmN0aW9uICgpIHsKICAgIGl0KCdleGlzdCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudG9rZW4uZXhpc3RzKGZpcnN0VG9rZW5JZCkpLnRvLmJlLmZhbHNlOwogICAgfSk7CgogICAgaXQoJ3RvdGFsU3VwcGx5JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBleHBlY3QoYXdhaXQgdGhpcy50b2tlbi50b3RhbFN1cHBseShldGhlcnMuVHlwZWQudWludDI1NihmaXJzdFRva2VuSWQpKSkudG8uZXF1YWwoMG4pOwogICAgICBleHBlY3QoYXdhaXQgdGhpcy50b2tlbi50b3RhbFN1cHBseSgpKS50by5lcXVhbCgwbik7CiAgICB9KTsKICB9KTsKCiAgZGVzY3JpYmUoJ2FmdGVyIG1pbnQnLCBmdW5jdGlvbiAoKSB7CiAgICBkZXNjcmliZSgnc2luZ2xlJywgZnVuY3Rpb24gKCkgewogICAgICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBhd2FpdCB0aGlzLnRva2VuLiRfbWludCh0aGlzLmhvbGRlciwgZmlyc3RUb2tlbklkLCBmaXJzdFRva2VuVmFsdWUsICcweCcpOwogICAgICB9KTsKCiAgICAgIGl0KCdleGlzdCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy50b2tlbi5leGlzdHMoZmlyc3RUb2tlbklkKSkudG8uYmUudHJ1ZTsKICAgICAgfSk7CgogICAgICBpdCgndG90YWxTdXBwbHknLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudG9rZW4udG90YWxTdXBwbHkoZXRoZXJzLlR5cGVkLnVpbnQyNTYoZmlyc3RUb2tlbklkKSkpLnRvLmVxdWFsKGZpcnN0VG9rZW5WYWx1ZSk7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudG9rZW4udG90YWxTdXBwbHkoKSkudG8uZXF1YWwoZmlyc3RUb2tlblZhbHVlKTsKICAgICAgfSk7CiAgICB9KTsKCiAgICBkZXNjcmliZSgnYmF0Y2gnLCBmdW5jdGlvbiAoKSB7CiAgICAgIGJlZm9yZUVhY2goYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGF3YWl0IHRoaXMudG9rZW4uJF9taW50QmF0Y2goCiAgICAgICAgICB0aGlzLmhvbGRlciwKICAgICAgICAgIFtmaXJzdFRva2VuSWQsIHNlY29uZFRva2VuSWRdLAogICAgICAgICAgW2ZpcnN0VG9rZW5WYWx1ZSwgc2Vjb25kVG9rZW5WYWx1ZV0sCiAgICAgICAgICAnMHgnLAogICAgICAgICk7CiAgICAgIH0pOwoKICAgICAgaXQoJ2V4aXN0JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnRva2VuLmV4aXN0cyhmaXJzdFRva2VuSWQpKS50by5iZS50cnVlOwogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnRva2VuLmV4aXN0cyhzZWNvbmRUb2tlbklkKSkudG8uYmUudHJ1ZTsKICAgICAgfSk7CgogICAgICBpdCgndG90YWxTdXBwbHknLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudG9rZW4udG90YWxTdXBwbHkoZXRoZXJzLlR5cGVkLnVpbnQyNTYoZmlyc3RUb2tlbklkKSkpLnRvLmVxdWFsKGZpcnN0VG9rZW5WYWx1ZSk7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudG9rZW4udG90YWxTdXBwbHkoZXRoZXJzLlR5cGVkLnVpbnQyNTYoc2Vjb25kVG9rZW5JZCkpKS50by5lcXVhbChzZWNvbmRUb2tlblZhbHVlKTsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy50b2tlbi50b3RhbFN1cHBseSgpKS50by5lcXVhbChmaXJzdFRva2VuVmFsdWUgKyBzZWNvbmRUb2tlblZhbHVlKTsKICAgICAgfSk7CiAgICB9KTsKICB9KTsKCiAgZGVzY3JpYmUoJ2FmdGVyIGJ1cm4nLCBmdW5jdGlvbiAoKSB7CiAgICBkZXNjcmliZSgnc2luZ2xlJywgZnVuY3Rpb24gKCkgewogICAgICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBhd2FpdCB0aGlzLnRva2VuLiRfbWludCh0aGlzLmhvbGRlciwgZmlyc3RUb2tlbklkLCBmaXJzdFRva2VuVmFsdWUsICcweCcpOwogICAgICAgIGF3YWl0IHRoaXMudG9rZW4uJF9idXJuKHRoaXMuaG9sZGVyLCBmaXJzdFRva2VuSWQsIGZpcnN0VG9rZW5WYWx1ZSk7CiAgICAgIH0pOwoKICAgICAgaXQoJ2V4aXN0JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnRva2VuLmV4aXN0cyhmaXJzdFRva2VuSWQpKS50by5iZS5mYWxzZTsKICAgICAgfSk7CgogICAgICBpdCgndG90YWxTdXBwbHknLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudG9rZW4udG90YWxTdXBwbHkoZXRoZXJzLlR5cGVkLnVpbnQyNTYoZmlyc3RUb2tlbklkKSkpLnRvLmVxdWFsKDBuKTsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy50b2tlbi50b3RhbFN1cHBseSgpKS50by5lcXVhbCgwbik7CiAgICAgIH0pOwogICAgfSk7CgogICAgZGVzY3JpYmUoJ2JhdGNoJywgZnVuY3Rpb24gKCkgewogICAgICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBhd2FpdCB0aGlzLnRva2VuLiRfbWludEJhdGNoKAogICAgICAgICAgdGhpcy5ob2xkZXIsCiAgICAgICAgICBbZmlyc3RUb2tlbklkLCBzZWNvbmRUb2tlbklkXSwKICAgICAgICAgIFtmaXJzdFRva2VuVmFsdWUsIHNlY29uZFRva2VuVmFsdWVdLAogICAgICAgICAgJzB4JywKICAgICAgICApOwogICAgICAgIGF3YWl0IHRoaXMudG9rZW4uJF9idXJuQmF0Y2godGhpcy5ob2xkZXIsIFtmaXJzdFRva2VuSWQsIHNlY29uZFRva2VuSWRdLCBbZmlyc3RUb2tlblZhbHVlLCBzZWNvbmRUb2tlblZhbHVlXSk7CiAgICAgIH0pOwoKICAgICAgaXQoJ2V4aXN0JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnRva2VuLmV4aXN0cyhmaXJzdFRva2VuSWQpKS50by5iZS5mYWxzZTsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy50b2tlbi5leGlzdHMoc2Vjb25kVG9rZW5JZCkpLnRvLmJlLmZhbHNlOwogICAgICB9KTsKCiAgICAgIGl0KCd0b3RhbFN1cHBseScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy50b2tlbi50b3RhbFN1cHBseShldGhlcnMuVHlwZWQudWludDI1NihmaXJzdFRva2VuSWQpKSkudG8uZXF1YWwoMG4pOwogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnRva2VuLnRvdGFsU3VwcGx5KGV0aGVycy5UeXBlZC51aW50MjU2KHNlY29uZFRva2VuSWQpKSkudG8uZXF1YWwoMG4pOwogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnRva2VuLnRvdGFsU3VwcGx5KCkpLnRvLmVxdWFsKDBuKTsKICAgICAgfSk7CiAgICB9KTsKICB9KTsKCiAgZGVzY3JpYmUoJ290aGVyJywgZnVuY3Rpb24gKCkgewogICAgaXQoJ3N1cHBseSB1bmFmZmVjdGVkIGJ5IG5vLW9wJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCB0aGlzLnRva2VuLiRfdXBkYXRlKGV0aGVycy5aZXJvQWRkcmVzcywgZXRoZXJzLlplcm9BZGRyZXNzLCBbZmlyc3RUb2tlbklkXSwgW2ZpcnN0VG9rZW5WYWx1ZV0pOwogICAgICBleHBlY3QoYXdhaXQgdGhpcy50b2tlbi50b3RhbFN1cHBseShldGhlcnMuVHlwZWQudWludDI1NihmaXJzdFRva2VuSWQpKSkudG8uZXF1YWwoMG4pOwogICAgICBleHBlY3QoYXdhaXQgdGhpcy50b2tlbi50b3RhbFN1cHBseSgpKS50by5lcXVhbCgwbik7CiAgICB9KTsKICB9KTsKfSk7Cg==
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+async function fixture() {
+  const [holder] = await ethers.getSigners();
+  const token = await ethers.deployContract('$ERC1155Supply', ['https://token-cdn-domain/{id}.json']);
+  return { token, holder };
+}
+
+describe('ERC1155Supply', function () {
+  const firstTokenId = 37n;
+  const firstTokenValue = 42n;
+  const secondTokenId = 19842n;
+  const secondTokenValue = 23n;
+
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  describe('before mint', function () {
+    it('exist', async function () {
+      expect(await this.token.exists(firstTokenId)).to.be.false;
+    });
+
+    it('totalSupply', async function () {
+      expect(await this.token.totalSupply(ethers.Typed.uint256(firstTokenId))).to.equal(0n);
+      expect(await this.token.totalSupply()).to.equal(0n);
+    });
+  });
+
+  describe('after mint', function () {
+    describe('single', function () {
+      beforeEach(async function () {
+        await this.token.$_mint(this.holder, firstTokenId, firstTokenValue, '0x');
+      });
+
+      it('exist', async function () {
+        expect(await this.token.exists(firstTokenId)).to.be.true;
+      });
+
+      it('totalSupply', async function () {
+        expect(await this.token.totalSupply(ethers.Typed.uint256(firstTokenId))).to.equal(firstTokenValue);
+        expect(await this.token.totalSupply()).to.equal(firstTokenValue);
+      });
+    });
+
+    describe('batch', function () {
+      beforeEach(async function () {
+        await this.token.$_mintBatch(
+          this.holder,
+          [firstTokenId, secondTokenId],
+          [firstTokenValue, secondTokenValue],
+          '0x',
+        );
+      });
+
+      it('exist', async function () {
+        expect(await this.token.exists(firstTokenId)).to.be.true;
+        expect(await this.token.exists(secondTokenId)).to.be.true;
+      });
+
+      it('totalSupply', async function () {
+        expect(await this.token.totalSupply(ethers.Typed.uint256(firstTokenId))).to.equal(firstTokenValue);
+        expect(await this.token.totalSupply(ethers.Typed.uint256(secondTokenId))).to.equal(secondTokenValue);
+        expect(await this.token.totalSupply()).to.equal(firstTokenValue + secondTokenValue);
+      });
+    });
+  });
+
+  describe('after burn', function () {
+    describe('single', function () {
+      beforeEach(async function () {
+        await this.token.$_mint(this.holder, firstTokenId, firstTokenValue, '0x');
+        await this.token.$_burn(this.holder, firstTokenId, firstTokenValue);
+      });
+
+      it('exist', async function () {
+        expect(await this.token.exists(firstTokenId)).to.be.false;
+      });
+
+      it('totalSupply', async function () {
+        expect(await this.token.totalSupply(ethers.Typed.uint256(firstTokenId))).to.equal(0n);
+        expect(await this.token.totalSupply()).to.equal(0n);
+      });
+    });
+
+    describe('batch', function () {
+      beforeEach(async function () {
+        await this.token.$_mintBatch(
+          this.holder,
+          [firstTokenId, secondTokenId],
+          [firstTokenValue, secondTokenValue],
+          '0x',
+        );
+        await this.token.$_burnBatch(this.holder, [firstTokenId, secondTokenId], [firstTokenValue, secondTokenValue]);
+      });
+
+      it('exist', async function () {
+        expect(await this.token.exists(firstTokenId)).to.be.false;
+        expect(await this.token.exists(secondTokenId)).to.be.false;
+      });
+
+      it('totalSupply', async function () {
+        expect(await this.token.totalSupply(ethers.Typed.uint256(firstTokenId))).to.equal(0n);
+        expect(await this.token.totalSupply(ethers.Typed.uint256(secondTokenId))).to.equal(0n);
+        expect(await this.token.totalSupply()).to.equal(0n);
+      });
+    });
+  });
+
+  describe('other', function () {
+    it('supply unaffected by no-op', async function () {
+      await this.token.$_update(ethers.ZeroAddress, ethers.ZeroAddress, [firstTokenId], [firstTokenValue]);
+      expect(await this.token.totalSupply(ethers.Typed.uint256(firstTokenId))).to.equal(0n);
+      expect(await this.token.totalSupply()).to.equal(0n);
+    });
+  });
+});
