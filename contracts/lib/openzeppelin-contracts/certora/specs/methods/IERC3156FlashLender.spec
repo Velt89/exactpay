@@ -1,1 +1,5 @@
-bWV0aG9kcyB7CiAgICBmdW5jdGlvbiBtYXhGbGFzaExvYW4oYWRkcmVzcykgICAgICAgICAgICAgICAgICAgIGV4dGVybmFsIHJldHVybnMgKHVpbnQyNTYpIGVudmZyZWU7CiAgICBmdW5jdGlvbiBmbGFzaEZlZShhZGRyZXNzLHVpbnQyNTYpICAgICAgICAgICAgICAgIGV4dGVybmFsIHJldHVybnMgKHVpbnQyNTYpIGVudmZyZWU7CiAgICBmdW5jdGlvbiBmbGFzaExvYW4oYWRkcmVzcyxhZGRyZXNzLHVpbnQyNTYsYnl0ZXMpIGV4dGVybmFsIHJldHVybnMgKGJvb2wpOwp9Cg==
+methods {
+    function maxFlashLoan(address)                    external returns (uint256) envfree;
+    function flashFee(address,uint256)                external returns (uint256) envfree;
+    function flashLoan(address,address,uint256,bytes) external returns (bool);
+}
