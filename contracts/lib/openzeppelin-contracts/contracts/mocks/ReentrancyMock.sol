@@ -1,1 +1,50 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge1JlZW50cmFuY3lHdWFyZH0gZnJvbSAiLi4vdXRpbHMvUmVlbnRyYW5jeUd1YXJkLnNvbCI7CmltcG9ydCB7UmVlbnRyYW5jeUF0dGFja30gZnJvbSAiLi9SZWVudHJhbmN5QXR0YWNrLnNvbCI7Cgpjb250cmFjdCBSZWVudHJhbmN5TW9jayBpcyBSZWVudHJhbmN5R3VhcmQgewogICAgdWludDI1NiBwdWJsaWMgY291bnRlcjsKCiAgICBjb25zdHJ1Y3RvcigpIHsKICAgICAgICBjb3VudGVyID0gMDsKICAgIH0KCiAgICBmdW5jdGlvbiBjYWxsYmFjaygpIGV4dGVybmFsIG5vblJlZW50cmFudCB7CiAgICAgICAgX2NvdW50KCk7CiAgICB9CgogICAgZnVuY3Rpb24gY291bnRMb2NhbFJlY3Vyc2l2ZSh1aW50MjU2IG4pIHB1YmxpYyBub25SZWVudHJhbnQgewogICAgICAgIGlmIChuID4gMCkgewogICAgICAgICAgICBfY291bnQoKTsKICAgICAgICAgICAgY291bnRMb2NhbFJlY3Vyc2l2ZShuIC0gMSk7CiAgICAgICAgfQogICAgfQoKICAgIGZ1bmN0aW9uIGNvdW50VGhpc1JlY3Vyc2l2ZSh1aW50MjU2IG4pIHB1YmxpYyBub25SZWVudHJhbnQgewogICAgICAgIGlmIChuID4gMCkgewogICAgICAgICAgICBfY291bnQoKTsKICAgICAgICAgICAgKGJvb2wgc3VjY2VzcywgKSA9IGFkZHJlc3ModGhpcykuY2FsbChhYmkuZW5jb2RlQ2FsbCh0aGlzLmNvdW50VGhpc1JlY3Vyc2l2ZSwgKG4gLSAxKSkpOwogICAgICAgICAgICByZXF1aXJlKHN1Y2Nlc3MsICJSZWVudHJhbmN5TW9jazogZmFpbGVkIGNhbGwiKTsKICAgICAgICB9CiAgICB9CgogICAgZnVuY3Rpb24gY291bnRBbmRDYWxsKFJlZW50cmFuY3lBdHRhY2sgYXR0YWNrZXIpIHB1YmxpYyBub25SZWVudHJhbnQgewogICAgICAgIF9jb3VudCgpOwogICAgICAgIGF0dGFja2VyLmNhbGxTZW5kZXIoYWJpLmVuY29kZUNhbGwodGhpcy5jYWxsYmFjaywgKCkpKTsKICAgIH0KCiAgICBmdW5jdGlvbiBfY291bnQoKSBwcml2YXRlIHsKICAgICAgICBjb3VudGVyICs9IDE7CiAgICB9CgogICAgZnVuY3Rpb24gZ3VhcmRlZENoZWNrRW50ZXJlZCgpIHB1YmxpYyBub25SZWVudHJhbnQgewogICAgICAgIHJlcXVpcmUoX3JlZW50cmFuY3lHdWFyZEVudGVyZWQoKSk7CiAgICB9CgogICAgZnVuY3Rpb24gdW5ndWFyZGVkQ2hlY2tOb3RFbnRlcmVkKCkgcHVibGljIHZpZXcgewogICAgICAgIHJlcXVpcmUoIV9yZWVudHJhbmN5R3VhcmRFbnRlcmVkKCkpOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {ReentrancyGuard} from "../utils/ReentrancyGuard.sol";
+import {ReentrancyAttack} from "./ReentrancyAttack.sol";
+
+contract ReentrancyMock is ReentrancyGuard {
+    uint256 public counter;
+
+    constructor() {
+        counter = 0;
+    }
+
+    function callback() external nonReentrant {
+        _count();
+    }
+
+    function countLocalRecursive(uint256 n) public nonReentrant {
+        if (n > 0) {
+            _count();
+            countLocalRecursive(n - 1);
+        }
+    }
+
+    function countThisRecursive(uint256 n) public nonReentrant {
+        if (n > 0) {
+            _count();
+            (bool success, ) = address(this).call(abi.encodeCall(this.countThisRecursive, (n - 1)));
+            require(success, "ReentrancyMock: failed call");
+        }
+    }
+
+    function countAndCall(ReentrancyAttack attacker) public nonReentrant {
+        _count();
+        attacker.callSender(abi.encodeCall(this.callback, ()));
+    }
+
+    function _count() private {
+        counter += 1;
+    }
+
+    function guardedCheckEntered() public nonReentrant {
+        require(_reentrancyGuardEntered());
+    }
+
+    function unguardedCheckNotEntered() public view {
+        require(!_reentrancyGuardEntered());
+    }
+}
