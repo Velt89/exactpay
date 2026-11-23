@@ -1,1 +1,47 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodG9rZW4vRVJDNzIxL2V4dGVuc2lvbnMvRVJDNzIxVm90ZXMuc29sKQoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0VSQzcyMX0gZnJvbSAiLi4vRVJDNzIxLnNvbCI7CmltcG9ydCB7Vm90ZXN9IGZyb20gIi4uLy4uLy4uL2dvdmVybmFuY2UvdXRpbHMvVm90ZXMuc29sIjsKCi8qKgogKiBAZGV2IEV4dGVuc2lvbiBvZiBFUkMtNzIxIHRvIHN1cHBvcnQgdm90aW5nIGFuZCBkZWxlZ2F0aW9uIGFzIGltcGxlbWVudGVkIGJ5IHtWb3Rlc30sIHdoZXJlIGVhY2ggaW5kaXZpZHVhbCBORlQgY291bnRzCiAqIGFzIDEgdm90ZSB1bml0LgogKgogKiBUb2tlbnMgZG8gbm90IGNvdW50IGFzIHZvdGVzIHVudGlsIHRoZXkgYXJlIGRlbGVnYXRlZCwgYmVjYXVzZSB2b3RlcyBtdXN0IGJlIHRyYWNrZWQgd2hpY2ggaW5jdXJzIGFuIGFkZGl0aW9uYWwgY29zdAogKiBvbiBldmVyeSB0cmFuc2Zlci4gVG9rZW4gaG9sZGVycyBjYW4gZWl0aGVyIGRlbGVnYXRlIHRvIGEgdHJ1c3RlZCByZXByZXNlbnRhdGl2ZSB3aG8gd2lsbCBkZWNpZGUgaG93IHRvIG1ha2UgdXNlIG9mCiAqIHRoZSB2b3RlcyBpbiBnb3Zlcm5hbmNlIGRlY2lzaW9ucywgb3IgdGhleSBjYW4gZGVsZWdhdGUgdG8gdGhlbXNlbHZlcyB0byBiZSB0aGVpciBvd24gcmVwcmVzZW50YXRpdmUuCiAqLwphYnN0cmFjdCBjb250cmFjdCBFUkM3MjFWb3RlcyBpcyBFUkM3MjEsIFZvdGVzIHsKICAgIC8qKgogICAgICogQGRldiBTZWUge0VSQzcyMS1fdXBkYXRlfS4gQWRqdXN0cyB2b3RlcyB3aGVuIHRva2VucyBhcmUgdHJhbnNmZXJyZWQuCiAgICAgKgogICAgICogRW1pdHMgYSB7SVZvdGVzLURlbGVnYXRlVm90ZXNDaGFuZ2VkfSBldmVudC4KICAgICAqLwogICAgZnVuY3Rpb24gX3VwZGF0ZShhZGRyZXNzIHRvLCB1aW50MjU2IHRva2VuSWQsIGFkZHJlc3MgYXV0aCkgaW50ZXJuYWwgdmlydHVhbCBvdmVycmlkZSByZXR1cm5zIChhZGRyZXNzKSB7CiAgICAgICAgYWRkcmVzcyBwcmV2aW91c093bmVyID0gc3VwZXIuX3VwZGF0ZSh0bywgdG9rZW5JZCwgYXV0aCk7CgogICAgICAgIF90cmFuc2ZlclZvdGluZ1VuaXRzKHByZXZpb3VzT3duZXIsIHRvLCAxKTsKCiAgICAgICAgcmV0dXJuIHByZXZpb3VzT3duZXI7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIGJhbGFuY2Ugb2YgYGFjY291bnRgLgogICAgICoKICAgICAqIFdBUk5JTkc6IE92ZXJyaWRpbmcgdGhpcyBmdW5jdGlvbiB3aWxsIGxpa2VseSByZXN1bHQgaW4gaW5jb3JyZWN0IHZvdGUgdHJhY2tpbmcuCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9nZXRWb3RpbmdVbml0cyhhZGRyZXNzIGFjY291bnQpIGludGVybmFsIHZpZXcgdmlydHVhbCBvdmVycmlkZSByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgcmV0dXJuIGJhbGFuY2VPZihhY2NvdW50KTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgU2VlIHtFUkM3MjEtX2luY3JlYXNlQmFsYW5jZX0uIFdlIG5lZWQgdGhhdCB0byBhY2NvdW50IHRva2VucyB0aGF0IHdlcmUgbWludGVkIGluIGJhdGNoLgogICAgICovCiAgICBmdW5jdGlvbiBfaW5jcmVhc2VCYWxhbmNlKGFkZHJlc3MgYWNjb3VudCwgdWludDEyOCBhbW91bnQpIGludGVybmFsIHZpcnR1YWwgb3ZlcnJpZGUgewogICAgICAgIHN1cGVyLl9pbmNyZWFzZUJhbGFuY2UoYWNjb3VudCwgYW1vdW50KTsKICAgICAgICBfdHJhbnNmZXJWb3RpbmdVbml0cyhhZGRyZXNzKDApLCBhY2NvdW50LCBhbW91bnQpOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (token/ERC721/extensions/ERC721Votes.sol)
+
+pragma solidity ^0.8.20;
+
+import {ERC721} from "../ERC721.sol";
+import {Votes} from "../../../governance/utils/Votes.sol";
+
+/**
+ * @dev Extension of ERC-721 to support voting and delegation as implemented by {Votes}, where each individual NFT counts
+ * as 1 vote unit.
+ *
+ * Tokens do not count as votes until they are delegated, because votes must be tracked which incurs an additional cost
+ * on every transfer. Token holders can either delegate to a trusted representative who will decide how to make use of
+ * the votes in governance decisions, or they can delegate to themselves to be their own representative.
+ */
+abstract contract ERC721Votes is ERC721, Votes {
+    /**
+     * @dev See {ERC721-_update}. Adjusts votes when tokens are transferred.
+     *
+     * Emits a {IVotes-DelegateVotesChanged} event.
+     */
+    function _update(address to, uint256 tokenId, address auth) internal virtual override returns (address) {
+        address previousOwner = super._update(to, tokenId, auth);
+
+        _transferVotingUnits(previousOwner, to, 1);
+
+        return previousOwner;
+    }
+
+    /**
+     * @dev Returns the balance of `account`.
+     *
+     * WARNING: Overriding this function will likely result in incorrect vote tracking.
+     */
+    function _getVotingUnits(address account) internal view virtual override returns (uint256) {
+        return balanceOf(account);
+    }
+
+    /**
+     * @dev See {ERC721-_increaseBalance}. We need that to account tokens that were minted in batch.
+     */
+    function _increaseBalance(address account, uint128 amount) internal virtual override {
+        super._increaseBalance(account, amount);
+        _transferVotingUnits(address(0), account, amount);
+    }
+}
