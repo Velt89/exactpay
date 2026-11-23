@@ -1,1 +1,27 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7SUJlYWNvbn0gZnJvbSAiLi4vcHJveHkvYmVhY29uL0lCZWFjb24uc29sIjsKCmNvbnRyYWN0IFVwZ3JhZGVhYmxlQmVhY29uTW9jayBpcyBJQmVhY29uIHsKICAgIGFkZHJlc3MgcHVibGljIGltcGxlbWVudGF0aW9uOwoKICAgIGNvbnN0cnVjdG9yKGFkZHJlc3MgaW1wbCkgewogICAgICAgIGltcGxlbWVudGF0aW9uID0gaW1wbDsKICAgIH0KfQoKaW50ZXJmYWNlIElQcm94eUV4cG9zZWQgewogICAgLy8gc29saGludC1kaXNhYmxlLW5leHQtbGluZSBmdW5jLW5hbWUtbWl4ZWRjYXNlCiAgICBmdW5jdGlvbiAkZ2V0QmVhY29uKCkgZXh0ZXJuYWwgdmlldyByZXR1cm5zIChhZGRyZXNzKTsKfQoKY29udHJhY3QgVXBncmFkZWFibGVCZWFjb25SZWVudHJhbnRNb2NrIGlzIElCZWFjb24gewogICAgZXJyb3IgQmVhY29uUHJveHlCZWFjb25TbG90QWRkcmVzcyhhZGRyZXNzIGJlYWNvbik7CgogICAgZnVuY3Rpb24gaW1wbGVtZW50YXRpb24oKSBleHRlcm5hbCB2aWV3IG92ZXJyaWRlIHJldHVybnMgKGFkZHJlc3MpIHsKICAgICAgICAvLyBSZXZlcnQgd2l0aCB0aGUgYmVhY29uIHNlZW4gaW4gdGhlIHByb3h5IGF0IHRoZSBtb21lbnQgb2YgY2FsbGluZyB0byBjaGVjayBpZiBpdCdzCiAgICAgICAgLy8gc2V0IGJlZm9yZSB0aGUgY2FsbC4KICAgICAgICByZXZlcnQgQmVhY29uUHJveHlCZWFjb25TbG90QWRkcmVzcyhJUHJveHlFeHBvc2VkKG1zZy5zZW5kZXIpLiRnZXRCZWFjb24oKSk7CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+import {IBeacon} from "../proxy/beacon/IBeacon.sol";
+
+contract UpgradeableBeaconMock is IBeacon {
+    address public implementation;
+
+    constructor(address impl) {
+        implementation = impl;
+    }
+}
+
+interface IProxyExposed {
+    // solhint-disable-next-line func-name-mixedcase
+    function $getBeacon() external view returns (address);
+}
+
+contract UpgradeableBeaconReentrantMock is IBeacon {
+    error BeaconProxyBeaconSlotAddress(address beacon);
+
+    function implementation() external view override returns (address) {
+        // Revert with the beacon seen in the proxy at the moment of calling to check if it's
+        // set before the call.
+        revert BeaconProxyBeaconSlotAddress(IProxyExposed(msg.sender).$getBeacon());
+    }
+}
