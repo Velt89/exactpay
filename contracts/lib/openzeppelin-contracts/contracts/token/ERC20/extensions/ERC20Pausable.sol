@@ -1,1 +1,33 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodG9rZW4vRVJDMjAvZXh0ZW5zaW9ucy9FUkMyMFBhdXNhYmxlLnNvbCkKCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKaW1wb3J0IHtFUkMyMH0gZnJvbSAiLi4vRVJDMjAuc29sIjsKaW1wb3J0IHtQYXVzYWJsZX0gZnJvbSAiLi4vLi4vLi4vdXRpbHMvUGF1c2FibGUuc29sIjsKCi8qKgogKiBAZGV2IEVSQy0yMCB0b2tlbiB3aXRoIHBhdXNhYmxlIHRva2VuIHRyYW5zZmVycywgbWludGluZyBhbmQgYnVybmluZy4KICoKICogVXNlZnVsIGZvciBzY2VuYXJpb3Mgc3VjaCBhcyBwcmV2ZW50aW5nIHRyYWRlcyB1bnRpbCB0aGUgZW5kIG9mIGFuIGV2YWx1YXRpb24KICogcGVyaW9kLCBvciBoYXZpbmcgYW4gZW1lcmdlbmN5IHN3aXRjaCBmb3IgZnJlZXppbmcgYWxsIHRva2VuIHRyYW5zZmVycyBpbiB0aGUKICogZXZlbnQgb2YgYSBsYXJnZSBidWcuCiAqCiAqIElNUE9SVEFOVDogVGhpcyBjb250cmFjdCBkb2VzIG5vdCBpbmNsdWRlIHB1YmxpYyBwYXVzZSBhbmQgdW5wYXVzZSBmdW5jdGlvbnMuIEluCiAqIGFkZGl0aW9uIHRvIGluaGVyaXRpbmcgdGhpcyBjb250cmFjdCwgeW91IG11c3QgZGVmaW5lIGJvdGggZnVuY3Rpb25zLCBpbnZva2luZyB0aGUKICoge1BhdXNhYmxlLV9wYXVzZX0gYW5kIHtQYXVzYWJsZS1fdW5wYXVzZX0gaW50ZXJuYWwgZnVuY3Rpb25zLCB3aXRoIGFwcHJvcHJpYXRlCiAqIGFjY2VzcyBjb250cm9sLCBlLmcuIHVzaW5nIHtBY2Nlc3NDb250cm9sfSBvciB7T3duYWJsZX0uIE5vdCBkb2luZyBzbyB3aWxsCiAqIG1ha2UgdGhlIGNvbnRyYWN0IHBhdXNlIG1lY2hhbmlzbSBvZiB0aGUgY29udHJhY3QgdW5yZWFjaGFibGUsIGFuZCB0aHVzIHVudXNhYmxlLgogKi8KYWJzdHJhY3QgY29udHJhY3QgRVJDMjBQYXVzYWJsZSBpcyBFUkMyMCwgUGF1c2FibGUgewogICAgLyoqCiAgICAgKiBAZGV2IFNlZSB7RVJDMjAtX3VwZGF0ZX0uCiAgICAgKgogICAgICogUmVxdWlyZW1lbnRzOgogICAgICoKICAgICAqIC0gdGhlIGNvbnRyYWN0IG11c3Qgbm90IGJlIHBhdXNlZC4KICAgICAqLwogICAgZnVuY3Rpb24gX3VwZGF0ZShhZGRyZXNzIGZyb20sIGFkZHJlc3MgdG8sIHVpbnQyNTYgdmFsdWUpIGludGVybmFsIHZpcnR1YWwgb3ZlcnJpZGUgd2hlbk5vdFBhdXNlZCB7CiAgICAgICAgc3VwZXIuX3VwZGF0ZShmcm9tLCB0bywgdmFsdWUpOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (token/ERC20/extensions/ERC20Pausable.sol)
+
+pragma solidity ^0.8.20;
+
+import {ERC20} from "../ERC20.sol";
+import {Pausable} from "../../../utils/Pausable.sol";
+
+/**
+ * @dev ERC-20 token with pausable token transfers, minting and burning.
+ *
+ * Useful for scenarios such as preventing trades until the end of an evaluation
+ * period, or having an emergency switch for freezing all token transfers in the
+ * event of a large bug.
+ *
+ * IMPORTANT: This contract does not include public pause and unpause functions. In
+ * addition to inheriting this contract, you must define both functions, invoking the
+ * {Pausable-_pause} and {Pausable-_unpause} internal functions, with appropriate
+ * access control, e.g. using {AccessControl} or {Ownable}. Not doing so will
+ * make the contract pause mechanism of the contract unreachable, and thus unusable.
+ */
+abstract contract ERC20Pausable is ERC20, Pausable {
+    /**
+     * @dev See {ERC20-_update}.
+     *
+     * Requirements:
+     *
+     * - the contract must not be paused.
+     */
+    function _update(address from, address to, uint256 value) internal virtual override whenNotPaused {
+        super._update(from, to, value);
+    }
+}
