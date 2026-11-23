@@ -1,1 +1,180 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodXRpbHMvY3J5cHRvZ3JhcGh5L0VDRFNBLnNvbCkKCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKLyoqCiAqIEBkZXYgRWxsaXB0aWMgQ3VydmUgRGlnaXRhbCBTaWduYXR1cmUgQWxnb3JpdGhtIChFQ0RTQSkgb3BlcmF0aW9ucy4KICoKICogVGhlc2UgZnVuY3Rpb25zIGNhbiBiZSB1c2VkIHRvIHZlcmlmeSB0aGF0IGEgbWVzc2FnZSB3YXMgc2lnbmVkIGJ5IHRoZSBob2xkZXIKICogb2YgdGhlIHByaXZhdGUga2V5cyBvZiBhIGdpdmVuIGFkZHJlc3MuCiAqLwpsaWJyYXJ5IEVDRFNBIHsKICAgIGVudW0gUmVjb3ZlckVycm9yIHsKICAgICAgICBOb0Vycm9yLAogICAgICAgIEludmFsaWRTaWduYXR1cmUsCiAgICAgICAgSW52YWxpZFNpZ25hdHVyZUxlbmd0aCwKICAgICAgICBJbnZhbGlkU2lnbmF0dXJlUwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBUaGUgc2lnbmF0dXJlIGRlcml2ZXMgdGhlIGBhZGRyZXNzKDApYC4KICAgICAqLwogICAgZXJyb3IgRUNEU0FJbnZhbGlkU2lnbmF0dXJlKCk7CgogICAgLyoqCiAgICAgKiBAZGV2IFRoZSBzaWduYXR1cmUgaGFzIGFuIGludmFsaWQgbGVuZ3RoLgogICAgICovCiAgICBlcnJvciBFQ0RTQUludmFsaWRTaWduYXR1cmVMZW5ndGgodWludDI1NiBsZW5ndGgpOwoKICAgIC8qKgogICAgICogQGRldiBUaGUgc2lnbmF0dXJlIGhhcyBhbiBTIHZhbHVlIHRoYXQgaXMgaW4gdGhlIHVwcGVyIGhhbGYgb3JkZXIuCiAgICAgKi8KICAgIGVycm9yIEVDRFNBSW52YWxpZFNpZ25hdHVyZVMoYnl0ZXMzMiBzKTsKCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyB0aGUgYWRkcmVzcyB0aGF0IHNpZ25lZCBhIGhhc2hlZCBtZXNzYWdlIChgaGFzaGApIHdpdGggYHNpZ25hdHVyZWAgb3IgYW4gZXJyb3IuIFRoaXMgd2lsbCBub3QKICAgICAqIHJldHVybiBhZGRyZXNzKDApIHdpdGhvdXQgYWxzbyByZXR1cm5pbmcgYW4gZXJyb3IgZGVzY3JpcHRpb24uIEVycm9ycyBhcmUgZG9jdW1lbnRlZCB1c2luZyBhbiBlbnVtIChlcnJvciB0eXBlKQogICAgICogYW5kIGEgYnl0ZXMzMiBwcm92aWRpbmcgYWRkaXRpb25hbCBpbmZvcm1hdGlvbiBhYm91dCB0aGUgZXJyb3IuCiAgICAgKgogICAgICogSWYgbm8gZXJyb3IgaXMgcmV0dXJuZWQsIHRoZW4gdGhlIGFkZHJlc3MgY2FuIGJlIHVzZWQgZm9yIHZlcmlmaWNhdGlvbiBwdXJwb3Nlcy4KICAgICAqCiAgICAgKiBUaGUgYGVjcmVjb3ZlcmAgRVZNIHByZWNvbXBpbGUgYWxsb3dzIGZvciBtYWxsZWFibGUgKG5vbi11bmlxdWUpIHNpZ25hdHVyZXM6CiAgICAgKiB0aGlzIGZ1bmN0aW9uIHJlamVjdHMgdGhlbSBieSByZXF1aXJpbmcgdGhlIGBzYCB2YWx1ZSB0byBiZSBpbiB0aGUgbG93ZXIKICAgICAqIGhhbGYgb3JkZXIsIGFuZCB0aGUgYHZgIHZhbHVlIHRvIGJlIGVpdGhlciAyNyBvciAyOC4KICAgICAqCiAgICAgKiBJTVBPUlRBTlQ6IGBoYXNoYCBfbXVzdF8gYmUgdGhlIHJlc3VsdCBvZiBhIGhhc2ggb3BlcmF0aW9uIGZvciB0aGUKICAgICAqIHZlcmlmaWNhdGlvbiB0byBiZSBzZWN1cmU6IGl0IGlzIHBvc3NpYmxlIHRvIGNyYWZ0IHNpZ25hdHVyZXMgdGhhdAogICAgICogcmVjb3ZlciB0byBhcmJpdHJhcnkgYWRkcmVzc2VzIGZvciBub24taGFzaGVkIGRhdGEuIEEgc2FmZSB3YXkgdG8gZW5zdXJlCiAgICAgKiB0aGlzIGlzIGJ5IHJlY2VpdmluZyBhIGhhc2ggb2YgdGhlIG9yaWdpbmFsIG1lc3NhZ2UgKHdoaWNoIG1heSBvdGhlcndpc2UKICAgICAqIGJlIHRvbyBsb25nKSwgYW5kIHRoZW4gY2FsbGluZyB7TWVzc2FnZUhhc2hVdGlscy10b0V0aFNpZ25lZE1lc3NhZ2VIYXNofSBvbiBpdC4KICAgICAqCiAgICAgKiBEb2N1bWVudGF0aW9uIGZvciBzaWduYXR1cmUgZ2VuZXJhdGlvbjoKICAgICAqIC0gd2l0aCBodHRwczovL3dlYjNqcy5yZWFkdGhlZG9jcy5pby9lbi92MS4zLjQvd2ViMy1ldGgtYWNjb3VudHMuaHRtbCNzaWduW1dlYjMuanNdCiAgICAgKiAtIHdpdGggaHR0cHM6Ly9kb2NzLmV0aGVycy5pby92NS9hcGkvc2lnbmVyLyNTaWduZXItc2lnbk1lc3NhZ2VbZXRoZXJzXQogICAgICovCiAgICBmdW5jdGlvbiB0cnlSZWNvdmVyKAogICAgICAgIGJ5dGVzMzIgaGFzaCwKICAgICAgICBieXRlcyBtZW1vcnkgc2lnbmF0dXJlCiAgICApIGludGVybmFsIHB1cmUgcmV0dXJucyAoYWRkcmVzcyByZWNvdmVyZWQsIFJlY292ZXJFcnJvciBlcnIsIGJ5dGVzMzIgZXJyQXJnKSB7CiAgICAgICAgaWYgKHNpZ25hdHVyZS5sZW5ndGggPT0gNjUpIHsKICAgICAgICAgICAgYnl0ZXMzMiByOwogICAgICAgICAgICBieXRlczMyIHM7CiAgICAgICAgICAgIHVpbnQ4IHY7CiAgICAgICAgICAgIC8vIGVjcmVjb3ZlciB0YWtlcyB0aGUgc2lnbmF0dXJlIHBhcmFtZXRlcnMsIGFuZCB0aGUgb25seSB3YXkgdG8gZ2V0IHRoZW0KICAgICAgICAgICAgLy8gY3VycmVudGx5IGlzIHRvIHVzZSBhc3NlbWJseS4KICAgICAgICAgICAgYXNzZW1ibHkgKCJtZW1vcnktc2FmZSIpIHsKICAgICAgICAgICAgICAgIHIgOj0gbWxvYWQoYWRkKHNpZ25hdHVyZSwgMHgyMCkpCiAgICAgICAgICAgICAgICBzIDo9IG1sb2FkKGFkZChzaWduYXR1cmUsIDB4NDApKQogICAgICAgICAgICAgICAgdiA6PSBieXRlKDAsIG1sb2FkKGFkZChzaWduYXR1cmUsIDB4NjApKSkKICAgICAgICAgICAgfQogICAgICAgICAgICByZXR1cm4gdHJ5UmVjb3ZlcihoYXNoLCB2LCByLCBzKTsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICByZXR1cm4gKGFkZHJlc3MoMCksIFJlY292ZXJFcnJvci5JbnZhbGlkU2lnbmF0dXJlTGVuZ3RoLCBieXRlczMyKHNpZ25hdHVyZS5sZW5ndGgpKTsKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIGFkZHJlc3MgdGhhdCBzaWduZWQgYSBoYXNoZWQgbWVzc2FnZSAoYGhhc2hgKSB3aXRoCiAgICAgKiBgc2lnbmF0dXJlYC4gVGhpcyBhZGRyZXNzIGNhbiB0aGVuIGJlIHVzZWQgZm9yIHZlcmlmaWNhdGlvbiBwdXJwb3Nlcy4KICAgICAqCiAgICAgKiBUaGUgYGVjcmVjb3ZlcmAgRVZNIHByZWNvbXBpbGUgYWxsb3dzIGZvciBtYWxsZWFibGUgKG5vbi11bmlxdWUpIHNpZ25hdHVyZXM6CiAgICAgKiB0aGlzIGZ1bmN0aW9uIHJlamVjdHMgdGhlbSBieSByZXF1aXJpbmcgdGhlIGBzYCB2YWx1ZSB0byBiZSBpbiB0aGUgbG93ZXIKICAgICAqIGhhbGYgb3JkZXIsIGFuZCB0aGUgYHZgIHZhbHVlIHRvIGJlIGVpdGhlciAyNyBvciAyOC4KICAgICAqCiAgICAgKiBJTVBPUlRBTlQ6IGBoYXNoYCBfbXVzdF8gYmUgdGhlIHJlc3VsdCBvZiBhIGhhc2ggb3BlcmF0aW9uIGZvciB0aGUKICAgICAqIHZlcmlmaWNhdGlvbiB0byBiZSBzZWN1cmU6IGl0IGlzIHBvc3NpYmxlIHRvIGNyYWZ0IHNpZ25hdHVyZXMgdGhhdAogICAgICogcmVjb3ZlciB0byBhcmJpdHJhcnkgYWRkcmVzc2VzIGZvciBub24taGFzaGVkIGRhdGEuIEEgc2FmZSB3YXkgdG8gZW5zdXJlCiAgICAgKiB0aGlzIGlzIGJ5IHJlY2VpdmluZyBhIGhhc2ggb2YgdGhlIG9yaWdpbmFsIG1lc3NhZ2UgKHdoaWNoIG1heSBvdGhlcndpc2UKICAgICAqIGJlIHRvbyBsb25nKSwgYW5kIHRoZW4gY2FsbGluZyB7TWVzc2FnZUhhc2hVdGlscy10b0V0aFNpZ25lZE1lc3NhZ2VIYXNofSBvbiBpdC4KICAgICAqLwogICAgZnVuY3Rpb24gcmVjb3ZlcihieXRlczMyIGhhc2gsIGJ5dGVzIG1lbW9yeSBzaWduYXR1cmUpIGludGVybmFsIHB1cmUgcmV0dXJucyAoYWRkcmVzcykgewogICAgICAgIChhZGRyZXNzIHJlY292ZXJlZCwgUmVjb3ZlckVycm9yIGVycm9yLCBieXRlczMyIGVycm9yQXJnKSA9IHRyeVJlY292ZXIoaGFzaCwgc2lnbmF0dXJlKTsKICAgICAgICBfdGhyb3dFcnJvcihlcnJvciwgZXJyb3JBcmcpOwogICAgICAgIHJldHVybiByZWNvdmVyZWQ7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IE92ZXJsb2FkIG9mIHtFQ0RTQS10cnlSZWNvdmVyfSB0aGF0IHJlY2VpdmVzIHRoZSBgcmAgYW5kIGB2c2Agc2hvcnQtc2lnbmF0dXJlIGZpZWxkcyBzZXBhcmF0ZWx5LgogICAgICoKICAgICAqIFNlZSBodHRwczovL2VpcHMuZXRoZXJldW0ub3JnL0VJUFMvZWlwLTIwOThbRVJDLTIwOTggc2hvcnQgc2lnbmF0dXJlc10KICAgICAqLwogICAgZnVuY3Rpb24gdHJ5UmVjb3ZlcigKICAgICAgICBieXRlczMyIGhhc2gsCiAgICAgICAgYnl0ZXMzMiByLAogICAgICAgIGJ5dGVzMzIgdnMKICAgICkgaW50ZXJuYWwgcHVyZSByZXR1cm5zIChhZGRyZXNzIHJlY292ZXJlZCwgUmVjb3ZlckVycm9yIGVyciwgYnl0ZXMzMiBlcnJBcmcpIHsKICAgICAgICB1bmNoZWNrZWQgewogICAgICAgICAgICBieXRlczMyIHMgPSB2cyAmIGJ5dGVzMzIoMHg3ZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmKTsKICAgICAgICAgICAgLy8gV2UgZG8gbm90IGNoZWNrIGZvciBhbiBvdmVyZmxvdyBoZXJlIHNpbmNlIHRoZSBzaGlmdCBvcGVyYXRpb24gcmVzdWx0cyBpbiAwIG9yIDEuCiAgICAgICAgICAgIHVpbnQ4IHYgPSB1aW50OCgodWludDI1Nih2cykgPj4gMjU1KSArIDI3KTsKICAgICAgICAgICAgcmV0dXJuIHRyeVJlY292ZXIoaGFzaCwgdiwgciwgcyk7CiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICogQGRldiBPdmVybG9hZCBvZiB7RUNEU0EtcmVjb3Zlcn0gdGhhdCByZWNlaXZlcyB0aGUgYHIgYW5kIGB2c2Agc2hvcnQtc2lnbmF0dXJlIGZpZWxkcyBzZXBhcmF0ZWx5LgogICAgICovCiAgICBmdW5jdGlvbiByZWNvdmVyKGJ5dGVzMzIgaGFzaCwgYnl0ZXMzMiByLCBieXRlczMyIHZzKSBpbnRlcm5hbCBwdXJlIHJldHVybnMgKGFkZHJlc3MpIHsKICAgICAgICAoYWRkcmVzcyByZWNvdmVyZWQsIFJlY292ZXJFcnJvciBlcnJvciwgYnl0ZXMzMiBlcnJvckFyZykgPSB0cnlSZWNvdmVyKGhhc2gsIHIsIHZzKTsKICAgICAgICBfdGhyb3dFcnJvcihlcnJvciwgZXJyb3JBcmcpOwogICAgICAgIHJldHVybiByZWNvdmVyZWQ7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IE92ZXJsb2FkIG9mIHtFQ0RTQS10cnlSZWNvdmVyfSB0aGF0IHJlY2VpdmVzIHRoZSBgdmAsCiAgICAgKiBgcmAgYW5kIGBzYCBzaWduYXR1cmUgZmllbGRzIHNlcGFyYXRlbHkuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHRyeVJlY292ZXIoCiAgICAgICAgYnl0ZXMzMiBoYXNoLAogICAgICAgIHVpbnQ4IHYsCiAgICAgICAgYnl0ZXMzMiByLAogICAgICAgIGJ5dGVzMzIgcwogICAgKSBpbnRlcm5hbCBwdXJlIHJldHVybnMgKGFkZHJlc3MgcmVjb3ZlcmVkLCBSZWNvdmVyRXJyb3IgZXJyLCBieXRlczMyIGVyckFyZykgewogICAgICAgIC8vIEVJUC0yIHN0aWxsIGFsbG93cyBzaWduYXR1cmUgbWFsbGVhYmlsaXR5IGZvciBlY3JlY292ZXIoKS4gUmVtb3ZlIHRoaXMgcG9zc2liaWxpdHkgYW5kIG1ha2UgdGhlIHNpZ25hdHVyZQogICAgICAgIC8vIHVuaXF1ZS4gQXBwZW5kaXggRiBpbiB0aGUgRXRoZXJldW0gWWVsbG93IHBhcGVyIChodHRwczovL2V0aGVyZXVtLmdpdGh1Yi5pby95ZWxsb3dwYXBlci9wYXBlci5wZGYpLCBkZWZpbmVzCiAgICAgICAgLy8gdGhlIHZhbGlkIHJhbmdlIGZvciBzIGluICgzMDEpOiAwIDwgcyA8IHNlY3AyNTZrMW4gw7cgMiArIDEsIGFuZCBmb3IgdiBpbiAoMzAyKTogdiDiiIggezI3LCAyOH0uIE1vc3QKICAgICAgICAvLyBzaWduYXR1cmVzIGZyb20gY3VycmVudCBsaWJyYXJpZXMgZ2VuZXJhdGUgYSB1bmlxdWUgc2lnbmF0dXJlIHdpdGggYW4gcy12YWx1ZSBpbiB0aGUgbG93ZXIgaGFsZiBvcmRlci4KICAgICAgICAvLwogICAgICAgIC8vIElmIHlvdXIgbGlicmFyeSBnZW5lcmF0ZXMgbWFsbGVhYmxlIHNpZ25hdHVyZXMsIHN1Y2ggYXMgcy12YWx1ZXMgaW4gdGhlIHVwcGVyIHJhbmdlLCBjYWxjdWxhdGUgYSBuZXcgcy12YWx1ZQogICAgICAgIC8vIHdpdGggMHhGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRUJBQUVEQ0U2QUY0OEEwM0JCRkQyNUU4Q0QwMzY0MTQxIC0gczEgYW5kIGZsaXAgdiBmcm9tIDI3IHRvIDI4IG9yCiAgICAgICAgLy8gdmljZSB2ZXJzYS4gSWYgeW91ciBsaWJyYXJ5IGFsc28gZ2VuZXJhdGVzIHNpZ25hdHVyZXMgd2l0aCAwLzEgZm9yIHYgaW5zdGVhZCAyNy8yOCwgYWRkIDI3IHRvIHYgdG8gYWNjZXB0CiAgICAgICAgLy8gdGhlc2UgbWFsbGVhYmxlIHNpZ25hdHVyZXMgYXMgd2VsbC4KICAgICAgICBpZiAodWludDI1NihzKSA+IDB4N0ZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkY1RDU3NkU3MzU3QTQ1MDFEREZFOTJGNDY2ODFCMjBBMCkgewogICAgICAgICAgICByZXR1cm4gKGFkZHJlc3MoMCksIFJlY292ZXJFcnJvci5JbnZhbGlkU2lnbmF0dXJlUywgcyk7CiAgICAgICAgfQoKICAgICAgICAvLyBJZiB0aGUgc2lnbmF0dXJlIGlzIHZhbGlkIChhbmQgbm90IG1hbGxlYWJsZSksIHJldHVybiB0aGUgc2lnbmVyIGFkZHJlc3MKICAgICAgICBhZGRyZXNzIHNpZ25lciA9IGVjcmVjb3ZlcihoYXNoLCB2LCByLCBzKTsKICAgICAgICBpZiAoc2lnbmVyID09IGFkZHJlc3MoMCkpIHsKICAgICAgICAgICAgcmV0dXJuIChhZGRyZXNzKDApLCBSZWNvdmVyRXJyb3IuSW52YWxpZFNpZ25hdHVyZSwgYnl0ZXMzMigwKSk7CiAgICAgICAgfQoKICAgICAgICByZXR1cm4gKHNpZ25lciwgUmVjb3ZlckVycm9yLk5vRXJyb3IsIGJ5dGVzMzIoMCkpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBPdmVybG9hZCBvZiB7RUNEU0EtcmVjb3Zlcn0gdGhhdCByZWNlaXZlcyB0aGUgYHZgLAogICAgICogYHJgIGFuZCBgc2Agc2lnbmF0dXJlIGZpZWxkcyBzZXBhcmF0ZWx5LgogICAgICovCiAgICBmdW5jdGlvbiByZWNvdmVyKGJ5dGVzMzIgaGFzaCwgdWludDggdiwgYnl0ZXMzMiByLCBieXRlczMyIHMpIGludGVybmFsIHB1cmUgcmV0dXJucyAoYWRkcmVzcykgewogICAgICAgIChhZGRyZXNzIHJlY292ZXJlZCwgUmVjb3ZlckVycm9yIGVycm9yLCBieXRlczMyIGVycm9yQXJnKSA9IHRyeVJlY292ZXIoaGFzaCwgdiwgciwgcyk7CiAgICAgICAgX3Rocm93RXJyb3IoZXJyb3IsIGVycm9yQXJnKTsKICAgICAgICByZXR1cm4gcmVjb3ZlcmVkOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBPcHRpb25hbGx5IHJldmVydHMgd2l0aCB0aGUgY29ycmVzcG9uZGluZyBjdXN0b20gZXJyb3IgYWNjb3JkaW5nIHRvIHRoZSBgZXJyb3JgIGFyZ3VtZW50IHByb3ZpZGVkLgogICAgICovCiAgICBmdW5jdGlvbiBfdGhyb3dFcnJvcihSZWNvdmVyRXJyb3IgZXJyb3IsIGJ5dGVzMzIgZXJyb3JBcmcpIHByaXZhdGUgcHVyZSB7CiAgICAgICAgaWYgKGVycm9yID09IFJlY292ZXJFcnJvci5Ob0Vycm9yKSB7CiAgICAgICAgICAgIHJldHVybjsgLy8gbm8gZXJyb3I6IGRvIG5vdGhpbmcKICAgICAgICB9IGVsc2UgaWYgKGVycm9yID09IFJlY292ZXJFcnJvci5JbnZhbGlkU2lnbmF0dXJlKSB7CiAgICAgICAgICAgIHJldmVydCBFQ0RTQUludmFsaWRTaWduYXR1cmUoKTsKICAgICAgICB9IGVsc2UgaWYgKGVycm9yID09IFJlY292ZXJFcnJvci5JbnZhbGlkU2lnbmF0dXJlTGVuZ3RoKSB7CiAgICAgICAgICAgIHJldmVydCBFQ0RTQUludmFsaWRTaWduYXR1cmVMZW5ndGgodWludDI1NihlcnJvckFyZykpOwogICAgICAgIH0gZWxzZSBpZiAoZXJyb3IgPT0gUmVjb3ZlckVycm9yLkludmFsaWRTaWduYXR1cmVTKSB7CiAgICAgICAgICAgIHJldmVydCBFQ0RTQUludmFsaWRTaWduYXR1cmVTKGVycm9yQXJnKTsKICAgICAgICB9CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (utils/cryptography/ECDSA.sol)
+
+pragma solidity ^0.8.20;
+
+/**
+ * @dev Elliptic Curve Digital Signature Algorithm (ECDSA) operations.
+ *
+ * These functions can be used to verify that a message was signed by the holder
+ * of the private keys of a given address.
+ */
+library ECDSA {
+    enum RecoverError {
+        NoError,
+        InvalidSignature,
+        InvalidSignatureLength,
+        InvalidSignatureS
+    }
+
+    /**
+     * @dev The signature derives the `address(0)`.
+     */
+    error ECDSAInvalidSignature();
+
+    /**
+     * @dev The signature has an invalid length.
+     */
+    error ECDSAInvalidSignatureLength(uint256 length);
+
+    /**
+     * @dev The signature has an S value that is in the upper half order.
+     */
+    error ECDSAInvalidSignatureS(bytes32 s);
+
+    /**
+     * @dev Returns the address that signed a hashed message (`hash`) with `signature` or an error. This will not
+     * return address(0) without also returning an error description. Errors are documented using an enum (error type)
+     * and a bytes32 providing additional information about the error.
+     *
+     * If no error is returned, then the address can be used for verification purposes.
+     *
+     * The `ecrecover` EVM precompile allows for malleable (non-unique) signatures:
+     * this function rejects them by requiring the `s` value to be in the lower
+     * half order, and the `v` value to be either 27 or 28.
+     *
+     * IMPORTANT: `hash` _must_ be the result of a hash operation for the
+     * verification to be secure: it is possible to craft signatures that
+     * recover to arbitrary addresses for non-hashed data. A safe way to ensure
+     * this is by receiving a hash of the original message (which may otherwise
+     * be too long), and then calling {MessageHashUtils-toEthSignedMessageHash} on it.
+     *
+     * Documentation for signature generation:
+     * - with https://web3js.readthedocs.io/en/v1.3.4/web3-eth-accounts.html#sign[Web3.js]
+     * - with https://docs.ethers.io/v5/api/signer/#Signer-signMessage[ethers]
+     */
+    function tryRecover(
+        bytes32 hash,
+        bytes memory signature
+    ) internal pure returns (address recovered, RecoverError err, bytes32 errArg) {
+        if (signature.length == 65) {
+            bytes32 r;
+            bytes32 s;
+            uint8 v;
+            // ecrecover takes the signature parameters, and the only way to get them
+            // currently is to use assembly.
+            assembly ("memory-safe") {
+                r := mload(add(signature, 0x20))
+                s := mload(add(signature, 0x40))
+                v := byte(0, mload(add(signature, 0x60)))
+            }
+            return tryRecover(hash, v, r, s);
+        } else {
+            return (address(0), RecoverError.InvalidSignatureLength, bytes32(signature.length));
+        }
+    }
+
+    /**
+     * @dev Returns the address that signed a hashed message (`hash`) with
+     * `signature`. This address can then be used for verification purposes.
+     *
+     * The `ecrecover` EVM precompile allows for malleable (non-unique) signatures:
+     * this function rejects them by requiring the `s` value to be in the lower
+     * half order, and the `v` value to be either 27 or 28.
+     *
+     * IMPORTANT: `hash` _must_ be the result of a hash operation for the
+     * verification to be secure: it is possible to craft signatures that
+     * recover to arbitrary addresses for non-hashed data. A safe way to ensure
+     * this is by receiving a hash of the original message (which may otherwise
+     * be too long), and then calling {MessageHashUtils-toEthSignedMessageHash} on it.
+     */
+    function recover(bytes32 hash, bytes memory signature) internal pure returns (address) {
+        (address recovered, RecoverError error, bytes32 errorArg) = tryRecover(hash, signature);
+        _throwError(error, errorArg);
+        return recovered;
+    }
+
+    /**
+     * @dev Overload of {ECDSA-tryRecover} that receives the `r` and `vs` short-signature fields separately.
+     *
+     * See https://eips.ethereum.org/EIPS/eip-2098[ERC-2098 short signatures]
+     */
+    function tryRecover(
+        bytes32 hash,
+        bytes32 r,
+        bytes32 vs
+    ) internal pure returns (address recovered, RecoverError err, bytes32 errArg) {
+        unchecked {
+            bytes32 s = vs & bytes32(0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff);
+            // We do not check for an overflow here since the shift operation results in 0 or 1.
+            uint8 v = uint8((uint256(vs) >> 255) + 27);
+            return tryRecover(hash, v, r, s);
+        }
+    }
+
+    /**
+     * @dev Overload of {ECDSA-recover} that receives the `r and `vs` short-signature fields separately.
+     */
+    function recover(bytes32 hash, bytes32 r, bytes32 vs) internal pure returns (address) {
+        (address recovered, RecoverError error, bytes32 errorArg) = tryRecover(hash, r, vs);
+        _throwError(error, errorArg);
+        return recovered;
+    }
+
+    /**
+     * @dev Overload of {ECDSA-tryRecover} that receives the `v`,
+     * `r` and `s` signature fields separately.
+     */
+    function tryRecover(
+        bytes32 hash,
+        uint8 v,
+        bytes32 r,
+        bytes32 s
+    ) internal pure returns (address recovered, RecoverError err, bytes32 errArg) {
+        // EIP-2 still allows signature malleability for ecrecover(). Remove this possibility and make the signature
+        // unique. Appendix F in the Ethereum Yellow paper (https://ethereum.github.io/yellowpaper/paper.pdf), defines
+        // the valid range for s in (301): 0 < s < secp256k1n ÷ 2 + 1, and for v in (302): v ∈ {27, 28}. Most
+        // signatures from current libraries generate a unique signature with an s-value in the lower half order.
+        //
+        // If your library generates malleable signatures, such as s-values in the upper range, calculate a new s-value
+        // with 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEBAAEDCE6AF48A03BBFD25E8CD0364141 - s1 and flip v from 27 to 28 or
+        // vice versa. If your library also generates signatures with 0/1 for v instead 27/28, add 27 to v to accept
+        // these malleable signatures as well.
+        if (uint256(s) > 0x7FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5D576E7357A4501DDFE92F46681B20A0) {
+            return (address(0), RecoverError.InvalidSignatureS, s);
+        }
+
+        // If the signature is valid (and not malleable), return the signer address
+        address signer = ecrecover(hash, v, r, s);
+        if (signer == address(0)) {
+            return (address(0), RecoverError.InvalidSignature, bytes32(0));
+        }
+
+        return (signer, RecoverError.NoError, bytes32(0));
+    }
+
+    /**
+     * @dev Overload of {ECDSA-recover} that receives the `v`,
+     * `r` and `s` signature fields separately.
+     */
+    function recover(bytes32 hash, uint8 v, bytes32 r, bytes32 s) internal pure returns (address) {
+        (address recovered, RecoverError error, bytes32 errorArg) = tryRecover(hash, v, r, s);
+        _throwError(error, errorArg);
+        return recovered;
+    }
+
+    /**
+     * @dev Optionally reverts with the corresponding custom error according to the `error` argument provided.
+     */
+    function _throwError(RecoverError error, bytes32 errorArg) private pure {
+        if (error == RecoverError.NoError) {
+            return; // no error: do nothing
+        } else if (error == RecoverError.InvalidSignature) {
+            revert ECDSAInvalidSignature();
+        } else if (error == RecoverError.InvalidSignatureLength) {
+            revert ECDSAInvalidSignatureLength(uint256(errorArg));
+        } else if (error == RecoverError.InvalidSignatureS) {
+            revert ECDSAInvalidSignatureS(errorArg);
+        }
+    }
+}
