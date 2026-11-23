@@ -1,1 +1,160 @@
-IyEvdXNyL2Jpbi9lbnYgbm9kZQoKLy8gVVNBR0U6Ci8vICAgIG5vZGUgY2VydG9yYS9ydW4uanMgW1tDT05UUkFDVF9OQU1FOl1TUEVDX05BTUVdKiBbLS1hbGxdIFstLW9wdGlvbnMgT1BUSU9OUy4uLl0gWy0tc3BlY3MgUEFUSF0KLy8gRVhBTVBMRVM6Ci8vICAgIG5vZGUgY2VydG9yYS9ydW4uanMgLS1hbGwKLy8gICAgbm9kZSBjZXJ0b3JhL3J1bi5qcyBBY2Nlc3NDb250cm9sCi8vICAgIG5vZGUgY2VydG9yYS9ydW4uanMgQWNjZXNzQ29udHJvbEhhcm5lc3M6QWNjZXNzQ29udHJvbAoKY29uc3QgcHJvYyA9IHJlcXVpcmUoJ2NoaWxkX3Byb2Nlc3MnKTsKY29uc3QgeyBQYXNzVGhyb3VnaCB9ID0gcmVxdWlyZSgnc3RyZWFtJyk7CmNvbnN0IGV2ZW50cyA9IHJlcXVpcmUoJ2V2ZW50cycpOwoKY29uc3QgYXJndiA9IHJlcXVpcmUoJ3lhcmdzJykKICAuZW52KCcnKQogIC5vcHRpb25zKHsKICAgIGFsbDogewogICAgICBhbGlhczogJ2EnLAogICAgICB0eXBlOiAnYm9vbGVhbicsCiAgICB9LAogICAgc3BlYzogewogICAgICBhbGlhczogJ3MnLAogICAgICB0eXBlOiAnc3RyaW5nJywKICAgICAgZGVmYXVsdDogX19kaXJuYW1lICsgJy9zcGVjcy5qc29uJywKICAgIH0sCiAgICBwYXJhbGxlbDogewogICAgICBhbGlhczogJ3AnLAogICAgICB0eXBlOiAnbnVtYmVyJywKICAgICAgZGVmYXVsdDogNCwKICAgIH0sCiAgICB2ZXJib3NlOiB7CiAgICAgIGFsaWFzOiAndicsCiAgICAgIHR5cGU6ICdjb3VudCcsCiAgICAgIGRlZmF1bHQ6IDAsCiAgICB9LAogICAgb3B0aW9uczogewogICAgICBhbGlhczogJ28nLAogICAgICB0eXBlOiAnYXJyYXknLAogICAgICBkZWZhdWx0OiBbXSwKICAgIH0sCiAgfSkuYXJndjsKCmZ1bmN0aW9uIG1hdGNoKGVudHJ5LCByZXF1ZXN0KSB7CiAgY29uc3QgW3JlcVNwZWMsIHJlcUNvbnRyYWN0XSA9IHJlcXVlc3Quc3BsaXQoJzonKS5yZXZlcnNlKCk7CiAgcmV0dXJuIGVudHJ5LnNwZWMgPT0gcmVxU3BlYyAmJiAoIXJlcUNvbnRyYWN0IHx8IGVudHJ5LmNvbnRyYWN0ID09IHJlcUNvbnRyYWN0KTsKfQoKY29uc3Qgc3BlY3MgPSByZXF1aXJlKGFyZ3Yuc3BlYykuZmlsdGVyKHMgPT4gYXJndi5hbGwgfHwgYXJndi5fLnNvbWUociA9PiBtYXRjaChzLCByKSkpOwpjb25zdCBsaW1pdCA9IHJlcXVpcmUoJ3AtbGltaXQnKShhcmd2LnBhcmFsbGVsKTsKCmlmIChhcmd2Ll8ubGVuZ3RoID09IDAgJiYgIWFyZ3YuYWxsKSB7CiAgY29uc29sZS5lcnJvcihgV2FybmluZzogTm8gc3BlY3MgcmVxdWVzdGVkLiBEaWQgeW91IGZvcmdvdCB0byB0b2dnbGUgJy0tYWxsJz9gKTsKfQoKZm9yIChjb25zdCByIG9mIGFyZ3YuXykgewogIGlmICghc3BlY3Muc29tZShzID0+IG1hdGNoKHMsIHIpKSkgewogICAgY29uc29sZS5lcnJvcihgRXJyb3I6IFJlcXVlc3RlZCBzcGVjICcke3J9JyBub3QgZm91bmQgaW4gJHthcmd2LnNwZWN9YCk7CiAgICBwcm9jZXNzLmV4aXRDb2RlID0gMTsKICB9Cn0KCmlmIChwcm9jZXNzLmV4aXRDb2RlKSB7CiAgcHJvY2Vzcy5leGl0KHByb2Nlc3MuZXhpdENvZGUpOwp9Cgpmb3IgKGNvbnN0IHsgc3BlYywgY29udHJhY3QsIGZpbGVzLCBvcHRpb25zID0gW10gfSBvZiBzcGVjcykgewogIGxpbWl0KAogICAgcnVuQ2VydG9yYSwKICAgIHNwZWMsCiAgICBjb250cmFjdCwKICAgIGZpbGVzLAogICAgWy4uLm9wdGlvbnMsIC4uLmFyZ3Yub3B0aW9uc10uZmxhdE1hcChvcHQgPT4gb3B0LnNwbGl0KCcgJykpLAogICk7Cn0KCi8vIFJ1biBjZXJ0b3JhLCBhZ2dyZWdhdGUgdGhlIG91dHB1dCBhbmQgcHJpbnQgaXQgYXQgdGhlIGVuZAphc3luYyBmdW5jdGlvbiBydW5DZXJ0b3JhKHNwZWMsIGNvbnRyYWN0LCBmaWxlcywgb3B0aW9ucyA9IFtdKSB7CiAgY29uc3QgYXJncyA9IFsuLi5maWxlcywgJy0tdmVyaWZ5JywgYCR7Y29udHJhY3R9OmNlcnRvcmEvc3BlY3MvJHtzcGVjfS5zcGVjYCwgLi4ub3B0aW9uc107CiAgaWYgKGFyZ3YudmVyYm9zZSkgewogICAgY29uc29sZS5sb2coJ1J1bm5pbmc6JywgYXJncy5qb2luKCcgJykpOwogIH0KICBjb25zdCBjaGlsZCA9IHByb2Muc3Bhd24oJ2NlcnRvcmFSdW4nLCBhcmdzKTsKCiAgY29uc3Qgc3RyZWFtID0gbmV3IFBhc3NUaHJvdWdoKCk7CiAgY29uc3Qgb3V0cHV0ID0gY29sbGVjdChzdHJlYW0pOwoKICBjaGlsZC5zdGRvdXQucGlwZShzdHJlYW0sIHsgZW5kOiBmYWxzZSB9KTsKICBjaGlsZC5zdGRlcnIucGlwZShzdHJlYW0sIHsgZW5kOiBmYWxzZSB9KTsKCiAgLy8gYXMgc29vbiBhcyB3ZSBoYXZlIGEgam9iIGlkLCBwcmludCB0aGUgb3V0cHV0IGxpbmsKICBzdHJlYW0ub24oJ2RhdGEnLCBmdW5jdGlvbiBsb2dTdGF0dXNVcmwoZGF0YSkgewogICAgY29uc3QgeyAnLURqb2JJZCc6IGpvYklkLCAnLUR1c2VySWQnOiB1c2VySWQgfSA9IE9iamVjdC5mcm9tRW50cmllcygKICAgICAgZGF0YQogICAgICAgIC50b1N0cmluZygndXRmOCcpCiAgICAgICAgLm1hdGNoKC8tRFxTKz1cUysvZykKICAgICAgICA/Lm1hcChzID0+IHMuc3BsaXQoJz0nKSkgfHwgW10sCiAgICApOwoKICAgIGlmIChqb2JJZCAmJiB1c2VySWQpIHsKICAgICAgY29uc29sZS5lcnJvcihgWyR7c3BlY31dIGh0dHBzOi8vcHJvdmVyLmNlcnRvcmEuY29tL291dHB1dC8ke3VzZXJJZH0vJHtqb2JJZH0vYCk7CiAgICAgIHN0cmVhbS5vZmYoJ2RhdGEnLCBsb2dTdGF0dXNVcmwpOwogICAgfQogIH0pOwoKICAvLyB3YWl0IGZvciBwcm9jZXNzIGVuZAogIGNvbnN0IFtjb2RlLCBzaWduYWxdID0gYXdhaXQgZXZlbnRzLm9uY2UoY2hpbGQsICdleGl0Jyk7CgogIC8vIGVycm9yCiAgaWYgKGNvZGUgfHwgc2lnbmFsKSB7CiAgICBjb25zb2xlLmVycm9yKGBbJHtzcGVjfV0gRXhpdGVkIHdpdGggY29kZSAke2NvZGUgfHwgc2lnbmFsfWApOwogICAgcHJvY2Vzcy5leGl0Q29kZSA9IDE7CiAgfQoKICAvLyBnZXQgYWxsIG91dHB1dAogIHN0cmVhbS5lbmQoKTsKCiAgLy8gd3JpdGUgcmVzdWx0cyBpbiBtYXJrZG93biBmb3JtYXQKICB3cml0ZUVudHJ5KHNwZWMsIGNvbnRyYWN0LCBjb2RlIHx8IHNpZ25hbCwgKGF3YWl0IG91dHB1dCkubWF0Y2goL2h0dHBzOlwvXC9wcm92ZXIuY2VydG9yYS5jb21cL291dHB1dFwvXFMqLyk/LlswXSk7CgogIC8vIHdyaXRlIGFsbCBkZXRhaWxzCiAgY29uc29sZS5lcnJvcihgKyBjZXJ0b3JhUnVuICR7YXJncy5qb2luKCcgJyl9XG5gICsgKGF3YWl0IG91dHB1dCkpOwp9CgovLyBDb2xsZWN0cyBzdHJlYW0gZGF0YSBpbnRvIGEgc3RyaW5nCmFzeW5jIGZ1bmN0aW9uIGNvbGxlY3Qoc3RyZWFtKSB7CiAgY29uc3QgYnVmZmVycyA9IFtdOwogIGZvciBhd2FpdCAoY29uc3QgZGF0YSBvZiBzdHJlYW0pIHsKICAgIGNvbnN0IGJ1ZiA9IEJ1ZmZlci5pc0J1ZmZlcihkYXRhKSA/IGRhdGEgOiBCdWZmZXIuZnJvbShkYXRhKTsKICAgIGJ1ZmZlcnMucHVzaChidWYpOwogIH0KICByZXR1cm4gQnVmZmVyLmNvbmNhdChidWZmZXJzKS50b1N0cmluZygndXRmOCcpOwp9CgovLyBGb3JtYXR0aW5nCmxldCBoYXNIZWFkZXIgPSBmYWxzZTsKCmZ1bmN0aW9uIGZvcm1hdFJvdyguLi5hcnJheSkgewogIHJldHVybiBbJycsIC4uLmFycmF5LCAnJ10uam9pbignIHwgJyk7Cn0KCmZ1bmN0aW9uIHdyaXRlSGVhZGVyKCkgewogIGNvbnNvbGUubG9nKGZvcm1hdFJvdygnc3BlYycsICdjb250cmFjdCcsICdyZXN1bHQnLCAnc3RhdHVzJywgJ291dHB1dCcpKTsKICBjb25zb2xlLmxvZyhmb3JtYXRSb3coJy0nLCAnLScsICctJywgJy0nLCAnLScpKTsKfQoKZnVuY3Rpb24gd3JpdGVFbnRyeShzcGVjLCBjb250cmFjdCwgc3VjY2VzcywgdXJsKSB7CiAgaWYgKCFoYXNIZWFkZXIpIHsKICAgIGhhc0hlYWRlciA9IHRydWU7CiAgICB3cml0ZUhlYWRlcigpOwogIH0KICBjb25zb2xlLmxvZygKICAgIGZvcm1hdFJvdygKICAgICAgc3BlYywKICAgICAgY29udHJhY3QsCiAgICAgIHN1Y2Nlc3MgPyAnOng6JyA6ICc6aGVhdnlfY2hlY2tfbWFyazonLAogICAgICB1cmwgPyBgW2xpbmtdKCR7dXJsPy5yZXBsYWNlKCcvb3V0cHV0LycsICcvam9iU3RhdHVzLycpfSlgIDogJ2Vycm9yJywKICAgICAgdXJsID8gYFtsaW5rXSgke3VybH0pYCA6ICdlcnJvcicsCiAgICApLAogICk7Cn0K
+#!/usr/bin/env node
+
+// USAGE:
+//    node certora/run.js [[CONTRACT_NAME:]SPEC_NAME]* [--all] [--options OPTIONS...] [--specs PATH]
+// EXAMPLES:
+//    node certora/run.js --all
+//    node certora/run.js AccessControl
+//    node certora/run.js AccessControlHarness:AccessControl
+
+const proc = require('child_process');
+const { PassThrough } = require('stream');
+const events = require('events');
+
+const argv = require('yargs')
+  .env('')
+  .options({
+    all: {
+      alias: 'a',
+      type: 'boolean',
+    },
+    spec: {
+      alias: 's',
+      type: 'string',
+      default: __dirname + '/specs.json',
+    },
+    parallel: {
+      alias: 'p',
+      type: 'number',
+      default: 4,
+    },
+    verbose: {
+      alias: 'v',
+      type: 'count',
+      default: 0,
+    },
+    options: {
+      alias: 'o',
+      type: 'array',
+      default: [],
+    },
+  }).argv;
+
+function match(entry, request) {
+  const [reqSpec, reqContract] = request.split(':').reverse();
+  return entry.spec == reqSpec && (!reqContract || entry.contract == reqContract);
+}
+
+const specs = require(argv.spec).filter(s => argv.all || argv._.some(r => match(s, r)));
+const limit = require('p-limit')(argv.parallel);
+
+if (argv._.length == 0 && !argv.all) {
+  console.error(`Warning: No specs requested. Did you forgot to toggle '--all'?`);
+}
+
+for (const r of argv._) {
+  if (!specs.some(s => match(s, r))) {
+    console.error(`Error: Requested spec '${r}' not found in ${argv.spec}`);
+    process.exitCode = 1;
+  }
+}
+
+if (process.exitCode) {
+  process.exit(process.exitCode);
+}
+
+for (const { spec, contract, files, options = [] } of specs) {
+  limit(
+    runCertora,
+    spec,
+    contract,
+    files,
+    [...options, ...argv.options].flatMap(opt => opt.split(' ')),
+  );
+}
+
+// Run certora, aggregate the output and print it at the end
+async function runCertora(spec, contract, files, options = []) {
+  const args = [...files, '--verify', `${contract}:certora/specs/${spec}.spec`, ...options];
+  if (argv.verbose) {
+    console.log('Running:', args.join(' '));
+  }
+  const child = proc.spawn('certoraRun', args);
+
+  const stream = new PassThrough();
+  const output = collect(stream);
+
+  child.stdout.pipe(stream, { end: false });
+  child.stderr.pipe(stream, { end: false });
+
+  // as soon as we have a job id, print the output link
+  stream.on('data', function logStatusUrl(data) {
+    const { '-DjobId': jobId, '-DuserId': userId } = Object.fromEntries(
+      data
+        .toString('utf8')
+        .match(/-D\S+=\S+/g)
+        ?.map(s => s.split('=')) || [],
+    );
+
+    if (jobId && userId) {
+      console.error(`[${spec}] https://prover.certora.com/output/${userId}/${jobId}/`);
+      stream.off('data', logStatusUrl);
+    }
+  });
+
+  // wait for process end
+  const [code, signal] = await events.once(child, 'exit');
+
+  // error
+  if (code || signal) {
+    console.error(`[${spec}] Exited with code ${code || signal}`);
+    process.exitCode = 1;
+  }
+
+  // get all output
+  stream.end();
+
+  // write results in markdown format
+  writeEntry(spec, contract, code || signal, (await output).match(/https:\/\/prover.certora.com\/output\/\S*/)?.[0]);
+
+  // write all details
+  console.error(`+ certoraRun ${args.join(' ')}\n` + (await output));
+}
+
+// Collects stream data into a string
+async function collect(stream) {
+  const buffers = [];
+  for await (const data of stream) {
+    const buf = Buffer.isBuffer(data) ? data : Buffer.from(data);
+    buffers.push(buf);
+  }
+  return Buffer.concat(buffers).toString('utf8');
+}
+
+// Formatting
+let hasHeader = false;
+
+function formatRow(...array) {
+  return ['', ...array, ''].join(' | ');
+}
+
+function writeHeader() {
+  console.log(formatRow('spec', 'contract', 'result', 'status', 'output'));
+  console.log(formatRow('-', '-', '-', '-', '-'));
+}
+
+function writeEntry(spec, contract, success, url) {
+  if (!hasHeader) {
+    hasHeader = true;
+    writeHeader();
+  }
+  console.log(
+    formatRow(
+      spec,
+      contract,
+      success ? ':x:' : ':heavy_check_mark:',
+      url ? `[link](${url?.replace('/output/', '/jobStatus/')})` : 'error',
+      url ? `[link](${url})` : 'error',
+    ),
+  );
+}
