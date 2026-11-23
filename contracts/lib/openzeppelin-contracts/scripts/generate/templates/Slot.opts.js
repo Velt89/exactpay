@@ -1,1 +1,15 @@
-Y29uc3QgeyBjYXBpdGFsaXplIH0gPSByZXF1aXJlKCcuLi8uLi9oZWxwZXJzJyk7Cgpjb25zdCBUWVBFUyA9IFsKICB7IHR5cGU6ICdhZGRyZXNzJywgaXNWYWx1ZVR5cGU6IHRydWUgfSwKICB7IHR5cGU6ICdib29sJywgaXNWYWx1ZVR5cGU6IHRydWUsIG5hbWU6ICdCb29sZWFuJyB9LAogIHsgdHlwZTogJ2J5dGVzMzInLCBpc1ZhbHVlVHlwZTogdHJ1ZSwgdmFyaWFudHM6IFsnYnl0ZXM0J10gfSwKICB7IHR5cGU6ICd1aW50MjU2JywgaXNWYWx1ZVR5cGU6IHRydWUsIHZhcmlhbnRzOiBbJ3VpbnQzMiddIH0sCiAgeyB0eXBlOiAnaW50MjU2JywgaXNWYWx1ZVR5cGU6IHRydWUsIHZhcmlhbnRzOiBbJ2ludDMyJ10gfSwKICB7IHR5cGU6ICdzdHJpbmcnLCBpc1ZhbHVlVHlwZTogZmFsc2UgfSwKICB7IHR5cGU6ICdieXRlcycsIGlzVmFsdWVUeXBlOiBmYWxzZSB9LApdLm1hcCh0eXBlID0+IE9iamVjdC5hc3NpZ24odHlwZSwgeyBuYW1lOiB0eXBlLm5hbWUgPz8gY2FwaXRhbGl6ZSh0eXBlLnR5cGUpIH0pKTsKCk9iamVjdC5hc3NpZ24oVFlQRVMsIE9iamVjdC5mcm9tRW50cmllcyhUWVBFUy5tYXAoZW50cnkgPT4gW2VudHJ5LnR5cGUsIGVudHJ5XSkpKTsKCm1vZHVsZS5leHBvcnRzID0geyBUWVBFUyB9Owo=
+const { capitalize } = require('../../helpers');
+
+const TYPES = [
+  { type: 'address', isValueType: true },
+  { type: 'bool', isValueType: true, name: 'Boolean' },
+  { type: 'bytes32', isValueType: true, variants: ['bytes4'] },
+  { type: 'uint256', isValueType: true, variants: ['uint32'] },
+  { type: 'int256', isValueType: true, variants: ['int32'] },
+  { type: 'string', isValueType: false },
+  { type: 'bytes', isValueType: false },
+].map(type => Object.assign(type, { name: type.name ?? capitalize(type.type) }));
+
+Object.assign(TYPES, Object.fromEntries(TYPES.map(entry => [entry.type, entry])));
+
+module.exports = { TYPES };
