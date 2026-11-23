@@ -1,1 +1,48 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBzZXRTdG9yYWdlQXQgfSA9IHJlcXVpcmUoJ0Bub21pY2ZvdW5kYXRpb24vaGFyZGhhdC1uZXR3b3JrLWhlbHBlcnMnKTsKCmNvbnN0IEltcGxlbWVudGF0aW9uTGFiZWwgPSAnZWlwMTk2Ny5wcm94eS5pbXBsZW1lbnRhdGlvbic7CmNvbnN0IEFkbWluTGFiZWwgPSAnZWlwMTk2Ny5wcm94eS5hZG1pbic7CmNvbnN0IEJlYWNvbkxhYmVsID0gJ2VpcDE5NjcucHJveHkuYmVhY29uJzsKCmNvbnN0IGVyYzE5NjdTbG90ID0gbGFiZWwgPT4gZXRoZXJzLnRvQmVIZXgoZXRoZXJzLnRvQmlnSW50KGV0aGVycy5pZChsYWJlbCkpIC0gMW4pOwpjb25zdCBlcmM3MjAxU2xvdCA9IGxhYmVsID0+IGV0aGVycy50b0JlSGV4KGV0aGVycy50b0JpZ0ludChldGhlcnMua2VjY2FrMjU2KGVyYzE5NjdTbG90KGxhYmVsKSkpICYgfjB4ZmZuKTsKY29uc3QgZXJjNzIwMWZvcm1hdCA9IGNvbnRyYWN0TmFtZSA9PiBgb3BlbnplcHBlbGluLnN0b3JhZ2UuJHtjb250cmFjdE5hbWV9YDsKCmNvbnN0IGdldFNsb3QgPSAoYWRkcmVzcywgc2xvdCkgPT4KICBldGhlcnMucHJvdmlkZXIuZ2V0U3RvcmFnZShhZGRyZXNzLCBldGhlcnMuaXNCeXRlc0xpa2Uoc2xvdCkgPyBzbG90IDogZXJjMTk2N1Nsb3Qoc2xvdCkpOwoKY29uc3Qgc2V0U2xvdCA9IChhZGRyZXNzLCBzbG90LCB2YWx1ZSkgPT4KICBQcm9taXNlLmFsbChbCiAgICBldGhlcnMuaXNBZGRyZXNzYWJsZShhZGRyZXNzKSA/IGFkZHJlc3MuZ2V0QWRkcmVzcygpIDogUHJvbWlzZS5yZXNvbHZlKGFkZHJlc3MpLAogICAgZXRoZXJzLmlzQWRkcmVzc2FibGUodmFsdWUpID8gdmFsdWUuZ2V0QWRkcmVzcygpIDogUHJvbWlzZS5yZXNvbHZlKHZhbHVlKSwKICBdKS50aGVuKChbYWRkcmVzcywgdmFsdWVdKSA9PiBzZXRTdG9yYWdlQXQoYWRkcmVzcywgZXRoZXJzLmlzQnl0ZXNMaWtlKHNsb3QpID8gc2xvdCA6IGVyYzE5NjdTbG90KHNsb3QpLCB2YWx1ZSkpOwoKY29uc3QgZ2V0QWRkcmVzc0luU2xvdCA9IChhZGRyZXNzLCBzbG90KSA9PgogIGdldFNsb3QoYWRkcmVzcywgc2xvdCkudGhlbihzbG90VmFsdWUgPT4gZXRoZXJzLkFiaUNvZGVyLmRlZmF1bHRBYmlDb2RlcigpLmRlY29kZShbJ2FkZHJlc3MnXSwgc2xvdFZhbHVlKVswXSk7Cgpjb25zdCB1cGdyYWRlYWJsZVNsb3QgPSAoY29udHJhY3ROYW1lLCBvZmZzZXQpID0+IHsKICB0cnkgewogICAgLy8gVHJ5IHRvIGdldCB0aGUgYXJ0aWZhY3QgcGF0aHMsIHdpbGwgdGhyb3cgaWYgaXQgZG9lc24ndCBleGlzdAogICAgYXJ0aWZhY3RzLl9nZXRBcnRpZmFjdFBhdGhTeW5jKGAke2NvbnRyYWN0TmFtZX1VcGdyYWRlYWJsZWApOwogICAgcmV0dXJuIG9mZnNldCArIGV0aGVycy50b0JpZ0ludChlcmM3MjAxU2xvdChlcmM3MjAxZm9ybWF0KGNvbnRyYWN0TmFtZSkpKTsKICB9IGNhdGNoIChfKSB7CiAgICByZXR1cm4gb2Zmc2V0OwogIH0KfTsKCm1vZHVsZS5leHBvcnRzID0gewogIEltcGxlbWVudGF0aW9uTGFiZWwsCiAgQWRtaW5MYWJlbCwKICBCZWFjb25MYWJlbCwKICBJbXBsZW1lbnRhdGlvblNsb3Q6IGVyYzE5NjdTbG90KEltcGxlbWVudGF0aW9uTGFiZWwpLAogIEFkbWluU2xvdDogZXJjMTk2N1Nsb3QoQWRtaW5MYWJlbCksCiAgQmVhY29uU2xvdDogZXJjMTk2N1Nsb3QoQmVhY29uTGFiZWwpLAogIGVyYzE5NjdTbG90LAogIGVyYzcyMDFTbG90LAogIGVyYzcyMDFmb3JtYXQsCiAgc2V0U2xvdCwKICBnZXRTbG90LAogIGdldEFkZHJlc3NJblNsb3QsCiAgdXBncmFkZWFibGVTbG90LAp9Owo=
+const { ethers } = require('hardhat');
+const { setStorageAt } = require('@nomicfoundation/hardhat-network-helpers');
+
+const ImplementationLabel = 'eip1967.proxy.implementation';
+const AdminLabel = 'eip1967.proxy.admin';
+const BeaconLabel = 'eip1967.proxy.beacon';
+
+const erc1967Slot = label => ethers.toBeHex(ethers.toBigInt(ethers.id(label)) - 1n);
+const erc7201Slot = label => ethers.toBeHex(ethers.toBigInt(ethers.keccak256(erc1967Slot(label))) & ~0xffn);
+const erc7201format = contractName => `openzeppelin.storage.${contractName}`;
+
+const getSlot = (address, slot) =>
+  ethers.provider.getStorage(address, ethers.isBytesLike(slot) ? slot : erc1967Slot(slot));
+
+const setSlot = (address, slot, value) =>
+  Promise.all([
+    ethers.isAddressable(address) ? address.getAddress() : Promise.resolve(address),
+    ethers.isAddressable(value) ? value.getAddress() : Promise.resolve(value),
+  ]).then(([address, value]) => setStorageAt(address, ethers.isBytesLike(slot) ? slot : erc1967Slot(slot), value));
+
+const getAddressInSlot = (address, slot) =>
+  getSlot(address, slot).then(slotValue => ethers.AbiCoder.defaultAbiCoder().decode(['address'], slotValue)[0]);
+
+const upgradeableSlot = (contractName, offset) => {
+  try {
+    // Try to get the artifact paths, will throw if it doesn't exist
+    artifacts._getArtifactPathSync(`${contractName}Upgradeable`);
+    return offset + ethers.toBigInt(erc7201Slot(erc7201format(contractName)));
+  } catch (_) {
+    return offset;
+  }
+};
+
+module.exports = {
+  ImplementationLabel,
+  AdminLabel,
+  BeaconLabel,
+  ImplementationSlot: erc1967Slot(ImplementationLabel),
+  AdminSlot: erc1967Slot(AdminLabel),
+  BeaconSlot: erc1967Slot(BeaconLabel),
+  erc1967Slot,
+  erc7201Slot,
+  erc7201format,
+  setSlot,
+  getSlot,
+  getAddressInSlot,
+  upgradeableSlot,
+};
