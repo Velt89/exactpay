@@ -1,1 +1,227 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgPj0wLjcuMCA8MC45LjA7CgppbXBvcnQge1Rlc3R9IGZyb20gIi4uL3NyYy9UZXN0LnNvbCI7Cgpjb250cmFjdCBTdGRDaGFpbnNNb2NrIGlzIFRlc3QgewogICAgZnVuY3Rpb24gZXhwb3NlZF9nZXRDaGFpbihzdHJpbmcgbWVtb3J5IGNoYWluQWxpYXMpIHB1YmxpYyByZXR1cm5zIChDaGFpbiBtZW1vcnkpIHsKICAgICAgICByZXR1cm4gZ2V0Q2hhaW4oY2hhaW5BbGlhcyk7CiAgICB9CgogICAgZnVuY3Rpb24gZXhwb3NlZF9nZXRDaGFpbih1aW50MjU2IGNoYWluSWQpIHB1YmxpYyByZXR1cm5zIChDaGFpbiBtZW1vcnkpIHsKICAgICAgICByZXR1cm4gZ2V0Q2hhaW4oY2hhaW5JZCk7CiAgICB9CgogICAgZnVuY3Rpb24gZXhwb3NlZF9zZXRDaGFpbihzdHJpbmcgbWVtb3J5IGNoYWluQWxpYXMsIENoYWluRGF0YSBtZW1vcnkgY2hhaW5EYXRhKSBwdWJsaWMgewogICAgICAgIHNldENoYWluKGNoYWluQWxpYXMsIGNoYWluRGF0YSk7CiAgICB9CgogICAgZnVuY3Rpb24gZXhwb3NlZF9zZXRGYWxsYmFja1RvRGVmYXVsdFJwY1VybHMoYm9vbCB1c2VEZWZhdWx0KSBwdWJsaWMgewogICAgICAgIHNldEZhbGxiYWNrVG9EZWZhdWx0UnBjVXJscyh1c2VEZWZhdWx0KTsKICAgIH0KfQoKY29udHJhY3QgU3RkQ2hhaW5zVGVzdCBpcyBUZXN0IHsKICAgIGZ1bmN0aW9uIHRlc3RfQ2hhaW5ScGNJbml0aWFsaXphdGlvbigpIHB1YmxpYyB7CiAgICAgICAgLy8gUlBDcyBzcGVjaWZpZWQgaW4gYGZvdW5kcnkudG9tbGAgc2hvdWxkIGJlIHVwZGF0ZWQuCiAgICAgICAgYXNzZXJ0RXEoZ2V0Q2hhaW4oMSkucnBjVXJsLCAiaHR0cHM6Ly9ldGgtbWFpbm5ldC5hbGNoZW15YXBpLmlvL3YyL1dWNDA3QkVpQm1qTkpmS285VW9fNTV1MHowSVR5Q09YIik7CiAgICAgICAgYXNzZXJ0RXEoZ2V0Q2hhaW4oIm9wdGltaXNtX3NlcG9saWEiKS5ycGNVcmwsICJodHRwczovL3NlcG9saWEub3B0aW1pc20uaW8vIik7CiAgICAgICAgYXNzZXJ0RXEoZ2V0Q2hhaW4oImFyYml0cnVtX29uZV9zZXBvbGlhIikucnBjVXJsLCAiaHR0cHM6Ly9zZXBvbGlhLXJvbGx1cC5hcmJpdHJ1bS5pby9ycGMvIik7CgogICAgICAgIC8vIEVudmlyb25tZW50IHZhcmlhYmxlcyBzaG91bGQgYmUgdGhlIG5leHQgZmFsbGJhY2sKICAgICAgICBhc3NlcnRFcShnZXRDaGFpbigiYXJiaXRydW1fbm92YSIpLnJwY1VybCwgImh0dHBzOi8vbm92YS5hcmJpdHJ1bS5pby9ycGMiKTsKICAgICAgICB2bS5zZXRFbnYoIkFSQklUUlVNX05PVkFfUlBDX1VSTCIsICJteW92ZXJyaWRlIik7CiAgICAgICAgYXNzZXJ0RXEoZ2V0Q2hhaW4oImFyYml0cnVtX25vdmEiKS5ycGNVcmwsICJteW92ZXJyaWRlIik7CiAgICAgICAgdm0uc2V0RW52KCJBUkJJVFJVTV9OT1ZBX1JQQ19VUkwiLCAiaHR0cHM6Ly9ub3ZhLmFyYml0cnVtLmlvL3JwYyIpOwoKICAgICAgICAvLyBDYW5ub3Qgb3ZlcnJpZGUgUlBDcyBkZWZpbmVkIGluIGBmb3VuZHJ5LnRvbWxgCiAgICAgICAgdm0uc2V0RW52KCJNQUlOTkVUX1JQQ19VUkwiLCAibXlvdmVycmlkZTIiKTsKICAgICAgICBhc3NlcnRFcShnZXRDaGFpbigibWFpbm5ldCIpLnJwY1VybCwgImh0dHBzOi8vZXRoLW1haW5uZXQuYWxjaGVteWFwaS5pby92Mi9XVjQwN0JFaUJtak5KZktvOVVvXzU1dTB6MElUeUNPWCIpOwoKICAgICAgICAvLyBPdGhlciBSUENzIHNob3VsZCByZW1haW4gdW5jaGFuZ2VkLgogICAgICAgIGFzc2VydEVxKGdldENoYWluKDMxMzM3KS5ycGNVcmwsICJodHRwOi8vMTI3LjAuMC4xOjg1NDUiKTsKICAgICAgICBhc3NlcnRFcShnZXRDaGFpbigic2Vwb2xpYSIpLnJwY1VybCwgImh0dHBzOi8vc2Vwb2xpYS5pbmZ1cmEuaW8vdjMvYjk3OTRhZDFkZGY4NGRmYjhjMzRkNmJiNWRjYTIwMDEiKTsKICAgIH0KCiAgICAvLyBOYW1lZCB3aXRoIGEgbGVhZGluZyB1bmRlcnNjb3JlIHRvIGNsYXJpZnkgdGhpcyBpcyBub3QgaW50ZW5kZWQgdG8gYmUgcnVuIGFzIGEgbm9ybWFsIHRlc3QsCiAgICAvLyBhbmQgaXMgaW50ZW5kZWQgdG8gYmUgdXNlZCBpbiB0aGUgYmVsb3cgYHRlc3RfUnBjc2AgdGVzdC4KICAgIGZ1bmN0aW9uIF90ZXN0UnBjKHN0cmluZyBtZW1vcnkgcnBjQWxpYXMpIGludGVybmFsIHsKICAgICAgICBzdHJpbmcgbWVtb3J5IHJwY1VybCA9IGdldENoYWluKHJwY0FsaWFzKS5ycGNVcmw7CiAgICAgICAgdm0uY3JlYXRlU2VsZWN0Rm9yayhycGNVcmwpOwogICAgfQoKICAgIC8vIEVuc3VyZSB3ZSBjYW4gY29ubmVjdCB0byB0aGUgZGVmYXVsdCBSUEMgVVJMIGZvciBlYWNoIGNoYWluLgogICAgLy8gQ3VycmVudGx5IGNvbW1lbnRlZCBvdXQgc2luY2UgdGhpcyBpcyBzbG93IGFuZCBwdWJsaWMgUlBDcyBhcmUgZmxha3ksIG9mdGVuIHJlc3VsdGluZyBpbiBmYWlsaW5nIENJLgogICAgLy8gZnVuY3Rpb24gdGVzdF9ScGNzKCkgcHVibGljIHsKICAgIC8vICAgICBfdGVzdFJwYygibWFpbm5ldCIpOwogICAgLy8gICAgIF90ZXN0UnBjKCJzZXBvbGlhIik7CiAgICAvLyAgICAgX3Rlc3RScGMoImhvbGVza3kiKTsKICAgIC8vICAgICBfdGVzdFJwYygib3B0aW1pc20iKTsKICAgIC8vICAgICBfdGVzdFJwYygib3B0aW1pc21fc2Vwb2xpYSIpOwogICAgLy8gICAgIF90ZXN0UnBjKCJhcmJpdHJ1bV9vbmUiKTsKICAgIC8vICAgICBfdGVzdFJwYygiYXJiaXRydW1fb25lX3NlcG9saWEiKTsKICAgIC8vICAgICBfdGVzdFJwYygiYXJiaXRydW1fbm92YSIpOwogICAgLy8gICAgIF90ZXN0UnBjKCJwb2x5Z29uIik7CiAgICAvLyAgICAgX3Rlc3RScGMoInBvbHlnb25fYW1veSIpOwogICAgLy8gICAgIF90ZXN0UnBjKCJhdmFsYW5jaGUiKTsKICAgIC8vICAgICBfdGVzdFJwYygiYXZhbGFuY2hlX2Z1amkiKTsKICAgIC8vICAgICBfdGVzdFJwYygiYm5iX3NtYXJ0X2NoYWluIik7CiAgICAvLyAgICAgX3Rlc3RScGMoImJuYl9zbWFydF9jaGFpbl90ZXN0bmV0Iik7CiAgICAvLyAgICAgX3Rlc3RScGMoImdub3Npc19jaGFpbiIpOwogICAgLy8gICAgIF90ZXN0UnBjKCJtb29uYmVhbSIpOwogICAgLy8gICAgIF90ZXN0UnBjKCJtb29ucml2ZXIiKTsKICAgIC8vICAgICBfdGVzdFJwYygibW9vbmJhc2UiKTsKICAgIC8vICAgICBfdGVzdFJwYygiYmFzZV9zZXBvbGlhIik7CiAgICAvLyAgICAgX3Rlc3RScGMoImJhc2UiKTsKICAgIC8vICAgICBfdGVzdFJwYygiYmxhc3Rfc2Vwb2xpYSIpOwogICAgLy8gICAgIF90ZXN0UnBjKCJibGFzdCIpOwogICAgLy8gICAgIF90ZXN0UnBjKCJmYW50b21fb3BlcmEiKTsKICAgIC8vICAgICBfdGVzdFJwYygiZmFudG9tX29wZXJhX3Rlc3RuZXQiKTsKICAgIC8vICAgICBfdGVzdFJwYygiZnJheHRhbCIpOwogICAgLy8gICAgIF90ZXN0UnBjKCJmcmF4dGFsX3Rlc3RuZXQiKTsKICAgIC8vICAgICBfdGVzdFJwYygiYmVyYWNoYWluX2JhcnRpb190ZXN0bmV0Iik7CiAgICAvLyAgICAgX3Rlc3RScGMoImZsYXJlIik7CiAgICAvLyAgICAgX3Rlc3RScGMoImZsYXJlX2Nvc3RvbjIiKTsKICAgIC8vIH0KCiAgICBmdW5jdGlvbiB0ZXN0X1JldmVydElmX0NoYWluTm90Rm91bmQoKSBwdWJsaWMgewogICAgICAgIC8vIFdlIGRlcGxveSBhIG1vY2sgdG8gcHJvcGVybHkgdGVzdCB0aGUgcmV2ZXJ0LgogICAgICAgIFN0ZENoYWluc01vY2sgc3RkQ2hhaW5zTW9jayA9IG5ldyBTdGRDaGFpbnNNb2NrKCk7CgogICAgICAgIHZtLmV4cGVjdFJldmVydCgiU3RkQ2hhaW5zIGdldENoYWluKHN0cmluZyk6IENoYWluIHdpdGggYWxpYXMgXCJkb2VzX25vdF9leGlzdFwiIG5vdCBmb3VuZC4iKTsKICAgICAgICBzdGRDaGFpbnNNb2NrLmV4cG9zZWRfZ2V0Q2hhaW4oImRvZXNfbm90X2V4aXN0Iik7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9SZXZlcnRJZl9TZXRDaGFpbl9DaGFpbklkRXhpc3RfRmlyc3RUZXN0KCkgcHVibGljIHsKICAgICAgICAvLyBXZSBkZXBsb3kgYSBtb2NrIHRvIHByb3Blcmx5IHRlc3QgdGhlIHJldmVydC4KICAgICAgICBTdGRDaGFpbnNNb2NrIHN0ZENoYWluc01vY2sgPSBuZXcgU3RkQ2hhaW5zTW9jaygpOwoKICAgICAgICB2bS5leHBlY3RSZXZlcnQoIlN0ZENoYWlucyBzZXRDaGFpbihzdHJpbmcsQ2hhaW5EYXRhKTogQ2hhaW4gSUQgMzEzMzcgYWxyZWFkeSB1c2VkIGJ5IFwiYW52aWxcIi4iKTsKICAgICAgICBzdGRDaGFpbnNNb2NrLmV4cG9zZWRfc2V0Q2hhaW4oImFudmlsMiIsIENoYWluRGF0YSgiQW52aWwiLCAzMTMzNywgIlVSTCIpKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X1JldmVydElmX0NoYWluQnViYmxlVXAoKSBwdWJsaWMgewogICAgICAgIC8vIFdlIGRlcGxveSBhIG1vY2sgdG8gcHJvcGVybHkgdGVzdCB0aGUgcmV2ZXJ0LgogICAgICAgIFN0ZENoYWluc01vY2sgc3RkQ2hhaW5zTW9jayA9IG5ldyBTdGRDaGFpbnNNb2NrKCk7CgogICAgICAgIHN0ZENoYWluc01vY2suZXhwb3NlZF9zZXRDaGFpbigibmVlZHNfdW5kZWZpbmVkX2Vudl92YXIiLCBDaGFpbkRhdGEoIiIsIDEyMzQ1Njc4OSwgIiIpKTsKICAgICAgICAvLyBGb3JnZSBlbnZpcm9ubWVudCB2YXJpYWJsZSBlcnJvci4KICAgICAgICB2bS5leHBlY3RSZXZlcnQoKTsKICAgICAgICBzdGRDaGFpbnNNb2NrLmV4cG9zZWRfZ2V0Q2hhaW4oIm5lZWRzX3VuZGVmaW5lZF9lbnZfdmFyIik7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9SZXZlcnRJZl9TZXRDaGFpbl9DaGFpbklkRXhpc3RzX1NlY29uZFRlc3QoKSBwdWJsaWMgewogICAgICAgIC8vIFdlIGRlcGxveSBhIG1vY2sgdG8gcHJvcGVybHkgdGVzdCB0aGUgcmV2ZXJ0LgogICAgICAgIFN0ZENoYWluc01vY2sgc3RkQ2hhaW5zTW9jayA9IG5ldyBTdGRDaGFpbnNNb2NrKCk7CgogICAgICAgIHN0ZENoYWluc01vY2suZXhwb3NlZF9zZXRDaGFpbigiY3VzdG9tX2NoYWluIiwgQ2hhaW5EYXRhKCJDdXN0b20gQ2hhaW4iLCAxMjM0NTY3ODksICJodHRwczovL2N1c3RvbS5jaGFpbi8iKSk7CgogICAgICAgIHZtLmV4cGVjdFJldmVydCgnU3RkQ2hhaW5zIHNldENoYWluKHN0cmluZyxDaGFpbkRhdGEpOiBDaGFpbiBJRCAxMjM0NTY3ODkgYWxyZWFkeSB1c2VkIGJ5ICJjdXN0b21fY2hhaW4iLicpOwoKICAgICAgICBzdGRDaGFpbnNNb2NrLmV4cG9zZWRfc2V0Q2hhaW4oImFub3RoZXJfY3VzdG9tX2NoYWluIiwgQ2hhaW5EYXRhKCIiLCAxMjM0NTY3ODksICIiKSk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9TZXRDaGFpbigpIHB1YmxpYyB7CiAgICAgICAgc2V0Q2hhaW4oImN1c3RvbV9jaGFpbiIsIENoYWluRGF0YSgiQ3VzdG9tIENoYWluIiwgMTIzNDU2Nzg5LCAiaHR0cHM6Ly9jdXN0b20uY2hhaW4vIikpOwogICAgICAgIENoYWluIG1lbW9yeSBjdXN0b21DaGFpbiA9IGdldENoYWluKCJjdXN0b21fY2hhaW4iKTsKICAgICAgICBhc3NlcnRFcShjdXN0b21DaGFpbi5uYW1lLCAiQ3VzdG9tIENoYWluIik7CiAgICAgICAgYXNzZXJ0RXEoY3VzdG9tQ2hhaW4uY2hhaW5JZCwgMTIzNDU2Nzg5KTsKICAgICAgICBhc3NlcnRFcShjdXN0b21DaGFpbi5jaGFpbkFsaWFzLCAiY3VzdG9tX2NoYWluIik7CiAgICAgICAgYXNzZXJ0RXEoY3VzdG9tQ2hhaW4ucnBjVXJsLCAiaHR0cHM6Ly9jdXN0b20uY2hhaW4vIik7CiAgICAgICAgQ2hhaW4gbWVtb3J5IGNoYWluQnlJZCA9IGdldENoYWluKDEyMzQ1Njc4OSk7CiAgICAgICAgYXNzZXJ0RXEoY2hhaW5CeUlkLm5hbWUsIGN1c3RvbUNoYWluLm5hbWUpOwogICAgICAgIGFzc2VydEVxKGNoYWluQnlJZC5jaGFpbklkLCBjdXN0b21DaGFpbi5jaGFpbklkKTsKICAgICAgICBhc3NlcnRFcShjaGFpbkJ5SWQuY2hhaW5BbGlhcywgY3VzdG9tQ2hhaW4uY2hhaW5BbGlhcyk7CiAgICAgICAgYXNzZXJ0RXEoY2hhaW5CeUlkLnJwY1VybCwgY3VzdG9tQ2hhaW4ucnBjVXJsKTsKICAgICAgICBjdXN0b21DaGFpbi5uYW1lID0gIkFub3RoZXIgQ3VzdG9tIENoYWluIjsKICAgICAgICBjdXN0b21DaGFpbi5jaGFpbklkID0gOTg3NjU0MzIxOwogICAgICAgIHNldENoYWluKCJhbm90aGVyX2N1c3RvbV9jaGFpbiIsIGN1c3RvbUNoYWluKTsKICAgICAgICBDaGFpbiBtZW1vcnkgYW5vdGhlckN1c3RvbUNoYWluID0gZ2V0Q2hhaW4oImFub3RoZXJfY3VzdG9tX2NoYWluIik7CiAgICAgICAgYXNzZXJ0RXEoYW5vdGhlckN1c3RvbUNoYWluLm5hbWUsICJBbm90aGVyIEN1c3RvbSBDaGFpbiIpOwogICAgICAgIGFzc2VydEVxKGFub3RoZXJDdXN0b21DaGFpbi5jaGFpbklkLCA5ODc2NTQzMjEpOwogICAgICAgIGFzc2VydEVxKGFub3RoZXJDdXN0b21DaGFpbi5jaGFpbkFsaWFzLCAiYW5vdGhlcl9jdXN0b21fY2hhaW4iKTsKICAgICAgICBhc3NlcnRFcShhbm90aGVyQ3VzdG9tQ2hhaW4ucnBjVXJsLCAiaHR0cHM6Ly9jdXN0b20uY2hhaW4vIik7CiAgICAgICAgLy8gVmVyaWZ5IHRoZSBmaXJzdCBjaGFpbiBkYXRhIHdhcyBub3Qgb3ZlcndyaXR0ZW4KICAgICAgICBjaGFpbkJ5SWQgPSBnZXRDaGFpbigxMjM0NTY3ODkpOwogICAgICAgIGFzc2VydEVxKGNoYWluQnlJZC5uYW1lLCAiQ3VzdG9tIENoYWluIik7CiAgICAgICAgYXNzZXJ0RXEoY2hhaW5CeUlkLmNoYWluSWQsIDEyMzQ1Njc4OSk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9SZXZlcnRJZl9TZXRFbXB0eUFsaWFzKCkgcHVibGljIHsKICAgICAgICAvLyBXZSBkZXBsb3kgYSBtb2NrIHRvIHByb3Blcmx5IHRlc3QgdGhlIHJldmVydC4KICAgICAgICBTdGRDaGFpbnNNb2NrIHN0ZENoYWluc01vY2sgPSBuZXcgU3RkQ2hhaW5zTW9jaygpOwoKICAgICAgICB2bS5leHBlY3RSZXZlcnQoIlN0ZENoYWlucyBzZXRDaGFpbihzdHJpbmcsQ2hhaW5EYXRhKTogQ2hhaW4gYWxpYXMgY2Fubm90IGJlIHRoZSBlbXB0eSBzdHJpbmcuIik7CiAgICAgICAgc3RkQ2hhaW5zTW9jay5leHBvc2VkX3NldENoYWluKCIiLCBDaGFpbkRhdGEoIiIsIDEyMzQ1Njc4OSwgIiIpKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X1JldmVydElmX1NldE5vQ2hhaW5JZDAoKSBwdWJsaWMgewogICAgICAgIC8vIFdlIGRlcGxveSBhIG1vY2sgdG8gcHJvcGVybHkgdGVzdCB0aGUgcmV2ZXJ0LgogICAgICAgIFN0ZENoYWluc01vY2sgc3RkQ2hhaW5zTW9jayA9IG5ldyBTdGRDaGFpbnNNb2NrKCk7CgogICAgICAgIHZtLmV4cGVjdFJldmVydCgiU3RkQ2hhaW5zIHNldENoYWluKHN0cmluZyxDaGFpbkRhdGEpOiBDaGFpbiBJRCBjYW5ub3QgYmUgMC4iKTsKICAgICAgICBzdGRDaGFpbnNNb2NrLmV4cG9zZWRfc2V0Q2hhaW4oImFsaWFzIiwgQ2hhaW5EYXRhKCIiLCAwLCAiIikpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfUmV2ZXJ0SWZfR2V0Tm9DaGFpbklkMCgpIHB1YmxpYyB7CiAgICAgICAgLy8gV2UgZGVwbG95IGEgbW9jayB0byBwcm9wZXJseSB0ZXN0IHRoZSByZXZlcnQuCiAgICAgICAgU3RkQ2hhaW5zTW9jayBzdGRDaGFpbnNNb2NrID0gbmV3IFN0ZENoYWluc01vY2soKTsKCiAgICAgICAgdm0uZXhwZWN0UmV2ZXJ0KCJTdGRDaGFpbnMgZ2V0Q2hhaW4odWludDI1Nik6IENoYWluIElEIGNhbm5vdCBiZSAwLiIpOwogICAgICAgIHN0ZENoYWluc01vY2suZXhwb3NlZF9nZXRDaGFpbigwKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X1JldmVydElmX0dldE5vRW1wdHlBbGlhcygpIHB1YmxpYyB7CiAgICAgICAgLy8gV2UgZGVwbG95IGEgbW9jayB0byBwcm9wZXJseSB0ZXN0IHRoZSByZXZlcnQuCiAgICAgICAgU3RkQ2hhaW5zTW9jayBzdGRDaGFpbnNNb2NrID0gbmV3IFN0ZENoYWluc01vY2soKTsKCiAgICAgICAgdm0uZXhwZWN0UmV2ZXJ0KCJTdGRDaGFpbnMgZ2V0Q2hhaW4oc3RyaW5nKTogQ2hhaW4gYWxpYXMgY2Fubm90IGJlIHRoZSBlbXB0eSBzdHJpbmcuIik7CiAgICAgICAgc3RkQ2hhaW5zTW9jay5leHBvc2VkX2dldENoYWluKCIiKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X1JldmVydElmX0NoYWluSWROb3RGb3VuZCgpIHB1YmxpYyB7CiAgICAgICAgLy8gV2UgZGVwbG95IGEgbW9jayB0byBwcm9wZXJseSB0ZXN0IHRoZSByZXZlcnQuCiAgICAgICAgU3RkQ2hhaW5zTW9jayBzdGRDaGFpbnNNb2NrID0gbmV3IFN0ZENoYWluc01vY2soKTsKCiAgICAgICAgdm0uZXhwZWN0UmV2ZXJ0KCJTdGRDaGFpbnMgZ2V0Q2hhaW4oc3RyaW5nKTogQ2hhaW4gd2l0aCBhbGlhcyBcIm5vX3N1Y2hfYWxpYXNcIiBub3QgZm91bmQuIik7CiAgICAgICAgc3RkQ2hhaW5zTW9jay5leHBvc2VkX2dldENoYWluKCJub19zdWNoX2FsaWFzIik7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9SZXZlcnRJZl9DaGFpbkFsaWFzTm90Rm91bmQoKSBwdWJsaWMgewogICAgICAgIC8vIFdlIGRlcGxveSBhIG1vY2sgdG8gcHJvcGVybHkgdGVzdCB0aGUgcmV2ZXJ0LgogICAgICAgIFN0ZENoYWluc01vY2sgc3RkQ2hhaW5zTW9jayA9IG5ldyBTdGRDaGFpbnNNb2NrKCk7CgogICAgICAgIHZtLmV4cGVjdFJldmVydCgiU3RkQ2hhaW5zIGdldENoYWluKHVpbnQyNTYpOiBDaGFpbiB3aXRoIElEIDMyMSBub3QgZm91bmQuIik7CgogICAgICAgIHN0ZENoYWluc01vY2suZXhwb3NlZF9nZXRDaGFpbigzMjEpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfU2V0Q2hhaW5fRXhpc3RpbmdPbmUoKSBwdWJsaWMgewogICAgICAgIC8vIFdlIGRlcGxveSBhIG1vY2sgdG8gcHJvcGVybHkgdGVzdCB0aGUgcmV2ZXJ0LgogICAgICAgIFN0ZENoYWluc01vY2sgc3RkQ2hhaW5zTW9jayA9IG5ldyBTdGRDaGFpbnNNb2NrKCk7CgogICAgICAgIHNldENoYWluKCJjdXN0b21fY2hhaW4iLCBDaGFpbkRhdGEoIkN1c3RvbSBDaGFpbiIsIDEyMzQ1Njc4OSwgImh0dHBzOi8vY3VzdG9tLmNoYWluLyIpKTsKICAgICAgICBhc3NlcnRFcShnZXRDaGFpbigxMjM0NTY3ODkpLmNoYWluSWQsIDEyMzQ1Njc4OSk7CgogICAgICAgIHNldENoYWluKCJjdXN0b21fY2hhaW4iLCBDaGFpbkRhdGEoIk1vZGlmaWVkIENoYWluIiwgOTk5OTk5OTk5OTk5OTk5OTk5OSwgImh0dHBzOi8vbW9kaWZpZWQuY2hhaW4vIikpOwogICAgICAgIHZtLmV4cGVjdFJldmVydCgiU3RkQ2hhaW5zIGdldENoYWluKHVpbnQyNTYpOiBDaGFpbiB3aXRoIElEIDEyMzQ1Njc4OSBub3QgZm91bmQuIik7CiAgICAgICAgc3RkQ2hhaW5zTW9jay5leHBvc2VkX2dldENoYWluKDEyMzQ1Njc4OSk7CgogICAgICAgIENoYWluIG1lbW9yeSBtb2RpZmllZENoYWluID0gZ2V0Q2hhaW4oOTk5OTk5OTk5OTk5OTk5OTk5OSk7CiAgICAgICAgYXNzZXJ0RXEobW9kaWZpZWRDaGFpbi5uYW1lLCAiTW9kaWZpZWQgQ2hhaW4iKTsKICAgICAgICBhc3NlcnRFcShtb2RpZmllZENoYWluLmNoYWluSWQsIDk5OTk5OTk5OTk5OTk5OTk5OTkpOwogICAgICAgIGFzc2VydEVxKG1vZGlmaWVkQ2hhaW4ucnBjVXJsLCAiaHR0cHM6Ly9tb2RpZmllZC5jaGFpbi8iKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X1JldmVydElmX0RvbnRVc2VEZWZhdWx0UnBjVXJsKCkgcHVibGljIHsKICAgICAgICAvLyBXZSBkZXBsb3kgYSBtb2NrIHRvIHByb3Blcmx5IHRlc3QgdGhlIHJldmVydC4KICAgICAgICBTdGRDaGFpbnNNb2NrIHN0ZENoYWluc01vY2sgPSBuZXcgU3RkQ2hhaW5zTW9jaygpOwoKICAgICAgICAvLyBTaG91bGQgZXJyb3IgaWYgZGVmYXVsdCBSUENzIGZsYWcgaXMgc2V0IHRvIGZhbHNlLgogICAgICAgIHN0ZENoYWluc01vY2suZXhwb3NlZF9zZXRGYWxsYmFja1RvRGVmYXVsdFJwY1VybHMoZmFsc2UpOwogICAgICAgIHZtLmV4cGVjdFJldmVydCgpOwogICAgICAgIHN0ZENoYWluc01vY2suZXhwb3NlZF9nZXRDaGFpbigzMTMzNyk7CiAgICAgICAgdm0uZXhwZWN0UmV2ZXJ0KCk7CiAgICAgICAgc3RkQ2hhaW5zTW9jay5leHBvc2VkX2dldENoYWluKCJzZXBvbGlhIik7CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.7.0 <0.9.0;
+
+import {Test} from "../src/Test.sol";
+
+contract StdChainsMock is Test {
+    function exposed_getChain(string memory chainAlias) public returns (Chain memory) {
+        return getChain(chainAlias);
+    }
+
+    function exposed_getChain(uint256 chainId) public returns (Chain memory) {
+        return getChain(chainId);
+    }
+
+    function exposed_setChain(string memory chainAlias, ChainData memory chainData) public {
+        setChain(chainAlias, chainData);
+    }
+
+    function exposed_setFallbackToDefaultRpcUrls(bool useDefault) public {
+        setFallbackToDefaultRpcUrls(useDefault);
+    }
+}
+
+contract StdChainsTest is Test {
+    function test_ChainRpcInitialization() public {
+        // RPCs specified in `foundry.toml` should be updated.
+        assertEq(getChain(1).rpcUrl, "https://eth-mainnet.alchemyapi.io/v2/WV407BEiBmjNJfKo9Uo_55u0z0ITyCOX");
+        assertEq(getChain("optimism_sepolia").rpcUrl, "https://sepolia.optimism.io/");
+        assertEq(getChain("arbitrum_one_sepolia").rpcUrl, "https://sepolia-rollup.arbitrum.io/rpc/");
+
+        // Environment variables should be the next fallback
+        assertEq(getChain("arbitrum_nova").rpcUrl, "https://nova.arbitrum.io/rpc");
+        vm.setEnv("ARBITRUM_NOVA_RPC_URL", "myoverride");
+        assertEq(getChain("arbitrum_nova").rpcUrl, "myoverride");
+        vm.setEnv("ARBITRUM_NOVA_RPC_URL", "https://nova.arbitrum.io/rpc");
+
+        // Cannot override RPCs defined in `foundry.toml`
+        vm.setEnv("MAINNET_RPC_URL", "myoverride2");
+        assertEq(getChain("mainnet").rpcUrl, "https://eth-mainnet.alchemyapi.io/v2/WV407BEiBmjNJfKo9Uo_55u0z0ITyCOX");
+
+        // Other RPCs should remain unchanged.
+        assertEq(getChain(31337).rpcUrl, "http://127.0.0.1:8545");
+        assertEq(getChain("sepolia").rpcUrl, "https://sepolia.infura.io/v3/b9794ad1ddf84dfb8c34d6bb5dca2001");
+    }
+
+    // Named with a leading underscore to clarify this is not intended to be run as a normal test,
+    // and is intended to be used in the below `test_Rpcs` test.
+    function _testRpc(string memory rpcAlias) internal {
+        string memory rpcUrl = getChain(rpcAlias).rpcUrl;
+        vm.createSelectFork(rpcUrl);
+    }
+
+    // Ensure we can connect to the default RPC URL for each chain.
+    // Currently commented out since this is slow and public RPCs are flaky, often resulting in failing CI.
+    // function test_Rpcs() public {
+    //     _testRpc("mainnet");
+    //     _testRpc("sepolia");
+    //     _testRpc("holesky");
+    //     _testRpc("optimism");
+    //     _testRpc("optimism_sepolia");
+    //     _testRpc("arbitrum_one");
+    //     _testRpc("arbitrum_one_sepolia");
+    //     _testRpc("arbitrum_nova");
+    //     _testRpc("polygon");
+    //     _testRpc("polygon_amoy");
+    //     _testRpc("avalanche");
+    //     _testRpc("avalanche_fuji");
+    //     _testRpc("bnb_smart_chain");
+    //     _testRpc("bnb_smart_chain_testnet");
+    //     _testRpc("gnosis_chain");
+    //     _testRpc("moonbeam");
+    //     _testRpc("moonriver");
+    //     _testRpc("moonbase");
+    //     _testRpc("base_sepolia");
+    //     _testRpc("base");
+    //     _testRpc("blast_sepolia");
+    //     _testRpc("blast");
+    //     _testRpc("fantom_opera");
+    //     _testRpc("fantom_opera_testnet");
+    //     _testRpc("fraxtal");
+    //     _testRpc("fraxtal_testnet");
+    //     _testRpc("berachain_bartio_testnet");
+    //     _testRpc("flare");
+    //     _testRpc("flare_coston2");
+    // }
+
+    function test_RevertIf_ChainNotFound() public {
+        // We deploy a mock to properly test the revert.
+        StdChainsMock stdChainsMock = new StdChainsMock();
+
+        vm.expectRevert("StdChains getChain(string): Chain with alias \"does_not_exist\" not found.");
+        stdChainsMock.exposed_getChain("does_not_exist");
+    }
+
+    function test_RevertIf_SetChain_ChainIdExist_FirstTest() public {
+        // We deploy a mock to properly test the revert.
+        StdChainsMock stdChainsMock = new StdChainsMock();
+
+        vm.expectRevert("StdChains setChain(string,ChainData): Chain ID 31337 already used by \"anvil\".");
+        stdChainsMock.exposed_setChain("anvil2", ChainData("Anvil", 31337, "URL"));
+    }
+
+    function test_RevertIf_ChainBubbleUp() public {
+        // We deploy a mock to properly test the revert.
+        StdChainsMock stdChainsMock = new StdChainsMock();
+
+        stdChainsMock.exposed_setChain("needs_undefined_env_var", ChainData("", 123456789, ""));
+        // Forge environment variable error.
+        vm.expectRevert();
+        stdChainsMock.exposed_getChain("needs_undefined_env_var");
+    }
+
+    function test_RevertIf_SetChain_ChainIdExists_SecondTest() public {
+        // We deploy a mock to properly test the revert.
+        StdChainsMock stdChainsMock = new StdChainsMock();
+
+        stdChainsMock.exposed_setChain("custom_chain", ChainData("Custom Chain", 123456789, "https://custom.chain/"));
+
+        vm.expectRevert('StdChains setChain(string,ChainData): Chain ID 123456789 already used by "custom_chain".');
+
+        stdChainsMock.exposed_setChain("another_custom_chain", ChainData("", 123456789, ""));
+    }
+
+    function test_SetChain() public {
+        setChain("custom_chain", ChainData("Custom Chain", 123456789, "https://custom.chain/"));
+        Chain memory customChain = getChain("custom_chain");
+        assertEq(customChain.name, "Custom Chain");
+        assertEq(customChain.chainId, 123456789);
+        assertEq(customChain.chainAlias, "custom_chain");
+        assertEq(customChain.rpcUrl, "https://custom.chain/");
+        Chain memory chainById = getChain(123456789);
+        assertEq(chainById.name, customChain.name);
+        assertEq(chainById.chainId, customChain.chainId);
+        assertEq(chainById.chainAlias, customChain.chainAlias);
+        assertEq(chainById.rpcUrl, customChain.rpcUrl);
+        customChain.name = "Another Custom Chain";
+        customChain.chainId = 987654321;
+        setChain("another_custom_chain", customChain);
+        Chain memory anotherCustomChain = getChain("another_custom_chain");
+        assertEq(anotherCustomChain.name, "Another Custom Chain");
+        assertEq(anotherCustomChain.chainId, 987654321);
+        assertEq(anotherCustomChain.chainAlias, "another_custom_chain");
+        assertEq(anotherCustomChain.rpcUrl, "https://custom.chain/");
+        // Verify the first chain data was not overwritten
+        chainById = getChain(123456789);
+        assertEq(chainById.name, "Custom Chain");
+        assertEq(chainById.chainId, 123456789);
+    }
+
+    function test_RevertIf_SetEmptyAlias() public {
+        // We deploy a mock to properly test the revert.
+        StdChainsMock stdChainsMock = new StdChainsMock();
+
+        vm.expectRevert("StdChains setChain(string,ChainData): Chain alias cannot be the empty string.");
+        stdChainsMock.exposed_setChain("", ChainData("", 123456789, ""));
+    }
+
+    function test_RevertIf_SetNoChainId0() public {
+        // We deploy a mock to properly test the revert.
+        StdChainsMock stdChainsMock = new StdChainsMock();
+
+        vm.expectRevert("StdChains setChain(string,ChainData): Chain ID cannot be 0.");
+        stdChainsMock.exposed_setChain("alias", ChainData("", 0, ""));
+    }
+
+    function test_RevertIf_GetNoChainId0() public {
+        // We deploy a mock to properly test the revert.
+        StdChainsMock stdChainsMock = new StdChainsMock();
+
+        vm.expectRevert("StdChains getChain(uint256): Chain ID cannot be 0.");
+        stdChainsMock.exposed_getChain(0);
+    }
+
+    function test_RevertIf_GetNoEmptyAlias() public {
+        // We deploy a mock to properly test the revert.
+        StdChainsMock stdChainsMock = new StdChainsMock();
+
+        vm.expectRevert("StdChains getChain(string): Chain alias cannot be the empty string.");
+        stdChainsMock.exposed_getChain("");
+    }
+
+    function test_RevertIf_ChainIdNotFound() public {
+        // We deploy a mock to properly test the revert.
+        StdChainsMock stdChainsMock = new StdChainsMock();
+
+        vm.expectRevert("StdChains getChain(string): Chain with alias \"no_such_alias\" not found.");
+        stdChainsMock.exposed_getChain("no_such_alias");
+    }
+
+    function test_RevertIf_ChainAliasNotFound() public {
+        // We deploy a mock to properly test the revert.
+        StdChainsMock stdChainsMock = new StdChainsMock();
+
+        vm.expectRevert("StdChains getChain(uint256): Chain with ID 321 not found.");
+
+        stdChainsMock.exposed_getChain(321);
+    }
+
+    function test_SetChain_ExistingOne() public {
+        // We deploy a mock to properly test the revert.
+        StdChainsMock stdChainsMock = new StdChainsMock();
+
+        setChain("custom_chain", ChainData("Custom Chain", 123456789, "https://custom.chain/"));
+        assertEq(getChain(123456789).chainId, 123456789);
+
+        setChain("custom_chain", ChainData("Modified Chain", 9999999999999999999, "https://modified.chain/"));
+        vm.expectRevert("StdChains getChain(uint256): Chain with ID 123456789 not found.");
+        stdChainsMock.exposed_getChain(123456789);
+
+        Chain memory modifiedChain = getChain(9999999999999999999);
+        assertEq(modifiedChain.name, "Modified Chain");
+        assertEq(modifiedChain.chainId, 9999999999999999999);
+        assertEq(modifiedChain.rpcUrl, "https://modified.chain/");
+    }
+
+    function test_RevertIf_DontUseDefaultRpcUrl() public {
+        // We deploy a mock to properly test the revert.
+        StdChainsMock stdChainsMock = new StdChainsMock();
+
+        // Should error if default RPCs flag is set to false.
+        stdChainsMock.exposed_setFallbackToDefaultRpcUrls(false);
+        vm.expectRevert();
+        stdChainsMock.exposed_getChain(31337);
+        vm.expectRevert();
+        stdChainsMock.exposed_getChain("sepolia");
+    }
+}
