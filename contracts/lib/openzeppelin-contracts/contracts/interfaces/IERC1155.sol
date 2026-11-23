@@ -1,1 +1,6 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMC4wKSAoaW50ZXJmYWNlcy9JRVJDMTE1NS5zb2wpCgpwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7SUVSQzExNTV9IGZyb20gIi4uL3Rva2VuL0VSQzExNTUvSUVSQzExNTUuc29sIjsK
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.0.0) (interfaces/IERC1155.sol)
+
+pragma solidity ^0.8.20;
+
+import {IERC1155} from "../token/ERC1155/IERC1155.sol";
