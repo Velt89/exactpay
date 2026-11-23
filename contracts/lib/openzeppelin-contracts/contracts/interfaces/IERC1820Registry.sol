@@ -1,1 +1,112 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAoaW50ZXJmYWNlcy9JRVJDMTgyMFJlZ2lzdHJ5LnNvbCkKCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKLyoqCiAqIEBkZXYgSW50ZXJmYWNlIG9mIHRoZSBnbG9iYWwgRVJDLTE4MjAgUmVnaXN0cnksIGFzIGRlZmluZWQgaW4gdGhlCiAqIGh0dHBzOi8vZWlwcy5ldGhlcmV1bS5vcmcvRUlQUy9laXAtMTgyMFtFUkNdLiBBY2NvdW50cyBtYXkgcmVnaXN0ZXIKICogaW1wbGVtZW50ZXJzIGZvciBpbnRlcmZhY2VzIGluIHRoaXMgcmVnaXN0cnksIGFzIHdlbGwgYXMgcXVlcnkgc3VwcG9ydC4KICoKICogSW1wbGVtZW50ZXJzIG1heSBiZSBzaGFyZWQgYnkgbXVsdGlwbGUgYWNjb3VudHMsIGFuZCBjYW4gYWxzbyBpbXBsZW1lbnQgbW9yZQogKiB0aGFuIGEgc2luZ2xlIGludGVyZmFjZSBmb3IgZWFjaCBhY2NvdW50LiBDb250cmFjdHMgY2FuIGltcGxlbWVudCBpbnRlcmZhY2VzCiAqIGZvciB0aGVtc2VsdmVzLCBidXQgZXh0ZXJuYWxseS1vd25lZCBhY2NvdW50cyAoRU9BKSBtdXN0IGRlbGVnYXRlIHRoaXMgdG8gYQogKiBjb250cmFjdC4KICoKICoge0lFUkMxNjV9IGludGVyZmFjZXMgY2FuIGFsc28gYmUgcXVlcmllZCB2aWEgdGhlIHJlZ2lzdHJ5LgogKgogKiBGb3IgYW4gaW4tZGVwdGggZXhwbGFuYXRpb24gYW5kIHNvdXJjZSBjb2RlIGFuYWx5c2lzLCBzZWUgdGhlIEVSQyB0ZXh0LgogKi8KaW50ZXJmYWNlIElFUkMxODIwUmVnaXN0cnkgewogICAgZXZlbnQgSW50ZXJmYWNlSW1wbGVtZW50ZXJTZXQoYWRkcmVzcyBpbmRleGVkIGFjY291bnQsIGJ5dGVzMzIgaW5kZXhlZCBpbnRlcmZhY2VIYXNoLCBhZGRyZXNzIGluZGV4ZWQgaW1wbGVtZW50ZXIpOwoKICAgIGV2ZW50IE1hbmFnZXJDaGFuZ2VkKGFkZHJlc3MgaW5kZXhlZCBhY2NvdW50LCBhZGRyZXNzIGluZGV4ZWQgbmV3TWFuYWdlcik7CgogICAgLyoqCiAgICAgKiBAZGV2IFNldHMgYG5ld01hbmFnZXJgIGFzIHRoZSBtYW5hZ2VyIGZvciBgYWNjb3VudGAuIEEgbWFuYWdlciBvZiBhbgogICAgICogYWNjb3VudCBpcyBhYmxlIHRvIHNldCBpbnRlcmZhY2UgaW1wbGVtZW50ZXJzIGZvciBpdC4KICAgICAqCiAgICAgKiBCeSBkZWZhdWx0LCBlYWNoIGFjY291bnQgaXMgaXRzIG93biBtYW5hZ2VyLiBQYXNzaW5nIGEgdmFsdWUgb2YgYDB4MGAgaW4KICAgICAqIGBuZXdNYW5hZ2VyYCB3aWxsIHJlc2V0IHRoZSBtYW5hZ2VyIHRvIHRoaXMgaW5pdGlhbCBzdGF0ZS4KICAgICAqCiAgICAgKiBFbWl0cyBhIHtNYW5hZ2VyQ2hhbmdlZH0gZXZlbnQuCiAgICAgKgogICAgICogUmVxdWlyZW1lbnRzOgogICAgICoKICAgICAqIC0gdGhlIGNhbGxlciBtdXN0IGJlIHRoZSBjdXJyZW50IG1hbmFnZXIgZm9yIGBhY2NvdW50YC4KICAgICAqLwogICAgZnVuY3Rpb24gc2V0TWFuYWdlcihhZGRyZXNzIGFjY291bnQsIGFkZHJlc3MgbmV3TWFuYWdlcikgZXh0ZXJuYWw7CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIG1hbmFnZXIgZm9yIGBhY2NvdW50YC4KICAgICAqCiAgICAgKiBTZWUge3NldE1hbmFnZXJ9LgogICAgICovCiAgICBmdW5jdGlvbiBnZXRNYW5hZ2VyKGFkZHJlc3MgYWNjb3VudCkgZXh0ZXJuYWwgdmlldyByZXR1cm5zIChhZGRyZXNzKTsKCiAgICAvKioKICAgICAqIEBkZXYgU2V0cyB0aGUgYGltcGxlbWVudGVyYCBjb250cmFjdCBhcyBgYGFjY291bnRgYCdzIGltcGxlbWVudGVyIGZvcgogICAgICogYGludGVyZmFjZUhhc2hgLgogICAgICoKICAgICAqIGBhY2NvdW50YCBiZWluZyB0aGUgemVybyBhZGRyZXNzIGlzIGFuIGFsaWFzIGZvciB0aGUgY2FsbGVyJ3MgYWRkcmVzcy4KICAgICAqIFRoZSB6ZXJvIGFkZHJlc3MgY2FuIGFsc28gYmUgdXNlZCBpbiBgaW1wbGVtZW50ZXJgIHRvIHJlbW92ZSBhbiBvbGQgb25lLgogICAgICoKICAgICAqIFNlZSB7aW50ZXJmYWNlSGFzaH0gdG8gbGVhcm4gaG93IHRoZXNlIGFyZSBjcmVhdGVkLgogICAgICoKICAgICAqIEVtaXRzIGFuIHtJbnRlcmZhY2VJbXBsZW1lbnRlclNldH0gZXZlbnQuCiAgICAgKgogICAgICogUmVxdWlyZW1lbnRzOgogICAgICoKICAgICAqIC0gdGhlIGNhbGxlciBtdXN0IGJlIHRoZSBjdXJyZW50IG1hbmFnZXIgZm9yIGBhY2NvdW50YC4KICAgICAqIC0gYGludGVyZmFjZUhhc2hgIG11c3Qgbm90IGJlIGFuIHtJRVJDMTY1fSBpbnRlcmZhY2UgaWQgKGkuZS4gaXQgbXVzdCBub3QKICAgICAqIGVuZCBpbiAyOCB6ZXJvZXMpLgogICAgICogLSBgaW1wbGVtZW50ZXJgIG11c3QgaW1wbGVtZW50IHtJRVJDMTgyMEltcGxlbWVudGVyfSBhbmQgcmV0dXJuIHRydWUgd2hlbgogICAgICogcXVlcmllZCBmb3Igc3VwcG9ydCwgdW5sZXNzIGBpbXBsZW1lbnRlcmAgaXMgdGhlIGNhbGxlci4gU2VlCiAgICAgKiB7SUVSQzE4MjBJbXBsZW1lbnRlci1jYW5JbXBsZW1lbnRJbnRlcmZhY2VGb3JBZGRyZXNzfS4KICAgICAqLwogICAgZnVuY3Rpb24gc2V0SW50ZXJmYWNlSW1wbGVtZW50ZXIoYWRkcmVzcyBhY2NvdW50LCBieXRlczMyIF9pbnRlcmZhY2VIYXNoLCBhZGRyZXNzIGltcGxlbWVudGVyKSBleHRlcm5hbDsKCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyB0aGUgaW1wbGVtZW50ZXIgb2YgYGludGVyZmFjZUhhc2hgIGZvciBgYWNjb3VudGAuIElmIG5vIHN1Y2gKICAgICAqIGltcGxlbWVudGVyIGlzIHJlZ2lzdGVyZWQsIHJldHVybnMgdGhlIHplcm8gYWRkcmVzcy4KICAgICAqCiAgICAgKiBJZiBgaW50ZXJmYWNlSGFzaGAgaXMgYW4ge0lFUkMxNjV9IGludGVyZmFjZSBpZCAoaS5lLiBpdCBlbmRzIHdpdGggMjgKICAgICAqIHplcm9lcyksIGBhY2NvdW50YCB3aWxsIGJlIHF1ZXJpZWQgZm9yIHN1cHBvcnQgb2YgaXQuCiAgICAgKgogICAgICogYGFjY291bnRgIGJlaW5nIHRoZSB6ZXJvIGFkZHJlc3MgaXMgYW4gYWxpYXMgZm9yIHRoZSBjYWxsZXIncyBhZGRyZXNzLgogICAgICovCiAgICBmdW5jdGlvbiBnZXRJbnRlcmZhY2VJbXBsZW1lbnRlcihhZGRyZXNzIGFjY291bnQsIGJ5dGVzMzIgX2ludGVyZmFjZUhhc2gpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAoYWRkcmVzcyk7CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIGludGVyZmFjZSBoYXNoIGZvciBhbiBgaW50ZXJmYWNlTmFtZWAsIGFzIGRlZmluZWQgaW4gdGhlCiAgICAgKiBjb3JyZXNwb25kaW5nCiAgICAgKiBodHRwczovL2VpcHMuZXRoZXJldW0ub3JnL0VJUFMvZWlwLTE4MjAjaW50ZXJmYWNlLW5hbWVbc2VjdGlvbiBvZiB0aGUgRVJDXS4KICAgICAqLwogICAgZnVuY3Rpb24gaW50ZXJmYWNlSGFzaChzdHJpbmcgY2FsbGRhdGEgaW50ZXJmYWNlTmFtZSkgZXh0ZXJuYWwgcHVyZSByZXR1cm5zIChieXRlczMyKTsKCiAgICAvKioKICAgICAqIEBub3RpY2UgVXBkYXRlcyB0aGUgY2FjaGUgd2l0aCB3aGV0aGVyIHRoZSBjb250cmFjdCBpbXBsZW1lbnRzIGFuIEVSQy0xNjUgaW50ZXJmYWNlIG9yIG5vdC4KICAgICAqIEBwYXJhbSBhY2NvdW50IEFkZHJlc3Mgb2YgdGhlIGNvbnRyYWN0IGZvciB3aGljaCB0byB1cGRhdGUgdGhlIGNhY2hlLgogICAgICogQHBhcmFtIGludGVyZmFjZUlkIEVSQy0xNjUgaW50ZXJmYWNlIGZvciB3aGljaCB0byB1cGRhdGUgdGhlIGNhY2hlLgogICAgICovCiAgICBmdW5jdGlvbiB1cGRhdGVFUkMxNjVDYWNoZShhZGRyZXNzIGFjY291bnQsIGJ5dGVzNCBpbnRlcmZhY2VJZCkgZXh0ZXJuYWw7CgogICAgLyoqCiAgICAgKiBAbm90aWNlIENoZWNrcyB3aGV0aGVyIGEgY29udHJhY3QgaW1wbGVtZW50cyBhbiBFUkMtMTY1IGludGVyZmFjZSBvciBub3QuCiAgICAgKiBJZiB0aGUgcmVzdWx0IGlzIG5vdCBjYWNoZWQgYSBkaXJlY3QgbG9va3VwIG9uIHRoZSBjb250cmFjdCBhZGRyZXNzIGlzIHBlcmZvcm1lZC4KICAgICAqIElmIHRoZSByZXN1bHQgaXMgbm90IGNhY2hlZCBvciB0aGUgY2FjaGVkIHZhbHVlIGlzIG91dC1vZi1kYXRlLCB0aGUgY2FjaGUgTVVTVCBiZSB1cGRhdGVkIG1hbnVhbGx5IGJ5IGNhbGxpbmcKICAgICAqIHt1cGRhdGVFUkMxNjVDYWNoZX0gd2l0aCB0aGUgY29udHJhY3QgYWRkcmVzcy4KICAgICAqIEBwYXJhbSBhY2NvdW50IEFkZHJlc3Mgb2YgdGhlIGNvbnRyYWN0IHRvIGNoZWNrLgogICAgICogQHBhcmFtIGludGVyZmFjZUlkIEVSQy0xNjUgaW50ZXJmYWNlIHRvIGNoZWNrLgogICAgICogQHJldHVybiBUcnVlIGlmIGBhY2NvdW50YCBpbXBsZW1lbnRzIGBpbnRlcmZhY2VJZGAsIGZhbHNlIG90aGVyd2lzZS4KICAgICAqLwogICAgZnVuY3Rpb24gaW1wbGVtZW50c0VSQzE2NUludGVyZmFjZShhZGRyZXNzIGFjY291bnQsIGJ5dGVzNCBpbnRlcmZhY2VJZCkgZXh0ZXJuYWwgdmlldyByZXR1cm5zIChib29sKTsKCiAgICAvKioKICAgICAqIEBub3RpY2UgQ2hlY2tzIHdoZXRoZXIgYSBjb250cmFjdCBpbXBsZW1lbnRzIGFuIEVSQy0xNjUgaW50ZXJmYWNlIG9yIG5vdCB3aXRob3V0IHVzaW5nIG9yIHVwZGF0aW5nIHRoZSBjYWNoZS4KICAgICAqIEBwYXJhbSBhY2NvdW50IEFkZHJlc3Mgb2YgdGhlIGNvbnRyYWN0IHRvIGNoZWNrLgogICAgICogQHBhcmFtIGludGVyZmFjZUlkIEVSQy0xNjUgaW50ZXJmYWNlIHRvIGNoZWNrLgogICAgICogQHJldHVybiBUcnVlIGlmIGBhY2NvdW50YCBpbXBsZW1lbnRzIGBpbnRlcmZhY2VJZGAsIGZhbHNlIG90aGVyd2lzZS4KICAgICAqLwogICAgZnVuY3Rpb24gaW1wbGVtZW50c0VSQzE2NUludGVyZmFjZU5vQ2FjaGUoYWRkcmVzcyBhY2NvdW50LCBieXRlczQgaW50ZXJmYWNlSWQpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAoYm9vbCk7Cn0K
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (interfaces/IERC1820Registry.sol)
+
+pragma solidity ^0.8.20;
+
+/**
+ * @dev Interface of the global ERC-1820 Registry, as defined in the
+ * https://eips.ethereum.org/EIPS/eip-1820[ERC]. Accounts may register
+ * implementers for interfaces in this registry, as well as query support.
+ *
+ * Implementers may be shared by multiple accounts, and can also implement more
+ * than a single interface for each account. Contracts can implement interfaces
+ * for themselves, but externally-owned accounts (EOA) must delegate this to a
+ * contract.
+ *
+ * {IERC165} interfaces can also be queried via the registry.
+ *
+ * For an in-depth explanation and source code analysis, see the ERC text.
+ */
+interface IERC1820Registry {
+    event InterfaceImplementerSet(address indexed account, bytes32 indexed interfaceHash, address indexed implementer);
+
+    event ManagerChanged(address indexed account, address indexed newManager);
+
+    /**
+     * @dev Sets `newManager` as the manager for `account`. A manager of an
+     * account is able to set interface implementers for it.
+     *
+     * By default, each account is its own manager. Passing a value of `0x0` in
+     * `newManager` will reset the manager to this initial state.
+     *
+     * Emits a {ManagerChanged} event.
+     *
+     * Requirements:
+     *
+     * - the caller must be the current manager for `account`.
+     */
+    function setManager(address account, address newManager) external;
+
+    /**
+     * @dev Returns the manager for `account`.
+     *
+     * See {setManager}.
+     */
+    function getManager(address account) external view returns (address);
+
+    /**
+     * @dev Sets the `implementer` contract as ``account``'s implementer for
+     * `interfaceHash`.
+     *
+     * `account` being the zero address is an alias for the caller's address.
+     * The zero address can also be used in `implementer` to remove an old one.
+     *
+     * See {interfaceHash} to learn how these are created.
+     *
+     * Emits an {InterfaceImplementerSet} event.
+     *
+     * Requirements:
+     *
+     * - the caller must be the current manager for `account`.
+     * - `interfaceHash` must not be an {IERC165} interface id (i.e. it must not
+     * end in 28 zeroes).
+     * - `implementer` must implement {IERC1820Implementer} and return true when
+     * queried for support, unless `implementer` is the caller. See
+     * {IERC1820Implementer-canImplementInterfaceForAddress}.
+     */
+    function setInterfaceImplementer(address account, bytes32 _interfaceHash, address implementer) external;
+
+    /**
+     * @dev Returns the implementer of `interfaceHash` for `account`. If no such
+     * implementer is registered, returns the zero address.
+     *
+     * If `interfaceHash` is an {IERC165} interface id (i.e. it ends with 28
+     * zeroes), `account` will be queried for support of it.
+     *
+     * `account` being the zero address is an alias for the caller's address.
+     */
+    function getInterfaceImplementer(address account, bytes32 _interfaceHash) external view returns (address);
+
+    /**
+     * @dev Returns the interface hash for an `interfaceName`, as defined in the
+     * corresponding
+     * https://eips.ethereum.org/EIPS/eip-1820#interface-name[section of the ERC].
+     */
+    function interfaceHash(string calldata interfaceName) external pure returns (bytes32);
+
+    /**
+     * @notice Updates the cache with whether the contract implements an ERC-165 interface or not.
+     * @param account Address of the contract for which to update the cache.
+     * @param interfaceId ERC-165 interface for which to update the cache.
+     */
+    function updateERC165Cache(address account, bytes4 interfaceId) external;
+
+    /**
+     * @notice Checks whether a contract implements an ERC-165 interface or not.
+     * If the result is not cached a direct lookup on the contract address is performed.
+     * If the result is not cached or the cached value is out-of-date, the cache MUST be updated manually by calling
+     * {updateERC165Cache} with the contract address.
+     * @param account Address of the contract to check.
+     * @param interfaceId ERC-165 interface to check.
+     * @return True if `account` implements `interfaceId`, false otherwise.
+     */
+    function implementsERC165Interface(address account, bytes4 interfaceId) external view returns (bool);
+
+    /**
+     * @notice Checks whether a contract implements an ERC-165 interface or not without using or updating the cache.
+     * @param account Address of the contract to check.
+     * @param interfaceId ERC-165 interface to check.
+     * @return True if `account` implements `interfaceId`, false otherwise.
+     */
+    function implementsERC165InterfaceNoCache(address account, bytes4 interfaceId) external view returns (bool);
+}
