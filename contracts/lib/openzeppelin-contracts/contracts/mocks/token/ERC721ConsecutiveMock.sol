@@ -1,1 +1,61 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0VSQzcyMX0gZnJvbSAiLi4vLi4vdG9rZW4vRVJDNzIxL0VSQzcyMS5zb2wiOwppbXBvcnQge0VSQzcyMUNvbnNlY3V0aXZlfSBmcm9tICIuLi8uLi90b2tlbi9FUkM3MjEvZXh0ZW5zaW9ucy9FUkM3MjFDb25zZWN1dGl2ZS5zb2wiOwppbXBvcnQge0VSQzcyMVBhdXNhYmxlfSBmcm9tICIuLi8uLi90b2tlbi9FUkM3MjEvZXh0ZW5zaW9ucy9FUkM3MjFQYXVzYWJsZS5zb2wiOwppbXBvcnQge0VSQzcyMVZvdGVzfSBmcm9tICIuLi8uLi90b2tlbi9FUkM3MjEvZXh0ZW5zaW9ucy9FUkM3MjFWb3Rlcy5zb2wiOwppbXBvcnQge0VJUDcxMn0gZnJvbSAiLi4vLi4vdXRpbHMvY3J5cHRvZ3JhcGh5L0VJUDcxMi5zb2wiOwoKLyoqCiAqIEB0aXRsZSBFUkM3MjFDb25zZWN1dGl2ZU1vY2sKICovCmNvbnRyYWN0IEVSQzcyMUNvbnNlY3V0aXZlTW9jayBpcyBFUkM3MjFDb25zZWN1dGl2ZSwgRVJDNzIxUGF1c2FibGUsIEVSQzcyMVZvdGVzIHsKICAgIHVpbnQ5NiBwcml2YXRlIGltbXV0YWJsZSBfb2Zmc2V0OwoKICAgIGNvbnN0cnVjdG9yKAogICAgICAgIHN0cmluZyBtZW1vcnkgbmFtZSwKICAgICAgICBzdHJpbmcgbWVtb3J5IHN5bWJvbCwKICAgICAgICB1aW50OTYgb2Zmc2V0LAogICAgICAgIGFkZHJlc3NbXSBtZW1vcnkgZGVsZWdhdGVzLAogICAgICAgIGFkZHJlc3NbXSBtZW1vcnkgcmVjZWl2ZXJzLAogICAgICAgIHVpbnQ5NltdIG1lbW9yeSBhbW91bnRzCiAgICApIEVSQzcyMShuYW1lLCBzeW1ib2wpIEVJUDcxMihuYW1lLCAiMSIpIHsKICAgICAgICBfb2Zmc2V0ID0gb2Zmc2V0OwoKICAgICAgICBmb3IgKHVpbnQyNTYgaSA9IDA7IGkgPCBkZWxlZ2F0ZXMubGVuZ3RoOyArK2kpIHsKICAgICAgICAgICAgX2RlbGVnYXRlKGRlbGVnYXRlc1tpXSwgZGVsZWdhdGVzW2ldKTsKICAgICAgICB9CgogICAgICAgIGZvciAodWludDI1NiBpID0gMDsgaSA8IHJlY2VpdmVycy5sZW5ndGg7ICsraSkgewogICAgICAgICAgICBfbWludENvbnNlY3V0aXZlKHJlY2VpdmVyc1tpXSwgYW1vdW50c1tpXSk7CiAgICAgICAgfQogICAgfQoKICAgIGZ1bmN0aW9uIF9maXJzdENvbnNlY3V0aXZlSWQoKSBpbnRlcm5hbCB2aWV3IHZpcnR1YWwgb3ZlcnJpZGUgcmV0dXJucyAodWludDk2KSB7CiAgICAgICAgcmV0dXJuIF9vZmZzZXQ7CiAgICB9CgogICAgZnVuY3Rpb24gX293bmVyT2YodWludDI1NiB0b2tlbklkKSBpbnRlcm5hbCB2aWV3IHZpcnR1YWwgb3ZlcnJpZGUoRVJDNzIxLCBFUkM3MjFDb25zZWN1dGl2ZSkgcmV0dXJucyAoYWRkcmVzcykgewogICAgICAgIHJldHVybiBzdXBlci5fb3duZXJPZih0b2tlbklkKTsKICAgIH0KCiAgICBmdW5jdGlvbiBfdXBkYXRlKAogICAgICAgIGFkZHJlc3MgdG8sCiAgICAgICAgdWludDI1NiB0b2tlbklkLAogICAgICAgIGFkZHJlc3MgYXV0aAogICAgKSBpbnRlcm5hbCB2aXJ0dWFsIG92ZXJyaWRlKEVSQzcyMUNvbnNlY3V0aXZlLCBFUkM3MjFQYXVzYWJsZSwgRVJDNzIxVm90ZXMpIHJldHVybnMgKGFkZHJlc3MpIHsKICAgICAgICByZXR1cm4gc3VwZXIuX3VwZGF0ZSh0bywgdG9rZW5JZCwgYXV0aCk7CiAgICB9CgogICAgZnVuY3Rpb24gX2luY3JlYXNlQmFsYW5jZShhZGRyZXNzIGFjY291bnQsIHVpbnQxMjggYW1vdW50KSBpbnRlcm5hbCB2aXJ0dWFsIG92ZXJyaWRlKEVSQzcyMSwgRVJDNzIxVm90ZXMpIHsKICAgICAgICBzdXBlci5faW5jcmVhc2VCYWxhbmNlKGFjY291bnQsIGFtb3VudCk7CiAgICB9Cn0KCmNvbnRyYWN0IEVSQzcyMUNvbnNlY3V0aXZlTm9Db25zdHJ1Y3Rvck1pbnRNb2NrIGlzIEVSQzcyMUNvbnNlY3V0aXZlIHsKICAgIGNvbnN0cnVjdG9yKHN0cmluZyBtZW1vcnkgbmFtZSwgc3RyaW5nIG1lbW9yeSBzeW1ib2wpIEVSQzcyMShuYW1lLCBzeW1ib2wpIHsKICAgICAgICBfbWludChtc2cuc2VuZGVyLCAwKTsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {ERC721} from "../../token/ERC721/ERC721.sol";
+import {ERC721Consecutive} from "../../token/ERC721/extensions/ERC721Consecutive.sol";
+import {ERC721Pausable} from "../../token/ERC721/extensions/ERC721Pausable.sol";
+import {ERC721Votes} from "../../token/ERC721/extensions/ERC721Votes.sol";
+import {EIP712} from "../../utils/cryptography/EIP712.sol";
+
+/**
+ * @title ERC721ConsecutiveMock
+ */
+contract ERC721ConsecutiveMock is ERC721Consecutive, ERC721Pausable, ERC721Votes {
+    uint96 private immutable _offset;
+
+    constructor(
+        string memory name,
+        string memory symbol,
+        uint96 offset,
+        address[] memory delegates,
+        address[] memory receivers,
+        uint96[] memory amounts
+    ) ERC721(name, symbol) EIP712(name, "1") {
+        _offset = offset;
+
+        for (uint256 i = 0; i < delegates.length; ++i) {
+            _delegate(delegates[i], delegates[i]);
+        }
+
+        for (uint256 i = 0; i < receivers.length; ++i) {
+            _mintConsecutive(receivers[i], amounts[i]);
+        }
+    }
+
+    function _firstConsecutiveId() internal view virtual override returns (uint96) {
+        return _offset;
+    }
+
+    function _ownerOf(uint256 tokenId) internal view virtual override(ERC721, ERC721Consecutive) returns (address) {
+        return super._ownerOf(tokenId);
+    }
+
+    function _update(
+        address to,
+        uint256 tokenId,
+        address auth
+    ) internal virtual override(ERC721Consecutive, ERC721Pausable, ERC721Votes) returns (address) {
+        return super._update(to, tokenId, auth);
+    }
+
+    function _increaseBalance(address account, uint128 amount) internal virtual override(ERC721, ERC721Votes) {
+        super._increaseBalance(account, amount);
+    }
+}
+
+contract ERC721ConsecutiveNoConstructorMintMock is ERC721Consecutive {
+    constructor(string memory name, string memory symbol) ERC721(name, symbol) {
+        _mint(msg.sender, 0);
+    }
+}
