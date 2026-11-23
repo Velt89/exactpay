@@ -1,1 +1,24 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMC4wKSAoaW50ZXJmYWNlcy9JRVJDMTk2Ny5zb2wpCgpwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCi8qKgogKiBAZGV2IEVSQy0xOTY3OiBQcm94eSBTdG9yYWdlIFNsb3RzLiBUaGlzIGludGVyZmFjZSBjb250YWlucyB0aGUgZXZlbnRzIGRlZmluZWQgaW4gdGhlIEVSQy4KICovCmludGVyZmFjZSBJRVJDMTk2NyB7CiAgICAvKioKICAgICAqIEBkZXYgRW1pdHRlZCB3aGVuIHRoZSBpbXBsZW1lbnRhdGlvbiBpcyB1cGdyYWRlZC4KICAgICAqLwogICAgZXZlbnQgVXBncmFkZWQoYWRkcmVzcyBpbmRleGVkIGltcGxlbWVudGF0aW9uKTsKCiAgICAvKioKICAgICAqIEBkZXYgRW1pdHRlZCB3aGVuIHRoZSBhZG1pbiBhY2NvdW50IGhhcyBjaGFuZ2VkLgogICAgICovCiAgICBldmVudCBBZG1pbkNoYW5nZWQoYWRkcmVzcyBwcmV2aW91c0FkbWluLCBhZGRyZXNzIG5ld0FkbWluKTsKCiAgICAvKioKICAgICAqIEBkZXYgRW1pdHRlZCB3aGVuIHRoZSBiZWFjb24gaXMgY2hhbmdlZC4KICAgICAqLwogICAgZXZlbnQgQmVhY29uVXBncmFkZWQoYWRkcmVzcyBpbmRleGVkIGJlYWNvbik7Cn0K
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.0.0) (interfaces/IERC1967.sol)
+
+pragma solidity ^0.8.20;
+
+/**
+ * @dev ERC-1967: Proxy Storage Slots. This interface contains the events defined in the ERC.
+ */
+interface IERC1967 {
+    /**
+     * @dev Emitted when the implementation is upgraded.
+     */
+    event Upgraded(address indexed implementation);
+
+    /**
+     * @dev Emitted when the admin account has changed.
+     */
+    event AdminChanged(address previousAdmin, address newAdmin);
+
+    /**
+     * @dev Emitted when the beacon is changed.
+     */
+    event BeaconUpgraded(address indexed beacon);
+}
