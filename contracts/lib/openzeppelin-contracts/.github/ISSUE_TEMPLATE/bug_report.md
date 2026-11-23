@@ -1,1 +1,21 @@
-LS0tCm5hbWU6IEJ1ZyByZXBvcnQKYWJvdXQ6IFJlcG9ydCBhIGJ1ZyBpbiBPcGVuWmVwcGVsaW4gQ29udHJhY3RzCgotLS0KCjwhLS0gQnJpZWZseSBkZXNjcmliZSB0aGUgaXNzdWUgeW91J3JlIGV4cGVyaWVuY2luZy4gVGVsbCB1cyB3aGF0IHlvdSB3ZXJlIHRyeWluZyB0byBkbyBhbmQgd2hhdCBoYXBwZW5lZCBpbnN0ZWFkLiAtLT4KCjwhLS0gUmVtZW1iZXIsIHRoaXMgaXMgbm90IGEgcGxhY2UgdG8gYXNrIGZvciBoZWxwIGRlYnVnZ2luZyBjb2RlLiBGb3IgdGhhdCwgd2Ugd2VsY29tZSB5b3UgaW4gdGhlIE9wZW5aZXBwZWxpbiBDb21tdW5pdHkgRm9ydW06IGh0dHBzOi8vZm9ydW0ub3BlbnplcHBlbGluLmNvbS8uIC0tPgoKKirwn5K7IEVudmlyb25tZW50KioKCjwhLS0gVGVsbCB1cyB3aGF0IHZlcnNpb24gb2YgT3BlblplcHBlbGluIENvbnRyYWN0cyB5b3UncmUgdXNpbmcsIGFuZCBob3cgeW91J3JlIHVzaW5nIGl0OiBIYXJkaGF0LCBSZW1peCwgZXRjLiAtLT4KCioq8J+TnSBEZXRhaWxzKioKCjwhLS0gRGVzY3JpYmUgdGhlIHByb2JsZW0geW91IGhhdmUgYmVlbiBleHBlcmllbmNpbmcgaW4gbW9yZSBkZXRhaWwuIEluY2x1ZGUgYXMgbXVjaCBpbmZvcm1hdGlvbiBhcyB5b3UgdGhpbmsgaXMgcmVsZXZhbnQuIEtlZXAgaW4gbWluZCB0aGF0IHRyYW5zYWN0aW9ucyBjYW4gZmFpbCBmb3IgbWFueSByZWFzb25zOyBjb250ZXh0IGlzIGtleSBoZXJlLiAtLT4KCioq8J+UoiBDb2RlIHRvIHJlcHJvZHVjZSBidWcqKgoKPCEtLSBXZSB3aWxsIGJlIGFibGUgdG8gYmV0dGVyIGhlbHAgaWYgeW91IHByb3ZpZGUgYSBtaW5pbWFsIGV4YW1wbGUgdGhhdCB0cmlnZ2VycyB0aGUgYnVnLiAtLT4K
+---
+name: Bug report
+about: Report a bug in OpenZeppelin Contracts
+
+---
+
+<!-- Briefly describe the issue you're experiencing. Tell us what you were trying to do and what happened instead. -->
+
+<!-- Remember, this is not a place to ask for help debugging code. For that, we welcome you in the OpenZeppelin Community Forum: https://forum.openzeppelin.com/. -->
+
+**💻 Environment**
+
+<!-- Tell us what version of OpenZeppelin Contracts you're using, and how you're using it: Hardhat, Remix, etc. -->
+
+**📝 Details**
+
+<!-- Describe the problem you have been experiencing in more detail. Include as much information as you think is relevant. Keep in mind that transactions can fail for many reasons; context is key here. -->
+
+**🔢 Code to reproduce bug**
+
+<!-- We will be able to better help if you provide a minimal example that triggers the bug. -->
