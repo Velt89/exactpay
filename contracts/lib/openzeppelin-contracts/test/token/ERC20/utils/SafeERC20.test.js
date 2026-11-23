@@ -1,1 +1,427 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKY29uc3QgbmFtZSA9ICdFUkMyME1vY2snOwpjb25zdCBzeW1ib2wgPSAnRVJDMjBNb2NrJzsKY29uc3QgdmFsdWUgPSAxMDBuOwpjb25zdCBkYXRhID0gJzB4MTIzNDU2NzgnOwoKYXN5bmMgZnVuY3Rpb24gZml4dHVyZSgpIHsKICBjb25zdCBbaGFzTm9Db2RlLCBvd25lciwgcmVjZWl2ZXIsIHNwZW5kZXIsIG90aGVyXSA9IGF3YWl0IGV0aGVycy5nZXRTaWduZXJzKCk7CgogIGNvbnN0IG1vY2sgPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJyRTYWZlRVJDMjAnKTsKICBjb25zdCBlcmMyMFJldHVybkZhbHNlTW9jayA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnJEVSQzIwUmV0dXJuRmFsc2VNb2NrJywgW25hbWUsIHN5bWJvbF0pOwogIGNvbnN0IGVyYzIwUmV0dXJuVHJ1ZU1vY2sgPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJyRFUkMyMCcsIFtuYW1lLCBzeW1ib2xdKTsgLy8gZGVmYXVsdCBpbXBsZW1lbnRhdGlvbiByZXR1cm5zIHRydWUKICBjb25zdCBlcmMyME5vUmV0dXJuTW9jayA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnJEVSQzIwTm9SZXR1cm5Nb2NrJywgW25hbWUsIHN5bWJvbF0pOwogIGNvbnN0IGVyYzIwRm9yY2VBcHByb3ZlTW9jayA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnJEVSQzIwRm9yY2VBcHByb3ZlTW9jaycsIFtuYW1lLCBzeW1ib2xdKTsKICBjb25zdCBlcmMxMzYzTW9jayA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnJEVSQzEzNjMnLCBbbmFtZSwgc3ltYm9sXSk7CiAgY29uc3QgZXJjMTM2M1JldHVybkZhbHNlT25FcmMyME1vY2sgPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJyRFUkMxMzYzUmV0dXJuRmFsc2VPbkVSQzIwTW9jaycsIFtuYW1lLCBzeW1ib2xdKTsKICBjb25zdCBlcmMxMzYzUmV0dXJuRmFsc2VNb2NrID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCckRVJDMTM2M1JldHVybkZhbHNlTW9jaycsIFtuYW1lLCBzeW1ib2xdKTsKICBjb25zdCBlcmMxMzYzTm9SZXR1cm5Nb2NrID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCckRVJDMTM2M05vUmV0dXJuTW9jaycsIFtuYW1lLCBzeW1ib2xdKTsKICBjb25zdCBlcmMxMzYzRm9yY2VBcHByb3ZlTW9jayA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnJEVSQzEzNjNGb3JjZUFwcHJvdmVNb2NrJywgW25hbWUsIHN5bWJvbF0pOwogIGNvbnN0IGVyYzEzNjNSZWNlaXZlciA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnJEVSQzEzNjNSZWNlaXZlck1vY2snKTsKICBjb25zdCBlcmMxMzYzU3BlbmRlciA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnJEVSQzEzNjNTcGVuZGVyTW9jaycpOwoKICByZXR1cm4gewogICAgaGFzTm9Db2RlLAogICAgb3duZXIsCiAgICByZWNlaXZlciwKICAgIHNwZW5kZXIsCiAgICBvdGhlciwKICAgIG1vY2ssCiAgICBlcmMyMFJldHVybkZhbHNlTW9jaywKICAgIGVyYzIwUmV0dXJuVHJ1ZU1vY2ssCiAgICBlcmMyME5vUmV0dXJuTW9jaywKICAgIGVyYzIwRm9yY2VBcHByb3ZlTW9jaywKICAgIGVyYzEzNjNNb2NrLAogICAgZXJjMTM2M1JldHVybkZhbHNlT25FcmMyME1vY2ssCiAgICBlcmMxMzYzUmV0dXJuRmFsc2VNb2NrLAogICAgZXJjMTM2M05vUmV0dXJuTW9jaywKICAgIGVyYzEzNjNGb3JjZUFwcHJvdmVNb2NrLAogICAgZXJjMTM2M1JlY2VpdmVyLAogICAgZXJjMTM2M1NwZW5kZXIsCiAgfTsKfQoKZGVzY3JpYmUoJ1NhZmVFUkMyMCcsIGZ1bmN0aW9uICgpIHsKICBiZWZvcmUoYXN5bmMgZnVuY3Rpb24gKCkgewogICAgT2JqZWN0LmFzc2lnbih0aGlzLCBhd2FpdCBsb2FkRml4dHVyZShmaXh0dXJlKSk7CiAgfSk7CgogIGRlc2NyaWJlKCd3aXRoIGFkZHJlc3MgdGhhdCBoYXMgbm8gY29udHJhY3QgY29kZScsIGZ1bmN0aW9uICgpIHsKICAgIGJlZm9yZUVhY2goYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICB0aGlzLnRva2VuID0gdGhpcy5oYXNOb0NvZGU7CiAgICB9KTsKCiAgICBpdCgncmV2ZXJ0cyBvbiB0cmFuc2ZlcicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMubW9jay4kc2FmZVRyYW5zZmVyKHRoaXMudG9rZW4sIHRoaXMucmVjZWl2ZXIsIDBuKSkKICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy5tb2NrLCAnU2FmZUVSQzIwRmFpbGVkT3BlcmF0aW9uJykKICAgICAgICAud2l0aEFyZ3ModGhpcy50b2tlbik7CiAgICB9KTsKCiAgICBpdCgncmV2ZXJ0cyBvbiB0cmFuc2ZlckZyb20nLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1vY2suJHNhZmVUcmFuc2ZlckZyb20odGhpcy50b2tlbiwgdGhpcy5tb2NrLCB0aGlzLnJlY2VpdmVyLCAwbikpCiAgICAgICAgLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMubW9jaywgJ1NhZmVFUkMyMEZhaWxlZE9wZXJhdGlvbicpCiAgICAgICAgLndpdGhBcmdzKHRoaXMudG9rZW4pOwogICAgfSk7CgogICAgaXQoJ3JldmVydHMgb24gaW5jcmVhc2VBbGxvd2FuY2UnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIC8vIENhbGwgdG8gJ3Rva2VuLmFsbG93YW5jZScgZG9lcyBub3QgcmV0dXJuIGFueSBkYXRhLCByZXN1bHRpbmcgaW4gYSBkZWNvZGluZyBlcnJvciAocmV2ZXJ0IHdpdGhvdXQgcmVhc29uKQogICAgICBhd2FpdCBleHBlY3QodGhpcy5tb2NrLiRzYWZlSW5jcmVhc2VBbGxvd2FuY2UodGhpcy50b2tlbiwgdGhpcy5zcGVuZGVyLCAwbikpLnRvLmJlLnJldmVydGVkV2l0aG91dFJlYXNvbigpOwogICAgfSk7CgogICAgaXQoJ3JldmVydHMgb24gZGVjcmVhc2VBbGxvd2FuY2UnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIC8vIENhbGwgdG8gJ3Rva2VuLmFsbG93YW5jZScgZG9lcyBub3QgcmV0dXJuIGFueSBkYXRhLCByZXN1bHRpbmcgaW4gYSBkZWNvZGluZyBlcnJvciAocmV2ZXJ0IHdpdGhvdXQgcmVhc29uKQogICAgICBhd2FpdCBleHBlY3QodGhpcy5tb2NrLiRzYWZlRGVjcmVhc2VBbGxvd2FuY2UodGhpcy50b2tlbiwgdGhpcy5zcGVuZGVyLCAwbikpLnRvLmJlLnJldmVydGVkV2l0aG91dFJlYXNvbigpOwogICAgfSk7CgogICAgaXQoJ3JldmVydHMgb24gZm9yY2VBcHByb3ZlJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCBleHBlY3QodGhpcy5tb2NrLiRmb3JjZUFwcHJvdmUodGhpcy50b2tlbiwgdGhpcy5zcGVuZGVyLCAwbikpCiAgICAgICAgLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMubW9jaywgJ1NhZmVFUkMyMEZhaWxlZE9wZXJhdGlvbicpCiAgICAgICAgLndpdGhBcmdzKHRoaXMudG9rZW4pOwogICAgfSk7CiAgfSk7CgogIGRlc2NyaWJlKCd3aXRoIHRva2VuIHRoYXQgcmV0dXJucyBmYWxzZSBvbiBhbGwgY2FsbHMnLCBmdW5jdGlvbiAoKSB7CiAgICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgdGhpcy50b2tlbiA9IHRoaXMuZXJjMjBSZXR1cm5GYWxzZU1vY2s7CiAgICB9KTsKCiAgICBpdCgncmV2ZXJ0cyBvbiB0cmFuc2ZlcicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMubW9jay4kc2FmZVRyYW5zZmVyKHRoaXMudG9rZW4sIHRoaXMucmVjZWl2ZXIsIDBuKSkKICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy5tb2NrLCAnU2FmZUVSQzIwRmFpbGVkT3BlcmF0aW9uJykKICAgICAgICAud2l0aEFyZ3ModGhpcy50b2tlbik7CiAgICB9KTsKCiAgICBpdCgncmV2ZXJ0cyBvbiB0cmFuc2ZlckZyb20nLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1vY2suJHNhZmVUcmFuc2ZlckZyb20odGhpcy50b2tlbiwgdGhpcy5tb2NrLCB0aGlzLnJlY2VpdmVyLCAwbikpCiAgICAgICAgLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMubW9jaywgJ1NhZmVFUkMyMEZhaWxlZE9wZXJhdGlvbicpCiAgICAgICAgLndpdGhBcmdzKHRoaXMudG9rZW4pOwogICAgfSk7CgogICAgaXQoJ3JldmVydHMgb24gaW5jcmVhc2VBbGxvd2FuY2UnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1vY2suJHNhZmVJbmNyZWFzZUFsbG93YW5jZSh0aGlzLnRva2VuLCB0aGlzLnNwZW5kZXIsIDBuKSkKICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy5tb2NrLCAnU2FmZUVSQzIwRmFpbGVkT3BlcmF0aW9uJykKICAgICAgICAud2l0aEFyZ3ModGhpcy50b2tlbik7CiAgICB9KTsKCiAgICBpdCgncmV2ZXJ0cyBvbiBkZWNyZWFzZUFsbG93YW5jZScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMubW9jay4kc2FmZURlY3JlYXNlQWxsb3dhbmNlKHRoaXMudG9rZW4sIHRoaXMuc3BlbmRlciwgMG4pKQogICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLm1vY2ssICdTYWZlRVJDMjBGYWlsZWRPcGVyYXRpb24nKQogICAgICAgIC53aXRoQXJncyh0aGlzLnRva2VuKTsKICAgIH0pOwoKICAgIGl0KCdyZXZlcnRzIG9uIGZvcmNlQXBwcm92ZScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMubW9jay4kZm9yY2VBcHByb3ZlKHRoaXMudG9rZW4sIHRoaXMuc3BlbmRlciwgMG4pKQogICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLm1vY2ssICdTYWZlRVJDMjBGYWlsZWRPcGVyYXRpb24nKQogICAgICAgIC53aXRoQXJncyh0aGlzLnRva2VuKTsKICAgIH0pOwogIH0pOwoKICBkZXNjcmliZSgnd2l0aCB0b2tlbiB0aGF0IHJldHVybnMgdHJ1ZSBvbiBhbGwgY2FsbHMnLCBmdW5jdGlvbiAoKSB7CiAgICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgdGhpcy50b2tlbiA9IHRoaXMuZXJjMjBSZXR1cm5UcnVlTW9jazsKICAgIH0pOwoKICAgIHNob3VsZE9ubHlSZXZlcnRPbkVycm9ycygpOwogIH0pOwoKICBkZXNjcmliZSgnd2l0aCB0b2tlbiB0aGF0IHJldHVybnMgbm8gYm9vbGVhbiB2YWx1ZXMnLCBmdW5jdGlvbiAoKSB7CiAgICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgdGhpcy50b2tlbiA9IHRoaXMuZXJjMjBOb1JldHVybk1vY2s7CiAgICB9KTsKCiAgICBzaG91bGRPbmx5UmV2ZXJ0T25FcnJvcnMoKTsKICB9KTsKCiAgZGVzY3JpYmUoJ3dpdGggdXNkdCBhcHByb3ZhbCBiZWhhdmlvdXInLCBmdW5jdGlvbiAoKSB7CiAgICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgdGhpcy50b2tlbiA9IHRoaXMuZXJjMjBGb3JjZUFwcHJvdmVNb2NrOwogICAgfSk7CgogICAgZGVzY3JpYmUoJ3dpdGggaW5pdGlhbCBhcHByb3ZhbCcsIGZ1bmN0aW9uICgpIHsKICAgICAgYmVmb3JlRWFjaChhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgYXdhaXQgdGhpcy50b2tlbi4kX2FwcHJvdmUodGhpcy5tb2NrLCB0aGlzLnNwZW5kZXIsIDEwMG4pOwogICAgICB9KTsKCiAgICAgIGl0KCdzYWZlSW5jcmVhc2VBbGxvd2FuY2Ugd29ya3MnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgYXdhaXQgdGhpcy5tb2NrLiRzYWZlSW5jcmVhc2VBbGxvd2FuY2UodGhpcy50b2tlbiwgdGhpcy5zcGVuZGVyLCAxMG4pOwogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnRva2VuLmFsbG93YW5jZSh0aGlzLm1vY2ssIHRoaXMuc3BlbmRlcikpLnRvLmVxdWFsKDExMG4pOwogICAgICB9KTsKCiAgICAgIGl0KCdzYWZlRGVjcmVhc2VBbGxvd2FuY2Ugd29ya3MnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgYXdhaXQgdGhpcy5tb2NrLiRzYWZlRGVjcmVhc2VBbGxvd2FuY2UodGhpcy50b2tlbiwgdGhpcy5zcGVuZGVyLCAxMG4pOwogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnRva2VuLmFsbG93YW5jZSh0aGlzLm1vY2ssIHRoaXMuc3BlbmRlcikpLnRvLmVxdWFsKDkwbik7CiAgICAgIH0pOwoKICAgICAgaXQoJ2ZvcmNlQXBwcm92ZSB3b3JrcycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBhd2FpdCB0aGlzLm1vY2suJGZvcmNlQXBwcm92ZSh0aGlzLnRva2VuLCB0aGlzLnNwZW5kZXIsIDIwMG4pOwogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnRva2VuLmFsbG93YW5jZSh0aGlzLm1vY2ssIHRoaXMuc3BlbmRlcikpLnRvLmVxdWFsKDIwMG4pOwogICAgICB9KTsKICAgIH0pOwogIH0pOwoKICBkZXNjcmliZSgnd2l0aCBzdGFuZGFyZCBFUkMxMzYzJywgZnVuY3Rpb24gKCkgewogICAgYmVmb3JlRWFjaChhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIHRoaXMudG9rZW4gPSB0aGlzLmVyYzEzNjNNb2NrOwogICAgfSk7CgogICAgc2hvdWxkT25seVJldmVydE9uRXJyb3JzKCk7CgogICAgZGVzY3JpYmUoJ3RyYW5zZmVyQW5kQ2FsbCcsIGZ1bmN0aW9uICgpIHsKICAgICAgaXQoJ2Nhbm5vdCB0cmFuc2ZlckFuZENhbGwgdG8gYW4gRU9BIGRpcmVjdGx5JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGF3YWl0IHRoaXMudG9rZW4uJF9taW50KHRoaXMub3duZXIsIDEwMG4pOwoKICAgICAgICBhd2FpdCBleHBlY3QodGhpcy50b2tlbi5jb25uZWN0KHRoaXMub3duZXIpLnRyYW5zZmVyQW5kQ2FsbCh0aGlzLnJlY2VpdmVyLCB2YWx1ZSwgZXRoZXJzLlR5cGVkLmJ5dGVzKGRhdGEpKSkKICAgICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLnRva2VuLCAnRVJDMTM2M0ludmFsaWRSZWNlaXZlcicpCiAgICAgICAgICAud2l0aEFyZ3ModGhpcy5yZWNlaXZlcik7CiAgICAgIH0pOwoKICAgICAgaXQoJ2NhbiB0cmFuc2ZlckFuZENhbGwgdG8gYW4gRU9BIHVzaW5nIGhlbHBlcicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBhd2FpdCB0aGlzLnRva2VuLiRfbWludCh0aGlzLm1vY2ssIHZhbHVlKTsKCiAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMubW9jay4kdHJhbnNmZXJBbmRDYWxsUmVsYXhlZCh0aGlzLnRva2VuLCB0aGlzLnJlY2VpdmVyLCB2YWx1ZSwgZGF0YSkpCiAgICAgICAgICAudG8uZW1pdCh0aGlzLnRva2VuLCAnVHJhbnNmZXInKQogICAgICAgICAgLndpdGhBcmdzKHRoaXMubW9jaywgdGhpcy5yZWNlaXZlciwgdmFsdWUpOwogICAgICB9KTsKCiAgICAgIGl0KCdjYW4gdHJhbnNmZXJBbmRDYWxsIHRvIGFuIEVSQzEzNjNSZWNlaXZlciB1c2luZyBoZWxwZXInLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgYXdhaXQgdGhpcy50b2tlbi4kX21pbnQodGhpcy5tb2NrLCB2YWx1ZSk7CgogICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1vY2suJHRyYW5zZmVyQW5kQ2FsbFJlbGF4ZWQodGhpcy50b2tlbiwgdGhpcy5lcmMxMzYzUmVjZWl2ZXIsIHZhbHVlLCBkYXRhKSkKICAgICAgICAgIC50by5lbWl0KHRoaXMudG9rZW4sICdUcmFuc2ZlcicpCiAgICAgICAgICAud2l0aEFyZ3ModGhpcy5tb2NrLCB0aGlzLmVyYzEzNjNSZWNlaXZlciwgdmFsdWUpCiAgICAgICAgICAudG8uZW1pdCh0aGlzLmVyYzEzNjNSZWNlaXZlciwgJ1JlY2VpdmVkJykKICAgICAgICAgIC53aXRoQXJncyh0aGlzLm1vY2ssIHRoaXMubW9jaywgdmFsdWUsIGRhdGEpOwogICAgICB9KTsKICAgIH0pOwoKICAgIGRlc2NyaWJlKCd0cmFuc2ZlckZyb21BbmRDYWxsJywgZnVuY3Rpb24gKCkgewogICAgICBpdCgnY2FuIHRyYW5zZmVyRnJvbUFuZENhbGwgdG8gYW4gRU9BIHVzaW5nIGhlbHBlcicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBhd2FpdCB0aGlzLnRva2VuLiRfbWludCh0aGlzLm93bmVyLCB2YWx1ZSk7CiAgICAgICAgYXdhaXQgdGhpcy50b2tlbi4kX2FwcHJvdmUodGhpcy5vd25lciwgdGhpcy5tb2NrLCBldGhlcnMuTWF4VWludDI1Nik7CgogICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1vY2suJHRyYW5zZmVyRnJvbUFuZENhbGxSZWxheGVkKHRoaXMudG9rZW4sIHRoaXMub3duZXIsIHRoaXMucmVjZWl2ZXIsIHZhbHVlLCBkYXRhKSkKICAgICAgICAgIC50by5lbWl0KHRoaXMudG9rZW4sICdUcmFuc2ZlcicpCiAgICAgICAgICAud2l0aEFyZ3ModGhpcy5vd25lciwgdGhpcy5yZWNlaXZlciwgdmFsdWUpOwogICAgICB9KTsKCiAgICAgIGl0KCdjYW4gdHJhbnNmZXJGcm9tQW5kQ2FsbCB0byBhbiBFUkMxMzYzUmVjZWl2ZXIgdXNpbmcgaGVscGVyJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGF3YWl0IHRoaXMudG9rZW4uJF9taW50KHRoaXMub3duZXIsIHZhbHVlKTsKICAgICAgICBhd2FpdCB0aGlzLnRva2VuLiRfYXBwcm92ZSh0aGlzLm93bmVyLCB0aGlzLm1vY2ssIGV0aGVycy5NYXhVaW50MjU2KTsKCiAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMubW9jay4kdHJhbnNmZXJGcm9tQW5kQ2FsbFJlbGF4ZWQodGhpcy50b2tlbiwgdGhpcy5vd25lciwgdGhpcy5lcmMxMzYzUmVjZWl2ZXIsIHZhbHVlLCBkYXRhKSkKICAgICAgICAgIC50by5lbWl0KHRoaXMudG9rZW4sICdUcmFuc2ZlcicpCiAgICAgICAgICAud2l0aEFyZ3ModGhpcy5vd25lciwgdGhpcy5lcmMxMzYzUmVjZWl2ZXIsIHZhbHVlKQogICAgICAgICAgLnRvLmVtaXQodGhpcy5lcmMxMzYzUmVjZWl2ZXIsICdSZWNlaXZlZCcpCiAgICAgICAgICAud2l0aEFyZ3ModGhpcy5tb2NrLCB0aGlzLm93bmVyLCB2YWx1ZSwgZGF0YSk7CiAgICAgIH0pOwogICAgfSk7CgogICAgZGVzY3JpYmUoJ2FwcHJvdmVBbmRDYWxsJywgZnVuY3Rpb24gKCkgewogICAgICBpdCgnY2FuIGFwcHJvdmVBbmRDYWxsIHRvIGFuIEVPQSB1c2luZyBoZWxwZXInLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMubW9jay4kYXBwcm92ZUFuZENhbGxSZWxheGVkKHRoaXMudG9rZW4sIHRoaXMucmVjZWl2ZXIsIHZhbHVlLCBkYXRhKSkKICAgICAgICAgIC50by5lbWl0KHRoaXMudG9rZW4sICdBcHByb3ZhbCcpCiAgICAgICAgICAud2l0aEFyZ3ModGhpcy5tb2NrLCB0aGlzLnJlY2VpdmVyLCB2YWx1ZSk7CiAgICAgIH0pOwoKICAgICAgaXQoJ2NhbiBhcHByb3ZlQW5kQ2FsbCB0byBhbiBFUkMxMzYzU3BlbmRlciB1c2luZyBoZWxwZXInLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMubW9jay4kYXBwcm92ZUFuZENhbGxSZWxheGVkKHRoaXMudG9rZW4sIHRoaXMuZXJjMTM2M1NwZW5kZXIsIHZhbHVlLCBkYXRhKSkKICAgICAgICAgIC50by5lbWl0KHRoaXMudG9rZW4sICdBcHByb3ZhbCcpCiAgICAgICAgICAud2l0aEFyZ3ModGhpcy5tb2NrLCB0aGlzLmVyYzEzNjNTcGVuZGVyLCB2YWx1ZSkKICAgICAgICAgIC50by5lbWl0KHRoaXMuZXJjMTM2M1NwZW5kZXIsICdBcHByb3ZlZCcpCiAgICAgICAgICAud2l0aEFyZ3ModGhpcy5tb2NrLCB2YWx1ZSwgZGF0YSk7CiAgICAgIH0pOwogICAgfSk7CiAgfSk7CgogIGRlc2NyaWJlKCd3aXRoIEVSQzEzNjMgdGhhdCByZXR1cm5zIGZhbHNlIG9uIGFsbCBFUkMyMCBjYWxscycsIGZ1bmN0aW9uICgpIHsKICAgIGJlZm9yZUVhY2goYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICB0aGlzLnRva2VuID0gdGhpcy5lcmMxMzYzUmV0dXJuRmFsc2VPbkVyYzIwTW9jazsKICAgIH0pOwoKICAgIGl0KCdyZXZlcnRzIG9uIHRyYW5zZmVyQW5kQ2FsbFJlbGF4ZWQnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1vY2suJHRyYW5zZmVyQW5kQ2FsbFJlbGF4ZWQodGhpcy50b2tlbiwgdGhpcy5lcmMxMzYzUmVjZWl2ZXIsIDBuLCBkYXRhKSkKICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy50b2tlbiwgJ0VSQzEzNjNUcmFuc2ZlckZhaWxlZCcpCiAgICAgICAgLndpdGhBcmdzKHRoaXMuZXJjMTM2M1JlY2VpdmVyLCAwbik7CiAgICB9KTsKCiAgICBpdCgncmV2ZXJ0cyBvbiB0cmFuc2ZlckZyb21BbmRDYWxsUmVsYXhlZCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMubW9jay4kdHJhbnNmZXJGcm9tQW5kQ2FsbFJlbGF4ZWQodGhpcy50b2tlbiwgdGhpcy5tb2NrLCB0aGlzLmVyYzEzNjNSZWNlaXZlciwgMG4sIGRhdGEpKQogICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLnRva2VuLCAnRVJDMTM2M1RyYW5zZmVyRnJvbUZhaWxlZCcpCiAgICAgICAgLndpdGhBcmdzKHRoaXMubW9jaywgdGhpcy5lcmMxMzYzUmVjZWl2ZXIsIDBuKTsKICAgIH0pOwoKICAgIGl0KCdyZXZlcnRzIG9uIGFwcHJvdmVBbmRDYWxsUmVsYXhlZCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMubW9jay4kYXBwcm92ZUFuZENhbGxSZWxheGVkKHRoaXMudG9rZW4sIHRoaXMuZXJjMTM2M1NwZW5kZXIsIDBuLCBkYXRhKSkKICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy50b2tlbiwgJ0VSQzEzNjNBcHByb3ZlRmFpbGVkJykKICAgICAgICAud2l0aEFyZ3ModGhpcy5lcmMxMzYzU3BlbmRlciwgMG4pOwogICAgfSk7CiAgfSk7CgogIGRlc2NyaWJlKCd3aXRoIEVSQzEzNjMgdGhhdCByZXR1cm5zIGZhbHNlIG9uIGFsbCBFUkMxMzYzIGNhbGxzJywgZnVuY3Rpb24gKCkgewogICAgYmVmb3JlRWFjaChhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIHRoaXMudG9rZW4gPSB0aGlzLmVyYzEzNjNSZXR1cm5GYWxzZU1vY2s7CiAgICB9KTsKCiAgICBpdCgncmV2ZXJ0cyBvbiB0cmFuc2ZlckFuZENhbGxSZWxheGVkJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCBleHBlY3QodGhpcy5tb2NrLiR0cmFuc2ZlckFuZENhbGxSZWxheGVkKHRoaXMudG9rZW4sIHRoaXMuZXJjMTM2M1JlY2VpdmVyLCAwbiwgZGF0YSkpCiAgICAgICAgLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMubW9jaywgJ1NhZmVFUkMyMEZhaWxlZE9wZXJhdGlvbicpCiAgICAgICAgLndpdGhBcmdzKHRoaXMudG9rZW4pOwogICAgfSk7CgogICAgaXQoJ3JldmVydHMgb24gdHJhbnNmZXJGcm9tQW5kQ2FsbFJlbGF4ZWQnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1vY2suJHRyYW5zZmVyRnJvbUFuZENhbGxSZWxheGVkKHRoaXMudG9rZW4sIHRoaXMubW9jaywgdGhpcy5lcmMxMzYzUmVjZWl2ZXIsIDBuLCBkYXRhKSkKICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy5tb2NrLCAnU2FmZUVSQzIwRmFpbGVkT3BlcmF0aW9uJykKICAgICAgICAud2l0aEFyZ3ModGhpcy50b2tlbik7CiAgICB9KTsKCiAgICBpdCgncmV2ZXJ0cyBvbiBhcHByb3ZlQW5kQ2FsbFJlbGF4ZWQnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1vY2suJGFwcHJvdmVBbmRDYWxsUmVsYXhlZCh0aGlzLnRva2VuLCB0aGlzLmVyYzEzNjNTcGVuZGVyLCAwbiwgZGF0YSkpCiAgICAgICAgLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMubW9jaywgJ1NhZmVFUkMyMEZhaWxlZE9wZXJhdGlvbicpCiAgICAgICAgLndpdGhBcmdzKHRoaXMudG9rZW4pOwogICAgfSk7CiAgfSk7CgogIGRlc2NyaWJlKCd3aXRoIEVSQzEzNjMgdGhhdCByZXR1cm5zIG5vIGJvb2xlYW4gdmFsdWVzJywgZnVuY3Rpb24gKCkgewogICAgYmVmb3JlRWFjaChhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIHRoaXMudG9rZW4gPSB0aGlzLmVyYzEzNjNOb1JldHVybk1vY2s7CiAgICB9KTsKCiAgICBpdCgncmV2ZXJ0cyBvbiB0cmFuc2ZlckFuZENhbGxSZWxheGVkJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCBleHBlY3QoCiAgICAgICAgdGhpcy5tb2NrLiR0cmFuc2ZlckFuZENhbGxSZWxheGVkKHRoaXMudG9rZW4sIHRoaXMuZXJjMTM2M1JlY2VpdmVyLCAwbiwgZGF0YSksCiAgICAgICkudG8uYmUucmV2ZXJ0ZWRXaXRob3V0UmVhc29uKCk7CiAgICB9KTsKCiAgICBpdCgncmV2ZXJ0cyBvbiB0cmFuc2ZlckZyb21BbmRDYWxsUmVsYXhlZCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgZXhwZWN0KAogICAgICAgIHRoaXMubW9jay4kdHJhbnNmZXJGcm9tQW5kQ2FsbFJlbGF4ZWQodGhpcy50b2tlbiwgdGhpcy5tb2NrLCB0aGlzLmVyYzEzNjNSZWNlaXZlciwgMG4sIGRhdGEpLAogICAgICApLnRvLmJlLnJldmVydGVkV2l0aG91dFJlYXNvbigpOwogICAgfSk7CgogICAgaXQoJ3JldmVydHMgb24gYXBwcm92ZUFuZENhbGxSZWxheGVkJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCBleHBlY3QoCiAgICAgICAgdGhpcy5tb2NrLiRhcHByb3ZlQW5kQ2FsbFJlbGF4ZWQodGhpcy50b2tlbiwgdGhpcy5lcmMxMzYzU3BlbmRlciwgMG4sIGRhdGEpLAogICAgICApLnRvLmJlLnJldmVydGVkV2l0aG91dFJlYXNvbigpOwogICAgfSk7CiAgfSk7CgogIGRlc2NyaWJlKCd3aXRoIEVSQzEzNjMgd2l0aCB1c2R0IGFwcHJvdmFsIGJlaGF2aW91cicsIGZ1bmN0aW9uICgpIHsKICAgIGJlZm9yZUVhY2goYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICB0aGlzLnRva2VuID0gdGhpcy5lcmMxMzYzRm9yY2VBcHByb3ZlTW9jazsKICAgIH0pOwoKICAgIGRlc2NyaWJlKCd3aXRob3V0IGluaXRpYWwgYXBwcm92YWwnLCBmdW5jdGlvbiAoKSB7CiAgICAgIGl0KCdhcHByb3ZlQW5kQ2FsbFJlbGF4ZWQgd29ya3Mgd2hlbiByZWNpcGllbnQgaXMgYW4gRU9BJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGF3YWl0IHRoaXMubW9jay4kYXBwcm92ZUFuZENhbGxSZWxheGVkKHRoaXMudG9rZW4sIHRoaXMuc3BlbmRlciwgMTBuLCBkYXRhKTsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy50b2tlbi5hbGxvd2FuY2UodGhpcy5tb2NrLCB0aGlzLnNwZW5kZXIpKS50by5lcXVhbCgxMG4pOwogICAgICB9KTsKCiAgICAgIGl0KCdhcHByb3ZlQW5kQ2FsbFJlbGF4ZWQgd29ya3Mgd2hlbiByZWNpcGllbnQgaXMgYSBjb250cmFjdCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBhd2FpdCB0aGlzLm1vY2suJGFwcHJvdmVBbmRDYWxsUmVsYXhlZCh0aGlzLnRva2VuLCB0aGlzLmVyYzEzNjNTcGVuZGVyLCAxMG4sIGRhdGEpOwogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnRva2VuLmFsbG93YW5jZSh0aGlzLm1vY2ssIHRoaXMuZXJjMTM2M1NwZW5kZXIpKS50by5lcXVhbCgxMG4pOwogICAgICB9KTsKICAgIH0pOwoKICAgIGRlc2NyaWJlKCd3aXRoIGluaXRpYWwgYXBwcm92YWwnLCBmdW5jdGlvbiAoKSB7CiAgICAgIGl0KCdhcHByb3ZlQW5kQ2FsbFJlbGF4ZWQgd29ya3Mgd2hlbiByZWNpcGllbnQgaXMgYW4gRU9BJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGF3YWl0IHRoaXMudG9rZW4uJF9hcHByb3ZlKHRoaXMubW9jaywgdGhpcy5zcGVuZGVyLCAxMDBuKTsKCiAgICAgICAgYXdhaXQgdGhpcy5tb2NrLiRhcHByb3ZlQW5kQ2FsbFJlbGF4ZWQodGhpcy50b2tlbiwgdGhpcy5zcGVuZGVyLCAxMG4sIGRhdGEpOwogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnRva2VuLmFsbG93YW5jZSh0aGlzLm1vY2ssIHRoaXMuc3BlbmRlcikpLnRvLmVxdWFsKDEwbik7CiAgICAgIH0pOwoKICAgICAgaXQoJ2FwcHJvdmVBbmRDYWxsUmVsYXhlZCByZXZlcnRzIHdoZW4gcmVjaXBpZW50IGlzIGEgY29udHJhY3QnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgYXdhaXQgdGhpcy50b2tlbi4kX2FwcHJvdmUodGhpcy5tb2NrLCB0aGlzLmVyYzEzNjNTcGVuZGVyLCAxMDBuKTsKICAgICAgICBhd2FpdCBleHBlY3QodGhpcy5tb2NrLiRhcHByb3ZlQW5kQ2FsbFJlbGF4ZWQodGhpcy50b2tlbiwgdGhpcy5lcmMxMzYzU3BlbmRlciwgMTBuLCBkYXRhKSkudG8uYmUucmV2ZXJ0ZWRXaXRoKAogICAgICAgICAgJ1VTRFQgYXBwcm92YWwgZmFpbHVyZScsCiAgICAgICAgKTsKICAgICAgfSk7CiAgICB9KTsKICB9KTsKfSk7CgpmdW5jdGlvbiBzaG91bGRPbmx5UmV2ZXJ0T25FcnJvcnMoKSB7CiAgZGVzY3JpYmUoJ3RyYW5zZmVycycsIGZ1bmN0aW9uICgpIHsKICAgIGJlZm9yZUVhY2goYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCB0aGlzLnRva2VuLiRfbWludCh0aGlzLm93bmVyLCAxMDBuKTsKICAgICAgYXdhaXQgdGhpcy50b2tlbi4kX21pbnQodGhpcy5tb2NrLCAxMDBuKTsKICAgICAgYXdhaXQgdGhpcy50b2tlbi4kX2FwcHJvdmUodGhpcy5vd25lciwgdGhpcy5tb2NrLCBldGhlcnMuTWF4VWludDI1Nik7CiAgICB9KTsKCiAgICBpdCgiZG9lc24ndCByZXZlcnQgb24gdHJhbnNmZXIiLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1vY2suJHNhZmVUcmFuc2Zlcih0aGlzLnRva2VuLCB0aGlzLnJlY2VpdmVyLCAxMG4pKQogICAgICAgIC50by5lbWl0KHRoaXMudG9rZW4sICdUcmFuc2ZlcicpCiAgICAgICAgLndpdGhBcmdzKHRoaXMubW9jaywgdGhpcy5yZWNlaXZlciwgMTBuKTsKICAgIH0pOwoKICAgIGl0KCJkb2Vzbid0IHJldmVydCBvbiB0cmFuc2ZlckZyb20iLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1vY2suJHNhZmVUcmFuc2ZlckZyb20odGhpcy50b2tlbiwgdGhpcy5vd25lciwgdGhpcy5yZWNlaXZlciwgMTBuKSkKICAgICAgICAudG8uZW1pdCh0aGlzLnRva2VuLCAnVHJhbnNmZXInKQogICAgICAgIC53aXRoQXJncyh0aGlzLm93bmVyLCB0aGlzLnJlY2VpdmVyLCAxMG4pOwogICAgfSk7CiAgfSk7CgogIGRlc2NyaWJlKCdhcHByb3ZhbHMnLCBmdW5jdGlvbiAoKSB7CiAgICBkZXNjcmliZSgnd2l0aCB6ZXJvIGFsbG93YW5jZScsIGZ1bmN0aW9uICgpIHsKICAgICAgYmVmb3JlRWFjaChhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgYXdhaXQgdGhpcy50b2tlbi4kX2FwcHJvdmUodGhpcy5tb2NrLCB0aGlzLnNwZW5kZXIsIDBuKTsKICAgICAgfSk7CgogICAgICBpdCgiZG9lc24ndCByZXZlcnQgd2hlbiBmb3JjZSBhcHByb3ZpbmcgYSBub24temVybyBhbGxvd2FuY2UiLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgYXdhaXQgdGhpcy5tb2NrLiRmb3JjZUFwcHJvdmUodGhpcy50b2tlbiwgdGhpcy5zcGVuZGVyLCAxMDBuKTsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy50b2tlbi5hbGxvd2FuY2UodGhpcy5tb2NrLCB0aGlzLnNwZW5kZXIpKS50by5lcXVhbCgxMDBuKTsKICAgICAgfSk7CgogICAgICBpdCgiZG9lc24ndCByZXZlcnQgd2hlbiBmb3JjZSBhcHByb3ZpbmcgYSB6ZXJvIGFsbG93YW5jZSIsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBhd2FpdCB0aGlzLm1vY2suJGZvcmNlQXBwcm92ZSh0aGlzLnRva2VuLCB0aGlzLnNwZW5kZXIsIDBuKTsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy50b2tlbi5hbGxvd2FuY2UodGhpcy5tb2NrLCB0aGlzLnNwZW5kZXIpKS50by5lcXVhbCgwbik7CiAgICAgIH0pOwoKICAgICAgaXQoImRvZXNuJ3QgcmV2ZXJ0IHdoZW4gaW5jcmVhc2luZyB0aGUgYWxsb3dhbmNlIiwgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGF3YWl0IHRoaXMubW9jay4kc2FmZUluY3JlYXNlQWxsb3dhbmNlKHRoaXMudG9rZW4sIHRoaXMuc3BlbmRlciwgMTBuKTsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy50b2tlbi5hbGxvd2FuY2UodGhpcy5tb2NrLCB0aGlzLnNwZW5kZXIpKS50by5lcXVhbCgxMG4pOwogICAgICB9KTsKCiAgICAgIGl0KCdyZXZlcnRzIHdoZW4gZGVjcmVhc2luZyB0aGUgYWxsb3dhbmNlJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1vY2suJHNhZmVEZWNyZWFzZUFsbG93YW5jZSh0aGlzLnRva2VuLCB0aGlzLnNwZW5kZXIsIDEwbikpCiAgICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy5tb2NrLCAnU2FmZUVSQzIwRmFpbGVkRGVjcmVhc2VBbGxvd2FuY2UnKQogICAgICAgICAgLndpdGhBcmdzKHRoaXMuc3BlbmRlciwgMG4sIDEwbik7CiAgICAgIH0pOwogICAgfSk7CgogICAgZGVzY3JpYmUoJ3dpdGggbm9uLXplcm8gYWxsb3dhbmNlJywgZnVuY3Rpb24gKCkgewogICAgICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBhd2FpdCB0aGlzLnRva2VuLiRfYXBwcm92ZSh0aGlzLm1vY2ssIHRoaXMuc3BlbmRlciwgMTAwbik7CiAgICAgIH0pOwoKICAgICAgaXQoImRvZXNuJ3QgcmV2ZXJ0IHdoZW4gZm9yY2UgYXBwcm92aW5nIGEgbm9uLXplcm8gYWxsb3dhbmNlIiwgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGF3YWl0IHRoaXMubW9jay4kZm9yY2VBcHByb3ZlKHRoaXMudG9rZW4sIHRoaXMuc3BlbmRlciwgMjBuKTsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy50b2tlbi5hbGxvd2FuY2UodGhpcy5tb2NrLCB0aGlzLnNwZW5kZXIpKS50by5lcXVhbCgyMG4pOwogICAgICB9KTsKCiAgICAgIGl0KCJkb2Vzbid0IHJldmVydCB3aGVuIGZvcmNlIGFwcHJvdmluZyBhIHplcm8gYWxsb3dhbmNlIiwgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGF3YWl0IHRoaXMubW9jay4kZm9yY2VBcHByb3ZlKHRoaXMudG9rZW4sIHRoaXMuc3BlbmRlciwgMG4pOwogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnRva2VuLmFsbG93YW5jZSh0aGlzLm1vY2ssIHRoaXMuc3BlbmRlcikpLnRvLmVxdWFsKDBuKTsKICAgICAgfSk7CgogICAgICBpdCgiZG9lc24ndCByZXZlcnQgd2hlbiBpbmNyZWFzaW5nIHRoZSBhbGxvd2FuY2UiLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgYXdhaXQgdGhpcy5tb2NrLiRzYWZlSW5jcmVhc2VBbGxvd2FuY2UodGhpcy50b2tlbiwgdGhpcy5zcGVuZGVyLCAxMG4pOwogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnRva2VuLmFsbG93YW5jZSh0aGlzLm1vY2ssIHRoaXMuc3BlbmRlcikpLnRvLmVxdWFsKDExMG4pOwogICAgICB9KTsKCiAgICAgIGl0KCJkb2Vzbid0IHJldmVydCB3aGVuIGRlY3JlYXNpbmcgdGhlIGFsbG93YW5jZSB0byBhIHBvc2l0aXZlIHZhbHVlIiwgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGF3YWl0IHRoaXMubW9jay4kc2FmZURlY3JlYXNlQWxsb3dhbmNlKHRoaXMudG9rZW4sIHRoaXMuc3BlbmRlciwgNTBuKTsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy50b2tlbi5hbGxvd2FuY2UodGhpcy5tb2NrLCB0aGlzLnNwZW5kZXIpKS50by5lcXVhbCg1MG4pOwogICAgICB9KTsKCiAgICAgIGl0KCdyZXZlcnRzIHdoZW4gZGVjcmVhc2luZyB0aGUgYWxsb3dhbmNlIHRvIGEgbmVnYXRpdmUgdmFsdWUnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMubW9jay4kc2FmZURlY3JlYXNlQWxsb3dhbmNlKHRoaXMudG9rZW4sIHRoaXMuc3BlbmRlciwgMjAwbikpCiAgICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy5tb2NrLCAnU2FmZUVSQzIwRmFpbGVkRGVjcmVhc2VBbGxvd2FuY2UnKQogICAgICAgICAgLndpdGhBcmdzKHRoaXMuc3BlbmRlciwgMTAwbiwgMjAwbik7CiAgICAgIH0pOwogICAgfSk7CiAgfSk7Cn0K
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+const name = 'ERC20Mock';
+const symbol = 'ERC20Mock';
+const value = 100n;
+const data = '0x12345678';
+
+async function fixture() {
+  const [hasNoCode, owner, receiver, spender, other] = await ethers.getSigners();
+
+  const mock = await ethers.deployContract('$SafeERC20');
+  const erc20ReturnFalseMock = await ethers.deployContract('$ERC20ReturnFalseMock', [name, symbol]);
+  const erc20ReturnTrueMock = await ethers.deployContract('$ERC20', [name, symbol]); // default implementation returns true
+  const erc20NoReturnMock = await ethers.deployContract('$ERC20NoReturnMock', [name, symbol]);
+  const erc20ForceApproveMock = await ethers.deployContract('$ERC20ForceApproveMock', [name, symbol]);
+  const erc1363Mock = await ethers.deployContract('$ERC1363', [name, symbol]);
+  const erc1363ReturnFalseOnErc20Mock = await ethers.deployContract('$ERC1363ReturnFalseOnERC20Mock', [name, symbol]);
+  const erc1363ReturnFalseMock = await ethers.deployContract('$ERC1363ReturnFalseMock', [name, symbol]);
+  const erc1363NoReturnMock = await ethers.deployContract('$ERC1363NoReturnMock', [name, symbol]);
+  const erc1363ForceApproveMock = await ethers.deployContract('$ERC1363ForceApproveMock', [name, symbol]);
+  const erc1363Receiver = await ethers.deployContract('$ERC1363ReceiverMock');
+  const erc1363Spender = await ethers.deployContract('$ERC1363SpenderMock');
+
+  return {
+    hasNoCode,
+    owner,
+    receiver,
+    spender,
+    other,
+    mock,
+    erc20ReturnFalseMock,
+    erc20ReturnTrueMock,
+    erc20NoReturnMock,
+    erc20ForceApproveMock,
+    erc1363Mock,
+    erc1363ReturnFalseOnErc20Mock,
+    erc1363ReturnFalseMock,
+    erc1363NoReturnMock,
+    erc1363ForceApproveMock,
+    erc1363Receiver,
+    erc1363Spender,
+  };
+}
+
+describe('SafeERC20', function () {
+  before(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  describe('with address that has no contract code', function () {
+    beforeEach(async function () {
+      this.token = this.hasNoCode;
+    });
+
+    it('reverts on transfer', async function () {
+      await expect(this.mock.$safeTransfer(this.token, this.receiver, 0n))
+        .to.be.revertedWithCustomError(this.mock, 'SafeERC20FailedOperation')
+        .withArgs(this.token);
+    });
+
+    it('reverts on transferFrom', async function () {
+      await expect(this.mock.$safeTransferFrom(this.token, this.mock, this.receiver, 0n))
+        .to.be.revertedWithCustomError(this.mock, 'SafeERC20FailedOperation')
+        .withArgs(this.token);
+    });
+
+    it('reverts on increaseAllowance', async function () {
+      // Call to 'token.allowance' does not return any data, resulting in a decoding error (revert without reason)
+      await expect(this.mock.$safeIncreaseAllowance(this.token, this.spender, 0n)).to.be.revertedWithoutReason();
+    });
+
+    it('reverts on decreaseAllowance', async function () {
+      // Call to 'token.allowance' does not return any data, resulting in a decoding error (revert without reason)
+      await expect(this.mock.$safeDecreaseAllowance(this.token, this.spender, 0n)).to.be.revertedWithoutReason();
+    });
+
+    it('reverts on forceApprove', async function () {
+      await expect(this.mock.$forceApprove(this.token, this.spender, 0n))
+        .to.be.revertedWithCustomError(this.mock, 'SafeERC20FailedOperation')
+        .withArgs(this.token);
+    });
+  });
+
+  describe('with token that returns false on all calls', function () {
+    beforeEach(async function () {
+      this.token = this.erc20ReturnFalseMock;
+    });
+
+    it('reverts on transfer', async function () {
+      await expect(this.mock.$safeTransfer(this.token, this.receiver, 0n))
+        .to.be.revertedWithCustomError(this.mock, 'SafeERC20FailedOperation')
+        .withArgs(this.token);
+    });
+
+    it('reverts on transferFrom', async function () {
+      await expect(this.mock.$safeTransferFrom(this.token, this.mock, this.receiver, 0n))
+        .to.be.revertedWithCustomError(this.mock, 'SafeERC20FailedOperation')
+        .withArgs(this.token);
+    });
+
+    it('reverts on increaseAllowance', async function () {
+      await expect(this.mock.$safeIncreaseAllowance(this.token, this.spender, 0n))
+        .to.be.revertedWithCustomError(this.mock, 'SafeERC20FailedOperation')
+        .withArgs(this.token);
+    });
+
+    it('reverts on decreaseAllowance', async function () {
+      await expect(this.mock.$safeDecreaseAllowance(this.token, this.spender, 0n))
+        .to.be.revertedWithCustomError(this.mock, 'SafeERC20FailedOperation')
+        .withArgs(this.token);
+    });
+
+    it('reverts on forceApprove', async function () {
+      await expect(this.mock.$forceApprove(this.token, this.spender, 0n))
+        .to.be.revertedWithCustomError(this.mock, 'SafeERC20FailedOperation')
+        .withArgs(this.token);
+    });
+  });
+
+  describe('with token that returns true on all calls', function () {
+    beforeEach(async function () {
+      this.token = this.erc20ReturnTrueMock;
+    });
+
+    shouldOnlyRevertOnErrors();
+  });
+
+  describe('with token that returns no boolean values', function () {
+    beforeEach(async function () {
+      this.token = this.erc20NoReturnMock;
+    });
+
+    shouldOnlyRevertOnErrors();
+  });
+
+  describe('with usdt approval behaviour', function () {
+    beforeEach(async function () {
+      this.token = this.erc20ForceApproveMock;
+    });
+
+    describe('with initial approval', function () {
+      beforeEach(async function () {
+        await this.token.$_approve(this.mock, this.spender, 100n);
+      });
+
+      it('safeIncreaseAllowance works', async function () {
+        await this.mock.$safeIncreaseAllowance(this.token, this.spender, 10n);
+        expect(await this.token.allowance(this.mock, this.spender)).to.equal(110n);
+      });
+
+      it('safeDecreaseAllowance works', async function () {
+        await this.mock.$safeDecreaseAllowance(this.token, this.spender, 10n);
+        expect(await this.token.allowance(this.mock, this.spender)).to.equal(90n);
+      });
+
+      it('forceApprove works', async function () {
+        await this.mock.$forceApprove(this.token, this.spender, 200n);
+        expect(await this.token.allowance(this.mock, this.spender)).to.equal(200n);
+      });
+    });
+  });
+
+  describe('with standard ERC1363', function () {
+    beforeEach(async function () {
+      this.token = this.erc1363Mock;
+    });
+
+    shouldOnlyRevertOnErrors();
+
+    describe('transferAndCall', function () {
+      it('cannot transferAndCall to an EOA directly', async function () {
+        await this.token.$_mint(this.owner, 100n);
+
+        await expect(this.token.connect(this.owner).transferAndCall(this.receiver, value, ethers.Typed.bytes(data)))
+          .to.be.revertedWithCustomError(this.token, 'ERC1363InvalidReceiver')
+          .withArgs(this.receiver);
+      });
+
+      it('can transferAndCall to an EOA using helper', async function () {
+        await this.token.$_mint(this.mock, value);
+
+        await expect(this.mock.$transferAndCallRelaxed(this.token, this.receiver, value, data))
+          .to.emit(this.token, 'Transfer')
+          .withArgs(this.mock, this.receiver, value);
+      });
+
+      it('can transferAndCall to an ERC1363Receiver using helper', async function () {
+        await this.token.$_mint(this.mock, value);
+
+        await expect(this.mock.$transferAndCallRelaxed(this.token, this.erc1363Receiver, value, data))
+          .to.emit(this.token, 'Transfer')
+          .withArgs(this.mock, this.erc1363Receiver, value)
+          .to.emit(this.erc1363Receiver, 'Received')
+          .withArgs(this.mock, this.mock, value, data);
+      });
+    });
+
+    describe('transferFromAndCall', function () {
+      it('can transferFromAndCall to an EOA using helper', async function () {
+        await this.token.$_mint(this.owner, value);
+        await this.token.$_approve(this.owner, this.mock, ethers.MaxUint256);
+
+        await expect(this.mock.$transferFromAndCallRelaxed(this.token, this.owner, this.receiver, value, data))
+          .to.emit(this.token, 'Transfer')
+          .withArgs(this.owner, this.receiver, value);
+      });
+
+      it('can transferFromAndCall to an ERC1363Receiver using helper', async function () {
+        await this.token.$_mint(this.owner, value);
+        await this.token.$_approve(this.owner, this.mock, ethers.MaxUint256);
+
+        await expect(this.mock.$transferFromAndCallRelaxed(this.token, this.owner, this.erc1363Receiver, value, data))
+          .to.emit(this.token, 'Transfer')
+          .withArgs(this.owner, this.erc1363Receiver, value)
+          .to.emit(this.erc1363Receiver, 'Received')
+          .withArgs(this.mock, this.owner, value, data);
+      });
+    });
+
+    describe('approveAndCall', function () {
+      it('can approveAndCall to an EOA using helper', async function () {
+        await expect(this.mock.$approveAndCallRelaxed(this.token, this.receiver, value, data))
+          .to.emit(this.token, 'Approval')
+          .withArgs(this.mock, this.receiver, value);
+      });
+
+      it('can approveAndCall to an ERC1363Spender using helper', async function () {
+        await expect(this.mock.$approveAndCallRelaxed(this.token, this.erc1363Spender, value, data))
+          .to.emit(this.token, 'Approval')
+          .withArgs(this.mock, this.erc1363Spender, value)
+          .to.emit(this.erc1363Spender, 'Approved')
+          .withArgs(this.mock, value, data);
+      });
+    });
+  });
+
+  describe('with ERC1363 that returns false on all ERC20 calls', function () {
+    beforeEach(async function () {
+      this.token = this.erc1363ReturnFalseOnErc20Mock;
+    });
+
+    it('reverts on transferAndCallRelaxed', async function () {
+      await expect(this.mock.$transferAndCallRelaxed(this.token, this.erc1363Receiver, 0n, data))
+        .to.be.revertedWithCustomError(this.token, 'ERC1363TransferFailed')
+        .withArgs(this.erc1363Receiver, 0n);
+    });
+
+    it('reverts on transferFromAndCallRelaxed', async function () {
+      await expect(this.mock.$transferFromAndCallRelaxed(this.token, this.mock, this.erc1363Receiver, 0n, data))
+        .to.be.revertedWithCustomError(this.token, 'ERC1363TransferFromFailed')
+        .withArgs(this.mock, this.erc1363Receiver, 0n);
+    });
+
+    it('reverts on approveAndCallRelaxed', async function () {
+      await expect(this.mock.$approveAndCallRelaxed(this.token, this.erc1363Spender, 0n, data))
+        .to.be.revertedWithCustomError(this.token, 'ERC1363ApproveFailed')
+        .withArgs(this.erc1363Spender, 0n);
+    });
+  });
+
+  describe('with ERC1363 that returns false on all ERC1363 calls', function () {
+    beforeEach(async function () {
+      this.token = this.erc1363ReturnFalseMock;
+    });
+
+    it('reverts on transferAndCallRelaxed', async function () {
+      await expect(this.mock.$transferAndCallRelaxed(this.token, this.erc1363Receiver, 0n, data))
+        .to.be.revertedWithCustomError(this.mock, 'SafeERC20FailedOperation')
+        .withArgs(this.token);
+    });
+
+    it('reverts on transferFromAndCallRelaxed', async function () {
+      await expect(this.mock.$transferFromAndCallRelaxed(this.token, this.mock, this.erc1363Receiver, 0n, data))
+        .to.be.revertedWithCustomError(this.mock, 'SafeERC20FailedOperation')
+        .withArgs(this.token);
+    });
+
+    it('reverts on approveAndCallRelaxed', async function () {
+      await expect(this.mock.$approveAndCallRelaxed(this.token, this.erc1363Spender, 0n, data))
+        .to.be.revertedWithCustomError(this.mock, 'SafeERC20FailedOperation')
+        .withArgs(this.token);
+    });
+  });
+
+  describe('with ERC1363 that returns no boolean values', function () {
+    beforeEach(async function () {
+      this.token = this.erc1363NoReturnMock;
+    });
+
+    it('reverts on transferAndCallRelaxed', async function () {
+      await expect(
+        this.mock.$transferAndCallRelaxed(this.token, this.erc1363Receiver, 0n, data),
+      ).to.be.revertedWithoutReason();
+    });
+
+    it('reverts on transferFromAndCallRelaxed', async function () {
+      await expect(
+        this.mock.$transferFromAndCallRelaxed(this.token, this.mock, this.erc1363Receiver, 0n, data),
+      ).to.be.revertedWithoutReason();
+    });
+
+    it('reverts on approveAndCallRelaxed', async function () {
+      await expect(
+        this.mock.$approveAndCallRelaxed(this.token, this.erc1363Spender, 0n, data),
+      ).to.be.revertedWithoutReason();
+    });
+  });
+
+  describe('with ERC1363 with usdt approval behaviour', function () {
+    beforeEach(async function () {
+      this.token = this.erc1363ForceApproveMock;
+    });
+
+    describe('without initial approval', function () {
+      it('approveAndCallRelaxed works when recipient is an EOA', async function () {
+        await this.mock.$approveAndCallRelaxed(this.token, this.spender, 10n, data);
+        expect(await this.token.allowance(this.mock, this.spender)).to.equal(10n);
+      });
+
+      it('approveAndCallRelaxed works when recipient is a contract', async function () {
+        await this.mock.$approveAndCallRelaxed(this.token, this.erc1363Spender, 10n, data);
+        expect(await this.token.allowance(this.mock, this.erc1363Spender)).to.equal(10n);
+      });
+    });
+
+    describe('with initial approval', function () {
+      it('approveAndCallRelaxed works when recipient is an EOA', async function () {
+        await this.token.$_approve(this.mock, this.spender, 100n);
+
+        await this.mock.$approveAndCallRelaxed(this.token, this.spender, 10n, data);
+        expect(await this.token.allowance(this.mock, this.spender)).to.equal(10n);
+      });
+
+      it('approveAndCallRelaxed reverts when recipient is a contract', async function () {
+        await this.token.$_approve(this.mock, this.erc1363Spender, 100n);
+        await expect(this.mock.$approveAndCallRelaxed(this.token, this.erc1363Spender, 10n, data)).to.be.revertedWith(
+          'USDT approval failure',
+        );
+      });
+    });
+  });
+});
+
+function shouldOnlyRevertOnErrors() {
+  describe('transfers', function () {
+    beforeEach(async function () {
+      await this.token.$_mint(this.owner, 100n);
+      await this.token.$_mint(this.mock, 100n);
+      await this.token.$_approve(this.owner, this.mock, ethers.MaxUint256);
+    });
+
+    it("doesn't revert on transfer", async function () {
+      await expect(this.mock.$safeTransfer(this.token, this.receiver, 10n))
+        .to.emit(this.token, 'Transfer')
+        .withArgs(this.mock, this.receiver, 10n);
+    });
+
+    it("doesn't revert on transferFrom", async function () {
+      await expect(this.mock.$safeTransferFrom(this.token, this.owner, this.receiver, 10n))
+        .to.emit(this.token, 'Transfer')
+        .withArgs(this.owner, this.receiver, 10n);
+    });
+  });
+
+  describe('approvals', function () {
+    describe('with zero allowance', function () {
+      beforeEach(async function () {
+        await this.token.$_approve(this.mock, this.spender, 0n);
+      });
+
+      it("doesn't revert when force approving a non-zero allowance", async function () {
+        await this.mock.$forceApprove(this.token, this.spender, 100n);
+        expect(await this.token.allowance(this.mock, this.spender)).to.equal(100n);
+      });
+
+      it("doesn't revert when force approving a zero allowance", async function () {
+        await this.mock.$forceApprove(this.token, this.spender, 0n);
+        expect(await this.token.allowance(this.mock, this.spender)).to.equal(0n);
+      });
+
+      it("doesn't revert when increasing the allowance", async function () {
+        await this.mock.$safeIncreaseAllowance(this.token, this.spender, 10n);
+        expect(await this.token.allowance(this.mock, this.spender)).to.equal(10n);
+      });
+
+      it('reverts when decreasing the allowance', async function () {
+        await expect(this.mock.$safeDecreaseAllowance(this.token, this.spender, 10n))
+          .to.be.revertedWithCustomError(this.mock, 'SafeERC20FailedDecreaseAllowance')
+          .withArgs(this.spender, 0n, 10n);
+      });
+    });
+
+    describe('with non-zero allowance', function () {
+      beforeEach(async function () {
+        await this.token.$_approve(this.mock, this.spender, 100n);
+      });
+
+      it("doesn't revert when force approving a non-zero allowance", async function () {
+        await this.mock.$forceApprove(this.token, this.spender, 20n);
+        expect(await this.token.allowance(this.mock, this.spender)).to.equal(20n);
+      });
+
+      it("doesn't revert when force approving a zero allowance", async function () {
+        await this.mock.$forceApprove(this.token, this.spender, 0n);
+        expect(await this.token.allowance(this.mock, this.spender)).to.equal(0n);
+      });
+
+      it("doesn't revert when increasing the allowance", async function () {
+        await this.mock.$safeIncreaseAllowance(this.token, this.spender, 10n);
+        expect(await this.token.allowance(this.mock, this.spender)).to.equal(110n);
+      });
+
+      it("doesn't revert when decreasing the allowance to a positive value", async function () {
+        await this.mock.$safeDecreaseAllowance(this.token, this.spender, 50n);
+        expect(await this.token.allowance(this.mock, this.spender)).to.equal(50n);
+      });
+
+      it('reverts when decreasing the allowance to a negative value', async function () {
+        await expect(this.mock.$safeDecreaseAllowance(this.token, this.spender, 200n))
+          .to.be.revertedWithCustomError(this.mock, 'SafeERC20FailedDecreaseAllowance')
+          .withArgs(this.spender, 100n, 200n);
+      });
+    });
+  });
+}
