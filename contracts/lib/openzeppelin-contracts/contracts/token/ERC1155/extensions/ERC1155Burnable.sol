@@ -1,1 +1,28 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMC4wKSAodG9rZW4vRVJDMTE1NS9leHRlbnNpb25zL0VSQzExNTVCdXJuYWJsZS5zb2wpCgpwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7RVJDMTE1NX0gZnJvbSAiLi4vRVJDMTE1NS5zb2wiOwoKLyoqCiAqIEBkZXYgRXh0ZW5zaW9uIG9mIHtFUkMxMTU1fSB0aGF0IGFsbG93cyB0b2tlbiBob2xkZXJzIHRvIGRlc3Ryb3kgYm90aCB0aGVpcgogKiBvd24gdG9rZW5zIGFuZCB0aG9zZSB0aGF0IHRoZXkgaGF2ZSBiZWVuIGFwcHJvdmVkIHRvIHVzZS4KICovCmFic3RyYWN0IGNvbnRyYWN0IEVSQzExNTVCdXJuYWJsZSBpcyBFUkMxMTU1IHsKICAgIGZ1bmN0aW9uIGJ1cm4oYWRkcmVzcyBhY2NvdW50LCB1aW50MjU2IGlkLCB1aW50MjU2IHZhbHVlKSBwdWJsaWMgdmlydHVhbCB7CiAgICAgICAgaWYgKGFjY291bnQgIT0gX21zZ1NlbmRlcigpICYmICFpc0FwcHJvdmVkRm9yQWxsKGFjY291bnQsIF9tc2dTZW5kZXIoKSkpIHsKICAgICAgICAgICAgcmV2ZXJ0IEVSQzExNTVNaXNzaW5nQXBwcm92YWxGb3JBbGwoX21zZ1NlbmRlcigpLCBhY2NvdW50KTsKICAgICAgICB9CgogICAgICAgIF9idXJuKGFjY291bnQsIGlkLCB2YWx1ZSk7CiAgICB9CgogICAgZnVuY3Rpb24gYnVybkJhdGNoKGFkZHJlc3MgYWNjb3VudCwgdWludDI1NltdIG1lbW9yeSBpZHMsIHVpbnQyNTZbXSBtZW1vcnkgdmFsdWVzKSBwdWJsaWMgdmlydHVhbCB7CiAgICAgICAgaWYgKGFjY291bnQgIT0gX21zZ1NlbmRlcigpICYmICFpc0FwcHJvdmVkRm9yQWxsKGFjY291bnQsIF9tc2dTZW5kZXIoKSkpIHsKICAgICAgICAgICAgcmV2ZXJ0IEVSQzExNTVNaXNzaW5nQXBwcm92YWxGb3JBbGwoX21zZ1NlbmRlcigpLCBhY2NvdW50KTsKICAgICAgICB9CgogICAgICAgIF9idXJuQmF0Y2goYWNjb3VudCwgaWRzLCB2YWx1ZXMpOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.0.0) (token/ERC1155/extensions/ERC1155Burnable.sol)
+
+pragma solidity ^0.8.20;
+
+import {ERC1155} from "../ERC1155.sol";
+
+/**
+ * @dev Extension of {ERC1155} that allows token holders to destroy both their
+ * own tokens and those that they have been approved to use.
+ */
+abstract contract ERC1155Burnable is ERC1155 {
+    function burn(address account, uint256 id, uint256 value) public virtual {
+        if (account != _msgSender() && !isApprovedForAll(account, _msgSender())) {
+            revert ERC1155MissingApprovalForAll(_msgSender(), account);
+        }
+
+        _burn(account, id, value);
+    }
+
+    function burnBatch(address account, uint256[] memory ids, uint256[] memory values) public virtual {
+        if (account != _msgSender() && !isApprovedForAll(account, _msgSender())) {
+            revert ERC1155MissingApprovalForAll(_msgSender(), account);
+        }
+
+        _burnBatch(account, ids, values);
+    }
+}
