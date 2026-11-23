@@ -1,1 +1,11 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7Cgpjb250cmFjdCBCYWRCZWFjb25Ob0ltcGwge30KCmNvbnRyYWN0IEJhZEJlYWNvbk5vdENvbnRyYWN0IHsKICAgIGZ1bmN0aW9uIGltcGxlbWVudGF0aW9uKCkgZXh0ZXJuYWwgcHVyZSByZXR1cm5zIChhZGRyZXNzKSB7CiAgICAgICAgcmV0dXJuIGFkZHJlc3MoMHgxKTsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+contract BadBeaconNoImpl {}
+
+contract BadBeaconNotContract {
+    function implementation() external pure returns (address) {
+        return address(0x1);
+    }
+}
