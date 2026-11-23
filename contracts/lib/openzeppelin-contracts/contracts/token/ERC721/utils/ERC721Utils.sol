@@ -1,1 +1,50 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodG9rZW4vRVJDNzIxL3V0aWxzL0VSQzcyMVV0aWxzLnNvbCkKCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKaW1wb3J0IHtJRVJDNzIxUmVjZWl2ZXJ9IGZyb20gIi4uL0lFUkM3MjFSZWNlaXZlci5zb2wiOwppbXBvcnQge0lFUkM3MjFFcnJvcnN9IGZyb20gIi4uLy4uLy4uL2ludGVyZmFjZXMvZHJhZnQtSUVSQzYwOTMuc29sIjsKCi8qKgogKiBAZGV2IExpYnJhcnkgdGhhdCBwcm92aWRlIGNvbW1vbiBFUkMtNzIxIHV0aWxpdHkgZnVuY3Rpb25zLgogKgogKiBTZWUgaHR0cHM6Ly9laXBzLmV0aGVyZXVtLm9yZy9FSVBTL2VpcC03MjFbRVJDLTcyMV0uCiAqCiAqIF9BdmFpbGFibGUgc2luY2UgdjUuMS5fCiAqLwpsaWJyYXJ5IEVSQzcyMVV0aWxzIHsKICAgIC8qKgogICAgICogQGRldiBQZXJmb3JtcyBhbiBhY2NlcHRhbmNlIGNoZWNrIGZvciB0aGUgcHJvdmlkZWQgYG9wZXJhdG9yYCBieSBjYWxsaW5nIHtJRVJDNzIxLW9uRVJDNzIxUmVjZWl2ZWR9CiAgICAgKiBvbiB0aGUgYHRvYCBhZGRyZXNzLiBUaGUgYG9wZXJhdG9yYCBpcyBnZW5lcmFsbHkgdGhlIGFkZHJlc3MgdGhhdCBpbml0aWF0ZWQgdGhlIHRva2VuIHRyYW5zZmVyIChpLmUuIGBtc2cuc2VuZGVyYCkuCiAgICAgKgogICAgICogVGhlIGFjY2VwdGFuY2UgY2FsbCBpcyBub3QgZXhlY3V0ZWQgYW5kIHRyZWF0ZWQgYXMgYSBuby1vcCBpZiB0aGUgdGFyZ2V0IGFkZHJlc3MgZG9lc24ndCBjb250YWluIGNvZGUgKGkuZS4gYW4gRU9BKS4KICAgICAqIE90aGVyd2lzZSwgdGhlIHJlY2lwaWVudCBtdXN0IGltcGxlbWVudCB7SUVSQzcyMVJlY2VpdmVyLW9uRVJDNzIxUmVjZWl2ZWR9IGFuZCByZXR1cm4gdGhlIGFjY2VwdGFuY2UgbWFnaWMgdmFsdWUgdG8gYWNjZXB0CiAgICAgKiB0aGUgdHJhbnNmZXIuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGNoZWNrT25FUkM3MjFSZWNlaXZlZCgKICAgICAgICBhZGRyZXNzIG9wZXJhdG9yLAogICAgICAgIGFkZHJlc3MgZnJvbSwKICAgICAgICBhZGRyZXNzIHRvLAogICAgICAgIHVpbnQyNTYgdG9rZW5JZCwKICAgICAgICBieXRlcyBtZW1vcnkgZGF0YQogICAgKSBpbnRlcm5hbCB7CiAgICAgICAgaWYgKHRvLmNvZGUubGVuZ3RoID4gMCkgewogICAgICAgICAgICB0cnkgSUVSQzcyMVJlY2VpdmVyKHRvKS5vbkVSQzcyMVJlY2VpdmVkKG9wZXJhdG9yLCBmcm9tLCB0b2tlbklkLCBkYXRhKSByZXR1cm5zIChieXRlczQgcmV0dmFsKSB7CiAgICAgICAgICAgICAgICBpZiAocmV0dmFsICE9IElFUkM3MjFSZWNlaXZlci5vbkVSQzcyMVJlY2VpdmVkLnNlbGVjdG9yKSB7CiAgICAgICAgICAgICAgICAgICAgLy8gVG9rZW4gcmVqZWN0ZWQKICAgICAgICAgICAgICAgICAgICByZXZlcnQgSUVSQzcyMUVycm9ycy5FUkM3MjFJbnZhbGlkUmVjZWl2ZXIodG8pOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9IGNhdGNoIChieXRlcyBtZW1vcnkgcmVhc29uKSB7CiAgICAgICAgICAgICAgICBpZiAocmVhc29uLmxlbmd0aCA9PSAwKSB7CiAgICAgICAgICAgICAgICAgICAgLy8gbm9uLUlFUkM3MjFSZWNlaXZlciBpbXBsZW1lbnRlcgogICAgICAgICAgICAgICAgICAgIHJldmVydCBJRVJDNzIxRXJyb3JzLkVSQzcyMUludmFsaWRSZWNlaXZlcih0byk7CiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIGFzc2VtYmx5ICgibWVtb3J5LXNhZmUiKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHJldmVydChhZGQoMzIsIHJlYXNvbiksIG1sb2FkKHJlYXNvbikpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (token/ERC721/utils/ERC721Utils.sol)
+
+pragma solidity ^0.8.20;
+
+import {IERC721Receiver} from "../IERC721Receiver.sol";
+import {IERC721Errors} from "../../../interfaces/draft-IERC6093.sol";
+
+/**
+ * @dev Library that provide common ERC-721 utility functions.
+ *
+ * See https://eips.ethereum.org/EIPS/eip-721[ERC-721].
+ *
+ * _Available since v5.1._
+ */
+library ERC721Utils {
+    /**
+     * @dev Performs an acceptance check for the provided `operator` by calling {IERC721-onERC721Received}
+     * on the `to` address. The `operator` is generally the address that initiated the token transfer (i.e. `msg.sender`).
+     *
+     * The acceptance call is not executed and treated as a no-op if the target address doesn't contain code (i.e. an EOA).
+     * Otherwise, the recipient must implement {IERC721Receiver-onERC721Received} and return the acceptance magic value to accept
+     * the transfer.
+     */
+    function checkOnERC721Received(
+        address operator,
+        address from,
+        address to,
+        uint256 tokenId,
+        bytes memory data
+    ) internal {
+        if (to.code.length > 0) {
+            try IERC721Receiver(to).onERC721Received(operator, from, tokenId, data) returns (bytes4 retval) {
+                if (retval != IERC721Receiver.onERC721Received.selector) {
+                    // Token rejected
+                    revert IERC721Errors.ERC721InvalidReceiver(to);
+                }
+            } catch (bytes memory reason) {
+                if (reason.length == 0) {
+                    // non-IERC721Receiver implementer
+                    revert IERC721Errors.ERC721InvalidReceiver(to);
+                } else {
+                    assembly ("memory-safe") {
+                        revert(add(32, reason), mload(reason))
+                    }
+                }
+            }
+        }
+    }
+}
