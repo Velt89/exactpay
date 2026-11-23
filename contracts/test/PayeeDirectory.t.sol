@@ -1,1 +1,56 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgXjAuOC4yNDsKCmltcG9ydCB7VGVzdH0gZnJvbSAiZm9yZ2Utc3RkL1Rlc3Quc29sIjsKaW1wb3J0IHtQYXllZURpcmVjdG9yeX0gZnJvbSAiLi4vc3JjL1BheWVlRGlyZWN0b3J5LnNvbCI7Cgpjb250cmFjdCBQYXllZURpcmVjdG9yeVRlc3QgaXMgVGVzdCB7CiAgICBQYXllZURpcmVjdG9yeSBpbnRlcm5hbCBkaXJlY3Rvcnk7CiAgICBhZGRyZXNzIGludGVybmFsIGJha2VyeSA9IG1ha2VBZGRyKCJiYWtlcnkiKTsKICAgIGFkZHJlc3MgaW50ZXJuYWwgb3RoZXIgPSBtYWtlQWRkcigib3RoZXIiKTsKCiAgICBmdW5jdGlvbiBzZXRVcCgpIHB1YmxpYyB7CiAgICAgICAgZGlyZWN0b3J5ID0gbmV3IFBheWVlRGlyZWN0b3J5KCk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9SZWdpc3RlckFuZExvb2tVcEJvdGhXYXlzKCkgcHVibGljIHsKICAgICAgICB2bS5wcmFuayhiYWtlcnkpOwogICAgICAgIGRpcmVjdG9yeS5yZWdpc3RlcigiYmFpd29yIGJha2VyeSIpOwogICAgICAgIGFzc2VydEVxKGRpcmVjdG9yeS5uYW1lT2YoYmFrZXJ5KSwgImJhaXdvciBiYWtlcnkiKTsKICAgICAgICBhc3NlcnRFcShkaXJlY3RvcnkuYWRkcmVzc09mKCJiYWl3b3IgYmFrZXJ5IiksIGJha2VyeSk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9OYW1lQ2Fubm90QmVUYWtlblR3aWNlKCkgcHVibGljIHsKICAgICAgICB2bS5wcmFuayhiYWtlcnkpOwogICAgICAgIGRpcmVjdG9yeS5yZWdpc3RlcigiYmFpd29yIGJha2VyeSIpOwogICAgICAgIHZtLnByYW5rKG90aGVyKTsKICAgICAgICB2bS5leHBlY3RSZXZlcnQoYWJpLmVuY29kZVdpdGhTZWxlY3RvcihQYXllZURpcmVjdG9yeS5OYW1lVGFrZW4uc2VsZWN0b3IsICJiYWl3b3IgYmFrZXJ5IikpOwogICAgICAgIGRpcmVjdG9yeS5yZWdpc3RlcigiYmFpd29yIGJha2VyeSIpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfT25lTmFtZVBlckFkZHJlc3MoKSBwdWJsaWMgewogICAgICAgIHZtLnByYW5rKGJha2VyeSk7CiAgICAgICAgZGlyZWN0b3J5LnJlZ2lzdGVyKCJiYWl3b3IgYmFrZXJ5Iik7CiAgICAgICAgdm0ucHJhbmsoYmFrZXJ5KTsKICAgICAgICB2bS5leHBlY3RSZXZlcnQoYWJpLmVuY29kZVdpdGhTZWxlY3RvcihQYXllZURpcmVjdG9yeS5BbHJlYWR5UmVnaXN0ZXJlZC5zZWxlY3RvciwgYmFrZXJ5KSk7CiAgICAgICAgZGlyZWN0b3J5LnJlZ2lzdGVyKCJiYWl3b3IgY2FmZSIpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfUmVsZWFzZUZyZWVzVGhlTmFtZSgpIHB1YmxpYyB7CiAgICAgICAgdm0ucHJhbmsoYmFrZXJ5KTsKICAgICAgICBkaXJlY3RvcnkucmVnaXN0ZXIoImJhaXdvciBiYWtlcnkiKTsKICAgICAgICB2bS5wcmFuayhiYWtlcnkpOwogICAgICAgIGRpcmVjdG9yeS5yZWxlYXNlKCk7CiAgICAgICAgYXNzZXJ0RXEoZGlyZWN0b3J5Lm5hbWVPZihiYWtlcnkpLCAiIik7CiAgICAgICAgYXNzZXJ0RXEoZGlyZWN0b3J5LmFkZHJlc3NPZigiYmFpd29yIGJha2VyeSIpLCBhZGRyZXNzKDApKTsKICAgICAgICB2bS5wcmFuayhvdGhlcik7CiAgICAgICAgZGlyZWN0b3J5LnJlZ2lzdGVyKCJiYWl3b3IgYmFrZXJ5Iik7CiAgICAgICAgYXNzZXJ0RXEoZGlyZWN0b3J5LmFkZHJlc3NPZigiYmFpd29yIGJha2VyeSIpLCBvdGhlcik7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9FbXB0eU5hbWVSZXZlcnRzKCkgcHVibGljIHsKICAgICAgICB2bS5wcmFuayhiYWtlcnkpOwogICAgICAgIHZtLmV4cGVjdFJldmVydChQYXllZURpcmVjdG9yeS5FbXB0eU5hbWUuc2VsZWN0b3IpOwogICAgICAgIGRpcmVjdG9yeS5yZWdpc3RlcigiIik7CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.24;
+
+import {Test} from "forge-std/Test.sol";
+import {PayeeDirectory} from "../src/PayeeDirectory.sol";
+
+contract PayeeDirectoryTest is Test {
+    PayeeDirectory internal directory;
+    address internal bakery = makeAddr("bakery");
+    address internal other = makeAddr("other");
+
+    function setUp() public {
+        directory = new PayeeDirectory();
+    }
+
+    function test_RegisterAndLookUpBothWays() public {
+        vm.prank(bakery);
+        directory.register("baiwor bakery");
+        assertEq(directory.nameOf(bakery), "baiwor bakery");
+        assertEq(directory.addressOf("baiwor bakery"), bakery);
+    }
+
+    function test_NameCannotBeTakenTwice() public {
+        vm.prank(bakery);
+        directory.register("baiwor bakery");
+        vm.prank(other);
+        vm.expectRevert(abi.encodeWithSelector(PayeeDirectory.NameTaken.selector, "baiwor bakery"));
+        directory.register("baiwor bakery");
+    }
+
+    function test_OneNamePerAddress() public {
+        vm.prank(bakery);
+        directory.register("baiwor bakery");
+        vm.prank(bakery);
+        vm.expectRevert(abi.encodeWithSelector(PayeeDirectory.AlreadyRegistered.selector, bakery));
+        directory.register("baiwor cafe");
+    }
+
+    function test_ReleaseFreesTheName() public {
+        vm.prank(bakery);
+        directory.register("baiwor bakery");
+        vm.prank(bakery);
+        directory.release();
+        assertEq(directory.nameOf(bakery), "");
+        assertEq(directory.addressOf("baiwor bakery"), address(0));
+        vm.prank(other);
+        directory.register("baiwor bakery");
+        assertEq(directory.addressOf("baiwor bakery"), other);
+    }
+
+    function test_EmptyNameReverts() public {
+        vm.prank(bakery);
+        vm.expectRevert(PayeeDirectory.EmptyName.selector);
+        directory.register("");
+    }
+}
