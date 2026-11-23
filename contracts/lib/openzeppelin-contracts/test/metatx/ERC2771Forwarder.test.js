@@ -1,1 +1,461 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKY29uc3QgeyBnZXREb21haW4sIEZvcndhcmRSZXF1ZXN0IH0gPSByZXF1aXJlKCcuLi9oZWxwZXJzL2VpcDcxMicpOwpjb25zdCB7IHN1bSB9ID0gcmVxdWlyZSgnLi4vaGVscGVycy9tYXRoJyk7CmNvbnN0IHRpbWUgPSByZXF1aXJlKCcuLi9oZWxwZXJzL3RpbWUnKTsKCmFzeW5jIGZ1bmN0aW9uIGZpeHR1cmUoKSB7CiAgY29uc3QgW3NlbmRlciwgcmVmdW5kUmVjZWl2ZXIsIGFub3RoZXIsIC4uLmFjY291bnRzXSA9IGF3YWl0IGV0aGVycy5nZXRTaWduZXJzKCk7CgogIGNvbnN0IGZvcndhcmRlciA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnRVJDMjc3MUZvcndhcmRlcicsIFsnRVJDMjc3MUZvcndhcmRlciddKTsKICBjb25zdCByZWNlaXZlciA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnQ2FsbFJlY2VpdmVyTW9ja1RydXN0aW5nRm9yd2FyZGVyJywgW2ZvcndhcmRlcl0pOwogIGNvbnN0IGRvbWFpbiA9IGF3YWl0IGdldERvbWFpbihmb3J3YXJkZXIpOwogIGNvbnN0IHR5cGVzID0geyBGb3J3YXJkUmVxdWVzdCB9OwoKICBjb25zdCBmb3JnZVJlcXVlc3QgPSBhc3luYyAob3ZlcnJpZGUgPSB7fSwgc2lnbmVyID0gc2VuZGVyKSA9PiB7CiAgICBjb25zdCByZXEgPSB7CiAgICAgIGZyb206IGF3YWl0IHNpZ25lci5nZXRBZGRyZXNzKCksCiAgICAgIHRvOiBhd2FpdCByZWNlaXZlci5nZXRBZGRyZXNzKCksCiAgICAgIHZhbHVlOiAwbiwKICAgICAgZGF0YTogcmVjZWl2ZXIuaW50ZXJmYWNlLmVuY29kZUZ1bmN0aW9uRGF0YSgnbW9ja0Z1bmN0aW9uJyksCiAgICAgIGdhczogMTAwMDAwbiwKICAgICAgZGVhZGxpbmU6IChhd2FpdCB0aW1lLmNsb2NrLnRpbWVzdGFtcCgpKSArIDYwbiwKICAgICAgbm9uY2U6IGF3YWl0IGZvcndhcmRlci5ub25jZXMoc2VuZGVyKSwKICAgICAgLi4ub3ZlcnJpZGUsCiAgICB9OwogICAgcmVxLnNpZ25hdHVyZSA9IGF3YWl0IHNpZ25lci5zaWduVHlwZWREYXRhKGRvbWFpbiwgdHlwZXMsIHJlcSk7CiAgICByZXR1cm4gcmVxOwogIH07CgogIGNvbnN0IGVzdGltYXRlUmVxdWVzdCA9IHJlcXVlc3QgPT4KICAgIGV0aGVycy5wcm92aWRlci5lc3RpbWF0ZUdhcyh7CiAgICAgIGZyb206IGZvcndhcmRlciwKICAgICAgdG86IHJlcXVlc3QudG8sCiAgICAgIGRhdGE6IGV0aGVycy5zb2xpZGl0eVBhY2tlZChbJ2J5dGVzJywgJ2FkZHJlc3MnXSwgW3JlcXVlc3QuZGF0YSwgcmVxdWVzdC5mcm9tXSksCiAgICAgIHZhbHVlOiByZXF1ZXN0LnZhbHVlLAogICAgICBnYXNMaW1pdDogcmVxdWVzdC5nYXMsCiAgICB9KTsKCiAgcmV0dXJuIHsKICAgIHNlbmRlciwKICAgIHJlZnVuZFJlY2VpdmVyLAogICAgYW5vdGhlciwKICAgIGFjY291bnRzLAogICAgZm9yd2FyZGVyLAogICAgcmVjZWl2ZXIsCiAgICBmb3JnZVJlcXVlc3QsCiAgICBlc3RpbWF0ZVJlcXVlc3QsCiAgICBkb21haW4sCiAgICB0eXBlcywKICB9Owp9CgovLyB2YWx1ZXMgb3IgZnVuY3Rpb24gdG8gdGFtcGVyIHdpdGggYSBzaWduZWQgcmVxdWVzdC4KY29uc3QgdGFtcGVyZWRWYWx1ZXMgPSB7CiAgZnJvbTogZXRoZXJzLldhbGxldC5jcmVhdGVSYW5kb20oKS5hZGRyZXNzLAogIHRvOiBldGhlcnMuV2FsbGV0LmNyZWF0ZVJhbmRvbSgpLmFkZHJlc3MsCiAgdmFsdWU6IGV0aGVycy5wYXJzZUV0aGVyKCcwLjUnKSwKICBkYXRhOiAnMHgxNzQyJywKICBzaWduYXR1cmU6IHMgPT4gewogICAgY29uc3QgdCA9IGV0aGVycy50b0JlQXJyYXkocyk7CiAgICB0WzQyXSBePSAweGZmOwogICAgcmV0dXJuIGV0aGVycy5oZXhsaWZ5KHQpOwogIH0sCn07CgpkZXNjcmliZSgnRVJDMjc3MUZvcndhcmRlcicsIGZ1bmN0aW9uICgpIHsKICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgIE9iamVjdC5hc3NpZ24odGhpcywgYXdhaXQgbG9hZEZpeHR1cmUoZml4dHVyZSkpOwogIH0pOwoKICBkZXNjcmliZSgndmVyaWZ5JywgZnVuY3Rpb24gKCkgewogICAgZGVzY3JpYmUoJ3dpdGggdmFsaWQgc2lnbmF0dXJlJywgZnVuY3Rpb24gKCkgewogICAgICBpdCgncmV0dXJucyB0cnVlIHdpdGhvdXQgYWx0ZXJpbmcgdGhlIG5vbmNlJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGNvbnN0IHJlcXVlc3QgPSBhd2FpdCB0aGlzLmZvcmdlUmVxdWVzdCgpOwogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLmZvcndhcmRlci5ub25jZXMocmVxdWVzdC5mcm9tKSkudG8uZXF1YWwocmVxdWVzdC5ub25jZSk7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMuZm9yd2FyZGVyLnZlcmlmeShyZXF1ZXN0KSkudG8uYmUudHJ1ZTsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5mb3J3YXJkZXIubm9uY2VzKHJlcXVlc3QuZnJvbSkpLnRvLmVxdWFsKHJlcXVlc3Qubm9uY2UpOwogICAgICB9KTsKICAgIH0pOwoKICAgIGRlc2NyaWJlKCd3aXRoIHRhbXBlcmVkIHZhbHVlcycsIGZ1bmN0aW9uICgpIHsKICAgICAgZm9yIChjb25zdCBba2V5LCB2YWx1ZV0gb2YgT2JqZWN0LmVudHJpZXModGFtcGVyZWRWYWx1ZXMpKSB7CiAgICAgICAgaXQoYHJldHVybnMgZmFsc2Ugd2l0aCB0YW1wZXJlZCAke2tleX1gLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICBjb25zdCByZXF1ZXN0ID0gYXdhaXQgdGhpcy5mb3JnZVJlcXVlc3QoKTsKICAgICAgICAgIHJlcXVlc3Rba2V5XSA9IHR5cGVvZiB2YWx1ZSA9PSAnZnVuY3Rpb24nID8gdmFsdWUocmVxdWVzdFtrZXldKSA6IHZhbHVlOwoKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLmZvcndhcmRlci52ZXJpZnkocmVxdWVzdCkpLnRvLmJlLmZhbHNlOwogICAgICAgIH0pOwogICAgICB9CgogICAgICBpdCgncmV0dXJucyBmYWxzZSB3aXRoIHZhbGlkIHNpZ25hdHVyZSBmb3Igbm9uLWN1cnJlbnQgbm9uY2UnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgY29uc3QgcmVxdWVzdCA9IGF3YWl0IHRoaXMuZm9yZ2VSZXF1ZXN0KHsgbm9uY2U6IDEzMzduIH0pOwogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLmZvcndhcmRlci52ZXJpZnkocmVxdWVzdCkpLnRvLmJlLmZhbHNlOwogICAgICB9KTsKCiAgICAgIGl0KCdyZXR1cm5zIGZhbHNlIHdpdGggdmFsaWQgc2lnbmF0dXJlIGZvciBleHBpcmVkIGRlYWRsaW5lJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGNvbnN0IHJlcXVlc3QgPSBhd2FpdCB0aGlzLmZvcmdlUmVxdWVzdCh7IGRlYWRsaW5lOiAoYXdhaXQgdGltZS5jbG9jay50aW1lc3RhbXAoKSkgLSAxbiB9KTsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5mb3J3YXJkZXIudmVyaWZ5KHJlcXVlc3QpKS50by5iZS5mYWxzZTsKICAgICAgfSk7CiAgICB9KTsKICB9KTsKCiAgZGVzY3JpYmUoJ2V4ZWN1dGUnLCBmdW5jdGlvbiAoKSB7CiAgICBkZXNjcmliZSgnd2l0aCB2YWxpZCByZXF1ZXN0cycsIGZ1bmN0aW9uICgpIHsKICAgICAgaXQoJ2VtaXRzIGFuIGV2ZW50IGFuZCBjb25zdW1lcyBub25jZSBmb3IgYSBzdWNjZXNzZnVsIHJlcXVlc3QnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgY29uc3QgcmVxdWVzdCA9IGF3YWl0IHRoaXMuZm9yZ2VSZXF1ZXN0KCk7CgogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLmZvcndhcmRlci5ub25jZXMocmVxdWVzdC5mcm9tKSkudG8uZXF1YWwocmVxdWVzdC5ub25jZSk7CgogICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLmZvcndhcmRlci5leGVjdXRlKHJlcXVlc3QpKQogICAgICAgICAgLnRvLmVtaXQodGhpcy5yZWNlaXZlciwgJ01vY2tGdW5jdGlvbkNhbGxlZCcpCiAgICAgICAgICAudG8uZW1pdCh0aGlzLmZvcndhcmRlciwgJ0V4ZWN1dGVkRm9yd2FyZFJlcXVlc3QnKQogICAgICAgICAgLndpdGhBcmdzKHJlcXVlc3QuZnJvbSwgcmVxdWVzdC5ub25jZSwgdHJ1ZSk7CgogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLmZvcndhcmRlci5ub25jZXMocmVxdWVzdC5mcm9tKSkudG8uZXF1YWwocmVxdWVzdC5ub25jZSArIDFuKTsKICAgICAgfSk7CgogICAgICBpdCgncmV2ZXJ0cyB3aXRoIGFuIHVuc3VjY2Vzc2Z1bCByZXF1ZXN0JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGNvbnN0IHJlcXVlc3QgPSBhd2FpdCB0aGlzLmZvcmdlUmVxdWVzdCh7CiAgICAgICAgICBkYXRhOiB0aGlzLnJlY2VpdmVyLmludGVyZmFjZS5lbmNvZGVGdW5jdGlvbkRhdGEoJ21vY2tGdW5jdGlvblJldmVydHNOb1JlYXNvbicpLAogICAgICAgIH0pOwoKICAgICAgICBhd2FpdCBleHBlY3QodGhpcy5mb3J3YXJkZXIuZXhlY3V0ZShyZXF1ZXN0KSkudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy5mb3J3YXJkZXIsICdGYWlsZWRDYWxsJyk7CiAgICAgIH0pOwogICAgfSk7CgogICAgZGVzY3JpYmUoJ3dpdGggdGFtcGVyZWQgcmVxdWVzdCcsIGZ1bmN0aW9uICgpIHsKICAgICAgZm9yIChjb25zdCBba2V5LCB2YWx1ZV0gb2YgT2JqZWN0LmVudHJpZXModGFtcGVyZWRWYWx1ZXMpKSB7CiAgICAgICAgaXQoYHJldmVydHMgd2l0aCB0YW1wZXJlZCAke2tleX1gLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICBjb25zdCByZXF1ZXN0ID0gYXdhaXQgdGhpcy5mb3JnZVJlcXVlc3QoKTsKICAgICAgICAgIHJlcXVlc3Rba2V5XSA9IHR5cGVvZiB2YWx1ZSA9PSAnZnVuY3Rpb24nID8gdmFsdWUocmVxdWVzdFtrZXldKSA6IHZhbHVlOwoKICAgICAgICAgIGNvbnN0IHByb21pc2UgPSB0aGlzLmZvcndhcmRlci5leGVjdXRlKHJlcXVlc3QsIHsgdmFsdWU6IGtleSA9PSAndmFsdWUnID8gdmFsdWUgOiAwIH0pOwogICAgICAgICAgaWYgKGtleSAhPSAndG8nKSB7CiAgICAgICAgICAgIGF3YWl0IGV4cGVjdChwcm9taXNlKQogICAgICAgICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLmZvcndhcmRlciwgJ0VSQzI3NzFGb3J3YXJkZXJJbnZhbGlkU2lnbmVyJykKICAgICAgICAgICAgICAud2l0aEFyZ3MoZXRoZXJzLnZlcmlmeVR5cGVkRGF0YSh0aGlzLmRvbWFpbiwgdGhpcy50eXBlcywgcmVxdWVzdCwgcmVxdWVzdC5zaWduYXR1cmUpLCByZXF1ZXN0LmZyb20pOwogICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgYXdhaXQgZXhwZWN0KHByb21pc2UpCiAgICAgICAgICAgICAgLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMuZm9yd2FyZGVyLCAnRVJDMjc3MVVudHJ1c3RmdWxUYXJnZXQnKQogICAgICAgICAgICAgIC53aXRoQXJncyhyZXF1ZXN0LnRvLCB0aGlzLmZvcndhcmRlcik7CiAgICAgICAgICB9CiAgICAgICAgfSk7CiAgICAgIH0KCiAgICAgIGl0KCdyZXZlcnRzIHdpdGggdmFsaWQgc2lnbmF0dXJlIGZvciBub24tY3VycmVudCBub25jZScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBjb25zdCByZXF1ZXN0ID0gYXdhaXQgdGhpcy5mb3JnZVJlcXVlc3QoKTsKCiAgICAgICAgLy8gY29uc3VtZSBub25jZQogICAgICAgIGF3YWl0IHRoaXMuZm9yd2FyZGVyLmV4ZWN1dGUocmVxdWVzdCk7CgogICAgICAgIC8vIG5vbmNlIGhhcyBjaGFuZ2VkCiAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMuZm9yd2FyZGVyLmV4ZWN1dGUocmVxdWVzdCkpCiAgICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy5mb3J3YXJkZXIsICdFUkMyNzcxRm9yd2FyZGVySW52YWxpZFNpZ25lcicpCiAgICAgICAgICAud2l0aEFyZ3MoCiAgICAgICAgICAgIGV0aGVycy52ZXJpZnlUeXBlZERhdGEoCiAgICAgICAgICAgICAgdGhpcy5kb21haW4sCiAgICAgICAgICAgICAgdGhpcy50eXBlcywKICAgICAgICAgICAgICB7IC4uLnJlcXVlc3QsIG5vbmNlOiByZXF1ZXN0Lm5vbmNlICsgMW4gfSwKICAgICAgICAgICAgICByZXF1ZXN0LnNpZ25hdHVyZSwKICAgICAgICAgICAgKSwKICAgICAgICAgICAgcmVxdWVzdC5mcm9tLAogICAgICAgICAgKTsKICAgICAgfSk7CgogICAgICBpdCgncmV2ZXJ0cyB3aXRoIHZhbGlkIHNpZ25hdHVyZSBmb3IgZXhwaXJlZCBkZWFkbGluZScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBjb25zdCByZXF1ZXN0ID0gYXdhaXQgdGhpcy5mb3JnZVJlcXVlc3QoeyBkZWFkbGluZTogKGF3YWl0IHRpbWUuY2xvY2sudGltZXN0YW1wKCkpIC0gMW4gfSk7CgogICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLmZvcndhcmRlci5leGVjdXRlKHJlcXVlc3QpKQogICAgICAgICAgLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMuZm9yd2FyZGVyLCAnRVJDMjc3MUZvcndhcmRlckV4cGlyZWRSZXF1ZXN0JykKICAgICAgICAgIC53aXRoQXJncyhyZXF1ZXN0LmRlYWRsaW5lKTsKICAgICAgfSk7CgogICAgICBpdCgncmV2ZXJ0cyB3aXRoIHZhbGlkIHNpZ25hdHVyZSBidXQgbWlzbWF0Y2hlZCB2YWx1ZScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBjb25zdCByZXF1ZXN0ID0gYXdhaXQgdGhpcy5mb3JnZVJlcXVlc3QoeyB2YWx1ZTogMTAwbiB9KTsKCiAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMuZm9yd2FyZGVyLmV4ZWN1dGUocmVxdWVzdCkpCiAgICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy5mb3J3YXJkZXIsICdFUkMyNzcxRm9yd2FyZGVyTWlzbWF0Y2hlZFZhbHVlJykKICAgICAgICAgIC53aXRoQXJncyhyZXF1ZXN0LnZhbHVlLCAwbik7CiAgICAgIH0pOwogICAgfSk7CgogICAgaXQoJ2J1YmJsZXMgb3V0IG9mIGdhcycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgY29uc3QgcmVxdWVzdCA9IGF3YWl0IHRoaXMuZm9yZ2VSZXF1ZXN0KHsKICAgICAgICBkYXRhOiB0aGlzLnJlY2VpdmVyLmludGVyZmFjZS5lbmNvZGVGdW5jdGlvbkRhdGEoJ21vY2tGdW5jdGlvbk91dE9mR2FzJyksCiAgICAgICAgZ2FzOiAxXzAwMF8wMDBuLAogICAgICB9KTsKCiAgICAgIGNvbnN0IGdhc0xpbWl0ID0gMTAwXzAwMG47CiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLmZvcndhcmRlci5leGVjdXRlKHJlcXVlc3QsIHsgZ2FzTGltaXQgfSkpLnRvLmJlLnJldmVydGVkV2l0aG91dFJlYXNvbigpOwoKICAgICAgY29uc3QgeyBnYXNVc2VkIH0gPSBhd2FpdCBldGhlcnMucHJvdmlkZXIKICAgICAgICAuZ2V0QmxvY2soJ2xhdGVzdCcpCiAgICAgICAgLnRoZW4oYmxvY2sgPT4gYmxvY2suZ2V0VHJhbnNhY3Rpb24oMCkpCiAgICAgICAgLnRoZW4odHggPT4gZXRoZXJzLnByb3ZpZGVyLmdldFRyYW5zYWN0aW9uUmVjZWlwdCh0eC5oYXNoKSk7CgogICAgICBleHBlY3QoZ2FzVXNlZCkudG8uZXF1YWwoZ2FzTGltaXQpOwogICAgfSk7CgogICAgaXQoJ2J1YmJsZXMgb3V0IG9mIGdhcyBmb3JjZWQgYnkgdGhlIHJlbGF5ZXInLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGNvbnN0IHJlcXVlc3QgPSBhd2FpdCB0aGlzLmZvcmdlUmVxdWVzdCgpOwoKICAgICAgLy8gSWYgdGhlcmUncyBhbiBpbmNlbnRpdmUgYmVoaW5kIGV4ZWN1dGluZyByZXF1ZXN0cywgYSBtYWxpY2lvdXMgcmVsYXllciBjb3VsZCBncmllZgogICAgICAvLyB0aGUgZm9yd2FyZGVyIGJ5IGV4ZWN1dGluZyByZXF1ZXN0cyBhbmQgcHJvdmlkaW5nIGEgdG9wLWxldmVsIGNhbGwgZ2FzIGxpbWl0IHRoYXQKICAgICAgLy8gaXMgdG9vIGxvdyB0byBzdWNjZXNzZnVsbHkgZmluaXNoIHRoZSByZXF1ZXN0IGFmdGVyIHRoZSA2My82NCBydWxlLgoKICAgICAgLy8gV2Ugc2V0IHRoZSBiYXNlbGluZSB0byB0aGUgZ2FzIGxpbWl0IGNvbnN1bWVkIGJ5IGEgc3VjY2Vzc2Z1bCByZXF1ZXN0IGlmIGl0IHdhcyBleGVjdXRlZAogICAgICAvLyBub3JtYWxseS4gTm90ZSB0aGlzIGluY2x1ZGVzIHRoZSAyMTAwMCBidWZmZXIgdGhhdCBhbHNvIHRoZSByZWxheWVyIHdpbGwgYmUgY2hhcmdlZCB0bwogICAgICAvLyBzdGFydCBhIHJlcXVlc3QgZXhlY3V0aW9uLgogICAgICBjb25zdCBlc3RpbWF0ZSA9IGF3YWl0IHRoaXMuZXN0aW1hdGVSZXF1ZXN0KHJlcXVlc3QpOwoKICAgICAgLy8gQmVjYXVzZSB0aGUgcmVsYXllciBjYWxsIGNvbnN1bWVzIGdhcyB1bnRpbCB0aGUgYENBTExgIG9wY29kZSwgdGhlIGdhcyBsZWZ0IGFmdGVyIGZhaWxpbmcKICAgICAgLy8gdGhlIHN1YmNhbGwgd29uJ3QgZW5vdWdoIHRvIGZpbmlzaCB0aGUgdG9wIGxldmVsIGNhbGwgKGFmdGVyIHRlc3RpbmcpLCBzbyB3ZSBhZGQgYQogICAgICAvLyBtb2RlcmF0ZWQgYnVmZmVyLgogICAgICBjb25zdCBnYXNMaW1pdCA9IGVzdGltYXRlICsgMl8wMDBuOwoKICAgICAgLy8gVGhlIHN1YmNhbGwgb3V0IG9mIGdhcyBzaG91bGQgYmUgY2F1Z2h0IGJ5IHRoZSBjb250cmFjdCBhbmQgdGhlbiBidWJibGVkIHVwIGNvbnN1bWluZwogICAgICAvLyB0aGUgYXZhaWxhYmxlIGdhcyB3aXRoIGFuIGBpbnZhbGlkYCBvcGNvZGUuCiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLmZvcndhcmRlci5leGVjdXRlKHJlcXVlc3QsIHsgZ2FzTGltaXQgfSkpLnRvLmJlLnJldmVydGVkV2l0aG91dFJlYXNvbigpOwoKICAgICAgY29uc3QgeyBnYXNVc2VkIH0gPSBhd2FpdCBldGhlcnMucHJvdmlkZXIKICAgICAgICAuZ2V0QmxvY2soJ2xhdGVzdCcpCiAgICAgICAgLnRoZW4oYmxvY2sgPT4gYmxvY2suZ2V0VHJhbnNhY3Rpb24oMCkpCiAgICAgICAgLnRoZW4odHggPT4gZXRoZXJzLnByb3ZpZGVyLmdldFRyYW5zYWN0aW9uUmVjZWlwdCh0eC5oYXNoKSk7CgogICAgICAvLyBXZSBhc3NlcnQgdGhhdCBpbmRlZWQgdGhlIGdhcyB3YXMgdG90YWxseSBjb25zdW1lZC4KICAgICAgZXhwZWN0KGdhc1VzZWQpLnRvLmVxdWFsKGdhc0xpbWl0KTsKICAgIH0pOwogIH0pOwoKICBkZXNjcmliZSgnZXhlY3V0ZUJhdGNoJywgZnVuY3Rpb24gKCkgewogICAgY29uc3QgcmVxdWVzdHNWYWx1ZSA9IHJlcXVlc3RzID0+IHN1bSguLi5yZXF1ZXN0cy5tYXAocmVxdWVzdCA9PiByZXF1ZXN0LnZhbHVlKSk7CiAgICBjb25zdCByZXF1ZXN0Q291bnQgPSAzOwogICAgY29uc3QgaWR4ID0gMTsgLy8gaW5kZXggdGhhdCB3aWxsIGJlIHRhbXBlcmVkIHdpdGgKCiAgICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgdGhpcy5mb3JnZVJlcXVlc3RzID0gb3ZlcnJpZGUgPT4KICAgICAgICBQcm9taXNlLmFsbCh0aGlzLmFjY291bnRzLnNsaWNlKDAsIHJlcXVlc3RDb3VudCkubWFwKHNpZ25lciA9PiB0aGlzLmZvcmdlUmVxdWVzdChvdmVycmlkZSwgc2lnbmVyKSkpOwogICAgICB0aGlzLnJlcXVlc3RzID0gYXdhaXQgdGhpcy5mb3JnZVJlcXVlc3RzKHsgdmFsdWU6IDEwbiB9KTsKICAgICAgdGhpcy52YWx1ZSA9IHJlcXVlc3RzVmFsdWUodGhpcy5yZXF1ZXN0cyk7CiAgICB9KTsKCiAgICBkZXNjcmliZSgnd2l0aCB2YWxpZCByZXF1ZXN0cycsIGZ1bmN0aW9uICgpIHsKICAgICAgaXQoJ3Nhbml0eScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBmb3IgKGNvbnN0IHJlcXVlc3Qgb2YgdGhpcy5yZXF1ZXN0cykgewogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMuZm9yd2FyZGVyLnZlcmlmeShyZXF1ZXN0KSkudG8uYmUudHJ1ZTsKICAgICAgICB9CiAgICAgIH0pOwoKICAgICAgaXQoJ2VtaXRzIGV2ZW50cycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBjb25zdCByZWNlaXB0ID0gdGhpcy5mb3J3YXJkZXIuZXhlY3V0ZUJhdGNoKHRoaXMucmVxdWVzdHMsIHRoaXMuYW5vdGhlciwgeyB2YWx1ZTogdGhpcy52YWx1ZSB9KTsKCiAgICAgICAgZm9yIChjb25zdCByZXF1ZXN0IG9mIHRoaXMucmVxdWVzdHMpIHsKICAgICAgICAgIGF3YWl0IGV4cGVjdChyZWNlaXB0KQogICAgICAgICAgICAudG8uZW1pdCh0aGlzLnJlY2VpdmVyLCAnTW9ja0Z1bmN0aW9uQ2FsbGVkJykKICAgICAgICAgICAgLnRvLmVtaXQodGhpcy5mb3J3YXJkZXIsICdFeGVjdXRlZEZvcndhcmRSZXF1ZXN0JykKICAgICAgICAgICAgLndpdGhBcmdzKHJlcXVlc3QuZnJvbSwgcmVxdWVzdC5ub25jZSwgdHJ1ZSk7CiAgICAgICAgfQogICAgICB9KTsKCiAgICAgIGl0KCdpbmNyZWFzZSBub25jZXMnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgYXdhaXQgdGhpcy5mb3J3YXJkZXIuZXhlY3V0ZUJhdGNoKHRoaXMucmVxdWVzdHMsIHRoaXMuYW5vdGhlciwgeyB2YWx1ZTogdGhpcy52YWx1ZSB9KTsKCiAgICAgICAgZm9yIChjb25zdCByZXF1ZXN0IG9mIHRoaXMucmVxdWVzdHMpIHsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLmZvcndhcmRlci5ub25jZXMocmVxdWVzdC5mcm9tKSkudG8uZXF1YWwocmVxdWVzdC5ub25jZSArIDFuKTsKICAgICAgICB9CiAgICAgIH0pOwogICAgfSk7CgogICAgZGVzY3JpYmUoJ3dpdGggdGFtcGVyZWQgcmVxdWVzdHMnLCBmdW5jdGlvbiAoKSB7CiAgICAgIGl0KCdyZXZlcnRzIHdpdGggbWlzbWF0Y2hlZCB2YWx1ZScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAvLyB0YW1wZXIgdmFsdWUgb2Ygb25lIG9mIHRoZSByZXF1ZXN0ICsgcmVzaWduCiAgICAgICAgdGhpcy5yZXF1ZXN0c1tpZHhdID0gYXdhaXQgdGhpcy5mb3JnZVJlcXVlc3QoeyB2YWx1ZTogMTAwbiB9LCB0aGlzLmFjY291bnRzWzFdKTsKCiAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMuZm9yd2FyZGVyLmV4ZWN1dGVCYXRjaCh0aGlzLnJlcXVlc3RzLCB0aGlzLmFub3RoZXIsIHsgdmFsdWU6IHRoaXMudmFsdWUgfSkpCiAgICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy5mb3J3YXJkZXIsICdFUkMyNzcxRm9yd2FyZGVyTWlzbWF0Y2hlZFZhbHVlJykKICAgICAgICAgIC53aXRoQXJncyhyZXF1ZXN0c1ZhbHVlKHRoaXMucmVxdWVzdHMpLCB0aGlzLnZhbHVlKTsKICAgICAgfSk7CgogICAgICBkZXNjcmliZSgnd2hlbiB0aGUgcmVmdW5kIHJlY2VpdmVyIGlzIHRoZSB6ZXJvIGFkZHJlc3MnLCBmdW5jdGlvbiAoKSB7CiAgICAgICAgYmVmb3JlRWFjaChmdW5jdGlvbiAoKSB7CiAgICAgICAgICB0aGlzLnJlZnVuZFJlY2VpdmVyID0gZXRoZXJzLlplcm9BZGRyZXNzOwogICAgICAgIH0pOwoKICAgICAgICBmb3IgKGNvbnN0IFtrZXksIHZhbHVlXSBvZiBPYmplY3QuZW50cmllcyh0YW1wZXJlZFZhbHVlcykpIHsKICAgICAgICAgIGl0KGByZXZlcnRzIHdpdGggYXQgbGVhc3Qgb25lIHRhbXBlcmVkIHJlcXVlc3QgJHtrZXl9YCwgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgICB0aGlzLnJlcXVlc3RzW2lkeF1ba2V5XSA9IHR5cGVvZiB2YWx1ZSA9PSAnZnVuY3Rpb24nID8gdmFsdWUodGhpcy5yZXF1ZXN0c1tpZHhdW2tleV0pIDogdmFsdWU7CgogICAgICAgICAgICBjb25zdCBwcm9taXNlID0gdGhpcy5mb3J3YXJkZXIuZXhlY3V0ZUJhdGNoKHRoaXMucmVxdWVzdHMsIHRoaXMucmVmdW5kUmVjZWl2ZXIsIHsgdmFsdWU6IHRoaXMudmFsdWUgfSk7CiAgICAgICAgICAgIGlmIChrZXkgIT0gJ3RvJykgewogICAgICAgICAgICAgIGF3YWl0IGV4cGVjdChwcm9taXNlKQogICAgICAgICAgICAgICAgLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMuZm9yd2FyZGVyLCAnRVJDMjc3MUZvcndhcmRlckludmFsaWRTaWduZXInKQogICAgICAgICAgICAgICAgLndpdGhBcmdzKAogICAgICAgICAgICAgICAgICBldGhlcnMudmVyaWZ5VHlwZWREYXRhKHRoaXMuZG9tYWluLCB0aGlzLnR5cGVzLCB0aGlzLnJlcXVlc3RzW2lkeF0sIHRoaXMucmVxdWVzdHNbaWR4XS5zaWduYXR1cmUpLAogICAgICAgICAgICAgICAgICB0aGlzLnJlcXVlc3RzW2lkeF0uZnJvbSwKICAgICAgICAgICAgICAgICk7CiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgYXdhaXQgZXhwZWN0KHByb21pc2UpCiAgICAgICAgICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy5mb3J3YXJkZXIsICdFUkMyNzcxVW50cnVzdGZ1bFRhcmdldCcpCiAgICAgICAgICAgICAgICAud2l0aEFyZ3ModGhpcy5yZXF1ZXN0c1tpZHhdLnRvLCB0aGlzLmZvcndhcmRlcik7CiAgICAgICAgICAgIH0KICAgICAgICAgIH0pOwogICAgICAgIH0KCiAgICAgICAgaXQoJ3JldmVydHMgd2l0aCBhdCBsZWFzdCBvbmUgdmFsaWQgc2lnbmF0dXJlIGZvciBub24tY3VycmVudCBub25jZScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIC8vIEV4ZWN1dGUgZmlyc3QgYSByZXF1ZXN0CiAgICAgICAgICBhd2FpdCB0aGlzLmZvcndhcmRlci5leGVjdXRlKHRoaXMucmVxdWVzdHNbaWR4XSwgeyB2YWx1ZTogdGhpcy5yZXF1ZXN0c1tpZHhdLnZhbHVlIH0pOwoKICAgICAgICAgIC8vIEFuZCB0aGVuIGZhaWwgZHVlIHRvIGFuIGFscmVhZHkgdXNlZCBub25jZQogICAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMuZm9yd2FyZGVyLmV4ZWN1dGVCYXRjaCh0aGlzLnJlcXVlc3RzLCB0aGlzLnJlZnVuZFJlY2VpdmVyLCB7IHZhbHVlOiB0aGlzLnZhbHVlIH0pKQogICAgICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy5mb3J3YXJkZXIsICdFUkMyNzcxRm9yd2FyZGVySW52YWxpZFNpZ25lcicpCiAgICAgICAgICAgIC53aXRoQXJncygKICAgICAgICAgICAgICBldGhlcnMudmVyaWZ5VHlwZWREYXRhKAogICAgICAgICAgICAgICAgdGhpcy5kb21haW4sCiAgICAgICAgICAgICAgICB0aGlzLnR5cGVzLAogICAgICAgICAgICAgICAgeyAuLi50aGlzLnJlcXVlc3RzW2lkeF0sIG5vbmNlOiB0aGlzLnJlcXVlc3RzW2lkeF0ubm9uY2UgKyAxbiB9LAogICAgICAgICAgICAgICAgdGhpcy5yZXF1ZXN0c1tpZHhdLnNpZ25hdHVyZSwKICAgICAgICAgICAgICApLAogICAgICAgICAgICAgIHRoaXMucmVxdWVzdHNbaWR4XS5mcm9tLAogICAgICAgICAgICApOwogICAgICAgIH0pOwoKICAgICAgICBpdCgncmV2ZXJ0cyB3aXRoIGF0IGxlYXN0IG9uZSB2YWxpZCBzaWduYXR1cmUgZm9yIGV4cGlyZWQgZGVhZGxpbmUnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICB0aGlzLnJlcXVlc3RzW2lkeF0gPSBhd2FpdCB0aGlzLmZvcmdlUmVxdWVzdCgKICAgICAgICAgICAgeyAuLi50aGlzLnJlcXVlc3RzW2lkeF0sIGRlYWRsaW5lOiAoYXdhaXQgdGltZS5jbG9jay50aW1lc3RhbXAoKSkgLSAxbiB9LAogICAgICAgICAgICB0aGlzLmFjY291bnRzWzFdLAogICAgICAgICAgKTsKCiAgICAgICAgICBhd2FpdCBleHBlY3QodGhpcy5mb3J3YXJkZXIuZXhlY3V0ZUJhdGNoKHRoaXMucmVxdWVzdHMsIHRoaXMucmVmdW5kUmVjZWl2ZXIsIHsgdmFsdWU6IHRoaXMuYW1vdW50IH0pKQogICAgICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy5mb3J3YXJkZXIsICdFUkMyNzcxRm9yd2FyZGVyRXhwaXJlZFJlcXVlc3QnKQogICAgICAgICAgICAud2l0aEFyZ3ModGhpcy5yZXF1ZXN0c1tpZHhdLmRlYWRsaW5lKTsKICAgICAgICB9KTsKICAgICAgfSk7CgogICAgICBkZXNjcmliZSgnd2hlbiB0aGUgcmVmdW5kIHJlY2VpdmVyIGlzIGEga25vd24gYWRkcmVzcycsIGZ1bmN0aW9uICgpIHsKICAgICAgICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIHRoaXMuaW5pdGlhbFJlZnVuZFJlY2VpdmVyQmFsYW5jZSA9IGF3YWl0IGV0aGVycy5wcm92aWRlci5nZXRCYWxhbmNlKHRoaXMucmVmdW5kUmVjZWl2ZXIpOwogICAgICAgICAgdGhpcy5pbml0aWFsVGFtcGVyZWRSZXF1ZXN0Tm9uY2UgPSBhd2FpdCB0aGlzLmZvcndhcmRlci5ub25jZXModGhpcy5yZXF1ZXN0c1tpZHhdLmZyb20pOwogICAgICAgIH0pOwoKICAgICAgICBmb3IgKGNvbnN0IFtrZXksIHZhbHVlXSBvZiBPYmplY3QuZW50cmllcyh0YW1wZXJlZFZhbHVlcykpIHsKICAgICAgICAgIGl0KGBpZ25vcmVzIGEgcmVxdWVzdCB3aXRoIHRhbXBlcmVkICR7a2V5fSBhbmQgcmVmdW5kcyBpdHMgdmFsdWVgLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICAgIHRoaXMucmVxdWVzdHNbaWR4XVtrZXldID0gdHlwZW9mIHZhbHVlID09ICdmdW5jdGlvbicgPyB2YWx1ZSh0aGlzLnJlcXVlc3RzW2lkeF1ba2V5XSkgOiB2YWx1ZTsKCiAgICAgICAgICAgIGNvbnN0IGV2ZW50cyA9IGF3YWl0IHRoaXMuZm9yd2FyZGVyCiAgICAgICAgICAgICAgLmV4ZWN1dGVCYXRjaCh0aGlzLnJlcXVlc3RzLCB0aGlzLnJlZnVuZFJlY2VpdmVyLCB7IHZhbHVlOiByZXF1ZXN0c1ZhbHVlKHRoaXMucmVxdWVzdHMpIH0pCiAgICAgICAgICAgICAgLnRoZW4odHggPT4gdHgud2FpdCgpKQogICAgICAgICAgICAgIC50aGVuKHJlY2VpcHQgPT4KICAgICAgICAgICAgICAgIHJlY2VpcHQubG9ncy5maWx0ZXIoCiAgICAgICAgICAgICAgICAgIGxvZyA9PiBsb2c/LmZyYWdtZW50Py50eXBlID09ICdldmVudCcgJiYgbG9nPy5mcmFnbWVudD8ubmFtZSA9PSAnRXhlY3V0ZWRGb3J3YXJkUmVxdWVzdCcsCiAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICk7CgogICAgICAgICAgICBleHBlY3QoZXZlbnRzKS50by5oYXZlLmxlbmd0aE9mKHRoaXMucmVxdWVzdHMubGVuZ3RoIC0gMSk7CiAgICAgICAgICB9KTsKICAgICAgICB9CgogICAgICAgIGl0KCdpZ25vcmVzIGEgcmVxdWVzdCB3aXRoIGEgdmFsaWQgc2lnbmF0dXJlIGZvciBub24tY3VycmVudCBub25jZScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIC8vIEV4ZWN1dGUgZmlyc3QgYSByZXF1ZXN0CiAgICAgICAgICBhd2FpdCB0aGlzLmZvcndhcmRlci5leGVjdXRlKHRoaXMucmVxdWVzdHNbaWR4XSwgeyB2YWx1ZTogdGhpcy5yZXF1ZXN0c1tpZHhdLnZhbHVlIH0pOwogICAgICAgICAgdGhpcy5pbml0aWFsVGFtcGVyZWRSZXF1ZXN0Tm9uY2UrKzsgLy8gU2hvdWxkIGJlIGFscmVhZHkgaW5jcmVtZW50ZWQgYnkgdGhlIGluZGl2aWR1YWwgYGV4ZWN1dGVgCgogICAgICAgICAgLy8gQW5kIHRoZW4gaWdub3JlIHRoZSBzYW1lIHJlcXVlc3QgaW4gYSBiYXRjaCBkdWUgdG8gYW4gYWxyZWFkeSB1c2VkIG5vbmNlCiAgICAgICAgICBjb25zdCBldmVudHMgPSBhd2FpdCB0aGlzLmZvcndhcmRlcgogICAgICAgICAgICAuZXhlY3V0ZUJhdGNoKHRoaXMucmVxdWVzdHMsIHRoaXMucmVmdW5kUmVjZWl2ZXIsIHsgdmFsdWU6IHRoaXMudmFsdWUgfSkKICAgICAgICAgICAgLnRoZW4odHggPT4gdHgud2FpdCgpKQogICAgICAgICAgICAudGhlbihyZWNlaXB0ID0+CiAgICAgICAgICAgICAgcmVjZWlwdC5sb2dzLmZpbHRlcigKICAgICAgICAgICAgICAgIGxvZyA9PiBsb2c/LmZyYWdtZW50Py50eXBlID09ICdldmVudCcgJiYgbG9nPy5mcmFnbWVudD8ubmFtZSA9PSAnRXhlY3V0ZWRGb3J3YXJkUmVxdWVzdCcsCiAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgKTsKCiAgICAgICAgICBleHBlY3QoZXZlbnRzKS50by5oYXZlLmxlbmd0aE9mKHRoaXMucmVxdWVzdHMubGVuZ3RoIC0gMSk7CiAgICAgICAgfSk7CgogICAgICAgIGl0KCdpZ25vcmVzIGEgcmVxdWVzdCB3aXRoIGEgdmFsaWQgc2lnbmF0dXJlIGZvciBleHBpcmVkIGRlYWRsaW5lJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgdGhpcy5yZXF1ZXN0c1tpZHhdID0gYXdhaXQgdGhpcy5mb3JnZVJlcXVlc3QoCiAgICAgICAgICAgIHsgLi4udGhpcy5yZXF1ZXN0c1tpZHhdLCBkZWFkbGluZTogKGF3YWl0IHRpbWUuY2xvY2sudGltZXN0YW1wKCkpIC0gMW4gfSwKICAgICAgICAgICAgdGhpcy5hY2NvdW50c1sxXSwKICAgICAgICAgICk7CgogICAgICAgICAgY29uc3QgZXZlbnRzID0gYXdhaXQgdGhpcy5mb3J3YXJkZXIKICAgICAgICAgICAgLmV4ZWN1dGVCYXRjaCh0aGlzLnJlcXVlc3RzLCB0aGlzLnJlZnVuZFJlY2VpdmVyLCB7IHZhbHVlOiB0aGlzLnZhbHVlIH0pCiAgICAgICAgICAgIC50aGVuKHR4ID0+IHR4LndhaXQoKSkKICAgICAgICAgICAgLnRoZW4ocmVjZWlwdCA9PgogICAgICAgICAgICAgIHJlY2VpcHQubG9ncy5maWx0ZXIoCiAgICAgICAgICAgICAgICBsb2cgPT4gbG9nPy5mcmFnbWVudD8udHlwZSA9PSAnZXZlbnQnICYmIGxvZz8uZnJhZ21lbnQ/Lm5hbWUgPT0gJ0V4ZWN1dGVkRm9yd2FyZFJlcXVlc3QnLAogICAgICAgICAgICAgICksCiAgICAgICAgICAgICk7CgogICAgICAgICAgZXhwZWN0KGV2ZW50cykudG8uaGF2ZS5sZW5ndGhPZih0aGlzLnJlcXVlc3RzLmxlbmd0aCAtIDEpOwogICAgICAgIH0pOwoKICAgICAgICBhZnRlckVhY2goYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgLy8gVGhlIGludmFsaWQgcmVxdWVzdCB2YWx1ZSB3YXMgcmVmdW5kZWQKICAgICAgICAgIGV4cGVjdChhd2FpdCBldGhlcnMucHJvdmlkZXIuZ2V0QmFsYW5jZSh0aGlzLnJlZnVuZFJlY2VpdmVyKSkudG8uZXF1YWwoCiAgICAgICAgICAgIHRoaXMuaW5pdGlhbFJlZnVuZFJlY2VpdmVyQmFsYW5jZSArIHRoaXMucmVxdWVzdHNbaWR4XS52YWx1ZSwKICAgICAgICAgICk7CgogICAgICAgICAgLy8gVGhlIGludmFsaWQgcmVxdWVzdCBmcm9tJ3Mgbm9uY2Ugd2FzIG5vdCBpbmNyZW1lbnRlZAogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMuZm9yd2FyZGVyLm5vbmNlcyh0aGlzLnJlcXVlc3RzW2lkeF0uZnJvbSkpLnRvLmVxdWFsKHRoaXMuaW5pdGlhbFRhbXBlcmVkUmVxdWVzdE5vbmNlKTsKICAgICAgICB9KTsKICAgICAgfSk7CgogICAgICBpdCgnYnViYmxlcyBvdXQgb2YgZ2FzJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIHRoaXMucmVxdWVzdHNbaWR4XSA9IGF3YWl0IHRoaXMuZm9yZ2VSZXF1ZXN0KHsKICAgICAgICAgIGRhdGE6IHRoaXMucmVjZWl2ZXIuaW50ZXJmYWNlLmVuY29kZUZ1bmN0aW9uRGF0YSgnbW9ja0Z1bmN0aW9uT3V0T2ZHYXMnKSwKICAgICAgICAgIGdhczogMV8wMDBfMDAwbiwKICAgICAgICB9KTsKCiAgICAgICAgY29uc3QgZ2FzTGltaXQgPSAzMDBfMDAwbjsKICAgICAgICBhd2FpdCBleHBlY3QoCiAgICAgICAgICB0aGlzLmZvcndhcmRlci5leGVjdXRlQmF0Y2godGhpcy5yZXF1ZXN0cywgZXRoZXJzLlplcm9BZGRyZXNzLCB7CiAgICAgICAgICAgIGdhc0xpbWl0LAogICAgICAgICAgICB2YWx1ZTogcmVxdWVzdHNWYWx1ZSh0aGlzLnJlcXVlc3RzKSwKICAgICAgICAgIH0pLAogICAgICAgICkudG8uYmUucmV2ZXJ0ZWRXaXRob3V0UmVhc29uKCk7CgogICAgICAgIGNvbnN0IHsgZ2FzVXNlZCB9ID0gYXdhaXQgZXRoZXJzLnByb3ZpZGVyCiAgICAgICAgICAuZ2V0QmxvY2soJ2xhdGVzdCcpCiAgICAgICAgICAudGhlbihibG9jayA9PiBibG9jay5nZXRUcmFuc2FjdGlvbigwKSkKICAgICAgICAgIC50aGVuKHR4ID0+IGV0aGVycy5wcm92aWRlci5nZXRUcmFuc2FjdGlvblJlY2VpcHQodHguaGFzaCkpOwoKICAgICAgICBleHBlY3QoZ2FzVXNlZCkudG8uZXF1YWwoZ2FzTGltaXQpOwogICAgICB9KTsKCiAgICAgIGl0KCdidWJibGVzIG91dCBvZiBnYXMgZm9yY2VkIGJ5IHRoZSByZWxheWVyJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIC8vIFNpbWlsYXJseSB0byB0aGUgc2luZ2xlIGV4ZWN1dGUsIGEgbWFsaWNpb3VzIHJlbGF5ZXIgY291bGQgZ3JpZWYgcmVxdWVzdHMuCgogICAgICAgIC8vIFdlIGVzdGltYXRlIHVudGlsIHRoZSBzZWxlY3RlZCByZXF1ZXN0IGFzIGlmIHRoZXkgd2VyZSBleGVjdXRlZCBub3JtYWxseQogICAgICAgIGNvbnN0IGVzdGltYXRlID0gYXdhaXQgUHJvbWlzZS5hbGwodGhpcy5yZXF1ZXN0cy5zbGljZSgwLCBpZHggKyAxKS5tYXAodGhpcy5lc3RpbWF0ZVJlcXVlc3QpKS50aGVuKGdhcyA9PgogICAgICAgICAgc3VtKC4uLmdhcyksCiAgICAgICAgKTsKCiAgICAgICAgLy8gV2UgYWRkIGEgQnVmZmVyIHRvIGFjY291bnQgZm9yIGFsbCB0aGUgZ2FzIHRoYXQncyB1c2VkIGJlZm9yZSB0aGUgc2VsZWN0ZWQgY2FsbC4KICAgICAgICAvLyBOb3RlIGlzIHNsaWdodGx5IGJpZ2dlciBiZWNhdXNlIHRoZSBzZWxlY3RlZCByZXF1ZXN0IGlzIG5vdCB0aGUgaW5kZXggMCBhbmQgaXQgYWZmZWN0cwogICAgICAgIC8vIHRoZSBidWZmZXIgbmVlZGVkLgogICAgICAgIGNvbnN0IGdhc0xpbWl0ID0gZXN0aW1hdGUgKyAxMF8wMDBuOwoKICAgICAgICAvLyBUaGUgc3ViY2FsbCBvdXQgb2YgZ2FzIHNob3VsZCBiZSBjYXVnaHQgYnkgdGhlIGNvbnRyYWN0IGFuZCB0aGVuIGJ1YmJsZWQgdXAgY29uc3VtaW5nCiAgICAgICAgLy8gdGhlIGF2YWlsYWJsZSBnYXMgd2l0aCBhbiBgaW52YWxpZGAgb3Bjb2RlLgogICAgICAgIGF3YWl0IGV4cGVjdCgKICAgICAgICAgIHRoaXMuZm9yd2FyZGVyLmV4ZWN1dGVCYXRjaCh0aGlzLnJlcXVlc3RzLCBldGhlcnMuWmVyb0FkZHJlc3MsIHsKICAgICAgICAgICAgZ2FzTGltaXQsCiAgICAgICAgICAgIHZhbHVlOiByZXF1ZXN0c1ZhbHVlKHRoaXMucmVxdWVzdHMpLAogICAgICAgICAgfSksCiAgICAgICAgKS50by5iZS5yZXZlcnRlZFdpdGhvdXRSZWFzb24oKTsKCiAgICAgICAgY29uc3QgeyBnYXNVc2VkIH0gPSBhd2FpdCBldGhlcnMucHJvdmlkZXIKICAgICAgICAgIC5nZXRCbG9jaygnbGF0ZXN0JykKICAgICAgICAgIC50aGVuKGJsb2NrID0+IGJsb2NrLmdldFRyYW5zYWN0aW9uKDApKQogICAgICAgICAgLnRoZW4odHggPT4gZXRoZXJzLnByb3ZpZGVyLmdldFRyYW5zYWN0aW9uUmVjZWlwdCh0eC5oYXNoKSk7CgogICAgICAgIC8vIFdlIGFzc2VydCB0aGF0IGluZGVlZCB0aGUgZ2FzIHdhcyB0b3RhbGx5IGNvbnN1bWVkLgogICAgICAgIGV4cGVjdChnYXNVc2VkKS50by5lcXVhbChnYXNMaW1pdCk7CiAgICAgIH0pOwogICAgfSk7CiAgfSk7Cn0pOwo=
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+const { getDomain, ForwardRequest } = require('../helpers/eip712');
+const { sum } = require('../helpers/math');
+const time = require('../helpers/time');
+
+async function fixture() {
+  const [sender, refundReceiver, another, ...accounts] = await ethers.getSigners();
+
+  const forwarder = await ethers.deployContract('ERC2771Forwarder', ['ERC2771Forwarder']);
+  const receiver = await ethers.deployContract('CallReceiverMockTrustingForwarder', [forwarder]);
+  const domain = await getDomain(forwarder);
+  const types = { ForwardRequest };
+
+  const forgeRequest = async (override = {}, signer = sender) => {
+    const req = {
+      from: await signer.getAddress(),
+      to: await receiver.getAddress(),
+      value: 0n,
+      data: receiver.interface.encodeFunctionData('mockFunction'),
+      gas: 100000n,
+      deadline: (await time.clock.timestamp()) + 60n,
+      nonce: await forwarder.nonces(sender),
+      ...override,
+    };
+    req.signature = await signer.signTypedData(domain, types, req);
+    return req;
+  };
+
+  const estimateRequest = request =>
+    ethers.provider.estimateGas({
+      from: forwarder,
+      to: request.to,
+      data: ethers.solidityPacked(['bytes', 'address'], [request.data, request.from]),
+      value: request.value,
+      gasLimit: request.gas,
+    });
+
+  return {
+    sender,
+    refundReceiver,
+    another,
+    accounts,
+    forwarder,
+    receiver,
+    forgeRequest,
+    estimateRequest,
+    domain,
+    types,
+  };
+}
+
+// values or function to tamper with a signed request.
+const tamperedValues = {
+  from: ethers.Wallet.createRandom().address,
+  to: ethers.Wallet.createRandom().address,
+  value: ethers.parseEther('0.5'),
+  data: '0x1742',
+  signature: s => {
+    const t = ethers.toBeArray(s);
+    t[42] ^= 0xff;
+    return ethers.hexlify(t);
+  },
+};
+
+describe('ERC2771Forwarder', function () {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  describe('verify', function () {
+    describe('with valid signature', function () {
+      it('returns true without altering the nonce', async function () {
+        const request = await this.forgeRequest();
+        expect(await this.forwarder.nonces(request.from)).to.equal(request.nonce);
+        expect(await this.forwarder.verify(request)).to.be.true;
+        expect(await this.forwarder.nonces(request.from)).to.equal(request.nonce);
+      });
+    });
+
+    describe('with tampered values', function () {
+      for (const [key, value] of Object.entries(tamperedValues)) {
+        it(`returns false with tampered ${key}`, async function () {
+          const request = await this.forgeRequest();
+          request[key] = typeof value == 'function' ? value(request[key]) : value;
+
+          expect(await this.forwarder.verify(request)).to.be.false;
+        });
+      }
+
+      it('returns false with valid signature for non-current nonce', async function () {
+        const request = await this.forgeRequest({ nonce: 1337n });
+        expect(await this.forwarder.verify(request)).to.be.false;
+      });
+
+      it('returns false with valid signature for expired deadline', async function () {
+        const request = await this.forgeRequest({ deadline: (await time.clock.timestamp()) - 1n });
+        expect(await this.forwarder.verify(request)).to.be.false;
+      });
+    });
+  });
+
+  describe('execute', function () {
+    describe('with valid requests', function () {
+      it('emits an event and consumes nonce for a successful request', async function () {
+        const request = await this.forgeRequest();
+
+        expect(await this.forwarder.nonces(request.from)).to.equal(request.nonce);
+
+        await expect(this.forwarder.execute(request))
+          .to.emit(this.receiver, 'MockFunctionCalled')
+          .to.emit(this.forwarder, 'ExecutedForwardRequest')
+          .withArgs(request.from, request.nonce, true);
+
+        expect(await this.forwarder.nonces(request.from)).to.equal(request.nonce + 1n);
+      });
+
+      it('reverts with an unsuccessful request', async function () {
+        const request = await this.forgeRequest({
+          data: this.receiver.interface.encodeFunctionData('mockFunctionRevertsNoReason'),
+        });
+
+        await expect(this.forwarder.execute(request)).to.be.revertedWithCustomError(this.forwarder, 'FailedCall');
+      });
+    });
+
+    describe('with tampered request', function () {
+      for (const [key, value] of Object.entries(tamperedValues)) {
+        it(`reverts with tampered ${key}`, async function () {
+          const request = await this.forgeRequest();
+          request[key] = typeof value == 'function' ? value(request[key]) : value;
+
+          const promise = this.forwarder.execute(request, { value: key == 'value' ? value : 0 });
+          if (key != 'to') {
+            await expect(promise)
+              .to.be.revertedWithCustomError(this.forwarder, 'ERC2771ForwarderInvalidSigner')
+              .withArgs(ethers.verifyTypedData(this.domain, this.types, request, request.signature), request.from);
+          } else {
+            await expect(promise)
+              .to.be.revertedWithCustomError(this.forwarder, 'ERC2771UntrustfulTarget')
+              .withArgs(request.to, this.forwarder);
+          }
+        });
+      }
+
+      it('reverts with valid signature for non-current nonce', async function () {
+        const request = await this.forgeRequest();
+
+        // consume nonce
+        await this.forwarder.execute(request);
+
+        // nonce has changed
+        await expect(this.forwarder.execute(request))
+          .to.be.revertedWithCustomError(this.forwarder, 'ERC2771ForwarderInvalidSigner')
+          .withArgs(
+            ethers.verifyTypedData(
+              this.domain,
+              this.types,
+              { ...request, nonce: request.nonce + 1n },
+              request.signature,
+            ),
+            request.from,
+          );
+      });
+
+      it('reverts with valid signature for expired deadline', async function () {
+        const request = await this.forgeRequest({ deadline: (await time.clock.timestamp()) - 1n });
+
+        await expect(this.forwarder.execute(request))
+          .to.be.revertedWithCustomError(this.forwarder, 'ERC2771ForwarderExpiredRequest')
+          .withArgs(request.deadline);
+      });
+
+      it('reverts with valid signature but mismatched value', async function () {
+        const request = await this.forgeRequest({ value: 100n });
+
+        await expect(this.forwarder.execute(request))
+          .to.be.revertedWithCustomError(this.forwarder, 'ERC2771ForwarderMismatchedValue')
+          .withArgs(request.value, 0n);
+      });
+    });
+
+    it('bubbles out of gas', async function () {
+      const request = await this.forgeRequest({
+        data: this.receiver.interface.encodeFunctionData('mockFunctionOutOfGas'),
+        gas: 1_000_000n,
+      });
+
+      const gasLimit = 100_000n;
+      await expect(this.forwarder.execute(request, { gasLimit })).to.be.revertedWithoutReason();
+
+      const { gasUsed } = await ethers.provider
+        .getBlock('latest')
+        .then(block => block.getTransaction(0))
+        .then(tx => ethers.provider.getTransactionReceipt(tx.hash));
+
+      expect(gasUsed).to.equal(gasLimit);
+    });
+
+    it('bubbles out of gas forced by the relayer', async function () {
+      const request = await this.forgeRequest();
+
+      // If there's an incentive behind executing requests, a malicious relayer could grief
+      // the forwarder by executing requests and providing a top-level call gas limit that
+      // is too low to successfully finish the request after the 63/64 rule.
+
+      // We set the baseline to the gas limit consumed by a successful request if it was executed
+      // normally. Note this includes the 21000 buffer that also the relayer will be charged to
+      // start a request execution.
+      const estimate = await this.estimateRequest(request);
+
+      // Because the relayer call consumes gas until the `CALL` opcode, the gas left after failing
+      // the subcall won't enough to finish the top level call (after testing), so we add a
+      // moderated buffer.
+      const gasLimit = estimate + 2_000n;
+
+      // The subcall out of gas should be caught by the contract and then bubbled up consuming
+      // the available gas with an `invalid` opcode.
+      await expect(this.forwarder.execute(request, { gasLimit })).to.be.revertedWithoutReason();
+
+      const { gasUsed } = await ethers.provider
+        .getBlock('latest')
+        .then(block => block.getTransaction(0))
+        .then(tx => ethers.provider.getTransactionReceipt(tx.hash));
+
+      // We assert that indeed the gas was totally consumed.
+      expect(gasUsed).to.equal(gasLimit);
+    });
+  });
+
+  describe('executeBatch', function () {
+    const requestsValue = requests => sum(...requests.map(request => request.value));
+    const requestCount = 3;
+    const idx = 1; // index that will be tampered with
+
+    beforeEach(async function () {
+      this.forgeRequests = override =>
+        Promise.all(this.accounts.slice(0, requestCount).map(signer => this.forgeRequest(override, signer)));
+      this.requests = await this.forgeRequests({ value: 10n });
+      this.value = requestsValue(this.requests);
+    });
+
+    describe('with valid requests', function () {
+      it('sanity', async function () {
+        for (const request of this.requests) {
+          expect(await this.forwarder.verify(request)).to.be.true;
+        }
+      });
+
+      it('emits events', async function () {
+        const receipt = this.forwarder.executeBatch(this.requests, this.another, { value: this.value });
+
+        for (const request of this.requests) {
+          await expect(receipt)
+            .to.emit(this.receiver, 'MockFunctionCalled')
+            .to.emit(this.forwarder, 'ExecutedForwardRequest')
+            .withArgs(request.from, request.nonce, true);
+        }
+      });
+
+      it('increase nonces', async function () {
+        await this.forwarder.executeBatch(this.requests, this.another, { value: this.value });
+
+        for (const request of this.requests) {
+          expect(await this.forwarder.nonces(request.from)).to.equal(request.nonce + 1n);
+        }
+      });
+    });
+
+    describe('with tampered requests', function () {
+      it('reverts with mismatched value', async function () {
+        // tamper value of one of the request + resign
+        this.requests[idx] = await this.forgeRequest({ value: 100n }, this.accounts[1]);
+
+        await expect(this.forwarder.executeBatch(this.requests, this.another, { value: this.value }))
+          .to.be.revertedWithCustomError(this.forwarder, 'ERC2771ForwarderMismatchedValue')
+          .withArgs(requestsValue(this.requests), this.value);
+      });
+
+      describe('when the refund receiver is the zero address', function () {
+        beforeEach(function () {
+          this.refundReceiver = ethers.ZeroAddress;
+        });
+
+        for (const [key, value] of Object.entries(tamperedValues)) {
+          it(`reverts with at least one tampered request ${key}`, async function () {
+            this.requests[idx][key] = typeof value == 'function' ? value(this.requests[idx][key]) : value;
+
+            const promise = this.forwarder.executeBatch(this.requests, this.refundReceiver, { value: this.value });
+            if (key != 'to') {
+              await expect(promise)
+                .to.be.revertedWithCustomError(this.forwarder, 'ERC2771ForwarderInvalidSigner')
+                .withArgs(
+                  ethers.verifyTypedData(this.domain, this.types, this.requests[idx], this.requests[idx].signature),
+                  this.requests[idx].from,
+                );
+            } else {
+              await expect(promise)
+                .to.be.revertedWithCustomError(this.forwarder, 'ERC2771UntrustfulTarget')
+                .withArgs(this.requests[idx].to, this.forwarder);
+            }
+          });
+        }
+
+        it('reverts with at least one valid signature for non-current nonce', async function () {
+          // Execute first a request
+          await this.forwarder.execute(this.requests[idx], { value: this.requests[idx].value });
+
+          // And then fail due to an already used nonce
+          await expect(this.forwarder.executeBatch(this.requests, this.refundReceiver, { value: this.value }))
+            .to.be.revertedWithCustomError(this.forwarder, 'ERC2771ForwarderInvalidSigner')
+            .withArgs(
+              ethers.verifyTypedData(
+                this.domain,
+                this.types,
+                { ...this.requests[idx], nonce: this.requests[idx].nonce + 1n },
+                this.requests[idx].signature,
+              ),
+              this.requests[idx].from,
+            );
+        });
+
+        it('reverts with at least one valid signature for expired deadline', async function () {
+          this.requests[idx] = await this.forgeRequest(
+            { ...this.requests[idx], deadline: (await time.clock.timestamp()) - 1n },
+            this.accounts[1],
+          );
+
+          await expect(this.forwarder.executeBatch(this.requests, this.refundReceiver, { value: this.amount }))
+            .to.be.revertedWithCustomError(this.forwarder, 'ERC2771ForwarderExpiredRequest')
+            .withArgs(this.requests[idx].deadline);
+        });
+      });
+
+      describe('when the refund receiver is a known address', function () {
+        beforeEach(async function () {
+          this.initialRefundReceiverBalance = await ethers.provider.getBalance(this.refundReceiver);
+          this.initialTamperedRequestNonce = await this.forwarder.nonces(this.requests[idx].from);
+        });
+
+        for (const [key, value] of Object.entries(tamperedValues)) {
+          it(`ignores a request with tampered ${key} and refunds its value`, async function () {
+            this.requests[idx][key] = typeof value == 'function' ? value(this.requests[idx][key]) : value;
+
+            const events = await this.forwarder
+              .executeBatch(this.requests, this.refundReceiver, { value: requestsValue(this.requests) })
+              .then(tx => tx.wait())
+              .then(receipt =>
+                receipt.logs.filter(
+                  log => log?.fragment?.type == 'event' && log?.fragment?.name == 'ExecutedForwardRequest',
+                ),
+              );
+
+            expect(events).to.have.lengthOf(this.requests.length - 1);
+          });
+        }
+
+        it('ignores a request with a valid signature for non-current nonce', async function () {
+          // Execute first a request
+          await this.forwarder.execute(this.requests[idx], { value: this.requests[idx].value });
+          this.initialTamperedRequestNonce++; // Should be already incremented by the individual `execute`
+
+          // And then ignore the same request in a batch due to an already used nonce
+          const events = await this.forwarder
+            .executeBatch(this.requests, this.refundReceiver, { value: this.value })
+            .then(tx => tx.wait())
+            .then(receipt =>
+              receipt.logs.filter(
+                log => log?.fragment?.type == 'event' && log?.fragment?.name == 'ExecutedForwardRequest',
+              ),
+            );
+
+          expect(events).to.have.lengthOf(this.requests.length - 1);
+        });
+
+        it('ignores a request with a valid signature for expired deadline', async function () {
+          this.requests[idx] = await this.forgeRequest(
+            { ...this.requests[idx], deadline: (await time.clock.timestamp()) - 1n },
+            this.accounts[1],
+          );
+
+          const events = await this.forwarder
+            .executeBatch(this.requests, this.refundReceiver, { value: this.value })
+            .then(tx => tx.wait())
+            .then(receipt =>
+              receipt.logs.filter(
+                log => log?.fragment?.type == 'event' && log?.fragment?.name == 'ExecutedForwardRequest',
+              ),
+            );
+
+          expect(events).to.have.lengthOf(this.requests.length - 1);
+        });
+
+        afterEach(async function () {
+          // The invalid request value was refunded
+          expect(await ethers.provider.getBalance(this.refundReceiver)).to.equal(
+            this.initialRefundReceiverBalance + this.requests[idx].value,
+          );
+
+          // The invalid request from's nonce was not incremented
+          expect(await this.forwarder.nonces(this.requests[idx].from)).to.equal(this.initialTamperedRequestNonce);
+        });
+      });
+
+      it('bubbles out of gas', async function () {
+        this.requests[idx] = await this.forgeRequest({
+          data: this.receiver.interface.encodeFunctionData('mockFunctionOutOfGas'),
+          gas: 1_000_000n,
+        });
+
+        const gasLimit = 300_000n;
+        await expect(
+          this.forwarder.executeBatch(this.requests, ethers.ZeroAddress, {
+            gasLimit,
+            value: requestsValue(this.requests),
+          }),
+        ).to.be.revertedWithoutReason();
+
+        const { gasUsed } = await ethers.provider
+          .getBlock('latest')
+          .then(block => block.getTransaction(0))
+          .then(tx => ethers.provider.getTransactionReceipt(tx.hash));
+
+        expect(gasUsed).to.equal(gasLimit);
+      });
+
+      it('bubbles out of gas forced by the relayer', async function () {
+        // Similarly to the single execute, a malicious relayer could grief requests.
+
+        // We estimate until the selected request as if they were executed normally
+        const estimate = await Promise.all(this.requests.slice(0, idx + 1).map(this.estimateRequest)).then(gas =>
+          sum(...gas),
+        );
+
+        // We add a Buffer to account for all the gas that's used before the selected call.
+        // Note is slightly bigger because the selected request is not the index 0 and it affects
+        // the buffer needed.
+        const gasLimit = estimate + 10_000n;
+
+        // The subcall out of gas should be caught by the contract and then bubbled up consuming
+        // the available gas with an `invalid` opcode.
+        await expect(
+          this.forwarder.executeBatch(this.requests, ethers.ZeroAddress, {
+            gasLimit,
+            value: requestsValue(this.requests),
+          }),
+        ).to.be.revertedWithoutReason();
+
+        const { gasUsed } = await ethers.provider
+          .getBlock('latest')
+          .then(block => block.getTransaction(0))
+          .then(tx => ethers.provider.getTransactionReceipt(tx.hash));
+
+        // We assert that indeed the gas was totally consumed.
+        expect(gasUsed).to.equal(gasLimit);
+      });
+    });
+  });
+});
