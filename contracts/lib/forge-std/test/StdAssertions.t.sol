@@ -1,1 +1,141 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgPj0wLjcuMCA8MC45LjA7CgppbXBvcnQge1N0ZEFzc2VydGlvbnN9IGZyb20gIi4uL3NyYy9TdGRBc3NlcnRpb25zLnNvbCI7CmltcG9ydCB7Vm19IGZyb20gIi4uL3NyYy9WbS5zb2wiOwoKaW50ZXJmYWNlIFZtSW50ZXJuYWwgaXMgVm0gewogICAgZnVuY3Rpb24gX2V4cGVjdENoZWF0Y29kZVJldmVydChieXRlcyBtZW1vcnkgbWVzc2FnZSkgZXh0ZXJuYWw7Cn0KCmNvbnRyYWN0IFN0ZEFzc2VydGlvbnNUZXN0IGlzIFN0ZEFzc2VydGlvbnMgewogICAgc3RyaW5nIGNvbnN0YW50IGVycm9yTWVzc2FnZSA9ICJVc2VyIHByb3ZpZGVkIG1lc3NhZ2UiOwogICAgdWludDI1NiBjb25zdGFudCBtYXhEZWNpbWFscyA9IDc3OwoKICAgIGJvb2wgY29uc3RhbnQgU0hPVUxEX1JFVkVSVCA9IHRydWU7CiAgICBib29sIGNvbnN0YW50IFNIT1VMRF9SRVRVUk4gPSBmYWxzZTsKCiAgICBib29sIGNvbnN0YW50IFNUUklDVF9SRVZFUlRfREFUQSA9IHRydWU7CiAgICBib29sIGNvbnN0YW50IE5PTl9TVFJJQ1RfUkVWRVJUX0RBVEEgPSBmYWxzZTsKCiAgICBWbUludGVybmFsIGNvbnN0YW50IHZtID0gVm1JbnRlcm5hbChhZGRyZXNzKHVpbnQxNjAodWludDI1NihrZWNjYWsyNTYoImhldm0gY2hlYXQgY29kZSIpKSkpKTsKCiAgICBmdW5jdGlvbiB0ZXN0RnV6el9Bc3NlcnRFcUNhbGxfUmV0dXJuX1Bhc3MoCiAgICAgICAgYnl0ZXMgbWVtb3J5IGNhbGxEYXRhQSwKICAgICAgICBieXRlcyBtZW1vcnkgY2FsbERhdGFCLAogICAgICAgIGJ5dGVzIG1lbW9yeSByZXR1cm5EYXRhLAogICAgICAgIGJvb2wgc3RyaWN0UmV2ZXJ0RGF0YQogICAgKSBleHRlcm5hbCB7CiAgICAgICAgYWRkcmVzcyB0YXJnZXRBID0gYWRkcmVzcyhuZXcgVGVzdE1vY2tDYWxsKHJldHVybkRhdGEsIFNIT1VMRF9SRVRVUk4pKTsKICAgICAgICBhZGRyZXNzIHRhcmdldEIgPSBhZGRyZXNzKG5ldyBUZXN0TW9ja0NhbGwocmV0dXJuRGF0YSwgU0hPVUxEX1JFVFVSTikpOwoKICAgICAgICBhc3NlcnRFcUNhbGwodGFyZ2V0QSwgY2FsbERhdGFBLCB0YXJnZXRCLCBjYWxsRGF0YUIsIHN0cmljdFJldmVydERhdGEpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RGdXp6X1JldmVydFdoZW5DYWxsZWRfQXNzZXJ0RXFDYWxsX1JldHVybl9GYWlsKAogICAgICAgIGJ5dGVzIG1lbW9yeSBjYWxsRGF0YUEsCiAgICAgICAgYnl0ZXMgbWVtb3J5IGNhbGxEYXRhQiwKICAgICAgICBieXRlcyBtZW1vcnkgcmV0dXJuRGF0YUEsCiAgICAgICAgYnl0ZXMgbWVtb3J5IHJldHVybkRhdGFCLAogICAgICAgIGJvb2wgc3RyaWN0UmV2ZXJ0RGF0YQogICAgKSBleHRlcm5hbCB7CiAgICAgICAgdm0uYXNzdW1lKGtlY2NhazI1NihyZXR1cm5EYXRhQSkgIT0ga2VjY2FrMjU2KHJldHVybkRhdGFCKSk7CgogICAgICAgIGFkZHJlc3MgdGFyZ2V0QSA9IGFkZHJlc3MobmV3IFRlc3RNb2NrQ2FsbChyZXR1cm5EYXRhQSwgU0hPVUxEX1JFVFVSTikpOwogICAgICAgIGFkZHJlc3MgdGFyZ2V0QiA9IGFkZHJlc3MobmV3IFRlc3RNb2NrQ2FsbChyZXR1cm5EYXRhQiwgU0hPVUxEX1JFVFVSTikpOwoKICAgICAgICB2bS5fZXhwZWN0Q2hlYXRjb2RlUmV2ZXJ0KAogICAgICAgICAgICBieXRlcygKICAgICAgICAgICAgICAgIHN0cmluZy5jb25jYXQoCiAgICAgICAgICAgICAgICAgICAgIkNhbGwgcmV0dXJuIGRhdGEgZG9lcyBub3QgbWF0Y2g6ICIsIHZtLnRvU3RyaW5nKHJldHVybkRhdGFBKSwgIiAhPSAiLCB2bS50b1N0cmluZyhyZXR1cm5EYXRhQikKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgKQogICAgICAgICk7CiAgICAgICAgYXNzZXJ0RXFDYWxsKHRhcmdldEEsIGNhbGxEYXRhQSwgdGFyZ2V0QiwgY2FsbERhdGFCLCBzdHJpY3RSZXZlcnREYXRhKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0RnV6el9Bc3NlcnRFcUNhbGxfUmV2ZXJ0X1Bhc3MoCiAgICAgICAgYnl0ZXMgbWVtb3J5IGNhbGxEYXRhQSwKICAgICAgICBieXRlcyBtZW1vcnkgY2FsbERhdGFCLAogICAgICAgIGJ5dGVzIG1lbW9yeSByZXZlcnREYXRhQSwKICAgICAgICBieXRlcyBtZW1vcnkgcmV2ZXJ0RGF0YUIKICAgICkgZXh0ZXJuYWwgewogICAgICAgIGFkZHJlc3MgdGFyZ2V0QSA9IGFkZHJlc3MobmV3IFRlc3RNb2NrQ2FsbChyZXZlcnREYXRhQSwgU0hPVUxEX1JFVkVSVCkpOwogICAgICAgIGFkZHJlc3MgdGFyZ2V0QiA9IGFkZHJlc3MobmV3IFRlc3RNb2NrQ2FsbChyZXZlcnREYXRhQiwgU0hPVUxEX1JFVkVSVCkpOwoKICAgICAgICBhc3NlcnRFcUNhbGwodGFyZ2V0QSwgY2FsbERhdGFBLCB0YXJnZXRCLCBjYWxsRGF0YUIsIE5PTl9TVFJJQ1RfUkVWRVJUX0RBVEEpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RGdXp6X1JldmVydFdoZW5DYWxsZWRfQXNzZXJ0RXFDYWxsX1JldmVydF9GYWlsKAogICAgICAgIGJ5dGVzIG1lbW9yeSBjYWxsRGF0YUEsCiAgICAgICAgYnl0ZXMgbWVtb3J5IGNhbGxEYXRhQiwKICAgICAgICBieXRlcyBtZW1vcnkgcmV2ZXJ0RGF0YUEsCiAgICAgICAgYnl0ZXMgbWVtb3J5IHJldmVydERhdGFCCiAgICApIGV4dGVybmFsIHsKICAgICAgICB2bS5hc3N1bWUoa2VjY2FrMjU2KHJldmVydERhdGFBKSAhPSBrZWNjYWsyNTYocmV2ZXJ0RGF0YUIpKTsKCiAgICAgICAgYWRkcmVzcyB0YXJnZXRBID0gYWRkcmVzcyhuZXcgVGVzdE1vY2tDYWxsKHJldmVydERhdGFBLCBTSE9VTERfUkVWRVJUKSk7CiAgICAgICAgYWRkcmVzcyB0YXJnZXRCID0gYWRkcmVzcyhuZXcgVGVzdE1vY2tDYWxsKHJldmVydERhdGFCLCBTSE9VTERfUkVWRVJUKSk7CgogICAgICAgIHZtLl9leHBlY3RDaGVhdGNvZGVSZXZlcnQoCiAgICAgICAgICAgIGJ5dGVzKAogICAgICAgICAgICAgICAgc3RyaW5nLmNvbmNhdCgKICAgICAgICAgICAgICAgICAgICAiQ2FsbCByZXZlcnQgZGF0YSBkb2VzIG5vdCBtYXRjaDogIiwgdm0udG9TdHJpbmcocmV2ZXJ0RGF0YUEpLCAiICE9ICIsIHZtLnRvU3RyaW5nKHJldmVydERhdGFCKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICApCiAgICAgICAgKTsKICAgICAgICBhc3NlcnRFcUNhbGwodGFyZ2V0QSwgY2FsbERhdGFBLCB0YXJnZXRCLCBjYWxsRGF0YUIsIFNUUklDVF9SRVZFUlRfREFUQSk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdEZ1enpfUmV2ZXJ0V2hlbkNhbGxlZF9Bc3NlcnRFcUNhbGxfRmFpbCgKICAgICAgICBieXRlcyBtZW1vcnkgY2FsbERhdGFBLAogICAgICAgIGJ5dGVzIG1lbW9yeSBjYWxsRGF0YUIsCiAgICAgICAgYnl0ZXMgbWVtb3J5IHJldHVybkRhdGFBLAogICAgICAgIGJ5dGVzIG1lbW9yeSByZXR1cm5EYXRhQiwKICAgICAgICBib29sIHN0cmljdFJldmVydERhdGEKICAgICkgZXh0ZXJuYWwgewogICAgICAgIGFkZHJlc3MgdGFyZ2V0QSA9IGFkZHJlc3MobmV3IFRlc3RNb2NrQ2FsbChyZXR1cm5EYXRhQSwgU0hPVUxEX1JFVFVSTikpOwogICAgICAgIGFkZHJlc3MgdGFyZ2V0QiA9IGFkZHJlc3MobmV3IFRlc3RNb2NrQ2FsbChyZXR1cm5EYXRhQiwgU0hPVUxEX1JFVkVSVCkpOwoKICAgICAgICB2bS5leHBlY3RSZXZlcnQoYnl0ZXMoImFzc2VydGlvbiBmYWlsZWQiKSk7CiAgICAgICAgdGhpcy5hc3NlcnRFcUNhbGxFeHRlcm5hbCh0YXJnZXRBLCBjYWxsRGF0YUEsIHRhcmdldEIsIGNhbGxEYXRhQiwgc3RyaWN0UmV2ZXJ0RGF0YSk7CgogICAgICAgIHZtLmV4cGVjdFJldmVydChieXRlcygiYXNzZXJ0aW9uIGZhaWxlZCIpKTsKICAgICAgICB0aGlzLmFzc2VydEVxQ2FsbEV4dGVybmFsKHRhcmdldEIsIGNhbGxEYXRhQiwgdGFyZ2V0QSwgY2FsbERhdGFBLCBzdHJpY3RSZXZlcnREYXRhKTsKICAgIH0KCiAgICAvLyBIZWxwZXIgZnVuY3Rpb24gdG8gdGVzdCBvdXRjb21lIG9mIGFzc2VydEVxQ2FsbCB2aWEgYGV4cGVjdGAgY2hlYXRjb2RlcwogICAgZnVuY3Rpb24gYXNzZXJ0RXFDYWxsRXh0ZXJuYWwoCiAgICAgICAgYWRkcmVzcyB0YXJnZXRBLAogICAgICAgIGJ5dGVzIG1lbW9yeSBjYWxsRGF0YUEsCiAgICAgICAgYWRkcmVzcyB0YXJnZXRCLAogICAgICAgIGJ5dGVzIG1lbW9yeSBjYWxsRGF0YUIsCiAgICAgICAgYm9vbCBzdHJpY3RSZXZlcnREYXRhCiAgICApIHB1YmxpYyB7CiAgICAgICAgYXNzZXJ0RXFDYWxsKHRhcmdldEEsIGNhbGxEYXRhQSwgdGFyZ2V0QiwgY2FsbERhdGFCLCBzdHJpY3RSZXZlcnREYXRhKTsKICAgIH0KfQoKY29udHJhY3QgVGVzdE1vY2tDYWxsIHsKICAgIGJ5dGVzIHJldHVybkRhdGE7CiAgICBib29sIHNob3VsZFJldmVydDsKCiAgICBjb25zdHJ1Y3RvcihieXRlcyBtZW1vcnkgcmV0dXJuRGF0YV8sIGJvb2wgc2hvdWxkUmV2ZXJ0XykgewogICAgICAgIHJldHVybkRhdGEgPSByZXR1cm5EYXRhXzsKICAgICAgICBzaG91bGRSZXZlcnQgPSBzaG91bGRSZXZlcnRfOwogICAgfQoKICAgIGZhbGxiYWNrKCkgZXh0ZXJuYWwgcGF5YWJsZSB7CiAgICAgICAgYnl0ZXMgbWVtb3J5IHJldHVybkRhdGFfID0gcmV0dXJuRGF0YTsKCiAgICAgICAgaWYgKHNob3VsZFJldmVydCkgewogICAgICAgICAgICBhc3NlbWJseSB7CiAgICAgICAgICAgICAgICByZXZlcnQoYWRkKHJldHVybkRhdGFfLCAweDIwKSwgbWxvYWQocmV0dXJuRGF0YV8pKQogICAgICAgICAgICB9CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgYXNzZW1ibHkgewogICAgICAgICAgICAgICAgcmV0dXJuKGFkZChyZXR1cm5EYXRhXywgMHgyMCksIG1sb2FkKHJldHVybkRhdGFfKSkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.7.0 <0.9.0;
+
+import {StdAssertions} from "../src/StdAssertions.sol";
+import {Vm} from "../src/Vm.sol";
+
+interface VmInternal is Vm {
+    function _expectCheatcodeRevert(bytes memory message) external;
+}
+
+contract StdAssertionsTest is StdAssertions {
+    string constant errorMessage = "User provided message";
+    uint256 constant maxDecimals = 77;
+
+    bool constant SHOULD_REVERT = true;
+    bool constant SHOULD_RETURN = false;
+
+    bool constant STRICT_REVERT_DATA = true;
+    bool constant NON_STRICT_REVERT_DATA = false;
+
+    VmInternal constant vm = VmInternal(address(uint160(uint256(keccak256("hevm cheat code")))));
+
+    function testFuzz_AssertEqCall_Return_Pass(
+        bytes memory callDataA,
+        bytes memory callDataB,
+        bytes memory returnData,
+        bool strictRevertData
+    ) external {
+        address targetA = address(new TestMockCall(returnData, SHOULD_RETURN));
+        address targetB = address(new TestMockCall(returnData, SHOULD_RETURN));
+
+        assertEqCall(targetA, callDataA, targetB, callDataB, strictRevertData);
+    }
+
+    function testFuzz_RevertWhenCalled_AssertEqCall_Return_Fail(
+        bytes memory callDataA,
+        bytes memory callDataB,
+        bytes memory returnDataA,
+        bytes memory returnDataB,
+        bool strictRevertData
+    ) external {
+        vm.assume(keccak256(returnDataA) != keccak256(returnDataB));
+
+        address targetA = address(new TestMockCall(returnDataA, SHOULD_RETURN));
+        address targetB = address(new TestMockCall(returnDataB, SHOULD_RETURN));
+
+        vm._expectCheatcodeRevert(
+            bytes(
+                string.concat(
+                    "Call return data does not match: ", vm.toString(returnDataA), " != ", vm.toString(returnDataB)
+                )
+            )
+        );
+        assertEqCall(targetA, callDataA, targetB, callDataB, strictRevertData);
+    }
+
+    function testFuzz_AssertEqCall_Revert_Pass(
+        bytes memory callDataA,
+        bytes memory callDataB,
+        bytes memory revertDataA,
+        bytes memory revertDataB
+    ) external {
+        address targetA = address(new TestMockCall(revertDataA, SHOULD_REVERT));
+        address targetB = address(new TestMockCall(revertDataB, SHOULD_REVERT));
+
+        assertEqCall(targetA, callDataA, targetB, callDataB, NON_STRICT_REVERT_DATA);
+    }
+
+    function testFuzz_RevertWhenCalled_AssertEqCall_Revert_Fail(
+        bytes memory callDataA,
+        bytes memory callDataB,
+        bytes memory revertDataA,
+        bytes memory revertDataB
+    ) external {
+        vm.assume(keccak256(revertDataA) != keccak256(revertDataB));
+
+        address targetA = address(new TestMockCall(revertDataA, SHOULD_REVERT));
+        address targetB = address(new TestMockCall(revertDataB, SHOULD_REVERT));
+
+        vm._expectCheatcodeRevert(
+            bytes(
+                string.concat(
+                    "Call revert data does not match: ", vm.toString(revertDataA), " != ", vm.toString(revertDataB)
+                )
+            )
+        );
+        assertEqCall(targetA, callDataA, targetB, callDataB, STRICT_REVERT_DATA);
+    }
+
+    function testFuzz_RevertWhenCalled_AssertEqCall_Fail(
+        bytes memory callDataA,
+        bytes memory callDataB,
+        bytes memory returnDataA,
+        bytes memory returnDataB,
+        bool strictRevertData
+    ) external {
+        address targetA = address(new TestMockCall(returnDataA, SHOULD_RETURN));
+        address targetB = address(new TestMockCall(returnDataB, SHOULD_REVERT));
+
+        vm.expectRevert(bytes("assertion failed"));
+        this.assertEqCallExternal(targetA, callDataA, targetB, callDataB, strictRevertData);
+
+        vm.expectRevert(bytes("assertion failed"));
+        this.assertEqCallExternal(targetB, callDataB, targetA, callDataA, strictRevertData);
+    }
+
+    // Helper function to test outcome of assertEqCall via `expect` cheatcodes
+    function assertEqCallExternal(
+        address targetA,
+        bytes memory callDataA,
+        address targetB,
+        bytes memory callDataB,
+        bool strictRevertData
+    ) public {
+        assertEqCall(targetA, callDataA, targetB, callDataB, strictRevertData);
+    }
+}
+
+contract TestMockCall {
+    bytes returnData;
+    bool shouldRevert;
+
+    constructor(bytes memory returnData_, bool shouldRevert_) {
+        returnData = returnData_;
+        shouldRevert = shouldRevert_;
+    }
+
+    fallback() external payable {
+        bytes memory returnData_ = returnData;
+
+        if (shouldRevert) {
+            assembly {
+                revert(add(returnData_, 0x20), mload(returnData_))
+            }
+        } else {
+            assembly {
+                return(add(returnData_, 0x20), mload(returnData_))
+            }
+        }
+    }
+}
