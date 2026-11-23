@@ -1,1 +1,36 @@
-aW1wb3J0IHsgQmFzZUVycm9yLCBDb250cmFjdEZ1bmN0aW9uUmV2ZXJ0ZWRFcnJvciwgVXNlclJlamVjdGVkUmVxdWVzdEVycm9yIH0gZnJvbSAidmllbSI7CgovKiogVHVybnMgd2FsbGV0IC8gUlBDIC8gcmV2ZXJ0IGVycm9ycyBpbnRvIG9uZSBzZW50ZW5jZSBhIHVzZXIgY2FuIGFjdCBvbi4gKi8KZXhwb3J0IGZ1bmN0aW9uIGV4cGxhaW4oZXJyb3I6IHVua25vd24pOiBzdHJpbmcgewogIGlmICghKGVycm9yIGluc3RhbmNlb2YgRXJyb3IpKSByZXR1cm4gIlNvbWV0aGluZyB3ZW50IHdyb25nLiBUcnkgYWdhaW4uIjsKICAvLyBNZXRhTWFzayB3b24ndCBhZGQgYSBuZXR3b3JrIHdob3NlIFJQQyBVUkwgYW5vdGhlciBzYXZlZCBuZXR3b3JrIGFscmVhZHkgdXNlcy4KICBjb25zdCBkdXAgPSAvc2FtZSBSUEMgZW5kcG9pbnQgYXMgZXhpc3RpbmcgbmV0d29yayBmb3IgY2hhaW4gXHcrIFwoJyhbXiddKiknXCkvLmV4ZWMoZnVsbE1lc3NhZ2UoZXJyb3IpKTsKICBpZiAoZHVwKSByZXR1cm4gYFlvdXIgd2FsbGV0IGFscmVhZHkgaGFzIGEgbmV0d29yayAoIiR7ZHVwWzFdfSIpIHVzaW5nIHRoZSBzYW1lIFJQQyBhZGRyZXNzLiBFZGl0IG9yIHJlbW92ZSB0aGF0IG5ldHdvcmsgaW4geW91ciB3YWxsZXQsIHRoZW4gdHJ5IGFnYWluLmA7CiAgaWYgKGVycm9yIGluc3RhbmNlb2YgQmFzZUVycm9yKSB7CiAgICBpZiAoZXJyb3Iud2FsaygoZSkgPT4gZSBpbnN0YW5jZW9mIFVzZXJSZWplY3RlZFJlcXVlc3RFcnJvcikpIHJldHVybiAiWW91IGNhbmNlbGxlZCB0aGUgcmVxdWVzdCBpbiB5b3VyIHdhbGxldC4gTm90aGluZyB3YXMgc2VudC4iOwogICAgY29uc3QgcmV2ZXJ0ID0gZXJyb3Iud2FsaygoZSkgPT4gZSBpbnN0YW5jZW9mIENvbnRyYWN0RnVuY3Rpb25SZXZlcnRlZEVycm9yKTsKICAgIGlmIChyZXZlcnQgaW5zdGFuY2VvZiBDb250cmFjdEZ1bmN0aW9uUmV2ZXJ0ZWRFcnJvcikgewogICAgICBjb25zdCBuYW1lID0gcmV2ZXJ0LmRhdGE/LmVycm9yTmFtZTsKICAgICAgaWYgKG5hbWUgPT09ICJBbHJlYWR5UGFpZCIpIHJldHVybiAiVGhpcyBvcmRlciBpcyBhbHJlYWR5IHBhaWQuIFN0YXJ0IGEgbmV3IG9yZGVyLiI7CiAgICAgIGlmIChuYW1lID09PSAiWmVyb0Ftb3VudCIpIHJldHVybiAiVGhlIGFtb3VudCBtdXN0IGJlIG1vcmUgdGhhbiB6ZXJvLiI7CiAgICAgIGNvbnN0IHJlYXNvbiA9IHJldmVydC5yZWFzb24gPz8gIiI7CiAgICAgIGlmICgvaW52YWxpZCBzaWduYXR1cmUvaS50ZXN0KHJlYXNvbikpIHJldHVybiAiVGhlIHNpZ25hdHVyZSBkb2Vzbid0IG1hdGNoIHRoaXMgb3JkZXIgb3IgYW1vdW50LiBTaWduIGFnYWluLiI7CiAgICAgIGlmICgvZXhwaXJlZC9pLnRlc3QocmVhc29uKSkgcmV0dXJuICJZb3VyIHNpZ25hdHVyZSBleHBpcmVkIGJlZm9yZSBpdCB3YXMgc3VibWl0dGVkLiBOb3RoaW5nIHdhcyBjaGFyZ2VkLiBTaWduIGFnYWluLiI7CiAgICAgIGlmICgvZXhjZWVkcyBiYWxhbmNlfGluc3VmZmljaWVudC9pLnRlc3QocmVhc29uKSkgcmV0dXJuICJOb3QgZW5vdWdoIHRVU0Q4IGluIHlvdXIgd2FsbGV0IGZvciB0aGlzIG9yZGVyLiI7CiAgICAgIGlmICgvYWxsb3dhbmNlL2kudGVzdChyZWFzb24pKSByZXR1cm4gIlRoZSBhcHByb3ZhbCBpcyBsb3dlciB0aGFuIHRoZSBvcmRlciB0b3RhbC4gQXBwcm92ZSBhZ2Fpbi4iOwogICAgICBpZiAocmVhc29uKSByZXR1cm4gcmVhc29uOwogICAgfQogICAgaWYgKC9pbnN1ZmZpY2llbnQgZnVuZHMvaS50ZXN0KGVycm9yLm1lc3NhZ2UpKSByZXR1cm4gIk5vdCBlbm91Z2ggdFFEQVkgZm9yIGdhcy4gR2V0IHNvbWUgZnJvbSB0aGUgZmF1Y2V0LCBvciB1c2UgR2FzbGVzcyBtb2RlLiI7CiAgICByZXR1cm4gZXJyb3Iuc2hvcnRNZXNzYWdlOwogIH0KICByZXR1cm4gZXJyb3IubWVzc2FnZTsKfQoKLyoqIFdhbGxldCBlcnJvcnMgb2Z0ZW4gaGlkZSB0aGUgcmVhbCByZWFzb24gaW4gYGNhdXNlYCBvciBgZGF0YS5jYXVzZWAuICovCmZ1bmN0aW9uIGZ1bGxNZXNzYWdlKGVycm9yOiB1bmtub3duLCBkZXB0aCA9IDApOiBzdHJpbmcgewogIGlmICghZXJyb3IgfHwgdHlwZW9mIGVycm9yICE9PSAib2JqZWN0IiB8fCBkZXB0aCA+IDUpIHJldHVybiAiIjsKICBjb25zdCBlID0gZXJyb3IgYXMgeyBtZXNzYWdlPzogdW5rbm93bjsgZGV0YWlscz86IHVua25vd247IGNhdXNlPzogdW5rbm93bjsgZGF0YT86IHsgY2F1c2U/OiB1bmtub3duOyBtZXNzYWdlPzogdW5rbm93biB9IH07CiAgcmV0dXJuIFtlLm1lc3NhZ2UsIGUuZGV0YWlscywgZS5kYXRhPy5tZXNzYWdlLCBmdWxsTWVzc2FnZShlLmNhdXNlLCBkZXB0aCArIDEpLCBmdWxsTWVzc2FnZShlLmRhdGE/LmNhdXNlLCBkZXB0aCArIDEpXQogICAgLmZpbHRlcigobSkgPT4gdHlwZW9mIG0gPT09ICJzdHJpbmciICYmIG0pCiAgICAuam9pbigiIHwgIik7Cn0K
+import { BaseError, ContractFunctionRevertedError, UserRejectedRequestError } from "viem";
+
+/** Turns wallet / RPC / revert errors into one sentence a user can act on. */
+export function explain(error: unknown): string {
+  if (!(error instanceof Error)) return "Something went wrong. Try again.";
+  // MetaMask won't add a network whose RPC URL another saved network already uses.
+  const dup = /same RPC endpoint as existing network for chain \w+ \('([^']*)'\)/.exec(fullMessage(error));
+  if (dup) return `Your wallet already has a network ("${dup[1]}") using the same RPC address. Edit or remove that network in your wallet, then try again.`;
+  if (error instanceof BaseError) {
+    if (error.walk((e) => e instanceof UserRejectedRequestError)) return "You cancelled the request in your wallet. Nothing was sent.";
+    const revert = error.walk((e) => e instanceof ContractFunctionRevertedError);
+    if (revert instanceof ContractFunctionRevertedError) {
+      const name = revert.data?.errorName;
+      if (name === "AlreadyPaid") return "This order is already paid. Start a new order.";
+      if (name === "ZeroAmount") return "The amount must be more than zero.";
+      const reason = revert.reason ?? "";
+      if (/invalid signature/i.test(reason)) return "The signature doesn't match this order or amount. Sign again.";
+      if (/expired/i.test(reason)) return "Your signature expired before it was submitted. Nothing was charged. Sign again.";
+      if (/exceeds balance|insufficient/i.test(reason)) return "Not enough tUSD8 in your wallet for this order.";
+      if (/allowance/i.test(reason)) return "The approval is lower than the order total. Approve again.";
+      if (reason) return reason;
+    }
+    if (/insufficient funds/i.test(error.message)) return "Not enough tQDAY for gas. Get some from the faucet, or use Gasless mode.";
+    return error.shortMessage;
+  }
+  return error.message;
+}
+
+/** Wallet errors often hide the real reason in `cause` or `data.cause`. */
+function fullMessage(error: unknown, depth = 0): string {
+  if (!error || typeof error !== "object" || depth > 5) return "";
+  const e = error as { message?: unknown; details?: unknown; cause?: unknown; data?: { cause?: unknown; message?: unknown } };
+  return [e.message, e.details, e.data?.message, fullMessage(e.cause, depth + 1), fullMessage(e.data?.cause, depth + 1)]
+    .filter((m) => typeof m === "string" && m)
+    .join(" | ");
+}
