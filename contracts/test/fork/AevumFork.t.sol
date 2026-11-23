@@ -1,1 +1,75 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgXjAuOC4yNDsKCmltcG9ydCB7VGVzdH0gZnJvbSAiZm9yZ2Utc3RkL1Rlc3Quc29sIjsKaW1wb3J0IHtJRVJDMjB9IGZyb20gIkBvcGVuemVwcGVsaW4vY29udHJhY3RzL3Rva2VuL0VSQzIwL0lFUkMyMC5zb2wiOwppbXBvcnQge0NoZWNrb3V0fSBmcm9tICIuLi8uLi9zcmMvQ2hlY2tvdXQuc29sIjsKaW1wb3J0IHtTaWduaW5nfSBmcm9tICIuLi9TaWduaW5nLnNvbCI7CgppbnRlcmZhY2UgSVRVU0Q4IGlzIElFUkMyMCB7CiAgICBmdW5jdGlvbiBET01BSU5fU0VQQVJBVE9SKCkgZXh0ZXJuYWwgdmlldyByZXR1cm5zIChieXRlczMyKTsKICAgIGZ1bmN0aW9uIGF1dGhvcml6YXRpb25TdGF0ZShhZGRyZXNzLCBieXRlczMyKSBleHRlcm5hbCB2aWV3IHJldHVybnMgKGJvb2wpOwp9CgovLy8gQG5vdGljZSBSdW5zIENoZWNrb3V0IGFnYWluc3QgdGhlIFJFQUwgdFVTRDggb24gYSBsb2NhbCBmb3JrIG9mIEFldnVtIHRlc3RuZXQuIE5vIGZ1bmRzIG5lZWRlZDoKLy8vICAgICAgICAgYGRlYWxgIHdyaXRlcyBhIGJhbGFuY2UgaW50byB0aGUgZm9yayBvbmx5LgovLy8gICAgICAgICBSdW4gd2l0aDogbWFrZSB0ZXN0LWZvcmsgICAob3I6IGZvcmdlIHRlc3QgLS1tYXRjaC1wYXRoICd0ZXN0L2ZvcmsvKicgLS1mb3JrLXVybCBhZXZ1bSAtLWV2bS12ZXJzaW9uIHNoYW5naGFpKQpjb250cmFjdCBBZXZ1bUZvcmtUZXN0IGlzIFRlc3QgewogICAgSVRVU0Q4IGNvbnN0YW50IFRVU0Q4ID0gSVRVU0Q4KDB4NDU2NTY5ODM4ZjFkNDMwMDlBOTFlYkE0MjYzMTQ3QWZkNzIzMzQ4Myk7CgogICAgZnVuY3Rpb24gdGVzdF9yZWFsVHVzZDhfZG9tYWluKCkgcHVibGljIHZpZXcgewogICAgICAgIGFzc2VydEVxKGJsb2NrLmNoYWluaWQsIDQ0MDA1LCAicnVuIHdpdGggLS1mb3JrLXVybCBhZXZ1bSIpOwogICAgICAgIGJ5dGVzMzIgZXhwZWN0ZWQgPSBrZWNjYWsyNTYoCiAgICAgICAgICAgIGFiaS5lbmNvZGUoCiAgICAgICAgICAgICAgICBrZWNjYWsyNTYoCiAgICAgICAgICAgICAgICAgICAgIkVJUDcxMkRvbWFpbihzdHJpbmcgbmFtZSxzdHJpbmcgdmVyc2lvbix1aW50MjU2IGNoYWluSWQsYWRkcmVzcyB2ZXJpZnlpbmdDb250cmFjdCkiCiAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAga2VjY2FrMjU2KCJ0VVNEOCIpLAogICAgICAgICAgICAgICAga2VjY2FrMjU2KCIyIiksCiAgICAgICAgICAgICAgICB1aW50MjU2KDQ0MDA1KSwKICAgICAgICAgICAgICAgIGFkZHJlc3MoVFVTRDgpCiAgICAgICAgICAgICkKICAgICAgICApOwogICAgICAgIGFzc2VydEVxKFRVU0Q4LkRPTUFJTl9TRVBBUkFUT1IoKSwgZXhwZWN0ZWQpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfcmVhbFR1c2Q4X3BheVdpdGhBdXRob3JpemF0aW9uKCkgcHVibGljIHsKICAgICAgICBhZGRyZXNzIG1lcmNoYW50ID0gbWFrZUFkZHIoIm1lcmNoYW50Iik7CiAgICAgICAgKGFkZHJlc3MgYnV5ZXIsIHVpbnQyNTYga2V5KSA9IG1ha2VBZGRyQW5kS2V5KCJidXllciIpOwogICAgICAgIENoZWNrb3V0IGNoZWNrb3V0ID0gbmV3IENoZWNrb3V0KFRVU0Q4LCBtZXJjaGFudCk7CiAgICAgICAgZGVhbChhZGRyZXNzKFRVU0Q4KSwgYnV5ZXIsIDEwZTYpOwoKICAgICAgICBieXRlczMyIG9yZGVySWQgPSBrZWNjYWsyNTYoImZvcmstb3JkZXIiKTsKICAgICAgICB1aW50MjU2IGRlYWRsaW5lID0gYmxvY2sudGltZXN0YW1wICsgMSBob3VyczsKICAgICAgICBTaWduaW5nLkF1dGggbWVtb3J5IGEgPSBTaWduaW5nLkF1dGgoewogICAgICAgICAgICBmcm9tOiBidXllciwKICAgICAgICAgICAgdG86IGFkZHJlc3MoY2hlY2tvdXQpLAogICAgICAgICAgICB2YWx1ZTogNWU2LAogICAgICAgICAgICB2YWxpZEFmdGVyOiAwLAogICAgICAgICAgICB2YWxpZEJlZm9yZTogZGVhZGxpbmUsCiAgICAgICAgICAgIG5vbmNlOiBjaGVja291dC5hdXRob3JpemF0aW9uTm9uY2Uob3JkZXJJZCkKICAgICAgICB9KTsKICAgICAgICAodWludDggdiwgYnl0ZXMzMiByLCBieXRlczMyIHMpID0gU2lnbmluZy5zaWduUmVjZWl2ZSh2bSwga2V5LCBUVVNEOC5ET01BSU5fU0VQQVJBVE9SKCksIGEpOwoKICAgICAgICB2bS5wcmFuayhtYWtlQWRkcigicmVsYXllciIpKTsKICAgICAgICBjaGVja291dC5wYXlXaXRoQXV0aG9yaXphdGlvbihvcmRlcklkLCBidXllciwgNWU2LCAwLCBkZWFkbGluZSwgdiwgciwgcyk7CgogICAgICAgIGFzc2VydEVxKFRVU0Q4LmJhbGFuY2VPZihtZXJjaGFudCksIDVlNik7CiAgICAgICAgYXNzZXJ0RXEoVFVTRDguYmFsYW5jZU9mKGJ1eWVyKSwgNWU2KTsKICAgICAgICBhc3NlcnRUcnVlKFRVU0Q4LmF1dGhvcml6YXRpb25TdGF0ZShidXllciwgY2hlY2tvdXQuYXV0aG9yaXphdGlvbk5vbmNlKG9yZGVySWQpKSk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9yZWFsVHVzZDhfYXBwcm92ZUFuZFBheSgpIHB1YmxpYyB7CiAgICAgICAgYWRkcmVzcyBtZXJjaGFudCA9IG1ha2VBZGRyKCJtZXJjaGFudCIpOwogICAgICAgIGFkZHJlc3MgYnV5ZXIgPSBtYWtlQWRkcigiYnV5ZXIiKTsKICAgICAgICBDaGVja291dCBjaGVja291dCA9IG5ldyBDaGVja291dChUVVNEOCwgbWVyY2hhbnQpOwogICAgICAgIGRlYWwoYWRkcmVzcyhUVVNEOCksIGJ1eWVyLCAxMGU2KTsKCiAgICAgICAgdm0uc3RhcnRQcmFuayhidXllcik7CiAgICAgICAgVFVTRDguYXBwcm92ZShhZGRyZXNzKGNoZWNrb3V0KSwgM2U2KTsKICAgICAgICBjaGVja291dC5wYXkoa2VjY2FrMjU2KCJmb3JrLW9yZGVyLTIiKSwgM2U2KTsKICAgICAgICB2bS5zdG9wUHJhbmsoKTsKCiAgICAgICAgYXNzZXJ0RXEoVFVTRDguYmFsYW5jZU9mKG1lcmNoYW50KSwgM2U2KTsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.24;
+
+import {Test} from "forge-std/Test.sol";
+import {IERC20} from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import {Checkout} from "../../src/Checkout.sol";
+import {Signing} from "../Signing.sol";
+
+interface ITUSD8 is IERC20 {
+    function DOMAIN_SEPARATOR() external view returns (bytes32);
+    function authorizationState(address, bytes32) external view returns (bool);
+}
+
+/// @notice Runs Checkout against the REAL tUSD8 on a local fork of Aevum testnet. No funds needed:
+///         `deal` writes a balance into the fork only.
+///         Run with: make test-fork   (or: forge test --match-path 'test/fork/*' --fork-url aevum --evm-version shanghai)
+contract AevumForkTest is Test {
+    ITUSD8 constant TUSD8 = ITUSD8(0x456569838f1d43009A91ebA4263147Afd7233483);
+
+    function test_realTusd8_domain() public view {
+        assertEq(block.chainid, 44005, "run with --fork-url aevum");
+        bytes32 expected = keccak256(
+            abi.encode(
+                keccak256(
+                    "EIP712Domain(string name,string version,uint256 chainId,address verifyingContract)"
+                ),
+                keccak256("tUSD8"),
+                keccak256("2"),
+                uint256(44005),
+                address(TUSD8)
+            )
+        );
+        assertEq(TUSD8.DOMAIN_SEPARATOR(), expected);
+    }
+
+    function test_realTusd8_payWithAuthorization() public {
+        address merchant = makeAddr("merchant");
+        (address buyer, uint256 key) = makeAddrAndKey("buyer");
+        Checkout checkout = new Checkout(TUSD8, merchant);
+        deal(address(TUSD8), buyer, 10e6);
+
+        bytes32 orderId = keccak256("fork-order");
+        uint256 deadline = block.timestamp + 1 hours;
+        Signing.Auth memory a = Signing.Auth({
+            from: buyer,
+            to: address(checkout),
+            value: 5e6,
+            validAfter: 0,
+            validBefore: deadline,
+            nonce: checkout.authorizationNonce(orderId)
+        });
+        (uint8 v, bytes32 r, bytes32 s) = Signing.signReceive(vm, key, TUSD8.DOMAIN_SEPARATOR(), a);
+
+        vm.prank(makeAddr("relayer"));
+        checkout.payWithAuthorization(orderId, buyer, 5e6, 0, deadline, v, r, s);
+
+        assertEq(TUSD8.balanceOf(merchant), 5e6);
+        assertEq(TUSD8.balanceOf(buyer), 5e6);
+        assertTrue(TUSD8.authorizationState(buyer, checkout.authorizationNonce(orderId)));
+    }
+
+    function test_realTusd8_approveAndPay() public {
+        address merchant = makeAddr("merchant");
+        address buyer = makeAddr("buyer");
+        Checkout checkout = new Checkout(TUSD8, merchant);
+        deal(address(TUSD8), buyer, 10e6);
+
+        vm.startPrank(buyer);
+        TUSD8.approve(address(checkout), 3e6);
+        checkout.pay(keccak256("fork-order-2"), 3e6);
+        vm.stopPrank();
+
+        assertEq(TUSD8.balanceOf(merchant), 3e6);
+    }
+}
