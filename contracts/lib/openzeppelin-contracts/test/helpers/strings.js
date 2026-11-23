@@ -1,1 +1,5 @@
-bW9kdWxlLmV4cG9ydHMgPSB7CiAgLy8gQ2FwaXRhbGl6ZSB0aGUgZmlyc3QgY2hhciBvZiBhIHN0cmluZwogIC8vIEV4YW1wbGU6IGNhcGl0YWxpemUoJ3VpbnQyNTYnKSDihpIgJ1VpbnQyNTYnCiAgY2FwaXRhbGl6ZTogc3RyID0+IHN0ci5jaGFyQXQoMCkudG9VcHBlckNhc2UoKSArIHN0ci5zbGljZSgxKSwKfTsK
+module.exports = {
+  // Capitalize the first char of a string
+  // Example: capitalize('uint256') → 'Uint256'
+  capitalize: str => str.charAt(0).toUpperCase() + str.slice(1),
+};
