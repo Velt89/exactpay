@@ -1,1 +1,36 @@
-aW1wb3J0IHR5cGUgeyBBYmlFdmVudCwgQWRkcmVzcywgR2V0TG9nc1JldHVyblR5cGUsIFB1YmxpY0NsaWVudCB9IGZyb20gInZpZW0iOwppbXBvcnQgeyBNQVhfTE9HX1JBTkdFIH0gZnJvbSAiLi9jaGFpbiI7CgpleHBvcnQgaW50ZXJmYWNlIENodW5rZWRMb2dzQXJnczxFIGV4dGVuZHMgQWJpRXZlbnQ+IHsKICBhZGRyZXNzOiBBZGRyZXNzOwogIGV2ZW50OiBFOwogIGFyZ3M/OiBSZWNvcmQ8c3RyaW5nLCB1bmtub3duPjsKICBmcm9tQmxvY2s6IGJpZ2ludDsKICB0b0Jsb2NrPzogYmlnaW50OwogIC8qKiBCbG9ja3MgcGVyIHJlcXVlc3QuIEFldnVtIHJlamVjdHMgbW9yZSB0aGFuIDEsMDAwLiAqLwogIHN0ZXA/OiBiaWdpbnQ7CiAgLyoqIENhbGxlZCBhZnRlciBlYWNoIGNodW5rOyBoYW5keSBmb3IgYSBwcm9ncmVzcyBiYXIuICovCiAgb25Qcm9ncmVzcz86IChkb25lOiBiaWdpbnQsIHRvdGFsOiBiaWdpbnQpID0+IHZvaWQ7Cn0KCi8qKgogKiBldGhfZ2V0TG9ncyBvdmVyIGFueSByYW5nZSwgc3BsaXQgaW50byDiiaQxLDAwMC1ibG9jayByZXF1ZXN0cyAoQWV2dW0ncyBsaW1pdCkuCiAqIFJlcXVlc3RzIHJ1biBvbmUgYWZ0ZXIgYW5vdGhlciB0byBzdGF5IGZyaWVuZGx5IHdpdGggdGhlIHB1YmxpYyBSUEMuCiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gZ2V0TG9nc0NodW5rZWQ8RSBleHRlbmRzIEFiaUV2ZW50PigKICBjbGllbnQ6IFB1YmxpY0NsaWVudCwKICB7IGFkZHJlc3MsIGV2ZW50LCBhcmdzLCBmcm9tQmxvY2ssIHRvQmxvY2ssIHN0ZXAgPSBNQVhfTE9HX1JBTkdFLCBvblByb2dyZXNzIH06IENodW5rZWRMb2dzQXJnczxFPiwKKTogUHJvbWlzZTxHZXRMb2dzUmV0dXJuVHlwZTxFPj4gewogIGlmIChzdGVwIDwgMW4gfHwgc3RlcCA+IE1BWF9MT0dfUkFOR0UpIHRocm93IG5ldyBFcnJvcihgc3RlcCBtdXN0IGJlIGJldHdlZW4gMSBhbmQgJHtNQVhfTE9HX1JBTkdFfWApOwogIGNvbnN0IGVuZCA9IHRvQmxvY2sgPz8gKGF3YWl0IGNsaWVudC5nZXRCbG9ja051bWJlcigpKTsKICBjb25zdCB0b3RhbCA9IGVuZCA+PSBmcm9tQmxvY2sgPyBlbmQgLSBmcm9tQmxvY2sgKyAxbiA6IDBuOwogIGNvbnN0IG91dDogdW5rbm93bltdID0gW107CiAgZm9yIChsZXQgc3RhcnQgPSBmcm9tQmxvY2s7IHN0YXJ0IDw9IGVuZDsgc3RhcnQgKz0gc3RlcCkgewogICAgY29uc3Qgc3RvcCA9IHN0YXJ0ICsgc3RlcCAtIDFuID4gZW5kID8gZW5kIDogc3RhcnQgKyBzdGVwIC0gMW47CiAgICAvLyBlc2xpbnQtZGlzYWJsZS1uZXh0LWxpbmUgQHR5cGVzY3JpcHQtZXNsaW50L25vLWV4cGxpY2l0LWFueQogICAgY29uc3QgbG9ncyA9IGF3YWl0IGNsaWVudC5nZXRMb2dzKHsgYWRkcmVzcywgZXZlbnQsIGFyZ3MsIGZyb21CbG9jazogc3RhcnQsIHRvQmxvY2s6IHN0b3AgfSBhcyBhbnkpOwogICAgb3V0LnB1c2goLi4ubG9ncyk7CiAgICBvblByb2dyZXNzPy4oc3RvcCAtIGZyb21CbG9jayArIDFuLCB0b3RhbCk7CiAgfQogIHJldHVybiBvdXQgYXMgR2V0TG9nc1JldHVyblR5cGU8RT47Cn0K
+import type { AbiEvent, Address, GetLogsReturnType, PublicClient } from "viem";
+import { MAX_LOG_RANGE } from "./chain";
+
+export interface ChunkedLogsArgs<E extends AbiEvent> {
+  address: Address;
+  event: E;
+  args?: Record<string, unknown>;
+  fromBlock: bigint;
+  toBlock?: bigint;
+  /** Blocks per request. Aevum rejects more than 1,000. */
+  step?: bigint;
+  /** Called after each chunk; handy for a progress bar. */
+  onProgress?: (done: bigint, total: bigint) => void;
+}
+
+/**
+ * eth_getLogs over any range, split into ≤1,000-block requests (Aevum's limit).
+ * Requests run one after another to stay friendly with the public RPC.
+ */
+export async function getLogsChunked<E extends AbiEvent>(
+  client: PublicClient,
+  { address, event, args, fromBlock, toBlock, step = MAX_LOG_RANGE, onProgress }: ChunkedLogsArgs<E>,
+): Promise<GetLogsReturnType<E>> {
+  if (step < 1n || step > MAX_LOG_RANGE) throw new Error(`step must be between 1 and ${MAX_LOG_RANGE}`);
+  const end = toBlock ?? (await client.getBlockNumber());
+  const total = end >= fromBlock ? end - fromBlock + 1n : 0n;
+  const out: unknown[] = [];
+  for (let start = fromBlock; start <= end; start += step) {
+    const stop = start + step - 1n > end ? end : start + step - 1n;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const logs = await client.getLogs({ address, event, args, fromBlock: start, toBlock: stop } as any);
+    out.push(...logs);
+    onProgress?.(stop - fromBlock + 1n, total);
+  }
+  return out as GetLogsReturnType<E>;
+}
