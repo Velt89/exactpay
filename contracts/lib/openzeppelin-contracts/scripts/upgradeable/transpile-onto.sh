@@ -1,1 +1,54 @@
-IyEvdXNyL2Jpbi9lbnYgYmFzaAoKc2V0IC1ldW8gcGlwZWZhaWwKCmlmIFsgJCMgLWx0IDEgXTsgdGhlbgogIGVjaG8gInVzYWdlOiBiYXNoICQwIDx0YXJnZXQ+IFs8YmFzZT5dIiA+JjIKICBleGl0IDEKZmkKCnNldCAteAoKdGFyZ2V0PSIkMSIKYmFzZT0iJHsyLX0iCgpiYXNoIHNjcmlwdHMvdXBncmFkZWFibGUvdHJhbnNwaWxlLnNoCgpjb21taXQ9IiQoZ2l0IHJldi1wYXJzZSAtLXNob3J0IEhFQUQpIgpzdGFydF9icmFuY2g9IiQoZ2l0IHJldi1wYXJzZSAtLWFiYnJldi1yZWYgSEVBRCkiCgpnaXQgYWRkIGNvbnRyYWN0cwoKIyBkZXRhY2ggZnJvbSB0aGUgY3VycmVudCBicmFuY2ggdG8gYXZvaWQgbWFraW5nIGNoYW5nZXMgdG8gaXQKZ2l0IGNoZWNrb3V0IC0tcXVpZXQgLS1kZXRhY2gKCiMgc3dpdGNoIHRvIHRoZSB0YXJnZXQgYnJhbmNoLCBjcmVhdGluZyBpdCBpZiBuZWNlc3NhcnkKaWYgZ2l0IHJldi1wYXJzZSAtcSAtLXZlcmlmeSAiJHRhcmdldCI7IHRoZW4KICAjIGlmIHRoZSBicmFuY2ggZXhpc3RzLCBtYWtlIGl0IHRoZSBjdXJyZW50IEhFQUQgd2l0aG91dCBjaGVja2luZyBvdXQgaXRzIGNvbnRlbnRzCiAgZ2l0IHJlc2V0IC0tc29mdCAiJHRhcmdldCIKICBnaXQgY2hlY2tvdXQgIiR0YXJnZXQiCmVsc2UKICAjIGlmIHRoZSBicmFuY2ggZG9lc24ndCBleGlzdCwgY3JlYXRlIGl0IGFzIGFuIG9ycGhhbiBhbmQgY2hlY2sgaXQgb3V0CiAgZ2l0IGNoZWNrb3V0IC0tb3JwaGFuICIkdGFyZ2V0IgogIGlmIFsgLW4gIiRiYXNlIiBdICYmIGdpdCByZXYtcGFyc2UgLXEgLS12ZXJpZnkgIiRiYXNlIjsgdGhlbgogICAgIyBpZiBiYXNlIHdhcyBzcGVjaWZpZWQgYW5kIGl0IGV4aXN0cywgc2V0IGl0IGFzIHRoZSBicmFuY2ggaGlzdG9yeQogICAgZ2l0IHJlc2V0IC0tc29mdCAiJGJhc2UiCiAgZmkKZmkKCiMgYWJvcnQgaWYgdGhlcmUgYXJlIG5vIGNoYW5nZXMgdG8gY29tbWl0IGF0IHRoaXMgcG9pbnQKaWYgZ2l0IGRpZmYgLS1xdWlldCAtLWNhY2hlZDsgdGhlbgogIGV4aXQKZmkKCmlmIFtbIC12IFNVQk1PRFVMRV9SRU1PVEUgXV07IHRoZW4KICBsaWI9bGliL29wZW56ZXBwZWxpbi1jb250cmFjdHMKICBnaXQgc3VibW9kdWxlIGFkZCAtYiAiJHtiYXNlI29yaWdpbi99IiAiJFNVQk1PRFVMRV9SRU1PVEUiICIkbGliIgogIGdpdCAtQyAiJGxpYiIgY2hlY2tvdXQgIiRjb21taXQiCiAgZ2l0IGFkZCAiJGxpYiIKZmkKCmdpdCBjb21taXQgLW0gIlRyYW5zcGlsZSAkY29tbWl0IgoKIyByZXR1cm4gdG8gb3JpZ2luYWwgYnJhbmNoCmdpdCBjaGVja291dCAiJHN0YXJ0X2JyYW5jaCIK
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+if [ $# -lt 1 ]; then
+  echo "usage: bash $0 <target> [<base>]" >&2
+  exit 1
+fi
+
+set -x
+
+target="$1"
+base="${2-}"
+
+bash scripts/upgradeable/transpile.sh
+
+commit="$(git rev-parse --short HEAD)"
+start_branch="$(git rev-parse --abbrev-ref HEAD)"
+
+git add contracts
+
+# detach from the current branch to avoid making changes to it
+git checkout --quiet --detach
+
+# switch to the target branch, creating it if necessary
+if git rev-parse -q --verify "$target"; then
+  # if the branch exists, make it the current HEAD without checking out its contents
+  git reset --soft "$target"
+  git checkout "$target"
+else
+  # if the branch doesn't exist, create it as an orphan and check it out
+  git checkout --orphan "$target"
+  if [ -n "$base" ] && git rev-parse -q --verify "$base"; then
+    # if base was specified and it exists, set it as the branch history
+    git reset --soft "$base"
+  fi
+fi
+
+# abort if there are no changes to commit at this point
+if git diff --quiet --cached; then
+  exit
+fi
+
+if [[ -v SUBMODULE_REMOTE ]]; then
+  lib=lib/openzeppelin-contracts
+  git submodule add -b "${base#origin/}" "$SUBMODULE_REMOTE" "$lib"
+  git -C "$lib" checkout "$commit"
+  git add "$lib"
+fi
+
+git commit -m "Transpile $commit"
+
+# return to original branch
+git checkout "$start_branch"
