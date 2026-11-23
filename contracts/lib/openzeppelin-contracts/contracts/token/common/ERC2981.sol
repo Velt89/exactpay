@@ -1,1 +1,143 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodG9rZW4vY29tbW9uL0VSQzI5ODEuc29sKQoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0lFUkMyOTgxfSBmcm9tICIuLi8uLi9pbnRlcmZhY2VzL0lFUkMyOTgxLnNvbCI7CmltcG9ydCB7SUVSQzE2NSwgRVJDMTY1fSBmcm9tICIuLi8uLi91dGlscy9pbnRyb3NwZWN0aW9uL0VSQzE2NS5zb2wiOwoKLyoqCiAqIEBkZXYgSW1wbGVtZW50YXRpb24gb2YgdGhlIE5GVCBSb3lhbHR5IFN0YW5kYXJkLCBhIHN0YW5kYXJkaXplZCB3YXkgdG8gcmV0cmlldmUgcm95YWx0eSBwYXltZW50IGluZm9ybWF0aW9uLgogKgogKiBSb3lhbHR5IGluZm9ybWF0aW9uIGNhbiBiZSBzcGVjaWZpZWQgZ2xvYmFsbHkgZm9yIGFsbCB0b2tlbiBpZHMgdmlhIHtfc2V0RGVmYXVsdFJveWFsdHl9LCBhbmQvb3IgaW5kaXZpZHVhbGx5IGZvcgogKiBzcGVjaWZpYyB0b2tlbiBpZHMgdmlhIHtfc2V0VG9rZW5Sb3lhbHR5fS4gVGhlIGxhdHRlciB0YWtlcyBwcmVjZWRlbmNlIG92ZXIgdGhlIGZpcnN0LgogKgogKiBSb3lhbHR5IGlzIHNwZWNpZmllZCBhcyBhIGZyYWN0aW9uIG9mIHNhbGUgcHJpY2UuIHtfZmVlRGVub21pbmF0b3J9IGlzIG92ZXJyaWRhYmxlIGJ1dCBkZWZhdWx0cyB0byAxMDAwMCwgbWVhbmluZyB0aGUKICogZmVlIGlzIHNwZWNpZmllZCBpbiBiYXNpcyBwb2ludHMgYnkgZGVmYXVsdC4KICoKICogSU1QT1JUQU5UOiBFUkMtMjk4MSBvbmx5IHNwZWNpZmllcyBhIHdheSB0byBzaWduYWwgcm95YWx0eSBpbmZvcm1hdGlvbiBhbmQgZG9lcyBub3QgZW5mb3JjZSBpdHMgcGF5bWVudC4gU2VlCiAqIGh0dHBzOi8vZWlwcy5ldGhlcmV1bS5vcmcvRUlQUy9laXAtMjk4MSNvcHRpb25hbC1yb3lhbHR5LXBheW1lbnRzW1JhdGlvbmFsZV0gaW4gdGhlIEVSQy4gTWFya2V0cGxhY2VzIGFyZSBleHBlY3RlZCB0bwogKiB2b2x1bnRhcmlseSBwYXkgcm95YWx0aWVzIHRvZ2V0aGVyIHdpdGggc2FsZXMsIGJ1dCBub3RlIHRoYXQgdGhpcyBzdGFuZGFyZCBpcyBub3QgeWV0IHdpZGVseSBzdXBwb3J0ZWQuCiAqLwphYnN0cmFjdCBjb250cmFjdCBFUkMyOTgxIGlzIElFUkMyOTgxLCBFUkMxNjUgewogICAgc3RydWN0IFJveWFsdHlJbmZvIHsKICAgICAgICBhZGRyZXNzIHJlY2VpdmVyOwogICAgICAgIHVpbnQ5NiByb3lhbHR5RnJhY3Rpb247CiAgICB9CgogICAgUm95YWx0eUluZm8gcHJpdmF0ZSBfZGVmYXVsdFJveWFsdHlJbmZvOwogICAgbWFwcGluZyh1aW50MjU2IHRva2VuSWQgPT4gUm95YWx0eUluZm8pIHByaXZhdGUgX3Rva2VuUm95YWx0eUluZm87CgogICAgLyoqCiAgICAgKiBAZGV2IFRoZSBkZWZhdWx0IHJveWFsdHkgc2V0IGlzIGludmFsaWQgKGVnLiAobnVtZXJhdG9yIC8gZGVub21pbmF0b3IpID49IDEpLgogICAgICovCiAgICBlcnJvciBFUkMyOTgxSW52YWxpZERlZmF1bHRSb3lhbHR5KHVpbnQyNTYgbnVtZXJhdG9yLCB1aW50MjU2IGRlbm9taW5hdG9yKTsKCiAgICAvKioKICAgICAqIEBkZXYgVGhlIGRlZmF1bHQgcm95YWx0eSByZWNlaXZlciBpcyBpbnZhbGlkLgogICAgICovCiAgICBlcnJvciBFUkMyOTgxSW52YWxpZERlZmF1bHRSb3lhbHR5UmVjZWl2ZXIoYWRkcmVzcyByZWNlaXZlcik7CgogICAgLyoqCiAgICAgKiBAZGV2IFRoZSByb3lhbHR5IHNldCBmb3IgYW4gc3BlY2lmaWMgYHRva2VuSWRgIGlzIGludmFsaWQgKGVnLiAobnVtZXJhdG9yIC8gZGVub21pbmF0b3IpID49IDEpLgogICAgICovCiAgICBlcnJvciBFUkMyOTgxSW52YWxpZFRva2VuUm95YWx0eSh1aW50MjU2IHRva2VuSWQsIHVpbnQyNTYgbnVtZXJhdG9yLCB1aW50MjU2IGRlbm9taW5hdG9yKTsKCiAgICAvKioKICAgICAqIEBkZXYgVGhlIHJveWFsdHkgcmVjZWl2ZXIgZm9yIGB0b2tlbklkYCBpcyBpbnZhbGlkLgogICAgICovCiAgICBlcnJvciBFUkMyOTgxSW52YWxpZFRva2VuUm95YWx0eVJlY2VpdmVyKHVpbnQyNTYgdG9rZW5JZCwgYWRkcmVzcyByZWNlaXZlcik7CgogICAgLyoqCiAgICAgKiBAZGV2IFNlZSB7SUVSQzE2NS1zdXBwb3J0c0ludGVyZmFjZX0uCiAgICAgKi8KICAgIGZ1bmN0aW9uIHN1cHBvcnRzSW50ZXJmYWNlKGJ5dGVzNCBpbnRlcmZhY2VJZCkgcHVibGljIHZpZXcgdmlydHVhbCBvdmVycmlkZShJRVJDMTY1LCBFUkMxNjUpIHJldHVybnMgKGJvb2wpIHsKICAgICAgICByZXR1cm4gaW50ZXJmYWNlSWQgPT0gdHlwZShJRVJDMjk4MSkuaW50ZXJmYWNlSWQgfHwgc3VwZXIuc3VwcG9ydHNJbnRlcmZhY2UoaW50ZXJmYWNlSWQpOwogICAgfQoKICAgIC8qKgogICAgICogQGluaGVyaXRkb2MgSUVSQzI5ODEKICAgICAqLwogICAgZnVuY3Rpb24gcm95YWx0eUluZm8oCiAgICAgICAgdWludDI1NiB0b2tlbklkLAogICAgICAgIHVpbnQyNTYgc2FsZVByaWNlCiAgICApIHB1YmxpYyB2aWV3IHZpcnR1YWwgcmV0dXJucyAoYWRkcmVzcyByZWNlaXZlciwgdWludDI1NiBhbW91bnQpIHsKICAgICAgICBSb3lhbHR5SW5mbyBzdG9yYWdlIF9yb3lhbHR5SW5mbyA9IF90b2tlblJveWFsdHlJbmZvW3Rva2VuSWRdOwogICAgICAgIGFkZHJlc3Mgcm95YWx0eVJlY2VpdmVyID0gX3JveWFsdHlJbmZvLnJlY2VpdmVyOwogICAgICAgIHVpbnQ5NiByb3lhbHR5RnJhY3Rpb24gPSBfcm95YWx0eUluZm8ucm95YWx0eUZyYWN0aW9uOwoKICAgICAgICBpZiAocm95YWx0eVJlY2VpdmVyID09IGFkZHJlc3MoMCkpIHsKICAgICAgICAgICAgcm95YWx0eVJlY2VpdmVyID0gX2RlZmF1bHRSb3lhbHR5SW5mby5yZWNlaXZlcjsKICAgICAgICAgICAgcm95YWx0eUZyYWN0aW9uID0gX2RlZmF1bHRSb3lhbHR5SW5mby5yb3lhbHR5RnJhY3Rpb247CiAgICAgICAgfQoKICAgICAgICB1aW50MjU2IHJveWFsdHlBbW91bnQgPSAoc2FsZVByaWNlICogcm95YWx0eUZyYWN0aW9uKSAvIF9mZWVEZW5vbWluYXRvcigpOwoKICAgICAgICByZXR1cm4gKHJveWFsdHlSZWNlaXZlciwgcm95YWx0eUFtb3VudCk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFRoZSBkZW5vbWluYXRvciB3aXRoIHdoaWNoIHRvIGludGVycHJldCB0aGUgZmVlIHNldCBpbiB7X3NldFRva2VuUm95YWx0eX0gYW5kIHtfc2V0RGVmYXVsdFJveWFsdHl9IGFzIGEKICAgICAqIGZyYWN0aW9uIG9mIHRoZSBzYWxlIHByaWNlLiBEZWZhdWx0cyB0byAxMDAwMCBzbyBmZWVzIGFyZSBleHByZXNzZWQgaW4gYmFzaXMgcG9pbnRzLCBidXQgbWF5IGJlIGN1c3RvbWl6ZWQgYnkgYW4KICAgICAqIG92ZXJyaWRlLgogICAgICovCiAgICBmdW5jdGlvbiBfZmVlRGVub21pbmF0b3IoKSBpbnRlcm5hbCBwdXJlIHZpcnR1YWwgcmV0dXJucyAodWludDk2KSB7CiAgICAgICAgcmV0dXJuIDEwMDAwOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBTZXRzIHRoZSByb3lhbHR5IGluZm9ybWF0aW9uIHRoYXQgYWxsIGlkcyBpbiB0aGlzIGNvbnRyYWN0IHdpbGwgZGVmYXVsdCB0by4KICAgICAqCiAgICAgKiBSZXF1aXJlbWVudHM6CiAgICAgKgogICAgICogLSBgcmVjZWl2ZXJgIGNhbm5vdCBiZSB0aGUgemVybyBhZGRyZXNzLgogICAgICogLSBgZmVlTnVtZXJhdG9yYCBjYW5ub3QgYmUgZ3JlYXRlciB0aGFuIHRoZSBmZWUgZGVub21pbmF0b3IuCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9zZXREZWZhdWx0Um95YWx0eShhZGRyZXNzIHJlY2VpdmVyLCB1aW50OTYgZmVlTnVtZXJhdG9yKSBpbnRlcm5hbCB2aXJ0dWFsIHsKICAgICAgICB1aW50MjU2IGRlbm9taW5hdG9yID0gX2ZlZURlbm9taW5hdG9yKCk7CiAgICAgICAgaWYgKGZlZU51bWVyYXRvciA+IGRlbm9taW5hdG9yKSB7CiAgICAgICAgICAgIC8vIFJveWFsdHkgZmVlIHdpbGwgZXhjZWVkIHRoZSBzYWxlIHByaWNlCiAgICAgICAgICAgIHJldmVydCBFUkMyOTgxSW52YWxpZERlZmF1bHRSb3lhbHR5KGZlZU51bWVyYXRvciwgZGVub21pbmF0b3IpOwogICAgICAgIH0KICAgICAgICBpZiAocmVjZWl2ZXIgPT0gYWRkcmVzcygwKSkgewogICAgICAgICAgICByZXZlcnQgRVJDMjk4MUludmFsaWREZWZhdWx0Um95YWx0eVJlY2VpdmVyKGFkZHJlc3MoMCkpOwogICAgICAgIH0KCiAgICAgICAgX2RlZmF1bHRSb3lhbHR5SW5mbyA9IFJveWFsdHlJbmZvKHJlY2VpdmVyLCBmZWVOdW1lcmF0b3IpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBSZW1vdmVzIGRlZmF1bHQgcm95YWx0eSBpbmZvcm1hdGlvbi4KICAgICAqLwogICAgZnVuY3Rpb24gX2RlbGV0ZURlZmF1bHRSb3lhbHR5KCkgaW50ZXJuYWwgdmlydHVhbCB7CiAgICAgICAgZGVsZXRlIF9kZWZhdWx0Um95YWx0eUluZm87CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFNldHMgdGhlIHJveWFsdHkgaW5mb3JtYXRpb24gZm9yIGEgc3BlY2lmaWMgdG9rZW4gaWQsIG92ZXJyaWRpbmcgdGhlIGdsb2JhbCBkZWZhdWx0LgogICAgICoKICAgICAqIFJlcXVpcmVtZW50czoKICAgICAqCiAgICAgKiAtIGByZWNlaXZlcmAgY2Fubm90IGJlIHRoZSB6ZXJvIGFkZHJlc3MuCiAgICAgKiAtIGBmZWVOdW1lcmF0b3JgIGNhbm5vdCBiZSBncmVhdGVyIHRoYW4gdGhlIGZlZSBkZW5vbWluYXRvci4KICAgICAqLwogICAgZnVuY3Rpb24gX3NldFRva2VuUm95YWx0eSh1aW50MjU2IHRva2VuSWQsIGFkZHJlc3MgcmVjZWl2ZXIsIHVpbnQ5NiBmZWVOdW1lcmF0b3IpIGludGVybmFsIHZpcnR1YWwgewogICAgICAgIHVpbnQyNTYgZGVub21pbmF0b3IgPSBfZmVlRGVub21pbmF0b3IoKTsKICAgICAgICBpZiAoZmVlTnVtZXJhdG9yID4gZGVub21pbmF0b3IpIHsKICAgICAgICAgICAgLy8gUm95YWx0eSBmZWUgd2lsbCBleGNlZWQgdGhlIHNhbGUgcHJpY2UKICAgICAgICAgICAgcmV2ZXJ0IEVSQzI5ODFJbnZhbGlkVG9rZW5Sb3lhbHR5KHRva2VuSWQsIGZlZU51bWVyYXRvciwgZGVub21pbmF0b3IpOwogICAgICAgIH0KICAgICAgICBpZiAocmVjZWl2ZXIgPT0gYWRkcmVzcygwKSkgewogICAgICAgICAgICByZXZlcnQgRVJDMjk4MUludmFsaWRUb2tlblJveWFsdHlSZWNlaXZlcih0b2tlbklkLCBhZGRyZXNzKDApKTsKICAgICAgICB9CgogICAgICAgIF90b2tlblJveWFsdHlJbmZvW3Rva2VuSWRdID0gUm95YWx0eUluZm8ocmVjZWl2ZXIsIGZlZU51bWVyYXRvcik7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJlc2V0cyByb3lhbHR5IGluZm9ybWF0aW9uIGZvciB0aGUgdG9rZW4gaWQgYmFjayB0byB0aGUgZ2xvYmFsIGRlZmF1bHQuCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9yZXNldFRva2VuUm95YWx0eSh1aW50MjU2IHRva2VuSWQpIGludGVybmFsIHZpcnR1YWwgewogICAgICAgIGRlbGV0ZSBfdG9rZW5Sb3lhbHR5SW5mb1t0b2tlbklkXTsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (token/common/ERC2981.sol)
+
+pragma solidity ^0.8.20;
+
+import {IERC2981} from "../../interfaces/IERC2981.sol";
+import {IERC165, ERC165} from "../../utils/introspection/ERC165.sol";
+
+/**
+ * @dev Implementation of the NFT Royalty Standard, a standardized way to retrieve royalty payment information.
+ *
+ * Royalty information can be specified globally for all token ids via {_setDefaultRoyalty}, and/or individually for
+ * specific token ids via {_setTokenRoyalty}. The latter takes precedence over the first.
+ *
+ * Royalty is specified as a fraction of sale price. {_feeDenominator} is overridable but defaults to 10000, meaning the
+ * fee is specified in basis points by default.
+ *
+ * IMPORTANT: ERC-2981 only specifies a way to signal royalty information and does not enforce its payment. See
+ * https://eips.ethereum.org/EIPS/eip-2981#optional-royalty-payments[Rationale] in the ERC. Marketplaces are expected to
+ * voluntarily pay royalties together with sales, but note that this standard is not yet widely supported.
+ */
+abstract contract ERC2981 is IERC2981, ERC165 {
+    struct RoyaltyInfo {
+        address receiver;
+        uint96 royaltyFraction;
+    }
+
+    RoyaltyInfo private _defaultRoyaltyInfo;
+    mapping(uint256 tokenId => RoyaltyInfo) private _tokenRoyaltyInfo;
+
+    /**
+     * @dev The default royalty set is invalid (eg. (numerator / denominator) >= 1).
+     */
+    error ERC2981InvalidDefaultRoyalty(uint256 numerator, uint256 denominator);
+
+    /**
+     * @dev The default royalty receiver is invalid.
+     */
+    error ERC2981InvalidDefaultRoyaltyReceiver(address receiver);
+
+    /**
+     * @dev The royalty set for an specific `tokenId` is invalid (eg. (numerator / denominator) >= 1).
+     */
+    error ERC2981InvalidTokenRoyalty(uint256 tokenId, uint256 numerator, uint256 denominator);
+
+    /**
+     * @dev The royalty receiver for `tokenId` is invalid.
+     */
+    error ERC2981InvalidTokenRoyaltyReceiver(uint256 tokenId, address receiver);
+
+    /**
+     * @dev See {IERC165-supportsInterface}.
+     */
+    function supportsInterface(bytes4 interfaceId) public view virtual override(IERC165, ERC165) returns (bool) {
+        return interfaceId == type(IERC2981).interfaceId || super.supportsInterface(interfaceId);
+    }
+
+    /**
+     * @inheritdoc IERC2981
+     */
+    function royaltyInfo(
+        uint256 tokenId,
+        uint256 salePrice
+    ) public view virtual returns (address receiver, uint256 amount) {
+        RoyaltyInfo storage _royaltyInfo = _tokenRoyaltyInfo[tokenId];
+        address royaltyReceiver = _royaltyInfo.receiver;
+        uint96 royaltyFraction = _royaltyInfo.royaltyFraction;
+
+        if (royaltyReceiver == address(0)) {
+            royaltyReceiver = _defaultRoyaltyInfo.receiver;
+            royaltyFraction = _defaultRoyaltyInfo.royaltyFraction;
+        }
+
+        uint256 royaltyAmount = (salePrice * royaltyFraction) / _feeDenominator();
+
+        return (royaltyReceiver, royaltyAmount);
+    }
+
+    /**
+     * @dev The denominator with which to interpret the fee set in {_setTokenRoyalty} and {_setDefaultRoyalty} as a
+     * fraction of the sale price. Defaults to 10000 so fees are expressed in basis points, but may be customized by an
+     * override.
+     */
+    function _feeDenominator() internal pure virtual returns (uint96) {
+        return 10000;
+    }
+
+    /**
+     * @dev Sets the royalty information that all ids in this contract will default to.
+     *
+     * Requirements:
+     *
+     * - `receiver` cannot be the zero address.
+     * - `feeNumerator` cannot be greater than the fee denominator.
+     */
+    function _setDefaultRoyalty(address receiver, uint96 feeNumerator) internal virtual {
+        uint256 denominator = _feeDenominator();
+        if (feeNumerator > denominator) {
+            // Royalty fee will exceed the sale price
+            revert ERC2981InvalidDefaultRoyalty(feeNumerator, denominator);
+        }
+        if (receiver == address(0)) {
+            revert ERC2981InvalidDefaultRoyaltyReceiver(address(0));
+        }
+
+        _defaultRoyaltyInfo = RoyaltyInfo(receiver, feeNumerator);
+    }
+
+    /**
+     * @dev Removes default royalty information.
+     */
+    function _deleteDefaultRoyalty() internal virtual {
+        delete _defaultRoyaltyInfo;
+    }
+
+    /**
+     * @dev Sets the royalty information for a specific token id, overriding the global default.
+     *
+     * Requirements:
+     *
+     * - `receiver` cannot be the zero address.
+     * - `feeNumerator` cannot be greater than the fee denominator.
+     */
+    function _setTokenRoyalty(uint256 tokenId, address receiver, uint96 feeNumerator) internal virtual {
+        uint256 denominator = _feeDenominator();
+        if (feeNumerator > denominator) {
+            // Royalty fee will exceed the sale price
+            revert ERC2981InvalidTokenRoyalty(tokenId, feeNumerator, denominator);
+        }
+        if (receiver == address(0)) {
+            revert ERC2981InvalidTokenRoyaltyReceiver(tokenId, address(0));
+        }
+
+        _tokenRoyaltyInfo[tokenId] = RoyaltyInfo(receiver, feeNumerator);
+    }
+
+    /**
+     * @dev Resets royalty information for the token id back to the global default.
+     */
+    function _resetTokenRoyalty(uint256 tokenId) internal virtual {
+        delete _tokenRoyaltyInfo[tokenId];
+    }
+}
