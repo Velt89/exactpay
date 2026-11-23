@@ -1,1 +1,14 @@
-Ly8gY29udHJhY3RzL0FjY2Vzc0NvbnRyb2xNb2RpZmllZC5zb2wKLy8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7QWNjZXNzQ29udHJvbH0gZnJvbSAiLi4vLi4vLi4vYWNjZXNzL0FjY2Vzc0NvbnRyb2wuc29sIjsKCmNvbnRyYWN0IEFjY2Vzc0NvbnRyb2xNb2RpZmllZCBpcyBBY2Nlc3NDb250cm9sIHsKICAgIGVycm9yIEFjY2Vzc0NvbnRyb2xOb25SZXZva2FibGUoKTsKCiAgICAvLyBPdmVycmlkZSB0aGUgcmV2b2tlUm9sZSBmdW5jdGlvbgogICAgZnVuY3Rpb24gcmV2b2tlUm9sZShieXRlczMyLCBhZGRyZXNzKSBwdWJsaWMgcHVyZSBvdmVycmlkZSB7CiAgICAgICAgcmV2ZXJ0IEFjY2Vzc0NvbnRyb2xOb25SZXZva2FibGUoKTsKICAgIH0KfQo=
+// contracts/AccessControlModified.sol
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+import {AccessControl} from "../../../access/AccessControl.sol";
+
+contract AccessControlModified is AccessControl {
+    error AccessControlNonRevokable();
+
+    // Override the revokeRole function
+    function revokeRole(bytes32, address) public pure override {
+        revert AccessControlNonRevokable();
+    }
+}
