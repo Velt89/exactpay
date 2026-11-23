@@ -1,1 +1,116 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodXRpbHMvU3RyaW5ncy5zb2wpCgpwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7TWF0aH0gZnJvbSAiLi9tYXRoL01hdGguc29sIjsKaW1wb3J0IHtTaWduZWRNYXRofSBmcm9tICIuL21hdGgvU2lnbmVkTWF0aC5zb2wiOwoKLyoqCiAqIEBkZXYgU3RyaW5nIG9wZXJhdGlvbnMuCiAqLwpsaWJyYXJ5IFN0cmluZ3MgewogICAgYnl0ZXMxNiBwcml2YXRlIGNvbnN0YW50IEhFWF9ESUdJVFMgPSAiMDEyMzQ1Njc4OWFiY2RlZiI7CiAgICB1aW50OCBwcml2YXRlIGNvbnN0YW50IEFERFJFU1NfTEVOR1RIID0gMjA7CgogICAgLyoqCiAgICAgKiBAZGV2IFRoZSBgdmFsdWVgIHN0cmluZyBkb2Vzbid0IGZpdCBpbiB0aGUgc3BlY2lmaWVkIGBsZW5ndGhgLgogICAgICovCiAgICBlcnJvciBTdHJpbmdzSW5zdWZmaWNpZW50SGV4TGVuZ3RoKHVpbnQyNTYgdmFsdWUsIHVpbnQyNTYgbGVuZ3RoKTsKCiAgICAvKioKICAgICAqIEBkZXYgQ29udmVydHMgYSBgdWludDI1NmAgdG8gaXRzIEFTQ0lJIGBzdHJpbmdgIGRlY2ltYWwgcmVwcmVzZW50YXRpb24uCiAgICAgKi8KICAgIGZ1bmN0aW9uIHRvU3RyaW5nKHVpbnQyNTYgdmFsdWUpIGludGVybmFsIHB1cmUgcmV0dXJucyAoc3RyaW5nIG1lbW9yeSkgewogICAgICAgIHVuY2hlY2tlZCB7CiAgICAgICAgICAgIHVpbnQyNTYgbGVuZ3RoID0gTWF0aC5sb2cxMCh2YWx1ZSkgKyAxOwogICAgICAgICAgICBzdHJpbmcgbWVtb3J5IGJ1ZmZlciA9IG5ldyBzdHJpbmcobGVuZ3RoKTsKICAgICAgICAgICAgdWludDI1NiBwdHI7CiAgICAgICAgICAgIGFzc2VtYmx5ICgibWVtb3J5LXNhZmUiKSB7CiAgICAgICAgICAgICAgICBwdHIgOj0gYWRkKGJ1ZmZlciwgYWRkKDMyLCBsZW5ndGgpKQogICAgICAgICAgICB9CiAgICAgICAgICAgIHdoaWxlICh0cnVlKSB7CiAgICAgICAgICAgICAgICBwdHItLTsKICAgICAgICAgICAgICAgIGFzc2VtYmx5ICgibWVtb3J5LXNhZmUiKSB7CiAgICAgICAgICAgICAgICAgICAgbXN0b3JlOChwdHIsIGJ5dGUobW9kKHZhbHVlLCAxMCksIEhFWF9ESUdJVFMpKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgdmFsdWUgLz0gMTA7CiAgICAgICAgICAgICAgICBpZiAodmFsdWUgPT0gMCkgYnJlYWs7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuIGJ1ZmZlcjsKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IENvbnZlcnRzIGEgYGludDI1NmAgdG8gaXRzIEFTQ0lJIGBzdHJpbmdgIGRlY2ltYWwgcmVwcmVzZW50YXRpb24uCiAgICAgKi8KICAgIGZ1bmN0aW9uIHRvU3RyaW5nU2lnbmVkKGludDI1NiB2YWx1ZSkgaW50ZXJuYWwgcHVyZSByZXR1cm5zIChzdHJpbmcgbWVtb3J5KSB7CiAgICAgICAgcmV0dXJuIHN0cmluZy5jb25jYXQodmFsdWUgPCAwID8gIi0iIDogIiIsIHRvU3RyaW5nKFNpZ25lZE1hdGguYWJzKHZhbHVlKSkpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBDb252ZXJ0cyBhIGB1aW50MjU2YCB0byBpdHMgQVNDSUkgYHN0cmluZ2AgaGV4YWRlY2ltYWwgcmVwcmVzZW50YXRpb24uCiAgICAgKi8KICAgIGZ1bmN0aW9uIHRvSGV4U3RyaW5nKHVpbnQyNTYgdmFsdWUpIGludGVybmFsIHB1cmUgcmV0dXJucyAoc3RyaW5nIG1lbW9yeSkgewogICAgICAgIHVuY2hlY2tlZCB7CiAgICAgICAgICAgIHJldHVybiB0b0hleFN0cmluZyh2YWx1ZSwgTWF0aC5sb2cyNTYodmFsdWUpICsgMSk7CiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICogQGRldiBDb252ZXJ0cyBhIGB1aW50MjU2YCB0byBpdHMgQVNDSUkgYHN0cmluZ2AgaGV4YWRlY2ltYWwgcmVwcmVzZW50YXRpb24gd2l0aCBmaXhlZCBsZW5ndGguCiAgICAgKi8KICAgIGZ1bmN0aW9uIHRvSGV4U3RyaW5nKHVpbnQyNTYgdmFsdWUsIHVpbnQyNTYgbGVuZ3RoKSBpbnRlcm5hbCBwdXJlIHJldHVybnMgKHN0cmluZyBtZW1vcnkpIHsKICAgICAgICB1aW50MjU2IGxvY2FsVmFsdWUgPSB2YWx1ZTsKICAgICAgICBieXRlcyBtZW1vcnkgYnVmZmVyID0gbmV3IGJ5dGVzKDIgKiBsZW5ndGggKyAyKTsKICAgICAgICBidWZmZXJbMF0gPSAiMCI7CiAgICAgICAgYnVmZmVyWzFdID0gIngiOwogICAgICAgIGZvciAodWludDI1NiBpID0gMiAqIGxlbmd0aCArIDE7IGkgPiAxOyAtLWkpIHsKICAgICAgICAgICAgYnVmZmVyW2ldID0gSEVYX0RJR0lUU1tsb2NhbFZhbHVlICYgMHhmXTsKICAgICAgICAgICAgbG9jYWxWYWx1ZSA+Pj0gNDsKICAgICAgICB9CiAgICAgICAgaWYgKGxvY2FsVmFsdWUgIT0gMCkgewogICAgICAgICAgICByZXZlcnQgU3RyaW5nc0luc3VmZmljaWVudEhleExlbmd0aCh2YWx1ZSwgbGVuZ3RoKTsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIHN0cmluZyhidWZmZXIpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBDb252ZXJ0cyBhbiBgYWRkcmVzc2Agd2l0aCBmaXhlZCBsZW5ndGggb2YgMjAgYnl0ZXMgdG8gaXRzIG5vdCBjaGVja3N1bW1lZCBBU0NJSSBgc3RyaW5nYCBoZXhhZGVjaW1hbAogICAgICogcmVwcmVzZW50YXRpb24uCiAgICAgKi8KICAgIGZ1bmN0aW9uIHRvSGV4U3RyaW5nKGFkZHJlc3MgYWRkcikgaW50ZXJuYWwgcHVyZSByZXR1cm5zIChzdHJpbmcgbWVtb3J5KSB7CiAgICAgICAgcmV0dXJuIHRvSGV4U3RyaW5nKHVpbnQyNTYodWludDE2MChhZGRyKSksIEFERFJFU1NfTEVOR1RIKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgQ29udmVydHMgYW4gYGFkZHJlc3NgIHdpdGggZml4ZWQgbGVuZ3RoIG9mIDIwIGJ5dGVzIHRvIGl0cyBjaGVja3N1bW1lZCBBU0NJSSBgc3RyaW5nYCBoZXhhZGVjaW1hbAogICAgICogcmVwcmVzZW50YXRpb24sIGFjY29yZGluZyB0byBFSVAtNTUuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHRvQ2hlY2tzdW1IZXhTdHJpbmcoYWRkcmVzcyBhZGRyKSBpbnRlcm5hbCBwdXJlIHJldHVybnMgKHN0cmluZyBtZW1vcnkpIHsKICAgICAgICBieXRlcyBtZW1vcnkgYnVmZmVyID0gYnl0ZXModG9IZXhTdHJpbmcoYWRkcikpOwoKICAgICAgICAvLyBoYXNoIHRoZSBoZXggcGFydCBvZiBidWZmZXIgKHNraXAgbGVuZ3RoICsgMiBieXRlcywgbGVuZ3RoIDQwKQogICAgICAgIHVpbnQyNTYgaGFzaFZhbHVlOwogICAgICAgIGFzc2VtYmx5ICgibWVtb3J5LXNhZmUiKSB7CiAgICAgICAgICAgIGhhc2hWYWx1ZSA6PSBzaHIoOTYsIGtlY2NhazI1NihhZGQoYnVmZmVyLCAweDIyKSwgNDApKQogICAgICAgIH0KCiAgICAgICAgZm9yICh1aW50MjU2IGkgPSA0MTsgaSA+IDE7IC0taSkgewogICAgICAgICAgICAvLyBwb3NzaWJsZSB2YWx1ZXMgZm9yIGJ1ZmZlcltpXSBhcmUgNDggKDApIHRvIDU3ICg5KSBhbmQgOTcgKGEpIHRvIDEwMiAoZikKICAgICAgICAgICAgaWYgKGhhc2hWYWx1ZSAmIDB4ZiA+IDcgJiYgdWludDgoYnVmZmVyW2ldKSA+IDk2KSB7CiAgICAgICAgICAgICAgICAvLyBjYXNlIHNoaWZ0IGJ5IHhvcmluZyB3aXRoIDB4MjAKICAgICAgICAgICAgICAgIGJ1ZmZlcltpXSBePSAweDIwOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGhhc2hWYWx1ZSA+Pj0gNDsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIHN0cmluZyhidWZmZXIpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBSZXR1cm5zIHRydWUgaWYgdGhlIHR3byBzdHJpbmdzIGFyZSBlcXVhbC4KICAgICAqLwogICAgZnVuY3Rpb24gZXF1YWwoc3RyaW5nIG1lbW9yeSBhLCBzdHJpbmcgbWVtb3J5IGIpIGludGVybmFsIHB1cmUgcmV0dXJucyAoYm9vbCkgewogICAgICAgIHJldHVybiBieXRlcyhhKS5sZW5ndGggPT0gYnl0ZXMoYikubGVuZ3RoICYmIGtlY2NhazI1NihieXRlcyhhKSkgPT0ga2VjY2FrMjU2KGJ5dGVzKGIpKTsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (utils/Strings.sol)
+
+pragma solidity ^0.8.20;
+
+import {Math} from "./math/Math.sol";
+import {SignedMath} from "./math/SignedMath.sol";
+
+/**
+ * @dev String operations.
+ */
+library Strings {
+    bytes16 private constant HEX_DIGITS = "0123456789abcdef";
+    uint8 private constant ADDRESS_LENGTH = 20;
+
+    /**
+     * @dev The `value` string doesn't fit in the specified `length`.
+     */
+    error StringsInsufficientHexLength(uint256 value, uint256 length);
+
+    /**
+     * @dev Converts a `uint256` to its ASCII `string` decimal representation.
+     */
+    function toString(uint256 value) internal pure returns (string memory) {
+        unchecked {
+            uint256 length = Math.log10(value) + 1;
+            string memory buffer = new string(length);
+            uint256 ptr;
+            assembly ("memory-safe") {
+                ptr := add(buffer, add(32, length))
+            }
+            while (true) {
+                ptr--;
+                assembly ("memory-safe") {
+                    mstore8(ptr, byte(mod(value, 10), HEX_DIGITS))
+                }
+                value /= 10;
+                if (value == 0) break;
+            }
+            return buffer;
+        }
+    }
+
+    /**
+     * @dev Converts a `int256` to its ASCII `string` decimal representation.
+     */
+    function toStringSigned(int256 value) internal pure returns (string memory) {
+        return string.concat(value < 0 ? "-" : "", toString(SignedMath.abs(value)));
+    }
+
+    /**
+     * @dev Converts a `uint256` to its ASCII `string` hexadecimal representation.
+     */
+    function toHexString(uint256 value) internal pure returns (string memory) {
+        unchecked {
+            return toHexString(value, Math.log256(value) + 1);
+        }
+    }
+
+    /**
+     * @dev Converts a `uint256` to its ASCII `string` hexadecimal representation with fixed length.
+     */
+    function toHexString(uint256 value, uint256 length) internal pure returns (string memory) {
+        uint256 localValue = value;
+        bytes memory buffer = new bytes(2 * length + 2);
+        buffer[0] = "0";
+        buffer[1] = "x";
+        for (uint256 i = 2 * length + 1; i > 1; --i) {
+            buffer[i] = HEX_DIGITS[localValue & 0xf];
+            localValue >>= 4;
+        }
+        if (localValue != 0) {
+            revert StringsInsufficientHexLength(value, length);
+        }
+        return string(buffer);
+    }
+
+    /**
+     * @dev Converts an `address` with fixed length of 20 bytes to its not checksummed ASCII `string` hexadecimal
+     * representation.
+     */
+    function toHexString(address addr) internal pure returns (string memory) {
+        return toHexString(uint256(uint160(addr)), ADDRESS_LENGTH);
+    }
+
+    /**
+     * @dev Converts an `address` with fixed length of 20 bytes to its checksummed ASCII `string` hexadecimal
+     * representation, according to EIP-55.
+     */
+    function toChecksumHexString(address addr) internal pure returns (string memory) {
+        bytes memory buffer = bytes(toHexString(addr));
+
+        // hash the hex part of buffer (skip length + 2 bytes, length 40)
+        uint256 hashValue;
+        assembly ("memory-safe") {
+            hashValue := shr(96, keccak256(add(buffer, 0x22), 40))
+        }
+
+        for (uint256 i = 41; i > 1; --i) {
+            // possible values for buffer[i] are 48 (0) to 57 (9) and 97 (a) to 102 (f)
+            if (hashValue & 0xf > 7 && uint8(buffer[i]) > 96) {
+                // case shift by xoring with 0x20
+                buffer[i] ^= 0x20;
+            }
+            hashValue >>= 4;
+        }
+        return string(buffer);
+    }
+
+    /**
+     * @dev Returns true if the two strings are equal.
+     */
+    function equal(string memory a, string memory b) internal pure returns (bool) {
+        return bytes(a).length == bytes(b).length && keccak256(bytes(a)) == keccak256(bytes(b));
+    }
+}
