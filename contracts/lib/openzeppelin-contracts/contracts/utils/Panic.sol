@@ -1,1 +1,57 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodXRpbHMvUGFuaWMuc29sKQoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgovKioKICogQGRldiBIZWxwZXIgbGlicmFyeSBmb3IgZW1pdHRpbmcgc3RhbmRhcmRpemVkIHBhbmljIGNvZGVzLgogKgogKiBgYGBzb2xpZGl0eQogKiBjb250cmFjdCBFeGFtcGxlIHsKICogICAgICB1c2luZyBQYW5pYyBmb3IgdWludDI1NjsKICoKICogICAgICAvLyBVc2UgYW55IG9mIHRoZSBkZWNsYXJlZCBpbnRlcm5hbCBjb25zdGFudHMKICogICAgICBmdW5jdGlvbiBmb28oKSB7IFBhbmljLkdFTkVSSUMucGFuaWMoKTsgfQogKgogKiAgICAgIC8vIEFsdGVybmF0aXZlbHkKICogICAgICBmdW5jdGlvbiBmb28oKSB7IFBhbmljLnBhbmljKFBhbmljLkdFTkVSSUMpOyB9CiAqIH0KICogYGBgCiAqCiAqIEZvbGxvd3MgdGhlIGxpc3QgZnJvbSBodHRwczovL2dpdGh1Yi5jb20vZXRoZXJldW0vc29saWRpdHkvYmxvYi92MC44LjI0L2xpYnNvbHV0aWwvRXJyb3JDb2Rlcy5oW2xpYnNvbHV0aWxdLgogKgogKiBfQXZhaWxhYmxlIHNpbmNlIHY1LjEuXwogKi8KLy8gc2xpdGhlci1kaXNhYmxlLW5leHQtbGluZSB1bnVzZWQtc3RhdGUKbGlicmFyeSBQYW5pYyB7CiAgICAvLy8gQGRldiBnZW5lcmljIC8gdW5zcGVjaWZpZWQgZXJyb3IKICAgIHVpbnQyNTYgaW50ZXJuYWwgY29uc3RhbnQgR0VORVJJQyA9IDB4MDA7CiAgICAvLy8gQGRldiB1c2VkIGJ5IHRoZSBhc3NlcnQoKSBidWlsdGluCiAgICB1aW50MjU2IGludGVybmFsIGNvbnN0YW50IEFTU0VSVCA9IDB4MDE7CiAgICAvLy8gQGRldiBhcml0aG1ldGljIHVuZGVyZmxvdyBvciBvdmVyZmxvdwogICAgdWludDI1NiBpbnRlcm5hbCBjb25zdGFudCBVTkRFUl9PVkVSRkxPVyA9IDB4MTE7CiAgICAvLy8gQGRldiBkaXZpc2lvbiBvciBtb2R1bG8gYnkgemVybwogICAgdWludDI1NiBpbnRlcm5hbCBjb25zdGFudCBESVZJU0lPTl9CWV9aRVJPID0gMHgxMjsKICAgIC8vLyBAZGV2IGVudW0gY29udmVyc2lvbiBlcnJvcgogICAgdWludDI1NiBpbnRlcm5hbCBjb25zdGFudCBFTlVNX0NPTlZFUlNJT05fRVJST1IgPSAweDIxOwogICAgLy8vIEBkZXYgaW52YWxpZCBlbmNvZGluZyBpbiBzdG9yYWdlCiAgICB1aW50MjU2IGludGVybmFsIGNvbnN0YW50IFNUT1JBR0VfRU5DT0RJTkdfRVJST1IgPSAweDIyOwogICAgLy8vIEBkZXYgZW1wdHkgYXJyYXkgcG9wCiAgICB1aW50MjU2IGludGVybmFsIGNvbnN0YW50IEVNUFRZX0FSUkFZX1BPUCA9IDB4MzE7CiAgICAvLy8gQGRldiBhcnJheSBvdXQgb2YgYm91bmRzIGFjY2VzcwogICAgdWludDI1NiBpbnRlcm5hbCBjb25zdGFudCBBUlJBWV9PVVRfT0ZfQk9VTkRTID0gMHgzMjsKICAgIC8vLyBAZGV2IHJlc291cmNlIGVycm9yICh0b28gbGFyZ2UgYWxsb2NhdGlvbiBvciB0b28gbGFyZ2UgYXJyYXkpCiAgICB1aW50MjU2IGludGVybmFsIGNvbnN0YW50IFJFU09VUkNFX0VSUk9SID0gMHg0MTsKICAgIC8vLyBAZGV2IGNhbGxpbmcgaW52YWxpZCBpbnRlcm5hbCBmdW5jdGlvbgogICAgdWludDI1NiBpbnRlcm5hbCBjb25zdGFudCBJTlZBTElEX0lOVEVSTkFMX0ZVTkNUSU9OID0gMHg1MTsKCiAgICAvLy8gQGRldiBSZXZlcnRzIHdpdGggYSBwYW5pYyBjb2RlLiBSZWNvbW1lbmRlZCB0byB1c2Ugd2l0aAogICAgLy8vIHRoZSBpbnRlcm5hbCBjb25zdGFudHMgd2l0aCBwcmVkZWZpbmVkIGNvZGVzLgogICAgZnVuY3Rpb24gcGFuaWModWludDI1NiBjb2RlKSBpbnRlcm5hbCBwdXJlIHsKICAgICAgICBhc3NlbWJseSAoIm1lbW9yeS1zYWZlIikgewogICAgICAgICAgICBtc3RvcmUoMHgwMCwgMHg0ZTQ4N2I3MSkKICAgICAgICAgICAgbXN0b3JlKDB4MjAsIGNvZGUpCiAgICAgICAgICAgIHJldmVydCgweDFjLCAweDI0KQogICAgICAgIH0KICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (utils/Panic.sol)
+
+pragma solidity ^0.8.20;
+
+/**
+ * @dev Helper library for emitting standardized panic codes.
+ *
+ * ```solidity
+ * contract Example {
+ *      using Panic for uint256;
+ *
+ *      // Use any of the declared internal constants
+ *      function foo() { Panic.GENERIC.panic(); }
+ *
+ *      // Alternatively
+ *      function foo() { Panic.panic(Panic.GENERIC); }
+ * }
+ * ```
+ *
+ * Follows the list from https://github.com/ethereum/solidity/blob/v0.8.24/libsolutil/ErrorCodes.h[libsolutil].
+ *
+ * _Available since v5.1._
+ */
+// slither-disable-next-line unused-state
+library Panic {
+    /// @dev generic / unspecified error
+    uint256 internal constant GENERIC = 0x00;
+    /// @dev used by the assert() builtin
+    uint256 internal constant ASSERT = 0x01;
+    /// @dev arithmetic underflow or overflow
+    uint256 internal constant UNDER_OVERFLOW = 0x11;
+    /// @dev division or modulo by zero
+    uint256 internal constant DIVISION_BY_ZERO = 0x12;
+    /// @dev enum conversion error
+    uint256 internal constant ENUM_CONVERSION_ERROR = 0x21;
+    /// @dev invalid encoding in storage
+    uint256 internal constant STORAGE_ENCODING_ERROR = 0x22;
+    /// @dev empty array pop
+    uint256 internal constant EMPTY_ARRAY_POP = 0x31;
+    /// @dev array out of bounds access
+    uint256 internal constant ARRAY_OUT_OF_BOUNDS = 0x32;
+    /// @dev resource error (too large allocation or too large array)
+    uint256 internal constant RESOURCE_ERROR = 0x41;
+    /// @dev calling invalid internal function
+    uint256 internal constant INVALID_INTERNAL_FUNCTION = 0x51;
+
+    /// @dev Reverts with a panic code. Recommended to use with
+    /// the internal constants with predefined codes.
+    function panic(uint256 code) internal pure {
+        assembly ("memory-safe") {
+            mstore(0x00, 0x4e487b71)
+            mstore(0x20, code)
+            revert(0x1c, 0x24)
+        }
+    }
+}
