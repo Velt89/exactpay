@@ -1,1 +1,16 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7QWNjZXNzTWFuYWdlZH0gZnJvbSAiLi4vLi4vLi4vYWNjZXNzL21hbmFnZXIvQWNjZXNzTWFuYWdlZC5zb2wiOwppbXBvcnQge0VSQzIwfSBmcm9tICIuLi8uLi8uLi90b2tlbi9FUkMyMC9FUkMyMC5zb2wiOwoKY29udHJhY3QgQWNjZXNzTWFuYWdlZEVSQzIwTWludCBpcyBFUkMyMCwgQWNjZXNzTWFuYWdlZCB7CiAgICBjb25zdHJ1Y3RvcihhZGRyZXNzIG1hbmFnZXIpIEVSQzIwKCJNeVRva2VuIiwgIlRLTiIpIEFjY2Vzc01hbmFnZWQobWFuYWdlcikge30KCiAgICAvLyBNaW50aW5nIGlzIHJlc3RyaWN0ZWQgYWNjb3JkaW5nIHRvIHRoZSBtYW5hZ2VyIHJ1bGVzIGZvciB0aGlzIGZ1bmN0aW9uLgogICAgLy8gVGhlIGZ1bmN0aW9uIGlzIGlkZW50aWZpZWQgYnkgaXRzIHNlbGVjdG9yOiAweDQwYzEwZjE5LgogICAgLy8gQ2FsY3VsYXRlZCB3aXRoIGJ5dGVzNChrZWNjYWsyNTYoJ21pbnQoYWRkcmVzcyx1aW50MjU2KScpKQogICAgZnVuY3Rpb24gbWludChhZGRyZXNzIHRvLCB1aW50MjU2IGFtb3VudCkgcHVibGljIHJlc3RyaWN0ZWQgewogICAgICAgIF9taW50KHRvLCBhbW91bnQpOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+import {AccessManaged} from "../../../access/manager/AccessManaged.sol";
+import {ERC20} from "../../../token/ERC20/ERC20.sol";
+
+contract AccessManagedERC20Mint is ERC20, AccessManaged {
+    constructor(address manager) ERC20("MyToken", "TKN") AccessManaged(manager) {}
+
+    // Minting is restricted according to the manager rules for this function.
+    // The function is identified by its selector: 0x40c10f19.
+    // Calculated with bytes4(keccak256('mint(address,uint256)'))
+    function mint(address to, uint256 amount) public restricted {
+        _mint(to, amount);
+    }
+}
