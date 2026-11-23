@@ -1,1 +1,18 @@
-Y29uc3QgZnMgPSByZXF1aXJlKCdmcycpOwpjb25zdCB7IHRhc2sgfSA9IHJlcXVpcmUoJ2hhcmRoYXQvY29uZmlnJyk7CmNvbnN0IHsgVEFTS19DT01QSUxFX0dFVF9SRU1BUFBJTkdTIH0gPSByZXF1aXJlKCdoYXJkaGF0L2J1aWx0aW4tdGFza3MvdGFzay1uYW1lcycpOwoKdGFzayhUQVNLX0NPTVBJTEVfR0VUX1JFTUFQUElOR1MpLnNldEFjdGlvbigodGFza0FyZ3MsIGVudiwgcnVuU3VwZXIpID0+CiAgcnVuU3VwZXIoKS50aGVuKHJlbWFwcGluZ3MgPT4KICAgIE9iamVjdC5hc3NpZ24oCiAgICAgIHJlbWFwcGluZ3MsCiAgICAgIE9iamVjdC5mcm9tRW50cmllcygKICAgICAgICBmcwogICAgICAgICAgLnJlYWRGaWxlU3luYygncmVtYXBwaW5ncy50eHQnLCAndXRmLTgnKQogICAgICAgICAgLnNwbGl0KCdcbicpCiAgICAgICAgICAuZmlsdGVyKEJvb2xlYW4pCiAgICAgICAgICAubWFwKGxpbmUgPT4gbGluZS50cmltKCkuc3BsaXQoJz0nKSksCiAgICAgICksCiAgICApLAogICksCik7Cg==
+const fs = require('fs');
+const { task } = require('hardhat/config');
+const { TASK_COMPILE_GET_REMAPPINGS } = require('hardhat/builtin-tasks/task-names');
+
+task(TASK_COMPILE_GET_REMAPPINGS).setAction((taskArgs, env, runSuper) =>
+  runSuper().then(remappings =>
+    Object.assign(
+      remappings,
+      Object.fromEntries(
+        fs
+          .readFileSync('remappings.txt', 'utf-8')
+          .split('\n')
+          .filter(Boolean)
+          .map(line => line.trim().split('=')),
+      ),
+    ),
+  ),
+);
