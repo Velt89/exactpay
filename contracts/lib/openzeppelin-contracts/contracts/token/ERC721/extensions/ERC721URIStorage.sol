@@ -1,1 +1,61 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodG9rZW4vRVJDNzIxL2V4dGVuc2lvbnMvRVJDNzIxVVJJU3RvcmFnZS5zb2wpCgpwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7RVJDNzIxfSBmcm9tICIuLi9FUkM3MjEuc29sIjsKaW1wb3J0IHtTdHJpbmdzfSBmcm9tICIuLi8uLi8uLi91dGlscy9TdHJpbmdzLnNvbCI7CmltcG9ydCB7SUVSQzQ5MDZ9IGZyb20gIi4uLy4uLy4uL2ludGVyZmFjZXMvSUVSQzQ5MDYuc29sIjsKaW1wb3J0IHtJRVJDMTY1fSBmcm9tICIuLi8uLi8uLi9pbnRlcmZhY2VzL0lFUkMxNjUuc29sIjsKCi8qKgogKiBAZGV2IEVSQy03MjEgdG9rZW4gd2l0aCBzdG9yYWdlIGJhc2VkIHRva2VuIFVSSSBtYW5hZ2VtZW50LgogKi8KYWJzdHJhY3QgY29udHJhY3QgRVJDNzIxVVJJU3RvcmFnZSBpcyBJRVJDNDkwNiwgRVJDNzIxIHsKICAgIHVzaW5nIFN0cmluZ3MgZm9yIHVpbnQyNTY7CgogICAgLy8gSW50ZXJmYWNlIElEIGFzIGRlZmluZWQgaW4gRVJDLTQ5MDYuIFRoaXMgZG9lcyBub3QgY29ycmVzcG9uZCB0byBhIHRyYWRpdGlvbmFsIGludGVyZmFjZSBJRCBhcyBFUkMtNDkwNiBvbmx5CiAgICAvLyBkZWZpbmVzIGV2ZW50cyBhbmQgZG9lcyBub3QgaW5jbHVkZSBhbnkgZXh0ZXJuYWwgZnVuY3Rpb24uCiAgICBieXRlczQgcHJpdmF0ZSBjb25zdGFudCBFUkM0OTA2X0lOVEVSRkFDRV9JRCA9IGJ5dGVzNCgweDQ5MDY0OTA2KTsKCiAgICAvLyBPcHRpb25hbCBtYXBwaW5nIGZvciB0b2tlbiBVUklzCiAgICBtYXBwaW5nKHVpbnQyNTYgdG9rZW5JZCA9PiBzdHJpbmcpIHByaXZhdGUgX3Rva2VuVVJJczsKCiAgICAvKioKICAgICAqIEBkZXYgU2VlIHtJRVJDMTY1LXN1cHBvcnRzSW50ZXJmYWNlfQogICAgICovCiAgICBmdW5jdGlvbiBzdXBwb3J0c0ludGVyZmFjZShieXRlczQgaW50ZXJmYWNlSWQpIHB1YmxpYyB2aWV3IHZpcnR1YWwgb3ZlcnJpZGUoRVJDNzIxLCBJRVJDMTY1KSByZXR1cm5zIChib29sKSB7CiAgICAgICAgcmV0dXJuIGludGVyZmFjZUlkID09IEVSQzQ5MDZfSU5URVJGQUNFX0lEIHx8IHN1cGVyLnN1cHBvcnRzSW50ZXJmYWNlKGludGVyZmFjZUlkKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgU2VlIHtJRVJDNzIxTWV0YWRhdGEtdG9rZW5VUkl9LgogICAgICovCiAgICBmdW5jdGlvbiB0b2tlblVSSSh1aW50MjU2IHRva2VuSWQpIHB1YmxpYyB2aWV3IHZpcnR1YWwgb3ZlcnJpZGUgcmV0dXJucyAoc3RyaW5nIG1lbW9yeSkgewogICAgICAgIF9yZXF1aXJlT3duZWQodG9rZW5JZCk7CgogICAgICAgIHN0cmluZyBtZW1vcnkgX3Rva2VuVVJJID0gX3Rva2VuVVJJc1t0b2tlbklkXTsKICAgICAgICBzdHJpbmcgbWVtb3J5IGJhc2UgPSBfYmFzZVVSSSgpOwoKICAgICAgICAvLyBJZiB0aGVyZSBpcyBubyBiYXNlIFVSSSwgcmV0dXJuIHRoZSB0b2tlbiBVUkkuCiAgICAgICAgaWYgKGJ5dGVzKGJhc2UpLmxlbmd0aCA9PSAwKSB7CiAgICAgICAgICAgIHJldHVybiBfdG9rZW5VUkk7CiAgICAgICAgfQogICAgICAgIC8vIElmIGJvdGggYXJlIHNldCwgY29uY2F0ZW5hdGUgdGhlIGJhc2VVUkkgYW5kIHRva2VuVVJJICh2aWEgc3RyaW5nLmNvbmNhdCkuCiAgICAgICAgaWYgKGJ5dGVzKF90b2tlblVSSSkubGVuZ3RoID4gMCkgewogICAgICAgICAgICByZXR1cm4gc3RyaW5nLmNvbmNhdChiYXNlLCBfdG9rZW5VUkkpOwogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIHN1cGVyLnRva2VuVVJJKHRva2VuSWQpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBTZXRzIGBfdG9rZW5VUklgIGFzIHRoZSB0b2tlblVSSSBvZiBgdG9rZW5JZGAuCiAgICAgKgogICAgICogRW1pdHMge01ldGFkYXRhVXBkYXRlfS4KICAgICAqLwogICAgZnVuY3Rpb24gX3NldFRva2VuVVJJKHVpbnQyNTYgdG9rZW5JZCwgc3RyaW5nIG1lbW9yeSBfdG9rZW5VUkkpIGludGVybmFsIHZpcnR1YWwgewogICAgICAgIF90b2tlblVSSXNbdG9rZW5JZF0gPSBfdG9rZW5VUkk7CiAgICAgICAgZW1pdCBNZXRhZGF0YVVwZGF0ZSh0b2tlbklkKTsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (token/ERC721/extensions/ERC721URIStorage.sol)
+
+pragma solidity ^0.8.20;
+
+import {ERC721} from "../ERC721.sol";
+import {Strings} from "../../../utils/Strings.sol";
+import {IERC4906} from "../../../interfaces/IERC4906.sol";
+import {IERC165} from "../../../interfaces/IERC165.sol";
+
+/**
+ * @dev ERC-721 token with storage based token URI management.
+ */
+abstract contract ERC721URIStorage is IERC4906, ERC721 {
+    using Strings for uint256;
+
+    // Interface ID as defined in ERC-4906. This does not correspond to a traditional interface ID as ERC-4906 only
+    // defines events and does not include any external function.
+    bytes4 private constant ERC4906_INTERFACE_ID = bytes4(0x49064906);
+
+    // Optional mapping for token URIs
+    mapping(uint256 tokenId => string) private _tokenURIs;
+
+    /**
+     * @dev See {IERC165-supportsInterface}
+     */
+    function supportsInterface(bytes4 interfaceId) public view virtual override(ERC721, IERC165) returns (bool) {
+        return interfaceId == ERC4906_INTERFACE_ID || super.supportsInterface(interfaceId);
+    }
+
+    /**
+     * @dev See {IERC721Metadata-tokenURI}.
+     */
+    function tokenURI(uint256 tokenId) public view virtual override returns (string memory) {
+        _requireOwned(tokenId);
+
+        string memory _tokenURI = _tokenURIs[tokenId];
+        string memory base = _baseURI();
+
+        // If there is no base URI, return the token URI.
+        if (bytes(base).length == 0) {
+            return _tokenURI;
+        }
+        // If both are set, concatenate the baseURI and tokenURI (via string.concat).
+        if (bytes(_tokenURI).length > 0) {
+            return string.concat(base, _tokenURI);
+        }
+
+        return super.tokenURI(tokenId);
+    }
+
+    /**
+     * @dev Sets `_tokenURI` as the tokenURI of `tokenId`.
+     *
+     * Emits {MetadataUpdate}.
+     */
+    function _setTokenURI(uint256 tokenId, string memory _tokenURI) internal virtual {
+        _tokenURIs[tokenId] = _tokenURI;
+        emit MetadataUpdate(tokenId);
+    }
+}
