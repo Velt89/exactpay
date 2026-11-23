@@ -1,1 +1,36 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQgIi4uL3BhdGNoZWQvYWNjZXNzL21hbmFnZXIvSUFjY2Vzc01hbmFnZXIuc29sIjsKaW1wb3J0ICIuLi9wYXRjaGVkL2FjY2Vzcy9tYW5hZ2VyL0FjY2Vzc01hbmFnZWQuc29sIjsKCmNvbnRyYWN0IEFjY2Vzc01hbmFnZWRIYXJuZXNzIGlzIEFjY2Vzc01hbmFnZWQgewogICAgYnl0ZXMgaW50ZXJuYWwgU09NRV9GVU5DVElPTl9DQUxMREFUQSA9IGFiaS5lbmNvZGVDYWxsKHRoaXMuc29tZUZ1bmN0aW9uLCAoKSk7CgogICAgY29uc3RydWN0b3IoYWRkcmVzcyBpbml0aWFsQXV0aG9yaXR5KSBBY2Nlc3NNYW5hZ2VkKGluaXRpYWxBdXRob3JpdHkpIHt9CgogICAgZnVuY3Rpb24gc29tZUZ1bmN0aW9uKCkgcHVibGljIHJlc3RyaWN0ZWQoKSB7CiAgICAgICAgLy8gU2FuaXR5IGZvciBGVjogdGhlIG1zZy5kYXRhIHdoZW4gY2FsbGluZyB0aGlzIGZ1bmN0aW9uIHNob3VsZCBiZSB0aGUgc2FtZSBhcyB0aGUgZGF0YSB1c2VkIHdoZW4gY2hlY2tpbmcKICAgICAgICAvLyB0aGUgc2NoZWR1bGUuIFRoaXMgaXMgYSByZWZvcm11bGF0aW9uIG9mIGBtc2cuZGF0YSA9PSBTT01FX0ZVTkNUSU9OX0NBTExEQVRBYCB0aGF0IGZvY3VzZXMgb24gdGhlIG9wZXJhdGlvbgogICAgICAgIC8vIGhhc2ggZm9yIHRoaXMgY2FsbC4KICAgICAgICByZXF1aXJlKAogICAgICAgICAgICBJQWNjZXNzTWFuYWdlcihhdXRob3JpdHkoKSkuaGFzaE9wZXJhdGlvbihfbXNnU2VuZGVyKCksIGFkZHJlc3ModGhpcyksIG1zZy5kYXRhKQogICAgICAgICAgICA9PQogICAgICAgICAgICBJQWNjZXNzTWFuYWdlcihhdXRob3JpdHkoKSkuaGFzaE9wZXJhdGlvbihfbXNnU2VuZGVyKCksIGFkZHJlc3ModGhpcyksIFNPTUVfRlVOQ1RJT05fQ0FMTERBVEEpCiAgICAgICAgKTsKICAgIH0KCiAgICBmdW5jdGlvbiBhdXRob3JpdHlfY2FuQ2FsbF9pbW1lZGlhdGUoYWRkcmVzcyBjYWxsZXIpIHB1YmxpYyB2aWV3IHJldHVybnMgKGJvb2wgcmVzdWx0KSB7CiAgICAgICAgKHJlc3VsdCwpID0gQXV0aG9yaXR5VXRpbHMuY2FuQ2FsbFdpdGhEZWxheShhdXRob3JpdHkoKSwgY2FsbGVyLCBhZGRyZXNzKHRoaXMpLCB0aGlzLnNvbWVGdW5jdGlvbi5zZWxlY3Rvcik7CiAgICB9CgogICAgZnVuY3Rpb24gYXV0aG9yaXR5X2NhbkNhbGxfZGVsYXkoYWRkcmVzcyBjYWxsZXIpIHB1YmxpYyB2aWV3IHJldHVybnMgKHVpbnQzMiByZXN1bHQpIHsKICAgICAgICAoLHJlc3VsdCkgPSBBdXRob3JpdHlVdGlscy5jYW5DYWxsV2l0aERlbGF5KGF1dGhvcml0eSgpLCBjYWxsZXIsIGFkZHJlc3ModGhpcyksIHRoaXMuc29tZUZ1bmN0aW9uLnNlbGVjdG9yKTsKICAgIH0KCiAgICBmdW5jdGlvbiBhdXRob3JpdHlfZ2V0U2NoZWR1bGUoYWRkcmVzcyBjYWxsZXIpIHB1YmxpYyB2aWV3IHJldHVybnMgKHVpbnQ0OCkgewogICAgICAgIElBY2Nlc3NNYW5hZ2VyIG1hbmFnZXIgPSBJQWNjZXNzTWFuYWdlcihhdXRob3JpdHkoKSk7CiAgICAgICAgcmV0dXJuIG1hbmFnZXIuZ2V0U2NoZWR1bGUobWFuYWdlci5oYXNoT3BlcmF0aW9uKGNhbGxlciwgYWRkcmVzcyh0aGlzKSwgU09NRV9GVU5DVElPTl9DQUxMREFUQSkpOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import "../patched/access/manager/IAccessManager.sol";
+import "../patched/access/manager/AccessManaged.sol";
+
+contract AccessManagedHarness is AccessManaged {
+    bytes internal SOME_FUNCTION_CALLDATA = abi.encodeCall(this.someFunction, ());
+
+    constructor(address initialAuthority) AccessManaged(initialAuthority) {}
+
+    function someFunction() public restricted() {
+        // Sanity for FV: the msg.data when calling this function should be the same as the data used when checking
+        // the schedule. This is a reformulation of `msg.data == SOME_FUNCTION_CALLDATA` that focuses on the operation
+        // hash for this call.
+        require(
+            IAccessManager(authority()).hashOperation(_msgSender(), address(this), msg.data)
+            ==
+            IAccessManager(authority()).hashOperation(_msgSender(), address(this), SOME_FUNCTION_CALLDATA)
+        );
+    }
+
+    function authority_canCall_immediate(address caller) public view returns (bool result) {
+        (result,) = AuthorityUtils.canCallWithDelay(authority(), caller, address(this), this.someFunction.selector);
+    }
+
+    function authority_canCall_delay(address caller) public view returns (uint32 result) {
+        (,result) = AuthorityUtils.canCallWithDelay(authority(), caller, address(this), this.someFunction.selector);
+    }
+
+    function authority_getSchedule(address caller) public view returns (uint48) {
+        IAccessManager manager = IAccessManager(authority());
+        return manager.getSchedule(manager.hashOperation(caller, address(this), SOME_FUNCTION_CALLDATA));
+    }
+}
