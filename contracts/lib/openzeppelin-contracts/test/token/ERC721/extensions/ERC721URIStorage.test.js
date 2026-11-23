@@ -1,1 +1,121 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKY29uc3QgeyBzaG91bGRTdXBwb3J0SW50ZXJmYWNlcyB9ID0gcmVxdWlyZSgnLi4vLi4vLi4vdXRpbHMvaW50cm9zcGVjdGlvbi9TdXBwb3J0c0ludGVyZmFjZS5iZWhhdmlvcicpOwoKY29uc3QgbmFtZSA9ICdOb24gRnVuZ2libGUgVG9rZW4nOwpjb25zdCBzeW1ib2wgPSAnTkZUJzsKY29uc3QgYmFzZVVSSSA9ICdodHRwczovL2FwaS5leGFtcGxlLmNvbS92MS8nOwpjb25zdCBvdGhlckJhc2VVUkkgPSAnaHR0cHM6Ly9hcGkuZXhhbXBsZS5jb20vdjIvJzsKY29uc3Qgc2FtcGxlVXJpID0gJ21vY2s6Ly9teXRva2VuJzsKY29uc3QgdG9rZW5JZCA9IDFuOwpjb25zdCBub25FeGlzdGVudFRva2VuSWQgPSAybjsKCmFzeW5jIGZ1bmN0aW9uIGZpeHR1cmUoKSB7CiAgY29uc3QgW293bmVyXSA9IGF3YWl0IGV0aGVycy5nZXRTaWduZXJzKCk7CiAgY29uc3QgdG9rZW4gPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJyRFUkM3MjFVUklTdG9yYWdlTW9jaycsIFtuYW1lLCBzeW1ib2xdKTsKICByZXR1cm4geyBvd25lciwgdG9rZW4gfTsKfQoKZGVzY3JpYmUoJ0VSQzcyMVVSSVN0b3JhZ2UnLCBmdW5jdGlvbiAoKSB7CiAgYmVmb3JlRWFjaChhc3luYyBmdW5jdGlvbiAoKSB7CiAgICBPYmplY3QuYXNzaWduKHRoaXMsIGF3YWl0IGxvYWRGaXh0dXJlKGZpeHR1cmUpKTsKICB9KTsKCiAgc2hvdWxkU3VwcG9ydEludGVyZmFjZXMoWycweDQ5MDY0OTA2J10pOwoKICBkZXNjcmliZSgndG9rZW4gVVJJJywgZnVuY3Rpb24gKCkgewogICAgYmVmb3JlRWFjaChhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IHRoaXMudG9rZW4uJF9taW50KHRoaXMub3duZXIsIHRva2VuSWQpOwogICAgfSk7CgogICAgaXQoJ2l0IGlzIGVtcHR5IGJ5IGRlZmF1bHQnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnRva2VuLnRva2VuVVJJKHRva2VuSWQpKS50by5lcXVhbCgnJyk7CiAgICB9KTsKCiAgICBpdCgncmV2ZXJ0cyB3aGVuIHF1ZXJpZWQgZm9yIG5vbiBleGlzdGVudCB0b2tlbiBpZCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMudG9rZW4udG9rZW5VUkkobm9uRXhpc3RlbnRUb2tlbklkKSkKICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy50b2tlbiwgJ0VSQzcyMU5vbmV4aXN0ZW50VG9rZW4nKQogICAgICAgIC53aXRoQXJncyhub25FeGlzdGVudFRva2VuSWQpOwogICAgfSk7CgogICAgaXQoJ2NhbiBiZSBzZXQgZm9yIGEgdG9rZW4gaWQnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IHRoaXMudG9rZW4uJF9zZXRUb2tlblVSSSh0b2tlbklkLCBzYW1wbGVVcmkpOwogICAgICBleHBlY3QoYXdhaXQgdGhpcy50b2tlbi50b2tlblVSSSh0b2tlbklkKSkudG8uZXF1YWwoc2FtcGxlVXJpKTsKICAgIH0pOwoKICAgIGl0KCdzZXR0aW5nIHRoZSB1cmkgZW1pdHMgYW4gZXZlbnQnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLnRva2VuLiRfc2V0VG9rZW5VUkkodG9rZW5JZCwgc2FtcGxlVXJpKSkKICAgICAgICAudG8uZW1pdCh0aGlzLnRva2VuLCAnTWV0YWRhdGFVcGRhdGUnKQogICAgICAgIC53aXRoQXJncyh0b2tlbklkKTsKICAgIH0pOwoKICAgIGl0KCdzZXR0aW5nIHRoZSB1cmkgZm9yIG5vbiBleGlzdGVudCB0b2tlbiBpZCBpcyBhbGxvd2VkJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCBleHBlY3QoYXdhaXQgdGhpcy50b2tlbi4kX3NldFRva2VuVVJJKG5vbkV4aXN0ZW50VG9rZW5JZCwgc2FtcGxlVXJpKSkKICAgICAgICAudG8uZW1pdCh0aGlzLnRva2VuLCAnTWV0YWRhdGFVcGRhdGUnKQogICAgICAgIC53aXRoQXJncyhub25FeGlzdGVudFRva2VuSWQpOwoKICAgICAgLy8gdmFsdWUgd2lsbCBiZSBhY2Nlc3NpYmxlIGFmdGVyIG1pbnQKICAgICAgYXdhaXQgdGhpcy50b2tlbi4kX21pbnQodGhpcy5vd25lciwgbm9uRXhpc3RlbnRUb2tlbklkKTsKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudG9rZW4udG9rZW5VUkkobm9uRXhpc3RlbnRUb2tlbklkKSkudG8uZXF1YWwoc2FtcGxlVXJpKTsKICAgIH0pOwoKICAgIGl0KCdiYXNlIFVSSSBjYW4gYmUgc2V0JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCB0aGlzLnRva2VuLnNldEJhc2VVUkkoYmFzZVVSSSk7CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnRva2VuLiRfYmFzZVVSSSgpKS50by5lcXVhbChiYXNlVVJJKTsKICAgIH0pOwoKICAgIGl0KCdiYXNlIFVSSSBpcyBhZGRlZCBhcyBhIHByZWZpeCB0byB0aGUgdG9rZW4gVVJJJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCB0aGlzLnRva2VuLnNldEJhc2VVUkkoYmFzZVVSSSk7CiAgICAgIGF3YWl0IHRoaXMudG9rZW4uJF9zZXRUb2tlblVSSSh0b2tlbklkLCBzYW1wbGVVcmkpOwoKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudG9rZW4udG9rZW5VUkkodG9rZW5JZCkpLnRvLmVxdWFsKGJhc2VVUkkgKyBzYW1wbGVVcmkpOwogICAgfSk7CgogICAgaXQoJ3Rva2VuIFVSSSBjYW4gYmUgY2hhbmdlZCBieSBjaGFuZ2luZyB0aGUgYmFzZSBVUkknLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IHRoaXMudG9rZW4uc2V0QmFzZVVSSShiYXNlVVJJKTsKICAgICAgYXdhaXQgdGhpcy50b2tlbi4kX3NldFRva2VuVVJJKHRva2VuSWQsIHNhbXBsZVVyaSk7CgogICAgICBhd2FpdCB0aGlzLnRva2VuLnNldEJhc2VVUkkob3RoZXJCYXNlVVJJKTsKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudG9rZW4udG9rZW5VUkkodG9rZW5JZCkpLnRvLmVxdWFsKG90aGVyQmFzZVVSSSArIHNhbXBsZVVyaSk7CiAgICB9KTsKCiAgICBpdCgndG9rZW5JZCBpcyBhcHBlbmRlZCB0byBiYXNlIFVSSSBmb3IgdG9rZW5zIHdpdGggbm8gVVJJJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCB0aGlzLnRva2VuLnNldEJhc2VVUkkoYmFzZVVSSSk7CgogICAgICBleHBlY3QoYXdhaXQgdGhpcy50b2tlbi50b2tlblVSSSh0b2tlbklkKSkudG8uZXF1YWwoYmFzZVVSSSArIHRva2VuSWQpOwogICAgfSk7CgogICAgaXQoJ3Rva2VucyB3aXRob3V0IFVSSSBjYW4gYmUgYnVybnQgJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCB0aGlzLnRva2VuLiRfYnVybih0b2tlbklkKTsKCiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLnRva2VuLnRva2VuVVJJKHRva2VuSWQpKQogICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLnRva2VuLCAnRVJDNzIxTm9uZXhpc3RlbnRUb2tlbicpCiAgICAgICAgLndpdGhBcmdzKHRva2VuSWQpOwogICAgfSk7CgogICAgaXQoJ3Rva2VucyB3aXRoIFVSSSBjYW4gYmUgYnVybnQgJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCB0aGlzLnRva2VuLiRfc2V0VG9rZW5VUkkodG9rZW5JZCwgc2FtcGxlVXJpKTsKCiAgICAgIGF3YWl0IHRoaXMudG9rZW4uJF9idXJuKHRva2VuSWQpOwoKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMudG9rZW4udG9rZW5VUkkodG9rZW5JZCkpCiAgICAgICAgLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMudG9rZW4sICdFUkM3MjFOb25leGlzdGVudFRva2VuJykKICAgICAgICAud2l0aEFyZ3ModG9rZW5JZCk7CiAgICB9KTsKCiAgICBpdCgndG9rZW5zIFVSSSBpcyBrZXB0IGlmIHRva2VuIGlzIGJ1cm50IGFuZCByZW1pbnRlZCAnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IHRoaXMudG9rZW4uJF9zZXRUb2tlblVSSSh0b2tlbklkLCBzYW1wbGVVcmkpOwoKICAgICAgYXdhaXQgdGhpcy50b2tlbi4kX2J1cm4odG9rZW5JZCk7CgogICAgICBhd2FpdCBleHBlY3QodGhpcy50b2tlbi50b2tlblVSSSh0b2tlbklkKSkKICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy50b2tlbiwgJ0VSQzcyMU5vbmV4aXN0ZW50VG9rZW4nKQogICAgICAgIC53aXRoQXJncyh0b2tlbklkKTsKCiAgICAgIGF3YWl0IHRoaXMudG9rZW4uJF9taW50KHRoaXMub3duZXIsIHRva2VuSWQpOwogICAgICBleHBlY3QoYXdhaXQgdGhpcy50b2tlbi50b2tlblVSSSh0b2tlbklkKSkudG8uZXF1YWwoc2FtcGxlVXJpKTsKICAgIH0pOwogIH0pOwp9KTsK
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+const { shouldSupportInterfaces } = require('../../../utils/introspection/SupportsInterface.behavior');
+
+const name = 'Non Fungible Token';
+const symbol = 'NFT';
+const baseURI = 'https://api.example.com/v1/';
+const otherBaseURI = 'https://api.example.com/v2/';
+const sampleUri = 'mock://mytoken';
+const tokenId = 1n;
+const nonExistentTokenId = 2n;
+
+async function fixture() {
+  const [owner] = await ethers.getSigners();
+  const token = await ethers.deployContract('$ERC721URIStorageMock', [name, symbol]);
+  return { owner, token };
+}
+
+describe('ERC721URIStorage', function () {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  shouldSupportInterfaces(['0x49064906']);
+
+  describe('token URI', function () {
+    beforeEach(async function () {
+      await this.token.$_mint(this.owner, tokenId);
+    });
+
+    it('it is empty by default', async function () {
+      expect(await this.token.tokenURI(tokenId)).to.equal('');
+    });
+
+    it('reverts when queried for non existent token id', async function () {
+      await expect(this.token.tokenURI(nonExistentTokenId))
+        .to.be.revertedWithCustomError(this.token, 'ERC721NonexistentToken')
+        .withArgs(nonExistentTokenId);
+    });
+
+    it('can be set for a token id', async function () {
+      await this.token.$_setTokenURI(tokenId, sampleUri);
+      expect(await this.token.tokenURI(tokenId)).to.equal(sampleUri);
+    });
+
+    it('setting the uri emits an event', async function () {
+      await expect(this.token.$_setTokenURI(tokenId, sampleUri))
+        .to.emit(this.token, 'MetadataUpdate')
+        .withArgs(tokenId);
+    });
+
+    it('setting the uri for non existent token id is allowed', async function () {
+      await expect(await this.token.$_setTokenURI(nonExistentTokenId, sampleUri))
+        .to.emit(this.token, 'MetadataUpdate')
+        .withArgs(nonExistentTokenId);
+
+      // value will be accessible after mint
+      await this.token.$_mint(this.owner, nonExistentTokenId);
+      expect(await this.token.tokenURI(nonExistentTokenId)).to.equal(sampleUri);
+    });
+
+    it('base URI can be set', async function () {
+      await this.token.setBaseURI(baseURI);
+      expect(await this.token.$_baseURI()).to.equal(baseURI);
+    });
+
+    it('base URI is added as a prefix to the token URI', async function () {
+      await this.token.setBaseURI(baseURI);
+      await this.token.$_setTokenURI(tokenId, sampleUri);
+
+      expect(await this.token.tokenURI(tokenId)).to.equal(baseURI + sampleUri);
+    });
+
+    it('token URI can be changed by changing the base URI', async function () {
+      await this.token.setBaseURI(baseURI);
+      await this.token.$_setTokenURI(tokenId, sampleUri);
+
+      await this.token.setBaseURI(otherBaseURI);
+      expect(await this.token.tokenURI(tokenId)).to.equal(otherBaseURI + sampleUri);
+    });
+
+    it('tokenId is appended to base URI for tokens with no URI', async function () {
+      await this.token.setBaseURI(baseURI);
+
+      expect(await this.token.tokenURI(tokenId)).to.equal(baseURI + tokenId);
+    });
+
+    it('tokens without URI can be burnt ', async function () {
+      await this.token.$_burn(tokenId);
+
+      await expect(this.token.tokenURI(tokenId))
+        .to.be.revertedWithCustomError(this.token, 'ERC721NonexistentToken')
+        .withArgs(tokenId);
+    });
+
+    it('tokens with URI can be burnt ', async function () {
+      await this.token.$_setTokenURI(tokenId, sampleUri);
+
+      await this.token.$_burn(tokenId);
+
+      await expect(this.token.tokenURI(tokenId))
+        .to.be.revertedWithCustomError(this.token, 'ERC721NonexistentToken')
+        .withArgs(tokenId);
+    });
+
+    it('tokens URI is kept if token is burnt and reminted ', async function () {
+      await this.token.$_setTokenURI(tokenId, sampleUri);
+
+      await this.token.$_burn(tokenId);
+
+      await expect(this.token.tokenURI(tokenId))
+        .to.be.revertedWithCustomError(this.token, 'ERC721NonexistentToken')
+        .withArgs(tokenId);
+
+      await this.token.$_mint(this.owner, tokenId);
+      expect(await this.token.tokenURI(tokenId)).to.equal(sampleUri);
+    });
+  });
+});
