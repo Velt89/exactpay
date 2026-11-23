@@ -1,1 +1,11 @@
-IyEvdXNyL2Jpbi9lbnYgYmFzaAoKc2V0IC1ldW8gcGlwZWZhaWwKCmNoYW5nZXNldCB2ZXJzaW9uCgpzY3JpcHRzL3JlbGVhc2UvZm9ybWF0LWNoYW5nZWxvZy5qcwpzY3JpcHRzL3JlbGVhc2Uvc3luY2hyb25pemUtdmVyc2lvbnMuanMKc2NyaXB0cy9yZWxlYXNlL3VwZGF0ZS1jb21tZW50LmpzCgpvei1kb2NzIHVwZGF0ZS12ZXJzaW9uCg==
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+changeset version
+
+scripts/release/format-changelog.js
+scripts/release/synchronize-versions.js
+scripts/release/update-comment.js
+
+oz-docs update-version
