@@ -1,1 +1,156 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodXRpbHMvc3RydWN0cy9Eb3VibGVFbmRlZFF1ZXVlLnNvbCkKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge1BhbmljfSBmcm9tICIuLi9QYW5pYy5zb2wiOwoKLyoqCiAqIEBkZXYgQSBzZXF1ZW5jZSBvZiBpdGVtcyB3aXRoIHRoZSBhYmlsaXR5IHRvIGVmZmljaWVudGx5IHB1c2ggYW5kIHBvcCBpdGVtcyAoaS5lLiBpbnNlcnQgYW5kIHJlbW92ZSkgb24gYm90aCBlbmRzIG9mCiAqIHRoZSBzZXF1ZW5jZSAoY2FsbGVkIGZyb250IGFuZCBiYWNrKS4gQW1vbmcgb3RoZXIgYWNjZXNzIHBhdHRlcm5zLCBpdCBjYW4gYmUgdXNlZCB0byBpbXBsZW1lbnQgZWZmaWNpZW50IExJRk8gYW5kCiAqIEZJRk8gcXVldWVzLiBTdG9yYWdlIHVzZSBpcyBvcHRpbWl6ZWQsIGFuZCBhbGwgb3BlcmF0aW9ucyBhcmUgTygxKSBjb25zdGFudCB0aW1lLiBUaGlzIGluY2x1ZGVzIHtjbGVhcn0sIGdpdmVuIHRoYXQKICogdGhlIGV4aXN0aW5nIHF1ZXVlIGNvbnRlbnRzIGFyZSBsZWZ0IGluIHN0b3JhZ2UuCiAqCiAqIFRoZSBzdHJ1Y3QgaXMgY2FsbGVkIGBCeXRlczMyRGVxdWVgLiBPdGhlciB0eXBlcyBjYW4gYmUgY2FzdCB0byBhbmQgZnJvbSBgYnl0ZXMzMmAuIFRoaXMgZGF0YSBzdHJ1Y3R1cmUgY2FuIG9ubHkgYmUKICogdXNlZCBpbiBzdG9yYWdlLCBhbmQgbm90IGluIG1lbW9yeS4KICogYGBgc29saWRpdHkKICogRG91YmxlRW5kZWRRdWV1ZS5CeXRlczMyRGVxdWUgcXVldWU7CiAqIGBgYAogKi8KbGlicmFyeSBEb3VibGVFbmRlZFF1ZXVlIHsKICAgIC8qKgogICAgICogQGRldiBJbmRpY2VzIGFyZSAxMjggYml0cyBzbyBiZWdpbiBhbmQgZW5kIGFyZSBwYWNrZWQgaW4gYSBzaW5nbGUgc3RvcmFnZSBzbG90IGZvciBlZmZpY2llbnQgYWNjZXNzLgogICAgICoKICAgICAqIFN0cnVjdCBtZW1iZXJzIGhhdmUgYW4gdW5kZXJzY29yZSBwcmVmaXggaW5kaWNhdGluZyB0aGF0IHRoZXkgYXJlICJwcml2YXRlIiBhbmQgc2hvdWxkIG5vdCBiZSByZWFkIG9yIHdyaXR0ZW4gdG8KICAgICAqIGRpcmVjdGx5LiBVc2UgdGhlIGZ1bmN0aW9ucyBwcm92aWRlZCBiZWxvdyBpbnN0ZWFkLiBNb2RpZnlpbmcgdGhlIHN0cnVjdCBtYW51YWxseSBtYXkgdmlvbGF0ZSBhc3N1bXB0aW9ucyBhbmQKICAgICAqIGxlYWQgdG8gdW5leHBlY3RlZCBiZWhhdmlvci4KICAgICAqCiAgICAgKiBUaGUgZmlyc3QgaXRlbSBpcyBhdCBkYXRhW2JlZ2luXSBhbmQgdGhlIGxhc3QgaXRlbSBpcyBhdCBkYXRhW2VuZCAtIDFdLiBUaGlzIHJhbmdlIGNhbiB3cmFwIGFyb3VuZC4KICAgICAqLwogICAgc3RydWN0IEJ5dGVzMzJEZXF1ZSB7CiAgICAgICAgdWludDEyOCBfYmVnaW47CiAgICAgICAgdWludDEyOCBfZW5kOwogICAgICAgIG1hcHBpbmcodWludDEyOCBpbmRleCA9PiBieXRlczMyKSBfZGF0YTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgSW5zZXJ0cyBhbiBpdGVtIGF0IHRoZSBlbmQgb2YgdGhlIHF1ZXVlLgogICAgICoKICAgICAqIFJldmVydHMgd2l0aCB7UGFuaWMtUkVTT1VSQ0VfRVJST1J9IGlmIHRoZSBxdWV1ZSBpcyBmdWxsLgogICAgICovCiAgICBmdW5jdGlvbiBwdXNoQmFjayhCeXRlczMyRGVxdWUgc3RvcmFnZSBkZXF1ZSwgYnl0ZXMzMiB2YWx1ZSkgaW50ZXJuYWwgewogICAgICAgIHVuY2hlY2tlZCB7CiAgICAgICAgICAgIHVpbnQxMjggYmFja0luZGV4ID0gZGVxdWUuX2VuZDsKICAgICAgICAgICAgaWYgKGJhY2tJbmRleCArIDEgPT0gZGVxdWUuX2JlZ2luKSBQYW5pYy5wYW5pYyhQYW5pYy5SRVNPVVJDRV9FUlJPUik7CiAgICAgICAgICAgIGRlcXVlLl9kYXRhW2JhY2tJbmRleF0gPSB2YWx1ZTsKICAgICAgICAgICAgZGVxdWUuX2VuZCA9IGJhY2tJbmRleCArIDE7CiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICogQGRldiBSZW1vdmVzIHRoZSBpdGVtIGF0IHRoZSBlbmQgb2YgdGhlIHF1ZXVlIGFuZCByZXR1cm5zIGl0LgogICAgICoKICAgICAqIFJldmVydHMgd2l0aCB7UGFuaWMtRU1QVFlfQVJSQVlfUE9QfSBpZiB0aGUgcXVldWUgaXMgZW1wdHkuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHBvcEJhY2soQnl0ZXMzMkRlcXVlIHN0b3JhZ2UgZGVxdWUpIGludGVybmFsIHJldHVybnMgKGJ5dGVzMzIgdmFsdWUpIHsKICAgICAgICB1bmNoZWNrZWQgewogICAgICAgICAgICB1aW50MTI4IGJhY2tJbmRleCA9IGRlcXVlLl9lbmQ7CiAgICAgICAgICAgIGlmIChiYWNrSW5kZXggPT0gZGVxdWUuX2JlZ2luKSBQYW5pYy5wYW5pYyhQYW5pYy5FTVBUWV9BUlJBWV9QT1ApOwogICAgICAgICAgICAtLWJhY2tJbmRleDsKICAgICAgICAgICAgdmFsdWUgPSBkZXF1ZS5fZGF0YVtiYWNrSW5kZXhdOwogICAgICAgICAgICBkZWxldGUgZGVxdWUuX2RhdGFbYmFja0luZGV4XTsKICAgICAgICAgICAgZGVxdWUuX2VuZCA9IGJhY2tJbmRleDsKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IEluc2VydHMgYW4gaXRlbSBhdCB0aGUgYmVnaW5uaW5nIG9mIHRoZSBxdWV1ZS4KICAgICAqCiAgICAgKiBSZXZlcnRzIHdpdGgge1BhbmljLVJFU09VUkNFX0VSUk9SfSBpZiB0aGUgcXVldWUgaXMgZnVsbC4KICAgICAqLwogICAgZnVuY3Rpb24gcHVzaEZyb250KEJ5dGVzMzJEZXF1ZSBzdG9yYWdlIGRlcXVlLCBieXRlczMyIHZhbHVlKSBpbnRlcm5hbCB7CiAgICAgICAgdW5jaGVja2VkIHsKICAgICAgICAgICAgdWludDEyOCBmcm9udEluZGV4ID0gZGVxdWUuX2JlZ2luIC0gMTsKICAgICAgICAgICAgaWYgKGZyb250SW5kZXggPT0gZGVxdWUuX2VuZCkgUGFuaWMucGFuaWMoUGFuaWMuUkVTT1VSQ0VfRVJST1IpOwogICAgICAgICAgICBkZXF1ZS5fZGF0YVtmcm9udEluZGV4XSA9IHZhbHVlOwogICAgICAgICAgICBkZXF1ZS5fYmVnaW4gPSBmcm9udEluZGV4OwogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUmVtb3ZlcyB0aGUgaXRlbSBhdCB0aGUgYmVnaW5uaW5nIG9mIHRoZSBxdWV1ZSBhbmQgcmV0dXJucyBpdC4KICAgICAqCiAgICAgKiBSZXZlcnRzIHdpdGgge1BhbmljLUVNUFRZX0FSUkFZX1BPUH0gaWYgdGhlIHF1ZXVlIGlzIGVtcHR5LgogICAgICovCiAgICBmdW5jdGlvbiBwb3BGcm9udChCeXRlczMyRGVxdWUgc3RvcmFnZSBkZXF1ZSkgaW50ZXJuYWwgcmV0dXJucyAoYnl0ZXMzMiB2YWx1ZSkgewogICAgICAgIHVuY2hlY2tlZCB7CiAgICAgICAgICAgIHVpbnQxMjggZnJvbnRJbmRleCA9IGRlcXVlLl9iZWdpbjsKICAgICAgICAgICAgaWYgKGZyb250SW5kZXggPT0gZGVxdWUuX2VuZCkgUGFuaWMucGFuaWMoUGFuaWMuRU1QVFlfQVJSQVlfUE9QKTsKICAgICAgICAgICAgdmFsdWUgPSBkZXF1ZS5fZGF0YVtmcm9udEluZGV4XTsKICAgICAgICAgICAgZGVsZXRlIGRlcXVlLl9kYXRhW2Zyb250SW5kZXhdOwogICAgICAgICAgICBkZXF1ZS5fYmVnaW4gPSBmcm9udEluZGV4ICsgMTsKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIGl0ZW0gYXQgdGhlIGJlZ2lubmluZyBvZiB0aGUgcXVldWUuCiAgICAgKgogICAgICogUmV2ZXJ0cyB3aXRoIHtQYW5pYy1BUlJBWV9PVVRfT0ZfQk9VTkRTfSBpZiB0aGUgcXVldWUgaXMgZW1wdHkuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGZyb250KEJ5dGVzMzJEZXF1ZSBzdG9yYWdlIGRlcXVlKSBpbnRlcm5hbCB2aWV3IHJldHVybnMgKGJ5dGVzMzIgdmFsdWUpIHsKICAgICAgICBpZiAoZW1wdHkoZGVxdWUpKSBQYW5pYy5wYW5pYyhQYW5pYy5BUlJBWV9PVVRfT0ZfQk9VTkRTKTsKICAgICAgICByZXR1cm4gZGVxdWUuX2RhdGFbZGVxdWUuX2JlZ2luXTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyB0aGUgaXRlbSBhdCB0aGUgZW5kIG9mIHRoZSBxdWV1ZS4KICAgICAqCiAgICAgKiBSZXZlcnRzIHdpdGgge1BhbmljLUFSUkFZX09VVF9PRl9CT1VORFN9IGlmIHRoZSBxdWV1ZSBpcyBlbXB0eS4KICAgICAqLwogICAgZnVuY3Rpb24gYmFjayhCeXRlczMyRGVxdWUgc3RvcmFnZSBkZXF1ZSkgaW50ZXJuYWwgdmlldyByZXR1cm5zIChieXRlczMyIHZhbHVlKSB7CiAgICAgICAgaWYgKGVtcHR5KGRlcXVlKSkgUGFuaWMucGFuaWMoUGFuaWMuQVJSQVlfT1VUX09GX0JPVU5EUyk7CiAgICAgICAgdW5jaGVja2VkIHsKICAgICAgICAgICAgcmV0dXJuIGRlcXVlLl9kYXRhW2RlcXVlLl9lbmQgLSAxXTsKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybiB0aGUgaXRlbSBhdCBhIHBvc2l0aW9uIGluIHRoZSBxdWV1ZSBnaXZlbiBieSBgaW5kZXhgLCB3aXRoIHRoZSBmaXJzdCBpdGVtIGF0IDAgYW5kIGxhc3QgaXRlbSBhdAogICAgICogYGxlbmd0aChkZXF1ZSkgLSAxYC4KICAgICAqCiAgICAgKiBSZXZlcnRzIHdpdGgge1BhbmljLUFSUkFZX09VVF9PRl9CT1VORFN9IGlmIHRoZSBpbmRleCBpcyBvdXQgb2YgYm91bmRzLgogICAgICovCiAgICBmdW5jdGlvbiBhdChCeXRlczMyRGVxdWUgc3RvcmFnZSBkZXF1ZSwgdWludDI1NiBpbmRleCkgaW50ZXJuYWwgdmlldyByZXR1cm5zIChieXRlczMyIHZhbHVlKSB7CiAgICAgICAgaWYgKGluZGV4ID49IGxlbmd0aChkZXF1ZSkpIFBhbmljLnBhbmljKFBhbmljLkFSUkFZX09VVF9PRl9CT1VORFMpOwogICAgICAgIC8vIEJ5IGNvbnN0cnVjdGlvbiwgbGVuZ3RoIGlzIGEgdWludDEyOCwgc28gdGhlIGNoZWNrIGFib3ZlIGVuc3VyZXMgdGhhdCBpbmRleCBjYW4gYmUgc2FmZWx5IGRvd25jYXN0IHRvIHVpbnQxMjgKICAgICAgICB1bmNoZWNrZWQgewogICAgICAgICAgICByZXR1cm4gZGVxdWUuX2RhdGFbZGVxdWUuX2JlZ2luICsgdWludDEyOChpbmRleCldOwogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUmVzZXRzIHRoZSBxdWV1ZSBiYWNrIHRvIGJlaW5nIGVtcHR5LgogICAgICoKICAgICAqIE5PVEU6IFRoZSBjdXJyZW50IGl0ZW1zIGFyZSBsZWZ0IGJlaGluZCBpbiBzdG9yYWdlLiBUaGlzIGRvZXMgbm90IGFmZmVjdCB0aGUgZnVuY3Rpb25pbmcgb2YgdGhlIHF1ZXVlLCBidXQgbWlzc2VzCiAgICAgKiBvdXQgb24gcG90ZW50aWFsIGdhcyByZWZ1bmRzLgogICAgICovCiAgICBmdW5jdGlvbiBjbGVhcihCeXRlczMyRGVxdWUgc3RvcmFnZSBkZXF1ZSkgaW50ZXJuYWwgewogICAgICAgIGRlcXVlLl9iZWdpbiA9IDA7CiAgICAgICAgZGVxdWUuX2VuZCA9IDA7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIG51bWJlciBvZiBpdGVtcyBpbiB0aGUgcXVldWUuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGxlbmd0aChCeXRlczMyRGVxdWUgc3RvcmFnZSBkZXF1ZSkgaW50ZXJuYWwgdmlldyByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgdW5jaGVja2VkIHsKICAgICAgICAgICAgcmV0dXJuIHVpbnQyNTYoZGVxdWUuX2VuZCAtIGRlcXVlLl9iZWdpbik7CiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICogQGRldiBSZXR1cm5zIHRydWUgaWYgdGhlIHF1ZXVlIGlzIGVtcHR5LgogICAgICovCiAgICBmdW5jdGlvbiBlbXB0eShCeXRlczMyRGVxdWUgc3RvcmFnZSBkZXF1ZSkgaW50ZXJuYWwgdmlldyByZXR1cm5zIChib29sKSB7CiAgICAgICAgcmV0dXJuIGRlcXVlLl9lbmQgPT0gZGVxdWUuX2JlZ2luOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (utils/structs/DoubleEndedQueue.sol)
+pragma solidity ^0.8.20;
+
+import {Panic} from "../Panic.sol";
+
+/**
+ * @dev A sequence of items with the ability to efficiently push and pop items (i.e. insert and remove) on both ends of
+ * the sequence (called front and back). Among other access patterns, it can be used to implement efficient LIFO and
+ * FIFO queues. Storage use is optimized, and all operations are O(1) constant time. This includes {clear}, given that
+ * the existing queue contents are left in storage.
+ *
+ * The struct is called `Bytes32Deque`. Other types can be cast to and from `bytes32`. This data structure can only be
+ * used in storage, and not in memory.
+ * ```solidity
+ * DoubleEndedQueue.Bytes32Deque queue;
+ * ```
+ */
+library DoubleEndedQueue {
+    /**
+     * @dev Indices are 128 bits so begin and end are packed in a single storage slot for efficient access.
+     *
+     * Struct members have an underscore prefix indicating that they are "private" and should not be read or written to
+     * directly. Use the functions provided below instead. Modifying the struct manually may violate assumptions and
+     * lead to unexpected behavior.
+     *
+     * The first item is at data[begin] and the last item is at data[end - 1]. This range can wrap around.
+     */
+    struct Bytes32Deque {
+        uint128 _begin;
+        uint128 _end;
+        mapping(uint128 index => bytes32) _data;
+    }
+
+    /**
+     * @dev Inserts an item at the end of the queue.
+     *
+     * Reverts with {Panic-RESOURCE_ERROR} if the queue is full.
+     */
+    function pushBack(Bytes32Deque storage deque, bytes32 value) internal {
+        unchecked {
+            uint128 backIndex = deque._end;
+            if (backIndex + 1 == deque._begin) Panic.panic(Panic.RESOURCE_ERROR);
+            deque._data[backIndex] = value;
+            deque._end = backIndex + 1;
+        }
+    }
+
+    /**
+     * @dev Removes the item at the end of the queue and returns it.
+     *
+     * Reverts with {Panic-EMPTY_ARRAY_POP} if the queue is empty.
+     */
+    function popBack(Bytes32Deque storage deque) internal returns (bytes32 value) {
+        unchecked {
+            uint128 backIndex = deque._end;
+            if (backIndex == deque._begin) Panic.panic(Panic.EMPTY_ARRAY_POP);
+            --backIndex;
+            value = deque._data[backIndex];
+            delete deque._data[backIndex];
+            deque._end = backIndex;
+        }
+    }
+
+    /**
+     * @dev Inserts an item at the beginning of the queue.
+     *
+     * Reverts with {Panic-RESOURCE_ERROR} if the queue is full.
+     */
+    function pushFront(Bytes32Deque storage deque, bytes32 value) internal {
+        unchecked {
+            uint128 frontIndex = deque._begin - 1;
+            if (frontIndex == deque._end) Panic.panic(Panic.RESOURCE_ERROR);
+            deque._data[frontIndex] = value;
+            deque._begin = frontIndex;
+        }
+    }
+
+    /**
+     * @dev Removes the item at the beginning of the queue and returns it.
+     *
+     * Reverts with {Panic-EMPTY_ARRAY_POP} if the queue is empty.
+     */
+    function popFront(Bytes32Deque storage deque) internal returns (bytes32 value) {
+        unchecked {
+            uint128 frontIndex = deque._begin;
+            if (frontIndex == deque._end) Panic.panic(Panic.EMPTY_ARRAY_POP);
+            value = deque._data[frontIndex];
+            delete deque._data[frontIndex];
+            deque._begin = frontIndex + 1;
+        }
+    }
+
+    /**
+     * @dev Returns the item at the beginning of the queue.
+     *
+     * Reverts with {Panic-ARRAY_OUT_OF_BOUNDS} if the queue is empty.
+     */
+    function front(Bytes32Deque storage deque) internal view returns (bytes32 value) {
+        if (empty(deque)) Panic.panic(Panic.ARRAY_OUT_OF_BOUNDS);
+        return deque._data[deque._begin];
+    }
+
+    /**
+     * @dev Returns the item at the end of the queue.
+     *
+     * Reverts with {Panic-ARRAY_OUT_OF_BOUNDS} if the queue is empty.
+     */
+    function back(Bytes32Deque storage deque) internal view returns (bytes32 value) {
+        if (empty(deque)) Panic.panic(Panic.ARRAY_OUT_OF_BOUNDS);
+        unchecked {
+            return deque._data[deque._end - 1];
+        }
+    }
+
+    /**
+     * @dev Return the item at a position in the queue given by `index`, with the first item at 0 and last item at
+     * `length(deque) - 1`.
+     *
+     * Reverts with {Panic-ARRAY_OUT_OF_BOUNDS} if the index is out of bounds.
+     */
+    function at(Bytes32Deque storage deque, uint256 index) internal view returns (bytes32 value) {
+        if (index >= length(deque)) Panic.panic(Panic.ARRAY_OUT_OF_BOUNDS);
+        // By construction, length is a uint128, so the check above ensures that index can be safely downcast to uint128
+        unchecked {
+            return deque._data[deque._begin + uint128(index)];
+        }
+    }
+
+    /**
+     * @dev Resets the queue back to being empty.
+     *
+     * NOTE: The current items are left behind in storage. This does not affect the functioning of the queue, but misses
+     * out on potential gas refunds.
+     */
+    function clear(Bytes32Deque storage deque) internal {
+        deque._begin = 0;
+        deque._end = 0;
+    }
+
+    /**
+     * @dev Returns the number of items in the queue.
+     */
+    function length(Bytes32Deque storage deque) internal view returns (uint256) {
+        unchecked {
+            return uint256(deque._end - deque._begin);
+        }
+    }
+
+    /**
+     * @dev Returns true if the queue is empty.
+     */
+    function empty(Bytes32Deque storage deque) internal view returns (bool) {
+        return deque._end == deque._begin;
+    }
+}
