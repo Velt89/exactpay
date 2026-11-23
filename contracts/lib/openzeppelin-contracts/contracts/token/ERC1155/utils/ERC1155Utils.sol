@@ -1,1 +1,88 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodG9rZW4vRVJDMTE1NS91dGlscy9FUkMxMTU1VXRpbHMuc29sKQoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0lFUkMxMTU1UmVjZWl2ZXJ9IGZyb20gIi4uL0lFUkMxMTU1UmVjZWl2ZXIuc29sIjsKaW1wb3J0IHtJRVJDMTE1NUVycm9yc30gZnJvbSAiLi4vLi4vLi4vaW50ZXJmYWNlcy9kcmFmdC1JRVJDNjA5My5zb2wiOwoKLyoqCiAqIEBkZXYgTGlicmFyeSB0aGF0IHByb3ZpZGUgY29tbW9uIEVSQy0xMTU1IHV0aWxpdHkgZnVuY3Rpb25zLgogKgogKiBTZWUgaHR0cHM6Ly9laXBzLmV0aGVyZXVtLm9yZy9FSVBTL2VpcC0xMTU1W0VSQy0xMTU1XS4KICoKICogX0F2YWlsYWJsZSBzaW5jZSB2NS4xLl8KICovCmxpYnJhcnkgRVJDMTE1NVV0aWxzIHsKICAgIC8qKgogICAgICogQGRldiBQZXJmb3JtcyBhbiBhY2NlcHRhbmNlIGNoZWNrIGZvciB0aGUgcHJvdmlkZWQgYG9wZXJhdG9yYCBieSBjYWxsaW5nIHtJRVJDMTE1NS1vbkVSQzExNTVSZWNlaXZlZH0KICAgICAqIG9uIHRoZSBgdG9gIGFkZHJlc3MuIFRoZSBgb3BlcmF0b3JgIGlzIGdlbmVyYWxseSB0aGUgYWRkcmVzcyB0aGF0IGluaXRpYXRlZCB0aGUgdG9rZW4gdHJhbnNmZXIgKGkuZS4gYG1zZy5zZW5kZXJgKS4KICAgICAqCiAgICAgKiBUaGUgYWNjZXB0YW5jZSBjYWxsIGlzIG5vdCBleGVjdXRlZCBhbmQgdHJlYXRlZCBhcyBhIG5vLW9wIGlmIHRoZSB0YXJnZXQgYWRkcmVzcyBkb2Vzbid0IGNvbnRhaW4gY29kZSAoaS5lLiBhbiBFT0EpLgogICAgICogT3RoZXJ3aXNlLCB0aGUgcmVjaXBpZW50IG11c3QgaW1wbGVtZW50IHtJRVJDMTE1NVJlY2VpdmVyLW9uRVJDMTE1NVJlY2VpdmVkfSBhbmQgcmV0dXJuIHRoZSBhY2NlcHRhbmNlIG1hZ2ljIHZhbHVlIHRvIGFjY2VwdAogICAgICogdGhlIHRyYW5zZmVyLgogICAgICovCiAgICBmdW5jdGlvbiBjaGVja09uRVJDMTE1NVJlY2VpdmVkKAogICAgICAgIGFkZHJlc3Mgb3BlcmF0b3IsCiAgICAgICAgYWRkcmVzcyBmcm9tLAogICAgICAgIGFkZHJlc3MgdG8sCiAgICAgICAgdWludDI1NiBpZCwKICAgICAgICB1aW50MjU2IHZhbHVlLAogICAgICAgIGJ5dGVzIG1lbW9yeSBkYXRhCiAgICApIGludGVybmFsIHsKICAgICAgICBpZiAodG8uY29kZS5sZW5ndGggPiAwKSB7CiAgICAgICAgICAgIHRyeSBJRVJDMTE1NVJlY2VpdmVyKHRvKS5vbkVSQzExNTVSZWNlaXZlZChvcGVyYXRvciwgZnJvbSwgaWQsIHZhbHVlLCBkYXRhKSByZXR1cm5zIChieXRlczQgcmVzcG9uc2UpIHsKICAgICAgICAgICAgICAgIGlmIChyZXNwb25zZSAhPSBJRVJDMTE1NVJlY2VpdmVyLm9uRVJDMTE1NVJlY2VpdmVkLnNlbGVjdG9yKSB7CiAgICAgICAgICAgICAgICAgICAgLy8gVG9rZW5zIHJlamVjdGVkCiAgICAgICAgICAgICAgICAgICAgcmV2ZXJ0IElFUkMxMTU1RXJyb3JzLkVSQzExNTVJbnZhbGlkUmVjZWl2ZXIodG8pOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9IGNhdGNoIChieXRlcyBtZW1vcnkgcmVhc29uKSB7CiAgICAgICAgICAgICAgICBpZiAocmVhc29uLmxlbmd0aCA9PSAwKSB7CiAgICAgICAgICAgICAgICAgICAgLy8gbm9uLUlFUkMxMTU1UmVjZWl2ZXIgaW1wbGVtZW50ZXIKICAgICAgICAgICAgICAgICAgICByZXZlcnQgSUVSQzExNTVFcnJvcnMuRVJDMTE1NUludmFsaWRSZWNlaXZlcih0byk7CiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIGFzc2VtYmx5ICgibWVtb3J5LXNhZmUiKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHJldmVydChhZGQoMzIsIHJlYXNvbiksIG1sb2FkKHJlYXNvbikpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICogQGRldiBQZXJmb3JtcyBhIGJhdGNoIGFjY2VwdGFuY2UgY2hlY2sgZm9yIHRoZSBwcm92aWRlZCBgb3BlcmF0b3JgIGJ5IGNhbGxpbmcge0lFUkMxMTU1LW9uRVJDMTE1NUJhdGNoUmVjZWl2ZWR9CiAgICAgKiBvbiB0aGUgYHRvYCBhZGRyZXNzLiBUaGUgYG9wZXJhdG9yYCBpcyBnZW5lcmFsbHkgdGhlIGFkZHJlc3MgdGhhdCBpbml0aWF0ZWQgdGhlIHRva2VuIHRyYW5zZmVyIChpLmUuIGBtc2cuc2VuZGVyYCkuCiAgICAgKgogICAgICogVGhlIGFjY2VwdGFuY2UgY2FsbCBpcyBub3QgZXhlY3V0ZWQgYW5kIHRyZWF0ZWQgYXMgYSBuby1vcCBpZiB0aGUgdGFyZ2V0IGFkZHJlc3MgZG9lc24ndCBjb250YWluIGNvZGUgKGkuZS4gYW4gRU9BKS4KICAgICAqIE90aGVyd2lzZSwgdGhlIHJlY2lwaWVudCBtdXN0IGltcGxlbWVudCB7SUVSQzExNTVSZWNlaXZlci1vbkVSQzExNTVSZWNlaXZlZH0gYW5kIHJldHVybiB0aGUgYWNjZXB0YW5jZSBtYWdpYyB2YWx1ZSB0byBhY2NlcHQKICAgICAqIHRoZSB0cmFuc2Zlci4KICAgICAqLwogICAgZnVuY3Rpb24gY2hlY2tPbkVSQzExNTVCYXRjaFJlY2VpdmVkKAogICAgICAgIGFkZHJlc3Mgb3BlcmF0b3IsCiAgICAgICAgYWRkcmVzcyBmcm9tLAogICAgICAgIGFkZHJlc3MgdG8sCiAgICAgICAgdWludDI1NltdIG1lbW9yeSBpZHMsCiAgICAgICAgdWludDI1NltdIG1lbW9yeSB2YWx1ZXMsCiAgICAgICAgYnl0ZXMgbWVtb3J5IGRhdGEKICAgICkgaW50ZXJuYWwgewogICAgICAgIGlmICh0by5jb2RlLmxlbmd0aCA+IDApIHsKICAgICAgICAgICAgdHJ5IElFUkMxMTU1UmVjZWl2ZXIodG8pLm9uRVJDMTE1NUJhdGNoUmVjZWl2ZWQob3BlcmF0b3IsIGZyb20sIGlkcywgdmFsdWVzLCBkYXRhKSByZXR1cm5zICgKICAgICAgICAgICAgICAgIGJ5dGVzNCByZXNwb25zZQogICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgIGlmIChyZXNwb25zZSAhPSBJRVJDMTE1NVJlY2VpdmVyLm9uRVJDMTE1NUJhdGNoUmVjZWl2ZWQuc2VsZWN0b3IpIHsKICAgICAgICAgICAgICAgICAgICAvLyBUb2tlbnMgcmVqZWN0ZWQKICAgICAgICAgICAgICAgICAgICByZXZlcnQgSUVSQzExNTVFcnJvcnMuRVJDMTE1NUludmFsaWRSZWNlaXZlcih0byk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0gY2F0Y2ggKGJ5dGVzIG1lbW9yeSByZWFzb24pIHsKICAgICAgICAgICAgICAgIGlmIChyZWFzb24ubGVuZ3RoID09IDApIHsKICAgICAgICAgICAgICAgICAgICAvLyBub24tSUVSQzExNTVSZWNlaXZlciBpbXBsZW1lbnRlcgogICAgICAgICAgICAgICAgICAgIHJldmVydCBJRVJDMTE1NUVycm9ycy5FUkMxMTU1SW52YWxpZFJlY2VpdmVyKHRvKTsKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgYXNzZW1ibHkgKCJtZW1vcnktc2FmZSIpIHsKICAgICAgICAgICAgICAgICAgICAgICAgcmV2ZXJ0KGFkZCgzMiwgcmVhc29uKSwgbWxvYWQocmVhc29uKSkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (token/ERC1155/utils/ERC1155Utils.sol)
+
+pragma solidity ^0.8.20;
+
+import {IERC1155Receiver} from "../IERC1155Receiver.sol";
+import {IERC1155Errors} from "../../../interfaces/draft-IERC6093.sol";
+
+/**
+ * @dev Library that provide common ERC-1155 utility functions.
+ *
+ * See https://eips.ethereum.org/EIPS/eip-1155[ERC-1155].
+ *
+ * _Available since v5.1._
+ */
+library ERC1155Utils {
+    /**
+     * @dev Performs an acceptance check for the provided `operator` by calling {IERC1155-onERC1155Received}
+     * on the `to` address. The `operator` is generally the address that initiated the token transfer (i.e. `msg.sender`).
+     *
+     * The acceptance call is not executed and treated as a no-op if the target address doesn't contain code (i.e. an EOA).
+     * Otherwise, the recipient must implement {IERC1155Receiver-onERC1155Received} and return the acceptance magic value to accept
+     * the transfer.
+     */
+    function checkOnERC1155Received(
+        address operator,
+        address from,
+        address to,
+        uint256 id,
+        uint256 value,
+        bytes memory data
+    ) internal {
+        if (to.code.length > 0) {
+            try IERC1155Receiver(to).onERC1155Received(operator, from, id, value, data) returns (bytes4 response) {
+                if (response != IERC1155Receiver.onERC1155Received.selector) {
+                    // Tokens rejected
+                    revert IERC1155Errors.ERC1155InvalidReceiver(to);
+                }
+            } catch (bytes memory reason) {
+                if (reason.length == 0) {
+                    // non-IERC1155Receiver implementer
+                    revert IERC1155Errors.ERC1155InvalidReceiver(to);
+                } else {
+                    assembly ("memory-safe") {
+                        revert(add(32, reason), mload(reason))
+                    }
+                }
+            }
+        }
+    }
+
+    /**
+     * @dev Performs a batch acceptance check for the provided `operator` by calling {IERC1155-onERC1155BatchReceived}
+     * on the `to` address. The `operator` is generally the address that initiated the token transfer (i.e. `msg.sender`).
+     *
+     * The acceptance call is not executed and treated as a no-op if the target address doesn't contain code (i.e. an EOA).
+     * Otherwise, the recipient must implement {IERC1155Receiver-onERC1155Received} and return the acceptance magic value to accept
+     * the transfer.
+     */
+    function checkOnERC1155BatchReceived(
+        address operator,
+        address from,
+        address to,
+        uint256[] memory ids,
+        uint256[] memory values,
+        bytes memory data
+    ) internal {
+        if (to.code.length > 0) {
+            try IERC1155Receiver(to).onERC1155BatchReceived(operator, from, ids, values, data) returns (
+                bytes4 response
+            ) {
+                if (response != IERC1155Receiver.onERC1155BatchReceived.selector) {
+                    // Tokens rejected
+                    revert IERC1155Errors.ERC1155InvalidReceiver(to);
+                }
+            } catch (bytes memory reason) {
+                if (reason.length == 0) {
+                    // non-IERC1155Receiver implementer
+                    revert IERC1155Errors.ERC1155InvalidReceiver(to);
+                } else {
+                    assembly ("memory-safe") {
+                        revert(add(32, reason), mload(reason))
+                    }
+                }
+            }
+        }
+    }
+}
