@@ -1,1 +1,202 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgPj0wLjguMCA8MC45LjA7CgppbXBvcnQge3N0ZE1hdGh9IGZyb20gIi4uL3NyYy9TdGRNYXRoLnNvbCI7CmltcG9ydCB7VGVzdCwgc3RkRXJyb3J9IGZyb20gIi4uL3NyYy9UZXN0LnNvbCI7Cgpjb250cmFjdCBTdGRNYXRoTW9jayBpcyBUZXN0IHsKICAgIGZ1bmN0aW9uIGV4cG9zZWRfcGVyY2VudERlbHRhKHVpbnQyNTYgYSwgdWludDI1NiBiKSBwdWJsaWMgcHVyZSByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgcmV0dXJuIHN0ZE1hdGgucGVyY2VudERlbHRhKGEsIGIpOwogICAgfQoKICAgIGZ1bmN0aW9uIGV4cG9zZWRfcGVyY2VudERlbHRhKGludDI1NiBhLCBpbnQyNTYgYikgcHVibGljIHB1cmUgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHJldHVybiBzdGRNYXRoLnBlcmNlbnREZWx0YShhLCBiKTsKICAgIH0KfQoKY29udHJhY3QgU3RkTWF0aFRlc3QgaXMgVGVzdCB7CiAgICBmdW5jdGlvbiB0ZXN0X0dldEFicygpIGV4dGVybmFsIHB1cmUgewogICAgICAgIGFzc2VydEVxKHN0ZE1hdGguYWJzKC01MCksIDUwKTsKICAgICAgICBhc3NlcnRFcShzdGRNYXRoLmFicyg1MCksIDUwKTsKICAgICAgICBhc3NlcnRFcShzdGRNYXRoLmFicygtMTMzNyksIDEzMzcpOwogICAgICAgIGFzc2VydEVxKHN0ZE1hdGguYWJzKDApLCAwKTsKCiAgICAgICAgYXNzZXJ0RXEoc3RkTWF0aC5hYnModHlwZShpbnQyNTYpLm1pbiksICh0eXBlKHVpbnQyNTYpLm1heCA+PiAxKSArIDEpOwogICAgICAgIGFzc2VydEVxKHN0ZE1hdGguYWJzKHR5cGUoaW50MjU2KS5tYXgpLCAodHlwZSh1aW50MjU2KS5tYXggPj4gMSkpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RGdXp6X0dldEFicyhpbnQyNTYgYSkgZXh0ZXJuYWwgcHVyZSB7CiAgICAgICAgdWludDI1NiBtYW51YWxBYnMgPSBnZXRBYnMoYSk7CgogICAgICAgIHVpbnQyNTYgYWJzID0gc3RkTWF0aC5hYnMoYSk7CgogICAgICAgIGFzc2VydEVxKGFicywgbWFudWFsQWJzKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X0dldERlbHRhX1VpbnQoKSBleHRlcm5hbCBwdXJlIHsKICAgICAgICBhc3NlcnRFcShzdGRNYXRoLmRlbHRhKHVpbnQyNTYoMCksIHVpbnQyNTYoMCkpLCAwKTsKICAgICAgICBhc3NlcnRFcShzdGRNYXRoLmRlbHRhKHVpbnQyNTYoMCksIHVpbnQyNTYoMTMzNykpLCAxMzM3KTsKICAgICAgICBhc3NlcnRFcShzdGRNYXRoLmRlbHRhKHVpbnQyNTYoMCksIHR5cGUodWludDY0KS5tYXgpLCB0eXBlKHVpbnQ2NCkubWF4KTsKICAgICAgICBhc3NlcnRFcShzdGRNYXRoLmRlbHRhKHVpbnQyNTYoMCksIHR5cGUodWludDEyOCkubWF4KSwgdHlwZSh1aW50MTI4KS5tYXgpOwogICAgICAgIGFzc2VydEVxKHN0ZE1hdGguZGVsdGEodWludDI1NigwKSwgdHlwZSh1aW50MjU2KS5tYXgpLCB0eXBlKHVpbnQyNTYpLm1heCk7CgogICAgICAgIGFzc2VydEVxKHN0ZE1hdGguZGVsdGEoMCwgdWludDI1NigwKSksIDApOwogICAgICAgIGFzc2VydEVxKHN0ZE1hdGguZGVsdGEoMTMzNywgdWludDI1NigwKSksIDEzMzcpOwogICAgICAgIGFzc2VydEVxKHN0ZE1hdGguZGVsdGEodHlwZSh1aW50NjQpLm1heCwgdWludDI1NigwKSksIHR5cGUodWludDY0KS5tYXgpOwogICAgICAgIGFzc2VydEVxKHN0ZE1hdGguZGVsdGEodHlwZSh1aW50MTI4KS5tYXgsIHVpbnQyNTYoMCkpLCB0eXBlKHVpbnQxMjgpLm1heCk7CiAgICAgICAgYXNzZXJ0RXEoc3RkTWF0aC5kZWx0YSh0eXBlKHVpbnQyNTYpLm1heCwgdWludDI1NigwKSksIHR5cGUodWludDI1NikubWF4KTsKCiAgICAgICAgYXNzZXJ0RXEoc3RkTWF0aC5kZWx0YSgxMzM3LCB1aW50MjU2KDEzMzcpKSwgMCk7CiAgICAgICAgYXNzZXJ0RXEoc3RkTWF0aC5kZWx0YSh0eXBlKHVpbnQyNTYpLm1heCwgdHlwZSh1aW50MjU2KS5tYXgpLCAwKTsKICAgICAgICBhc3NlcnRFcShzdGRNYXRoLmRlbHRhKDUwMDAsIHVpbnQyNTYoMTI1MCkpLCAzNzUwKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0RnV6el9HZXREZWx0YV9VaW50KHVpbnQyNTYgYSwgdWludDI1NiBiKSBleHRlcm5hbCBwdXJlIHsKICAgICAgICB1aW50MjU2IG1hbnVhbERlbHRhID0gYSA+IGIgPyBhIC0gYiA6IGIgLSBhOwoKICAgICAgICB1aW50MjU2IGRlbHRhID0gc3RkTWF0aC5kZWx0YShhLCBiKTsKCiAgICAgICAgYXNzZXJ0RXEoZGVsdGEsIG1hbnVhbERlbHRhKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X0dldERlbHRhX0ludCgpIGV4dGVybmFsIHB1cmUgewogICAgICAgIGFzc2VydEVxKHN0ZE1hdGguZGVsdGEoaW50MjU2KDApLCBpbnQyNTYoMCkpLCAwKTsKICAgICAgICBhc3NlcnRFcShzdGRNYXRoLmRlbHRhKGludDI1NigwKSwgaW50MjU2KDEzMzcpKSwgMTMzNyk7CiAgICAgICAgYXNzZXJ0RXEoc3RkTWF0aC5kZWx0YShpbnQyNTYoMCksIHR5cGUoaW50NjQpLm1heCksIHR5cGUodWludDY0KS5tYXggPj4gMSk7CiAgICAgICAgYXNzZXJ0RXEoc3RkTWF0aC5kZWx0YShpbnQyNTYoMCksIHR5cGUoaW50MTI4KS5tYXgpLCB0eXBlKHVpbnQxMjgpLm1heCA+PiAxKTsKICAgICAgICBhc3NlcnRFcShzdGRNYXRoLmRlbHRhKGludDI1NigwKSwgdHlwZShpbnQyNTYpLm1heCksIHR5cGUodWludDI1NikubWF4ID4+IDEpOwoKICAgICAgICBhc3NlcnRFcShzdGRNYXRoLmRlbHRhKDAsIGludDI1NigwKSksIDApOwogICAgICAgIGFzc2VydEVxKHN0ZE1hdGguZGVsdGEoMTMzNywgaW50MjU2KDApKSwgMTMzNyk7CiAgICAgICAgYXNzZXJ0RXEoc3RkTWF0aC5kZWx0YSh0eXBlKGludDY0KS5tYXgsIGludDI1NigwKSksIHR5cGUodWludDY0KS5tYXggPj4gMSk7CiAgICAgICAgYXNzZXJ0RXEoc3RkTWF0aC5kZWx0YSh0eXBlKGludDEyOCkubWF4LCBpbnQyNTYoMCkpLCB0eXBlKHVpbnQxMjgpLm1heCA+PiAxKTsKICAgICAgICBhc3NlcnRFcShzdGRNYXRoLmRlbHRhKHR5cGUoaW50MjU2KS5tYXgsIGludDI1NigwKSksIHR5cGUodWludDI1NikubWF4ID4+IDEpOwoKICAgICAgICBhc3NlcnRFcShzdGRNYXRoLmRlbHRhKC0wLCBpbnQyNTYoMCkpLCAwKTsKICAgICAgICBhc3NlcnRFcShzdGRNYXRoLmRlbHRhKC0xMzM3LCBpbnQyNTYoMCkpLCAxMzM3KTsKICAgICAgICBhc3NlcnRFcShzdGRNYXRoLmRlbHRhKHR5cGUoaW50NjQpLm1pbiwgaW50MjU2KDApKSwgKHR5cGUodWludDY0KS5tYXggPj4gMSkgKyAxKTsKICAgICAgICBhc3NlcnRFcShzdGRNYXRoLmRlbHRhKHR5cGUoaW50MTI4KS5taW4sIGludDI1NigwKSksICh0eXBlKHVpbnQxMjgpLm1heCA+PiAxKSArIDEpOwogICAgICAgIGFzc2VydEVxKHN0ZE1hdGguZGVsdGEodHlwZShpbnQyNTYpLm1pbiwgaW50MjU2KDApKSwgKHR5cGUodWludDI1NikubWF4ID4+IDEpICsgMSk7CgogICAgICAgIGFzc2VydEVxKHN0ZE1hdGguZGVsdGEoaW50MjU2KDApLCAtMCksIDApOwogICAgICAgIGFzc2VydEVxKHN0ZE1hdGguZGVsdGEoaW50MjU2KDApLCAtMTMzNyksIDEzMzcpOwogICAgICAgIGFzc2VydEVxKHN0ZE1hdGguZGVsdGEoaW50MjU2KDApLCB0eXBlKGludDY0KS5taW4pLCAodHlwZSh1aW50NjQpLm1heCA+PiAxKSArIDEpOwogICAgICAgIGFzc2VydEVxKHN0ZE1hdGguZGVsdGEoaW50MjU2KDApLCB0eXBlKGludDEyOCkubWluKSwgKHR5cGUodWludDEyOCkubWF4ID4+IDEpICsgMSk7CiAgICAgICAgYXNzZXJ0RXEoc3RkTWF0aC5kZWx0YShpbnQyNTYoMCksIHR5cGUoaW50MjU2KS5taW4pLCAodHlwZSh1aW50MjU2KS5tYXggPj4gMSkgKyAxKTsKCiAgICAgICAgYXNzZXJ0RXEoc3RkTWF0aC5kZWx0YSgxMzM3LCBpbnQyNTYoMTMzNykpLCAwKTsKICAgICAgICBhc3NlcnRFcShzdGRNYXRoLmRlbHRhKHR5cGUoaW50MjU2KS5tYXgsIHR5cGUoaW50MjU2KS5tYXgpLCAwKTsKICAgICAgICBhc3NlcnRFcShzdGRNYXRoLmRlbHRhKHR5cGUoaW50MjU2KS5taW4sIHR5cGUoaW50MjU2KS5taW4pLCAwKTsKICAgICAgICBhc3NlcnRFcShzdGRNYXRoLmRlbHRhKHR5cGUoaW50MjU2KS5taW4sIHR5cGUoaW50MjU2KS5tYXgpLCB0eXBlKHVpbnQyNTYpLm1heCk7CiAgICAgICAgYXNzZXJ0RXEoc3RkTWF0aC5kZWx0YSg1MDAwLCBpbnQyNTYoMTI1MCkpLCAzNzUwKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0RnV6el9HZXREZWx0YV9JbnQoaW50MjU2IGEsIGludDI1NiBiKSBleHRlcm5hbCBwdXJlIHsKICAgICAgICB1aW50MjU2IGFic0EgPSBnZXRBYnMoYSk7CiAgICAgICAgdWludDI1NiBhYnNCID0gZ2V0QWJzKGIpOwogICAgICAgIHVpbnQyNTYgYWJzRGVsdGEgPSBhYnNBID4gYWJzQiA/IGFic0EgLSBhYnNCIDogYWJzQiAtIGFic0E7CgogICAgICAgIHVpbnQyNTYgbWFudWFsRGVsdGE7CiAgICAgICAgaWYgKChhID49IDAgJiYgYiA+PSAwKSB8fCAoYSA8IDAgJiYgYiA8IDApKSB7CiAgICAgICAgICAgIG1hbnVhbERlbHRhID0gYWJzRGVsdGE7CiAgICAgICAgfQogICAgICAgIC8vIChhIDwgMCAmJiBiID49IDApIHx8IChhID49IDAgJiYgYiA8IDApCiAgICAgICAgZWxzZSB7CiAgICAgICAgICAgIG1hbnVhbERlbHRhID0gYWJzQSArIGFic0I7CiAgICAgICAgfQoKICAgICAgICB1aW50MjU2IGRlbHRhID0gc3RkTWF0aC5kZWx0YShhLCBiKTsKCiAgICAgICAgYXNzZXJ0RXEoZGVsdGEsIG1hbnVhbERlbHRhKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X0dldFBlcmNlbnREZWx0YV9VaW50KCkgZXh0ZXJuYWwgewogICAgICAgIFN0ZE1hdGhNb2NrIHN0ZE1hdGhNb2NrID0gbmV3IFN0ZE1hdGhNb2NrKCk7CgogICAgICAgIGFzc2VydEVxKHN0ZE1hdGgucGVyY2VudERlbHRhKHVpbnQyNTYoMCksIHVpbnQyNTYoMTMzNykpLCAxZTE4KTsKICAgICAgICBhc3NlcnRFcShzdGRNYXRoLnBlcmNlbnREZWx0YSh1aW50MjU2KDApLCB0eXBlKHVpbnQ2NCkubWF4KSwgMWUxOCk7CiAgICAgICAgYXNzZXJ0RXEoc3RkTWF0aC5wZXJjZW50RGVsdGEodWludDI1NigwKSwgdHlwZSh1aW50MTI4KS5tYXgpLCAxZTE4KTsKICAgICAgICBhc3NlcnRFcShzdGRNYXRoLnBlcmNlbnREZWx0YSh1aW50MjU2KDApLCB0eXBlKHVpbnQxOTIpLm1heCksIDFlMTgpOwoKICAgICAgICBhc3NlcnRFcShzdGRNYXRoLnBlcmNlbnREZWx0YSgxMzM3LCB1aW50MjU2KDEzMzcpKSwgMCk7CiAgICAgICAgYXNzZXJ0RXEoc3RkTWF0aC5wZXJjZW50RGVsdGEodHlwZSh1aW50MTkyKS5tYXgsIHR5cGUodWludDE5MikubWF4KSwgMCk7CiAgICAgICAgYXNzZXJ0RXEoc3RkTWF0aC5wZXJjZW50RGVsdGEoMCwgdWludDI1NigyNTAwKSksIDFlMTgpOwogICAgICAgIGFzc2VydEVxKHN0ZE1hdGgucGVyY2VudERlbHRhKDI1MDAsIHVpbnQyNTYoMjUwMCkpLCAwKTsKICAgICAgICBhc3NlcnRFcShzdGRNYXRoLnBlcmNlbnREZWx0YSg1MDAwLCB1aW50MjU2KDI1MDApKSwgMWUxOCk7CiAgICAgICAgYXNzZXJ0RXEoc3RkTWF0aC5wZXJjZW50RGVsdGEoNzUwMCwgdWludDI1NigyNTAwKSksIDJlMTgpOwoKICAgICAgICB2bS5leHBlY3RSZXZlcnQoc3RkRXJyb3IuZGl2aXNpb25FcnJvcik7CiAgICAgICAgc3RkTWF0aE1vY2suZXhwb3NlZF9wZXJjZW50RGVsdGEodWludDI1NigxKSwgMCk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdEZ1enpfR2V0UGVyY2VudERlbHRhX1VpbnQodWludDE5MiBhLCB1aW50MTkyIGIpIGV4dGVybmFsIHB1cmUgewogICAgICAgIHZtLmFzc3VtZShiICE9IDApOwogICAgICAgIHVpbnQyNTYgbWFudWFsRGVsdGEgPSBhID4gYiA/IGEgLSBiIDogYiAtIGE7CgogICAgICAgIHVpbnQyNTYgbWFudWFsUGVyY2VudERlbHRhID0gbWFudWFsRGVsdGEgKiAxZTE4IC8gYjsKICAgICAgICB1aW50MjU2IHBlcmNlbnREZWx0YSA9IHN0ZE1hdGgucGVyY2VudERlbHRhKGEsIGIpOwoKICAgICAgICBhc3NlcnRFcShwZXJjZW50RGVsdGEsIG1hbnVhbFBlcmNlbnREZWx0YSk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9HZXRQZXJjZW50RGVsdGFfSW50KCkgZXh0ZXJuYWwgewogICAgICAgIC8vIFdlIGRlcGxveSBhIG1vY2sgdmVyc2lvbiBzbyB3ZSBjYW4gcHJvcGVybHkgdGVzdCB0aGUgcmV2ZXJ0LgogICAgICAgIFN0ZE1hdGhNb2NrIHN0ZE1hdGhNb2NrID0gbmV3IFN0ZE1hdGhNb2NrKCk7CgogICAgICAgIGFzc2VydEVxKHN0ZE1hdGgucGVyY2VudERlbHRhKGludDI1NigwKSwgaW50MjU2KDEzMzcpKSwgMWUxOCk7CiAgICAgICAgYXNzZXJ0RXEoc3RkTWF0aC5wZXJjZW50RGVsdGEoaW50MjU2KDApLCAtMTMzNyksIDFlMTgpOwogICAgICAgIGFzc2VydEVxKHN0ZE1hdGgucGVyY2VudERlbHRhKGludDI1NigwKSwgdHlwZShpbnQ2NCkubWluKSwgMWUxOCk7CiAgICAgICAgYXNzZXJ0RXEoc3RkTWF0aC5wZXJjZW50RGVsdGEoaW50MjU2KDApLCB0eXBlKGludDEyOCkubWluKSwgMWUxOCk7CiAgICAgICAgYXNzZXJ0RXEoc3RkTWF0aC5wZXJjZW50RGVsdGEoaW50MjU2KDApLCB0eXBlKGludDE5MikubWluKSwgMWUxOCk7CiAgICAgICAgYXNzZXJ0RXEoc3RkTWF0aC5wZXJjZW50RGVsdGEoaW50MjU2KDApLCB0eXBlKGludDY0KS5tYXgpLCAxZTE4KTsKICAgICAgICBhc3NlcnRFcShzdGRNYXRoLnBlcmNlbnREZWx0YShpbnQyNTYoMCksIHR5cGUoaW50MTI4KS5tYXgpLCAxZTE4KTsKICAgICAgICBhc3NlcnRFcShzdGRNYXRoLnBlcmNlbnREZWx0YShpbnQyNTYoMCksIHR5cGUoaW50MTkyKS5tYXgpLCAxZTE4KTsKCiAgICAgICAgYXNzZXJ0RXEoc3RkTWF0aC5wZXJjZW50RGVsdGEoMTMzNywgaW50MjU2KDEzMzcpKSwgMCk7CiAgICAgICAgYXNzZXJ0RXEoc3RkTWF0aC5wZXJjZW50RGVsdGEodHlwZShpbnQxOTIpLm1heCwgdHlwZShpbnQxOTIpLm1heCksIDApOwogICAgICAgIGFzc2VydEVxKHN0ZE1hdGgucGVyY2VudERlbHRhKHR5cGUoaW50MTkyKS5taW4sIHR5cGUoaW50MTkyKS5taW4pLCAwKTsKCiAgICAgICAgYXNzZXJ0RXEoc3RkTWF0aC5wZXJjZW50RGVsdGEodHlwZShpbnQxOTIpLm1pbiwgdHlwZShpbnQxOTIpLm1heCksIDJlMTgpOyAvLyByb3VuZHMgdGhlIDEgd2VpIGRpZmYgZG93bgogICAgICAgIGFzc2VydEVxKHN0ZE1hdGgucGVyY2VudERlbHRhKHR5cGUoaW50MTkyKS5tYXgsIHR5cGUoaW50MTkyKS5taW4pLCAyZTE4IC0gMSk7IC8vIHJvdW5kcyB0aGUgMSB3ZWkgZGlmZiBkb3duCiAgICAgICAgYXNzZXJ0RXEoc3RkTWF0aC5wZXJjZW50RGVsdGEoMCwgaW50MjU2KDI1MDApKSwgMWUxOCk7CiAgICAgICAgYXNzZXJ0RXEoc3RkTWF0aC5wZXJjZW50RGVsdGEoMjUwMCwgaW50MjU2KDI1MDApKSwgMCk7CiAgICAgICAgYXNzZXJ0RXEoc3RkTWF0aC5wZXJjZW50RGVsdGEoNTAwMCwgaW50MjU2KDI1MDApKSwgMWUxOCk7CiAgICAgICAgYXNzZXJ0RXEoc3RkTWF0aC5wZXJjZW50RGVsdGEoNzUwMCwgaW50MjU2KDI1MDApKSwgMmUxOCk7CgogICAgICAgIHZtLmV4cGVjdFJldmVydChzdGRFcnJvci5kaXZpc2lvbkVycm9yKTsKICAgICAgICBzdGRNYXRoTW9jay5leHBvc2VkX3BlcmNlbnREZWx0YShpbnQyNTYoMSksIDApOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RGdXp6X0dldFBlcmNlbnREZWx0YV9JbnQoaW50MTkyIGEsIGludDE5MiBiKSBleHRlcm5hbCBwdXJlIHsKICAgICAgICB2bS5hc3N1bWUoYiAhPSAwKTsKICAgICAgICB1aW50MjU2IGFic0EgPSBnZXRBYnMoYSk7CiAgICAgICAgdWludDI1NiBhYnNCID0gZ2V0QWJzKGIpOwogICAgICAgIHVpbnQyNTYgYWJzRGVsdGEgPSBhYnNBID4gYWJzQiA/IGFic0EgLSBhYnNCIDogYWJzQiAtIGFic0E7CgogICAgICAgIHVpbnQyNTYgbWFudWFsRGVsdGE7CiAgICAgICAgaWYgKChhID49IDAgJiYgYiA+PSAwKSB8fCAoYSA8IDAgJiYgYiA8IDApKSB7CiAgICAgICAgICAgIG1hbnVhbERlbHRhID0gYWJzRGVsdGE7CiAgICAgICAgfQogICAgICAgIC8vIChhIDwgMCAmJiBiID49IDApIHx8IChhID49IDAgJiYgYiA8IDApCiAgICAgICAgZWxzZSB7CiAgICAgICAgICAgIG1hbnVhbERlbHRhID0gYWJzQSArIGFic0I7CiAgICAgICAgfQoKICAgICAgICB1aW50MjU2IG1hbnVhbFBlcmNlbnREZWx0YSA9IG1hbnVhbERlbHRhICogMWUxOCAvIGFic0I7CiAgICAgICAgdWludDI1NiBwZXJjZW50RGVsdGEgPSBzdGRNYXRoLnBlcmNlbnREZWx0YShhLCBiKTsKCiAgICAgICAgYXNzZXJ0RXEocGVyY2VudERlbHRhLCBtYW51YWxQZXJjZW50RGVsdGEpOwogICAgfQoKICAgIC8qLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBIRUxQRVJTCiAgICAvLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLyovCgogICAgZnVuY3Rpb24gZ2V0QWJzKGludDI1NiBhKSBwcml2YXRlIHB1cmUgcmV0dXJucyAodWludDI1NikgewogICAgICAgIGlmIChhIDwgMCkgewogICAgICAgICAgICByZXR1cm4gYSA9PSB0eXBlKGludDI1NikubWluID8gdWludDI1Nih0eXBlKGludDI1NikubWF4KSArIDEgOiB1aW50MjU2KC1hKTsKICAgICAgICB9CgogICAgICAgIHJldHVybiB1aW50MjU2KGEpOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.8.0 <0.9.0;
+
+import {stdMath} from "../src/StdMath.sol";
+import {Test, stdError} from "../src/Test.sol";
+
+contract StdMathMock is Test {
+    function exposed_percentDelta(uint256 a, uint256 b) public pure returns (uint256) {
+        return stdMath.percentDelta(a, b);
+    }
+
+    function exposed_percentDelta(int256 a, int256 b) public pure returns (uint256) {
+        return stdMath.percentDelta(a, b);
+    }
+}
+
+contract StdMathTest is Test {
+    function test_GetAbs() external pure {
+        assertEq(stdMath.abs(-50), 50);
+        assertEq(stdMath.abs(50), 50);
+        assertEq(stdMath.abs(-1337), 1337);
+        assertEq(stdMath.abs(0), 0);
+
+        assertEq(stdMath.abs(type(int256).min), (type(uint256).max >> 1) + 1);
+        assertEq(stdMath.abs(type(int256).max), (type(uint256).max >> 1));
+    }
+
+    function testFuzz_GetAbs(int256 a) external pure {
+        uint256 manualAbs = getAbs(a);
+
+        uint256 abs = stdMath.abs(a);
+
+        assertEq(abs, manualAbs);
+    }
+
+    function test_GetDelta_Uint() external pure {
+        assertEq(stdMath.delta(uint256(0), uint256(0)), 0);
+        assertEq(stdMath.delta(uint256(0), uint256(1337)), 1337);
+        assertEq(stdMath.delta(uint256(0), type(uint64).max), type(uint64).max);
+        assertEq(stdMath.delta(uint256(0), type(uint128).max), type(uint128).max);
+        assertEq(stdMath.delta(uint256(0), type(uint256).max), type(uint256).max);
+
+        assertEq(stdMath.delta(0, uint256(0)), 0);
+        assertEq(stdMath.delta(1337, uint256(0)), 1337);
+        assertEq(stdMath.delta(type(uint64).max, uint256(0)), type(uint64).max);
+        assertEq(stdMath.delta(type(uint128).max, uint256(0)), type(uint128).max);
+        assertEq(stdMath.delta(type(uint256).max, uint256(0)), type(uint256).max);
+
+        assertEq(stdMath.delta(1337, uint256(1337)), 0);
+        assertEq(stdMath.delta(type(uint256).max, type(uint256).max), 0);
+        assertEq(stdMath.delta(5000, uint256(1250)), 3750);
+    }
+
+    function testFuzz_GetDelta_Uint(uint256 a, uint256 b) external pure {
+        uint256 manualDelta = a > b ? a - b : b - a;
+
+        uint256 delta = stdMath.delta(a, b);
+
+        assertEq(delta, manualDelta);
+    }
+
+    function test_GetDelta_Int() external pure {
+        assertEq(stdMath.delta(int256(0), int256(0)), 0);
+        assertEq(stdMath.delta(int256(0), int256(1337)), 1337);
+        assertEq(stdMath.delta(int256(0), type(int64).max), type(uint64).max >> 1);
+        assertEq(stdMath.delta(int256(0), type(int128).max), type(uint128).max >> 1);
+        assertEq(stdMath.delta(int256(0), type(int256).max), type(uint256).max >> 1);
+
+        assertEq(stdMath.delta(0, int256(0)), 0);
+        assertEq(stdMath.delta(1337, int256(0)), 1337);
+        assertEq(stdMath.delta(type(int64).max, int256(0)), type(uint64).max >> 1);
+        assertEq(stdMath.delta(type(int128).max, int256(0)), type(uint128).max >> 1);
+        assertEq(stdMath.delta(type(int256).max, int256(0)), type(uint256).max >> 1);
+
+        assertEq(stdMath.delta(-0, int256(0)), 0);
+        assertEq(stdMath.delta(-1337, int256(0)), 1337);
+        assertEq(stdMath.delta(type(int64).min, int256(0)), (type(uint64).max >> 1) + 1);
+        assertEq(stdMath.delta(type(int128).min, int256(0)), (type(uint128).max >> 1) + 1);
+        assertEq(stdMath.delta(type(int256).min, int256(0)), (type(uint256).max >> 1) + 1);
+
+        assertEq(stdMath.delta(int256(0), -0), 0);
+        assertEq(stdMath.delta(int256(0), -1337), 1337);
+        assertEq(stdMath.delta(int256(0), type(int64).min), (type(uint64).max >> 1) + 1);
+        assertEq(stdMath.delta(int256(0), type(int128).min), (type(uint128).max >> 1) + 1);
+        assertEq(stdMath.delta(int256(0), type(int256).min), (type(uint256).max >> 1) + 1);
+
+        assertEq(stdMath.delta(1337, int256(1337)), 0);
+        assertEq(stdMath.delta(type(int256).max, type(int256).max), 0);
+        assertEq(stdMath.delta(type(int256).min, type(int256).min), 0);
+        assertEq(stdMath.delta(type(int256).min, type(int256).max), type(uint256).max);
+        assertEq(stdMath.delta(5000, int256(1250)), 3750);
+    }
+
+    function testFuzz_GetDelta_Int(int256 a, int256 b) external pure {
+        uint256 absA = getAbs(a);
+        uint256 absB = getAbs(b);
+        uint256 absDelta = absA > absB ? absA - absB : absB - absA;
+
+        uint256 manualDelta;
+        if ((a >= 0 && b >= 0) || (a < 0 && b < 0)) {
+            manualDelta = absDelta;
+        }
+        // (a < 0 && b >= 0) || (a >= 0 && b < 0)
+        else {
+            manualDelta = absA + absB;
+        }
+
+        uint256 delta = stdMath.delta(a, b);
+
+        assertEq(delta, manualDelta);
+    }
+
+    function test_GetPercentDelta_Uint() external {
+        StdMathMock stdMathMock = new StdMathMock();
+
+        assertEq(stdMath.percentDelta(uint256(0), uint256(1337)), 1e18);
+        assertEq(stdMath.percentDelta(uint256(0), type(uint64).max), 1e18);
+        assertEq(stdMath.percentDelta(uint256(0), type(uint128).max), 1e18);
+        assertEq(stdMath.percentDelta(uint256(0), type(uint192).max), 1e18);
+
+        assertEq(stdMath.percentDelta(1337, uint256(1337)), 0);
+        assertEq(stdMath.percentDelta(type(uint192).max, type(uint192).max), 0);
+        assertEq(stdMath.percentDelta(0, uint256(2500)), 1e18);
+        assertEq(stdMath.percentDelta(2500, uint256(2500)), 0);
+        assertEq(stdMath.percentDelta(5000, uint256(2500)), 1e18);
+        assertEq(stdMath.percentDelta(7500, uint256(2500)), 2e18);
+
+        vm.expectRevert(stdError.divisionError);
+        stdMathMock.exposed_percentDelta(uint256(1), 0);
+    }
+
+    function testFuzz_GetPercentDelta_Uint(uint192 a, uint192 b) external pure {
+        vm.assume(b != 0);
+        uint256 manualDelta = a > b ? a - b : b - a;
+
+        uint256 manualPercentDelta = manualDelta * 1e18 / b;
+        uint256 percentDelta = stdMath.percentDelta(a, b);
+
+        assertEq(percentDelta, manualPercentDelta);
+    }
+
+    function test_GetPercentDelta_Int() external {
+        // We deploy a mock version so we can properly test the revert.
+        StdMathMock stdMathMock = new StdMathMock();
+
+        assertEq(stdMath.percentDelta(int256(0), int256(1337)), 1e18);
+        assertEq(stdMath.percentDelta(int256(0), -1337), 1e18);
+        assertEq(stdMath.percentDelta(int256(0), type(int64).min), 1e18);
+        assertEq(stdMath.percentDelta(int256(0), type(int128).min), 1e18);
+        assertEq(stdMath.percentDelta(int256(0), type(int192).min), 1e18);
+        assertEq(stdMath.percentDelta(int256(0), type(int64).max), 1e18);
+        assertEq(stdMath.percentDelta(int256(0), type(int128).max), 1e18);
+        assertEq(stdMath.percentDelta(int256(0), type(int192).max), 1e18);
+
+        assertEq(stdMath.percentDelta(1337, int256(1337)), 0);
+        assertEq(stdMath.percentDelta(type(int192).max, type(int192).max), 0);
+        assertEq(stdMath.percentDelta(type(int192).min, type(int192).min), 0);
+
+        assertEq(stdMath.percentDelta(type(int192).min, type(int192).max), 2e18); // rounds the 1 wei diff down
+        assertEq(stdMath.percentDelta(type(int192).max, type(int192).min), 2e18 - 1); // rounds the 1 wei diff down
+        assertEq(stdMath.percentDelta(0, int256(2500)), 1e18);
+        assertEq(stdMath.percentDelta(2500, int256(2500)), 0);
+        assertEq(stdMath.percentDelta(5000, int256(2500)), 1e18);
+        assertEq(stdMath.percentDelta(7500, int256(2500)), 2e18);
+
+        vm.expectRevert(stdError.divisionError);
+        stdMathMock.exposed_percentDelta(int256(1), 0);
+    }
+
+    function testFuzz_GetPercentDelta_Int(int192 a, int192 b) external pure {
+        vm.assume(b != 0);
+        uint256 absA = getAbs(a);
+        uint256 absB = getAbs(b);
+        uint256 absDelta = absA > absB ? absA - absB : absB - absA;
+
+        uint256 manualDelta;
+        if ((a >= 0 && b >= 0) || (a < 0 && b < 0)) {
+            manualDelta = absDelta;
+        }
+        // (a < 0 && b >= 0) || (a >= 0 && b < 0)
+        else {
+            manualDelta = absA + absB;
+        }
+
+        uint256 manualPercentDelta = manualDelta * 1e18 / absB;
+        uint256 percentDelta = stdMath.percentDelta(a, b);
+
+        assertEq(percentDelta, manualPercentDelta);
+    }
+
+    /*//////////////////////////////////////////////////////////////////////////
+                                   HELPERS
+    //////////////////////////////////////////////////////////////////////////*/
+
+    function getAbs(int256 a) private pure returns (uint256) {
+        if (a < 0) {
+            return a == type(int256).min ? uint256(type(int256).max) + 1 : uint256(-a);
+        }
+
+        return uint256(a);
+    }
+}
