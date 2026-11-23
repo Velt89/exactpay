@@ -1,1 +1,140 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodXRpbHMvc3RydWN0cy9DaXJjdWxhckJ1ZmZlci5zb2wpCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKaW1wb3J0IHtNYXRofSBmcm9tICIuLi9tYXRoL01hdGguc29sIjsKaW1wb3J0IHtBcnJheXN9IGZyb20gIi4uL0FycmF5cy5zb2wiOwppbXBvcnQge1BhbmljfSBmcm9tICIuLi9QYW5pYy5zb2wiOwoKLyoqCiAqIEBkZXYgQSBmaXhlZC1zaXplIGJ1ZmZlciBmb3Iga2VlcGluZyBgYnl0ZXMzMmAgaXRlbXMgaW4gc3RvcmFnZS4KICoKICogVGhpcyBkYXRhIHN0cnVjdHVyZSBhbGxvd3MgZm9yIHB1c2hpbmcgZWxlbWVudHMgdG8gaXQsIGFuZCB3aGVuIGl0cyBsZW5ndGggZXhjZWVkcyB0aGUgc3BlY2lmaWVkIGZpeGVkIHNpemUsCiAqIG5ldyBpdGVtcyB0YWtlIHRoZSBwbGFjZSBvZiB0aGUgb2xkZXN0IGVsZW1lbnQgaW4gdGhlIGJ1ZmZlciwga2VlcGluZyBhdCBtb3N0IGBOYCBlbGVtZW50cyBpbiB0aGUKICogc3RydWN0dXJlLgogKgogKiBFbGVtZW50cyBjYW4ndCBiZSByZW1vdmVkIGJ1dCB0aGUgZGF0YSBzdHJ1Y3R1cmUgY2FuIGJlIGNsZWFyZWQuIFNlZSB7Y2xlYXJ9LgogKgogKiBDb21wbGV4aXR5OgogKiAtIGluc2VydGlvbiAoe3B1c2h9KTogTygxKQogKiAtIGxvb2t1cCAoe2xhc3R9KTogTygxKQogKiAtIGluY2x1c2lvbiAoe2luY2x1ZGVzfSk6IE8oTikgKHdvcnN0IGNhc2UpCiAqIC0gcmVzZXQgKHtjbGVhcn0pOiBPKDEpCiAqCiAqICogVGhlIHN0cnVjdCBpcyBjYWxsZWQgYEJ5dGVzMzJDaXJjdWxhckJ1ZmZlcmAuIE90aGVyIHR5cGVzIGNhbiBiZSBjYXN0IHRvIGFuZCBmcm9tIGBieXRlczMyYC4gVGhpcyBkYXRhIHN0cnVjdHVyZQogKiBjYW4gb25seSBiZSB1c2VkIGluIHN0b3JhZ2UsIGFuZCBub3QgaW4gbWVtb3J5LgogKgogKiBFeGFtcGxlIHVzYWdlOgogKgogKiBgYGBzb2xpZGl0eQogKiBjb250cmFjdCBFeGFtcGxlIHsKICogICAgIC8vIEFkZCB0aGUgbGlicmFyeSBtZXRob2RzCiAqICAgICB1c2luZyBDaXJjdWxhckJ1ZmZlciBmb3IgQ2lyY3VsYXJCdWZmZXIuQnl0ZXMzMkNpcmN1bGFyQnVmZmVyOwogKgogKiAgICAgLy8gRGVjbGFyZSBhIGJ1ZmZlciBzdG9yYWdlIHZhcmlhYmxlCiAqICAgICBDaXJjdWxhckJ1ZmZlci5CeXRlczMyQ2lyY3VsYXJCdWZmZXIgcHJpdmF0ZSBteUJ1ZmZlcjsKICogfQogKiBgYGAKICoKICogX0F2YWlsYWJsZSBzaW5jZSB2NS4xLl8KICovCmxpYnJhcnkgQ2lyY3VsYXJCdWZmZXIgewogICAgLyoqCiAgICAgKiBAZGV2IEVycm9yIGVtaXR0ZWQgd2hlbiB0cnlpbmcgdG8gc2V0dXAgYSBidWZmZXIgd2l0aCBhIHNpemUgb2YgMC4KICAgICAqLwogICAgZXJyb3IgSW52YWxpZEJ1ZmZlclNpemUoKTsKCiAgICAvKioKICAgICAqIEBkZXYgQ291bnRzIHRoZSBudW1iZXIgb2YgaXRlbXMgdGhhdCBoYXZlIGJlZW4gcHVzaGVkIHRvIHRoZSBidWZmZXIuIFRoZSByZXNpZHVvIG1vZHVsbyBfZGF0YS5sZW5ndGggaW5kaWNhdGVzCiAgICAgKiB3aGVyZSB0aGUgbmV4dCB2YWx1ZSBzaG91bGQgYmUgc3RvcmVkLgogICAgICoKICAgICAqIFN0cnVjdCBtZW1iZXJzIGhhdmUgYW4gdW5kZXJzY29yZSBwcmVmaXggaW5kaWNhdGluZyB0aGF0IHRoZXkgYXJlICJwcml2YXRlIiBhbmQgc2hvdWxkIG5vdCBiZSByZWFkIG9yIHdyaXR0ZW4gdG8KICAgICAqIGRpcmVjdGx5LiBVc2UgdGhlIGZ1bmN0aW9ucyBwcm92aWRlZCBiZWxvdyBpbnN0ZWFkLiBNb2RpZnlpbmcgdGhlIHN0cnVjdCBtYW51YWxseSBtYXkgdmlvbGF0ZSBhc3N1bXB0aW9ucyBhbmQKICAgICAqIGxlYWQgdG8gdW5leHBlY3RlZCBiZWhhdmlvci4KICAgICAqCiAgICAgKiBJbiBhIGZ1bGwgYnVmZmVyOgogICAgICogLSBUaGUgbW9zdCByZWNlbnRseSBwdXNoZWQgaXRlbSAobGFzdCkgaXMgYXQgZGF0YVsoaW5kZXggLSAxKSAlIGRhdGEubGVuZ3RoXQogICAgICogLSBUaGUgb2xkZXN0IGl0ZW0gKGZpcnN0KSBpcyBhdCBkYXRhW2luZGV4ICUgZGF0YS5sZW5ndGhdCiAgICAgKi8KICAgIHN0cnVjdCBCeXRlczMyQ2lyY3VsYXJCdWZmZXIgewogICAgICAgIHVpbnQyNTYgX2NvdW50OwogICAgICAgIGJ5dGVzMzJbXSBfZGF0YTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgSW5pdGlhbGl6ZSBhIG5ldyBDaXJjdWxhckJ1ZmZlciBvZiBnaXZlbiBzaXplLgogICAgICoKICAgICAqIElmIHRoZSBDaXJjdWxhckJ1ZmZlciB3YXMgYWxyZWFkeSBzZXR1cCBhbmQgdXNlZCwgY2FsbGluZyB0aGF0IGZ1bmN0aW9uIGFnYWluIHdpbGwgcmVzZXQgaXQgdG8gYSBibGFuayBzdGF0ZS4KICAgICAqCiAgICAgKiBOT1RFOiBUaGUgc2l6ZSBvZiB0aGUgYnVmZmVyIHdpbGwgYWZmZWN0IHRoZSBleGVjdXRpb24gb2Yge2luY2x1ZGVzfSBmdW5jdGlvbiwgYXMgaXQgaGFzIGEgY29tcGxleGl0eSBvZiBPKE4pLgogICAgICogQ29uc2lkZXIgYSBsYXJnZSBidWZmZXIgc2l6ZSBtYXkgcmVuZGVyIHRoZSBmdW5jdGlvbiB1bnVzYWJsZS4KICAgICAqLwogICAgZnVuY3Rpb24gc2V0dXAoQnl0ZXMzMkNpcmN1bGFyQnVmZmVyIHN0b3JhZ2Ugc2VsZiwgdWludDI1NiBzaXplKSBpbnRlcm5hbCB7CiAgICAgICAgaWYgKHNpemUgPT0gMCkgcmV2ZXJ0IEludmFsaWRCdWZmZXJTaXplKCk7CiAgICAgICAgY2xlYXIoc2VsZik7CiAgICAgICAgQXJyYXlzLnVuc2FmZVNldExlbmd0aChzZWxmLl9kYXRhLCBzaXplKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgQ2xlYXIgYWxsIGRhdGEgaW4gdGhlIGJ1ZmZlciB3aXRob3V0IHJlc2V0dGluZyBtZW1vcnksIGtlZXBpbmcgdGhlIGV4aXN0aW5nIHNpemUuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGNsZWFyKEJ5dGVzMzJDaXJjdWxhckJ1ZmZlciBzdG9yYWdlIHNlbGYpIGludGVybmFsIHsKICAgICAgICBzZWxmLl9jb3VudCA9IDA7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFB1c2ggYSBuZXcgdmFsdWUgdG8gdGhlIGJ1ZmZlci4gSWYgdGhlIGJ1ZmZlciBpcyBhbHJlYWR5IGZ1bGwsIHRoZSBuZXcgdmFsdWUgcmVwbGFjZXMgdGhlIG9sZGVzdCB2YWx1ZSBpbgogICAgICogdGhlIGJ1ZmZlci4KICAgICAqLwogICAgZnVuY3Rpb24gcHVzaChCeXRlczMyQ2lyY3VsYXJCdWZmZXIgc3RvcmFnZSBzZWxmLCBieXRlczMyIHZhbHVlKSBpbnRlcm5hbCB7CiAgICAgICAgdWludDI1NiBpbmRleCA9IHNlbGYuX2NvdW50Kys7CiAgICAgICAgdWludDI1NiBtb2R1bHVzID0gc2VsZi5fZGF0YS5sZW5ndGg7CiAgICAgICAgQXJyYXlzLnVuc2FmZUFjY2VzcyhzZWxmLl9kYXRhLCBpbmRleCAlIG1vZHVsdXMpLnZhbHVlID0gdmFsdWU7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IE51bWJlciBvZiB2YWx1ZXMgY3VycmVudGx5IGluIHRoZSBidWZmZXIuIFRoaXMgdmFsdWUgaXMgMCBmb3IgYW4gZW1wdHkgYnVmZmVyLCBhbmQgY2Fubm90IGV4Y2VlZCB0aGUgc2l6ZSBvZgogICAgICogdGhlIGJ1ZmZlci4KICAgICAqLwogICAgZnVuY3Rpb24gY291bnQoQnl0ZXMzMkNpcmN1bGFyQnVmZmVyIHN0b3JhZ2Ugc2VsZikgaW50ZXJuYWwgdmlldyByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgcmV0dXJuIE1hdGgubWluKHNlbGYuX2NvdW50LCBzZWxmLl9kYXRhLmxlbmd0aCk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IExlbmd0aCBvZiB0aGUgYnVmZmVyLiBUaGlzIGlzIHRoZSBtYXhpbXVtIG51bWJlciBvZiBlbGVtZW50cyBrZXB0IGluIHRoZSBidWZmZXIuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGxlbmd0aChCeXRlczMyQ2lyY3VsYXJCdWZmZXIgc3RvcmFnZSBzZWxmKSBpbnRlcm5hbCB2aWV3IHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXR1cm4gc2VsZi5fZGF0YS5sZW5ndGg7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IEdldHRlciBmb3IgdGhlIGktdGggdmFsdWUgaW4gdGhlIGJ1ZmZlciwgZnJvbSB0aGUgZW5kLgogICAgICoKICAgICAqIFJldmVydHMgd2l0aCB7UGFuaWMtQVJSQVlfT1VUX09GX0JPVU5EU30gaWYgdHJ5aW5nIHRvIGFjY2VzcyBhbiBlbGVtZW50IHRoYXQgd2FzIG5vdCBwdXNoZWQsIG9yIHRoYXQgd2FzCiAgICAgKiBkcm9wcGVkIHRvIG1ha2Ugcm9vbSBmb3IgbmV3ZXIgZWxlbWVudHMuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGxhc3QoQnl0ZXMzMkNpcmN1bGFyQnVmZmVyIHN0b3JhZ2Ugc2VsZiwgdWludDI1NiBpKSBpbnRlcm5hbCB2aWV3IHJldHVybnMgKGJ5dGVzMzIpIHsKICAgICAgICB1aW50MjU2IGluZGV4ID0gc2VsZi5fY291bnQ7CiAgICAgICAgdWludDI1NiBtb2R1bHVzID0gc2VsZi5fZGF0YS5sZW5ndGg7CiAgICAgICAgdWludDI1NiB0b3RhbCA9IE1hdGgubWluKGluZGV4LCBtb2R1bHVzKTsgLy8gY291bnQoc2VsZikKICAgICAgICBpZiAoaSA+PSB0b3RhbCkgewogICAgICAgICAgICBQYW5pYy5wYW5pYyhQYW5pYy5BUlJBWV9PVVRfT0ZfQk9VTkRTKTsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIEFycmF5cy51bnNhZmVBY2Nlc3Moc2VsZi5fZGF0YSwgKGluZGV4IC0gaSAtIDEpICUgbW9kdWx1cykudmFsdWU7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IENoZWNrIGlmIGEgZ2l2ZW4gdmFsdWUgaXMgaW4gdGhlIGJ1ZmZlci4KICAgICAqLwogICAgZnVuY3Rpb24gaW5jbHVkZXMoQnl0ZXMzMkNpcmN1bGFyQnVmZmVyIHN0b3JhZ2Ugc2VsZiwgYnl0ZXMzMiB2YWx1ZSkgaW50ZXJuYWwgdmlldyByZXR1cm5zIChib29sKSB7CiAgICAgICAgdWludDI1NiBpbmRleCA9IHNlbGYuX2NvdW50OwogICAgICAgIHVpbnQyNTYgbW9kdWx1cyA9IHNlbGYuX2RhdGEubGVuZ3RoOwogICAgICAgIHVpbnQyNTYgdG90YWwgPSBNYXRoLm1pbihpbmRleCwgbW9kdWx1cyk7IC8vIGNvdW50KHNlbGYpCiAgICAgICAgZm9yICh1aW50MjU2IGkgPSAwOyBpIDwgdG90YWw7ICsraSkgewogICAgICAgICAgICBpZiAoQXJyYXlzLnVuc2FmZUFjY2VzcyhzZWxmLl9kYXRhLCAoaW5kZXggLSBpIC0gMSkgJSBtb2R1bHVzKS52YWx1ZSA9PSB2YWx1ZSkgewogICAgICAgICAgICAgICAgcmV0dXJuIHRydWU7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (utils/structs/CircularBuffer.sol)
+pragma solidity ^0.8.20;
+
+import {Math} from "../math/Math.sol";
+import {Arrays} from "../Arrays.sol";
+import {Panic} from "../Panic.sol";
+
+/**
+ * @dev A fixed-size buffer for keeping `bytes32` items in storage.
+ *
+ * This data structure allows for pushing elements to it, and when its length exceeds the specified fixed size,
+ * new items take the place of the oldest element in the buffer, keeping at most `N` elements in the
+ * structure.
+ *
+ * Elements can't be removed but the data structure can be cleared. See {clear}.
+ *
+ * Complexity:
+ * - insertion ({push}): O(1)
+ * - lookup ({last}): O(1)
+ * - inclusion ({includes}): O(N) (worst case)
+ * - reset ({clear}): O(1)
+ *
+ * * The struct is called `Bytes32CircularBuffer`. Other types can be cast to and from `bytes32`. This data structure
+ * can only be used in storage, and not in memory.
+ *
+ * Example usage:
+ *
+ * ```solidity
+ * contract Example {
+ *     // Add the library methods
+ *     using CircularBuffer for CircularBuffer.Bytes32CircularBuffer;
+ *
+ *     // Declare a buffer storage variable
+ *     CircularBuffer.Bytes32CircularBuffer private myBuffer;
+ * }
+ * ```
+ *
+ * _Available since v5.1._
+ */
+library CircularBuffer {
+    /**
+     * @dev Error emitted when trying to setup a buffer with a size of 0.
+     */
+    error InvalidBufferSize();
+
+    /**
+     * @dev Counts the number of items that have been pushed to the buffer. The residuo modulo _data.length indicates
+     * where the next value should be stored.
+     *
+     * Struct members have an underscore prefix indicating that they are "private" and should not be read or written to
+     * directly. Use the functions provided below instead. Modifying the struct manually may violate assumptions and
+     * lead to unexpected behavior.
+     *
+     * In a full buffer:
+     * - The most recently pushed item (last) is at data[(index - 1) % data.length]
+     * - The oldest item (first) is at data[index % data.length]
+     */
+    struct Bytes32CircularBuffer {
+        uint256 _count;
+        bytes32[] _data;
+    }
+
+    /**
+     * @dev Initialize a new CircularBuffer of given size.
+     *
+     * If the CircularBuffer was already setup and used, calling that function again will reset it to a blank state.
+     *
+     * NOTE: The size of the buffer will affect the execution of {includes} function, as it has a complexity of O(N).
+     * Consider a large buffer size may render the function unusable.
+     */
+    function setup(Bytes32CircularBuffer storage self, uint256 size) internal {
+        if (size == 0) revert InvalidBufferSize();
+        clear(self);
+        Arrays.unsafeSetLength(self._data, size);
+    }
+
+    /**
+     * @dev Clear all data in the buffer without resetting memory, keeping the existing size.
+     */
+    function clear(Bytes32CircularBuffer storage self) internal {
+        self._count = 0;
+    }
+
+    /**
+     * @dev Push a new value to the buffer. If the buffer is already full, the new value replaces the oldest value in
+     * the buffer.
+     */
+    function push(Bytes32CircularBuffer storage self, bytes32 value) internal {
+        uint256 index = self._count++;
+        uint256 modulus = self._data.length;
+        Arrays.unsafeAccess(self._data, index % modulus).value = value;
+    }
+
+    /**
+     * @dev Number of values currently in the buffer. This value is 0 for an empty buffer, and cannot exceed the size of
+     * the buffer.
+     */
+    function count(Bytes32CircularBuffer storage self) internal view returns (uint256) {
+        return Math.min(self._count, self._data.length);
+    }
+
+    /**
+     * @dev Length of the buffer. This is the maximum number of elements kept in the buffer.
+     */
+    function length(Bytes32CircularBuffer storage self) internal view returns (uint256) {
+        return self._data.length;
+    }
+
+    /**
+     * @dev Getter for the i-th value in the buffer, from the end.
+     *
+     * Reverts with {Panic-ARRAY_OUT_OF_BOUNDS} if trying to access an element that was not pushed, or that was
+     * dropped to make room for newer elements.
+     */
+    function last(Bytes32CircularBuffer storage self, uint256 i) internal view returns (bytes32) {
+        uint256 index = self._count;
+        uint256 modulus = self._data.length;
+        uint256 total = Math.min(index, modulus); // count(self)
+        if (i >= total) {
+            Panic.panic(Panic.ARRAY_OUT_OF_BOUNDS);
+        }
+        return Arrays.unsafeAccess(self._data, (index - i - 1) % modulus).value;
+    }
+
+    /**
+     * @dev Check if a given value is in the buffer.
+     */
+    function includes(Bytes32CircularBuffer storage self, bytes32 value) internal view returns (bool) {
+        uint256 index = self._count;
+        uint256 modulus = self._data.length;
+        uint256 total = Math.min(index, modulus); // count(self)
+        for (uint256 i = 0; i < total; ++i) {
+            if (Arrays.unsafeAccess(self._data, (index - i - 1) % modulus).value == value) {
+                return true;
+            }
+        }
+        return false;
+    }
+}
