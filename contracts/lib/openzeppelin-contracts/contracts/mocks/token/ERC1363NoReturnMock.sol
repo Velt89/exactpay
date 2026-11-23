@@ -1,1 +1,34 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0lFUkMyMCwgRVJDMjB9IGZyb20gIi4uLy4uL3Rva2VuL0VSQzIwL0VSQzIwLnNvbCI7CmltcG9ydCB7RVJDMTM2M30gZnJvbSAiLi4vLi4vdG9rZW4vRVJDMjAvZXh0ZW5zaW9ucy9FUkMxMzYzLnNvbCI7CgphYnN0cmFjdCBjb250cmFjdCBFUkMxMzYzTm9SZXR1cm5Nb2NrIGlzIEVSQzEzNjMgewogICAgZnVuY3Rpb24gdHJhbnNmZXJBbmRDYWxsKGFkZHJlc3MgdG8sIHVpbnQyNTYgdmFsdWUsIGJ5dGVzIG1lbW9yeSBkYXRhKSBwdWJsaWMgb3ZlcnJpZGUgcmV0dXJucyAoYm9vbCkgewogICAgICAgIHN1cGVyLnRyYW5zZmVyQW5kQ2FsbCh0bywgdmFsdWUsIGRhdGEpOwogICAgICAgIGFzc2VtYmx5IHsKICAgICAgICAgICAgcmV0dXJuKDAsIDApCiAgICAgICAgfQogICAgfQoKICAgIGZ1bmN0aW9uIHRyYW5zZmVyRnJvbUFuZENhbGwoCiAgICAgICAgYWRkcmVzcyBmcm9tLAogICAgICAgIGFkZHJlc3MgdG8sCiAgICAgICAgdWludDI1NiB2YWx1ZSwKICAgICAgICBieXRlcyBtZW1vcnkgZGF0YQogICAgKSBwdWJsaWMgb3ZlcnJpZGUgcmV0dXJucyAoYm9vbCkgewogICAgICAgIHN1cGVyLnRyYW5zZmVyRnJvbUFuZENhbGwoZnJvbSwgdG8sIHZhbHVlLCBkYXRhKTsKICAgICAgICBhc3NlbWJseSB7CiAgICAgICAgICAgIHJldHVybigwLCAwKQogICAgICAgIH0KICAgIH0KCiAgICBmdW5jdGlvbiBhcHByb3ZlQW5kQ2FsbChhZGRyZXNzIHNwZW5kZXIsIHVpbnQyNTYgdmFsdWUsIGJ5dGVzIG1lbW9yeSBkYXRhKSBwdWJsaWMgb3ZlcnJpZGUgcmV0dXJucyAoYm9vbCkgewogICAgICAgIHN1cGVyLmFwcHJvdmVBbmRDYWxsKHNwZW5kZXIsIHZhbHVlLCBkYXRhKTsKICAgICAgICBhc3NlbWJseSB7CiAgICAgICAgICAgIHJldHVybigwLCAwKQogICAgICAgIH0KICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {IERC20, ERC20} from "../../token/ERC20/ERC20.sol";
+import {ERC1363} from "../../token/ERC20/extensions/ERC1363.sol";
+
+abstract contract ERC1363NoReturnMock is ERC1363 {
+    function transferAndCall(address to, uint256 value, bytes memory data) public override returns (bool) {
+        super.transferAndCall(to, value, data);
+        assembly {
+            return(0, 0)
+        }
+    }
+
+    function transferFromAndCall(
+        address from,
+        address to,
+        uint256 value,
+        bytes memory data
+    ) public override returns (bool) {
+        super.transferFromAndCall(from, to, value, data);
+        assembly {
+            return(0, 0)
+        }
+    }
+
+    function approveAndCall(address spender, uint256 value, bytes memory data) public override returns (bool) {
+        super.approveAndCall(spender, value, data);
+        assembly {
+            return(0, 0)
+        }
+    }
+}
