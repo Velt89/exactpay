@@ -1,1 +1,247 @@
-IyEvdXNyL2Jpbi9lbnYgbm9kZQoKY29uc3QgZnMgPSByZXF1aXJlKCdmcycpOwpjb25zdCBjaGFsayA9IHJlcXVpcmUoJ2NoYWxrJyk7CmNvbnN0IHsgYXJndiB9ID0gcmVxdWlyZSgneWFyZ3MnKQogIC5lbnYoKQogIC5vcHRpb25zKHsKICAgIHN0eWxlOiB7CiAgICAgIHR5cGU6ICdzdHJpbmcnLAogICAgICBjaG9pY2VzOiBbJ3NoZWxsJywgJ21hcmtkb3duJ10sCiAgICAgIGRlZmF1bHQ6ICdzaGVsbCcsCiAgICB9LAogICAgaGlkZUVxdWFsOiB7CiAgICAgIHR5cGU6ICdib29sZWFuJywKICAgICAgZGVmYXVsdDogdHJ1ZSwKICAgIH0sCiAgICBzdHJpY3RUZXN0aW5nOiB7CiAgICAgIHR5cGU6ICdib29sZWFuJywKICAgICAgZGVmYXVsdDogZmFsc2UsCiAgICB9LAogIH0pOwoKLy8gRGVkdWNlIGJhc2UgdHggY29zdCBmcm9tIHRoZSBwZXJjZW50YWdlIGRlbm9taW5hdG9yCmNvbnN0IEJBU0VfVFhfQ09TVCA9IDIxMDAwOwoKLy8gVXRpbGl0aWVzCmZ1bmN0aW9uIHN1bSguLi5hcmdzKSB7CiAgcmV0dXJuIGFyZ3MucmVkdWNlKChhLCBiKSA9PiBhICsgYiwgMCk7Cn0KCmZ1bmN0aW9uIGF2ZXJhZ2UoLi4uYXJncykgewogIHJldHVybiBzdW0oLi4uYXJncykgLyBhcmdzLmxlbmd0aDsKfQoKZnVuY3Rpb24gdmFyaWF0aW9uKGN1cnJlbnQsIHByZXZpb3VzLCBvZmZzZXQgPSAwKSB7CiAgcmV0dXJuIHsKICAgIHZhbHVlOiBjdXJyZW50LAogICAgZGVsdGE6IGN1cnJlbnQgLSBwcmV2aW91cywKICAgIHByY250OiAoMTAwICogKGN1cnJlbnQgLSBwcmV2aW91cykpIC8gKHByZXZpb3VzIC0gb2Zmc2V0KSwKICB9Owp9CgovLyBSZXBvcnQgY2xhc3MKY2xhc3MgUmVwb3J0IHsKICAvLyBSZWFkIHJlcG9ydCBmaWxlCiAgc3RhdGljIGxvYWQoZmlsZXBhdGgpIHsKICAgIHJldHVybiBKU09OLnBhcnNlKGZzLnJlYWRGaWxlU3luYyhmaWxlcGF0aCwgJ3V0ZjgnKSk7CiAgfQoKICAvLyBDb21wYXJlIHR3byByZXBvcnRzCiAgc3RhdGljIGNvbXBhcmUodXBkYXRlLCByZWYsIG9wdHMgPSB7IGhpZGVFcXVhbDogdHJ1ZSwgc3RyaWN0VGVzdGluZzogZmFsc2UgfSkgewogICAgaWYgKEpTT04uc3RyaW5naWZ5KHVwZGF0ZS5vcHRpb25zPy5zb2xjSW5mbykgIT09IEpTT04uc3RyaW5naWZ5KHJlZi5vcHRpb25zPy5zb2xjSW5mbykpIHsKICAgICAgY29uc29sZS53YXJuKCdXQVJOSU5HOiBSZXBvcnRzIHByb2R1Y2VkIHdpdGggbm9uIG1hdGNoaW5nIG1ldGFkYXRhJyk7CiAgICB9CgogICAgLy8gZ2FzUmVwb3J0ZXIgMS4wLjAgdXNlcyAiLmluZm8iLCBidXQgMi4wLjAgdXNlcyAiLmRhdGEiCiAgICBjb25zdCB1cGRhdGVJbmZvID0gdXBkYXRlLmluZm8gPz8gdXBkYXRlLmRhdGE7CiAgICBjb25zdCByZWZJbmZvID0gcmVmLmluZm8gPz8gcmVmLmRhdGE7CgogICAgY29uc3QgZGVwbG95bWVudHMgPSB1cGRhdGVJbmZvLmRlcGxveW1lbnRzCiAgICAgIC5tYXAoY29udHJhY3QgPT4KICAgICAgICBPYmplY3QuYXNzaWduKGNvbnRyYWN0LCB7IHByZXZpb3VzVmVyc2lvbjogcmVmSW5mby5kZXBsb3ltZW50cy5maW5kKCh7IG5hbWUgfSkgPT4gbmFtZSA9PT0gY29udHJhY3QubmFtZSkgfSksCiAgICAgICkKICAgICAgLmZpbHRlcihjb250cmFjdCA9PiBjb250cmFjdC5nYXNEYXRhPy5sZW5ndGggJiYgY29udHJhY3QucHJldmlvdXNWZXJzaW9uPy5nYXNEYXRhPy5sZW5ndGgpCiAgICAgIC5mbGF0TWFwKGNvbnRyYWN0ID0+IFsKICAgICAgICB7CiAgICAgICAgICBjb250cmFjdDogY29udHJhY3QubmFtZSwKICAgICAgICAgIG1ldGhvZDogJ1tieXRlY29kZSBsZW5ndGhdJywKICAgICAgICAgIGF2ZzogdmFyaWF0aW9uKGNvbnRyYWN0LmJ5dGVjb2RlLmxlbmd0aCAvIDIgLSAxLCBjb250cmFjdC5wcmV2aW91c1ZlcnNpb24uYnl0ZWNvZGUubGVuZ3RoIC8gMiAtIDEpLAogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgY29udHJhY3Q6IGNvbnRyYWN0Lm5hbWUsCiAgICAgICAgICBtZXRob2Q6ICdbY29uc3RydWN0aW9uIGNvc3RdJywKICAgICAgICAgIGF2ZzogdmFyaWF0aW9uKAogICAgICAgICAgICAuLi5bY29udHJhY3QuZ2FzRGF0YSwgY29udHJhY3QucHJldmlvdXNWZXJzaW9uLmdhc0RhdGFdLm1hcCh4ID0+IE1hdGgucm91bmQoYXZlcmFnZSguLi54KSkpLAogICAgICAgICAgICBCQVNFX1RYX0NPU1QsCiAgICAgICAgICApLAogICAgICAgIH0sCiAgICAgIF0pCiAgICAgIC5zb3J0KChhLCBiKSA9PiBgJHthLmNvbnRyYWN0fToke2EubWV0aG9kfWAubG9jYWxlQ29tcGFyZShgJHtiLmNvbnRyYWN0fToke2IubWV0aG9kfWApKTsKCiAgICBjb25zdCBtZXRob2RzID0gT2JqZWN0LmtleXModXBkYXRlSW5mby5tZXRob2RzKQogICAgICAuZmlsdGVyKGtleSA9PiByZWZJbmZvLm1ldGhvZHNba2V5XSkKICAgICAgLmZpbHRlcihrZXkgPT4gdXBkYXRlSW5mby5tZXRob2RzW2tleV0ubnVtYmVyT2ZDYWxscyA+IDApCiAgICAgIC5maWx0ZXIoCiAgICAgICAga2V5ID0+ICFvcHRzLnN0cmljdFRlc3RpbmcgfHwgdXBkYXRlSW5mby5tZXRob2RzW2tleV0ubnVtYmVyT2ZDYWxscyA9PT0gcmVmSW5mby5tZXRob2RzW2tleV0ubnVtYmVyT2ZDYWxscywKICAgICAgKQogICAgICAubWFwKGtleSA9PiAoewogICAgICAgIGNvbnRyYWN0OiByZWZJbmZvLm1ldGhvZHNba2V5XS5jb250cmFjdCwKICAgICAgICBtZXRob2Q6IHJlZkluZm8ubWV0aG9kc1trZXldLmZuU2lnLAogICAgICAgIG1pbjogdmFyaWF0aW9uKC4uLlt1cGRhdGVJbmZvLCByZWZJbmZvXS5tYXAoeCA9PiBNYXRoLm1pbiguLi54Lm1ldGhvZHNba2V5XS5nYXNEYXRhKSksIEJBU0VfVFhfQ09TVCksCiAgICAgICAgbWF4OiB2YXJpYXRpb24oLi4uW3VwZGF0ZUluZm8sIHJlZkluZm9dLm1hcCh4ID0+IE1hdGgubWF4KC4uLngubWV0aG9kc1trZXldLmdhc0RhdGEpKSwgQkFTRV9UWF9DT1NUKSwKICAgICAgICBhdmc6IHZhcmlhdGlvbiguLi5bdXBkYXRlSW5mbywgcmVmSW5mb10ubWFwKHggPT4gTWF0aC5yb3VuZChhdmVyYWdlKC4uLngubWV0aG9kc1trZXldLmdhc0RhdGEpKSksIEJBU0VfVFhfQ09TVCksCiAgICAgIH0pKQogICAgICAuc29ydCgoYSwgYikgPT4gYCR7YS5jb250cmFjdH06JHthLm1ldGhvZH1gLmxvY2FsZUNvbXBhcmUoYCR7Yi5jb250cmFjdH06JHtiLm1ldGhvZH1gKSk7CgogICAgcmV0dXJuIFtdCiAgICAgIC5jb25jYXQoZGVwbG95bWVudHMsIG1ldGhvZHMpCiAgICAgIC5maWx0ZXIocm93ID0+ICFvcHRzLmhpZGVFcXVhbCB8fCByb3cubWluPy5kZWx0YSB8fCByb3cubWF4Py5kZWx0YSB8fCByb3cuYXZnPy5kZWx0YSk7CiAgfQp9CgovLyBEaXNwbGF5CmZ1bmN0aW9uIGNlbnRlcih0ZXh0LCBsZW5ndGgpIHsKICByZXR1cm4gdGV4dC5wYWRTdGFydCgodGV4dC5sZW5ndGggKyBsZW5ndGgpIC8gMikucGFkRW5kKGxlbmd0aCk7Cn0KCmZ1bmN0aW9uIHBsdXNTaWduKG51bSkgewogIHJldHVybiBudW0gPiAwID8gJysnIDogJyc7Cn0KCmZ1bmN0aW9uIGZvcm1hdENlbGxTaGVsbChjZWxsKSB7CiAgY29uc3QgZm9ybWF0ID0gY2hhbGtbY2VsbD8uZGVsdGEgPiAwID8gJ3JlZCcgOiBjZWxsPy5kZWx0YSA8IDAgPyAnZ3JlZW4nIDogJ3Jlc2V0J107CiAgcmV0dXJuIFsKICAgIGZvcm1hdCgoIWlzRmluaXRlKGNlbGw/LnZhbHVlKSA/ICctJyA6IGNlbGwudmFsdWUudG9TdHJpbmcoKSkucGFkU3RhcnQoOCkpLAogICAgZm9ybWF0KCghaXNGaW5pdGUoY2VsbD8uZGVsdGEpID8gJy0nIDogcGx1c1NpZ24oY2VsbC5kZWx0YSkgKyBjZWxsLmRlbHRhLnRvU3RyaW5nKCkpLnBhZFN0YXJ0KDgpKSwKICAgIGZvcm1hdCgoIWlzRmluaXRlKGNlbGw/LnByY250KSA/ICctJyA6IHBsdXNTaWduKGNlbGwucHJjbnQpICsgY2VsbC5wcmNudC50b0ZpeGVkKDIpICsgJyUnKS5wYWRTdGFydCg4KSksCiAgXTsKfQoKZnVuY3Rpb24gZm9ybWF0Q21wU2hlbGwocm93cykgewogIGNvbnN0IGNvbnRyYWN0TGVuZ3RoID0gTWF0aC5tYXgoOCwgLi4ucm93cy5tYXAoKHsgY29udHJhY3QgfSkgPT4gY29udHJhY3QubGVuZ3RoKSk7CiAgY29uc3QgbWV0aG9kTGVuZ3RoID0gTWF0aC5tYXgoNywgLi4ucm93cy5tYXAoKHsgbWV0aG9kIH0pID0+IG1ldGhvZC5sZW5ndGgpKTsKCiAgY29uc3QgQ09MUyA9IFsKICAgIHsgdHh0OiAnJywgbGVuZ3RoOiAwIH0sCiAgICB7IHR4dDogJ0NvbnRyYWN0JywgbGVuZ3RoOiBjb250cmFjdExlbmd0aCB9LAogICAgeyB0eHQ6ICdNZXRob2QnLCBsZW5ndGg6IG1ldGhvZExlbmd0aCB9LAogICAgeyB0eHQ6ICdNaW4nLCBsZW5ndGg6IDMwIH0sCiAgICB7IHR4dDogJ01heCcsIGxlbmd0aDogMzAgfSwKICAgIHsgdHh0OiAnQXZnJywgbGVuZ3RoOiAzMCB9LAogICAgeyB0eHQ6ICcnLCBsZW5ndGg6IDAgfSwKICBdOwogIGNvbnN0IEhFQURFUiA9IENPTFMubWFwKGVudHJ5ID0+IGNoYWxrLmJvbGQoY2VudGVyKGVudHJ5LnR4dCwgZW50cnkubGVuZ3RoIHx8IDApKSkKICAgIC5qb2luKCcgfCAnKQogICAgLnRyaW0oKTsKICBjb25zdCBTRVBBUkFUT1IgPSBDT0xTLm1hcCgoeyBsZW5ndGggfSkgPT4gKGxlbmd0aCA+IDAgPyAnLScucmVwZWF0KGxlbmd0aCArIDIpIDogJycpKQogICAgLmpvaW4oJ3wnKQogICAgLnRyaW0oKTsKCiAgcmV0dXJuIFsKICAgICcnLAogICAgSEVBREVSLAogICAgLi4ucm93cy5tYXAoZW50cnkgPT4KICAgICAgWwogICAgICAgICcnLAogICAgICAgIGNoYWxrLmdyZXkoZW50cnkuY29udHJhY3QucGFkRW5kKGNvbnRyYWN0TGVuZ3RoKSksCiAgICAgICAgZW50cnkubWV0aG9kLnBhZEVuZChtZXRob2RMZW5ndGgpLAogICAgICAgIC4uLmZvcm1hdENlbGxTaGVsbChlbnRyeS5taW4pLAogICAgICAgIC4uLmZvcm1hdENlbGxTaGVsbChlbnRyeS5tYXgpLAogICAgICAgIC4uLmZvcm1hdENlbGxTaGVsbChlbnRyeS5hdmcpLAogICAgICAgICcnLAogICAgICBdCiAgICAgICAgLmpvaW4oJyB8ICcpCiAgICAgICAgLnRyaW0oKSwKICAgICksCiAgICAnJywKICBdCiAgICAuam9pbihgXG4ke1NFUEFSQVRPUn1cbmApCiAgICAudHJpbSgpOwp9CgpmdW5jdGlvbiBhbGlnblBhdHRlcm4oYWxpZ24pIHsKICBzd2l0Y2ggKGFsaWduKSB7CiAgICBjYXNlICdsZWZ0JzoKICAgIGNhc2UgdW5kZWZpbmVkOgogICAgICByZXR1cm4gJzotJzsKICAgIGNhc2UgJ3JpZ2h0JzoKICAgICAgcmV0dXJuICctOic7CiAgICBjYXNlICdjZW50ZXInOgogICAgICByZXR1cm4gJzotOic7CiAgfQp9CgpmdW5jdGlvbiB0cmVuZCh2YWx1ZSkgewogIHJldHVybiB2YWx1ZSA+IDAgPyAnOng6JyA6IHZhbHVlIDwgMCA/ICc6aGVhdnlfY2hlY2tfbWFyazonIDogJzpoZWF2eV9taW51c19zaWduOic7Cn0KCmZ1bmN0aW9uIGZvcm1hdENlbGxNYXJrZG93bihjZWxsKSB7CiAgcmV0dXJuIFsKICAgICFpc0Zpbml0ZShjZWxsPy52YWx1ZSkgPyAnLScgOiBjZWxsLnZhbHVlLnRvU3RyaW5nKCksCiAgICAhaXNGaW5pdGUoY2VsbD8uZGVsdGEpID8gJy0nIDogcGx1c1NpZ24oY2VsbC5kZWx0YSkgKyBjZWxsLmRlbHRhLnRvU3RyaW5nKCksCiAgICAhaXNGaW5pdGUoY2VsbD8ucHJjbnQpID8gJy0nIDogcGx1c1NpZ24oY2VsbC5wcmNudCkgKyBjZWxsLnByY250LnRvRml4ZWQoMikgKyAnJSAnICsgdHJlbmQoY2VsbC5kZWx0YSksCiAgXTsKfQoKZnVuY3Rpb24gZm9ybWF0Q21wTWFya2Rvd24ocm93cykgewogIGNvbnN0IENPTFMgPSBbCiAgICB7IHR4dDogJycgfSwKICAgIHsgdHh0OiAnQ29udHJhY3QnLCBhbGlnbjogJ2xlZnQnIH0sCiAgICB7IHR4dDogJ01ldGhvZCcsIGFsaWduOiAnbGVmdCcgfSwKICAgIHsgdHh0OiAnTWluJywgYWxpZ246ICdyaWdodCcgfSwKICAgIHsgdHh0OiAnKCsvLSknLCBhbGlnbjogJ3JpZ2h0JyB9LAogICAgeyB0eHQ6ICclJywgYWxpZ246ICdyaWdodCcgfSwKICAgIHsgdHh0OiAnTWF4JywgYWxpZ246ICdyaWdodCcgfSwKICAgIHsgdHh0OiAnKCsvLSknLCBhbGlnbjogJ3JpZ2h0JyB9LAogICAgeyB0eHQ6ICclJywgYWxpZ246ICdyaWdodCcgfSwKICAgIHsgdHh0OiAnQXZnJywgYWxpZ246ICdyaWdodCcgfSwKICAgIHsgdHh0OiAnKCsvLSknLCBhbGlnbjogJ3JpZ2h0JyB9LAogICAgeyB0eHQ6ICclJywgYWxpZ246ICdyaWdodCcgfSwKICAgIHsgdHh0OiAnJyB9LAogIF07CiAgY29uc3QgSEVBREVSID0gQ09MUy5tYXAoZW50cnkgPT4gZW50cnkudHh0KQogICAgLmpvaW4oJyB8ICcpCiAgICAudHJpbSgpOwogIGNvbnN0IFNFUEFSQVRPUiA9IENPTFMubWFwKGVudHJ5ID0+IChlbnRyeS50eHQgPyBhbGlnblBhdHRlcm4oZW50cnkuYWxpZ24pIDogJycpKQogICAgLmpvaW4oJ3wnKQogICAgLnRyaW0oKTsKCiAgcmV0dXJuIFsKICAgICcjIENoYW5nZXMgdG8gZ2FzIGNvc3RzJywKICAgICcnLAogICAgSEVBREVSLAogICAgU0VQQVJBVE9SLAogICAgcm93cwogICAgICAubWFwKGVudHJ5ID0+CiAgICAgICAgWwogICAgICAgICAgJycsCiAgICAgICAgICBlbnRyeS5jb250cmFjdCwKICAgICAgICAgIGVudHJ5Lm1ldGhvZCwKICAgICAgICAgIC4uLmZvcm1hdENlbGxNYXJrZG93bihlbnRyeS5taW4pLAogICAgICAgICAgLi4uZm9ybWF0Q2VsbE1hcmtkb3duKGVudHJ5Lm1heCksCiAgICAgICAgICAuLi5mb3JtYXRDZWxsTWFya2Rvd24oZW50cnkuYXZnKSwKICAgICAgICAgICcnLAogICAgICAgIF0KICAgICAgICAgIC5qb2luKCcgfCAnKQogICAgICAgICAgLnRyaW0oKSwKICAgICAgKQogICAgICAuam9pbignXG4nKSwKICAgICcnLAogIF0KICAgIC5qb2luKCdcbicpCiAgICAudHJpbSgpOwp9CgovLyBNQUlOCmNvbnN0IHJlcG9ydCA9IFJlcG9ydC5jb21wYXJlKFJlcG9ydC5sb2FkKGFyZ3YuX1swXSksIFJlcG9ydC5sb2FkKGFyZ3YuX1sxXSksIGFyZ3YpOwoKc3dpdGNoIChhcmd2LnN0eWxlKSB7CiAgY2FzZSAnbWFya2Rvd24nOgogICAgY29uc29sZS5sb2coZm9ybWF0Q21wTWFya2Rvd24ocmVwb3J0KSk7CiAgICBicmVhazsKICBjYXNlICdzaGVsbCc6CiAgZGVmYXVsdDoKICAgIGNvbnNvbGUubG9nKGZvcm1hdENtcFNoZWxsKHJlcG9ydCkpOwogICAgYnJlYWs7Cn0K
+#!/usr/bin/env node
+
+const fs = require('fs');
+const chalk = require('chalk');
+const { argv } = require('yargs')
+  .env()
+  .options({
+    style: {
+      type: 'string',
+      choices: ['shell', 'markdown'],
+      default: 'shell',
+    },
+    hideEqual: {
+      type: 'boolean',
+      default: true,
+    },
+    strictTesting: {
+      type: 'boolean',
+      default: false,
+    },
+  });
+
+// Deduce base tx cost from the percentage denominator
+const BASE_TX_COST = 21000;
+
+// Utilities
+function sum(...args) {
+  return args.reduce((a, b) => a + b, 0);
+}
+
+function average(...args) {
+  return sum(...args) / args.length;
+}
+
+function variation(current, previous, offset = 0) {
+  return {
+    value: current,
+    delta: current - previous,
+    prcnt: (100 * (current - previous)) / (previous - offset),
+  };
+}
+
+// Report class
+class Report {
+  // Read report file
+  static load(filepath) {
+    return JSON.parse(fs.readFileSync(filepath, 'utf8'));
+  }
+
+  // Compare two reports
+  static compare(update, ref, opts = { hideEqual: true, strictTesting: false }) {
+    if (JSON.stringify(update.options?.solcInfo) !== JSON.stringify(ref.options?.solcInfo)) {
+      console.warn('WARNING: Reports produced with non matching metadata');
+    }
+
+    // gasReporter 1.0.0 uses ".info", but 2.0.0 uses ".data"
+    const updateInfo = update.info ?? update.data;
+    const refInfo = ref.info ?? ref.data;
+
+    const deployments = updateInfo.deployments
+      .map(contract =>
+        Object.assign(contract, { previousVersion: refInfo.deployments.find(({ name }) => name === contract.name) }),
+      )
+      .filter(contract => contract.gasData?.length && contract.previousVersion?.gasData?.length)
+      .flatMap(contract => [
+        {
+          contract: contract.name,
+          method: '[bytecode length]',
+          avg: variation(contract.bytecode.length / 2 - 1, contract.previousVersion.bytecode.length / 2 - 1),
+        },
+        {
+          contract: contract.name,
+          method: '[construction cost]',
+          avg: variation(
+            ...[contract.gasData, contract.previousVersion.gasData].map(x => Math.round(average(...x))),
+            BASE_TX_COST,
+          ),
+        },
+      ])
+      .sort((a, b) => `${a.contract}:${a.method}`.localeCompare(`${b.contract}:${b.method}`));
+
+    const methods = Object.keys(updateInfo.methods)
+      .filter(key => refInfo.methods[key])
+      .filter(key => updateInfo.methods[key].numberOfCalls > 0)
+      .filter(
+        key => !opts.strictTesting || updateInfo.methods[key].numberOfCalls === refInfo.methods[key].numberOfCalls,
+      )
+      .map(key => ({
+        contract: refInfo.methods[key].contract,
+        method: refInfo.methods[key].fnSig,
+        min: variation(...[updateInfo, refInfo].map(x => Math.min(...x.methods[key].gasData)), BASE_TX_COST),
+        max: variation(...[updateInfo, refInfo].map(x => Math.max(...x.methods[key].gasData)), BASE_TX_COST),
+        avg: variation(...[updateInfo, refInfo].map(x => Math.round(average(...x.methods[key].gasData))), BASE_TX_COST),
+      }))
+      .sort((a, b) => `${a.contract}:${a.method}`.localeCompare(`${b.contract}:${b.method}`));
+
+    return []
+      .concat(deployments, methods)
+      .filter(row => !opts.hideEqual || row.min?.delta || row.max?.delta || row.avg?.delta);
+  }
+}
+
+// Display
+function center(text, length) {
+  return text.padStart((text.length + length) / 2).padEnd(length);
+}
+
+function plusSign(num) {
+  return num > 0 ? '+' : '';
+}
+
+function formatCellShell(cell) {
+  const format = chalk[cell?.delta > 0 ? 'red' : cell?.delta < 0 ? 'green' : 'reset'];
+  return [
+    format((!isFinite(cell?.value) ? '-' : cell.value.toString()).padStart(8)),
+    format((!isFinite(cell?.delta) ? '-' : plusSign(cell.delta) + cell.delta.toString()).padStart(8)),
+    format((!isFinite(cell?.prcnt) ? '-' : plusSign(cell.prcnt) + cell.prcnt.toFixed(2) + '%').padStart(8)),
+  ];
+}
+
+function formatCmpShell(rows) {
+  const contractLength = Math.max(8, ...rows.map(({ contract }) => contract.length));
+  const methodLength = Math.max(7, ...rows.map(({ method }) => method.length));
+
+  const COLS = [
+    { txt: '', length: 0 },
+    { txt: 'Contract', length: contractLength },
+    { txt: 'Method', length: methodLength },
+    { txt: 'Min', length: 30 },
+    { txt: 'Max', length: 30 },
+    { txt: 'Avg', length: 30 },
+    { txt: '', length: 0 },
+  ];
+  const HEADER = COLS.map(entry => chalk.bold(center(entry.txt, entry.length || 0)))
+    .join(' | ')
+    .trim();
+  const SEPARATOR = COLS.map(({ length }) => (length > 0 ? '-'.repeat(length + 2) : ''))
+    .join('|')
+    .trim();
+
+  return [
+    '',
+    HEADER,
+    ...rows.map(entry =>
+      [
+        '',
+        chalk.grey(entry.contract.padEnd(contractLength)),
+        entry.method.padEnd(methodLength),
+        ...formatCellShell(entry.min),
+        ...formatCellShell(entry.max),
+        ...formatCellShell(entry.avg),
+        '',
+      ]
+        .join(' | ')
+        .trim(),
+    ),
+    '',
+  ]
+    .join(`\n${SEPARATOR}\n`)
+    .trim();
+}
+
+function alignPattern(align) {
+  switch (align) {
+    case 'left':
+    case undefined:
+      return ':-';
+    case 'right':
+      return '-:';
+    case 'center':
+      return ':-:';
+  }
+}
+
+function trend(value) {
+  return value > 0 ? ':x:' : value < 0 ? ':heavy_check_mark:' : ':heavy_minus_sign:';
+}
+
+function formatCellMarkdown(cell) {
+  return [
+    !isFinite(cell?.value) ? '-' : cell.value.toString(),
+    !isFinite(cell?.delta) ? '-' : plusSign(cell.delta) + cell.delta.toString(),
+    !isFinite(cell?.prcnt) ? '-' : plusSign(cell.prcnt) + cell.prcnt.toFixed(2) + '% ' + trend(cell.delta),
+  ];
+}
+
+function formatCmpMarkdown(rows) {
+  const COLS = [
+    { txt: '' },
+    { txt: 'Contract', align: 'left' },
+    { txt: 'Method', align: 'left' },
+    { txt: 'Min', align: 'right' },
+    { txt: '(+/-)', align: 'right' },
+    { txt: '%', align: 'right' },
+    { txt: 'Max', align: 'right' },
+    { txt: '(+/-)', align: 'right' },
+    { txt: '%', align: 'right' },
+    { txt: 'Avg', align: 'right' },
+    { txt: '(+/-)', align: 'right' },
+    { txt: '%', align: 'right' },
+    { txt: '' },
+  ];
+  const HEADER = COLS.map(entry => entry.txt)
+    .join(' | ')
+    .trim();
+  const SEPARATOR = COLS.map(entry => (entry.txt ? alignPattern(entry.align) : ''))
+    .join('|')
+    .trim();
+
+  return [
+    '# Changes to gas costs',
+    '',
+    HEADER,
+    SEPARATOR,
+    rows
+      .map(entry =>
+        [
+          '',
+          entry.contract,
+          entry.method,
+          ...formatCellMarkdown(entry.min),
+          ...formatCellMarkdown(entry.max),
+          ...formatCellMarkdown(entry.avg),
+          '',
+        ]
+          .join(' | ')
+          .trim(),
+      )
+      .join('\n'),
+    '',
+  ]
+    .join('\n')
+    .trim();
+}
+
+// MAIN
+const report = Report.compare(Report.load(argv._[0]), Report.load(argv._[1]), argv);
+
+switch (argv.style) {
+  case 'markdown':
+    console.log(formatCmpMarkdown(report));
+    break;
+  case 'shell':
+  default:
+    console.log(formatCmpShell(report));
+    break;
+}
