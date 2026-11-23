@@ -1,1 +1,75 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKYXN5bmMgZnVuY3Rpb24gZml4dHVyZSgpIHsKICBjb25zdCBbc2VuZGVyLCBvdGhlcl0gPSBhd2FpdCBldGhlcnMuZ2V0U2lnbmVycygpOwoKICBjb25zdCBtb2NrID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCckTm9uY2VzJyk7CgogIHJldHVybiB7IHNlbmRlciwgb3RoZXIsIG1vY2sgfTsKfQoKZGVzY3JpYmUoJ05vbmNlcycsIGZ1bmN0aW9uICgpIHsKICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgIE9iamVjdC5hc3NpZ24odGhpcywgYXdhaXQgbG9hZEZpeHR1cmUoZml4dHVyZSkpOwogIH0pOwoKICBpdCgnZ2V0cyBhIG5vbmNlJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay5ub25jZXModGhpcy5zZW5kZXIpKS50by5lcXVhbCgwbik7CiAgfSk7CgogIGRlc2NyaWJlKCdfdXNlTm9uY2UnLCBmdW5jdGlvbiAoKSB7CiAgICBpdCgnaW5jcmVtZW50cyBhIG5vbmNlJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLm5vbmNlcyh0aGlzLnNlbmRlcikpLnRvLmVxdWFsKDBuKTsKCiAgICAgIGF3YWl0IGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJF91c2VOb25jZSh0aGlzLnNlbmRlcikpCiAgICAgICAgLnRvLmVtaXQodGhpcy5tb2NrLCAncmV0dXJuJF91c2VOb25jZScpCiAgICAgICAgLndpdGhBcmdzKDBuKTsKCiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2subm9uY2VzKHRoaXMuc2VuZGVyKSkudG8uZXF1YWwoMW4pOwogICAgfSk7CgogICAgaXQoImluY3JlbWVudHMgb25seSBzZW5kZXIncyBub25jZSIsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay5ub25jZXModGhpcy5zZW5kZXIpKS50by5lcXVhbCgwbik7CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2subm9uY2VzKHRoaXMub3RoZXIpKS50by5lcXVhbCgwbik7CgogICAgICBhd2FpdCB0aGlzLm1vY2suJF91c2VOb25jZSh0aGlzLnNlbmRlcik7CgogICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLm5vbmNlcyh0aGlzLnNlbmRlcikpLnRvLmVxdWFsKDFuKTsKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay5ub25jZXModGhpcy5vdGhlcikpLnRvLmVxdWFsKDBuKTsKICAgIH0pOwogIH0pOwoKICBkZXNjcmliZSgnX3VzZUNoZWNrZWROb25jZScsIGZ1bmN0aW9uICgpIHsKICAgIGl0KCdpbmNyZW1lbnRzIGEgbm9uY2UnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGNvbnN0IGN1cnJlbnROb25jZSA9IGF3YWl0IHRoaXMubW9jay5ub25jZXModGhpcy5zZW5kZXIpOwoKICAgICAgZXhwZWN0KGN1cnJlbnROb25jZSkudG8uZXF1YWwoMG4pOwoKICAgICAgYXdhaXQgdGhpcy5tb2NrLiRfdXNlQ2hlY2tlZE5vbmNlKHRoaXMuc2VuZGVyLCBjdXJyZW50Tm9uY2UpOwoKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay5ub25jZXModGhpcy5zZW5kZXIpKS50by5lcXVhbCgxbik7CiAgICB9KTsKCiAgICBpdCgiaW5jcmVtZW50cyBvbmx5IHNlbmRlcidzIG5vbmNlIiwgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCBjdXJyZW50Tm9uY2UgPSBhd2FpdCB0aGlzLm1vY2subm9uY2VzKHRoaXMuc2VuZGVyKTsKCiAgICAgIGV4cGVjdChjdXJyZW50Tm9uY2UpLnRvLmVxdWFsKDBuKTsKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay5ub25jZXModGhpcy5vdGhlcikpLnRvLmVxdWFsKDBuKTsKCiAgICAgIGF3YWl0IHRoaXMubW9jay4kX3VzZUNoZWNrZWROb25jZSh0aGlzLnNlbmRlciwgY3VycmVudE5vbmNlKTsKCiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2subm9uY2VzKHRoaXMuc2VuZGVyKSkudG8uZXF1YWwoMW4pOwogICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLm5vbmNlcyh0aGlzLm90aGVyKSkudG8uZXF1YWwoMG4pOwogICAgfSk7CgogICAgaXQoJ3JldmVydHMgd2hlbiBub25jZSBpcyBub3QgdGhlIGV4cGVjdGVkJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCBjdXJyZW50Tm9uY2UgPSBhd2FpdCB0aGlzLm1vY2subm9uY2VzKHRoaXMuc2VuZGVyKTsKCiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1vY2suJF91c2VDaGVja2VkTm9uY2UodGhpcy5zZW5kZXIsIGN1cnJlbnROb25jZSArIDFuKSkKICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy5tb2NrLCAnSW52YWxpZEFjY291bnROb25jZScpCiAgICAgICAgLndpdGhBcmdzKHRoaXMuc2VuZGVyLCBjdXJyZW50Tm9uY2UpOwogICAgfSk7CiAgfSk7Cn0pOwo=
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+async function fixture() {
+  const [sender, other] = await ethers.getSigners();
+
+  const mock = await ethers.deployContract('$Nonces');
+
+  return { sender, other, mock };
+}
+
+describe('Nonces', function () {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  it('gets a nonce', async function () {
+    expect(await this.mock.nonces(this.sender)).to.equal(0n);
+  });
+
+  describe('_useNonce', function () {
+    it('increments a nonce', async function () {
+      expect(await this.mock.nonces(this.sender)).to.equal(0n);
+
+      await expect(await this.mock.$_useNonce(this.sender))
+        .to.emit(this.mock, 'return$_useNonce')
+        .withArgs(0n);
+
+      expect(await this.mock.nonces(this.sender)).to.equal(1n);
+    });
+
+    it("increments only sender's nonce", async function () {
+      expect(await this.mock.nonces(this.sender)).to.equal(0n);
+      expect(await this.mock.nonces(this.other)).to.equal(0n);
+
+      await this.mock.$_useNonce(this.sender);
+
+      expect(await this.mock.nonces(this.sender)).to.equal(1n);
+      expect(await this.mock.nonces(this.other)).to.equal(0n);
+    });
+  });
+
+  describe('_useCheckedNonce', function () {
+    it('increments a nonce', async function () {
+      const currentNonce = await this.mock.nonces(this.sender);
+
+      expect(currentNonce).to.equal(0n);
+
+      await this.mock.$_useCheckedNonce(this.sender, currentNonce);
+
+      expect(await this.mock.nonces(this.sender)).to.equal(1n);
+    });
+
+    it("increments only sender's nonce", async function () {
+      const currentNonce = await this.mock.nonces(this.sender);
+
+      expect(currentNonce).to.equal(0n);
+      expect(await this.mock.nonces(this.other)).to.equal(0n);
+
+      await this.mock.$_useCheckedNonce(this.sender, currentNonce);
+
+      expect(await this.mock.nonces(this.sender)).to.equal(1n);
+      expect(await this.mock.nonces(this.other)).to.equal(0n);
+    });
+
+    it('reverts when nonce is not the expected', async function () {
+      const currentNonce = await this.mock.nonces(this.sender);
+
+      await expect(this.mock.$_useCheckedNonce(this.sender, currentNonce + 1n))
+        .to.be.revertedWithCustomError(this.mock, 'InvalidAccountNonce')
+        .withArgs(this.sender, currentNonce);
+    });
+  });
+});
