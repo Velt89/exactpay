@@ -1,1 +1,17 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7Cgpjb250cmFjdCBFdGhlclJlY2VpdmVyTW9jayB7CiAgICBib29sIHByaXZhdGUgX2FjY2VwdEV0aGVyOwoKICAgIGZ1bmN0aW9uIHNldEFjY2VwdEV0aGVyKGJvb2wgYWNjZXB0RXRoZXIpIHB1YmxpYyB7CiAgICAgICAgX2FjY2VwdEV0aGVyID0gYWNjZXB0RXRoZXI7CiAgICB9CgogICAgcmVjZWl2ZSgpIGV4dGVybmFsIHBheWFibGUgewogICAgICAgIGlmICghX2FjY2VwdEV0aGVyKSB7CiAgICAgICAgICAgIHJldmVydCgpOwogICAgICAgIH0KICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+contract EtherReceiverMock {
+    bool private _acceptEther;
+
+    function setAcceptEther(bool acceptEther) public {
+        _acceptEther = acceptEther;
+    }
+
+    receive() external payable {
+        if (!_acceptEther) {
+            revert();
+        }
+    }
+}
