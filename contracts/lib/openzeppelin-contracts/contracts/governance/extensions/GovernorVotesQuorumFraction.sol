@@ -1,1 +1,110 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMC4wKSAoZ292ZXJuYW5jZS9leHRlbnNpb25zL0dvdmVybm9yVm90ZXNRdW9ydW1GcmFjdGlvbi5zb2wpCgpwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7R292ZXJub3JWb3Rlc30gZnJvbSAiLi9Hb3Zlcm5vclZvdGVzLnNvbCI7CmltcG9ydCB7U2FmZUNhc3R9IGZyb20gIi4uLy4uL3V0aWxzL21hdGgvU2FmZUNhc3Quc29sIjsKaW1wb3J0IHtDaGVja3BvaW50c30gZnJvbSAiLi4vLi4vdXRpbHMvc3RydWN0cy9DaGVja3BvaW50cy5zb2wiOwoKLyoqCiAqIEBkZXYgRXh0ZW5zaW9uIG9mIHtHb3Zlcm5vcn0gZm9yIHZvdGluZyB3ZWlnaHQgZXh0cmFjdGlvbiBmcm9tIGFuIHtFUkMyMFZvdGVzfSB0b2tlbiBhbmQgYSBxdW9ydW0gZXhwcmVzc2VkIGFzIGEKICogZnJhY3Rpb24gb2YgdGhlIHRvdGFsIHN1cHBseS4KICovCmFic3RyYWN0IGNvbnRyYWN0IEdvdmVybm9yVm90ZXNRdW9ydW1GcmFjdGlvbiBpcyBHb3Zlcm5vclZvdGVzIHsKICAgIHVzaW5nIENoZWNrcG9pbnRzIGZvciBDaGVja3BvaW50cy5UcmFjZTIwODsKCiAgICBDaGVja3BvaW50cy5UcmFjZTIwOCBwcml2YXRlIF9xdW9ydW1OdW1lcmF0b3JIaXN0b3J5OwoKICAgIGV2ZW50IFF1b3J1bU51bWVyYXRvclVwZGF0ZWQodWludDI1NiBvbGRRdW9ydW1OdW1lcmF0b3IsIHVpbnQyNTYgbmV3UXVvcnVtTnVtZXJhdG9yKTsKCiAgICAvKioKICAgICAqIEBkZXYgVGhlIHF1b3J1bSBzZXQgaXMgbm90IGEgdmFsaWQgZnJhY3Rpb24uCiAgICAgKi8KICAgIGVycm9yIEdvdmVybm9ySW52YWxpZFF1b3J1bUZyYWN0aW9uKHVpbnQyNTYgcXVvcnVtTnVtZXJhdG9yLCB1aW50MjU2IHF1b3J1bURlbm9taW5hdG9yKTsKCiAgICAvKioKICAgICAqIEBkZXYgSW5pdGlhbGl6ZSBxdW9ydW0gYXMgYSBmcmFjdGlvbiBvZiB0aGUgdG9rZW4ncyB0b3RhbCBzdXBwbHkuCiAgICAgKgogICAgICogVGhlIGZyYWN0aW9uIGlzIHNwZWNpZmllZCBhcyBgbnVtZXJhdG9yIC8gZGVub21pbmF0b3JgLiBCeSBkZWZhdWx0IHRoZSBkZW5vbWluYXRvciBpcyAxMDAsIHNvIHF1b3J1bSBpcwogICAgICogc3BlY2lmaWVkIGFzIGEgcGVyY2VudDogYSBudW1lcmF0b3Igb2YgMTAgY29ycmVzcG9uZHMgdG8gcXVvcnVtIGJlaW5nIDEwJSBvZiB0b3RhbCBzdXBwbHkuIFRoZSBkZW5vbWluYXRvciBjYW4gYmUKICAgICAqIGN1c3RvbWl6ZWQgYnkgb3ZlcnJpZGluZyB7cXVvcnVtRGVub21pbmF0b3J9LgogICAgICovCiAgICBjb25zdHJ1Y3Rvcih1aW50MjU2IHF1b3J1bU51bWVyYXRvclZhbHVlKSB7CiAgICAgICAgX3VwZGF0ZVF1b3J1bU51bWVyYXRvcihxdW9ydW1OdW1lcmF0b3JWYWx1ZSk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIGN1cnJlbnQgcXVvcnVtIG51bWVyYXRvci4gU2VlIHtxdW9ydW1EZW5vbWluYXRvcn0uCiAgICAgKi8KICAgIGZ1bmN0aW9uIHF1b3J1bU51bWVyYXRvcigpIHB1YmxpYyB2aWV3IHZpcnR1YWwgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHJldHVybiBfcXVvcnVtTnVtZXJhdG9ySGlzdG9yeS5sYXRlc3QoKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyB0aGUgcXVvcnVtIG51bWVyYXRvciBhdCBhIHNwZWNpZmljIHRpbWVwb2ludC4gU2VlIHtxdW9ydW1EZW5vbWluYXRvcn0uCiAgICAgKi8KICAgIGZ1bmN0aW9uIHF1b3J1bU51bWVyYXRvcih1aW50MjU2IHRpbWVwb2ludCkgcHVibGljIHZpZXcgdmlydHVhbCByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgdWludDI1NiBsZW5ndGggPSBfcXVvcnVtTnVtZXJhdG9ySGlzdG9yeS5fY2hlY2twb2ludHMubGVuZ3RoOwoKICAgICAgICAvLyBPcHRpbWlzdGljIHNlYXJjaCwgY2hlY2sgdGhlIGxhdGVzdCBjaGVja3BvaW50CiAgICAgICAgQ2hlY2twb2ludHMuQ2hlY2twb2ludDIwOCBzdG9yYWdlIGxhdGVzdCA9IF9xdW9ydW1OdW1lcmF0b3JIaXN0b3J5Ll9jaGVja3BvaW50c1tsZW5ndGggLSAxXTsKICAgICAgICB1aW50NDggbGF0ZXN0S2V5ID0gbGF0ZXN0Ll9rZXk7CiAgICAgICAgdWludDIwOCBsYXRlc3RWYWx1ZSA9IGxhdGVzdC5fdmFsdWU7CiAgICAgICAgaWYgKGxhdGVzdEtleSA8PSB0aW1lcG9pbnQpIHsKICAgICAgICAgICAgcmV0dXJuIGxhdGVzdFZhbHVlOwogICAgICAgIH0KCiAgICAgICAgLy8gT3RoZXJ3aXNlLCBkbyB0aGUgYmluYXJ5IHNlYXJjaAogICAgICAgIHJldHVybiBfcXVvcnVtTnVtZXJhdG9ySGlzdG9yeS51cHBlckxvb2t1cFJlY2VudChTYWZlQ2FzdC50b1VpbnQ0OCh0aW1lcG9pbnQpKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyB0aGUgcXVvcnVtIGRlbm9taW5hdG9yLiBEZWZhdWx0cyB0byAxMDAsIGJ1dCBtYXkgYmUgb3ZlcnJpZGRlbi4KICAgICAqLwogICAgZnVuY3Rpb24gcXVvcnVtRGVub21pbmF0b3IoKSBwdWJsaWMgdmlldyB2aXJ0dWFsIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXR1cm4gMTAwOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBSZXR1cm5zIHRoZSBxdW9ydW0gZm9yIGEgdGltZXBvaW50LCBpbiB0ZXJtcyBvZiBudW1iZXIgb2Ygdm90ZXM6IGBzdXBwbHkgKiBudW1lcmF0b3IgLyBkZW5vbWluYXRvcmAuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHF1b3J1bSh1aW50MjU2IHRpbWVwb2ludCkgcHVibGljIHZpZXcgdmlydHVhbCBvdmVycmlkZSByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgcmV0dXJuICh0b2tlbigpLmdldFBhc3RUb3RhbFN1cHBseSh0aW1lcG9pbnQpICogcXVvcnVtTnVtZXJhdG9yKHRpbWVwb2ludCkpIC8gcXVvcnVtRGVub21pbmF0b3IoKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgQ2hhbmdlcyB0aGUgcXVvcnVtIG51bWVyYXRvci4KICAgICAqCiAgICAgKiBFbWl0cyBhIHtRdW9ydW1OdW1lcmF0b3JVcGRhdGVkfSBldmVudC4KICAgICAqCiAgICAgKiBSZXF1aXJlbWVudHM6CiAgICAgKgogICAgICogLSBNdXN0IGJlIGNhbGxlZCB0aHJvdWdoIGEgZ292ZXJuYW5jZSBwcm9wb3NhbC4KICAgICAqIC0gTmV3IG51bWVyYXRvciBtdXN0IGJlIHNtYWxsZXIgb3IgZXF1YWwgdG8gdGhlIGRlbm9taW5hdG9yLgogICAgICovCiAgICBmdW5jdGlvbiB1cGRhdGVRdW9ydW1OdW1lcmF0b3IodWludDI1NiBuZXdRdW9ydW1OdW1lcmF0b3IpIGV4dGVybmFsIHZpcnR1YWwgb25seUdvdmVybmFuY2UgewogICAgICAgIF91cGRhdGVRdW9ydW1OdW1lcmF0b3IobmV3UXVvcnVtTnVtZXJhdG9yKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgQ2hhbmdlcyB0aGUgcXVvcnVtIG51bWVyYXRvci4KICAgICAqCiAgICAgKiBFbWl0cyBhIHtRdW9ydW1OdW1lcmF0b3JVcGRhdGVkfSBldmVudC4KICAgICAqCiAgICAgKiBSZXF1aXJlbWVudHM6CiAgICAgKgogICAgICogLSBOZXcgbnVtZXJhdG9yIG11c3QgYmUgc21hbGxlciBvciBlcXVhbCB0byB0aGUgZGVub21pbmF0b3IuCiAgICAgKi8KICAgIGZ1bmN0aW9uIF91cGRhdGVRdW9ydW1OdW1lcmF0b3IodWludDI1NiBuZXdRdW9ydW1OdW1lcmF0b3IpIGludGVybmFsIHZpcnR1YWwgewogICAgICAgIHVpbnQyNTYgZGVub21pbmF0b3IgPSBxdW9ydW1EZW5vbWluYXRvcigpOwogICAgICAgIGlmIChuZXdRdW9ydW1OdW1lcmF0b3IgPiBkZW5vbWluYXRvcikgewogICAgICAgICAgICByZXZlcnQgR292ZXJub3JJbnZhbGlkUXVvcnVtRnJhY3Rpb24obmV3UXVvcnVtTnVtZXJhdG9yLCBkZW5vbWluYXRvcik7CiAgICAgICAgfQoKICAgICAgICB1aW50MjU2IG9sZFF1b3J1bU51bWVyYXRvciA9IHF1b3J1bU51bWVyYXRvcigpOwogICAgICAgIF9xdW9ydW1OdW1lcmF0b3JIaXN0b3J5LnB1c2goY2xvY2soKSwgU2FmZUNhc3QudG9VaW50MjA4KG5ld1F1b3J1bU51bWVyYXRvcikpOwoKICAgICAgICBlbWl0IFF1b3J1bU51bWVyYXRvclVwZGF0ZWQob2xkUXVvcnVtTnVtZXJhdG9yLCBuZXdRdW9ydW1OdW1lcmF0b3IpOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.0.0) (governance/extensions/GovernorVotesQuorumFraction.sol)
+
+pragma solidity ^0.8.20;
+
+import {GovernorVotes} from "./GovernorVotes.sol";
+import {SafeCast} from "../../utils/math/SafeCast.sol";
+import {Checkpoints} from "../../utils/structs/Checkpoints.sol";
+
+/**
+ * @dev Extension of {Governor} for voting weight extraction from an {ERC20Votes} token and a quorum expressed as a
+ * fraction of the total supply.
+ */
+abstract contract GovernorVotesQuorumFraction is GovernorVotes {
+    using Checkpoints for Checkpoints.Trace208;
+
+    Checkpoints.Trace208 private _quorumNumeratorHistory;
+
+    event QuorumNumeratorUpdated(uint256 oldQuorumNumerator, uint256 newQuorumNumerator);
+
+    /**
+     * @dev The quorum set is not a valid fraction.
+     */
+    error GovernorInvalidQuorumFraction(uint256 quorumNumerator, uint256 quorumDenominator);
+
+    /**
+     * @dev Initialize quorum as a fraction of the token's total supply.
+     *
+     * The fraction is specified as `numerator / denominator`. By default the denominator is 100, so quorum is
+     * specified as a percent: a numerator of 10 corresponds to quorum being 10% of total supply. The denominator can be
+     * customized by overriding {quorumDenominator}.
+     */
+    constructor(uint256 quorumNumeratorValue) {
+        _updateQuorumNumerator(quorumNumeratorValue);
+    }
+
+    /**
+     * @dev Returns the current quorum numerator. See {quorumDenominator}.
+     */
+    function quorumNumerator() public view virtual returns (uint256) {
+        return _quorumNumeratorHistory.latest();
+    }
+
+    /**
+     * @dev Returns the quorum numerator at a specific timepoint. See {quorumDenominator}.
+     */
+    function quorumNumerator(uint256 timepoint) public view virtual returns (uint256) {
+        uint256 length = _quorumNumeratorHistory._checkpoints.length;
+
+        // Optimistic search, check the latest checkpoint
+        Checkpoints.Checkpoint208 storage latest = _quorumNumeratorHistory._checkpoints[length - 1];
+        uint48 latestKey = latest._key;
+        uint208 latestValue = latest._value;
+        if (latestKey <= timepoint) {
+            return latestValue;
+        }
+
+        // Otherwise, do the binary search
+        return _quorumNumeratorHistory.upperLookupRecent(SafeCast.toUint48(timepoint));
+    }
+
+    /**
+     * @dev Returns the quorum denominator. Defaults to 100, but may be overridden.
+     */
+    function quorumDenominator() public view virtual returns (uint256) {
+        return 100;
+    }
+
+    /**
+     * @dev Returns the quorum for a timepoint, in terms of number of votes: `supply * numerator / denominator`.
+     */
+    function quorum(uint256 timepoint) public view virtual override returns (uint256) {
+        return (token().getPastTotalSupply(timepoint) * quorumNumerator(timepoint)) / quorumDenominator();
+    }
+
+    /**
+     * @dev Changes the quorum numerator.
+     *
+     * Emits a {QuorumNumeratorUpdated} event.
+     *
+     * Requirements:
+     *
+     * - Must be called through a governance proposal.
+     * - New numerator must be smaller or equal to the denominator.
+     */
+    function updateQuorumNumerator(uint256 newQuorumNumerator) external virtual onlyGovernance {
+        _updateQuorumNumerator(newQuorumNumerator);
+    }
+
+    /**
+     * @dev Changes the quorum numerator.
+     *
+     * Emits a {QuorumNumeratorUpdated} event.
+     *
+     * Requirements:
+     *
+     * - New numerator must be smaller or equal to the denominator.
+     */
+    function _updateQuorumNumerator(uint256 newQuorumNumerator) internal virtual {
+        uint256 denominator = quorumDenominator();
+        if (newQuorumNumerator > denominator) {
+            revert GovernorInvalidQuorumFraction(newQuorumNumerator, denominator);
+        }
+
+        uint256 oldQuorumNumerator = quorumNumerator();
+        _quorumNumeratorHistory.push(clock(), SafeCast.toUint208(newQuorumNumerator));
+
+        emit QuorumNumeratorUpdated(oldQuorumNumerator, newQuorumNumerator);
+    }
+}
