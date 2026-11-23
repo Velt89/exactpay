@@ -1,1 +1,54 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAoZmluYW5jZS9WZXN0aW5nV2FsbGV0Q2xpZmYuc29sKQoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge1NhZmVDYXN0fSBmcm9tICIuLi91dGlscy9tYXRoL1NhZmVDYXN0LnNvbCI7CmltcG9ydCB7VmVzdGluZ1dhbGxldH0gZnJvbSAiLi9WZXN0aW5nV2FsbGV0LnNvbCI7CgovKioKICogQGRldiBFeHRlbnNpb24gb2Yge1Zlc3RpbmdXYWxsZXR9IHRoYXQgYWRkcyBhIGNsaWZmIHRvIHRoZSB2ZXN0aW5nIHNjaGVkdWxlLgogKgogKiBfQXZhaWxhYmxlIHNpbmNlIHY1LjEuXwogKi8KYWJzdHJhY3QgY29udHJhY3QgVmVzdGluZ1dhbGxldENsaWZmIGlzIFZlc3RpbmdXYWxsZXQgewogICAgdXNpbmcgU2FmZUNhc3QgZm9yICo7CgogICAgdWludDY0IHByaXZhdGUgaW1tdXRhYmxlIF9jbGlmZjsKCiAgICAvLy8gQGRldiBUaGUgc3BlY2lmaWVkIGNsaWZmIGR1cmF0aW9uIGlzIGxhcmdlciB0aGFuIHRoZSB2ZXN0aW5nIGR1cmF0aW9uLgogICAgZXJyb3IgSW52YWxpZENsaWZmRHVyYXRpb24odWludDY0IGNsaWZmU2Vjb25kcywgdWludDY0IGR1cmF0aW9uU2Vjb25kcyk7CgogICAgLyoqCiAgICAgKiBAZGV2IFNldCB0aGUgZHVyYXRpb24gb2YgdGhlIGNsaWZmLCBpbiBzZWNvbmRzLiBUaGUgY2xpZmYgc3RhcnRzIHZlc3Rpbmcgc2NoZWR1bGUgKHNlZSB7VmVzdGluZ1dhbGxldH0ncwogICAgICogY29uc3RydWN0b3IpIGFuZCBlbmRzIGBjbGlmZlNlY29uZHNgIGxhdGVyLgogICAgICovCiAgICBjb25zdHJ1Y3Rvcih1aW50NjQgY2xpZmZTZWNvbmRzKSB7CiAgICAgICAgaWYgKGNsaWZmU2Vjb25kcyA+IGR1cmF0aW9uKCkpIHsKICAgICAgICAgICAgcmV2ZXJ0IEludmFsaWRDbGlmZkR1cmF0aW9uKGNsaWZmU2Vjb25kcywgZHVyYXRpb24oKS50b1VpbnQ2NCgpKTsKICAgICAgICB9CiAgICAgICAgX2NsaWZmID0gc3RhcnQoKS50b1VpbnQ2NCgpICsgY2xpZmZTZWNvbmRzOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBHZXR0ZXIgZm9yIHRoZSBjbGlmZiB0aW1lc3RhbXAuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGNsaWZmKCkgcHVibGljIHZpZXcgdmlydHVhbCByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgcmV0dXJuIF9jbGlmZjsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgVmlydHVhbCBpbXBsZW1lbnRhdGlvbiBvZiB0aGUgdmVzdGluZyBmb3JtdWxhLiBUaGlzIHJldHVybnMgdGhlIGFtb3VudCB2ZXN0ZWQsIGFzIGEgZnVuY3Rpb24gb2YgdGltZSwgZm9yCiAgICAgKiBhbiBhc3NldCBnaXZlbiBpdHMgdG90YWwgaGlzdG9yaWNhbCBhbGxvY2F0aW9uLiBSZXR1cm5zIDAgaWYgdGhlIHtjbGlmZn0gdGltZXN0YW1wIGlzIG5vdCBtZXQuCiAgICAgKgogICAgICogSU1QT1JUQU5UOiBUaGUgY2xpZmYgbm90IG9ubHkgbWFrZXMgdGhlIHNjaGVkdWxlIHJldHVybiAwLCBidXQgaXQgYWxzbyBpZ25vcmVzIGV2ZXJ5IHBvc3NpYmxlIHNpZGUKICAgICAqIGVmZmVjdCBmcm9tIGNhbGxpbmcgdGhlIGluaGVyaXRlZCBpbXBsZW1lbnRhdGlvbiAoaS5lLiBgc3VwZXIuX3Zlc3RpbmdTY2hlZHVsZWApLiBDYXJlZnVsbHkgY29uc2lkZXIKICAgICAqIHRoaXMgY2F2ZWF0IGlmIHRoZSBvdmVycmlkZGVuIGltcGxlbWVudGF0aW9uIG9mIHRoaXMgZnVuY3Rpb24gaGFzIGFueSAoZS5nLiB3cml0aW5nIHRvIG1lbW9yeSBvciByZXZlcnRpbmcpLgogICAgICovCiAgICBmdW5jdGlvbiBfdmVzdGluZ1NjaGVkdWxlKAogICAgICAgIHVpbnQyNTYgdG90YWxBbGxvY2F0aW9uLAogICAgICAgIHVpbnQ2NCB0aW1lc3RhbXAKICAgICkgaW50ZXJuYWwgdmlldyB2aXJ0dWFsIG92ZXJyaWRlIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXR1cm4gdGltZXN0YW1wIDwgY2xpZmYoKSA/IDAgOiBzdXBlci5fdmVzdGluZ1NjaGVkdWxlKHRvdGFsQWxsb2NhdGlvbiwgdGltZXN0YW1wKTsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (finance/VestingWalletCliff.sol)
+
+pragma solidity ^0.8.20;
+
+import {SafeCast} from "../utils/math/SafeCast.sol";
+import {VestingWallet} from "./VestingWallet.sol";
+
+/**
+ * @dev Extension of {VestingWallet} that adds a cliff to the vesting schedule.
+ *
+ * _Available since v5.1._
+ */
+abstract contract VestingWalletCliff is VestingWallet {
+    using SafeCast for *;
+
+    uint64 private immutable _cliff;
+
+    /// @dev The specified cliff duration is larger than the vesting duration.
+    error InvalidCliffDuration(uint64 cliffSeconds, uint64 durationSeconds);
+
+    /**
+     * @dev Set the duration of the cliff, in seconds. The cliff starts vesting schedule (see {VestingWallet}'s
+     * constructor) and ends `cliffSeconds` later.
+     */
+    constructor(uint64 cliffSeconds) {
+        if (cliffSeconds > duration()) {
+            revert InvalidCliffDuration(cliffSeconds, duration().toUint64());
+        }
+        _cliff = start().toUint64() + cliffSeconds;
+    }
+
+    /**
+     * @dev Getter for the cliff timestamp.
+     */
+    function cliff() public view virtual returns (uint256) {
+        return _cliff;
+    }
+
+    /**
+     * @dev Virtual implementation of the vesting formula. This returns the amount vested, as a function of time, for
+     * an asset given its total historical allocation. Returns 0 if the {cliff} timestamp is not met.
+     *
+     * IMPORTANT: The cliff not only makes the schedule return 0, but it also ignores every possible side
+     * effect from calling the inherited implementation (i.e. `super._vestingSchedule`). Carefully consider
+     * this caveat if the overridden implementation of this function has any (e.g. writing to memory or reverting).
+     */
+    function _vestingSchedule(
+        uint256 totalAllocation,
+        uint64 timestamp
+    ) internal view virtual override returns (uint256) {
+        return timestamp < cliff() ? 0 : super._vestingSchedule(totalAllocation, timestamp);
+    }
+}
