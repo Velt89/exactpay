@@ -1,1 +1,14 @@
-W3Byb2ZpbGUuZGVmYXVsdF0Kc29sY192ZXJzaW9uID0gJzAuOC4yNCcKZXZtX3ZlcnNpb24gPSAnY2FuY3VuJwpvcHRpbWl6ZXIgPSB0cnVlCm9wdGltaXplci1ydW5zID0gMjAwCnNyYyA9ICdjb250cmFjdHMnCm91dCA9ICdvdXQnCmxpYnMgPSBbJ25vZGVfbW9kdWxlcycsICdsaWInXQp0ZXN0ID0gJ3Rlc3QnCmNhY2hlX3BhdGggID0gJ2NhY2hlX2ZvcmdlJwoKW2Z1enpdCnJ1bnMgPSA1MDAwCm1heF90ZXN0X3JlamVjdHMgPSAxNTAwMDAK
+[profile.default]
+solc_version = '0.8.24'
+evm_version = 'cancun'
+optimizer = true
+optimizer-runs = 200
+src = 'contracts'
+out = 'out'
+libs = ['node_modules', 'lib']
+test = 'test'
+cache_path  = 'cache_forge'
+
+[fuzz]
+runs = 5000
+max_test_rejects = 150000
