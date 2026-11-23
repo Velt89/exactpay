@@ -1,1 +1,55 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKYXN5bmMgZnVuY3Rpb24gZml4dHVyZSgpIHsKICBjb25zdCBbYWRtaW4sIG90aGVyXSA9IGF3YWl0IGV0aGVycy5nZXRTaWduZXJzKCk7CgogIGNvbnN0IHYxID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCdJbXBsZW1lbnRhdGlvbjEnKTsKICBjb25zdCB2MiA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnSW1wbGVtZW50YXRpb24yJyk7CiAgY29uc3QgYmVhY29uID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCdVcGdyYWRlYWJsZUJlYWNvbicsIFt2MSwgYWRtaW5dKTsKCiAgcmV0dXJuIHsgYWRtaW4sIG90aGVyLCBiZWFjb24sIHYxLCB2MiB9Owp9CgpkZXNjcmliZSgnVXBncmFkZWFibGVCZWFjb24nLCBmdW5jdGlvbiAoKSB7CiAgYmVmb3JlRWFjaChhc3luYyBmdW5jdGlvbiAoKSB7CiAgICBPYmplY3QuYXNzaWduKHRoaXMsIGF3YWl0IGxvYWRGaXh0dXJlKGZpeHR1cmUpKTsKICB9KTsKCiAgaXQoJ2Nhbm5vdCBiZSBjcmVhdGVkIHdpdGggbm9uLWNvbnRyYWN0IGltcGxlbWVudGF0aW9uJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgYXdhaXQgZXhwZWN0KGV0aGVycy5kZXBsb3lDb250cmFjdCgnVXBncmFkZWFibGVCZWFjb24nLCBbdGhpcy5vdGhlciwgdGhpcy5hZG1pbl0pKQogICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy5iZWFjb24sICdCZWFjb25JbnZhbGlkSW1wbGVtZW50YXRpb24nKQogICAgICAud2l0aEFyZ3ModGhpcy5vdGhlcik7CiAgfSk7CgogIGRlc2NyaWJlKCdvbmNlIGRlcGxveWVkJywgZnVuY3Rpb24gKCkgewogICAgaXQoJ2VtaXRzIFVwZ3JhZGVkIGV2ZW50IHRvIHRoZSBmaXJzdCBpbXBsZW1lbnRhdGlvbicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMuYmVhY29uLmRlcGxveW1lbnRUcmFuc2FjdGlvbigpKS50by5lbWl0KHRoaXMuYmVhY29uLCAnVXBncmFkZWQnKS53aXRoQXJncyh0aGlzLnYxKTsKICAgIH0pOwoKICAgIGl0KCdyZXR1cm5zIGltcGxlbWVudGF0aW9uJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBleHBlY3QoYXdhaXQgdGhpcy5iZWFjb24uaW1wbGVtZW50YXRpb24oKSkudG8uZXF1YWwodGhpcy52MSk7CiAgICB9KTsKCiAgICBpdCgnY2FuIGJlIHVwZ3JhZGVkIGJ5IHRoZSBhZG1pbicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMuYmVhY29uLmNvbm5lY3QodGhpcy5hZG1pbikudXBncmFkZVRvKHRoaXMudjIpKQogICAgICAgIC50by5lbWl0KHRoaXMuYmVhY29uLCAnVXBncmFkZWQnKQogICAgICAgIC53aXRoQXJncyh0aGlzLnYyKTsKCiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLmJlYWNvbi5pbXBsZW1lbnRhdGlvbigpKS50by5lcXVhbCh0aGlzLnYyKTsKICAgIH0pOwoKICAgIGl0KCdjYW5ub3QgYmUgdXBncmFkZWQgdG8gYSBub24tY29udHJhY3QnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLmJlYWNvbi5jb25uZWN0KHRoaXMuYWRtaW4pLnVwZ3JhZGVUbyh0aGlzLm90aGVyKSkKICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy5iZWFjb24sICdCZWFjb25JbnZhbGlkSW1wbGVtZW50YXRpb24nKQogICAgICAgIC53aXRoQXJncyh0aGlzLm90aGVyKTsKICAgIH0pOwoKICAgIGl0KCdjYW5ub3QgYmUgdXBncmFkZWQgYnkgb3RoZXIgYWNjb3VudCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMuYmVhY29uLmNvbm5lY3QodGhpcy5vdGhlcikudXBncmFkZVRvKHRoaXMudjIpKQogICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLmJlYWNvbiwgJ093bmFibGVVbmF1dGhvcml6ZWRBY2NvdW50JykKICAgICAgICAud2l0aEFyZ3ModGhpcy5vdGhlcik7CiAgICB9KTsKICB9KTsKfSk7Cg==
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+async function fixture() {
+  const [admin, other] = await ethers.getSigners();
+
+  const v1 = await ethers.deployContract('Implementation1');
+  const v2 = await ethers.deployContract('Implementation2');
+  const beacon = await ethers.deployContract('UpgradeableBeacon', [v1, admin]);
+
+  return { admin, other, beacon, v1, v2 };
+}
+
+describe('UpgradeableBeacon', function () {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  it('cannot be created with non-contract implementation', async function () {
+    await expect(ethers.deployContract('UpgradeableBeacon', [this.other, this.admin]))
+      .to.be.revertedWithCustomError(this.beacon, 'BeaconInvalidImplementation')
+      .withArgs(this.other);
+  });
+
+  describe('once deployed', function () {
+    it('emits Upgraded event to the first implementation', async function () {
+      await expect(this.beacon.deploymentTransaction()).to.emit(this.beacon, 'Upgraded').withArgs(this.v1);
+    });
+
+    it('returns implementation', async function () {
+      expect(await this.beacon.implementation()).to.equal(this.v1);
+    });
+
+    it('can be upgraded by the admin', async function () {
+      await expect(this.beacon.connect(this.admin).upgradeTo(this.v2))
+        .to.emit(this.beacon, 'Upgraded')
+        .withArgs(this.v2);
+
+      expect(await this.beacon.implementation()).to.equal(this.v2);
+    });
+
+    it('cannot be upgraded to a non-contract', async function () {
+      await expect(this.beacon.connect(this.admin).upgradeTo(this.other))
+        .to.be.revertedWithCustomError(this.beacon, 'BeaconInvalidImplementation')
+        .withArgs(this.other);
+    });
+
+    it('cannot be upgraded by other account', async function () {
+      await expect(this.beacon.connect(this.other).upgradeTo(this.v2))
+        .to.be.revertedWithCustomError(this.beacon, 'OwnableUnauthorizedAccount')
+        .withArgs(this.other);
+    });
+  });
+});
