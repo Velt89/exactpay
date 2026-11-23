@@ -1,1 +1,154 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAoZmluYW5jZS9WZXN0aW5nV2FsbGV0LnNvbCkKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0lFUkMyMH0gZnJvbSAiLi4vdG9rZW4vRVJDMjAvSUVSQzIwLnNvbCI7CmltcG9ydCB7U2FmZUVSQzIwfSBmcm9tICIuLi90b2tlbi9FUkMyMC91dGlscy9TYWZlRVJDMjAuc29sIjsKaW1wb3J0IHtBZGRyZXNzfSBmcm9tICIuLi91dGlscy9BZGRyZXNzLnNvbCI7CmltcG9ydCB7Q29udGV4dH0gZnJvbSAiLi4vdXRpbHMvQ29udGV4dC5zb2wiOwppbXBvcnQge093bmFibGV9IGZyb20gIi4uL2FjY2Vzcy9Pd25hYmxlLnNvbCI7CgovKioKICogQGRldiBBIHZlc3Rpbmcgd2FsbGV0IGlzIGFuIG93bmFibGUgY29udHJhY3QgdGhhdCBjYW4gcmVjZWl2ZSBuYXRpdmUgY3VycmVuY3kgYW5kIEVSQy0yMCB0b2tlbnMsIGFuZCByZWxlYXNlIHRoZXNlCiAqIGFzc2V0cyB0byB0aGUgd2FsbGV0IG93bmVyLCBhbHNvIHJlZmVycmVkIHRvIGFzICJiZW5lZmljaWFyeSIsIGFjY29yZGluZyB0byBhIHZlc3Rpbmcgc2NoZWR1bGUuCiAqCiAqIEFueSBhc3NldHMgdHJhbnNmZXJyZWQgdG8gdGhpcyBjb250cmFjdCB3aWxsIGZvbGxvdyB0aGUgdmVzdGluZyBzY2hlZHVsZSBhcyBpZiB0aGV5IHdlcmUgbG9ja2VkIGZyb20gdGhlIGJlZ2lubmluZy4KICogQ29uc2VxdWVudGx5LCBpZiB0aGUgdmVzdGluZyBoYXMgYWxyZWFkeSBzdGFydGVkLCBhbnkgYW1vdW50IG9mIHRva2VucyBzZW50IHRvIHRoaXMgY29udHJhY3Qgd2lsbCAoYXQgbGVhc3QgcGFydGx5KQogKiBiZSBpbW1lZGlhdGVseSByZWxlYXNhYmxlLgogKgogKiBCeSBzZXR0aW5nIHRoZSBkdXJhdGlvbiB0byAwLCBvbmUgY2FuIGNvbmZpZ3VyZSB0aGlzIGNvbnRyYWN0IHRvIGJlaGF2ZSBsaWtlIGFuIGFzc2V0IHRpbWVsb2NrIHRoYXQgaG9sZCB0b2tlbnMgZm9yCiAqIGEgYmVuZWZpY2lhcnkgdW50aWwgYSBzcGVjaWZpZWQgdGltZS4KICoKICogTk9URTogU2luY2UgdGhlIHdhbGxldCBpcyB7T3duYWJsZX0sIGFuZCBvd25lcnNoaXAgY2FuIGJlIHRyYW5zZmVycmVkLCBpdCBpcyBwb3NzaWJsZSB0byBzZWxsIHVudmVzdGVkIHRva2Vucy4KICogUHJldmVudGluZyB0aGlzIGluIGEgc21hcnQgY29udHJhY3QgaXMgZGlmZmljdWx0LCBjb25zaWRlcmluZyB0aGF0OiAxKSBhIGJlbmVmaWNpYXJ5IGFkZHJlc3MgY291bGQgYmUgYQogKiBjb3VudGVyZmFjdHVhbGx5IGRlcGxveWVkIGNvbnRyYWN0LCAyKSB0aGVyZSBpcyBsaWtlbHkgdG8gYmUgYSBtaWdyYXRpb24gcGF0aCBmb3IgRU9BcyB0byBiZWNvbWUgY29udHJhY3RzIGluIHRoZQogKiBuZWFyIGZ1dHVyZS4KICoKICogTk9URTogV2hlbiB1c2luZyB0aGlzIGNvbnRyYWN0IHdpdGggYW55IHRva2VuIHdob3NlIGJhbGFuY2UgaXMgYWRqdXN0ZWQgYXV0b21hdGljYWxseSAoaS5lLiBhIHJlYmFzZSB0b2tlbiksIG1ha2UKICogc3VyZSB0byBhY2NvdW50IHRoZSBzdXBwbHkvYmFsYW5jZSBhZGp1c3RtZW50IGluIHRoZSB2ZXN0aW5nIHNjaGVkdWxlIHRvIGVuc3VyZSB0aGUgdmVzdGVkIGFtb3VudCBpcyBhcyBpbnRlbmRlZC4KICovCmNvbnRyYWN0IFZlc3RpbmdXYWxsZXQgaXMgQ29udGV4dCwgT3duYWJsZSB7CiAgICBldmVudCBFdGhlclJlbGVhc2VkKHVpbnQyNTYgYW1vdW50KTsKICAgIGV2ZW50IEVSQzIwUmVsZWFzZWQoYWRkcmVzcyBpbmRleGVkIHRva2VuLCB1aW50MjU2IGFtb3VudCk7CgogICAgdWludDI1NiBwcml2YXRlIF9yZWxlYXNlZDsKICAgIG1hcHBpbmcoYWRkcmVzcyB0b2tlbiA9PiB1aW50MjU2KSBwcml2YXRlIF9lcmMyMFJlbGVhc2VkOwogICAgdWludDY0IHByaXZhdGUgaW1tdXRhYmxlIF9zdGFydDsKICAgIHVpbnQ2NCBwcml2YXRlIGltbXV0YWJsZSBfZHVyYXRpb247CgogICAgLyoqCiAgICAgKiBAZGV2IFNldHMgdGhlIGJlbmVmaWNpYXJ5IChvd25lciksIHRoZSBzdGFydCB0aW1lc3RhbXAgYW5kIHRoZSB2ZXN0aW5nIGR1cmF0aW9uIChpbiBzZWNvbmRzKSBvZiB0aGUgdmVzdGluZwogICAgICogd2FsbGV0LgogICAgICovCiAgICBjb25zdHJ1Y3RvcihhZGRyZXNzIGJlbmVmaWNpYXJ5LCB1aW50NjQgc3RhcnRUaW1lc3RhbXAsIHVpbnQ2NCBkdXJhdGlvblNlY29uZHMpIHBheWFibGUgT3duYWJsZShiZW5lZmljaWFyeSkgewogICAgICAgIF9zdGFydCA9IHN0YXJ0VGltZXN0YW1wOwogICAgICAgIF9kdXJhdGlvbiA9IGR1cmF0aW9uU2Vjb25kczsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgVGhlIGNvbnRyYWN0IHNob3VsZCBiZSBhYmxlIHRvIHJlY2VpdmUgRXRoLgogICAgICovCiAgICByZWNlaXZlKCkgZXh0ZXJuYWwgcGF5YWJsZSB2aXJ0dWFsIHt9CgogICAgLyoqCiAgICAgKiBAZGV2IEdldHRlciBmb3IgdGhlIHN0YXJ0IHRpbWVzdGFtcC4KICAgICAqLwogICAgZnVuY3Rpb24gc3RhcnQoKSBwdWJsaWMgdmlldyB2aXJ0dWFsIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXR1cm4gX3N0YXJ0OwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBHZXR0ZXIgZm9yIHRoZSB2ZXN0aW5nIGR1cmF0aW9uLgogICAgICovCiAgICBmdW5jdGlvbiBkdXJhdGlvbigpIHB1YmxpYyB2aWV3IHZpcnR1YWwgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHJldHVybiBfZHVyYXRpb247CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IEdldHRlciBmb3IgdGhlIGVuZCB0aW1lc3RhbXAuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGVuZCgpIHB1YmxpYyB2aWV3IHZpcnR1YWwgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHJldHVybiBzdGFydCgpICsgZHVyYXRpb24oKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgQW1vdW50IG9mIGV0aCBhbHJlYWR5IHJlbGVhc2VkCiAgICAgKi8KICAgIGZ1bmN0aW9uIHJlbGVhc2VkKCkgcHVibGljIHZpZXcgdmlydHVhbCByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgcmV0dXJuIF9yZWxlYXNlZDsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgQW1vdW50IG9mIHRva2VuIGFscmVhZHkgcmVsZWFzZWQKICAgICAqLwogICAgZnVuY3Rpb24gcmVsZWFzZWQoYWRkcmVzcyB0b2tlbikgcHVibGljIHZpZXcgdmlydHVhbCByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgcmV0dXJuIF9lcmMyMFJlbGVhc2VkW3Rva2VuXTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgR2V0dGVyIGZvciB0aGUgYW1vdW50IG9mIHJlbGVhc2FibGUgZXRoLgogICAgICovCiAgICBmdW5jdGlvbiByZWxlYXNhYmxlKCkgcHVibGljIHZpZXcgdmlydHVhbCByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgcmV0dXJuIHZlc3RlZEFtb3VudCh1aW50NjQoYmxvY2sudGltZXN0YW1wKSkgLSByZWxlYXNlZCgpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBHZXR0ZXIgZm9yIHRoZSBhbW91bnQgb2YgcmVsZWFzYWJsZSBgdG9rZW5gIHRva2Vucy4gYHRva2VuYCBzaG91bGQgYmUgdGhlIGFkZHJlc3Mgb2YgYW4KICAgICAqIHtJRVJDMjB9IGNvbnRyYWN0LgogICAgICovCiAgICBmdW5jdGlvbiByZWxlYXNhYmxlKGFkZHJlc3MgdG9rZW4pIHB1YmxpYyB2aWV3IHZpcnR1YWwgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHJldHVybiB2ZXN0ZWRBbW91bnQodG9rZW4sIHVpbnQ2NChibG9jay50aW1lc3RhbXApKSAtIHJlbGVhc2VkKHRva2VuKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUmVsZWFzZSB0aGUgbmF0aXZlIHRva2VuIChldGhlcikgdGhhdCBoYXZlIGFscmVhZHkgdmVzdGVkLgogICAgICoKICAgICAqIEVtaXRzIGEge0V0aGVyUmVsZWFzZWR9IGV2ZW50LgogICAgICovCiAgICBmdW5jdGlvbiByZWxlYXNlKCkgcHVibGljIHZpcnR1YWwgewogICAgICAgIHVpbnQyNTYgYW1vdW50ID0gcmVsZWFzYWJsZSgpOwogICAgICAgIF9yZWxlYXNlZCArPSBhbW91bnQ7CiAgICAgICAgZW1pdCBFdGhlclJlbGVhc2VkKGFtb3VudCk7CiAgICAgICAgQWRkcmVzcy5zZW5kVmFsdWUocGF5YWJsZShvd25lcigpKSwgYW1vdW50KTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUmVsZWFzZSB0aGUgdG9rZW5zIHRoYXQgaGF2ZSBhbHJlYWR5IHZlc3RlZC4KICAgICAqCiAgICAgKiBFbWl0cyBhIHtFUkMyMFJlbGVhc2VkfSBldmVudC4KICAgICAqLwogICAgZnVuY3Rpb24gcmVsZWFzZShhZGRyZXNzIHRva2VuKSBwdWJsaWMgdmlydHVhbCB7CiAgICAgICAgdWludDI1NiBhbW91bnQgPSByZWxlYXNhYmxlKHRva2VuKTsKICAgICAgICBfZXJjMjBSZWxlYXNlZFt0b2tlbl0gKz0gYW1vdW50OwogICAgICAgIGVtaXQgRVJDMjBSZWxlYXNlZCh0b2tlbiwgYW1vdW50KTsKICAgICAgICBTYWZlRVJDMjAuc2FmZVRyYW5zZmVyKElFUkMyMCh0b2tlbiksIG93bmVyKCksIGFtb3VudCk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IENhbGN1bGF0ZXMgdGhlIGFtb3VudCBvZiBldGhlciB0aGF0IGhhcyBhbHJlYWR5IHZlc3RlZC4gRGVmYXVsdCBpbXBsZW1lbnRhdGlvbiBpcyBhIGxpbmVhciB2ZXN0aW5nIGN1cnZlLgogICAgICovCiAgICBmdW5jdGlvbiB2ZXN0ZWRBbW91bnQodWludDY0IHRpbWVzdGFtcCkgcHVibGljIHZpZXcgdmlydHVhbCByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgcmV0dXJuIF92ZXN0aW5nU2NoZWR1bGUoYWRkcmVzcyh0aGlzKS5iYWxhbmNlICsgcmVsZWFzZWQoKSwgdGltZXN0YW1wKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgQ2FsY3VsYXRlcyB0aGUgYW1vdW50IG9mIHRva2VucyB0aGF0IGhhcyBhbHJlYWR5IHZlc3RlZC4gRGVmYXVsdCBpbXBsZW1lbnRhdGlvbiBpcyBhIGxpbmVhciB2ZXN0aW5nIGN1cnZlLgogICAgICovCiAgICBmdW5jdGlvbiB2ZXN0ZWRBbW91bnQoYWRkcmVzcyB0b2tlbiwgdWludDY0IHRpbWVzdGFtcCkgcHVibGljIHZpZXcgdmlydHVhbCByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgcmV0dXJuIF92ZXN0aW5nU2NoZWR1bGUoSUVSQzIwKHRva2VuKS5iYWxhbmNlT2YoYWRkcmVzcyh0aGlzKSkgKyByZWxlYXNlZCh0b2tlbiksIHRpbWVzdGFtcCk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFZpcnR1YWwgaW1wbGVtZW50YXRpb24gb2YgdGhlIHZlc3RpbmcgZm9ybXVsYS4gVGhpcyByZXR1cm5zIHRoZSBhbW91bnQgdmVzdGVkLCBhcyBhIGZ1bmN0aW9uIG9mIHRpbWUsIGZvcgogICAgICogYW4gYXNzZXQgZ2l2ZW4gaXRzIHRvdGFsIGhpc3RvcmljYWwgYWxsb2NhdGlvbi4KICAgICAqLwogICAgZnVuY3Rpb24gX3Zlc3RpbmdTY2hlZHVsZSh1aW50MjU2IHRvdGFsQWxsb2NhdGlvbiwgdWludDY0IHRpbWVzdGFtcCkgaW50ZXJuYWwgdmlldyB2aXJ0dWFsIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICBpZiAodGltZXN0YW1wIDwgc3RhcnQoKSkgewogICAgICAgICAgICByZXR1cm4gMDsKICAgICAgICB9IGVsc2UgaWYgKHRpbWVzdGFtcCA+PSBlbmQoKSkgewogICAgICAgICAgICByZXR1cm4gdG90YWxBbGxvY2F0aW9uOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHJldHVybiAodG90YWxBbGxvY2F0aW9uICogKHRpbWVzdGFtcCAtIHN0YXJ0KCkpKSAvIGR1cmF0aW9uKCk7CiAgICAgICAgfQogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (finance/VestingWallet.sol)
+pragma solidity ^0.8.20;
+
+import {IERC20} from "../token/ERC20/IERC20.sol";
+import {SafeERC20} from "../token/ERC20/utils/SafeERC20.sol";
+import {Address} from "../utils/Address.sol";
+import {Context} from "../utils/Context.sol";
+import {Ownable} from "../access/Ownable.sol";
+
+/**
+ * @dev A vesting wallet is an ownable contract that can receive native currency and ERC-20 tokens, and release these
+ * assets to the wallet owner, also referred to as "beneficiary", according to a vesting schedule.
+ *
+ * Any assets transferred to this contract will follow the vesting schedule as if they were locked from the beginning.
+ * Consequently, if the vesting has already started, any amount of tokens sent to this contract will (at least partly)
+ * be immediately releasable.
+ *
+ * By setting the duration to 0, one can configure this contract to behave like an asset timelock that hold tokens for
+ * a beneficiary until a specified time.
+ *
+ * NOTE: Since the wallet is {Ownable}, and ownership can be transferred, it is possible to sell unvested tokens.
+ * Preventing this in a smart contract is difficult, considering that: 1) a beneficiary address could be a
+ * counterfactually deployed contract, 2) there is likely to be a migration path for EOAs to become contracts in the
+ * near future.
+ *
+ * NOTE: When using this contract with any token whose balance is adjusted automatically (i.e. a rebase token), make
+ * sure to account the supply/balance adjustment in the vesting schedule to ensure the vested amount is as intended.
+ */
+contract VestingWallet is Context, Ownable {
+    event EtherReleased(uint256 amount);
+    event ERC20Released(address indexed token, uint256 amount);
+
+    uint256 private _released;
+    mapping(address token => uint256) private _erc20Released;
+    uint64 private immutable _start;
+    uint64 private immutable _duration;
+
+    /**
+     * @dev Sets the beneficiary (owner), the start timestamp and the vesting duration (in seconds) of the vesting
+     * wallet.
+     */
+    constructor(address beneficiary, uint64 startTimestamp, uint64 durationSeconds) payable Ownable(beneficiary) {
+        _start = startTimestamp;
+        _duration = durationSeconds;
+    }
+
+    /**
+     * @dev The contract should be able to receive Eth.
+     */
+    receive() external payable virtual {}
+
+    /**
+     * @dev Getter for the start timestamp.
+     */
+    function start() public view virtual returns (uint256) {
+        return _start;
+    }
+
+    /**
+     * @dev Getter for the vesting duration.
+     */
+    function duration() public view virtual returns (uint256) {
+        return _duration;
+    }
+
+    /**
+     * @dev Getter for the end timestamp.
+     */
+    function end() public view virtual returns (uint256) {
+        return start() + duration();
+    }
+
+    /**
+     * @dev Amount of eth already released
+     */
+    function released() public view virtual returns (uint256) {
+        return _released;
+    }
+
+    /**
+     * @dev Amount of token already released
+     */
+    function released(address token) public view virtual returns (uint256) {
+        return _erc20Released[token];
+    }
+
+    /**
+     * @dev Getter for the amount of releasable eth.
+     */
+    function releasable() public view virtual returns (uint256) {
+        return vestedAmount(uint64(block.timestamp)) - released();
+    }
+
+    /**
+     * @dev Getter for the amount of releasable `token` tokens. `token` should be the address of an
+     * {IERC20} contract.
+     */
+    function releasable(address token) public view virtual returns (uint256) {
+        return vestedAmount(token, uint64(block.timestamp)) - released(token);
+    }
+
+    /**
+     * @dev Release the native token (ether) that have already vested.
+     *
+     * Emits a {EtherReleased} event.
+     */
+    function release() public virtual {
+        uint256 amount = releasable();
+        _released += amount;
+        emit EtherReleased(amount);
+        Address.sendValue(payable(owner()), amount);
+    }
+
+    /**
+     * @dev Release the tokens that have already vested.
+     *
+     * Emits a {ERC20Released} event.
+     */
+    function release(address token) public virtual {
+        uint256 amount = releasable(token);
+        _erc20Released[token] += amount;
+        emit ERC20Released(token, amount);
+        SafeERC20.safeTransfer(IERC20(token), owner(), amount);
+    }
+
+    /**
+     * @dev Calculates the amount of ether that has already vested. Default implementation is a linear vesting curve.
+     */
+    function vestedAmount(uint64 timestamp) public view virtual returns (uint256) {
+        return _vestingSchedule(address(this).balance + released(), timestamp);
+    }
+
+    /**
+     * @dev Calculates the amount of tokens that has already vested. Default implementation is a linear vesting curve.
+     */
+    function vestedAmount(address token, uint64 timestamp) public view virtual returns (uint256) {
+        return _vestingSchedule(IERC20(token).balanceOf(address(this)) + released(token), timestamp);
+    }
+
+    /**
+     * @dev Virtual implementation of the vesting formula. This returns the amount vested, as a function of time, for
+     * an asset given its total historical allocation.
+     */
+    function _vestingSchedule(uint256 totalAllocation, uint64 timestamp) internal view virtual returns (uint256) {
+        if (timestamp < start()) {
+            return 0;
+        } else if (timestamp >= end()) {
+            return totalAllocation;
+        } else {
+            return (totalAllocation * (timestamp - start())) / duration();
+        }
+    }
+}
