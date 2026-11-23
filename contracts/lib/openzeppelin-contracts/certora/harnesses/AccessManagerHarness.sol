@@ -1,1 +1,116 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQgIi4uL3BhdGNoZWQvYWNjZXNzL21hbmFnZXIvQWNjZXNzTWFuYWdlci5zb2wiOwoKY29udHJhY3QgQWNjZXNzTWFuYWdlckhhcm5lc3MgaXMgQWNjZXNzTWFuYWdlciB7CiAgICAvLyBvdmVycmlkZSB3aXRoIGEgc3RvcmFnZSBzbG90IHRoYXQgY2FuIGJhc2ljYWxseSB0YWtlIGFueSB2YWx1ZS4KICAgIHVpbnQzMiBwcml2YXRlIF9taW5TZXRiYWNrOwoKICAgIGNvbnN0cnVjdG9yKGFkZHJlc3MgaW5pdGlhbEFkbWluKSBBY2Nlc3NNYW5hZ2VyKGluaXRpYWxBZG1pbikge30KCiAgICAvLyBGVgogICAgZnVuY3Rpb24gbWluU2V0YmFjaygpIHB1YmxpYyB2aWV3IG92ZXJyaWRlIHJldHVybnMgKHVpbnQzMikgewogICAgICAgIHJldHVybiBfbWluU2V0YmFjazsKICAgIH0KCiAgICBmdW5jdGlvbiBjYW5DYWxsX2ltbWVkaWF0ZShhZGRyZXNzIGNhbGxlciwgYWRkcmVzcyB0YXJnZXQsIGJ5dGVzNCBzZWxlY3RvcikgZXh0ZXJuYWwgdmlldyByZXR1cm5zIChib29sIHJlc3VsdCkgewogICAgICAgIChyZXN1bHQsKSA9IGNhbkNhbGwoY2FsbGVyLCB0YXJnZXQsIHNlbGVjdG9yKTsKICAgIH0KCiAgICBmdW5jdGlvbiBjYW5DYWxsX2RlbGF5KGFkZHJlc3MgY2FsbGVyLCBhZGRyZXNzIHRhcmdldCwgYnl0ZXM0IHNlbGVjdG9yKSBleHRlcm5hbCB2aWV3IHJldHVybnMgKHVpbnQzMiByZXN1bHQpIHsKICAgICAgICAoLHJlc3VsdCkgPSBjYW5DYWxsKGNhbGxlciwgdGFyZ2V0LCBzZWxlY3Rvcik7CiAgICB9CgogICAgZnVuY3Rpb24gY2FuQ2FsbEV4dGVuZGVkKGFkZHJlc3MgY2FsbGVyLCBhZGRyZXNzIHRhcmdldCwgYnl0ZXMgY2FsbGRhdGEgZGF0YSkgZXh0ZXJuYWwgdmlldyByZXR1cm5zIChib29sLCB1aW50MzIpIHsKICAgICAgICByZXR1cm4gX2NhbkNhbGxFeHRlbmRlZChjYWxsZXIsIHRhcmdldCwgZGF0YSk7CiAgICB9CgogICAgZnVuY3Rpb24gY2FuQ2FsbEV4dGVuZGVkX2ltbWVkaWF0ZShhZGRyZXNzIGNhbGxlciwgYWRkcmVzcyB0YXJnZXQsIGJ5dGVzIGNhbGxkYXRhIGRhdGEpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAoYm9vbCByZXN1bHQpIHsKICAgICAgICAocmVzdWx0LCkgPSBfY2FuQ2FsbEV4dGVuZGVkKGNhbGxlciwgdGFyZ2V0LCBkYXRhKTsKICAgIH0KCiAgICBmdW5jdGlvbiBjYW5DYWxsRXh0ZW5kZWRfZGVsYXkoYWRkcmVzcyBjYWxsZXIsIGFkZHJlc3MgdGFyZ2V0LCBieXRlcyBjYWxsZGF0YSBkYXRhKSBleHRlcm5hbCB2aWV3IHJldHVybnMgKHVpbnQzMiByZXN1bHQpIHsKICAgICAgICAoLHJlc3VsdCkgPSBfY2FuQ2FsbEV4dGVuZGVkKGNhbGxlciwgdGFyZ2V0LCBkYXRhKTsKICAgIH0KCiAgICBmdW5jdGlvbiBnZXRBZG1pblJlc3RyaWN0aW9uc19yZXN0cmljdGVkKGJ5dGVzIGNhbGxkYXRhIGRhdGEpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAoYm9vbCByZXN1bHQpIHsKICAgICAgICAocmVzdWx0LCwpID0gX2dldEFkbWluUmVzdHJpY3Rpb25zKGRhdGEpOwogICAgfQoKICAgIGZ1bmN0aW9uIGdldEFkbWluUmVzdHJpY3Rpb25zX3JvbGVBZG1pbklkKGJ5dGVzIGNhbGxkYXRhIGRhdGEpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAodWludDY0IHJlc3VsdCkgewogICAgICAgICgscmVzdWx0LCkgPSBfZ2V0QWRtaW5SZXN0cmljdGlvbnMoZGF0YSk7CiAgICB9CgogICAgZnVuY3Rpb24gZ2V0QWRtaW5SZXN0cmljdGlvbnNfZXhlY3V0aW9uRGVsYXkoYnl0ZXMgY2FsbGRhdGEgZGF0YSkgZXh0ZXJuYWwgdmlldyByZXR1cm5zICh1aW50MzIgcmVzdWx0KSB7CiAgICAgICAgKCwscmVzdWx0KSA9IF9nZXRBZG1pblJlc3RyaWN0aW9ucyhkYXRhKTsKICAgIH0KCiAgICBmdW5jdGlvbiBoYXNSb2xlX2lzTWVtYmVyKHVpbnQ2NCByb2xlSWQsIGFkZHJlc3MgYWNjb3VudCkgZXh0ZXJuYWwgdmlldyByZXR1cm5zIChib29sIHJlc3VsdCkgewogICAgICAgIChyZXN1bHQsKSA9IGhhc1JvbGUocm9sZUlkLCBhY2NvdW50KTsKICAgIH0KCiAgICBmdW5jdGlvbiBoYXNSb2xlX2V4ZWN1dGlvbkRlbGF5KHVpbnQ2NCByb2xlSWQsIGFkZHJlc3MgYWNjb3VudCkgZXh0ZXJuYWwgdmlldyByZXR1cm5zICh1aW50MzIgcmVzdWx0KSB7CiAgICAgICAgKCxyZXN1bHQpID0gaGFzUm9sZShyb2xlSWQsIGFjY291bnQpOwogICAgfQoKICAgIGZ1bmN0aW9uIGdldEFjY2Vzc19zaW5jZSh1aW50NjQgcm9sZUlkLCBhZGRyZXNzIGFjY291bnQpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAodWludDQ4IHJlc3VsdCkgewogICAgICAgIChyZXN1bHQsLCwpID0gZ2V0QWNjZXNzKHJvbGVJZCwgYWNjb3VudCk7CiAgICB9CgogICAgZnVuY3Rpb24gZ2V0QWNjZXNzX2N1cnJlbnREZWxheSh1aW50NjQgcm9sZUlkLCBhZGRyZXNzIGFjY291bnQpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAodWludDMyIHJlc3VsdCkgewogICAgICAgICgscmVzdWx0LCwpID0gZ2V0QWNjZXNzKHJvbGVJZCwgYWNjb3VudCk7CiAgICB9CgogICAgZnVuY3Rpb24gZ2V0QWNjZXNzX3BlbmRpbmdEZWxheSh1aW50NjQgcm9sZUlkLCBhZGRyZXNzIGFjY291bnQpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAodWludDMyIHJlc3VsdCkgewogICAgICAgICgsLHJlc3VsdCwpID0gZ2V0QWNjZXNzKHJvbGVJZCwgYWNjb3VudCk7CiAgICB9CgogICAgZnVuY3Rpb24gZ2V0QWNjZXNzX2VmZmVjdCh1aW50NjQgcm9sZUlkLCBhZGRyZXNzIGFjY291bnQpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAodWludDQ4IHJlc3VsdCkgewogICAgICAgICgsLCxyZXN1bHQpID0gZ2V0QWNjZXNzKHJvbGVJZCwgYWNjb3VudCk7CiAgICB9CgogICAgZnVuY3Rpb24gZ2V0VGFyZ2V0QWRtaW5EZWxheV9hZnRlcihhZGRyZXNzIHRhcmdldCkgcHVibGljIHZpZXcgdmlydHVhbCByZXR1cm5zICh1aW50MzIgcmVzdWx0KSB7CiAgICAgICAgKCxyZXN1bHQsKSA9IF9nZXRUYXJnZXRBZG1pbkRlbGF5RnVsbCh0YXJnZXQpOwogICAgfQoKICAgIGZ1bmN0aW9uIGdldFRhcmdldEFkbWluRGVsYXlfZWZmZWN0KGFkZHJlc3MgdGFyZ2V0KSBwdWJsaWMgdmlldyB2aXJ0dWFsIHJldHVybnMgKHVpbnQ0OCByZXN1bHQpIHsKICAgICAgICAoLCxyZXN1bHQpID0gX2dldFRhcmdldEFkbWluRGVsYXlGdWxsKHRhcmdldCk7CiAgICB9CgogICAgZnVuY3Rpb24gZ2V0Um9sZUdyYW50RGVsYXlfYWZ0ZXIodWludDY0IHJvbGVJZCkgcHVibGljIHZpZXcgdmlydHVhbCByZXR1cm5zICh1aW50MzIgcmVzdWx0KSB7CiAgICAgICAgKCxyZXN1bHQsKSA9IF9nZXRSb2xlR3JhbnREZWxheUZ1bGwocm9sZUlkKTsKICAgIH0KCiAgICBmdW5jdGlvbiBnZXRSb2xlR3JhbnREZWxheV9lZmZlY3QodWludDY0IHJvbGVJZCkgcHVibGljIHZpZXcgdmlydHVhbCByZXR1cm5zICh1aW50NDggcmVzdWx0KSB7CiAgICAgICAgKCwscmVzdWx0KSA9IF9nZXRSb2xlR3JhbnREZWxheUZ1bGwocm9sZUlkKTsKICAgIH0KCiAgICBmdW5jdGlvbiBoYXNoRXhlY3V0aW9uSWQoYWRkcmVzcyB0YXJnZXQsIGJ5dGVzNCBzZWxlY3RvcikgZXh0ZXJuYWwgcHVyZSByZXR1cm5zIChieXRlczMyKSB7CiAgICAgICAgcmV0dXJuIF9oYXNoRXhlY3V0aW9uSWQodGFyZ2V0LCBzZWxlY3Rvcik7CiAgICB9CgogICAgZnVuY3Rpb24gZXhlY3V0aW9uSWQoKSBleHRlcm5hbCB2aWV3IHJldHVybnMgKGJ5dGVzMzIpIHsKICAgICAgICByZXR1cm4gX2V4ZWN1dGlvbklkOwogICAgfQoKICAgIC8vIFBhZCB3aXRoIHplcm9zIChhbmQgZG9uJ3QgcmV2ZXJ0KSBpZiBkYXRhIGlzIHRvbyBzaG9ydC4KICAgIGZ1bmN0aW9uIGdldFNlbGVjdG9yKGJ5dGVzIGNhbGxkYXRhIGRhdGEpIGV4dGVybmFsIHB1cmUgcmV0dXJucyAoYnl0ZXM0KSB7CiAgICAgICAgcmV0dXJuIGJ5dGVzNChkYXRhKTsKICAgIH0KCiAgICBmdW5jdGlvbiBnZXRGaXJzdEFyZ3VtZW50QXNBZGRyZXNzKGJ5dGVzIGNhbGxkYXRhIGRhdGEpIGV4dGVybmFsIHB1cmUgcmV0dXJucyAoYWRkcmVzcykgewogICAgICAgIHJldHVybiBhYmkuZGVjb2RlKGRhdGFbMHgwNDoweDI0XSwgKGFkZHJlc3MpKTsKICAgIH0KCiAgICBmdW5jdGlvbiBnZXRGaXJzdEFyZ3VtZW50QXNVaW50NjQoYnl0ZXMgY2FsbGRhdGEgZGF0YSkgZXh0ZXJuYWwgcHVyZSByZXR1cm5zICh1aW50NjQpIHsKICAgICAgICByZXR1cm4gYWJpLmRlY29kZShkYXRhWzB4MDQ6MHgyNF0sICh1aW50NjQpKTsKICAgIH0KCiAgICBmdW5jdGlvbiBfY2hlY2tBdXRob3JpemVkKCkgaW50ZXJuYWwgb3ZlcnJpZGUgewogICAgICAgIC8vIFdlIG5lZWQgdGhpcyBoYWNrIG90aGVyd2lzZSBjZXJ0b3JhIHdpbGwgYXNzdW1lIF9jaGVja1NlbGVjdG9yKF9tc2dEYXRhKCkpIGNhbiByZXR1cm4gYW55dGhpbmcgOi8KICAgICAgICByZXF1aXJlKG1zZy5zaWcgPT0gX2NoZWNrU2VsZWN0b3IoX21zZ0RhdGEoKSkpOwogICAgICAgIHN1cGVyLl9jaGVja0F1dGhvcml6ZWQoKTsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import "../patched/access/manager/AccessManager.sol";
+
+contract AccessManagerHarness is AccessManager {
+    // override with a storage slot that can basically take any value.
+    uint32 private _minSetback;
+
+    constructor(address initialAdmin) AccessManager(initialAdmin) {}
+
+    // FV
+    function minSetback() public view override returns (uint32) {
+        return _minSetback;
+    }
+
+    function canCall_immediate(address caller, address target, bytes4 selector) external view returns (bool result) {
+        (result,) = canCall(caller, target, selector);
+    }
+
+    function canCall_delay(address caller, address target, bytes4 selector) external view returns (uint32 result) {
+        (,result) = canCall(caller, target, selector);
+    }
+
+    function canCallExtended(address caller, address target, bytes calldata data) external view returns (bool, uint32) {
+        return _canCallExtended(caller, target, data);
+    }
+
+    function canCallExtended_immediate(address caller, address target, bytes calldata data) external view returns (bool result) {
+        (result,) = _canCallExtended(caller, target, data);
+    }
+
+    function canCallExtended_delay(address caller, address target, bytes calldata data) external view returns (uint32 result) {
+        (,result) = _canCallExtended(caller, target, data);
+    }
+
+    function getAdminRestrictions_restricted(bytes calldata data) external view returns (bool result) {
+        (result,,) = _getAdminRestrictions(data);
+    }
+
+    function getAdminRestrictions_roleAdminId(bytes calldata data) external view returns (uint64 result) {
+        (,result,) = _getAdminRestrictions(data);
+    }
+
+    function getAdminRestrictions_executionDelay(bytes calldata data) external view returns (uint32 result) {
+        (,,result) = _getAdminRestrictions(data);
+    }
+
+    function hasRole_isMember(uint64 roleId, address account) external view returns (bool result) {
+        (result,) = hasRole(roleId, account);
+    }
+
+    function hasRole_executionDelay(uint64 roleId, address account) external view returns (uint32 result) {
+        (,result) = hasRole(roleId, account);
+    }
+
+    function getAccess_since(uint64 roleId, address account) external view returns (uint48 result) {
+        (result,,,) = getAccess(roleId, account);
+    }
+
+    function getAccess_currentDelay(uint64 roleId, address account) external view returns (uint32 result) {
+        (,result,,) = getAccess(roleId, account);
+    }
+
+    function getAccess_pendingDelay(uint64 roleId, address account) external view returns (uint32 result) {
+        (,,result,) = getAccess(roleId, account);
+    }
+
+    function getAccess_effect(uint64 roleId, address account) external view returns (uint48 result) {
+        (,,,result) = getAccess(roleId, account);
+    }
+
+    function getTargetAdminDelay_after(address target) public view virtual returns (uint32 result) {
+        (,result,) = _getTargetAdminDelayFull(target);
+    }
+
+    function getTargetAdminDelay_effect(address target) public view virtual returns (uint48 result) {
+        (,,result) = _getTargetAdminDelayFull(target);
+    }
+
+    function getRoleGrantDelay_after(uint64 roleId) public view virtual returns (uint32 result) {
+        (,result,) = _getRoleGrantDelayFull(roleId);
+    }
+
+    function getRoleGrantDelay_effect(uint64 roleId) public view virtual returns (uint48 result) {
+        (,,result) = _getRoleGrantDelayFull(roleId);
+    }
+
+    function hashExecutionId(address target, bytes4 selector) external pure returns (bytes32) {
+        return _hashExecutionId(target, selector);
+    }
+
+    function executionId() external view returns (bytes32) {
+        return _executionId;
+    }
+
+    // Pad with zeros (and don't revert) if data is too short.
+    function getSelector(bytes calldata data) external pure returns (bytes4) {
+        return bytes4(data);
+    }
+
+    function getFirstArgumentAsAddress(bytes calldata data) external pure returns (address) {
+        return abi.decode(data[0x04:0x24], (address));
+    }
+
+    function getFirstArgumentAsUint64(bytes calldata data) external pure returns (uint64) {
+        return abi.decode(data[0x04:0x24], (uint64));
+    }
+
+    function _checkAuthorized() internal override {
+        // We need this hack otherwise certora will assume _checkSelector(_msgData()) can return anything :/
+        require(msg.sig == _checkSelector(_msgData()));
+        super._checkAuthorized();
+    }
+}
