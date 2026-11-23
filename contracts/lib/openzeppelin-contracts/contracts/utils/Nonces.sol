@@ -1,1 +1,46 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMC4wKSAodXRpbHMvTm9uY2VzLnNvbCkKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgovKioKICogQGRldiBQcm92aWRlcyB0cmFja2luZyBub25jZXMgZm9yIGFkZHJlc3Nlcy4gTm9uY2VzIHdpbGwgb25seSBpbmNyZW1lbnQuCiAqLwphYnN0cmFjdCBjb250cmFjdCBOb25jZXMgewogICAgLyoqCiAgICAgKiBAZGV2IFRoZSBub25jZSB1c2VkIGZvciBhbiBgYWNjb3VudGAgaXMgbm90IHRoZSBleHBlY3RlZCBjdXJyZW50IG5vbmNlLgogICAgICovCiAgICBlcnJvciBJbnZhbGlkQWNjb3VudE5vbmNlKGFkZHJlc3MgYWNjb3VudCwgdWludDI1NiBjdXJyZW50Tm9uY2UpOwoKICAgIG1hcHBpbmcoYWRkcmVzcyBhY2NvdW50ID0+IHVpbnQyNTYpIHByaXZhdGUgX25vbmNlczsKCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyB0aGUgbmV4dCB1bnVzZWQgbm9uY2UgZm9yIGFuIGFkZHJlc3MuCiAgICAgKi8KICAgIGZ1bmN0aW9uIG5vbmNlcyhhZGRyZXNzIG93bmVyKSBwdWJsaWMgdmlldyB2aXJ0dWFsIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXR1cm4gX25vbmNlc1tvd25lcl07CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IENvbnN1bWVzIGEgbm9uY2UuCiAgICAgKgogICAgICogUmV0dXJucyB0aGUgY3VycmVudCB2YWx1ZSBhbmQgaW5jcmVtZW50cyBub25jZS4KICAgICAqLwogICAgZnVuY3Rpb24gX3VzZU5vbmNlKGFkZHJlc3Mgb3duZXIpIGludGVybmFsIHZpcnR1YWwgcmV0dXJucyAodWludDI1NikgewogICAgICAgIC8vIEZvciBlYWNoIGFjY291bnQsIHRoZSBub25jZSBoYXMgYW4gaW5pdGlhbCB2YWx1ZSBvZiAwLCBjYW4gb25seSBiZSBpbmNyZW1lbnRlZCBieSBvbmUsIGFuZCBjYW5ub3QgYmUKICAgICAgICAvLyBkZWNyZW1lbnRlZCBvciByZXNldC4gVGhpcyBndWFyYW50ZWVzIHRoYXQgdGhlIG5vbmNlIG5ldmVyIG92ZXJmbG93cy4KICAgICAgICB1bmNoZWNrZWQgewogICAgICAgICAgICAvLyBJdCBpcyBpbXBvcnRhbnQgdG8gZG8geCsrIGFuZCBub3QgKyt4IGhlcmUuCiAgICAgICAgICAgIHJldHVybiBfbm9uY2VzW293bmVyXSsrOwogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgU2FtZSBhcyB7X3VzZU5vbmNlfSBidXQgY2hlY2tpbmcgdGhhdCBgbm9uY2VgIGlzIHRoZSBuZXh0IHZhbGlkIGZvciBgb3duZXJgLgogICAgICovCiAgICBmdW5jdGlvbiBfdXNlQ2hlY2tlZE5vbmNlKGFkZHJlc3Mgb3duZXIsIHVpbnQyNTYgbm9uY2UpIGludGVybmFsIHZpcnR1YWwgewogICAgICAgIHVpbnQyNTYgY3VycmVudCA9IF91c2VOb25jZShvd25lcik7CiAgICAgICAgaWYgKG5vbmNlICE9IGN1cnJlbnQpIHsKICAgICAgICAgICAgcmV2ZXJ0IEludmFsaWRBY2NvdW50Tm9uY2Uob3duZXIsIGN1cnJlbnQpOwogICAgICAgIH0KICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.0.0) (utils/Nonces.sol)
+pragma solidity ^0.8.20;
+
+/**
+ * @dev Provides tracking nonces for addresses. Nonces will only increment.
+ */
+abstract contract Nonces {
+    /**
+     * @dev The nonce used for an `account` is not the expected current nonce.
+     */
+    error InvalidAccountNonce(address account, uint256 currentNonce);
+
+    mapping(address account => uint256) private _nonces;
+
+    /**
+     * @dev Returns the next unused nonce for an address.
+     */
+    function nonces(address owner) public view virtual returns (uint256) {
+        return _nonces[owner];
+    }
+
+    /**
+     * @dev Consumes a nonce.
+     *
+     * Returns the current value and increments nonce.
+     */
+    function _useNonce(address owner) internal virtual returns (uint256) {
+        // For each account, the nonce has an initial value of 0, can only be incremented by one, and cannot be
+        // decremented or reset. This guarantees that the nonce never overflows.
+        unchecked {
+            // It is important to do x++ and not ++x here.
+            return _nonces[owner]++;
+        }
+    }
+
+    /**
+     * @dev Same as {_useNonce} but checking that `nonce` is the next valid for `owner`.
+     */
+    function _useCheckedNonce(address owner, uint256 nonce) internal virtual {
+        uint256 current = _useNonce(owner);
+        if (nonce != current) {
+            revert InvalidAccountNonce(owner, current);
+        }
+    }
+}
