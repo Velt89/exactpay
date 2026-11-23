@@ -1,1 +1,19 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0Jhc2U2NH0gZnJvbSAiLi4vdXRpbHMvQmFzZTY0LnNvbCI7Cgpjb250cmFjdCBCYXNlNjREaXJ0eSB7CiAgICBzdHJ1Y3QgQSB7CiAgICAgICAgdWludDI1NiB2YWx1ZTsKICAgIH0KCiAgICBmdW5jdGlvbiBlbmNvZGUoYnl0ZXMgbWVtb3J5IGlucHV0KSBwdWJsaWMgcHVyZSByZXR1cm5zIChzdHJpbmcgbWVtb3J5KSB7CiAgICAgICAgQSBtZW1vcnkgdW51c2VkID0gQSh7dmFsdWU6IHR5cGUodWludDI1NikubWF4fSk7CiAgICAgICAgLy8gVG8gc2lsZW5jZSB3YXJuaW5nCiAgICAgICAgdW51c2VkOwoKICAgICAgICByZXR1cm4gQmFzZTY0LmVuY29kZShpbnB1dCk7CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {Base64} from "../utils/Base64.sol";
+
+contract Base64Dirty {
+    struct A {
+        uint256 value;
+    }
+
+    function encode(bytes memory input) public pure returns (string memory) {
+        A memory unused = A({value: type(uint256).max});
+        // To silence warning
+        unused;
+
+        return Base64.encode(input);
+    }
+}
