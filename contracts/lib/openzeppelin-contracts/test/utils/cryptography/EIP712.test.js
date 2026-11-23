@@ -1,1 +1,105 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKY29uc3QgeyBnZXREb21haW4sIGRvbWFpblNlcGFyYXRvciwgaGFzaFR5cGVkRGF0YSB9ID0gcmVxdWlyZSgnLi4vLi4vaGVscGVycy9laXA3MTInKTsKY29uc3QgeyBmb3JtYXRUeXBlIH0gPSByZXF1aXJlKCcuLi8uLi9oZWxwZXJzL2VpcDcxMi10eXBlcycpOwoKY29uc3QgTEVOR1RIUyA9IHsKICBzaG9ydDogWydBIE5hbWUnLCAnMSddLAogIGxvbmc6IFsnQScucmVwZWF0KDQwKSwgJ0InLnJlcGVhdCg0MCldLAp9OwoKY29uc3QgZml4dHVyZSA9IGFzeW5jICgpID0+IHsKICBjb25zdCBbZnJvbSwgdG9dID0gYXdhaXQgZXRoZXJzLmdldFNpZ25lcnMoKTsKCiAgY29uc3QgbGVuZ3RocyA9IHt9OwogIGZvciAoY29uc3QgW3Nob3J0T3JMb25nLCBbbmFtZSwgdmVyc2lvbl1dIG9mIE9iamVjdC5lbnRyaWVzKExFTkdUSFMpKSB7CiAgICBsZW5ndGhzW3Nob3J0T3JMb25nXSA9IHsgbmFtZSwgdmVyc2lvbiB9OwogICAgbGVuZ3Roc1tzaG9ydE9yTG9uZ10uZWlwNzEyID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCckRUlQNzEyVmVyaWZpZXInLCBbbmFtZSwgdmVyc2lvbl0pOwogICAgbGVuZ3Roc1tzaG9ydE9yTG9uZ10uZG9tYWluID0gewogICAgICBuYW1lLAogICAgICB2ZXJzaW9uLAogICAgICBjaGFpbklkOiBhd2FpdCBldGhlcnMucHJvdmlkZXIuZ2V0TmV0d29yaygpLnRoZW4oKHsgY2hhaW5JZCB9KSA9PiBjaGFpbklkKSwKICAgICAgdmVyaWZ5aW5nQ29udHJhY3Q6IGxlbmd0aHNbc2hvcnRPckxvbmddLmVpcDcxMi50YXJnZXQsCiAgICB9OwogIH0KCiAgcmV0dXJuIHsgZnJvbSwgdG8sIGxlbmd0aHMgfTsKfTsKCmRlc2NyaWJlKCdFSVA3MTInLCBmdW5jdGlvbiAoKSB7CiAgZm9yIChjb25zdCBbc2hvcnRPckxvbmcsIFtuYW1lLCB2ZXJzaW9uXV0gb2YgT2JqZWN0LmVudHJpZXMoTEVOR1RIUykpIHsKICAgIGRlc2NyaWJlKGB3aXRoICR7c2hvcnRPckxvbmd9IG5hbWUgYW5kIHZlcnNpb25gLCBmdW5jdGlvbiAoKSB7CiAgICAgIGJlZm9yZUVhY2goJ2RlcGxveWluZycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBPYmplY3QuYXNzaWduKHRoaXMsIGF3YWl0IGxvYWRGaXh0dXJlKGZpeHR1cmUpKTsKICAgICAgICBPYmplY3QuYXNzaWduKHRoaXMsIHRoaXMubGVuZ3Roc1tzaG9ydE9yTG9uZ10pOwogICAgICB9KTsKCiAgICAgIGRlc2NyaWJlKCdkb21haW4gc2VwYXJhdG9yJywgZnVuY3Rpb24gKCkgewogICAgICAgIGl0KCdpcyBpbnRlcm5hbGx5IGF2YWlsYWJsZScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGNvbnN0IGV4cGVjdGVkID0gYXdhaXQgZG9tYWluU2VwYXJhdG9yKHRoaXMuZG9tYWluKTsKCiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5laXA3MTIuJF9kb21haW5TZXBhcmF0b3JWNCgpKS50by5lcXVhbChleHBlY3RlZCk7CiAgICAgICAgfSk7CgogICAgICAgIGl0KCJjYW4gYmUgcmVidWlsdCB1c2luZyBFSVAtNTI2NydzIGVpcDcxMkRvbWFpbiIsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGNvbnN0IHJlYnVpbGREb21haW4gPSBhd2FpdCBnZXREb21haW4odGhpcy5laXA3MTIpOwogICAgICAgICAgZXhwZWN0KHJlYnVpbGREb21haW4pLnRvLmJlLmRlZXAuZXF1YWwodGhpcy5kb21haW4pOwogICAgICAgIH0pOwoKICAgICAgICBpZiAoc2hvcnRPckxvbmcgPT09ICdzaG9ydCcpIHsKICAgICAgICAgIC8vIExvbmcgc3RyaW5ncyBhcmUgaW4gc3RvcmFnZSwgYW5kIHRoZSBwcm94eSB3aWxsIG5vdCBiZSBwcm9wZXJseSBpbml0aWFsaXplZCB1bmxlc3MKICAgICAgICAgIC8vIHRoZSB1cGdyYWRlYWJsZSBjb250cmFjdCB2YXJpYW50IGlzIHVzZWQgYW5kIHRoZSBpbml0aWFsaXplciBpcyBpbnZva2VkLgoKICAgICAgICAgIGl0KCdhZGp1c3RzIHdoZW4gYmVoaW5kIHByb3h5JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgICBjb25zdCBmYWN0b3J5ID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCckQ2xvbmVzJyk7CgogICAgICAgICAgICBjb25zdCBjbG9uZSA9IGF3YWl0IGZhY3RvcnkKICAgICAgICAgICAgICAuJGNsb25lKHRoaXMuZWlwNzEyKQogICAgICAgICAgICAgIC50aGVuKHR4ID0+IHR4LndhaXQoKSkKICAgICAgICAgICAgICAudGhlbihyZWNlaXB0ID0+IHJlY2VpcHQubG9ncy5maW5kKGV2ID0+IGV2LmZyYWdtZW50Lm5hbWUgPT0gJ3JldHVybiRjbG9uZV9hZGRyZXNzJykuYXJncy5pbnN0YW5jZSkKICAgICAgICAgICAgICAudGhlbihhZGRyZXNzID0+IGV0aGVycy5nZXRDb250cmFjdEF0KCckRUlQNzEyVmVyaWZpZXInLCBhZGRyZXNzKSk7CgogICAgICAgICAgICBjb25zdCBleHBlY3RlZERvbWFpbiA9IHsgLi4udGhpcy5kb21haW4sIHZlcmlmeWluZ0NvbnRyYWN0OiBjbG9uZS50YXJnZXQgfTsKICAgICAgICAgICAgZXhwZWN0KGF3YWl0IGdldERvbWFpbihjbG9uZSkpLnRvLmJlLmRlZXAuZXF1YWwoZXhwZWN0ZWREb21haW4pOwoKICAgICAgICAgICAgY29uc3QgZXhwZWN0ZWRTZXBhcmF0b3IgPSBhd2FpdCBkb21haW5TZXBhcmF0b3IoZXhwZWN0ZWREb21haW4pOwogICAgICAgICAgICBleHBlY3QoYXdhaXQgY2xvbmUuJF9kb21haW5TZXBhcmF0b3JWNCgpKS50by5lcXVhbChleHBlY3RlZFNlcGFyYXRvcik7CiAgICAgICAgICB9KTsKICAgICAgICB9CiAgICAgIH0pOwoKICAgICAgaXQoJ2hhc2ggZGlnZXN0JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGNvbnN0IHN0cnVjdGhhc2ggPSBldGhlcnMuaGV4bGlmeShldGhlcnMucmFuZG9tQnl0ZXMoMzIpKTsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5laXA3MTIuJF9oYXNoVHlwZWREYXRhVjQoc3RydWN0aGFzaCkpLnRvLmVxdWFsKGhhc2hUeXBlZERhdGEodGhpcy5kb21haW4sIHN0cnVjdGhhc2gpKTsKICAgICAgfSk7CgogICAgICBpdCgnZGlnZXN0JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGNvbnN0IHR5cGVzID0gewogICAgICAgICAgTWFpbDogZm9ybWF0VHlwZSh7CiAgICAgICAgICAgIHRvOiAnYWRkcmVzcycsCiAgICAgICAgICAgIGNvbnRlbnRzOiAnc3RyaW5nJywKICAgICAgICAgIH0pLAogICAgICAgIH07CgogICAgICAgIGNvbnN0IG1lc3NhZ2UgPSB7CiAgICAgICAgICB0bzogdGhpcy50by5hZGRyZXNzLAogICAgICAgICAgY29udGVudHM6ICd2ZXJ5IGludGVyZXN0aW5nJywKICAgICAgICB9OwoKICAgICAgICBjb25zdCBzaWduYXR1cmUgPSBhd2FpdCB0aGlzLmZyb20uc2lnblR5cGVkRGF0YSh0aGlzLmRvbWFpbiwgdHlwZXMsIG1lc3NhZ2UpOwoKICAgICAgICBhd2FpdCBleHBlY3QodGhpcy5laXA3MTIudmVyaWZ5KHNpZ25hdHVyZSwgdGhpcy5mcm9tLmFkZHJlc3MsIG1lc3NhZ2UudG8sIG1lc3NhZ2UuY29udGVudHMpKS50by5ub3QuYmUucmV2ZXJ0ZWQ7CiAgICAgIH0pOwoKICAgICAgaXQoJ25hbWUnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMuZWlwNzEyLiRfRUlQNzEyTmFtZSgpKS50by5lcXVhbChuYW1lKTsKICAgICAgfSk7CgogICAgICBpdCgndmVyc2lvbicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5laXA3MTIuJF9FSVA3MTJWZXJzaW9uKCkpLnRvLmVxdWFsKHZlcnNpb24pOwogICAgICB9KTsKICAgIH0pOwogIH0KfSk7Cg==
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+const { getDomain, domainSeparator, hashTypedData } = require('../../helpers/eip712');
+const { formatType } = require('../../helpers/eip712-types');
+
+const LENGTHS = {
+  short: ['A Name', '1'],
+  long: ['A'.repeat(40), 'B'.repeat(40)],
+};
+
+const fixture = async () => {
+  const [from, to] = await ethers.getSigners();
+
+  const lengths = {};
+  for (const [shortOrLong, [name, version]] of Object.entries(LENGTHS)) {
+    lengths[shortOrLong] = { name, version };
+    lengths[shortOrLong].eip712 = await ethers.deployContract('$EIP712Verifier', [name, version]);
+    lengths[shortOrLong].domain = {
+      name,
+      version,
+      chainId: await ethers.provider.getNetwork().then(({ chainId }) => chainId),
+      verifyingContract: lengths[shortOrLong].eip712.target,
+    };
+  }
+
+  return { from, to, lengths };
+};
+
+describe('EIP712', function () {
+  for (const [shortOrLong, [name, version]] of Object.entries(LENGTHS)) {
+    describe(`with ${shortOrLong} name and version`, function () {
+      beforeEach('deploying', async function () {
+        Object.assign(this, await loadFixture(fixture));
+        Object.assign(this, this.lengths[shortOrLong]);
+      });
+
+      describe('domain separator', function () {
+        it('is internally available', async function () {
+          const expected = await domainSeparator(this.domain);
+
+          expect(await this.eip712.$_domainSeparatorV4()).to.equal(expected);
+        });
+
+        it("can be rebuilt using EIP-5267's eip712Domain", async function () {
+          const rebuildDomain = await getDomain(this.eip712);
+          expect(rebuildDomain).to.be.deep.equal(this.domain);
+        });
+
+        if (shortOrLong === 'short') {
+          // Long strings are in storage, and the proxy will not be properly initialized unless
+          // the upgradeable contract variant is used and the initializer is invoked.
+
+          it('adjusts when behind proxy', async function () {
+            const factory = await ethers.deployContract('$Clones');
+
+            const clone = await factory
+              .$clone(this.eip712)
+              .then(tx => tx.wait())
+              .then(receipt => receipt.logs.find(ev => ev.fragment.name == 'return$clone_address').args.instance)
+              .then(address => ethers.getContractAt('$EIP712Verifier', address));
+
+            const expectedDomain = { ...this.domain, verifyingContract: clone.target };
+            expect(await getDomain(clone)).to.be.deep.equal(expectedDomain);
+
+            const expectedSeparator = await domainSeparator(expectedDomain);
+            expect(await clone.$_domainSeparatorV4()).to.equal(expectedSeparator);
+          });
+        }
+      });
+
+      it('hash digest', async function () {
+        const structhash = ethers.hexlify(ethers.randomBytes(32));
+        expect(await this.eip712.$_hashTypedDataV4(structhash)).to.equal(hashTypedData(this.domain, structhash));
+      });
+
+      it('digest', async function () {
+        const types = {
+          Mail: formatType({
+            to: 'address',
+            contents: 'string',
+          }),
+        };
+
+        const message = {
+          to: this.to.address,
+          contents: 'very interesting',
+        };
+
+        const signature = await this.from.signTypedData(this.domain, types, message);
+
+        await expect(this.eip712.verify(signature, this.from.address, message.to, message.contents)).to.not.be.reverted;
+      });
+
+      it('name', async function () {
+        expect(await this.eip712.$_EIP712Name()).to.equal(name);
+      });
+
+      it('version', async function () {
+        expect(await this.eip712.$_EIP712Version()).to.equal(version);
+      });
+    });
+  }
+});
