@@ -1,1 +1,122 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodXRpbHMvU2hvcnRTdHJpbmdzLnNvbCkKCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKaW1wb3J0IHtTdG9yYWdlU2xvdH0gZnJvbSAiLi9TdG9yYWdlU2xvdC5zb2wiOwoKLy8gfCBzdHJpbmcgIHwgMHhBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQSAgIHwKLy8gfCBsZW5ndGggIHwgMHggICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEJCIHwKdHlwZSBTaG9ydFN0cmluZyBpcyBieXRlczMyOwoKLyoqCiAqIEBkZXYgVGhpcyBsaWJyYXJ5IHByb3ZpZGVzIGZ1bmN0aW9ucyB0byBjb252ZXJ0IHNob3J0IG1lbW9yeSBzdHJpbmdzCiAqIGludG8gYSBgU2hvcnRTdHJpbmdgIHR5cGUgdGhhdCBjYW4gYmUgdXNlZCBhcyBhbiBpbW11dGFibGUgdmFyaWFibGUuCiAqCiAqIFN0cmluZ3Mgb2YgYXJiaXRyYXJ5IGxlbmd0aCBjYW4gYmUgb3B0aW1pemVkIHVzaW5nIHRoaXMgbGlicmFyeSBpZgogKiB0aGV5IGFyZSBzaG9ydCBlbm91Z2ggKHVwIHRvIDMxIGJ5dGVzKSBieSBwYWNraW5nIHRoZW0gd2l0aCB0aGVpcgogKiBsZW5ndGggKDEgYnl0ZSkgaW4gYSBzaW5nbGUgRVZNIHdvcmQgKDMyIGJ5dGVzKS4gQWRkaXRpb25hbGx5LCBhCiAqIGZhbGxiYWNrIG1lY2hhbmlzbSBjYW4gYmUgdXNlZCBmb3IgZXZlcnkgb3RoZXIgY2FzZS4KICoKICogVXNhZ2UgZXhhbXBsZToKICoKICogYGBgc29saWRpdHkKICogY29udHJhY3QgTmFtZWQgewogKiAgICAgdXNpbmcgU2hvcnRTdHJpbmdzIGZvciAqOwogKgogKiAgICAgU2hvcnRTdHJpbmcgcHJpdmF0ZSBpbW11dGFibGUgX25hbWU7CiAqICAgICBzdHJpbmcgcHJpdmF0ZSBfbmFtZUZhbGxiYWNrOwogKgogKiAgICAgY29uc3RydWN0b3Ioc3RyaW5nIG1lbW9yeSBjb250cmFjdE5hbWUpIHsKICogICAgICAgICBfbmFtZSA9IGNvbnRyYWN0TmFtZS50b1Nob3J0U3RyaW5nV2l0aEZhbGxiYWNrKF9uYW1lRmFsbGJhY2spOwogKiAgICAgfQogKgogKiAgICAgZnVuY3Rpb24gbmFtZSgpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAoc3RyaW5nIG1lbW9yeSkgewogKiAgICAgICAgIHJldHVybiBfbmFtZS50b1N0cmluZ1dpdGhGYWxsYmFjayhfbmFtZUZhbGxiYWNrKTsKICogICAgIH0KICogfQogKiBgYGAKICovCmxpYnJhcnkgU2hvcnRTdHJpbmdzIHsKICAgIC8vIFVzZWQgYXMgYW4gaWRlbnRpZmllciBmb3Igc3RyaW5ncyBsb25nZXIgdGhhbiAzMSBieXRlcy4KICAgIGJ5dGVzMzIgcHJpdmF0ZSBjb25zdGFudCBGQUxMQkFDS19TRU5USU5FTCA9IDB4MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDBGRjsKCiAgICBlcnJvciBTdHJpbmdUb29Mb25nKHN0cmluZyBzdHIpOwogICAgZXJyb3IgSW52YWxpZFNob3J0U3RyaW5nKCk7CgogICAgLyoqCiAgICAgKiBAZGV2IEVuY29kZSBhIHN0cmluZyBvZiBhdCBtb3N0IDMxIGNoYXJzIGludG8gYSBgU2hvcnRTdHJpbmdgLgogICAgICoKICAgICAqIFRoaXMgd2lsbCB0cmlnZ2VyIGEgYFN0cmluZ1Rvb0xvbmdgIGVycm9yIGlzIHRoZSBpbnB1dCBzdHJpbmcgaXMgdG9vIGxvbmcuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHRvU2hvcnRTdHJpbmcoc3RyaW5nIG1lbW9yeSBzdHIpIGludGVybmFsIHB1cmUgcmV0dXJucyAoU2hvcnRTdHJpbmcpIHsKICAgICAgICBieXRlcyBtZW1vcnkgYnN0ciA9IGJ5dGVzKHN0cik7CiAgICAgICAgaWYgKGJzdHIubGVuZ3RoID4gMzEpIHsKICAgICAgICAgICAgcmV2ZXJ0IFN0cmluZ1Rvb0xvbmcoc3RyKTsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIFNob3J0U3RyaW5nLndyYXAoYnl0ZXMzMih1aW50MjU2KGJ5dGVzMzIoYnN0cikpIHwgYnN0ci5sZW5ndGgpKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgRGVjb2RlIGEgYFNob3J0U3RyaW5nYCBiYWNrIHRvIGEgIm5vcm1hbCIgc3RyaW5nLgogICAgICovCiAgICBmdW5jdGlvbiB0b1N0cmluZyhTaG9ydFN0cmluZyBzc3RyKSBpbnRlcm5hbCBwdXJlIHJldHVybnMgKHN0cmluZyBtZW1vcnkpIHsKICAgICAgICB1aW50MjU2IGxlbiA9IGJ5dGVMZW5ndGgoc3N0cik7CiAgICAgICAgLy8gdXNpbmcgYG5ldyBzdHJpbmcobGVuKWAgd291bGQgd29yayBsb2NhbGx5IGJ1dCBpcyBub3QgbWVtb3J5IHNhZmUuCiAgICAgICAgc3RyaW5nIG1lbW9yeSBzdHIgPSBuZXcgc3RyaW5nKDMyKTsKICAgICAgICBhc3NlbWJseSAoIm1lbW9yeS1zYWZlIikgewogICAgICAgICAgICBtc3RvcmUoc3RyLCBsZW4pCiAgICAgICAgICAgIG1zdG9yZShhZGQoc3RyLCAweDIwKSwgc3N0cikKICAgICAgICB9CiAgICAgICAgcmV0dXJuIHN0cjsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJuIHRoZSBsZW5ndGggb2YgYSBgU2hvcnRTdHJpbmdgLgogICAgICovCiAgICBmdW5jdGlvbiBieXRlTGVuZ3RoKFNob3J0U3RyaW5nIHNzdHIpIGludGVybmFsIHB1cmUgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHVpbnQyNTYgcmVzdWx0ID0gdWludDI1NihTaG9ydFN0cmluZy51bndyYXAoc3N0cikpICYgMHhGRjsKICAgICAgICBpZiAocmVzdWx0ID4gMzEpIHsKICAgICAgICAgICAgcmV2ZXJ0IEludmFsaWRTaG9ydFN0cmluZygpOwogICAgICAgIH0KICAgICAgICByZXR1cm4gcmVzdWx0OwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBFbmNvZGUgYSBzdHJpbmcgaW50byBhIGBTaG9ydFN0cmluZ2AsIG9yIHdyaXRlIGl0IHRvIHN0b3JhZ2UgaWYgaXQgaXMgdG9vIGxvbmcuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHRvU2hvcnRTdHJpbmdXaXRoRmFsbGJhY2soc3RyaW5nIG1lbW9yeSB2YWx1ZSwgc3RyaW5nIHN0b3JhZ2Ugc3RvcmUpIGludGVybmFsIHJldHVybnMgKFNob3J0U3RyaW5nKSB7CiAgICAgICAgaWYgKGJ5dGVzKHZhbHVlKS5sZW5ndGggPCAzMikgewogICAgICAgICAgICByZXR1cm4gdG9TaG9ydFN0cmluZyh2YWx1ZSk7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgU3RvcmFnZVNsb3QuZ2V0U3RyaW5nU2xvdChzdG9yZSkudmFsdWUgPSB2YWx1ZTsKICAgICAgICAgICAgcmV0dXJuIFNob3J0U3RyaW5nLndyYXAoRkFMTEJBQ0tfU0VOVElORUwpOwogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgRGVjb2RlIGEgc3RyaW5nIHRoYXQgd2FzIGVuY29kZWQgdG8gYFNob3J0U3RyaW5nYCBvciB3cml0dGVuIHRvIHN0b3JhZ2UgdXNpbmcge3NldFdpdGhGYWxsYmFja30uCiAgICAgKi8KICAgIGZ1bmN0aW9uIHRvU3RyaW5nV2l0aEZhbGxiYWNrKFNob3J0U3RyaW5nIHZhbHVlLCBzdHJpbmcgc3RvcmFnZSBzdG9yZSkgaW50ZXJuYWwgcHVyZSByZXR1cm5zIChzdHJpbmcgbWVtb3J5KSB7CiAgICAgICAgaWYgKFNob3J0U3RyaW5nLnVud3JhcCh2YWx1ZSkgIT0gRkFMTEJBQ0tfU0VOVElORUwpIHsKICAgICAgICAgICAgcmV0dXJuIHRvU3RyaW5nKHZhbHVlKTsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICByZXR1cm4gc3RvcmU7CiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICogQGRldiBSZXR1cm4gdGhlIGxlbmd0aCBvZiBhIHN0cmluZyB0aGF0IHdhcyBlbmNvZGVkIHRvIGBTaG9ydFN0cmluZ2Agb3Igd3JpdHRlbiB0byBzdG9yYWdlIHVzaW5nCiAgICAgKiB7c2V0V2l0aEZhbGxiYWNrfS4KICAgICAqCiAgICAgKiBXQVJOSU5HOiBUaGlzIHdpbGwgcmV0dXJuIHRoZSAiYnl0ZSBsZW5ndGgiIG9mIHRoZSBzdHJpbmcuIFRoaXMgbWF5IG5vdCByZWZsZWN0IHRoZSBhY3R1YWwgbGVuZ3RoIGluIHRlcm1zIG9mCiAgICAgKiBhY3R1YWwgY2hhcmFjdGVycyBhcyB0aGUgVVRGLTggZW5jb2Rpbmcgb2YgYSBzaW5nbGUgY2hhcmFjdGVyIGNhbiBzcGFuIG92ZXIgbXVsdGlwbGUgYnl0ZXMuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGJ5dGVMZW5ndGhXaXRoRmFsbGJhY2soU2hvcnRTdHJpbmcgdmFsdWUsIHN0cmluZyBzdG9yYWdlIHN0b3JlKSBpbnRlcm5hbCB2aWV3IHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICBpZiAoU2hvcnRTdHJpbmcudW53cmFwKHZhbHVlKSAhPSBGQUxMQkFDS19TRU5USU5FTCkgewogICAgICAgICAgICByZXR1cm4gYnl0ZUxlbmd0aCh2YWx1ZSk7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgcmV0dXJuIGJ5dGVzKHN0b3JlKS5sZW5ndGg7CiAgICAgICAgfQogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (utils/ShortStrings.sol)
+
+pragma solidity ^0.8.20;
+
+import {StorageSlot} from "./StorageSlot.sol";
+
+// | string  | 0xAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA   |
+// | length  | 0x                                                              BB |
+type ShortString is bytes32;
+
+/**
+ * @dev This library provides functions to convert short memory strings
+ * into a `ShortString` type that can be used as an immutable variable.
+ *
+ * Strings of arbitrary length can be optimized using this library if
+ * they are short enough (up to 31 bytes) by packing them with their
+ * length (1 byte) in a single EVM word (32 bytes). Additionally, a
+ * fallback mechanism can be used for every other case.
+ *
+ * Usage example:
+ *
+ * ```solidity
+ * contract Named {
+ *     using ShortStrings for *;
+ *
+ *     ShortString private immutable _name;
+ *     string private _nameFallback;
+ *
+ *     constructor(string memory contractName) {
+ *         _name = contractName.toShortStringWithFallback(_nameFallback);
+ *     }
+ *
+ *     function name() external view returns (string memory) {
+ *         return _name.toStringWithFallback(_nameFallback);
+ *     }
+ * }
+ * ```
+ */
+library ShortStrings {
+    // Used as an identifier for strings longer than 31 bytes.
+    bytes32 private constant FALLBACK_SENTINEL = 0x00000000000000000000000000000000000000000000000000000000000000FF;
+
+    error StringTooLong(string str);
+    error InvalidShortString();
+
+    /**
+     * @dev Encode a string of at most 31 chars into a `ShortString`.
+     *
+     * This will trigger a `StringTooLong` error is the input string is too long.
+     */
+    function toShortString(string memory str) internal pure returns (ShortString) {
+        bytes memory bstr = bytes(str);
+        if (bstr.length > 31) {
+            revert StringTooLong(str);
+        }
+        return ShortString.wrap(bytes32(uint256(bytes32(bstr)) | bstr.length));
+    }
+
+    /**
+     * @dev Decode a `ShortString` back to a "normal" string.
+     */
+    function toString(ShortString sstr) internal pure returns (string memory) {
+        uint256 len = byteLength(sstr);
+        // using `new string(len)` would work locally but is not memory safe.
+        string memory str = new string(32);
+        assembly ("memory-safe") {
+            mstore(str, len)
+            mstore(add(str, 0x20), sstr)
+        }
+        return str;
+    }
+
+    /**
+     * @dev Return the length of a `ShortString`.
+     */
+    function byteLength(ShortString sstr) internal pure returns (uint256) {
+        uint256 result = uint256(ShortString.unwrap(sstr)) & 0xFF;
+        if (result > 31) {
+            revert InvalidShortString();
+        }
+        return result;
+    }
+
+    /**
+     * @dev Encode a string into a `ShortString`, or write it to storage if it is too long.
+     */
+    function toShortStringWithFallback(string memory value, string storage store) internal returns (ShortString) {
+        if (bytes(value).length < 32) {
+            return toShortString(value);
+        } else {
+            StorageSlot.getStringSlot(store).value = value;
+            return ShortString.wrap(FALLBACK_SENTINEL);
+        }
+    }
+
+    /**
+     * @dev Decode a string that was encoded to `ShortString` or written to storage using {setWithFallback}.
+     */
+    function toStringWithFallback(ShortString value, string storage store) internal pure returns (string memory) {
+        if (ShortString.unwrap(value) != FALLBACK_SENTINEL) {
+            return toString(value);
+        } else {
+            return store;
+        }
+    }
+
+    /**
+     * @dev Return the length of a string that was encoded to `ShortString` or written to storage using
+     * {setWithFallback}.
+     *
+     * WARNING: This will return the "byte length" of the string. This may not reflect the actual length in terms of
+     * actual characters as the UTF-8 encoding of a single character can span over multiple bytes.
+     */
+    function byteLengthWithFallback(ShortString value, string storage store) internal view returns (uint256) {
+        if (ShortString.unwrap(value) != FALLBACK_SENTINEL) {
+            return byteLength(value);
+        } else {
+            return bytes(store).length;
+        }
+    }
+}
