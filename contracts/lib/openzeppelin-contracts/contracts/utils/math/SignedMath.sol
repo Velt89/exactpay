@@ -1,1 +1,68 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodXRpbHMvbWF0aC9TaWduZWRNYXRoLnNvbCkKCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKaW1wb3J0IHtTYWZlQ2FzdH0gZnJvbSAiLi9TYWZlQ2FzdC5zb2wiOwoKLyoqCiAqIEBkZXYgU3RhbmRhcmQgc2lnbmVkIG1hdGggdXRpbGl0aWVzIG1pc3NpbmcgaW4gdGhlIFNvbGlkaXR5IGxhbmd1YWdlLgogKi8KbGlicmFyeSBTaWduZWRNYXRoIHsKICAgIC8qKgogICAgICogQGRldiBCcmFuY2hsZXNzIHRlcm5hcnkgZXZhbHVhdGlvbiBmb3IgYGEgPyBiIDogY2AuIEdhcyBjb3N0cyBhcmUgY29uc3RhbnQuCiAgICAgKgogICAgICogSU1QT1JUQU5UOiBUaGlzIGZ1bmN0aW9uIG1heSByZWR1Y2UgYnl0ZWNvZGUgc2l6ZSBhbmQgY29uc3VtZSBsZXNzIGdhcyB3aGVuIHVzZWQgc3RhbmRhbG9uZS4KICAgICAqIEhvd2V2ZXIsIHRoZSBjb21waWxlciBtYXkgb3B0aW1pemUgU29saWRpdHkgdGVybmFyeSBvcGVyYXRpb25zIChpLmUuIGBhID8gYiA6IGNgKSB0byBvbmx5IGNvbXB1dGUKICAgICAqIG9uZSBicmFuY2ggd2hlbiBuZWVkZWQsIG1ha2luZyB0aGlzIGZ1bmN0aW9uIG1vcmUgZXhwZW5zaXZlLgogICAgICovCiAgICBmdW5jdGlvbiB0ZXJuYXJ5KGJvb2wgY29uZGl0aW9uLCBpbnQyNTYgYSwgaW50MjU2IGIpIGludGVybmFsIHB1cmUgcmV0dXJucyAoaW50MjU2KSB7CiAgICAgICAgdW5jaGVja2VkIHsKICAgICAgICAgICAgLy8gYnJhbmNobGVzcyB0ZXJuYXJ5IHdvcmtzIGJlY2F1c2U6CiAgICAgICAgICAgIC8vIGIgXiAoYSBeIGIpID09IGEKICAgICAgICAgICAgLy8gYiBeIDAgPT0gYgogICAgICAgICAgICByZXR1cm4gYiBeICgoYSBeIGIpICogaW50MjU2KFNhZmVDYXN0LnRvVWludChjb25kaXRpb24pKSk7CiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICogQGRldiBSZXR1cm5zIHRoZSBsYXJnZXN0IG9mIHR3byBzaWduZWQgbnVtYmVycy4KICAgICAqLwogICAgZnVuY3Rpb24gbWF4KGludDI1NiBhLCBpbnQyNTYgYikgaW50ZXJuYWwgcHVyZSByZXR1cm5zIChpbnQyNTYpIHsKICAgICAgICByZXR1cm4gdGVybmFyeShhID4gYiwgYSwgYik7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIHNtYWxsZXN0IG9mIHR3byBzaWduZWQgbnVtYmVycy4KICAgICAqLwogICAgZnVuY3Rpb24gbWluKGludDI1NiBhLCBpbnQyNTYgYikgaW50ZXJuYWwgcHVyZSByZXR1cm5zIChpbnQyNTYpIHsKICAgICAgICByZXR1cm4gdGVybmFyeShhIDwgYiwgYSwgYik7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIGF2ZXJhZ2Ugb2YgdHdvIHNpZ25lZCBudW1iZXJzIHdpdGhvdXQgb3ZlcmZsb3cuCiAgICAgKiBUaGUgcmVzdWx0IGlzIHJvdW5kZWQgdG93YXJkcyB6ZXJvLgogICAgICovCiAgICBmdW5jdGlvbiBhdmVyYWdlKGludDI1NiBhLCBpbnQyNTYgYikgaW50ZXJuYWwgcHVyZSByZXR1cm5zIChpbnQyNTYpIHsKICAgICAgICAvLyBGb3JtdWxhIGZyb20gdGhlIGJvb2sgIkhhY2tlcidzIERlbGlnaHQiCiAgICAgICAgaW50MjU2IHggPSAoYSAmIGIpICsgKChhIF4gYikgPj4gMSk7CiAgICAgICAgcmV0dXJuIHggKyAoaW50MjU2KHVpbnQyNTYoeCkgPj4gMjU1KSAmIChhIF4gYikpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBSZXR1cm5zIHRoZSBhYnNvbHV0ZSB1bnNpZ25lZCB2YWx1ZSBvZiBhIHNpZ25lZCB2YWx1ZS4KICAgICAqLwogICAgZnVuY3Rpb24gYWJzKGludDI1NiBuKSBpbnRlcm5hbCBwdXJlIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICB1bmNoZWNrZWQgewogICAgICAgICAgICAvLyBGb3JtdWxhIGZyb20gdGhlICJCaXQgVHdpZGRsaW5nIEhhY2tzIiBieSBTZWFuIEVyb24gQW5kZXJzb24uCiAgICAgICAgICAgIC8vIFNpbmNlIGBuYCBpcyBhIHNpZ25lZCBpbnRlZ2VyLCB0aGUgZ2VuZXJhdGVkIGJ5dGVjb2RlIHdpbGwgdXNlIHRoZSBTQVIgb3Bjb2RlIHRvIHBlcmZvcm0gdGhlIHJpZ2h0IHNoaWZ0LAogICAgICAgICAgICAvLyB0YWtpbmcgYWR2YW50YWdlIG9mIHRoZSBtb3N0IHNpZ25pZmljYW50IChvciAic2lnbiIgYml0KSBpbiB0d28ncyBjb21wbGVtZW50IHJlcHJlc2VudGF0aW9uLgogICAgICAgICAgICAvLyBUaGlzIG9wY29kZSBhZGRzIG5ldyBtb3N0IHNpZ25pZmljYW50IGJpdHMgc2V0IHRvIHRoZSB2YWx1ZSBvZiB0aGUgcHJldmlvdXMgbW9zdCBzaWduaWZpY2FudCBiaXQuIEFzIGEgcmVzdWx0LAogICAgICAgICAgICAvLyB0aGUgbWFzayB3aWxsIGVpdGhlciBiZSBgYnl0ZXMzMigwKWAgKGlmIG4gaXMgcG9zaXRpdmUpIG9yIGB+Ynl0ZXMzMigwKWAgKGlmIG4gaXMgbmVnYXRpdmUpLgogICAgICAgICAgICBpbnQyNTYgbWFzayA9IG4gPj4gMjU1OwoKICAgICAgICAgICAgLy8gQSBgYnl0ZXMzMigwKWAgbWFzayBsZWF2ZXMgdGhlIGlucHV0IHVuY2hhbmdlZCwgd2hpbGUgYSBgfmJ5dGVzMzIoMClgIG1hc2sgY29tcGxlbWVudHMgaXQuCiAgICAgICAgICAgIHJldHVybiB1aW50MjU2KChuICsgbWFzaykgXiBtYXNrKTsKICAgICAgICB9CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (utils/math/SignedMath.sol)
+
+pragma solidity ^0.8.20;
+
+import {SafeCast} from "./SafeCast.sol";
+
+/**
+ * @dev Standard signed math utilities missing in the Solidity language.
+ */
+library SignedMath {
+    /**
+     * @dev Branchless ternary evaluation for `a ? b : c`. Gas costs are constant.
+     *
+     * IMPORTANT: This function may reduce bytecode size and consume less gas when used standalone.
+     * However, the compiler may optimize Solidity ternary operations (i.e. `a ? b : c`) to only compute
+     * one branch when needed, making this function more expensive.
+     */
+    function ternary(bool condition, int256 a, int256 b) internal pure returns (int256) {
+        unchecked {
+            // branchless ternary works because:
+            // b ^ (a ^ b) == a
+            // b ^ 0 == b
+            return b ^ ((a ^ b) * int256(SafeCast.toUint(condition)));
+        }
+    }
+
+    /**
+     * @dev Returns the largest of two signed numbers.
+     */
+    function max(int256 a, int256 b) internal pure returns (int256) {
+        return ternary(a > b, a, b);
+    }
+
+    /**
+     * @dev Returns the smallest of two signed numbers.
+     */
+    function min(int256 a, int256 b) internal pure returns (int256) {
+        return ternary(a < b, a, b);
+    }
+
+    /**
+     * @dev Returns the average of two signed numbers without overflow.
+     * The result is rounded towards zero.
+     */
+    function average(int256 a, int256 b) internal pure returns (int256) {
+        // Formula from the book "Hacker's Delight"
+        int256 x = (a & b) + ((a ^ b) >> 1);
+        return x + (int256(uint256(x) >> 255) & (a ^ b));
+    }
+
+    /**
+     * @dev Returns the absolute unsigned value of a signed value.
+     */
+    function abs(int256 n) internal pure returns (uint256) {
+        unchecked {
+            // Formula from the "Bit Twiddling Hacks" by Sean Eron Anderson.
+            // Since `n` is a signed integer, the generated bytecode will use the SAR opcode to perform the right shift,
+            // taking advantage of the most significant (or "sign" bit) in two's complement representation.
+            // This opcode adds new most significant bits set to the value of the previous most significant bit. As a result,
+            // the mask will either be `bytes32(0)` (if n is positive) or `~bytes32(0)` (if n is negative).
+            int256 mask = n >> 255;
+
+            // A `bytes32(0)` mask leaves the input unchanged, while a `~bytes32(0)` mask complements it.
+            return uint256((n + mask) ^ mask);
+        }
+    }
+}
