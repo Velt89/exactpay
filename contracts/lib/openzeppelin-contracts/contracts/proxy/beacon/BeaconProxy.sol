@@ -1,1 +1,57 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAocHJveHkvYmVhY29uL0JlYWNvblByb3h5LnNvbCkKCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKaW1wb3J0IHtJQmVhY29ufSBmcm9tICIuL0lCZWFjb24uc29sIjsKaW1wb3J0IHtQcm94eX0gZnJvbSAiLi4vUHJveHkuc29sIjsKaW1wb3J0IHtFUkMxOTY3VXRpbHN9IGZyb20gIi4uL0VSQzE5NjcvRVJDMTk2N1V0aWxzLnNvbCI7CgovKioKICogQGRldiBUaGlzIGNvbnRyYWN0IGltcGxlbWVudHMgYSBwcm94eSB0aGF0IGdldHMgdGhlIGltcGxlbWVudGF0aW9uIGFkZHJlc3MgZm9yIGVhY2ggY2FsbCBmcm9tIGFuIHtVcGdyYWRlYWJsZUJlYWNvbn0uCiAqCiAqIFRoZSBiZWFjb24gYWRkcmVzcyBjYW4gb25seSBiZSBzZXQgb25jZSBkdXJpbmcgY29uc3RydWN0aW9uLCBhbmQgY2Fubm90IGJlIGNoYW5nZWQgYWZ0ZXJ3YXJkcy4gSXQgaXMgc3RvcmVkIGluIGFuCiAqIGltbXV0YWJsZSB2YXJpYWJsZSB0byBhdm9pZCB1bm5lY2Vzc2FyeSBzdG9yYWdlIHJlYWRzLCBhbmQgYWxzbyBpbiB0aGUgYmVhY29uIHN0b3JhZ2Ugc2xvdCBzcGVjaWZpZWQgYnkKICogaHR0cHM6Ly9laXBzLmV0aGVyZXVtLm9yZy9FSVBTL2VpcC0xOTY3W0VSQy0xOTY3XSBzbyB0aGF0IGl0IGNhbiBiZSBhY2Nlc3NlZCBleHRlcm5hbGx5LgogKgogKiBDQVVUSU9OOiBTaW5jZSB0aGUgYmVhY29uIGFkZHJlc3MgY2FuIG5ldmVyIGJlIGNoYW5nZWQsIHlvdSBtdXN0IGVuc3VyZSB0aGF0IHlvdSBlaXRoZXIgY29udHJvbCB0aGUgYmVhY29uLCBvciB0cnVzdAogKiB0aGUgYmVhY29uIHRvIG5vdCB1cGdyYWRlIHRoZSBpbXBsZW1lbnRhdGlvbiBtYWxpY2lvdXNseS4KICoKICogSU1QT1JUQU5UOiBEbyBub3QgdXNlIHRoZSBpbXBsZW1lbnRhdGlvbiBsb2dpYyB0byBtb2RpZnkgdGhlIGJlYWNvbiBzdG9yYWdlIHNsb3QuIERvaW5nIHNvIHdvdWxkIGxlYXZlIHRoZSBwcm94eSBpbgogKiBhbiBpbmNvbnNpc3RlbnQgc3RhdGUgd2hlcmUgdGhlIGJlYWNvbiBzdG9yYWdlIHNsb3QgZG9lcyBub3QgbWF0Y2ggdGhlIGJlYWNvbiBhZGRyZXNzLgogKi8KY29udHJhY3QgQmVhY29uUHJveHkgaXMgUHJveHkgewogICAgLy8gQW4gaW1tdXRhYmxlIGFkZHJlc3MgZm9yIHRoZSBiZWFjb24gdG8gYXZvaWQgdW5uZWNlc3NhcnkgU0xPQURzIGJlZm9yZSBlYWNoIGRlbGVnYXRlIGNhbGwuCiAgICBhZGRyZXNzIHByaXZhdGUgaW1tdXRhYmxlIF9iZWFjb247CgogICAgLyoqCiAgICAgKiBAZGV2IEluaXRpYWxpemVzIHRoZSBwcm94eSB3aXRoIGBiZWFjb25gLgogICAgICoKICAgICAqIElmIGBkYXRhYCBpcyBub25lbXB0eSwgaXQncyB1c2VkIGFzIGRhdGEgaW4gYSBkZWxlZ2F0ZSBjYWxsIHRvIHRoZSBpbXBsZW1lbnRhdGlvbiByZXR1cm5lZCBieSB0aGUgYmVhY29uLiBUaGlzCiAgICAgKiB3aWxsIHR5cGljYWxseSBiZSBhbiBlbmNvZGVkIGZ1bmN0aW9uIGNhbGwsIGFuZCBhbGxvd3MgaW5pdGlhbGl6aW5nIHRoZSBzdG9yYWdlIG9mIHRoZSBwcm94eSBsaWtlIGEgU29saWRpdHkKICAgICAqIGNvbnN0cnVjdG9yLgogICAgICoKICAgICAqIFJlcXVpcmVtZW50czoKICAgICAqCiAgICAgKiAtIGBiZWFjb25gIG11c3QgYmUgYSBjb250cmFjdCB3aXRoIHRoZSBpbnRlcmZhY2Uge0lCZWFjb259LgogICAgICogLSBJZiBgZGF0YWAgaXMgZW1wdHksIGBtc2cudmFsdWVgIG11c3QgYmUgemVyby4KICAgICAqLwogICAgY29uc3RydWN0b3IoYWRkcmVzcyBiZWFjb24sIGJ5dGVzIG1lbW9yeSBkYXRhKSBwYXlhYmxlIHsKICAgICAgICBFUkMxOTY3VXRpbHMudXBncmFkZUJlYWNvblRvQW5kQ2FsbChiZWFjb24sIGRhdGEpOwogICAgICAgIF9iZWFjb24gPSBiZWFjb247CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIGN1cnJlbnQgaW1wbGVtZW50YXRpb24gYWRkcmVzcyBvZiB0aGUgYXNzb2NpYXRlZCBiZWFjb24uCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9pbXBsZW1lbnRhdGlvbigpIGludGVybmFsIHZpZXcgdmlydHVhbCBvdmVycmlkZSByZXR1cm5zIChhZGRyZXNzKSB7CiAgICAgICAgcmV0dXJuIElCZWFjb24oX2dldEJlYWNvbigpKS5pbXBsZW1lbnRhdGlvbigpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBSZXR1cm5zIHRoZSBiZWFjb24uCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9nZXRCZWFjb24oKSBpbnRlcm5hbCB2aWV3IHZpcnR1YWwgcmV0dXJucyAoYWRkcmVzcykgewogICAgICAgIHJldHVybiBfYmVhY29uOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (proxy/beacon/BeaconProxy.sol)
+
+pragma solidity ^0.8.20;
+
+import {IBeacon} from "./IBeacon.sol";
+import {Proxy} from "../Proxy.sol";
+import {ERC1967Utils} from "../ERC1967/ERC1967Utils.sol";
+
+/**
+ * @dev This contract implements a proxy that gets the implementation address for each call from an {UpgradeableBeacon}.
+ *
+ * The beacon address can only be set once during construction, and cannot be changed afterwards. It is stored in an
+ * immutable variable to avoid unnecessary storage reads, and also in the beacon storage slot specified by
+ * https://eips.ethereum.org/EIPS/eip-1967[ERC-1967] so that it can be accessed externally.
+ *
+ * CAUTION: Since the beacon address can never be changed, you must ensure that you either control the beacon, or trust
+ * the beacon to not upgrade the implementation maliciously.
+ *
+ * IMPORTANT: Do not use the implementation logic to modify the beacon storage slot. Doing so would leave the proxy in
+ * an inconsistent state where the beacon storage slot does not match the beacon address.
+ */
+contract BeaconProxy is Proxy {
+    // An immutable address for the beacon to avoid unnecessary SLOADs before each delegate call.
+    address private immutable _beacon;
+
+    /**
+     * @dev Initializes the proxy with `beacon`.
+     *
+     * If `data` is nonempty, it's used as data in a delegate call to the implementation returned by the beacon. This
+     * will typically be an encoded function call, and allows initializing the storage of the proxy like a Solidity
+     * constructor.
+     *
+     * Requirements:
+     *
+     * - `beacon` must be a contract with the interface {IBeacon}.
+     * - If `data` is empty, `msg.value` must be zero.
+     */
+    constructor(address beacon, bytes memory data) payable {
+        ERC1967Utils.upgradeBeaconToAndCall(beacon, data);
+        _beacon = beacon;
+    }
+
+    /**
+     * @dev Returns the current implementation address of the associated beacon.
+     */
+    function _implementation() internal view virtual override returns (address) {
+        return IBeacon(_getBeacon()).implementation();
+    }
+
+    /**
+     * @dev Returns the beacon.
+     */
+    function _getBeacon() internal view virtual returns (address) {
+        return _beacon;
+    }
+}
