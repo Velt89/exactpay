@@ -1,1 +1,74 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0lFUkMxMTU1UmVjZWl2ZXJ9IGZyb20gIi4uLy4uL3Rva2VuL0VSQzExNTUvSUVSQzExNTVSZWNlaXZlci5zb2wiOwppbXBvcnQge0VSQzE2NX0gZnJvbSAiLi4vLi4vdXRpbHMvaW50cm9zcGVjdGlvbi9FUkMxNjUuc29sIjsKCmNvbnRyYWN0IEVSQzExNTVSZWNlaXZlck1vY2sgaXMgRVJDMTY1LCBJRVJDMTE1NVJlY2VpdmVyIHsKICAgIGVudW0gUmV2ZXJ0VHlwZSB7CiAgICAgICAgTm9uZSwKICAgICAgICBSZXZlcnRXaXRob3V0TWVzc2FnZSwKICAgICAgICBSZXZlcnRXaXRoTWVzc2FnZSwKICAgICAgICBSZXZlcnRXaXRoQ3VzdG9tRXJyb3IsCiAgICAgICAgUGFuaWMKICAgIH0KCiAgICBieXRlczQgcHJpdmF0ZSBpbW11dGFibGUgX3JlY1JldHZhbDsKICAgIGJ5dGVzNCBwcml2YXRlIGltbXV0YWJsZSBfYmF0UmV0dmFsOwogICAgUmV2ZXJ0VHlwZSBwcml2YXRlIGltbXV0YWJsZSBfZXJyb3I7CgogICAgZXZlbnQgUmVjZWl2ZWQoYWRkcmVzcyBvcGVyYXRvciwgYWRkcmVzcyBmcm9tLCB1aW50MjU2IGlkLCB1aW50MjU2IHZhbHVlLCBieXRlcyBkYXRhLCB1aW50MjU2IGdhcyk7CiAgICBldmVudCBCYXRjaFJlY2VpdmVkKGFkZHJlc3Mgb3BlcmF0b3IsIGFkZHJlc3MgZnJvbSwgdWludDI1NltdIGlkcywgdWludDI1NltdIHZhbHVlcywgYnl0ZXMgZGF0YSwgdWludDI1NiBnYXMpOwogICAgZXJyb3IgQ3VzdG9tRXJyb3IoYnl0ZXM0KTsKCiAgICBjb25zdHJ1Y3RvcihieXRlczQgcmVjUmV0dmFsLCBieXRlczQgYmF0UmV0dmFsLCBSZXZlcnRUeXBlIGVycm9yKSB7CiAgICAgICAgX3JlY1JldHZhbCA9IHJlY1JldHZhbDsKICAgICAgICBfYmF0UmV0dmFsID0gYmF0UmV0dmFsOwogICAgICAgIF9lcnJvciA9IGVycm9yOwogICAgfQoKICAgIGZ1bmN0aW9uIG9uRVJDMTE1NVJlY2VpdmVkKAogICAgICAgIGFkZHJlc3Mgb3BlcmF0b3IsCiAgICAgICAgYWRkcmVzcyBmcm9tLAogICAgICAgIHVpbnQyNTYgaWQsCiAgICAgICAgdWludDI1NiB2YWx1ZSwKICAgICAgICBieXRlcyBjYWxsZGF0YSBkYXRhCiAgICApIGV4dGVybmFsIHJldHVybnMgKGJ5dGVzNCkgewogICAgICAgIGlmIChfZXJyb3IgPT0gUmV2ZXJ0VHlwZS5SZXZlcnRXaXRob3V0TWVzc2FnZSkgewogICAgICAgICAgICByZXZlcnQoKTsKICAgICAgICB9IGVsc2UgaWYgKF9lcnJvciA9PSBSZXZlcnRUeXBlLlJldmVydFdpdGhNZXNzYWdlKSB7CiAgICAgICAgICAgIHJldmVydCgiRVJDMTE1NVJlY2VpdmVyTW9jazogcmV2ZXJ0aW5nIG9uIHJlY2VpdmUiKTsKICAgICAgICB9IGVsc2UgaWYgKF9lcnJvciA9PSBSZXZlcnRUeXBlLlJldmVydFdpdGhDdXN0b21FcnJvcikgewogICAgICAgICAgICByZXZlcnQgQ3VzdG9tRXJyb3IoX3JlY1JldHZhbCk7CiAgICAgICAgfSBlbHNlIGlmIChfZXJyb3IgPT0gUmV2ZXJ0VHlwZS5QYW5pYykgewogICAgICAgICAgICB1aW50MjU2IGEgPSB1aW50MjU2KDApIC8gdWludDI1NigwKTsKICAgICAgICAgICAgYTsKICAgICAgICB9CgogICAgICAgIGVtaXQgUmVjZWl2ZWQob3BlcmF0b3IsIGZyb20sIGlkLCB2YWx1ZSwgZGF0YSwgZ2FzbGVmdCgpKTsKICAgICAgICByZXR1cm4gX3JlY1JldHZhbDsKICAgIH0KCiAgICBmdW5jdGlvbiBvbkVSQzExNTVCYXRjaFJlY2VpdmVkKAogICAgICAgIGFkZHJlc3Mgb3BlcmF0b3IsCiAgICAgICAgYWRkcmVzcyBmcm9tLAogICAgICAgIHVpbnQyNTZbXSBjYWxsZGF0YSBpZHMsCiAgICAgICAgdWludDI1NltdIGNhbGxkYXRhIHZhbHVlcywKICAgICAgICBieXRlcyBjYWxsZGF0YSBkYXRhCiAgICApIGV4dGVybmFsIHJldHVybnMgKGJ5dGVzNCkgewogICAgICAgIGlmIChfZXJyb3IgPT0gUmV2ZXJ0VHlwZS5SZXZlcnRXaXRob3V0TWVzc2FnZSkgewogICAgICAgICAgICByZXZlcnQoKTsKICAgICAgICB9IGVsc2UgaWYgKF9lcnJvciA9PSBSZXZlcnRUeXBlLlJldmVydFdpdGhNZXNzYWdlKSB7CiAgICAgICAgICAgIHJldmVydCgiRVJDMTE1NVJlY2VpdmVyTW9jazogcmV2ZXJ0aW5nIG9uIGJhdGNoIHJlY2VpdmUiKTsKICAgICAgICB9IGVsc2UgaWYgKF9lcnJvciA9PSBSZXZlcnRUeXBlLlJldmVydFdpdGhDdXN0b21FcnJvcikgewogICAgICAgICAgICByZXZlcnQgQ3VzdG9tRXJyb3IoX3JlY1JldHZhbCk7CiAgICAgICAgfSBlbHNlIGlmIChfZXJyb3IgPT0gUmV2ZXJ0VHlwZS5QYW5pYykgewogICAgICAgICAgICB1aW50MjU2IGEgPSB1aW50MjU2KDApIC8gdWludDI1NigwKTsKICAgICAgICAgICAgYTsKICAgICAgICB9CgogICAgICAgIGVtaXQgQmF0Y2hSZWNlaXZlZChvcGVyYXRvciwgZnJvbSwgaWRzLCB2YWx1ZXMsIGRhdGEsIGdhc2xlZnQoKSk7CiAgICAgICAgcmV0dXJuIF9iYXRSZXR2YWw7CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {IERC1155Receiver} from "../../token/ERC1155/IERC1155Receiver.sol";
+import {ERC165} from "../../utils/introspection/ERC165.sol";
+
+contract ERC1155ReceiverMock is ERC165, IERC1155Receiver {
+    enum RevertType {
+        None,
+        RevertWithoutMessage,
+        RevertWithMessage,
+        RevertWithCustomError,
+        Panic
+    }
+
+    bytes4 private immutable _recRetval;
+    bytes4 private immutable _batRetval;
+    RevertType private immutable _error;
+
+    event Received(address operator, address from, uint256 id, uint256 value, bytes data, uint256 gas);
+    event BatchReceived(address operator, address from, uint256[] ids, uint256[] values, bytes data, uint256 gas);
+    error CustomError(bytes4);
+
+    constructor(bytes4 recRetval, bytes4 batRetval, RevertType error) {
+        _recRetval = recRetval;
+        _batRetval = batRetval;
+        _error = error;
+    }
+
+    function onERC1155Received(
+        address operator,
+        address from,
+        uint256 id,
+        uint256 value,
+        bytes calldata data
+    ) external returns (bytes4) {
+        if (_error == RevertType.RevertWithoutMessage) {
+            revert();
+        } else if (_error == RevertType.RevertWithMessage) {
+            revert("ERC1155ReceiverMock: reverting on receive");
+        } else if (_error == RevertType.RevertWithCustomError) {
+            revert CustomError(_recRetval);
+        } else if (_error == RevertType.Panic) {
+            uint256 a = uint256(0) / uint256(0);
+            a;
+        }
+
+        emit Received(operator, from, id, value, data, gasleft());
+        return _recRetval;
+    }
+
+    function onERC1155BatchReceived(
+        address operator,
+        address from,
+        uint256[] calldata ids,
+        uint256[] calldata values,
+        bytes calldata data
+    ) external returns (bytes4) {
+        if (_error == RevertType.RevertWithoutMessage) {
+            revert();
+        } else if (_error == RevertType.RevertWithMessage) {
+            revert("ERC1155ReceiverMock: reverting on batch receive");
+        } else if (_error == RevertType.RevertWithCustomError) {
+            revert CustomError(_recRetval);
+        } else if (_error == RevertType.Panic) {
+            uint256 a = uint256(0) / uint256(0);
+            a;
+        }
+
+        emit BatchReceived(operator, from, ids, values, data, gasleft());
+        return _batRetval;
+    }
+}
