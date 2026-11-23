@@ -1,1 +1,4 @@
-Y29udGFjdF9saW5rczoKICAtIG5hbWU6IFF1ZXN0aW9ucyAmIFN1cHBvcnQgUmVxdWVzdHMKICAgIHVybDogaHR0cHM6Ly9mb3J1bS5vcGVuemVwcGVsaW4uY29tL2Mvc3VwcG9ydC9jb250cmFjdHMvMTgKICAgIGFib3V0OiBBc2sgaW4gdGhlIE9wZW5aZXBwZWxpbiBGb3J1bQo=
+contact_links:
+  - name: Questions & Support Requests
+    url: https://forum.openzeppelin.com/c/support/contracts/18
+    about: Ask in the OpenZeppelin Forum
