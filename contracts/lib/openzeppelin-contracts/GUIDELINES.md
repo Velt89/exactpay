@@ -1,1 +1,148 @@
-IyBFbmdpbmVlcmluZyBHdWlkZWxpbmVzCgojIyBUZXN0aW5nCgpDb2RlIG11c3QgYmUgdGhvcm91Z2hseSB0ZXN0ZWQgd2l0aCBxdWFsaXR5IHVuaXQgdGVzdHMuCgpXZSBkZWZlciB0byB0aGUgW01vbG9jaCBUZXN0aW5nIEd1aWRlXShodHRwczovL2dpdGh1Yi5jb20vTW9sb2NoVmVudHVyZXMvbW9sb2NoL3RyZWUvbWFzdGVyL3Rlc3QjcmVhZG1lKSBmb3Igc3BlY2lmaWMgcmVjb21tZW5kYXRpb25zLCB0aG91Z2ggbm90IGFsbCBvZiBpdCBpcyByZWxldmFudCBoZXJlLiBOb3RlIHRoZSBpbnRyb2R1Y3Rpb246Cgo+IFRlc3RzIHNob3VsZCBiZSB3cml0dGVuLCBub3Qgb25seSB0byB2ZXJpZnkgY29ycmVjdG5lc3Mgb2YgdGhlIHRhcmdldCBjb2RlLCBidXQgdG8gYmUgY29tcHJlaGVuc2l2ZWx5IHJldmlld2VkIGJ5IG90aGVyIHByb2dyYW1tZXJzLiBUaGVyZWZvcmUsIGZvciBtaXNzaW9uIGNyaXRpY2FsIFNvbGlkaXR5IGNvZGUsIHRoZSBxdWFsaXR5IG9mIHRoZSB0ZXN0cyBhcmUganVzdCBhcyBpbXBvcnRhbnQgKGlmIG5vdCBtb3JlIHNvKSB0aGFuIHRoZSBjb2RlIGl0c2VsZiwgYW5kIHNob3VsZCBiZSB3cml0dGVuIHdpdGggdGhlIGhpZ2hlc3Qgc3RhbmRhcmRzIG9mIGNsYXJpdHkgYW5kIGVsZWdhbmNlLgoKRXZlcnkgYWRkaXRpb24gb3IgY2hhbmdlIHRvIHRoZSBjb2RlIG11c3QgY29tZSB3aXRoIHJlbGV2YW50IGFuZCBjb21wcmVoZW5zaXZlIHRlc3RzLgoKUmVmYWN0b3JzIHNob3VsZCBhdm9pZCBzaW11bHRhbmVvdXMgY2hhbmdlcyB0byB0ZXN0cy4KCkZsYWt5IHRlc3RzIGFyZSBub3QgYWNjZXB0YWJsZS4KClRoZSB0ZXN0IHN1aXRlIHNob3VsZCBydW4gYXV0b21hdGljYWxseSBmb3IgZXZlcnkgY2hhbmdlIGluIHRoZSByZXBvc2l0b3J5LCBhbmQgaW4gcHVsbCByZXF1ZXN0cyB0ZXN0cyBtdXN0IHBhc3MgYmVmb3JlIG1lcmdpbmcuCgpUaGUgdGVzdCBzdWl0ZSBjb3ZlcmFnZSBtdXN0IGJlIGtlcHQgYXMgY2xvc2UgdG8gMTAwJSBhcyBwb3NzaWJsZSwgZW5mb3JjZWQgaW4gcHVsbCByZXF1ZXN0cy4KCkluIHNvbWUgY2FzZXMgdW5pdCB0ZXN0cyBtYXkgYmUgaW5zdWZmaWNpZW50IGFuZCBjb21wbGVtZW50YXJ5IHRlY2huaXF1ZXMgc2hvdWxkIGJlIHVzZWQ6CgoxLiBQcm9wZXJ0eS1iYXNlZCB0ZXN0cyAoYWthLiBmdXp6aW5nKSBmb3IgbWF0aC1oZWF2eSBjb2RlLgoyLiBGb3JtYWwgdmVyaWZpY2F0aW9uIGZvciBzdGF0ZSBtYWNoaW5lcy4KCiMjIENvZGUgc3R5bGUKClNvbGlkaXR5IGNvZGUgc2hvdWxkIGJlIHdyaXR0ZW4gaW4gYSBjb25zaXN0ZW50IGZvcm1hdCBlbmZvcmNlZCBieSBhIGxpbnRlciwgZm9sbG93aW5nIHRoZSBvZmZpY2lhbCBbU29saWRpdHkgU3R5bGUgR3VpZGVdKGh0dHBzOi8vZG9jcy5zb2xpZGl0eWxhbmcub3JnL2VuL2xhdGVzdC9zdHlsZS1ndWlkZS5odG1sKS4gU2VlIGJlbG93IGZvciBmdXJ0aGVyIFtTb2xpZGl0eSBDb252ZW50aW9uc10oI3NvbGlkaXR5LWNvbnZlbnRpb25zKS4KClRoZSBjb2RlIHNob3VsZCBiZSBzaW1wbGUgYW5kIHN0cmFpZ2h0Zm9yd2FyZCwgcHJpb3JpdGl6aW5nIHJlYWRhYmlsaXR5IGFuZCB1bmRlcnN0YW5kYWJpbGl0eS4gQ29uc2lzdGVuY3kgYW5kIHByZWRpY3RhYmlsaXR5IHNob3VsZCBiZSBtYWludGFpbmVkIGFjcm9zcyB0aGUgY29kZWJhc2UuIEluIHBhcnRpY3VsYXIsIHRoaXMgYXBwbGllcyB0byBuYW1pbmcsIHdoaWNoIHNob3VsZCBiZSBzeXN0ZW1hdGljLCBjbGVhciwgYW5kIGNvbmNpc2UuCgpTb21ldGltZXMgdGhlc2UgZ3VpZGVsaW5lcyBtYXkgYmUgYnJva2VuIGlmIGRvaW5nIHNvIGJyaW5ncyBzaWduaWZpY2FudCBlZmZpY2llbmN5IGdhaW5zLCBidXQgZXhwbGFuYXRvcnkgY29tbWVudHMgc2hvdWxkIGJlIGFkZGVkLgoKTW9kdWxhcml0eSBzaG91bGQgYmUgcHVyc3VlZCwgYnV0IG5vdCBhdCB0aGUgY29zdCBvZiB0aGUgYWJvdmUgcHJpb3JpdGllcy4KCiMjIERvY3VtZW50YXRpb24KCkZvciBjb250cmlidXRvcnMsIHByb2plY3QgZ3VpZGVsaW5lcyBhbmQgcHJvY2Vzc2VzIG11c3QgYmUgZG9jdW1lbnRlZCBwdWJsaWNseS4KCkZvciB1c2VycywgZmVhdHVyZXMgbXVzdCBiZSBhYnVuZGFudGx5IGRvY3VtZW50ZWQuIERvY3VtZW50YXRpb24gc2hvdWxkIGluY2x1ZGUgYW5zd2VycyB0byBjb21tb24gcXVlc3Rpb25zLCBzb2x1dGlvbnMgdG8gY29tbW9uIHByb2JsZW1zLCBhbmQgcmVjb21tZW5kYXRpb25zIGZvciBjcml0aWNhbCBkZWNpc2lvbnMgdGhhdCB0aGUgdXNlciBtYXkgZmFjZS4KCkFsbCBjaGFuZ2VzIHRvIHRoZSBjb3JlIGNvZGViYXNlIChleGNsdWRpbmcgdGVzdHMsIGF1eGlsaWFyeSBzY3JpcHRzLCBldGMuKSBtdXN0IGJlIGRvY3VtZW50ZWQgaW4gYSBjaGFuZ2Vsb2csIGV4Y2VwdCBmb3IgcHVyZWx5IGNvc21ldGljIG9yIGRvY3VtZW50YXRpb24gY2hhbmdlcy4KCiMjIFBlZXIgcmV2aWV3CgpBbGwgY2hhbmdlcyBtdXN0IGJlIHN1Ym1pdHRlZCB0aHJvdWdoIHB1bGwgcmVxdWVzdHMgYW5kIGdvIHRocm91Z2ggcGVlciBjb2RlIHJldmlldy4KClRoZSByZXZpZXcgbXVzdCBiZSBhcHByb2FjaGVkIGJ5IHRoZSByZXZpZXdlciBpbiBhIHNpbWlsYXIgd2F5IGFzIGlmIGl0IHdhcyBhbiBhdWRpdCBvZiB0aGUgY29kZSBpbiBxdWVzdGlvbiAoYnV0IGltcG9ydGFudGx5IGl0IGlzIG5vdCBhIHN1YnN0aXR1dGUgZm9yIGFuZCBzaG91bGQgbm90IGJlIGNvbnNpZGVyZWQgYW4gYXVkaXQpLgoKUmV2aWV3ZXJzIHNob3VsZCBlbmZvcmNlIGNvZGUgYW5kIHByb2plY3QgZ3VpZGVsaW5lcy4KCkV4dGVybmFsIGNvbnRyaWJ1dGlvbnMgbXVzdCBiZSByZXZpZXdlZCBzZXBhcmF0ZWx5IGJ5IG11bHRpcGxlIG1haW50YWluZXJzLgoKIyMgQXV0b21hdGlvbgoKQXV0b21hdGlvbiBzaG91bGQgYmUgdXNlZCBhcyBtdWNoIGFzIHBvc3NpYmxlIHRvIHJlZHVjZSB0aGUgcG9zc2liaWxpdHkgb2YgaHVtYW4gZXJyb3IgYW5kIGZvcmdldGZ1bG5lc3MuCgpBdXRvbWF0aW9ucyB0aGF0IG1ha2UgdXNlIG9mIHNlbnNpdGl2ZSBjcmVkZW50aWFscyBtdXN0IHVzZSBzZWN1cmUgc2VjcmV0IG1hbmFnZW1lbnQsIGFuZCBtdXN0IGJlIHN0cmVuZ3RoZW5lZCBhZ2FpbnN0IGF0dGFja3Mgc3VjaCBhcyBbdGhvc2Ugb24gR2l0SHViIEFjdGlvbnMgd29ya2xvd3NdKGh0dHBzOi8vZ2l0aHViLmNvbS9uaWtpdGFzdHVwaW4vcHduaHViKS4KClNvbWUgb3RoZXIgZXhhbXBsZXMgb2YgYXV0b21hdGlvbiBhcmU6CgotIExvb2tpbmcgZm9yIGNvbW1vbiBzZWN1cml0eSB2dWxuZXJhYmlsaXRpZXMgb3IgZXJyb3JzIGluIG91ciBjb2RlIChlZy4gcmVlbnRyYW5jeSBhbmFseXNpcykuCi0gS2VlcGluZyBkZXBlbmRlbmNpZXMgdXAgdG8gZGF0ZSBhbmQgbW9uaXRvcmluZyBmb3IgdnVsbmVyYWJsZSBkZXBlbmRlbmNpZXMuCgojIyBQdWxsIHJlcXVlc3RzCgpQdWxsIHJlcXVlc3RzIGFyZSBzcXVhc2gtbWVyZ2VkIHRvIGtlZXAgdGhlIGBtYXN0ZXJgIGJyYW5jaCBoaXN0b3J5IGNsZWFuLiBUaGUgdGl0bGUgb2YgdGhlIHB1bGwgcmVxdWVzdCBiZWNvbWVzIHRoZSBjb21taXQgbWVzc2FnZSwgc28gaXQgc2hvdWxkIGJlIHdyaXR0ZW4gaW4gYSBjb25zaXN0ZW50IGZvcm1hdDoKCjEpIEJlZ2luIHdpdGggYSBjYXBpdGFsIGxldHRlci4KMikgRG8gbm90IGVuZCB3aXRoIGEgcGVyaW9kLgozKSBXcml0ZSBpbiB0aGUgaW1wZXJhdGl2ZTogIkFkZCBmZWF0dXJlIFgiIGFuZCBub3QgIkFkZHMgZmVhdHVyZSBYIiBvciAiQWRkZWQgZmVhdHVyZSBYIi4KClRoaXMgcmVwb3NpdG9yeSBkb2VzIG5vdCBmb2xsb3cgY29udmVudGlvbmFsIGNvbW1pdHMsIHNvIGRvIG5vdCBwcmVmaXggdGhlIHRpdGxlIHdpdGggImZpeDoiIG9yICJmZWF0OiIuCgpXb3JrIGluIHByb2dyZXNzIHB1bGwgcmVxdWVzdHMgc2hvdWxkIGJlIHN1Ym1pdHRlZCBhcyBEcmFmdHMgYW5kIHNob3VsZCBub3QgYmUgcHJlZml4ZWQgd2l0aCAiV0lQOiIuCgpCcmFuY2ggbmFtZXMgZG9uJ3QgbWF0dGVyLCBhbmQgY29tbWl0IG1lc3NhZ2VzIHdpdGhpbiBhIHB1bGwgcmVxdWVzdCBtb3N0bHkgZG9uJ3QgbWF0dGVyIGVpdGhlciwgYWx0aG91Z2ggdGhleSBjYW4gaGVscCB0aGUgcmV2aWV3IHByb2Nlc3MuCgojIFNvbGlkaXR5IENvbnZlbnRpb25zCgpJbiBhZGRpdGlvbiB0byB0aGUgb2ZmaWNpYWwgU29saWRpdHkgU3R5bGUgR3VpZGUgd2UgaGF2ZSBhIG51bWJlciBvZiBvdGhlciBjb252ZW50aW9ucyB0aGF0IG11c3QgYmUgZm9sbG93ZWQuCgoqIEFsbCBzdGF0ZSB2YXJpYWJsZXMgc2hvdWxkIGJlIHByaXZhdGUuCgogIENoYW5nZXMgdG8gc3RhdGUgc2hvdWxkIGJlIGFjY29tcGFuaWVkIGJ5IGV2ZW50cywgYW5kIGluIHNvbWUgY2FzZXMgaXQgaXMgbm90IGNvcnJlY3QgdG8gYXJiaXRyYXJpbHkgc2V0IHN0YXRlLiBFbmNhcHN1bGF0aW5nIHZhcmlhYmxlcyBhcyBwcml2YXRlIGFuZCBvbmx5IGFsbG93aW5nIG1vZGlmaWNhdGlvbiB2aWEgc2V0dGVycyBlbmFibGVzIHVzIHRvIGVuc3VyZSB0aGF0IGV2ZW50cyBhbmQgb3RoZXIgcnVsZXMgYXJlIGZvbGxvd2VkIHJlbGlhYmx5IGFuZCBwcmV2ZW50cyB0aGlzIGtpbmQgb2YgdXNlciBlcnJvci4KCiogSW50ZXJuYWwgb3IgcHJpdmF0ZSBzdGF0ZSB2YXJpYWJsZXMgb3IgZnVuY3Rpb25zIHNob3VsZCBoYXZlIGFuIHVuZGVyc2NvcmUgcHJlZml4LgoKICBgYGBzb2xpZGl0eQogIGNvbnRyYWN0IFRlc3RDb250cmFjdCB7CiAgICAgIHVpbnQyNTYgcHJpdmF0ZSBfcHJpdmF0ZVZhcjsKICAgICAgdWludDI1NiBpbnRlcm5hbCBfaW50ZXJuYWxWYXI7CiAgICAgIGZ1bmN0aW9uIF90ZXN0SW50ZXJuYWwoKSBpbnRlcm5hbCB7IC4uLiB9CiAgICAgIGZ1bmN0aW9uIF90ZXN0UHJpdmF0ZSgpIHByaXZhdGUgeyAuLi4gfQogIH0KICBgYGAKCiogRnVuY3Rpb25zIHNob3VsZCBiZSBkZWNsYXJlZCB2aXJ0dWFsLCB3aXRoIGZldyBleGNlcHRpb25zIGxpc3RlZCBiZWxvdy4gVGhlCiAgY29udHJhY3QgbG9naWMgc2hvdWxkIGJlIHdyaXR0ZW4gY29uc2lkZXJpbmcgdGhhdCB0aGVzZSBmdW5jdGlvbnMgbWF5IGJlCiAgb3ZlcnJpZGRlbiBieSBkZXZlbG9wZXJzLCBlLmcuIGdldHRpbmcgYSB2YWx1ZSB1c2luZyBhbiBpbnRlcm5hbCBnZXR0ZXIgcmF0aGVyCiAgdGhhbiByZWFkaW5nIGRpcmVjdGx5IGZyb20gYSBzdGF0ZSB2YXJpYWJsZS4KCiAgSWYgZnVuY3Rpb24gQSBpcyBhbiAiYWxpYXMiIG9mIGZ1bmN0aW9uIEIsIGkuZS4gaXQgaW52b2tlcyBmdW5jdGlvbiBCIHdpdGhvdXQKICBzaWduaWZpY2FudCBhZGRpdGlvbmFsIGxvZ2ljLCB0aGVuIGZ1bmN0aW9uIEEgc2hvdWxkIG5vdCBiZSB2aXJ0dWFsIHNvIHRoYXQKICBhbnkgdXNlciBvdmVycmlkZXMgYXJlIGltcGxlbWVudGVkIG9uIEIsIHByZXZlbnRpbmcgaW5jb25zaXN0ZW5jaWVzLgoKKiBFdmVudHMgc2hvdWxkIGdlbmVyYWxseSBiZSBlbWl0dGVkIGltbWVkaWF0ZWx5IGFmdGVyIHRoZSBzdGF0ZSBjaGFuZ2UgdGhhdCB0aGV5CiAgcmVwcmVzZW50LCBhbmQgc2hvdWxkIGJlIG5hbWVkIGluIHRoZSBwYXN0IHRlbnNlLiBTb21lIGV4Y2VwdGlvbnMgbWF5IGJlIG1hZGUgZm9yIGdhcwogIGVmZmljaWVuY3kgaWYgdGhlIHJlc3VsdCBkb2Vzbid0IGFmZmVjdCBvYnNlcnZhYmxlIG9yZGVyaW5nIG9mIGV2ZW50cy4KCiAgYGBgc29saWRpdHkKICBmdW5jdGlvbiBfYnVybihhZGRyZXNzIHdobywgdWludDI1NiB2YWx1ZSkgaW50ZXJuYWwgewogICAgICBzdXBlci5fYnVybih3aG8sIHZhbHVlKTsKICAgICAgZW1pdCBUb2tlbnNCdXJuZWQod2hvLCB2YWx1ZSk7CiAgfQogIGBgYAoKICBTb21lIHN0YW5kYXJkcyAoZS5nLiBFUkMtMjApIHVzZSBwcmVzZW50IHRlbnNlLCBhbmQgaW4gdGhvc2UgY2FzZXMgdGhlCiAgc3RhbmRhcmQgc3BlY2lmaWNhdGlvbiBpcyB1c2VkLgogIAoqIEludGVyZmFjZSBuYW1lcyBzaG91bGQgaGF2ZSBhIGNhcGl0YWwgSSBwcmVmaXguCgogIGBgYHNvbGlkaXR5CiAgaW50ZXJmYWNlIElFUkM3NzcgewogIGBgYAoKKiBDb250cmFjdHMgbm90IGludGVuZGVkIHRvIGJlIHVzZWQgc3RhbmRhbG9uZSBzaG91bGQgYmUgbWFya2VkIGFic3RyYWN0CiAgc28gdGhleSBhcmUgcmVxdWlyZWQgdG8gYmUgaW5oZXJpdGVkIHRvIG90aGVyIGNvbnRyYWN0cy4KCiAgYGBgc29saWRpdHkKICBhYnN0cmFjdCBjb250cmFjdCBBY2Nlc3NDb250cm9sIGlzIC4uLiwgewogIGBgYAoKKiBVbmNoZWNrZWQgYXJpdGhtZXRpYyBibG9ja3Mgc2hvdWxkIGNvbnRhaW4gY29tbWVudHMgZXhwbGFpbmluZyB3aHkgb3ZlcmZsb3cgaXMgZ3VhcmFudGVlZCBub3QgdG8gaGFwcGVuLiBJZiB0aGUgcmVhc29uIGlzIGltbWVkaWF0ZWx5IGFwcGFyZW50IGZyb20gdGhlIGxpbmUgYWJvdmUgdGhlIHVuY2hlY2tlZCBibG9jaywgdGhlIGNvbW1lbnQgbWF5IGJlIG9taXR0ZWQuCgoqIEN1c3RvbSBlcnJvcnMgc2hvdWxkIGJlIGRlY2xhcmVkIGZvbGxvd2luZyB0aGUgW0VJUC02MDkzXShodHRwczovL2VpcHMuZXRoZXJldW0ub3JnL0VJUFMvZWlwLTYwOTMpIHJhdGlvbmFsZSB3aGVuZXZlciByZWFzb25hYmxlLiBBbHNvLCBjb25zaWRlciB0aGUgZm9sbG93aW5nOgogIAogICogVGhlIGRvbWFpbiBwcmVmaXggc2hvdWxkIGJlIHBpY2tlZCBpbiB0aGUgZm9sbG93aW5nIG9yZGVyOgogICAgMS4gVXNlIGBFUkM8bnVtYmVyPmAgaWYgdGhlIGVycm9yIGlzIGEgdmlvbGF0aW9uIG9mIGFuIEVSQyBzcGVjaWZpY2F0aW9uLgogICAgMi4gVXNlIHRoZSBuYW1lIG9mIHRoZSB1bmRlcmx5aW5nIGNvbXBvbmVudCB3aGVyZSBpdCBiZWxvbmdzIChlZy4gYEdvdmVybm9yYCwgYEVDRFNBYCwgb3IgYFRpbWVsb2NrYCkuCgogICogVGhlIGxvY2F0aW9uIG9mIGN1c3RvbSBlcnJvcnMgc2hvdWxkIGJlIGRlY2lkZWQgaW4gdGhlIGZvbGxvd2luZyBvcmRlcjoKICAgIDEuIFRha2UgdGhlIGVycm9ycyBmcm9tIHRoZWlyIHVuZGVybHlpbmcgRVJDcyBpZiB0aGV5J3JlIGFscmVhZHkgZGVmaW5lZC4KICAgIDIuIERlY2xhcmUgdGhlIGVycm9ycyBpbiB0aGUgdW5kZXJseWluZyBpbnRlcmZhY2UvbGlicmFyeSBpZiB0aGUgZXJyb3IgbWFrZXMgc2Vuc2UgaW4gaXRzIGNvbnRleHQuCiAgICAzLiBEZWNsYXJlIHRoZSBlcnJvciBpbiB0aGUgaW1wbGVtZW50YXRpb24gaWYgdGhlIHVuZGVybHlpbmcgaW50ZXJmYWNlL2xpYnJhcnkgaXMgbm90IHN1aXRhYmxlIHRvIGRvIHNvIChlZy4gaW50ZXJmYWNlL2xpYnJhcnkgYWxyZWFkeSBzcGVjaWZpZWQgaW4gYW4gRVJDKS4KICAgIDQuIERlY2xhcmUgdGhlIGVycm9yIGluIGFuIGV4dGVuc2lvbiBpZiB0aGUgZXJyb3Igb25seSBoYXBwZW5zIGluIHN1Y2ggZXh0ZW5zaW9uIG9yIGNoaWxkIGNvbnRyYWN0cy4KCiAgKiBDdXN0b20gZXJyb3IgbmFtZXMgc2hvdWxkIG5vdCBiZSBkZWNsYXJlZCB0d2ljZSBhbG9uZyB0aGUgbGlicmFyeSB0byBhdm9pZCBkdXBsaWNhdGVkIGlkZW50aWZpZXIgZGVjbGFyYXRpb25zIHdoZW4gaW5oZXJpdGluZyBmcm9tIG11bHRpcGxlIGNvbnRyYWN0cy4K
+# Engineering Guidelines
+
+## Testing
+
+Code must be thoroughly tested with quality unit tests.
+
+We defer to the [Moloch Testing Guide](https://github.com/MolochVentures/moloch/tree/master/test#readme) for specific recommendations, though not all of it is relevant here. Note the introduction:
+
+> Tests should be written, not only to verify correctness of the target code, but to be comprehensively reviewed by other programmers. Therefore, for mission critical Solidity code, the quality of the tests are just as important (if not more so) than the code itself, and should be written with the highest standards of clarity and elegance.
+
+Every addition or change to the code must come with relevant and comprehensive tests.
+
+Refactors should avoid simultaneous changes to tests.
+
+Flaky tests are not acceptable.
+
+The test suite should run automatically for every change in the repository, and in pull requests tests must pass before merging.
+
+The test suite coverage must be kept as close to 100% as possible, enforced in pull requests.
+
+In some cases unit tests may be insufficient and complementary techniques should be used:
+
+1. Property-based tests (aka. fuzzing) for math-heavy code.
+2. Formal verification for state machines.
+
+## Code style
+
+Solidity code should be written in a consistent format enforced by a linter, following the official [Solidity Style Guide](https://docs.soliditylang.org/en/latest/style-guide.html). See below for further [Solidity Conventions](#solidity-conventions).
+
+The code should be simple and straightforward, prioritizing readability and understandability. Consistency and predictability should be maintained across the codebase. In particular, this applies to naming, which should be systematic, clear, and concise.
+
+Sometimes these guidelines may be broken if doing so brings significant efficiency gains, but explanatory comments should be added.
+
+Modularity should be pursued, but not at the cost of the above priorities.
+
+## Documentation
+
+For contributors, project guidelines and processes must be documented publicly.
+
+For users, features must be abundantly documented. Documentation should include answers to common questions, solutions to common problems, and recommendations for critical decisions that the user may face.
+
+All changes to the core codebase (excluding tests, auxiliary scripts, etc.) must be documented in a changelog, except for purely cosmetic or documentation changes.
+
+## Peer review
+
+All changes must be submitted through pull requests and go through peer code review.
+
+The review must be approached by the reviewer in a similar way as if it was an audit of the code in question (but importantly it is not a substitute for and should not be considered an audit).
+
+Reviewers should enforce code and project guidelines.
+
+External contributions must be reviewed separately by multiple maintainers.
+
+## Automation
+
+Automation should be used as much as possible to reduce the possibility of human error and forgetfulness.
+
+Automations that make use of sensitive credentials must use secure secret management, and must be strengthened against attacks such as [those on GitHub Actions worklows](https://github.com/nikitastupin/pwnhub).
+
+Some other examples of automation are:
+
+- Looking for common security vulnerabilities or errors in our code (eg. reentrancy analysis).
+- Keeping dependencies up to date and monitoring for vulnerable dependencies.
+
+## Pull requests
+
+Pull requests are squash-merged to keep the `master` branch history clean. The title of the pull request becomes the commit message, so it should be written in a consistent format:
+
+1) Begin with a capital letter.
+2) Do not end with a period.
+3) Write in the imperative: "Add feature X" and not "Adds feature X" or "Added feature X".
+
+This repository does not follow conventional commits, so do not prefix the title with "fix:" or "feat:".
+
+Work in progress pull requests should be submitted as Drafts and should not be prefixed with "WIP:".
+
+Branch names don't matter, and commit messages within a pull request mostly don't matter either, although they can help the review process.
+
+# Solidity Conventions
+
+In addition to the official Solidity Style Guide we have a number of other conventions that must be followed.
+
+* All state variables should be private.
+
+  Changes to state should be accompanied by events, and in some cases it is not correct to arbitrarily set state. Encapsulating variables as private and only allowing modification via setters enables us to ensure that events and other rules are followed reliably and prevents this kind of user error.
+
+* Internal or private state variables or functions should have an underscore prefix.
+
+  ```solidity
+  contract TestContract {
+      uint256 private _privateVar;
+      uint256 internal _internalVar;
+      function _testInternal() internal { ... }
+      function _testPrivate() private { ... }
+  }
+  ```
+
+* Functions should be declared virtual, with few exceptions listed below. The
+  contract logic should be written considering that these functions may be
+  overridden by developers, e.g. getting a value using an internal getter rather
+  than reading directly from a state variable.
+
+  If function A is an "alias" of function B, i.e. it invokes function B without
+  significant additional logic, then function A should not be virtual so that
+  any user overrides are implemented on B, preventing inconsistencies.
+
+* Events should generally be emitted immediately after the state change that they
+  represent, and should be named in the past tense. Some exceptions may be made for gas
+  efficiency if the result doesn't affect observable ordering of events.
+
+  ```solidity
+  function _burn(address who, uint256 value) internal {
+      super._burn(who, value);
+      emit TokensBurned(who, value);
+  }
+  ```
+
+  Some standards (e.g. ERC-20) use present tense, and in those cases the
+  standard specification is used.
+  
+* Interface names should have a capital I prefix.
+
+  ```solidity
+  interface IERC777 {
+  ```
+
+* Contracts not intended to be used standalone should be marked abstract
+  so they are required to be inherited to other contracts.
+
+  ```solidity
+  abstract contract AccessControl is ..., {
+  ```
+
+* Unchecked arithmetic blocks should contain comments explaining why overflow is guaranteed not to happen. If the reason is immediately apparent from the line above the unchecked block, the comment may be omitted.
+
+* Custom errors should be declared following the [EIP-6093](https://eips.ethereum.org/EIPS/eip-6093) rationale whenever reasonable. Also, consider the following:
+  
+  * The domain prefix should be picked in the following order:
+    1. Use `ERC<number>` if the error is a violation of an ERC specification.
+    2. Use the name of the underlying component where it belongs (eg. `Governor`, `ECDSA`, or `Timelock`).
+
+  * The location of custom errors should be decided in the following order:
+    1. Take the errors from their underlying ERCs if they're already defined.
+    2. Declare the errors in the underlying interface/library if the error makes sense in its context.
+    3. Declare the error in the implementation if the underlying interface/library is not suitable to do so (eg. interface/library already specified in an ERC).
+    4. Declare the error in an extension if the error only happens in such extension or child contracts.
+
+  * Custom error names should not be declared twice along the library to avoid duplicated identifier declarations when inheriting from multiple contracts.
