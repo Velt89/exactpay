@@ -1,1 +1,3 @@
-bWV0aG9kcyB7CiAgICBmdW5jdGlvbiBvd25lcigpIGV4dGVybmFsIHJldHVybnMgKGFkZHJlc3MpIGVudmZyZWU7Cn0K
+methods {
+    function owner() external returns (address) envfree;
+}
