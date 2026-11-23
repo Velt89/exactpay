@@ -1,1 +1,213 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBQQU5JQ19DT0RFUyB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LWNoYWktbWF0Y2hlcnMvcGFuaWMnKTsKY29uc3QgeyBTaW1wbGVNZXJrbGVUcmVlIH0gPSByZXF1aXJlKCdAb3BlbnplcHBlbGluL21lcmtsZS10cmVlJyk7CgovLyBnZW5lcmF0ZSBieXRlczMyIGxlYXZlcyBmcm9tIGEgc3RyaW5nCmNvbnN0IHRvTGVhdmVzID0gKHN0ciwgc2VwYXJhdG9yID0gJycpID0+IHN0ci5zcGxpdChzZXBhcmF0b3IpLm1hcChlID0+IGV0aGVycy5rZWNjYWsyNTYoZXRoZXJzLnRvVXRmOEJ5dGVzKGUpKSk7Ci8vIGludGVybmFsIG5vZGUgaGFzaGVzCmNvbnN0IGNvbmNhdFNvcnRlZCA9ICguLi5lbGVtZW50cykgPT4gQnVmZmVyLmNvbmNhdChlbGVtZW50cy5tYXAoZXRoZXJzLmdldEJ5dGVzKS5zb3J0KEJ1ZmZlci5jb21wYXJlKSk7CmNvbnN0IGRlZmF1bHRIYXNoID0gKGEsIGIpID0+IGV0aGVycy5rZWNjYWsyNTYoY29uY2F0U29ydGVkKGEsIGIpKTsKY29uc3QgY3VzdG9tSGFzaCA9IChhLCBiKSA9PiBldGhlcnMuc2hhMjU2KGNvbmNhdFNvcnRlZChhLCBiKSk7CgpkZXNjcmliZSgnTWVya2xlUHJvb2YnLCBmdW5jdGlvbiAoKSB7CiAgZm9yIChjb25zdCB7IHRpdGxlLCBjb250cmFjdE5hbWUsIG5vZGVIYXNoIH0gb2YgWwogICAgeyB0aXRsZTogJ2RlZmF1bHQgaGFzaCcsIGNvbnRyYWN0TmFtZTogJyRNZXJrbGVQcm9vZicsIG5vZGVIYXNoOiBkZWZhdWx0SGFzaCB9LAogICAgeyB0aXRsZTogJ2N1c3RvbSBoYXNoJywgY29udHJhY3ROYW1lOiAnJE1lcmtsZVByb29mQ3VzdG9tSGFzaE1vY2snLCBub2RlSGFzaDogY3VzdG9tSGFzaCB9LAogIF0pIHsKICAgIGRlc2NyaWJlKHRpdGxlLCBmdW5jdGlvbiAoKSB7CiAgICAgIC8vIHN0YXRlbGVzczogbm8gbmVlZCBmb3IgYSBmaXh0dXJlLCBqdXN0IHVzZSBiZWZvcmUKICAgICAgYmVmb3JlKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICB0aGlzLm1vY2sgPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoY29udHJhY3ROYW1lKTsKICAgICAgICB0aGlzLm1ha2VUcmVlID0gc3RyID0+IFNpbXBsZU1lcmtsZVRyZWUub2YodG9MZWF2ZXMoc3RyKSwgeyBub2RlSGFzaCB9KTsKICAgICAgfSk7CgogICAgICBkZXNjcmliZSgndmVyaWZ5JywgZnVuY3Rpb24gKCkgewogICAgICAgIGl0KCdyZXR1cm5zIHRydWUgZm9yIGEgdmFsaWQgTWVya2xlIHByb29mJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgY29uc3QgbWVya2xlVHJlZSA9IHRoaXMubWFrZVRyZWUoJ0FCQ0RFRkdISUpLTE1OT1BRUlNUVVZXWFlaYWJjZGVmZ2hpamtsbW5vcHFyc3R1dnd4eXowMTIzNDU2Nzg5Ky89Jyk7CgogICAgICAgICAgY29uc3Qgcm9vdCA9IG1lcmtsZVRyZWUucm9vdDsKICAgICAgICAgIGNvbnN0IGhhc2ggPSBtZXJrbGVUcmVlLmF0KDApOwogICAgICAgICAgY29uc3QgcHJvb2YgPSBtZXJrbGVUcmVlLmdldFByb29mKDApOwoKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJHByb2Nlc3NQcm9vZihwcm9vZiwgaGFzaCkpLnRvLmVxdWFsKHJvb3QpOwogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kcHJvY2Vzc1Byb29mQ2FsbGRhdGEocHJvb2YsIGhhc2gpKS50by5lcXVhbChyb290KTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJHZlcmlmeShwcm9vZiwgcm9vdCwgaGFzaCkpLnRvLmJlLnRydWU7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiR2ZXJpZnlDYWxsZGF0YShwcm9vZiwgcm9vdCwgaGFzaCkpLnRvLmJlLnRydWU7CgogICAgICAgICAgLy8gRm9yIGRlbW9uc3RyYXRpb24sIGl0IGlzIGFsc28gcG9zc2libGUgdG8gY3JlYXRlIHZhbGlkIHByb29mcyBmb3IgY2VydGFpbiA2NC1ieXRlIHZhbHVlcyAqbm90KiBpbiBlbGVtZW50czoKICAgICAgICAgIGNvbnN0IG5vU3VjaExlYWYgPSBub2RlSGFzaChoYXNoLCBwcm9vZi5hdCgwKSk7CgogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kcHJvY2Vzc1Byb29mKHByb29mLnNsaWNlKDEpLCBub1N1Y2hMZWFmKSkudG8uZXF1YWwocm9vdCk7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRwcm9jZXNzUHJvb2ZDYWxsZGF0YShwcm9vZi5zbGljZSgxKSwgbm9TdWNoTGVhZikpLnRvLmVxdWFsKHJvb3QpOwogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kdmVyaWZ5KHByb29mLnNsaWNlKDEpLCByb290LCBub1N1Y2hMZWFmKSkudG8uYmUudHJ1ZTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJHZlcmlmeUNhbGxkYXRhKHByb29mLnNsaWNlKDEpLCByb290LCBub1N1Y2hMZWFmKSkudG8uYmUudHJ1ZTsKICAgICAgICB9KTsKCiAgICAgICAgaXQoJ3JldHVybnMgZmFsc2UgZm9yIGFuIGludmFsaWQgTWVya2xlIHByb29mJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgY29uc3QgY29ycmVjdE1lcmtsZVRyZWUgPSB0aGlzLm1ha2VUcmVlKCdhYmMnKTsKICAgICAgICAgIGNvbnN0IG90aGVyTWVya2xlVHJlZSA9IHRoaXMubWFrZVRyZWUoJ2RlZicpOwoKICAgICAgICAgIGNvbnN0IHJvb3QgPSBjb3JyZWN0TWVya2xlVHJlZS5yb290OwogICAgICAgICAgY29uc3QgaGFzaCA9IGNvcnJlY3RNZXJrbGVUcmVlLmF0KDApOwogICAgICAgICAgY29uc3QgcHJvb2YgPSBvdGhlck1lcmtsZVRyZWUuZ2V0UHJvb2YoMCk7CgogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kcHJvY2Vzc1Byb29mKHByb29mLCBoYXNoKSkudG8ubm90LmVxdWFsKHJvb3QpOwogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kcHJvY2Vzc1Byb29mQ2FsbGRhdGEocHJvb2YsIGhhc2gpKS50by5ub3QuZXF1YWwocm9vdCk7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiR2ZXJpZnkocHJvb2YsIHJvb3QsIGhhc2gpKS50by5iZS5mYWxzZTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJHZlcmlmeUNhbGxkYXRhKHByb29mLCByb290LCBoYXNoKSkudG8uYmUuZmFsc2U7CiAgICAgICAgfSk7CgogICAgICAgIGl0KCdyZXR1cm5zIGZhbHNlIGZvciBhIE1lcmtsZSBwcm9vZiBvZiBpbnZhbGlkIGxlbmd0aCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGNvbnN0IG1lcmtsZVRyZWUgPSB0aGlzLm1ha2VUcmVlKCdhYmMnKTsKCiAgICAgICAgICBjb25zdCByb290ID0gbWVya2xlVHJlZS5yb290OwogICAgICAgICAgY29uc3QgaGFzaCA9IG1lcmtsZVRyZWUuYXQoMCk7CiAgICAgICAgICBjb25zdCBwcm9vZiA9IG1lcmtsZVRyZWUuZ2V0UHJvb2YoMCk7CiAgICAgICAgICBjb25zdCBiYWRQcm9vZiA9IHByb29mLnNsaWNlKDAsIC0xKTsKCiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRwcm9jZXNzUHJvb2YoYmFkUHJvb2YsIGhhc2gpKS50by5ub3QuZXF1YWwocm9vdCk7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRwcm9jZXNzUHJvb2ZDYWxsZGF0YShiYWRQcm9vZiwgaGFzaCkpLnRvLm5vdC5lcXVhbChyb290KTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJHZlcmlmeShiYWRQcm9vZiwgcm9vdCwgaGFzaCkpLnRvLmJlLmZhbHNlOwogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kdmVyaWZ5Q2FsbGRhdGEoYmFkUHJvb2YsIHJvb3QsIGhhc2gpKS50by5iZS5mYWxzZTsKICAgICAgICB9KTsKICAgICAgfSk7CgogICAgICBkZXNjcmliZSgnbXVsdGlQcm9vZlZlcmlmeScsIGZ1bmN0aW9uICgpIHsKICAgICAgICBpdCgncmV0dXJucyB0cnVlIGZvciBhIHZhbGlkIE1lcmtsZSBtdWx0aSBwcm9vZicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGNvbnN0IG1lcmtsZVRyZWUgPSB0aGlzLm1ha2VUcmVlKCdhYmNkZWYnKTsKCiAgICAgICAgICBjb25zdCByb290ID0gbWVya2xlVHJlZS5yb290OwogICAgICAgICAgY29uc3QgeyBwcm9vZiwgcHJvb2ZGbGFncywgbGVhdmVzIH0gPSBtZXJrbGVUcmVlLmdldE11bHRpUHJvb2YodG9MZWF2ZXMoJ2JkZicpKTsKICAgICAgICAgIGNvbnN0IGhhc2hlcyA9IGxlYXZlcy5tYXAoZSA9PiBtZXJrbGVUcmVlLmxlYWZIYXNoKGUpKTsKCiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRwcm9jZXNzTXVsdGlQcm9vZihwcm9vZiwgcHJvb2ZGbGFncywgaGFzaGVzKSkudG8uZXF1YWwocm9vdCk7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRwcm9jZXNzTXVsdGlQcm9vZkNhbGxkYXRhKHByb29mLCBwcm9vZkZsYWdzLCBoYXNoZXMpKS50by5lcXVhbChyb290KTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJG11bHRpUHJvb2ZWZXJpZnkocHJvb2YsIHByb29mRmxhZ3MsIHJvb3QsIGhhc2hlcykpLnRvLmJlLnRydWU7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRtdWx0aVByb29mVmVyaWZ5Q2FsbGRhdGEocHJvb2YsIHByb29mRmxhZ3MsIHJvb3QsIGhhc2hlcykpLnRvLmJlLnRydWU7CiAgICAgICAgfSk7CgogICAgICAgIGl0KCdyZXR1cm5zIGZhbHNlIGZvciBhbiBpbnZhbGlkIE1lcmtsZSBtdWx0aSBwcm9vZicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGNvbnN0IG1lcmtsZVRyZWUgPSB0aGlzLm1ha2VUcmVlKCdhYmNkZWYnKTsKICAgICAgICAgIGNvbnN0IG90aGVyTWVya2xlVHJlZSA9IHRoaXMubWFrZVRyZWUoJ2doaScpOwoKICAgICAgICAgIGNvbnN0IHJvb3QgPSBtZXJrbGVUcmVlLnJvb3Q7CiAgICAgICAgICBjb25zdCB7IHByb29mLCBwcm9vZkZsYWdzLCBsZWF2ZXMgfSA9IG90aGVyTWVya2xlVHJlZS5nZXRNdWx0aVByb29mKHRvTGVhdmVzKCdnaGknKSk7CiAgICAgICAgICBjb25zdCBoYXNoZXMgPSBsZWF2ZXMubWFwKGUgPT4gbWVya2xlVHJlZS5sZWFmSGFzaChlKSk7CgogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kcHJvY2Vzc011bHRpUHJvb2YocHJvb2YsIHByb29mRmxhZ3MsIGhhc2hlcykpLnRvLm5vdC5lcXVhbChyb290KTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJHByb2Nlc3NNdWx0aVByb29mQ2FsbGRhdGEocHJvb2YsIHByb29mRmxhZ3MsIGhhc2hlcykpLnRvLm5vdC5lcXVhbChyb290KTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJG11bHRpUHJvb2ZWZXJpZnkocHJvb2YsIHByb29mRmxhZ3MsIHJvb3QsIGhhc2hlcykpLnRvLmJlLmZhbHNlOwogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kbXVsdGlQcm9vZlZlcmlmeUNhbGxkYXRhKHByb29mLCBwcm9vZkZsYWdzLCByb290LCBoYXNoZXMpKS50by5iZS5mYWxzZTsKICAgICAgICB9KTsKCiAgICAgICAgaXQoJ3JldmVydCB3aXRoIGludmFsaWQgbXVsdGkgcHJvb2YgIzEnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICBjb25zdCBtZXJrbGVUcmVlID0gdGhpcy5tYWtlVHJlZSgnYWJjZCcpOwoKICAgICAgICAgIGNvbnN0IHJvb3QgPSBtZXJrbGVUcmVlLnJvb3Q7CiAgICAgICAgICBjb25zdCBoYXNoQSA9IG1lcmtsZVRyZWUuYXQoMCk7CiAgICAgICAgICBjb25zdCBoYXNoQiA9IG1lcmtsZVRyZWUuYXQoMSk7CiAgICAgICAgICBjb25zdCBoYXNoQ0QgPSBub2RlSGFzaChtZXJrbGVUcmVlLmF0KDIpLCBtZXJrbGVUcmVlLmF0KDMpKTsKICAgICAgICAgIGNvbnN0IGhhc2hFID0gZXRoZXJzLnJhbmRvbUJ5dGVzKDMyKTsgLy8gaW5jb3JyZWN0IChub3QgcGFydCBvZiB0aGUgdHJlZSkKICAgICAgICAgIGNvbnN0IGZpbGwgPSBldGhlcnMucmFuZG9tQnl0ZXMoMzIpOwoKICAgICAgICAgIGF3YWl0IGV4cGVjdCgKICAgICAgICAgICAgdGhpcy5tb2NrLiRwcm9jZXNzTXVsdGlQcm9vZihbaGFzaEIsIGZpbGwsIGhhc2hDRF0sIFtmYWxzZSwgZmFsc2UsIGZhbHNlXSwgW2hhc2hBLCBoYXNoRV0pLAogICAgICAgICAgKS50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLm1vY2ssICdNZXJrbGVQcm9vZkludmFsaWRNdWx0aXByb29mJyk7CgogICAgICAgICAgYXdhaXQgZXhwZWN0KAogICAgICAgICAgICB0aGlzLm1vY2suJHByb2Nlc3NNdWx0aVByb29mQ2FsbGRhdGEoW2hhc2hCLCBmaWxsLCBoYXNoQ0RdLCBbZmFsc2UsIGZhbHNlLCBmYWxzZV0sIFtoYXNoQSwgaGFzaEVdKSwKICAgICAgICAgICkudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy5tb2NrLCAnTWVya2xlUHJvb2ZJbnZhbGlkTXVsdGlwcm9vZicpOwoKICAgICAgICAgIGF3YWl0IGV4cGVjdCgKICAgICAgICAgICAgdGhpcy5tb2NrLiRtdWx0aVByb29mVmVyaWZ5KFtoYXNoQiwgZmlsbCwgaGFzaENEXSwgW2ZhbHNlLCBmYWxzZSwgZmFsc2VdLCByb290LCBbaGFzaEEsIGhhc2hFXSksCiAgICAgICAgICApLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMubW9jaywgJ01lcmtsZVByb29mSW52YWxpZE11bHRpcHJvb2YnKTsKCiAgICAgICAgICBhd2FpdCBleHBlY3QoCiAgICAgICAgICAgIHRoaXMubW9jay4kbXVsdGlQcm9vZlZlcmlmeUNhbGxkYXRhKFtoYXNoQiwgZmlsbCwgaGFzaENEXSwgW2ZhbHNlLCBmYWxzZSwgZmFsc2VdLCByb290LCBbaGFzaEEsIGhhc2hFXSksCiAgICAgICAgICApLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMubW9jaywgJ01lcmtsZVByb29mSW52YWxpZE11bHRpcHJvb2YnKTsKICAgICAgICB9KTsKCiAgICAgICAgaXQoJ3JldmVydCB3aXRoIGludmFsaWQgbXVsdGkgcHJvb2YgIzInLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICBjb25zdCBtZXJrbGVUcmVlID0gdGhpcy5tYWtlVHJlZSgnYWJjZCcpOwoKICAgICAgICAgIGNvbnN0IHJvb3QgPSBtZXJrbGVUcmVlLnJvb3Q7CiAgICAgICAgICBjb25zdCBoYXNoQSA9IG1lcmtsZVRyZWUuYXQoMCk7CiAgICAgICAgICBjb25zdCBoYXNoQiA9IG1lcmtsZVRyZWUuYXQoMSk7CiAgICAgICAgICBjb25zdCBoYXNoQ0QgPSBub2RlSGFzaChtZXJrbGVUcmVlLmF0KDIpLCBtZXJrbGVUcmVlLmF0KDMpKTsKICAgICAgICAgIGNvbnN0IGhhc2hFID0gZXRoZXJzLnJhbmRvbUJ5dGVzKDMyKTsgLy8gaW5jb3JyZWN0IChub3QgcGFydCBvZiB0aGUgdHJlZSkKICAgICAgICAgIGNvbnN0IGZpbGwgPSBldGhlcnMucmFuZG9tQnl0ZXMoMzIpOwoKICAgICAgICAgIGF3YWl0IGV4cGVjdCgKICAgICAgICAgICAgdGhpcy5tb2NrLiRwcm9jZXNzTXVsdGlQcm9vZihbaGFzaEIsIGZpbGwsIGhhc2hDRF0sIFtmYWxzZSwgZmFsc2UsIGZhbHNlLCBmYWxzZV0sIFtoYXNoRSwgaGFzaEFdKSwKICAgICAgICAgICkudG8uYmUucmV2ZXJ0ZWRXaXRoUGFuaWMoUEFOSUNfQ09ERVMuQVJSQVlfQUNDRVNTX09VVF9PRl9CT1VORFMpOwoKICAgICAgICAgIGF3YWl0IGV4cGVjdCgKICAgICAgICAgICAgdGhpcy5tb2NrLiRwcm9jZXNzTXVsdGlQcm9vZkNhbGxkYXRhKFtoYXNoQiwgZmlsbCwgaGFzaENEXSwgW2ZhbHNlLCBmYWxzZSwgZmFsc2UsIGZhbHNlXSwgW2hhc2hFLCBoYXNoQV0pLAogICAgICAgICAgKS50by5iZS5yZXZlcnRlZFdpdGhQYW5pYyhQQU5JQ19DT0RFUy5BUlJBWV9BQ0NFU1NfT1VUX09GX0JPVU5EUyk7CgogICAgICAgICAgYXdhaXQgZXhwZWN0KAogICAgICAgICAgICB0aGlzLm1vY2suJG11bHRpUHJvb2ZWZXJpZnkoW2hhc2hCLCBmaWxsLCBoYXNoQ0RdLCBbZmFsc2UsIGZhbHNlLCBmYWxzZSwgZmFsc2VdLCByb290LCBbaGFzaEUsIGhhc2hBXSksCiAgICAgICAgICApLnRvLmJlLnJldmVydGVkV2l0aFBhbmljKFBBTklDX0NPREVTLkFSUkFZX0FDQ0VTU19PVVRfT0ZfQk9VTkRTKTsKCiAgICAgICAgICBhd2FpdCBleHBlY3QoCiAgICAgICAgICAgIHRoaXMubW9jay4kbXVsdGlQcm9vZlZlcmlmeUNhbGxkYXRhKFtoYXNoQiwgZmlsbCwgaGFzaENEXSwgW2ZhbHNlLCBmYWxzZSwgZmFsc2UsIGZhbHNlXSwgcm9vdCwgWwogICAgICAgICAgICAgIGhhc2hFLAogICAgICAgICAgICAgIGhhc2hBLAogICAgICAgICAgICBdKSwKICAgICAgICAgICkudG8uYmUucmV2ZXJ0ZWRXaXRoUGFuaWMoUEFOSUNfQ09ERVMuQVJSQVlfQUNDRVNTX09VVF9PRl9CT1VORFMpOwogICAgICAgIH0pOwoKICAgICAgICBpdCgnbGltaXQgY2FzZTogd29ya3MgZm9yIHRyZWUgY29udGFpbmluZyBhIHNpbmdsZSBsZWFmJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgY29uc3QgbWVya2xlVHJlZSA9IHRoaXMubWFrZVRyZWUoJ2EnKTsKCiAgICAgICAgICBjb25zdCByb290ID0gbWVya2xlVHJlZS5yb290OwogICAgICAgICAgY29uc3QgeyBwcm9vZiwgcHJvb2ZGbGFncywgbGVhdmVzIH0gPSBtZXJrbGVUcmVlLmdldE11bHRpUHJvb2YodG9MZWF2ZXMoJ2EnKSk7CiAgICAgICAgICBjb25zdCBoYXNoZXMgPSBsZWF2ZXMubWFwKGUgPT4gbWVya2xlVHJlZS5sZWFmSGFzaChlKSk7CgogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kcHJvY2Vzc011bHRpUHJvb2YocHJvb2YsIHByb29mRmxhZ3MsIGhhc2hlcykpLnRvLmVxdWFsKHJvb3QpOwogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kcHJvY2Vzc011bHRpUHJvb2ZDYWxsZGF0YShwcm9vZiwgcHJvb2ZGbGFncywgaGFzaGVzKSkudG8uZXF1YWwocm9vdCk7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRtdWx0aVByb29mVmVyaWZ5KHByb29mLCBwcm9vZkZsYWdzLCByb290LCBoYXNoZXMpKS50by5iZS50cnVlOwogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kbXVsdGlQcm9vZlZlcmlmeUNhbGxkYXRhKHByb29mLCBwcm9vZkZsYWdzLCByb290LCBoYXNoZXMpKS50by5iZS50cnVlOwogICAgICAgIH0pOwoKICAgICAgICBpdCgnbGltaXQgY2FzZTogY2FuIHByb3ZlIGVtcHR5IGxlYXZlcycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGNvbnN0IG1lcmtsZVRyZWUgPSB0aGlzLm1ha2VUcmVlKCdhYmNkJyk7CgogICAgICAgICAgY29uc3Qgcm9vdCA9IG1lcmtsZVRyZWUucm9vdDsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJHByb2Nlc3NNdWx0aVByb29mKFtyb290XSwgW10sIFtdKSkudG8uZXF1YWwocm9vdCk7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRwcm9jZXNzTXVsdGlQcm9vZkNhbGxkYXRhKFtyb290XSwgW10sIFtdKSkudG8uZXF1YWwocm9vdCk7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRtdWx0aVByb29mVmVyaWZ5KFtyb290XSwgW10sIHJvb3QsIFtdKSkudG8uYmUudHJ1ZTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJG11bHRpUHJvb2ZWZXJpZnlDYWxsZGF0YShbcm9vdF0sIFtdLCByb290LCBbXSkpLnRvLmJlLnRydWU7CiAgICAgICAgfSk7CgogICAgICAgIGl0KCdyZXZlcnRzIHByb2Nlc3NpbmcgbWFuaXB1bGF0ZWQgcHJvb2ZzIHdpdGggYSB6ZXJvLXZhbHVlIG5vZGUgYXQgZGVwdGggMScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIC8vIENyZWF0ZSBhIG1lcmtsZSB0cmVlIHRoYXQgY29udGFpbnMgYSB6ZXJvIGxlYWYgYXQgZGVwdGggMQogICAgICAgICAgY29uc3QgbGVhdmUgPSBldGhlcnMuaWQoJ3JlYWwgbGVhZicpOwogICAgICAgICAgY29uc3Qgcm9vdCA9IG5vZGVIYXNoKGxlYXZlLCBldGhlcnMuWmVyb0hhc2gpOwoKICAgICAgICAgIC8vIE5vdyB3ZSBjYW4gcGFzcyBhbnkgKiptYWxpY2lvdXMqKiBmYWtlIGxlYXZlcyBhcyB2YWxpZCEKICAgICAgICAgIGNvbnN0IG1hbGljaW91c0xlYXZlcyA9IFsnbWFsaWNpb3VzJywgJ2xlYXZlcyddLm1hcChldGhlcnMuaWQpLm1hcChldGhlcnMudG9CZUFycmF5KS5zb3J0KEJ1ZmZlci5jb21wYXJlKTsKICAgICAgICAgIGNvbnN0IG1hbGljaW91c1Byb29mID0gW2xlYXZlLCBsZWF2ZV07CiAgICAgICAgICBjb25zdCBtYWxpY2lvdXNQcm9vZkZsYWdzID0gW3RydWUsIHRydWUsIGZhbHNlXTsKCiAgICAgICAgICBhd2FpdCBleHBlY3QoCiAgICAgICAgICAgIHRoaXMubW9jay4kcHJvY2Vzc011bHRpUHJvb2YobWFsaWNpb3VzUHJvb2YsIG1hbGljaW91c1Byb29mRmxhZ3MsIG1hbGljaW91c0xlYXZlcyksCiAgICAgICAgICApLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMubW9jaywgJ01lcmtsZVByb29mSW52YWxpZE11bHRpcHJvb2YnKTsKCiAgICAgICAgICBhd2FpdCBleHBlY3QoCiAgICAgICAgICAgIHRoaXMubW9jay4kcHJvY2Vzc011bHRpUHJvb2ZDYWxsZGF0YShtYWxpY2lvdXNQcm9vZiwgbWFsaWNpb3VzUHJvb2ZGbGFncywgbWFsaWNpb3VzTGVhdmVzKSwKICAgICAgICAgICkudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy5tb2NrLCAnTWVya2xlUHJvb2ZJbnZhbGlkTXVsdGlwcm9vZicpOwoKICAgICAgICAgIGF3YWl0IGV4cGVjdCgKICAgICAgICAgICAgdGhpcy5tb2NrLiRtdWx0aVByb29mVmVyaWZ5KG1hbGljaW91c1Byb29mLCBtYWxpY2lvdXNQcm9vZkZsYWdzLCByb290LCBtYWxpY2lvdXNMZWF2ZXMpLAogICAgICAgICAgKS50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLm1vY2ssICdNZXJrbGVQcm9vZkludmFsaWRNdWx0aXByb29mJyk7CgogICAgICAgICAgYXdhaXQgZXhwZWN0KAogICAgICAgICAgICB0aGlzLm1vY2suJG11bHRpUHJvb2ZWZXJpZnlDYWxsZGF0YShtYWxpY2lvdXNQcm9vZiwgbWFsaWNpb3VzUHJvb2ZGbGFncywgcm9vdCwgbWFsaWNpb3VzTGVhdmVzKSwKICAgICAgICAgICkudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy5tb2NrLCAnTWVya2xlUHJvb2ZJbnZhbGlkTXVsdGlwcm9vZicpOwogICAgICAgIH0pOwogICAgICB9KTsKICAgIH0pOwogIH0KfSk7Cg==
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { PANIC_CODES } = require('@nomicfoundation/hardhat-chai-matchers/panic');
+const { SimpleMerkleTree } = require('@openzeppelin/merkle-tree');
+
+// generate bytes32 leaves from a string
+const toLeaves = (str, separator = '') => str.split(separator).map(e => ethers.keccak256(ethers.toUtf8Bytes(e)));
+// internal node hashes
+const concatSorted = (...elements) => Buffer.concat(elements.map(ethers.getBytes).sort(Buffer.compare));
+const defaultHash = (a, b) => ethers.keccak256(concatSorted(a, b));
+const customHash = (a, b) => ethers.sha256(concatSorted(a, b));
+
+describe('MerkleProof', function () {
+  for (const { title, contractName, nodeHash } of [
+    { title: 'default hash', contractName: '$MerkleProof', nodeHash: defaultHash },
+    { title: 'custom hash', contractName: '$MerkleProofCustomHashMock', nodeHash: customHash },
+  ]) {
+    describe(title, function () {
+      // stateless: no need for a fixture, just use before
+      before(async function () {
+        this.mock = await ethers.deployContract(contractName);
+        this.makeTree = str => SimpleMerkleTree.of(toLeaves(str), { nodeHash });
+      });
+
+      describe('verify', function () {
+        it('returns true for a valid Merkle proof', async function () {
+          const merkleTree = this.makeTree('ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=');
+
+          const root = merkleTree.root;
+          const hash = merkleTree.at(0);
+          const proof = merkleTree.getProof(0);
+
+          expect(await this.mock.$processProof(proof, hash)).to.equal(root);
+          expect(await this.mock.$processProofCalldata(proof, hash)).to.equal(root);
+          expect(await this.mock.$verify(proof, root, hash)).to.be.true;
+          expect(await this.mock.$verifyCalldata(proof, root, hash)).to.be.true;
+
+          // For demonstration, it is also possible to create valid proofs for certain 64-byte values *not* in elements:
+          const noSuchLeaf = nodeHash(hash, proof.at(0));
+
+          expect(await this.mock.$processProof(proof.slice(1), noSuchLeaf)).to.equal(root);
+          expect(await this.mock.$processProofCalldata(proof.slice(1), noSuchLeaf)).to.equal(root);
+          expect(await this.mock.$verify(proof.slice(1), root, noSuchLeaf)).to.be.true;
+          expect(await this.mock.$verifyCalldata(proof.slice(1), root, noSuchLeaf)).to.be.true;
+        });
+
+        it('returns false for an invalid Merkle proof', async function () {
+          const correctMerkleTree = this.makeTree('abc');
+          const otherMerkleTree = this.makeTree('def');
+
+          const root = correctMerkleTree.root;
+          const hash = correctMerkleTree.at(0);
+          const proof = otherMerkleTree.getProof(0);
+
+          expect(await this.mock.$processProof(proof, hash)).to.not.equal(root);
+          expect(await this.mock.$processProofCalldata(proof, hash)).to.not.equal(root);
+          expect(await this.mock.$verify(proof, root, hash)).to.be.false;
+          expect(await this.mock.$verifyCalldata(proof, root, hash)).to.be.false;
+        });
+
+        it('returns false for a Merkle proof of invalid length', async function () {
+          const merkleTree = this.makeTree('abc');
+
+          const root = merkleTree.root;
+          const hash = merkleTree.at(0);
+          const proof = merkleTree.getProof(0);
+          const badProof = proof.slice(0, -1);
+
+          expect(await this.mock.$processProof(badProof, hash)).to.not.equal(root);
+          expect(await this.mock.$processProofCalldata(badProof, hash)).to.not.equal(root);
+          expect(await this.mock.$verify(badProof, root, hash)).to.be.false;
+          expect(await this.mock.$verifyCalldata(badProof, root, hash)).to.be.false;
+        });
+      });
+
+      describe('multiProofVerify', function () {
+        it('returns true for a valid Merkle multi proof', async function () {
+          const merkleTree = this.makeTree('abcdef');
+
+          const root = merkleTree.root;
+          const { proof, proofFlags, leaves } = merkleTree.getMultiProof(toLeaves('bdf'));
+          const hashes = leaves.map(e => merkleTree.leafHash(e));
+
+          expect(await this.mock.$processMultiProof(proof, proofFlags, hashes)).to.equal(root);
+          expect(await this.mock.$processMultiProofCalldata(proof, proofFlags, hashes)).to.equal(root);
+          expect(await this.mock.$multiProofVerify(proof, proofFlags, root, hashes)).to.be.true;
+          expect(await this.mock.$multiProofVerifyCalldata(proof, proofFlags, root, hashes)).to.be.true;
+        });
+
+        it('returns false for an invalid Merkle multi proof', async function () {
+          const merkleTree = this.makeTree('abcdef');
+          const otherMerkleTree = this.makeTree('ghi');
+
+          const root = merkleTree.root;
+          const { proof, proofFlags, leaves } = otherMerkleTree.getMultiProof(toLeaves('ghi'));
+          const hashes = leaves.map(e => merkleTree.leafHash(e));
+
+          expect(await this.mock.$processMultiProof(proof, proofFlags, hashes)).to.not.equal(root);
+          expect(await this.mock.$processMultiProofCalldata(proof, proofFlags, hashes)).to.not.equal(root);
+          expect(await this.mock.$multiProofVerify(proof, proofFlags, root, hashes)).to.be.false;
+          expect(await this.mock.$multiProofVerifyCalldata(proof, proofFlags, root, hashes)).to.be.false;
+        });
+
+        it('revert with invalid multi proof #1', async function () {
+          const merkleTree = this.makeTree('abcd');
+
+          const root = merkleTree.root;
+          const hashA = merkleTree.at(0);
+          const hashB = merkleTree.at(1);
+          const hashCD = nodeHash(merkleTree.at(2), merkleTree.at(3));
+          const hashE = ethers.randomBytes(32); // incorrect (not part of the tree)
+          const fill = ethers.randomBytes(32);
+
+          await expect(
+            this.mock.$processMultiProof([hashB, fill, hashCD], [false, false, false], [hashA, hashE]),
+          ).to.be.revertedWithCustomError(this.mock, 'MerkleProofInvalidMultiproof');
+
+          await expect(
+            this.mock.$processMultiProofCalldata([hashB, fill, hashCD], [false, false, false], [hashA, hashE]),
+          ).to.be.revertedWithCustomError(this.mock, 'MerkleProofInvalidMultiproof');
+
+          await expect(
+            this.mock.$multiProofVerify([hashB, fill, hashCD], [false, false, false], root, [hashA, hashE]),
+          ).to.be.revertedWithCustomError(this.mock, 'MerkleProofInvalidMultiproof');
+
+          await expect(
+            this.mock.$multiProofVerifyCalldata([hashB, fill, hashCD], [false, false, false], root, [hashA, hashE]),
+          ).to.be.revertedWithCustomError(this.mock, 'MerkleProofInvalidMultiproof');
+        });
+
+        it('revert with invalid multi proof #2', async function () {
+          const merkleTree = this.makeTree('abcd');
+
+          const root = merkleTree.root;
+          const hashA = merkleTree.at(0);
+          const hashB = merkleTree.at(1);
+          const hashCD = nodeHash(merkleTree.at(2), merkleTree.at(3));
+          const hashE = ethers.randomBytes(32); // incorrect (not part of the tree)
+          const fill = ethers.randomBytes(32);
+
+          await expect(
+            this.mock.$processMultiProof([hashB, fill, hashCD], [false, false, false, false], [hashE, hashA]),
+          ).to.be.revertedWithPanic(PANIC_CODES.ARRAY_ACCESS_OUT_OF_BOUNDS);
+
+          await expect(
+            this.mock.$processMultiProofCalldata([hashB, fill, hashCD], [false, false, false, false], [hashE, hashA]),
+          ).to.be.revertedWithPanic(PANIC_CODES.ARRAY_ACCESS_OUT_OF_BOUNDS);
+
+          await expect(
+            this.mock.$multiProofVerify([hashB, fill, hashCD], [false, false, false, false], root, [hashE, hashA]),
+          ).to.be.revertedWithPanic(PANIC_CODES.ARRAY_ACCESS_OUT_OF_BOUNDS);
+
+          await expect(
+            this.mock.$multiProofVerifyCalldata([hashB, fill, hashCD], [false, false, false, false], root, [
+              hashE,
+              hashA,
+            ]),
+          ).to.be.revertedWithPanic(PANIC_CODES.ARRAY_ACCESS_OUT_OF_BOUNDS);
+        });
+
+        it('limit case: works for tree containing a single leaf', async function () {
+          const merkleTree = this.makeTree('a');
+
+          const root = merkleTree.root;
+          const { proof, proofFlags, leaves } = merkleTree.getMultiProof(toLeaves('a'));
+          const hashes = leaves.map(e => merkleTree.leafHash(e));
+
+          expect(await this.mock.$processMultiProof(proof, proofFlags, hashes)).to.equal(root);
+          expect(await this.mock.$processMultiProofCalldata(proof, proofFlags, hashes)).to.equal(root);
+          expect(await this.mock.$multiProofVerify(proof, proofFlags, root, hashes)).to.be.true;
+          expect(await this.mock.$multiProofVerifyCalldata(proof, proofFlags, root, hashes)).to.be.true;
+        });
+
+        it('limit case: can prove empty leaves', async function () {
+          const merkleTree = this.makeTree('abcd');
+
+          const root = merkleTree.root;
+          expect(await this.mock.$processMultiProof([root], [], [])).to.equal(root);
+          expect(await this.mock.$processMultiProofCalldata([root], [], [])).to.equal(root);
+          expect(await this.mock.$multiProofVerify([root], [], root, [])).to.be.true;
+          expect(await this.mock.$multiProofVerifyCalldata([root], [], root, [])).to.be.true;
+        });
+
+        it('reverts processing manipulated proofs with a zero-value node at depth 1', async function () {
+          // Create a merkle tree that contains a zero leaf at depth 1
+          const leave = ethers.id('real leaf');
+          const root = nodeHash(leave, ethers.ZeroHash);
+
+          // Now we can pass any **malicious** fake leaves as valid!
+          const maliciousLeaves = ['malicious', 'leaves'].map(ethers.id).map(ethers.toBeArray).sort(Buffer.compare);
+          const maliciousProof = [leave, leave];
+          const maliciousProofFlags = [true, true, false];
+
+          await expect(
+            this.mock.$processMultiProof(maliciousProof, maliciousProofFlags, maliciousLeaves),
+          ).to.be.revertedWithCustomError(this.mock, 'MerkleProofInvalidMultiproof');
+
+          await expect(
+            this.mock.$processMultiProofCalldata(maliciousProof, maliciousProofFlags, maliciousLeaves),
+          ).to.be.revertedWithCustomError(this.mock, 'MerkleProofInvalidMultiproof');
+
+          await expect(
+            this.mock.$multiProofVerify(maliciousProof, maliciousProofFlags, root, maliciousLeaves),
+          ).to.be.revertedWithCustomError(this.mock, 'MerkleProofInvalidMultiproof');
+
+          await expect(
+            this.mock.$multiProofVerifyCalldata(maliciousProof, maliciousProofFlags, root, maliciousLeaves),
+          ).to.be.revertedWithCustomError(this.mock, 'MerkleProofInvalidMultiproof');
+        });
+      });
+    });
+  }
+});
