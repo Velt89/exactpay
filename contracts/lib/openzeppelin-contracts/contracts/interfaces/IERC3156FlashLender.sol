@@ -1,1 +1,41 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAoaW50ZXJmYWNlcy9JRVJDMzE1NkZsYXNoTGVuZGVyLnNvbCkKCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKaW1wb3J0IHtJRVJDMzE1NkZsYXNoQm9ycm93ZXJ9IGZyb20gIi4vSUVSQzMxNTZGbGFzaEJvcnJvd2VyLnNvbCI7CgovKioKICogQGRldiBJbnRlcmZhY2Ugb2YgdGhlIEVSQy0zMTU2IEZsYXNoTGVuZGVyLCBhcyBkZWZpbmVkIGluCiAqIGh0dHBzOi8vZWlwcy5ldGhlcmV1bS5vcmcvRUlQUy9laXAtMzE1NltFUkMtMzE1Nl0uCiAqLwppbnRlcmZhY2UgSUVSQzMxNTZGbGFzaExlbmRlciB7CiAgICAvKioKICAgICAqIEBkZXYgVGhlIGFtb3VudCBvZiBjdXJyZW5jeSBhdmFpbGFibGUgdG8gYmUgbGVuZGVkLgogICAgICogQHBhcmFtIHRva2VuIFRoZSBsb2FuIGN1cnJlbmN5LgogICAgICogQHJldHVybiBUaGUgYW1vdW50IG9mIGB0b2tlbmAgdGhhdCBjYW4gYmUgYm9ycm93ZWQuCiAgICAgKi8KICAgIGZ1bmN0aW9uIG1heEZsYXNoTG9hbihhZGRyZXNzIHRva2VuKSBleHRlcm5hbCB2aWV3IHJldHVybnMgKHVpbnQyNTYpOwoKICAgIC8qKgogICAgICogQGRldiBUaGUgZmVlIHRvIGJlIGNoYXJnZWQgZm9yIGEgZ2l2ZW4gbG9hbi4KICAgICAqIEBwYXJhbSB0b2tlbiBUaGUgbG9hbiBjdXJyZW5jeS4KICAgICAqIEBwYXJhbSBhbW91bnQgVGhlIGFtb3VudCBvZiB0b2tlbnMgbGVudC4KICAgICAqIEByZXR1cm4gVGhlIGFtb3VudCBvZiBgdG9rZW5gIHRvIGJlIGNoYXJnZWQgZm9yIHRoZSBsb2FuLCBvbiB0b3Agb2YgdGhlIHJldHVybmVkIHByaW5jaXBhbC4KICAgICAqLwogICAgZnVuY3Rpb24gZmxhc2hGZWUoYWRkcmVzcyB0b2tlbiwgdWludDI1NiBhbW91bnQpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAodWludDI1Nik7CgogICAgLyoqCiAgICAgKiBAZGV2IEluaXRpYXRlIGEgZmxhc2ggbG9hbi4KICAgICAqIEBwYXJhbSByZWNlaXZlciBUaGUgcmVjZWl2ZXIgb2YgdGhlIHRva2VucyBpbiB0aGUgbG9hbiwgYW5kIHRoZSByZWNlaXZlciBvZiB0aGUgY2FsbGJhY2suCiAgICAgKiBAcGFyYW0gdG9rZW4gVGhlIGxvYW4gY3VycmVuY3kuCiAgICAgKiBAcGFyYW0gYW1vdW50IFRoZSBhbW91bnQgb2YgdG9rZW5zIGxlbnQuCiAgICAgKiBAcGFyYW0gZGF0YSBBcmJpdHJhcnkgZGF0YSBzdHJ1Y3R1cmUsIGludGVuZGVkIHRvIGNvbnRhaW4gdXNlci1kZWZpbmVkIHBhcmFtZXRlcnMuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGZsYXNoTG9hbigKICAgICAgICBJRVJDMzE1NkZsYXNoQm9ycm93ZXIgcmVjZWl2ZXIsCiAgICAgICAgYWRkcmVzcyB0b2tlbiwKICAgICAgICB1aW50MjU2IGFtb3VudCwKICAgICAgICBieXRlcyBjYWxsZGF0YSBkYXRhCiAgICApIGV4dGVybmFsIHJldHVybnMgKGJvb2wpOwp9Cg==
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (interfaces/IERC3156FlashLender.sol)
+
+pragma solidity ^0.8.20;
+
+import {IERC3156FlashBorrower} from "./IERC3156FlashBorrower.sol";
+
+/**
+ * @dev Interface of the ERC-3156 FlashLender, as defined in
+ * https://eips.ethereum.org/EIPS/eip-3156[ERC-3156].
+ */
+interface IERC3156FlashLender {
+    /**
+     * @dev The amount of currency available to be lended.
+     * @param token The loan currency.
+     * @return The amount of `token` that can be borrowed.
+     */
+    function maxFlashLoan(address token) external view returns (uint256);
+
+    /**
+     * @dev The fee to be charged for a given loan.
+     * @param token The loan currency.
+     * @param amount The amount of tokens lent.
+     * @return The amount of `token` to be charged for the loan, on top of the returned principal.
+     */
+    function flashFee(address token, uint256 amount) external view returns (uint256);
+
+    /**
+     * @dev Initiate a flash loan.
+     * @param receiver The receiver of the tokens in the loan, and the receiver of the callback.
+     * @param token The loan currency.
+     * @param amount The amount of tokens lent.
+     * @param data Arbitrary data structure, intended to contain user-defined parameters.
+     */
+    function flashLoan(
+        IERC3156FlashBorrower receiver,
+        address token,
+        uint256 amount,
+        bytes calldata data
+    ) external returns (bool);
+}
