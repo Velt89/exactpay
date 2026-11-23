@@ -1,1 +1,198 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBQcm9wb3NhbFN0YXRlIH0gPSByZXF1aXJlKCcuL2VudW1zJyk7CmNvbnN0IHsgdW5pcXVlIH0gPSByZXF1aXJlKCcuL2l0ZXJhdGUnKTsKY29uc3QgdGltZSA9IHJlcXVpcmUoJy4vdGltZScpOwoKY29uc3QgdGltZWxvY2tTYWx0ID0gKGFkZHJlc3MsIGRlc2NyaXB0aW9uSGFzaCkgPT4KICBldGhlcnMudG9CZUhleCgoZXRoZXJzLnRvQmlnSW50KGFkZHJlc3MpIDw8IDk2bikgXiBldGhlcnMudG9CaWdJbnQoZGVzY3JpcHRpb25IYXNoKSwgMzIpOwoKY2xhc3MgR292ZXJub3JIZWxwZXIgewogIGNvbnN0cnVjdG9yKGdvdmVybm9yLCBtb2RlID0gJ2Jsb2NrbnVtYmVyJykgewogICAgdGhpcy5nb3Zlcm5vciA9IGdvdmVybm9yOwogICAgdGhpcy5tb2RlID0gbW9kZTsKICB9CgogIGNvbm5lY3QoYWNjb3VudCkgewogICAgdGhpcy5nb3Zlcm5vciA9IHRoaXMuZ292ZXJub3IuY29ubmVjdChhY2NvdW50KTsKICAgIHJldHVybiB0aGlzOwogIH0KCiAgLy8vIFNldHRlciBhbmQgZ2V0dGVycwogIC8qKgogICAqIFNwZWNpZnkgYSBwcm9wb3NhbCBlaXRoZXIgYXMKICAgKiAxKSBhbiBhcnJheSBvZiBvYmplY3RzIFt7IHRhcmdldCwgdmFsdWUsIGRhdGEgfV0KICAgKiAyKSBhbiBvYmplY3Qgb2YgYXJyYXlzIHsgdGFyZ2V0czogW10sIHZhbHVlczogW10sIGRhdGE6IFtdIH0KICAgKi8KICBzZXRQcm9wb3NhbChhY3Rpb25zLCBkZXNjcmlwdGlvbikgewogICAgaWYgKEFycmF5LmlzQXJyYXkoYWN0aW9ucykpIHsKICAgICAgdGhpcy50YXJnZXRzID0gYWN0aW9ucy5tYXAoYSA9PiBhLnRhcmdldCk7CiAgICAgIHRoaXMudmFsdWVzID0gYWN0aW9ucy5tYXAoYSA9PiBhLnZhbHVlIHx8IDBuKTsKICAgICAgdGhpcy5kYXRhID0gYWN0aW9ucy5tYXAoYSA9PiBhLmRhdGEgfHwgJzB4Jyk7CiAgICB9IGVsc2UgewogICAgICAoeyB0YXJnZXRzOiB0aGlzLnRhcmdldHMsIHZhbHVlczogdGhpcy52YWx1ZXMsIGRhdGE6IHRoaXMuZGF0YSB9ID0gYWN0aW9ucyk7CiAgICB9CiAgICB0aGlzLmRlc2NyaXB0aW9uID0gZGVzY3JpcHRpb247CiAgICByZXR1cm4gdGhpczsKICB9CgogIGdldCBpZCgpIHsKICAgIHJldHVybiBldGhlcnMua2VjY2FrMjU2KAogICAgICBldGhlcnMuQWJpQ29kZXIuZGVmYXVsdEFiaUNvZGVyKCkuZW5jb2RlKFsnYWRkcmVzc1tdJywgJ3VpbnQyNTZbXScsICdieXRlc1tdJywgJ2J5dGVzMzInXSwgdGhpcy5zaG9ydFByb3Bvc2FsKSwKICAgICk7CiAgfQoKICAvLyB1c2VkIGZvciBjaGVja2luZyBldmVudHMKICBnZXQgc2lnbmF0dXJlcygpIHsKICAgIHJldHVybiB0aGlzLmRhdGEubWFwKCgpID0+ICcnKTsKICB9CgogIGdldCBkZXNjcmlwdGlvbkhhc2goKSB7CiAgICByZXR1cm4gZXRoZXJzLmlkKHRoaXMuZGVzY3JpcHRpb24pOwogIH0KCiAgLy8gY29uZGVuc2VkIHZlcnNpb24gZm9yIHF1ZXVlaW5nIGVuZCBleGVjdXRpbmcKICBnZXQgc2hvcnRQcm9wb3NhbCgpIHsKICAgIHJldHVybiBbdGhpcy50YXJnZXRzLCB0aGlzLnZhbHVlcywgdGhpcy5kYXRhLCB0aGlzLmRlc2NyaXB0aW9uSGFzaF07CiAgfQoKICAvLyBmdWxsIHZlcnNpb24gZm9yIHByb3Bvc2luZwogIGdldCBmdWxsUHJvcG9zYWwoKSB7CiAgICByZXR1cm4gW3RoaXMudGFyZ2V0cywgdGhpcy52YWx1ZXMsIHRoaXMuZGF0YSwgdGhpcy5kZXNjcmlwdGlvbl07CiAgfQoKICBnZXQgY3VycmVudFByb3Bvc2FsKCkgewogICAgcmV0dXJuIHRoaXM7CiAgfQoKICAvLy8gUHJvcG9zYWwgbGlmZWN5Y2xlCiAgZGVsZWdhdGUoZGVsZWdhdGlvbikgewogICAgcmV0dXJuIFByb21pc2UuYWxsKFsKICAgICAgZGVsZWdhdGlvbi50b2tlbi5jb25uZWN0KGRlbGVnYXRpb24udG8pLmRlbGVnYXRlKGRlbGVnYXRpb24udG8pLAogICAgICBkZWxlZ2F0aW9uLnZhbHVlID09PSB1bmRlZmluZWQgfHwKICAgICAgICBkZWxlZ2F0aW9uLnRva2VuLmNvbm5lY3QodGhpcy5nb3Zlcm5vci5ydW5uZXIpLnRyYW5zZmVyKGRlbGVnYXRpb24udG8sIGRlbGVnYXRpb24udmFsdWUpLAogICAgICBkZWxlZ2F0aW9uLnRva2VuSWQgPT09IHVuZGVmaW5lZCB8fAogICAgICAgIGRlbGVnYXRpb24udG9rZW4KICAgICAgICAgIC5vd25lck9mKGRlbGVnYXRpb24udG9rZW5JZCkKICAgICAgICAgIC50aGVuKG93bmVyID0+CiAgICAgICAgICAgIGRlbGVnYXRpb24udG9rZW4uY29ubmVjdCh0aGlzLmdvdmVybm9yLnJ1bm5lcikudHJhbnNmZXJGcm9tKG93bmVyLCBkZWxlZ2F0aW9uLnRvLCBkZWxlZ2F0aW9uLnRva2VuSWQpLAogICAgICAgICAgKSwKICAgIF0pOwogIH0KCiAgcHJvcG9zZSgpIHsKICAgIHJldHVybiB0aGlzLmdvdmVybm9yLnByb3Bvc2UoLi4udGhpcy5mdWxsUHJvcG9zYWwpOwogIH0KCiAgcXVldWUoKSB7CiAgICByZXR1cm4gdGhpcy5nb3Zlcm5vci5xdWV1ZSguLi50aGlzLnNob3J0UHJvcG9zYWwpOwogIH0KCiAgZXhlY3V0ZSgpIHsKICAgIHJldHVybiB0aGlzLmdvdmVybm9yLmV4ZWN1dGUoLi4udGhpcy5zaG9ydFByb3Bvc2FsKTsKICB9CgogIGNhbmNlbCh2aXNpYmlsaXR5ID0gJ2V4dGVybmFsJykgewogICAgc3dpdGNoICh2aXNpYmlsaXR5KSB7CiAgICAgIGNhc2UgJ2V4dGVybmFsJzoKICAgICAgICByZXR1cm4gdGhpcy5nb3Zlcm5vci5jYW5jZWwoLi4udGhpcy5zaG9ydFByb3Bvc2FsKTsKCiAgICAgIGNhc2UgJ2ludGVybmFsJzoKICAgICAgICByZXR1cm4gdGhpcy5nb3Zlcm5vci4kX2NhbmNlbCguLi50aGlzLnNob3J0UHJvcG9zYWwpOwoKICAgICAgZGVmYXVsdDoKICAgICAgICB0aHJvdyBuZXcgRXJyb3IoYHVuc3VwcG9ydGVkIHZpc2liaWxpdHkgIiR7dmlzaWJpbGl0eX0iYCk7CiAgICB9CiAgfQoKICBhc3luYyB2b3RlKHZvdGUgPSB7fSkgewogICAgbGV0IG1ldGhvZCA9ICdjYXN0Vm90ZSc7IC8vIGRlZmF1bHQKICAgIGxldCBhcmdzID0gW3RoaXMuaWQsIHZvdGUuc3VwcG9ydF07IC8vIGJhc2UKCiAgICBpZiAodm90ZS5zaWduYXR1cmUpIHsKICAgICAgY29uc3Qgc2lnbiA9IGF3YWl0IHZvdGUuc2lnbmF0dXJlKHRoaXMuZ292ZXJub3IsIHRoaXMuZm9yZ2VNZXNzYWdlKHZvdGUpKTsKICAgICAgaWYgKHZvdGUucGFyYW1zIHx8IHZvdGUucmVhc29uKSB7CiAgICAgICAgbWV0aG9kID0gJ2Nhc3RWb3RlV2l0aFJlYXNvbkFuZFBhcmFtc0J5U2lnJzsKICAgICAgICBhcmdzLnB1c2godm90ZS52b3Rlciwgdm90ZS5yZWFzb24gPz8gJycsIHZvdGUucGFyYW1zID8/ICcweCcsIHNpZ24pOwogICAgICB9IGVsc2UgewogICAgICAgIG1ldGhvZCA9ICdjYXN0Vm90ZUJ5U2lnJzsKICAgICAgICBhcmdzLnB1c2godm90ZS52b3Rlciwgc2lnbik7CiAgICAgIH0KICAgIH0gZWxzZSBpZiAodm90ZS5wYXJhbXMpIHsKICAgICAgbWV0aG9kID0gJ2Nhc3RWb3RlV2l0aFJlYXNvbkFuZFBhcmFtcyc7CiAgICAgIGFyZ3MucHVzaCh2b3RlLnJlYXNvbiA/PyAnJywgdm90ZS5wYXJhbXMpOwogICAgfSBlbHNlIGlmICh2b3RlLnJlYXNvbikgewogICAgICBtZXRob2QgPSAnY2FzdFZvdGVXaXRoUmVhc29uJzsKICAgICAgYXJncy5wdXNoKHZvdGUucmVhc29uKTsKICAgIH0KCiAgICByZXR1cm4gYXdhaXQgdGhpcy5nb3Zlcm5vclttZXRob2RdKC4uLmFyZ3MpOwogIH0KCiAgLy8vIENsb2NrIGhlbHBlcnMKICBhc3luYyB3YWl0Rm9yU25hcHNob3Qob2Zmc2V0ID0gMG4pIHsKICAgIGNvbnN0IHRpbWVwb2ludCA9IGF3YWl0IHRoaXMuZ292ZXJub3IucHJvcG9zYWxTbmFwc2hvdCh0aGlzLmlkKTsKICAgIHJldHVybiB0aW1lLmluY3JlYXNlVG9bdGhpcy5tb2RlXSh0aW1lcG9pbnQgKyBvZmZzZXQpOwogIH0KCiAgYXN5bmMgd2FpdEZvckRlYWRsaW5lKG9mZnNldCA9IDBuKSB7CiAgICBjb25zdCB0aW1lcG9pbnQgPSBhd2FpdCB0aGlzLmdvdmVybm9yLnByb3Bvc2FsRGVhZGxpbmUodGhpcy5pZCk7CiAgICByZXR1cm4gdGltZS5pbmNyZWFzZVRvW3RoaXMubW9kZV0odGltZXBvaW50ICsgb2Zmc2V0KTsKICB9CgogIGFzeW5jIHdhaXRGb3JFdGEob2Zmc2V0ID0gMG4pIHsKICAgIGNvbnN0IHRpbWVzdGFtcCA9IGF3YWl0IHRoaXMuZ292ZXJub3IucHJvcG9zYWxFdGEodGhpcy5pZCk7CiAgICByZXR1cm4gdGltZS5pbmNyZWFzZVRvLnRpbWVzdGFtcCh0aW1lc3RhbXAgKyBvZmZzZXQpOwogIH0KCiAgLy8vIE90aGVyIGhlbHBlcnMKICBmb3JnZU1lc3NhZ2Uodm90ZSA9IHt9KSB7CiAgICBjb25zdCBtZXNzYWdlID0geyBwcm9wb3NhbElkOiB0aGlzLmlkLCBzdXBwb3J0OiB2b3RlLnN1cHBvcnQsIHZvdGVyOiB2b3RlLnZvdGVyLCBub25jZTogdm90ZS5ub25jZSB9OwoKICAgIGlmICh2b3RlLnBhcmFtcyB8fCB2b3RlLnJlYXNvbikgewogICAgICBtZXNzYWdlLnJlYXNvbiA9IHZvdGUucmVhc29uID8/ICcnOwogICAgICBtZXNzYWdlLnBhcmFtcyA9IHZvdGUucGFyYW1zID8/ICcweCc7CiAgICB9CgogICAgcmV0dXJuIG1lc3NhZ2U7CiAgfQoKICAvKioKICAgKiBFbmNvZGVzIGEgbGlzdCBQcm9wb3NhbFN0YXRlcyBpbnRvIGEgYnl0ZXMzMiByZXByZXNlbnRhdGlvbiB3aGVyZSBlYWNoIGJpdCBlbmFibGVkIGNvcnJlc3BvbmRzIHRvCiAgICogdGhlIHVuZGVybHlpbmcgcG9zaXRpb24gaW4gdGhlIGBQcm9wb3NhbFN0YXRlYCBlbnVtLiBGb3IgZXhhbXBsZToKICAgKgogICAqIDB4MDAwLi4uMTAwMDAKICAgKiAgIF5eXl5eXi0tLS0tLSAuLi4KICAgKiAgICAgICAgIF4tLS0tLSBTdWNjZWVkZWQKICAgKiAgICAgICAgICBeLS0tLSBEZWZlYXRlZAogICAqICAgICAgICAgICBeLS0tIENhbmNlbGVkCiAgICogICAgICAgICAgICBeLS0gQWN0aXZlCiAgICogICAgICAgICAgICAgXi0gUGVuZGluZwogICAqLwogIHN0YXRpYyBwcm9wb3NhbFN0YXRlc1RvQml0TWFwKHByb3Bvc2FsU3RhdGVzLCBvcHRpb25zID0ge30pIHsKICAgIGlmICghQXJyYXkuaXNBcnJheShwcm9wb3NhbFN0YXRlcykpIHsKICAgICAgcHJvcG9zYWxTdGF0ZXMgPSBbcHJvcG9zYWxTdGF0ZXNdOwogICAgfQogICAgY29uc3Qgc3RhdGVzQ291bnQgPSBldGhlcnMudG9CaWdJbnQoT2JqZWN0LmtleXMoUHJvcG9zYWxTdGF0ZSkubGVuZ3RoKTsKICAgIGxldCByZXN1bHQgPSAwbjsKCiAgICBmb3IgKGNvbnN0IHN0YXRlIG9mIHVuaXF1ZShwcm9wb3NhbFN0YXRlcykpIHsKICAgICAgaWYgKHN0YXRlIDwgMG4gfHwgc3RhdGUgPj0gc3RhdGVzQ291bnQpIHsKICAgICAgICBleHBlY3QuZmFpbChgUHJvcG9zYWxTdGF0ZSAke3N0YXRlfSBvdXQgb2YgcG9zc2libGUgc3RhdGVzICgwLi4uJHtzdGF0ZXNDb3VudH0tMSlgKTsKICAgICAgfSBlbHNlIHsKICAgICAgICByZXN1bHQgfD0gMW4gPDwgc3RhdGU7CiAgICAgIH0KICAgIH0KCiAgICBpZiAob3B0aW9ucy5pbnZlcnRlZCkgewogICAgICBjb25zdCBtYXNrID0gMm4gKiogc3RhdGVzQ291bnQgLSAxbjsKICAgICAgcmVzdWx0ID0gcmVzdWx0IF4gbWFzazsKICAgIH0KCiAgICByZXR1cm4gZXRoZXJzLnRvQmVIZXgocmVzdWx0LCAzMik7CiAgfQp9Cgptb2R1bGUuZXhwb3J0cyA9IHsKICBHb3Zlcm5vckhlbHBlciwKICB0aW1lbG9ja1NhbHQsCn07Cg==
+const { ethers } = require('hardhat');
+const { ProposalState } = require('./enums');
+const { unique } = require('./iterate');
+const time = require('./time');
+
+const timelockSalt = (address, descriptionHash) =>
+  ethers.toBeHex((ethers.toBigInt(address) << 96n) ^ ethers.toBigInt(descriptionHash), 32);
+
+class GovernorHelper {
+  constructor(governor, mode = 'blocknumber') {
+    this.governor = governor;
+    this.mode = mode;
+  }
+
+  connect(account) {
+    this.governor = this.governor.connect(account);
+    return this;
+  }
+
+  /// Setter and getters
+  /**
+   * Specify a proposal either as
+   * 1) an array of objects [{ target, value, data }]
+   * 2) an object of arrays { targets: [], values: [], data: [] }
+   */
+  setProposal(actions, description) {
+    if (Array.isArray(actions)) {
+      this.targets = actions.map(a => a.target);
+      this.values = actions.map(a => a.value || 0n);
+      this.data = actions.map(a => a.data || '0x');
+    } else {
+      ({ targets: this.targets, values: this.values, data: this.data } = actions);
+    }
+    this.description = description;
+    return this;
+  }
+
+  get id() {
+    return ethers.keccak256(
+      ethers.AbiCoder.defaultAbiCoder().encode(['address[]', 'uint256[]', 'bytes[]', 'bytes32'], this.shortProposal),
+    );
+  }
+
+  // used for checking events
+  get signatures() {
+    return this.data.map(() => '');
+  }
+
+  get descriptionHash() {
+    return ethers.id(this.description);
+  }
+
+  // condensed version for queueing end executing
+  get shortProposal() {
+    return [this.targets, this.values, this.data, this.descriptionHash];
+  }
+
+  // full version for proposing
+  get fullProposal() {
+    return [this.targets, this.values, this.data, this.description];
+  }
+
+  get currentProposal() {
+    return this;
+  }
+
+  /// Proposal lifecycle
+  delegate(delegation) {
+    return Promise.all([
+      delegation.token.connect(delegation.to).delegate(delegation.to),
+      delegation.value === undefined ||
+        delegation.token.connect(this.governor.runner).transfer(delegation.to, delegation.value),
+      delegation.tokenId === undefined ||
+        delegation.token
+          .ownerOf(delegation.tokenId)
+          .then(owner =>
+            delegation.token.connect(this.governor.runner).transferFrom(owner, delegation.to, delegation.tokenId),
+          ),
+    ]);
+  }
+
+  propose() {
+    return this.governor.propose(...this.fullProposal);
+  }
+
+  queue() {
+    return this.governor.queue(...this.shortProposal);
+  }
+
+  execute() {
+    return this.governor.execute(...this.shortProposal);
+  }
+
+  cancel(visibility = 'external') {
+    switch (visibility) {
+      case 'external':
+        return this.governor.cancel(...this.shortProposal);
+
+      case 'internal':
+        return this.governor.$_cancel(...this.shortProposal);
+
+      default:
+        throw new Error(`unsupported visibility "${visibility}"`);
+    }
+  }
+
+  async vote(vote = {}) {
+    let method = 'castVote'; // default
+    let args = [this.id, vote.support]; // base
+
+    if (vote.signature) {
+      const sign = await vote.signature(this.governor, this.forgeMessage(vote));
+      if (vote.params || vote.reason) {
+        method = 'castVoteWithReasonAndParamsBySig';
+        args.push(vote.voter, vote.reason ?? '', vote.params ?? '0x', sign);
+      } else {
+        method = 'castVoteBySig';
+        args.push(vote.voter, sign);
+      }
+    } else if (vote.params) {
+      method = 'castVoteWithReasonAndParams';
+      args.push(vote.reason ?? '', vote.params);
+    } else if (vote.reason) {
+      method = 'castVoteWithReason';
+      args.push(vote.reason);
+    }
+
+    return await this.governor[method](...args);
+  }
+
+  /// Clock helpers
+  async waitForSnapshot(offset = 0n) {
+    const timepoint = await this.governor.proposalSnapshot(this.id);
+    return time.increaseTo[this.mode](timepoint + offset);
+  }
+
+  async waitForDeadline(offset = 0n) {
+    const timepoint = await this.governor.proposalDeadline(this.id);
+    return time.increaseTo[this.mode](timepoint + offset);
+  }
+
+  async waitForEta(offset = 0n) {
+    const timestamp = await this.governor.proposalEta(this.id);
+    return time.increaseTo.timestamp(timestamp + offset);
+  }
+
+  /// Other helpers
+  forgeMessage(vote = {}) {
+    const message = { proposalId: this.id, support: vote.support, voter: vote.voter, nonce: vote.nonce };
+
+    if (vote.params || vote.reason) {
+      message.reason = vote.reason ?? '';
+      message.params = vote.params ?? '0x';
+    }
+
+    return message;
+  }
+
+  /**
+   * Encodes a list ProposalStates into a bytes32 representation where each bit enabled corresponds to
+   * the underlying position in the `ProposalState` enum. For example:
+   *
+   * 0x000...10000
+   *   ^^^^^^------ ...
+   *         ^----- Succeeded
+   *          ^---- Defeated
+   *           ^--- Canceled
+   *            ^-- Active
+   *             ^- Pending
+   */
+  static proposalStatesToBitMap(proposalStates, options = {}) {
+    if (!Array.isArray(proposalStates)) {
+      proposalStates = [proposalStates];
+    }
+    const statesCount = ethers.toBigInt(Object.keys(ProposalState).length);
+    let result = 0n;
+
+    for (const state of unique(proposalStates)) {
+      if (state < 0n || state >= statesCount) {
+        expect.fail(`ProposalState ${state} out of possible states (0...${statesCount}-1)`);
+      } else {
+        result |= 1n << state;
+      }
+    }
+
+    if (options.inverted) {
+      const mask = 2n ** statesCount - 1n;
+      result = result ^ mask;
+    }
+
+    return ethers.toBeHex(result, 32);
+  }
+}
+
+module.exports = {
+  GovernorHelper,
+  timelockSalt,
+};
