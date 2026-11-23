@@ -1,1 +1,90 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKYXN5bmMgZnVuY3Rpb24gZml4dHVyZSgpIHsKICBjb25zdCBbcGF1c2VyXSA9IGF3YWl0IGV0aGVycy5nZXRTaWduZXJzKCk7CgogIGNvbnN0IG1vY2sgPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJ1BhdXNhYmxlTW9jaycpOwoKICByZXR1cm4geyBwYXVzZXIsIG1vY2sgfTsKfQoKZGVzY3JpYmUoJ1BhdXNhYmxlJywgZnVuY3Rpb24gKCkgewogIGJlZm9yZUVhY2goYXN5bmMgZnVuY3Rpb24gKCkgewogICAgT2JqZWN0LmFzc2lnbih0aGlzLCBhd2FpdCBsb2FkRml4dHVyZShmaXh0dXJlKSk7CiAgfSk7CgogIGRlc2NyaWJlKCd3aGVuIHVucGF1c2VkJywgZnVuY3Rpb24gKCkgewogICAgYmVmb3JlRWFjaChhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2sucGF1c2VkKCkpLnRvLmJlLmZhbHNlOwogICAgfSk7CgogICAgaXQoJ2NhbiBwZXJmb3JtIG5vcm1hbCBwcm9jZXNzIGluIG5vbi1wYXVzZScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay5jb3VudCgpKS50by5lcXVhbCgwbik7CgogICAgICBhd2FpdCB0aGlzLm1vY2subm9ybWFsUHJvY2VzcygpOwogICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLmNvdW50KCkpLnRvLmVxdWFsKDFuKTsKICAgIH0pOwoKICAgIGl0KCdjYW5ub3QgdGFrZSBkcmFzdGljIG1lYXN1cmUgaW4gbm9uLXBhdXNlJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCBleHBlY3QodGhpcy5tb2NrLmRyYXN0aWNNZWFzdXJlKCkpLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMubW9jaywgJ0V4cGVjdGVkUGF1c2UnKTsKCiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suZHJhc3RpY01lYXN1cmVUYWtlbigpKS50by5iZS5mYWxzZTsKICAgIH0pOwoKICAgIGRlc2NyaWJlKCd3aGVuIHBhdXNlZCcsIGZ1bmN0aW9uICgpIHsKICAgICAgYmVmb3JlRWFjaChhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgdGhpcy50eCA9IGF3YWl0IHRoaXMubW9jay5wYXVzZSgpOwogICAgICB9KTsKCiAgICAgIGl0KCdlbWl0cyBhIFBhdXNlZCBldmVudCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBhd2FpdCBleHBlY3QodGhpcy50eCkudG8uZW1pdCh0aGlzLm1vY2ssICdQYXVzZWQnKS53aXRoQXJncyh0aGlzLnBhdXNlcik7CiAgICAgIH0pOwoKICAgICAgaXQoJ2Nhbm5vdCBwZXJmb3JtIG5vcm1hbCBwcm9jZXNzIGluIHBhdXNlJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1vY2subm9ybWFsUHJvY2VzcygpKS50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLm1vY2ssICdFbmZvcmNlZFBhdXNlJyk7CiAgICAgIH0pOwoKICAgICAgaXQoJ2NhbiB0YWtlIGEgZHJhc3RpYyBtZWFzdXJlIGluIGEgcGF1c2UnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgYXdhaXQgdGhpcy5tb2NrLmRyYXN0aWNNZWFzdXJlKCk7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay5kcmFzdGljTWVhc3VyZVRha2VuKCkpLnRvLmJlLnRydWU7CiAgICAgIH0pOwoKICAgICAgaXQoJ3JldmVydHMgd2hlbiByZS1wYXVzaW5nJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1vY2sucGF1c2UoKSkudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy5tb2NrLCAnRW5mb3JjZWRQYXVzZScpOwogICAgICB9KTsKCiAgICAgIGRlc2NyaWJlKCd1bnBhdXNpbmcnLCBmdW5jdGlvbiAoKSB7CiAgICAgICAgaXQoJ2lzIHVucGF1c2FibGUgYnkgdGhlIHBhdXNlcicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGF3YWl0IHRoaXMubW9jay51bnBhdXNlKCk7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLnBhdXNlZCgpKS50by5iZS5mYWxzZTsKICAgICAgICB9KTsKCiAgICAgICAgZGVzY3JpYmUoJ3doZW4gdW5wYXVzZWQnLCBmdW5jdGlvbiAoKSB7CiAgICAgICAgICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgICAgdGhpcy50eCA9IGF3YWl0IHRoaXMubW9jay51bnBhdXNlKCk7CiAgICAgICAgICB9KTsKCiAgICAgICAgICBpdCgnZW1pdHMgYW4gVW5wYXVzZWQgZXZlbnQnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLnR4KS50by5lbWl0KHRoaXMubW9jaywgJ1VucGF1c2VkJykud2l0aEFyZ3ModGhpcy5wYXVzZXIpOwogICAgICAgICAgfSk7CgogICAgICAgICAgaXQoJ3Nob3VsZCByZXN1bWUgYWxsb3dpbmcgbm9ybWFsIHByb2Nlc3MnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suY291bnQoKSkudG8uZXF1YWwoMG4pOwogICAgICAgICAgICBhd2FpdCB0aGlzLm1vY2subm9ybWFsUHJvY2VzcygpOwogICAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLmNvdW50KCkpLnRvLmVxdWFsKDFuKTsKICAgICAgICAgIH0pOwoKICAgICAgICAgIGl0KCdzaG91bGQgcHJldmVudCBkcmFzdGljIG1lYXN1cmUnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1vY2suZHJhc3RpY01lYXN1cmUoKSkudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy5tb2NrLCAnRXhwZWN0ZWRQYXVzZScpOwogICAgICAgICAgfSk7CgogICAgICAgICAgaXQoJ3JldmVydHMgd2hlbiByZS11bnBhdXNpbmcnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1vY2sudW5wYXVzZSgpKS50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLm1vY2ssICdFeHBlY3RlZFBhdXNlJyk7CiAgICAgICAgICB9KTsKICAgICAgICB9KTsKICAgICAgfSk7CiAgICB9KTsKICB9KTsKfSk7Cg==
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+async function fixture() {
+  const [pauser] = await ethers.getSigners();
+
+  const mock = await ethers.deployContract('PausableMock');
+
+  return { pauser, mock };
+}
+
+describe('Pausable', function () {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  describe('when unpaused', function () {
+    beforeEach(async function () {
+      expect(await this.mock.paused()).to.be.false;
+    });
+
+    it('can perform normal process in non-pause', async function () {
+      expect(await this.mock.count()).to.equal(0n);
+
+      await this.mock.normalProcess();
+      expect(await this.mock.count()).to.equal(1n);
+    });
+
+    it('cannot take drastic measure in non-pause', async function () {
+      await expect(this.mock.drasticMeasure()).to.be.revertedWithCustomError(this.mock, 'ExpectedPause');
+
+      expect(await this.mock.drasticMeasureTaken()).to.be.false;
+    });
+
+    describe('when paused', function () {
+      beforeEach(async function () {
+        this.tx = await this.mock.pause();
+      });
+
+      it('emits a Paused event', async function () {
+        await expect(this.tx).to.emit(this.mock, 'Paused').withArgs(this.pauser);
+      });
+
+      it('cannot perform normal process in pause', async function () {
+        await expect(this.mock.normalProcess()).to.be.revertedWithCustomError(this.mock, 'EnforcedPause');
+      });
+
+      it('can take a drastic measure in a pause', async function () {
+        await this.mock.drasticMeasure();
+        expect(await this.mock.drasticMeasureTaken()).to.be.true;
+      });
+
+      it('reverts when re-pausing', async function () {
+        await expect(this.mock.pause()).to.be.revertedWithCustomError(this.mock, 'EnforcedPause');
+      });
+
+      describe('unpausing', function () {
+        it('is unpausable by the pauser', async function () {
+          await this.mock.unpause();
+          expect(await this.mock.paused()).to.be.false;
+        });
+
+        describe('when unpaused', function () {
+          beforeEach(async function () {
+            this.tx = await this.mock.unpause();
+          });
+
+          it('emits an Unpaused event', async function () {
+            await expect(this.tx).to.emit(this.mock, 'Unpaused').withArgs(this.pauser);
+          });
+
+          it('should resume allowing normal process', async function () {
+            expect(await this.mock.count()).to.equal(0n);
+            await this.mock.normalProcess();
+            expect(await this.mock.count()).to.equal(1n);
+          });
+
+          it('should prevent drastic measure', async function () {
+            await expect(this.mock.drasticMeasure()).to.be.revertedWithCustomError(this.mock, 'ExpectedPause');
+          });
+
+          it('reverts when re-unpausing', async function () {
+            await expect(this.mock.unpause()).to.be.revertedWithCustomError(this.mock, 'ExpectedPause');
+          });
+        });
+      });
+    });
+  });
+});
