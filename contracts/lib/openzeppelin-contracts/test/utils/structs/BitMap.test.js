@@ -1,1 +1,149 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKYXN5bmMgZnVuY3Rpb24gZml4dHVyZSgpIHsKICBjb25zdCBiaXRtYXAgPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJyRCaXRNYXBzJyk7CiAgcmV0dXJuIHsgYml0bWFwIH07Cn0KCmRlc2NyaWJlKCdCaXRNYXAnLCBmdW5jdGlvbiAoKSB7CiAgY29uc3Qga2V5QSA9IDc4OTFuOwogIGNvbnN0IGtleUIgPSA0NTFuOwogIGNvbnN0IGtleUMgPSA5NTkyMzI4bjsKCiAgYmVmb3JlRWFjaChhc3luYyBmdW5jdGlvbiAoKSB7CiAgICBPYmplY3QuYXNzaWduKHRoaXMsIGF3YWl0IGxvYWRGaXh0dXJlKGZpeHR1cmUpKTsKICB9KTsKCiAgaXQoJ3N0YXJ0cyBlbXB0eScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgIGV4cGVjdChhd2FpdCB0aGlzLmJpdG1hcC4kZ2V0KDAsIGtleUEpKS50by5iZS5mYWxzZTsKICAgIGV4cGVjdChhd2FpdCB0aGlzLmJpdG1hcC4kZ2V0KDAsIGtleUIpKS50by5iZS5mYWxzZTsKICAgIGV4cGVjdChhd2FpdCB0aGlzLmJpdG1hcC4kZ2V0KDAsIGtleUMpKS50by5iZS5mYWxzZTsKICB9KTsKCiAgZGVzY3JpYmUoJ3NldFRvJywgZnVuY3Rpb24gKCkgewogICAgaXQoJ3NldCBhIGtleSB0byB0cnVlJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCB0aGlzLmJpdG1hcC4kc2V0VG8oMCwga2V5QSwgdHJ1ZSk7CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLmJpdG1hcC4kZ2V0KDAsIGtleUEpKS50by5iZS50cnVlOwogICAgICBleHBlY3QoYXdhaXQgdGhpcy5iaXRtYXAuJGdldCgwLCBrZXlCKSkudG8uYmUuZmFsc2U7CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLmJpdG1hcC4kZ2V0KDAsIGtleUMpKS50by5iZS5mYWxzZTsKICAgIH0pOwoKICAgIGl0KCdzZXQgYSBrZXkgdG8gZmFsc2UnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IHRoaXMuYml0bWFwLiRzZXRUbygwLCBrZXlBLCB0cnVlKTsKICAgICAgYXdhaXQgdGhpcy5iaXRtYXAuJHNldFRvKDAsIGtleUEsIGZhbHNlKTsKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMuYml0bWFwLiRnZXQoMCwga2V5QSkpLnRvLmJlLmZhbHNlOwogICAgICBleHBlY3QoYXdhaXQgdGhpcy5iaXRtYXAuJGdldCgwLCBrZXlCKSkudG8uYmUuZmFsc2U7CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLmJpdG1hcC4kZ2V0KDAsIGtleUMpKS50by5iZS5mYWxzZTsKICAgIH0pOwoKICAgIGl0KCdzZXQgc2V2ZXJhbCBjb25zZWN1dGl2ZSBrZXlzJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCB0aGlzLmJpdG1hcC4kc2V0VG8oMCwga2V5QSArIDBuLCB0cnVlKTsKICAgICAgYXdhaXQgdGhpcy5iaXRtYXAuJHNldFRvKDAsIGtleUEgKyAxbiwgdHJ1ZSk7CiAgICAgIGF3YWl0IHRoaXMuYml0bWFwLiRzZXRUbygwLCBrZXlBICsgMm4sIHRydWUpOwogICAgICBhd2FpdCB0aGlzLmJpdG1hcC4kc2V0VG8oMCwga2V5QSArIDNuLCB0cnVlKTsKICAgICAgYXdhaXQgdGhpcy5iaXRtYXAuJHNldFRvKDAsIGtleUEgKyA0biwgdHJ1ZSk7CiAgICAgIGF3YWl0IHRoaXMuYml0bWFwLiRzZXRUbygwLCBrZXlBICsgMm4sIGZhbHNlKTsKICAgICAgYXdhaXQgdGhpcy5iaXRtYXAuJHNldFRvKDAsIGtleUEgKyA0biwgZmFsc2UpOwogICAgICBleHBlY3QoYXdhaXQgdGhpcy5iaXRtYXAuJGdldCgwLCBrZXlBICsgMG4pKS50by5iZS50cnVlOwogICAgICBleHBlY3QoYXdhaXQgdGhpcy5iaXRtYXAuJGdldCgwLCBrZXlBICsgMW4pKS50by5iZS50cnVlOwogICAgICBleHBlY3QoYXdhaXQgdGhpcy5iaXRtYXAuJGdldCgwLCBrZXlBICsgMm4pKS50by5iZS5mYWxzZTsKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMuYml0bWFwLiRnZXQoMCwga2V5QSArIDNuKSkudG8uYmUudHJ1ZTsKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMuYml0bWFwLiRnZXQoMCwga2V5QSArIDRuKSkudG8uYmUuZmFsc2U7CiAgICB9KTsKICB9KTsKCiAgZGVzY3JpYmUoJ3NldCcsIGZ1bmN0aW9uICgpIHsKICAgIGl0KCdhZGRzIGEga2V5JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCB0aGlzLmJpdG1hcC4kc2V0KDAsIGtleUEpOwogICAgICBleHBlY3QoYXdhaXQgdGhpcy5iaXRtYXAuJGdldCgwLCBrZXlBKSkudG8uYmUudHJ1ZTsKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMuYml0bWFwLiRnZXQoMCwga2V5QikpLnRvLmJlLmZhbHNlOwogICAgICBleHBlY3QoYXdhaXQgdGhpcy5iaXRtYXAuJGdldCgwLCBrZXlDKSkudG8uYmUuZmFsc2U7CiAgICB9KTsKCiAgICBpdCgnYWRkcyBzZXZlcmFsIGtleXMnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IHRoaXMuYml0bWFwLiRzZXQoMCwga2V5QSk7CiAgICAgIGF3YWl0IHRoaXMuYml0bWFwLiRzZXQoMCwga2V5Qik7CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLmJpdG1hcC4kZ2V0KDAsIGtleUEpKS50by5iZS50cnVlOwogICAgICBleHBlY3QoYXdhaXQgdGhpcy5iaXRtYXAuJGdldCgwLCBrZXlCKSkudG8uYmUudHJ1ZTsKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMuYml0bWFwLiRnZXQoMCwga2V5QykpLnRvLmJlLmZhbHNlOwogICAgfSk7CgogICAgaXQoJ2FkZHMgc2V2ZXJhbCBjb25zZWN1dGl2ZSBrZXlzJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCB0aGlzLmJpdG1hcC4kc2V0KDAsIGtleUEgKyAwbik7CiAgICAgIGF3YWl0IHRoaXMuYml0bWFwLiRzZXQoMCwga2V5QSArIDFuKTsKICAgICAgYXdhaXQgdGhpcy5iaXRtYXAuJHNldCgwLCBrZXlBICsgM24pOwogICAgICBleHBlY3QoYXdhaXQgdGhpcy5iaXRtYXAuJGdldCgwLCBrZXlBICsgMG4pKS50by5iZS50cnVlOwogICAgICBleHBlY3QoYXdhaXQgdGhpcy5iaXRtYXAuJGdldCgwLCBrZXlBICsgMW4pKS50by5iZS50cnVlOwogICAgICBleHBlY3QoYXdhaXQgdGhpcy5iaXRtYXAuJGdldCgwLCBrZXlBICsgMm4pKS50by5iZS5mYWxzZTsKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMuYml0bWFwLiRnZXQoMCwga2V5QSArIDNuKSkudG8uYmUudHJ1ZTsKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMuYml0bWFwLiRnZXQoMCwga2V5QSArIDRuKSkudG8uYmUuZmFsc2U7CiAgICB9KTsKICB9KTsKCiAgZGVzY3JpYmUoJ3Vuc2V0JywgZnVuY3Rpb24gKCkgewogICAgaXQoJ3JlbW92ZXMgYWRkZWQga2V5cycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgdGhpcy5iaXRtYXAuJHNldCgwLCBrZXlBKTsKICAgICAgYXdhaXQgdGhpcy5iaXRtYXAuJHNldCgwLCBrZXlCKTsKICAgICAgYXdhaXQgdGhpcy5iaXRtYXAuJHVuc2V0KDAsIGtleUEpOwogICAgICBleHBlY3QoYXdhaXQgdGhpcy5iaXRtYXAuJGdldCgwLCBrZXlBKSkudG8uYmUuZmFsc2U7CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLmJpdG1hcC4kZ2V0KDAsIGtleUIpKS50by5iZS50cnVlOwogICAgICBleHBlY3QoYXdhaXQgdGhpcy5iaXRtYXAuJGdldCgwLCBrZXlDKSkudG8uYmUuZmFsc2U7CiAgICB9KTsKCiAgICBpdCgncmVtb3ZlcyBjb25zZWN1dGl2ZSBhZGRlZCBrZXlzJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCB0aGlzLmJpdG1hcC4kc2V0KDAsIGtleUEgKyAwbik7CiAgICAgIGF3YWl0IHRoaXMuYml0bWFwLiRzZXQoMCwga2V5QSArIDFuKTsKICAgICAgYXdhaXQgdGhpcy5iaXRtYXAuJHNldCgwLCBrZXlBICsgM24pOwogICAgICBhd2FpdCB0aGlzLmJpdG1hcC4kdW5zZXQoMCwga2V5QSArIDFuKTsKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMuYml0bWFwLiRnZXQoMCwga2V5QSArIDBuKSkudG8uYmUudHJ1ZTsKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMuYml0bWFwLiRnZXQoMCwga2V5QSArIDFuKSkudG8uYmUuZmFsc2U7CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLmJpdG1hcC4kZ2V0KDAsIGtleUEgKyAybikpLnRvLmJlLmZhbHNlOwogICAgICBleHBlY3QoYXdhaXQgdGhpcy5iaXRtYXAuJGdldCgwLCBrZXlBICsgM24pKS50by5iZS50cnVlOwogICAgICBleHBlY3QoYXdhaXQgdGhpcy5iaXRtYXAuJGdldCgwLCBrZXlBICsgNG4pKS50by5iZS5mYWxzZTsKICAgIH0pOwoKICAgIGl0KCdhZGRzIGFuZCByZW1vdmVzIG11bHRpcGxlIGtleXMnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIC8vIFtdCgogICAgICBhd2FpdCB0aGlzLmJpdG1hcC4kc2V0KDAsIGtleUEpOwogICAgICBhd2FpdCB0aGlzLmJpdG1hcC4kc2V0KDAsIGtleUMpOwoKICAgICAgLy8gW0EsIENdCgogICAgICBhd2FpdCB0aGlzLmJpdG1hcC4kdW5zZXQoMCwga2V5QSk7CiAgICAgIGF3YWl0IHRoaXMuYml0bWFwLiR1bnNldCgwLCBrZXlCKTsKCiAgICAgIC8vIFtDXQoKICAgICAgYXdhaXQgdGhpcy5iaXRtYXAuJHNldCgwLCBrZXlCKTsKCiAgICAgIC8vIFtDLCBCXQoKICAgICAgYXdhaXQgdGhpcy5iaXRtYXAuJHNldCgwLCBrZXlBKTsKICAgICAgYXdhaXQgdGhpcy5iaXRtYXAuJHVuc2V0KDAsIGtleUMpOwoKICAgICAgLy8gW0EsIEJdCgogICAgICBhd2FpdCB0aGlzLmJpdG1hcC4kc2V0KDAsIGtleUEpOwogICAgICBhd2FpdCB0aGlzLmJpdG1hcC4kc2V0KDAsIGtleUIpOwoKICAgICAgLy8gW0EsIEJdCgogICAgICBhd2FpdCB0aGlzLmJpdG1hcC4kc2V0KDAsIGtleUMpOwogICAgICBhd2FpdCB0aGlzLmJpdG1hcC4kdW5zZXQoMCwga2V5QSk7CgogICAgICAvLyBbQiwgQ10KCiAgICAgIGF3YWl0IHRoaXMuYml0bWFwLiRzZXQoMCwga2V5QSk7CiAgICAgIGF3YWl0IHRoaXMuYml0bWFwLiR1bnNldCgwLCBrZXlCKTsKCiAgICAgIC8vIFtBLCBDXQoKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMuYml0bWFwLiRnZXQoMCwga2V5QSkpLnRvLmJlLnRydWU7CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLmJpdG1hcC4kZ2V0KDAsIGtleUIpKS50by5iZS5mYWxzZTsKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMuYml0bWFwLiRnZXQoMCwga2V5QykpLnRvLmJlLnRydWU7CiAgICB9KTsKICB9KTsKfSk7Cg==
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+async function fixture() {
+  const bitmap = await ethers.deployContract('$BitMaps');
+  return { bitmap };
+}
+
+describe('BitMap', function () {
+  const keyA = 7891n;
+  const keyB = 451n;
+  const keyC = 9592328n;
+
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  it('starts empty', async function () {
+    expect(await this.bitmap.$get(0, keyA)).to.be.false;
+    expect(await this.bitmap.$get(0, keyB)).to.be.false;
+    expect(await this.bitmap.$get(0, keyC)).to.be.false;
+  });
+
+  describe('setTo', function () {
+    it('set a key to true', async function () {
+      await this.bitmap.$setTo(0, keyA, true);
+      expect(await this.bitmap.$get(0, keyA)).to.be.true;
+      expect(await this.bitmap.$get(0, keyB)).to.be.false;
+      expect(await this.bitmap.$get(0, keyC)).to.be.false;
+    });
+
+    it('set a key to false', async function () {
+      await this.bitmap.$setTo(0, keyA, true);
+      await this.bitmap.$setTo(0, keyA, false);
+      expect(await this.bitmap.$get(0, keyA)).to.be.false;
+      expect(await this.bitmap.$get(0, keyB)).to.be.false;
+      expect(await this.bitmap.$get(0, keyC)).to.be.false;
+    });
+
+    it('set several consecutive keys', async function () {
+      await this.bitmap.$setTo(0, keyA + 0n, true);
+      await this.bitmap.$setTo(0, keyA + 1n, true);
+      await this.bitmap.$setTo(0, keyA + 2n, true);
+      await this.bitmap.$setTo(0, keyA + 3n, true);
+      await this.bitmap.$setTo(0, keyA + 4n, true);
+      await this.bitmap.$setTo(0, keyA + 2n, false);
+      await this.bitmap.$setTo(0, keyA + 4n, false);
+      expect(await this.bitmap.$get(0, keyA + 0n)).to.be.true;
+      expect(await this.bitmap.$get(0, keyA + 1n)).to.be.true;
+      expect(await this.bitmap.$get(0, keyA + 2n)).to.be.false;
+      expect(await this.bitmap.$get(0, keyA + 3n)).to.be.true;
+      expect(await this.bitmap.$get(0, keyA + 4n)).to.be.false;
+    });
+  });
+
+  describe('set', function () {
+    it('adds a key', async function () {
+      await this.bitmap.$set(0, keyA);
+      expect(await this.bitmap.$get(0, keyA)).to.be.true;
+      expect(await this.bitmap.$get(0, keyB)).to.be.false;
+      expect(await this.bitmap.$get(0, keyC)).to.be.false;
+    });
+
+    it('adds several keys', async function () {
+      await this.bitmap.$set(0, keyA);
+      await this.bitmap.$set(0, keyB);
+      expect(await this.bitmap.$get(0, keyA)).to.be.true;
+      expect(await this.bitmap.$get(0, keyB)).to.be.true;
+      expect(await this.bitmap.$get(0, keyC)).to.be.false;
+    });
+
+    it('adds several consecutive keys', async function () {
+      await this.bitmap.$set(0, keyA + 0n);
+      await this.bitmap.$set(0, keyA + 1n);
+      await this.bitmap.$set(0, keyA + 3n);
+      expect(await this.bitmap.$get(0, keyA + 0n)).to.be.true;
+      expect(await this.bitmap.$get(0, keyA + 1n)).to.be.true;
+      expect(await this.bitmap.$get(0, keyA + 2n)).to.be.false;
+      expect(await this.bitmap.$get(0, keyA + 3n)).to.be.true;
+      expect(await this.bitmap.$get(0, keyA + 4n)).to.be.false;
+    });
+  });
+
+  describe('unset', function () {
+    it('removes added keys', async function () {
+      await this.bitmap.$set(0, keyA);
+      await this.bitmap.$set(0, keyB);
+      await this.bitmap.$unset(0, keyA);
+      expect(await this.bitmap.$get(0, keyA)).to.be.false;
+      expect(await this.bitmap.$get(0, keyB)).to.be.true;
+      expect(await this.bitmap.$get(0, keyC)).to.be.false;
+    });
+
+    it('removes consecutive added keys', async function () {
+      await this.bitmap.$set(0, keyA + 0n);
+      await this.bitmap.$set(0, keyA + 1n);
+      await this.bitmap.$set(0, keyA + 3n);
+      await this.bitmap.$unset(0, keyA + 1n);
+      expect(await this.bitmap.$get(0, keyA + 0n)).to.be.true;
+      expect(await this.bitmap.$get(0, keyA + 1n)).to.be.false;
+      expect(await this.bitmap.$get(0, keyA + 2n)).to.be.false;
+      expect(await this.bitmap.$get(0, keyA + 3n)).to.be.true;
+      expect(await this.bitmap.$get(0, keyA + 4n)).to.be.false;
+    });
+
+    it('adds and removes multiple keys', async function () {
+      // []
+
+      await this.bitmap.$set(0, keyA);
+      await this.bitmap.$set(0, keyC);
+
+      // [A, C]
+
+      await this.bitmap.$unset(0, keyA);
+      await this.bitmap.$unset(0, keyB);
+
+      // [C]
+
+      await this.bitmap.$set(0, keyB);
+
+      // [C, B]
+
+      await this.bitmap.$set(0, keyA);
+      await this.bitmap.$unset(0, keyC);
+
+      // [A, B]
+
+      await this.bitmap.$set(0, keyA);
+      await this.bitmap.$set(0, keyB);
+
+      // [A, B]
+
+      await this.bitmap.$set(0, keyC);
+      await this.bitmap.$unset(0, keyA);
+
+      // [B, C]
+
+      await this.bitmap.$set(0, keyA);
+      await this.bitmap.$unset(0, keyB);
+
+      // [A, C]
+
+      expect(await this.bitmap.$get(0, keyA)).to.be.true;
+      expect(await this.bitmap.$get(0, keyB)).to.be.false;
+      expect(await this.bitmap.$get(0, keyC)).to.be.true;
+    });
+  });
+});
