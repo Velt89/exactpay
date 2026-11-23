@@ -1,1 +1,27 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgPj0wLjYuMiA8MC45LjA7CgovLyDwn5KsIEFCT1VUCi8vIEZvcmdlIFN0ZCdzIGRlZmF1bHQgU2NyaXB0LgoKLy8g8J+nqSBNT0RVTEVTCmltcG9ydCB7Y29uc29sZX0gZnJvbSAiLi9jb25zb2xlLnNvbCI7CmltcG9ydCB7Y29uc29sZTJ9IGZyb20gIi4vY29uc29sZTIuc29sIjsKaW1wb3J0IHtzYWZlY29uc29sZX0gZnJvbSAiLi9zYWZlY29uc29sZS5zb2wiOwppbXBvcnQge1N0ZENoYWluc30gZnJvbSAiLi9TdGRDaGFpbnMuc29sIjsKaW1wb3J0IHtTdGRDaGVhdHNTYWZlfSBmcm9tICIuL1N0ZENoZWF0cy5zb2wiOwppbXBvcnQge3N0ZEpzb259IGZyb20gIi4vU3RkSnNvbi5zb2wiOwppbXBvcnQge3N0ZE1hdGh9IGZyb20gIi4vU3RkTWF0aC5zb2wiOwppbXBvcnQge1N0ZFN0b3JhZ2UsIHN0ZFN0b3JhZ2VTYWZlfSBmcm9tICIuL1N0ZFN0b3JhZ2Uuc29sIjsKaW1wb3J0IHtTdGRTdHlsZX0gZnJvbSAiLi9TdGRTdHlsZS5zb2wiOwppbXBvcnQge1N0ZFV0aWxzfSBmcm9tICIuL1N0ZFV0aWxzLnNvbCI7CmltcG9ydCB7Vm1TYWZlfSBmcm9tICIuL1ZtLnNvbCI7CgovLyDwn5OmIEJPSUxFUlBMQVRFCmltcG9ydCB7U2NyaXB0QmFzZX0gZnJvbSAiLi9CYXNlLnNvbCI7CgovLyDirZDvuI8gU0NSSVBUCmFic3RyYWN0IGNvbnRyYWN0IFNjcmlwdCBpcyBTY3JpcHRCYXNlLCBTdGRDaGFpbnMsIFN0ZENoZWF0c1NhZmUsIFN0ZFV0aWxzIHsKICAgIC8vIE5vdGU6IElTX1NDUklQVCgpIG11c3QgcmV0dXJuIHRydWUuCiAgICBib29sIHB1YmxpYyBJU19TQ1JJUFQgPSB0cnVlOwp9Cg==
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.6.2 <0.9.0;
+
+// 💬 ABOUT
+// Forge Std's default Script.
+
+// 🧩 MODULES
+import {console} from "./console.sol";
+import {console2} from "./console2.sol";
+import {safeconsole} from "./safeconsole.sol";
+import {StdChains} from "./StdChains.sol";
+import {StdCheatsSafe} from "./StdCheats.sol";
+import {stdJson} from "./StdJson.sol";
+import {stdMath} from "./StdMath.sol";
+import {StdStorage, stdStorageSafe} from "./StdStorage.sol";
+import {StdStyle} from "./StdStyle.sol";
+import {StdUtils} from "./StdUtils.sol";
+import {VmSafe} from "./Vm.sol";
+
+// 📦 BOILERPLATE
+import {ScriptBase} from "./Base.sol";
+
+// ⭐️ SCRIPT
+abstract contract Script is ScriptBase, StdChains, StdCheatsSafe, StdUtils {
+    // Note: IS_SCRIPT() must return true.
+    bool public IS_SCRIPT = true;
+}
