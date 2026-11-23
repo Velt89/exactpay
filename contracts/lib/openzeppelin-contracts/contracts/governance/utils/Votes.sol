@@ -1,1 +1,251 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAoZ292ZXJuYW5jZS91dGlscy9Wb3Rlcy5zb2wpCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKaW1wb3J0IHtJRVJDNTgwNX0gZnJvbSAiLi4vLi4vaW50ZXJmYWNlcy9JRVJDNTgwNS5zb2wiOwppbXBvcnQge0NvbnRleHR9IGZyb20gIi4uLy4uL3V0aWxzL0NvbnRleHQuc29sIjsKaW1wb3J0IHtOb25jZXN9IGZyb20gIi4uLy4uL3V0aWxzL05vbmNlcy5zb2wiOwppbXBvcnQge0VJUDcxMn0gZnJvbSAiLi4vLi4vdXRpbHMvY3J5cHRvZ3JhcGh5L0VJUDcxMi5zb2wiOwppbXBvcnQge0NoZWNrcG9pbnRzfSBmcm9tICIuLi8uLi91dGlscy9zdHJ1Y3RzL0NoZWNrcG9pbnRzLnNvbCI7CmltcG9ydCB7U2FmZUNhc3R9IGZyb20gIi4uLy4uL3V0aWxzL21hdGgvU2FmZUNhc3Quc29sIjsKaW1wb3J0IHtFQ0RTQX0gZnJvbSAiLi4vLi4vdXRpbHMvY3J5cHRvZ3JhcGh5L0VDRFNBLnNvbCI7CmltcG9ydCB7VGltZX0gZnJvbSAiLi4vLi4vdXRpbHMvdHlwZXMvVGltZS5zb2wiOwoKLyoqCiAqIEBkZXYgVGhpcyBpcyBhIGJhc2UgYWJzdHJhY3QgY29udHJhY3QgdGhhdCB0cmFja3Mgdm90aW5nIHVuaXRzLCB3aGljaCBhcmUgYSBtZWFzdXJlIG9mIHZvdGluZyBwb3dlciB0aGF0IGNhbiBiZQogKiB0cmFuc2ZlcnJlZCwgYW5kIHByb3ZpZGVzIGEgc3lzdGVtIG9mIHZvdGUgZGVsZWdhdGlvbiwgd2hlcmUgYW4gYWNjb3VudCBjYW4gZGVsZWdhdGUgaXRzIHZvdGluZyB1bml0cyB0byBhIHNvcnQgb2YKICogInJlcHJlc2VudGF0aXZlIiB0aGF0IHdpbGwgcG9vbCBkZWxlZ2F0ZWQgdm90aW5nIHVuaXRzIGZyb20gZGlmZmVyZW50IGFjY291bnRzIGFuZCBjYW4gdGhlbiB1c2UgaXQgdG8gdm90ZSBpbgogKiBkZWNpc2lvbnMuIEluIGZhY3QsIHZvdGluZyB1bml0cyBfbXVzdF8gYmUgZGVsZWdhdGVkIGluIG9yZGVyIHRvIGNvdW50IGFzIGFjdHVhbCB2b3RlcywgYW5kIGFuIGFjY291bnQgaGFzIHRvCiAqIGRlbGVnYXRlIHRob3NlIHZvdGVzIHRvIGl0c2VsZiBpZiBpdCB3aXNoZXMgdG8gcGFydGljaXBhdGUgaW4gZGVjaXNpb25zIGFuZCBkb2VzIG5vdCBoYXZlIGEgdHJ1c3RlZCByZXByZXNlbnRhdGl2ZS4KICoKICogVGhpcyBjb250cmFjdCBpcyBvZnRlbiBjb21iaW5lZCB3aXRoIGEgdG9rZW4gY29udHJhY3Qgc3VjaCB0aGF0IHZvdGluZyB1bml0cyBjb3JyZXNwb25kIHRvIHRva2VuIHVuaXRzLiBGb3IgYW4KICogZXhhbXBsZSwgc2VlIHtFUkM3MjFWb3Rlc30uCiAqCiAqIFRoZSBmdWxsIGhpc3Rvcnkgb2YgZGVsZWdhdGUgdm90ZXMgaXMgdHJhY2tlZCBvbi1jaGFpbiBzbyB0aGF0IGdvdmVybmFuY2UgcHJvdG9jb2xzIGNhbiBjb25zaWRlciB2b3RlcyBhcyBkaXN0cmlidXRlZAogKiBhdCBhIHBhcnRpY3VsYXIgYmxvY2sgbnVtYmVyIHRvIHByb3RlY3QgYWdhaW5zdCBmbGFzaCBsb2FucyBhbmQgZG91YmxlIHZvdGluZy4gVGhlIG9wdC1pbiBkZWxlZ2F0ZSBzeXN0ZW0gbWFrZXMgdGhlCiAqIGNvc3Qgb2YgdGhpcyBoaXN0b3J5IHRyYWNraW5nIG9wdGlvbmFsLgogKgogKiBXaGVuIHVzaW5nIHRoaXMgbW9kdWxlIHRoZSBkZXJpdmVkIGNvbnRyYWN0IG11c3QgaW1wbGVtZW50IHtfZ2V0Vm90aW5nVW5pdHN9IChmb3IgZXhhbXBsZSwgbWFrZSBpdCByZXR1cm4KICoge0VSQzcyMS1iYWxhbmNlT2Z9KSwgYW5kIGNhbiB1c2Uge190cmFuc2ZlclZvdGluZ1VuaXRzfSB0byB0cmFjayBhIGNoYW5nZSBpbiB0aGUgZGlzdHJpYnV0aW9uIG9mIHRob3NlIHVuaXRzIChpbiB0aGUKICogcHJldmlvdXMgZXhhbXBsZSwgaXQgd291bGQgYmUgaW5jbHVkZWQgaW4ge0VSQzcyMS1fdXBkYXRlfSkuCiAqLwphYnN0cmFjdCBjb250cmFjdCBWb3RlcyBpcyBDb250ZXh0LCBFSVA3MTIsIE5vbmNlcywgSUVSQzU4MDUgewogICAgdXNpbmcgQ2hlY2twb2ludHMgZm9yIENoZWNrcG9pbnRzLlRyYWNlMjA4OwoKICAgIGJ5dGVzMzIgcHJpdmF0ZSBjb25zdGFudCBERUxFR0FUSU9OX1RZUEVIQVNIID0KICAgICAgICBrZWNjYWsyNTYoIkRlbGVnYXRpb24oYWRkcmVzcyBkZWxlZ2F0ZWUsdWludDI1NiBub25jZSx1aW50MjU2IGV4cGlyeSkiKTsKCiAgICBtYXBwaW5nKGFkZHJlc3MgYWNjb3VudCA9PiBhZGRyZXNzKSBwcml2YXRlIF9kZWxlZ2F0ZWU7CgogICAgbWFwcGluZyhhZGRyZXNzIGRlbGVnYXRlZSA9PiBDaGVja3BvaW50cy5UcmFjZTIwOCkgcHJpdmF0ZSBfZGVsZWdhdGVDaGVja3BvaW50czsKCiAgICBDaGVja3BvaW50cy5UcmFjZTIwOCBwcml2YXRlIF90b3RhbENoZWNrcG9pbnRzOwoKICAgIC8qKgogICAgICogQGRldiBUaGUgY2xvY2sgd2FzIGluY29ycmVjdGx5IG1vZGlmaWVkLgogICAgICovCiAgICBlcnJvciBFUkM2MzcySW5jb25zaXN0ZW50Q2xvY2soKTsKCiAgICAvKioKICAgICAqIEBkZXYgTG9va3VwIHRvIGZ1dHVyZSB2b3RlcyBpcyBub3QgYXZhaWxhYmxlLgogICAgICovCiAgICBlcnJvciBFUkM1ODA1RnV0dXJlTG9va3VwKHVpbnQyNTYgdGltZXBvaW50LCB1aW50NDggY2xvY2spOwoKICAgIC8qKgogICAgICogQGRldiBDbG9jayB1c2VkIGZvciBmbGFnZ2luZyBjaGVja3BvaW50cy4gQ2FuIGJlIG92ZXJyaWRkZW4gdG8gaW1wbGVtZW50IHRpbWVzdGFtcCBiYXNlZAogICAgICogY2hlY2twb2ludHMgKGFuZCB2b3RpbmcpLCBpbiB3aGljaCBjYXNlIHtDTE9DS19NT0RFfSBzaG91bGQgYmUgb3ZlcnJpZGRlbiBhcyB3ZWxsIHRvIG1hdGNoLgogICAgICovCiAgICBmdW5jdGlvbiBjbG9jaygpIHB1YmxpYyB2aWV3IHZpcnR1YWwgcmV0dXJucyAodWludDQ4KSB7CiAgICAgICAgcmV0dXJuIFRpbWUuYmxvY2tOdW1iZXIoKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgTWFjaGluZS1yZWFkYWJsZSBkZXNjcmlwdGlvbiBvZiB0aGUgY2xvY2sgYXMgc3BlY2lmaWVkIGluIEVSQy02MzcyLgogICAgICovCiAgICAvLyBzb2xoaW50LWRpc2FibGUtbmV4dC1saW5lIGZ1bmMtbmFtZS1taXhlZGNhc2UKICAgIGZ1bmN0aW9uIENMT0NLX01PREUoKSBwdWJsaWMgdmlldyB2aXJ0dWFsIHJldHVybnMgKHN0cmluZyBtZW1vcnkpIHsKICAgICAgICAvLyBDaGVjayB0aGF0IHRoZSBjbG9jayB3YXMgbm90IG1vZGlmaWVkCiAgICAgICAgaWYgKGNsb2NrKCkgIT0gVGltZS5ibG9ja051bWJlcigpKSB7CiAgICAgICAgICAgIHJldmVydCBFUkM2MzcySW5jb25zaXN0ZW50Q2xvY2soKTsKICAgICAgICB9CiAgICAgICAgcmV0dXJuICJtb2RlPWJsb2NrbnVtYmVyJmZyb209ZGVmYXVsdCI7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIGN1cnJlbnQgYW1vdW50IG9mIHZvdGVzIHRoYXQgYGFjY291bnRgIGhhcy4KICAgICAqLwogICAgZnVuY3Rpb24gZ2V0Vm90ZXMoYWRkcmVzcyBhY2NvdW50KSBwdWJsaWMgdmlldyB2aXJ0dWFsIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXR1cm4gX2RlbGVnYXRlQ2hlY2twb2ludHNbYWNjb3VudF0ubGF0ZXN0KCk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIGFtb3VudCBvZiB2b3RlcyB0aGF0IGBhY2NvdW50YCBoYWQgYXQgYSBzcGVjaWZpYyBtb21lbnQgaW4gdGhlIHBhc3QuIElmIHRoZSBgY2xvY2soKWAgaXMKICAgICAqIGNvbmZpZ3VyZWQgdG8gdXNlIGJsb2NrIG51bWJlcnMsIHRoaXMgd2lsbCByZXR1cm4gdGhlIHZhbHVlIGF0IHRoZSBlbmQgb2YgdGhlIGNvcnJlc3BvbmRpbmcgYmxvY2suCiAgICAgKgogICAgICogUmVxdWlyZW1lbnRzOgogICAgICoKICAgICAqIC0gYHRpbWVwb2ludGAgbXVzdCBiZSBpbiB0aGUgcGFzdC4gSWYgb3BlcmF0aW5nIHVzaW5nIGJsb2NrIG51bWJlcnMsIHRoZSBibG9jayBtdXN0IGJlIGFscmVhZHkgbWluZWQuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGdldFBhc3RWb3RlcyhhZGRyZXNzIGFjY291bnQsIHVpbnQyNTYgdGltZXBvaW50KSBwdWJsaWMgdmlldyB2aXJ0dWFsIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICB1aW50NDggY3VycmVudFRpbWVwb2ludCA9IGNsb2NrKCk7CiAgICAgICAgaWYgKHRpbWVwb2ludCA+PSBjdXJyZW50VGltZXBvaW50KSB7CiAgICAgICAgICAgIHJldmVydCBFUkM1ODA1RnV0dXJlTG9va3VwKHRpbWVwb2ludCwgY3VycmVudFRpbWVwb2ludCk7CiAgICAgICAgfQogICAgICAgIHJldHVybiBfZGVsZWdhdGVDaGVja3BvaW50c1thY2NvdW50XS51cHBlckxvb2t1cFJlY2VudChTYWZlQ2FzdC50b1VpbnQ0OCh0aW1lcG9pbnQpKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyB0aGUgdG90YWwgc3VwcGx5IG9mIHZvdGVzIGF2YWlsYWJsZSBhdCBhIHNwZWNpZmljIG1vbWVudCBpbiB0aGUgcGFzdC4gSWYgdGhlIGBjbG9jaygpYCBpcwogICAgICogY29uZmlndXJlZCB0byB1c2UgYmxvY2sgbnVtYmVycywgdGhpcyB3aWxsIHJldHVybiB0aGUgdmFsdWUgYXQgdGhlIGVuZCBvZiB0aGUgY29ycmVzcG9uZGluZyBibG9jay4KICAgICAqCiAgICAgKiBOT1RFOiBUaGlzIHZhbHVlIGlzIHRoZSBzdW0gb2YgYWxsIGF2YWlsYWJsZSB2b3Rlcywgd2hpY2ggaXMgbm90IG5lY2Vzc2FyaWx5IHRoZSBzdW0gb2YgYWxsIGRlbGVnYXRlZCB2b3Rlcy4KICAgICAqIFZvdGVzIHRoYXQgaGF2ZSBub3QgYmVlbiBkZWxlZ2F0ZWQgYXJlIHN0aWxsIHBhcnQgb2YgdG90YWwgc3VwcGx5LCBldmVuIHRob3VnaCB0aGV5IHdvdWxkIG5vdCBwYXJ0aWNpcGF0ZSBpbiBhCiAgICAgKiB2b3RlLgogICAgICoKICAgICAqIFJlcXVpcmVtZW50czoKICAgICAqCiAgICAgKiAtIGB0aW1lcG9pbnRgIG11c3QgYmUgaW4gdGhlIHBhc3QuIElmIG9wZXJhdGluZyB1c2luZyBibG9jayBudW1iZXJzLCB0aGUgYmxvY2sgbXVzdCBiZSBhbHJlYWR5IG1pbmVkLgogICAgICovCiAgICBmdW5jdGlvbiBnZXRQYXN0VG90YWxTdXBwbHkodWludDI1NiB0aW1lcG9pbnQpIHB1YmxpYyB2aWV3IHZpcnR1YWwgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHVpbnQ0OCBjdXJyZW50VGltZXBvaW50ID0gY2xvY2soKTsKICAgICAgICBpZiAodGltZXBvaW50ID49IGN1cnJlbnRUaW1lcG9pbnQpIHsKICAgICAgICAgICAgcmV2ZXJ0IEVSQzU4MDVGdXR1cmVMb29rdXAodGltZXBvaW50LCBjdXJyZW50VGltZXBvaW50KTsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIF90b3RhbENoZWNrcG9pbnRzLnVwcGVyTG9va3VwUmVjZW50KFNhZmVDYXN0LnRvVWludDQ4KHRpbWVwb2ludCkpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBSZXR1cm5zIHRoZSBjdXJyZW50IHRvdGFsIHN1cHBseSBvZiB2b3Rlcy4KICAgICAqLwogICAgZnVuY3Rpb24gX2dldFRvdGFsU3VwcGx5KCkgaW50ZXJuYWwgdmlldyB2aXJ0dWFsIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXR1cm4gX3RvdGFsQ2hlY2twb2ludHMubGF0ZXN0KCk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIGRlbGVnYXRlIHRoYXQgYGFjY291bnRgIGhhcyBjaG9zZW4uCiAgICAgKi8KICAgIGZ1bmN0aW9uIGRlbGVnYXRlcyhhZGRyZXNzIGFjY291bnQpIHB1YmxpYyB2aWV3IHZpcnR1YWwgcmV0dXJucyAoYWRkcmVzcykgewogICAgICAgIHJldHVybiBfZGVsZWdhdGVlW2FjY291bnRdOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBEZWxlZ2F0ZXMgdm90ZXMgZnJvbSB0aGUgc2VuZGVyIHRvIGBkZWxlZ2F0ZWVgLgogICAgICovCiAgICBmdW5jdGlvbiBkZWxlZ2F0ZShhZGRyZXNzIGRlbGVnYXRlZSkgcHVibGljIHZpcnR1YWwgewogICAgICAgIGFkZHJlc3MgYWNjb3VudCA9IF9tc2dTZW5kZXIoKTsKICAgICAgICBfZGVsZWdhdGUoYWNjb3VudCwgZGVsZWdhdGVlKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgRGVsZWdhdGVzIHZvdGVzIGZyb20gc2lnbmVyIHRvIGBkZWxlZ2F0ZWVgLgogICAgICovCiAgICBmdW5jdGlvbiBkZWxlZ2F0ZUJ5U2lnKAogICAgICAgIGFkZHJlc3MgZGVsZWdhdGVlLAogICAgICAgIHVpbnQyNTYgbm9uY2UsCiAgICAgICAgdWludDI1NiBleHBpcnksCiAgICAgICAgdWludDggdiwKICAgICAgICBieXRlczMyIHIsCiAgICAgICAgYnl0ZXMzMiBzCiAgICApIHB1YmxpYyB2aXJ0dWFsIHsKICAgICAgICBpZiAoYmxvY2sudGltZXN0YW1wID4gZXhwaXJ5KSB7CiAgICAgICAgICAgIHJldmVydCBWb3Rlc0V4cGlyZWRTaWduYXR1cmUoZXhwaXJ5KTsKICAgICAgICB9CiAgICAgICAgYWRkcmVzcyBzaWduZXIgPSBFQ0RTQS5yZWNvdmVyKAogICAgICAgICAgICBfaGFzaFR5cGVkRGF0YVY0KGtlY2NhazI1NihhYmkuZW5jb2RlKERFTEVHQVRJT05fVFlQRUhBU0gsIGRlbGVnYXRlZSwgbm9uY2UsIGV4cGlyeSkpKSwKICAgICAgICAgICAgdiwKICAgICAgICAgICAgciwKICAgICAgICAgICAgcwogICAgICAgICk7CiAgICAgICAgX3VzZUNoZWNrZWROb25jZShzaWduZXIsIG5vbmNlKTsKICAgICAgICBfZGVsZWdhdGUoc2lnbmVyLCBkZWxlZ2F0ZWUpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBEZWxlZ2F0ZSBhbGwgb2YgYGFjY291bnRgJ3Mgdm90aW5nIHVuaXRzIHRvIGBkZWxlZ2F0ZWVgLgogICAgICoKICAgICAqIEVtaXRzIGV2ZW50cyB7SVZvdGVzLURlbGVnYXRlQ2hhbmdlZH0gYW5kIHtJVm90ZXMtRGVsZWdhdGVWb3Rlc0NoYW5nZWR9LgogICAgICovCiAgICBmdW5jdGlvbiBfZGVsZWdhdGUoYWRkcmVzcyBhY2NvdW50LCBhZGRyZXNzIGRlbGVnYXRlZSkgaW50ZXJuYWwgdmlydHVhbCB7CiAgICAgICAgYWRkcmVzcyBvbGREZWxlZ2F0ZSA9IGRlbGVnYXRlcyhhY2NvdW50KTsKICAgICAgICBfZGVsZWdhdGVlW2FjY291bnRdID0gZGVsZWdhdGVlOwoKICAgICAgICBlbWl0IERlbGVnYXRlQ2hhbmdlZChhY2NvdW50LCBvbGREZWxlZ2F0ZSwgZGVsZWdhdGVlKTsKICAgICAgICBfbW92ZURlbGVnYXRlVm90ZXMob2xkRGVsZWdhdGUsIGRlbGVnYXRlZSwgX2dldFZvdGluZ1VuaXRzKGFjY291bnQpKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgVHJhbnNmZXJzLCBtaW50cywgb3IgYnVybnMgdm90aW5nIHVuaXRzLiBUbyByZWdpc3RlciBhIG1pbnQsIGBmcm9tYCBzaG91bGQgYmUgemVyby4gVG8gcmVnaXN0ZXIgYSBidXJuLCBgdG9gCiAgICAgKiBzaG91bGQgYmUgemVyby4gVG90YWwgc3VwcGx5IG9mIHZvdGluZyB1bml0cyB3aWxsIGJlIGFkanVzdGVkIHdpdGggbWludHMgYW5kIGJ1cm5zLgogICAgICovCiAgICBmdW5jdGlvbiBfdHJhbnNmZXJWb3RpbmdVbml0cyhhZGRyZXNzIGZyb20sIGFkZHJlc3MgdG8sIHVpbnQyNTYgYW1vdW50KSBpbnRlcm5hbCB2aXJ0dWFsIHsKICAgICAgICBpZiAoZnJvbSA9PSBhZGRyZXNzKDApKSB7CiAgICAgICAgICAgIF9wdXNoKF90b3RhbENoZWNrcG9pbnRzLCBfYWRkLCBTYWZlQ2FzdC50b1VpbnQyMDgoYW1vdW50KSk7CiAgICAgICAgfQogICAgICAgIGlmICh0byA9PSBhZGRyZXNzKDApKSB7CiAgICAgICAgICAgIF9wdXNoKF90b3RhbENoZWNrcG9pbnRzLCBfc3VidHJhY3QsIFNhZmVDYXN0LnRvVWludDIwOChhbW91bnQpKTsKICAgICAgICB9CiAgICAgICAgX21vdmVEZWxlZ2F0ZVZvdGVzKGRlbGVnYXRlcyhmcm9tKSwgZGVsZWdhdGVzKHRvKSwgYW1vdW50KTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgTW92ZXMgZGVsZWdhdGVkIHZvdGVzIGZyb20gb25lIGRlbGVnYXRlIHRvIGFub3RoZXIuCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9tb3ZlRGVsZWdhdGVWb3RlcyhhZGRyZXNzIGZyb20sIGFkZHJlc3MgdG8sIHVpbnQyNTYgYW1vdW50KSBpbnRlcm5hbCB2aXJ0dWFsIHsKICAgICAgICBpZiAoZnJvbSAhPSB0byAmJiBhbW91bnQgPiAwKSB7CiAgICAgICAgICAgIGlmIChmcm9tICE9IGFkZHJlc3MoMCkpIHsKICAgICAgICAgICAgICAgICh1aW50MjU2IG9sZFZhbHVlLCB1aW50MjU2IG5ld1ZhbHVlKSA9IF9wdXNoKAogICAgICAgICAgICAgICAgICAgIF9kZWxlZ2F0ZUNoZWNrcG9pbnRzW2Zyb21dLAogICAgICAgICAgICAgICAgICAgIF9zdWJ0cmFjdCwKICAgICAgICAgICAgICAgICAgICBTYWZlQ2FzdC50b1VpbnQyMDgoYW1vdW50KQogICAgICAgICAgICAgICAgKTsKICAgICAgICAgICAgICAgIGVtaXQgRGVsZWdhdGVWb3Rlc0NoYW5nZWQoZnJvbSwgb2xkVmFsdWUsIG5ld1ZhbHVlKTsKICAgICAgICAgICAgfQogICAgICAgICAgICBpZiAodG8gIT0gYWRkcmVzcygwKSkgewogICAgICAgICAgICAgICAgKHVpbnQyNTYgb2xkVmFsdWUsIHVpbnQyNTYgbmV3VmFsdWUpID0gX3B1c2goCiAgICAgICAgICAgICAgICAgICAgX2RlbGVnYXRlQ2hlY2twb2ludHNbdG9dLAogICAgICAgICAgICAgICAgICAgIF9hZGQsCiAgICAgICAgICAgICAgICAgICAgU2FmZUNhc3QudG9VaW50MjA4KGFtb3VudCkKICAgICAgICAgICAgICAgICk7CiAgICAgICAgICAgICAgICBlbWl0IERlbGVnYXRlVm90ZXNDaGFuZ2VkKHRvLCBvbGRWYWx1ZSwgbmV3VmFsdWUpOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICogQGRldiBHZXQgbnVtYmVyIG9mIGNoZWNrcG9pbnRzIGZvciBgYWNjb3VudGAuCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9udW1DaGVja3BvaW50cyhhZGRyZXNzIGFjY291bnQpIGludGVybmFsIHZpZXcgdmlydHVhbCByZXR1cm5zICh1aW50MzIpIHsKICAgICAgICByZXR1cm4gU2FmZUNhc3QudG9VaW50MzIoX2RlbGVnYXRlQ2hlY2twb2ludHNbYWNjb3VudF0ubGVuZ3RoKCkpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBHZXQgdGhlIGBwb3NgLXRoIGNoZWNrcG9pbnQgZm9yIGBhY2NvdW50YC4KICAgICAqLwogICAgZnVuY3Rpb24gX2NoZWNrcG9pbnRzKAogICAgICAgIGFkZHJlc3MgYWNjb3VudCwKICAgICAgICB1aW50MzIgcG9zCiAgICApIGludGVybmFsIHZpZXcgdmlydHVhbCByZXR1cm5zIChDaGVja3BvaW50cy5DaGVja3BvaW50MjA4IG1lbW9yeSkgewogICAgICAgIHJldHVybiBfZGVsZWdhdGVDaGVja3BvaW50c1thY2NvdW50XS5hdChwb3MpOwogICAgfQoKICAgIGZ1bmN0aW9uIF9wdXNoKAogICAgICAgIENoZWNrcG9pbnRzLlRyYWNlMjA4IHN0b3JhZ2Ugc3RvcmUsCiAgICAgICAgZnVuY3Rpb24odWludDIwOCwgdWludDIwOCkgdmlldyByZXR1cm5zICh1aW50MjA4KSBvcCwKICAgICAgICB1aW50MjA4IGRlbHRhCiAgICApIHByaXZhdGUgcmV0dXJucyAodWludDIwOCBvbGRWYWx1ZSwgdWludDIwOCBuZXdWYWx1ZSkgewogICAgICAgIHJldHVybiBzdG9yZS5wdXNoKGNsb2NrKCksIG9wKHN0b3JlLmxhdGVzdCgpLCBkZWx0YSkpOwogICAgfQoKICAgIGZ1bmN0aW9uIF9hZGQodWludDIwOCBhLCB1aW50MjA4IGIpIHByaXZhdGUgcHVyZSByZXR1cm5zICh1aW50MjA4KSB7CiAgICAgICAgcmV0dXJuIGEgKyBiOwogICAgfQoKICAgIGZ1bmN0aW9uIF9zdWJ0cmFjdCh1aW50MjA4IGEsIHVpbnQyMDggYikgcHJpdmF0ZSBwdXJlIHJldHVybnMgKHVpbnQyMDgpIHsKICAgICAgICByZXR1cm4gYSAtIGI7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IE11c3QgcmV0dXJuIHRoZSB2b3RpbmcgdW5pdHMgaGVsZCBieSBhbiBhY2NvdW50LgogICAgICovCiAgICBmdW5jdGlvbiBfZ2V0Vm90aW5nVW5pdHMoYWRkcmVzcykgaW50ZXJuYWwgdmlldyB2aXJ0dWFsIHJldHVybnMgKHVpbnQyNTYpOwp9Cg==
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (governance/utils/Votes.sol)
+pragma solidity ^0.8.20;
+
+import {IERC5805} from "../../interfaces/IERC5805.sol";
+import {Context} from "../../utils/Context.sol";
+import {Nonces} from "../../utils/Nonces.sol";
+import {EIP712} from "../../utils/cryptography/EIP712.sol";
+import {Checkpoints} from "../../utils/structs/Checkpoints.sol";
+import {SafeCast} from "../../utils/math/SafeCast.sol";
+import {ECDSA} from "../../utils/cryptography/ECDSA.sol";
+import {Time} from "../../utils/types/Time.sol";
+
+/**
+ * @dev This is a base abstract contract that tracks voting units, which are a measure of voting power that can be
+ * transferred, and provides a system of vote delegation, where an account can delegate its voting units to a sort of
+ * "representative" that will pool delegated voting units from different accounts and can then use it to vote in
+ * decisions. In fact, voting units _must_ be delegated in order to count as actual votes, and an account has to
+ * delegate those votes to itself if it wishes to participate in decisions and does not have a trusted representative.
+ *
+ * This contract is often combined with a token contract such that voting units correspond to token units. For an
+ * example, see {ERC721Votes}.
+ *
+ * The full history of delegate votes is tracked on-chain so that governance protocols can consider votes as distributed
+ * at a particular block number to protect against flash loans and double voting. The opt-in delegate system makes the
+ * cost of this history tracking optional.
+ *
+ * When using this module the derived contract must implement {_getVotingUnits} (for example, make it return
+ * {ERC721-balanceOf}), and can use {_transferVotingUnits} to track a change in the distribution of those units (in the
+ * previous example, it would be included in {ERC721-_update}).
+ */
+abstract contract Votes is Context, EIP712, Nonces, IERC5805 {
+    using Checkpoints for Checkpoints.Trace208;
+
+    bytes32 private constant DELEGATION_TYPEHASH =
+        keccak256("Delegation(address delegatee,uint256 nonce,uint256 expiry)");
+
+    mapping(address account => address) private _delegatee;
+
+    mapping(address delegatee => Checkpoints.Trace208) private _delegateCheckpoints;
+
+    Checkpoints.Trace208 private _totalCheckpoints;
+
+    /**
+     * @dev The clock was incorrectly modified.
+     */
+    error ERC6372InconsistentClock();
+
+    /**
+     * @dev Lookup to future votes is not available.
+     */
+    error ERC5805FutureLookup(uint256 timepoint, uint48 clock);
+
+    /**
+     * @dev Clock used for flagging checkpoints. Can be overridden to implement timestamp based
+     * checkpoints (and voting), in which case {CLOCK_MODE} should be overridden as well to match.
+     */
+    function clock() public view virtual returns (uint48) {
+        return Time.blockNumber();
+    }
+
+    /**
+     * @dev Machine-readable description of the clock as specified in ERC-6372.
+     */
+    // solhint-disable-next-line func-name-mixedcase
+    function CLOCK_MODE() public view virtual returns (string memory) {
+        // Check that the clock was not modified
+        if (clock() != Time.blockNumber()) {
+            revert ERC6372InconsistentClock();
+        }
+        return "mode=blocknumber&from=default";
+    }
+
+    /**
+     * @dev Returns the current amount of votes that `account` has.
+     */
+    function getVotes(address account) public view virtual returns (uint256) {
+        return _delegateCheckpoints[account].latest();
+    }
+
+    /**
+     * @dev Returns the amount of votes that `account` had at a specific moment in the past. If the `clock()` is
+     * configured to use block numbers, this will return the value at the end of the corresponding block.
+     *
+     * Requirements:
+     *
+     * - `timepoint` must be in the past. If operating using block numbers, the block must be already mined.
+     */
+    function getPastVotes(address account, uint256 timepoint) public view virtual returns (uint256) {
+        uint48 currentTimepoint = clock();
+        if (timepoint >= currentTimepoint) {
+            revert ERC5805FutureLookup(timepoint, currentTimepoint);
+        }
+        return _delegateCheckpoints[account].upperLookupRecent(SafeCast.toUint48(timepoint));
+    }
+
+    /**
+     * @dev Returns the total supply of votes available at a specific moment in the past. If the `clock()` is
+     * configured to use block numbers, this will return the value at the end of the corresponding block.
+     *
+     * NOTE: This value is the sum of all available votes, which is not necessarily the sum of all delegated votes.
+     * Votes that have not been delegated are still part of total supply, even though they would not participate in a
+     * vote.
+     *
+     * Requirements:
+     *
+     * - `timepoint` must be in the past. If operating using block numbers, the block must be already mined.
+     */
+    function getPastTotalSupply(uint256 timepoint) public view virtual returns (uint256) {
+        uint48 currentTimepoint = clock();
+        if (timepoint >= currentTimepoint) {
+            revert ERC5805FutureLookup(timepoint, currentTimepoint);
+        }
+        return _totalCheckpoints.upperLookupRecent(SafeCast.toUint48(timepoint));
+    }
+
+    /**
+     * @dev Returns the current total supply of votes.
+     */
+    function _getTotalSupply() internal view virtual returns (uint256) {
+        return _totalCheckpoints.latest();
+    }
+
+    /**
+     * @dev Returns the delegate that `account` has chosen.
+     */
+    function delegates(address account) public view virtual returns (address) {
+        return _delegatee[account];
+    }
+
+    /**
+     * @dev Delegates votes from the sender to `delegatee`.
+     */
+    function delegate(address delegatee) public virtual {
+        address account = _msgSender();
+        _delegate(account, delegatee);
+    }
+
+    /**
+     * @dev Delegates votes from signer to `delegatee`.
+     */
+    function delegateBySig(
+        address delegatee,
+        uint256 nonce,
+        uint256 expiry,
+        uint8 v,
+        bytes32 r,
+        bytes32 s
+    ) public virtual {
+        if (block.timestamp > expiry) {
+            revert VotesExpiredSignature(expiry);
+        }
+        address signer = ECDSA.recover(
+            _hashTypedDataV4(keccak256(abi.encode(DELEGATION_TYPEHASH, delegatee, nonce, expiry))),
+            v,
+            r,
+            s
+        );
+        _useCheckedNonce(signer, nonce);
+        _delegate(signer, delegatee);
+    }
+
+    /**
+     * @dev Delegate all of `account`'s voting units to `delegatee`.
+     *
+     * Emits events {IVotes-DelegateChanged} and {IVotes-DelegateVotesChanged}.
+     */
+    function _delegate(address account, address delegatee) internal virtual {
+        address oldDelegate = delegates(account);
+        _delegatee[account] = delegatee;
+
+        emit DelegateChanged(account, oldDelegate, delegatee);
+        _moveDelegateVotes(oldDelegate, delegatee, _getVotingUnits(account));
+    }
+
+    /**
+     * @dev Transfers, mints, or burns voting units. To register a mint, `from` should be zero. To register a burn, `to`
+     * should be zero. Total supply of voting units will be adjusted with mints and burns.
+     */
+    function _transferVotingUnits(address from, address to, uint256 amount) internal virtual {
+        if (from == address(0)) {
+            _push(_totalCheckpoints, _add, SafeCast.toUint208(amount));
+        }
+        if (to == address(0)) {
+            _push(_totalCheckpoints, _subtract, SafeCast.toUint208(amount));
+        }
+        _moveDelegateVotes(delegates(from), delegates(to), amount);
+    }
+
+    /**
+     * @dev Moves delegated votes from one delegate to another.
+     */
+    function _moveDelegateVotes(address from, address to, uint256 amount) internal virtual {
+        if (from != to && amount > 0) {
+            if (from != address(0)) {
+                (uint256 oldValue, uint256 newValue) = _push(
+                    _delegateCheckpoints[from],
+                    _subtract,
+                    SafeCast.toUint208(amount)
+                );
+                emit DelegateVotesChanged(from, oldValue, newValue);
+            }
+            if (to != address(0)) {
+                (uint256 oldValue, uint256 newValue) = _push(
+                    _delegateCheckpoints[to],
+                    _add,
+                    SafeCast.toUint208(amount)
+                );
+                emit DelegateVotesChanged(to, oldValue, newValue);
+            }
+        }
+    }
+
+    /**
+     * @dev Get number of checkpoints for `account`.
+     */
+    function _numCheckpoints(address account) internal view virtual returns (uint32) {
+        return SafeCast.toUint32(_delegateCheckpoints[account].length());
+    }
+
+    /**
+     * @dev Get the `pos`-th checkpoint for `account`.
+     */
+    function _checkpoints(
+        address account,
+        uint32 pos
+    ) internal view virtual returns (Checkpoints.Checkpoint208 memory) {
+        return _delegateCheckpoints[account].at(pos);
+    }
+
+    function _push(
+        Checkpoints.Trace208 storage store,
+        function(uint208, uint208) view returns (uint208) op,
+        uint208 delta
+    ) private returns (uint208 oldValue, uint208 newValue) {
+        return store.push(clock(), op(store.latest(), delta));
+    }
+
+    function _add(uint208 a, uint208 b) private pure returns (uint208) {
+        return a + b;
+    }
+
+    function _subtract(uint208 a, uint208 b) private pure returns (uint208) {
+        return a - b;
+    }
+
+    /**
+     * @dev Must return the voting units held by an account.
+     */
+    function _getVotingUnits(address) internal view virtual returns (uint256);
+}
