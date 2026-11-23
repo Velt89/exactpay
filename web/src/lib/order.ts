@@ -1,1 +1,36 @@
-aW1wb3J0IHsga2VjY2FrMjU2LCB0b0hleCwgdHlwZSBIZXggfSBmcm9tICJ2aWVtIjsKCi8qKgogKiBUaGUgZGVtbyBvcmRlci4gUmVuYW1lIGl0IGludG8gYW4gaW52b2ljZSwgYSB0aWNrZXQsIGEgcGxlZGdl4oCmIFRoZSBjb250cmFjdCBvbmx5IHNlZXMKICogYG9yZGVySWRgIGFuZCBgYW1vdW50YDsgZXZlcnl0aGluZyBlbHNlIGxpdmVzIGluIHlvdXIgYXBwLgogKi8KZXhwb3J0IGNvbnN0IGRlbW9PcmRlciA9IHsKICBsaW5lczogWwogICAgeyBsYWJlbDogIlNhbXBsZSBpdGVtIiwgYW1vdW50OiAiMS4wMCIgfSwKICAgIHsgbGFiZWw6ICJTZXJ2aWNlIGZlZSIsIGFtb3VudDogIjAuMDUiIH0sCiAgXSwKICB0b3RhbDogIjEuMDUiLAp9OwoKLyoqCiAqIFdoYXQgYW4gb3JkZXIgY29zdHMsIGRlY2lkZWQgYnkgdGhlIGFwcCwgbmV2ZXIgYnkgdGhlIGJ1eWVyJ3MgcmVxdWVzdC4gVGhlIHJlbGF5ZXIgb25seQogKiBzdWJtaXRzIHBheW1lbnRzIGZvciBleGFjdGx5IHRoaXMgYW1vdW50LCBzbyBub2JvZHkgY2FuIG1ha2UgaXQgcGF5IGdhcyBmb3IgZHVzdCBwYXltZW50cy4KICogSW4geW91ciBhcHAsIGxvb2sgdGhlIG9yZGVyIHVwIGluIHlvdXIgZGF0YWJhc2UgaW5zdGVhZC4KICovCmV4cG9ydCBmdW5jdGlvbiBwcmljZU9mKF9vcmRlcklkOiBIZXgpOiBzdHJpbmcgewogIHJldHVybiBkZW1vT3JkZXIudG90YWw7Cn0KCmV4cG9ydCBmdW5jdGlvbiBuZXdPcmRlcklkKCk6IEhleCB7CiAgY29uc3QgYnl0ZXMgPSBjcnlwdG8uZ2V0UmFuZG9tVmFsdWVzKG5ldyBVaW50OEFycmF5KDMyKSk7CiAgcmV0dXJuIGtlY2NhazI1Nih0b0hleChieXRlcykpOwp9CgovKiogU2hvcnQsIGh1bWFuLWZyaWVuZGx5IGxhYmVsIGZvciBhIGJ5dGVzMzIgb3JkZXIgaWQuICovCmV4cG9ydCBmdW5jdGlvbiBvcmRlckxhYmVsKG9yZGVySWQ6IEhleCk6IHN0cmluZyB7CiAgcmV0dXJuIGAjJHtvcmRlcklkLnNsaWNlKDIsIDYpLnRvVXBwZXJDYXNlKCl9LSR7b3JkZXJJZC5zbGljZSgtNCkudG9VcHBlckNhc2UoKX1gOwp9CgpleHBvcnQgZnVuY3Rpb24gc2hvcnQodmFsdWU6IHN0cmluZywgaGVhZCA9IDYsIHRhaWwgPSA0KTogc3RyaW5nIHsKICByZXR1cm4gdmFsdWUubGVuZ3RoID4gaGVhZCArIHRhaWwgKyAxID8gYCR7dmFsdWUuc2xpY2UoMCwgaGVhZCl94oCmJHt2YWx1ZS5zbGljZSgtdGFpbCl9YCA6IHZhbHVlOwp9Cg==
+import { keccak256, toHex, type Hex } from "viem";
+
+/**
+ * The demo order. Rename it into an invoice, a ticket, a pledge… The contract only sees
+ * `orderId` and `amount`; everything else lives in your app.
+ */
+export const demoOrder = {
+  lines: [
+    { label: "Sample item", amount: "1.00" },
+    { label: "Service fee", amount: "0.05" },
+  ],
+  total: "1.05",
+};
+
+/**
+ * What an order costs, decided by the app, never by the buyer's request. The relayer only
+ * submits payments for exactly this amount, so nobody can make it pay gas for dust payments.
+ * In your app, look the order up in your database instead.
+ */
+export function priceOf(_orderId: Hex): string {
+  return demoOrder.total;
+}
+
+export function newOrderId(): Hex {
+  const bytes = crypto.getRandomValues(new Uint8Array(32));
+  return keccak256(toHex(bytes));
+}
+
+/** Short, human-friendly label for a bytes32 order id. */
+export function orderLabel(orderId: Hex): string {
+  return `#${orderId.slice(2, 6).toUpperCase()}-${orderId.slice(-4).toUpperCase()}`;
+}
+
+export function short(value: string, head = 6, tail = 4): string {
+  return value.length > head + tail + 1 ? `${value.slice(0, head)}…${value.slice(-tail)}` : value;
+}
