@@ -1,1 +1,12 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgPj0wLjYuMjsKCmludGVyZmFjZSBJRVJDMTY1IHsKICAgIC8vLyBAbm90aWNlIFF1ZXJ5IGlmIGEgY29udHJhY3QgaW1wbGVtZW50cyBhbiBpbnRlcmZhY2UKICAgIC8vLyBAcGFyYW0gaW50ZXJmYWNlSUQgVGhlIGludGVyZmFjZSBpZGVudGlmaWVyLCBhcyBzcGVjaWZpZWQgaW4gRVJDLTE2NQogICAgLy8vIEBkZXYgSW50ZXJmYWNlIGlkZW50aWZpY2F0aW9uIGlzIHNwZWNpZmllZCBpbiBFUkMtMTY1LiBUaGlzIGZ1bmN0aW9uCiAgICAvLy8gdXNlcyBsZXNzIHRoYW4gMzAsMDAwIGdhcy4KICAgIC8vLyBAcmV0dXJuIGB0cnVlYCBpZiB0aGUgY29udHJhY3QgaW1wbGVtZW50cyBgaW50ZXJmYWNlSURgIGFuZAogICAgLy8vIGBpbnRlcmZhY2VJRGAgaXMgbm90IDB4ZmZmZmZmZmYsIGBmYWxzZWAgb3RoZXJ3aXNlCiAgICBmdW5jdGlvbiBzdXBwb3J0c0ludGVyZmFjZShieXRlczQgaW50ZXJmYWNlSUQpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAoYm9vbCk7Cn0K
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.6.2;
+
+interface IERC165 {
+    /// @notice Query if a contract implements an interface
+    /// @param interfaceID The interface identifier, as specified in ERC-165
+    /// @dev Interface identification is specified in ERC-165. This function
+    /// uses less than 30,000 gas.
+    /// @return `true` if the contract implements `interfaceID` and
+    /// `interfaceID` is not 0xffffffff, `false` otherwise
+    function supportsInterface(bytes4 interfaceID) external view returns (bool);
+}
