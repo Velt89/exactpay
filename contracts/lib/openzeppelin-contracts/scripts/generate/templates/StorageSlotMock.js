@@ -1,1 +1,57 @@
-Y29uc3QgZm9ybWF0ID0gcmVxdWlyZSgnLi4vZm9ybWF0LWxpbmVzJyk7CmNvbnN0IHsgVFlQRVMgfSA9IHJlcXVpcmUoJy4vU2xvdC5vcHRzJyk7Cgpjb25zdCBoZWFkZXIgPSBgXApwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7TXVsdGljYWxsfSBmcm9tICIuLi91dGlscy9NdWx0aWNhbGwuc29sIjsKaW1wb3J0IHtTdG9yYWdlU2xvdH0gZnJvbSAiLi4vdXRpbHMvU3RvcmFnZVNsb3Quc29sIjsKYDsKCmNvbnN0IHN0b3JhZ2VTZXRWYWx1ZVR5cGUgPSAoeyB0eXBlLCBuYW1lIH0pID0+IGBcCmZ1bmN0aW9uIHNldCR7bmFtZX1TbG90KGJ5dGVzMzIgc2xvdCwgJHt0eXBlfSB2YWx1ZSkgcHVibGljIHsKICAgIHNsb3QuZ2V0JHtuYW1lfVNsb3QoKS52YWx1ZSA9IHZhbHVlOwp9CmA7Cgpjb25zdCBzdG9yYWdlR2V0VmFsdWVUeXBlID0gKHsgdHlwZSwgbmFtZSB9KSA9PiBgXApmdW5jdGlvbiBnZXQke25hbWV9U2xvdChieXRlczMyIHNsb3QpIHB1YmxpYyB2aWV3IHJldHVybnMgKCR7dHlwZX0pIHsKICAgIHJldHVybiBzbG90LmdldCR7bmFtZX1TbG90KCkudmFsdWU7Cn0KYDsKCmNvbnN0IHN0b3JhZ2VTZXROb25WYWx1ZVR5cGUgPSAoeyB0eXBlLCBuYW1lIH0pID0+IGBcCm1hcHBpbmcodWludDI1NiBrZXkgPT4gJHt0eXBlfSkgcHVibGljICR7dHlwZX1NYXA7CgpmdW5jdGlvbiBzZXQke25hbWV9U2xvdChieXRlczMyIHNsb3QsICR7dHlwZX0gY2FsbGRhdGEgdmFsdWUpIHB1YmxpYyB7CiAgICBzbG90LmdldCR7bmFtZX1TbG90KCkudmFsdWUgPSB2YWx1ZTsKfQoKZnVuY3Rpb24gc2V0JHtuYW1lfVN0b3JhZ2UodWludDI1NiBrZXksICR7dHlwZX0gY2FsbGRhdGEgdmFsdWUpIHB1YmxpYyB7CiAgICAke3R5cGV9TWFwW2tleV0uZ2V0JHtuYW1lfVNsb3QoKS52YWx1ZSA9IHZhbHVlOwp9CgpmdW5jdGlvbiBnZXQke25hbWV9U2xvdChieXRlczMyIHNsb3QpIHB1YmxpYyB2aWV3IHJldHVybnMgKCR7dHlwZX0gbWVtb3J5KSB7CiAgICByZXR1cm4gc2xvdC5nZXQke25hbWV9U2xvdCgpLnZhbHVlOwp9CgpmdW5jdGlvbiBnZXQke25hbWV9U3RvcmFnZSh1aW50MjU2IGtleSkgcHVibGljIHZpZXcgcmV0dXJucyAoJHt0eXBlfSBtZW1vcnkpIHsKICAgIHJldHVybiAke3R5cGV9TWFwW2tleV0uZ2V0JHtuYW1lfVNsb3QoKS52YWx1ZTsKfQpgOwoKLy8gR0VORVJBVEUKbW9kdWxlLmV4cG9ydHMgPSBmb3JtYXQoCiAgaGVhZGVyLAogICdjb250cmFjdCBTdG9yYWdlU2xvdE1vY2sgaXMgTXVsdGljYWxsIHsnLAogIGZvcm1hdCgKICAgIFtdLmNvbmNhdCgKICAgICAgJ3VzaW5nIFN0b3JhZ2VTbG90IGZvciAqOycsCiAgICAgICcnLAogICAgICBUWVBFUy5maWx0ZXIodHlwZSA9PiB0eXBlLmlzVmFsdWVUeXBlKS5tYXAodHlwZSA9PiBzdG9yYWdlU2V0VmFsdWVUeXBlKHR5cGUpKSwKICAgICAgVFlQRVMuZmlsdGVyKHR5cGUgPT4gdHlwZS5pc1ZhbHVlVHlwZSkubWFwKHR5cGUgPT4gc3RvcmFnZUdldFZhbHVlVHlwZSh0eXBlKSksCiAgICAgIFRZUEVTLmZpbHRlcih0eXBlID0+ICF0eXBlLmlzVmFsdWVUeXBlKS5tYXAodHlwZSA9PiBzdG9yYWdlU2V0Tm9uVmFsdWVUeXBlKHR5cGUpKSwKICAgICksCiAgKS50cmltRW5kKCksCiAgJ30nLAopOwo=
+const format = require('../format-lines');
+const { TYPES } = require('./Slot.opts');
+
+const header = `\
+pragma solidity ^0.8.20;
+
+import {Multicall} from "../utils/Multicall.sol";
+import {StorageSlot} from "../utils/StorageSlot.sol";
+`;
+
+const storageSetValueType = ({ type, name }) => `\
+function set${name}Slot(bytes32 slot, ${type} value) public {
+    slot.get${name}Slot().value = value;
+}
+`;
+
+const storageGetValueType = ({ type, name }) => `\
+function get${name}Slot(bytes32 slot) public view returns (${type}) {
+    return slot.get${name}Slot().value;
+}
+`;
+
+const storageSetNonValueType = ({ type, name }) => `\
+mapping(uint256 key => ${type}) public ${type}Map;
+
+function set${name}Slot(bytes32 slot, ${type} calldata value) public {
+    slot.get${name}Slot().value = value;
+}
+
+function set${name}Storage(uint256 key, ${type} calldata value) public {
+    ${type}Map[key].get${name}Slot().value = value;
+}
+
+function get${name}Slot(bytes32 slot) public view returns (${type} memory) {
+    return slot.get${name}Slot().value;
+}
+
+function get${name}Storage(uint256 key) public view returns (${type} memory) {
+    return ${type}Map[key].get${name}Slot().value;
+}
+`;
+
+// GENERATE
+module.exports = format(
+  header,
+  'contract StorageSlotMock is Multicall {',
+  format(
+    [].concat(
+      'using StorageSlot for *;',
+      '',
+      TYPES.filter(type => type.isValueType).map(type => storageSetValueType(type)),
+      TYPES.filter(type => type.isValueType).map(type => storageGetValueType(type)),
+      TYPES.filter(type => !type.isValueType).map(type => storageSetNonValueType(type)),
+    ),
+  ).trimEnd(),
+  '}',
+);
