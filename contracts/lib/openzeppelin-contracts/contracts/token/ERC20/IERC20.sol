@@ -1,1 +1,79 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodG9rZW4vRVJDMjAvSUVSQzIwLnNvbCkKCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKLyoqCiAqIEBkZXYgSW50ZXJmYWNlIG9mIHRoZSBFUkMtMjAgc3RhbmRhcmQgYXMgZGVmaW5lZCBpbiB0aGUgRVJDLgogKi8KaW50ZXJmYWNlIElFUkMyMCB7CiAgICAvKioKICAgICAqIEBkZXYgRW1pdHRlZCB3aGVuIGB2YWx1ZWAgdG9rZW5zIGFyZSBtb3ZlZCBmcm9tIG9uZSBhY2NvdW50IChgZnJvbWApIHRvCiAgICAgKiBhbm90aGVyIChgdG9gKS4KICAgICAqCiAgICAgKiBOb3RlIHRoYXQgYHZhbHVlYCBtYXkgYmUgemVyby4KICAgICAqLwogICAgZXZlbnQgVHJhbnNmZXIoYWRkcmVzcyBpbmRleGVkIGZyb20sIGFkZHJlc3MgaW5kZXhlZCB0bywgdWludDI1NiB2YWx1ZSk7CgogICAgLyoqCiAgICAgKiBAZGV2IEVtaXR0ZWQgd2hlbiB0aGUgYWxsb3dhbmNlIG9mIGEgYHNwZW5kZXJgIGZvciBhbiBgb3duZXJgIGlzIHNldCBieQogICAgICogYSBjYWxsIHRvIHthcHByb3ZlfS4gYHZhbHVlYCBpcyB0aGUgbmV3IGFsbG93YW5jZS4KICAgICAqLwogICAgZXZlbnQgQXBwcm92YWwoYWRkcmVzcyBpbmRleGVkIG93bmVyLCBhZGRyZXNzIGluZGV4ZWQgc3BlbmRlciwgdWludDI1NiB2YWx1ZSk7CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIHZhbHVlIG9mIHRva2VucyBpbiBleGlzdGVuY2UuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHRvdGFsU3VwcGx5KCkgZXh0ZXJuYWwgdmlldyByZXR1cm5zICh1aW50MjU2KTsKCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyB0aGUgdmFsdWUgb2YgdG9rZW5zIG93bmVkIGJ5IGBhY2NvdW50YC4KICAgICAqLwogICAgZnVuY3Rpb24gYmFsYW5jZU9mKGFkZHJlc3MgYWNjb3VudCkgZXh0ZXJuYWwgdmlldyByZXR1cm5zICh1aW50MjU2KTsKCiAgICAvKioKICAgICAqIEBkZXYgTW92ZXMgYSBgdmFsdWVgIGFtb3VudCBvZiB0b2tlbnMgZnJvbSB0aGUgY2FsbGVyJ3MgYWNjb3VudCB0byBgdG9gLgogICAgICoKICAgICAqIFJldHVybnMgYSBib29sZWFuIHZhbHVlIGluZGljYXRpbmcgd2hldGhlciB0aGUgb3BlcmF0aW9uIHN1Y2NlZWRlZC4KICAgICAqCiAgICAgKiBFbWl0cyBhIHtUcmFuc2Zlcn0gZXZlbnQuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHRyYW5zZmVyKGFkZHJlc3MgdG8sIHVpbnQyNTYgdmFsdWUpIGV4dGVybmFsIHJldHVybnMgKGJvb2wpOwoKICAgIC8qKgogICAgICogQGRldiBSZXR1cm5zIHRoZSByZW1haW5pbmcgbnVtYmVyIG9mIHRva2VucyB0aGF0IGBzcGVuZGVyYCB3aWxsIGJlCiAgICAgKiBhbGxvd2VkIHRvIHNwZW5kIG9uIGJlaGFsZiBvZiBgb3duZXJgIHRocm91Z2gge3RyYW5zZmVyRnJvbX0uIFRoaXMgaXMKICAgICAqIHplcm8gYnkgZGVmYXVsdC4KICAgICAqCiAgICAgKiBUaGlzIHZhbHVlIGNoYW5nZXMgd2hlbiB7YXBwcm92ZX0gb3Ige3RyYW5zZmVyRnJvbX0gYXJlIGNhbGxlZC4KICAgICAqLwogICAgZnVuY3Rpb24gYWxsb3dhbmNlKGFkZHJlc3Mgb3duZXIsIGFkZHJlc3Mgc3BlbmRlcikgZXh0ZXJuYWwgdmlldyByZXR1cm5zICh1aW50MjU2KTsKCiAgICAvKioKICAgICAqIEBkZXYgU2V0cyBhIGB2YWx1ZWAgYW1vdW50IG9mIHRva2VucyBhcyB0aGUgYWxsb3dhbmNlIG9mIGBzcGVuZGVyYCBvdmVyIHRoZQogICAgICogY2FsbGVyJ3MgdG9rZW5zLgogICAgICoKICAgICAqIFJldHVybnMgYSBib29sZWFuIHZhbHVlIGluZGljYXRpbmcgd2hldGhlciB0aGUgb3BlcmF0aW9uIHN1Y2NlZWRlZC4KICAgICAqCiAgICAgKiBJTVBPUlRBTlQ6IEJld2FyZSB0aGF0IGNoYW5naW5nIGFuIGFsbG93YW5jZSB3aXRoIHRoaXMgbWV0aG9kIGJyaW5ncyB0aGUgcmlzawogICAgICogdGhhdCBzb21lb25lIG1heSB1c2UgYm90aCB0aGUgb2xkIGFuZCB0aGUgbmV3IGFsbG93YW5jZSBieSB1bmZvcnR1bmF0ZQogICAgICogdHJhbnNhY3Rpb24gb3JkZXJpbmcuIE9uZSBwb3NzaWJsZSBzb2x1dGlvbiB0byBtaXRpZ2F0ZSB0aGlzIHJhY2UKICAgICAqIGNvbmRpdGlvbiBpcyB0byBmaXJzdCByZWR1Y2UgdGhlIHNwZW5kZXIncyBhbGxvd2FuY2UgdG8gMCBhbmQgc2V0IHRoZQogICAgICogZGVzaXJlZCB2YWx1ZSBhZnRlcndhcmRzOgogICAgICogaHR0cHM6Ly9naXRodWIuY29tL2V0aGVyZXVtL0VJUHMvaXNzdWVzLzIwI2lzc3VlY29tbWVudC0yNjM1MjQ3MjkKICAgICAqCiAgICAgKiBFbWl0cyBhbiB7QXBwcm92YWx9IGV2ZW50LgogICAgICovCiAgICBmdW5jdGlvbiBhcHByb3ZlKGFkZHJlc3Mgc3BlbmRlciwgdWludDI1NiB2YWx1ZSkgZXh0ZXJuYWwgcmV0dXJucyAoYm9vbCk7CgogICAgLyoqCiAgICAgKiBAZGV2IE1vdmVzIGEgYHZhbHVlYCBhbW91bnQgb2YgdG9rZW5zIGZyb20gYGZyb21gIHRvIGB0b2AgdXNpbmcgdGhlCiAgICAgKiBhbGxvd2FuY2UgbWVjaGFuaXNtLiBgdmFsdWVgIGlzIHRoZW4gZGVkdWN0ZWQgZnJvbSB0aGUgY2FsbGVyJ3MKICAgICAqIGFsbG93YW5jZS4KICAgICAqCiAgICAgKiBSZXR1cm5zIGEgYm9vbGVhbiB2YWx1ZSBpbmRpY2F0aW5nIHdoZXRoZXIgdGhlIG9wZXJhdGlvbiBzdWNjZWVkZWQuCiAgICAgKgogICAgICogRW1pdHMgYSB7VHJhbnNmZXJ9IGV2ZW50LgogICAgICovCiAgICBmdW5jdGlvbiB0cmFuc2ZlckZyb20oYWRkcmVzcyBmcm9tLCBhZGRyZXNzIHRvLCB1aW50MjU2IHZhbHVlKSBleHRlcm5hbCByZXR1cm5zIChib29sKTsKfQo=
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (token/ERC20/IERC20.sol)
+
+pragma solidity ^0.8.20;
+
+/**
+ * @dev Interface of the ERC-20 standard as defined in the ERC.
+ */
+interface IERC20 {
+    /**
+     * @dev Emitted when `value` tokens are moved from one account (`from`) to
+     * another (`to`).
+     *
+     * Note that `value` may be zero.
+     */
+    event Transfer(address indexed from, address indexed to, uint256 value);
+
+    /**
+     * @dev Emitted when the allowance of a `spender` for an `owner` is set by
+     * a call to {approve}. `value` is the new allowance.
+     */
+    event Approval(address indexed owner, address indexed spender, uint256 value);
+
+    /**
+     * @dev Returns the value of tokens in existence.
+     */
+    function totalSupply() external view returns (uint256);
+
+    /**
+     * @dev Returns the value of tokens owned by `account`.
+     */
+    function balanceOf(address account) external view returns (uint256);
+
+    /**
+     * @dev Moves a `value` amount of tokens from the caller's account to `to`.
+     *
+     * Returns a boolean value indicating whether the operation succeeded.
+     *
+     * Emits a {Transfer} event.
+     */
+    function transfer(address to, uint256 value) external returns (bool);
+
+    /**
+     * @dev Returns the remaining number of tokens that `spender` will be
+     * allowed to spend on behalf of `owner` through {transferFrom}. This is
+     * zero by default.
+     *
+     * This value changes when {approve} or {transferFrom} are called.
+     */
+    function allowance(address owner, address spender) external view returns (uint256);
+
+    /**
+     * @dev Sets a `value` amount of tokens as the allowance of `spender` over the
+     * caller's tokens.
+     *
+     * Returns a boolean value indicating whether the operation succeeded.
+     *
+     * IMPORTANT: Beware that changing an allowance with this method brings the risk
+     * that someone may use both the old and the new allowance by unfortunate
+     * transaction ordering. One possible solution to mitigate this race
+     * condition is to first reduce the spender's allowance to 0 and set the
+     * desired value afterwards:
+     * https://github.com/ethereum/EIPs/issues/20#issuecomment-263524729
+     *
+     * Emits an {Approval} event.
+     */
+    function approve(address spender, uint256 value) external returns (bool);
+
+    /**
+     * @dev Moves a `value` amount of tokens from `from` to `to` using the
+     * allowance mechanism. `value` is then deducted from the caller's
+     * allowance.
+     *
+     * Returns a boolean value indicating whether the operation succeeded.
+     *
+     * Emits a {Transfer} event.
+     */
+    function transferFrom(address from, address to, uint256 value) external returns (bool);
+}
