@@ -1,1 +1,87 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgdGltZSA9IHJlcXVpcmUoJy4uL2hlbHBlcnMvdGltZScpOwoKYXN5bmMgZnVuY3Rpb24gZW52U2V0dXAobW9jaywgYmVuZWZpY2lhcnksIHRva2VuKSB7CiAgcmV0dXJuIHsKICAgIGV0aDogewogICAgICBjaGVja1JlbGVhc2U6IGFzeW5jICh0eCwgYW1vdW50KSA9PiB7CiAgICAgICAgYXdhaXQgZXhwZWN0KHR4KS50by5jaGFuZ2VFdGhlckJhbGFuY2VzKFttb2NrLCBiZW5lZmljaWFyeV0sIFstYW1vdW50LCBhbW91bnRdKTsKICAgICAgfSwKICAgICAgc2V0dXBGYWlsdXJlOiBhc3luYyAoKSA9PiB7CiAgICAgICAgY29uc3QgYmVuZWZpY2lhcnlNb2NrID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCdFdGhlclJlY2VpdmVyTW9jaycpOwogICAgICAgIGF3YWl0IGJlbmVmaWNpYXJ5TW9jay5zZXRBY2NlcHRFdGhlcihmYWxzZSk7CiAgICAgICAgYXdhaXQgbW9jay5jb25uZWN0KGJlbmVmaWNpYXJ5KS50cmFuc2Zlck93bmVyc2hpcChiZW5lZmljaWFyeU1vY2spOwogICAgICAgIHJldHVybiB7IGFyZ3M6IFtdLCBlcnJvcjogW21vY2ssICdGYWlsZWRDYWxsJ10gfTsKICAgICAgfSwKICAgICAgcmVsZWFzZWRFdmVudDogJ0V0aGVyUmVsZWFzZWQnLAogICAgICBhcmdzOiBbXSwKICAgIH0sCiAgICB0b2tlbjogewogICAgICBjaGVja1JlbGVhc2U6IGFzeW5jICh0eCwgYW1vdW50KSA9PiB7CiAgICAgICAgYXdhaXQgZXhwZWN0KHR4KS50by5lbWl0KHRva2VuLCAnVHJhbnNmZXInKS53aXRoQXJncyhtb2NrLCBiZW5lZmljaWFyeSwgYW1vdW50KTsKICAgICAgICBhd2FpdCBleHBlY3QodHgpLnRvLmNoYW5nZVRva2VuQmFsYW5jZXModG9rZW4sIFttb2NrLCBiZW5lZmljaWFyeV0sIFstYW1vdW50LCBhbW91bnRdKTsKICAgICAgfSwKICAgICAgc2V0dXBGYWlsdXJlOiBhc3luYyAoKSA9PiB7CiAgICAgICAgY29uc3QgcGF1c2FibGVUb2tlbiA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnJEVSQzIwUGF1c2FibGUnLCBbJ05hbWUnLCAnU3ltYm9sJ10pOwogICAgICAgIGF3YWl0IHBhdXNhYmxlVG9rZW4uJF9wYXVzZSgpOwogICAgICAgIHJldHVybiB7CiAgICAgICAgICBhcmdzOiBbZXRoZXJzLlR5cGVkLmFkZHJlc3MocGF1c2FibGVUb2tlbildLAogICAgICAgICAgZXJyb3I6IFtwYXVzYWJsZVRva2VuLCAnRW5mb3JjZWRQYXVzZSddLAogICAgICAgIH07CiAgICAgIH0sCiAgICAgIHJlbGVhc2VkRXZlbnQ6ICdFUkMyMFJlbGVhc2VkJywKICAgICAgYXJnczogW2V0aGVycy5UeXBlZC5hZGRyZXNzKHRva2VuKV0sCiAgICB9LAogIH07Cn0KCmZ1bmN0aW9uIHNob3VsZEJlaGF2ZUxpa2VWZXN0aW5nKCkgewogIGl0KCdjaGVjayB2ZXN0aW5nIHNjaGVkdWxlJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgZm9yIChjb25zdCB0aW1lc3RhbXAgb2YgdGhpcy5zY2hlZHVsZSkgewogICAgICBhd2FpdCB0aW1lLmluY3JlYXNlVG8udGltZXN0YW1wKHRpbWVzdGFtcCk7CiAgICAgIGNvbnN0IHZlc3RpbmcgPSB0aGlzLnZlc3RpbmdGbih0aW1lc3RhbXApOwoKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay52ZXN0ZWRBbW91bnQoLi4udGhpcy5hcmdzLCB0aW1lc3RhbXApKS50by5lcXVhbCh2ZXN0aW5nKTsKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay5yZWxlYXNhYmxlKC4uLnRoaXMuYXJncykpLnRvLmVxdWFsKHZlc3RpbmcpOwogICAgfQogIH0pOwoKICBpdCgnZXhlY3V0ZSB2ZXN0aW5nIHNjaGVkdWxlJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgbGV0IHJlbGVhc2VkID0gMG47CiAgICB7CiAgICAgIGNvbnN0IHR4ID0gYXdhaXQgdGhpcy5tb2NrLnJlbGVhc2UoLi4udGhpcy5hcmdzKTsKICAgICAgYXdhaXQgZXhwZWN0KHR4KQogICAgICAgIC50by5lbWl0KHRoaXMubW9jaywgdGhpcy5yZWxlYXNlZEV2ZW50KQogICAgICAgIC53aXRoQXJncyguLi50aGlzLmFyZ3MsIDApOwoKICAgICAgYXdhaXQgdGhpcy5jaGVja1JlbGVhc2UodHgsIDBuKTsKICAgIH0KCiAgICBmb3IgKGNvbnN0IHRpbWVzdGFtcCBvZiB0aGlzLnNjaGVkdWxlKSB7CiAgICAgIGF3YWl0IHRpbWUuaW5jcmVhc2VUby50aW1lc3RhbXAodGltZXN0YW1wLCBmYWxzZSk7CiAgICAgIGNvbnN0IHZlc3RlZCA9IHRoaXMudmVzdGluZ0ZuKHRpbWVzdGFtcCk7CgogICAgICBjb25zdCB0eCA9IGF3YWl0IHRoaXMubW9jay5yZWxlYXNlKC4uLnRoaXMuYXJncyk7CiAgICAgIGF3YWl0IGV4cGVjdCh0eCkudG8uZW1pdCh0aGlzLm1vY2ssIHRoaXMucmVsZWFzZWRFdmVudCk7CgogICAgICBhd2FpdCB0aGlzLmNoZWNrUmVsZWFzZSh0eCwgdmVzdGVkIC0gcmVsZWFzZWQpOwogICAgICByZWxlYXNlZCA9IHZlc3RlZDsKICAgIH0KICB9KTsKCiAgaXQoJ3Nob3VsZCByZXZlcnQgb24gdHJhbnNhY3Rpb24gZmFpbHVyZScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgIGNvbnN0IHsgYXJncywgZXJyb3IgfSA9IGF3YWl0IHRoaXMuc2V0dXBGYWlsdXJlKCk7CgogICAgZm9yIChjb25zdCB0aW1lc3RhbXAgb2YgdGhpcy5zY2hlZHVsZSkgewogICAgICBhd2FpdCB0aW1lLmluY3JlYXNlVG8udGltZXN0YW1wKHRpbWVzdGFtcCk7CgogICAgICBhd2FpdCBleHBlY3QodGhpcy5tb2NrLnJlbGVhc2UoLi4uYXJncykpLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKC4uLmVycm9yKTsKICAgIH0KICB9KTsKfQoKbW9kdWxlLmV4cG9ydHMgPSB7CiAgZW52U2V0dXAsCiAgc2hvdWxkQmVoYXZlTGlrZVZlc3RpbmcsCn07Cg==
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const time = require('../helpers/time');
+
+async function envSetup(mock, beneficiary, token) {
+  return {
+    eth: {
+      checkRelease: async (tx, amount) => {
+        await expect(tx).to.changeEtherBalances([mock, beneficiary], [-amount, amount]);
+      },
+      setupFailure: async () => {
+        const beneficiaryMock = await ethers.deployContract('EtherReceiverMock');
+        await beneficiaryMock.setAcceptEther(false);
+        await mock.connect(beneficiary).transferOwnership(beneficiaryMock);
+        return { args: [], error: [mock, 'FailedCall'] };
+      },
+      releasedEvent: 'EtherReleased',
+      args: [],
+    },
+    token: {
+      checkRelease: async (tx, amount) => {
+        await expect(tx).to.emit(token, 'Transfer').withArgs(mock, beneficiary, amount);
+        await expect(tx).to.changeTokenBalances(token, [mock, beneficiary], [-amount, amount]);
+      },
+      setupFailure: async () => {
+        const pausableToken = await ethers.deployContract('$ERC20Pausable', ['Name', 'Symbol']);
+        await pausableToken.$_pause();
+        return {
+          args: [ethers.Typed.address(pausableToken)],
+          error: [pausableToken, 'EnforcedPause'],
+        };
+      },
+      releasedEvent: 'ERC20Released',
+      args: [ethers.Typed.address(token)],
+    },
+  };
+}
+
+function shouldBehaveLikeVesting() {
+  it('check vesting schedule', async function () {
+    for (const timestamp of this.schedule) {
+      await time.increaseTo.timestamp(timestamp);
+      const vesting = this.vestingFn(timestamp);
+
+      expect(await this.mock.vestedAmount(...this.args, timestamp)).to.equal(vesting);
+      expect(await this.mock.releasable(...this.args)).to.equal(vesting);
+    }
+  });
+
+  it('execute vesting schedule', async function () {
+    let released = 0n;
+    {
+      const tx = await this.mock.release(...this.args);
+      await expect(tx)
+        .to.emit(this.mock, this.releasedEvent)
+        .withArgs(...this.args, 0);
+
+      await this.checkRelease(tx, 0n);
+    }
+
+    for (const timestamp of this.schedule) {
+      await time.increaseTo.timestamp(timestamp, false);
+      const vested = this.vestingFn(timestamp);
+
+      const tx = await this.mock.release(...this.args);
+      await expect(tx).to.emit(this.mock, this.releasedEvent);
+
+      await this.checkRelease(tx, vested - released);
+      released = vested;
+    }
+  });
+
+  it('should revert on transaction failure', async function () {
+    const { args, error } = await this.setupFailure();
+
+    for (const timestamp of this.schedule) {
+      await time.increaseTo.timestamp(timestamp);
+
+      await expect(this.mock.release(...args)).to.be.revertedWithCustomError(...error);
+    }
+  });
+}
+
+module.exports = {
+  envSetup,
+  shouldBehaveLikeVesting,
+};
