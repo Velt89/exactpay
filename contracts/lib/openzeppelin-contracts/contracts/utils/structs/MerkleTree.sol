@@ -1,1 +1,175 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodXRpbHMvc3RydWN0cy9NZXJrbGVUcmVlLnNvbCkKCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKaW1wb3J0IHtIYXNoZXN9IGZyb20gIi4uL2NyeXB0b2dyYXBoeS9IYXNoZXMuc29sIjsKaW1wb3J0IHtBcnJheXN9IGZyb20gIi4uL0FycmF5cy5zb2wiOwppbXBvcnQge1BhbmljfSBmcm9tICIuLi9QYW5pYy5zb2wiOwoKLyoqCiAqIEBkZXYgTGlicmFyeSBmb3IgbWFuYWdpbmcgaHR0cHM6Ly93aWtpcGVkaWEub3JnL3dpa2kvTWVya2xlX1RyZWVbTWVya2xlIFRyZWVdIGRhdGEgc3RydWN0dXJlcy4KICoKICogRWFjaCB0cmVlIGlzIGEgY29tcGxldGUgYmluYXJ5IHRyZWUgd2l0aCB0aGUgYWJpbGl0eSB0byBzZXF1ZW50aWFsbHkgaW5zZXJ0IGxlYXZlcywgY2hhbmdpbmcgdGhlbSBmcm9tIGEgemVybyB0byBhCiAqIG5vbi16ZXJvIHZhbHVlIGFuZCB1cGRhdGluZyBpdHMgcm9vdC4gVGhpcyBzdHJ1Y3R1cmUgYWxsb3dzIGluc2VydGluZyBjb21taXRtZW50cyAob3Igb3RoZXIgZW50cmllcykgdGhhdCBhcmUgbm90CiAqIHN0b3JlZCwgYnV0IGNhbiBiZSBwcm92ZW4gdG8gYmUgcGFydCBvZiB0aGUgdHJlZSBhdCBhIGxhdGVyIHRpbWUgaWYgdGhlIHJvb3QgaXMga2VwdC4gU2VlIHtNZXJrbGVQcm9vZn0uCiAqCiAqIEEgdHJlZSBpcyBkZWZpbmVkIGJ5IHRoZSBmb2xsb3dpbmcgcGFyYW1ldGVyczoKICoKICogKiBEZXB0aDogVGhlIG51bWJlciBvZiBsZXZlbHMgaW4gdGhlIHRyZWUsIGl0IGFsc28gZGVmaW5lcyB0aGUgbWF4aW11bSBudW1iZXIgb2YgbGVhdmVzIGFzIDIqKmRlcHRoLgogKiAqIFplcm8gdmFsdWU6IFRoZSB2YWx1ZSB0aGF0IHJlcHJlc2VudHMgYW4gZW1wdHkgbGVhZi4gVXNlZCB0byBhdm9pZCByZWd1bGFyIHplcm8gdmFsdWVzIHRvIGJlIHBhcnQgb2YgdGhlIHRyZWUuCiAqICogSGFzaGluZyBmdW5jdGlvbjogQSBjcnlwdG9ncmFwaGljIGhhc2ggZnVuY3Rpb24gdXNlZCB0byBwcm9kdWNlIGludGVybmFsIG5vZGVzLiBEZWZhdWx0cyB0byB7SGFzaGVzLWNvbW11dGF0aXZlS2VjY2FrMjU2fS4KICoKICogTk9URTogQnVpbGRpbmcgdHJlZXMgdXNpbmcgbm9uLWNvbW11dGF0aXZlIGhhc2hpbmcgZnVuY3Rpb25zIChpLmUuIGBIKGEsIGIpICE9IEgoYiwgYSlgKSBpcyBzdXBwb3J0ZWQuIEhvd2V2ZXIsCiAqIHByb3ZpbmcgdGhlIGluY2x1c2lvbiBvZiBhIGxlYWYgaW4gc3VjaCB0cmVlcyBpcyBub3QgcG9zc2libGUgd2l0aCB0aGUge01lcmtsZVByb29mfSBsaWJyYXJ5IHNpbmNlIGl0IG9ubHkgc3VwcG9ydHMKICogX2NvbW11dGF0aXZlXyBoYXNoaW5nIGZ1bmN0aW9ucy4KICoKICogX0F2YWlsYWJsZSBzaW5jZSB2NS4xLl8KICovCmxpYnJhcnkgTWVya2xlVHJlZSB7CiAgICAvKioKICAgICAqIEBkZXYgQSBjb21wbGV0ZSBgYnl0ZXMzMmAgTWVya2xlIHRyZWUuCiAgICAgKgogICAgICogVGhlIGBzaWRlc2AgYW5kIGB6ZXJvYCBhcnJheXMgYXJlIHNldCB0byBoYXZlIGEgbGVuZ3RoIGVxdWFsIHRvIHRoZSBkZXB0aCBvZiB0aGUgdHJlZSBkdXJpbmcgc2V0dXAuCiAgICAgKgogICAgICogU3RydWN0IG1lbWJlcnMgaGF2ZSBhbiB1bmRlcnNjb3JlIHByZWZpeCBpbmRpY2F0aW5nIHRoYXQgdGhleSBhcmUgInByaXZhdGUiIGFuZCBzaG91bGQgbm90IGJlIHJlYWQgb3Igd3JpdHRlbiB0bwogICAgICogZGlyZWN0bHkuIFVzZSB0aGUgZnVuY3Rpb25zIHByb3ZpZGVkIGJlbG93IGluc3RlYWQuIE1vZGlmeWluZyB0aGUgc3RydWN0IG1hbnVhbGx5IG1heSB2aW9sYXRlIGFzc3VtcHRpb25zIGFuZAogICAgICogbGVhZCB0byB1bmV4cGVjdGVkIGJlaGF2aW9yLgogICAgICoKICAgICAqIE5PVEU6IFRoZSBgcm9vdGAgYW5kIHRoZSB1cGRhdGVzIGhpc3RvcnkgaXMgbm90IHN0b3JlZCB3aXRoaW4gdGhlIHRyZWUuIENvbnNpZGVyIHVzaW5nIGEgc2Vjb25kYXJ5IHN0cnVjdHVyZSB0bwogICAgICogc3RvcmUgYSBsaXN0IG9mIGhpc3RvcmljYWwgcm9vdHMgZnJvbSB0aGUgdmFsdWVzIHJldHVybmVkIGZyb20ge3NldHVwfSBhbmQge3B1c2h9IChlLmcuIGEgbWFwcGluZywge0JpdE1hcHN9IG9yCiAgICAgKiB7Q2hlY2twb2ludHN9KS4KICAgICAqCiAgICAgKiBXQVJOSU5HOiBVcGRhdGluZyBhbnkgb2YgdGhlIHRyZWUncyBwYXJhbWV0ZXJzIGFmdGVyIHRoZSBmaXJzdCBpbnNlcnRpb24gd2lsbCByZXN1bHQgaW4gYSBjb3JydXB0ZWQgdHJlZS4KICAgICAqLwogICAgc3RydWN0IEJ5dGVzMzJQdXNoVHJlZSB7CiAgICAgICAgdWludDI1NiBfbmV4dExlYWZJbmRleDsKICAgICAgICBieXRlczMyW10gX3NpZGVzOwogICAgICAgIGJ5dGVzMzJbXSBfemVyb3M7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IEluaXRpYWxpemUgYSB7Qnl0ZXMzMlB1c2hUcmVlfSB1c2luZyB7SGFzaGVzLWNvbW11dGF0aXZlS2VjY2FrMjU2fSB0byBoYXNoIGludGVybmFsIG5vZGVzLgogICAgICogVGhlIGNhcGFjaXR5IG9mIHRoZSB0cmVlIChpLmUuIG51bWJlciBvZiBsZWF2ZXMpIGlzIHNldCB0byBgMioqdHJlZURlcHRoYC4KICAgICAqCiAgICAgKiBDYWxsaW5nIHRoaXMgZnVuY3Rpb24gb24gTWVya2xlVHJlZSB0aGF0IHdhcyBhbHJlYWR5IHNldHVwIGFuZCB1c2VkIHdpbGwgcmVzZXQgaXQgdG8gYSBibGFuayBzdGF0ZS4KICAgICAqCiAgICAgKiBPbmNlIGEgdHJlZSBpcyBzZXR1cCwgYW55IHB1c2ggdG8gaXQgbXVzdCB1c2UgdGhlIHNhbWUgaGFzaGluZyBmdW5jdGlvbi4gVGhpcyBtZWFucyB0aGF0IHZhbHVlcwogICAgICogc2hvdWxkIGJlIHB1c2hlZCB0byBpdCB1c2luZyB0aGUgZGVmYXVsdCB7eHJlZi1NZXJrbGVUcmVlLXB1c2gtc3RydWN0LU1lcmtsZVRyZWUtQnl0ZXMzMlB1c2hUcmVlLWJ5dGVzMzItfVtwdXNoXSBmdW5jdGlvbi4KICAgICAqCiAgICAgKiBJTVBPUlRBTlQ6IFRoZSB6ZXJvIHZhbHVlIHNob3VsZCBiZSBjYXJlZnVsbHkgY2hvc2VuIHNpbmNlIGl0IHdpbGwgYmUgc3RvcmVkIGluIHRoZSB0cmVlIHJlcHJlc2VudGluZwogICAgICogZW1wdHkgbGVhdmVzLiBJdCBzaG91bGQgYmUgYSB2YWx1ZSB0aGF0IGlzIG5vdCBleHBlY3RlZCB0byBiZSBwYXJ0IG9mIHRoZSB0cmVlLgogICAgICovCiAgICBmdW5jdGlvbiBzZXR1cChCeXRlczMyUHVzaFRyZWUgc3RvcmFnZSBzZWxmLCB1aW50OCB0cmVlRGVwdGgsIGJ5dGVzMzIgemVybykgaW50ZXJuYWwgcmV0dXJucyAoYnl0ZXMzMiBpbml0aWFsUm9vdCkgewogICAgICAgIHJldHVybiBzZXR1cChzZWxmLCB0cmVlRGVwdGgsIHplcm8sIEhhc2hlcy5jb21tdXRhdGl2ZUtlY2NhazI1Nik7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFNhbWUgYXMge3hyZWYtTWVya2xlVHJlZS1zZXR1cC1zdHJ1Y3QtTWVya2xlVHJlZS1CeXRlczMyUHVzaFRyZWUtdWludDgtYnl0ZXMzMi19W3NldHVwXSwgYnV0IGFsbG93cyB0byBzcGVjaWZ5IGEgY3VzdG9tIGhhc2hpbmcgZnVuY3Rpb24uCiAgICAgKgogICAgICogT25jZSBhIHRyZWUgaXMgc2V0dXAsIGFueSBwdXNoIHRvIGl0IG11c3QgdXNlIHRoZSBzYW1lIGhhc2hpbmcgZnVuY3Rpb24uIFRoaXMgbWVhbnMgdGhhdCB2YWx1ZXMKICAgICAqIHNob3VsZCBiZSBwdXNoZWQgdG8gaXQgdXNpbmcgdGhlIGN1c3RvbSBwdXNoIGZ1bmN0aW9uLCB3aGljaCBzaG91bGQgYmUgdGhlIHNhbWUgb25lIGFzIHVzZWQgZHVyaW5nIHRoZSBzZXR1cC4KICAgICAqCiAgICAgKiBJTVBPUlRBTlQ6IFByb3ZpZGluZyBhIGN1c3RvbSBoYXNoaW5nIGZ1bmN0aW9uIGlzIGEgc2VjdXJpdHktc2Vuc2l0aXZlIG9wZXJhdGlvbiBzaW5jZSBpdCBtYXkKICAgICAqIGNvbXByb21pc2UgdGhlIHNvdW5kbmVzcyBvZiB0aGUgdHJlZS4KICAgICAqCiAgICAgKiBOT1RFOiBDb25zaWRlciB2ZXJpZnlpbmcgdGhhdCB0aGUgaGFzaGluZyBmdW5jdGlvbiBkb2VzIG5vdCBtYW5pcHVsYXRlIHRoZSBtZW1vcnkgc3RhdGUgZGlyZWN0bHkgYW5kIHRoYXQgaXQKICAgICAqIGZvbGxvd3MgdGhlIFNvbGlkaXR5IG1lbW9yeSBzYWZldHkgcnVsZXMuIE90aGVyd2lzZSwgaXQgbWF5IGxlYWQgdG8gdW5leHBlY3RlZCBiZWhhdmlvci4KICAgICAqLwogICAgZnVuY3Rpb24gc2V0dXAoCiAgICAgICAgQnl0ZXMzMlB1c2hUcmVlIHN0b3JhZ2Ugc2VsZiwKICAgICAgICB1aW50OCB0cmVlRGVwdGgsCiAgICAgICAgYnl0ZXMzMiB6ZXJvLAogICAgICAgIGZ1bmN0aW9uKGJ5dGVzMzIsIGJ5dGVzMzIpIHZpZXcgcmV0dXJucyAoYnl0ZXMzMikgZm5IYXNoCiAgICApIGludGVybmFsIHJldHVybnMgKGJ5dGVzMzIgaW5pdGlhbFJvb3QpIHsKICAgICAgICAvLyBTdG9yZSBkZXB0aCBpbiB0aGUgZHluYW1pYyBhcnJheQogICAgICAgIEFycmF5cy51bnNhZmVTZXRMZW5ndGgoc2VsZi5fc2lkZXMsIHRyZWVEZXB0aCk7CiAgICAgICAgQXJyYXlzLnVuc2FmZVNldExlbmd0aChzZWxmLl96ZXJvcywgdHJlZURlcHRoKTsKCiAgICAgICAgLy8gQnVpbGQgZWFjaCByb290IG9mIHplcm8tZmlsbGVkIHN1YnRyZWVzCiAgICAgICAgYnl0ZXMzMiBjdXJyZW50WmVybyA9IHplcm87CiAgICAgICAgZm9yICh1aW50MzIgaSA9IDA7IGkgPCB0cmVlRGVwdGg7ICsraSkgewogICAgICAgICAgICBBcnJheXMudW5zYWZlQWNjZXNzKHNlbGYuX3plcm9zLCBpKS52YWx1ZSA9IGN1cnJlbnRaZXJvOwogICAgICAgICAgICBjdXJyZW50WmVybyA9IGZuSGFzaChjdXJyZW50WmVybywgY3VycmVudFplcm8pOwogICAgICAgIH0KCiAgICAgICAgLy8gU2V0IHRoZSBmaXJzdCByb290CiAgICAgICAgc2VsZi5fbmV4dExlYWZJbmRleCA9IDA7CgogICAgICAgIHJldHVybiBjdXJyZW50WmVybzsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgSW5zZXJ0IGEgbmV3IGxlYWYgaW4gdGhlIHRyZWUsIGFuZCBjb21wdXRlIHRoZSBuZXcgcm9vdC4gUmV0dXJucyB0aGUgcG9zaXRpb24gb2YgdGhlIGluc2VydGVkIGxlYWYgaW4gdGhlCiAgICAgKiB0cmVlLCBhbmQgdGhlIHJlc3VsdGluZyByb290LgogICAgICoKICAgICAqIEhhc2hpbmcgdGhlIGxlYWYgYmVmb3JlIGNhbGxpbmcgdGhpcyBmdW5jdGlvbiBpcyByZWNvbW1lbmRlZCBhcyBhIHByb3RlY3Rpb24gYWdhaW5zdAogICAgICogc2Vjb25kIHByZS1pbWFnZSBhdHRhY2tzLgogICAgICoKICAgICAqIFRoaXMgdmFyaWFudCB1c2VzIHtIYXNoZXMtY29tbXV0YXRpdmVLZWNjYWsyNTZ9IHRvIGhhc2ggaW50ZXJuYWwgbm9kZXMuIEl0IHNob3VsZCBvbmx5IGJlIHVzZWQgb24gbWVya2xlIHRyZWVzCiAgICAgKiB0aGF0IHdlcmUgc2V0dXAgdXNpbmcgdGhlIHNhbWUgKGRlZmF1bHQpIGhhc2hpbmcgZnVuY3Rpb24gKGkuZS4gYnkgY2FsbGluZwogICAgICoge3hyZWYtTWVya2xlVHJlZS1zZXR1cC1zdHJ1Y3QtTWVya2xlVHJlZS1CeXRlczMyUHVzaFRyZWUtdWludDgtYnl0ZXMzMi19W3RoZSBkZWZhdWx0IHNldHVwXSBmdW5jdGlvbikuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHB1c2goQnl0ZXMzMlB1c2hUcmVlIHN0b3JhZ2Ugc2VsZiwgYnl0ZXMzMiBsZWFmKSBpbnRlcm5hbCByZXR1cm5zICh1aW50MjU2IGluZGV4LCBieXRlczMyIG5ld1Jvb3QpIHsKICAgICAgICByZXR1cm4gcHVzaChzZWxmLCBsZWFmLCBIYXNoZXMuY29tbXV0YXRpdmVLZWNjYWsyNTYpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBJbnNlcnQgYSBuZXcgbGVhZiBpbiB0aGUgdHJlZSwgYW5kIGNvbXB1dGUgdGhlIG5ldyByb290LiBSZXR1cm5zIHRoZSBwb3NpdGlvbiBvZiB0aGUgaW5zZXJ0ZWQgbGVhZiBpbiB0aGUKICAgICAqIHRyZWUsIGFuZCB0aGUgcmVzdWx0aW5nIHJvb3QuCiAgICAgKgogICAgICogSGFzaGluZyB0aGUgbGVhZiBiZWZvcmUgY2FsbGluZyB0aGlzIGZ1bmN0aW9uIGlzIHJlY29tbWVuZGVkIGFzIGEgcHJvdGVjdGlvbiBhZ2FpbnN0CiAgICAgKiBzZWNvbmQgcHJlLWltYWdlIGF0dGFja3MuCiAgICAgKgogICAgICogVGhpcyB2YXJpYW50IHVzZXMgYSBjdXN0b20gaGFzaGluZyBmdW5jdGlvbiB0byBoYXNoIGludGVybmFsIG5vZGVzLiBJdCBzaG91bGQgb25seSBiZSBjYWxsZWQgd2l0aCB0aGUgc2FtZQogICAgICogZnVuY3Rpb24gYXMgdGhlIG9uZSB1c2VkIGR1cmluZyB0aGUgaW5pdGlhbCBzZXR1cCBvZiB0aGUgbWVya2xlIHRyZWUuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHB1c2goCiAgICAgICAgQnl0ZXMzMlB1c2hUcmVlIHN0b3JhZ2Ugc2VsZiwKICAgICAgICBieXRlczMyIGxlYWYsCiAgICAgICAgZnVuY3Rpb24oYnl0ZXMzMiwgYnl0ZXMzMikgdmlldyByZXR1cm5zIChieXRlczMyKSBmbkhhc2gKICAgICkgaW50ZXJuYWwgcmV0dXJucyAodWludDI1NiBpbmRleCwgYnl0ZXMzMiBuZXdSb290KSB7CiAgICAgICAgLy8gQ2FjaGUgcmVhZAogICAgICAgIHVpbnQyNTYgdHJlZURlcHRoID0gZGVwdGgoc2VsZik7CgogICAgICAgIC8vIEdldCBsZWFmIGluZGV4CiAgICAgICAgaW5kZXggPSBzZWxmLl9uZXh0TGVhZkluZGV4Kys7CgogICAgICAgIC8vIENoZWNrIGlmIHRyZWUgaXMgZnVsbC4KICAgICAgICBpZiAoaW5kZXggPj0gMSA8PCB0cmVlRGVwdGgpIHsKICAgICAgICAgICAgUGFuaWMucGFuaWMoUGFuaWMuUkVTT1VSQ0VfRVJST1IpOwogICAgICAgIH0KCiAgICAgICAgLy8gUmVidWlsZCBicmFuY2ggZnJvbSBsZWFmIHRvIHJvb3QKICAgICAgICB1aW50MjU2IGN1cnJlbnRJbmRleCA9IGluZGV4OwogICAgICAgIGJ5dGVzMzIgY3VycmVudExldmVsSGFzaCA9IGxlYWY7CiAgICAgICAgZm9yICh1aW50MzIgaSA9IDA7IGkgPCB0cmVlRGVwdGg7IGkrKykgewogICAgICAgICAgICAvLyBSZWFjaGluZyB0aGUgcGFyZW50IG5vZGUsIGlzIGN1cnJlbnRMZXZlbEhhc2ggdGhlIGxlZnQgY2hpbGQ/CiAgICAgICAgICAgIGJvb2wgaXNMZWZ0ID0gY3VycmVudEluZGV4ICUgMiA9PSAwOwoKICAgICAgICAgICAgLy8gSWYgc28sIG5leHQgdGltZSB3ZSB3aWxsIGNvbWUgZnJvbSB0aGUgcmlnaHQsIHNvIHdlIG5lZWQgdG8gc2F2ZSBpdAogICAgICAgICAgICBpZiAoaXNMZWZ0KSB7CiAgICAgICAgICAgICAgICBBcnJheXMudW5zYWZlQWNjZXNzKHNlbGYuX3NpZGVzLCBpKS52YWx1ZSA9IGN1cnJlbnRMZXZlbEhhc2g7CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC8vIENvbXB1dGUgdGhlIGN1cnJlbnQgbm9kZSBoYXNoIGJ5IHVzaW5nIHRoZSBoYXNoIGZ1bmN0aW9uCiAgICAgICAgICAgIC8vIHdpdGggZWl0aGVyIGl0cyBzaWJsaW5nIChzaWRlKSBvciB0aGUgemVybyB2YWx1ZSBmb3IgdGhhdCBsZXZlbC4KICAgICAgICAgICAgY3VycmVudExldmVsSGFzaCA9IGZuSGFzaCgKICAgICAgICAgICAgICAgIGlzTGVmdCA/IGN1cnJlbnRMZXZlbEhhc2ggOiBBcnJheXMudW5zYWZlQWNjZXNzKHNlbGYuX3NpZGVzLCBpKS52YWx1ZSwKICAgICAgICAgICAgICAgIGlzTGVmdCA/IEFycmF5cy51bnNhZmVBY2Nlc3Moc2VsZi5femVyb3MsIGkpLnZhbHVlIDogY3VycmVudExldmVsSGFzaAogICAgICAgICAgICApOwoKICAgICAgICAgICAgLy8gVXBkYXRlIG5vZGUgaW5kZXgKICAgICAgICAgICAgY3VycmVudEluZGV4ID4+PSAxOwogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIChpbmRleCwgY3VycmVudExldmVsSGFzaCk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFRyZWUncyBkZXB0aCAoc2V0IGF0IGluaXRpYWxpemF0aW9uKQogICAgICovCiAgICBmdW5jdGlvbiBkZXB0aChCeXRlczMyUHVzaFRyZWUgc3RvcmFnZSBzZWxmKSBpbnRlcm5hbCB2aWV3IHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXR1cm4gc2VsZi5femVyb3MubGVuZ3RoOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (utils/structs/MerkleTree.sol)
+
+pragma solidity ^0.8.20;
+
+import {Hashes} from "../cryptography/Hashes.sol";
+import {Arrays} from "../Arrays.sol";
+import {Panic} from "../Panic.sol";
+
+/**
+ * @dev Library for managing https://wikipedia.org/wiki/Merkle_Tree[Merkle Tree] data structures.
+ *
+ * Each tree is a complete binary tree with the ability to sequentially insert leaves, changing them from a zero to a
+ * non-zero value and updating its root. This structure allows inserting commitments (or other entries) that are not
+ * stored, but can be proven to be part of the tree at a later time if the root is kept. See {MerkleProof}.
+ *
+ * A tree is defined by the following parameters:
+ *
+ * * Depth: The number of levels in the tree, it also defines the maximum number of leaves as 2**depth.
+ * * Zero value: The value that represents an empty leaf. Used to avoid regular zero values to be part of the tree.
+ * * Hashing function: A cryptographic hash function used to produce internal nodes. Defaults to {Hashes-commutativeKeccak256}.
+ *
+ * NOTE: Building trees using non-commutative hashing functions (i.e. `H(a, b) != H(b, a)`) is supported. However,
+ * proving the inclusion of a leaf in such trees is not possible with the {MerkleProof} library since it only supports
+ * _commutative_ hashing functions.
+ *
+ * _Available since v5.1._
+ */
+library MerkleTree {
+    /**
+     * @dev A complete `bytes32` Merkle tree.
+     *
+     * The `sides` and `zero` arrays are set to have a length equal to the depth of the tree during setup.
+     *
+     * Struct members have an underscore prefix indicating that they are "private" and should not be read or written to
+     * directly. Use the functions provided below instead. Modifying the struct manually may violate assumptions and
+     * lead to unexpected behavior.
+     *
+     * NOTE: The `root` and the updates history is not stored within the tree. Consider using a secondary structure to
+     * store a list of historical roots from the values returned from {setup} and {push} (e.g. a mapping, {BitMaps} or
+     * {Checkpoints}).
+     *
+     * WARNING: Updating any of the tree's parameters after the first insertion will result in a corrupted tree.
+     */
+    struct Bytes32PushTree {
+        uint256 _nextLeafIndex;
+        bytes32[] _sides;
+        bytes32[] _zeros;
+    }
+
+    /**
+     * @dev Initialize a {Bytes32PushTree} using {Hashes-commutativeKeccak256} to hash internal nodes.
+     * The capacity of the tree (i.e. number of leaves) is set to `2**treeDepth`.
+     *
+     * Calling this function on MerkleTree that was already setup and used will reset it to a blank state.
+     *
+     * Once a tree is setup, any push to it must use the same hashing function. This means that values
+     * should be pushed to it using the default {xref-MerkleTree-push-struct-MerkleTree-Bytes32PushTree-bytes32-}[push] function.
+     *
+     * IMPORTANT: The zero value should be carefully chosen since it will be stored in the tree representing
+     * empty leaves. It should be a value that is not expected to be part of the tree.
+     */
+    function setup(Bytes32PushTree storage self, uint8 treeDepth, bytes32 zero) internal returns (bytes32 initialRoot) {
+        return setup(self, treeDepth, zero, Hashes.commutativeKeccak256);
+    }
+
+    /**
+     * @dev Same as {xref-MerkleTree-setup-struct-MerkleTree-Bytes32PushTree-uint8-bytes32-}[setup], but allows to specify a custom hashing function.
+     *
+     * Once a tree is setup, any push to it must use the same hashing function. This means that values
+     * should be pushed to it using the custom push function, which should be the same one as used during the setup.
+     *
+     * IMPORTANT: Providing a custom hashing function is a security-sensitive operation since it may
+     * compromise the soundness of the tree.
+     *
+     * NOTE: Consider verifying that the hashing function does not manipulate the memory state directly and that it
+     * follows the Solidity memory safety rules. Otherwise, it may lead to unexpected behavior.
+     */
+    function setup(
+        Bytes32PushTree storage self,
+        uint8 treeDepth,
+        bytes32 zero,
+        function(bytes32, bytes32) view returns (bytes32) fnHash
+    ) internal returns (bytes32 initialRoot) {
+        // Store depth in the dynamic array
+        Arrays.unsafeSetLength(self._sides, treeDepth);
+        Arrays.unsafeSetLength(self._zeros, treeDepth);
+
+        // Build each root of zero-filled subtrees
+        bytes32 currentZero = zero;
+        for (uint32 i = 0; i < treeDepth; ++i) {
+            Arrays.unsafeAccess(self._zeros, i).value = currentZero;
+            currentZero = fnHash(currentZero, currentZero);
+        }
+
+        // Set the first root
+        self._nextLeafIndex = 0;
+
+        return currentZero;
+    }
+
+    /**
+     * @dev Insert a new leaf in the tree, and compute the new root. Returns the position of the inserted leaf in the
+     * tree, and the resulting root.
+     *
+     * Hashing the leaf before calling this function is recommended as a protection against
+     * second pre-image attacks.
+     *
+     * This variant uses {Hashes-commutativeKeccak256} to hash internal nodes. It should only be used on merkle trees
+     * that were setup using the same (default) hashing function (i.e. by calling
+     * {xref-MerkleTree-setup-struct-MerkleTree-Bytes32PushTree-uint8-bytes32-}[the default setup] function).
+     */
+    function push(Bytes32PushTree storage self, bytes32 leaf) internal returns (uint256 index, bytes32 newRoot) {
+        return push(self, leaf, Hashes.commutativeKeccak256);
+    }
+
+    /**
+     * @dev Insert a new leaf in the tree, and compute the new root. Returns the position of the inserted leaf in the
+     * tree, and the resulting root.
+     *
+     * Hashing the leaf before calling this function is recommended as a protection against
+     * second pre-image attacks.
+     *
+     * This variant uses a custom hashing function to hash internal nodes. It should only be called with the same
+     * function as the one used during the initial setup of the merkle tree.
+     */
+    function push(
+        Bytes32PushTree storage self,
+        bytes32 leaf,
+        function(bytes32, bytes32) view returns (bytes32) fnHash
+    ) internal returns (uint256 index, bytes32 newRoot) {
+        // Cache read
+        uint256 treeDepth = depth(self);
+
+        // Get leaf index
+        index = self._nextLeafIndex++;
+
+        // Check if tree is full.
+        if (index >= 1 << treeDepth) {
+            Panic.panic(Panic.RESOURCE_ERROR);
+        }
+
+        // Rebuild branch from leaf to root
+        uint256 currentIndex = index;
+        bytes32 currentLevelHash = leaf;
+        for (uint32 i = 0; i < treeDepth; i++) {
+            // Reaching the parent node, is currentLevelHash the left child?
+            bool isLeft = currentIndex % 2 == 0;
+
+            // If so, next time we will come from the right, so we need to save it
+            if (isLeft) {
+                Arrays.unsafeAccess(self._sides, i).value = currentLevelHash;
+            }
+
+            // Compute the current node hash by using the hash function
+            // with either its sibling (side) or the zero value for that level.
+            currentLevelHash = fnHash(
+                isLeft ? currentLevelHash : Arrays.unsafeAccess(self._sides, i).value,
+                isLeft ? Arrays.unsafeAccess(self._zeros, i).value : currentLevelHash
+            );
+
+            // Update node index
+            currentIndex >>= 1;
+        }
+
+        return (index, currentLevelHash);
+    }
+
+    /**
+     * @dev Tree's depth (set at initialization)
+     */
+    function depth(Bytes32PushTree storage self) internal view returns (uint256) {
+        return self._zeros.length;
+    }
+}
