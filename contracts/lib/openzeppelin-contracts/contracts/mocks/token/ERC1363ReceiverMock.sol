@@ -1,1 +1,52 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0lFUkMxMzYzUmVjZWl2ZXJ9IGZyb20gIi4uLy4uL2ludGVyZmFjZXMvSUVSQzEzNjNSZWNlaXZlci5zb2wiOwoKY29udHJhY3QgRVJDMTM2M1JlY2VpdmVyTW9jayBpcyBJRVJDMTM2M1JlY2VpdmVyIHsKICAgIGVudW0gUmV2ZXJ0VHlwZSB7CiAgICAgICAgTm9uZSwKICAgICAgICBSZXZlcnRXaXRob3V0TWVzc2FnZSwKICAgICAgICBSZXZlcnRXaXRoTWVzc2FnZSwKICAgICAgICBSZXZlcnRXaXRoQ3VzdG9tRXJyb3IsCiAgICAgICAgUGFuaWMKICAgIH0KCiAgICBieXRlczQgcHJpdmF0ZSBfcmV0dmFsOwogICAgUmV2ZXJ0VHlwZSBwcml2YXRlIF9lcnJvcjsKCiAgICBldmVudCBSZWNlaXZlZChhZGRyZXNzIG9wZXJhdG9yLCBhZGRyZXNzIGZyb20sIHVpbnQyNTYgdmFsdWUsIGJ5dGVzIGRhdGEpOwogICAgZXJyb3IgQ3VzdG9tRXJyb3IoYnl0ZXM0KTsKCiAgICBjb25zdHJ1Y3RvcigpIHsKICAgICAgICBfcmV0dmFsID0gSUVSQzEzNjNSZWNlaXZlci5vblRyYW5zZmVyUmVjZWl2ZWQuc2VsZWN0b3I7CiAgICAgICAgX2Vycm9yID0gUmV2ZXJ0VHlwZS5Ob25lOwogICAgfQoKICAgIGZ1bmN0aW9uIHNldFVwKGJ5dGVzNCByZXR2YWwsIFJldmVydFR5cGUgZXJyb3IpIHB1YmxpYyB7CiAgICAgICAgX3JldHZhbCA9IHJldHZhbDsKICAgICAgICBfZXJyb3IgPSBlcnJvcjsKICAgIH0KCiAgICBmdW5jdGlvbiBvblRyYW5zZmVyUmVjZWl2ZWQoCiAgICAgICAgYWRkcmVzcyBvcGVyYXRvciwKICAgICAgICBhZGRyZXNzIGZyb20sCiAgICAgICAgdWludDI1NiB2YWx1ZSwKICAgICAgICBieXRlcyBjYWxsZGF0YSBkYXRhCiAgICApIGV4dGVybmFsIG92ZXJyaWRlIHJldHVybnMgKGJ5dGVzNCkgewogICAgICAgIGlmIChfZXJyb3IgPT0gUmV2ZXJ0VHlwZS5SZXZlcnRXaXRob3V0TWVzc2FnZSkgewogICAgICAgICAgICByZXZlcnQoKTsKICAgICAgICB9IGVsc2UgaWYgKF9lcnJvciA9PSBSZXZlcnRUeXBlLlJldmVydFdpdGhNZXNzYWdlKSB7CiAgICAgICAgICAgIHJldmVydCgiRVJDMTM2M1JlY2VpdmVyTW9jazogcmV2ZXJ0aW5nIik7CiAgICAgICAgfSBlbHNlIGlmIChfZXJyb3IgPT0gUmV2ZXJ0VHlwZS5SZXZlcnRXaXRoQ3VzdG9tRXJyb3IpIHsKICAgICAgICAgICAgcmV2ZXJ0IEN1c3RvbUVycm9yKF9yZXR2YWwpOwogICAgICAgIH0gZWxzZSBpZiAoX2Vycm9yID09IFJldmVydFR5cGUuUGFuaWMpIHsKICAgICAgICAgICAgdWludDI1NiBhID0gdWludDI1NigwKSAvIHVpbnQyNTYoMCk7CiAgICAgICAgICAgIGE7CiAgICAgICAgfQoKICAgICAgICBlbWl0IFJlY2VpdmVkKG9wZXJhdG9yLCBmcm9tLCB2YWx1ZSwgZGF0YSk7CiAgICAgICAgcmV0dXJuIF9yZXR2YWw7CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {IERC1363Receiver} from "../../interfaces/IERC1363Receiver.sol";
+
+contract ERC1363ReceiverMock is IERC1363Receiver {
+    enum RevertType {
+        None,
+        RevertWithoutMessage,
+        RevertWithMessage,
+        RevertWithCustomError,
+        Panic
+    }
+
+    bytes4 private _retval;
+    RevertType private _error;
+
+    event Received(address operator, address from, uint256 value, bytes data);
+    error CustomError(bytes4);
+
+    constructor() {
+        _retval = IERC1363Receiver.onTransferReceived.selector;
+        _error = RevertType.None;
+    }
+
+    function setUp(bytes4 retval, RevertType error) public {
+        _retval = retval;
+        _error = error;
+    }
+
+    function onTransferReceived(
+        address operator,
+        address from,
+        uint256 value,
+        bytes calldata data
+    ) external override returns (bytes4) {
+        if (_error == RevertType.RevertWithoutMessage) {
+            revert();
+        } else if (_error == RevertType.RevertWithMessage) {
+            revert("ERC1363ReceiverMock: reverting");
+        } else if (_error == RevertType.RevertWithCustomError) {
+            revert CustomError(_retval);
+        } else if (_error == RevertType.Panic) {
+            uint256 a = uint256(0) / uint256(0);
+            a;
+        }
+
+        emit Received(operator, from, value, data);
+        return _retval;
+    }
+}
