@@ -1,1 +1,15 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBQYW5pY3Mgd29yayBmb3IgdmVyc2lvbnMgPj0wLjguMCwgYnV0IHdlIGxvd2VyZWQgdGhlIHByYWdtYSB0byBtYWtlIHRoaXMgY29tcGF0aWJsZSB3aXRoIFRlc3QKcHJhZ21hIHNvbGlkaXR5ID49MC42LjIgPDAuOS4wOwoKbGlicmFyeSBzdGRFcnJvciB7CiAgICBieXRlcyBwdWJsaWMgY29uc3RhbnQgYXNzZXJ0aW9uRXJyb3IgPSBhYmkuZW5jb2RlV2l0aFNpZ25hdHVyZSgiUGFuaWModWludDI1NikiLCAweDAxKTsKICAgIGJ5dGVzIHB1YmxpYyBjb25zdGFudCBhcml0aG1ldGljRXJyb3IgPSBhYmkuZW5jb2RlV2l0aFNpZ25hdHVyZSgiUGFuaWModWludDI1NikiLCAweDExKTsKICAgIGJ5dGVzIHB1YmxpYyBjb25zdGFudCBkaXZpc2lvbkVycm9yID0gYWJpLmVuY29kZVdpdGhTaWduYXR1cmUoIlBhbmljKHVpbnQyNTYpIiwgMHgxMik7CiAgICBieXRlcyBwdWJsaWMgY29uc3RhbnQgZW51bUNvbnZlcnNpb25FcnJvciA9IGFiaS5lbmNvZGVXaXRoU2lnbmF0dXJlKCJQYW5pYyh1aW50MjU2KSIsIDB4MjEpOwogICAgYnl0ZXMgcHVibGljIGNvbnN0YW50IGVuY29kZVN0b3JhZ2VFcnJvciA9IGFiaS5lbmNvZGVXaXRoU2lnbmF0dXJlKCJQYW5pYyh1aW50MjU2KSIsIDB4MjIpOwogICAgYnl0ZXMgcHVibGljIGNvbnN0YW50IHBvcEVycm9yID0gYWJpLmVuY29kZVdpdGhTaWduYXR1cmUoIlBhbmljKHVpbnQyNTYpIiwgMHgzMSk7CiAgICBieXRlcyBwdWJsaWMgY29uc3RhbnQgaW5kZXhPT0JFcnJvciA9IGFiaS5lbmNvZGVXaXRoU2lnbmF0dXJlKCJQYW5pYyh1aW50MjU2KSIsIDB4MzIpOwogICAgYnl0ZXMgcHVibGljIGNvbnN0YW50IG1lbU92ZXJmbG93RXJyb3IgPSBhYmkuZW5jb2RlV2l0aFNpZ25hdHVyZSgiUGFuaWModWludDI1NikiLCAweDQxKTsKICAgIGJ5dGVzIHB1YmxpYyBjb25zdGFudCB6ZXJvVmFyRXJyb3IgPSBhYmkuZW5jb2RlV2l0aFNpZ25hdHVyZSgiUGFuaWModWludDI1NikiLCAweDUxKTsKfQo=
+// SPDX-License-Identifier: MIT
+// Panics work for versions >=0.8.0, but we lowered the pragma to make this compatible with Test
+pragma solidity >=0.6.2 <0.9.0;
+
+library stdError {
+    bytes public constant assertionError = abi.encodeWithSignature("Panic(uint256)", 0x01);
+    bytes public constant arithmeticError = abi.encodeWithSignature("Panic(uint256)", 0x11);
+    bytes public constant divisionError = abi.encodeWithSignature("Panic(uint256)", 0x12);
+    bytes public constant enumConversionError = abi.encodeWithSignature("Panic(uint256)", 0x21);
+    bytes public constant encodeStorageError = abi.encodeWithSignature("Panic(uint256)", 0x22);
+    bytes public constant popError = abi.encodeWithSignature("Panic(uint256)", 0x31);
+    bytes public constant indexOOBError = abi.encodeWithSignature("Panic(uint256)", 0x32);
+    bytes public constant memOverflowError = abi.encodeWithSignature("Panic(uint256)", 0x41);
+    bytes public constant zeroVarError = abi.encodeWithSignature("Panic(uint256)", 0x51);
+}
