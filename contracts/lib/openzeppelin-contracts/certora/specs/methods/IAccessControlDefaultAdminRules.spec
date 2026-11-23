@@ -1,1 +1,36 @@
-aW1wb3J0ICIuL0lFUkM1MzEzLnNwZWMiOwoKbWV0aG9kcyB7CiAgICAvLyA9PT0gVmlldyA9PQogICAgCiAgICAvLyBEZWZhdWx0IEFkbWluCiAgICBmdW5jdGlvbiBkZWZhdWx0QWRtaW4oKSBleHRlcm5hbCByZXR1cm5zKGFkZHJlc3MpIGVudmZyZWU7CiAgICBmdW5jdGlvbiBwZW5kaW5nRGVmYXVsdEFkbWluKCkgZXh0ZXJuYWwgcmV0dXJucyhhZGRyZXNzLCB1aW50NDgpIGVudmZyZWU7CiAgICAKICAgIC8vIERlZmF1bHQgQWRtaW4gRGVsYXkKICAgIGZ1bmN0aW9uIGRlZmF1bHRBZG1pbkRlbGF5KCkgZXh0ZXJuYWwgcmV0dXJucyh1aW50NDgpOwogICAgZnVuY3Rpb24gcGVuZGluZ0RlZmF1bHRBZG1pbkRlbGF5KCkgZXh0ZXJuYWwgcmV0dXJucyh1aW50NDgsIHVpbnQ0OCk7CiAgICBmdW5jdGlvbiBkZWZhdWx0QWRtaW5EZWxheUluY3JlYXNlV2FpdCgpIGV4dGVybmFsIHJldHVybnModWludDQ4KSBlbnZmcmVlOwogICAgCiAgICAvLyA9PT0gTXV0YXRpb25zID09CgogICAgLy8gRGVmYXVsdCBBZG1pbgogICAgZnVuY3Rpb24gYmVnaW5EZWZhdWx0QWRtaW5UcmFuc2ZlcihhZGRyZXNzKSBleHRlcm5hbDsKICAgIGZ1bmN0aW9uIGNhbmNlbERlZmF1bHRBZG1pblRyYW5zZmVyKCkgZXh0ZXJuYWw7CiAgICBmdW5jdGlvbiBhY2NlcHREZWZhdWx0QWRtaW5UcmFuc2ZlcigpIGV4dGVybmFsOwoKICAgIC8vIERlZmF1bHQgQWRtaW4gRGVsYXkKICAgIGZ1bmN0aW9uIGNoYW5nZURlZmF1bHRBZG1pbkRlbGF5KHVpbnQ0OCkgZXh0ZXJuYWw7CiAgICBmdW5jdGlvbiByb2xsYmFja0RlZmF1bHRBZG1pbkRlbGF5KCkgZXh0ZXJuYWw7CgogICAgLy8gPT0gRlYgPT0KICAgIAogICAgLy8gRGVmYXVsdCBBZG1pbgogICAgZnVuY3Rpb24gcGVuZGluZ0RlZmF1bHRBZG1pbl8oKSBleHRlcm5hbCByZXR1cm5zIChhZGRyZXNzKSBlbnZmcmVlOwogICAgZnVuY3Rpb24gcGVuZGluZ0RlZmF1bHRBZG1pblNjaGVkdWxlXygpIGV4dGVybmFsIHJldHVybnMgKHVpbnQ0OCkgZW52ZnJlZTsKICAgIAogICAgLy8gRGVmYXVsdCBBZG1pbiBEZWxheQogICAgZnVuY3Rpb24gcGVuZGluZ0RlbGF5XygpIGV4dGVybmFsIHJldHVybnMgKHVpbnQ0OCk7CiAgICBmdW5jdGlvbiBwZW5kaW5nRGVsYXlTY2hlZHVsZV8oKSBleHRlcm5hbCByZXR1cm5zICh1aW50NDgpOwogICAgZnVuY3Rpb24gZGVsYXlDaGFuZ2VXYWl0Xyh1aW50NDgpIGV4dGVybmFsIHJldHVybnMgKHVpbnQ0OCk7Cn0K
+import "./IERC5313.spec";
+
+methods {
+    // === View ==
+    
+    // Default Admin
+    function defaultAdmin() external returns(address) envfree;
+    function pendingDefaultAdmin() external returns(address, uint48) envfree;
+    
+    // Default Admin Delay
+    function defaultAdminDelay() external returns(uint48);
+    function pendingDefaultAdminDelay() external returns(uint48, uint48);
+    function defaultAdminDelayIncreaseWait() external returns(uint48) envfree;
+    
+    // === Mutations ==
+
+    // Default Admin
+    function beginDefaultAdminTransfer(address) external;
+    function cancelDefaultAdminTransfer() external;
+    function acceptDefaultAdminTransfer() external;
+
+    // Default Admin Delay
+    function changeDefaultAdminDelay(uint48) external;
+    function rollbackDefaultAdminDelay() external;
+
+    // == FV ==
+    
+    // Default Admin
+    function pendingDefaultAdmin_() external returns (address) envfree;
+    function pendingDefaultAdminSchedule_() external returns (uint48) envfree;
+    
+    // Default Admin Delay
+    function pendingDelay_() external returns (uint48);
+    function pendingDelaySchedule_() external returns (uint48);
+    function delayChangeWait_(uint48) external returns (uint48);
+}
