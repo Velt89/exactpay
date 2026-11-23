@@ -1,1 +1,196 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAoZ292ZXJuYW5jZS9leHRlbnNpb25zL0dvdmVybm9yQ291bnRpbmdGcmFjdGlvbmFsLnNvbCkKCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKaW1wb3J0IHtHb3Zlcm5vcn0gZnJvbSAiLi4vR292ZXJub3Iuc29sIjsKaW1wb3J0IHtHb3Zlcm5vckNvdW50aW5nU2ltcGxlfSBmcm9tICIuL0dvdmVybm9yQ291bnRpbmdTaW1wbGUuc29sIjsKaW1wb3J0IHtNYXRofSBmcm9tICIuLi8uLi91dGlscy9tYXRoL01hdGguc29sIjsKCi8qKgogKiBAZGV2IEV4dGVuc2lvbiBvZiB7R292ZXJub3J9IGZvciBmcmFjdGlvbmFsIHZvdGluZy4KICoKICogU2ltaWxhciB0byB7R292ZXJub3JDb3VudGluZ1NpbXBsZX0sIHRoaXMgY29udHJhY3QgaXMgYSB2b3RlcyBjb3VudGluZyBtb2R1bGUgZm9yIHtHb3Zlcm5vcn0gdGhhdCBzdXBwb3J0cyAzIG9wdGlvbnM6CiAqIEFnYWluc3QsIEZvciwgQWJzdGFpbi4gQWRkaXRpb25hbGx5LCBpdCBpbmNsdWRlcyBhIGZvdXJ0aCBvcHRpb246IEZyYWN0aW9uYWwsIHdoaWNoIGFsbG93cyB2b3RlcnMgdG8gc3BsaXQgdGhlaXIgdm90aW5nCiAqIHBvd2VyIGFtb25nc3QgdGhlIG90aGVyIDMgb3B0aW9ucy4KICoKICogVm90ZXMgY2FzdCB3aXRoIHRoZSBGcmFjdGlvbmFsIHN1cHBvcnQgbXVzdCBiZSBhY2NvbXBhbmllZCBieSBhIGBwYXJhbXNgIGFyZ3VtZW50IHRoYXQgaXMgdGhyZWUgcGFja2VkIGB1aW50MTI4YCB2YWx1ZXMKICogcmVwcmVzZW50aW5nIHRoZSB3ZWlnaHQgdGhlIGRlbGVnYXRlIGFzc2lnbnMgdG8gQWdhaW5zdCwgRm9yLCBhbmQgQWJzdGFpbiByZXNwZWN0aXZlbHkuIEZvciB0aG9zZSB2b3RlcyBjYXN0IGZvciB0aGUgb3RoZXIKICogMyBvcHRpb25zLCB0aGUgYHBhcmFtc2AgYXJndW1lbnQgbXVzdCBiZSBlbXB0eS4KICoKICogVGhpcyBpcyBtb3N0bHkgdXNlZnVsIHdoZW4gdGhlIGRlbGVnYXRlIGlzIGEgY29udHJhY3QgdGhhdCBpbXBsZW1lbnRzIGl0cyBvd24gcnVsZXMgZm9yIHZvdGluZy4gVGhlc2UgZGVsZWdhdGUtY29udHJhY3RzCiAqIGNhbiBjYXN0IGZyYWN0aW9uYWwgdm90ZXMgYWNjb3JkaW5nIHRvIHRoZSBwcmVmZXJlbmNlcyBvZiBtdWx0aXBsZSBlbnRpdGllcyBkZWxlZ2F0aW5nIHRoZWlyIHZvdGluZyBwb3dlci4KICoKICogU29tZSBleGFtcGxlIHVzZSBjYXNlcyBpbmNsdWRlOgogKgogKiAqIFZvdGluZyBmcm9tIHRva2VucyB0aGF0IGFyZSBoZWxkIGJ5IGEgRGVGaSBwb29sCiAqICogVm90aW5nIGZyb20gYW4gTDIgd2l0aCB0b2tlbnMgaGVsZCBieSBhIGJyaWRnZQogKiAqIFZvdGluZyBwcml2YXRlbHkgZnJvbSBhIHNoaWVsZGVkIHBvb2wgdXNpbmcgemVybyBrbm93bGVkZ2UgcHJvb2ZzLgogKgogKiBCYXNlZCBvbiBTY29wZUxpZnQncyBHb3Zlcm5vckNvdW50aW5nRnJhY3Rpb25hbFtodHRwczovL2dpdGh1Yi5jb20vU2NvcGVMaWZ0L2ZsZXhpYmxlLXZvdGluZy9ibG9iL2U1ZGUyZWZkMTM2ODM4N2I4NDA5MzFmMTlmM2MxODRjODU4NDI3NjEvc3JjL0dvdmVybm9yQ291bnRpbmdGcmFjdGlvbmFsLnNvbF0KICoKICogX0F2YWlsYWJsZSBzaW5jZSB2NS4xLl8KICovCmFic3RyYWN0IGNvbnRyYWN0IEdvdmVybm9yQ291bnRpbmdGcmFjdGlvbmFsIGlzIEdvdmVybm9yIHsKICAgIHVzaW5nIE1hdGggZm9yICo7CgogICAgdWludDggaW50ZXJuYWwgY29uc3RhbnQgVk9URV9UWVBFX0ZSQUNUSU9OQUwgPSAyNTU7CgogICAgc3RydWN0IFByb3Bvc2FsVm90ZSB7CiAgICAgICAgdWludDI1NiBhZ2FpbnN0Vm90ZXM7CiAgICAgICAgdWludDI1NiBmb3JWb3RlczsKICAgICAgICB1aW50MjU2IGFic3RhaW5Wb3RlczsKICAgICAgICBtYXBwaW5nKGFkZHJlc3Mgdm90ZXIgPT4gdWludDI1NikgdXNlZFZvdGVzOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBNYXBwaW5nIGZyb20gcHJvcG9zYWwgSUQgdG8gdm90ZSB0YWxsaWVzIGZvciB0aGF0IHByb3Bvc2FsLgogICAgICovCiAgICBtYXBwaW5nKHVpbnQyNTYgcHJvcG9zYWxJZCA9PiBQcm9wb3NhbFZvdGUpIHByaXZhdGUgX3Byb3Bvc2FsVm90ZXM7CgogICAgLyoqCiAgICAgKiBAZGV2IEEgZnJhY3Rpb25hbCB2b3RlIHBhcmFtcyB1c2VzIG1vcmUgdm90ZXMgdGhhbiBhcmUgYXZhaWxhYmxlIGZvciB0aGF0IHVzZXIuCiAgICAgKi8KICAgIGVycm9yIEdvdmVybm9yRXhjZWVkUmVtYWluaW5nV2VpZ2h0KGFkZHJlc3Mgdm90ZXIsIHVpbnQyNTYgdXNlZFZvdGVzLCB1aW50MjU2IHJlbWFpbmluZ1dlaWdodCk7CgogICAgLyoqCiAgICAgKiBAZGV2IFNlZSB7SUdvdmVybm9yLUNPVU5USU5HX01PREV9LgogICAgICovCiAgICAvLyBzb2xoaW50LWRpc2FibGUtbmV4dC1saW5lIGZ1bmMtbmFtZS1taXhlZGNhc2UKICAgIGZ1bmN0aW9uIENPVU5USU5HX01PREUoKSBwdWJsaWMgcHVyZSB2aXJ0dWFsIG92ZXJyaWRlIHJldHVybnMgKHN0cmluZyBtZW1vcnkpIHsKICAgICAgICByZXR1cm4gInN1cHBvcnQ9YnJhdm8sZnJhY3Rpb25hbCZxdW9ydW09Zm9yLGFic3RhaW4mcGFyYW1zPWZyYWN0aW9uYWwiOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBTZWUge0lHb3Zlcm5vci1oYXNWb3RlZH0uCiAgICAgKi8KICAgIGZ1bmN0aW9uIGhhc1ZvdGVkKHVpbnQyNTYgcHJvcG9zYWxJZCwgYWRkcmVzcyBhY2NvdW50KSBwdWJsaWMgdmlldyB2aXJ0dWFsIG92ZXJyaWRlIHJldHVybnMgKGJvb2wpIHsKICAgICAgICByZXR1cm4gdXNlZFZvdGVzKHByb3Bvc2FsSWQsIGFjY291bnQpID4gMDsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgR2V0IHRoZSBudW1iZXIgb2Ygdm90ZXMgYWxyZWFkeSBjYXN0IGJ5IGBhY2NvdW50YCBmb3IgYSBwcm9wb3NhbCB3aXRoIGBwcm9wb3NhbElkYC4gVXNlZnVsIGZvcgogICAgICogaW50ZWdyYXRpb25zIHRoYXQgYWxsb3cgZGVsZWdhdGVzIHRvIGNhc3Qgcm9sbGluZywgcGFydGlhbCB2b3Rlcy4KICAgICAqLwogICAgZnVuY3Rpb24gdXNlZFZvdGVzKHVpbnQyNTYgcHJvcG9zYWxJZCwgYWRkcmVzcyBhY2NvdW50KSBwdWJsaWMgdmlldyB2aXJ0dWFsIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXR1cm4gX3Byb3Bvc2FsVm90ZXNbcHJvcG9zYWxJZF0udXNlZFZvdGVzW2FjY291bnRdOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBHZXQgY3VycmVudCBkaXN0cmlidXRpb24gb2Ygdm90ZXMgZm9yIGEgZ2l2ZW4gcHJvcG9zYWwuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHByb3Bvc2FsVm90ZXMoCiAgICAgICAgdWludDI1NiBwcm9wb3NhbElkCiAgICApIHB1YmxpYyB2aWV3IHZpcnR1YWwgcmV0dXJucyAodWludDI1NiBhZ2FpbnN0Vm90ZXMsIHVpbnQyNTYgZm9yVm90ZXMsIHVpbnQyNTYgYWJzdGFpblZvdGVzKSB7CiAgICAgICAgUHJvcG9zYWxWb3RlIHN0b3JhZ2UgcHJvcG9zYWxWb3RlID0gX3Byb3Bvc2FsVm90ZXNbcHJvcG9zYWxJZF07CiAgICAgICAgcmV0dXJuIChwcm9wb3NhbFZvdGUuYWdhaW5zdFZvdGVzLCBwcm9wb3NhbFZvdGUuZm9yVm90ZXMsIHByb3Bvc2FsVm90ZS5hYnN0YWluVm90ZXMpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBTZWUge0dvdmVybm9yLV9xdW9ydW1SZWFjaGVkfS4KICAgICAqLwogICAgZnVuY3Rpb24gX3F1b3J1bVJlYWNoZWQodWludDI1NiBwcm9wb3NhbElkKSBpbnRlcm5hbCB2aWV3IHZpcnR1YWwgb3ZlcnJpZGUgcmV0dXJucyAoYm9vbCkgewogICAgICAgIFByb3Bvc2FsVm90ZSBzdG9yYWdlIHByb3Bvc2FsVm90ZSA9IF9wcm9wb3NhbFZvdGVzW3Byb3Bvc2FsSWRdOwogICAgICAgIHJldHVybiBxdW9ydW0ocHJvcG9zYWxTbmFwc2hvdChwcm9wb3NhbElkKSkgPD0gcHJvcG9zYWxWb3RlLmZvclZvdGVzICsgcHJvcG9zYWxWb3RlLmFic3RhaW5Wb3RlczsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgU2VlIHtHb3Zlcm5vci1fdm90ZVN1Y2NlZWRlZH0uIEluIHRoaXMgbW9kdWxlLCBmb3JWb3RlcyBtdXN0IGJlID4gYWdhaW5zdFZvdGVzLgogICAgICovCiAgICBmdW5jdGlvbiBfdm90ZVN1Y2NlZWRlZCh1aW50MjU2IHByb3Bvc2FsSWQpIGludGVybmFsIHZpZXcgdmlydHVhbCBvdmVycmlkZSByZXR1cm5zIChib29sKSB7CiAgICAgICAgUHJvcG9zYWxWb3RlIHN0b3JhZ2UgcHJvcG9zYWxWb3RlID0gX3Byb3Bvc2FsVm90ZXNbcHJvcG9zYWxJZF07CiAgICAgICAgcmV0dXJuIHByb3Bvc2FsVm90ZS5mb3JWb3RlcyA+IHByb3Bvc2FsVm90ZS5hZ2FpbnN0Vm90ZXM7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFNlZSB7R292ZXJub3ItX2NvdW50Vm90ZX0uIEZ1bmN0aW9uIHRoYXQgcmVjb3JkcyB0aGUgZGVsZWdhdGUncyB2b3Rlcy4KICAgICAqCiAgICAgKiBFeGVjdXRpbmcgdGhpcyBmdW5jdGlvbiBjb25zdW1lcyAocGFydCBvZikgdGhlIGRlbGVnYXRlJ3Mgd2VpZ2h0IG9uIHRoZSBwcm9wb3NhbC4gVGhpcyB3ZWlnaHQgY2FuIGJlCiAgICAgKiBkaXN0cmlidXRlZCBhbW9uZ3N0IHRoZSAzIG9wdGlvbnMgKEFnYWluc3QsIEZvciwgQWJzdGFpbikgYnkgc3BlY2lmeWluZyBhIGZyYWN0aW9uYWwgYHN1cHBvcnRgLgogICAgICoKICAgICAqIFRoaXMgY291bnRpbmcgbW9kdWxlIHN1cHBvcnRzIHR3byB2b3RlIGNhc3RpbmcgbW9kZXM6IG5vbWluYWwgYW5kIGZyYWN0aW9uYWwuCiAgICAgKgogICAgICogLSBOb21pbmFsOiBBIG5vbWluYWwgdm90ZSBpcyBjYXN0IGJ5IHNldHRpbmcgYHN1cHBvcnRgIHRvIG9uZSBvZiB0aGUgMyBicmF2byBvcHRpb25zIChBZ2FpbnN0LCBGb3IsIEFic3RhaW4pLgogICAgICogLSBGcmFjdGlvbmFsOiBBIGZyYWN0aW9uYWwgdm90ZSBpcyBjYXN0IGJ5IHNldHRpbmcgYHN1cHBvcnRgIHRvIGB0eXBlKHVpbnQ4KS5tYXhgICgyNTUpLgogICAgICoKICAgICAqIENhc3RpbmcgYSBub21pbmFsIHZvdGUgcmVxdWlyZXMgYHBhcmFtc2AgdG8gYmUgZW1wdHkgYW5kIGNvbnN1bWVzIHRoZSBkZWxlZ2F0ZSdzIGZ1bGwgcmVtYWluaW5nIHdlaWdodCBvbiB0aGUKICAgICAqIHByb3Bvc2FsIGZvciB0aGUgc3BlY2lmaWVkIGBzdXBwb3J0YCBvcHRpb24uIFRoaXMgaXMgc2ltaWxhciB0byB0aGUge0dvdmVybm9yQ291bnRpbmdTaW1wbGV9IG1vZHVsZSBhbmQgZm9sbG93cwogICAgICogdGhlIGBWb3RlVHlwZWAgZW51bSBmcm9tIEdvdmVybm9yIEJyYXZvLiBBcyBhIGNvbnNlcXVlbmNlLCBubyB2b3RlIHdlaWdodCByZW1haW5zIHVuc3BlbnQgc28gbm8gZnVydGhlciB2b3RpbmcKICAgICAqIGlzIHBvc3NpYmxlIChmb3IgdGhpcyBgcHJvcG9zYWxJZGAgYW5kIHRoaXMgYGFjY291bnRgKS4KICAgICAqCiAgICAgKiBDYXN0aW5nIGEgZnJhY3Rpb25hbCB2b3RlIGNvbnN1bWVzIGEgZnJhY3Rpb24gb2YgdGhlIGRlbGVnYXRlJ3MgcmVtYWluaW5nIHdlaWdodCBvbiB0aGUgcHJvcG9zYWwgYWNjb3JkaW5nIHRvIHRoZQogICAgICogd2VpZ2h0cyB0aGUgZGVsZWdhdGUgYXNzaWducyB0byBlYWNoIHN1cHBvcnQgb3B0aW9uIChBZ2FpbnN0LCBGb3IsIEFic3RhaW4gcmVzcGVjdGl2ZWx5KS4gVGhlIHN1bSB0b3RhbCBvZiB0aGUKICAgICAqIHRocmVlIGRlY29kZWQgdm90ZSB3ZWlnaHRzIF9tdXN0XyBiZSBsZXNzIHRoYW4gb3IgZXF1YWwgdG8gdGhlIGRlbGVnYXRlJ3MgcmVtYWluaW5nIHdlaWdodCBvbiB0aGUgcHJvcG9zYWwgKGkuZS4KICAgICAqIHRoZWlyIGNoZWNrcG9pbnRlZCB0b3RhbCB3ZWlnaHQgbWludXMgdm90ZXMgYWxyZWFkeSBjYXN0IG9uIHRoZSBwcm9wb3NhbCkuIFRoaXMgZm9ybWF0IGNhbiBiZSBwcm9kdWNlZCB1c2luZzoKICAgICAqCiAgICAgKiBgYWJpLmVuY29kZVBhY2tlZCh1aW50MTI4KGFnYWluc3RWb3RlcyksIHVpbnQxMjgoZm9yVm90ZXMpLCB1aW50MTI4KGFic3RhaW5Wb3RlcykpYAogICAgICoKICAgICAqIE5PVEU6IENvbnNpZGVyIHRoYXQgZnJhY3Rpb25hbCB2b3RpbmcgcmVzdHJpY3RzIHRoZSBudW1iZXIgb2YgY2FzdGVkIHZvdGUgKGluIGVhY2ggY2F0ZWdvcnkpIHRvIDEyOCBiaXRzLgogICAgICogRGVwZW5kaW5nIG9uIGhvdyBtYW55IGRlY2ltYWxzIHRoZSB1bmRlcmx5aW5nIHRva2VuIGhhcywgYSBzaW5nbGUgdm90ZXIgbWF5IHJlcXVpcmUgdG8gc3BsaXQgdGhlaXIgdm90ZSBpbnRvCiAgICAgKiBtdWx0aXBsZSB2b3RlIG9wZXJhdGlvbnMuIEZvciBwcmVjaXNpb24gaGlnaGVyIHRoYW4gfjMwIGRlY2ltYWxzLCBsYXJnZSB0b2tlbiBob2xkZXJzIG1heSByZXF1aXJlIGFuCiAgICAgKiBwb3RlbnRpYWxseSBsYXJnZSBudW1iZXIgb2YgY2FsbHMgdG8gY2FzdCBhbGwgdGhlaXIgdm90ZXMuIFRoZSB2b3RlciBoYXMgdGhlIHBvc3NpYmlsaXR5IHRvIGNhc3QgYWxsIHRoZQogICAgICogcmVtYWluaW5nIHZvdGVzIGluIGEgc2luZ2xlIG9wZXJhdGlvbiB1c2luZyB0aGUgdHJhZGl0aW9uYWwgImJyYXZvIiB2b3RlLgogICAgICovCiAgICAvLyBzbGl0aGVyLWRpc2FibGUtbmV4dC1saW5lIGN5Y2xvbWF0aWMtY29tcGxleGl0eQogICAgZnVuY3Rpb24gX2NvdW50Vm90ZSgKICAgICAgICB1aW50MjU2IHByb3Bvc2FsSWQsCiAgICAgICAgYWRkcmVzcyBhY2NvdW50LAogICAgICAgIHVpbnQ4IHN1cHBvcnQsCiAgICAgICAgdWludDI1NiB0b3RhbFdlaWdodCwKICAgICAgICBieXRlcyBtZW1vcnkgcGFyYW1zCiAgICApIGludGVybmFsIHZpcnR1YWwgb3ZlcnJpZGUgcmV0dXJucyAodWludDI1NikgewogICAgICAgIC8vIENvbXB1dGUgbnVtYmVyIG9mIHJlbWFpbmluZyB2b3Rlcy4gUmV0dXJucyAwIG9uIG92ZXJmbG93LgogICAgICAgICgsIHVpbnQyNTYgcmVtYWluaW5nV2VpZ2h0KSA9IHRvdGFsV2VpZ2h0LnRyeVN1Yih1c2VkVm90ZXMocHJvcG9zYWxJZCwgYWNjb3VudCkpOwogICAgICAgIGlmIChyZW1haW5pbmdXZWlnaHQgPT0gMCkgewogICAgICAgICAgICByZXZlcnQgR292ZXJub3JBbHJlYWR5Q2FzdFZvdGUoYWNjb3VudCk7CiAgICAgICAgfQoKICAgICAgICB1aW50MjU2IGFnYWluc3RWb3RlcyA9IDA7CiAgICAgICAgdWludDI1NiBmb3JWb3RlcyA9IDA7CiAgICAgICAgdWludDI1NiBhYnN0YWluVm90ZXMgPSAwOwogICAgICAgIHVpbnQyNTYgdXNlZFdlaWdodCA9IDA7CgogICAgICAgIC8vIEZvciBjbGFyaXR5IG9mIGV2ZW50IGluZGV4aW5nLCBmcmFjdGlvbmFsIHZvdGluZyBtdXN0IGJlIGNsZWFybHkgYWR2ZXJ0aXNlZCBpbiB0aGUgInN1cHBvcnQiIGZpZWxkLgogICAgICAgIC8vCiAgICAgICAgLy8gU3VwcG9ydGVkIGBzdXBwb3J0YCB2YWx1ZSBtdXN0IGJlOgogICAgICAgIC8vIC0gIkZ1bGwiIHZvdGluZzogYHN1cHBvcnQgPSAwYCAoQWdhaW5zdCksIGAxYCAoRm9yKSBvciBgMmAgKEFic3RhaW4pLCB3aXRoIGVtcHR5IHBhcmFtcy4KICAgICAgICAvLyAtICJGcmFjdGlvbmFsIiB2b3Rpbmc6IGBzdXBwb3J0ID0gMjU1YCwgd2l0aCA0OCBieXRlcyBwYXJhbXMuCiAgICAgICAgaWYgKHN1cHBvcnQgPT0gdWludDgoR292ZXJub3JDb3VudGluZ1NpbXBsZS5Wb3RlVHlwZS5BZ2FpbnN0KSkgewogICAgICAgICAgICBpZiAocGFyYW1zLmxlbmd0aCAhPSAwKSByZXZlcnQgR292ZXJub3JJbnZhbGlkVm90ZVBhcmFtcygpOwogICAgICAgICAgICB1c2VkV2VpZ2h0ID0gYWdhaW5zdFZvdGVzID0gcmVtYWluaW5nV2VpZ2h0OwogICAgICAgIH0gZWxzZSBpZiAoc3VwcG9ydCA9PSB1aW50OChHb3Zlcm5vckNvdW50aW5nU2ltcGxlLlZvdGVUeXBlLkZvcikpIHsKICAgICAgICAgICAgaWYgKHBhcmFtcy5sZW5ndGggIT0gMCkgcmV2ZXJ0IEdvdmVybm9ySW52YWxpZFZvdGVQYXJhbXMoKTsKICAgICAgICAgICAgdXNlZFdlaWdodCA9IGZvclZvdGVzID0gcmVtYWluaW5nV2VpZ2h0OwogICAgICAgIH0gZWxzZSBpZiAoc3VwcG9ydCA9PSB1aW50OChHb3Zlcm5vckNvdW50aW5nU2ltcGxlLlZvdGVUeXBlLkFic3RhaW4pKSB7CiAgICAgICAgICAgIGlmIChwYXJhbXMubGVuZ3RoICE9IDApIHJldmVydCBHb3Zlcm5vckludmFsaWRWb3RlUGFyYW1zKCk7CiAgICAgICAgICAgIHVzZWRXZWlnaHQgPSBhYnN0YWluVm90ZXMgPSByZW1haW5pbmdXZWlnaHQ7CiAgICAgICAgfSBlbHNlIGlmIChzdXBwb3J0ID09IFZPVEVfVFlQRV9GUkFDVElPTkFMKSB7CiAgICAgICAgICAgIC8vIFRoZSBgcGFyYW1zYCBhcmd1bWVudCBpcyBleHBlY3RlZCB0byBiZSB0aHJlZSBwYWNrZWQgYHVpbnQxMjhgOgogICAgICAgICAgICAvLyBgYWJpLmVuY29kZVBhY2tlZCh1aW50MTI4KGFnYWluc3RWb3RlcyksIHVpbnQxMjgoZm9yVm90ZXMpLCB1aW50MTI4KGFic3RhaW5Wb3RlcykpYAogICAgICAgICAgICBpZiAocGFyYW1zLmxlbmd0aCAhPSAweDMwKSByZXZlcnQgR292ZXJub3JJbnZhbGlkVm90ZVBhcmFtcygpOwoKICAgICAgICAgICAgYXNzZW1ibHkgKCJtZW1vcnktc2FmZSIpIHsKICAgICAgICAgICAgICAgIGFnYWluc3RWb3RlcyA6PSBzaHIoMTI4LCBtbG9hZChhZGQocGFyYW1zLCAweDIwKSkpCiAgICAgICAgICAgICAgICBmb3JWb3RlcyA6PSBzaHIoMTI4LCBtbG9hZChhZGQocGFyYW1zLCAweDMwKSkpCiAgICAgICAgICAgICAgICBhYnN0YWluVm90ZXMgOj0gc2hyKDEyOCwgbWxvYWQoYWRkKHBhcmFtcywgMHg0MCkpKQogICAgICAgICAgICAgICAgdXNlZFdlaWdodCA6PSBhZGQoYWRkKGFnYWluc3RWb3RlcywgZm9yVm90ZXMpLCBhYnN0YWluVm90ZXMpIC8vIGlucHV0cyBhcmUgdWludDEyODogY2Fubm90IG92ZXJmbG93CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC8vIGNoZWNrIHBhcnNlZCBhcmd1bWVudHMgYXJlIHZhbGlkCiAgICAgICAgICAgIGlmICh1c2VkV2VpZ2h0ID4gcmVtYWluaW5nV2VpZ2h0KSB7CiAgICAgICAgICAgICAgICByZXZlcnQgR292ZXJub3JFeGNlZWRSZW1haW5pbmdXZWlnaHQoYWNjb3VudCwgdXNlZFdlaWdodCwgcmVtYWluaW5nV2VpZ2h0KTsKICAgICAgICAgICAgfQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHJldmVydCBHb3Zlcm5vckludmFsaWRWb3RlVHlwZSgpOwogICAgICAgIH0KCiAgICAgICAgLy8gdXBkYXRlIHZvdGVzIHRyYWNraW5nCiAgICAgICAgUHJvcG9zYWxWb3RlIHN0b3JhZ2UgZGV0YWlscyA9IF9wcm9wb3NhbFZvdGVzW3Byb3Bvc2FsSWRdOwogICAgICAgIGlmIChhZ2FpbnN0Vm90ZXMgPiAwKSBkZXRhaWxzLmFnYWluc3RWb3RlcyArPSBhZ2FpbnN0Vm90ZXM7CiAgICAgICAgaWYgKGZvclZvdGVzID4gMCkgZGV0YWlscy5mb3JWb3RlcyArPSBmb3JWb3RlczsKICAgICAgICBpZiAoYWJzdGFpblZvdGVzID4gMCkgZGV0YWlscy5hYnN0YWluVm90ZXMgKz0gYWJzdGFpblZvdGVzOwogICAgICAgIGRldGFpbHMudXNlZFZvdGVzW2FjY291bnRdICs9IHVzZWRXZWlnaHQ7CgogICAgICAgIHJldHVybiB1c2VkV2VpZ2h0OwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (governance/extensions/GovernorCountingFractional.sol)
+
+pragma solidity ^0.8.20;
+
+import {Governor} from "../Governor.sol";
+import {GovernorCountingSimple} from "./GovernorCountingSimple.sol";
+import {Math} from "../../utils/math/Math.sol";
+
+/**
+ * @dev Extension of {Governor} for fractional voting.
+ *
+ * Similar to {GovernorCountingSimple}, this contract is a votes counting module for {Governor} that supports 3 options:
+ * Against, For, Abstain. Additionally, it includes a fourth option: Fractional, which allows voters to split their voting
+ * power amongst the other 3 options.
+ *
+ * Votes cast with the Fractional support must be accompanied by a `params` argument that is three packed `uint128` values
+ * representing the weight the delegate assigns to Against, For, and Abstain respectively. For those votes cast for the other
+ * 3 options, the `params` argument must be empty.
+ *
+ * This is mostly useful when the delegate is a contract that implements its own rules for voting. These delegate-contracts
+ * can cast fractional votes according to the preferences of multiple entities delegating their voting power.
+ *
+ * Some example use cases include:
+ *
+ * * Voting from tokens that are held by a DeFi pool
+ * * Voting from an L2 with tokens held by a bridge
+ * * Voting privately from a shielded pool using zero knowledge proofs.
+ *
+ * Based on ScopeLift's GovernorCountingFractional[https://github.com/ScopeLift/flexible-voting/blob/e5de2efd1368387b840931f19f3c184c85842761/src/GovernorCountingFractional.sol]
+ *
+ * _Available since v5.1._
+ */
+abstract contract GovernorCountingFractional is Governor {
+    using Math for *;
+
+    uint8 internal constant VOTE_TYPE_FRACTIONAL = 255;
+
+    struct ProposalVote {
+        uint256 againstVotes;
+        uint256 forVotes;
+        uint256 abstainVotes;
+        mapping(address voter => uint256) usedVotes;
+    }
+
+    /**
+     * @dev Mapping from proposal ID to vote tallies for that proposal.
+     */
+    mapping(uint256 proposalId => ProposalVote) private _proposalVotes;
+
+    /**
+     * @dev A fractional vote params uses more votes than are available for that user.
+     */
+    error GovernorExceedRemainingWeight(address voter, uint256 usedVotes, uint256 remainingWeight);
+
+    /**
+     * @dev See {IGovernor-COUNTING_MODE}.
+     */
+    // solhint-disable-next-line func-name-mixedcase
+    function COUNTING_MODE() public pure virtual override returns (string memory) {
+        return "support=bravo,fractional&quorum=for,abstain&params=fractional";
+    }
+
+    /**
+     * @dev See {IGovernor-hasVoted}.
+     */
+    function hasVoted(uint256 proposalId, address account) public view virtual override returns (bool) {
+        return usedVotes(proposalId, account) > 0;
+    }
+
+    /**
+     * @dev Get the number of votes already cast by `account` for a proposal with `proposalId`. Useful for
+     * integrations that allow delegates to cast rolling, partial votes.
+     */
+    function usedVotes(uint256 proposalId, address account) public view virtual returns (uint256) {
+        return _proposalVotes[proposalId].usedVotes[account];
+    }
+
+    /**
+     * @dev Get current distribution of votes for a given proposal.
+     */
+    function proposalVotes(
+        uint256 proposalId
+    ) public view virtual returns (uint256 againstVotes, uint256 forVotes, uint256 abstainVotes) {
+        ProposalVote storage proposalVote = _proposalVotes[proposalId];
+        return (proposalVote.againstVotes, proposalVote.forVotes, proposalVote.abstainVotes);
+    }
+
+    /**
+     * @dev See {Governor-_quorumReached}.
+     */
+    function _quorumReached(uint256 proposalId) internal view virtual override returns (bool) {
+        ProposalVote storage proposalVote = _proposalVotes[proposalId];
+        return quorum(proposalSnapshot(proposalId)) <= proposalVote.forVotes + proposalVote.abstainVotes;
+    }
+
+    /**
+     * @dev See {Governor-_voteSucceeded}. In this module, forVotes must be > againstVotes.
+     */
+    function _voteSucceeded(uint256 proposalId) internal view virtual override returns (bool) {
+        ProposalVote storage proposalVote = _proposalVotes[proposalId];
+        return proposalVote.forVotes > proposalVote.againstVotes;
+    }
+
+    /**
+     * @dev See {Governor-_countVote}. Function that records the delegate's votes.
+     *
+     * Executing this function consumes (part of) the delegate's weight on the proposal. This weight can be
+     * distributed amongst the 3 options (Against, For, Abstain) by specifying a fractional `support`.
+     *
+     * This counting module supports two vote casting modes: nominal and fractional.
+     *
+     * - Nominal: A nominal vote is cast by setting `support` to one of the 3 bravo options (Against, For, Abstain).
+     * - Fractional: A fractional vote is cast by setting `support` to `type(uint8).max` (255).
+     *
+     * Casting a nominal vote requires `params` to be empty and consumes the delegate's full remaining weight on the
+     * proposal for the specified `support` option. This is similar to the {GovernorCountingSimple} module and follows
+     * the `VoteType` enum from Governor Bravo. As a consequence, no vote weight remains unspent so no further voting
+     * is possible (for this `proposalId` and this `account`).
+     *
+     * Casting a fractional vote consumes a fraction of the delegate's remaining weight on the proposal according to the
+     * weights the delegate assigns to each support option (Against, For, Abstain respectively). The sum total of the
+     * three decoded vote weights _must_ be less than or equal to the delegate's remaining weight on the proposal (i.e.
+     * their checkpointed total weight minus votes already cast on the proposal). This format can be produced using:
+     *
+     * `abi.encodePacked(uint128(againstVotes), uint128(forVotes), uint128(abstainVotes))`
+     *
+     * NOTE: Consider that fractional voting restricts the number of casted vote (in each category) to 128 bits.
+     * Depending on how many decimals the underlying token has, a single voter may require to split their vote into
+     * multiple vote operations. For precision higher than ~30 decimals, large token holders may require an
+     * potentially large number of calls to cast all their votes. The voter has the possibility to cast all the
+     * remaining votes in a single operation using the traditional "bravo" vote.
+     */
+    // slither-disable-next-line cyclomatic-complexity
+    function _countVote(
+        uint256 proposalId,
+        address account,
+        uint8 support,
+        uint256 totalWeight,
+        bytes memory params
+    ) internal virtual override returns (uint256) {
+        // Compute number of remaining votes. Returns 0 on overflow.
+        (, uint256 remainingWeight) = totalWeight.trySub(usedVotes(proposalId, account));
+        if (remainingWeight == 0) {
+            revert GovernorAlreadyCastVote(account);
+        }
+
+        uint256 againstVotes = 0;
+        uint256 forVotes = 0;
+        uint256 abstainVotes = 0;
+        uint256 usedWeight = 0;
+
+        // For clarity of event indexing, fractional voting must be clearly advertised in the "support" field.
+        //
+        // Supported `support` value must be:
+        // - "Full" voting: `support = 0` (Against), `1` (For) or `2` (Abstain), with empty params.
+        // - "Fractional" voting: `support = 255`, with 48 bytes params.
+        if (support == uint8(GovernorCountingSimple.VoteType.Against)) {
+            if (params.length != 0) revert GovernorInvalidVoteParams();
+            usedWeight = againstVotes = remainingWeight;
+        } else if (support == uint8(GovernorCountingSimple.VoteType.For)) {
+            if (params.length != 0) revert GovernorInvalidVoteParams();
+            usedWeight = forVotes = remainingWeight;
+        } else if (support == uint8(GovernorCountingSimple.VoteType.Abstain)) {
+            if (params.length != 0) revert GovernorInvalidVoteParams();
+            usedWeight = abstainVotes = remainingWeight;
+        } else if (support == VOTE_TYPE_FRACTIONAL) {
+            // The `params` argument is expected to be three packed `uint128`:
+            // `abi.encodePacked(uint128(againstVotes), uint128(forVotes), uint128(abstainVotes))`
+            if (params.length != 0x30) revert GovernorInvalidVoteParams();
+
+            assembly ("memory-safe") {
+                againstVotes := shr(128, mload(add(params, 0x20)))
+                forVotes := shr(128, mload(add(params, 0x30)))
+                abstainVotes := shr(128, mload(add(params, 0x40)))
+                usedWeight := add(add(againstVotes, forVotes), abstainVotes) // inputs are uint128: cannot overflow
+            }
+
+            // check parsed arguments are valid
+            if (usedWeight > remainingWeight) {
+                revert GovernorExceedRemainingWeight(account, usedWeight, remainingWeight);
+            }
+        } else {
+            revert GovernorInvalidVoteType();
+        }
+
+        // update votes tracking
+        ProposalVote storage details = _proposalVotes[proposalId];
+        if (againstVotes > 0) details.againstVotes += againstVotes;
+        if (forVotes > 0) details.forVotes += forVotes;
+        if (abstainVotes > 0) details.abstainVotes += abstainVotes;
+        details.usedVotes[account] += usedWeight;
+
+        return usedWeight;
+    }
+}
