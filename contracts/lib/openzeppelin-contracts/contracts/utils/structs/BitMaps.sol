@@ -1,1 +1,60 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMC4wKSAodXRpbHMvc3RydWN0cy9CaXRNYXBzLnNvbCkKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgovKioKICogQGRldiBMaWJyYXJ5IGZvciBtYW5hZ2luZyB1aW50MjU2IHRvIGJvb2wgbWFwcGluZyBpbiBhIGNvbXBhY3QgYW5kIGVmZmljaWVudCB3YXksIHByb3ZpZGVkIHRoZSBrZXlzIGFyZSBzZXF1ZW50aWFsLgogKiBMYXJnZWx5IGluc3BpcmVkIGJ5IFVuaXN3YXAncyBodHRwczovL2dpdGh1Yi5jb20vVW5pc3dhcC9tZXJrbGUtZGlzdHJpYnV0b3IvYmxvYi9tYXN0ZXIvY29udHJhY3RzL01lcmtsZURpc3RyaWJ1dG9yLnNvbFttZXJrbGUtZGlzdHJpYnV0b3JdLgogKgogKiBCaXRNYXBzIHBhY2sgMjU2IGJvb2xlYW5zIGFjcm9zcyBlYWNoIGJpdCBvZiBhIHNpbmdsZSAyNTYtYml0IHNsb3Qgb2YgYHVpbnQyNTZgIHR5cGUuCiAqIEhlbmNlIGJvb2xlYW5zIGNvcnJlc3BvbmRpbmcgdG8gMjU2IF9zZXF1ZW50aWFsXyBpbmRpY2VzIHdvdWxkIG9ubHkgY29uc3VtZSBhIHNpbmdsZSBzbG90LAogKiB1bmxpa2UgdGhlIHJlZ3VsYXIgYGJvb2xgIHdoaWNoIHdvdWxkIGNvbnN1bWUgYW4gZW50aXJlIHNsb3QgZm9yIGEgc2luZ2xlIHZhbHVlLgogKgogKiBUaGlzIHJlc3VsdHMgaW4gZ2FzIHNhdmluZ3MgaW4gdHdvIHdheXM6CiAqCiAqIC0gU2V0dGluZyBhIHplcm8gdmFsdWUgdG8gbm9uLXplcm8gb25seSBvbmNlIGV2ZXJ5IDI1NiB0aW1lcwogKiAtIEFjY2Vzc2luZyB0aGUgc2FtZSB3YXJtIHNsb3QgZm9yIGV2ZXJ5IDI1NiBfc2VxdWVudGlhbF8gaW5kaWNlcwogKi8KbGlicmFyeSBCaXRNYXBzIHsKICAgIHN0cnVjdCBCaXRNYXAgewogICAgICAgIG1hcHBpbmcodWludDI1NiBidWNrZXQgPT4gdWludDI1NikgX2RhdGE7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgd2hldGhlciB0aGUgYml0IGF0IGBpbmRleGAgaXMgc2V0LgogICAgICovCiAgICBmdW5jdGlvbiBnZXQoQml0TWFwIHN0b3JhZ2UgYml0bWFwLCB1aW50MjU2IGluZGV4KSBpbnRlcm5hbCB2aWV3IHJldHVybnMgKGJvb2wpIHsKICAgICAgICB1aW50MjU2IGJ1Y2tldCA9IGluZGV4ID4+IDg7CiAgICAgICAgdWludDI1NiBtYXNrID0gMSA8PCAoaW5kZXggJiAweGZmKTsKICAgICAgICByZXR1cm4gYml0bWFwLl9kYXRhW2J1Y2tldF0gJiBtYXNrICE9IDA7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFNldHMgdGhlIGJpdCBhdCBgaW5kZXhgIHRvIHRoZSBib29sZWFuIGB2YWx1ZWAuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHNldFRvKEJpdE1hcCBzdG9yYWdlIGJpdG1hcCwgdWludDI1NiBpbmRleCwgYm9vbCB2YWx1ZSkgaW50ZXJuYWwgewogICAgICAgIGlmICh2YWx1ZSkgewogICAgICAgICAgICBzZXQoYml0bWFwLCBpbmRleCk7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgdW5zZXQoYml0bWFwLCBpbmRleCk7CiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICogQGRldiBTZXRzIHRoZSBiaXQgYXQgYGluZGV4YC4KICAgICAqLwogICAgZnVuY3Rpb24gc2V0KEJpdE1hcCBzdG9yYWdlIGJpdG1hcCwgdWludDI1NiBpbmRleCkgaW50ZXJuYWwgewogICAgICAgIHVpbnQyNTYgYnVja2V0ID0gaW5kZXggPj4gODsKICAgICAgICB1aW50MjU2IG1hc2sgPSAxIDw8IChpbmRleCAmIDB4ZmYpOwogICAgICAgIGJpdG1hcC5fZGF0YVtidWNrZXRdIHw9IG1hc2s7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFVuc2V0cyB0aGUgYml0IGF0IGBpbmRleGAuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHVuc2V0KEJpdE1hcCBzdG9yYWdlIGJpdG1hcCwgdWludDI1NiBpbmRleCkgaW50ZXJuYWwgewogICAgICAgIHVpbnQyNTYgYnVja2V0ID0gaW5kZXggPj4gODsKICAgICAgICB1aW50MjU2IG1hc2sgPSAxIDw8IChpbmRleCAmIDB4ZmYpOwogICAgICAgIGJpdG1hcC5fZGF0YVtidWNrZXRdICY9IH5tYXNrOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.0.0) (utils/structs/BitMaps.sol)
+pragma solidity ^0.8.20;
+
+/**
+ * @dev Library for managing uint256 to bool mapping in a compact and efficient way, provided the keys are sequential.
+ * Largely inspired by Uniswap's https://github.com/Uniswap/merkle-distributor/blob/master/contracts/MerkleDistributor.sol[merkle-distributor].
+ *
+ * BitMaps pack 256 booleans across each bit of a single 256-bit slot of `uint256` type.
+ * Hence booleans corresponding to 256 _sequential_ indices would only consume a single slot,
+ * unlike the regular `bool` which would consume an entire slot for a single value.
+ *
+ * This results in gas savings in two ways:
+ *
+ * - Setting a zero value to non-zero only once every 256 times
+ * - Accessing the same warm slot for every 256 _sequential_ indices
+ */
+library BitMaps {
+    struct BitMap {
+        mapping(uint256 bucket => uint256) _data;
+    }
+
+    /**
+     * @dev Returns whether the bit at `index` is set.
+     */
+    function get(BitMap storage bitmap, uint256 index) internal view returns (bool) {
+        uint256 bucket = index >> 8;
+        uint256 mask = 1 << (index & 0xff);
+        return bitmap._data[bucket] & mask != 0;
+    }
+
+    /**
+     * @dev Sets the bit at `index` to the boolean `value`.
+     */
+    function setTo(BitMap storage bitmap, uint256 index, bool value) internal {
+        if (value) {
+            set(bitmap, index);
+        } else {
+            unset(bitmap, index);
+        }
+    }
+
+    /**
+     * @dev Sets the bit at `index`.
+     */
+    function set(BitMap storage bitmap, uint256 index) internal {
+        uint256 bucket = index >> 8;
+        uint256 mask = 1 << (index & 0xff);
+        bitmap._data[bucket] |= mask;
+    }
+
+    /**
+     * @dev Unsets the bit at `index`.
+     */
+    function unset(BitMap storage bitmap, uint256 index) internal {
+        uint256 bucket = index >> 8;
+        uint256 mask = 1 << (index & 0xff);
+        bitmap._data[bucket] &= ~mask;
+    }
+}
