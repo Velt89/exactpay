@@ -1,1 +1,119 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodG9rZW4vRVJDMjAvZXh0ZW5zaW9ucy9kcmFmdC1FUkMyMFRlbXBvcmFyeUFwcHJvdmFsLnNvbCkKCnByYWdtYSBzb2xpZGl0eSBeMC44LjI0OwoKaW1wb3J0IHtJRVJDMjAsIEVSQzIwfSBmcm9tICIuLi9FUkMyMC5zb2wiOwppbXBvcnQge0lFUkM3Njc0fSBmcm9tICIuLi8uLi8uLi9pbnRlcmZhY2VzL2RyYWZ0LUlFUkM3Njc0LnNvbCI7CmltcG9ydCB7TWF0aH0gZnJvbSAiLi4vLi4vLi4vdXRpbHMvbWF0aC9NYXRoLnNvbCI7CmltcG9ydCB7U2xvdERlcml2YXRpb259IGZyb20gIi4uLy4uLy4uL3V0aWxzL1Nsb3REZXJpdmF0aW9uLnNvbCI7CmltcG9ydCB7VHJhbnNpZW50U2xvdH0gZnJvbSAiLi4vLi4vLi4vdXRpbHMvVHJhbnNpZW50U2xvdC5zb2wiOwoKLyoqCiAqIEBkZXYgRXh0ZW5zaW9uIG9mIHtFUkMyMH0gdGhhdCBhZGRzIHN1cHBvcnQgZm9yIHRlbXBvcmFyeSBhbGxvd2FuY2VzIGZvbGxvd2luZyBFUkMtNzY3NC4KICoKICogV0FSTklORzogVGhpcyBpcyBhIGRyYWZ0IGNvbnRyYWN0LiBUaGUgY29ycmVzcG9uZGluZyBFUkMgaXMgc3RpbGwgc3ViamVjdCB0byBjaGFuZ2VzLgogKgogKiBfQXZhaWxhYmxlIHNpbmNlIHY1LjEuXwogKi8KYWJzdHJhY3QgY29udHJhY3QgRVJDMjBUZW1wb3JhcnlBcHByb3ZhbCBpcyBFUkMyMCwgSUVSQzc2NzQgewogICAgdXNpbmcgU2xvdERlcml2YXRpb24gZm9yIGJ5dGVzMzI7CiAgICB1c2luZyBUcmFuc2llbnRTbG90IGZvciBieXRlczMyOwogICAgdXNpbmcgVHJhbnNpZW50U2xvdCBmb3IgVHJhbnNpZW50U2xvdC5VaW50MjU2U2xvdDsKCiAgICAvLyBrZWNjYWsyNTYoYWJpLmVuY29kZSh1aW50MjU2KGtlY2NhazI1Nigib3BlbnplcHBlbGluLnN0b3JhZ2UuRVJDMjBfVEVNUE9SQVJZX0FQUFJPVkFMX1NUT1JBR0UiKSkgLSAxKSkgJiB+Ynl0ZXMzMih1aW50MjU2KDB4ZmYpKQogICAgYnl0ZXMzMiBwcml2YXRlIGNvbnN0YW50IEVSQzIwX1RFTVBPUkFSWV9BUFBST1ZBTF9TVE9SQUdFID0KICAgICAgICAweGVhMmQwZTc3YTAxNDAwZDAxMTE0OTJiMTMyMTEwM2VlZDU2MGQ4ZmU0NGI5YTdjMjQxMDQwNzcxNDU4M2M0MDA7CgogICAgLyoqCiAgICAgKiBAZGV2IHthbGxvd2FuY2V9IG92ZXJyaWRlIHRoYXQgaW5jbHVkZXMgdGhlIHRlbXBvcmFyeSBhbGxvd2FuY2Ugd2hlbiBsb29raW5nIHVwIHRoZSBjdXJyZW50IGFsbG93YW5jZS4gSWYKICAgICAqIGFkZGluZyB1cCB0aGUgcGVyc2lzdGVudCBhbmQgdGhlIHRlbXBvcmFyeSBhbGxvd2FuY2VzIHJlc3VsdCBpbiBhbiBvdmVyZmxvdywgdHlwZSh1aW50MjU2KS5tYXggaXMgcmV0dXJuZWQuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGFsbG93YW5jZShhZGRyZXNzIG93bmVyLCBhZGRyZXNzIHNwZW5kZXIpIHB1YmxpYyB2aWV3IHZpcnR1YWwgb3ZlcnJpZGUoSUVSQzIwLCBFUkMyMCkgcmV0dXJucyAodWludDI1NikgewogICAgICAgIChib29sIHN1Y2Nlc3MsIHVpbnQyNTYgYW1vdW50KSA9IE1hdGgudHJ5QWRkKAogICAgICAgICAgICBzdXBlci5hbGxvd2FuY2Uob3duZXIsIHNwZW5kZXIpLAogICAgICAgICAgICBfdGVtcG9yYXJ5QWxsb3dhbmNlKG93bmVyLCBzcGVuZGVyKQogICAgICAgICk7CiAgICAgICAgcmV0dXJuIHN1Y2Nlc3MgPyBhbW91bnQgOiB0eXBlKHVpbnQyNTYpLm1heDsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgSW50ZXJuYWwgZ2V0dGVyIGZvciB0aGUgY3VycmVudCB0ZW1wb3JhcnkgYWxsb3dhbmNlIHRoYXQgYHNwZW5kZXJgIGhhcyBvdmVyIGBvd25lcmAgdG9rZW5zLgogICAgICovCiAgICBmdW5jdGlvbiBfdGVtcG9yYXJ5QWxsb3dhbmNlKGFkZHJlc3Mgb3duZXIsIGFkZHJlc3Mgc3BlbmRlcikgaW50ZXJuYWwgdmlldyB2aXJ0dWFsIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXR1cm4gX3RlbXBvcmFyeUFsbG93YW5jZVNsb3Qob3duZXIsIHNwZW5kZXIpLnRsb2FkKCk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IEFsdGVybmF0aXZlIHRvIHthcHByb3ZlfSB0aGF0IHNldHMgYSBgdmFsdWVgIGFtb3VudCBvZiB0b2tlbnMgYXMgdGhlIHRlbXBvcmFyeSBhbGxvd2FuY2Ugb2YgYHNwZW5kZXJgIG92ZXIKICAgICAqIHRoZSBjYWxsZXIncyB0b2tlbnMuCiAgICAgKgogICAgICogUmV0dXJucyBhIGJvb2xlYW4gdmFsdWUgaW5kaWNhdGluZyB3aGV0aGVyIHRoZSBvcGVyYXRpb24gc3VjY2VlZGVkLgogICAgICoKICAgICAqIFJlcXVpcmVtZW50czoKICAgICAqIC0gYHNwZW5kZXJgIGNhbm5vdCBiZSB0aGUgemVybyBhZGRyZXNzLgogICAgICoKICAgICAqIERvZXMgTk9UIGVtaXQgYW4ge0FwcHJvdmFsfSBldmVudC4KICAgICAqLwogICAgZnVuY3Rpb24gdGVtcG9yYXJ5QXBwcm92ZShhZGRyZXNzIHNwZW5kZXIsIHVpbnQyNTYgdmFsdWUpIHB1YmxpYyB2aXJ0dWFsIHJldHVybnMgKGJvb2wpIHsKICAgICAgICBfdGVtcG9yYXJ5QXBwcm92ZShfbXNnU2VuZGVyKCksIHNwZW5kZXIsIHZhbHVlKTsKICAgICAgICByZXR1cm4gdHJ1ZTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgU2V0cyBgdmFsdWVgIGFzIHRoZSB0ZW1wb3JhcnkgYWxsb3dhbmNlIG9mIGBzcGVuZGVyYCBvdmVyIHRoZSBgb3duZXJgIHMgdG9rZW5zLgogICAgICoKICAgICAqIFRoaXMgaW50ZXJuYWwgZnVuY3Rpb24gaXMgZXF1aXZhbGVudCB0byBgdGVtcG9yYXJ5QXBwcm92ZWAsIGFuZCBjYW4gYmUgdXNlZCB0byBlLmcuIHNldCBhdXRvbWF0aWMgYWxsb3dhbmNlcwogICAgICogZm9yIGNlcnRhaW4gc3Vic3lzdGVtcywgZXRjLgogICAgICoKICAgICAqIFJlcXVpcmVtZW50czoKICAgICAqIC0gYG93bmVyYCBjYW5ub3QgYmUgdGhlIHplcm8gYWRkcmVzcy4KICAgICAqIC0gYHNwZW5kZXJgIGNhbm5vdCBiZSB0aGUgemVybyBhZGRyZXNzLgogICAgICoKICAgICAqIERvZXMgTk9UIGVtaXQgYW4ge0FwcHJvdmFsfSBldmVudC4KICAgICAqLwogICAgZnVuY3Rpb24gX3RlbXBvcmFyeUFwcHJvdmUoYWRkcmVzcyBvd25lciwgYWRkcmVzcyBzcGVuZGVyLCB1aW50MjU2IHZhbHVlKSBpbnRlcm5hbCB2aXJ0dWFsIHsKICAgICAgICBpZiAob3duZXIgPT0gYWRkcmVzcygwKSkgewogICAgICAgICAgICByZXZlcnQgRVJDMjBJbnZhbGlkQXBwcm92ZXIoYWRkcmVzcygwKSk7CiAgICAgICAgfQogICAgICAgIGlmIChzcGVuZGVyID09IGFkZHJlc3MoMCkpIHsKICAgICAgICAgICAgcmV2ZXJ0IEVSQzIwSW52YWxpZFNwZW5kZXIoYWRkcmVzcygwKSk7CiAgICAgICAgfQogICAgICAgIF90ZW1wb3JhcnlBbGxvd2FuY2VTbG90KG93bmVyLCBzcGVuZGVyKS50c3RvcmUodmFsdWUpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiB7X3NwZW5kQWxsb3dhbmNlfSBvdmVycmlkZSB0aGF0IGNvbnN1bWVzIHRoZSB0ZW1wb3JhcnkgYWxsb3dhbmNlIChpZiBhbnkpIGJlZm9yZSBldmVudHVhbGx5IGZhbGxpbmcgYmFjawogICAgICogdG8gY29uc3VtaW5nIHRoZSBwZXJzaXN0ZW50IGFsbG93YW5jZS4KICAgICAqIE5PVEU6IFRoaXMgZnVuY3Rpb24gc2tpcHMgY2FsbGluZyBgc3VwZXIuX3NwZW5kQWxsb3dhbmNlYCBpZiB0aGUgdGVtcG9yYXJ5IGFsbG93YW5jZQogICAgICogaXMgZW5vdWdoIHRvIGNvdmVyIHRoZSBzcGVuZGluZy4KICAgICAqLwogICAgZnVuY3Rpb24gX3NwZW5kQWxsb3dhbmNlKGFkZHJlc3Mgb3duZXIsIGFkZHJlc3Mgc3BlbmRlciwgdWludDI1NiB2YWx1ZSkgaW50ZXJuYWwgdmlydHVhbCBvdmVycmlkZSB7CiAgICAgICAgLy8gbG9hZCB0cmFuc2llbnQgYWxsb3dhbmNlCiAgICAgICAgdWludDI1NiBjdXJyZW50VGVtcG9yYXJ5QWxsb3dhbmNlID0gX3RlbXBvcmFyeUFsbG93YW5jZShvd25lciwgc3BlbmRlcik7CgogICAgICAgIC8vIENoZWNrIGFuZCB1cGRhdGUgKGlmIG5lZWRlZCkgdGhlIHRlbXBvcmFyeSBhbGxvd2FuY2UgKyBzZXQgcmVtYWluaW5nIHZhbHVlCiAgICAgICAgaWYgKGN1cnJlbnRUZW1wb3JhcnlBbGxvd2FuY2UgPiAwKSB7CiAgICAgICAgICAgIC8vIEFsbCB2YWx1ZSBpcyBjb3ZlcmVkIGJ5IHRoZSBpbmZpbml0ZSBhbGxvd2FuY2UuIG5vdGhpbmcgbGVmdCB0byBzcGVuZCwgd2UgY2FuIHJldHVybiBlYXJseQogICAgICAgICAgICBpZiAoY3VycmVudFRlbXBvcmFyeUFsbG93YW5jZSA9PSB0eXBlKHVpbnQyNTYpLm1heCkgewogICAgICAgICAgICAgICAgcmV0dXJuOwogICAgICAgICAgICB9CiAgICAgICAgICAgIC8vIGNoZWNrIGhvdyBtdWNoIG9mIHRoZSB2YWx1ZSBpcyBjb3ZlcmVkIGJ5IHRoZSB0cmFuc2llbnQgYWxsb3dhbmNlCiAgICAgICAgICAgIHVpbnQyNTYgc3BlbmRUZW1wb3JhcnlBbGxvd2FuY2UgPSBNYXRoLm1pbihjdXJyZW50VGVtcG9yYXJ5QWxsb3dhbmNlLCB2YWx1ZSk7CiAgICAgICAgICAgIHVuY2hlY2tlZCB7CiAgICAgICAgICAgICAgICAvLyBkZWNyZWFzZSB0cmFuc2llbnQgYWxsb3dhbmNlIGFjY29yZGluZ2x5CiAgICAgICAgICAgICAgICBfdGVtcG9yYXJ5QXBwcm92ZShvd25lciwgc3BlbmRlciwgY3VycmVudFRlbXBvcmFyeUFsbG93YW5jZSAtIHNwZW5kVGVtcG9yYXJ5QWxsb3dhbmNlKTsKICAgICAgICAgICAgICAgIC8vIHVwZGF0ZSB2YWx1ZSBuZWNlc3NhcnkKICAgICAgICAgICAgICAgIHZhbHVlIC09IHNwZW5kVGVtcG9yYXJ5QWxsb3dhbmNlOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIC8vIHJlZHVjZSBhbnkgcmVtYWluaW5nIHZhbHVlIGZyb20gdGhlIHBlcnNpc3RlbnQgYWxsb3dhbmNlCiAgICAgICAgaWYgKHZhbHVlID4gMCkgewogICAgICAgICAgICBzdXBlci5fc3BlbmRBbGxvd2FuY2Uob3duZXIsIHNwZW5kZXIsIHZhbHVlKTsKICAgICAgICB9CiAgICB9CgogICAgZnVuY3Rpb24gX3RlbXBvcmFyeUFsbG93YW5jZVNsb3QoYWRkcmVzcyBvd25lciwgYWRkcmVzcyBzcGVuZGVyKSBwcml2YXRlIHB1cmUgcmV0dXJucyAoVHJhbnNpZW50U2xvdC5VaW50MjU2U2xvdCkgewogICAgICAgIHJldHVybiBFUkMyMF9URU1QT1JBUllfQVBQUk9WQUxfU1RPUkFHRS5kZXJpdmVNYXBwaW5nKG93bmVyKS5kZXJpdmVNYXBwaW5nKHNwZW5kZXIpLmFzVWludDI1NigpOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (token/ERC20/extensions/draft-ERC20TemporaryApproval.sol)
+
+pragma solidity ^0.8.24;
+
+import {IERC20, ERC20} from "../ERC20.sol";
+import {IERC7674} from "../../../interfaces/draft-IERC7674.sol";
+import {Math} from "../../../utils/math/Math.sol";
+import {SlotDerivation} from "../../../utils/SlotDerivation.sol";
+import {TransientSlot} from "../../../utils/TransientSlot.sol";
+
+/**
+ * @dev Extension of {ERC20} that adds support for temporary allowances following ERC-7674.
+ *
+ * WARNING: This is a draft contract. The corresponding ERC is still subject to changes.
+ *
+ * _Available since v5.1._
+ */
+abstract contract ERC20TemporaryApproval is ERC20, IERC7674 {
+    using SlotDerivation for bytes32;
+    using TransientSlot for bytes32;
+    using TransientSlot for TransientSlot.Uint256Slot;
+
+    // keccak256(abi.encode(uint256(keccak256("openzeppelin.storage.ERC20_TEMPORARY_APPROVAL_STORAGE")) - 1)) & ~bytes32(uint256(0xff))
+    bytes32 private constant ERC20_TEMPORARY_APPROVAL_STORAGE =
+        0xea2d0e77a01400d0111492b1321103eed560d8fe44b9a7c2410407714583c400;
+
+    /**
+     * @dev {allowance} override that includes the temporary allowance when looking up the current allowance. If
+     * adding up the persistent and the temporary allowances result in an overflow, type(uint256).max is returned.
+     */
+    function allowance(address owner, address spender) public view virtual override(IERC20, ERC20) returns (uint256) {
+        (bool success, uint256 amount) = Math.tryAdd(
+            super.allowance(owner, spender),
+            _temporaryAllowance(owner, spender)
+        );
+        return success ? amount : type(uint256).max;
+    }
+
+    /**
+     * @dev Internal getter for the current temporary allowance that `spender` has over `owner` tokens.
+     */
+    function _temporaryAllowance(address owner, address spender) internal view virtual returns (uint256) {
+        return _temporaryAllowanceSlot(owner, spender).tload();
+    }
+
+    /**
+     * @dev Alternative to {approve} that sets a `value` amount of tokens as the temporary allowance of `spender` over
+     * the caller's tokens.
+     *
+     * Returns a boolean value indicating whether the operation succeeded.
+     *
+     * Requirements:
+     * - `spender` cannot be the zero address.
+     *
+     * Does NOT emit an {Approval} event.
+     */
+    function temporaryApprove(address spender, uint256 value) public virtual returns (bool) {
+        _temporaryApprove(_msgSender(), spender, value);
+        return true;
+    }
+
+    /**
+     * @dev Sets `value` as the temporary allowance of `spender` over the `owner` s tokens.
+     *
+     * This internal function is equivalent to `temporaryApprove`, and can be used to e.g. set automatic allowances
+     * for certain subsystems, etc.
+     *
+     * Requirements:
+     * - `owner` cannot be the zero address.
+     * - `spender` cannot be the zero address.
+     *
+     * Does NOT emit an {Approval} event.
+     */
+    function _temporaryApprove(address owner, address spender, uint256 value) internal virtual {
+        if (owner == address(0)) {
+            revert ERC20InvalidApprover(address(0));
+        }
+        if (spender == address(0)) {
+            revert ERC20InvalidSpender(address(0));
+        }
+        _temporaryAllowanceSlot(owner, spender).tstore(value);
+    }
+
+    /**
+     * @dev {_spendAllowance} override that consumes the temporary allowance (if any) before eventually falling back
+     * to consuming the persistent allowance.
+     * NOTE: This function skips calling `super._spendAllowance` if the temporary allowance
+     * is enough to cover the spending.
+     */
+    function _spendAllowance(address owner, address spender, uint256 value) internal virtual override {
+        // load transient allowance
+        uint256 currentTemporaryAllowance = _temporaryAllowance(owner, spender);
+
+        // Check and update (if needed) the temporary allowance + set remaining value
+        if (currentTemporaryAllowance > 0) {
+            // All value is covered by the infinite allowance. nothing left to spend, we can return early
+            if (currentTemporaryAllowance == type(uint256).max) {
+                return;
+            }
+            // check how much of the value is covered by the transient allowance
+            uint256 spendTemporaryAllowance = Math.min(currentTemporaryAllowance, value);
+            unchecked {
+                // decrease transient allowance accordingly
+                _temporaryApprove(owner, spender, currentTemporaryAllowance - spendTemporaryAllowance);
+                // update value necessary
+                value -= spendTemporaryAllowance;
+            }
+        }
+        // reduce any remaining value from the persistent allowance
+        if (value > 0) {
+            super._spendAllowance(owner, spender, value);
+        }
+    }
+
+    function _temporaryAllowanceSlot(address owner, address spender) private pure returns (TransientSlot.Uint256Slot) {
+        return ERC20_TEMPORARY_APPROVAL_STORAGE.deriveMapping(owner).deriveMapping(spender).asUint256();
+    }
+}
