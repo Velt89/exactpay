@@ -1,1 +1,120 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgPj0wLjguMCA8MC45LjA7CgppbXBvcnQge3N0ZEVycm9yfSBmcm9tICIuLi9zcmMvU3RkRXJyb3Iuc29sIjsKaW1wb3J0IHtUZXN0fSBmcm9tICIuLi9zcmMvVGVzdC5zb2wiOwoKY29udHJhY3QgU3RkRXJyb3JzVGVzdCBpcyBUZXN0IHsKICAgIEVycm9yc1Rlc3QgdGVzdDsKCiAgICBmdW5jdGlvbiBzZXRVcCgpIHB1YmxpYyB7CiAgICAgICAgdGVzdCA9IG5ldyBFcnJvcnNUZXN0KCk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9SZXZlcnRJZl9Bc3NlcnRpb25FcnJvcigpIHB1YmxpYyB7CiAgICAgICAgdm0uZXhwZWN0UmV2ZXJ0KHN0ZEVycm9yLmFzc2VydGlvbkVycm9yKTsKICAgICAgICB0ZXN0LmFzc2VydGlvbkVycm9yKCk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9SZXZlcnRJZl9Bcml0aG1ldGljRXJyb3IoKSBwdWJsaWMgewogICAgICAgIHZtLmV4cGVjdFJldmVydChzdGRFcnJvci5hcml0aG1ldGljRXJyb3IpOwogICAgICAgIHRlc3QuYXJpdGhtZXRpY0Vycm9yKDEwKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X1JldmVydElmX0RpdmlzaW9uRXJyb3IoKSBwdWJsaWMgewogICAgICAgIHZtLmV4cGVjdFJldmVydChzdGRFcnJvci5kaXZpc2lvbkVycm9yKTsKICAgICAgICB0ZXN0LmRpdkVycm9yKDApOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfUmV2ZXJ0SWZfTW9kRXJyb3IoKSBwdWJsaWMgewogICAgICAgIHZtLmV4cGVjdFJldmVydChzdGRFcnJvci5kaXZpc2lvbkVycm9yKTsKICAgICAgICB0ZXN0Lm1vZEVycm9yKDApOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfUmV2ZXJ0SWZfRW51bUNvbnZlcnNpb25FcnJvcigpIHB1YmxpYyB7CiAgICAgICAgdm0uZXhwZWN0UmV2ZXJ0KHN0ZEVycm9yLmVudW1Db252ZXJzaW9uRXJyb3IpOwogICAgICAgIHRlc3QuZW51bUNvbnZlcnNpb24oMSk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9SZXZlcnRJZl9FbmNvZGVTdGdFcnJvcigpIHB1YmxpYyB7CiAgICAgICAgdm0uZXhwZWN0UmV2ZXJ0KHN0ZEVycm9yLmVuY29kZVN0b3JhZ2VFcnJvcik7CiAgICAgICAgdGVzdC5lbmNvZGVTdGdFcnJvcigpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfUmV2ZXJ0SWZfUG9wRXJyb3IoKSBwdWJsaWMgewogICAgICAgIHZtLmV4cGVjdFJldmVydChzdGRFcnJvci5wb3BFcnJvcik7CiAgICAgICAgdGVzdC5wb3AoKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X1JldmVydElmX0luZGV4T09CRXJyb3IoKSBwdWJsaWMgewogICAgICAgIHZtLmV4cGVjdFJldmVydChzdGRFcnJvci5pbmRleE9PQkVycm9yKTsKICAgICAgICB0ZXN0LmluZGV4T09CRXJyb3IoMSk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9SZXZlcnRJZl9NZW1PdmVyZmxvd0Vycm9yKCkgcHVibGljIHsKICAgICAgICB2bS5leHBlY3RSZXZlcnQoc3RkRXJyb3IubWVtT3ZlcmZsb3dFcnJvcik7CiAgICAgICAgdGVzdC5tZW0oKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X1JldmVydElmX0ludGVybkVycm9yKCkgcHVibGljIHsKICAgICAgICB2bS5leHBlY3RSZXZlcnQoc3RkRXJyb3IuemVyb1ZhckVycm9yKTsKICAgICAgICB0ZXN0LmludGVybigpOwogICAgfQp9Cgpjb250cmFjdCBFcnJvcnNUZXN0IHsKICAgIGVudW0gVCB7CiAgICAgICAgVDEKICAgIH0KCiAgICB1aW50MjU2W10gcHVibGljIHNvbWVBcnI7CiAgICBieXRlcyBzb21lQnl0ZXM7CgogICAgZnVuY3Rpb24gYXNzZXJ0aW9uRXJyb3IoKSBwdWJsaWMgcHVyZSB7CiAgICAgICAgYXNzZXJ0KGZhbHNlKTsKICAgIH0KCiAgICBmdW5jdGlvbiBhcml0aG1ldGljRXJyb3IodWludDI1NiBhKSBwdWJsaWMgcHVyZSB7CiAgICAgICAgYSAtPSAxMDA7CiAgICB9CgogICAgZnVuY3Rpb24gZGl2RXJyb3IodWludDI1NiBhKSBwdWJsaWMgcHVyZSB7CiAgICAgICAgMTAwIC8gYTsKICAgIH0KCiAgICBmdW5jdGlvbiBtb2RFcnJvcih1aW50MjU2IGEpIHB1YmxpYyBwdXJlIHsKICAgICAgICAxMDAgJSBhOwogICAgfQoKICAgIGZ1bmN0aW9uIGVudW1Db252ZXJzaW9uKHVpbnQyNTYgYSkgcHVibGljIHB1cmUgewogICAgICAgIFQoYSk7CiAgICB9CgogICAgZnVuY3Rpb24gZW5jb2RlU3RnRXJyb3IoKSBwdWJsaWMgewogICAgICAgIC8vLyBAc29saWRpdHkgbWVtb3J5LXNhZmUtYXNzZW1ibHkKICAgICAgICBhc3NlbWJseSB7CiAgICAgICAgICAgIHNzdG9yZShzb21lQnl0ZXMuc2xvdCwgMSkKICAgICAgICB9CiAgICAgICAga2VjY2FrMjU2KHNvbWVCeXRlcyk7CiAgICB9CgogICAgZnVuY3Rpb24gcG9wKCkgcHVibGljIHsKICAgICAgICBzb21lQXJyLnBvcCgpOwogICAgfQoKICAgIGZ1bmN0aW9uIGluZGV4T09CRXJyb3IodWludDI1NiBhKSBwdWJsaWMgcHVyZSB7CiAgICAgICAgdWludDI1NltdIG1lbW9yeSB0ID0gbmV3IHVpbnQyNTZbXSgwKTsKICAgICAgICB0W2FdOwogICAgfQoKICAgIGZ1bmN0aW9uIG1lbSgpIHB1YmxpYyBwdXJlIHsKICAgICAgICB1aW50MjU2IGwgPSAyICoqIDI1NiAvIDMyOwogICAgICAgIG5ldyB1aW50MjU2W10obCk7CiAgICB9CgogICAgZnVuY3Rpb24gaW50ZXJuKCkgcHVibGljIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICBmdW5jdGlvbih1aW50MjU2KSBpbnRlcm5hbCByZXR1cm5zICh1aW50MjU2KSB4OwogICAgICAgIHgoMik7CiAgICAgICAgcmV0dXJuIDc7CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.8.0 <0.9.0;
+
+import {stdError} from "../src/StdError.sol";
+import {Test} from "../src/Test.sol";
+
+contract StdErrorsTest is Test {
+    ErrorsTest test;
+
+    function setUp() public {
+        test = new ErrorsTest();
+    }
+
+    function test_RevertIf_AssertionError() public {
+        vm.expectRevert(stdError.assertionError);
+        test.assertionError();
+    }
+
+    function test_RevertIf_ArithmeticError() public {
+        vm.expectRevert(stdError.arithmeticError);
+        test.arithmeticError(10);
+    }
+
+    function test_RevertIf_DivisionError() public {
+        vm.expectRevert(stdError.divisionError);
+        test.divError(0);
+    }
+
+    function test_RevertIf_ModError() public {
+        vm.expectRevert(stdError.divisionError);
+        test.modError(0);
+    }
+
+    function test_RevertIf_EnumConversionError() public {
+        vm.expectRevert(stdError.enumConversionError);
+        test.enumConversion(1);
+    }
+
+    function test_RevertIf_EncodeStgError() public {
+        vm.expectRevert(stdError.encodeStorageError);
+        test.encodeStgError();
+    }
+
+    function test_RevertIf_PopError() public {
+        vm.expectRevert(stdError.popError);
+        test.pop();
+    }
+
+    function test_RevertIf_IndexOOBError() public {
+        vm.expectRevert(stdError.indexOOBError);
+        test.indexOOBError(1);
+    }
+
+    function test_RevertIf_MemOverflowError() public {
+        vm.expectRevert(stdError.memOverflowError);
+        test.mem();
+    }
+
+    function test_RevertIf_InternError() public {
+        vm.expectRevert(stdError.zeroVarError);
+        test.intern();
+    }
+}
+
+contract ErrorsTest {
+    enum T {
+        T1
+    }
+
+    uint256[] public someArr;
+    bytes someBytes;
+
+    function assertionError() public pure {
+        assert(false);
+    }
+
+    function arithmeticError(uint256 a) public pure {
+        a -= 100;
+    }
+
+    function divError(uint256 a) public pure {
+        100 / a;
+    }
+
+    function modError(uint256 a) public pure {
+        100 % a;
+    }
+
+    function enumConversion(uint256 a) public pure {
+        T(a);
+    }
+
+    function encodeStgError() public {
+        /// @solidity memory-safe-assembly
+        assembly {
+            sstore(someBytes.slot, 1)
+        }
+        keccak256(someBytes);
+    }
+
+    function pop() public {
+        someArr.pop();
+    }
+
+    function indexOOBError(uint256 a) public pure {
+        uint256[] memory t = new uint256[](0);
+        t[a];
+    }
+
+    function mem() public pure {
+        uint256 l = 2 ** 256 / 32;
+        new uint256[](l);
+    }
+
+    function intern() public returns (uint256) {
+        function(uint256) internal returns (uint256) x;
+        x(2);
+        return 7;
+    }
+}
