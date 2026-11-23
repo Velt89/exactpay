@@ -1,1 +1,129 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKY29uc3QgbmFtZSA9ICdNeSBUb2tlbic7CmNvbnN0IHN5bWJvbCA9ICdNVEtOJzsKY29uc3QgaW5pdGlhbFN1cHBseSA9IDEwMG47Cgphc3luYyBmdW5jdGlvbiBmaXh0dXJlKCkgewogIGNvbnN0IFtob2xkZXIsIHJlY2lwaWVudCwgYXBwcm92ZWRdID0gYXdhaXQgZXRoZXJzLmdldFNpZ25lcnMoKTsKCiAgY29uc3QgdG9rZW4gPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJyRFUkMyMFBhdXNhYmxlJywgW25hbWUsIHN5bWJvbF0pOwogIGF3YWl0IHRva2VuLiRfbWludChob2xkZXIsIGluaXRpYWxTdXBwbHkpOwoKICByZXR1cm4geyBob2xkZXIsIHJlY2lwaWVudCwgYXBwcm92ZWQsIHRva2VuIH07Cn0KCmRlc2NyaWJlKCdFUkMyMFBhdXNhYmxlJywgZnVuY3Rpb24gKCkgewogIGJlZm9yZUVhY2goYXN5bmMgZnVuY3Rpb24gKCkgewogICAgT2JqZWN0LmFzc2lnbih0aGlzLCBhd2FpdCBsb2FkRml4dHVyZShmaXh0dXJlKSk7CiAgfSk7CgogIGRlc2NyaWJlKCdwYXVzYWJsZSB0b2tlbicsIGZ1bmN0aW9uICgpIHsKICAgIGRlc2NyaWJlKCd0cmFuc2ZlcicsIGZ1bmN0aW9uICgpIHsKICAgICAgaXQoJ2FsbG93cyB0byB0cmFuc2ZlciB3aGVuIHVucGF1c2VkJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLnRva2VuLmNvbm5lY3QodGhpcy5ob2xkZXIpLnRyYW5zZmVyKHRoaXMucmVjaXBpZW50LCBpbml0aWFsU3VwcGx5KSkudG8uY2hhbmdlVG9rZW5CYWxhbmNlcygKICAgICAgICAgIHRoaXMudG9rZW4sCiAgICAgICAgICBbdGhpcy5ob2xkZXIsIHRoaXMucmVjaXBpZW50XSwKICAgICAgICAgIFstaW5pdGlhbFN1cHBseSwgaW5pdGlhbFN1cHBseV0sCiAgICAgICAgKTsKICAgICAgfSk7CgogICAgICBpdCgnYWxsb3dzIHRvIHRyYW5zZmVyIHdoZW4gcGF1c2VkIGFuZCB0aGVuIHVucGF1c2VkJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGF3YWl0IHRoaXMudG9rZW4uJF9wYXVzZSgpOwogICAgICAgIGF3YWl0IHRoaXMudG9rZW4uJF91bnBhdXNlKCk7CgogICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLnRva2VuLmNvbm5lY3QodGhpcy5ob2xkZXIpLnRyYW5zZmVyKHRoaXMucmVjaXBpZW50LCBpbml0aWFsU3VwcGx5KSkudG8uY2hhbmdlVG9rZW5CYWxhbmNlcygKICAgICAgICAgIHRoaXMudG9rZW4sCiAgICAgICAgICBbdGhpcy5ob2xkZXIsIHRoaXMucmVjaXBpZW50XSwKICAgICAgICAgIFstaW5pdGlhbFN1cHBseSwgaW5pdGlhbFN1cHBseV0sCiAgICAgICAgKTsKICAgICAgfSk7CgogICAgICBpdCgncmV2ZXJ0cyB3aGVuIHRyeWluZyB0byB0cmFuc2ZlciB3aGVuIHBhdXNlZCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBhd2FpdCB0aGlzLnRva2VuLiRfcGF1c2UoKTsKCiAgICAgICAgYXdhaXQgZXhwZWN0KAogICAgICAgICAgdGhpcy50b2tlbi5jb25uZWN0KHRoaXMuaG9sZGVyKS50cmFuc2Zlcih0aGlzLnJlY2lwaWVudCwgaW5pdGlhbFN1cHBseSksCiAgICAgICAgKS50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLnRva2VuLCAnRW5mb3JjZWRQYXVzZScpOwogICAgICB9KTsKICAgIH0pOwoKICAgIGRlc2NyaWJlKCd0cmFuc2ZlciBmcm9tJywgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCBhbGxvd2FuY2UgPSA0MG47CgogICAgICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBhd2FpdCB0aGlzLnRva2VuLmNvbm5lY3QodGhpcy5ob2xkZXIpLmFwcHJvdmUodGhpcy5hcHByb3ZlZCwgYWxsb3dhbmNlKTsKICAgICAgfSk7CgogICAgICBpdCgnYWxsb3dzIHRvIHRyYW5zZmVyIGZyb20gd2hlbiB1bnBhdXNlZCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBhd2FpdCBleHBlY3QoCiAgICAgICAgICB0aGlzLnRva2VuLmNvbm5lY3QodGhpcy5hcHByb3ZlZCkudHJhbnNmZXJGcm9tKHRoaXMuaG9sZGVyLCB0aGlzLnJlY2lwaWVudCwgYWxsb3dhbmNlKSwKICAgICAgICApLnRvLmNoYW5nZVRva2VuQmFsYW5jZXModGhpcy50b2tlbiwgW3RoaXMuaG9sZGVyLCB0aGlzLnJlY2lwaWVudF0sIFstYWxsb3dhbmNlLCBhbGxvd2FuY2VdKTsKICAgICAgfSk7CgogICAgICBpdCgnYWxsb3dzIHRvIHRyYW5zZmVyIHdoZW4gcGF1c2VkIGFuZCB0aGVuIHVucGF1c2VkJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGF3YWl0IHRoaXMudG9rZW4uJF9wYXVzZSgpOwogICAgICAgIGF3YWl0IHRoaXMudG9rZW4uJF91bnBhdXNlKCk7CgogICAgICAgIGF3YWl0IGV4cGVjdCgKICAgICAgICAgIHRoaXMudG9rZW4uY29ubmVjdCh0aGlzLmFwcHJvdmVkKS50cmFuc2ZlckZyb20odGhpcy5ob2xkZXIsIHRoaXMucmVjaXBpZW50LCBhbGxvd2FuY2UpLAogICAgICAgICkudG8uY2hhbmdlVG9rZW5CYWxhbmNlcyh0aGlzLnRva2VuLCBbdGhpcy5ob2xkZXIsIHRoaXMucmVjaXBpZW50XSwgWy1hbGxvd2FuY2UsIGFsbG93YW5jZV0pOwogICAgICB9KTsKCiAgICAgIGl0KCdyZXZlcnRzIHdoZW4gdHJ5aW5nIHRvIHRyYW5zZmVyIGZyb20gd2hlbiBwYXVzZWQnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgYXdhaXQgdGhpcy50b2tlbi4kX3BhdXNlKCk7CgogICAgICAgIGF3YWl0IGV4cGVjdCgKICAgICAgICAgIHRoaXMudG9rZW4uY29ubmVjdCh0aGlzLmFwcHJvdmVkKS50cmFuc2ZlckZyb20odGhpcy5ob2xkZXIsIHRoaXMucmVjaXBpZW50LCBhbGxvd2FuY2UpLAogICAgICAgICkudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy50b2tlbiwgJ0VuZm9yY2VkUGF1c2UnKTsKICAgICAgfSk7CiAgICB9KTsKCiAgICBkZXNjcmliZSgnbWludCcsIGZ1bmN0aW9uICgpIHsKICAgICAgY29uc3QgdmFsdWUgPSA0Mm47CgogICAgICBpdCgnYWxsb3dzIHRvIG1pbnQgd2hlbiB1bnBhdXNlZCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBhd2FpdCBleHBlY3QodGhpcy50b2tlbi4kX21pbnQodGhpcy5yZWNpcGllbnQsIHZhbHVlKSkudG8uY2hhbmdlVG9rZW5CYWxhbmNlKHRoaXMudG9rZW4sIHRoaXMucmVjaXBpZW50LCB2YWx1ZSk7CiAgICAgIH0pOwoKICAgICAgaXQoJ2FsbG93cyB0byBtaW50IHdoZW4gcGF1c2VkIGFuZCB0aGVuIHVucGF1c2VkJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGF3YWl0IHRoaXMudG9rZW4uJF9wYXVzZSgpOwogICAgICAgIGF3YWl0IHRoaXMudG9rZW4uJF91bnBhdXNlKCk7CgogICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLnRva2VuLiRfbWludCh0aGlzLnJlY2lwaWVudCwgdmFsdWUpKS50by5jaGFuZ2VUb2tlbkJhbGFuY2UodGhpcy50b2tlbiwgdGhpcy5yZWNpcGllbnQsIHZhbHVlKTsKICAgICAgfSk7CgogICAgICBpdCgncmV2ZXJ0cyB3aGVuIHRyeWluZyB0byBtaW50IHdoZW4gcGF1c2VkJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGF3YWl0IHRoaXMudG9rZW4uJF9wYXVzZSgpOwoKICAgICAgICBhd2FpdCBleHBlY3QodGhpcy50b2tlbi4kX21pbnQodGhpcy5yZWNpcGllbnQsIHZhbHVlKSkudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IoCiAgICAgICAgICB0aGlzLnRva2VuLAogICAgICAgICAgJ0VuZm9yY2VkUGF1c2UnLAogICAgICAgICk7CiAgICAgIH0pOwogICAgfSk7CgogICAgZGVzY3JpYmUoJ2J1cm4nLCBmdW5jdGlvbiAoKSB7CiAgICAgIGNvbnN0IHZhbHVlID0gNDJuOwoKICAgICAgaXQoJ2FsbG93cyB0byBidXJuIHdoZW4gdW5wYXVzZWQnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMudG9rZW4uJF9idXJuKHRoaXMuaG9sZGVyLCB2YWx1ZSkpLnRvLmNoYW5nZVRva2VuQmFsYW5jZSh0aGlzLnRva2VuLCB0aGlzLmhvbGRlciwgLXZhbHVlKTsKICAgICAgfSk7CgogICAgICBpdCgnYWxsb3dzIHRvIGJ1cm4gd2hlbiBwYXVzZWQgYW5kIHRoZW4gdW5wYXVzZWQnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgYXdhaXQgdGhpcy50b2tlbi4kX3BhdXNlKCk7CiAgICAgICAgYXdhaXQgdGhpcy50b2tlbi4kX3VucGF1c2UoKTsKCiAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMudG9rZW4uJF9idXJuKHRoaXMuaG9sZGVyLCB2YWx1ZSkpLnRvLmNoYW5nZVRva2VuQmFsYW5jZSh0aGlzLnRva2VuLCB0aGlzLmhvbGRlciwgLXZhbHVlKTsKICAgICAgfSk7CgogICAgICBpdCgncmV2ZXJ0cyB3aGVuIHRyeWluZyB0byBidXJuIHdoZW4gcGF1c2VkJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGF3YWl0IHRoaXMudG9rZW4uJF9wYXVzZSgpOwoKICAgICAgICBhd2FpdCBleHBlY3QodGhpcy50b2tlbi4kX2J1cm4odGhpcy5ob2xkZXIsIHZhbHVlKSkudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy50b2tlbiwgJ0VuZm9yY2VkUGF1c2UnKTsKICAgICAgfSk7CiAgICB9KTsKICB9KTsKfSk7Cg==
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+const name = 'My Token';
+const symbol = 'MTKN';
+const initialSupply = 100n;
+
+async function fixture() {
+  const [holder, recipient, approved] = await ethers.getSigners();
+
+  const token = await ethers.deployContract('$ERC20Pausable', [name, symbol]);
+  await token.$_mint(holder, initialSupply);
+
+  return { holder, recipient, approved, token };
+}
+
+describe('ERC20Pausable', function () {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  describe('pausable token', function () {
+    describe('transfer', function () {
+      it('allows to transfer when unpaused', async function () {
+        await expect(this.token.connect(this.holder).transfer(this.recipient, initialSupply)).to.changeTokenBalances(
+          this.token,
+          [this.holder, this.recipient],
+          [-initialSupply, initialSupply],
+        );
+      });
+
+      it('allows to transfer when paused and then unpaused', async function () {
+        await this.token.$_pause();
+        await this.token.$_unpause();
+
+        await expect(this.token.connect(this.holder).transfer(this.recipient, initialSupply)).to.changeTokenBalances(
+          this.token,
+          [this.holder, this.recipient],
+          [-initialSupply, initialSupply],
+        );
+      });
+
+      it('reverts when trying to transfer when paused', async function () {
+        await this.token.$_pause();
+
+        await expect(
+          this.token.connect(this.holder).transfer(this.recipient, initialSupply),
+        ).to.be.revertedWithCustomError(this.token, 'EnforcedPause');
+      });
+    });
+
+    describe('transfer from', function () {
+      const allowance = 40n;
+
+      beforeEach(async function () {
+        await this.token.connect(this.holder).approve(this.approved, allowance);
+      });
+
+      it('allows to transfer from when unpaused', async function () {
+        await expect(
+          this.token.connect(this.approved).transferFrom(this.holder, this.recipient, allowance),
+        ).to.changeTokenBalances(this.token, [this.holder, this.recipient], [-allowance, allowance]);
+      });
+
+      it('allows to transfer when paused and then unpaused', async function () {
+        await this.token.$_pause();
+        await this.token.$_unpause();
+
+        await expect(
+          this.token.connect(this.approved).transferFrom(this.holder, this.recipient, allowance),
+        ).to.changeTokenBalances(this.token, [this.holder, this.recipient], [-allowance, allowance]);
+      });
+
+      it('reverts when trying to transfer from when paused', async function () {
+        await this.token.$_pause();
+
+        await expect(
+          this.token.connect(this.approved).transferFrom(this.holder, this.recipient, allowance),
+        ).to.be.revertedWithCustomError(this.token, 'EnforcedPause');
+      });
+    });
+
+    describe('mint', function () {
+      const value = 42n;
+
+      it('allows to mint when unpaused', async function () {
+        await expect(this.token.$_mint(this.recipient, value)).to.changeTokenBalance(this.token, this.recipient, value);
+      });
+
+      it('allows to mint when paused and then unpaused', async function () {
+        await this.token.$_pause();
+        await this.token.$_unpause();
+
+        await expect(this.token.$_mint(this.recipient, value)).to.changeTokenBalance(this.token, this.recipient, value);
+      });
+
+      it('reverts when trying to mint when paused', async function () {
+        await this.token.$_pause();
+
+        await expect(this.token.$_mint(this.recipient, value)).to.be.revertedWithCustomError(
+          this.token,
+          'EnforcedPause',
+        );
+      });
+    });
+
+    describe('burn', function () {
+      const value = 42n;
+
+      it('allows to burn when unpaused', async function () {
+        await expect(this.token.$_burn(this.holder, value)).to.changeTokenBalance(this.token, this.holder, -value);
+      });
+
+      it('allows to burn when paused and then unpaused', async function () {
+        await this.token.$_pause();
+        await this.token.$_unpause();
+
+        await expect(this.token.$_burn(this.holder, value)).to.changeTokenBalance(this.token, this.holder, -value);
+      });
+
+      it('reverts when trying to burn when paused', async function () {
+        await this.token.$_pause();
+
+        await expect(this.token.$_burn(this.holder, value)).to.be.revertedWithCustomError(this.token, 'EnforcedPause');
+      });
+    });
+  });
+});
