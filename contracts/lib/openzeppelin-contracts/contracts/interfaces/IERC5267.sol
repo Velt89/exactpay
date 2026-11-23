@@ -1,1 +1,28 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMC4wKSAoaW50ZXJmYWNlcy9JRVJDNTI2Ny5zb2wpCgpwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmludGVyZmFjZSBJRVJDNTI2NyB7CiAgICAvKioKICAgICAqIEBkZXYgTUFZIGJlIGVtaXR0ZWQgdG8gc2lnbmFsIHRoYXQgdGhlIGRvbWFpbiBjb3VsZCBoYXZlIGNoYW5nZWQuCiAgICAgKi8KICAgIGV2ZW50IEVJUDcxMkRvbWFpbkNoYW5nZWQoKTsKCiAgICAvKioKICAgICAqIEBkZXYgcmV0dXJucyB0aGUgZmllbGRzIGFuZCB2YWx1ZXMgdGhhdCBkZXNjcmliZSB0aGUgZG9tYWluIHNlcGFyYXRvciB1c2VkIGJ5IHRoaXMgY29udHJhY3QgZm9yIEVJUC03MTIKICAgICAqIHNpZ25hdHVyZS4KICAgICAqLwogICAgZnVuY3Rpb24gZWlwNzEyRG9tYWluKCkKICAgICAgICBleHRlcm5hbAogICAgICAgIHZpZXcKICAgICAgICByZXR1cm5zICgKICAgICAgICAgICAgYnl0ZXMxIGZpZWxkcywKICAgICAgICAgICAgc3RyaW5nIG1lbW9yeSBuYW1lLAogICAgICAgICAgICBzdHJpbmcgbWVtb3J5IHZlcnNpb24sCiAgICAgICAgICAgIHVpbnQyNTYgY2hhaW5JZCwKICAgICAgICAgICAgYWRkcmVzcyB2ZXJpZnlpbmdDb250cmFjdCwKICAgICAgICAgICAgYnl0ZXMzMiBzYWx0LAogICAgICAgICAgICB1aW50MjU2W10gbWVtb3J5IGV4dGVuc2lvbnMKICAgICAgICApOwp9Cg==
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.0.0) (interfaces/IERC5267.sol)
+
+pragma solidity ^0.8.20;
+
+interface IERC5267 {
+    /**
+     * @dev MAY be emitted to signal that the domain could have changed.
+     */
+    event EIP712DomainChanged();
+
+    /**
+     * @dev returns the fields and values that describe the domain separator used by this contract for EIP-712
+     * signature.
+     */
+    function eip712Domain()
+        external
+        view
+        returns (
+            bytes1 fields,
+            string memory name,
+            string memory version,
+            uint256 chainId,
+            address verifyingContract,
+            bytes32 salt,
+            uint256[] memory extensions
+        );
+}
