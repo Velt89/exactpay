@@ -1,1 +1,11 @@
-Y29uc3QgeyBwcm9kdWN0IH0gPSByZXF1aXJlKCcuLi8uLi9oZWxwZXJzJyk7Cgpjb25zdCBPUFRTID0gcHJvZHVjdCgKICBbCiAgICB7IHN1ZmZpeDogJycsIGxvY2F0aW9uOiAnbWVtb3J5JyB9LAogICAgeyBzdWZmaXg6ICdDYWxsZGF0YScsIGxvY2F0aW9uOiAnY2FsbGRhdGEnIH0sCiAgXSwKICBbeyB2aXNpYmlsaXR5OiAncHVyZScgfSwgeyB2aXNpYmlsaXR5OiAndmlldycsIGhhc2g6ICdoYXNoZXInIH1dLAopLm1hcChvYmpzID0+IE9iamVjdC5hc3NpZ24oe30sIC4uLm9ianMpKTsKCm1vZHVsZS5leHBvcnRzID0geyBPUFRTIH07Cg==
+const { product } = require('../../helpers');
+
+const OPTS = product(
+  [
+    { suffix: '', location: 'memory' },
+    { suffix: 'Calldata', location: 'calldata' },
+  ],
+  [{ visibility: 'pure' }, { visibility: 'view', hash: 'hasher' }],
+).map(objs => Object.assign({}, ...objs));
+
+module.exports = { OPTS };
