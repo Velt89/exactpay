@@ -1,1 +1,164 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKY29uc3QgbmFtZSA9ICdNeSBUb2tlbic7CmNvbnN0IHN5bWJvbCA9ICdNVEtOJzsKY29uc3QgaW5pdGlhbFN1cHBseSA9IDEwMG47CmNvbnN0IGxvYW5WYWx1ZSA9IDEwXzAwMF8wMDBfMDAwXzAwMG47Cgphc3luYyBmdW5jdGlvbiBmaXh0dXJlKCkgewogIGNvbnN0IFtob2xkZXIsIG90aGVyXSA9IGF3YWl0IGV0aGVycy5nZXRTaWduZXJzKCk7CgogIGNvbnN0IHRva2VuID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCckRVJDMjBGbGFzaE1pbnRNb2NrJywgW25hbWUsIHN5bWJvbF0pOwogIGF3YWl0IHRva2VuLiRfbWludChob2xkZXIsIGluaXRpYWxTdXBwbHkpOwoKICByZXR1cm4geyBob2xkZXIsIG90aGVyLCB0b2tlbiB9Owp9CgpkZXNjcmliZSgnRVJDMjBGbGFzaE1pbnQnLCBmdW5jdGlvbiAoKSB7CiAgYmVmb3JlRWFjaChhc3luYyBmdW5jdGlvbiAoKSB7CiAgICBPYmplY3QuYXNzaWduKHRoaXMsIGF3YWl0IGxvYWRGaXh0dXJlKGZpeHR1cmUpKTsKICB9KTsKCiAgZGVzY3JpYmUoJ21heEZsYXNoTG9hbicsIGZ1bmN0aW9uICgpIHsKICAgIGl0KCd0b2tlbiBtYXRjaCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudG9rZW4ubWF4Rmxhc2hMb2FuKHRoaXMudG9rZW4pKS50by5lcXVhbChldGhlcnMuTWF4VWludDI1NiAtIGluaXRpYWxTdXBwbHkpOwogICAgfSk7CgogICAgaXQoJ3Rva2VuIG1pc21hdGNoJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBleHBlY3QoYXdhaXQgdGhpcy50b2tlbi5tYXhGbGFzaExvYW4oZXRoZXJzLlplcm9BZGRyZXNzKSkudG8uZXF1YWwoMG4pOwogICAgfSk7CiAgfSk7CgogIGRlc2NyaWJlKCdmbGFzaEZlZScsIGZ1bmN0aW9uICgpIHsKICAgIGl0KCd0b2tlbiBtYXRjaCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudG9rZW4uZmxhc2hGZWUodGhpcy50b2tlbiwgbG9hblZhbHVlKSkudG8uZXF1YWwoMG4pOwogICAgfSk7CgogICAgaXQoJ3Rva2VuIG1pc21hdGNoJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCBleHBlY3QodGhpcy50b2tlbi5mbGFzaEZlZShldGhlcnMuWmVyb0FkZHJlc3MsIGxvYW5WYWx1ZSkpCiAgICAgICAgLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMudG9rZW4sICdFUkMzMTU2VW5zdXBwb3J0ZWRUb2tlbicpCiAgICAgICAgLndpdGhBcmdzKGV0aGVycy5aZXJvQWRkcmVzcyk7CiAgICB9KTsKICB9KTsKCiAgZGVzY3JpYmUoJ2ZsYXNoRmVlUmVjZWl2ZXInLCBmdW5jdGlvbiAoKSB7CiAgICBpdCgnZGVmYXVsdCByZWNlaXZlcicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudG9rZW4uJF9mbGFzaEZlZVJlY2VpdmVyKCkpLnRvLmVxdWFsKGV0aGVycy5aZXJvQWRkcmVzcyk7CiAgICB9KTsKICB9KTsKCiAgZGVzY3JpYmUoJ2ZsYXNoTG9hbicsIGZ1bmN0aW9uICgpIHsKICAgIGl0KCdzdWNjZXNzJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCByZWNlaXZlciA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnRVJDMzE1NkZsYXNoQm9ycm93ZXJNb2NrJywgW3RydWUsIHRydWVdKTsKCiAgICAgIGNvbnN0IHR4ID0gYXdhaXQgdGhpcy50b2tlbi5mbGFzaExvYW4ocmVjZWl2ZXIsIHRoaXMudG9rZW4sIGxvYW5WYWx1ZSwgJzB4Jyk7CiAgICAgIGF3YWl0IGV4cGVjdCh0eCkKICAgICAgICAudG8uZW1pdCh0aGlzLnRva2VuLCAnVHJhbnNmZXInKQogICAgICAgIC53aXRoQXJncyhldGhlcnMuWmVyb0FkZHJlc3MsIHJlY2VpdmVyLCBsb2FuVmFsdWUpCiAgICAgICAgLnRvLmVtaXQodGhpcy50b2tlbiwgJ1RyYW5zZmVyJykKICAgICAgICAud2l0aEFyZ3MocmVjZWl2ZXIsIGV0aGVycy5aZXJvQWRkcmVzcywgbG9hblZhbHVlKQogICAgICAgIC50by5lbWl0KHJlY2VpdmVyLCAnQmFsYW5jZU9mJykKICAgICAgICAud2l0aEFyZ3ModGhpcy50b2tlbiwgcmVjZWl2ZXIsIGxvYW5WYWx1ZSkKICAgICAgICAudG8uZW1pdChyZWNlaXZlciwgJ1RvdGFsU3VwcGx5JykKICAgICAgICAud2l0aEFyZ3ModGhpcy50b2tlbiwgaW5pdGlhbFN1cHBseSArIGxvYW5WYWx1ZSk7CiAgICAgIGF3YWl0IGV4cGVjdCh0eCkudG8uY2hhbmdlVG9rZW5CYWxhbmNlKHRoaXMudG9rZW4sIHJlY2VpdmVyLCAwKTsKCiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnRva2VuLnRvdGFsU3VwcGx5KCkpLnRvLmVxdWFsKGluaXRpYWxTdXBwbHkpOwogICAgICBleHBlY3QoYXdhaXQgdGhpcy50b2tlbi5hbGxvd2FuY2UocmVjZWl2ZXIsIHRoaXMudG9rZW4pKS50by5lcXVhbCgwbik7CiAgICB9KTsKCiAgICBpdCgnbWlzc2luZyByZXR1cm4gdmFsdWUnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGNvbnN0IHJlY2VpdmVyID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCdFUkMzMTU2Rmxhc2hCb3Jyb3dlck1vY2snLCBbZmFsc2UsIHRydWVdKTsKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMudG9rZW4uZmxhc2hMb2FuKHJlY2VpdmVyLCB0aGlzLnRva2VuLCBsb2FuVmFsdWUsICcweCcpKQogICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLnRva2VuLCAnRVJDMzE1NkludmFsaWRSZWNlaXZlcicpCiAgICAgICAgLndpdGhBcmdzKHJlY2VpdmVyKTsKICAgIH0pOwoKICAgIGl0KCdtaXNzaW5nIGFwcHJvdmFsJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCByZWNlaXZlciA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnRVJDMzE1NkZsYXNoQm9ycm93ZXJNb2NrJywgW3RydWUsIGZhbHNlXSk7CiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLnRva2VuLmZsYXNoTG9hbihyZWNlaXZlciwgdGhpcy50b2tlbiwgbG9hblZhbHVlLCAnMHgnKSkKICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy50b2tlbiwgJ0VSQzIwSW5zdWZmaWNpZW50QWxsb3dhbmNlJykKICAgICAgICAud2l0aEFyZ3ModGhpcy50b2tlbiwgMCwgbG9hblZhbHVlKTsKICAgIH0pOwoKICAgIGl0KCd1bmF2YWlsYWJsZSBmdW5kcycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgY29uc3QgcmVjZWl2ZXIgPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJ0VSQzMxNTZGbGFzaEJvcnJvd2VyTW9jaycsIFt0cnVlLCB0cnVlXSk7CiAgICAgIGNvbnN0IGRhdGEgPSB0aGlzLnRva2VuLmludGVyZmFjZS5lbmNvZGVGdW5jdGlvbkRhdGEoJ3RyYW5zZmVyJywgW3RoaXMub3RoZXIuYWRkcmVzcywgMTBdKTsKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMudG9rZW4uZmxhc2hMb2FuKHJlY2VpdmVyLCB0aGlzLnRva2VuLCBsb2FuVmFsdWUsIGRhdGEpKQogICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLnRva2VuLCAnRVJDMjBJbnN1ZmZpY2llbnRCYWxhbmNlJykKICAgICAgICAud2l0aEFyZ3MocmVjZWl2ZXIsIGxvYW5WYWx1ZSAtIDEwbiwgbG9hblZhbHVlKTsKICAgIH0pOwoKICAgIGl0KCdtb3JlIHRoYW4gbWF4Rmxhc2hMb2FuJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCByZWNlaXZlciA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnRVJDMzE1NkZsYXNoQm9ycm93ZXJNb2NrJywgW3RydWUsIHRydWVdKTsKICAgICAgY29uc3QgZGF0YSA9IHRoaXMudG9rZW4uaW50ZXJmYWNlLmVuY29kZUZ1bmN0aW9uRGF0YSgndHJhbnNmZXInLCBbdGhpcy5vdGhlci5hZGRyZXNzLCAxMF0pOwogICAgICBhd2FpdCBleHBlY3QodGhpcy50b2tlbi5mbGFzaExvYW4ocmVjZWl2ZXIsIHRoaXMudG9rZW4sIGV0aGVycy5NYXhVaW50MjU2LCBkYXRhKSkKICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy50b2tlbiwgJ0VSQzMxNTZFeGNlZWRlZE1heExvYW4nKQogICAgICAgIC53aXRoQXJncyhldGhlcnMuTWF4VWludDI1NiAtIGluaXRpYWxTdXBwbHkpOwogICAgfSk7CgogICAgZGVzY3JpYmUoJ2N1c3RvbSBmbGFzaCBmZWUgJiBjdXN0b20gZmVlIHJlY2VpdmVyJywgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCByZWNlaXZlckluaXRpYWxCYWxhbmNlID0gMjAwXzAwMG47CiAgICAgIGNvbnN0IGZsYXNoRmVlID0gNV8wMDBuOwoKICAgICAgYmVmb3JlRWFjaCgnaW5pdCByZWNlaXZlciBiYWxhbmNlICYgc2V0IGZsYXNoIGZlZScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICB0aGlzLnJlY2VpdmVyID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCdFUkMzMTU2Rmxhc2hCb3Jyb3dlck1vY2snLCBbdHJ1ZSwgdHJ1ZV0pOwoKICAgICAgICBjb25zdCB0eCA9IGF3YWl0IHRoaXMudG9rZW4uJF9taW50KHRoaXMucmVjZWl2ZXIsIHJlY2VpdmVySW5pdGlhbEJhbGFuY2UpOwogICAgICAgIGF3YWl0IGV4cGVjdCh0eCkKICAgICAgICAgIC50by5lbWl0KHRoaXMudG9rZW4sICdUcmFuc2ZlcicpCiAgICAgICAgICAud2l0aEFyZ3MoZXRoZXJzLlplcm9BZGRyZXNzLCB0aGlzLnJlY2VpdmVyLCByZWNlaXZlckluaXRpYWxCYWxhbmNlKTsKICAgICAgICBhd2FpdCBleHBlY3QodHgpLnRvLmNoYW5nZVRva2VuQmFsYW5jZSh0aGlzLnRva2VuLCB0aGlzLnJlY2VpdmVyLCByZWNlaXZlckluaXRpYWxCYWxhbmNlKTsKCiAgICAgICAgYXdhaXQgdGhpcy50b2tlbi5zZXRGbGFzaEZlZShmbGFzaEZlZSk7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudG9rZW4uZmxhc2hGZWUodGhpcy50b2tlbiwgbG9hblZhbHVlKSkudG8uZXF1YWwoZmxhc2hGZWUpOwogICAgICB9KTsKCiAgICAgIGl0KCdkZWZhdWx0IGZsYXNoIGZlZSByZWNlaXZlcicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBjb25zdCB0eCA9IGF3YWl0IHRoaXMudG9rZW4uZmxhc2hMb2FuKHRoaXMucmVjZWl2ZXIsIHRoaXMudG9rZW4sIGxvYW5WYWx1ZSwgJzB4Jyk7CiAgICAgICAgYXdhaXQgZXhwZWN0KHR4KQogICAgICAgICAgLnRvLmVtaXQodGhpcy50b2tlbiwgJ1RyYW5zZmVyJykKICAgICAgICAgIC53aXRoQXJncyhldGhlcnMuWmVyb0FkZHJlc3MsIHRoaXMucmVjZWl2ZXIsIGxvYW5WYWx1ZSkKICAgICAgICAgIC50by5lbWl0KHRoaXMudG9rZW4sICdUcmFuc2ZlcicpCiAgICAgICAgICAud2l0aEFyZ3ModGhpcy5yZWNlaXZlciwgZXRoZXJzLlplcm9BZGRyZXNzLCBsb2FuVmFsdWUgKyBmbGFzaEZlZSkKICAgICAgICAgIC50by5lbWl0KHRoaXMucmVjZWl2ZXIsICdCYWxhbmNlT2YnKQogICAgICAgICAgLndpdGhBcmdzKHRoaXMudG9rZW4sIHRoaXMucmVjZWl2ZXIsIHJlY2VpdmVySW5pdGlhbEJhbGFuY2UgKyBsb2FuVmFsdWUpCiAgICAgICAgICAudG8uZW1pdCh0aGlzLnJlY2VpdmVyLCAnVG90YWxTdXBwbHknKQogICAgICAgICAgLndpdGhBcmdzKHRoaXMudG9rZW4sIGluaXRpYWxTdXBwbHkgKyByZWNlaXZlckluaXRpYWxCYWxhbmNlICsgbG9hblZhbHVlKTsKICAgICAgICBhd2FpdCBleHBlY3QodHgpLnRvLmNoYW5nZVRva2VuQmFsYW5jZXModGhpcy50b2tlbiwgW3RoaXMucmVjZWl2ZXIsIGV0aGVycy5aZXJvQWRkcmVzc10sIFstZmxhc2hGZWUsIDBdKTsKCiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudG9rZW4udG90YWxTdXBwbHkoKSkudG8uZXF1YWwoaW5pdGlhbFN1cHBseSArIHJlY2VpdmVySW5pdGlhbEJhbGFuY2UgLSBmbGFzaEZlZSk7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudG9rZW4uYWxsb3dhbmNlKHRoaXMucmVjZWl2ZXIsIHRoaXMudG9rZW4pKS50by5lcXVhbCgwbik7CiAgICAgIH0pOwoKICAgICAgaXQoJ2N1c3RvbSBmbGFzaCBmZWUgcmVjZWl2ZXInLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgY29uc3QgZmxhc2hGZWVSZWNlaXZlckFkZHJlc3MgPSB0aGlzLm90aGVyOwogICAgICAgIGF3YWl0IHRoaXMudG9rZW4uc2V0Rmxhc2hGZWVSZWNlaXZlcihmbGFzaEZlZVJlY2VpdmVyQWRkcmVzcyk7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudG9rZW4uJF9mbGFzaEZlZVJlY2VpdmVyKCkpLnRvLmVxdWFsKGZsYXNoRmVlUmVjZWl2ZXJBZGRyZXNzKTsKCiAgICAgICAgY29uc3QgdHggPSBhd2FpdCB0aGlzLnRva2VuLmZsYXNoTG9hbih0aGlzLnJlY2VpdmVyLCB0aGlzLnRva2VuLCBsb2FuVmFsdWUsICcweCcpOwogICAgICAgIGF3YWl0IGV4cGVjdCh0eCkKICAgICAgICAgIC50by5lbWl0KHRoaXMudG9rZW4sICdUcmFuc2ZlcicpCiAgICAgICAgICAud2l0aEFyZ3MoZXRoZXJzLlplcm9BZGRyZXNzLCB0aGlzLnJlY2VpdmVyLCBsb2FuVmFsdWUpCiAgICAgICAgICAudG8uZW1pdCh0aGlzLnRva2VuLCAnVHJhbnNmZXInKQogICAgICAgICAgLndpdGhBcmdzKHRoaXMucmVjZWl2ZXIsIGV0aGVycy5aZXJvQWRkcmVzcywgbG9hblZhbHVlKQogICAgICAgICAgLnRvLmVtaXQodGhpcy50b2tlbiwgJ1RyYW5zZmVyJykKICAgICAgICAgIC53aXRoQXJncyh0aGlzLnJlY2VpdmVyLCBmbGFzaEZlZVJlY2VpdmVyQWRkcmVzcywgZmxhc2hGZWUpCiAgICAgICAgICAudG8uZW1pdCh0aGlzLnJlY2VpdmVyLCAnQmFsYW5jZU9mJykKICAgICAgICAgIC53aXRoQXJncyh0aGlzLnRva2VuLCB0aGlzLnJlY2VpdmVyLCByZWNlaXZlckluaXRpYWxCYWxhbmNlICsgbG9hblZhbHVlKQogICAgICAgICAgLnRvLmVtaXQodGhpcy5yZWNlaXZlciwgJ1RvdGFsU3VwcGx5JykKICAgICAgICAgIC53aXRoQXJncyh0aGlzLnRva2VuLCBpbml0aWFsU3VwcGx5ICsgcmVjZWl2ZXJJbml0aWFsQmFsYW5jZSArIGxvYW5WYWx1ZSk7CiAgICAgICAgYXdhaXQgZXhwZWN0KHR4KS50by5jaGFuZ2VUb2tlbkJhbGFuY2VzKAogICAgICAgICAgdGhpcy50b2tlbiwKICAgICAgICAgIFt0aGlzLnJlY2VpdmVyLCBmbGFzaEZlZVJlY2VpdmVyQWRkcmVzc10sCiAgICAgICAgICBbLWZsYXNoRmVlLCBmbGFzaEZlZV0sCiAgICAgICAgKTsKCiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMudG9rZW4udG90YWxTdXBwbHkoKSkudG8uZXF1YWwoaW5pdGlhbFN1cHBseSArIHJlY2VpdmVySW5pdGlhbEJhbGFuY2UpOwogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLnRva2VuLmFsbG93YW5jZSh0aGlzLnJlY2VpdmVyLCBmbGFzaEZlZVJlY2VpdmVyQWRkcmVzcykpLnRvLmVxdWFsKDBuKTsKICAgICAgfSk7CiAgICB9KTsKICB9KTsKfSk7Cg==
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+const name = 'My Token';
+const symbol = 'MTKN';
+const initialSupply = 100n;
+const loanValue = 10_000_000_000_000n;
+
+async function fixture() {
+  const [holder, other] = await ethers.getSigners();
+
+  const token = await ethers.deployContract('$ERC20FlashMintMock', [name, symbol]);
+  await token.$_mint(holder, initialSupply);
+
+  return { holder, other, token };
+}
+
+describe('ERC20FlashMint', function () {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  describe('maxFlashLoan', function () {
+    it('token match', async function () {
+      expect(await this.token.maxFlashLoan(this.token)).to.equal(ethers.MaxUint256 - initialSupply);
+    });
+
+    it('token mismatch', async function () {
+      expect(await this.token.maxFlashLoan(ethers.ZeroAddress)).to.equal(0n);
+    });
+  });
+
+  describe('flashFee', function () {
+    it('token match', async function () {
+      expect(await this.token.flashFee(this.token, loanValue)).to.equal(0n);
+    });
+
+    it('token mismatch', async function () {
+      await expect(this.token.flashFee(ethers.ZeroAddress, loanValue))
+        .to.be.revertedWithCustomError(this.token, 'ERC3156UnsupportedToken')
+        .withArgs(ethers.ZeroAddress);
+    });
+  });
+
+  describe('flashFeeReceiver', function () {
+    it('default receiver', async function () {
+      expect(await this.token.$_flashFeeReceiver()).to.equal(ethers.ZeroAddress);
+    });
+  });
+
+  describe('flashLoan', function () {
+    it('success', async function () {
+      const receiver = await ethers.deployContract('ERC3156FlashBorrowerMock', [true, true]);
+
+      const tx = await this.token.flashLoan(receiver, this.token, loanValue, '0x');
+      await expect(tx)
+        .to.emit(this.token, 'Transfer')
+        .withArgs(ethers.ZeroAddress, receiver, loanValue)
+        .to.emit(this.token, 'Transfer')
+        .withArgs(receiver, ethers.ZeroAddress, loanValue)
+        .to.emit(receiver, 'BalanceOf')
+        .withArgs(this.token, receiver, loanValue)
+        .to.emit(receiver, 'TotalSupply')
+        .withArgs(this.token, initialSupply + loanValue);
+      await expect(tx).to.changeTokenBalance(this.token, receiver, 0);
+
+      expect(await this.token.totalSupply()).to.equal(initialSupply);
+      expect(await this.token.allowance(receiver, this.token)).to.equal(0n);
+    });
+
+    it('missing return value', async function () {
+      const receiver = await ethers.deployContract('ERC3156FlashBorrowerMock', [false, true]);
+      await expect(this.token.flashLoan(receiver, this.token, loanValue, '0x'))
+        .to.be.revertedWithCustomError(this.token, 'ERC3156InvalidReceiver')
+        .withArgs(receiver);
+    });
+
+    it('missing approval', async function () {
+      const receiver = await ethers.deployContract('ERC3156FlashBorrowerMock', [true, false]);
+      await expect(this.token.flashLoan(receiver, this.token, loanValue, '0x'))
+        .to.be.revertedWithCustomError(this.token, 'ERC20InsufficientAllowance')
+        .withArgs(this.token, 0, loanValue);
+    });
+
+    it('unavailable funds', async function () {
+      const receiver = await ethers.deployContract('ERC3156FlashBorrowerMock', [true, true]);
+      const data = this.token.interface.encodeFunctionData('transfer', [this.other.address, 10]);
+      await expect(this.token.flashLoan(receiver, this.token, loanValue, data))
+        .to.be.revertedWithCustomError(this.token, 'ERC20InsufficientBalance')
+        .withArgs(receiver, loanValue - 10n, loanValue);
+    });
+
+    it('more than maxFlashLoan', async function () {
+      const receiver = await ethers.deployContract('ERC3156FlashBorrowerMock', [true, true]);
+      const data = this.token.interface.encodeFunctionData('transfer', [this.other.address, 10]);
+      await expect(this.token.flashLoan(receiver, this.token, ethers.MaxUint256, data))
+        .to.be.revertedWithCustomError(this.token, 'ERC3156ExceededMaxLoan')
+        .withArgs(ethers.MaxUint256 - initialSupply);
+    });
+
+    describe('custom flash fee & custom fee receiver', function () {
+      const receiverInitialBalance = 200_000n;
+      const flashFee = 5_000n;
+
+      beforeEach('init receiver balance & set flash fee', async function () {
+        this.receiver = await ethers.deployContract('ERC3156FlashBorrowerMock', [true, true]);
+
+        const tx = await this.token.$_mint(this.receiver, receiverInitialBalance);
+        await expect(tx)
+          .to.emit(this.token, 'Transfer')
+          .withArgs(ethers.ZeroAddress, this.receiver, receiverInitialBalance);
+        await expect(tx).to.changeTokenBalance(this.token, this.receiver, receiverInitialBalance);
+
+        await this.token.setFlashFee(flashFee);
+        expect(await this.token.flashFee(this.token, loanValue)).to.equal(flashFee);
+      });
+
+      it('default flash fee receiver', async function () {
+        const tx = await this.token.flashLoan(this.receiver, this.token, loanValue, '0x');
+        await expect(tx)
+          .to.emit(this.token, 'Transfer')
+          .withArgs(ethers.ZeroAddress, this.receiver, loanValue)
+          .to.emit(this.token, 'Transfer')
+          .withArgs(this.receiver, ethers.ZeroAddress, loanValue + flashFee)
+          .to.emit(this.receiver, 'BalanceOf')
+          .withArgs(this.token, this.receiver, receiverInitialBalance + loanValue)
+          .to.emit(this.receiver, 'TotalSupply')
+          .withArgs(this.token, initialSupply + receiverInitialBalance + loanValue);
+        await expect(tx).to.changeTokenBalances(this.token, [this.receiver, ethers.ZeroAddress], [-flashFee, 0]);
+
+        expect(await this.token.totalSupply()).to.equal(initialSupply + receiverInitialBalance - flashFee);
+        expect(await this.token.allowance(this.receiver, this.token)).to.equal(0n);
+      });
+
+      it('custom flash fee receiver', async function () {
+        const flashFeeReceiverAddress = this.other;
+        await this.token.setFlashFeeReceiver(flashFeeReceiverAddress);
+        expect(await this.token.$_flashFeeReceiver()).to.equal(flashFeeReceiverAddress);
+
+        const tx = await this.token.flashLoan(this.receiver, this.token, loanValue, '0x');
+        await expect(tx)
+          .to.emit(this.token, 'Transfer')
+          .withArgs(ethers.ZeroAddress, this.receiver, loanValue)
+          .to.emit(this.token, 'Transfer')
+          .withArgs(this.receiver, ethers.ZeroAddress, loanValue)
+          .to.emit(this.token, 'Transfer')
+          .withArgs(this.receiver, flashFeeReceiverAddress, flashFee)
+          .to.emit(this.receiver, 'BalanceOf')
+          .withArgs(this.token, this.receiver, receiverInitialBalance + loanValue)
+          .to.emit(this.receiver, 'TotalSupply')
+          .withArgs(this.token, initialSupply + receiverInitialBalance + loanValue);
+        await expect(tx).to.changeTokenBalances(
+          this.token,
+          [this.receiver, flashFeeReceiverAddress],
+          [-flashFee, flashFee],
+        );
+
+        expect(await this.token.totalSupply()).to.equal(initialSupply + receiverInitialBalance);
+        expect(await this.token.allowance(this.receiver, flashFeeReceiverAddress)).to.equal(0n);
+      });
+    });
+  });
+});
