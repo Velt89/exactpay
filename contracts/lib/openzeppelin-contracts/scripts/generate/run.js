@@ -1,1 +1,58 @@
-IyEvdXNyL2Jpbi9lbnYgbm9kZQoKLy8gY29uc3QgY3AgPSByZXF1aXJlKCdjaGlsZF9wcm9jZXNzJyk7CmNvbnN0IGZzID0gcmVxdWlyZSgnZnMnKTsKY29uc3QgcGF0aCA9IHJlcXVpcmUoJ3BhdGgnKTsKY29uc3QgZm9ybWF0ID0gcmVxdWlyZSgnLi9mb3JtYXQtbGluZXMnKTsKCmZ1bmN0aW9uIGdldFZlcnNpb24ocGF0aCkgewogIHRyeSB7CiAgICByZXR1cm4gZnMucmVhZEZpbGVTeW5jKHBhdGgsICd1dGY4JykubWF0Y2goL1wvXC8gT3BlblplcHBlbGluIENvbnRyYWN0cyBcKGxhc3QgdXBkYXRlZCB2W14pXStcKS8pWzBdOwogIH0gY2F0Y2ggKGVycikgewogICAgcmV0dXJuIG51bGw7CiAgfQp9CgpmdW5jdGlvbiBnZW5lcmF0ZUZyb21UZW1wbGF0ZShmaWxlLCB0ZW1wbGF0ZSwgb3V0cHV0UHJlZml4ID0gJycpIHsKICBjb25zdCBzY3JpcHQgPSBwYXRoLnJlbGF0aXZlKHBhdGguam9pbihfX2Rpcm5hbWUsICcuLi8uLicpLCBfX2ZpbGVuYW1lKTsKICBjb25zdCBpbnB1dCA9IHBhdGguam9pbihwYXRoLmRpcm5hbWUoc2NyaXB0KSwgdGVtcGxhdGUpOwogIGNvbnN0IG91dHB1dCA9IHBhdGguam9pbihvdXRwdXRQcmVmaXgsIGZpbGUpOwogIGNvbnN0IHZlcnNpb24gPSBnZXRWZXJzaW9uKG91dHB1dCk7CiAgY29uc3QgY29udGVudCA9IGZvcm1hdCgKICAgICcvLyBTUERYLUxpY2Vuc2UtSWRlbnRpZmllcjogTUlUJywKICAgIC4uLih2ZXJzaW9uID8gW3ZlcnNpb24gKyBgICgke2ZpbGV9KWBdIDogW10pLAogICAgYC8vIFRoaXMgZmlsZSB3YXMgcHJvY2VkdXJhbGx5IGdlbmVyYXRlZCBmcm9tICR7aW5wdXR9LmAsCiAgICAnJywKICAgIHJlcXVpcmUodGVtcGxhdGUpLnRyaW1FbmQoKSwKICApOwoKICBmcy53cml0ZUZpbGVTeW5jKG91dHB1dCwgY29udGVudCk7CiAgLy8gY3AuZXhlY0ZpbGVTeW5jKCdwcmV0dGllcicsIFsnLS13cml0ZScsIG91dHB1dF0pOwp9CgovLyBDb250cmFjdHMKZm9yIChjb25zdCBbZmlsZSwgdGVtcGxhdGVdIG9mIE9iamVjdC5lbnRyaWVzKHsKICAndXRpbHMvY3J5cHRvZ3JhcGh5L01lcmtsZVByb29mLnNvbCc6ICcuL3RlbXBsYXRlcy9NZXJrbGVQcm9vZi5qcycsCiAgJ3V0aWxzL21hdGgvU2FmZUNhc3Quc29sJzogJy4vdGVtcGxhdGVzL1NhZmVDYXN0LmpzJywKICAndXRpbHMvc3RydWN0cy9DaGVja3BvaW50cy5zb2wnOiAnLi90ZW1wbGF0ZXMvQ2hlY2twb2ludHMuanMnLAogICd1dGlscy9zdHJ1Y3RzL0VudW1lcmFibGVTZXQuc29sJzogJy4vdGVtcGxhdGVzL0VudW1lcmFibGVTZXQuanMnLAogICd1dGlscy9zdHJ1Y3RzL0VudW1lcmFibGVNYXAuc29sJzogJy4vdGVtcGxhdGVzL0VudW1lcmFibGVNYXAuanMnLAogICd1dGlscy9TbG90RGVyaXZhdGlvbi5zb2wnOiAnLi90ZW1wbGF0ZXMvU2xvdERlcml2YXRpb24uanMnLAogICd1dGlscy9TdG9yYWdlU2xvdC5zb2wnOiAnLi90ZW1wbGF0ZXMvU3RvcmFnZVNsb3QuanMnLAogICd1dGlscy9UcmFuc2llbnRTbG90LnNvbCc6ICcuL3RlbXBsYXRlcy9UcmFuc2llbnRTbG90LmpzJywKICAndXRpbHMvQXJyYXlzLnNvbCc6ICcuL3RlbXBsYXRlcy9BcnJheXMuanMnLAogICd1dGlscy9QYWNraW5nLnNvbCc6ICcuL3RlbXBsYXRlcy9QYWNraW5nLmpzJywKICAnbW9ja3MvU3RvcmFnZVNsb3RNb2NrLnNvbCc6ICcuL3RlbXBsYXRlcy9TdG9yYWdlU2xvdE1vY2suanMnLAogICdtb2Nrcy9UcmFuc2llbnRTbG90TW9jay5zb2wnOiAnLi90ZW1wbGF0ZXMvVHJhbnNpZW50U2xvdE1vY2suanMnLAp9KSkgewogIGdlbmVyYXRlRnJvbVRlbXBsYXRlKGZpbGUsIHRlbXBsYXRlLCAnLi9jb250cmFjdHMvJyk7Cn0KCi8vIFRlc3RzCmZvciAoY29uc3QgW2ZpbGUsIHRlbXBsYXRlXSBvZiBPYmplY3QuZW50cmllcyh7CiAgJ3V0aWxzL3N0cnVjdHMvQ2hlY2twb2ludHMudC5zb2wnOiAnLi90ZW1wbGF0ZXMvQ2hlY2twb2ludHMudC5qcycsCiAgJ3V0aWxzL1BhY2tpbmcudC5zb2wnOiAnLi90ZW1wbGF0ZXMvUGFja2luZy50LmpzJywKICAndXRpbHMvU2xvdERlcml2YXRpb24udC5zb2wnOiAnLi90ZW1wbGF0ZXMvU2xvdERlcml2YXRpb24udC5qcycsCn0pKSB7CiAgZ2VuZXJhdGVGcm9tVGVtcGxhdGUoZmlsZSwgdGVtcGxhdGUsICcuL3Rlc3QvJyk7Cn0K
+#!/usr/bin/env node
+
+// const cp = require('child_process');
+const fs = require('fs');
+const path = require('path');
+const format = require('./format-lines');
+
+function getVersion(path) {
+  try {
+    return fs.readFileSync(path, 'utf8').match(/\/\/ OpenZeppelin Contracts \(last updated v[^)]+\)/)[0];
+  } catch (err) {
+    return null;
+  }
+}
+
+function generateFromTemplate(file, template, outputPrefix = '') {
+  const script = path.relative(path.join(__dirname, '../..'), __filename);
+  const input = path.join(path.dirname(script), template);
+  const output = path.join(outputPrefix, file);
+  const version = getVersion(output);
+  const content = format(
+    '// SPDX-License-Identifier: MIT',
+    ...(version ? [version + ` (${file})`] : []),
+    `// This file was procedurally generated from ${input}.`,
+    '',
+    require(template).trimEnd(),
+  );
+
+  fs.writeFileSync(output, content);
+  // cp.execFileSync('prettier', ['--write', output]);
+}
+
+// Contracts
+for (const [file, template] of Object.entries({
+  'utils/cryptography/MerkleProof.sol': './templates/MerkleProof.js',
+  'utils/math/SafeCast.sol': './templates/SafeCast.js',
+  'utils/structs/Checkpoints.sol': './templates/Checkpoints.js',
+  'utils/structs/EnumerableSet.sol': './templates/EnumerableSet.js',
+  'utils/structs/EnumerableMap.sol': './templates/EnumerableMap.js',
+  'utils/SlotDerivation.sol': './templates/SlotDerivation.js',
+  'utils/StorageSlot.sol': './templates/StorageSlot.js',
+  'utils/TransientSlot.sol': './templates/TransientSlot.js',
+  'utils/Arrays.sol': './templates/Arrays.js',
+  'utils/Packing.sol': './templates/Packing.js',
+  'mocks/StorageSlotMock.sol': './templates/StorageSlotMock.js',
+  'mocks/TransientSlotMock.sol': './templates/TransientSlotMock.js',
+})) {
+  generateFromTemplate(file, template, './contracts/');
+}
+
+// Tests
+for (const [file, template] of Object.entries({
+  'utils/structs/Checkpoints.t.sol': './templates/Checkpoints.t.js',
+  'utils/Packing.t.sol': './templates/Packing.t.js',
+  'utils/SlotDerivation.t.sol': './templates/SlotDerivation.t.js',
+})) {
+  generateFromTemplate(file, template, './test/');
+}
