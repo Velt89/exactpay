@@ -1,1 +1,456 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBzZXRTdG9yYWdlQXQgfSA9IHJlcXVpcmUoJ0Bub21pY2ZvdW5kYXRpb24vaGFyZGhhdC1uZXR3b3JrLWhlbHBlcnMnKTsKCmNvbnN0IHsgRVhFQ1VUSU9OX0lEX1NUT1JBR0VfU0xPVCwgRVhQSVJBVElPTiwgcHJlcGFyZU9wZXJhdGlvbiB9ID0gcmVxdWlyZSgnLi4vLi4vaGVscGVycy9hY2Nlc3MtbWFuYWdlcicpOwpjb25zdCB7IGltcGVyc29uYXRlIH0gPSByZXF1aXJlKCcuLi8uLi9oZWxwZXJzL2FjY291bnQnKTsKY29uc3QgdGltZSA9IHJlcXVpcmUoJy4uLy4uL2hlbHBlcnMvdGltZScpOwoKLy8gPT09PT09PT09PT09IENPTU1PTiBQUkVESUNBVEVTID09PT09PT09PT09PQoKY29uc3QgTElLRV9DT01NT05fSVNfRVhFQ1VUSU5HID0gewogIGV4ZWN1dGluZygpIHsKICAgIGl0KCdzdWNjZWVkcycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgdGhpcy5jYWxsZXIuc2VuZFRyYW5zYWN0aW9uKHsgdG86IHRoaXMudGFyZ2V0LCBkYXRhOiB0aGlzLmNhbGxkYXRhIH0pOwogICAgfSk7CiAgfSwKICBub3RFeGVjdXRpbmcoKSB7CiAgICBpdCgncmV2ZXJ0cyBhcyBBY2Nlc3NNYW5hZ2VyVW5hdXRob3JpemVkQWNjb3VudCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMuY2FsbGVyLnNlbmRUcmFuc2FjdGlvbih7IHRvOiB0aGlzLnRhcmdldCwgZGF0YTogdGhpcy5jYWxsZGF0YSB9KSkKICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy5tYW5hZ2VyLCAnQWNjZXNzTWFuYWdlclVuYXV0aG9yaXplZEFjY291bnQnKQogICAgICAgIC53aXRoQXJncyh0aGlzLmNhbGxlciwgdGhpcy5yb2xlLmlkKTsKICAgIH0pOwogIH0sCn07Cgpjb25zdCBMSUtFX0NPTU1PTl9HRVRfQUNDRVNTID0gewogIHJlcXVpcmVkUm9sZUlzR3JhbnRlZDogewogICAgcm9sZUdyYW50aW5nSXNEZWxheWVkOiB7CiAgICAgIGNhbGxlckhhc0FuRXhlY3V0aW9uRGVsYXk6IHsKICAgICAgICBiZWZvcmVHcmFudERlbGF5KCkgewogICAgICAgICAgaXQoJ3JldmVydHMgYXMgQWNjZXNzTWFuYWdlclVuYXV0aG9yaXplZEFjY291bnQnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLmNhbGxlci5zZW5kVHJhbnNhY3Rpb24oeyB0bzogdGhpcy50YXJnZXQsIGRhdGE6IHRoaXMuY2FsbGRhdGEgfSkpCiAgICAgICAgICAgICAgLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMubWFuYWdlciwgJ0FjY2Vzc01hbmFnZXJVbmF1dGhvcml6ZWRBY2NvdW50JykKICAgICAgICAgICAgICAud2l0aEFyZ3ModGhpcy5jYWxsZXIsIHRoaXMucm9sZS5pZCk7CiAgICAgICAgICB9KTsKICAgICAgICB9LAogICAgICAgIGFmdGVyR3JhbnREZWxheTogdW5kZWZpbmVkLCAvLyBEaXZlcmdlcyBpZiB0aGVyZSdzIGFuIG9wZXJhdGlvbiBkZWxheSBvciBub3QKICAgICAgfSwKICAgICAgY2FsbGVySGFzTm9FeGVjdXRpb25EZWxheTogewogICAgICAgIGJlZm9yZUdyYW50RGVsYXkoKSB7CiAgICAgICAgICBpdCgncmV2ZXJ0cyBhcyBBY2Nlc3NNYW5hZ2VyVW5hdXRob3JpemVkQWNjb3VudCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMuY2FsbGVyLnNlbmRUcmFuc2FjdGlvbih7IHRvOiB0aGlzLnRhcmdldCwgZGF0YTogdGhpcy5jYWxsZGF0YSB9KSkKICAgICAgICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy5tYW5hZ2VyLCAnQWNjZXNzTWFuYWdlclVuYXV0aG9yaXplZEFjY291bnQnKQogICAgICAgICAgICAgIC53aXRoQXJncyh0aGlzLmNhbGxlciwgdGhpcy5yb2xlLmlkKTsKICAgICAgICAgIH0pOwogICAgICAgIH0sCiAgICAgICAgYWZ0ZXJHcmFudERlbGF5KCkgewogICAgICAgICAgaXQoJ3N1Y2NlZWRzIGNhbGxlZCBkaXJlY3RseScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgICAgYXdhaXQgdGhpcy5jYWxsZXIuc2VuZFRyYW5zYWN0aW9uKHsgdG86IHRoaXMudGFyZ2V0LCBkYXRhOiB0aGlzLmNhbGxkYXRhIH0pOwogICAgICAgICAgfSk7CgogICAgICAgICAgaXQoJ3N1Y2NlZWRzIHZpYSBleGVjdXRlJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgICBhd2FpdCB0aGlzLm1hbmFnZXIuY29ubmVjdCh0aGlzLmNhbGxlcikuZXhlY3V0ZSh0aGlzLnRhcmdldCwgdGhpcy5jYWxsZGF0YSk7CiAgICAgICAgICB9KTsKICAgICAgICB9LAogICAgICB9LAogICAgfSwKICAgIHJvbGVHcmFudGluZ0lzTm90RGVsYXllZDogewogICAgICBjYWxsZXJIYXNBbkV4ZWN1dGlvbkRlbGF5OiB1bmRlZmluZWQsIC8vIERpdmVyZ2VzIGlmIHRoZXJlJ3MgYW4gb3BlcmF0aW9uIHRvIHNjaGVkdWxlIG9yIG5vdAogICAgICBjYWxsZXJIYXNOb0V4ZWN1dGlvbkRlbGF5KCkgewogICAgICAgIGl0KCdzdWNjZWVkcyBjYWxsZWQgZGlyZWN0bHknLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICBhd2FpdCB0aGlzLmNhbGxlci5zZW5kVHJhbnNhY3Rpb24oeyB0bzogdGhpcy50YXJnZXQsIGRhdGE6IHRoaXMuY2FsbGRhdGEgfSk7CiAgICAgICAgfSk7CgogICAgICAgIGl0KCdzdWNjZWVkcyB2aWEgZXhlY3V0ZScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGF3YWl0IHRoaXMubWFuYWdlci5jb25uZWN0KHRoaXMuY2FsbGVyKS5leGVjdXRlKHRoaXMudGFyZ2V0LCB0aGlzLmNhbGxkYXRhKTsKICAgICAgICB9KTsKICAgICAgfSwKICAgIH0sCiAgfSwKICByZXF1aXJlZFJvbGVJc05vdEdyYW50ZWQoKSB7CiAgICBpdCgncmV2ZXJ0cyBhcyBBY2Nlc3NNYW5hZ2VyVW5hdXRob3JpemVkQWNjb3VudCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMuY2FsbGVyLnNlbmRUcmFuc2FjdGlvbih7IHRvOiB0aGlzLnRhcmdldCwgZGF0YTogdGhpcy5jYWxsZGF0YSB9KSkKICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy5tYW5hZ2VyLCAnQWNjZXNzTWFuYWdlclVuYXV0aG9yaXplZEFjY291bnQnKQogICAgICAgIC53aXRoQXJncyh0aGlzLmNhbGxlciwgdGhpcy5yb2xlLmlkKTsKICAgIH0pOwogIH0sCn07Cgpjb25zdCBMSUtFX0NPTU1PTl9TQ0hFRFVMQUJMRSA9IHsKICBzY2hlZHVsZWQ6IHsKICAgIGJlZm9yZSgpIHsKICAgICAgaXQoJ3JldmVydHMgYXMgQWNjZXNzTWFuYWdlck5vdFJlYWR5JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLmNhbGxlci5zZW5kVHJhbnNhY3Rpb24oeyB0bzogdGhpcy50YXJnZXQsIGRhdGE6IHRoaXMuY2FsbGRhdGEgfSkpCiAgICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy5tYW5hZ2VyLCAnQWNjZXNzTWFuYWdlck5vdFJlYWR5JykKICAgICAgICAgIC53aXRoQXJncyh0aGlzLm9wZXJhdGlvbklkKTsKICAgICAgfSk7CiAgICB9LAogICAgYWZ0ZXIoKSB7CiAgICAgIGl0KCdzdWNjZWVkcyBjYWxsZWQgZGlyZWN0bHknLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgYXdhaXQgdGhpcy5jYWxsZXIuc2VuZFRyYW5zYWN0aW9uKHsgdG86IHRoaXMudGFyZ2V0LCBkYXRhOiB0aGlzLmNhbGxkYXRhIH0pOwogICAgICB9KTsKCiAgICAgIGl0KCdzdWNjZWVkcyB2aWEgZXhlY3V0ZScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBhd2FpdCB0aGlzLm1hbmFnZXIuY29ubmVjdCh0aGlzLmNhbGxlcikuZXhlY3V0ZSh0aGlzLnRhcmdldCwgdGhpcy5jYWxsZGF0YSk7CiAgICAgIH0pOwogICAgfSwKICAgIGV4cGlyZWQoKSB7CiAgICAgIGl0KCdyZXZlcnRzIGFzIEFjY2Vzc01hbmFnZXJFeHBpcmVkJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLmNhbGxlci5zZW5kVHJhbnNhY3Rpb24oeyB0bzogdGhpcy50YXJnZXQsIGRhdGE6IHRoaXMuY2FsbGRhdGEgfSkpCiAgICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy5tYW5hZ2VyLCAnQWNjZXNzTWFuYWdlckV4cGlyZWQnKQogICAgICAgICAgLndpdGhBcmdzKHRoaXMub3BlcmF0aW9uSWQpOwogICAgICB9KTsKICAgIH0sCiAgfSwKICBub3RTY2hlZHVsZWQoKSB7CiAgICBpdCgncmV2ZXJ0cyBhcyBBY2Nlc3NNYW5hZ2VyTm90U2NoZWR1bGVkJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCBleHBlY3QodGhpcy5jYWxsZXIuc2VuZFRyYW5zYWN0aW9uKHsgdG86IHRoaXMudGFyZ2V0LCBkYXRhOiB0aGlzLmNhbGxkYXRhIH0pKQogICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLm1hbmFnZXIsICdBY2Nlc3NNYW5hZ2VyTm90U2NoZWR1bGVkJykKICAgICAgICAud2l0aEFyZ3ModGhpcy5vcGVyYXRpb25JZCk7CiAgICB9KTsKICB9LAp9OwoKLy8gPT09PT09PT09PT09IE1PREUgPT09PT09PT09PT09CgovKioKICogQHJlcXVpcmVzIHRoaXMue21hbmFnZXIsdGFyZ2V0fQogKi8KZnVuY3Rpb24gdGVzdEFzQ2xvc2FibGUoeyBjbG9zZWQsIG9wZW4gfSkgewogIGRlc2NyaWJlKCd3aGVuIHRoZSBtYW5hZ2VyIGlzIGNsb3NlZCcsIGZ1bmN0aW9uICgpIHsKICAgIGJlZm9yZUVhY2goJ2Nsb3NlJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCB0aGlzLm1hbmFnZXIuJF9zZXRUYXJnZXRDbG9zZWQodGhpcy50YXJnZXQsIHRydWUpOwogICAgfSk7CgogICAgY2xvc2VkKCk7CiAgfSk7CgogIGRlc2NyaWJlKCd3aGVuIHRoZSBtYW5hZ2VyIGlzIG9wZW4nLCBmdW5jdGlvbiAoKSB7CiAgICBiZWZvcmVFYWNoKCdvcGVuJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCB0aGlzLm1hbmFnZXIuJF9zZXRUYXJnZXRDbG9zZWQodGhpcy50YXJnZXQsIGZhbHNlKTsKICAgIH0pOwoKICAgIG9wZW4oKTsKICB9KTsKfQoKLy8gPT09PT09PT09PT09IERFTEFZID09PT09PT09PT09PQoKLyoqCiAqIEByZXF1aXJlcyB0aGlzLntkZWxheX0KICovCmZ1bmN0aW9uIHRlc3RBc0RlbGF5KHR5cGUsIHsgYmVmb3JlLCBhZnRlciB9KSB7CiAgYmVmb3JlRWFjaCgnZGVmaW5lIHRpbWVzdGFtcCB3aGVuIGRlbGF5IHRha2VzIGVmZmVjdCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgIGNvbnN0IHRpbWVzdGFtcCA9IGF3YWl0IHRpbWUuY2xvY2sudGltZXN0YW1wKCk7CiAgICB0aGlzLmRlbGF5RWZmZWN0ID0gdGltZXN0YW1wICsgdGhpcy5kZWxheTsKICB9KTsKCiAgZGVzY3JpYmUoYHdoZW4gJHt0eXBlfSBkZWxheSBoYXMgbm90IHRha2VuIGVmZmVjdCB5ZXRgLCBmdW5jdGlvbiAoKSB7CiAgICBiZWZvcmVFYWNoKGBzZXQgbmV4dCBibG9jayB0aW1lc3RhbXAgYmVmb3JlICR7dHlwZX0gdGFrZXMgZWZmZWN0YCwgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCB0aW1lLmluY3JlYXNlVG8udGltZXN0YW1wKHRoaXMuZGVsYXlFZmZlY3QgLSAxbiwgISFiZWZvcmUubWluZURlbGF5KTsKICAgIH0pOwoKICAgIGJlZm9yZSgpOwogIH0pOwoKICBkZXNjcmliZShgd2hlbiAke3R5cGV9IGRlbGF5IGhhcyB0YWtlbiBlZmZlY3RgLCBmdW5jdGlvbiAoKSB7CiAgICBiZWZvcmVFYWNoKGBzZXQgbmV4dCBibG9jayB0aW1lc3RhbXAgd2hlbiAke3R5cGV9IHRha2VzIGVmZmVjdGAsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgdGltZS5pbmNyZWFzZVRvLnRpbWVzdGFtcCh0aGlzLmRlbGF5RWZmZWN0LCAhIWFmdGVyLm1pbmVEZWxheSk7CiAgICB9KTsKCiAgICBhZnRlcigpOwogIH0pOwp9CgovLyA9PT09PT09PT09PT0gT1BFUkFUSU9OID09PT09PT09PT09PQoKLyoqCiAqIEByZXF1aXJlcyB0aGlzLnttYW5hZ2VyLHNjaGVkdWxlSW4sY2FsbGVyLHRhcmdldCxjYWxsZGF0YX0KICovCmZ1bmN0aW9uIHRlc3RBc1NjaGVkdWxhYmxlT3BlcmF0aW9uKHsgc2NoZWR1bGVkOiB7IGJlZm9yZSwgYWZ0ZXIsIGV4cGlyZWQgfSwgbm90U2NoZWR1bGVkIH0pIHsKICBkZXNjcmliZSgnd2hlbiBvcGVyYXRpb24gaXMgc2NoZWR1bGVkJywgZnVuY3Rpb24gKCkgewogICAgYmVmb3JlRWFjaCgnc2NoZWR1bGUgb3BlcmF0aW9uJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBpZiAodGhpcy5jYWxsZXIudGFyZ2V0KSB7CiAgICAgICAgYXdhaXQgaW1wZXJzb25hdGUodGhpcy5jYWxsZXIudGFyZ2V0KTsKICAgICAgICB0aGlzLmNhbGxlciA9IGF3YWl0IGV0aGVycy5nZXRTaWduZXIodGhpcy5jYWxsZXIudGFyZ2V0KTsKICAgICAgfQogICAgICBjb25zdCB7IG9wZXJhdGlvbklkLCBzY2hlZHVsZSB9ID0gYXdhaXQgcHJlcGFyZU9wZXJhdGlvbih0aGlzLm1hbmFnZXIsIHsKICAgICAgICBjYWxsZXI6IHRoaXMuY2FsbGVyLAogICAgICAgIHRhcmdldDogdGhpcy50YXJnZXQsCiAgICAgICAgY2FsbGRhdGE6IHRoaXMuY2FsbGRhdGEsCiAgICAgICAgZGVsYXk6IHRoaXMuc2NoZWR1bGVJbiwKICAgICAgfSk7CiAgICAgIGF3YWl0IHNjaGVkdWxlKCk7CiAgICAgIHRoaXMub3BlcmF0aW9uSWQgPSBvcGVyYXRpb25JZDsKICAgIH0pOwoKICAgIGRlc2NyaWJlKCd3aGVuIG9wZXJhdGlvbiBpcyBub3QgcmVhZHkgZm9yIGV4ZWN1dGlvbicsIGZ1bmN0aW9uICgpIHsKICAgICAgYmVmb3JlRWFjaCgnc2V0IG5leHQgYmxvY2sgdGltZSBiZWZvcmUgb3BlcmF0aW9uIGlzIHJlYWR5JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIHRoaXMuc2NoZWR1bGVkQXQgPSBhd2FpdCB0aW1lLmNsb2NrLnRpbWVzdGFtcCgpOwogICAgICAgIGNvbnN0IHNjaGVkdWxlID0gYXdhaXQgdGhpcy5tYW5hZ2VyLmdldFNjaGVkdWxlKHRoaXMub3BlcmF0aW9uSWQpOwogICAgICAgIGF3YWl0IHRpbWUuaW5jcmVhc2VUby50aW1lc3RhbXAoc2NoZWR1bGUgLSAxbiwgISFiZWZvcmUubWluZURlbGF5KTsKICAgICAgfSk7CgogICAgICBiZWZvcmUoKTsKICAgIH0pOwoKICAgIGRlc2NyaWJlKCd3aGVuIG9wZXJhdGlvbiBpcyByZWFkeSBmb3IgZXhlY3V0aW9uJywgZnVuY3Rpb24gKCkgewogICAgICBiZWZvcmVFYWNoKCdzZXQgbmV4dCBibG9jayB0aW1lIHdoZW4gb3BlcmF0aW9uIGlzIHJlYWR5IGZvciBleGVjdXRpb24nLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgdGhpcy5zY2hlZHVsZWRBdCA9IGF3YWl0IHRpbWUuY2xvY2sudGltZXN0YW1wKCk7CiAgICAgICAgY29uc3Qgc2NoZWR1bGUgPSBhd2FpdCB0aGlzLm1hbmFnZXIuZ2V0U2NoZWR1bGUodGhpcy5vcGVyYXRpb25JZCk7CiAgICAgICAgYXdhaXQgdGltZS5pbmNyZWFzZVRvLnRpbWVzdGFtcChzY2hlZHVsZSwgISFhZnRlci5taW5lRGVsYXkpOwogICAgICB9KTsKCiAgICAgIGFmdGVyKCk7CiAgICB9KTsKCiAgICBkZXNjcmliZSgnd2hlbiBvcGVyYXRpb24gaGFzIGV4cGlyZWQnLCBmdW5jdGlvbiAoKSB7CiAgICAgIGJlZm9yZUVhY2goJ3NldCBuZXh0IGJsb2NrIHRpbWUgd2hlbiBvcGVyYXRpb24gZXhwaXJlZCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICB0aGlzLnNjaGVkdWxlZEF0ID0gYXdhaXQgdGltZS5jbG9jay50aW1lc3RhbXAoKTsKICAgICAgICBjb25zdCBzY2hlZHVsZSA9IGF3YWl0IHRoaXMubWFuYWdlci5nZXRTY2hlZHVsZSh0aGlzLm9wZXJhdGlvbklkKTsKICAgICAgICBhd2FpdCB0aW1lLmluY3JlYXNlVG8udGltZXN0YW1wKHNjaGVkdWxlICsgRVhQSVJBVElPTiwgISFleHBpcmVkLm1pbmVEZWxheSk7CiAgICAgIH0pOwoKICAgICAgZXhwaXJlZCgpOwogICAgfSk7CiAgfSk7CgogIGRlc2NyaWJlKCd3aGVuIG9wZXJhdGlvbiBpcyBub3Qgc2NoZWR1bGVkJywgZnVuY3Rpb24gKCkgewogICAgYmVmb3JlRWFjaCgnc2V0IGV4cGVjdGVkIG9wZXJhdGlvbklkJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICB0aGlzLm9wZXJhdGlvbklkID0gYXdhaXQgdGhpcy5tYW5hZ2VyLmhhc2hPcGVyYXRpb24odGhpcy5jYWxsZXIsIHRoaXMudGFyZ2V0LCB0aGlzLmNhbGxkYXRhKTsKCiAgICAgIC8vIEFzc2VydCBvcGVyYXRpb24gaXMgbm90IHNjaGVkdWxlZAogICAgICBleHBlY3QoYXdhaXQgdGhpcy5tYW5hZ2VyLmdldFNjaGVkdWxlKHRoaXMub3BlcmF0aW9uSWQpKS50by5lcXVhbCgwbik7CiAgICB9KTsKCiAgICBub3RTY2hlZHVsZWQoKTsKICB9KTsKfQoKLyoqCiAqIEByZXF1aXJlcyB0aGlzLnttYW5hZ2VyLHJvbGVzLHRhcmdldCxjYWxsZGF0YX0KICovCmZ1bmN0aW9uIHRlc3RBc1Jlc3RyaWN0ZWRPcGVyYXRpb24oeyBjYWxsZXJJc1RoZU1hbmFnZXI6IHsgZXhlY3V0aW5nLCBub3RFeGVjdXRpbmcgfSwgY2FsbGVySXNOb3RUaGVNYW5hZ2VyIH0pIHsKICBkZXNjcmliZSgnd2hlbiB0aGUgY2FsbCBjb21lcyBmcm9tIHRoZSBtYW5hZ2VyIChtc2cuc2VuZGVyID09IG1hbmFnZXIpJywgZnVuY3Rpb24gKCkgewogICAgYmVmb3JlRWFjaCgnZGVmaW5lIGNhbGxlciBhcyBtYW5hZ2VyJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICB0aGlzLmNhbGxlciA9IHRoaXMubWFuYWdlcjsKICAgICAgaWYgKHRoaXMuY2FsbGVyLnRhcmdldCkgewogICAgICAgIGF3YWl0IGltcGVyc29uYXRlKHRoaXMuY2FsbGVyLnRhcmdldCk7CiAgICAgICAgdGhpcy5jYWxsZXIgPSBhd2FpdCBldGhlcnMuZ2V0U2lnbmVyKHRoaXMuY2FsbGVyLnRhcmdldCk7CiAgICAgIH0KICAgIH0pOwoKICAgIGRlc2NyaWJlKCd3aGVuIF9leGVjdXRpb25JZCBpcyBpbiBzdG9yYWdlIGZvciB0YXJnZXQgYW5kIHNlbGVjdG9yJywgZnVuY3Rpb24gKCkgewogICAgICBiZWZvcmVFYWNoKCdzZXQgX2V4ZWN1dGlvbklkIGZsYWcgZnJvbSBjYWxsZGF0YSBhbmQgdGFyZ2V0JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGNvbnN0IGV4ZWN1dGlvbklkID0gZXRoZXJzLmtlY2NhazI1NigKICAgICAgICAgIGV0aGVycy5BYmlDb2Rlci5kZWZhdWx0QWJpQ29kZXIoKS5lbmNvZGUoCiAgICAgICAgICAgIFsnYWRkcmVzcycsICdieXRlczQnXSwKICAgICAgICAgICAgW3RoaXMudGFyZ2V0LnRhcmdldCwgdGhpcy5jYWxsZGF0YS5zdWJzdHJpbmcoMCwgMTApXSwKICAgICAgICAgICksCiAgICAgICAgKTsKICAgICAgICBhd2FpdCBzZXRTdG9yYWdlQXQodGhpcy5tYW5hZ2VyLnRhcmdldCwgRVhFQ1VUSU9OX0lEX1NUT1JBR0VfU0xPVCwgZXhlY3V0aW9uSWQpOwogICAgICB9KTsKCiAgICAgIGV4ZWN1dGluZygpOwogICAgfSk7CgogICAgZGVzY3JpYmUoJ3doZW4gX2V4ZWN1dGlvbklkIGRvZXMgbm90IG1hdGNoIHRhcmdldCBhbmQgc2VsZWN0b3InLCBub3RFeGVjdXRpbmcpOwogIH0pOwoKICBkZXNjcmliZSgnd2hlbiB0aGUgY2FsbCBkb2VzIG5vdCBjb21lIGZyb20gdGhlIG1hbmFnZXIgKG1zZy5zZW5kZXIgIT0gbWFuYWdlciknLCBmdW5jdGlvbiAoKSB7CiAgICBiZWZvcmVFYWNoKCdkZWZpbmUgbm9uIG1hbmFnZXIgY2FsbGVyJywgZnVuY3Rpb24gKCkgewogICAgICB0aGlzLmNhbGxlciA9IHRoaXMucm9sZXMuU09NRS5tZW1iZXJzWzBdOwogICAgfSk7CgogICAgY2FsbGVySXNOb3RUaGVNYW5hZ2VyKCk7CiAgfSk7Cn0KCi8qKgogKiBAcmVxdWlyZXMgdGhpcy57bWFuYWdlcixzY2hlZHVsZUluLGNhbGxlcix0YXJnZXQsY2FsbGRhdGEsZXhlY3V0aW9uRGVsYXl9CiAqLwpmdW5jdGlvbiB0ZXN0QXNEZWxheWVkT3BlcmF0aW9uKCkgewogIGRlc2NyaWJlKCd3aXRoIG9wZXJhdGlvbiBkZWxheScsIGZ1bmN0aW9uICgpIHsKICAgIGRlc2NyaWJlKCd3aGVuIG9wZXJhdGlvbiBkZWxheSBpcyBncmVhdGVyIHRoYW4gZXhlY3V0aW9uIGRlbGF5JywgZnVuY3Rpb24gKCkgewogICAgICBiZWZvcmVFYWNoKCdzZXQgb3BlcmF0aW9uIGRlbGF5JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIHRoaXMub3BlcmF0aW9uRGVsYXkgPSB0aGlzLmV4ZWN1dGlvbkRlbGF5ICsgdGltZS5kdXJhdGlvbi5ob3VycygxKTsKICAgICAgICBhd2FpdCB0aGlzLm1hbmFnZXIuJF9zZXRUYXJnZXRBZG1pbkRlbGF5KHRoaXMudGFyZ2V0LCB0aGlzLm9wZXJhdGlvbkRlbGF5KTsKICAgICAgICB0aGlzLnNjaGVkdWxlSW4gPSB0aGlzLm9wZXJhdGlvbkRlbGF5OyAvLyBGb3IgdGVzdEFzU2NoZWR1bGFibGVPcGVyYXRpb24KICAgICAgfSk7CgogICAgICB0ZXN0QXNTY2hlZHVsYWJsZU9wZXJhdGlvbihMSUtFX0NPTU1PTl9TQ0hFRFVMQUJMRSk7CiAgICB9KTsKCiAgICBkZXNjcmliZSgnd2hlbiBvcGVyYXRpb24gZGVsYXkgaXMgc2hvcnRlciB0aGFuIGV4ZWN1dGlvbiBkZWxheScsIGZ1bmN0aW9uICgpIHsKICAgICAgYmVmb3JlRWFjaCgnc2V0IG9wZXJhdGlvbiBkZWxheScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICB0aGlzLm9wZXJhdGlvbkRlbGF5ID0gdGhpcy5leGVjdXRpb25EZWxheSAtIHRpbWUuZHVyYXRpb24uaG91cnMoMSk7CiAgICAgICAgYXdhaXQgdGhpcy5tYW5hZ2VyLiRfc2V0VGFyZ2V0QWRtaW5EZWxheSh0aGlzLnRhcmdldCwgdGhpcy5vcGVyYXRpb25EZWxheSk7CiAgICAgICAgdGhpcy5zY2hlZHVsZUluID0gdGhpcy5leGVjdXRpb25EZWxheTsgLy8gRm9yIHRlc3RBc1NjaGVkdWxhYmxlT3BlcmF0aW9uCiAgICAgIH0pOwoKICAgICAgdGVzdEFzU2NoZWR1bGFibGVPcGVyYXRpb24oTElLRV9DT01NT05fU0NIRURVTEFCTEUpOwogICAgfSk7CiAgfSk7CgogIGRlc2NyaWJlKCd3aXRob3V0IG9wZXJhdGlvbiBkZWxheScsIGZ1bmN0aW9uICgpIHsKICAgIGJlZm9yZUVhY2goJ3NldCBvcGVyYXRpb24gZGVsYXknLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIHRoaXMub3BlcmF0aW9uRGVsYXkgPSAwbjsKICAgICAgYXdhaXQgdGhpcy5tYW5hZ2VyLiRfc2V0VGFyZ2V0QWRtaW5EZWxheSh0aGlzLnRhcmdldCwgdGhpcy5vcGVyYXRpb25EZWxheSk7CiAgICAgIHRoaXMuc2NoZWR1bGVJbiA9IHRoaXMuZXhlY3V0aW9uRGVsYXk7IC8vIEZvciB0ZXN0QXNTY2hlZHVsYWJsZU9wZXJhdGlvbgogICAgfSk7CgogICAgdGVzdEFzU2NoZWR1bGFibGVPcGVyYXRpb24oTElLRV9DT01NT05fU0NIRURVTEFCTEUpOwogIH0pOwp9CgovLyA9PT09PT09PT09PT0gTUVUSE9EID09PT09PT09PT09PQoKLyoqCiAqIEByZXF1aXJlcyB0aGlzLnttYW5hZ2VyLHJvbGVzLHJvbGUsdGFyZ2V0LGNhbGxkYXRhfQogKi8KZnVuY3Rpb24gdGVzdEFzQ2FuQ2FsbCh7CiAgY2xvc2VkLAogIG9wZW46IHsKICAgIGNhbGxlcklzVGhlTWFuYWdlciwKICAgIGNhbGxlcklzTm90VGhlTWFuYWdlcjogeyBwdWJsaWNSb2xlSXNSZXF1aXJlZCwgc3BlY2lmaWNSb2xlSXNSZXF1aXJlZCB9LAogIH0sCn0pIHsKICB0ZXN0QXNDbG9zYWJsZSh7CiAgICBjbG9zZWQsCiAgICBvcGVuKCkgewogICAgICB0ZXN0QXNSZXN0cmljdGVkT3BlcmF0aW9uKHsKICAgICAgICBjYWxsZXJJc1RoZU1hbmFnZXIsCiAgICAgICAgY2FsbGVySXNOb3RUaGVNYW5hZ2VyKCkgewogICAgICAgICAgdGVzdEFzSGFzUm9sZSh7CiAgICAgICAgICAgIHB1YmxpY1JvbGVJc1JlcXVpcmVkLAogICAgICAgICAgICBzcGVjaWZpY1JvbGVJc1JlcXVpcmVkLAogICAgICAgICAgfSk7CiAgICAgICAgfSwKICAgICAgfSk7CiAgICB9LAogIH0pOwp9CgovKioKICogQHJlcXVpcmVzIHRoaXMue3RhcmdldCxjYWxsZGF0YSxyb2xlcyxyb2xlfQogKi8KZnVuY3Rpb24gdGVzdEFzSGFzUm9sZSh7IHB1YmxpY1JvbGVJc1JlcXVpcmVkLCBzcGVjaWZpY1JvbGVJc1JlcXVpcmVkIH0pIHsKICBkZXNjcmliZSgnd2hlbiB0aGUgZnVuY3Rpb24gcmVxdWlyZXMgdGhlIGNhbGxlciB0byBiZSBncmFudGVkIHdpdGggdGhlIFBVQkxJQ19ST0xFJywgZnVuY3Rpb24gKCkgewogICAgYmVmb3JlRWFjaCgnc2V0IHRhcmdldCBmdW5jdGlvbiByb2xlIGFzIFBVQkxJQ19ST0xFJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICB0aGlzLnJvbGUgPSB0aGlzLnJvbGVzLlBVQkxJQzsKICAgICAgYXdhaXQgdGhpcy5tYW5hZ2VyCiAgICAgICAgLmNvbm5lY3QodGhpcy5yb2xlcy5BRE1JTi5tZW1iZXJzWzBdKQogICAgICAgIC4kX3NldFRhcmdldEZ1bmN0aW9uUm9sZSh0aGlzLnRhcmdldCwgdGhpcy5jYWxsZGF0YS5zdWJzdHJpbmcoMCwgMTApLCB0aGlzLnJvbGUuaWQpOwogICAgfSk7CgogICAgcHVibGljUm9sZUlzUmVxdWlyZWQoKTsKICB9KTsKCiAgZGVzY3JpYmUoJ3doZW4gdGhlIGZ1bmN0aW9uIHJlcXVpcmVzIHRoZSBjYWxsZXIgdG8gYmUgZ3JhbnRlZCB3aXRoIGEgcm9sZSBvdGhlciB0aGFuIFBVQkxJQ19ST0xFJywgZnVuY3Rpb24gKCkgewogICAgYmVmb3JlRWFjaCgnc2V0IHRhcmdldCBmdW5jdGlvbiByb2xlIGFzIFBVQkxJQ19ST0xFJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCB0aGlzLm1hbmFnZXIKICAgICAgICAuY29ubmVjdCh0aGlzLnJvbGVzLkFETUlOLm1lbWJlcnNbMF0pCiAgICAgICAgLiRfc2V0VGFyZ2V0RnVuY3Rpb25Sb2xlKHRoaXMudGFyZ2V0LCB0aGlzLmNhbGxkYXRhLnN1YnN0cmluZygwLCAxMCksIHRoaXMucm9sZS5pZCk7CiAgICB9KTsKCiAgICB0ZXN0QXNHZXRBY2Nlc3Moc3BlY2lmaWNSb2xlSXNSZXF1aXJlZCk7CiAgfSk7Cn0KCi8qKgogKiBAcmVxdWlyZXMgdGhpcy57bWFuYWdlcixyb2xlLGNhbGxlcn0KICovCmZ1bmN0aW9uIHRlc3RBc0dldEFjY2Vzcyh7CiAgcmVxdWlyZWRSb2xlSXNHcmFudGVkOiB7CiAgICByb2xlR3JhbnRpbmdJc0RlbGF5ZWQ6IHsKICAgICAgLy8gQmVjYXVzZSBib3RoIGdyYW50IGFuZCBleGVjdXRpb24gZGVsYXkgYXJlIHNldCB3aXRoaW4gdGhlIHNhbWUgJF9ncmFudFJvbGUgY2FsbAogICAgICAvLyBpdCdzIG5vdCBwb3NzaWJsZSB0byBjcmVhdGUgYSBzZXQgb2YgdGVzdHMgdGhhdCBkaXZlcmdlIGJldHdlZW4gZ3JhbnQgYW5kIGV4ZWN1dGlvbiBkZWxheS4KICAgICAgLy8gVGhlcmVmb3JlLCB0aGUgdGVzdEFzRGVsYXkgYXJndW1lbnRzIGFyZSByZW5hbWVkIGZvciBjbGFyaXR5OgogICAgICAvLyBiZWZvcmUgPT4gYmVmb3JlR3JhbnREZWxheQogICAgICAvLyBhZnRlciA9PiBhZnRlckdyYW50RGVsYXkKICAgICAgY2FsbGVySGFzQW5FeGVjdXRpb25EZWxheTogeyBiZWZvcmVHcmFudERlbGF5OiBjYXNlMSwgYWZ0ZXJHcmFudERlbGF5OiBjYXNlMiB9LAogICAgICBjYWxsZXJIYXNOb0V4ZWN1dGlvbkRlbGF5OiB7IGJlZm9yZUdyYW50RGVsYXk6IGNhc2UzLCBhZnRlckdyYW50RGVsYXk6IGNhc2U0IH0sCiAgICB9LAogICAgcm9sZUdyYW50aW5nSXNOb3REZWxheWVkOiB7IGNhbGxlckhhc0FuRXhlY3V0aW9uRGVsYXk6IGNhc2U1LCBjYWxsZXJIYXNOb0V4ZWN1dGlvbkRlbGF5OiBjYXNlNiB9LAogIH0sCiAgcmVxdWlyZWRSb2xlSXNOb3RHcmFudGVkLAp9KSB7CiAgZGVzY3JpYmUoJ3doZW4gdGhlIHJlcXVpcmVkIHJvbGUgaXMgZ3JhbnRlZCB0byB0aGUgY2FsbGVyJywgZnVuY3Rpb24gKCkgewogICAgZGVzY3JpYmUoJ3doZW4gcm9sZSBncmFudGluZyBpcyBkZWxheWVkJywgZnVuY3Rpb24gKCkgewogICAgICBiZWZvcmVFYWNoKCdkZWZpbmUgZGVsYXknLCBmdW5jdGlvbiAoKSB7CiAgICAgICAgdGhpcy5ncmFudERlbGF5ID0gdGltZS5kdXJhdGlvbi5taW51dGVzKDMpOwogICAgICAgIHRoaXMuZGVsYXkgPSB0aGlzLmdyYW50RGVsYXk7IC8vIEZvciB0ZXN0QXNEZWxheQogICAgICB9KTsKCiAgICAgIGRlc2NyaWJlKCd3aGVuIGNhbGxlciBoYXMgYW4gZXhlY3V0aW9uIGRlbGF5JywgZnVuY3Rpb24gKCkgewogICAgICAgIGJlZm9yZUVhY2goJ3NldCByb2xlIGFuZCBkZWxheScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIHRoaXMuZXhlY3V0aW9uRGVsYXkgPSB0aW1lLmR1cmF0aW9uLmhvdXJzKDEwKTsKICAgICAgICAgIHRoaXMuZGVsYXkgPSB0aGlzLmdyYW50RGVsYXk7CiAgICAgICAgICBhd2FpdCB0aGlzLm1hbmFnZXIuJF9ncmFudFJvbGUodGhpcy5yb2xlLmlkLCB0aGlzLmNhbGxlciwgdGhpcy5ncmFudERlbGF5LCB0aGlzLmV4ZWN1dGlvbkRlbGF5KTsKICAgICAgICB9KTsKCiAgICAgICAgdGVzdEFzRGVsYXkoJ2dyYW50JywgeyBiZWZvcmU6IGNhc2UxLCBhZnRlcjogY2FzZTIgfSk7CiAgICAgIH0pOwoKICAgICAgZGVzY3JpYmUoJ3doZW4gY2FsbGVyIGhhcyBubyBleGVjdXRpb24gZGVsYXknLCBmdW5jdGlvbiAoKSB7CiAgICAgICAgYmVmb3JlRWFjaCgnc2V0IHJvbGUgYW5kIGRlbGF5JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgdGhpcy5leGVjdXRpb25EZWxheSA9IDBuOwogICAgICAgICAgYXdhaXQgdGhpcy5tYW5hZ2VyLiRfZ3JhbnRSb2xlKHRoaXMucm9sZS5pZCwgdGhpcy5jYWxsZXIsIHRoaXMuZ3JhbnREZWxheSwgdGhpcy5leGVjdXRpb25EZWxheSk7CiAgICAgICAgfSk7CgogICAgICAgIHRlc3RBc0RlbGF5KCdncmFudCcsIHsgYmVmb3JlOiBjYXNlMywgYWZ0ZXI6IGNhc2U0IH0pOwogICAgICB9KTsKICAgIH0pOwoKICAgIGRlc2NyaWJlKCd3aGVuIHJvbGUgZ3JhbnRpbmcgaXMgbm90IGRlbGF5ZWQnLCBmdW5jdGlvbiAoKSB7CiAgICAgIGJlZm9yZUVhY2goJ2RlZmluZSBkZWxheScsIGZ1bmN0aW9uICgpIHsKICAgICAgICB0aGlzLmdyYW50RGVsYXkgPSAwbjsKICAgICAgfSk7CgogICAgICBkZXNjcmliZSgnd2hlbiBjYWxsZXIgaGFzIGFuIGV4ZWN1dGlvbiBkZWxheScsIGZ1bmN0aW9uICgpIHsKICAgICAgICBiZWZvcmVFYWNoKCdzZXQgcm9sZSBhbmQgZGVsYXknLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICB0aGlzLmV4ZWN1dGlvbkRlbGF5ID0gdGltZS5kdXJhdGlvbi5ob3VycygxMCk7CiAgICAgICAgICBhd2FpdCB0aGlzLm1hbmFnZXIuJF9ncmFudFJvbGUodGhpcy5yb2xlLmlkLCB0aGlzLmNhbGxlciwgdGhpcy5ncmFudERlbGF5LCB0aGlzLmV4ZWN1dGlvbkRlbGF5KTsKICAgICAgICB9KTsKCiAgICAgICAgY2FzZTUoKTsKICAgICAgfSk7CgogICAgICBkZXNjcmliZSgnd2hlbiBjYWxsZXIgaGFzIG5vIGV4ZWN1dGlvbiBkZWxheScsIGZ1bmN0aW9uICgpIHsKICAgICAgICBiZWZvcmVFYWNoKCdzZXQgcm9sZSBhbmQgZGVsYXknLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICB0aGlzLmV4ZWN1dGlvbkRlbGF5ID0gMG47CiAgICAgICAgICBhd2FpdCB0aGlzLm1hbmFnZXIuJF9ncmFudFJvbGUodGhpcy5yb2xlLmlkLCB0aGlzLmNhbGxlciwgdGhpcy5ncmFudERlbGF5LCB0aGlzLmV4ZWN1dGlvbkRlbGF5KTsKICAgICAgICB9KTsKCiAgICAgICAgY2FzZTYoKTsKICAgICAgfSk7CiAgICB9KTsKICB9KTsKCiAgZGVzY3JpYmUoJ3doZW4gcm9sZSBpcyBub3QgZ3JhbnRlZCcsIGZ1bmN0aW9uICgpIHsKICAgIC8vIEJlY2F1c2UgdGhpcyBoZWxwZXIgY2FuIGJlIGNvbXBvc2VkIHdpdGggb3RoZXIgaGVscGVycywgaXQncyBwb3NzaWJsZQogICAgLy8gdGhhdCByb2xlIGhhcyBiZWVuIHNldCBhbHJlYWR5IGJ5IGFub3RoZXIgaGVscGVyLgogICAgLy8gQWx0aG91Z2ggdGhpcyBpcyBoaWdobHkgdW5saWtlbHksIHdlIGNoZWNrIGZvciBpdCBoZXJlIHRvIGF2b2lkIGZhbHNlIHBvc2l0aXZlcy4KICAgIGJlZm9yZUVhY2goJ2Fzc2VydCByb2xlIGlzIHVuc2V0JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCB7IHNpbmNlIH0gPSBhd2FpdCB0aGlzLm1hbmFnZXIuZ2V0QWNjZXNzKHRoaXMucm9sZS5pZCwgdGhpcy5jYWxsZXIpOwogICAgICBleHBlY3Qoc2luY2UpLnRvLmVxdWFsKDBuKTsKICAgIH0pOwoKICAgIHJlcXVpcmVkUm9sZUlzTm90R3JhbnRlZCgpOwogIH0pOwp9Cgptb2R1bGUuZXhwb3J0cyA9IHsKICBMSUtFX0NPTU1PTl9JU19FWEVDVVRJTkcsCiAgTElLRV9DT01NT05fR0VUX0FDQ0VTUywKICBMSUtFX0NPTU1PTl9TQ0hFRFVMQUJMRSwKICB0ZXN0QXNDbG9zYWJsZSwKICB0ZXN0QXNEZWxheSwKICB0ZXN0QXNTY2hlZHVsYWJsZU9wZXJhdGlvbiwKICB0ZXN0QXNSZXN0cmljdGVkT3BlcmF0aW9uLAogIHRlc3RBc0RlbGF5ZWRPcGVyYXRpb24sCiAgdGVzdEFzQ2FuQ2FsbCwKICB0ZXN0QXNIYXNSb2xlLAogIHRlc3RBc0dldEFjY2VzcywKfTsK
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { setStorageAt } = require('@nomicfoundation/hardhat-network-helpers');
+
+const { EXECUTION_ID_STORAGE_SLOT, EXPIRATION, prepareOperation } = require('../../helpers/access-manager');
+const { impersonate } = require('../../helpers/account');
+const time = require('../../helpers/time');
+
+// ============ COMMON PREDICATES ============
+
+const LIKE_COMMON_IS_EXECUTING = {
+  executing() {
+    it('succeeds', async function () {
+      await this.caller.sendTransaction({ to: this.target, data: this.calldata });
+    });
+  },
+  notExecuting() {
+    it('reverts as AccessManagerUnauthorizedAccount', async function () {
+      await expect(this.caller.sendTransaction({ to: this.target, data: this.calldata }))
+        .to.be.revertedWithCustomError(this.manager, 'AccessManagerUnauthorizedAccount')
+        .withArgs(this.caller, this.role.id);
+    });
+  },
+};
+
+const LIKE_COMMON_GET_ACCESS = {
+  requiredRoleIsGranted: {
+    roleGrantingIsDelayed: {
+      callerHasAnExecutionDelay: {
+        beforeGrantDelay() {
+          it('reverts as AccessManagerUnauthorizedAccount', async function () {
+            await expect(this.caller.sendTransaction({ to: this.target, data: this.calldata }))
+              .to.be.revertedWithCustomError(this.manager, 'AccessManagerUnauthorizedAccount')
+              .withArgs(this.caller, this.role.id);
+          });
+        },
+        afterGrantDelay: undefined, // Diverges if there's an operation delay or not
+      },
+      callerHasNoExecutionDelay: {
+        beforeGrantDelay() {
+          it('reverts as AccessManagerUnauthorizedAccount', async function () {
+            await expect(this.caller.sendTransaction({ to: this.target, data: this.calldata }))
+              .to.be.revertedWithCustomError(this.manager, 'AccessManagerUnauthorizedAccount')
+              .withArgs(this.caller, this.role.id);
+          });
+        },
+        afterGrantDelay() {
+          it('succeeds called directly', async function () {
+            await this.caller.sendTransaction({ to: this.target, data: this.calldata });
+          });
+
+          it('succeeds via execute', async function () {
+            await this.manager.connect(this.caller).execute(this.target, this.calldata);
+          });
+        },
+      },
+    },
+    roleGrantingIsNotDelayed: {
+      callerHasAnExecutionDelay: undefined, // Diverges if there's an operation to schedule or not
+      callerHasNoExecutionDelay() {
+        it('succeeds called directly', async function () {
+          await this.caller.sendTransaction({ to: this.target, data: this.calldata });
+        });
+
+        it('succeeds via execute', async function () {
+          await this.manager.connect(this.caller).execute(this.target, this.calldata);
+        });
+      },
+    },
+  },
+  requiredRoleIsNotGranted() {
+    it('reverts as AccessManagerUnauthorizedAccount', async function () {
+      await expect(this.caller.sendTransaction({ to: this.target, data: this.calldata }))
+        .to.be.revertedWithCustomError(this.manager, 'AccessManagerUnauthorizedAccount')
+        .withArgs(this.caller, this.role.id);
+    });
+  },
+};
+
+const LIKE_COMMON_SCHEDULABLE = {
+  scheduled: {
+    before() {
+      it('reverts as AccessManagerNotReady', async function () {
+        await expect(this.caller.sendTransaction({ to: this.target, data: this.calldata }))
+          .to.be.revertedWithCustomError(this.manager, 'AccessManagerNotReady')
+          .withArgs(this.operationId);
+      });
+    },
+    after() {
+      it('succeeds called directly', async function () {
+        await this.caller.sendTransaction({ to: this.target, data: this.calldata });
+      });
+
+      it('succeeds via execute', async function () {
+        await this.manager.connect(this.caller).execute(this.target, this.calldata);
+      });
+    },
+    expired() {
+      it('reverts as AccessManagerExpired', async function () {
+        await expect(this.caller.sendTransaction({ to: this.target, data: this.calldata }))
+          .to.be.revertedWithCustomError(this.manager, 'AccessManagerExpired')
+          .withArgs(this.operationId);
+      });
+    },
+  },
+  notScheduled() {
+    it('reverts as AccessManagerNotScheduled', async function () {
+      await expect(this.caller.sendTransaction({ to: this.target, data: this.calldata }))
+        .to.be.revertedWithCustomError(this.manager, 'AccessManagerNotScheduled')
+        .withArgs(this.operationId);
+    });
+  },
+};
+
+// ============ MODE ============
+
+/**
+ * @requires this.{manager,target}
+ */
+function testAsClosable({ closed, open }) {
+  describe('when the manager is closed', function () {
+    beforeEach('close', async function () {
+      await this.manager.$_setTargetClosed(this.target, true);
+    });
+
+    closed();
+  });
+
+  describe('when the manager is open', function () {
+    beforeEach('open', async function () {
+      await this.manager.$_setTargetClosed(this.target, false);
+    });
+
+    open();
+  });
+}
+
+// ============ DELAY ============
+
+/**
+ * @requires this.{delay}
+ */
+function testAsDelay(type, { before, after }) {
+  beforeEach('define timestamp when delay takes effect', async function () {
+    const timestamp = await time.clock.timestamp();
+    this.delayEffect = timestamp + this.delay;
+  });
+
+  describe(`when ${type} delay has not taken effect yet`, function () {
+    beforeEach(`set next block timestamp before ${type} takes effect`, async function () {
+      await time.increaseTo.timestamp(this.delayEffect - 1n, !!before.mineDelay);
+    });
+
+    before();
+  });
+
+  describe(`when ${type} delay has taken effect`, function () {
+    beforeEach(`set next block timestamp when ${type} takes effect`, async function () {
+      await time.increaseTo.timestamp(this.delayEffect, !!after.mineDelay);
+    });
+
+    after();
+  });
+}
+
+// ============ OPERATION ============
+
+/**
+ * @requires this.{manager,scheduleIn,caller,target,calldata}
+ */
+function testAsSchedulableOperation({ scheduled: { before, after, expired }, notScheduled }) {
+  describe('when operation is scheduled', function () {
+    beforeEach('schedule operation', async function () {
+      if (this.caller.target) {
+        await impersonate(this.caller.target);
+        this.caller = await ethers.getSigner(this.caller.target);
+      }
+      const { operationId, schedule } = await prepareOperation(this.manager, {
+        caller: this.caller,
+        target: this.target,
+        calldata: this.calldata,
+        delay: this.scheduleIn,
+      });
+      await schedule();
+      this.operationId = operationId;
+    });
+
+    describe('when operation is not ready for execution', function () {
+      beforeEach('set next block time before operation is ready', async function () {
+        this.scheduledAt = await time.clock.timestamp();
+        const schedule = await this.manager.getSchedule(this.operationId);
+        await time.increaseTo.timestamp(schedule - 1n, !!before.mineDelay);
+      });
+
+      before();
+    });
+
+    describe('when operation is ready for execution', function () {
+      beforeEach('set next block time when operation is ready for execution', async function () {
+        this.scheduledAt = await time.clock.timestamp();
+        const schedule = await this.manager.getSchedule(this.operationId);
+        await time.increaseTo.timestamp(schedule, !!after.mineDelay);
+      });
+
+      after();
+    });
+
+    describe('when operation has expired', function () {
+      beforeEach('set next block time when operation expired', async function () {
+        this.scheduledAt = await time.clock.timestamp();
+        const schedule = await this.manager.getSchedule(this.operationId);
+        await time.increaseTo.timestamp(schedule + EXPIRATION, !!expired.mineDelay);
+      });
+
+      expired();
+    });
+  });
+
+  describe('when operation is not scheduled', function () {
+    beforeEach('set expected operationId', async function () {
+      this.operationId = await this.manager.hashOperation(this.caller, this.target, this.calldata);
+
+      // Assert operation is not scheduled
+      expect(await this.manager.getSchedule(this.operationId)).to.equal(0n);
+    });
+
+    notScheduled();
+  });
+}
+
+/**
+ * @requires this.{manager,roles,target,calldata}
+ */
+function testAsRestrictedOperation({ callerIsTheManager: { executing, notExecuting }, callerIsNotTheManager }) {
+  describe('when the call comes from the manager (msg.sender == manager)', function () {
+    beforeEach('define caller as manager', async function () {
+      this.caller = this.manager;
+      if (this.caller.target) {
+        await impersonate(this.caller.target);
+        this.caller = await ethers.getSigner(this.caller.target);
+      }
+    });
+
+    describe('when _executionId is in storage for target and selector', function () {
+      beforeEach('set _executionId flag from calldata and target', async function () {
+        const executionId = ethers.keccak256(
+          ethers.AbiCoder.defaultAbiCoder().encode(
+            ['address', 'bytes4'],
+            [this.target.target, this.calldata.substring(0, 10)],
+          ),
+        );
+        await setStorageAt(this.manager.target, EXECUTION_ID_STORAGE_SLOT, executionId);
+      });
+
+      executing();
+    });
+
+    describe('when _executionId does not match target and selector', notExecuting);
+  });
+
+  describe('when the call does not come from the manager (msg.sender != manager)', function () {
+    beforeEach('define non manager caller', function () {
+      this.caller = this.roles.SOME.members[0];
+    });
+
+    callerIsNotTheManager();
+  });
+}
+
+/**
+ * @requires this.{manager,scheduleIn,caller,target,calldata,executionDelay}
+ */
+function testAsDelayedOperation() {
+  describe('with operation delay', function () {
+    describe('when operation delay is greater than execution delay', function () {
+      beforeEach('set operation delay', async function () {
+        this.operationDelay = this.executionDelay + time.duration.hours(1);
+        await this.manager.$_setTargetAdminDelay(this.target, this.operationDelay);
+        this.scheduleIn = this.operationDelay; // For testAsSchedulableOperation
+      });
+
+      testAsSchedulableOperation(LIKE_COMMON_SCHEDULABLE);
+    });
+
+    describe('when operation delay is shorter than execution delay', function () {
+      beforeEach('set operation delay', async function () {
+        this.operationDelay = this.executionDelay - time.duration.hours(1);
+        await this.manager.$_setTargetAdminDelay(this.target, this.operationDelay);
+        this.scheduleIn = this.executionDelay; // For testAsSchedulableOperation
+      });
+
+      testAsSchedulableOperation(LIKE_COMMON_SCHEDULABLE);
+    });
+  });
+
+  describe('without operation delay', function () {
+    beforeEach('set operation delay', async function () {
+      this.operationDelay = 0n;
+      await this.manager.$_setTargetAdminDelay(this.target, this.operationDelay);
+      this.scheduleIn = this.executionDelay; // For testAsSchedulableOperation
+    });
+
+    testAsSchedulableOperation(LIKE_COMMON_SCHEDULABLE);
+  });
+}
+
+// ============ METHOD ============
+
+/**
+ * @requires this.{manager,roles,role,target,calldata}
+ */
+function testAsCanCall({
+  closed,
+  open: {
+    callerIsTheManager,
+    callerIsNotTheManager: { publicRoleIsRequired, specificRoleIsRequired },
+  },
+}) {
+  testAsClosable({
+    closed,
+    open() {
+      testAsRestrictedOperation({
+        callerIsTheManager,
+        callerIsNotTheManager() {
+          testAsHasRole({
+            publicRoleIsRequired,
+            specificRoleIsRequired,
+          });
+        },
+      });
+    },
+  });
+}
+
+/**
+ * @requires this.{target,calldata,roles,role}
+ */
+function testAsHasRole({ publicRoleIsRequired, specificRoleIsRequired }) {
+  describe('when the function requires the caller to be granted with the PUBLIC_ROLE', function () {
+    beforeEach('set target function role as PUBLIC_ROLE', async function () {
+      this.role = this.roles.PUBLIC;
+      await this.manager
+        .connect(this.roles.ADMIN.members[0])
+        .$_setTargetFunctionRole(this.target, this.calldata.substring(0, 10), this.role.id);
+    });
+
+    publicRoleIsRequired();
+  });
+
+  describe('when the function requires the caller to be granted with a role other than PUBLIC_ROLE', function () {
+    beforeEach('set target function role as PUBLIC_ROLE', async function () {
+      await this.manager
+        .connect(this.roles.ADMIN.members[0])
+        .$_setTargetFunctionRole(this.target, this.calldata.substring(0, 10), this.role.id);
+    });
+
+    testAsGetAccess(specificRoleIsRequired);
+  });
+}
+
+/**
+ * @requires this.{manager,role,caller}
+ */
+function testAsGetAccess({
+  requiredRoleIsGranted: {
+    roleGrantingIsDelayed: {
+      // Because both grant and execution delay are set within the same $_grantRole call
+      // it's not possible to create a set of tests that diverge between grant and execution delay.
+      // Therefore, the testAsDelay arguments are renamed for clarity:
+      // before => beforeGrantDelay
+      // after => afterGrantDelay
+      callerHasAnExecutionDelay: { beforeGrantDelay: case1, afterGrantDelay: case2 },
+      callerHasNoExecutionDelay: { beforeGrantDelay: case3, afterGrantDelay: case4 },
+    },
+    roleGrantingIsNotDelayed: { callerHasAnExecutionDelay: case5, callerHasNoExecutionDelay: case6 },
+  },
+  requiredRoleIsNotGranted,
+}) {
+  describe('when the required role is granted to the caller', function () {
+    describe('when role granting is delayed', function () {
+      beforeEach('define delay', function () {
+        this.grantDelay = time.duration.minutes(3);
+        this.delay = this.grantDelay; // For testAsDelay
+      });
+
+      describe('when caller has an execution delay', function () {
+        beforeEach('set role and delay', async function () {
+          this.executionDelay = time.duration.hours(10);
+          this.delay = this.grantDelay;
+          await this.manager.$_grantRole(this.role.id, this.caller, this.grantDelay, this.executionDelay);
+        });
+
+        testAsDelay('grant', { before: case1, after: case2 });
+      });
+
+      describe('when caller has no execution delay', function () {
+        beforeEach('set role and delay', async function () {
+          this.executionDelay = 0n;
+          await this.manager.$_grantRole(this.role.id, this.caller, this.grantDelay, this.executionDelay);
+        });
+
+        testAsDelay('grant', { before: case3, after: case4 });
+      });
+    });
+
+    describe('when role granting is not delayed', function () {
+      beforeEach('define delay', function () {
+        this.grantDelay = 0n;
+      });
+
+      describe('when caller has an execution delay', function () {
+        beforeEach('set role and delay', async function () {
+          this.executionDelay = time.duration.hours(10);
+          await this.manager.$_grantRole(this.role.id, this.caller, this.grantDelay, this.executionDelay);
+        });
+
+        case5();
+      });
+
+      describe('when caller has no execution delay', function () {
+        beforeEach('set role and delay', async function () {
+          this.executionDelay = 0n;
+          await this.manager.$_grantRole(this.role.id, this.caller, this.grantDelay, this.executionDelay);
+        });
+
+        case6();
+      });
+    });
+  });
+
+  describe('when role is not granted', function () {
+    // Because this helper can be composed with other helpers, it's possible
+    // that role has been set already by another helper.
+    // Although this is highly unlikely, we check for it here to avoid false positives.
+    beforeEach('assert role is unset', async function () {
+      const { since } = await this.manager.getAccess(this.role.id, this.caller);
+      expect(since).to.equal(0n);
+    });
+
+    requiredRoleIsNotGranted();
+  });
+}
+
+module.exports = {
+  LIKE_COMMON_IS_EXECUTING,
+  LIKE_COMMON_GET_ACCESS,
+  LIKE_COMMON_SCHEDULABLE,
+  testAsClosable,
+  testAsDelay,
+  testAsSchedulableOperation,
+  testAsRestrictedOperation,
+  testAsDelayedOperation,
+  testAsCanCall,
+  testAsHasRole,
+  testAsGetAccess,
+};
