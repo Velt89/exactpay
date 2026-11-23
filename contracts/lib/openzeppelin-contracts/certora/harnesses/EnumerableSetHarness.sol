@@ -1,1 +1,35 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0VudW1lcmFibGVTZXR9IGZyb20gIi4uL3BhdGNoZWQvdXRpbHMvc3RydWN0cy9FbnVtZXJhYmxlU2V0LnNvbCI7Cgpjb250cmFjdCBFbnVtZXJhYmxlU2V0SGFybmVzcyB7CiAgICB1c2luZyBFbnVtZXJhYmxlU2V0IGZvciBFbnVtZXJhYmxlU2V0LkJ5dGVzMzJTZXQ7CgogICAgRW51bWVyYWJsZVNldC5CeXRlczMyU2V0IHByaXZhdGUgX3NldDsKCiAgICBmdW5jdGlvbiBhZGQoYnl0ZXMzMiB2YWx1ZSkgcHVibGljIHJldHVybnMgKGJvb2wpIHsKICAgICAgICByZXR1cm4gX3NldC5hZGQodmFsdWUpOwogICAgfQoKICAgIGZ1bmN0aW9uIHJlbW92ZShieXRlczMyIHZhbHVlKSBwdWJsaWMgcmV0dXJucyAoYm9vbCkgewogICAgICAgIHJldHVybiBfc2V0LnJlbW92ZSh2YWx1ZSk7CiAgICB9CgogICAgZnVuY3Rpb24gY29udGFpbnMoYnl0ZXMzMiB2YWx1ZSkgcHVibGljIHZpZXcgcmV0dXJucyAoYm9vbCkgewogICAgICAgIHJldHVybiBfc2V0LmNvbnRhaW5zKHZhbHVlKTsKICAgIH0KCiAgICBmdW5jdGlvbiBsZW5ndGgoKSBwdWJsaWMgdmlldyByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgcmV0dXJuIF9zZXQubGVuZ3RoKCk7CiAgICB9CgogICAgZnVuY3Rpb24gYXRfKHVpbnQyNTYgaW5kZXgpIHB1YmxpYyB2aWV3IHJldHVybnMgKGJ5dGVzMzIpIHsKICAgICAgICByZXR1cm4gX3NldC5hdChpbmRleCk7CiAgICB9CgogICAgZnVuY3Rpb24gX3Bvc2l0aW9uT2YoYnl0ZXMzMiB2YWx1ZSkgcHVibGljIHZpZXcgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHJldHVybiBfc2V0Ll9pbm5lci5fcG9zaXRpb25zW3ZhbHVlXTsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {EnumerableSet} from "../patched/utils/structs/EnumerableSet.sol";
+
+contract EnumerableSetHarness {
+    using EnumerableSet for EnumerableSet.Bytes32Set;
+
+    EnumerableSet.Bytes32Set private _set;
+
+    function add(bytes32 value) public returns (bool) {
+        return _set.add(value);
+    }
+
+    function remove(bytes32 value) public returns (bool) {
+        return _set.remove(value);
+    }
+
+    function contains(bytes32 value) public view returns (bool) {
+        return _set.contains(value);
+    }
+
+    function length() public view returns (uint256) {
+        return _set.length();
+    }
+
+    function at_(uint256 index) public view returns (bytes32) {
+        return _set.at(index);
+    }
+
+    function _positionOf(bytes32 value) public view returns (uint256) {
+        return _set._inner._positions[value];
+    }
+}
