@@ -1,1 +1,125 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAoZ292ZXJuYW5jZS9leHRlbnNpb25zL0dvdmVybm9yU3RvcmFnZS5zb2wpCgpwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7R292ZXJub3J9IGZyb20gIi4uL0dvdmVybm9yLnNvbCI7CgovKioKICogQGRldiBFeHRlbnNpb24gb2Yge0dvdmVybm9yfSB0aGF0IGltcGxlbWVudHMgc3RvcmFnZSBvZiBwcm9wb3NhbCBkZXRhaWxzLiBUaGlzIG1vZHVsZXMgYWxzbyBwcm92aWRlcyBwcmltaXRpdmVzIGZvcgogKiB0aGUgZW51bWVyYWJpbGl0eSBvZiBwcm9wb3NhbHMuCiAqCiAqIFVzZSBjYXNlcyBmb3IgdGhpcyBtb2R1bGUgaW5jbHVkZToKICogLSBVSXMgdGhhdCBleHBsb3JlIHRoZSBwcm9wb3NhbCBzdGF0ZSB3aXRob3V0IHJlbHlpbmcgb24gZXZlbnQgaW5kZXhpbmcuCiAqIC0gVXNpbmcgb25seSB0aGUgcHJvcG9zYWxJZCBhcyBhbiBhcmd1bWVudCBpbiB0aGUge0dvdmVybm9yLXF1ZXVlfSBhbmQge0dvdmVybm9yLWV4ZWN1dGV9IGZ1bmN0aW9ucyBmb3IgTDIgY2hhaW5zCiAqICAgd2hlcmUgc3RvcmFnZSBpcyBjaGVhcCBjb21wYXJlZCB0byBjYWxsZGF0YS4KICovCmFic3RyYWN0IGNvbnRyYWN0IEdvdmVybm9yU3RvcmFnZSBpcyBHb3Zlcm5vciB7CiAgICBzdHJ1Y3QgUHJvcG9zYWxEZXRhaWxzIHsKICAgICAgICBhZGRyZXNzW10gdGFyZ2V0czsKICAgICAgICB1aW50MjU2W10gdmFsdWVzOwogICAgICAgIGJ5dGVzW10gY2FsbGRhdGFzOwogICAgICAgIGJ5dGVzMzIgZGVzY3JpcHRpb25IYXNoOwogICAgfQoKICAgIHVpbnQyNTZbXSBwcml2YXRlIF9wcm9wb3NhbElkczsKICAgIG1hcHBpbmcodWludDI1NiBwcm9wb3NhbElkID0+IFByb3Bvc2FsRGV0YWlscykgcHJpdmF0ZSBfcHJvcG9zYWxEZXRhaWxzOwoKICAgIC8qKgogICAgICogQGRldiBIb29rIGludG8gdGhlIHByb3Bvc2luZyBtZWNoYW5pc20KICAgICAqLwogICAgZnVuY3Rpb24gX3Byb3Bvc2UoCiAgICAgICAgYWRkcmVzc1tdIG1lbW9yeSB0YXJnZXRzLAogICAgICAgIHVpbnQyNTZbXSBtZW1vcnkgdmFsdWVzLAogICAgICAgIGJ5dGVzW10gbWVtb3J5IGNhbGxkYXRhcywKICAgICAgICBzdHJpbmcgbWVtb3J5IGRlc2NyaXB0aW9uLAogICAgICAgIGFkZHJlc3MgcHJvcG9zZXIKICAgICkgaW50ZXJuYWwgdmlydHVhbCBvdmVycmlkZSByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgdWludDI1NiBwcm9wb3NhbElkID0gc3VwZXIuX3Byb3Bvc2UodGFyZ2V0cywgdmFsdWVzLCBjYWxsZGF0YXMsIGRlc2NyaXB0aW9uLCBwcm9wb3Nlcik7CgogICAgICAgIC8vIHN0b3JlCiAgICAgICAgX3Byb3Bvc2FsSWRzLnB1c2gocHJvcG9zYWxJZCk7CiAgICAgICAgX3Byb3Bvc2FsRGV0YWlsc1twcm9wb3NhbElkXSA9IFByb3Bvc2FsRGV0YWlscyh7CiAgICAgICAgICAgIHRhcmdldHM6IHRhcmdldHMsCiAgICAgICAgICAgIHZhbHVlczogdmFsdWVzLAogICAgICAgICAgICBjYWxsZGF0YXM6IGNhbGxkYXRhcywKICAgICAgICAgICAgZGVzY3JpcHRpb25IYXNoOiBrZWNjYWsyNTYoYnl0ZXMoZGVzY3JpcHRpb24pKQogICAgICAgIH0pOwoKICAgICAgICByZXR1cm4gcHJvcG9zYWxJZDsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgVmVyc2lvbiBvZiB7SUdvdmVybm9yVGltZWxvY2stcXVldWV9IHdpdGggb25seSBgcHJvcG9zYWxJZGAgYXMgYW4gYXJndW1lbnQuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHF1ZXVlKHVpbnQyNTYgcHJvcG9zYWxJZCkgcHVibGljIHZpcnR1YWwgewogICAgICAgIC8vIGhlcmUsIHVzaW5nIHN0b3JhZ2UgaXMgbW9yZSBlZmZpY2llbnQgdGhhbiBtZW1vcnkKICAgICAgICBQcm9wb3NhbERldGFpbHMgc3RvcmFnZSBkZXRhaWxzID0gX3Byb3Bvc2FsRGV0YWlsc1twcm9wb3NhbElkXTsKICAgICAgICBxdWV1ZShkZXRhaWxzLnRhcmdldHMsIGRldGFpbHMudmFsdWVzLCBkZXRhaWxzLmNhbGxkYXRhcywgZGV0YWlscy5kZXNjcmlwdGlvbkhhc2gpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBWZXJzaW9uIG9mIHtJR292ZXJub3ItZXhlY3V0ZX0gd2l0aCBvbmx5IGBwcm9wb3NhbElkYCBhcyBhbiBhcmd1bWVudC4KICAgICAqLwogICAgZnVuY3Rpb24gZXhlY3V0ZSh1aW50MjU2IHByb3Bvc2FsSWQpIHB1YmxpYyBwYXlhYmxlIHZpcnR1YWwgewogICAgICAgIC8vIGhlcmUsIHVzaW5nIHN0b3JhZ2UgaXMgbW9yZSBlZmZpY2llbnQgdGhhbiBtZW1vcnkKICAgICAgICBQcm9wb3NhbERldGFpbHMgc3RvcmFnZSBkZXRhaWxzID0gX3Byb3Bvc2FsRGV0YWlsc1twcm9wb3NhbElkXTsKICAgICAgICBleGVjdXRlKGRldGFpbHMudGFyZ2V0cywgZGV0YWlscy52YWx1ZXMsIGRldGFpbHMuY2FsbGRhdGFzLCBkZXRhaWxzLmRlc2NyaXB0aW9uSGFzaCk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFByb3Bvc2FsSWQgdmVyc2lvbiBvZiB7SUdvdmVybm9yLWNhbmNlbH0uCiAgICAgKi8KICAgIGZ1bmN0aW9uIGNhbmNlbCh1aW50MjU2IHByb3Bvc2FsSWQpIHB1YmxpYyB2aXJ0dWFsIHsKICAgICAgICAvLyBoZXJlLCB1c2luZyBzdG9yYWdlIGlzIG1vcmUgZWZmaWNpZW50IHRoYW4gbWVtb3J5CiAgICAgICAgUHJvcG9zYWxEZXRhaWxzIHN0b3JhZ2UgZGV0YWlscyA9IF9wcm9wb3NhbERldGFpbHNbcHJvcG9zYWxJZF07CiAgICAgICAgY2FuY2VsKGRldGFpbHMudGFyZ2V0cywgZGV0YWlscy52YWx1ZXMsIGRldGFpbHMuY2FsbGRhdGFzLCBkZXRhaWxzLmRlc2NyaXB0aW9uSGFzaCk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIG51bWJlciBvZiBzdG9yZWQgcHJvcG9zYWxzLgogICAgICovCiAgICBmdW5jdGlvbiBwcm9wb3NhbENvdW50KCkgcHVibGljIHZpZXcgdmlydHVhbCByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgcmV0dXJuIF9wcm9wb3NhbElkcy5sZW5ndGg7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIGRldGFpbHMgb2YgYSBwcm9wb3NhbElkLiBSZXZlcnRzIGlmIGBwcm9wb3NhbElkYCBpcyBub3QgYSBrbm93biBwcm9wb3NhbC4KICAgICAqLwogICAgZnVuY3Rpb24gcHJvcG9zYWxEZXRhaWxzKAogICAgICAgIHVpbnQyNTYgcHJvcG9zYWxJZAogICAgKQogICAgICAgIHB1YmxpYwogICAgICAgIHZpZXcKICAgICAgICB2aXJ0dWFsCiAgICAgICAgcmV0dXJucyAoYWRkcmVzc1tdIG1lbW9yeSB0YXJnZXRzLCB1aW50MjU2W10gbWVtb3J5IHZhbHVlcywgYnl0ZXNbXSBtZW1vcnkgY2FsbGRhdGFzLCBieXRlczMyIGRlc2NyaXB0aW9uSGFzaCkKICAgIHsKICAgICAgICAvLyBoZXJlLCB1c2luZyBtZW1vcnkgaXMgbW9yZSBlZmZpY2llbnQgdGhhbiBzdG9yYWdlCiAgICAgICAgUHJvcG9zYWxEZXRhaWxzIG1lbW9yeSBkZXRhaWxzID0gX3Byb3Bvc2FsRGV0YWlsc1twcm9wb3NhbElkXTsKICAgICAgICBpZiAoZGV0YWlscy5kZXNjcmlwdGlvbkhhc2ggPT0gMCkgewogICAgICAgICAgICByZXZlcnQgR292ZXJub3JOb25leGlzdGVudFByb3Bvc2FsKHByb3Bvc2FsSWQpOwogICAgICAgIH0KICAgICAgICByZXR1cm4gKGRldGFpbHMudGFyZ2V0cywgZGV0YWlscy52YWx1ZXMsIGRldGFpbHMuY2FsbGRhdGFzLCBkZXRhaWxzLmRlc2NyaXB0aW9uSGFzaCk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIGRldGFpbHMgKGluY2x1ZGluZyB0aGUgcHJvcG9zYWxJZCkgb2YgYSBwcm9wb3NhbCBnaXZlbiBpdHMgc2VxdWVudGlhbCBpbmRleC4KICAgICAqLwogICAgZnVuY3Rpb24gcHJvcG9zYWxEZXRhaWxzQXQoCiAgICAgICAgdWludDI1NiBpbmRleAogICAgKQogICAgICAgIHB1YmxpYwogICAgICAgIHZpZXcKICAgICAgICB2aXJ0dWFsCiAgICAgICAgcmV0dXJucyAoCiAgICAgICAgICAgIHVpbnQyNTYgcHJvcG9zYWxJZCwKICAgICAgICAgICAgYWRkcmVzc1tdIG1lbW9yeSB0YXJnZXRzLAogICAgICAgICAgICB1aW50MjU2W10gbWVtb3J5IHZhbHVlcywKICAgICAgICAgICAgYnl0ZXNbXSBtZW1vcnkgY2FsbGRhdGFzLAogICAgICAgICAgICBieXRlczMyIGRlc2NyaXB0aW9uSGFzaAogICAgICAgICkKICAgIHsKICAgICAgICBwcm9wb3NhbElkID0gX3Byb3Bvc2FsSWRzW2luZGV4XTsKICAgICAgICAodGFyZ2V0cywgdmFsdWVzLCBjYWxsZGF0YXMsIGRlc2NyaXB0aW9uSGFzaCkgPSBwcm9wb3NhbERldGFpbHMocHJvcG9zYWxJZCk7CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (governance/extensions/GovernorStorage.sol)
+
+pragma solidity ^0.8.20;
+
+import {Governor} from "../Governor.sol";
+
+/**
+ * @dev Extension of {Governor} that implements storage of proposal details. This modules also provides primitives for
+ * the enumerability of proposals.
+ *
+ * Use cases for this module include:
+ * - UIs that explore the proposal state without relying on event indexing.
+ * - Using only the proposalId as an argument in the {Governor-queue} and {Governor-execute} functions for L2 chains
+ *   where storage is cheap compared to calldata.
+ */
+abstract contract GovernorStorage is Governor {
+    struct ProposalDetails {
+        address[] targets;
+        uint256[] values;
+        bytes[] calldatas;
+        bytes32 descriptionHash;
+    }
+
+    uint256[] private _proposalIds;
+    mapping(uint256 proposalId => ProposalDetails) private _proposalDetails;
+
+    /**
+     * @dev Hook into the proposing mechanism
+     */
+    function _propose(
+        address[] memory targets,
+        uint256[] memory values,
+        bytes[] memory calldatas,
+        string memory description,
+        address proposer
+    ) internal virtual override returns (uint256) {
+        uint256 proposalId = super._propose(targets, values, calldatas, description, proposer);
+
+        // store
+        _proposalIds.push(proposalId);
+        _proposalDetails[proposalId] = ProposalDetails({
+            targets: targets,
+            values: values,
+            calldatas: calldatas,
+            descriptionHash: keccak256(bytes(description))
+        });
+
+        return proposalId;
+    }
+
+    /**
+     * @dev Version of {IGovernorTimelock-queue} with only `proposalId` as an argument.
+     */
+    function queue(uint256 proposalId) public virtual {
+        // here, using storage is more efficient than memory
+        ProposalDetails storage details = _proposalDetails[proposalId];
+        queue(details.targets, details.values, details.calldatas, details.descriptionHash);
+    }
+
+    /**
+     * @dev Version of {IGovernor-execute} with only `proposalId` as an argument.
+     */
+    function execute(uint256 proposalId) public payable virtual {
+        // here, using storage is more efficient than memory
+        ProposalDetails storage details = _proposalDetails[proposalId];
+        execute(details.targets, details.values, details.calldatas, details.descriptionHash);
+    }
+
+    /**
+     * @dev ProposalId version of {IGovernor-cancel}.
+     */
+    function cancel(uint256 proposalId) public virtual {
+        // here, using storage is more efficient than memory
+        ProposalDetails storage details = _proposalDetails[proposalId];
+        cancel(details.targets, details.values, details.calldatas, details.descriptionHash);
+    }
+
+    /**
+     * @dev Returns the number of stored proposals.
+     */
+    function proposalCount() public view virtual returns (uint256) {
+        return _proposalIds.length;
+    }
+
+    /**
+     * @dev Returns the details of a proposalId. Reverts if `proposalId` is not a known proposal.
+     */
+    function proposalDetails(
+        uint256 proposalId
+    )
+        public
+        view
+        virtual
+        returns (address[] memory targets, uint256[] memory values, bytes[] memory calldatas, bytes32 descriptionHash)
+    {
+        // here, using memory is more efficient than storage
+        ProposalDetails memory details = _proposalDetails[proposalId];
+        if (details.descriptionHash == 0) {
+            revert GovernorNonexistentProposal(proposalId);
+        }
+        return (details.targets, details.values, details.calldatas, details.descriptionHash);
+    }
+
+    /**
+     * @dev Returns the details (including the proposalId) of a proposal given its sequential index.
+     */
+    function proposalDetailsAt(
+        uint256 index
+    )
+        public
+        view
+        virtual
+        returns (
+            uint256 proposalId,
+            address[] memory targets,
+            uint256[] memory values,
+            bytes[] memory calldatas,
+            bytes32 descriptionHash
+        )
+    {
+        proposalId = _proposalIds[index];
+        (targets, values, calldatas, descriptionHash) = proposalDetails(proposalId);
+    }
+}
