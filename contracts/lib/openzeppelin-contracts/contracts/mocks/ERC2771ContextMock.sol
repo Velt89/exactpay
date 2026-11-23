@@ -1,1 +1,28 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0NvbnRleHRNb2NrfSBmcm9tICIuL0NvbnRleHRNb2NrLnNvbCI7CmltcG9ydCB7Q29udGV4dH0gZnJvbSAiLi4vdXRpbHMvQ29udGV4dC5zb2wiOwppbXBvcnQge011bHRpY2FsbH0gZnJvbSAiLi4vdXRpbHMvTXVsdGljYWxsLnNvbCI7CmltcG9ydCB7RVJDMjc3MUNvbnRleHR9IGZyb20gIi4uL21ldGF0eC9FUkMyNzcxQ29udGV4dC5zb2wiOwoKLy8gQnkgaW5oZXJpdGluZyBmcm9tIEVSQzI3NzFDb250ZXh0LCBDb250ZXh0J3MgaW50ZXJuYWwgZnVuY3Rpb25zIGFyZSBvdmVycmlkZGVuIGF1dG9tYXRpY2FsbHkKY29udHJhY3QgRVJDMjc3MUNvbnRleHRNb2NrIGlzIENvbnRleHRNb2NrLCBFUkMyNzcxQ29udGV4dCwgTXVsdGljYWxsIHsKICAgIC8vLyBAY3VzdG9tOm96LXVwZ3JhZGVzLXVuc2FmZS1hbGxvdyBjb25zdHJ1Y3RvcgogICAgY29uc3RydWN0b3IoYWRkcmVzcyB0cnVzdGVkRm9yd2FyZGVyKSBFUkMyNzcxQ29udGV4dCh0cnVzdGVkRm9yd2FyZGVyKSB7CiAgICAgICAgZW1pdCBTZW5kZXIoX21zZ1NlbmRlcigpKTsgLy8gX21zZ1NlbmRlcigpIHNob3VsZCBiZSBhY2Nlc3NpYmxlIGR1cmluZyBjb25zdHJ1Y3Rpb24KICAgIH0KCiAgICBmdW5jdGlvbiBfbXNnU2VuZGVyKCkgaW50ZXJuYWwgdmlldyBvdmVycmlkZShDb250ZXh0LCBFUkMyNzcxQ29udGV4dCkgcmV0dXJucyAoYWRkcmVzcykgewogICAgICAgIHJldHVybiBFUkMyNzcxQ29udGV4dC5fbXNnU2VuZGVyKCk7CiAgICB9CgogICAgZnVuY3Rpb24gX21zZ0RhdGEoKSBpbnRlcm5hbCB2aWV3IG92ZXJyaWRlKENvbnRleHQsIEVSQzI3NzFDb250ZXh0KSByZXR1cm5zIChieXRlcyBjYWxsZGF0YSkgewogICAgICAgIHJldHVybiBFUkMyNzcxQ29udGV4dC5fbXNnRGF0YSgpOwogICAgfQoKICAgIGZ1bmN0aW9uIF9jb250ZXh0U3VmZml4TGVuZ3RoKCkgaW50ZXJuYWwgdmlldyBvdmVycmlkZShDb250ZXh0LCBFUkMyNzcxQ29udGV4dCkgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHJldHVybiBFUkMyNzcxQ29udGV4dC5fY29udGV4dFN1ZmZpeExlbmd0aCgpOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {ContextMock} from "./ContextMock.sol";
+import {Context} from "../utils/Context.sol";
+import {Multicall} from "../utils/Multicall.sol";
+import {ERC2771Context} from "../metatx/ERC2771Context.sol";
+
+// By inheriting from ERC2771Context, Context's internal functions are overridden automatically
+contract ERC2771ContextMock is ContextMock, ERC2771Context, Multicall {
+    /// @custom:oz-upgrades-unsafe-allow constructor
+    constructor(address trustedForwarder) ERC2771Context(trustedForwarder) {
+        emit Sender(_msgSender()); // _msgSender() should be accessible during construction
+    }
+
+    function _msgSender() internal view override(Context, ERC2771Context) returns (address) {
+        return ERC2771Context._msgSender();
+    }
+
+    function _msgData() internal view override(Context, ERC2771Context) returns (bytes calldata) {
+        return ERC2771Context._msgData();
+    }
+
+    function _contextSuffixLength() internal view override(Context, ERC2771Context) returns (uint256) {
+        return ERC2771Context._contextSuffixLength();
+    }
+}
