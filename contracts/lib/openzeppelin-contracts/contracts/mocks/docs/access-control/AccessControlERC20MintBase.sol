@@ -1,1 +1,25 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7QWNjZXNzQ29udHJvbH0gZnJvbSAiLi4vLi4vLi4vYWNjZXNzL0FjY2Vzc0NvbnRyb2wuc29sIjsKaW1wb3J0IHtFUkMyMH0gZnJvbSAiLi4vLi4vLi4vdG9rZW4vRVJDMjAvRVJDMjAuc29sIjsKCmNvbnRyYWN0IEFjY2Vzc0NvbnRyb2xFUkMyME1pbnRCYXNlIGlzIEVSQzIwLCBBY2Nlc3NDb250cm9sIHsKICAgIC8vIENyZWF0ZSBhIG5ldyByb2xlIGlkZW50aWZpZXIgZm9yIHRoZSBtaW50ZXIgcm9sZQogICAgYnl0ZXMzMiBwdWJsaWMgY29uc3RhbnQgTUlOVEVSX1JPTEUgPSBrZWNjYWsyNTYoIk1JTlRFUl9ST0xFIik7CgogICAgZXJyb3IgQ2FsbGVyTm90TWludGVyKGFkZHJlc3MgY2FsbGVyKTsKCiAgICBjb25zdHJ1Y3RvcihhZGRyZXNzIG1pbnRlcikgRVJDMjAoIk15VG9rZW4iLCAiVEtOIikgewogICAgICAgIC8vIEdyYW50IHRoZSBtaW50ZXIgcm9sZSB0byBhIHNwZWNpZmllZCBhY2NvdW50CiAgICAgICAgX2dyYW50Um9sZShNSU5URVJfUk9MRSwgbWludGVyKTsKICAgIH0KCiAgICBmdW5jdGlvbiBtaW50KGFkZHJlc3MgdG8sIHVpbnQyNTYgYW1vdW50KSBwdWJsaWMgewogICAgICAgIC8vIENoZWNrIHRoYXQgdGhlIGNhbGxpbmcgYWNjb3VudCBoYXMgdGhlIG1pbnRlciByb2xlCiAgICAgICAgaWYgKCFoYXNSb2xlKE1JTlRFUl9ST0xFLCBtc2cuc2VuZGVyKSkgewogICAgICAgICAgICByZXZlcnQgQ2FsbGVyTm90TWludGVyKG1zZy5zZW5kZXIpOwogICAgICAgIH0KICAgICAgICBfbWludCh0bywgYW1vdW50KTsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+import {AccessControl} from "../../../access/AccessControl.sol";
+import {ERC20} from "../../../token/ERC20/ERC20.sol";
+
+contract AccessControlERC20MintBase is ERC20, AccessControl {
+    // Create a new role identifier for the minter role
+    bytes32 public constant MINTER_ROLE = keccak256("MINTER_ROLE");
+
+    error CallerNotMinter(address caller);
+
+    constructor(address minter) ERC20("MyToken", "TKN") {
+        // Grant the minter role to a specified account
+        _grantRole(MINTER_ROLE, minter);
+    }
+
+    function mint(address to, uint256 amount) public {
+        // Check that the calling account has the minter role
+        if (!hasRole(MINTER_ROLE, msg.sender)) {
+            revert CallerNotMinter(msg.sender);
+        }
+        _mint(to, amount);
+    }
+}
