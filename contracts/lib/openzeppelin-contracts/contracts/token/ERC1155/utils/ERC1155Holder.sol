@@ -1,1 +1,42 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodG9rZW4vRVJDMTE1NS91dGlscy9FUkMxMTU1SG9sZGVyLnNvbCkKCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKaW1wb3J0IHtJRVJDMTY1LCBFUkMxNjV9IGZyb20gIi4uLy4uLy4uL3V0aWxzL2ludHJvc3BlY3Rpb24vRVJDMTY1LnNvbCI7CmltcG9ydCB7SUVSQzExNTVSZWNlaXZlcn0gZnJvbSAiLi4vSUVSQzExNTVSZWNlaXZlci5zb2wiOwoKLyoqCiAqIEBkZXYgU2ltcGxlIGltcGxlbWVudGF0aW9uIG9mIGBJRVJDMTE1NVJlY2VpdmVyYCB0aGF0IHdpbGwgYWxsb3cgYSBjb250cmFjdCB0byBob2xkIEVSQy0xMTU1IHRva2Vucy4KICoKICogSU1QT1JUQU5UOiBXaGVuIGluaGVyaXRpbmcgdGhpcyBjb250cmFjdCwgeW91IG11c3QgaW5jbHVkZSBhIHdheSB0byB1c2UgdGhlIHJlY2VpdmVkIHRva2Vucywgb3RoZXJ3aXNlIHRoZXkgd2lsbCBiZQogKiBzdHVjay4KICovCmFic3RyYWN0IGNvbnRyYWN0IEVSQzExNTVIb2xkZXIgaXMgRVJDMTY1LCBJRVJDMTE1NVJlY2VpdmVyIHsKICAgIC8qKgogICAgICogQGRldiBTZWUge0lFUkMxNjUtc3VwcG9ydHNJbnRlcmZhY2V9LgogICAgICovCiAgICBmdW5jdGlvbiBzdXBwb3J0c0ludGVyZmFjZShieXRlczQgaW50ZXJmYWNlSWQpIHB1YmxpYyB2aWV3IHZpcnR1YWwgb3ZlcnJpZGUoRVJDMTY1LCBJRVJDMTY1KSByZXR1cm5zIChib29sKSB7CiAgICAgICAgcmV0dXJuIGludGVyZmFjZUlkID09IHR5cGUoSUVSQzExNTVSZWNlaXZlcikuaW50ZXJmYWNlSWQgfHwgc3VwZXIuc3VwcG9ydHNJbnRlcmZhY2UoaW50ZXJmYWNlSWQpOwogICAgfQoKICAgIGZ1bmN0aW9uIG9uRVJDMTE1NVJlY2VpdmVkKAogICAgICAgIGFkZHJlc3MsCiAgICAgICAgYWRkcmVzcywKICAgICAgICB1aW50MjU2LAogICAgICAgIHVpbnQyNTYsCiAgICAgICAgYnl0ZXMgbWVtb3J5CiAgICApIHB1YmxpYyB2aXJ0dWFsIG92ZXJyaWRlIHJldHVybnMgKGJ5dGVzNCkgewogICAgICAgIHJldHVybiB0aGlzLm9uRVJDMTE1NVJlY2VpdmVkLnNlbGVjdG9yOwogICAgfQoKICAgIGZ1bmN0aW9uIG9uRVJDMTE1NUJhdGNoUmVjZWl2ZWQoCiAgICAgICAgYWRkcmVzcywKICAgICAgICBhZGRyZXNzLAogICAgICAgIHVpbnQyNTZbXSBtZW1vcnksCiAgICAgICAgdWludDI1NltdIG1lbW9yeSwKICAgICAgICBieXRlcyBtZW1vcnkKICAgICkgcHVibGljIHZpcnR1YWwgb3ZlcnJpZGUgcmV0dXJucyAoYnl0ZXM0KSB7CiAgICAgICAgcmV0dXJuIHRoaXMub25FUkMxMTU1QmF0Y2hSZWNlaXZlZC5zZWxlY3RvcjsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (token/ERC1155/utils/ERC1155Holder.sol)
+
+pragma solidity ^0.8.20;
+
+import {IERC165, ERC165} from "../../../utils/introspection/ERC165.sol";
+import {IERC1155Receiver} from "../IERC1155Receiver.sol";
+
+/**
+ * @dev Simple implementation of `IERC1155Receiver` that will allow a contract to hold ERC-1155 tokens.
+ *
+ * IMPORTANT: When inheriting this contract, you must include a way to use the received tokens, otherwise they will be
+ * stuck.
+ */
+abstract contract ERC1155Holder is ERC165, IERC1155Receiver {
+    /**
+     * @dev See {IERC165-supportsInterface}.
+     */
+    function supportsInterface(bytes4 interfaceId) public view virtual override(ERC165, IERC165) returns (bool) {
+        return interfaceId == type(IERC1155Receiver).interfaceId || super.supportsInterface(interfaceId);
+    }
+
+    function onERC1155Received(
+        address,
+        address,
+        uint256,
+        uint256,
+        bytes memory
+    ) public virtual override returns (bytes4) {
+        return this.onERC1155Received.selector;
+    }
+
+    function onERC1155BatchReceived(
+        address,
+        address,
+        uint256[] memory,
+        uint256[] memory,
+        bytes memory
+    ) public virtual override returns (bytes4) {
+        return this.onERC1155BatchReceived.selector;
+    }
+}
