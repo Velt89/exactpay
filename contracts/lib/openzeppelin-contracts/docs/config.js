@@ -1,1 +1,21 @@
-Y29uc3QgcGF0aCA9IHJlcXVpcmUoJ3BhdGgnKTsKY29uc3QgZnMgPSByZXF1aXJlKCdmcycpOwoKLyoqIEB0eXBlIGltcG9ydCgnc29saWRpdHktZG9jZ2VuL2Rpc3QvY29uZmlnJykuVXNlckNvbmZpZyAqLwptb2R1bGUuZXhwb3J0cyA9IHsKICBvdXRwdXREaXI6ICdkb2NzL21vZHVsZXMvYXBpL3BhZ2VzJywKICB0ZW1wbGF0ZXM6ICdkb2NzL3RlbXBsYXRlcycsCiAgZXhjbHVkZTogWydtb2NrcyddLAogIHBhZ2VFeHRlbnNpb246ICcuYWRvYycsCiAgcGFnZXM6IChfLCBmaWxlLCBjb25maWcpID0+IHsKICAgIC8vIEZvciBlYWNoIGNvbnRyYWN0IGZpbGUsIGZpbmQgdGhlIGNsb3Nlc3QgUkVBRE1FLmFkb2MgYW5kIHJldHVybiBpdHMgbG9jYXRpb24gYXMgdGhlIG91dHB1dCBwYWdlIHBhdGguCiAgICBjb25zdCBzb3VyY2VzRGlyID0gcGF0aC5yZXNvbHZlKGNvbmZpZy5yb290LCBjb25maWcuc291cmNlc0Rpcik7CiAgICBsZXQgZGlyID0gcGF0aC5yZXNvbHZlKGNvbmZpZy5yb290LCBmaWxlLmFic29sdXRlUGF0aCk7CiAgICB3aGlsZSAoZGlyLnN0YXJ0c1dpdGgoc291cmNlc0RpcikpIHsKICAgICAgZGlyID0gcGF0aC5kaXJuYW1lKGRpcik7CiAgICAgIGlmIChmcy5leGlzdHNTeW5jKHBhdGguam9pbihkaXIsICdSRUFETUUuYWRvYycpKSkgewogICAgICAgIHJldHVybiBwYXRoLnJlbGF0aXZlKHNvdXJjZXNEaXIsIGRpcikgKyBjb25maWcucGFnZUV4dGVuc2lvbjsKICAgICAgfQogICAgfQogIH0sCn07Cg==
+const path = require('path');
+const fs = require('fs');
+
+/** @type import('solidity-docgen/dist/config').UserConfig */
+module.exports = {
+  outputDir: 'docs/modules/api/pages',
+  templates: 'docs/templates',
+  exclude: ['mocks'],
+  pageExtension: '.adoc',
+  pages: (_, file, config) => {
+    // For each contract file, find the closest README.adoc and return its location as the output page path.
+    const sourcesDir = path.resolve(config.root, config.sourcesDir);
+    let dir = path.resolve(config.root, file.absolutePath);
+    while (dir.startsWith(sourcesDir)) {
+      dir = path.dirname(dir);
+      if (fs.existsSync(path.join(dir, 'README.adoc'))) {
+        return path.relative(sourcesDir, dir) + config.pageExtension;
+      }
+    }
+  },
+};
