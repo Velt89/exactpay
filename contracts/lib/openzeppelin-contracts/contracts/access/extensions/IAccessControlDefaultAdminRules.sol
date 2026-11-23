@@ -1,1 +1,192 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAoYWNjZXNzL2V4dGVuc2lvbnMvSUFjY2Vzc0NvbnRyb2xEZWZhdWx0QWRtaW5SdWxlcy5zb2wpCgpwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7SUFjY2Vzc0NvbnRyb2x9IGZyb20gIi4uL0lBY2Nlc3NDb250cm9sLnNvbCI7CgovKioKICogQGRldiBFeHRlcm5hbCBpbnRlcmZhY2Ugb2YgQWNjZXNzQ29udHJvbERlZmF1bHRBZG1pblJ1bGVzIGRlY2xhcmVkIHRvIHN1cHBvcnQgRVJDLTE2NSBkZXRlY3Rpb24uCiAqLwppbnRlcmZhY2UgSUFjY2Vzc0NvbnRyb2xEZWZhdWx0QWRtaW5SdWxlcyBpcyBJQWNjZXNzQ29udHJvbCB7CiAgICAvKioKICAgICAqIEBkZXYgVGhlIG5ldyBkZWZhdWx0IGFkbWluIGlzIG5vdCBhIHZhbGlkIGRlZmF1bHQgYWRtaW4uCiAgICAgKi8KICAgIGVycm9yIEFjY2Vzc0NvbnRyb2xJbnZhbGlkRGVmYXVsdEFkbWluKGFkZHJlc3MgZGVmYXVsdEFkbWluKTsKCiAgICAvKioKICAgICAqIEBkZXYgQXQgbGVhc3Qgb25lIG9mIHRoZSBmb2xsb3dpbmcgcnVsZXMgd2FzIHZpb2xhdGVkOgogICAgICoKICAgICAqIC0gVGhlIGBERUZBVUxUX0FETUlOX1JPTEVgIG11c3Qgb25seSBiZSBtYW5hZ2VkIGJ5IGl0c2VsZi4KICAgICAqIC0gVGhlIGBERUZBVUxUX0FETUlOX1JPTEVgIG11c3Qgb25seSBiZSBoZWxkIGJ5IG9uZSBhY2NvdW50IGF0IHRoZSB0aW1lLgogICAgICogLSBBbnkgYERFRkFVTFRfQURNSU5fUk9MRWAgdHJhbnNmZXIgbXVzdCBiZSBpbiB0d28gZGVsYXllZCBzdGVwcy4KICAgICAqLwogICAgZXJyb3IgQWNjZXNzQ29udHJvbEVuZm9yY2VkRGVmYXVsdEFkbWluUnVsZXMoKTsKCiAgICAvKioKICAgICAqIEBkZXYgVGhlIGRlbGF5IGZvciB0cmFuc2ZlcnJpbmcgdGhlIGRlZmF1bHQgYWRtaW4gZGVsYXkgaXMgZW5mb3JjZWQgYW5kCiAgICAgKiB0aGUgb3BlcmF0aW9uIG11c3Qgd2FpdCB1bnRpbCBgc2NoZWR1bGVgLgogICAgICoKICAgICAqIE5PVEU6IGBzY2hlZHVsZWAgY2FuIGJlIDAgaW5kaWNhdGluZyB0aGVyZSdzIG5vIHRyYW5zZmVyIHNjaGVkdWxlZC4KICAgICAqLwogICAgZXJyb3IgQWNjZXNzQ29udHJvbEVuZm9yY2VkRGVmYXVsdEFkbWluRGVsYXkodWludDQ4IHNjaGVkdWxlKTsKCiAgICAvKioKICAgICAqIEBkZXYgRW1pdHRlZCB3aGVuIGEge2RlZmF1bHRBZG1pbn0gdHJhbnNmZXIgaXMgc3RhcnRlZCwgc2V0dGluZyBgbmV3QWRtaW5gIGFzIHRoZSBuZXh0CiAgICAgKiBhZGRyZXNzIHRvIGJlY29tZSB0aGUge2RlZmF1bHRBZG1pbn0gYnkgY2FsbGluZyB7YWNjZXB0RGVmYXVsdEFkbWluVHJhbnNmZXJ9IG9ubHkgYWZ0ZXIgYGFjY2VwdFNjaGVkdWxlYAogICAgICogcGFzc2VzLgogICAgICovCiAgICBldmVudCBEZWZhdWx0QWRtaW5UcmFuc2ZlclNjaGVkdWxlZChhZGRyZXNzIGluZGV4ZWQgbmV3QWRtaW4sIHVpbnQ0OCBhY2NlcHRTY2hlZHVsZSk7CgogICAgLyoqCiAgICAgKiBAZGV2IEVtaXR0ZWQgd2hlbiBhIHtwZW5kaW5nRGVmYXVsdEFkbWlufSBpcyByZXNldCBpZiBpdCB3YXMgbmV2ZXIgYWNjZXB0ZWQsIHJlZ2FyZGxlc3Mgb2YgaXRzIHNjaGVkdWxlLgogICAgICovCiAgICBldmVudCBEZWZhdWx0QWRtaW5UcmFuc2ZlckNhbmNlbGVkKCk7CgogICAgLyoqCiAgICAgKiBAZGV2IEVtaXR0ZWQgd2hlbiBhIHtkZWZhdWx0QWRtaW5EZWxheX0gY2hhbmdlIGlzIHN0YXJ0ZWQsIHNldHRpbmcgYG5ld0RlbGF5YCBhcyB0aGUgbmV4dAogICAgICogZGVsYXkgdG8gYmUgYXBwbGllZCBiZXR3ZWVuIGRlZmF1bHQgYWRtaW4gdHJhbnNmZXIgYWZ0ZXIgYGVmZmVjdFNjaGVkdWxlYCBoYXMgcGFzc2VkLgogICAgICovCiAgICBldmVudCBEZWZhdWx0QWRtaW5EZWxheUNoYW5nZVNjaGVkdWxlZCh1aW50NDggbmV3RGVsYXksIHVpbnQ0OCBlZmZlY3RTY2hlZHVsZSk7CgogICAgLyoqCiAgICAgKiBAZGV2IEVtaXR0ZWQgd2hlbiBhIHtwZW5kaW5nRGVmYXVsdEFkbWluRGVsYXl9IGlzIHJlc2V0IGlmIGl0cyBzY2hlZHVsZSBkaWRuJ3QgcGFzcy4KICAgICAqLwogICAgZXZlbnQgRGVmYXVsdEFkbWluRGVsYXlDaGFuZ2VDYW5jZWxlZCgpOwoKICAgIC8qKgogICAgICogQGRldiBSZXR1cm5zIHRoZSBhZGRyZXNzIG9mIHRoZSBjdXJyZW50IGBERUZBVUxUX0FETUlOX1JPTEVgIGhvbGRlci4KICAgICAqLwogICAgZnVuY3Rpb24gZGVmYXVsdEFkbWluKCkgZXh0ZXJuYWwgdmlldyByZXR1cm5zIChhZGRyZXNzKTsKCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyBhIHR1cGxlIG9mIGEgYG5ld0FkbWluYCBhbmQgYW4gYWNjZXB0IHNjaGVkdWxlLgogICAgICoKICAgICAqIEFmdGVyIHRoZSBgc2NoZWR1bGVgIHBhc3NlcywgdGhlIGBuZXdBZG1pbmAgd2lsbCBiZSBhYmxlIHRvIGFjY2VwdCB0aGUge2RlZmF1bHRBZG1pbn0gcm9sZQogICAgICogYnkgY2FsbGluZyB7YWNjZXB0RGVmYXVsdEFkbWluVHJhbnNmZXJ9LCBjb21wbGV0aW5nIHRoZSByb2xlIHRyYW5zZmVyLgogICAgICoKICAgICAqIEEgemVybyB2YWx1ZSBvbmx5IGluIGBhY2NlcHRTY2hlZHVsZWAgaW5kaWNhdGVzIG5vIHBlbmRpbmcgYWRtaW4gdHJhbnNmZXIuCiAgICAgKgogICAgICogTk9URTogQSB6ZXJvIGFkZHJlc3MgYG5ld0FkbWluYCBtZWFucyB0aGF0IHtkZWZhdWx0QWRtaW59IGlzIGJlaW5nIHJlbm91bmNlZC4KICAgICAqLwogICAgZnVuY3Rpb24gcGVuZGluZ0RlZmF1bHRBZG1pbigpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAoYWRkcmVzcyBuZXdBZG1pbiwgdWludDQ4IGFjY2VwdFNjaGVkdWxlKTsKCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyB0aGUgZGVsYXkgcmVxdWlyZWQgdG8gc2NoZWR1bGUgdGhlIGFjY2VwdGFuY2Ugb2YgYSB7ZGVmYXVsdEFkbWlufSB0cmFuc2ZlciBzdGFydGVkLgogICAgICoKICAgICAqIFRoaXMgZGVsYXkgd2lsbCBiZSBhZGRlZCB0byB0aGUgY3VycmVudCB0aW1lc3RhbXAgd2hlbiBjYWxsaW5nIHtiZWdpbkRlZmF1bHRBZG1pblRyYW5zZmVyfSB0byBzZXQKICAgICAqIHRoZSBhY2NlcHRhbmNlIHNjaGVkdWxlLgogICAgICoKICAgICAqIE5PVEU6IElmIGEgZGVsYXkgY2hhbmdlIGhhcyBiZWVuIHNjaGVkdWxlZCwgaXQgd2lsbCB0YWtlIGVmZmVjdCBhcyBzb29uIGFzIHRoZSBzY2hlZHVsZSBwYXNzZXMsIG1ha2luZyB0aGlzCiAgICAgKiBmdW5jdGlvbiByZXR1cm5zIHRoZSBuZXcgZGVsYXkuIFNlZSB7Y2hhbmdlRGVmYXVsdEFkbWluRGVsYXl9LgogICAgICovCiAgICBmdW5jdGlvbiBkZWZhdWx0QWRtaW5EZWxheSgpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAodWludDQ4KTsKCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyBhIHR1cGxlIG9mIGBuZXdEZWxheWAgYW5kIGFuIGVmZmVjdCBzY2hlZHVsZS4KICAgICAqCiAgICAgKiBBZnRlciB0aGUgYHNjaGVkdWxlYCBwYXNzZXMsIHRoZSBgbmV3RGVsYXlgIHdpbGwgZ2V0IGludG8gZWZmZWN0IGltbWVkaWF0ZWx5IGZvciBldmVyeQogICAgICogbmV3IHtkZWZhdWx0QWRtaW59IHRyYW5zZmVyIHN0YXJ0ZWQgd2l0aCB7YmVnaW5EZWZhdWx0QWRtaW5UcmFuc2Zlcn0uCiAgICAgKgogICAgICogQSB6ZXJvIHZhbHVlIG9ubHkgaW4gYGVmZmVjdFNjaGVkdWxlYCBpbmRpY2F0ZXMgbm8gcGVuZGluZyBkZWxheSBjaGFuZ2UuCiAgICAgKgogICAgICogTk9URTogQSB6ZXJvIHZhbHVlIG9ubHkgZm9yIGBuZXdEZWxheWAgbWVhbnMgdGhhdCB0aGUgbmV4dCB7ZGVmYXVsdEFkbWluRGVsYXl9CiAgICAgKiB3aWxsIGJlIHplcm8gYWZ0ZXIgdGhlIGVmZmVjdCBzY2hlZHVsZS4KICAgICAqLwogICAgZnVuY3Rpb24gcGVuZGluZ0RlZmF1bHRBZG1pbkRlbGF5KCkgZXh0ZXJuYWwgdmlldyByZXR1cm5zICh1aW50NDggbmV3RGVsYXksIHVpbnQ0OCBlZmZlY3RTY2hlZHVsZSk7CgogICAgLyoqCiAgICAgKiBAZGV2IFN0YXJ0cyBhIHtkZWZhdWx0QWRtaW59IHRyYW5zZmVyIGJ5IHNldHRpbmcgYSB7cGVuZGluZ0RlZmF1bHRBZG1pbn0gc2NoZWR1bGVkIGZvciBhY2NlcHRhbmNlCiAgICAgKiBhZnRlciB0aGUgY3VycmVudCB0aW1lc3RhbXAgcGx1cyBhIHtkZWZhdWx0QWRtaW5EZWxheX0uCiAgICAgKgogICAgICogUmVxdWlyZW1lbnRzOgogICAgICoKICAgICAqIC0gT25seSBjYW4gYmUgY2FsbGVkIGJ5IHRoZSBjdXJyZW50IHtkZWZhdWx0QWRtaW59LgogICAgICoKICAgICAqIEVtaXRzIGEgRGVmYXVsdEFkbWluUm9sZUNoYW5nZVN0YXJ0ZWQgZXZlbnQuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGJlZ2luRGVmYXVsdEFkbWluVHJhbnNmZXIoYWRkcmVzcyBuZXdBZG1pbikgZXh0ZXJuYWw7CgogICAgLyoqCiAgICAgKiBAZGV2IENhbmNlbHMgYSB7ZGVmYXVsdEFkbWlufSB0cmFuc2ZlciBwcmV2aW91c2x5IHN0YXJ0ZWQgd2l0aCB7YmVnaW5EZWZhdWx0QWRtaW5UcmFuc2Zlcn0uCiAgICAgKgogICAgICogQSB7cGVuZGluZ0RlZmF1bHRBZG1pbn0gbm90IHlldCBhY2NlcHRlZCBjYW4gYWxzbyBiZSBjYW5jZWxsZWQgd2l0aCB0aGlzIGZ1bmN0aW9uLgogICAgICoKICAgICAqIFJlcXVpcmVtZW50czoKICAgICAqCiAgICAgKiAtIE9ubHkgY2FuIGJlIGNhbGxlZCBieSB0aGUgY3VycmVudCB7ZGVmYXVsdEFkbWlufS4KICAgICAqCiAgICAgKiBNYXkgZW1pdCBhIERlZmF1bHRBZG1pblRyYW5zZmVyQ2FuY2VsZWQgZXZlbnQuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGNhbmNlbERlZmF1bHRBZG1pblRyYW5zZmVyKCkgZXh0ZXJuYWw7CgogICAgLyoqCiAgICAgKiBAZGV2IENvbXBsZXRlcyBhIHtkZWZhdWx0QWRtaW59IHRyYW5zZmVyIHByZXZpb3VzbHkgc3RhcnRlZCB3aXRoIHtiZWdpbkRlZmF1bHRBZG1pblRyYW5zZmVyfS4KICAgICAqCiAgICAgKiBBZnRlciBjYWxsaW5nIHRoZSBmdW5jdGlvbjoKICAgICAqCiAgICAgKiAtIGBERUZBVUxUX0FETUlOX1JPTEVgIHNob3VsZCBiZSBncmFudGVkIHRvIHRoZSBjYWxsZXIuCiAgICAgKiAtIGBERUZBVUxUX0FETUlOX1JPTEVgIHNob3VsZCBiZSByZXZva2VkIGZyb20gdGhlIHByZXZpb3VzIGhvbGRlci4KICAgICAqIC0ge3BlbmRpbmdEZWZhdWx0QWRtaW59IHNob3VsZCBiZSByZXNldCB0byB6ZXJvIHZhbHVlcy4KICAgICAqCiAgICAgKiBSZXF1aXJlbWVudHM6CiAgICAgKgogICAgICogLSBPbmx5IGNhbiBiZSBjYWxsZWQgYnkgdGhlIHtwZW5kaW5nRGVmYXVsdEFkbWlufSdzIGBuZXdBZG1pbmAuCiAgICAgKiAtIFRoZSB7cGVuZGluZ0RlZmF1bHRBZG1pbn0ncyBgYWNjZXB0U2NoZWR1bGVgIHNob3VsZCd2ZSBwYXNzZWQuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGFjY2VwdERlZmF1bHRBZG1pblRyYW5zZmVyKCkgZXh0ZXJuYWw7CgogICAgLyoqCiAgICAgKiBAZGV2IEluaXRpYXRlcyBhIHtkZWZhdWx0QWRtaW5EZWxheX0gdXBkYXRlIGJ5IHNldHRpbmcgYSB7cGVuZGluZ0RlZmF1bHRBZG1pbkRlbGF5fSBzY2hlZHVsZWQgZm9yIGdldHRpbmcKICAgICAqIGludG8gZWZmZWN0IGFmdGVyIHRoZSBjdXJyZW50IHRpbWVzdGFtcCBwbHVzIGEge2RlZmF1bHRBZG1pbkRlbGF5fS4KICAgICAqCiAgICAgKiBUaGlzIGZ1bmN0aW9uIGd1YXJhbnRlZXMgdGhhdCBhbnkgY2FsbCB0byB7YmVnaW5EZWZhdWx0QWRtaW5UcmFuc2Zlcn0gZG9uZSBiZXR3ZWVuIHRoZSB0aW1lc3RhbXAgdGhpcwogICAgICogbWV0aG9kIGlzIGNhbGxlZCBhbmQgdGhlIHtwZW5kaW5nRGVmYXVsdEFkbWluRGVsYXl9IGVmZmVjdCBzY2hlZHVsZSB3aWxsIHVzZSB0aGUgY3VycmVudCB7ZGVmYXVsdEFkbWluRGVsYXl9CiAgICAgKiBzZXQgYmVmb3JlIGNhbGxpbmcuCiAgICAgKgogICAgICogVGhlIHtwZW5kaW5nRGVmYXVsdEFkbWluRGVsYXl9J3MgZWZmZWN0IHNjaGVkdWxlIGlzIGRlZmluZWQgaW4gYSB3YXkgdGhhdCB3YWl0aW5nIHVudGlsIHRoZSBzY2hlZHVsZSBhbmQgdGhlbgogICAgICogY2FsbGluZyB7YmVnaW5EZWZhdWx0QWRtaW5UcmFuc2Zlcn0gd2l0aCB0aGUgbmV3IGRlbGF5IHdpbGwgdGFrZSBhdCBsZWFzdCB0aGUgc2FtZSBhcyBhbm90aGVyIHtkZWZhdWx0QWRtaW59CiAgICAgKiBjb21wbGV0ZSB0cmFuc2ZlciAoaW5jbHVkaW5nIGFjY2VwdGFuY2UpLgogICAgICoKICAgICAqIFRoZSBzY2hlZHVsZSBpcyBkZXNpZ25lZCBmb3IgdHdvIHNjZW5hcmlvczoKICAgICAqCiAgICAgKiAtIFdoZW4gdGhlIGRlbGF5IGlzIGNoYW5nZWQgZm9yIGEgbGFyZ2VyIG9uZSB0aGUgc2NoZWR1bGUgaXMgYGJsb2NrLnRpbWVzdGFtcCArIG5ld0RlbGF5YCBjYXBwZWQgYnkKICAgICAqIHtkZWZhdWx0QWRtaW5EZWxheUluY3JlYXNlV2FpdH0uCiAgICAgKiAtIFdoZW4gdGhlIGRlbGF5IGlzIGNoYW5nZWQgZm9yIGEgc2hvcnRlciBvbmUsIHRoZSBzY2hlZHVsZSBpcyBgYmxvY2sudGltZXN0YW1wICsgKGN1cnJlbnQgZGVsYXkgLSBuZXcgZGVsYXkpYC4KICAgICAqCiAgICAgKiBBIHtwZW5kaW5nRGVmYXVsdEFkbWluRGVsYXl9IHRoYXQgbmV2ZXIgZ290IGludG8gZWZmZWN0IHdpbGwgYmUgY2FuY2VsZWQgaW4gZmF2b3Igb2YgYSBuZXcgc2NoZWR1bGVkIGNoYW5nZS4KICAgICAqCiAgICAgKiBSZXF1aXJlbWVudHM6CiAgICAgKgogICAgICogLSBPbmx5IGNhbiBiZSBjYWxsZWQgYnkgdGhlIGN1cnJlbnQge2RlZmF1bHRBZG1pbn0uCiAgICAgKgogICAgICogRW1pdHMgYSBEZWZhdWx0QWRtaW5EZWxheUNoYW5nZVNjaGVkdWxlZCBldmVudCBhbmQgbWF5IGVtaXQgYSBEZWZhdWx0QWRtaW5EZWxheUNoYW5nZUNhbmNlbGVkIGV2ZW50LgogICAgICovCiAgICBmdW5jdGlvbiBjaGFuZ2VEZWZhdWx0QWRtaW5EZWxheSh1aW50NDggbmV3RGVsYXkpIGV4dGVybmFsOwoKICAgIC8qKgogICAgICogQGRldiBDYW5jZWxzIGEgc2NoZWR1bGVkIHtkZWZhdWx0QWRtaW5EZWxheX0gY2hhbmdlLgogICAgICoKICAgICAqIFJlcXVpcmVtZW50czoKICAgICAqCiAgICAgKiAtIE9ubHkgY2FuIGJlIGNhbGxlZCBieSB0aGUgY3VycmVudCB7ZGVmYXVsdEFkbWlufS4KICAgICAqCiAgICAgKiBNYXkgZW1pdCBhIERlZmF1bHRBZG1pbkRlbGF5Q2hhbmdlQ2FuY2VsZWQgZXZlbnQuCiAgICAgKi8KICAgIGZ1bmN0aW9uIHJvbGxiYWNrRGVmYXVsdEFkbWluRGVsYXkoKSBleHRlcm5hbDsKCiAgICAvKioKICAgICAqIEBkZXYgTWF4aW11bSB0aW1lIGluIHNlY29uZHMgZm9yIGFuIGluY3JlYXNlIHRvIHtkZWZhdWx0QWRtaW5EZWxheX0gKHRoYXQgaXMgc2NoZWR1bGVkIHVzaW5nIHtjaGFuZ2VEZWZhdWx0QWRtaW5EZWxheX0pCiAgICAgKiB0byB0YWtlIGVmZmVjdC4gRGVmYXVsdCB0byA1IGRheXMuCiAgICAgKgogICAgICogV2hlbiB0aGUge2RlZmF1bHRBZG1pbkRlbGF5fSBpcyBzY2hlZHVsZWQgdG8gYmUgaW5jcmVhc2VkLCBpdCBnb2VzIGludG8gZWZmZWN0IGFmdGVyIHRoZSBuZXcgZGVsYXkgaGFzIHBhc3NlZCB3aXRoCiAgICAgKiB0aGUgcHVycG9zZSBvZiBnaXZpbmcgZW5vdWdoIHRpbWUgZm9yIHJldmVydGluZyBhbnkgYWNjaWRlbnRhbCBjaGFuZ2UgKGkuZS4gdXNpbmcgbWlsbGlzZWNvbmRzIGluc3RlYWQgb2Ygc2Vjb25kcykKICAgICAqIHRoYXQgbWF5IGxvY2sgdGhlIGNvbnRyYWN0LiBIb3dldmVyLCB0byBhdm9pZCBleGNlc3NpdmUgc2NoZWR1bGVzLCB0aGUgd2FpdCBpcyBjYXBwZWQgYnkgdGhpcyBmdW5jdGlvbiBhbmQgaXQgY2FuCiAgICAgKiBiZSBvdmVycm9kZSBmb3IgYSBjdXN0b20ge2RlZmF1bHRBZG1pbkRlbGF5fSBpbmNyZWFzZSBzY2hlZHVsaW5nLgogICAgICoKICAgICAqIElNUE9SVEFOVDogTWFrZSBzdXJlIHRvIGFkZCBhIHJlYXNvbmFibGUgYW1vdW50IG9mIHRpbWUgd2hpbGUgb3ZlcnJpZGluZyB0aGlzIHZhbHVlLCBvdGhlcndpc2UsCiAgICAgKiB0aGVyZSdzIGEgcmlzayBvZiBzZXR0aW5nIGEgaGlnaCBuZXcgZGVsYXkgdGhhdCBnb2VzIGludG8gZWZmZWN0IGFsbW9zdCBpbW1lZGlhdGVseSB3aXRob3V0IHRoZQogICAgICogcG9zc2liaWxpdHkgb2YgaHVtYW4gaW50ZXJ2ZW50aW9uIGluIHRoZSBjYXNlIG9mIGFuIGlucHV0IGVycm9yIChlZy4gc2V0IG1pbGxpc2Vjb25kcyBpbnN0ZWFkIG9mIHNlY29uZHMpLgogICAgICovCiAgICBmdW5jdGlvbiBkZWZhdWx0QWRtaW5EZWxheUluY3JlYXNlV2FpdCgpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAodWludDQ4KTsKfQo=
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (access/extensions/IAccessControlDefaultAdminRules.sol)
+
+pragma solidity ^0.8.20;
+
+import {IAccessControl} from "../IAccessControl.sol";
+
+/**
+ * @dev External interface of AccessControlDefaultAdminRules declared to support ERC-165 detection.
+ */
+interface IAccessControlDefaultAdminRules is IAccessControl {
+    /**
+     * @dev The new default admin is not a valid default admin.
+     */
+    error AccessControlInvalidDefaultAdmin(address defaultAdmin);
+
+    /**
+     * @dev At least one of the following rules was violated:
+     *
+     * - The `DEFAULT_ADMIN_ROLE` must only be managed by itself.
+     * - The `DEFAULT_ADMIN_ROLE` must only be held by one account at the time.
+     * - Any `DEFAULT_ADMIN_ROLE` transfer must be in two delayed steps.
+     */
+    error AccessControlEnforcedDefaultAdminRules();
+
+    /**
+     * @dev The delay for transferring the default admin delay is enforced and
+     * the operation must wait until `schedule`.
+     *
+     * NOTE: `schedule` can be 0 indicating there's no transfer scheduled.
+     */
+    error AccessControlEnforcedDefaultAdminDelay(uint48 schedule);
+
+    /**
+     * @dev Emitted when a {defaultAdmin} transfer is started, setting `newAdmin` as the next
+     * address to become the {defaultAdmin} by calling {acceptDefaultAdminTransfer} only after `acceptSchedule`
+     * passes.
+     */
+    event DefaultAdminTransferScheduled(address indexed newAdmin, uint48 acceptSchedule);
+
+    /**
+     * @dev Emitted when a {pendingDefaultAdmin} is reset if it was never accepted, regardless of its schedule.
+     */
+    event DefaultAdminTransferCanceled();
+
+    /**
+     * @dev Emitted when a {defaultAdminDelay} change is started, setting `newDelay` as the next
+     * delay to be applied between default admin transfer after `effectSchedule` has passed.
+     */
+    event DefaultAdminDelayChangeScheduled(uint48 newDelay, uint48 effectSchedule);
+
+    /**
+     * @dev Emitted when a {pendingDefaultAdminDelay} is reset if its schedule didn't pass.
+     */
+    event DefaultAdminDelayChangeCanceled();
+
+    /**
+     * @dev Returns the address of the current `DEFAULT_ADMIN_ROLE` holder.
+     */
+    function defaultAdmin() external view returns (address);
+
+    /**
+     * @dev Returns a tuple of a `newAdmin` and an accept schedule.
+     *
+     * After the `schedule` passes, the `newAdmin` will be able to accept the {defaultAdmin} role
+     * by calling {acceptDefaultAdminTransfer}, completing the role transfer.
+     *
+     * A zero value only in `acceptSchedule` indicates no pending admin transfer.
+     *
+     * NOTE: A zero address `newAdmin` means that {defaultAdmin} is being renounced.
+     */
+    function pendingDefaultAdmin() external view returns (address newAdmin, uint48 acceptSchedule);
+
+    /**
+     * @dev Returns the delay required to schedule the acceptance of a {defaultAdmin} transfer started.
+     *
+     * This delay will be added to the current timestamp when calling {beginDefaultAdminTransfer} to set
+     * the acceptance schedule.
+     *
+     * NOTE: If a delay change has been scheduled, it will take effect as soon as the schedule passes, making this
+     * function returns the new delay. See {changeDefaultAdminDelay}.
+     */
+    function defaultAdminDelay() external view returns (uint48);
+
+    /**
+     * @dev Returns a tuple of `newDelay` and an effect schedule.
+     *
+     * After the `schedule` passes, the `newDelay` will get into effect immediately for every
+     * new {defaultAdmin} transfer started with {beginDefaultAdminTransfer}.
+     *
+     * A zero value only in `effectSchedule` indicates no pending delay change.
+     *
+     * NOTE: A zero value only for `newDelay` means that the next {defaultAdminDelay}
+     * will be zero after the effect schedule.
+     */
+    function pendingDefaultAdminDelay() external view returns (uint48 newDelay, uint48 effectSchedule);
+
+    /**
+     * @dev Starts a {defaultAdmin} transfer by setting a {pendingDefaultAdmin} scheduled for acceptance
+     * after the current timestamp plus a {defaultAdminDelay}.
+     *
+     * Requirements:
+     *
+     * - Only can be called by the current {defaultAdmin}.
+     *
+     * Emits a DefaultAdminRoleChangeStarted event.
+     */
+    function beginDefaultAdminTransfer(address newAdmin) external;
+
+    /**
+     * @dev Cancels a {defaultAdmin} transfer previously started with {beginDefaultAdminTransfer}.
+     *
+     * A {pendingDefaultAdmin} not yet accepted can also be cancelled with this function.
+     *
+     * Requirements:
+     *
+     * - Only can be called by the current {defaultAdmin}.
+     *
+     * May emit a DefaultAdminTransferCanceled event.
+     */
+    function cancelDefaultAdminTransfer() external;
+
+    /**
+     * @dev Completes a {defaultAdmin} transfer previously started with {beginDefaultAdminTransfer}.
+     *
+     * After calling the function:
+     *
+     * - `DEFAULT_ADMIN_ROLE` should be granted to the caller.
+     * - `DEFAULT_ADMIN_ROLE` should be revoked from the previous holder.
+     * - {pendingDefaultAdmin} should be reset to zero values.
+     *
+     * Requirements:
+     *
+     * - Only can be called by the {pendingDefaultAdmin}'s `newAdmin`.
+     * - The {pendingDefaultAdmin}'s `acceptSchedule` should've passed.
+     */
+    function acceptDefaultAdminTransfer() external;
+
+    /**
+     * @dev Initiates a {defaultAdminDelay} update by setting a {pendingDefaultAdminDelay} scheduled for getting
+     * into effect after the current timestamp plus a {defaultAdminDelay}.
+     *
+     * This function guarantees that any call to {beginDefaultAdminTransfer} done between the timestamp this
+     * method is called and the {pendingDefaultAdminDelay} effect schedule will use the current {defaultAdminDelay}
+     * set before calling.
+     *
+     * The {pendingDefaultAdminDelay}'s effect schedule is defined in a way that waiting until the schedule and then
+     * calling {beginDefaultAdminTransfer} with the new delay will take at least the same as another {defaultAdmin}
+     * complete transfer (including acceptance).
+     *
+     * The schedule is designed for two scenarios:
+     *
+     * - When the delay is changed for a larger one the schedule is `block.timestamp + newDelay` capped by
+     * {defaultAdminDelayIncreaseWait}.
+     * - When the delay is changed for a shorter one, the schedule is `block.timestamp + (current delay - new delay)`.
+     *
+     * A {pendingDefaultAdminDelay} that never got into effect will be canceled in favor of a new scheduled change.
+     *
+     * Requirements:
+     *
+     * - Only can be called by the current {defaultAdmin}.
+     *
+     * Emits a DefaultAdminDelayChangeScheduled event and may emit a DefaultAdminDelayChangeCanceled event.
+     */
+    function changeDefaultAdminDelay(uint48 newDelay) external;
+
+    /**
+     * @dev Cancels a scheduled {defaultAdminDelay} change.
+     *
+     * Requirements:
+     *
+     * - Only can be called by the current {defaultAdmin}.
+     *
+     * May emit a DefaultAdminDelayChangeCanceled event.
+     */
+    function rollbackDefaultAdminDelay() external;
+
+    /**
+     * @dev Maximum time in seconds for an increase to {defaultAdminDelay} (that is scheduled using {changeDefaultAdminDelay})
+     * to take effect. Default to 5 days.
+     *
+     * When the {defaultAdminDelay} is scheduled to be increased, it goes into effect after the new delay has passed with
+     * the purpose of giving enough time for reverting any accidental change (i.e. using milliseconds instead of seconds)
+     * that may lock the contract. However, to avoid excessive schedules, the wait is capped by this function and it can
+     * be overrode for a custom {defaultAdminDelay} increase scheduling.
+     *
+     * IMPORTANT: Make sure to add a reasonable amount of time while overriding this value, otherwise,
+     * there's a risk of setting a high new delay that goes into effect almost immediately without the
+     * possibility of human intervention in the case of an input error (eg. set milliseconds instead of seconds).
+     */
+    function defaultAdminDelayIncreaseWait() external view returns (uint48);
+}
