@@ -1,1 +1,21 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7RVJDMjB9IGZyb20gIi4uLy4uLy4uL3Rva2VuL0VSQzIwL0VSQzIwLnNvbCI7CmltcG9ydCB7RVJDMjBQZXJtaXR9IGZyb20gIi4uLy4uLy4uL3Rva2VuL0VSQzIwL2V4dGVuc2lvbnMvRVJDMjBQZXJtaXQuc29sIjsKaW1wb3J0IHtFUkMyMFZvdGVzfSBmcm9tICIuLi8uLi8uLi90b2tlbi9FUkMyMC9leHRlbnNpb25zL0VSQzIwVm90ZXMuc29sIjsKaW1wb3J0IHtOb25jZXN9IGZyb20gIi4uLy4uLy4uL3V0aWxzL05vbmNlcy5zb2wiOwoKY29udHJhY3QgTXlUb2tlbiBpcyBFUkMyMCwgRVJDMjBQZXJtaXQsIEVSQzIwVm90ZXMgewogICAgY29uc3RydWN0b3IoKSBFUkMyMCgiTXlUb2tlbiIsICJNVEsiKSBFUkMyMFBlcm1pdCgiTXlUb2tlbiIpIHt9CgogICAgLy8gVGhlIGZ1bmN0aW9ucyBiZWxvdyBhcmUgb3ZlcnJpZGVzIHJlcXVpcmVkIGJ5IFNvbGlkaXR5LgoKICAgIGZ1bmN0aW9uIF91cGRhdGUoYWRkcmVzcyBmcm9tLCBhZGRyZXNzIHRvLCB1aW50MjU2IGFtb3VudCkgaW50ZXJuYWwgb3ZlcnJpZGUoRVJDMjAsIEVSQzIwVm90ZXMpIHsKICAgICAgICBzdXBlci5fdXBkYXRlKGZyb20sIHRvLCBhbW91bnQpOwogICAgfQoKICAgIGZ1bmN0aW9uIG5vbmNlcyhhZGRyZXNzIG93bmVyKSBwdWJsaWMgdmlldyB2aXJ0dWFsIG92ZXJyaWRlKEVSQzIwUGVybWl0LCBOb25jZXMpIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXR1cm4gc3VwZXIubm9uY2VzKG93bmVyKTsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+import {ERC20} from "../../../token/ERC20/ERC20.sol";
+import {ERC20Permit} from "../../../token/ERC20/extensions/ERC20Permit.sol";
+import {ERC20Votes} from "../../../token/ERC20/extensions/ERC20Votes.sol";
+import {Nonces} from "../../../utils/Nonces.sol";
+
+contract MyToken is ERC20, ERC20Permit, ERC20Votes {
+    constructor() ERC20("MyToken", "MTK") ERC20Permit("MyToken") {}
+
+    // The functions below are overrides required by Solidity.
+
+    function _update(address from, address to, uint256 amount) internal override(ERC20, ERC20Votes) {
+        super._update(from, to, amount);
+    }
+
+    function nonces(address owner) public view virtual override(ERC20Permit, Nonces) returns (uint256) {
+        return super.nonces(owner);
+    }
+}
