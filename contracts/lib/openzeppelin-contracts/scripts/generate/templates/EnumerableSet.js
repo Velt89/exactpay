@@ -1,1 +1,249 @@
-Y29uc3QgZm9ybWF0ID0gcmVxdWlyZSgnLi4vZm9ybWF0LWxpbmVzJyk7CmNvbnN0IHsgZnJvbUJ5dGVzMzIsIHRvQnl0ZXMzMiB9ID0gcmVxdWlyZSgnLi9jb252ZXJzaW9uJyk7CmNvbnN0IHsgVFlQRVMgfSA9IHJlcXVpcmUoJy4vRW51bWVyYWJsZVNldC5vcHRzJyk7CgovKiBlc2xpbnQtZGlzYWJsZSBtYXgtbGVuICovCmNvbnN0IGhlYWRlciA9IGBcCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKLyoqCiAqIEBkZXYgTGlicmFyeSBmb3IgbWFuYWdpbmcKICogaHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvU2V0XyhhYnN0cmFjdF9kYXRhX3R5cGUpW3NldHNdIG9mIHByaW1pdGl2ZQogKiB0eXBlcy4KICoKICogU2V0cyBoYXZlIHRoZSBmb2xsb3dpbmcgcHJvcGVydGllczoKICoKICogLSBFbGVtZW50cyBhcmUgYWRkZWQsIHJlbW92ZWQsIGFuZCBjaGVja2VkIGZvciBleGlzdGVuY2UgaW4gY29uc3RhbnQgdGltZQogKiAoTygxKSkuCiAqIC0gRWxlbWVudHMgYXJlIGVudW1lcmF0ZWQgaW4gTyhuKS4gTm8gZ3VhcmFudGVlcyBhcmUgbWFkZSBvbiB0aGUgb3JkZXJpbmcuCiAqCiAqIFxgXGBcYHNvbGlkaXR5CiAqIGNvbnRyYWN0IEV4YW1wbGUgewogKiAgICAgLy8gQWRkIHRoZSBsaWJyYXJ5IG1ldGhvZHMKICogICAgIHVzaW5nIEVudW1lcmFibGVTZXQgZm9yIEVudW1lcmFibGVTZXQuQWRkcmVzc1NldDsKICoKICogICAgIC8vIERlY2xhcmUgYSBzZXQgc3RhdGUgdmFyaWFibGUKICogICAgIEVudW1lcmFibGVTZXQuQWRkcmVzc1NldCBwcml2YXRlIG15U2V0OwogKiB9CiAqIFxgXGBcYAogKgogKiBBcyBvZiB2My4zLjAsIHNldHMgb2YgdHlwZSBcYGJ5dGVzMzJcYCAoXGBCeXRlczMyU2V0XGApLCBcYGFkZHJlc3NcYCAoXGBBZGRyZXNzU2V0XGApCiAqIGFuZCBcYHVpbnQyNTZcYCAoXGBVaW50U2V0XGApIGFyZSBzdXBwb3J0ZWQuCiAqCiAqIFtXQVJOSU5HXQogKiA9PT09CiAqIFRyeWluZyB0byBkZWxldGUgc3VjaCBhIHN0cnVjdHVyZSBmcm9tIHN0b3JhZ2Ugd2lsbCBsaWtlbHkgcmVzdWx0IGluIGRhdGEgY29ycnVwdGlvbiwgcmVuZGVyaW5nIHRoZSBzdHJ1Y3R1cmUKICogdW51c2FibGUuCiAqIFNlZSBodHRwczovL2dpdGh1Yi5jb20vZXRoZXJldW0vc29saWRpdHkvcHVsbC8xMTg0M1tldGhlcmV1bS9zb2xpZGl0eSMxMTg0M10gZm9yIG1vcmUgaW5mby4KICoKICogSW4gb3JkZXIgdG8gY2xlYW4gYW4gRW51bWVyYWJsZVNldCwgeW91IGNhbiBlaXRoZXIgcmVtb3ZlIGFsbCBlbGVtZW50cyBvbmUgYnkgb25lIG9yIGNyZWF0ZSBhIGZyZXNoIGluc3RhbmNlIHVzaW5nIGFuCiAqIGFycmF5IG9mIEVudW1lcmFibGVTZXQuCiAqID09PT0KICovCmA7Ci8qIGVzbGludC1lbmFibGUgbWF4LWxlbiAqLwoKY29uc3QgZGVmYXVsdFNldCA9IGBcCi8vIFRvIGltcGxlbWVudCB0aGlzIGxpYnJhcnkgZm9yIG11bHRpcGxlIHR5cGVzIHdpdGggYXMgbGl0dGxlIGNvZGUKLy8gcmVwZXRpdGlvbiBhcyBwb3NzaWJsZSwgd2Ugd3JpdGUgaXQgaW4gdGVybXMgb2YgYSBnZW5lcmljIFNldCB0eXBlIHdpdGgKLy8gYnl0ZXMzMiB2YWx1ZXMuCi8vIFRoZSBTZXQgaW1wbGVtZW50YXRpb24gdXNlcyBwcml2YXRlIGZ1bmN0aW9ucywgYW5kIHVzZXItZmFjaW5nCi8vIGltcGxlbWVudGF0aW9ucyAoc3VjaCBhcyBBZGRyZXNzU2V0KSBhcmUganVzdCB3cmFwcGVycyBhcm91bmQgdGhlCi8vIHVuZGVybHlpbmcgU2V0LgovLyBUaGlzIG1lYW5zIHRoYXQgd2UgY2FuIG9ubHkgY3JlYXRlIG5ldyBFbnVtZXJhYmxlU2V0cyBmb3IgdHlwZXMgdGhhdCBmaXQKLy8gaW4gYnl0ZXMzMi4KCnN0cnVjdCBTZXQgewogICAgLy8gU3RvcmFnZSBvZiBzZXQgdmFsdWVzCiAgICBieXRlczMyW10gX3ZhbHVlczsKICAgIC8vIFBvc2l0aW9uIGlzIHRoZSBpbmRleCBvZiB0aGUgdmFsdWUgaW4gdGhlIFxgdmFsdWVzXGAgYXJyYXkgcGx1cyAxLgogICAgLy8gUG9zaXRpb24gMCBpcyB1c2VkIHRvIG1lYW4gYSB2YWx1ZSBpcyBub3QgaW4gdGhlIHNldC4KICAgIG1hcHBpbmcoYnl0ZXMzMiB2YWx1ZSA9PiB1aW50MjU2KSBfcG9zaXRpb25zOwp9CgovKioKICogQGRldiBBZGQgYSB2YWx1ZSB0byBhIHNldC4gTygxKS4KICoKICogUmV0dXJucyB0cnVlIGlmIHRoZSB2YWx1ZSB3YXMgYWRkZWQgdG8gdGhlIHNldCwgdGhhdCBpcyBpZiBpdCB3YXMgbm90CiAqIGFscmVhZHkgcHJlc2VudC4KICovCmZ1bmN0aW9uIF9hZGQoU2V0IHN0b3JhZ2Ugc2V0LCBieXRlczMyIHZhbHVlKSBwcml2YXRlIHJldHVybnMgKGJvb2wpIHsKICAgIGlmICghX2NvbnRhaW5zKHNldCwgdmFsdWUpKSB7CiAgICAgICAgc2V0Ll92YWx1ZXMucHVzaCh2YWx1ZSk7CiAgICAgICAgLy8gVGhlIHZhbHVlIGlzIHN0b3JlZCBhdCBsZW5ndGgtMSwgYnV0IHdlIGFkZCAxIHRvIGFsbCBpbmRleGVzCiAgICAgICAgLy8gYW5kIHVzZSAwIGFzIGEgc2VudGluZWwgdmFsdWUKICAgICAgICBzZXQuX3Bvc2l0aW9uc1t2YWx1ZV0gPSBzZXQuX3ZhbHVlcy5sZW5ndGg7CiAgICAgICAgcmV0dXJuIHRydWU7CiAgICB9IGVsc2UgewogICAgICAgIHJldHVybiBmYWxzZTsKICAgIH0KfQoKLyoqCiAqIEBkZXYgUmVtb3ZlcyBhIHZhbHVlIGZyb20gYSBzZXQuIE8oMSkuCiAqCiAqIFJldHVybnMgdHJ1ZSBpZiB0aGUgdmFsdWUgd2FzIHJlbW92ZWQgZnJvbSB0aGUgc2V0LCB0aGF0IGlzIGlmIGl0IHdhcwogKiBwcmVzZW50LgogKi8KZnVuY3Rpb24gX3JlbW92ZShTZXQgc3RvcmFnZSBzZXQsIGJ5dGVzMzIgdmFsdWUpIHByaXZhdGUgcmV0dXJucyAoYm9vbCkgewogICAgLy8gV2UgY2FjaGUgdGhlIHZhbHVlJ3MgcG9zaXRpb24gdG8gcHJldmVudCBtdWx0aXBsZSByZWFkcyBmcm9tIHRoZSBzYW1lIHN0b3JhZ2Ugc2xvdAogICAgdWludDI1NiBwb3NpdGlvbiA9IHNldC5fcG9zaXRpb25zW3ZhbHVlXTsKCiAgICBpZiAocG9zaXRpb24gIT0gMCkgewogICAgICAgIC8vIEVxdWl2YWxlbnQgdG8gY29udGFpbnMoc2V0LCB2YWx1ZSkKICAgICAgICAvLyBUbyBkZWxldGUgYW4gZWxlbWVudCBmcm9tIHRoZSBfdmFsdWVzIGFycmF5IGluIE8oMSksIHdlIHN3YXAgdGhlIGVsZW1lbnQgdG8gZGVsZXRlIHdpdGggdGhlIGxhc3Qgb25lIGluCiAgICAgICAgLy8gdGhlIGFycmF5LCBhbmQgdGhlbiByZW1vdmUgdGhlIGxhc3QgZWxlbWVudCAoc29tZXRpbWVzIGNhbGxlZCBhcyAnc3dhcCBhbmQgcG9wJykuCiAgICAgICAgLy8gVGhpcyBtb2RpZmllcyB0aGUgb3JkZXIgb2YgdGhlIGFycmF5LCBhcyBub3RlZCBpbiB7YXR9LgoKICAgICAgICB1aW50MjU2IHZhbHVlSW5kZXggPSBwb3NpdGlvbiAtIDE7CiAgICAgICAgdWludDI1NiBsYXN0SW5kZXggPSBzZXQuX3ZhbHVlcy5sZW5ndGggLSAxOwoKICAgICAgICBpZiAodmFsdWVJbmRleCAhPSBsYXN0SW5kZXgpIHsKICAgICAgICAgICAgYnl0ZXMzMiBsYXN0VmFsdWUgPSBzZXQuX3ZhbHVlc1tsYXN0SW5kZXhdOwoKICAgICAgICAgICAgLy8gTW92ZSB0aGUgbGFzdFZhbHVlIHRvIHRoZSBpbmRleCB3aGVyZSB0aGUgdmFsdWUgdG8gZGVsZXRlIGlzCiAgICAgICAgICAgIHNldC5fdmFsdWVzW3ZhbHVlSW5kZXhdID0gbGFzdFZhbHVlOwogICAgICAgICAgICAvLyBVcGRhdGUgdGhlIHRyYWNrZWQgcG9zaXRpb24gb2YgdGhlIGxhc3RWYWx1ZSAodGhhdCB3YXMganVzdCBtb3ZlZCkKICAgICAgICAgICAgc2V0Ll9wb3NpdGlvbnNbbGFzdFZhbHVlXSA9IHBvc2l0aW9uOwogICAgICAgIH0KCiAgICAgICAgLy8gRGVsZXRlIHRoZSBzbG90IHdoZXJlIHRoZSBtb3ZlZCB2YWx1ZSB3YXMgc3RvcmVkCiAgICAgICAgc2V0Ll92YWx1ZXMucG9wKCk7CgogICAgICAgIC8vIERlbGV0ZSB0aGUgdHJhY2tlZCBwb3NpdGlvbiBmb3IgdGhlIGRlbGV0ZWQgc2xvdAogICAgICAgIGRlbGV0ZSBzZXQuX3Bvc2l0aW9uc1t2YWx1ZV07CgogICAgICAgIHJldHVybiB0cnVlOwogICAgfSBlbHNlIHsKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICB9Cn0KCi8qKgogKiBAZGV2IFJldHVybnMgdHJ1ZSBpZiB0aGUgdmFsdWUgaXMgaW4gdGhlIHNldC4gTygxKS4KICovCmZ1bmN0aW9uIF9jb250YWlucyhTZXQgc3RvcmFnZSBzZXQsIGJ5dGVzMzIgdmFsdWUpIHByaXZhdGUgdmlldyByZXR1cm5zIChib29sKSB7CiAgICByZXR1cm4gc2V0Ll9wb3NpdGlvbnNbdmFsdWVdICE9IDA7Cn0KCi8qKgogKiBAZGV2IFJldHVybnMgdGhlIG51bWJlciBvZiB2YWx1ZXMgb24gdGhlIHNldC4gTygxKS4KICovCmZ1bmN0aW9uIF9sZW5ndGgoU2V0IHN0b3JhZ2Ugc2V0KSBwcml2YXRlIHZpZXcgcmV0dXJucyAodWludDI1NikgewogICAgcmV0dXJuIHNldC5fdmFsdWVzLmxlbmd0aDsKfQoKLyoqCiAqIEBkZXYgUmV0dXJucyB0aGUgdmFsdWUgc3RvcmVkIGF0IHBvc2l0aW9uIFxgaW5kZXhcYCBpbiB0aGUgc2V0LiBPKDEpLgogKgogKiBOb3RlIHRoYXQgdGhlcmUgYXJlIG5vIGd1YXJhbnRlZXMgb24gdGhlIG9yZGVyaW5nIG9mIHZhbHVlcyBpbnNpZGUgdGhlCiAqIGFycmF5LCBhbmQgaXQgbWF5IGNoYW5nZSB3aGVuIG1vcmUgdmFsdWVzIGFyZSBhZGRlZCBvciByZW1vdmVkLgogKgogKiBSZXF1aXJlbWVudHM6CiAqCiAqIC0gXGBpbmRleFxgIG11c3QgYmUgc3RyaWN0bHkgbGVzcyB0aGFuIHtsZW5ndGh9LgogKi8KZnVuY3Rpb24gX2F0KFNldCBzdG9yYWdlIHNldCwgdWludDI1NiBpbmRleCkgcHJpdmF0ZSB2aWV3IHJldHVybnMgKGJ5dGVzMzIpIHsKICAgIHJldHVybiBzZXQuX3ZhbHVlc1tpbmRleF07Cn0KCi8qKgogKiBAZGV2IFJldHVybiB0aGUgZW50aXJlIHNldCBpbiBhbiBhcnJheQogKgogKiBXQVJOSU5HOiBUaGlzIG9wZXJhdGlvbiB3aWxsIGNvcHkgdGhlIGVudGlyZSBzdG9yYWdlIHRvIG1lbW9yeSwgd2hpY2ggY2FuIGJlIHF1aXRlIGV4cGVuc2l2ZS4gVGhpcyBpcyBkZXNpZ25lZAogKiB0byBtb3N0bHkgYmUgdXNlZCBieSB2aWV3IGFjY2Vzc29ycyB0aGF0IGFyZSBxdWVyaWVkIHdpdGhvdXQgYW55IGdhcyBmZWVzLiBEZXZlbG9wZXJzIHNob3VsZCBrZWVwIGluIG1pbmQgdGhhdAogKiB0aGlzIGZ1bmN0aW9uIGhhcyBhbiB1bmJvdW5kZWQgY29zdCwgYW5kIHVzaW5nIGl0IGFzIHBhcnQgb2YgYSBzdGF0ZS1jaGFuZ2luZyBmdW5jdGlvbiBtYXkgcmVuZGVyIHRoZSBmdW5jdGlvbgogKiB1bmNhbGxhYmxlIGlmIHRoZSBzZXQgZ3Jvd3MgdG8gYSBwb2ludCB3aGVyZSBjb3B5aW5nIHRvIG1lbW9yeSBjb25zdW1lcyB0b28gbXVjaCBnYXMgdG8gZml0IGluIGEgYmxvY2suCiAqLwpmdW5jdGlvbiBfdmFsdWVzKFNldCBzdG9yYWdlIHNldCkgcHJpdmF0ZSB2aWV3IHJldHVybnMgKGJ5dGVzMzJbXSBtZW1vcnkpIHsKICAgIHJldHVybiBzZXQuX3ZhbHVlczsKfQpgOwoKY29uc3QgY3VzdG9tU2V0ID0gKHsgbmFtZSwgdHlwZSB9KSA9PiBgXAovLyAke25hbWV9CgpzdHJ1Y3QgJHtuYW1lfSB7CiAgICBTZXQgX2lubmVyOwp9CgovKioKICogQGRldiBBZGQgYSB2YWx1ZSB0byBhIHNldC4gTygxKS4KICoKICogUmV0dXJucyB0cnVlIGlmIHRoZSB2YWx1ZSB3YXMgYWRkZWQgdG8gdGhlIHNldCwgdGhhdCBpcyBpZiBpdCB3YXMgbm90CiAqIGFscmVhZHkgcHJlc2VudC4KICovCmZ1bmN0aW9uIGFkZCgke25hbWV9IHN0b3JhZ2Ugc2V0LCAke3R5cGV9IHZhbHVlKSBpbnRlcm5hbCByZXR1cm5zIChib29sKSB7CiAgICByZXR1cm4gX2FkZChzZXQuX2lubmVyLCAke3RvQnl0ZXMzMih0eXBlLCAndmFsdWUnKX0pOwp9CgovKioKICogQGRldiBSZW1vdmVzIGEgdmFsdWUgZnJvbSBhIHNldC4gTygxKS4KICoKICogUmV0dXJucyB0cnVlIGlmIHRoZSB2YWx1ZSB3YXMgcmVtb3ZlZCBmcm9tIHRoZSBzZXQsIHRoYXQgaXMgaWYgaXQgd2FzCiAqIHByZXNlbnQuCiAqLwpmdW5jdGlvbiByZW1vdmUoJHtuYW1lfSBzdG9yYWdlIHNldCwgJHt0eXBlfSB2YWx1ZSkgaW50ZXJuYWwgcmV0dXJucyAoYm9vbCkgewogICAgcmV0dXJuIF9yZW1vdmUoc2V0Ll9pbm5lciwgJHt0b0J5dGVzMzIodHlwZSwgJ3ZhbHVlJyl9KTsKfQoKLyoqCiAqIEBkZXYgUmV0dXJucyB0cnVlIGlmIHRoZSB2YWx1ZSBpcyBpbiB0aGUgc2V0LiBPKDEpLgogKi8KZnVuY3Rpb24gY29udGFpbnMoJHtuYW1lfSBzdG9yYWdlIHNldCwgJHt0eXBlfSB2YWx1ZSkgaW50ZXJuYWwgdmlldyByZXR1cm5zIChib29sKSB7CiAgICByZXR1cm4gX2NvbnRhaW5zKHNldC5faW5uZXIsICR7dG9CeXRlczMyKHR5cGUsICd2YWx1ZScpfSk7Cn0KCi8qKgogKiBAZGV2IFJldHVybnMgdGhlIG51bWJlciBvZiB2YWx1ZXMgaW4gdGhlIHNldC4gTygxKS4KICovCmZ1bmN0aW9uIGxlbmd0aCgke25hbWV9IHN0b3JhZ2Ugc2V0KSBpbnRlcm5hbCB2aWV3IHJldHVybnMgKHVpbnQyNTYpIHsKICAgIHJldHVybiBfbGVuZ3RoKHNldC5faW5uZXIpOwp9CgovKioKICogQGRldiBSZXR1cm5zIHRoZSB2YWx1ZSBzdG9yZWQgYXQgcG9zaXRpb24gXGBpbmRleFxgIGluIHRoZSBzZXQuIE8oMSkuCiAqCiAqIE5vdGUgdGhhdCB0aGVyZSBhcmUgbm8gZ3VhcmFudGVlcyBvbiB0aGUgb3JkZXJpbmcgb2YgdmFsdWVzIGluc2lkZSB0aGUKICogYXJyYXksIGFuZCBpdCBtYXkgY2hhbmdlIHdoZW4gbW9yZSB2YWx1ZXMgYXJlIGFkZGVkIG9yIHJlbW92ZWQuCiAqCiAqIFJlcXVpcmVtZW50czoKICoKICogLSBcYGluZGV4XGAgbXVzdCBiZSBzdHJpY3RseSBsZXNzIHRoYW4ge2xlbmd0aH0uCiAqLwpmdW5jdGlvbiBhdCgke25hbWV9IHN0b3JhZ2Ugc2V0LCB1aW50MjU2IGluZGV4KSBpbnRlcm5hbCB2aWV3IHJldHVybnMgKCR7dHlwZX0pIHsKICAgIHJldHVybiAke2Zyb21CeXRlczMyKHR5cGUsICdfYXQoc2V0Ll9pbm5lciwgaW5kZXgpJyl9Owp9CgovKioKICogQGRldiBSZXR1cm4gdGhlIGVudGlyZSBzZXQgaW4gYW4gYXJyYXkKICoKICogV0FSTklORzogVGhpcyBvcGVyYXRpb24gd2lsbCBjb3B5IHRoZSBlbnRpcmUgc3RvcmFnZSB0byBtZW1vcnksIHdoaWNoIGNhbiBiZSBxdWl0ZSBleHBlbnNpdmUuIFRoaXMgaXMgZGVzaWduZWQKICogdG8gbW9zdGx5IGJlIHVzZWQgYnkgdmlldyBhY2Nlc3NvcnMgdGhhdCBhcmUgcXVlcmllZCB3aXRob3V0IGFueSBnYXMgZmVlcy4gRGV2ZWxvcGVycyBzaG91bGQga2VlcCBpbiBtaW5kIHRoYXQKICogdGhpcyBmdW5jdGlvbiBoYXMgYW4gdW5ib3VuZGVkIGNvc3QsIGFuZCB1c2luZyBpdCBhcyBwYXJ0IG9mIGEgc3RhdGUtY2hhbmdpbmcgZnVuY3Rpb24gbWF5IHJlbmRlciB0aGUgZnVuY3Rpb24KICogdW5jYWxsYWJsZSBpZiB0aGUgc2V0IGdyb3dzIHRvIGEgcG9pbnQgd2hlcmUgY29weWluZyB0byBtZW1vcnkgY29uc3VtZXMgdG9vIG11Y2ggZ2FzIHRvIGZpdCBpbiBhIGJsb2NrLgogKi8KZnVuY3Rpb24gdmFsdWVzKCR7bmFtZX0gc3RvcmFnZSBzZXQpIGludGVybmFsIHZpZXcgcmV0dXJucyAoJHt0eXBlfVtdIG1lbW9yeSkgewogICAgYnl0ZXMzMltdIG1lbW9yeSBzdG9yZSA9IF92YWx1ZXMoc2V0Ll9pbm5lcik7CiAgICAke3R5cGV9W10gbWVtb3J5IHJlc3VsdDsKCiAgICBhc3NlbWJseSAoIm1lbW9yeS1zYWZlIikgewogICAgICAgIHJlc3VsdCA6PSBzdG9yZQogICAgfQoKICAgIHJldHVybiByZXN1bHQ7Cn0KYDsKCi8vIEdFTkVSQVRFCm1vZHVsZS5leHBvcnRzID0gZm9ybWF0KAogIGhlYWRlci50cmltRW5kKCksCiAgJ2xpYnJhcnkgRW51bWVyYWJsZVNldCB7JywKICBmb3JtYXQoCiAgICBbXS5jb25jYXQoCiAgICAgIGRlZmF1bHRTZXQsCiAgICAgIFRZUEVTLm1hcChkZXRhaWxzID0+IGN1c3RvbVNldChkZXRhaWxzKSksCiAgICApLAogICkudHJpbUVuZCgpLAogICd9JywKKTsK
+const format = require('../format-lines');
+const { fromBytes32, toBytes32 } = require('./conversion');
+const { TYPES } = require('./EnumerableSet.opts');
+
+/* eslint-disable max-len */
+const header = `\
+pragma solidity ^0.8.20;
+
+/**
+ * @dev Library for managing
+ * https://en.wikipedia.org/wiki/Set_(abstract_data_type)[sets] of primitive
+ * types.
+ *
+ * Sets have the following properties:
+ *
+ * - Elements are added, removed, and checked for existence in constant time
+ * (O(1)).
+ * - Elements are enumerated in O(n). No guarantees are made on the ordering.
+ *
+ * \`\`\`solidity
+ * contract Example {
+ *     // Add the library methods
+ *     using EnumerableSet for EnumerableSet.AddressSet;
+ *
+ *     // Declare a set state variable
+ *     EnumerableSet.AddressSet private mySet;
+ * }
+ * \`\`\`
+ *
+ * As of v3.3.0, sets of type \`bytes32\` (\`Bytes32Set\`), \`address\` (\`AddressSet\`)
+ * and \`uint256\` (\`UintSet\`) are supported.
+ *
+ * [WARNING]
+ * ====
+ * Trying to delete such a structure from storage will likely result in data corruption, rendering the structure
+ * unusable.
+ * See https://github.com/ethereum/solidity/pull/11843[ethereum/solidity#11843] for more info.
+ *
+ * In order to clean an EnumerableSet, you can either remove all elements one by one or create a fresh instance using an
+ * array of EnumerableSet.
+ * ====
+ */
+`;
+/* eslint-enable max-len */
+
+const defaultSet = `\
+// To implement this library for multiple types with as little code
+// repetition as possible, we write it in terms of a generic Set type with
+// bytes32 values.
+// The Set implementation uses private functions, and user-facing
+// implementations (such as AddressSet) are just wrappers around the
+// underlying Set.
+// This means that we can only create new EnumerableSets for types that fit
+// in bytes32.
+
+struct Set {
+    // Storage of set values
+    bytes32[] _values;
+    // Position is the index of the value in the \`values\` array plus 1.
+    // Position 0 is used to mean a value is not in the set.
+    mapping(bytes32 value => uint256) _positions;
+}
+
+/**
+ * @dev Add a value to a set. O(1).
+ *
+ * Returns true if the value was added to the set, that is if it was not
+ * already present.
+ */
+function _add(Set storage set, bytes32 value) private returns (bool) {
+    if (!_contains(set, value)) {
+        set._values.push(value);
+        // The value is stored at length-1, but we add 1 to all indexes
+        // and use 0 as a sentinel value
+        set._positions[value] = set._values.length;
+        return true;
+    } else {
+        return false;
+    }
+}
+
+/**
+ * @dev Removes a value from a set. O(1).
+ *
+ * Returns true if the value was removed from the set, that is if it was
+ * present.
+ */
+function _remove(Set storage set, bytes32 value) private returns (bool) {
+    // We cache the value's position to prevent multiple reads from the same storage slot
+    uint256 position = set._positions[value];
+
+    if (position != 0) {
+        // Equivalent to contains(set, value)
+        // To delete an element from the _values array in O(1), we swap the element to delete with the last one in
+        // the array, and then remove the last element (sometimes called as 'swap and pop').
+        // This modifies the order of the array, as noted in {at}.
+
+        uint256 valueIndex = position - 1;
+        uint256 lastIndex = set._values.length - 1;
+
+        if (valueIndex != lastIndex) {
+            bytes32 lastValue = set._values[lastIndex];
+
+            // Move the lastValue to the index where the value to delete is
+            set._values[valueIndex] = lastValue;
+            // Update the tracked position of the lastValue (that was just moved)
+            set._positions[lastValue] = position;
+        }
+
+        // Delete the slot where the moved value was stored
+        set._values.pop();
+
+        // Delete the tracked position for the deleted slot
+        delete set._positions[value];
+
+        return true;
+    } else {
+        return false;
+    }
+}
+
+/**
+ * @dev Returns true if the value is in the set. O(1).
+ */
+function _contains(Set storage set, bytes32 value) private view returns (bool) {
+    return set._positions[value] != 0;
+}
+
+/**
+ * @dev Returns the number of values on the set. O(1).
+ */
+function _length(Set storage set) private view returns (uint256) {
+    return set._values.length;
+}
+
+/**
+ * @dev Returns the value stored at position \`index\` in the set. O(1).
+ *
+ * Note that there are no guarantees on the ordering of values inside the
+ * array, and it may change when more values are added or removed.
+ *
+ * Requirements:
+ *
+ * - \`index\` must be strictly less than {length}.
+ */
+function _at(Set storage set, uint256 index) private view returns (bytes32) {
+    return set._values[index];
+}
+
+/**
+ * @dev Return the entire set in an array
+ *
+ * WARNING: This operation will copy the entire storage to memory, which can be quite expensive. This is designed
+ * to mostly be used by view accessors that are queried without any gas fees. Developers should keep in mind that
+ * this function has an unbounded cost, and using it as part of a state-changing function may render the function
+ * uncallable if the set grows to a point where copying to memory consumes too much gas to fit in a block.
+ */
+function _values(Set storage set) private view returns (bytes32[] memory) {
+    return set._values;
+}
+`;
+
+const customSet = ({ name, type }) => `\
+// ${name}
+
+struct ${name} {
+    Set _inner;
+}
+
+/**
+ * @dev Add a value to a set. O(1).
+ *
+ * Returns true if the value was added to the set, that is if it was not
+ * already present.
+ */
+function add(${name} storage set, ${type} value) internal returns (bool) {
+    return _add(set._inner, ${toBytes32(type, 'value')});
+}
+
+/**
+ * @dev Removes a value from a set. O(1).
+ *
+ * Returns true if the value was removed from the set, that is if it was
+ * present.
+ */
+function remove(${name} storage set, ${type} value) internal returns (bool) {
+    return _remove(set._inner, ${toBytes32(type, 'value')});
+}
+
+/**
+ * @dev Returns true if the value is in the set. O(1).
+ */
+function contains(${name} storage set, ${type} value) internal view returns (bool) {
+    return _contains(set._inner, ${toBytes32(type, 'value')});
+}
+
+/**
+ * @dev Returns the number of values in the set. O(1).
+ */
+function length(${name} storage set) internal view returns (uint256) {
+    return _length(set._inner);
+}
+
+/**
+ * @dev Returns the value stored at position \`index\` in the set. O(1).
+ *
+ * Note that there are no guarantees on the ordering of values inside the
+ * array, and it may change when more values are added or removed.
+ *
+ * Requirements:
+ *
+ * - \`index\` must be strictly less than {length}.
+ */
+function at(${name} storage set, uint256 index) internal view returns (${type}) {
+    return ${fromBytes32(type, '_at(set._inner, index)')};
+}
+
+/**
+ * @dev Return the entire set in an array
+ *
+ * WARNING: This operation will copy the entire storage to memory, which can be quite expensive. This is designed
+ * to mostly be used by view accessors that are queried without any gas fees. Developers should keep in mind that
+ * this function has an unbounded cost, and using it as part of a state-changing function may render the function
+ * uncallable if the set grows to a point where copying to memory consumes too much gas to fit in a block.
+ */
+function values(${name} storage set) internal view returns (${type}[] memory) {
+    bytes32[] memory store = _values(set._inner);
+    ${type}[] memory result;
+
+    assembly ("memory-safe") {
+        result := store
+    }
+
+    return result;
+}
+`;
+
+// GENERATE
+module.exports = format(
+  header.trimEnd(),
+  'library EnumerableSet {',
+  format(
+    [].concat(
+      defaultSet,
+      TYPES.map(details => customSet(details)),
+    ),
+  ).trimEnd(),
+  '}',
+);
