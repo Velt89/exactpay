@@ -1,1 +1,58 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwpjb25zdCB7IGVyYzcyMDFTbG90IH0gPSByZXF1aXJlKCcuLi9oZWxwZXJzL3N0b3JhZ2UnKTsKY29uc3QgeyBnZW5lcmF0b3JzIH0gPSByZXF1aXJlKCcuLi9oZWxwZXJzL3JhbmRvbScpOwoKYXN5bmMgZnVuY3Rpb24gZml4dHVyZSgpIHsKICBjb25zdCBbYWNjb3VudF0gPSBhd2FpdCBldGhlcnMuZ2V0U2lnbmVycygpOwogIGNvbnN0IG1vY2sgPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJyRTbG90RGVyaXZhdGlvbicpOwogIHJldHVybiB7IG1vY2ssIGFjY291bnQgfTsKfQoKZGVzY3JpYmUoJ1Nsb3REZXJpdmF0aW9uJywgZnVuY3Rpb24gKCkgewogIGJlZm9yZUVhY2goYXN5bmMgZnVuY3Rpb24gKCkgewogICAgT2JqZWN0LmFzc2lnbih0aGlzLCBhd2FpdCBsb2FkRml4dHVyZShmaXh0dXJlKSk7CiAgfSk7CgogIGRlc2NyaWJlKCduYW1lc3BhY2VzJywgZnVuY3Rpb24gKCkgewogICAgY29uc3QgbmFtZXNwYWNlID0gJ2V4YW1wbGUubWFpbic7CgogICAgaXQoJ2VyYy03MjAxJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRlcmM3MjAxU2xvdChuYW1lc3BhY2UpKS50by5lcXVhbChlcmM3MjAxU2xvdChuYW1lc3BhY2UpKTsKICAgIH0pOwogIH0pOwoKICBkZXNjcmliZSgnZGVyaXZhdGlvbicsIGZ1bmN0aW9uICgpIHsKICAgIGl0KCdvZmZzZXQnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGNvbnN0IGJhc2UgPSBnZW5lcmF0b3JzLmJ5dGVzMzIoKTsKICAgICAgY29uc3Qgb2Zmc2V0ID0gZ2VuZXJhdG9ycy51aW50MjU2KCk7CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJG9mZnNldChiYXNlLCBvZmZzZXQpKS50by5lcXVhbCgoZXRoZXJzLnRvQmlnSW50KGJhc2UpICsgb2Zmc2V0KSAmIGV0aGVycy5NYXhVaW50MjU2KTsKICAgIH0pOwoKICAgIGl0KCdhcnJheScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgY29uc3QgYmFzZSA9IGdlbmVyYXRvcnMuYnl0ZXMzMigpOwogICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRkZXJpdmVBcnJheShiYXNlKSkudG8uZXF1YWwoZXRoZXJzLmtlY2NhazI1NihiYXNlKSk7CiAgICB9KTsKCiAgICBkZXNjcmliZSgnbWFwcGluZycsIGZ1bmN0aW9uICgpIHsKICAgICAgZm9yIChjb25zdCB7IHR5cGUsIGtleSwgaXNWYWx1ZVR5cGUgfSBvZiBbCiAgICAgICAgeyB0eXBlOiAnYm9vbCcsIGtleTogdHJ1ZSwgaXNWYWx1ZVR5cGU6IHRydWUgfSwKICAgICAgICB7IHR5cGU6ICdhZGRyZXNzJywga2V5OiBnZW5lcmF0b3JzLmFkZHJlc3MoKSwgaXNWYWx1ZVR5cGU6IHRydWUgfSwKICAgICAgICB7IHR5cGU6ICdieXRlczMyJywga2V5OiBnZW5lcmF0b3JzLmJ5dGVzMzIoKSwgaXNWYWx1ZVR5cGU6IHRydWUgfSwKICAgICAgICB7IHR5cGU6ICd1aW50MjU2Jywga2V5OiBnZW5lcmF0b3JzLnVpbnQyNTYoKSwgaXNWYWx1ZVR5cGU6IHRydWUgfSwKICAgICAgICB7IHR5cGU6ICdpbnQyNTYnLCBrZXk6IGdlbmVyYXRvcnMuaW50MjU2KCksIGlzVmFsdWVUeXBlOiB0cnVlIH0sCiAgICAgICAgeyB0eXBlOiAnYnl0ZXMnLCBrZXk6IGdlbmVyYXRvcnMuaGV4Qnl0ZXMoMTI4KSwgaXNWYWx1ZVR5cGU6IGZhbHNlIH0sCiAgICAgICAgeyB0eXBlOiAnc3RyaW5nJywga2V5OiAnbG9yZW0gaXBzdW0nLCBpc1ZhbHVlVHlwZTogZmFsc2UgfSwKICAgICAgXSkgewogICAgICAgIGl0KHR5cGUsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGNvbnN0IGJhc2UgPSBnZW5lcmF0b3JzLmJ5dGVzMzIoKTsKICAgICAgICAgIGNvbnN0IGV4cGVjdGVkID0gaXNWYWx1ZVR5cGUKICAgICAgICAgICAgPyBldGhlcnMua2VjY2FrMjU2KGV0aGVycy5BYmlDb2Rlci5kZWZhdWx0QWJpQ29kZXIoKS5lbmNvZGUoW3R5cGUsICdieXRlczMyJ10sIFtrZXksIGJhc2VdKSkKICAgICAgICAgICAgOiBldGhlcnMuc29saWRpdHlQYWNrZWRLZWNjYWsyNTYoW3R5cGUsICdieXRlczMyJ10sIFtrZXksIGJhc2VdKTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2tbYCRkZXJpdmVNYXBwaW5nKGJ5dGVzMzIsJHt0eXBlfSlgXShiYXNlLCBrZXkpKS50by5lcXVhbChleHBlY3RlZCk7CiAgICAgICAgfSk7CiAgICAgIH0KICAgIH0pOwogIH0pOwp9KTsK
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+const { erc7201Slot } = require('../helpers/storage');
+const { generators } = require('../helpers/random');
+
+async function fixture() {
+  const [account] = await ethers.getSigners();
+  const mock = await ethers.deployContract('$SlotDerivation');
+  return { mock, account };
+}
+
+describe('SlotDerivation', function () {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  describe('namespaces', function () {
+    const namespace = 'example.main';
+
+    it('erc-7201', async function () {
+      expect(await this.mock.$erc7201Slot(namespace)).to.equal(erc7201Slot(namespace));
+    });
+  });
+
+  describe('derivation', function () {
+    it('offset', async function () {
+      const base = generators.bytes32();
+      const offset = generators.uint256();
+      expect(await this.mock.$offset(base, offset)).to.equal((ethers.toBigInt(base) + offset) & ethers.MaxUint256);
+    });
+
+    it('array', async function () {
+      const base = generators.bytes32();
+      expect(await this.mock.$deriveArray(base)).to.equal(ethers.keccak256(base));
+    });
+
+    describe('mapping', function () {
+      for (const { type, key, isValueType } of [
+        { type: 'bool', key: true, isValueType: true },
+        { type: 'address', key: generators.address(), isValueType: true },
+        { type: 'bytes32', key: generators.bytes32(), isValueType: true },
+        { type: 'uint256', key: generators.uint256(), isValueType: true },
+        { type: 'int256', key: generators.int256(), isValueType: true },
+        { type: 'bytes', key: generators.hexBytes(128), isValueType: false },
+        { type: 'string', key: 'lorem ipsum', isValueType: false },
+      ]) {
+        it(type, async function () {
+          const base = generators.bytes32();
+          const expected = isValueType
+            ? ethers.keccak256(ethers.AbiCoder.defaultAbiCoder().encode([type, 'bytes32'], [key, base]))
+            : ethers.solidityPackedKeccak256([type, 'bytes32'], [key, base]);
+          expect(await this.mock[`$deriveMapping(bytes32,${type})`](base, key)).to.equal(expected);
+        });
+      }
+    });
+  });
+});
