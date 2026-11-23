@@ -1,1 +1,34 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0ICJAcmFpbmJvdy1tZS9yYWluYm93a2l0L3N0eWxlcy5jc3MiOwppbXBvcnQgeyBSYWluYm93S2l0UHJvdmlkZXIsIGRhcmtUaGVtZSB9IGZyb20gIkByYWluYm93LW1lL3JhaW5ib3draXQiOwppbXBvcnQgeyBRdWVyeUNsaWVudCwgUXVlcnlDbGllbnRQcm92aWRlciB9IGZyb20gIkB0YW5zdGFjay9yZWFjdC1xdWVyeSI7CmltcG9ydCB7IHVzZVN0YXRlLCB0eXBlIFJlYWN0Tm9kZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgV2FnbWlQcm92aWRlciB9IGZyb20gIndhZ21pIjsKaW1wb3J0IHsgTmV0d29ya1Byb3ZpZGVyLCB1c2VOZXR3b3JrIH0gZnJvbSAiQC9saWIvbmV0d29yayI7CmltcG9ydCB7IHdhZ21pQ29uZmlnIH0gZnJvbSAiQC9saWIvd2FnbWkiOwoKY29uc3QgdGhlbWUgPSBkYXJrVGhlbWUoeyBhY2NlbnRDb2xvcjogIiMwMjU3RkYiLCBib3JkZXJSYWRpdXM6ICJtZWRpdW0iIH0pOwoKLyoqIENvbm5lY3QgdGhlIHdhbGxldCBzdHJhaWdodCB0byB0aGUgbmV0d29yayBwaWNrZWQgaW4gdGhlIGhlYWRlciwgbm90IGFsd2F5cyB0aGUgZmlyc3Qgb25lLiAqLwpmdW5jdGlvbiBSYWluYm93S2l0KHsgY2hpbGRyZW4gfTogeyBjaGlsZHJlbjogUmVhY3ROb2RlIH0pIHsKICBjb25zdCB7IG5ldCB9ID0gdXNlTmV0d29yaygpOwogIHJldHVybiAoCiAgICA8UmFpbmJvd0tpdFByb3ZpZGVyIGluaXRpYWxDaGFpbj17bmV0LmNoYWlufSBsb2NhbGU9ImVuLVVTIiB0aGVtZT17dGhlbWV9IGFwcEluZm89e3sgYXBwTmFtZTogIkFldnVtIFN0YXJ0ZXIgS2l0IiB9fT4KICAgICAge2NoaWxkcmVufQogICAgPC9SYWluYm93S2l0UHJvdmlkZXI+CiAgKTsKfQoKZXhwb3J0IGZ1bmN0aW9uIFByb3ZpZGVycyh7IGNoaWxkcmVuIH06IHsgY2hpbGRyZW46IFJlYWN0Tm9kZSB9KSB7CiAgY29uc3QgW3F1ZXJ5Q2xpZW50XSA9IHVzZVN0YXRlKCgpID0+IG5ldyBRdWVyeUNsaWVudCgpKTsKICByZXR1cm4gKAogICAgPFdhZ21pUHJvdmlkZXIgY29uZmlnPXt3YWdtaUNvbmZpZ30+CiAgICAgIDxRdWVyeUNsaWVudFByb3ZpZGVyIGNsaWVudD17cXVlcnlDbGllbnR9PgogICAgICAgIDxOZXR3b3JrUHJvdmlkZXI+CiAgICAgICAgICA8UmFpbmJvd0tpdD57Y2hpbGRyZW59PC9SYWluYm93S2l0PgogICAgICAgIDwvTmV0d29ya1Byb3ZpZGVyPgogICAgICA8L1F1ZXJ5Q2xpZW50UHJvdmlkZXI+CiAgICA8L1dhZ21pUHJvdmlkZXI+CiAgKTsKfQo=
+"use client";
+
+import "@rainbow-me/rainbowkit/styles.css";
+import { RainbowKitProvider, darkTheme } from "@rainbow-me/rainbowkit";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { useState, type ReactNode } from "react";
+import { WagmiProvider } from "wagmi";
+import { NetworkProvider, useNetwork } from "@/lib/network";
+import { wagmiConfig } from "@/lib/wagmi";
+
+const theme = darkTheme({ accentColor: "#0257FF", borderRadius: "medium" });
+
+/** Connect the wallet straight to the network picked in the header, not always the first one. */
+function RainbowKit({ children }: { children: ReactNode }) {
+  const { net } = useNetwork();
+  return (
+    <RainbowKitProvider initialChain={net.chain} locale="en-US" theme={theme} appInfo={{ appName: "Aevum Starter Kit" }}>
+      {children}
+    </RainbowKitProvider>
+  );
+}
+
+export function Providers({ children }: { children: ReactNode }) {
+  const [queryClient] = useState(() => new QueryClient());
+  return (
+    <WagmiProvider config={wagmiConfig}>
+      <QueryClientProvider client={queryClient}>
+        <NetworkProvider>
+          <RainbowKit>{children}</RainbowKit>
+        </NetworkProvider>
+      </QueryClientProvider>
+    </WagmiProvider>
+  );
+}
