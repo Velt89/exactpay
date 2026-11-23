@@ -1,1 +1,216 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgPj0wLjYuMiA8MC45LjA7CgovLy8gQG5vdGljZSBUaGlzIGlzIGEgbW9jayBjb250cmFjdCBvZiB0aGUgRVJDMjAgc3RhbmRhcmQgZm9yIHRlc3RpbmcgcHVycG9zZXMgb25seSwgaXQgU0hPVUxEIE5PVCBiZSB1c2VkIGluIHByb2R1Y3Rpb24uCi8vLyBAZGV2IEZvcmtlZCBmcm9tOiBodHRwczovL2dpdGh1Yi5jb20vdHJhbnNtaXNzaW9uczExL3NvbG1hdGUvYmxvYi8wMzg0ZGJhYWE0ZmNiNTcxNTczOGE5MjU0YTdjMGE0Y2I2MmNmNDU4L3NyYy90b2tlbnMvRVJDMjAuc29sCmNvbnRyYWN0IE1vY2tFUkMyMCB7CiAgICAvKi8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEVWRU5UUwogICAgLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8qLwoKICAgIGV2ZW50IFRyYW5zZmVyKGFkZHJlc3MgaW5kZXhlZCBmcm9tLCBhZGRyZXNzIGluZGV4ZWQgdG8sIHVpbnQyNTYgYW1vdW50KTsKCiAgICBldmVudCBBcHByb3ZhbChhZGRyZXNzIGluZGV4ZWQgb3duZXIsIGFkZHJlc3MgaW5kZXhlZCBzcGVuZGVyLCB1aW50MjU2IGFtb3VudCk7CgogICAgLyovLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLwogICAgICAgICAgICAgICAgICAgICAgICAgICAgTUVUQURBVEEgU1RPUkFHRQogICAgLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8qLwoKICAgIHN0cmluZyBwdWJsaWMgbmFtZTsKCiAgICBzdHJpbmcgcHVibGljIHN5bWJvbDsKCiAgICB1aW50OCBwdWJsaWMgZGVjaW1hbHM7CgogICAgLyovLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICBFUkMyMCBTVE9SQUdFCiAgICAvLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLyovCgogICAgdWludDI1NiBwdWJsaWMgdG90YWxTdXBwbHk7CgogICAgbWFwcGluZyhhZGRyZXNzID0+IHVpbnQyNTYpIHB1YmxpYyBiYWxhbmNlT2Y7CgogICAgbWFwcGluZyhhZGRyZXNzID0+IG1hcHBpbmcoYWRkcmVzcyA9PiB1aW50MjU2KSkgcHVibGljIGFsbG93YW5jZTsKCiAgICAvKi8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBFSVAtMjYxMiBTVE9SQUdFCiAgICAvLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLyovCgogICAgdWludDI1NiBpbnRlcm5hbCBJTklUSUFMX0NIQUlOX0lEOwoKICAgIGJ5dGVzMzIgaW50ZXJuYWwgSU5JVElBTF9ET01BSU5fU0VQQVJBVE9SOwoKICAgIG1hcHBpbmcoYWRkcmVzcyA9PiB1aW50MjU2KSBwdWJsaWMgbm9uY2VzOwoKICAgIC8qLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIElOSVRJQUxJWkUKICAgIC8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vKi8KCiAgICAvLy8gQGRldiBBIGJvb2wgdG8gdHJhY2sgd2hldGhlciB0aGUgY29udHJhY3QgaGFzIGJlZW4gaW5pdGlhbGl6ZWQuCiAgICBib29sIHByaXZhdGUgaW5pdGlhbGl6ZWQ7CgogICAgLy8vIEBkZXYgVG8gaGlkZSBjb25zdHJ1Y3RvciB3YXJuaW5ncyBhY3Jvc3Mgc29sYyB2ZXJzaW9ucyBkdWUgdG8gZGlmZmVyZW50IGNvbnN0cnVjdG9yIHZpc2liaWxpdHkgcmVxdWlyZW1lbnRzIGFuZAogICAgLy8vIHN5bnRheGVzLCB3ZSBhZGQgYW4gaW5pdGlhbGl6YXRpb24gZnVuY3Rpb24gdGhhdCBjYW4gYmUgY2FsbGVkIG9ubHkgb25jZS4KICAgIGZ1bmN0aW9uIGluaXRpYWxpemUoc3RyaW5nIG1lbW9yeSBfbmFtZSwgc3RyaW5nIG1lbW9yeSBfc3ltYm9sLCB1aW50OCBfZGVjaW1hbHMpIHB1YmxpYyB7CiAgICAgICAgcmVxdWlyZSghaW5pdGlhbGl6ZWQsICJBTFJFQURZX0lOSVRJQUxJWkVEIik7CgogICAgICAgIG5hbWUgPSBfbmFtZTsKICAgICAgICBzeW1ib2wgPSBfc3ltYm9sOwogICAgICAgIGRlY2ltYWxzID0gX2RlY2ltYWxzOwoKICAgICAgICBJTklUSUFMX0NIQUlOX0lEID0gX3B1cmVDaGFpbklkKCk7CiAgICAgICAgSU5JVElBTF9ET01BSU5fU0VQQVJBVE9SID0gY29tcHV0ZURvbWFpblNlcGFyYXRvcigpOwoKICAgICAgICBpbml0aWFsaXplZCA9IHRydWU7CiAgICB9CgogICAgLyovLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgRVJDMjAgTE9HSUMKICAgIC8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vKi8KCiAgICBmdW5jdGlvbiBhcHByb3ZlKGFkZHJlc3Mgc3BlbmRlciwgdWludDI1NiBhbW91bnQpIHB1YmxpYyB2aXJ0dWFsIHJldHVybnMgKGJvb2wpIHsKICAgICAgICBhbGxvd2FuY2VbbXNnLnNlbmRlcl1bc3BlbmRlcl0gPSBhbW91bnQ7CgogICAgICAgIGVtaXQgQXBwcm92YWwobXNnLnNlbmRlciwgc3BlbmRlciwgYW1vdW50KTsKCiAgICAgICAgcmV0dXJuIHRydWU7CiAgICB9CgogICAgZnVuY3Rpb24gdHJhbnNmZXIoYWRkcmVzcyB0bywgdWludDI1NiBhbW91bnQpIHB1YmxpYyB2aXJ0dWFsIHJldHVybnMgKGJvb2wpIHsKICAgICAgICBiYWxhbmNlT2ZbbXNnLnNlbmRlcl0gPSBfc3ViKGJhbGFuY2VPZlttc2cuc2VuZGVyXSwgYW1vdW50KTsKICAgICAgICBiYWxhbmNlT2ZbdG9dID0gX2FkZChiYWxhbmNlT2ZbdG9dLCBhbW91bnQpOwoKICAgICAgICBlbWl0IFRyYW5zZmVyKG1zZy5zZW5kZXIsIHRvLCBhbW91bnQpOwoKICAgICAgICByZXR1cm4gdHJ1ZTsKICAgIH0KCiAgICBmdW5jdGlvbiB0cmFuc2ZlckZyb20oYWRkcmVzcyBmcm9tLCBhZGRyZXNzIHRvLCB1aW50MjU2IGFtb3VudCkgcHVibGljIHZpcnR1YWwgcmV0dXJucyAoYm9vbCkgewogICAgICAgIHVpbnQyNTYgYWxsb3dlZCA9IGFsbG93YW5jZVtmcm9tXVttc2cuc2VuZGVyXTsgLy8gU2F2ZXMgZ2FzIGZvciBsaW1pdGVkIGFwcHJvdmFscy4KCiAgICAgICAgaWYgKGFsbG93ZWQgIT0gfnVpbnQyNTYoMCkpIGFsbG93YW5jZVtmcm9tXVttc2cuc2VuZGVyXSA9IF9zdWIoYWxsb3dlZCwgYW1vdW50KTsKCiAgICAgICAgYmFsYW5jZU9mW2Zyb21dID0gX3N1YihiYWxhbmNlT2ZbZnJvbV0sIGFtb3VudCk7CiAgICAgICAgYmFsYW5jZU9mW3RvXSA9IF9hZGQoYmFsYW5jZU9mW3RvXSwgYW1vdW50KTsKCiAgICAgICAgZW1pdCBUcmFuc2Zlcihmcm9tLCB0bywgYW1vdW50KTsKCiAgICAgICAgcmV0dXJuIHRydWU7CiAgICB9CgogICAgLyovLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLwogICAgICAgICAgICAgICAgICAgICAgICAgICAgIEVJUC0yNjEyIExPR0lDCiAgICAvLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLyovCgogICAgZnVuY3Rpb24gcGVybWl0KGFkZHJlc3Mgb3duZXIsIGFkZHJlc3Mgc3BlbmRlciwgdWludDI1NiB2YWx1ZSwgdWludDI1NiBkZWFkbGluZSwgdWludDggdiwgYnl0ZXMzMiByLCBieXRlczMyIHMpCiAgICAgICAgcHVibGljCiAgICAgICAgdmlydHVhbAogICAgewogICAgICAgIHJlcXVpcmUoZGVhZGxpbmUgPj0gYmxvY2sudGltZXN0YW1wLCAiUEVSTUlUX0RFQURMSU5FX0VYUElSRUQiKTsKCiAgICAgICAgYWRkcmVzcyByZWNvdmVyZWRBZGRyZXNzID0gZWNyZWNvdmVyKAogICAgICAgICAgICBrZWNjYWsyNTYoCiAgICAgICAgICAgICAgICBhYmkuZW5jb2RlUGFja2VkKAogICAgICAgICAgICAgICAgICAgICJceDE5XHgwMSIsCiAgICAgICAgICAgICAgICAgICAgRE9NQUlOX1NFUEFSQVRPUigpLAogICAgICAgICAgICAgICAgICAgIGtlY2NhazI1NigKICAgICAgICAgICAgICAgICAgICAgICAgYWJpLmVuY29kZSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGtlY2NhazI1NigKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiUGVybWl0KGFkZHJlc3Mgb3duZXIsYWRkcmVzcyBzcGVuZGVyLHVpbnQyNTYgdmFsdWUsdWludDI1NiBub25jZSx1aW50MjU2IGRlYWRsaW5lKSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBvd25lciwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNwZW5kZXIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5vbmNlc1tvd25lcl0rKywKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRlYWRsaW5lCiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICksCiAgICAgICAgICAgIHYsCiAgICAgICAgICAgIHIsCiAgICAgICAgICAgIHMKICAgICAgICApOwoKICAgICAgICByZXF1aXJlKHJlY292ZXJlZEFkZHJlc3MgIT0gYWRkcmVzcygwKSAmJiByZWNvdmVyZWRBZGRyZXNzID09IG93bmVyLCAiSU5WQUxJRF9TSUdORVIiKTsKCiAgICAgICAgYWxsb3dhbmNlW3JlY292ZXJlZEFkZHJlc3NdW3NwZW5kZXJdID0gdmFsdWU7CgogICAgICAgIGVtaXQgQXBwcm92YWwob3duZXIsIHNwZW5kZXIsIHZhbHVlKTsKICAgIH0KCiAgICBmdW5jdGlvbiBET01BSU5fU0VQQVJBVE9SKCkgcHVibGljIHZpZXcgdmlydHVhbCByZXR1cm5zIChieXRlczMyKSB7CiAgICAgICAgcmV0dXJuIF9wdXJlQ2hhaW5JZCgpID09IElOSVRJQUxfQ0hBSU5fSUQgPyBJTklUSUFMX0RPTUFJTl9TRVBBUkFUT1IgOiBjb21wdXRlRG9tYWluU2VwYXJhdG9yKCk7CiAgICB9CgogICAgZnVuY3Rpb24gY29tcHV0ZURvbWFpblNlcGFyYXRvcigpIGludGVybmFsIHZpZXcgdmlydHVhbCByZXR1cm5zIChieXRlczMyKSB7CiAgICAgICAgcmV0dXJuIGtlY2NhazI1NigKICAgICAgICAgICAgYWJpLmVuY29kZSgKICAgICAgICAgICAgICAgIGtlY2NhazI1NigiRUlQNzEyRG9tYWluKHN0cmluZyBuYW1lLHN0cmluZyB2ZXJzaW9uLHVpbnQyNTYgY2hhaW5JZCxhZGRyZXNzIHZlcmlmeWluZ0NvbnRyYWN0KSIpLAogICAgICAgICAgICAgICAga2VjY2FrMjU2KGJ5dGVzKG5hbWUpKSwKICAgICAgICAgICAgICAgIGtlY2NhazI1NigiMSIpLAogICAgICAgICAgICAgICAgX3B1cmVDaGFpbklkKCksCiAgICAgICAgICAgICAgICBhZGRyZXNzKHRoaXMpCiAgICAgICAgICAgICkKICAgICAgICApOwogICAgfQoKICAgIC8qLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8KICAgICAgICAgICAgICAgICAgICAgICAgSU5URVJOQUwgTUlOVC9CVVJOIExPR0lDCiAgICAvLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLyovCgogICAgZnVuY3Rpb24gX21pbnQoYWRkcmVzcyB0bywgdWludDI1NiBhbW91bnQpIGludGVybmFsIHZpcnR1YWwgewogICAgICAgIHRvdGFsU3VwcGx5ID0gX2FkZCh0b3RhbFN1cHBseSwgYW1vdW50KTsKICAgICAgICBiYWxhbmNlT2ZbdG9dID0gX2FkZChiYWxhbmNlT2ZbdG9dLCBhbW91bnQpOwoKICAgICAgICBlbWl0IFRyYW5zZmVyKGFkZHJlc3MoMCksIHRvLCBhbW91bnQpOwogICAgfQoKICAgIGZ1bmN0aW9uIF9idXJuKGFkZHJlc3MgZnJvbSwgdWludDI1NiBhbW91bnQpIGludGVybmFsIHZpcnR1YWwgewogICAgICAgIGJhbGFuY2VPZltmcm9tXSA9IF9zdWIoYmFsYW5jZU9mW2Zyb21dLCBhbW91bnQpOwogICAgICAgIHRvdGFsU3VwcGx5ID0gX3N1Yih0b3RhbFN1cHBseSwgYW1vdW50KTsKCiAgICAgICAgZW1pdCBUcmFuc2Zlcihmcm9tLCBhZGRyZXNzKDApLCBhbW91bnQpOwogICAgfQoKICAgIC8qLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8KICAgICAgICAgICAgICAgICAgICAgICAgSU5URVJOQUwgU0FGRSBNQVRIIExPR0lDCiAgICAvLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLyovCgogICAgZnVuY3Rpb24gX2FkZCh1aW50MjU2IGEsIHVpbnQyNTYgYikgaW50ZXJuYWwgcHVyZSByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgdWludDI1NiBjID0gYSArIGI7CiAgICAgICAgcmVxdWlyZShjID49IGEsICJFUkMyMDogYWRkaXRpb24gb3ZlcmZsb3ciKTsKICAgICAgICByZXR1cm4gYzsKICAgIH0KCiAgICBmdW5jdGlvbiBfc3ViKHVpbnQyNTYgYSwgdWludDI1NiBiKSBpbnRlcm5hbCBwdXJlIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXF1aXJlKGEgPj0gYiwgIkVSQzIwOiBzdWJ0cmFjdGlvbiB1bmRlcmZsb3ciKTsKICAgICAgICByZXR1cm4gYSAtIGI7CiAgICB9CgogICAgLyovLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEhFTFBFUlMKICAgIC8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vKi8KCiAgICAvLyBXZSB1c2UgdGhpcyBjb21wbGV4IGFwcHJvYWNoIG9mIGBfdmlld0NoYWluSWRgIGFuZCBgX3B1cmVDaGFpbklkYCB0byBlbnN1cmUgdGhlcmUgYXJlIG5vCiAgICAvLyBjb21waWxlciB3YXJuaW5ncyB3aGVuIGFjY2Vzc2luZyBjaGFpbiBJRCBpbiBhbnkgc29saWRpdHkgdmVyc2lvbiBzdXBwb3J0ZWQgYnkgZm9yZ2Utc3RkLiBXZQogICAgLy8gY2FuJ3Qgc2ltcGx5IGFjY2VzcyB0aGUgY2hhaW4gSUQgaW4gYSBub3JtYWwgdmlldyBvciBwdXJlIGZ1bmN0aW9uIGJlY2F1c2UgdGhlIHNvbGMgVmlldyBQdXJlCiAgICAvLyBDaGVja2VyIGNoYW5nZWQgYGNoYWluaWRgIGZyb20gcHVyZSB0byB2aWV3IGluIDAuOC4wLgogICAgZnVuY3Rpb24gX3ZpZXdDaGFpbklkKCkgcHJpdmF0ZSB2aWV3IHJldHVybnMgKHVpbnQyNTYgY2hhaW5JZCkgewogICAgICAgIC8vIEFzc2VtYmx5IHJlcXVpcmVkIHNpbmNlIGBibG9jay5jaGFpbmlkYCB3YXMgaW50cm9kdWNlZCBpbiAwLjguMC4KICAgICAgICBhc3NlbWJseSB7CiAgICAgICAgICAgIGNoYWluSWQgOj0gY2hhaW5pZCgpCiAgICAgICAgfQoKICAgICAgICBhZGRyZXNzKHRoaXMpOyAvLyBTaWxlbmNlIHdhcm5pbmdzIGluIG9sZGVyIFNvbGMgdmVyc2lvbnMuCiAgICB9CgogICAgZnVuY3Rpb24gX3B1cmVDaGFpbklkKCkgcHJpdmF0ZSBwdXJlIHJldHVybnMgKHVpbnQyNTYgY2hhaW5JZCkgewogICAgICAgIGZ1bmN0aW9uKCkgaW50ZXJuYWwgdmlldyByZXR1cm5zICh1aW50MjU2KSBmbkluID0gX3ZpZXdDaGFpbklkOwogICAgICAgIGZ1bmN0aW9uKCkgaW50ZXJuYWwgcHVyZSByZXR1cm5zICh1aW50MjU2KSBwdXJlQ2hhaW5JZDsKICAgICAgICBhc3NlbWJseSB7CiAgICAgICAgICAgIHB1cmVDaGFpbklkIDo9IGZuSW4KICAgICAgICB9CiAgICAgICAgY2hhaW5JZCA9IHB1cmVDaGFpbklkKCk7CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.6.2 <0.9.0;
+
+/// @notice This is a mock contract of the ERC20 standard for testing purposes only, it SHOULD NOT be used in production.
+/// @dev Forked from: https://github.com/transmissions11/solmate/blob/0384dbaaa4fcb5715738a9254a7c0a4cb62cf458/src/tokens/ERC20.sol
+contract MockERC20 {
+    /*//////////////////////////////////////////////////////////////
+                                 EVENTS
+    //////////////////////////////////////////////////////////////*/
+
+    event Transfer(address indexed from, address indexed to, uint256 amount);
+
+    event Approval(address indexed owner, address indexed spender, uint256 amount);
+
+    /*//////////////////////////////////////////////////////////////
+                            METADATA STORAGE
+    //////////////////////////////////////////////////////////////*/
+
+    string public name;
+
+    string public symbol;
+
+    uint8 public decimals;
+
+    /*//////////////////////////////////////////////////////////////
+                              ERC20 STORAGE
+    //////////////////////////////////////////////////////////////*/
+
+    uint256 public totalSupply;
+
+    mapping(address => uint256) public balanceOf;
+
+    mapping(address => mapping(address => uint256)) public allowance;
+
+    /*//////////////////////////////////////////////////////////////
+                            EIP-2612 STORAGE
+    //////////////////////////////////////////////////////////////*/
+
+    uint256 internal INITIAL_CHAIN_ID;
+
+    bytes32 internal INITIAL_DOMAIN_SEPARATOR;
+
+    mapping(address => uint256) public nonces;
+
+    /*//////////////////////////////////////////////////////////////
+                               INITIALIZE
+    //////////////////////////////////////////////////////////////*/
+
+    /// @dev A bool to track whether the contract has been initialized.
+    bool private initialized;
+
+    /// @dev To hide constructor warnings across solc versions due to different constructor visibility requirements and
+    /// syntaxes, we add an initialization function that can be called only once.
+    function initialize(string memory _name, string memory _symbol, uint8 _decimals) public {
+        require(!initialized, "ALREADY_INITIALIZED");
+
+        name = _name;
+        symbol = _symbol;
+        decimals = _decimals;
+
+        INITIAL_CHAIN_ID = _pureChainId();
+        INITIAL_DOMAIN_SEPARATOR = computeDomainSeparator();
+
+        initialized = true;
+    }
+
+    /*//////////////////////////////////////////////////////////////
+                               ERC20 LOGIC
+    //////////////////////////////////////////////////////////////*/
+
+    function approve(address spender, uint256 amount) public virtual returns (bool) {
+        allowance[msg.sender][spender] = amount;
+
+        emit Approval(msg.sender, spender, amount);
+
+        return true;
+    }
+
+    function transfer(address to, uint256 amount) public virtual returns (bool) {
+        balanceOf[msg.sender] = _sub(balanceOf[msg.sender], amount);
+        balanceOf[to] = _add(balanceOf[to], amount);
+
+        emit Transfer(msg.sender, to, amount);
+
+        return true;
+    }
+
+    function transferFrom(address from, address to, uint256 amount) public virtual returns (bool) {
+        uint256 allowed = allowance[from][msg.sender]; // Saves gas for limited approvals.
+
+        if (allowed != ~uint256(0)) allowance[from][msg.sender] = _sub(allowed, amount);
+
+        balanceOf[from] = _sub(balanceOf[from], amount);
+        balanceOf[to] = _add(balanceOf[to], amount);
+
+        emit Transfer(from, to, amount);
+
+        return true;
+    }
+
+    /*//////////////////////////////////////////////////////////////
+                             EIP-2612 LOGIC
+    //////////////////////////////////////////////////////////////*/
+
+    function permit(address owner, address spender, uint256 value, uint256 deadline, uint8 v, bytes32 r, bytes32 s)
+        public
+        virtual
+    {
+        require(deadline >= block.timestamp, "PERMIT_DEADLINE_EXPIRED");
+
+        address recoveredAddress = ecrecover(
+            keccak256(
+                abi.encodePacked(
+                    "\x19\x01",
+                    DOMAIN_SEPARATOR(),
+                    keccak256(
+                        abi.encode(
+                            keccak256(
+                                "Permit(address owner,address spender,uint256 value,uint256 nonce,uint256 deadline)"
+                            ),
+                            owner,
+                            spender,
+                            value,
+                            nonces[owner]++,
+                            deadline
+                        )
+                    )
+                )
+            ),
+            v,
+            r,
+            s
+        );
+
+        require(recoveredAddress != address(0) && recoveredAddress == owner, "INVALID_SIGNER");
+
+        allowance[recoveredAddress][spender] = value;
+
+        emit Approval(owner, spender, value);
+    }
+
+    function DOMAIN_SEPARATOR() public view virtual returns (bytes32) {
+        return _pureChainId() == INITIAL_CHAIN_ID ? INITIAL_DOMAIN_SEPARATOR : computeDomainSeparator();
+    }
+
+    function computeDomainSeparator() internal view virtual returns (bytes32) {
+        return keccak256(
+            abi.encode(
+                keccak256("EIP712Domain(string name,string version,uint256 chainId,address verifyingContract)"),
+                keccak256(bytes(name)),
+                keccak256("1"),
+                _pureChainId(),
+                address(this)
+            )
+        );
+    }
+
+    /*//////////////////////////////////////////////////////////////
+                        INTERNAL MINT/BURN LOGIC
+    //////////////////////////////////////////////////////////////*/
+
+    function _mint(address to, uint256 amount) internal virtual {
+        totalSupply = _add(totalSupply, amount);
+        balanceOf[to] = _add(balanceOf[to], amount);
+
+        emit Transfer(address(0), to, amount);
+    }
+
+    function _burn(address from, uint256 amount) internal virtual {
+        balanceOf[from] = _sub(balanceOf[from], amount);
+        totalSupply = _sub(totalSupply, amount);
+
+        emit Transfer(from, address(0), amount);
+    }
+
+    /*//////////////////////////////////////////////////////////////
+                        INTERNAL SAFE MATH LOGIC
+    //////////////////////////////////////////////////////////////*/
+
+    function _add(uint256 a, uint256 b) internal pure returns (uint256) {
+        uint256 c = a + b;
+        require(c >= a, "ERC20: addition overflow");
+        return c;
+    }
+
+    function _sub(uint256 a, uint256 b) internal pure returns (uint256) {
+        require(a >= b, "ERC20: subtraction underflow");
+        return a - b;
+    }
+
+    /*//////////////////////////////////////////////////////////////
+                                HELPERS
+    //////////////////////////////////////////////////////////////*/
+
+    // We use this complex approach of `_viewChainId` and `_pureChainId` to ensure there are no
+    // compiler warnings when accessing chain ID in any solidity version supported by forge-std. We
+    // can't simply access the chain ID in a normal view or pure function because the solc View Pure
+    // Checker changed `chainid` from pure to view in 0.8.0.
+    function _viewChainId() private view returns (uint256 chainId) {
+        // Assembly required since `block.chainid` was introduced in 0.8.0.
+        assembly {
+            chainId := chainid()
+        }
+
+        address(this); // Silence warnings in older Solc versions.
+    }
+
+    function _pureChainId() private pure returns (uint256 chainId) {
+        function() internal view returns (uint256) fnIn = _viewChainId;
+        function() internal pure returns (uint256) pureChainId;
+        assembly {
+            pureChainId := fnIn
+        }
+        chainId = pureChainId();
+    }
+}
