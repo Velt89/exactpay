@@ -1,1 +1,174 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IEJTRC0zLUNsYXVzZQovLyBzb2xoaW50LWRpc2FibGUgcHJpdmF0ZS12YXJzLWxlYWRpbmctdW5kZXJzY29yZQovKioKICogQ29weXJpZ2h0IDIwMjAgQ29tcG91bmQgTGFicywgSW5jLgogKgogKiBSZWRpc3RyaWJ1dGlvbiBhbmQgdXNlIGluIHNvdXJjZSBhbmQgYmluYXJ5IGZvcm1zLCB3aXRoIG9yIHdpdGhvdXQgbW9kaWZpY2F0aW9uLCBhcmUgcGVybWl0dGVkIHByb3ZpZGVkIHRoYXQgdGhlCiAqIGZvbGxvd2luZyBjb25kaXRpb25zIGFyZSBtZXQ6CiAqCiAqIDEuIFJlZGlzdHJpYnV0aW9ucyBvZiBzb3VyY2UgY29kZSBtdXN0IHJldGFpbiB0aGUgYWJvdmUgY29weXJpZ2h0IG5vdGljZSwgdGhpcyBsaXN0IG9mIGNvbmRpdGlvbnMgYW5kIHRoZSBmb2xsb3dpbmcKICogICAgZGlzY2xhaW1lci4KICoKICogMi4gUmVkaXN0cmlidXRpb25zIGluIGJpbmFyeSBmb3JtIG11c3QgcmVwcm9kdWNlIHRoZSBhYm92ZSBjb3B5cmlnaHQgbm90aWNlLCB0aGlzIGxpc3Qgb2YgY29uZGl0aW9ucyBhbmQgdGhlCiAqICAgIGZvbGxvd2luZyBkaXNjbGFpbWVyIGluIHRoZSBkb2N1bWVudGF0aW9uIGFuZC9vciBvdGhlciBtYXRlcmlhbHMgcHJvdmlkZWQgd2l0aCB0aGUgZGlzdHJpYnV0aW9uLgogKgogKiAzLiBOZWl0aGVyIHRoZSBuYW1lIG9mIHRoZSBjb3B5cmlnaHQgaG9sZGVyIG5vciB0aGUgbmFtZXMgb2YgaXRzIGNvbnRyaWJ1dG9ycyBtYXkgYmUgdXNlZCB0byBlbmRvcnNlIG9yIHByb21vdGUKICogICAgcHJvZHVjdHMgZGVyaXZlZCBmcm9tIHRoaXMgc29mdHdhcmUgd2l0aG91dCBzcGVjaWZpYyBwcmlvciB3cml0dGVuIHBlcm1pc3Npb24uCiAqCiAqIFRISVMgU09GVFdBUkUgSVMgUFJPVklERUQgQlkgVEhFIENPUFlSSUdIVCBIT0xERVJTIEFORCBDT05UUklCVVRPUlMgIkFTIElTIiBBTkQgQU5ZIEVYUFJFU1MgT1IgSU1QTElFRCBXQVJSQU5USUVTLAogKiBJTkNMVURJTkcsIEJVVCBOT1QgTElNSVRFRCBUTywgVEhFIElNUExJRUQgV0FSUkFOVElFUyBPRiBNRVJDSEFOVEFCSUxJVFkgQU5EIEZJVE5FU1MgRk9SIEEgUEFSVElDVUxBUiBQVVJQT1NFIEFSRQogKiBESVNDTEFJTUVELiBJTiBOTyBFVkVOVCBTSEFMTCBUSEUgQ09QWVJJR0hUIEhPTERFUiBPUiBDT05UUklCVVRPUlMgQkUgTElBQkxFIEZPUiBBTlkgRElSRUNULCBJTkRJUkVDVCwgSU5DSURFTlRBTCwKICogU1BFQ0lBTCwgRVhFTVBMQVJZLCBPUiBDT05TRVFVRU5USUFMIERBTUFHRVMgKElOQ0xVRElORywgQlVUIE5PVCBMSU1JVEVEIFRPLCBQUk9DVVJFTUVOVCBPRiBTVUJTVElUVVRFIEdPT0RTIE9SCiAqIFNFUlZJQ0VTOyBMT1NTIE9GIFVTRSwgREFUQSwgT1IgUFJPRklUUzsgT1IgQlVTSU5FU1MgSU5URVJSVVBUSU9OKSBIT1dFVkVSIENBVVNFRCBBTkQgT04gQU5ZIFRIRU9SWSBPRiBMSUFCSUxJVFksCiAqIFdIRVRIRVIgSU4gQ09OVFJBQ1QsIFNUUklDVCBMSUFCSUxJVFksIE9SIFRPUlQgKElOQ0xVRElORyBORUdMSUdFTkNFIE9SIE9USEVSV0lTRSkgQVJJU0lORyBJTiBBTlkgV0FZIE9VVCBPRiBUSEUgVVNFCiAqIE9GIFRISVMgU09GVFdBUkUsIEVWRU4gSUYgQURWSVNFRCBPRiBUSEUgUE9TU0lCSUxJVFkgT0YgU1VDSCBEQU1BR0UuCiAqLwoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7Cgpjb250cmFjdCBDb21wVGltZWxvY2sgewogICAgZXZlbnQgTmV3QWRtaW4oYWRkcmVzcyBpbmRleGVkIG5ld0FkbWluKTsKICAgIGV2ZW50IE5ld1BlbmRpbmdBZG1pbihhZGRyZXNzIGluZGV4ZWQgbmV3UGVuZGluZ0FkbWluKTsKICAgIGV2ZW50IE5ld0RlbGF5KHVpbnQyNTYgaW5kZXhlZCBuZXdEZWxheSk7CiAgICBldmVudCBDYW5jZWxUcmFuc2FjdGlvbigKICAgICAgICBieXRlczMyIGluZGV4ZWQgdHhIYXNoLAogICAgICAgIGFkZHJlc3MgaW5kZXhlZCB0YXJnZXQsCiAgICAgICAgdWludDI1NiB2YWx1ZSwKICAgICAgICBzdHJpbmcgc2lnbmF0dXJlLAogICAgICAgIGJ5dGVzIGRhdGEsCiAgICAgICAgdWludDI1NiBldGEKICAgICk7CiAgICBldmVudCBFeGVjdXRlVHJhbnNhY3Rpb24oCiAgICAgICAgYnl0ZXMzMiBpbmRleGVkIHR4SGFzaCwKICAgICAgICBhZGRyZXNzIGluZGV4ZWQgdGFyZ2V0LAogICAgICAgIHVpbnQyNTYgdmFsdWUsCiAgICAgICAgc3RyaW5nIHNpZ25hdHVyZSwKICAgICAgICBieXRlcyBkYXRhLAogICAgICAgIHVpbnQyNTYgZXRhCiAgICApOwogICAgZXZlbnQgUXVldWVUcmFuc2FjdGlvbigKICAgICAgICBieXRlczMyIGluZGV4ZWQgdHhIYXNoLAogICAgICAgIGFkZHJlc3MgaW5kZXhlZCB0YXJnZXQsCiAgICAgICAgdWludDI1NiB2YWx1ZSwKICAgICAgICBzdHJpbmcgc2lnbmF0dXJlLAogICAgICAgIGJ5dGVzIGRhdGEsCiAgICAgICAgdWludDI1NiBldGEKICAgICk7CgogICAgdWludDI1NiBwdWJsaWMgY29uc3RhbnQgR1JBQ0VfUEVSSU9EID0gMTQgZGF5czsKICAgIHVpbnQyNTYgcHVibGljIGNvbnN0YW50IE1JTklNVU1fREVMQVkgPSAyIGRheXM7CiAgICB1aW50MjU2IHB1YmxpYyBjb25zdGFudCBNQVhJTVVNX0RFTEFZID0gMzAgZGF5czsKCiAgICBhZGRyZXNzIHB1YmxpYyBhZG1pbjsKICAgIGFkZHJlc3MgcHVibGljIHBlbmRpbmdBZG1pbjsKICAgIHVpbnQyNTYgcHVibGljIGRlbGF5OwoKICAgIG1hcHBpbmcoYnl0ZXMzMiA9PiBib29sKSBwdWJsaWMgcXVldWVkVHJhbnNhY3Rpb25zOwoKICAgIGNvbnN0cnVjdG9yKGFkZHJlc3MgYWRtaW5fLCB1aW50MjU2IGRlbGF5XykgewogICAgICAgIHJlcXVpcmUoZGVsYXlfID49IE1JTklNVU1fREVMQVksICJUaW1lbG9jazo6Y29uc3RydWN0b3I6IERlbGF5IG11c3QgZXhjZWVkIG1pbmltdW0gZGVsYXkuIik7CiAgICAgICAgcmVxdWlyZShkZWxheV8gPD0gTUFYSU1VTV9ERUxBWSwgIlRpbWVsb2NrOjpzZXREZWxheTogRGVsYXkgbXVzdCBub3QgZXhjZWVkIG1heGltdW0gZGVsYXkuIik7CgogICAgICAgIGFkbWluID0gYWRtaW5fOwogICAgICAgIGRlbGF5ID0gZGVsYXlfOwogICAgfQoKICAgIHJlY2VpdmUoKSBleHRlcm5hbCBwYXlhYmxlIHt9CgogICAgZnVuY3Rpb24gc2V0RGVsYXkodWludDI1NiBkZWxheV8pIHB1YmxpYyB7CiAgICAgICAgcmVxdWlyZShtc2cuc2VuZGVyID09IGFkZHJlc3ModGhpcyksICJUaW1lbG9jazo6c2V0RGVsYXk6IENhbGwgbXVzdCBjb21lIGZyb20gVGltZWxvY2suIik7CiAgICAgICAgcmVxdWlyZShkZWxheV8gPj0gTUlOSU1VTV9ERUxBWSwgIlRpbWVsb2NrOjpzZXREZWxheTogRGVsYXkgbXVzdCBleGNlZWQgbWluaW11bSBkZWxheS4iKTsKICAgICAgICByZXF1aXJlKGRlbGF5XyA8PSBNQVhJTVVNX0RFTEFZLCAiVGltZWxvY2s6OnNldERlbGF5OiBEZWxheSBtdXN0IG5vdCBleGNlZWQgbWF4aW11bSBkZWxheS4iKTsKICAgICAgICBkZWxheSA9IGRlbGF5XzsKCiAgICAgICAgZW1pdCBOZXdEZWxheShkZWxheSk7CiAgICB9CgogICAgZnVuY3Rpb24gYWNjZXB0QWRtaW4oKSBwdWJsaWMgewogICAgICAgIHJlcXVpcmUobXNnLnNlbmRlciA9PSBwZW5kaW5nQWRtaW4sICJUaW1lbG9jazo6YWNjZXB0QWRtaW46IENhbGwgbXVzdCBjb21lIGZyb20gcGVuZGluZ0FkbWluLiIpOwogICAgICAgIGFkbWluID0gbXNnLnNlbmRlcjsKICAgICAgICBwZW5kaW5nQWRtaW4gPSBhZGRyZXNzKDApOwoKICAgICAgICBlbWl0IE5ld0FkbWluKGFkbWluKTsKICAgIH0KCiAgICBmdW5jdGlvbiBzZXRQZW5kaW5nQWRtaW4oYWRkcmVzcyBwZW5kaW5nQWRtaW5fKSBwdWJsaWMgewogICAgICAgIHJlcXVpcmUobXNnLnNlbmRlciA9PSBhZGRyZXNzKHRoaXMpLCAiVGltZWxvY2s6OnNldFBlbmRpbmdBZG1pbjogQ2FsbCBtdXN0IGNvbWUgZnJvbSBUaW1lbG9jay4iKTsKICAgICAgICBwZW5kaW5nQWRtaW4gPSBwZW5kaW5nQWRtaW5fOwoKICAgICAgICBlbWl0IE5ld1BlbmRpbmdBZG1pbihwZW5kaW5nQWRtaW4pOwogICAgfQoKICAgIGZ1bmN0aW9uIHF1ZXVlVHJhbnNhY3Rpb24oCiAgICAgICAgYWRkcmVzcyB0YXJnZXQsCiAgICAgICAgdWludDI1NiB2YWx1ZSwKICAgICAgICBzdHJpbmcgbWVtb3J5IHNpZ25hdHVyZSwKICAgICAgICBieXRlcyBtZW1vcnkgZGF0YSwKICAgICAgICB1aW50MjU2IGV0YQogICAgKSBwdWJsaWMgcmV0dXJucyAoYnl0ZXMzMikgewogICAgICAgIHJlcXVpcmUobXNnLnNlbmRlciA9PSBhZG1pbiwgIlRpbWVsb2NrOjpxdWV1ZVRyYW5zYWN0aW9uOiBDYWxsIG11c3QgY29tZSBmcm9tIGFkbWluLiIpOwogICAgICAgIHJlcXVpcmUoCiAgICAgICAgICAgIGV0YSA+PSBnZXRCbG9ja1RpbWVzdGFtcCgpICsgZGVsYXksCiAgICAgICAgICAgICJUaW1lbG9jazo6cXVldWVUcmFuc2FjdGlvbjogRXN0aW1hdGVkIGV4ZWN1dGlvbiBibG9jayBtdXN0IHNhdGlzZnkgZGVsYXkuIgogICAgICAgICk7CgogICAgICAgIGJ5dGVzMzIgdHhIYXNoID0ga2VjY2FrMjU2KGFiaS5lbmNvZGUodGFyZ2V0LCB2YWx1ZSwgc2lnbmF0dXJlLCBkYXRhLCBldGEpKTsKICAgICAgICBxdWV1ZWRUcmFuc2FjdGlvbnNbdHhIYXNoXSA9IHRydWU7CgogICAgICAgIGVtaXQgUXVldWVUcmFuc2FjdGlvbih0eEhhc2gsIHRhcmdldCwgdmFsdWUsIHNpZ25hdHVyZSwgZGF0YSwgZXRhKTsKICAgICAgICByZXR1cm4gdHhIYXNoOwogICAgfQoKICAgIGZ1bmN0aW9uIGNhbmNlbFRyYW5zYWN0aW9uKAogICAgICAgIGFkZHJlc3MgdGFyZ2V0LAogICAgICAgIHVpbnQyNTYgdmFsdWUsCiAgICAgICAgc3RyaW5nIG1lbW9yeSBzaWduYXR1cmUsCiAgICAgICAgYnl0ZXMgbWVtb3J5IGRhdGEsCiAgICAgICAgdWludDI1NiBldGEKICAgICkgcHVibGljIHsKICAgICAgICByZXF1aXJlKG1zZy5zZW5kZXIgPT0gYWRtaW4sICJUaW1lbG9jazo6Y2FuY2VsVHJhbnNhY3Rpb246IENhbGwgbXVzdCBjb21lIGZyb20gYWRtaW4uIik7CgogICAgICAgIGJ5dGVzMzIgdHhIYXNoID0ga2VjY2FrMjU2KGFiaS5lbmNvZGUodGFyZ2V0LCB2YWx1ZSwgc2lnbmF0dXJlLCBkYXRhLCBldGEpKTsKICAgICAgICBxdWV1ZWRUcmFuc2FjdGlvbnNbdHhIYXNoXSA9IGZhbHNlOwoKICAgICAgICBlbWl0IENhbmNlbFRyYW5zYWN0aW9uKHR4SGFzaCwgdGFyZ2V0LCB2YWx1ZSwgc2lnbmF0dXJlLCBkYXRhLCBldGEpOwogICAgfQoKICAgIGZ1bmN0aW9uIGV4ZWN1dGVUcmFuc2FjdGlvbigKICAgICAgICBhZGRyZXNzIHRhcmdldCwKICAgICAgICB1aW50MjU2IHZhbHVlLAogICAgICAgIHN0cmluZyBtZW1vcnkgc2lnbmF0dXJlLAogICAgICAgIGJ5dGVzIG1lbW9yeSBkYXRhLAogICAgICAgIHVpbnQyNTYgZXRhCiAgICApIHB1YmxpYyBwYXlhYmxlIHJldHVybnMgKGJ5dGVzIG1lbW9yeSkgewogICAgICAgIHJlcXVpcmUobXNnLnNlbmRlciA9PSBhZG1pbiwgIlRpbWVsb2NrOjpleGVjdXRlVHJhbnNhY3Rpb246IENhbGwgbXVzdCBjb21lIGZyb20gYWRtaW4uIik7CgogICAgICAgIGJ5dGVzMzIgdHhIYXNoID0ga2VjY2FrMjU2KGFiaS5lbmNvZGUodGFyZ2V0LCB2YWx1ZSwgc2lnbmF0dXJlLCBkYXRhLCBldGEpKTsKICAgICAgICByZXF1aXJlKHF1ZXVlZFRyYW5zYWN0aW9uc1t0eEhhc2hdLCAiVGltZWxvY2s6OmV4ZWN1dGVUcmFuc2FjdGlvbjogVHJhbnNhY3Rpb24gaGFzbid0IGJlZW4gcXVldWVkLiIpOwogICAgICAgIHJlcXVpcmUoZ2V0QmxvY2tUaW1lc3RhbXAoKSA+PSBldGEsICJUaW1lbG9jazo6ZXhlY3V0ZVRyYW5zYWN0aW9uOiBUcmFuc2FjdGlvbiBoYXNuJ3Qgc3VycGFzc2VkIHRpbWUgbG9jay4iKTsKICAgICAgICByZXF1aXJlKGdldEJsb2NrVGltZXN0YW1wKCkgPD0gZXRhICsgR1JBQ0VfUEVSSU9ELCAiVGltZWxvY2s6OmV4ZWN1dGVUcmFuc2FjdGlvbjogVHJhbnNhY3Rpb24gaXMgc3RhbGUuIik7CgogICAgICAgIHF1ZXVlZFRyYW5zYWN0aW9uc1t0eEhhc2hdID0gZmFsc2U7CgogICAgICAgIGJ5dGVzIG1lbW9yeSBjYWxsRGF0YTsKCiAgICAgICAgaWYgKGJ5dGVzKHNpZ25hdHVyZSkubGVuZ3RoID09IDApIHsKICAgICAgICAgICAgY2FsbERhdGEgPSBkYXRhOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIGNhbGxEYXRhID0gYWJpLmVuY29kZVBhY2tlZChieXRlczQoa2VjY2FrMjU2KGJ5dGVzKHNpZ25hdHVyZSkpKSwgZGF0YSk7CiAgICAgICAgfQoKICAgICAgICAvLyBzb2xpdW0tZGlzYWJsZS1uZXh0LWxpbmUgc2VjdXJpdHkvbm8tY2FsbC12YWx1ZQogICAgICAgIChib29sIHN1Y2Nlc3MsIGJ5dGVzIG1lbW9yeSByZXR1cm5EYXRhKSA9IHRhcmdldC5jYWxse3ZhbHVlOiB2YWx1ZX0oY2FsbERhdGEpOwogICAgICAgIHJlcXVpcmUoc3VjY2VzcywgIlRpbWVsb2NrOjpleGVjdXRlVHJhbnNhY3Rpb246IFRyYW5zYWN0aW9uIGV4ZWN1dGlvbiByZXZlcnRlZC4iKTsKCiAgICAgICAgZW1pdCBFeGVjdXRlVHJhbnNhY3Rpb24odHhIYXNoLCB0YXJnZXQsIHZhbHVlLCBzaWduYXR1cmUsIGRhdGEsIGV0YSk7CgogICAgICAgIHJldHVybiByZXR1cm5EYXRhOwogICAgfQoKICAgIGZ1bmN0aW9uIGdldEJsb2NrVGltZXN0YW1wKCkgaW50ZXJuYWwgdmlldyByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgLy8gc29saXVtLWRpc2FibGUtbmV4dC1saW5lIHNlY3VyaXR5L25vLWJsb2NrLW1lbWJlcnMKICAgICAgICByZXR1cm4gYmxvY2sudGltZXN0YW1wOwogICAgfQp9Cg==
+// SPDX-License-Identifier: BSD-3-Clause
+// solhint-disable private-vars-leading-underscore
+/**
+ * Copyright 2020 Compound Labs, Inc.
+ *
+ * Redistribution and use in source and binary forms, with or without modification, are permitted provided that the
+ * following conditions are met:
+ *
+ * 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following
+ *    disclaimer.
+ *
+ * 2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the
+ *    following disclaimer in the documentation and/or other materials provided with the distribution.
+ *
+ * 3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote
+ *    products derived from this software without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
+ * INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+ * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+ * WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+
+pragma solidity ^0.8.20;
+
+contract CompTimelock {
+    event NewAdmin(address indexed newAdmin);
+    event NewPendingAdmin(address indexed newPendingAdmin);
+    event NewDelay(uint256 indexed newDelay);
+    event CancelTransaction(
+        bytes32 indexed txHash,
+        address indexed target,
+        uint256 value,
+        string signature,
+        bytes data,
+        uint256 eta
+    );
+    event ExecuteTransaction(
+        bytes32 indexed txHash,
+        address indexed target,
+        uint256 value,
+        string signature,
+        bytes data,
+        uint256 eta
+    );
+    event QueueTransaction(
+        bytes32 indexed txHash,
+        address indexed target,
+        uint256 value,
+        string signature,
+        bytes data,
+        uint256 eta
+    );
+
+    uint256 public constant GRACE_PERIOD = 14 days;
+    uint256 public constant MINIMUM_DELAY = 2 days;
+    uint256 public constant MAXIMUM_DELAY = 30 days;
+
+    address public admin;
+    address public pendingAdmin;
+    uint256 public delay;
+
+    mapping(bytes32 => bool) public queuedTransactions;
+
+    constructor(address admin_, uint256 delay_) {
+        require(delay_ >= MINIMUM_DELAY, "Timelock::constructor: Delay must exceed minimum delay.");
+        require(delay_ <= MAXIMUM_DELAY, "Timelock::setDelay: Delay must not exceed maximum delay.");
+
+        admin = admin_;
+        delay = delay_;
+    }
+
+    receive() external payable {}
+
+    function setDelay(uint256 delay_) public {
+        require(msg.sender == address(this), "Timelock::setDelay: Call must come from Timelock.");
+        require(delay_ >= MINIMUM_DELAY, "Timelock::setDelay: Delay must exceed minimum delay.");
+        require(delay_ <= MAXIMUM_DELAY, "Timelock::setDelay: Delay must not exceed maximum delay.");
+        delay = delay_;
+
+        emit NewDelay(delay);
+    }
+
+    function acceptAdmin() public {
+        require(msg.sender == pendingAdmin, "Timelock::acceptAdmin: Call must come from pendingAdmin.");
+        admin = msg.sender;
+        pendingAdmin = address(0);
+
+        emit NewAdmin(admin);
+    }
+
+    function setPendingAdmin(address pendingAdmin_) public {
+        require(msg.sender == address(this), "Timelock::setPendingAdmin: Call must come from Timelock.");
+        pendingAdmin = pendingAdmin_;
+
+        emit NewPendingAdmin(pendingAdmin);
+    }
+
+    function queueTransaction(
+        address target,
+        uint256 value,
+        string memory signature,
+        bytes memory data,
+        uint256 eta
+    ) public returns (bytes32) {
+        require(msg.sender == admin, "Timelock::queueTransaction: Call must come from admin.");
+        require(
+            eta >= getBlockTimestamp() + delay,
+            "Timelock::queueTransaction: Estimated execution block must satisfy delay."
+        );
+
+        bytes32 txHash = keccak256(abi.encode(target, value, signature, data, eta));
+        queuedTransactions[txHash] = true;
+
+        emit QueueTransaction(txHash, target, value, signature, data, eta);
+        return txHash;
+    }
+
+    function cancelTransaction(
+        address target,
+        uint256 value,
+        string memory signature,
+        bytes memory data,
+        uint256 eta
+    ) public {
+        require(msg.sender == admin, "Timelock::cancelTransaction: Call must come from admin.");
+
+        bytes32 txHash = keccak256(abi.encode(target, value, signature, data, eta));
+        queuedTransactions[txHash] = false;
+
+        emit CancelTransaction(txHash, target, value, signature, data, eta);
+    }
+
+    function executeTransaction(
+        address target,
+        uint256 value,
+        string memory signature,
+        bytes memory data,
+        uint256 eta
+    ) public payable returns (bytes memory) {
+        require(msg.sender == admin, "Timelock::executeTransaction: Call must come from admin.");
+
+        bytes32 txHash = keccak256(abi.encode(target, value, signature, data, eta));
+        require(queuedTransactions[txHash], "Timelock::executeTransaction: Transaction hasn't been queued.");
+        require(getBlockTimestamp() >= eta, "Timelock::executeTransaction: Transaction hasn't surpassed time lock.");
+        require(getBlockTimestamp() <= eta + GRACE_PERIOD, "Timelock::executeTransaction: Transaction is stale.");
+
+        queuedTransactions[txHash] = false;
+
+        bytes memory callData;
+
+        if (bytes(signature).length == 0) {
+            callData = data;
+        } else {
+            callData = abi.encodePacked(bytes4(keccak256(bytes(signature))), data);
+        }
+
+        // solium-disable-next-line security/no-call-value
+        (bool success, bytes memory returnData) = target.call{value: value}(callData);
+        require(success, "Timelock::executeTransaction: Transaction execution reverted.");
+
+        emit ExecuteTransaction(txHash, target, value, signature, data, eta);
+
+        return returnData;
+    }
+
+    function getBlockTimestamp() internal view returns (uint256) {
+        // solium-disable-next-line security/no-block-members
+        return block.timestamp;
+    }
+}
