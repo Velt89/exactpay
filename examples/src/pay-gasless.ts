@@ -1,1 +1,46 @@
-LyoqCiAqIEdhc2xlc3MgcGF5bWVudCwgZW5kIHRvIGVuZCwgdGhlIHdheSBhIHJlYWwgYXBwIGRvZXMgaXQ6CiAqICAgMS4gQlVZRVIgc2lnbnMgYW4gRUlQLTMwMDkgUmVjZWl2ZVdpdGhBdXRob3JpemF0aW9uIChvZmYtY2hhaW4sIGZyZWUpLgogKiAgIDIuIFJFTEFZRVIgKHlvdXIgYmFja2VuZCkgc3VibWl0cyBDaGVja291dC5wYXlXaXRoQXV0aG9yaXphdGlvbiBhbmQgcGF5cyB0aGUgZ2FzLgogKgogKiAgIHBucG0gZXhhbXBsZSBwYXktZ2FzbGVzcyAgICAgICAgICAgICAgIyBwYXlzIDEgdFVTRDggZm9yIGEgcmFuZG9tIG9yZGVyIGlkCiAqICAgQU1PVU5UPTIuNSBwbnBtIGV4YW1wbGUgcGF5LWdhc2xlc3MKICovCmltcG9ydCB7IGNyZWF0ZVdhbGxldENsaWVudCwgZm9ybWF0VW5pdHMsIGh0dHAsIGtlY2NhazI1NiwgcGFyc2VVbml0cywgcGFyc2VTaWduYXR1cmUsIHRvSGV4IH0gZnJvbSAidmllbSI7CmltcG9ydCB7IHByaXZhdGVLZXlUb0FjY291bnQgfSBmcm9tICJ2aWVtL2FjY291bnRzIjsKaW1wb3J0IHsgYWV2dW1UZXN0bmV0LCBhdXRob3JpemF0aW9uV2luZG93LCBjaGVja291dEFiaSwgY2hlY2tvdXRUeXBlZERhdGEsIGVyYzIwQWJpLCB0eFVybCB9IGZyb20gIkBhZXZ1bS1raXQvYWV2dW0iOwppbXBvcnQgeyBjb25uZWN0LCByZXF1aXJlZEFkZHJlc3MsIHJlcXVpcmVkS2V5IH0gZnJvbSAiLi9lbnYiOwoKY29uc3QgeyBjbGllbnQsIGNoYWluLCBycGNVcmwgfSA9IGF3YWl0IGNvbm5lY3QoKTsKY29uc3QgY2hlY2tvdXQgPSByZXF1aXJlZEFkZHJlc3MoIkNIRUNLT1VUX0FERFJFU1MiKTsKY29uc3QgYnV5ZXIgPSBwcml2YXRlS2V5VG9BY2NvdW50KHJlcXVpcmVkS2V5KCJCVVlFUl9LRVkiKSk7CmNvbnN0IHJlbGF5ZXIgPSBjcmVhdGVXYWxsZXRDbGllbnQoeyBhY2NvdW50OiBwcml2YXRlS2V5VG9BY2NvdW50KHJlcXVpcmVkS2V5KCJSRUxBWUVSX0tFWSIpKSwgY2hhaW4sIHRyYW5zcG9ydDogaHR0cChycGNVcmwpIH0pOwoKY29uc3QgdG9rZW4gPSBhd2FpdCBjbGllbnQucmVhZENvbnRyYWN0KHsgYWRkcmVzczogY2hlY2tvdXQsIGFiaTogY2hlY2tvdXRBYmksIGZ1bmN0aW9uTmFtZTogInRva2VuIiB9KTsKY29uc3QgZGVjaW1hbHMgPSBhd2FpdCBjbGllbnQucmVhZENvbnRyYWN0KHsgYWRkcmVzczogdG9rZW4sIGFiaTogZXJjMjBBYmksIGZ1bmN0aW9uTmFtZTogImRlY2ltYWxzIiB9KTsKY29uc3QgYW1vdW50ID0gcGFyc2VVbml0cyhwcm9jZXNzLmVudi5BTU9VTlQgPz8gIjEiLCBkZWNpbWFscyk7CmNvbnN0IG9yZGVySWQgPSBrZWNjYWsyNTYodG9IZXgoYG9yZGVyLSR7RGF0ZS5ub3coKX0tJHtNYXRoLnJhbmRvbSgpfWApKTsKCi8vIDEuIEJ1eWVyIHNpZ25zLiBUaGUgbm9uY2UgdGllcyB0aGUgc2lnbmF0dXJlIHRvIHRoaXMgb3JkZXIgaWQuCmNvbnN0IG5vbmNlID0gYXdhaXQgY2xpZW50LnJlYWRDb250cmFjdCh7IGFkZHJlc3M6IGNoZWNrb3V0LCBhYmk6IGNoZWNrb3V0QWJpLCBmdW5jdGlvbk5hbWU6ICJhdXRob3JpemF0aW9uTm9uY2UiLCBhcmdzOiBbb3JkZXJJZF0gfSk7CmNvbnN0IHsgdmFsaWRBZnRlciwgdmFsaWRCZWZvcmUgfSA9IGF1dGhvcml6YXRpb25XaW5kb3coNjAwKTsKY29uc3Qgc2lnbmF0dXJlID0gYXdhaXQgYnV5ZXIuc2lnblR5cGVkRGF0YSgKICBjaGVja291dFR5cGVkRGF0YShjaGFpbi5pZCwgdG9rZW4sIHsgZnJvbTogYnV5ZXIuYWRkcmVzcywgdG86IGNoZWNrb3V0LCB2YWx1ZTogYW1vdW50LCB2YWxpZEFmdGVyLCB2YWxpZEJlZm9yZSwgbm9uY2UgfSksCik7CmNvbnN0IHsgdiwgciwgcywgeVBhcml0eSB9ID0gcGFyc2VTaWduYXR1cmUoc2lnbmF0dXJlKTsKY29uc29sZS5sb2coYEJ1eWVyICR7YnV5ZXIuYWRkcmVzc30gc2lnbmVkICR7Zm9ybWF0VW5pdHMoYW1vdW50LCBkZWNpbWFscyl9IGZvciBvcmRlciAke29yZGVySWR9YCk7CgovLyAyLiBSZWxheWVyIHN1Ym1pdHMuIFNpbXVsYXRlIGZpcnN0IHNvIGEgYmFkIHNpZ25hdHVyZSBmYWlscyBoZXJlLCBub3Qgb24gY2hhaW4uCmNvbnN0IGNhbGwgPSB7CiAgYWNjb3VudDogcmVsYXllci5hY2NvdW50LAogIGFkZHJlc3M6IGNoZWNrb3V0LAogIGFiaTogY2hlY2tvdXRBYmksCiAgZnVuY3Rpb25OYW1lOiAicGF5V2l0aEF1dGhvcml6YXRpb24iLAogIGFyZ3M6IFtvcmRlcklkLCBidXllci5hZGRyZXNzLCBhbW91bnQsIHZhbGlkQWZ0ZXIsIHZhbGlkQmVmb3JlLCB2ICE9PSB1bmRlZmluZWQgPyBOdW1iZXIodikgOiAyNyArICh5UGFyaXR5ID8/IDApLCByLCBzXSwKfSBhcyBjb25zdDsKYXdhaXQgY2xpZW50LnNpbXVsYXRlQ29udHJhY3QoY2FsbCk7CmNvbnN0IGhhc2ggPSBhd2FpdCByZWxheWVyLndyaXRlQ29udHJhY3QoeyAuLi5jYWxsLCB0eXBlOiAibGVnYWN5IiB9KTsKY29uc3QgcmVjZWlwdCA9IGF3YWl0IGNsaWVudC53YWl0Rm9yVHJhbnNhY3Rpb25SZWNlaXB0KHsgaGFzaCB9KTsKCmNvbnNvbGUubG9nKGBSZWxheWVyICR7cmVsYXllci5hY2NvdW50LmFkZHJlc3N9IHN1Ym1pdHRlZDogJHtyZWNlaXB0LnN0YXR1c30gaW4gYmxvY2sgJHtyZWNlaXB0LmJsb2NrTnVtYmVyfWApOwpjb25zb2xlLmxvZyhjaGFpbi5pZCA9PT0gYWV2dW1UZXN0bmV0LmlkID8gdHhVcmwoaGFzaCkgOiBgdHggJHtoYXNofWApOwo=
+/**
+ * Gasless payment, end to end, the way a real app does it:
+ *   1. BUYER signs an EIP-3009 ReceiveWithAuthorization (off-chain, free).
+ *   2. RELAYER (your backend) submits Checkout.payWithAuthorization and pays the gas.
+ *
+ *   pnpm example pay-gasless              # pays 1 tUSD8 for a random order id
+ *   AMOUNT=2.5 pnpm example pay-gasless
+ */
+import { createWalletClient, formatUnits, http, keccak256, parseUnits, parseSignature, toHex } from "viem";
+import { privateKeyToAccount } from "viem/accounts";
+import { aevumTestnet, authorizationWindow, checkoutAbi, checkoutTypedData, erc20Abi, txUrl } from "@aevum-kit/aevum";
+import { connect, requiredAddress, requiredKey } from "./env";
+
+const { client, chain, rpcUrl } = await connect();
+const checkout = requiredAddress("CHECKOUT_ADDRESS");
+const buyer = privateKeyToAccount(requiredKey("BUYER_KEY"));
+const relayer = createWalletClient({ account: privateKeyToAccount(requiredKey("RELAYER_KEY")), chain, transport: http(rpcUrl) });
+
+const token = await client.readContract({ address: checkout, abi: checkoutAbi, functionName: "token" });
+const decimals = await client.readContract({ address: token, abi: erc20Abi, functionName: "decimals" });
+const amount = parseUnits(process.env.AMOUNT ?? "1", decimals);
+const orderId = keccak256(toHex(`order-${Date.now()}-${Math.random()}`));
+
+// 1. Buyer signs. The nonce ties the signature to this order id.
+const nonce = await client.readContract({ address: checkout, abi: checkoutAbi, functionName: "authorizationNonce", args: [orderId] });
+const { validAfter, validBefore } = authorizationWindow(600);
+const signature = await buyer.signTypedData(
+  checkoutTypedData(chain.id, token, { from: buyer.address, to: checkout, value: amount, validAfter, validBefore, nonce }),
+);
+const { v, r, s, yParity } = parseSignature(signature);
+console.log(`Buyer ${buyer.address} signed ${formatUnits(amount, decimals)} for order ${orderId}`);
+
+// 2. Relayer submits. Simulate first so a bad signature fails here, not on chain.
+const call = {
+  account: relayer.account,
+  address: checkout,
+  abi: checkoutAbi,
+  functionName: "payWithAuthorization",
+  args: [orderId, buyer.address, amount, validAfter, validBefore, v !== undefined ? Number(v) : 27 + (yParity ?? 0), r, s],
+} as const;
+await client.simulateContract(call);
+const hash = await relayer.writeContract({ ...call, type: "legacy" });
+const receipt = await client.waitForTransactionReceipt({ hash });
+
+console.log(`Relayer ${relayer.account.address} submitted: ${receipt.status} in block ${receipt.blockNumber}`);
+console.log(chain.id === aevumTestnet.id ? txUrl(hash) : `tx ${hash}`);
