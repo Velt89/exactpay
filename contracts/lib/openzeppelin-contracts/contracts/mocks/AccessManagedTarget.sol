@@ -1,1 +1,34 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0FjY2Vzc01hbmFnZWR9IGZyb20gIi4uL2FjY2Vzcy9tYW5hZ2VyL0FjY2Vzc01hbmFnZWQuc29sIjsKaW1wb3J0IHtTdG9yYWdlU2xvdH0gZnJvbSAiLi4vdXRpbHMvU3RvcmFnZVNsb3Quc29sIjsKCmFic3RyYWN0IGNvbnRyYWN0IEFjY2Vzc01hbmFnZWRUYXJnZXQgaXMgQWNjZXNzTWFuYWdlZCB7CiAgICBldmVudCBDYWxsZWRSZXN0cmljdGVkKGFkZHJlc3MgY2FsbGVyKTsKICAgIGV2ZW50IENhbGxlZFVucmVzdHJpY3RlZChhZGRyZXNzIGNhbGxlcik7CiAgICBldmVudCBDYWxsZWRGYWxsYmFjayhhZGRyZXNzIGNhbGxlcik7CgogICAgZnVuY3Rpb24gZm5SZXN0cmljdGVkKCkgcHVibGljIHJlc3RyaWN0ZWQgewogICAgICAgIGVtaXQgQ2FsbGVkUmVzdHJpY3RlZChtc2cuc2VuZGVyKTsKICAgIH0KCiAgICBmdW5jdGlvbiBmblVucmVzdHJpY3RlZCgpIHB1YmxpYyB7CiAgICAgICAgZW1pdCBDYWxsZWRVbnJlc3RyaWN0ZWQobXNnLnNlbmRlcik7CiAgICB9CgogICAgZnVuY3Rpb24gc2V0SXNDb25zdW1pbmdTY2hlZHVsZWRPcChib29sIGlzQ29uc3VtaW5nLCBieXRlczMyIHNsb3QpIGV4dGVybmFsIHsKICAgICAgICAvLyBNZW1vcnkgbGF5b3V0IGlzIDB4Li4uLjxfY29uc3VtaW5nU2NoZWR1bGUgKGJvb2xlYW4pPjxhdXRob3JpdHkgKGFkZHJlc3MpPgogICAgICAgIGJ5dGVzMzIgbWFzayA9IGJ5dGVzMzIodWludDI1NigxIDw8IDE2MCkpOwogICAgICAgIGlmIChpc0NvbnN1bWluZykgewogICAgICAgICAgICBTdG9yYWdlU2xvdC5nZXRCeXRlczMyU2xvdChzbG90KS52YWx1ZSB8PSBtYXNrOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIFN0b3JhZ2VTbG90LmdldEJ5dGVzMzJTbG90KHNsb3QpLnZhbHVlICY9IH5tYXNrOwogICAgICAgIH0KICAgIH0KCiAgICBmYWxsYmFjaygpIGV4dGVybmFsIHsKICAgICAgICBlbWl0IENhbGxlZEZhbGxiYWNrKG1zZy5zZW5kZXIpOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {AccessManaged} from "../access/manager/AccessManaged.sol";
+import {StorageSlot} from "../utils/StorageSlot.sol";
+
+abstract contract AccessManagedTarget is AccessManaged {
+    event CalledRestricted(address caller);
+    event CalledUnrestricted(address caller);
+    event CalledFallback(address caller);
+
+    function fnRestricted() public restricted {
+        emit CalledRestricted(msg.sender);
+    }
+
+    function fnUnrestricted() public {
+        emit CalledUnrestricted(msg.sender);
+    }
+
+    function setIsConsumingScheduledOp(bool isConsuming, bytes32 slot) external {
+        // Memory layout is 0x....<_consumingSchedule (boolean)><authority (address)>
+        bytes32 mask = bytes32(uint256(1 << 160));
+        if (isConsuming) {
+            StorageSlot.getBytes32Slot(slot).value |= mask;
+        } else {
+            StorageSlot.getBytes32Slot(slot).value &= ~mask;
+        }
+    }
+
+    fallback() external {
+        emit CalledFallback(msg.sender);
+    }
+}
