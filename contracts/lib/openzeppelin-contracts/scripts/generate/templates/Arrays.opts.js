@@ -1,1 +1,3 @@
-Y29uc3QgVFlQRVMgPSBbJ2FkZHJlc3MnLCAnYnl0ZXMzMicsICd1aW50MjU2J107Cgptb2R1bGUuZXhwb3J0cyA9IHsgVFlQRVMgfTsK
+const TYPES = ['address', 'bytes32', 'uint256'];
+
+module.exports = { TYPES };
