@@ -1,1 +1,5 @@
-ewogICJuYW1lIjogInNvbGhpbnQtcGx1Z2luLW9wZW56ZXBwZWxpbiIsCiAgInZlcnNpb24iOiAiMC4wLjAiLAogICJwcml2YXRlIjogdHJ1ZQp9Cg==
+{
+  "name": "solhint-plugin-openzeppelin",
+  "version": "0.0.0",
+  "private": true
+}
