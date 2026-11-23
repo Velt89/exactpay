@@ -1,1 +1,12 @@
-Ly8gZW52aXJvbm1lbnQKZGVmaW5pdGlvbiBub25wYXlhYmxlKGVudiBlKSByZXR1cm5zIGJvb2wgPSBlLm1zZy52YWx1ZSA9PSAwOwpkZWZpbml0aW9uIG5vbnplcm9zZW5kZXIoZW52IGUpIHJldHVybnMgYm9vbCA9IGUubXNnLnNlbmRlciAhPSAwOwpkZWZpbml0aW9uIHNhbml0eShlbnYgZSkgcmV0dXJucyBib29sID0gY2xvY2soZSkgPiAwICYmIGNsb2NrKGUpIDw9IG1heF91aW50NDg7CgovLyBtYXRoCmRlZmluaXRpb24gbWluKG1hdGhpbnQgYSwgbWF0aGludCBiKSByZXR1cm5zIG1hdGhpbnQgPSBhIDwgYiA/IGEgOiBiOwpkZWZpbml0aW9uIG1heChtYXRoaW50IGEsIG1hdGhpbnQgYikgcmV0dXJucyBtYXRoaW50ID0gYSA+IGIgPyBhIDogYjsKCi8vIHRpbWUKZGVmaW5pdGlvbiBjbG9jayhlbnYgZSkgcmV0dXJucyBtYXRoaW50ID0gdG9fbWF0aGludChlLmJsb2NrLnRpbWVzdGFtcCk7CmRlZmluaXRpb24gaXNTZXRBbmRQYXN0KGVudiBlLCB1aW50NDggdGltZXBvaW50KSByZXR1cm5zIGJvb2wgPSB0aW1lcG9pbnQgIT0gMCAmJiB0b19tYXRoaW50KHRpbWVwb2ludCkgPD0gY2xvY2soZSk7Cg==
+// environment
+definition nonpayable(env e) returns bool = e.msg.value == 0;
+definition nonzerosender(env e) returns bool = e.msg.sender != 0;
+definition sanity(env e) returns bool = clock(e) > 0 && clock(e) <= max_uint48;
+
+// math
+definition min(mathint a, mathint b) returns mathint = a < b ? a : b;
+definition max(mathint a, mathint b) returns mathint = a > b ? a : b;
+
+// time
+definition clock(env e) returns mathint = to_mathint(e.block.timestamp);
+definition isSetAndPast(env e, uint48 timepoint) returns bool = timepoint != 0 && to_mathint(timepoint) <= clock(e);
