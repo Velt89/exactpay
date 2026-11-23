@@ -1,1 +1,32 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMC4wKSAoYWNjZXNzL21hbmFnZXIvSUFjY2Vzc01hbmFnZWQuc29sKQoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbnRlcmZhY2UgSUFjY2Vzc01hbmFnZWQgewogICAgLyoqCiAgICAgKiBAZGV2IEF1dGhvcml0eSB0aGF0IG1hbmFnZXMgdGhpcyBjb250cmFjdCB3YXMgdXBkYXRlZC4KICAgICAqLwogICAgZXZlbnQgQXV0aG9yaXR5VXBkYXRlZChhZGRyZXNzIGF1dGhvcml0eSk7CgogICAgZXJyb3IgQWNjZXNzTWFuYWdlZFVuYXV0aG9yaXplZChhZGRyZXNzIGNhbGxlcik7CiAgICBlcnJvciBBY2Nlc3NNYW5hZ2VkUmVxdWlyZWREZWxheShhZGRyZXNzIGNhbGxlciwgdWludDMyIGRlbGF5KTsKICAgIGVycm9yIEFjY2Vzc01hbmFnZWRJbnZhbGlkQXV0aG9yaXR5KGFkZHJlc3MgYXV0aG9yaXR5KTsKCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyB0aGUgY3VycmVudCBhdXRob3JpdHkuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGF1dGhvcml0eSgpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAoYWRkcmVzcyk7CgogICAgLyoqCiAgICAgKiBAZGV2IFRyYW5zZmVycyBjb250cm9sIHRvIGEgbmV3IGF1dGhvcml0eS4gVGhlIGNhbGxlciBtdXN0IGJlIHRoZSBjdXJyZW50IGF1dGhvcml0eS4KICAgICAqLwogICAgZnVuY3Rpb24gc2V0QXV0aG9yaXR5KGFkZHJlc3MpIGV4dGVybmFsOwoKICAgIC8qKgogICAgICogQGRldiBSZXR1cm5zIHRydWUgb25seSBpbiB0aGUgY29udGV4dCBvZiBhIGRlbGF5ZWQgcmVzdHJpY3RlZCBjYWxsLCBhdCB0aGUgbW9tZW50IHRoYXQgdGhlIHNjaGVkdWxlZCBvcGVyYXRpb24gaXMKICAgICAqIGJlaW5nIGNvbnN1bWVkLiBQcmV2ZW50cyBkZW5pYWwgb2Ygc2VydmljZSBmb3IgZGVsYXllZCByZXN0cmljdGVkIGNhbGxzIGluIHRoZSBjYXNlIHRoYXQgdGhlIGNvbnRyYWN0IHBlcmZvcm1zCiAgICAgKiBhdHRhY2tlciBjb250cm9sbGVkIGNhbGxzLgogICAgICovCiAgICBmdW5jdGlvbiBpc0NvbnN1bWluZ1NjaGVkdWxlZE9wKCkgZXh0ZXJuYWwgdmlldyByZXR1cm5zIChieXRlczQpOwp9Cg==
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.0.0) (access/manager/IAccessManaged.sol)
+
+pragma solidity ^0.8.20;
+
+interface IAccessManaged {
+    /**
+     * @dev Authority that manages this contract was updated.
+     */
+    event AuthorityUpdated(address authority);
+
+    error AccessManagedUnauthorized(address caller);
+    error AccessManagedRequiredDelay(address caller, uint32 delay);
+    error AccessManagedInvalidAuthority(address authority);
+
+    /**
+     * @dev Returns the current authority.
+     */
+    function authority() external view returns (address);
+
+    /**
+     * @dev Transfers control to a new authority. The caller must be the current authority.
+     */
+    function setAuthority(address) external;
+
+    /**
+     * @dev Returns true only in the context of a delayed restricted call, at the moment that the scheduled operation is
+     * being consumed. Prevents denial of service for delayed restricted calls in the case that the contract performs
+     * attacker controlled calls.
+     */
+    function isConsumingScheduledOp() external view returns (bytes4);
+}
