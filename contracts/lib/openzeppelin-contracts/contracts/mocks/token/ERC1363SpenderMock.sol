@@ -1,1 +1,47 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0lFUkMxMzYzU3BlbmRlcn0gZnJvbSAiLi4vLi4vaW50ZXJmYWNlcy9JRVJDMTM2M1NwZW5kZXIuc29sIjsKCmNvbnRyYWN0IEVSQzEzNjNTcGVuZGVyTW9jayBpcyBJRVJDMTM2M1NwZW5kZXIgewogICAgZW51bSBSZXZlcnRUeXBlIHsKICAgICAgICBOb25lLAogICAgICAgIFJldmVydFdpdGhvdXRNZXNzYWdlLAogICAgICAgIFJldmVydFdpdGhNZXNzYWdlLAogICAgICAgIFJldmVydFdpdGhDdXN0b21FcnJvciwKICAgICAgICBQYW5pYwogICAgfQoKICAgIGJ5dGVzNCBwcml2YXRlIF9yZXR2YWw7CiAgICBSZXZlcnRUeXBlIHByaXZhdGUgX2Vycm9yOwoKICAgIGV2ZW50IEFwcHJvdmVkKGFkZHJlc3Mgb3duZXIsIHVpbnQyNTYgdmFsdWUsIGJ5dGVzIGRhdGEpOwogICAgZXJyb3IgQ3VzdG9tRXJyb3IoYnl0ZXM0KTsKCiAgICBjb25zdHJ1Y3RvcigpIHsKICAgICAgICBfcmV0dmFsID0gSUVSQzEzNjNTcGVuZGVyLm9uQXBwcm92YWxSZWNlaXZlZC5zZWxlY3RvcjsKICAgICAgICBfZXJyb3IgPSBSZXZlcnRUeXBlLk5vbmU7CiAgICB9CgogICAgZnVuY3Rpb24gc2V0VXAoYnl0ZXM0IHJldHZhbCwgUmV2ZXJ0VHlwZSBlcnJvcikgcHVibGljIHsKICAgICAgICBfcmV0dmFsID0gcmV0dmFsOwogICAgICAgIF9lcnJvciA9IGVycm9yOwogICAgfQoKICAgIGZ1bmN0aW9uIG9uQXBwcm92YWxSZWNlaXZlZChhZGRyZXNzIG93bmVyLCB1aW50MjU2IHZhbHVlLCBieXRlcyBjYWxsZGF0YSBkYXRhKSBleHRlcm5hbCBvdmVycmlkZSByZXR1cm5zIChieXRlczQpIHsKICAgICAgICBpZiAoX2Vycm9yID09IFJldmVydFR5cGUuUmV2ZXJ0V2l0aG91dE1lc3NhZ2UpIHsKICAgICAgICAgICAgcmV2ZXJ0KCk7CiAgICAgICAgfSBlbHNlIGlmIChfZXJyb3IgPT0gUmV2ZXJ0VHlwZS5SZXZlcnRXaXRoTWVzc2FnZSkgewogICAgICAgICAgICByZXZlcnQoIkVSQzEzNjNTcGVuZGVyTW9jazogcmV2ZXJ0aW5nIik7CiAgICAgICAgfSBlbHNlIGlmIChfZXJyb3IgPT0gUmV2ZXJ0VHlwZS5SZXZlcnRXaXRoQ3VzdG9tRXJyb3IpIHsKICAgICAgICAgICAgcmV2ZXJ0IEN1c3RvbUVycm9yKF9yZXR2YWwpOwogICAgICAgIH0gZWxzZSBpZiAoX2Vycm9yID09IFJldmVydFR5cGUuUGFuaWMpIHsKICAgICAgICAgICAgdWludDI1NiBhID0gdWludDI1NigwKSAvIHVpbnQyNTYoMCk7CiAgICAgICAgICAgIGE7CiAgICAgICAgfQoKICAgICAgICBlbWl0IEFwcHJvdmVkKG93bmVyLCB2YWx1ZSwgZGF0YSk7CiAgICAgICAgcmV0dXJuIF9yZXR2YWw7CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {IERC1363Spender} from "../../interfaces/IERC1363Spender.sol";
+
+contract ERC1363SpenderMock is IERC1363Spender {
+    enum RevertType {
+        None,
+        RevertWithoutMessage,
+        RevertWithMessage,
+        RevertWithCustomError,
+        Panic
+    }
+
+    bytes4 private _retval;
+    RevertType private _error;
+
+    event Approved(address owner, uint256 value, bytes data);
+    error CustomError(bytes4);
+
+    constructor() {
+        _retval = IERC1363Spender.onApprovalReceived.selector;
+        _error = RevertType.None;
+    }
+
+    function setUp(bytes4 retval, RevertType error) public {
+        _retval = retval;
+        _error = error;
+    }
+
+    function onApprovalReceived(address owner, uint256 value, bytes calldata data) external override returns (bytes4) {
+        if (_error == RevertType.RevertWithoutMessage) {
+            revert();
+        } else if (_error == RevertType.RevertWithMessage) {
+            revert("ERC1363SpenderMock: reverting");
+        } else if (_error == RevertType.RevertWithCustomError) {
+            revert CustomError(_retval);
+        } else if (_error == RevertType.Panic) {
+            uint256 a = uint256(0) / uint256(0);
+            a;
+        }
+
+        emit Approved(owner, value, data);
+        return _retval;
+    }
+}
