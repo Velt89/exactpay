@@ -1,1 +1,213 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKY29uc3QgVEVTVF9NRVNTQUdFID0gZXRoZXJzLmlkKCdPcGVuWmVwcGVsaW4nKTsKY29uc3QgV1JPTkdfTUVTU0FHRSA9IGV0aGVycy5pZCgnTm9wZScpOwpjb25zdCBOT05fSEFTSF9NRVNTQUdFID0gJzB4YWJjZCc7Cgphc3luYyBmdW5jdGlvbiBmaXh0dXJlKCkgewogIGNvbnN0IFtzaWduZXJdID0gYXdhaXQgZXRoZXJzLmdldFNpZ25lcnMoKTsKICBjb25zdCBtb2NrID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCckRUNEU0EnKTsKICByZXR1cm4geyBzaWduZXIsIG1vY2sgfTsKfQoKZGVzY3JpYmUoJ0VDRFNBJywgZnVuY3Rpb24gKCkgewogIGJlZm9yZUVhY2goYXN5bmMgZnVuY3Rpb24gKCkgewogICAgT2JqZWN0LmFzc2lnbih0aGlzLCBhd2FpdCBsb2FkRml4dHVyZShmaXh0dXJlKSk7CiAgfSk7CgogIGRlc2NyaWJlKCdyZWNvdmVyIHdpdGggaW52YWxpZCBzaWduYXR1cmUnLCBmdW5jdGlvbiAoKSB7CiAgICBpdCgnd2l0aCBzaG9ydCBzaWduYXR1cmUnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1vY2suJHJlY292ZXIoVEVTVF9NRVNTQUdFLCAnMHgxMjM0JykpCiAgICAgICAgLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMubW9jaywgJ0VDRFNBSW52YWxpZFNpZ25hdHVyZUxlbmd0aCcpCiAgICAgICAgLndpdGhBcmdzKDIpOwogICAgfSk7CgogICAgaXQoJ3dpdGggbG9uZyBzaWduYXR1cmUnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGF3YWl0IGV4cGVjdCgKICAgICAgICAvLyBlc2xpbnQtZGlzYWJsZS1uZXh0LWxpbmUgbWF4LWxlbgogICAgICAgIHRoaXMubW9jay4kcmVjb3ZlcigKICAgICAgICAgIFRFU1RfTUVTU0FHRSwKICAgICAgICAgICcweDAxMjM0NTY3ODkwMTIzNDU2Nzg5MDEyMzQ1Njc4OTAxMjM0NTY3ODkwMTIzNDU2Nzg5MDEyMzQ1Njc4OTAxMjM0NTY3ODkwMTIzNDU2Nzg5MDEyMzQ1Njc4OTAxMjM0NTY3ODkwMTIzNDU2Nzg5MDEyMzQ1Njc4OTAxMjM0NTY3ODkwMTIzNDU2Nzg5MDEyMzQ1Njc4OTAxMjM0NTY3ODkwMTIzNDU2Nzg5JywKICAgICAgICApLAogICAgICApCiAgICAgICAgLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMubW9jaywgJ0VDRFNBSW52YWxpZFNpZ25hdHVyZUxlbmd0aCcpCiAgICAgICAgLndpdGhBcmdzKDg1KTsKICAgIH0pOwogIH0pOwoKICBkZXNjcmliZSgncmVjb3ZlciB3aXRoIHZhbGlkIHNpZ25hdHVyZScsIGZ1bmN0aW9uICgpIHsKICAgIGRlc2NyaWJlKCd1c2luZyA8c2lnbmVyPi5zaWduJywgZnVuY3Rpb24gKCkgewogICAgICBpdCgncmV0dXJucyBzaWduZXIgYWRkcmVzcyB3aXRoIGNvcnJlY3Qgc2lnbmF0dXJlJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIC8vIENyZWF0ZSB0aGUgc2lnbmF0dXJlCiAgICAgICAgY29uc3Qgc2lnbmF0dXJlID0gYXdhaXQgdGhpcy5zaWduZXIuc2lnbk1lc3NhZ2UoVEVTVF9NRVNTQUdFKTsKCiAgICAgICAgLy8gUmVjb3ZlciB0aGUgc2lnbmVyIGFkZHJlc3MgZnJvbSB0aGUgZ2VuZXJhdGVkIG1lc3NhZ2UgYW5kIHNpZ25hdHVyZS4KICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRyZWNvdmVyKGV0aGVycy5oYXNoTWVzc2FnZShURVNUX01FU1NBR0UpLCBzaWduYXR1cmUpKS50by5lcXVhbCh0aGlzLnNpZ25lcik7CiAgICAgIH0pOwoKICAgICAgaXQoJ3JldHVybnMgc2lnbmVyIGFkZHJlc3Mgd2l0aCBjb3JyZWN0IHNpZ25hdHVyZSBmb3IgYXJiaXRyYXJ5IGxlbmd0aCBtZXNzYWdlJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIC8vIENyZWF0ZSB0aGUgc2lnbmF0dXJlCiAgICAgICAgY29uc3Qgc2lnbmF0dXJlID0gYXdhaXQgdGhpcy5zaWduZXIuc2lnbk1lc3NhZ2UoTk9OX0hBU0hfTUVTU0FHRSk7CgogICAgICAgIC8vIFJlY292ZXIgdGhlIHNpZ25lciBhZGRyZXNzIGZyb20gdGhlIGdlbmVyYXRlZCBtZXNzYWdlIGFuZCBzaWduYXR1cmUuCiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kcmVjb3ZlcihldGhlcnMuaGFzaE1lc3NhZ2UoTk9OX0hBU0hfTUVTU0FHRSksIHNpZ25hdHVyZSkpLnRvLmVxdWFsKHRoaXMuc2lnbmVyKTsKICAgICAgfSk7CgogICAgICBpdCgncmV0dXJucyBhIGRpZmZlcmVudCBhZGRyZXNzJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGNvbnN0IHNpZ25hdHVyZSA9IGF3YWl0IHRoaXMuc2lnbmVyLnNpZ25NZXNzYWdlKFRFU1RfTUVTU0FHRSk7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kcmVjb3ZlcihXUk9OR19NRVNTQUdFLCBzaWduYXR1cmUpKS50by5ub3QuYmUuZXF1YWwodGhpcy5zaWduZXIpOwogICAgICB9KTsKCiAgICAgIGl0KCdyZXZlcnRzIHdpdGggaW52YWxpZCBzaWduYXR1cmUnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgLy8gZXNsaW50LWRpc2FibGUtbmV4dC1saW5lIG1heC1sZW4KICAgICAgICBjb25zdCBzaWduYXR1cmUgPQogICAgICAgICAgJzB4MzMyY2U3NWE4MjFjOTgyZjkxMjc1Mzg4NTg5MDBkODdkM2VjMWY5ZjczNzMzOGFkNjdjYWQxMzNmYTQ4ZmVmZjQ4ZTZmYTBjMThhYmM2MmU0MjgyMGYwNTk0M2U0N2FmM2U5ZmJlMzA2Y2U3NGQ2NDA5NGJkZjE2OTFlZTUzZTAxYyc7CiAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMubW9jay4kcmVjb3ZlcihURVNUX01FU1NBR0UsIHNpZ25hdHVyZSkpLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKAogICAgICAgICAgdGhpcy5tb2NrLAogICAgICAgICAgJ0VDRFNBSW52YWxpZFNpZ25hdHVyZScsCiAgICAgICAgKTsKICAgICAgfSk7CiAgICB9KTsKCiAgICBkZXNjcmliZSgnd2l0aCB2PTI3IHNpZ25hdHVyZScsIGZ1bmN0aW9uICgpIHsKICAgICAgY29uc3Qgc2lnbmVyID0gJzB4MmNjMTE2NmY2MjEyNjI4QTBkZUVmMkIzM0JFRkIyMTg3RDM1Yjg2Yyc7CiAgICAgIC8vIGVzbGludC1kaXNhYmxlLW5leHQtbGluZSBtYXgtbGVuCiAgICAgIGNvbnN0IHNpZ25hdHVyZVdpdGhvdXRWID0KICAgICAgICAnMHg1ZDk5YjZmN2Y2ZDFmNzNkMWEyNjQ5N2YyYjFjODliMjRjMDk5MzkxM2Y4NmU5YTJkMDJjZDY5ODg3ZDljOTRmM2M4ODAzNTg1NzlkODExYjIxZGQxYjdmZDliYjAxYzFkODFkMTBlNjlmMDM4NGU2NzVjMzJiMzk2NDNiZTg5Mic7CgogICAgICBpdCgnd29ya3Mgd2l0aCBjb3JyZWN0IHYgdmFsdWUnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgY29uc3QgdiA9ICcweDFiJzsgLy8gMjcgPSAxYi4KICAgICAgICBjb25zdCBzaWduYXR1cmUgPSBldGhlcnMuY29uY2F0KFtzaWduYXR1cmVXaXRob3V0Viwgdl0pOwogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJHJlY292ZXIoVEVTVF9NRVNTQUdFLCBzaWduYXR1cmUpKS50by5lcXVhbChzaWduZXIpOwoKICAgICAgICBjb25zdCB7IHIsIHMsIHlQYXJpdHlBbmRTOiB2cyB9ID0gZXRoZXJzLlNpZ25hdHVyZS5mcm9tKHNpZ25hdHVyZSk7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay5nZXRGdW5jdGlvbignJHJlY292ZXIoYnl0ZXMzMix1aW50OCxieXRlczMyLGJ5dGVzMzIpJykoVEVTVF9NRVNTQUdFLCB2LCByLCBzKSkudG8uZXF1YWwoCiAgICAgICAgICBzaWduZXIsCiAgICAgICAgKTsKCiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay5nZXRGdW5jdGlvbignJHJlY292ZXIoYnl0ZXMzMixieXRlczMyLGJ5dGVzMzIpJykoVEVTVF9NRVNTQUdFLCByLCB2cykpLnRvLmVxdWFsKHNpZ25lcik7CiAgICAgIH0pOwoKICAgICAgaXQoJ3JlamVjdHMgaW5jb3JyZWN0IHYgdmFsdWUnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgY29uc3QgdiA9ICcweDFjJzsgLy8gMjggPSAxYy4KICAgICAgICBjb25zdCBzaWduYXR1cmUgPSBldGhlcnMuY29uY2F0KFtzaWduYXR1cmVXaXRob3V0Viwgdl0pOwogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJHJlY292ZXIoVEVTVF9NRVNTQUdFLCBzaWduYXR1cmUpKS50by5ub3QuZXF1YWwoc2lnbmVyKTsKCiAgICAgICAgY29uc3QgeyByLCBzLCB5UGFyaXR5QW5kUzogdnMgfSA9IGV0aGVycy5TaWduYXR1cmUuZnJvbShzaWduYXR1cmUpOwogICAgICAgIGV4cGVjdCgKICAgICAgICAgIGF3YWl0IHRoaXMubW9jay5nZXRGdW5jdGlvbignJHJlY292ZXIoYnl0ZXMzMix1aW50OCxieXRlczMyLGJ5dGVzMzIpJykoVEVTVF9NRVNTQUdFLCB2LCByLCBzKSwKICAgICAgICApLnRvLm5vdC5lcXVhbChzaWduZXIpOwoKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLmdldEZ1bmN0aW9uKCckcmVjb3ZlcihieXRlczMyLGJ5dGVzMzIsYnl0ZXMzMiknKShURVNUX01FU1NBR0UsIHIsIHZzKSkudG8ubm90LmVxdWFsKAogICAgICAgICAgc2lnbmVyLAogICAgICAgICk7CiAgICAgIH0pOwoKICAgICAgaXQoJ3JldmVydHMgd3JvbmcgdiB2YWx1ZXMnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgZm9yIChjb25zdCB2IG9mIFsnMHgwMCcsICcweDAxJ10pIHsKICAgICAgICAgIGNvbnN0IHNpZ25hdHVyZSA9IGV0aGVycy5jb25jYXQoW3NpZ25hdHVyZVdpdGhvdXRWLCB2XSk7CiAgICAgICAgICBhd2FpdCBleHBlY3QodGhpcy5tb2NrLiRyZWNvdmVyKFRFU1RfTUVTU0FHRSwgc2lnbmF0dXJlKSkudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IoCiAgICAgICAgICAgIHRoaXMubW9jaywKICAgICAgICAgICAgJ0VDRFNBSW52YWxpZFNpZ25hdHVyZScsCiAgICAgICAgICApOwoKICAgICAgICAgIGNvbnN0IHsgciwgcyB9ID0gZXRoZXJzLlNpZ25hdHVyZS5mcm9tKHNpZ25hdHVyZSk7CiAgICAgICAgICBhd2FpdCBleHBlY3QoCiAgICAgICAgICAgIHRoaXMubW9jay5nZXRGdW5jdGlvbignJHJlY292ZXIoYnl0ZXMzMix1aW50OCxieXRlczMyLGJ5dGVzMzIpJykoVEVTVF9NRVNTQUdFLCB2LCByLCBzKSwKICAgICAgICAgICkudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy5tb2NrLCAnRUNEU0FJbnZhbGlkU2lnbmF0dXJlJyk7CiAgICAgICAgfQogICAgICB9KTsKCiAgICAgIGl0KCdyZWplY3RzIHNob3J0IEVJUDIwOTggZm9ybWF0JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGNvbnN0IHYgPSAnMHgxYic7IC8vIDI3ID0gMWIuCiAgICAgICAgY29uc3Qgc2lnbmF0dXJlID0gZXRoZXJzLmNvbmNhdChbc2lnbmF0dXJlV2l0aG91dFYsIHZdKTsKCiAgICAgICAgY29uc3QgeyBjb21wYWN0U2VyaWFsaXplZCB9ID0gZXRoZXJzLlNpZ25hdHVyZS5mcm9tKHNpZ25hdHVyZSk7CiAgICAgICAgYXdhaXQgZXhwZWN0KHRoaXMubW9jay4kcmVjb3ZlcihURVNUX01FU1NBR0UsIGNvbXBhY3RTZXJpYWxpemVkKSkKICAgICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLm1vY2ssICdFQ0RTQUludmFsaWRTaWduYXR1cmVMZW5ndGgnKQogICAgICAgICAgLndpdGhBcmdzKDY0KTsKICAgICAgfSk7CiAgICB9KTsKCiAgICBkZXNjcmliZSgnd2l0aCB2PTI4IHNpZ25hdHVyZScsIGZ1bmN0aW9uICgpIHsKICAgICAgY29uc3Qgc2lnbmVyID0gJzB4MUUzMTg2MjNhQjA5RmU2ZGUzQzliODY3MjA5ODQ2NEFlZGE5MTAwRSc7CiAgICAgIC8vIGVzbGludC1kaXNhYmxlLW5leHQtbGluZSBtYXgtbGVuCiAgICAgIGNvbnN0IHNpZ25hdHVyZVdpdGhvdXRWID0KICAgICAgICAnMHgzMzFmZTc1YTgyMWM5ODJmOTEyNzUzODg1ODkwMGQ4N2QzZWMxZjlmNzM3MzM4YWQ2N2NhZDEzM2ZhNDhmZWZmNDhlNmZhMGMxOGFiYzYyZTQyODIwZjA1OTQzZTQ3YWYzZTlmYmUzMDZjZTc0ZDY0MDk0YmRmMTY5MWVlNTNlMCc7CgogICAgICBpdCgnd29ya3Mgd2l0aCBjb3JyZWN0IHYgdmFsdWUnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgY29uc3QgdiA9ICcweDFjJzsgLy8gMjggPSAxYy4KICAgICAgICBjb25zdCBzaWduYXR1cmUgPSBldGhlcnMuY29uY2F0KFtzaWduYXR1cmVXaXRob3V0Viwgdl0pOwogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJHJlY292ZXIoVEVTVF9NRVNTQUdFLCBzaWduYXR1cmUpKS50by5lcXVhbChzaWduZXIpOwoKICAgICAgICBjb25zdCB7IHIsIHMsIHlQYXJpdHlBbmRTOiB2cyB9ID0gZXRoZXJzLlNpZ25hdHVyZS5mcm9tKHNpZ25hdHVyZSk7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay5nZXRGdW5jdGlvbignJHJlY292ZXIoYnl0ZXMzMix1aW50OCxieXRlczMyLGJ5dGVzMzIpJykoVEVTVF9NRVNTQUdFLCB2LCByLCBzKSkudG8uZXF1YWwoCiAgICAgICAgICBzaWduZXIsCiAgICAgICAgKTsKCiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay5nZXRGdW5jdGlvbignJHJlY292ZXIoYnl0ZXMzMixieXRlczMyLGJ5dGVzMzIpJykoVEVTVF9NRVNTQUdFLCByLCB2cykpLnRvLmVxdWFsKHNpZ25lcik7CiAgICAgIH0pOwoKICAgICAgaXQoJ3JlamVjdHMgaW5jb3JyZWN0IHYgdmFsdWUnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgY29uc3QgdiA9ICcweDFiJzsgLy8gMjcgPSAxYi4KICAgICAgICBjb25zdCBzaWduYXR1cmUgPSBldGhlcnMuY29uY2F0KFtzaWduYXR1cmVXaXRob3V0Viwgdl0pOwogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJHJlY292ZXIoVEVTVF9NRVNTQUdFLCBzaWduYXR1cmUpKS50by5ub3QuZXF1YWwoc2lnbmVyKTsKCiAgICAgICAgY29uc3QgeyByLCBzLCB5UGFyaXR5QW5kUzogdnMgfSA9IGV0aGVycy5TaWduYXR1cmUuZnJvbShzaWduYXR1cmUpOwogICAgICAgIGV4cGVjdCgKICAgICAgICAgIGF3YWl0IHRoaXMubW9jay5nZXRGdW5jdGlvbignJHJlY292ZXIoYnl0ZXMzMix1aW50OCxieXRlczMyLGJ5dGVzMzIpJykoVEVTVF9NRVNTQUdFLCB2LCByLCBzKSwKICAgICAgICApLnRvLm5vdC5lcXVhbChzaWduZXIpOwoKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLmdldEZ1bmN0aW9uKCckcmVjb3ZlcihieXRlczMyLGJ5dGVzMzIsYnl0ZXMzMiknKShURVNUX01FU1NBR0UsIHIsIHZzKSkudG8ubm90LmVxdWFsKAogICAgICAgICAgc2lnbmVyLAogICAgICAgICk7CiAgICAgIH0pOwoKICAgICAgaXQoJ3JldmVydHMgaW52YWxpZCB2IHZhbHVlcycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBmb3IgKGNvbnN0IHYgb2YgWycweDAwJywgJzB4MDEnXSkgewogICAgICAgICAgY29uc3Qgc2lnbmF0dXJlID0gZXRoZXJzLmNvbmNhdChbc2lnbmF0dXJlV2l0aG91dFYsIHZdKTsKICAgICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1vY2suJHJlY292ZXIoVEVTVF9NRVNTQUdFLCBzaWduYXR1cmUpKS50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcigKICAgICAgICAgICAgdGhpcy5tb2NrLAogICAgICAgICAgICAnRUNEU0FJbnZhbGlkU2lnbmF0dXJlJywKICAgICAgICAgICk7CgogICAgICAgICAgY29uc3QgeyByLCBzIH0gPSBldGhlcnMuU2lnbmF0dXJlLmZyb20oc2lnbmF0dXJlKTsKICAgICAgICAgIGF3YWl0IGV4cGVjdCgKICAgICAgICAgICAgdGhpcy5tb2NrLmdldEZ1bmN0aW9uKCckcmVjb3ZlcihieXRlczMyLHVpbnQ4LGJ5dGVzMzIsYnl0ZXMzMiknKShURVNUX01FU1NBR0UsIHYsIHIsIHMpLAogICAgICAgICAgKS50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLm1vY2ssICdFQ0RTQUludmFsaWRTaWduYXR1cmUnKTsKICAgICAgICB9CiAgICAgIH0pOwoKICAgICAgaXQoJ3JlamVjdHMgc2hvcnQgRUlQMjA5OCBmb3JtYXQnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgY29uc3QgdiA9ICcweDFiJzsgLy8gMjggPSAxYi4KICAgICAgICBjb25zdCBzaWduYXR1cmUgPSBldGhlcnMuY29uY2F0KFtzaWduYXR1cmVXaXRob3V0Viwgdl0pOwoKICAgICAgICBjb25zdCB7IGNvbXBhY3RTZXJpYWxpemVkIH0gPSBldGhlcnMuU2lnbmF0dXJlLmZyb20oc2lnbmF0dXJlKTsKICAgICAgICBhd2FpdCBleHBlY3QodGhpcy5tb2NrLiRyZWNvdmVyKFRFU1RfTUVTU0FHRSwgY29tcGFjdFNlcmlhbGl6ZWQpKQogICAgICAgICAgLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMubW9jaywgJ0VDRFNBSW52YWxpZFNpZ25hdHVyZUxlbmd0aCcpCiAgICAgICAgICAud2l0aEFyZ3MoNjQpOwogICAgICB9KTsKICAgIH0pOwoKICAgIGl0KCdyZXZlcnRzIHdpdGggaGlnaC1zIHZhbHVlIHNpZ25hdHVyZScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgY29uc3QgbWVzc2FnZSA9ICcweGI5NGQyN2I5OTM0ZDNlMDhhNTJlNTJkN2RhN2RhYmZhYzQ4NGVmZTM3YTUzODBlZTkwODhmN2FjZTJlZmNkZTknOwogICAgICAvLyBlc2xpbnQtZGlzYWJsZS1uZXh0LWxpbmUgbWF4LWxlbgogICAgICBjb25zdCBoaWdoU1NpZ25hdHVyZSA9CiAgICAgICAgJzB4ZTc0MmZmNDUyZDQxNDEzNjE2YTViZjQzZmUxNWRkODgyOTRlOTgzZDNkMzYyMDZjMjcxMmYzOTA4M2Q2MzhiZGUwYTBmYzg5YmU3MThmYmMxMDMzZTFkMzBkNzhiZTFjNjgwODE1NjJlZDJlOTdhZjg3NmYyODZmMzQ1MzIzMWQxYic7CgogICAgICBjb25zdCByID0gZXRoZXJzLmRhdGFTbGljZShoaWdoU1NpZ25hdHVyZSwgMCwgMzIpOwogICAgICBjb25zdCBzID0gZXRoZXJzLmRhdGFTbGljZShoaWdoU1NpZ25hdHVyZSwgMzIsIDY0KTsKICAgICAgY29uc3QgdiA9IGV0aGVycy5kYXRhU2xpY2UoaGlnaFNTaWduYXR1cmUsIDY0LCA2NSk7CgogICAgICBhd2FpdCBleHBlY3QodGhpcy5tb2NrLiRyZWNvdmVyKG1lc3NhZ2UsIGhpZ2hTU2lnbmF0dXJlKSkKICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy5tb2NrLCAnRUNEU0FJbnZhbGlkU2lnbmF0dXJlUycpCiAgICAgICAgLndpdGhBcmdzKHMpOwogICAgICBhd2FpdCBleHBlY3QodGhpcy5tb2NrLmdldEZ1bmN0aW9uKCckcmVjb3ZlcihieXRlczMyLHVpbnQ4LGJ5dGVzMzIsYnl0ZXMzMiknKShURVNUX01FU1NBR0UsIHYsIHIsIHMpKQogICAgICAgIC50by5iZS5yZXZlcnRlZFdpdGhDdXN0b21FcnJvcih0aGlzLm1vY2ssICdFQ0RTQUludmFsaWRTaWduYXR1cmVTJykKICAgICAgICAud2l0aEFyZ3Mocyk7CiAgICAgIGV4cGVjdCgoKSA9PiBldGhlcnMuU2lnbmF0dXJlLmZyb20oaGlnaFNTaWduYXR1cmUpKS50by50aHJvdygnbm9uLWNhbm9uaWNhbCBzJyk7CiAgICB9KTsKICB9KTsKfSk7Cg==
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+const TEST_MESSAGE = ethers.id('OpenZeppelin');
+const WRONG_MESSAGE = ethers.id('Nope');
+const NON_HASH_MESSAGE = '0xabcd';
+
+async function fixture() {
+  const [signer] = await ethers.getSigners();
+  const mock = await ethers.deployContract('$ECDSA');
+  return { signer, mock };
+}
+
+describe('ECDSA', function () {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  describe('recover with invalid signature', function () {
+    it('with short signature', async function () {
+      await expect(this.mock.$recover(TEST_MESSAGE, '0x1234'))
+        .to.be.revertedWithCustomError(this.mock, 'ECDSAInvalidSignatureLength')
+        .withArgs(2);
+    });
+
+    it('with long signature', async function () {
+      await expect(
+        // eslint-disable-next-line max-len
+        this.mock.$recover(
+          TEST_MESSAGE,
+          '0x01234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789',
+        ),
+      )
+        .to.be.revertedWithCustomError(this.mock, 'ECDSAInvalidSignatureLength')
+        .withArgs(85);
+    });
+  });
+
+  describe('recover with valid signature', function () {
+    describe('using <signer>.sign', function () {
+      it('returns signer address with correct signature', async function () {
+        // Create the signature
+        const signature = await this.signer.signMessage(TEST_MESSAGE);
+
+        // Recover the signer address from the generated message and signature.
+        expect(await this.mock.$recover(ethers.hashMessage(TEST_MESSAGE), signature)).to.equal(this.signer);
+      });
+
+      it('returns signer address with correct signature for arbitrary length message', async function () {
+        // Create the signature
+        const signature = await this.signer.signMessage(NON_HASH_MESSAGE);
+
+        // Recover the signer address from the generated message and signature.
+        expect(await this.mock.$recover(ethers.hashMessage(NON_HASH_MESSAGE), signature)).to.equal(this.signer);
+      });
+
+      it('returns a different address', async function () {
+        const signature = await this.signer.signMessage(TEST_MESSAGE);
+        expect(await this.mock.$recover(WRONG_MESSAGE, signature)).to.not.be.equal(this.signer);
+      });
+
+      it('reverts with invalid signature', async function () {
+        // eslint-disable-next-line max-len
+        const signature =
+          '0x332ce75a821c982f9127538858900d87d3ec1f9f737338ad67cad133fa48feff48e6fa0c18abc62e42820f05943e47af3e9fbe306ce74d64094bdf1691ee53e01c';
+        await expect(this.mock.$recover(TEST_MESSAGE, signature)).to.be.revertedWithCustomError(
+          this.mock,
+          'ECDSAInvalidSignature',
+        );
+      });
+    });
+
+    describe('with v=27 signature', function () {
+      const signer = '0x2cc1166f6212628A0deEf2B33BEFB2187D35b86c';
+      // eslint-disable-next-line max-len
+      const signatureWithoutV =
+        '0x5d99b6f7f6d1f73d1a26497f2b1c89b24c0993913f86e9a2d02cd69887d9c94f3c880358579d811b21dd1b7fd9bb01c1d81d10e69f0384e675c32b39643be892';
+
+      it('works with correct v value', async function () {
+        const v = '0x1b'; // 27 = 1b.
+        const signature = ethers.concat([signatureWithoutV, v]);
+        expect(await this.mock.$recover(TEST_MESSAGE, signature)).to.equal(signer);
+
+        const { r, s, yParityAndS: vs } = ethers.Signature.from(signature);
+        expect(await this.mock.getFunction('$recover(bytes32,uint8,bytes32,bytes32)')(TEST_MESSAGE, v, r, s)).to.equal(
+          signer,
+        );
+
+        expect(await this.mock.getFunction('$recover(bytes32,bytes32,bytes32)')(TEST_MESSAGE, r, vs)).to.equal(signer);
+      });
+
+      it('rejects incorrect v value', async function () {
+        const v = '0x1c'; // 28 = 1c.
+        const signature = ethers.concat([signatureWithoutV, v]);
+        expect(await this.mock.$recover(TEST_MESSAGE, signature)).to.not.equal(signer);
+
+        const { r, s, yParityAndS: vs } = ethers.Signature.from(signature);
+        expect(
+          await this.mock.getFunction('$recover(bytes32,uint8,bytes32,bytes32)')(TEST_MESSAGE, v, r, s),
+        ).to.not.equal(signer);
+
+        expect(await this.mock.getFunction('$recover(bytes32,bytes32,bytes32)')(TEST_MESSAGE, r, vs)).to.not.equal(
+          signer,
+        );
+      });
+
+      it('reverts wrong v values', async function () {
+        for (const v of ['0x00', '0x01']) {
+          const signature = ethers.concat([signatureWithoutV, v]);
+          await expect(this.mock.$recover(TEST_MESSAGE, signature)).to.be.revertedWithCustomError(
+            this.mock,
+            'ECDSAInvalidSignature',
+          );
+
+          const { r, s } = ethers.Signature.from(signature);
+          await expect(
+            this.mock.getFunction('$recover(bytes32,uint8,bytes32,bytes32)')(TEST_MESSAGE, v, r, s),
+          ).to.be.revertedWithCustomError(this.mock, 'ECDSAInvalidSignature');
+        }
+      });
+
+      it('rejects short EIP2098 format', async function () {
+        const v = '0x1b'; // 27 = 1b.
+        const signature = ethers.concat([signatureWithoutV, v]);
+
+        const { compactSerialized } = ethers.Signature.from(signature);
+        await expect(this.mock.$recover(TEST_MESSAGE, compactSerialized))
+          .to.be.revertedWithCustomError(this.mock, 'ECDSAInvalidSignatureLength')
+          .withArgs(64);
+      });
+    });
+
+    describe('with v=28 signature', function () {
+      const signer = '0x1E318623aB09Fe6de3C9b8672098464Aeda9100E';
+      // eslint-disable-next-line max-len
+      const signatureWithoutV =
+        '0x331fe75a821c982f9127538858900d87d3ec1f9f737338ad67cad133fa48feff48e6fa0c18abc62e42820f05943e47af3e9fbe306ce74d64094bdf1691ee53e0';
+
+      it('works with correct v value', async function () {
+        const v = '0x1c'; // 28 = 1c.
+        const signature = ethers.concat([signatureWithoutV, v]);
+        expect(await this.mock.$recover(TEST_MESSAGE, signature)).to.equal(signer);
+
+        const { r, s, yParityAndS: vs } = ethers.Signature.from(signature);
+        expect(await this.mock.getFunction('$recover(bytes32,uint8,bytes32,bytes32)')(TEST_MESSAGE, v, r, s)).to.equal(
+          signer,
+        );
+
+        expect(await this.mock.getFunction('$recover(bytes32,bytes32,bytes32)')(TEST_MESSAGE, r, vs)).to.equal(signer);
+      });
+
+      it('rejects incorrect v value', async function () {
+        const v = '0x1b'; // 27 = 1b.
+        const signature = ethers.concat([signatureWithoutV, v]);
+        expect(await this.mock.$recover(TEST_MESSAGE, signature)).to.not.equal(signer);
+
+        const { r, s, yParityAndS: vs } = ethers.Signature.from(signature);
+        expect(
+          await this.mock.getFunction('$recover(bytes32,uint8,bytes32,bytes32)')(TEST_MESSAGE, v, r, s),
+        ).to.not.equal(signer);
+
+        expect(await this.mock.getFunction('$recover(bytes32,bytes32,bytes32)')(TEST_MESSAGE, r, vs)).to.not.equal(
+          signer,
+        );
+      });
+
+      it('reverts invalid v values', async function () {
+        for (const v of ['0x00', '0x01']) {
+          const signature = ethers.concat([signatureWithoutV, v]);
+          await expect(this.mock.$recover(TEST_MESSAGE, signature)).to.be.revertedWithCustomError(
+            this.mock,
+            'ECDSAInvalidSignature',
+          );
+
+          const { r, s } = ethers.Signature.from(signature);
+          await expect(
+            this.mock.getFunction('$recover(bytes32,uint8,bytes32,bytes32)')(TEST_MESSAGE, v, r, s),
+          ).to.be.revertedWithCustomError(this.mock, 'ECDSAInvalidSignature');
+        }
+      });
+
+      it('rejects short EIP2098 format', async function () {
+        const v = '0x1b'; // 28 = 1b.
+        const signature = ethers.concat([signatureWithoutV, v]);
+
+        const { compactSerialized } = ethers.Signature.from(signature);
+        await expect(this.mock.$recover(TEST_MESSAGE, compactSerialized))
+          .to.be.revertedWithCustomError(this.mock, 'ECDSAInvalidSignatureLength')
+          .withArgs(64);
+      });
+    });
+
+    it('reverts with high-s value signature', async function () {
+      const message = '0xb94d27b9934d3e08a52e52d7da7dabfac484efe37a5380ee9088f7ace2efcde9';
+      // eslint-disable-next-line max-len
+      const highSSignature =
+        '0xe742ff452d41413616a5bf43fe15dd88294e983d3d36206c2712f39083d638bde0a0fc89be718fbc1033e1d30d78be1c68081562ed2e97af876f286f3453231d1b';
+
+      const r = ethers.dataSlice(highSSignature, 0, 32);
+      const s = ethers.dataSlice(highSSignature, 32, 64);
+      const v = ethers.dataSlice(highSSignature, 64, 65);
+
+      await expect(this.mock.$recover(message, highSSignature))
+        .to.be.revertedWithCustomError(this.mock, 'ECDSAInvalidSignatureS')
+        .withArgs(s);
+      await expect(this.mock.getFunction('$recover(bytes32,uint8,bytes32,bytes32)')(TEST_MESSAGE, v, r, s))
+        .to.be.revertedWithCustomError(this.mock, 'ECDSAInvalidSignatureS')
+        .withArgs(s);
+      expect(() => ethers.Signature.from(highSSignature)).to.throw('non-canonical s');
+    });
+  });
+});
