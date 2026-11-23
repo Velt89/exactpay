@@ -1,1 +1,248 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgPj0wLjYuMiA8MC45LjA7CgppbXBvcnQge1ZtU2FmZX0gZnJvbSAiLi9WbS5zb2wiOwoKLyoqCiAqIFN0ZENoYWlucyBwcm92aWRlcyBpbmZvcm1hdGlvbiBhYm91dCBFVk0gY29tcGF0aWJsZSBjaGFpbnMgdGhhdCBjYW4gYmUgdXNlZCBpbiBzY3JpcHRzL3Rlc3RzLgogKiBGb3IgZWFjaCBjaGFpbiwgdGhlIGNoYWluJ3MgbmFtZSwgY2hhaW4gSUQsIGFuZCBhIGRlZmF1bHQgUlBDIFVSTCBhcmUgcHJvdmlkZWQuIENoYWlucyBhcmUKICogaWRlbnRpZmllZCBieSB0aGVpciBhbGlhcywgd2hpY2ggaXMgdGhlIHNhbWUgYXMgdGhlIGFsaWFzIGluIHRoZSBgW3JwY19lbmRwb2ludHNdYCBzZWN0aW9uIG9mCiAqIHRoZSBgZm91bmRyeS50b21sYCBmaWxlLiBGb3IgYmVzdCBVWCwgZW5zdXJlIHRoZSBhbGlhcyBpbiB0aGUgYGZvdW5kcnkudG9tbGAgZmlsZSBtYXRjaCB0aGUKICogYWxpYXMgdXNlZCBpbiB0aGlzIGNvbnRyYWN0LCB3aGljaCBjYW4gYmUgZm91bmQgYXMgdGhlIGZpcnN0IGFyZ3VtZW50IHRvIHRoZQogKiBgc2V0Q2hhaW5XaXRoRGVmYXVsdFJwY1VybGAgY2FsbCBpbiB0aGUgYGluaXRpYWxpemVTdGRDaGFpbnNgIGZ1bmN0aW9uLgogKgogKiBUaGVyZSBhcmUgdHdvIG1haW4gd2F5cyB0byB1c2UgdGhpcyBjb250cmFjdDoKICogICAxLiBTZXQgYSBjaGFpbiB3aXRoIGBzZXRDaGFpbihzdHJpbmcgbWVtb3J5IGNoYWluQWxpYXMsIENoYWluRGF0YSBtZW1vcnkgY2hhaW4pYCBvcgogKiAgICAgIGBzZXRDaGFpbihzdHJpbmcgbWVtb3J5IGNoYWluQWxpYXMsIENoYWluIG1lbW9yeSBjaGFpbilgCiAqICAgMi4gR2V0IGEgY2hhaW4gd2l0aCBgZ2V0Q2hhaW4oc3RyaW5nIG1lbW9yeSBjaGFpbkFsaWFzKWAgb3IgYGdldENoYWluKHVpbnQyNTYgY2hhaW5JZClgLgogKgogKiBUaGUgZmlyc3QgdGltZSBlaXRoZXIgb2YgdGhvc2UgYXJlIHVzZWQsIGNoYWlucyBhcmUgaW5pdGlhbGl6ZWQgd2l0aCB0aGUgZGVmYXVsdCBzZXQgb2YgUlBDIFVSTHMuCiAqIFRoaXMgaXMgZG9uZSBpbiBgaW5pdGlhbGl6ZVN0ZENoYWluc2AsIHdoaWNoIHVzZXMgYHNldENoYWluV2l0aERlZmF1bHRScGNVcmxgLiBEZWZhdWx0cyBhcmUgcmVjb3JkZWQgaW4KICogYGRlZmF1bHRScGNVcmxzYC4KICoKICogVGhlIGBzZXRDaGFpbmAgZnVuY3Rpb24gaXMgc3RyYWlnaHRmb3J3YXJkLCBhbmQgaXQgc2ltcGx5IHNhdmVzIG9mZiB0aGUgZ2l2ZW4gY2hhaW4gZGF0YS4KICoKICogVGhlIGBnZXRDaGFpbmAgbWV0aG9kcyB1c2UgYGdldENoYWluV2l0aFVwZGF0ZWRScGNVcmxgIHRvIHJldHVybiBhIGNoYWluLiBGb3IgZXhhbXBsZSwgbGV0J3Mgc2F5CiAqIHdlIHdhbnQgdG8gcmV0cmlldmUgdGhlIFJQQyBVUkwgZm9yIGBtYWlubmV0YDoKICogICAtIElmIHlvdSBoYXZlIHNwZWNpZmllZCBkYXRhIHdpdGggYHNldENoYWluYCwgaXQgd2lsbCByZXR1cm4gdGhhdC4KICogICAtIElmIHlvdSBoYXZlIGNvbmZpZ3VyZWQgYSBtYWlubmV0IFJQQyBVUkwgaW4gYGZvdW5kcnkudG9tbGAsIGl0IHdpbGwgcmV0dXJuIHRoZSBVUkwsIHByb3ZpZGVkIGl0CiAqICAgICBpcyB2YWxpZCAoZS5nLiBhIFVSTCBpcyBzcGVjaWZpZWQsIG9yIGFuIGVudmlyb25tZW50IHZhcmlhYmxlIGlzIGdpdmVuIGFuZCBleGlzdHMpLgogKiAgIC0gSWYgbmVpdGhlciBvZiB0aGUgYWJvdmUgY29uZGl0aW9ucyBpcyBtZXQsIHRoZSBkZWZhdWx0IGRhdGEgaXMgcmV0dXJuZWQuCiAqCiAqIFN1bW1hcml6aW5nIHRoZSBhYm92ZSwgdGhlIHByaW9yaXRpemF0aW9uIGhpZXJhcmNoeSBpcyBgc2V0Q2hhaW5gIC0+IGBmb3VuZHJ5LnRvbWxgIC0+IGVudmlyb25tZW50IHZhcmlhYmxlIC0+IGRlZmF1bHRzLgogKi8KYWJzdHJhY3QgY29udHJhY3QgU3RkQ2hhaW5zIHsKICAgIFZtU2FmZSBwcml2YXRlIGNvbnN0YW50IHZtID0gVm1TYWZlKGFkZHJlc3ModWludDE2MCh1aW50MjU2KGtlY2NhazI1NigiaGV2bSBjaGVhdCBjb2RlIikpKSkpOwoKICAgIGJvb2wgcHJpdmF0ZSBzdGRDaGFpbnNJbml0aWFsaXplZDsKCiAgICBzdHJ1Y3QgQ2hhaW5EYXRhIHsKICAgICAgICBzdHJpbmcgbmFtZTsKICAgICAgICB1aW50MjU2IGNoYWluSWQ7CiAgICAgICAgc3RyaW5nIHJwY1VybDsKICAgIH0KCiAgICBzdHJ1Y3QgQ2hhaW4gewogICAgICAgIC8vIFRoZSBjaGFpbiBuYW1lLgogICAgICAgIHN0cmluZyBuYW1lOwogICAgICAgIC8vIFRoZSBjaGFpbidzIENoYWluIElELgogICAgICAgIHVpbnQyNTYgY2hhaW5JZDsKICAgICAgICAvLyBUaGUgY2hhaW4ncyBhbGlhcy4gKGkuZS4gd2hhdCBnZXRzIHNwZWNpZmllZCBpbiBgZm91bmRyeS50b21sYCkuCiAgICAgICAgc3RyaW5nIGNoYWluQWxpYXM7CiAgICAgICAgLy8gQSBkZWZhdWx0IFJQQyBlbmRwb2ludCBmb3IgdGhpcyBjaGFpbi4KICAgICAgICAvLyBOT1RFOiBUaGlzIGRlZmF1bHQgUlBDIFVSTCBpcyBpbmNsdWRlZCBmb3IgY29udmVuaWVuY2UgdG8gZmFjaWxpdGF0ZSBxdWljayB0ZXN0cyBhbmQKICAgICAgICAvLyBleHBlcmltZW50YXRpb24uIERvIG5vdCB1c2UgdGhpcyBSUEMgVVJMIGZvciBwcm9kdWN0aW9uIHRlc3Qgc3VpdGVzLCBDSSwgb3Igb3RoZXIgaGVhdnkKICAgICAgICAvLyB1c2FnZSBhcyB5b3Ugd2lsbCBiZSB0aHJvdHRsZWQgYW5kIHRoaXMgaXMgYSBkaXNzZXJ2aWNlIHRvIG90aGVycyB3aG8gbmVlZCB0aGlzIGVuZHBvaW50LgogICAgICAgIHN0cmluZyBycGNVcmw7CiAgICB9CgogICAgLy8gTWFwcyBmcm9tIHRoZSBjaGFpbidzIGFsaWFzIChtYXRjaGluZyB0aGUgYWxpYXMgaW4gdGhlIGBmb3VuZHJ5LnRvbWxgIGZpbGUpIHRvIGNoYWluIGRhdGEuCiAgICBtYXBwaW5nKHN0cmluZyA9PiBDaGFpbikgcHJpdmF0ZSBjaGFpbnM7CiAgICAvLyBNYXBzIGZyb20gdGhlIGNoYWluJ3MgYWxpYXMgdG8gaXQncyBkZWZhdWx0IFJQQyBVUkwuCiAgICBtYXBwaW5nKHN0cmluZyA9PiBzdHJpbmcpIHByaXZhdGUgZGVmYXVsdFJwY1VybHM7CiAgICAvLyBNYXBzIGZyb20gYSBjaGFpbiBJRCB0byBpdCdzIGFsaWFzLgogICAgbWFwcGluZyh1aW50MjU2ID0+IHN0cmluZykgcHJpdmF0ZSBpZFRvQWxpYXM7CgogICAgYm9vbCBwcml2YXRlIGZhbGxiYWNrVG9EZWZhdWx0UnBjVXJscyA9IHRydWU7CgogICAgLy8gVGhlIFJQQyBVUkwgd2lsbCBiZSBmZXRjaGVkIGZyb20gY29uZmlnIG9yIGRlZmF1bHRScGNVcmxzIGlmIHBvc3NpYmxlLgogICAgZnVuY3Rpb24gZ2V0Q2hhaW4oc3RyaW5nIG1lbW9yeSBjaGFpbkFsaWFzKSBpbnRlcm5hbCB2aXJ0dWFsIHJldHVybnMgKENoYWluIG1lbW9yeSBjaGFpbikgewogICAgICAgIHJlcXVpcmUoYnl0ZXMoY2hhaW5BbGlhcykubGVuZ3RoICE9IDAsICJTdGRDaGFpbnMgZ2V0Q2hhaW4oc3RyaW5nKTogQ2hhaW4gYWxpYXMgY2Fubm90IGJlIHRoZSBlbXB0eSBzdHJpbmcuIik7CgogICAgICAgIGluaXRpYWxpemVTdGRDaGFpbnMoKTsKICAgICAgICBjaGFpbiA9IGNoYWluc1tjaGFpbkFsaWFzXTsKICAgICAgICByZXF1aXJlKAogICAgICAgICAgICBjaGFpbi5jaGFpbklkICE9IDAsCiAgICAgICAgICAgIHN0cmluZyhhYmkuZW5jb2RlUGFja2VkKCJTdGRDaGFpbnMgZ2V0Q2hhaW4oc3RyaW5nKTogQ2hhaW4gd2l0aCBhbGlhcyBcIiIsIGNoYWluQWxpYXMsICJcIiBub3QgZm91bmQuIikpCiAgICAgICAgKTsKCiAgICAgICAgY2hhaW4gPSBnZXRDaGFpbldpdGhVcGRhdGVkUnBjVXJsKGNoYWluQWxpYXMsIGNoYWluKTsKICAgIH0KCiAgICBmdW5jdGlvbiBnZXRDaGFpbih1aW50MjU2IGNoYWluSWQpIGludGVybmFsIHZpcnR1YWwgcmV0dXJucyAoQ2hhaW4gbWVtb3J5IGNoYWluKSB7CiAgICAgICAgcmVxdWlyZShjaGFpbklkICE9IDAsICJTdGRDaGFpbnMgZ2V0Q2hhaW4odWludDI1Nik6IENoYWluIElEIGNhbm5vdCBiZSAwLiIpOwogICAgICAgIGluaXRpYWxpemVTdGRDaGFpbnMoKTsKICAgICAgICBzdHJpbmcgbWVtb3J5IGNoYWluQWxpYXMgPSBpZFRvQWxpYXNbY2hhaW5JZF07CgogICAgICAgIGNoYWluID0gY2hhaW5zW2NoYWluQWxpYXNdOwoKICAgICAgICByZXF1aXJlKAogICAgICAgICAgICBjaGFpbi5jaGFpbklkICE9IDAsCiAgICAgICAgICAgIHN0cmluZyhhYmkuZW5jb2RlUGFja2VkKCJTdGRDaGFpbnMgZ2V0Q2hhaW4odWludDI1Nik6IENoYWluIHdpdGggSUQgIiwgdm0udG9TdHJpbmcoY2hhaW5JZCksICIgbm90IGZvdW5kLiIpKQogICAgICAgICk7CgogICAgICAgIGNoYWluID0gZ2V0Q2hhaW5XaXRoVXBkYXRlZFJwY1VybChjaGFpbkFsaWFzLCBjaGFpbik7CiAgICB9CgogICAgLy8gc2V0IGNoYWluIGluZm8sIHdpdGggcHJpb3JpdHkgdG8gYXJndW1lbnQncyBycGNVcmwgZmllbGQuCiAgICBmdW5jdGlvbiBzZXRDaGFpbihzdHJpbmcgbWVtb3J5IGNoYWluQWxpYXMsIENoYWluRGF0YSBtZW1vcnkgY2hhaW4pIGludGVybmFsIHZpcnR1YWwgewogICAgICAgIHJlcXVpcmUoCiAgICAgICAgICAgIGJ5dGVzKGNoYWluQWxpYXMpLmxlbmd0aCAhPSAwLAogICAgICAgICAgICAiU3RkQ2hhaW5zIHNldENoYWluKHN0cmluZyxDaGFpbkRhdGEpOiBDaGFpbiBhbGlhcyBjYW5ub3QgYmUgdGhlIGVtcHR5IHN0cmluZy4iCiAgICAgICAgKTsKCiAgICAgICAgcmVxdWlyZShjaGFpbi5jaGFpbklkICE9IDAsICJTdGRDaGFpbnMgc2V0Q2hhaW4oc3RyaW5nLENoYWluRGF0YSk6IENoYWluIElEIGNhbm5vdCBiZSAwLiIpOwoKICAgICAgICBpbml0aWFsaXplU3RkQ2hhaW5zKCk7CiAgICAgICAgc3RyaW5nIG1lbW9yeSBmb3VuZEFsaWFzID0gaWRUb0FsaWFzW2NoYWluLmNoYWluSWRdOwoKICAgICAgICByZXF1aXJlKAogICAgICAgICAgICBieXRlcyhmb3VuZEFsaWFzKS5sZW5ndGggPT0gMCB8fCBrZWNjYWsyNTYoYnl0ZXMoZm91bmRBbGlhcykpID09IGtlY2NhazI1NihieXRlcyhjaGFpbkFsaWFzKSksCiAgICAgICAgICAgIHN0cmluZygKICAgICAgICAgICAgICAgIGFiaS5lbmNvZGVQYWNrZWQoCiAgICAgICAgICAgICAgICAgICAgIlN0ZENoYWlucyBzZXRDaGFpbihzdHJpbmcsQ2hhaW5EYXRhKTogQ2hhaW4gSUQgIiwKICAgICAgICAgICAgICAgICAgICB2bS50b1N0cmluZyhjaGFpbi5jaGFpbklkKSwKICAgICAgICAgICAgICAgICAgICAiIGFscmVhZHkgdXNlZCBieSBcIiIsCiAgICAgICAgICAgICAgICAgICAgZm91bmRBbGlhcywKICAgICAgICAgICAgICAgICAgICAiXCIuIgogICAgICAgICAgICAgICAgKQogICAgICAgICAgICApCiAgICAgICAgKTsKCiAgICAgICAgdWludDI1NiBvbGRDaGFpbklkID0gY2hhaW5zW2NoYWluQWxpYXNdLmNoYWluSWQ7CiAgICAgICAgZGVsZXRlIGlkVG9BbGlhc1tvbGRDaGFpbklkXTsKCiAgICAgICAgY2hhaW5zW2NoYWluQWxpYXNdID0KICAgICAgICAgICAgQ2hhaW4oe25hbWU6IGNoYWluLm5hbWUsIGNoYWluSWQ6IGNoYWluLmNoYWluSWQsIGNoYWluQWxpYXM6IGNoYWluQWxpYXMsIHJwY1VybDogY2hhaW4ucnBjVXJsfSk7CiAgICAgICAgaWRUb0FsaWFzW2NoYWluLmNoYWluSWRdID0gY2hhaW5BbGlhczsKICAgIH0KCiAgICAvLyBzZXQgY2hhaW4gaW5mbywgd2l0aCBwcmlvcml0eSB0byBhcmd1bWVudCdzIHJwY1VybCBmaWVsZC4KICAgIGZ1bmN0aW9uIHNldENoYWluKHN0cmluZyBtZW1vcnkgY2hhaW5BbGlhcywgQ2hhaW4gbWVtb3J5IGNoYWluKSBpbnRlcm5hbCB2aXJ0dWFsIHsKICAgICAgICBzZXRDaGFpbihjaGFpbkFsaWFzLCBDaGFpbkRhdGEoe25hbWU6IGNoYWluLm5hbWUsIGNoYWluSWQ6IGNoYWluLmNoYWluSWQsIHJwY1VybDogY2hhaW4ucnBjVXJsfSkpOwogICAgfQoKICAgIGZ1bmN0aW9uIF90b1VwcGVyKHN0cmluZyBtZW1vcnkgc3RyKSBwcml2YXRlIHB1cmUgcmV0dXJucyAoc3RyaW5nIG1lbW9yeSkgewogICAgICAgIGJ5dGVzIG1lbW9yeSBzdHJiID0gYnl0ZXMoc3RyKTsKICAgICAgICBieXRlcyBtZW1vcnkgY29weSA9IG5ldyBieXRlcyhzdHJiLmxlbmd0aCk7CiAgICAgICAgZm9yICh1aW50MjU2IGkgPSAwOyBpIDwgc3RyYi5sZW5ndGg7IGkrKykgewogICAgICAgICAgICBieXRlczEgYiA9IHN0cmJbaV07CiAgICAgICAgICAgIGlmIChiID49IDB4NjEgJiYgYiA8PSAweDdBKSB7CiAgICAgICAgICAgICAgICBjb3B5W2ldID0gYnl0ZXMxKHVpbnQ4KGIpIC0gMzIpOwogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgY29weVtpXSA9IGI7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgcmV0dXJuIHN0cmluZyhjb3B5KTsKICAgIH0KCiAgICAvLyBsb29rdXAgcnBjVXJsLCBpbiBkZXNjZW5kaW5nIG9yZGVyIG9mIHByaW9yaXR5OgogICAgLy8gY3VycmVudCAtPiBjb25maWcgKGZvdW5kcnkudG9tbCkgLT4gZW52aXJvbm1lbnQgdmFyaWFibGUgLT4gZGVmYXVsdAogICAgZnVuY3Rpb24gZ2V0Q2hhaW5XaXRoVXBkYXRlZFJwY1VybChzdHJpbmcgbWVtb3J5IGNoYWluQWxpYXMsIENoYWluIG1lbW9yeSBjaGFpbikKICAgICAgICBwcml2YXRlCiAgICAgICAgdmlldwogICAgICAgIHJldHVybnMgKENoYWluIG1lbW9yeSkKICAgIHsKICAgICAgICBpZiAoYnl0ZXMoY2hhaW4ucnBjVXJsKS5sZW5ndGggPT0gMCkgewogICAgICAgICAgICB0cnkgdm0ucnBjVXJsKGNoYWluQWxpYXMpIHJldHVybnMgKHN0cmluZyBtZW1vcnkgY29uZmlnUnBjVXJsKSB7CiAgICAgICAgICAgICAgICBjaGFpbi5ycGNVcmwgPSBjb25maWdScGNVcmw7CiAgICAgICAgICAgIH0gY2F0Y2ggKGJ5dGVzIG1lbW9yeSBlcnIpIHsKICAgICAgICAgICAgICAgIHN0cmluZyBtZW1vcnkgZW52TmFtZSA9IHN0cmluZyhhYmkuZW5jb2RlUGFja2VkKF90b1VwcGVyKGNoYWluQWxpYXMpLCAiX1JQQ19VUkwiKSk7CiAgICAgICAgICAgICAgICBpZiAoZmFsbGJhY2tUb0RlZmF1bHRScGNVcmxzKSB7CiAgICAgICAgICAgICAgICAgICAgY2hhaW4ucnBjVXJsID0gdm0uZW52T3IoZW52TmFtZSwgZGVmYXVsdFJwY1VybHNbY2hhaW5BbGlhc10pOwogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBjaGFpbi5ycGNVcmwgPSB2bS5lbnZTdHJpbmcoZW52TmFtZSk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAvLyBEaXN0aW5ndWlzaCAnbm90IGZvdW5kJyBmcm9tICdjYW5ub3QgcmVhZCcKICAgICAgICAgICAgICAgIC8vIFRoZSB1cHN0cmVhbSBlcnJvciB0aHJvd24gYnkgZm9yZ2UgZm9yIGZhaWxpbmcgY2hlYXRzIGNoYW5nZWQgc28gd2UgY2hlY2sgYm90aCB0aGUgb2xkIGFuZCBuZXcgdmVyc2lvbnMKICAgICAgICAgICAgICAgIGJ5dGVzIG1lbW9yeSBvbGROb3RGb3VuZEVycm9yID0KICAgICAgICAgICAgICAgICAgICBhYmkuZW5jb2RlV2l0aFNpZ25hdHVyZSgiQ2hlYXRDb2RlRXJyb3IiLCBzdHJpbmcoYWJpLmVuY29kZVBhY2tlZCgiaW52YWxpZCBycGMgdXJsICIsIGNoYWluQWxpYXMpKSk7CiAgICAgICAgICAgICAgICBieXRlcyBtZW1vcnkgbmV3Tm90Rm91bmRFcnJvciA9IGFiaS5lbmNvZGVXaXRoU2lnbmF0dXJlKAogICAgICAgICAgICAgICAgICAgICJDaGVhdGNvZGVFcnJvcihzdHJpbmcpIiwgc3RyaW5nKGFiaS5lbmNvZGVQYWNrZWQoImludmFsaWQgcnBjIHVybDogIiwgY2hhaW5BbGlhcykpCiAgICAgICAgICAgICAgICApOwogICAgICAgICAgICAgICAgYnl0ZXMzMiBlcnJIYXNoID0ga2VjY2FrMjU2KGVycik7CiAgICAgICAgICAgICAgICBpZiAoCiAgICAgICAgICAgICAgICAgICAgKGVyckhhc2ggIT0ga2VjY2FrMjU2KG9sZE5vdEZvdW5kRXJyb3IpICYmIGVyckhhc2ggIT0ga2VjY2FrMjU2KG5ld05vdEZvdW5kRXJyb3IpKQogICAgICAgICAgICAgICAgICAgICAgICB8fCBieXRlcyhjaGFpbi5ycGNVcmwpLmxlbmd0aCA9PSAwCiAgICAgICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgICAgICAvLy8gQHNvbGlkaXR5IG1lbW9yeS1zYWZlLWFzc2VtYmx5CiAgICAgICAgICAgICAgICAgICAgYXNzZW1ibHkgewogICAgICAgICAgICAgICAgICAgICAgICByZXZlcnQoYWRkKDMyLCBlcnIpLCBtbG9hZChlcnIpKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICByZXR1cm4gY2hhaW47CiAgICB9CgogICAgZnVuY3Rpb24gc2V0RmFsbGJhY2tUb0RlZmF1bHRScGNVcmxzKGJvb2wgdXNlRGVmYXVsdCkgaW50ZXJuYWwgewogICAgICAgIGZhbGxiYWNrVG9EZWZhdWx0UnBjVXJscyA9IHVzZURlZmF1bHQ7CiAgICB9CgogICAgZnVuY3Rpb24gaW5pdGlhbGl6ZVN0ZENoYWlucygpIHByaXZhdGUgewogICAgICAgIGlmIChzdGRDaGFpbnNJbml0aWFsaXplZCkgcmV0dXJuOwoKICAgICAgICBzdGRDaGFpbnNJbml0aWFsaXplZCA9IHRydWU7CgogICAgICAgIC8vIElmIGFkZGluZyBhbiBSUEMgaGVyZSwgbWFrZSBzdXJlIHRvIHRlc3QgdGhlIGRlZmF1bHQgUlBDIFVSTCBpbiBgdGVzdFJwY3NgCiAgICAgICAgc2V0Q2hhaW5XaXRoRGVmYXVsdFJwY1VybCgiYW52aWwiLCBDaGFpbkRhdGEoIkFudmlsIiwgMzEzMzcsICJodHRwOi8vMTI3LjAuMC4xOjg1NDUiKSk7CiAgICAgICAgc2V0Q2hhaW5XaXRoRGVmYXVsdFJwY1VybCgKICAgICAgICAgICAgIm1haW5uZXQiLCBDaGFpbkRhdGEoIk1haW5uZXQiLCAxLCAiaHR0cHM6Ly9tYWlubmV0LmluZnVyYS5pby92My9iOTc5NGFkMWRkZjg0ZGZiOGMzNGQ2YmI1ZGNhMjAwMSIpCiAgICAgICAgKTsKICAgICAgICBzZXRDaGFpbldpdGhEZWZhdWx0UnBjVXJsKAogICAgICAgICAgICAiZ29lcmxpIiwgQ2hhaW5EYXRhKCJHb2VybGkiLCA1LCAiaHR0cHM6Ly9nb2VybGkuaW5mdXJhLmlvL3YzL2I5Nzk0YWQxZGRmODRkZmI4YzM0ZDZiYjVkY2EyMDAxIikKICAgICAgICApOwogICAgICAgIHNldENoYWluV2l0aERlZmF1bHRScGNVcmwoCiAgICAgICAgICAgICJzZXBvbGlhIiwgQ2hhaW5EYXRhKCJTZXBvbGlhIiwgMTExNTUxMTEsICJodHRwczovL3NlcG9saWEuaW5mdXJhLmlvL3YzL2I5Nzk0YWQxZGRmODRkZmI4YzM0ZDZiYjVkY2EyMDAxIikKICAgICAgICApOwogICAgICAgIHNldENoYWluV2l0aERlZmF1bHRScGNVcmwoIm9wdGltaXNtIiwgQ2hhaW5EYXRhKCJPcHRpbWlzbSIsIDEwLCAiaHR0cHM6Ly9tYWlubmV0Lm9wdGltaXNtLmlvIikpOwogICAgICAgIHNldENoYWluV2l0aERlZmF1bHRScGNVcmwoIm9wdGltaXNtX2dvZXJsaSIsIENoYWluRGF0YSgiT3B0aW1pc20gR29lcmxpIiwgNDIwLCAiaHR0cHM6Ly9nb2VybGkub3B0aW1pc20uaW8iKSk7CiAgICAgICAgc2V0Q2hhaW5XaXRoRGVmYXVsdFJwY1VybCgiYXJiaXRydW1fb25lIiwgQ2hhaW5EYXRhKCJBcmJpdHJ1bSBPbmUiLCA0MjE2MSwgImh0dHBzOi8vYXJiMS5hcmJpdHJ1bS5pby9ycGMiKSk7CiAgICAgICAgc2V0Q2hhaW5XaXRoRGVmYXVsdFJwY1VybCgKICAgICAgICAgICAgImFyYml0cnVtX29uZV9nb2VybGkiLCBDaGFpbkRhdGEoIkFyYml0cnVtIE9uZSBHb2VybGkiLCA0MjE2MTMsICJodHRwczovL2dvZXJsaS1yb2xsdXAuYXJiaXRydW0uaW8vcnBjIikKICAgICAgICApOwogICAgICAgIHNldENoYWluV2l0aERlZmF1bHRScGNVcmwoImFyYml0cnVtX25vdmEiLCBDaGFpbkRhdGEoIkFyYml0cnVtIE5vdmEiLCA0MjE3MCwgImh0dHBzOi8vbm92YS5hcmJpdHJ1bS5pby9ycGMiKSk7CiAgICAgICAgc2V0Q2hhaW5XaXRoRGVmYXVsdFJwY1VybCgicG9seWdvbiIsIENoYWluRGF0YSgiUG9seWdvbiIsIDEzNywgImh0dHBzOi8vcG9seWdvbi1ycGMuY29tIikpOwogICAgICAgIHNldENoYWluV2l0aERlZmF1bHRScGNVcmwoCiAgICAgICAgICAgICJwb2x5Z29uX211bWJhaSIsIENoYWluRGF0YSgiUG9seWdvbiBNdW1iYWkiLCA4MDAwMSwgImh0dHBzOi8vcnBjLW11bWJhaS5tYXRpY3ZpZ2lsLmNvbSIpCiAgICAgICAgKTsKICAgICAgICBzZXRDaGFpbldpdGhEZWZhdWx0UnBjVXJsKCJhdmFsYW5jaGUiLCBDaGFpbkRhdGEoIkF2YWxhbmNoZSIsIDQzMTE0LCAiaHR0cHM6Ly9hcGkuYXZheC5uZXR3b3JrL2V4dC9iYy9DL3JwYyIpKTsKICAgICAgICBzZXRDaGFpbldpdGhEZWZhdWx0UnBjVXJsKAogICAgICAgICAgICAiYXZhbGFuY2hlX2Z1amkiLCBDaGFpbkRhdGEoIkF2YWxhbmNoZSBGdWppIiwgNDMxMTMsICJodHRwczovL2FwaS5hdmF4LXRlc3QubmV0d29yay9leHQvYmMvQy9ycGMiKQogICAgICAgICk7CiAgICAgICAgc2V0Q2hhaW5XaXRoRGVmYXVsdFJwY1VybCgKICAgICAgICAgICAgImJuYl9zbWFydF9jaGFpbiIsIENoYWluRGF0YSgiQk5CIFNtYXJ0IENoYWluIiwgNTYsICJodHRwczovL2JzYy1kYXRhc2VlZDEuYmluYW5jZS5vcmciKQogICAgICAgICk7CiAgICAgICAgc2V0Q2hhaW5XaXRoRGVmYXVsdFJwY1VybCgKICAgICAgICAgICAgImJuYl9zbWFydF9jaGFpbl90ZXN0bmV0IiwKICAgICAgICAgICAgQ2hhaW5EYXRhKCJCTkIgU21hcnQgQ2hhaW4gVGVzdG5ldCIsIDk3LCAiaHR0cHM6Ly9ycGMuYW5rci5jb20vYnNjX3Rlc3RuZXRfY2hhcGVsIikKICAgICAgICApOwogICAgICAgIHNldENoYWluV2l0aERlZmF1bHRScGNVcmwoImdub3Npc19jaGFpbiIsIENoYWluRGF0YSgiR25vc2lzIENoYWluIiwgMTAwLCAiaHR0cHM6Ly9ycGMuZ25vc2lzY2hhaW4uY29tIikpOwogICAgICAgIHNldENoYWluV2l0aERlZmF1bHRScGNVcmwoIm1vb25iZWFtIiwgQ2hhaW5EYXRhKCJNb29uYmVhbSIsIDEyODQsICJodHRwczovL3JwYy5hcGkubW9vbmJlYW0ubmV0d29yayIpKTsKICAgICAgICBzZXRDaGFpbldpdGhEZWZhdWx0UnBjVXJsKAogICAgICAgICAgICAibW9vbnJpdmVyIiwgQ2hhaW5EYXRhKCJNb29ucml2ZXIiLCAxMjg1LCAiaHR0cHM6Ly9ycGMuYXBpLm1vb25yaXZlci5tb29uYmVhbS5uZXR3b3JrIikKICAgICAgICApOwogICAgICAgIHNldENoYWluV2l0aERlZmF1bHRScGNVcmwoIm1vb25iYXNlIiwgQ2hhaW5EYXRhKCJNb29uYmFzZSIsIDEyODcsICJodHRwczovL3JwYy50ZXN0bmV0Lm1vb25iZWFtLm5ldHdvcmsiKSk7CiAgICAgICAgc2V0Q2hhaW5XaXRoRGVmYXVsdFJwY1VybCgiYmFzZV9nb2VybGkiLCBDaGFpbkRhdGEoIkJhc2UgR29lcmxpIiwgODQ1MzEsICJodHRwczovL2dvZXJsaS5iYXNlLm9yZyIpKTsKICAgICAgICBzZXRDaGFpbldpdGhEZWZhdWx0UnBjVXJsKCJiYXNlIiwgQ2hhaW5EYXRhKCJCYXNlIiwgODQ1MywgImh0dHBzOi8vbWFpbm5ldC5iYXNlLm9yZyIpKTsKICAgIH0KCiAgICAvLyBzZXQgY2hhaW4gaW5mbywgd2l0aCBwcmlvcml0eSB0byBjaGFpbkFsaWFzJyBycGMgdXJsIGluIGZvdW5kcnkudG9tbAogICAgZnVuY3Rpb24gc2V0Q2hhaW5XaXRoRGVmYXVsdFJwY1VybChzdHJpbmcgbWVtb3J5IGNoYWluQWxpYXMsIENoYWluRGF0YSBtZW1vcnkgY2hhaW4pIHByaXZhdGUgewogICAgICAgIHN0cmluZyBtZW1vcnkgcnBjVXJsID0gY2hhaW4ucnBjVXJsOwogICAgICAgIGRlZmF1bHRScGNVcmxzW2NoYWluQWxpYXNdID0gcnBjVXJsOwogICAgICAgIGNoYWluLnJwY1VybCA9ICIiOwogICAgICAgIHNldENoYWluKGNoYWluQWxpYXMsIGNoYWluKTsKICAgICAgICBjaGFpbi5ycGNVcmwgPSBycGNVcmw7IC8vIHJlc3RvcmUgYXJndW1lbnQKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.6.2 <0.9.0;
+
+import {VmSafe} from "./Vm.sol";
+
+/**
+ * StdChains provides information about EVM compatible chains that can be used in scripts/tests.
+ * For each chain, the chain's name, chain ID, and a default RPC URL are provided. Chains are
+ * identified by their alias, which is the same as the alias in the `[rpc_endpoints]` section of
+ * the `foundry.toml` file. For best UX, ensure the alias in the `foundry.toml` file match the
+ * alias used in this contract, which can be found as the first argument to the
+ * `setChainWithDefaultRpcUrl` call in the `initializeStdChains` function.
+ *
+ * There are two main ways to use this contract:
+ *   1. Set a chain with `setChain(string memory chainAlias, ChainData memory chain)` or
+ *      `setChain(string memory chainAlias, Chain memory chain)`
+ *   2. Get a chain with `getChain(string memory chainAlias)` or `getChain(uint256 chainId)`.
+ *
+ * The first time either of those are used, chains are initialized with the default set of RPC URLs.
+ * This is done in `initializeStdChains`, which uses `setChainWithDefaultRpcUrl`. Defaults are recorded in
+ * `defaultRpcUrls`.
+ *
+ * The `setChain` function is straightforward, and it simply saves off the given chain data.
+ *
+ * The `getChain` methods use `getChainWithUpdatedRpcUrl` to return a chain. For example, let's say
+ * we want to retrieve the RPC URL for `mainnet`:
+ *   - If you have specified data with `setChain`, it will return that.
+ *   - If you have configured a mainnet RPC URL in `foundry.toml`, it will return the URL, provided it
+ *     is valid (e.g. a URL is specified, or an environment variable is given and exists).
+ *   - If neither of the above conditions is met, the default data is returned.
+ *
+ * Summarizing the above, the prioritization hierarchy is `setChain` -> `foundry.toml` -> environment variable -> defaults.
+ */
+abstract contract StdChains {
+    VmSafe private constant vm = VmSafe(address(uint160(uint256(keccak256("hevm cheat code")))));
+
+    bool private stdChainsInitialized;
+
+    struct ChainData {
+        string name;
+        uint256 chainId;
+        string rpcUrl;
+    }
+
+    struct Chain {
+        // The chain name.
+        string name;
+        // The chain's Chain ID.
+        uint256 chainId;
+        // The chain's alias. (i.e. what gets specified in `foundry.toml`).
+        string chainAlias;
+        // A default RPC endpoint for this chain.
+        // NOTE: This default RPC URL is included for convenience to facilitate quick tests and
+        // experimentation. Do not use this RPC URL for production test suites, CI, or other heavy
+        // usage as you will be throttled and this is a disservice to others who need this endpoint.
+        string rpcUrl;
+    }
+
+    // Maps from the chain's alias (matching the alias in the `foundry.toml` file) to chain data.
+    mapping(string => Chain) private chains;
+    // Maps from the chain's alias to it's default RPC URL.
+    mapping(string => string) private defaultRpcUrls;
+    // Maps from a chain ID to it's alias.
+    mapping(uint256 => string) private idToAlias;
+
+    bool private fallbackToDefaultRpcUrls = true;
+
+    // The RPC URL will be fetched from config or defaultRpcUrls if possible.
+    function getChain(string memory chainAlias) internal virtual returns (Chain memory chain) {
+        require(bytes(chainAlias).length != 0, "StdChains getChain(string): Chain alias cannot be the empty string.");
+
+        initializeStdChains();
+        chain = chains[chainAlias];
+        require(
+            chain.chainId != 0,
+            string(abi.encodePacked("StdChains getChain(string): Chain with alias \"", chainAlias, "\" not found."))
+        );
+
+        chain = getChainWithUpdatedRpcUrl(chainAlias, chain);
+    }
+
+    function getChain(uint256 chainId) internal virtual returns (Chain memory chain) {
+        require(chainId != 0, "StdChains getChain(uint256): Chain ID cannot be 0.");
+        initializeStdChains();
+        string memory chainAlias = idToAlias[chainId];
+
+        chain = chains[chainAlias];
+
+        require(
+            chain.chainId != 0,
+            string(abi.encodePacked("StdChains getChain(uint256): Chain with ID ", vm.toString(chainId), " not found."))
+        );
+
+        chain = getChainWithUpdatedRpcUrl(chainAlias, chain);
+    }
+
+    // set chain info, with priority to argument's rpcUrl field.
+    function setChain(string memory chainAlias, ChainData memory chain) internal virtual {
+        require(
+            bytes(chainAlias).length != 0,
+            "StdChains setChain(string,ChainData): Chain alias cannot be the empty string."
+        );
+
+        require(chain.chainId != 0, "StdChains setChain(string,ChainData): Chain ID cannot be 0.");
+
+        initializeStdChains();
+        string memory foundAlias = idToAlias[chain.chainId];
+
+        require(
+            bytes(foundAlias).length == 0 || keccak256(bytes(foundAlias)) == keccak256(bytes(chainAlias)),
+            string(
+                abi.encodePacked(
+                    "StdChains setChain(string,ChainData): Chain ID ",
+                    vm.toString(chain.chainId),
+                    " already used by \"",
+                    foundAlias,
+                    "\"."
+                )
+            )
+        );
+
+        uint256 oldChainId = chains[chainAlias].chainId;
+        delete idToAlias[oldChainId];
+
+        chains[chainAlias] =
+            Chain({name: chain.name, chainId: chain.chainId, chainAlias: chainAlias, rpcUrl: chain.rpcUrl});
+        idToAlias[chain.chainId] = chainAlias;
+    }
+
+    // set chain info, with priority to argument's rpcUrl field.
+    function setChain(string memory chainAlias, Chain memory chain) internal virtual {
+        setChain(chainAlias, ChainData({name: chain.name, chainId: chain.chainId, rpcUrl: chain.rpcUrl}));
+    }
+
+    function _toUpper(string memory str) private pure returns (string memory) {
+        bytes memory strb = bytes(str);
+        bytes memory copy = new bytes(strb.length);
+        for (uint256 i = 0; i < strb.length; i++) {
+            bytes1 b = strb[i];
+            if (b >= 0x61 && b <= 0x7A) {
+                copy[i] = bytes1(uint8(b) - 32);
+            } else {
+                copy[i] = b;
+            }
+        }
+        return string(copy);
+    }
+
+    // lookup rpcUrl, in descending order of priority:
+    // current -> config (foundry.toml) -> environment variable -> default
+    function getChainWithUpdatedRpcUrl(string memory chainAlias, Chain memory chain)
+        private
+        view
+        returns (Chain memory)
+    {
+        if (bytes(chain.rpcUrl).length == 0) {
+            try vm.rpcUrl(chainAlias) returns (string memory configRpcUrl) {
+                chain.rpcUrl = configRpcUrl;
+            } catch (bytes memory err) {
+                string memory envName = string(abi.encodePacked(_toUpper(chainAlias), "_RPC_URL"));
+                if (fallbackToDefaultRpcUrls) {
+                    chain.rpcUrl = vm.envOr(envName, defaultRpcUrls[chainAlias]);
+                } else {
+                    chain.rpcUrl = vm.envString(envName);
+                }
+                // Distinguish 'not found' from 'cannot read'
+                // The upstream error thrown by forge for failing cheats changed so we check both the old and new versions
+                bytes memory oldNotFoundError =
+                    abi.encodeWithSignature("CheatCodeError", string(abi.encodePacked("invalid rpc url ", chainAlias)));
+                bytes memory newNotFoundError = abi.encodeWithSignature(
+                    "CheatcodeError(string)", string(abi.encodePacked("invalid rpc url: ", chainAlias))
+                );
+                bytes32 errHash = keccak256(err);
+                if (
+                    (errHash != keccak256(oldNotFoundError) && errHash != keccak256(newNotFoundError))
+                        || bytes(chain.rpcUrl).length == 0
+                ) {
+                    /// @solidity memory-safe-assembly
+                    assembly {
+                        revert(add(32, err), mload(err))
+                    }
+                }
+            }
+        }
+        return chain;
+    }
+
+    function setFallbackToDefaultRpcUrls(bool useDefault) internal {
+        fallbackToDefaultRpcUrls = useDefault;
+    }
+
+    function initializeStdChains() private {
+        if (stdChainsInitialized) return;
+
+        stdChainsInitialized = true;
+
+        // If adding an RPC here, make sure to test the default RPC URL in `testRpcs`
+        setChainWithDefaultRpcUrl("anvil", ChainData("Anvil", 31337, "http://127.0.0.1:8545"));
+        setChainWithDefaultRpcUrl(
+            "mainnet", ChainData("Mainnet", 1, "https://mainnet.infura.io/v3/b9794ad1ddf84dfb8c34d6bb5dca2001")
+        );
+        setChainWithDefaultRpcUrl(
+            "goerli", ChainData("Goerli", 5, "https://goerli.infura.io/v3/b9794ad1ddf84dfb8c34d6bb5dca2001")
+        );
+        setChainWithDefaultRpcUrl(
+            "sepolia", ChainData("Sepolia", 11155111, "https://sepolia.infura.io/v3/b9794ad1ddf84dfb8c34d6bb5dca2001")
+        );
+        setChainWithDefaultRpcUrl("optimism", ChainData("Optimism", 10, "https://mainnet.optimism.io"));
+        setChainWithDefaultRpcUrl("optimism_goerli", ChainData("Optimism Goerli", 420, "https://goerli.optimism.io"));
+        setChainWithDefaultRpcUrl("arbitrum_one", ChainData("Arbitrum One", 42161, "https://arb1.arbitrum.io/rpc"));
+        setChainWithDefaultRpcUrl(
+            "arbitrum_one_goerli", ChainData("Arbitrum One Goerli", 421613, "https://goerli-rollup.arbitrum.io/rpc")
+        );
+        setChainWithDefaultRpcUrl("arbitrum_nova", ChainData("Arbitrum Nova", 42170, "https://nova.arbitrum.io/rpc"));
+        setChainWithDefaultRpcUrl("polygon", ChainData("Polygon", 137, "https://polygon-rpc.com"));
+        setChainWithDefaultRpcUrl(
+            "polygon_mumbai", ChainData("Polygon Mumbai", 80001, "https://rpc-mumbai.maticvigil.com")
+        );
+        setChainWithDefaultRpcUrl("avalanche", ChainData("Avalanche", 43114, "https://api.avax.network/ext/bc/C/rpc"));
+        setChainWithDefaultRpcUrl(
+            "avalanche_fuji", ChainData("Avalanche Fuji", 43113, "https://api.avax-test.network/ext/bc/C/rpc")
+        );
+        setChainWithDefaultRpcUrl(
+            "bnb_smart_chain", ChainData("BNB Smart Chain", 56, "https://bsc-dataseed1.binance.org")
+        );
+        setChainWithDefaultRpcUrl(
+            "bnb_smart_chain_testnet",
+            ChainData("BNB Smart Chain Testnet", 97, "https://rpc.ankr.com/bsc_testnet_chapel")
+        );
+        setChainWithDefaultRpcUrl("gnosis_chain", ChainData("Gnosis Chain", 100, "https://rpc.gnosischain.com"));
+        setChainWithDefaultRpcUrl("moonbeam", ChainData("Moonbeam", 1284, "https://rpc.api.moonbeam.network"));
+        setChainWithDefaultRpcUrl(
+            "moonriver", ChainData("Moonriver", 1285, "https://rpc.api.moonriver.moonbeam.network")
+        );
+        setChainWithDefaultRpcUrl("moonbase", ChainData("Moonbase", 1287, "https://rpc.testnet.moonbeam.network"));
+        setChainWithDefaultRpcUrl("base_goerli", ChainData("Base Goerli", 84531, "https://goerli.base.org"));
+        setChainWithDefaultRpcUrl("base", ChainData("Base", 8453, "https://mainnet.base.org"));
+    }
+
+    // set chain info, with priority to chainAlias' rpc url in foundry.toml
+    function setChainWithDefaultRpcUrl(string memory chainAlias, ChainData memory chain) private {
+        string memory rpcUrl = chain.rpcUrl;
+        defaultRpcUrls[chainAlias] = rpcUrl;
+        chain.rpcUrl = "";
+        setChain(chainAlias, chain);
+        chain.rpcUrl = rpcUrl; // restore argument
+    }
+}
