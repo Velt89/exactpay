@@ -1,1 +1,8 @@
-aW1wb3J0IHR5cGUgeyBOZXh0Q29uZmlnIH0gZnJvbSAibmV4dCI7Cgpjb25zdCBjb25maWc6IE5leHRDb25maWcgPSB7CiAgLy8gVGhlIHNoYXJlZCBjb25maWcgcGFja2FnZSBzaGlwcyBUeXBlU2NyaXB0IHNvdXJjZS4KICB0cmFuc3BpbGVQYWNrYWdlczogWyJAYWV2dW0ta2l0L2FldnVtIl0sCn07CgpleHBvcnQgZGVmYXVsdCBjb25maWc7Cg==
+import type { NextConfig } from "next";
+
+const config: NextConfig = {
+  // The shared config package ships TypeScript source.
+  transpilePackages: ["@aevum-kit/aevum"],
+};
+
+export default config;
