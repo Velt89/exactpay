@@ -1,1 +1,189 @@
-Y29uc3QgZm9ybWF0ID0gcmVxdWlyZSgnLi4vZm9ybWF0LWxpbmVzJyk7CmNvbnN0IHsgT1BUUyB9ID0gcmVxdWlyZSgnLi9NZXJrbGVQcm9vZi5vcHRzJyk7Cgpjb25zdCBERUZBVUxUX0hBU0ggPSAnSGFzaGVzLmNvbW11dGF0aXZlS2VjY2FrMjU2JzsKCmNvbnN0IGZvcm1hdEFyZ3NTaW5nbGVMaW5lID0gKC4uLmFyZ3MpID0+IGFyZ3MuZmlsdGVyKEJvb2xlYW4pLmpvaW4oJywgJyk7CmNvbnN0IGZvcm1hdEFyZ3NNdWx0aWxpbmUgPSAoLi4uYXJncykgPT4gJ1xuJyArIGZvcm1hdChhcmdzLmZpbHRlcihCb29sZWFuKS5qb2luKCcsXDAnKS5zcGxpdCgnXDAnKSk7CgovLyBURU1QTEFURQpjb25zdCBoZWFkZXIgPSBgXApwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7SGFzaGVzfSBmcm9tICIuL0hhc2hlcy5zb2wiOwoKLyoqCiAqIEBkZXYgVGhlc2UgZnVuY3Rpb25zIGRlYWwgd2l0aCB2ZXJpZmljYXRpb24gb2YgTWVya2xlIFRyZWUgcHJvb2ZzLgogKgogKiBUaGUgdHJlZSBhbmQgdGhlIHByb29mcyBjYW4gYmUgZ2VuZXJhdGVkIHVzaW5nIG91cgogKiBodHRwczovL2dpdGh1Yi5jb20vT3BlblplcHBlbGluL21lcmtsZS10cmVlW0phdmFTY3JpcHQgbGlicmFyeV0uCiAqIFlvdSB3aWxsIGZpbmQgYSBxdWlja3N0YXJ0IGd1aWRlIGluIHRoZSByZWFkbWUuCiAqCiAqIFdBUk5JTkc6IFlvdSBzaG91bGQgYXZvaWQgdXNpbmcgbGVhZiB2YWx1ZXMgdGhhdCBhcmUgNjQgYnl0ZXMgbG9uZyBwcmlvciB0bwogKiBoYXNoaW5nLCBvciB1c2UgYSBoYXNoIGZ1bmN0aW9uIG90aGVyIHRoYW4ga2VjY2FrMjU2IGZvciBoYXNoaW5nIGxlYXZlcy4KICogVGhpcyBpcyBiZWNhdXNlIHRoZSBjb25jYXRlbmF0aW9uIG9mIGEgc29ydGVkIHBhaXIgb2YgaW50ZXJuYWwgbm9kZXMgaW4KICogdGhlIE1lcmtsZSB0cmVlIGNvdWxkIGJlIHJlaW50ZXJwcmV0ZWQgYXMgYSBsZWFmIHZhbHVlLgogKiBPcGVuWmVwcGVsaW4ncyBKYXZhU2NyaXB0IGxpYnJhcnkgZ2VuZXJhdGVzIE1lcmtsZSB0cmVlcyB0aGF0IGFyZSBzYWZlCiAqIGFnYWluc3QgdGhpcyBhdHRhY2sgb3V0IG9mIHRoZSBib3guCiAqCiAqIElNUE9SVEFOVDogQ29uc2lkZXIgbWVtb3J5IHNpZGUtZWZmZWN0cyB3aGVuIHVzaW5nIGN1c3RvbSBoYXNoaW5nIGZ1bmN0aW9ucwogKiB0aGF0IGFjY2VzcyBtZW1vcnkgaW4gYW4gdW5zYWZlIHdheS4KICoKICogTk9URTogVGhpcyBsaWJyYXJ5IHN1cHBvcnRzIHByb29mIHZlcmlmaWNhdGlvbiBmb3IgbWVya2xlIHRyZWVzIGJ1aWx0IHVzaW5nCiAqIGN1c3RvbSBfY29tbXV0YXRpdmVfIGhhc2hpbmcgZnVuY3Rpb25zIChpLmUuIFxgSChhLCBiKSA9PSBIKGIsIGEpXGApLiBQcm92aW5nCiAqIGxlYWYgaW5jbHVzaW9uIGluIHRyZWVzIGJ1aWx0IHVzaW5nIG5vbi1jb21tdXRhdGl2ZSBoYXNoaW5nIGZ1bmN0aW9ucyByZXF1aXJlcwogKiBhZGRpdGlvbmFsIGxvZ2ljIHRoYXQgaXMgbm90IHN1cHBvcnRlZCBieSB0aGlzIGxpYnJhcnkuCiAqLwpgOwoKY29uc3QgZXJyb3JzID0gYFwKLyoqCiAqQGRldiBUaGUgbXVsdGlwcm9vZiBwcm92aWRlZCBpcyBub3QgdmFsaWQuCiAqLwplcnJvciBNZXJrbGVQcm9vZkludmFsaWRNdWx0aXByb29mKCk7CmA7CgovKiBlc2xpbnQtZGlzYWJsZSBtYXgtbGVuICovCmNvbnN0IHRlbXBsYXRlUHJvb2YgPSAoeyBzdWZmaXgsIGxvY2F0aW9uLCB2aXNpYmlsaXR5LCBoYXNoIH0pID0+IGBcCi8qKgogKiBAZGV2IFJldHVybnMgdHJ1ZSBpZiBhIFxgbGVhZlxgIGNhbiBiZSBwcm92ZWQgdG8gYmUgYSBwYXJ0IG9mIGEgTWVya2xlIHRyZWUKICogZGVmaW5lZCBieSBcYHJvb3RcYC4gRm9yIHRoaXMsIGEgXGBwcm9vZlxgIG11c3QgYmUgcHJvdmlkZWQsIGNvbnRhaW5pbmcKICogc2libGluZyBoYXNoZXMgb24gdGhlIGJyYW5jaCBmcm9tIHRoZSBsZWFmIHRvIHRoZSByb290IG9mIHRoZSB0cmVlLiBFYWNoCiAqIHBhaXIgb2YgbGVhdmVzIGFuZCBlYWNoIHBhaXIgb2YgcHJlLWltYWdlcyBhcmUgYXNzdW1lZCB0byBiZSBzb3J0ZWQuCiAqCiAqIFRoaXMgdmVyc2lvbiBoYW5kbGVzIHByb29mcyBpbiAke2xvY2F0aW9ufSB3aXRoICR7aGFzaCA/ICdhIGN1c3RvbScgOiAndGhlIGRlZmF1bHQnfSBoYXNoaW5nIGZ1bmN0aW9uLgogKi8KZnVuY3Rpb24gdmVyaWZ5JHtzdWZmaXh9KCR7KGhhc2ggPyBmb3JtYXRBcmdzTXVsdGlsaW5lIDogZm9ybWF0QXJnc1NpbmdsZUxpbmUpKAogIGBieXRlczMyW10gJHtsb2NhdGlvbn0gcHJvb2ZgLAogICdieXRlczMyIHJvb3QnLAogICdieXRlczMyIGxlYWYnLAogIGhhc2ggJiYgYGZ1bmN0aW9uKGJ5dGVzMzIsIGJ5dGVzMzIpIHZpZXcgcmV0dXJucyAoYnl0ZXMzMikgJHtoYXNofWAsCil9KSBpbnRlcm5hbCAke3Zpc2liaWxpdHl9IHJldHVybnMgKGJvb2wpIHsKICAgIHJldHVybiBwcm9jZXNzUHJvb2Yke3N1ZmZpeH0ocHJvb2YsIGxlYWYke2hhc2ggPyBgLCAke2hhc2h9YCA6ICcnfSkgPT0gcm9vdDsKfQoKLyoqCiAqIEBkZXYgUmV0dXJucyB0aGUgcmVidWlsdCBoYXNoIG9idGFpbmVkIGJ5IHRyYXZlcnNpbmcgYSBNZXJrbGUgdHJlZSB1cAogKiBmcm9tIFxgbGVhZlxgIHVzaW5nIFxgcHJvb2ZcYC4gQSBcYHByb29mXGAgaXMgdmFsaWQgaWYgYW5kIG9ubHkgaWYgdGhlIHJlYnVpbHQKICogaGFzaCBtYXRjaGVzIHRoZSByb290IG9mIHRoZSB0cmVlLiBXaGVuIHByb2Nlc3NpbmcgdGhlIHByb29mLCB0aGUgcGFpcnMKICogb2YgbGVhdmVzICYgcHJlLWltYWdlcyBhcmUgYXNzdW1lZCB0byBiZSBzb3J0ZWQuCiAqCiAqIFRoaXMgdmVyc2lvbiBoYW5kbGVzIHByb29mcyBpbiAke2xvY2F0aW9ufSB3aXRoICR7aGFzaCA/ICdhIGN1c3RvbScgOiAndGhlIGRlZmF1bHQnfSBoYXNoaW5nIGZ1bmN0aW9uLgogKi8KZnVuY3Rpb24gcHJvY2Vzc1Byb29mJHtzdWZmaXh9KCR7KGhhc2ggPyBmb3JtYXRBcmdzTXVsdGlsaW5lIDogZm9ybWF0QXJnc1NpbmdsZUxpbmUpKAogIGBieXRlczMyW10gJHtsb2NhdGlvbn0gcHJvb2ZgLAogICdieXRlczMyIGxlYWYnLAogIGhhc2ggJiYgYGZ1bmN0aW9uKGJ5dGVzMzIsIGJ5dGVzMzIpIHZpZXcgcmV0dXJucyAoYnl0ZXMzMikgJHtoYXNofWAsCil9KSBpbnRlcm5hbCAke3Zpc2liaWxpdHl9IHJldHVybnMgKGJ5dGVzMzIpIHsKICAgIGJ5dGVzMzIgY29tcHV0ZWRIYXNoID0gbGVhZjsKICAgIGZvciAodWludDI1NiBpID0gMDsgaSA8IHByb29mLmxlbmd0aDsgaSsrKSB7CiAgICAgICAgY29tcHV0ZWRIYXNoID0gJHtoYXNoID8/IERFRkFVTFRfSEFTSH0oY29tcHV0ZWRIYXNoLCBwcm9vZltpXSk7CiAgICB9CiAgICByZXR1cm4gY29tcHV0ZWRIYXNoOwp9CmA7Cgpjb25zdCB0ZW1wbGF0ZU11bHRpUHJvb2YgPSAoeyBzdWZmaXgsIGxvY2F0aW9uLCB2aXNpYmlsaXR5LCBoYXNoIH0pID0+IGBcCi8qKgogKiBAZGV2IFJldHVybnMgdHJ1ZSBpZiB0aGUgXGBsZWF2ZXNcYCBjYW4gYmUgc2ltdWx0YW5lb3VzbHkgcHJvdmVuIHRvIGJlIGEgcGFydCBvZiBhIE1lcmtsZSB0cmVlIGRlZmluZWQgYnkKICogXGByb290XGAsIGFjY29yZGluZyB0byBcYHByb29mXGAgYW5kIFxgcHJvb2ZGbGFnc1xgIGFzIGRlc2NyaWJlZCBpbiB7cHJvY2Vzc011bHRpUHJvb2Z9LgogKgogKiBUaGlzIHZlcnNpb24gaGFuZGxlcyBtdWx0aXByb29mcyBpbiAke2xvY2F0aW9ufSB3aXRoICR7aGFzaCA/ICdhIGN1c3RvbScgOiAndGhlIGRlZmF1bHQnfSBoYXNoaW5nIGZ1bmN0aW9uLgogKgogKiBDQVVUSU9OOiBOb3QgYWxsIE1lcmtsZSB0cmVlcyBhZG1pdCBtdWx0aXByb29mcy4gU2VlIHtwcm9jZXNzTXVsdGlQcm9vZn0gZm9yIGRldGFpbHMuCiAqCiAqIE5PVEU6IENvbnNpZGVyIHRoZSBjYXNlIHdoZXJlIFxgcm9vdCA9PSBwcm9vZlswXSAmJiBsZWF2ZXMubGVuZ3RoID09IDBcYCBhcyBpdCB3aWxsIHJldHVybiBcYHRydWVcYC4KICogVGhlIFxgbGVhdmVzXGAgbXVzdCBiZSB2YWxpZGF0ZWQgaW5kZXBlbmRlbnRseS4gU2VlIHtwcm9jZXNzTXVsdGlQcm9vZiR7c3VmZml4fX0uCiAqLwpmdW5jdGlvbiBtdWx0aVByb29mVmVyaWZ5JHtzdWZmaXh9KCR7Zm9ybWF0QXJnc011bHRpbGluZSgKICBgYnl0ZXMzMltdICR7bG9jYXRpb259IHByb29mYCwKICBgYm9vbFtdICR7bG9jYXRpb259IHByb29mRmxhZ3NgLAogICdieXRlczMyIHJvb3QnLAogIGBieXRlczMyW10gbWVtb3J5IGxlYXZlc2AsCiAgaGFzaCAmJiBgZnVuY3Rpb24oYnl0ZXMzMiwgYnl0ZXMzMikgdmlldyByZXR1cm5zIChieXRlczMyKSAke2hhc2h9YCwKKX0pIGludGVybmFsICR7dmlzaWJpbGl0eX0gcmV0dXJucyAoYm9vbCkgewogICAgcmV0dXJuIHByb2Nlc3NNdWx0aVByb29mJHtzdWZmaXh9KHByb29mLCBwcm9vZkZsYWdzLCBsZWF2ZXMke2hhc2ggPyBgLCAke2hhc2h9YCA6ICcnfSkgPT0gcm9vdDsKfQoKLyoqCiAqIEBkZXYgUmV0dXJucyB0aGUgcm9vdCBvZiBhIHRyZWUgcmVjb25zdHJ1Y3RlZCBmcm9tIFxgbGVhdmVzXGAgYW5kIHNpYmxpbmcgbm9kZXMgaW4gXGBwcm9vZlxgLiBUaGUgcmVjb25zdHJ1Y3Rpb24KICogcHJvY2VlZHMgYnkgaW5jcmVtZW50YWxseSByZWNvbnN0cnVjdGluZyBhbGwgaW5uZXIgbm9kZXMgYnkgY29tYmluaW5nIGEgbGVhZi9pbm5lciBub2RlIHdpdGggZWl0aGVyIGFub3RoZXIKICogbGVhZi9pbm5lciBub2RlIG9yIGEgcHJvb2Ygc2libGluZyBub2RlLCBkZXBlbmRpbmcgb24gd2hldGhlciBlYWNoIFxgcHJvb2ZGbGFnc1xgIGl0ZW0gaXMgdHJ1ZSBvciBmYWxzZQogKiByZXNwZWN0aXZlbHkuCiAqCiAqIFRoaXMgdmVyc2lvbiBoYW5kbGVzIG11bHRpcHJvb2ZzIGluICR7bG9jYXRpb259IHdpdGggJHtoYXNoID8gJ2EgY3VzdG9tJyA6ICd0aGUgZGVmYXVsdCd9IGhhc2hpbmcgZnVuY3Rpb24uCiAqCiAqIENBVVRJT046IE5vdCBhbGwgTWVya2xlIHRyZWVzIGFkbWl0IG11bHRpcHJvb2ZzLiBUbyB1c2UgbXVsdGlwcm9vZnMsIGl0IGlzIHN1ZmZpY2llbnQgdG8gZW5zdXJlIHRoYXQ6IDEpIHRoZSB0cmVlCiAqIGlzIGNvbXBsZXRlIChidXQgbm90IG5lY2Vzc2FyaWx5IHBlcmZlY3QpLCAyKSB0aGUgbGVhdmVzIHRvIGJlIHByb3ZlbiBhcmUgaW4gdGhlIG9wcG9zaXRlIG9yZGVyIHRoZXkgYXJlIGluIHRoZQogKiB0cmVlIChpLmUuLCBhcyBzZWVuIGZyb20gcmlnaHQgdG8gbGVmdCBzdGFydGluZyBhdCB0aGUgZGVlcGVzdCBsYXllciBhbmQgY29udGludWluZyBhdCB0aGUgbmV4dCBsYXllcikuCiAqCiAqIE5PVEU6IFRoZSBfZW1wdHkgc2V0XyAoaS5lLiB0aGUgY2FzZSB3aGVyZSBcYHByb29mLmxlbmd0aCA9PSAxICYmIGxlYXZlcy5sZW5ndGggPT0gMFxgKSBpcyBjb25zaWRlcmVkIGEgbm8tb3AsCiAqIGFuZCB0aGVyZWZvcmUgYSB2YWxpZCBtdWx0aXByb29mIChpLmUuIGl0IHJldHVybnMgXGBwcm9vZlswXVxgKS4gQ29uc2lkZXIgZGlzYWxsb3dpbmcgdGhpcyBjYXNlIGlmIHlvdSdyZSBub3QKICogdmFsaWRhdGluZyB0aGUgbGVhdmVzIGVsc2V3aGVyZS4KICovCmZ1bmN0aW9uIHByb2Nlc3NNdWx0aVByb29mJHtzdWZmaXh9KCR7Zm9ybWF0QXJnc011bHRpbGluZSgKICBgYnl0ZXMzMltdICR7bG9jYXRpb259IHByb29mYCwKICBgYm9vbFtdICR7bG9jYXRpb259IHByb29mRmxhZ3NgLAogIGBieXRlczMyW10gbWVtb3J5IGxlYXZlc2AsCiAgaGFzaCAmJiBgZnVuY3Rpb24oYnl0ZXMzMiwgYnl0ZXMzMikgdmlldyByZXR1cm5zIChieXRlczMyKSAke2hhc2h9YCwKKX0pIGludGVybmFsICR7dmlzaWJpbGl0eX0gcmV0dXJucyAoYnl0ZXMzMiBtZXJrbGVSb290KSB7CiAgICAvLyBUaGlzIGZ1bmN0aW9uIHJlYnVpbGRzIHRoZSByb290IGhhc2ggYnkgdHJhdmVyc2luZyB0aGUgdHJlZSB1cCBmcm9tIHRoZSBsZWF2ZXMuIFRoZSByb290IGlzIHJlYnVpbHQgYnkKICAgIC8vIGNvbnN1bWluZyBhbmQgcHJvZHVjaW5nIHZhbHVlcyBvbiBhIHF1ZXVlLiBUaGUgcXVldWUgc3RhcnRzIHdpdGggdGhlIFxgbGVhdmVzXGAgYXJyYXksIHRoZW4gZ29lcyBvbnRvIHRoZQogICAgLy8gXGBoYXNoZXNcYCBhcnJheS4gQXQgdGhlIGVuZCBvZiB0aGUgcHJvY2VzcywgdGhlIGxhc3QgaGFzaCBpbiB0aGUgXGBoYXNoZXNcYCBhcnJheSBzaG91bGQgY29udGFpbiB0aGUgcm9vdCBvZgogICAgLy8gdGhlIE1lcmtsZSB0cmVlLgogICAgdWludDI1NiBsZWF2ZXNMZW4gPSBsZWF2ZXMubGVuZ3RoOwogICAgdWludDI1NiBwcm9vZkZsYWdzTGVuID0gcHJvb2ZGbGFncy5sZW5ndGg7CgogICAgLy8gQ2hlY2sgcHJvb2YgdmFsaWRpdHkuCiAgICBpZiAobGVhdmVzTGVuICsgcHJvb2YubGVuZ3RoICE9IHByb29mRmxhZ3NMZW4gKyAxKSB7CiAgICAgICAgcmV2ZXJ0IE1lcmtsZVByb29mSW52YWxpZE11bHRpcHJvb2YoKTsKICAgIH0KCiAgICAvLyBUaGUgeHh4UG9zIHZhbHVlcyBhcmUgInBvaW50ZXJzIiB0byB0aGUgbmV4dCB2YWx1ZSB0byBjb25zdW1lIGluIGVhY2ggYXJyYXkuIEFsbCBhY2Nlc3NlcyBhcmUgZG9uZSB1c2luZwogICAgLy8gXGB4eHhbeHh4UG9zKytdXGAsIHdoaWNoIHJldHVybiB0aGUgY3VycmVudCB2YWx1ZSBhbmQgaW5jcmVtZW50IHRoZSBwb2ludGVyLCB0aHVzIG1pbWlja2luZyBhIHF1ZXVlJ3MgInBvcCIuCiAgICBieXRlczMyW10gbWVtb3J5IGhhc2hlcyA9IG5ldyBieXRlczMyW10ocHJvb2ZGbGFnc0xlbik7CiAgICB1aW50MjU2IGxlYWZQb3MgPSAwOwogICAgdWludDI1NiBoYXNoUG9zID0gMDsKICAgIHVpbnQyNTYgcHJvb2ZQb3MgPSAwOwogICAgLy8gQXQgZWFjaCBzdGVwLCB3ZSBjb21wdXRlIHRoZSBuZXh0IGhhc2ggdXNpbmcgdHdvIHZhbHVlczoKICAgIC8vIC0gYSB2YWx1ZSBmcm9tIHRoZSAibWFpbiBxdWV1ZSIuIElmIG5vdCBhbGwgbGVhdmVzIGhhdmUgYmVlbiBjb25zdW1lZCwgd2UgZ2V0IHRoZSBuZXh0IGxlYWYsIG90aGVyd2lzZSB3ZQogICAgLy8gICBnZXQgdGhlIG5leHQgaGFzaC4KICAgIC8vIC0gZGVwZW5kaW5nIG9uIHRoZSBmbGFnLCBlaXRoZXIgYW5vdGhlciB2YWx1ZSBmcm9tIHRoZSAibWFpbiBxdWV1ZSIgKG1lcmdpbmcgYnJhbmNoZXMpIG9yIGFuIGVsZW1lbnQgZnJvbSB0aGUKICAgIC8vICAgXGBwcm9vZlxgIGFycmF5LgogICAgZm9yICh1aW50MjU2IGkgPSAwOyBpIDwgcHJvb2ZGbGFnc0xlbjsgaSsrKSB7CiAgICAgICAgYnl0ZXMzMiBhID0gbGVhZlBvcyA8IGxlYXZlc0xlbiA/IGxlYXZlc1tsZWFmUG9zKytdIDogaGFzaGVzW2hhc2hQb3MrK107CiAgICAgICAgYnl0ZXMzMiBiID0gcHJvb2ZGbGFnc1tpXQogICAgICAgICAgICA/IChsZWFmUG9zIDwgbGVhdmVzTGVuID8gbGVhdmVzW2xlYWZQb3MrK10gOiBoYXNoZXNbaGFzaFBvcysrXSkKICAgICAgICAgICAgOiBwcm9vZltwcm9vZlBvcysrXTsKICAgICAgICBoYXNoZXNbaV0gPSAke2hhc2ggPz8gREVGQVVMVF9IQVNIfShhLCBiKTsKICAgIH0KCiAgICBpZiAocHJvb2ZGbGFnc0xlbiA+IDApIHsKICAgICAgICBpZiAocHJvb2ZQb3MgIT0gcHJvb2YubGVuZ3RoKSB7CiAgICAgICAgICAgIHJldmVydCBNZXJrbGVQcm9vZkludmFsaWRNdWx0aXByb29mKCk7CiAgICAgICAgfQogICAgICAgIHVuY2hlY2tlZCB7CiAgICAgICAgICAgIHJldHVybiBoYXNoZXNbcHJvb2ZGbGFnc0xlbiAtIDFdOwogICAgICAgIH0KICAgIH0gZWxzZSBpZiAobGVhdmVzTGVuID4gMCkgewogICAgICAgIHJldHVybiBsZWF2ZXNbMF07CiAgICB9IGVsc2UgewogICAgICAgIHJldHVybiBwcm9vZlswXTsKICAgIH0KfQpgOwovKiBlc2xpbnQtZW5hYmxlIG1heC1sZW4gKi8KCi8vIEdFTkVSQVRFCm1vZHVsZS5leHBvcnRzID0gZm9ybWF0KAogIGhlYWRlci50cmltRW5kKCksCiAgJ2xpYnJhcnkgTWVya2xlUHJvb2YgeycsCiAgZm9ybWF0KAogICAgW10uY29uY2F0KAogICAgICBlcnJvcnMsCiAgICAgIE9QVFMuZmxhdE1hcChvcHRzID0+IHRlbXBsYXRlUHJvb2Yob3B0cykpLAogICAgICBPUFRTLmZsYXRNYXAob3B0cyA9PiB0ZW1wbGF0ZU11bHRpUHJvb2Yob3B0cykpLAogICAgKSwKICApLnRyaW1FbmQoKSwKICAnfScsCik7Cg==
+const format = require('../format-lines');
+const { OPTS } = require('./MerkleProof.opts');
+
+const DEFAULT_HASH = 'Hashes.commutativeKeccak256';
+
+const formatArgsSingleLine = (...args) => args.filter(Boolean).join(', ');
+const formatArgsMultiline = (...args) => '\n' + format(args.filter(Boolean).join(',\0').split('\0'));
+
+// TEMPLATE
+const header = `\
+pragma solidity ^0.8.20;
+
+import {Hashes} from "./Hashes.sol";
+
+/**
+ * @dev These functions deal with verification of Merkle Tree proofs.
+ *
+ * The tree and the proofs can be generated using our
+ * https://github.com/OpenZeppelin/merkle-tree[JavaScript library].
+ * You will find a quickstart guide in the readme.
+ *
+ * WARNING: You should avoid using leaf values that are 64 bytes long prior to
+ * hashing, or use a hash function other than keccak256 for hashing leaves.
+ * This is because the concatenation of a sorted pair of internal nodes in
+ * the Merkle tree could be reinterpreted as a leaf value.
+ * OpenZeppelin's JavaScript library generates Merkle trees that are safe
+ * against this attack out of the box.
+ *
+ * IMPORTANT: Consider memory side-effects when using custom hashing functions
+ * that access memory in an unsafe way.
+ *
+ * NOTE: This library supports proof verification for merkle trees built using
+ * custom _commutative_ hashing functions (i.e. \`H(a, b) == H(b, a)\`). Proving
+ * leaf inclusion in trees built using non-commutative hashing functions requires
+ * additional logic that is not supported by this library.
+ */
+`;
+
+const errors = `\
+/**
+ *@dev The multiproof provided is not valid.
+ */
+error MerkleProofInvalidMultiproof();
+`;
+
+/* eslint-disable max-len */
+const templateProof = ({ suffix, location, visibility, hash }) => `\
+/**
+ * @dev Returns true if a \`leaf\` can be proved to be a part of a Merkle tree
+ * defined by \`root\`. For this, a \`proof\` must be provided, containing
+ * sibling hashes on the branch from the leaf to the root of the tree. Each
+ * pair of leaves and each pair of pre-images are assumed to be sorted.
+ *
+ * This version handles proofs in ${location} with ${hash ? 'a custom' : 'the default'} hashing function.
+ */
+function verify${suffix}(${(hash ? formatArgsMultiline : formatArgsSingleLine)(
+  `bytes32[] ${location} proof`,
+  'bytes32 root',
+  'bytes32 leaf',
+  hash && `function(bytes32, bytes32) view returns (bytes32) ${hash}`,
+)}) internal ${visibility} returns (bool) {
+    return processProof${suffix}(proof, leaf${hash ? `, ${hash}` : ''}) == root;
+}
+
+/**
+ * @dev Returns the rebuilt hash obtained by traversing a Merkle tree up
+ * from \`leaf\` using \`proof\`. A \`proof\` is valid if and only if the rebuilt
+ * hash matches the root of the tree. When processing the proof, the pairs
+ * of leaves & pre-images are assumed to be sorted.
+ *
+ * This version handles proofs in ${location} with ${hash ? 'a custom' : 'the default'} hashing function.
+ */
+function processProof${suffix}(${(hash ? formatArgsMultiline : formatArgsSingleLine)(
+  `bytes32[] ${location} proof`,
+  'bytes32 leaf',
+  hash && `function(bytes32, bytes32) view returns (bytes32) ${hash}`,
+)}) internal ${visibility} returns (bytes32) {
+    bytes32 computedHash = leaf;
+    for (uint256 i = 0; i < proof.length; i++) {
+        computedHash = ${hash ?? DEFAULT_HASH}(computedHash, proof[i]);
+    }
+    return computedHash;
+}
+`;
+
+const templateMultiProof = ({ suffix, location, visibility, hash }) => `\
+/**
+ * @dev Returns true if the \`leaves\` can be simultaneously proven to be a part of a Merkle tree defined by
+ * \`root\`, according to \`proof\` and \`proofFlags\` as described in {processMultiProof}.
+ *
+ * This version handles multiproofs in ${location} with ${hash ? 'a custom' : 'the default'} hashing function.
+ *
+ * CAUTION: Not all Merkle trees admit multiproofs. See {processMultiProof} for details.
+ *
+ * NOTE: Consider the case where \`root == proof[0] && leaves.length == 0\` as it will return \`true\`.
+ * The \`leaves\` must be validated independently. See {processMultiProof${suffix}}.
+ */
+function multiProofVerify${suffix}(${formatArgsMultiline(
+  `bytes32[] ${location} proof`,
+  `bool[] ${location} proofFlags`,
+  'bytes32 root',
+  `bytes32[] memory leaves`,
+  hash && `function(bytes32, bytes32) view returns (bytes32) ${hash}`,
+)}) internal ${visibility} returns (bool) {
+    return processMultiProof${suffix}(proof, proofFlags, leaves${hash ? `, ${hash}` : ''}) == root;
+}
+
+/**
+ * @dev Returns the root of a tree reconstructed from \`leaves\` and sibling nodes in \`proof\`. The reconstruction
+ * proceeds by incrementally reconstructing all inner nodes by combining a leaf/inner node with either another
+ * leaf/inner node or a proof sibling node, depending on whether each \`proofFlags\` item is true or false
+ * respectively.
+ *
+ * This version handles multiproofs in ${location} with ${hash ? 'a custom' : 'the default'} hashing function.
+ *
+ * CAUTION: Not all Merkle trees admit multiproofs. To use multiproofs, it is sufficient to ensure that: 1) the tree
+ * is complete (but not necessarily perfect), 2) the leaves to be proven are in the opposite order they are in the
+ * tree (i.e., as seen from right to left starting at the deepest layer and continuing at the next layer).
+ *
+ * NOTE: The _empty set_ (i.e. the case where \`proof.length == 1 && leaves.length == 0\`) is considered a no-op,
+ * and therefore a valid multiproof (i.e. it returns \`proof[0]\`). Consider disallowing this case if you're not
+ * validating the leaves elsewhere.
+ */
+function processMultiProof${suffix}(${formatArgsMultiline(
+  `bytes32[] ${location} proof`,
+  `bool[] ${location} proofFlags`,
+  `bytes32[] memory leaves`,
+  hash && `function(bytes32, bytes32) view returns (bytes32) ${hash}`,
+)}) internal ${visibility} returns (bytes32 merkleRoot) {
+    // This function rebuilds the root hash by traversing the tree up from the leaves. The root is rebuilt by
+    // consuming and producing values on a queue. The queue starts with the \`leaves\` array, then goes onto the
+    // \`hashes\` array. At the end of the process, the last hash in the \`hashes\` array should contain the root of
+    // the Merkle tree.
+    uint256 leavesLen = leaves.length;
+    uint256 proofFlagsLen = proofFlags.length;
+
+    // Check proof validity.
+    if (leavesLen + proof.length != proofFlagsLen + 1) {
+        revert MerkleProofInvalidMultiproof();
+    }
+
+    // The xxxPos values are "pointers" to the next value to consume in each array. All accesses are done using
+    // \`xxx[xxxPos++]\`, which return the current value and increment the pointer, thus mimicking a queue's "pop".
+    bytes32[] memory hashes = new bytes32[](proofFlagsLen);
+    uint256 leafPos = 0;
+    uint256 hashPos = 0;
+    uint256 proofPos = 0;
+    // At each step, we compute the next hash using two values:
+    // - a value from the "main queue". If not all leaves have been consumed, we get the next leaf, otherwise we
+    //   get the next hash.
+    // - depending on the flag, either another value from the "main queue" (merging branches) or an element from the
+    //   \`proof\` array.
+    for (uint256 i = 0; i < proofFlagsLen; i++) {
+        bytes32 a = leafPos < leavesLen ? leaves[leafPos++] : hashes[hashPos++];
+        bytes32 b = proofFlags[i]
+            ? (leafPos < leavesLen ? leaves[leafPos++] : hashes[hashPos++])
+            : proof[proofPos++];
+        hashes[i] = ${hash ?? DEFAULT_HASH}(a, b);
+    }
+
+    if (proofFlagsLen > 0) {
+        if (proofPos != proof.length) {
+            revert MerkleProofInvalidMultiproof();
+        }
+        unchecked {
+            return hashes[proofFlagsLen - 1];
+        }
+    } else if (leavesLen > 0) {
+        return leaves[0];
+    } else {
+        return proof[0];
+    }
+}
+`;
+/* eslint-enable max-len */
+
+// GENERATE
+module.exports = format(
+  header.trimEnd(),
+  'library MerkleProof {',
+  format(
+    [].concat(
+      errors,
+      OPTS.flatMap(opts => templateProof(opts)),
+      OPTS.flatMap(opts => templateMultiProof(opts)),
+    ),
+  ).trimEnd(),
+  '}',
+);
