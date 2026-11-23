@@ -1,1 +1,26 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodG9rZW4vRVJDNzIxL2V4dGVuc2lvbnMvRVJDNzIxQnVybmFibGUuc29sKQoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0VSQzcyMX0gZnJvbSAiLi4vRVJDNzIxLnNvbCI7CmltcG9ydCB7Q29udGV4dH0gZnJvbSAiLi4vLi4vLi4vdXRpbHMvQ29udGV4dC5zb2wiOwoKLyoqCiAqIEB0aXRsZSBFUkMtNzIxIEJ1cm5hYmxlIFRva2VuCiAqIEBkZXYgRVJDLTcyMSBUb2tlbiB0aGF0IGNhbiBiZSBidXJuZWQgKGRlc3Ryb3llZCkuCiAqLwphYnN0cmFjdCBjb250cmFjdCBFUkM3MjFCdXJuYWJsZSBpcyBDb250ZXh0LCBFUkM3MjEgewogICAgLyoqCiAgICAgKiBAZGV2IEJ1cm5zIGB0b2tlbklkYC4gU2VlIHtFUkM3MjEtX2J1cm59LgogICAgICoKICAgICAqIFJlcXVpcmVtZW50czoKICAgICAqCiAgICAgKiAtIFRoZSBjYWxsZXIgbXVzdCBvd24gYHRva2VuSWRgIG9yIGJlIGFuIGFwcHJvdmVkIG9wZXJhdG9yLgogICAgICovCiAgICBmdW5jdGlvbiBidXJuKHVpbnQyNTYgdG9rZW5JZCkgcHVibGljIHZpcnR1YWwgewogICAgICAgIC8vIFNldHRpbmcgYW4gImF1dGgiIGFyZ3VtZW50cyBlbmFibGVzIHRoZSBgX2lzQXV0aG9yaXplZGAgY2hlY2sgd2hpY2ggdmVyaWZpZXMgdGhhdCB0aGUgdG9rZW4gZXhpc3RzCiAgICAgICAgLy8gKGZyb20gIT0gMCkuIFRoZXJlZm9yZSwgaXQgaXMgbm90IG5lZWRlZCB0byB2ZXJpZnkgdGhhdCB0aGUgcmV0dXJuIHZhbHVlIGlzIG5vdCAwIGhlcmUuCiAgICAgICAgX3VwZGF0ZShhZGRyZXNzKDApLCB0b2tlbklkLCBfbXNnU2VuZGVyKCkpOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (token/ERC721/extensions/ERC721Burnable.sol)
+
+pragma solidity ^0.8.20;
+
+import {ERC721} from "../ERC721.sol";
+import {Context} from "../../../utils/Context.sol";
+
+/**
+ * @title ERC-721 Burnable Token
+ * @dev ERC-721 Token that can be burned (destroyed).
+ */
+abstract contract ERC721Burnable is Context, ERC721 {
+    /**
+     * @dev Burns `tokenId`. See {ERC721-_burn}.
+     *
+     * Requirements:
+     *
+     * - The caller must own `tokenId` or be an approved operator.
+     */
+    function burn(uint256 tokenId) public virtual {
+        // Setting an "auth" arguments enables the `_isAuthorized` check which verifies that the token exists
+        // (from != 0). Therefore, it is not needed to verify that the return value is not 0 here.
+        _update(address(0), tokenId, _msgSender());
+    }
+}
