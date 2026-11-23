@@ -1,1 +1,120 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgPj0wLjguMCA8MC45LjA7CgppbXBvcnQgIi4uL3NyYy9TdGRFcnJvci5zb2wiOwppbXBvcnQgIi4uL3NyYy9UZXN0LnNvbCI7Cgpjb250cmFjdCBTdGRFcnJvcnNUZXN0IGlzIFRlc3QgewogICAgRXJyb3JzVGVzdCB0ZXN0OwoKICAgIGZ1bmN0aW9uIHNldFVwKCkgcHVibGljIHsKICAgICAgICB0ZXN0ID0gbmV3IEVycm9yc1Rlc3QoKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X0V4cGVjdEFzc2VydGlvbigpIHB1YmxpYyB7CiAgICAgICAgdm0uZXhwZWN0UmV2ZXJ0KHN0ZEVycm9yLmFzc2VydGlvbkVycm9yKTsKICAgICAgICB0ZXN0LmFzc2VydGlvbkVycm9yKCk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9FeHBlY3RBcml0aG1ldGljKCkgcHVibGljIHsKICAgICAgICB2bS5leHBlY3RSZXZlcnQoc3RkRXJyb3IuYXJpdGhtZXRpY0Vycm9yKTsKICAgICAgICB0ZXN0LmFyaXRobWV0aWNFcnJvcigxMCk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9FeHBlY3REaXYoKSBwdWJsaWMgewogICAgICAgIHZtLmV4cGVjdFJldmVydChzdGRFcnJvci5kaXZpc2lvbkVycm9yKTsKICAgICAgICB0ZXN0LmRpdkVycm9yKDApOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfRXhwZWN0TW9kKCkgcHVibGljIHsKICAgICAgICB2bS5leHBlY3RSZXZlcnQoc3RkRXJyb3IuZGl2aXNpb25FcnJvcik7CiAgICAgICAgdGVzdC5tb2RFcnJvcigwKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X0V4cGVjdEVudW0oKSBwdWJsaWMgewogICAgICAgIHZtLmV4cGVjdFJldmVydChzdGRFcnJvci5lbnVtQ29udmVyc2lvbkVycm9yKTsKICAgICAgICB0ZXN0LmVudW1Db252ZXJzaW9uKDEpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfRXhwZWN0RW5jb2RlU3RnKCkgcHVibGljIHsKICAgICAgICB2bS5leHBlY3RSZXZlcnQoc3RkRXJyb3IuZW5jb2RlU3RvcmFnZUVycm9yKTsKICAgICAgICB0ZXN0LmVuY29kZVN0Z0Vycm9yKCk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9FeHBlY3RQb3AoKSBwdWJsaWMgewogICAgICAgIHZtLmV4cGVjdFJldmVydChzdGRFcnJvci5wb3BFcnJvcik7CiAgICAgICAgdGVzdC5wb3AoKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X0V4cGVjdE9PQigpIHB1YmxpYyB7CiAgICAgICAgdm0uZXhwZWN0UmV2ZXJ0KHN0ZEVycm9yLmluZGV4T09CRXJyb3IpOwogICAgICAgIHRlc3QuaW5kZXhPT0JFcnJvcigxKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X0V4cGVjdE1lbSgpIHB1YmxpYyB7CiAgICAgICAgdm0uZXhwZWN0UmV2ZXJ0KHN0ZEVycm9yLm1lbU92ZXJmbG93RXJyb3IpOwogICAgICAgIHRlc3QubWVtKCk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9FeHBlY3RJbnRlcm4oKSBwdWJsaWMgewogICAgICAgIHZtLmV4cGVjdFJldmVydChzdGRFcnJvci56ZXJvVmFyRXJyb3IpOwogICAgICAgIHRlc3QuaW50ZXJuKCk7CiAgICB9Cn0KCmNvbnRyYWN0IEVycm9yc1Rlc3QgewogICAgZW51bSBUIHsKICAgICAgICBUMQogICAgfQoKICAgIHVpbnQyNTZbXSBwdWJsaWMgc29tZUFycjsKICAgIGJ5dGVzIHNvbWVCeXRlczsKCiAgICBmdW5jdGlvbiBhc3NlcnRpb25FcnJvcigpIHB1YmxpYyBwdXJlIHsKICAgICAgICBhc3NlcnQoZmFsc2UpOwogICAgfQoKICAgIGZ1bmN0aW9uIGFyaXRobWV0aWNFcnJvcih1aW50MjU2IGEpIHB1YmxpYyBwdXJlIHsKICAgICAgICBhIC09IDEwMDsKICAgIH0KCiAgICBmdW5jdGlvbiBkaXZFcnJvcih1aW50MjU2IGEpIHB1YmxpYyBwdXJlIHsKICAgICAgICAxMDAgLyBhOwogICAgfQoKICAgIGZ1bmN0aW9uIG1vZEVycm9yKHVpbnQyNTYgYSkgcHVibGljIHB1cmUgewogICAgICAgIDEwMCAlIGE7CiAgICB9CgogICAgZnVuY3Rpb24gZW51bUNvbnZlcnNpb24odWludDI1NiBhKSBwdWJsaWMgcHVyZSB7CiAgICAgICAgVChhKTsKICAgIH0KCiAgICBmdW5jdGlvbiBlbmNvZGVTdGdFcnJvcigpIHB1YmxpYyB7CiAgICAgICAgLy8vIEBzb2xpZGl0eSBtZW1vcnktc2FmZS1hc3NlbWJseQogICAgICAgIGFzc2VtYmx5IHsKICAgICAgICAgICAgc3N0b3JlKHNvbWVCeXRlcy5zbG90LCAxKQogICAgICAgIH0KICAgICAgICBrZWNjYWsyNTYoc29tZUJ5dGVzKTsKICAgIH0KCiAgICBmdW5jdGlvbiBwb3AoKSBwdWJsaWMgewogICAgICAgIHNvbWVBcnIucG9wKCk7CiAgICB9CgogICAgZnVuY3Rpb24gaW5kZXhPT0JFcnJvcih1aW50MjU2IGEpIHB1YmxpYyBwdXJlIHsKICAgICAgICB1aW50MjU2W10gbWVtb3J5IHQgPSBuZXcgdWludDI1NltdKDApOwogICAgICAgIHRbYV07CiAgICB9CgogICAgZnVuY3Rpb24gbWVtKCkgcHVibGljIHB1cmUgewogICAgICAgIHVpbnQyNTYgbCA9IDIgKiogMjU2IC8gMzI7CiAgICAgICAgbmV3IHVpbnQyNTZbXShsKTsKICAgIH0KCiAgICBmdW5jdGlvbiBpbnRlcm4oKSBwdWJsaWMgcmV0dXJucyAodWludDI1NikgewogICAgICAgIGZ1bmN0aW9uKHVpbnQyNTYpIGludGVybmFsIHJldHVybnMgKHVpbnQyNTYpIHg7CiAgICAgICAgeCgyKTsKICAgICAgICByZXR1cm4gNzsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.8.0 <0.9.0;
+
+import "../src/StdError.sol";
+import "../src/Test.sol";
+
+contract StdErrorsTest is Test {
+    ErrorsTest test;
+
+    function setUp() public {
+        test = new ErrorsTest();
+    }
+
+    function test_ExpectAssertion() public {
+        vm.expectRevert(stdError.assertionError);
+        test.assertionError();
+    }
+
+    function test_ExpectArithmetic() public {
+        vm.expectRevert(stdError.arithmeticError);
+        test.arithmeticError(10);
+    }
+
+    function test_ExpectDiv() public {
+        vm.expectRevert(stdError.divisionError);
+        test.divError(0);
+    }
+
+    function test_ExpectMod() public {
+        vm.expectRevert(stdError.divisionError);
+        test.modError(0);
+    }
+
+    function test_ExpectEnum() public {
+        vm.expectRevert(stdError.enumConversionError);
+        test.enumConversion(1);
+    }
+
+    function test_ExpectEncodeStg() public {
+        vm.expectRevert(stdError.encodeStorageError);
+        test.encodeStgError();
+    }
+
+    function test_ExpectPop() public {
+        vm.expectRevert(stdError.popError);
+        test.pop();
+    }
+
+    function test_ExpectOOB() public {
+        vm.expectRevert(stdError.indexOOBError);
+        test.indexOOBError(1);
+    }
+
+    function test_ExpectMem() public {
+        vm.expectRevert(stdError.memOverflowError);
+        test.mem();
+    }
+
+    function test_ExpectIntern() public {
+        vm.expectRevert(stdError.zeroVarError);
+        test.intern();
+    }
+}
+
+contract ErrorsTest {
+    enum T {
+        T1
+    }
+
+    uint256[] public someArr;
+    bytes someBytes;
+
+    function assertionError() public pure {
+        assert(false);
+    }
+
+    function arithmeticError(uint256 a) public pure {
+        a -= 100;
+    }
+
+    function divError(uint256 a) public pure {
+        100 / a;
+    }
+
+    function modError(uint256 a) public pure {
+        100 % a;
+    }
+
+    function enumConversion(uint256 a) public pure {
+        T(a);
+    }
+
+    function encodeStgError() public {
+        /// @solidity memory-safe-assembly
+        assembly {
+            sstore(someBytes.slot, 1)
+        }
+        keccak256(someBytes);
+    }
+
+    function pop() public {
+        someArr.pop();
+    }
+
+    function indexOOBError(uint256 a) public pure {
+        uint256[] memory t = new uint256[](0);
+        t[a];
+    }
+
+    function mem() public pure {
+        uint256 l = 2 ** 256 / 32;
+        new uint256[](l);
+    }
+
+    function intern() public returns (uint256) {
+        function(uint256) internal returns (uint256) x;
+        x(2);
+        return 7;
+    }
+}
