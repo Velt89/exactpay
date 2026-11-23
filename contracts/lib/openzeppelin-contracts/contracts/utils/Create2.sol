@@ -1,1 +1,92 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodXRpbHMvQ3JlYXRlMi5zb2wpCgpwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7RXJyb3JzfSBmcm9tICIuL0Vycm9ycy5zb2wiOwoKLyoqCiAqIEBkZXYgSGVscGVyIHRvIG1ha2UgdXNhZ2Ugb2YgdGhlIGBDUkVBVEUyYCBFVk0gb3Bjb2RlIGVhc2llciBhbmQgc2FmZXIuCiAqIGBDUkVBVEUyYCBjYW4gYmUgdXNlZCB0byBjb21wdXRlIGluIGFkdmFuY2UgdGhlIGFkZHJlc3Mgd2hlcmUgYSBzbWFydAogKiBjb250cmFjdCB3aWxsIGJlIGRlcGxveWVkLCB3aGljaCBhbGxvd3MgZm9yIGludGVyZXN0aW5nIG5ldyBtZWNoYW5pc21zIGtub3duCiAqIGFzICdjb3VudGVyZmFjdHVhbCBpbnRlcmFjdGlvbnMnLgogKgogKiBTZWUgdGhlIGh0dHBzOi8vZWlwcy5ldGhlcmV1bS5vcmcvRUlQUy9laXAtMTAxNCNtb3RpdmF0aW9uW0VJUF0gZm9yIG1vcmUKICogaW5mb3JtYXRpb24uCiAqLwpsaWJyYXJ5IENyZWF0ZTIgewogICAgLyoqCiAgICAgKiBAZGV2IFRoZXJlJ3Mgbm8gY29kZSB0byBkZXBsb3kuCiAgICAgKi8KICAgIGVycm9yIENyZWF0ZTJFbXB0eUJ5dGVjb2RlKCk7CgogICAgLyoqCiAgICAgKiBAZGV2IERlcGxveXMgYSBjb250cmFjdCB1c2luZyBgQ1JFQVRFMmAuIFRoZSBhZGRyZXNzIHdoZXJlIHRoZSBjb250cmFjdAogICAgICogd2lsbCBiZSBkZXBsb3llZCBjYW4gYmUga25vd24gaW4gYWR2YW5jZSB2aWEge2NvbXB1dGVBZGRyZXNzfS4KICAgICAqCiAgICAgKiBUaGUgYnl0ZWNvZGUgZm9yIGEgY29udHJhY3QgY2FuIGJlIG9idGFpbmVkIGZyb20gU29saWRpdHkgd2l0aAogICAgICogYHR5cGUoY29udHJhY3ROYW1lKS5jcmVhdGlvbkNvZGVgLgogICAgICoKICAgICAqIFJlcXVpcmVtZW50czoKICAgICAqCiAgICAgKiAtIGBieXRlY29kZWAgbXVzdCBub3QgYmUgZW1wdHkuCiAgICAgKiAtIGBzYWx0YCBtdXN0IGhhdmUgbm90IGJlZW4gdXNlZCBmb3IgYGJ5dGVjb2RlYCBhbHJlYWR5LgogICAgICogLSB0aGUgZmFjdG9yeSBtdXN0IGhhdmUgYSBiYWxhbmNlIG9mIGF0IGxlYXN0IGBhbW91bnRgLgogICAgICogLSBpZiBgYW1vdW50YCBpcyBub24temVybywgYGJ5dGVjb2RlYCBtdXN0IGhhdmUgYSBgcGF5YWJsZWAgY29uc3RydWN0b3IuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGRlcGxveSh1aW50MjU2IGFtb3VudCwgYnl0ZXMzMiBzYWx0LCBieXRlcyBtZW1vcnkgYnl0ZWNvZGUpIGludGVybmFsIHJldHVybnMgKGFkZHJlc3MgYWRkcikgewogICAgICAgIGlmIChhZGRyZXNzKHRoaXMpLmJhbGFuY2UgPCBhbW91bnQpIHsKICAgICAgICAgICAgcmV2ZXJ0IEVycm9ycy5JbnN1ZmZpY2llbnRCYWxhbmNlKGFkZHJlc3ModGhpcykuYmFsYW5jZSwgYW1vdW50KTsKICAgICAgICB9CiAgICAgICAgaWYgKGJ5dGVjb2RlLmxlbmd0aCA9PSAwKSB7CiAgICAgICAgICAgIHJldmVydCBDcmVhdGUyRW1wdHlCeXRlY29kZSgpOwogICAgICAgIH0KICAgICAgICBhc3NlbWJseSAoIm1lbW9yeS1zYWZlIikgewogICAgICAgICAgICBhZGRyIDo9IGNyZWF0ZTIoYW1vdW50LCBhZGQoYnl0ZWNvZGUsIDB4MjApLCBtbG9hZChieXRlY29kZSksIHNhbHQpCiAgICAgICAgICAgIC8vIGlmIG5vIGFkZHJlc3Mgd2FzIGNyZWF0ZWQsIGFuZCByZXR1cm5kYXRhIGlzIG5vdCBlbXB0eSwgYnViYmxlIHJldmVydAogICAgICAgICAgICBpZiBhbmQoaXN6ZXJvKGFkZHIpLCBub3QoaXN6ZXJvKHJldHVybmRhdGFzaXplKCkpKSkgewogICAgICAgICAgICAgICAgbGV0IHAgOj0gbWxvYWQoMHg0MCkKICAgICAgICAgICAgICAgIHJldHVybmRhdGFjb3B5KHAsIDAsIHJldHVybmRhdGFzaXplKCkpCiAgICAgICAgICAgICAgICByZXZlcnQocCwgcmV0dXJuZGF0YXNpemUoKSkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBpZiAoYWRkciA9PSBhZGRyZXNzKDApKSB7CiAgICAgICAgICAgIHJldmVydCBFcnJvcnMuRmFpbGVkRGVwbG95bWVudCgpOwogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyB0aGUgYWRkcmVzcyB3aGVyZSBhIGNvbnRyYWN0IHdpbGwgYmUgc3RvcmVkIGlmIGRlcGxveWVkIHZpYSB7ZGVwbG95fS4gQW55IGNoYW5nZSBpbiB0aGUKICAgICAqIGBieXRlY29kZUhhc2hgIG9yIGBzYWx0YCB3aWxsIHJlc3VsdCBpbiBhIG5ldyBkZXN0aW5hdGlvbiBhZGRyZXNzLgogICAgICovCiAgICBmdW5jdGlvbiBjb21wdXRlQWRkcmVzcyhieXRlczMyIHNhbHQsIGJ5dGVzMzIgYnl0ZWNvZGVIYXNoKSBpbnRlcm5hbCB2aWV3IHJldHVybnMgKGFkZHJlc3MpIHsKICAgICAgICByZXR1cm4gY29tcHV0ZUFkZHJlc3Moc2FsdCwgYnl0ZWNvZGVIYXNoLCBhZGRyZXNzKHRoaXMpKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyB0aGUgYWRkcmVzcyB3aGVyZSBhIGNvbnRyYWN0IHdpbGwgYmUgc3RvcmVkIGlmIGRlcGxveWVkIHZpYSB7ZGVwbG95fSBmcm9tIGEgY29udHJhY3QgbG9jYXRlZCBhdAogICAgICogYGRlcGxveWVyYC4gSWYgYGRlcGxveWVyYCBpcyB0aGlzIGNvbnRyYWN0J3MgYWRkcmVzcywgcmV0dXJucyB0aGUgc2FtZSB2YWx1ZSBhcyB7Y29tcHV0ZUFkZHJlc3N9LgogICAgICovCiAgICBmdW5jdGlvbiBjb21wdXRlQWRkcmVzcyhieXRlczMyIHNhbHQsIGJ5dGVzMzIgYnl0ZWNvZGVIYXNoLCBhZGRyZXNzIGRlcGxveWVyKSBpbnRlcm5hbCBwdXJlIHJldHVybnMgKGFkZHJlc3MgYWRkcikgewogICAgICAgIGFzc2VtYmx5ICgibWVtb3J5LXNhZmUiKSB7CiAgICAgICAgICAgIGxldCBwdHIgOj0gbWxvYWQoMHg0MCkgLy8gR2V0IGZyZWUgbWVtb3J5IHBvaW50ZXIKCiAgICAgICAgICAgIC8vIHwgICAgICAgICAgICAgICAgICAgfCDihpMgcHRyIC4uLiAg4oaTIHB0ciArIDB4MEIgKHN0YXJ0KSAuLi4gIOKGkyBwdHIgKyAweDIwIC4uLiAg4oaTIHB0ciArIDB4NDAgLi4uICAgfAogICAgICAgICAgICAvLyB8LS0tLS0tLS0tLS0tLS0tLS0tLXwtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS18CiAgICAgICAgICAgIC8vIHwgYnl0ZWNvZGVIYXNoICAgICAgfCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQ0NDQ0NDQ0NDQ0NDQy4uLkNDIHwKICAgICAgICAgICAgLy8gfCBzYWx0ICAgICAgICAgICAgICB8ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBCQkJCQkJCQkJCQkJCLi4uQkIgICAgICAgICAgICAgICAgICAgfAogICAgICAgICAgICAvLyB8IGRlcGxveWVyICAgICAgICAgIHwgMDAwMDAwLi4uMDAwMEFBQUFBQUFBQUFBQUFBQUFBQUEuLi5BQSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CiAgICAgICAgICAgIC8vIHwgMHhGRiAgICAgICAgICAgICAgfCAgICAgICAgICAgIEZGICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKICAgICAgICAgICAgLy8gfC0tLS0tLS0tLS0tLS0tLS0tLS18LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tfAogICAgICAgICAgICAvLyB8IG1lbW9yeSAgICAgICAgICAgIHwgMDAwMDAwLi4uMDBGRkFBQUFBQUFBQUFBQUFBQUFBQUEuLi5BQUJCQkJCQkJCQkJCQkIuLi5CQkNDQ0NDQ0NDQ0NDQ0MuLi5DQyB8CiAgICAgICAgICAgIC8vIHwga2VjY2FrKHN0YXJ0LCA4NSkgfCAgICAgICAgICAgIOKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkeKGkSB8CgogICAgICAgICAgICBtc3RvcmUoYWRkKHB0ciwgMHg0MCksIGJ5dGVjb2RlSGFzaCkKICAgICAgICAgICAgbXN0b3JlKGFkZChwdHIsIDB4MjApLCBzYWx0KQogICAgICAgICAgICBtc3RvcmUocHRyLCBkZXBsb3llcikgLy8gUmlnaHQtYWxpZ25lZCB3aXRoIDEyIHByZWNlZGluZyBnYXJiYWdlIGJ5dGVzCiAgICAgICAgICAgIGxldCBzdGFydCA6PSBhZGQocHRyLCAweDBiKSAvLyBUaGUgaGFzaGVkIGRhdGEgc3RhcnRzIGF0IHRoZSBmaW5hbCBnYXJiYWdlIGJ5dGUgd2hpY2ggd2Ugd2lsbCBzZXQgdG8gMHhmZgogICAgICAgICAgICBtc3RvcmU4KHN0YXJ0LCAweGZmKQogICAgICAgICAgICBhZGRyIDo9IGFuZChrZWNjYWsyNTYoc3RhcnQsIDg1KSwgMHhmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmKQogICAgICAgIH0KICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (utils/Create2.sol)
+
+pragma solidity ^0.8.20;
+
+import {Errors} from "./Errors.sol";
+
+/**
+ * @dev Helper to make usage of the `CREATE2` EVM opcode easier and safer.
+ * `CREATE2` can be used to compute in advance the address where a smart
+ * contract will be deployed, which allows for interesting new mechanisms known
+ * as 'counterfactual interactions'.
+ *
+ * See the https://eips.ethereum.org/EIPS/eip-1014#motivation[EIP] for more
+ * information.
+ */
+library Create2 {
+    /**
+     * @dev There's no code to deploy.
+     */
+    error Create2EmptyBytecode();
+
+    /**
+     * @dev Deploys a contract using `CREATE2`. The address where the contract
+     * will be deployed can be known in advance via {computeAddress}.
+     *
+     * The bytecode for a contract can be obtained from Solidity with
+     * `type(contractName).creationCode`.
+     *
+     * Requirements:
+     *
+     * - `bytecode` must not be empty.
+     * - `salt` must have not been used for `bytecode` already.
+     * - the factory must have a balance of at least `amount`.
+     * - if `amount` is non-zero, `bytecode` must have a `payable` constructor.
+     */
+    function deploy(uint256 amount, bytes32 salt, bytes memory bytecode) internal returns (address addr) {
+        if (address(this).balance < amount) {
+            revert Errors.InsufficientBalance(address(this).balance, amount);
+        }
+        if (bytecode.length == 0) {
+            revert Create2EmptyBytecode();
+        }
+        assembly ("memory-safe") {
+            addr := create2(amount, add(bytecode, 0x20), mload(bytecode), salt)
+            // if no address was created, and returndata is not empty, bubble revert
+            if and(iszero(addr), not(iszero(returndatasize()))) {
+                let p := mload(0x40)
+                returndatacopy(p, 0, returndatasize())
+                revert(p, returndatasize())
+            }
+        }
+        if (addr == address(0)) {
+            revert Errors.FailedDeployment();
+        }
+    }
+
+    /**
+     * @dev Returns the address where a contract will be stored if deployed via {deploy}. Any change in the
+     * `bytecodeHash` or `salt` will result in a new destination address.
+     */
+    function computeAddress(bytes32 salt, bytes32 bytecodeHash) internal view returns (address) {
+        return computeAddress(salt, bytecodeHash, address(this));
+    }
+
+    /**
+     * @dev Returns the address where a contract will be stored if deployed via {deploy} from a contract located at
+     * `deployer`. If `deployer` is this contract's address, returns the same value as {computeAddress}.
+     */
+    function computeAddress(bytes32 salt, bytes32 bytecodeHash, address deployer) internal pure returns (address addr) {
+        assembly ("memory-safe") {
+            let ptr := mload(0x40) // Get free memory pointer
+
+            // |                   | ↓ ptr ...  ↓ ptr + 0x0B (start) ...  ↓ ptr + 0x20 ...  ↓ ptr + 0x40 ...   |
+            // |-------------------|---------------------------------------------------------------------------|
+            // | bytecodeHash      |                                                        CCCCCCCCCCCCC...CC |
+            // | salt              |                                      BBBBBBBBBBBBB...BB                   |
+            // | deployer          | 000000...0000AAAAAAAAAAAAAAAAAAA...AA                                     |
+            // | 0xFF              |            FF                                                             |
+            // |-------------------|---------------------------------------------------------------------------|
+            // | memory            | 000000...00FFAAAAAAAAAAAAAAAAAAA...AABBBBBBBBBBBBB...BBCCCCCCCCCCCCC...CC |
+            // | keccak(start, 85) |            ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ |
+
+            mstore(add(ptr, 0x40), bytecodeHash)
+            mstore(add(ptr, 0x20), salt)
+            mstore(ptr, deployer) // Right-aligned with 12 preceding garbage bytes
+            let start := add(ptr, 0x0b) // The hashed data starts at the final garbage byte which we will set to 0xff
+            mstore8(start, 0xff)
+            addr := and(keccak256(start, 85), 0xffffffffffffffffffffffffffffffffffffffff)
+        }
+    }
+}
