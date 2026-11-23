@@ -1,1 +1,36 @@
-bW9kdWxlLmV4cG9ydHMgPSB7CiAgLy8gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PSBBcnJheSBoZWxwZXJzID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KCiAgLy8gQ3V0IGFuIGFycmF5IGludG8gYW4gYXJyYXkgb2Ygc2l6ZWQtbGVuZ3RoIGFycmF5cwogIC8vIEV4YW1wbGU6IGNodW5rKFsxLDIsMyw0LDUsNiw3LDhdLCAzKSDihpIgW1sxLDIsM10sWzQsNSw2XSxbNyw4XV0KICBjaHVuazogKGFycmF5LCBzaXplID0gMSkgPT4KICAgIEFycmF5LmZyb20oeyBsZW5ndGg6IE1hdGguY2VpbChhcnJheS5sZW5ndGggLyBzaXplKSB9LCAoXywgaSkgPT4gYXJyYXkuc2xpY2UoaSAqIHNpemUsIGkgKiBzaXplICsgc2l6ZSkpLAoKICAvLyBDYXJ0ZXNpYW4gY3Jvc3MgcHJvZHVjdCBvZiBhbiBhcnJheSBvZiBhcnJheXMKICAvLyBFeGFtcGxlOiBwcm9kdWN0KFsxLDJdLFthLGIsY10sW3RydWVdKSDihpIgW1sxLGEsdHJ1ZV0sWzEsYix0cnVlXSxbMSxjLHRydWVdLFsyLGEsdHJ1ZV0sWzIsYix0cnVlXSxbMixjLHRydWVdXQogIHByb2R1Y3Q6ICguLi5hcnJheXMpID0+IGFycmF5cy5yZWR1Y2UoKGEsIGIpID0+IGEuZmxhdE1hcChhaSA9PiBiLm1hcChiaSA9PiBbLi4uYWksIGJpXSkpLCBbW11dKSwKCiAgLy8gUmFuZ2UgZnJvbSBzdGFydCB0byBlbmQgaW4gaW5jcmVtZW50CiAgLy8gRXhhbXBsZTogcmFuZ2UoMTcsNDIsNykg4oaSIFsxNywyNCwzMSwzOF0KICByYW5nZTogKHN0YXJ0LCBzdG9wID0gdW5kZWZpbmVkLCBzdGVwID0gMSkgPT4gewogICAgaWYgKHN0b3AgPT0gdW5kZWZpbmVkKSB7CiAgICAgIHN0b3AgPSBzdGFydDsKICAgICAgc3RhcnQgPSAwOwogICAgfQogICAgcmV0dXJuIHN0YXJ0IDwgc3RvcCA/IEFycmF5LmZyb20oeyBsZW5ndGg6IChzdG9wIC0gc3RhcnQgKyBzdGVwIC0gMSkgLyBzdGVwIH0sIChfLCBpKSA9PiBzdGFydCArIGkgKiBzdGVwKSA6IFtdOwogIH0sCgogIC8vIFVuaXF1ZSBlbGVtZW50cywgd2l0aCBhbiBvcHRpb25hbCBnZXR0ZXIgZnVuY3Rpb24KICAvLyBFeGFtcGxlOiB1bmlxdWUoWzEsMSwyLDMsNCw4LDEsMyw4LDEzLDQyXSkg4oaSIFsxLDIsMyw0LDgsMTMsNDJdCiAgdW5pcXVlOiAoYXJyYXksIG9wID0geCA9PiB4KSA9PiBhcnJheS5maWx0ZXIoKG9iaiwgaSkgPT4gYXJyYXkuZmluZEluZGV4KGVudHJ5ID0+IG9wKG9iaikgPT09IG9wKGVudHJ5KSkgPT09IGkpLAoKICAvLyBaaXAgYXJyYXlzIHRvZ2V0aGVyLiBJZiBzb21lIGFycmF5cyBhcmUgc21hbGxlciwgdW5kZWZpbmVkIGlzIHVzZWQgYXMgYSBmaWxsZXIuCiAgLy8gRXhhbXBsZTogemlwKFsxLDJdLFthLGIsY10sW3RydWVdKSDihpIgW1sxLGEsdHJ1ZV0sWzIsYix1bmRlZmluZWRdLFt1bmRlZmluZWQsYyx1bmRlZmluZWRdXQogIHppcDogKC4uLmFyZ3MpID0+IEFycmF5LmZyb20oeyBsZW5ndGg6IE1hdGgubWF4KC4uLmFyZ3MubWFwKGFyZyA9PiBhcmcubGVuZ3RoKSkgfSwgKF8sIGkpID0+IGFyZ3MubWFwKGFyZyA9PiBhcmdbaV0pKSwKCiAgLy8gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09IE9iamVjdCBoZWxwZXJzID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KCiAgLy8gQ3JlYXRlIGEgbmV3IG9iamVjdCBieSBtYXBwaW5nIHRoZSB2YWx1ZXMgdGhyb3VnaCBhIGZ1bmN0aW9uLCBrZWVwaW5nIHRoZSBrZXlzCiAgLy8gRXhhbXBsZTogbWFwVmFsdWVzKHthOjEsYjoyLGM6M30sIHggPT4geCoqMikg4oaSIHthOjEsYjo0LGM6OX0KICBtYXBWYWx1ZXM6IChvYmosIGZuKSA9PiBPYmplY3QuZnJvbUVudHJpZXMoT2JqZWN0LmVudHJpZXMob2JqKS5tYXAoKFtrLCB2XSkgPT4gW2ssIGZuKHYpXSkpLAp9Owo=
+module.exports = {
+  // ================================================= Array helpers =================================================
+
+  // Cut an array into an array of sized-length arrays
+  // Example: chunk([1,2,3,4,5,6,7,8], 3) → [[1,2,3],[4,5,6],[7,8]]
+  chunk: (array, size = 1) =>
+    Array.from({ length: Math.ceil(array.length / size) }, (_, i) => array.slice(i * size, i * size + size)),
+
+  // Cartesian cross product of an array of arrays
+  // Example: product([1,2],[a,b,c],[true]) → [[1,a,true],[1,b,true],[1,c,true],[2,a,true],[2,b,true],[2,c,true]]
+  product: (...arrays) => arrays.reduce((a, b) => a.flatMap(ai => b.map(bi => [...ai, bi])), [[]]),
+
+  // Range from start to end in increment
+  // Example: range(17,42,7) → [17,24,31,38]
+  range: (start, stop = undefined, step = 1) => {
+    if (stop == undefined) {
+      stop = start;
+      start = 0;
+    }
+    return start < stop ? Array.from({ length: (stop - start + step - 1) / step }, (_, i) => start + i * step) : [];
+  },
+
+  // Unique elements, with an optional getter function
+  // Example: unique([1,1,2,3,4,8,1,3,8,13,42]) → [1,2,3,4,8,13,42]
+  unique: (array, op = x => x) => array.filter((obj, i) => array.findIndex(entry => op(obj) === op(entry)) === i),
+
+  // Zip arrays together. If some arrays are smaller, undefined is used as a filler.
+  // Example: zip([1,2],[a,b,c],[true]) → [[1,a,true],[2,b,undefined],[undefined,c,undefined]]
+  zip: (...args) => Array.from({ length: Math.max(...args.map(arg => arg.length)) }, (_, i) => args.map(arg => arg[i])),
+
+  // ================================================ Object helpers =================================================
+
+  // Create a new object by mapping the values through a function, keeping the keys
+  // Example: mapValues({a:1,b:2,c:3}, x => x**2) → {a:1,b:4,c:9}
+  mapValues: (obj, fn) => Object.fromEntries(Object.entries(obj).map(([k, v]) => [k, fn(v)])),
+};
