@@ -1,1 +1,180 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKYXN5bmMgZnVuY3Rpb24gZml4dHVyZSgpIHsKICBjb25zdCBtb2NrID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCckU3RyaW5ncycpOwogIHJldHVybiB7IG1vY2sgfTsKfQoKZGVzY3JpYmUoJ1N0cmluZ3MnLCBmdW5jdGlvbiAoKSB7CiAgYmVmb3JlKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgIE9iamVjdC5hc3NpZ24odGhpcywgYXdhaXQgbG9hZEZpeHR1cmUoZml4dHVyZSkpOwogIH0pOwoKICBkZXNjcmliZSgndG9TdHJpbmcnLCBmdW5jdGlvbiAoKSB7CiAgICBjb25zdCB2YWx1ZXMgPSBbCiAgICAgIDBuLAogICAgICA3biwKICAgICAgMTBuLAogICAgICA5OW4sCiAgICAgIDEwMG4sCiAgICAgIDEwMW4sCiAgICAgIDEyM24sCiAgICAgIDQxMzJuLAogICAgICAxMjM0NW4sCiAgICAgIDEyMzQ1NjduLAogICAgICAxMjM0NTY3ODkwbiwKICAgICAgMTIzNDU2Nzg5MDEyMzQ1biwKICAgICAgMTIzNDU2Nzg5MDEyMzQ1Njc4OTBuLAogICAgICAxMjM0NTY3ODkwMTIzNDU2Nzg5MDEyMzQ1Njc4OTBuLAogICAgICAxMjM0NTY3ODkwMTIzNDU2Nzg5MDEyMzQ1Njc4OTAxMjM0NTY3ODkwbiwKICAgICAgMTIzNDU2Nzg5MDEyMzQ1Njc4OTAxMjM0NTY3ODkwMTIzNDU2Nzg5MDEyMzQ1Njc4OTBuLAogICAgICAxMjM0NTY3ODkwMTIzNDU2Nzg5MDEyMzQ1Njc4OTAxMjM0NTY3ODkwMTIzNDU2Nzg5MDEyMzQ1Njc4OTBuLAogICAgICAxMjM0NTY3ODkwMTIzNDU2Nzg5MDEyMzQ1Njc4OTAxMjM0NTY3ODkwMTIzNDU2Nzg5MDEyMzQ1Njc4OTAxMjM0NTY3ODkwbiwKICAgIF07CgogICAgZGVzY3JpYmUoJ3VpbnQyNTYnLCBmdW5jdGlvbiAoKSB7CiAgICAgIGl0KCdjb252ZXJ0cyBNQVhfVUlOVDI1NicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBjb25zdCB2YWx1ZSA9IGV0aGVycy5NYXhVaW50MjU2OwogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJHRvU3RyaW5nKHZhbHVlKSkudG8uZXF1YWwodmFsdWUudG9TdHJpbmcoMTApKTsKICAgICAgfSk7CgogICAgICBmb3IgKGNvbnN0IHZhbHVlIG9mIHZhbHVlcykgewogICAgICAgIGl0KGBjb252ZXJ0cyAke3ZhbHVlfWAsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJHRvU3RyaW5nKHZhbHVlKSkudG8uZXF1YWwodmFsdWUpOwogICAgICAgIH0pOwogICAgICB9CiAgICB9KTsKCiAgICBkZXNjcmliZSgnaW50MjU2JywgZnVuY3Rpb24gKCkgewogICAgICBpdCgnY29udmVydHMgTUFYX0lOVDI1NicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBjb25zdCB2YWx1ZSA9IGV0aGVycy5NYXhJbnQyNTY7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kdG9TdHJpbmdTaWduZWQodmFsdWUpKS50by5lcXVhbCh2YWx1ZS50b1N0cmluZygxMCkpOwogICAgICB9KTsKCiAgICAgIGl0KCdjb252ZXJ0cyBNSU5fSU5UMjU2JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGNvbnN0IHZhbHVlID0gZXRoZXJzLk1pbkludDI1NjsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiR0b1N0cmluZ1NpZ25lZCh2YWx1ZSkpLnRvLmVxdWFsKHZhbHVlLnRvU3RyaW5nKDEwKSk7CiAgICAgIH0pOwoKICAgICAgZm9yIChjb25zdCB2YWx1ZSBvZiB2YWx1ZXMpIHsKICAgICAgICBpdChgY29udmVydCAke3ZhbHVlfWAsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJHRvU3RyaW5nU2lnbmVkKHZhbHVlKSkudG8uZXF1YWwodmFsdWUpOwogICAgICAgIH0pOwoKICAgICAgICBpdChgY29udmVydCBuZWdhdGl2ZSAke3ZhbHVlfWAsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGNvbnN0IG5lZ2F0ZWQgPSAtdmFsdWU7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiR0b1N0cmluZ1NpZ25lZChuZWdhdGVkKSkudG8uZXF1YWwobmVnYXRlZC50b1N0cmluZygxMCkpOwogICAgICAgIH0pOwogICAgICB9CiAgICB9KTsKICB9KTsKCiAgZGVzY3JpYmUoJ3RvSGV4U3RyaW5nJywgZnVuY3Rpb24gKCkgewogICAgaXQoJ2NvbnZlcnRzIDAnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suZ2V0RnVuY3Rpb24oJyR0b0hleFN0cmluZyh1aW50MjU2KScpKDBuKSkudG8uZXF1YWwoJzB4MDAnKTsKICAgIH0pOwoKICAgIGl0KCdjb252ZXJ0cyBhIHBvc2l0aXZlIG51bWJlcicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay5nZXRGdW5jdGlvbignJHRvSGV4U3RyaW5nKHVpbnQyNTYpJykoMHg0MTMybikpLnRvLmVxdWFsKCcweDQxMzInKTsKICAgIH0pOwoKICAgIGl0KCdjb252ZXJ0cyBNQVhfVUlOVDI1NicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay5nZXRGdW5jdGlvbignJHRvSGV4U3RyaW5nKHVpbnQyNTYpJykoZXRoZXJzLk1heFVpbnQyNTYpKS50by5lcXVhbCgKICAgICAgICBgMHgke2V0aGVycy5NYXhVaW50MjU2LnRvU3RyaW5nKDE2KX1gLAogICAgICApOwogICAgfSk7CiAgfSk7CgogIGRlc2NyaWJlKCd0b0hleFN0cmluZyBmaXhlZCcsIGZ1bmN0aW9uICgpIHsKICAgIGl0KCdjb252ZXJ0cyBhIHBvc2l0aXZlIG51bWJlciAobG9uZyknLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suZ2V0RnVuY3Rpb24oJyR0b0hleFN0cmluZyh1aW50MjU2LHVpbnQyNTYpJykoMHg0MTMybiwgMzJuKSkudG8uZXF1YWwoCiAgICAgICAgJzB4MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwNDEzMicsCiAgICAgICk7CiAgICB9KTsKCiAgICBpdCgnY29udmVydHMgYSBwb3NpdGl2ZSBudW1iZXIgKHNob3J0KScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgY29uc3QgbGVuZ3RoID0gMW47CiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1vY2suZ2V0RnVuY3Rpb24oJyR0b0hleFN0cmluZyh1aW50MjU2LHVpbnQyNTYpJykoMHg0MTMybiwgbGVuZ3RoKSkKICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy5tb2NrLCBgU3RyaW5nc0luc3VmZmljaWVudEhleExlbmd0aGApCiAgICAgICAgLndpdGhBcmdzKDB4NDEzMiwgbGVuZ3RoKTsKICAgIH0pOwoKICAgIGl0KCdjb252ZXJ0cyBNQVhfVUlOVDI1NicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay5nZXRGdW5jdGlvbignJHRvSGV4U3RyaW5nKHVpbnQyNTYsdWludDI1NiknKShldGhlcnMuTWF4VWludDI1NiwgMzJuKSkudG8uZXF1YWwoCiAgICAgICAgYDB4JHtldGhlcnMuTWF4VWludDI1Ni50b1N0cmluZygxNil9YCwKICAgICAgKTsKICAgIH0pOwogIH0pOwoKICBkZXNjcmliZSgnYWRkcmVzc2VzJywgZnVuY3Rpb24gKCkgewogICAgY29uc3QgYWRkcmVzc2VzID0gWwogICAgICAnMHhhOTAzNjkwN2RjY2FlNmExZTAwMzM0NzliMTJlODM3ZTVjZjVhMDJmJywgLy8gUmFuZG9tIGFkZHJlc3MKICAgICAgJzB4MDAwMGUwY2E3NzFlMjFiZDAwMDU3ZjU0YTY4YzMwZDQwMDAwMDAwMCcsIC8vIExlYWRpbmcgYW5kIHRyYWlsaW5nIHplcm9zCiAgICAgIC8vIEVJUC01NSByZWZlcmVuY2UKICAgICAgJzB4NWFBZWI2MDUzRjNFOTRDOWI5QTA5ZjMzNjY5NDM1RTdFZjFCZUFlZCcsCiAgICAgICcweGZCNjkxNjA5NWNhMWRmNjBiQjc5Q2U5MmNFM0VhNzRjMzdjNWQzNTknLAogICAgICAnMHhkYkYwM0I0MDdjMDFFN2NEM0NCZWE5OTUwOWQ5M2Y4REREQzhDNkZCJywKICAgICAgJzB4RDEyMjBBMGNmNDdjN0I5QmU3QTJFNkJBODlGNDI5NzYyZTdiOWFEYicsCiAgICAgICcweGZiNjkxNjA5NWNhMWRmNjBiYjc5Y2U5MmNlM2VhNzRjMzdjNWQzNTknLAogICAgICAnMHg1MjkwODQwMDA5ODUyNzg4NkUwRjcwMzAwNjk4NTdEMkU0MTY5RUU3JywKICAgICAgJzB4ODYxN0UzNDBCM0QwMUZBNUYxMUYzMDZGNDA5MEZENTBFMjM4MDcwRCcsCiAgICAgICcweGRlNzA5ZjIxMDIzMDYyMjA5MjEwNjAzMTQ3MTU2MjkwODBlMmZiNzcnLAogICAgICAnMHgyN2IxZmRiMDQ3NTJiYmM1MzYwMDdhOTIwZDI0YWNiMDQ1NTYxYzI2JywKICAgICAgJzB4NWFhZWI2MDUzZjNlOTRjOWI5YTA5ZjMzNjY5NDM1ZTdlZjFiZWFlZCcsCiAgICAgICcweGZCNjkxNjA5NWNhMWRmNjBiQjc5Q2U5MmNFM0VhNzRjMzdjNWQzNTknLAogICAgICAnMHhkYkYwM0I0MDdjMDFFN2NEM0NCZWE5OTUwOWQ5M2Y4REREQzhDNkZCJywKICAgICAgJzB4RDEyMjBBMGNmNDdjN0I5QmU3QTJFNkJBODlGNDI5NzYyZTdiOWFEYicsCiAgICBdOwoKICAgIGRlc2NyaWJlKCd0b0hleFN0cmluZycsIGZ1bmN0aW9uICgpIHsKICAgICAgZm9yIChjb25zdCBhZGRyIG9mIGFkZHJlc3NlcykgewogICAgICAgIGl0KGBjb252ZXJ0cyAke2FkZHJ9YCwgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay5nZXRGdW5jdGlvbignJHRvSGV4U3RyaW5nKGFkZHJlc3MpJykoYWRkcikpLnRvLmVxdWFsKGFkZHIudG9Mb3dlckNhc2UoKSk7CiAgICAgICAgfSk7CiAgICAgIH0KICAgIH0pOwoKICAgIGRlc2NyaWJlKCd0b0NoZWNrc3VtSGV4U3RyaW5nJywgZnVuY3Rpb24gKCkgewogICAgICBmb3IgKGNvbnN0IGFkZHIgb2YgYWRkcmVzc2VzKSB7CiAgICAgICAgaXQoYGNvbnZlcnRzICR7YWRkcn1gLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLmdldEZ1bmN0aW9uKCckdG9DaGVja3N1bUhleFN0cmluZyhhZGRyZXNzKScpKGFkZHIpKS50by5lcXVhbCgKICAgICAgICAgICAgZXRoZXJzLmdldEFkZHJlc3MoYWRkci50b0xvd2VyQ2FzZSgpKSwKICAgICAgICAgICk7CiAgICAgICAgfSk7CiAgICAgIH0KICAgIH0pOwogIH0pOwoKICBkZXNjcmliZSgnZXF1YWwnLCBmdW5jdGlvbiAoKSB7CiAgICBpdCgnY29tcGFyZXMgdHdvIGVtcHR5IHN0cmluZ3MnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGVxdWFsKCcnLCAnJykpLnRvLmJlLnRydWU7CiAgICB9KTsKCiAgICBpdCgnY29tcGFyZXMgdHdvIGVxdWFsIHN0cmluZ3MnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGVxdWFsKCdhJywgJ2EnKSkudG8uYmUudHJ1ZTsKICAgIH0pOwoKICAgIGl0KCdjb21wYXJlcyB0d28gZGlmZmVyZW50IHN0cmluZ3MnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGVxdWFsKCdhJywgJ2InKSkudG8uYmUuZmFsc2U7CiAgICB9KTsKCiAgICBpdCgnY29tcGFyZXMgdHdvIGRpZmZlcmVudCBzdHJpbmdzIG9mIGRpZmZlcmVudCBsZW5ndGhzJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRlcXVhbCgnYScsICdhYScpKS50by5iZS5mYWxzZTsKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kZXF1YWwoJ2FhJywgJ2EnKSkudG8uYmUuZmFsc2U7CiAgICB9KTsKCiAgICBpdCgnY29tcGFyZXMgdHdvIGRpZmZlcmVudCBsYXJnZSBzdHJpbmdzJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCBzdHIxID0gJ2EnLnJlcGVhdCgyMDEpOwogICAgICBjb25zdCBzdHIyID0gJ2EnLnJlcGVhdCgyMDApICsgJ2InOwogICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRlcXVhbChzdHIxLCBzdHIyKSkudG8uYmUuZmFsc2U7CiAgICB9KTsKCiAgICBpdCgnY29tcGFyZXMgdHdvIGVxdWFsIGxhcmdlIHN0cmluZ3MnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGNvbnN0IHN0cjEgPSAnYScucmVwZWF0KDIwMSk7CiAgICAgIGNvbnN0IHN0cjIgPSAnYScucmVwZWF0KDIwMSk7CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGVxdWFsKHN0cjEsIHN0cjIpKS50by5iZS50cnVlOwogICAgfSk7CiAgfSk7Cn0pOwo=
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+async function fixture() {
+  const mock = await ethers.deployContract('$Strings');
+  return { mock };
+}
+
+describe('Strings', function () {
+  before(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  describe('toString', function () {
+    const values = [
+      0n,
+      7n,
+      10n,
+      99n,
+      100n,
+      101n,
+      123n,
+      4132n,
+      12345n,
+      1234567n,
+      1234567890n,
+      123456789012345n,
+      12345678901234567890n,
+      123456789012345678901234567890n,
+      1234567890123456789012345678901234567890n,
+      12345678901234567890123456789012345678901234567890n,
+      123456789012345678901234567890123456789012345678901234567890n,
+      1234567890123456789012345678901234567890123456789012345678901234567890n,
+    ];
+
+    describe('uint256', function () {
+      it('converts MAX_UINT256', async function () {
+        const value = ethers.MaxUint256;
+        expect(await this.mock.$toString(value)).to.equal(value.toString(10));
+      });
+
+      for (const value of values) {
+        it(`converts ${value}`, async function () {
+          expect(await this.mock.$toString(value)).to.equal(value);
+        });
+      }
+    });
+
+    describe('int256', function () {
+      it('converts MAX_INT256', async function () {
+        const value = ethers.MaxInt256;
+        expect(await this.mock.$toStringSigned(value)).to.equal(value.toString(10));
+      });
+
+      it('converts MIN_INT256', async function () {
+        const value = ethers.MinInt256;
+        expect(await this.mock.$toStringSigned(value)).to.equal(value.toString(10));
+      });
+
+      for (const value of values) {
+        it(`convert ${value}`, async function () {
+          expect(await this.mock.$toStringSigned(value)).to.equal(value);
+        });
+
+        it(`convert negative ${value}`, async function () {
+          const negated = -value;
+          expect(await this.mock.$toStringSigned(negated)).to.equal(negated.toString(10));
+        });
+      }
+    });
+  });
+
+  describe('toHexString', function () {
+    it('converts 0', async function () {
+      expect(await this.mock.getFunction('$toHexString(uint256)')(0n)).to.equal('0x00');
+    });
+
+    it('converts a positive number', async function () {
+      expect(await this.mock.getFunction('$toHexString(uint256)')(0x4132n)).to.equal('0x4132');
+    });
+
+    it('converts MAX_UINT256', async function () {
+      expect(await this.mock.getFunction('$toHexString(uint256)')(ethers.MaxUint256)).to.equal(
+        `0x${ethers.MaxUint256.toString(16)}`,
+      );
+    });
+  });
+
+  describe('toHexString fixed', function () {
+    it('converts a positive number (long)', async function () {
+      expect(await this.mock.getFunction('$toHexString(uint256,uint256)')(0x4132n, 32n)).to.equal(
+        '0x0000000000000000000000000000000000000000000000000000000000004132',
+      );
+    });
+
+    it('converts a positive number (short)', async function () {
+      const length = 1n;
+      await expect(this.mock.getFunction('$toHexString(uint256,uint256)')(0x4132n, length))
+        .to.be.revertedWithCustomError(this.mock, `StringsInsufficientHexLength`)
+        .withArgs(0x4132, length);
+    });
+
+    it('converts MAX_UINT256', async function () {
+      expect(await this.mock.getFunction('$toHexString(uint256,uint256)')(ethers.MaxUint256, 32n)).to.equal(
+        `0x${ethers.MaxUint256.toString(16)}`,
+      );
+    });
+  });
+
+  describe('addresses', function () {
+    const addresses = [
+      '0xa9036907dccae6a1e0033479b12e837e5cf5a02f', // Random address
+      '0x0000e0ca771e21bd00057f54a68c30d400000000', // Leading and trailing zeros
+      // EIP-55 reference
+      '0x5aAeb6053F3E94C9b9A09f33669435E7Ef1BeAed',
+      '0xfB6916095ca1df60bB79Ce92cE3Ea74c37c5d359',
+      '0xdbF03B407c01E7cD3CBea99509d93f8DDDC8C6FB',
+      '0xD1220A0cf47c7B9Be7A2E6BA89F429762e7b9aDb',
+      '0xfb6916095ca1df60bb79ce92ce3ea74c37c5d359',
+      '0x52908400098527886E0F7030069857D2E4169EE7',
+      '0x8617E340B3D01FA5F11F306F4090FD50E238070D',
+      '0xde709f2102306220921060314715629080e2fb77',
+      '0x27b1fdb04752bbc536007a920d24acb045561c26',
+      '0x5aaeb6053f3e94c9b9a09f33669435e7ef1beaed',
+      '0xfB6916095ca1df60bB79Ce92cE3Ea74c37c5d359',
+      '0xdbF03B407c01E7cD3CBea99509d93f8DDDC8C6FB',
+      '0xD1220A0cf47c7B9Be7A2E6BA89F429762e7b9aDb',
+    ];
+
+    describe('toHexString', function () {
+      for (const addr of addresses) {
+        it(`converts ${addr}`, async function () {
+          expect(await this.mock.getFunction('$toHexString(address)')(addr)).to.equal(addr.toLowerCase());
+        });
+      }
+    });
+
+    describe('toChecksumHexString', function () {
+      for (const addr of addresses) {
+        it(`converts ${addr}`, async function () {
+          expect(await this.mock.getFunction('$toChecksumHexString(address)')(addr)).to.equal(
+            ethers.getAddress(addr.toLowerCase()),
+          );
+        });
+      }
+    });
+  });
+
+  describe('equal', function () {
+    it('compares two empty strings', async function () {
+      expect(await this.mock.$equal('', '')).to.be.true;
+    });
+
+    it('compares two equal strings', async function () {
+      expect(await this.mock.$equal('a', 'a')).to.be.true;
+    });
+
+    it('compares two different strings', async function () {
+      expect(await this.mock.$equal('a', 'b')).to.be.false;
+    });
+
+    it('compares two different strings of different lengths', async function () {
+      expect(await this.mock.$equal('a', 'aa')).to.be.false;
+      expect(await this.mock.$equal('aa', 'a')).to.be.false;
+    });
+
+    it('compares two different large strings', async function () {
+      const str1 = 'a'.repeat(201);
+      const str2 = 'a'.repeat(200) + 'b';
+      expect(await this.mock.$equal(str1, str2)).to.be.false;
+    });
+
+    it('compares two equal large strings', async function () {
+      const str1 = 'a'.repeat(201);
+      const str2 = 'a'.repeat(201);
+      expect(await this.mock.$equal(str1, str2)).to.be.true;
+    });
+  });
+});
