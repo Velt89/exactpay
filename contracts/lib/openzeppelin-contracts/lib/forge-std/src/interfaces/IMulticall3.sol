@@ -1,1 +1,73 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgPj0wLjYuMiA8MC45LjA7CgpwcmFnbWEgZXhwZXJpbWVudGFsIEFCSUVuY29kZXJWMjsKCmludGVyZmFjZSBJTXVsdGljYWxsMyB7CiAgICBzdHJ1Y3QgQ2FsbCB7CiAgICAgICAgYWRkcmVzcyB0YXJnZXQ7CiAgICAgICAgYnl0ZXMgY2FsbERhdGE7CiAgICB9CgogICAgc3RydWN0IENhbGwzIHsKICAgICAgICBhZGRyZXNzIHRhcmdldDsKICAgICAgICBib29sIGFsbG93RmFpbHVyZTsKICAgICAgICBieXRlcyBjYWxsRGF0YTsKICAgIH0KCiAgICBzdHJ1Y3QgQ2FsbDNWYWx1ZSB7CiAgICAgICAgYWRkcmVzcyB0YXJnZXQ7CiAgICAgICAgYm9vbCBhbGxvd0ZhaWx1cmU7CiAgICAgICAgdWludDI1NiB2YWx1ZTsKICAgICAgICBieXRlcyBjYWxsRGF0YTsKICAgIH0KCiAgICBzdHJ1Y3QgUmVzdWx0IHsKICAgICAgICBib29sIHN1Y2Nlc3M7CiAgICAgICAgYnl0ZXMgcmV0dXJuRGF0YTsKICAgIH0KCiAgICBmdW5jdGlvbiBhZ2dyZWdhdGUoQ2FsbFtdIGNhbGxkYXRhIGNhbGxzKQogICAgICAgIGV4dGVybmFsCiAgICAgICAgcGF5YWJsZQogICAgICAgIHJldHVybnMgKHVpbnQyNTYgYmxvY2tOdW1iZXIsIGJ5dGVzW10gbWVtb3J5IHJldHVybkRhdGEpOwoKICAgIGZ1bmN0aW9uIGFnZ3JlZ2F0ZTMoQ2FsbDNbXSBjYWxsZGF0YSBjYWxscykgZXh0ZXJuYWwgcGF5YWJsZSByZXR1cm5zIChSZXN1bHRbXSBtZW1vcnkgcmV0dXJuRGF0YSk7CgogICAgZnVuY3Rpb24gYWdncmVnYXRlM1ZhbHVlKENhbGwzVmFsdWVbXSBjYWxsZGF0YSBjYWxscykgZXh0ZXJuYWwgcGF5YWJsZSByZXR1cm5zIChSZXN1bHRbXSBtZW1vcnkgcmV0dXJuRGF0YSk7CgogICAgZnVuY3Rpb24gYmxvY2tBbmRBZ2dyZWdhdGUoQ2FsbFtdIGNhbGxkYXRhIGNhbGxzKQogICAgICAgIGV4dGVybmFsCiAgICAgICAgcGF5YWJsZQogICAgICAgIHJldHVybnMgKHVpbnQyNTYgYmxvY2tOdW1iZXIsIGJ5dGVzMzIgYmxvY2tIYXNoLCBSZXN1bHRbXSBtZW1vcnkgcmV0dXJuRGF0YSk7CgogICAgZnVuY3Rpb24gZ2V0QmFzZWZlZSgpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAodWludDI1NiBiYXNlZmVlKTsKCiAgICBmdW5jdGlvbiBnZXRCbG9ja0hhc2godWludDI1NiBibG9ja051bWJlcikgZXh0ZXJuYWwgdmlldyByZXR1cm5zIChieXRlczMyIGJsb2NrSGFzaCk7CgogICAgZnVuY3Rpb24gZ2V0QmxvY2tOdW1iZXIoKSBleHRlcm5hbCB2aWV3IHJldHVybnMgKHVpbnQyNTYgYmxvY2tOdW1iZXIpOwoKICAgIGZ1bmN0aW9uIGdldENoYWluSWQoKSBleHRlcm5hbCB2aWV3IHJldHVybnMgKHVpbnQyNTYgY2hhaW5pZCk7CgogICAgZnVuY3Rpb24gZ2V0Q3VycmVudEJsb2NrQ29pbmJhc2UoKSBleHRlcm5hbCB2aWV3IHJldHVybnMgKGFkZHJlc3MgY29pbmJhc2UpOwoKICAgIGZ1bmN0aW9uIGdldEN1cnJlbnRCbG9ja0RpZmZpY3VsdHkoKSBleHRlcm5hbCB2aWV3IHJldHVybnMgKHVpbnQyNTYgZGlmZmljdWx0eSk7CgogICAgZnVuY3Rpb24gZ2V0Q3VycmVudEJsb2NrR2FzTGltaXQoKSBleHRlcm5hbCB2aWV3IHJldHVybnMgKHVpbnQyNTYgZ2FzbGltaXQpOwoKICAgIGZ1bmN0aW9uIGdldEN1cnJlbnRCbG9ja1RpbWVzdGFtcCgpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAodWludDI1NiB0aW1lc3RhbXApOwoKICAgIGZ1bmN0aW9uIGdldEV0aEJhbGFuY2UoYWRkcmVzcyBhZGRyKSBleHRlcm5hbCB2aWV3IHJldHVybnMgKHVpbnQyNTYgYmFsYW5jZSk7CgogICAgZnVuY3Rpb24gZ2V0TGFzdEJsb2NrSGFzaCgpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAoYnl0ZXMzMiBibG9ja0hhc2gpOwoKICAgIGZ1bmN0aW9uIHRyeUFnZ3JlZ2F0ZShib29sIHJlcXVpcmVTdWNjZXNzLCBDYWxsW10gY2FsbGRhdGEgY2FsbHMpCiAgICAgICAgZXh0ZXJuYWwKICAgICAgICBwYXlhYmxlCiAgICAgICAgcmV0dXJucyAoUmVzdWx0W10gbWVtb3J5IHJldHVybkRhdGEpOwoKICAgIGZ1bmN0aW9uIHRyeUJsb2NrQW5kQWdncmVnYXRlKGJvb2wgcmVxdWlyZVN1Y2Nlc3MsIENhbGxbXSBjYWxsZGF0YSBjYWxscykKICAgICAgICBleHRlcm5hbAogICAgICAgIHBheWFibGUKICAgICAgICByZXR1cm5zICh1aW50MjU2IGJsb2NrTnVtYmVyLCBieXRlczMyIGJsb2NrSGFzaCwgUmVzdWx0W10gbWVtb3J5IHJldHVybkRhdGEpOwp9Cg==
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.6.2 <0.9.0;
+
+pragma experimental ABIEncoderV2;
+
+interface IMulticall3 {
+    struct Call {
+        address target;
+        bytes callData;
+    }
+
+    struct Call3 {
+        address target;
+        bool allowFailure;
+        bytes callData;
+    }
+
+    struct Call3Value {
+        address target;
+        bool allowFailure;
+        uint256 value;
+        bytes callData;
+    }
+
+    struct Result {
+        bool success;
+        bytes returnData;
+    }
+
+    function aggregate(Call[] calldata calls)
+        external
+        payable
+        returns (uint256 blockNumber, bytes[] memory returnData);
+
+    function aggregate3(Call3[] calldata calls) external payable returns (Result[] memory returnData);
+
+    function aggregate3Value(Call3Value[] calldata calls) external payable returns (Result[] memory returnData);
+
+    function blockAndAggregate(Call[] calldata calls)
+        external
+        payable
+        returns (uint256 blockNumber, bytes32 blockHash, Result[] memory returnData);
+
+    function getBasefee() external view returns (uint256 basefee);
+
+    function getBlockHash(uint256 blockNumber) external view returns (bytes32 blockHash);
+
+    function getBlockNumber() external view returns (uint256 blockNumber);
+
+    function getChainId() external view returns (uint256 chainid);
+
+    function getCurrentBlockCoinbase() external view returns (address coinbase);
+
+    function getCurrentBlockDifficulty() external view returns (uint256 difficulty);
+
+    function getCurrentBlockGasLimit() external view returns (uint256 gaslimit);
+
+    function getCurrentBlockTimestamp() external view returns (uint256 timestamp);
+
+    function getEthBalance(address addr) external view returns (uint256 balance);
+
+    function getLastBlockHash() external view returns (bytes32 blockHash);
+
+    function tryAggregate(bool requireSuccess, Call[] calldata calls)
+        external
+        payable
+        returns (Result[] memory returnData);
+
+    function tryBlockAndAggregate(bool requireSuccess, Call[] calldata calls)
+        external
+        payable
+        returns (uint256 blockNumber, bytes32 blockHash, Result[] memory returnData);
+}
