@@ -1,1 +1,31 @@
-bmFtZTogU3luYyBSZWxlYXNlIEJyYW5jaAoKb246CiAgcmVsZWFzZToKICAgIHR5cGVzOgogICAgICAtIGNyZWF0ZWQKCmpvYnM6CiAgc3luYy1yZWxlYXNlLWJyYW5jaDoKICAgIHJ1bnMtb246IHVidW50dS1sYXRlc3QKICAgIGlmOiBzdGFydHNXaXRoKGdpdGh1Yi5ldmVudC5yZWxlYXNlLnRhZ19uYW1lLCAndjEnKQogICAgc3RlcHM6CiAgICAgIC0gbmFtZTogQ2hlY2sgb3V0IHRoZSByZXBvCiAgICAgICAgdXNlczogYWN0aW9ucy9jaGVja291dEB2NAogICAgICAgIHdpdGg6CiAgICAgICAgICBmZXRjaC1kZXB0aDogMAogICAgICAgICAgcmVmOiB2MQoKICAgICAgIyBUaGUgZW1haWwgaXMgZGVyaXZlZCBmcm9tIHRoZSBib3RzIHVzZXIgaWQsCiAgICAgICMgZm91bmQgaGVyZTogaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS91c2Vycy9naXRodWItYWN0aW9ucyU1QmJvdCU1RAogICAgICAtIG5hbWU6IENvbmZpZ3VyZSBHaXQKICAgICAgICBydW46IHwKICAgICAgICAgIGdpdCBjb25maWcgdXNlci5uYW1lIGdpdGh1Yi1hY3Rpb25zW2JvdF0KICAgICAgICAgIGdpdCBjb25maWcgdXNlci5lbWFpbCA0MTg5ODI4MitnaXRodWItYWN0aW9uc1tib3RdQHVzZXJzLm5vcmVwbHkuZ2l0aHViLmNvbQoKICAgICAgLSBuYW1lOiBTeW5jIFJlbGVhc2UgQnJhbmNoCiAgICAgICAgcnVuOiB8CiAgICAgICAgICBnaXQgZmV0Y2ggLS10YWdzCiAgICAgICAgICBnaXQgY2hlY2tvdXQgdjEKICAgICAgICAgIGdpdCByZXNldCAtLWhhcmQgJHtHSVRIVUJfUkVGfQogICAgICAgICAgZ2l0IHB1c2ggLS1mb3JjZQo=
+name: Sync Release Branch
+
+on:
+  release:
+    types:
+      - created
+
+jobs:
+  sync-release-branch:
+    runs-on: ubuntu-latest
+    if: startsWith(github.event.release.tag_name, 'v1')
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: v1
+
+      # The email is derived from the bots user id,
+      # found here: https://api.github.com/users/github-actions%5Bbot%5D
+      - name: Configure Git
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+
+      - name: Sync Release Branch
+        run: |
+          git fetch --tags
+          git checkout v1
+          git reset --hard ${GITHUB_REF}
+          git push --force
