@@ -1,1 +1,17 @@
-Y29uc3QgeyBjb2VyY2UsIGluYywgcnNvcnQgfSA9IHJlcXVpcmUoJ3NlbXZlcicpOwpjb25zdCB7IGpvaW4gfSA9IHJlcXVpcmUoJ3BhdGgnKTsKY29uc3QgeyB2ZXJzaW9uIH0gPSByZXF1aXJlKGpvaW4oX19kaXJuYW1lLCAnLi4vLi4vLi4vcGFja2FnZS5qc29uJykpOwoKbW9kdWxlLmV4cG9ydHMgPSBhc3luYyAoeyBjb3JlIH0pID0+IHsKICAvLyBWYXJpYWJsZXMgbm90IGluIHRoZSBjb250ZXh0CiAgY29uc3QgcmVmTmFtZSA9IHByb2Nlc3MuZW52LkdJVEhVQl9SRUZfTkFNRTsKCiAgLy8gQ29tcGFyZSBwYWNrYWdlLmpzb24gdmVyc2lvbidzIG5leHQgcGF0Y2ggdnMuIGZpcnN0IHZlcnNpb24gcGF0Y2gKICAvLyBBIHJlY2VudGx5IG9wZW5lZCBicmFuY2ggd2lsbCBnaXZlIHRoZSBuZXh0IHBhdGNoIGZvciB0aGUgcHJldmlvdXMgbWlub3IKICAvLyBTbywgd2UgZ2V0IHRoZSBtYXggYWdhaW5zdCB0aGUgcGF0Y2ggMCBvZiB0aGUgcmVsZWFzZSBicmFuY2gncyB2ZXJzaW9uCiAgY29uc3QgYnJhbmNoUGF0Y2gwID0gY29lcmNlKHJlZk5hbWUucmVwbGFjZSgncmVsZWFzZS12JywgJycpKS52ZXJzaW9uOwogIGNvbnN0IHBhY2thZ2VKc29uTmV4dFBhdGNoID0gaW5jKHZlcnNpb24sICdwYXRjaCcpOwogIGNvbnN0IFtuZXh0VmVyc2lvbl0gPSByc29ydChbYnJhbmNoUGF0Y2gwLCBwYWNrYWdlSnNvbk5leHRQYXRjaF0sIGZhbHNlKTsKCiAgY29yZS5leHBvcnRWYXJpYWJsZSgnVElUTEUnLCBgUmVsZWFzZSB2JHtuZXh0VmVyc2lvbn1gKTsKfTsK
+const { coerce, inc, rsort } = require('semver');
+const { join } = require('path');
+const { version } = require(join(__dirname, '../../../package.json'));
+
+module.exports = async ({ core }) => {
+  // Variables not in the context
+  const refName = process.env.GITHUB_REF_NAME;
+
+  // Compare package.json version's next patch vs. first version patch
+  // A recently opened branch will give the next patch for the previous minor
+  // So, we get the max against the patch 0 of the release branch's version
+  const branchPatch0 = coerce(refName.replace('release-v', '')).version;
+  const packageJsonNextPatch = inc(version, 'patch');
+  const [nextVersion] = rsort([branchPatch0, packageJsonNextPatch], false);
+
+  core.exportVariable('TITLE', `Release v${nextVersion}`);
+};
