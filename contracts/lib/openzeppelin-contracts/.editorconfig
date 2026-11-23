@@ -1,1 +1,21 @@
-IyBFZGl0b3JDb25maWcgaXMgYXdlc29tZTogaHR0cHM6Ly9FZGl0b3JDb25maWcub3JnCgojIHRvcC1tb3N0IEVkaXRvckNvbmZpZyBmaWxlCnJvb3QgPSB0cnVlCgpbKl0KY2hhcnNldCA9IHV0Zi04CmVuZF9vZl9saW5lID0gbGYKaW5kZW50X3N0eWxlID0gc3BhY2UKaW5zZXJ0X2ZpbmFsX25ld2xpbmUgPSB0cnVlCnRyaW1fdHJhaWxpbmdfd2hpdGVzcGFjZSA9IGZhbHNlCm1heF9saW5lX2xlbmd0aCA9IDEyMAoKWyouc29sXQppbmRlbnRfc2l6ZSA9IDQKClsqLmpzXQppbmRlbnRfc2l6ZSA9IDIKClsqLnthZG9jLG1kfV0KbWF4X2xpbmVfbGVuZ3RoID0gMAo=
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = false
+max_line_length = 120
+
+[*.sol]
+indent_size = 4
+
+[*.js]
+indent_size = 2
+
+[*.{adoc,md}]
+max_line_length = 0
