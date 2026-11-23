@@ -1,1 +1,24 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMC4wKSAodG9rZW4vRVJDNzIxL3V0aWxzL0VSQzcyMUhvbGRlci5zb2wpCgpwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7SUVSQzcyMVJlY2VpdmVyfSBmcm9tICIuLi9JRVJDNzIxUmVjZWl2ZXIuc29sIjsKCi8qKgogKiBAZGV2IEltcGxlbWVudGF0aW9uIG9mIHRoZSB7SUVSQzcyMVJlY2VpdmVyfSBpbnRlcmZhY2UuCiAqCiAqIEFjY2VwdHMgYWxsIHRva2VuIHRyYW5zZmVycy4KICogTWFrZSBzdXJlIHRoZSBjb250cmFjdCBpcyBhYmxlIHRvIHVzZSBpdHMgdG9rZW4gd2l0aCB7SUVSQzcyMS1zYWZlVHJhbnNmZXJGcm9tfSwge0lFUkM3MjEtYXBwcm92ZX0gb3IKICoge0lFUkM3MjEtc2V0QXBwcm92YWxGb3JBbGx9LgogKi8KYWJzdHJhY3QgY29udHJhY3QgRVJDNzIxSG9sZGVyIGlzIElFUkM3MjFSZWNlaXZlciB7CiAgICAvKioKICAgICAqIEBkZXYgU2VlIHtJRVJDNzIxUmVjZWl2ZXItb25FUkM3MjFSZWNlaXZlZH0uCiAgICAgKgogICAgICogQWx3YXlzIHJldHVybnMgYElFUkM3MjFSZWNlaXZlci5vbkVSQzcyMVJlY2VpdmVkLnNlbGVjdG9yYC4KICAgICAqLwogICAgZnVuY3Rpb24gb25FUkM3MjFSZWNlaXZlZChhZGRyZXNzLCBhZGRyZXNzLCB1aW50MjU2LCBieXRlcyBtZW1vcnkpIHB1YmxpYyB2aXJ0dWFsIHJldHVybnMgKGJ5dGVzNCkgewogICAgICAgIHJldHVybiB0aGlzLm9uRVJDNzIxUmVjZWl2ZWQuc2VsZWN0b3I7CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.0.0) (token/ERC721/utils/ERC721Holder.sol)
+
+pragma solidity ^0.8.20;
+
+import {IERC721Receiver} from "../IERC721Receiver.sol";
+
+/**
+ * @dev Implementation of the {IERC721Receiver} interface.
+ *
+ * Accepts all token transfers.
+ * Make sure the contract is able to use its token with {IERC721-safeTransferFrom}, {IERC721-approve} or
+ * {IERC721-setApprovalForAll}.
+ */
+abstract contract ERC721Holder is IERC721Receiver {
+    /**
+     * @dev See {IERC721Receiver-onERC721Received}.
+     *
+     * Always returns `IERC721Receiver.onERC721Received.selector`.
+     */
+    function onERC721Received(address, address, uint256, bytes memory) public virtual returns (bytes4) {
+        return this.onERC721Received.selector;
+    }
+}
