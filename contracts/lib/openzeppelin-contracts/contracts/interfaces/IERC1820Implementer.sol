@@ -1,1 +1,20 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAoaW50ZXJmYWNlcy9JRVJDMTgyMEltcGxlbWVudGVyLnNvbCkKCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKLyoqCiAqIEBkZXYgSW50ZXJmYWNlIGZvciBhbiBFUkMtMTgyMCBpbXBsZW1lbnRlciwgYXMgZGVmaW5lZCBpbiB0aGUKICogaHR0cHM6Ly9laXBzLmV0aGVyZXVtLm9yZy9FSVBTL2VpcC0xODIwI2ludGVyZmFjZS1pbXBsZW1lbnRhdGlvbi1lcmMxODIwaW1wbGVtZW50ZXJpbnRlcmZhY2VbRVJDXS4KICogVXNlZCBieSBjb250cmFjdHMgdGhhdCB3aWxsIGJlIHJlZ2lzdGVyZWQgYXMgaW1wbGVtZW50ZXJzIGluIHRoZQogKiB7SUVSQzE4MjBSZWdpc3RyeX0uCiAqLwppbnRlcmZhY2UgSUVSQzE4MjBJbXBsZW1lbnRlciB7CiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyBhIHNwZWNpYWwgdmFsdWUgKGBFUkMxODIwX0FDQ0VQVF9NQUdJQ2ApIGlmIHRoaXMgY29udHJhY3QKICAgICAqIGltcGxlbWVudHMgYGludGVyZmFjZUhhc2hgIGZvciBgYWNjb3VudGAuCiAgICAgKgogICAgICogU2VlIHtJRVJDMTgyMFJlZ2lzdHJ5LXNldEludGVyZmFjZUltcGxlbWVudGVyfS4KICAgICAqLwogICAgZnVuY3Rpb24gY2FuSW1wbGVtZW50SW50ZXJmYWNlRm9yQWRkcmVzcyhieXRlczMyIGludGVyZmFjZUhhc2gsIGFkZHJlc3MgYWNjb3VudCkgZXh0ZXJuYWwgdmlldyByZXR1cm5zIChieXRlczMyKTsKfQo=
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (interfaces/IERC1820Implementer.sol)
+
+pragma solidity ^0.8.20;
+
+/**
+ * @dev Interface for an ERC-1820 implementer, as defined in the
+ * https://eips.ethereum.org/EIPS/eip-1820#interface-implementation-erc1820implementerinterface[ERC].
+ * Used by contracts that will be registered as implementers in the
+ * {IERC1820Registry}.
+ */
+interface IERC1820Implementer {
+    /**
+     * @dev Returns a special value (`ERC1820_ACCEPT_MAGIC`) if this contract
+     * implements `interfaceHash` for `account`.
+     *
+     * See {IERC1820Registry-setInterfaceImplementer}.
+     */
+    function canImplementInterfaceForAddress(bytes32 interfaceHash, address account) external view returns (bytes32);
+}
