@@ -1,1 +1,41 @@
-IyEvdXNyL2Jpbi9lbnYgbm9kZQoKY29uc3QgcGF0aCA9IHJlcXVpcmUoJ3BhdGgnKTsKY29uc3QgZ2xvYiA9IHJlcXVpcmUoJ2dsb2InKTsKY29uc3Qgc3RhcnRDYXNlID0gcmVxdWlyZSgnbG9kYXNoLnN0YXJ0Y2FzZScpOwoKY29uc3QgYmFzZURpciA9IHByb2Nlc3MuYXJndlsyXTsKCmNvbnN0IGZpbGVzID0gZ2xvYi5zeW5jKGJhc2VEaXIgKyAnLyoqLyouYWRvYycpLm1hcChmID0+IHBhdGgucmVsYXRpdmUoYmFzZURpciwgZikpOwoKY29uc29sZS5sb2coJy5BUEknKTsKCmZ1bmN0aW9uIGdldFBhZ2VUaXRsZShkaXJlY3RvcnkpIHsKICBzd2l0Y2ggKGRpcmVjdG9yeSkgewogICAgY2FzZSAnbWV0YXR4JzoKICAgICAgcmV0dXJuICdNZXRhIFRyYW5zYWN0aW9ucyc7CiAgICBjYXNlICdjb21tb24nOgogICAgICByZXR1cm4gJ0NvbW1vbiAoVG9rZW5zKSc7CiAgICBkZWZhdWx0OgogICAgICByZXR1cm4gc3RhcnRDYXNlKGRpcmVjdG9yeSk7CiAgfQp9Cgpjb25zdCBsaW5rcyA9IGZpbGVzLm1hcChmaWxlID0+IHsKICBjb25zdCBkb2MgPSBmaWxlLnJlcGxhY2UoYmFzZURpciwgJycpOwogIGNvbnN0IHRpdGxlID0gcGF0aC5wYXJzZShmaWxlKS5uYW1lOwoKICByZXR1cm4gewogICAgeHJlZjogYCogeHJlZjoke2RvY31bJHtnZXRQYWdlVGl0bGUodGl0bGUpfV1gLAogICAgdGl0bGUsCiAgfTsKfSk7CgovLyBDYXNlLWluc2Vuc2l0aXZlIHNvcnQgYmFzZWQgb24gdGl0bGVzIChzbyAndG9rZW4vRVJDMjAnIGdldHMgc29ydGVkIGFzICdlcmMyMCcpCmNvbnN0IHNvcnRlZExpbmtzID0gbGlua3Muc29ydChmdW5jdGlvbiAoYSwgYikgewogIHJldHVybiBhLnRpdGxlLnRvTG93ZXJDYXNlKCkubG9jYWxlQ29tcGFyZShiLnRpdGxlLnRvTG93ZXJDYXNlKCksIHVuZGVmaW5lZCwgeyBudW1lcmljOiB0cnVlIH0pOwp9KTsKCmZvciAoY29uc3QgbGluayBvZiBzb3J0ZWRMaW5rcykgewogIGNvbnNvbGUubG9nKGxpbmsueHJlZik7Cn0K
+#!/usr/bin/env node
+
+const path = require('path');
+const glob = require('glob');
+const startCase = require('lodash.startcase');
+
+const baseDir = process.argv[2];
+
+const files = glob.sync(baseDir + '/**/*.adoc').map(f => path.relative(baseDir, f));
+
+console.log('.API');
+
+function getPageTitle(directory) {
+  switch (directory) {
+    case 'metatx':
+      return 'Meta Transactions';
+    case 'common':
+      return 'Common (Tokens)';
+    default:
+      return startCase(directory);
+  }
+}
+
+const links = files.map(file => {
+  const doc = file.replace(baseDir, '');
+  const title = path.parse(file).name;
+
+  return {
+    xref: `* xref:${doc}[${getPageTitle(title)}]`,
+    title,
+  };
+});
+
+// Case-insensitive sort based on titles (so 'token/ERC20' gets sorted as 'erc20')
+const sortedLinks = links.sort(function (a, b) {
+  return a.title.toLowerCase().localeCompare(b.title.toLowerCase(), undefined, { numeric: true });
+});
+
+for (const link of sortedLinks) {
+  console.log(link.xref);
+}
