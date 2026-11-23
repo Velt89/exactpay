@@ -1,1 +1,3 @@
-bWV0aG9kcyB7CiAgICBmdW5jdGlvbiBfLm9uRmxhc2hMb2FuKGFkZHJlc3MsYWRkcmVzcyx1aW50MjU2LHVpbnQyNTYsYnl0ZXMpIGV4dGVybmFsID0+IERJU1BBVENIRVIodHJ1ZSk7Cn0K
+methods {
+    function _.onFlashLoan(address,address,uint256,uint256,bytes) external => DISPATCHER(true);
+}
