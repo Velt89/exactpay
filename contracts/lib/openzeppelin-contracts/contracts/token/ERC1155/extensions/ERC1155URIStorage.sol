@@ -1,1 +1,61 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodG9rZW4vRVJDMTE1NS9leHRlbnNpb25zL0VSQzExNTVVUklTdG9yYWdlLnNvbCkKCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKaW1wb3J0IHtTdHJpbmdzfSBmcm9tICIuLi8uLi8uLi91dGlscy9TdHJpbmdzLnNvbCI7CmltcG9ydCB7RVJDMTE1NX0gZnJvbSAiLi4vRVJDMTE1NS5zb2wiOwoKLyoqCiAqIEBkZXYgRVJDLTExNTUgdG9rZW4gd2l0aCBzdG9yYWdlIGJhc2VkIHRva2VuIFVSSSBtYW5hZ2VtZW50LgogKiBJbnNwaXJlZCBieSB0aGUge0VSQzcyMVVSSVN0b3JhZ2V9IGV4dGVuc2lvbgogKi8KYWJzdHJhY3QgY29udHJhY3QgRVJDMTE1NVVSSVN0b3JhZ2UgaXMgRVJDMTE1NSB7CiAgICB1c2luZyBTdHJpbmdzIGZvciB1aW50MjU2OwoKICAgIC8vIE9wdGlvbmFsIGJhc2UgVVJJCiAgICBzdHJpbmcgcHJpdmF0ZSBfYmFzZVVSSSA9ICIiOwoKICAgIC8vIE9wdGlvbmFsIG1hcHBpbmcgZm9yIHRva2VuIFVSSXMKICAgIG1hcHBpbmcodWludDI1NiB0b2tlbklkID0+IHN0cmluZykgcHJpdmF0ZSBfdG9rZW5VUklzOwoKICAgIC8qKgogICAgICogQGRldiBTZWUge0lFUkMxMTU1TWV0YWRhdGFVUkktdXJpfS4KICAgICAqCiAgICAgKiBUaGlzIGltcGxlbWVudGF0aW9uIHJldHVybnMgdGhlIGNvbmNhdGVuYXRpb24gb2YgdGhlIGBfYmFzZVVSSWAKICAgICAqIGFuZCB0aGUgdG9rZW4tc3BlY2lmaWMgdXJpIGlmIHRoZSBsYXR0ZXIgaXMgc2V0CiAgICAgKgogICAgICogVGhpcyBlbmFibGVzIHRoZSBmb2xsb3dpbmcgYmVoYXZpb3JzOgogICAgICoKICAgICAqIC0gaWYgYF90b2tlblVSSXNbdG9rZW5JZF1gIGlzIHNldCwgdGhlbiB0aGUgcmVzdWx0IGlzIHRoZSBjb25jYXRlbmF0aW9uCiAgICAgKiAgIG9mIGBfYmFzZVVSSWAgYW5kIGBfdG9rZW5VUklzW3Rva2VuSWRdYCAoa2VlcCBpbiBtaW5kIHRoYXQgYF9iYXNlVVJJYAogICAgICogICBpcyBlbXB0eSBwZXIgZGVmYXVsdCk7CiAgICAgKgogICAgICogLSBpZiBgX3Rva2VuVVJJc1t0b2tlbklkXWAgaXMgTk9UIHNldCB0aGVuIHdlIGZhbGxiYWNrIHRvIGBzdXBlci51cmkoKWAKICAgICAqICAgd2hpY2ggaW4gbW9zdCBjYXNlcyB3aWxsIGNvbnRhaW4gYEVSQzExNTUuX3VyaWA7CiAgICAgKgogICAgICogLSBpZiBgX3Rva2VuVVJJc1t0b2tlbklkXWAgaXMgTk9UIHNldCwgYW5kIGlmIHRoZSBwYXJlbnRzIGRvIG5vdCBoYXZlIGEKICAgICAqICAgdXJpIHZhbHVlIHNldCwgdGhlbiB0aGUgcmVzdWx0IGlzIGVtcHR5LgogICAgICovCiAgICBmdW5jdGlvbiB1cmkodWludDI1NiB0b2tlbklkKSBwdWJsaWMgdmlldyB2aXJ0dWFsIG92ZXJyaWRlIHJldHVybnMgKHN0cmluZyBtZW1vcnkpIHsKICAgICAgICBzdHJpbmcgbWVtb3J5IHRva2VuVVJJID0gX3Rva2VuVVJJc1t0b2tlbklkXTsKCiAgICAgICAgLy8gSWYgdG9rZW4gVVJJIGlzIHNldCwgY29uY2F0ZW5hdGUgYmFzZSBVUkkgYW5kIHRva2VuVVJJICh2aWEgc3RyaW5nLmNvbmNhdCkuCiAgICAgICAgcmV0dXJuIGJ5dGVzKHRva2VuVVJJKS5sZW5ndGggPiAwID8gc3RyaW5nLmNvbmNhdChfYmFzZVVSSSwgdG9rZW5VUkkpIDogc3VwZXIudXJpKHRva2VuSWQpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBTZXRzIGB0b2tlblVSSWAgYXMgdGhlIHRva2VuVVJJIG9mIGB0b2tlbklkYC4KICAgICAqLwogICAgZnVuY3Rpb24gX3NldFVSSSh1aW50MjU2IHRva2VuSWQsIHN0cmluZyBtZW1vcnkgdG9rZW5VUkkpIGludGVybmFsIHZpcnR1YWwgewogICAgICAgIF90b2tlblVSSXNbdG9rZW5JZF0gPSB0b2tlblVSSTsKICAgICAgICBlbWl0IFVSSSh1cmkodG9rZW5JZCksIHRva2VuSWQpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBTZXRzIGBiYXNlVVJJYCBhcyB0aGUgYF9iYXNlVVJJYCBmb3IgYWxsIHRva2VucwogICAgICovCiAgICBmdW5jdGlvbiBfc2V0QmFzZVVSSShzdHJpbmcgbWVtb3J5IGJhc2VVUkkpIGludGVybmFsIHZpcnR1YWwgewogICAgICAgIF9iYXNlVVJJID0gYmFzZVVSSTsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (token/ERC1155/extensions/ERC1155URIStorage.sol)
+
+pragma solidity ^0.8.20;
+
+import {Strings} from "../../../utils/Strings.sol";
+import {ERC1155} from "../ERC1155.sol";
+
+/**
+ * @dev ERC-1155 token with storage based token URI management.
+ * Inspired by the {ERC721URIStorage} extension
+ */
+abstract contract ERC1155URIStorage is ERC1155 {
+    using Strings for uint256;
+
+    // Optional base URI
+    string private _baseURI = "";
+
+    // Optional mapping for token URIs
+    mapping(uint256 tokenId => string) private _tokenURIs;
+
+    /**
+     * @dev See {IERC1155MetadataURI-uri}.
+     *
+     * This implementation returns the concatenation of the `_baseURI`
+     * and the token-specific uri if the latter is set
+     *
+     * This enables the following behaviors:
+     *
+     * - if `_tokenURIs[tokenId]` is set, then the result is the concatenation
+     *   of `_baseURI` and `_tokenURIs[tokenId]` (keep in mind that `_baseURI`
+     *   is empty per default);
+     *
+     * - if `_tokenURIs[tokenId]` is NOT set then we fallback to `super.uri()`
+     *   which in most cases will contain `ERC1155._uri`;
+     *
+     * - if `_tokenURIs[tokenId]` is NOT set, and if the parents do not have a
+     *   uri value set, then the result is empty.
+     */
+    function uri(uint256 tokenId) public view virtual override returns (string memory) {
+        string memory tokenURI = _tokenURIs[tokenId];
+
+        // If token URI is set, concatenate base URI and tokenURI (via string.concat).
+        return bytes(tokenURI).length > 0 ? string.concat(_baseURI, tokenURI) : super.uri(tokenId);
+    }
+
+    /**
+     * @dev Sets `tokenURI` as the tokenURI of `tokenId`.
+     */
+    function _setURI(uint256 tokenId, string memory tokenURI) internal virtual {
+        _tokenURIs[tokenId] = tokenURI;
+        emit URI(uri(tokenId), tokenId);
+    }
+
+    /**
+     * @dev Sets `baseURI` as the `_baseURI` for all tokens
+     */
+    function _setBaseURI(string memory baseURI) internal virtual {
+        _baseURI = baseURI;
+    }
+}
