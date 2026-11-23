@@ -1,1 +1,123 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodXRpbHMvQmFzZTY0LnNvbCkKCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKLyoqCiAqIEBkZXYgUHJvdmlkZXMgYSBzZXQgb2YgZnVuY3Rpb25zIHRvIG9wZXJhdGUgd2l0aCBCYXNlNjQgc3RyaW5ncy4KICovCmxpYnJhcnkgQmFzZTY0IHsKICAgIC8qKgogICAgICogQGRldiBCYXNlNjQgRW5jb2RpbmcvRGVjb2RpbmcgVGFibGUKICAgICAqIFNlZSBzZWN0aW9ucyA0IGFuZCA1IG9mIGh0dHBzOi8vZGF0YXRyYWNrZXIuaWV0Zi5vcmcvZG9jL2h0bWwvcmZjNDY0OAogICAgICovCiAgICBzdHJpbmcgaW50ZXJuYWwgY29uc3RhbnQgX1RBQkxFID0gIkFCQ0RFRkdISUpLTE1OT1BRUlNUVVZXWFlaYWJjZGVmZ2hpamtsbW5vcHFyc3R1dnd4eXowMTIzNDU2Nzg5Ky8iOwogICAgc3RyaW5nIGludGVybmFsIGNvbnN0YW50IF9UQUJMRV9VUkwgPSAiQUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVphYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ejAxMjM0NTY3ODktXyI7CgogICAgLyoqCiAgICAgKiBAZGV2IENvbnZlcnRzIGEgYGJ5dGVzYCB0byBpdHMgQnl0ZXM2NCBgc3RyaW5nYCByZXByZXNlbnRhdGlvbi4KICAgICAqLwogICAgZnVuY3Rpb24gZW5jb2RlKGJ5dGVzIG1lbW9yeSBkYXRhKSBpbnRlcm5hbCBwdXJlIHJldHVybnMgKHN0cmluZyBtZW1vcnkpIHsKICAgICAgICByZXR1cm4gX2VuY29kZShkYXRhLCBfVEFCTEUsIHRydWUpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBDb252ZXJ0cyBhIGBieXRlc2AgdG8gaXRzIEJ5dGVzNjRVcmwgYHN0cmluZ2AgcmVwcmVzZW50YXRpb24uCiAgICAgKiBPdXRwdXQgaXMgbm90IHBhZGRlZCB3aXRoIGA9YCBhcyBzcGVjaWZpZWQgaW4gaHR0cHM6Ly93d3cucmZjLWVkaXRvci5vcmcvcmZjL3JmYzQ2NDhbcmZjNDY0OF0uCiAgICAgKi8KICAgIGZ1bmN0aW9uIGVuY29kZVVSTChieXRlcyBtZW1vcnkgZGF0YSkgaW50ZXJuYWwgcHVyZSByZXR1cm5zIChzdHJpbmcgbWVtb3J5KSB7CiAgICAgICAgcmV0dXJuIF9lbmNvZGUoZGF0YSwgX1RBQkxFX1VSTCwgZmFsc2UpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBJbnRlcm5hbCB0YWJsZS1hZ25vc3RpYyBjb252ZXJzaW9uCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9lbmNvZGUoYnl0ZXMgbWVtb3J5IGRhdGEsIHN0cmluZyBtZW1vcnkgdGFibGUsIGJvb2wgd2l0aFBhZGRpbmcpIHByaXZhdGUgcHVyZSByZXR1cm5zIChzdHJpbmcgbWVtb3J5KSB7CiAgICAgICAgLyoqCiAgICAgICAgICogSW5zcGlyZWQgYnkgQnJlY2h0IERldm9zIChCcmVjaHRwZCkgaW1wbGVtZW50YXRpb24gLSBNSVQgbGljZW5jZQogICAgICAgICAqIGh0dHBzOi8vZ2l0aHViLmNvbS9CcmVjaHRwZC9iYXNlNjQvYmxvYi9lNzhkOWZkOTUxZTdiMDk3N2RkY2E3N2Q5MmRjODUxODM3NzBkYWY0L2Jhc2U2NC5zb2wKICAgICAgICAgKi8KICAgICAgICBpZiAoZGF0YS5sZW5ndGggPT0gMCkgcmV0dXJuICIiOwoKICAgICAgICAvLyBJZiBwYWRkaW5nIGlzIGVuYWJsZWQsIHRoZSBmaW5hbCBsZW5ndGggc2hvdWxkIGJlIGBieXRlc2AgZGF0YSBsZW5ndGggZGl2aWRlZCBieSAzIHJvdW5kZWQgdXAgYW5kIHRoZW4KICAgICAgICAvLyBtdWx0aXBsaWVkIGJ5IDQgc28gdGhhdCBpdCBsZWF2ZXMgcm9vbSBmb3IgcGFkZGluZyB0aGUgbGFzdCBjaHVuawogICAgICAgIC8vIC0gYGRhdGEubGVuZ3RoICsgMmAgIC0+IFByZXBhcmUgZm9yIGRpdmlzaW9uIHJvdW5kaW5nIHVwCiAgICAgICAgLy8gLSBgLyAzYCAgICAgICAgICAgICAgLT4gTnVtYmVyIG9mIDMtYnl0ZXMgY2h1bmtzIChyb3VuZGVkIHVwKQogICAgICAgIC8vIC0gYDQgKmAgICAgICAgICAgICAgIC0+IDQgY2hhcmFjdGVycyBmb3IgZWFjaCBjaHVuawogICAgICAgIC8vIFRoaXMgaXMgZXF1aXZhbGVudCB0bzogNCAqIE1hdGguY2VpbChkYXRhLmxlbmd0aCAvIDMpCiAgICAgICAgLy8KICAgICAgICAvLyBJZiBwYWRkaW5nIGlzIGRpc2FibGVkLCB0aGUgZmluYWwgbGVuZ3RoIHNob3VsZCBiZSBgYnl0ZXNgIGRhdGEgbGVuZ3RoIG11bHRpcGxpZWQgYnkgNC8zIHJvdW5kZWQgdXAgYXMKICAgICAgICAvLyBvcHBvc2VkIHRvIHdoZW4gcGFkZGluZyBpcyByZXF1aXJlZCB0byBmaWxsIHRoZSBsYXN0IGNodW5rLgogICAgICAgIC8vIC0gYDQgKiBkYXRhLmxlbmd0aGAgIC0+IDQgY2hhcmFjdGVycyBmb3IgZWFjaCBjaHVuawogICAgICAgIC8vIC0gYCArIDJgICAgICAgICAgICAgIC0+IFByZXBhcmUgZm9yIGRpdmlzaW9uIHJvdW5kaW5nIHVwCiAgICAgICAgLy8gLSBgLyAzYCAgICAgICAgICAgICAgLT4gTnVtYmVyIG9mIDMtYnl0ZXMgY2h1bmtzIChyb3VuZGVkIHVwKQogICAgICAgIC8vIFRoaXMgaXMgZXF1aXZhbGVudCB0bzogTWF0aC5jZWlsKCg0ICogZGF0YS5sZW5ndGgpIC8gMykKICAgICAgICB1aW50MjU2IHJlc3VsdExlbmd0aCA9IHdpdGhQYWRkaW5nID8gNCAqICgoZGF0YS5sZW5ndGggKyAyKSAvIDMpIDogKDQgKiBkYXRhLmxlbmd0aCArIDIpIC8gMzsKCiAgICAgICAgc3RyaW5nIG1lbW9yeSByZXN1bHQgPSBuZXcgc3RyaW5nKHJlc3VsdExlbmd0aCk7CgogICAgICAgIGFzc2VtYmx5ICgibWVtb3J5LXNhZmUiKSB7CiAgICAgICAgICAgIC8vIFByZXBhcmUgdGhlIGxvb2t1cCB0YWJsZSAoc2tpcCB0aGUgZmlyc3QgImxlbmd0aCIgYnl0ZSkKICAgICAgICAgICAgbGV0IHRhYmxlUHRyIDo9IGFkZCh0YWJsZSwgMSkKCiAgICAgICAgICAgIC8vIFByZXBhcmUgcmVzdWx0IHBvaW50ZXIsIGp1bXAgb3ZlciBsZW5ndGgKICAgICAgICAgICAgbGV0IHJlc3VsdFB0ciA6PSBhZGQocmVzdWx0LCAweDIwKQogICAgICAgICAgICBsZXQgZGF0YVB0ciA6PSBkYXRhCiAgICAgICAgICAgIGxldCBlbmRQdHIgOj0gYWRkKGRhdGEsIG1sb2FkKGRhdGEpKQoKICAgICAgICAgICAgLy8gSW4gc29tZSBjYXNlcywgdGhlIGxhc3QgaXRlcmF0aW9uIHdpbGwgcmVhZCBieXRlcyBhZnRlciB0aGUgZW5kIG9mIHRoZSBkYXRhLiBXZSBjYWNoZSB0aGUgdmFsdWUsIGFuZAogICAgICAgICAgICAvLyBzZXQgaXQgdG8gemVybyB0byBtYWtlIHN1cmUgbm8gZGlydHkgYnl0ZXMgYXJlIHJlYWQgaW4gdGhhdCBzZWN0aW9uLgogICAgICAgICAgICBsZXQgYWZ0ZXJQdHIgOj0gYWRkKGVuZFB0ciwgMHgyMCkKICAgICAgICAgICAgbGV0IGFmdGVyQ2FjaGUgOj0gbWxvYWQoYWZ0ZXJQdHIpCiAgICAgICAgICAgIG1zdG9yZShhZnRlclB0ciwgMHgwMCkKCiAgICAgICAgICAgIC8vIFJ1biBvdmVyIHRoZSBpbnB1dCwgMyBieXRlcyBhdCBhIHRpbWUKICAgICAgICAgICAgZm9yIHsKCiAgICAgICAgICAgIH0gbHQoZGF0YVB0ciwgZW5kUHRyKSB7CgogICAgICAgICAgICB9IHsKICAgICAgICAgICAgICAgIC8vIEFkdmFuY2UgMyBieXRlcwogICAgICAgICAgICAgICAgZGF0YVB0ciA6PSBhZGQoZGF0YVB0ciwgMykKICAgICAgICAgICAgICAgIGxldCBpbnB1dCA6PSBtbG9hZChkYXRhUHRyKQoKICAgICAgICAgICAgICAgIC8vIFRvIHdyaXRlIGVhY2ggY2hhcmFjdGVyLCBzaGlmdCB0aGUgMyBieXRlICgyNCBiaXRzKSBjaHVuawogICAgICAgICAgICAgICAgLy8gNCB0aW1lcyBpbiBibG9ja3Mgb2YgNiBiaXRzIGZvciBlYWNoIGNoYXJhY3RlciAoMTgsIDEyLCA2LCAwKQogICAgICAgICAgICAgICAgLy8gYW5kIGFwcGx5IGxvZ2ljYWwgQU5EIHdpdGggMHgzRiB0byBiaXRtYXNrIHRoZSBsZWFzdCBzaWduaWZpY2FudCA2IGJpdHMuCiAgICAgICAgICAgICAgICAvLyBVc2UgdGhpcyBhcyBhbiBpbmRleCBpbnRvIHRoZSBsb29rdXAgdGFibGUsIG1sb2FkIGFuIGVudGlyZSB3b3JkCiAgICAgICAgICAgICAgICAvLyBzbyB0aGUgZGVzaXJlZCBjaGFyYWN0ZXIgaXMgaW4gdGhlIGxlYXN0IHNpZ25pZmljYW50IGJ5dGUsIGFuZAogICAgICAgICAgICAgICAgLy8gbXN0b3JlOCB0aGlzIGxlYXN0IHNpZ25pZmljYW50IGJ5dGUgaW50byB0aGUgcmVzdWx0IGFuZCBjb250aW51ZS4KCiAgICAgICAgICAgICAgICBtc3RvcmU4KHJlc3VsdFB0ciwgbWxvYWQoYWRkKHRhYmxlUHRyLCBhbmQoc2hyKDE4LCBpbnB1dCksIDB4M0YpKSkpCiAgICAgICAgICAgICAgICByZXN1bHRQdHIgOj0gYWRkKHJlc3VsdFB0ciwgMSkgLy8gQWR2YW5jZQoKICAgICAgICAgICAgICAgIG1zdG9yZTgocmVzdWx0UHRyLCBtbG9hZChhZGQodGFibGVQdHIsIGFuZChzaHIoMTIsIGlucHV0KSwgMHgzRikpKSkKICAgICAgICAgICAgICAgIHJlc3VsdFB0ciA6PSBhZGQocmVzdWx0UHRyLCAxKSAvLyBBZHZhbmNlCgogICAgICAgICAgICAgICAgbXN0b3JlOChyZXN1bHRQdHIsIG1sb2FkKGFkZCh0YWJsZVB0ciwgYW5kKHNocig2LCBpbnB1dCksIDB4M0YpKSkpCiAgICAgICAgICAgICAgICByZXN1bHRQdHIgOj0gYWRkKHJlc3VsdFB0ciwgMSkgLy8gQWR2YW5jZQoKICAgICAgICAgICAgICAgIG1zdG9yZTgocmVzdWx0UHRyLCBtbG9hZChhZGQodGFibGVQdHIsIGFuZChpbnB1dCwgMHgzRikpKSkKICAgICAgICAgICAgICAgIHJlc3VsdFB0ciA6PSBhZGQocmVzdWx0UHRyLCAxKSAvLyBBZHZhbmNlCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC8vIFJlc2V0IHRoZSB2YWx1ZSB0aGF0IHdhcyBjYWNoZWQKICAgICAgICAgICAgbXN0b3JlKGFmdGVyUHRyLCBhZnRlckNhY2hlKQoKICAgICAgICAgICAgaWYgd2l0aFBhZGRpbmcgewogICAgICAgICAgICAgICAgLy8gV2hlbiBkYXRhIGBieXRlc2AgaXMgbm90IGV4YWN0bHkgMyBieXRlcyBsb25nCiAgICAgICAgICAgICAgICAvLyBpdCBpcyBwYWRkZWQgd2l0aCBgPWAgY2hhcmFjdGVycyBhdCB0aGUgZW5kCiAgICAgICAgICAgICAgICBzd2l0Y2ggbW9kKG1sb2FkKGRhdGEpLCAzKQogICAgICAgICAgICAgICAgY2FzZSAxIHsKICAgICAgICAgICAgICAgICAgICBtc3RvcmU4KHN1YihyZXN1bHRQdHIsIDEpLCAweDNkKQogICAgICAgICAgICAgICAgICAgIG1zdG9yZTgoc3ViKHJlc3VsdFB0ciwgMiksIDB4M2QpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBjYXNlIDIgewogICAgICAgICAgICAgICAgICAgIG1zdG9yZTgoc3ViKHJlc3VsdFB0ciwgMSksIDB4M2QpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHJldHVybiByZXN1bHQ7CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (utils/Base64.sol)
+
+pragma solidity ^0.8.20;
+
+/**
+ * @dev Provides a set of functions to operate with Base64 strings.
+ */
+library Base64 {
+    /**
+     * @dev Base64 Encoding/Decoding Table
+     * See sections 4 and 5 of https://datatracker.ietf.org/doc/html/rfc4648
+     */
+    string internal constant _TABLE = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
+    string internal constant _TABLE_URL = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_";
+
+    /**
+     * @dev Converts a `bytes` to its Bytes64 `string` representation.
+     */
+    function encode(bytes memory data) internal pure returns (string memory) {
+        return _encode(data, _TABLE, true);
+    }
+
+    /**
+     * @dev Converts a `bytes` to its Bytes64Url `string` representation.
+     * Output is not padded with `=` as specified in https://www.rfc-editor.org/rfc/rfc4648[rfc4648].
+     */
+    function encodeURL(bytes memory data) internal pure returns (string memory) {
+        return _encode(data, _TABLE_URL, false);
+    }
+
+    /**
+     * @dev Internal table-agnostic conversion
+     */
+    function _encode(bytes memory data, string memory table, bool withPadding) private pure returns (string memory) {
+        /**
+         * Inspired by Brecht Devos (Brechtpd) implementation - MIT licence
+         * https://github.com/Brechtpd/base64/blob/e78d9fd951e7b0977ddca77d92dc85183770daf4/base64.sol
+         */
+        if (data.length == 0) return "";
+
+        // If padding is enabled, the final length should be `bytes` data length divided by 3 rounded up and then
+        // multiplied by 4 so that it leaves room for padding the last chunk
+        // - `data.length + 2`  -> Prepare for division rounding up
+        // - `/ 3`              -> Number of 3-bytes chunks (rounded up)
+        // - `4 *`              -> 4 characters for each chunk
+        // This is equivalent to: 4 * Math.ceil(data.length / 3)
+        //
+        // If padding is disabled, the final length should be `bytes` data length multiplied by 4/3 rounded up as
+        // opposed to when padding is required to fill the last chunk.
+        // - `4 * data.length`  -> 4 characters for each chunk
+        // - ` + 2`             -> Prepare for division rounding up
+        // - `/ 3`              -> Number of 3-bytes chunks (rounded up)
+        // This is equivalent to: Math.ceil((4 * data.length) / 3)
+        uint256 resultLength = withPadding ? 4 * ((data.length + 2) / 3) : (4 * data.length + 2) / 3;
+
+        string memory result = new string(resultLength);
+
+        assembly ("memory-safe") {
+            // Prepare the lookup table (skip the first "length" byte)
+            let tablePtr := add(table, 1)
+
+            // Prepare result pointer, jump over length
+            let resultPtr := add(result, 0x20)
+            let dataPtr := data
+            let endPtr := add(data, mload(data))
+
+            // In some cases, the last iteration will read bytes after the end of the data. We cache the value, and
+            // set it to zero to make sure no dirty bytes are read in that section.
+            let afterPtr := add(endPtr, 0x20)
+            let afterCache := mload(afterPtr)
+            mstore(afterPtr, 0x00)
+
+            // Run over the input, 3 bytes at a time
+            for {
+
+            } lt(dataPtr, endPtr) {
+
+            } {
+                // Advance 3 bytes
+                dataPtr := add(dataPtr, 3)
+                let input := mload(dataPtr)
+
+                // To write each character, shift the 3 byte (24 bits) chunk
+                // 4 times in blocks of 6 bits for each character (18, 12, 6, 0)
+                // and apply logical AND with 0x3F to bitmask the least significant 6 bits.
+                // Use this as an index into the lookup table, mload an entire word
+                // so the desired character is in the least significant byte, and
+                // mstore8 this least significant byte into the result and continue.
+
+                mstore8(resultPtr, mload(add(tablePtr, and(shr(18, input), 0x3F))))
+                resultPtr := add(resultPtr, 1) // Advance
+
+                mstore8(resultPtr, mload(add(tablePtr, and(shr(12, input), 0x3F))))
+                resultPtr := add(resultPtr, 1) // Advance
+
+                mstore8(resultPtr, mload(add(tablePtr, and(shr(6, input), 0x3F))))
+                resultPtr := add(resultPtr, 1) // Advance
+
+                mstore8(resultPtr, mload(add(tablePtr, and(input, 0x3F))))
+                resultPtr := add(resultPtr, 1) // Advance
+            }
+
+            // Reset the value that was cached
+            mstore(afterPtr, afterCache)
+
+            if withPadding {
+                // When data `bytes` is not exactly 3 bytes long
+                // it is padded with `=` characters at the end
+                switch mod(mload(data), 3)
+                case 1 {
+                    mstore8(sub(resultPtr, 1), 0x3d)
+                    mstore8(sub(resultPtr, 2), 0x3d)
+                }
+                case 2 {
+                    mstore8(sub(resultPtr, 1), 0x3d)
+                }
+            }
+        }
+
+        return result;
+    }
+}
