@@ -1,1 +1,83 @@
-aW1wb3J0IHsgcGFyc2VBYmksIHR5cGUgQWRkcmVzcyB9IGZyb20gInZpZW0iOwoKLyoqIHRVU0Q4IG9uIEFldnVtIHRlc3RuZXQ6IGEgVVNEQy1zdHlsZSB0b2tlbiAoRmlhdFRva2VuVjIpIHdpdGggNiBkZWNpbWFscywgRUlQLTI2MTIgYW5kIEVJUC0zMDA5LiAqLwpleHBvcnQgY29uc3QgVFVTRDhfQUREUkVTUzogQWRkcmVzcyA9ICIweDQ1NjU2OTgzOGYxZDQzMDA5QTkxZWJBNDI2MzE0N0FmZDcyMzM0ODMiOwpleHBvcnQgY29uc3QgVFVTRDhfREVDSU1BTFMgPSA2OwoKLyoqIEVJUC03MTIgZG9tYWluIG9mIHRVU0Q4LiBNb2NrVVNEOCAobG9jYWwpIHVzZXMgdGhlIHNhbWUgbmFtZSBhbmQgdmVyc2lvbi4gKi8KZXhwb3J0IGZ1bmN0aW9uIHR1c2Q4RG9tYWluKGNoYWluSWQ6IG51bWJlciwgdmVyaWZ5aW5nQ29udHJhY3Q6IEFkZHJlc3MpIHsKICByZXR1cm4geyBuYW1lOiAidFVTRDgiLCB2ZXJzaW9uOiAiMiIsIGNoYWluSWQsIHZlcmlmeWluZ0NvbnRyYWN0IH0gYXMgY29uc3Q7Cn0KCmV4cG9ydCBjb25zdCBlcmMyMEFiaSA9IHBhcnNlQWJpKFsKICAiZnVuY3Rpb24gbmFtZSgpIHZpZXcgcmV0dXJucyAoc3RyaW5nKSIsCiAgImZ1bmN0aW9uIHN5bWJvbCgpIHZpZXcgcmV0dXJucyAoc3RyaW5nKSIsCiAgImZ1bmN0aW9uIGRlY2ltYWxzKCkgdmlldyByZXR1cm5zICh1aW50OCkiLAogICJmdW5jdGlvbiBiYWxhbmNlT2YoYWRkcmVzcykgdmlldyByZXR1cm5zICh1aW50MjU2KSIsCiAgImZ1bmN0aW9uIGFsbG93YW5jZShhZGRyZXNzIG93bmVyLCBhZGRyZXNzIHNwZW5kZXIpIHZpZXcgcmV0dXJucyAodWludDI1NikiLAogICJmdW5jdGlvbiBhcHByb3ZlKGFkZHJlc3Mgc3BlbmRlciwgdWludDI1NiBhbW91bnQpIHJldHVybnMgKGJvb2wpIiwKICAiZnVuY3Rpb24gdHJhbnNmZXIoYWRkcmVzcyB0bywgdWludDI1NiBhbW91bnQpIHJldHVybnMgKGJvb2wpIiwKICAiZXZlbnQgVHJhbnNmZXIoYWRkcmVzcyBpbmRleGVkIGZyb20sIGFkZHJlc3MgaW5kZXhlZCB0bywgdWludDI1NiB2YWx1ZSkiLApdKTsKCmV4cG9ydCBjb25zdCBlaXAzMDA5QWJpID0gcGFyc2VBYmkoWwogICJmdW5jdGlvbiBhdXRob3JpemF0aW9uU3RhdGUoYWRkcmVzcyBhdXRob3JpemVyLCBieXRlczMyIG5vbmNlKSB2aWV3IHJldHVybnMgKGJvb2wpIiwKICAiZnVuY3Rpb24gdHJhbnNmZXJXaXRoQXV0aG9yaXphdGlvbihhZGRyZXNzIGZyb20sIGFkZHJlc3MgdG8sIHVpbnQyNTYgdmFsdWUsIHVpbnQyNTYgdmFsaWRBZnRlciwgdWludDI1NiB2YWxpZEJlZm9yZSwgYnl0ZXMzMiBub25jZSwgdWludDggdiwgYnl0ZXMzMiByLCBieXRlczMyIHMpIiwKICAiZnVuY3Rpb24gcmVjZWl2ZVdpdGhBdXRob3JpemF0aW9uKGFkZHJlc3MgZnJvbSwgYWRkcmVzcyB0bywgdWludDI1NiB2YWx1ZSwgdWludDI1NiB2YWxpZEFmdGVyLCB1aW50MjU2IHZhbGlkQmVmb3JlLCBieXRlczMyIG5vbmNlLCB1aW50OCB2LCBieXRlczMyIHIsIGJ5dGVzMzIgcykiLApdKTsKCi8qKiBBQkkgb2YgY29udHJhY3RzL3NyYy9JbnZvaWNlUGF5LnNvbC4gU3RhdHVzOiAwIE5vbmUsIDEgT3BlbiwgMiBQYWlkLCAzIENhbmNlbGxlZCwgNCBSZWZ1bmRlZC4gKi8KZXhwb3J0IGNvbnN0IGludm9pY2VQYXlBYmkgPSBwYXJzZUFiaShbCiAgImZ1bmN0aW9uIHRva2VuKCkgdmlldyByZXR1cm5zIChhZGRyZXNzKSIsCiAgImZ1bmN0aW9uIGNyZWF0ZUludm9pY2UoYnl0ZXMzMiBpbnZvaWNlSWQsIHVpbnQyNTYgYW1vdW50LCB1aW50NjQgZXhwaXJ5LCBhZGRyZXNzIGV4cGVjdGVkUGF5ZXIsIGJ5dGVzMzIgbWVtb0hhc2gpIiwKICAiZnVuY3Rpb24gcGF5KGJ5dGVzMzIgaW52b2ljZUlkKSIsCiAgImZ1bmN0aW9uIHBheVdpdGhBdXRob3JpemF0aW9uKGJ5dGVzMzIgaW52b2ljZUlkLCBhZGRyZXNzIGZyb20sIHVpbnQyNTYgdmFsaWRBZnRlciwgdWludDI1NiB2YWxpZEJlZm9yZSwgdWludDggdiwgYnl0ZXMzMiByLCBieXRlczMyIHMpIiwKICAiZnVuY3Rpb24gY2FuY2VsSW52b2ljZShieXRlczMyIGludm9pY2VJZCkiLAogICJmdW5jdGlvbiByZWZ1bmRJbnZvaWNlKGJ5dGVzMzIgaW52b2ljZUlkKSIsCiAgImZ1bmN0aW9uIGF1dGhvcml6YXRpb25Ob25jZShieXRlczMyIGludm9pY2VJZCkgdmlldyByZXR1cm5zIChieXRlczMyKSIsCiAgImZ1bmN0aW9uIGludm9pY2VJZEZvcihhZGRyZXNzIG1lcmNoYW50LCBieXRlczMyIHJlZikgcHVyZSByZXR1cm5zIChieXRlczMyKSIsCiAgImZ1bmN0aW9uIGludm9pY2VPZihieXRlczMyIGludm9pY2VJZCkgdmlldyByZXR1cm5zICgoYWRkcmVzcyBtZXJjaGFudCwgYWRkcmVzcyBleHBlY3RlZFBheWVyLCBhZGRyZXNzIHBhaWRCeSwgdWludDI1NiBhbW91bnQsIHVpbnQ2NCBleHBpcnksIHVpbnQ2NCBwYWlkQXQsIGJ5dGVzMzIgbWVtb0hhc2gsIHVpbnQ4IHN0YXR1cykpIiwKICAiZnVuY3Rpb24gaXNQYWlkKGJ5dGVzMzIgaW52b2ljZUlkKSB2aWV3IHJldHVybnMgKGJvb2wpIiwKICAiZXZlbnQgSW52b2ljZUNyZWF0ZWQoYnl0ZXMzMiBpbmRleGVkIGludm9pY2VJZCwgYWRkcmVzcyBpbmRleGVkIG1lcmNoYW50LCB1aW50MjU2IGFtb3VudCwgdWludDY0IGV4cGlyeSwgYWRkcmVzcyBleHBlY3RlZFBheWVyKSIsCiAgImV2ZW50IFBhaWQoYnl0ZXMzMiBpbmRleGVkIGludm9pY2VJZCwgYWRkcmVzcyBpbmRleGVkIHBheWVyLCB1aW50MjU2IGFtb3VudCkiLAogICJldmVudCBJbnZvaWNlQ2FuY2VsbGVkKGJ5dGVzMzIgaW5kZXhlZCBpbnZvaWNlSWQpIiwKICAiZXZlbnQgSW52b2ljZVJlZnVuZGVkKGJ5dGVzMzIgaW5kZXhlZCBpbnZvaWNlSWQsIGFkZHJlc3MgaW5kZXhlZCBwYXllciwgdWludDI1NiBhbW91bnQpIiwKICAiZXJyb3IgWmVyb0FkZHJlc3MoKSIsCiAgImVycm9yIFplcm9BbW91bnQoKSIsCiAgImVycm9yIEludm9pY2VFeGlzdHMoYnl0ZXMzMiBpbnZvaWNlSWQpIiwKICAiZXJyb3IgSW52b2ljZU5vdEZvdW5kKGJ5dGVzMzIgaW52b2ljZUlkKSIsCiAgImVycm9yIEludm9pY2VOb3RPcGVuKGJ5dGVzMzIgaW52b2ljZUlkKSIsCiAgImVycm9yIEludm9pY2VFeHBpcmVkKGJ5dGVzMzIgaW52b2ljZUlkKSIsCiAgImVycm9yIFdyb25nUGF5ZXIoYnl0ZXMzMiBpbnZvaWNlSWQsIGFkZHJlc3MgcGF5ZXIpIiwKICAiZXJyb3IgTm90TWVyY2hhbnQoYnl0ZXMzMiBpbnZvaWNlSWQsIGFkZHJlc3MgY2FsbGVyKSIsCiAgImVycm9yIEludm9pY2VOb3RQYWlkKGJ5dGVzMzIgaW52b2ljZUlkKSIsCl0pOwoKLyoqIEFCSSBvZiBjb250cmFjdHMvc3JjL1BheWVlRGlyZWN0b3J5LnNvbC4gKi8KZXhwb3J0IGNvbnN0IHBheWVlRGlyZWN0b3J5QWJpID0gcGFyc2VBYmkoWwogICJmdW5jdGlvbiByZWdpc3RlcihzdHJpbmcgbmFtZSkiLAogICJmdW5jdGlvbiByZWxlYXNlKCkiLAogICJmdW5jdGlvbiBuYW1lT2YoYWRkcmVzcyBhY2NvdW50KSB2aWV3IHJldHVybnMgKHN0cmluZykiLAogICJmdW5jdGlvbiBhZGRyZXNzT2Yoc3RyaW5nIG5hbWUpIHZpZXcgcmV0dXJucyAoYWRkcmVzcykiLAogICJldmVudCBQYXllZVJlZ2lzdGVyZWQoYWRkcmVzcyBpbmRleGVkIGFjY291bnQsIHN0cmluZyBuYW1lKSIsCiAgImV2ZW50IFBheWVlUmVsZWFzZWQoYWRkcmVzcyBpbmRleGVkIGFjY291bnQsIHN0cmluZyBuYW1lKSIsCiAgImVycm9yIE5hbWVUYWtlbihzdHJpbmcgbmFtZSkiLAogICJlcnJvciBBbHJlYWR5UmVnaXN0ZXJlZChhZGRyZXNzIGFjY291bnQpIiwKICAiZXJyb3IgTm90UmVnaXN0ZXJlZChhZGRyZXNzIGFjY291bnQpIiwKICAiZXJyb3IgRW1wdHlOYW1lKCkiLApdKTsKCi8qKiBBQkkgb2YgY29udHJhY3RzL3NyYy9DaGVja291dC5zb2wuICovCmV4cG9ydCBjb25zdCBjaGVja291dEFiaSA9IHBhcnNlQWJpKFsKICAiZnVuY3Rpb24gdG9rZW4oKSB2aWV3IHJldHVybnMgKGFkZHJlc3MpIiwKICAiZnVuY3Rpb24gbWVyY2hhbnQoKSB2aWV3IHJldHVybnMgKGFkZHJlc3MpIiwKICAiZnVuY3Rpb24gcGF5KGJ5dGVzMzIgb3JkZXJJZCwgdWludDI1NiBhbW91bnQpIiwKICAiZnVuY3Rpb24gcGF5V2l0aEF1dGhvcml6YXRpb24oYnl0ZXMzMiBvcmRlcklkLCBhZGRyZXNzIGZyb20sIHVpbnQyNTYgYW1vdW50LCB1aW50MjU2IHZhbGlkQWZ0ZXIsIHVpbnQyNTYgdmFsaWRCZWZvcmUsIHVpbnQ4IHYsIGJ5dGVzMzIgciwgYnl0ZXMzMiBzKSIsCiAgImZ1bmN0aW9uIGF1dGhvcml6YXRpb25Ob25jZShieXRlczMyIG9yZGVySWQpIHZpZXcgcmV0dXJucyAoYnl0ZXMzMikiLAogICJmdW5jdGlvbiBpc1BhaWQoYnl0ZXMzMiBvcmRlcklkKSB2aWV3IHJldHVybnMgKGJvb2wpIiwKICAiZnVuY3Rpb24gcGF5bWVudE9mKGJ5dGVzMzIgb3JkZXJJZCkgdmlldyByZXR1cm5zICgoYWRkcmVzcyBwYXllciwgdWludDY0IHBhaWRBdCwgdWludDI1NiBhbW91bnQpKSIsCiAgImV2ZW50IFBhaWQoYnl0ZXMzMiBpbmRleGVkIG9yZGVySWQsIGFkZHJlc3MgaW5kZXhlZCBwYXllciwgdWludDI1NiBhbW91bnQpIiwKICAiZXJyb3IgQWxyZWFkeVBhaWQoYnl0ZXMzMiBvcmRlcklkKSIsCiAgImVycm9yIFplcm9BbW91bnQoKSIsCiAgImVycm9yIFplcm9BZGRyZXNzKCkiLApdKTsK
+import { parseAbi, type Address } from "viem";
+
+/** tUSD8 on Aevum testnet: a USDC-style token (FiatTokenV2) with 6 decimals, EIP-2612 and EIP-3009. */
+export const TUSD8_ADDRESS: Address = "0x456569838f1d43009A91ebA4263147Afd7233483";
+export const TUSD8_DECIMALS = 6;
+
+/** EIP-712 domain of tUSD8. MockUSD8 (local) uses the same name and version. */
+export function tusd8Domain(chainId: number, verifyingContract: Address) {
+  return { name: "tUSD8", version: "2", chainId, verifyingContract } as const;
+}
+
+export const erc20Abi = parseAbi([
+  "function name() view returns (string)",
+  "function symbol() view returns (string)",
+  "function decimals() view returns (uint8)",
+  "function balanceOf(address) view returns (uint256)",
+  "function allowance(address owner, address spender) view returns (uint256)",
+  "function approve(address spender, uint256 amount) returns (bool)",
+  "function transfer(address to, uint256 amount) returns (bool)",
+  "event Transfer(address indexed from, address indexed to, uint256 value)",
+]);
+
+export const eip3009Abi = parseAbi([
+  "function authorizationState(address authorizer, bytes32 nonce) view returns (bool)",
+  "function transferWithAuthorization(address from, address to, uint256 value, uint256 validAfter, uint256 validBefore, bytes32 nonce, uint8 v, bytes32 r, bytes32 s)",
+  "function receiveWithAuthorization(address from, address to, uint256 value, uint256 validAfter, uint256 validBefore, bytes32 nonce, uint8 v, bytes32 r, bytes32 s)",
+]);
+
+/** ABI of contracts/src/InvoicePay.sol. Status: 0 None, 1 Open, 2 Paid, 3 Cancelled, 4 Refunded. */
+export const invoicePayAbi = parseAbi([
+  "function token() view returns (address)",
+  "function createInvoice(bytes32 invoiceId, uint256 amount, uint64 expiry, address expectedPayer, bytes32 memoHash)",
+  "function pay(bytes32 invoiceId)",
+  "function payWithAuthorization(bytes32 invoiceId, address from, uint256 validAfter, uint256 validBefore, uint8 v, bytes32 r, bytes32 s)",
+  "function cancelInvoice(bytes32 invoiceId)",
+  "function refundInvoice(bytes32 invoiceId)",
+  "function authorizationNonce(bytes32 invoiceId) view returns (bytes32)",
+  "function invoiceIdFor(address merchant, bytes32 ref) pure returns (bytes32)",
+  "function invoiceOf(bytes32 invoiceId) view returns ((address merchant, address expectedPayer, address paidBy, uint256 amount, uint64 expiry, uint64 paidAt, bytes32 memoHash, uint8 status))",
+  "function isPaid(bytes32 invoiceId) view returns (bool)",
+  "event InvoiceCreated(bytes32 indexed invoiceId, address indexed merchant, uint256 amount, uint64 expiry, address expectedPayer)",
+  "event Paid(bytes32 indexed invoiceId, address indexed payer, uint256 amount)",
+  "event InvoiceCancelled(bytes32 indexed invoiceId)",
+  "event InvoiceRefunded(bytes32 indexed invoiceId, address indexed payer, uint256 amount)",
+  "error ZeroAddress()",
+  "error ZeroAmount()",
+  "error InvoiceExists(bytes32 invoiceId)",
+  "error InvoiceNotFound(bytes32 invoiceId)",
+  "error InvoiceNotOpen(bytes32 invoiceId)",
+  "error InvoiceExpired(bytes32 invoiceId)",
+  "error WrongPayer(bytes32 invoiceId, address payer)",
+  "error NotMerchant(bytes32 invoiceId, address caller)",
+  "error InvoiceNotPaid(bytes32 invoiceId)",
+]);
+
+/** ABI of contracts/src/PayeeDirectory.sol. */
+export const payeeDirectoryAbi = parseAbi([
+  "function register(string name)",
+  "function release()",
+  "function nameOf(address account) view returns (string)",
+  "function addressOf(string name) view returns (address)",
+  "event PayeeRegistered(address indexed account, string name)",
+  "event PayeeReleased(address indexed account, string name)",
+  "error NameTaken(string name)",
+  "error AlreadyRegistered(address account)",
+  "error NotRegistered(address account)",
+  "error EmptyName()",
+]);
+
+/** ABI of contracts/src/Checkout.sol. */
+export const checkoutAbi = parseAbi([
+  "function token() view returns (address)",
+  "function merchant() view returns (address)",
+  "function pay(bytes32 orderId, uint256 amount)",
+  "function payWithAuthorization(bytes32 orderId, address from, uint256 amount, uint256 validAfter, uint256 validBefore, uint8 v, bytes32 r, bytes32 s)",
+  "function authorizationNonce(bytes32 orderId) view returns (bytes32)",
+  "function isPaid(bytes32 orderId) view returns (bool)",
+  "function paymentOf(bytes32 orderId) view returns ((address payer, uint64 paidAt, uint256 amount))",
+  "event Paid(bytes32 indexed orderId, address indexed payer, uint256 amount)",
+  "error AlreadyPaid(bytes32 orderId)",
+  "error ZeroAmount()",
+  "error ZeroAddress()",
+]);
