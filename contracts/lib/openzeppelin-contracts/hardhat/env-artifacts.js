@@ -1,1 +1,29 @@
-Y29uc3QgeyBIYXJkaGF0RXJyb3IgfSA9IHJlcXVpcmUoJ2hhcmRoYXQvaW50ZXJuYWwvY29yZS9lcnJvcnMnKTsKCmZ1bmN0aW9uIGlzRXhwZWN0ZWRFcnJvcihlLCBzdWZmaXgpIHsKICAvLyBISDcwMDogQXJ0aWZhY3Qgbm90IGZvdW5kIC0gZnJvbSBodHRwczovL2hhcmRoYXQub3JnL2hhcmRoYXQtcnVubmVyL2RvY3MvZXJyb3JzI0hINzAwCiAgcmV0dXJuIEhhcmRoYXRFcnJvci5pc0hhcmRoYXRFcnJvcihlKSAmJiBlLm51bWJlciA9PT0gNzAwICYmIHN1ZmZpeCAhPT0gJyc7Cn0KCi8vIE1vZGlmaWVzIHRoZSBhcnRpZmFjdCByZXF1aXJlIGZ1bmN0aW9ucyBzbyB0aGF0IGluc3RlYWQgb2YgWCBpdCBsb2FkcyB0aGUgWFVwZ3JhZGVhYmxlIGNvbnRyYWN0LgovLyBUaGlzIGFsbG93cyB1cyB0byBydW4gdGhlIHNhbWUgdGVzdCBzdWl0ZSBvbiBib3RoIHRoZSBvcmlnaW5hbCBhbmQgdGhlIHRyYW5zcGlsZWQgYW5kIHJlbmFtZWQgVXBncmFkZWFibGUgY29udHJhY3RzLgpleHRlbmRFbnZpcm9ubWVudChocmUgPT4gewogIGNvbnN0IHN1ZmZpeGVzID0gWydVcGdyYWRlYWJsZVdpdGhJbml0JywgJ1VwZ3JhZGVhYmxlJywgJyddOwoKICAvLyBFdGhlcnMKICBjb25zdCBvcmlnaW5hbFJlYWRBcnRpZmFjdCA9IGhyZS5hcnRpZmFjdHMucmVhZEFydGlmYWN0OwogIGhyZS5hcnRpZmFjdHMucmVhZEFydGlmYWN0ID0gYXN5bmMgZnVuY3Rpb24gKG5hbWUpIHsKICAgIGZvciAoY29uc3Qgc3VmZml4IG9mIHN1ZmZpeGVzKSB7CiAgICAgIHRyeSB7CiAgICAgICAgcmV0dXJuIGF3YWl0IG9yaWdpbmFsUmVhZEFydGlmYWN0LmNhbGwodGhpcywgbmFtZSArIHN1ZmZpeCk7CiAgICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgICBpZiAoaXNFeHBlY3RlZEVycm9yKGUsIHN1ZmZpeCkpIHsKICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICB0aHJvdyBlOwogICAgICAgIH0KICAgICAgfQogICAgfQogICAgdGhyb3cgbmV3IEVycm9yKCdVbnJlYWNoYWJsZScpOwogIH07Cn0pOwo=
+const { HardhatError } = require('hardhat/internal/core/errors');
+
+function isExpectedError(e, suffix) {
+  // HH700: Artifact not found - from https://hardhat.org/hardhat-runner/docs/errors#HH700
+  return HardhatError.isHardhatError(e) && e.number === 700 && suffix !== '';
+}
+
+// Modifies the artifact require functions so that instead of X it loads the XUpgradeable contract.
+// This allows us to run the same test suite on both the original and the transpiled and renamed Upgradeable contracts.
+extendEnvironment(hre => {
+  const suffixes = ['UpgradeableWithInit', 'Upgradeable', ''];
+
+  // Ethers
+  const originalReadArtifact = hre.artifacts.readArtifact;
+  hre.artifacts.readArtifact = async function (name) {
+    for (const suffix of suffixes) {
+      try {
+        return await originalReadArtifact.call(this, name + suffix);
+      } catch (e) {
+        if (isExpectedError(e, suffix)) {
+          continue;
+        } else {
+          throw e;
+        }
+      }
+    }
+    throw new Error('Unreachable');
+  };
+});
