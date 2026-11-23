@@ -1,1 +1,17 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMC4wKSAoaW50ZXJmYWNlcy9JRVJDNjM3Mi5zb2wpCgpwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmludGVyZmFjZSBJRVJDNjM3MiB7CiAgICAvKioKICAgICAqIEBkZXYgQ2xvY2sgdXNlZCBmb3IgZmxhZ2dpbmcgY2hlY2twb2ludHMuIENhbiBiZSBvdmVycmlkZGVuIHRvIGltcGxlbWVudCB0aW1lc3RhbXAgYmFzZWQgY2hlY2twb2ludHMgKGFuZCB2b3RpbmcpLgogICAgICovCiAgICBmdW5jdGlvbiBjbG9jaygpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAodWludDQ4KTsKCiAgICAvKioKICAgICAqIEBkZXYgRGVzY3JpcHRpb24gb2YgdGhlIGNsb2NrCiAgICAgKi8KICAgIC8vIHNvbGhpbnQtZGlzYWJsZS1uZXh0LWxpbmUgZnVuYy1uYW1lLW1peGVkY2FzZQogICAgZnVuY3Rpb24gQ0xPQ0tfTU9ERSgpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAoc3RyaW5nIG1lbW9yeSk7Cn0K
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.0.0) (interfaces/IERC6372.sol)
+
+pragma solidity ^0.8.20;
+
+interface IERC6372 {
+    /**
+     * @dev Clock used for flagging checkpoints. Can be overridden to implement timestamp based checkpoints (and voting).
+     */
+    function clock() external view returns (uint48);
+
+    /**
+     * @dev Description of the clock
+     */
+    // solhint-disable-next-line func-name-mixedcase
+    function CLOCK_MODE() external view returns (string memory);
+}
