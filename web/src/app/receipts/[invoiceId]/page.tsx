@@ -1,1 +1,197 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgYWRkcmVzc1VybCwgZ2V0TG9nc0NodW5rZWQsIGludm9pY2VQYXlBYmksIHR4VXJsIH0gZnJvbSAiQGFldnVtLWtpdC9hZXZ1bSI7CmltcG9ydCB7IHVzZVF1ZXJ5IH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXF1ZXJ5IjsKaW1wb3J0IExpbmsgZnJvbSAibmV4dC9saW5rIjsKaW1wb3J0IHsgdXNlUGFyYW1zLCB1c2VTZWFyY2hQYXJhbXMgfSBmcm9tICJuZXh0L25hdmlnYXRpb24iOwppbXBvcnQgeyBmb3JtYXRVbml0cywgZ2V0QWJpSXRlbSwgaXNIYXNoLCBpc0hleCwgdHlwZSBIZXgsIHR5cGUgUHVibGljQ2xpZW50IH0gZnJvbSAidmllbSI7CmltcG9ydCB7IHVzZVB1YmxpY0NsaWVudCwgdXNlUmVhZENvbnRyYWN0LCB1c2VUcmFuc2FjdGlvblJlY2VpcHQgfSBmcm9tICJ3YWdtaSI7CmltcG9ydCB7IHVzZVRva2VuIH0gZnJvbSAiQC9jb21wb25lbnRzL3VzZVRva2VuIjsKaW1wb3J0IHsgbmV0d29ya0J5Q2hhaW5JZCB9IGZyb20gIkAvbGliL2VudiI7CmltcG9ydCB7IHVzZU5ldHdvcmsgfSBmcm9tICJAL2xpYi9uZXR3b3JrIjsKaW1wb3J0IHsgb3JkZXJMYWJlbCB9IGZyb20gIkAvbGliL29yZGVyIjsKCmNvbnN0IFNUQVRVU19MQUJFTDogUmVjb3JkPG51bWJlciwgc3RyaW5nPiA9IHsgMTogIk9wZW4iLCAyOiAiUGFpZCIsIDM6ICJDYW5jZWxsZWQiLCA0OiAiUmVmdW5kZWQiIH07CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBSZWNlaXB0UGFnZSgpIHsKICBjb25zdCB7IG5ldDogYXBwTmV0IH0gPSB1c2VOZXR3b3JrKCk7CiAgY29uc3QgcGFyYW1zID0gdXNlUGFyYW1zPHsgaW52b2ljZUlkOiBzdHJpbmcgfT4oKTsKICBjb25zdCBzZWFyY2ggPSB1c2VTZWFyY2hQYXJhbXMoKTsKICAvLyBSZWNlaXB0IGxpbmtzIGNhcnJ5IHRoZWlyIGNoYWluLCBzbyB0aGV5IHN0aWxsIHdvcmsgYWZ0ZXIgeW91IHN3aXRjaCBuZXR3b3Jrcy4KICBjb25zdCBuZXQgPSBuZXR3b3JrQnlDaGFpbklkKE51bWJlcihzZWFyY2guZ2V0KCJjaGFpbiIpKSkgPz8gYXBwTmV0OwogIGNvbnN0IGFwcENoYWluID0gbmV0LmNoYWluOwogIGNvbnN0IGludm9pY2VQYXlBZGRyZXNzID0gbmV0Lmludm9pY2VQYXk7CiAgY29uc3QgZGVwbG95QmxvY2sgPSBuZXQuZGVwbG95QmxvY2s7CiAgY29uc3QgaGFzRXhwbG9yZXIgPSBuZXQuaGFzRXhwbG9yZXI7CiAgY29uc3QgaW52b2ljZUlkID0gcGFyYW1zLmludm9pY2VJZDsKICBjb25zdCByYXdUeCA9IHNlYXJjaC5nZXQoInR4Iik7CiAgLy8gQW55dGhpbmcgZWxzZSBpbiA/dHg9IGlzIGlnbm9yZWQsIG5ldmVyIHNob3duOiBhIHJlY2VpcHQgbXVzdCBub3QgZGlzcGxheSB0ZXh0IGZyb20gdGhlIFVSTC4KICBjb25zdCB0eCA9IHJhd1R4ICYmIGlzSGFzaChyYXdUeCkgPyByYXdUeCA6IHVuZGVmaW5lZDsKICBjb25zdCB2YWxpZElkID0gaXNIZXgoaW52b2ljZUlkKSAmJiBpbnZvaWNlSWQubGVuZ3RoID09PSA2NjsKICBjb25zdCB0b2tlbiA9IHVzZVRva2VuKCk7CiAgY29uc3QgY2xpZW50ID0gdXNlUHVibGljQ2xpZW50KHsgY2hhaW5JZDogYXBwQ2hhaW4uaWQgfSkgYXMgUHVibGljQ2xpZW50IHwgdW5kZWZpbmVkOwoKICBjb25zdCBpbnZvaWNlID0gdXNlUmVhZENvbnRyYWN0KHsKICAgIGFkZHJlc3M6IGludm9pY2VQYXlBZGRyZXNzLAogICAgYWJpOiBpbnZvaWNlUGF5QWJpLAogICAgZnVuY3Rpb25OYW1lOiAiaW52b2ljZU9mIiwKICAgIGFyZ3M6IHZhbGlkSWQgPyBbaW52b2ljZUlkIGFzIEhleF0gOiB1bmRlZmluZWQsCiAgICBjaGFpbklkOiBhcHBDaGFpbi5pZCwKICAgIHF1ZXJ5OiB7IGVuYWJsZWQ6IHZhbGlkSWQgJiYgQm9vbGVhbihpbnZvaWNlUGF5QWRkcmVzcykgfSwKICB9KTsKCiAgLy8gVGhlIFBhaWQgZXZlbnQgaXMgdGhlIHJlY2VpcHQ6IGZpbmQgaXQgb24tY2hhaW4gcmF0aGVyIHRoYW4gdHJ1c3RpbmcgdGhlIGxpbmsuCiAgY29uc3QgcGFpZExvZyA9IHVzZVF1ZXJ5KHsKICAgIHF1ZXJ5S2V5OiBbInBhaWQtbG9nIiwgYXBwQ2hhaW4uaWQsIGludm9pY2VQYXlBZGRyZXNzLCBpbnZvaWNlSWRdLAogICAgZW5hYmxlZDogQm9vbGVhbihjbGllbnQgJiYgaW52b2ljZVBheUFkZHJlc3MgJiYgdmFsaWRJZCksCiAgICBxdWVyeUZuOiBhc3luYyAoKSA9PiB7CiAgICAgIGNvbnN0IGxvZ3MgPSBhd2FpdCBnZXRMb2dzQ2h1bmtlZChjbGllbnQhLCB7CiAgICAgICAgYWRkcmVzczogaW52b2ljZVBheUFkZHJlc3MhLAogICAgICAgIGV2ZW50OiBnZXRBYmlJdGVtKHsgYWJpOiBpbnZvaWNlUGF5QWJpLCBuYW1lOiAiUGFpZCIgfSksCiAgICAgICAgYXJnczogeyBpbnZvaWNlSWQ6IGludm9pY2VJZCBhcyBIZXggfSwKICAgICAgICBmcm9tQmxvY2s6IGRlcGxveUJsb2NrID8/IDBuLAogICAgICB9KTsKICAgICAgcmV0dXJuIGxvZ3MuYXQoLTEpID8/IG51bGw7CiAgICB9LAogIH0pOwogIGNvbnN0IGZvdW5kVHggPSBwYWlkTG9nLmRhdGE/LnRyYW5zYWN0aW9uSGFzaDsKICAvLyBPbmx5IHNob3cgdHJhbnNhY3Rpb24gZGV0YWlscyBpZiB0aGUgdHJhbnNhY3Rpb24gaW4gdGhlIGxpbmsgcmVhbGx5IGlzIHRoZSBwYXltZW50LgogIGNvbnN0IHR4TWF0Y2hlcyA9IEJvb2xlYW4odHggJiYgZm91bmRUeCAmJiB0eC50b0xvd2VyQ2FzZSgpID09PSBmb3VuZFR4LnRvTG93ZXJDYXNlKCkpOwogIGNvbnN0IHNob3duVHggPSB0eE1hdGNoZXMgPyB0eCA6IGZvdW5kVHg7CiAgY29uc3QgcmVjZWlwdCA9IHVzZVRyYW5zYWN0aW9uUmVjZWlwdCh7IGhhc2g6IHNob3duVHgsIGNoYWluSWQ6IGFwcENoYWluLmlkLCBxdWVyeTogeyBlbmFibGVkOiBCb29sZWFuKHNob3duVHgpIH0gfSk7CgogIGlmICghdmFsaWRJZCkgewogICAgcmV0dXJuICgKICAgICAgPG1haW4gY2xhc3NOYW1lPSJzaGVsbCI+CiAgICAgICAgPGgxPlJlY2VpcHQgbm90IGZvdW5kPC9oMT4KICAgICAgICA8cCBjbGFzc05hbWU9ImxlZGUiPlRoYXQgaW52b2ljZSBpZCBpc24mYXBvczt0IHZhbGlkLiBJbnZvaWNlIGlkcyBhcmUgMzItYnl0ZSBoZXggdmFsdWVzICgweCArIDY0IGNoYXJhY3RlcnMpLjwvcD4KICAgICAgPC9tYWluPgogICAgKTsKICB9CgogIGNvbnN0IGludiA9IGludm9pY2UuZGF0YTsKICBjb25zdCBzdGF0dXMgPSBpbnY/LnN0YXR1cyA/PyAwOwogIGNvbnN0IHBhaWQgPSBzdGF0dXMgPT09IDIgfHwgc3RhdHVzID09PSA0OwoKICByZXR1cm4gKAogICAgPG1haW4gY2xhc3NOYW1lPSJzaGVsbCIgc3R5bGU9e3sgbWF4V2lkdGg6IDc2MCB9fT4KICAgICAgPGRpdj4KICAgICAgICA8cCBjbGFzc05hbWU9ImV5ZWJyb3ciPlJlY2VpcHQgwrcgcmVhZCBmcm9tIHthcHBDaGFpbi5uYW1lfTwvcD4KICAgICAgICA8aDE+SW52b2ljZSB7b3JkZXJMYWJlbChpbnZvaWNlSWQgYXMgSGV4KX08L2gxPgogICAgICA8L2Rpdj4KCiAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0iY2FyZCBzdGFjayI+CiAgICAgICAgeyFpbnZvaWNlUGF5QWRkcmVzcyA/ICgKICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzdGFjayI+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0ic3RhdHVzLXBpbGwgd2FybiI+Q2FuJmFwb3M7dCBjaGVjazwvc3Bhbj4KICAgICAgICAgICAgPHAgc3R5bGU9e3sgY29sb3I6ICJ2YXIoLS10ZXh0LW11dGVkKSIgfX0+Tm8gSW52b2ljZVBheSBpcyBjb25maWd1cmVkIGZvciB7YXBwQ2hhaW4ubmFtZX0gaW4gdGhpcyBhcHAuPC9wPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgKSA6IGludm9pY2UuaXNMb2FkaW5nID8gKAogICAgICAgICAgPHAgY2xhc3NOYW1lPSJlbXB0eSI+UmVhZGluZyBJbnZvaWNlUGF5Lmludm9pY2VPZuKApjwvcD4KICAgICAgICApIDogaW52b2ljZS5pc0Vycm9yID8gKAogICAgICAgICAgPGRpdiBjbGFzc05hbWU9InN0YWNrIj4KICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJzdGF0dXMtcGlsbCB3YXJuIj5DYW4mYXBvczt0IGNoZWNrPC9zcGFuPgogICAgICAgICAgICA8cCBzdHlsZT17eyBjb2xvcjogInZhcigtLXRleHQtbXV0ZWQpIiB9fT4KICAgICAgICAgICAgICBDb3VsZG4mYXBvczt0IHJlYWQgdGhlIGludm9pY2UgZnJvbSB7YXBwQ2hhaW4ubmFtZX0uIFRoZSBSUEMgbWF5IGJlIGJ1c3kueyIgIn0KICAgICAgICAgICAgICA8YnV0dG9uIHR5cGU9ImJ1dHRvbiIgY2xhc3NOYW1lPSJidG4gc21hbGwiIG9uQ2xpY2s9eygpID0+IGludm9pY2UucmVmZXRjaCgpfT4KICAgICAgICAgICAgICAgIFRyeSBhZ2FpbgogICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICA8L3A+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICApIDogc3RhdHVzID09PSAwID8gKAogICAgICAgICAgPGRpdiBjbGFzc05hbWU9InN0YWNrIj4KICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJzdGF0dXMtcGlsbCB3YXJuIj5Ob3QgZm91bmQ8L3NwYW4+CiAgICAgICAgICAgIDxwIHN0eWxlPXt7IGNvbG9yOiAidmFyKC0tdGV4dC1tdXRlZCkiIH19PgogICAgICAgICAgICAgIE5vIGludm9pY2Ugd2l0aCB0aGlzIGlkIGV4aXN0cyBvbiB7YXBwQ2hhaW4ubmFtZX0uIENoZWNrIHRoZSBpZCBhbmQgdGhlIG5ldHdvcmsuCiAgICAgICAgICAgIDwvcD4KICAgICAgICAgIDwvZGl2PgogICAgICAgICkgOiAoCiAgICAgICAgICA8PgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iY2hlY2stdG9wIiBzdHlsZT17eyBhbGlnbkl0ZW1zOiAiY2VudGVyIiB9fT4KICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9e2BzdGF0dXMtcGlsbCAke3N0YXR1cyA9PT0gMiA/ICJnb29kIiA6ICJ3YXJuIn1gfT4KICAgICAgICAgICAgICAgIHtzdGF0dXMgPT09IDEgPyAiTm90IHBhaWQiIDogKFNUQVRVU19MQUJFTFtzdGF0dXNdID8/IHN0YXR1cyl9CiAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgIHtwYWlkICYmIGludiAmJiA8c3BhbiBjbGFzc05hbWU9ImZpbmUiPntuZXcgRGF0ZShOdW1iZXIoaW52LnBhaWRBdCkgKiAxMDAwKS50b0xvY2FsZVN0cmluZygpfTwvc3Bhbj59CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmVjZWlwdC1hbW91bnQiPgogICAgICAgICAgICAgIHtmb3JtYXRVbml0cyhpbnYhLmFtb3VudCwgdG9rZW4uZGVjaW1hbHMpfXsiICJ9CiAgICAgICAgICAgICAgPHNtYWxsIHN0eWxlPXt7IGZvbnRTaXplOiAiMC40ZW0iLCBjb2xvcjogInZhcigtLXRleHQtbXV0ZWQpIiB9fT57dG9rZW4uc3ltYm9sfTwvc21hbGw+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICB7c3RhdHVzID09PSAxICYmICgKICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9ImZpbmUiPgogICAgICAgICAgICAgICAgVGhpcyBpbnZvaWNlIGlzIHN0aWxsIG9wZW4uIEl0IGV4cGlyZXMgYXQge25ldyBEYXRlKE51bWJlcihpbnYhLmV4cGlyeSkgKiAxMDAwKS50b0xvY2FsZVN0cmluZygpfS57IiAifQogICAgICAgICAgICAgICAgPExpbmsgaHJlZj17YC9wYXkvJHtpbnZvaWNlSWR9YH0+UGF5IGl0PC9MaW5rPgogICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgKX0KICAgICAgICAgICAge3N0YXR1cyA9PT0gMyAmJiA8cCBjbGFzc05hbWU9ImZpbmUiPlRoZSBtZXJjaGFudCBjYW5jZWxsZWQgdGhpcyBpbnZvaWNlIGJlZm9yZSBpdCB3YXMgcGFpZC48L3A+fQogICAgICAgICAgICB7c3RhdHVzID09PSA0ICYmIDxwIGNsYXNzTmFtZT0iZmluZSI+VGhpcyBpbnZvaWNlIHdhcyBwYWlkIGFuZCBsYXRlciByZWZ1bmRlZCBpbiBmdWxsIHRvIHRoZSBwYXllci48L3A+fQogICAgICAgICAgICA8ZGwgY2xhc3NOYW1lPSJrdiI+CiAgICAgICAgICAgICAgPGR0Pkludm9pY2UgaWQ8L2R0PgogICAgICAgICAgICAgIDxkZD57aW52b2ljZUlkfTwvZGQ+CiAgICAgICAgICAgICAgPGR0Pk1lcmNoYW50PC9kdD4KICAgICAgICAgICAgICA8ZGQ+CiAgICAgICAgICAgICAgICB7aGFzRXhwbG9yZXIgPyAoCiAgICAgICAgICAgICAgICAgIDxhIGhyZWY9e2FkZHJlc3NVcmwoaW52IS5tZXJjaGFudCl9IHRhcmdldD0iX2JsYW5rIiByZWw9Im5vcmVmZXJyZXIiPntpbnYhLm1lcmNoYW50fTwvYT4KICAgICAgICAgICAgICAgICkgOiAoCiAgICAgICAgICAgICAgICAgIGludiEubWVyY2hhbnQKICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgPC9kZD4KICAgICAgICAgICAgICB7cGFpZCAmJiAoCiAgICAgICAgICAgICAgICA8PgogICAgICAgICAgICAgICAgICA8ZHQ+UGF5ZXI8L2R0PgogICAgICAgICAgICAgICAgICA8ZGQ+CiAgICAgICAgICAgICAgICAgICAge2hhc0V4cGxvcmVyID8gKAogICAgICAgICAgICAgICAgICAgICAgPGEgaHJlZj17YWRkcmVzc1VybChpbnYhLnBhaWRCeSl9IHRhcmdldD0iX2JsYW5rIiByZWw9Im5vcmVmZXJyZXIiPntpbnYhLnBhaWRCeX08L2E+CiAgICAgICAgICAgICAgICAgICAgKSA6ICgKICAgICAgICAgICAgICAgICAgICAgIGludiEucGFpZEJ5CiAgICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgICAgPC9kZD4KICAgICAgICAgICAgICAgICAgPGR0PlBhaWQgYXQ8L2R0PgogICAgICAgICAgICAgICAgICA8ZGQ+e25ldyBEYXRlKE51bWJlcihpbnYhLnBhaWRBdCkgKiAxMDAwKS50b0xvY2FsZVN0cmluZygpfTwvZGQ+CiAgICAgICAgICAgICAgICA8Lz4KICAgICAgICAgICAgICApfQogICAgICAgICAgICAgIDxkdD5NZW1vIGhhc2g8L2R0PgogICAgICAgICAgICAgIDxkZD57aW52IS5tZW1vSGFzaH08L2RkPgogICAgICAgICAgICAgIDxkdD5JbnZvaWNlUGF5PC9kdD4KICAgICAgICAgICAgICA8ZGQ+e2ludm9pY2VQYXlBZGRyZXNzfTwvZGQ+CiAgICAgICAgICAgICAge3Nob3duVHggJiYgKAogICAgICAgICAgICAgICAgPD4KICAgICAgICAgICAgICAgICAgPGR0PlRyYW5zYWN0aW9uPC9kdD4KICAgICAgICAgICAgICAgICAgPGRkPgogICAgICAgICAgICAgICAgICAgIHtoYXNFeHBsb3JlciA/ICgKICAgICAgICAgICAgICAgICAgICAgIDxhIGhyZWY9e3R4VXJsKHNob3duVHgpfSB0YXJnZXQ9Il9ibGFuayIgcmVsPSJub3JlZmVycmVyIj57c2hvd25UeH08L2E+CiAgICAgICAgICAgICAgICAgICAgKSA6ICgKICAgICAgICAgICAgICAgICAgICAgIHNob3duVHgKICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICA8L2RkPgogICAgICAgICAgICAgICAgPC8+CiAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICB7dHhNYXRjaGVzICYmIHJlY2VpcHQuZGF0YSAmJiAoCiAgICAgICAgICAgICAgICA8PgogICAgICAgICAgICAgICAgICA8ZHQ+QmxvY2s8L2R0PgogICAgICAgICAgICAgICAgICA8ZGQ+e3JlY2VpcHQuZGF0YS5ibG9ja051bWJlci50b1N0cmluZygpfTwvZGQ+CiAgICAgICAgICAgICAgICAgIDxkdD5HYXMgdXNlZDwvZHQ+CiAgICAgICAgICAgICAgICAgIDxkZD57cmVjZWlwdC5kYXRhLmdhc1VzZWQudG9TdHJpbmcoKX08L2RkPgogICAgICAgICAgICAgICAgICA8ZHQ+U3VibWl0dGVkIGJ5PC9kdD4KICAgICAgICAgICAgICAgICAgPGRkPntyZWNlaXB0LmRhdGEuZnJvbX08L2RkPgogICAgICAgICAgICAgICAgPC8+CiAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgPC9kbD4KICAgICAgICAgICAge3R4ICYmIGZvdW5kVHggJiYgIXR4TWF0Y2hlcyAmJiAoCiAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJmaW5lIj5UaGUgdHJhbnNhY3Rpb24gaW4gdGhpcyBsaW5rIGlzbiZhcG9zO3QgdGhlIHBheW1lbnQgZm9yIHRoaXMgaW52b2ljZSwgc28gaXQgaXNuJmFwb3M7dCBzaG93bi48L3A+CiAgICAgICAgICAgICl9CiAgICAgICAgICAgIHt0eE1hdGNoZXMgJiYgcmVjZWlwdC5kYXRhICYmIGludiAmJiByZWNlaXB0LmRhdGEuZnJvbS50b0xvd2VyQ2FzZSgpICE9PSBpbnYucGFpZEJ5LnRvTG93ZXJDYXNlKCkgJiYgKAogICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0iZmluZSI+VGhlIHBheWVyIGRpZG4mYXBvczt0IHNlbmQgdGhpcyB0cmFuc2FjdGlvbjogYSByZWxheWVyIHN1Ym1pdHRlZCB0aGUgcGF5ZXImYXBvcztzIHNpZ25hdHVyZSAoZ2FzbGVzcyBtb2RlKS48L3A+CiAgICAgICAgICAgICl9CiAgICAgICAgICA8Lz4KICAgICAgICApfQogICAgICA8L3NlY3Rpb24+CgogICAgICA8cCBjbGFzc05hbWU9ImZpbmUiPgogICAgICAgIFRoaXMgcGFnZSB0cnVzdHMgbm90aGluZyBidXQgdGhlIGNoYWluOiBpdCBjYWxscyA8Y29kZT5JbnZvaWNlUGF5Lmludm9pY2VPZihpbnZvaWNlSWQpPC9jb2RlPiBhbmQgZmluZHMgdGhleyIgIn0KICAgICAgICA8Y29kZT5QYWlkPC9jb2RlPiBldmVudC4gVGhlIGFtb3VudCB3YXMgZml4ZWQgYnkgdGhlIG1lcmNoYW50IHdoZW4gdGhlIGludm9pY2Ugd2FzIGNyZWF0ZWQsIHNvIGEgcmVjZWlwdCBjYW4mYXBvczt0IGJlCiAgICAgICAgZmFrZWQgd2l0aCBhIGR1c3QgcGF5bWVudC4gPExpbmsgaHJlZj0iL2ludm9pY2VzIj5Zb3VyIGludm9pY2VzPC9MaW5rPgogICAgICA8L3A+CiAgICA8L21haW4+CiAgKTsKfQo=
+"use client";
+
+import { addressUrl, getLogsChunked, invoicePayAbi, txUrl } from "@aevum-kit/aevum";
+import { useQuery } from "@tanstack/react-query";
+import Link from "next/link";
+import { useParams, useSearchParams } from "next/navigation";
+import { formatUnits, getAbiItem, isHash, isHex, type Hex, type PublicClient } from "viem";
+import { usePublicClient, useReadContract, useTransactionReceipt } from "wagmi";
+import { useToken } from "@/components/useToken";
+import { networkByChainId } from "@/lib/env";
+import { useNetwork } from "@/lib/network";
+import { orderLabel } from "@/lib/order";
+
+const STATUS_LABEL: Record<number, string> = { 1: "Open", 2: "Paid", 3: "Cancelled", 4: "Refunded" };
+
+export default function ReceiptPage() {
+  const { net: appNet } = useNetwork();
+  const params = useParams<{ invoiceId: string }>();
+  const search = useSearchParams();
+  // Receipt links carry their chain, so they still work after you switch networks.
+  const net = networkByChainId(Number(search.get("chain"))) ?? appNet;
+  const appChain = net.chain;
+  const invoicePayAddress = net.invoicePay;
+  const deployBlock = net.deployBlock;
+  const hasExplorer = net.hasExplorer;
+  const invoiceId = params.invoiceId;
+  const rawTx = search.get("tx");
+  // Anything else in ?tx= is ignored, never shown: a receipt must not display text from the URL.
+  const tx = rawTx && isHash(rawTx) ? rawTx : undefined;
+  const validId = isHex(invoiceId) && invoiceId.length === 66;
+  const token = useToken();
+  const client = usePublicClient({ chainId: appChain.id }) as PublicClient | undefined;
+
+  const invoice = useReadContract({
+    address: invoicePayAddress,
+    abi: invoicePayAbi,
+    functionName: "invoiceOf",
+    args: validId ? [invoiceId as Hex] : undefined,
+    chainId: appChain.id,
+    query: { enabled: validId && Boolean(invoicePayAddress) },
+  });
+
+  // The Paid event is the receipt: find it on-chain rather than trusting the link.
+  const paidLog = useQuery({
+    queryKey: ["paid-log", appChain.id, invoicePayAddress, invoiceId],
+    enabled: Boolean(client && invoicePayAddress && validId),
+    queryFn: async () => {
+      const logs = await getLogsChunked(client!, {
+        address: invoicePayAddress!,
+        event: getAbiItem({ abi: invoicePayAbi, name: "Paid" }),
+        args: { invoiceId: invoiceId as Hex },
+        fromBlock: deployBlock ?? 0n,
+      });
+      return logs.at(-1) ?? null;
+    },
+  });
+  const foundTx = paidLog.data?.transactionHash;
+  // Only show transaction details if the transaction in the link really is the payment.
+  const txMatches = Boolean(tx && foundTx && tx.toLowerCase() === foundTx.toLowerCase());
+  const shownTx = txMatches ? tx : foundTx;
+  const receipt = useTransactionReceipt({ hash: shownTx, chainId: appChain.id, query: { enabled: Boolean(shownTx) } });
+
+  if (!validId) {
+    return (
+      <main className="shell">
+        <h1>Receipt not found</h1>
+        <p className="lede">That invoice id isn&apos;t valid. Invoice ids are 32-byte hex values (0x + 64 characters).</p>
+      </main>
+    );
+  }
+
+  const inv = invoice.data;
+  const status = inv?.status ?? 0;
+  const paid = status === 2 || status === 4;
+
+  return (
+    <main className="shell" style={{ maxWidth: 760 }}>
+      <div>
+        <p className="eyebrow">Receipt · read from {appChain.name}</p>
+        <h1>Invoice {orderLabel(invoiceId as Hex)}</h1>
+      </div>
+
+      <section className="card stack">
+        {!invoicePayAddress ? (
+          <div className="stack">
+            <span className="status-pill warn">Can&apos;t check</span>
+            <p style={{ color: "var(--text-muted)" }}>No InvoicePay is configured for {appChain.name} in this app.</p>
+          </div>
+        ) : invoice.isLoading ? (
+          <p className="empty">Reading InvoicePay.invoiceOf…</p>
+        ) : invoice.isError ? (
+          <div className="stack">
+            <span className="status-pill warn">Can&apos;t check</span>
+            <p style={{ color: "var(--text-muted)" }}>
+              Couldn&apos;t read the invoice from {appChain.name}. The RPC may be busy.{" "}
+              <button type="button" className="btn small" onClick={() => invoice.refetch()}>
+                Try again
+              </button>
+            </p>
+          </div>
+        ) : status === 0 ? (
+          <div className="stack">
+            <span className="status-pill warn">Not found</span>
+            <p style={{ color: "var(--text-muted)" }}>
+              No invoice with this id exists on {appChain.name}. Check the id and the network.
+            </p>
+          </div>
+        ) : (
+          <>
+            <div className="check-top" style={{ alignItems: "center" }}>
+              <span className={`status-pill ${status === 2 ? "good" : "warn"}`}>
+                {status === 1 ? "Not paid" : (STATUS_LABEL[status] ?? status)}
+              </span>
+              {paid && inv && <span className="fine">{new Date(Number(inv.paidAt) * 1000).toLocaleString()}</span>}
+            </div>
+            <div className="receipt-amount">
+              {formatUnits(inv!.amount, token.decimals)}{" "}
+              <small style={{ fontSize: "0.4em", color: "var(--text-muted)" }}>{token.symbol}</small>
+            </div>
+            {status === 1 && (
+              <p className="fine">
+                This invoice is still open. It expires at {new Date(Number(inv!.expiry) * 1000).toLocaleString()}.{" "}
+                <Link href={`/pay/${invoiceId}`}>Pay it</Link>
+              </p>
+            )}
+            {status === 3 && <p className="fine">The merchant cancelled this invoice before it was paid.</p>}
+            {status === 4 && <p className="fine">This invoice was paid and later refunded in full to the payer.</p>}
+            <dl className="kv">
+              <dt>Invoice id</dt>
+              <dd>{invoiceId}</dd>
+              <dt>Merchant</dt>
+              <dd>
+                {hasExplorer ? (
+                  <a href={addressUrl(inv!.merchant)} target="_blank" rel="noreferrer">{inv!.merchant}</a>
+                ) : (
+                  inv!.merchant
+                )}
+              </dd>
+              {paid && (
+                <>
+                  <dt>Payer</dt>
+                  <dd>
+                    {hasExplorer ? (
+                      <a href={addressUrl(inv!.paidBy)} target="_blank" rel="noreferrer">{inv!.paidBy}</a>
+                    ) : (
+                      inv!.paidBy
+                    )}
+                  </dd>
+                  <dt>Paid at</dt>
+                  <dd>{new Date(Number(inv!.paidAt) * 1000).toLocaleString()}</dd>
+                </>
+              )}
+              <dt>Memo hash</dt>
+              <dd>{inv!.memoHash}</dd>
+              <dt>InvoicePay</dt>
+              <dd>{invoicePayAddress}</dd>
+              {shownTx && (
+                <>
+                  <dt>Transaction</dt>
+                  <dd>
+                    {hasExplorer ? (
+                      <a href={txUrl(shownTx)} target="_blank" rel="noreferrer">{shownTx}</a>
+                    ) : (
+                      shownTx
+                    )}
+                  </dd>
+                </>
+              )}
+              {txMatches && receipt.data && (
+                <>
+                  <dt>Block</dt>
+                  <dd>{receipt.data.blockNumber.toString()}</dd>
+                  <dt>Gas used</dt>
+                  <dd>{receipt.data.gasUsed.toString()}</dd>
+                  <dt>Submitted by</dt>
+                  <dd>{receipt.data.from}</dd>
+                </>
+              )}
+            </dl>
+            {tx && foundTx && !txMatches && (
+              <p className="fine">The transaction in this link isn&apos;t the payment for this invoice, so it isn&apos;t shown.</p>
+            )}
+            {txMatches && receipt.data && inv && receipt.data.from.toLowerCase() !== inv.paidBy.toLowerCase() && (
+              <p className="fine">The payer didn&apos;t send this transaction: a relayer submitted the payer&apos;s signature (gasless mode).</p>
+            )}
+          </>
+        )}
+      </section>
+
+      <p className="fine">
+        This page trusts nothing but the chain: it calls <code>InvoicePay.invoiceOf(invoiceId)</code> and finds the{" "}
+        <code>Paid</code> event. The amount was fixed by the merchant when the invoice was created, so a receipt can&apos;t be
+        faked with a dust payment. <Link href="/invoices">Your invoices</Link>
+      </p>
+    </main>
+  );
+}
