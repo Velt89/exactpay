@@ -1,1 +1,19 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMC4wKSAoaW50ZXJmYWNlcy9JRVJDMjMwOS5zb2wpCgpwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCi8qKgogKiBAZGV2IEVSQy0yMzA5OiBFUkMtNzIxIENvbnNlY3V0aXZlIFRyYW5zZmVyIEV4dGVuc2lvbi4KICovCmludGVyZmFjZSBJRVJDMjMwOSB7CiAgICAvKioKICAgICAqIEBkZXYgRW1pdHRlZCB3aGVuIHRoZSB0b2tlbnMgZnJvbSBgZnJvbVRva2VuSWRgIHRvIGB0b1Rva2VuSWRgIGFyZSB0cmFuc2ZlcnJlZCBmcm9tIGBmcm9tQWRkcmVzc2AgdG8gYHRvQWRkcmVzc2AuCiAgICAgKi8KICAgIGV2ZW50IENvbnNlY3V0aXZlVHJhbnNmZXIoCiAgICAgICAgdWludDI1NiBpbmRleGVkIGZyb21Ub2tlbklkLAogICAgICAgIHVpbnQyNTYgdG9Ub2tlbklkLAogICAgICAgIGFkZHJlc3MgaW5kZXhlZCBmcm9tQWRkcmVzcywKICAgICAgICBhZGRyZXNzIGluZGV4ZWQgdG9BZGRyZXNzCiAgICApOwp9Cg==
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.0.0) (interfaces/IERC2309.sol)
+
+pragma solidity ^0.8.20;
+
+/**
+ * @dev ERC-2309: ERC-721 Consecutive Transfer Extension.
+ */
+interface IERC2309 {
+    /**
+     * @dev Emitted when the tokens from `fromTokenId` to `toTokenId` are transferred from `fromAddress` to `toAddress`.
+     */
+    event ConsecutiveTransfer(
+        uint256 indexed fromTokenId,
+        uint256 toTokenId,
+        address indexed fromAddress,
+        address indexed toAddress
+    );
+}
