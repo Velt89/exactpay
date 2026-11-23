@@ -1,1 +1,32 @@
-LyoqCiAqIFJlYWRzIGV2ZXJ5IFBhaWQgZXZlbnQgZnJvbSB5b3VyIENoZWNrb3V0LCAxLDAwMCBibG9ja3MgYXQgYSB0aW1lIChBZXZ1bSdzIGV0aF9nZXRMb2dzIGxpbWl0KS4KICogICBGUk9NX0JMT0NLPTI5NzAwMDAgcG5wbSBleGFtcGxlIHJlYWQtcGF5bWVudHMKICogICBBRERSRVNTPTB44oCmIHBucG0gZXhhbXBsZSByZWFkLXBheW1lbnRzICAgICAgICAjIG9ubHkgdGhpcyBwYXllcgogKi8KaW1wb3J0IHsgZm9ybWF0VW5pdHMsIGdldEFiaUl0ZW0sIGlzQWRkcmVzcywgdHlwZSBBZGRyZXNzIH0gZnJvbSAidmllbSI7CmltcG9ydCB7IGNoZWNrb3V0QWJpLCBlcmMyMEFiaSwgZ2V0TG9nc0NodW5rZWQgfSBmcm9tICJAYWV2dW0ta2l0L2FldnVtIjsKaW1wb3J0IHsgY29ubmVjdCwgcmVxdWlyZWRBZGRyZXNzIH0gZnJvbSAiLi9lbnYiOwoKY29uc3QgeyBjbGllbnQgfSA9IGF3YWl0IGNvbm5lY3QoKTsKY29uc3QgY2hlY2tvdXQgPSByZXF1aXJlZEFkZHJlc3MoIkNIRUNLT1VUX0FERFJFU1MiKTsKY29uc3QgcGF5ZXIgPSBwcm9jZXNzLmVudi5BRERSRVNTICYmIGlzQWRkcmVzcyhwcm9jZXNzLmVudi5BRERSRVNTKSA/IChwcm9jZXNzLmVudi5BRERSRVNTIGFzIEFkZHJlc3MpIDogdW5kZWZpbmVkOwoKY29uc3QgaGVhZCA9IGF3YWl0IGNsaWVudC5nZXRCbG9ja051bWJlcigpOwpjb25zdCBmcm9tQmxvY2sgPSBwcm9jZXNzLmVudi5GUk9NX0JMT0NLID8gQmlnSW50KHByb2Nlc3MuZW52LkZST01fQkxPQ0spIDogaGVhZCA+IDUwMDBuID8gaGVhZCAtIDUwMDBuIDogMG47CmNvbnN0IHRva2VuID0gYXdhaXQgY2xpZW50LnJlYWRDb250cmFjdCh7IGFkZHJlc3M6IGNoZWNrb3V0LCBhYmk6IGNoZWNrb3V0QWJpLCBmdW5jdGlvbk5hbWU6ICJ0b2tlbiIgfSk7CmNvbnN0IGRlY2ltYWxzID0gYXdhaXQgY2xpZW50LnJlYWRDb250cmFjdCh7IGFkZHJlc3M6IHRva2VuLCBhYmk6IGVyYzIwQWJpLCBmdW5jdGlvbk5hbWU6ICJkZWNpbWFscyIgfSk7Cgpjb25zdCBsb2dzID0gYXdhaXQgZ2V0TG9nc0NodW5rZWQoY2xpZW50LCB7CiAgYWRkcmVzczogY2hlY2tvdXQsCiAgZXZlbnQ6IGdldEFiaUl0ZW0oeyBhYmk6IGNoZWNrb3V0QWJpLCBuYW1lOiAiUGFpZCIgfSksCiAgYXJnczogcGF5ZXIgPyB7IHBheWVyIH0gOiB1bmRlZmluZWQsCiAgZnJvbUJsb2NrLAogIHRvQmxvY2s6IGhlYWQsCiAgb25Qcm9ncmVzczogKGRvbmUsIHRvdGFsKSA9PiBwcm9jZXNzLnN0ZGVyci53cml0ZShgXHJzY2FubmVkICR7ZG9uZX0vJHt0b3RhbH0gYmxvY2tzYCksCn0pOwpwcm9jZXNzLnN0ZGVyci53cml0ZSgiXG4iKTsKCmZvciAoY29uc3QgbG9nIG9mIGxvZ3MpIHsKICBjb25zb2xlLmxvZyhgYmxvY2sgJHtsb2cuYmxvY2tOdW1iZXJ9ICBvcmRlciAke2xvZy5hcmdzLm9yZGVySWR9ICBwYXllciAke2xvZy5hcmdzLnBheWVyfSAgJHtmb3JtYXRVbml0cyhsb2cuYXJncy5hbW91bnQgPz8gMG4sIGRlY2ltYWxzKX1gKTsKfQpjb25zb2xlLmxvZyhgJHtsb2dzLmxlbmd0aH0gcGF5bWVudChzKSBiZXR3ZWVuIGJsb2NrcyAke2Zyb21CbG9ja30gYW5kICR7aGVhZH0uYCk7Cg==
+/**
+ * Reads every Paid event from your Checkout, 1,000 blocks at a time (Aevum's eth_getLogs limit).
+ *   FROM_BLOCK=2970000 pnpm example read-payments
+ *   ADDRESS=0x… pnpm example read-payments        # only this payer
+ */
+import { formatUnits, getAbiItem, isAddress, type Address } from "viem";
+import { checkoutAbi, erc20Abi, getLogsChunked } from "@aevum-kit/aevum";
+import { connect, requiredAddress } from "./env";
+
+const { client } = await connect();
+const checkout = requiredAddress("CHECKOUT_ADDRESS");
+const payer = process.env.ADDRESS && isAddress(process.env.ADDRESS) ? (process.env.ADDRESS as Address) : undefined;
+
+const head = await client.getBlockNumber();
+const fromBlock = process.env.FROM_BLOCK ? BigInt(process.env.FROM_BLOCK) : head > 5000n ? head - 5000n : 0n;
+const token = await client.readContract({ address: checkout, abi: checkoutAbi, functionName: "token" });
+const decimals = await client.readContract({ address: token, abi: erc20Abi, functionName: "decimals" });
+
+const logs = await getLogsChunked(client, {
+  address: checkout,
+  event: getAbiItem({ abi: checkoutAbi, name: "Paid" }),
+  args: payer ? { payer } : undefined,
+  fromBlock,
+  toBlock: head,
+  onProgress: (done, total) => process.stderr.write(`\rscanned ${done}/${total} blocks`),
+});
+process.stderr.write("\n");
+
+for (const log of logs) {
+  console.log(`block ${log.blockNumber}  order ${log.args.orderId}  payer ${log.args.payer}  ${formatUnits(log.args.amount ?? 0n, decimals)}`);
+}
+console.log(`${logs.length} payment(s) between blocks ${fromBlock} and ${head}.`);
