@@ -1,1 +1,165 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSwgbWluZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKY29uc3QgeyBHb3Zlcm5vckhlbHBlciB9ID0gcmVxdWlyZSgnLi4vLi4vaGVscGVycy9nb3Zlcm5hbmNlJyk7CmNvbnN0IHsgUHJvcG9zYWxTdGF0ZSwgVm90ZVR5cGUgfSA9IHJlcXVpcmUoJy4uLy4uL2hlbHBlcnMvZW51bXMnKTsKY29uc3QgdGltZSA9IHJlcXVpcmUoJy4uLy4uL2hlbHBlcnMvdGltZScpOwoKY29uc3QgVE9LRU5TID0gWwogIHsgVG9rZW46ICckRVJDMjBWb3RlcycsIG1vZGU6ICdibG9ja251bWJlcicgfSwKICB7IFRva2VuOiAnJEVSQzIwVm90ZXNUaW1lc3RhbXBNb2NrJywgbW9kZTogJ3RpbWVzdGFtcCcgfSwKXTsKCmNvbnN0IG5hbWUgPSAnT1otR292ZXJub3InOwpjb25zdCB2ZXJzaW9uID0gJzEnOwpjb25zdCB0b2tlbk5hbWUgPSAnTW9ja1Rva2VuJzsKY29uc3QgdG9rZW5TeW1ib2wgPSAnTVRLTic7CmNvbnN0IHRva2VuU3VwcGx5ID0gZXRoZXJzLnBhcnNlRXRoZXIoJzEwMCcpOwpjb25zdCByYXRpbyA9IDhuOyAvLyBwZXJjZW50cwpjb25zdCBuZXdSYXRpbyA9IDZuOyAvLyBwZXJjZW50cwpjb25zdCB2b3RpbmdEZWxheSA9IDRuOwpjb25zdCB2b3RpbmdQZXJpb2QgPSAxNm47CmNvbnN0IHZhbHVlID0gZXRoZXJzLnBhcnNlRXRoZXIoJzEnKTsKCmRlc2NyaWJlKCdHb3Zlcm5vclZvdGVzUXVvcnVtRnJhY3Rpb24nLCBmdW5jdGlvbiAoKSB7CiAgZm9yIChjb25zdCB7IFRva2VuLCBtb2RlIH0gb2YgVE9LRU5TKSB7CiAgICBjb25zdCBmaXh0dXJlID0gYXN5bmMgKCkgPT4gewogICAgICBjb25zdCBbb3duZXIsIHZvdGVyMSwgdm90ZXIyLCB2b3RlcjMsIHZvdGVyNF0gPSBhd2FpdCBldGhlcnMuZ2V0U2lnbmVycygpOwoKICAgICAgY29uc3QgcmVjZWl2ZXIgPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJ0NhbGxSZWNlaXZlck1vY2snKTsKCiAgICAgIGNvbnN0IHRva2VuID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KFRva2VuLCBbdG9rZW5OYW1lLCB0b2tlblN5bWJvbCwgdmVyc2lvbl0pOwogICAgICBjb25zdCBtb2NrID0gYXdhaXQgZXRoZXJzLmRlcGxveUNvbnRyYWN0KCckR292ZXJub3JNb2NrJywgW25hbWUsIHZvdGluZ0RlbGF5LCB2b3RpbmdQZXJpb2QsIDBuLCB0b2tlbiwgcmF0aW9dKTsKCiAgICAgIGF3YWl0IG93bmVyLnNlbmRUcmFuc2FjdGlvbih7IHRvOiBtb2NrLCB2YWx1ZSB9KTsKICAgICAgYXdhaXQgdG9rZW4uJF9taW50KG93bmVyLCB0b2tlblN1cHBseSk7CgogICAgICBjb25zdCBoZWxwZXIgPSBuZXcgR292ZXJub3JIZWxwZXIobW9jaywgbW9kZSk7CiAgICAgIGF3YWl0IGhlbHBlci5jb25uZWN0KG93bmVyKS5kZWxlZ2F0ZSh7IHRva2VuLCB0bzogdm90ZXIxLCB2YWx1ZTogZXRoZXJzLnBhcnNlRXRoZXIoJzEwJykgfSk7CiAgICAgIGF3YWl0IGhlbHBlci5jb25uZWN0KG93bmVyKS5kZWxlZ2F0ZSh7IHRva2VuLCB0bzogdm90ZXIyLCB2YWx1ZTogZXRoZXJzLnBhcnNlRXRoZXIoJzcnKSB9KTsKICAgICAgYXdhaXQgaGVscGVyLmNvbm5lY3Qob3duZXIpLmRlbGVnYXRlKHsgdG9rZW4sIHRvOiB2b3RlcjMsIHZhbHVlOiBldGhlcnMucGFyc2VFdGhlcignNScpIH0pOwogICAgICBhd2FpdCBoZWxwZXIuY29ubmVjdChvd25lcikuZGVsZWdhdGUoeyB0b2tlbiwgdG86IHZvdGVyNCwgdmFsdWU6IGV0aGVycy5wYXJzZUV0aGVyKCcyJykgfSk7CgogICAgICByZXR1cm4geyBvd25lciwgdm90ZXIxLCB2b3RlcjIsIHZvdGVyMywgdm90ZXI0LCByZWNlaXZlciwgdG9rZW4sIG1vY2ssIGhlbHBlciB9OwogICAgfTsKCiAgICBkZXNjcmliZShgdXNpbmcgJHtUb2tlbn1gLCBmdW5jdGlvbiAoKSB7CiAgICAgIGJlZm9yZUVhY2goYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIE9iamVjdC5hc3NpZ24odGhpcywgYXdhaXQgbG9hZEZpeHR1cmUoZml4dHVyZSkpOwoKICAgICAgICAvLyBkZWZhdWx0IHByb3Bvc2FsCiAgICAgICAgdGhpcy5wcm9wb3NhbCA9IHRoaXMuaGVscGVyLnNldFByb3Bvc2FsKAogICAgICAgICAgWwogICAgICAgICAgICB7CiAgICAgICAgICAgICAgdGFyZ2V0OiB0aGlzLnJlY2VpdmVyLnRhcmdldCwKICAgICAgICAgICAgICB2YWx1ZSwKICAgICAgICAgICAgICBkYXRhOiB0aGlzLnJlY2VpdmVyLmludGVyZmFjZS5lbmNvZGVGdW5jdGlvbkRhdGEoJ21vY2tGdW5jdGlvbicpLAogICAgICAgICAgICB9LAogICAgICAgICAgXSwKICAgICAgICAgICc8cHJvcG9zYWwgZGVzY3JpcHRpb24+JywKICAgICAgICApOwogICAgICB9KTsKCiAgICAgIGl0KCdkZXBsb3ltZW50IGNoZWNrJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2submFtZSgpKS50by5lcXVhbChuYW1lKTsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLnRva2VuKCkpLnRvLmVxdWFsKHRoaXMudG9rZW4pOwogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2sudm90aW5nRGVsYXkoKSkudG8uZXF1YWwodm90aW5nRGVsYXkpOwogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2sudm90aW5nUGVyaW9kKCkpLnRvLmVxdWFsKHZvdGluZ1BlcmlvZCk7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay5xdW9ydW0oMCkpLnRvLmVxdWFsKDBuKTsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLnF1b3J1bU51bWVyYXRvcigpKS50by5lcXVhbChyYXRpbyk7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay5xdW9ydW1EZW5vbWluYXRvcigpKS50by5lcXVhbCgxMDBuKTsKICAgICAgICBleHBlY3QoYXdhaXQgdGltZS5jbG9ja1ttb2RlXSgpLnRoZW4oY2xvY2sgPT4gdGhpcy5tb2NrLnF1b3J1bShjbG9jayAtIDFuKSkpLnRvLmVxdWFsKAogICAgICAgICAgKHRva2VuU3VwcGx5ICogcmF0aW8pIC8gMTAwbiwKICAgICAgICApOwogICAgICB9KTsKCiAgICAgIGl0KCdxdW9ydW0gcmVhY2hlZCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBhd2FpdCB0aGlzLmhlbHBlci5wcm9wb3NlKCk7CiAgICAgICAgYXdhaXQgdGhpcy5oZWxwZXIud2FpdEZvclNuYXBzaG90KCk7CiAgICAgICAgYXdhaXQgdGhpcy5oZWxwZXIuY29ubmVjdCh0aGlzLnZvdGVyMSkudm90ZSh7IHN1cHBvcnQ6IFZvdGVUeXBlLkZvciB9KTsKICAgICAgICBhd2FpdCB0aGlzLmhlbHBlci53YWl0Rm9yRGVhZGxpbmUoKTsKICAgICAgICBhd2FpdCB0aGlzLmhlbHBlci5leGVjdXRlKCk7CiAgICAgIH0pOwoKICAgICAgaXQoJ3F1b3J1bSBub3QgcmVhY2hlZCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBhd2FpdCB0aGlzLmhlbHBlci5wcm9wb3NlKCk7CiAgICAgICAgYXdhaXQgdGhpcy5oZWxwZXIud2FpdEZvclNuYXBzaG90KCk7CiAgICAgICAgYXdhaXQgdGhpcy5oZWxwZXIuY29ubmVjdCh0aGlzLnZvdGVyMikudm90ZSh7IHN1cHBvcnQ6IFZvdGVUeXBlLkZvciB9KTsKICAgICAgICBhd2FpdCB0aGlzLmhlbHBlci53YWl0Rm9yRGVhZGxpbmUoKTsKICAgICAgICBhd2FpdCBleHBlY3QodGhpcy5oZWxwZXIuZXhlY3V0ZSgpKQogICAgICAgICAgLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMubW9jaywgJ0dvdmVybm9yVW5leHBlY3RlZFByb3Bvc2FsU3RhdGUnKQogICAgICAgICAgLndpdGhBcmdzKAogICAgICAgICAgICB0aGlzLnByb3Bvc2FsLmlkLAogICAgICAgICAgICBQcm9wb3NhbFN0YXRlLkRlZmVhdGVkLAogICAgICAgICAgICBHb3Zlcm5vckhlbHBlci5wcm9wb3NhbFN0YXRlc1RvQml0TWFwKFtQcm9wb3NhbFN0YXRlLlN1Y2NlZWRlZCwgUHJvcG9zYWxTdGF0ZS5RdWV1ZWRdKSwKICAgICAgICAgICk7CiAgICAgIH0pOwoKICAgICAgZGVzY3JpYmUoJ29ubHlHb3Zlcm5hbmNlIHVwZGF0ZXMnLCBmdW5jdGlvbiAoKSB7CiAgICAgICAgaXQoJ3VwZGF0ZVF1b3J1bU51bWVyYXRvciBpcyBwcm90ZWN0ZWQnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICBhd2FpdCBleHBlY3QodGhpcy5tb2NrLmNvbm5lY3QodGhpcy5vd25lcikudXBkYXRlUXVvcnVtTnVtZXJhdG9yKG5ld1JhdGlvKSkKICAgICAgICAgICAgLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMubW9jaywgJ0dvdmVybm9yT25seUV4ZWN1dG9yJykKICAgICAgICAgICAgLndpdGhBcmdzKHRoaXMub3duZXIpOwogICAgICAgIH0pOwoKICAgICAgICBpdCgnY2FuIHVwZGF0ZVF1b3J1bU51bWVyYXRvciB0aHJvdWdoIGdvdmVybmFuY2UnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICB0aGlzLmhlbHBlci5zZXRQcm9wb3NhbCgKICAgICAgICAgICAgWwogICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIHRhcmdldDogdGhpcy5tb2NrLnRhcmdldCwKICAgICAgICAgICAgICAgIGRhdGE6IHRoaXMubW9jay5pbnRlcmZhY2UuZW5jb2RlRnVuY3Rpb25EYXRhKCd1cGRhdGVRdW9ydW1OdW1lcmF0b3InLCBbbmV3UmF0aW9dKSwKICAgICAgICAgICAgICB9LAogICAgICAgICAgICBdLAogICAgICAgICAgICAnPHByb3Bvc2FsIGRlc2NyaXB0aW9uPicsCiAgICAgICAgICApOwoKICAgICAgICAgIGF3YWl0IHRoaXMuaGVscGVyLnByb3Bvc2UoKTsKICAgICAgICAgIGF3YWl0IHRoaXMuaGVscGVyLndhaXRGb3JTbmFwc2hvdCgpOwogICAgICAgICAgYXdhaXQgdGhpcy5oZWxwZXIuY29ubmVjdCh0aGlzLnZvdGVyMSkudm90ZSh7IHN1cHBvcnQ6IFZvdGVUeXBlLkZvciB9KTsKICAgICAgICAgIGF3YWl0IHRoaXMuaGVscGVyLndhaXRGb3JEZWFkbGluZSgpOwoKICAgICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLmhlbHBlci5leGVjdXRlKCkpLnRvLmVtaXQodGhpcy5tb2NrLCAnUXVvcnVtTnVtZXJhdG9yVXBkYXRlZCcpLndpdGhBcmdzKHJhdGlvLCBuZXdSYXRpbyk7CgogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay5xdW9ydW1OdW1lcmF0b3IoKSkudG8uZXF1YWwobmV3UmF0aW8pOwogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay5xdW9ydW1EZW5vbWluYXRvcigpKS50by5lcXVhbCgxMDBuKTsKCiAgICAgICAgICAvLyBpdCB0YWtlcyBvbmUgYmxvY2sgZm9yIHRoZSBuZXcgcXVvcnVtIHRvIHRha2UgZWZmZWN0CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGltZS5jbG9ja1ttb2RlXSgpLnRoZW4oYmxvY2tOdW1iZXIgPT4gdGhpcy5tb2NrLnF1b3J1bShibG9ja051bWJlciAtIDFuKSkpLnRvLmVxdWFsKAogICAgICAgICAgICAodG9rZW5TdXBwbHkgKiByYXRpbykgLyAxMDBuLAogICAgICAgICAgKTsKCiAgICAgICAgICBhd2FpdCBtaW5lKCk7CgogICAgICAgICAgZXhwZWN0KGF3YWl0IHRpbWUuY2xvY2tbbW9kZV0oKS50aGVuKGJsb2NrTnVtYmVyID0+IHRoaXMubW9jay5xdW9ydW0oYmxvY2tOdW1iZXIgLSAxbikpKS50by5lcXVhbCgKICAgICAgICAgICAgKHRva2VuU3VwcGx5ICogbmV3UmF0aW8pIC8gMTAwbiwKICAgICAgICAgICk7CiAgICAgICAgfSk7CgogICAgICAgIGl0KCdjYW5ub3QgdXBkYXRlUXVvcnVtTnVtZXJhdG9yIG92ZXIgdGhlIG1heGltdW0nLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgICBjb25zdCBxdW9ydW1OdW1lcmF0b3IgPSAxMDFuOwogICAgICAgICAgdGhpcy5oZWxwZXIuc2V0UHJvcG9zYWwoCiAgICAgICAgICAgIFsKICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICB0YXJnZXQ6IHRoaXMubW9jay50YXJnZXQsCiAgICAgICAgICAgICAgICBkYXRhOiB0aGlzLm1vY2suaW50ZXJmYWNlLmVuY29kZUZ1bmN0aW9uRGF0YSgndXBkYXRlUXVvcnVtTnVtZXJhdG9yJywgW3F1b3J1bU51bWVyYXRvcl0pLAogICAgICAgICAgICAgIH0sCiAgICAgICAgICAgIF0sCiAgICAgICAgICAgICc8cHJvcG9zYWwgZGVzY3JpcHRpb24+JywKICAgICAgICAgICk7CgogICAgICAgICAgYXdhaXQgdGhpcy5oZWxwZXIucHJvcG9zZSgpOwogICAgICAgICAgYXdhaXQgdGhpcy5oZWxwZXIud2FpdEZvclNuYXBzaG90KCk7CiAgICAgICAgICBhd2FpdCB0aGlzLmhlbHBlci5jb25uZWN0KHRoaXMudm90ZXIxKS52b3RlKHsgc3VwcG9ydDogVm90ZVR5cGUuRm9yIH0pOwogICAgICAgICAgYXdhaXQgdGhpcy5oZWxwZXIud2FpdEZvckRlYWRsaW5lKCk7CgogICAgICAgICAgY29uc3QgcXVvcnVtRGVub21pbmF0b3IgPSBhd2FpdCB0aGlzLm1vY2sucXVvcnVtRGVub21pbmF0b3IoKTsKCiAgICAgICAgICBhd2FpdCBleHBlY3QodGhpcy5oZWxwZXIuZXhlY3V0ZSgpKQogICAgICAgICAgICAudG8uYmUucmV2ZXJ0ZWRXaXRoQ3VzdG9tRXJyb3IodGhpcy5tb2NrLCAnR292ZXJub3JJbnZhbGlkUXVvcnVtRnJhY3Rpb24nKQogICAgICAgICAgICAud2l0aEFyZ3MocXVvcnVtTnVtZXJhdG9yLCBxdW9ydW1EZW5vbWluYXRvcik7CiAgICAgICAgfSk7CiAgICAgIH0pOwogICAgfSk7CiAgfQp9KTsK
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture, mine } = require('@nomicfoundation/hardhat-network-helpers');
+
+const { GovernorHelper } = require('../../helpers/governance');
+const { ProposalState, VoteType } = require('../../helpers/enums');
+const time = require('../../helpers/time');
+
+const TOKENS = [
+  { Token: '$ERC20Votes', mode: 'blocknumber' },
+  { Token: '$ERC20VotesTimestampMock', mode: 'timestamp' },
+];
+
+const name = 'OZ-Governor';
+const version = '1';
+const tokenName = 'MockToken';
+const tokenSymbol = 'MTKN';
+const tokenSupply = ethers.parseEther('100');
+const ratio = 8n; // percents
+const newRatio = 6n; // percents
+const votingDelay = 4n;
+const votingPeriod = 16n;
+const value = ethers.parseEther('1');
+
+describe('GovernorVotesQuorumFraction', function () {
+  for (const { Token, mode } of TOKENS) {
+    const fixture = async () => {
+      const [owner, voter1, voter2, voter3, voter4] = await ethers.getSigners();
+
+      const receiver = await ethers.deployContract('CallReceiverMock');
+
+      const token = await ethers.deployContract(Token, [tokenName, tokenSymbol, version]);
+      const mock = await ethers.deployContract('$GovernorMock', [name, votingDelay, votingPeriod, 0n, token, ratio]);
+
+      await owner.sendTransaction({ to: mock, value });
+      await token.$_mint(owner, tokenSupply);
+
+      const helper = new GovernorHelper(mock, mode);
+      await helper.connect(owner).delegate({ token, to: voter1, value: ethers.parseEther('10') });
+      await helper.connect(owner).delegate({ token, to: voter2, value: ethers.parseEther('7') });
+      await helper.connect(owner).delegate({ token, to: voter3, value: ethers.parseEther('5') });
+      await helper.connect(owner).delegate({ token, to: voter4, value: ethers.parseEther('2') });
+
+      return { owner, voter1, voter2, voter3, voter4, receiver, token, mock, helper };
+    };
+
+    describe(`using ${Token}`, function () {
+      beforeEach(async function () {
+        Object.assign(this, await loadFixture(fixture));
+
+        // default proposal
+        this.proposal = this.helper.setProposal(
+          [
+            {
+              target: this.receiver.target,
+              value,
+              data: this.receiver.interface.encodeFunctionData('mockFunction'),
+            },
+          ],
+          '<proposal description>',
+        );
+      });
+
+      it('deployment check', async function () {
+        expect(await this.mock.name()).to.equal(name);
+        expect(await this.mock.token()).to.equal(this.token);
+        expect(await this.mock.votingDelay()).to.equal(votingDelay);
+        expect(await this.mock.votingPeriod()).to.equal(votingPeriod);
+        expect(await this.mock.quorum(0)).to.equal(0n);
+        expect(await this.mock.quorumNumerator()).to.equal(ratio);
+        expect(await this.mock.quorumDenominator()).to.equal(100n);
+        expect(await time.clock[mode]().then(clock => this.mock.quorum(clock - 1n))).to.equal(
+          (tokenSupply * ratio) / 100n,
+        );
+      });
+
+      it('quorum reached', async function () {
+        await this.helper.propose();
+        await this.helper.waitForSnapshot();
+        await this.helper.connect(this.voter1).vote({ support: VoteType.For });
+        await this.helper.waitForDeadline();
+        await this.helper.execute();
+      });
+
+      it('quorum not reached', async function () {
+        await this.helper.propose();
+        await this.helper.waitForSnapshot();
+        await this.helper.connect(this.voter2).vote({ support: VoteType.For });
+        await this.helper.waitForDeadline();
+        await expect(this.helper.execute())
+          .to.be.revertedWithCustomError(this.mock, 'GovernorUnexpectedProposalState')
+          .withArgs(
+            this.proposal.id,
+            ProposalState.Defeated,
+            GovernorHelper.proposalStatesToBitMap([ProposalState.Succeeded, ProposalState.Queued]),
+          );
+      });
+
+      describe('onlyGovernance updates', function () {
+        it('updateQuorumNumerator is protected', async function () {
+          await expect(this.mock.connect(this.owner).updateQuorumNumerator(newRatio))
+            .to.be.revertedWithCustomError(this.mock, 'GovernorOnlyExecutor')
+            .withArgs(this.owner);
+        });
+
+        it('can updateQuorumNumerator through governance', async function () {
+          this.helper.setProposal(
+            [
+              {
+                target: this.mock.target,
+                data: this.mock.interface.encodeFunctionData('updateQuorumNumerator', [newRatio]),
+              },
+            ],
+            '<proposal description>',
+          );
+
+          await this.helper.propose();
+          await this.helper.waitForSnapshot();
+          await this.helper.connect(this.voter1).vote({ support: VoteType.For });
+          await this.helper.waitForDeadline();
+
+          await expect(this.helper.execute()).to.emit(this.mock, 'QuorumNumeratorUpdated').withArgs(ratio, newRatio);
+
+          expect(await this.mock.quorumNumerator()).to.equal(newRatio);
+          expect(await this.mock.quorumDenominator()).to.equal(100n);
+
+          // it takes one block for the new quorum to take effect
+          expect(await time.clock[mode]().then(blockNumber => this.mock.quorum(blockNumber - 1n))).to.equal(
+            (tokenSupply * ratio) / 100n,
+          );
+
+          await mine();
+
+          expect(await time.clock[mode]().then(blockNumber => this.mock.quorum(blockNumber - 1n))).to.equal(
+            (tokenSupply * newRatio) / 100n,
+          );
+        });
+
+        it('cannot updateQuorumNumerator over the maximum', async function () {
+          const quorumNumerator = 101n;
+          this.helper.setProposal(
+            [
+              {
+                target: this.mock.target,
+                data: this.mock.interface.encodeFunctionData('updateQuorumNumerator', [quorumNumerator]),
+              },
+            ],
+            '<proposal description>',
+          );
+
+          await this.helper.propose();
+          await this.helper.waitForSnapshot();
+          await this.helper.connect(this.voter1).vote({ support: VoteType.For });
+          await this.helper.waitForDeadline();
+
+          const quorumDenominator = await this.mock.quorumDenominator();
+
+          await expect(this.helper.execute())
+            .to.be.revertedWithCustomError(this.mock, 'GovernorInvalidQuorumFraction')
+            .withArgs(quorumNumerator, quorumDenominator);
+        });
+      });
+    });
+  }
+});
