@@ -1,1 +1,48 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKYXN5bmMgZnVuY3Rpb24gZml4dHVyZSgpIHsKICByZXR1cm4geyBjb250ZXh0SGVscGVyOiBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJ0NvbnRleHRNb2NrQ2FsbGVyJywgW10pIH07Cn0KZnVuY3Rpb24gc2hvdWxkQmVoYXZlTGlrZVJlZ3VsYXJDb250ZXh0KCkgewogIGJlZm9yZUVhY2goYXN5bmMgZnVuY3Rpb24gKCkgewogICAgT2JqZWN0LmFzc2lnbih0aGlzLCBhd2FpdCBsb2FkRml4dHVyZShmaXh0dXJlKSk7CiAgfSk7CgogIGRlc2NyaWJlKCdtc2dTZW5kZXInLCBmdW5jdGlvbiAoKSB7CiAgICBpdCgncmV0dXJucyB0aGUgdHJhbnNhY3Rpb24gc2VuZGVyIHdoZW4gY2FsbGVkIGZyb20gYW4gRU9BJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCBleHBlY3QodGhpcy5jb250ZXh0LmNvbm5lY3QodGhpcy5zZW5kZXIpLm1zZ1NlbmRlcigpKS50by5lbWl0KHRoaXMuY29udGV4dCwgJ1NlbmRlcicpLndpdGhBcmdzKHRoaXMuc2VuZGVyKTsKICAgIH0pOwoKICAgIGl0KCdyZXR1cm5zIHRoZSB0cmFuc2FjdGlvbiBzZW5kZXIgd2hlbiBjYWxsZWQgZnJvbSBhbm90aGVyIGNvbnRyYWN0JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCBleHBlY3QodGhpcy5jb250ZXh0SGVscGVyLmNvbm5lY3QodGhpcy5zZW5kZXIpLmNhbGxTZW5kZXIodGhpcy5jb250ZXh0KSkKICAgICAgICAudG8uZW1pdCh0aGlzLmNvbnRleHQsICdTZW5kZXInKQogICAgICAgIC53aXRoQXJncyh0aGlzLmNvbnRleHRIZWxwZXIpOwogICAgfSk7CiAgfSk7CgogIGRlc2NyaWJlKCdtc2dEYXRhJywgZnVuY3Rpb24gKCkgewogICAgY29uc3QgYXJncyA9IFs0Mm4sICdPcGVuWmVwcGVsaW4nXTsKCiAgICBpdCgncmV0dXJucyB0aGUgdHJhbnNhY3Rpb24gZGF0YSB3aGVuIGNhbGxlZCBmcm9tIGFuIEVPQScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgY29uc3QgY2FsbERhdGEgPSB0aGlzLmNvbnRleHQuaW50ZXJmYWNlLmVuY29kZUZ1bmN0aW9uRGF0YSgnbXNnRGF0YScsIGFyZ3MpOwoKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMuY29udGV4dC5tc2dEYXRhKC4uLmFyZ3MpKQogICAgICAgIC50by5lbWl0KHRoaXMuY29udGV4dCwgJ0RhdGEnKQogICAgICAgIC53aXRoQXJncyhjYWxsRGF0YSwgLi4uYXJncyk7CiAgICB9KTsKCiAgICBpdCgncmV0dXJucyB0aGUgdHJhbnNhY3Rpb24gc2VuZGVyIHdoZW4gZnJvbSBhbm90aGVyIGNvbnRyYWN0JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCBjYWxsRGF0YSA9IHRoaXMuY29udGV4dC5pbnRlcmZhY2UuZW5jb2RlRnVuY3Rpb25EYXRhKCdtc2dEYXRhJywgYXJncyk7CgogICAgICBhd2FpdCBleHBlY3QodGhpcy5jb250ZXh0SGVscGVyLmNhbGxEYXRhKHRoaXMuY29udGV4dCwgLi4uYXJncykpCiAgICAgICAgLnRvLmVtaXQodGhpcy5jb250ZXh0LCAnRGF0YScpCiAgICAgICAgLndpdGhBcmdzKGNhbGxEYXRhLCAuLi5hcmdzKTsKICAgIH0pOwogIH0pOwp9Cgptb2R1bGUuZXhwb3J0cyA9IHsKICBzaG91bGRCZWhhdmVMaWtlUmVndWxhckNvbnRleHQsCn07Cg==
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+async function fixture() {
+  return { contextHelper: await ethers.deployContract('ContextMockCaller', []) };
+}
+function shouldBehaveLikeRegularContext() {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  describe('msgSender', function () {
+    it('returns the transaction sender when called from an EOA', async function () {
+      await expect(this.context.connect(this.sender).msgSender()).to.emit(this.context, 'Sender').withArgs(this.sender);
+    });
+
+    it('returns the transaction sender when called from another contract', async function () {
+      await expect(this.contextHelper.connect(this.sender).callSender(this.context))
+        .to.emit(this.context, 'Sender')
+        .withArgs(this.contextHelper);
+    });
+  });
+
+  describe('msgData', function () {
+    const args = [42n, 'OpenZeppelin'];
+
+    it('returns the transaction data when called from an EOA', async function () {
+      const callData = this.context.interface.encodeFunctionData('msgData', args);
+
+      await expect(this.context.msgData(...args))
+        .to.emit(this.context, 'Data')
+        .withArgs(callData, ...args);
+    });
+
+    it('returns the transaction sender when from another contract', async function () {
+      const callData = this.context.interface.encodeFunctionData('msgData', args);
+
+      await expect(this.contextHelper.callData(this.context, ...args))
+        .to.emit(this.context, 'Data')
+        .withArgs(callData, ...args);
+    });
+  });
+}
+
+module.exports = {
+  shouldBehaveLikeRegularContext,
+};
