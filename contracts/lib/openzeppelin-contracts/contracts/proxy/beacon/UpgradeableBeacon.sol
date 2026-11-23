@@ -1,1 +1,70 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMC4wKSAocHJveHkvYmVhY29uL1VwZ3JhZGVhYmxlQmVhY29uLnNvbCkKCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKaW1wb3J0IHtJQmVhY29ufSBmcm9tICIuL0lCZWFjb24uc29sIjsKaW1wb3J0IHtPd25hYmxlfSBmcm9tICIuLi8uLi9hY2Nlc3MvT3duYWJsZS5zb2wiOwoKLyoqCiAqIEBkZXYgVGhpcyBjb250cmFjdCBpcyB1c2VkIGluIGNvbmp1bmN0aW9uIHdpdGggb25lIG9yIG1vcmUgaW5zdGFuY2VzIG9mIHtCZWFjb25Qcm94eX0gdG8gZGV0ZXJtaW5lIHRoZWlyCiAqIGltcGxlbWVudGF0aW9uIGNvbnRyYWN0LCB3aGljaCBpcyB3aGVyZSB0aGV5IHdpbGwgZGVsZWdhdGUgYWxsIGZ1bmN0aW9uIGNhbGxzLgogKgogKiBBbiBvd25lciBpcyBhYmxlIHRvIGNoYW5nZSB0aGUgaW1wbGVtZW50YXRpb24gdGhlIGJlYWNvbiBwb2ludHMgdG8sIHRodXMgdXBncmFkaW5nIHRoZSBwcm94aWVzIHRoYXQgdXNlIHRoaXMgYmVhY29uLgogKi8KY29udHJhY3QgVXBncmFkZWFibGVCZWFjb24gaXMgSUJlYWNvbiwgT3duYWJsZSB7CiAgICBhZGRyZXNzIHByaXZhdGUgX2ltcGxlbWVudGF0aW9uOwoKICAgIC8qKgogICAgICogQGRldiBUaGUgYGltcGxlbWVudGF0aW9uYCBvZiB0aGUgYmVhY29uIGlzIGludmFsaWQuCiAgICAgKi8KICAgIGVycm9yIEJlYWNvbkludmFsaWRJbXBsZW1lbnRhdGlvbihhZGRyZXNzIGltcGxlbWVudGF0aW9uKTsKCiAgICAvKioKICAgICAqIEBkZXYgRW1pdHRlZCB3aGVuIHRoZSBpbXBsZW1lbnRhdGlvbiByZXR1cm5lZCBieSB0aGUgYmVhY29uIGlzIGNoYW5nZWQuCiAgICAgKi8KICAgIGV2ZW50IFVwZ3JhZGVkKGFkZHJlc3MgaW5kZXhlZCBpbXBsZW1lbnRhdGlvbik7CgogICAgLyoqCiAgICAgKiBAZGV2IFNldHMgdGhlIGFkZHJlc3Mgb2YgdGhlIGluaXRpYWwgaW1wbGVtZW50YXRpb24sIGFuZCB0aGUgaW5pdGlhbCBvd25lciB3aG8gY2FuIHVwZ3JhZGUgdGhlIGJlYWNvbi4KICAgICAqLwogICAgY29uc3RydWN0b3IoYWRkcmVzcyBpbXBsZW1lbnRhdGlvbl8sIGFkZHJlc3MgaW5pdGlhbE93bmVyKSBPd25hYmxlKGluaXRpYWxPd25lcikgewogICAgICAgIF9zZXRJbXBsZW1lbnRhdGlvbihpbXBsZW1lbnRhdGlvbl8pOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBSZXR1cm5zIHRoZSBjdXJyZW50IGltcGxlbWVudGF0aW9uIGFkZHJlc3MuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGltcGxlbWVudGF0aW9uKCkgcHVibGljIHZpZXcgdmlydHVhbCByZXR1cm5zIChhZGRyZXNzKSB7CiAgICAgICAgcmV0dXJuIF9pbXBsZW1lbnRhdGlvbjsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgVXBncmFkZXMgdGhlIGJlYWNvbiB0byBhIG5ldyBpbXBsZW1lbnRhdGlvbi4KICAgICAqCiAgICAgKiBFbWl0cyBhbiB7VXBncmFkZWR9IGV2ZW50LgogICAgICoKICAgICAqIFJlcXVpcmVtZW50czoKICAgICAqCiAgICAgKiAtIG1zZy5zZW5kZXIgbXVzdCBiZSB0aGUgb3duZXIgb2YgdGhlIGNvbnRyYWN0LgogICAgICogLSBgbmV3SW1wbGVtZW50YXRpb25gIG11c3QgYmUgYSBjb250cmFjdC4KICAgICAqLwogICAgZnVuY3Rpb24gdXBncmFkZVRvKGFkZHJlc3MgbmV3SW1wbGVtZW50YXRpb24pIHB1YmxpYyB2aXJ0dWFsIG9ubHlPd25lciB7CiAgICAgICAgX3NldEltcGxlbWVudGF0aW9uKG5ld0ltcGxlbWVudGF0aW9uKTsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgU2V0cyB0aGUgaW1wbGVtZW50YXRpb24gY29udHJhY3QgYWRkcmVzcyBmb3IgdGhpcyBiZWFjb24KICAgICAqCiAgICAgKiBSZXF1aXJlbWVudHM6CiAgICAgKgogICAgICogLSBgbmV3SW1wbGVtZW50YXRpb25gIG11c3QgYmUgYSBjb250cmFjdC4KICAgICAqLwogICAgZnVuY3Rpb24gX3NldEltcGxlbWVudGF0aW9uKGFkZHJlc3MgbmV3SW1wbGVtZW50YXRpb24pIHByaXZhdGUgewogICAgICAgIGlmIChuZXdJbXBsZW1lbnRhdGlvbi5jb2RlLmxlbmd0aCA9PSAwKSB7CiAgICAgICAgICAgIHJldmVydCBCZWFjb25JbnZhbGlkSW1wbGVtZW50YXRpb24obmV3SW1wbGVtZW50YXRpb24pOwogICAgICAgIH0KICAgICAgICBfaW1wbGVtZW50YXRpb24gPSBuZXdJbXBsZW1lbnRhdGlvbjsKICAgICAgICBlbWl0IFVwZ3JhZGVkKG5ld0ltcGxlbWVudGF0aW9uKTsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.0.0) (proxy/beacon/UpgradeableBeacon.sol)
+
+pragma solidity ^0.8.20;
+
+import {IBeacon} from "./IBeacon.sol";
+import {Ownable} from "../../access/Ownable.sol";
+
+/**
+ * @dev This contract is used in conjunction with one or more instances of {BeaconProxy} to determine their
+ * implementation contract, which is where they will delegate all function calls.
+ *
+ * An owner is able to change the implementation the beacon points to, thus upgrading the proxies that use this beacon.
+ */
+contract UpgradeableBeacon is IBeacon, Ownable {
+    address private _implementation;
+
+    /**
+     * @dev The `implementation` of the beacon is invalid.
+     */
+    error BeaconInvalidImplementation(address implementation);
+
+    /**
+     * @dev Emitted when the implementation returned by the beacon is changed.
+     */
+    event Upgraded(address indexed implementation);
+
+    /**
+     * @dev Sets the address of the initial implementation, and the initial owner who can upgrade the beacon.
+     */
+    constructor(address implementation_, address initialOwner) Ownable(initialOwner) {
+        _setImplementation(implementation_);
+    }
+
+    /**
+     * @dev Returns the current implementation address.
+     */
+    function implementation() public view virtual returns (address) {
+        return _implementation;
+    }
+
+    /**
+     * @dev Upgrades the beacon to a new implementation.
+     *
+     * Emits an {Upgraded} event.
+     *
+     * Requirements:
+     *
+     * - msg.sender must be the owner of the contract.
+     * - `newImplementation` must be a contract.
+     */
+    function upgradeTo(address newImplementation) public virtual onlyOwner {
+        _setImplementation(newImplementation);
+    }
+
+    /**
+     * @dev Sets the implementation contract address for this beacon
+     *
+     * Requirements:
+     *
+     * - `newImplementation` must be a contract.
+     */
+    function _setImplementation(address newImplementation) private {
+        if (newImplementation.code.length == 0) {
+            revert BeaconInvalidImplementation(newImplementation);
+        }
+        _implementation = newImplementation;
+        emit Upgraded(newImplementation);
+    }
+}
