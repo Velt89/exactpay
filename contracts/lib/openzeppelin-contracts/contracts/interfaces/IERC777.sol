@@ -1,1 +1,200 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAoaW50ZXJmYWNlcy9JRVJDNzc3LnNvbCkKCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKLyoqCiAqIEBkZXYgSW50ZXJmYWNlIG9mIHRoZSBFUkMtNzc3IFRva2VuIHN0YW5kYXJkIGFzIGRlZmluZWQgaW4gdGhlIEVSQy4KICoKICogVGhpcyBjb250cmFjdCB1c2VzIHRoZQogKiBodHRwczovL2VpcHMuZXRoZXJldW0ub3JnL0VJUFMvZWlwLTE4MjBbRVJDLTE4MjAgcmVnaXN0cnkgc3RhbmRhcmRdIHRvIGxldAogKiB0b2tlbiBob2xkZXJzIGFuZCByZWNpcGllbnRzIHJlYWN0IHRvIHRva2VuIG1vdmVtZW50cyBieSB1c2luZyBzZXR0aW5nIGltcGxlbWVudGVycwogKiBmb3IgdGhlIGFzc29jaWF0ZWQgaW50ZXJmYWNlcyBpbiBzYWlkIHJlZ2lzdHJ5LiBTZWUge0lFUkMxODIwUmVnaXN0cnl9IGFuZAogKiB7SUVSQzE4MjBJbXBsZW1lbnRlcn0uCiAqLwppbnRlcmZhY2UgSUVSQzc3NyB7CiAgICAvKioKICAgICAqIEBkZXYgRW1pdHRlZCB3aGVuIGBhbW91bnRgIHRva2VucyBhcmUgY3JlYXRlZCBieSBgb3BlcmF0b3JgIGFuZCBhc3NpZ25lZCB0byBgdG9gLgogICAgICoKICAgICAqIE5vdGUgdGhhdCBzb21lIGFkZGl0aW9uYWwgdXNlciBgZGF0YWAgYW5kIGBvcGVyYXRvckRhdGFgIGNhbiBiZSBsb2dnZWQgaW4gdGhlIGV2ZW50LgogICAgICovCiAgICBldmVudCBNaW50ZWQoYWRkcmVzcyBpbmRleGVkIG9wZXJhdG9yLCBhZGRyZXNzIGluZGV4ZWQgdG8sIHVpbnQyNTYgYW1vdW50LCBieXRlcyBkYXRhLCBieXRlcyBvcGVyYXRvckRhdGEpOwoKICAgIC8qKgogICAgICogQGRldiBFbWl0dGVkIHdoZW4gYG9wZXJhdG9yYCBkZXN0cm95cyBgYW1vdW50YCB0b2tlbnMgZnJvbSBgYWNjb3VudGAuCiAgICAgKgogICAgICogTm90ZSB0aGF0IHNvbWUgYWRkaXRpb25hbCB1c2VyIGBkYXRhYCBhbmQgYG9wZXJhdG9yRGF0YWAgY2FuIGJlIGxvZ2dlZCBpbiB0aGUgZXZlbnQuCiAgICAgKi8KICAgIGV2ZW50IEJ1cm5lZChhZGRyZXNzIGluZGV4ZWQgb3BlcmF0b3IsIGFkZHJlc3MgaW5kZXhlZCBmcm9tLCB1aW50MjU2IGFtb3VudCwgYnl0ZXMgZGF0YSwgYnl0ZXMgb3BlcmF0b3JEYXRhKTsKCiAgICAvKioKICAgICAqIEBkZXYgRW1pdHRlZCB3aGVuIGBvcGVyYXRvcmAgaXMgbWFkZSBvcGVyYXRvciBmb3IgYHRva2VuSG9sZGVyYC4KICAgICAqLwogICAgZXZlbnQgQXV0aG9yaXplZE9wZXJhdG9yKGFkZHJlc3MgaW5kZXhlZCBvcGVyYXRvciwgYWRkcmVzcyBpbmRleGVkIHRva2VuSG9sZGVyKTsKCiAgICAvKioKICAgICAqIEBkZXYgRW1pdHRlZCB3aGVuIGBvcGVyYXRvcmAgaXMgcmV2b2tlZCBpdHMgb3BlcmF0b3Igc3RhdHVzIGZvciBgdG9rZW5Ib2xkZXJgLgogICAgICovCiAgICBldmVudCBSZXZva2VkT3BlcmF0b3IoYWRkcmVzcyBpbmRleGVkIG9wZXJhdG9yLCBhZGRyZXNzIGluZGV4ZWQgdG9rZW5Ib2xkZXIpOwoKICAgIC8qKgogICAgICogQGRldiBSZXR1cm5zIHRoZSBuYW1lIG9mIHRoZSB0b2tlbi4KICAgICAqLwogICAgZnVuY3Rpb24gbmFtZSgpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAoc3RyaW5nIG1lbW9yeSk7CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIHN5bWJvbCBvZiB0aGUgdG9rZW4sIHVzdWFsbHkgYSBzaG9ydGVyIHZlcnNpb24gb2YgdGhlCiAgICAgKiBuYW1lLgogICAgICovCiAgICBmdW5jdGlvbiBzeW1ib2woKSBleHRlcm5hbCB2aWV3IHJldHVybnMgKHN0cmluZyBtZW1vcnkpOwoKICAgIC8qKgogICAgICogQGRldiBSZXR1cm5zIHRoZSBzbWFsbGVzdCBwYXJ0IG9mIHRoZSB0b2tlbiB0aGF0IGlzIG5vdCBkaXZpc2libGUuIFRoaXMKICAgICAqIG1lYW5zIGFsbCB0b2tlbiBvcGVyYXRpb25zIChjcmVhdGlvbiwgbW92ZW1lbnQgYW5kIGRlc3RydWN0aW9uKSBtdXN0IGhhdmUKICAgICAqIGFtb3VudHMgdGhhdCBhcmUgYSBtdWx0aXBsZSBvZiB0aGlzIG51bWJlci4KICAgICAqCiAgICAgKiBGb3IgbW9zdCB0b2tlbiBjb250cmFjdHMsIHRoaXMgdmFsdWUgd2lsbCBlcXVhbCAxLgogICAgICovCiAgICBmdW5jdGlvbiBncmFudWxhcml0eSgpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAodWludDI1Nik7CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIGFtb3VudCBvZiB0b2tlbnMgaW4gZXhpc3RlbmNlLgogICAgICovCiAgICBmdW5jdGlvbiB0b3RhbFN1cHBseSgpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAodWludDI1Nik7CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdGhlIGFtb3VudCBvZiB0b2tlbnMgb3duZWQgYnkgYW4gYWNjb3VudCAoYG93bmVyYCkuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGJhbGFuY2VPZihhZGRyZXNzIG93bmVyKSBleHRlcm5hbCB2aWV3IHJldHVybnMgKHVpbnQyNTYpOwoKICAgIC8qKgogICAgICogQGRldiBNb3ZlcyBgYW1vdW50YCB0b2tlbnMgZnJvbSB0aGUgY2FsbGVyJ3MgYWNjb3VudCB0byBgcmVjaXBpZW50YC4KICAgICAqCiAgICAgKiBJZiBzZW5kIG9yIHJlY2VpdmUgaG9va3MgYXJlIHJlZ2lzdGVyZWQgZm9yIHRoZSBjYWxsZXIgYW5kIGByZWNpcGllbnRgLAogICAgICogdGhlIGNvcnJlc3BvbmRpbmcgZnVuY3Rpb25zIHdpbGwgYmUgY2FsbGVkIHdpdGggYGRhdGFgIGFuZCBlbXB0eQogICAgICogYG9wZXJhdG9yRGF0YWAuIFNlZSB7SUVSQzc3N1NlbmRlcn0gYW5kIHtJRVJDNzc3UmVjaXBpZW50fS4KICAgICAqCiAgICAgKiBFbWl0cyBhIHtTZW50fSBldmVudC4KICAgICAqCiAgICAgKiBSZXF1aXJlbWVudHMKICAgICAqCiAgICAgKiAtIHRoZSBjYWxsZXIgbXVzdCBoYXZlIGF0IGxlYXN0IGBhbW91bnRgIHRva2Vucy4KICAgICAqIC0gYHJlY2lwaWVudGAgY2Fubm90IGJlIHRoZSB6ZXJvIGFkZHJlc3MuCiAgICAgKiAtIGlmIGByZWNpcGllbnRgIGlzIGEgY29udHJhY3QsIGl0IG11c3QgaW1wbGVtZW50IHRoZSB7SUVSQzc3N1JlY2lwaWVudH0KICAgICAqIGludGVyZmFjZS4KICAgICAqLwogICAgZnVuY3Rpb24gc2VuZChhZGRyZXNzIHJlY2lwaWVudCwgdWludDI1NiBhbW91bnQsIGJ5dGVzIGNhbGxkYXRhIGRhdGEpIGV4dGVybmFsOwoKICAgIC8qKgogICAgICogQGRldiBEZXN0cm95cyBgYW1vdW50YCB0b2tlbnMgZnJvbSB0aGUgY2FsbGVyJ3MgYWNjb3VudCwgcmVkdWNpbmcgdGhlCiAgICAgKiB0b3RhbCBzdXBwbHkuCiAgICAgKgogICAgICogSWYgYSBzZW5kIGhvb2sgaXMgcmVnaXN0ZXJlZCBmb3IgdGhlIGNhbGxlciwgdGhlIGNvcnJlc3BvbmRpbmcgZnVuY3Rpb24KICAgICAqIHdpbGwgYmUgY2FsbGVkIHdpdGggYGRhdGFgIGFuZCBlbXB0eSBgb3BlcmF0b3JEYXRhYC4gU2VlIHtJRVJDNzc3U2VuZGVyfS4KICAgICAqCiAgICAgKiBFbWl0cyBhIHtCdXJuZWR9IGV2ZW50LgogICAgICoKICAgICAqIFJlcXVpcmVtZW50cwogICAgICoKICAgICAqIC0gdGhlIGNhbGxlciBtdXN0IGhhdmUgYXQgbGVhc3QgYGFtb3VudGAgdG9rZW5zLgogICAgICovCiAgICBmdW5jdGlvbiBidXJuKHVpbnQyNTYgYW1vdW50LCBieXRlcyBjYWxsZGF0YSBkYXRhKSBleHRlcm5hbDsKCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyB0cnVlIGlmIGFuIGFjY291bnQgaXMgYW4gb3BlcmF0b3Igb2YgYHRva2VuSG9sZGVyYC4KICAgICAqIE9wZXJhdG9ycyBjYW4gc2VuZCBhbmQgYnVybiB0b2tlbnMgb24gYmVoYWxmIG9mIHRoZWlyIG93bmVycy4gQWxsCiAgICAgKiBhY2NvdW50cyBhcmUgdGhlaXIgb3duIG9wZXJhdG9yLgogICAgICoKICAgICAqIFNlZSB7b3BlcmF0b3JTZW5kfSBhbmQge29wZXJhdG9yQnVybn0uCiAgICAgKi8KICAgIGZ1bmN0aW9uIGlzT3BlcmF0b3JGb3IoYWRkcmVzcyBvcGVyYXRvciwgYWRkcmVzcyB0b2tlbkhvbGRlcikgZXh0ZXJuYWwgdmlldyByZXR1cm5zIChib29sKTsKCiAgICAvKioKICAgICAqIEBkZXYgTWFrZSBhbiBhY2NvdW50IGFuIG9wZXJhdG9yIG9mIHRoZSBjYWxsZXIuCiAgICAgKgogICAgICogU2VlIHtpc09wZXJhdG9yRm9yfS4KICAgICAqCiAgICAgKiBFbWl0cyBhbiB7QXV0aG9yaXplZE9wZXJhdG9yfSBldmVudC4KICAgICAqCiAgICAgKiBSZXF1aXJlbWVudHMKICAgICAqCiAgICAgKiAtIGBvcGVyYXRvcmAgY2Fubm90IGJlIGNhbGxpbmcgYWRkcmVzcy4KICAgICAqLwogICAgZnVuY3Rpb24gYXV0aG9yaXplT3BlcmF0b3IoYWRkcmVzcyBvcGVyYXRvcikgZXh0ZXJuYWw7CgogICAgLyoqCiAgICAgKiBAZGV2IFJldm9rZSBhbiBhY2NvdW50J3Mgb3BlcmF0b3Igc3RhdHVzIGZvciB0aGUgY2FsbGVyLgogICAgICoKICAgICAqIFNlZSB7aXNPcGVyYXRvckZvcn0gYW5kIHtkZWZhdWx0T3BlcmF0b3JzfS4KICAgICAqCiAgICAgKiBFbWl0cyBhIHtSZXZva2VkT3BlcmF0b3J9IGV2ZW50LgogICAgICoKICAgICAqIFJlcXVpcmVtZW50cwogICAgICoKICAgICAqIC0gYG9wZXJhdG9yYCBjYW5ub3QgYmUgY2FsbGluZyBhZGRyZXNzLgogICAgICovCiAgICBmdW5jdGlvbiByZXZva2VPcGVyYXRvcihhZGRyZXNzIG9wZXJhdG9yKSBleHRlcm5hbDsKCiAgICAvKioKICAgICAqIEBkZXYgUmV0dXJucyB0aGUgbGlzdCBvZiBkZWZhdWx0IG9wZXJhdG9ycy4gVGhlc2UgYWNjb3VudHMgYXJlIG9wZXJhdG9ycwogICAgICogZm9yIGFsbCB0b2tlbiBob2xkZXJzLCBldmVuIGlmIHthdXRob3JpemVPcGVyYXRvcn0gd2FzIG5ldmVyIGNhbGxlZCBvbgogICAgICogdGhlbS4KICAgICAqCiAgICAgKiBUaGlzIGxpc3QgaXMgaW1tdXRhYmxlLCBidXQgaW5kaXZpZHVhbCBob2xkZXJzIG1heSByZXZva2UgdGhlc2UgdmlhCiAgICAgKiB7cmV2b2tlT3BlcmF0b3J9LCBpbiB3aGljaCBjYXNlIHtpc09wZXJhdG9yRm9yfSB3aWxsIHJldHVybiBmYWxzZS4KICAgICAqLwogICAgZnVuY3Rpb24gZGVmYXVsdE9wZXJhdG9ycygpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAoYWRkcmVzc1tdIG1lbW9yeSk7CgogICAgLyoqCiAgICAgKiBAZGV2IE1vdmVzIGBhbW91bnRgIHRva2VucyBmcm9tIGBzZW5kZXJgIHRvIGByZWNpcGllbnRgLiBUaGUgY2FsbGVyIG11c3QKICAgICAqIGJlIGFuIG9wZXJhdG9yIG9mIGBzZW5kZXJgLgogICAgICoKICAgICAqIElmIHNlbmQgb3IgcmVjZWl2ZSBob29rcyBhcmUgcmVnaXN0ZXJlZCBmb3IgYHNlbmRlcmAgYW5kIGByZWNpcGllbnRgLAogICAgICogdGhlIGNvcnJlc3BvbmRpbmcgZnVuY3Rpb25zIHdpbGwgYmUgY2FsbGVkIHdpdGggYGRhdGFgIGFuZAogICAgICogYG9wZXJhdG9yRGF0YWAuIFNlZSB7SUVSQzc3N1NlbmRlcn0gYW5kIHtJRVJDNzc3UmVjaXBpZW50fS4KICAgICAqCiAgICAgKiBFbWl0cyBhIHtTZW50fSBldmVudC4KICAgICAqCiAgICAgKiBSZXF1aXJlbWVudHMKICAgICAqCiAgICAgKiAtIGBzZW5kZXJgIGNhbm5vdCBiZSB0aGUgemVybyBhZGRyZXNzLgogICAgICogLSBgc2VuZGVyYCBtdXN0IGhhdmUgYXQgbGVhc3QgYGFtb3VudGAgdG9rZW5zLgogICAgICogLSB0aGUgY2FsbGVyIG11c3QgYmUgYW4gb3BlcmF0b3IgZm9yIGBzZW5kZXJgLgogICAgICogLSBgcmVjaXBpZW50YCBjYW5ub3QgYmUgdGhlIHplcm8gYWRkcmVzcy4KICAgICAqIC0gaWYgYHJlY2lwaWVudGAgaXMgYSBjb250cmFjdCwgaXQgbXVzdCBpbXBsZW1lbnQgdGhlIHtJRVJDNzc3UmVjaXBpZW50fQogICAgICogaW50ZXJmYWNlLgogICAgICovCiAgICBmdW5jdGlvbiBvcGVyYXRvclNlbmQoCiAgICAgICAgYWRkcmVzcyBzZW5kZXIsCiAgICAgICAgYWRkcmVzcyByZWNpcGllbnQsCiAgICAgICAgdWludDI1NiBhbW91bnQsCiAgICAgICAgYnl0ZXMgY2FsbGRhdGEgZGF0YSwKICAgICAgICBieXRlcyBjYWxsZGF0YSBvcGVyYXRvckRhdGEKICAgICkgZXh0ZXJuYWw7CgogICAgLyoqCiAgICAgKiBAZGV2IERlc3Ryb3lzIGBhbW91bnRgIHRva2VucyBmcm9tIGBhY2NvdW50YCwgcmVkdWNpbmcgdGhlIHRvdGFsIHN1cHBseS4KICAgICAqIFRoZSBjYWxsZXIgbXVzdCBiZSBhbiBvcGVyYXRvciBvZiBgYWNjb3VudGAuCiAgICAgKgogICAgICogSWYgYSBzZW5kIGhvb2sgaXMgcmVnaXN0ZXJlZCBmb3IgYGFjY291bnRgLCB0aGUgY29ycmVzcG9uZGluZyBmdW5jdGlvbgogICAgICogd2lsbCBiZSBjYWxsZWQgd2l0aCBgZGF0YWAgYW5kIGBvcGVyYXRvckRhdGFgLiBTZWUge0lFUkM3NzdTZW5kZXJ9LgogICAgICoKICAgICAqIEVtaXRzIGEge0J1cm5lZH0gZXZlbnQuCiAgICAgKgogICAgICogUmVxdWlyZW1lbnRzCiAgICAgKgogICAgICogLSBgYWNjb3VudGAgY2Fubm90IGJlIHRoZSB6ZXJvIGFkZHJlc3MuCiAgICAgKiAtIGBhY2NvdW50YCBtdXN0IGhhdmUgYXQgbGVhc3QgYGFtb3VudGAgdG9rZW5zLgogICAgICogLSB0aGUgY2FsbGVyIG11c3QgYmUgYW4gb3BlcmF0b3IgZm9yIGBhY2NvdW50YC4KICAgICAqLwogICAgZnVuY3Rpb24gb3BlcmF0b3JCdXJuKGFkZHJlc3MgYWNjb3VudCwgdWludDI1NiBhbW91bnQsIGJ5dGVzIGNhbGxkYXRhIGRhdGEsIGJ5dGVzIGNhbGxkYXRhIG9wZXJhdG9yRGF0YSkgZXh0ZXJuYWw7CgogICAgZXZlbnQgU2VudCgKICAgICAgICBhZGRyZXNzIGluZGV4ZWQgb3BlcmF0b3IsCiAgICAgICAgYWRkcmVzcyBpbmRleGVkIGZyb20sCiAgICAgICAgYWRkcmVzcyBpbmRleGVkIHRvLAogICAgICAgIHVpbnQyNTYgYW1vdW50LAogICAgICAgIGJ5dGVzIGRhdGEsCiAgICAgICAgYnl0ZXMgb3BlcmF0b3JEYXRhCiAgICApOwp9Cg==
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (interfaces/IERC777.sol)
+
+pragma solidity ^0.8.20;
+
+/**
+ * @dev Interface of the ERC-777 Token standard as defined in the ERC.
+ *
+ * This contract uses the
+ * https://eips.ethereum.org/EIPS/eip-1820[ERC-1820 registry standard] to let
+ * token holders and recipients react to token movements by using setting implementers
+ * for the associated interfaces in said registry. See {IERC1820Registry} and
+ * {IERC1820Implementer}.
+ */
+interface IERC777 {
+    /**
+     * @dev Emitted when `amount` tokens are created by `operator` and assigned to `to`.
+     *
+     * Note that some additional user `data` and `operatorData` can be logged in the event.
+     */
+    event Minted(address indexed operator, address indexed to, uint256 amount, bytes data, bytes operatorData);
+
+    /**
+     * @dev Emitted when `operator` destroys `amount` tokens from `account`.
+     *
+     * Note that some additional user `data` and `operatorData` can be logged in the event.
+     */
+    event Burned(address indexed operator, address indexed from, uint256 amount, bytes data, bytes operatorData);
+
+    /**
+     * @dev Emitted when `operator` is made operator for `tokenHolder`.
+     */
+    event AuthorizedOperator(address indexed operator, address indexed tokenHolder);
+
+    /**
+     * @dev Emitted when `operator` is revoked its operator status for `tokenHolder`.
+     */
+    event RevokedOperator(address indexed operator, address indexed tokenHolder);
+
+    /**
+     * @dev Returns the name of the token.
+     */
+    function name() external view returns (string memory);
+
+    /**
+     * @dev Returns the symbol of the token, usually a shorter version of the
+     * name.
+     */
+    function symbol() external view returns (string memory);
+
+    /**
+     * @dev Returns the smallest part of the token that is not divisible. This
+     * means all token operations (creation, movement and destruction) must have
+     * amounts that are a multiple of this number.
+     *
+     * For most token contracts, this value will equal 1.
+     */
+    function granularity() external view returns (uint256);
+
+    /**
+     * @dev Returns the amount of tokens in existence.
+     */
+    function totalSupply() external view returns (uint256);
+
+    /**
+     * @dev Returns the amount of tokens owned by an account (`owner`).
+     */
+    function balanceOf(address owner) external view returns (uint256);
+
+    /**
+     * @dev Moves `amount` tokens from the caller's account to `recipient`.
+     *
+     * If send or receive hooks are registered for the caller and `recipient`,
+     * the corresponding functions will be called with `data` and empty
+     * `operatorData`. See {IERC777Sender} and {IERC777Recipient}.
+     *
+     * Emits a {Sent} event.
+     *
+     * Requirements
+     *
+     * - the caller must have at least `amount` tokens.
+     * - `recipient` cannot be the zero address.
+     * - if `recipient` is a contract, it must implement the {IERC777Recipient}
+     * interface.
+     */
+    function send(address recipient, uint256 amount, bytes calldata data) external;
+
+    /**
+     * @dev Destroys `amount` tokens from the caller's account, reducing the
+     * total supply.
+     *
+     * If a send hook is registered for the caller, the corresponding function
+     * will be called with `data` and empty `operatorData`. See {IERC777Sender}.
+     *
+     * Emits a {Burned} event.
+     *
+     * Requirements
+     *
+     * - the caller must have at least `amount` tokens.
+     */
+    function burn(uint256 amount, bytes calldata data) external;
+
+    /**
+     * @dev Returns true if an account is an operator of `tokenHolder`.
+     * Operators can send and burn tokens on behalf of their owners. All
+     * accounts are their own operator.
+     *
+     * See {operatorSend} and {operatorBurn}.
+     */
+    function isOperatorFor(address operator, address tokenHolder) external view returns (bool);
+
+    /**
+     * @dev Make an account an operator of the caller.
+     *
+     * See {isOperatorFor}.
+     *
+     * Emits an {AuthorizedOperator} event.
+     *
+     * Requirements
+     *
+     * - `operator` cannot be calling address.
+     */
+    function authorizeOperator(address operator) external;
+
+    /**
+     * @dev Revoke an account's operator status for the caller.
+     *
+     * See {isOperatorFor} and {defaultOperators}.
+     *
+     * Emits a {RevokedOperator} event.
+     *
+     * Requirements
+     *
+     * - `operator` cannot be calling address.
+     */
+    function revokeOperator(address operator) external;
+
+    /**
+     * @dev Returns the list of default operators. These accounts are operators
+     * for all token holders, even if {authorizeOperator} was never called on
+     * them.
+     *
+     * This list is immutable, but individual holders may revoke these via
+     * {revokeOperator}, in which case {isOperatorFor} will return false.
+     */
+    function defaultOperators() external view returns (address[] memory);
+
+    /**
+     * @dev Moves `amount` tokens from `sender` to `recipient`. The caller must
+     * be an operator of `sender`.
+     *
+     * If send or receive hooks are registered for `sender` and `recipient`,
+     * the corresponding functions will be called with `data` and
+     * `operatorData`. See {IERC777Sender} and {IERC777Recipient}.
+     *
+     * Emits a {Sent} event.
+     *
+     * Requirements
+     *
+     * - `sender` cannot be the zero address.
+     * - `sender` must have at least `amount` tokens.
+     * - the caller must be an operator for `sender`.
+     * - `recipient` cannot be the zero address.
+     * - if `recipient` is a contract, it must implement the {IERC777Recipient}
+     * interface.
+     */
+    function operatorSend(
+        address sender,
+        address recipient,
+        uint256 amount,
+        bytes calldata data,
+        bytes calldata operatorData
+    ) external;
+
+    /**
+     * @dev Destroys `amount` tokens from `account`, reducing the total supply.
+     * The caller must be an operator of `account`.
+     *
+     * If a send hook is registered for `account`, the corresponding function
+     * will be called with `data` and `operatorData`. See {IERC777Sender}.
+     *
+     * Emits a {Burned} event.
+     *
+     * Requirements
+     *
+     * - `account` cannot be the zero address.
+     * - `account` must have at least `amount` tokens.
+     * - the caller must be an operator for `account`.
+     */
+    function operatorBurn(address account, uint256 amount, bytes calldata data, bytes calldata operatorData) external;
+
+    event Sent(
+        address indexed operator,
+        address indexed from,
+        address indexed to,
+        uint256 amount,
+        bytes data,
+        bytes operatorData
+    );
+}
