@@ -1,1 +1,87 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodXRpbHMvUmVlbnRyYW5jeUd1YXJkLnNvbCkKCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKLyoqCiAqIEBkZXYgQ29udHJhY3QgbW9kdWxlIHRoYXQgaGVscHMgcHJldmVudCByZWVudHJhbnQgY2FsbHMgdG8gYSBmdW5jdGlvbi4KICoKICogSW5oZXJpdGluZyBmcm9tIGBSZWVudHJhbmN5R3VhcmRgIHdpbGwgbWFrZSB0aGUge25vblJlZW50cmFudH0gbW9kaWZpZXIKICogYXZhaWxhYmxlLCB3aGljaCBjYW4gYmUgYXBwbGllZCB0byBmdW5jdGlvbnMgdG8gbWFrZSBzdXJlIHRoZXJlIGFyZSBubyBuZXN0ZWQKICogKHJlZW50cmFudCkgY2FsbHMgdG8gdGhlbS4KICoKICogTm90ZSB0aGF0IGJlY2F1c2UgdGhlcmUgaXMgYSBzaW5nbGUgYG5vblJlZW50cmFudGAgZ3VhcmQsIGZ1bmN0aW9ucyBtYXJrZWQgYXMKICogYG5vblJlZW50cmFudGAgbWF5IG5vdCBjYWxsIG9uZSBhbm90aGVyLiBUaGlzIGNhbiBiZSB3b3JrZWQgYXJvdW5kIGJ5IG1ha2luZwogKiB0aG9zZSBmdW5jdGlvbnMgYHByaXZhdGVgLCBhbmQgdGhlbiBhZGRpbmcgYGV4dGVybmFsYCBgbm9uUmVlbnRyYW50YCBlbnRyeQogKiBwb2ludHMgdG8gdGhlbS4KICoKICogVElQOiBJZiBFSVAtMTE1MyAodHJhbnNpZW50IHN0b3JhZ2UpIGlzIGF2YWlsYWJsZSBvbiB0aGUgY2hhaW4geW91J3JlIGRlcGxveWluZyBhdCwKICogY29uc2lkZXIgdXNpbmcge1JlZW50cmFuY3lHdWFyZFRyYW5zaWVudH0gaW5zdGVhZC4KICoKICogVElQOiBJZiB5b3Ugd291bGQgbGlrZSB0byBsZWFybiBtb3JlIGFib3V0IHJlZW50cmFuY3kgYW5kIGFsdGVybmF0aXZlIHdheXMKICogdG8gcHJvdGVjdCBhZ2FpbnN0IGl0LCBjaGVjayBvdXQgb3VyIGJsb2cgcG9zdAogKiBodHRwczovL2Jsb2cub3BlbnplcHBlbGluLmNvbS9yZWVudHJhbmN5LWFmdGVyLWlzdGFuYnVsL1tSZWVudHJhbmN5IEFmdGVyIElzdGFuYnVsXS4KICovCmFic3RyYWN0IGNvbnRyYWN0IFJlZW50cmFuY3lHdWFyZCB7CiAgICAvLyBCb29sZWFucyBhcmUgbW9yZSBleHBlbnNpdmUgdGhhbiB1aW50MjU2IG9yIGFueSB0eXBlIHRoYXQgdGFrZXMgdXAgYSBmdWxsCiAgICAvLyB3b3JkIGJlY2F1c2UgZWFjaCB3cml0ZSBvcGVyYXRpb24gZW1pdHMgYW4gZXh0cmEgU0xPQUQgdG8gZmlyc3QgcmVhZCB0aGUKICAgIC8vIHNsb3QncyBjb250ZW50cywgcmVwbGFjZSB0aGUgYml0cyB0YWtlbiB1cCBieSB0aGUgYm9vbGVhbiwgYW5kIHRoZW4gd3JpdGUKICAgIC8vIGJhY2suIFRoaXMgaXMgdGhlIGNvbXBpbGVyJ3MgZGVmZW5zZSBhZ2FpbnN0IGNvbnRyYWN0IHVwZ3JhZGVzIGFuZAogICAgLy8gcG9pbnRlciBhbGlhc2luZywgYW5kIGl0IGNhbm5vdCBiZSBkaXNhYmxlZC4KCiAgICAvLyBUaGUgdmFsdWVzIGJlaW5nIG5vbi16ZXJvIHZhbHVlIG1ha2VzIGRlcGxveW1lbnQgYSBiaXQgbW9yZSBleHBlbnNpdmUsCiAgICAvLyBidXQgaW4gZXhjaGFuZ2UgdGhlIHJlZnVuZCBvbiBldmVyeSBjYWxsIHRvIG5vblJlZW50cmFudCB3aWxsIGJlIGxvd2VyIGluCiAgICAvLyBhbW91bnQuIFNpbmNlIHJlZnVuZHMgYXJlIGNhcHBlZCB0byBhIHBlcmNlbnRhZ2Ugb2YgdGhlIHRvdGFsCiAgICAvLyB0cmFuc2FjdGlvbidzIGdhcywgaXQgaXMgYmVzdCB0byBrZWVwIHRoZW0gbG93IGluIGNhc2VzIGxpa2UgdGhpcyBvbmUsIHRvCiAgICAvLyBpbmNyZWFzZSB0aGUgbGlrZWxpaG9vZCBvZiB0aGUgZnVsbCByZWZ1bmQgY29taW5nIGludG8gZWZmZWN0LgogICAgdWludDI1NiBwcml2YXRlIGNvbnN0YW50IE5PVF9FTlRFUkVEID0gMTsKICAgIHVpbnQyNTYgcHJpdmF0ZSBjb25zdGFudCBFTlRFUkVEID0gMjsKCiAgICB1aW50MjU2IHByaXZhdGUgX3N0YXR1czsKCiAgICAvKioKICAgICAqIEBkZXYgVW5hdXRob3JpemVkIHJlZW50cmFudCBjYWxsLgogICAgICovCiAgICBlcnJvciBSZWVudHJhbmN5R3VhcmRSZWVudHJhbnRDYWxsKCk7CgogICAgY29uc3RydWN0b3IoKSB7CiAgICAgICAgX3N0YXR1cyA9IE5PVF9FTlRFUkVEOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBQcmV2ZW50cyBhIGNvbnRyYWN0IGZyb20gY2FsbGluZyBpdHNlbGYsIGRpcmVjdGx5IG9yIGluZGlyZWN0bHkuCiAgICAgKiBDYWxsaW5nIGEgYG5vblJlZW50cmFudGAgZnVuY3Rpb24gZnJvbSBhbm90aGVyIGBub25SZWVudHJhbnRgCiAgICAgKiBmdW5jdGlvbiBpcyBub3Qgc3VwcG9ydGVkLiBJdCBpcyBwb3NzaWJsZSB0byBwcmV2ZW50IHRoaXMgZnJvbSBoYXBwZW5pbmcKICAgICAqIGJ5IG1ha2luZyB0aGUgYG5vblJlZW50cmFudGAgZnVuY3Rpb24gZXh0ZXJuYWwsIGFuZCBtYWtpbmcgaXQgY2FsbCBhCiAgICAgKiBgcHJpdmF0ZWAgZnVuY3Rpb24gdGhhdCBkb2VzIHRoZSBhY3R1YWwgd29yay4KICAgICAqLwogICAgbW9kaWZpZXIgbm9uUmVlbnRyYW50KCkgewogICAgICAgIF9ub25SZWVudHJhbnRCZWZvcmUoKTsKICAgICAgICBfOwogICAgICAgIF9ub25SZWVudHJhbnRBZnRlcigpOwogICAgfQoKICAgIGZ1bmN0aW9uIF9ub25SZWVudHJhbnRCZWZvcmUoKSBwcml2YXRlIHsKICAgICAgICAvLyBPbiB0aGUgZmlyc3QgY2FsbCB0byBub25SZWVudHJhbnQsIF9zdGF0dXMgd2lsbCBiZSBOT1RfRU5URVJFRAogICAgICAgIGlmIChfc3RhdHVzID09IEVOVEVSRUQpIHsKICAgICAgICAgICAgcmV2ZXJ0IFJlZW50cmFuY3lHdWFyZFJlZW50cmFudENhbGwoKTsKICAgICAgICB9CgogICAgICAgIC8vIEFueSBjYWxscyB0byBub25SZWVudHJhbnQgYWZ0ZXIgdGhpcyBwb2ludCB3aWxsIGZhaWwKICAgICAgICBfc3RhdHVzID0gRU5URVJFRDsKICAgIH0KCiAgICBmdW5jdGlvbiBfbm9uUmVlbnRyYW50QWZ0ZXIoKSBwcml2YXRlIHsKICAgICAgICAvLyBCeSBzdG9yaW5nIHRoZSBvcmlnaW5hbCB2YWx1ZSBvbmNlIGFnYWluLCBhIHJlZnVuZCBpcyB0cmlnZ2VyZWQgKHNlZQogICAgICAgIC8vIGh0dHBzOi8vZWlwcy5ldGhlcmV1bS5vcmcvRUlQUy9laXAtMjIwMCkKICAgICAgICBfc3RhdHVzID0gTk9UX0VOVEVSRUQ7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdHJ1ZSBpZiB0aGUgcmVlbnRyYW5jeSBndWFyZCBpcyBjdXJyZW50bHkgc2V0IHRvICJlbnRlcmVkIiwgd2hpY2ggaW5kaWNhdGVzIHRoZXJlIGlzIGEKICAgICAqIGBub25SZWVudHJhbnRgIGZ1bmN0aW9uIGluIHRoZSBjYWxsIHN0YWNrLgogICAgICovCiAgICBmdW5jdGlvbiBfcmVlbnRyYW5jeUd1YXJkRW50ZXJlZCgpIGludGVybmFsIHZpZXcgcmV0dXJucyAoYm9vbCkgewogICAgICAgIHJldHVybiBfc3RhdHVzID09IEVOVEVSRUQ7CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (utils/ReentrancyGuard.sol)
+
+pragma solidity ^0.8.20;
+
+/**
+ * @dev Contract module that helps prevent reentrant calls to a function.
+ *
+ * Inheriting from `ReentrancyGuard` will make the {nonReentrant} modifier
+ * available, which can be applied to functions to make sure there are no nested
+ * (reentrant) calls to them.
+ *
+ * Note that because there is a single `nonReentrant` guard, functions marked as
+ * `nonReentrant` may not call one another. This can be worked around by making
+ * those functions `private`, and then adding `external` `nonReentrant` entry
+ * points to them.
+ *
+ * TIP: If EIP-1153 (transient storage) is available on the chain you're deploying at,
+ * consider using {ReentrancyGuardTransient} instead.
+ *
+ * TIP: If you would like to learn more about reentrancy and alternative ways
+ * to protect against it, check out our blog post
+ * https://blog.openzeppelin.com/reentrancy-after-istanbul/[Reentrancy After Istanbul].
+ */
+abstract contract ReentrancyGuard {
+    // Booleans are more expensive than uint256 or any type that takes up a full
+    // word because each write operation emits an extra SLOAD to first read the
+    // slot's contents, replace the bits taken up by the boolean, and then write
+    // back. This is the compiler's defense against contract upgrades and
+    // pointer aliasing, and it cannot be disabled.
+
+    // The values being non-zero value makes deployment a bit more expensive,
+    // but in exchange the refund on every call to nonReentrant will be lower in
+    // amount. Since refunds are capped to a percentage of the total
+    // transaction's gas, it is best to keep them low in cases like this one, to
+    // increase the likelihood of the full refund coming into effect.
+    uint256 private constant NOT_ENTERED = 1;
+    uint256 private constant ENTERED = 2;
+
+    uint256 private _status;
+
+    /**
+     * @dev Unauthorized reentrant call.
+     */
+    error ReentrancyGuardReentrantCall();
+
+    constructor() {
+        _status = NOT_ENTERED;
+    }
+
+    /**
+     * @dev Prevents a contract from calling itself, directly or indirectly.
+     * Calling a `nonReentrant` function from another `nonReentrant`
+     * function is not supported. It is possible to prevent this from happening
+     * by making the `nonReentrant` function external, and making it call a
+     * `private` function that does the actual work.
+     */
+    modifier nonReentrant() {
+        _nonReentrantBefore();
+        _;
+        _nonReentrantAfter();
+    }
+
+    function _nonReentrantBefore() private {
+        // On the first call to nonReentrant, _status will be NOT_ENTERED
+        if (_status == ENTERED) {
+            revert ReentrancyGuardReentrantCall();
+        }
+
+        // Any calls to nonReentrant after this point will fail
+        _status = ENTERED;
+    }
+
+    function _nonReentrantAfter() private {
+        // By storing the original value once again, a refund is triggered (see
+        // https://eips.ethereum.org/EIPS/eip-2200)
+        _status = NOT_ENTERED;
+    }
+
+    /**
+     * @dev Returns true if the reentrancy guard is currently set to "entered", which indicates there is a
+     * `nonReentrant` function in the call stack.
+     */
+    function _reentrancyGuardEntered() internal view returns (bool) {
+        return _status == ENTERED;
+    }
+}
