@@ -1,1 +1,30 @@
-LyoqCiAqIFByaW50cyB3aGF0IHlvdSBuZWVkIHRvIGtub3cgYmVmb3JlIGJ1aWxkaW5nOiBjaGFpbiwgaGVhZCBibG9jaywgYW5kIHRoZSBiYWxhbmNlcyBvZiBBRERSRVNTLgogKiAgIHBucG0gZXhhbXBsZSBjaGVjay1zZXR1cAogKi8KaW1wb3J0IHsgZm9ybWF0RXRoZXIsIGZvcm1hdFVuaXRzIH0gZnJvbSAidmllbSI7CmltcG9ydCB7IGFldnVtRm9yaywgYWV2dW1UZXN0bmV0LCBlcmMyMEFiaSwgVFVTRDhfQUREUkVTUywgVFVTRDhfREVDSU1BTFMgfSBmcm9tICJAYWV2dW0ta2l0L2FldnVtIjsKaW1wb3J0IHsgY29ubmVjdCwgcmVxdWlyZWRBZGRyZXNzIH0gZnJvbSAiLi9lbnYiOwoKY29uc3QgeyBjbGllbnQsIGNoYWluLCBycGNVcmwgfSA9IGF3YWl0IGNvbm5lY3QoKTsKY29uc3QgYWRkcmVzcyA9IHJlcXVpcmVkQWRkcmVzcygiQUREUkVTUyIpOwoKY29uc3QgW2Jsb2NrLCBnYXNQcmljZSwgbmF0aXZlXSA9IGF3YWl0IFByb21pc2UuYWxsKFsKICBjbGllbnQuZ2V0QmxvY2tOdW1iZXIoKSwKICBjbGllbnQuZ2V0R2FzUHJpY2UoKSwKICBjbGllbnQuZ2V0QmFsYW5jZSh7IGFkZHJlc3MgfSksCl0pOwoKY29uc29sZS5sb2coYE5ldHdvcmsgICAke2NoYWluLm5hbWV9IChjaGFpbiAke2NoYWluLmlkfSlgKTsKY29uc29sZS5sb2coYFJQQyAgICAgICAke3JwY1VybH1gKTsKY29uc29sZS5sb2coYEJsb2NrICAgICAke2Jsb2NrfWApOwpjb25zb2xlLmxvZyhgR2FzIHByaWNlICR7Zm9ybWF0VW5pdHMoZ2FzUHJpY2UsIDkpfSBnd2VpYCk7CmNvbnNvbGUubG9nKGBBZGRyZXNzICAgJHthZGRyZXNzfWApOwpjb25zb2xlLmxvZyhgR2FzICAgICAgICR7Zm9ybWF0RXRoZXIobmF0aXZlKX0gJHtjaGFpbi5uYXRpdmVDdXJyZW5jeS5zeW1ib2x9YCk7CgppZiAoY2hhaW4uaWQgPT09IGFldnVtVGVzdG5ldC5pZCB8fCBjaGFpbi5pZCA9PT0gYWV2dW1Gb3JrLmlkKSB7CiAgY29uc3QgdHVzZDggPSBhd2FpdCBjbGllbnQucmVhZENvbnRyYWN0KHsgYWRkcmVzczogVFVTRDhfQUREUkVTUywgYWJpOiBlcmMyMEFiaSwgZnVuY3Rpb25OYW1lOiAiYmFsYW5jZU9mIiwgYXJnczogW2FkZHJlc3NdIH0pOwogIGNvbnNvbGUubG9nKGB0VVNEOCAgICAgJHtmb3JtYXRVbml0cyh0dXNkOCwgVFVTRDhfREVDSU1BTFMpfWApOwogIGlmIChuYXRpdmUgPT09IDBuKSBjb25zb2xlLmxvZygiXG7ihpIgTm8gZ2FzIHlldC4gR2V0IHRRREFZIGZyb20gdGhlIGZhdWNldCAoc2VlIFJFQURNRSDigLogR2V0IHRlc3QgdG9rZW5zKS4iKTsKICBpZiAodHVzZDggPT09IDBuKSBjb25zb2xlLmxvZygi4oaSIE5vIHRVU0Q4IHlldC4gVXNlIC9mYXVjZXQgaW4gdGhlIFFEYXkgRGlzY29yZCwgb3IgYG1ha2UgZm9ya2AgYW5kIGRlYWwgeW91cnNlbGYgc29tZS4iKTsKfQo=
+/**
+ * Prints what you need to know before building: chain, head block, and the balances of ADDRESS.
+ *   pnpm example check-setup
+ */
+import { formatEther, formatUnits } from "viem";
+import { aevumFork, aevumTestnet, erc20Abi, TUSD8_ADDRESS, TUSD8_DECIMALS } from "@aevum-kit/aevum";
+import { connect, requiredAddress } from "./env";
+
+const { client, chain, rpcUrl } = await connect();
+const address = requiredAddress("ADDRESS");
+
+const [block, gasPrice, native] = await Promise.all([
+  client.getBlockNumber(),
+  client.getGasPrice(),
+  client.getBalance({ address }),
+]);
+
+console.log(`Network   ${chain.name} (chain ${chain.id})`);
+console.log(`RPC       ${rpcUrl}`);
+console.log(`Block     ${block}`);
+console.log(`Gas price ${formatUnits(gasPrice, 9)} gwei`);
+console.log(`Address   ${address}`);
+console.log(`Gas       ${formatEther(native)} ${chain.nativeCurrency.symbol}`);
+
+if (chain.id === aevumTestnet.id || chain.id === aevumFork.id) {
+  const tusd8 = await client.readContract({ address: TUSD8_ADDRESS, abi: erc20Abi, functionName: "balanceOf", args: [address] });
+  console.log(`tUSD8     ${formatUnits(tusd8, TUSD8_DECIMALS)}`);
+  if (native === 0n) console.log("\n→ No gas yet. Get tQDAY from the faucet (see README › Get test tokens).");
+  if (tusd8 === 0n) console.log("→ No tUSD8 yet. Use /faucet in the QDay Discord, or `make fork` and deal yourself some.");
+}
