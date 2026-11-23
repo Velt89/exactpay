@@ -1,1 +1,349 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IEFHUEwtMy4wCnByYWdtYSBzb2xpZGl0eSA+PTAuOC4wIDwwLjkuMDsKCmltcG9ydCAiLi9FUkM0NjI2LnByb3Auc29sIjsKCmludGVyZmFjZSBJTW9ja0VSQzIwIGlzIElFUkMyMCB7CiAgICBmdW5jdGlvbiBtaW50KGFkZHJlc3MgdG8sIHVpbnQgdmFsdWUpIGV4dGVybmFsOwogICAgZnVuY3Rpb24gYnVybihhZGRyZXNzIGZyb20sIHVpbnQgdmFsdWUpIGV4dGVybmFsOwp9CgphYnN0cmFjdCBjb250cmFjdCBFUkM0NjI2VGVzdCBpcyBFUkM0NjI2UHJvcCB7CiAgICBmdW5jdGlvbiBzZXRVcCgpIHB1YmxpYyB2aXJ0dWFsOwoKICAgIHVpbnQgY29uc3RhbnQgTiA9IDQ7CgogICAgc3RydWN0IEluaXQgewogICAgICAgIGFkZHJlc3NbTl0gdXNlcjsKICAgICAgICB1aW50W05dIHNoYXJlOwogICAgICAgIHVpbnRbTl0gYXNzZXQ7CiAgICAgICAgaW50IHlpZWxkOwogICAgfQoKICAgIC8vIHNldHVwIGluaXRpYWwgdmF1bHQgc3RhdGUgYXMgZm9sbG93czoKICAgIC8vCiAgICAvLyB0b3RhbEFzc2V0cyA9PSBzdW0oaW5pdC5zaGFyZSkgKyBpbml0LnlpZWxkCiAgICAvLyB0b3RhbFNoYXJlcyA9PSBzdW0oaW5pdC5zaGFyZSkKICAgIC8vCiAgICAvLyBpbml0LnVzZXJbaV0ncyBhc3NldHMgPT0gaW5pdC5hc3NldFtpXQogICAgLy8gaW5pdC51c2VyW2ldJ3Mgc2hhcmVzID09IGluaXQuc2hhcmVbaV0KICAgIGZ1bmN0aW9uIHNldFVwVmF1bHQoSW5pdCBtZW1vcnkgaW5pdCkgcHVibGljIHZpcnR1YWwgewogICAgICAgIC8vIHNldHVwIGluaXRpYWwgc2hhcmVzIGFuZCBhc3NldHMgZm9yIGluZGl2aWR1YWwgdXNlcnMKICAgICAgICBmb3IgKHVpbnQgaSA9IDA7IGkgPCBOOyBpKyspIHsKICAgICAgICAgICAgYWRkcmVzcyB1c2VyID0gaW5pdC51c2VyW2ldOwogICAgICAgICAgICB2bS5hc3N1bWUoX2lzRU9BKHVzZXIpKTsKICAgICAgICAgICAgLy8gc2hhcmVzCiAgICAgICAgICAgIHVpbnQgc2hhcmVzID0gaW5pdC5zaGFyZVtpXTsKICAgICAgICAgICAgdHJ5IElNb2NrRVJDMjAoX3VuZGVybHlpbmdfKS5taW50KHVzZXIsIHNoYXJlcykge30gY2F0Y2ggeyB2bS5hc3N1bWUoZmFsc2UpOyB9CiAgICAgICAgICAgIF9hcHByb3ZlKF91bmRlcmx5aW5nXywgdXNlciwgX3ZhdWx0Xywgc2hhcmVzKTsKICAgICAgICAgICAgdm0ucHJhbmsodXNlcik7IHRyeSBJRVJDNDYyNihfdmF1bHRfKS5kZXBvc2l0KHNoYXJlcywgdXNlcikge30gY2F0Y2ggeyB2bS5hc3N1bWUoZmFsc2UpOyB9CiAgICAgICAgICAgIC8vIGFzc2V0cwogICAgICAgICAgICB1aW50IGFzc2V0cyA9IGluaXQuYXNzZXRbaV07CiAgICAgICAgICAgIHRyeSBJTW9ja0VSQzIwKF91bmRlcmx5aW5nXykubWludCh1c2VyLCBhc3NldHMpIHt9IGNhdGNoIHsgdm0uYXNzdW1lKGZhbHNlKTsgfQogICAgICAgIH0KCiAgICAgICAgLy8gc2V0dXAgaW5pdGlhbCB5aWVsZCBmb3IgdmF1bHQKICAgICAgICBzZXRVcFlpZWxkKGluaXQpOwogICAgfQoKICAgIC8vIHNldHVwIGluaXRpYWwgeWllbGQKICAgIGZ1bmN0aW9uIHNldFVwWWllbGQoSW5pdCBtZW1vcnkgaW5pdCkgcHVibGljIHZpcnR1YWwgewogICAgICAgIGlmIChpbml0LnlpZWxkID49IDApIHsgLy8gZ2FpbgogICAgICAgICAgICB1aW50IGdhaW4gPSB1aW50KGluaXQueWllbGQpOwogICAgICAgICAgICB0cnkgSU1vY2tFUkMyMChfdW5kZXJseWluZ18pLm1pbnQoX3ZhdWx0XywgZ2Fpbikge30gY2F0Y2ggeyB2bS5hc3N1bWUoZmFsc2UpOyB9IC8vIHRoaXMgY2FuIGJlIHJlcGxhY2VkIGJ5IGNhbGxpbmcgeWllbGQgZ2VuZXJhdGluZyBmdW5jdGlvbnMgaWYgcHJvdmlkZWQgYnkgdGhlIHZhdWx0CiAgICAgICAgfSBlbHNlIHsgLy8gbG9zcwogICAgICAgICAgICB2bS5hc3N1bWUoaW5pdC55aWVsZCA+IHR5cGUoaW50KS5taW4pOyAvLyBhdm9pZCBvdmVyZmxvdyBpbiBjb252ZXJzaW9uCiAgICAgICAgICAgIHVpbnQgbG9zcyA9IHVpbnQoLTEgKiBpbml0LnlpZWxkKTsKICAgICAgICAgICAgdHJ5IElNb2NrRVJDMjAoX3VuZGVybHlpbmdfKS5idXJuKF92YXVsdF8sIGxvc3MpIHt9IGNhdGNoIHsgdm0uYXNzdW1lKGZhbHNlKTsgfSAvLyB0aGlzIGNhbiBiZSByZXBsYWNlZCBieSBjYWxsaW5nIHlpZWxkIGdlbmVyYXRpbmcgZnVuY3Rpb25zIGlmIHByb3ZpZGVkIGJ5IHRoZSB2YXVsdAogICAgICAgIH0KICAgIH0KCiAgICAvLwogICAgLy8gYXNzZXQKICAgIC8vCgogICAgZnVuY3Rpb24gdGVzdF9hc3NldChJbml0IG1lbW9yeSBpbml0KSBwdWJsaWMgdmlydHVhbCB7CiAgICAgICAgc2V0VXBWYXVsdChpbml0KTsKICAgICAgICBhZGRyZXNzIGNhbGxlciA9IGluaXQudXNlclswXTsKICAgICAgICBwcm9wX2Fzc2V0KGNhbGxlcik7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF90b3RhbEFzc2V0cyhJbml0IG1lbW9yeSBpbml0KSBwdWJsaWMgdmlydHVhbCB7CiAgICAgICAgc2V0VXBWYXVsdChpbml0KTsKICAgICAgICBhZGRyZXNzIGNhbGxlciA9IGluaXQudXNlclswXTsKICAgICAgICBwcm9wX3RvdGFsQXNzZXRzKGNhbGxlcik7CiAgICB9CgogICAgLy8KICAgIC8vIGNvbnZlcnQKICAgIC8vCgogICAgZnVuY3Rpb24gdGVzdF9jb252ZXJ0VG9TaGFyZXMoSW5pdCBtZW1vcnkgaW5pdCwgdWludCBhc3NldHMpIHB1YmxpYyB2aXJ0dWFsIHsKICAgICAgICBzZXRVcFZhdWx0KGluaXQpOwogICAgICAgIGFkZHJlc3MgY2FsbGVyMSA9IGluaXQudXNlclswXTsKICAgICAgICBhZGRyZXNzIGNhbGxlcjIgPSBpbml0LnVzZXJbMV07CiAgICAgICAgcHJvcF9jb252ZXJ0VG9TaGFyZXMoY2FsbGVyMSwgY2FsbGVyMiwgYXNzZXRzKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X2NvbnZlcnRUb0Fzc2V0cyhJbml0IG1lbW9yeSBpbml0LCB1aW50IHNoYXJlcykgcHVibGljIHZpcnR1YWwgewogICAgICAgIHNldFVwVmF1bHQoaW5pdCk7CiAgICAgICAgYWRkcmVzcyBjYWxsZXIxID0gaW5pdC51c2VyWzBdOwogICAgICAgIGFkZHJlc3MgY2FsbGVyMiA9IGluaXQudXNlclsxXTsKICAgICAgICBwcm9wX2NvbnZlcnRUb0Fzc2V0cyhjYWxsZXIxLCBjYWxsZXIyLCBzaGFyZXMpOwogICAgfQoKICAgIC8vCiAgICAvLyBkZXBvc2l0CiAgICAvLwoKICAgIGZ1bmN0aW9uIHRlc3RfbWF4RGVwb3NpdChJbml0IG1lbW9yeSBpbml0KSBwdWJsaWMgdmlydHVhbCB7CiAgICAgICAgc2V0VXBWYXVsdChpbml0KTsKICAgICAgICBhZGRyZXNzIGNhbGxlciAgID0gaW5pdC51c2VyWzBdOwogICAgICAgIGFkZHJlc3MgcmVjZWl2ZXIgPSBpbml0LnVzZXJbMV07CiAgICAgICAgcHJvcF9tYXhEZXBvc2l0KGNhbGxlciwgcmVjZWl2ZXIpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfcHJldmlld0RlcG9zaXQoSW5pdCBtZW1vcnkgaW5pdCwgdWludCBhc3NldHMpIHB1YmxpYyB2aXJ0dWFsIHsKICAgICAgICBzZXRVcFZhdWx0KGluaXQpOwogICAgICAgIGFkZHJlc3MgY2FsbGVyICAgPSBpbml0LnVzZXJbMF07CiAgICAgICAgYWRkcmVzcyByZWNlaXZlciA9IGluaXQudXNlclsxXTsKICAgICAgICBhZGRyZXNzIG90aGVyICAgID0gaW5pdC51c2VyWzJdOwogICAgICAgIGFzc2V0cyA9IGJvdW5kKGFzc2V0cywgMCwgX21heF9kZXBvc2l0KGNhbGxlcikpOwogICAgICAgIF9hcHByb3ZlKF91bmRlcmx5aW5nXywgY2FsbGVyLCBfdmF1bHRfLCB0eXBlKHVpbnQpLm1heCk7CiAgICAgICAgcHJvcF9wcmV2aWV3RGVwb3NpdChjYWxsZXIsIHJlY2VpdmVyLCBvdGhlciwgYXNzZXRzKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X2RlcG9zaXQoSW5pdCBtZW1vcnkgaW5pdCwgdWludCBhc3NldHMsIHVpbnQgYWxsb3dhbmNlKSBwdWJsaWMgdmlydHVhbCB7CiAgICAgICAgc2V0VXBWYXVsdChpbml0KTsKICAgICAgICBhZGRyZXNzIGNhbGxlciAgID0gaW5pdC51c2VyWzBdOwogICAgICAgIGFkZHJlc3MgcmVjZWl2ZXIgPSBpbml0LnVzZXJbMV07CiAgICAgICAgYXNzZXRzID0gYm91bmQoYXNzZXRzLCAwLCBfbWF4X2RlcG9zaXQoY2FsbGVyKSk7CiAgICAgICAgX2FwcHJvdmUoX3VuZGVybHlpbmdfLCBjYWxsZXIsIF92YXVsdF8sIGFsbG93YW5jZSk7CiAgICAgICAgcHJvcF9kZXBvc2l0KGNhbGxlciwgcmVjZWl2ZXIsIGFzc2V0cyk7CiAgICB9CgogICAgLy8KICAgIC8vIG1pbnQKICAgIC8vCgogICAgZnVuY3Rpb24gdGVzdF9tYXhNaW50KEluaXQgbWVtb3J5IGluaXQpIHB1YmxpYyB2aXJ0dWFsIHsKICAgICAgICBzZXRVcFZhdWx0KGluaXQpOwogICAgICAgIGFkZHJlc3MgY2FsbGVyICAgPSBpbml0LnVzZXJbMF07CiAgICAgICAgYWRkcmVzcyByZWNlaXZlciA9IGluaXQudXNlclsxXTsKICAgICAgICBwcm9wX21heE1pbnQoY2FsbGVyLCByZWNlaXZlcik7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9wcmV2aWV3TWludChJbml0IG1lbW9yeSBpbml0LCB1aW50IHNoYXJlcykgcHVibGljIHZpcnR1YWwgewogICAgICAgIHNldFVwVmF1bHQoaW5pdCk7CiAgICAgICAgYWRkcmVzcyBjYWxsZXIgICA9IGluaXQudXNlclswXTsKICAgICAgICBhZGRyZXNzIHJlY2VpdmVyID0gaW5pdC51c2VyWzFdOwogICAgICAgIGFkZHJlc3Mgb3RoZXIgICAgPSBpbml0LnVzZXJbMl07CiAgICAgICAgc2hhcmVzID0gYm91bmQoc2hhcmVzLCAwLCBfbWF4X21pbnQoY2FsbGVyKSk7CiAgICAgICAgX2FwcHJvdmUoX3VuZGVybHlpbmdfLCBjYWxsZXIsIF92YXVsdF8sIHR5cGUodWludCkubWF4KTsKICAgICAgICBwcm9wX3ByZXZpZXdNaW50KGNhbGxlciwgcmVjZWl2ZXIsIG90aGVyLCBzaGFyZXMpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfbWludChJbml0IG1lbW9yeSBpbml0LCB1aW50IHNoYXJlcywgdWludCBhbGxvd2FuY2UpIHB1YmxpYyB2aXJ0dWFsIHsKICAgICAgICBzZXRVcFZhdWx0KGluaXQpOwogICAgICAgIGFkZHJlc3MgY2FsbGVyICAgPSBpbml0LnVzZXJbMF07CiAgICAgICAgYWRkcmVzcyByZWNlaXZlciA9IGluaXQudXNlclsxXTsKICAgICAgICBzaGFyZXMgPSBib3VuZChzaGFyZXMsIDAsIF9tYXhfbWludChjYWxsZXIpKTsKICAgICAgICBfYXBwcm92ZShfdW5kZXJseWluZ18sIGNhbGxlciwgX3ZhdWx0XywgYWxsb3dhbmNlKTsKICAgICAgICBwcm9wX21pbnQoY2FsbGVyLCByZWNlaXZlciwgc2hhcmVzKTsKICAgIH0KCiAgICAvLwogICAgLy8gd2l0aGRyYXcKICAgIC8vCgogICAgZnVuY3Rpb24gdGVzdF9tYXhXaXRoZHJhdyhJbml0IG1lbW9yeSBpbml0KSBwdWJsaWMgdmlydHVhbCB7CiAgICAgICAgc2V0VXBWYXVsdChpbml0KTsKICAgICAgICBhZGRyZXNzIGNhbGxlciA9IGluaXQudXNlclswXTsKICAgICAgICBhZGRyZXNzIG93bmVyICA9IGluaXQudXNlclsxXTsKICAgICAgICBwcm9wX21heFdpdGhkcmF3KGNhbGxlciwgb3duZXIpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfcHJldmlld1dpdGhkcmF3KEluaXQgbWVtb3J5IGluaXQsIHVpbnQgYXNzZXRzKSBwdWJsaWMgdmlydHVhbCB7CiAgICAgICAgc2V0VXBWYXVsdChpbml0KTsKICAgICAgICBhZGRyZXNzIGNhbGxlciAgID0gaW5pdC51c2VyWzBdOwogICAgICAgIGFkZHJlc3MgcmVjZWl2ZXIgPSBpbml0LnVzZXJbMV07CiAgICAgICAgYWRkcmVzcyBvd25lciAgICA9IGluaXQudXNlclsyXTsKICAgICAgICBhZGRyZXNzIG90aGVyICAgID0gaW5pdC51c2VyWzNdOwogICAgICAgIGFzc2V0cyA9IGJvdW5kKGFzc2V0cywgMCwgX21heF93aXRoZHJhdyhvd25lcikpOwogICAgICAgIF9hcHByb3ZlKF92YXVsdF8sIG93bmVyLCBjYWxsZXIsIHR5cGUodWludCkubWF4KTsKICAgICAgICBwcm9wX3ByZXZpZXdXaXRoZHJhdyhjYWxsZXIsIHJlY2VpdmVyLCBvd25lciwgb3RoZXIsIGFzc2V0cyk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF93aXRoZHJhdyhJbml0IG1lbW9yeSBpbml0LCB1aW50IGFzc2V0cywgdWludCBhbGxvd2FuY2UpIHB1YmxpYyB2aXJ0dWFsIHsKICAgICAgICBzZXRVcFZhdWx0KGluaXQpOwogICAgICAgIGFkZHJlc3MgY2FsbGVyICAgPSBpbml0LnVzZXJbMF07CiAgICAgICAgYWRkcmVzcyByZWNlaXZlciA9IGluaXQudXNlclsxXTsKICAgICAgICBhZGRyZXNzIG93bmVyICAgID0gaW5pdC51c2VyWzJdOwogICAgICAgIGFzc2V0cyA9IGJvdW5kKGFzc2V0cywgMCwgX21heF93aXRoZHJhdyhvd25lcikpOwogICAgICAgIF9hcHByb3ZlKF92YXVsdF8sIG93bmVyLCBjYWxsZXIsIGFsbG93YW5jZSk7CiAgICAgICAgcHJvcF93aXRoZHJhdyhjYWxsZXIsIHJlY2VpdmVyLCBvd25lciwgYXNzZXRzKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0RmFpbF93aXRoZHJhdyhJbml0IG1lbW9yeSBpbml0LCB1aW50IGFzc2V0cykgcHVibGljIHZpcnR1YWwgewogICAgICAgIHNldFVwVmF1bHQoaW5pdCk7CiAgICAgICAgYWRkcmVzcyBjYWxsZXIgICA9IGluaXQudXNlclswXTsKICAgICAgICBhZGRyZXNzIHJlY2VpdmVyID0gaW5pdC51c2VyWzFdOwogICAgICAgIGFkZHJlc3Mgb3duZXIgICAgPSBpbml0LnVzZXJbMl07CiAgICAgICAgYXNzZXRzID0gYm91bmQoYXNzZXRzLCAwLCBfbWF4X3dpdGhkcmF3KG93bmVyKSk7CiAgICAgICAgdm0uYXNzdW1lKGNhbGxlciAhPSBvd25lcik7CiAgICAgICAgdm0uYXNzdW1lKGFzc2V0cyA+IDApOwogICAgICAgIF9hcHByb3ZlKF92YXVsdF8sIG93bmVyLCBjYWxsZXIsIDApOwogICAgICAgIHZtLnByYW5rKGNhbGxlcik7IHVpbnQgc2hhcmVzID0gSUVSQzQ2MjYoX3ZhdWx0Xykud2l0aGRyYXcoYXNzZXRzLCByZWNlaXZlciwgb3duZXIpOwogICAgICAgIGFzc2VydEd0KHNoYXJlcywgMCk7IC8vIHRoaXMgYXNzZXJ0IGlzIGV4cGVjdGVkIHRvIGZhaWwKICAgIH0KCiAgICAvLwogICAgLy8gcmVkZWVtCiAgICAvLwoKICAgIGZ1bmN0aW9uIHRlc3RfbWF4UmVkZWVtKEluaXQgbWVtb3J5IGluaXQpIHB1YmxpYyB2aXJ0dWFsIHsKICAgICAgICBzZXRVcFZhdWx0KGluaXQpOwogICAgICAgIGFkZHJlc3MgY2FsbGVyID0gaW5pdC51c2VyWzBdOwogICAgICAgIGFkZHJlc3Mgb3duZXIgID0gaW5pdC51c2VyWzFdOwogICAgICAgIHByb3BfbWF4UmVkZWVtKGNhbGxlciwgb3duZXIpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfcHJldmlld1JlZGVlbShJbml0IG1lbW9yeSBpbml0LCB1aW50IHNoYXJlcykgcHVibGljIHZpcnR1YWwgewogICAgICAgIHNldFVwVmF1bHQoaW5pdCk7CiAgICAgICAgYWRkcmVzcyBjYWxsZXIgICA9IGluaXQudXNlclswXTsKICAgICAgICBhZGRyZXNzIHJlY2VpdmVyID0gaW5pdC51c2VyWzFdOwogICAgICAgIGFkZHJlc3Mgb3duZXIgICAgPSBpbml0LnVzZXJbMl07CiAgICAgICAgYWRkcmVzcyBvdGhlciAgICA9IGluaXQudXNlclszXTsKICAgICAgICBzaGFyZXMgPSBib3VuZChzaGFyZXMsIDAsIF9tYXhfcmVkZWVtKG93bmVyKSk7CiAgICAgICAgX2FwcHJvdmUoX3ZhdWx0Xywgb3duZXIsIGNhbGxlciwgdHlwZSh1aW50KS5tYXgpOwogICAgICAgIHByb3BfcHJldmlld1JlZGVlbShjYWxsZXIsIHJlY2VpdmVyLCBvd25lciwgb3RoZXIsIHNoYXJlcyk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9yZWRlZW0oSW5pdCBtZW1vcnkgaW5pdCwgdWludCBzaGFyZXMsIHVpbnQgYWxsb3dhbmNlKSBwdWJsaWMgdmlydHVhbCB7CiAgICAgICAgc2V0VXBWYXVsdChpbml0KTsKICAgICAgICBhZGRyZXNzIGNhbGxlciAgID0gaW5pdC51c2VyWzBdOwogICAgICAgIGFkZHJlc3MgcmVjZWl2ZXIgPSBpbml0LnVzZXJbMV07CiAgICAgICAgYWRkcmVzcyBvd25lciAgICA9IGluaXQudXNlclsyXTsKICAgICAgICBzaGFyZXMgPSBib3VuZChzaGFyZXMsIDAsIF9tYXhfcmVkZWVtKG93bmVyKSk7CiAgICAgICAgX2FwcHJvdmUoX3ZhdWx0Xywgb3duZXIsIGNhbGxlciwgYWxsb3dhbmNlKTsKICAgICAgICBwcm9wX3JlZGVlbShjYWxsZXIsIHJlY2VpdmVyLCBvd25lciwgc2hhcmVzKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0RmFpbF9yZWRlZW0oSW5pdCBtZW1vcnkgaW5pdCwgdWludCBzaGFyZXMpIHB1YmxpYyB2aXJ0dWFsIHsKICAgICAgICBzZXRVcFZhdWx0KGluaXQpOwogICAgICAgIGFkZHJlc3MgY2FsbGVyICAgPSBpbml0LnVzZXJbMF07CiAgICAgICAgYWRkcmVzcyByZWNlaXZlciA9IGluaXQudXNlclsxXTsKICAgICAgICBhZGRyZXNzIG93bmVyICAgID0gaW5pdC51c2VyWzJdOwogICAgICAgIHNoYXJlcyA9IGJvdW5kKHNoYXJlcywgMCwgX21heF9yZWRlZW0ob3duZXIpKTsKICAgICAgICB2bS5hc3N1bWUoY2FsbGVyICE9IG93bmVyKTsKICAgICAgICB2bS5hc3N1bWUoc2hhcmVzID4gMCk7CiAgICAgICAgX2FwcHJvdmUoX3ZhdWx0Xywgb3duZXIsIGNhbGxlciwgMCk7CiAgICAgICAgdm0ucHJhbmsoY2FsbGVyKTsgSUVSQzQ2MjYoX3ZhdWx0XykucmVkZWVtKHNoYXJlcywgcmVjZWl2ZXIsIG93bmVyKTsKICAgIH0KCiAgICAvLwogICAgLy8gcm91bmQgdHJpcCB0ZXN0cwogICAgLy8KCiAgICBmdW5jdGlvbiB0ZXN0X1JUX2RlcG9zaXRfcmVkZWVtKEluaXQgbWVtb3J5IGluaXQsIHVpbnQgYXNzZXRzKSBwdWJsaWMgdmlydHVhbCB7CiAgICAgICAgc2V0VXBWYXVsdChpbml0KTsKICAgICAgICBhZGRyZXNzIGNhbGxlciA9IGluaXQudXNlclswXTsKICAgICAgICBhc3NldHMgPSBib3VuZChhc3NldHMsIDAsIF9tYXhfZGVwb3NpdChjYWxsZXIpKTsKICAgICAgICBfYXBwcm92ZShfdW5kZXJseWluZ18sIGNhbGxlciwgX3ZhdWx0XywgdHlwZSh1aW50KS5tYXgpOwogICAgICAgIHByb3BfUlRfZGVwb3NpdF9yZWRlZW0oY2FsbGVyLCBhc3NldHMpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfUlRfZGVwb3NpdF93aXRoZHJhdyhJbml0IG1lbW9yeSBpbml0LCB1aW50IGFzc2V0cykgcHVibGljIHZpcnR1YWwgewogICAgICAgIHNldFVwVmF1bHQoaW5pdCk7CiAgICAgICAgYWRkcmVzcyBjYWxsZXIgPSBpbml0LnVzZXJbMF07CiAgICAgICAgYXNzZXRzID0gYm91bmQoYXNzZXRzLCAwLCBfbWF4X2RlcG9zaXQoY2FsbGVyKSk7CiAgICAgICAgX2FwcHJvdmUoX3VuZGVybHlpbmdfLCBjYWxsZXIsIF92YXVsdF8sIHR5cGUodWludCkubWF4KTsKICAgICAgICBwcm9wX1JUX2RlcG9zaXRfd2l0aGRyYXcoY2FsbGVyLCBhc3NldHMpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfUlRfcmVkZWVtX2RlcG9zaXQoSW5pdCBtZW1vcnkgaW5pdCwgdWludCBzaGFyZXMpIHB1YmxpYyB2aXJ0dWFsIHsKICAgICAgICBzZXRVcFZhdWx0KGluaXQpOwogICAgICAgIGFkZHJlc3MgY2FsbGVyID0gaW5pdC51c2VyWzBdOwogICAgICAgIHNoYXJlcyA9IGJvdW5kKHNoYXJlcywgMCwgX21heF9yZWRlZW0oY2FsbGVyKSk7CiAgICAgICAgX2FwcHJvdmUoX3VuZGVybHlpbmdfLCBjYWxsZXIsIF92YXVsdF8sIHR5cGUodWludCkubWF4KTsKICAgICAgICBwcm9wX1JUX3JlZGVlbV9kZXBvc2l0KGNhbGxlciwgc2hhcmVzKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X1JUX3JlZGVlbV9taW50KEluaXQgbWVtb3J5IGluaXQsIHVpbnQgc2hhcmVzKSBwdWJsaWMgdmlydHVhbCB7CiAgICAgICAgc2V0VXBWYXVsdChpbml0KTsKICAgICAgICBhZGRyZXNzIGNhbGxlciA9IGluaXQudXNlclswXTsKICAgICAgICBzaGFyZXMgPSBib3VuZChzaGFyZXMsIDAsIF9tYXhfcmVkZWVtKGNhbGxlcikpOwogICAgICAgIF9hcHByb3ZlKF91bmRlcmx5aW5nXywgY2FsbGVyLCBfdmF1bHRfLCB0eXBlKHVpbnQpLm1heCk7CiAgICAgICAgcHJvcF9SVF9yZWRlZW1fbWludChjYWxsZXIsIHNoYXJlcyk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9SVF9taW50X3dpdGhkcmF3KEluaXQgbWVtb3J5IGluaXQsIHVpbnQgc2hhcmVzKSBwdWJsaWMgdmlydHVhbCB7CiAgICAgICAgc2V0VXBWYXVsdChpbml0KTsKICAgICAgICBhZGRyZXNzIGNhbGxlciA9IGluaXQudXNlclswXTsKICAgICAgICBzaGFyZXMgPSBib3VuZChzaGFyZXMsIDAsIF9tYXhfbWludChjYWxsZXIpKTsKICAgICAgICBfYXBwcm92ZShfdW5kZXJseWluZ18sIGNhbGxlciwgX3ZhdWx0XywgdHlwZSh1aW50KS5tYXgpOwogICAgICAgIHByb3BfUlRfbWludF93aXRoZHJhdyhjYWxsZXIsIHNoYXJlcyk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9SVF9taW50X3JlZGVlbShJbml0IG1lbW9yeSBpbml0LCB1aW50IHNoYXJlcykgcHVibGljIHZpcnR1YWwgewogICAgICAgIHNldFVwVmF1bHQoaW5pdCk7CiAgICAgICAgYWRkcmVzcyBjYWxsZXIgPSBpbml0LnVzZXJbMF07CiAgICAgICAgc2hhcmVzID0gYm91bmQoc2hhcmVzLCAwLCBfbWF4X21pbnQoY2FsbGVyKSk7CiAgICAgICAgX2FwcHJvdmUoX3VuZGVybHlpbmdfLCBjYWxsZXIsIF92YXVsdF8sIHR5cGUodWludCkubWF4KTsKICAgICAgICBwcm9wX1JUX21pbnRfcmVkZWVtKGNhbGxlciwgc2hhcmVzKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X1JUX3dpdGhkcmF3X21pbnQoSW5pdCBtZW1vcnkgaW5pdCwgdWludCBhc3NldHMpIHB1YmxpYyB2aXJ0dWFsIHsKICAgICAgICBzZXRVcFZhdWx0KGluaXQpOwogICAgICAgIGFkZHJlc3MgY2FsbGVyID0gaW5pdC51c2VyWzBdOwogICAgICAgIGFzc2V0cyA9IGJvdW5kKGFzc2V0cywgMCwgX21heF93aXRoZHJhdyhjYWxsZXIpKTsKICAgICAgICBfYXBwcm92ZShfdW5kZXJseWluZ18sIGNhbGxlciwgX3ZhdWx0XywgdHlwZSh1aW50KS5tYXgpOwogICAgICAgIHByb3BfUlRfd2l0aGRyYXdfbWludChjYWxsZXIsIGFzc2V0cyk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9SVF93aXRoZHJhd19kZXBvc2l0KEluaXQgbWVtb3J5IGluaXQsIHVpbnQgYXNzZXRzKSBwdWJsaWMgdmlydHVhbCB7CiAgICAgICAgc2V0VXBWYXVsdChpbml0KTsKICAgICAgICBhZGRyZXNzIGNhbGxlciA9IGluaXQudXNlclswXTsKICAgICAgICBhc3NldHMgPSBib3VuZChhc3NldHMsIDAsIF9tYXhfd2l0aGRyYXcoY2FsbGVyKSk7CiAgICAgICAgX2FwcHJvdmUoX3VuZGVybHlpbmdfLCBjYWxsZXIsIF92YXVsdF8sIHR5cGUodWludCkubWF4KTsKICAgICAgICBwcm9wX1JUX3dpdGhkcmF3X2RlcG9zaXQoY2FsbGVyLCBhc3NldHMpOwogICAgfQoKICAgIC8vCiAgICAvLyB1dGlscwogICAgLy8KCiAgICBmdW5jdGlvbiBfaXNDb250cmFjdChhZGRyZXNzIGFjY291bnQpIGludGVybmFsIHZpZXcgcmV0dXJucyAoYm9vbCkgeyByZXR1cm4gYWNjb3VudC5jb2RlLmxlbmd0aCA+IDA7IH0KICAgIGZ1bmN0aW9uIF9pc0VPQSAgICAgKGFkZHJlc3MgYWNjb3VudCkgaW50ZXJuYWwgdmlldyByZXR1cm5zIChib29sKSB7IHJldHVybiBhY2NvdW50LmNvZGUubGVuZ3RoID09IDA7IH0KCiAgICBmdW5jdGlvbiBfYXBwcm92ZShhZGRyZXNzIHRva2VuLCBhZGRyZXNzIG93bmVyLCBhZGRyZXNzIHNwZW5kZXIsIHVpbnQgYW1vdW50KSBpbnRlcm5hbCB7CiAgICAgICAgdm0ucHJhbmsob3duZXIpOyBfc2FmZUFwcHJvdmUodG9rZW4sIHNwZW5kZXIsIDApOwogICAgICAgIHZtLnByYW5rKG93bmVyKTsgX3NhZmVBcHByb3ZlKHRva2VuLCBzcGVuZGVyLCBhbW91bnQpOwogICAgfQoKICAgIGZ1bmN0aW9uIF9zYWZlQXBwcm92ZShhZGRyZXNzIHRva2VuLCBhZGRyZXNzIHNwZW5kZXIsIHVpbnQgYW1vdW50KSBpbnRlcm5hbCB7CiAgICAgICAgKGJvb2wgc3VjY2VzcywgYnl0ZXMgbWVtb3J5IHJldGRhdGEpID0gdG9rZW4uY2FsbChhYmkuZW5jb2RlV2l0aFNlbGVjdG9yKElFUkMyMC5hcHByb3ZlLnNlbGVjdG9yLCBzcGVuZGVyLCBhbW91bnQpKTsKICAgICAgICB2bS5hc3N1bWUoc3VjY2Vzcyk7CiAgICAgICAgaWYgKHJldGRhdGEubGVuZ3RoID4gMCkgdm0uYXNzdW1lKGFiaS5kZWNvZGUocmV0ZGF0YSwgKGJvb2wpKSk7CiAgICB9CgogICAgZnVuY3Rpb24gX21heF9kZXBvc2l0KGFkZHJlc3MgZnJvbSkgaW50ZXJuYWwgdmlydHVhbCByZXR1cm5zICh1aW50KSB7CiAgICAgICAgaWYgKF91bmxpbWl0ZWRBbW91bnQpIHJldHVybiB0eXBlKHVpbnQpLm1heDsKICAgICAgICByZXR1cm4gSUVSQzIwKF91bmRlcmx5aW5nXykuYmFsYW5jZU9mKGZyb20pOwogICAgfQoKICAgIGZ1bmN0aW9uIF9tYXhfbWludChhZGRyZXNzIGZyb20pIGludGVybmFsIHZpcnR1YWwgcmV0dXJucyAodWludCkgewogICAgICAgIGlmIChfdW5saW1pdGVkQW1vdW50KSByZXR1cm4gdHlwZSh1aW50KS5tYXg7CiAgICAgICAgcmV0dXJuIHZhdWx0X2NvbnZlcnRUb1NoYXJlcyhJRVJDMjAoX3VuZGVybHlpbmdfKS5iYWxhbmNlT2YoZnJvbSkpOwogICAgfQoKICAgIGZ1bmN0aW9uIF9tYXhfd2l0aGRyYXcoYWRkcmVzcyBmcm9tKSBpbnRlcm5hbCB2aXJ0dWFsIHJldHVybnMgKHVpbnQpIHsKICAgICAgICBpZiAoX3VubGltaXRlZEFtb3VudCkgcmV0dXJuIHR5cGUodWludCkubWF4OwogICAgICAgIHJldHVybiB2YXVsdF9jb252ZXJ0VG9Bc3NldHMoSUVSQzIwKF92YXVsdF8pLmJhbGFuY2VPZihmcm9tKSk7IC8vIG1heSBiZSBkaWZmZXJlbnQgZnJvbSBtYXhXaXRoZHJhdyhmcm9tKQogICAgfQoKICAgIGZ1bmN0aW9uIF9tYXhfcmVkZWVtKGFkZHJlc3MgZnJvbSkgaW50ZXJuYWwgdmlydHVhbCByZXR1cm5zICh1aW50KSB7CiAgICAgICAgaWYgKF91bmxpbWl0ZWRBbW91bnQpIHJldHVybiB0eXBlKHVpbnQpLm1heDsKICAgICAgICByZXR1cm4gSUVSQzIwKF92YXVsdF8pLmJhbGFuY2VPZihmcm9tKTsgLy8gbWF5IGJlIGRpZmZlcmVudCBmcm9tIG1heFJlZGVlbShmcm9tKQogICAgfQp9Cg==
+// SPDX-License-Identifier: AGPL-3.0
+pragma solidity >=0.8.0 <0.9.0;
+
+import "./ERC4626.prop.sol";
+
+interface IMockERC20 is IERC20 {
+    function mint(address to, uint value) external;
+    function burn(address from, uint value) external;
+}
+
+abstract contract ERC4626Test is ERC4626Prop {
+    function setUp() public virtual;
+
+    uint constant N = 4;
+
+    struct Init {
+        address[N] user;
+        uint[N] share;
+        uint[N] asset;
+        int yield;
+    }
+
+    // setup initial vault state as follows:
+    //
+    // totalAssets == sum(init.share) + init.yield
+    // totalShares == sum(init.share)
+    //
+    // init.user[i]'s assets == init.asset[i]
+    // init.user[i]'s shares == init.share[i]
+    function setUpVault(Init memory init) public virtual {
+        // setup initial shares and assets for individual users
+        for (uint i = 0; i < N; i++) {
+            address user = init.user[i];
+            vm.assume(_isEOA(user));
+            // shares
+            uint shares = init.share[i];
+            try IMockERC20(_underlying_).mint(user, shares) {} catch { vm.assume(false); }
+            _approve(_underlying_, user, _vault_, shares);
+            vm.prank(user); try IERC4626(_vault_).deposit(shares, user) {} catch { vm.assume(false); }
+            // assets
+            uint assets = init.asset[i];
+            try IMockERC20(_underlying_).mint(user, assets) {} catch { vm.assume(false); }
+        }
+
+        // setup initial yield for vault
+        setUpYield(init);
+    }
+
+    // setup initial yield
+    function setUpYield(Init memory init) public virtual {
+        if (init.yield >= 0) { // gain
+            uint gain = uint(init.yield);
+            try IMockERC20(_underlying_).mint(_vault_, gain) {} catch { vm.assume(false); } // this can be replaced by calling yield generating functions if provided by the vault
+        } else { // loss
+            vm.assume(init.yield > type(int).min); // avoid overflow in conversion
+            uint loss = uint(-1 * init.yield);
+            try IMockERC20(_underlying_).burn(_vault_, loss) {} catch { vm.assume(false); } // this can be replaced by calling yield generating functions if provided by the vault
+        }
+    }
+
+    //
+    // asset
+    //
+
+    function test_asset(Init memory init) public virtual {
+        setUpVault(init);
+        address caller = init.user[0];
+        prop_asset(caller);
+    }
+
+    function test_totalAssets(Init memory init) public virtual {
+        setUpVault(init);
+        address caller = init.user[0];
+        prop_totalAssets(caller);
+    }
+
+    //
+    // convert
+    //
+
+    function test_convertToShares(Init memory init, uint assets) public virtual {
+        setUpVault(init);
+        address caller1 = init.user[0];
+        address caller2 = init.user[1];
+        prop_convertToShares(caller1, caller2, assets);
+    }
+
+    function test_convertToAssets(Init memory init, uint shares) public virtual {
+        setUpVault(init);
+        address caller1 = init.user[0];
+        address caller2 = init.user[1];
+        prop_convertToAssets(caller1, caller2, shares);
+    }
+
+    //
+    // deposit
+    //
+
+    function test_maxDeposit(Init memory init) public virtual {
+        setUpVault(init);
+        address caller   = init.user[0];
+        address receiver = init.user[1];
+        prop_maxDeposit(caller, receiver);
+    }
+
+    function test_previewDeposit(Init memory init, uint assets) public virtual {
+        setUpVault(init);
+        address caller   = init.user[0];
+        address receiver = init.user[1];
+        address other    = init.user[2];
+        assets = bound(assets, 0, _max_deposit(caller));
+        _approve(_underlying_, caller, _vault_, type(uint).max);
+        prop_previewDeposit(caller, receiver, other, assets);
+    }
+
+    function test_deposit(Init memory init, uint assets, uint allowance) public virtual {
+        setUpVault(init);
+        address caller   = init.user[0];
+        address receiver = init.user[1];
+        assets = bound(assets, 0, _max_deposit(caller));
+        _approve(_underlying_, caller, _vault_, allowance);
+        prop_deposit(caller, receiver, assets);
+    }
+
+    //
+    // mint
+    //
+
+    function test_maxMint(Init memory init) public virtual {
+        setUpVault(init);
+        address caller   = init.user[0];
+        address receiver = init.user[1];
+        prop_maxMint(caller, receiver);
+    }
+
+    function test_previewMint(Init memory init, uint shares) public virtual {
+        setUpVault(init);
+        address caller   = init.user[0];
+        address receiver = init.user[1];
+        address other    = init.user[2];
+        shares = bound(shares, 0, _max_mint(caller));
+        _approve(_underlying_, caller, _vault_, type(uint).max);
+        prop_previewMint(caller, receiver, other, shares);
+    }
+
+    function test_mint(Init memory init, uint shares, uint allowance) public virtual {
+        setUpVault(init);
+        address caller   = init.user[0];
+        address receiver = init.user[1];
+        shares = bound(shares, 0, _max_mint(caller));
+        _approve(_underlying_, caller, _vault_, allowance);
+        prop_mint(caller, receiver, shares);
+    }
+
+    //
+    // withdraw
+    //
+
+    function test_maxWithdraw(Init memory init) public virtual {
+        setUpVault(init);
+        address caller = init.user[0];
+        address owner  = init.user[1];
+        prop_maxWithdraw(caller, owner);
+    }
+
+    function test_previewWithdraw(Init memory init, uint assets) public virtual {
+        setUpVault(init);
+        address caller   = init.user[0];
+        address receiver = init.user[1];
+        address owner    = init.user[2];
+        address other    = init.user[3];
+        assets = bound(assets, 0, _max_withdraw(owner));
+        _approve(_vault_, owner, caller, type(uint).max);
+        prop_previewWithdraw(caller, receiver, owner, other, assets);
+    }
+
+    function test_withdraw(Init memory init, uint assets, uint allowance) public virtual {
+        setUpVault(init);
+        address caller   = init.user[0];
+        address receiver = init.user[1];
+        address owner    = init.user[2];
+        assets = bound(assets, 0, _max_withdraw(owner));
+        _approve(_vault_, owner, caller, allowance);
+        prop_withdraw(caller, receiver, owner, assets);
+    }
+
+    function testFail_withdraw(Init memory init, uint assets) public virtual {
+        setUpVault(init);
+        address caller   = init.user[0];
+        address receiver = init.user[1];
+        address owner    = init.user[2];
+        assets = bound(assets, 0, _max_withdraw(owner));
+        vm.assume(caller != owner);
+        vm.assume(assets > 0);
+        _approve(_vault_, owner, caller, 0);
+        vm.prank(caller); uint shares = IERC4626(_vault_).withdraw(assets, receiver, owner);
+        assertGt(shares, 0); // this assert is expected to fail
+    }
+
+    //
+    // redeem
+    //
+
+    function test_maxRedeem(Init memory init) public virtual {
+        setUpVault(init);
+        address caller = init.user[0];
+        address owner  = init.user[1];
+        prop_maxRedeem(caller, owner);
+    }
+
+    function test_previewRedeem(Init memory init, uint shares) public virtual {
+        setUpVault(init);
+        address caller   = init.user[0];
+        address receiver = init.user[1];
+        address owner    = init.user[2];
+        address other    = init.user[3];
+        shares = bound(shares, 0, _max_redeem(owner));
+        _approve(_vault_, owner, caller, type(uint).max);
+        prop_previewRedeem(caller, receiver, owner, other, shares);
+    }
+
+    function test_redeem(Init memory init, uint shares, uint allowance) public virtual {
+        setUpVault(init);
+        address caller   = init.user[0];
+        address receiver = init.user[1];
+        address owner    = init.user[2];
+        shares = bound(shares, 0, _max_redeem(owner));
+        _approve(_vault_, owner, caller, allowance);
+        prop_redeem(caller, receiver, owner, shares);
+    }
+
+    function testFail_redeem(Init memory init, uint shares) public virtual {
+        setUpVault(init);
+        address caller   = init.user[0];
+        address receiver = init.user[1];
+        address owner    = init.user[2];
+        shares = bound(shares, 0, _max_redeem(owner));
+        vm.assume(caller != owner);
+        vm.assume(shares > 0);
+        _approve(_vault_, owner, caller, 0);
+        vm.prank(caller); IERC4626(_vault_).redeem(shares, receiver, owner);
+    }
+
+    //
+    // round trip tests
+    //
+
+    function test_RT_deposit_redeem(Init memory init, uint assets) public virtual {
+        setUpVault(init);
+        address caller = init.user[0];
+        assets = bound(assets, 0, _max_deposit(caller));
+        _approve(_underlying_, caller, _vault_, type(uint).max);
+        prop_RT_deposit_redeem(caller, assets);
+    }
+
+    function test_RT_deposit_withdraw(Init memory init, uint assets) public virtual {
+        setUpVault(init);
+        address caller = init.user[0];
+        assets = bound(assets, 0, _max_deposit(caller));
+        _approve(_underlying_, caller, _vault_, type(uint).max);
+        prop_RT_deposit_withdraw(caller, assets);
+    }
+
+    function test_RT_redeem_deposit(Init memory init, uint shares) public virtual {
+        setUpVault(init);
+        address caller = init.user[0];
+        shares = bound(shares, 0, _max_redeem(caller));
+        _approve(_underlying_, caller, _vault_, type(uint).max);
+        prop_RT_redeem_deposit(caller, shares);
+    }
+
+    function test_RT_redeem_mint(Init memory init, uint shares) public virtual {
+        setUpVault(init);
+        address caller = init.user[0];
+        shares = bound(shares, 0, _max_redeem(caller));
+        _approve(_underlying_, caller, _vault_, type(uint).max);
+        prop_RT_redeem_mint(caller, shares);
+    }
+
+    function test_RT_mint_withdraw(Init memory init, uint shares) public virtual {
+        setUpVault(init);
+        address caller = init.user[0];
+        shares = bound(shares, 0, _max_mint(caller));
+        _approve(_underlying_, caller, _vault_, type(uint).max);
+        prop_RT_mint_withdraw(caller, shares);
+    }
+
+    function test_RT_mint_redeem(Init memory init, uint shares) public virtual {
+        setUpVault(init);
+        address caller = init.user[0];
+        shares = bound(shares, 0, _max_mint(caller));
+        _approve(_underlying_, caller, _vault_, type(uint).max);
+        prop_RT_mint_redeem(caller, shares);
+    }
+
+    function test_RT_withdraw_mint(Init memory init, uint assets) public virtual {
+        setUpVault(init);
+        address caller = init.user[0];
+        assets = bound(assets, 0, _max_withdraw(caller));
+        _approve(_underlying_, caller, _vault_, type(uint).max);
+        prop_RT_withdraw_mint(caller, assets);
+    }
+
+    function test_RT_withdraw_deposit(Init memory init, uint assets) public virtual {
+        setUpVault(init);
+        address caller = init.user[0];
+        assets = bound(assets, 0, _max_withdraw(caller));
+        _approve(_underlying_, caller, _vault_, type(uint).max);
+        prop_RT_withdraw_deposit(caller, assets);
+    }
+
+    //
+    // utils
+    //
+
+    function _isContract(address account) internal view returns (bool) { return account.code.length > 0; }
+    function _isEOA     (address account) internal view returns (bool) { return account.code.length == 0; }
+
+    function _approve(address token, address owner, address spender, uint amount) internal {
+        vm.prank(owner); _safeApprove(token, spender, 0);
+        vm.prank(owner); _safeApprove(token, spender, amount);
+    }
+
+    function _safeApprove(address token, address spender, uint amount) internal {
+        (bool success, bytes memory retdata) = token.call(abi.encodeWithSelector(IERC20.approve.selector, spender, amount));
+        vm.assume(success);
+        if (retdata.length > 0) vm.assume(abi.decode(retdata, (bool)));
+    }
+
+    function _max_deposit(address from) internal virtual returns (uint) {
+        if (_unlimitedAmount) return type(uint).max;
+        return IERC20(_underlying_).balanceOf(from);
+    }
+
+    function _max_mint(address from) internal virtual returns (uint) {
+        if (_unlimitedAmount) return type(uint).max;
+        return vault_convertToShares(IERC20(_underlying_).balanceOf(from));
+    }
+
+    function _max_withdraw(address from) internal virtual returns (uint) {
+        if (_unlimitedAmount) return type(uint).max;
+        return vault_convertToAssets(IERC20(_vault_).balanceOf(from)); // may be different from maxWithdraw(from)
+    }
+
+    function _max_redeem(address from) internal virtual returns (uint) {
+        if (_unlimitedAmount) return type(uint).max;
+        return IERC20(_vault_).balanceOf(from); // may be different from maxRedeem(from)
+    }
+}
