@@ -1,1 +1,43 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgPj0wLjYuMiA8MC45LjA7CgpsaWJyYXJ5IHN0ZE1hdGggewogICAgaW50MjU2IHByaXZhdGUgY29uc3RhbnQgSU5UMjU2X01JTiA9IC01Nzg5NjA0NDYxODY1ODA5NzcxMTc4NTQ5MjUwNDM0Mzk1MzkyNjYzNDk5MjMzMjgyMDI4MjAxOTcyODc5MjAwMzk1NjU2NDgxOTk2ODsKCiAgICBmdW5jdGlvbiBhYnMoaW50MjU2IGEpIGludGVybmFsIHB1cmUgcmV0dXJucyAodWludDI1NikgewogICAgICAgIC8vIFJlcXVpcmVkIG9yIGl0IHdpbGwgZmFpbCB3aGVuIGBhID0gdHlwZShpbnQyNTYpLm1pbmAKICAgICAgICBpZiAoYSA9PSBJTlQyNTZfTUlOKSB7CiAgICAgICAgICAgIHJldHVybiA1Nzg5NjA0NDYxODY1ODA5NzcxMTc4NTQ5MjUwNDM0Mzk1MzkyNjYzNDk5MjMzMjgyMDI4MjAxOTcyODc5MjAwMzk1NjU2NDgxOTk2ODsKICAgICAgICB9CgogICAgICAgIHJldHVybiB1aW50MjU2KGEgPiAwID8gYSA6IC1hKTsKICAgIH0KCiAgICBmdW5jdGlvbiBkZWx0YSh1aW50MjU2IGEsIHVpbnQyNTYgYikgaW50ZXJuYWwgcHVyZSByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgcmV0dXJuIGEgPiBiID8gYSAtIGIgOiBiIC0gYTsKICAgIH0KCiAgICBmdW5jdGlvbiBkZWx0YShpbnQyNTYgYSwgaW50MjU2IGIpIGludGVybmFsIHB1cmUgcmV0dXJucyAodWludDI1NikgewogICAgICAgIC8vIGEgYW5kIGIgYXJlIG9mIHRoZSBzYW1lIHNpZ24KICAgICAgICAvLyB0aGlzIHdvcmtzIHRoYW5rcyB0byB0d28ncyBjb21wbGVtZW50LCB0aGUgbGVmdC1tb3N0IGJpdCBpcyB0aGUgc2lnbiBiaXQKICAgICAgICBpZiAoKGEgXiBiKSA+IC0xKSB7CiAgICAgICAgICAgIHJldHVybiBkZWx0YShhYnMoYSksIGFicyhiKSk7CiAgICAgICAgfQoKICAgICAgICAvLyBhIGFuZCBiIGFyZSBvZiBvcHBvc2l0ZSBzaWducwogICAgICAgIHJldHVybiBhYnMoYSkgKyBhYnMoYik7CiAgICB9CgogICAgZnVuY3Rpb24gcGVyY2VudERlbHRhKHVpbnQyNTYgYSwgdWludDI1NiBiKSBpbnRlcm5hbCBwdXJlIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICB1aW50MjU2IGFic0RlbHRhID0gZGVsdGEoYSwgYik7CgogICAgICAgIHJldHVybiBhYnNEZWx0YSAqIDFlMTggLyBiOwogICAgfQoKICAgIGZ1bmN0aW9uIHBlcmNlbnREZWx0YShpbnQyNTYgYSwgaW50MjU2IGIpIGludGVybmFsIHB1cmUgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHVpbnQyNTYgYWJzRGVsdGEgPSBkZWx0YShhLCBiKTsKICAgICAgICB1aW50MjU2IGFic0IgPSBhYnMoYik7CgogICAgICAgIHJldHVybiBhYnNEZWx0YSAqIDFlMTggLyBhYnNCOwogICAgfQp9Cg==
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.6.2 <0.9.0;
+
+library stdMath {
+    int256 private constant INT256_MIN = -57896044618658097711785492504343953926634992332820282019728792003956564819968;
+
+    function abs(int256 a) internal pure returns (uint256) {
+        // Required or it will fail when `a = type(int256).min`
+        if (a == INT256_MIN) {
+            return 57896044618658097711785492504343953926634992332820282019728792003956564819968;
+        }
+
+        return uint256(a > 0 ? a : -a);
+    }
+
+    function delta(uint256 a, uint256 b) internal pure returns (uint256) {
+        return a > b ? a - b : b - a;
+    }
+
+    function delta(int256 a, int256 b) internal pure returns (uint256) {
+        // a and b are of the same sign
+        // this works thanks to two's complement, the left-most bit is the sign bit
+        if ((a ^ b) > -1) {
+            return delta(abs(a), abs(b));
+        }
+
+        // a and b are of opposite signs
+        return abs(a) + abs(b);
+    }
+
+    function percentDelta(uint256 a, uint256 b) internal pure returns (uint256) {
+        uint256 absDelta = delta(a, b);
+
+        return absDelta * 1e18 / b;
+    }
+
+    function percentDelta(int256 a, int256 b) internal pure returns (uint256) {
+        uint256 absDelta = delta(a, b);
+        uint256 absB = abs(b);
+
+        return absDelta * 1e18 / absB;
+    }
+}
