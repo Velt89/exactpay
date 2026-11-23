@@ -1,1 +1,562 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwpjb25zdCB7IFBBTklDX0NPREVTIH0gPSByZXF1aXJlKCdAbm9taWNmb3VuZGF0aW9uL2hhcmRoYXQtY2hhaS1tYXRjaGVycy9wYW5pYycpOwoKY29uc3QgeyBSb3VuZGluZyB9ID0gcmVxdWlyZSgnLi4vLi4vaGVscGVycy9lbnVtcycpOwpjb25zdCB7IG1pbiwgbWF4LCBtb2RFeHAgfSA9IHJlcXVpcmUoJy4uLy4uL2hlbHBlcnMvbWF0aCcpOwpjb25zdCB7IGdlbmVyYXRvcnMgfSA9IHJlcXVpcmUoJy4uLy4uL2hlbHBlcnMvcmFuZG9tJyk7CmNvbnN0IHsgcHJvZHVjdCwgcmFuZ2UgfSA9IHJlcXVpcmUoJy4uLy4uL2hlbHBlcnMvaXRlcmF0ZScpOwoKY29uc3QgUm91bmRpbmdEb3duID0gW1JvdW5kaW5nLkZsb29yLCBSb3VuZGluZy5UcnVuY107CmNvbnN0IFJvdW5kaW5nVXAgPSBbUm91bmRpbmcuQ2VpbCwgUm91bmRpbmcuRXhwYW5kXTsKCmNvbnN0IGJ5dGVzID0gKHZhbHVlLCB3aWR0aCA9IHVuZGVmaW5lZCkgPT4gZXRoZXJzLlR5cGVkLmJ5dGVzKGV0aGVycy50b0JlSGV4KHZhbHVlLCB3aWR0aCkpOwpjb25zdCB1aW50MjU2ID0gdmFsdWUgPT4gZXRoZXJzLlR5cGVkLnVpbnQyNTYodmFsdWUpOwpieXRlcy56ZXJvID0gJzB4JzsKdWludDI1Ni56ZXJvID0gMG47Cgphc3luYyBmdW5jdGlvbiB0ZXN0Q29tbXV0YXRpdmUoZm4sIGxocywgcmhzLCBleHBlY3RlZCwgLi4uZXh0cmEpIHsKICBleHBlY3QoYXdhaXQgZm4obGhzLCByaHMsIC4uLmV4dHJhKSkudG8uZGVlcC5lcXVhbChleHBlY3RlZCk7CiAgZXhwZWN0KGF3YWl0IGZuKHJocywgbGhzLCAuLi5leHRyYSkpLnRvLmRlZXAuZXF1YWwoZXhwZWN0ZWQpOwp9Cgphc3luYyBmdW5jdGlvbiBmaXh0dXJlKCkgewogIGNvbnN0IG1vY2sgPSBhd2FpdCBldGhlcnMuZGVwbG95Q29udHJhY3QoJyRNYXRoJyk7CgogIC8vIGRpc2FtYmlndWF0aW9uLCB3ZSB1c2UgdGhlIHZlcnNpb24gd2l0aCBleHBsaWNpdCByb3VuZGluZwogIG1vY2suJG11bERpdiA9IG1vY2tbJyRtdWxEaXYodWludDI1Nix1aW50MjU2LHVpbnQyNTYsdWludDgpJ107CiAgbW9jay4kc3FydCA9IG1vY2tbJyRzcXJ0KHVpbnQyNTYsdWludDgpJ107CiAgbW9jay4kbG9nMiA9IG1vY2tbJyRsb2cyKHVpbnQyNTYsdWludDgpJ107CiAgbW9jay4kbG9nMTAgPSBtb2NrWyckbG9nMTAodWludDI1Nix1aW50OCknXTsKICBtb2NrLiRsb2cyNTYgPSBtb2NrWyckbG9nMjU2KHVpbnQyNTYsdWludDgpJ107CgogIHJldHVybiB7IG1vY2sgfTsKfQoKZGVzY3JpYmUoJ01hdGgnLCBmdW5jdGlvbiAoKSB7CiAgYmVmb3JlRWFjaChhc3luYyBmdW5jdGlvbiAoKSB7CiAgICBPYmplY3QuYXNzaWduKHRoaXMsIGF3YWl0IGxvYWRGaXh0dXJlKGZpeHR1cmUpKTsKICB9KTsKCiAgZGVzY3JpYmUoJ3RyeUFkZCcsIGZ1bmN0aW9uICgpIHsKICAgIGl0KCdhZGRzIGNvcnJlY3RseScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgY29uc3QgYSA9IDU2NzhuOwogICAgICBjb25zdCBiID0gMTIzNG47CiAgICAgIGF3YWl0IHRlc3RDb21tdXRhdGl2ZSh0aGlzLm1vY2suJHRyeUFkZCwgYSwgYiwgW3RydWUsIGEgKyBiXSk7CiAgICB9KTsKCiAgICBpdCgncmV2ZXJ0cyBvbiBhZGRpdGlvbiBvdmVyZmxvdycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgY29uc3QgYSA9IGV0aGVycy5NYXhVaW50MjU2OwogICAgICBjb25zdCBiID0gMW47CiAgICAgIGF3YWl0IHRlc3RDb21tdXRhdGl2ZSh0aGlzLm1vY2suJHRyeUFkZCwgYSwgYiwgW2ZhbHNlLCAwbl0pOwogICAgfSk7CiAgfSk7CgogIGRlc2NyaWJlKCd0cnlTdWInLCBmdW5jdGlvbiAoKSB7CiAgICBpdCgnc3VidHJhY3RzIGNvcnJlY3RseScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgY29uc3QgYSA9IDU2NzhuOwogICAgICBjb25zdCBiID0gMTIzNG47CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJHRyeVN1YihhLCBiKSkudG8uZGVlcC5lcXVhbChbdHJ1ZSwgYSAtIGJdKTsKICAgIH0pOwoKICAgIGl0KCdyZXZlcnRzIGlmIHN1YnRyYWN0aW9uIHJlc3VsdCB3b3VsZCBiZSBuZWdhdGl2ZScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgY29uc3QgYSA9IDEyMzRuOwogICAgICBjb25zdCBiID0gNTY3OG47CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJHRyeVN1YihhLCBiKSkudG8uZGVlcC5lcXVhbChbZmFsc2UsIDBuXSk7CiAgICB9KTsKICB9KTsKCiAgZGVzY3JpYmUoJ3RyeU11bCcsIGZ1bmN0aW9uICgpIHsKICAgIGl0KCdtdWx0aXBsaWVzIGNvcnJlY3RseScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgY29uc3QgYSA9IDEyMzRuOwogICAgICBjb25zdCBiID0gNTY3OG47CiAgICAgIGF3YWl0IHRlc3RDb21tdXRhdGl2ZSh0aGlzLm1vY2suJHRyeU11bCwgYSwgYiwgW3RydWUsIGEgKiBiXSk7CiAgICB9KTsKCiAgICBpdCgnbXVsdGlwbGllcyBieSB6ZXJvIGNvcnJlY3RseScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgY29uc3QgYSA9IDBuOwogICAgICBjb25zdCBiID0gNTY3OG47CiAgICAgIGF3YWl0IHRlc3RDb21tdXRhdGl2ZSh0aGlzLm1vY2suJHRyeU11bCwgYSwgYiwgW3RydWUsIGEgKiBiXSk7CiAgICB9KTsKCiAgICBpdCgncmV2ZXJ0cyBvbiBtdWx0aXBsaWNhdGlvbiBvdmVyZmxvdycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgY29uc3QgYSA9IGV0aGVycy5NYXhVaW50MjU2OwogICAgICBjb25zdCBiID0gMm47CiAgICAgIGF3YWl0IHRlc3RDb21tdXRhdGl2ZSh0aGlzLm1vY2suJHRyeU11bCwgYSwgYiwgW2ZhbHNlLCAwbl0pOwogICAgfSk7CiAgfSk7CgogIGRlc2NyaWJlKCd0cnlEaXYnLCBmdW5jdGlvbiAoKSB7CiAgICBpdCgnZGl2aWRlcyBjb3JyZWN0bHknLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGNvbnN0IGEgPSA1Njc4bjsKICAgICAgY29uc3QgYiA9IDU2NzhuOwogICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiR0cnlEaXYoYSwgYikpLnRvLmRlZXAuZXF1YWwoW3RydWUsIGEgLyBiXSk7CiAgICB9KTsKCiAgICBpdCgnZGl2aWRlcyB6ZXJvIGNvcnJlY3RseScsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgY29uc3QgYSA9IDBuOwogICAgICBjb25zdCBiID0gNTY3OG47CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJHRyeURpdihhLCBiKSkudG8uZGVlcC5lcXVhbChbdHJ1ZSwgYSAvIGJdKTsKICAgIH0pOwoKICAgIGl0KCdyZXR1cm5zIGNvbXBsZXRlIG51bWJlciByZXN1bHQgb24gbm9uLWV2ZW4gZGl2aXNpb24nLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGNvbnN0IGEgPSA3MDAwbjsKICAgICAgY29uc3QgYiA9IDU2NzhuOwogICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiR0cnlEaXYoYSwgYikpLnRvLmRlZXAuZXF1YWwoW3RydWUsIGEgLyBiXSk7CiAgICB9KTsKCiAgICBpdCgncmV2ZXJ0cyBvbiBkaXZpc2lvbiBieSB6ZXJvJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCBhID0gNTY3OG47CiAgICAgIGNvbnN0IGIgPSAwbjsKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kdHJ5RGl2KGEsIGIpKS50by5kZWVwLmVxdWFsKFtmYWxzZSwgMG5dKTsKICAgIH0pOwogIH0pOwoKICBkZXNjcmliZSgndHJ5TW9kJywgZnVuY3Rpb24gKCkgewogICAgZGVzY3JpYmUoJ21vZHVsb3MgY29ycmVjdGx5JywgZnVuY3Rpb24gKCkgewogICAgICBpdCgnd2hlbiB0aGUgZGl2aWRlbmQgaXMgc21hbGxlciB0aGFuIHRoZSBkaXZpc29yJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGNvbnN0IGEgPSAyODRuOwogICAgICAgIGNvbnN0IGIgPSA1Njc4bjsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiR0cnlNb2QoYSwgYikpLnRvLmRlZXAuZXF1YWwoW3RydWUsIGEgJSBiXSk7CiAgICAgIH0pOwoKICAgICAgaXQoJ3doZW4gdGhlIGRpdmlkZW5kIGlzIGVxdWFsIHRvIHRoZSBkaXZpc29yJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGNvbnN0IGEgPSA1Njc4bjsKICAgICAgICBjb25zdCBiID0gNTY3OG47CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kdHJ5TW9kKGEsIGIpKS50by5kZWVwLmVxdWFsKFt0cnVlLCBhICUgYl0pOwogICAgICB9KTsKCiAgICAgIGl0KCd3aGVuIHRoZSBkaXZpZGVuZCBpcyBsYXJnZXIgdGhhbiB0aGUgZGl2aXNvcicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBjb25zdCBhID0gNzAwMG47CiAgICAgICAgY29uc3QgYiA9IDU2NzhuOwogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJHRyeU1vZChhLCBiKSkudG8uZGVlcC5lcXVhbChbdHJ1ZSwgYSAlIGJdKTsKICAgICAgfSk7CgogICAgICBpdCgnd2hlbiB0aGUgZGl2aWRlbmQgaXMgYSBtdWx0aXBsZSBvZiB0aGUgZGl2aXNvcicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBjb25zdCBhID0gMTcwMzRuOyAvLyAxNzAzNCA9PSA1Njc4ICogMwogICAgICAgIGNvbnN0IGIgPSA1Njc4bjsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiR0cnlNb2QoYSwgYikpLnRvLmRlZXAuZXF1YWwoW3RydWUsIGEgJSBiXSk7CiAgICAgIH0pOwogICAgfSk7CgogICAgaXQoJ3JldmVydHMgd2l0aCBhIDAgZGl2aXNvcicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgY29uc3QgYSA9IDU2NzhuOwogICAgICBjb25zdCBiID0gMG47CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJHRyeU1vZChhLCBiKSkudG8uZGVlcC5lcXVhbChbZmFsc2UsIDBuXSk7CiAgICB9KTsKICB9KTsKCiAgZGVzY3JpYmUoJ21heCcsIGZ1bmN0aW9uICgpIHsKICAgIGl0KCdpcyBjb3JyZWN0bHkgZGV0ZWN0ZWQgaW4gYm90aCBwb3NpdGlvbicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgYXdhaXQgdGVzdENvbW11dGF0aXZlKHRoaXMubW9jay4kbWF4LCAxMjM0biwgNTY3OG4sIG1heCgxMjM0biwgNTY3OG4pKTsKICAgIH0pOwogIH0pOwoKICBkZXNjcmliZSgnbWluJywgZnVuY3Rpb24gKCkgewogICAgaXQoJ2lzIGNvcnJlY3RseSBkZXRlY3RlZCBpbiBib3RoIHBvc2l0aW9uJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBhd2FpdCB0ZXN0Q29tbXV0YXRpdmUodGhpcy5tb2NrLiRtaW4sIDEyMzRuLCA1Njc4biwgbWluKDEyMzRuLCA1Njc4bikpOwogICAgfSk7CiAgfSk7CgogIGRlc2NyaWJlKCdhdmVyYWdlJywgZnVuY3Rpb24gKCkgewogICAgaXQoJ2lzIGNvcnJlY3RseSBjYWxjdWxhdGVkIHdpdGggdHdvIG9kZCBudW1iZXJzJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCBhID0gNTc0MTduOwogICAgICBjb25zdCBiID0gOTU0MzFuOwogICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRhdmVyYWdlKGEsIGIpKS50by5lcXVhbCgoYSArIGIpIC8gMm4pOwogICAgfSk7CgogICAgaXQoJ2lzIGNvcnJlY3RseSBjYWxjdWxhdGVkIHdpdGggdHdvIGV2ZW4gbnVtYmVycycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgY29uc3QgYSA9IDQyMzA0bjsKICAgICAgY29uc3QgYiA9IDg0MzQ2bjsKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kYXZlcmFnZShhLCBiKSkudG8uZXF1YWwoKGEgKyBiKSAvIDJuKTsKICAgIH0pOwoKICAgIGl0KCdpcyBjb3JyZWN0bHkgY2FsY3VsYXRlZCB3aXRoIG9uZSBldmVuIGFuZCBvbmUgb2RkIG51bWJlcicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgY29uc3QgYSA9IDU3NDE3bjsKICAgICAgY29uc3QgYiA9IDg0MzQ2bjsKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kYXZlcmFnZShhLCBiKSkudG8uZXF1YWwoKGEgKyBiKSAvIDJuKTsKICAgIH0pOwoKICAgIGl0KCdpcyBjb3JyZWN0bHkgY2FsY3VsYXRlZCB3aXRoIHR3byBtYXggdWludDI1NiBudW1iZXJzJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCBhID0gZXRoZXJzLk1heFVpbnQyNTY7CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGF2ZXJhZ2UoYSwgYSkpLnRvLmVxdWFsKGEpOwogICAgfSk7CiAgfSk7CgogIGRlc2NyaWJlKCdjZWlsRGl2JywgZnVuY3Rpb24gKCkgewogICAgaXQoJ3JldmVydHMgb24gemVybyBkaXZpc2lvbicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgY29uc3QgYSA9IDJuOwogICAgICBjb25zdCBiID0gMG47CiAgICAgIC8vIEl0J3MgdW5zcGVjaWZpZWQgYmVjYXVzZSBpdCdzIGEgbG93IGxldmVsIDAgZGl2aXNpb24gZXJyb3IKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMubW9jay4kY2VpbERpdihhLCBiKSkudG8uYmUucmV2ZXJ0ZWRXaXRoUGFuaWMoUEFOSUNfQ09ERVMuRElWSVNJT05fQllfWkVSTyk7CiAgICB9KTsKCiAgICBpdCgnZG9lcyBub3Qgcm91bmQgdXAgYSB6ZXJvIHJlc3VsdCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgY29uc3QgYSA9IDBuOwogICAgICBjb25zdCBiID0gMm47CiAgICAgIGNvbnN0IHIgPSAwbjsKICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kY2VpbERpdihhLCBiKSkudG8uZXF1YWwocik7CiAgICB9KTsKCiAgICBpdCgnZG9lcyBub3Qgcm91bmQgdXAgb24gZXhhY3QgZGl2aXNpb24nLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGNvbnN0IGEgPSAxMG47CiAgICAgIGNvbnN0IGIgPSA1bjsKICAgICAgY29uc3QgciA9IDJuOwogICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRjZWlsRGl2KGEsIGIpKS50by5lcXVhbChyKTsKICAgIH0pOwoKICAgIGl0KCdyb3VuZHMgdXAgb24gZGl2aXNpb24gd2l0aCByZW1haW5kZXJzJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCBhID0gNDJuOwogICAgICBjb25zdCBiID0gMTNuOwogICAgICBjb25zdCByID0gNG47CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGNlaWxEaXYoYSwgYikpLnRvLmVxdWFsKHIpOwogICAgfSk7CgogICAgaXQoJ2RvZXMgbm90IG92ZXJmbG93JywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICBjb25zdCBhID0gZXRoZXJzLk1heFVpbnQyNTY7CiAgICAgIGNvbnN0IGIgPSAybjsKICAgICAgY29uc3QgciA9IDFuIDw8IDI1NW47CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGNlaWxEaXYoYSwgYikpLnRvLmVxdWFsKHIpOwogICAgfSk7CgogICAgaXQoJ2NvcnJlY3RseSBjb21wdXRlcyBtYXggdWludDI1NiBkaXZpZGVkIGJ5IDEnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGNvbnN0IGEgPSBldGhlcnMuTWF4VWludDI1NjsKICAgICAgY29uc3QgYiA9IDFuOwogICAgICBjb25zdCByID0gZXRoZXJzLk1heFVpbnQyNTY7CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGNlaWxEaXYoYSwgYikpLnRvLmVxdWFsKHIpOwogICAgfSk7CiAgfSk7CgogIGRlc2NyaWJlKCdtdWxEaXYnLCBmdW5jdGlvbiAoKSB7CiAgICBpdCgnZGl2aWRlIGJ5IDAnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgIGNvbnN0IGEgPSAxbjsKICAgICAgY29uc3QgYiA9IDFuOwogICAgICBjb25zdCBjID0gMG47CiAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1vY2suJG11bERpdihhLCBiLCBjLCBSb3VuZGluZy5GbG9vcikpLnRvLmJlLnJldmVydGVkV2l0aFBhbmljKFBBTklDX0NPREVTLkRJVklTSU9OX0JZX1pFUk8pOwogICAgfSk7CgogICAgaXQoJ3JldmVydHMgd2l0aCByZXN1bHQgaGlnaGVyIHRoYW4gMiBeIDI1NicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgY29uc3QgYSA9IDVuOwogICAgICBjb25zdCBiID0gZXRoZXJzLk1heFVpbnQyNTY7CiAgICAgIGNvbnN0IGMgPSAybjsKICAgICAgYXdhaXQgZXhwZWN0KHRoaXMubW9jay4kbXVsRGl2KGEsIGIsIGMsIFJvdW5kaW5nLkZsb29yKSkudG8uYmUucmV2ZXJ0ZWRXaXRoUGFuaWMoCiAgICAgICAgUEFOSUNfQ09ERVMuQVJJVEhNRVRJQ19VTkRFUl9PUl9PVkVSRkxPVywKICAgICAgKTsKICAgIH0pOwoKICAgIGRlc2NyaWJlKCdkb2VzIHJvdW5kIGRvd24nLCBmdW5jdGlvbiAoKSB7CiAgICAgIGl0KCdzbWFsbCB2YWx1ZXMnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgZm9yIChjb25zdCByb3VuZGluZyBvZiBSb3VuZGluZ0Rvd24pIHsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJG11bERpdigzbiwgNG4sIDVuLCByb3VuZGluZykpLnRvLmVxdWFsKDJuKTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJG11bERpdigzbiwgNW4sIDVuLCByb3VuZGluZykpLnRvLmVxdWFsKDNuKTsKICAgICAgICB9CiAgICAgIH0pOwoKICAgICAgaXQoJ2xhcmdlIHZhbHVlcycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBmb3IgKGNvbnN0IHJvdW5kaW5nIG9mIFJvdW5kaW5nRG93bikgewogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kbXVsRGl2KDQybiwgZXRoZXJzLk1heFVpbnQyNTYgLSAxbiwgZXRoZXJzLk1heFVpbnQyNTYsIHJvdW5kaW5nKSkudG8uZXF1YWwoNDFuKTsKCiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRtdWxEaXYoMTduLCBldGhlcnMuTWF4VWludDI1NiwgZXRoZXJzLk1heFVpbnQyNTYsIHJvdW5kaW5nKSkudG8uZXF1YWwoMTduKTsKCiAgICAgICAgICBleHBlY3QoCiAgICAgICAgICAgIGF3YWl0IHRoaXMubW9jay4kbXVsRGl2KGV0aGVycy5NYXhVaW50MjU2IC0gMW4sIGV0aGVycy5NYXhVaW50MjU2IC0gMW4sIGV0aGVycy5NYXhVaW50MjU2LCByb3VuZGluZyksCiAgICAgICAgICApLnRvLmVxdWFsKGV0aGVycy5NYXhVaW50MjU2IC0gMm4pOwoKICAgICAgICAgIGV4cGVjdCgKICAgICAgICAgICAgYXdhaXQgdGhpcy5tb2NrLiRtdWxEaXYoZXRoZXJzLk1heFVpbnQyNTYsIGV0aGVycy5NYXhVaW50MjU2IC0gMW4sIGV0aGVycy5NYXhVaW50MjU2LCByb3VuZGluZyksCiAgICAgICAgICApLnRvLmVxdWFsKGV0aGVycy5NYXhVaW50MjU2IC0gMW4pOwoKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJG11bERpdihldGhlcnMuTWF4VWludDI1NiwgZXRoZXJzLk1heFVpbnQyNTYsIGV0aGVycy5NYXhVaW50MjU2LCByb3VuZGluZykpLnRvLmVxdWFsKAogICAgICAgICAgICBldGhlcnMuTWF4VWludDI1NiwKICAgICAgICAgICk7CiAgICAgICAgfQogICAgICB9KTsKICAgIH0pOwoKICAgIGRlc2NyaWJlKCdkb2VzIHJvdW5kIHVwJywgZnVuY3Rpb24gKCkgewogICAgICBpdCgnc21hbGwgdmFsdWVzJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGZvciAoY29uc3Qgcm91bmRpbmcgb2YgUm91bmRpbmdVcCkgewogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kbXVsRGl2KDNuLCA0biwgNW4sIHJvdW5kaW5nKSkudG8uZXF1YWwoM24pOwogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kbXVsRGl2KDNuLCA1biwgNW4sIHJvdW5kaW5nKSkudG8uZXF1YWwoM24pOwogICAgICAgIH0KICAgICAgfSk7CgogICAgICBpdCgnbGFyZ2UgdmFsdWVzJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGZvciAoY29uc3Qgcm91bmRpbmcgb2YgUm91bmRpbmdVcCkgewogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kbXVsRGl2KDQybiwgZXRoZXJzLk1heFVpbnQyNTYgLSAxbiwgZXRoZXJzLk1heFVpbnQyNTYsIHJvdW5kaW5nKSkudG8uZXF1YWwoNDJuKTsKCiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRtdWxEaXYoMTduLCBldGhlcnMuTWF4VWludDI1NiwgZXRoZXJzLk1heFVpbnQyNTYsIHJvdW5kaW5nKSkudG8uZXF1YWwoMTduKTsKCiAgICAgICAgICBleHBlY3QoCiAgICAgICAgICAgIGF3YWl0IHRoaXMubW9jay4kbXVsRGl2KGV0aGVycy5NYXhVaW50MjU2IC0gMW4sIGV0aGVycy5NYXhVaW50MjU2IC0gMW4sIGV0aGVycy5NYXhVaW50MjU2LCByb3VuZGluZyksCiAgICAgICAgICApLnRvLmVxdWFsKGV0aGVycy5NYXhVaW50MjU2IC0gMW4pOwoKICAgICAgICAgIGV4cGVjdCgKICAgICAgICAgICAgYXdhaXQgdGhpcy5tb2NrLiRtdWxEaXYoZXRoZXJzLk1heFVpbnQyNTYsIGV0aGVycy5NYXhVaW50MjU2IC0gMW4sIGV0aGVycy5NYXhVaW50MjU2LCByb3VuZGluZyksCiAgICAgICAgICApLnRvLmVxdWFsKGV0aGVycy5NYXhVaW50MjU2IC0gMW4pOwoKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJG11bERpdihldGhlcnMuTWF4VWludDI1NiwgZXRoZXJzLk1heFVpbnQyNTYsIGV0aGVycy5NYXhVaW50MjU2LCByb3VuZGluZykpLnRvLmVxdWFsKAogICAgICAgICAgICBldGhlcnMuTWF4VWludDI1NiwKICAgICAgICAgICk7CiAgICAgICAgfQogICAgICB9KTsKICAgIH0pOwogIH0pOwoKICBkZXNjcmliZSgnaW52TW9kJywgZnVuY3Rpb24gKCkgewogICAgZm9yIChjb25zdCBmYWN0b3JzIG9mIFsKICAgICAgWzBuXSwKICAgICAgWzFuXSwKICAgICAgWzJuXSwKICAgICAgWzE3bl0sCiAgICAgIFs2NTUzN25dLAogICAgICBbMHhmZmZmZmZmZjAwMDAwMDAxMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmbl0sCiAgICAgIFszbiwgNW5dLAogICAgICBbM24sIDduXSwKICAgICAgWzQ3biwgNTNuXSwKICAgIF0pIHsKICAgICAgY29uc3QgcCA9IGZhY3RvcnMucmVkdWNlKChhY2MsIGYpID0+IGFjYyAqIGYsIDFuKTsKCiAgICAgIGRlc2NyaWJlKGB1c2luZyBwPSR7cH0gd2hpY2ggaXMgJHtwID4gMSAmJiBmYWN0b3JzLmxlbmd0aCA+IDEgPyAnbm90ICcgOiAnJ31hIHByaW1lYCwgZnVuY3Rpb24gKCkgewogICAgICAgIGl0KCd0cnlpbmcgdG8gaW52ZXJzZSAwIHJldHVybnMgMCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGludk1vZCgwLCBwKSkudG8uZXF1YWwoMG4pOwogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kaW52TW9kKHAsIHApKS50by5lcXVhbCgwbik7IC8vIHAgaXMgMCBtb2QgcAogICAgICAgIH0pOwoKICAgICAgICBpZiAocCAhPSAwKSB7CiAgICAgICAgICBmb3IgKGNvbnN0IHZhbHVlIG9mIEFycmF5LmZyb20oeyBsZW5ndGg6IDE2IH0sIGdlbmVyYXRvcnMudWludDI1NikpIHsKICAgICAgICAgICAgY29uc3QgaXNJbnZlcnNpYmxlID0gZmFjdG9ycy5ldmVyeShmID0+IHZhbHVlICUgZik7CiAgICAgICAgICAgIGl0KGB0cnlpbmcgdG8gaW52ZXJzZSAke3ZhbHVlfWAsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgICAgICBjb25zdCByZXN1bHQgPSBhd2FpdCB0aGlzLm1vY2suJGludk1vZCh2YWx1ZSwgcCk7CiAgICAgICAgICAgICAgaWYgKGlzSW52ZXJzaWJsZSkgewogICAgICAgICAgICAgICAgZXhwZWN0KCh2YWx1ZSAqIHJlc3VsdCkgJSBwKS50by5lcXVhbCgxbik7CiAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGV4cGVjdChyZXN1bHQpLnRvLmVxdWFsKDBuKTsKICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0pOwogICAgICAgICAgfQogICAgICAgIH0KICAgICAgfSk7CiAgICB9CiAgfSk7CgogIGRlc2NyaWJlKCdtb2RFeHAnLCBmdW5jdGlvbiAoKSB7CiAgICBmb3IgKGNvbnN0IFtuYW1lLCB0eXBlXSBvZiBPYmplY3QuZW50cmllcyh7IHVpbnQyNTYsIGJ5dGVzIH0pKSB7CiAgICAgIGRlc2NyaWJlKGB3aXRoICR7bmFtZX0gaW5wdXRzYCwgZnVuY3Rpb24gKCkgewogICAgICAgIGl0KCdpcyBjb3JyZWN0bHkgY2FsY3VsYXRpbmcgbW9kdWx1cycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGNvbnN0IGIgPSAzbjsKICAgICAgICAgIGNvbnN0IGUgPSAyMDBuOwogICAgICAgICAgY29uc3QgbSA9IDUwbjsKCiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRtb2RFeHAodHlwZShiKSwgdHlwZShlKSwgdHlwZShtKSkpLnRvLmVxdWFsKHR5cGUoYiAqKiBlICUgbSkudmFsdWUpOwogICAgICAgIH0pOwoKICAgICAgICBpdCgnaXMgY29ycmVjdGx5IHJldmVydGluZyB3aGVuIG1vZHVsdXMgaXMgemVybycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGNvbnN0IGIgPSAzbjsKICAgICAgICAgIGNvbnN0IGUgPSAyMDBuOwogICAgICAgICAgY29uc3QgbSA9IDBuOwoKICAgICAgICAgIGF3YWl0IGV4cGVjdCh0aGlzLm1vY2suJG1vZEV4cCh0eXBlKGIpLCB0eXBlKGUpLCB0eXBlKG0pKSkudG8uYmUucmV2ZXJ0ZWRXaXRoUGFuaWMoCiAgICAgICAgICAgIFBBTklDX0NPREVTLkRJVklTSU9OX0JZX1pFUk8sCiAgICAgICAgICApOwogICAgICAgIH0pOwogICAgICB9KTsKICAgIH0KCiAgICBkZXNjcmliZSgnd2l0aCBsYXJnZSBieXRlcyBpbnB1dHMnLCBmdW5jdGlvbiAoKSB7CiAgICAgIGZvciAoY29uc3QgW1tiLCBsb2cyYl0sIFtlLCBsb2cyZV0sIFttLCBsb2cybV1dIG9mIHByb2R1Y3QoCiAgICAgICAgcmFuZ2UoMzIwLCA1MTIsIDY0KS5tYXAoZSA9PiBbMm4gKiogQmlnSW50KGUpICsgMW4sIGVdKSwKICAgICAgICByYW5nZSgzMjAsIDUxMiwgNjQpLm1hcChlID0+IFsybiAqKiBCaWdJbnQoZSkgKyAxbiwgZV0pLAogICAgICAgIHJhbmdlKDMyMCwgNTEyLCA2NCkubWFwKGUgPT4gWzJuICoqIEJpZ0ludChlKSArIDFuLCBlXSksCiAgICAgICkpIHsKICAgICAgICBpdChgY2FsY3VsYXRlcyBiICoqIGUgJSBtIChiPTIqKiR7bG9nMmJ9KzEpIChlPTIqKiR7bG9nMmV9KzEpIChtPTIqKiR7bG9nMm19KzEpYCwgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgY29uc3QgbUxlbmd0aCA9IGV0aGVycy5kYXRhTGVuZ3RoKGV0aGVycy50b0JlSGV4KG0pKTsKCiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRtb2RFeHAoYnl0ZXMoYiksIGJ5dGVzKGUpLCBieXRlcyhtKSkpLnRvLmVxdWFsKGJ5dGVzKG1vZEV4cChiLCBlLCBtKSwgbUxlbmd0aCkudmFsdWUpOwogICAgICAgIH0pOwogICAgICB9CiAgICB9KTsKICB9KTsKCiAgZGVzY3JpYmUoJ3RyeU1vZEV4cCcsIGZ1bmN0aW9uICgpIHsKICAgIGZvciAoY29uc3QgW25hbWUsIHR5cGVdIG9mIE9iamVjdC5lbnRyaWVzKHsgdWludDI1NiwgYnl0ZXMgfSkpIHsKICAgICAgZGVzY3JpYmUoYHdpdGggJHtuYW1lfSBpbnB1dHNgLCBmdW5jdGlvbiAoKSB7CiAgICAgICAgaXQoJ2lzIGNvcnJlY3RseSBjYWxjdWxhdGluZyBtb2R1bHVzJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgY29uc3QgYiA9IDNuOwogICAgICAgICAgY29uc3QgZSA9IDIwMG47CiAgICAgICAgICBjb25zdCBtID0gNTBuOwoKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJHRyeU1vZEV4cCh0eXBlKGIpLCB0eXBlKGUpLCB0eXBlKG0pKSkudG8uZGVlcC5lcXVhbChbdHJ1ZSwgdHlwZShiICoqIGUgJSBtKS52YWx1ZV0pOwogICAgICAgIH0pOwoKICAgICAgICBpdCgnaXMgY29ycmVjdGx5IHJldmVydGluZyB3aGVuIG1vZHVsdXMgaXMgemVybycsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICAgIGNvbnN0IGIgPSAzbjsKICAgICAgICAgIGNvbnN0IGUgPSAyMDBuOwogICAgICAgICAgY29uc3QgbSA9IDBuOwoKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJHRyeU1vZEV4cCh0eXBlKGIpLCB0eXBlKGUpLCB0eXBlKG0pKSkudG8uZGVlcC5lcXVhbChbZmFsc2UsIHR5cGUuemVyb10pOwogICAgICAgIH0pOwogICAgICB9KTsKICAgIH0KCiAgICBkZXNjcmliZSgnd2l0aCBsYXJnZSBieXRlcyBpbnB1dHMnLCBmdW5jdGlvbiAoKSB7CiAgICAgIGZvciAoY29uc3QgW1tiLCBsb2cyYl0sIFtlLCBsb2cyZV0sIFttLCBsb2cybV1dIG9mIHByb2R1Y3QoCiAgICAgICAgcmFuZ2UoMzIwLCA1MTMsIDY0KS5tYXAoZSA9PiBbMm4gKiogQmlnSW50KGUpICsgMW4sIGVdKSwKICAgICAgICByYW5nZSgzMjAsIDUxMywgNjQpLm1hcChlID0+IFsybiAqKiBCaWdJbnQoZSkgKyAxbiwgZV0pLAogICAgICAgIHJhbmdlKDMyMCwgNTEzLCA2NCkubWFwKGUgPT4gWzJuICoqIEJpZ0ludChlKSArIDFuLCBlXSksCiAgICAgICkpIHsKICAgICAgICBpdChgY2FsY3VsYXRlcyBiICoqIGUgJSBtIChiPTIqKiR7bG9nMmJ9KzEpIChlPTIqKiR7bG9nMmV9KzEpIChtPTIqKiR7bG9nMm19KzEpYCwgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgICAgY29uc3QgbUxlbmd0aCA9IGV0aGVycy5kYXRhTGVuZ3RoKGV0aGVycy50b0JlSGV4KG0pKTsKCiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiR0cnlNb2RFeHAoYnl0ZXMoYiksIGJ5dGVzKGUpLCBieXRlcyhtKSkpLnRvLmRlZXAuZXF1YWwoWwogICAgICAgICAgICB0cnVlLAogICAgICAgICAgICBieXRlcyhtb2RFeHAoYiwgZSwgbSksIG1MZW5ndGgpLnZhbHVlLAogICAgICAgICAgXSk7CiAgICAgICAgfSk7CiAgICAgIH0KICAgIH0pOwogIH0pOwoKICBkZXNjcmliZSgnc3FydCcsIGZ1bmN0aW9uICgpIHsKICAgIGl0KCdyb3VuZHMgZG93bicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgZm9yIChjb25zdCByb3VuZGluZyBvZiBSb3VuZGluZ0Rvd24pIHsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRzcXJ0KDBuLCByb3VuZGluZykpLnRvLmVxdWFsKDBuKTsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRzcXJ0KDFuLCByb3VuZGluZykpLnRvLmVxdWFsKDFuKTsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRzcXJ0KDJuLCByb3VuZGluZykpLnRvLmVxdWFsKDFuKTsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRzcXJ0KDNuLCByb3VuZGluZykpLnRvLmVxdWFsKDFuKTsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRzcXJ0KDRuLCByb3VuZGluZykpLnRvLmVxdWFsKDJuKTsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRzcXJ0KDE0NG4sIHJvdW5kaW5nKSkudG8uZXF1YWwoMTJuKTsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRzcXJ0KDk5OTk5OW4sIHJvdW5kaW5nKSkudG8uZXF1YWwoOTk5bik7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kc3FydCgxMDAwMDAwbiwgcm91bmRpbmcpKS50by5lcXVhbCgxMDAwbik7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kc3FydCgxMDAwMDAxbiwgcm91bmRpbmcpKS50by5lcXVhbCgxMDAwbik7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kc3FydCgxMDAyMDAwbiwgcm91bmRpbmcpKS50by5lcXVhbCgxMDAwbik7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kc3FydCgxMDAyMDAxbiwgcm91bmRpbmcpKS50by5lcXVhbCgxMDAxbik7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kc3FydChldGhlcnMuTWF4VWludDI1Niwgcm91bmRpbmcpKS50by5lcXVhbCgzNDAyODIzNjY5MjA5Mzg0NjM0NjMzNzQ2MDc0MzE3NjgyMTE0NTVuKTsKICAgICAgfQogICAgfSk7CgogICAgaXQoJ3JvdW5kcyB1cCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgZm9yIChjb25zdCByb3VuZGluZyBvZiBSb3VuZGluZ1VwKSB7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kc3FydCgwbiwgcm91bmRpbmcpKS50by5lcXVhbCgwbik7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kc3FydCgxbiwgcm91bmRpbmcpKS50by5lcXVhbCgxbik7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kc3FydCgybiwgcm91bmRpbmcpKS50by5lcXVhbCgybik7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kc3FydCgzbiwgcm91bmRpbmcpKS50by5lcXVhbCgybik7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kc3FydCg0biwgcm91bmRpbmcpKS50by5lcXVhbCgybik7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kc3FydCgxNDRuLCByb3VuZGluZykpLnRvLmVxdWFsKDEybik7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kc3FydCg5OTk5OTluLCByb3VuZGluZykpLnRvLmVxdWFsKDEwMDBuKTsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRzcXJ0KDEwMDAwMDBuLCByb3VuZGluZykpLnRvLmVxdWFsKDEwMDBuKTsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRzcXJ0KDEwMDAwMDFuLCByb3VuZGluZykpLnRvLmVxdWFsKDEwMDFuKTsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRzcXJ0KDEwMDIwMDBuLCByb3VuZGluZykpLnRvLmVxdWFsKDEwMDFuKTsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRzcXJ0KDEwMDIwMDFuLCByb3VuZGluZykpLnRvLmVxdWFsKDEwMDFuKTsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRzcXJ0KGV0aGVycy5NYXhVaW50MjU2LCByb3VuZGluZykpLnRvLmVxdWFsKDM0MDI4MjM2NjkyMDkzODQ2MzQ2MzM3NDYwNzQzMTc2ODIxMTQ1Nm4pOwogICAgICB9CiAgICB9KTsKICB9KTsKCiAgZGVzY3JpYmUoJ2xvZycsIGZ1bmN0aW9uICgpIHsKICAgIGRlc2NyaWJlKCdsb2cyJywgZnVuY3Rpb24gKCkgewogICAgICBpdCgncm91bmRzIGRvd24nLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgZm9yIChjb25zdCByb3VuZGluZyBvZiBSb3VuZGluZ0Rvd24pIHsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGxvZzIoMG4sIHJvdW5kaW5nKSkudG8uZXF1YWwoMG4pOwogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kbG9nMigxbiwgcm91bmRpbmcpKS50by5lcXVhbCgwbik7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRsb2cyKDJuLCByb3VuZGluZykpLnRvLmVxdWFsKDFuKTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGxvZzIoM24sIHJvdW5kaW5nKSkudG8uZXF1YWwoMW4pOwogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kbG9nMig0biwgcm91bmRpbmcpKS50by5lcXVhbCgybik7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRsb2cyKDVuLCByb3VuZGluZykpLnRvLmVxdWFsKDJuKTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGxvZzIoNm4sIHJvdW5kaW5nKSkudG8uZXF1YWwoMm4pOwogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kbG9nMig3biwgcm91bmRpbmcpKS50by5lcXVhbCgybik7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRsb2cyKDhuLCByb3VuZGluZykpLnRvLmVxdWFsKDNuKTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGxvZzIoOW4sIHJvdW5kaW5nKSkudG8uZXF1YWwoM24pOwogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kbG9nMihldGhlcnMuTWF4VWludDI1Niwgcm91bmRpbmcpKS50by5lcXVhbCgyNTVuKTsKICAgICAgICB9CiAgICAgIH0pOwoKICAgICAgaXQoJ3JvdW5kcyB1cCcsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgICAgICBmb3IgKGNvbnN0IHJvdW5kaW5nIG9mIFJvdW5kaW5nVXApIHsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGxvZzIoMG4sIHJvdW5kaW5nKSkudG8uZXF1YWwoMG4pOwogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kbG9nMigxbiwgcm91bmRpbmcpKS50by5lcXVhbCgwbik7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRsb2cyKDJuLCByb3VuZGluZykpLnRvLmVxdWFsKDFuKTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGxvZzIoM24sIHJvdW5kaW5nKSkudG8uZXF1YWwoMm4pOwogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kbG9nMig0biwgcm91bmRpbmcpKS50by5lcXVhbCgybik7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRsb2cyKDVuLCByb3VuZGluZykpLnRvLmVxdWFsKDNuKTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGxvZzIoNm4sIHJvdW5kaW5nKSkudG8uZXF1YWwoM24pOwogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kbG9nMig3biwgcm91bmRpbmcpKS50by5lcXVhbCgzbik7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRsb2cyKDhuLCByb3VuZGluZykpLnRvLmVxdWFsKDNuKTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGxvZzIoOW4sIHJvdW5kaW5nKSkudG8uZXF1YWwoNG4pOwogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kbG9nMihldGhlcnMuTWF4VWludDI1Niwgcm91bmRpbmcpKS50by5lcXVhbCgyNTZuKTsKICAgICAgICB9CiAgICAgIH0pOwogICAgfSk7CgogICAgZGVzY3JpYmUoJ2xvZzEwJywgZnVuY3Rpb24gKCkgewogICAgICBpdCgncm91bmRzIGRvd24nLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgZm9yIChjb25zdCByb3VuZGluZyBvZiBSb3VuZGluZ0Rvd24pIHsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGxvZzEwKDBuLCByb3VuZGluZykpLnRvLmVxdWFsKDBuKTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGxvZzEwKDFuLCByb3VuZGluZykpLnRvLmVxdWFsKDBuKTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGxvZzEwKDJuLCByb3VuZGluZykpLnRvLmVxdWFsKDBuKTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGxvZzEwKDluLCByb3VuZGluZykpLnRvLmVxdWFsKDBuKTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGxvZzEwKDEwbiwgcm91bmRpbmcpKS50by5lcXVhbCgxbik7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRsb2cxMCgxMW4sIHJvdW5kaW5nKSkudG8uZXF1YWwoMW4pOwogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kbG9nMTAoOTluLCByb3VuZGluZykpLnRvLmVxdWFsKDFuKTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGxvZzEwKDEwMG4sIHJvdW5kaW5nKSkudG8uZXF1YWwoMm4pOwogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kbG9nMTAoMTAxbiwgcm91bmRpbmcpKS50by5lcXVhbCgybik7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRsb2cxMCg5OTluLCByb3VuZGluZykpLnRvLmVxdWFsKDJuKTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGxvZzEwKDEwMDBuLCByb3VuZGluZykpLnRvLmVxdWFsKDNuKTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGxvZzEwKDEwMDFuLCByb3VuZGluZykpLnRvLmVxdWFsKDNuKTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGxvZzEwKGV0aGVycy5NYXhVaW50MjU2LCByb3VuZGluZykpLnRvLmVxdWFsKDc3bik7CiAgICAgICAgfQogICAgICB9KTsKCiAgICAgIGl0KCdyb3VuZHMgdXAnLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgZm9yIChjb25zdCByb3VuZGluZyBvZiBSb3VuZGluZ1VwKSB7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRsb2cxMCgwbiwgcm91bmRpbmcpKS50by5lcXVhbCgwbik7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRsb2cxMCgxbiwgcm91bmRpbmcpKS50by5lcXVhbCgwbik7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRsb2cxMCgybiwgcm91bmRpbmcpKS50by5lcXVhbCgxbik7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRsb2cxMCg5biwgcm91bmRpbmcpKS50by5lcXVhbCgxbik7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRsb2cxMCgxMG4sIHJvdW5kaW5nKSkudG8uZXF1YWwoMW4pOwogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kbG9nMTAoMTFuLCByb3VuZGluZykpLnRvLmVxdWFsKDJuKTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGxvZzEwKDk5biwgcm91bmRpbmcpKS50by5lcXVhbCgybik7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRsb2cxMCgxMDBuLCByb3VuZGluZykpLnRvLmVxdWFsKDJuKTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGxvZzEwKDEwMW4sIHJvdW5kaW5nKSkudG8uZXF1YWwoM24pOwogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kbG9nMTAoOTk5biwgcm91bmRpbmcpKS50by5lcXVhbCgzbik7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRsb2cxMCgxMDAwbiwgcm91bmRpbmcpKS50by5lcXVhbCgzbik7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRsb2cxMCgxMDAxbiwgcm91bmRpbmcpKS50by5lcXVhbCg0bik7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRsb2cxMChldGhlcnMuTWF4VWludDI1Niwgcm91bmRpbmcpKS50by5lcXVhbCg3OG4pOwogICAgICAgIH0KICAgICAgfSk7CiAgICB9KTsKCiAgICBkZXNjcmliZSgnbG9nMjU2JywgZnVuY3Rpb24gKCkgewogICAgICBpdCgncm91bmRzIGRvd24nLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgZm9yIChjb25zdCByb3VuZGluZyBvZiBSb3VuZGluZ0Rvd24pIHsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGxvZzI1Nigwbiwgcm91bmRpbmcpKS50by5lcXVhbCgwbik7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRsb2cyNTYoMW4sIHJvdW5kaW5nKSkudG8uZXF1YWwoMG4pOwogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kbG9nMjU2KDJuLCByb3VuZGluZykpLnRvLmVxdWFsKDBuKTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGxvZzI1NigyNTVuLCByb3VuZGluZykpLnRvLmVxdWFsKDBuKTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGxvZzI1NigyNTZuLCByb3VuZGluZykpLnRvLmVxdWFsKDFuKTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGxvZzI1NigyNTduLCByb3VuZGluZykpLnRvLmVxdWFsKDFuKTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGxvZzI1Nig2NTUzNW4sIHJvdW5kaW5nKSkudG8uZXF1YWwoMW4pOwogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kbG9nMjU2KDY1NTM2biwgcm91bmRpbmcpKS50by5lcXVhbCgybik7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRsb2cyNTYoNjU1MzduLCByb3VuZGluZykpLnRvLmVxdWFsKDJuKTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGxvZzI1NihldGhlcnMuTWF4VWludDI1Niwgcm91bmRpbmcpKS50by5lcXVhbCgzMW4pOwogICAgICAgIH0KICAgICAgfSk7CgogICAgICBpdCgncm91bmRzIHVwJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGZvciAoY29uc3Qgcm91bmRpbmcgb2YgUm91bmRpbmdVcCkgewogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kbG9nMjU2KDBuLCByb3VuZGluZykpLnRvLmVxdWFsKDBuKTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGxvZzI1Nigxbiwgcm91bmRpbmcpKS50by5lcXVhbCgwbik7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRsb2cyNTYoMm4sIHJvdW5kaW5nKSkudG8uZXF1YWwoMW4pOwogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kbG9nMjU2KDI1NW4sIHJvdW5kaW5nKSkudG8uZXF1YWwoMW4pOwogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kbG9nMjU2KDI1Nm4sIHJvdW5kaW5nKSkudG8uZXF1YWwoMW4pOwogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kbG9nMjU2KDI1N24sIHJvdW5kaW5nKSkudG8uZXF1YWwoMm4pOwogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kbG9nMjU2KDY1NTM1biwgcm91bmRpbmcpKS50by5lcXVhbCgybik7CiAgICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRsb2cyNTYoNjU1MzZuLCByb3VuZGluZykpLnRvLmVxdWFsKDJuKTsKICAgICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGxvZzI1Nig2NTUzN24sIHJvdW5kaW5nKSkudG8uZXF1YWwoM24pOwogICAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kbG9nMjU2KGV0aGVycy5NYXhVaW50MjU2LCByb3VuZGluZykpLnRvLmVxdWFsKDMybik7CiAgICAgICAgfQogICAgICB9KTsKICAgIH0pOwogIH0pOwp9KTsK
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+const { PANIC_CODES } = require('@nomicfoundation/hardhat-chai-matchers/panic');
+
+const { Rounding } = require('../../helpers/enums');
+const { min, max, modExp } = require('../../helpers/math');
+const { generators } = require('../../helpers/random');
+const { product, range } = require('../../helpers/iterate');
+
+const RoundingDown = [Rounding.Floor, Rounding.Trunc];
+const RoundingUp = [Rounding.Ceil, Rounding.Expand];
+
+const bytes = (value, width = undefined) => ethers.Typed.bytes(ethers.toBeHex(value, width));
+const uint256 = value => ethers.Typed.uint256(value);
+bytes.zero = '0x';
+uint256.zero = 0n;
+
+async function testCommutative(fn, lhs, rhs, expected, ...extra) {
+  expect(await fn(lhs, rhs, ...extra)).to.deep.equal(expected);
+  expect(await fn(rhs, lhs, ...extra)).to.deep.equal(expected);
+}
+
+async function fixture() {
+  const mock = await ethers.deployContract('$Math');
+
+  // disambiguation, we use the version with explicit rounding
+  mock.$mulDiv = mock['$mulDiv(uint256,uint256,uint256,uint8)'];
+  mock.$sqrt = mock['$sqrt(uint256,uint8)'];
+  mock.$log2 = mock['$log2(uint256,uint8)'];
+  mock.$log10 = mock['$log10(uint256,uint8)'];
+  mock.$log256 = mock['$log256(uint256,uint8)'];
+
+  return { mock };
+}
+
+describe('Math', function () {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  describe('tryAdd', function () {
+    it('adds correctly', async function () {
+      const a = 5678n;
+      const b = 1234n;
+      await testCommutative(this.mock.$tryAdd, a, b, [true, a + b]);
+    });
+
+    it('reverts on addition overflow', async function () {
+      const a = ethers.MaxUint256;
+      const b = 1n;
+      await testCommutative(this.mock.$tryAdd, a, b, [false, 0n]);
+    });
+  });
+
+  describe('trySub', function () {
+    it('subtracts correctly', async function () {
+      const a = 5678n;
+      const b = 1234n;
+      expect(await this.mock.$trySub(a, b)).to.deep.equal([true, a - b]);
+    });
+
+    it('reverts if subtraction result would be negative', async function () {
+      const a = 1234n;
+      const b = 5678n;
+      expect(await this.mock.$trySub(a, b)).to.deep.equal([false, 0n]);
+    });
+  });
+
+  describe('tryMul', function () {
+    it('multiplies correctly', async function () {
+      const a = 1234n;
+      const b = 5678n;
+      await testCommutative(this.mock.$tryMul, a, b, [true, a * b]);
+    });
+
+    it('multiplies by zero correctly', async function () {
+      const a = 0n;
+      const b = 5678n;
+      await testCommutative(this.mock.$tryMul, a, b, [true, a * b]);
+    });
+
+    it('reverts on multiplication overflow', async function () {
+      const a = ethers.MaxUint256;
+      const b = 2n;
+      await testCommutative(this.mock.$tryMul, a, b, [false, 0n]);
+    });
+  });
+
+  describe('tryDiv', function () {
+    it('divides correctly', async function () {
+      const a = 5678n;
+      const b = 5678n;
+      expect(await this.mock.$tryDiv(a, b)).to.deep.equal([true, a / b]);
+    });
+
+    it('divides zero correctly', async function () {
+      const a = 0n;
+      const b = 5678n;
+      expect(await this.mock.$tryDiv(a, b)).to.deep.equal([true, a / b]);
+    });
+
+    it('returns complete number result on non-even division', async function () {
+      const a = 7000n;
+      const b = 5678n;
+      expect(await this.mock.$tryDiv(a, b)).to.deep.equal([true, a / b]);
+    });
+
+    it('reverts on division by zero', async function () {
+      const a = 5678n;
+      const b = 0n;
+      expect(await this.mock.$tryDiv(a, b)).to.deep.equal([false, 0n]);
+    });
+  });
+
+  describe('tryMod', function () {
+    describe('modulos correctly', function () {
+      it('when the dividend is smaller than the divisor', async function () {
+        const a = 284n;
+        const b = 5678n;
+        expect(await this.mock.$tryMod(a, b)).to.deep.equal([true, a % b]);
+      });
+
+      it('when the dividend is equal to the divisor', async function () {
+        const a = 5678n;
+        const b = 5678n;
+        expect(await this.mock.$tryMod(a, b)).to.deep.equal([true, a % b]);
+      });
+
+      it('when the dividend is larger than the divisor', async function () {
+        const a = 7000n;
+        const b = 5678n;
+        expect(await this.mock.$tryMod(a, b)).to.deep.equal([true, a % b]);
+      });
+
+      it('when the dividend is a multiple of the divisor', async function () {
+        const a = 17034n; // 17034 == 5678 * 3
+        const b = 5678n;
+        expect(await this.mock.$tryMod(a, b)).to.deep.equal([true, a % b]);
+      });
+    });
+
+    it('reverts with a 0 divisor', async function () {
+      const a = 5678n;
+      const b = 0n;
+      expect(await this.mock.$tryMod(a, b)).to.deep.equal([false, 0n]);
+    });
+  });
+
+  describe('max', function () {
+    it('is correctly detected in both position', async function () {
+      await testCommutative(this.mock.$max, 1234n, 5678n, max(1234n, 5678n));
+    });
+  });
+
+  describe('min', function () {
+    it('is correctly detected in both position', async function () {
+      await testCommutative(this.mock.$min, 1234n, 5678n, min(1234n, 5678n));
+    });
+  });
+
+  describe('average', function () {
+    it('is correctly calculated with two odd numbers', async function () {
+      const a = 57417n;
+      const b = 95431n;
+      expect(await this.mock.$average(a, b)).to.equal((a + b) / 2n);
+    });
+
+    it('is correctly calculated with two even numbers', async function () {
+      const a = 42304n;
+      const b = 84346n;
+      expect(await this.mock.$average(a, b)).to.equal((a + b) / 2n);
+    });
+
+    it('is correctly calculated with one even and one odd number', async function () {
+      const a = 57417n;
+      const b = 84346n;
+      expect(await this.mock.$average(a, b)).to.equal((a + b) / 2n);
+    });
+
+    it('is correctly calculated with two max uint256 numbers', async function () {
+      const a = ethers.MaxUint256;
+      expect(await this.mock.$average(a, a)).to.equal(a);
+    });
+  });
+
+  describe('ceilDiv', function () {
+    it('reverts on zero division', async function () {
+      const a = 2n;
+      const b = 0n;
+      // It's unspecified because it's a low level 0 division error
+      await expect(this.mock.$ceilDiv(a, b)).to.be.revertedWithPanic(PANIC_CODES.DIVISION_BY_ZERO);
+    });
+
+    it('does not round up a zero result', async function () {
+      const a = 0n;
+      const b = 2n;
+      const r = 0n;
+      expect(await this.mock.$ceilDiv(a, b)).to.equal(r);
+    });
+
+    it('does not round up on exact division', async function () {
+      const a = 10n;
+      const b = 5n;
+      const r = 2n;
+      expect(await this.mock.$ceilDiv(a, b)).to.equal(r);
+    });
+
+    it('rounds up on division with remainders', async function () {
+      const a = 42n;
+      const b = 13n;
+      const r = 4n;
+      expect(await this.mock.$ceilDiv(a, b)).to.equal(r);
+    });
+
+    it('does not overflow', async function () {
+      const a = ethers.MaxUint256;
+      const b = 2n;
+      const r = 1n << 255n;
+      expect(await this.mock.$ceilDiv(a, b)).to.equal(r);
+    });
+
+    it('correctly computes max uint256 divided by 1', async function () {
+      const a = ethers.MaxUint256;
+      const b = 1n;
+      const r = ethers.MaxUint256;
+      expect(await this.mock.$ceilDiv(a, b)).to.equal(r);
+    });
+  });
+
+  describe('mulDiv', function () {
+    it('divide by 0', async function () {
+      const a = 1n;
+      const b = 1n;
+      const c = 0n;
+      await expect(this.mock.$mulDiv(a, b, c, Rounding.Floor)).to.be.revertedWithPanic(PANIC_CODES.DIVISION_BY_ZERO);
+    });
+
+    it('reverts with result higher than 2 ^ 256', async function () {
+      const a = 5n;
+      const b = ethers.MaxUint256;
+      const c = 2n;
+      await expect(this.mock.$mulDiv(a, b, c, Rounding.Floor)).to.be.revertedWithPanic(
+        PANIC_CODES.ARITHMETIC_UNDER_OR_OVERFLOW,
+      );
+    });
+
+    describe('does round down', function () {
+      it('small values', async function () {
+        for (const rounding of RoundingDown) {
+          expect(await this.mock.$mulDiv(3n, 4n, 5n, rounding)).to.equal(2n);
+          expect(await this.mock.$mulDiv(3n, 5n, 5n, rounding)).to.equal(3n);
+        }
+      });
+
+      it('large values', async function () {
+        for (const rounding of RoundingDown) {
+          expect(await this.mock.$mulDiv(42n, ethers.MaxUint256 - 1n, ethers.MaxUint256, rounding)).to.equal(41n);
+
+          expect(await this.mock.$mulDiv(17n, ethers.MaxUint256, ethers.MaxUint256, rounding)).to.equal(17n);
+
+          expect(
+            await this.mock.$mulDiv(ethers.MaxUint256 - 1n, ethers.MaxUint256 - 1n, ethers.MaxUint256, rounding),
+          ).to.equal(ethers.MaxUint256 - 2n);
+
+          expect(
+            await this.mock.$mulDiv(ethers.MaxUint256, ethers.MaxUint256 - 1n, ethers.MaxUint256, rounding),
+          ).to.equal(ethers.MaxUint256 - 1n);
+
+          expect(await this.mock.$mulDiv(ethers.MaxUint256, ethers.MaxUint256, ethers.MaxUint256, rounding)).to.equal(
+            ethers.MaxUint256,
+          );
+        }
+      });
+    });
+
+    describe('does round up', function () {
+      it('small values', async function () {
+        for (const rounding of RoundingUp) {
+          expect(await this.mock.$mulDiv(3n, 4n, 5n, rounding)).to.equal(3n);
+          expect(await this.mock.$mulDiv(3n, 5n, 5n, rounding)).to.equal(3n);
+        }
+      });
+
+      it('large values', async function () {
+        for (const rounding of RoundingUp) {
+          expect(await this.mock.$mulDiv(42n, ethers.MaxUint256 - 1n, ethers.MaxUint256, rounding)).to.equal(42n);
+
+          expect(await this.mock.$mulDiv(17n, ethers.MaxUint256, ethers.MaxUint256, rounding)).to.equal(17n);
+
+          expect(
+            await this.mock.$mulDiv(ethers.MaxUint256 - 1n, ethers.MaxUint256 - 1n, ethers.MaxUint256, rounding),
+          ).to.equal(ethers.MaxUint256 - 1n);
+
+          expect(
+            await this.mock.$mulDiv(ethers.MaxUint256, ethers.MaxUint256 - 1n, ethers.MaxUint256, rounding),
+          ).to.equal(ethers.MaxUint256 - 1n);
+
+          expect(await this.mock.$mulDiv(ethers.MaxUint256, ethers.MaxUint256, ethers.MaxUint256, rounding)).to.equal(
+            ethers.MaxUint256,
+          );
+        }
+      });
+    });
+  });
+
+  describe('invMod', function () {
+    for (const factors of [
+      [0n],
+      [1n],
+      [2n],
+      [17n],
+      [65537n],
+      [0xffffffff00000001000000000000000000000000ffffffffffffffffffffffffn],
+      [3n, 5n],
+      [3n, 7n],
+      [47n, 53n],
+    ]) {
+      const p = factors.reduce((acc, f) => acc * f, 1n);
+
+      describe(`using p=${p} which is ${p > 1 && factors.length > 1 ? 'not ' : ''}a prime`, function () {
+        it('trying to inverse 0 returns 0', async function () {
+          expect(await this.mock.$invMod(0, p)).to.equal(0n);
+          expect(await this.mock.$invMod(p, p)).to.equal(0n); // p is 0 mod p
+        });
+
+        if (p != 0) {
+          for (const value of Array.from({ length: 16 }, generators.uint256)) {
+            const isInversible = factors.every(f => value % f);
+            it(`trying to inverse ${value}`, async function () {
+              const result = await this.mock.$invMod(value, p);
+              if (isInversible) {
+                expect((value * result) % p).to.equal(1n);
+              } else {
+                expect(result).to.equal(0n);
+              }
+            });
+          }
+        }
+      });
+    }
+  });
+
+  describe('modExp', function () {
+    for (const [name, type] of Object.entries({ uint256, bytes })) {
+      describe(`with ${name} inputs`, function () {
+        it('is correctly calculating modulus', async function () {
+          const b = 3n;
+          const e = 200n;
+          const m = 50n;
+
+          expect(await this.mock.$modExp(type(b), type(e), type(m))).to.equal(type(b ** e % m).value);
+        });
+
+        it('is correctly reverting when modulus is zero', async function () {
+          const b = 3n;
+          const e = 200n;
+          const m = 0n;
+
+          await expect(this.mock.$modExp(type(b), type(e), type(m))).to.be.revertedWithPanic(
+            PANIC_CODES.DIVISION_BY_ZERO,
+          );
+        });
+      });
+    }
+
+    describe('with large bytes inputs', function () {
+      for (const [[b, log2b], [e, log2e], [m, log2m]] of product(
+        range(320, 512, 64).map(e => [2n ** BigInt(e) + 1n, e]),
+        range(320, 512, 64).map(e => [2n ** BigInt(e) + 1n, e]),
+        range(320, 512, 64).map(e => [2n ** BigInt(e) + 1n, e]),
+      )) {
+        it(`calculates b ** e % m (b=2**${log2b}+1) (e=2**${log2e}+1) (m=2**${log2m}+1)`, async function () {
+          const mLength = ethers.dataLength(ethers.toBeHex(m));
+
+          expect(await this.mock.$modExp(bytes(b), bytes(e), bytes(m))).to.equal(bytes(modExp(b, e, m), mLength).value);
+        });
+      }
+    });
+  });
+
+  describe('tryModExp', function () {
+    for (const [name, type] of Object.entries({ uint256, bytes })) {
+      describe(`with ${name} inputs`, function () {
+        it('is correctly calculating modulus', async function () {
+          const b = 3n;
+          const e = 200n;
+          const m = 50n;
+
+          expect(await this.mock.$tryModExp(type(b), type(e), type(m))).to.deep.equal([true, type(b ** e % m).value]);
+        });
+
+        it('is correctly reverting when modulus is zero', async function () {
+          const b = 3n;
+          const e = 200n;
+          const m = 0n;
+
+          expect(await this.mock.$tryModExp(type(b), type(e), type(m))).to.deep.equal([false, type.zero]);
+        });
+      });
+    }
+
+    describe('with large bytes inputs', function () {
+      for (const [[b, log2b], [e, log2e], [m, log2m]] of product(
+        range(320, 513, 64).map(e => [2n ** BigInt(e) + 1n, e]),
+        range(320, 513, 64).map(e => [2n ** BigInt(e) + 1n, e]),
+        range(320, 513, 64).map(e => [2n ** BigInt(e) + 1n, e]),
+      )) {
+        it(`calculates b ** e % m (b=2**${log2b}+1) (e=2**${log2e}+1) (m=2**${log2m}+1)`, async function () {
+          const mLength = ethers.dataLength(ethers.toBeHex(m));
+
+          expect(await this.mock.$tryModExp(bytes(b), bytes(e), bytes(m))).to.deep.equal([
+            true,
+            bytes(modExp(b, e, m), mLength).value,
+          ]);
+        });
+      }
+    });
+  });
+
+  describe('sqrt', function () {
+    it('rounds down', async function () {
+      for (const rounding of RoundingDown) {
+        expect(await this.mock.$sqrt(0n, rounding)).to.equal(0n);
+        expect(await this.mock.$sqrt(1n, rounding)).to.equal(1n);
+        expect(await this.mock.$sqrt(2n, rounding)).to.equal(1n);
+        expect(await this.mock.$sqrt(3n, rounding)).to.equal(1n);
+        expect(await this.mock.$sqrt(4n, rounding)).to.equal(2n);
+        expect(await this.mock.$sqrt(144n, rounding)).to.equal(12n);
+        expect(await this.mock.$sqrt(999999n, rounding)).to.equal(999n);
+        expect(await this.mock.$sqrt(1000000n, rounding)).to.equal(1000n);
+        expect(await this.mock.$sqrt(1000001n, rounding)).to.equal(1000n);
+        expect(await this.mock.$sqrt(1002000n, rounding)).to.equal(1000n);
+        expect(await this.mock.$sqrt(1002001n, rounding)).to.equal(1001n);
+        expect(await this.mock.$sqrt(ethers.MaxUint256, rounding)).to.equal(340282366920938463463374607431768211455n);
+      }
+    });
+
+    it('rounds up', async function () {
+      for (const rounding of RoundingUp) {
+        expect(await this.mock.$sqrt(0n, rounding)).to.equal(0n);
+        expect(await this.mock.$sqrt(1n, rounding)).to.equal(1n);
+        expect(await this.mock.$sqrt(2n, rounding)).to.equal(2n);
+        expect(await this.mock.$sqrt(3n, rounding)).to.equal(2n);
+        expect(await this.mock.$sqrt(4n, rounding)).to.equal(2n);
+        expect(await this.mock.$sqrt(144n, rounding)).to.equal(12n);
+        expect(await this.mock.$sqrt(999999n, rounding)).to.equal(1000n);
+        expect(await this.mock.$sqrt(1000000n, rounding)).to.equal(1000n);
+        expect(await this.mock.$sqrt(1000001n, rounding)).to.equal(1001n);
+        expect(await this.mock.$sqrt(1002000n, rounding)).to.equal(1001n);
+        expect(await this.mock.$sqrt(1002001n, rounding)).to.equal(1001n);
+        expect(await this.mock.$sqrt(ethers.MaxUint256, rounding)).to.equal(340282366920938463463374607431768211456n);
+      }
+    });
+  });
+
+  describe('log', function () {
+    describe('log2', function () {
+      it('rounds down', async function () {
+        for (const rounding of RoundingDown) {
+          expect(await this.mock.$log2(0n, rounding)).to.equal(0n);
+          expect(await this.mock.$log2(1n, rounding)).to.equal(0n);
+          expect(await this.mock.$log2(2n, rounding)).to.equal(1n);
+          expect(await this.mock.$log2(3n, rounding)).to.equal(1n);
+          expect(await this.mock.$log2(4n, rounding)).to.equal(2n);
+          expect(await this.mock.$log2(5n, rounding)).to.equal(2n);
+          expect(await this.mock.$log2(6n, rounding)).to.equal(2n);
+          expect(await this.mock.$log2(7n, rounding)).to.equal(2n);
+          expect(await this.mock.$log2(8n, rounding)).to.equal(3n);
+          expect(await this.mock.$log2(9n, rounding)).to.equal(3n);
+          expect(await this.mock.$log2(ethers.MaxUint256, rounding)).to.equal(255n);
+        }
+      });
+
+      it('rounds up', async function () {
+        for (const rounding of RoundingUp) {
+          expect(await this.mock.$log2(0n, rounding)).to.equal(0n);
+          expect(await this.mock.$log2(1n, rounding)).to.equal(0n);
+          expect(await this.mock.$log2(2n, rounding)).to.equal(1n);
+          expect(await this.mock.$log2(3n, rounding)).to.equal(2n);
+          expect(await this.mock.$log2(4n, rounding)).to.equal(2n);
+          expect(await this.mock.$log2(5n, rounding)).to.equal(3n);
+          expect(await this.mock.$log2(6n, rounding)).to.equal(3n);
+          expect(await this.mock.$log2(7n, rounding)).to.equal(3n);
+          expect(await this.mock.$log2(8n, rounding)).to.equal(3n);
+          expect(await this.mock.$log2(9n, rounding)).to.equal(4n);
+          expect(await this.mock.$log2(ethers.MaxUint256, rounding)).to.equal(256n);
+        }
+      });
+    });
+
+    describe('log10', function () {
+      it('rounds down', async function () {
+        for (const rounding of RoundingDown) {
+          expect(await this.mock.$log10(0n, rounding)).to.equal(0n);
+          expect(await this.mock.$log10(1n, rounding)).to.equal(0n);
+          expect(await this.mock.$log10(2n, rounding)).to.equal(0n);
+          expect(await this.mock.$log10(9n, rounding)).to.equal(0n);
+          expect(await this.mock.$log10(10n, rounding)).to.equal(1n);
+          expect(await this.mock.$log10(11n, rounding)).to.equal(1n);
+          expect(await this.mock.$log10(99n, rounding)).to.equal(1n);
+          expect(await this.mock.$log10(100n, rounding)).to.equal(2n);
+          expect(await this.mock.$log10(101n, rounding)).to.equal(2n);
+          expect(await this.mock.$log10(999n, rounding)).to.equal(2n);
+          expect(await this.mock.$log10(1000n, rounding)).to.equal(3n);
+          expect(await this.mock.$log10(1001n, rounding)).to.equal(3n);
+          expect(await this.mock.$log10(ethers.MaxUint256, rounding)).to.equal(77n);
+        }
+      });
+
+      it('rounds up', async function () {
+        for (const rounding of RoundingUp) {
+          expect(await this.mock.$log10(0n, rounding)).to.equal(0n);
+          expect(await this.mock.$log10(1n, rounding)).to.equal(0n);
+          expect(await this.mock.$log10(2n, rounding)).to.equal(1n);
+          expect(await this.mock.$log10(9n, rounding)).to.equal(1n);
+          expect(await this.mock.$log10(10n, rounding)).to.equal(1n);
+          expect(await this.mock.$log10(11n, rounding)).to.equal(2n);
+          expect(await this.mock.$log10(99n, rounding)).to.equal(2n);
+          expect(await this.mock.$log10(100n, rounding)).to.equal(2n);
+          expect(await this.mock.$log10(101n, rounding)).to.equal(3n);
+          expect(await this.mock.$log10(999n, rounding)).to.equal(3n);
+          expect(await this.mock.$log10(1000n, rounding)).to.equal(3n);
+          expect(await this.mock.$log10(1001n, rounding)).to.equal(4n);
+          expect(await this.mock.$log10(ethers.MaxUint256, rounding)).to.equal(78n);
+        }
+      });
+    });
+
+    describe('log256', function () {
+      it('rounds down', async function () {
+        for (const rounding of RoundingDown) {
+          expect(await this.mock.$log256(0n, rounding)).to.equal(0n);
+          expect(await this.mock.$log256(1n, rounding)).to.equal(0n);
+          expect(await this.mock.$log256(2n, rounding)).to.equal(0n);
+          expect(await this.mock.$log256(255n, rounding)).to.equal(0n);
+          expect(await this.mock.$log256(256n, rounding)).to.equal(1n);
+          expect(await this.mock.$log256(257n, rounding)).to.equal(1n);
+          expect(await this.mock.$log256(65535n, rounding)).to.equal(1n);
+          expect(await this.mock.$log256(65536n, rounding)).to.equal(2n);
+          expect(await this.mock.$log256(65537n, rounding)).to.equal(2n);
+          expect(await this.mock.$log256(ethers.MaxUint256, rounding)).to.equal(31n);
+        }
+      });
+
+      it('rounds up', async function () {
+        for (const rounding of RoundingUp) {
+          expect(await this.mock.$log256(0n, rounding)).to.equal(0n);
+          expect(await this.mock.$log256(1n, rounding)).to.equal(0n);
+          expect(await this.mock.$log256(2n, rounding)).to.equal(1n);
+          expect(await this.mock.$log256(255n, rounding)).to.equal(1n);
+          expect(await this.mock.$log256(256n, rounding)).to.equal(1n);
+          expect(await this.mock.$log256(257n, rounding)).to.equal(2n);
+          expect(await this.mock.$log256(65535n, rounding)).to.equal(2n);
+          expect(await this.mock.$log256(65536n, rounding)).to.equal(2n);
+          expect(await this.mock.$log256(65537n, rounding)).to.equal(3n);
+          expect(await this.mock.$log256(ethers.MaxUint256, rounding)).to.equal(32n);
+        }
+      });
+    });
+  });
+});
