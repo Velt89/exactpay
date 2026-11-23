@@ -1,1 +1,253 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge0VSQzIwUGVybWl0fSBmcm9tICIuLi8uLi90b2tlbi9FUkMyMC9leHRlbnNpb25zL0VSQzIwUGVybWl0LnNvbCI7CmltcG9ydCB7TWF0aH0gZnJvbSAiLi4vLi4vdXRpbHMvbWF0aC9NYXRoLnNvbCI7CmltcG9ydCB7SVZvdGVzfSBmcm9tICIuLi8uLi9nb3Zlcm5hbmNlL3V0aWxzL0lWb3Rlcy5zb2wiOwppbXBvcnQge1NhZmVDYXN0fSBmcm9tICIuLi8uLi91dGlscy9tYXRoL1NhZmVDYXN0LnNvbCI7CmltcG9ydCB7RUNEU0F9IGZyb20gIi4uLy4uL3V0aWxzL2NyeXB0b2dyYXBoeS9FQ0RTQS5zb2wiOwoKLyoqCiAqIEBkZXYgQ29waWVkIGZyb20gdGhlIG1hc3RlciBicmFuY2ggYXQgY29tbWl0IDg2ZGUxZThiNmMzZmE2YjRlZmE0YTU0MzU4NjlkMjUyMWJlMGY1ZjUKICovCmFic3RyYWN0IGNvbnRyYWN0IEVSQzIwVm90ZXNMZWdhY3lNb2NrIGlzIElWb3RlcywgRVJDMjBQZXJtaXQgewogICAgc3RydWN0IENoZWNrcG9pbnQgewogICAgICAgIHVpbnQzMiBmcm9tQmxvY2s7CiAgICAgICAgdWludDIyNCB2b3RlczsKICAgIH0KCiAgICBieXRlczMyIHByaXZhdGUgY29uc3RhbnQgX0RFTEVHQVRJT05fVFlQRUhBU0ggPQogICAgICAgIGtlY2NhazI1NigiRGVsZWdhdGlvbihhZGRyZXNzIGRlbGVnYXRlZSx1aW50MjU2IG5vbmNlLHVpbnQyNTYgZXhwaXJ5KSIpOwoKICAgIG1hcHBpbmcoYWRkcmVzcyBhY2NvdW50ID0+IGFkZHJlc3MpIHByaXZhdGUgX2RlbGVnYXRlZTsKICAgIG1hcHBpbmcoYWRkcmVzcyBkZWxlZ2F0ZWUgPT4gQ2hlY2twb2ludFtdKSBwcml2YXRlIF9jaGVja3BvaW50czsKICAgIENoZWNrcG9pbnRbXSBwcml2YXRlIF90b3RhbFN1cHBseUNoZWNrcG9pbnRzOwoKICAgIC8qKgogICAgICogQGRldiBHZXQgdGhlIGBwb3NgLXRoIGNoZWNrcG9pbnQgZm9yIGBhY2NvdW50YC4KICAgICAqLwogICAgZnVuY3Rpb24gY2hlY2twb2ludHMoYWRkcmVzcyBhY2NvdW50LCB1aW50MzIgcG9zKSBwdWJsaWMgdmlldyB2aXJ0dWFsIHJldHVybnMgKENoZWNrcG9pbnQgbWVtb3J5KSB7CiAgICAgICAgcmV0dXJuIF9jaGVja3BvaW50c1thY2NvdW50XVtwb3NdOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBHZXQgbnVtYmVyIG9mIGNoZWNrcG9pbnRzIGZvciBgYWNjb3VudGAuCiAgICAgKi8KICAgIGZ1bmN0aW9uIG51bUNoZWNrcG9pbnRzKGFkZHJlc3MgYWNjb3VudCkgcHVibGljIHZpZXcgdmlydHVhbCByZXR1cm5zICh1aW50MzIpIHsKICAgICAgICByZXR1cm4gU2FmZUNhc3QudG9VaW50MzIoX2NoZWNrcG9pbnRzW2FjY291bnRdLmxlbmd0aCk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IEdldCB0aGUgYWRkcmVzcyBgYWNjb3VudGAgaXMgY3VycmVudGx5IGRlbGVnYXRpbmcgdG8uCiAgICAgKi8KICAgIGZ1bmN0aW9uIGRlbGVnYXRlcyhhZGRyZXNzIGFjY291bnQpIHB1YmxpYyB2aWV3IHZpcnR1YWwgcmV0dXJucyAoYWRkcmVzcykgewogICAgICAgIHJldHVybiBfZGVsZWdhdGVlW2FjY291bnRdOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBHZXRzIHRoZSBjdXJyZW50IHZvdGVzIGJhbGFuY2UgZm9yIGBhY2NvdW50YAogICAgICovCiAgICBmdW5jdGlvbiBnZXRWb3RlcyhhZGRyZXNzIGFjY291bnQpIHB1YmxpYyB2aWV3IHZpcnR1YWwgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHVpbnQyNTYgcG9zID0gX2NoZWNrcG9pbnRzW2FjY291bnRdLmxlbmd0aDsKICAgICAgICB1bmNoZWNrZWQgewogICAgICAgICAgICByZXR1cm4gcG9zID09IDAgPyAwIDogX2NoZWNrcG9pbnRzW2FjY291bnRdW3BvcyAtIDFdLnZvdGVzOwogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgUmV0cmlldmUgdGhlIG51bWJlciBvZiB2b3RlcyBmb3IgYGFjY291bnRgIGF0IHRoZSBlbmQgb2YgYGJsb2NrTnVtYmVyYC4KICAgICAqCiAgICAgKiBSZXF1aXJlbWVudHM6CiAgICAgKgogICAgICogLSBgYmxvY2tOdW1iZXJgIG11c3QgaGF2ZSBiZWVuIGFscmVhZHkgbWluZWQKICAgICAqLwogICAgZnVuY3Rpb24gZ2V0UGFzdFZvdGVzKGFkZHJlc3MgYWNjb3VudCwgdWludDI1NiBibG9ja051bWJlcikgcHVibGljIHZpZXcgdmlydHVhbCByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgcmVxdWlyZShibG9ja051bWJlciA8IGJsb2NrLm51bWJlciwgIkVSQzIwVm90ZXM6IGJsb2NrIG5vdCB5ZXQgbWluZWQiKTsKICAgICAgICByZXR1cm4gX2NoZWNrcG9pbnRzTG9va3VwKF9jaGVja3BvaW50c1thY2NvdW50XSwgYmxvY2tOdW1iZXIpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBSZXRyaWV2ZSB0aGUgYHRvdGFsU3VwcGx5YCBhdCB0aGUgZW5kIG9mIGBibG9ja051bWJlcmAuIE5vdGUsIHRoaXMgdmFsdWUgaXMgdGhlIHN1bSBvZiBhbGwgYmFsYW5jZXMuCiAgICAgKiBJdCBpcyBOT1QgdGhlIHN1bSBvZiBhbGwgdGhlIGRlbGVnYXRlZCB2b3RlcyEKICAgICAqCiAgICAgKiBSZXF1aXJlbWVudHM6CiAgICAgKgogICAgICogLSBgYmxvY2tOdW1iZXJgIG11c3QgaGF2ZSBiZWVuIGFscmVhZHkgbWluZWQKICAgICAqLwogICAgZnVuY3Rpb24gZ2V0UGFzdFRvdGFsU3VwcGx5KHVpbnQyNTYgYmxvY2tOdW1iZXIpIHB1YmxpYyB2aWV3IHZpcnR1YWwgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHJlcXVpcmUoYmxvY2tOdW1iZXIgPCBibG9jay5udW1iZXIsICJFUkMyMFZvdGVzOiBibG9jayBub3QgeWV0IG1pbmVkIik7CiAgICAgICAgcmV0dXJuIF9jaGVja3BvaW50c0xvb2t1cChfdG90YWxTdXBwbHlDaGVja3BvaW50cywgYmxvY2tOdW1iZXIpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBMb29rdXAgYSB2YWx1ZSBpbiBhIGxpc3Qgb2YgKHNvcnRlZCkgY2hlY2twb2ludHMuCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9jaGVja3BvaW50c0xvb2t1cChDaGVja3BvaW50W10gc3RvcmFnZSBja3B0cywgdWludDI1NiBibG9ja051bWJlcikgcHJpdmF0ZSB2aWV3IHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICAvLyBXZSBydW4gYSBiaW5hcnkgc2VhcmNoIHRvIGxvb2sgZm9yIHRoZSBlYXJsaWVzdCBjaGVja3BvaW50IHRha2VuIGFmdGVyIGBibG9ja051bWJlcmAuCiAgICAgICAgLy8KICAgICAgICAvLyBJbml0aWFsbHkgd2UgY2hlY2sgaWYgdGhlIGJsb2NrIGlzIHJlY2VudCB0byBuYXJyb3cgdGhlIHNlYXJjaCByYW5nZS4KICAgICAgICAvLyBEdXJpbmcgdGhlIGxvb3AsIHRoZSBpbmRleCBvZiB0aGUgd2FudGVkIGNoZWNrcG9pbnQgcmVtYWlucyBpbiB0aGUgcmFuZ2UgW2xvdy0xLCBoaWdoKS4KICAgICAgICAvLyBXaXRoIGVhY2ggaXRlcmF0aW9uLCBlaXRoZXIgYGxvd2Agb3IgYGhpZ2hgIGlzIG1vdmVkIHRvd2FyZHMgdGhlIG1pZGRsZSBvZiB0aGUgcmFuZ2UgdG8gbWFpbnRhaW4gdGhlCiAgICAgICAgLy8gaW52YXJpYW50LgogICAgICAgIC8vIC0gSWYgdGhlIG1pZGRsZSBjaGVja3BvaW50IGlzIGFmdGVyIGBibG9ja051bWJlcmAsIHdlIGxvb2sgaW4gW2xvdywgbWlkKQogICAgICAgIC8vIC0gSWYgdGhlIG1pZGRsZSBjaGVja3BvaW50IGlzIGJlZm9yZSBvciBlcXVhbCB0byBgYmxvY2tOdW1iZXJgLCB3ZSBsb29rIGluIFttaWQrMSwgaGlnaCkKICAgICAgICAvLyBPbmNlIHdlIHJlYWNoIGEgc2luZ2xlIHZhbHVlICh3aGVuIGxvdyA9PSBoaWdoKSwgd2UndmUgZm91bmQgdGhlIHJpZ2h0IGNoZWNrcG9pbnQgYXQgdGhlIGluZGV4IGhpZ2gtMSwgaWYgbm90CiAgICAgICAgLy8gb3V0IG9mIGJvdW5kcyAoaW4gd2hpY2ggY2FzZSB3ZSdyZSBsb29raW5nIHRvbyBmYXIgaW4gdGhlIHBhc3QgYW5kIHRoZSByZXN1bHQgaXMgMCkuCiAgICAgICAgLy8gTm90ZSB0aGF0IGlmIHRoZSBsYXRlc3QgY2hlY2twb2ludCBhdmFpbGFibGUgaXMgZXhhY3RseSBmb3IgYGJsb2NrTnVtYmVyYCwgd2UgZW5kIHVwIHdpdGggYW4gaW5kZXggdGhhdCBpcwogICAgICAgIC8vIHBhc3QgdGhlIGVuZCBvZiB0aGUgYXJyYXksIHNvIHdlIHRlY2huaWNhbGx5IGRvbid0IGZpbmQgYSBjaGVja3BvaW50IGFmdGVyIGBibG9ja051bWJlcmAsIGJ1dCBpdCB3b3JrcyBvdXQKICAgICAgICAvLyB0aGUgc2FtZS4KICAgICAgICB1aW50MjU2IGxlbmd0aCA9IGNrcHRzLmxlbmd0aDsKCiAgICAgICAgdWludDI1NiBsb3cgPSAwOwogICAgICAgIHVpbnQyNTYgaGlnaCA9IGxlbmd0aDsKCiAgICAgICAgaWYgKGxlbmd0aCA+IDUpIHsKICAgICAgICAgICAgdWludDI1NiBtaWQgPSBsZW5ndGggLSBNYXRoLnNxcnQobGVuZ3RoKTsKICAgICAgICAgICAgaWYgKF91bnNhZmVBY2Nlc3MoY2twdHMsIG1pZCkuZnJvbUJsb2NrID4gYmxvY2tOdW1iZXIpIHsKICAgICAgICAgICAgICAgIGhpZ2ggPSBtaWQ7CiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBsb3cgPSBtaWQgKyAxOwogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICB3aGlsZSAobG93IDwgaGlnaCkgewogICAgICAgICAgICB1aW50MjU2IG1pZCA9IE1hdGguYXZlcmFnZShsb3csIGhpZ2gpOwogICAgICAgICAgICBpZiAoX3Vuc2FmZUFjY2Vzcyhja3B0cywgbWlkKS5mcm9tQmxvY2sgPiBibG9ja051bWJlcikgewogICAgICAgICAgICAgICAgaGlnaCA9IG1pZDsKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGxvdyA9IG1pZCArIDE7CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHVuY2hlY2tlZCB7CiAgICAgICAgICAgIHJldHVybiBoaWdoID09IDAgPyAwIDogX3Vuc2FmZUFjY2Vzcyhja3B0cywgaGlnaCAtIDEpLnZvdGVzOwogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgRGVsZWdhdGUgdm90ZXMgZnJvbSB0aGUgc2VuZGVyIHRvIGBkZWxlZ2F0ZWVgLgogICAgICovCiAgICBmdW5jdGlvbiBkZWxlZ2F0ZShhZGRyZXNzIGRlbGVnYXRlZSkgcHVibGljIHZpcnR1YWwgewogICAgICAgIF9kZWxlZ2F0ZShfbXNnU2VuZGVyKCksIGRlbGVnYXRlZSk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IERlbGVnYXRlcyB2b3RlcyBmcm9tIHNpZ25lciB0byBgZGVsZWdhdGVlYAogICAgICovCiAgICBmdW5jdGlvbiBkZWxlZ2F0ZUJ5U2lnKAogICAgICAgIGFkZHJlc3MgZGVsZWdhdGVlLAogICAgICAgIHVpbnQyNTYgbm9uY2UsCiAgICAgICAgdWludDI1NiBleHBpcnksCiAgICAgICAgdWludDggdiwKICAgICAgICBieXRlczMyIHIsCiAgICAgICAgYnl0ZXMzMiBzCiAgICApIHB1YmxpYyB2aXJ0dWFsIHsKICAgICAgICByZXF1aXJlKGJsb2NrLnRpbWVzdGFtcCA8PSBleHBpcnksICJFUkMyMFZvdGVzOiBzaWduYXR1cmUgZXhwaXJlZCIpOwogICAgICAgIGFkZHJlc3Mgc2lnbmVyID0gRUNEU0EucmVjb3ZlcigKICAgICAgICAgICAgX2hhc2hUeXBlZERhdGFWNChrZWNjYWsyNTYoYWJpLmVuY29kZShfREVMRUdBVElPTl9UWVBFSEFTSCwgZGVsZWdhdGVlLCBub25jZSwgZXhwaXJ5KSkpLAogICAgICAgICAgICB2LAogICAgICAgICAgICByLAogICAgICAgICAgICBzCiAgICAgICAgKTsKICAgICAgICByZXF1aXJlKG5vbmNlID09IF91c2VOb25jZShzaWduZXIpLCAiRVJDMjBWb3RlczogaW52YWxpZCBub25jZSIpOwogICAgICAgIF9kZWxlZ2F0ZShzaWduZXIsIGRlbGVnYXRlZSk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IE1heGltdW0gdG9rZW4gc3VwcGx5LiBEZWZhdWx0cyB0byBgdHlwZSh1aW50MjI0KS5tYXhgICgyXjIyNF4gLSAxKS4KICAgICAqLwogICAgZnVuY3Rpb24gX21heFN1cHBseSgpIGludGVybmFsIHZpZXcgdmlydHVhbCByZXR1cm5zICh1aW50MjI0KSB7CiAgICAgICAgcmV0dXJuIHR5cGUodWludDIyNCkubWF4OwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBNb3ZlIHZvdGluZyBwb3dlciB3aGVuIHRva2VucyBhcmUgdHJhbnNmZXJyZWQuCiAgICAgKgogICAgICogRW1pdHMgYSB7SVZvdGVzLURlbGVnYXRlVm90ZXNDaGFuZ2VkfSBldmVudC4KICAgICAqLwogICAgZnVuY3Rpb24gX3VwZGF0ZShhZGRyZXNzIGZyb20sIGFkZHJlc3MgdG8sIHVpbnQyNTYgYW1vdW50KSBpbnRlcm5hbCB2aXJ0dWFsIG92ZXJyaWRlIHsKICAgICAgICBzdXBlci5fdXBkYXRlKGZyb20sIHRvLCBhbW91bnQpOwoKICAgICAgICBpZiAoZnJvbSA9PSBhZGRyZXNzKDApKSB7CiAgICAgICAgICAgIHJlcXVpcmUodG90YWxTdXBwbHkoKSA8PSBfbWF4U3VwcGx5KCksICJFUkMyMFZvdGVzOiB0b3RhbCBzdXBwbHkgcmlza3Mgb3ZlcmZsb3dpbmcgdm90ZXMiKTsKICAgICAgICAgICAgX3dyaXRlQ2hlY2twb2ludChfdG90YWxTdXBwbHlDaGVja3BvaW50cywgX2FkZCwgYW1vdW50KTsKICAgICAgICB9CgogICAgICAgIGlmICh0byA9PSBhZGRyZXNzKDApKSB7CiAgICAgICAgICAgIF93cml0ZUNoZWNrcG9pbnQoX3RvdGFsU3VwcGx5Q2hlY2twb2ludHMsIF9zdWJ0cmFjdCwgYW1vdW50KTsKICAgICAgICB9CgogICAgICAgIF9tb3ZlVm90aW5nUG93ZXIoZGVsZWdhdGVzKGZyb20pLCBkZWxlZ2F0ZXModG8pLCBhbW91bnQpOwogICAgfQoKICAgIC8qKgogICAgICogQGRldiBDaGFuZ2UgZGVsZWdhdGlvbiBmb3IgYGRlbGVnYXRvcmAgdG8gYGRlbGVnYXRlZWAuCiAgICAgKgogICAgICogRW1pdHMgZXZlbnRzIHtJVm90ZXMtRGVsZWdhdGVDaGFuZ2VkfSBhbmQge0lWb3Rlcy1EZWxlZ2F0ZVZvdGVzQ2hhbmdlZH0uCiAgICAgKi8KICAgIGZ1bmN0aW9uIF9kZWxlZ2F0ZShhZGRyZXNzIGRlbGVnYXRvciwgYWRkcmVzcyBkZWxlZ2F0ZWUpIGludGVybmFsIHZpcnR1YWwgewogICAgICAgIGFkZHJlc3MgY3VycmVudERlbGVnYXRlID0gZGVsZWdhdGVzKGRlbGVnYXRvcik7CiAgICAgICAgdWludDI1NiBkZWxlZ2F0b3JCYWxhbmNlID0gYmFsYW5jZU9mKGRlbGVnYXRvcik7CiAgICAgICAgX2RlbGVnYXRlZVtkZWxlZ2F0b3JdID0gZGVsZWdhdGVlOwoKICAgICAgICBlbWl0IERlbGVnYXRlQ2hhbmdlZChkZWxlZ2F0b3IsIGN1cnJlbnREZWxlZ2F0ZSwgZGVsZWdhdGVlKTsKCiAgICAgICAgX21vdmVWb3RpbmdQb3dlcihjdXJyZW50RGVsZWdhdGUsIGRlbGVnYXRlZSwgZGVsZWdhdG9yQmFsYW5jZSk7CiAgICB9CgogICAgZnVuY3Rpb24gX21vdmVWb3RpbmdQb3dlcihhZGRyZXNzIHNyYywgYWRkcmVzcyBkc3QsIHVpbnQyNTYgYW1vdW50KSBwcml2YXRlIHsKICAgICAgICBpZiAoc3JjICE9IGRzdCAmJiBhbW91bnQgPiAwKSB7CiAgICAgICAgICAgIGlmIChzcmMgIT0gYWRkcmVzcygwKSkgewogICAgICAgICAgICAgICAgKHVpbnQyNTYgb2xkV2VpZ2h0LCB1aW50MjU2IG5ld1dlaWdodCkgPSBfd3JpdGVDaGVja3BvaW50KF9jaGVja3BvaW50c1tzcmNdLCBfc3VidHJhY3QsIGFtb3VudCk7CiAgICAgICAgICAgICAgICBlbWl0IERlbGVnYXRlVm90ZXNDaGFuZ2VkKHNyYywgb2xkV2VpZ2h0LCBuZXdXZWlnaHQpOwogICAgICAgICAgICB9CgogICAgICAgICAgICBpZiAoZHN0ICE9IGFkZHJlc3MoMCkpIHsKICAgICAgICAgICAgICAgICh1aW50MjU2IG9sZFdlaWdodCwgdWludDI1NiBuZXdXZWlnaHQpID0gX3dyaXRlQ2hlY2twb2ludChfY2hlY2twb2ludHNbZHN0XSwgX2FkZCwgYW1vdW50KTsKICAgICAgICAgICAgICAgIGVtaXQgRGVsZWdhdGVWb3Rlc0NoYW5nZWQoZHN0LCBvbGRXZWlnaHQsIG5ld1dlaWdodCk7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgZnVuY3Rpb24gX3dyaXRlQ2hlY2twb2ludCgKICAgICAgICBDaGVja3BvaW50W10gc3RvcmFnZSBja3B0cywKICAgICAgICBmdW5jdGlvbih1aW50MjU2LCB1aW50MjU2KSB2aWV3IHJldHVybnMgKHVpbnQyNTYpIG9wLAogICAgICAgIHVpbnQyNTYgZGVsdGEKICAgICkgcHJpdmF0ZSByZXR1cm5zICh1aW50MjU2IG9sZFdlaWdodCwgdWludDI1NiBuZXdXZWlnaHQpIHsKICAgICAgICB1aW50MjU2IHBvcyA9IGNrcHRzLmxlbmd0aDsKCiAgICAgICAgdW5jaGVja2VkIHsKICAgICAgICAgICAgQ2hlY2twb2ludCBtZW1vcnkgb2xkQ2twdCA9IHBvcyA9PSAwID8gQ2hlY2twb2ludCgwLCAwKSA6IF91bnNhZmVBY2Nlc3MoY2twdHMsIHBvcyAtIDEpOwoKICAgICAgICAgICAgb2xkV2VpZ2h0ID0gb2xkQ2twdC52b3RlczsKICAgICAgICAgICAgbmV3V2VpZ2h0ID0gb3Aob2xkV2VpZ2h0LCBkZWx0YSk7CgogICAgICAgICAgICBpZiAocG9zID4gMCAmJiBvbGRDa3B0LmZyb21CbG9jayA9PSBibG9jay5udW1iZXIpIHsKICAgICAgICAgICAgICAgIF91bnNhZmVBY2Nlc3MoY2twdHMsIHBvcyAtIDEpLnZvdGVzID0gU2FmZUNhc3QudG9VaW50MjI0KG5ld1dlaWdodCk7CiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBja3B0cy5wdXNoKAogICAgICAgICAgICAgICAgICAgIENoZWNrcG9pbnQoe2Zyb21CbG9jazogU2FmZUNhc3QudG9VaW50MzIoYmxvY2subnVtYmVyKSwgdm90ZXM6IFNhZmVDYXN0LnRvVWludDIyNChuZXdXZWlnaHQpfSkKICAgICAgICAgICAgICAgICk7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgZnVuY3Rpb24gX2FkZCh1aW50MjU2IGEsIHVpbnQyNTYgYikgcHJpdmF0ZSBwdXJlIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXR1cm4gYSArIGI7CiAgICB9CgogICAgZnVuY3Rpb24gX3N1YnRyYWN0KHVpbnQyNTYgYSwgdWludDI1NiBiKSBwcml2YXRlIHB1cmUgcmV0dXJucyAodWludDI1NikgewogICAgICAgIHJldHVybiBhIC0gYjsKICAgIH0KCiAgICAvKioKICAgICAqIEBkZXYgQWNjZXNzIGFuIGVsZW1lbnQgb2YgdGhlIGFycmF5IHdpdGhvdXQgcGVyZm9ybWluZyBib3VuZHMgY2hlY2suIFRoZSBwb3NpdGlvbiBpcyBhc3N1bWVkIHRvIGJlIHdpdGhpbiBib3VuZHMuCiAgICAgKi8KICAgIGZ1bmN0aW9uIF91bnNhZmVBY2Nlc3MoQ2hlY2twb2ludFtdIHN0b3JhZ2UgY2twdHMsIHVpbnQyNTYgcG9zKSBwcml2YXRlIHB1cmUgcmV0dXJucyAoQ2hlY2twb2ludCBzdG9yYWdlIHJlc3VsdCkgewogICAgICAgIGFzc2VtYmx5IHsKICAgICAgICAgICAgbXN0b3JlKDAsIGNrcHRzLnNsb3QpCiAgICAgICAgICAgIHJlc3VsdC5zbG90IDo9IGFkZChrZWNjYWsyNTYoMCwgMHgyMCksIHBvcykKICAgICAgICB9CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {ERC20Permit} from "../../token/ERC20/extensions/ERC20Permit.sol";
+import {Math} from "../../utils/math/Math.sol";
+import {IVotes} from "../../governance/utils/IVotes.sol";
+import {SafeCast} from "../../utils/math/SafeCast.sol";
+import {ECDSA} from "../../utils/cryptography/ECDSA.sol";
+
+/**
+ * @dev Copied from the master branch at commit 86de1e8b6c3fa6b4efa4a5435869d2521be0f5f5
+ */
+abstract contract ERC20VotesLegacyMock is IVotes, ERC20Permit {
+    struct Checkpoint {
+        uint32 fromBlock;
+        uint224 votes;
+    }
+
+    bytes32 private constant _DELEGATION_TYPEHASH =
+        keccak256("Delegation(address delegatee,uint256 nonce,uint256 expiry)");
+
+    mapping(address account => address) private _delegatee;
+    mapping(address delegatee => Checkpoint[]) private _checkpoints;
+    Checkpoint[] private _totalSupplyCheckpoints;
+
+    /**
+     * @dev Get the `pos`-th checkpoint for `account`.
+     */
+    function checkpoints(address account, uint32 pos) public view virtual returns (Checkpoint memory) {
+        return _checkpoints[account][pos];
+    }
+
+    /**
+     * @dev Get number of checkpoints for `account`.
+     */
+    function numCheckpoints(address account) public view virtual returns (uint32) {
+        return SafeCast.toUint32(_checkpoints[account].length);
+    }
+
+    /**
+     * @dev Get the address `account` is currently delegating to.
+     */
+    function delegates(address account) public view virtual returns (address) {
+        return _delegatee[account];
+    }
+
+    /**
+     * @dev Gets the current votes balance for `account`
+     */
+    function getVotes(address account) public view virtual returns (uint256) {
+        uint256 pos = _checkpoints[account].length;
+        unchecked {
+            return pos == 0 ? 0 : _checkpoints[account][pos - 1].votes;
+        }
+    }
+
+    /**
+     * @dev Retrieve the number of votes for `account` at the end of `blockNumber`.
+     *
+     * Requirements:
+     *
+     * - `blockNumber` must have been already mined
+     */
+    function getPastVotes(address account, uint256 blockNumber) public view virtual returns (uint256) {
+        require(blockNumber < block.number, "ERC20Votes: block not yet mined");
+        return _checkpointsLookup(_checkpoints[account], blockNumber);
+    }
+
+    /**
+     * @dev Retrieve the `totalSupply` at the end of `blockNumber`. Note, this value is the sum of all balances.
+     * It is NOT the sum of all the delegated votes!
+     *
+     * Requirements:
+     *
+     * - `blockNumber` must have been already mined
+     */
+    function getPastTotalSupply(uint256 blockNumber) public view virtual returns (uint256) {
+        require(blockNumber < block.number, "ERC20Votes: block not yet mined");
+        return _checkpointsLookup(_totalSupplyCheckpoints, blockNumber);
+    }
+
+    /**
+     * @dev Lookup a value in a list of (sorted) checkpoints.
+     */
+    function _checkpointsLookup(Checkpoint[] storage ckpts, uint256 blockNumber) private view returns (uint256) {
+        // We run a binary search to look for the earliest checkpoint taken after `blockNumber`.
+        //
+        // Initially we check if the block is recent to narrow the search range.
+        // During the loop, the index of the wanted checkpoint remains in the range [low-1, high).
+        // With each iteration, either `low` or `high` is moved towards the middle of the range to maintain the
+        // invariant.
+        // - If the middle checkpoint is after `blockNumber`, we look in [low, mid)
+        // - If the middle checkpoint is before or equal to `blockNumber`, we look in [mid+1, high)
+        // Once we reach a single value (when low == high), we've found the right checkpoint at the index high-1, if not
+        // out of bounds (in which case we're looking too far in the past and the result is 0).
+        // Note that if the latest checkpoint available is exactly for `blockNumber`, we end up with an index that is
+        // past the end of the array, so we technically don't find a checkpoint after `blockNumber`, but it works out
+        // the same.
+        uint256 length = ckpts.length;
+
+        uint256 low = 0;
+        uint256 high = length;
+
+        if (length > 5) {
+            uint256 mid = length - Math.sqrt(length);
+            if (_unsafeAccess(ckpts, mid).fromBlock > blockNumber) {
+                high = mid;
+            } else {
+                low = mid + 1;
+            }
+        }
+
+        while (low < high) {
+            uint256 mid = Math.average(low, high);
+            if (_unsafeAccess(ckpts, mid).fromBlock > blockNumber) {
+                high = mid;
+            } else {
+                low = mid + 1;
+            }
+        }
+
+        unchecked {
+            return high == 0 ? 0 : _unsafeAccess(ckpts, high - 1).votes;
+        }
+    }
+
+    /**
+     * @dev Delegate votes from the sender to `delegatee`.
+     */
+    function delegate(address delegatee) public virtual {
+        _delegate(_msgSender(), delegatee);
+    }
+
+    /**
+     * @dev Delegates votes from signer to `delegatee`
+     */
+    function delegateBySig(
+        address delegatee,
+        uint256 nonce,
+        uint256 expiry,
+        uint8 v,
+        bytes32 r,
+        bytes32 s
+    ) public virtual {
+        require(block.timestamp <= expiry, "ERC20Votes: signature expired");
+        address signer = ECDSA.recover(
+            _hashTypedDataV4(keccak256(abi.encode(_DELEGATION_TYPEHASH, delegatee, nonce, expiry))),
+            v,
+            r,
+            s
+        );
+        require(nonce == _useNonce(signer), "ERC20Votes: invalid nonce");
+        _delegate(signer, delegatee);
+    }
+
+    /**
+     * @dev Maximum token supply. Defaults to `type(uint224).max` (2^224^ - 1).
+     */
+    function _maxSupply() internal view virtual returns (uint224) {
+        return type(uint224).max;
+    }
+
+    /**
+     * @dev Move voting power when tokens are transferred.
+     *
+     * Emits a {IVotes-DelegateVotesChanged} event.
+     */
+    function _update(address from, address to, uint256 amount) internal virtual override {
+        super._update(from, to, amount);
+
+        if (from == address(0)) {
+            require(totalSupply() <= _maxSupply(), "ERC20Votes: total supply risks overflowing votes");
+            _writeCheckpoint(_totalSupplyCheckpoints, _add, amount);
+        }
+
+        if (to == address(0)) {
+            _writeCheckpoint(_totalSupplyCheckpoints, _subtract, amount);
+        }
+
+        _moveVotingPower(delegates(from), delegates(to), amount);
+    }
+
+    /**
+     * @dev Change delegation for `delegator` to `delegatee`.
+     *
+     * Emits events {IVotes-DelegateChanged} and {IVotes-DelegateVotesChanged}.
+     */
+    function _delegate(address delegator, address delegatee) internal virtual {
+        address currentDelegate = delegates(delegator);
+        uint256 delegatorBalance = balanceOf(delegator);
+        _delegatee[delegator] = delegatee;
+
+        emit DelegateChanged(delegator, currentDelegate, delegatee);
+
+        _moveVotingPower(currentDelegate, delegatee, delegatorBalance);
+    }
+
+    function _moveVotingPower(address src, address dst, uint256 amount) private {
+        if (src != dst && amount > 0) {
+            if (src != address(0)) {
+                (uint256 oldWeight, uint256 newWeight) = _writeCheckpoint(_checkpoints[src], _subtract, amount);
+                emit DelegateVotesChanged(src, oldWeight, newWeight);
+            }
+
+            if (dst != address(0)) {
+                (uint256 oldWeight, uint256 newWeight) = _writeCheckpoint(_checkpoints[dst], _add, amount);
+                emit DelegateVotesChanged(dst, oldWeight, newWeight);
+            }
+        }
+    }
+
+    function _writeCheckpoint(
+        Checkpoint[] storage ckpts,
+        function(uint256, uint256) view returns (uint256) op,
+        uint256 delta
+    ) private returns (uint256 oldWeight, uint256 newWeight) {
+        uint256 pos = ckpts.length;
+
+        unchecked {
+            Checkpoint memory oldCkpt = pos == 0 ? Checkpoint(0, 0) : _unsafeAccess(ckpts, pos - 1);
+
+            oldWeight = oldCkpt.votes;
+            newWeight = op(oldWeight, delta);
+
+            if (pos > 0 && oldCkpt.fromBlock == block.number) {
+                _unsafeAccess(ckpts, pos - 1).votes = SafeCast.toUint224(newWeight);
+            } else {
+                ckpts.push(
+                    Checkpoint({fromBlock: SafeCast.toUint32(block.number), votes: SafeCast.toUint224(newWeight)})
+                );
+            }
+        }
+    }
+
+    function _add(uint256 a, uint256 b) private pure returns (uint256) {
+        return a + b;
+    }
+
+    function _subtract(uint256 a, uint256 b) private pure returns (uint256) {
+        return a - b;
+    }
+
+    /**
+     * @dev Access an element of the array without performing bounds check. The position is assumed to be within bounds.
+     */
+    function _unsafeAccess(Checkpoint[] storage ckpts, uint256 pos) private pure returns (Checkpoint storage result) {
+        assembly {
+            mstore(0, ckpts.slot)
+            result.slot := add(keccak256(0, 0x20), pos)
+        }
+    }
+}
