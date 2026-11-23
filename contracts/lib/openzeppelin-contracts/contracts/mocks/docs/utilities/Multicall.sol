@@ -1,1 +1,15 @@
-Ly8gY29udHJhY3RzL0JveC5zb2wKLy8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7TXVsdGljYWxsfSBmcm9tICIuLi8uLi8uLi91dGlscy9NdWx0aWNhbGwuc29sIjsKCmNvbnRyYWN0IEJveCBpcyBNdWx0aWNhbGwgewogICAgZnVuY3Rpb24gZm9vKCkgcHVibGljIHsKICAgICAgICAvLyAuLi4KICAgIH0KCiAgICBmdW5jdGlvbiBiYXIoKSBwdWJsaWMgewogICAgICAgIC8vIC4uLgogICAgfQp9Cg==
+// contracts/Box.sol
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+import {Multicall} from "../../../utils/Multicall.sol";
+
+contract Box is Multicall {
+    function foo() public {
+        // ...
+    }
+
+    function bar() public {
+        // ...
+    }
+}
