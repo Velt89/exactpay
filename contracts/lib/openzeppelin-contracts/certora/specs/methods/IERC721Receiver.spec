@@ -1,1 +1,3 @@
-bWV0aG9kcyB7CiAgZnVuY3Rpb24gXy5vbkVSQzcyMVJlY2VpdmVkKGFkZHJlc3MsYWRkcmVzcyx1aW50MjU2LGJ5dGVzKSBleHRlcm5hbCA9PiBESVNQQVRDSEVSKHRydWUpOwp9Cg==
+methods {
+  function _.onERC721Received(address,address,uint256,bytes) external => DISPATCHER(true);
+}
