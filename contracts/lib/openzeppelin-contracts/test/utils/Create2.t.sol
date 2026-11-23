@@ -1,1 +1,17 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7CgppbXBvcnQge1Rlc3R9IGZyb20gImZvcmdlLXN0ZC9UZXN0LnNvbCI7CmltcG9ydCB7Q3JlYXRlMn0gZnJvbSAiQG9wZW56ZXBwZWxpbi9jb250cmFjdHMvdXRpbHMvQ3JlYXRlMi5zb2wiOwoKY29udHJhY3QgQ3JlYXRlMlRlc3QgaXMgVGVzdCB7CiAgICBmdW5jdGlvbiB0ZXN0U3ltYm9saWNDb21wdXRlQWRkcmVzc1NwaWxsYWdlKGJ5dGVzMzIgc2FsdCwgYnl0ZXMzMiBieXRlY29kZUhhc2gsIGFkZHJlc3MgZGVwbG95ZXIpIHB1YmxpYyB7CiAgICAgICAgYWRkcmVzcyBwcmVkaWN0ZWQgPSBDcmVhdGUyLmNvbXB1dGVBZGRyZXNzKHNhbHQsIGJ5dGVjb2RlSGFzaCwgZGVwbG95ZXIpOwogICAgICAgIGJ5dGVzMzIgc3BpbGxhZ2U7CiAgICAgICAgYXNzZW1ibHkgKCJtZW1vcnktc2FmZSIpIHsKICAgICAgICAgICAgc3BpbGxhZ2UgOj0gYW5kKHByZWRpY3RlZCwgMHhmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmYwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwKQogICAgICAgIH0KICAgICAgICBhc3NlcnRFcShzcGlsbGFnZSwgYnl0ZXMzMigwKSk7CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+import {Test} from "forge-std/Test.sol";
+import {Create2} from "@openzeppelin/contracts/utils/Create2.sol";
+
+contract Create2Test is Test {
+    function testSymbolicComputeAddressSpillage(bytes32 salt, bytes32 bytecodeHash, address deployer) public {
+        address predicted = Create2.computeAddress(salt, bytecodeHash, deployer);
+        bytes32 spillage;
+        assembly ("memory-safe") {
+            spillage := and(predicted, 0xffffffffffffffffffffffff0000000000000000000000000000000000000000)
+        }
+        assertEq(spillage, bytes32(0));
+    }
+}
