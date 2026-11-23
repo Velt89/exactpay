@@ -1,1 +1,29 @@
-Y29uc3QgeyBuZXR3b3JrIH0gPSByZXF1aXJlKCdoYXJkaGF0Jyk7CmNvbnN0IHsgZXhwZWN0IH0gPSByZXF1aXJlKCdjaGFpJyk7CmNvbnN0IHsgbWluZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKY29uc3QgeyB1bmlxdWUgfSA9IHJlcXVpcmUoJy4vaXRlcmF0ZScpOwoKYXN5bmMgZnVuY3Rpb24gYmF0Y2hJbkJsb2NrKHR4cykgewogIHRyeSB7CiAgICAvLyBkaXNhYmxlIGF1dG8tbWluaW5nCiAgICBhd2FpdCBuZXR3b3JrLnByb3ZpZGVyLnNlbmQoJ2V2bV9zZXRBdXRvbWluZScsIFtmYWxzZV0pOwogICAgLy8gc2VuZCBhbGwgdHJhbnNhY3Rpb25zCiAgICBjb25zdCByZXNwb25zZXMgPSBhd2FpdCBQcm9taXNlLmFsbCh0eHMubWFwKGZuID0+IGZuKCkpKTsKICAgIC8vIG1pbmUgb25lIGJsb2NrCiAgICBhd2FpdCBtaW5lKCk7CiAgICAvLyBmZXRjaCByZWNlaXB0cwogICAgY29uc3QgcmVjZWlwdHMgPSBhd2FpdCBQcm9taXNlLmFsbChyZXNwb25zZXMubWFwKHJlc3BvbnNlID0+IHJlc3BvbnNlLndhaXQoKSkpOwogICAgLy8gU2FuaXR5IGNoZWNrLCBhbGwgdHggc2hvdWxkIGJlIGluIHRoZSBzYW1lIGJsb2NrCiAgICBleHBlY3QodW5pcXVlKHJlY2VpcHRzLm1hcChyZWNlaXB0ID0+IHJlY2VpcHQuYmxvY2tOdW1iZXIpKSkudG8uaGF2ZS5sZW5ndGhPZigxKTsKICAgIC8vIHJldHVybiByZXNwb25zZXMKICAgIHJldHVybiByZWNlaXB0czsKICB9IGZpbmFsbHkgewogICAgLy8gZW5hYmxlIGF1dG8tbWluaW5nCiAgICBhd2FpdCBuZXR3b3JrLnByb3ZpZGVyLnNlbmQoJ2V2bV9zZXRBdXRvbWluZScsIFt0cnVlXSk7CiAgfQp9Cgptb2R1bGUuZXhwb3J0cyA9IHsKICBiYXRjaEluQmxvY2ssCn07Cg==
+const { network } = require('hardhat');
+const { expect } = require('chai');
+const { mine } = require('@nomicfoundation/hardhat-network-helpers');
+
+const { unique } = require('./iterate');
+
+async function batchInBlock(txs) {
+  try {
+    // disable auto-mining
+    await network.provider.send('evm_setAutomine', [false]);
+    // send all transactions
+    const responses = await Promise.all(txs.map(fn => fn()));
+    // mine one block
+    await mine();
+    // fetch receipts
+    const receipts = await Promise.all(responses.map(response => response.wait()));
+    // Sanity check, all tx should be in the same block
+    expect(unique(receipts.map(receipt => receipt.blockNumber))).to.have.lengthOf(1);
+    // return responses
+    return receipts;
+  } finally {
+    // enable auto-mining
+    await network.provider.send('evm_setAutomine', [true]);
+  }
+}
+
+module.exports = {
+  batchInBlock,
+};
