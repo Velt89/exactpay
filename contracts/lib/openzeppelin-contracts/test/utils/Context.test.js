@@ -1,1 +1,18 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwoKY29uc3QgeyBzaG91bGRCZWhhdmVMaWtlUmVndWxhckNvbnRleHQgfSA9IHJlcXVpcmUoJy4vQ29udGV4dC5iZWhhdmlvcicpOwoKYXN5bmMgZnVuY3Rpb24gZml4dHVyZSgpIHsKICBjb25zdCBbc2VuZGVyXSA9IGF3YWl0IGV0aGVycy5nZXRTaWduZXJzKCk7CiAgY29uc3QgY29udGV4dCA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnQ29udGV4dE1vY2snLCBbXSk7CiAgcmV0dXJuIHsgc2VuZGVyLCBjb250ZXh0IH07Cn0KCmRlc2NyaWJlKCdDb250ZXh0JywgZnVuY3Rpb24gKCkgewogIGJlZm9yZUVhY2goYXN5bmMgZnVuY3Rpb24gKCkgewogICAgT2JqZWN0LmFzc2lnbih0aGlzLCBhd2FpdCBsb2FkRml4dHVyZShmaXh0dXJlKSk7CiAgfSk7CgogIHNob3VsZEJlaGF2ZUxpa2VSZWd1bGFyQ29udGV4dCgpOwp9KTsK
+const { ethers } = require('hardhat');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+
+const { shouldBehaveLikeRegularContext } = require('./Context.behavior');
+
+async function fixture() {
+  const [sender] = await ethers.getSigners();
+  const context = await ethers.deployContract('ContextMock', []);
+  return { sender, context };
+}
+
+describe('Context', function () {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  shouldBehaveLikeRegularContext();
+});
