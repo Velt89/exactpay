@@ -1,1 +1,635 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoKaW1wb3J0IGNvcHkKaW1wb3J0IGpzb24KaW1wb3J0IHJlCmltcG9ydCBzdWJwcm9jZXNzCmZyb20gZW51bSBpbXBvcnQgRW51bSBhcyBQeUVudW0KZnJvbSB0eXBpbmcgaW1wb3J0IENhbGxhYmxlCmZyb20gdXJsbGliIGltcG9ydCByZXF1ZXN0CgpWb2lkRm4gPSBDYWxsYWJsZVtbXSwgTm9uZV0KCkNIRUFUQ09ERVNfSlNPTl9VUkwgPSAiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2ZvdW5kcnktcnMvZm91bmRyeS9tYXN0ZXIvY3JhdGVzL2NoZWF0Y29kZXMvYXNzZXRzL2NoZWF0Y29kZXMuanNvbiIKT1VUX1BBVEggPSAic3JjL1ZtLnNvbCIKClZNX1NBRkVfRE9DID0gIiIiXAovLy8gVGhlIGBWbVNhZmVgIGludGVyZmFjZSBkb2VzIG5vdCBhbGxvdyBtYW5pcHVsYXRpb24gb2YgdGhlIEVWTSBzdGF0ZSBvciBvdGhlciBhY3Rpb25zIHRoYXQgbWF5Ci8vLyByZXN1bHQgaW4gU2NyaXB0IHNpbXVsYXRpb25zIGRpZmZlcmluZyBmcm9tIG9uLWNoYWluIGV4ZWN1dGlvbi4gSXQgaXMgcmVjb21tZW5kZWQgdG8gb25seSB1c2UKLy8vIHRoZXNlIGNoZWF0cyBpbiBzY3JpcHRzLgoiIiIKClZNX0RPQyA9ICIiIlwKLy8vIFRoZSBgVm1gIGludGVyZmFjZSBkb2VzIGFsbG93IG1hbmlwdWxhdGlvbiBvZiB0aGUgRVZNIHN0YXRlLiBUaGVzZSBhcmUgYWxsIGludGVuZGVkIHRvIGJlIHVzZWQKLy8vIGluIHRlc3RzLCBidXQgaXQgaXMgbm90IHJlY29tbWVuZGVkIHRvIHVzZSB0aGVzZSBjaGVhdHMgaW4gc2NyaXB0cy4KIiIiCgoKZGVmIG1haW4oKToKICAgIGpzb25fc3RyID0gcmVxdWVzdC51cmxvcGVuKENIRUFUQ09ERVNfSlNPTl9VUkwpLnJlYWQoKS5kZWNvZGUoInV0Zi04IikKICAgIGNvbnRyYWN0ID0gQ2hlYXRjb2Rlcy5mcm9tX2pzb24oanNvbl9zdHIpCgogICAgY2NzID0gY29udHJhY3QuY2hlYXRjb2RlcwogICAgY2NzID0gbGlzdChmaWx0ZXIobGFtYmRhIGNjOiBjYy5zdGF0dXMgIT0gImV4cGVyaW1lbnRhbCIsIGNjcykpCiAgICBjY3Muc29ydChrZXk9bGFtYmRhIGNjOiBjYy5mdW5jLmlkKQoKICAgIHNhZmUgPSBsaXN0KGZpbHRlcihsYW1iZGEgY2M6IGNjLnNhZmV0eSA9PSAic2FmZSIsIGNjcykpCiAgICBzYWZlLnNvcnQoa2V5PUNtcENoZWF0Y29kZSkKICAgIHVuc2FmZSA9IGxpc3QoZmlsdGVyKGxhbWJkYSBjYzogY2Muc2FmZXR5ID09ICJ1bnNhZmUiLCBjY3MpKQogICAgdW5zYWZlLnNvcnQoa2V5PUNtcENoZWF0Y29kZSkKICAgIGFzc2VydCBsZW4oc2FmZSkgKyBsZW4odW5zYWZlKSA9PSBsZW4oY2NzKQoKICAgIHByZWZpeF93aXRoX2dyb3VwX2hlYWRlcnMoc2FmZSkKICAgIHByZWZpeF93aXRoX2dyb3VwX2hlYWRlcnModW5zYWZlKQoKICAgIG91dCA9ICIiCgogICAgb3V0ICs9ICIvLyBBdXRvbWF0aWNhbGx5IEBnZW5lcmF0ZWQgYnkgc2NyaXB0cy92bS5weS4gRG8gbm90IG1vZGlmeSBtYW51YWxseS5cblxuIgoKICAgIHBwID0gQ2hlYXRjb2Rlc1ByaW50ZXIoCiAgICAgICAgc3BkeF9pZGVudGlmaWVyPSJNSVQgT1IgQXBhY2hlLTIuMCIsCiAgICAgICAgc29saWRpdHlfcmVxdWlyZW1lbnQ9Ij49MC42LjIgPDAuOS4wIiwKICAgICAgICBhYmljb2Rlcl9wcmFnbWE9VHJ1ZSwKICAgICkKICAgIHBwLnBfcHJlbHVkZSgpCiAgICBwcC5wcmVsdWRlID0gRmFsc2UKICAgIG91dCArPSBwcC5maW5pc2goKQoKICAgIG91dCArPSAiXG5cbiIKICAgIG91dCArPSBWTV9TQUZFX0RPQwogICAgdm1fc2FmZSA9IENoZWF0Y29kZXMoCiAgICAgICAgIyBUT0RPOiBDdXN0b20gZXJyb3JzIHdlcmUgaW50cm9kdWNlZCBpbiAwLjguNAogICAgICAgIGVycm9ycz1bXSwgICMgY29udHJhY3QuZXJyb3JzCiAgICAgICAgZXZlbnRzPWNvbnRyYWN0LmV2ZW50cywKICAgICAgICBlbnVtcz1jb250cmFjdC5lbnVtcywKICAgICAgICBzdHJ1Y3RzPWNvbnRyYWN0LnN0cnVjdHMsCiAgICAgICAgY2hlYXRjb2Rlcz1zYWZlLAogICAgKQogICAgcHAucF9jb250cmFjdCh2bV9zYWZlLCAiVm1TYWZlIikKICAgIG91dCArPSBwcC5maW5pc2goKQoKICAgIG91dCArPSAiXG5cbiIKICAgIG91dCArPSBWTV9ET0MKICAgIHZtX3Vuc2FmZSA9IENoZWF0Y29kZXMoCiAgICAgICAgZXJyb3JzPVtdLAogICAgICAgIGV2ZW50cz1bXSwKICAgICAgICBlbnVtcz1bXSwKICAgICAgICBzdHJ1Y3RzPVtdLAogICAgICAgIGNoZWF0Y29kZXM9dW5zYWZlLAogICAgKQogICAgcHAucF9jb250cmFjdCh2bV91bnNhZmUsICJWbSIsICJWbVNhZmUiKQogICAgb3V0ICs9IHBwLmZpbmlzaCgpCgogICAgIyBDb21wYXRpYmlsaXR5IHdpdGggPDAuOC4wCiAgICBkZWYgbWVtb3J5X3RvX2NhbGxkYXRhKG06IHJlLk1hdGNoKSAtPiBzdHI6CiAgICAgICAgcmV0dXJuICIgY2FsbGRhdGEgIiArIG0uZ3JvdXAoMSkKCiAgICBvdXQgPSByZS5zdWIociIgbWVtb3J5ICguKnJldHVybnMpIiwgbWVtb3J5X3RvX2NhbGxkYXRhLCBvdXQpCgogICAgd2l0aCBvcGVuKE9VVF9QQVRILCAidyIpIGFzIGY6CiAgICAgICAgZi53cml0ZShvdXQpCgogICAgZm9yZ2VfZm10ID0gWyJmb3JnZSIsICJmbXQiLCBPVVRfUEFUSF0KICAgIHJlcyA9IHN1YnByb2Nlc3MucnVuKGZvcmdlX2ZtdCkKICAgIGFzc2VydCByZXMucmV0dXJuY29kZSA9PSAwLCBmImNvbW1hbmQgZmFpbGVkOiB7Zm9yZ2VfZm10fSIKCiAgICBwcmludChmIldyb3RlIHRvIHtPVVRfUEFUSH0iKQoKCmNsYXNzIENtcENoZWF0Y29kZToKICAgIGNoZWF0Y29kZTogIkNoZWF0Y29kZSIKCiAgICBkZWYgX19pbml0X18oc2VsZiwgY2hlYXRjb2RlOiAiQ2hlYXRjb2RlIik6CiAgICAgICAgc2VsZi5jaGVhdGNvZGUgPSBjaGVhdGNvZGUKCiAgICBkZWYgX19sdF9fKHNlbGYsIG90aGVyOiAiQ21wQ2hlYXRjb2RlIikgLT4gYm9vbDoKICAgICAgICByZXR1cm4gY21wX2NoZWF0Y29kZShzZWxmLmNoZWF0Y29kZSwgb3RoZXIuY2hlYXRjb2RlKSA8IDAKCiAgICBkZWYgX19lcV9fKHNlbGYsIG90aGVyOiAiQ21wQ2hlYXRjb2RlIikgLT4gYm9vbDoKICAgICAgICByZXR1cm4gY21wX2NoZWF0Y29kZShzZWxmLmNoZWF0Y29kZSwgb3RoZXIuY2hlYXRjb2RlKSA9PSAwCgogICAgZGVmIF9fZ3RfXyhzZWxmLCBvdGhlcjogIkNtcENoZWF0Y29kZSIpIC0+IGJvb2w6CiAgICAgICAgcmV0dXJuIGNtcF9jaGVhdGNvZGUoc2VsZi5jaGVhdGNvZGUsIG90aGVyLmNoZWF0Y29kZSkgPiAwCgoKZGVmIGNtcF9jaGVhdGNvZGUoYTogIkNoZWF0Y29kZSIsIGI6ICJDaGVhdGNvZGUiKSAtPiBpbnQ6CiAgICBpZiBhLmdyb3VwICE9IGIuZ3JvdXA6CiAgICAgICAgcmV0dXJuIC0xIGlmIGEuZ3JvdXAgPCBiLmdyb3VwIGVsc2UgMQogICAgaWYgYS5zdGF0dXMgIT0gYi5zdGF0dXM6CiAgICAgICAgcmV0dXJuIC0xIGlmIGEuc3RhdHVzIDwgYi5zdGF0dXMgZWxzZSAxCiAgICBpZiBhLnNhZmV0eSAhPSBiLnNhZmV0eToKICAgICAgICByZXR1cm4gLTEgaWYgYS5zYWZldHkgPCBiLnNhZmV0eSBlbHNlIDEKICAgIGlmIGEuZnVuYy5pZCAhPSBiLmZ1bmMuaWQ6CiAgICAgICAgcmV0dXJuIC0xIGlmIGEuZnVuYy5pZCA8IGIuZnVuYy5pZCBlbHNlIDEKICAgIHJldHVybiAwCgoKIyBIQUNLOiBBIHdheSB0byBhZGQgZ3JvdXAgaGVhZGVyIGNvbW1lbnRzIHdpdGhvdXQgaGF2aW5nIHRvIG1vZGlmeSBwcmludGVyIGNvZGUKZGVmIHByZWZpeF93aXRoX2dyb3VwX2hlYWRlcnMoY2hlYXRzOiBsaXN0WyJDaGVhdGNvZGUiXSk6CiAgICBzID0gc2V0KCkKICAgIGZvciBpLCBjaGVhdCBpbiBlbnVtZXJhdGUoY2hlYXRzKToKICAgICAgICBpZiBjaGVhdC5ncm91cCBpbiBzOgogICAgICAgICAgICBjb250aW51ZQoKICAgICAgICBzLmFkZChjaGVhdC5ncm91cCkKCiAgICAgICAgYyA9IGNvcHkuZGVlcGNvcHkoY2hlYXQpCiAgICAgICAgYy5mdW5jLmRlc2NyaXB0aW9uID0gIiIKICAgICAgICBjLmZ1bmMuZGVjbGFyYXRpb24gPSBmIi8vID09PT09PT09IHtncm91cChjLmdyb3VwKX0gPT09PT09PT0iCiAgICAgICAgY2hlYXRzLmluc2VydChpLCBjKQogICAgcmV0dXJuIGNoZWF0cwoKCmRlZiBncm91cChzOiBzdHIpIC0+IHN0cjoKICAgIGlmIHMgPT0gImV2bSI6CiAgICAgICAgcmV0dXJuICJFVk0iCiAgICBpZiBzID09ICJqc29uIjoKICAgICAgICByZXR1cm4gIkpTT04iCiAgICByZXR1cm4gc1swXS51cHBlcigpICsgc1sxOl0KCgpjbGFzcyBWaXNpYmlsaXR5KFB5RW51bSk6CiAgICBFWFRFUk5BTDogc3RyID0gImV4dGVybmFsIgogICAgUFVCTElDOiBzdHIgPSAicHVibGljIgogICAgSU5URVJOQUw6IHN0ciA9ICJpbnRlcm5hbCIKICAgIFBSSVZBVEU6IHN0ciA9ICJwcml2YXRlIgoKICAgIGRlZiBfX3N0cl9fKHNlbGYpOgogICAgICAgIHJldHVybiBzZWxmLnZhbHVlCgoKY2xhc3MgTXV0YWJpbGl0eShQeUVudW0pOgogICAgUFVSRTogc3RyID0gInB1cmUiCiAgICBWSUVXOiBzdHIgPSAidmlldyIKICAgIE5PTkU6IHN0ciA9ICIiCgogICAgZGVmIF9fc3RyX18oc2VsZik6CiAgICAgICAgcmV0dXJuIHNlbGYudmFsdWUKCgpjbGFzcyBGdW5jdGlvbjoKICAgIGlkOiBzdHIKICAgIGRlc2NyaXB0aW9uOiBzdHIKICAgIGRlY2xhcmF0aW9uOiBzdHIKICAgIHZpc2liaWxpdHk6IFZpc2liaWxpdHkKICAgIG11dGFiaWxpdHk6IE11dGFiaWxpdHkKICAgIHNpZ25hdHVyZTogc3RyCiAgICBzZWxlY3Rvcjogc3RyCiAgICBzZWxlY3Rvcl9ieXRlczogYnl0ZXMKCiAgICBkZWYgX19pbml0X18oCiAgICAgICAgc2VsZiwKICAgICAgICBpZDogc3RyLAogICAgICAgIGRlc2NyaXB0aW9uOiBzdHIsCiAgICAgICAgZGVjbGFyYXRpb246IHN0ciwKICAgICAgICB2aXNpYmlsaXR5OiBWaXNpYmlsaXR5LAogICAgICAgIG11dGFiaWxpdHk6IE11dGFiaWxpdHksCiAgICAgICAgc2lnbmF0dXJlOiBzdHIsCiAgICAgICAgc2VsZWN0b3I6IHN0ciwKICAgICAgICBzZWxlY3Rvcl9ieXRlczogYnl0ZXMsCiAgICApOgogICAgICAgIHNlbGYuaWQgPSBpZAogICAgICAgIHNlbGYuZGVzY3JpcHRpb24gPSBkZXNjcmlwdGlvbgogICAgICAgIHNlbGYuZGVjbGFyYXRpb24gPSBkZWNsYXJhdGlvbgogICAgICAgIHNlbGYudmlzaWJpbGl0eSA9IHZpc2liaWxpdHkKICAgICAgICBzZWxmLm11dGFiaWxpdHkgPSBtdXRhYmlsaXR5CiAgICAgICAgc2VsZi5zaWduYXR1cmUgPSBzaWduYXR1cmUKICAgICAgICBzZWxmLnNlbGVjdG9yID0gc2VsZWN0b3IKICAgICAgICBzZWxmLnNlbGVjdG9yX2J5dGVzID0gc2VsZWN0b3JfYnl0ZXMKCiAgICBAc3RhdGljbWV0aG9kCiAgICBkZWYgZnJvbV9kaWN0KGQ6IGRpY3QpIC0+ICJGdW5jdGlvbiI6CiAgICAgICAgcmV0dXJuIEZ1bmN0aW9uKAogICAgICAgICAgICBkWyJpZCJdLAogICAgICAgICAgICBkWyJkZXNjcmlwdGlvbiJdLAogICAgICAgICAgICBkWyJkZWNsYXJhdGlvbiJdLAogICAgICAgICAgICBWaXNpYmlsaXR5KGRbInZpc2liaWxpdHkiXSksCiAgICAgICAgICAgIE11dGFiaWxpdHkoZFsibXV0YWJpbGl0eSJdKSwKICAgICAgICAgICAgZFsic2lnbmF0dXJlIl0sCiAgICAgICAgICAgIGRbInNlbGVjdG9yIl0sCiAgICAgICAgICAgIGJ5dGVzKGRbInNlbGVjdG9yQnl0ZXMiXSksCiAgICAgICAgKQoKCmNsYXNzIENoZWF0Y29kZToKICAgIGZ1bmM6IEZ1bmN0aW9uCiAgICBncm91cDogc3RyCiAgICBzdGF0dXM6IHN0cgogICAgc2FmZXR5OiBzdHIKCiAgICBkZWYgX19pbml0X18oc2VsZiwgZnVuYzogRnVuY3Rpb24sIGdyb3VwOiBzdHIsIHN0YXR1czogc3RyLCBzYWZldHk6IHN0cik6CiAgICAgICAgc2VsZi5mdW5jID0gZnVuYwogICAgICAgIHNlbGYuZ3JvdXAgPSBncm91cAogICAgICAgIHNlbGYuc3RhdHVzID0gc3RhdHVzCiAgICAgICAgc2VsZi5zYWZldHkgPSBzYWZldHkKCiAgICBAc3RhdGljbWV0aG9kCiAgICBkZWYgZnJvbV9kaWN0KGQ6IGRpY3QpIC0+ICJDaGVhdGNvZGUiOgogICAgICAgIHJldHVybiBDaGVhdGNvZGUoCiAgICAgICAgICAgIEZ1bmN0aW9uLmZyb21fZGljdChkWyJmdW5jIl0pLAogICAgICAgICAgICBzdHIoZFsiZ3JvdXAiXSksCiAgICAgICAgICAgIHN0cihkWyJzdGF0dXMiXSksCiAgICAgICAgICAgIHN0cihkWyJzYWZldHkiXSksCiAgICAgICAgKQoKCmNsYXNzIEVycm9yOgogICAgbmFtZTogc3RyCiAgICBkZXNjcmlwdGlvbjogc3RyCiAgICBkZWNsYXJhdGlvbjogc3RyCgogICAgZGVmIF9faW5pdF9fKHNlbGYsIG5hbWU6IHN0ciwgZGVzY3JpcHRpb246IHN0ciwgZGVjbGFyYXRpb246IHN0cik6CiAgICAgICAgc2VsZi5uYW1lID0gbmFtZQogICAgICAgIHNlbGYuZGVzY3JpcHRpb24gPSBkZXNjcmlwdGlvbgogICAgICAgIHNlbGYuZGVjbGFyYXRpb24gPSBkZWNsYXJhdGlvbgoKICAgIEBzdGF0aWNtZXRob2QKICAgIGRlZiBmcm9tX2RpY3QoZDogZGljdCkgLT4gIkVycm9yIjoKICAgICAgICByZXR1cm4gRXJyb3IoKipkKQoKCmNsYXNzIEV2ZW50OgogICAgbmFtZTogc3RyCiAgICBkZXNjcmlwdGlvbjogc3RyCiAgICBkZWNsYXJhdGlvbjogc3RyCgogICAgZGVmIF9faW5pdF9fKHNlbGYsIG5hbWU6IHN0ciwgZGVzY3JpcHRpb246IHN0ciwgZGVjbGFyYXRpb246IHN0cik6CiAgICAgICAgc2VsZi5uYW1lID0gbmFtZQogICAgICAgIHNlbGYuZGVzY3JpcHRpb24gPSBkZXNjcmlwdGlvbgogICAgICAgIHNlbGYuZGVjbGFyYXRpb24gPSBkZWNsYXJhdGlvbgoKICAgIEBzdGF0aWNtZXRob2QKICAgIGRlZiBmcm9tX2RpY3QoZDogZGljdCkgLT4gIkV2ZW50IjoKICAgICAgICByZXR1cm4gRXZlbnQoKipkKQoKCmNsYXNzIEVudW1WYXJpYW50OgogICAgbmFtZTogc3RyCiAgICBkZXNjcmlwdGlvbjogc3RyCgogICAgZGVmIF9faW5pdF9fKHNlbGYsIG5hbWU6IHN0ciwgZGVzY3JpcHRpb246IHN0cik6CiAgICAgICAgc2VsZi5uYW1lID0gbmFtZQogICAgICAgIHNlbGYuZGVzY3JpcHRpb24gPSBkZXNjcmlwdGlvbgoKCmNsYXNzIEVudW06CiAgICBuYW1lOiBzdHIKICAgIGRlc2NyaXB0aW9uOiBzdHIKICAgIHZhcmlhbnRzOiBsaXN0W0VudW1WYXJpYW50XQoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBuYW1lOiBzdHIsIGRlc2NyaXB0aW9uOiBzdHIsIHZhcmlhbnRzOiBsaXN0W0VudW1WYXJpYW50XSk6CiAgICAgICAgc2VsZi5uYW1lID0gbmFtZQogICAgICAgIHNlbGYuZGVzY3JpcHRpb24gPSBkZXNjcmlwdGlvbgogICAgICAgIHNlbGYudmFyaWFudHMgPSB2YXJpYW50cwoKICAgIEBzdGF0aWNtZXRob2QKICAgIGRlZiBmcm9tX2RpY3QoZDogZGljdCkgLT4gIkVudW0iOgogICAgICAgIHJldHVybiBFbnVtKAogICAgICAgICAgICBkWyJuYW1lIl0sCiAgICAgICAgICAgIGRbImRlc2NyaXB0aW9uIl0sCiAgICAgICAgICAgIGxpc3QobWFwKGxhbWJkYSB2OiBFbnVtVmFyaWFudCgqKnYpLCBkWyJ2YXJpYW50cyJdKSksCiAgICAgICAgKQoKCmNsYXNzIFN0cnVjdEZpZWxkOgogICAgbmFtZTogc3RyCiAgICB0eTogc3RyCiAgICBkZXNjcmlwdGlvbjogc3RyCgogICAgZGVmIF9faW5pdF9fKHNlbGYsIG5hbWU6IHN0ciwgdHk6IHN0ciwgZGVzY3JpcHRpb246IHN0cik6CiAgICAgICAgc2VsZi5uYW1lID0gbmFtZQogICAgICAgIHNlbGYudHkgPSB0eQogICAgICAgIHNlbGYuZGVzY3JpcHRpb24gPSBkZXNjcmlwdGlvbgoKCmNsYXNzIFN0cnVjdDoKICAgIG5hbWU6IHN0cgogICAgZGVzY3JpcHRpb246IHN0cgogICAgZmllbGRzOiBsaXN0W1N0cnVjdEZpZWxkXQoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBuYW1lOiBzdHIsIGRlc2NyaXB0aW9uOiBzdHIsIGZpZWxkczogbGlzdFtTdHJ1Y3RGaWVsZF0pOgogICAgICAgIHNlbGYubmFtZSA9IG5hbWUKICAgICAgICBzZWxmLmRlc2NyaXB0aW9uID0gZGVzY3JpcHRpb24KICAgICAgICBzZWxmLmZpZWxkcyA9IGZpZWxkcwoKICAgIEBzdGF0aWNtZXRob2QKICAgIGRlZiBmcm9tX2RpY3QoZDogZGljdCkgLT4gIlN0cnVjdCI6CiAgICAgICAgcmV0dXJuIFN0cnVjdCgKICAgICAgICAgICAgZFsibmFtZSJdLAogICAgICAgICAgICBkWyJkZXNjcmlwdGlvbiJdLAogICAgICAgICAgICBsaXN0KG1hcChsYW1iZGEgZjogU3RydWN0RmllbGQoKipmKSwgZFsiZmllbGRzIl0pKSwKICAgICAgICApCgoKY2xhc3MgQ2hlYXRjb2RlczoKICAgIGVycm9yczogbGlzdFtFcnJvcl0KICAgIGV2ZW50czogbGlzdFtFdmVudF0KICAgIGVudW1zOiBsaXN0W0VudW1dCiAgICBzdHJ1Y3RzOiBsaXN0W1N0cnVjdF0KICAgIGNoZWF0Y29kZXM6IGxpc3RbQ2hlYXRjb2RlXQoKICAgIGRlZiBfX2luaXRfXygKICAgICAgICBzZWxmLAogICAgICAgIGVycm9yczogbGlzdFtFcnJvcl0sCiAgICAgICAgZXZlbnRzOiBsaXN0W0V2ZW50XSwKICAgICAgICBlbnVtczogbGlzdFtFbnVtXSwKICAgICAgICBzdHJ1Y3RzOiBsaXN0W1N0cnVjdF0sCiAgICAgICAgY2hlYXRjb2RlczogbGlzdFtDaGVhdGNvZGVdLAogICAgKToKICAgICAgICBzZWxmLmVycm9ycyA9IGVycm9ycwogICAgICAgIHNlbGYuZXZlbnRzID0gZXZlbnRzCiAgICAgICAgc2VsZi5lbnVtcyA9IGVudW1zCiAgICAgICAgc2VsZi5zdHJ1Y3RzID0gc3RydWN0cwogICAgICAgIHNlbGYuY2hlYXRjb2RlcyA9IGNoZWF0Y29kZXMKCiAgICBAc3RhdGljbWV0aG9kCiAgICBkZWYgZnJvbV9kaWN0KGQ6IGRpY3QpIC0+ICJDaGVhdGNvZGVzIjoKICAgICAgICByZXR1cm4gQ2hlYXRjb2RlcygKICAgICAgICAgICAgZXJyb3JzPVtFcnJvci5mcm9tX2RpY3QoZSkgZm9yIGUgaW4gZFsiZXJyb3JzIl1dLAogICAgICAgICAgICBldmVudHM9W0V2ZW50LmZyb21fZGljdChlKSBmb3IgZSBpbiBkWyJldmVudHMiXV0sCiAgICAgICAgICAgIGVudW1zPVtFbnVtLmZyb21fZGljdChlKSBmb3IgZSBpbiBkWyJlbnVtcyJdXSwKICAgICAgICAgICAgc3RydWN0cz1bU3RydWN0LmZyb21fZGljdChlKSBmb3IgZSBpbiBkWyJzdHJ1Y3RzIl1dLAogICAgICAgICAgICBjaGVhdGNvZGVzPVtDaGVhdGNvZGUuZnJvbV9kaWN0KGUpIGZvciBlIGluIGRbImNoZWF0Y29kZXMiXV0sCiAgICAgICAgKQoKICAgIEBzdGF0aWNtZXRob2QKICAgIGRlZiBmcm9tX2pzb24ocykgLT4gIkNoZWF0Y29kZXMiOgogICAgICAgIHJldHVybiBDaGVhdGNvZGVzLmZyb21fZGljdChqc29uLmxvYWRzKHMpKQoKICAgIEBzdGF0aWNtZXRob2QKICAgIGRlZiBmcm9tX2pzb25fZmlsZShmaWxlX3BhdGg6IHN0cikgLT4gIkNoZWF0Y29kZXMiOgogICAgICAgIHdpdGggb3BlbihmaWxlX3BhdGgsICJyIikgYXMgZjoKICAgICAgICAgICAgcmV0dXJuIENoZWF0Y29kZXMuZnJvbV9kaWN0KGpzb24ubG9hZChmKSkKCgpjbGFzcyBJdGVtKFB5RW51bSk6CiAgICBFUlJPUjogc3RyID0gImVycm9yIgogICAgRVZFTlQ6IHN0ciA9ICJldmVudCIKICAgIEVOVU06IHN0ciA9ICJlbnVtIgogICAgU1RSVUNUOiBzdHIgPSAic3RydWN0IgogICAgRlVOQ1RJT046IHN0ciA9ICJmdW5jdGlvbiIKCgpjbGFzcyBJdGVtT3JkZXI6CiAgICBfbGlzdDogbGlzdFtJdGVtXQoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBsaXN0OiBsaXN0W0l0ZW1dKSAtPiBOb25lOgogICAgICAgIGFzc2VydCBsZW4obGlzdCkgPD0gbGVuKEl0ZW0pLCAibGlzdCBtdXN0IG5vdCBjb250YWluIG1vcmUgaXRlbXMgdGhhbiBJdGVtIgogICAgICAgIGFzc2VydCBsZW4obGlzdCkgPT0gbGVuKHNldChsaXN0KSksICJsaXN0IG11c3Qgbm90IGNvbnRhaW4gZHVwbGljYXRlcyIKICAgICAgICBzZWxmLl9saXN0ID0gbGlzdAogICAgICAgIHBhc3MKCiAgICBkZWYgZ2V0X2xpc3Qoc2VsZikgLT4gbGlzdFtJdGVtXToKICAgICAgICByZXR1cm4gc2VsZi5fbGlzdAoKICAgIEBzdGF0aWNtZXRob2QKICAgIGRlZiBkZWZhdWx0KCkgLT4gIkl0ZW1PcmRlciI6CiAgICAgICAgcmV0dXJuIEl0ZW1PcmRlcigKICAgICAgICAgICAgWwogICAgICAgICAgICAgICAgSXRlbS5FUlJPUiwKICAgICAgICAgICAgICAgIEl0ZW0uRVZFTlQsCiAgICAgICAgICAgICAgICBJdGVtLkVOVU0sCiAgICAgICAgICAgICAgICBJdGVtLlNUUlVDVCwKICAgICAgICAgICAgICAgIEl0ZW0uRlVOQ1RJT04sCiAgICAgICAgICAgIF0KICAgICAgICApCgoKY2xhc3MgQ2hlYXRjb2Rlc1ByaW50ZXI6CiAgICBidWZmZXI6IHN0cgoKICAgIHByZWx1ZGU6IGJvb2wKICAgIHNwZHhfaWRlbnRpZmllcjogc3RyCiAgICBzb2xpZGl0eV9yZXF1aXJlbWVudDogc3RyCiAgICBhYmljb2Rlcl92MjogYm9vbAoKICAgIGJsb2NrX2RvY19zdHlsZTogYm9vbAoKICAgIGluZGVudF9sZXZlbDogaW50CiAgICBfaW5kZW50X3N0cjogc3RyCgogICAgbmxfc3RyOiBzdHIKCiAgICBpdGVtc19vcmRlcjogSXRlbU9yZGVyCgogICAgZGVmIF9faW5pdF9fKAogICAgICAgIHNlbGYsCiAgICAgICAgYnVmZmVyOiBzdHIgPSAiIiwKICAgICAgICBwcmVsdWRlOiBib29sID0gVHJ1ZSwKICAgICAgICBzcGR4X2lkZW50aWZpZXI6IHN0ciA9ICJVTkxJQ0VOU0VEIiwKICAgICAgICBzb2xpZGl0eV9yZXF1aXJlbWVudDogc3RyID0gIiIsCiAgICAgICAgYWJpY29kZXJfcHJhZ21hOiBib29sID0gRmFsc2UsCiAgICAgICAgYmxvY2tfZG9jX3N0eWxlOiBib29sID0gRmFsc2UsCiAgICAgICAgaW5kZW50X2xldmVsOiBpbnQgPSAwLAogICAgICAgIGluZGVudF93aXRoOiBpbnQgfCBzdHIgPSA0LAogICAgICAgIG5sX3N0cjogc3RyID0gIlxuIiwKICAgICAgICBpdGVtc19vcmRlcjogSXRlbU9yZGVyID0gSXRlbU9yZGVyLmRlZmF1bHQoKSwKICAgICk6CiAgICAgICAgc2VsZi5wcmVsdWRlID0gcHJlbHVkZQogICAgICAgIHNlbGYuc3BkeF9pZGVudGlmaWVyID0gc3BkeF9pZGVudGlmaWVyCiAgICAgICAgc2VsZi5zb2xpZGl0eV9yZXF1aXJlbWVudCA9IHNvbGlkaXR5X3JlcXVpcmVtZW50CiAgICAgICAgc2VsZi5hYmljb2Rlcl92MiA9IGFiaWNvZGVyX3ByYWdtYQogICAgICAgIHNlbGYuYmxvY2tfZG9jX3N0eWxlID0gYmxvY2tfZG9jX3N0eWxlCiAgICAgICAgc2VsZi5idWZmZXIgPSBidWZmZXIKICAgICAgICBzZWxmLmluZGVudF9sZXZlbCA9IGluZGVudF9sZXZlbAogICAgICAgIHNlbGYubmxfc3RyID0gbmxfc3RyCgogICAgICAgIGlmIGlzaW5zdGFuY2UoaW5kZW50X3dpdGgsIGludCk6CiAgICAgICAgICAgIGFzc2VydCBpbmRlbnRfd2l0aCA+PSAwCiAgICAgICAgICAgIHNlbGYuX2luZGVudF9zdHIgPSAiICIgKiBpbmRlbnRfd2l0aAogICAgICAgIGVsaWYgaXNpbnN0YW5jZShpbmRlbnRfd2l0aCwgc3RyKToKICAgICAgICAgICAgc2VsZi5faW5kZW50X3N0ciA9IGluZGVudF93aXRoCiAgICAgICAgZWxzZToKICAgICAgICAgICAgYXNzZXJ0IEZhbHNlLCAiaW5kZW50X3dpdGggbXVzdCBiZSBpbnQgb3Igc3RyIgoKICAgICAgICBzZWxmLml0ZW1zX29yZGVyID0gaXRlbXNfb3JkZXIKCiAgICBkZWYgZmluaXNoKHNlbGYpIC0+IHN0cjoKICAgICAgICByZXQgPSBzZWxmLmJ1ZmZlci5yc3RyaXAoKQogICAgICAgIHNlbGYuYnVmZmVyID0gIiIKICAgICAgICByZXR1cm4gcmV0CgogICAgZGVmIHBfY29udHJhY3Qoc2VsZiwgY29udHJhY3Q6IENoZWF0Y29kZXMsIG5hbWU6IHN0ciwgaW5oZXJpdHM6IHN0ciA9ICIiKToKICAgICAgICBpZiBzZWxmLnByZWx1ZGU6CiAgICAgICAgICAgIHNlbGYucF9wcmVsdWRlKGNvbnRyYWN0KQoKICAgICAgICBzZWxmLl9wX3N0cigiaW50ZXJmYWNlICIpCiAgICAgICAgbmFtZSA9IG5hbWUuc3RyaXAoKQogICAgICAgIGlmIG5hbWUgIT0gIiI6CiAgICAgICAgICAgIHNlbGYuX3Bfc3RyKG5hbWUpCiAgICAgICAgICAgIHNlbGYuX3Bfc3RyKCIgIikKICAgICAgICBpZiBpbmhlcml0cyAhPSAiIjoKICAgICAgICAgICAgc2VsZi5fcF9zdHIoImlzICIpCiAgICAgICAgICAgIHNlbGYuX3Bfc3RyKGluaGVyaXRzKQogICAgICAgICAgICBzZWxmLl9wX3N0cigiICIpCiAgICAgICAgc2VsZi5fcF9zdHIoInsiKQogICAgICAgIHNlbGYuX3BfbmwoKQogICAgICAgIHNlbGYuX3dpdGhfaW5kZW50KGxhbWJkYTogc2VsZi5fcF9pdGVtcyhjb250cmFjdCkpCiAgICAgICAgc2VsZi5fcF9zdHIoIn0iKQogICAgICAgIHNlbGYuX3BfbmwoKQoKICAgIGRlZiBfcF9pdGVtcyhzZWxmLCBjb250cmFjdDogQ2hlYXRjb2Rlcyk6CiAgICAgICAgZm9yIGl0ZW0gaW4gc2VsZi5pdGVtc19vcmRlci5nZXRfbGlzdCgpOgogICAgICAgICAgICBpZiBpdGVtID09IEl0ZW0uRVJST1I6CiAgICAgICAgICAgICAgICBzZWxmLnBfZXJyb3JzKGNvbnRyYWN0LmVycm9ycykKICAgICAgICAgICAgZWxpZiBpdGVtID09IEl0ZW0uRVZFTlQ6CiAgICAgICAgICAgICAgICBzZWxmLnBfZXZlbnRzKGNvbnRyYWN0LmV2ZW50cykKICAgICAgICAgICAgZWxpZiBpdGVtID09IEl0ZW0uRU5VTToKICAgICAgICAgICAgICAgIHNlbGYucF9lbnVtcyhjb250cmFjdC5lbnVtcykKICAgICAgICAgICAgZWxpZiBpdGVtID09IEl0ZW0uU1RSVUNUOgogICAgICAgICAgICAgICAgc2VsZi5wX3N0cnVjdHMoY29udHJhY3Quc3RydWN0cykKICAgICAgICAgICAgZWxpZiBpdGVtID09IEl0ZW0uRlVOQ1RJT046CiAgICAgICAgICAgICAgICBzZWxmLnBfZnVuY3Rpb25zKGNvbnRyYWN0LmNoZWF0Y29kZXMpCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICBhc3NlcnQgRmFsc2UsIGYidW5rbm93biBpdGVtIHtpdGVtfSIKCiAgICBkZWYgcF9wcmVsdWRlKHNlbGYsIGNvbnRyYWN0OiBDaGVhdGNvZGVzIHwgTm9uZSA9IE5vbmUpOgogICAgICAgIHNlbGYuX3Bfc3RyKGYiLy8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IHtzZWxmLnNwZHhfaWRlbnRpZmllcn0iKQogICAgICAgIHNlbGYuX3BfbmwoKQoKICAgICAgICBpZiBzZWxmLnNvbGlkaXR5X3JlcXVpcmVtZW50ICE9ICIiOgogICAgICAgICAgICByZXEgPSBzZWxmLnNvbGlkaXR5X3JlcXVpcmVtZW50CiAgICAgICAgZWxpZiBjb250cmFjdCBhbmQgbGVuKGNvbnRyYWN0LmVycm9ycykgPiAwOgogICAgICAgICAgICByZXEgPSAiPj0wLjguNCA8MC45LjAiCiAgICAgICAgZWxzZToKICAgICAgICAgICAgcmVxID0gIj49MC42LjAgPDAuOS4wIgogICAgICAgIHNlbGYuX3Bfc3RyKGYicHJhZ21hIHNvbGlkaXR5IHtyZXF9OyIpCiAgICAgICAgc2VsZi5fcF9ubCgpCgogICAgICAgIGlmIHNlbGYuYWJpY29kZXJfdjI6CiAgICAgICAgICAgIHNlbGYuX3Bfc3RyKCJwcmFnbWEgZXhwZXJpbWVudGFsIEFCSUVuY29kZXJWMjsiKQogICAgICAgICAgICBzZWxmLl9wX25sKCkKCiAgICAgICAgc2VsZi5fcF9ubCgpCgogICAgZGVmIHBfZXJyb3JzKHNlbGYsIGVycm9yczogbGlzdFtFcnJvcl0pOgogICAgICAgIGZvciBlcnJvciBpbiBlcnJvcnM6CiAgICAgICAgICAgIHNlbGYuX3BfbGluZShsYW1iZGE6IHNlbGYucF9lcnJvcihlcnJvcikpCgogICAgZGVmIHBfZXJyb3Ioc2VsZiwgZXJyb3I6IEVycm9yKToKICAgICAgICBzZWxmLl9wX2NvbW1lbnQoZXJyb3IuZGVzY3JpcHRpb24sIGRvYz1UcnVlKQogICAgICAgIHNlbGYuX3BfbGluZShsYW1iZGE6IHNlbGYuX3Bfc3RyKGVycm9yLmRlY2xhcmF0aW9uKSkKCiAgICBkZWYgcF9ldmVudHMoc2VsZiwgZXZlbnRzOiBsaXN0W0V2ZW50XSk6CiAgICAgICAgZm9yIGV2ZW50IGluIGV2ZW50czoKICAgICAgICAgICAgc2VsZi5fcF9saW5lKGxhbWJkYTogc2VsZi5wX2V2ZW50KGV2ZW50KSkKCiAgICBkZWYgcF9ldmVudChzZWxmLCBldmVudDogRXZlbnQpOgogICAgICAgIHNlbGYuX3BfY29tbWVudChldmVudC5kZXNjcmlwdGlvbiwgZG9jPVRydWUpCiAgICAgICAgc2VsZi5fcF9saW5lKGxhbWJkYTogc2VsZi5fcF9zdHIoZXZlbnQuZGVjbGFyYXRpb24pKQoKICAgIGRlZiBwX2VudW1zKHNlbGYsIGVudW1zOiBsaXN0W0VudW1dKToKICAgICAgICBmb3IgZW51bSBpbiBlbnVtczoKICAgICAgICAgICAgc2VsZi5fcF9saW5lKGxhbWJkYTogc2VsZi5wX2VudW0oZW51bSkpCgogICAgZGVmIHBfZW51bShzZWxmLCBlbnVtOiBFbnVtKToKICAgICAgICBzZWxmLl9wX2NvbW1lbnQoZW51bS5kZXNjcmlwdGlvbiwgZG9jPVRydWUpCiAgICAgICAgc2VsZi5fcF9saW5lKGxhbWJkYTogc2VsZi5fcF9zdHIoZiJlbnVtIHtlbnVtLm5hbWV9IHt7IikpCiAgICAgICAgc2VsZi5fd2l0aF9pbmRlbnQobGFtYmRhOiBzZWxmLnBfZW51bV92YXJpYW50cyhlbnVtLnZhcmlhbnRzKSkKICAgICAgICBzZWxmLl9wX2xpbmUobGFtYmRhOiBzZWxmLl9wX3N0cigifSIpKQoKICAgIGRlZiBwX2VudW1fdmFyaWFudHMoc2VsZiwgdmFyaWFudHM6IGxpc3RbRW51bVZhcmlhbnRdKToKICAgICAgICBmb3IgaSwgdmFyaWFudCBpbiBlbnVtZXJhdGUodmFyaWFudHMpOgogICAgICAgICAgICBzZWxmLl9wX2luZGVudCgpCiAgICAgICAgICAgIHNlbGYuX3BfY29tbWVudCh2YXJpYW50LmRlc2NyaXB0aW9uKQoKICAgICAgICAgICAgc2VsZi5fcF9pbmRlbnQoKQogICAgICAgICAgICBzZWxmLl9wX3N0cih2YXJpYW50Lm5hbWUpCiAgICAgICAgICAgIGlmIGkgPCBsZW4odmFyaWFudHMpIC0gMToKICAgICAgICAgICAgICAgIHNlbGYuX3Bfc3RyKCIsIikKICAgICAgICAgICAgc2VsZi5fcF9ubCgpCgogICAgZGVmIHBfc3RydWN0cyhzZWxmLCBzdHJ1Y3RzOiBsaXN0W1N0cnVjdF0pOgogICAgICAgIGZvciBzdHJ1Y3QgaW4gc3RydWN0czoKICAgICAgICAgICAgc2VsZi5fcF9saW5lKGxhbWJkYTogc2VsZi5wX3N0cnVjdChzdHJ1Y3QpKQoKICAgIGRlZiBwX3N0cnVjdChzZWxmLCBzdHJ1Y3Q6IFN0cnVjdCk6CiAgICAgICAgc2VsZi5fcF9jb21tZW50KHN0cnVjdC5kZXNjcmlwdGlvbiwgZG9jPVRydWUpCiAgICAgICAgc2VsZi5fcF9saW5lKGxhbWJkYTogc2VsZi5fcF9zdHIoZiJzdHJ1Y3Qge3N0cnVjdC5uYW1lfSB7eyIpKQogICAgICAgIHNlbGYuX3dpdGhfaW5kZW50KGxhbWJkYTogc2VsZi5wX3N0cnVjdF9maWVsZHMoc3RydWN0LmZpZWxkcykpCiAgICAgICAgc2VsZi5fcF9saW5lKGxhbWJkYTogc2VsZi5fcF9zdHIoIn0iKSkKCiAgICBkZWYgcF9zdHJ1Y3RfZmllbGRzKHNlbGYsIGZpZWxkczogbGlzdFtTdHJ1Y3RGaWVsZF0pOgogICAgICAgIGZvciBmaWVsZCBpbiBmaWVsZHM6CiAgICAgICAgICAgIHNlbGYuX3BfbGluZShsYW1iZGE6IHNlbGYucF9zdHJ1Y3RfZmllbGQoZmllbGQpKQoKICAgIGRlZiBwX3N0cnVjdF9maWVsZChzZWxmLCBmaWVsZDogU3RydWN0RmllbGQpOgogICAgICAgIHNlbGYuX3BfY29tbWVudChmaWVsZC5kZXNjcmlwdGlvbikKICAgICAgICBzZWxmLl9wX2luZGVudGVkKGxhbWJkYTogc2VsZi5fcF9zdHIoZiJ7ZmllbGQudHl9IHtmaWVsZC5uYW1lfTsiKSkKCiAgICBkZWYgcF9mdW5jdGlvbnMoc2VsZiwgY2hlYXRjb2RlczogbGlzdFtDaGVhdGNvZGVdKToKICAgICAgICBmb3IgY2hlYXRjb2RlIGluIGNoZWF0Y29kZXM6CiAgICAgICAgICAgIHNlbGYuX3BfbGluZShsYW1iZGE6IHNlbGYucF9mdW5jdGlvbihjaGVhdGNvZGUuZnVuYykpCgogICAgZGVmIHBfZnVuY3Rpb24oc2VsZiwgZnVuYzogRnVuY3Rpb24pOgogICAgICAgIHNlbGYuX3BfY29tbWVudChmdW5jLmRlc2NyaXB0aW9uLCBkb2M9VHJ1ZSkKICAgICAgICBzZWxmLl9wX2xpbmUobGFtYmRhOiBzZWxmLl9wX3N0cihmdW5jLmRlY2xhcmF0aW9uKSkKCiAgICBkZWYgX3BfY29tbWVudChzZWxmLCBzOiBzdHIsIGRvYzogYm9vbCA9IEZhbHNlKToKICAgICAgICBzID0gcy5zdHJpcCgpCiAgICAgICAgaWYgcyA9PSAiIjoKICAgICAgICAgICAgcmV0dXJuCgogICAgICAgIHMgPSBtYXAobGFtYmRhIGxpbmU6IGxpbmUubHN0cmlwKCksIHMuc3BsaXQoIlxuIikpCiAgICAgICAgaWYgc2VsZi5ibG9ja19kb2Nfc3R5bGU6CiAgICAgICAgICAgIHNlbGYuX3Bfc3RyKCIvKiIpCiAgICAgICAgICAgIGlmIGRvYzoKICAgICAgICAgICAgICAgIHNlbGYuX3Bfc3RyKCIqIikKICAgICAgICAgICAgc2VsZi5fcF9ubCgpCiAgICAgICAgICAgIGZvciBsaW5lIGluIHM6CiAgICAgICAgICAgICAgICBzZWxmLl9wX2luZGVudCgpCiAgICAgICAgICAgICAgICBzZWxmLl9wX3N0cigiICIpCiAgICAgICAgICAgICAgICBpZiBkb2M6CiAgICAgICAgICAgICAgICAgICAgc2VsZi5fcF9zdHIoIiogIikKICAgICAgICAgICAgICAgIHNlbGYuX3Bfc3RyKGxpbmUpCiAgICAgICAgICAgICAgICBzZWxmLl9wX25sKCkKICAgICAgICAgICAgc2VsZi5fcF9pbmRlbnQoKQogICAgICAgICAgICBzZWxmLl9wX3N0cigiICovIikKICAgICAgICAgICAgc2VsZi5fcF9ubCgpCiAgICAgICAgZWxzZToKICAgICAgICAgICAgZmlyc3RfbGluZSA9IFRydWUKICAgICAgICAgICAgZm9yIGxpbmUgaW4gczoKICAgICAgICAgICAgICAgIGlmIG5vdCBmaXJzdF9saW5lOgogICAgICAgICAgICAgICAgICAgIHNlbGYuX3BfaW5kZW50KCkKICAgICAgICAgICAgICAgIGZpcnN0X2xpbmUgPSBGYWxzZQoKICAgICAgICAgICAgICAgIGlmIGRvYzoKICAgICAgICAgICAgICAgICAgICBzZWxmLl9wX3N0cigiLy8vICIpCiAgICAgICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgICAgIHNlbGYuX3Bfc3RyKCIvLyAiKQogICAgICAgICAgICAgICAgc2VsZi5fcF9zdHIobGluZSkKICAgICAgICAgICAgICAgIHNlbGYuX3BfbmwoKQoKICAgIGRlZiBfd2l0aF9pbmRlbnQoc2VsZiwgZjogVm9pZEZuKToKICAgICAgICBzZWxmLl9pbmNfaW5kZW50KCkKICAgICAgICBmKCkKICAgICAgICBzZWxmLl9kZWNfaW5kZW50KCkKCiAgICBkZWYgX3BfbGluZShzZWxmLCBmOiBWb2lkRm4pOgogICAgICAgIHNlbGYuX3BfaW5kZW50KCkKICAgICAgICBmKCkKICAgICAgICBzZWxmLl9wX25sKCkKCiAgICBkZWYgX3BfaW5kZW50ZWQoc2VsZiwgZjogVm9pZEZuKToKICAgICAgICBzZWxmLl9wX2luZGVudCgpCiAgICAgICAgZigpCgogICAgZGVmIF9wX2luZGVudChzZWxmKToKICAgICAgICBmb3IgXyBpbiByYW5nZShzZWxmLmluZGVudF9sZXZlbCk6CiAgICAgICAgICAgIHNlbGYuX3Bfc3RyKHNlbGYuX2luZGVudF9zdHIpCgogICAgZGVmIF9wX25sKHNlbGYpOgogICAgICAgIHNlbGYuX3Bfc3RyKHNlbGYubmxfc3RyKQoKICAgIGRlZiBfcF9zdHIoc2VsZiwgdHh0OiBzdHIpOgogICAgICAgIHNlbGYuYnVmZmVyICs9IHR4dAoKICAgIGRlZiBfaW5jX2luZGVudChzZWxmKToKICAgICAgICBzZWxmLmluZGVudF9sZXZlbCArPSAxCgogICAgZGVmIF9kZWNfaW5kZW50KHNlbGYpOgogICAgICAgIHNlbGYuaW5kZW50X2xldmVsIC09IDEKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgbWFpbigpCg==
+#!/usr/bin/env python3
+
+import copy
+import json
+import re
+import subprocess
+from enum import Enum as PyEnum
+from typing import Callable
+from urllib import request
+
+VoidFn = Callable[[], None]
+
+CHEATCODES_JSON_URL = "https://raw.githubusercontent.com/foundry-rs/foundry/master/crates/cheatcodes/assets/cheatcodes.json"
+OUT_PATH = "src/Vm.sol"
+
+VM_SAFE_DOC = """\
+/// The `VmSafe` interface does not allow manipulation of the EVM state or other actions that may
+/// result in Script simulations differing from on-chain execution. It is recommended to only use
+/// these cheats in scripts.
+"""
+
+VM_DOC = """\
+/// The `Vm` interface does allow manipulation of the EVM state. These are all intended to be used
+/// in tests, but it is not recommended to use these cheats in scripts.
+"""
+
+
+def main():
+    json_str = request.urlopen(CHEATCODES_JSON_URL).read().decode("utf-8")
+    contract = Cheatcodes.from_json(json_str)
+
+    ccs = contract.cheatcodes
+    ccs = list(filter(lambda cc: cc.status != "experimental", ccs))
+    ccs.sort(key=lambda cc: cc.func.id)
+
+    safe = list(filter(lambda cc: cc.safety == "safe", ccs))
+    safe.sort(key=CmpCheatcode)
+    unsafe = list(filter(lambda cc: cc.safety == "unsafe", ccs))
+    unsafe.sort(key=CmpCheatcode)
+    assert len(safe) + len(unsafe) == len(ccs)
+
+    prefix_with_group_headers(safe)
+    prefix_with_group_headers(unsafe)
+
+    out = ""
+
+    out += "// Automatically @generated by scripts/vm.py. Do not modify manually.\n\n"
+
+    pp = CheatcodesPrinter(
+        spdx_identifier="MIT OR Apache-2.0",
+        solidity_requirement=">=0.6.2 <0.9.0",
+        abicoder_pragma=True,
+    )
+    pp.p_prelude()
+    pp.prelude = False
+    out += pp.finish()
+
+    out += "\n\n"
+    out += VM_SAFE_DOC
+    vm_safe = Cheatcodes(
+        # TODO: Custom errors were introduced in 0.8.4
+        errors=[],  # contract.errors
+        events=contract.events,
+        enums=contract.enums,
+        structs=contract.structs,
+        cheatcodes=safe,
+    )
+    pp.p_contract(vm_safe, "VmSafe")
+    out += pp.finish()
+
+    out += "\n\n"
+    out += VM_DOC
+    vm_unsafe = Cheatcodes(
+        errors=[],
+        events=[],
+        enums=[],
+        structs=[],
+        cheatcodes=unsafe,
+    )
+    pp.p_contract(vm_unsafe, "Vm", "VmSafe")
+    out += pp.finish()
+
+    # Compatibility with <0.8.0
+    def memory_to_calldata(m: re.Match) -> str:
+        return " calldata " + m.group(1)
+
+    out = re.sub(r" memory (.*returns)", memory_to_calldata, out)
+
+    with open(OUT_PATH, "w") as f:
+        f.write(out)
+
+    forge_fmt = ["forge", "fmt", OUT_PATH]
+    res = subprocess.run(forge_fmt)
+    assert res.returncode == 0, f"command failed: {forge_fmt}"
+
+    print(f"Wrote to {OUT_PATH}")
+
+
+class CmpCheatcode:
+    cheatcode: "Cheatcode"
+
+    def __init__(self, cheatcode: "Cheatcode"):
+        self.cheatcode = cheatcode
+
+    def __lt__(self, other: "CmpCheatcode") -> bool:
+        return cmp_cheatcode(self.cheatcode, other.cheatcode) < 0
+
+    def __eq__(self, other: "CmpCheatcode") -> bool:
+        return cmp_cheatcode(self.cheatcode, other.cheatcode) == 0
+
+    def __gt__(self, other: "CmpCheatcode") -> bool:
+        return cmp_cheatcode(self.cheatcode, other.cheatcode) > 0
+
+
+def cmp_cheatcode(a: "Cheatcode", b: "Cheatcode") -> int:
+    if a.group != b.group:
+        return -1 if a.group < b.group else 1
+    if a.status != b.status:
+        return -1 if a.status < b.status else 1
+    if a.safety != b.safety:
+        return -1 if a.safety < b.safety else 1
+    if a.func.id != b.func.id:
+        return -1 if a.func.id < b.func.id else 1
+    return 0
+
+
+# HACK: A way to add group header comments without having to modify printer code
+def prefix_with_group_headers(cheats: list["Cheatcode"]):
+    s = set()
+    for i, cheat in enumerate(cheats):
+        if cheat.group in s:
+            continue
+
+        s.add(cheat.group)
+
+        c = copy.deepcopy(cheat)
+        c.func.description = ""
+        c.func.declaration = f"// ======== {group(c.group)} ========"
+        cheats.insert(i, c)
+    return cheats
+
+
+def group(s: str) -> str:
+    if s == "evm":
+        return "EVM"
+    if s == "json":
+        return "JSON"
+    return s[0].upper() + s[1:]
+
+
+class Visibility(PyEnum):
+    EXTERNAL: str = "external"
+    PUBLIC: str = "public"
+    INTERNAL: str = "internal"
+    PRIVATE: str = "private"
+
+    def __str__(self):
+        return self.value
+
+
+class Mutability(PyEnum):
+    PURE: str = "pure"
+    VIEW: str = "view"
+    NONE: str = ""
+
+    def __str__(self):
+        return self.value
+
+
+class Function:
+    id: str
+    description: str
+    declaration: str
+    visibility: Visibility
+    mutability: Mutability
+    signature: str
+    selector: str
+    selector_bytes: bytes
+
+    def __init__(
+        self,
+        id: str,
+        description: str,
+        declaration: str,
+        visibility: Visibility,
+        mutability: Mutability,
+        signature: str,
+        selector: str,
+        selector_bytes: bytes,
+    ):
+        self.id = id
+        self.description = description
+        self.declaration = declaration
+        self.visibility = visibility
+        self.mutability = mutability
+        self.signature = signature
+        self.selector = selector
+        self.selector_bytes = selector_bytes
+
+    @staticmethod
+    def from_dict(d: dict) -> "Function":
+        return Function(
+            d["id"],
+            d["description"],
+            d["declaration"],
+            Visibility(d["visibility"]),
+            Mutability(d["mutability"]),
+            d["signature"],
+            d["selector"],
+            bytes(d["selectorBytes"]),
+        )
+
+
+class Cheatcode:
+    func: Function
+    group: str
+    status: str
+    safety: str
+
+    def __init__(self, func: Function, group: str, status: str, safety: str):
+        self.func = func
+        self.group = group
+        self.status = status
+        self.safety = safety
+
+    @staticmethod
+    def from_dict(d: dict) -> "Cheatcode":
+        return Cheatcode(
+            Function.from_dict(d["func"]),
+            str(d["group"]),
+            str(d["status"]),
+            str(d["safety"]),
+        )
+
+
+class Error:
+    name: str
+    description: str
+    declaration: str
+
+    def __init__(self, name: str, description: str, declaration: str):
+        self.name = name
+        self.description = description
+        self.declaration = declaration
+
+    @staticmethod
+    def from_dict(d: dict) -> "Error":
+        return Error(**d)
+
+
+class Event:
+    name: str
+    description: str
+    declaration: str
+
+    def __init__(self, name: str, description: str, declaration: str):
+        self.name = name
+        self.description = description
+        self.declaration = declaration
+
+    @staticmethod
+    def from_dict(d: dict) -> "Event":
+        return Event(**d)
+
+
+class EnumVariant:
+    name: str
+    description: str
+
+    def __init__(self, name: str, description: str):
+        self.name = name
+        self.description = description
+
+
+class Enum:
+    name: str
+    description: str
+    variants: list[EnumVariant]
+
+    def __init__(self, name: str, description: str, variants: list[EnumVariant]):
+        self.name = name
+        self.description = description
+        self.variants = variants
+
+    @staticmethod
+    def from_dict(d: dict) -> "Enum":
+        return Enum(
+            d["name"],
+            d["description"],
+            list(map(lambda v: EnumVariant(**v), d["variants"])),
+        )
+
+
+class StructField:
+    name: str
+    ty: str
+    description: str
+
+    def __init__(self, name: str, ty: str, description: str):
+        self.name = name
+        self.ty = ty
+        self.description = description
+
+
+class Struct:
+    name: str
+    description: str
+    fields: list[StructField]
+
+    def __init__(self, name: str, description: str, fields: list[StructField]):
+        self.name = name
+        self.description = description
+        self.fields = fields
+
+    @staticmethod
+    def from_dict(d: dict) -> "Struct":
+        return Struct(
+            d["name"],
+            d["description"],
+            list(map(lambda f: StructField(**f), d["fields"])),
+        )
+
+
+class Cheatcodes:
+    errors: list[Error]
+    events: list[Event]
+    enums: list[Enum]
+    structs: list[Struct]
+    cheatcodes: list[Cheatcode]
+
+    def __init__(
+        self,
+        errors: list[Error],
+        events: list[Event],
+        enums: list[Enum],
+        structs: list[Struct],
+        cheatcodes: list[Cheatcode],
+    ):
+        self.errors = errors
+        self.events = events
+        self.enums = enums
+        self.structs = structs
+        self.cheatcodes = cheatcodes
+
+    @staticmethod
+    def from_dict(d: dict) -> "Cheatcodes":
+        return Cheatcodes(
+            errors=[Error.from_dict(e) for e in d["errors"]],
+            events=[Event.from_dict(e) for e in d["events"]],
+            enums=[Enum.from_dict(e) for e in d["enums"]],
+            structs=[Struct.from_dict(e) for e in d["structs"]],
+            cheatcodes=[Cheatcode.from_dict(e) for e in d["cheatcodes"]],
+        )
+
+    @staticmethod
+    def from_json(s) -> "Cheatcodes":
+        return Cheatcodes.from_dict(json.loads(s))
+
+    @staticmethod
+    def from_json_file(file_path: str) -> "Cheatcodes":
+        with open(file_path, "r") as f:
+            return Cheatcodes.from_dict(json.load(f))
+
+
+class Item(PyEnum):
+    ERROR: str = "error"
+    EVENT: str = "event"
+    ENUM: str = "enum"
+    STRUCT: str = "struct"
+    FUNCTION: str = "function"
+
+
+class ItemOrder:
+    _list: list[Item]
+
+    def __init__(self, list: list[Item]) -> None:
+        assert len(list) <= len(Item), "list must not contain more items than Item"
+        assert len(list) == len(set(list)), "list must not contain duplicates"
+        self._list = list
+        pass
+
+    def get_list(self) -> list[Item]:
+        return self._list
+
+    @staticmethod
+    def default() -> "ItemOrder":
+        return ItemOrder(
+            [
+                Item.ERROR,
+                Item.EVENT,
+                Item.ENUM,
+                Item.STRUCT,
+                Item.FUNCTION,
+            ]
+        )
+
+
+class CheatcodesPrinter:
+    buffer: str
+
+    prelude: bool
+    spdx_identifier: str
+    solidity_requirement: str
+    abicoder_v2: bool
+
+    block_doc_style: bool
+
+    indent_level: int
+    _indent_str: str
+
+    nl_str: str
+
+    items_order: ItemOrder
+
+    def __init__(
+        self,
+        buffer: str = "",
+        prelude: bool = True,
+        spdx_identifier: str = "UNLICENSED",
+        solidity_requirement: str = "",
+        abicoder_pragma: bool = False,
+        block_doc_style: bool = False,
+        indent_level: int = 0,
+        indent_with: int | str = 4,
+        nl_str: str = "\n",
+        items_order: ItemOrder = ItemOrder.default(),
+    ):
+        self.prelude = prelude
+        self.spdx_identifier = spdx_identifier
+        self.solidity_requirement = solidity_requirement
+        self.abicoder_v2 = abicoder_pragma
+        self.block_doc_style = block_doc_style
+        self.buffer = buffer
+        self.indent_level = indent_level
+        self.nl_str = nl_str
+
+        if isinstance(indent_with, int):
+            assert indent_with >= 0
+            self._indent_str = " " * indent_with
+        elif isinstance(indent_with, str):
+            self._indent_str = indent_with
+        else:
+            assert False, "indent_with must be int or str"
+
+        self.items_order = items_order
+
+    def finish(self) -> str:
+        ret = self.buffer.rstrip()
+        self.buffer = ""
+        return ret
+
+    def p_contract(self, contract: Cheatcodes, name: str, inherits: str = ""):
+        if self.prelude:
+            self.p_prelude(contract)
+
+        self._p_str("interface ")
+        name = name.strip()
+        if name != "":
+            self._p_str(name)
+            self._p_str(" ")
+        if inherits != "":
+            self._p_str("is ")
+            self._p_str(inherits)
+            self._p_str(" ")
+        self._p_str("{")
+        self._p_nl()
+        self._with_indent(lambda: self._p_items(contract))
+        self._p_str("}")
+        self._p_nl()
+
+    def _p_items(self, contract: Cheatcodes):
+        for item in self.items_order.get_list():
+            if item == Item.ERROR:
+                self.p_errors(contract.errors)
+            elif item == Item.EVENT:
+                self.p_events(contract.events)
+            elif item == Item.ENUM:
+                self.p_enums(contract.enums)
+            elif item == Item.STRUCT:
+                self.p_structs(contract.structs)
+            elif item == Item.FUNCTION:
+                self.p_functions(contract.cheatcodes)
+            else:
+                assert False, f"unknown item {item}"
+
+    def p_prelude(self, contract: Cheatcodes | None = None):
+        self._p_str(f"// SPDX-License-Identifier: {self.spdx_identifier}")
+        self._p_nl()
+
+        if self.solidity_requirement != "":
+            req = self.solidity_requirement
+        elif contract and len(contract.errors) > 0:
+            req = ">=0.8.4 <0.9.0"
+        else:
+            req = ">=0.6.0 <0.9.0"
+        self._p_str(f"pragma solidity {req};")
+        self._p_nl()
+
+        if self.abicoder_v2:
+            self._p_str("pragma experimental ABIEncoderV2;")
+            self._p_nl()
+
+        self._p_nl()
+
+    def p_errors(self, errors: list[Error]):
+        for error in errors:
+            self._p_line(lambda: self.p_error(error))
+
+    def p_error(self, error: Error):
+        self._p_comment(error.description, doc=True)
+        self._p_line(lambda: self._p_str(error.declaration))
+
+    def p_events(self, events: list[Event]):
+        for event in events:
+            self._p_line(lambda: self.p_event(event))
+
+    def p_event(self, event: Event):
+        self._p_comment(event.description, doc=True)
+        self._p_line(lambda: self._p_str(event.declaration))
+
+    def p_enums(self, enums: list[Enum]):
+        for enum in enums:
+            self._p_line(lambda: self.p_enum(enum))
+
+    def p_enum(self, enum: Enum):
+        self._p_comment(enum.description, doc=True)
+        self._p_line(lambda: self._p_str(f"enum {enum.name} {{"))
+        self._with_indent(lambda: self.p_enum_variants(enum.variants))
+        self._p_line(lambda: self._p_str("}"))
+
+    def p_enum_variants(self, variants: list[EnumVariant]):
+        for i, variant in enumerate(variants):
+            self._p_indent()
+            self._p_comment(variant.description)
+
+            self._p_indent()
+            self._p_str(variant.name)
+            if i < len(variants) - 1:
+                self._p_str(",")
+            self._p_nl()
+
+    def p_structs(self, structs: list[Struct]):
+        for struct in structs:
+            self._p_line(lambda: self.p_struct(struct))
+
+    def p_struct(self, struct: Struct):
+        self._p_comment(struct.description, doc=True)
+        self._p_line(lambda: self._p_str(f"struct {struct.name} {{"))
+        self._with_indent(lambda: self.p_struct_fields(struct.fields))
+        self._p_line(lambda: self._p_str("}"))
+
+    def p_struct_fields(self, fields: list[StructField]):
+        for field in fields:
+            self._p_line(lambda: self.p_struct_field(field))
+
+    def p_struct_field(self, field: StructField):
+        self._p_comment(field.description)
+        self._p_indented(lambda: self._p_str(f"{field.ty} {field.name};"))
+
+    def p_functions(self, cheatcodes: list[Cheatcode]):
+        for cheatcode in cheatcodes:
+            self._p_line(lambda: self.p_function(cheatcode.func))
+
+    def p_function(self, func: Function):
+        self._p_comment(func.description, doc=True)
+        self._p_line(lambda: self._p_str(func.declaration))
+
+    def _p_comment(self, s: str, doc: bool = False):
+        s = s.strip()
+        if s == "":
+            return
+
+        s = map(lambda line: line.lstrip(), s.split("\n"))
+        if self.block_doc_style:
+            self._p_str("/*")
+            if doc:
+                self._p_str("*")
+            self._p_nl()
+            for line in s:
+                self._p_indent()
+                self._p_str(" ")
+                if doc:
+                    self._p_str("* ")
+                self._p_str(line)
+                self._p_nl()
+            self._p_indent()
+            self._p_str(" */")
+            self._p_nl()
+        else:
+            first_line = True
+            for line in s:
+                if not first_line:
+                    self._p_indent()
+                first_line = False
+
+                if doc:
+                    self._p_str("/// ")
+                else:
+                    self._p_str("// ")
+                self._p_str(line)
+                self._p_nl()
+
+    def _with_indent(self, f: VoidFn):
+        self._inc_indent()
+        f()
+        self._dec_indent()
+
+    def _p_line(self, f: VoidFn):
+        self._p_indent()
+        f()
+        self._p_nl()
+
+    def _p_indented(self, f: VoidFn):
+        self._p_indent()
+        f()
+
+    def _p_indent(self):
+        for _ in range(self.indent_level):
+            self._p_str(self._indent_str)
+
+    def _p_nl(self):
+        self._p_str(self.nl_str)
+
+    def _p_str(self, txt: str):
+        self.buffer += txt
+
+    def _inc_indent(self):
+        self.indent_level += 1
+
+    def _dec_indent(self):
+        self.indent_level -= 1
+
+
+if __name__ == "__main__":
+    main()
