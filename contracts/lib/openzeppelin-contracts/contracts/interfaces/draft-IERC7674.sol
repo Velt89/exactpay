@@ -1,1 +1,17 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAoaW50ZXJmYWNlcy9kcmFmdC1JRVJDNzY3NC5zb2wpCgpwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7SUVSQzIwfSBmcm9tICIuL0lFUkMyMC5zb2wiOwoKLyoqCiAqIEBkZXYgVGVtcG9yYXJ5IEFwcHJvdmFsIEV4dGVuc2lvbiBmb3IgRVJDLTIwIChodHRwczovL2dpdGh1Yi5jb20vZXRoZXJldW0vRVJDcy9wdWxsLzM1OFtFUkMtNzY3NF0pCiAqLwppbnRlcmZhY2UgSUVSQzc2NzQgaXMgSUVSQzIwIHsKICAgIC8qKgogICAgICogQGRldiBTZXQgdGhlIHRlbXBvcmFyeSBhbGxvd2FuY2UsIGFsbG93aW5nIGBzcGVuZGVyYCB0byB3aXRoZHJhdyAod2l0aGluIHRoZSBzYW1lIHRyYW5zYWN0aW9uKSBhc3NldHMKICAgICAqIGhlbGQgYnkgdGhlIGNhbGxlci4KICAgICAqLwogICAgZnVuY3Rpb24gdGVtcG9yYXJ5QXBwcm92ZShhZGRyZXNzIHNwZW5kZXIsIHVpbnQyNTYgdmFsdWUpIGV4dGVybmFsIHJldHVybnMgKGJvb2wgc3VjY2Vzcyk7Cn0K
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (interfaces/draft-IERC7674.sol)
+
+pragma solidity ^0.8.20;
+
+import {IERC20} from "./IERC20.sol";
+
+/**
+ * @dev Temporary Approval Extension for ERC-20 (https://github.com/ethereum/ERCs/pull/358[ERC-7674])
+ */
+interface IERC7674 is IERC20 {
+    /**
+     * @dev Set the temporary allowance, allowing `spender` to withdraw (within the same transaction) assets
+     * held by the caller.
+     */
+    function temporaryApprove(address spender, uint256 value) external returns (bool success);
+}
