@@ -1,1 +1,399 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgZXJjMjBBYmksIGdldExvZ3NDaHVua2VkLCBpbnZvaWNlUGF5QWJpIH0gZnJvbSAiQGFldnVtLWtpdC9hZXZ1bSI7CmltcG9ydCB7IHVzZVF1ZXJ5IH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXF1ZXJ5IjsKaW1wb3J0IExpbmsgZnJvbSAibmV4dC9saW5rIjsKaW1wb3J0IHsgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IGZvcm1hdFVuaXRzLCBnZXRBYmlJdGVtLCBpc0FkZHJlc3MsIGtlY2NhazI1NiwgcGFyc2VVbml0cywgdG9IZXgsIHplcm9IYXNoLCB0eXBlIEFkZHJlc3MsIHR5cGUgSGV4LCB0eXBlIFB1YmxpY0NsaWVudCB9IGZyb20gInZpZW0iOwppbXBvcnQgeyB1c2VBY2NvdW50LCB1c2VDb25maWcsIHVzZVB1YmxpY0NsaWVudCB9IGZyb20gIndhZ21pIjsKaW1wb3J0IHsgcmVhZENvbnRyYWN0LCBzaW11bGF0ZUNvbnRyYWN0LCB3YWl0Rm9yVHJhbnNhY3Rpb25SZWNlaXB0LCB3cml0ZUNvbnRyYWN0IH0gZnJvbSAid2FnbWkvYWN0aW9ucyI7CmltcG9ydCB7IHVzZVRva2VuIH0gZnJvbSAiQC9jb21wb25lbnRzL3VzZVRva2VuIjsKaW1wb3J0IHsgdXNlTmV0d29yayB9IGZyb20gIkAvbGliL25ldHdvcmsiOwppbXBvcnQgeyBleHBsYWluIH0gZnJvbSAiQC9saWIvZXJyb3JzIjsKaW1wb3J0IHsgbmV3T3JkZXJJZCwgb3JkZXJMYWJlbCwgc2hvcnQgfSBmcm9tICJAL2xpYi9vcmRlciI7Cgpjb25zdCBaRVJPID0gIjB4MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMCI7CmNvbnN0IFNUQVRVU19MQUJFTDogUmVjb3JkPG51bWJlciwgc3RyaW5nPiA9IHsgMTogIk9wZW4iLCAyOiAiUGFpZCIsIDM6ICJDYW5jZWxsZWQiLCA0OiAiUmVmdW5kZWQiIH07Cgp0eXBlIEludm9pY2VSb3cgPSB7CiAgaWQ6IEhleDsKICBtZXJjaGFudDogQWRkcmVzczsKICBleHBlY3RlZFBheWVyOiBBZGRyZXNzOwogIHBhaWRCeTogQWRkcmVzczsKICBhbW91bnQ6IGJpZ2ludDsKICBleHBpcnk6IGJpZ2ludDsKICBwYWlkQXQ6IGJpZ2ludDsKICBtZW1vSGFzaDogSGV4OwogIHN0YXR1czogbnVtYmVyOwp9OwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gSW52b2ljZXNQYWdlKCkgewogIGNvbnN0IHsgbmV0IH0gPSB1c2VOZXR3b3JrKCk7CiAgY29uc3QgYXBwQ2hhaW4gPSBuZXQuY2hhaW47CiAgY29uc3QgaW52b2ljZVBheUFkZHJlc3MgPSBuZXQuaW52b2ljZVBheTsKICBjb25zdCBkZXBsb3lCbG9jayA9IG5ldC5kZXBsb3lCbG9jazsKICBjb25zdCBjb25maWcgPSB1c2VDb25maWcoKTsKICBjb25zdCBjbGllbnQgPSB1c2VQdWJsaWNDbGllbnQoeyBjaGFpbklkOiBhcHBDaGFpbi5pZCB9KSBhcyBQdWJsaWNDbGllbnQgfCB1bmRlZmluZWQ7CiAgY29uc3QgeyBhZGRyZXNzLCBpc0Nvbm5lY3RlZCwgY2hhaW5JZCB9ID0gdXNlQWNjb3VudCgpOwogIGNvbnN0IG9uQ2hhaW4gPSBpc0Nvbm5lY3RlZCAmJiBjaGFpbklkID09PSBhcHBDaGFpbi5pZDsKICBjb25zdCB0b2tlbiA9IHVzZVRva2VuKCk7CgogIC8vIC0tLS0gY3JlYXRlIGZvcm0gLS0tLQogIGNvbnN0IFthbW91bnRUZXh0LCBzZXRBbW91bnRUZXh0XSA9IHVzZVN0YXRlKCIiKTsKICBjb25zdCBbaG91cnNUZXh0LCBzZXRIb3Vyc1RleHRdID0gdXNlU3RhdGUoIjcyIik7CiAgY29uc3QgW3BheWVyVGV4dCwgc2V0UGF5ZXJUZXh0XSA9IHVzZVN0YXRlKCIiKTsKICBjb25zdCBbbWVtbywgc2V0TWVtb10gPSB1c2VTdGF0ZSgiIik7CiAgY29uc3QgW2NyZWF0aW5nLCBzZXRDcmVhdGluZ10gPSB1c2VTdGF0ZShmYWxzZSk7CiAgY29uc3QgW2NyZWF0ZUVycm9yLCBzZXRDcmVhdGVFcnJvcl0gPSB1c2VTdGF0ZTxzdHJpbmcgfCBudWxsPihudWxsKTsKICBjb25zdCBbY3JlYXRlZElkLCBzZXRDcmVhdGVkSWRdID0gdXNlU3RhdGU8SGV4IHwgbnVsbD4obnVsbCk7CiAgY29uc3QgW2NvcGllZCwgc2V0Q29waWVkXSA9IHVzZVN0YXRlKGZhbHNlKTsKCiAgLy8gLS0tLSBsaXN0IGFjdGlvbnMgLS0tLQogIGNvbnN0IFtidXN5SWQsIHNldEJ1c3lJZF0gPSB1c2VTdGF0ZTxIZXggfCBudWxsPihudWxsKTsKICBjb25zdCBbYWN0aW9uRXJyb3IsIHNldEFjdGlvbkVycm9yXSA9IHVzZVN0YXRlPHN0cmluZyB8IG51bGw+KG51bGwpOwoKICBjb25zdCBtaW5lID0gdXNlUXVlcnkoewogICAgcXVlcnlLZXk6IFsibXktaW52b2ljZXMiLCBhcHBDaGFpbi5pZCwgaW52b2ljZVBheUFkZHJlc3MsIGFkZHJlc3NdLAogICAgZW5hYmxlZDogQm9vbGVhbihjbGllbnQgJiYgaW52b2ljZVBheUFkZHJlc3MgJiYgYWRkcmVzcyksCiAgICBxdWVyeUZuOiBhc3luYyAoKSA9PiB7CiAgICAgIGNvbnN0IGNyZWF0ZWQgPSBhd2FpdCBnZXRMb2dzQ2h1bmtlZChjbGllbnQhLCB7CiAgICAgICAgYWRkcmVzczogaW52b2ljZVBheUFkZHJlc3MhLAogICAgICAgIGV2ZW50OiBnZXRBYmlJdGVtKHsgYWJpOiBpbnZvaWNlUGF5QWJpLCBuYW1lOiAiSW52b2ljZUNyZWF0ZWQiIH0pLAogICAgICAgIGFyZ3M6IHsgbWVyY2hhbnQ6IGFkZHJlc3MhIH0sCiAgICAgICAgZnJvbUJsb2NrOiBkZXBsb3lCbG9jayA/PyAwbiwKICAgICAgfSk7CiAgICAgIGNvbnN0IGlkcyA9IFsuLi5jcmVhdGVkXS5yZXZlcnNlKCkubWFwKChsKSA9PiBsLmFyZ3MuaW52b2ljZUlkISk7CiAgICAgIGNvbnN0IHJvd3MgPSBhd2FpdCBQcm9taXNlLmFsbCgKICAgICAgICBpZHMubWFwKGFzeW5jIChpZCk6IFByb21pc2U8SW52b2ljZVJvdz4gPT4gewogICAgICAgICAgY29uc3QgaW52ID0gYXdhaXQgcmVhZENvbnRyYWN0KGNvbmZpZywgewogICAgICAgICAgICBhZGRyZXNzOiBpbnZvaWNlUGF5QWRkcmVzcyEsCiAgICAgICAgICAgIGFiaTogaW52b2ljZVBheUFiaSwKICAgICAgICAgICAgZnVuY3Rpb25OYW1lOiAiaW52b2ljZU9mIiwKICAgICAgICAgICAgYXJnczogW2lkXSwKICAgICAgICAgICAgY2hhaW5JZDogYXBwQ2hhaW4uaWQsCiAgICAgICAgICB9KTsKICAgICAgICAgIHJldHVybiB7IGlkLCAuLi5pbnYgfTsKICAgICAgICB9KSwKICAgICAgKTsKICAgICAgcmV0dXJuIHJvd3M7CiAgICB9LAogIH0pOwoKICBhc3luYyBmdW5jdGlvbiBvbkNyZWF0ZSgpIHsKICAgIGlmICghYWRkcmVzcyB8fCAhaW52b2ljZVBheUFkZHJlc3MpIHJldHVybjsKICAgIHNldENyZWF0ZUVycm9yKG51bGwpOwogICAgc2V0Q3JlYXRlZElkKG51bGwpOwogICAgc2V0Q29waWVkKGZhbHNlKTsKICAgIHNldENyZWF0aW5nKHRydWUpOwogICAgdHJ5IHsKICAgICAgY29uc3QgYW1vdW50ID0gcGFyc2VVbml0cyhhbW91bnRUZXh0LnRyaW0oKSwgdG9rZW4uZGVjaW1hbHMpOwogICAgICBpZiAoYW1vdW50IDw9IDBuKSB0aHJvdyBuZXcgRXJyb3IoIlRoZSBhbW91bnQgbXVzdCBiZSBtb3JlIHRoYW4gemVyby4iKTsKICAgICAgY29uc3QgaG91cnMgPSBOdW1iZXIoaG91cnNUZXh0KTsKICAgICAgaWYgKCFOdW1iZXIuaXNGaW5pdGUoaG91cnMpIHx8IGhvdXJzIDw9IDApIHRocm93IG5ldyBFcnJvcigiRXhwaXJ5IG11c3QgYmUgYSBwb3NpdGl2ZSBudW1iZXIgb2YgaG91cnMuIik7CiAgICAgIGNvbnN0IHBheWVyVHJpbW1lZCA9IHBheWVyVGV4dC50cmltKCk7CiAgICAgIGlmIChwYXllclRyaW1tZWQgJiYgIWlzQWRkcmVzcyhwYXllclRyaW1tZWQpKSB0aHJvdyBuZXcgRXJyb3IoIlRoZSBleHBlY3RlZCBwYXllciBpc24ndCBhIHZhbGlkIGFkZHJlc3MuIik7CiAgICAgIGNvbnN0IGV4cGVjdGVkUGF5ZXIgPSAocGF5ZXJUcmltbWVkIHx8IFpFUk8pIGFzIEFkZHJlc3M7CiAgICAgIGNvbnN0IGV4cGlyeSA9IEJpZ0ludChNYXRoLmZsb29yKERhdGUubm93KCkgLyAxMDAwKSArIE1hdGguZmxvb3IoaG91cnMgKiAzNjAwKSk7CiAgICAgIGNvbnN0IG1lbW9IYXNoID0gbWVtby50cmltKCkgPyBrZWNjYWsyNTYodG9IZXgobWVtby50cmltKCkpKSA6IHplcm9IYXNoOwogICAgICAvLyBVbmd1ZXNzYWJsZSBpZDogYSByYW5kb20gcmVmLCBuYW1lc3BhY2VkIHRvIHRoaXMgbWVyY2hhbnQgb24tY2hhaW4uCiAgICAgIGNvbnN0IHJlZiA9IG5ld09yZGVySWQoKTsKICAgICAgY29uc3QgaW52b2ljZUlkID0gYXdhaXQgcmVhZENvbnRyYWN0KGNvbmZpZywgewogICAgICAgIGFkZHJlc3M6IGludm9pY2VQYXlBZGRyZXNzLAogICAgICAgIGFiaTogaW52b2ljZVBheUFiaSwKICAgICAgICBmdW5jdGlvbk5hbWU6ICJpbnZvaWNlSWRGb3IiLAogICAgICAgIGFyZ3M6IFthZGRyZXNzLCByZWZdLAogICAgICAgIGNoYWluSWQ6IGFwcENoYWluLmlkLAogICAgICB9KTsKICAgICAgY29uc3QgeyByZXF1ZXN0IH0gPSBhd2FpdCBzaW11bGF0ZUNvbnRyYWN0KGNvbmZpZywgewogICAgICAgIGFjY291bnQ6IGFkZHJlc3MsCiAgICAgICAgYWRkcmVzczogaW52b2ljZVBheUFkZHJlc3MsCiAgICAgICAgYWJpOiBpbnZvaWNlUGF5QWJpLAogICAgICAgIGZ1bmN0aW9uTmFtZTogImNyZWF0ZUludm9pY2UiLAogICAgICAgIGFyZ3M6IFtpbnZvaWNlSWQsIGFtb3VudCwgZXhwaXJ5LCBleHBlY3RlZFBheWVyLCBtZW1vSGFzaF0sCiAgICAgICAgY2hhaW5JZDogYXBwQ2hhaW4uaWQsCiAgICAgIH0pOwogICAgICBjb25zdCBoYXNoID0gYXdhaXQgd3JpdGVDb250cmFjdChjb25maWcsIHJlcXVlc3QpOwogICAgICBjb25zdCByZWNlaXB0ID0gYXdhaXQgd2FpdEZvclRyYW5zYWN0aW9uUmVjZWlwdChjb25maWcsIHsgaGFzaCwgY2hhaW5JZDogYXBwQ2hhaW4uaWQgfSk7CiAgICAgIGlmIChyZWNlaXB0LnN0YXR1cyAhPT0gInN1Y2Nlc3MiKSB0aHJvdyBuZXcgRXJyb3IoIlRoZSB0cmFuc2FjdGlvbiByZXZlcnRlZCBvbiBjaGFpbi4gVGhlIGludm9pY2Ugd2Fzbid0IGNyZWF0ZWQuIik7CiAgICAgIHNldENyZWF0ZWRJZChpbnZvaWNlSWQpOwogICAgICBtaW5lLnJlZmV0Y2goKTsKICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgc2V0Q3JlYXRlRXJyb3IoZXhwbGFpbihlKSk7CiAgICB9IGZpbmFsbHkgewogICAgICBzZXRDcmVhdGluZyhmYWxzZSk7CiAgICB9CiAgfQoKICBhc3luYyBmdW5jdGlvbiBjb3B5TGluayhpZDogSGV4KSB7CiAgICB0cnkgewogICAgICBhd2FpdCBuYXZpZ2F0b3IuY2xpcGJvYXJkLndyaXRlVGV4dChgJHt3aW5kb3cubG9jYXRpb24ub3JpZ2lufS9wYXkvJHtpZH1gKTsKICAgICAgc2V0Q29waWVkKHRydWUpOwogICAgfSBjYXRjaCB7CiAgICAgIHNldENvcGllZChmYWxzZSk7CiAgICB9CiAgfQoKICBhc3luYyBmdW5jdGlvbiBvbkNhbmNlbChyb3c6IEludm9pY2VSb3cpIHsKICAgIGlmICghYWRkcmVzcyB8fCAhaW52b2ljZVBheUFkZHJlc3MpIHJldHVybjsKICAgIHNldEFjdGlvbkVycm9yKG51bGwpOwogICAgc2V0QnVzeUlkKHJvdy5pZCk7CiAgICB0cnkgewogICAgICBjb25zdCB7IHJlcXVlc3QgfSA9IGF3YWl0IHNpbXVsYXRlQ29udHJhY3QoY29uZmlnLCB7CiAgICAgICAgYWNjb3VudDogYWRkcmVzcywKICAgICAgICBhZGRyZXNzOiBpbnZvaWNlUGF5QWRkcmVzcywKICAgICAgICBhYmk6IGludm9pY2VQYXlBYmksCiAgICAgICAgZnVuY3Rpb25OYW1lOiAiY2FuY2VsSW52b2ljZSIsCiAgICAgICAgYXJnczogW3Jvdy5pZF0sCiAgICAgICAgY2hhaW5JZDogYXBwQ2hhaW4uaWQsCiAgICAgIH0pOwogICAgICBjb25zdCBoYXNoID0gYXdhaXQgd3JpdGVDb250cmFjdChjb25maWcsIHJlcXVlc3QpOwogICAgICBjb25zdCByZWNlaXB0ID0gYXdhaXQgd2FpdEZvclRyYW5zYWN0aW9uUmVjZWlwdChjb25maWcsIHsgaGFzaCwgY2hhaW5JZDogYXBwQ2hhaW4uaWQgfSk7CiAgICAgIGlmIChyZWNlaXB0LnN0YXR1cyAhPT0gInN1Y2Nlc3MiKSB0aHJvdyBuZXcgRXJyb3IoIlRoZSB0cmFuc2FjdGlvbiByZXZlcnRlZCBvbiBjaGFpbi4gTm90aGluZyBjaGFuZ2VkLiIpOwogICAgICBtaW5lLnJlZmV0Y2goKTsKICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgc2V0QWN0aW9uRXJyb3IoZXhwbGFpbihlKSk7CiAgICB9IGZpbmFsbHkgewogICAgICBzZXRCdXN5SWQobnVsbCk7CiAgICB9CiAgfQoKICBhc3luYyBmdW5jdGlvbiBvblJlZnVuZChyb3c6IEludm9pY2VSb3cpIHsKICAgIGlmICghYWRkcmVzcyB8fCAhaW52b2ljZVBheUFkZHJlc3MgfHwgIXRva2VuLmFkZHJlc3MpIHJldHVybjsKICAgIHNldEFjdGlvbkVycm9yKG51bGwpOwogICAgc2V0QnVzeUlkKHJvdy5pZCk7CiAgICB0cnkgewogICAgICAvLyBUaGUgY29udHJhY3QgcHVsbHMgdGhlIHJlZnVuZCBmcm9tIHRoZSBtZXJjaGFudCwgc28gYXBwcm92ZSB0aGUgZXhhY3QgYW1vdW50IGZpcnN0LgogICAgICBjb25zdCBhbGxvd2FuY2UgPSBhd2FpdCByZWFkQ29udHJhY3QoY29uZmlnLCB7CiAgICAgICAgYWRkcmVzczogdG9rZW4uYWRkcmVzcywKICAgICAgICBhYmk6IGVyYzIwQWJpLAogICAgICAgIGZ1bmN0aW9uTmFtZTogImFsbG93YW5jZSIsCiAgICAgICAgYXJnczogW2FkZHJlc3MsIGludm9pY2VQYXlBZGRyZXNzXSwKICAgICAgICBjaGFpbklkOiBhcHBDaGFpbi5pZCwKICAgICAgfSk7CiAgICAgIGlmIChhbGxvd2FuY2UgPCByb3cuYW1vdW50KSB7CiAgICAgICAgY29uc3QgYXBwcm92ZUhhc2ggPSBhd2FpdCB3cml0ZUNvbnRyYWN0KGNvbmZpZywgewogICAgICAgICAgYWRkcmVzczogdG9rZW4uYWRkcmVzcywKICAgICAgICAgIGFiaTogZXJjMjBBYmksCiAgICAgICAgICBmdW5jdGlvbk5hbWU6ICJhcHByb3ZlIiwKICAgICAgICAgIGFyZ3M6IFtpbnZvaWNlUGF5QWRkcmVzcywgcm93LmFtb3VudF0sCiAgICAgICAgICBjaGFpbklkOiBhcHBDaGFpbi5pZCwKICAgICAgICB9KTsKICAgICAgICBhd2FpdCB3YWl0Rm9yVHJhbnNhY3Rpb25SZWNlaXB0KGNvbmZpZywgeyBoYXNoOiBhcHByb3ZlSGFzaCwgY2hhaW5JZDogYXBwQ2hhaW4uaWQgfSk7CiAgICAgIH0KICAgICAgY29uc3QgeyByZXF1ZXN0IH0gPSBhd2FpdCBzaW11bGF0ZUNvbnRyYWN0KGNvbmZpZywgewogICAgICAgIGFjY291bnQ6IGFkZHJlc3MsCiAgICAgICAgYWRkcmVzczogaW52b2ljZVBheUFkZHJlc3MsCiAgICAgICAgYWJpOiBpbnZvaWNlUGF5QWJpLAogICAgICAgIGZ1bmN0aW9uTmFtZTogInJlZnVuZEludm9pY2UiLAogICAgICAgIGFyZ3M6IFtyb3cuaWRdLAogICAgICAgIGNoYWluSWQ6IGFwcENoYWluLmlkLAogICAgICB9KTsKICAgICAgY29uc3QgaGFzaCA9IGF3YWl0IHdyaXRlQ29udHJhY3QoY29uZmlnLCByZXF1ZXN0KTsKICAgICAgY29uc3QgcmVjZWlwdCA9IGF3YWl0IHdhaXRGb3JUcmFuc2FjdGlvblJlY2VpcHQoY29uZmlnLCB7IGhhc2gsIGNoYWluSWQ6IGFwcENoYWluLmlkIH0pOwogICAgICBpZiAocmVjZWlwdC5zdGF0dXMgIT09ICJzdWNjZXNzIikgdGhyb3cgbmV3IEVycm9yKCJUaGUgdHJhbnNhY3Rpb24gcmV2ZXJ0ZWQgb24gY2hhaW4uIE5vdGhpbmcgd2FzIHJlZnVuZGVkLiIpOwogICAgICBtaW5lLnJlZmV0Y2goKTsKICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgc2V0QWN0aW9uRXJyb3IoZXhwbGFpbihlKSk7CiAgICB9IGZpbmFsbHkgewogICAgICBzZXRCdXN5SWQobnVsbCk7CiAgICB9CiAgfQoKICBjb25zdCBmb3JtVmFsaWQgPSBhbW91bnRUZXh0LnRyaW0oKSAhPT0gIiIgJiYgaG91cnNUZXh0LnRyaW0oKSAhPT0gIiIgJiYgb25DaGFpbiAmJiBCb29sZWFuKGludm9pY2VQYXlBZGRyZXNzKTsKCiAgcmV0dXJuICgKICAgIDxtYWluIGNsYXNzTmFtZT0ic2hlbGwiPgogICAgICA8ZGl2IGNsYXNzTmFtZT0icGFnZS1oZWFkIj4KICAgICAgICA8ZGl2PgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJleWVicm93Ij5FeGFjdFBheSDCtyBNZXJjaGFudDwvcD4KICAgICAgICAgIDxoMT5Zb3VyIGludm9pY2VzPC9oMT4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibGVkZSI+CiAgICAgICAgICAgIElzc3VlIGFuIGludm9pY2Ugd2l0aCB0aGUgYW1vdW50IGZpeGVkIG9uLWNoYWluLCBzaGFyZSB0aGUgbGluaywgYW5kIGdldCBwYWlkIGV4YWN0bHkgdGhhdCBhbW91bnQg4oCUIGluIFN0YW5kYXJkIG9yCiAgICAgICAgICAgIEdhc2xlc3MgbW9kZS4KICAgICAgICAgIDwvcD4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CgogICAgICB7IWludm9pY2VQYXlBZGRyZXNzID8gKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJjYXJkIGVtcHR5Ij4KICAgICAgICAgIE5vIEludm9pY2VQYXkgY29uZmlndXJlZCBmb3Ige25ldC5sYWJlbH0uIFNldCA8Y29kZT5ORVhUX1BVQkxJQ19JTlZPSUNFUEFZX3tuZXQua2V5LnRvVXBwZXJDYXNlKCl9PC9jb2RlPiBpbnsiICJ9CiAgICAgICAgICA8Y29kZT53ZWIvLmVudi5sb2NhbDwvY29kZT4uCiAgICAgICAgPC9kaXY+CiAgICAgICkgOiAoCiAgICAgICAgPD4KICAgICAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0iY2FyZCBzdGFjayIgYXJpYS1sYWJlbD0iQ3JlYXRlIGludm9pY2UiPgogICAgICAgICAgICA8aDI+Q3JlYXRlIGFuIGludm9pY2U8L2gyPgogICAgICAgICAgICB7IWlzQ29ubmVjdGVkID8gKAogICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0iZW1wdHkiPkNvbm5lY3QgYSB3YWxsZXQgdG8gY3JlYXRlIGludm9pY2VzLiBUaGUgY29ubmVjdGVkIGFkZHJlc3MgYmVjb21lcyB0aGUgbWVyY2hhbnQuPC9wPgogICAgICAgICAgICApIDogIW9uQ2hhaW4gPyAoCiAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJlbXB0eSI+U3dpdGNoIHlvdXIgd2FsbGV0IHRvIHthcHBDaGFpbi5uYW1lfSAoe2FwcENoYWluLmlkfSkgdG8gY3JlYXRlIGludm9pY2VzIG9uIHRoaXMgbmV0d29yay48L3A+CiAgICAgICAgICAgICkgOiAoCiAgICAgICAgICAgICAgPD4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkLTIiPgogICAgICAgICAgICAgICAgICA8bGFiZWwgY2xhc3NOYW1lPSJzdGFjayIgc3R5bGU9e3sgZ2FwOiA2IH19PgogICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZmluZSI+QW1vdW50ICh7dG9rZW4uc3ltYm9sfSk8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgPGlucHV0CiAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImZpZWxkIgogICAgICAgICAgICAgICAgICAgICAgaW5wdXRNb2RlPSJkZWNpbWFsIgogICAgICAgICAgICAgICAgICAgICAgcGxhY2Vob2xkZXI9IjEuMDUiCiAgICAgICAgICAgICAgICAgICAgICB2YWx1ZT17YW1vdW50VGV4dH0KICAgICAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gc2V0QW1vdW50VGV4dChlLnRhcmdldC52YWx1ZSl9CiAgICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgICAgPC9sYWJlbD4KICAgICAgICAgICAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT0ic3RhY2siIHN0eWxlPXt7IGdhcDogNiB9fT4KICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZpbmUiPkV4cGlyZXMgaW4gKGhvdXJzKTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iZmllbGQiCiAgICAgICAgICAgICAgICAgICAgICBpbnB1dE1vZGU9Im51bWVyaWMiCiAgICAgICAgICAgICAgICAgICAgICBwbGFjZWhvbGRlcj0iNzIiCiAgICAgICAgICAgICAgICAgICAgICB2YWx1ZT17aG91cnNUZXh0fQogICAgICAgICAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRIb3Vyc1RleHQoZS50YXJnZXQudmFsdWUpfQogICAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICAgIDwvbGFiZWw+CiAgICAgICAgICAgICAgICAgIDxsYWJlbCBjbGFzc05hbWU9InN0YWNrIiBzdHlsZT17eyBnYXA6IDYgfX0+CiAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmaW5lIj5FeHBlY3RlZCBwYXllciAob3B0aW9uYWwg4oCUIGVtcHR5IG1lYW5zIGFueW9uZSBjYW4gcGF5KTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iZmllbGQiCiAgICAgICAgICAgICAgICAgICAgICBwbGFjZWhvbGRlcj0iMHjigKYiCiAgICAgICAgICAgICAgICAgICAgICB2YWx1ZT17cGF5ZXJUZXh0fQogICAgICAgICAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRQYXllclRleHQoZS50YXJnZXQudmFsdWUpfQogICAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICAgIDwvbGFiZWw+CiAgICAgICAgICAgICAgICAgIDxsYWJlbCBjbGFzc05hbWU9InN0YWNrIiBzdHlsZT17eyBnYXA6IDYgfX0+CiAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmaW5lIj5NZW1vIChvcHRpb25hbCDigJQgb25seSBpdHMgaGFzaCBnb2VzIG9uLWNoYWluKTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iZmllbGQiCiAgICAgICAgICAgICAgICAgICAgICBwbGFjZWhvbGRlcj0iQ29uc3VsdGluZywgT2N0b2JlciIKICAgICAgICAgICAgICAgICAgICAgIHZhbHVlPXttZW1vfQogICAgICAgICAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRNZW1vKGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7IGZvbnRGYW1pbHk6ICJ2YXIoLS1mb250LWJvZHkpIiB9fQogICAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICAgIDwvbGFiZWw+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIHtjcmVhdGVFcnJvciAmJiAoCiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJub3RpY2UgYmFkIiByb2xlPSJhbGVydCI+CiAgICAgICAgICAgICAgICAgICAgPHN0cm9uZz5JbnZvaWNlIHdhc24mYXBvczt0IGNyZWF0ZWQ8L3N0cm9uZz4KICAgICAgICAgICAgICAgICAgICA8c3Bhbj57Y3JlYXRlRXJyb3J9PC9zcGFuPgogICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICB7Y3JlYXRlZElkICYmICgKICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im5vdGljZSBnb29kIiByb2xlPSJzdGF0dXMiPgogICAgICAgICAgICAgICAgICAgIDxzdHJvbmc+SW52b2ljZSB7b3JkZXJMYWJlbChjcmVhdGVkSWQpfSBjcmVhdGVkPC9zdHJvbmc+CiAgICAgICAgICAgICAgICAgICAgPHNwYW4+CiAgICAgICAgICAgICAgICAgICAgICBTaGFyZSB0aGlzIGxpbmsgd2l0aCB5b3VyIHBheWVyOnsiICJ9CiAgICAgICAgICAgICAgICAgICAgICA8TGluayBocmVmPXtgL3BheS8ke2NyZWF0ZWRJZH1gfT4KICAgICAgICAgICAgICAgICAgICAgICAge3R5cGVvZiB3aW5kb3cgIT09ICJ1bmRlZmluZWQiID8gd2luZG93LmxvY2F0aW9uLm9yaWdpbiA6ICIifS9wYXkve2NyZWF0ZWRJZH0KICAgICAgICAgICAgICAgICAgICAgIDwvTGluaz4KICAgICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgPHNwYW4+CiAgICAgICAgICAgICAgICAgICAgICA8YnV0dG9uIHR5cGU9ImJ1dHRvbiIgY2xhc3NOYW1lPSJidG4gc21hbGwiIG9uQ2xpY2s9eygpID0+IGNvcHlMaW5rKGNyZWF0ZWRJZCl9PgogICAgICAgICAgICAgICAgICAgICAgICB7Y29waWVkID8gIkNvcGllZCIgOiAiQ29weSBsaW5rIn0KICAgICAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgICAgPGJ1dHRvbiB0eXBlPSJidXR0b24iIGNsYXNzTmFtZT0iYnRuIGJpZyIgZGlzYWJsZWQ9eyFmb3JtVmFsaWQgfHwgY3JlYXRpbmd9IG9uQ2xpY2s9e29uQ3JlYXRlfT4KICAgICAgICAgICAgICAgICAgICB7Y3JlYXRpbmcgPyAiQ3JlYXRpbmfigKYgY2hlY2sgeW91ciB3YWxsZXQiIDogIkNyZWF0ZSBpbnZvaWNlIn0KICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8Lz4KICAgICAgICAgICAgKX0KICAgICAgICAgIDwvc2VjdGlvbj4KCiAgICAgICAgICA8c2VjdGlvbiBjbGFzc05hbWU9ImNhcmQgZmx1c2giIGFyaWEtbGFiZWw9Ik15IGludm9pY2VzIj4KICAgICAgICAgICAgPGRpdiBzdHlsZT17eyBwYWRkaW5nOiAiMTZweCAyMHB4IiwgYm9yZGVyQm90dG9tOiAiMXB4IHNvbGlkIHZhcigtLWxpbmUpIiB9fT4KICAgICAgICAgICAgICA8aDI+SXNzdWVkIGJ5IHlvdTwvaDI+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICB7YWN0aW9uRXJyb3IgJiYgKAogICAgICAgICAgICAgIDxkaXYgc3R5bGU9e3sgcGFkZGluZzogIjE2cHggMjBweCIgfX0+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibm90aWNlIGJhZCIgcm9sZT0iYWxlcnQiPgogICAgICAgICAgICAgICAgICA8c3Ryb25nPkFjdGlvbiBkaWRuJmFwb3M7dCBnbyB0aHJvdWdoPC9zdHJvbmc+CiAgICAgICAgICAgICAgICAgIDxzcGFuPnthY3Rpb25FcnJvcn08L3NwYW4+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgKX0KICAgICAgICAgICAgeyFhZGRyZXNzID8gKAogICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0iZW1wdHkiPkNvbm5lY3QgYSB3YWxsZXQgdG8gc2VlIHlvdXIgaW52b2ljZXMuPC9wPgogICAgICAgICAgICApIDogbWluZS5pc0xvYWRpbmcgPyAoCiAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJlbXB0eSI+U2Nhbm5pbmcgSW52b2ljZUNyZWF0ZWQgZXZlbnRz4oCmPC9wPgogICAgICAgICAgICApIDogbWluZS5pc0Vycm9yID8gKAogICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0iZW1wdHkiPgogICAgICAgICAgICAgICAgQ291bGRuJmFwb3M7dCByZWFkIGV2ZW50czogeyhtaW5lLmVycm9yIGFzIEVycm9yKS5tZXNzYWdlfXsiICJ9CiAgICAgICAgICAgICAgICA8YnV0dG9uIHR5cGU9ImJ1dHRvbiIgY2xhc3NOYW1lPSJidG4gc21hbGwiIG9uQ2xpY2s9eygpID0+IG1pbmUucmVmZXRjaCgpfT4KICAgICAgICAgICAgICAgICAgVHJ5IGFnYWluCiAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICkgOiAhbWluZS5kYXRhIHx8IG1pbmUuZGF0YS5sZW5ndGggPT09IDAgPyAoCiAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJlbXB0eSI+Tm8gaW52b2ljZXMgeWV0IG9uIHtuZXQubGFiZWx9LiBDcmVhdGUgeW91ciBmaXJzdCBvbmUgYWJvdmUuPC9wPgogICAgICAgICAgICApIDogKAogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0YWJsZS13cmFwIj4KICAgICAgICAgICAgICAgIDx0YWJsZSBjbGFzc05hbWU9ImRhdGEiPgogICAgICAgICAgICAgICAgICA8dGhlYWQ+CiAgICAgICAgICAgICAgICAgICAgPHRyPgogICAgICAgICAgICAgICAgICAgICAgPHRoPkludm9pY2U8L3RoPgogICAgICAgICAgICAgICAgICAgICAgPHRoPlN0YXR1czwvdGg+CiAgICAgICAgICAgICAgICAgICAgICA8dGggY2xhc3NOYW1lPSJyaWdodCI+QW1vdW50PC90aD4KICAgICAgICAgICAgICAgICAgICAgIDx0aD5FeHBpcmVzPC90aD4KICAgICAgICAgICAgICAgICAgICAgIDx0aD5QYXllcjwvdGg+CiAgICAgICAgICAgICAgICAgICAgICA8dGg+QWN0aW9uczwvdGg+CiAgICAgICAgICAgICAgICAgICAgPC90cj4KICAgICAgICAgICAgICAgICAgPC90aGVhZD4KICAgICAgICAgICAgICAgICAgPHRib2R5PgogICAgICAgICAgICAgICAgICAgIHttaW5lLmRhdGEubWFwKChyb3cpID0+IHsKICAgICAgICAgICAgICAgICAgICAgIGNvbnN0IGV4cGlyZWQgPSByb3cuc3RhdHVzID09PSAxICYmIEJpZ0ludChNYXRoLmZsb29yKERhdGUubm93KCkgLyAxMDAwKSkgPiByb3cuZXhwaXJ5OwogICAgICAgICAgICAgICAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgICAgICAgICAgICAgPHRyIGtleT17cm93LmlkfT4KICAgICAgICAgICAgICAgICAgICAgICAgICA8dGQgY2xhc3NOYW1lPSJtb25vIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxMaW5rIGhyZWY9e2AvcGF5LyR7cm93LmlkfWB9PntvcmRlckxhYmVsKHJvdy5pZCl9PC9MaW5rPgogICAgICAgICAgICAgICAgICAgICAgICAgIDwvdGQ+CiAgICAgICAgICAgICAgICAgICAgICAgICAgPHRkPntleHBpcmVkID8gIkV4cGlyZWQiIDogKFNUQVRVU19MQUJFTFtyb3cuc3RhdHVzXSA/PyByb3cuc3RhdHVzKX08L3RkPgogICAgICAgICAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9InJpZ2h0IG51bSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7Zm9ybWF0VW5pdHMocm93LmFtb3VudCwgdG9rZW4uZGVjaW1hbHMpfSB7dG9rZW4uc3ltYm9sfQogICAgICAgICAgICAgICAgICAgICAgICAgIDwvdGQ+CiAgICAgICAgICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzTmFtZT0ibnVtIj57bmV3IERhdGUoTnVtYmVyKHJvdy5leHBpcnkpICogMTAwMCkudG9Mb2NhbGVTdHJpbmcoKX08L3RkPgogICAgICAgICAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9Im1vbm8iPgogICAgICAgICAgICAgICAgICAgICAgICAgICAge3Jvdy5zdGF0dXMgPT09IDIgfHwgcm93LnN0YXR1cyA9PT0gNAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICA/IHNob3J0KHJvdy5wYWlkQnkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDogcm93LmV4cGVjdGVkUGF5ZXIgIT09IFpFUk8KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA/IHNob3J0KHJvdy5leHBlY3RlZFBheWVyKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDogImFueW9uZSJ9CiAgICAgICAgICAgICAgICAgICAgICAgICAgPC90ZD4KICAgICAgICAgICAgICAgICAgICAgICAgICA8dGQgc3R5bGU9e3sgZGlzcGxheTogImZsZXgiLCBnYXA6IDEwIH19PgogICAgICAgICAgICAgICAgICAgICAgICAgICAge3Jvdy5zdGF0dXMgPT09IDEgJiYgIWV4cGlyZWQgJiYgKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iYnRuIHNtYWxsIHNlY29uZGFyeSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBkaXNhYmxlZD17YnVzeUlkICE9PSBudWxsfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IG9uQ2FuY2VsKHJvdyl9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7YnVzeUlkID09PSByb3cuaWQgPyAiV29ya2luZ+KApiIgOiAiQ2FuY2VsIn0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICAgICAgICAgICAge3Jvdy5zdGF0dXMgPT09IDIgJiYgKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iYnRuIHNtYWxsIHNlY29uZGFyeSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBkaXNhYmxlZD17YnVzeUlkICE9PSBudWxsfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IG9uUmVmdW5kKHJvdyl9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7YnVzeUlkID09PSByb3cuaWQgPyAiV29ya2luZ+KApiIgOiAiUmVmdW5kIn0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgeyhyb3cuc3RhdHVzID09PSAyIHx8IHJvdy5zdGF0dXMgPT09IDQpICYmICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPExpbmsgaHJlZj17YC9yZWNlaXB0cy8ke3Jvdy5pZH0/Y2hhaW49JHthcHBDaGFpbi5pZH1gfT5SZWNlaXB0PC9MaW5rPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RkPgogICAgICAgICAgICAgICAgICAgICAgICA8L3RyPgogICAgICAgICAgICAgICAgICAgICAgKTsKICAgICAgICAgICAgICAgICAgICB9KX0KICAgICAgICAgICAgICAgICAgPC90Ym9keT4KICAgICAgICAgICAgICAgIDwvdGFibGU+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICl9CiAgICAgICAgICA8L3NlY3Rpb24+CiAgICAgICAgPC8+CiAgICAgICl9CiAgICA8L21haW4+CiAgKTsKfQo=
+"use client";
+
+import { erc20Abi, getLogsChunked, invoicePayAbi } from "@aevum-kit/aevum";
+import { useQuery } from "@tanstack/react-query";
+import Link from "next/link";
+import { useState } from "react";
+import { formatUnits, getAbiItem, isAddress, keccak256, parseUnits, toHex, zeroHash, type Address, type Hex, type PublicClient } from "viem";
+import { useAccount, useConfig, usePublicClient } from "wagmi";
+import { readContract, simulateContract, waitForTransactionReceipt, writeContract } from "wagmi/actions";
+import { useToken } from "@/components/useToken";
+import { useNetwork } from "@/lib/network";
+import { explain } from "@/lib/errors";
+import { newOrderId, orderLabel, short } from "@/lib/order";
+
+const ZERO = "0x0000000000000000000000000000000000000000";
+const STATUS_LABEL: Record<number, string> = { 1: "Open", 2: "Paid", 3: "Cancelled", 4: "Refunded" };
+
+type InvoiceRow = {
+  id: Hex;
+  merchant: Address;
+  expectedPayer: Address;
+  paidBy: Address;
+  amount: bigint;
+  expiry: bigint;
+  paidAt: bigint;
+  memoHash: Hex;
+  status: number;
+};
+
+export default function InvoicesPage() {
+  const { net } = useNetwork();
+  const appChain = net.chain;
+  const invoicePayAddress = net.invoicePay;
+  const deployBlock = net.deployBlock;
+  const config = useConfig();
+  const client = usePublicClient({ chainId: appChain.id }) as PublicClient | undefined;
+  const { address, isConnected, chainId } = useAccount();
+  const onChain = isConnected && chainId === appChain.id;
+  const token = useToken();
+
+  // ---- create form ----
+  const [amountText, setAmountText] = useState("");
+  const [hoursText, setHoursText] = useState("72");
+  const [payerText, setPayerText] = useState("");
+  const [memo, setMemo] = useState("");
+  const [creating, setCreating] = useState(false);
+  const [createError, setCreateError] = useState<string | null>(null);
+  const [createdId, setCreatedId] = useState<Hex | null>(null);
+  const [copied, setCopied] = useState(false);
+
+  // ---- list actions ----
+  const [busyId, setBusyId] = useState<Hex | null>(null);
+  const [actionError, setActionError] = useState<string | null>(null);
+
+  const mine = useQuery({
+    queryKey: ["my-invoices", appChain.id, invoicePayAddress, address],
+    enabled: Boolean(client && invoicePayAddress && address),
+    queryFn: async () => {
+      const created = await getLogsChunked(client!, {
+        address: invoicePayAddress!,
+        event: getAbiItem({ abi: invoicePayAbi, name: "InvoiceCreated" }),
+        args: { merchant: address! },
+        fromBlock: deployBlock ?? 0n,
+      });
+      const ids = [...created].reverse().map((l) => l.args.invoiceId!);
+      const rows = await Promise.all(
+        ids.map(async (id): Promise<InvoiceRow> => {
+          const inv = await readContract(config, {
+            address: invoicePayAddress!,
+            abi: invoicePayAbi,
+            functionName: "invoiceOf",
+            args: [id],
+            chainId: appChain.id,
+          });
+          return { id, ...inv };
+        }),
+      );
+      return rows;
+    },
+  });
+
+  async function onCreate() {
+    if (!address || !invoicePayAddress) return;
+    setCreateError(null);
+    setCreatedId(null);
+    setCopied(false);
+    setCreating(true);
+    try {
+      const amount = parseUnits(amountText.trim(), token.decimals);
+      if (amount <= 0n) throw new Error("The amount must be more than zero.");
+      const hours = Number(hoursText);
+      if (!Number.isFinite(hours) || hours <= 0) throw new Error("Expiry must be a positive number of hours.");
+      const payerTrimmed = payerText.trim();
+      if (payerTrimmed && !isAddress(payerTrimmed)) throw new Error("The expected payer isn't a valid address.");
+      const expectedPayer = (payerTrimmed || ZERO) as Address;
+      const expiry = BigInt(Math.floor(Date.now() / 1000) + Math.floor(hours * 3600));
+      const memoHash = memo.trim() ? keccak256(toHex(memo.trim())) : zeroHash;
+      // Unguessable id: a random ref, namespaced to this merchant on-chain.
+      const ref = newOrderId();
+      const invoiceId = await readContract(config, {
+        address: invoicePayAddress,
+        abi: invoicePayAbi,
+        functionName: "invoiceIdFor",
+        args: [address, ref],
+        chainId: appChain.id,
+      });
+      const { request } = await simulateContract(config, {
+        account: address,
+        address: invoicePayAddress,
+        abi: invoicePayAbi,
+        functionName: "createInvoice",
+        args: [invoiceId, amount, expiry, expectedPayer, memoHash],
+        chainId: appChain.id,
+      });
+      const hash = await writeContract(config, request);
+      const receipt = await waitForTransactionReceipt(config, { hash, chainId: appChain.id });
+      if (receipt.status !== "success") throw new Error("The transaction reverted on chain. The invoice wasn't created.");
+      setCreatedId(invoiceId);
+      mine.refetch();
+    } catch (e) {
+      setCreateError(explain(e));
+    } finally {
+      setCreating(false);
+    }
+  }
+
+  async function copyLink(id: Hex) {
+    try {
+      await navigator.clipboard.writeText(`${window.location.origin}/pay/${id}`);
+      setCopied(true);
+    } catch {
+      setCopied(false);
+    }
+  }
+
+  async function onCancel(row: InvoiceRow) {
+    if (!address || !invoicePayAddress) return;
+    setActionError(null);
+    setBusyId(row.id);
+    try {
+      const { request } = await simulateContract(config, {
+        account: address,
+        address: invoicePayAddress,
+        abi: invoicePayAbi,
+        functionName: "cancelInvoice",
+        args: [row.id],
+        chainId: appChain.id,
+      });
+      const hash = await writeContract(config, request);
+      const receipt = await waitForTransactionReceipt(config, { hash, chainId: appChain.id });
+      if (receipt.status !== "success") throw new Error("The transaction reverted on chain. Nothing changed.");
+      mine.refetch();
+    } catch (e) {
+      setActionError(explain(e));
+    } finally {
+      setBusyId(null);
+    }
+  }
+
+  async function onRefund(row: InvoiceRow) {
+    if (!address || !invoicePayAddress || !token.address) return;
+    setActionError(null);
+    setBusyId(row.id);
+    try {
+      // The contract pulls the refund from the merchant, so approve the exact amount first.
+      const allowance = await readContract(config, {
+        address: token.address,
+        abi: erc20Abi,
+        functionName: "allowance",
+        args: [address, invoicePayAddress],
+        chainId: appChain.id,
+      });
+      if (allowance < row.amount) {
+        const approveHash = await writeContract(config, {
+          address: token.address,
+          abi: erc20Abi,
+          functionName: "approve",
+          args: [invoicePayAddress, row.amount],
+          chainId: appChain.id,
+        });
+        await waitForTransactionReceipt(config, { hash: approveHash, chainId: appChain.id });
+      }
+      const { request } = await simulateContract(config, {
+        account: address,
+        address: invoicePayAddress,
+        abi: invoicePayAbi,
+        functionName: "refundInvoice",
+        args: [row.id],
+        chainId: appChain.id,
+      });
+      const hash = await writeContract(config, request);
+      const receipt = await waitForTransactionReceipt(config, { hash, chainId: appChain.id });
+      if (receipt.status !== "success") throw new Error("The transaction reverted on chain. Nothing was refunded.");
+      mine.refetch();
+    } catch (e) {
+      setActionError(explain(e));
+    } finally {
+      setBusyId(null);
+    }
+  }
+
+  const formValid = amountText.trim() !== "" && hoursText.trim() !== "" && onChain && Boolean(invoicePayAddress);
+
+  return (
+    <main className="shell">
+      <div className="page-head">
+        <div>
+          <p className="eyebrow">ExactPay · Merchant</p>
+          <h1>Your invoices</h1>
+          <p className="lede">
+            Issue an invoice with the amount fixed on-chain, share the link, and get paid exactly that amount — in Standard or
+            Gasless mode.
+          </p>
+        </div>
+      </div>
+
+      {!invoicePayAddress ? (
+        <div className="card empty">
+          No InvoicePay configured for {net.label}. Set <code>NEXT_PUBLIC_INVOICEPAY_{net.key.toUpperCase()}</code> in{" "}
+          <code>web/.env.local</code>.
+        </div>
+      ) : (
+        <>
+          <section className="card stack" aria-label="Create invoice">
+            <h2>Create an invoice</h2>
+            {!isConnected ? (
+              <p className="empty">Connect a wallet to create invoices. The connected address becomes the merchant.</p>
+            ) : !onChain ? (
+              <p className="empty">Switch your wallet to {appChain.name} ({appChain.id}) to create invoices on this network.</p>
+            ) : (
+              <>
+                <div className="grid-2">
+                  <label className="stack" style={{ gap: 6 }}>
+                    <span className="fine">Amount ({token.symbol})</span>
+                    <input
+                      className="field"
+                      inputMode="decimal"
+                      placeholder="1.05"
+                      value={amountText}
+                      onChange={(e) => setAmountText(e.target.value)}
+                    />
+                  </label>
+                  <label className="stack" style={{ gap: 6 }}>
+                    <span className="fine">Expires in (hours)</span>
+                    <input
+                      className="field"
+                      inputMode="numeric"
+                      placeholder="72"
+                      value={hoursText}
+                      onChange={(e) => setHoursText(e.target.value)}
+                    />
+                  </label>
+                  <label className="stack" style={{ gap: 6 }}>
+                    <span className="fine">Expected payer (optional — empty means anyone can pay)</span>
+                    <input
+                      className="field"
+                      placeholder="0x…"
+                      value={payerText}
+                      onChange={(e) => setPayerText(e.target.value)}
+                    />
+                  </label>
+                  <label className="stack" style={{ gap: 6 }}>
+                    <span className="fine">Memo (optional — only its hash goes on-chain)</span>
+                    <input
+                      className="field"
+                      placeholder="Consulting, October"
+                      value={memo}
+                      onChange={(e) => setMemo(e.target.value)}
+                      style={{ fontFamily: "var(--font-body)" }}
+                    />
+                  </label>
+                </div>
+                {createError && (
+                  <div className="notice bad" role="alert">
+                    <strong>Invoice wasn&apos;t created</strong>
+                    <span>{createError}</span>
+                  </div>
+                )}
+                {createdId && (
+                  <div className="notice good" role="status">
+                    <strong>Invoice {orderLabel(createdId)} created</strong>
+                    <span>
+                      Share this link with your payer:{" "}
+                      <Link href={`/pay/${createdId}`}>
+                        {typeof window !== "undefined" ? window.location.origin : ""}/pay/{createdId}
+                      </Link>
+                    </span>
+                    <span>
+                      <button type="button" className="btn small" onClick={() => copyLink(createdId)}>
+                        {copied ? "Copied" : "Copy link"}
+                      </button>
+                    </span>
+                  </div>
+                )}
+                <div>
+                  <button type="button" className="btn big" disabled={!formValid || creating} onClick={onCreate}>
+                    {creating ? "Creating… check your wallet" : "Create invoice"}
+                  </button>
+                </div>
+              </>
+            )}
+          </section>
+
+          <section className="card flush" aria-label="My invoices">
+            <div style={{ padding: "16px 20px", borderBottom: "1px solid var(--line)" }}>
+              <h2>Issued by you</h2>
+            </div>
+            {actionError && (
+              <div style={{ padding: "16px 20px" }}>
+                <div className="notice bad" role="alert">
+                  <strong>Action didn&apos;t go through</strong>
+                  <span>{actionError}</span>
+                </div>
+              </div>
+            )}
+            {!address ? (
+              <p className="empty">Connect a wallet to see your invoices.</p>
+            ) : mine.isLoading ? (
+              <p className="empty">Scanning InvoiceCreated events…</p>
+            ) : mine.isError ? (
+              <p className="empty">
+                Couldn&apos;t read events: {(mine.error as Error).message}{" "}
+                <button type="button" className="btn small" onClick={() => mine.refetch()}>
+                  Try again
+                </button>
+              </p>
+            ) : !mine.data || mine.data.length === 0 ? (
+              <p className="empty">No invoices yet on {net.label}. Create your first one above.</p>
+            ) : (
+              <div className="table-wrap">
+                <table className="data">
+                  <thead>
+                    <tr>
+                      <th>Invoice</th>
+                      <th>Status</th>
+                      <th className="right">Amount</th>
+                      <th>Expires</th>
+                      <th>Payer</th>
+                      <th>Actions</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {mine.data.map((row) => {
+                      const expired = row.status === 1 && BigInt(Math.floor(Date.now() / 1000)) > row.expiry;
+                      return (
+                        <tr key={row.id}>
+                          <td className="mono">
+                            <Link href={`/pay/${row.id}`}>{orderLabel(row.id)}</Link>
+                          </td>
+                          <td>{expired ? "Expired" : (STATUS_LABEL[row.status] ?? row.status)}</td>
+                          <td className="right num">
+                            {formatUnits(row.amount, token.decimals)} {token.symbol}
+                          </td>
+                          <td className="num">{new Date(Number(row.expiry) * 1000).toLocaleString()}</td>
+                          <td className="mono">
+                            {row.status === 2 || row.status === 4
+                              ? short(row.paidBy)
+                              : row.expectedPayer !== ZERO
+                                ? short(row.expectedPayer)
+                                : "anyone"}
+                          </td>
+                          <td style={{ display: "flex", gap: 10 }}>
+                            {row.status === 1 && !expired && (
+                              <button
+                                type="button"
+                                className="btn small secondary"
+                                disabled={busyId !== null}
+                                onClick={() => onCancel(row)}
+                              >
+                                {busyId === row.id ? "Working…" : "Cancel"}
+                              </button>
+                            )}
+                            {row.status === 2 && (
+                              <button
+                                type="button"
+                                className="btn small secondary"
+                                disabled={busyId !== null}
+                                onClick={() => onRefund(row)}
+                              >
+                                {busyId === row.id ? "Working…" : "Refund"}
+                              </button>
+                            )}
+                            {(row.status === 2 || row.status === 4) && (
+                              <Link href={`/receipts/${row.id}?chain=${appChain.id}`}>Receipt</Link>
+                            )}
+                          </td>
+                        </tr>
+                      );
+                    })}
+                  </tbody>
+                </table>
+              </div>
+            )}
+          </section>
+        </>
+      )}
+    </main>
+  );
+}
