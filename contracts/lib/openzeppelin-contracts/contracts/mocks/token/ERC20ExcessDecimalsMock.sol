@@ -1,1 +1,9 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAoKcHJhZ21hIHNvbGlkaXR5IF4wLjguMjA7Cgpjb250cmFjdCBFUkMyMEV4Y2Vzc0RlY2ltYWxzTW9jayB7CiAgICBmdW5jdGlvbiBkZWNpbWFscygpIHB1YmxpYyBwdXJlIHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXR1cm4gdHlwZSh1aW50MjU2KS5tYXg7CiAgICB9Cn0K
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.20;
+
+contract ERC20ExcessDecimalsMock {
+    function decimals() public pure returns (uint256) {
+        return type(uint256).max;
+    }
+}
