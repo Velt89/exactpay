@@ -1,1 +1,27 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodG9rZW4vRVJDNzIxL2V4dGVuc2lvbnMvRVJDNzIxUm95YWx0eS5zb2wpCgpwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCmltcG9ydCB7RVJDNzIxfSBmcm9tICIuLi9FUkM3MjEuc29sIjsKaW1wb3J0IHtFUkMyOTgxfSBmcm9tICIuLi8uLi9jb21tb24vRVJDMjk4MS5zb2wiOwoKLyoqCiAqIEBkZXYgRXh0ZW5zaW9uIG9mIEVSQy03MjEgd2l0aCB0aGUgRVJDLTI5ODEgTkZUIFJveWFsdHkgU3RhbmRhcmQsIGEgc3RhbmRhcmRpemVkIHdheSB0byByZXRyaWV2ZSByb3lhbHR5IHBheW1lbnQKICogaW5mb3JtYXRpb24uCiAqCiAqIFJveWFsdHkgaW5mb3JtYXRpb24gY2FuIGJlIHNwZWNpZmllZCBnbG9iYWxseSBmb3IgYWxsIHRva2VuIGlkcyB2aWEge0VSQzI5ODEtX3NldERlZmF1bHRSb3lhbHR5fSwgYW5kL29yIGluZGl2aWR1YWxseQogKiBmb3Igc3BlY2lmaWMgdG9rZW4gaWRzIHZpYSB7RVJDMjk4MS1fc2V0VG9rZW5Sb3lhbHR5fS4gVGhlIGxhdHRlciB0YWtlcyBwcmVjZWRlbmNlIG92ZXIgdGhlIGZpcnN0LgogKgogKiBJTVBPUlRBTlQ6IEVSQy0yOTgxIG9ubHkgc3BlY2lmaWVzIGEgd2F5IHRvIHNpZ25hbCByb3lhbHR5IGluZm9ybWF0aW9uIGFuZCBkb2VzIG5vdCBlbmZvcmNlIGl0cyBwYXltZW50LiBTZWUKICogaHR0cHM6Ly9laXBzLmV0aGVyZXVtLm9yZy9FSVBTL2VpcC0yOTgxI29wdGlvbmFsLXJveWFsdHktcGF5bWVudHNbUmF0aW9uYWxlXSBpbiB0aGUgRVJDLiBNYXJrZXRwbGFjZXMgYXJlIGV4cGVjdGVkIHRvCiAqIHZvbHVudGFyaWx5IHBheSByb3lhbHRpZXMgdG9nZXRoZXIgd2l0aCBzYWxlcywgYnV0IG5vdGUgdGhhdCB0aGlzIHN0YW5kYXJkIGlzIG5vdCB5ZXQgd2lkZWx5IHN1cHBvcnRlZC4KICovCmFic3RyYWN0IGNvbnRyYWN0IEVSQzcyMVJveWFsdHkgaXMgRVJDMjk4MSwgRVJDNzIxIHsKICAgIC8qKgogICAgICogQGRldiBTZWUge0lFUkMxNjUtc3VwcG9ydHNJbnRlcmZhY2V9LgogICAgICovCiAgICBmdW5jdGlvbiBzdXBwb3J0c0ludGVyZmFjZShieXRlczQgaW50ZXJmYWNlSWQpIHB1YmxpYyB2aWV3IHZpcnR1YWwgb3ZlcnJpZGUoRVJDNzIxLCBFUkMyOTgxKSByZXR1cm5zIChib29sKSB7CiAgICAgICAgcmV0dXJuIHN1cGVyLnN1cHBvcnRzSW50ZXJmYWNlKGludGVyZmFjZUlkKTsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (token/ERC721/extensions/ERC721Royalty.sol)
+
+pragma solidity ^0.8.20;
+
+import {ERC721} from "../ERC721.sol";
+import {ERC2981} from "../../common/ERC2981.sol";
+
+/**
+ * @dev Extension of ERC-721 with the ERC-2981 NFT Royalty Standard, a standardized way to retrieve royalty payment
+ * information.
+ *
+ * Royalty information can be specified globally for all token ids via {ERC2981-_setDefaultRoyalty}, and/or individually
+ * for specific token ids via {ERC2981-_setTokenRoyalty}. The latter takes precedence over the first.
+ *
+ * IMPORTANT: ERC-2981 only specifies a way to signal royalty information and does not enforce its payment. See
+ * https://eips.ethereum.org/EIPS/eip-2981#optional-royalty-payments[Rationale] in the ERC. Marketplaces are expected to
+ * voluntarily pay royalties together with sales, but note that this standard is not yet widely supported.
+ */
+abstract contract ERC721Royalty is ERC2981, ERC721 {
+    /**
+     * @dev See {IERC165-supportsInterface}.
+     */
+    function supportsInterface(bytes4 interfaceId) public view virtual override(ERC721, ERC2981) returns (bool) {
+        return super.supportsInterface(interfaceId);
+    }
+}
