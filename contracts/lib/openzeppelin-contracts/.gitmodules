@@ -1,1 +1,10 @@
-W3N1Ym1vZHVsZSAibGliL2ZvcmdlLXN0ZCJdCglicmFuY2ggPSB2MQoJcGF0aCA9IGxpYi9mb3JnZS1zdGQKCXVybCA9IGh0dHBzOi8vZ2l0aHViLmNvbS9mb3VuZHJ5LXJzL2ZvcmdlLXN0ZApbc3VibW9kdWxlICJsaWIvZXJjNDYyNi10ZXN0cyJdCglwYXRoID0gbGliL2VyYzQ2MjYtdGVzdHMKCXVybCA9IGh0dHBzOi8vZ2l0aHViLmNvbS9hMTZ6L2VyYzQ2MjYtdGVzdHMuZ2l0CltzdWJtb2R1bGUgImxpYi9oYWxtb3MtY2hlYXRjb2RlcyJdCglwYXRoID0gbGliL2hhbG1vcy1jaGVhdGNvZGVzCgl1cmwgPSBodHRwczovL2dpdGh1Yi5jb20vYTE2ei9oYWxtb3MtY2hlYXRjb2Rlcwo=
+[submodule "lib/forge-std"]
+	branch = v1
+	path = lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "lib/erc4626-tests"]
+	path = lib/erc4626-tests
+	url = https://github.com/a16z/erc4626-tests.git
+[submodule "lib/halmos-cheatcodes"]
+	path = lib/halmos-cheatcodes
+	url = https://github.com/a16z/halmos-cheatcodes
