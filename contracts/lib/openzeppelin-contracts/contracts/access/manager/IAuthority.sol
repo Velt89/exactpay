@@ -1,1 +1,14 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMC4wKSAoYWNjZXNzL21hbmFnZXIvSUF1dGhvcml0eS5zb2wpCgpwcmFnbWEgc29saWRpdHkgXjAuOC4yMDsKCi8qKgogKiBAZGV2IFN0YW5kYXJkIGludGVyZmFjZSBmb3IgcGVybWlzc2lvbmluZyBvcmlnaW5hbGx5IGRlZmluZWQgaW4gRGFwcHN5cy4KICovCmludGVyZmFjZSBJQXV0aG9yaXR5IHsKICAgIC8qKgogICAgICogQGRldiBSZXR1cm5zIHRydWUgaWYgdGhlIGNhbGxlciBjYW4gaW52b2tlIG9uIGEgdGFyZ2V0IHRoZSBmdW5jdGlvbiBpZGVudGlmaWVkIGJ5IGEgZnVuY3Rpb24gc2VsZWN0b3IuCiAgICAgKi8KICAgIGZ1bmN0aW9uIGNhbkNhbGwoYWRkcmVzcyBjYWxsZXIsIGFkZHJlc3MgdGFyZ2V0LCBieXRlczQgc2VsZWN0b3IpIGV4dGVybmFsIHZpZXcgcmV0dXJucyAoYm9vbCBhbGxvd2VkKTsKfQo=
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.0.0) (access/manager/IAuthority.sol)
+
+pragma solidity ^0.8.20;
+
+/**
+ * @dev Standard interface for permissioning originally defined in Dappsys.
+ */
+interface IAuthority {
+    /**
+     * @dev Returns true if the caller can invoke on a target the function identified by a function selector.
+     */
+    function canCall(address caller, address target, bytes4 selector) external view returns (bool allowed);
+}
