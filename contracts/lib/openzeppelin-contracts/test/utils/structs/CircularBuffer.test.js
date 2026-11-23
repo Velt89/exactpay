@@ -1,1 +1,83 @@
-Y29uc3QgeyBldGhlcnMgfSA9IHJlcXVpcmUoJ2hhcmRoYXQnKTsKY29uc3QgeyBleHBlY3QgfSA9IHJlcXVpcmUoJ2NoYWknKTsKY29uc3QgeyBsb2FkRml4dHVyZSB9ID0gcmVxdWlyZSgnQG5vbWljZm91bmRhdGlvbi9oYXJkaGF0LW5ldHdvcmstaGVscGVycycpOwpjb25zdCB7IFBBTklDX0NPREVTIH0gPSByZXF1aXJlKCdAbm9taWNmb3VuZGF0aW9uL2hhcmRoYXQtY2hhaS1tYXRjaGVycy9wYW5pYycpOwoKY29uc3QgeyBnZW5lcmF0b3JzIH0gPSByZXF1aXJlKCcuLi8uLi9oZWxwZXJzL3JhbmRvbScpOwoKY29uc3QgTEVOR1RIID0gNDsKCmFzeW5jIGZ1bmN0aW9uIGZpeHR1cmUoKSB7CiAgY29uc3QgbW9jayA9IGF3YWl0IGV0aGVycy5kZXBsb3lDb250cmFjdCgnJENpcmN1bGFyQnVmZmVyJyk7CiAgYXdhaXQgbW9jay4kc2V0dXAoMCwgTEVOR1RIKTsKICByZXR1cm4geyBtb2NrIH07Cn0KCmRlc2NyaWJlKCdDaXJjdWxhckJ1ZmZlcicsIGZ1bmN0aW9uICgpIHsKICBiZWZvcmVFYWNoKGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgIE9iamVjdC5hc3NpZ24odGhpcywgYXdhaXQgbG9hZEZpeHR1cmUoZml4dHVyZSkpOwogIH0pOwoKICBpdCgncmV2ZXJ0cyBvbiBpbnZhbGlkIHNldHVwJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgYXdhaXQgZXhwZWN0KHRoaXMubW9jay4kc2V0dXAoMCwgMCkpLnRvLmJlLnJldmVydGVkV2l0aEN1c3RvbUVycm9yKHRoaXMubW9jaywgJ0ludmFsaWRCdWZmZXJTaXplJyk7CiAgfSk7CgogIGl0KCdzdGFydHMgZW1wdHknLCBhc3luYyBmdW5jdGlvbiAoKSB7CiAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRjb3VudCgwKSkudG8uZXF1YWwoMG4pOwogICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kbGVuZ3RoKDApKS50by5lcXVhbChMRU5HVEgpOwogICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kaW5jbHVkZXMoMCwgZXRoZXJzLlplcm9IYXNoKSkudG8uYmUuZmFsc2U7CiAgICBhd2FpdCBleHBlY3QodGhpcy5tb2NrLiRsYXN0KDAsIDApKS50by5iZS5yZXZlcnRlZFdpdGhQYW5pYyhQQU5JQ19DT0RFUy5BUlJBWV9BQ0NFU1NfT1VUX09GX0JPVU5EUyk7CiAgfSk7CgogIGl0KCdwdXNoJywgYXN5bmMgZnVuY3Rpb24gKCkgewogICAgY29uc3QgdmFsdWVzID0gQXJyYXkuZnJvbSh7IGxlbmd0aDogTEVOR1RIICsgMyB9LCBnZW5lcmF0b3JzLmJ5dGVzMzIpOwoKICAgIGZvciAoY29uc3QgW2ksIHZhbHVlXSBvZiB2YWx1ZXMubWFwKCh2LCBpKSA9PiBbaSwgdl0pKSB7CiAgICAgIC8vIHB1c2ggdmFsdWUKICAgICAgYXdhaXQgdGhpcy5tb2NrLiRwdXNoKDAsIHZhbHVlKTsKCiAgICAgIC8vIHZpZXcgb2YgdGhlIHZhbHVlcwogICAgICBjb25zdCBwdXNoZWQgPSB2YWx1ZXMuc2xpY2UoMCwgaSArIDEpOwogICAgICBjb25zdCBzdG9yZWQgPSBwdXNoZWQuc2xpY2UoLUxFTkdUSCk7CiAgICAgIGNvbnN0IGRyb3BwZWQgPSBwdXNoZWQuc2xpY2UoMCwgLUxFTkdUSCk7CgogICAgICAvLyBjaGVjayBjb3VudAogICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRsZW5ndGgoMCkpLnRvLmVxdWFsKExFTkdUSCk7CiAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGNvdW50KDApKS50by5lcXVhbChzdG9yZWQubGVuZ3RoKTsKCiAgICAgIC8vIGNoZWNrIGxhc3QKICAgICAgZm9yIChjb25zdCBqIGluIHN0b3JlZCkgewogICAgICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGxhc3QoMCwgaikpLnRvLmVxdWFsKHN0b3JlZC5hdCgtaiAtIDEpKTsKICAgICAgfQogICAgICBhd2FpdCBleHBlY3QodGhpcy5tb2NrLiRsYXN0KDAsIHN0b3JlZC5sZW5ndGggKyAxKSkudG8uYmUucmV2ZXJ0ZWRXaXRoUGFuaWMoCiAgICAgICAgUEFOSUNfQ09ERVMuQVJSQVlfQUNDRVNTX09VVF9PRl9CT1VORFMsCiAgICAgICk7CgogICAgICAvLyBjaGVjayBpbmNsdWRlZCBhbmQgbm9uLWluY2x1ZGVkIHZhbHVlcwogICAgICBmb3IgKGNvbnN0IHYgb2Ygc3RvcmVkKSB7CiAgICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kaW5jbHVkZXMoMCwgdikpLnRvLmJlLnRydWU7CiAgICAgIH0KICAgICAgZm9yIChjb25zdCB2IG9mIGRyb3BwZWQpIHsKICAgICAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRpbmNsdWRlcygwLCB2KSkudG8uYmUuZmFsc2U7CiAgICAgIH0KICAgICAgZXhwZWN0KGF3YWl0IHRoaXMubW9jay4kaW5jbHVkZXMoMCwgZXRoZXJzLlplcm9IYXNoKSkudG8uYmUuZmFsc2U7CiAgICB9CiAgfSk7CgogIGl0KCdjbGVhcicsIGFzeW5jIGZ1bmN0aW9uICgpIHsKICAgIGNvbnN0IHZhbHVlID0gZ2VuZXJhdG9ycy5ieXRlczMyKCk7CiAgICBhd2FpdCB0aGlzLm1vY2suJHB1c2goMCwgdmFsdWUpOwoKICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGNvdW50KDApKS50by5lcXVhbCgxbik7CiAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRsZW5ndGgoMCkpLnRvLmVxdWFsKExFTkdUSCk7CiAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRpbmNsdWRlcygwLCB2YWx1ZSkpLnRvLmJlLnRydWU7CiAgICBhd2FpdCB0aGlzLm1vY2suJGxhc3QoMCwgMCk7IC8vIG5vdCByZXZlcnQKCiAgICBhd2FpdCB0aGlzLm1vY2suJGNsZWFyKDApOwoKICAgIGV4cGVjdChhd2FpdCB0aGlzLm1vY2suJGNvdW50KDApKS50by5lcXVhbCgwbik7CiAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRsZW5ndGgoMCkpLnRvLmVxdWFsKExFTkdUSCk7CiAgICBleHBlY3QoYXdhaXQgdGhpcy5tb2NrLiRpbmNsdWRlcygwLCB2YWx1ZSkpLnRvLmJlLmZhbHNlOwogICAgYXdhaXQgZXhwZWN0KHRoaXMubW9jay4kbGFzdCgwLCAwKSkudG8uYmUucmV2ZXJ0ZWRXaXRoUGFuaWMoUEFOSUNfQ09ERVMuQVJSQVlfQUNDRVNTX09VVF9PRl9CT1VORFMpOwogIH0pOwp9KTsK
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { loadFixture } = require('@nomicfoundation/hardhat-network-helpers');
+const { PANIC_CODES } = require('@nomicfoundation/hardhat-chai-matchers/panic');
+
+const { generators } = require('../../helpers/random');
+
+const LENGTH = 4;
+
+async function fixture() {
+  const mock = await ethers.deployContract('$CircularBuffer');
+  await mock.$setup(0, LENGTH);
+  return { mock };
+}
+
+describe('CircularBuffer', function () {
+  beforeEach(async function () {
+    Object.assign(this, await loadFixture(fixture));
+  });
+
+  it('reverts on invalid setup', async function () {
+    await expect(this.mock.$setup(0, 0)).to.be.revertedWithCustomError(this.mock, 'InvalidBufferSize');
+  });
+
+  it('starts empty', async function () {
+    expect(await this.mock.$count(0)).to.equal(0n);
+    expect(await this.mock.$length(0)).to.equal(LENGTH);
+    expect(await this.mock.$includes(0, ethers.ZeroHash)).to.be.false;
+    await expect(this.mock.$last(0, 0)).to.be.revertedWithPanic(PANIC_CODES.ARRAY_ACCESS_OUT_OF_BOUNDS);
+  });
+
+  it('push', async function () {
+    const values = Array.from({ length: LENGTH + 3 }, generators.bytes32);
+
+    for (const [i, value] of values.map((v, i) => [i, v])) {
+      // push value
+      await this.mock.$push(0, value);
+
+      // view of the values
+      const pushed = values.slice(0, i + 1);
+      const stored = pushed.slice(-LENGTH);
+      const dropped = pushed.slice(0, -LENGTH);
+
+      // check count
+      expect(await this.mock.$length(0)).to.equal(LENGTH);
+      expect(await this.mock.$count(0)).to.equal(stored.length);
+
+      // check last
+      for (const j in stored) {
+        expect(await this.mock.$last(0, j)).to.equal(stored.at(-j - 1));
+      }
+      await expect(this.mock.$last(0, stored.length + 1)).to.be.revertedWithPanic(
+        PANIC_CODES.ARRAY_ACCESS_OUT_OF_BOUNDS,
+      );
+
+      // check included and non-included values
+      for (const v of stored) {
+        expect(await this.mock.$includes(0, v)).to.be.true;
+      }
+      for (const v of dropped) {
+        expect(await this.mock.$includes(0, v)).to.be.false;
+      }
+      expect(await this.mock.$includes(0, ethers.ZeroHash)).to.be.false;
+    }
+  });
+
+  it('clear', async function () {
+    const value = generators.bytes32();
+    await this.mock.$push(0, value);
+
+    expect(await this.mock.$count(0)).to.equal(1n);
+    expect(await this.mock.$length(0)).to.equal(LENGTH);
+    expect(await this.mock.$includes(0, value)).to.be.true;
+    await this.mock.$last(0, 0); // not revert
+
+    await this.mock.$clear(0);
+
+    expect(await this.mock.$count(0)).to.equal(0n);
+    expect(await this.mock.$length(0)).to.equal(LENGTH);
+    expect(await this.mock.$includes(0, value)).to.be.false;
+    await expect(this.mock.$last(0, 0)).to.be.revertedWithPanic(PANIC_CODES.ARRAY_ACCESS_OUT_OF_BOUNDS);
+  });
+});
