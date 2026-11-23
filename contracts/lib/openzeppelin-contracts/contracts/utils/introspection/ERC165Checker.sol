@@ -1,1 +1,124 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVAovLyBPcGVuWmVwcGVsaW4gQ29udHJhY3RzIChsYXN0IHVwZGF0ZWQgdjUuMS4wKSAodXRpbHMvaW50cm9zcGVjdGlvbi9FUkMxNjVDaGVja2VyLnNvbCkKCnByYWdtYSBzb2xpZGl0eSBeMC44LjIwOwoKaW1wb3J0IHtJRVJDMTY1fSBmcm9tICIuL0lFUkMxNjUuc29sIjsKCi8qKgogKiBAZGV2IExpYnJhcnkgdXNlZCB0byBxdWVyeSBzdXBwb3J0IG9mIGFuIGludGVyZmFjZSBkZWNsYXJlZCB2aWEge0lFUkMxNjV9LgogKgogKiBOb3RlIHRoYXQgdGhlc2UgZnVuY3Rpb25zIHJldHVybiB0aGUgYWN0dWFsIHJlc3VsdCBvZiB0aGUgcXVlcnk6IHRoZXkgZG8gbm90CiAqIGByZXZlcnRgIGlmIGFuIGludGVyZmFjZSBpcyBub3Qgc3VwcG9ydGVkLiBJdCBpcyB1cCB0byB0aGUgY2FsbGVyIHRvIGRlY2lkZQogKiB3aGF0IHRvIGRvIGluIHRoZXNlIGNhc2VzLgogKi8KbGlicmFyeSBFUkMxNjVDaGVja2VyIHsKICAgIC8vIEFzIHBlciB0aGUgRVJDLTE2NSBzcGVjLCBubyBpbnRlcmZhY2Ugc2hvdWxkIGV2ZXIgbWF0Y2ggMHhmZmZmZmZmZgogICAgYnl0ZXM0IHByaXZhdGUgY29uc3RhbnQgSU5URVJGQUNFX0lEX0lOVkFMSUQgPSAweGZmZmZmZmZmOwoKICAgIC8qKgogICAgICogQGRldiBSZXR1cm5zIHRydWUgaWYgYGFjY291bnRgIHN1cHBvcnRzIHRoZSB7SUVSQzE2NX0gaW50ZXJmYWNlLgogICAgICovCiAgICBmdW5jdGlvbiBzdXBwb3J0c0VSQzE2NShhZGRyZXNzIGFjY291bnQpIGludGVybmFsIHZpZXcgcmV0dXJucyAoYm9vbCkgewogICAgICAgIC8vIEFueSBjb250cmFjdCB0aGF0IGltcGxlbWVudHMgRVJDLTE2NSBtdXN0IGV4cGxpY2l0bHkgaW5kaWNhdGUgc3VwcG9ydCBvZgogICAgICAgIC8vIEludGVyZmFjZUlkX0VSQzE2NSBhbmQgZXhwbGljaXRseSBpbmRpY2F0ZSBub24tc3VwcG9ydCBvZiBJbnRlcmZhY2VJZF9JbnZhbGlkCiAgICAgICAgcmV0dXJuCiAgICAgICAgICAgIHN1cHBvcnRzRVJDMTY1SW50ZXJmYWNlVW5jaGVja2VkKGFjY291bnQsIHR5cGUoSUVSQzE2NSkuaW50ZXJmYWNlSWQpICYmCiAgICAgICAgICAgICFzdXBwb3J0c0VSQzE2NUludGVyZmFjZVVuY2hlY2tlZChhY2NvdW50LCBJTlRFUkZBQ0VfSURfSU5WQUxJRCk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdHJ1ZSBpZiBgYWNjb3VudGAgc3VwcG9ydHMgdGhlIGludGVyZmFjZSBkZWZpbmVkIGJ5CiAgICAgKiBgaW50ZXJmYWNlSWRgLiBTdXBwb3J0IGZvciB7SUVSQzE2NX0gaXRzZWxmIGlzIHF1ZXJpZWQgYXV0b21hdGljYWxseS4KICAgICAqCiAgICAgKiBTZWUge0lFUkMxNjUtc3VwcG9ydHNJbnRlcmZhY2V9LgogICAgICovCiAgICBmdW5jdGlvbiBzdXBwb3J0c0ludGVyZmFjZShhZGRyZXNzIGFjY291bnQsIGJ5dGVzNCBpbnRlcmZhY2VJZCkgaW50ZXJuYWwgdmlldyByZXR1cm5zIChib29sKSB7CiAgICAgICAgLy8gcXVlcnkgc3VwcG9ydCBvZiBib3RoIEVSQy0xNjUgYXMgcGVyIHRoZSBzcGVjIGFuZCBzdXBwb3J0IG9mIF9pbnRlcmZhY2VJZAogICAgICAgIHJldHVybiBzdXBwb3J0c0VSQzE2NShhY2NvdW50KSAmJiBzdXBwb3J0c0VSQzE2NUludGVyZmFjZVVuY2hlY2tlZChhY2NvdW50LCBpbnRlcmZhY2VJZCk7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgYSBib29sZWFuIGFycmF5IHdoZXJlIGVhY2ggdmFsdWUgY29ycmVzcG9uZHMgdG8gdGhlCiAgICAgKiBpbnRlcmZhY2VzIHBhc3NlZCBpbiBhbmQgd2hldGhlciB0aGV5J3JlIHN1cHBvcnRlZCBvciBub3QuIFRoaXMgYWxsb3dzCiAgICAgKiB5b3UgdG8gYmF0Y2ggY2hlY2sgaW50ZXJmYWNlcyBmb3IgYSBjb250cmFjdCB3aGVyZSB5b3VyIGV4cGVjdGF0aW9uCiAgICAgKiBpcyB0aGF0IHNvbWUgaW50ZXJmYWNlcyBtYXkgbm90IGJlIHN1cHBvcnRlZC4KICAgICAqCiAgICAgKiBTZWUge0lFUkMxNjUtc3VwcG9ydHNJbnRlcmZhY2V9LgogICAgICovCiAgICBmdW5jdGlvbiBnZXRTdXBwb3J0ZWRJbnRlcmZhY2VzKAogICAgICAgIGFkZHJlc3MgYWNjb3VudCwKICAgICAgICBieXRlczRbXSBtZW1vcnkgaW50ZXJmYWNlSWRzCiAgICApIGludGVybmFsIHZpZXcgcmV0dXJucyAoYm9vbFtdIG1lbW9yeSkgewogICAgICAgIC8vIGFuIGFycmF5IG9mIGJvb2xlYW5zIGNvcnJlc3BvbmRpbmcgdG8gaW50ZXJmYWNlSWRzIGFuZCB3aGV0aGVyIHRoZXkncmUgc3VwcG9ydGVkIG9yIG5vdAogICAgICAgIGJvb2xbXSBtZW1vcnkgaW50ZXJmYWNlSWRzU3VwcG9ydGVkID0gbmV3IGJvb2xbXShpbnRlcmZhY2VJZHMubGVuZ3RoKTsKCiAgICAgICAgLy8gcXVlcnkgc3VwcG9ydCBvZiBFUkMtMTY1IGl0c2VsZgogICAgICAgIGlmIChzdXBwb3J0c0VSQzE2NShhY2NvdW50KSkgewogICAgICAgICAgICAvLyBxdWVyeSBzdXBwb3J0IG9mIGVhY2ggaW50ZXJmYWNlIGluIGludGVyZmFjZUlkcwogICAgICAgICAgICBmb3IgKHVpbnQyNTYgaSA9IDA7IGkgPCBpbnRlcmZhY2VJZHMubGVuZ3RoOyBpKyspIHsKICAgICAgICAgICAgICAgIGludGVyZmFjZUlkc1N1cHBvcnRlZFtpXSA9IHN1cHBvcnRzRVJDMTY1SW50ZXJmYWNlVW5jaGVja2VkKGFjY291bnQsIGludGVyZmFjZUlkc1tpXSk7CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHJldHVybiBpbnRlcmZhY2VJZHNTdXBwb3J0ZWQ7CiAgICB9CgogICAgLyoqCiAgICAgKiBAZGV2IFJldHVybnMgdHJ1ZSBpZiBgYWNjb3VudGAgc3VwcG9ydHMgYWxsIHRoZSBpbnRlcmZhY2VzIGRlZmluZWQgaW4KICAgICAqIGBpbnRlcmZhY2VJZHNgLiBTdXBwb3J0IGZvciB7SUVSQzE2NX0gaXRzZWxmIGlzIHF1ZXJpZWQgYXV0b21hdGljYWxseS4KICAgICAqCiAgICAgKiBCYXRjaC1xdWVyeWluZyBjYW4gbGVhZCB0byBnYXMgc2F2aW5ncyBieSBza2lwcGluZyByZXBlYXRlZCBjaGVja3MgZm9yCiAgICAgKiB7SUVSQzE2NX0gc3VwcG9ydC4KICAgICAqCiAgICAgKiBTZWUge0lFUkMxNjUtc3VwcG9ydHNJbnRlcmZhY2V9LgogICAgICovCiAgICBmdW5jdGlvbiBzdXBwb3J0c0FsbEludGVyZmFjZXMoYWRkcmVzcyBhY2NvdW50LCBieXRlczRbXSBtZW1vcnkgaW50ZXJmYWNlSWRzKSBpbnRlcm5hbCB2aWV3IHJldHVybnMgKGJvb2wpIHsKICAgICAgICAvLyBxdWVyeSBzdXBwb3J0IG9mIEVSQy0xNjUgaXRzZWxmCiAgICAgICAgaWYgKCFzdXBwb3J0c0VSQzE2NShhY2NvdW50KSkgewogICAgICAgICAgICByZXR1cm4gZmFsc2U7CiAgICAgICAgfQoKICAgICAgICAvLyBxdWVyeSBzdXBwb3J0IG9mIGVhY2ggaW50ZXJmYWNlIGluIGludGVyZmFjZUlkcwogICAgICAgIGZvciAodWludDI1NiBpID0gMDsgaSA8IGludGVyZmFjZUlkcy5sZW5ndGg7IGkrKykgewogICAgICAgICAgICBpZiAoIXN1cHBvcnRzRVJDMTY1SW50ZXJmYWNlVW5jaGVja2VkKGFjY291bnQsIGludGVyZmFjZUlkc1tpXSkpIHsKICAgICAgICAgICAgICAgIHJldHVybiBmYWxzZTsKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgLy8gYWxsIGludGVyZmFjZXMgc3VwcG9ydGVkCiAgICAgICAgcmV0dXJuIHRydWU7CiAgICB9CgogICAgLyoqCiAgICAgKiBAbm90aWNlIFF1ZXJ5IGlmIGEgY29udHJhY3QgaW1wbGVtZW50cyBhbiBpbnRlcmZhY2UsIGRvZXMgbm90IGNoZWNrIEVSQy0xNjUgc3VwcG9ydAogICAgICogQHBhcmFtIGFjY291bnQgVGhlIGFkZHJlc3Mgb2YgdGhlIGNvbnRyYWN0IHRvIHF1ZXJ5IGZvciBzdXBwb3J0IG9mIGFuIGludGVyZmFjZQogICAgICogQHBhcmFtIGludGVyZmFjZUlkIFRoZSBpbnRlcmZhY2UgaWRlbnRpZmllciwgYXMgc3BlY2lmaWVkIGluIEVSQy0xNjUKICAgICAqIEByZXR1cm4gdHJ1ZSBpZiB0aGUgY29udHJhY3QgYXQgYWNjb3VudCBpbmRpY2F0ZXMgc3VwcG9ydCBvZiB0aGUgaW50ZXJmYWNlIHdpdGgKICAgICAqIGlkZW50aWZpZXIgaW50ZXJmYWNlSWQsIGZhbHNlIG90aGVyd2lzZQogICAgICogQGRldiBBc3N1bWVzIHRoYXQgYWNjb3VudCBjb250YWlucyBhIGNvbnRyYWN0IHRoYXQgc3VwcG9ydHMgRVJDLTE2NSwgb3RoZXJ3aXNlCiAgICAgKiB0aGUgYmVoYXZpb3Igb2YgdGhpcyBtZXRob2QgaXMgdW5kZWZpbmVkLiBUaGlzIHByZWNvbmRpdGlvbiBjYW4gYmUgY2hlY2tlZAogICAgICogd2l0aCB7c3VwcG9ydHNFUkMxNjV9LgogICAgICoKICAgICAqIFNvbWUgcHJlY29tcGlsZWQgY29udHJhY3RzIHdpbGwgZmFsc2VseSBpbmRpY2F0ZSBzdXBwb3J0IGZvciBhIGdpdmVuIGludGVyZmFjZSwgc28gY2F1dGlvbgogICAgICogc2hvdWxkIGJlIGV4ZXJjaXNlZCB3aGVuIHVzaW5nIHRoaXMgZnVuY3Rpb24uCiAgICAgKgogICAgICogSW50ZXJmYWNlIGlkZW50aWZpY2F0aW9uIGlzIHNwZWNpZmllZCBpbiBFUkMtMTY1LgogICAgICovCiAgICBmdW5jdGlvbiBzdXBwb3J0c0VSQzE2NUludGVyZmFjZVVuY2hlY2tlZChhZGRyZXNzIGFjY291bnQsIGJ5dGVzNCBpbnRlcmZhY2VJZCkgaW50ZXJuYWwgdmlldyByZXR1cm5zIChib29sKSB7CiAgICAgICAgLy8gcHJlcGFyZSBjYWxsCiAgICAgICAgYnl0ZXMgbWVtb3J5IGVuY29kZWRQYXJhbXMgPSBhYmkuZW5jb2RlQ2FsbChJRVJDMTY1LnN1cHBvcnRzSW50ZXJmYWNlLCAoaW50ZXJmYWNlSWQpKTsKCiAgICAgICAgLy8gcGVyZm9ybSBzdGF0aWMgY2FsbAogICAgICAgIGJvb2wgc3VjY2VzczsKICAgICAgICB1aW50MjU2IHJldHVyblNpemU7CiAgICAgICAgdWludDI1NiByZXR1cm5WYWx1ZTsKICAgICAgICBhc3NlbWJseSAoIm1lbW9yeS1zYWZlIikgewogICAgICAgICAgICBzdWNjZXNzIDo9IHN0YXRpY2NhbGwoMzAwMDAsIGFjY291bnQsIGFkZChlbmNvZGVkUGFyYW1zLCAweDIwKSwgbWxvYWQoZW5jb2RlZFBhcmFtcyksIDB4MDAsIDB4MjApCiAgICAgICAgICAgIHJldHVyblNpemUgOj0gcmV0dXJuZGF0YXNpemUoKQogICAgICAgICAgICByZXR1cm5WYWx1ZSA6PSBtbG9hZCgweDAwKQogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIHN1Y2Nlc3MgJiYgcmV0dXJuU2l6ZSA+PSAweDIwICYmIHJldHVyblZhbHVlID4gMDsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+// OpenZeppelin Contracts (last updated v5.1.0) (utils/introspection/ERC165Checker.sol)
+
+pragma solidity ^0.8.20;
+
+import {IERC165} from "./IERC165.sol";
+
+/**
+ * @dev Library used to query support of an interface declared via {IERC165}.
+ *
+ * Note that these functions return the actual result of the query: they do not
+ * `revert` if an interface is not supported. It is up to the caller to decide
+ * what to do in these cases.
+ */
+library ERC165Checker {
+    // As per the ERC-165 spec, no interface should ever match 0xffffffff
+    bytes4 private constant INTERFACE_ID_INVALID = 0xffffffff;
+
+    /**
+     * @dev Returns true if `account` supports the {IERC165} interface.
+     */
+    function supportsERC165(address account) internal view returns (bool) {
+        // Any contract that implements ERC-165 must explicitly indicate support of
+        // InterfaceId_ERC165 and explicitly indicate non-support of InterfaceId_Invalid
+        return
+            supportsERC165InterfaceUnchecked(account, type(IERC165).interfaceId) &&
+            !supportsERC165InterfaceUnchecked(account, INTERFACE_ID_INVALID);
+    }
+
+    /**
+     * @dev Returns true if `account` supports the interface defined by
+     * `interfaceId`. Support for {IERC165} itself is queried automatically.
+     *
+     * See {IERC165-supportsInterface}.
+     */
+    function supportsInterface(address account, bytes4 interfaceId) internal view returns (bool) {
+        // query support of both ERC-165 as per the spec and support of _interfaceId
+        return supportsERC165(account) && supportsERC165InterfaceUnchecked(account, interfaceId);
+    }
+
+    /**
+     * @dev Returns a boolean array where each value corresponds to the
+     * interfaces passed in and whether they're supported or not. This allows
+     * you to batch check interfaces for a contract where your expectation
+     * is that some interfaces may not be supported.
+     *
+     * See {IERC165-supportsInterface}.
+     */
+    function getSupportedInterfaces(
+        address account,
+        bytes4[] memory interfaceIds
+    ) internal view returns (bool[] memory) {
+        // an array of booleans corresponding to interfaceIds and whether they're supported or not
+        bool[] memory interfaceIdsSupported = new bool[](interfaceIds.length);
+
+        // query support of ERC-165 itself
+        if (supportsERC165(account)) {
+            // query support of each interface in interfaceIds
+            for (uint256 i = 0; i < interfaceIds.length; i++) {
+                interfaceIdsSupported[i] = supportsERC165InterfaceUnchecked(account, interfaceIds[i]);
+            }
+        }
+
+        return interfaceIdsSupported;
+    }
+
+    /**
+     * @dev Returns true if `account` supports all the interfaces defined in
+     * `interfaceIds`. Support for {IERC165} itself is queried automatically.
+     *
+     * Batch-querying can lead to gas savings by skipping repeated checks for
+     * {IERC165} support.
+     *
+     * See {IERC165-supportsInterface}.
+     */
+    function supportsAllInterfaces(address account, bytes4[] memory interfaceIds) internal view returns (bool) {
+        // query support of ERC-165 itself
+        if (!supportsERC165(account)) {
+            return false;
+        }
+
+        // query support of each interface in interfaceIds
+        for (uint256 i = 0; i < interfaceIds.length; i++) {
+            if (!supportsERC165InterfaceUnchecked(account, interfaceIds[i])) {
+                return false;
+            }
+        }
+
+        // all interfaces supported
+        return true;
+    }
+
+    /**
+     * @notice Query if a contract implements an interface, does not check ERC-165 support
+     * @param account The address of the contract to query for support of an interface
+     * @param interfaceId The interface identifier, as specified in ERC-165
+     * @return true if the contract at account indicates support of the interface with
+     * identifier interfaceId, false otherwise
+     * @dev Assumes that account contains a contract that supports ERC-165, otherwise
+     * the behavior of this method is undefined. This precondition can be checked
+     * with {supportsERC165}.
+     *
+     * Some precompiled contracts will falsely indicate support for a given interface, so caution
+     * should be exercised when using this function.
+     *
+     * Interface identification is specified in ERC-165.
+     */
+    function supportsERC165InterfaceUnchecked(address account, bytes4 interfaceId) internal view returns (bool) {
+        // prepare call
+        bytes memory encodedParams = abi.encodeCall(IERC165.supportsInterface, (interfaceId));
+
+        // perform static call
+        bool success;
+        uint256 returnSize;
+        uint256 returnValue;
+        assembly ("memory-safe") {
+            success := staticcall(30000, account, add(encodedParams, 0x20), mload(encodedParams), 0x00, 0x20)
+            returnSize := returndatasize()
+            returnValue := mload(0x00)
+        }
+
+        return success && returnSize >= 0x20 && returnValue > 0;
+    }
+}
