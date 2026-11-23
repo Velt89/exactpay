@@ -1,1 +1,315 @@
-Ly8gU1BEWC1MaWNlbnNlLUlkZW50aWZpZXI6IE1JVApwcmFnbWEgc29saWRpdHkgPj0wLjcuMCA8MC45LjA7CgppbXBvcnQgIi4uL3NyYy9TdGRTdG9yYWdlLnNvbCI7CmltcG9ydCAiLi4vc3JjL1Rlc3Quc29sIjsKCmNvbnRyYWN0IFN0ZFN0b3JhZ2VUZXN0IGlzIFRlc3QgewogICAgdXNpbmcgc3RkU3RvcmFnZSBmb3IgU3RkU3RvcmFnZTsKCiAgICBTdG9yYWdlVGVzdCBpbnRlcm5hbCB0ZXN0OwoKICAgIGZ1bmN0aW9uIHNldFVwKCkgcHVibGljIHsKICAgICAgICB0ZXN0ID0gbmV3IFN0b3JhZ2VUZXN0KCk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9TdG9yYWdlSGlkZGVuKCkgcHVibGljIHsKICAgICAgICBhc3NlcnRFcSh1aW50MjU2KGtlY2NhazI1NigibXkucmFuZG9tLnZhciIpKSwgc3Rkc3RvcmUudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZygiaGlkZGVuKCkiKS5maW5kKCkpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfU3RvcmFnZU9idmlvdXMoKSBwdWJsaWMgewogICAgICAgIGFzc2VydEVxKHVpbnQyNTYoMCksIHN0ZHN0b3JlLnRhcmdldChhZGRyZXNzKHRlc3QpKS5zaWcoImV4aXN0cygpIikuZmluZCgpKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X1N0b3JhZ2VFeHRyYVNsb2FkKCkgcHVibGljIHsKICAgICAgICBhc3NlcnRFcSgxNiwgc3Rkc3RvcmUudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZyh0ZXN0LmV4dHJhX3Nsb2FkLnNlbGVjdG9yKS5maW5kKCkpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfU3RvcmFnZUNoZWNrZWRXcml0ZUhpZGRlbigpIHB1YmxpYyB7CiAgICAgICAgc3Rkc3RvcmUudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZyh0ZXN0LmhpZGRlbi5zZWxlY3RvcikuY2hlY2tlZF93cml0ZSgxMDApOwogICAgICAgIGFzc2VydEVxKHVpbnQyNTYodGVzdC5oaWRkZW4oKSksIDEwMCk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9TdG9yYWdlQ2hlY2tlZFdyaXRlT2J2aW91cygpIHB1YmxpYyB7CiAgICAgICAgc3Rkc3RvcmUudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZyh0ZXN0LmV4aXN0cy5zZWxlY3RvcikuY2hlY2tlZF93cml0ZSgxMDApOwogICAgICAgIGFzc2VydEVxKHRlc3QuZXhpc3RzKCksIDEwMCk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9TdG9yYWdlQ2hlY2tlZFdyaXRlU2lnbmVkSW50ZWdlckhpZGRlbigpIHB1YmxpYyB7CiAgICAgICAgc3Rkc3RvcmUudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZyh0ZXN0LmhpZGRlbi5zZWxlY3RvcikuY2hlY2tlZF93cml0ZV9pbnQoLTEwMCk7CiAgICAgICAgYXNzZXJ0RXEoaW50MjU2KHVpbnQyNTYodGVzdC5oaWRkZW4oKSkpLCAtMTAwKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X1N0b3JhZ2VDaGVja2VkV3JpdGVTaWduZWRJbnRlZ2VyT2J2aW91cygpIHB1YmxpYyB7CiAgICAgICAgc3Rkc3RvcmUudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZyh0ZXN0LnRHLnNlbGVjdG9yKS5jaGVja2VkX3dyaXRlX2ludCgtMTAwKTsKICAgICAgICBhc3NlcnRFcSh0ZXN0LnRHKCksIC0xMDApOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfU3RvcmFnZU1hcFN0cnVjdEEoKSBwdWJsaWMgewogICAgICAgIHVpbnQyNTYgc2xvdCA9CiAgICAgICAgICAgIHN0ZHN0b3JlLnRhcmdldChhZGRyZXNzKHRlc3QpKS5zaWcodGVzdC5tYXBfc3RydWN0LnNlbGVjdG9yKS53aXRoX2tleShhZGRyZXNzKHRoaXMpKS5kZXB0aCgwKS5maW5kKCk7CiAgICAgICAgYXNzZXJ0RXEodWludDI1NihrZWNjYWsyNTYoYWJpLmVuY29kZShhZGRyZXNzKHRoaXMpLCA0KSkpLCBzbG90KTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X1N0b3JhZ2VNYXBTdHJ1Y3RCKCkgcHVibGljIHsKICAgICAgICB1aW50MjU2IHNsb3QgPQogICAgICAgICAgICBzdGRzdG9yZS50YXJnZXQoYWRkcmVzcyh0ZXN0KSkuc2lnKHRlc3QubWFwX3N0cnVjdC5zZWxlY3Rvcikud2l0aF9rZXkoYWRkcmVzcyh0aGlzKSkuZGVwdGgoMSkuZmluZCgpOwogICAgICAgIGFzc2VydEVxKHVpbnQyNTYoa2VjY2FrMjU2KGFiaS5lbmNvZGUoYWRkcmVzcyh0aGlzKSwgNCkpKSArIDEsIHNsb3QpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfU3RvcmFnZURlZXBNYXAoKSBwdWJsaWMgewogICAgICAgIHVpbnQyNTYgc2xvdCA9IHN0ZHN0b3JlLnRhcmdldChhZGRyZXNzKHRlc3QpKS5zaWcodGVzdC5kZWVwX21hcC5zZWxlY3Rvcikud2l0aF9rZXkoYWRkcmVzcyh0aGlzKSkud2l0aF9rZXkoCiAgICAgICAgICAgIGFkZHJlc3ModGhpcykKICAgICAgICApLmZpbmQoKTsKICAgICAgICBhc3NlcnRFcSh1aW50MjU2KGtlY2NhazI1NihhYmkuZW5jb2RlKGFkZHJlc3ModGhpcyksIGtlY2NhazI1NihhYmkuZW5jb2RlKGFkZHJlc3ModGhpcyksIHVpbnQyNTYoNSkpKSkpKSwgc2xvdCk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9TdG9yYWdlQ2hlY2tlZFdyaXRlRGVlcE1hcCgpIHB1YmxpYyB7CiAgICAgICAgc3Rkc3RvcmUudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZyh0ZXN0LmRlZXBfbWFwLnNlbGVjdG9yKS53aXRoX2tleShhZGRyZXNzKHRoaXMpKS53aXRoX2tleShhZGRyZXNzKHRoaXMpKQogICAgICAgICAgICAuY2hlY2tlZF93cml0ZSgxMDApOwogICAgICAgIGFzc2VydEVxKDEwMCwgdGVzdC5kZWVwX21hcChhZGRyZXNzKHRoaXMpLCBhZGRyZXNzKHRoaXMpKSk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9TdG9yYWdlRGVlcE1hcFN0cnVjdEEoKSBwdWJsaWMgewogICAgICAgIHVpbnQyNTYgc2xvdCA9IHN0ZHN0b3JlLnRhcmdldChhZGRyZXNzKHRlc3QpKS5zaWcodGVzdC5kZWVwX21hcF9zdHJ1Y3Quc2VsZWN0b3IpLndpdGhfa2V5KGFkZHJlc3ModGhpcykpCiAgICAgICAgICAgIC53aXRoX2tleShhZGRyZXNzKHRoaXMpKS5kZXB0aCgwKS5maW5kKCk7CiAgICAgICAgYXNzZXJ0RXEoCiAgICAgICAgICAgIGJ5dGVzMzIodWludDI1NihrZWNjYWsyNTYoYWJpLmVuY29kZShhZGRyZXNzKHRoaXMpLCBrZWNjYWsyNTYoYWJpLmVuY29kZShhZGRyZXNzKHRoaXMpLCB1aW50MjU2KDYpKSkpKSkgKyAwKSwKICAgICAgICAgICAgYnl0ZXMzMihzbG90KQogICAgICAgICk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9TdG9yYWdlRGVlcE1hcFN0cnVjdEIoKSBwdWJsaWMgewogICAgICAgIHVpbnQyNTYgc2xvdCA9IHN0ZHN0b3JlLnRhcmdldChhZGRyZXNzKHRlc3QpKS5zaWcodGVzdC5kZWVwX21hcF9zdHJ1Y3Quc2VsZWN0b3IpLndpdGhfa2V5KGFkZHJlc3ModGhpcykpCiAgICAgICAgICAgIC53aXRoX2tleShhZGRyZXNzKHRoaXMpKS5kZXB0aCgxKS5maW5kKCk7CiAgICAgICAgYXNzZXJ0RXEoCiAgICAgICAgICAgIGJ5dGVzMzIodWludDI1NihrZWNjYWsyNTYoYWJpLmVuY29kZShhZGRyZXNzKHRoaXMpLCBrZWNjYWsyNTYoYWJpLmVuY29kZShhZGRyZXNzKHRoaXMpLCB1aW50MjU2KDYpKSkpKSkgKyAxKSwKICAgICAgICAgICAgYnl0ZXMzMihzbG90KQogICAgICAgICk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9TdG9yYWdlQ2hlY2tlZFdyaXRlRGVlcE1hcFN0cnVjdEEoKSBwdWJsaWMgewogICAgICAgIHN0ZHN0b3JlLnRhcmdldChhZGRyZXNzKHRlc3QpKS5zaWcodGVzdC5kZWVwX21hcF9zdHJ1Y3Quc2VsZWN0b3IpLndpdGhfa2V5KGFkZHJlc3ModGhpcykpLndpdGhfa2V5KAogICAgICAgICAgICBhZGRyZXNzKHRoaXMpCiAgICAgICAgKS5kZXB0aCgwKS5jaGVja2VkX3dyaXRlKDEwMCk7CiAgICAgICAgKHVpbnQyNTYgYSwgdWludDI1NiBiKSA9IHRlc3QuZGVlcF9tYXBfc3RydWN0KGFkZHJlc3ModGhpcyksIGFkZHJlc3ModGhpcykpOwogICAgICAgIGFzc2VydEVxKDEwMCwgYSk7CiAgICAgICAgYXNzZXJ0RXEoMCwgYik7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9TdG9yYWdlQ2hlY2tlZFdyaXRlRGVlcE1hcFN0cnVjdEIoKSBwdWJsaWMgewogICAgICAgIHN0ZHN0b3JlLnRhcmdldChhZGRyZXNzKHRlc3QpKS5zaWcodGVzdC5kZWVwX21hcF9zdHJ1Y3Quc2VsZWN0b3IpLndpdGhfa2V5KGFkZHJlc3ModGhpcykpLndpdGhfa2V5KAogICAgICAgICAgICBhZGRyZXNzKHRoaXMpCiAgICAgICAgKS5kZXB0aCgxKS5jaGVja2VkX3dyaXRlKDEwMCk7CiAgICAgICAgKHVpbnQyNTYgYSwgdWludDI1NiBiKSA9IHRlc3QuZGVlcF9tYXBfc3RydWN0KGFkZHJlc3ModGhpcyksIGFkZHJlc3ModGhpcykpOwogICAgICAgIGFzc2VydEVxKDAsIGEpOwogICAgICAgIGFzc2VydEVxKDEwMCwgYik7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9TdG9yYWdlQ2hlY2tlZFdyaXRlTWFwU3RydWN0QSgpIHB1YmxpYyB7CiAgICAgICAgc3Rkc3RvcmUudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZyh0ZXN0Lm1hcF9zdHJ1Y3Quc2VsZWN0b3IpLndpdGhfa2V5KGFkZHJlc3ModGhpcykpLmRlcHRoKDApLmNoZWNrZWRfd3JpdGUoMTAwKTsKICAgICAgICAodWludDI1NiBhLCB1aW50MjU2IGIpID0gdGVzdC5tYXBfc3RydWN0KGFkZHJlc3ModGhpcykpOwogICAgICAgIGFzc2VydEVxKGEsIDEwMCk7CiAgICAgICAgYXNzZXJ0RXEoYiwgMCk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9TdG9yYWdlQ2hlY2tlZFdyaXRlTWFwU3RydWN0QigpIHB1YmxpYyB7CiAgICAgICAgc3Rkc3RvcmUudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZyh0ZXN0Lm1hcF9zdHJ1Y3Quc2VsZWN0b3IpLndpdGhfa2V5KGFkZHJlc3ModGhpcykpLmRlcHRoKDEpLmNoZWNrZWRfd3JpdGUoMTAwKTsKICAgICAgICAodWludDI1NiBhLCB1aW50MjU2IGIpID0gdGVzdC5tYXBfc3RydWN0KGFkZHJlc3ModGhpcykpOwogICAgICAgIGFzc2VydEVxKGEsIDApOwogICAgICAgIGFzc2VydEVxKGIsIDEwMCk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9TdG9yYWdlU3RydWN0QSgpIHB1YmxpYyB7CiAgICAgICAgdWludDI1NiBzbG90ID0gc3Rkc3RvcmUudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZyh0ZXN0LmJhc2ljLnNlbGVjdG9yKS5kZXB0aCgwKS5maW5kKCk7CiAgICAgICAgYXNzZXJ0RXEodWludDI1Nig3KSwgc2xvdCk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9TdG9yYWdlU3RydWN0QigpIHB1YmxpYyB7CiAgICAgICAgdWludDI1NiBzbG90ID0gc3Rkc3RvcmUudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZyh0ZXN0LmJhc2ljLnNlbGVjdG9yKS5kZXB0aCgxKS5maW5kKCk7CiAgICAgICAgYXNzZXJ0RXEodWludDI1Nig3KSArIDEsIHNsb3QpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfU3RvcmFnZUNoZWNrZWRXcml0ZVN0cnVjdEEoKSBwdWJsaWMgewogICAgICAgIHN0ZHN0b3JlLnRhcmdldChhZGRyZXNzKHRlc3QpKS5zaWcodGVzdC5iYXNpYy5zZWxlY3RvcikuZGVwdGgoMCkuY2hlY2tlZF93cml0ZSgxMDApOwogICAgICAgICh1aW50MjU2IGEsIHVpbnQyNTYgYikgPSB0ZXN0LmJhc2ljKCk7CiAgICAgICAgYXNzZXJ0RXEoYSwgMTAwKTsKICAgICAgICBhc3NlcnRFcShiLCAxMzM3KTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X1N0b3JhZ2VDaGVja2VkV3JpdGVTdHJ1Y3RCKCkgcHVibGljIHsKICAgICAgICBzdGRzdG9yZS50YXJnZXQoYWRkcmVzcyh0ZXN0KSkuc2lnKHRlc3QuYmFzaWMuc2VsZWN0b3IpLmRlcHRoKDEpLmNoZWNrZWRfd3JpdGUoMTAwKTsKICAgICAgICAodWludDI1NiBhLCB1aW50MjU2IGIpID0gdGVzdC5iYXNpYygpOwogICAgICAgIGFzc2VydEVxKGEsIDEzMzcpOwogICAgICAgIGFzc2VydEVxKGIsIDEwMCk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9TdG9yYWdlTWFwQWRkckZvdW5kKCkgcHVibGljIHsKICAgICAgICB1aW50MjU2IHNsb3QgPSBzdGRzdG9yZS50YXJnZXQoYWRkcmVzcyh0ZXN0KSkuc2lnKHRlc3QubWFwX2FkZHIuc2VsZWN0b3IpLndpdGhfa2V5KGFkZHJlc3ModGhpcykpLmZpbmQoKTsKICAgICAgICBhc3NlcnRFcSh1aW50MjU2KGtlY2NhazI1NihhYmkuZW5jb2RlKGFkZHJlc3ModGhpcyksIHVpbnQyNTYoMSkpKSksIHNsb3QpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfU3RvcmFnZU1hcEFkZHJSb290KCkgcHVibGljIHsKICAgICAgICAodWludDI1NiBzbG90LCBieXRlczMyIGtleSkgPQogICAgICAgICAgICBzdGRzdG9yZS50YXJnZXQoYWRkcmVzcyh0ZXN0KSkuc2lnKHRlc3QubWFwX2FkZHIuc2VsZWN0b3IpLndpdGhfa2V5KGFkZHJlc3ModGhpcykpLnBhcmVudCgpOwogICAgICAgIGFzc2VydEVxKGFkZHJlc3ModWludDE2MCh1aW50MjU2KGtleSkpKSwgYWRkcmVzcyh0aGlzKSk7CiAgICAgICAgYXNzZXJ0RXEodWludDI1NigxKSwgc2xvdCk7CiAgICAgICAgc2xvdCA9IHN0ZHN0b3JlLnRhcmdldChhZGRyZXNzKHRlc3QpKS5zaWcodGVzdC5tYXBfYWRkci5zZWxlY3Rvcikud2l0aF9rZXkoYWRkcmVzcyh0aGlzKSkucm9vdCgpOwogICAgICAgIGFzc2VydEVxKHVpbnQyNTYoMSksIHNsb3QpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfU3RvcmFnZU1hcFVpbnRGb3VuZCgpIHB1YmxpYyB7CiAgICAgICAgdWludDI1NiBzbG90ID0gc3Rkc3RvcmUudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZyh0ZXN0Lm1hcF91aW50LnNlbGVjdG9yKS53aXRoX2tleSgxMDApLmZpbmQoKTsKICAgICAgICBhc3NlcnRFcSh1aW50MjU2KGtlY2NhazI1NihhYmkuZW5jb2RlKDEwMCwgdWludDI1NigyKSkpKSwgc2xvdCk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9TdG9yYWdlQ2hlY2tlZFdyaXRlTWFwVWludCgpIHB1YmxpYyB7CiAgICAgICAgc3Rkc3RvcmUudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZyh0ZXN0Lm1hcF91aW50LnNlbGVjdG9yKS53aXRoX2tleSgxMDApLmNoZWNrZWRfd3JpdGUoMTAwKTsKICAgICAgICBhc3NlcnRFcSgxMDAsIHRlc3QubWFwX3VpbnQoMTAwKSk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9TdG9yYWdlQ2hlY2tlZFdyaXRlTWFwQWRkcigpIHB1YmxpYyB7CiAgICAgICAgc3Rkc3RvcmUudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZyh0ZXN0Lm1hcF9hZGRyLnNlbGVjdG9yKS53aXRoX2tleShhZGRyZXNzKHRoaXMpKS5jaGVja2VkX3dyaXRlKDEwMCk7CiAgICAgICAgYXNzZXJ0RXEoMTAwLCB0ZXN0Lm1hcF9hZGRyKGFkZHJlc3ModGhpcykpKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X1N0b3JhZ2VDaGVja2VkV3JpdGVNYXBCb29sKCkgcHVibGljIHsKICAgICAgICBzdGRzdG9yZS50YXJnZXQoYWRkcmVzcyh0ZXN0KSkuc2lnKHRlc3QubWFwX2Jvb2wuc2VsZWN0b3IpLndpdGhfa2V5KGFkZHJlc3ModGhpcykpLmNoZWNrZWRfd3JpdGUodHJ1ZSk7CiAgICAgICAgYXNzZXJ0VHJ1ZSh0ZXN0Lm1hcF9ib29sKGFkZHJlc3ModGhpcykpKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0RmFpbF9TdG9yYWdlQ2hlY2tlZFdyaXRlTWFwUGFja2VkKCkgcHVibGljIHsKICAgICAgICAvLyBleHBlY3QgUGFja2VkU2xvdCBlcnJvciBidXQgbm90IGV4dGVybmFsIGNhbGwgc28gY2FudCBleHBlY3RSZXZlcnQKICAgICAgICBzdGRzdG9yZS50YXJnZXQoYWRkcmVzcyh0ZXN0KSkuc2lnKHRlc3QucmVhZF9zdHJ1Y3RfbG93ZXIuc2VsZWN0b3IpLndpdGhfa2V5KGFkZHJlc3ModWludDE2MCgxMzM3KSkpCiAgICAgICAgICAgIC5jaGVja2VkX3dyaXRlKDEwMCk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9TdG9yYWdlQ2hlY2tlZFdyaXRlTWFwUGFja2VkU3VjY2VzcygpIHB1YmxpYyB7CiAgICAgICAgdWludDI1NiBmdWxsID0gdGVzdC5tYXBfcGFja2VkKGFkZHJlc3MoMTMzNykpOwogICAgICAgIC8vIGtlZXAgdXBwZXIgMTI4LCBzZXQgbG93ZXIgMTI4IHRvIDEzMzcKICAgICAgICBmdWxsID0gKGZ1bGwgJiAodWludDI1NigoMSA8PCAxMjgpIC0gMSkgPDwgMTI4KSkgfCAxMzM3OwogICAgICAgIHN0ZHN0b3JlLnRhcmdldChhZGRyZXNzKHRlc3QpKS5zaWcodGVzdC5tYXBfcGFja2VkLnNlbGVjdG9yKS53aXRoX2tleShhZGRyZXNzKHVpbnQxNjAoMTMzNykpKS5jaGVja2VkX3dyaXRlKAogICAgICAgICAgICBmdWxsCiAgICAgICAgKTsKICAgICAgICBhc3NlcnRFcSgxMzM3LCB0ZXN0LnJlYWRfc3RydWN0X2xvd2VyKGFkZHJlc3MoMTMzNykpKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0RmFpbF9TdG9yYWdlQ29uc3QoKSBwdWJsaWMgewogICAgICAgIC8vIHZtLmV4cGVjdFJldmVydChhYmkuZW5jb2RlV2l0aFNpZ25hdHVyZSgiTm90U3RvcmFnZShieXRlczQpIiwgYnl0ZXM0KGtlY2NhazI1NigiY29uc3QoKSIpKSkpOwogICAgICAgIHN0ZHN0b3JlLnRhcmdldChhZGRyZXNzKHRlc3QpKS5zaWcoImNvbnN0KCkiKS5maW5kKCk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdEZhaWxfU3RvcmFnZU5hdGl2ZVBhY2soKSBwdWJsaWMgewogICAgICAgIHN0ZHN0b3JlLnRhcmdldChhZGRyZXNzKHRlc3QpKS5zaWcodGVzdC50QS5zZWxlY3RvcikuZmluZCgpOwogICAgICAgIHN0ZHN0b3JlLnRhcmdldChhZGRyZXNzKHRlc3QpKS5zaWcodGVzdC50Qi5zZWxlY3RvcikuZmluZCgpOwoKICAgICAgICAvLyB0aGVzZSBib3RoIHdvdWxkIGZhaWwKICAgICAgICBzdGRzdG9yZS50YXJnZXQoYWRkcmVzcyh0ZXN0KSkuc2lnKHRlc3QudEMuc2VsZWN0b3IpLmZpbmQoKTsKICAgICAgICBzdGRzdG9yZS50YXJnZXQoYWRkcmVzcyh0ZXN0KSkuc2lnKHRlc3QudEQuc2VsZWN0b3IpLmZpbmQoKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X1N0b3JhZ2VSZWFkQnl0ZXMzMigpIHB1YmxpYyB7CiAgICAgICAgYnl0ZXMzMiB2YWwgPSBzdGRzdG9yZS50YXJnZXQoYWRkcmVzcyh0ZXN0KSkuc2lnKHRlc3QudEUuc2VsZWN0b3IpLnJlYWRfYnl0ZXMzMigpOwogICAgICAgIGFzc2VydEVxKHZhbCwgaGV4IjEzMzciKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X1N0b3JhZ2VSZWFkQm9vbF9GYWxzZSgpIHB1YmxpYyB7CiAgICAgICAgYm9vbCB2YWwgPSBzdGRzdG9yZS50YXJnZXQoYWRkcmVzcyh0ZXN0KSkuc2lnKHRlc3QudEIuc2VsZWN0b3IpLnJlYWRfYm9vbCgpOwogICAgICAgIGFzc2VydEVxKHZhbCwgZmFsc2UpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfU3RvcmFnZVJlYWRCb29sX1RydWUoKSBwdWJsaWMgewogICAgICAgIGJvb2wgdmFsID0gc3Rkc3RvcmUudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZyh0ZXN0LnRILnNlbGVjdG9yKS5yZWFkX2Jvb2woKTsKICAgICAgICBhc3NlcnRFcSh2YWwsIHRydWUpOwogICAgfQoKICAgIGZ1bmN0aW9uIHRlc3RfU3RvcmFnZVJlYWRCb29sX1JldmVydCgpIHB1YmxpYyB7CiAgICAgICAgdm0uZXhwZWN0UmV2ZXJ0KCJzdGRTdG9yYWdlIHJlYWRfYm9vbChTdGRTdG9yYWdlKTogQ2Fubm90IGRlY29kZS4gTWFrZSBzdXJlIHlvdSBhcmUgcmVhZGluZyBhIGJvb2wuIik7CiAgICAgICAgdGhpcy5yZWFkTm9uQm9vbFZhbHVlKCk7CiAgICB9CgogICAgZnVuY3Rpb24gcmVhZE5vbkJvb2xWYWx1ZSgpIHB1YmxpYyB7CiAgICAgICAgc3Rkc3RvcmUudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZyh0ZXN0LnRFLnNlbGVjdG9yKS5yZWFkX2Jvb2woKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X1N0b3JhZ2VSZWFkQWRkcmVzcygpIHB1YmxpYyB7CiAgICAgICAgYWRkcmVzcyB2YWwgPSBzdGRzdG9yZS50YXJnZXQoYWRkcmVzcyh0ZXN0KSkuc2lnKHRlc3QudEYuc2VsZWN0b3IpLnJlYWRfYWRkcmVzcygpOwogICAgICAgIGFzc2VydEVxKHZhbCwgYWRkcmVzcygxMzM3KSk7CiAgICB9CgogICAgZnVuY3Rpb24gdGVzdF9TdG9yYWdlUmVhZFVpbnQoKSBwdWJsaWMgewogICAgICAgIHVpbnQyNTYgdmFsID0gc3Rkc3RvcmUudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZyh0ZXN0LmV4aXN0cy5zZWxlY3RvcikucmVhZF91aW50KCk7CiAgICAgICAgYXNzZXJ0RXEodmFsLCAxKTsKICAgIH0KCiAgICBmdW5jdGlvbiB0ZXN0X1N0b3JhZ2VSZWFkSW50KCkgcHVibGljIHsKICAgICAgICBpbnQyNTYgdmFsID0gc3Rkc3RvcmUudGFyZ2V0KGFkZHJlc3ModGVzdCkpLnNpZyh0ZXN0LnRHLnNlbGVjdG9yKS5yZWFkX2ludCgpOwogICAgICAgIGFzc2VydEVxKHZhbCwgdHlwZShpbnQyNTYpLm1pbik7CiAgICB9Cn0KCmNvbnRyYWN0IFN0b3JhZ2VUZXN0IHsKICAgIHVpbnQyNTYgcHVibGljIGV4aXN0cyA9IDE7CiAgICBtYXBwaW5nKGFkZHJlc3MgPT4gdWludDI1NikgcHVibGljIG1hcF9hZGRyOwogICAgbWFwcGluZyh1aW50MjU2ID0+IHVpbnQyNTYpIHB1YmxpYyBtYXBfdWludDsKICAgIG1hcHBpbmcoYWRkcmVzcyA9PiB1aW50MjU2KSBwdWJsaWMgbWFwX3BhY2tlZDsKICAgIG1hcHBpbmcoYWRkcmVzcyA9PiBVbnBhY2tlZFN0cnVjdCkgcHVibGljIG1hcF9zdHJ1Y3Q7CiAgICBtYXBwaW5nKGFkZHJlc3MgPT4gbWFwcGluZyhhZGRyZXNzID0+IHVpbnQyNTYpKSBwdWJsaWMgZGVlcF9tYXA7CiAgICBtYXBwaW5nKGFkZHJlc3MgPT4gbWFwcGluZyhhZGRyZXNzID0+IFVucGFja2VkU3RydWN0KSkgcHVibGljIGRlZXBfbWFwX3N0cnVjdDsKICAgIFVucGFja2VkU3RydWN0IHB1YmxpYyBiYXNpYzsKCiAgICB1aW50MjQ4IHB1YmxpYyB0QTsKICAgIGJvb2wgcHVibGljIHRCOwoKICAgIGJvb2wgcHVibGljIHRDID0gZmFsc2U7CiAgICB1aW50MjQ4IHB1YmxpYyB0RCA9IDE7CgogICAgc3RydWN0IFVucGFja2VkU3RydWN0IHsKICAgICAgICB1aW50MjU2IGE7CiAgICAgICAgdWludDI1NiBiOwogICAgfQoKICAgIG1hcHBpbmcoYWRkcmVzcyA9PiBib29sKSBwdWJsaWMgbWFwX2Jvb2w7CgogICAgYnl0ZXMzMiBwdWJsaWMgdEUgPSBoZXgiMTMzNyI7CiAgICBhZGRyZXNzIHB1YmxpYyB0RiA9IGFkZHJlc3MoMTMzNyk7CiAgICBpbnQyNTYgcHVibGljIHRHID0gdHlwZShpbnQyNTYpLm1pbjsKICAgIGJvb2wgcHVibGljIHRIID0gdHJ1ZTsKICAgIGJ5dGVzMzIgcHJpdmF0ZSB0SSA9IH5ieXRlczMyKGhleCIxMzM3Iik7CgogICAgY29uc3RydWN0b3IoKSB7CiAgICAgICAgYmFzaWMgPSBVbnBhY2tlZFN0cnVjdCh7YTogMTMzNywgYjogMTMzN30pOwoKICAgICAgICB1aW50MjU2IHR3byA9ICgxIDw8IDEyOCkgfCAxOwogICAgICAgIG1hcF9wYWNrZWRbbXNnLnNlbmRlcl0gPSB0d287CiAgICAgICAgbWFwX3BhY2tlZFthZGRyZXNzKHVpbnQxNjAoMTMzNykpXSA9IDEgPDwgMTI4OwogICAgfQoKICAgIGZ1bmN0aW9uIHJlYWRfc3RydWN0X3VwcGVyKGFkZHJlc3Mgd2hvKSBwdWJsaWMgdmlldyByZXR1cm5zICh1aW50MjU2KSB7CiAgICAgICAgcmV0dXJuIG1hcF9wYWNrZWRbd2hvXSA+PiAxMjg7CiAgICB9CgogICAgZnVuY3Rpb24gcmVhZF9zdHJ1Y3RfbG93ZXIoYWRkcmVzcyB3aG8pIHB1YmxpYyB2aWV3IHJldHVybnMgKHVpbnQyNTYpIHsKICAgICAgICByZXR1cm4gbWFwX3BhY2tlZFt3aG9dICYgKCgxIDw8IDEyOCkgLSAxKTsKICAgIH0KCiAgICBmdW5jdGlvbiBoaWRkZW4oKSBwdWJsaWMgdmlldyByZXR1cm5zIChieXRlczMyIHQpIHsKICAgICAgICBieXRlczMyIHNsb3QgPSBrZWNjYWsyNTYoIm15LnJhbmRvbS52YXIiKTsKICAgICAgICAvLy8gQHNvbGlkaXR5IG1lbW9yeS1zYWZlLWFzc2VtYmx5CiAgICAgICAgYXNzZW1ibHkgewogICAgICAgICAgICB0IDo9IHNsb2FkKHNsb3QpCiAgICAgICAgfQogICAgfQoKICAgIGZ1bmN0aW9uIGNvbnN0KCkgcHVibGljIHB1cmUgcmV0dXJucyAoYnl0ZXMzMiB0KSB7CiAgICAgICAgdCA9IGJ5dGVzMzIoaGV4IjEzMzciKTsKICAgIH0KCiAgICBmdW5jdGlvbiBleHRyYV9zbG9hZCgpIHB1YmxpYyB2aWV3IHJldHVybnMgKGJ5dGVzMzIgdCkgewogICAgICAgIC8vIHRyaWdnZXIgcmVhZCBvbiBzbG90IGB0RWAsIGFuZCBtYWtlIGEgc3RhdGljY2FsbCB0byBtYWtlIHN1cmUgY29tcGlsZXIgZG9lc24ndCBvcHRpbWl6ZSB0aGlzIFNMT0FEIGF3YXkKICAgICAgICBhc3NlbWJseSB7CiAgICAgICAgICAgIHBvcChzdGF0aWNjYWxsKGdhcygpLCBzbG9hZCh0RS5zbG90KSwgMCwgMCwgMCwgMCkpCiAgICAgICAgfQogICAgICAgIHQgPSB0STsKICAgIH0KfQo=
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.7.0 <0.9.0;
+
+import "../src/StdStorage.sol";
+import "../src/Test.sol";
+
+contract StdStorageTest is Test {
+    using stdStorage for StdStorage;
+
+    StorageTest internal test;
+
+    function setUp() public {
+        test = new StorageTest();
+    }
+
+    function test_StorageHidden() public {
+        assertEq(uint256(keccak256("my.random.var")), stdstore.target(address(test)).sig("hidden()").find());
+    }
+
+    function test_StorageObvious() public {
+        assertEq(uint256(0), stdstore.target(address(test)).sig("exists()").find());
+    }
+
+    function test_StorageExtraSload() public {
+        assertEq(16, stdstore.target(address(test)).sig(test.extra_sload.selector).find());
+    }
+
+    function test_StorageCheckedWriteHidden() public {
+        stdstore.target(address(test)).sig(test.hidden.selector).checked_write(100);
+        assertEq(uint256(test.hidden()), 100);
+    }
+
+    function test_StorageCheckedWriteObvious() public {
+        stdstore.target(address(test)).sig(test.exists.selector).checked_write(100);
+        assertEq(test.exists(), 100);
+    }
+
+    function test_StorageCheckedWriteSignedIntegerHidden() public {
+        stdstore.target(address(test)).sig(test.hidden.selector).checked_write_int(-100);
+        assertEq(int256(uint256(test.hidden())), -100);
+    }
+
+    function test_StorageCheckedWriteSignedIntegerObvious() public {
+        stdstore.target(address(test)).sig(test.tG.selector).checked_write_int(-100);
+        assertEq(test.tG(), -100);
+    }
+
+    function test_StorageMapStructA() public {
+        uint256 slot =
+            stdstore.target(address(test)).sig(test.map_struct.selector).with_key(address(this)).depth(0).find();
+        assertEq(uint256(keccak256(abi.encode(address(this), 4))), slot);
+    }
+
+    function test_StorageMapStructB() public {
+        uint256 slot =
+            stdstore.target(address(test)).sig(test.map_struct.selector).with_key(address(this)).depth(1).find();
+        assertEq(uint256(keccak256(abi.encode(address(this), 4))) + 1, slot);
+    }
+
+    function test_StorageDeepMap() public {
+        uint256 slot = stdstore.target(address(test)).sig(test.deep_map.selector).with_key(address(this)).with_key(
+            address(this)
+        ).find();
+        assertEq(uint256(keccak256(abi.encode(address(this), keccak256(abi.encode(address(this), uint256(5)))))), slot);
+    }
+
+    function test_StorageCheckedWriteDeepMap() public {
+        stdstore.target(address(test)).sig(test.deep_map.selector).with_key(address(this)).with_key(address(this))
+            .checked_write(100);
+        assertEq(100, test.deep_map(address(this), address(this)));
+    }
+
+    function test_StorageDeepMapStructA() public {
+        uint256 slot = stdstore.target(address(test)).sig(test.deep_map_struct.selector).with_key(address(this))
+            .with_key(address(this)).depth(0).find();
+        assertEq(
+            bytes32(uint256(keccak256(abi.encode(address(this), keccak256(abi.encode(address(this), uint256(6)))))) + 0),
+            bytes32(slot)
+        );
+    }
+
+    function test_StorageDeepMapStructB() public {
+        uint256 slot = stdstore.target(address(test)).sig(test.deep_map_struct.selector).with_key(address(this))
+            .with_key(address(this)).depth(1).find();
+        assertEq(
+            bytes32(uint256(keccak256(abi.encode(address(this), keccak256(abi.encode(address(this), uint256(6)))))) + 1),
+            bytes32(slot)
+        );
+    }
+
+    function test_StorageCheckedWriteDeepMapStructA() public {
+        stdstore.target(address(test)).sig(test.deep_map_struct.selector).with_key(address(this)).with_key(
+            address(this)
+        ).depth(0).checked_write(100);
+        (uint256 a, uint256 b) = test.deep_map_struct(address(this), address(this));
+        assertEq(100, a);
+        assertEq(0, b);
+    }
+
+    function test_StorageCheckedWriteDeepMapStructB() public {
+        stdstore.target(address(test)).sig(test.deep_map_struct.selector).with_key(address(this)).with_key(
+            address(this)
+        ).depth(1).checked_write(100);
+        (uint256 a, uint256 b) = test.deep_map_struct(address(this), address(this));
+        assertEq(0, a);
+        assertEq(100, b);
+    }
+
+    function test_StorageCheckedWriteMapStructA() public {
+        stdstore.target(address(test)).sig(test.map_struct.selector).with_key(address(this)).depth(0).checked_write(100);
+        (uint256 a, uint256 b) = test.map_struct(address(this));
+        assertEq(a, 100);
+        assertEq(b, 0);
+    }
+
+    function test_StorageCheckedWriteMapStructB() public {
+        stdstore.target(address(test)).sig(test.map_struct.selector).with_key(address(this)).depth(1).checked_write(100);
+        (uint256 a, uint256 b) = test.map_struct(address(this));
+        assertEq(a, 0);
+        assertEq(b, 100);
+    }
+
+    function test_StorageStructA() public {
+        uint256 slot = stdstore.target(address(test)).sig(test.basic.selector).depth(0).find();
+        assertEq(uint256(7), slot);
+    }
+
+    function test_StorageStructB() public {
+        uint256 slot = stdstore.target(address(test)).sig(test.basic.selector).depth(1).find();
+        assertEq(uint256(7) + 1, slot);
+    }
+
+    function test_StorageCheckedWriteStructA() public {
+        stdstore.target(address(test)).sig(test.basic.selector).depth(0).checked_write(100);
+        (uint256 a, uint256 b) = test.basic();
+        assertEq(a, 100);
+        assertEq(b, 1337);
+    }
+
+    function test_StorageCheckedWriteStructB() public {
+        stdstore.target(address(test)).sig(test.basic.selector).depth(1).checked_write(100);
+        (uint256 a, uint256 b) = test.basic();
+        assertEq(a, 1337);
+        assertEq(b, 100);
+    }
+
+    function test_StorageMapAddrFound() public {
+        uint256 slot = stdstore.target(address(test)).sig(test.map_addr.selector).with_key(address(this)).find();
+        assertEq(uint256(keccak256(abi.encode(address(this), uint256(1)))), slot);
+    }
+
+    function test_StorageMapAddrRoot() public {
+        (uint256 slot, bytes32 key) =
+            stdstore.target(address(test)).sig(test.map_addr.selector).with_key(address(this)).parent();
+        assertEq(address(uint160(uint256(key))), address(this));
+        assertEq(uint256(1), slot);
+        slot = stdstore.target(address(test)).sig(test.map_addr.selector).with_key(address(this)).root();
+        assertEq(uint256(1), slot);
+    }
+
+    function test_StorageMapUintFound() public {
+        uint256 slot = stdstore.target(address(test)).sig(test.map_uint.selector).with_key(100).find();
+        assertEq(uint256(keccak256(abi.encode(100, uint256(2)))), slot);
+    }
+
+    function test_StorageCheckedWriteMapUint() public {
+        stdstore.target(address(test)).sig(test.map_uint.selector).with_key(100).checked_write(100);
+        assertEq(100, test.map_uint(100));
+    }
+
+    function test_StorageCheckedWriteMapAddr() public {
+        stdstore.target(address(test)).sig(test.map_addr.selector).with_key(address(this)).checked_write(100);
+        assertEq(100, test.map_addr(address(this)));
+    }
+
+    function test_StorageCheckedWriteMapBool() public {
+        stdstore.target(address(test)).sig(test.map_bool.selector).with_key(address(this)).checked_write(true);
+        assertTrue(test.map_bool(address(this)));
+    }
+
+    function testFail_StorageCheckedWriteMapPacked() public {
+        // expect PackedSlot error but not external call so cant expectRevert
+        stdstore.target(address(test)).sig(test.read_struct_lower.selector).with_key(address(uint160(1337)))
+            .checked_write(100);
+    }
+
+    function test_StorageCheckedWriteMapPackedSuccess() public {
+        uint256 full = test.map_packed(address(1337));
+        // keep upper 128, set lower 128 to 1337
+        full = (full & (uint256((1 << 128) - 1) << 128)) | 1337;
+        stdstore.target(address(test)).sig(test.map_packed.selector).with_key(address(uint160(1337))).checked_write(
+            full
+        );
+        assertEq(1337, test.read_struct_lower(address(1337)));
+    }
+
+    function testFail_StorageConst() public {
+        // vm.expectRevert(abi.encodeWithSignature("NotStorage(bytes4)", bytes4(keccak256("const()"))));
+        stdstore.target(address(test)).sig("const()").find();
+    }
+
+    function testFail_StorageNativePack() public {
+        stdstore.target(address(test)).sig(test.tA.selector).find();
+        stdstore.target(address(test)).sig(test.tB.selector).find();
+
+        // these both would fail
+        stdstore.target(address(test)).sig(test.tC.selector).find();
+        stdstore.target(address(test)).sig(test.tD.selector).find();
+    }
+
+    function test_StorageReadBytes32() public {
+        bytes32 val = stdstore.target(address(test)).sig(test.tE.selector).read_bytes32();
+        assertEq(val, hex"1337");
+    }
+
+    function test_StorageReadBool_False() public {
+        bool val = stdstore.target(address(test)).sig(test.tB.selector).read_bool();
+        assertEq(val, false);
+    }
+
+    function test_StorageReadBool_True() public {
+        bool val = stdstore.target(address(test)).sig(test.tH.selector).read_bool();
+        assertEq(val, true);
+    }
+
+    function test_StorageReadBool_Revert() public {
+        vm.expectRevert("stdStorage read_bool(StdStorage): Cannot decode. Make sure you are reading a bool.");
+        this.readNonBoolValue();
+    }
+
+    function readNonBoolValue() public {
+        stdstore.target(address(test)).sig(test.tE.selector).read_bool();
+    }
+
+    function test_StorageReadAddress() public {
+        address val = stdstore.target(address(test)).sig(test.tF.selector).read_address();
+        assertEq(val, address(1337));
+    }
+
+    function test_StorageReadUint() public {
+        uint256 val = stdstore.target(address(test)).sig(test.exists.selector).read_uint();
+        assertEq(val, 1);
+    }
+
+    function test_StorageReadInt() public {
+        int256 val = stdstore.target(address(test)).sig(test.tG.selector).read_int();
+        assertEq(val, type(int256).min);
+    }
+}
+
+contract StorageTest {
+    uint256 public exists = 1;
+    mapping(address => uint256) public map_addr;
+    mapping(uint256 => uint256) public map_uint;
+    mapping(address => uint256) public map_packed;
+    mapping(address => UnpackedStruct) public map_struct;
+    mapping(address => mapping(address => uint256)) public deep_map;
+    mapping(address => mapping(address => UnpackedStruct)) public deep_map_struct;
+    UnpackedStruct public basic;
+
+    uint248 public tA;
+    bool public tB;
+
+    bool public tC = false;
+    uint248 public tD = 1;
+
+    struct UnpackedStruct {
+        uint256 a;
+        uint256 b;
+    }
+
+    mapping(address => bool) public map_bool;
+
+    bytes32 public tE = hex"1337";
+    address public tF = address(1337);
+    int256 public tG = type(int256).min;
+    bool public tH = true;
+    bytes32 private tI = ~bytes32(hex"1337");
+
+    constructor() {
+        basic = UnpackedStruct({a: 1337, b: 1337});
+
+        uint256 two = (1 << 128) | 1;
+        map_packed[msg.sender] = two;
+        map_packed[address(uint160(1337))] = 1 << 128;
+    }
+
+    function read_struct_upper(address who) public view returns (uint256) {
+        return map_packed[who] >> 128;
+    }
+
+    function read_struct_lower(address who) public view returns (uint256) {
+        return map_packed[who] & ((1 << 128) - 1);
+    }
+
+    function hidden() public view returns (bytes32 t) {
+        bytes32 slot = keccak256("my.random.var");
+        /// @solidity memory-safe-assembly
+        assembly {
+            t := sload(slot)
+        }
+    }
+
+    function const() public pure returns (bytes32 t) {
+        t = bytes32(hex"1337");
+    }
+
+    function extra_sload() public view returns (bytes32 t) {
+        // trigger read on slot `tE`, and make a staticcall to make sure compiler doesn't optimize this SLOAD away
+        assembly {
+            pop(staticcall(gas(), sload(tE.slot), 0, 0, 0, 0))
+        }
+        t = tI;
+    }
+}
